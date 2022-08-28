@@ -1,40 +1,54 @@
-- [«gnupg_geterrorinfo](function.gnupg-geterrorinfo.md)
-- [gnupg_gettrustlist »](function.gnupg-gettrustlist.md)
+Повертає поточний активний протокол для всіх операцій
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Повертає поточний активний протокол для всіх операцій
+-   [« gnupg\_geterrorinfo](function.gnupg-geterrorinfo.html)
+    
+-   [gnupg\_gettrustlist »](function.gnupg-gettrustlist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Повертає поточний активний протокол для всіх операцій
+    
 
-#gnupg_getprotocol
+# gnupggetprotocol
 
-(PECL gnupg \>= 0.1)
+(PECL gnupg >= 0.1)
 
-gnupg_getprotocol — Повертає поточний активний протокол для всіх
-операцій
+gnupggetprotocol — Повертає поточний активний протокол для всіх операцій
 
 ### Опис
 
-**gnupg_getprotocol**(resource `$identifier`): int
+```methodsynopsis
+gnupg_getprotocol(resource $identifier): int
+```
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 ### Значення, що повертаються
 
-Повертає поточний активний протокол, який може бути одним з
-**`GNUPG_PROTOCOL_OpenPGP`** або **`GNUPG_PROTOCOL_CMS`**.
+Повертає поточний активний протокол, який може бути одним із **`GNUPG_PROTOCOL_OpenPGP`** або **`GNUPG_PROTOCOL_CMS`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_getprotocol()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupggetprotocol()** у процедурному стилі**
 
-` <?php$res = gnupg_init();echo gnupg_getprotocol($res);?> `
+```php
+<?php
+$res = gnupg_init();
+echo gnupg_getprotocol($res);
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_getprotocol()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupggetprotocol()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();echo $gpg->getprotocol();?> `
+```php
+<?php
+$gpg = new gnupg();
+echo $gpg->getprotocol();
+?>
+```

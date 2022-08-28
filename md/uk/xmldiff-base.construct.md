@@ -1,26 +1,30 @@
-- [« XMLDiff\Base](class.xmldiff-base.md)
-- [XMLDiff\Base::diff »](xmldiff-base.diff.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [XMLDiff\Base](class.xmldiff-base.md)
-- Конструктор
+-   [« XMLDiff\\Base](class.xmldiff-base.html)
+    
+-   [XMLDiff\\Base::diff »](xmldiff-base.diff.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLDiff\\Base](class.xmldiff-base.html)
+    
+-   Конструктор
+    
 
-# XMLDiff\Base::\_\_construct
+# XMLDiffBase::construct
 
-(PECL xmldiff \>= 0.8.0)
+(PECL xmldiff >= 0.8.0)
 
-XMLDiff\Base::\_\_construct - Конструктор
+XMLDiffBase::construct — Конструктор
 
 ### Опис
 
-public **XMLDiff\Base::\_\_construct**(string `$nsname`)
+public **XMLDiffBase::construct**(string `$nsname`
 
 Базовий конструктор для всіх робочих класів модуля xmldiff.
 
 ### Список параметрів
 
 `nsname`
-Вибране ім'я простору для порівняння документів. Простір
-імен за замовчуванням http://www.locus.cz/diffmark і цього достатньо для
-уникнення конфлікту просторів імен. Використовуйте цей параметр, якщо,
-з якоїсь причини, ви хочете змінити значення за замовчуванням.
+
+Вибране ім'я простору для порівняння документів. Простір за промовчанням [http://www.locus.cz/diffmark](http://www.locus.cz/diffmark) і цього достатньо, щоб уникнути конфлікту просторів імен. Використовуйте цей параметр, якщо, з якоїсь причини, ви хочете змінити значення за промовчанням.

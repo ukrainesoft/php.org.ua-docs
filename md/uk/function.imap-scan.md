@@ -1,17 +1,22 @@
-- [« imap_savebody](function.imap-savebody.md)
-- [imap_scanmailbox »](function.imap-scanmailbox.md)
+Псевдонім imaplistscan
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Псевдонім imap_listscan
+-   [« imap\_savebody](function.imap-savebody.html)
+    
+-   [imap\_scanmailbox »](function.imap-scanmailbox.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Псевдонім imaplistscan
+    
 
-#imap_scan
+# imapscan
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_scan - Псевдонім [imap_listscan()](function.imap-listscan.md)
+imapscan - Псевдонім [imap\_listscan()](function.imap-listscan.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[imap_listscan()](function.imap-listscan.md).
+Ця функція є псевдонімом: [imap\_listscan()](function.imap-listscan.html)

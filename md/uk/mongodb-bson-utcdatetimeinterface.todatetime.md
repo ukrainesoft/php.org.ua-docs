@@ -1,21 +1,27 @@
-- [« MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
-- [MongoDB\BSON\UTCDateTimeInterface::\_\_toString »](mongodb-bson-utcdatetimeinterface.tostring.md)
+Повертає уявлення DateTime цього UTCDateTimeInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
-- Повертає уявлення DateTime цього UTCDateTimeInterface
+-   [« MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
+    
+-   [MongoDB\\BSON\\UTCDateTimeInterface::\_\_toString »](mongodb-bson-utcdatetimeinterface.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
+    
+-   Повертає уявлення DateTime цього UTCDateTimeInterface
+    
 
-# MongoDB\BSON\UTCDateTimeInterface::toDateTime
+# MongoDBBSONUTCDateTimeInterface::toDateTime
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
-MongoDB\BSON\UTCDateTimeInterface::toDateTime — Повертає виставу
-DateTime цього UTCDateTimeInterface
+MongoDBBSONUTCDateTimeInterface::toDateTime — Повертає уявлення DateTime цього UTCDateTimeInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\UTCDateTimeInterface::toDateTime**():
-[DateTime](class.datetime.md)
+```methodsynopsis
+abstract public MongoDB\BSON\UTCDateTimeInterface::toDateTime(): DateTime
+```
 
 ### Список параметрів
 
@@ -23,11 +29,8 @@ abstract public **MongoDB\BSON\UTCDateTimeInterface::toDateTime**():
 
 ### Значення, що повертаються
 
-Повертає представлення [DateTime](class.datetime.md) цього
-UTCDateTimeInterface. Повернутий [DateTime](class.datetime.md)
-повинен використовувати часовий пояс UTC.
+Повертає виставу [DateTime](class.datetime.html) цього UTCDateTimeInterface. Повернутий [DateTime](class.datetime.html) повинен використовувати часовий пояс UTC.
 
 ### Дивіться також
 
-- [MongoDB\BSON\UTCDateTime::toDateTime()](mongodb-bson-utcdatetime.todatetime.md) -
-Повертає уявлення DateTime цього UTCDateTime
+-   [MongoDB\\BSON\\UTCDateTime::toDateTime()](mongodb-bson-utcdatetime.todatetime.html) - Повертає уявлення DateTime цього UTCDateTime

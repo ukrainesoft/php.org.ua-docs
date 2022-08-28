@@ -1,36 +1,33 @@
-- [«token_name](function.token-name.md)
-- [Вступ »](intro.url.md)
+URL
 
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- URL
+-   [« token\_name](function.token-name.html)
+    
+-   [Введение »](intro.url.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие базовые модули](refs.basic.other.html)
+    
+-   URL
+    
 
 # URL
 
-- [Вступ](intro.url.md)
-- [Встановлення та налаштування](url.setup.md)
-- [Вимоги](url.requirements.md)
-- [Установка](url.installation.md)
-- [Налаштування під час виконання](url.configuration.md)
-- [Типи ресурсів](url.resources.md)
-- [Предвизначені константи](url.constants.md)
-- [Функції URL](ref.url.md)
-- [base64_decode](function.base64-decode.md) - Декодує
-дані, закодовані MIME base64
-- [base64_encode](function.base64-encode.md) — кодує дані в
-формат MIME base64
-- [get_headers](function.get-headers.md) - Повертає все
-заголовки з відповіді сервера на HTTP-запит
-- [get_meta_tags](function.get-meta-tags.md) - Витягує
-вміст всіх метатегів з файлу та повертає масив
-- [http_build_query](function.http-build-query.md) - Генерує
-URL-кодований рядок запиту
-- [parse_url](function.parse-url.md) - Розбирає URL та
-повертає його компоненти
-- [rawurldecode](function.rawurldecode.md) - Декодування
-URL-кодованого рядка
-- [rawurlencode](function.rawurlencode.md) - URL-кодування
-рядки згідно з RFC 3986
-- [urldecode](function.urldecode.md) - Декодування
-URL-кодованого рядка
-- [urlencode](function.urlencode.md) - URL-кодування рядка
+-   [Введение](intro.url.html)
+-   [Установка и настройка](url.setup.html)
+    -   [Требования](url.requirements.html)
+    -   [Установка](url.installation.html)
+    -   [Настройка во время выполнения](url.configuration.html)
+    -   [Типы ресурсов](url.resources.html)
+-   [Предопределённые константы](url.constants.html)
+-   [Функции URL](ref.url.html)
+    -   [base64\_decode](function.base64-decode.html) - Декодує дані, закодовані MIME base64
+    -   [base64\_encode](function.base64-encode.html) — Кодує дані у формат MIME base64
+    -   [get\_headers](function.get-headers.html) — Повертає всі заголовки з відповіді сервера на запит HTTP
+    -   [get\_meta\_tags](function.get-meta-tags.html) — Витягує вміст усіх метатегів із файлу та повертає масив
+    -   [http\_build\_query](function.http-build-query.html) — Генерує URL-кодований рядок запиту
+    -   [parse\_url](function.parse-url.html) — Розбирає URL та повертає його компоненти
+    -   [rawurldecode](function.rawurldecode.html) — Декодування URL-кодованого рядка
+    -   [rawurlencode](function.rawurlencode.html) — URL-кодування рядка згідно з RFC 3986
+    -   [urldecode](function.urldecode.html) — Декодування URL-кодованого рядка
+    -   [urlencode](function.urlencode.html) — URL-кодування рядка

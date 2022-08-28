@@ -1,31 +1,38 @@
-- [«filter_has_var](function.filter-has-var.md)
-- [filter_input_array »](function.filter-input-array.md)
+Повертає ідентифікатор, що належить іменованому фільтру
 
-- [PHP Manual](index.md)
-- [Функції фільтрації даних](ref.filter.md)
-- Повертає ідентифікатор, що належить іменованому фільтру
+-   [« filter\_has\_var](function.filter-has-var.html)
+    
+-   [filter\_input\_array »](function.filter-input-array.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции фильтрации данных](ref.filter.html)
+    
+-   Повертає ідентифікатор, що належить іменованому фільтру
+    
 
-#filter_id
+# filterід
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-filter_id — Повертає ідентифікатор, який належить іменованому фільтру
+filterid — Повертає ідентифікатор, який належить іменованому фільтру
 
 ### Опис
 
-**filter_id**(string `$name`): int\|false
+```methodsynopsis
+filter_id(string $name): int|false
+```
 
 ### Список параметрів
 
 `name`
+
 Ім'я фільтра.
 
 ### Значення, що повертаються
 
-Ідентифікатор фільтра у разі успішного виконання або **`false`**,
-якщо фільтр не існує.
+Ідентифікатор фільтра у разі успішного виконання або **`false`**якщо фільтр не існує.
 
 ### Дивіться також
 
-- [filter_list()](function.filter-list.md) - Повертає список усіх
-підтримуваних фільтрів
+-   [filter\_list()](function.filter-list.html) - Повертає список усіх підтримуваних фільтрів

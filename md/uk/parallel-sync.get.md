@@ -1,18 +1,24 @@
-- [« parallel\Sync::\_\_construct](parallel-sync.construct.md)
-- [parallel\Sync::set »](parallel-sync.set.md)
+Доступ
 
-- [PHP Manual](index.md)
-- [parallel\Sync](class.parallel-sync.md)
-- Доступ
+-   [« parallel\\Sync::\_\_construct](parallel-sync.construct.html)
+    
+-   [parallel\\Sync::set »](parallel-sync.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Sync](class.parallel-sync.html)
+    
+-   Доступ
+    
 
-# parallel\Sync::get
+# parallelSync::get
 
-(1.1.0)
-
-parallel\Sync::get — Доступ
+parallelSync::get — Доступ
 
 ### Опис
 
-public **parallel\Sync::get**(): scalar
+```methodsynopsis
+public parallel\Sync::get(): scalar
+```
 
 Автоматично повертає значення об'єктів синхронізації.

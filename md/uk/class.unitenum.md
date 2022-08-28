@@ -1,32 +1,42 @@
-- [«Stringable::\_\_toString](stringable.tostring.md)
-- [UnitEnum::cases »](unitenum.cases.md)
+Інтерфейс UnitEnum
 
-- [PHP Manual](index.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- Інтерфейс UnitEnum
+-   [« Stringable::\_\_toString](stringable.tostring.html)
+    
+-   [UnitEnum::cases »](unitenum.cases.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+    
+-   Інтерфейс UnitEnum
+    
 
 # Інтерфейс UnitEnum
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Інтерфейс **UnitEnum** автоматично застосовується двигуном до всіх
-перерахунків. Він може бути реалізований користувальницькими класами.
-Перерахування не можуть перевизначати його методи, оскільки
-замовчуванням надаються двигуном. Доступний для перевірки типу.
+Інтерфейс **UnitEnum** автоматично застосовується двигуном до всіх перерахувань. Він не може бути реалізований користувачами класами. Перерахування що неспроможні перевизначати його способи, оскільки продажу за замовчуванням надаються движком. Доступний лише для перевірки типу.
 
 ## Огляд інтерфейсів
 
-interface **UnitEnum** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public static [cases](unitenum.cases.md)(): array
+    
+     
+      interface UnitEnum {
 
-}
+    /* Методы */
+    
+   public static cases(): array
+
+   }
+```
 
 ## Зміст
 
-- [UnitEnum::cases](unitenum.cases.md) — Повертає список варіантів
-перерахування
+-   [UnitEnum::cases](unitenum.cases.html) — Повертає перелік варіантів перерахування

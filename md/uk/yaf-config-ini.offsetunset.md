@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::offsetSet](yaf-config-ini.offsetset.md)
-- [Yaf_Config_Ini::readonly »](yaf-config-ini.readonly.md)
+Призначення offsetUnset
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Призначення offsetUnset
+-   [« Yaf\_Config\_Ini::offsetSet](yaf-config-ini.offsetset.html)
+    
+-   [Yaf\_Config\_Ini::readonly »](yaf-config-ini.readonly.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Призначення offsetUnset
+    
 
-# Yaf_Config_Ini::offsetUnset
+# YafConfigIni::offsetUnset
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::offsetUnset — Призначення offsetUnset
+YafConfigIni::offsetUnset — Призначення offsetUnset
 
 ### Опис
 
-public **Yaf_Config_Ini::offsetUnset**(string `$name`): void
+```methodsynopsis
+public Yaf_Config_Ini::offsetUnset(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

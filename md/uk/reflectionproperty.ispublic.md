@@ -1,20 +1,27 @@
-- [« ReflectionProperty::isProtected](reflectionproperty.isprotected.md)
-- [ReflectionProperty::isReadOnly »](reflectionproperty.isreadonly.md)
+Перевіряє, чи є властивість загальнодоступною
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Перевіряє, чи є властивість загальнодоступною
+-   [« ReflectionProperty::isProtected](reflectionproperty.isprotected.html)
+    
+-   [ReflectionProperty::isReadOnly »](reflectionproperty.isreadonly.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Перевіряє, чи є властивість загальнодоступною
+    
 
 # ReflectionProperty::isPublic
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::isPublic — Перевіряє, чи є властивість
-загальнодоступним
+ReflectionProperty::isPublic — Перевіряє, чи є властивість загальнодоступною
 
 ### Опис
 
-public **ReflectionProperty::isPublic**(): bool
+```methodsynopsis
+public ReflectionProperty::isPublic(): bool
+```
 
 Перевіряє, чи є властивість загальнодоступною.
 
@@ -28,11 +35,7 @@ public **ReflectionProperty::isPublic**(): bool
 
 ### Дивіться також
 
-- [ReflectionProperty::isProtected()](reflectionproperty.isprotected.md) -
-Перевіряє, чи властивість захищена
-- [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) -
-Перевіряє, чи властивість закрита
-- [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.md) -
-Перевіряє, чи є властивість readonly-властивістю
-- [ReflectionProperty::isStatic()](reflectionproperty.isstatic.md) -
-Перевірка, чи є властивість статичним
+-   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.html) - Перевіряє, чи властивість захищена
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.html) - Перевіряє, чи властивість закрита
+-   [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.html) - Перевіряє, чи є властивість readonly-властивістю
+-   [ReflectionProperty::isStatic()](reflectionproperty.isstatic.html) - Перевірка, чи є властивість статичним

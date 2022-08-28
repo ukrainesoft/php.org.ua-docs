@@ -1,34 +1,39 @@
-- [«Gmagick::shearimage](gmagick.shearimage.md)
-- [Gmagick::spreadimage »](gmagick.spreadimage.md)
+Застосовує ефект соляризації до зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Застосовує ефект соляризації до зображення
+-   [« Gmagick::shearimage](gmagick.shearimage.html)
+    
+-   [Gmagick::spreadimage »](gmagick.spreadimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Застосовує ефект соляризації до зображення
+    
 
 # Gmagick::solarizeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::solarizeimage — Застосовує ефект соляризації до зображення
+Gmagick::solarizeimage — Застосовує ефект соляризації до зображення.
 
 ### Опис
 
-public **Gmagick::solarizeimage**(int `$threshold`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::solarizeimage(int $threshold): Gmagick
+```
 
-Застосовує особливий ефект до зображення, подібний до ефекту, що досягається в
-фотолабораторії за допомогою вибіркового експонування областей
-світлочутливого паперу на світло. Поріг варіюється від 0 до
-QuantumRange і є мірою ступеня соляризації.
+Застосовує особливий ефект до зображення, подібний до ефекту, що досягається у фотолабораторії за допомогою вибіркового експонування областей світлочутливого паперу на світ. Поріг варіюється від 0 до QuantumRange і є мірою соляризації.
 
 ### Список параметрів
 
 `threshold`
+
 Ступінь соляризації.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,19 +1,27 @@
-- [« UI\MenuItem::disable](ui-menuitem.disable.md)
-- [UI\MenuItem::isChecked »](ui-menuitem.ischecked.md)
+Увімкнути пункт меню
 
-- [PHP Manual](index.md)
-- [UI\MenuItem](class.ui-menuitem.md)
-- Увімкнути пункт меню
+-   [« UI\\MenuItem::disable](ui-menuitem.disable.html)
+    
+-   [UI\\MenuItem::isChecked »](ui-menuitem.ischecked.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\MenuItem](class.ui-menuitem.html)
+    
+-   Увімкнути пункт меню
+    
 
-# UI\MenuItem::enable
+# ОЙMenuItem::enable
 
 (UI 0.9.9)
 
-UI\MenuItem::enable — Увімкнути пункт меню
+ОЙMenuItem::enable — Увімкнути пункт меню
 
 ### Опис
 
-public **UI\MenuItem::enable**()
+```methodsynopsis
+public UI\MenuItem::enable()
+```
 
 Увімкне цей пункт меню
 

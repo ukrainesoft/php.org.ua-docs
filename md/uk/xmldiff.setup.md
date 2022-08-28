@@ -1,13 +1,19 @@
-- [«Вступ](intro.xmldiff.md)
-- [Вимоги »](xmldiff.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [XMLDiff](book.xmldiff.md)
+-   [« Введение](intro.xmldiff.html)
+    
+-   [Требования »](xmldiff.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLDiff](book.xmldiff.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xmldiff.requirements.md)
-- [Установка](xmldiff.installation.md)
+-   [Требования](xmldiff.requirements.html)
+-   [Установка](xmldiff.installation.html)

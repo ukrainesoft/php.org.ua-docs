@@ -1,9 +1,15 @@
-- [« UI\Draw\Text\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md)
-- [UI\Draw\Text\Font\Descriptor::\_\_construct »](ui-draw-text-font-descriptor.construct.md)
+Дескриптор шрифту
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Дескриптор шрифту
+-   [« UI\\Draw\\Text\\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.html)
+    
+-   [UI\\Draw\\Text\\Font\\Descriptor::\_\_construct »](ui-draw-text-font-descriptor.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Дескриптор шрифту
+    
 
 # Дескриптор шрифту
 
@@ -15,44 +21,39 @@
 
 ## Огляд класів
 
-class **UI\Draw\Text\Font\Descriptor** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-draw-text-font-descriptor.construct.md)(
-string `$family`,
-float `$size`,
-int `$weight` = UI\Draw\Text\Font\Weight::Normal,
-int `$italic` = UI\Draw\Text\Font\Italic::Normal,
-int `$stretch` = UI\Draw\Text\Font\Stretch::Normal
-)
 
-/\* Методи \*/
+    
+     
+      class UI\Draw\Text\Font\Descriptor
+     
+     {
 
-public [getFamily](ui-draw-text-font-descriptor.getfamily.md)():
-string
 
-public [getItalic](ui-draw-text-font-descriptor.getitalic.md)(): int
+    /* Конструктор */
+    
+   public __construct(    string $family,    float $size,    int $weight = UI\Draw\Text\Font\Weight::Normal,    int $italic = UI\Draw\Text\Font\Italic::Normal,    int $stretch = UI\Draw\Text\Font\Stretch::Normal)
 
-public [getSize](ui-draw-text-font-descriptor.getsize.md)(): float
 
-public [getStretch](ui-draw-text-font-descriptor.getstretch.md)(): int
+    /* Методы */
+    public getFamily(): string
+public getItalic(): int
+public getSize(): float
+public getStretch(): int
+public getWeight(): int
 
-public [getWeight](ui-draw-text-font-descriptor.getweight.md)(): int
 
-}
+
+   }
+```
 
 ## Зміст
 
-- [UI\Draw\Text\Font\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.md)
-- Конструктор класу Font Descriptor
-- [UI\Draw\Text\Font\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.md)
-— Отримує сімейство шрифтів
-- [UI\Draw\Text\Font\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.md)
-— Визначення стилю
-- [UI\Draw\Text\Font\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.md)
-- Визначення розміру
-- [UI\Draw\Text\Font\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.md)
-— Визначення стилю
-- [UI\Draw\Text\Font\Descriptor::getWeight](ui-draw-text-font-descriptor.getweight.md)
-- Визначення насиченості
+-   [UI\\Draw\\Text\\Font\\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.html) - Конструктор класу Font Descriptor
+-   [UI\\Draw\\Text\\Font\\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html) — Отримує сімейство шрифтів
+-   [UI\\Draw\\Text\\Font\\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html) — Визначення стилю
+-   [UI\\Draw\\Text\\Font\\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.html) - Визначення розміру
+-   [UI\\Draw\\Text\\Font\\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html) — Визначення стилю
+-   [UI\\Draw\\Text\\Font\\Descriptor::getWeight](ui-draw-text-font-descriptor.getweight.html) — Визначення насиченості

@@ -1,20 +1,27 @@
-- [«timezone_transitions_get](function.timezone-transitions-get.md)
-- [Допустимі формати дати/часу »](datetime.formats.md)
+Отримання номера версії бази даних часових поясів
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Отримання номера версії бази даних часових поясів
+-   [« timezone\_transitions\_get](function.timezone-transitions-get.html)
+    
+-   [Допустимые форматы даты/времени »](datetime.formats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Отримання номера версії бази даних часових поясів
+    
 
-#timezone_version_get
+# timezoneversionget
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-timezone_version_get — Отримання номера версії вартової бази даних
-поясів
+timezoneversionget — отримання номера версії бази даних часових поясів
 
 ### Опис
 
-**timezone_version_get**(): string
+```methodsynopsis
+timezone_version_get(): string
+```
 
 Повертає номер версії бази даних часового поясу.
 
@@ -30,12 +37,18 @@ timezone_version_get — Отримання номера версії варто
 
 **Приклад #1 Визначення версії бази даних часових поясів**
 
-`<?phpecho timezone_version_get();?> `
+```php
+<?php
+echo timezone_version_get();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 2009.7
+```
 
 ### Дивіться також
 
-- [Список підтримуваних часових поясів](timezones.md)
+-   [Список поддерживаемых часовых поясов](timezones.html)

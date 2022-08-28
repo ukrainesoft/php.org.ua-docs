@@ -1,76 +1,54 @@
-- [« Список змін](changelog.misc.md)
-- [Вступ »](intro.seaslog.md)
+Seaslog
 
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- Seaslog
+-   [« Список изменений](changelog.misc.html)
+    
+-   [Введение »](intro.seaslog.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие базовые модули](refs.basic.other.html)
+    
+-   Seaslog
+    
 
 # Seaslog
 
-- [Вступ](intro.seaslog.md)
-- [Встановлення та налаштування](seaslog.setup.md)
-- [Вимоги](seaslog.requirements.md)
-- [Установка](seaslog.installation.md)
-- [Налаштування під час виконання](seaslog.configuration.md)
-- [Типи ресурсів](seaslog.resources.md)
-- [Предвизначені константи](seaslog.constants.md)
-- [Приклади](seaslog.examples.md)
-- [Функції Seaslog](ref.seaslog.md)
-- [seaslog_get_author](function.seaslog-get-author.md) -
-Отримує автора SeasLog
-- [seaslog_get_version](function.seaslog-get-version.md) -
-Отримує версію SeasLog
-- [SeasLog](class.seaslog.md) - Клас SeasLog
-- [SeasLog::alert](seaslog.alert.md) — Записує інформацію
-рівня "alert" у журнал
-- [SeasLog::analyzerCount](seaslog.analyzercount.md) — Отримує
-кількість журналів за рівнем, log_path та key_word
-- [SeasLog::analyzerDetail](seaslog.analyzerdetail.md)
-Отримує деталізацію журналу за рівнем, log_path, key_word,
-start, limit, order
-- [SeasLog::closeLoggerStream](seaslog.closeloggerstream.md) -
-Вручну звільняє потік від реєстратора
-- [SeasLog::\_\_construct](seaslog.construct.md) — Опис
-- [SeasLog::critical](seaslog.critical.md) - Записує
-інформацію рівня "critical" у журнал
-- [SeasLog::debug](seaslog.debug.md) — Записує інформацію
-рівня "debug" до журналу
-- [SeasLog::\_\_destruct](seaslog.destruct.md) — Опис
-- [SeasLog::emergency](seaslog.emergency.md) - Записує
-інформацію рівня "emergency" до журналу
-- [SeasLog::error](seaslog.error.md) — Записує інформацію
-рівня "error" у журнал
-- [SeasLog::flushBuffer](seaslog.flushbuffer.md) - Очищає буфер
-логів, робить дамп у файл програми або відправляє на віддалений
-API за допомогою tcp/udp
-- [SeasLog::getBasePath](seaslog.getbasepath.md) — Отримує
-базовий шлях SeasLog
-- [SeasLog::getBuffer](seaslog.getbuffer.md) — Отримує буфер
-логів у пам'яті у вигляді масиву
-- [SeasLog::getBufferEnabled](seaslog.getbufferenabled.md) -
-Визначає, чи увімкнено буфер
-- [SeasLog::getDatetimeFormat](seaslog.getdatetimeformat.md) -
-Отримує стиль формату дати та часу SeasLog
-- [SeasLog::getLastLogger](seaslog.getlastlogger.md) — Отримує
-останній шлях реєстратора SeasLog
-- [SeasLog::getRequestID](seaslog.getrequestid.md) — Отримує
-диференційовані запити SeasLog request_id
-- [SeasLog::getRequestVariable](seaslog.getrequestvariable.md) -
-Отримує змінну запиту SeasLog
-- [SeasLog::info](seaslog.info.md) — Записує інформацію
-рівня "info" у журнал
-- [SeasLog::log](seaslog.log.md) — Загальна функція запису до журналу
-- [SeasLog::notice](seaslog.notice.md) — Записує інформацію
-рівня "notice" у журнал
-- [SeasLog::setBasePath](seaslog.setbasepath.md) — Встановлює
-базовий шлях SeasLog
-- [SeasLog::setDatetimeFormat](seaslog.setdatetimeformat.md) -
-Встановлює стиль формату дати та часу SeasLog
-- [SeasLog::setLogger](seaslog.setlogger.md) — Встановлює ім'я
-реєстратора SeasLog
-- [SeasLog::setRequestID](seaslog.setrequestid.md) -
-Встановлює диференційовані запити SeasLog request_id
-- [SeasLog::setRequestVariable](seaslog.setrequestvariable.md) -
-Встановлює змінну запиту SeasLog вручну
-- [SeasLog::warning](seaslog.warning.md) — Записує інформацію
-рівня "warning" до журналу
+-   [Введение](intro.seaslog.html)
+-   [Установка и настройка](seaslog.setup.html)
+    -   [Требования](seaslog.requirements.html)
+    -   [Установка](seaslog.installation.html)
+    -   [Настройка во время выполнения](seaslog.configuration.html)
+    -   [Типы ресурсов](seaslog.resources.html)
+-   [Предопределённые константы](seaslog.constants.html)
+-   [Примеры](seaslog.examples.html)
+-   [Функции Seaslog](ref.seaslog.html)
+    -   [seaslog\_get\_author](function.seaslog-get-author.html) — Отримує автора SeasLog
+    -   [seaslog\_get\_version](function.seaslog-get-version.html) — Отримує версію SeasLog
+-   [SeasLog](class.seaslog.html) - Клас SeasLog
+    -   [SeasLog::alert](seaslog.alert.html) - Записує інформацію рівня "alert" у журнал
+    -   [SeasLog::analyzerCount](seaslog.analyzercount.html) — Отримує кількість журналів за рівнем, logpath і keyслово
+    -   [SeasLog::analyzerDetail](seaslog.analyzerdetail.html) — Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
+    -   [SeasLog::closeLoggerStream](seaslog.closeloggerstream.html) - Вручну звільняє потік від реєстратора
+    -   [SeasLog::\_\_construct](seaslog.construct.html) - Опис
+    -   [SeasLog::critical](seaslog.critical.html) - Записує інформацію рівня "critical" в журнал
+    -   [SeasLog::debug](seaslog.debug.html) - Записує інформацію рівня "debug" в журнал
+    -   [SeasLog::\_\_destruct](seaslog.destruct.html) - Опис
+    -   [SeasLog::emergency](seaslog.emergency.html) - Записує інформацію рівня "emergency" в журнал
+    -   [SeasLog::error](seaslog.error.html) - Записує інформацію рівня "error" в журнал
+    -   [SeasLog::flushBuffer](seaslog.flushbuffer.html) — Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp
+    -   [SeasLog::getBasePath](seaslog.getbasepath.html) — Отримує базовий шлях SeasLog
+    -   [SeasLog::getBuffer](seaslog.getbuffer.html) — Отримує буфер логів у пам'яті у вигляді масиву
+    -   [SeasLog::getBufferEnabled](seaslog.getbufferenabled.html) — Визначає, чи увімкнено буфер
+    -   [SeasLog::getDatetimeFormat](seaslog.getdatetimeformat.html) — Отримує стиль формату дати та часу SeasLog
+    -   [SeasLog::getLastLogger](seaslog.getlastlogger.html) — Отримує останній шлях реєстратора SeasLog
+    -   [SeasLog::getRequestID](seaslog.getrequestid.html) — Отримує диференційовані запити SeasLog requestід
+    -   [SeasLog::getRequestVariable](seaslog.getrequestvariable.html) — Отримує змінну запиту SeasLog
+    -   [SeasLog::info](seaslog.info.html) - Записує інформацію рівня "info" в журнал
+    -   [SeasLog::log](seaslog.log.html) — Загальна функція запису до журналу
+    -   [SeasLog::notice](seaslog.notice.html) - Записує інформацію рівня "notice" в журнал
+    -   [SeasLog::setBasePath](seaslog.setbasepath.html) - Встановлює базовий шлях SeasLog
+    -   [SeasLog::setDatetimeFormat](seaslog.setdatetimeformat.html) — Встановлює стиль формату дати та часу SeasLog
+    -   [SeasLog::setLogger](seaslog.setlogger.html) - Встановлює ім'я реєстратора SeasLog
+    -   [SeasLog::setRequestID](seaslog.setrequestid.html) — Встановлює диференційовані запити SeasLog requestід
+    -   [SeasLog::setRequestVariable](seaslog.setrequestvariable.html) — Встановлює змінну запиту SeasLog вручну
+    -   [SeasLog::warning](seaslog.warning.html) - Записує інформацію рівня "warning" в журнал

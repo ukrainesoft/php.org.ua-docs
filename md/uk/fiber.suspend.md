@@ -1,45 +1,40 @@
-- [« Fiber::isTerminated](fiber.isterminated.md)
-- [Fiber::getCurrent »](fiber.getcurrent.md)
+Зупиняє виконання поточного файбера
 
-- [PHP Manual](index.md)
-- [Fiber](class.fiber.md)
-- Зупиняє виконання поточного файбера
+-   [« Fiber::isTerminated](fiber.isterminated.html)
+    
+-   [Fiber::getCurrent »](fiber.getcurrent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Fiber](class.fiber.html)
+    
+-   Зупиняє виконання поточного файбера
+    
 
 # Fiber::suspend
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 Fiber::suspend — Зупиняє виконання поточного файбера
 
 ### Опис
 
-public static
-**Fiber::suspend**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` = **`null`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public static Fiber::suspend(mixed $value = null): mixed
+```
 
-Зупиняє виконання поточного файбера. Значення, надане
-цьому методу, буде повернено із виклику
-[Fiber::start()](fiber.start.md), [Fiber::resume()](fiber.resume.md)
-або [Fiber::throw()](fiber.throw.md), який переключив виконання
-поточного файбер.
+Зупиняє виконання поточного файбера. Значення, надане цим методом, буде повернено з виклику [Fiber::start()](fiber.start.html) [Fiber::resume()](fiber.resume.html) або [Fiber::throw()](fiber.throw.html), що переключив виконання поточного файбера.
 
-Коли виконання файбера відновлюється, метод повертає значення,
-надане в [Fiber::resume()](fiber.resume.md). Якщо виконання
-файбер відновлюється з використанням Fiber::throw, виняток,
-передане цьому методу буде викинуто при виклику методу.
+Коли виконання файбера відновлюється, метод повертає значення, надане в [Fiber::resume()](fiber.resume.html). Якщо виконання файбера відновлюється за допомогою Fiber::throw, виняток, переданий цьому методу, буде викинуто під час виклику методу.
 
-Якщо цей метод викликається ззовні файбера, буде викинуто помилку
-[FiberError](class.fibererror.md).
+Якщо цей метод викликається ззовні файбера, буде викинуто помилку [FiberError](class.fibererror.html)
 
 ### Список параметрів
 
 `value`
-Значення, що повертається під час виклику [Fiber::start()](fiber.start.md),
-[Fiber::resume()](fiber.resume.md) або
-[Fiber::throw()](fiber.throw.md), які перемикають виконання
-поточного файбер.
+
+Значення, що повертається під час виклику [Fiber::start()](fiber.start.html) [Fiber::resume()](fiber.resume.html) або [Fiber::throw()](fiber.throw.html), що перемикають виконання поточного файбера.
 
 ### Значення, що повертаються
 
-Значення, надане [Fiber::resume()](fiber.resume.md).
+Значення, надане [Fiber::resume()](fiber.resume.html)

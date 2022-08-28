@@ -1,60 +1,82 @@
-- [«UnhandledMatchError](class.unhandledmatcherror.md)
-- [Вбудовані інтерфейси та класи »](reserved.interfaces.md)
+FiberError
 
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- FiberError
+-   [« UnhandledMatchError](class.unhandledmatcherror.html)
+    
+-   [Встроенные интерфейсы и классы »](reserved.interfaces.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые исключения](reserved.exceptions.html)
+    
+-   FiberError
+    
 
 # FiberError
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-**FiberError** викидає, якщо в об'єкті [Fiber](class.fiber.md)
-виконується неприпустима операція.
+**FiberError** викидає, якщо в об'єкті [Fiber](class.fiber.html) виконується неприпустима операція.
 
 ## Огляд класів
 
-final class **FiberError** extends [Error](class.error.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      final
+      class FiberError
+     
 
-private string `$string` = "";
+     
+      extends
+       Error
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Методы */
+    
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    /* Наследуемые методы */
+    
+   final public Error::getMessage(): string
+final public Error::getPrevious(): ?Throwable
+final public Error::getCode(): int
+final public Error::getFile(): string
+final public Error::getLine(): int
+final public Error::getTrace(): array
+final public Error::getTraceAsString(): string
+public Error::__toString(): string
+private Error::__clone(): void
 
-/\* Методи \*/
-
-/\* Наслідувані методи \*/
-
-final public [Error::getMessage](error.getmessage.md)(): string
-
-final public [Error::getPrevious](error.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Error::getCode](error.getcode.md)(): int
-
-final public [Error::getFile](error.getfile.md)(): string
-
-final public [Error::getLine](error.getline.md)(): int
-
-final public [Error::getTrace](error.gettrace.md)(): array
-
-final public [Error::getTraceAsString](error.gettraceasstring.md)():
-string
-
-public [Error::\_\_toString](error.tostring.md)(): string
-
-private [Error::\_\_clone](error.clone.md)(): void
-
-}
+   }
+```

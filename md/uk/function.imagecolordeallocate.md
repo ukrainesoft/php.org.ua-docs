@@ -1,56 +1,62 @@
-- [«imagecolorclosesthwb](function.imagecolorclosesthwb.md)
-- [imagecolorexact »](function.imagecolorexact.md)
+Розрив асоціації змінної із кольором для заданого зображення
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Розрив асоціації змінної із кольором для заданого зображення
+-   [« imagecolorclosesthwb](function.imagecolorclosesthwb.html)
+    
+-   [imagecolorexact »](function.imagecolorexact.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Розрив асоціації змінної із кольором для заданого зображення
+    
 
-#imagecolordeallocate
+# imagecolordeallocate
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imagecolordeallocate — Розрив асоціації змінної з кольором для
-заданого зображення
+imagecolordeallocate — Розрив асоціації змінної із кольором для заданого зображення
 
 ### Опис
 
-**imagecolordeallocate**([GdImage](class.gdimage.md) `$image`, int
-`$color`): bool
+```methodsynopsis
+imagecolordeallocate(GdImage $image, int $color): bool
+```
 
-Розриває асоціацію змінної з кольором, яка раніше була створена
-функціями [imagecolorallocate()](function.imagecolorallocate.md) або
-[imagecolorallocatealpha()](function.imagecolorallocatealpha.md).
+Розриває асоціацію змінної з кольором, яка раніше була створена функціями [imagecolorallocate()](function.imagecolorallocate.html) або [imagecolorallocatealpha()](function.imagecolorallocatealpha.html)
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
 
-`col`
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+
+`color`
+
 Ідентифікатор кольору.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecolordeallocate()****
 
-`<?php$white = imagecolorallocate($im, 255, 255, 255);imagecolordeallocate($im, $white);?> `
+```php
+<?php
+$white = imagecolorallocate($im, 255, 255, 255);
+imagecolordeallocate($im, $white);
+?>
+```
 
 ### Дивіться також
 
-- [imagecolorallocate()](function.imagecolorallocate.md) - Створення
-кольори для зображення
-- [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) -
-Створення кольору для зображення
+-   [imagecolorallocate()](function.imagecolorallocate.html) - Створення кольору для зображення
+-   [imagecolorallocatealpha()](function.imagecolorallocatealpha.html) - Створення кольору для зображення

@@ -1,22 +1,29 @@
-- [«APCUIterator::\_\_construct](apcuiterator.construct.md)
-- [APCUIterator::getTotalCount »](apcuiterator.gettotalcount.md)
+Отримати поточний елемент
 
-- [PHP Manual](index.md)
-- [APCUIterator](class.apcuiterator.md)
-- Отримати поточний елемент
+-   [« APCUIterator::\_\_construct](apcuiterator.construct.html)
+    
+-   [APCUIterator::getTotalCount »](apcuiterator.gettotalcount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [APCUIterator](class.apcuiterator.html)
+    
+-   Отримати поточний елемент
+    
 
 # APCUIterator::current
 
-(PECL apcu \>= 5.0.0)
+(PECL apcu >= 5.0.0)
 
 APCUIterator::current — Отримати поточний елемент
 
 ### Опис
 
-public **APCUIterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public APCUIterator::current(): mixed
+```
 
-Отримує поточний елемент стека [APCUIterator](class.apcuiterator.md).
+Отримує поточний елемент стека [APCUIterator](class.apcuiterator.html)
 
 ### Список параметрів
 
@@ -24,12 +31,9 @@ public **APCUIterator::current**():
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає поточний елемент або
-**`false`**, якщо елементів більше немає або сталася помилка.
+У разі успішного виконання повертає поточний елемент або **`false`**, якщо елементів більше немає або виникла помилка.
 
 ### Дивіться також
 
-- [APCUIterator::next()](apcuiterator.next.md) - Переміщує
-вказівник на наступний елемент
-- [Iterator::current()](iterator.current.md) - Повернення поточного
-елемента
+-   [APCUIterator::next()](apcuiterator.next.html) - Переміщує покажчик на наступний елемент
+-   [Iterator::current()](iterator.current.html) - Повернення поточного елемента

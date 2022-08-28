@@ -1,46 +1,47 @@
-- [« Imagick::optimizeImageLayers](imagick.optimizeimagelayers.md)
-- [Imagick::paintFloodfillImage »](imagick.paintfloodfillimage.md)
+Виконує впорядкований дизеринг
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Виконує впорядкований дизеринг
+-   [« Imagick::optimizeImageLayers](imagick.optimizeimagelayers.html)
+    
+-   [Imagick::paintFloodfillImage »](imagick.paintfloodfillimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Виконує впорядкований дизеринг
+    
 
 # Imagick::orderedPosterizeImage
 
-(PECL imagick 2 \>= 2.2.2, PECL imagick 3)
+(PECL imagick 2> = 2.2.2, PECL imagick 3)
 
 Imagick::orderedPosterizeImage — Виконує впорядкований дизеринг
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::orderedPosterizeImage**(string `$threshold_map`, int
-`$channel` = Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::orderedPosterizeImage(string $threshold_map, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Виконує впорядкований дизеринг на основі ряду визначених карток
-порогових значень дизерингу, але з кількома рівнями інтенсивності,
-які можуть бути різними для різних каналів відповідно до вхідних
-аргументами. Цей метод доступний, якщо Imagick був скомпільований з
-версією ImageMagick 6.3.1 чи старшою.
+Виконує впорядкований дизеринг на основі ряду визначених карток порогових значень дизерингу, але з кількома рівнями інтенсивності, які можуть бути різними для різних каналів відповідно до вхідних аргументів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.1 або старшим.
 
 ### Список параметрів
 
 `threshold_map`
+
 Рядок, що містить ім'я порогового дизерингу, що використовується.
 
 `channel`
-Вкажіть будь-яку константу каналу, яка дійсна для вашого режиму
-каналу. Щоб застосувати до одного каналу, об'єднайте константи
-типу каналу за допомогою бітових операторів. Зверніться до списку
-[констант каналу](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант канала](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -50,4 +51,20 @@ public **Imagick::orderedPosterizeImage**(string `$threshold_map`, int
 
 **Приклад #1 Приклад використання **Imagick::orderedPosterizeImage()****
 
-` <?phpfunction orderedPosterizeImage($imagePath, $orderedPosterizeType) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->orderedPosterizeImage($orderedPosterizeType); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}//orderedPosterizeImage($imagePath, 'o4x4,3,3');//orderedPosterizeImage($imagePath, 'o8x8,6,6');orderedPosterizeImage($imagePath, ' );?> `
+```php
+<?php
+function orderedPosterizeImage($imagePath, $orderedPosterizeType) {
+    $imagick = new \Imagick(realpath($imagePath));
+
+    $imagick->orderedPosterizeImage($orderedPosterizeType);
+    $imagick->setImageFormat('png');
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+//orderedPosterizeImage($imagePath, 'o4x4,3,3');
+//orderedPosterizeImage($imagePath, 'o8x8,6,6');
+orderedPosterizeImage($imagePath, 'h8x8a');
+?>
+```

@@ -1,23 +1,29 @@
-- [« GearmanJob::sendException](gearmanjob.sendexception.md)
-- [GearmanJob::sendStatus »](gearmanjob.sendstatus.md)
+Надсилання статусу невдалої операції
 
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Надсилання статусу невдалої операції
+-   [« GearmanJob::sendException](gearmanjob.sendexception.html)
+    
+-   [GearmanJob::sendStatus »](gearmanjob.sendstatus.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanJob](class.gearmanjob.html)
+    
+-   Надсилання статусу невдалої операції
+    
 
 # GearmanJob::sendFail
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanJob::sendFail — Надсилання статусу невдалої операції
 
 ### Опис
 
-public **GearmanJob::sendFail**(): bool
+```methodsynopsis
+public GearmanJob::sendFail(): bool
+```
 
-Надсилає статус про невдалу обробку, вказуючи, що завдання завершилося
-невдало з відомих причин (на відміну від невдалого завершення,
-коли викидається виняток).
+Посилає статус про невдалу обробку, вказуючи, що завдання завершилося невдало з відомих причин (на відміну невдалого завершення, коли викидається виняток).
 
 ### Список параметрів
 
@@ -25,16 +31,11 @@ public **GearmanJob::sendFail**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [GearmanJob::sendException()](gearmanjob.sendexception.md) -
-Надсилання виключення завдання, що виконується
-- [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Установка
-значення, що повертається
-- [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) - Надсилання
-статусу
-- [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) - Надсилання
-попередження
+-   [GearmanJob::sendException()](gearmanjob.sendexception.html) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається
+-   [GearmanJob::sendStatus()](gearmanjob.sendstatus.html) - Надсилання статусу
+-   [GearmanJob::sendWarning()](gearmanjob.sendwarning.html) - Відправлення попередження

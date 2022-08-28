@@ -1,19 +1,28 @@
-- [« EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.md)
-- [EventHttpRequest::\_\_construct »](eventhttprequest.construct.md)
+Закриває пов'язане HTTP-з'єднання
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Закриває пов'язане HTTP-з'єднання
+-   [« EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.html)
+    
+-   [EventHttpRequest::\_\_construct »](eventhttprequest.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Закриває пов'язане HTTP-з'єднання
+    
 
 # EventHttpRequest::closeConnection
 
-(PECL event \>= 1.8.0)
+(PECL event >= 1.8.0)
 
-EventHttpRequest::closeConnection — Закриває пов'язане з'єднання HTTP
+EventHttpRequest::closeConnection — Закриває зв'язане з'єднання HTTP
 
 ### Опис
 
-public **EventHttpRequest::closeConnection**(): void
+```methodsynopsis
+public
+   EventHttpRequest::closeConnection(): void
+```
 
 Закриває пов'язане з'єднання HTTP.
 

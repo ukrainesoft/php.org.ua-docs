@@ -1,52 +1,61 @@
-- [«imagecreatefromavif](function.imagecreatefromavif.md)
-- [imagecreatefromgd2 »](function.imagecreatefromgd2.md)
+Створює нове зображення з файлу чи URL
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Створює нове зображення із файлу або URL
+-   [« imagecreatefromavif](function.imagecreatefromavif.html)
+    
+-   [imagecreatefromgd2 »](function.imagecreatefromgd2.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Створює нове зображення з файлу чи URL
+    
 
-#imagecreatefrombmp
+# imagecreatefrombmp
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
 imagecreatefrombmp — Створення нового зображення з файлу або URL
 
 ### Опис
 
-**imagecreatefrombmp**(string `$filename`):
-[GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagecreatefrombmp(string $filename): GdImage|false
+```
 
-**imagecreatefrombmp()** повертає ідентифікатор зображення,
-який представляє зображення, отримане з переданого імені файлу.
+**imagecreatefrombmp()** повертає ідентифікатор зображення, що представляє зображення, одержане з переданого імені файлу.
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо
-була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
-докладнішу інформацію про визначення імені файлу в описі функції
-[fopen()](function.fopen.md). Дивіться також список підтримуваних
-оберток URL, їх можливості, зауваження щодо використання та список
-визначених констант у розділі [Підтримувані протоколи та обертки](wrappers.md).
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
 
 ### Список параметрів
 
 `filename`
+
 Шлях до BMP-зображення.
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Конвертування BMP-зображень у PNG-зображення, використовуючи
-**imagecreatefrombmp()****
+**Приклад #1 Конвертування BMP-зображення в PNG-зображення, використовуючи **imagecreatefrombmp()****
 
-` <?php// Завантажити BMP-файл$im = imagecreatefrombmp('./example.bmp');// Перетворити в PNG-файл з налаштуваннями за замовчуваннямimagepng($im, './example.png $im);?> `
+```php
+<?php
+// Загрузить BMP-файл
+$im = imagecreatefrombmp('./example.bmp');
+
+// Преобразовать в PNG-файл с настройками по умолчанию
+imagepng($im, './example.png');
+imagedestroy($im);
+?>
+```

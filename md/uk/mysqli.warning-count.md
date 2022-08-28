@@ -1,42 +1,47 @@
-- [« mysqli::use_result](mysqli.use-result.md)
-- [mysqli_stmt »](class.mysqli-stmt.md)
+Повертає кількість попереджень із останнього запиту заданого підключення
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає кількість попереджень із останнього запиту заданого
-підключення
+-   [« mysqli::use\_result](mysqli.use-result.html)
+    
+-   [mysqli\_stmt »](class.mysqli-stmt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Повертає кількість попереджень із останнього запиту заданого підключення
+    
 
-# mysqli::$warning_count
+# mysqli::$warningcount
 
-# mysqli_warning_count
+# mysqliwarningcount
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$warning_count -- mysqli_warning_count — Повертає кількість
-попереджень із останнього запиту заданого підключення
+mysqli::$warningcount - mysqliwarningcount — Повертає кількість попереджень із останнього запиту заданого підключення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli->warning_count`;
+int [$mysqli->warning\_count](mysqli.warning-count.html)
 
 Процедурний стиль
 
-**mysqli_warning_count**([mysqli](class.mysqli.md) `$mysql`): int
+```methodsynopsis
+mysqli_warning_count(mysqli $mysql): int
+```
 
 Повертає кількість попереджень із останнього запиту.
 
-> **Примітка**:
->
-> Для отримання попереджень можна використовувати SQL-команду
-> `SHOW WARNINGS [limit row_count]`.
+> **Зауваження**
+> 
+> Для отримання попереджень можна використовувати SQL-команду `SHOW WARNINGS [limit row_count]`
 
 ### Список параметрів
 
-`mysql` Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+`mysql`
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -44,29 +49,82 @@ int `$mysqli->warning_count`;
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$mysqli->warning_count`**
+**Приклад #1 Приклад використання $mysqli->warningcount**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
-", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCity LIKE City"); GBR',        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";$mysqli->query($query);if ($mysqli->warning_count) {    if ($result = $mysqli->query("SHOW WARNINGS")) {        $row = $ result->fetch_row();        printf("%s (%d): %s
-", $row[0], $row[1], $row[2]);        $result->close();    }}/* закриваємо з'єднання*/$mysqli->close();?> ``
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$mysqli->query("CREATE TABLE myCity LIKE City");
+
+/* знаменитый город в Уэльсе */
+$query = "INSERT INTO myCity (CountryCode, Name) VALUES('GBR',
+        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";
+
+$mysqli->query($query);
+
+if ($mysqli->warning_count) {
+    if ($result = $mysqli->query("SHOW WARNINGS")) {
+        $row = $result->fetch_row();
+        printf("%s (%d): %s\n", $row[0], $row[1], $row[2]);
+        $result->close();
+    }
+}
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
-", Mysqli_connect_error()); MyCli_query($link,"CREATE TABLE myCity LIKE City"); ',        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";mysqli_query($link, $query);if (mysqli_warning_count($link)) {    if ($result = mysqli_query($link, "SHOW WARNINGS")) {        $row = mysqli_fetch_row($result );         printf("%s (%d): %s
-", $row[0], $row[1], $row[2]);        mysqli_free_result($result);    }}/* закриваємо з'єднання */mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+mysqli_query($link, "CREATE TABLE myCity LIKE City");
+
+/* знаменитый город в Уэльсе */
+$query = "INSERT INTO myCity (CountryCode, Name) VALUES('GBR',
+        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";
+
+mysqli_query($link, $query);
+
+if (mysqli_warning_count($link)) {
+    if ($result = mysqli_query($link, "SHOW WARNINGS")) {
+        $row = mysqli_fetch_row($result);
+        printf("%s (%d): %s\n", $row[0], $row[1], $row[2]);
+        mysqli_free_result($result);
+    }
+}
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 Warning (1264): Data truncated for column 'Name' at row 1
+```
 
 ### Дивіться також
 
-- [mysqli_errno()](mysqli.errno.md) - Повертає код помилки
-останнього виклику функції
-- [mysqli_error()](mysqli.error.md) - Повертає рядок з описом
-останньої помилки
-- [mysqli_sqlstate()](mysqli.sqlstate.md) - Повертає код стану
-SQLSTATE останній MySQL операції
+-   [mysqli\_errno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
+-   [mysqli\_error()](mysqli.error.html) - Повертає рядок із описом останньої помилки
+-   [mysqli\_sqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції

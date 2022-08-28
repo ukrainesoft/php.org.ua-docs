@@ -1,23 +1,29 @@
-- [« sodium_crypto_sign_keypair_from_secretkey_and_publickey](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md)
-- [sodium_crypto_sign_open »](function.sodium-crypto-sign-open.md)
+Довільно згенерувати секретний ключ та відповідний відкритий ключ
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Довільно згенерувати секретний ключ та відповідний відкритий
-ключ
+-   [« sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html)
+    
+-   [sodium\_crypto\_sign\_open »](function.sodium-crypto-sign-open.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Довільно згенерувати секретний ключ та відповідний відкритий ключ
+    
 
-# sodium_crypto_sign_keypair
+# sodiumcryptosignkeypair
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_sign_keypair — Довільно згенерувати секретний ключ та
-відповідний відкритий ключ
+sodiumcryptosignkeypair — Довільно згенерувати секретний ключ та відповідний відкритий ключ
 
 ### Опис
 
-**sodium_crypto_sign_keypair**(): string
+```methodsynopsis
+sodium_crypto_sign_keypair(): string
+```
 
-Створює випадкову пару ключів Ed25519 як одного рядка.
+Створює випадкову пару ключів Ed25519 у вигляді рядка.
 
 ### Список параметрів
 

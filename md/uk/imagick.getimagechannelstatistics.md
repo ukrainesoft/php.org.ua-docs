@@ -1,24 +1,29 @@
-- [« Imagick::getImageChannelRange](imagick.getimagechannelrange.md)
-- [Imagick::getImageClipMask »](imagick.getimageclipmask.md)
+Повертає статистику для кожного каналу зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає статистику для кожного каналу зображення
+-   [« Imagick::getImageChannelRange](imagick.getimagechannelrange.html)
+    
+-   [Imagick::getImageClipMask »](imagick.getimageclipmask.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає статистику для кожного каналу зображення
+    
 
 # Imagick::getImageChannelStatistics
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageChannelStatistics — Повертає статистику для кожного
-каналу зображення
+Imagick::getImageChannelStatistics — Повертає статистику для кожного каналу зображення
 
 ### Опис
 
-public **Imagick::getImageChannelStatistics**(): array
+```methodsynopsis
+public Imagick::getImageChannelStatistics(): array
+```
 
-Повертає статистику кожного каналу зображення. Статистика
-включає глибину каналу, його мінімуми та максимуми, середнє та стандартне
-відхилення.
+Повертає статистику кожного каналу зображення. Статистика включає глибину каналу, його мінімуми та максимуми, середнє та стандартне відхилення.
 
 ### Список параметрів
 
@@ -26,4 +31,4 @@ public **Imagick::getImageChannelStatistics**(): array
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

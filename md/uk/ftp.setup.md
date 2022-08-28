@@ -1,15 +1,21 @@
-- [«Вступ](intro.ftp.md)
-- [Вимоги »](ftp.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [FTP](book.ftp.md)
+-   [« Введение](intro.ftp.html)
+    
+-   [Требования »](ftp.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FTP](book.ftp.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ftp.requirements.md)
-- [Установка](ftp.installation.md)
-- [Налаштування під час виконання](ftp.configuration.md)
-- [Типи ресурсів](ftp.resources.md)
+-   [Требования](ftp.requirements.html)
+-   [Установка](ftp.installation.html)
+-   [Настройка во время выполнения](ftp.configuration.html)
+-   [Типы ресурсов](ftp.resources.html)

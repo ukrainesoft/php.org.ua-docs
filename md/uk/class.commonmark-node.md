@@ -1,87 +1,107 @@
-- [« CommonMark\Node\CustomInline](class.commonmark-node-custominline.md)
-- [CommonMark\Node::appendChild »](commonmark-node.appendchild.md)
+Анотація класу CommonMarkNode
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
-- Абстрактний клас CommonMark\Node
+-   [« CommonMark\\Node\\CustomInline](class.commonmark-node-custominline.html)
+    
+-   [CommonMark\\Node::appendChild »](commonmark-node.appendchild.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark](book.cmark.html)
+    
+-   Анотація класу CommonMarkNode
+    
 
-# Абстрактний клас CommonMark\Node
+# Анотація класу CommonMarkNode
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
 ## Вступ
 
-Представляє абстрактний вузол, не призначений для безпосереднього
-використання програмістом.
+Являє абстрактний вузол, не призначений для безпосереднього використання програмістом.
 
 ## Огляд класів
 
-final abstract class **CommonMark\Node** implements
-[CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md),
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-public readonly ?Node `$parent`;
 
-public readonly ?Node `$previous`;
+    
+     
+      final
+      abstract
+      class CommonMark\Node
+     
 
-public readonly ?Node `$next`;
+     implements 
+       CommonMark\Interfaces\IVisitable,  Traversable {
 
-public readonly ?Node `$lastChild`;
+    /* Свойства */
+    
+     public
+     readonly
+     ?Node
+      $parent;
 
-public readonly ?Node `$firstChild`;
+    public
+     readonly
+     ?Node
+      $previous;
 
-public readonly int `$startLine`;
+    public
+     readonly
+     ?Node
+      $next;
 
-public readonly int `$endLine`;
+    public
+     readonly
+     ?Node
+      $lastChild;
 
-public readonly int `$startColumn`;
+    public
+     readonly
+     ?Node
+      $firstChild;
 
-public readonly int `$endColumn`;
+    public
+     readonly
+     int
+      $startLine;
 
-/\* Методи \*/
+    public
+     readonly
+     int
+      $endLine;
 
-public
-[appendChild](commonmark-node.appendchild.md)([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
+    public
+     readonly
+     int
+      $startColumn;
 
-public
-[prependChild](commonmark-node.prependchild.md)([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
+    public
+     readonly
+     int
+      $endColumn;
 
-public
-[insertAfter](commonmark-node.insertafter.md)([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
 
-public
-[insertBefore](commonmark-node.insertbefore.md)([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
+    /* Методы */
+    
+   public appendChild(CommonMark\Node $child): CommonMark\Node
+public prependChild(CommonMark\Node $child): CommonMark\Node
+public insertAfter(CommonMark\Node $sibling): CommonMark\Node
+public insertBefore(CommonMark\Node $sibling): CommonMark\Node
+public replace(CommonMark\Node $target): CommonMark\Node
+public unlink(): void
+public accept(CommonMark\Interfaces\IVisitor $visitor): void
 
-public
-[replace](commonmark-node.replace.md)([CommonMark\Node](class.commonmark-node.md)
-`$target`): [CommonMark\Node](class.commonmark-node.md)
-
-public [unlink](commonmark-node.unlink.md)(): void
-
-public
-[accept](commonmark-node.accept.md)([CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-`$visitor`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [CommonMark\Node::appendChild](commonmark-node.appendchild.md) -
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-- [CommonMark\Node::prependChild](commonmark-node.prependchild.md) -
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-- [CommonMark\Node::insertAfter](commonmark-node.insertafter.md) -
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-- [CommonMark\Node::insertBefore](commonmark-node.insertbefore.md) -
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-- [CommonMark\Node::replace](commonmark-node.replace.md) -
-Маніпуляції з AST (Абстрактне синтаксичне дерево)
-- [CommonMark\Node::unlink](commonmark-node.unlink.md) - Маніпуляції
-з AST (Абстрактне синтаксичне дерево)
-- [CommonMark\Node::accept](commonmark-node.accept.md) - Visitation
+-   [CommonMark\\Node::appendChild](commonmark-node.appendchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::prependChild](commonmark-node.prependchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::insertAfter](commonmark-node.insertafter.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::insertBefore](commonmark-node.insertbefore.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::replace](commonmark-node.replace.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::unlink](commonmark-node.unlink.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::accept](commonmark-node.accept.html) - Visitation

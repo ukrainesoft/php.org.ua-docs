@@ -1,23 +1,29 @@
-- [«SolrQuery::getTermsMinCount](solrquery.gettermsmincount.md)
-- [SolrQuery::getTermsReturnRaw »](solrquery.gettermsreturnraw.md)
+Повертає префікс виразу
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає префікс виразу
+-   [« SolrQuery::getTermsMinCount](solrquery.gettermsmincount.html)
+    
+-   [SolrQuery::getTermsReturnRaw »](solrquery.gettermsreturnraw.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає префікс виразу
+    
 
 # SolrQuery::getTermsPrefix
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getTermsPrefix — Повертає префікс виразу
 
 ### Опис
 
-public **SolrQuery::getTermsPrefix**(): string
+```methodsynopsis
+public SolrQuery::getTermsPrefix(): string
+```
 
-Повертає префікс, яким мають бути обмежені збігаються
-вирази. Обмежить збіги лише виразами, що починаються з
-префікса
+Повертає префікс, яким повинні бути обмежені вирази, що збігаються. Обмежить збіги лише виразами, що починаються з префіксу
 
 ### Список параметрів
 
@@ -25,5 +31,4 @@ public **SolrQuery::getTermsPrefix**(): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає рядок і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає рядок та **`null`**, якщо значення не встановлено.

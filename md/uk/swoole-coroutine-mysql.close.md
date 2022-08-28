@@ -1,24 +1,31 @@
-- [« Swoole\Coroutine\Http\Client::setMethod](swoole-coroutine-http-client.setmethod.md)
-- [Swoole\Coroutine\MySQL::connect »](swoole-coroutine-mysql.connect.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+-   [« Swoole\\Coroutine\\Http\\Client::setMethod](swoole-coroutine-http-client.setmethod.html)
+    
+-   [Swoole\\Coroutine\\MySQL::connect »](swoole-coroutine-mysql.connect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Опис
+    
 
-# Swoole\Coroutine\MySQL::close
+# SwooleCoroutineMySQL::close
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine\MySQL::close — Опис
+SwooleCoroutineMySQL::close — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\MySQL::close**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\MySQL::close(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

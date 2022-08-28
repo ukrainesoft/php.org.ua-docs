@@ -1,40 +1,52 @@
-- [«SolrObject::offsetSet](solrobject.offsetset.md)
-- [SolrClient »](class.solrclient.md)
+Скидає значення якості
 
-- [PHP Manual](index.md)
-- [SolrObject](class.solrobject.md)
-- скидає значення властивості
+-   [« SolrObject::offsetSet](solrobject.offsetset.html)
+    
+-   [SolrClient »](class.solrclient.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrObject](class.solrobject.html)
+    
+-   Скидає значення якості
+    
 
 # SolrObject::offsetUnset
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrObject::offsetUnset - Скидає значення властивості
+SolrObject::offsetUnset — Скидає значення властивості
 
 ### Опис
 
-public **SolrObject::offsetUnset**(string `$property_name`): void
+```methodsynopsis
+public SolrObject::offsetUnset(string $property_name): void
+```
 
-Скидає значення якості. Використовується, коли об'єкт обробляється
-як масив. Цей об'єкт доступний лише для читання. Цього ніколи не
-слід робити.
+Скидає значення якості. Використовується, коли об'єкт обробляється масивом. Цей об'єкт доступний лише для читання. Цього ніколи не слід робити.
 
 ### Список параметрів
 
 `property_name`
+
 Ім'я якості.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SolrObject::offsetUnset()****
 
-` <?php/* ... */?> `
+```php
+<?php
+/* ... */
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```

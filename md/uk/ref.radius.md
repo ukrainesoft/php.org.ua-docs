@@ -1,65 +1,45 @@
-- [« Приклади](radius.examples.md)
-- [radius_acct_open »](function.radius-acct-open.md)
+Функції Radius
 
-- [PHP Manual](index.md)
-- [Radius](book.radius.md)
-- Функції Radius
+-   [« Примеры](radius.examples.html)
+    
+-   [radius\_acct\_open »](function.radius-acct-open.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Radius](book.radius.html)
+    
+-   Функції Radius
+    
 
 # Функції Radius
 
 ## Зміст
 
-- [radius_acct_open](function.radius-acct-open.md) — Створює
-дескриптор Radius для обліку
-- [radius_add_server](function.radius-add-server.md) — Додає
-сервер
-- [radius_auth_open](function.radius-auth-open.md) — Створює
-дескриптор Radius для автентифікації
-- [radius_close](function.radius-close.md) - Звільняє всі ресурси
-- [radius_config](function.radius-config.md) — Примушує бібліотеку
-читати цей файл конфігурації
-- [radius_create_request](function.radius-create-request.md) -
-Створює обліковий запис або запит автентифікації
-- [radius_cvt_addr](function.radius-cvt-addr.md) - Перетворює
-необроблені дані в IP-адресу
-- [radius_cvt_int](function.radius-cvt-int.md) - Перетворює
-необроблені дані в ціле число
-- [radius_cvt_string](function.radius-cvt-string.md) - Перетворює
-необроблені дані у рядок
-- [radius_demangle_mppe_key](function.radius-demangle-mppe-key.md) -
-Отримує mppe-ключі зі спотворених даних
-- [radius_demangle](function.radius-demangle.md) - Розшифровує
-дані
-- [radius_get_attr](function.radius-get-attr.md) — Виймає атрибут
-- [radius_get_tagged_attr_data](function.radius-get-tagged-attr-data.md)
-— Витягує дані із позначеного атрибуту
-- [radius_get_tagged_attr_tag](function.radius-get-tagged-attr-tag.md)
-— Витягує тег із позначеного атрибуту
-- [radius_get_vendor_attr](function.radius-get-vendor-attr.md) -
-Виймає атрибут, що залежить від постачальника
-- [radius_put_addr](function.radius-put-addr.md) — Приєднує
-атрибут IP-адреси
-- [radius_put_attr](function.radius-put-attr.md) — Приєднує
-бінарний атрибут
-- [radius_put_int](function.radius-put-int.md) — Приєднує
-цілісний атрибут
-- [radius_put_string](function.radius-put-string.md) — Приєднує
-рядковий атрибут
-- [radius_put_vendor_addr](function.radius-put-vendor-addr.md) -
-Приєднує атрибут IP-адреси конкретного постачальника
-- [radius_put_vendor_attr](function.radius-put-vendor-attr.md) -
-Приєднує бінарний атрибут, що залежить від постачальника
-- [radius_put_vendor_int](function.radius-put-vendor-int.md) -
-Приєднує цілий атрибут, що залежить від постачальника
-- [radius_put_vendor_string](function.radius-put-vendor-string.md) -
-Приєднує рядковий атрибут, що залежить від постачальника
-- [radius_request_authenticator](function.radius-request-authenticator.md)
-— Повертає аутентифікатор запиту
-- [radius_salt_encrypt_attr](function.radius-salt-encrypt-attr.md) -
-Зашифровує значення за допомогою солі
-- [radius_send_request](function.radius-send-request.md) -
-Відправляє запит і чекає відповіді
-- [radius_server_secret](function.radius-server-secret.md) -
-Повертає загальний секрет
-- [radius_strerror](function.radius-strerror.md) — Повертає
-повідомлення про помилку
+-   [radius\_acct\_open](function.radius-acct-open.html) - Створює дескриптор Radius для обліку
+-   [radius\_add\_server](function.radius-add-server.html) - Додає сервер
+-   [radius\_auth\_open](function.radius-auth-open.html) — Створює дескриптор Radius для автентифікації
+-   [radius\_close](function.radius-close.html) - Звільняє всі ресурси
+-   [radius\_config](function.radius-config.html) — Примушує бібліотеку читати цей файл конфігурації
+-   [radius\_create\_request](function.radius-create-request.html) — Створює обліковий запис або запит автентифікації
+-   [radius\_cvt\_addr](function.radius-cvt-addr.html) — Перетворює необроблені дані на IP-адресу
+-   [radius\_cvt\_int](function.radius-cvt-int.html) — Перетворює необроблені дані на ціле число
+-   [radius\_cvt\_string](function.radius-cvt-string.html) — Перетворює необроблені дані на рядок
+-   [radius\_demangle\_mppe\_key](function.radius-demangle-mppe-key.html) — Отримує mppe-ключі зі спотворених даних
+-   [radius\_demangle](function.radius-demangle.html) - Розшифровує дані
+-   [radius\_get\_attr](function.radius-get-attr.html) — Витягує атрибут
+-   [radius\_get\_tagged\_attr\_data](function.radius-get-tagged-attr-data.html) — Витягує дані із зазначеного атрибуту
+-   [radius\_get\_tagged\_attr\_tag](function.radius-get-tagged-attr-tag.html) — Витягує тег із позначеного атрибуту
+-   [radius\_get\_vendor\_attr](function.radius-get-vendor-attr.html) — Витягує атрибут, що залежить від постачальника
+-   [radius\_put\_addr](function.radius-put-addr.html) — Приєднує атрибут IP-адреси
+-   [radius\_put\_attr](function.radius-put-attr.html) — Приєднує бінарний атрибут
+-   [radius\_put\_int](function.radius-put-int.html) — Приєднує цілісний атрибут
+-   [radius\_put\_string](function.radius-put-string.html) — Приєднує рядковий атрибут
+-   [radius\_put\_vendor\_addr](function.radius-put-vendor-addr.html) — Приєднує атрибут IP-адреси конкретного постачальника
+-   [radius\_put\_vendor\_attr](function.radius-put-vendor-attr.html) — Приєднує бінарний атрибут, що залежить від постачальника
+-   [radius\_put\_vendor\_int](function.radius-put-vendor-int.html) — Приєднує цілий атрибут, що залежить від постачальника.
+-   [radius\_put\_vendor\_string](function.radius-put-vendor-string.html) — Приєднує рядковий атрибут, що залежить від постачальника
+-   [radius\_request\_authenticator](function.radius-request-authenticator.html) — Повертає аутентифікатор запиту
+-   [radius\_salt\_encrypt\_attr](function.radius-salt-encrypt-attr.html) - Зашифровує значення за допомогою солі
+-   [radius\_send\_request](function.radius-send-request.html) — Надсилає запит і чекає на відповідь
+-   [radius\_server\_secret](function.radius-server-secret.html) — Повертає загальний секрет
+-   [radius\_strerror](function.radius-strerror.html) — Повертає повідомлення про помилку

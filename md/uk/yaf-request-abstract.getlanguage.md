@@ -1,20 +1,27 @@
-- [« Yaf_Request_Abstract::getException](yaf-request-abstract.getexception.md)
-- [Yaf_Request_Abstract::getMethod »](yaf-request-abstract.getmethod.md)
+Отримує кращу мову клієнта
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- отримує кращу мову клієнта
+-   [« Yaf\_Request\_Abstract::getException](yaf-request-abstract.getexception.html)
+    
+-   [Yaf\_Request\_Abstract::getMethod »](yaf-request-abstract.getmethod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Отримує кращу мову клієнта
+    
 
-# Yaf_Request_Abstract::getLanguage
+# YafRequestAbstract::getLanguage
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::getLanguage — Отримує бажану мову
-клієнта
+YafRequestAbstract::getLanguage — Отримує кращу мову клієнта
 
 ### Опис
 
-public **Yaf_Request_Abstract::getLanguage**(): void
+```methodsynopsis
+public Yaf_Request_Abstract::getLanguage(): void
+```
 
 ### Список параметрів
 

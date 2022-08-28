@@ -1,18 +1,22 @@
-- [«rmdir](function.rmdir.md)
-- [stat »](function.stat.md)
+Псевдонім streamsetwritebuffer
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Псевдонім stream_set_write_buffer
+-   [« rmdir](function.rmdir.html)
+    
+-   [stat »](function.stat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции файловой системы](ref.filesystem.html)
+    
+-   Псевдонім streamsetwritebuffer
+    
 
-#set_file_buffer
+# setfilebuffer
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-set_file_buffer - Псевдонім
-[stream_set_write_buffer()](function.stream-set-write-buffer.md)
+setfilebuffer - Псевдонім [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[stream_set_write_buffer()](function.stream-set-write-buffer.md).
+Ця функція є псевдонімом: [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html)

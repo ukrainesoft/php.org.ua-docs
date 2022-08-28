@@ -1,35 +1,41 @@
-- [« IntlTimeZone::createEnumeration](intltimezone.createenumeration.md)
-- [IntlTimeZone::createTimeZoneIDEnumeration »](intltimezone.createtimezoneidenumeration.md)
+Створити об'єкт часового поясу за ідентифікатором
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Створити об'єкт часового поясу по заданому ідентифікатору
+-   [« IntlTimeZone::createEnumeration](intltimezone.createenumeration.html)
+    
+-   [IntlTimeZone::createTimeZoneIDEnumeration »](intltimezone.createtimezoneidenumeration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Створити об'єкт часового поясу за ідентифікатором
+    
 
 # IntlTimeZone::createTimeZone
 
-# intltz_create_time_zone
+# intltzcreatetimezone
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::createTimeZone -- intltz_create_time_zone — Створити об'єкт
-часового поясу по заданому ідентифікатору
+IntlTimeZone::createTimeZone -- intltzcreatetimezone — Створити об'єкт часового поясу за ідентифікатором.
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::createTimeZone**(string `$timezoneId`):
-?[IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+public static IntlTimeZone::createTimeZone(string $timezoneId): ?IntlTimeZone
+```
 
 Процедурний стиль:
 
-**intltz_create_time_zone**(string `$timezoneId`):
-?[IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+intltz_create_time_zone(string $timezoneId): ?IntlTimeZone
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

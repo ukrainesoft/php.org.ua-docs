@@ -1,36 +1,45 @@
-- [« MessageFormatter::getErrorCode](messageformatter.geterrorcode.md)
-- [MessageFormatter::getLocale »](messageformatter.getlocale.md)
+Повертає текст помилки останньої операції
 
-- [PHP Manual](index.md)
-- [MessageFormatter](class.messageformatter.md)
-- Повертає текст помилки останньої операції
+-   [« MessageFormatter::getErrorCode](messageformatter.geterrorcode.html)
+    
+-   [MessageFormatter::getLocale »](messageformatter.getlocale.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MessageFormatter](class.messageformatter.html)
+    
+-   Повертає текст помилки останньої операції
+    
 
 # MessageFormatter::getErrorMessage
 
-#msgfmt_get_error_message
+# msgfmtgeterrormessage
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::getErrorMessage -- msgfmt_get_error_message --
-Повертає текст помилки останньої операції
+MessageFormatter::getErrorMessage -- msgfmtgeterrormessage — Повертає текст помилки останньої операції
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **MessageFormatter::getErrorMessage**(): string
+```methodsynopsis
+public MessageFormatter::getErrorMessage(): string
+```
 
 Процедурний стиль
 
-**msgfmt_get_error_message**([MessageFormatter](class.messageformatter.md)
-`$formatter`): string
+```methodsynopsis
+msgfmt_get_error_message(MessageFormatter $formatter): string
+```
 
-Повертає текст помилки останньої операції.
+Повертає помилку останньої операції.
 
 ### Список параметрів
 
 `formatter`
-Об'єкт [MessageFormatter](class.messageformatter.md)
+
+Об'єкт [MessageFormatter](class.messageformatter.html)
 
 ### Значення, що повертаються
 
@@ -38,25 +47,38 @@ public **MessageFormatter::getErrorMessage**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmt_get_error_message()****
+**Приклад #1 Приклад використання **msgfmtgeterrormessage()****
 
-` <?php$fmt = msgfmt_create("en_US", "{0, number} monkeys on {1, number} trees");$str = msgfmt_format($fmt, array())| echo "ERROR: ".msgfmt_get_error_message($fmt) . " (" . msgfmt_get_error_code($fmt) . ")
-";}?> `
+```php
+<?php
+$fmt = msgfmt_create("en_US", "{0, number} monkeys on {1, number} trees");
+$str = msgfmt_format($fmt, array());
+if(!$str) {
+    echo "ERROR: ".msgfmt_get_error_message($fmt) . " (" . msgfmt_get_error_code($fmt) . ")\n";
+}
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt = new MessageFormatter("en_US", "{0, number} monkeys on {1, number} trees");$str = $fmt->format(array());if(!$str ) {    echo "ERROR: ".$fmt->getErrorMessage() . " (" . $fmt->getErrorCode() . ")
-";}?> `
+```php
+<?php
+$fmt = new MessageFormatter("en_US", "{0, number} monkeys on {1, number} trees");
+$str = $fmt->format(array());
+if(!$str) {
+    echo "ERROR: ".$fmt->getErrorMessage() . " (" . $fmt->getErrorCode() . ")\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-ERROR: msgfmt_format: non enough parameters: U_ILLEGAL_ARGUMENT_ERROR (1)
+```
+ERROR: msgfmt_format: not enough parameters: U_ILLEGAL_ARGUMENT_ERROR (1)
+```
 
 ### Дивіться також
 
-- [msgfmt_get_error_code()](messageformatter.geterrorcode.md) -
-Повертає код помилки останньої операції
-- [intl_get_error_code()](function.intl-get-error-code.md) -
-Отримати код останньої помилки
-- [intl_is_failure()](function.intl-is-failure.md) - Перевірити,
-чи є код помилки ознакою збою
+-   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

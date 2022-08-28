@@ -1,20 +1,27 @@
-- [« Yaf_Route_Map](class.yaf-route-map.md)
-- [Yaf_Route_Map::\_\_construct »](yaf-route-map.construct.md)
+Збирає URL
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Map](class.yaf-route-map.md)
-- Збирає URL
+-   [« Yaf\_Route\_Map](class.yaf-route-map.html)
+    
+-   [Yaf\_Route\_Map::\_\_construct »](yaf-route-map.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Route\_Map](class.yaf-route-map.html)
+    
+-   Збирає URL
+    
 
-# Yaf_Route_Map::assemble
+# YafRouteMap::assemble
 
-(Yaf \> = 2.3.0)
+(Yaf >=2.3.0)
 
-Yaf_Route_Map::assemble — Збирає URL
+YafRouteMap::assemble — Збирає URL
 
 ### Опис
 
-public **Yaf_Route_Map::assemble**(array `$info`, array `$query` = ?):
-string
+```methodsynopsis
+public Yaf_Route_Map::assemble(array $info, array $query = ?): string
+```
 
 Збирає URL-адресу.
 
@@ -26,21 +33,54 @@ string
 
 ### Значення, що повертаються
 
-Повертає рядок (string) у разі успішного виконання або **`null`**
-у разі виникнення помилки.
+Повертає рядок (string) у разі успішного виконання або **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Може викинути
-[Yaf_Exception_TypeError](class.yaf-exception-typeerror.md).
+Може викинути [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Route_Map::assemble()****
+**Приклад #1 Приклад використання **YafRouteMap::assemble()****
 
-` <?php$router== new Yaf_Router();$route = new Yaf_Route_Map();$router->addRoute("map", $route);var_dump($router->getRoute('map')->assemble array(                                ':c' => 'foo_bar'                        ),                        array(                                'tkey1' => 'tval1',                                'tkey2' => 'tval2'                        )                   ));$route = new Yaf_Route_Map(true, '_');$ router->addRoute("map", $route);var_dump($router->getRoute('map')->assemble(                        array(                                ':a' => 'foo_bar'                        ),                        array(                                'tkey1' => ' tval1',                                'tkey2' => 'tval2'                        )                   )); `
+```php
+<?php
+
+$router = new Yaf_Router();
+
+$route  = new Yaf_Route_Map();
+
+$router->addRoute("map", $route);
+
+var_dump($router->getRoute('map')->assemble(
+                        array(
+                                ':c' => 'foo_bar'
+                        ),
+                        array(
+                                'tkey1' => 'tval1',
+                                'tkey2' => 'tval2'
+                        )
+                   )
+);
+
+$route = new Yaf_Route_Map(true, '_');
+$router->addRoute("map", $route);
+
+var_dump($router->getRoute('map')->assemble(
+                        array(
+                                ':a' => 'foo_bar'
+                        ),
+                        array(
+                                'tkey1' => 'tval1',
+                                'tkey2' => 'tval2'
+                        )
+                   )
+);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(%d) "/foo/bar?tkey1=tval1&tkey2=tval2"
 string(%d) "/foo/bar/_/tkey1/tval1/tkey2/tval2"
+```

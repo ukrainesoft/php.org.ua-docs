@@ -1,48 +1,45 @@
-- [« variant_pow](function.variant-pow.md)
-- [variant_set_type »](function.variant-set-type.md)
+Округлює варіант із заданою точністю
 
-- [PHP Manual](index.md)
-- [Функції COM](ref.com.md)
-- Округлює варіант із заданою точністю
+-   [« variant\_pow](function.variant-pow.html)
+    
+-   [variant\_set\_type »](function.variant-set-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции COM](ref.com.html)
+    
+-   Округлює варіант із заданою точністю
+    
 
-# variant_round
+# variantround
 
 (PHP 5, PHP 7, PHP 8)
 
-variant_round — Округлює варіант із заданою точністю
+variantround — Округлює варіант із заданою точністю
 
 ### Опис
 
-**variant_round**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$decimals`): ?[variant](class.variant.md)
+```methodsynopsis
+variant_round(mixed $value, int $decimals): ?variant
+```
 
-Повертає значення `value`, заокруглене до `decimals` десяткових
-знаків.
+Повертає значення `value`, заокруглене до `decimals` десяткових знаків.
 
 ### Список параметрів
 
 `value`
+
 Різновид.
 
 `decimals`
+
 Точність.
 
-> **Примітка**:
->
-> Як і з усіма варіантними арифметичними функціями, параметри цієї
-> функції можуть бути як рідними типами PHP (integer, string, floating
-> point, boolean або **`null`**), так і екземплярами класів COM,
-> VARIANT або DOTNET. Рідні PHP типи будуть перетворені на варіанти
-> (variants) за тими самими правилами, що й у конструкторі класу
-> [Variant](class.variant.md). У об'єктів COM і DOTNET буде взято і
-> використано їх значення за замовчуванням як значення варіанта.
->
-> Варіантні арифметичні функції є обертанням навколо
-> однойменних функцій у бібліотеці COM; для більш детальної інформації
-> За цими функціями проконсультуйтеся з бібліотекою MSDN. Назви
-> PHP-функцій трохи відрізняються; наприклад,
-> [variant_add()](function.variant-add.md) у PHP відповідає
-> `VarAdd()` у документації MSDN.
+> **Зауваження**
+> 
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> 
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
 ### Значення, що повертаються
 
@@ -50,4 +47,4 @@ variant_round — Округлює варіант із заданою точні
 
 ### Дивіться також
 
-- [round()](function.round.md) - Округлює кількість типу float
+-   [round()](function.round.html) - Округлює кількість типу float

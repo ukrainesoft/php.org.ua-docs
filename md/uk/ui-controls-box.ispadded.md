@@ -1,21 +1,29 @@
-- [« UI\Controls\Box::getOrientation](ui-controls-box.getorientation.md)
-- [UI\Controls\Box::setPadded »](ui-controls-box.setpadded.md)
+Визначення заповнення
 
-- [PHP Manual](index.md)
-- [UI\Controls\Box](class.ui-controls-box.md)
-- Визначення заповнення
+-   [« UI\\Controls\\Box::getOrientation](ui-controls-box.getorientation.html)
+    
+-   [UI\\Controls\\Box::setPadded »](ui-controls-box.setpadded.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Box](class.ui-controls-box.html)
+    
+-   Визначення заповнення
+    
 
-# UI\Controls\Box::isPadded
+# ОЙControlsBox::isPadded
 
 (UI 0.9.9)
 
-UI\Controls\Box::isPadded — Визначення заповнення
+ОЙControlsBox::isPadded — Визначення заповнення
 
 ### Опис
 
-public **UI\Controls\Box::isPadded**(): bool
+```methodsynopsis
+public UI\Controls\Box::isPadded(): bool
+```
 
-Визначає, чи увімкнено заповнення в цьому блоці
+Визначає, чи включено заповнення у цьому блоці
 
 ### Список параметрів
 

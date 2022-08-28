@@ -1,50 +1,80 @@
-- [« Memcache::flush](memcache.flush.md)
-- [Memcache::getExtendedStats »](memcache.getextendedstats.md)
+Вийняти елемент із сервера
 
-- [PHP Manual](index.md)
-- [Memcache](class.memcache.md)
-- Вийняти елемент із сервера
+-   [« Memcache::flush](memcache.flush.html)
+    
+-   [Memcache::getExtendedStats »](memcache.getextendedstats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcache](class.memcache.html)
+    
+-   Вийняти елемент із сервера
+    
 
 # Memcache::get
 
-(PECL memcache \>= 0.2.0)
+(PECL memcache >= 0.2.0)
 
 Memcache::get — Вийняти елемент із сервера
 
 ### Опис
 
-**Memcache::get**(string `$key`, int `&$flags` = ?): string
+```methodsynopsis
+Memcache::get(string $key, int &$flags = ?): string
+```
 
-**Memcache::get**(array `$keys`, array `&$flags` = ?): array
+```methodsynopsis
+Memcache::get(array $keys, array &$flags = ?): array
+```
 
-**Memcache::get()** повертає раніше збережений елемент із ключем `key`,
-якщо він зараз існує на сервері.
+**Memcache::get()** повертає раніше збережений елемент із ключем `key`, якщо він на даний момент існує на сервері.
 
-Ви можете передати масив ключів у **Memcache::get()**, щоб отримати
-масив елементів. Результуючий масив міститиме лише
-існуючі пари ключ-значення.
+Ви можете передати масив ключів у **Memcache::get()**, щоб отримати масив елементів. Результуючий масив міститиме лише існуючі пари ключ-значення.
 
 ### Список параметрів
 
 `key`
+
 Ключ або масив ключів для читання.
 
 `flags`
-Якщо встановлено, прапори, отримані разом зі значеннями, будуть записані в
-цей параметр. Це точно ті прапори, що і передані, наприклад в
-[Memcache::set()](memcache.set.md). Молодший байт значення
-зарезервований для внутрішнього використання pecl/memcache (наприклад для
-індикації стиснення або серіалізації статусу).
+
+Якщо встановлено, прапори, отримані разом із значеннями, будуть записані в цей параметр. Це точно ті прапори, що і передані, наприклад в [Memcache::set()](memcache.set.html). Молодший байт значення зарезервований для внутрішнього використання pecl/memcache (наприклад, для індикації стиснення або серіалізації статусу).
 
 ### Значення, що повертаються
 
-Повертає значення, пов'язане з ключем `key` або масив знайдених пар
-ключ-значення, якщо в key задано масив. Повертає **`false`** у
-у разі виникнення помилки або якщо вказаний ключ `key` не був знайдений
-або є порожнім масивом.
+Повертає значення, пов'язане з ключем `key` або масив знайдених пар ключ-значення, якщо в `key` заданий масив. Повертає **`false`** у разі виникнення помилки або якщо вказаний ключ `key` не було знайдено чи є порожнім масивом.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcache::get()****
 
-`<?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);$var = memcache_get($memcache_obj, 'om'е_не$ memcache_obj->connect('memcache_host', 11211);$var = $memcache_obj->get('some_key');/*Також в якості параметра ви можете то мати не буде включений цей ключ. */$memcache_obj = new Memcache;$memcache_obj->connect('memcache_host', 11211);$var = $memcache_obj->get(Array('some_key', 'second_key'));?> `
+```php
+<?php
+
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+$var = memcache_get($memcache_obj, 'some_key');
+
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+$var = $memcache_obj->get('some_key');
+
+/*
+Также в качестве параметра вы можете использовать массив ключей.
+Если элемент не будет найден, то в результирующий массив просто не будет
+включён этот ключ.
+*/
+
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+$var = memcache_get($memcache_obj, Array('some_key', 'another_key'));
+
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+$var = $memcache_obj->get(Array('some_key', 'second_key'));
+
+?>
+```

@@ -1,21 +1,26 @@
-- [« ocierror](function.ocierror.md)
-- [ocifetch »](function.ocifetch.md)
+Псевдонім ociexecute
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_execute
+-   [« ocierror](function.ocierror.html)
+    
+-   [ocifetch »](function.ocifetch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ociexecute
+    
 
 # ociexecute
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociexecute - Псевдонім [oci_execute()](function.oci-execute.md)
+ociexecute - Псевдонім [oci\_execute()](function.oci-execute.html)
 
 ### Опис
 
-Псевдонім [oci_execute()](function.oci-execute.md)
+Псевдонім [oci\_execute()](function.oci-execute.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

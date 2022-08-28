@@ -1,9 +1,15 @@
-- [« IntlChar::charType](intlchar.chartype.md)
-- [IntlChar::digit »](intlchar.digit.md)
+Отримати символ Unicode за його кодом
 
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Отримати символ Unicode за його кодом
+-   [« IntlChar::charType](intlchar.chartype.html)
+    
+-   [IntlChar::digit »](intlchar.digit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlChar](class.intlchar.html)
+    
+-   Отримати символ Unicode за його кодом
+    
 
 # IntlChar::chr
 
@@ -13,42 +19,48 @@ IntlChar::chr — Отримати символ Unicode за його кодом
 
 ### Опис
 
-public static **IntlChar::chr**(int\|string `$codepoint`): ?string
+```methodsynopsis
+public static IntlChar::chr(int|string $codepoint): ?string
+```
 
 Повертає рядок, що містить символ Unicode із заданим кодом.
 
-Ця функція протилежна дії функції
-[IntlChar::ord()](intlchar.ord.md).
+Ця функція протилежна дії функції [IntlChar::ord()](intlchar.ord.html)
 
 ### Список параметрів
 
 `codepoint`
-Цілочисленне (int) завдання коду символу (наприклад, `0x2603` для *U+2603
-СНІГОВИКА*), або символ, закодований рядок UTF-8 (наприклад
-``\u{2603}"`)
+
+Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить символ Unicode із заданим кодом або
-**`null`** у разі виникнення помилки.
+Повертає рядок, що містить символ Unicode із заданим кодом або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?php$values = ["A", 63, 123, 9731];foreach ($values as $value) {    var_dump(IntlChar::chr($value));}?> `
+```php
+<?php
+$values = ["A", 63, 123, 9731];
+foreach ($values as $value) {
+    var_dump(IntlChar::chr($value));
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(1) "A"
 string(1) "?"
 string(1) "{"
 string(3) "☃"
+```
 
 ### Дивіться також
 
-- [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
-- [mb_chr()](function.mb-chr.md) - Повертає символ за значенням
-кодової точки Unicode
-- [chr()](function.chr.md) - Генерує односимвольний рядок по
-заданому числу
+-   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
+-   [mb\_chr()](function.mb-chr.html) - Повертає символ за значенням кодової точки Unicode
+-   [chr()](function.chr.html) - Генерує односимвольний рядок за заданим числом

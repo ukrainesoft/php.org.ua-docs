@@ -1,24 +1,29 @@
-- [«error_reporting](function.error-reporting.md)
-- [restore_exception_handler »](function.restore-exception-handler.md)
+Відновлює попередній обробник помилок
 
-- [PHP Manual](index.md)
-- [Функції обробки помилок](ref.errorfunc.md)
-- Відновлює попередній обробник помилок
+-   [« error\_reporting](function.error-reporting.html)
+    
+-   [restore\_exception\_handler »](function.restore-exception-handler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции обработки ошибок](ref.errorfunc.html)
+    
+-   Відновлює попередній обробник помилок
+    
 
-# restore_error_handler
+# restoreerrorhandler
 
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
-restore_error_handler — Відновлює попередній обробник помилок
+restoreerrorhandler — Відновлює попередній обробник помилок
 
 ### Опис
 
-**restore_error_handler**(): bool
+```methodsynopsis
+restore_error_handler(): bool
+```
 
-Використовується після зміни обробника помилок функцією
-[set_error_handler()](function.set-error-handler.md), щоб повернути
-попередній обробник (який може бути як вбудованою функцією, так і
-визначеною користувачем).
+Використовується після зміни обробника помилок функцією [set\_error\_handler()](function.set-error-handler.html), щоб повернути попередній обробник (який може бути як вбудованою функцією, так і певною користувачем).
 
 ### Список параметрів
 
@@ -26,30 +31,37 @@ restore_error_handler — Відновлює попередній обробни
 
 ### Значення, що повертаються
 
-Ця функція завжди повертає **`true`**.
+Ця функція завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **restore_error_handler()****
+**Приклад #1 Приклад використання **restoreerrorhandler()****
 
-Визначення, чи сталася помилка у функції
-[unserialize()](function.unserialize.md), а потім відновлення
-вихідного обробника помилок.
+Визначення, чи сталася помилка у функції [unserialize()](function.unserialize.html), а потім відновлення вихідного обробника помилок.
 
-`<?phpfunction unserialize_handler($errno, $errstr){    echo "Серіалізується значення неприпустимо.
-";}$serialized = 'foo';set_error_handler('unserialize_handler');$original = unserialize($serialized);restore_error_handler();?> `
+```php
+<?php
+function unserialize_handler($errno, $errstr)
+{
+    echo "Сериализуемое значение недопустимо.\n";
+}
+
+$serialized = 'foo';
+set_error_handler('unserialize_handler');
+$original = unserialize($serialized);
+restore_error_handler();
+?>
+```
 
 Результат виконання цього прикладу:
 
-Серіалізується значення неприпустимо.
+```
+Сериализуемое значение недопустимо.
+```
 
 ### Дивіться також
 
-- [error_reporting()](function.error-reporting.md) - Задає, які
-помилки PHP потраплять у звіт
-- [set_error_handler()](function.set-error-handler.md) - Задає
-користувальницький обробник помилок
-- [restore_exception_handler()](function.restore-exception-handler.md) -
-Відновлює попередній обробник винятків
-- [trigger_error()](function.trigger-error.md) - Викликає
-помилку користувача/попередження/повідомлення
+-   [error\_reporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
+-   [set\_error\_handler()](function.set-error-handler.html) - Задає користувальницький обробник помилок
+-   [restore\_exception\_handler()](function.restore-exception-handler.html) - Відновлює попередній обробник винятків
+-   [trigger\_error()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення

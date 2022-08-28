@@ -1,15 +1,21 @@
-- [«Вступ](intro.mcrypt.md)
-- [Вимоги »](mcrypt.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Mcrypt](book.mcrypt.md)
+-   [« Введение](intro.mcrypt.html)
+    
+-   [Требования »](mcrypt.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](book.mcrypt.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](mcrypt.requirements.md)
-- [Установка](mcrypt.installation.md)
-- [Налаштування під час виконання](mcrypt.configuration.md)
-- [Типи ресурсів](mcrypt.resources.md)
+-   [Требования](mcrypt.requirements.html)
+-   [Установка](mcrypt.installation.html)
+-   [Настройка во время выполнения](mcrypt.configuration.html)
+-   [Типы ресурсов](mcrypt.resources.html)

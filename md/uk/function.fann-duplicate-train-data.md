@@ -1,28 +1,36 @@
-- [« fann_destroy](function.fann-destroy.md)
-- [fann_get_activation_function »](function.fann-get-activation-function.md)
+Повертає точну копію тренувальних даних
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає точну копію тренувальних даних
+-   [« fann\_destroy](function.fann-destroy.html)
+    
+-   [fann\_get\_activation\_function »](function.fann-get-activation-function.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає точну копію тренувальних даних
+    
 
-# fann_duplicate_train_data
+# fannduplicatetraindata
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_duplicate_train_data — Повертає точну копію тренувальних даних
+fannduplicatetraindata — Повертає точну копію тренувальних даних
 
 ### Опис
 
-**fann_duplicate_train_data**(resource `$data`): resource
+```methodsynopsis
+fann_duplicate_train_data(resource $data): resource
+```
 
 Повертає ресурс (resource) з точною копією тренувальних даних
 
 ### Список параметрів
 
 `data`
+
 Ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
-Повертає ресурс (resource) навчальних даних, або **`false`** у разі
-виникнення помилки.
+Повертає ресурс (resource) навчальних даних, або **`false`** у разі виникнення помилки.

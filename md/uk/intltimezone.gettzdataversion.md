@@ -1,35 +1,41 @@
-- [« IntlTimeZone::getRegion](intltimezone.getregion.md)
-- [IntlTimeZone::getUnknown »](intltimezone.getunknown.md)
+Отримати версію даних про часовий пояс, який зараз використовується в ICU
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати версію даних про часовий пояс, який зараз
-використовується в ICU
+-   [« IntlTimeZone::getRegion](intltimezone.getregion.html)
+    
+-   [IntlTimeZone::getUnknown »](intltimezone.getunknown.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Отримати версію даних про часовий пояс, який зараз використовується в ICU
+    
 
 # IntlTimeZone::getTZDataVersion
 
-# intltz_get_tz_data_version
+# intltzgetтцdataversion
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getTZDataVersion -- intltz_get_tz_data_version — Отримати
-версію даних про часовий пояс, який на даний момент використовується в
-ICU
+IntlTimeZone::getTZDataVersion -- intltzgetтцdataversion — Отримати версію даних про часовий пояс, який зараз використовується в ICU
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::getTZDataVersion**(): string\|false
+```methodsynopsis
+public static IntlTimeZone::getTZDataVersion(): string|false
+```
 
 Процедурний стиль:
 
-**intltz_get_tz_data_version**(): string\|false
+```methodsynopsis
+intltz_get_tz_data_version(): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

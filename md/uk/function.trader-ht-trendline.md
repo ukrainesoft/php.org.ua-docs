@@ -1,26 +1,34 @@
-- [«trader_ht_sine](function.trader-ht-sine.md)
-- [trader_ht_trendmode »](function.trader-ht-trendmode.md)
+Перетворення Гільберта – миттєва лінія тренду
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Перетворення Гільберта – миттєва лінія тренду
+-   [« trader\_ht\_sine](function.trader-ht-sine.html)
+    
+-   [trader\_ht\_trendmode »](function.trader-ht-trendmode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Перетворення Гільберта – миттєва лінія тренду
+    
 
-#trader_ht_trendline
+# traderхтtrendline
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_ht_trendline - Перетворення Гільберта - миттєва лінія тренду
+traderхтtrendline - Перетворення Гільберта - миттєва лінія тренду
 
 ### Опис
 
-**trader_ht_trendline**(array `$real`): array
+```methodsynopsis
+trader_ht_trendline(array $real): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

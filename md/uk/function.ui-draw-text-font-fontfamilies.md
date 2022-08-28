@@ -1,19 +1,27 @@
-- [« Функції UI](ref.ui.md)
-- [UI\quit »](function.ui-quit.md)
+Вийняти сімейство шрифтів
 
-- [PHP Manual](index.md)
-- [Функції UI](ref.ui.md)
-- Вийняти сімейство шрифтів
+-   [« Функции UI](ref.ui.html)
+    
+-   [UI\\quit »](function.ui-quit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции UI](ref.ui.html)
+    
+-   Вийняти сімейство шрифтів
+    
 
-# UI\Draw\Text\Font ontFamilies
+# ОЙDrawTextFontfontFamilies
 
 (UI 0.9.9)
 
-UI\Draw\Text\Font ontFamilies — Вийняти сімейство шрифтів
+ОЙDrawTextFontfontFamilies — Вийняти сімейство шрифтів
 
 ### Опис
 
-**UI\Draw\Text\Font ontFamilies**(): array
+```methodsynopsis
+UI\Draw\Text\Font\fontFamilies(): array
+```
 
 Повертає масив допустимих сімейств шрифтів для системи.
 
@@ -23,5 +31,4 @@ UI\Draw\Text\Font ontFamilies — Вийняти сімейство шрифті
 
 ### Значення, що повертаються
 
-Повертає масив (array) допустимих сімейств шрифтів для поточної
-системи.
+Повертає масив допустимих сімейств шрифтів для поточної системи.

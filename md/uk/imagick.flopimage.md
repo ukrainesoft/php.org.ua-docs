@@ -1,22 +1,29 @@
-- [« Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md)
-- [Imagick::forwardFourierTransformImage »](imagick.forwardfouriertransformimage.md)
+Створює горизонтальне дзеркальне відображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює горизонтальне дзеркальне відображення
+-   [« Imagick::floodFillPaintImage](imagick.floodfillpaintimage.html)
+    
+-   [Imagick::forwardFourierTransformImage »](imagick.forwardfouriertransformimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Створює горизонтальне дзеркальне відображення
+    
 
 # Imagick::flopImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::flopImage — Створює дзеркальне горизонтальне відображення
+Imagick::flopImage — Створює дзеркальне горизонтальне відображення.
 
 ### Опис
 
-public **Imagick::flopImage**(): bool
+```methodsynopsis
+public Imagick::flopImage(): bool
+```
 
-Створює горизонтальне дзеркало зображення, відображаючи пікселі навколо
-центральної осі Y.
+Створює горизонтальне дзеркало зображення, що відображає пікселі навколо центральної осі Y.
 
 ### Список параметрів
 
@@ -24,7 +31,7 @@ public **Imagick::flopImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -34,9 +41,18 @@ public **Imagick::flopImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::flopImage()****
 
-`<?phpfunction flopImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->flopImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function flopImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->flopImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::flipimage()](imagick.flipimage.md) - Створює
-вертикальне дзеркало зображення
+-   [Imagick::flipimage()](imagick.flipimage.html) - Створює вертикальне дзеркало зображення

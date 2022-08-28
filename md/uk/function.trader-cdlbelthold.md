@@ -1,40 +1,46 @@
-- [« trader_cdladvanceblock](function.trader-cdladvanceblock.md)
-- [trader_cdlbreakaway »](function.trader-cdlbreakaway.md)
+Захоплення за пояс
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Захоплення за пояс
+-   [« trader\_cdladvanceblock](function.trader-cdladvanceblock.html)
+    
+-   [trader\_cdlbreakaway »](function.trader-cdlbreakaway.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Захоплення за пояс
+    
 
-#trader_cdlbelthold
+# tradercdlbelthold
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlbelthold — Захоплення за пояс
+tradercdlbelthold - Захоплення за пояс
 
 ### Опис
 
-**trader_cdlbelthold**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlbelthold(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

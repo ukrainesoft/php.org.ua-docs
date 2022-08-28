@@ -1,31 +1,39 @@
-- [« Gmagick::setimagefilename](gmagick.setimagefilename.md)
-- [Gmagick::setimagegamma »](gmagick.setimagegamma.md)
+Встановлює формат певного зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює формат певного зображення
+-   [« Gmagick::setimagefilename](gmagick.setimagefilename.html)
+    
+-   [Gmagick::setimagegamma »](gmagick.setimagegamma.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює формат певного зображення
+    
 
 # Gmagick::setimageformat
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimageformat — Встановлює формат певного зображення
 
 ### Опис
 
-public **Gmagick::setimageformat**(string `$imageFormat`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageformat(string $imageFormat): Gmagick
+```
 
 Встановлює формат певного зображення у послідовності.
 
 ### Список параметрів
 
 `imageFormat`
+
 Формат зображення.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

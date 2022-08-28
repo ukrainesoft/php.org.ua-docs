@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](apcu.setup.md)
-- [Встановлення »](apcu.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](apcu.setup.md)
-- Вимоги
+-   [« Установка и настройка](apcu.setup.html)
+    
+-   [Установка »](apcu.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](apcu.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,9 +1,15 @@
-- [«serialize](function.serialize.md)
-- [strval »](function.strval.md)
+Задає тип змінної
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Задає тип змінної
+-   [« serialize](function.serialize.html)
+    
+-   [strval »](function.strval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Задає тип змінної
+    
 
 # settype
 
@@ -13,46 +19,56 @@ settype — Задає тип змінної
 
 ### Опис
 
-**settype**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$var`, string `$type`): bool
+```methodsynopsis
+settype(mixed &$var, string $type): bool
+```
 
-Задає тип `type` змінної `var`.
+Задає тип `type` змінної `var`
 
 ### Список параметрів
 
 `var`
-Перетворена змінна.
+
+Перетворювальна змінна.
 
 `type`
+
 Допустимими значеннями параметра `type` є:
 
-- "boolean" або "bool"
-- "integer" або "int"
-- "float" або "double"
-- "string"
-- "array"
-- "object"
-- "null"
+-   "boolean" або "bool"
+-   "integer" або "int"
+-   "float" або "double"
+-   "string"
+-   "array"
+-   "object"
+-   "null"
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **settype()****
 
-`<?php$foo = "5bar"; // рядок$bar = true; // Бульове значення settype ($ foo, "integer"); // $foo тепер 5   (ціле)settype($bar, "string"); // $bar тепер "1" (рядок)?> `
+```php
+<?php
+$foo = "5bar"; // строка
+$bar = true;   // булевое значение
+
+settype($foo, "integer"); // $foo теперь 5   (целое)
+settype($bar, "string");  // $bar теперь "1" (строка)
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Максимальне значення для "int" дорівнює **`PHP_INT_MAX`**.
+> **Зауваження**
+> 
+> Максимальне значення для "int" одно **`PHP_INT_MAX`**
 
 ### Дивіться також
 
-- [gettype()](function.gettype.md) - Повертає тип змінної
-- [Приведення типів](language.types.type-juggling.md#language.types.typecasting)
-- [Маніпуляції з типами](language.types.type-juggling.md)
+-   [gettype()](function.gettype.html) - Повертає тип змінної
+-   [Приведение типов](language.types.type-juggling.html#language.types.typecasting)
+-   [Манипуляции с типами](language.types.type-juggling.html)

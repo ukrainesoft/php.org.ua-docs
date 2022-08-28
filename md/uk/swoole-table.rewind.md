@@ -1,19 +1,27 @@
-- [« Swoole\Table::next](swoole-table.next.md)
-- [Swoole\Table::set »](swoole-table.set.md)
+Перемотує ітератор
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- перемотує ітератор
+-   [« Swoole\\Table::next](swoole-table.next.html)
+    
+-   [Swoole\\Table::set »](swoole-table.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Перемотує ітератор
+    
 
-# Swoole\Table::rewind
+# SwooleTable::rewind
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::rewind - Перемотує ітератор
+SwooleTable::rewind - Перемотує ітератор
 
 ### Опис
 
-public **Swoole\Table::rewind**(): void
+```methodsynopsis
+public Swoole\Table::rewind(): void
+```
 
 ### Список параметрів
 

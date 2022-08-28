@@ -1,20 +1,27 @@
-- [« GearmanClient::echo](gearmanclient.echo.md)
-- [GearmanClient::getErrno »](gearmanclient.geterrno.md)
+Повернути рядок помилки для останньої виявленої помилки
 
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Повернути рядок помилки для останньої виявленої помилки
+-   [« GearmanClient::echo](gearmanclient.echo.html)
+    
+-   [GearmanClient::getErrno »](gearmanclient.geterrno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanClient](class.gearmanclient.html)
+    
+-   Повернути рядок помилки для останньої виявленої помилки
+    
 
 # GearmanClient::error
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanClient::error — Повернути рядок помилки для останньої виявленої
-помилки
+GearmanClient::error — Повернути рядок помилки для останньої виявленої помилки
 
 ### Опис
 
-public **GearmanClient::error**(): string
+```methodsynopsis
+public GearmanClient::error(): string
+```
 
 Повертає рядок помилки для останньої виявленої помилки.
 
@@ -24,9 +31,8 @@ public **GearmanClient::error**(): string
 
 ### Значення, що повертаються
 
-Доданий рядок помилки.
+Докладний рядок помилки.
 
 ### Дивіться також
 
-- [GearmanClient::getErrno()](gearmanclient.geterrno.md) - Отримати
-значення errno
+-   [GearmanClient::getErrno()](gearmanclient.geterrno.html) - Отримати значення errno

@@ -1,24 +1,29 @@
-- [« Imagick::tintImage](imagick.tintimage.md)
-- [Imagick::transformImage »](imagick.transformimage.md)
+Повертає зображення у вигляді рядка
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає зображення у вигляді рядка
+-   [« Imagick::tintImage](imagick.tintimage.html)
+    
+-   [Imagick::transformImage »](imagick.transformimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає зображення у вигляді рядка
+    
 
-# Imagick::\_\_toString
+# Imagick::toString
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::\_\_toString — Повертає зображення у вигляді рядка
+Imagick::toString — Повертає зображення у вигляді рядка
 
 ### Опис
 
-public **Imagick::\_\_toString**(): string
+```methodsynopsis
+public Imagick::__toString(): string
+```
 
-Повертає поточне зображення у вигляді рядка. Поверне лише одне
-зображення; Метод не повинен використовуватися для об'єктів Imagick,
-які містять кілька зображень, наприклад анімований GIF або
-PDF із кількома сторінками.
+Повертає поточне зображення у вигляді рядка. Поверне лише одне зображення; Метод не повинен використовуватися для об'єктів Imagick, які містять кілька зображень, наприклад, анімований GIF або PDF з кількома сторінками.
 
 ### Список параметрів
 
@@ -26,12 +31,9 @@ PDF із кількома сторінками.
 
 ### Значення, що повертаються
 
-Повертає вміст рядка у разі успішного виконання або порожній
-рядок у разі виникнення помилки.
+Повертає вміст рядка у разі успішного виконання або порожній рядок у разі помилки.
 
 ### Дивіться також
 
-- [Imagick::getImageBlob()](imagick.getimageblob.md) - Повертає
-послідовність зображень у вигляді BLOB
-- [Imagick::getImagesBlob()](imagick.getimagesblob.md) - Повертає
-всі послідовності зображень у вигляді великого двійкового об'єкта
+-   [Imagick::getImageBlob()](imagick.getimageblob.html) - Повертає послідовність зображень у вигляді BLOB
+-   [Imagick::getImagesBlob()](imagick.getimagesblob.html) - Повертає всі послідовності зображень у вигляді великого двійкового об'єкта

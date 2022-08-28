@@ -1,49 +1,66 @@
-- [«gnupg_encrypt](function.gnupg-encrypt.md)
-- [gnupg_export »](function.gnupg-export.md)
+Шифрує та підписує переданий текст
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Шифрує та підписує переданий текст
+-   [« gnupg\_encrypt](function.gnupg-encrypt.html)
+    
+-   [gnupg\_export »](function.gnupg-export.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Шифрує та підписує переданий текст
+    
 
-#gnupg_encryptsign
+# gnupgencryptsign
 
-(PECL gnupg \>= 0.2)
+(PECL gnupg >= 0.2)
 
-gnupg_encryptsign — Шифрує та підписує надісланий текст
+gnupgencryptsign — Шифрує та підписує переданий текст
 
 ### Опис
 
-**gnupg_encryptsign**(resource `$identifier`, string `$plaintext`):
-string
+```methodsynopsis
+gnupg_encryptsign(resource $identifier, string $plaintext): string
+```
 
-Шифрує та підписує переданий у параметрі `plaintext` текст ключами,
-які були встановлені
-[gnupg_addsignkey](function.gnupg-addsignkey.md) та
-[gnupg_addencryptkey](function.gnupg-addencryptkey.md) раніше та
-повертає зашифрований та підписаний текст.
+Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupg\_addsignkey](function.gnupg-addsignkey.html) і [gnupg\_addencryptkey](function.gnupg-addencryptkey.html) раніше і повертає зашифрований та підписаний текст.
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `plaintext`
+
 Текст для шифрування.
 
 ### Значення, що повертаються
 
-У разі успішного виконання, ця функція повертає зашифрований та
-підписаний текст. У разі виникнення помилки ця функція повертає
-**`false`**.
+У разі успішного виконання, ця функція повертає зашифрований та підписаний текст. У разі помилки ця функція повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupg_encryptsign()****
+**Приклад #1 Процедурний приклад використання **gnupgencryptsign()****
 
-` <?php$res = gnupg_init();gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");$enc = gnupg_encryptsign($res, "просто тест");echo $enc;?> `
+```php
+<?php
+$res = gnupg_init();
+gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+$enc = gnupg_encryptsign($res, "просто тест");
+echo $enc;
+?>
+```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання
-**gnupg_encryptsign()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgencryptsign()****
 
-` <?php$gpg = new gnupg();$gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");$enc = $gpg->encryptsign("just a test");echo $enc;?> `
+```php
+<?php
+$gpg = new gnupg();
+$gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");
+$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
+$enc = $gpg->encryptsign("just a test");
+echo $enc;
+?>
+```

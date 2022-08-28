@@ -1,11 +1,16 @@
-- [« Встановлення та налаштування](win32service.setup.md)
-- [Встановлення »](win32service.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](win32service.setup.md)
-- Вимоги
+-   [« Установка и настройка](win32service.setup.html)
+    
+-   [Установка »](win32service.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](win32service.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Підтримувані версії Windows такі ж, як і в пакеті, що розповсюджується.
-Visual C++, що використовується для збирання PHP.
+Підтримувані версії Windows такі ж, як і в пакеті Visual C++, що використовується для складання PHP.

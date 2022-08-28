@@ -1,31 +1,39 @@
-- [« Gmagick::implodeimage](gmagick.implodeimage.md)
-- [Gmagick::levelimage »](gmagick.levelimage.md)
+Додає позначку до зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додає позначку до зображення
+-   [« Gmagick::implodeimage](gmagick.implodeimage.html)
+    
+-   [Gmagick::levelimage »](gmagick.levelimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Додає позначку до зображення
+    
 
 # Gmagick::labelimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::labelimage — Додає позначку до зображення
 
 ### Опис
 
-public **Gmagick::labelimage**(string `$label`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Gmagick::labelimage(string $label): mixed
+```
 
 Додає позначку до зображення.
 
 ### Список параметрів
 
 `label`
+
 Мітка, яку потрібно додати
 
 ### Значення, що повертаються
 
-Gmagick із міткою.
+Gmagick з етикетці.
 
 ### Помилки
 

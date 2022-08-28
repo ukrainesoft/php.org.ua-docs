@@ -1,9 +1,15 @@
-- [« UI\MenuItem::setChecked](ui-menuitem.setchecked.md)
-- [UI\Area::onDraw »](ui-area.ondraw.md)
+Area
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Area
+-   [« UI\\MenuItem::setChecked](ui-menuitem.setchecked.html)
+    
+-   [UI\\Area::onDraw »](ui-area.ondraw.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Area
+    
 
 # Area
 
@@ -11,110 +17,107 @@
 
 ## Вступ
 
-Область (Area) являє собою полотно, яке можна використовувати для
-малювання та реагування на події миші та клавіш.
+Область (Area) являє собою полотно, яке можна використовувати для малювання та реагування на події миші та клавіш.
 
 ## Огляд класів
 
-class **UI\Area** extends [UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Ctrl`;
 
-const int `Alt`;
+    
+     
+      class UI\Area
+     
 
-const int `Shift`;
+     
+      extends
+       UI\Control
+     
+     {
 
-const int `Super`;
+    /* Константы */
+    
+     const
+     int
+      Ctrl;
 
-const int `Down`;
+    const
+     int
+      Alt;
 
-const int `Up`;
+    const
+     int
+      Shift;
 
-/\* Методи \*/
+    const
+     int
+      Super;
 
-protected [onDraw](ui-area.ondraw.md)(
-[UI\Draw\Pen](class.ui-draw-pen.md) `$pen`,
-[UI\Size](class.ui-size.md) `$areaSize`,
-[UI\Point](class.ui-point.md) `$clipPoint`,
-[UI\Size](class.ui-size.md) `$clipSize`
-)
+    const
+     int
+      Down;
 
-protected [onKey](ui-area.onkey.md)(string `$key`, int `$ext`, int
-`$flags`)
+    const
+     int
+      Up;
 
-protected
-[onMouse](ui-area.onmouse.md)([UI\Point](class.ui-point.md)
-`$areaPoint`, [UI\Size](class.ui-size.md) `$areaSize`, int `$flags`)
 
-public [redraw](ui-area.redraw.md)()
+    /* Методы */
+    
+   protected onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
+protected onKey(string $key, int $ext, int $flags)
+protected onMouse(UI\Point $areaPoint, UI\Size $areaSize, int $flags)
+public redraw()
+public scrollTo(UI\Point $point, UI\Size $size)
+public setSize(UI\Size $size)
 
-public [scrollTo](ui-area.scrollto.md)([UI\Point](class.ui-point.md)
-`$point`, [UI\Size](class.ui-size.md) `$size`)
 
-public [setSize](ui-area.setsize.md)([UI\Size](class.ui-size.md)
-`$size`)
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-/\* Наслідувані методи \*/
 
-public [UI\Control::destroy](ui-control.destroy.md)()
+   }
+```
 
-public [UI\Control::disable](ui-control.disable.md)()
-
-public [UI\Control::enable](ui-control.enable.md)()
-
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Area::Ctrl`**
-Повинен бути встановлений у модифікаторах, переданих подіям клавіш та
-миші, коли активна клавіша CTRL
+
+Має бути встановлений у модифікаторах, переданих подіям клавіш і миші, коли активна клавіша CTRL
 
 **`UI\Area::Alt`**
-Повинен бути встановлений у модифікаторах, переданих подіям клавіш та
-миші, коли активна клавіша ALT
+
+Повинен бути встановлений у модифікаторах, переданих подіям клавіш та миші, коли активна клавіша ALT
 
 **`UI\Area::Shift`**
-Повинен бути встановлений у модифікаторах, переданих подіям клавіш та
-миші, коли активна клавіша SHIFT
+
+Повинен бути встановлений у модифікаторах, переданих подіям клавіш та миші, коли активна клавіша SHIFT
 
 **`UI\Area::Super`**
 
 **`UI\Area::Down`**
-Має бути встановлений у модифікаторах, переданих подіям клавіатури та
-миші
+
+Має бути встановлений у модифікаторах, переданих подіям клавіатури та миші
 
 **`UI\Area::Up`**
-Має бути встановлений у модифікаторах, переданих подіям клавіатури та
-миші
+
+Має бути встановлений у модифікаторах, переданих подіям клавіатури та миші
 
 ## Зміст
 
-- [UI\Area::onDraw](ui-area.ondraw.md) — Функція зворотного виклику
-при малюванні
-- [UI\Area::onKey](ui-area.onkey.md) — Функція зворотного дзвінка за
-натисканні
-- [UI\Area::onMouse](ui-area.onmouse.md) — Функція зворотного дзвінка
-миші
-- [UI\Area::redraw](ui-area.redraw.md) — Перемалювати область
-- [UI\Area::scrollTo](ui-area.scrollto.md) — Прокрутити область
-- [UI\Area::setSize](ui-area.setsize.md) — Встановити розмір
+-   [UI\\Area::onDraw](ui-area.ondraw.html) — Функція зворотного виклику під час малювання
+-   [UI\\Area::onKey](ui-area.onkey.html) — Функція зворотного дзвінка під час натискання
+-   [UI\\Area::onMouse](ui-area.onmouse.html) — Функція зворотного дзвінка миші
+-   [UI\\Area::redraw](ui-area.redraw.html) - Перемалювати область
+-   [UI\\Area::scrollTo](ui-area.scrollto.html) - Прокрутити область
+-   [UI\\Area::setSize](ui-area.setsize.html) - Встановити розмір

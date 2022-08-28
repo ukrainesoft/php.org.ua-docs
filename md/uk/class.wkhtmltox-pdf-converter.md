@@ -1,46 +1,53 @@
-- [« Налаштування під час виконання](wkhtmltox.configuration.md)
-- [wkhtmltox\PDF\Converter::add »](wkhtmltox-pdf-converter.add.md)
+Клас wkhtmltoxPDFConverter
 
-- [PHP Manual](index.md)
-- [wkhtmltox](book.wkhtmltox.md)
-- Клас wkhtmltox\PDF\Converter
+-   [« Настройка во время выполнения](wkhtmltox.configuration.html)
+    
+-   [wkhtmltox\\PDF\\Converter::add »](wkhtmltox-pdf-converter.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [wkhtmltox](book.wkhtmltox.html)
+    
+-   Клас wkhtmltoxPDFConverter
+    
 
-# Клас wkhtmltox\PDF\Converter
+# Клас wkhtmltoxPDFConverter
 
-(wkhtmltox \>= 0.1.0)
+(wkhtmltox >= 0.1.0)
 
 ## Вступ
 
-Перетворює вхідні дані HTML або набір вхідних даних HTML на PDF
+Перетворює вхідні дані HTML або набір вхідних даних HTML у PDF
 
 ## Огляд класів
 
-class **wkhtmltox\PDF\Converter** {
+```classsynopsis
 
-/\* Constructor \*/
 
-public [\_\_construct](wkhtmltox-pdf-converter.construct.md)(array
-`$settings` = ?)
 
-/\* Методи \*/
+    
+     
+      class wkhtmltox\PDF\Converter
+     
+     {
 
-public
-[add](wkhtmltox-pdf-converter.add.md)([wkhtmltox\PDF\Object](class.wkhtmltox-pdf-object.md)
-`$object`): void
 
-public [convert](wkhtmltox-pdf-converter.convert.md)(): ?string
+    /* Constructor */
+    
+   public __construct(array $settings = ?)
 
-public [getVersion](wkhtmltox-pdf-converter.getversion.md)(): string
 
-}
+    /* Методы */
+    public add(wkhtmltox\PDF\Object $object): void
+public convert(): ?string
+public getVersion(): string
+
+   }
+```
 
 ## Зміст
 
-- [wkhtmltox\PDF\Converter::add](wkhtmltox-pdf-converter.add.md) -
-Додавання об'єкта для перетворення
-- [wkhtmltox\PDF\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.md)
-— Створити новий PDF-конвертер
-- [wkhtmltox\PDF\Converter::convert](wkhtmltox-pdf-converter.convert.md)
-— Виконати перетворення PDF
-- [wkhtmltox\PDF\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md)
-— Визначити версію конвертера
+-   [wkhtmltox\\PDF\\Converter::add](wkhtmltox-pdf-converter.add.html) — Додавання об'єкта для перетворення
+-   [wkhtmltox\\PDF\\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.html) — Створити новий PDF-конвертер
+-   [wkhtmltox\\PDF\\Converter::convert](wkhtmltox-pdf-converter.convert.html) — Виконати перетворення PDF
+-   [wkhtmltox\\PDF\\Converter::getVersion](wkhtmltox-pdf-converter.getversion.html) — Визначити версію конвертера

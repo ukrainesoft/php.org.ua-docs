@@ -1,24 +1,29 @@
-- [« SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md)
-- [SolrQuery::getMltMinWordLength »](solrquery.getmltminwordlength.md)
+Повертає частоту, нижче за яку вирази ігноруватимуться у вихідному документі
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає частоту, нижче за яку вирази будуть ігноруватися в
-вихідному документі
+-   [« SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.html)
+    
+-   [SolrQuery::getMltMinWordLength »](solrquery.getmltminwordlength.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає частоту, нижче за яку вирази ігноруватимуться у вихідному документі
+    
 
 # SolrQuery::getMltMinTermFrequency
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMltMinTermFrequency — Повертає частоту, нижче за яку
-вирази ігноруватимуться у вихідному документі
+SolrQuery::getMltMinTermFrequency — Повертає частоту, нижче за яку вирази будуть ігноруватися у вихідному документі
 
 ### Опис
 
-public **SolrQuery::getMltMinTermFrequency**(): int
+```methodsynopsis
+public SolrQuery::getMltMinTermFrequency(): int
+```
 
-Повертає частоту, нижче за яку вирази будуть ігноруватися в
-вихідний документ.
+Повертає частоту, нижче за яку вирази будуть ігноруватися у вихідному документі.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ public **SolrQuery::getMltMinTermFrequency**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

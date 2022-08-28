@@ -1,28 +1,33 @@
-- [« openssl_cms_encrypt](function.openssl-cms-encrypt.md)
-- [openssl_cms_sign »](function.openssl-cms-sign.md)
+Експортує файл CMS до масиву сертифікатів PEM
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Експортує файл CMS до масиву сертифікатів PEM
+-   [« openssl\_cms\_encrypt](function.openssl-cms-encrypt.html)
+    
+-   [openssl\_cms\_sign »](function.openssl-cms-sign.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Експортує файл CMS до масиву сертифікатів PEM
+    
 
-# openssl_cms_read
+# opensslcmsread
 
 (PHP 8)
 
-openssl_cms_read — Експортує файл CMS до масиву сертифікатів PEM
+opensslcmsread — Експортує файл CMS до масиву сертифікатів PEM
 
 ### Опис
 
-**openssl_cms_read**(string `$input_filename`, array `&$certificates`):
-bool
+```methodsynopsis
+openssl_cms_read(string $input_filename, array &$certificates): bool
+```
 
-Працює аналогічно
-[openssl_pkcs7_read()](function.openssl-pkcs7-read.md).
+Працює аналогічно [openssl\_pkcs7\_read()](function.openssl-pkcs7-read.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,5 +37,4 @@ bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

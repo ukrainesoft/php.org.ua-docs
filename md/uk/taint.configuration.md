@@ -1,26 +1,33 @@
-- [« Установка](taint.installation.md)
-- [Типи ресурсів»](taint.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](taint.setup.md)
-- Налаштування під час виконання
+-   [« Установка](taint.installation.html)
+    
+-   [Типы ресурсов »](taint.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](taint.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
-
-| Ім'я За замовчуванням                                             | Місце зміни | Список змін    |
-| ----------------------------------------------------------------- | ----------- | -------------- |
-| [taint.enable](taint.configuration.md#ini.taint.enable)           | 0           | PHP_INI_SYSTEM |
-| [taint.error_level](taint.configuration.md#ini.taint.error-level) | E_WARNING   | PHP_INI_ALL    |
+Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Taint**
+
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [taint.enable](taint.configuration.html#ini.taint.enable) |  | PHPINISYSTEM |  |
+| [taint.error\_level](taint.configuration.html#ini.taint.error-level) | ЕWARNING | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 
 `taint.enable` int
+
 Чи увімкнено модуль.
 
 `taint.error_level` int
-Тип помилки, який повертатиме модуль при виявленні
-підозрілого рядка.
+
+Тип помилки, який повертатиме модуль при виявленні підозрілого рядка.

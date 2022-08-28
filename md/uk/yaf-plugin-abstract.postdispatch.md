@@ -1,27 +1,31 @@
-- [« Yaf_Plugin_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.md)
-- [Yaf_Plugin_Abstract::preDispatch »](yaf-plugin-abstract.predispatch.md)
+Призначення postDispatch
 
-- [PHP Manual](index.md)
-- [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-- Призначення postDispatch
+-   [« Yaf\_Plugin\_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.html)
+    
+-   [Yaf\_Plugin\_Abstract::preDispatch »](yaf-plugin-abstract.predispatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
+    
+-   Призначення postDispatch
+    
 
-# Yaf_Plugin_Abstract::postDispatch
+# YafPluginAbstract::postDispatch
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Plugin_Abstract::postDispatch — Призначення postDispatch
+YafPluginAbstract::postDispatch — Призначення postDispatch
 
 ### Опис
 
-public
-**Yaf_Plugin_Abstract::postDispatch**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`, [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-`$response`): void
+```methodsynopsis
+public Yaf_Plugin_Abstract::postDispatch(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,19 +1,25 @@
-- [«SolrDocument::deleteField](solrdocument.deletefield.md)
-- [SolrDocument::fieldExists »](solrdocument.fieldexists.md)
+Деструктор
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Деструктор
+-   [« SolrDocument::deleteField](solrdocument.deletefield.html)
+    
+-   [SolrDocument::fieldExists »](solrdocument.fieldexists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Деструктор
+    
 
-# SolrDocument::\_\_destruct
+# SolrDocument::destruct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::\_\_destruct - Деструктор
+SolrDocument::destruct - Деструктор
 
 ### Опис
 
-public **SolrDocument::\_\_destruct**()
+public **SolrDocument::destruct**
 
 Деструктор класу SolrDocument.
 

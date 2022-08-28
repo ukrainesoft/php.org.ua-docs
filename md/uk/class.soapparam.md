@@ -1,9 +1,15 @@
-- [« SoapHeader::\_\_construct](soapheader.construct.md)
-- [SoapParam::\_\_construct »](soapparam.construct.md)
+Клас SoapParam
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Клас SoapParam
+-   [« SoapHeader::\_\_construct](soapheader.construct.html)
+    
+-   [SoapParam::\_\_construct »](soapparam.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
+-   Клас SoapParam
+    
 
 # Клас SoapParam
 
@@ -11,35 +17,45 @@
 
 ## Вступ
 
-Надає настройки для дзвінка SOAP.
+Показує параметри для дзвінка SOAP.
 
 ## Огляд класів
 
-class **SoapParam** {
+```synopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$param_name`;
+    
+     
+      class SoapParam
+     
+     {
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$param_data`;
+    /* Свойства */
+    
+     public
+     string
+      $param_name;
 
-/\* Методи \*/
+    public
+     mixed
+      $param_data;
 
-public
-[\_\_construct](soapparam.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data`, string `$name`)
 
-}
+    /* Методы */
+    
+   public __construct(mixed $data, string $name)
+
+   }
+```
 
 ## Властивості
 
-`param_data`
+paramdata
 
-`param_name`
+paramname
 
 ## Зміст
 
-- [SoapParam::\_\_construct](soapparam.construct.md) - Конструктор
-SoapParam
+-   [SoapParam::\_\_construct](soapparam.construct.html) - Конструктор SoapParam

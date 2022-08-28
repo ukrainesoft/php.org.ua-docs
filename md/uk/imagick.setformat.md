@@ -1,9 +1,15 @@
-- [« Imagick::setFont](imagick.setfont.md)
-- [Imagick::setGravity »](imagick.setgravity.md)
+Встановлює формат об'єкту Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює формат об'єкту Imagick
+-   [« Imagick::setFont](imagick.setfont.html)
+    
+-   [Imagick::setGravity »](imagick.setgravity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює формат об'єкту Imagick
+    
 
 # Imagick::setFormat
 
@@ -13,9 +19,11 @@ Imagick::setFormat — Встановлює формат об'єкту Imagick
 
 ### Опис
 
-public **Imagick::setFormat**(string `$format`): bool
+```methodsynopsis
+public Imagick::setFormat(string $format): bool
+```
 
-Встановлює формат Imagick.
+Встановлює формат об'єкту Imagick.
 
 ### Список параметрів
 
@@ -23,4 +31,4 @@ public **Imagick::setFormat**(string `$format`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

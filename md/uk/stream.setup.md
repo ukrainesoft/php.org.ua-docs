@@ -1,15 +1,21 @@
-- [«Вступ](intro.stream.md)
-- [Вимоги »](stream.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Потоки](book.stream.md)
+-   [« Введение](intro.stream.html)
+    
+-   [Требования »](stream.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Потоки](book.stream.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](stream.requirements.md)
-- [Установка](stream.installation.md)
-- [Налаштування під час виконання](stream.configuration.md)
-- [Класи для роботи з потоками](stream.resources.md)
+-   [Требования](stream.requirements.html)
+-   [Установка](stream.installation.html)
+-   [Настройка во время выполнения](stream.configuration.html)
+-   [Классы для работы с потоками](stream.resources.html)

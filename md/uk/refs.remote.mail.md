@@ -1,26 +1,31 @@
-- [« ImagickKernel::separate](imagickkernel.separate.md)
-- [IMAP »](book.imap.md)
+Модулі для роботи з поштою
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Модулі для роботи з поштою
+-   [« ImagickKernel::separate](imagickkernel.separate.html)
+    
+-   [IMAP »](book.imap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Модулі для роботи з поштою
+    
 
 # Модулі для роботи з поштою
 
-- [IMAP](book.imap.md) - IMAP, POP3 та NNTP
-- [Вступ](intro.imap.md)
-- [Встановлення та налаштування](imap.setup.md)
-- [Предвизначені константи](imap.constants.md)
-- [Функції IMAP](ref.imap.md)
-- [IMAP\Connection](class.imap-connection.md) - Клас
-IMAP\Connection
-- [Mail](book.mail.md)
-- [Вступ](intro.mail.md)
-- [Встановлення та налаштування](mail.setup.md)
-- [Предвизначені константи](mail.constants.md)
-- [Пошта](ref.mail.md)
-- [Mailparse](book.mailparse.md)
-- [Вступ](intro.mailparse.md)
-- [Встановлення та налаштування](mailparse.setup.md)
-- [Предвизначені константи](mailparse.constants.md)
-- [Mailparse](ref.mailparse.md)
+-   [IMAP](book.imap.html) - IMAP, POP3 та NNTP
+    -   [Введение](intro.imap.html)
+    -   [Установка и настройка](imap.setup.html)
+    -   [Предопределённые константы](imap.constants.html)
+    -   [Функции IMAP](ref.imap.html)
+    -   [IMAP\\Connection](class.imap-connection.html) - Клас IMAPConnection
+-   [Mail](book.mail.html)
+    -   [Введение](intro.mail.html)
+    -   [Установка и настройка](mail.setup.html)
+    -   [Предопределённые константы](mail.constants.html)
+    -   [Почта](ref.mail.html)
+-   [Mailparse](book.mailparse.html)
+    -   [Введение](intro.mailparse.html)
+    -   [Установка и настройка](mailparse.setup.html)
+    -   [Предопределённые константы](mailparse.constants.html)
+    -   [Mailparse](ref.mailparse.html)

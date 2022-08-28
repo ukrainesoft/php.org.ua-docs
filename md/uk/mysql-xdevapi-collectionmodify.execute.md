@@ -1,23 +1,29 @@
-- [« CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.md)
-- [CollectionModify::limit »](mysql-xdevapi-collectionmodify.limit.md)
+Виконує операцію зміни
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- Виконує операцію зміни
+-   [« CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.html)
+    
+-   [CollectionModify::limit »](mysql-xdevapi-collectionmodify.limit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+    
+-   Виконує операцію зміни
+    
 
 # CollectionModify::execute
 
 (No version information available, might only be in Git)
 
-CollectionModify::execute — Виконує операції зміни
+CollectionModify::execute — Виконує операцію зміни
 
 ### Опис
 
-public **mysql_xdevapi\CollectionModify::execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionModify::execute(): mysql_xdevapi\Result
+```
 
-Метод execute необхідний для надсилання запиту операції CRUD на сервер
-MySQL.
+Метод execute необхідний відправки запиту операції CRUD на сервер MySQL.
 
 ### Список параметрів
 
@@ -25,12 +31,16 @@ MySQL.
 
 ### Значення, що повертаються
 
-Об'єкт Result, який можна використовувати для перевірки стану
-операції, наприклад, кількості порушених рядків.
+Об'єкт Result, який можна використовувати для перевірки стану операції, наприклад кількості порушених рядків.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionModify::execute()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::execute()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

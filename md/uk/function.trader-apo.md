@@ -1,43 +1,46 @@
-- [ trader_adxr](function.trader-adxr.md)
-- [trader_aroon »](function.trader-aroon.md)
+Абсолютний ціновий осцилятор
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Абсолютний ціновий осцилятор
+-   [« trader\_adxr](function.trader-adxr.html)
+    
+-   [trader\_aroon »](function.trader-aroon.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Абсолютний ціновий осцилятор
+    
 
-# trader_apo
+# traderapo
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_apo — Абсолютний ціновий осцилятор
+traderapo — Абсолютний ціновий осцилятор
 
 ### Опис
 
-**trader_apo**(
-array `$real`,
-int `$fastPeriod` = ?,
-int `$slowPeriod` = ?,
-int `$mAType` = ?
-): array
+```methodsynopsis
+trader_apo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `fastPeriod`
-Номер періоду для швидкого ковзного середнього. Допустимі значення від 2
-до 100 000.
+
+Номер періоду для швидкого ковзного середнього. Допустимі значення від 2 до 100000.
 
 `slowPeriod`
-Номер періоду для повільного ковзного середнього. Допустимі значення від
-2 до 100 000.
+
+Номер періоду для повільного ковзного середнього. Допустимі значення від 2 до 100000.
 
 `mAType`
-Тип ковзної середньої. Слід використовувати серію констант
-[TRADER_MA_TYPE\_\*](trader.constants.md).
+
+Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

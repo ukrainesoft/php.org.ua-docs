@@ -1,42 +1,55 @@
-- [«SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.md)
-- [SolrDisMaxQuery::removeBigramPhraseField »](solrdismaxquery.removebigramphrasefield.md)
+Конструктор класу
 
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Конструктор класу
+-   [« SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.html)
+    
+-   [SolrDisMaxQuery::removeBigramPhraseField »](solrdismaxquery.removebigramphrasefield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDisMaxQuery](class.solrdismaxquery.html)
+    
+-   Конструктор класу
+    
 
-# SolrDisMaxQuery::\_\_construct
+# SolrDisMaxQuery::construct
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::\_\_construct - Конструктор класу
+SolrDisMaxQuery::construct - Конструктор класу
 
 ### Опис
 
-public **SolrDisMaxQuery::\_\_construct**(string `$q` = ?)
+public **SolrDisMaxQuery::construct**(string `$q`
 
-Конструктор класу ініціалізує об'єкт та встановлює параметр q,
-якщо він вказаний
+Конструктор класу ініціалізує об'єкт та встановлює параметр q, якщо він вказаний
 
 ### Список параметрів
 
 `q`
+
 Пошуковий запит (параметр q)
 
 ### Значення, що повертаються
 
 ### Помилки
 
-Викидає
-[SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-у разі передачі неправильного параметра.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.html) у разі передачі неправильного параметра.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::\_\_construct()****
+**Приклад #1 Приклад використання **SolrDisMaxQuery::construct()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');echo $dismaxQuery;?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+echo $dismaxQuery;
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 q=lucene&defType=edismax
+```

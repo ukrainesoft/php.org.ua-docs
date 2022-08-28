@@ -1,78 +1,67 @@
-- [« MongoDB\BSON\Binary::unserialize](mongodb-bson-binary.unserialize.md)
-- [MongoDB\BSON\Decimal128::\_\_construct »](mongodb-bson-decimal128.construct.md)
+Клас MongoDBBSONDecimal128
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Клас MongoDB\BSON\Decimal128
+-   [« MongoDB\\BSON\\Binary::unserialize](mongodb-bson-binary.unserialize.html)
+    
+-   [MongoDB\\BSON\\Decimal128::\_\_construct »](mongodb-bson-decimal128.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON](book.bson.html)
+    
+-   Клас MongoDBBSONDecimal128
+    
 
-# Клас MongoDB\BSON\Decimal128
+# Клас MongoDBBSONDecimal128
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
 ## Вступ
 
-Тип BSON для [» Decimal128 формату з плаваючою точкою](https://en.wikipedia.org/wiki/Decimal128_floating-point_format),
-який підтримує числа до 34 десяткових знаків (тобто значних
-цифр) та діапазон експонентів від -6143 до +6144.
+Тип BSON для [» Decimal128 формата с плавающей точкой](https://en.wikipedia.org/wiki/Decimal128_floating-point_format), який підтримує числа до 34 десяткових знаків (тобто значних цифр) і діапазон експонентів від -6143 до +6144.
 
-На відміну від типу double BSON (тобто float у PHP), який зберігає
-тільки приблизні значення десяткових значень, тип даних decimal
-зберігає точне значення. Наприклад, `MongoDB\BSON\Decimal128('9.99')`
-має точне значення 9-99, де подвійне значення 9-99 буде мати
-приблизне значення 9.990000000000002131628.
+На відміну від типу double BSON (тобто float у PHP), який зберігає лише приблизні значення десяткових значень, тип даних decimal зберігає точне значення. Наприклад, `MongoDB\BSON\Decimal128('9.99')` має точне значення 9-99, де подвійне значення 9-99 буде мати приблизне значення 9.9900000000000002131628….
 
-> **Примітка**: **MongoDB\BSON\Decimal128** сумісний лише з MongoDB
->3.4+. При спробі використовувати тип BSON з попередніми версіями
-> призведе до помилки.
+> **Зауваження** **MongoDBBSONDecimal128** сумісний лише з MongoDB 3.4+. При спробі використовувати тип BSON з попередніми версіями приведе до помилки.
 
 ## Огляд класів
 
-final class **MongoDB\BSON\Decimal128** implements
-[MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md),
-[MongoDB\BSON\Type](class.mongodb-bson-type.md),
-[Serializable](class.serializable.md),
-[JsonSerializable](class.jsonserializable.md),
-[Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[\_\_construct](mongodb-bson-decimal128.construct.md)(string `$value`
-=?)
+    
+    
+     final
+     
+      class MongoDB\BSON\Decimal128
+     
 
-final public
-[jsonSerialize](mongodb-bson-decimal128.jsonserialize.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     implements 
+       MongoDB\BSON\Decimal128Interface,  MongoDB\BSON\Type,  Serializable,  JsonSerializable,  Stringable {
+    
 
-final public [serialize](mongodb-bson-decimal128.serialize.md)():
-string
+    /* Методы */
+    
+   final public __construct(string $value)
+final public jsonSerialize(): mixed
+final public serialize(): string
+final public __toString(): string
+final public unserialize(string $serialized): void
 
-final public [\_\_toString](mongodb-bson-decimal128.tostring.md)():
-string
+   }
+```
 
-final public
-[unserialize](mongodb-bson-decimal128.unserialize.md)(string
-`$serialized`): void
+## список змін
 
-}
-
-## Список змін
-
-| Версія                                                                                                                         | Опис                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.12.0                                                                                                            | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                                |
-| PECL mongodb 1.3.0                                                                                                             | Реалізує інтерфейс [MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md). |
-| PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) та [JsonSerializable](class.jsonserializable.md). |                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\\BSON\\Decimal128Interface](class.mongodb-bson-decimal128interface.html) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст
 
-- [MongoDB\BSON\Decimal128::\_\_construct](mongodb-bson-decimal128.construct.md)
-- Створює новий Decimal128
-- [MongoDB\BSON\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.md)
-— Повертає уявлення, яке можна перетворити на JSON
-- [MongoDB\BSON\Decimal128::serialize](mongodb-bson-decimal128.serialize.md)
-- Серіалізує Decimal128
-- [MongoDB\BSON\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.md)
-— Повертає рядкову виставу Decimal128
-- [MongoDB\BSON\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.md)
-- Десеріалізує Decimal128
+-   [MongoDB\\BSON\\Decimal128::\_\_construct](mongodb-bson-decimal128.construct.html) - Створює новий Decimal128
+-   [MongoDB\\BSON\\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDB\\BSON\\Decimal128::serialize](mongodb-bson-decimal128.serialize.html) - Серіалізує Decimal128
+-   [MongoDB\\BSON\\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.html) — Повертає рядкову виставу Decimal128
+-   [MongoDB\\BSON\\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.html) - Десеріалізує Decimal128

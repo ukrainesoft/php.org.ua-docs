@@ -1,15 +1,21 @@
-- [«Вступ](intro.openal.md)
-- [Вимоги »](openal.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [OpenAL](book.openal.md)
+-   [« Введение](intro.openal.html)
+    
+-   [Требования »](openal.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OpenAL](book.openal.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](openal.requirements.md)
-- [Установка](openal.installation.md)
-- [Налаштування під час виконання](openal.configuration.md)
-- [Типи ресурсів](openal.resources.md)
+-   [Требования](openal.requirements.html)
+-   [Установка](openal.installation.html)
+-   [Настройка во время выполнения](openal.configuration.html)
+-   [Типы ресурсов](openal.resources.html)

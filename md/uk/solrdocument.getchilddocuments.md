@@ -1,20 +1,27 @@
-- [«SolrDocument::\_\_get](solrdocument.get.md)
-- [SolrDocument::getChildDocumentsCount »](solrdocument.getchilddocumentscount.md)
+Повертає масив дочірніх документів (SolrDocument)
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Повертає масив дочірніх документів (SolrDocument)
+-   [« SolrDocument::\_\_get](solrdocument.get.html)
+    
+-   [SolrDocument::getChildDocumentsCount »](solrdocument.getchilddocumentscount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Повертає масив дочірніх документів (SolrDocument)
+    
 
 # SolrDocument::getChildDocuments
 
-(PECL solr \>= 2.3.0)
+(PECL solr> = 2.3.0)
 
-SolrDocument::getChildDocuments — Повертає масив дочірніх документів
-(SolrDocument)
+SolrDocument::getChildDocuments — Повертає масив дочірніх документів (SolrDocument)
 
 ### Опис
 
-public **SolrDocument::getChildDocuments**(): array
+```methodsynopsis
+public SolrDocument::getChildDocuments(): array
+```
 
 Повертає масив дочірніх документів (SolrDocument)
 
@@ -26,7 +33,5 @@ public **SolrDocument::getChildDocuments**(): array
 
 ### Дивіться також
 
-- [SolrDocument::hasChildDocuments()](solrdocument.haschilddocuments.md) -
-Перевіряє, чи має документ дочірні документи
-- [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.md) -
-Повертає кількість дочірніх документів
+-   [SolrDocument::hasChildDocuments()](solrdocument.haschilddocuments.html) - Перевіряє, чи має документ дочірні документи
+-   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.html) - Повертає кількість дочірніх документів

@@ -1,20 +1,27 @@
-- [«Gmagick::getimageindex](gmagick.getimageindex.md)
-- [Gmagick::getimageiterations »](gmagick.getimageiterations.md)
+Отримує схему чергування зображень
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує схему чергування зображень
+-   [« Gmagick::getimageindex](gmagick.getimageindex.html)
+    
+-   [Gmagick::getimageiterations »](gmagick.getimageiterations.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Отримує схему чергування зображень
+    
 
 # Gmagick::getimageinterlacescheme
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimageinterlacescheme — Отримує схему чергування
-зображень
+Gmagick::getimageinterlacescheme — Отримує схему чергування зображень
 
 ### Опис
 
-public **Gmagick::getimageinterlacescheme**(): int
+```methodsynopsis
+public Gmagick::getimageinterlacescheme(): int
+```
 
 Отримує схему чергування зображень.
 
@@ -24,8 +31,7 @@ public **Gmagick::getimageinterlacescheme**(): int
 
 ### Значення, що повертаються
 
-Повертає схему чергування як ціле число у разі успішного
-виконання
+Повертає схему чергування як ціле число у разі успішного виконання
 
 ### Помилки
 

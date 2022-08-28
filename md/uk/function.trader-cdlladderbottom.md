@@ -1,40 +1,46 @@
-- [« trader_cdlkickingbylength](function.trader-cdlkickingbylength.md)
-- [trader_cdllongleggeddoji »](function.trader-cdllongleggeddoji.md)
+Свічкова модель "Східчасте дно"
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Свічкова модель "Східчасте дно"
+-   [« trader\_cdlkickingbylength](function.trader-cdlkickingbylength.html)
+    
+-   [trader\_cdllongleggeddoji »](function.trader-cdllongleggeddoji.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Свічкова модель "Східчасте дно"
+    
 
-# trader_cdlladderbottom
+# tradercdlladderbottom
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlladderbottom — Свічкова модель "Східчасте дно"
+tradercdlladderbottom - Свічкова модель "Ступінчасте дно"
 
 ### Опис
 
-**trader_cdlladderbottom**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlladderbottom(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

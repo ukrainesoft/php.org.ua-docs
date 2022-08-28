@@ -1,25 +1,29 @@
-- [« AppendIterator::current](appenditerator.current.md)
-- [AppendIterator::getInnerIterator »](appenditerator.getinneriterator.md)
+Повертає клас ітератора масиву ArrayIterator
 
-- [PHP Manual](index.md)
-- [AppendIterator](class.appenditerator.md)
-- Повертає клас ітератора масиву ArrayIterator
+-   [« AppendIterator::current](appenditerator.current.html)
+    
+-   [AppendIterator::getInnerIterator »](appenditerator.getinneriterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [AppendIterator](class.appenditerator.html)
+    
+-   Повертає клас ітератора масиву ArrayIterator
+    
 
 # AppendIterator::getArrayIterator
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-AppendIterator::getArrayIterator — Повертає клас ітератора масиву
-ArrayIterator
+AppendIterator::getArrayIterator — Повертає клас ітератора масиву ArrayIterator
 
 ### Опис
 
-public **AppendIterator::getArrayIterator**():
-[ArrayIterator](class.arrayiterator.md)
+```methodsynopsis
+public AppendIterator::getArrayIterator(): ArrayIterator
+```
 
-Цей метод отримує клас [ArrayIterator](class.arrayiterator.md),
-який використовується для зберігання ітераторів, доданих за допомогою
-методу [AppendIterator::append()](appenditerator.append.md).
+Цей метод отримує клас [ArrayIterator](class.arrayiterator.html), який використовується для зберігання ітераторів, доданих за допомогою методу [AppendIterator::append()](appenditerator.append.html)
 
 ### Список параметрів
 
@@ -27,10 +31,8 @@ public **AppendIterator::getArrayIterator**():
 
 ### Значення, що повертаються
 
-Повертає клас [ArrayIterator](class.arrayiterator.md), що містить
-додані ітератори.
+Повертає клас [ArrayIterator](class.arrayiterator.html)містить додані ітератори.
 
 ### Дивіться також
 
-- [AppendIterator::getInnerIterator()](appenditerator.getinneriterator.md) -
-Повертає внутрішній ітератор
+-   [AppendIterator::getInnerIterator()](appenditerator.getinneriterator.html) - Повертає внутрішній ітератор

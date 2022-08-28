@@ -1,28 +1,35 @@
-- [« tidy_get_output](function.tidy-get-output.md)
-- [Лексер (Tokenizer) »](book.tokenizer.md)
+Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
 
-- [PHP Manual](index.md)
-- [Tidy](ref.tidy.md)
-- Повертає число Tidy-попереджень, зустрінених у вказаному
-документі
+-   [« tidy\_get\_output](function.tidy-get-output.html)
+    
+-   [Лексер (Tokenizer) »](book.tokenizer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Tidy](ref.tidy.html)
+    
+-   Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
+    
 
-#tidy_warning_count
+# tidywarningcount
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy_warning_count - Повертає число Tidy-попереджень, зустрінутих в
-зазначеному документі
+tidywarningcount - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
 
 ### Опис
 
-**tidy_warning_count**([tidy](class.tidy.md) `$tidy`): int
+```methodsynopsis
+tidy_warning_count(tidy $tidy): int
+```
 
 Повертає число Tidy-попереджень, що зустрічаються у зазначеному документі.
 
 ### Список параметрів
 
 `tidy`
-Об'єкт [Tidy](class.tidy.md).
+
+Об'єкт [Tidy](class.tidy.html)
 
 ### Значення, що повертаються
 
@@ -30,16 +37,21 @@ tidy_warning_count - Повертає число Tidy-попереджень, з
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy_warning_count()****
+**Приклад #1 Приклад використання **tidywarningcount()****
 
-` <?php$html = '<p>тест</i><bogustag>фікція</bogustag>';$tidy = tidy_parse_string($html);echo tidy_error_count($tidy) . "
-"; //1echo tidy_warning_count($tidy) . "
-"; //5?> `
+```php
+<?php
+$html = '<p>тест</i>
+<bogustag>фикция</bogustag>';
+
+$tidy = tidy_parse_string($html);
+
+echo tidy_error_count($tidy) . "\n"; //1
+echo tidy_warning_count($tidy) . "\n"; //5
+?>
+```
 
 ### Дивіться також
 
-- [tidy_error_count()](function.tidy-error-count.md) - Повертає
-число помилок Tidy, які зустрілися під час розгляду документа
-- [tidy_access_count()](function.tidy-access-count.md) - Повертає
-число доступних попереджень Tidy, що зустрілися у розглянутому
-документі
+-   [tidy\_error\_count()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidy\_access\_count()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі

@@ -1,27 +1,36 @@
-- [« fann_get_errstr](function.fann-get-errstr.md)
-- [fann_get_learning_momentum »](function.fann-get-learning-momentum.md)
+Отримує кількість нейронів у кожному шарі мережі
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Отримує кількість нейронів у кожному шарі мережі
+-   [« fann\_get\_errstr](function.fann-get-errstr.html)
+    
+-   [fann\_get\_learning\_momentum »](function.fann-get-learning-momentum.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Отримує кількість нейронів у кожному шарі мережі
+    
 
-# fann_get_layer_array
+# fanngetlayerarray
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_layer_array — Отримує кількість нейронів у кожному шарі мережі
+fanngetlayerarray — Отримує кількість нейронів у кожному шарі мережі
 
 ### Опис
 
-**fann_get_layer_array**(resource `$ann`): array
+```methodsynopsis
+fann_get_layer_array(resource $ann): array
+```
 
 Отримує кількість нейронів у кожному шарі мережі.
 
-Зміщення не увімкнено, тому шари відповідають функцій fann_create.
+Зміщення не включене, тому шари відповідають функцій fanncreate.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються

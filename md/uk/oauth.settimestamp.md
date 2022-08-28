@@ -1,45 +1,50 @@
-- [« OAuth::setSSLChecks](oauth.setsslchecks.md)
-- [OAuth::setToken »](oauth.settoken.md)
+Встановити позначку часу
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Встановити мітку часу
+-   [« OAuth::setSSLChecks](oauth.setsslchecks.html)
+    
+-   [OAuth::setToken »](oauth.settoken.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Встановити позначку часу
+    
 
 # OAuth::setTimestamp
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuth::setTimestamp — Встановити позначку часу
 
 ### Опис
 
-public **OAuth::setTimestamp**(string `$timestamp`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public OAuth::setTimestamp(string $timestamp): mixed
+```
 
 Встановити позначку часу OAuth для наступних запитів.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `timestamp`
+
 Мітка часу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**, якщо параметр `timestamp` заданий
-некоректно.
+Повертає **`true`** або **`false`**, якщо параметр `timestamp` заданий некоректно.
 
-### Список змін
+### список змін
 
-| Версія           | Опис                                                                    |
-|------------------|-------------------------------------------------------------------------|
-| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **null** замість **false**. |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Дивіться також
 
-- [OAuth::setNonce()](oauth.setnonce.md) - Встановити nonce для
-наступних запитів
+-   [OAuth::setNonce()](oauth.setnonce.html) - Встановити nonce для наступних запитів

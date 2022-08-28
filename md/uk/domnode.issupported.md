@@ -1,40 +1,44 @@
-- [« DOMNode::isSameNode](domnode.issamenode.md)
-- [DOMNode::lookupNamespaceUri »](domnode.lookupnamespaceuri.md)
+Перевіряє, чи підтримується можливість у певній версії
 
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- Перевіряє, чи підтримується можливість у певній версії
+-   [« DOMNode::isSameNode](domnode.issamenode.html)
+    
+-   [DOMNode::lookupNamespaceUri »](domnode.lookupnamespaceuri.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMNode](class.domnode.html)
+    
+-   Перевіряє, чи підтримується можливість у певній версії
+    
 
 # DOMNode::isSupported
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMNode::isSupported — Перевіряє, чи підтримується можливість
-певної версії
+DOMNode::isSupported — Перевіряє, чи підтримується можливість у певній версії
 
 ### Опис
 
-public **DOMNode::isSupported**(string `$feature`, string `$version`):
-bool
+```methodsynopsis
+public DOMNode::isSupported(string $feature, string $version): bool
+```
 
-Перевіряє, чи підтримується зазначена можливість `feature` в
-певної версії `version`.
+Перевіряє, чи підтримується зазначена можливість `feature` у певній версії `version`
 
 ### Список параметрів
 
 `feature`
-Можливість, що перевіряється. Список можливостей наведено у прикладі до
-[DOMImplementation::hasFeature()](domimplementation.hasfeature.md).
+
+Перевірювана можливість. Список можливостей наведено у прикладі до [DOMImplementation::hasFeature()](domimplementation.hasfeature.html)
 
 `version`
-Номер версії (feature) для перевірки.
+
+Номер версії (`feature`) для перевірки.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DOMImplementation::hasFeature()](domimplementation.hasfeature.md) -
-Перевірка, чи реалізована певна можливість у реалізації DOM
+-   [DOMImplementation::hasFeature()](domimplementation.hasfeature.html) - Перевірка, чи реалізована певна можливість у реалізації DOM

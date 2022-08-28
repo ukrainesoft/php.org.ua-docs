@@ -1,15 +1,21 @@
-- [« Типи ресурсів](filter.resources.md)
-- [Фільтри валідації даних»](filter.filters.validate.md)
+Типи фільтрів
 
-- [PHP Manual](index.md)
-- [Filter](book.filter.md)
-- Типи фільтрів
+-   [« Типы ресурсов](filter.resources.html)
+    
+-   [Фильтры валидации данных »](filter.filters.validate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Filter](book.filter.html)
+    
+-   Типи фільтрів
+    
 
 # Типи фільтрів
 
 ## Зміст
 
-- [Фільтри валідації даних](filter.filters.validate.md)
-- [Очищувальні фільтри](filter.filters.sanitize.md)
-- [Інші фільтри](filter.filters.misc.md)
-- [Прапори, що використовуються у фільтрах](filter.filters.flags.md)
+-   [Фильтры валидации данных](filter.filters.validate.html)
+-   [Очищающие фильтры](filter.filters.sanitize.html)
+-   [Остальные фильтры](filter.filters.misc.html)
+-   [Флаги, используемые в фильтрах](filter.filters.flags.html)

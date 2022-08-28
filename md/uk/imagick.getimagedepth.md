@@ -1,9 +1,15 @@
-- [« Imagick::getImageDelay](imagick.getimagedelay.md)
-- [Imagick::getImageDispose »](imagick.getimagedispose.md)
+Повертає глибину зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає глибину зображення
+-   [« Imagick::getImageDelay](imagick.getimagedelay.html)
+    
+-   [Imagick::getImageDispose »](imagick.getimagedispose.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає глибину зображення
+    
 
 # Imagick::getImageDepth
 
@@ -13,7 +19,9 @@ Imagick::getImageDepth — Повертає глибину зображення
 
 ### Опис
 
-public **Imagick::getImageDepth**(): int
+```methodsynopsis
+public Imagick::getImageDepth(): int
+```
 
 Повертає глибину зображення.
 

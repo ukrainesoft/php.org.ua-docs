@@ -1,55 +1,77 @@
-- [«EvStat::attr](evstat.attr.md)
-- [EvStat::createStopped »](evstat.createstopped.md)
+Створює об'єкт спостерігача EvStat
 
-- [PHP Manual](index.md)
-- [EvStat](class.evstat.md)
-- створює об'єкт спостерігача EvStat
+-   [« EvStat::attr](evstat.attr.html)
+    
+-   [EvStat::createStopped »](evstat.createstopped.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvStat](class.evstat.html)
+    
+-   Створює об'єкт спостерігача EvStat
+    
 
-# EvStat::\_\_construct
+# EvStat::construct
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvStat::\_\_construct — Створює об'єкт спостерігача EvStat
+EvStat::construct - Створює об'єкт спостерігача EvStat
 
 ### Опис
 
-public **EvStat::\_\_construct**(
-string `$path`,
-float `$interval`,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-)
+public **EvStat::construct**  
+string `$path`  
+float `$interval`  
+[callable](language.types.callable.html) `$callback`  
+[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
+int `$priority`  
 
 Створює об'єкт спостерігача EvStat та автоматично запускає спостерігача.
 
 ### Список параметрів
 
 `path`
+
 Шлях очікування зміни статусу.
 
 `interval`
-Підказує, як швидко очікується виявлення змін, та його зазвичай
-вказується **`0.0`**, щоб дозволити *libev* вибрати відповідне
-значення.
+
+Підказує, як швидко очікується виявлення змін, та його зазвичай вказується **`0.0`**, щоб дозволити *libev* вибрати потрібне значення.
 
 `callback`
-Дивіться [Спостерігачі зворотного дзвінка](ev.watcher-callbacks.md) .
+
+Дивіться [Наблюдатели обратного вызова](ev.watcher-callbacks.html)
 
 `data`
-Користувальницькі дані, пов'язані зі спостерігачем.
+
+Дані користувача, пов'язані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
 
 ### Приклади
 
-**Приклад #1 Дивимося зміни в /var/log/messages**
+**Приклад #1 Дивимося зміни /var/log/messages**
 
-`` <?php// Використовуємо 10-секундний інтервал оновлення.$w = new EvStat("/var/log/messages", 8, function ($w) { echo "/var/log/messages змін
-"; $attr = $w->attr(); if ($attr['nlink']) {  printf("Розмір: %ld
-", $attr['size']);  printf("Переглянуто: %ld
-", $attr['atime']);  printf("Змінено: %ld
-", $attr['mtime']); } else { fprintf(STDERR, "`messages` файл не найден!"); $w->stop(); }});Ev::run();?> ``
+```php
+<?php
+// Используем 10-секундный интервал обновления.
+$w = new EvStat("/var/log/messages", 8, function ($w) {
+ echo "/var/log/messages изменён\n";
+
+ $attr = $w->attr();
+
+ if ($attr['nlink']) {
+  printf("Размер: %ld\n", $attr['size']);
+  printf("Просмотрен: %ld\n", $attr['atime']);
+  printf("Изменён: %ld\n", $attr['mtime']);
+ } else {
+  fprintf(STDERR, "`messages` файл не найден!");
+  $w->stop();
+ }
+});
+
+Ev::run();
+?>
+```

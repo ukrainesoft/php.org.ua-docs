@@ -1,65 +1,83 @@
-- [« IntlCalendar::isWeekend](intlcalendar.isweekend.md)
-- [IntlCalendar::set »](intlcalendar.set.md)
+Додає значення в поле без перенесення до найважливіших полів
 
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- Додає значення в поле без перенесення до найважливіших полів
+-   [« IntlCalendar::isWeekend](intlcalendar.isweekend.html)
+    
+-   [IntlCalendar::set »](intlcalendar.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlCalendar](class.intlcalendar.html)
+    
+-   Додає значення в поле без перенесення до найважливіших полів
+    
 
 # IntlCalendar::roll
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlCalendar::roll — Додає значення в поле без перенесення до більш
-важливі поля
+IntlCalendar::roll — Додає значення в поле без перенесення до найважливіших полів
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::roll**(int `$field`, int\|bool `$value`): bool
+```methodsynopsis
+public IntlCalendar::roll(int $field, int|bool $value): bool
+```
 
 Процедурний стиль
 
-**intlcal_roll**([IntlCalendar](class.intlcalendar.md) `$calendar`,
-int `$field`, int\|bool `$value`): bool
+```methodsynopsis
+intlcal_roll(IntlCalendar $calendar, int $field, int|bool $value): bool
+```
 
-Додає кількість (зі знаком) у полі. Відмінність від
-[IntlCalendar::add()](intlcalendar.add.md) полягає в тому, що коли
-значення поля переповнюється, воно не переноситься у найважливіші поля.
+Додає кількість (зі знаком) у поле. Відмінність від [IntlCalendar::add()](intlcalendar.add.html) полягає в тому, що коли значення поля переповнюється, воно не переноситься у найважливіші поля.
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.html)
 
 `field`
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md)
-[констант](class.intlcalendar.md#intlcalendar.constants) полів типу
-дата час. Ціле число від `0` до **`IntlCalendar::FIELD_COUNT`**.
+
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 `value`
-Кількість (зі знаком), що додається до поля, **`true`** для згортання
-(додавання `1`) або **`false`** для скочування вниз (віднімання `1`).
+
+Кількість (зі знаком), що додається до поля, **`true`** для згортання (додавання `1`) або **`false`** для скочування вниз (віднімання `1`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlCalendar::roll()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'pt_PT');$cal = new IntlGregorianCalendar(2013, 5 /* Червень */, $ cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);var_dump(IntlDateFormatter::formatObject($cal)); // "01/07/2013, 00:00:00"$cal->set(2013, 5 /* Червень */, 30);$cal->roll(IntlCalendar::FIELD_DAY_OF_MONTH, true); // згорнути так так, як скатитися +1var_dump(IntlDateFormatter::formatObject($cal)); // "01/06/2013, 00:00:00" `
+```php
+<?php
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'pt_PT');
+
+$cal = new IntlGregorianCalendar(2013, 5 /* Июнь */, 30);
+
+$cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);
+var_dump(IntlDateFormatter::formatObject($cal)); // "01/07/2013, 00:00:00"
+
+$cal->set(2013, 5 /* Июнь */, 30);
+$cal->roll(IntlCalendar::FIELD_DAY_OF_MONTH, true); // свернуть так же, как скатиться +1
+var_dump(IntlDateFormatter::formatObject($cal)); // "01/06/2013, 00:00:00"
+```
 
 Результат виконання цього прикладу:
 
+```
 string(20) "01/07/2013, 00:00:00"
 string(20) "01/06/2013, 00:00:00"
+```
 
 ### Дивіться також
 
-- [IntlCalendar::add()](intlcalendar.add.md) - Додає кількість
-(зі знаком) часу в полі
-- [IntlCalendar::set()](intlcalendar.set.md) - Встановлює поле
-часу або відразу кілька спільних полів
+-   [IntlCalendar::add()](intlcalendar.add.html) - Додає кількість (зі знаком) часу у полі
+-   [IntlCalendar::set()](intlcalendar.set.html) - Встановлює поле часу або одразу кілька спільних полів

@@ -1,24 +1,31 @@
-- [« Yaf_Request_Abstract::getEnv](yaf-request-abstract.getenv.md)
-- [Yaf_Request_Abstract::getLanguage »](yaf-request-abstract.getlanguage.md)
+Призначення getException
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Призначення getException
+-   [« Yaf\_Request\_Abstract::getEnv](yaf-request-abstract.getenv.html)
+    
+-   [Yaf\_Request\_Abstract::getLanguage »](yaf-request-abstract.getlanguage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Призначення getException
+    
 
-# Yaf_Request_Abstract::getException
+# YafRequestAbstract::getException
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::getException — Призначення getException
+YafRequestAbstract::getException — Призначення getException
 
 ### Опис
 
-public **Yaf_Request_Abstract::getException**(): void
+```methodsynopsis
+public Yaf_Request_Abstract::getException(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

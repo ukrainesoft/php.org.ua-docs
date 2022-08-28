@@ -1,15 +1,32 @@
-- [« Просте використання VarnishStat](varnish.example.stat.md)
-- [VarnishAdmin »](class.varnishadmin.md)
+Просте використання VarnishLog
 
-- [PHP Manual](index.md)
-- [Приклади](varnish.examples.md)
-- Просте використання VarnishLog
+-   [« Простое использование VarnishStat](varnish.example.stat.html)
+    
+-   [VarnishAdmin »](class.varnishadmin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Примеры](varnish.examples.html)
+    
+-   Просте використання VarnishLog
+    
 
 ## Просте використання VarnishLog
 
-Даний приклад ілюструє читання рядків журналу varnish з поділюваної
-пам'яті
+Даний приклад ілюструє читання рядків журналу varnish з пам'яті, що розділяється
 
 **Приклад #1 Прочитати журнал пам'яті varnish**
 
-` <?php$vl = new VarnishLog;while(1) {    $line = $vl->getLine(); printf("%s %d %s", VarnishLog::getTagName($line['tag']), $line['id'],   $line['data']);}exit(0);?> `
+```php
+<?php
+
+$vl = new VarnishLog;
+while(1) {
+    $line = $vl->getLine();
+    printf("%s %d %s", VarnishLog::getTagName($line['tag']), $line['id'],
+    $line['data']);
+}
+
+exit(0);
+?>
+```

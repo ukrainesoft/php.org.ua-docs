@@ -1,77 +1,99 @@
-- [« Збережені процедури](mysqli.quickstart.stored-procedures.md)
-- [API підтримка транзакцій »](mysqli.quickstart.transactions.md)
+Множинні запити
 
-- [PHP Manual](index.md)
-- [Короткий посібник](mysqli.quickstart.md)
-- Численні запити
+-   [« Хранимые процедуры](mysqli.quickstart.stored-procedures.html)
+    
+-   [API поддержка транзакций »](mysqli.quickstart.transactions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Краткое руководство](mysqli.quickstart.html)
+    
+-   Множинні запити
+    
 
 ## Множинні запити
 
-MySQL підтримує наявність кількох SQL-запитів у тексті одного
-запиту, але потребує особливого звернення. Пересилання на сервер кількох
-виразів в одному запиті зменшує кількість клієнт-серверних
-взаємодій, але потребує спеціальної обробки.
+MySQL підтримує наявність кількох SQL-запитів у тексті одного запиту, але потребує особливого звернення. Пересилання на сервер декількох виразів в одному запиті зменшує кількість клієнт-серверних взаємодій, але потребує спеціальної обробки.
 
-Множинні запити або мультизапити повинні запускатися функцією
-[mysqli::multi_query()](mysqli.multi-query.md). Окремі
-SQL-пропозиції у мультизапиті відокремлюються крапкою з комою. Після
-виконання мультизапиту всі результуючі набори, які він повернув,
-необхідно витягти.
+Множинні запити або мультизапити повинні запускатися функцією [mysqli::multi\_query()](mysqli.multi-query.html). Окремі SQL-пропозиції у мультизапиті відокремлюються крапкою з комою. Після виконання мультизапиту, всі результуючі набори, які він повернув, необхідно витягти.
 
-MySQL-сервер підтримує наявність в одному мультизапиті підзапитів, як
-повертають результуючий набір, що так і не повертають.
+MySQL-сервер підтримує наявність в одному мультизапиті підзапитів, що повертають результуючий набір, так і не повертають.
 
 **Приклад #1 Множинні запити**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$sql = "SELECT COUNT(*) AS _num FROM test;                   ¦             ¦                Я    ¦          Я            Я‚ test; ";$mysqli->multi_query($sql);do {    if ($result = $mysqli->store_result()) {     | $result->free(); }} while ($mysqli->next_result()); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("example.com", "user", "password", "database");
+
+$mysqli->query("DROP TABLE IF EXISTS test");
+$mysqli->query("CREATE TABLE test(id INT)");
+
+$sql = "SELECT COUNT(*) AS _num FROM test;
+        INSERT INTO test(id) VALUES (1);
+        SELECT COUNT(*) AS _num FROM test; ";
+
+$mysqli->multi_query($sql);
+
+do {
+    if ($result = $mysqli->store_result()) {
+        var_dump($result->fetch_all(MYSQLI_ASSOC));
+        $result->free();
+    }
+} while ($mysqli->next_result());
+```
 
 Результат виконання цього прикладу:
 
+```
 array(1) {
-[0]=>
+  [0]=>
+  array(1) {
+    ["_num"]=>
+    string(1) "0"
+  }
+}
 array(1) {
-["_num"]=>
-string(1) "0"
+  [0]=>
+  array(1) {
+    ["_num"]=>
+    string(1) "1"
+  }
 }
-}
-array(1) {
-[0]=>
-array(1) {
-["_num"]=>
-string(1) "1"
-}
-}
+```
 
 *Розгляд аспектів безпеки*
 
-Функції API [mysqli::query()](mysqli.query.md) та
-[mysqli::real_query()](mysqli.real-query.md) під час роботи не
-встановлюють на сервері спеціальний прапор, необхідний виконання
-мультизапитів. Окрема API-функція для мультизапитів дозволяє
-знизити можливість випадкових SQL-ін'єкцій. Зловмисник може
-спробувати додати до кінця запиту висловлювання, начебто
-`; DROP DATABASE mysql` або `; SELECT SLEEP(999)`. Якщо йому це вдасться,
-але не буде використовуватись функція `mysqli::multi_query`, сервер не
-виконає впроваджене та небезпечне SQL-вираз.
+Функції API [mysqli::query()](mysqli.query.html) і [mysqli::real\_query()](mysqli.real-query.html) під час роботи не встановлюють на сервері спеціальний прапор, необхідний виконання мультизапросов. Окрема функція API для мультизапитів дозволяє знизити ймовірність випадкових SQL-ін'єкцій. Зловмисник може спробувати додати до кінця запиту виразу, на кшталт `; DROP DATABASE mysql` або `; SELECT SLEEP(999)`. Якщо йому це вдасться, але не використовуватиметься функція `mysqli::multi_query`, сервер не виконає впроваджений та небезпечний SQL-вираз.
 
 **Приклад #2 SQL-ін'єкція**
 
-` <?php$mysqli = new mysqli("example.com", "user", "password", "database");$result = $mysqli->query("SELECT 1; DROP TABLE mysql.user"); if (!$result) {   echo "Помилка під час виконання запиту: (" . $mysqli->errno . ") " . $ mysqli->error;}?> `
+```php
+<?php
+$mysqli = new mysqli("example.com", "user", "password", "database");
+$result = $mysqli->query("SELECT 1; DROP TABLE mysql.user");
+if (!$result) {
+    echo "Ошибка во время выполнения запроса: (" . $mysqli->errno . ") " . $mysqli->error;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Помилка під час виконання запиту: (1064) Ваша помилка в вашому SQL syntax;
+```
+Ошибка во время выполнения запроса: (1064) You have an error in your SQL syntax;
 check the manual that corresponds to your MySQL server version for the right syntax
 to use near 'DROP TABLE mysql.user' at line 1
+```
 
-*Підготовки запитів*
+*Підготовлювані запити*
 
-Використання безлічі виразів у запиті, що готується
-підтримується.
+Використання безлічі виразів у запиті, що готується, не підтримується.
 
 *Дивіться також*
 
-- [mysqli::query()](mysqli.query.md)
-- [mysqli::multi_query()](mysqli.multi-query.md)
-- [mysqli::next_result()](mysqli.next-result.md)
-- [mysqli::more_results()](mysqli.more-results.md)
+-   [mysqli::query()](mysqli.query.html)
+-   [mysqli::multi\_query()](mysqli.multi-query.html)
+-   [mysqli::next\_result()](mysqli.next-result.html)
+-   [mysqli::more\_results()](mysqli.more-results.html)

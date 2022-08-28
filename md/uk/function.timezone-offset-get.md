@@ -1,18 +1,22 @@
-- [«timezone_name_get](function.timezone-name-get.md)
-- [timezone_open »](function.timezone-open.md)
+Псевдонім DateTimeZone::getOffset
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTimeZone::getOffset
+-   [« timezone\_name\_get](function.timezone-name-get.html)
+    
+-   [timezone\_open »](function.timezone-open.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTimeZone::getOffset
+    
 
-#timezone_offset_get
+# timezoneoffsetget
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-timezone_offset_get - Псевдонім
-[DateTimeZone::getOffset()](datetimezone.getoffset.md)
+timezoneoffsetget - Псевдонім [DateTimeZone::getOffset()](datetimezone.getoffset.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTimeZone::getOffset()](datetimezone.getoffset.md)
+Ця функція є псевдонімом: [DateTimeZone::getOffset()](datetimezone.getoffset.html)

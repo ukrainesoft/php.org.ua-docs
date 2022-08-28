@@ -1,94 +1,223 @@
-- [«oci_connect](function.oci-connect.md)
-- [oci_error »](function.oci-error.md)
+Порівняє змінну PHP стовпцю результату запиту
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- зіставляє змінну PHP стовпцю результату запиту
+-   [« oci\_connect](function.oci-connect.html)
+    
+-   [oci\_error »](function.oci-error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Порівняє змінну PHP стовпцю результату запиту
+    
 
-#oci_define_by_name
+# ocidefineбname
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_define_by_name — Порівняє змінну PHP стовпцю результату
-запиту
+ocidefineбname — Порівняє змінну PHP стовпцю результату запиту
 
 ### Опис
 
-**oci_define_by_name**(
-resource `$statement`,
-string `$column`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$var`,
-int `$type` = 0
-): bool
+```methodsynopsis
+oci_define_by_name(    resource $statement,    string $column,    mixed &$var,    int $type = 0): bool
+```
 
-Порівняє змінну PHP стовпцю результату запиту, отриманого з
-за допомогою [oci_fetch()](function.oci-fetch.md).
+Зіставляє змінну PHP стовпцю результату запиту, отриманого за допомогою [oci\_fetch()](function.oci-fetch.html)
 
-Виклик **oci_define_by_name()** повинен здійснюватися до запуску
-[oci_execute()](function.oci-execute.md).
+Виклик **ocidefineбname()** повинен проводитися до запуску [oci\_execute()](function.oci-execute.html)
 
 ### Список параметрів
 
 `statement`
-Коректний ідентифікатор виразу OCI8, отриманий з
-[oci_parse()](function.oci-parse.md) та виконаний функцією
-[oci_execute()](function.oci-execute.md), або ідентифікатор виразу
-`REF CURSOR`.
+
+Коректний ідентифікатор виразу OCI8, отриманий з [oci\_parse()](function.oci-parse.html) та виконаний функцією [oci\_execute()](function.oci-execute.html), або ідентифікатор виразу `REF CURSOR`
 
 `column`
+
 Ім'я стовпця використаного у запиті.
 
-Використовуйте верхній регістр для стандартних незалежних імен
-стовпців Oracle. Використовуйте точне написання імені стовпця для
-реєстрозалежних імен.
+Використовуйте верхній регістр для стандартних незалежних імен стовпців Oracle. Використовуйте точне написання імені стовпця для реєстрозалежних імен.
 
 `var`
+
 Змінна PHP, призначена для зберігання поверненого значення.
 
 `type`
-Тип даних, що повертаються. Зазвичай не потрібно. Майте на увазі, що
-перетворення Oracle-даних не виробляються. Наприклад, `SQLT_INT`
-буде проігноровано і повернені дані будуть, як і раніше, у вигляді
-`SQLT_CHR`.
 
-Якщо потрібно призначити змінну абстрактного типу даних
-(LOB/ROWID/BFILE), то її необхідно спочатку створити за допомогою
-[oci_new_descriptor()](function.oci-new-descriptor.md).
+Тип даних, що повертаються. Зазвичай не потрібно. Майте на увазі, що перетворення Oracle-даних не виконуються. Наприклад, `SQLT_INT` буде проігноровано і повернені дані будуть як і раніше у вигляді `SQLT_CHR`
+
+Якщо вам потрібно призначити змінну абстрактного типу даних (LOB/ROWID/BFILE), її необхідно спочатку створити за допомогою [oci\_new\_descriptor()](function.oci-new-descriptor.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_define_by_name()****
+**Приклад #1 Приклад використання **ocidefineбname()****
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti; ДОЛЖНЫ быть определены перед запускомoci_define_by_name($stid, 'LOCATION_ID', $locid);oci_define_by_name($stid, 'CITY', $city);oci_execute($stid);//  Каждый результат запроса помещает в заранее определённую переменную следующую строку данныхwhile ( oci_fetch($stid)) {    echo "ID місце $locid - $city<br>
-";}// Виведе://  ID місце 1000 - Roma//   ID місцеположення 1100 - Veniceoci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
 
-**Приклад #2 Приклад використання **oci_define_by_name()** з
-реєстрозалежними іменами стовпців**
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
 
-`<?php/* До|запуску, створюється таблиця зі стовпцем, має реєстрозалежне ім'я    CREATE TABLE mytab (id NUMBER, "MyDescription" VAR; INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM mytab');// Використовується¸ ', $id);// Використовується точне напис для реєстрозалежних імен столбцовoci_define_by_name($stid, 'MyDescription', $mydesc);oci_execute($stid);while$             <br>
-";}// Виведе://  Ідентифікатор 1 - Iced Coffeeoci_free_statement($stid);oci_close($conn);?> `
+$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
+$stid = oci_parse($conn, $sql);
 
-**Приклад #3 Приклад використання **oci_define_by_name()** зі стовпцями
-типу LOB**
+// Переменные ДОЛЖНЫ быть определены перед запуском
+oci_define_by_name($stid, 'LOCATION_ID', $locid);
+oci_define_by_name($stid, 'CITY', $city);
 
-`<?php/*  Перед запуском створюються таблиці:   CREATE TABLE mytab (id NUMBER, fruit CLOB); INSERT INTO mytab (id, fruit) values (1, 'apple'); INSERT INTO mytab (id, fruit) values (2, 'orange'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM mytab');// Змінні Повинні , $id);oci_define_by_name($stid, 'FRUIT', $fruit); // $fruit стане дескриптором LOBoci_execute($stid);while (oci_fetch($stid)) {    echo $id . " - " . $fruit->load(100) . "<br>
-";}// Виведе: //  1 - apple//  2 - orange$fruit->free();oci_free_statement($stid);oci_close($conn);?> `
+oci_execute($stid);
 
-**Приклад #4 Приклад використання **oci_define_by_name()** з наведеними
-типами**
+//  Каждый результат запроса помещает в заранее определённую переменную следующую строку данных
+while (oci_fetch($stid)) {
+    echo "ID местоположения $locid - $city<br>\n";
+}
 
-`<?php/*  Перед запуском створюється таблиця:    CREATE TABLE mytab (id NUMBER, fruit CLOB); INSERT INTO mytab (id, fruit) values (1, 'apple'); INSERT INTO mytab (id, fruit) values (2, 'orange'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM mytab');// Змінні Повинні , $id);$fruit = oci_new_descriptor($conn, OCI_D_LOB);oci_define_by_name($stid, 'FRUIT', $fruit, OCI_D_CLOB);oci_execute($stid);   " - " . $fruit->load(100) . "<br>
-";}// Виведе: //  1 - apple//  2 - orange$fruit->free();oci_free_statement($stid);oci_close($conn);?> `
+// Выведет:
+//   ID местоположения 1000 - Roma
+//   ID местоположения 1100 - Venice
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #2 Приклад використання **ocidefineбname()** з реєстрозалежними іменами стовпців**
+
+```php
+<?php
+
+/*
+  До запуска, создаётся таблица со столбцом, имеющим регистрозависимое имя
+    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(30));
+    INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee');
+    COMMIT;
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM mytab');
+
+// Используется верхний регистр для регистронезависимых имён столбцов
+oci_define_by_name($stid, 'ID', $id);
+
+// Используется точное написание для регистрозависимых имён столбцов
+oci_define_by_name($stid, 'MyDescription', $mydesc);
+
+oci_execute($stid);
+
+while (oci_fetch($stid)) {
+    echo "Идентификатор $id - $mydesc<br>\n";
+}
+
+// Выведет:
+//   Идентификатор 1 - Iced Coffee
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #3 Приклад використання **ocidefineбname()** зі стовпцями типу LOB**
+
+```php
+<?php
+
+/*
+  Перед запуском создаются таблицы:
+    CREATE TABLE mytab (id NUMBER, fruit CLOB);
+    INSERT INTO mytab (id, fruit) values (1, 'apple');
+    INSERT INTO mytab (id, fruit) values (2, 'orange');
+    COMMIT;
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM mytab');
+
+// Переменные ДОЛЖНЫ быть определены перед запуском
+oci_define_by_name($stid, 'ID', $id);
+oci_define_by_name($stid, 'FRUIT', $fruit);  // $fruit станет дескриптором LOB
+
+oci_execute($stid);
+
+while (oci_fetch($stid)) {
+    echo $id . " - " . $fruit->load(100) . "<br>\n";
+}
+
+// Выведет:
+//   1 - apple
+//   2 - orange
+
+$fruit->free();
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Приклад #4 Приклад використання **ocidefineбname()** з наведеними типами**
+
+```php
+<?php
+
+/*
+  Перед запуском создаётся таблица:
+    CREATE TABLE mytab (id NUMBER, fruit CLOB);
+    INSERT INTO mytab (id, fruit) values (1, 'apple');
+    INSERT INTO mytab (id, fruit) values (2, 'orange');
+    COMMIT;
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM mytab');
+
+// Переменные ДОЛЖНЫ быть определены перед запуском
+oci_define_by_name($stid, 'ID', $id);
+
+$fruit = oci_new_descriptor($conn, OCI_D_LOB);
+oci_define_by_name($stid, 'FRUIT', $fruit, OCI_D_CLOB);
+
+oci_execute($stid);
+
+while (oci_fetch($stid)) {
+    echo $id . " - " . $fruit->load(100) . "<br>\n";
+}
+
+// Выведет:
+//   1 - apple
+//   2 - orange
+
+$fruit->free();
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Дивіться також
 
-- [oci_fetch()](function.oci-fetch.md) - Вибирає наступний рядок
-з результату в буфер
-- [oci_new_descriptor()](function.oci-new-descriptor.md) -
-Ініціалізує новий дескриптор об'єкта LOB чи FILE
+-   [oci\_fetch()](function.oci-fetch.html) - Вибирає наступний рядок із результату в буфер
+-   [oci\_new\_descriptor()](function.oci-new-descriptor.html) - Ініціалізує новий дескриптор об'єкта LOB чи FILE

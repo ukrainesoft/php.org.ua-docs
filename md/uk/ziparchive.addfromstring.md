@@ -1,60 +1,85 @@
-- [« ZipArchive::addFile](ziparchive.addfile.md)
-- [ZipArchive::addGlob »](ziparchive.addglob.md)
+Додає файл до ZIP-архіву, використовуючи його вміст
 
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- Додає файл до ZIP-архіву, використовуючи його вміст
+-   [« ZipArchive::addFile](ziparchive.addfile.html)
+    
+-   [ZipArchive::addGlob »](ziparchive.addglob.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZipArchive](class.ziparchive.html)
+    
+-   Додає файл до ZIP-архіву, використовуючи його вміст
+    
 
 # ZipArchive::addFromString
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
 
-ZipArchive::addFromString — Додає файл до ZIP-архіву, використовуючи його
-вміст
+ZipArchive::addFromString — Додає файл до ZIP-архіву, використовуючи його вміст
 
 ### Опис
 
-public **ZipArchive::addFromString**(string `$name`, string `$content`,
-int `$flags` = ZipArchive::FL_OVERWRITE): bool
+```methodsynopsis
+public ZipArchive::addFromString(string $name, string $content, int $flags = ZipArchive::FL_OVERWRITE): bool
+```
 
 Додає файл до ZIP-архіву, використовуючи його вміст.
 
-> **Примітка**: Для максимальної переносимості рекомендується завжди
-> використовувати прямі сліші (`/`) як роздільник директорій в
-> імена файлів.
+> **Зауваження**: Для максимальної переносимості, рекомендується завжди використовувати прямі сліші (`/`) як роздільник директорій в іменах файлів.
 
 ### Список параметрів
 
 `name`
-Локальне ім'я файлу для створення.
+
+Локальне ім'я для створення файлу.
 
 `content`
-Вміст для створення файлу. Використовується у двійковому безпечному
-режимі.
+
+Вміст для створення файлу. Використовується у двійковому безпечному режимі.
 
 `flags`
-Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`**,
-**`ZipArchive::FL_ENC_GUESS`**, **`ZipArchive::FL_ENC_UTF_8`**,
-**`ZipArchive::FL_ENC_CP437`**. Поведінка констант описано на сторінці
-[ZIP-константи](zip.constants.md).
+
+Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константы](zip.constants.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія       | Опис                    |
-| ------------ | ----------------------- |
-| 8.0.0/1.18.0 | Доданий параметр flags. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `flags` |
 
 ### Приклади
 
 **Приклад #1 Додати запис до нового архіву**
 
-` <?php$zip = new ZipArchive;$res = $zip->open('test.zip', ZipArchive::CREATE);if ($res === TRUE) {    $zip->addFromString('test. txt', 'тут следует вміст файла'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+```php
+<?php
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    $zip->addFromString('test.txt', 'здесь следует содержимое файла');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
+}
+?>
+```
 
 **Приклад #2 Додати файл до директорії всередині архіву**
 
-` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {    $zip->addFromString('dir/test.txt', 'тут следует вміст' ); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+```php
+<?php
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    $zip->addFromString('dir/test.txt', 'здесь следует содержимое файла');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
+}
+?>
+```

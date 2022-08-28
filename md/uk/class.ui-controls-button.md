@@ -1,9 +1,15 @@
-- [«UI\Controls\Check::setText](ui-controls-check.settext.md)
-- [UI\Controls\Button::\_\_construct »](ui-controls-button.construct.md)
+Елемент управління "Кнопка"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Кнопка"
+-   [« UI\\Controls\\Check::setText](ui-controls-check.settext.html)
+    
+-   [UI\\Controls\\Button::\_\_construct »](ui-controls-button.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент управління "Кнопка"
+    
 
 # Елемент управління "Кнопка"
 
@@ -15,56 +21,52 @@
 
 ## Огляд класів
 
-class **UI\Controls\Button** extends [UI\Control](class.ui-control.md)
-{
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-controls-button.construct.md)(string
-`$text`)
 
-/\* Методи \*/
+    
+     
+      class UI\Controls\Button
+     
 
-public [getText](ui-controls-button.gettext.md)(): string
+     
+      extends
+       UI\Control
+     
+     {
 
-protected [onClick](ui-controls-button.onclick.md)()
 
-public [setText](ui-controls-button.settext.md)(string `$text`)
+    /* Конструктор */
+    
+   public __construct(string $text)
 
-/\* Наслідувані методи \*/
 
-public [UI\Control::destroy](ui-control.destroy.md)()
+    /* Методы */
+    public getText(): string
+protected onClick()
+public setText(string $text)
 
-public [UI\Control::disable](ui-control.disable.md)()
 
-public [UI\Control::enable](ui-control.enable.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
 
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\Button::\_\_construct](ui-controls-button.construct.md)
-— Створити новий об'єкт Button
-- [UI\Controls\Button::getText](ui-controls-button.gettext.md) -
-Отримати текст
-- [UI\Controls\Button::onClick](ui-controls-button.onclick.md) -
-Обробник кліку
-- [UI\Controls\Button::setText](ui-controls-button.settext.md) -
-Встановити текст
+-   [UI\\Controls\\Button::\_\_construct](ui-controls-button.construct.html) — Створити новий об'єкт Button
+-   [UI\\Controls\\Button::getText](ui-controls-button.gettext.html) — Отримати текст
+-   [UI\\Controls\\Button::onClick](ui-controls-button.onclick.html) - Обробник кліку
+-   [UI\\Controls\\Button::setText](ui-controls-button.settext.html) — Встановити текст

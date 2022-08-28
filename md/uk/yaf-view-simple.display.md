@@ -1,20 +1,27 @@
-- [« Yaf_View_Simple::\_\_construct](yaf-view-simple.construct.md)
-- [Yaf_View_Simple::eval »](yaf-view-simple.eval.md)
+Малює та відображає
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Відмальовує та відображає
+-   [« Yaf\_View\_Simple::\_\_construct](yaf-view-simple.construct.html)
+    
+-   [Yaf\_View\_Simple::eval »](yaf-view-simple.eval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+    
+-   Малює та відображає
+    
 
-# Yaf_View_Simple::display
+# YafViewSimple::display
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_View_Simple::display — Відображає та відображає
+YafViewSimple::display — Відображає та відображає
 
 ### Опис
 
-public **Yaf_View_Simple::display**(string `$tpl`, array `$tpl_vars` =
-?): bool
+```methodsynopsis
+public Yaf_View_Simple::display(string $tpl, array $tpl_vars = ?): bool
+```
 
 Малює шаблон і миттєво відображає результат.
 

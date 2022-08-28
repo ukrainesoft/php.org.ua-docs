@@ -1,21 +1,27 @@
-- [« Swoole\Table::current](swoole-table.current.md)
-- [Swoole\Table::del »](swoole-table.del.md)
+Зменшує значення у таблиці Swoole за $rowkey та $columnkey
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Зменшує значення в таблиці Swoole за $row_key та $column_key
+-   [« Swoole\\Table::current](swoole-table.current.html)
+    
+-   [Swoole\\Table::del »](swoole-table.del.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Зменшує значення у таблиці Swoole за $rowkey та $columnkey
+    
 
-# Swoole\Table::decr
+# SwooleTable::decor
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::decr — Зменшує значення у таблиці Swoole за $row_key та
-$column_key
+SwooleTable::decr — Зменшує значення у таблиці Swoole за $rowkey та $columnkey
 
 ### Опис
 
-public **Swoole\Table::decr**(string `$key`, string `$column`, int
-`$decrby` = ?): ReturnType
+```methodsynopsis
+public Swoole\Table::decr(string $key, string $column, int $decrby = ?): ReturnType
+```
 
 ### Список параметрів
 

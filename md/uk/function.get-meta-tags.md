@@ -1,74 +1,77 @@
-- [«get_headers](function.get-headers.md)
-- [http_build_query »](function.http-build-query.md)
+Витягує вміст усіх метатегів із файлу та повертає масив.
 
-- [PHP Manual](index.md)
-- [Функції URL](ref.url.md)
-- Витягує вміст всіх метатегів з файлу та повертає масив
+-   [« get\_headers](function.get-headers.html)
+    
+-   [http\_build\_query »](function.http-build-query.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции URL](ref.url.html)
+    
+-   Витягує вміст усіх метатегів із файлу та повертає масив.
+    
 
-#get_meta_tags
+# getmetatags
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_meta_tags — Витягує вміст усіх метатегів з файлу та
-повертає масив
+getmetatags — Витягує вміст усіх метатегів із файлу та повертає масив
 
 ### Опис
 
-**get_meta_tags**(string `$filename`, bool `$use_include_path` =
-**`false`**): array\|false
+```methodsynopsis
+get_meta_tags(string $filename, bool $use_include_path = false): array|false
+```
 
-Відкриває `filename` і розбирає його рядками у пошуках тегів
-\<meta\>. Розбір файлу зупиняється на тегу `</head>`.
+Відкриває `filename` і розбирає його рядками у пошуках тегів . Розбір файлу зупиняється на тезі `</head>`
 
 ### Список параметрів
 
 `filename`
-Шлях до HTML-файлу у вигляді рядка. Може бути як локальним файлом, так і
-URL.
 
-**Приклад #1 Що обробляє функція **get_meta_tags()****
+Шлях до HTML-файлу у вигляді рядка. Можливо як локальним файлом, і URL.
 
-```htmlcode
-<meta name="author" content="name">
-<meta name="keywords" content="php documentation">
-<meta name="DESCRIPTION" content="a php manual">
-<meta name="geo.position" content="49.33;-86.59">
-</head> <!-- розбір файлу буде зупинено тут -->
-````
+**Приклад #1 Що обробляє функція **getmetatags()****
+
+   
 
 `use_include_path`
-Якщо `use_include_path` дорівнює **`true`**, PHP шукатиме файл
-використовуючи стандартні шляхи пошуку з директиви `php.ini`
-[include_path](ini.core.md#ini.include-path). Це актуально лише для
-локальних файлів, але не URL.
+
+Якщо `use_include_path` дорівнює **`true`**, PHP буде шукати файл, використовуючи стандартні шляхи пошуку з директиви php.ini [include\_path](ini.core.html#ini.include-path). Це актуально лише для локальних файлів, але не URL.
 
 ### Значення, що повертаються
 
 Повертає асоціативний масив із значеннями розібраних метатегів.
 
-Значення атрибута name стає ключем масиву, а значення атрибута
-content – значенням цього елемента. Ви можете використовувати стандартні
-функції роботи з масивами для обходу чи доступу до конкретних
-значенням. Спеціальні символи в іменах (ключах масиву) замінюються на
-'\_', і ключі наводяться до нижнього регістру. Якщо два метатеги мають
-однакові імена, буде повернено лише останній.
+Значення атрибута name стає ключем масиву, а значення атрибута content – ​​значенням цього елемента. Ви можете використовувати стандартні функції роботи з масивами для обходу чи доступу до конкретних значень. Спеціальні символи в іменах (ключах масиву) замінюються на '', і ключі наводяться до нижнього регістру. Якщо два метатеги мають однакові імена, буде повернено лише останній.
 
 Повертає **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #2 Що повертає функція **get_meta_tags()****
+**Приклад #2 Що функція повертає **getmetatags()****
 
-`<?php// Припустимо, вказані вище метатеги розташовані на www.example.com$tags = get_meta_tags('http://www.example.com/');// Зверніть увага, у // а точки ('.') в ключах замінені на '_'echo $tags['author']; // nameecho $tags['keywords']; // php documentationecho $tags['description']; // a php manualecho $tags['geo_position']; // 49.33;-86.59?> `
+```php
+<?php
+// Предположим, что указанные выше метатеги расположены на www.example.com
+$tags = get_meta_tags('http://www.example.com/');
+
+// Обратите внимание, что ключи приведены к нижнему регистру,
+// а точки ('.') в ключах заменены на '_'
+echo $tags['author'];       // name
+echo $tags['keywords'];     // php documentation
+echo $tags['description'];  // a php manual
+echo $tags['geo_position']; // 49.33;-86.59
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Обробляються лише метатеги з атрибутом name. Лапки не потрібні.
+> **Зауваження**
+> 
+> Обробляються лише метатеги із атрибутом name. Лапки не потрібні.
 
 ### Дивіться також
 
-- [htmlentities()](function.mdentities.md) - Перетворює всі
-можливі символи у відповідні HTML-сутності
-- [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [urlencode()](function.urlencode.html) - URL-кодування рядка

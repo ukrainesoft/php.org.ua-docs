@@ -1,47 +1,73 @@
-- [«sqlsrv_next_result](function.sqlsrv-next-result.md)
-- [sqlsrv_num_rows »](function.sqlsrv-num-rows.md)
+Витягує кількість полів (стовпців) оператора
 
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Витягує кількість полів (стовпців) оператора
+-   [« sqlsrv\_next\_result](function.sqlsrv-next-result.html)
+    
+-   [sqlsrv\_num\_rows »](function.sqlsrv-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SQLSRV](ref.sqlsrv.html)
+    
+-   Витягує кількість полів (стовпців) оператора
+    
 
-#sqlsrv_num_fields
+# sqlsrvnumfields
 
 (No version information available, might only be in Git)
 
-sqlsrv_num_fields — Витягує кількість полів (стовпців) оператора
+sqlsrvnumfields — Витягує кількість полів (стовпців) оператора
 
 ### Опис
 
-**sqlsrv_num_fields**(resource `$stmt`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+sqlsrv_num_fields(resource $stmt): mixed
+```
 
 Витягує кількість полів (стовпців) оператора.
 
 ### Список параметрів
 
 `stmt`
-Оператор, котрому повертається кількість полів.
-**sqlsrv_num_fields()** може викликатися для оператора до або після
-виконання оператора.
+
+Оператор, для якого повертається кількість полів . **sqlsrvnumfields()** може викликатися оператора до або після виконання оператора.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає кількість полів. В протилежному
-у разі повертає **`false`**.
+У разі успішного виконання повертає кількість полів. В іншому випадку повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_num_fields()****
+**Приклад #1 Приклад використання **sqlsrvnumfields()****
 
-` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {   die( print_r( sqlsrv_errors(), true));}$sql = "SELECT * FROM Table_$"; sql);if( $stmt === false) {  die( print_r( sqlsrv_errors(), true)));}$numFields = sqlsrv_num_fields( $stmt х| рядки. for($i = 0; $i < $numFields; $i++) {      echo sqlsrv_get_field($stmt, $i)." "; }  echo "<br />";}?> `
+```php
+<?php
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+   die( print_r( sqlsrv_errors(), true));
+}
+
+$sql = "SELECT * FROM Table_1";
+$stmt = sqlsrv_query($conn, $sql);
+if( $stmt === false) {
+   die( print_r( sqlsrv_errors(), true));
+}
+
+$numFields = sqlsrv_num_fields( $stmt );
+
+while( sqlsrv_fetch( $stmt )) {
+   // Пройдитесь по полям каждой строки.
+   for($i = 0; $i < $numFields; $i++) {
+      echo sqlsrv_get_field($stmt, $i)." ";
+   }
+   echo "<br />";
+}
+?>
+```
 
 ### Дивіться також
 
-- [sqlsrv_field_metadata()](function.sqlsrv-field-metadata.md) -
-Отримує метадані для полів оператора, підготовленого за допомогою
-sqlsrv_prepare або sqlsrv_query
-- [sqlsrv_fetch()](function.sqlsrv-fetch.md) - Робить таку
-рядок у наборі результатів доступного для читання
-- [sqlsrv_get_field()](function.sqlsrv-get-field.md) - Отримує
-дані поля з поточного вибраного рядка
+-   [sqlsrv\_field\_metadata()](function.sqlsrv-field-metadata.html) - Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
+-   [sqlsrv\_fetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrv\_get\_field()](function.sqlsrv-get-field.html) - Отримує дані поля з поточного вибраного рядка

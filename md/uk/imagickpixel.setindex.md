@@ -1,21 +1,29 @@
-- [« ImagickPixel::setHSL](imagickpixel.sethsl.md)
-- [ImagickPixelIterator »](class.imagickpixeliterator.md)
+Опис
 
-- [PHP Manual](index.md)
-- [ImagickPixel](class.imagickpixel.md)
-- Опис
+-   [« ImagickPixel::setHSL](imagickpixel.sethsl.html)
+    
+-   [ImagickPixelIterator »](class.imagickpixeliterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickPixel](class.imagickpixel.html)
+    
+-   Опис
+    
 
 # ImagickPixel::setIndex
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
 ImagickPixel::setIndex — Опис
 
 ### Опис
 
-public **ImagickPixel::setIndex**(int `$index`): bool
+```methodsynopsis
+public ImagickPixel::setIndex(int $index): bool
+```
 
-Встановлює індекс колірної картки піксельної палички.
+Встановлює індекс кольорової картки піксельної палички.
 
 ### Список параметрів
 
@@ -23,4 +31,4 @@ public **ImagickPixel::setIndex**(int `$index`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

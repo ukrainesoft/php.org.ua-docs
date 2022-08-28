@@ -1,9 +1,15 @@
-- [« Imagick::getImageBluePrimary](imagick.getimageblueprimary.md)
-- [Imagick::getImageChannelDepth »](imagick.getimagechanneldepth.md)
+Повертає колір рамки зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає колір рамки зображення
+-   [« Imagick::getImageBluePrimary](imagick.getimageblueprimary.html)
+    
+-   [Imagick::getImageChannelDepth »](imagick.getimagechanneldepth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає колір рамки зображення
+    
 
 # Imagick::getImageBorderColor
 
@@ -13,8 +19,9 @@ Imagick::getImageBorderColor — Повертає колір зображенн�
 
 ### Опис
 
-public **Imagick::getImageBorderColor**():
-[ImagickPixel](class.imagickpixel.md)
+```methodsynopsis
+public Imagick::getImageBorderColor(): ImagickPixel
+```
 
 Повертає колір кадру зображення.
 
@@ -24,7 +31,7 @@ public **Imagick::getImageBorderColor**():
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

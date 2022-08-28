@@ -1,11 +1,16 @@
-- [« Встановлення та налаштування](yar.setup.md)
-- [Установка »](yar.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yar.setup.md)
-- Вимоги
+-   [« Установка и настройка](yar.setup.html)
+    
+-   [Установка »](yar.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](yar.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Якщо ви хочете використовувати msgpack як обгортка, вам потрібно
-скомпілювати Yar таким чином ./configure --enable-msgpack
+Якщо ви хочете використовувати msgpack як обгортку, вам потрібно скомпілювати Yar таким чином ./configure --enable-msgpack

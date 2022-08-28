@@ -1,15 +1,21 @@
-- [«Вступ](intro.xmlrpc.md)
-- [Вимоги »](xmlrpc.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [XML-RPC](book.xmlrpc.md)
+-   [« Введение](intro.xmlrpc.html)
+    
+-   [Требования »](xmlrpc.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XML-RPC](book.xmlrpc.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xmlrpc.requirements.md)
-- [Установка](xmlrpc.installation.md)
-- [Налаштування під час виконання](xmlrpc.configuration.md)
-- [Типи ресурсів](xmlrpc.resources.md)
+-   [Требования](xmlrpc.requirements.html)
+-   [Установка](xmlrpc.installation.html)
+-   [Настройка во время выполнения](xmlrpc.configuration.html)
+-   [Типы ресурсов](xmlrpc.resources.html)

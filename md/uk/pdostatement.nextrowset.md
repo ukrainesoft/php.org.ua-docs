@@ -1,26 +1,29 @@
-- [« PDOStatement::getIterator](pdostatement.getiterator.md)
-- [PDOStatement::rowCount »](pdostatement.rowcount.md)
+Перехід до наступного набору рядків через запит
 
-- [PHP Manual](index.md)
-- [PDOStatement](class.pdostatement.md)
-- Перехід до наступного набору рядків через запит
+-   [« PDOStatement::getIterator](pdostatement.getiterator.html)
+    
+-   [PDOStatement::rowCount »](pdostatement.rowcount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDOStatement](class.pdostatement.html)
+    
+-   Перехід до наступного набору рядків через запит
+    
 
 # PDOStatement::nextRowset
 
-(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
+(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)
 
-PDOStatement::nextRowset — Перехід до наступного набору рядків
-в результаті запиту
+PDOStatement::nextRowset — Перехід до наступного набору рядків через запит
 
 ### Опис
 
-public **PDOStatement::nextRowset**(): bool
+```methodsynopsis
+public PDOStatement::nextRowset(): bool
+```
 
-Деякі СУБД підтримують процедури, що зберігаються, які повертають більше
-одного набору рядків (його ще називають результуючим набором).
-**PDOStatement::nextRowset()** дозволяє отримати доступ до другого та
-подальшим наборам, що відповідають об'єкту PDOStatement. Різні набори
-рядків можуть мати різну кількість стовпців.
+Деякі СУБД підтримують процедури, що зберігаються, які повертають більше одного набору рядків (його ще називають результуючим набором) . **PDOStatement::nextRowset()** дозволяє отримати доступ до другого та подальших наборів, що відповідають об'єкту PDOStatement. Різні набори рядків можуть мати різну кількість стовпців.
 
 ### Список параметрів
 
@@ -28,48 +31,60 @@ public **PDOStatement::nextRowset**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Вилучення даних із кількох наборів рядків, повернутих
-процедурою, що зберігається**
+**Приклад #1 Вилучення даних з декількох наборів рядків, повернутих процедурою, що зберігається.**
 
-У наступному прикладі показано, як викликати процедуру, що зберігається
-`MULTIPLE_ROWSETS`, яка повертає три набори рядків. Ми викликаємо
-**PDOStatement::nextRowset()** у циклі
-[do-while](control-structures.do.while.md), доки він не поверне
-**`false`** і завершить цикл, коли більше не буде доступних
-результуючих наборів.
+У наступному прикладі показано, як викликати процедуру, що зберігається. `MULTIPLE_ROWSETS`яка повертає три набори рядків. Ми викликаємо **PDOStatement::nextRowset()** у циклі [do-while](control-structures.do.while.html)поки він не поверне **`false`** і завершить цикл, коли не буде доступних результуючих наборів.
 
-` <?php$sql = 'CALL multiple_rowsets()';$stmt = $conn->query($sql);$i = 1;do {    $rowset = $stmt->fetchAll(PDO::FETCH if ($rowset) {        printResultSet($rowset, $i); }   $i++;} while ($stmt->nextRowset());function printResultSet(&$rowset, $i) {    print "Результуючий набір $i:
-";   foreach ($rowset as $row) {        foreach ($row as $col) {             print|
-";    }    print "
-";}?> `
+```php
+<?php
+$sql = 'CALL multiple_rowsets()';
+$stmt = $conn->query($sql);
+$i = 1;
+do {
+    $rowset = $stmt->fetchAll(PDO::FETCH_NUM);
+    if ($rowset) {
+        printResultSet($rowset, $i);
+    }
+    $i++;
+} while ($stmt->nextRowset());
+
+function printResultSet(&$rowset, $i) {
+    print "Результирующий набор $i:\n";
+    foreach ($rowset as $row) {
+        foreach ($row as $col) {
+            print $col . "\t";
+        }
+        print "\n";
+    }
+    print "\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Результуючий набір 1:
-apple red
-banana yellow
+```
+Результирующий набор 1:
+apple    red
+banana   yellow
 
-Результативний набір 2:
-orange orange 150
-banana yellow 175
+Результирующий набор 2:
+orange   orange    150
+banana   yellow    175
 
-Результативний набір 3:
-lime green
-apple red
-banana yellow
+Результирующий набор 3:
+lime     green
+apple    red
+banana   yellow
+```
 
 ### Дивіться також
 
-- [PDOStatement::columnCount()](pdostatement.columncount.md) -
-Повертає кількість стовпців у результуючому наборі
-- [PDOStatement::execute()](pdostatement.execute.md) - Запускає
-підготовлений запит на виконання
-- [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) -
-Повертає метадані стовпця у результуючій таблиці
-- [PDO::query()](pdo.query.md) - Готує та виконує
-вираз SQL без наповнювачів
+-   [PDOStatement::columnCount()](pdostatement.columncount.html) - Повертає кількість стовпців у результуючому наборі
+-   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) - Повертає метадані стовпця у результуючій таблиці
+-   [PDO::query()](pdo.query.html) - готує та виконує вираз SQL без заповнювачів

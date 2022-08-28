@@ -1,17 +1,19 @@
-- [«Зумовлені константи](mongodb.constants.md)
-- [Використання бібліотеки PHP для MongoDB (PHPLIB)
-»](mongodb.tutorial.library.md)
+Навчальні матеріали
 
-- [PHP Manual](index.md)
-- [MongoDB](set.mongodb.md)
+-   [« Предопределённые константы](mongodb.constants.html)
+    
+-   [Использование библиотеки PHP для MongoDB (PHPLIB) »](mongodb.tutorial.library.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB](set.mongodb.html)
+    
 -   Навчальні матеріали
+    
 
 # Навчальні матеріали
 
-У даному розділі ви знайдете кілька навчальних матеріалів по
-використання драйвера MongoDB для PHP.
+У цьому розділі ви знайдете кілька навчальних матеріалів з використання драйвера MongoDB для PHP.
 
-- [Використання бібліотеки PHP для MongoDB
-(PHPLIB)](mongodb.tutorial.library.md)
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Использование библиотеки PHP для MongoDB (PHPLIB)](mongodb.tutorial.library.html)
+-   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)

@@ -1,60 +1,80 @@
-- [«array_key_exists](function.array-key-exists.md)
-- [array_key_last »](function.array-key-last.md)
+Отримує перший ключ масиву
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Отримує перший ключ масиву
+-   [« array\_key\_exists](function.array-key-exists.html)
+    
+-   [array\_key\_last »](function.array-key-last.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с массивами](ref.array.html)
+    
+-   Отримує перший ключ масиву
+    
 
-#array_key_first
+# arraykeyfirst
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-array_key_first — Отримує перший ключ масиву
+arraykeyfirst — Отримує перший ключ масиву
 
 ### Опис
 
-**array_key_first**(array `$array`): int\|string\|null
+```methodsynopsis
+array_key_first(array $array): int|string|null
+```
 
-Отримати перший ключ заданого масиву `array`, не торкаючись внутрішнього
-вказівник масиву.
+Отримати перший ключ заданого масиву `array`, не торкаючись внутрішнього покажчика масиву.
 
 ### Список параметрів
 
 `array`
+
 Масив.
 
 ### Значення, що повертаються
 
-Повертає перший ключ масиву `array`, якщо він не порожній; **`null`** в
-інакше.
+Повертає перший ключ масиву `array`якщо він не порожній; **`null`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_key_first()****
+**Приклад #1 Приклад використання **arraykeyfirst()****
 
-` <?php$array = ['a' => 1, 'b' => 2, 'c' => 3];$firstKey = array_key_first($array);var_dump($firstKey);?> `
+```php
+<?php
+$array = ['a' => 1, 'b' => 2, 'c' => 3];
+
+$firstKey = array_key_first($array);
+
+var_dump($firstKey);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(1) "a"
+```
 
 ### Примітки
 
 **Підказка**
 
-Є кілька способів надати функціональність для версій до PHP
-7.3.0. Можна використовувати [array_keys()](function.array-keys.md), але
-це може бути досить неефективним. Також можна використовувати
-[reset()](function.reset.md) та [key()](function.key.md), але це
-може змінити внутрішній покажчик масиву. Ефективне рішення,
-яке не змінює внутрішній покажчик масиву, записаний, як
-поліфіл:
+Є кілька способів надати функціональність для версій PHP 7.3.0. Можно використовувати [array\_keys()](function.array-keys.html)Але це може бути досить неефективним. Також можна використовувати [reset()](function.reset.html) і [key()](function.key.html)але це може змінити внутрішній покажчик масиву. Ефективне рішення, яке не змінює внутрішній покажчик масиву, записаний як поліфіл:
 
-`<?phpif (!function_exists('array_key_first')) {                                                                              | }     return NULL; }}?> `
+```php
+<?php
+if (!function_exists('array_key_first')) {
+    function array_key_first(array $arr) {
+        foreach($arr as $key => $unused) {
+            return $key;
+        }
+        return NULL;
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [array_key_last()](function.array-key-last.md) - Отримує
-останній ключ масиву
-- [reset()](function.reset.md) - Встановлює внутрішній покажчик
-масиву на його перший елемент
+-   [array\_key\_last()](function.array-key-last.html) - Отримує останній ключ масиву
+-   [reset()](function.reset.html) - Встановлює внутрішній покажчик масиву на його перший елемент

@@ -1,82 +1,62 @@
-- [« mysql_get_server_info](function.mysql-get-server-info.md)
-- [mysql_insert_id »](function.mysql-insert-id.md)
+Повертає інформацію про останній запит
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає інформацію про останній запит
+-   [« mysql\_get\_server\_info](function.mysql-get-server-info.html)
+    
+-   [mysql\_insert\_id »](function.mysql-insert-id.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Повертає інформацію про останній запит
+    
 
-# mysql_info
+# mysqlinfo
 
-(PHP 4 = 4.3.0, PHP 5)
+(PHP 4> = 4.3.0, PHP 5)
 
-mysql_info — Повертає інформацію про останній запит
+mysqlinfo — Повертає інформацію про останній запит
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_info()](mysqli.info.md)
+-   [mysqli\_info()](mysqli.info.html)
 
 ### Опис
 
-**mysql_info**(resource `$link_identifier` = NULL): string
+```methodsynopsis
+mysql_info(resource $link_identifier = NULL): string
+```
 
 Повертає докладну інформацію про останній запит.
 
 ### Список параметрів
 
 `link_identifier`
-З'єднання MySQL. Якщо ідентифікатор з'єднання не було вказано,
-використовується останнє з'єднання, відкрите
-[mysql_connect()](function.mysql-connect.md). Якщо таке з'єднання не
-було знайдено, функція спробує створити таке, якби
-[mysql_connect()](function.mysql-connect.md) була викликана без
-параметрів. Якщо з'єднання не було знайдено і не змогло бути створено,
-генерується помилка рівня **`E_WARNING`**.
+
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає інформацію про запит у разі успішного виконання, або
-**`false`** у разі виникнення помилки. Дивіться приклад нижче для
-яких запитів повертається інформація та як виглядають повертаються
-значення. Для не перерахованих запитів буде повернено значення
-**`false`**.
+Повертає інформацію про запит у разі успішного виконання, або **`false`** у разі виникнення помилки. Дивіться приклад нижче для яких запитів повертається інформація і як виглядають значення, що повертаються. Для не перерахованих запитів буде повернено значення **`false`**
 
 ### Приклади
 
 **Приклад #1 Коректні види запитів MySQL**
 
-Числа розставлені лише для прикладу - їх значення залежать від
-результату запиту.
+Числа розставлені лише для прикладу - їх значення залежить від результату запиту.
 
-`` mysqlcode
-INSERT INTO ... SELECT ...
-String format: Records: 23 Duplicates: 0 Warnings: 0
-INSERT INTO ... VALUES (...),(...),(...)...
-String format: Records: 37 Duplicates: 0 Warnings: 0
-LOAD DATA INFILE ...
-String format: Records: 42 Deleted: 0 Перевірено: 0 Warnings: 0
-ALTER TABLE
-String format: Records: 60 Duplicates: 0 Warnings: 0
-UPDATE
-String format: Rows matched: 65 Changed: 65 Warnings: 0
-````
+INSERT INTO ... SELECT ... String format: Records: 23 Duplicates: 0 Warnings: 0 INSERT INTO ... VALUES (...),(...),(...)... String format: Records: 37 Duplicates: 0 Warnings: 0 LOAD DATA INFILE ... String format: Records: 42 Deleted: 0 Skipped: 0 Warnings: 0 ALTER TABLE String format: Records: 60 Duplicates: 0 Warnings: 0 UPDATE String format: Rows matched: 65 Changed: 65 Warnings: 0
 
 ### Примітки
 
-> **Примітка**:
->
-> **mysql_info()** повертає значення не рівне **`false`** для INSERT
-> ... VALUES тільки в тому випадку, якщо у запиті є кілька
-> списків значень.
+> **Зауваження**
+> 
+> **mysqlinfo()** повертає значення не рівне **`false`** для INSERT ... VALUES тільки в тому випадку, якщо у запиті є кілька списків значень.
 
 ### Дивіться також
 
-- [mysql_affected_rows()](function.mysql-affected-rows.md) -
-Повертає число порушених минулою операцією рядів
-- [mysql_insert_id()](function.mysql-insert-id.md) - Повертає
-ідентифікатор, згенерований при останньому INSERT-запиті
-- [mysql_stat()](function.mysql-stat.md) - Повертає поточний статус
-сервера
+-   [mysql\_affected\_rows()](function.mysql-affected-rows.html) - Повертає кількість порушених минулою операцією рядів
+-   [mysql\_insert\_id()](function.mysql-insert-id.html) - Повертає ідентифікатор, згенерований при останньому INSERT-запиті
+-   [mysql\_stat()](function.mysql-stat.html) - Повертає поточний статус сервера

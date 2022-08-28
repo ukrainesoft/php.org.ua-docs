@@ -1,36 +1,82 @@
-- [« Магічні методи](language.oop5.magic.md)
-- [Клонування об'єктів »](language.oop5.cloning.md)
+Ключове слово final
 
-- [PHP Manual](index.md)
-- [Класи та об'єкти](language.oop5.md)
-- Ключове слово final
+-   [« Магические методы](language.oop5.magic.html)
+    
+-   [Клонирование объектов »](language.oop5.cloning.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Классы и объекты](language.oop5.html)
+    
+-   Ключове слово final
+    
 
 ## Ключове слово final
 
-PHP надає ключове слово `final`, розмістивши яке перед
-оголошеннями методів або констант класу, можна запобігти їх
-перевизначення у дочірніх класах. Якщо ж сам клас визначається з
-цим ключовим словом, він не зможе бути успадкований.
+PHP надає ключове слово `final`, Розмістивши яке перед оголошеннями методів або констант класу, можна запобігти їх перевизначення в дочірніх класах. Якщо ж сам клас визначається із цим ключовим словом, то він не зможе бути успадкований.
 
-**Приклад #1 Приклад остаточних (final) методів**
+**Приклад #1 Приклад остаточних методів**
 
-` <?phpclass BaseClass {   public function test() {       echo "Викликаний метод BaseClass::test()
-";  }}   final public function moreTesting() {       echo "Викликаний метод BaseClass::moreTesting()
-";   }}class ChildClass extends BaseClass {   public function moreTesting() {       echo "Викликаний метод ChildClass::moreTesting()
-";   }}// Виконання закінчується фатальної помилкою: Cannot override final method BaseClass::moreTesting()// (Остаточний (final) метод BaseClass:: e
+```php
+<?php
+class BaseClass {
+   public function test() {
+       echo "Вызван метод BaseClass::test()\n";
+   }
+
+   final public function moreTesting() {
+       echo "Вызван метод BaseClass::moreTesting()\n";
+   }
+}
+
+class ChildClass extends BaseClass {
+   public function moreTesting() {
+       echo "Вызван метод ChildClass::moreTesting()\n";
+   }
+}
+// Выполнение заканчивается фатальной ошибкой: Cannot override final method BaseClass::moreTesting()
+// (Окончательный (final) метод BaseClass::moreТesting() не может быть переопределён)
+?>
+```
 
 **Приклад #2 Приклад остаточного (final) класу**
 
-` <?phpfinal classBaseClass {   public function test() {       echo "Викликаний метод BaseClass::test()
-";   }   // Оскільки класс вже є final, ключове слово final є  надлишковим   final public function moreTesting() es|
-";   }}class ChildClass extends BaseClass {}// Выполнение заканчивается фатальной ошибкой: Class ChildClass may not inherit from final class (BaseClass)// (Класс ChildClass не может быть унаследован от окончательного класса (BaseClass))?> `
+```php
+<?php
+final class BaseClass {
+   public function test() {
+       echo "Вызван метод BaseClass::test()\n";
+   }
 
-**Приклад #3 Приклад остаточної (final) константи класу, починаючи з PHP
-8.1.0**
+   // Поскольку класс уже является final, ключевое слово final является избыточным
+   final public function moreTesting() {
+       echo "BaseClass::moreTesting() called\n";
+   }
+}
 
-`<?phpclass Foo{   final public const X = "foo";}class Bar extends Foo{    public const X = "bar";}//Помилка:Про:
+class ChildClass extends BaseClass {
+}
+// Выполнение заканчивается фатальной ошибкой: Class ChildClass may not inherit from final class (BaseClass)
+// (Класс ChildClass не может быть унаследован от окончательного класса (BaseClass))
+?>
+```
 
-> **Примітка**: Властивості не можуть бути оголошені остаточними: тільки
-> класи, методи та константи (починаючи з PHP 8.1.0) можуть бути оголошені
-> як остаточні (final). Починаючи з PHP 8.0.0, закриті методи не
-> можуть бути оголошені остаточними, крім конструктора.
+**Приклад #3 Приклад остаточної константи класу, починаючи з PHP 8.1.0**
+
+```php
+<?php
+class Foo
+{
+    final public const X = "foo";
+}
+
+class Bar extends Foo
+{
+    public const X = "bar";
+}
+
+// Ошибка: Bar::X не может переопределить окончательную константу Foo::X
+?>
+```
+
+> **Зауваження**: Властивості не можуть бути оголошені остаточними: тільки класи, методи та константи (починаючи з PHP 8.1.0) можуть бути оголошені як остаточні (final). Починаючи з PHP 8.0.0, закриті методи не можуть бути оголошені остаточними, за винятком конструктора.

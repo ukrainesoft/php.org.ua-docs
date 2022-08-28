@@ -1,11 +1,16 @@
-- [«Pspell](book.pspell.md)
-- [Встановлення та налаштування »](pspell.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [Pspell](book.pspell.md)
+-   [« Pspell](book.pspell.html)
+    
+-   [Установка и настройка »](pspell.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Pspell](book.pspell.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Функції дозволяють перевіряти правопис слова та пропонують варіанти
-виправлення.
+Функції дозволяють перевіряти правопис слова та пропонують варіанти виправлення.

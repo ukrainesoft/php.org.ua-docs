@@ -1,36 +1,42 @@
-- [« SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.md)
-- [SolrQuery::setHighlightSimplePre »](solrquery.sethighlightsimplepre.md)
+Встановлює текст, який з'являється після виділення
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює текст, який з'являється після виділення
+-   [« SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.html)
+    
+-   [SolrQuery::setHighlightSimplePre »](solrquery.sethighlightsimplepre.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює текст, який з'являється після виділення
+    
 
 # SolrQuery::setHighlightSimplePost
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightSimplePost — Встановлює текст, який
-з'являється після виділеного виразу
+SolrQuery::setHighlightSimplePost — Встановлює текст, який з'являється після виділення.
 
 ### Опис
 
-public **SolrQuery::setHighlightSimplePost**(string `$simplePost`,
-string `$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightSimplePost(string $simplePost, string $field_override = ?): SolrQuery
+```
 
 Встановлює текст, який з'являється після виділення
 
 ### Список параметрів
 
 `simplePost`
+
 Встановлює текст, який з'являється після виділення
 
-``` parameterscode
-За замовчуванням </em>
-````
+За замовчуванням
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SolrQuery](class.solrquery.md).
+Повертає екземпляр [SolrQuery](class.solrquery.html)

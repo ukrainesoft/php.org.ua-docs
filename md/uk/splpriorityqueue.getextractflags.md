@@ -1,9 +1,15 @@
-- [« SplPriorityQueue::extract](splpriorityqueue.extract.md)
-- [SplPriorityQueue::insert »](splpriorityqueue.insert.md)
+Отримати прапори вилучення
 
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Отримати прапори вилучення
+-   [« SplPriorityQueue::extract](splpriorityqueue.extract.html)
+    
+-   [SplPriorityQueue::insert »](splpriorityqueue.insert.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplPriorityQueue](class.splpriorityqueue.html)
+    
+-   Отримати прапори вилучення
+    
 
 # SplPriorityQueue::getExtractFlags
 
@@ -13,12 +19,13 @@ SplPriorityQueue::getExtractFlags — Отримати прапори вилуч
 
 ### Опис
 
-public **SplPriorityQueue::getExtractFlags**(): int
+```methodsynopsis
+public SplPriorityQueue::getExtractFlags(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

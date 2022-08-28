@@ -1,25 +1,22 @@
-- [« Вимоги](zookeeper.requirements.md)
-- [Налаштування під час виконання »](zookeeper.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](zookeeper.setup.md)
-- Установка
+-   [« Требования](zookeeper.requirements.html)
+    
+-   [Настройка во время выполнения »](zookeeper.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](zookeeper.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/zookeeper](https://pecl.php.net/package/zookeeper).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/zookeeper](https://pecl.php.net/package/zookeeper)
 
-Щоб увімкнути підтримку zookeeper, конфігуруйте PHP з опцією
-**--with-libzookeeper-dir=DIR**. DIR - директорія в якій встановлено
-бібліотека ZooKeeper C Binding, всередині якої має бути
-`include/zookeeper/zookeeper.h`
+Щоб увімкнути підтримку zookeeper, конфігуруйте PHP з опцією **\-with-libzookeeper-dir=DIR**. DIR - директорія в якій встановлена ​​бібліотека ZooKeeper C Binding, всередині якої має знаходитись include/zookeeper/zookeeper.h
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md).
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)

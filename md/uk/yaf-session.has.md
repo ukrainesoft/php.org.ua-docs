@@ -1,24 +1,31 @@
-- [« Yaf_Session::getInstance](yaf-session.getinstance.md)
-- [Yaf_Session::\_\_isset »](yaf-session.isset.md)
+Призначення has
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення has
+-   [« Yaf\_Session::getInstance](yaf-session.getinstance.html)
+    
+-   [Yaf\_Session::\_\_isset »](yaf-session.isset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення has
+    
 
-# Yaf_Session::has
+# YafSession::has
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::has — Призначення has
+YafSession::has — Призначення has
 
 ### Опис
 
-public **Yaf_Session::has**(string `$name`): void
+```methodsynopsis
+public Yaf_Session::has(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

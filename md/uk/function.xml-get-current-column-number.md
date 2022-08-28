@@ -1,46 +1,47 @@
-- [« xml_get_current_byte_index](function.xml-get-current-byte-index.md)
-- [xml_get_current_line_number »](function.xml-get-current-line-number.md)
+Отримує від XML-аналізатора номер поточного стовпця
 
-- [PHP Manual](index.md)
-- [Функції парсера XML](ref.xml.md)
-- Отримує від XML-аналізатора номер поточного стовпця
+-   [« xml\_get\_current\_byte\_index](function.xml-get-current-byte-index.html)
+    
+-   [xml\_get\_current\_line\_number »](function.xml-get-current-line-number.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции парсера XML](ref.xml.html)
+    
+-   Отримує від XML-аналізатора номер поточного стовпця
+    
 
-#xml_get_current_column_number
+# xmlgetcurrentcolumnnumber
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xml_get_current_column_number — Отримує від XML-аналізатора номер
-поточного стовпця
+xmlgetcurrentcolumnnumber — Отримує від XML-аналізатора номер поточного стовпця
 
 ### Опис
 
-**xml_get_current_column_number**([XMLParser](class.xmlparser.md)
-`$parser`): int
+```methodsynopsis
+xml_get_current_column_number(XMLParser $parser): int
+```
 
-Отримує номер стовпця заданого XML-аналізатора.
+Отримує поточний номер стовпця заданого XML-аналізатора.
 
 ### Список параметрів
 
 `parser`
-Посилання на аналізатор XML, щоб отримати номер стовпця.
+
+Посилання на XML аналізатор для отримання номера стовпця.
 
 ### Значення, що повертаються
 
-Ця функція повертає **`false`**, якщо посилання параметра `parser` не
-веде до чинного аналізатора, або ж повертає номер стовпця на
-поточному рядку (визначеному за допомогою
-[xml_get_current_line_number()](function.xml-get-current-line-number.md))
-згідно з поточним положенням покажчика аналізатора.
+Ця функція повертає **`false`**, якщо посилання параметра `parser` не веде до діючого аналізатора, або повертає номер стовпця на поточному рядку (визначеному за допомогою [xml\_get\_current\_line\_number()](function.xml-get-current-line-number.html)) згідно з поточним положенням покажчика аналізатора.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр parser чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [xml_get_current_byte_index()](function.xml-get-current-byte-index.md) -
-Отримує поточний для XML-аналізатора байтовий індекс
-- [xml_get_current_line_number()](function.xml-get-current-line-number.md) -
-Отримує від XML-аналізатора номер поточного рядка
+-   [xml\_get\_current\_byte\_index()](function.xml-get-current-byte-index.html) - Отримує поточний для XML-аналізатора байтовий індекс
+-   [xml\_get\_current\_line\_number()](function.xml-get-current-line-number.html) - Отримує від XML-аналізатора номер поточного рядка

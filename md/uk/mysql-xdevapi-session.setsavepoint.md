@@ -1,34 +1,39 @@
-- [« Session::rollbackTo](mysql-xdevapi-session.rollbackto.md)
-- [Session::sql »](mysql-xdevapi-session.sql.md)
+Створює точку збереження
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Створює точку збереження
+-   [« Session::rollbackTo](mysql-xdevapi-session.rollbackto.html)
+    
+-   [Session::sql »](mysql-xdevapi-session.sql.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Створює точку збереження
+    
 
 # Session::setSavepoint
 
 (No version information available, might only be in Git)
 
-Session::setSavepoint — Створює точку збереження
+Session::setSavepoint — Створення точки збереження
 
 ### Опис
 
-public **mysql_xdevapi\Session::setSavepoint**(string `$name` = ?):
-string
+```methodsynopsis
+public mysql_xdevapi\Session::setSavepoint(string $name = ?): string
+```
 
 Створює нову точку збереження транзакції.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `name`
-Назва точки збереження. Ім'я генерується автоматично, якщо
-необов'язковий параметр `name` не визначений, як 'SAVEPOINT1',
-'SAVEPOINT2' і т.д.
+
+Назва точки збереження. Ім'я генерується автоматично, якщо необов'язковий параметр `name` не визначено, як 'SAVEPOINT 1', 'SAVEPOINT 2' і т.д.
 
 ### Значення, що повертаються
 
@@ -36,7 +41,21 @@ string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::setSavepoint()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::setSavepoint()****
 
-` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("names");$session-> startTransaction();$collection->add( '{"test1":1, "test2":2}' )->execute();$savepoint = $session->setSavepoint();$collection->add( ' {"test3":3, "test4":4}' )->execute();$session->releaseSavepoint($savepoint);$session->rollback();?> `
+```php
+<?php
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("names");
+
+$session->startTransaction();
+$collection->add( '{"test1":1, "test2":2}' )->execute();
+
+$savepoint = $session->setSavepoint();
+
+$collection->add( '{"test3":3, "test4":4}' )->execute();
+
+$session->releaseSavepoint($savepoint);
+$session->rollback();
+?>
+```

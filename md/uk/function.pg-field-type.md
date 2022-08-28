@@ -1,70 +1,81 @@
-- [« pg_field_type_oid](function.pg-field-type-oid.md)
-- [pg_flush »](function.pg-flush.md)
+Повертає ім'я типу заданого поля
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає ім'я типу заданого поля
+-   [« pg\_field\_type\_oid](function.pg-field-type-oid.html)
+    
+-   [pg\_flush »](function.pg-flush.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає ім'я типу заданого поля
+    
 
-#pg_field_type
+# пгfieldtype
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_field_type — Повертає ім'я типу заданого поля
+пгfieldtype — Повертає ім'я типу заданого поля
 
 ### Опис
 
-**pg_field_type**([PgSql\Result](class.pgsql-result.md) `$result`, int
-`$field`): string
+```methodsynopsis
+pg_field_type(PgSql\Result $result, int $field): string
+```
 
-**pg_field_type()** повертає рядок, який містить ім'я базового типу
-значень колонки результату запиту `result` з номером `field`.
+**пгfieldtype()** повертає рядок, який містить ім'я базового типу значень колонки результату запиту `result` з номером `field`
 
-> **Примітка**:
->
-> Якщо тип значень використовується PostgreSQL домен (замість
-> базового типу), функція поверне ім'я типу всередині домену, а чи не ім'я самого
-> домену.
+> **Зауваження**
+> 
+> Якщо в якості типу значень використовується PostgreSQL домен (замість базового типу), функція поверне ім'я типу всередині домену, а не ім'я домену.
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_fieldtype()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгfieldtype()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `field`
-Порядковий номер поля, починаючи з нуля.
+
+Порядковий номер поля починаючи з нуля.
 
 ### Значення, що повертаються
 
 Рядок, що містить ім'я базового типу значень поля.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поле вибірки**
 
-`<?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з базою"); // Покладемо, 'title' має тип varchar $res = pg_query($dbconn, "select title from authors where author = 'Orwell'"); echo "Title field type: ", pg_field_type($res, 0);?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+
+  // Положим, 'title' имеет тип varchar
+  $res = pg_query($dbconn, "select title from authors where author = 'Orwell'");
+
+  echo "Title field type: ", pg_field_type($res, 0);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Title field type: varchar
+```
 
 ### Дивіться також
 
-- [pg_field_prtlen()](function.pg-field-prtlen.md) - Повертає
-кількість друкованих символів
-- [pg_field_name()](function.pg-field-name.md) - Повертає
-найменування поля
-- [pg_field_type_oid()](function.pg-field-type-oid.md) - Повертає
-ідентифікатор типу заданого поля
+-   [pg\_field\_prtlen()](function.pg-field-prtlen.html) - Повертає кількість друкованих символів
+-   [pg\_field\_name()](function.pg-field-name.html) - Повертає найменування поля
+-   [pg\_field\_type\_oid()](function.pg-field-type-oid.html) - Повертає ідентифікатор типу заданого поля

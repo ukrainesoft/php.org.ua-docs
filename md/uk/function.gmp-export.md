@@ -1,58 +1,71 @@
-- [«gmp_divexact](function.gmp-divexact.md)
-- [gmp_fact»](function.gmp-fact.md)
+Експортувати в бінарний рядок
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Експортувати у бінарний рядок
+-   [« gmp\_divexact](function.gmp-divexact.html)
+    
+-   [gmp\_fact »](function.gmp-fact.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Експортувати в бінарний рядок
+    
 
-#gmp_export
+# gmpexport
 
-(PHP 5 \>= 5.6.1, PHP 7, PHP 8)
+(PHP 5> = 5.6.1, PHP 7, PHP 8)
 
-gmp_export — Експортувати в бінарний рядок
+gmpexport — Експортувати до бінарного рядка
 
 ### Опис
 
-**gmp_export**([GMP](class.gmp.md)\|int\|string `$num`, int
-`$word_size` = 1, int `$flags` = GMP_MSW_FIRST \| GMP_NATIVE_ENDIAN):
-string
+```methodsynopsis
+gmp_export(GMP|int|string $num, int $word_size = 1, int $flags = GMP_MSW_FIRST | GMP_NATIVE_ENDIAN): string
+```
 
 Експортує GMP-число до бінарного рядка
 
 ### Список параметрів
 
 `num`
+
 GMP-число для експорту
 
 `word_size`
-За замовчуванням дорівнює 1. Кількість байт у кожному блоці бінарних даних.
-Зазвичай використовується разом із завданням options.
+
+За замовчуванням дорівнює 1. Кількість байт у кожному блоці бінарних даних. Зазвичай використовується разом із завданням options.
 
 `flags`
-Типово **`GMP_MSW_FIRST`** \| **`GMP_NATIVE_ENDIAN`**.
+
+За замовчуванням **`GMP_MSW_FIRST`** **`GMP_NATIVE_ENDIAN`**
 
 ### Значення, що повертаються
 
 Повертає рядок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                            |
-|--------|-----------------------------------------------------------------|
-| 8.0.0  | Функція більше не повертає **false** у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_export()****
+**Приклад #1 Приклад використання **gmpexport()****
 
-`<?php$number = gmp_init(16705);echo gmp_export($number) . "
-";?> `
+```php
+<?php
+$number = gmp_init(16705);
+echo gmp_export($number) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 AA
+```
 
 ### Дивіться також
 
-- [gmp_import()](function.gmp-import.md) - Імпортувати з бінарної
-рядки
+-   [gmp\_import()](function.gmp-import.html) - Імпортувати з бінарного рядка

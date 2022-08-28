@@ -1,24 +1,31 @@
-- [« Swoole\Coroutine\Client::sendto](swoole-coroutine-client.sendto.md)
-- [Swoole\Coroutine\Http\Client::addFile »](swoole-coroutine-http-client.addfile.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+-   [« Swoole\\Coroutine\\Client::sendto](swoole-coroutine-client.sendto.html)
+    
+-   [Swoole\\Coroutine\\Http\\Client::addFile »](swoole-coroutine-http-client.addfile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Опис
+    
 
-# Swoole\Coroutine\Client::set
+# SwooleCoroutineClient::set
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine\Client::set — Опис
+SwooleCoroutineClient::set — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Client::set**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Client::set(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

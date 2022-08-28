@@ -1,61 +1,78 @@
-- [«dBase](ref.dbase.md)
-- [dbase_close »](function.dbase-close.md)
+Додає запис до бази даних
 
-- [PHP Manual](index.md)
-- [dBase](ref.dbase.md)
-- Додає запис до бази даних
+-   [« dBase](ref.dbase.html)
+    
+-   [dbase\_close »](function.dbase-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [dBase](ref.dbase.html)
+    
+-   Додає запис до бази даних
+    
 
-#dbase_add_record
+# dbaseaddrecord
 
-(PHP 5 \< 5.3.0, dbase 5, dbase 7)
+(PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbase_add_record — Додає запис до бази даних
+dbaseaddrecord — Додає запис до бази даних
 
 ### Опис
 
-**dbase_add_record**(resource `$database`, array `$data`): bool
+```methodsynopsis
+dbase_add_record(resource $database, array $data): bool
+```
 
 Додає дані до бази даних
 
 ### Список параметрів
 
 `database`
-Ресурс бази даних, що повертається функцією
-[dbase_open()](function.dbase-open.md) або
-[dbase_create()](function.dbase-create.md).
+
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
 
 `data`
-Індексований масив із даними. Кількість елементів має бути рівна
-числу полів у базі даних, інакше **dbase_add_record()** не
-вдасться виконати.
 
-> **Примітка**:
->
-> Якщо ви використовуєте як параметр запис, який повернув
-> функція [dbase_get_record()](function.dbase-get-record.md), не
-> забудьте скинути ключ `deleted`. (прим пров. -
-> unset(record['deleted']);
+Індексований масив із даними. Кількість елементів має дорівнювати числу полів у базі даних, в іншому випадку **dbaseaddrecord()** не вдасться виконати.
+
+> **Зауваження**
+> 
+> Якщо ви використовуєте як параметр запис, який повернула функція [dbase\_get\_record()](function.dbase-get-record.html), не забудьте скинути ключ `deleted`. (прим пров. - unset (record'deleted'
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія    | Опис                                                |
-|-----------|-----------------------------------------------------|
-| dbase 7.0 | Параметр database тепер має тип resource, а не int. |
+| Версия | Описание |
+| --- | --- |
+| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Приклади
 
-**Приклад #1 Вставлення запису в базу даних dBase**
+**Приклад #1 Вставлення запису до бази даних dBase**
 
-` <?php// відкрити БД в режимі читання і записи$db = dbase_open('/tmp/test.dbf', 2);if ($db) {  dbase_add_record($db, y  y 'Maxim Topolov',      '23',      'max@example.com',     'T')); dbase_close($db);}?> `
+```php
+<?php
+
+// открыть БД в режиме чтения и записи
+$db = dbase_open('/tmp/test.dbf', 2);
+
+if ($db) {
+  dbase_add_record($db, array(
+      date('Ymd'),
+      'Maxim Topolov',
+      '23',
+      'max@example.com',
+      'T'));
+  dbase_close($db);
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [dbase_delete_record()](function.dbase-delete-record.md) -
-Видалення записів із бази даних
-- [dbase_replace_record()](function.dbase-replace-record.md) -
-Замінює запис у базі даних
+-   [dbase\_delete\_record()](function.dbase-delete-record.html) - Видалення записів із бази даних
+-   [dbase\_replace\_record()](function.dbase-replace-record.html) - Замінює запис у базі даних

@@ -1,59 +1,73 @@
-- [« cubrid_lob2_export](function.cubrid-lob2-export.md)
-- [cubrid_lob2_new »](function.cubrid-lob2-new.md)
+Імпортує дані BLOB/CLOB із файлу
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Імпортує дані BLOB/CLOB із файлу
+-   [« cubrid\_lob2\_export](function.cubrid-lob2-export.html)
+    
+-   [cubrid\_lob2\_new »](function.cubrid-lob2-new.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Імпортує дані BLOB/CLOB із файлу
+    
 
-# cubrid_lob2_import
+# cubridlob2import
 
-(PECL CUBRID = 8.4.1)
+(PECL CUBRID >= 8.4.1)
 
-cubrid_lob2_import — Імпортує дані BLOB/CLOB із файлу
+cubridlob2import — Імпортує дані BLOB/CLOB із файлу
 
 ### Опис
 
-**cubrid_lob2_import**(resource `$lob_identifier`, string `$file_name`):
-bool
+```methodsynopsis
+cubrid_lob2_import(resource $lob_identifier, string $file_name): bool
+```
 
-Функція **cubrid_lob2_import()** використовується для збереження вмісту
-даних BLOB/CLOB із файлу. Щоб використовувати цю функцію, необхідно
-використовувати [cubrid_lob2_new()](function.cubrid-lob2-new.md) або
-спочатку отримати LOB-об'єкт із бази даних CUBRID. Якщо файл уже
-існує операція завершиться помилкою. Функція не впливатиме на
-становище курсору LOB-об'єкта. Вона керує всім LOB-об'єктом.
+Функція **cubridlob2import()** використовується для збереження вмісту BLOB/CLOB з файлу. Щоб використовувати цю функцію, потрібно використовувати [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) або спочатку отримати LOB-об'єкт із бази даних CUBRID. Якщо файл існує, операція завершиться помилкою. Функція не впливатиме на положення курсору LOB-об'єкта. Вона керує всім LOB-об'єктом.
 
 ### Список параметрів
 
 `lob_identifier`
-Ідентифікатор LOB, отриманий у результаті
-[cubrid_lob2_new()](function.cubrid-lob2-new.md) або отриманий з
-набір результатів.
+
+Ідентифікатор LOB, отриманий у результаті [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) або отриманий із набору результатів.
 
 `filename`
-Ім'я файлу, до якого ви хочете імпортувати дані BLOB/CLOB. Також
-підтримується шлях до файлу.
+
+Ім'я файлу, до якого ви хочете імпортувати дані BLOB/CLOB. Також підтримується шлях до файлу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[cubrid_lob2_export()](function.cubrid-lob2-export.md)**
+**Приклад #1 Приклад використання [cubrid\_lob2\_export()](function.cubrid-lob2-export.html)**
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TABLE if exists test_lob");cubrid_execute (id INT, contents CLOB)");$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");cubrid_bind($req, 1, 1);$lob = clob"); cubrid_lob2_import($lob, "doc_1.txt");cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // або cubrid_lob2_bind($req, 2, $lob);cubrid_execute($req);cubrid_lob2_close($lob);cubrid_disconnect($conn);?> `
+```php
+<?php
+
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
+cubrid_bind($req, 1, 1);
+
+$lob = cubrid_lob2_new($conn, "clob");
+cubrid_lob2_import($lob, "doc_1.txt");
+cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // или cubrid_lob2_bind($req, 2, $lob);
+
+cubrid_execute($req);
+
+cubrid_lob2_close($lob);
+cubrid_disconnect($conn);
+?>
+```
 
 ### Дивіться також
 
-- [cubrid_lob2_new()](function.cubrid-lob2-new.md) - Створює об'єкт
-LOB
-- [cubrid_lob2_close()](function.cubrid-lob2-close.md) - Закриває
-об'єкт LOB
-- [cubrid_lob2_export()](function.cubrid-lob2-export.md) -
-Експортує LOB-об'єкт у файл
-- [cubrid_lob2_bind()](function.cubrid-lob2-bind.md) - Зв'язує
-об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором
-як параметри
+-   [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) - Створює об'єкт LOB
+-   [cubrid\_lob2\_close()](function.cubrid-lob2-close.html) - Закриває об'єкт LOB
+-   [cubrid\_lob2\_export()](function.cubrid-lob2-export.html) - Експортує LOB-об'єкт у файл
+-   [cubrid\_lob2\_bind()](function.cubrid-lob2-bind.html) - Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри

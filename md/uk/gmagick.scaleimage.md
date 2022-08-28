@@ -1,35 +1,43 @@
-- [«Gmagick::rotateimage](gmagick.rotateimage.md)
-- [Gmagick::separateimagechannel »](gmagick.separateimagechannel.md)
+Масштабує розмір зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Масштабує розмір зображення
+-   [« Gmagick::rotateimage](gmagick.rotateimage.html)
+    
+-   [Gmagick::separateimagechannel »](gmagick.separateimagechannel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Масштабує розмір зображення
+    
 
 # Gmagick::scaleimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::scaleimage — Масштабує розмір зображення
 
 ### Опис
 
-public **Gmagick::scaleimage**(int `$width`, int `$height`, bool `$fit`
-= **`false`**): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::scaleimage(int $width, int $height, bool $fit = false): Gmagick
+```
 
-Масштабує розмір зображення до заданого розміру. Інший параметр
-буде розрахований, якщо як будь-який з параметрів буде переданий 0.
+Масштабування розміру зображення до заданих розмірів. Інший параметр буде розрахований, якщо як будь-який з параметрів буде переданий 0.
 
 ### Список параметрів
 
 `width`
+
 Кількість стовпців у масштабованому зображенні.
 
 `height`
+
 Кількість рядків у масштабованому зображенні.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

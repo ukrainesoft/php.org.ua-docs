@@ -1,24 +1,30 @@
-- [« EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.md)
-- [EventHttpRequest::sendReplyStart »](eventhttprequest.sendreplystart.md)
+Заповнює фрагментарну відповідь, звільняючи запит відповідним чином
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Заповнює фрагментарну відповідь, звільняючи запит відповідним
-чином
+-   [« EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.html)
+    
+-   [EventHttpRequest::sendReplyStart »](eventhttprequest.sendreplystart.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Заповнює фрагментарну відповідь, звільняючи запит відповідним чином
+    
 
 # EventHttpRequest::sendReplyEnd
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::sendReplyEnd — Заповнює фрагментарну відповідь,
-звільняючи запит відповідним чином
+EventHttpRequest::sendReplyEnd — Заповнює фрагментарну відповідь, звільняючи запит відповідним чином
 
 ### Опис
 
-public **EventHttpRequest::sendReplyEnd**(): void
+```methodsynopsis
+public
+   EventHttpRequest::sendReplyEnd(): void
+```
 
-Заповнює фрагментарну відповідь, звільняючи запит відповідним
-чином.
+Заповнює фрагментарну відповідь, звільняючи запит відповідним чином.
 
 ### Список параметрів
 
@@ -30,7 +36,5 @@ public **EventHttpRequest::sendReplyEnd**(): void
 
 ### Дивіться також
 
-- [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.md) -
-Ініціює фрагментарну відповідь
-- [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) -
-Відправляє блок даних як частину поточної фрагментованої відповіді
+-   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.html) - Ініціює фрагментарну відповідь
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.html) - Відправляє блок даних, як частина поточної фрагментованої відповіді

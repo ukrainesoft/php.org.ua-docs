@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](taint.configuration.md)
-- [Додаткові подробиці »](taint.detail.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](taint.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](taint.configuration.html)
+    
+-   [Дополнительные подробности »](taint.detail.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](taint.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

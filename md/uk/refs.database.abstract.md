@@ -1,33 +1,39 @@
-- [« Модулі для роботи з базами даних](refs.database.md)
-- [DBA »](book.dba.md)
+Рівні абстракції
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з базами даних](refs.database.md)
-- рівні абстракції
+-   [« Модули для работы с базами данных](refs.database.html)
+    
+-   [DBA »](book.dba.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с базами данных](refs.database.html)
+    
+-   Рівні абстракції
+    
 
 # Рівні абстракції
 
-- [DBA](book.dba.md) — Database (dbm-style) Abstraction Layer
-- [Вступ](intro.dba.md)
-- [Встановлення та налаштування](dba.setup.md)
-- [Предвизначені константи](dba.constants.md)
-- [Приклади](dba.examples.md)
-- [Функції DBA](ref.dba.md)
-- [ODBC](book.uodbc.md) - ODBC (Unified)
-- [Вступ](intro.uodbc.md)
-- [Встановлення та налаштування](uodbc.setup.md)
-- [Предвизначені константи](uodbc.constants.md)
-- [Функції ODBC](ref.uodbc.md)
-- [PDO](book.pdo.md) - Об'єкти даних PHP
-- [Вступ](intro.pdo.md)
-- [Встановлення та налаштування](pdo.setup.md)
-- [Предвизначені константи](pdo.constants.md)
-- [Підключення та керування підключеннями](pdo.connections.md)
-- [Транзакції та автоматична фіксація змін](pdo.transactions.md)
-- [Підготовлені запити та збережені процедури](pdo.prepared-statements.md)
-- [Помилки та їх обробка](pdo.error-handling.md)
-- [Великі об'єкти (LOB)](pdo.lobs.md)
-- [PDO](class.pdo.md) - Клас PDO
-- [PDOStatement](class.pdostatement.md) - Клас PDOStatement
-- [PDOException](class.pdoexception.md) - Клас PDOException
-- [Драйвери PDO](pdo.drivers.md)
+-   [DBA](book.dba.html) - Database (dbm-style) Abstraction Layer
+    -   [Введение](intro.dba.html)
+    -   [Установка и настройка](dba.setup.html)
+    -   [Предопределённые константы](dba.constants.html)
+    -   [Примеры](dba.examples.html)
+    -   [Функции DBA](ref.dba.html)
+-   [ODBC](book.uodbc.html) - ODBC (Unified)
+    -   [Введение](intro.uodbc.html)
+    -   [Установка и настройка](uodbc.setup.html)
+    -   [Предопределённые константы](uodbc.constants.html)
+    -   [Функции ODBC](ref.uodbc.html)
+-   [PDO](book.pdo.html) - Об'єкти даних PHP
+    -   [Введение](intro.pdo.html)
+    -   [Установка и настройка](pdo.setup.html)
+    -   [Предопределённые константы](pdo.constants.html)
+    -   [Подключения и управление подключениями](pdo.connections.html)
+    -   [Транзакции и автоматическая фиксация изменений](pdo.transactions.html)
+    -   [Подготовленные запросы и хранимые процедуры](pdo.prepared-statements.html)
+    -   [Ошибки и их обработка](pdo.error-handling.html)
+    -   [Большие объекты (LOB)](pdo.lobs.html)
+    -   [PDO](class.pdo.html) - Клас PDO
+    -   [PDOStatement](class.pdostatement.html) - Клас PDOStatement
+    -   [PDOException](class.pdoexception.html) - Клас PDOException
+    -   [Драйверы PDO](pdo.drivers.html)

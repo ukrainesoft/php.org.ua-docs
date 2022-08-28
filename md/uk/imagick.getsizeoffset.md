@@ -1,9 +1,15 @@
-- [« Imagick::getSize](imagick.getsize.md)
-- [Imagick::getVersion »](imagick.getversion.md)
+Повертає розмір зміщення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає розмір усунення
+-   [« Imagick::getSize](imagick.getsize.html)
+    
+-   [Imagick::getVersion »](imagick.getversion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає розмір зміщення
+    
 
 # Imagick::getSizeOffset
 
@@ -13,11 +19,11 @@ Imagick::getSizeOffset — Повертає розмір зміщення
 
 ### Опис
 
-public **Imagick::getSizeOffset**(): int
+```methodsynopsis
+public Imagick::getSizeOffset(): int
+```
 
-Повертає розмір усунення, пов'язаний з об'єктом Imagick. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або
-старше.
+Повертає розмір усунення, пов'язаний з об'єктом Imagick. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 

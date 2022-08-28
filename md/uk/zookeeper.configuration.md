@@ -1,35 +1,40 @@
-- [« Установка](zookeeper.installation.md)
-- [Типи ресурсів »](zookeeper.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](zookeeper.setup.md)
-- Налаштування під час виконання
+-   [« Установка](zookeeper.installation.html)
+    
+-   [Типы ресурсов »](zookeeper.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](zookeeper.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
-
-| Ім'я За замовчуванням                                                               | Місце зміни | Історія змін   |
-| ----------------------------------------------------------------------------------- | ----------- | -------------- |
-| [zookeeper.recv_timeout](zookeeper.configuration.md#ini.zookeeper.recv_timeout)     | 10000       | PHP_INI_ALL    |
-| [zookeeper.session_lock](zookeeper.configuration.md#ini.zookeeper.session_lock)     | 1           | PHP_INI_SYSTEM |
-| [zookeeper.sess_lock_wait](zookeeper.configuration.md#ini.zookeeper.sess_lock_wait) | 150000      | PHP_INI_ALL    |
+Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Zookeeper**
 
-Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
+| Имя | По умолчанию | Место изменения | История изменений |
+| --- | --- | --- | --- |
+| [zookeeper.recv\_timeout](zookeeper.configuration.html#ini.zookeeper.recv_timeout) |  | PHPINIALL |  |
+| [zookeeper.session\_lock](zookeeper.configuration.html#ini.zookeeper.session_lock) |  | PHPINISYSTEM |  |
+| [zookeeper.sess\_lock\_wait](zookeeper.configuration.html#ini.zookeeper.sess_lock_wait) |  | PHPINIALL |  |
+
+Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 
 `zookeeper.recv_timeout` int
+
 Час очікування за промовчанням для всіх сесій ZooKeeper.
 
 `zookeeper.session_lock` int
-Дозволяє блокувати сесії PHP.
+
+Дозволяє блокування сесій PHP.
 
 `zookeeper.sess_lock_wait` int
-Час очікування повтору при взаємному блокуванні сесії PHP
-мікросекундах. Будьте обережні, встановлюючи це значення. Коректні
-значення - цілі числа, за замовчуванням використовуються 0. Негативні
-значення призводить до зменшення спроб блокування.
+
+Час очікування повтору при взаємному блокуванні сесії PHP у мікросекундах. Будьте обережні, встановлюючи це значення. Коректні значення - цілі числа, що за замовчуванням використовуються 0. Негативні значення призводить до зменшення спроб блокування.

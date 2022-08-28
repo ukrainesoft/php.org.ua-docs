@@ -1,25 +1,36 @@
-- [« Функції Componere](reference.componere.md)
-- [Componer
- - [PHP Manual](index.md)
-- [Функції Componere](reference.componere.md)
-- Приведення до типу
+Приведення до типу
 
-# Componer
+-   [« Функции Componere](reference.componere.html)
+    
+-   [Componere\\cast\_by\_ref »](componere.cast_by_ref.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Componere](reference.componere.html)
+    
+-   Приведення до типу
+    
 
-(Componere 2 \>= 2.1.2)
+# Componerecast
 
-Componer
+(Componere 2 >= 2.1.2)
+
+Componerecast — Приведення до типу
 
 ### Опис
 
-**Componer
+```methodsynopsis
+Componere\cast(Type $type,  $object): Type
+```
 
 ### Список параметрів
 
 `type`
+
 Користувальницький тип
 
 `object`
+
 Об'єкт з типом користувача, сумісний з **Type**
 
 ### Значення, що повертаються
@@ -30,34 +41,24 @@ object типу **Type**, наведений з `object`
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-тип `object` є похідним від внутрішнього класу
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо тип `object` є похідним від внутрішнього класу
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-**Type** є інтерфейсом
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** є інтерфейсом
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-**Type** є трейтом
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** є трейтом
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-**Type** є абстрактним класом
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** є абстрактним класом
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-**Type** не сумісний з типом `object`
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html), якщо **Type** не сумісний з типом `object`
 
 ### Дивіться також
 
-- [Componer
+-   [Componere\\cast\_by\_ref](componere.cast_by_ref.html)

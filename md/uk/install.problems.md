@@ -1,14 +1,20 @@
-- [« Компіляція модулів PECL статично в PHP](install.pecl.static.md)
-- [Читайте FAQ »](install.problems.faq.md)
+Проблеми?
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](install.md)
-– Проблеми?
+-   [« Компиляция модулей PECL статически в PHP](install.pecl.static.html)
+    
+-   [Читайте FAQ »](install.problems.faq.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](install.html)
+    
+-   Проблеми?
+    
 
 # Проблеми?
 
 ## Зміст
 
-- [Читайте FAQ](install.problems.faq.md)
-- [Інші проблеми](install.problems.support.md)
-- [Повідомлення про баги](install.problems.bugs.md)
+-   [Читайте FAQ](install.problems.faq.html)
+-   [Другие проблемы](install.problems.support.html)
+-   [Сообщения о багах](install.problems.bugs.html)

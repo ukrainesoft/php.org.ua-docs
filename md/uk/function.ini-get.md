@@ -1,86 +1,106 @@
-- [«ini_get_all](function.ini-get-all.md)
-- [ini_restore »](function.ini-restore.md)
+Отримує значення налаштування конфігурації
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Отримує значення налаштування конфігурації
+-   [« ini\_get\_all](function.ini-get-all.html)
+    
+-   [ini\_restore »](function.ini-restore.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Отримує значення налаштування конфігурації
+    
 
-#ini_get
+# iniget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ini_get — Отримує значення конфігураційної установки
+iniget — Отримує значення конфігураційної установки
 
 ### Опис
 
-**ini_get**(string `$option`): string\|false
+```methodsynopsis
+ini_get(string $option): string|false
+```
 
-У разі успішного виконання повертає значення налаштування
-Зміни.
+У разі успішного виконання повертає значення конфігураційної установки.
 
 ### Список параметрів
 
 `option`
-Ім'я конфігурації.
+
+Ім'я конфігураційної установки.
 
 ### Значення, що повертаються
 
-Повертає значення конфігурації у вигляді рядка. Для значень
-null буде повертатися порожній рядок. Функція поверне **`false`**,
-якщо вказане налаштування не існує.
+Повертає значення конфігурації у вигляді рядка. Для значень `null` повертатиметься порожній рядок. Функція поверне **`false`**, якщо вказане налаштування не існує.
 
 ### Приклади
 
-**Приклад #1 Кілька прикладів використання **ini_get()****
+**Приклад #1 Декілька прикладів використання **iniget()****
 
-` <?php/*Наш файл php.ini містить наступні настройки:display_errors = Onregister_globals = Offpost_max_size = 8M*/echo 'display_errors = ' . ini_get('display_errors') . "
-";echo 'register_globals = ' . ini_get('register_globals') . "
-";echo 'post_max_size = ' . ini_get('post_max_size') . "
-";echo 'post_max_size+1 = ' . (ini_get('post_max_size')+1) . "
-";echo 'post_max_size in bytes = ' . return_bytes(ini_get('post_max_size'));function return_bytes($val) {    $val = trim($val); $$| 1]);    switch($last) {        // Модификатор 'G' доступен        case 'g':            $val *= 1024;        case 'm':            $val *= 1024;        case 'k':            $val *= 1024; }   return $val;}?> `
+```php
+<?php
+/*
+Наш файл php.ini содержит следующие настройки:
+
+display_errors = On
+register_globals = Off
+post_max_size = 8M
+*/
+
+echo 'display_errors = ' . ini_get('display_errors') . "\n";
+echo 'register_globals = ' . ini_get('register_globals') . "\n";
+echo 'post_max_size = ' . ini_get('post_max_size') . "\n";
+echo 'post_max_size+1 = ' . (ini_get('post_max_size')+1) . "\n";
+echo 'post_max_size in bytes = ' . return_bytes(ini_get('post_max_size'));
+
+function return_bytes($val) {
+    $val = trim($val);
+    $last = strtolower($val[strlen($val)-1]);
+    switch($last) {
+        // Модификатор 'G' доступен
+        case 'g':
+            $val *= 1024;
+        case 'm':
+            $val *= 1024;
+        case 'k':
+            $val *= 1024;
+    }
+
+    return $val;
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-
+```
 display_errors = 1
 register_globals = 0
-post_max_size=8M
+post_max_size = 8M
 post_max_size+1 = 9
 post_max_size in bytes = 8388608
+```
 
 ### Примітки
 
-> **Примітка**: **Поворотні логічні значення**
->
-> Boolean-значення ini-налаштування `off` буде повернено у вигляді порожньої
-> рядки або рядки "0", тоді як значення `on` буде
-> відповідати рядок "1". Функція також може повертати літерні
-> значення INI-налаштування.
+> **Зауваження** **Логічні значення, що повертаються**
+> 
+> Boolean-значення ini-налаштування `off` буде повернено у вигляді порожнього рядка або рядка "0", тоді як значення `on` відповідатиме рядок "1". Функція також може повертати буквені значення налаштування INI.
 
-> **Примітка**: **Повертані значення кількості пам'яті**
->
-> Багато ini-налаштувань, значення яких вимірюються кількістю пам'яті,
-> такі як
-> [upload_max_filesize](ini.core.md#ini.upload-max-filesize),
-> зберігаються в `php.ini` у скороченому вигляді. **ini_get()** поверне
-> саме те, що записано у файлі `php.ini`, а *НЕ* цілісний (int)
-> еквівалент цієї величини. Спроба використання отриманої величини
-> арифметичних операціях не дасть бажаного результату. У наведеному
-> вище прикладі продемонстровано, як можна перекласти скорочену
-> запис у число байт.
+> **Зауваження** **Значення кількості пам'яті, що повертаються.**
+> 
+> Багато ini-налаштувань, значення яких вимірюються кількістю пам'яті, такі як [upload\_max\_filesize](ini.core.html#ini.upload-max-filesize), зберігаються у php.ini у скороченому вигляді . **iniget()** поверне саме те, що записано у файлі php.ini, а *НЕ* цілий (int) еквівалент цієї величини. Спроба використання отриманої величини в арифметичних операціях не дасть бажаного результату. У наведеному вище прикладі продемонстровано, як можна перевести скорочений запис до числа байт.
 
-> **Примітка**:
->
-> **ini_get()** не може прочитати опції типу "масив", такі як
-> pdo.dsn.\*, і повертає **`false`** таких випадках.
+> **Зауваження**
+> 
+> **iniget()** не може прочитати параметри типу "масив", такі як pdo.dsn., і повертає **`false`** таких випадках.
 
 ### Дивіться також
 
-- [get_cfg_var()](function.get-cfg-var.md) - Витягує значення
-налаштування конфігурації PHP
-- [ini_get_all()](function.ini-get-all.md) - Отримує всі налаштування
-конфігурації
-- [ini_restore()](function.ini-restore.md) - Відновлює
-значення налаштування конфігурації
-- [ini_set()](function.ini-set.md) - Встановлює значення
-налаштування конфігурації
+-   [get\_cfg\_var()](function.get-cfg-var.html) - Витягує значення налаштування конфігурації PHP
+-   [ini\_get\_all()](function.ini-get-all.html) - Отримує всі налаштування конфігурації
+-   [ini\_restore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
+-   [ini\_set()](function.ini-set.html) - Встановлює налаштування конфігурації

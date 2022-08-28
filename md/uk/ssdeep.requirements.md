@@ -1,10 +1,16 @@
-- [« Встановлення та налаштування](ssdeep.setup.md)
-- [Установка »](ssdeep.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ssdeep.setup.md)
-- Вимоги
+-   [« Установка и настройка](ssdeep.setup.html)
+    
+-   [Установка »](ssdeep.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ssdeep.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Модулю потрібна бібліотека [ssdeep](http://ssdeep.sourceforge.net).
+Модулі потрібна бібліотека [» ssdeep](http://ssdeep.sourceforge.net)

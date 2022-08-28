@@ -1,26 +1,29 @@
-- [« ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.md)
-- [ReflectionParameter::getDefaultValueConstantName »](reflectionparameter.getdefaultvalueconstantname.md)
+Отримання стандартного значення для параметра
 
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Отримання стандартного значення для параметра
+-   [« ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.html)
+    
+-   [ReflectionParameter::getDefaultValueConstantName »](reflectionparameter.getdefaultvalueconstantname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionParameter](class.reflectionparameter.html)
+    
+-   Отримання стандартного значення для параметра
+    
 
 # ReflectionParameter::getDefaultValue
 
-(PHP 5 \>= 5.0.3, PHP 7, PHP 8)
+(PHP 5> = 5.0.3, PHP 7, PHP 8)
 
-ReflectionParameter::getDefaultValue — Отримання стандартного значення
-для параметра
+ReflectionParameter::getDefaultValue — Отримання стандартного значення для параметра
 
 ### Опис
 
-public **ReflectionParameter::getDefaultValue**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionParameter::getDefaultValue(): mixed
+```
 
-Отримує значення за промовчанням параметра, будь-якого визначеного
-користувача або внутрішньої функції або методу. Якщо аргумент не
-є необов'язковим, буде викинуто виняток
-[ReflectionException](class.reflectionexception.md).
+Отримує значення за замовчуванням параметра, будь-якого певного користувача або внутрішньої функції або методу. Якщо аргумент не є необов'язковим, буде викинуто виняток [ReflectionException](class.reflectionexception.html)
 
 ### Список параметрів
 
@@ -30,33 +33,47 @@ public **ReflectionParameter::getDefaultValue**():
 
 Значення за промовчанням аргументу.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                     |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Метод тепер дозволяє отримати значення за замовчуванням параметрів вбудованих функцій і вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.html) |
 
 ### Приклади
 
 **Приклад #1 Отримання**
 
-` <?phpfunction foo($test, $bar = 'baz'){   echo $test . $bar;}$function = new ReflectionFunction('foo');foreach ($function->getParameters() as $param) {    echo 'Ім'я: ' . $param->getName() . PHP_EOL; if ($param->isOptional()) {        echo 'Значення за замовчуванням: ' . $param->getDefaultValue() . PHP_EOL; }   echo PHP_EOL;}?> `
+```php
+<?php
+function foo($test, $bar = 'baz')
+{
+    echo $test . $bar;
+}
+
+$function = new ReflectionFunction('foo');
+
+foreach ($function->getParameters() as $param) {
+    echo 'Имя: ' . $param->getName() . PHP_EOL;
+    if ($param->isOptional()) {
+        echo 'Значение по умолчанию: ' . $param->getDefaultValue() . PHP_EOL;
+    }
+    echo PHP_EOL;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Ім'я: test
+```
+Имя: test
 
-Ім'я: bar
-Значення за замовчуванням: baz
+Имя: bar
+Значение по умолчанию: baz
+```
 
 ### Дивіться також
 
-- [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) -
-Перевіряє, чи є аргумент необов'язковим
-- [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.md) -
-Перевіряє, чи є значення за замовчуванням
-- [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.md) -
-Повертає ім'я константи значення за замовчуванням, якщо значення
-замовчуванням константа або null
-- [ReflectionParameter::isPassedByReference()](reflectionparameter.ispassedbyreference.md) -
-Перевіряє, чи передано параметр за посиланням
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.html) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.html) - Перевіряє, чи є значення за замовчуванням
+-   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.html) - Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
+-   [ReflectionParameter::isPassedByReference()](reflectionparameter.ispassedbyreference.html) - Перевіряє, чи передано параметр за посиланням

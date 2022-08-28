@@ -1,52 +1,58 @@
-- [« mqseries_inq](function.mqseries-inq.md)
-- [mqseries_put1 »](function.mqseries-put1.md)
+MQSeries MQOPEN
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- MQSeries MQOPEN
+-   [« mqseries\_inq](function.mqseries-inq.html)
+    
+-   [mqseries\_put1 »](function.mqseries-put1.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции mqseries](ref.mqseries.html)
+    
+-   MQSeries MQOPEN
+    
 
-# mqseries_open
+# mqseriesopen
 
-(PECL mqseries \>= 0.10.0)
+(PECL mqseries >= 0.10.0)
 
-mqseries_open — MQSeries MQOPEN
+mqseriesopen — MQSeries MQOPEN
 
 ### Опис
 
-**mqseries_open**(
-resource `$hconn`,
-array `&$objDesc`,
-int `$option`,
-resource `&$hobj`,
-resource `&$compCode`,
-resource `&$reason`
-): void
+```methodsynopsis
+mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resource &$hobj,    resource &$compCode,    resource &$reason): void
+```
 
-Функція **mqseries_open()** (MQOPEN) встановлює з'єднання з
-об'єктом.
+Функція **mqseriesopen()** (MQOPEN) встановлює з'єднання з об'єктом.
 
 ### Список параметрів
 
 `hConn`
-Обробник з'єднання.
+
+Оброблювач з'єднання.
 
 Є відкрите з'єднання з менеджером черг.
 
 `objDesc`
-Дескриптор об'єкту. (MQOD)
+
+Дескриптор об'єкт. (MQOD)
 
 `options`
+
 Опції, що визначають роботу функцій
 
 `hObj`
+
 Оброблювач об'єкта.
 
 Представляє об'єкт, що використовується.
 
 `compCode`
+
 Код завершення.
 
 `reason`
+
 Код причини, що кваліфікує compCode.
 
 ### Значення, що повертаються
@@ -55,11 +61,25 @@ resource `&$reason`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_open()****
+**Приклад #1 Приклад використання **mqseriesopen()****
 
-` <?php   $mqods = array('ObjectName' => 'TESTQ'); mqseries_open(                $conn,                $mqods,                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("open CompCode:%d Reason:%d Text:%s<br>
-", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
+```php
+<?php
+    $mqods = array('ObjectName' => 'TESTQ');
+    mqseries_open(
+                $conn,
+                $mqods,
+                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,
+                $obj,
+                $comp_code,
+                $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("open CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        exit;
+    }
+?>
+```
 
 ### Дивіться також
 
-- [mqseries_close()](function.mqseries-close.md) - MQSeries MQCLOSE
+-   [mqseries\_close()](function.mqseries-close.html) - MQSeries MQCLOSE

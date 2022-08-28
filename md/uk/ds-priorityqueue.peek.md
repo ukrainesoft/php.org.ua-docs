@@ -1,22 +1,29 @@
-- [« Ds\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.md)
-- [Ds\PriorityQueue::pop »](ds-priorityqueue.pop.md)
+Повертає значення з початку черги
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Повертає значення із початку черги
+-   [« Ds\\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.html)
+    
+-   [Ds\\PriorityQueue::pop »](ds-priorityqueue.pop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь с приоритетом](class.ds-priorityqueue.html)
+    
+-   Повертає значення з початку черги
+    
 
-# Ds\PriorityQueue::peek
+# ДсPriorityQueue::peek
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\PriorityQueue::peek — Повертає значення з початку черги
+ДсPriorityQueue::peek — Повертає значення з початку черги
 
 ### Опис
 
-public **Ds\PriorityQueue::peek**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\PriorityQueue::peek(): mixed
+```
 
-Повертає значення від початку черги, але не видаляє його.
+Повертає значення із початку черги, але не видаляє його.
 
 ### Список параметрів
 
@@ -28,15 +35,26 @@ public **Ds\PriorityQueue::peek**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.html)якщо черга порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::peek()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::peek()****
 
-` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);var_dump($queue->peek());?> `
+```php
+<?php
+$queue = new \Ds\PriorityQueue();
+
+$queue->push("a",  5);
+$queue->push("b", 15);
+$queue->push("c", 10);
+
+var_dump($queue->peek());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "b"
+```

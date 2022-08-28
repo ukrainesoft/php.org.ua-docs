@@ -1,19 +1,27 @@
-- [« UI\Draw\Text\Font::\_\_construct](ui-draw-text-font.construct.md)
-- [UI\Draw\Text\Font::getDescent »](ui-draw-text-font.getdescent.md)
+Показники шрифту
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font](class.ui-draw-text-font.md)
-- Показники шрифту
+-   [« UI\\Draw\\Text\\Font::\_\_construct](ui-draw-text-font.construct.html)
+    
+-   [UI\\Draw\\Text\\Font::getDescent »](ui-draw-text-font.getdescent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html)
+    
+-   Показники шрифту
+    
 
-# UI\Draw\Text\Font::getAscent
+# ОЙDrawTextFont::getAscent
 
 (UI 1.0.3)
 
-UI\Draw\Text\Font::getAscent — Показники шрифту
+ОЙDrawTextFont::getAscent — Показники шрифту
 
 ### Опис
 
-public **UI\Draw\Text\Font::getAscent**(): float
+```methodsynopsis
+public UI\Draw\Text\Font::getAscent(): float
+```
 
 ### Список параметрів
 

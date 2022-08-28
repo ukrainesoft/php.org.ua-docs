@@ -1,15 +1,21 @@
-- [«Вступ](intro.solr.md)
-- [Вимоги »](solr.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
+-   [« Введение](intro.solr.html)
+    
+-   [Требования »](solr.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](solr.requirements.md)
-- [Установка](solr.installation.md)
-- [Налаштування під час виконання](solr.configuration.md)
-- [Типи ресурсів](solr.resources.md)
+-   [Требования](solr.requirements.html)
+-   [Установка](solr.installation.html)
+-   [Настройка во время выполнения](solr.configuration.html)
+-   [Типы ресурсов](solr.resources.html)

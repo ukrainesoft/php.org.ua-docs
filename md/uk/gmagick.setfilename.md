@@ -1,32 +1,39 @@
-- [« Gmagick::setCompressionQuality](gmagick.setcompressionquality.md)
-- [Gmagick::setimagebackgroundcolor »](gmagick.setimagebackgroundcolor.md)
+Встановлює ім'я файлу перед читанням або записуванням зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює ім'я файлу перед читанням або записуванням зображення
+-   [« Gmagick::setCompressionQuality](gmagick.setcompressionquality.html)
+    
+-   [Gmagick::setimagebackgroundcolor »](gmagick.setimagebackgroundcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює ім'я файлу перед читанням або записуванням зображення
+    
 
 # Gmagick::setfilename
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setfilename — Встановлює ім'я файлу перед читанням або записом
-зображення
+Gmagick::setfilename — Встановлює ім'я файлу перед читанням або записуванням зображення
 
 ### Опис
 
-public **Gmagick::setfilename**(string `$filename`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setfilename(string $filename): Gmagick
+```
 
 Встановлює ім'я файлу перед читанням або записуванням зображення.
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

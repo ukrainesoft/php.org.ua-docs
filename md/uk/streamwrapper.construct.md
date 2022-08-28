@@ -1,22 +1,27 @@
-- [«streamWrapper](class.streamwrapper.md)
-- [streamWrapper::\_\_destruct »](streamwrapper.destruct.md)
+Створює новий об'єкт обгортки потоку
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Створює новий об'єкт обертання потоку
+-   [« streamWrapper](class.streamwrapper.html)
+    
+-   [streamWrapper::\_\_destruct »](streamwrapper.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Створює новий об'єкт обгортки потоку
+    
 
-# streamWrapper::\_\_construct
+# streamWrapper::construct
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::\_\_construct — Створює новий об'єкт обертання потоку
+streamWrapper::construct — Створює новий об'єкт обертання потоку
 
 ### Опис
 
-public **streamWrapper::\_\_construct**()
+public **streamWrapper::construct**
 
-Викликається при відкритті обгортки потоку безпосередньо перед викликом
-методу [streamWrapper::stream_open()](streamwrapper.stream-open.md).
+Викликається при відкритті обгортки потоку безпосередньо перед викликом методу [streamWrapper::stream\_open()](streamwrapper.stream-open.html)
 
 ### Список параметрів
 

@@ -1,36 +1,45 @@
-- [«ResourceBundle](class.resourcebundle.md)
-- [ResourceBundle::create »](resourcebundle.create.md)
+Отримати кількість елементів у пакеті
 
-- [PHP Manual](index.md)
-- [ResourceBundle](class.resourcebundle.md)
-- Отримати кількість елементів у пакеті
+-   [« ResourceBundle](class.resourcebundle.html)
+    
+-   [ResourceBundle::create »](resourcebundle.create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ResourceBundle](class.resourcebundle.html)
+    
+-   Отримати кількість елементів у пакеті
+    
 
 # ResourceBundle::count
 
-#resourcebundle_count
+# resourcebundlecount
 
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::count -- resourcebundle_count — Отримати кількість
-елементів у пакеті
+ResourceBundle::count -- resourcebundlecount — Отримати кількість елементів у пакеті
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **ResourceBundle::count**(): int
+```methodsynopsis
+public ResourceBundle::count(): int
+```
 
 Процедурний стиль
 
-**resourcebundle_count**([ResourceBundle](class.resourcebundle.md)
-`$bundle`): int
+```methodsynopsis
+resourcebundle_count(ResourceBundle $bundle): int
+```
 
 Отримує кількість елементів у пакеті.
 
 ### Список параметрів
 
 `bundle`
-Об'єкт [ResourceBundle](class.resourcebundle.md).
+
+Об'єкт [ResourceBundle](class.resourcebundle.html)
 
 ### Значення, що повертаються
 
@@ -38,19 +47,30 @@ public **ResourceBundle::count**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundle_count()****
+**Приклад #1 Приклад використання **resourcebundlecount()****
 
-` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo resourcebundle_count($r);?> `
+```php
+<?php
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo resourcebundle_count($r);
+?>
+```
 
 **Приклад #2 Приклад в об'єктно-орієнтованому стилі**
 
-` <?php$r = new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r->count();?> `
+```php
+<?php
+$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
+echo $r->count();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 42
+```
 
 ### Дивіться також
 
-- [resourcebundle_get()](resourcebundle.get.md) - Отримати дані з
-пакету
+-   [resourcebundle\_get()](resourcebundle.get.html) - Отримати дані з пакета

@@ -1,28 +1,33 @@
-- [« Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.md)
-- [Imagick::getImageColormapColor »](imagick.getimagecolormapcolor.md)
+Повертає відсічну маску зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає відсічну маску зображення
+-   [« Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.html)
+    
+-   [Imagick::getImageColormapColor »](imagick.getimagecolormapcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає відсічну маску зображення
+    
 
 # Imagick::getImageClipMask
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
 Imagick::getImageClipMask — Повертає відсічну маску зображення
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::getImageClipMask**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::getImageClipMask(): Imagick
+```
 
-Повертає відсічну маску зображення. Відсічна маска - об'єкт
-Imagick, що містить відсічну маску. Цей метод доступний, якщо Imagick
-був скомпільований з версією ImageMagick 6.3.6 або старшим.
+Повертає відсічну маску зображення. Відсічна маска - об'єкт Imagick, що містить відсічні маски. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.6 або старшим.
 
 ### Список параметрів
 

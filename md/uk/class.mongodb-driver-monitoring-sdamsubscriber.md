@@ -1,85 +1,68 @@
-- [« MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged »](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
+Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Інтерфейс MongoDB\Driver\Monitoring\SDAMSubscriber
+-   [« MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged »](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+    
+-   Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
+    
 
-# Інтерфейс MongoDB\Driver\Monitoring\SDAMSubscriber
+# Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
 ## Вступ
 
-Класи можуть реалізувати цей інтерфейс для реєстрації передплатника
-подій, який отримує сповіщення про різні події SDAM.
-Додаткову інформацію дивіться у посібнику з [» Виявлення та
-моніторингу серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
-і [» Моніторингу SDAM](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring-monitoring.rst).
+Класи можуть реалізувати цей інтерфейс для реєстрації передплатника подій, який отримує повідомлення про різні події SDAM. Додаткову інформацію дивіться у посібнику з [» Обнаружению и мониторингу серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst) і [» Мониторингу SDAM](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring-monitoring.rst)
 
 ## Огляд інтерфейсів
 
-class **MongoDB\Driver\Monitoring\SDAMSubscriber** implements
-[MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
-{
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public
-[serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)([MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
-`$event`): void
+    
+    
+     
+      class MongoDB\Driver\Monitoring\SDAMSubscriber
+     
 
-abstract public
-[serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)([MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-`$event`): void
+     implements 
+       MongoDB\Driver\Monitoring\Subscriber {
+    
 
-abstract public
-[serverHeartbeatFailed](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md)([MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedeventmd)
-`$event`): void
+    /* Методы */
+    
+   abstract public serverChanged(MongoDB\Driver\Monitoring\ServerChangedEvent $event): void
+abstract public serverClosed(MongoDB\Driver\Monitoring\ServerClosedEvent $event): void
+abstract public serverHeartbeatFailed(MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent $event): void
+abstract public serverHeartbeatStarted(MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent $event): void
+abstract public serverHeartbeatSucceeded(MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent $event): void
+abstract public serverOpening(MongoDB\Driver\Monitoring\ServerOpeningEvent $event): void
+abstract public topologyChanged(MongoDB\Driver\Monitoring\TopologyChangedEvent $event): void
+abstract public topologyClosed(MongoDB\Driver\Monitoring\TopologyClosedEvent $event): void
+abstract public topologyOpening(MongoDB\Driver\Monitoring\TopologyOpeningEvent $event): void
 
-abstract public
-[serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.md)([MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.md)
-`$event`): void
+   }
+```
 
-abstract public
-[serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md)([MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsuccee
-`$event`): void
+## список змін
 
-abstract public
-[serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.md)([MongoDB\Driver\Monitoring\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
-`$event`): void
-
-abstract public
-[topologyChanged](mongodb-driver-monitoring-sdamsubscriber.topologychanged.md)([MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)
-`$event`): void
-
-abstract public
-[topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md)([MongoDB\Driver\Monitoring\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)
-`$event`): void
-
-abstract public
-[topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.md)([MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
-`$event`): void
-
-}
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
-— Метод сповіщення про зміну опису сервера
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)
-— Сповіщення про закриття сервера
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md)
-— Метод повідомлення про невдалий heartbeat сервер
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.md)
-— Метод повідомлення про запущений heartbeat сервер
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md)
-— Метод сповіщення про успішний heartbeat сервер
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.md)
-— Метод сповіщення про відкриття сервера
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged](mongodb-driver-monitoring-sdamsubscriber.topologychanged.md)
-— Метод сповіщення про зміну опису топології
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md)
-— Метод сповіщення про закриття топології
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.md)
-— Метод сповіщення про відкриття топології
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html) — Метод сповіщення про зміну опису сервера
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html) — Метод сповіщення про закриття сервера
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatFailed](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html) — Метод повідомлення про невдалий heartbeat сервер
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html) — Метод повідомлення про запущений heartbeat сервер
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html) — Метод сповіщення про успішний heartbeat сервер
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.html) — Метод сповіщення про відкриття сервера
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyChanged](mongodb-driver-monitoring-sdamsubscriber.topologychanged.html) — Метод сповіщення про зміну опису топології
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.html) — Метод сповіщення про закриття топології
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.html) — Метод повідомлення про відкриття топології

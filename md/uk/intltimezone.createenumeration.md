@@ -1,40 +1,41 @@
-- [« IntlTimeZone::createDefault](intltimezone.createdefault.md)
-- [IntlTimeZone::createTimeZone »](intltimezone.createtimezone.md)
+Отримати перерахування з ідентифікаторів часових поясів за вказаною країною або усунення
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- отримати перерахування з ідентифікаторів часових поясів за вказаною
-країні чи зміщенню
+-   [« IntlTimeZone::createDefault](intltimezone.createdefault.html)
+    
+-   [IntlTimeZone::createTimeZone »](intltimezone.createtimezone.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Отримати перерахування з ідентифікаторів часових поясів за вказаною країною або усунення
+    
 
 # IntlTimeZone::createEnumeration
 
-# intltz_create_enumeration
+# intltzcreateenumeration
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::createEnumeration -- intltz_create_enumeration — Отримати
-перерахування з ідентифікаторів часових поясів по зазначеній країні або
-зміщення
+IntlTimeZone::createEnumeration -- intltzcreateenumeration — Отримати перерахування з ідентифікаторів часових поясів за вказаною країною або усунення
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static
-**IntlTimeZone::createEnumeration**([IntlTimeZone](class.intltimezone.md)\|string\|int\|float\|null
-`$countryOrRawOffset` = **`null`**):
-[IntlIterator](class.intliterator.md)\|false
+```methodsynopsis
+public static IntlTimeZone::createEnumeration(IntlTimeZone|string|int|float|null $countryOrRawOffset = null): IntlIterator|false
+```
 
 Процедурний стиль:
 
-**intltz_create_enumeration**([IntlTimeZone](class.intltimezone.md)\|string\|int\|float\|null
-`$countryOrRawOffset` = **`null`**):
-[IntlIterator](class.intliterator.md)\|false
+```methodsynopsis
+intltz_create_enumeration(IntlTimeZone|string|int|float|null $countryOrRawOffset = null): IntlIterator|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

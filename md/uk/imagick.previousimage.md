@@ -1,9 +1,15 @@
-- [« Imagick::previewImages](imagick.previewimages.md)
-- [Imagick::profileImage »](imagick.profileimage.md)
+Переходить до попереднього зображення в об'єкті
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Перехід до попереднього зображення в об'єкті
+-   [« Imagick::previewImages](imagick.previewimages.html)
+    
+-   [Imagick::profileImage »](imagick.profileimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Переходить до попереднього зображення в об'єкті
+    
 
 # Imagick::previousImage
 
@@ -13,10 +19,11 @@ Imagick::previousImage — Перехід до попереднього зобр
 
 ### Опис
 
-public **Imagick::previousImage**(): bool
+```methodsynopsis
+public Imagick::previousImage(): bool
+```
 
-Зв'язує попереднє зображення у списку зображень з об'єктом
-Imagick.
+Зв'язує попереднє зображення у списку зображень із об'єктом Imagick.
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ Imagick.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

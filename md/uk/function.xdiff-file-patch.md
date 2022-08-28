@@ -1,75 +1,92 @@
-- [«xdiff_file_patch_binary](function.xdiff-file-patch-binary.md)
-- [xdiff_file_rabdiff »](function.xdiff-file-rabdiff.md)
+Застосування уніфікованого патчу до файлу
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Застосування уніфікованого патчу до файлу
+-   [« xdiff\_file\_patch\_binary](function.xdiff-file-patch-binary.html)
+    
+-   [xdiff\_file\_rabdiff »](function.xdiff-file-rabdiff.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции xdiff](ref.xdiff.html)
+    
+-   Застосування уніфікованого патчу до файлу
+    
 
-#xdiff_file_patch
+# xdifffilepatch
 
-(PECL xdiff \>= 0.2.0)
+(PECL xdiff >= 0.2.0)
 
-xdiff_file_patch — Застосування уніфікованого патчу до файлу
+xdifffilepatch — Використання уніфікованого патча до файлу
 
 ### Опис
 
-**xdiff_file_patch**(
-string `$file`,
-string `$patch`,
-string `$dest`,
-int `$flags` = DIFF_PATCH_NORMAL
-):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $flags = DIFF_PATCH_NORMAL): mixed
+```
 
-Застосовує до файлу `file` патча `patch` та зберігає результат у файл.
-`patch` має бути уніфікованим патчем, створеним функціями
-[xdiff_file_diff()](function.xdiff-file-diff.md)/[xdiff_string_diff()](function.xdiff-string-diff.md).
-Необов'язковий параметр `flags` визначає режим операції.
+Застосовує до файлу `file` патча `patch` та зберігає результат у файл . `patch` має бути уніфікованим патчем, створеним функціями [xdiff\_file\_diff()](function.xdiff-file-diff.html)[xdiff\_string\_diff()](function.xdiff-string-diff.html). Необов'язковий параметр `flags` задає режим операції.
 
 ### Список параметрів
 
 `file`
+
 Оригінальний файл.
 
 `patch`
-Уніфікований патч. Його можна створити функціями
-[xdiff_string_diff()](function.xdiff-string-diff.md) та
-[xdiff_file_diff()](function.xdiff-file-diff.md) або іншими
-сумісними інструментами.
+
+Уніфікований патч. Його можна створити функціями [xdiff\_string\_diff()](function.xdiff-string-diff.html) і [xdiff\_file\_diff()](function.xdiff-file-diff.html)або іншими сумісними інструментами.
 
 `dest`
+
 Шлях до результуючого файлу.
 
 `flags`
-Можливо **`XDIFF_PATCH_NORMAL`** (режим за замовчуванням, нормальний
-створення патчу) або **`XDIFF_PATCH_REVERSE`** (відкат патчу).
 
-Починаючи з версії 1.5.0 ви можете використовувати побітове АБО для
-підключення прапора **`XDIFF_PATCH_IGNORESPACE`**.
+Може бути **`XDIFF_PATCH_NORMAL`** (режим за умовчанням, нормальне створення патчу) або **`XDIFF_PATCH_REVERSE`** (Відкат патчу).
+
+Починаючи з версії 1.5.0, ви можете використовувати побітове АБО для підключення прапора **`XDIFF_PATCH_IGNORESPACE`**
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо створення патча пройшло успішно, рядок з
-відхиленими даними, якщо ні, і **`false`** у разі внутрішньої
-помилки.
+Повертає **`true`**якщо створення патчу пройшло успішно, рядок з відхиленими даними, якщо ні, і **`false`** у разі внутрішньої помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_file_patch()****
+**Приклад #1 Приклад використання **xdifffilepatch()****
 
 Наступний код використовує уніфікований патч до файлу.
 
-` <?php$old_version = 'my_script-1.0.php';$patch = 'my_script.patch';$errors = xdiff_file_patch($old_version, $patch, 'my_script-1.1.php');if (is_string($error) )) {   echo "Відхилені:
-";   echo $errors;}?> `
+```php
+<?php
+$old_version = 'my_script-1.0.php';
+$patch = 'my_script.patch';
+
+$errors = xdiff_file_patch($old_version, $patch, 'my_script-1.1.php');
+if (is_string($errors)) {
+   echo "Отклонены:\n";
+   echo $errors;
+}
+
+?>
+```
 
 **Приклад #2 Patch reversing example**
 
 Наступний код застосовує відкат патча до файлу.
 
-` <?php$new_version = 'my_script-1.1.php';$patch = 'my_script.patch';$errors = xdiff_file_patch($new_version, $patch, 'my_script-1.0.php', XDIFF_PAT $errors)) {  echo "Відхилено:
-";   echo $errors;}?> `
+```php
+<?php
+$new_version = 'my_script-1.1.php';
+$patch = 'my_script.patch';
+
+$errors = xdiff_file_patch($new_version, $patch, 'my_script-1.0.php', XDIFF_PATCH_REVERSE);
+if (is_string($errors)) {
+   echo "Отклонены:\n";
+   echo $errors;
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [xdiff_file_diff()](function.xdiff-file-diff.md) - Створити
-уніфікований патч із порівняння двох файлів
+-   [xdiff\_file\_diff()](function.xdiff-file-diff.html) - Створити уніфікований патч із порівняння двох файлів

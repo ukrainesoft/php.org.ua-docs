@@ -1,9 +1,15 @@
-- [« SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.md)
-- [SqlStatement::getResult »](mysql-xdevapi-sqlstatement.getresult.md)
+Отримує наступний результат
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
-- Отримує наступний результат
+-   [« SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.html)
+    
+-   [SqlStatement::getResult »](mysql-xdevapi-sqlstatement.getresult.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+    
+-   Отримує наступний результат
+    
 
 # SqlStatement::getNextResult
 
@@ -13,13 +19,13 @@ SqlStatement::getNextResult — Отримує наступний результ
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatement::getNextResult**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\SqlStatement::getNextResult(): mysql_xdevapi\Result
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,7 +35,12 @@ public **mysql_xdevapi\SqlStatement::getNextResult**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatement::getNextResult()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::getNextResult()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

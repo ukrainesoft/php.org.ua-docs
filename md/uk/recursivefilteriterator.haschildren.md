@@ -1,24 +1,29 @@
-- [« RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md)
-- [RecursiveIteratorIterator »](class.recursiveiteratoriterator.md)
+Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
 
-- [PHP Manual](index.md)
-- [RecursiveFilterIterator](class.recursivefilteriterator.md)
-- Перевіряє, чи має поточний елемент внутрішнього ітератора
-дочірні елементи
+-   [« RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.html)
+    
+-   [RecursiveIteratorIterator »](class.recursiveiteratoriterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveFilterIterator](class.recursivefilteriterator.html)
+    
+-   Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
+    
 
 # RecursiveFilterIterator::hasChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveFilterIterator::hasChildren — Перевіряє, чи є у поточного
-елемента внутрішнього ітератора дочірні елементи
+RecursiveFilterIterator::hasChildren — Перевіряє, чи є у поточного елемента внутрішнього ітератора дочірні елементи
 
 ### Опис
 
-public **RecursiveFilterIterator::hasChildren**(): bool
+```methodsynopsis
+public RecursiveFilterIterator::hasChildren(): bool
+```
 
-Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні
-елементів.
+Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи.
 
 ### Список параметрів
 
@@ -26,13 +31,9 @@ public **RecursiveFilterIterator::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо поточний елемент внутрішнього ітератора має дочірні
-елементи, **`false`** інакше.
+**`true`**, якщо поточний елемент внутрішнього ітератора має дочірні елементи, **`false`** інакше.
 
 ### Дивіться також
 
-- [RecursiveFilterIterator::getChildren()](recursivefilteriterator.getchildren.md) -
-Повертає дочірні елементи внутрішнього ітератора як об'єкта
-RecursiveFilterIterator
-- [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) -
-Визначає, чи можна створити ітератор для поточного елемента
+-   [RecursiveFilterIterator::getChildren()](recursivefilteriterator.getchildren.html) - Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
+-   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.html) - Визначає, чи можна створити ітератор для поточного елемента.

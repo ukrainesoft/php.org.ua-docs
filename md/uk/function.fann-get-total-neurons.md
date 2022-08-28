@@ -1,30 +1,36 @@
-- [« fann_get_total_connections](function.fann-get-total-connections.md)
-- [fann_get_train_error_function »](function.fann-get-train-error-function.md)
+Отримує загальну кількість нейронів у всій мережі
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Отримує загальну кількість нейронів у всій мережі
+-   [« fann\_get\_total\_connections](function.fann-get-total-connections.html)
+    
+-   [fann\_get\_train\_error\_function »](function.fann-get-train-error-function.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Отримує загальну кількість нейронів у всій мережі
+    
 
-# fann_get_total_neurons
+# fanngettotalneurons
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_total_neurons — Отримує загальну кількість нейронів у всій мережі
+fanngettotalneurons — Отримує загальну кількість нейронів у всій мережі
 
 ### Опис
 
-**fann_get_total_neurons**(resource `$ann`): int
+```methodsynopsis
+fann_get_total_neurons(resource $ann): int
+```
 
-Отримує загальну кількість нейронів у всій мережі. Число також включає
-нейрони усунення, тому мережа 2-4-2 має 2+4+2 +2 (зміщення) = 10
-нейронів.
+Отримує загальну кількість нейронів у всій мережі. Число також включає нейрони усунення, тому мережа 2-4-2 має 2+4+2 +2 (зміщення) = 10 нейронів.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Загальна кількість нейронів у всій мережі або **`false`** у випадку
-виникнення помилки.
+Загальна кількість нейронів у всій мережі або **`false`** у разі виникнення помилки.

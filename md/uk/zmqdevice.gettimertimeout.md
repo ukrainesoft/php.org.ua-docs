@@ -1,9 +1,15 @@
-- [« ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.md)
-- [ZMQDevice::run »](zmqdevice.run.md)
+Отримати час очікування таймера
 
-- [PHP Manual](index.md)
-- [ZMQDevice](class.zmqdevice.md)
-- Отримати час очікування таймера
+-   [« ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.html)
+    
+-   [ZMQDevice::run »](zmqdevice.run.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQDevice](class.zmqdevice.html)
+    
+-   Отримати час очікування таймера
+    
 
 # ZMQDevice::getTimerTimeout
 
@@ -13,11 +19,11 @@ ZMQDevice::getTimerTimeout — Отримати час очікування та
 
 ### Опис
 
-public **ZMQDevice::getTimerTimeout**():
-[ZMQDevice](class.zmqdevice.md)
+```methodsynopsis
+public ZMQDevice::getTimerTimeout(): ZMQDevice
+```
 
-Повертає значення часу очікування callback-функції таймера. Додано
-у версії модуля 1.1.0.
+Повертає значення часу очікування callback-функції таймера. Додано до версії модуля 1.1.0.
 
 ### Список параметрів
 
@@ -25,4 +31,4 @@ public **ZMQDevice::getTimerTimeout**():
 
 ### Значення, що повертаються
 
-Метод повертає час очікування таймера.
+Метод повертає значення часу очікування таймера.

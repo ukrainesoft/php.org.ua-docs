@@ -1,40 +1,42 @@
-- [« ssh2_forward_accept](function.ssh2-forward-accept.md)
-- [ssh2_methods_negotiated »](function.ssh2-methods-negotiated.md)
+Зв'язує порт на віддаленому сервері та прослуховує з'єднання
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Зв'язує порт на віддаленому сервері та прослуховує з'єднання
+-   [« ssh2\_forward\_accept](function.ssh2-forward-accept.html)
+    
+-   [ssh2\_methods\_negotiated »](function.ssh2-methods-negotiated.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Зв'язує порт на віддаленому сервері та прослуховує з'єднання
+    
 
-# ssh2_forward_listen
+# ssh2forwardlisten
 
-(PECL ssh2 \>= 0.9.0)
+(PECL ssh2> = 0.9.0)
 
-ssh2_forward_listen — Зв'язує порт на віддаленому сервері та прослуховує
-з'єднання
+ssh2forwardlisten — Зв'язує порт на віддаленому сервері та прослуховує з'єднання
 
 ### Опис
 
-**ssh2_forward_listen**(
-resource `$session`,
-int `$port`,
-string `$host` = ?,
-int `$max_connections` = 16
-): resource \ | false
+```methodsynopsis
+ssh2_forward_listen(    resource $session,    int $port,    string $host = ?,    int $max_connections = 16): resource|false
+```
 
 Зв'язує порт на віддаленому сервері та прослуховує з'єднання.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `session`
-Ресурс SSH Session, отриманий через виклик
-[ssh2_connect()](function.ssh2-connect.md).
+
+Ресурс SSH Session, отриманий через виклик [ssh2\_connect()](function.ssh2-connect.html)
 
 `port`
+
 Порт віддаленого сервера.
 
 `host`
@@ -47,5 +49,4 @@ int `$max_connections` = 16
 
 ### Дивіться також
 
-- [ssh2_forward_accept()](function.ssh2-forward-accept.md) -
-Приймає з'єднання, створене слухачем
+-   [ssh2\_forward\_accept()](function.ssh2-forward-accept.html) - приймає з'єднання, створене слухачем

@@ -1,29 +1,38 @@
-- [«trader_natr](function.trader-natr.md)
-- [trader_plus_di »](function.trader-plus-di.md)
+Індикатор Балансового об'єму
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Індикатор Балансового об'єму
+-   [« trader\_natr](function.trader-natr.html)
+    
+-   [trader\_plus\_di »](function.trader-plus-di.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Індикатор Балансового об'єму
+    
 
-# trader_obv
+# traderobv
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_obv - Індикатор Балансового об'єму
+traderobv - Індикатор Балансового об'єму
 
 ### Опис
 
-**trader_obv**(array `$real`, array `$volume`): array
+```methodsynopsis
+trader_obv(array $real, array $volume): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `volume`
+
 Обсяг торгів, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,15 +1,21 @@
-- [«Вступ](intro.phar.md)
-- [Вимоги »](phar.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Phar](book.phar.md)
+-   [« Введение](intro.phar.html)
+    
+-   [Требования »](phar.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](book.phar.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](phar.requirements.md)
-- [Установка](phar.installation.md)
-- [Налаштування під час виконання](phar.configuration.md)
-- [Типи ресурсів](phar.resources.md)
+-   [Требования](phar.requirements.html)
+-   [Установка](phar.installation.html)
+-   [Настройка во время выполнения](phar.configuration.html)
+-   [Типы ресурсов](phar.resources.html)

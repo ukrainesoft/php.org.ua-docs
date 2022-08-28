@@ -1,57 +1,77 @@
-- [«cubrid_col_size](function.cubrid-col-size.md)
-- [cubrid_column_types »](function.cubrid-column-types.md)
+Отримати імена стовпців у результуючому наборі
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримати імена стовпців у результуючому наборі
+-   [« cubrid\_col\_size](function.cubrid-col-size.html)
+    
+-   [cubrid\_column\_types »](function.cubrid-column-types.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Отримати імена стовпців у результуючому наборі
+    
 
-#cubrid_column_names
+# cubridcolumnnames
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_column_names — Отримати імена стовпців у результуючому наборі
+cubridcolumnnames — Отримати імена стовпців у результуючому наборі
 
 ### Опис
 
-**cubrid_column_names**(resource `$req_identifier`): array
+```methodsynopsis
+cubrid_column_names(resource $req_identifier): array
+```
 
-Функція **cubrid_column_names()** використовується для отримання імен
-стовпців у результуючому наборі, заданому в `req_identifier`.
+Функція **cubridcolumnnames()** використовується для отримання імен стовпців у результуючому наборі, заданому в `req_identifier`
 
 ### Список параметрів
 
 `req_identifier`
+
 Ідентифікатор запиту.
 
 ### Значення, що повертаються
 
-Масив рядків, що містять імена стовпців, у разі успішного виконання
-або **`false`** у разі виникнення помилки.
+Масив рядків, що містять імена стовпців, у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_column_names()****
+**Приклад #1 Приклад використання **cubridcolumnnames()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year= '2= 'G'");$column_names = cubrid_column_names($result);$column_types = cubrid_column_types($result);printf("%-30s %-30s %-15s
-", "Column Names", "Column Types", "Column Maxlen");for($i = 0, $size = count($column_names); $i < $size; $i++) {   result, $i);    printf("%-30s %-30s %-15s
-", $column_names[$i], $column_types[$i], $column_len);}cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
+
+$column_names = cubrid_column_names($result);
+$column_types = cubrid_column_types($result);
+
+printf("%-30s %-30s %-15s\n", "Column Names", "Column Types", "Column Maxlen");
+for($i = 0, $size = count($column_names); $i < $size; $i++) {
+    $column_len = cubrid_field_len($result, $i);
+    printf("%-30s %-30s %-15s\n", $column_names[$i], $column_types[$i], $column_len);
+}
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Column Names Column Types Column Maxlen
-host_year integer 11
-event_code integer 11
-athlete_code integer 11
-stadium_code integer 11
-nation_code char 3
-medal char 1
-game_date date 10
+```
+Column Names                   Column Types                   Column Maxlen
+host_year                      integer                        11
+event_code                     integer                        11
+athlete_code                   integer                        11
+stadium_code                   integer                        11
+nation_code                    char                           3
+medal                          char                           1
+game_date                      date                           10
+```
 
 ### Дивіться також
 
-- [cubrid_prepare()](function.cubrid-prepare.md) - Підготовка
-SQL-вираз до виконання
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
-- [cubrid_column_types()](function.cubrid-column-types.md) -
-Отримати типи стовпців у результуючому наборі
+-   [cubrid\_prepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
+-   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubrid\_column\_types()](function.cubrid-column-types.html) - Отримати типи стовпців у результуючому наборі

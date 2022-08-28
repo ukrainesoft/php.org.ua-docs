@@ -1,20 +1,27 @@
-- [« Ds\Deque::jsonSerialize](ds-deque.jsonserialize.md)
-- [Ds\Deque::map »](ds-deque.map.md)
+Повертає останнє значення двосторонньої черги
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає останнє значення двосторонньої черги
+-   [« Ds\\Deque::jsonSerialize](ds-deque.jsonserialize.html)
+    
+-   [Ds\\Deque::map »](ds-deque.map.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає останнє значення двосторонньої черги
+    
 
-# Ds\Deque::last
+# ДсDeque::last
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::last — Повертає останнє значення двосторонньої черги
+ДсDeque::last — Повертає останнє значення двосторонньої черги
 
 ### Опис
 
-public **Ds\Deque::last**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::last(): mixed
+```
 
 Повертає останнє значення двосторонньої черги.
 
@@ -28,16 +35,21 @@ public **Ds\Deque::last**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо двосторонній
-черги порожня.
+Викидає виняток [UnderflowException](class.underflowexception.html)якщо двостороння черга порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::last()****
+**Приклад #1 Приклад використання **ДсDeque::last()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->last());?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+var_dump($deque->last());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(3)
+```

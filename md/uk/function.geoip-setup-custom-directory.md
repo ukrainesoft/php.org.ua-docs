@@ -1,29 +1,34 @@
-- [« geoip_region_name_by_code](function.geoip-region-name-by-code.md)
-- [geoip_time_zone_by_country_and_region »](function.geoip-time-zone-by-country-and-region.md)
+Встановити власну директорію для бази даних GeoIP
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Встановити власну директорію для бази даних GeoIP
+-   [« geoip\_region\_name\_by\_code](function.geoip-region-name-by-code.html)
+    
+-   [geoip\_time\_zone\_by\_country\_and\_region »](function.geoip-time-zone-by-country-and-region.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GeoIP](ref.geoip.html)
+    
+-   Встановити власну директорію для бази даних GeoIP
+    
 
-# geoip_setup_custom_directory
+# geoipsetupcustomdirectory
 
-(PECL geoip \>= 1.1.0)
+(PECL geoip >= 1.1.0)
 
-geoip_setup_custom_directory — Встановити власну директорію
-для бази даних GeoIP
+geoipsetupcustomdirectory — Встановити власну директорію для бази даних GeoIP
 
 ### Опис
 
-**geoip_setup_custom_directory**(string `$path`): void
+```methodsynopsis
+geoip_setup_custom_directory(string $path): void
+```
 
-Функція **geoip_setup_custom_directory()** змінює директорію з
-замовчуванням для бази даних GeoIP. Використання функції еквівалентне
-зміни
-[geoip.custom_directory](geoip.configuration.md#ini.geoip.custom-directory).
+Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.custom\_directory](geoip.configuration.html#ini.geoip.custom-directory)
 
 ### Список параметрів
 
 `path`
+
 Повний шлях до бази даних GeoIP.
 
 ### Значення, що повертаються
@@ -32,12 +37,22 @@ geoip_setup_custom_directory — Встановити власну директ�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_setup_custom_directory()****
+**Приклад #1 Приклад використання **geoipsetupcustomdirectory()****
 
-Змінимо шлях до бази GeoIP.
+Змінимо шлях до бази даних GeoIP.
 
-` <?phpgeoip_setup_custom_directory('/some/other/path');print geoip_db_filename(GEOIP_COUNTRY_EDITION);?> `
+```php
+<?php
+
+geoip_setup_custom_directory('/some/other/path');
+
+print geoip_db_filename(GEOIP_COUNTRY_EDITION);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 /some/other/path/GeoIP.dat
+```

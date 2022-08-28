@@ -1,13 +1,19 @@
-- [« Угруповання](parle.regex.grouping.md)
-- [Приклади використання лексера »](parle.examples.lexer.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
-- Приклади
+-   [« Группировка](parle.regex.grouping.html)
+    
+-   [Примеры использования лексера »](parle.examples.lexer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle](book.parle.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Приклади використання лексера](parle.examples.lexer.md)
-- [Приклад використання парсера](parle.examples.parser.md)
+-   [Примеры использования лексера](parle.examples.lexer.html)
+-   [Пример использования парсера](parle.examples.parser.html)

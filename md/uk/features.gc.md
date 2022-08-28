@@ -1,18 +1,22 @@
-- [« Опції конфігурації](features.commandline.ini.md)
-- [Основи підрахунку посилань »](features.gc.refcounting-basics.md)
+Складання сміття
 
-- [PHP Manual](index.md)
-- [Відмінні риси](features.md)
-- Складання сміття
+-   [« Опции конфигурации](features.commandline.ini.html)
+    
+-   [Основы подсчёта ссылок »](features.gc.refcounting-basics.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Отличительные особенности](features.html)
+    
+-   Складання сміття
+    
 
 # Складання сміття
 
 ## Зміст
 
-- [Основи підрахунку посилань](features.gc.refcounting-basics.md)
-- [Збір циклічних посилань](features.gc.collecting-cycles.md)
-- [Питання продуктивності](features.gc.performance-considerations.md)
+-   [Основы подсчёта ссылок](features.gc.refcounting-basics.html)
+-   [Сбор циклических ссылок](features.gc.collecting-cycles.html)
+-   [Вопросы производительности](features.gc.performance-considerations.html)
 
-У цьому розділі описуються переваги нового механізму збирання сміття
-(також званого Garbage Collection або GC), що є частиною PHP
-5.3.
+У цьому розділі описуються переваги нового механізму складання сміття (також званого Garbage Collection або GC), що є частиною PHP 5.3.

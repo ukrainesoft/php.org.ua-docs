@@ -1,19 +1,27 @@
-- [« Swoole\Http\Client::push](swoole-http-client.push.md)
-- [Swoole\Http\Client::setCookies »](swoole-http-client.setcookies.md)
+Оновлює параметри HTTP-клієнта
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Оновлює параметри HTTP-клієнта
+-   [« Swoole\\Http\\Client::push](swoole-http-client.push.html)
+    
+-   [Swoole\\Http\\Client::setCookies »](swoole-http-client.setcookies.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Client](class.swoole-http-client.html)
+    
+-   Оновлює параметри HTTP-клієнта
+    
 
-# Swoole\Http\Client::set
+# SwooleHttpClient::set
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Client::set — Оновлює параметри HTTP-клієнта
+SwooleHttpClient::set — Оновлює параметри HTTP-клієнта
 
 ### Опис
 
-public **Swoole\Http\Client::set**(array `$settings`): void
+```methodsynopsis
+public Swoole\Http\Client::set(array $settings): void
+```
 
 ### Список параметрів
 

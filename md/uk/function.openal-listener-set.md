@@ -1,40 +1,42 @@
-- [«openal_listener_get](function.openal-listener-get.md)
-- [openal_source_create »](function.openal-source-create.md)
+Встановлення якості прослуховувача
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Встановлення якості прослуховувача
+-   [« openal\_listener\_get](function.openal-listener-get.html)
+    
+-   [openal\_source\_create »](function.openal-source-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenAL](ref.openal.html)
+    
+-   Встановлення якості прослуховувача
+    
 
-#openal_listener_set
+# openallistenerset
 
-(PECL openal = 0.1.0)
+(PECL openal >= 0.1.0)
 
-openal_listener_set — Встановлення якості прослуховувача
+openallistenerset — Встановлення якості прослуховувача
 
 ### Опис
 
-**openal_listener_set**(int `$property`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$setting`): bool
+```methodsynopsis
+openal_listener_set(int $property, mixed $setting): bool
+```
 
 ### Список параметрів
 
 `property`
-Встановлювана властивість, представлена однією з констант:
-**`AL_GAIN`** (float), **`AL_POSITION`** (array(float,float,float)),
-**`AL_VELOCITY`** (array(float,float,float)) та **`AL_ORIENTATION`**
-(array(float,float,float)).
+
+Встановлювана властивість, представлена ​​однією з констант: **`AL_GAIN`** (float), **`AL_POSITION`** (array(float,float,float)), **`AL_VELOCITY`** (array(float,float,float)) та **`AL_ORIENTATION`** (array(float,float,float)).
 
 `setting`
-Значення для установки, або число з плаваючою точкою, або масив
-числами з плаваючими точками.
+
+Значення для установки або число з плаваючою точкою або масив з числами з плаваючими точками.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_listener_get()](function.openal-listener-get.md) -
-Отримати властивість прослуховувача
+-   [openal\_listener\_get()](function.openal-listener-get.html) - Отримати властивість прослуховувача

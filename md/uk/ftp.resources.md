@@ -1,13 +1,16 @@
-- [« Налаштування під час виконання](ftp.configuration.md)
-- [Предвизначені константи »](ftp.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ftp.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](ftp.configuration.html)
+    
+-   [Предопределённые константы »](ftp.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ftp.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-До PHP 8.1.0 модуль використовував один тип ресурсу - ідентифікатор
-з'єднання з FTP-сервером, що повертається функцією
-[ftp_connect()](function.ftp-connect.md) або
-[ftp_ssl_connect()](function.ftp-ssl-connect.md).
+До PHP 8.1.0 модуль використовував один тип ресурсу - ідентифікатор з'єднання з FTP-сервером, що повертається функцією [ftp\_connect()](function.ftp-connect.html) або [ftp\_ssl\_connect()](function.ftp-ssl-connect.html)

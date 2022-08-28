@@ -1,20 +1,23 @@
-- [« FANNConnection::setWeight](fannconnection.setweight.md)
-- [Вступ »](intro.igbinary.md)
+Igbinary
 
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- Igbinary
+-   [« FANNConnection::setWeight](fannconnection.setweight.html)
+    
+-   [Введение »](intro.igbinary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие базовые модули](refs.basic.other.html)
+    
+-   Igbinary
+    
 
 # Igbinary
 
-- [Вступ](intro.igbinary.md)
-- [Встановлення та налаштування](igbinary.setup.md)
-- [Вимоги](igbinary.requirements.md)
-- [Установка](igbinary.installation.md)
-- [Налаштування під час виконання](igbinary.configuration.md)
-- [Функції Igbinary](ref.igbinary.md)
-- [igbinary_serialize](function.igbinary-serialize.md) — Створює
-компактне, двійкове уявлення значення, що зберігається
-- [igbinary_unserialize](function.igbinary-unserialize.md) -
-Створює значення PHP із збереженого уявлення функцією
-igbinary_serialize
+-   [Введение](intro.igbinary.html)
+-   [Установка и настройка](igbinary.setup.html)
+    -   [Требования](igbinary.requirements.html)
+    -   [Установка](igbinary.installation.html)
+    -   [Настройка во время выполнения](igbinary.configuration.html)
+-   [Функции Igbinary](ref.igbinary.html)
+    -   [igbinary\_serialize](function.igbinary-serialize.html) — Створює компактне, двійкове уявлення, що зберігається.
+    -   [igbinary\_unserialize](function.igbinary-unserialize.html) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize

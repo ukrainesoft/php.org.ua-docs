@@ -1,29 +1,36 @@
-- [« SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md)
-- [SolrQuery::setMltBoost »](solrquery.setmltboost.md)
+Включає або вимикає moreLikeThis
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Включає або вимикає moreLikeThis
+-   [« SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.html)
+    
+-   [SolrQuery::setMltBoost »](solrquery.setmltboost.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Включає або вимикає moreLikeThis
+    
 
 # SolrQuery::setMlt
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::setMlt — Включає або вимикає moreLikeThis
 
 ### Опис
 
-public **SolrQuery::setMlt**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setMlt(bool $flag): SolrQuery
+```
 
-Включає або відключає moreLikeThis
+Включає або вимикає moreLikeThis
 
 ### Список параметрів
 
 `flag`
+
 **`true`** включає і **`false`** вимикає.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

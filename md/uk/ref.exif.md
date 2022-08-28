@@ -1,21 +1,22 @@
-- [«Зумовлені константи](exif.constants.md)
-- [exif_imagetype »](function.exif-imagetype.md)
+Exif Функції
 
-- [PHP Manual](index.md)
-- [Exif](book.exif.md)
-- Exif Функції
+-   [« Предопределённые константы](exif.constants.html)
+    
+-   [exif\_imagetype »](function.exif-imagetype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exif](book.exif.html)
+    
+-   Exif Функції
+    
 
 # Exif Функції
 
 ## Зміст
 
-- [exif_imagetype](function.exif-imagetype.md) — Determine the type
-of an image
-- [exif_read_data](function.exif-read-data.md) - Читає заголовки
-EXIF із файлів зображень
-- [exif_tagname](function.exif-tagname.md) - Отримання імені
-заголовка за його індексом
-- [exif_thumbnail](function.exif-thumbnail.md) — Отримує вбудоване
-попередній перегляд
-- [read_exif_data](function.read-exif-data.md) - Псевдонім
-exif_read_data
+-   [exif\_imagetype](function.exif-imagetype.html) — Determine the type of an image
+-   [exif\_read\_data](function.exif-read-data.html) — Читає заголовки EXIF ​​із файлів зображень
+-   [exif\_tagname](function.exif-tagname.html) — Отримання імені заголовка за його індексом
+-   [exif\_thumbnail](function.exif-thumbnail.html) — Отримує вбудоване прев'ю зображення
+-   [read\_exif\_data](function.read-exif-data.html) - Псевдонім exifreaddata

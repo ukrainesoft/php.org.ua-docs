@@ -1,20 +1,27 @@
-- [« UI\Draw\Matrix::multiply](ui-draw-matrix.multiply.md)
-- [UI\Draw\Matrix::scale »](ui-draw-matrix.scale.md)
+Перевернути матрицю
 
-- [PHP Manual](index.md)
-- [UI\Draw\Matrix](class.ui-draw-matrix.md)
-- Перевернути матрицю
+-   [« UI\\Draw\\Matrix::multiply](ui-draw-matrix.multiply.html)
+    
+-   [UI\\Draw\\Matrix::scale »](ui-draw-matrix.scale.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Matrix](class.ui-draw-matrix.html)
+    
+-   Перевернути матрицю
+    
 
-# UI\Draw\Matrix::rotate
+# ОЙDrawMatrix::rotate
 
 (UI 0.9.9)
 
-UI\Draw\Matrix::rotate — Перевернути матрицю
+ОЙDrawMatrix::rotate — Перевернути матрицю
 
 ### Опис
 
-public **UI\Draw\Matrix::rotate**([UI\Point](class.ui-point.md)
-`$point`, float `$amount`)
+```methodsynopsis
+public UI\Draw\Matrix::rotate(UI\Point $point, float $amount)
+```
 
 Переверне цю матрицю
 

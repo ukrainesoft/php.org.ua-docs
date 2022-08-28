@@ -1,34 +1,28 @@
-- [«Зумовлені константи](ctype.constants.md)
-- [ctype_alnum »](function.ctype-alnum.md)
+Опції Ctype
 
-- [PHP Manual](index.md)
-- [Ctype](book.ctype.md)
-- Функції Ctype
+-   [« Предопределённые константы](ctype.constants.html)
+    
+-   [ctype\_alnum »](function.ctype-alnum.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ctype](book.ctype.html)
+    
+-   Опції Ctype
+    
 
-# Функції Ctype
+# Опції Ctype
 
 ## Зміст
 
-- [ctype_alnum](function.ctype-alnum.md) — Перевірка наявності
-буквено-цифрових символів
-- [ctype_alpha](function.ctype-alpha.md) — Перевірка наявності
-літерних символів
-- [ctype_cntrl](function.ctype-cntrl.md) — Перевірка наявності
-керуючих символів
-- [ctype_digit](function.ctype-digit.md) — Перевіряє наявність
-цифрових символів у рядку
-- [ctype_graph](function.ctype-graph.md) — Перевіряє наявність будь-яких
-друкованих символів, крім пробілу
-- [ctype_lower](function.ctype-lower.md) — Перевірка наявності
-символів у нижньому регістрі
-- [ctype_print](function.ctype-print.md) — Перевірка наявності
-друкованих символів
-- [ctype_punct](function.ctype-punct.md) — Перевірка наявності
-друкованих символів, які не містять пробільні або
-літерно-цифрові символи
-- [ctype_space](function.ctype-space.md) — Перевірка наявності
-пробільних символів
-- [ctype_upper](function.ctype-upper.md) — Перевірка наявності
-символів у верхньому регістрі
-- [ctype_xdigit](function.ctype-xdigit.md) — Перевіряє наявність
-шістнадцяткових цифр
+-   [ctype\_alnum](function.ctype-alnum.html) — Перевіряє наявність літерно-цифрових символів
+-   [ctype\_alpha](function.ctype-alpha.html) — Перевіряє наявність літерних символів
+-   [ctype\_cntrl](function.ctype-cntrl.html) — Перевіряє наявність символів, що управляють.
+-   [ctype\_digit](function.ctype-digit.html) — Перевіряє наявність цифрових символів у рядку
+-   [ctype\_graph](function.ctype-graph.html) — Перевіряє наявність будь-яких друкованих символів, окрім пропуску
+-   [ctype\_lower](function.ctype-lower.html) — Перевіряє наявність символів у нижньому регістрі
+-   [ctype\_print](function.ctype-print.html) — Перевіряє наявність друкованих символів
+-   [ctype\_punct](function.ctype-punct.html) — Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
+-   [ctype\_space](function.ctype-space.html) — Перевіряє наявність пробілових символів
+-   [ctype\_upper](function.ctype-upper.html) — Перевіряє наявність символів у верхньому регістрі
+-   [ctype\_xdigit](function.ctype-xdigit.html) — Перевіряє наявність шістнадцяткових цифр

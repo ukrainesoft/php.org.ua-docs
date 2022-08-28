@@ -1,86 +1,94 @@
-- [« Memcache::setCompressThreshold](memcache.setcompressthreshold.md)
-- [Функції Memcache »](ref.memcache.md)
+Змінює параметри сервера та статус під час виконання
 
-- [PHP Manual](index.md)
-- [Memcache](class.memcache.md)
-- Змінює параметри сервера та статус під час виконання
+-   [« Memcache::setCompressThreshold](memcache.setcompressthreshold.html)
+    
+-   [Функции Memcache »](ref.memcache.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcache](class.memcache.html)
+    
+-   Змінює параметри сервера та статус під час виконання
+    
 
 # Memcache::setServerParams
 
-(PECL memcache \>= 2.1.0)
+(PECL memcache >= 2.1.0)
 
-Memcache::setServerParams — Змінює параметри сервера та статус під час
-виконання
+Memcache::setServerParams — Змінює параметри сервера та статус під час виконання
 
 ### Опис
 
-**Memcache::setServerParams**(
-string `$host`,
-int `$port` = 11211,
-int `$timeout` = ?,
-int `$retry_interval` = **`false`**,
-bool `$status` = ?,
-[callable](language.types.callable.md) `$failure_callback` = ?
-): bool
+```methodsynopsis
+Memcache::setServerParams(    string $host,    int $port = 11211,    int $timeout = ?,    int $retry_interval = false,    bool $status = ?,    callable $failure_callback = ?): bool
+```
 
-**Memcache::setServerParams()** змінює параметри сервера під час
-виконання. Ви також можете використати функцію
-**memcache_set_server_params()**.
+**Memcache::setServerParams()** змінює параметри сервера під час виконання. Ви також можете використати функцію **memcachesetserverparams()**
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ця функція була додана до Memcache версії 2.1.0.
 
 ### Список параметрів
 
 `host`
+
 Вказує на хост, на якому memcached прослуховує з'єднання.
 
 `port`
+
 Вказує на порт, на якому memcached прослуховує з'єднання.
 
 `timeout`
-Значення в секундах, яке використовуватиметься для підключення до
-домену. Подумайте двічі, перш ніж змінювати значення за замовчуванням.
-секунду - ви можете втратити всі переваги кешування, якщо ваше
-з'єднання надто повільне.
+
+Значення в секундах, яке використовуватиметься для підключення до домену. Подумайте двічі, перш ніж змінювати значення за замовчуванням в 1 секунду - ви можете втратити всі переваги кешування, якщо з'єднання занадто повільне.
 
 `retry_interval`
-Керує частотою перевірки доступності сервера, що відмовив,
-15 секунд. Якщо встановити значення "-1", то спроб перевірити
-доступність сервера не буде. Ні цей параметр, ні
-параметр `persistent` не впливає, якщо модуль
-завантажений динамічно через функцію [dl()](function.dl.md).
+
+Керує частотою перевірки доступності сервера, що відмовив, за замовчуванням 15 секунд. Якщо встановити значення "-1", то спроб перевірити доступність сервера робитися не буде. Ні цей параметр, ні параметр `persistent` не впливають, якщо модуль завантажений динамічно через функцію [dl()](function.dl.html)
 
 `status`
-Визначає, чи сервер позначений прапором як "онлайн". Встановлення
-цього параметра в **`false`** та `retry_interval` у -1 дозволить зберегти
-сервер у пулі, але не використовувати його в алгоритмі розподілу ключів.
-Запит на цей сервер або запустить механізм забезпечення
-відмови стійкості, або відразу ж перерветься з помилкою, залежно від
-налаштування `memcache.allow_failover`. За умовчанням одно **`true`**, що
-означає, що сервер активний та готовий приймати запити.
+
+Визначає, чи сервер позначений прапором як "онлайн". Встановлення цього параметра **`false`** і `retry_interval` -1 дозволить зберегти сервер в пулі, але не використовувати його в алгоритмі розподілу ключів. Запит до цього сервера або запустить механізм забезпечення стійкості до відмов, або відразу ж перерветься з помилкою, залежно від налаштування `memcache.allow_failover`. За замовчуванням одно **`true`**що означає, що сервер активний і готовий приймати запити.
 
 `failure_callback`
-Дозволяє користувачеві задати callback-функцію, яка запуститься в
-у разі будь-якої помилки. Ця функція буде викликана раніше, ніж буде
-запущено механізм забезпечення відмовостійкості. Функція приймає два
-параметра - ім'я хоста і порт сервера, що відмовив.
+
+Дозволяє користувачеві задати callback-функцію, яка запуститься у разі будь-якої помилки. Ця функція буде викликана раніше, ніж буде запущено механізм забезпечення стійкості до відмови. Функція приймає два параметри - ім'я хоста і порт сервера, що відмовив.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcache::setServerParams()****
 
-`<?phpfunction _callback_memcache_failure($host, $port) {    print "невдале підключення memcache - '$host:$port'";}/* об'єктно-орієнтоване API */  режим$memcache->addServer('memcache_host', 11211, false, 1, 1, -1, false); '_callback_memcache_failure');/* процедурное API */$memcache_obj = memcache_connect('memcache_host', 11211);memcache_set_server_params($memcache_obj, 'memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');?> `
+```php
+<?php
+
+function _callback_memcache_failure($host, $port) {
+    print "неудачное подключение memcache - '$host:$port'";
+}
+
+/* объектно-ориентированное API */
+
+$memcache = new Memcache;
+
+// Добавить сервер в офлайн-режим
+$memcache->addServer('memcache_host', 11211, false, 1, 1, -1, false);
+
+// Перевести сервер обратно в онлайн
+$memcache->setServerParams('memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');
+
+/* процедурное API */
+
+$memcache_obj = memcache_connect('memcache_host', 11211);
+memcache_set_server_params($memcache_obj, 'memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');
+
+?>
+```
 
 ### Дивіться також
 
-- [Memcache::addServer()](memcache.addserver.md) - Додає сервер
-memcached в пул з'єднань
-- [Memcache::getServerStatus()](memcache.getserverstatus.md) -
-Повертає статус сервера
+-   [Memcache::addServer()](memcache.addserver.html) - Додає сервер memcached в пул з'єднань
+-   [Memcache::getServerStatus()](memcache.getserverstatus.html) - Повертає статус сервера

@@ -1,31 +1,31 @@
-- [« MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md)
-- [MongoDB\BSON\ObjectId::jsonSerialize »](mongodb-bson-objectid.jsonserialize.md)
+Повертає позначку часу ObjectId
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
-- Повертає мітку часу ObjectId
+-   [« MongoDB\\BSON\\ObjectId::\_\_construct](mongodb-bson-objectid.construct.html)
+    
+-   [MongoDB\\BSON\\ObjectId::jsonSerialize »](mongodb-bson-objectid.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+    
+-   Повертає позначку часу ObjectId
+    
 
-# MongoDB\BSON\ObjectId::getTimestamp
+# MongoDBBSONObjectId::getTimestamp
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\ObjectId::getTimestamp — Повертає позначку часу ObjectId
+MongoDBBSONObjectId::getTimestamp — Повертає позначку часу ObjectId
 
 ### Опис
 
-final public **MongoDB\BSON\ObjectId::getTimestamp**(): int
+```methodsynopsis
+final public MongoDB\BSON\ObjectId::getTimestamp(): int
+```
 
-Компонент мітки часу в ObjectId - це його найбільш значущі 32 біти,
-які позначають кількість секунд початку епохи Unix. Це значення
-читається, як 32-розрядне ціле число без знаку з порядком байтів у
-старшому порядку.
+Компонент мітки часу в ObjectId – це його найбільш значущі 32 біти, які позначають кількість секунд від початку епохи Unix. Це значення читається як 32-розрядне ціле число без знака з порядком байтів у старшому порядку.
 
-> **Примітка**: Оскільки цілий тип PHP є знаковим,
-> деякі значення, набуті за допомогою цього методу, можуть
-> перетворитися на негативні цілі числа на 32-бітових платформах. Для
-> отримання рядкового подання беззнакового цілого можна
-> скористатися шаблоном форматування %u функції
-> [sprintf()](function.sprintf.md).
+> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.html)
 
 ### Список параметрів
 
@@ -37,22 +37,30 @@ final public **MongoDB\BSON\ObjectId::getTimestamp**(): int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\ObjectId::getTimestamp()****
+**Приклад #1 Приклад використання **MongoDBBSONObjectId::getTimestamp()****
 
-` <?phpvar_dump((new MongoDB\BSON\ObjectId())->getTimestamp());var_dump((new MongoDB\BSON\ObjectId('0000002a00000000000000000'))->getTimestamp()
+```php
+<?php
+
+var_dump((new MongoDB\BSON\ObjectId())->getTimestamp());
+
+var_dump((new MongoDB\BSON\ObjectId('0000002a0000000000000000'))->getTimestamp());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 integer(1484854719)
 integer(42)
+```
 
 ### Дивіться також
 
-- [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
-- [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типы BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

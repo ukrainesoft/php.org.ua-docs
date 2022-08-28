@@ -1,24 +1,31 @@
-- [« PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.md)
-- [PDOStatement::nextRowset »](pdostatement.nextrowset.md)
+Отримує ітератор набору результатів
 
-- [PHP Manual](index.md)
-- [PDOStatement](class.pdostatement.md)
-- отримує ітератор набору результатів
+-   [« PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.html)
+    
+-   [PDOStatement::nextRowset »](pdostatement.nextrowset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDOStatement](class.pdostatement.html)
+    
+-   Отримує ітератор набору результатів
+    
 
 # PDOStatement::getIterator
 
 (PHP 8)
 
-PDOStatement::getIterator — Отримує ітератор набору результатів
+PDOStatement::getIterator - Отримує ітератор набору результатів
 
 ### Опис
 
-public **PDOStatement::getIterator**(): [Iterator](class.iterator.md)
+```methodsynopsis
+public PDOStatement::getIterator(): Iterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

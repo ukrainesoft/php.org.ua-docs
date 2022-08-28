@@ -1,54 +1,77 @@
-- [«oci_set_prefetch](function.oci-set-prefetch.md)
-- [oci_unregister_taf_callback »](function.oci-unregister-taf-callback.md)
+Повертає тип виразу
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає тип виразу
+-   [« oci\_set\_prefetch](function.oci-set-prefetch.html)
+    
+-   [oci\_unregister\_taf\_callback »](function.oci-unregister-taf-callback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Повертає тип виразу
+    
 
-#oci_statement_type
+# ocistatementtype
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_statement_type — Повертає тип виразу
+ocistatementtype — Повертає тип виразу
 
 ### Опис
 
-**oci_statement_type**(resource `$statement`): string\|false
+```methodsynopsis
+oci_statement_type(resource $statement): string|false
+```
 
-Повертає вираз, що відповідає одному з типів параметра
-`statement` OCI8.
+Повертає вираз, що відповідає одному з типів параметра `statement` OCI8.
 
 ### Список параметрів
 
 `statement`
-Допустимий ідентифікатор оператора OCI8, який повертається
-[oci_parse()](function.oci-parse.md).
+
+Допустимий ідентифікатор оператора OCI8, який повертається [oci\_parse()](function.oci-parse.html)
 
 ### Значення, що повертаються
 
-Повертає тип параметра `statement`, який може бути одним з
-нижченаведених значень:
-
-| Значення, що повертається | Примітка                             |
-| ------------------------- | ------------------------------------ |
-| ALTER                     |                                      |                                      
-| BEGIN                     |                                      |
-| CALL                      | Подано в PHP 5.2.1 (PECL OCI8 1.2.3) |
-| CREATE                    |                                      |
-| DECLARE                   |                                      |
-| DELETE                    |                                      |
-| DROP                      |                                      |
-| INSERT                    |                                      |
-| SELECT                    |                                      |
-| UPDATE                    |                                      |
-| UNKNOWN                   |                                      |
+Повертає тип параметра `statement`, який може бути одним з нижченаведених значень:
 
 **Тип оператора**
+
+| Возвращаемое значение | Примечание |
+| --- | --- |
+| `ALTER` |  |
+| `BEGIN` |  |
+| `CALL` | Подано в PHP 5.2.1 (PECL OCI8 1.2.3) |
+| `CREATE` |  |
+| `DECLARE` |  |
+| `DELETE` |  |
+| `DROP` |  |
+| `INSERT` |  |
+| `SELECT` |  |
+| `UPDATE` |  |
+| `UNKNOWN` |  |
 
 Повертає **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_statement_type()****
+**Приклад #1 Приклад використання **ocistatementtype()****
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = oci_parse($conn, 'DELETE FROM departments WHERE department_id = 130;';$; ) == "DELETE") {   trigger_error('Ви не маєте прав для удалення записів з таблиці', E_USER_ERROR);}else {    oci_execu; // видалити запис oci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+
+$stid = oci_parse($conn, 'DELETE FROM departments WHERE department_id = 130;');
+if (oci_statement_type($stid) == "DELETE") {
+    trigger_error('Вы не имеете прав для удаления записей из таблицы', E_USER_ERROR);
+}
+else {
+    oci_execute($stid);  // удалить запись
+}
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```

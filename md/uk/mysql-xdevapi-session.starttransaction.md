@@ -1,19 +1,27 @@
-- [« Session::sql](mysql-xdevapi-session.sql.md)
-- [mysql_xdevapi\SqlStatement »](class.mysql-xdevapi-sqlstatement.md)
+Починає транзакцію
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- починає транзакцію
+-   [« Session::sql](mysql-xdevapi-session.sql.html)
+    
+-   [mysql\_xdevapi\\SqlStatement »](class.mysql-xdevapi-sqlstatement.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Починає транзакцію
+    
 
 # Session::startTransaction
 
 (No version information available, might only be in Git)
 
-Session::startTransaction — Починає транзакцію
+Session::startTransaction - Починає транзакцію
 
 ### Опис
 
-public **mysql_xdevapi\Session::startTransaction**(): void
+```methodsynopsis
+public mysql_xdevapi\Session::startTransaction(): void
+```
 
 Починає нову транзакцію.
 
@@ -27,7 +35,21 @@ public **mysql_xdevapi\Session::startTransaction**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::startTransaction()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::startTransaction()****
 
-` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("friends");$session-> startTransaction();$collection->add( '{"test1":1, "test2":2}' )->execute();$savepoint = $session->setSavepoint();$collection->add( ' {"test3":3, "test4":4}' )->execute();$session->releaseSavepoint($savepoint);$session->rollback();?> `
+```php
+<?php
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("friends");
+
+$session->startTransaction();
+$collection->add( '{"test1":1, "test2":2}' )->execute();
+
+$savepoint = $session->setSavepoint();
+
+$collection->add( '{"test3":3, "test4":4}' )->execute();
+
+$session->releaseSavepoint($savepoint);
+$session->rollback();
+?>
+```

@@ -1,29 +1,36 @@
-- [«trader_errno](function.trader-errno.md)
-- [trader_floor »](function.trader-floor.md)
+Арифметичний вектор зведення в ступінь
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Арифметичний вектор зведення у ступінь
+-   [« trader\_errno](function.trader-errno.html)
+    
+-   [trader\_floor »](function.trader-floor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Арифметичний вектор зведення в ступінь
+    
 
-# trader_exp
+# traderexp
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_exp — Арифметичний вектор зведення у ступінь
+traderexp — Арифметичний вектор зведення у ступінь
 
 ### Опис
 
-**trader_exp**(array `$real`): array
+```methodsynopsis
+trader_exp(array $real): array
+```
 
-Обчислює **`e`**, зведену в ступінь кожного значення `real`.
-Повертає масив із розрахованими даними.
+Обчислює **`e`**, зведену в ступінь кожного значення `real`. Повертає масив із розрахованими даними.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

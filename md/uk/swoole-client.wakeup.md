@@ -1,20 +1,27 @@
-- [« Swoole\Client::sleep](swoole-client.sleep.md)
-- [Swoole\Connection\Iterator »](class.swoole-connection-iterator.md)
+Додає TCP-клієнт назад у цикл системних подій
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Додає TCP-клієнт назад у цикл системних подій
+-   [« Swoole\\Client::sleep](swoole-client.sleep.html)
+    
+-   [Swoole\\Connection\\Iterator »](class.swoole-connection-iterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Client](class.swoole-client.html)
+    
+-   Додає TCP-клієнт назад у цикл системних подій
+    
 
-# Swoole\Client::wakeup
+# SwooleClient::wakeup
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Client::wakeup — Додає TCP-клієнт назад у цикл системних
-подій
+SwooleClient::wakeup — Додає TCP-клієнт назад у цикл системних подій
 
 ### Опис
 
-public **Swoole\Client::wakeup**(): void
+```methodsynopsis
+public Swoole\Client::wakeup(): void
+```
 
 ### Список параметрів
 

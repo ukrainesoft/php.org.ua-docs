@@ -1,60 +1,74 @@
-- [« Функції iconv](ref.iconv.md)
-- [iconv_mime_decode_headers »](function.iconv-mime-decode-headers.md)
+Отримує поточне значення параметрів перетворення кодувань
 
-- [PHP Manual](index.md)
-- [Функції iconv](ref.iconv.md)
-- Отримує поточне значення параметрів перетворення кодувань
+-   [« Функции iconv](ref.iconv.html)
+    
+-   [iconv\_mime\_decode\_headers »](function.iconv-mime-decode-headers.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции iconv](ref.iconv.html)
+    
+-   Отримує поточне значення параметрів перетворення кодувань
+    
 
-# iconv_get_encoding
+# iconvgetencoding
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-iconv_get_encoding — Отримує поточне значення налаштувань перетворення
-кодувань
+iconvgetencoding — Отримує поточне значення параметрів перетворення кодувань
 
 ### Опис
 
-**iconv_get_encoding**(string `$type` = "all"): array\|string\|false
+```methodsynopsis
+iconv_get_encoding(string $type = "all"): array|string|false
+```
 
 Повертає внутрішні параметри конфігурації модуля iconv.
 
 ### Список параметрів
 
 `type`
-Можливі значення необов'язкового параметра `type`:
 
-- all
-- input_encoding
-- output_encoding
-- internal_encoding
+Можливі значення необов'язкового параметра `type`
+
+-   all
+-   inputencoding
+-   outputencoding
+-   internalencoding
 
 ### Значення, що повертаються
 
-Повертає поточне значення зазначеної змінної та **`false`** у разі
-виникнення помилки.
+Повертає поточне значення зазначеної змінної та **`false`** у разі виникнення помилки.
 
-Якщо `type` не вказано або дорівнює "all", **iconv_get_encoding()** поверне
-масив із значеннями всіх змінних.
+Якщо `type` не вказано або дорівнює "all", **iconvgetencoding()** поверне масив зі значеннями всіх змінних.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **iconv_get_encoding()****
+**Приклад #1 Приклад використання **iconvgetencoding()****
 
-`<pre><?phpiconv_set_encoding("internal_encoding", "UTF-8");iconv_set_encoding("input_encoding", "WINDOWS-1251");iconv_set_encoding("output_encoding", "KOI8'U all'));?></pre>`
+```php
+<pre>
+<?php
+iconv_set_encoding("internal_encoding", "UTF-8");
+iconv_set_encoding("input_encoding", "WINDOWS-1251");
+iconv_set_encoding("output_encoding", "KOI8-U");
+var_dump(iconv_get_encoding('all'));
+?>
+</pre>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[input_encoding] => WINDOWS-1251
-[output_encoding] => KOI8-U
-[internal_encoding] => UTF-8
+    [input_encoding] => WINDOWS-1251
+    [output_encoding] => KOI8-U
+    [internal_encoding] => UTF-8
 )
+```
 
 ### Дивіться також
 
-- [iconv_set_encoding()](function.iconv-set-encoding.md) -
-Встановлює поточні налаштування для перетворення символів
-кодування
-- [ob_iconv_handler()](function.ob-iconv-handler.md) - Перетворює
-символи з поточного кодування в кодування вихідного буфера
+-   [iconv\_set\_encoding()](function.iconv-set-encoding.html) - Встановлює поточні налаштування для перетворення символів кодування
+-   [ob\_iconv\_handler()](function.ob-iconv-handler.html) - Перетворює символи з поточного кодування на кодування вихідного буфера

@@ -1,10 +1,16 @@
-- [« Вимоги](apache.requirements.md)
-- [Налаштування під час виконання »](apache.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](apache.setup.md)
-- Установка
+-   [« Требования](apache.requirements.html)
+    
+-   [Настройка во время выполнения »](apache.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](apache.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Установка PHP як модуля Apache описана в [відповідній розділі](install.md).
+Установка PHP як модуля Apache описана в [соответствующей главе](install.html)

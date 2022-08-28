@@ -1,49 +1,77 @@
-- [«ftp_append](function.ftp-append.md)
-- [ftp_chdir »](function.ftp-chdir.md)
+Переходить до батьківської директорії
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Переходить до батьківської директорії
+-   [« ftp\_append](function.ftp-append.html)
+    
+-   [ftp\_chdir »](function.ftp-chdir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Переходить до батьківської директорії
+    
 
-#ftp_cdup
+# ftpcdup
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_cdup — Переходить до батьківської директорії
+ftpcdup - Переходить до батьківської директорії
 
 ### Опис
 
-**ftp_cdup**([FTP\Connection](class.ftp-connection.md) `$ftp`): bool
+```methodsynopsis
+ftp_cdup(FTP\Connection $ftp): bool
+```
 
-Переходить до батьківської директорії.
+Переходить у батьківську директорію.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ftp_cdup()****
+**Приклад #1 Приклад використання функції **ftpcdup()****
 
-`<?php// установка з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і паролем$login_result = ftp_login($ftp,? , 'html');echo ftp_pwd($ftp); // /html// повернення в батьківську директоріюif (ftp_cdup($ftp)) {  echo "команда cdup виконана успішно
-";} else {  echo "команда cdup завершилася невдачею
-";}echo ftp_pwd($ftp); // /ftp_close($ftp);?> `
+```php
+<?php
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// изменение текущей директории на html
+ftp_chdir($ftp, 'html');
+
+echo ftp_pwd($ftp); // /html
+
+// возврат в родительскую директорию
+if (ftp_cdup($ftp)) {
+  echo "команда cdup выполнена успешно\n";
+} else {
+  echo "команда cdup завершилась неудачей\n";
+}
+
+echo ftp_pwd($ftp); // /
+
+ftp_close($ftp);
+?>
+```
 
 ### Дивіться також
 
-- [ftp_chdir()](function.ftp-chdir.md) - Змінює поточну директорію
-на FTP-сервері
-- [ftp_pwd()](function.ftp-pwd.md) - Повертає поточне ім'я
-директорії
+-   [ftp\_chdir()](function.ftp-chdir.html) - Змінює поточну директорію на FTP-сервері
+-   [ftp\_pwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії

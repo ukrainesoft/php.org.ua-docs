@@ -1,45 +1,51 @@
-- [« Функції Zip](ref.zip.md)
-- [zip_entry_close »](function.zip-entry-close.md)
+Закриває дескриптор ZIP-архіву
 
-- [PHP Manual](index.md)
-- [Функції Zip](ref.zip.md)
-- Закриває дескриптор ZIP-архіву
+-   [« Функции Zip](ref.zip.html)
+    
+-   [zip\_entry\_close »](function.zip-entry-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zip](ref.zip.html)
+    
+-   Закриває дескриптор ZIP-архіву
+    
 
-#zip_close
+# zipclose
 
-(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
+(PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-zip_close — Закриває дескриптор ZIP-архіву
+zipclose — Закриває дескриптор ZIP-архіву
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**zip_close**(resource `$zip`): void
+```methodsynopsis
+zip_close(resource $zip): void
+```
 
 Закриває дескриптор ZIP-архіву.
 
 ### Список параметрів
 
 `zip`
-ZIP-файл має бути відкритий за допомогою функції
-[zip_open()](function.zip-open.md).
+
+ZIP-файл має бути відкритий за допомогою функції [zip\_open()](function.zip-open.html)
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.html) |
 
 ### Дивіться також
 
-- [zip_open()](function.zip-open.md) - Відкриває ZIP-архів
-- [zip_read()](function.zip-read.md) - Зчитує наступний запис у
-ZIP-архіві
+-   [zip\_open()](function.zip-open.html) - Відкриває ZIP-архів
+-   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві

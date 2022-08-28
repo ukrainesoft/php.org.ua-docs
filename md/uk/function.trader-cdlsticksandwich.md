@@ -1,40 +1,46 @@
-- [« trader_cdlstalledpattern](function.trader-cdlstalledpattern.md)
-- [trader_cdltakuri »](function.trader-cdltakuri.md)
+Прилиплий сендвіч
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Прилиплий сендвіч
+-   [« trader\_cdlstalledpattern](function.trader-cdlstalledpattern.html)
+    
+-   [trader\_cdltakuri »](function.trader-cdltakuri.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Прилиплий сендвіч
+    
 
-# trader_cdlsticksandwich
+# tradercdlsticksandwich
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlsticksandwich — Прилиплий сендвіч
+tradercdlsticksandwich - Прилиплий сендвіч
 
 ### Опис
 
-**trader_cdlsticksandwich**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlsticksandwich(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

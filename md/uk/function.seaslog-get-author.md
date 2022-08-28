@@ -1,19 +1,27 @@
-- [« Функції Seaslog](ref.seaslog.md)
-- [seaslog_get_version »](function.seaslog-get-version.md)
+Отримує автора SeasLog
 
-- [PHP Manual](index.md)
-- [Функції Seaslog](ref.seaslog.md)
-- Отримує автора SeasLog
+-   [« Функции Seaslog](ref.seaslog.html)
+    
+-   [seaslog\_get\_version »](function.seaslog-get-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Seaslog](ref.seaslog.html)
+    
+-   Отримує автора SeasLog
+    
 
-# seaslog_get_author
+# seasloggetauthor
 
-(PECL seaslog \>=1.0.0)
+(PECL seaslog >=1.0.0)
 
-seaslog_get_author — Отримує автора SeasLog
+seasloggetauthor — Отримує автора SeasLog
 
 ### Опис
 
-**seaslog_get_author**(): string
+```methodsynopsis
+seaslog_get_author(): string
+```
 
 ### Список параметрів
 
@@ -25,10 +33,18 @@ seaslog_get_author — Отримує автора SeasLog
 
 ### Приклади
 
-**Приклад #1 Приклад використання **seaslog_get_author()****
+**Приклад #1 Приклад використання **seasloggetauthor()****
 
-` <?phpvar_dump(seaslog_get_author());?> `
+```php
+<?php
+
+var_dump(seaslog_get_author());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(29) "Chitao.Gao [ neeke@php.net ]"
+```
+string(29) "Chitao.Gao  [ neeke@php.net ]"
+```

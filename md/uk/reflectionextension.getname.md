@@ -1,9 +1,15 @@
-- [« ReflectionExtension::getINIEntries](reflectionextension.getinientries.md)
-- [ReflectionExtension::getVersion »](reflectionextension.getversion.md)
+Отримання імені модуля
 
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Отримання імені модуля
+-   [« ReflectionExtension::getINIEntries](reflectionextension.getinientries.html)
+    
+-   [ReflectionExtension::getVersion »](reflectionextension.getversion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionExtension](class.reflectionextension.html)
+    
+-   Отримання імені модуля
+    
 
 # ReflectionExtension::getName
 
@@ -13,7 +19,9 @@ ReflectionExtension::getName — Отримання імені модуля
 
 ### Опис
 
-public **ReflectionExtension::getName**(): string
+```methodsynopsis
+public ReflectionExtension::getName(): string
+```
 
 Отримує ім'я модуля.
 
@@ -29,13 +37,19 @@ public **ReflectionExtension::getName**(): string
 
 **Приклад #1 Приклад використання **ReflectionExtension::getName()****
 
-` <?php$ext = new ReflectionExtension('mysqli');var_dump($ext->getName());?> `
+```php
+<?php
+$ext = new ReflectionExtension('mysqli');
+var_dump($ext->getName());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(6) "mysqli"
+```
 
 ### Дивіться також
 
-- [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) -
-Отримання імен класів
+-   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.html) - Отримання імен класів

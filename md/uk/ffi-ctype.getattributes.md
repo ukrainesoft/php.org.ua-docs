@@ -1,24 +1,31 @@
-- [«FFI\CType::getArrayLength](ffi-ctype.getarraylength.md)
-- [FFI\CType::getEnumKind »](ffi-ctype.getenumkind.md)
+Опис
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+-   [« FFI\\CType::getArrayLength](ffi-ctype.getarraylength.html)
+    
+-   [FFI\\CType::getEnumKind »](ffi-ctype.getenumkind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI\\CType](class.ffi-ctype.html)
+    
+-   Опис
+    
 
-# FFI\CType::getAttributes
+# FFICType::getAttributes
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-FFI\CType::getAttributes — Опис
+FFICType::getAttributes — Опис
 
 ### Опис
 
-public **FFI\CType::getAttributes**(): int
+```methodsynopsis
+public FFI\CType::getAttributes(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

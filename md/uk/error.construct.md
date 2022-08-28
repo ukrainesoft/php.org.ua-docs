@@ -1,38 +1,44 @@
-- [«Error](class.error.md)
-- [Error::getMessage »](error.getmessage.md)
+Створює об'єкт класу Error
 
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Створює об'єкт класу Error
+-   [« Error](class.error.html)
+    
+-   [Error::getMessage »](error.getmessage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Error](class.error.html)
+    
+-   Створює об'єкт класу Error
+    
 
-# Error::\_\_construct
+# Error::construct
 
 (PHP 7, PHP 8)
 
-Error::\_\_construct — Створює об'єкт класу Error
+Error::construct — Створює об'єкт класу Error
 
 ### Опис
 
-public **Error::\_\_construct**(string `$message` = "", int `$code` = 0,
-?[Throwable](class.throwable.md) `$previous` = **`null`**)
+public **Error::construct**(string `$message` = "", int `$code` [Throwable](class.throwable.html) `$previous` **`null`**
 
 Створює об'єкт класу Error.
 
 ### Список параметрів
 
 `message`
+
 Повідомлення про помилку.
 
 `code`
+
 Код помилки.
 
 `previous`
-Попередній об'єкт, що реалізує інтерфейс throwable, використовується для
-створення ланцюжка винятків.
+
+Попередній об'єкт, що реалізує throwable інтерфейс, використовується для створення ланцюжка винятків.
 
 ### Примітки
 
-> **Примітка**:
->
-> Значення `message` *НЕ* є безпечним для бінарних даних, то
-> у тексті повідомлення не можна використовувати символ із кодом .
+> **Зауваження**
+> 
+> Значення `message` *НЕ* є безпечним для бінарних даних, тобто в тексті повідомлення не можна використовувати символ із кодом

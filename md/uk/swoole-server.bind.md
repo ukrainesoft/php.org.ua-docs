@@ -1,20 +1,27 @@
-- [« Swoole\Server::after](swoole-server.after.md)
-- [Swoole\Server::clearTimer »](swoole-server.cleartimer.md)
+Прив'язує з'єднання до вказаного ідентифікатора користувача
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Прив'язує з'єднання до вказаного ідентифікатора користувача
+-   [« Swoole\\Server::after](swoole-server.after.html)
+    
+-   [Swoole\\Server::clearTimer »](swoole-server.cleartimer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Прив'язує з'єднання до вказаного ідентифікатора користувача
+    
 
-# Swoole\Server::bind
+# SwooleServer::bind
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::bind — Прив'язує з'єднання до вказаного ідентифікатора
-користувача
+SwooleServer::bind — Прив'язує з'єднання до вказаного ідентифікатора користувача
 
 ### Опис
 
-public **Swoole\Server::bind**(int `$fd`, int `$uid`): bool
+```methodsynopsis
+public Swoole\Server::bind(int $fd, int $uid): bool
+```
 
 ### Список параметрів
 

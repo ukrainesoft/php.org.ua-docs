@@ -1,24 +1,31 @@
-- [« ReflectionZendExtension::getName](reflectionzendextension.getname.md)
-- [ReflectionZendExtension::getVersion »](reflectionzendextension.getversion.md)
+Отримує URL
 
-- [PHP Manual](index.md)
-- [ReflectionZendExtension](class.reflectionzendextension.md)
-- Отримує URL
+-   [« ReflectionZendExtension::getName](reflectionzendextension.getname.html)
+    
+-   [ReflectionZendExtension::getVersion »](reflectionzendextension.getversion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionZendExtension](class.reflectionzendextension.html)
+    
+-   Отримує URL
+    
 
 # ReflectionZendExtension::getURL
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ReflectionZendExtension::getURL — Отримує URL
 
 ### Опис
 
-public **ReflectionZendExtension::getURL**(): string
+```methodsynopsis
+public ReflectionZendExtension::getURL(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

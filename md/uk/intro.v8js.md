@@ -1,11 +1,16 @@
-- [« V8js](book.v8js.md)
-- [Встановлення та налаштування »](v8js.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [V8js](book.v8js.md)
+-   [« V8js](book.v8js.html)
+    
+-   [Установка и настройка »](v8js.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [V8js](book.v8js.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Модуль включає [»V8 Javascript Engine](http://code.google.com/p/v8/) в
-PHP.
+Модуль включає [» V8 Javascript Engine](http://code.google.com/p/v8/) у PHP.

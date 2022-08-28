@@ -1,58 +1,73 @@
-- [« Функції](ref.bson.functions.md)
-- [MongoDB\BSON romPHP »](function.mongodb.bson-fromphp.md)
+Повертає подання BSON значення JSON
 
-- [PHP Manual](index.md)
-- [Функції](ref.bson.functions.md)
-- Повертає уявлення BSON значення JSON
+-   [« Функции](ref.bson.functions.html)
+    
+-   [MongoDB\\BSON\\fromPHP »](function.mongodb.bson-fromphp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции](ref.bson.functions.html)
+    
+-   Повертає подання BSON значення JSON
+    
 
-# MongoDB\BSON romJSON
+# MongoDBBSONfromJSON
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON romJSON — Повертає уявлення BSON значення JSON
+MongoDBBSONfromJSON — Повертає подання BSON значення JSON
 
 ### Опис
 
-**MongoDB\BSON romJSON**(string `$json`): string
+```methodsynopsis
+MongoDB\BSON\fromJSON(string $json): string
+```
 
-Перетворює рядок [» Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
-у її уявлення BSON.
+Перетворює рядок [» Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/) у її уявлення BSON.
 
 ### Список параметрів
 
 `json` (string)
+
 Значення JSON для перетворення.
 
 ### Значення, що повертаються
 
-Серіалізований документ BSON як двійковий рядок.
+Серіалізований документ BSON у вигляді двійкового рядка.
 
 ### Помилки
 
-- Видає
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md),
-якщо значення JSON не може бути перетворено на BSON (наприклад,
-через синтаксичну помилку).
+-   Видає [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення JSON не може бути перетворено на BSON (наприклад, через синтаксичну помилку).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\BSON romJSON()****
+**Приклад #1 Приклад використання **MongoDBBSONfromJSON()****
 
-` <?php$json = '{ "_id": { "$oid": "563143b280d2387c91807965" } }';$bson = MongoDB\BSON romJSON($json);$ue var_dump($value);?> `
+```php
+<?php
+
+$json = '{ "_id": { "$oid": "563143b280d2387c91807965" } }';
+$bson = MongoDB\BSON\fromJSON($json);
+$value = MongoDB\BSON\toPHP($bson);
+var_dump($value);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(stdClass)#2 (1) {
-["_id"]=>
-object(MongoDB\BSON\ObjectId)#1 (1) {
-["oid"]=>
-string(24) "563143b280d2387c91807965"
+  ["_id"]=>
+  object(MongoDB\BSON\ObjectId)#1 (1) {
+    ["oid"]=>
+    string(24) "563143b280d2387c91807965"
+  }
 }
-}
+```
 
 ### Дивіться також
 
-- [MongoDB\BSON oJSON()](function.mongodb.bson-tojson.md) -
-Повертає Legacy Extended JSON подання значення BSON
-- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
-- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDB\\BSON\\toJSON()](function.mongodb.bson-tojson.html) - Повертає Legacy Extended JSON подання значення BSON
+-   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

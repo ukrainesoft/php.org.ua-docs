@@ -1,9 +1,15 @@
-- [« Imagick::clutImage](imagick.clutimage.md)
-- [Imagick::colorFloodfillImage »](imagick.colorfloodfillimage.md)
+Компонує набір зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Компонує набір зображень
+-   [« Imagick::clutImage](imagick.clutimage.html)
+    
+-   [Imagick::colorFloodfillImage »](imagick.colorfloodfillimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Компонує набір зображень
+    
 
 # Imagick::coalesceImages
 
@@ -13,14 +19,11 @@ Imagick::coalesceImages — Компонує набір зображень
 
 ### Опис
 
-public **Imagick::coalesceImages**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::coalesceImages(): Imagick
+```
 
-Скомпонований набір зображень з дотриманням будь-яких зсувів сторінок та
-методи видалення. Анімаційні послідовності GIF, MIFF та MNG зазвичай
-починаються з фону зображення, і кожне наступне зображення
-змінюється за розміром та зміщенням. Повертає новий об'єкт Imagick, де
-кожне зображення в послідовності має той самий розмір, що і
-перше та скомпоноване з наступним зображенням у послідовності.
+Скомпонований набір зображень із дотриманням будь-яких зсувів сторінок та методів видалення. Анімаційні послідовності GIF, MIFF та MNG зазвичай починаються з фону зображення, і кожне наступне зображення змінюється за розміром та зміщенням. Повертає новий об'єкт Imagick, де кожне зображення у послідовності має той самий розмір, що й перше і скомпоноване з наступним зображенням у послідовності.
 
 ### Список параметрів
 

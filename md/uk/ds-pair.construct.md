@@ -1,30 +1,34 @@
-- [« Ds\Pair::clear](ds-pair.clear.md)
-- [Ds\Pair::copy »](ds-pair.copy.md)
+Створює екземпляр класу
 
-- [PHP Manual](index.md)
-- [Пара](class.ds-pair.md)
-- створює екземпляр класу
+-   [« Ds\\Pair::clear](ds-pair.clear.html)
+    
+-   [Ds\\Pair::copy »](ds-pair.copy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Пара](class.ds-pair.html)
+    
+-   Створює екземпляр класу
+    
 
-# Ds\Pair::\_\_construct
+# ДсPair::construct
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Pair::\_\_construct — Створює екземпляр класу
+ДсPair::construct - Створює екземпляр класу
 
 ### Опис
 
-public
-**Ds\Pair::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key` = ?,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` = ?)
+public **ДсPair::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$key` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$value`
 
-Створення екземпляр класу із заданими ключем `key` та значенням `value`.
+Створення екземпляр класу із заданим ключем `key` та значенням `value`
 
 ### Список параметрів
 
 `key`
+
 Ключ.
 
 `value`
-Значення.
+
+значення.

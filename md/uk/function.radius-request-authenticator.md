@@ -1,34 +1,40 @@
-- [«radius_put_vendor_string](function.radius-put-vendor-string.md)
-- [radius_salt_encrypt_attr »](function.radius-salt-encrypt-attr.md)
+Повертає аутентифікатор запиту
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Повертає аутентифікатор запиту
+-   [« radius\_put\_vendor\_string](function.radius-put-vendor-string.html)
+    
+-   [radius\_salt\_encrypt\_attr »](function.radius-salt-encrypt-attr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Повертає аутентифікатор запиту
+    
 
-#radius_request_authenticator
+# radiusrequestauthenticator
 
-(PECL radius \>= 1.1.0)
+(PECL radius >= 1.1.0)
 
-radius_request_authenticator — Повертає автентифікатор запиту
+radiusrequestauthenticator — Повертає автентифікатор запиту
 
 ### Опис
 
-**radius_request_authenticator**(resource `$radius_handle`): string
+```methodsynopsis
+radius_request_authenticator(resource $radius_handle): string
+```
 
-Аутентифікатор запиту необхідний для розпізнавання спотворених даних,
-таких як паролі та ключі шифрування.
+Аутентифікатор запиту необхідний для розпізнавання спотворених даних, таких як паролі та ключі шифрування.
 
 ### Список параметрів
 
 `radius_handle`
+
 Ресурс RADIUS
 
 ### Значення, що повертаються
 
-Повертає аутентифікатор запиту у вигляді рядка або **`false`** у разі
-виникнення помилки.
+Повертає автентифікатор запиту у вигляді рядка або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [radius_demangle()](function.radius-demangle.md) - Розшифровує
-дані
+-   [radius\_demangle()](function.radius-demangle.html) - Розшифровує дані

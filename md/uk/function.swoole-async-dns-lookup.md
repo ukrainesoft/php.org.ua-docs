@@ -1,38 +1,48 @@
-- [« Функції Swoole](ref.swoole-funcs.md)
-- [swoole_async_read »](function.swoole-async-read.md)
+Асинхронний та неблокуючий пошук імені хоста або IP-адреси
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Асинхронний та неблокуючий пошук імені хоста або IP-адреси
+-   [« Функции Swoole](ref.swoole-funcs.html)
+    
+-   [swoole\_async\_read »](function.swoole-async-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Асинхронний та неблокуючий пошук імені хоста або IP-адреси
+    
 
-# swoole_async_dns_lookup
+# swooleasyncdnslookup
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_async_dns_lookup — Асинхронний та неблокуючий пошук імені хоста
-або IP-адреси
+swooleasyncdnslookup — Асинхронний та неблокуючий пошук імені хоста або IP-адреси
 
 ### Опис
 
-**swoole_async_dns_lookup**(string `$hostname`,
-[callable](language.types.callable.md) `$callback`): bool
+```methodsynopsis
+swoole_async_dns_lookup(string $hostname, callable $callback): bool
+```
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста.
 
 `callback`
-callback(string `$hostname`, string `$ip`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+
+```methodsynopsis
+callback(string $hostname, string $ip): mixed
+```
 
 `hostname`
+
 Ім'я хоста
 
 `IP`
+
 IP-адреса.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

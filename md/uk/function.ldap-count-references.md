@@ -1,47 +1,51 @@
-- [«ldap_count_entries](function.ldap-count-entries.md)
-- [ldap_delete_ext »](function.ldap-delete-ext.md)
+Підраховує кількість посилань у результатах пошуку
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Підраховує кількість посилань у результатах пошуку
+-   [« ldap\_count\_entries](function.ldap-count-entries.html)
+    
+-   [ldap\_delete\_ext »](function.ldap-delete-ext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Підраховує кількість посилань у результатах пошуку
+    
 
-#ldap_count_references
+# ldapcountreferences
 
 (PHP 8)
 
-ldap_count_references — Підраховує кількість посилань у результатах
-пошуку
+ldapcountreferences — Підраховує кількість посилань у результатах пошуку
 
 ### Опис
 
-**ldap_count_references**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, [LDAP\Result](class.ldap-result.md) `$result`): int
+```methodsynopsis
+ldap_count_references(LDAP\Connection $ldap, LDAP\Result $result): int
+```
 
 Підраховує кількість посилань у результатах пошуку.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `result`
-Примірник [LDAP\Result](class.ldap-result.md), що повертається
-[ldap_list()](function.ldap-list.md) або
-[ldap_search()](function.ldap-search.md).
+
+Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
 
 ### Значення, що повертаються
 
 Повертає кількість посилань у результаті пошуку.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [ldap_connect()](function.ldap-connect.md) - Підключитись до
-серверу LDAP
+-   [ldap\_connect()](function.ldap-connect.html) - Підключитись до сервера LDAP

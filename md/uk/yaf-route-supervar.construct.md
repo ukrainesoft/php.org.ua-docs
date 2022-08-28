@@ -1,61 +1,74 @@
-- [« Yaf_Route_Supervar::assemble](yaf-route-supervar.assemble.md)
-- [Yaf_Route_Supervar::route »](yaf-route-supervar.route.md)
+Призначення construct
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Supervar](class.yaf-route-supervar.md)
-- Призначення \_\_construct
+-   [« Yaf\_Route\_Supervar::assemble](yaf-route-supervar.assemble.html)
+    
+-   [Yaf\_Route\_Supervar::route »](yaf-route-supervar.route.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Route\_Supervar](class.yaf-route-supervar.html)
+    
+-   Призначення construct
+    
 
-# Yaf_Route_Supervar::\_\_construct
+# YafRouteSupervar::construct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Route_Supervar::\_\_construct - Призначення \_\_construct
+YafRouteSupervar::construct - Призначення construct
 
 ### Опис
 
-public **Yaf_Route_Supervar::\_\_construct**(string `$supervar_name`)
+public **YafRouteSupervar::construct**(string `$supervar_name`
 
-[Yaf_Route_Supervar](class.yaf-route-supervar.md) схожий
-[Yaf_Route_Static](class.yaf-route-static.md), різниця в тому, що
-[Yaf_Route_Supervar](class.yaf-route-supervar.md) шукатиме
-інформацію про шлях у рядку запиту, а параметр `supervar_name` є
-ключем.
+[Yaf\_Route\_Supervar](class.yaf-route-supervar.html) схожий на [Yaf\_Route\_Static](class.yaf-route-static.html), Різниця в тому, що [Yaf\_Route\_Supervar](class.yaf-route-supervar.html) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
 
 ### Список параметрів
 
 `supervar_name`
+
 Назва ключа.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Route_Supervar()****
+**Приклад #1 Приклад використання **YafRouteSupervar()****
 
-` <?php   /**    * Добавление маршрута supervar в стек маршрутов Yaf_Router    */    Yaf_Dispatcher::getInstance()->getRouter()->addRoute(        "name",        new Yaf_Route_Supervar("r")    );?> `
+```php
+<?php
+   /**
+    * Добавление маршрута supervar в стек маршрутов Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute(
+        "name",
+        new Yaf_Route_Supervar("r")
+    );
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-/** для запиту: http://yourdomain.com/xx/oo/?r=/ctr/act/var/value
-* буде наступний результат:
-*/
-array (
-"module" => index(default),
-"controller" => ctr,
-"action" => act,
-"params" => array(
-"var" => value,
-)
-)
+```
+/** для запроса: http://yourdomain.com/xx/oo/?r=/ctr/act/var/value
+  * будет следующий результат:
+  */
+  array (
+    "module"   => index(default),
+    "controller" => ctr,
+    "action"     => act,
+    "params"     => array(
+          "var" => value,
+     )
+  )
+```
 
 ### Дивіться також
 
-- [Yaf_Router::addRoute()](yaf-router.addroute.md) - Додає новий
-маршрут у маршрутизатор
-- [Yaf_Router::addConfig()](yaf-router.addconfig.md) - Додає
-налаштовані маршрути на маршрутизатор
-- [Yaf_Route_Static](class.yaf-route-static.md)
-- [Yaf_Route_Regex](class.yaf-route-regex.md)
-- [Yaf_Route_Simple](class.yaf-route-simple.md)
-- [Yaf_Route_Rewrite](class.yaf-route-rewrite.md)
-- [Yaf_Route_Map](class.yaf-route-map.md)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
+-   [Yaf\_Router::addConfig()](yaf-router.addconfig.html) - Додає налаштовані маршрути до маршрутизатора
+-   [Yaf\_Route\_Static](class.yaf-route-static.html)
+-   [Yaf\_Route\_Regex](class.yaf-route-regex.html)
+-   [Yaf\_Route\_Simple](class.yaf-route-simple.html)
+-   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
+-   [Yaf\_Route\_Map](class.yaf-route-map.html)

@@ -1,26 +1,29 @@
-- [« Yaf_Dispatcher::initView](yaf-dispatcher.initview.md)
-- [Yaf_Dispatcher::returnResponse »](yaf-dispatcher.returnresponse.md)
+Реєструє плагін
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- реєструє плагін
+-   [« Yaf\_Dispatcher::initView](yaf-dispatcher.initview.html)
+    
+-   [Yaf\_Dispatcher::returnResponse »](yaf-dispatcher.returnresponse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Реєструє плагін
+    
 
-# Yaf_Dispatcher::registerPlugin
+# YafDispatcher::registerPlugin
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Dispatcher::registerPlugin — Реєструє плагін
+YafDispatcher::registerPlugin — Реєструє плагін
 
 ### Опис
 
-public
-**Yaf_Dispatcher::registerPlugin**([Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-`$plugin`): [Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatcher
+```
 
-Реєструє плагін (дивіться
-[Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)). Як правило, ми
-реєструємо плагіни в Bootstrap (дивіться
-[Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)).
+Реєструє плагін (дивіться [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
 
 ### Список параметрів
 
@@ -30,14 +33,26 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Dispatcher::registerPlugin()****
+**Приклад #1 Приклад використання **YafDispatcher::registerPlugin()****
 
-`<?phpclass Bootstrap extends Yaf_Bootstrap_Abstract { public function _initPlugin(Yaf_Dispatcher $dispatcher) {    /**    * Yaf             "/plugins" для цього випадку буде:  * [application.directory] . "/plugins/". "User" . [application.ext]   */    $user = new UserPlugin(); $dispatcher->registerPlugin($user); }}?> `
+```php
+<?php
+class Bootstrap extends Yaf_Bootstrap_Abstract {
+  public function _initPlugin(Yaf_Dispatcher $dispatcher) {
+    /**
+    * Yaf ожидает скрипты плагинов в [application.directory] .  "/plugins"
+    * для этого случая будет:
+    * [application.directory] . "/plugins/" . "User" . [application.ext]
+    */
+    $user = new UserPlugin();
+    $dispatcher->registerPlugin($user);
+  }
+}
+?>
+```
 
 ### Дивіться також
 
-- [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-
-
-
-- [Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
+    
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)

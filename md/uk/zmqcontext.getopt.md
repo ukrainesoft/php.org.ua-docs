@@ -1,30 +1,36 @@
-- [«ZMQContext::\_\_construct](zmqcontext.construct.md)
-- [ZMQContext::getSocket »](zmqcontext.getsocket.md)
+Отримати опцію контексту
 
-- [PHP Manual](index.md)
-- [ZMQContext](class.zmqcontext.md)
-- Отримати опцію контексту
+-   [« ZMQContext::\_\_construct](zmqcontext.construct.html)
+    
+-   [ZMQContext::getSocket »](zmqcontext.getsocket.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQContext](class.zmqcontext.html)
+    
+-   Отримати опцію контексту
+    
 
 # ZMQContext::getOpt
 
-(PECL zmq \>= 1.0.4)
+(PECL zmq >= 1.0.4)
 
 ZMQContext::getOpt — Отримати опцію контексту
 
 ### Опис
 
-public **ZMQContext::getOpt**(string `$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ZMQContext::getOpt(string $key): mixed
+```
 
 Повертає значення опції контексту.
 
 ### Список параметрів
 
 `key`
-Ціле число, що відображає значення опції. Дивіться опис констант
-**`ZMQ::CTXOPT_*`**.
+
+Ціле число, що відображає значення опції. Дивіться опис констант **`ZMQ::CTXOPT_*`**
 
 ### Значення, що повертаються
 
-Повертає string або int залежно від `key`. У разі виникнення
-помилка викидає виняток ZMQContextException.
+Повертає string або int залежно від `key`. У разі помилки викидає виняток ZMQContextException.

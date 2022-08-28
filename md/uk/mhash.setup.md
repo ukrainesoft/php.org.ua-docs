@@ -1,15 +1,21 @@
-- [«Вступ](intro.mhash.md)
-- [Вимоги »](mhash.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Mhash](book.mhash.md)
+-   [« Введение](intro.mhash.html)
+    
+-   [Требования »](mhash.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mhash](book.mhash.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](mhash.requirements.md)
-- [Установка](mhash.installation.md)
-- [Налаштування під час виконання](mhash.configuration.md)
-- [Типи ресурсів](mhash.resources.md)
+-   [Требования](mhash.requirements.html)
+-   [Установка](mhash.installation.html)
+-   [Настройка во время выполнения](mhash.configuration.html)
+-   [Типы ресурсов](mhash.resources.html)

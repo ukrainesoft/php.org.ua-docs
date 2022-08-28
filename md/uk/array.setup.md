@@ -1,15 +1,21 @@
-- [«Вступ](intro.array.md)
-- [Вимоги »](array.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Массиви](book.array.md)
+-   [« Введение](intro.array.html)
+    
+-   [Требования »](array.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Массивы](book.array.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](array.requirements.md)
-- [Установка](array.installation.md)
-- [Налаштування під час виконання](array.configuration.md)
-- [Типи ресурсів](array.resources.md)
+-   [Требования](array.requirements.html)
+-   [Установка](array.installation.html)
+-   [Настройка во время выполнения](array.configuration.html)
+-   [Типы ресурсов](array.resources.html)

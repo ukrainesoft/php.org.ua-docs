@@ -1,9 +1,15 @@
-- [« apache_setenv](function.apache-setenv.md)
-- [virtual »](function.virtual.md)
+Повертає всі заголовки HTTP-запиту
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Повертає всі заголовки HTTP-запиту
+-   [« apache\_setenv](function.apache-setenv.html)
+    
+-   [virtual »](function.virtual.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Apache](ref.apache.html)
+    
+-   Повертає всі заголовки HTTP-запиту
+    
 
 # getallheaders
 
@@ -13,15 +19,13 @@ getallheaders — Повертає всі заголовки HTTP-запиту
 
 ### Опис
 
-**getallheaders**(): array
+```methodsynopsis
+getallheaders(): array
+```
 
 Повертає всі заголовки для поточного запиту HTTP.
 
-Ця функція є псевдонімом функції
-[apache_request_headers()](function.apache-request-headers.md).
-Будь ласка, зверніться до опису функції
-[apache_request_headers()](function.apache-request-headers.md) для
-отримання детальної інформації щодо її роботи.
+Ця функція є псевдонімом функції [apache\_request\_headers()](function.apache-request-headers.html). Будь ласка, зверніться до опису функції [apache\_request\_headers()](function.apache-request-headers.html) для отримання детальної інформації про її роботу.
 
 ### Список параметрів
 
@@ -29,23 +33,28 @@ getallheaders — Повертає всі заголовки HTTP-запиту
 
 ### Значення, що повертаються
 
-Асоціативний масив, що містить усі HTTP-заголовки для цього запиту
-або **`false`** у разі виникнення помилок.
+Асоціативний масив, що містить усі HTTP-заголовки для даного запиту або **`false`** у разі виникнення помилок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                   |
-| ------ | -------------------------------------- |
-| 7.3.0  | Ця функція стала доступною у SAPI FPM. |
+| Версия | Описание |
+| --- | --- |
+|  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **getallheaders()****
 
-` <?phpforeach (getallheaders() as $name => $value) {   echo "$name: $value
-";}?> `
+```php
+<?php
+
+foreach (getallheaders() as $name => $value) {
+    echo "$name: $value\n";
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [apache_response_headers()](function.apache-response-headers.md) -
-Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apache\_response\_headers()](function.apache-response-headers.html) - Повертає список усіх HTTP-заголовків відповіді Apache

@@ -1,9 +1,15 @@
-- [« ReflectionExtension::getClasses](reflectionextension.getclasses.md)
-- [ReflectionExtension::getConstants »](reflectionextension.getconstants.md)
+Отримання імен класів
 
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Отримання імен класів
+-   [« ReflectionExtension::getClasses](reflectionextension.getclasses.html)
+    
+-   [ReflectionExtension::getConstants »](reflectionextension.getconstants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionExtension](class.reflectionextension.html)
+    
+-   Отримання імен класів
+    
 
 # ReflectionExtension::getClassNames
 
@@ -13,7 +19,9 @@ ReflectionExtension::getClassNames — Отримання імен класів
 
 ### Опис
 
-public **ReflectionExtension::getClassNames**(): array
+```methodsynopsis
+public ReflectionExtension::getClassNames(): array
+```
 
 Отримує список імен класів, як визначено в модулі.
 
@@ -23,26 +31,29 @@ public **ReflectionExtension::getClassNames**(): array
 
 ### Значення, що повертаються
 
-Масив (array) імен класів, визначених у модулі. Якщо жодних класів
-не визначено, чи буде повернутий порожній масив.
+Масив (array) імен класів, визначених у модулі. Якщо жодних класів не визначено, буде повернено порожній масив.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionExtension::getClassNames()****
+**Приклад #1 Приклад використання **ReflectionExtension::getClassNames()****
 
-` <?php$ext = new ReflectionExtension('XMLWriter');var_dump($ext->getClassNames());?> `
+```php
+<?php
+$ext = new ReflectionExtension('XMLWriter');
+var_dump($ext->getClassNames());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-[0]=>
-string(9) "XMLWriter"
+  [0]=>
+  string(9) "XMLWriter"
 }
+```
 
 ### Дивіться також
 
-- [ReflectionExtension::getClasses()](reflectionextension.getclasses.md) -
-Повертає класи
-- [ReflectionExtension::getName()](reflectionextension.getname.md) -
-Отримання імені модуля
+-   [ReflectionExtension::getClasses()](reflectionextension.getclasses.html) - Повертає класи
+-   [ReflectionExtension::getName()](reflectionextension.getname.html) - Отримання імені модуля

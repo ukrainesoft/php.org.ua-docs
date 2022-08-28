@@ -1,31 +1,44 @@
-- [« Swoole\Http\Client::upgrade](swoole-http-client.upgrade.md)
-- [Swoole\Http\Request::\_\_destruct »](swoole-http-request.destruct.md)
+Клас SwooleHttpRequest
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole \ Http \ Request
+-   [« Swoole\\Http\\Client::upgrade](swoole-http-client.upgrade.html)
+    
+-   [Swoole\\Http\\Request::\_\_destruct »](swoole-http-request.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleHttpRequest
+    
 
-# Клас Swoole\Http\Request
+# Клас SwooleHttpRequest
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Http\Request** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_destruct](swoole-http-request.destruct.md)(): void
 
-public [rawcontent](swoole-http-request.rawcontent.md)(): string
+    
+     
+      class Swoole\Http\Request
+     
+     {
 
-}
+
+    /* Методы */
+    
+   public __destruct(): void
+public rawcontent(): string
+
+   }
+```
 
 ## Зміст
 
-- [Swoole\Http\Request::\_\_destruct](swoole-http-request.destruct.md)
-— Знищує HTTP-запит
-- [Swoole\Http\Request::rawcontent](swoole-http-request.rawcontent.md)
-— Отримує необроблене тіло HTTP POST
+-   [Swoole\\Http\\Request::\_\_destruct](swoole-http-request.destruct.html) - Знищує HTTP-запит
+-   [Swoole\\Http\\Request::rawcontent](swoole-http-request.rawcontent.html) — Отримує необроблене тіло HTTP POST

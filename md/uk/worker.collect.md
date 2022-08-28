@@ -1,30 +1,35 @@
-- [«Worker](class.worker.md)
-- [Worker::getStacked »](worker.getstacked.md)
+Зібрати посилання на завершені завдання
 
-- [PHP Manual](index.md)
-- [Worker](class.worker.md)
-- Зібрати посилання на завершені завдання
+-   [« Worker](class.worker.html)
+    
+-   [Worker::getStacked »](worker.getstacked.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Worker](class.worker.html)
+    
+-   Зібрати посилання на завершені завдання
+    
 
 # Worker::collect
 
-(PECL pthreads \>= 3.0.0)
+(PECL pthreads >= 3.0.0)
 
 Worker::collect — Зібрати посилання на завершені завдання
 
 ### Опис
 
-public **Worker::collect**([Callable](language.types.callable.md)
-`$collector` = ?): int
+```methodsynopsis
+public Worker::collect(Callable $collector = ?): int
+```
 
-Дозволяє Worker зібрати "сміттєві" посилання на завдання. Опціонально можна
-задати користувальницький збирач.
+Дозволяє Worker зібрати "сміттєві" посилання на завдання. Опціонально можна задати користувальницький збирач.
 
 ### Список параметрів
 
 `collector`
-Складальник типу Callable, який повинен повертати **`true`** або
-**`false`** залежно від того, чи можна зібрати завдання. Випадки,
-коли вам може знадобитися власний збирач, дуже рідкісні.
+
+Складальник типу Callable, який має повертати **`true`** або **`false`** залежно від цього, чи можна зібрати завдання. Випадки, коли вам може знадобитися власний збирач, дуже рідкісні.
 
 ### Значення, що повертаються
 
@@ -34,13 +39,31 @@ public **Worker::collect**([Callable](language.types.callable.md)
 
 **Приклад #1 Приклад використання **Worker::collect()****
 
-` <?php$worker = new Worker();echo "Зараз на стеку {$worker->collect()} завдань, потрібно зібрати
-";for ($i = 0; $i < 15; ++$i) {    $worker->stack(new class extends Threaded {});}echo "На стеку {$worker->collect() які потрібно зібрати
-$worker->start();while($worker->collect()); зберуть
-";$worker->shutdown(); `
+```php
+<?php
+$worker = new Worker();
+
+echo "Сейчас на стеке {$worker->collect()} задач, которые нужно собрать\n";
+
+for ($i = 0; $i < 15; ++$i) {
+    $worker->stack(new class extends Threaded {});
+}
+
+echo "На стеке {$worker->collect()} задач, которые нужно собрать\n";
+
+$worker->start();
+
+while ($worker->collect()); // ждём, пока все задачи не завершат исполнение
+
+echo "Теперь на стеке {$worker->collect()} задач, ждущих, когда их соберут\n";
+
+$worker->shutdown();
+```
 
 Результат виконання цього прикладу:
 
-Зараз на стеку 0 завдань, які потрібно зібрати
-На стеку 15 завдань, які потрібно зібрати
-Тепер на стеку 0 завдань, які чекають, коли їх зберуть
+```
+Сейчас на стеке 0 задач, которые нужно собрать
+На стеке 15 задач, которые нужно собрать
+Теперь на стеке 0 задач, ждущих, когда их соберут
+```

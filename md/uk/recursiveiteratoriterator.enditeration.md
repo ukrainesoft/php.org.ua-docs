@@ -1,28 +1,33 @@
-- [« RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md)
-- [RecursiveIteratorIterator::getDepth »](recursiveiteratoriterator.getdepth.md)
+Закінчення ітерації
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Закінчення ітерації
+-   [« RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.html)
+    
+-   [RecursiveIteratorIterator::getDepth »](recursiveiteratoriterator.getdepth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Закінчення ітерації
+    
 
 # RecursiveIteratorIterator::endIteration
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::endIteration — Закінчення ітерації
+RecursiveIteratorIterator::endIteration - Закінчення ітерації
 
 ### Опис
 
-public **RecursiveIteratorIterator::endIteration**(): void
+```methodsynopsis
+public RecursiveIteratorIterator::endIteration(): void
+```
 
-Викликається після завершення ітерації (коли метод
-[RecursiveIteratorIterator::valid()](recursiveiteratoriterator.valid.md)
-вперше поверне **`false`**).
+Викликається після завершення ітерації (коли метод [RecursiveIteratorIterator::valid()](recursiveiteratoriterator.valid.html) вперше поверне **`false`**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,10 +1,16 @@
-- [« Типи ресурсів](xmlrpc.resources.md)
-- [Функції XML-RPC »](ref.xmlrpc.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [XML-RPC](book.xmlrpc.md)
-- Обумовлені константи
+-   [« Типы ресурсов](xmlrpc.resources.html)
+    
+-   [Функции XML-RPC »](ref.xmlrpc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XML-RPC](book.xmlrpc.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

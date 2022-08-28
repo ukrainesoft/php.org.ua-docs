@@ -1,43 +1,74 @@
-- [« OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md)
-- [OAuthProvider::consumerHandler »](oauthprovider.consumerhandler.md)
+Конструктор класу OAuthProvider
 
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Конструктор класу OAuthProvider
+-   [« OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.html)
+    
+-   [OAuthProvider::consumerHandler »](oauthprovider.consumerhandler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuthProvider](class.oauthprovider.html)
+    
+-   Конструктор класу OAuthProvider
+    
 
-# OAuthProvider::\_\_construct
+# OAuthProvider::construct
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
-OAuthProvider::\_\_construct - Конструктор класу OAuthProvider
+OAuthProvider::construct - Конструктор класу OAuthProvider
 
 ### Опис
 
-public **OAuthProvider::\_\_construct**(array `$params_array` = ?)
+```methodsynopsis
+public OAuthProvider::__construct(array $params_array = ?)
+```
 
-Створює об'єкт класу [OAuthProvider](class.oauthprovider.md).
+Створює об'єкт класу [OAuthProvider](class.oauthprovider.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `params_array`
-Установка цих необов'язкових параметрів обмежена [CLI SAPI](features.commandline.md).
+
+Встановлення цих необов'язкових параметрів обмежено [CLI SAPI](features.commandline.html)
 
 ### Значення, що повертаються
 
-Об'єкт класу [OAuthProvider](class.oauthprovider.md).
+Об'єкт класу [OAuthProvider](class.oauthprovider.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuthProvider::\_\_construct()****
+**Приклад #1 Приклад використання **OAuthProvider::construct()****
 
-` <?phptry {   $op = new OAuthProvider(); // Використовуємо користувацькі callback-функції    $op->consumerHandler(array($this, 'lookupConsumer')); $op->timestampNonceHandler(array($this, 'timestampNonceChecker')); $op->tokenHandler(array($this, 'myTokenHandler')); // Ігноруємо параметр foo_uri    $op->setParam('foo_uri', NULL); // Для даної кінцевої точки токен не потрібний    $op->setRequestTokenPath('/v1/oauth/request_token'); $op->checkOAuthRequest();} catch (OAuthException $e) {    echo OAuthProvider::reportProblem($e);}?> `
+```php
+<?php
+try {
+
+    $op = new OAuthProvider();
+
+    // Используем пользовательские callback-функции
+    $op->consumerHandler(array($this, 'lookupConsumer'));
+    $op->timestampNonceHandler(array($this, 'timestampNonceChecker'));
+    $op->tokenHandler(array($this, 'myTokenHandler'));
+
+    // Игнорируем параметр foo_uri
+    $op->setParam('foo_uri', NULL);
+
+    // Для данной конечной точки токен не нужен
+    $op->setRequestTokenPath('/v1/oauth/request_token');
+
+    $op->checkOAuthRequest();
+
+} catch (OAuthException $e) {
+
+    echo OAuthProvider::reportProblem($e);
+}
+?>
+```
 
 ### Дивіться також
 
-- [OAuthProvider::setParam()](oauthprovider.setparam.md) -
-Встановити параметр
+-   [OAuthProvider::setParam()](oauthprovider.setparam.html) - Встановити параметр

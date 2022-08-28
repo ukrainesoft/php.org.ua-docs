@@ -1,18 +1,22 @@
-- [« SplFileObject::getCsvControl](splfileobject.getcsvcontrol.md)
-- [SplFileObject::getFlags »](splfileobject.getflags.md)
+Псевдонім методу SplFileObject::fgets
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Псевдонім методу SplFileObject::fgets
+-   [« SplFileObject::getCsvControl](splfileobject.getcsvcontrol.html)
+    
+-   [SplFileObject::getFlags »](splfileobject.getflags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Псевдонім методу SplFileObject::fgets
+    
 
 # SplFileObject::getCurrentLine
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-SplFileObject::getCurrentLine - Псевдонім методу
-[SplFileObject::fgets()](splfileobject.fgets.md)
+SplFileObject::getCurrentLine - Псевдонім методу [SplFileObject::fgets()](splfileobject.fgets.html)
 
 ### Опис
 
-Цей метод є псевдонімом:
-[SplFileObject::fgets()](splfileobject.fgets.md).
+Цей метод є псевдонімом: [SplFileObject::fgets()](splfileobject.fgets.html)

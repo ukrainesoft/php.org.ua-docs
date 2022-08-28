@@ -1,44 +1,50 @@
-- [« trader_cdlcounterattack](function.trader-cdlcounterattack.md)
-- [trader_cdldoji »](function.trader-cdldoji.md)
+Завіса з темних хмар
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Завіса з темних хмар
+-   [« trader\_cdlcounterattack](function.trader-cdlcounterattack.html)
+    
+-   [trader\_cdldoji »](function.trader-cdldoji.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Завіса з темних хмар
+    
 
-# trader_cdldarkcloudcover
+# tradercdldarkcloudcover
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdldarkcloudcover — Завіса з темних хмар
+tradercdldarkcloudcover — Завіса з темних хмар
 
 ### Опис
 
-**trader_cdldarkcloudcover**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`,
-float `$penetration` = ?
-): array
+```methodsynopsis
+trader_cdldarkcloudcover(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `penetration`
+
 Відсоток проникнення однієї свічки всередині іншої свічки.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

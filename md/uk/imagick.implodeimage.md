@@ -1,9 +1,15 @@
-- [« Imagick::identifyImage](imagick.identifyimage.md)
-- [Imagick::importImagePixels »](imagick.importimagepixels.md)
+Створює копію зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює копію зображення
+-   [« Imagick::identifyImage](imagick.identifyimage.html)
+    
+-   [Imagick::importImagePixels »](imagick.importimagepixels.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Створює копію зображення
+    
 
 # Imagick::implodeImage
 
@@ -13,19 +19,21 @@ Imagick::implodeImage — Створює копію зображення
 
 ### Опис
 
-public **Imagick::implodeImage**(float `$radius`): bool
+```methodsynopsis
+public Imagick::implodeImage(float $radius): bool
+```
 
-Створює нове зображення, яке є копією існуючого з
-пікселями, "стислими" на зазначений відсоток.
+Створює нове зображення, яке є копією існуючого з пікселями, "стиснутими" на зазначений відсоток.
 
 ### Список параметрів
 
 `radius`
+
 Радіус стиснення.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -35,4 +43,15 @@ public **Imagick::implodeImage**(float `$radius`): bool
 
 **Приклад #1 Приклад використання **Imagick::implodeImage()****
 
-`<?phpfunction implodeImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->implodeImage(0.0001); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function implodeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->implodeImage(0.0001);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+
+}
+
+?>
+```

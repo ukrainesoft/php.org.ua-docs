@@ -1,31 +1,33 @@
-- [« Yaf_Action_Abstract](class.yaf-action-abstract.md)
-- [Yaf_Action_Abstract::getController »](yaf-action-abstract.getcontroller.md)
+Точка входу для Action-класів
 
-- [PHP Manual](index.md)
-- [Yaf_Action_Abstract](class.yaf-action-abstract.md)
-- Точка входу для Action-класів
+-   [« Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+    
+-   [Yaf\_Action\_Abstract::getController »](yaf-action-abstract.getcontroller.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Action\_Abstract](class.yaf-action-abstract.html)
+    
+-   Точка входу для Action-класів
+    
 
-# Yaf_Action_Abstract::execute
+# YafActionAbstract::execute
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Action_Abstract::execute — Точка входу для Action-класів
+YafActionAbstract::execute — Точка входу для Action-класів
 
 ### Опис
 
-abstract
-public**Yaf_Action_Abstract::execute**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract publicYaf_Action_Abstract::execute(mixed ...$args): mixed
+```
 
-Користувач повинен визначати цей метод для Action-класів
-є точкою входу до Action. **Yaf_Action_Abstract::execute()** може
-приймати аргументи.
+Користувач повинен визначати цей метод для Action-класів, він є точкою входу до Action . **YafActionAbstract::execute()** може приймати аргументи.
 
-> **Примітка**:
->
-> Значення, яке виймається із запиту, не є безпечним. Ви повинні
-> самостійно перевіряти його перед використанням.
+> **Зауваження**
+> 
+> Значення, яке отримується із запиту, не є безпечним. Ви повинні самостійно перевіряти його перед використанням.
 
 ### Список параметрів
 
@@ -35,24 +37,47 @@ public**Yaf_Action_Abstract::execute**([mixed](language.types.declarations.md#la
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Action_Abstract::execute()****
+**Приклад #1 Приклад використання **YafActionAbstract::execute()****
 
-`<?php/** * Приклад контролера */class ProductController extends Yaf_Controller_Abstract {       protected $actions = array(       ""  "
+```php
+<?php
+/**
+ * Пример контроллера
+ */
+class ProductController extends Yaf_Controller_Abstract {
+      protected $actions = array(
+          "index" => "actions/Index.php",
+      );
+}
+?>
+```
 
-**Приклад #2 Приклад використання **Yaf_Action_Abstract::execute()****
+**Приклад #2 Приклад використання **YafActionAbstract::execute()****
 
-`<?php/** * ListAction */class ListAction extends Yaf_Action_Abstract| assert($id  ===$this->getRequest()->getParam("id")); }}?> `
+```php
+<?php
+/**
+ * ListAction
+ */
+class ListAction extends Yaf_Action_Abstract {
+     public function execute ($name, $id) {
+         assert($name == $this->getRequest()->getParam("name"));
+         assert($id   == $this->getRequest()->getParam("id"));
+     }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /**
-* Now assuming we are using the Yaf_Route_Static route
-* for request: http://yourdomain/product/list/name/yaf/id/22
-* will result:
-*/
-bool(true)
-bool(true)
+ * Now assuming we are using the Yaf_Route_Static route
+ * for request: http://yourdomain/product/list/name/yaf/id/22
+ * will result:
+ */
+ bool(true)
+ bool(true)
+```
 
 ### Дивіться також
-
--

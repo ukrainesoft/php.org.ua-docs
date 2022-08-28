@@ -1,20 +1,27 @@
-- [« Componere\Abstract\Definition::addTrait](componere-abstract-definition.addtrait.md)
-- [Componere\Definition »](class.componere-definition.md)
+Reflection
 
-- [PHP Manual](index.md)
-- [Componere\Abstract\Definition](class.componere-abstract-definition.md)
-- Reflection
+-   [« Componere\\Abstract\\Definition::addTrait](componere-abstract-definition.addtrait.html)
+    
+-   [Componere\\Definition »](class.componere-definition.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+    
+-   Reflection
+    
 
-# Componere\Abstract\Definition::getReflector
+# ComponereAbstractDefinition::getReflector
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Abstract\Definition::getReflector — Reflection
+ComponereAbstractDefinition::getReflector - Reflection
 
 ### Опис
 
-public **Componere\Abstract\Definition::getReflector**():
-[ReflectionClass](class.reflectionclass.md)
+```methodsynopsis
+public Componere\Abstract\Definition::getReflector(): ReflectionClass
+```
 
 Повинен створити або повернути ReflectionClass
 

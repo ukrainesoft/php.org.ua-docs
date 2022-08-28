@@ -1,20 +1,27 @@
-- [« Gmagick::getimagefilename](gmagick.getimagefilename.md)
-- [Gmagick::getimagegamma »](gmagick.getimagegamma.md)
+Повертає формат конкретного зображення у послідовності
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає формат конкретного зображення у послідовності
+-   [« Gmagick::getimagefilename](gmagick.getimagefilename.html)
+    
+-   [Gmagick::getimagegamma »](gmagick.getimagegamma.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає формат конкретного зображення у послідовності
+    
 
 # Gmagick::getimageformat
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimageformat — Повертає формат зображення в
-послідовності
+Gmagick::getimageformat — Повертає формат зображення в послідовності.
 
 ### Опис
 
-public **Gmagick::getimageformat**(): string
+```methodsynopsis
+public Gmagick::getimageformat(): string
+```
 
 Повертає формат зображення в послідовності.
 

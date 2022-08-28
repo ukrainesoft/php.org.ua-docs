@@ -1,36 +1,41 @@
-- [« IntlTimeZone::getOffset](intltimezone.getoffset.md)
-- [IntlTimeZone::getRegion »](intltimezone.getregion.md)
+Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати необроблене значення зсуву за Грінвічем (GMT) без
-обліку літнього часу
+-   [« IntlTimeZone::getOffset](intltimezone.getoffset.html)
+    
+-   [IntlTimeZone::getRegion »](intltimezone.getregion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
+    
 
 # IntlTimeZone::getRawOffset
 
-# intltz_get_raw_offset
+# intltzgetrawoffset
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getRawOffset -- intltz_get_raw_offset — Отримати
-необроблене значення зсуву за Грінвічем (GMT) без урахування літнього
-часу
+IntlTimeZone::getRawOffset -- intltzgetrawoffset — Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::getRawOffset**(): int
+```methodsynopsis
+public IntlTimeZone::getRawOffset(): int
+```
 
 Процедурний стиль:
 
-**intltz_get_raw_offset**([IntlTimeZone](class.intltimezone.md)
-`$timezone`): int
+```methodsynopsis
+intltz_get_raw_offset(IntlTimeZone $timezone): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

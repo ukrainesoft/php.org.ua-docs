@@ -1,60 +1,100 @@
-- [«imagepalettecopy](function.imagepalettecopy.md)
-- [imagepng »](function.imagepng.md)
+Перетворює зображення на основі палітри на справжній колір
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Перетворює зображення на основі палітри на справжній колір
+-   [« imagepalettecopy](function.imagepalettecopy.html)
+    
+-   [imagepng »](function.imagepng.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Перетворює зображення на основі палітри на справжній колір
+    
 
-#imagepalettetotruecolor
+# imagepalettetotruecolor
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-imagepalettetotruecolor — Перетворює зображення на основі палітри на
-справжній колір
+imagepalettetotruecolor — Перетворює зображення на основі палітри на справжній колір
 
 ### Опис
 
-**imagepalettetotruecolor**([GdImage](class.gdimage.md) `$image`):
-bool
+```methodsynopsis
+imagepalettetotruecolor(GdImage $image): bool
+```
 
-Перетворює на основі палітри зображення, створене функцією, такою як
-[imagecreate()](function.imagecreate.md) до справжнього (true) кольору
-зображення, як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+Перетворює на основі палітри зображення, створене функцією, такою як [imagecreate()](function.imagecreate.html) до справжнього (true) кольору зображення, як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо перетворення завершено, або якщо вихідне
-зображення вже є зображенням справжнього кольору, в іншому
-У разі повертається **`false`**.
+Повертає **`true`**, якщо перетворення завершено, або якщо вихідне зображення вже є зображенням справжнього кольору, інакше повертається **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Конвертує будь-який об'єкт зображення у цей колір**
+**Приклад #1 Конвертує будь-який об'єкт зображення на цей колір**
 
-` <?php// Для обратной совместимостиif(!function_exists('imagepalettetotruecolor')){    function imagepalettetotruecolor(&$src)    {        if(imageistruecolor($src))        {            return(true); }         $dst = imagecreatetruecolor(imagesx($src), imagesy($src)); imagecopy($dst, $src, 0, 0, 0, 0, imagesx($src), imagesy($src)); imagedestroy($src); $src==$dst; return (true); }}// Анонімна функція-помічник$typeof = function() use($im){   echo 'typeof($im) = ' . (imageistruecolor($im) ? 'true color' : 'palette'), PHP_EOL;};// Створення зображення на основі палітри$im = imagecreate(100, 100);$typeof( $im);$typeof();// Звільнити пам'ятьimagedestroy($im);?> `
+```php
+<?php
+// Для обратной совместимости
+if(!function_exists('imagepalettetotruecolor'))
+{
+    function imagepalettetotruecolor(&$src)
+    {
+        if(imageistruecolor($src))
+        {
+            return(true);
+        }
+
+        $dst = imagecreatetruecolor(imagesx($src), imagesy($src));
+
+        imagecopy($dst, $src, 0, 0, 0, 0, imagesx($src), imagesy($src));
+        imagedestroy($src);
+
+        $src = $dst;
+
+        return(true);
+    }
+}
+
+// Анонимная функция-помощник
+$typeof = function() use($im)
+{
+    echo 'typeof($im) = ' . (imageistruecolor($im) ? 'true color' : 'palette'), PHP_EOL;
+};
+
+// Создание изображения на основе палитры
+$im = imagecreate(100, 100);
+$typeof();
+
+// Преобразовать в настоящий цвет
+imagepalettetotruecolor($im);
+$typeof();
+
+// Освободить память
+imagedestroy($im);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 typeof($im) = palette
 typeof($im) = true color
+```
 
 ### Дивіться також
 
-- [imagecreatetruecolor()](function.imagecreatetruecolor.md) -
-Створення нового повнокольорового зображення
-- [imageistruecolor()](function.imageistruecolor.md) - Визначає,
-чи є зображення повнокольоровим
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
+-   [imageistruecolor()](function.imageistruecolor.html) - Визначає, чи є зображення повнокольоровим

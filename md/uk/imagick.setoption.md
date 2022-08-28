@@ -1,9 +1,15 @@
-- [« Imagick::setLastIterator](imagick.setlastiterator.md)
-- [Imagick::setPage »](imagick.setpage.md)
+Встановлює опцію
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює опцію
+-   [« Imagick::setLastIterator](imagick.setlastiterator.html)
+    
+-   [Imagick::setPage »](imagick.setpage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює опцію
+    
 
 # Imagick::setOption
 
@@ -13,7 +19,9 @@ Imagick::setOption — Встановлює опцію
 
 ### Опис
 
-public **Imagick::setOption**(string `$key`, string `$value`): bool
+```methodsynopsis
+public Imagick::setOption(string $key, string $value): bool
+```
 
 Зв'язує одну або кілька опцій із паличкою.
 
@@ -25,18 +33,67 @@ public **Imagick::setOption**(string `$key`, string `$value`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Спроба досягти розміру '$extent' **Imagick::setOption()****
+**Приклад #1 Спроба досягти розміру $extent **Imagick::setOption()****
 
-` <?php     function renderJPG($extent) {        $imagePath = $this->control->getImagePath(); $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageFormat('jpg'); $imagick->setOption('jpeg:extent', $extent); header("Content-Type: image/jpg"); echo $imagick->getImageBlob(); }?> `
+```php
+<?php
+    function renderJPG($extent) {
+        $imagePath = $this->control->getImagePath();
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->setImageFormat('jpg');
+        $imagick->setOption('jpeg:extent', $extent);
+        header("Content-Type: image/jpg");
+        echo $imagick->getImageBlob();
+    }
+
+?>
+```
 
 **Приклад #2 Приклад використання **Imagick::setOption()****
 
-` <?php    function renderPNG($imagePath, $format) {        $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageFormat('png'); $imagick->setOption('png:format', $format); header("Content-Type: image/png"); echo $imagick->getImageBlob(); }    //Збереження в виді 64bit PNG. renderPNG($imagePath, 'png64');?> `
+```php
+<?php
+    function renderPNG($imagePath, $format) {
+
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->setImageFormat('png');
+        $imagick->setOption('png:format', $format);
+        header("Content-Type: image/png");
+        echo $imagick->getImageBlob();
+    }
+
+    //Сохранение в виде 64bit PNG.
+    renderPNG($imagePath, 'png64');
+
+?>
+```
 
 **Приклад #3 Приклад використання **Imagick::setOption()****
 
-` <?php    function renderCustomBitDepthPNG() {        $imagePath = $this->control->getImagePath(); $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageFormat('png'); $imagick->setOption('png:bit-depth', '16'); $imagick->setOption('png:color-type', 6); header("Content-Type: image/png"); $crash==true; if ($crash) {             echo $imagick->getImageBlob(); }||||||||||| $imagick->writeimage(realpath($tempFilename)); echo file_get_contents($tempFilename); }    }?> `
+```php
+<?php
+    function renderCustomBitDepthPNG() {
+        $imagePath = $this->control->getImagePath();
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->setImageFormat('png');
+
+        $imagick->setOption('png:bit-depth', '16');
+        $imagick->setOption('png:color-type', 6);
+        header("Content-Type: image/png");
+        $crash = true;
+        if ($crash) {
+            echo $imagick->getImageBlob();
+        }
+        else {
+            $tempFilename = tempnam('./', 'imagick');
+            $imagick->writeimage(realpath($tempFilename));
+            echo file_get_contents($tempFilename);
+        }
+    }
+
+?>
+```

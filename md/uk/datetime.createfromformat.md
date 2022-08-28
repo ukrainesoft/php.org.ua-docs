@@ -1,54 +1,52 @@
-- [« DateTime::\_\_construct](datetime.construct.md)
-- [DateTime::createFromImmutable »](datetime.createfromimmutable.md)
+Розбирає рядок з датою згідно з вказаним форматом
 
-- [PHP Manual](index.md)
-- [DateTime](class.datetime.md)
-- Розбирає рядок з датою згідно з вказаним форматом
+-   [« DateTime::\_\_construct](datetime.construct.html)
+    
+-   [DateTime::createFromImmutable »](datetime.createfromimmutable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTime](class.datetime.html)
+    
+-   Розбирає рядок з датою згідно з вказаним форматом
+    
 
 # DateTime::createFromFormat
 
-# date_create_from_format
+# datecreatefromformat
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-DateTime::createFromFormat -- date_create_from_format — Розбирає рядок
-з датою згідно із зазначеним форматом
+DateTime::createFromFormat -- datecreatefromformat — Розбирає рядок з датою згідно з вказаним форматом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public static **DateTime::createFromFormat**(string `$format`, string
-`$datetime`, ?[DateTimeZone](class.datetimezone.md) `$timezone` =
-**`null`**): [DateTime](class.datetime.md)\|false
+```methodsynopsis
+public static DateTime::createFromFormat(string $format, string $datetime, ?DateTimeZone $timezone = null): DateTime|false
+```
 
 Процедурний стиль
 
-[date_create_from_format](function.date-create-from-format.md)(string
-`$format`, string `$datetime`, ?[DateTimeZone](class.datetimezone.md)
-`$timezone` = **`null`**): [DateTime](class.datetime.md)\|false
+```methodsynopsis
+date_create_from_format(string $format, string $datetime, ?DateTimeZone $timezone = null): DateTime|false
+```
 
-Повертає новий об'єкт DateTime, що представляє дату та час, задані
-рядком `datetime`, який був відформатований у зазначеному `format`.
+Повертає новий об'єкт DateTime, що представляє дату та час, задані рядком `datetime`, яка була відформатована у зазначеному `format`
 
-Подібний методу
-[DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md),
-крім роботи з об'єктом [DateTime](class.datetime.md).
+Подібний до методу [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.html), крім роботи з об'єктом [DateTime](class.datetime.html)
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.md)
-як перший аргумент.
+Процедурна версія приймає об'єкт [DateTime](class.datetime.html) як перший аргумент.
 
 ### Список параметрів
 
-Дивіться параметри та їх опис на сторінці методу
-[DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md).
+Дивіться параметри та їх опис на сторінці методу [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.html)
 
 ### Значення, що повертаються
 
-Повертає створений екземпляр класу DateTime або **`false`** у разі
-виникнення помилки.
+Повертає створений екземпляр класу DateTime або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md) -
-Розбирає рядок з датою згідно з вказаним форматом
+-   [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.html) - Розбирає рядок з датою згідно з вказаним форматом

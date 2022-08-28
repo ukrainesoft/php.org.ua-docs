@@ -1,26 +1,34 @@
-- [«SolrDocument::toArray](solrdocument.toarray.md)
-- [SolrDocument::\_\_unset »](solrdocument.unset.md)
+Серіалізація об'єктів SolrDocument
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Серіалізація об'єктів SolrDocument
+-   [« SolrDocument::toArray](solrdocument.toarray.html)
+    
+-   [SolrDocument::\_\_unset »](solrdocument.unset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Серіалізація об'єктів SolrDocument
+    
 
 # SolrDocument::unserialize
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::unserialize — Серіалізація об'єктів користувача
-SolrDocument
+SolrDocument::unserialize — Серіалізація користувачів об'єктів SolrDocument
 
 ### Опис
 
-public **SolrDocument::unserialize**(string `$serialized`): void
+```methodsynopsis
+public SolrDocument::unserialize(string $serialized): void
+```
 
 Серіалізація об'єктів SolrDocument
 
 ### Список параметрів
 
 `serialized`
+
 XML-подання документа.
 
 ### Значення, що повертаються

@@ -1,35 +1,43 @@
-- [«Gmagick::setimageunits](gmagick.setimageunits.md)
-- [Gmagick::setsamplingfactors »](gmagick.setsamplingfactors.md)
+Встановлює кольоровість зображення білою точкою
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює кольоровість зображення білою точкою
+-   [« Gmagick::setimageunits](gmagick.setimageunits.html)
+    
+-   [Gmagick::setsamplingfactors »](gmagick.setsamplingfactors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює кольоровість зображення білою точкою
+    
 
 # Gmagick::setimagewhitepoint
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimagewhitepoint — Встановлює кольоровість білого зображення
-точкою
+Gmagick::setimagewhitepoint — Встановлює кольоровість зображення білою точкою
 
 ### Опис
 
-public **Gmagick::setimagewhitepoint**(float `$x`, float `$y`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagewhitepoint(float $x, float $y): Gmagick
+```
 
 Встановлює кольоровість зображення білою точкою.
 
 ### Список параметрів
 
 `x`
+
 X-координата білої основної точки.
 
 `y`
-Y-координат білої основної точки.
+
+Y-координата білої основної точки.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

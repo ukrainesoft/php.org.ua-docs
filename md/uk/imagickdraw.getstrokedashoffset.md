@@ -1,29 +1,34 @@
-- [« ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.md)
-- [ImagickDraw::getStrokeLineCap »](imagickdraw.getstrokelinecap.md)
+Повертає зміщення у штриховому патерні для початку штрихування
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає зсув у штриховому патерні для початку штрихування
+-   [« ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.html)
+    
+-   [ImagickDraw::getStrokeLineCap »](imagickdraw.getstrokelinecap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає зміщення у штриховому патерні для початку штрихування
+    
 
 # ImagickDraw::getStrokeDashOffset
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::getStrokeDashOffset — Повертає зсув у штриховому
-паттерне для початку штрихування
+ImagickDraw::getStrokeDashOffset — Повертає зсув у штриховому патерні для початку штрихування
 
 ### Опис
 
-public **ImagickDraw::getStrokeDashOffset**(): float
+```methodsynopsis
+public ImagickDraw::getStrokeDashOffset(): float
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає зміщення у штриховому патерні для початку штрихування.
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою, що представляє зсув, або 0,
-якщо його не встановлено.
+Повертає число з точкою, що представляє зсув, або 0, якщо воно не встановлено.

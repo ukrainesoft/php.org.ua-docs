@@ -1,19 +1,24 @@
-- [« svn_update](function.svn-update.md)
-- [Вступ »](intro.tcpwrap.md)
+Обгортки TCP
 
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
-- Обгортки TCP
+-   [« svn\_update](function.svn-update.html)
+    
+-   [Введение »](intro.tcpwrap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие службы](refs.remote.other.html)
+    
+-   Обгортки TCP
+    
 
-# Обертки TCP
+# Обгортки TCP
 
-- [Вступ](intro.tcpwrap.md)
-- [Встановлення та налаштування](tcpwrap.setup.md)
-- [Вимоги](tcpwrap.requirements.md)
-- [Установка](tcpwrap.installation.md)
-- [Налаштування під час виконання](tcpwrap.configuration.md)
-- [Типи ресурсів](tcpwrap.resources.md)
-- [Предвизначені константи](tcpwrap.constants.md)
-- [Функції TCP](ref.tcpwrap.md)
-- [tcpwrap_check](function.tcpwrap-check.md) - Виробляє
-перевірку tcpwrap
+-   [Введение](intro.tcpwrap.html)
+-   [Установка и настройка](tcpwrap.setup.html)
+    -   [Требования](tcpwrap.requirements.html)
+    -   [Установка](tcpwrap.installation.html)
+    -   [Настройка во время выполнения](tcpwrap.configuration.html)
+    -   [Типы ресурсов](tcpwrap.resources.html)
+-   [Предопределённые константы](tcpwrap.constants.html)
+-   [Функции TCP](ref.tcpwrap.html)
+    -   [tcpwrap\_check](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap

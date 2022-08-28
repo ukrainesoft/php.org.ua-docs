@@ -1,64 +1,76 @@
-- [« Ds\Deque::last](ds-deque.last.md)
-- [Ds\Deque::merge »](ds-deque.merge.md)
+Повертає результат застосування callback-функції до всіх значень двосторонньої черги
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає результат застосування callback-функції до всіх значень
-двосторонньої черги
+-   [« Ds\\Deque::last](ds-deque.last.html)
+    
+-   [Ds\\Deque::merge »](ds-deque.merge.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає результат застосування callback-функції до всіх значень двосторонньої черги
+    
 
-# Ds\Deque::map
+# ДсDeque::map
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::map — Повертає результат застосування callback-функції до всіх
-значенням двосторонньої черги
+ДсDeque::map — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
 
 ### Опис
 
-public **Ds\Deque::map**([callable](language.types.callable.md)
-`$callback`): [Ds\Deque](class.ds-deque.md)
+```methodsynopsis
+public Ds\Deque::map(callable $callback): Ds\Deque
+```
 
-Повертає результат застосування callback-функції, переданої в
-`callback`, до всіх значень двосторонньої черги.
+Повертає результат застосування callback-функції, переданої в `callback`до всіх значень двосторонньої черги.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Аргумент типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $value): mixed
+```
 
-Ця функція повинна повертати нове значення для кожного елемента
-двосторонньої черги.
+Аргумент типу [callable](language.types.callable.html)
+
+Ця функція повинна повертати нове значення для кожного елемента двосторонньої черги.
 
 ### Значення, що повертаються
 
-Результат застосування `callback`-функції до кожного значення двосторонньої
-черги.
+Результат застосування `callback`функції до кожного значення двосторонньої черги.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Значення поточної двосторонньої черги залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::map()****
+**Приклад #1 Приклад використання **ДсDeque::map()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);print_r($deque->map(function($value) { return $value * 2; }));print_r($deque );?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+
+print_r($deque->map(function($value) { return $value * 2; }));
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => 2
-[1] => 4
-[2] => 6
+    [0] => 2
+    [1] => 4
+    [2] => 6
 )
 Ds\Deque Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
+```

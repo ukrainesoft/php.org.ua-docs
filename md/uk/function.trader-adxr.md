@@ -1,40 +1,46 @@
-- [ trader_adx](function.trader-adx.md)
-- [trader_apo»](function.trader-apo.md)
+Середній рейтинг індексу спрямованого руху
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Середній рейтинг індексу спрямованого руху
+-   [« trader\_adx](function.trader-adx.html)
+    
+-   [trader\_apo »](function.trader-apo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Середній рейтинг індексу спрямованого руху
+    
 
-#trader_adxr
+# traderadxr
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_adxr — Середній рейтинг індексу спрямованого руху
+traderadxr - Середній рейтинг індексу спрямованого руху
 
 ### Опис
 
-**trader_adxr**(
-array `$high`,
-array `$low`,
-array `$close`,
-int `$timePeriod` = ?
-): array
+```methodsynopsis
+trader_adxr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

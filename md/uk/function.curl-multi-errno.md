@@ -1,41 +1,47 @@
-- [«curl_multi_close](function.curl-multi-close.md)
-- [curl_multi_exec »](function.curl-multi-exec.md)
+Повертає код останньої помилки множинного curl
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Повертає код останньої помилки множинного curl
+-   [« curl\_multi\_close](function.curl-multi-close.html)
+    
+-   [curl\_multi\_exec »](function.curl-multi-exec.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Повертає код останньої помилки множинного curl
+    
 
-# curl_multi_errno
+# curlmultierrno
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-curl_multi_errno — Повертає код останньої помилки множинного curl
+curlmultierrno — Повертає код останньої помилки множинного curl
 
 ### Опис
 
-**curl_multi_errno**([CurlMultiHandle](class.curlmultihandle.md)
-`$multi_handle`): int
+```methodsynopsis
+curl_multi_errno(CurlMultiHandle $multi_handle): int
+```
 
 Повертає код останньої помилки множини curl у вигляді цілого числа.
 
 ### Список параметрів
 
 `multi_handle`
-Мультидескриптор cURL, отриманий з
-[curl_multi_init()](function.curl-multi-init.md).
+
+Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.html)
 
 ### Значення, що повертаються
 
 Повертає код останньої помилки множини curl у вигляді цілого числа.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                      |
-| ------ | ------------------------------------------------------------------------- |
-| 8.0.0  | Функція більше не повертає **false** у разі виникнення помилки.           |
-| 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [curl_errno()](function.curl-errno.md) - Повертає код останнього
-помилки
+-   [curl\_errno()](function.curl-errno.html) - Повертає код останньої помилки

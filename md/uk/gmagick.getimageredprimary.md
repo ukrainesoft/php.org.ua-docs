@@ -1,19 +1,27 @@
-- [« Gmagick::getimageprofile](gmagick.getimageprofile.md)
-- [Gmagick::getimagerenderingintent »](gmagick.getimagerenderingintent.md)
+Повертає первинну червону точку
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає первинну червону точку
+-   [« Gmagick::getimageprofile](gmagick.getimageprofile.html)
+    
+-   [Gmagick::getimagerenderingintent »](gmagick.getimagerenderingintent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає первинну червону точку
+    
 
 # Gmagick::getimageredprimary
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageredprimary — Повертає первинну червону точку
 
 ### Опис
 
-public **Gmagick::getimageredprimary**(): array
+```methodsynopsis
+public Gmagick::getimageredprimary(): array
+```
 
 Повертає первинну червону точку у вигляді масиву з ключами "x" та "y".
 

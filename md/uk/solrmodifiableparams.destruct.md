@@ -1,19 +1,25 @@
-- [« SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md)
-- [SolrQuery »](class.solrquery.md)
+Деструктор
 
-- [PHP Manual](index.md)
-- [SolrModifiableParams](class.solrmodifiableparams.md)
-- Деструктор
+-   [« SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.html)
+    
+-   [SolrQuery »](class.solrquery.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrModifiableParams](class.solrmodifiableparams.html)
+    
+-   Деструктор
+    
 
-# SolrModifiableParams::\_\_destruct
+# SolrModifiableParams::destruct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrModifiableParams::\_\_destruct - Деструктор
+SolrModifiableParams::destruct - Деструктор
 
 ### Опис
 
-public **SolrModifiableParams::\_\_destruct**()
+public **SolrModifiableParams::destruct**
 
 Деструктор
 

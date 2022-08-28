@@ -1,28 +1,35 @@
-- [« SplFileObject::setCsvControl](splfileobject.setcsvcontrol.md)
-- [SplFileObject::setMaxLineLen »](splfileobject.setmaxlinelen.md)
+Встановлює прапори для SplFileObject
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Встановлює прапори для SplFileObject
+-   [« SplFileObject::setCsvControl](splfileobject.setcsvcontrol.html)
+    
+-   [SplFileObject::setMaxLineLen »](splfileobject.setmaxlinelen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Встановлює прапори для SplFileObject
+    
 
 # SplFileObject::setFlags
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::setFlags — Встановлює прапори для SplFileObject
 
 ### Опис
 
-public **SplFileObject::setFlags**(int `$flags`): void
+```methodsynopsis
+public SplFileObject::setFlags(int $flags): void
+```
 
-Встановлює прапори, які використовуватимуться
-[SplFileObject](class.splfileobject.md).
+Встановлює прапори, які будуть використовуватись [SplFileObject](class.splfileobject.html)
 
 ### Список параметрів
 
 `flags`
-Бітова маска прапори для встановлення. Дивіться [константи SplFileObject](class.splfileobject.md#splfileobject.constants) для
-отримання списку доступних прапорів.
+
+Бітова маска прапори для встановлення. Дивіться [константы SplFileObject](class.splfileobject.html#splfileobject.constants) щоб отримати список доступних прапорів.
 
 ### Значення, що повертаються
 
@@ -32,9 +39,16 @@ public **SplFileObject::setFlags**(int `$flags`): void
 
 **Приклад #1 Приклад використання **SplFileObject::setFlags()****
 
-` <?php$file = new SplFileObject("data.csv");$file->setFlags(SplFileObject::READ_CSV);foreach ($file as $fields) {    var_dump($fields);}?> `
+```php
+<?php
+$file = new SplFileObject("data.csv");
+$file->setFlags(SplFileObject::READ_CSV);
+foreach ($file as $fields) {
+    var_dump($fields);
+}
+?>
+```
 
 ### Дивіться також
 
-- [SplFileObject::getFlags()](splfileobject.getflags.md) - Отримує
-прапорці налаштування об'єкта SplFileObject
+-   [SplFileObject::getFlags()](splfileobject.getflags.html) - Отримує прапори налаштування об'єкта SplFileObject

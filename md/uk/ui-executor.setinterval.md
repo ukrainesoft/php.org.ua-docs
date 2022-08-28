@@ -1,25 +1,33 @@
-- [« UI\Executor::onExecute](ui-executor.onexecute.md)
-- [UI\Controls\Tab »](class.ui-controls-tab.md)
+Управління інтервалом
 
-- [PHP Manual](index.md)
-- [UI\Executor](class.ui-executor.md)
-- Управління інтервалом
+-   [« UI\\Executor::onExecute](ui-executor.onexecute.html)
+    
+-   [UI\\Controls\\Tab »](class.ui-controls-tab.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Executor](class.ui-executor.html)
+    
+-   Управління інтервалом
+    
 
-# UI\Executor::setInterval
+# ОЙExecutor::setInterval
 
 (UI 2.0.0)
 
-UI\Executor::setInterval — Керування інтервалом
+ОЙExecutor::setInterval — Керування інтервалом
 
 ### Опис
 
-public **UI\Executor::setInterval**(int `$microseconds`): bool
+```methodsynopsis
+public UI\Executor::setInterval(int $microseconds): bool
+```
 
-public **UI\Executor::setInterval**(int `$seconds`, int
-`$microseconds`): bool
+```methodsynopsis
+public UI\Executor::setInterval(int $seconds, int $microseconds): bool
+```
 
-Встановить новий інтервал. Інтервал 0 призупиняє виконання
-виконавцем доти, доки не буде встановлено новий інтервал
+Встановить новий інтервал. Інтервал 0 припиняє виконання виконавцем доти, доки не буде встановлено новий інтервал
 
 ### Список параметрів
 

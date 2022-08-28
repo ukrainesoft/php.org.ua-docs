@@ -1,26 +1,34 @@
-- [« Yaf_View_Simple::display](yaf-view-simple.display.md)
-- [Yaf_View_Simple::\_\_get »](yaf-view-simple.get.md)
+Малює шаблон
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Малює шаблон
+-   [« Yaf\_View\_Simple::display](yaf-view-simple.display.html)
+    
+-   [Yaf\_View\_Simple::\_\_get »](yaf-view-simple.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+    
+-   Малює шаблон
+    
 
-# Yaf_View_Simple::eval
+# YafViewSimple::eval
 
-(Yaf \> = 2.2.0)
+(Yaf> = 2.2.0)
 
-Yaf_View_Simple::eval — Малює шаблон
+YafViewSimple::eval — Відображає шаблон
 
 ### Опис
 
-public **Yaf_View_Simple::eval**(string `$tpl_content`, array
-`$tpl_vars` = ?): string
+```methodsynopsis
+public Yaf_View_Simple::eval(string $tpl_content, array $tpl_vars = ?): string
+```
 
-Малює шаблон рядка і повертає результат.
+Відображає шаблон рядка та повертає результат.
 
 ### Список параметрів
 
 `tpl_content`
+
 Рядок шаблону
 
 `tpl_vars`

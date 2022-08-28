@@ -1,9 +1,15 @@
-- [« Imagick::setImageDispose](imagick.setimagedispose.md)
-- [Imagick::setImageFilename »](imagick.setimagefilename.md)
+Встановлює розмір зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює розмір зображення
+-   [« Imagick::setImageDispose](imagick.setimagedispose.html)
+    
+-   [Imagick::setImageFilename »](imagick.setimagefilename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює розмір зображення
+    
 
 # Imagick::setImageExtent
 
@@ -13,7 +19,9 @@ Imagick::setImageExtent — Встановлює розмір зображенн
 
 ### Опис
 
-public **Imagick::setImageExtent**(int `$columns`, int `$rows`): bool
+```methodsynopsis
+public Imagick::setImageExtent(int $columns, int $rows): bool
+```
 
 Встановлює розмір зображення (тобто стовпці & рядки).
 
@@ -25,7 +33,7 @@ public **Imagick::setImageExtent**(int `$columns`, int `$rows`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

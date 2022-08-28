@@ -1,14 +1,16 @@
-- [« Вимоги](win32service.requirements.md)
-- [Налаштування під час виконання »](win32service.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](win32service.setup.md)
-- Установка
+-   [« Требования](win32service.requirements.html)
+    
+-   [Настройка во время выполнения »](win32service.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](win32service.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/win32service](https://pecl.php.net/package/win32service)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/win32service](https://pecl.php.net/package/win32service)

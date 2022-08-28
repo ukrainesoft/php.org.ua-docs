@@ -1,29 +1,36 @@
-- [«odbc_result](function.odbc-result.md)
-- [odbc_setoption »](function.odbc-setoption.md)
+Відкочує транзакцію
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Відкочує транзакцію
+-   [« odbc\_result](function.odbc-result.html)
+    
+-   [odbc\_setoption »](function.odbc-setoption.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Відкочує транзакцію
+    
 
-#odbc_rollback
+# odbcrollback
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_rollback - Відкочує транзакцію
+odbcrollback - Відкочує транзакцію
 
 ### Опис
 
-**odbc_rollback**(resource `$odbc`): bool
+```methodsynopsis
+odbc_rollback(resource $odbc): bool
+```
 
 Відкочує всі незавершені операції у з'єднанні.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, див. [odbc\_connect()](function.odbc-connect.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

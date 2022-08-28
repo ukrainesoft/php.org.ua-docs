@@ -1,21 +1,27 @@
-- [«SolrQuery::getExpandQuery](solrquery.getexpandquery.md)
-- [SolrQuery::getExpandSortFields »](solrquery.getexpandsortfields.md)
+Повертає кількість рядків, що відображаються у кожній групі (expand.rows)
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає кількість рядків, що відображаються у кожній групі
-(expand.rows)
+-   [« SolrQuery::getExpandQuery](solrquery.getexpandquery.html)
+    
+-   [SolrQuery::getExpandSortFields »](solrquery.getexpandsortfields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає кількість рядків, що відображаються у кожній групі (expand.rows)
+    
 
 # SolrQuery::getExpandRows
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
-SolrQuery::getExpandRows — Повертає кількість рядків, які відображаються в
-кожній групі (expand.rows)
+SolrQuery::getExpandRows — Повертає кількість рядків, які відображаються в кожній групі (expand.rows)
 
 ### Опис
 
-public **SolrQuery::getExpandRows**(): int
+```methodsynopsis
+public SolrQuery::getExpandRows(): int
+```
 
 Повертає кількість рядків, що відображаються у кожній групі (expand.rows)
 

@@ -1,27 +1,33 @@
-- [« RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md)
-- [RecursiveTreeIterator::getPostfix »](recursivetreeiterator.getpostfix.md)
+Отримання піддерева, коренем якого є поточний елемент
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Отримання піддерева, корінням якого є поточний елемент
+-   [« RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.html)
+    
+-   [RecursiveTreeIterator::getPostfix »](recursivetreeiterator.getpostfix.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+    
+-   Отримання піддерева, коренем якого є поточний елемент
+    
 
 # RecursiveTreeIterator::getEntry
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-RecursiveTreeIterator::getEntry — Отримання піддерева, корінням якого
-є поточний елемент
+RecursiveTreeIterator::getEntry — Отримання піддерева, коренем якого є поточний елемент
 
 ### Опис
 
-public **RecursiveTreeIterator::getEntry**(): string
+```methodsynopsis
+public RecursiveTreeIterator::getEntry(): string
+```
 
-Отримує піддерево, коренем якого є поточний елемент.
+Отримує поддерево, корінням якого є поточний елемент.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

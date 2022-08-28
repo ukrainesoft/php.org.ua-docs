@@ -1,47 +1,73 @@
-- [«EventConfig::\_\_construct](eventconfig.construct.md)
-- [EventConfig::setFlags »](eventconfig.setflags.md)
+Ввести необхідні додатки властивості методу події
 
-- [PHP Manual](index.md)
-- [EventConfig](class.eventconfig.md)
-- Ввести необхідні додатком властивості методу події
+-   [« EventConfig::\_\_construct](eventconfig.construct.html)
+    
+-   [EventConfig::setFlags »](eventconfig.setflags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventConfig](class.eventconfig.html)
+    
+-   Ввести необхідні додатки властивості методу події
+    
 
 # EventConfig::requireFeatures
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventConfig::requireFeatures — Ввести потрібні додатком властивості
-методу події
+EventConfig::requireFeatures — Ввести необхідні додатки властивості методу події
 
 ### Опис
 
-public **EventConfig::requireFeatures**( int `$feature` ): bool
+```methodsynopsis
+public
+   EventConfig::requireFeatures(
+    int
+     $feature
+   ): bool
+```
 
-Вводить необхідну програмою функціональність методу події
+Вводить необхідну програму функціональність методу події
 
 ### Список параметрів
 
 `feature`
-Бітова маска потрібних властивостей. Дивіться [константи `EventConfig::FEATURE_*`](class.eventconfig.md#eventconfig.constants)
+
+Бітова маска потрібних властивостей. Дивіться [константы `EventConfig::FEATURE_*`](class.eventconfig.html#eventconfig.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **EventConfig::requireFeatures()****
 
-` <?php$cfg = new EventConfig();// Створюємо event_base, пов'язаний з конфігом $cfg$base = neu EventBase($cfg);// Запрошуємо Fs {    echo "Властивість FDS запрошено
-";   $base = new EventBase($cfg);    ($base->getFeatures() & EventConfig::FEATURE_FDS)         and print("FDS и
-");}?> `
+```php
+<?php
+$cfg = new EventConfig();
+
+// Создаём event_base, связанный с конфигом $cfg
+$base = new EventBase($cfg);
+
+// Запрашиваем свойство FDS
+if ($cfg->requireFeatures(EventConfig::FEATURE_FDS)) {
+    echo "Свойство FDS запрошено\n";
+
+    $base = new EventBase($cfg);
+    ($base->getFeatures() & EventConfig::FEATURE_FDS)
+        and print("FDS - произвольные типы дескрипторов файлов, а не только сокеты\n");
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Властивість FDS запитана
-FDS – довільні типи дескрипторів файлів, а не тільки сокети
+```
+Свойство FDS запрошено
+FDS - произвольные типы дескрипторов файлов, а не только сокеты
+```
 
 ### Дивіться також
 
-- [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає
-бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.html) - Повертає бітову маску підтримуваних функцій

@@ -1,20 +1,27 @@
-- [« Result::getWarnings](mysql-xdevapi-result.getwarnings.md)
-- [mysql_xdevapi\RowResult »](class.mysql-xdevapi-rowresult.md)
+Отримує кількість попереджень останньої операції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
-- Отримує кількість попереджень останньої операції
+-   [« Result::getWarnings](mysql-xdevapi-result.getwarnings.html)
+    
+-   [mysql\_xdevapi\\RowResult »](class.mysql-xdevapi-rowresult.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Result](class.mysql-xdevapi-result.html)
+    
+-   Отримує кількість попереджень останньої операції
+    
 
 # Result::getWarningsCount
 
 (No version information available, might only be in Git)
 
-Result::getWarningsCount — Отримує кількість попереджень останньої
-операції
+Result::getWarningsCount — Отримує кількість попереджень останньої операції
 
 ### Опис
 
-public **mysql_xdevapi\Result::getWarningsCount**(): int
+```methodsynopsis
+public mysql_xdevapi\Result::getWarningsCount(): int
+```
 
 Отримує кількість застережень останньої операції Result.
 
@@ -28,11 +35,29 @@ public **mysql_xdevapi\Result::getWarningsCount**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\RowResult::getWarningsCount()****
+**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getWarningsCount()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS foo")->execute();$session->sql( "CREATE DATABASE foo")->execute();$session->sql("CREATE TABLE foo.test_table(x int)")->execute();$schema = $session->getSchema("foo"); $table = $schema->getTable("test_table");$table->insert(['x'])->values([1])->values([2])->execute();$res = $table->select(['x/0 as bad_x'])->execute();echo $res->getWarningsCount();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS foo")->execute();
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+
+$schema = $session->getSchema("foo");
+$table  = $schema->getTable("test_table");
+
+$table->insert(['x'])->values([1])->values([2])->execute();
+
+$res = $table->select(['x/0 as bad_x'])->execute();
+
+echo $res->getWarningsCount();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 2
+```

@@ -1,21 +1,27 @@
-- [« Swoole\Server::set](swoole-server.set.md)
-- [Swoole\Server::start »](swoole-server.start.md)
+Завершує процес головного сервера, функцію можна викликати у робочих процесах
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Завершує процес головного сервера, функцію можна викликати у робітників
-процесах
+-   [« Swoole\\Server::set](swoole-server.set.html)
+    
+-   [Swoole\\Server::start »](swoole-server.start.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Завершує процес головного сервера, функцію можна викликати у робочих процесах
+    
 
-# Swoole\Server::shutdown
+# SwooleServer::shutdown
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::shutdown - Завершує процес головного сервера, функцію
-можна викликати у робочих процесах
+SwooleServer::shutdown — Завершує процес головного сервера, функцію можна викликати у робочих процесах
 
 ### Опис
 
-public **Swoole\Server::shutdown**(): void
+```methodsynopsis
+public Swoole\Server::shutdown(): void
+```
 
 ### Список параметрів
 

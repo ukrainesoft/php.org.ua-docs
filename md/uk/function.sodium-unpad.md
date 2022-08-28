@@ -1,29 +1,39 @@
-- [« sodium_pad](function.sodium-pad.md)
-- [SodiumException »](class.sodiumexception.md)
+Видалення даних відступів
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Видалення даних відступів
+-   [« sodium\_pad](function.sodium-pad.html)
+    
+-   [SodiumException »](class.sodiumexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Видалення даних відступів
+    
 
-# sodium_unpad
+# sodiumunpad
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_unpad — Видалення даних відступів
+sodiumunpad — Видалення даних відступів
 
 ### Опис
 
-**sodium_unpad**(string `$string`, int `$block_size`): string
+```methodsynopsis
+sodium_unpad(string $string, int $block_size): string
+```
 
 Видаляє дані відступів у доповненого рядка. Безпечна за часом.
 
 ### Список параметрів
 
 `string`
+
 Доповнений рядок.
 
 `block_size`
-Розмір блоку для заповнення.
+
+Розмір блоку заповнення.
 
 ### Значення, що повертаються
 

@@ -1,53 +1,80 @@
-- [« SolrDocument::valid](solrdocument.valid.md)
-- [SolrDocumentField::\_\_construct »](solrdocumentfield.construct.md)
+Клас SolrDocumentField
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrDocumentField
+-   [« SolrDocument::valid](solrdocument.valid.html)
+    
+-   [SolrDocumentField::\_\_construct »](solrdocumentfield.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Клас SolrDocumentField
+    
 
 # Клас SolrDocumentField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
-Представляє поле у документі Solr. Всі його властивості доступні лише для
-читання.
+Представляє поле у ​​документі Solr. Усі його властивості доступні лише читання.
 
 ## Огляд класів
 
-final class **SolrDocumentField** {
+```synopsis
 
-/\* Властивості \*/
 
-public readonly string `$name`;
 
-public readonly float `$boost`;
+    
+     
+      final
+      class SolrDocumentField
+     
+     {
 
-public readonly array `$values`;
+    /* Свойства */
+    
+     public
+     readonly
+     string
+      $name;
 
-/\* Методи \*/
+    public
+     readonly
+     float
+      $boost;
 
-public [\_\_construct](solrdocumentfield.construct.md)()
+    public
+     readonly
+     array
+      $values;
 
-public [\_\_destruct](solrdocumentfield.destruct.md)()
 
-}
+
+    /* Методы */
+    
+   public __construct()
+
+    public __destruct()
+
+   }
+```
 
 ## Властивості
 
-`name`
+name
+
 Назва поля.
 
-`boost`
-Значення підвищення для поля
+boost
 
-`values`
+Значення підвищення поля
+
+values
+
 Масив значень для цього поля
 
 ## Зміст
 
-- [SolrDocumentField::\_\_construct](solrdocumentfield.construct.md)
-- Конструктор
-- [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.md) -
-Деструктор
+-   [SolrDocumentField::\_\_construct](solrdocumentfield.construct.html) - Конструктор
+-   [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.html) - Деструктор

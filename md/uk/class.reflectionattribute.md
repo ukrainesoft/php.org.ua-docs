@@ -1,9 +1,15 @@
-- [« ReflectionReference::getId](reflectionreference.getid.md)
-- [ReflectionAttribute::\_\_construct »](reflectionattribute.construct.md)
+Клас ReflectionAttribute
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionAttribute
+-   [« ReflectionReference::getId](reflectionreference.getid.html)
+    
+-   [ReflectionAttribute::\_\_construct »](reflectionattribute.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionAttribute
+    
 
 # Клас ReflectionAttribute
 
@@ -11,60 +17,60 @@
 
 ## Вступ
 
-Клас **ReflectionAttribute** надає інформацію про
-[Атрибути](language.attributes.md).
+Клас **ReflectionAttribute** надає інформацію про [Атрибутах](language.attributes.html)
 
 ## Огляд класів
 
-class **ReflectionAttribute** implements
-[Reflector](class.reflector.md) {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `IS_INSTANCEOF` = 2;
+    
+     
+      class ReflectionAttribute
+     
 
-/\* Методи \*/
+     implements 
+       Reflector {
 
-private [\_\_construct](reflectionattribute.construct.md)()
+    /* Константы */
+    
+     const
+     int
+      IS_INSTANCEOF = 2;
 
-public [getArguments](reflectionattribute.getarguments.md)(): array
 
-public [getName](reflectionattribute.getname.md)(): string
+    /* Методы */
+    
+   private __construct()
 
-public [getTarget](reflectionattribute.gettarget.md)(): int
+    public getArguments(): array
+public getName(): string
+public getTarget(): int
+public isRepeated(): bool
+public newInstance(): object
 
-public [isRepeated](reflectionattribute.isrepeated.md)(): bool
+   }
+```
 
-public [newInstance](reflectionattribute.newinstance.md)(): object
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 ## Прапори ReflectionAttribute
 
 **`ReflectionAttribute::IS_INSTANCEOF`**
-Отримання атрибутів за допомогою перевірки параметра `instanceof`.
 
-> **Примітка**:
->
-> Значення цих констант можуть змінюватись в залежності від версії PHP.
-> Рекомендується завжди використовувати константи і не покладатися на них
-> значення безпосередньо.
+Отримання атрибутів за допомогою перевірки параметра `instanceof`
+
+> **Зауваження**
+> 
+> Значення цих констант можуть змінюватись в залежності від версії PHP. Рекомендується завжди використовувати константи і не покладатися на значення прямо.
 
 ## Зміст
 
-- [ReflectionAttribute::\_\_construct](reflectionattribute.construct.md)
-— Закритий конструктор, який забороняє створення об'єкта безпосередньо
-- [ReflectionAttribute::getArguments](reflectionattribute.getarguments.md)
-— Повертає аргументи, передані атрибуту
-- [ReflectionAttribute::getName](reflectionattribute.getname.md) -
-Повертає ім'я атрибута
-- [ReflectionAttribute::getTarget](reflectionattribute.gettarget.md)
-— Повертає мету атрибуту у вигляді бітової маски
-- [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md)
-— Перевіряє, чи атрибут може вказуватися багаторазово в елементі
-коду
-- [ReflectionAttribute::newInstance](reflectionattribute.newinstance.md)
-- Створює екземпляр класу атрибута, представленого цим класом
-ReflectionAttribute та аргументами
+-   [ReflectionAttribute::\_\_construct](reflectionattribute.construct.html) — Закритий конструктор, який забороняє створення об'єкта безпосередньо
+-   [ReflectionAttribute::getArguments](reflectionattribute.getarguments.html) — Повертає аргументи, передані атрибуту
+-   [ReflectionAttribute::getName](reflectionattribute.getname.html) - Повертає ім'я атрибута
+-   [ReflectionAttribute::getTarget](reflectionattribute.gettarget.html) — Повертає мету атрибуту у вигляді бітової маски
+-   [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.html) — Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду
+-   [ReflectionAttribute::newInstance](reflectionattribute.newinstance.html) — Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами

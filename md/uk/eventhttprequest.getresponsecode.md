@@ -1,19 +1,28 @@
-- [« EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md)
-- [EventHttpRequest::getUri »](eventhttprequest.geturi.md)
+Повертає код відповіді
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Повертає код відповіді
+-   [« EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.html)
+    
+-   [EventHttpRequest::getUri »](eventhttprequest.geturi.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Повертає код відповіді
+    
 
 # EventHttpRequest::getResponseCode
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
 EventHttpRequest::getResponseCode — Повертає код відповіді
 
 ### Опис
 
-public **EventHttpRequest::getResponseCode**(): int
+```methodsynopsis
+public
+   EventHttpRequest::getResponseCode(): int
+```
 
 Повертає код відповіді.
 
@@ -27,9 +36,6 @@ public **EventHttpRequest::getResponseCode**(): int
 
 ### Дивіться також
 
-- [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) -
-Повертає команду запиту (метод)
-- [EventHttpRequest::getHost()](eventhttprequest.gethost.md) -
-Повертає хост запиту
-- [EventHttpRequest::getUri()](eventhttprequest.geturi.md) -
-Повертає URI запиту
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.html) - Повертає команду запиту (метод)
+-   [EventHttpRequest::getHost()](eventhttprequest.gethost.html) - Повертає хост запиту
+-   [EventHttpRequest::getUri()](eventhttprequest.geturi.html) - Повертає URI запиту

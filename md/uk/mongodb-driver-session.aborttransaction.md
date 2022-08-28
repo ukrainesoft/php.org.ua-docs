@@ -1,24 +1,29 @@
-- [«MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- [MongoDB\Driver\Session::advanceClusterTime »](mongodb-driver-session.advanceclustertime.md)
+Перериває транзакцію
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- перериває транзакцію
+-   [« MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+    
+-   [MongoDB\\Driver\\Session::advanceClusterTime »](mongodb-driver-session.advanceclustertime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+    
+-   Перериває транзакцію
+    
 
-# MongoDB\Driver\Session::abortTransaction
+# MongoDBDriverSession::abortTransaction
 
-(mongodb \>=1.5.0)
+(mongodb >=1.5.0)
 
-MongoDB\Driver\Session::abortTransaction - Перериває транзакцію
+MongoDBDriverSession::abortTransaction — Перериває транзакцію
 
 ### Опис
 
-final public **MongoDB\Driver\Session::abortTransaction**(): void
+```methodsynopsis
+final public MongoDB\Driver\Session::abortTransaction(): void
+```
 
-Завершує багатодокументну транзакцію та відкочує будь-які зміни
-даних, зроблених операціями всередині транзакції. Тобто транзакція
-закінчується без збереження будь-яких змін, внесених операціями
-у транзакції.
+Завершує багатодокументну транзакцію та відкочує будь-які зміни даних, зроблені операціями усередині транзакції. Тобто транзакція закінчується без збереження будь-яких змін, внесених операціями до транзакції.
 
 ### Список параметрів
 
@@ -30,18 +35,11 @@ final public **MongoDB\Driver\Session::abortTransaction**(): void
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Видає виняток
-[MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md),
-якщо транзакція не може бути перервана (наприклад, транзакція не була
-розпочато).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає виняток [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html), якщо транзакція може бути перервана (наприклад, транзакція розпочато).
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::startSession()](mongodb-driver-manager.startsession.md) -
-Запуск нового клієнтського сеансу для використання з цим клієнтом
-- [MongoDB\Driver\Session::commitTransaction()](mongodb-driver-session.committransaction.md) -
-Фіксує транзакцію
-- [MongoDB\Driver\Session::startTransaction()](mongodb-driver-session.starttransaction.md) -
-Запускає транзакцію
+-   [MongoDB\\Driver\\Manager::startSession()](mongodb-driver-manager.startsession.html) - Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDB\\Driver\\Session::commitTransaction()](mongodb-driver-session.committransaction.html) - Фіксує транзакцію
+-   [MongoDB\\Driver\\Session::startTransaction()](mongodb-driver-session.starttransaction.html) - Запускає транзакцію

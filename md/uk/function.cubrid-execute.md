@@ -1,112 +1,113 @@
-- [«cubrid_error_msg](function.cubrid-error-msg.md)
-- [cubrid_fetch »](function.cubrid-fetch.md)
+Виконує підготовлений SQL-оператор
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Виконує підготовлений SQL-оператор
+-   [« cubrid\_error\_msg](function.cubrid-error-msg.html)
+    
+-   [cubrid\_fetch »](function.cubrid-fetch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Виконує підготовлений SQL-оператор
+    
 
-#cubrid_execute
+# cubridexecute
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_execute - Виконує підготовлений SQL-оператор
+cubridexecute - Виконує підготовлений SQL-оператор
 
 ### Опис
 
-**cubrid_execute**(resource `$conn_identifier`, string `$sql`, int
-$option = 0): resource
+```methodsynopsis
+cubrid_execute(resource $conn_identifier, string $sql, int $option = 0): resource
+```
 
-**cubrid_execute**(resource `$request_identifier`, int `$option` = 0):
-bool
+```methodsynopsis
+cubrid_execute(resource $request_identifier, int $option = 0): bool
+```
 
-Функція **cubrid_execute()** використовується для виконання цього
-SQL-оператора. Вона виконує запит, використовуючи `conn_identifier` та SQL,
-а потім повертає створений ідентифікатор запиту. Функція використовується
-для простого виконання запиту, коли не потрібно.
-Крім того, функція **cubrid_execute()** використовується для виконання
-підготовленого оператора за допомогою
-[cubrid_prepare()](function.cubrid-prepare.md) та
-[cubrid_bind()](function.cubrid-bind.md). У цей час вам потрібно
-вказати аргументи `request_identifier` та `option`.
+Функція **cubridexecute()** використовується для виконання цього SQL-оператора. Вона виконує запит, використовуючи `conn_identifier` та SQL, а потім повертає створений ідентифікатор запиту. Функція використовується для простого виконання запиту, коли не потрібно. Крім того, функція **cubridexecute()** використовується для виконання підготовленого оператора за допомогою [cubrid\_prepare()](function.cubrid-prepare.html) і [cubrid\_bind()](function.cubrid-bind.html). У цей час вам необхідно вказати аргументи `request_identifier` і `option`
 
-Параметр `option` використовується для визначення, чи потрібно отримувати OID
-після виконання запиту і чи слід виконувати запит у синхронному
-асинхронному режимі. Константа **`CUBRID_INCLUDE_OID`** та
-**`CUBRID_ASYNC`** (або **`CUBRID_EXEC_QUERY_ALL`**, якщо необхідно
-виконати кілька SQL-операторів) можна вказати за допомогою побітового
-оператора АБО. Якщо не вказано, жодного з них не вибрано. Якщо
-встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**, для отримання результатів
-запиту використовується синхронний режим (sync_mode) та у таких випадках
-застосовуються такі правила:
+Параметр `option` використовується для визначення, чи слід отримувати OID після виконання запиту та чи слід виконувати запит у синхронному або асинхронному режимі. Константа **`CUBRID_INCLUDE_OID`** і **`CUBRID_ASYNC`** (або **`CUBRID_EXEC_QUERY_ALL`**Якщо необхідно виконати кілька SQL-операторів) можна вказати за допомогою побітового оператора АБО. Якщо не вказано, жодного з них не вибрано. Якщо встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**, для отримання результатів запиту використовується синхронний режим (syncmode) і в таких випадках застосовуються такі правила:
 
-- значення, що повертається - результат першого запиту.
-- Якщо у будь-якому запиті виникає помилка, виконання
-обробляється як збій.
-- У запиті, що складається з q1 q2 q3, якщо помилка виникає у q2 після
-успішного виконання q1, результат q1 залишається дійсним. То
-є попереднє успішне виконання запиту не відкочується у разі
-виникнення помилки.
-- У разі успішного виконання запиту, результат другого запиту
-можна отримати за допомогою
-[cubrid_next_result()](function.cubrid-next-result.md).
+-   Значення, що повертається - результат першого запиту.
+-   Якщо у будь-якому запиті виникає помилка, виконання обробляється як збій.
+-   У запиті, що складається з q1 q2 q3, якщо помилка виникає q2 після успішного виконання q1, результат q1 залишається дійсним. Тобто попереднє успішне виконання запиту не відкочується у разі помилки.
+-   У разі успішного виконання запиту, результат другого запиту можна отримати за допомогою [cubrid\_next\_result()](function.cubrid-next-result.html)
 
-Якщо першим аргументом є `request_identifier` для виконання
-функції [cubrid_prepare()](function.cubrid-prepare.md) можна вказати
-тільки **`CUBRID_ASYNC`**.
+Якщо першим аргументом є `request_identifier` для виконання функції [cubrid\_prepare()](function.cubrid-prepare.html) можна вказати тільки **`CUBRID_ASYNC`**
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `sql`
+
 SQL для виконання.
 
 `option`
-Варіант виконання запиту: **`CUBRID_INCLUDE_OID`**,
-**`CUBRID_ASYNC`**, **`CUBRID_EXEC_QUERY_ALL`**.
+
+Варіант виконання запиту: **`CUBRID_INCLUDE_OID`** **`CUBRID_ASYNC`** **`CUBRID_EXEC_QUERY_ALL`**
 
 `request_identifier`
-Ідентифікатор [cubrid_prepare()](function.cubrid-prepare.md).
+
+Ідентифікатор [cubrid\_prepare()](function.cubrid-prepare.html)
 
 ### Значення, що повертаються
 
-Ідентифікатор запиту у разі успішного виконання запиту та якщо
-першим параметром є conn_identifier; **`true`**, у разі
-успішного виконання запиту та першим аргументом request_identifier або
-**`false`** у разі виникнення помилки.
+Ідентифікатор запиту у разі успішного виконання запиту і якщо першим параметром є connidentifier; **`true`**, у разі успішного виконання запиту та першим аргументом requestidentifier або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                             |
-| ------ | ------------------------------------------------ |
-| 8.4.0  | Додано новий параметр **CUBRID_EXEC_QUERY_ALL**. |
+| Версия | Описание |
+| --- | --- |
+|  | Додано новий параметр **`CUBRID_EXEC_QUERY_ALL`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_execute()****
+**Приклад #1 Приклад використання **cubridexecute()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$result = cubrid_execute($conn, "SELECT code FROM event WHERE name='100m B> ;$row = cubrid_fetch_array($result, CUBRID_ASSOC);$event_code = $row["code"];cubrid_close_request($result);$history_req = cubrid_prepare($conn, "SELECT| " ($history_req, 1, $event_code, "number");cubrid_execute($history_req);printf("%-20s %-9s %-10s %-5s
-", "athlete", "host_year", "score", "unit");while ($row = cubrid_fetch_array($history_req, CUBRID_ASSOC)) {    printf("%-20s %-0%|
-",         $row["athlete"], $row["host_year"], $row["score"], $row["unit"]);}cubrid_close_request($history_req);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+
+$result = cubrid_execute($conn, "SELECT code FROM event WHERE name='100m Butterfly' and gender='M'", CUBRID_ASYNC);
+$row = cubrid_fetch_array($result, CUBRID_ASSOC);
+$event_code = $row["code"];
+
+cubrid_close_request($result);
+
+$history_req = cubrid_prepare($conn, "SELECT * FROM history WHERE event_code=?");
+cubrid_bind($history_req, 1, $event_code, "number");
+cubrid_execute($history_req);
+
+printf("%-20s %-9s %-10s %-5s\n", "athlete", "host_year", "score", "unit");
+while ($row = cubrid_fetch_array($history_req, CUBRID_ASSOC)) {
+    printf("%-20s %-9s %-10s %-5s\n",
+        $row["athlete"], $row["host_year"], $row["score"], $row["unit"]);
+}
+
+cubrid_close_request($history_req);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-athlete host_year score unit
-Phelps Michael 2004 51.25 time
+```
+athlete              host_year score      unit
+Phelps Michael       2004      51.25      time
+```
 
 ### Дивіться також
 
-- [cubrid_prepare()](function.cubrid-prepare.md) - Підготовка
-SQL-вираз до виконання
-- [cubrid_bind()](function.cubrid-bind.md) - Зв'язує змінні з
-підготовленим запитом
-- [cubrid_next_result()](function.cubrid-next-result.md) - Отримує
-результат наступного запиту під час виконання кількох
-SQL-операторів
-- [cubrid_close_request()](function.cubrid-close-request.md) -
-Закриває обробник запиту
-- [cubrid_commit()](function.cubrid-commit.md) - Підтвердження
-транзакції
-- [cubrid_rollback()](function.cubrid-rollback.md) - Відкат
-транзакції
+-   [cubrid\_prepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
+-   [cubrid\_bind()](function.cubrid-bind.html) - пов'язує змінні з підготовленим запитом
+-   [cubrid\_next\_result()](function.cubrid-next-result.html) - Отримує результат наступного запиту під час виконання кількох SQL-операторів
+-   [cubrid\_close\_request()](function.cubrid-close-request.html) - Закриває обробник запиту
+-   [cubrid\_commit()](function.cubrid-commit.html) - підтвердження транзакції
+-   [cubrid\_rollback()](function.cubrid-rollback.html) - Відкат транзакції

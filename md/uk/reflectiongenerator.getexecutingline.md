@@ -1,22 +1,29 @@
-- [« ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md)
-- [ReflectionGenerator::getFunction »](reflectiongenerator.getfunction.md)
+Отримати поточний рядок генератора, що виконується
 
-- [PHP Manual](index.md)
-- [ReflectionGenerator](class.reflectiongenerator.md)
-- Отримати поточний рядок генератора, що виконується
+-   [« ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.html)
+    
+-   [ReflectionGenerator::getFunction »](reflectiongenerator.getfunction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionGenerator](class.reflectiongenerator.html)
+    
+-   Отримати поточний рядок генератора, що виконується
+    
 
 # ReflectionGenerator::getExecutingLine
 
 (PHP 7, PHP 8)
 
-ReflectionGenerator::getExecutingLine — Отримати поточну виконувану
-рядок генератора
+ReflectionGenerator::getExecutingLine — Отримати поточний рядок генератора, що виконується.
 
 ### Опис
 
-public **ReflectionGenerator::getExecutingLine**(): int
+```methodsynopsis
+public ReflectionGenerator::getExecutingLine(): int
+```
 
-Повертає поточний рядок генератора.
+Повертає поточний рядок генератора, що виконується.
 
 ### Список параметрів
 
@@ -28,18 +35,33 @@ public **ReflectionGenerator::getExecutingLine**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionGenerator::getExecutingLine()****
+**Приклад #1 Приклад використання **ReflectionGenerator::getExecutingLine()****
 
-` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen = (new GenExample)->gen();$reflectionGen==new ReflectionGenerator($gen);echo "Рядок: {$reflectionGen->getExecutingLine()}"; `
+```php
+<?php
+
+class GenExample
+{
+    public function gen()
+    {
+        yield 1;
+    }
+}
+
+$gen = (new GenExample)->gen();
+
+$reflectionGen = new ReflectionGenerator($gen);
+
+echo "Строка: {$reflectionGen->getExecutingLine()}";
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Рядок: 7
+```
+Строка: 7
+```
 
 ### Дивіться також
 
-- [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) -
-Отримати запущений об'єкт Generator
-- [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) -
-Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.html) - Отримати запущений об'єкт Generator
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.html) - Отримати ім'я файлу, з якого запущено генератор

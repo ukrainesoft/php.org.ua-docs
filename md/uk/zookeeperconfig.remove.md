@@ -1,34 +1,41 @@
-- [« ZookeeperConfig::get](zookeeperconfig.get.md)
-- [ZookeeperConfig::set »](zookeeperconfig.set.md)
+Видаляє сервери з ансамблю
 
-- [PHP Manual](index.md)
-- [ZookeeperConfig](class.zookeeperconfig.md)
-- Видаляє сервери з ансамблю
+-   [« ZookeeperConfig::get](zookeeperconfig.get.html)
+    
+-   [ZookeeperConfig::set »](zookeeperconfig.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZookeeperConfig](class.zookeeperconfig.html)
+    
+-   Видаляє сервери з ансамблю
+    
 
 # ZookeeperConfig::remove
 
-(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
+(PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)
 
 ZookeeperConfig::remove — Видаляє сервери з ансамблю
 
 ### Опис
 
-public **ZookeeperConfig::remove**(string `$id_list`, int `$version` =
--1, array `&$stat` = **`null`**): void
+```methodsynopsis
+public
+   ZookeeperConfig::remove(string $id_list, int $version = -1, array &$stat = null): void
+```
 
 ### Список параметрів
 
 `id_list`
-Розділений комами список ідентифікаторів серверів, які необхідно
-видалити із ансамблю. У кожного є ідентифікатор сервера, що видаляється,
-лише для основних кворумів.
+
+Розділений комами список ідентифікаторів серверів, які потрібно видалити з ансамблю. У кожного є ідентифікатор сервера, що видаляється, тільки для основних кворумів.
 
 `version`
-Очікувана версія вузла. Функція завершиться помилкою, якщо фактична
-версія вузла відповідає очікуваної версії. Якщо використовується -1,
-перевірка версії не виконуватиметься.
+
+Очікувана версія вузла. Функція завершиться помилкою, якщо фактична версія вузла не відповідає очікуваній версії. Якщо використовується -1, перевірка версії не виконуватиметься.
 
 `stat`
+
 Якщо не NULL, буде містити значення stat для шляху повернення.
 
 ### Значення, що повертаються
@@ -37,9 +44,7 @@ public **ZookeeperConfig::remove**(string `$id_list`, int `$version` =
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.md) та
-його похідні, коли число параметрів або типи неправильні або не вдається
-зберегти значення у вузлі.
+Метод генерує [ZookeeperException](class.zookeeperexception.html) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
 
 ### Приклади
 
@@ -47,20 +52,32 @@ public **ZookeeperConfig::remove**(string `$id_list`, int `$version` =
 
 Видалення серверів.
 
-` <?php$client = new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig = $client->getConfig ();$zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181,server.2=localhost:2889:3889:participant;0.0.0.0:2182");$zkConfig ->remove("2");echo$zkConfig->get();if($r) echo $r;else echo 'Помилка';?> `
+```php
+<?php
+$client = new Zookeeper();
+$client->connect('localhost:2181');
+$client->addAuth('digest', 'timandes:timandes');
+$zkConfig = $client->getConfig();
+$zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181,server.2=localhost:2889:3889:participant;0.0.0.0:2182");
+$zkConfig->remove("2");
+echo $zkConfig->get();
+if ($r)
+  echo $r;
+else
+  echo 'Ошибка';
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 server.1=localhost:2888:3888:participant;0.0.0.0:2181
 version=0xca01e881a2
+```
 
 ### Дивіться також
 
-- [ZookeeperConfig::get()](zookeeperconfig.get.md) - Синхронно
-отримує останню підтверджену конфігурацію кластера ZooKeeper,
-якій відомо серверу, до якого підключений клієнт
-- [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає
-сервери в ансамбль
-- [ZookeeperConfig::set()](zookeeperconfig.set.md) - Змінює склад
-ансамблю ZK та ролі його учасників
-- [ZookeeperException](class.zookeeperexception.md)
+-   [ZookeeperConfig::get()](zookeeperconfig.get.html) - Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::add()](zookeeperconfig.add.html) - Додає сервери до ансамблю
+-   [ZookeeperConfig::set()](zookeeperconfig.set.html) - Змінює склад ансамблю ZK та ролі його учасників
+-   [ZookeeperException](class.zookeeperexception.html)

@@ -1,44 +1,62 @@
-- [« pspell_add_to_session](function.pspell-add-to-session.md)
-- [pspell_clear_session »](function.pspell-clear-session.md)
+Перевіряє слово
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Перевіряє слово
+-   [« pspell\_add\_to\_session](function.pspell-add-to-session.html)
+    
+-   [pspell\_clear\_session »](function.pspell-clear-session.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Перевіряє слово
+    
 
-#pspell_check
+# pspellcheck
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_check — Перевіряє слово
+pspellcheck — Перевіряє слово
 
 ### Опис
 
-**pspell_check**([PSpell\Dictionary](class.pspell-dictionary.md)
-`$dictionary`, string `$word`): bool
+```methodsynopsis
+pspell_check(PSpell\Dictionary $dictionary, string $word): bool
+```
 
-**pspell_check()** перевіряє орфографію слова.
+**pspellcheck()** перевіряє орфографію слова.
 
 ### Список параметрів
 
 `dictionary`
-Примірник [PSpell\Dictionary](class.pspell-dictionary.md).
+
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
 
 `word`
+
 Перевірене слово.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо орфографія вірна, інакше
-повертає **`false`**.
+Повертає **`true`**, якщо орфографія вірна, інакше повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                              |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр dictionary тепер очікує на екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_check()****
+**Приклад #1 Приклад використання **pspellcheck()****
 
-` <?php$pspell = pspell_new("en");if (pspell_check($pspell, "testt")) {    echo "Це вірне написання";} else { на   
+```php
+<?php
+$pspell = pspell_new("en");
+
+if (pspell_check($pspell, "testt")) {
+    echo "Это верное написание";
+} else {
+    echo "К сожалению, неправильное написание";
+}
+?>
+```

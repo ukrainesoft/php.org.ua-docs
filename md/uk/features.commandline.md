@@ -1,19 +1,25 @@
-- [« Постійні з'єднання з базами даних](features.persistent-connections.md)
-- [Вступ »](features.commandline.introduction.md)
+Використання PHP у командному рядку
 
-- [PHP Manual](index.md)
-- [Відмінні риси](features.md)
-- Використання PHP у командному рядку
+-   [« Постоянные соединения с базами данных](features.persistent-connections.html)
+    
+-   [Введение »](features.commandline.introduction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Отличительные особенности](features.html)
+    
+-   Використання PHP у командному рядку
+    
 
 # Використання PHP у командному рядку
 
 ## Зміст
 
-- [Вступ](features.commandline.introduction.md)
-- [Основні відмінності від інших реалізацій SAPI](features.commandline.differences.md)
-- [Опції](features.commandline.options.md)
-- [Використання](features.commandline.usage.md)
-- [Потоки вводу/виводу](features.commandline.io-streams.md)
-- [Інтерактивна консоль](features.commandline.interactive.md)
-- [Вбудований веб-сервер](features.commandline.webserver.md)
-- [Опції конфігурації](features.commandline.ini.md)
+-   [Введение](features.commandline.introduction.html)
+-   [Основные отличия от остальных реализаций SAPI](features.commandline.differences.html)
+-   [Опции](features.commandline.options.html)
+-   [Использование](features.commandline.usage.html)
+-   [Потоки ввода/вывода](features.commandline.io-streams.html)
+-   [Интерактивная консоль](features.commandline.interactive.html)
+-   [Встроенный веб-сервер](features.commandline.webserver.html)
+-   [Опции конфигурации](features.commandline.ini.html)

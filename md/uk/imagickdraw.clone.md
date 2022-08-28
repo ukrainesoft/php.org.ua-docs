@@ -1,9 +1,15 @@
-- [« ImagickDraw::clear](imagickdraw.clear.md)
-- [ImagickDraw::color »](imagickdraw.color.md)
+Робить точну копію вказаного об'єкту ImagickDraw
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Робить точну копію вказаного об'єкту ImagickDraw
+-   [« ImagickDraw::clear](imagickdraw.clear.html)
+    
+-   [ImagickDraw::color »](imagickdraw.color.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Робить точну копію вказаного об'єкту ImagickDraw
+    
 
 # ImagickDraw::clone
 
@@ -13,17 +19,16 @@ ImagickDraw::clone — Робить точну копію вказаного о�
 
 ### Опис
 
-public **ImagickDraw::clone**(): [ImagickDraw](class.imagickdraw.md)
+```methodsynopsis
+public ImagickDraw::clone(): ImagickDraw
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Робить точну копію вказаного об'єкта
-[ImagickDraw](class.imagickdraw.md).
+Робить точну копію вказаного об'єкта [ImagickDraw](class.imagickdraw.html)
 
 ### Значення, що повертаються
 
-Повертає точну копію вказаного об'єкта
-[ImagickDraw](class.imagickdraw.md).
+Повертає точну копію вказаного об'єкта [ImagickDraw](class.imagickdraw.html)

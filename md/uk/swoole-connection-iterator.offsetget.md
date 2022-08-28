@@ -1,26 +1,34 @@
-- [« Swoole\Connection\Iterator::offsetExists](swoole-connection-iterator.offsetexists.md)
-- [Swoole\Connection\Iterator::offsetSet »](swoole-connection-iterator.offsetset.md)
+Зміщення для вилучення
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- Зміщення для вилучення
+-   [« Swoole\\Connection\\Iterator::offsetExists](swoole-connection-iterator.offsetexists.html)
+    
+-   [Swoole\\Connection\\Iterator::offsetSet »](swoole-connection-iterator.offsetset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   Зміщення для вилучення
+    
 
-# Swoole\Connection\Iterator::offsetGet
+# SwooleConnectionIterator::offsetGet
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Connection\Iterator::offsetGet — Зміщення для вилучення
+SwooleConnectionIterator::offsetGet — Зміщення для вилучення
 
 ### Опис
 
-public **Swoole\Connection\Iterator::offsetGet**(string `$index`):
-Connection
+```methodsynopsis
+public Swoole\Connection\Iterator::offsetGet(string $index): Connection
+```
 
-Повертає з'єднання із зазначеним зсувом.
+Повертає з'єднання із зазначеним усуненням.
 
 ### Список параметрів
 
 `index`
+
 Зміщення для вилучення.
 
 ### Значення, що повертаються

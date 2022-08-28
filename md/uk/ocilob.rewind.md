@@ -1,19 +1,27 @@
-- [«OCILob::read](ocilob.read.md)
-- [OCILob::save »](ocilob.save.md)
+Перекладає вказівник об'єкта на початок великого об'єкта
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Переводить вказівник об'єкта на початок великого об'єкта
+-   [« OCILob::read](ocilob.read.html)
+    
+-   [OCILob::save »](ocilob.save.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCILob](class.ocilob.html)
+    
+-   Перекладає вказівник об'єкта на початок великого об'єкта
+    
 
-#OCILob::rewind
+# OCILob::rewind
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
 OCILob::rewind — Переводить вказівник об'єкта на початок великого об'єкта
 
 ### Опис
 
-public **OCILob::rewind**(): bool
+```methodsynopsis
+public OCILob::rewind(): bool
+```
 
 Встановлює внутрішній покажчик на початок об'єкта LOB.
 
@@ -23,16 +31,15 @@ public **OCILob::rewind**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCILob::seek](ocilob.seek.md)
-- [OCILob::tell](ocilob.tell.md)
+-   [OCILob::seek](ocilob.seek.html)
+-   [OCILob::tell](ocilob.tell.html)

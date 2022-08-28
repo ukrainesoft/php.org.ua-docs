@@ -1,67 +1,78 @@
-- [« pg_flush](function.pg-flush.md)
-- [pg_get_notify »](function.pg-get-notify.md)
+Очищення результату запиту та звільнення пам'яті
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Очищення результату запиту та звільнення пам'яті
+-   [« pg\_flush](function.pg-flush.html)
+    
+-   [pg\_get\_notify »](function.pg-get-notify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Очищення результату запиту та звільнення пам'яті
+    
 
-#pg_free_result
+# пгfreeresult
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_free_result — Очищення результату запиту та звільнення пам'яті
+пгfreeresult — Очищення результату запиту та звільнення пам'яті
 
 ### Опис
 
-**pg_free_result**([PgSql\Result](class.pgsql-result.md) `$result`):
-bool
+```methodsynopsis
+pg_free_result(PgSql\Result $result): bool
+```
 
-**pg_free_result()** звільняє пам'ять, зайняту екземпляром
-[PgSql\Result](class.pgsql-result.md).
+**пгfreeresult()** звільняє пам'ять, зайняту екземпляром [PgSql\\Result](class.pgsql-result.html)
 
-Викликати цю функцію слід лише у разі нестачі пам'яті при
-виконання скрипта. У будь-якому випадку пам'ять буде звільнено
-автоматично після закінчення роботи скрипта.
+Викликати цю функцію слід лише у разі нестачі пам'яті під час виконання скрипта. У будь-якому випадку пам'ять буде звільнено автоматично після закінчення роботи скрипту.
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_freeresult()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгfreeresult()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_free_result()****
+**Приклад #1 Приклад використання **пгfreeresult()****
 
-` <?php$db = pg_connect("dbname=users user=me") || die();$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");$val = pg_fetch_result($res, 1, 0);echo "Перше поле во $$  
-";pg_free_result($res);?> `
+```php
+<?php
+$db = pg_connect("dbname=users user=me") || die();
+
+$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");
+
+$val = pg_fetch_result($res, 1, 0);
+
+echo "Первое поле во второй строчке: ", $val, "\n";
+
+pg_free_result($res);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Перше поле у другому рядку: 2
+```
+Первое поле во второй строчке: 2
+```
 
 ### Дивіться також
 
-- [pg_query()](function.pg-query.md) - Виконує запит
-- [pg_query_params()](function.pg-query-params.md) - Посилає
-параметризований запит на сервер, параметри передаються окремо від
-тексту SQL запиту
-- [pg_execute()](function.pg-execute.md) - Запускає виконання
-раніше підготовленого параметризованого запиту та чекає результат
+-   [pg\_query()](function.pg-query.html) - Виконує запит
+-   [pg\_query\_params()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [pg\_execute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату

@@ -1,35 +1,39 @@
-- [« openal_device_close](function.openal-device-close.md)
-- [openal_listener_get »](function.openal-listener-get.md)
+Ініціалізувати звуковий рівень OpenAL
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Ініціалізувати звуковий рівень OpenAL
+-   [« openal\_device\_close](function.openal-device-close.html)
+    
+-   [openal\_listener\_get »](function.openal-listener-get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenAL](ref.openal.html)
+    
+-   Ініціалізувати звуковий рівень OpenAL
+    
 
-#openal_device_open
+# openaldeviceopen
 
-(PECL openal = 0.1.0)
+(PECL openal >= 0.1.0)
 
-openal_device_open — Ініціалізувати звуковий рівень OpenAL
+openaldeviceopen — Ініціалізувати звуковий рівень OpenAL
 
 ### Опис
 
-**openal_device_open**(string `$device_desc` = ?): resource
+```methodsynopsis
+openal_device_open(string $device_desc = ?): resource
+```
 
 ### Список параметрів
 
 `device_desc`
-При необхідності відкрити аудіопристрій, вказавши значення параметра
-`device_desc`. Якщо `device_desc` не вказано, буде використано перше
-аудіопристрій.
+
+При необхідності відкрити аудіопристрій, вказавши значення параметра `device_desc`. Якщо `device_desc` не вказано, буде використано перший аудіопристрій.
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Device)](openal.resources.md) у разі
-успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Device)](openal.resources.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_device_close()](function.openal-device-close.md) - Закрити
-пристрій OpenAL
-- [openal_context_create()](function.openal-context-create.md) -
-Створити контекст обробки звуку
+-   [openal\_device\_close()](function.openal-device-close.html) - Закрити пристрій OpenAL
+-   [openal\_context\_create()](function.openal-context-create.html) - Створити контекст обробки звуку

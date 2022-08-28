@@ -1,55 +1,94 @@
-- [«get_called_class](function.get-called-class.md)
-- [get_class_vars »](function.get-class-vars.md)
+Повертає масив імен методів класу
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Повертає масив імен методів класу
+-   [« get\_called\_class](function.get-called-class.html)
+    
+-   [get\_class\_vars »](function.get-class-vars.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Повертає масив імен методів класу
+    
 
-#get_class_methods
+# getclassметодів
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_class_methods - Повертає масив імен методів класу
+getclassmethods - Повертає масив імен методів класу
 
 ### Опис
 
-**get_class_methods**(object\|string `$object_or_class`): array
+```methodsynopsis
+get_class_methods(object|string $object_or_class): array
+```
 
-Повертає масив назв методів класу.
+Повертає масив імен методів класу.
 
 ### Список параметрів
 
 `object_or_class`
+
 Ім'я класу чи об'єкт
 
 ### Значення, що повертаються
 
-Повертає масив імен методів, оголошених у класі object_or_class.
+Повертає масив імен методів, оголошених у класі `object_or_class`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                             |
-| ------ | -------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр object_or_class тепер приймає тільки об'єкти або коректні імена класів. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_class_methods()****
+**Приклад #1 Приклад використання **getclassmethods()****
 
-`<?phpclass myclass {    // конструктор   function __construct()   {        return(true); }    // метод 1    function myfunc1()    {        return(true); }    // метод 2    function myfunc2()    {        return(true); }}$class_methods = get_class_methods('myclass');// або$class_methods = get_class_methods(new myclass());foreach ($class_methods as $method_name) {             
-";}?> `
+```php
+<?php
+
+class myclass {
+    // конструктор
+    function __construct()
+    {
+        return(true);
+    }
+
+    // метод 1
+    function myfunc1()
+    {
+        return(true);
+    }
+
+    // метод 2
+    function myfunc2()
+    {
+        return(true);
+    }
+}
+
+$class_methods = get_class_methods('myclass');
+// или
+$class_methods = get_class_methods(new myclass());
+
+foreach ($class_methods as $method_name) {
+    echo "$method_name\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 myclass
 myfunc1
 myfunc2
+```
 
 ### Дивіться також
 
-- [get_class()](function.get-class.md) - Повертає ім'я класу, до
-якому належить об'єкт
-- [get_class_vars()](function.get-class-vars.md) - Повертає
-оголошені за замовчуванням властивості класу
-- [get_object_vars()](function.get-object-vars.md) - Повертає
-властивості вказаного об'єкта
+-   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [get\_class\_vars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
+-   [get\_object\_vars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту

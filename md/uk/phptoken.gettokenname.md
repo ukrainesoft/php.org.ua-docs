@@ -1,9 +1,15 @@
-- [« PhpToken::\_\_construct](phptoken.construct.md)
-- [PhpToken::is »](phptoken.is.md)
+Повертає ім'я токена
 
-- [PHP Manual](index.md)
-- [PhpToken](class.phptoken.md)
-- Повертає ім'я токена
+-   [« PhpToken::\_\_construct](phptoken.construct.html)
+    
+-   [PhpToken::is »](phptoken.is.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PhpToken](class.phptoken.html)
+    
+-   Повертає ім'я токена
+    
 
 # PhpToken::getTokenName
 
@@ -13,7 +19,9 @@ PhpToken::getTokenName — Повертає ім'я токена
 
 ### Опис
 
-public **PhpToken::getTokenName**(): ?string
+```methodsynopsis
+public PhpToken::getTokenName(): ?string
+```
 
 Повертає ім'я токена.
 
@@ -23,19 +31,28 @@ public **PhpToken::getTokenName**(): ?string
 
 ### Значення, що повертаються
 
-Символ ASCII для односимвольних токенів або ім'я однієї з констант
-T\_\* (дивіться [Список тегів (tokens) парсера](tokens.md)), або
-**`null`**, для невідомих токенів.
+Символ ASCII для односимвольних токенів, або ім'я однієї з констант T (дивіться [Список меток (tokens) парсера](tokens.html)), або **`null`**для невідомих токенів.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PhpToken::getTokenName()****
 
-`<?php// стандартний токен$token = new PhpToken(T_ECHO, echo');var_dump($token->getTokenName()); // -> string(6) "T_ECHO"// відносимвольний токен$token = new PhpToken(ord(';'), ';');var_dump($token->getTokenName()); // -> string(1) ";"// невідомий токен$token = new PhpToken(10000 , " ");var_dump($token->getTokenName()); // -> NULL `
+```php
+<?php
+// стандартный токен
+$token = new PhpToken(T_ECHO, 'echo');
+var_dump($token->getTokenName());   // -> string(6) "T_ECHO"
+
+// односимвольный токен
+$token = new PhpToken(ord(';'), ';');
+var_dump($token->getTokenName());   // -> string(1) ";"
+
+// неизвестный токен
+$token = new PhpToken(10000 , "\0");
+var_dump($token->getTokenName());   // -> NULL
+```
 
 ### Дивіться також
 
-- [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає задану
-рядок, що містить програму на PHP, на масив об'єктів PhpToken
-- [token_name()](function.token-name.md) - Отримати символьне ім'я
-для переданої PHP-лексеми
+-   [PhpToken::tokenize()](phptoken.tokenize.html) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
+-   [token\_name()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми

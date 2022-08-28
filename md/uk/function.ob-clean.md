@@ -1,30 +1,33 @@
-- [«flush](function.flush.md)
-- [ob_end_clean »](function.ob-end-clean.md)
+Очистити (стерти) буфер виводу
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Очистити (стерти) буфер виводу
+-   [« flush](function.flush.html)
+    
+-   [ob\_end\_clean »](function.ob-end-clean.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции контроля вывода](ref.outcontrol.html)
+    
+-   Очистити (стерти) буфер виводу
+    
 
-#ob_clean
+# проclean
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-ob_clean — Очистити (стерти) буфер виводу
+проclean — Очистити (стерти) буфер виводу
 
 ### Опис
 
-**ob_clean**(): bool
+```methodsynopsis
+ob_clean(): bool
+```
 
-Ця функція очищає вміст вихідного буфера, не відправляючи його в
-браузер.
+Ця функція очищає вміст вихідного буфера, не надсилаючи його до браузера.
 
-Ця функція не знищує буфер виводу, як це робить
-[ob_end_clean()](function.ob-end-clean.md).
+Ця функція не знищує буфер виводу, як це робить [ob\_end\_clean()](function.ob-end-clean.html)
 
-Буфер виводу має запускатися функцією
-[ob_start()](function.ob-start.md) з прапором
-[PHP_OUTPUT_HANDLER_CLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable).
-Інакше **ob_clean()** не спрацює.
+Буфер виводу має запускатися функцією [ob\_start()](function.ob-start.html) з прапором [PHP\_OUTPUT\_HANDLER\_CLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable). Інакше **проclean()** не спрацює.
 
 ### Список параметрів
 
@@ -32,14 +35,10 @@ ob_clean — Очистити (стерти) буфер виводу
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ob_flush()](function.ob-flush.md) - Скинути (надіслати) буфер
-висновку
-- [ob_end_flush()](function.ob-end-flush.md) - Скинути (надіслати)
-буфер виведення та вимкнути буферизацію виводу
-- [ob_end_clean()](function.ob-end-clean.md) - Очистити (стерти)
-буфер виводу та вимкнути буферизацію виводу
+-   [ob\_flush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
+-   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу

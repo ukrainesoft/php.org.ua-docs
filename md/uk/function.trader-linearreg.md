@@ -1,29 +1,38 @@
-- [« trader_linearreg_slope](function.trader-linearreg-slope.md)
-- [trader_ln »](function.trader-ln.md)
+Лінійна регресія
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Лінійна регресія
+-   [« trader\_linearreg\_slope](function.trader-linearreg-slope.html)
+    
+-   [trader\_ln »](function.trader-ln.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Лінійна регресія
+    
 
-#trader_linearreg
+# traderlinearreg
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_linearreg - Лінійна регресія
+traderlinearreg - Лінійна регресія
 
 ### Опис
 
-**trader_linearreg**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_linearreg(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

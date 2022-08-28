@@ -1,11 +1,17 @@
-- [« Приклади](yar.examples.md)
-- [Yar_Server::\_\_construct »](yar-server.construct.md)
+Клас YarServer
 
-- [PHP Manual](index.md)
-- [Yar](book.yar.md)
-- Клас Yar_Server
+-   [« Примеры](yar.examples.html)
+    
+-   [Yar\_Server::\_\_construct »](yar-server.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yar](book.yar.html)
+    
+-   Клас YarServer
+    
 
-# Клас Yar_Server
+# Клас YarServer
 
 (No version information available, might only be in Git)
 
@@ -13,26 +19,36 @@
 
 ## Огляд класів
 
-class **Yar_Server** {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_executor`;
+    
+    
+     
+      class Yar_Server
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $_executor;
 
-/\* Методи \*/
 
-final public [\_\_construct](yar-server.construct.md)(Object `$obj`)
 
-public [handle](yar-server.handle.md)(): bool
+    /* Методы */
+    
+   final public __construct(Object $obj)
+public handle(): bool
 
-}
+   }
+```
 
 ## Властивості
 
-`_executor`
+executor
 
 ## Зміст
 
-- [Yar_Server::\_\_construct](yar-server.construct.md) - Конструктор
-Yar_Server
-- [Yar_Server::handle](yar-server.handle.md) — Запустити сервер RPC
+-   [Yar\_Server::\_\_construct](yar-server.construct.html) - Конструктор YarServer
+-   [Yar\_Server::handle](yar-server.handle.html) — Запустити сервер RPC

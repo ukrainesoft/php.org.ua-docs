@@ -1,29 +1,36 @@
-- [ trader_asin](function.trader-asin.md)
-- [trader_atr »](function.trader-atr.md)
+Вектор тригонометричний арктангенс
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Векторний тригонометричний арктангенс
+-   [« trader\_asin](function.trader-asin.html)
+    
+-   [trader\_atr »](function.trader-atr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Вектор тригонометричний арктангенс
+    
 
-# trader_atan
+# traderatan
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_atan — векторний тригонометричний арктангенс
+traderatan — векторний тригонометричний арктангенс.
 
 ### Опис
 
-**trader_atan**(array `$real`): array
+```methodsynopsis
+trader_atan(array $real): array
+```
 
-Обчислює арктангенс для кожного значення в `real` та повертає
-результуючий масив.
+Обчислює арктангенс для кожного значення `real` та повертає результуючий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

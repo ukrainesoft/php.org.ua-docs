@@ -1,39 +1,47 @@
-- [« OCILob::getBuffering](ocilob.getbuffering.md)
-- [OCILob::load »](ocilob.load.md)
+Записує вміст файлу на об'єкт LOB
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Записує вміст файлу в об'єкт LOB
+-   [« OCILob::getBuffering](ocilob.getbuffering.html)
+    
+-   [OCILob::load »](ocilob.load.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCILob](class.ocilob.html)
+    
+-   Записує вміст файлу на об'єкт LOB
+    
 
 # OCILob::import
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-OCILob::import — Записує вміст файлу на об'єкт LOB
+OCILob::import — записує вміст файлу в об'єкт LOB
 
 ### Опис
 
-public **OCILob::import**(string `$filename`): bool
+```methodsynopsis
+public OCILob::import(string $filename): bool
+```
 
-Записує вміст файлу `filename` на поточну позицію об'єкта LOB.
+Записує вміст файлу `filename` у поточну позицію об'єкта LOB.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCILob::export](ocilob.export.md)
-- [OCILob::write](ocilob.write.md)
+-   [OCILob::export](ocilob.export.html)
+-   [OCILob::write](ocilob.write.html)

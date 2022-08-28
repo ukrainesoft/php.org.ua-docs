@@ -1,41 +1,41 @@
-- [« CallbackFilterIterator::accept](callbackfilteriterator.accept.md)
-- [DirectoryIterator »](class.directoryiterator.md)
+Створює ітератор, що фільтрує, на основі іншого ітератора.
 
-- [PHP Manual](index.md)
-- [CallbackFilterIterator](class.callbackfilteriterator.md)
-- Створює фільтруючий ітератор на основі іншого ітератора
+-   [« CallbackFilterIterator::accept](callbackfilteriterator.accept.html)
+    
+-   [DirectoryIterator »](class.directoryiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CallbackFilterIterator](class.callbackfilteriterator.html)
+    
+-   Створює ітератор, що фільтрує, на основі іншого ітератора.
+    
 
-# CallbackFilterIterator::\_\_construct
+# CallbackFilterIterator::construct
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-CallbackFilterIterator::\_\_construct — Створює фільтруючий ітератор на
-основі іншого ітератора
+CallbackFilterIterator::construct — Створює ітератор, що фільтрує, на основі іншого ітератора.
 
 ### Опис
 
-public
-**CallbackFilterIterator::\_\_construct**([Iterator](class.iterator.md)
-`$iterator`, [callable](language.types.callable.md) `$callback`)
+public **CallbackFilterIterator::construct**[Iterator](class.iterator.html) `$iterator` [callable](language.types.callable.html) `$callback`
 
-Створює фільтруючий ітератор, використовуючи функцію callback для відбору
-або відхилення елементів.
+Створює ітератор, що фільтрує, використовуючи функцію `callback` для відбору чи відхилення елементів.
 
 ### Список параметрів
 
 `iterator`
+
 Ітератор, до якого застосовується фільтр.
 
 `callback`
-Callback-функція, яка повинна повертати **`true`**, якщо поточний
-елемент пройшов фільтр, і **`false`**, якщо елемент відхилено. Дивіться
-[Приклади](class.callbackfilteriterator.md#callbackfilteriterator.examples).
 
-Може бути будь-яким значенням [callable](language.types.callable.md).
+Callback-функція, яка має повертати **`true`**, якщо поточний елемент пройшов фільтр, та **`false`**, якщо елемент відхилено. Дивіться [примеры](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+
+Можливо будь-яким [callable](language.types.callable.html) значенням.
 
 ### Дивіться також
 
-- [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.md#callbackfilteriterator.examples)
-- [CallbackFilterIterator::accept()](callbackfilteriterator.accept.md) -
-Викликає callback-функцію та передає їй як аргументи
-поточне значення, поточний ключ та внутрішній покажчик
+-   [Примеры использования CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+-   [CallbackFilterIterator::accept()](callbackfilteriterator.accept.html) - Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик

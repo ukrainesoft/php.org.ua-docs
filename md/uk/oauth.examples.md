@@ -1,12 +1,18 @@
-- [«Зумовлені константи](oauth.constants.md)
-- [FireEagle »](oauth.examples.fireeagle.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [OAuth](book.oauth.md)
-- Приклади
+-   [« Предопределённые константы](oauth.constants.html)
+    
+-   [FireEagle »](oauth.examples.fireeagle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](book.oauth.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [FireEagle](oauth.examples.fireeagle.md)
+-   [FireEagle](oauth.examples.fireeagle.html)

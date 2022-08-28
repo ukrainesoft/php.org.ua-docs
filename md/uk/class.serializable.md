@@ -1,61 +1,88 @@
-- [« ArrayAccess::offsetUnset](arrayaccess.offsetunset.md)
-- [Serializable::serialize »](serializable.serialize.md)
+Інтерфейс Serializable
 
-- [PHP Manual](index.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- Інтерфейс Serializable
+-   [« ArrayAccess::offsetUnset](arrayaccess.offsetunset.html)
+    
+-   [Serializable::serialize »](serializable.serialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+    
+-   Інтерфейс Serializable
+    
 
 # Інтерфейс Serializable
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
 Інтерфейс для персональної серіалізації.
 
-Класи, які реалізують цей інтерфейс, більше не підтримують
-[\_\_sleep()](language.oop5.magic.md#object.sleep) та
-[\_\_wakeup()](language.oop5.magic.md#object.wakeup). Метод serialize
-викликається щоразу, коли необхідна серіалізація екземпляру класу.
-Цей метод не викликає \_\_destruct() і не має жодних побічних
-дій крім тих, що запрограмовані всередині нього. Коли дані
-десеріалізуються, клас відомий і відповідний метод unserialize()
-викликається як конструктор замість виклику \_\_construct(). якщо вам
-необхідно викликати стандартний конструктор, ви можете це зробити у цьому
-метод.
+Класи, які реалізують цей інтерфейс, більше не підтримують [\_\_sleep()](language.oop5.magic.html#object.sleep) і [\_\_wakeup()](language.oop5.magic.html#object.wakeup). Метод serialize викликається щоразу, коли необхідна серіалізація екземпляру класу. Цей метод не викликає destruct() і немає ніяких побічних дій крім тих, які запрограмовані всередині нього. Коли дані десеріалізуються, клас відомий і відповідний метод unserialize() викликається як конструктор замість виклику construct(). Якщо вам необхідно викликати стандартний конструктор, ви можете зробити це в цьому методі.
 
 **Увага**
 
-Починаючи з PHP 8.1.0, клас, який реалізує **Serializable** без
-реалізації [\_\_serialize()](language.oop5.magic.md#object.serialize)
-і [\_\_unserialize()](language.oop5.magic.md#object.unserialize)
-видасть попередження про старіння
+Починаючи з PHP 8.1.0 клас, який реалізує **Serializable** без реалізації [\_\_serialize()](language.oop5.magic.html#object.serialize) і [\_\_unserialize()](language.oop5.magic.html#object.unserialize) видасть попередження про старіння
 
 ## Огляд інтерфейсів
 
-interface **Serializable** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [serialize](serializable.serialize.md)(): ?string
+    
+     
+      interface Serializable {
 
-public [unserialize](serializable.unserialize.md)(string `$data`):
-void
+    /* Методы */
+    
+   public serialize(): ?string
+public unserialize(string $data): void
 
-}
+   }
+```
 
 **Приклад #1 Основи використання**
 
-`<?phpclass obj implements Serializable {    private $data; public function __construct() {         $this->data = "Мої закриті дані"; }    public function serialize() {        return serialize($this->data); }    public function unserialize($data) {        $this->data==unserialize($data); }    public function getData() {        return $this->data; }}$obj = new obj;$ser = serialize($obj);var_dump($ser);$newobj = unserialize($ser);var_dump($newobj->getData());?> `
+```php
+<?php
+class obj implements Serializable {
+    private $data;
+    public function __construct() {
+        $this->data = "Мои закрытые данные";
+    }
+    public function serialize() {
+        return serialize($this->data);
+    }
+    public function unserialize($data) {
+        $this->data = unserialize($data);
+    }
+    public function getData() {
+        return $this->data;
+    }
+}
+
+$obj = new obj;
+$ser = serialize($obj);
+
+var_dump($ser);
+
+$newobj = unserialize($ser);
+
+var_dump($newobj->getData());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(59) "C:3:"obj":44:{s:36:"Мої закриті дані";}"
-string(36) "Мої закриті дані"
+```
+string(59) "C:3:"obj":44:{s:36:"Мои закрытые данные";}"
+string(36) "Мои закрытые данные"
+```
 
 ## Зміст
 
-- [Serializable::serialize](serializable.serialize.md) -
-Представляє об'єкт у вигляді рядка
-- [Serializable::unserialize](serializable.unserialize.md) — Створює
-об'єкт
+-   [Serializable::serialize](serializable.serialize.html) — Представляє об'єкт у вигляді рядка
+-   [Serializable::unserialize](serializable.unserialize.html) - Створює об'єкт

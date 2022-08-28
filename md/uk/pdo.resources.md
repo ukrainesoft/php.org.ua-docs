@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](pdo.configuration.md)
-- [Предвизначені константи »](pdo.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](pdo.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](pdo.configuration.html)
+    
+-   [Предопределённые константы »](pdo.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](pdo.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

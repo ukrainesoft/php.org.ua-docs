@@ -1,40 +1,46 @@
-- [« trader_cdlunique3river](function.trader-cdlunique3river.md)
-- [trader_cdlxsidegap3methods »](function.trader-cdlxsidegap3methods.md)
+Свічкова модель "Перевернути дві ворони"
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Свічкова модель "Перевернені дві ворони"
+-   [« trader\_cdlunique3river](function.trader-cdlunique3river.html)
+    
+-   [trader\_cdlxsidegap3methods »](function.trader-cdlxsidegap3methods.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Свічкова модель "Перевернути дві ворони"
+    
 
-# trader_cdlupsidegap2crows
+# tradercdlupsidegap2crows
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlupsidegap2crows — Свічкова модель "Перевернені дві ворони"
+tradercdlupsidegap2crows - Свічкова модель "Перевернені дві ворони"
 
 ### Опис
 
-**trader_cdlupsidegap2crows**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlupsidegap2crows(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

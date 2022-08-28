@@ -1,25 +1,34 @@
-- [«radius_cvt_int](function.radius-cvt-int.md)
-- [radius_demangle_mppe_key »](function.radius-demangle-mppe-key.md)
+Перетворює необроблені дані на рядок
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Перетворює необроблені дані у рядок
+-   [« radius\_cvt\_int](function.radius-cvt-int.html)
+    
+-   [radius\_demangle\_mppe\_key »](function.radius-demangle-mppe-key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Перетворює необроблені дані на рядок
+    
 
-# radius_cvt_string
+# radiuscvtstring
 
-(PECL radius \>= 1.1.0)
+(PECL radius >= 1.1.0)
 
-radius_cvt_string — Перетворює необроблені дані в рядок
+radiuscvtstring — Перетворює необроблені дані в рядок
 
 ### Опис
 
-**radius_cvt_string**(string `$data`): string
+```methodsynopsis
+radius_cvt_string(string $data): string
+```
 
-Перетворює необроблені дані в рядок
+Перетворює необроблені дані на рядок
 
 ### Список параметрів
 
 `data`
+
 Вхідні дані
 
 ### Значення, що повертаються
@@ -28,15 +37,32 @@ radius_cvt_string — Перетворює необроблені дані в р
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radius_cvt_string()****
+**Приклад #1 Приклад використання **radiuscvtstring()****
 
-` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));        exit;    }    $attr = $resa['attr'];    $data = $resa['data'];    switch ($attr) {    case RADIUS_FILTER_ID:        $id = radius_cvt_string($data );         echo "Ідентифікатор фільтра: $id<br>
-";        break;    }}?> `
+```php
+<?php
+while ($resa = radius_get_attr($res)) {
+
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
+
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+
+    switch ($attr) {
+
+    case RADIUS_FILTER_ID:
+        $id = radius_cvt_string($data);
+        echo "Идентификатор фильтра: $id<br>\n";
+        break;
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [radius_cvt_addr()](function.radius-cvt-addr.md) - Перетворює
-необроблені дані в IP-адресу
-- [radius_cvt_int()](function.radius-cvt-int.md) - Перетворює
-необроблені дані в ціле число
+-   [radius\_cvt\_addr()](function.radius-cvt-addr.html) - Перетворює необроблені дані на IP-адресу
+-   [radius\_cvt\_int()](function.radius-cvt-int.html) - Перетворює необроблені дані на ціле число

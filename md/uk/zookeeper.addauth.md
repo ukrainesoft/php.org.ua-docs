@@ -1,77 +1,89 @@
-- [«Zookeeper](class.zookeeper.md)
-- [Zookeeper::close »](zookeeper.close.md)
+Вказує облікові дані програми
 
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- Вказує облікові дані програми
+-   [« Zookeeper](class.zookeeper.html)
+    
+-   [Zookeeper::close »](zookeeper.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zookeeper](class.zookeeper.html)
+    
+-   Вказує облікові дані програми
+    
 
 # Zookeeper::addAuth
 
-(PECL zookeeper \>= 0.1.0)
+(PECL zookeeper >= 0.1.0)
 
 Zookeeper::addAuth — Вказує облікові дані програми
 
 ### Опис
 
-public **Zookeeper::addAuth**(string `$scheme`, string `$cert`,
-[callable](language.types.callable.md) `$completion_cb` = **`null`**):
-bool
+```methodsynopsis
+public
+   Zookeeper::addAuth(string $scheme, string $cert, callable $completion_cb = null): bool
+```
 
-Додаток викликає цю функцію, щоб вказати свої облікові дані для
-цілей аутентифікації. Сервер буде використовувати провайдера безпеки,
-вказаного в параметрі схеми для аутентифікації клієнтського з'єднання.
-Якщо запит на аутентифікацію не вдався: - з'єднання з сервером буде
-розірвано. - спостерігач викликається зі значенням ZOO_AUTH_FAILED_STATE
-як параметр стану.
+Програма викликає цю функцію, щоб вказати свої облікові дані для цілей автентифікації. Сервер буде використовувати провайдера безпеки, вказаного в параметрі схеми, для автентифікації клієнтського з'єднання. Якщо запит про аутентифікацію не вдався: - з'єднання з сервером буде розірвано. - Спостерігач викликається зі значенням ZOOAUTHFAILEDSTATE як параметр стану.
 
 ### Список параметрів
 
 `scheme`
-Ідентифікатор схеми автентифікації Вбудована підтримка: "digest"
-аутентифікації на основі пароля
+
+Ідентифікатор схеми автентифікації. Вбудована підтримка: "digest" автентифікації на основі пароля
 
 `cert`
+
 Облікові дані програми. Фактичне значення залежить від схеми.
 
 `completion_cb`
-Підпрограма, щоб викликати, коли запит завершується. Один із наступних
-Коди результату можуть бути передані в callback-функцію завершення: -
-Операцію ZOK успішно завершено - ZAUTHFAILED автентифікація не вдалася
+
+Підпрограма, щоб викликати, коли запит завершується. Один із наступних кодів результату може бути переданий в callback-функцію завершення: - Операція ZOK успішно завершена - ZAUTHFAILED автентифікація не вдалася
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Метод видає PHP-повідомлення про помилку/попередження, коли кількість
-параметри або типи неправильні або операція завершується невдало.
+Метод видає PHP-повідомлення про помилку/попередження, коли кількість параметрів чи типи неправильні або операція завершується невдало.
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод генерує виняток
-[ZookeeperException](class.zookeeperexception.md) та його похідні.
+Починаючи з версії 0.3.0, метод генерує виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Zookeeper::addAuth()****
 
-Додавання аутентифікації перед запитом на значення вузла.
+Додавання аутентифікації перед запитом вузла.
 
-` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$value = 'nodevalue';$zookeeper->set($path, $value);$ zookeeper->addAuth('digest', 'user0:passwd0');$r = $zookeeper->get($path);if ($r) echo $r;else  echo 'Помилка';?> `
+```php
+<?php
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$value = 'nodevalue';
+$zookeeper->set($path, $value);
+
+$zookeeper->addAuth('digest', 'user0:passwd0');
+$r = $zookeeper->get($path);
+if ($r)
+  echo $r;
+else
+  echo 'Ошибка';
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 nodevalue
+```
 
 ### Дивіться також
 
-- [Zookeeper::create()](zookeeper.create.md) - Створює синхронно
-вузол
-- [Zookeeper::setAcl()](zookeeper.setacl.md) - Встановлює ACL,
-пов'язаний з вузлом синхронно
-- [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує
-ACL, пов'язаний із вузлом
-- [Стани ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
-- [ZookeeperException](class.zookeeperexception.md)
+-   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
+-   [Zookeeper::setAcl()](zookeeper.setacl.html) - Встановлює ACL, пов'язаний із вузлом синхронно
+-   [Zookeeper::getAcl()](zookeeper.getacl.html) - Синхронно отримує ACL, пов'язаний із вузлом
+-   [Состояния ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
+-   [ZookeeperException](class.zookeeperexception.html)

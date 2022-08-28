@@ -1,9 +1,15 @@
-- [« DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.md)
-- [DOMElement::hasAttributeNS »](domelement.hasattributens.md)
+Перевіряє, чи існує атрибут
 
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Перевіряє, чи існує атрибут
+-   [« DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.html)
+    
+-   [DOMElement::hasAttributeNS »](domelement.hasattributens.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMElement](class.domelement.html)
+    
+-   Перевіряє, чи існує атрибут
+    
 
 # DOMElement::hasAttribute
 
@@ -13,28 +19,25 @@ DOMElement::hasAttribute — Перевіряє, чи існує атрибут
 
 ### Опис
 
-public **DOMElement::hasAttribute**(string `$qualifiedName`): bool
+```methodsynopsis
+public DOMElement::hasAttribute(string $qualifiedName): bool
+```
 
-Перевіряє наявність атрибута з ім'ям, зазначеним у параметрі
-`qualifiedName` поточного елемента.
+Перевіряє наявність атрибута з ім'ям, вказаним у параметрі `qualifiedName` поточний елемент.
 
 ### Список параметрів
 
 `qualifiedName`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DOMElement::hasAttributeNS()](domelement.hasattributens.md) -
-Перевіряє, чи існує заданий атрибут
-- [DOMElement::getAttribute()](domelement.getattribute.md) -
-Повертає значення атрибуту
-- [DOMElement::setAttribute()](domelement.setattribute.md) -
-Додає новий або змінює існуючий атрибут
-- [DOMElement::removeAttribute()](domelement.removeattribute.md) -
-Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.html) - Повертає значення атрибуту
+-   [DOMElement::setAttribute()](domelement.setattribute.html) - Додає новий або змінює існуючий атрибут
+-   [DOMElement::removeAttribute()](domelement.removeattribute.html) - Видаляє атрибут

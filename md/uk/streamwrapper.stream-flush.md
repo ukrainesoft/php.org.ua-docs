@@ -1,26 +1,31 @@
-- [« streamWrapper::stream_eof](streamwrapper.stream-eof.md)
-- [streamWrapper::stream_lock »](streamwrapper.stream-lock.md)
+Скидає висновок
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- скидає висновок
+-   [« streamWrapper::stream\_eof](streamwrapper.stream-eof.html)
+    
+-   [streamWrapper::stream\_lock »](streamwrapper.stream-lock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Скидає висновок
+    
 
-# streamWrapper::stream_flush
+# streamWrapper::streamflush
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::stream_flush — Скидає висновок
+streamWrapper::streamflush - Скидає висновок
 
 ### Опис
 
-public **streamWrapper::stream_flush**(): bool
+```methodsynopsis
+public streamWrapper::stream_flush(): bool
+```
 
-Цей метод викликається у процесі виконання
-[fflush()](function.fflush.md), якщо потік закривається маючи
-Непокинуті дані, записані в нього раніше.
+Цей метод викликається у процесі виконання [fflush()](function.fflush.html), якщо потік закривається маючи незрушені дані, записані до нього раніше.
 
-Якщо в потоці є кешовані та ще невикористані дані, у цьому
-Метод саме місце передати їх на нижчий рівень.
+Якщо в потоці є кешовані і ще невикористані дані, у цьому методі місце передати їх на нижчий рівень.
 
 ### Список параметрів
 
@@ -28,17 +33,14 @@ public **streamWrapper::stream_flush**(): bool
 
 ### Значення, що повертаються
 
-Повинний повертати **`true`**, якщо кешовані дані успішно збережені
-(або їх взагалі немає), або **`false`**, якщо дані не можуть бути
-збережено.
+Повинен повертати **`true`**, якщо кешовані дані успішно збережені (або їх взагалі немає), або **`false`**якщо дані не можуть бути збережені.
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо метод не реалізований, як повертається значення належить
-> **`false`**.
+> **Зауваження**
+> 
+> Якщо метод не реалізований, як значення, що повертається, належить **`false`**
 
 ### Дивіться також
 
-- [fflush()](function.fflush.md) - Скидає буфер виводу у файл
+-   [fflush()](function.fflush.html) - скидає буфер виведення у файл

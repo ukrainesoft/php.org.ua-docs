@@ -1,25 +1,34 @@
-- [«radius_create_request](function.radius-create-request.md)
-- [radius_cvt_int »](function.radius-cvt-int.md)
+Перетворює необроблені дані на IP-адресу
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Перетворює необроблені дані на IP-адресу
+-   [« radius\_create\_request](function.radius-create-request.html)
+    
+-   [radius\_cvt\_int »](function.radius-cvt-int.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Перетворює необроблені дані на IP-адресу
+    
 
-#radius_cvt_addr
+# radiuscvtaddr
 
-(PECL radius \>= 1.1.0)
+(PECL radius >= 1.1.0)
 
-radius_cvt_addr — Перетворює необроблені дані на IP-адресу
+radiuscvtaddr — Перетворює необроблені дані на IP-адресу
 
 ### Опис
 
-**radius_cvt_addr**(string `$data`): string
+```methodsynopsis
+radius_cvt_addr(string $data): string
+```
 
 Перетворює необроблені дані на IP-адресу
 
 ### Список параметрів
 
 `data`
+
 Вхідні дані
 
 ### Значення, що повертаються
@@ -28,16 +37,37 @@ radius_cvt_addr — Перетворює необроблені дані на IP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radius_cvt_addr()****
+**Приклад #1 Приклад використання **radiuscvtaddr()****
 
-` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));        exit;    }    $attr = $resa['attr'];    $data = $resa['data'];    switch ($attr) {    case RADIUS_FRAMED_IP_ADDRESS:        $ip = radius_cvt_addr($data );        echo "IP: $ip<br>
-";                                                          
-";        break;    }}?> `
+```php
+<?php
+while ($resa = radius_get_attr($res)) {
+
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
+
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+
+    switch ($attr) {
+
+    case RADIUS_FRAMED_IP_ADDRESS:
+        $ip = radius_cvt_addr($data);
+        echo "IP: $ip<br>\n";
+        break;
+
+    case RADIUS_FRAMED_IP_NETMASK:
+        $mask = radius_cvt_addr($data);
+        echo "Маска: $mask<br>\n";
+        break;
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [radius_cvt_int()](function.radius-cvt-int.md) - Перетворює
-необроблені дані в ціле число
-- [radius_cvt_string()](function.radius-cvt-string.md) - Перетворює
-необроблені дані у рядок
+-   [radius\_cvt\_int()](function.radius-cvt-int.html) - Перетворює необроблені дані на ціле число
+-   [radius\_cvt\_string()](function.radius-cvt-string.html) - Перетворює необроблені дані на рядок

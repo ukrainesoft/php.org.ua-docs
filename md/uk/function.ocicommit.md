@@ -1,21 +1,26 @@
-- [« ocicolumntyperaw](function.ocicolumntyperaw.md)
-- [ocidefinebyname »](function.ocidefinebyname.md)
+Псевдонім ocicommit
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_commit
+-   [« ocicolumntyperaw](function.ocicolumntyperaw.html)
+    
+-   [ocidefinebyname »](function.ocidefinebyname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ocicommit
+    
 
 # ocicommit
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicommit - Псевдонім [oci_commit()](function.oci-commit.md)
+ocicommit - Псевдонім [oci\_commit()](function.oci-commit.html)
 
 ### Опис
 
-Псевдонім [oci_commit()](function.oci-commit.md)
+Псевдонім [oci\_commit()](function.oci-commit.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

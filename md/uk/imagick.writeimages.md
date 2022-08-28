@@ -1,23 +1,29 @@
-- [« Imagick::writeImageFile](imagick.writeimagefile.md)
-- [Imagick::writeImagesFile »](imagick.writeimagesfile.md)
+Записує зображення або послідовність зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Записує зображення або послідовність зображень
+-   [« Imagick::writeImageFile](imagick.writeimagefile.html)
+    
+-   [Imagick::writeImagesFile »](imagick.writeimagesfile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Записує зображення або послідовність зображень
+    
 
 # Imagick::writeImages
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
-Imagick::writeImages — Записує зображення чи послідовність
-зображень
+Imagick::writeImages — Записує зображення або послідовність зображень
 
 ### Опис
 
-public **Imagick::writeImages**(string `$filename`, bool `$adjoin`):
-bool
+```methodsynopsis
+public Imagick::writeImages(string $filename, bool $adjoin): bool
+```
 
-Записує зображення або послідовність зображень.
+Записує зображення чи послідовність зображень.
 
 ### Список параметрів
 
@@ -27,4 +33,4 @@ bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

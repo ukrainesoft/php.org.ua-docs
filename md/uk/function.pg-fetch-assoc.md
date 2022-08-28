@@ -1,81 +1,87 @@
-- [« pg_fetch_array](function.pg-fetch-array.md)
-- [pg_fetch_object »](function.pg-fetch-object.md)
+Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Вибирає рядок результату запиту та поміщає дані до асоціативного
-масив
+-   [« pg\_fetch\_array](function.pg-fetch-array.html)
+    
+-   [pg\_fetch\_object »](function.pg-fetch-object.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
+    
 
-#pg_fetch_assoc
+# пгfetchassoc
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-pg_fetch_assoc — Вибирає рядок результату запиту та поміщає дані в
-асоціативний масив
+пгfetchassoc - Вибирає рядок результату запиту і поміщає дані в асоціативний масив
 
 ### Опис
 
-**pg_fetch_assoc**([PgSql\Result](class.pgsql-result.md) `$result`,
-?int `$row` = **`null`**): array\|false
+```methodsynopsis
+pg_fetch_assoc(PgSql\Result $result, ?int $row = null): array|false
+```
 
-**pg_fetch_assoc()** повертає асоціативний масив, що містить записи
-із рядка результату запиту.
+**пгfetchassoc()** повертає асоціативний масив, що містить запис з рядка результату запиту.
 
-Результат виконання **pg_fetch_assoc()** той самий, що й у
-[pg_fetch_array()](function.pg-fetch-array.md) з параметром
-**`PGSQL_ASSOC`**. Функція повертає лише асоціативний масив. Якщо
-потрібен чисельно-індексований масив, використовуйте функцію
-[pg_fetch_row()](function.pg-fetch-row.md).
+Результат виконання **пгfetchassoc()** той самий, що й у [pg\_fetch\_array()](function.pg-fetch-array.html) з параметром **`PGSQL_ASSOC`**. Функція повертає лише асоціативний масив. Якщо потрібний чисельно-індексований масив, використовуйте функцію [pg\_fetch\_row()](function.pg-fetch-row.html)
 
-> **Примітка**: Ця функція встановлює NULL-поля у значення
-> **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
-**pg_fetch_assoc()** не набагато повільніше і значно простіше в
-використання, ніж [pg_fetch_row()](function.pg-fetch-row.md).
+**пгfetchassoc()** не набагато повільніше і значно простіше у використанні, ніж [pg\_fetch\_row()](function.pg-fetch-row.html)
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `row`
-Номер вибирається з результату запиту рядка. Нумерація починається з
-нуля. Якщо аргумент опущений або дорівнює **`null`**, береться така
-черги рядок.
+
+Номер вибирається з результату запиту рядка. Нумерація починається із нуля. Якщо аргумент опущено або дорівнює **`null`**, береться наступний по черзі рядок.
 
 ### Значення, що повертаються
 
-Асоціативний масив індексований іменами полів вибірки. Значення
-масиву представляються як текстових рядків. Значення `NULL` бази
-даних перетворюються на PHP **`null`**.
+Асоціативний масив індексований іменами полів вибірки. Значення масиву представляються як текстових рядків. Значення `NULL` бази даних перетворюються на PHP **`null`**
 
-**`false`**, якщо `row` перевищує кількість рядків у результаті запиту,
-коли рядків у результаті не залишилося, та за інших помилок.
+**`false`**, якщо `row` перевищує кількість рядків у результаті запиту, коли рядків у результаті не залишилося, та за інших помилок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_fetch_assoc()****
+**Приклад #1 Приклад використання **пгfetchassoc()****
 
-` <?php$conn = pg_connect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}$result =pg_query($conn, "SELECT id, author, email FROM authors");if (!$result) { echo "Відбулася помилка.
-";  exit;}while ($row = pg_fetch_assoc($result)) {  echo $row['id']; echo $row['author'];  echo $row['email'];}?> `
+```php
+<?php
+$conn = pg_connect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+$result = pg_query($conn, "SELECT id, author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+while ($row = pg_fetch_assoc($result)) {
+  echo $row['id'];
+  echo $row['author'];
+  echo $row['email'];
+}
+?>
+```
 
 ### Дивіться також
 
-- [pg_fetch_row()](function.pg-fetch-row.md) - Вибирає рядок
-результату запиту та поміщає дані в масив
-- [pg_fetch_array()](function.pg-fetch-array.md) - Повертає рядок
-результату у вигляді масиву
-- [pg_fetch_object()](function.pg-fetch-object.md) - Вибирає рядок
-результату запиту та повертає дані у вигляді об'єкта
-- [pg_fetch_result()](function.pg-fetch-result.md) - Повертає
-запис з результату запиту
+-   [pg\_fetch\_row()](function.pg-fetch-row.html) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [pg\_fetch\_array()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [pg\_fetch\_object()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [pg\_fetch\_result()](function.pg-fetch-result.html) - Повертає запис із результату запиту

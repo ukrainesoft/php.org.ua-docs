@@ -1,19 +1,27 @@
-- [« Vtiful\Kernel\Excel::fileName](vtiful-kernel-excel.filename.md)
-- [Vtiful\Kernel\Excel::header »](vtiful-kernel-excel.header.md)
+Отримати дескриптор
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- Отримати дескриптор
+-   [« Vtiful\\Kernel\\Excel::fileName](vtiful-kernel-excel.filename.html)
+    
+-   [Vtiful\\Kernel\\Excel::header »](vtiful-kernel-excel.header.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
+-   Отримати дескриптор
+    
 
-# Vtiful\Kernel\Excel::getHandle
+# VtifulKernelExcel::getHandle
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::getHandle — Отримати дескриптор
+VtifulKernelExcel::getHandle — Отримати дескриптор
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::getHandle**()
+```methodsynopsis
+public Vtiful\Kernel\Excel::getHandle()
+```
 
 Отримати дескриптор текстового ресурсу xlsx.
 
@@ -29,4 +37,17 @@ public **Vtiful\Kernel\Excel::getHandle**()
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$fileObject  = new \Vtiful\Kernel\Excel($config);$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')    ->header(['name', 'age']);$handle==$file->getHandle();?> `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$fileObject  = new \Vtiful\Kernel\Excel($config);
+
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age']);
+
+$handle = $file->getHandle();
+?>
+```

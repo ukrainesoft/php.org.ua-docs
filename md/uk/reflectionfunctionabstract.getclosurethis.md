@@ -1,25 +1,31 @@
-- [« ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)
-- [ReflectionFunctionAbstract::getClosureUsedVariables »](reflectionfunctionabstract.getclosureusedvariables.md)
+Повертає покажчик, прив'язаний до замикання
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Повертає вказівник, прив'язаний до замикання
+-   [« ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.html)
+    
+-   [ReflectionFunctionAbstract::getClosureUsedVariables »](reflectionfunctionabstract.getclosureusedvariables.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Повертає покажчик, прив'язаний до замикання
+    
 
 # ReflectionFunctionAbstract::getClosureThis
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getClosureThis — Повертає вказівник,
-прив'язаний до замикання
+ReflectionFunctionAbstract::getClosureThis — Повертає вказівник, прив'язаний до замикання
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getClosureThis**(): ?object
+```methodsynopsis
+public ReflectionFunctionAbstract::getClosureThis(): ?object
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,5 +33,4 @@ public **ReflectionFunctionAbstract::getClosureThis**(): ?object
 
 ### Значення, що повертаються
 
-Повертає вказівник `$this`. Повертає **`null`** у разі
-виникнення помилки.
+Повертає покажчик $this. Повертає **`null`** у разі виникнення помилки.

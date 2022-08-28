@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::readonly](yaf-config-ini.readonly.md)
-- [Yaf_Config_Ini::\_\_set »](yaf-config-ini.set.md)
+Призначення rewind
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Призначення rewind
+-   [« Yaf\_Config\_Ini::readonly](yaf-config-ini.readonly.html)
+    
+-   [Yaf\_Config\_Ini::\_\_set »](yaf-config-ini.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Призначення rewind
+    
 
-# Yaf_Config_Ini::rewind
+# YafConfigIni::rewind
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::rewind — Призначення rewind
+YafConfigIni::rewind — Призначення rewind
 
 ### Опис
 
-public **Yaf_Config_Ini::rewind**(): void
+```methodsynopsis
+public Yaf_Config_Ini::rewind(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

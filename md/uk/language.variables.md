@@ -1,16 +1,22 @@
-- [«Маніпуляції з типами](language.types.type-juggling.md)
-- [Основи »](language.variables.basics.md)
+Змінні
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- змінні
+-   [« Манипуляции с типами](language.types.type-juggling.html)
+    
+-   [Основы »](language.variables.basics.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Змінні
+    
 
 # Змінні
 
 ## Зміст
 
-- [Основи](language.variables.basics.md)
-- [Перевизначені змінні](language.variables.predefined.md)
-- [Область видимості змінної](language.variables.scope.md)
-- [Змінні змінні](language.variables.variable.md)
-- [Змінні ззовні PHP](language.variables.external.md)
+-   [Основы](language.variables.basics.html)
+-   [Предопределённые переменные](language.variables.predefined.html)
+-   [Область видимости переменной](language.variables.scope.html)
+-   [Переменные переменных](language.variables.variable.html)
+-   [Переменные извне PHP](language.variables.external.html)

@@ -1,36 +1,43 @@
-- [« Gmagick::setsamplingfactors](gmagick.setsamplingfactors.md)
-- [Gmagick::shearimage »](gmagick.shearimage.md)
+Встановлює розмір об'єкта Gmagick
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює розмір об'єкта Gmagick
+-   [« Gmagick::setsamplingfactors](gmagick.setsamplingfactors.html)
+    
+-   [Gmagick::shearimage »](gmagick.shearimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює розмір об'єкта Gmagick
+    
 
 # Gmagick::setsize
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setsize — Встановлює розмір об'єкта Gmagick
 
 ### Опис
 
-public **Gmagick::setsize**(int `$columns`, int `$rows`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setsize(int $columns, int $rows): Gmagick
+```
 
-Встановлює розмір об'єкта Gmagick. Встановіть його, перш ніж читати
-сирий формат зображення, такий як **`Gmagick::COLORSPACE_RGB`**,
-**`Gmagick::COLORSPACE_GRAY`** або **`Gmagick::COLORSPACE_CMYK`**.
+Встановлює розмір об'єкта Gmagick. Встановіть його, перш ніж читати сирий формат зображення, такий як **`Gmagick::COLORSPACE_RGB`** **`Gmagick::COLORSPACE_GRAY`** або **`Gmagick::COLORSPACE_CMYK`**
 
 ### Список параметрів
 
 `columns`
+
 Ширина у пікселях.
 
 `rows`
+
 Висота у пікселях.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

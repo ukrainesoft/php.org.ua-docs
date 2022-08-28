@@ -1,19 +1,27 @@
-- [« Swoole\Http\Response::cookie](swoole-http-response.cookie.md)
-- [Swoole\Http\Response::end »](swoole-http-response.end.md)
+Знищує HTTP-відповідь
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Знищує HTTP-відповідь
+-   [« Swoole\\Http\\Response::cookie](swoole-http-response.cookie.html)
+    
+-   [Swoole\\Http\\Response::end »](swoole-http-response.end.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Response](class.swoole-http-response.html)
+    
+-   Знищує HTTP-відповідь
+    
 
-# Swoole\Http\Response::\_\_destruct
+# SwooleHttpResponse::destruct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Response::\_\_destruct — Знищує HTTP-відповідь
+SwooleHttpResponse::destruct — Знищує HTTP-відповідь
 
 ### Опис
 
-public **Swoole\Http\Response::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Http\Response::__destruct(): void
+```
 
 ### Список параметрів
 

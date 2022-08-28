@@ -1,26 +1,34 @@
-- [«UI\Control::isVisible](ui-control.isvisible.md)
-- [UI\Control::show »](ui-control.show.md)
+Встановити батьківський керуючий елемент
 
-- [PHP Manual](index.md)
-- [UI\Control](class.ui-control.md)
-- Встановити батьківський керуючий елемент
+-   [« UI\\Control::isVisible](ui-control.isvisible.html)
+    
+-   [UI\\Control::show »](ui-control.show.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Control](class.ui-control.html)
+    
+-   Встановити батьківський керуючий елемент
+    
 
-# UI\Control::setParent
+# ОЙControl::setParent
 
 (UI 0.9.9)
 
-UI\Control::setParent — Встановити батьківський керуючий елемент
+ОЙControl::setParent — Встановити батьківський керуючий елемент
 
 ### Опис
 
-public **UI\Control::setParent**([UI\Control](class.ui-control.md)
-`$parent`)
+```methodsynopsis
+public UI\Control::setParent(UI\Control $parent)
+```
 
-Встановить батьківський керуючий елемент цього елемента керування
+Встановить батьківський елемент цього управління
 
 ### Список параметрів
 
 `parent`
+
 Батьківський керуючий елемент
 
 ### Значення, що повертаються

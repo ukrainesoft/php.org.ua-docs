@@ -1,25 +1,26 @@
-- [« Типи ресурсів](enchant.resources.md)
-- [Приклади »](enchant.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Enchant](book.enchant.md)
-- Обумовлені константи
+-   [« Типы ресурсов](enchant.resources.html)
+    
+-   [Примеры »](enchant.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Enchant](book.enchant.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 **`LIBENCHANT_VERSION`** (string)
-Версія libenchant. Доступно із PHP 8.0.0.
+
+Версія libenchant. Доступно з PHP 8.0.0.
 
 **`ENCHANT_MYSPELL`** (int)
-Тип словника MySpell. Використовується з
-[enchant_broker_get_dict_path()](function.enchant-broker-get-dict-path.md)
-і
-[enchant_broker_set_dict_path()](function.enchant-broker-set-dict-path.md).
-Оголошено застарілим у PHP 8.0.0.
+
+Тип словника MySpell. Використовується з [enchant\_broker\_get\_dict\_path()](function.enchant-broker-get-dict-path.html) і [enchant\_broker\_set\_dict\_path()](function.enchant-broker-set-dict-path.html). Оголошено застарілим у PHP 8.0.0.
 
 **`ENCHANT_ISPELL`** (int)
-Тип словника Ispell. Використовується з
-[enchant_broker_get_dict_path()](function.enchant-broker-get-dict-path.md)
-і
-[enchant_broker_set_dict_path()](function.enchant-broker-set-dict-path.md).
-Оголошено застарілим у PHP 8.0.0.
+
+Тип словника Ispell. Використовується з [enchant\_broker\_get\_dict\_path()](function.enchant-broker-get-dict-path.html) і [enchant\_broker\_set\_dict\_path()](function.enchant-broker-set-dict-path.html). Оголошено застарілим у PHP 8.0.0.

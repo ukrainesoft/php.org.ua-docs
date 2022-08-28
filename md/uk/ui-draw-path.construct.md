@@ -1,24 +1,30 @@
-- [« UI\Draw\Path::closeFigure](ui-draw-path.closefigure.md)
-- [UI\Draw\Path::end »](ui-draw-path.end.md)
+Створити новий об'єкт Path
 
-- [PHP Manual](index.md)
-- [UI\Draw\Path](class.ui-draw-path.md)
-- Створити новий об'єкт Path
+-   [« UI\\Draw\\Path::closeFigure](ui-draw-path.closefigure.html)
+    
+-   [UI\\Draw\\Path::end »](ui-draw-path.end.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Path](class.ui-draw-path.html)
+    
+-   Створити новий об'єкт Path
+    
 
-# UI\Draw\Path::\_\_construct
+# ОЙDrawPath::construct
 
 (UI 0.9.9)
 
-UI\Draw\Path::\_\_construct — Створити новий об'єкт Path
+ОЙDrawPath::construct — Створити новий об'єкт Path
 
 ### Опис
 
-public **UI\Draw\Path::\_\_construct**(int `$mode` =
-UI\Draw\Path::Winding)
+public **ОЙDrawPath::construct**(int `$mode` = UIDrawPath::Winding)
 
 Створить новий шлях у заданому режимі
 
 ### Список параметрів
 
 `mode`
+
 Path::Winding або Path::Alternate

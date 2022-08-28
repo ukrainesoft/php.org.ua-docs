@@ -1,30 +1,36 @@
-- [«imagecreate](function.imagecreate.md)
-- [imagecreatefrombmp »](function.imagecreatefrombmp.md)
+Створює нове зображення з файлу чи URL
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Створює нове зображення із файлу або URL
+-   [« imagecreate](function.imagecreate.html)
+    
+-   [imagecreatefrombmp »](function.imagecreatefrombmp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Створює нове зображення з файлу чи URL
+    
 
-#imagecreatefromavif
+# imagecreatefromavif
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-imagecreatefromavif — Створення нового зображення з файлу або URL
+imagecreatefromavif — Створює нове зображення з файлу чи URL
 
 ### Опис
 
-**imagecreatefromavif**(string `$filename`):
-[GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagecreatefromavif(string $filename): GdImage|false
+```
 
-**imagecreatefromavif()** повертає об'єкт зображення, що представляє
-зображення, отримане з цього імені файлу.
+**imagecreatefromavif()** повертає об'єкт зображення, що представляє зображення, одержане з цього імені файлу.
 
 ### Список параметрів
 
 `filename`
+
 Дорога до растрового зображення AVIF.
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.

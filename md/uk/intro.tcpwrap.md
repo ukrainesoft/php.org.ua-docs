@@ -1,11 +1,16 @@
-- [TCP](book.tcpwrap.md)
-- [Встановлення та налаштування »](tcpwrap.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [TCP](book.tcpwrap.md)
+-   [« TCP](book.tcpwrap.html)
+    
+-   [Установка и настройка »](tcpwrap.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [TCP](book.tcpwrap.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Обертки TCP надають класичний механізм Unix для перевірки, може
-віддалений клієнт з'єднуватися з вказаною IP-адресою.
+Обертки TCP надають класичний механізм Unix для перевірки, чи може вилучений клієнт з'єднуватися з вказаною IP-адресою.

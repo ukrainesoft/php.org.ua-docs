@@ -1,32 +1,44 @@
-- [« Lua::registerCallback](lua.registercallback.md)
-- [LuaClosure::\_\_invoke »](luaclosure.invoke.md)
+Клас LuaClosure
 
-- [PHP Manual](index.md)
-- [Lua](book.lua.md)
-- Клас LuaClosure
+-   [« Lua::registerCallback](lua.registercallback.html)
+    
+-   [LuaClosure::\_\_invoke »](luaclosure.invoke.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Lua](book.lua.html)
+    
+-   Клас LuaClosure
+    
 
 # Клас LuaClosure
 
-(PECL lua \>=0.9.0)
+(PECL lua> = 0.9.0)
 
 ## Вступ
 
-LuaClosure – це клас обгортка для LUA_TFUNCTION, яка може бути
-повернена під час виклику функції Lua.
+Lua Closure – це клас обгортка для LUATFUNCTION, яка може бути повернена під час виклику функції Lua.
 
 ## Огляд класів
 
-class **LuaClosure** {
+```classsynopsis
 
-/\* Методи \*/
 
-public
-[\_\_invoke](luaclosure.invoke.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`): void
+    
+    
+     
+      class LuaClosure
+     
+     {
+    
 
-}
+    /* Методы */
+    
+   public __invoke(mixed ...$args): void
+
+   }
+```
 
 ## Зміст
 
-- [LuaClosure::\_\_invoke](luaclosure.invoke.md) — Виклик замикання
-Lua
+-   [LuaClosure::\_\_invoke](luaclosure.invoke.html) — Виклик замикання Lua

@@ -1,45 +1,54 @@
-- [«Countable::count](countable.count.md)
-- [OuterIterator::getInnerIterator »](outeriterator.getinneriterator.md)
+Інтерфейс OuterIterator
 
-- [PHP Manual](index.md)
-- [Інтерфейси](spl.interfaces.md)
-- Інтерфейс OuterIterator
+-   [« Countable::count](countable.count.html)
+    
+-   [OuterIterator::getInnerIterator »](outeriterator.getinneriterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Интерфейсы](spl.interfaces.html)
+    
+-   Інтерфейс OuterIterator
+    
 
 # Інтерфейс OuterIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Класи, що реалізують **OuterIterator**, можуть бути використані для
-перебору ітераторів.
+Класи, що реалізують **OuterIterator**, можуть бути використані для перебору ітераторів
 
 ## Огляд інтерфейсів
 
-interface **OuterIterator** extends [Iterator](class.iterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getInnerIterator](outeriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
+    
+     
+      interface OuterIterator
+      extends
+       Iterator
+     
+     {
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public getInnerIterator(): ?Iterator
 
-public [Iterator::current](iterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [Iterator::key](iterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Наследуемые методы */
+    public Iterator::current(): mixed
+public Iterator::key(): mixed
+public Iterator::next(): void
+public Iterator::rewind(): void
+public Iterator::valid(): bool
 
-public [Iterator::next](iterator.next.md)(): void
-
-public [Iterator::rewind](iterator.rewind.md)(): void
-
-public [Iterator::valid](iterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [OuterIterator::getInnerIterator](outeriterator.getinneriterator.md)
-— Повертає внутрішній ітератор до поточного елемента
+-   [OuterIterator::getInnerIterator](outeriterator.getinneriterator.html) — Повертає внутрішній ітератор для поточного елемента

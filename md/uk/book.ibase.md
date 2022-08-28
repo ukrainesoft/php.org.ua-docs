@@ -1,208 +1,119 @@
-- [« dbase_replace_record](function.dbase-replace-record.md)
-- [Вступ »](intro.ibase.md)
+Firebird/InterBase
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-- Firebird/InterBase
+-   [« dbase\_replace\_record](function.dbase-replace-record.html)
+    
+-   [Введение »](intro.ibase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с базами данных отдельных производителей](refs.database.vendors.html)
+    
+-   Firebird/InterBase
+    
 
 # Firebird/InterBase
 
-- [Вступ](intro.ibase.md)
-- [Встановлення та налаштування](ibase.setup.md)
-- [Вимоги](ibase.requirements.md)
-- [Установка](ibase.installation.md)
-- [Налаштування під час виконання](ibase.configuration.md)
-- [Типи ресурсів](ibase.resources.md)
-- [Предвизначені константи](ibase.constants.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- [fbird_add_user](function.fbird-add-user.md) - Псевдонім
-ibase_add_user
-- [fbird_affected_rows](function.fbird-affected-rows.md) -
-Псевдонім ibase_affected_rows
-- [fbird_backup](function.fbird-backup.md) - Псевдонім
-ibase_backup
-- [fbird_blob_add](function.fbird-blob-add.md) - Псевдонім
-ibase_blob_add
-- [fbird_blob_cancel](function.fbird-blob-cancel.md) — Скасує
-створення BLOB
-- [fbird_blob_close](function.fbird-blob-close.md) - Псевдонім
-ibase_blob_close
-- [fbird_blob_create](function.fbird-blob-create.md) - Псевдонім
-ibase_blob_create
-- [fbird_blob_echo](function.fbird-blob-echo.md) - Псевдонім
-ibase_blob_echo
-- [fbird_blob_get](function.fbird-blob-get.md) - Псевдонім
-ibase_blob_get
-- [fbird_blob_import](function.fbird-blob-import.md) - Псевдонім
-ibase_blob_import
-- [fbird_blob_info](function.fbird-blob-info.md) - Псевдонім
-ibase_blob_info
-- [fbird_blob_open](function.fbird-blob-open.md) - Псевдонім
-ibase_blob_open
-- [fbird_close](function.fbird-close.md) - Псевдонім ibase_close
-- [fbird_commit_ret](function.fbird-commit-ret.md) - Псевдонім
-ibase_commit_ret
-- [fbird_commit](function.fbird-commit.md) - Псевдонім
-ibase_commit
-- [fbird_connect](function.fbird-connect.md) - Псевдонім
-ibase_connect
-- [fbird_db_info](function.fbird-db-info.md) - Псевдонім
-ibase_db_info
-- [fbird_delete_user](function.fbird-delete-user.md) - Псевдонім
-ibase_delete_user
-- [fbird_drop_db](function.fbird-drop-db.md) - Псевдонім
-ibase_drop_db
-- [fbird_errcode](function.fbird-errcode.md) - Псевдонім
-ibase_errcode
-- [fbird_errmsg](function.fbird-errmsg.md) - Псевдонім
-ibase_errmsg
-- [fbird_execute](function.fbird-execute.md) - Псевдонім
-ibase_execute
-- [fbird_fetch_assoc](function.fbird-fetch-assoc.md) - Псевдонім
-ibase_fetch_assoc
-- [fbird_fetch_object](function.fbird-fetch-object.md) -
-Псевдонім ibase_fetch_object
-- [fbird_fetch_row](function.fbird-fetch-row.md) - Псевдонім
-ibase_fetch_row
-- [fbird_field_info](function.fbird-field-info.md) - Псевдонім
-ibase_field_info
-- [fbird_free_event_handler](function.fbird-free-event-handler.md)
-- Псевдонім ibase_free_event_handler
-- [fbird_free_query](function.fbird-free-query.md) - Псевдонім
-ibase_free_query
-- [fbird_free_result](function.fbird-free-result.md) - Псевдонім
-ibase_free_result
-- [fbird_gen_id](function.fbird-gen-id.md) - Псевдонім
-ibase_gen_id
-- [fbird_maintain_db](function.fbird-maintain-db.md) - Псевдонім
-ibase_maintain_db
-- [fbird_modify_user](function.fbird-modify-user.md) - Псевдонім
-ibase_modify_user
-- [fbird_name_result](function.fbird-name-result.md) - Псевдонім
-ibase_name_result
-- [fbird_num_fields](function.fbird-num-fields.md) - Псевдонім
-ibase_num_fields
-- [fbird_num_params](function.fbird-num-params.md) - Псевдонім
-ibase_num_params
-- [fbird_param_info](function.fbird-param-info.md) - Псевдонім
-ibase_param_info
-- [fbird_pconnect](function.fbird-pconnect.md) - Псевдонім
-ibase_pconnect
-- [fbird_prepare](function.fbird-prepare.md) - Псевдонім
-ibase_prepare
-- [fbird_query](function.fbird-query.md) - Псевдонім ibase_query
-- [fbird_restore](function.fbird-restore.md) - Псевдонім
-ibase_restore
-- [fbird_rollback_ret](function.fbird-rollback-ret.md) -
-Псевдонім ibase_rollback_ret
-- [fbird_rollback](function.fbird-rollback.md) - Псевдонім
-ibase_rollback
-- [fbird_server_info](function.fbird-server-info.md) - Псевдонім
-ibase_server_info
-- [fbird_service_attach](function.fbird-service-attach.md) -
-Псевдонім ibase_service_attach
-- [fbird_service_detach](function.fbird-service-detach.md) -
-Псевдонім ibase_service_detach
-- [fbird_set_event_handler](function.fbird-set-event-handler.md)
-- Псевдонім ibase_set_event_handler
-- [fbird_trans](function.fbird-trans.md) - Псевдонім ibase_trans
-- [fbird_wait_event](function.fbird-wait-event.md) - Псевдонім
-ibase_wait_event
-- [ibase_add_user](function.ibase-add-user.md) - Додає
-користувача в безпечну базу даних
-- [ibase_affected_rows](function.ibase-affected-rows.md) -
-Повертає кількість рядків, на які вплинув попередній
-запит
-- [ibase_backup](function.ibase-backup.md) - Ініціює завдання
-резервного копіювання в диспетчері служб та негайно
-повертає
-- [ibase_blob_add](function.ibase-blob-add.md) - Додає
-дані у новостворений BLOB-об'єкт
-- [ibase_blob_cancel](function.ibase-blob-cancel.md) — Скасує
-створення BLOB-об'єкта
-- [ibase_blob_close](function.ibase-blob-close.md) - Закриває
-BLOB-об'єкт
-- [ibase_blob_create](function.ibase-blob-create.md) - Створює
-новий BLOB-об'єкт для заповнення даними
-- [ibase_blob_echo](function.ibase-blob-echo.md) - Виводить
-вміст BLOB-об'єкта у браузер
-- [ibase_blob_get](function.ibase-blob-get.md) - Отримує
-кількість байтів від відкритого BLOB-об'єкта
-- [ibase_blob_import](function.ibase-blob-import.md) — Створює
-BLOB-об'єкт, копіює файл і закриває його
-- [ibase_blob_info](function.ibase-blob-info.md) - Повертає
-довжину BLOB-об'єкта та іншу корисну інформацію
-- [ibase_blob_open](function.ibase-blob-open.md) - Відкриває
-BLOB-об'єкт для вилучення частин даних
-- [ibase_close](function.ibase-close.md) — Закриває з'єднання
-з базою даних InterBase
-- [ibase_commit_ret](function.ibase-commit-ret.md) - Фіксує
-транзакцію, не закриваючи її
-- [ibase_commit](function.ibase-commit.md) - Фіксує
-транзакцію
-- [ibase_connect](function.ibase-connect.md) — Відкриває
-з'єднання з базою даних
-- [ibase_db_info](function.ibase-db-info.md) - Запитує
-статистику бази даних
-- [ibase_delete_user](function.ibase-delete-user.md) — Видаляє
-користувача з безпечної бази даних
-- [ibase_drop_db](function.ibase-drop-db.md) — Видаляє базу
-даних
-- [ibase_errcode](function.ibase-errcode.md) - Повертає код
-помилки
-- [ibase_errmsg](function.ibase-errmsg.md) - Повертає
-повідомлення про помилку
-- [ibase_execute](function.ibase-execute.md) — Виконує
-попередньо підготовлений запит
-- [ibase_fetch_assoc](function.ibase-fetch-assoc.md) - Витягує
-рядок результату із запиту у вигляді асоціативного масиву
-- [ibase_fetch_object](function.ibase-fetch-object.md) -
-Отримує об'єкт із бази даних InterBase
-- [ibase_fetch_row](function.ibase-fetch-row.md) - Витягує
-рядок із бази даних InterBase
-- [ibase_field_info](function.ibase-field-info.md) - Отримує
-інформацію про поле
-- [ibase_free_event_handler](function.ibase-free-event-handler.md)
-— Скасує зареєстрований обробник події
-- [ibase_free_query](function.ibase-free-query.md) - Звільняє
-пам'ять, виділену для підготовки запиту
-- [ibase_free_result](function.ibase-free-result.md) -
-Звільняє набір результатів
-- [ibase_gen_id](function.ibase-gen-id.md) - Збільшує
-вказаний генератор та повертає його нове значення
-- [ibase_maintain_db](function.ibase-maintain-db.md) — Виконує
-команду обслуговування на сервері бази даних
-- [ibase_modify_user](function.ibase-modify-user.md) — Змінює
-користувача в безпечній базі даних
-- [ibase_name_result](function.ibase-name-result.md) -
-Надає ім'я набору результатів
-- [ibase_num_fields](function.ibase-num-fields.md) - Повертає
-кількість полів у результуючому наборі
-- [ibase_num_params](function.ibase-num-params.md) - Повертає
-кількість параметрів у підготовленому запиті
-- [ibase_param_info](function.ibase-param-info.md) - Повертає
-інформацію про параметр у підготовленому запиті
-- [ibase_pconnect](function.ibase-pconnect.md) — Відкриває
-постійне з'єднання з базою даних InterBase
-- [ibase_prepare](function.ibase-prepare.md) — Підготовка
-запит для подальшого зв'язування псевдозмінних та виконання
-- [ibase_query](function.ibase-query.md) — Виконує запит до
-базі даних InterBase
-- [ibase_restore](function.ibase-restore.md) — Запускає завдання
-відновлення в диспетчері служб та негайно повертається
-- [ibase_rollback_ret](function.ibase-rollback-ret.md) -
-Відкочує транзакцію, не закриваючи її
-- [ibase_rollback](function.ibase-rollback.md) - Відкочує
-транзакцію
-- [ibase_server_info](function.ibase-server-info.md) -
-Запитує інформацію про сервер бази даних
-- [ibase_service_attach](function.ibase-service-attach.md) -
-Підключається до диспетчера служб
-- [ibase_service_detach](function.ibase-service-detach.md) -
-Відключається від диспетчера служб
-- [ibase_set_event_handler](function.ibase-set-event-handler.md)
-— Реєструє callback-функцію, яка буде викликатись при
-публікації подій
-- [ibase_trans](function.ibase-trans.md) - Починає транзакцію
-- [ibase_wait_event](function.ibase-wait-event.md) - Чекаємо, поки
-подія буде опублікована в базі даних
+-   [Введение](intro.ibase.html)
+-   [Установка и настройка](ibase.setup.html)
+    -   [Требования](ibase.requirements.html)
+    -   [Установка](ibase.installation.html)
+    -   [Настройка во время выполнения](ibase.configuration.html)
+    -   [Типы ресурсов](ibase.resources.html)
+-   [Предопределённые константы](ibase.constants.html)
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    -   [fbird\_add\_user](function.fbird-add-user.html) - Псевдонім ibaseadduser
+    -   [fbird\_affected\_rows](function.fbird-affected-rows.html) - Псевдонім ibaseaffectedrows
+    -   [fbird\_backup](function.fbird-backup.html) - Псевдонім ibasebackup
+    -   [fbird\_blob\_add](function.fbird-blob-add.html) - Псевдонім ibaseblobadd
+    -   [fbird\_blob\_cancel](function.fbird-blob-cancel.html) — Скасує створення BLOB
+    -   [fbird\_blob\_close](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
+    -   [fbird\_blob\_create](function.fbird-blob-create.html) - Псевдонім ibaseblobcreate
+    -   [fbird\_blob\_echo](function.fbird-blob-echo.html) - Псевдонім ibaseblobecho
+    -   [fbird\_blob\_get](function.fbird-blob-get.html) - Псевдонім ibaseblobget
+    -   [fbird\_blob\_import](function.fbird-blob-import.html) - Псевдонім ibaseblobimport
+    -   [fbird\_blob\_info](function.fbird-blob-info.html) - Псевдонім ibaseblobinfo
+    -   [fbird\_blob\_open](function.fbird-blob-open.html) - Псевдонім ibaseblobopen
+    -   [fbird\_close](function.fbird-close.html) - Псевдонім ibaseclose
+    -   [fbird\_commit\_ret](function.fbird-commit-ret.html) - Псевдонім ibasecommitret
+    -   [fbird\_commit](function.fbird-commit.html) - Псевдонім ibasecommit
+    -   [fbird\_connect](function.fbird-connect.html) - Псевдонім ibaseconnect
+    -   [fbird\_db\_info](function.fbird-db-info.html) - Псевдонім ibaseдбinfo
+    -   [fbird\_delete\_user](function.fbird-delete-user.html) - Псевдонім ibasedeleteuser
+    -   [fbird\_drop\_db](function.fbird-drop-db.html) - Псевдонім ibasedropдб
+    -   [fbird\_errcode](function.fbird-errcode.html) - Псевдонім ibaseerrcode
+    -   [fbird\_errmsg](function.fbird-errmsg.html) - Псевдонім ibaseerrmsg
+    -   [fbird\_execute](function.fbird-execute.html) - Псевдонім ibaseexecute
+    -   [fbird\_fetch\_assoc](function.fbird-fetch-assoc.html) - Псевдонім ibasefetchassoc
+    -   [fbird\_fetch\_object](function.fbird-fetch-object.html) - Псевдонім ibasefetchobject
+    -   [fbird\_fetch\_row](function.fbird-fetch-row.html) - Псевдонім ibasefetchrow
+    -   [fbird\_field\_info](function.fbird-field-info.html) - Псевдонім ibasefieldinfo
+    -   [fbird\_free\_event\_handler](function.fbird-free-event-handler.html) - Псевдонім ibasefreeeventhandler
+    -   [fbird\_free\_query](function.fbird-free-query.html) - Псевдонім ibasefreequery
+    -   [fbird\_free\_result](function.fbird-free-result.html) - Псевдонім ibasefreeresult
+    -   [fbird\_gen\_id](function.fbird-gen-id.html) - Псевдонім ibaseгенід
+    -   [fbird\_maintain\_db](function.fbird-maintain-db.html) - Псевдонім ibasemaintainдб
+    -   [fbird\_modify\_user](function.fbird-modify-user.html) - Псевдонім ibasemodifyuser
+    -   [fbird\_name\_result](function.fbird-name-result.html) - Псевдонім ibasenameresult
+    -   [fbird\_num\_fields](function.fbird-num-fields.html) - Псевдонім ibasenumfields
+    -   [fbird\_num\_params](function.fbird-num-params.html) - Псевдонім ibasenumparams
+    -   [fbird\_param\_info](function.fbird-param-info.html) - Псевдонім ibaseparaminfo
+    -   [fbird\_pconnect](function.fbird-pconnect.html) - Псевдонім ibasepconnect
+    -   [fbird\_prepare](function.fbird-prepare.html) - Псевдонім ibaseprepare
+    -   [fbird\_query](function.fbird-query.html) - Псевдонім ibasequery
+    -   [fbird\_restore](function.fbird-restore.html) - Псевдонім ibaserestore
+    -   [fbird\_rollback\_ret](function.fbird-rollback-ret.html) - Псевдонім ibaserollbackret
+    -   [fbird\_rollback](function.fbird-rollback.html) - Псевдонім ibaserollback
+    -   [fbird\_server\_info](function.fbird-server-info.html) - Псевдонім ibaseserverinfo
+    -   [fbird\_service\_attach](function.fbird-service-attach.html) - Псевдонім ibaseserviceattach
+    -   [fbird\_service\_detach](function.fbird-service-detach.html) - Псевдонім ibaseservicedetach
+    -   [fbird\_set\_event\_handler](function.fbird-set-event-handler.html) - Псевдонім ibaseseteventhandler
+    -   [fbird\_trans](function.fbird-trans.html) - Псевдонім ibasetrans
+    -   [fbird\_wait\_event](function.fbird-wait-event.html) - Псевдонім ibasewaitevent
+    -   [ibase\_add\_user](function.ibase-add-user.html) — Додає користувача до безпечної бази даних
+    -   [ibase\_affected\_rows](function.ibase-affected-rows.html) — Повертає кількість рядків, на які вплинув попередній запит
+    -   [ibase\_backup](function.ibase-backup.html) — Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
+    -   [ibase\_blob\_add](function.ibase-blob-add.html) — Додає дані у новостворений BLOB-об'єкт
+    -   [ibase\_blob\_cancel](function.ibase-blob-cancel.html) — Скасує створення BLOB-об'єкта
+    -   [ibase\_blob\_close](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+    -   [ibase\_blob\_create](function.ibase-blob-create.html) — Створює новий BLOB-об'єкт для заповнення даними
+    -   [ibase\_blob\_echo](function.ibase-blob-echo.html) — Виводить вміст BLOB-об'єкта у браузер
+    -   [ibase\_blob\_get](function.ibase-blob-get.html) — Отримує кількість байтів від відкритого BLOB-об'єкта
+    -   [ibase\_blob\_import](function.ibase-blob-import.html) — Створює BLOB-об'єкт, копіює файл і закриває його.
+    -   [ibase\_blob\_info](function.ibase-blob-info.html) — Повертає довжину BLOB-об'єкта та іншу корисну інформацію
+    -   [ibase\_blob\_open](function.ibase-blob-open.html) — Відкриває BLOB-об'єкт для вилучення частин даних
+    -   [ibase\_close](function.ibase-close.html) — Закриває з'єднання з базою даних InterBase
+    -   [ibase\_commit\_ret](function.ibase-commit-ret.html) - Фіксує транзакцію, не закриваючи її
+    -   [ibase\_commit](function.ibase-commit.html) - Фіксує транзакцію
+    -   [ibase\_connect](function.ibase-connect.html) — Відкриває з'єднання з базою даних
+    -   [ibase\_db\_info](function.ibase-db-info.html) — Запитує статистику бази даних
+    -   [ibase\_delete\_user](function.ibase-delete-user.html) — Видаляє користувача з безпечної бази даних
+    -   [ibase\_drop\_db](function.ibase-drop-db.html) — Видаляє базу даних
+    -   [ibase\_errcode](function.ibase-errcode.html) — Повертає код помилки
+    -   [ibase\_errmsg](function.ibase-errmsg.html) — Повертає повідомлення про помилку
+    -   [ibase\_execute](function.ibase-execute.html) - Виконує попередньо підготовлений запит
+    -   [ibase\_fetch\_assoc](function.ibase-fetch-assoc.html) — Витягує рядок результату із запиту у вигляді асоціативного масиву
+    -   [ibase\_fetch\_object](function.ibase-fetch-object.html) — Отримує об'єкт із бази даних InterBase
+    -   [ibase\_fetch\_row](function.ibase-fetch-row.html) — Витягує рядок із бази даних InterBase
+    -   [ibase\_field\_info](function.ibase-field-info.html) — Отримує інформацію про поле
+    -   [ibase\_free\_event\_handler](function.ibase-free-event-handler.html) — Скасує зареєстрований обробник події
+    -   [ibase\_free\_query](function.ibase-free-query.html) - Звільняє пам'ять, виділену на підготовку запиту
+    -   [ibase\_free\_result](function.ibase-free-result.html) - Звільняє набір результатів
+    -   [ibase\_gen\_id](function.ibase-gen-id.html) — Збільшує вказаний генератор і повертає його нове значення
+    -   [ibase\_maintain\_db](function.ibase-maintain-db.html) - Виконує команду обслуговування на сервері бази даних
+    -   [ibase\_modify\_user](function.ibase-modify-user.html) — Змінює користувача у безпечній базі даних
+    -   [ibase\_name\_result](function.ibase-name-result.html) — Надає ім'я набору результатів
+    -   [ibase\_num\_fields](function.ibase-num-fields.html) — Повертає кількість полів у результуючому наборі
+    -   [ibase\_num\_params](function.ibase-num-params.html) — Повертає кількість параметрів у підготовленому запиті
+    -   [ibase\_param\_info](function.ibase-param-info.html) — Повертає інформацію про параметр у підготовленому запиті
+    -   [ibase\_pconnect](function.ibase-pconnect.html) — Відкриває постійне з'єднання з базою даних InterBase
+    -   [ibase\_prepare](function.ibase-prepare.html) — готує запит для подальшого зв'язування псевдозмінних та виконання
+    -   [ibase\_query](function.ibase-query.html) — Виконує запит до бази даних InterBase
+    -   [ibase\_restore](function.ibase-restore.html) — Запускає завдання поновлення в диспетчері служб і негайно повертається
+    -   [ibase\_rollback\_ret](function.ibase-rollback-ret.html) - Відкочує транзакцію, не закриваючи її
+    -   [ibase\_rollback](function.ibase-rollback.html) - Відкочує транзакцію
+    -   [ibase\_server\_info](function.ibase-server-info.html) — Запитує інформацію про сервер бази даних
+    -   [ibase\_service\_attach](function.ibase-service-attach.html) — Підключається до диспетчера служб
+    -   [ibase\_service\_detach](function.ibase-service-detach.html) — Вимикається від диспетчера служб
+    -   [ibase\_set\_event\_handler](function.ibase-set-event-handler.html) — Реєструє callback-функцію, яка буде викликатись при публікації подій
+    -   [ibase\_trans](function.ibase-trans.html) - Починає транзакцію
+    -   [ibase\_wait\_event](function.ibase-wait-event.html) — Чекаємо, доки подія буде опублікована в базі даних

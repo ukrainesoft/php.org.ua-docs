@@ -1,45 +1,68 @@
-- [«Parle\Token](class.parle-token.md)
-- [Parle\LexerException »](class.parle-lexerexception.md)
+Клас ParleErrorInfo
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
-- Клас Parle\ErrorInfo
+-   [« Parle\\Token](class.parle-token.html)
+    
+-   [Parle\\LexerException »](class.parle-lexerexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle](book.parle.html)
+    
+-   Клас ParleErrorInfo
+    
 
-# Клас Parle\ErrorInfo
+# Клас ParleErrorInfo
 
-(PECL parle \>= 0.5.2)
+(PECL parle >= 0.5.2)
 
 ## Вступ
 
-Клас представляє докладну інформацію про помилку, надану
-[Parle\Parser::errorInfo()](parle-parser.errorinfo.md)
+Клас надає детальну інформацію про помилку, надану [Parle\\Parser::errorInfo()](parle-parser.errorinfo.html)
 
 ## Огляд класів
 
-class **Parle\ErrorInfo** {
+```synopsis
 
-/\* Властивості \*/
 
-public int `$id`;
 
-public int `$position`;
+    
+     
+      class Parle\ErrorInfo
+     
+     {
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$token`;
+    /* Свойства */
+    
+     public
+     int
+      $id;
 
-/\* Методи \*/
+    public
+     int
+      $position;
 
-}
+    public
+     mixed
+      $token;
+
+
+
+    /* Методы */
+    
+    
+   }
+```
 
 ## Властивості
 
-`id`
+ід
+
 Ідентифікатор помилки.
 
-`position`
+position
+
 Позиція, де сталася помилка.
 
-`token`
-Якщо застосовно - [Parle\Token](class.parle-token.md), пов'язаний з
-помилкою, інакше **`null`**.
+token
+
+Якщо можна застосувати - [Parle\\Token](class.parle-token.html), пов'язаний з помилкою, в іншому випадку **`null`**

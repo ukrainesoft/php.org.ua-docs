@@ -1,76 +1,75 @@
-- [« pg_set_client_encoding](function.pg-set-client-encoding.md)
-- [pg_socket»](function.pg-socket.md)
+Визначає обсяг тексту повідомлень, що повертаються функціями pglasterror та pgresulterror
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Визначає обсяг тексту повідомлень, що повертаються функціями
-pg_last_error та pg_result_error
+-   [« pg\_set\_client\_encoding](function.pg-set-client-encoding.html)
+    
+-   [pg\_socket »](function.pg-socket.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Визначає обсяг тексту повідомлень, що повертаються функціями pglasterror та pgresulterror
+    
 
-#pg_set_error_verbosity
+# пгseterrorverbosity
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-pg_set_error_verbosity — Визначає обсяг тексту повідомлень, що повертаються
-функціями [pg_last_error()](function.pg-last-error.md) та
-[pg_result_error()](function.pg-result-error.md)
+пгseterrorverbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [pg\_last\_error()](function.pg-last-error.html) і [pg\_result\_error()](function.pg-result-error.html)
 
 ### Опис
 
-**pg_set_error_verbosity**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` = ?, int `$verbosity`): int
+```methodsynopsis
+pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
+```
 
-Визначає обсяг тексту повідомлень, що повертаються функціями
-[pg_last_error()](function.pg-last-error.md) та
-[pg_result_error()](function.pg-result-error.md).
+Визначає обсяг тексту повідомлень, що повертаються функціями [pg\_last\_error()](function.pg-last-error.html) і [pg\_result\_error()](function.pg-result-error.html)
 
-**pg_set_error_verbosity()** встановлює режим, який відповідає за повноту
-повідомлень про помилки. У режимі **`PGSQL_ERRORS_TERSE`** повідомлення будуть
-містити лише важливість помилки, основний текст та місце виникнення;
-ця інформація зазвичай міститься в один рядок. У режимі за замовчуванням
-**`PGSQL_ERRORS_DEFAULT`** у повідомлення будуть додані деталі помилки,
-підказка або поля контексту (це може зайняти кілька рядків). В
-режимі **`PGSQL_ERRORS_VERBOSE`** повідомлення будуть містити всі
-можливі поля. Зміна режиму не торкнеться повідомлення існуючих
-ресурсів. Новий режим буде застосовуватися тільки до новостворених.
+**пгseterrorverbosity()** встановлює режим, який відповідає за повноту повідомлень про помилки. В режимі **`PGSQL_ERRORS_TERSE`** повідомлення будуть містити лише важливість помилки, основний текст та місце виникнення; ця інформація зазвичай міститься в один рядок. У режимі за замовчуванням **`PGSQL_ERRORS_DEFAULT`** до повідомлень буде додано деталі помилки, підказка або поля контексту (це може зайняти кілька рядків). В режимі **`PGSQL_ERRORS_VERBOSE`** повідомлення будуть містити всі поля. Зміна режиму не торкнеться повідомлення існуючих ресурсів. Новий режим буде застосовуватися тільки до новостворених.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо
-`connection` не вказано, використовується стандартне з'єднання.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 `verbosity`
-Необхідний режим: **`PGSQL_ERRORS_TERSE`**, **`PGSQL_ERRORS_DEFAULT`**
-або **`PGSQL_ERRORS_VERBOSE`**.
+
+Необхідний режим: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`** або **`PGSQL_ERRORS_VERBOSE`**
 
 ### Значення, що повертаються
 
-Попередній режим, що діяв до запуску функції:
-**`PGSQL_ERRORS_TERSE`**, **`PGSQL_ERRORS_DEFAULT`** або
-**`PGSQL_ERRORS_VERBOSE`**.
+Попередній режим, що діяв до запуску функції: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`** або **`PGSQL_ERRORS_VERBOSE`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_set_error_verbosity()****
+**Приклад #1 Приклад використання **пгseterrorverbosity()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  pg_set_error_verbosity($dbconn, PGSQL_ERRORS_VERBOSE); $res1 = pg_get_result($dbconn); echo pg_result_error($res1);?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
+
+  if (!pg_connection_busy($dbconn)) {
+      pg_send_query($dbconn, "select * from doesnotexist;");
+  }
+
+  pg_set_error_verbosity($dbconn, PGSQL_ERRORS_VERBOSE);
+  $res1 = pg_get_result($dbconn);
+  echo pg_result_error($res1);
+?>
+```
 
 ### Дивіться також
 
-- [pg_last_error()](function.pg-last-error.md) - Отримує повідомлення
-про останню помилку на з'єднанні з базою даних
-- [pg_result_error()](function.pg-result-error.md) - Повертає
-повідомлення про помилку, пов'язане із запитом результату
+-   [pg\_last\_error()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [pg\_result\_error()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату

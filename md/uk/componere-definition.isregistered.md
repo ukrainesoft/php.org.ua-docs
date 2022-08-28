@@ -1,19 +1,27 @@
-- [« Componere\Definition::register](componere-definition.register.md)
-- [Componere\Definition::getClosure »](componere-definition.getclosure.md)
+Визначення стану
 
-- [PHP Manual](index.md)
-- [Componere\Definition](class.componere-definition.md)
-- Визначення стану
+-   [« Componere\\Definition::register](componere-definition.register.html)
+    
+-   [Componere\\Definition::getClosure »](componere-definition.getclosure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Definition](class.componere-definition.html)
+    
+-   Визначення стану
+    
 
-# Componere\Definition::isRegistered
+# ComponereDefinition::isRegistered
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Definition::isRegistered — Визначення стану
+ComponereDefinition::isRegistered — Визначення стану
 
 ### Опис
 
-public **Componere\Definition::isRegistered**(): bool
+```methodsynopsis
+public Componere\Definition::isRegistered(): bool
+```
 
 Визначає стан реєстрації цього визначення
 

@@ -1,24 +1,31 @@
-- [« Swoole\Coroutine::create](swoole-coroutine.create.md)
-- [Swoole\Coroutine\Client::connect »](swoole-coroutine-client.connect.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+-   [« Swoole\\Coroutine::create](swoole-coroutine.create.html)
+    
+-   [Swoole\\Coroutine\\Client::connect »](swoole-coroutine-client.connect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Опис
+    
 
-# Swoole\Coroutine\Client::close
+# SwooleCoroutineClient::close
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine\Client::close — Опис
+SwooleCoroutineClient::close — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Client::close**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Client::close(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

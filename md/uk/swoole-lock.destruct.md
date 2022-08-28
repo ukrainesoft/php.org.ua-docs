@@ -1,19 +1,27 @@
-- [« Swoole\Lock::\_\_construct](swoole-lock.construct.md)
-- [Swoole\Lock::lock_read »](swoole-lock.lock-read.md)
+Знищує блокування пам'яті Swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Lock](class.swoole-lock.md)
-- Знищує блокування пам'яті Swoole
+-   [« Swoole\\Lock::\_\_construct](swoole-lock.construct.html)
+    
+-   [Swoole\\Lock::lock\_read »](swoole-lock.lock-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Lock](class.swoole-lock.html)
+    
+-   Знищує блокування пам'яті Swoole
+    
 
-# Swoole\Lock::\_\_destruct
+# SwooleLock::destruct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Lock::\_\_destruct — Знищує блокування пам'яті Swoole
+SwooleLock::destruct — Знищує блокування пам'яті Swoole
 
 ### Опис
 
-public **Swoole\Lock::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Lock::__destruct(): void
+```
 
 ### Список параметрів
 

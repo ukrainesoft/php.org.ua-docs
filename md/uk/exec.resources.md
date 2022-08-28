@@ -1,11 +1,16 @@
-- [« Налаштування під час виконання](exec.configuration.md)
-- [Предвизначені константи »](exec.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](exec.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](exec.configuration.html)
+    
+-   [Предопределённые константы »](exec.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](exec.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-Цей модуль задає ресурс `процесу`, що повертається функцією
-[proc_open()](function.proc-open.md).
+Цей модуль задає ресурс `процесса`, що повертається функцією [proc\_open()](function.proc-open.html)

@@ -1,32 +1,32 @@
-- [«ps_show_boxed](function.ps-show-boxed.md)
-- [ps_show_xy »](function.ps-show-xy.md)
+Виводить текст у заданій позиції
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Виводить текст у заданій позиції
+-   [« ps\_show\_boxed](function.ps-show-boxed.html)
+    
+-   [ps\_show\_xy »](function.ps-show-xy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Виводить текст у заданій позиції
+    
 
-#ps_show_xy2
+# псshowxy2
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_show_xy2 — Виводить текст на задану позицію
+псshowxy2 - Виводить текст у заданій позиції
 
 ### Опис
 
-**ps_show_xy2**(
-resource `$psdoc`,
-string `$text`,
-int `$len`,
-float `$xcoor`,
-float `$ycoor`
-): bool
+```methodsynopsis
+ps_show_xy2(    resource $psdoc,    string $text,    int $len,    float $xcoor,    float $ycoor): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

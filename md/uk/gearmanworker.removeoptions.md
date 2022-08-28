@@ -1,36 +1,42 @@
-- [« GearmanWorker::register](gearmanworker.register.md)
-- [GearmanWorker::returnCode »](gearmanworker.returncode.md)
+Видалення налаштувань обробника
 
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Видалення налаштувань обробника
+-   [« GearmanWorker::register](gearmanworker.register.html)
+    
+-   [GearmanWorker::returnCode »](gearmanworker.returncode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanWorker](class.gearmanworker.html)
+    
+-   Видалення налаштувань обробника
+    
 
 # GearmanWorker::removeOptions
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanWorker::removeOptions — Видалення налаштувань обробника
 
 ### Опис
 
-public **GearmanWorker::removeOptions**(int `$option`): bool
+```methodsynopsis
+public GearmanWorker::removeOptions(int $option): bool
+```
 
 Видаляє одну або кілька опцій обробника.
 
 ### Список параметрів
 
 `option`
+
 Налаштування, які потрібно видалити.
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**.
+Завжди повертає **`true`**
 
 ### Дивіться також
 
-- [GearmanWorker::options()](gearmanworker.options.md) - Отримання
-налаштувань обробника
-- [GearmanWorker::setOptions()](gearmanworker.setoptions.md) -
-Встановлення налаштувань обробника
-- [GearmanWorker::addOptions()](gearmanworker.addoptions.md) -
-Додавання налаштувань обробника
+-   [GearmanWorker::options()](gearmanworker.options.html) - Отримання налаштувань обробника
+-   [GearmanWorker::setOptions()](gearmanworker.setoptions.html) - Встановлення налаштувань обробника
+-   [GearmanWorker::addOptions()](gearmanworker.addoptions.html) - Додавання налаштувань обробника

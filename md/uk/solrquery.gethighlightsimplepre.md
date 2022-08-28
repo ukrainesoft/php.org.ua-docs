@@ -1,31 +1,36 @@
-- [« SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.md)
-- [SolrQuery::getHighlightSnippets »](solrquery.gethighlightsnippets.md)
+Повертає текст, що з'являється перед виділеним виразом
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає текст, який з'являється перед виділеним виразом
+-   [« SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.html)
+    
+-   [SolrQuery::getHighlightSnippets »](solrquery.gethighlightsnippets.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає текст, що з'являється перед виділеним виразом
+    
 
 # SolrQuery::getHighlightSimplePre
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightSimplePre — Повертає текст, який з'являється
-перед виділеним виразом
+SolrQuery::getHighlightSimplePre — Повертає текст, який з'являється перед виділеним виразом
 
 ### Опис
 
-public **SolrQuery::getHighlightSimplePre**(string `$field_override` =
-?): string
+```methodsynopsis
+public SolrQuery::getHighlightSimplePre(string $field_override = ?): string
+```
 
-Повертає текст, який з'являється перед виділенням.
-Приймає необов'язкове перевизначення поля
+Повертає текст, що з'являється перед виділеним виразом. Приймає необов'язкове перевизначення поля
 
 ### Список параметрів
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає рядок у разі успішного виконання та **`null`**, якщо значення не встановлено

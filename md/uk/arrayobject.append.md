@@ -1,9 +1,15 @@
-- [«ArrayObject](class.arrayobject.md)
-- [ArrayObject::asort »](arrayobject.asort.md)
+Додає значення до кінця масиву
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Додає значення до кінця масиву
+-   [« ArrayObject](class.arrayobject.html)
+    
+-   [ArrayObject::asort »](arrayobject.asort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Додає значення до кінця масиву
+    
 
 # ArrayObject::append
 
@@ -13,23 +19,21 @@ ArrayObject::append — Додає значення до кінця масиву
 
 ### Опис
 
-public
-**ArrayObject::append**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public ArrayObject::append(mixed $value): void
+```
 
-Додає нове значення на кінець масиву.
+Додає нове значення наприкінці масиву.
 
-> **Примітка**:
->
-> Цей метод може бути викликаний, якщо
-> [ArrayObject](class.arrayobject.md) було створено з об'єкта. В цьому
-> випадку використовуйте замість нього
-> [ArrayObject::offsetSet()](arrayobject.offsetset.md).
+> **Зауваження**
+> 
+> Цей метод не може бути викликаний, якщо [ArrayObject](class.arrayobject.html) був створений із об'єкта. У цьому випадку використовуйте замість нього [ArrayObject::offsetSet()](arrayobject.offsetset.html)
 
 ### Список параметрів
 
 `value`
-Значення, яке має бути додане.
+
+Значення, яке потрібно додати.
 
 ### Значення, що повертаються
 
@@ -39,29 +43,37 @@ public
 
 **Приклад #1 Приклад використання **ArrayObject::append()****
 
-` <?php$arrayobj = new ArrayObject(array('first','second','third'));$arrayobj->append('fourth');$arrayobj->append(array('five', ') six'));var_dump($arrayobj);?> `
+```php
+<?php
+$arrayobj = new ArrayObject(array('first','second','third'));
+$arrayobj->append('fourth');
+$arrayobj->append(array('five', 'six'));
+var_dump($arrayobj);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ArrayObject)#1 (5) {
-[0]=>
-string(5) "first"
-[1]=>
-string(6) "second"
-[2]=>
-string(5) "third"
-[3]=>
-string(6) "fourth"
-[4]=>
-array(2) {
-[0]=>
-string(4) "five"
-[1]=>
-string(3) "six"
+  [0]=>
+  string(5) "first"
+  [1]=>
+  string(6) "second"
+  [2]=>
+  string(5) "third"
+  [3]=>
+  string(6) "fourth"
+  [4]=>
+  array(2) {
+    [0]=>
+    string(4) "five"
+    [1]=>
+    string(3) "six"
+  }
 }
-}
+```
 
 ### Дивіться також
 
-- [ArrayObject::offsetSet()](arrayobject.offsetset.md) -
-Встановлює нове значення за вказаним індексом
+-   [ArrayObject::offsetSet()](arrayobject.offsetset.html) - Встановлює нове значення за вказаним індексом

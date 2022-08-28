@@ -1,43 +1,48 @@
-- [« fann_get_sarprop_step_error_shift](function.fann-get-sarprop-step-error-shift.md)
-- [fann_get_sarprop_temperature »](function.fann-get-sarprop-temperature.md)
+Повертає пороговий коефіцієнт помилки кроку sarprop
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає пороговий коефіцієнт помилки кроку sarprop
+-   [« fann\_get\_sarprop\_step\_error\_shift](function.fann-get-sarprop-step-error-shift.html)
+    
+-   [fann\_get\_sarprop\_temperature »](function.fann-get-sarprop-temperature.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає пороговий коефіцієнт помилки кроку sarprop
+    
 
-# fann_get_sarprop_step_error_threshold_factor
+# fanngetsarpropsteperrorthresholdfactor
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_sarprop_step_error_threshold_factor — Повертає пороговий
-коефіцієнт помилки кроку sarprop
+fanngetsarpropsteperrorthresholdfactor - Повертає пороговий коефіцієнт помилки кроку sarprop
 
 ### Опис
 
-**fann_get_sarprop_step_error_threshold_factor**(resource `$ann`): float
+```methodsynopsis
+fann_get_sarprop_step_error_threshold_factor(resource $ann): float
+```
 
 Повертає пороговий коефіцієнт помилки кроку sarprop.
 
-За замовчуванням коефіцієнт становить 0.1.
+Коефіцієнт за замовчуванням становить 0,1.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Пороговий коефіцієнт помилки кроку або **`false`** у разі виникнення
-помилки.
+Пороговий коефіцієнт помилки кроку або **`false`** у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_set_sarprop_step_error_threshold_factor()](function.fann-set-sarprop-step-error-threshold-factor.md) -
-Встановлює граничний коефіцієнт помилки кроку sarprop
+-   [fann\_set\_sarprop\_step\_error\_threshold\_factor()](function.fann-set-sarprop-step-error-threshold-factor.html) - Встановлює пороговий коефіцієнт помилки кроку sarprop

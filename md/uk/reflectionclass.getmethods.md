@@ -1,9 +1,15 @@
-- [« ReflectionClass::getMethod](reflectionclass.getmethod.md)
-- [ReflectionClass::getModifiers »](reflectionclass.getmodifiers.md)
+Повертає список методів у вигляді масиву
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає список методів у вигляді масиву
+-   [« ReflectionClass::getMethod](reflectionclass.getmethod.html)
+    
+-   [ReflectionClass::getModifiers »](reflectionclass.getmodifiers.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Повертає список методів у вигляді масиву
+    
 
 # ReflectionClass::getMethods
 
@@ -13,99 +19,116 @@ ReflectionClass::getMethods — Повертає список методів у 
 
 ### Опис
 
-public **ReflectionClass::getMethods**(?int `$filter` = **`null`**):
-array
+```methodsynopsis
+public ReflectionClass::getMethods(?int $filter = null): array
+```
 
-Повертає список методів як масиву.
+Повертає перелік методів у вигляді масиву.
 
 ### Список параметрів
 
 `filter`
-Фільтрування результату для включення до списку тільки методів
-певними атрибутами. За промовчанням фільтрації немає.
 
-Комбінація з наступних констант через логічне АБО:
-**`ReflectionMethod::IS_STATIC`**, **`ReflectionMethod::IS_PUBLIC`**,
-**`ReflectionMethod::IS_PROTECTED`**,
-**`ReflectionMethod::IS_PRIVATE`**, **`ReflectionMethod::IS_ABSTRACT`**,
-**`ReflectionMethod::IS_FINAL`**, так що всі методи з *любим* з
-перерахованих атрибутів буде повернено.
+Фільтрування результату для включення до списку лише методів із певними атрибутами. За промовчанням фільтрації немає.
 
-> **Примітка**: Зверніть увагу, що інші побітові операції, до
-> прикладу `~` не працюватимуть так, як очікується. Іншими словами,
-> наприклад, неможливо отримати всі нестатичні методи.
+Комбінація з наступних констант через логічне АБО: **`ReflectionMethod::IS_STATIC`** **`ReflectionMethod::IS_PUBLIC`** **`ReflectionMethod::IS_PROTECTED`** **`ReflectionMethod::IS_PRIVATE`** **`ReflectionMethod::IS_ABSTRACT`** **`ReflectionMethod::IS_FINAL`**, так що всі методи з *будь-яким* з перерахованих атрибутів буде повернено.
+
+> **Зауваження**: Зверніть увагу, що інші побітові операції, наприклад `~` не працюватимуть так, як очікується. Іншими словами, наприклад, неможливо отримати усі нестатичні методи.
 
 ### Значення, що повертаються
 
-Масив (array) об'єктів класу
-[ReflectionMethod](class.reflectionmethod.md), що відображають кожен
-метод.
+Масив (array) об'єктів класу [ReflectionMethod](class.reflectionmethod.html)що відображають кожен метод.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                  |
-| ------ | ------------------------------------- |
-| 7.2.0  | filter тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `filter` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::getMethods()****
 
-` <?phpclass Apple {    public function firstMethod() { }    final protected function secondMethod() { }    private static function thirdMethod() { }}$class = new ReflectionClass('Apple');$methods = $class->getMethods( );var_dump($methods);?> `
+```php
+<?php
+class Apple {
+    public function firstMethod() { }
+    final protected function secondMethod() { }
+    private static function thirdMethod() { }
+}
+
+$class = new ReflectionClass('Apple');
+$methods = $class->getMethods();
+var_dump($methods);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(3) {
-[0]=>
-object(ReflectionMethod)#2 (2) {
-["name"]=>
-string(11) "firstMethod"
-["class"]=>
-string(5) "Apple"
+  [0]=>
+  object(ReflectionMethod)#2 (2) {
+    ["name"]=>
+    string(11) "firstMethod"
+    ["class"]=>
+    string(5) "Apple"
+  }
+  [1]=>
+  object(ReflectionMethod)#3 (2) {
+    ["name"]=>
+    string(12) "secondMethod"
+    ["class"]=>
+    string(5) "Apple"
+  }
+  [2]=>
+  object(ReflectionMethod)#4 (2) {
+    ["name"]=>
+    string(11) "thirdMethod"
+    ["class"]=>
+    string(5) "Apple"
+  }
 }
-[1]=>
-object(ReflectionMethod)#3 (2) {
-["name"]=>
-string(12) "secondMethod"
-["class"]=>
-string(5) "Apple"
-}
-[2]=>
-object(ReflectionMethod)#4 (2) {
-["name"]=>
-string(11) "thirdMethod"
-["class"]=>
-string(5) "Apple"
-}
+```
+
+**Приклад #2 Приклад фільтрації результату виклику **ReflectionClass::getMethods()****
+
+```php
+<?php
+class Apple {
+    public function firstMethod() { }
+    final protected function secondMethod() { }
+    private static function thirdMethod() { }
 }
 
-**Приклад #2 Приклад фільтрації результату виклику
-**ReflectionClass::getMethods()****
-
-` <?phpclass Apple {    public function firstMethod() { }    final protected function secondMethod() { }    private static function thirdMethod() { }}$class = new ReflectionClass('Apple');$methods = $class->getMethods( ReflectionMethod::IS_STATIC | ReflectionMethod::IS_FINAL);var_dump($methods);?> `
+$class = new ReflectionClass('Apple');
+$methods = $class->getMethods(ReflectionMethod::IS_STATIC | ReflectionMethod::IS_FINAL);
+var_dump($methods);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(2) {
-[0]=>
-object(ReflectionMethod)#2 (2) {
-["name"]=>
-string(12) "secondMethod"
-["class"]=>
-string(5) "Apple"
+  [0]=>
+  object(ReflectionMethod)#2 (2) {
+    ["name"]=>
+    string(12) "secondMethod"
+    ["class"]=>
+    string(5) "Apple"
+  }
+  [1]=>
+  object(ReflectionMethod)#3 (2) {
+    ["name"]=>
+    string(11) "thirdMethod"
+    ["class"]=>
+    string(5) "Apple"
+  }
 }
-[1]=>
-object(ReflectionMethod)#3 (2) {
-["name"]=>
-string(11) "thirdMethod"
-["class"]=>
-string(5) "Apple"
-}
-}
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getMethod()](reflectionclass.getmethod.md) -
-Повертає екземпляр ReflectionMethod для методу класу
-- [get_class_methods()](function.get-class-methods.md) - Повертає
-масив імен методів класу
+-   [ReflectionClass::getMethod()](reflectionclass.getmethod.html) - Повертає екземпляр ReflectionMethod для методу класу
+-   [get\_class\_methods()](function.get-class-methods.html) - Повертає масив імен методів класу

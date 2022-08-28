@@ -1,27 +1,34 @@
-- [«addslashes](function.addslashes.md)
-- [chop»](function.chop.md)
+Перетворює бінарні дані на шістнадцяткове подання
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Перетворює бінарні дані на шістнадцяткове уявлення
+-   [« addslashes](function.addslashes.html)
+    
+-   [chop »](function.chop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Перетворює бінарні дані на шістнадцяткове подання
+    
 
 # bin2hex
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-bin2hex — Перетворює бінарні дані на шістнадцяткове уявлення
+bin2hex - Перетворює бінарні дані в шістнадцяткове уявлення
 
 ### Опис
 
-**bin2hex**(string `$string`): string
+```methodsynopsis
+bin2hex(string $string): string
+```
 
-Повертає ASCII-рядок, що містить шістнадцяткову виставу
-аргументу `string`. Перетворення проводиться побайтно, починаючи з
-верхнього напівбайт.
+Повертає ASCII-рядок, що містить шістнадцяткове подання аргументу `string`. Перетворення провадиться побайтно, починаючи з верхнього напівбайта.
 
 ### Список параметрів
 
 `string`
+
 Рядок.
 
 ### Значення, що повертаються
@@ -32,15 +39,24 @@ bin2hex — Перетворює бінарні дані на шістнадця
 
 **Приклад #1 Приклад використання **bin2hex()****
 
-` <?php$hex = bin2hex('Hello world!');var_dump($hex);var_dump(hex2bin($hex));?> `
+```php
+<?php
+
+$hex = bin2hex('Hello world!');
+
+var_dump($hex);
+var_dump(hex2bin($hex));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(24) "48656c6c6f20776f726c6421"
 string(12) "Hello world!"
+```
 
 ### Дивіться також
 
-- [hex2bin()](function.hex2bin.md) - Перетворює шістнадцяткові
-дані в двійкові
-- [pack()](function.pack.md) - Упакувати дані в бінарний рядок
+-   [hex2bin()](function.hex2bin.html) - Перетворює шістнадцяткові дані на двійкові
+-   [pack()](function.pack.html) - Упакувати дані у бінарний рядок

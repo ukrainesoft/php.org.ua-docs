@@ -1,19 +1,27 @@
-- [«UI\Size::\_\_construct](ui-size.construct.md)
-- [UI\Size::getWidth »](ui-size.getwidth.md)
+Отримує висоту
 
-- [PHP Manual](index.md)
-- [UI\Size](class.ui-size.md)
-- отримує висоту
+-   [« UI\\Size::\_\_construct](ui-size.construct.html)
+    
+-   [UI\\Size::getWidth »](ui-size.getwidth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Size](class.ui-size.html)
+    
+-   Отримує висоту
+    
 
-# UI\Size::getHeight
+# ОЙSize::getHeight
 
 (UI 0.9.9)
 
-UI\Size::getHeight — Отримує висоту
+ОЙSize::getHeight — Отримує висоту
 
 ### Опис
 
-public **UI\Size::getHeight**(): float
+```methodsynopsis
+public UI\Size::getHeight(): float
+```
 
 Отримує висоту
 

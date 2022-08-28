@@ -1,20 +1,24 @@
-- [«RRDUpdater::update](rrdupdater.update.md)
-- [Вступ »](intro.scoutapm.md)
+ScoutAPM
 
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
-- ScoutAPM
+-   [« RRDUpdater::update](rrdupdater.update.html)
+    
+-   [Введение »](intro.scoutapm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие службы](refs.remote.other.html)
+    
+-   ScoutAPM
+    
 
 # ScoutAPM
 
-- [Вступ](intro.scoutapm.md)
-- [Встановлення та налаштування](scoutapm.setup.md)
-- [Вимоги](scoutapm.requirements.md)
-- [Установка](scoutapm.installation.md)
-- [Налаштування під час виконання](scoutapm.configuration.md)
-- [Предвизначені константи](scoutapm.constants.md)
-- [Функції Scoutapm](ref.scoutapm.md)
-- [scoutapm_get_calls](function.scoutapm-get-calls.md) -
-Повертає список викликів, що відбулися
-- [scoutapm_list_instrumented_functions](function.scoutapm-list-instrumented-functions.md)
-— Список функцій, які scoutapm використовуватиме
+-   [Введение](intro.scoutapm.html)
+-   [Установка и настройка](scoutapm.setup.html)
+    -   [Требования](scoutapm.requirements.html)
+    -   [Установка](scoutapm.installation.html)
+    -   [Настройка во время выполнения](scoutapm.configuration.html)
+-   [Предопределённые константы](scoutapm.constants.html)
+-   [Функции Scoutapm](ref.scoutapm.html)
+    -   [scoutapm\_get\_calls](function.scoutapm-get-calls.html) — Повертає список дзвінків, що відбулися
+    -   [scoutapm\_list\_instrumented\_functions](function.scoutapm-list-instrumented-functions.html) - Список функцій, які scoutapm буде використовувати

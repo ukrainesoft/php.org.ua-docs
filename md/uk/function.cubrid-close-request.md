@@ -1,28 +1,34 @@
-- [«cubrid_close_prepare](function.cubrid-close-prepare.md)
-- [cubrid_col_get »](function.cubrid-col-get.md)
+Закриває обробник запиту
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Закриває обробник запиту
+-   [« cubrid\_close\_prepare](function.cubrid-close-prepare.html)
+    
+-   [cubrid\_col\_get »](function.cubrid-col-get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Закриває обробник запиту
+    
 
-#cubrid_close_request
+# cubridcloserequest
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_close_request — Закриває обробник запиту
+cubridcloserequest — Закриває обробник запиту
 
 ### Опис
 
-**cubrid_close_request**(resource `$req_identifier`): bool
+```methodsynopsis
+cubrid_close_request(resource $req_identifier): bool
+```
 
-Функція **cubrid_close_request()** закриває обробник запиту,
-заданий в `req_identifier`, і звільняє виділену пам'ять.
-Є синонімом для
-[cubrid_close_prepare()](function.cubrid-close-prepare.md).
+Функція **cubridcloserequest()** закриває обробник запиту, заданий у `req_identifier`, і звільняє виділену йому пам'ять. Є синонімом для [cubrid\_close\_prepare()](function.cubrid-close-prepare.html)
 
 ### Список параметрів
 
 `req_identifier`
+
 Ідентифікатор запиту.
 
 ### Значення, що повертаються
@@ -31,11 +37,27 @@ cubrid_close_request — Закриває обробник запиту
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_close_request()****
+**Приклад #1 Приклад використання **cubridcloserequest()****
 
-`<?php$con = cubrid_connect ("localhost", 33000, "demodb", "dba", "");if ($con) {   echo "connected successfully"; $req = cubrid_execute| if ($req) {      while ( list ($id, $name) = cubrid_fetch ($req) ){         echo $id; echo $name; }    cubrid_close_request($req); // or you can use cubrid_close_prepare($req)   }   cubrid_disconnect($con);}?> `
+```php
+<?php
+$con = cubrid_connect ("localhost", 33000, "demodb", "dba", "");
+if ($con) {
+   echo "connected successfully";
+   $req = cubrid_execute ( $con, "select * from members",
+                           CUBRID_INCLUDE_OID | CUBRID_ASYNC);
+   if ($req) {
+      while ( list ($id, $name) = cubrid_fetch ($req) ){
+         echo $id;
+         echo $name;
+      }
+      cubrid_close_request($req); // or you can use cubrid_close_prepare($req)
+   }
+   cubrid_disconnect($con);
+}
+?>
+```
 
 ### Дивіться також
 
-- [cubrid_close_prepare()](function.cubrid-close-prepare.md) -
-Закриває обробник запиту
+-   [cubrid\_close\_prepare()](function.cubrid-close-prepare.html) - Закриває обробник запиту

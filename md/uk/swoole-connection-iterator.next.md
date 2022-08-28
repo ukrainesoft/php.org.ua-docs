@@ -1,19 +1,27 @@
-- [« Swoole\Connection\Iterator::key](swoole-connection-iterator.key.md)
-- [Swoole\Connection\Iterator::offsetExists »](swoole-connection-iterator.offsetexists.md)
+Переходить до наступного з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- Переходить до наступного з'єднання
+-   [« Swoole\\Connection\\Iterator::key](swoole-connection-iterator.key.html)
+    
+-   [Swoole\\Connection\\Iterator::offsetExists »](swoole-connection-iterator.offsetexists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   Переходить до наступного з'єднання
+    
 
-# Swoole\Connection\Iterator::next
+# SwooleConnectionIterator::next
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Connection\Iterator::next — Перехід до наступного підключення
+SwooleConnectionIterator::next — Переходить до наступного з'єднання
 
 ### Опис
 
-public **Swoole\Connection\Iterator::next**(): Connection
+```methodsynopsis
+public Swoole\Connection\Iterator::next(): Connection
+```
 
 Ітератор для наступного з'єднання.
 

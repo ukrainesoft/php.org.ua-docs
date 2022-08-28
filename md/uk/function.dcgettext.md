@@ -1,11 +1,17 @@
-- [« bindtextdomain](function.bindtextdomain.md)
-- [dcngettext »](function.dcngettext.md)
+Перевизначає одне повідомлення в домені
 
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Перевизначає одне повідомлення в домені
+-   [« bindtextdomain](function.bindtextdomain.html)
+    
+-   [dcngettext »](function.dcngettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции gettext](ref.gettext.html)
+    
+-   Перевизначає одне повідомлення в домені
+    
 
-#dcgettext
+# dcgettext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,21 +19,24 @@ dcgettext — Перевизначення одного повідомлення
 
 ### Опис
 
-**dcgettext**(string `$domain`, string `$message`, int `$category`):
-string
+```methodsynopsis
+dcgettext(string $domain, string $message, int $category): string
+```
 
-Ця функція дозволяє перевизначити поточний домен для одного
-повідомлення.
+Ця функція дозволяє перевизначити поточний домен для одного повідомлення.
 
 ### Список параметрів
 
 `domain`
+
 Домен
 
 `message`
+
 Повідомлення
 
 `category`
+
 Категорія
 
 ### Значення, що повертаються
@@ -36,4 +45,4 @@ string
 
 ### Дивіться також
 
-- [gettext()](function.gettext.md) - Шукає повідомлення у поточному домені
+-   [gettext()](function.gettext.html) - Шукає повідомлення у поточному домені

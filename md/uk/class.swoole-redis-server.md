@@ -1,188 +1,124 @@
-- [« Swoole\Process::write](swoole-process.write.md)
-- [Swoole\Redis\Server::format »](swoole-redis-server.format.md)
+Клас SwooleRedisServer
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Redis\Server
+-   [« Swoole\\Process::write](swoole-process.write.html)
+    
+-   [Swoole\\Redis\\Server::format »](swoole-redis-server.format.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleRedisServer
+    
 
-# Клас Swoole\Redis\Server
+# Клас SwooleRedisServer
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Redis\Server** extends
-[Swoole\Server](class.swoole-server.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `NIL` = 1;
 
-const int `ERROR` = 0;
+    
+     
+      class Swoole\Redis\Server
+     
 
-const int `STATUS` = 2;
+     
+      extends
+       Swoole\Server
+     
+     {
 
-const int `INT` = 3;
+    /* Константы */
+    
+     const
+     int
+      NIL = 1;
 
-const int `STRING` = 4;
+    const
+     int
+      ERROR = 0;
 
-const int `SET` = 5;
+    const
+     int
+      STATUS = 2;
 
-const int `MAP` = 6;
+    const
+     int
+      INT = 3;
 
-/\* Методи \*/
+    const
+     int
+      STRING = 4;
 
-public static [format](swoole-redis-server.format.md)(string `$type`,
-string `$value` = ?): ReturnType
+    const
+     int
+      SET = 5;
 
-public [setHandler](swoole-redis-server.sethandler.md)(
-string `$command`,
-string `$callback`,
-string `$number_of_string_param` = ?,
-string `$type_of_array_param` = ?
-): ReturnType
+    const
+     int
+      MAP = 6;
 
-public [start](swoole-redis-server.start.md)(): ReturnType
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public static format(string $type, string $value = ?): ReturnType
+public setHandler(    string $command,    string $callback,    string $number_of_string_param = ?,    string $type_of_array_param = ?): ReturnType
+public start(): ReturnType
 
-public
-[Swoole\Server::addlistener](swoole-server.addlistener.md)(string
-`$host`, int `$port`, string `$socket_type`): void
 
-public
-[Swoole\Server::addProcess](swoole-server.addprocess.md)([swoole_process](class.swoole-process.md)
-`$process`): bool
+    /* Наследуемые методы */
+    public Swoole\Server::addlistener(string $host, int $port, string $socket_type): void
+public Swoole\Server::addProcess(swoole_process $process): bool
+public Swoole\Server::after(int $after_time_ms, callable $callback, string $param = ?): ReturnType
+public Swoole\Server::bind(int $fd, int $uid): bool
+public Swoole\Server::clearTimer(int $timer_id): void
+swoole_timer_clear(int $timer_id): void
+public Swoole\Server::close(int $fd, bool $reset = ?): bool
+public Swoole\Server::confirm(int $fd): bool
+public Swoole\Server::connection_info(int $fd, int $reactor_id = ?): array
+public Swoole\Server::connection_list(int $start_fd, int $pagesize = ?): array
+public Swoole\Server::defer(callable $callback): void
+public Swoole\Server\Port::__destruct(): void
+public Swoole\Server\Port::on(string $event_name, callable $callback): ReturnType
+public Swoole\Server\Port::set(array $settings): void
+public Swoole\Server::exist(int $fd): bool
+public Swoole\Server::finish(string $data): void
+public Swoole\Server::getClientInfo(int $fd, int $reactor_id = ?, bool $ignore_error = ?): array
+public Swoole\Server::getClientList(int $start_fd, int $pagesize = ?): array
+public Swoole\Server::getLastError(): int
+public Swoole\Server::heartbeat(bool $if_close_connection): mixed
+public Swoole\Server::listen(string $host, int $port, string $socket_type): bool
+public Swoole\Server::on(string $event_name, callable $callback): void
+public Swoole\Server::pause(int $fd): void
+public Swoole\Server::protect(int $fd, bool $is_protected = ?): void
+public Swoole\Server::reload(): bool
+public Swoole\Server::resume(int $fd): void
+public Swoole\Server::send(int $fd, string $data, int $reactor_id = ?): bool
+public Swoole\Server::sendfile(int $fd, string $filename, int $offset = ?): bool
+public Swoole\Server::sendMessage(int $worker_id, string $data): bool
+public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public Swoole\Server::sendwait(int $fd, string $data): bool
+public Swoole\Server::set(array $settings): ReturnType
+public Swoole\Server::shutdown(): void
+public Swoole\Server::start(): void
+public Swoole\Server::stats(): array
+public Swoole\Server::stop(int $worker_id = ?): bool
+public Swoole\Server::task(string $data, int $dst_worker_id = ?, callable $callback = ?): mixed
+public Swoole\Server::taskwait(string $data, float $timeout = ?, int $worker_id = ?): void
+public Swoole\Server::taskWaitMulti(array $tasks, double $timeout_ms = ?): void
+public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
-public [Swoole\Server::after](swoole-server.after.md)(int
-`$after_time_ms`, [callable](language.types.callable.md) `$callback`,
-string `$param` = ?): ReturnType
 
-public [Swoole\Server::bind](swoole-server.bind.md)(int `$fd`, int
-`$uid`): bool
+   }
+```
 
-public [Swoole\Server::clearTimer](swoole-server.cleartimer.md)(int
-`$timer_id`): void
-
-**swoole_timer_clear**(int `$timer_id`): void
-
-public [Swoole\Server::close](swoole-server.close.md)(int `$fd`, bool
-`$reset` = ?): bool
-
-public [Swoole\Server::confirm](swoole-server.confirm.md)(int `$fd`):
-bool
-
-public
-[Swoole\Server::connection_info](swoole-server.connection-info.md)(int
-`$fd`, int `$reactor_id` = ?): array
-
-public
-[Swoole\Server::connection_list](swoole-server.connection-list.md)(int
-`$start_fd`, int `$pagesize` = ?): array
-
-public
-[Swoole\Server::defer](swoole-server.defer.md)([callable](language.types.callable.md)
-`$callback`): void
-
-public
-[Swoole\Server\Port::\_\_destruct](swoole-server-port.destruct.md)():
-void
-
-public [Swoole\Server\Port::on](swoole-server-port.on.md)(string
-`$event_name`, [callable](language.types.callable.md) `$callback`):
-ReturnType
-
-public [Swoole\Server\Port::set](swoole-server-port.set.md)(array
-`$settings`): void
-
-public [Swoole\Server::exist](swoole-server.exist.md)(int `$fd`): bool
-
-public [Swoole\Server::finish](swoole-server.finish.md)(string
-`$data`): void
-
-public
-[Swoole\Server::getClientInfo](swoole-server.getclientinfo.md)(int
-`$fd`, int `$reactor_id` = ?, bool `$ignore_error` = ?): array
-
-public
-[Swoole\Server::getClientList](swoole-server.getclientlist.md)(int
-`$start_fd`, int `$pagesize` = ?): array
-
-public [Swoole\Server::getLastError](swoole-server.getlasterror.md)():
-int
-
-public [Swoole\Server::heartbeat](swoole-server.heartbeat.md)(bool
-`$if_close_connection`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [Swoole\Server::listen](swoole-server.listen.md)(string
-`$host`, int `$port`, string `$socket_type`): bool
-
-public [Swoole\Server::on](swoole-server.on.md)(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): void
-
-public [Swoole\Server::pause](swoole-server.pause.md)(int `$fd`): void
-
-public [Swoole\Server::protect](swoole-server.protect.md)(int `$fd`,
-bool `$is_protected` = ?): void
-
-public [Swoole\Server::reload](swoole-server.reload.md)(): bool
-
-public [Swoole\Server::resume](swoole-server.resume.md)(int `$fd`):
-void
-
-public [Swoole\Server::send](swoole-server.send.md)(int `$fd`, string
-`$data`, int `$reactor_id` = ?): bool
-
-public [Swoole\Server::sendfile](swoole-server.sendfile.md)(int `$fd`,
-string `$filename`, int `$offset` = ?): bool
-
-public [Swoole\Server::sendMessage](swoole-server.sendmessage.md)(int
-`$worker_id`, string `$data`): bool
-
-public [Swoole\Server::sendto](swoole-server.sendto.md)(
-string `$ip`,
-int `$port`,
-string `$data`,
-string `$server_socket` = ?
-): bool
-
-public [Swoole\Server::sendwait](swoole-server.sendwait.md)(int `$fd`,
-string `$data`): bool
-
-public [Swoole\Server::set](swoole-server.set.md)(array `$settings`):
-ReturnType
-
-public [Swoole\Server::shutdown](swoole-server.shutdown.md)(): void
-
-public [Swoole\Server::start](swoole-server.start.md)(): void
-
-public [Swoole\Server::stats](swoole-server.stats.md)(): array
-
-public [Swoole\Server::stop](swoole-server.stop.md)(int `$worker_id` =
-?): bool
-
-public [Swoole\Server::task](swoole-server.task.md)(string `$data`,
-int `$dst_worker_id` = ?, [callable](language.types.callable.md)
-`$callback` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [Swoole\Server::taskwait](swoole-server.taskwait.md)(string
-`$data`, float `$timeout` = ?, int `$worker_id` = ?): void
-
-public
-[Swoole\Server::taskWaitMulti](swoole-server.taskwaitmulti.md)(array
-`$tasks`, double `$timeout_ms` = ?): void
-
-public [Swoole\Server::tick](swoole-server.tick.md)(int
-`$interval_ms`, [callable](language.types.callable.md) `$callback`):
-void
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Swoole\Redis\Server::NIL`**
 
@@ -200,9 +136,6 @@ void
 
 ## Зміст
 
-- [Swoole\Redis\Server::format](swoole-redis-server.format.md) -
-Опис
-- [Swoole\Redis\Server::setHandler](swoole-redis-server.sethandler.md)
-- Опис
-- [Swoole\Redis\Server::start](swoole-redis-server.start.md) -
-Опис
+-   [Swoole\\Redis\\Server::format](swoole-redis-server.format.html) - Опис
+-   [Swoole\\Redis\\Server::setHandler](swoole-redis-server.sethandler.html) - Опис
+-   [Swoole\\Redis\\Server::start](swoole-redis-server.start.html) - Опис

@@ -1,19 +1,27 @@
-- [«rrd_update](function.rrd-update.md)
-- [rrd_xport »](function.rrd-xport.md)
+Отримує інформацію про базову бібліотеку rrdtool
 
-- [PHP Manual](index.md)
-- [Функції RRD](ref.rrd.md)
-- Отримує інформацію про базову бібліотеку rrdtool
+-   [« rrd\_update](function.rrd-update.html)
+    
+-   [rrd\_xport »](function.rrd-xport.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции RRD](ref.rrd.html)
+    
+-   Отримує інформацію про базову бібліотеку rrdtool
+    
 
-#rrd_version
+# rrdversion
 
-(PECL rrd \>= 1.0.0)
+(PECL rrd >= 1.0.0)
 
-rrd_version — Отримує інформацію про базову бібліотеку rrdtool
+rrdversion — Отримує інформацію про базову бібліотеку rrdtool
 
 ### Опис
 
-**rrd_version**(): string
+```methodsynopsis
+rrd_version(): string
+```
 
 Отримує інформацію про базову бібліотеку rrdtool.
 

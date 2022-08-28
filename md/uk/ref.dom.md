@@ -1,13 +1,18 @@
-- [« DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md)
-- [dom_import_simplexml »](function.dom-import-simplexml.md)
+Функції DOM
 
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Функції DOM
+-   [« DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.html)
+    
+-   [dom\_import\_simplexml »](function.dom-import-simplexml.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOM](book.dom.html)
+    
+-   Функції DOM
+    
 
 # Функції DOM
 
 ## Зміст
 
-- [dom_import_simplexml](function.dom-import-simplexml.md) -
-Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+-   [dom\_import\_simplexml](function.dom-import-simplexml.html) — Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement

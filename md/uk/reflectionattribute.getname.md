@@ -1,9 +1,15 @@
-- [« ReflectionAttribute::getArguments](reflectionattribute.getarguments.md)
-- [ReflectionAttribute::getTarget »](reflectionattribute.gettarget.md)
+Повертає ім'я атрибуту
 
-- [PHP Manual](index.md)
-- [ReflectionAttribute](class.reflectionattribute.md)
-- Повертає ім'я атрибута
+-   [« ReflectionAttribute::getArguments](reflectionattribute.getarguments.html)
+    
+-   [ReflectionAttribute::getTarget »](reflectionattribute.gettarget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionAttribute](class.reflectionattribute.html)
+    
+-   Повертає ім'я атрибуту
+    
 
 # ReflectionAttribute::getName
 
@@ -13,7 +19,9 @@ ReflectionAttribute::getName — Повертає ім'я атрибута
 
 ### Опис
 
-public **ReflectionAttribute::getName**(): string
+```methodsynopsis
+public ReflectionAttribute::getName(): string
+```
 
 Повертає ім'я атрибута.
 
@@ -23,4 +31,4 @@ public **ReflectionAttribute::getName**(): string
 
 ### Значення, що повертаються
 
-Назва атрибута.
+Ім'я атрибуту.

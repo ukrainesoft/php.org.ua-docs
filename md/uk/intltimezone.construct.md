@@ -1,20 +1,25 @@
-- [« IntlTimeZone](class.intltimezone.md)
-- [IntlTimeZone::countEquivalentIDs »](intltimezone.countequivalentids.md)
+Конструктор класу, що забороняє пряме створення екземпляра
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Конструктор класу, що забороняє пряме створення екземпляра
+-   [« IntlTimeZone](class.intltimezone.html)
+    
+-   [IntlTimeZone::countEquivalentIDs »](intltimezone.countequivalentids.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Конструктор класу, що забороняє пряме створення екземпляра
+    
 
-# IntlTimeZone::\_\_construct
+# IntlTimeZone::construct
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::\_\_construct - Конструктор класу, що забороняє пряме
-створення екземпляра
+IntlTimeZone::construct - Конструктор класу, що забороняє пряме створення екземпляра
 
 ### Опис
 
-private **IntlTimeZone::\_\_construct**()
+private **IntlTimeZone::construct**
 
 ### Список параметрів
 

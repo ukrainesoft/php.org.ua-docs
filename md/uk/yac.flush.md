@@ -1,19 +1,27 @@
-- [« Yac::dump](yac.dump.md)
-- [Yac::get »](yac.get.md)
+Очищує кеш
 
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Очищає кеш
+-   [« Yac::dump](yac.dump.html)
+    
+-   [Yac::get »](yac.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yac](class.yac.html)
+    
+-   Очищує кеш
+    
 
 # Yac::flush
 
-(PECL yac \>= 1.0.0)
+(PECL yac >= 1.0.0)
 
 Yac::flush — Очищає кеш
 
 ### Опис
 
-public **Yac::flush**(): bool
+```methodsynopsis
+public Yac::flush(): bool
+```
 
 Видаляє всі значення кеші.
 

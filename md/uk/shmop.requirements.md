@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](shmop.setup.md)
-- [Встановлення »](shmop.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](shmop.setup.md)
-- Вимоги
+-   [« Установка и настройка](shmop.setup.html)
+    
+-   [Установка »](shmop.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](shmop.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

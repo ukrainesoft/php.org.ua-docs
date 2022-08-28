@@ -1,36 +1,40 @@
-- [« SolrQuery::setHighlightSimplePre](solrquery.sethighlightsimplepre.md)
-- [SolrQuery::setHighlightUsePhraseHighlighter »](solrquery.sethighlightusephrasehighlighter.md)
+Встановлює максимальну кількість виділених фрагментів для створення кожного поля
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює максимальну кількість виділених фрагментів для
-створення для кожного поля
+-   [« SolrQuery::setHighlightSimplePre](solrquery.sethighlightsimplepre.html)
+    
+-   [SolrQuery::setHighlightUsePhraseHighlighter »](solrquery.sethighlightusephrasehighlighter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює максимальну кількість виділених фрагментів для створення кожного поля
+    
 
 # SolrQuery::setHighlightSnippets
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightSnippets — Встановлює максимальну кількість
-виділених фрагментів для створення для кожного поля
+SolrQuery::setHighlightSnippets — Встановлює максимальну кількість виділених фрагментів для створення кожного поля
 
 ### Опис
 
-public **SolrQuery::setHighlightSnippets**(int `$value`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightSnippets(int $value, string $field_override = ?): SolrQuery
+```
 
-Встановлює максимальну кількість виділених фрагментів для створення
-для кожного поля
+Встановлює максимальну кількість виділених фрагментів для створення кожного поля
 
 ### Список параметрів
 
 `value`
-Максимальна кількість виділених фрагментів для створення для кожного
-поля
+
+Максимальна кількість виділених фрагментів для створення для кожного поля
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

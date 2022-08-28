@@ -1,56 +1,60 @@
-- [« MongoDB\Driver\CursorId::unserialize](mongodb-driver-cursorid.unserialize.md)
-- [MongoDB\Driver\CursorInterface::getId »](mongodb-driver-cursorinterface.getid.md)
+Інтерфейс MongoDBDriverCursorInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver](book.mongodb.md)
-- Інтерфейс MongoDB\Driver\CursorInterface
+-   [« MongoDB\\Driver\\CursorId::unserialize](mongodb-driver-cursorid.unserialize.html)
+    
+-   [MongoDB\\Driver\\CursorInterface::getId »](mongodb-driver-cursorinterface.getid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver](book.mongodb.html)
+    
+-   Інтерфейс MongoDBDriverCursorInterface
+    
 
-# Інтерфейс MongoDB\Driver\CursorInterface
+# Інтерфейс MongoDBDriverCursorInterface
 
-(mongodb \>=1.6.0)
+(mongodb >=1.6.0)
 
 ## Вступ
 
-Інтерфейс, реалізований
-[MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md), але також
-може використовуватися як параметр, що повертається значення або
-типу якості у класах користувальницького простору.
+Інтерфейс, реалізований [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
-class **MongoDB\Driver\CursorInterface** implements
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public [getId](mongodb-driver-cursorinterface.getid.md)():
-[MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
+    
+    
+     
+      class MongoDB\Driver\CursorInterface
+     
 
-abstract public
-[getServer](mongodb-driver-cursorinterface.getserver.md)():
-[MongoDB\Driver\Server](class.mongodb-driver-server.md)
+     implements 
+       Traversable {
+    
 
-abstract public [isDead](mongodb-driver-cursorinterface.isdead.md)():
-bool
+    /* Методы */
+    
+   abstract public getId(): MongoDB\Driver\CursorId
+abstract public getServer(): MongoDB\Driver\Server
+abstract public isDead(): bool
+abstract public setTypeMap(array $typemap): void
+abstract public toArray(): array
 
-abstract public
-[setTypeMap](mongodb-driver-cursorinterface.settypemap.md)(array
-`$typemap`): void
+   }
+```
 
-abstract public
-[toArray](mongodb-driver-cursorinterface.toarray.md)(): array
+## список змін
 
-}
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\Driver\CursorInterface::getId](mongodb-driver-cursorinterface.getid.md)
-- Повертає ідентифікатор курсору
-- [MongoDB\Driver\CursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md)
-— Повертає сервер, з яким пов'язаний курсор
-- [MongoDB\Driver\CursorInterface::isDead](mongodb-driver-cursorinterface.isdead.md)
-— Перевірити, чи можна ще отримати з курсору результати
-- [MongoDB\Driver\CursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.md)
-— Задати порівняння типів десеріалізації BSON
-- [MongoDB\Driver\CursorInterface::toArray](mongodb-driver-cursorinterface.toarray.md)
-— Повернути всі результати для цього курсору у вигляді масиву
+-   [MongoDB\\Driver\\CursorInterface::getId](mongodb-driver-cursorinterface.getid.html) — Повертає ідентифікатор курсору
+-   [MongoDB\\Driver\\CursorInterface::getServer](mongodb-driver-cursorinterface.getserver.html) — Повертає сервер, з яким пов'язаний курсор
+-   [MongoDB\\Driver\\CursorInterface::isDead](mongodb-driver-cursorinterface.isdead.html) — Перевірити, чи можна ще отримати з курсору результати
+-   [MongoDB\\Driver\\CursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.html) — Задати порівняння типів для десеріалізації BSON
+-   [MongoDB\\Driver\\CursorInterface::toArray](mongodb-driver-cursorinterface.toarray.html) — Повернути всі результати для цього курсору у вигляді масиву

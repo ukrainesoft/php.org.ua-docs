@@ -1,9 +1,15 @@
-- [« DOMNode::removeChild](domnode.removechild.md)
-- [DOMNodeList »](class.domnodelist.md)
+Замінює дочірній вузол
 
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- Замінює дочірній вузол
+-   [« DOMNode::removeChild](domnode.removechild.html)
+    
+-   [DOMNodeList »](class.domnodelist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMNode](class.domnode.html)
+    
+-   Замінює дочірній вузол
+    
 
 # DOMNode::replaceChild
 
@@ -13,51 +19,46 @@ DOMNode::replaceChild — Замінює дочірній вузол
 
 ### Опис
 
-public **DOMNode::replaceChild**([DOMNode](class.domnode.md) `$node`,
-[DOMNode](class.domnode.md) `$child`):
-[DOMNode](class.domnode.md)\|false
+```methodsynopsis
+public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
+```
 
-Функція замінює дочірній вузол 'child' новим вузлом. Якщо вузол `node` вже
-є дочірнім, то він не буде доданий вдруге. Якщо заміна
-пройшла успішно, то буде повернутий старий (замінний) вузол.
+Функція замінює дочірній вузол `child` новим вузлом. Якщо вузол `node` вже є дочірнім, то він не буде доданий вдруге. Якщо заміна пройшла успішно, то буде повернуто старий (замінний) вузол.
 
 ### Список параметрів
 
 `node`
-Новий вузол. Має бути частиною цільового документа, тобто створено
-за допомогою одного з методів DOMDocument-\>createXXX() або імпортований
-в документ через [DOMDocument::importNode](domdocument.importnode.md).
+
+Новий вузол. Повинен бути частиною цільового документа, тобто створений за допомогою одного з методів DOMDocument->createXXX() або імпортований у документ через [DOMDocument::importNode](domdocument.importnode.html)
 
 `child`
+
 Старий вузол.
 
 ### Значення, що повертаються
 
-Старий вузол або 'false' у разі виникнення помилки.
+Старий вузол або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
 **`DOM_NO_MODIFICATION_ALLOWED_ERR`**
-Виникає, якщо вузол доступний лише для читання або попередній батько
-вузла, що вставляється, доступний тільки для читання.
+
+Виникає, якщо вузол доступний тільки для читання або попередній батько вузла, що вставляється, доступний тільки для читання.
 
 **`DOM_HIERARCHY_REQUEST_ERR`**
-Виникає, якщо тип вузла не підтримує нащадків типу, що має
-вузол `node`, або якщо доданий вузол є предком цільового вузла
-або ним самим.
+
+Виникає, якщо тип вузла не підтримує нащадків типу, що має вузол `node`, або якщо доданий вузол є предком цільового вузла або ним самим.
 
 **`DOM_WRONG_DOCUMENT_ERR`**
-Виникає, якщо `node` створено в іншому документі, відмінному від того,
-якому було створено цей вузол.
+
+Виникає, якщо `node` створено іншому документі, відмінному від цього, у якому було створено цей вузол.
 
 **`DOM_NOT_FOUND`**
-Виникає, якщо 'child' не є дочірнім вузлом цього вузла.
+
+Виникає, якщо `child` не є дочірнім вузлом цього вузла.
 
 ### Дивіться також
 
-- [DOMChildNode::replaceWith()](domchildnode.replacewith.md) -
-Замінює вузол новими вузлами
-- [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий
-дочірній вузол у кінець списку нащадків
-- [DOMNode::removeChild()](domnode.removechild.md) - Видаляє
-дочірній вузол зі списку нащадків
+-   [DOMChildNode::replaceWith()](domchildnode.replacewith.html) - Замінює вузол новими вузлами
+-   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMNode::removeChild()](domnode.removechild.html) - видаляє дочірній вузол зі списку нащадків

@@ -1,19 +1,27 @@
-- [« Swoole\Client::pause](swoole-client.pause.md)
-- [Swoole\Client::recv »](swoole-client.recv.md)
+Перенаправляє дані на інший файловий дескриптор
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Перенаправляє дані до іншого файлового дескриптора
+-   [« Swoole\\Client::pause](swoole-client.pause.html)
+    
+-   [Swoole\\Client::recv »](swoole-client.recv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Client](class.swoole-client.html)
+    
+-   Перенаправляє дані на інший файловий дескриптор
+    
 
-# Swoole\Client::pipe
+# SwooleClient::pipe
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Client::pipe — Перенаправляє дані до іншого файлового дескриптора.
+SwooleClient::pipe — Перенаправляє дані до іншого файлового дескриптора.
 
 ### Опис
 
-public **Swoole\Client::pipe**(string `$socket`): void
+```methodsynopsis
+public Swoole\Client::pipe(string $socket): void
+```
 
 ### Список параметрів
 

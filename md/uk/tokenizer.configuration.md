@@ -1,10 +1,16 @@
-- [« Установка](tokenizer.installation.md)
-- [Типи ресурсів»](tokenizer.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tokenizer.setup.md)
-- Налаштування під час виконання
+-   [« Установка](tokenizer.installation.html)
+    
+-   [Типы ресурсов »](tokenizer.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](tokenizer.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

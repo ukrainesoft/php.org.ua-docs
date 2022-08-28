@@ -1,32 +1,35 @@
-- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.md)
+Метод повідомлення про невдалий heartbeat сервер
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
-- Метод повідомлення про невдалий heartbeat сервер
+-   [« MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatStarted »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
+    
+-   Метод повідомлення про невдалий heartbeat сервер
+    
 
-# MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed
+# MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed - Метод
-повідомлення про невдалий heartbeat сервера
+MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed — Метод сповіщення про невдалий сервер heartbeat
 
 ### Опис
 
-abstract public
-**MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed**([MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-`$event`): void
+```methodsynopsis
+abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed(MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent $event): void
+```
 
-Якщо передплатник був зареєстрований, драйвер викличе цей метод у разі
-Поява помилки серцевогосерверу (тобто команди
-[» hello](https://www.mongodb.com/docs/manual/reference/command/hello/),
-викликаної через [» моніторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)).
+Якщо передплатник був зареєстрований, драйвер викличе цей метод, у разі виникнення помилки на heartbeat сервера (тобто команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/), викликаної через [» мониторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
 
 ### Список параметрів
 
-`event` ([MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md))
-Об'єкт події, що містить інформацію про непрацюючий heartbeat сервера.
+`event` [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+
+Об'єкт події, що містить інформацію про непрацюючому серцевомусервері.
 
 ### Значення, що повертаються
 
@@ -34,14 +37,10 @@ abstract public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-- [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) -
-Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) -
-Реєструє передплатника на подію моніторингу в даному об'єкті
-Manager
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

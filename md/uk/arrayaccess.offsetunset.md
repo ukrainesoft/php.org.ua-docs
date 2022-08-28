@@ -1,9 +1,15 @@
-- [« ArrayAccess::offsetSet](arrayaccess.offsetset.md)
-- [Serializable »](class.serializable.md)
+Видаляє зміщення
 
-- [PHP Manual](index.md)
-- [ArrayAccess](class.arrayaccess.md)
-- Видаляє зміщення
+-   [« ArrayAccess::offsetSet](arrayaccess.offsetset.html)
+    
+-   [Serializable »](class.serializable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayAccess](class.arrayaccess.html)
+    
+-   Видаляє зміщення
+    
 
 # ArrayAccess::offsetUnset
 
@@ -13,20 +19,20 @@ ArrayAccess::offsetUnset — Видаляє зміщення
 
 ### Опис
 
-public
-**ArrayAccess::offsetUnset**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$offset`): void
+```methodsynopsis
+public ArrayAccess::offsetUnset(mixed $offset): void
+```
 
 Видаляє зміщення (ключ).
 
-> **Примітка**:
->
-> Цей метод *не* буде викликаний при наведенні типу до
-> [(unset)](language.types.type-juggling.md#language.types.typecasting)
+> **Зауваження**
+> 
+> Цей метод *не* буде викликаний при наведенні типу до [(unset)](language.types.type-juggling.html#language.types.typecasting)
 
 ### Список параметрів
 
 `offset`
+
 Усунення (ключ) для видалення.
 
 ### Значення, що повертаються

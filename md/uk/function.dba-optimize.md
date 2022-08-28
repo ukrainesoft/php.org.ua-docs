@@ -1,34 +1,40 @@
-- [«dba_open](function.dba-open.md)
-- [dba_popen »](function.dba-popen.md)
+Оптимізує базу даних
 
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Оптимізує базу даних
+-   [« dba\_open](function.dba-open.html)
+    
+-   [dba\_popen »](function.dba-popen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции DBA](ref.dba.html)
+    
+-   Оптимізує базу даних
+    
 
-#dba_optimize
+# dbaoptimize
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_optimize — Оптимізує базу даних
+dbaoptimize - Оптимізує базу даних
 
 ### Опис
 
-**dba_optimize**(resource `$dba`): bool
+```methodsynopsis
+dba_optimize(resource $dba): bool
+```
 
-**dba_optimize()** оптимізує основну базу даних.
+**dbaoptimize()** оптимізує основну базу даних
 
 ### Список параметрів
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [dba_sync()](function.dba-sync.md) - Синхронізує базу даних
+-   [dba\_sync()](function.dba-sync.html) - Синхронізує базу даних

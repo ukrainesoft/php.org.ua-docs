@@ -1,55 +1,68 @@
-- [«basename](function.basename.md)
-- [chmod»](function.chmod.md)
+Змінює групу файлу
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Змінює групу файлу
+-   [« basename](function.basename.html)
+    
+-   [chmod »](function.chmod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции файловой системы](ref.filesystem.html)
+    
+-   Змінює групу файлу
+    
 
-#chgrp
+# chgrp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-chgrp — Змінює групу файлів
+chgrp — Змінює групу файлу
 
 ### Опис
 
-**chgrp**(string `$filename`, string\|int `$group`): bool
+```methodsynopsis
+chgrp(string $filename, string|int $group): bool
+```
 
-Здійснює спробу зміни групи файлу `filename` на групу `group`.
+Здійснює спробу зміни групи файлу `filename` на групу `group`
 
-Тільки суперкористувач може довільно змінювати групу файлу;
-решта користувачів можуть змінювати групу файлу тільки на ті групи,
-членами яких є.
+Тільки суперкористувач може довільно змінювати групу файлу; Інші користувачі можуть змінювати групу файлу лише на ті групи, членами яких є.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 `group`
+
 Назва чи номер групи.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Зміна групи файлу**
+**Приклад #1 Зміна групи файлів**
 
-` <?php$filename = 'shared_file.txt';$format = "Ідентифікатор групи файлу %s @ %s: %d
-";printf($format, $filename, date('r'), filegroup($filename));chgrp($filename, 8);clearstatcache(); // скидаємо кеш filegroup()printf($format, $filename) , date('r'), filegroup($filename));?> `
+```php
+<?php
+$filename = 'shared_file.txt';
+$format = "Идентификатор группы файла %s @ %s: %d\n";
+printf($format, $filename, date('r'), filegroup($filename));
+chgrp($filename, 8);
+clearstatcache(); // сбрасываем кеш filegroup()
+printf($format, $filename, date('r'), filegroup($filename));
+?>
+```
 
 ### Примітки
 
-> **Примітка**: Ця функція не застосовується для роботи з [віддаленими > файлами](features.remote-files.md), оскільки файл має бути
-> доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [удалёнными файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
 
-> **Примітка**: У Windows функція мовчки завершується помилкою при
-> застосування до звичайного файлу.
+> **Зауваження**: У Windows функція мовчки завершується помилкою при застосуванні до звичайного файлу.
 
 ### Дивіться також
 
-- [chown()](function.chown.md) - Змінює власника файлу
-- [chmod()](function.chmod.md) - Змінює режим доступу до файлу
+-   [chown()](function.chown.html) - Змінює власника файлу
+-   [chmod()](function.chmod.html) - Змінює режим доступу до файлу

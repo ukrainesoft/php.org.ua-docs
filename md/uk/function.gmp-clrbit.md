@@ -1,58 +1,69 @@
-- [«gmp_binomial](function.gmp-binomial.md)
-- [gmp_cmp »](function.gmp-cmp.md)
+Скидання біта
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Скидання біта
+-   [« gmp\_binomial](function.gmp-binomial.html)
+    
+-   [gmp\_cmp »](function.gmp-cmp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Скидання біта
+    
 
-#gmp_clrbit
+# gmpclrbit
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmp_clrbit - Скидання біта
+gmpclrbit - Скидання біта
 
 ### Опис
 
-**gmp_clrbit**([GMP](class.gmp.md) `$num`, int `$index`): void
+```methodsynopsis
+gmp_clrbit(GMP $num, int $index): void
+```
 
-Скидає (встановлює 0) біт на позиції `index` аргументу `num`.
-Індексація починається із 0.
+Скидає (встановлює 0) біт на позиції `index` аргументу `num`. Індексація починається із 0.
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 `index`
+
 Індекс біта, що очищається. Індекс 0 вказує на молодший біт.
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.html)ю
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_clrbit()****
+**Приклад #1 Приклад використання **gmpclrbit()****
 
-`<?php   $a = gmp_init("0xff"); gmp_clrbit($a, 0); // індексація з 0, молодший значний біт    echo gmp_strval($a) . "
-";    ?> `
+```php
+<?php
+    $a = gmp_init("0xff");
+    gmp_clrbit($a, 0); // индексация с 0, младший значащий бит
+    echo gmp_strval($a) . "\n";
+    ?>
+```
 
 Результат виконання цього прикладу:
 
+```
 254
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> На відміну від більшості GMP функцій, **gmp_clrbit()** має
-> викликатися для вже існуючого об'єкта GMP (наприклад, створеного з
-> за допомогою [gmp_init()](function.gmp-init.md)). Функція не створює їх
-> автоматично.
+> **Зауваження**
+> 
+> На відміну від більшості GMP функцій, **gmpclrbit()** повинна викликатись для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmp\_init()](function.gmp-init.html)). Функція не створює їх автоматично.
 
 ### Дивіться також
 
-- [gmp_setbit()](function.gmp-setbit.md) - Встановлення біта
-- [gmp_testbit()](function.gmp-testbit.md) - Перевірка, чи встановлено
-біт в 1
+-   [gmp\_setbit()](function.gmp-setbit.html) - Встановлення біта
+-   [gmp\_testbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1

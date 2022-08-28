@@ -1,13 +1,19 @@
-- [« DatePeriod::getEndDate](dateperiod.getenddate.md)
-- [DatePeriod::getStartDate »](dateperiod.getstartdate.md)
+Отримує кількість повторів
 
-- [PHP Manual](index.md)
-- [DatePeriod](class.dateperiod.md)
-- Отримує кількість повторів
+-   [« DatePeriod::getEndDate](dateperiod.getenddate.html)
+    
+-   [DatePeriod::getStartDate »](dateperiod.getstartdate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DatePeriod](class.dateperiod.html)
+    
+-   Отримує кількість повторів
+    
 
 # DatePeriod::getRecurrences
 
-(PHP 7 \>= 7.2.17/7.3.4, PHP 8)
+(PHP 7> = 7.2.17/7.3.4, PHP 8)
 
 DatePeriod::getRecurrences — Отримує кількість повторів
 
@@ -15,7 +21,9 @@ DatePeriod::getRecurrences — Отримує кількість повторі�
 
 Об'єктно-орієнтований стиль
 
-public **DatePeriod::getRecurrences**(): ?int
+```methodsynopsis
+public DatePeriod::getRecurrences(): ?int
+```
 
 Отримує кількість повторів.
 
@@ -29,4 +37,4 @@ public **DatePeriod::getRecurrences**(): ?int
 
 ### Дивіться також
 
-- [DatePeriod::$recurrences](class.dateperiod.md#dateperiod.props.recurrences)
+-   [DatePeriod::$recurrences](class.dateperiod.html#dateperiod.props.recurrences)

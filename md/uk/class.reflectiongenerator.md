@@ -1,9 +1,15 @@
-- [« ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md)
-- [ReflectionGenerator::\_\_construct »](reflectiongenerator.construct.md)
+Клас ReflectionGenerator
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionGenerator
+-   [« ReflectionUnionType::getTypes](reflectionuniontype.gettypes.html)
+    
+-   [ReflectionGenerator::\_\_construct »](reflectiongenerator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionGenerator
+    
 
 # Клас ReflectionGenerator
 
@@ -15,53 +21,44 @@
 
 ## Огляд класів
 
-final class **ReflectionGenerator** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](reflectiongenerator.construct.md)([Generator](class.generator.md)
-`$generator`)
+    
+     
+      final
+      class ReflectionGenerator
+     
+     {
 
-public [getExecutingFile](reflectiongenerator.getexecutingfile.md)():
-string
+    /* Методы */
+    
+   public __construct(Generator $generator)
 
-public
-[getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md)():
-[Generator](class.generator.md)
+    public getExecutingFile(): string
+public getExecutingGenerator(): Generator
+public getExecutingLine(): int
+public getFunction(): ReflectionFunctionAbstract
+public getThis(): ?object
+public getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT): array
 
-public [getExecutingLine](reflectiongenerator.getexecutingline.md)():
-int
+   }
+```
 
-public [getFunction](reflectiongenerator.getfunction.md)():
-[ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
+## список змін
 
-public [getThis](reflectiongenerator.getthis.md)(): ?object
-
-public [getTrace](reflectiongenerator.gettrace.md)(int `$options` =
-**`DEBUG_BACKTRACE_PROVIDE_OBJECT`**): array
-
-}
-
-## Список змін
-
-| Версія | Опис                             |
-|--------|----------------------------------|
-| 8.0.0  | Клас тепер є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Клас тепер є остаточним (final). |
 
 ## Зміст
 
-- [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.md)
-- Конструктор ReflectionGenerator
-- [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.md)
-— Отримати ім'я файлу, з якого запущено генератор
-- [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md)
-— Отримати запущений об'єкт Generator
-- [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md)
-— Отримати поточний рядок генератора, що виконується.
-- [ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
-- Отримати ім'я функції генератора
-- [ReflectionGenerator::getThis](reflectiongenerator.getthis.md) -
-Отримує значення $this генератора
-- [ReflectionGenerator::getTrace](reflectiongenerator.gettrace.md) -
-Отримати трасування запущеного генератора
+-   [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.html) - Конструктор ReflectionGenerator
+-   [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.html) — Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.html) — Отримати запущений об'єкт Generator
+-   [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.html) — Отримати поточний рядок генератора, що виконується.
+-   [ReflectionGenerator::getFunction](reflectiongenerator.getfunction.html) - Отримати ім'я функції генератора
+-   [ReflectionGenerator::getThis](reflectiongenerator.getthis.html) — Отримує значення $this генератора
+-   [ReflectionGenerator::getTrace](reflectiongenerator.gettrace.html) — Отримати трасування запущеного генератора

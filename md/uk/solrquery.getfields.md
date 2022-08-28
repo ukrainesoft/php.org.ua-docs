@@ -1,20 +1,27 @@
-- [«SolrQuery::getFacetSort](solrquery.getfacetsort.md)
-- [SolrQuery::getFilterQueries »](solrquery.getfilterqueries.md)
+Повертає список полів, які будуть повернені у відповіді
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає список полів, які будуть повернені у відповіді
+-   [« SolrQuery::getFacetSort](solrquery.getfacetsort.html)
+    
+-   [SolrQuery::getFilterQueries »](solrquery.getfilterqueries.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає список полів, які будуть повернені у відповіді
+    
 
 # SolrQuery::getFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getFields — Повертає список полів, які будуть повернуті
-у відповіді
+SolrQuery::getFields — Повертає список полів, які будуть повернені у відповіді
 
 ### Опис
 
-public **SolrQuery::getFields**(): array
+```methodsynopsis
+public SolrQuery::getFields(): array
+```
 
 Повертає список полів, які будуть повернені у відповіді
 
@@ -24,5 +31,4 @@ public **SolrQuery::getFields**(): array
 
 ### Значення, що повертаються
 
-Повертає масив у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає масив у разі успішного виконання та **`null`**, якщо значення не встановлено

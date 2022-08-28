@@ -1,48 +1,51 @@
-- [«dba_popen](function.dba-popen.md)
-- [dba_sync »](function.dba-sync.md)
+Перезаписати або вставити запис
 
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Перезаписати або вставити запис
+-   [« dba\_popen](function.dba-popen.html)
+    
+-   [dba\_sync »](function.dba-sync.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции DBA](ref.dba.html)
+    
+-   Перезаписати або вставити запис
+    
 
-#dba_replace
+# dbareplace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_replace — Перезаписати або вставити запис
+dbareplace — Перезаписати або вставити запис
 
 ### Опис
 
-**dba_replace**(string\|array `$key`, string `$value`, resource `$dba`):
-bool
+```methodsynopsis
+dba_replace(string|array $key, string $value, resource $dba): bool
+```
 
-**dba_replace()** перезаписує або вставляє запис, заданий ключем
-`key` та значенням `value` в базу даних визначену обробником `dba`.
+**dbareplace()** перезаписує або вставляє запис, заданий ключем `key` та значенням `value` до бази даних, визначеної обробником `dba`
 
 ### Список параметрів
 
 `key`
-Ключ запису, який треба замінити.
+
+Ключ запису, який потрібно замінити.
 
 `value`
+
 Нове значення.
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [dba_exists()](function.dba-exists.md) - Перевіряє, чи існує
-ключ
-- [dba_delete()](function.dba-delete.md) - Видаляє запис бази
-даних, визначену ключем
-- [dba_fetch()](function.dba-fetch.md) - Виймає дані з
-вказаним ключем
-- [dba_insert()](function.dba-insert.md) - Вставляє запис
+-   [dba\_exists()](function.dba-exists.html) - Перевіряє, чи існує ключ
+-   [dba\_delete()](function.dba-delete.html) - Видаляє запис бази даних, визначену ключем
+-   [dba\_fetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
+-   [dba\_insert()](function.dba-insert.html) - Вставляє запис

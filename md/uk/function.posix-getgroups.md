@@ -1,19 +1,27 @@
-- [«posix_getgrnam](function.posix-getgrnam.md)
-- [posix_getlogin »](function.posix-getlogin.md)
+Повертає список груп для поточного процесу
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає список груп для поточного процесу
+-   [« posix\_getgrnam](function.posix-getgrnam.html)
+    
+-   [posix\_getlogin »](function.posix-getlogin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Повертає список груп для поточного процесу
+    
 
-#posix_getgroups
+# posixgetgroups
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getgroups — Повертає список груп для поточного процесу
+posixgetgroups — Повертає список груп для поточного процесу
 
 ### Опис
 
-**posix_getgroups**(): array\|false
+```methodsynopsis
+posix_getgroups(): array|false
+```
 
 Повертає список груп для поточного процесу.
 
@@ -23,35 +31,42 @@ posix_getgroups — Повертає список груп для поточно
 
 ### Значення, що повертаються
 
-Повертає числовий масив, що містить список ідентифікаторів груп для
-поточного процесу або **`false`** у разі виникнення помилки.
+Повертає числовий масив, що містить список ідентифікаторів груп для поточного процесу або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getgroups()****
+**Приклад #1 Приклад використання **posixgetgroups()****
 
-` <?php$groups = posix_getgroups();print_r($groups);?> `
+```php
+<?php
+
+$groups = posix_getgroups();
+
+print_r($groups);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => 4
-[1] => 20
-[2] => 24
-[3] => 25
-[4] => 29
-[5] => 30
-[6] => 33
-[7] => 44
-[8] => 46
-[9] => 104
-[10] => 109
-[11] => 110
-[12] => 1000
+    [0] => 4
+    [1] => 20
+    [2] => 24
+    [3] => 25
+    [4] => 29
+    [5] => 30
+    [6] => 33
+    [7] => 44
+    [8] => 46
+    [9] => 104
+    [10] => 109
+    [11] => 110
+    [12] => 1000
 )
+```
 
 ### Дивіться також
 
-- [posix_getgrgid()](function.posix-getgrgid.md) - Повертає
-інформацію про групу з її ID
+-   [posix\_getgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID

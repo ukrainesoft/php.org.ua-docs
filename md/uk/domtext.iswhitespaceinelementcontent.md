@@ -1,24 +1,29 @@
-- [« DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md)
-- [DOMText::splitText »](domtext.splittext.md)
+Визначає, чи містить текстовий вузол пробіли у вмісті
 
-- [PHP Manual](index.md)
-- [DOMText](class.domtext.md)
-- Визначає, чи містить текстовий вузол пробіли у вмісті
+-   [« DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.html)
+    
+-   [DOMText::splitText »](domtext.splittext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMText](class.domtext.html)
+    
+-   Визначає, чи містить текстовий вузол пробіли у вмісті
+    
 
 # DOMText::isWhitespaceInElementContent
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMText::isWhitespaceInElementContent — Визначає, чи міститься
-текстовий вузол прогалини у вмісті
+DOMText::isWhitespaceInElementContent — Визначає, чи містить текстовий вузол пробіли у вмісті
 
 ### Опис
 
-public **DOMText::isWhitespaceInElementContent**(): bool
+```methodsynopsis
+public DOMText::isWhitespaceInElementContent(): bool
+```
 
-Визначає, чи є пробіли у вмісті текстового вузла, чи він порожній.
-Текстові вузли можуть містити прогалини у своєму вмісті під час
-завантаження документа.
+Визначає, чи є пробіли у вмісті текстового вузла, чи він порожній. Текстові вузли можуть містити пробіли у вмісті під час завантаження документа.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ public **DOMText::isWhitespaceInElementContent**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо вузол складається тільки з нуля або більше
-пробілів. Повертає **`false`** інакше.
+Повертає **`true`**якщо вузол складається тільки з нуля або більше пробілів. Повертає **`false`** в іншому випадку.

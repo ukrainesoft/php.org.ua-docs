@@ -1,22 +1,29 @@
-- [« spl_autoload](function.spl-autoload.md)
-- [spl_object_hash »](function.spl-object-hash.md)
+Повертає доступні класи SPL
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Повертає доступні класи SPL
+-   [« spl\_autoload](function.spl-autoload.html)
+    
+-   [spl\_object\_hash »](function.spl-object-hash.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Повертає доступні класи SPL
+    
 
-# spl_classes
+# splclasses
 
 (PHP 5, PHP 7, PHP 8)
 
-spl_classes — Повертає доступні класи SPL
+splclasses — Повертає доступні класи SPL
 
 ### Опис
 
-**spl_classes**(): array
+```methodsynopsis
+spl_classes(): array
+```
 
-Ця функція повертає масив з доступними в даний час класами
-SPL.
+Ця функція повертає масив з доступними класами SPL.
 
 ### Список параметрів
 
@@ -28,25 +35,33 @@ SPL.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **spl_classes()****
+**Приклад #1 Приклад використання **splclasses()****
 
-` <?phpprint_r(spl_classes());?> `
+```php
+<?php
+
+print_r(spl_classes());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[ArrayObject] => ArrayObject
-[ArrayIterator] => ArrayIterator
-[CachingIterator] => CachingIterator
-[RecursiveCachingIterator] => RecursiveCachingIterator
-[DirectoryIterator] => DirectoryIterator
-[FilterIterator] => FilterIterator
-[LimitIterator] => LimitIterator
-[ParentIterator] => ParentIterator
-[RecursiveDirectoryIterator] => RecursiveDirectoryIterator
-[RecursiveIterator] => RecursiveIterator
-[RecursiveIteratorIterator] => RecursiveIteratorIterator
-[SeekableIterator] => SeekableIterator
-[SimpleXMLIterator] => SimpleXMLIterator
+    [ArrayObject] => ArrayObject
+    [ArrayIterator] => ArrayIterator
+    [CachingIterator] => CachingIterator
+    [RecursiveCachingIterator] => RecursiveCachingIterator
+    [DirectoryIterator] => DirectoryIterator
+    [FilterIterator] => FilterIterator
+    [LimitIterator] => LimitIterator
+    [ParentIterator] => ParentIterator
+    [RecursiveDirectoryIterator] => RecursiveDirectoryIterator
+    [RecursiveIterator] => RecursiveIterator
+    [RecursiveIteratorIterator] => RecursiveIteratorIterator
+    [SeekableIterator] => SeekableIterator
+    [SimpleXMLIterator] => SimpleXMLIterator
 )
+```

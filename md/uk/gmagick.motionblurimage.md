@@ -1,42 +1,47 @@
-- [«Gmagick::modulateimage](gmagick.modulateimage.md)
-- [Gmagick::newimage »](gmagick.newimage.md)
+Імітує розмиття під час руху
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Імітує розмиття під час руху
+-   [« Gmagick::modulateimage](gmagick.modulateimage.html)
+    
+-   [Gmagick::newimage »](gmagick.newimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Імітує розмиття під час руху
+    
 
 # Gmagick::motionblurimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::motionblurimage — Імітує розмиття під час руху
 
 ### Опис
 
-public **Gmagick::motionblurimage**(float `$radius`, float `$sigma`,
-float `$angle`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::motionblurimage(float $radius, float $sigma, float $angle): Gmagick
+```
 
-Імітує розмиття під час руху. Згортає зображення за допомогою
-гаусівського оператора заданого радіусу та стандартного відхилення
-(Sigma). Для отримання прийнятних результатів radius має бути більшим
-sigma. При використанні значення radius, що дорівнює 0,
-**Gmagick::motionblurimage()** вибере для вас відповідний радіус.
-Параметр angle визначає кут розмиття руху.
+Імітує розмиття під час руху. Згортає зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (sigma). Для отримання прийнятних результатів radius повинен бути більшим за sigma. При використанні значення radius, що дорівнює 0, **Gmagick::motionblurimage()** вибере вам відповідний радіус. Параметр angle задає кут розмиття руху.
 
 ### Список параметрів
 
 `radius`
+
 Радіус у пікселях, крім центрального пікселя.
 
 `sigma`
+
 Стандартне відхилення у пікселях.
 
 `angle`
+
 Кут, під яким застосовується ефект.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

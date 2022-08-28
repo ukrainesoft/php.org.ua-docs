@@ -1,15 +1,21 @@
-- [«Каталоги](book.dir.md)
-- [Вимоги »](dir.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Каталоги](book.dir.md)
+-   [« Каталоги](book.dir.html)
+    
+-   [Требования »](dir.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Каталоги](book.dir.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](dir.requirements.md)
-- [Установка](dir.installation.md)
-- [Налаштування під час виконання](dir.configuration.md)
-- [Типи ресурсів](dir.resources.md)
+-   [Требования](dir.requirements.html)
+-   [Установка](dir.installation.html)
+-   [Настройка во время выполнения](dir.configuration.html)
+-   [Типы ресурсов](dir.resources.html)

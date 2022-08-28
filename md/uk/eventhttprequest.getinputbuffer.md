@@ -1,20 +1,28 @@
-- [«EventHttpRequest::getHost](eventhttprequest.gethost.md)
-- [EventHttpRequest::getInputHeaders »](eventhttprequest.getinputheaders.md)
+Повертає вхідний буфер
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Повертає вхідний буфер
+-   [« EventHttpRequest::getHost](eventhttprequest.gethost.html)
+    
+-   [EventHttpRequest::getInputHeaders »](eventhttprequest.getinputheaders.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Повертає вхідний буфер
+    
 
 # EventHttpRequest::getInputBuffer
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
 EventHttpRequest::getInputBuffer — Повертає вхідний буфер
 
 ### Опис
 
-public **EventHttpRequest::getInputBuffer**():
-[EventBuffer](class.eventbuffer.md)
+```methodsynopsis
+public
+   EventHttpRequest::getInputBuffer(): EventBuffer
+```
 
 Повертає вхідний буфер.
 
@@ -28,5 +36,4 @@ public **EventHttpRequest::getInputBuffer**():
 
 ### Дивіться також
 
-- [EventHttpRequest::getOutputBuffer()](eventhttprequest.getoutputbuffer.md) -
-Повертає вихідний буфер запиту
+-   [EventHttpRequest::getOutputBuffer()](eventhttprequest.getoutputbuffer.html) - Повертає вихідний буфер запиту

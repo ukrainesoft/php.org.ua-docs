@@ -1,174 +1,187 @@
-- [« Міграція з PHP 7.1.x на PHP 7.2.x](migration72.md)
-- [Нові функції »](migration72.new-functions.md)
+Нові можливості
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.1.x на PHP 7.2.x](migration72.md)
+-   [« Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
+    
+-   [Новые функции »](migration72.new-functions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
+    
 -   Нові можливості
+    
 
 ## Нові можливості
 
 ### Новий тип object
 
-Було введено новий тип, object, який можна використовувати в
-переданих параметрах (контраваріантність) і значеннях, що повертаються
-(Ковариантність) для будь-яких об'єктів.
+Було введено новий тип, object, який може використовуватися в параметрах, що передаються (контраваріантність) і повертаються значеннях (коваріантність) для будь-яких об'єктів.
 
-`<?phpfunction test(object $obj) : object{   return new SplQueue();}test(new StdClass()); `
+```php
+<?php
+
+function test(object $obj) : object
+{
+    return new SplQueue();
+}
+
+test(new StdClass());
+```
 
 ### Завантаження модуля на ім'я
 
-Для модулів, що підвантажуються, більше не потрібно вказувати розширення файлу
-(`.so` для Unix або `.dll` для Windows). Це допускається у файлі
-php.ini, а також функції [dl()](function.dl.md).
+Для підвантажуваних модулів більше не потрібно вказувати розширення файлу (`.so` для Unix або `.dll` для Windows). Це допускається у файлі php.ini, а також функції [dl()](function.dl.html)
 
 ### Дозволено перевизначення абстрактних методів
 
-Абстрактні методи тепер можна перевизначити, у випадках коли
-абстрактний клас успадковується з іншого абстрактного класу.
+Абстрактні методи тепер можна перевизначити, якщо абстрактний клас успадковується від іншого абстрактного класу.
 
-` <?phpabstract class A{    abstract function test(string $s);}abstract class B extends A{    // переопределён - всё ещё сохраняя контравариантность для параметров и ковариантность для возвращаемых значений    abstract function test($s) : int;} `
+```php
+<?php
 
-### [Sodium](book.sodium.md) тепер є основним модулем
+abstract class A
+{
+    abstract function test(string $s);
+}
+abstract class B extends A
+{
+    // переопределён - всё ещё сохраняя контравариантность для параметров и ковариантность для возвращаемых значений
+    abstract function test($s) : int;
+}
+```
 
-Сучасна криптографічна бібліотека Sodium тепер стала основною
-модулем PHP (як модуль sodium).
+### [Sodium](book.sodium.html) тепер є основним модулем
 
-Дивіться розділ [Sodium](book.sodium.md) для отримання повної
-інформації.
+Сучасна криптографічна бібліотека Sodium тепер стала основним модулем PHP (як модуль sodium).
+
+Дивіться розділ [Sodium](book.sodium.html) для отримання повної інформації.
 
 ### Додано хешування пароля за допомогою Argon2
 
-Було додано алгоритм Argon2 в [API хешування пароля](book.password.md), де доступні такі константи:
+Було додано алгоритм Argon2 в [API хеширования пароля](book.password.html), де доступні такі константи:
 
-- **`PASSWORD_ARGON2I`**
-- **`PASSWORD_ARGON2_DEFAULT_MEMORY_COST`**
-- **`PASSWORD_ARGON2_DEFAULT_TIME_COST`**
-- **`PASSWORD_ARGON2_DEFAULT_THREADS`**
+-   **`PASSWORD_ARGON2I`**
+-   **`PASSWORD_ARGON2_DEFAULT_MEMORY_COST`**
+-   **`PASSWORD_ARGON2_DEFAULT_TIME_COST`**
+-   **`PASSWORD_ARGON2_DEFAULT_THREADS`**
 
-### Розширені типи рядків для [PDO](book.pdo.md)
+### Розширені типи рядків для [PDO](book.pdo.html)
 
-Тип рядка PDO було розширено для підтримки національних наборів символів
-при емуляції запитів, що готуються. Додані нові константи:
+Тип рядка PDO був розширений для підтримки національних наборів символів при емуляції запитів, що готуються. Додані нові константи:
 
-- **`PDO::PARAM_STR_NATL`**
-- **`PDO::PARAM_STR_CHAR`**
-- **`PDO::ATTR_DEFAULT_STR_PARAM`**
+-   **`PDO::PARAM_STR_NATL`**
+-   **`PDO::PARAM_STR_CHAR`**
+-   **`PDO::ATTR_DEFAULT_STR_PARAM`**
 
-Ці константи використовують у побітовому `OR` з константою
-**`PDO::PARAM_STR`**:
+Ці константи використовують у побітовому `OR` з константою **`PDO::PARAM_STR`**
 
-` <?php$db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL); `
+```php
+<?php
 
-### Додаткова налагоджувальна інформація при емуляції запитів, що готуються в [PDO](book.pdo.md)
+$db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
+```
 
-Метод
-[PDOStatement::debugDumpParams()](pdostatement.debugdumpparams.md) був
-оновлено, щоб увімкнути SQL до відправки в БД, де буде показаний повний
-необроблений запит (включаючи замінені параметри з їх пов'язаними
-значеннями). Це було додано для допомоги у налагодженні емуляції
-підготовлюваних запитів (і тому це буде доступно лише за
-включеної емуляції підготовлюваних запитів).
+### Додаткова налагоджувальна інформація при емуляції запитів, що готуються [PDO](book.pdo.html)
 
-### Підтримка розширених операцій на [LDAP](book.ldap.md)
+Метод [PDOStatement::debugDumpParams()](pdostatement.debugdumpparams.html) було оновлено, щоб увімкнути SQL до відправки в БД, де буде показаний повний необроблений запит (включаючи замінені параметри зі своїми пов'язаними значеннями). Це було додано для допомоги у налагодженні емуляції запитів, що готуються (і тому це буде доступно тільки при включеній емуляції підготовлюваних запитів).
 
-Була додана підтримка EXOP модуль LDAP. Стали доступні такі
-функції та константи:
+### Підтримка розширених операцій на [LDAP](book.ldap.html)
 
-- [ldap_parse_exop()](function.ldap-parse-exop.md)
-- [ldap_exop()](function.ldap-exop.md)
-- [ldap_exop_passwd()](function.ldap-exop-passwd.md)
-- [ldap_exop_whoami()](function.ldap-exop-whoami.md)
-- **`LDAP_EXOP_START_TLS`**
-- **`LDAP_EXOP_MODIFY_PASSWD`**
-- **`LDAP_EXOP_REFRESH`**
-- **`LDAP_EXOP_WHO_AM_I`**
-- **`LDAP_EXOP_TURN`**
+Було додано підтримку EXOP модуль LDAP. Стали доступні такі функції та константи:
 
-### Інформація про адресу в модулі [сокетів](book.sockets.md)
+-   [ldap\_parse\_exop()](function.ldap-parse-exop.html)
+-   [ldap\_exop()](function.ldap-exop.html)
+-   [ldap\_exop\_passwd()](function.ldap-exop-passwd.html)
+-   [ldap\_exop\_whoami()](function.ldap-exop-whoami.html)
+-   **`LDAP_EXOP_START_TLS`**
+-   **`LDAP_EXOP_MODIFY_PASSWD`**
+-   **`LDAP_EXOP_REFRESH`**
+-   **`LDAP_EXOP_WHO_AM_I`**
+-   **`LDAP_EXOP_TURN`**
 
-Модуль сокетів тепер має можливість шукати адресну інформацію, а
-також підключатися до неї, зв'язуватися з нею та пояснювати її. Для цього
-були додані такі чотири функції:
+### Інформація про адресу в модулі [сокетов](book.sockets.html)
 
-- [socket_addrinfo_lookup()](function.socket-addrinfo-lookup.md)
-- [socket_addrinfo_connect()](function.socket-addrinfo-connect.md)
-- [socket_addrinfo_bind()](function.socket-addrinfo-bind.md)
-- [socket_addrinfo_explain()](function.socket-addrinfo-explain.md)
+Модуль сокетів має можливість шукати адресну інформацію, а також підключатися до неї, зв'язуватися з нею і пояснювати її. Для цього були додані такі чотири функції:
+
+-   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html)
+-   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html)
+-   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html)
+-   [socket\_addrinfo\_explain()](function.socket-addrinfo-explain.html)
 
 ### Розширення типу параметра
 
-Типи параметрів із перевизначених методів та реалізацій інтерфейсів
-тепер можуть бути опущені. Це все ще відповідає LSP, оскільки
-параметри типів контраваріантні.
+Типи параметрів із перевизначених методів та реалізацій інтерфейсів тепер можуть бути опущені. Це все ще відповідає LSP, оскільки параметри типів є контраваріантними.
 
-`<?phpinterface A{    public function Test(array $input);}class B implements A{    public function Test($input){} // тип параметра не вказаний 
+```php
+<?php
+
+interface A
+{
+    public function Test(array $input);
+}
+
+class B implements A
+{
+    public function Test($input){} // тип параметра не указан $input
+}
+```
 
 ### Дозволена завершальна кома для згрупованих просторів імен
 
-Завершальна кома тепер може бути додана до синтаксису угруповання
-use, що з'явився у PHP 7.0.
+Завершальна кома тепер може бути додана до синтаксису угруповання use, що з'явився в PHP 7.0.
 
-`<?phpuse Foo\Bar\{    Foo,    Bar,   Baz,}; `
+```php
+<?php
 
-### Підтримка [proc_nice()](function.proc-nice.md) для Windows
+use Foo\Bar\{
+    Foo,
+    Bar,
+    Baz,
+};
+```
 
-Функція [proc_nice()](function.proc-nice.md) тепер підтримується в
-Windows.
+### Підтримка [proc\_nice()](function.proc-nice.html) для Windows
 
-### Підтримка порядку байт у [pack()](function.pack.md) та [unpack()](function.unpack.md)
+Функція [proc\_nice()](function.proc-nice.html) тепер підтримується у Windows.
 
-Функції [pack()](function.pack.md) та [unpack()](function.unpack.md)
-тепер підтримують типи float та double як у прямому, так і у зворотному
-порядку байт.
+### Підтримка порядку байт у [pack()](function.pack.html) і [unpack()](function.unpack.html)
 
-### Поліпшення в модулі [EXIF](book.exif.md)
+Функції [pack()](function.pack.html) і [unpack()](function.unpack.html) тепер підтримують типи float та double як у прямому, так і у зворотному порядку байт.
 
-Модуль EXIF оновлено для підтримки більшої кількості форматів. Це
-означає, що специфічні теги правильно обробляються при розборі
-зображень функцією [exif_read_data()](function.exif-read-data.md).
-Нові підтримувані формати:
+### Поліпшення в модулі [EXIF](book.exif.html)
 
-- Samsung
-- DJI
-- Panasonic
-- Sony
-- Pentax
-- Minolta
-- Sigma/Foveon
-- AGFA
-- Kyocera
-- Ricoh
-- Epson
+Модуль EXIF ​​оновлено для підтримки більшої кількості форматів. Це означає, що специфічні теги правильно обробляються при розборі зображень функцією [exif\_read\_data()](function.exif-read-data.html). Нові формати, що підтримуються:
 
-Функції [exif_read_data()](function.exif-read-data.md) та
-[exif_thumbnail()](function.exif-thumbnail.md) тепер приймають потоки
-як свої перші аргументи.
+-   Samsung
+-   DJI
+-   Panasonic
+-   Sony
+-   Pentax
+-   Minolta
+-   Sigma/Foveon
+-   AGFA
+-   Kyocera
+-   Ricoh
+-   Epson
 
-### Нова функціональність у [PCRE](book.pcre.md)
+Функції [exif\_read\_data()](function.exif-read-data.html) і [exif\_thumbnail()](function.exif-thumbnail.html) тепер приймають потоки як свої перші аргументи.
 
-- Доданий модифікатор `J` для встановлення PCRE_DUPNAMES.
+### Нова функціональність у [PCRE](book.pcre.html)
 
-### [SQLite3](book.sqlite3.md) дозволяє записувати BLOB
+-   Доданий модифікатор `J` для встановлення PCREDUPNAMES.
 
-Тепер [SQLite3::openBlob()](sqlite3.openblob.md) вміє відкривати поля
-типу BLOB для запису. Раніше для таких полів було доступно лише
-читання.
+### [SQLite3](book.sqlite3.html) дозволяє записувати BLOB
 
-### Зворотні дзвінки [Oracle OCI8](book.oci8.md) Transparent Application Failover
+Тепер [SQLite3::openBlob()](sqlite3.openblob.html) вміє відкривати поля типу BLOB для запису. Раніше для таких полів було доступне лише читання.
 
-Додано підтримку [зворотних викликів Oracle Database Transparent
-Application Failover (TAF)](oci8.taf.md). TAF дозволяє програмам
-PHP OCI8 автоматично перепідключається до попередньо
-конфігурованій базі даних у разі порушення з'єднання. Нова підтримка
-зворотного виклику TAF дозволяє програмам відстежувати та контролювати
-перепідключення під час відновлення.
+### Зворотні дзвінки [Oracle OCI8](book.oci8.html) Transparent Application Failover
 
-### Поліпшення в модулі [ZIP](book.zip.md)
+Додана підтримка [обратных вызовов Oracle Database Transparent Application Failover (TAF)](oci8.taf.html). TAF дозволяє програмам PHP OCI8 автоматично перепідключатися до попередньо налаштованої бази даних при порушенні з'єднання. Нова підтримка зворотного дзвінка TAF дозволяє програмам відстежувати та контролювати перепідключення під час відновлення.
 
-Додана підтримка читання та запису зашифрованих архівів (потрібна
-libzip 1.2.0).
+### Поліпшення в модулі [ZIP](book.zip.html)
 
-Клас [ZipArchive](class.ziparchive.md) тепер реалізує інтерфейс
-[Countable](class.countable.md).
+Додано підтримку читання та запису зашифрованих архівів (потрібно libzip 1.2.0).
 
-Потік `zip://` тепер приймає контекстну опцію `password`.
+Клас [ZipArchive](class.ziparchive.html) тепер реалізує інтерфейс [Countable](class.countable.html)
+
+Потік `zip://` тепер приймає контекстну опцію `'password'`

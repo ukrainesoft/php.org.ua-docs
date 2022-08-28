@@ -1,25 +1,34 @@
-- [« ibase_name_result](function.ibase-name-result.md)
-- [ibase_num_params »](function.ibase-num-params.md)
+Повертає кількість полів у результуючому наборі
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Повертає кількість полів у результуючому наборі
+-   [« ibase\_name\_result](function.ibase-name-result.html)
+    
+-   [ibase\_num\_params »](function.ibase-num-params.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Повертає кількість полів у результуючому наборі
+    
 
-# ibase_num_fields
+# ibasenumfields
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_num_fields — Повертає кількість полів у результуючому наборі
+ibasenumfields — Повертає кількість полів у результуючому наборі
 
 ### Опис
 
-**ibase_num_fields**(resource `$result_id`): int
+```methodsynopsis
+ibase_num_fields(resource $result_id): int
+```
 
 Повертає кількість полів у результуючому наборі.
 
 ### Список параметрів
 
 `result_id`
+
 Ідентифікатор результату InterBase.
 
 ### Значення, що повертаються
@@ -28,16 +37,23 @@ ibase_num_fields — Повертає кількість полів у резу�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_num_fields()****
+**Приклад #1 Приклад використання **ibasenumfields()****
 
-` <?php$rs = ibase_query("SELECT * FROM tablename");$coln = ibase_num_fields($rs);for ($i = 0; $i < $coln; $i++) $ , $i); echo "Ім'я: " . $col_info['name'] . "
-";    echo "Псевдонім: " . $col_info['alias'] . "
-";    echo "Зв'язок: " . $col_info['relation'] . "
-";    echo "Довжина: " . $col_info['length'] . "
-";    echo "Тип: " . $col_info['type'] . "
-";}?> `
+```php
+<?php
+$rs = ibase_query("SELECT * FROM tablename");
+$coln = ibase_num_fields($rs);
+for ($i = 0; $i < $coln; $i++) {
+    $col_info = ibase_field_info($rs, $i);
+    echo "Имя: " . $col_info['name'] . "\n";
+    echo "Псевдоним: " . $col_info['alias'] . "\n";
+    echo "Связь: " . $col_info['relation'] . "\n";
+    echo "Длина: " . $col_info['length'] . "\n";
+    echo "Тип: " . $col_info['type'] . "\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [ibase_field_info()](function.ibase-field-info.md) - Отримує
-інформацію про поле
+-   [ibase\_field\_info()](function.ibase-field-info.html) - Отримує інформацію про поле

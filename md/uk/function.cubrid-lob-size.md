@@ -1,52 +1,62 @@
-- [«cubrid_lob_send](function.cubrid-lob-send.md)
-- [cubrid_lob2_bind »](function.cubrid-lob2-bind.md)
+Отримує розмір даних BLOB/CLOB
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримує розмір даних BLOB/CLOB
+-   [« cubrid\_lob\_send](function.cubrid-lob-send.html)
+    
+-   [cubrid\_lob2\_bind »](function.cubrid-lob2-bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Отримує розмір даних BLOB/CLOB
+    
 
-#cubrid_lob_size
+# cubridлобsize
 
-(PECL CUBRID = 8.3.1)
+(PECL CUBRID >= 8.3.1)
 
-cubrid_lob_size — Отримує розмір даних BLOB/CLOB
+cubridлобsize — Отримує розмір даних BLOB/CLOB
 
 ### Опис
 
-**cubrid_lob_size**(resource `$lob_identifier`): string
+```methodsynopsis
+cubrid_lob_size(resource $lob_identifier): string
+```
 
-**cubrid_lob_size()** використовується для отримання розміру даних
-BLOB/CLOB.
+**cubridлобsize()** використовується для отримання даних BLOB/CLOB.
 
 ### Список параметрів
 
 `lob_identifier`
+
 Ідентифікатор LOB.
 
 ### Значення, що повертаються
 
-Рядок, що представляє розмір LOB-даних у разі успішного виконання
-процесу, або **`false`** у разі виникнення помилки.
+Рядок, що представляє розмір LOB-даних у разі успішного виконання процесу, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-|--------|----------------------------------------------------------|
-| 8.4.0  | Тип значення, що повертається, змінений з int на string. |
+| Версия | Описание |
+| --- | --- |
+|  | Тип значення, що повертається змінений з int на string. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_lob_size()****
+**Приклад #1 Приклад використання **cubridлобsize()****
 
-` <?php$lobs = cubrid_lob_get($con, "SELECT doc_content FROM doc WHERE doc_id=5");echo "Розмір документу:".cubrid_lob_size($lobs[0]);cubr , "doc_5.txt");cubrid_lob_close($lobs);?> `
+```php
+<?php
+$lobs = cubrid_lob_get($con, "SELECT doc_content FROM doc WHERE doc_id=5");
+echo "Размер документа:".cubrid_lob_size($lobs[0]);
+cubrid_lob_export($conn, $lobs[0], "doc_5.txt");
+cubrid_lob_close($lobs);
+?>
+```
 
 ### Дивіться також
 
-- [cubrid_lob_get()](function.cubrid-lob-get.md) - Отримує дані
-BLOB/CLOB
-- [cubrid_lob_close()](function.cubrid-lob-close.md) - Закриває
-дані BLOB/CLOB
-- [cubrid_lob_export()](function.cubrid-lob-export.md) -
-Експортує дані BLOB/CLOB у файл
-- [cubrid_lob_send()](function.cubrid-lob-send.md) - Читає дані
-BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubrid\_lob\_get()](function.cubrid-lob-get.html) - Отримує дані BLOB/CLOB
+-   [cubrid\_lob\_close()](function.cubrid-lob-close.html) - Закриває дані BLOB/CLOB
+-   [cubrid\_lob\_export()](function.cubrid-lob-export.html) - Експортує дані BLOB/CLOB у файл
+-   [cubrid\_lob\_send()](function.cubrid-lob-send.html) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера

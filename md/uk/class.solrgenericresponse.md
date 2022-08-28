@@ -1,13 +1,19 @@
-- [«SolrPingResponse::getResponse](solrpingresponse.getresponse.md)
-- [SolrGenericResponse::\_\_construct »](solrgenericresponse.construct.md)
+Клас SolrGenericResponse
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrGenericResponse
+-   [« SolrPingResponse::getResponse](solrpingresponse.getresponse.html)
+    
+-   [SolrGenericResponse::\_\_construct »](solrgenericresponse.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Клас SolrGenericResponse
+    
 
 # Клас SolrGenericResponse
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
@@ -15,101 +21,109 @@
 
 ## Огляд класів
 
-final class **SolrGenericResponse** extends
-[SolrResponse](class.solrresponse.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `PARSE_SOLR_OBJ` = 0;
 
-const int `PARSE_SOLR_DOC` = 1;
+    
+     
+      final
+      class SolrGenericResponse
+     
 
-/\* Наслідувані властивості \*/
+     
+      extends
+       SolrResponse
+     
+     {
 
-const int `SolrResponse::PARSE_SOLR_OBJ` = 0;
+    /* Константы */
+    
+     const
+     int
+      PARSE_SOLR_OBJ = 0;
 
-const int `SolrResponse::PARSE_SOLR_DOC` = 1;
+    const
+     int
+      PARSE_SOLR_DOC = 1;
 
-protected int `$http_status`;
 
-protected int `$parser_mode`;
+    /* Наследуемые свойства */
+    const
+     int
+      SolrResponse::PARSE_SOLR_OBJ = 0;
+const
+     int
+      SolrResponse::PARSE_SOLR_DOC = 1;
+protected
+     int
+      $http_status;
+protected
+     int
+      $parser_mode;
+protected
+     bool
+      $success;
+protected
+     string
+      $http_status_message;
+protected
+     string
+      $http_request_url;
+protected
+     string
+      $http_raw_request_headers;
+protected
+     string
+      $http_raw_request;
+protected
+     string
+      $http_raw_response_headers;
+protected
+     string
+      $http_raw_response;
+protected
+     string
+      $http_digested_response;
 
-protected bool `$success`;
 
-protected string `$http_status_message`;
+    /* Методы */
+    
+   public __construct()
 
-protected string `$http_request_url`;
+    public __destruct()
 
-protected string `$http_raw_request_headers`;
 
-protected string `$http_raw_request`;
+    /* Наследуемые методы */
+    public SolrResponse::getDigestedResponse(): string
+public SolrResponse::getHttpStatus(): int
+public SolrResponse::getHttpStatusMessage(): string
+public SolrResponse::getRawRequest(): string
+public SolrResponse::getRawRequestHeaders(): string
+public SolrResponse::getRawResponse(): string
+public SolrResponse::getRawResponseHeaders(): string
+public SolrResponse::getRequestUrl(): string
+public SolrResponse::getResponse(): SolrObject
+public SolrResponse::setParseMode(int $parser_mode = 0): bool
+public SolrResponse::success(): bool
 
-protected string `$http_raw_response_headers`;
 
-protected string `$http_raw_response`;
+   }
+```
 
-protected string `$http_digested_response`;
-
-/\* Методи \*/
-
-public [\_\_construct](solrgenericresponse.construct.md)()
-
-public [\_\_destruct](solrgenericresponse.destruct.md)()
-
-/\* Наслідувані методи \*/
-
-public
-[SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md)():
-string
-
-public [SolrResponse::getHttpStatus](solrresponse.gethttpstatus.md)():
-int
-
-public
-[SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md)():
-string
-
-public [SolrResponse::getRawRequest](solrresponse.getrawrequest.md)():
-string
-
-public
-[SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md)():
-string
-
-public
-[SolrResponse::getRawResponse](solrresponse.getrawresponse.md)():
-string
-
-public
-[SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.md)():
-string
-
-public [SolrResponse::getRequestUrl](solrresponse.getrequesturl.md)():
-string
-
-public [SolrResponse::getResponse](solrresponse.getresponse.md)():
-[SolrObject](class.solrobject.md)
-
-public [SolrResponse::setParseMode](solrresponse.setparsemode.md)(int
-`$parser_mode` = 0): bool
-
-public [SolrResponse::success](solrresponse.success.md)(): bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 ## Константи класу SolrGenericResponse
 
 **`SolrGenericResponse::PARSE_SOLR_OBJ`**
+
 Документи слід аналізувати як екземпляри SolrObject.
 
 **`SolrGenericResponse::PARSE_SOLR_DOC`**
+
 Документи слід аналізувати як екземпляри SolrDocument.
 
 ## Зміст
 
-- [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.md)
-- Конструктор
-- [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md)
-- Деструктор
+-   [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.html) - Конструктор
+-   [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.html) - Деструктор

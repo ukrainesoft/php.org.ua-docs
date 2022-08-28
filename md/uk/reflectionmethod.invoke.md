@@ -1,9 +1,15 @@
-- [« ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
-- [ReflectionMethod::invokeArgs »](reflectionmethod.invokeargs.md)
+Виклик
 
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Виклик
+-   [« ReflectionMethod::getPrototype](reflectionmethod.getprototype.html)
+    
+-   [ReflectionMethod::invokeArgs »](reflectionmethod.invokeargs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionMethod](class.reflectionmethod.html)
+    
+-   Виклик
+    
 
 # ReflectionMethod::invoke
 
@@ -13,22 +19,21 @@ ReflectionMethod::invoke — Виклик
 
 ### Опис
 
-public **ReflectionMethod::invoke**(?object `$object`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionMethod::invoke(?object $object, mixed ...$args): mixed
+```
 
 Викликає відбитий метод.
 
 ### Список параметрів
 
 `object`
-Об'єкт, спосіб якого потрібно викликати. Для статичних методів
-передається null.
+
+Об'єкт, метод якого потрібно викликати. Для статичних методів передається null.
 
 `args`
-Нуль або більше аргументів, що передаються методом. Допускається передавати
-перемінна кількість аргументів.
+
+Нуль або більше аргументів, що передаються методом. Допускається передавати змінну кількість аргументів.
 
 ### Значення, що повертаються
 
@@ -36,37 +41,43 @@ public **ReflectionMethod::invoke**(?object `$object`,
 
 ### Помилки
 
-Викидає виняток
-[ReflectionException](class.reflectionexception.md), якщо в об'єкті
-`object` немає визначення методу.
+Викидає виняток [ReflectionException](class.reflectionexception.html), якщо в об'єкті `object` немає визначення методу.
 
-Викидає виняток
-[ReflectionException](class.reflectionexception.md), якщо викликати
-метод виконання не вдалося.
+Викидає виняток [ReflectionException](class.reflectionexception.html), якщо викликати метод виконання не вдалося.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionMethod::invoke()****
 
-`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');?> `
+```php
+<?php
+class HelloWorld {
+
+    public function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
+
+}
+
+$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');
+echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
+?>
+```
 
 Результат виконання цього прикладу:
 
-Привіт Майк
+```
+Привет, Майк
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **ReflectionMethod::invoke()** не може використовуватися, якщо очікуються
-> Посилання. Замість нього слід використовувати
-> [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md)
-> (Передача посилань у списку аргументів).
+> **Зауваження**
+> 
+> **ReflectionMethod::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) (Передача посилань у списку аргументів).
 
 ### Дивіться також
 
-- [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) -
-Виклик методу з передачею аргументів масивом
-- [\_\_invoke()](language.oop5.magic.md#object.invoke)
-- [call_user_func()](function.call-user-func.md) - Викликає
-callback-функцію, задану у першому параметрі
+-   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) - виклик методу з передачею аргументів масивом
+-   [\_\_invoke()](language.oop5.magic.html#object.invoke)
+-   [call\_user\_func()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі

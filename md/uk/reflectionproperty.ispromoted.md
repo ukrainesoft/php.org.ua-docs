@@ -1,23 +1,29 @@
-- [« ReflectionProperty::isPrivate](reflectionproperty.isprivate.md)
-- [ReflectionProperty::isProtected »](reflectionproperty.isprotected.md)
+Перевіряє, чи визначено властивість у конструкторі
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Перевіряє, чи визначено властивість у конструкторі
+-   [« ReflectionProperty::isPrivate](reflectionproperty.isprivate.html)
+    
+-   [ReflectionProperty::isProtected »](reflectionproperty.isprotected.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Перевіряє, чи визначено властивість у конструкторі
+    
 
 # ReflectionProperty::isPromoted
 
 (PHP 8)
 
-ReflectionProperty::isPromoted — Перевіряє, чи визначено властивість
-конструктори
+ReflectionProperty::isPromoted — Перевіряє, чи визначено властивість у конструкторі
 
 ### Опис
 
-public **ReflectionProperty::isPromoted**(): bool
+```methodsynopsis
+public ReflectionProperty::isPromoted(): bool
+```
 
-Перевіряє, чи визначена властивість в
-конструктори](language.oop5.decon.md#language.oop5.decon.constructor.promotion).
+Перевіряє, [определено ли свойство в конструкторе](language.oop5.decon.html#language.oop5.decon.constructor.promotion)
 
 ### Список параметрів
 
@@ -25,25 +31,38 @@ public **ReflectionProperty::isPromoted**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо властивість визначена у конструкторі,
-**`false`** інакше.
+Повертає **`true`**якщо властивість визначено в конструкторі, **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionProperty::isPromoted()****
 
-`<?phpclass Foo {    public $baz; public function __construct(public $bar) {}}$o = new Foo(42);$o->baz = 42;$ro = new ReflectionObject($o);var_dump($ro->getProperty('bar') ->isPromoted());var_dump($ro->getProperty('baz')->isPromoted());?> `
+```php
+<?php
+class Foo {
+    public $baz;
+
+    public function __construct(public $bar) {}
+}
+
+$o = new Foo(42);
+$o->baz = 42;
+
+$ro = new ReflectionObject($o);
+var_dump($ro->getProperty('bar')->isPromoted());
+var_dump($ro->getProperty('baz')->isPromoted());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [ReflectionProperty::isDefault()](reflectionproperty.isdefault.md) -
-Перевіряє, чи є значення властивістю за умовчанням
-- [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) -
-Перевірити, чи ініціалізована властивість
-- [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) -
-Отримує значення
+-   [ReflectionProperty::isDefault()](reflectionproperty.isdefault.html) - Перевіряє, чи є значення властивістю за умовчанням
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.html) - Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення

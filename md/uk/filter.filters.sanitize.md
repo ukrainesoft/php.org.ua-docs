@@ -1,47 +1,50 @@
-- [« Фільтри валідації даних](filter.filters.validate.md)
-- [Інші фільтри »](filter.filters.misc.md)
+Очищаючі фільтри
 
-- [PHP Manual](index.md)
-- [Типи фільтрів](filter.filters.md)
-- Очищувальні фільтри
+-   [« Фильтры валидации данных](filter.filters.validate.html)
+    
+-   [Остальные фильтры »](filter.filters.misc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Типы фильтров](filter.filters.html)
+    
+-   Очищаючі фільтри
+    
 
-## Очищуючі фільтри
-
-| Ідентифікатор Ім'я Прапори             | Опис                 |
-| -------------------------------------- | -------------------- |
-| **FILTER_SANITIZE_EMAIL**              | "email"              | | Видаляє всі символи, окрім букв, цифр і  !#$%&'*+-=?^_{ | }~@.[] .           
-| **FILTER_SANITIZE_ENCODED**            | "encoded"            | **FILTER_FLAG_STRIP_LOW**, **FILTER_FLAG_STRIP_HIGH**, **FILTER_FLAG_STRIP_BACKTICK**, **FILTER_FLAG_ENCODE_LOW**, **FILTER_FLAG_ENCODE_HIGH** | Кодує рядок у формат URL, у разі потреби видаляє або кодує спеціальні символи.
-| **FILTER_SANITIZE_MAGIC_QUOTES**       | "magic_quotes"       | | Використовується функція [addslashes()](function.addslashes.md). (*УСТАРІЛА* з PHP 7.3.0 та *Видалена* з PHP 8.0.0, використовуйте замість неї **FILTER_SANITIZE_ADD_SLASHES**.)
-| **FILTER_SANITIZE_ADD_SLASHES**        | "add_slashes"        | | Використовується функція [addslashes()](function.addslashes.md). (Доступно з PHP 7.3.0)
-| **FILTER_SANITIZE_NUMBER_FLOAT**       | "number_float"       | **FILTER_FLAG_ALLOW_FRACTION**, **FILTER_FLAG_ALLOW_THOUSAND**, **FILTER_FLAG_ALLOW_SCIENTIFIC** | Видаляє всі символи, окрім цифр, +- і, при необхідності, .,eE.
-| **FILTER_SANITIZE_NUMBER_INT**         | "number_int"         | | Видаляє всі символи, крім цифр та знаків плюсу та мінусу.
-| **FILTER_SANITIZE_SPECIAL_CHARS**      | "special_chars"      | **FILTER_FLAG_STRIP_LOW**, **FILTER_FLAG_STRIP_HIGH**, **FILTER_FLAG_STRIP_BACKTICK**, **FILTER_FLAG_ENCODE_HIGH** | Екранує HTML-символи '"<>& та символи з ASCII-кодом, меншим 32, при необхідності видаляє або кодує інші спеціальні символи.
-| **FILTER_SANITIZE_FULL_SPECIAL_CHARS** | "full_special_chars" | **FILTER_FLAG_NO_ENCODE_QUOTES**, | Еквівалентно виклику [htmlspecialchars()](function.mdspecialchars.md) із встановленим параметром **ENT_QUOTES**. Кодування лапок може бути вимкнено за допомогою установки прапора **FILTER_FLAG_NO_ENCODE_QUOTES**. Аналогічно [htmlspecialchars()](function.mdspecialchars.md), цей фільтр бере до уваги [default_charset](ini.core.md#ini.default-charset) і, якщо буде виявлена некоректна послідовність байт для даного кодування, то весь рядок буде визнано непридатним і результатом буде рядок нульової довжини. Якщо використовується цей фільтр як фільтр за замовчуванням, ознайомтеся з попередженням нижче про встановлення прапорів за замовчуванням у 0.
-| **FILTER_SANITIZE_STRING**             | "string"             | **FILTER_FLAG_NO_ENCODE_QUOTES**, **FILTER_FLAG_STRIP_LOW**, **FILTER_FLAG_STRIP_HIGH**, **FILTER_FLAG_STRIP_BACKTICK**, **FILTER_FLAG_ENCODE_LOW** ** FILTER_FLAG_ENCODE_AMP** | Видаляє теги та кодує подвійні та одинарні лапки, при необхідності видаляє або кодує спеціальні символи. Кодування лапок можна вимкнути, встановивши **FILTER_FLAG_NO_ENCODE_QUOTES**. (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.mdspecialchars.md)).
-| **FILTER_SANITIZE_STRIPPED**           | "stripped"           | | Псевдонім фільтру "string". (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.mdspecialchars.md)).
-| **FILTER_SANITIZE_URL**                | "url"                | | Видаляє всі символи, крім букв, цифр і $-_.+!*'(),{}|\^~[]<>#%";/?:@&= .
-| **FILTER_UNSAFE_RAW**                  | "unsafe_raw"         | **FILTER_FLAG_STRIP_LOW**, **FILTER_FLAG_STRIP_HIGH**, **FILTER_FLAG_STRIP_BACKTICK**, **FILTER_FLAG_ENCODE_LOW**, **FILTER_FLAG_ENCODE_HIGH**, ** Не діє, при необхідності видаляє або кодує спеціальні символи. Цей фільтр є псевдонімом **FILTER_DEFAULT**.
+## Очищаючі фільтри
 
 **Список фільтрів, що очищають**
 
+| Идентификатор | Имя | Флаги | Описание |
+| --- | --- | --- | --- |
+| **`FILTER_SANITIZE_EMAIL`** | "email" |  | Видаляє всі символи, окрім букв, цифр і \`\`!#$%&'\*+-=?^\_\`{ |
+| **`FILTER_SANITIZE_ENCODED`** | "encoded" | **`FILTER_FLAG_STRIP_LOW`** **`FILTER_FLAG_STRIP_HIGH`** **`FILTER_FLAG_STRIP_BACKTICK`** **`FILTER_FLAG_ENCODE_LOW`** **`FILTER_FLAG_ENCODE_HIGH`** | Кодує рядок у формат URL, у разі потреби видаляє або кодує спеціальні символи. |
+| **`FILTER_SANITIZE_MAGIC_QUOTES`** | "magicquotes" |  | Застосовується функція [addslashes()](function.addslashes.html). *ЗАСТАРІЛА* з PHP 7.3.0 та *ВИДАЛЕНО* з PHP 8.0.0, використовуйте замість неї **`FILTER_SANITIZE_ADD_SLASHES`** |
+| **`FILTER_SANITIZE_ADD_SLASHES`** | "addslashes" |  | Застосовується функція [addslashes()](function.addslashes.html). (Доступно з PHP 7.3.0) |
+| **`FILTER_SANITIZE_NUMBER_FLOAT`** | "numberfloat" | **`FILTER_FLAG_ALLOW_FRACTION`** **`FILTER_FLAG_ALLOW_THOUSAND`** **`FILTER_FLAG_ALLOW_SCIENTIFIC`** | Видаляє всі символи, крім цифр, `+-` і, за необхідності, `.,eE` |
+| **`FILTER_SANITIZE_NUMBER_INT`** | "numberint" |  | Видаляє всі символи, крім цифр та знаків плюса та мінуса. |
+| **`FILTER_SANITIZE_SPECIAL_CHARS`** | "specialchars" | **`FILTER_FLAG_STRIP_LOW`** **`FILTER_FLAG_STRIP_HIGH`** **`FILTER_FLAG_STRIP_BACKTICK`** **`FILTER_FLAG_ENCODE_HIGH`** | Екранує HTML-символи `'"<>&` та символи з ASCII-кодом, меншим 32, при необхідності видаляє або кодує інші спеціальні символи. |
+| **`FILTER_SANITIZE_FULL_SPECIAL_CHARS`** | "fullspecialchars" | **`FILTER_FLAG_NO_ENCODE_QUOTES`** | Еквівалентно виклику [htmlspecialchars()](function.htmlspecialchars.html) із встановленим параметром **`ENT_QUOTES`**. Кодування лапок може бути вимкнено за допомогою установки прапора **`FILTER_FLAG_NO_ENCODE_QUOTES`**. Аналогічно [htmlspecialchars()](function.htmlspecialchars.html), цей фільтр бере до уваги [default\_charset](ini.core.html#ini.default-charset) і, якщо буде виявлено некоректну послідовність байт для даного кодування, то весь рядок буде визнаний непридатним і результатом буде рядок нульової довжини. При використанні цього фільтра як фільтр за замовчуванням, ознайомтеся з попередженням нижче про встановлення прапорів за промовчанням у 0. |
+| **`FILTER_SANITIZE_STRING`** | "string" | **`FILTER_FLAG_NO_ENCODE_QUOTES`** **`FILTER_FLAG_STRIP_LOW`** **`FILTER_FLAG_STRIP_HIGH`** **`FILTER_FLAG_STRIP_BACKTICK`** **`FILTER_FLAG_ENCODE_LOW`** **`FILTER_FLAG_ENCODE_HIGH`** **`FILTER_FLAG_ENCODE_AMP`** | Видаляє теги та кодує подвійні та одинарні лапки, при необхідності видаляє або кодує спеціальні символи. Кодування лапок можна вимкнути, встановивши **`FILTER_FLAG_NO_ENCODE_QUOTES`**. (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.htmlspecialchars.html) |
+| **`FILTER_SANITIZE_STRIPPED`** | "stripped" |  | Псевдонім фільтра "string". (Оголошено *застарілим*, починаючи з PHP 8.1.0, використовуйте замість нього функцію [htmlspecialchars()](function.htmlspecialchars.html) |
+| **`FILTER_SANITIZE_URL`** | "url" |  | Видаляє всі символи, окрім букв, цифр і \`\`$-\_.+!\*'(),{} |
+| **`FILTER_UNSAFE_RAW`** | "unsaferaw" | **`FILTER_FLAG_STRIP_LOW`** **`FILTER_FLAG_STRIP_HIGH`** **`FILTER_FLAG_STRIP_BACKTICK`** **`FILTER_FLAG_ENCODE_LOW`** **`FILTER_FLAG_ENCODE_HIGH`** **`FILTER_FLAG_ENCODE_AMP`** | Не діє, при необхідності видаляє або кодує спеціальні символи. Цей фільтр є псевдонімом **`FILTER_DEFAULT`** |
+
 **Увага**
 
-При використанні одного з цих фільтрів як фільтр
-замовчуванням або через ваш ini-файл, або через конфігурацію веб-сервера,
-прапори за замовчуванням встановлені на значення
-**`FILTER_FLAG_NO_ENCODE_QUOTES`**. Вам необхідно явно встановити
-параметру filter.default_flags значення 0 для наявності порожніх лапок по
-замовчуванням. Наприклад:
+При використанні одного з цих фільтрів як фільтр за промовчанням або через ваш ini-файл, або через конфігурацію веб-сервера, прапори за промовчанням встановлені в значення **`FILTER_FLAG_NO_ENCODE_QUOTES`**. Вам необхідно явно встановити параметр filter.defaultflags значення 0 для наявності порожніх лапок за замовчуванням. Наприклад:
 
-**Приклад #1 Налаштування стандартного фільтра для роботи аналогічно функції
-htmlspecialchars**
+**Приклад #1 Налаштування стандартного фільтра для роботи аналогічно функції htmlspecialchars**
 
-`filter.default==full_special_charsfilter.default_flags==0`
+```php
+filter.default = full_special_chars
+filter.default_flags = 0
+```
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                               |
-|--------|------------------------------------------------------------------------------------|
-| 8.0.0  | Видалено **FILTER_SANITIZE_MAGIC_QUOTES**.                                         |
-| 7.3.0  | Додано **FILTER_SANITIZE_ADD_SLASHES** для заміни **FILTER_SANITIZE_MAGIC_QUOTES** |
-| 7.3.0  | **FILTER_SANITIZE_MAGIC_QUOTES** оголошена застарілою.                             |
+| Версия | Описание |
+| --- | --- |
+|  | Вилучена **`FILTER_SANITIZE_MAGIC_QUOTES`** |
+|  | Додана **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
+|  | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошено застарілою. |

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](math.configuration.md)
-- [Предвизначені константи »](math.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](math.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](math.configuration.html)
+    
+-   [Предопределённые константы »](math.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](math.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

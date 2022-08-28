@@ -1,15 +1,21 @@
-- [«Вступ](intro.exif.md)
-- [Вимоги »](exif.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Exif](book.exif.md)
+-   [« Введение](intro.exif.html)
+    
+-   [Требования »](exif.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exif](book.exif.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](exif.requirements.md)
-- [Установка](exif.installation.md)
-- [Налаштування під час виконання](exif.configuration.md)
-- [Типи ресурсів](exif.resources.md)
+-   [Требования](exif.requirements.html)
+-   [Установка](exif.installation.html)
+-   [Настройка во время выполнения](exif.configuration.html)
+-   [Типы ресурсов](exif.resources.html)

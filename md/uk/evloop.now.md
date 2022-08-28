@@ -1,26 +1,30 @@
-- [«EvLoop::loopFork](evloop.loopfork.md)
-- [EvLoop::nowUpdate »](evloop.nowupdate.md)
+Повертає поточний "event loop time"
 
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Повертає поточний "event loop time"
+-   [« EvLoop::loopFork](evloop.loopfork.html)
+    
+-   [EvLoop::nowUpdate »](evloop.nowupdate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvLoop](class.evloop.html)
+    
+-   Повертає поточний "event loop time"
+    
 
 # EvLoop::now
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvLoop::now — Повертає поточний "event loop time"
 
 ### Опис
 
-public **EvLoop::now**(): float
+```methodsynopsis
+public
+   EvLoop::now(): float
+```
 
-Повертає поточний "event loop time", тобто час, коли цикл подій
-отримав події та почав їх обробляти. Ця тимчасова мітка не
-змінюється, поки обробляються callback-функції, це також базове
-час для відносних таймерів. Ви можете розглядати
-його як мітку часу події (або, вірніше, коли libev
-дізнається про це).
+Повертає поточний "event loop time", тобто час, коли цикл подій отримав події та почав їх обробляти. Ця тимчасова мітка не змінюється, поки обробляються callback-функції, це також базовий час, який використовується для відносних таймерів. Ви можете розглядати його як мітку часу події (або, вірніше, коли libev дізнається про це).
 
 ### Список параметрів
 
@@ -32,5 +36,4 @@ public **EvLoop::now**(): float
 
 ### Дивіться також
 
-- [Ev::now()](ev.now.md) - Отримати час запуску останньої ітерації
-циклу за замовчуванням
+-   [Ev::now()](ev.now.html) - Отримати час запуску останньої ітерації циклу за замовчуванням

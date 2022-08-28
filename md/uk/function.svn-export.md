@@ -1,52 +1,61 @@
-- [« svn_diff](function.svn-diff.md)
-- [svn_fs_abort_txn »](function.svn-fs-abort-txn.md)
+Експортує вміст директорії SVN
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Експортує вміст директорії SVN
+-   [« svn\_diff](function.svn-diff.html)
+    
+-   [svn\_fs\_abort\_txn »](function.svn-fs-abort-txn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SVN](ref.svn.html)
+    
+-   Експортує вміст директорії SVN
+    
 
-# svn_export
+# svnexport
 
-(PECL svn \>= 0.3.0)
+(PECL svn >= 0.3.0)
 
-svn_export — Експортує вміст директорії SVN
+svnexport — Експортує вміст директорії SVN
 
 ### Опис
 
-**svn_export**(
-string `$frompath`,
-string `$topath`,
-bool `$working_copy` = **`true`**,
-int `$revision_no` = -1
-): bool
+```methodsynopsis
+svn_export(    string $frompath,    string $topath,    bool $working_copy = true,    int $revision_no = -1): bool
+```
 
-Експортує дані як з робочої копії, так і з репозиторію в
-'чисту' директорію.
+Експортує дані як з робочої копії, так і з репозиторію в чисту директорію.
 
 ### Список параметрів
 
 `frompath`
+
 Шлях до поточного репозиторію або робочої копії.
 
 `topath`
+
 Шлях до "чистої" папки для експорту.
 
 `working_copy`
-При **`true`** з робочої копії будуть також експортовані
-ненаправлені в репозиторій файли.
+
+При **`true`** з робочої копії будуть також експортовані ненаправлені в репозиторій файли.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **svn_export()****
+**Приклад #1 Приклад використання **svnexport()****
 
-` <?php$working_dir     = '../';$new_working_dir = '/home/user/devel/foo/trunk';svn_export($working_dir, $new_working_dir);?> `
+```php
+<?php
+$working_dir     = '../';
+$new_working_dir = '/home/user/devel/foo/trunk';
+
+svn_export($working_dir, $new_working_dir);
+?>
+```
 
 ### Дивіться також
 
-- [svn_import()](function.svn-import.md) - Імпортувати шляхи без версії в
-репозиторії
+-   [svn\_import()](function.svn-import.html) - Імпорт шляху без версії до репозиторії

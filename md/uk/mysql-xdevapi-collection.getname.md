@@ -1,9 +1,15 @@
-- [« Collection::find](mysql-xdevapi-collection.find.md)
-- [Collection::getOne »](mysql-xdevapi-collection.getone.md)
+Отримує назву колекції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Отримує назву колекції
+-   [« Collection::find](mysql-xdevapi-collection.find.html)
+    
+-   [Collection::getOne »](mysql-xdevapi-collection.getone.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+    
+-   Отримує назву колекції
+    
 
 # Collection::getName
 
@@ -13,7 +19,9 @@ Collection::getName — Отримує назву колекції
 
 ### Опис
 
-public **mysql_xdevapi\Collection::getName**(): string
+```methodsynopsis
+public mysql_xdevapi\Collection::getName(): string
+```
 
 Отримує назву колекції.
 
@@ -27,11 +35,27 @@ public **mysql_xdevapi\Collection::getName**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::getName()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::getName()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");// ...var_d >getName());?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+
+// ...
+
+var_dump($collection->getName());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(6) "people"
+```

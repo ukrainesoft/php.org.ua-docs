@@ -1,10 +1,16 @@
-- [« Типи ресурсів](lzf.resources.md)
-- [Функції LZF »](ref.lzf.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [LZF](book.lzf.md)
-- Обумовлені константи
+-   [« Типы ресурсов](lzf.resources.html)
+    
+-   [Функции LZF »](ref.lzf.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LZF](book.lzf.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

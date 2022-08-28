@@ -1,61 +1,78 @@
-- [«cubrid_get](function.cubrid-get.md)
-- [cubrid_is_instance »](function.cubrid-is-instance.md)
+Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Повертає ідентифікатор, згенерований для останнього
-оновленого стовпця AUTO_INCREMENT
+-   [« cubrid\_get](function.cubrid-get.html)
+    
+-   [cubrid\_is\_instance »](function.cubrid-is-instance.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Повертає ідентифікатор, згенерований для останнього оновленого стовпця AUTOINCREMENT
+    
 
-#cubrid_insert_id
+# cubridinsertід
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_insert_id — Повертає ідентифікатор, згенерований для
-останнього оновленого стовпця **`AUTO_INCREMENT`**
+cubridinsertid — Повертає ідентифікатор, згенерований для останнього оновленого стовпця **`AUTO_INCREMENT`**
 
 ### Опис
 
-**cubrid_insert_id**(resource `$conn_identifier` = ?): string
+```methodsynopsis
+cubrid_insert_id(resource $conn_identifier = ?): string
+```
 
-Функція **cubrid_insert_id()** повертає ідентифікатор згенерований
-для стовпця AUTO_INCREMENT, що оновлюється попереднім запитом
-INSERT. Вона повертає 0, якщо попередній запит не генерує нові
-рядки, або FALSE у разі виникнення помилки.
+Функція **cubridinsertid()** повертає ідентифікатор, згенерований для стовпця AUTOINCREMENT, що оновлюється попереднім запитом INSERT. Вона повертає 0, якщо попередній запит не генерує нові рядки, або FALSE у разі помилки.
 
-> **Примітка**:
->
-> CUBRID підтримує AUTO_INCREMENT для більш ніж одного стовпця в
-> таблиці. Найчастіше в таблиці буде один стовпець
-> AUTO_INCREMENT. Якщо є кілька стовпців AUTO_INCREMENT, дану
-> Не слід використовувати функцію, навіть якщо вона поверне значення.
+> **Зауваження**
+> 
+> CUBRID підтримує AUTOINCREMENT для більш ніж одного шпальти в таблиці. У більшості випадків у таблиці буде один стовпець AUTOINCREMENT. Якщо є кілька стовпців AUTOINCREMENT, цю функцію не слід використовувати, навіть якщо вона поверне значення.
 
 ### Список параметрів
 
 `conn_identifier`
-Ідентифікатор з'єднання, отриманий раніше під час дзвінка
-[cubrid_connect()](function.cubrid-connect.md).
+
+Ідентифікатор з'єднання, отриманий раніше під час виклику [cubrid\_connect()](function.cubrid-connect.html)
 
 ### Значення, що повертаються
 
-Рядок, що представляє ідентифікатор, згенерований для стовпця
-AUTO_INCREMENT попередній запит у разі успішного виконання.
+Рядок, що представляє ідентифікатор, згенерований для стовпця AUTOINCREMENT попереднім запитом у разі успішного виконання.
 
 0 якщо попередній запит не згенерував нові рядки.
 
 **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
-| 8.4.0  | Повертається значення як масиву замінено на рядок; Видалено перший параметр class_name. |
+| Версия | Описание |
+| --- | --- |
+|  | Значення, що повертається у вигляді масиву замінено на рядок; Видалено перший параметр classname. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_insert_id()****
+**Приклад #1 Приклад використання **cubridinsertid()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");@cubrid_execute($conn, "DROP TABLE cubrid_test");cubrid_execute($conn, "CREATE TABLE   ), t varchar)");for ($i = 0; $i < 10; $i++) {   cubrid_execute($conn, "INSERT INTO cubrid_test(t) VALUES('cud) ();var_dump($id);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+
+@cubrid_execute($conn, "DROP TABLE cubrid_test");
+cubrid_execute($conn, "CREATE TABLE cubrid_test (d int AUTO_INCREMENT(1, 2), t varchar)");
+
+for ($i = 0; $i < 10; $i++) {
+    cubrid_execute($conn, "INSERT INTO cubrid_test(t) VALUES('cubrid_test')");
+}
+
+$id = cubrid_insert_id();
+var_dump($id);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(2) "19"
+```

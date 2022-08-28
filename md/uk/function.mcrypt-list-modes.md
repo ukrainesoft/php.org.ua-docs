@@ -1,34 +1,39 @@
-- [«mcrypt_list_algorithms](function.mcrypt-list-algorithms.md)
-- [mcrypt_module_close »](function.mcrypt-module-close.md)
+Отримати список усіх підтримуваних режимів шифрування
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Отримати список усіх підтримуваних режимів шифрування
+-   [« mcrypt\_list\_algorithms](function.mcrypt-list-algorithms.html)
+    
+-   [mcrypt\_module\_close »](function.mcrypt-module-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Отримати список усіх підтримуваних режимів шифрування
+    
 
-# mcrypt_list_modes
+# mcryptlistmodes
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_list_modes — Отримати список усіх підтримуваних режимів
-шифрування
+mcryptlistmodes — Отримати список усіх підтримуваних режимів шифрування
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_list_modes**(string `$lib_dir` = ini_get("mcrypt.modes_dir")):
-array
+```methodsynopsis
+mcrypt_list_modes(string $lib_dir = ini_get("mcrypt.modes_dir")): array
+```
 
-Отримати список усіх режимів шифрування з директорії `lib_dir`.
+Отримати список усіх режимів шифрування з директорії `lib_dir`
 
 ### Список параметрів
 
 `lib_dir`
-Вказує директорію, де розташовані режими. Якщо не поставлено, то
-буде використано значення директиви `mcrypt.modes_dir` з `php.ini`.
+
+Вказує директорію, де розташовані режими. Якщо не встановлено, то буде використано значення директиви `mcrypt.modes_dir` із php.ini.
 
 ### Значення, що повертаються
 
@@ -36,12 +41,16 @@ array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcrypt_list_modes()****
+**Приклад #1 Приклад використання **mcryptlistmodes()****
 
-` <?php   $modes = mcrypt_list_modes(); foreach ($modes as $mode) {        echo "$mode <br />
-";    }?> `
+```php
+<?php
+    $modes = mcrypt_list_modes();
 
-Приклад вище демонструє отримання списку всіх алгоритмів директорії
-за замовчуванням. Якщо директива `php.ini` `mcrypt.modes_dir` не задана, то
-буде використана директорія mcrypt за замовчуванням
-(`/usr/local/lib/libmcrypt`).
+    foreach ($modes as $mode) {
+        echo "$mode <br />\n";
+    }
+?>
+```
+
+Приклад вище демонструє отримання списку всіх алгоритмів директорії за замовчуванням. Якщо директива php.ini `mcrypt.modes_dir` не задана, буде використана директорія mcrypt за замовчуванням (/usr/local/lib/libmcrypt).

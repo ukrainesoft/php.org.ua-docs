@@ -1,65 +1,66 @@
-- [«radius_put_string](function.radius-put-string.md)
-- [radius_put_vendor_attr »](function.radius-put-vendor-attr.md)
+Приєднує атрибут IP-адреси конкретного постачальника
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Приєднує атрибут IP-адреси конкретного постачальника
+-   [« radius\_put\_string](function.radius-put-string.html)
+    
+-   [radius\_put\_vendor\_attr »](function.radius-put-vendor-attr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Приєднує атрибут IP-адреси конкретного постачальника
+    
 
-#radius_put_vendor_addr
+# radiusputvendoraddr
 
-(PECL radius \>= 1.1.0)
+(PECL radius >= 1.1.0)
 
-radius_put_vendor_addr — Приєднує атрибут IP-адреси конкретної
-постачальника
+radiusputvendoraddr — Приєднує атрибут IP-адреси до конкретного постачальника.
 
 ### Опис
 
-**radius_put_vendor_addr**(
-resource `$radius_handle`,
-int `$vendor`,
-int `$type`,
-string `$addr`
-): bool
+```methodsynopsis
+radius_put_vendor_addr(    resource $radius_handle,    int $vendor,    int $type,    string $addr): bool
+```
 
 Приєднує атрибут постачальника IP-адреси до поточного запиту RADIUS.
 
-> **Примітка**:
->
-> Перед викликом цієї функції необхідно створити запит за допомогою
-> функції
-> [radius_create_request()](function.radius-create-request.md).
+> **Зауваження**
+> 
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.html)
 
 ### Список параметрів
 
 `radius_handle`
+
 Ресурс RADIUS
 
 `vendor`
+
 ID виробника (Vendor).
 
 `type`
+
 Тип атрибуту.
 
 `addr`
-Адреса IPv4 у вигляді рядка, наприклад, `10.0.0.1`.
+
+Адреса IPv4 у вигляді рядка, наприклад, `10.0.0.1`
 
 `options`
-Бітова маска опцій атрибуту. Як значення можна використовувати
-[**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
-і
-[**`RADIUS_OPTION_SALT`**](radius.constants.options.md#constant.radius-option-salt).
+
+Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.html#constant.radius-option-salt)
 
 `tag`
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію
-[**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged).
+
+Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                                             | Опис |
-| -------------------------------------------------- | ---- |
-| PECL radius 1.3.0 Додані параметри options та tag. |      |      
+| Версия | Описание |
+| --- | --- |
+| PECL radius 1.3.0 | Додані параметри `options` і `tag` |

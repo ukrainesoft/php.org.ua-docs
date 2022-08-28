@@ -1,19 +1,27 @@
-- [«UI\Window::msg](ui-window.msg.md)
-- [UI\Window::open »](ui-window.open.md)
+Callback-функція закриття
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Callback-функція закриття
+-   [« UI\\Window::msg](ui-window.msg.html)
+    
+-   [UI\\Window::open »](ui-window.open.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Callback-функція закриття
+    
 
-# UI\Window::onClosing
+# ОЙWindow::onClosing
 
 (UI 0.9.9)
 
-UI\Window::onClosing — Callback-функція закриття
+ОЙWindow::onClosing - Callback-функція закриття
 
 ### Опис
 
-protected **UI\Window::onClosing**(): int
+```methodsynopsis
+protected UI\Window::onClosing(): int
+```
 
 Повинен витончено знищити це вікно
 

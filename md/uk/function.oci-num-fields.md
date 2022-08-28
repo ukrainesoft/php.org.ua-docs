@@ -1,44 +1,76 @@
-- [« oci_new_descriptor](function.oci-new-descriptor.md)
-- [oci_num_rows »](function.oci-num-rows.md)
+Повертає кількість полів у результаті запиту
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає кількість полів у результаті запиту
+-   [« oci\_new\_descriptor](function.oci-new-descriptor.html)
+    
+-   [oci\_num\_rows »](function.oci-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Повертає кількість полів у результаті запиту
+    
 
-#oci_num_fields
+# ocinumfields
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_num_fields — Повертає кількість полів через запит
+ocinumfields — Повертає кількість полів через запит
 
 ### Опис
 
-**oci_num_fields**(resource `$statement`): int
+```methodsynopsis
+oci_num_fields(resource $statement): int
+```
 
-Отримує кількість стовпців у запиті, заданому в statement.
+Отримує кількість стовпців у запиті, заданому в `statement`
 
 ### Список параметрів
 
 `statement`
+
 Ідентифікатор допустимого запиту OCI.
 
 ### Значення, що повертаються
 
-Повертає число порушених рядків як цілого числа (int).
+Повертає кількість порушених рядків у вигляді цілого числа (int).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_num_fields()****
+**Приклад #1 Приклад використання **ocinumfields()****
 
-`<?php// Створіть таблицю://   CREATE TABLE mytab (id NUMBER, quantity NUMBER);$conn = oci_connect("hr", "hrpwd", "localhost/XE")     m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$ncols = oci_num_fields($stid);for ($i = 1; $i <= $ncols; $i++) {   " " . oci_field_type($stid, $i) . "<br>
-";}// Виведе: //   ID NUMBER//    QUANTITY NUMBERoci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
+
+// Создате таблицу:
+//   CREATE TABLE mytab (id NUMBER, quantity NUMBER);
+
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, "SELECT * FROM mytab");
+oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+
+$ncols = oci_num_fields($stid);
+for ($i = 1; $i <= $ncols; $i++) {
+    echo oci_field_name($stid, $i) . " " . oci_field_type($stid, $i) . "<br>\n";
+}
+
+// Выведет:
+//    ID NUMBER
+//    QUANTITY NUMBER
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У версіях PHP нижче 5.0.0 ця функція називалася
-> [ocinumcols()](function.ocinumcols.md). У PHP 5.0.0 і вище
-> [ocinumcols()](function.ocinumcols.md) є аліасом
-> **oci_num_fields()**, тому ви можете продовжувати використовувати це
-> ім'я, але це не рекомендується.
+> **Зауваження**
+> 
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinumcols()](function.ocinumcols.html). У PHP 5.0.0 і вище [ocinumcols()](function.ocinumcols.html) є аліасом **ocinumfields()**Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

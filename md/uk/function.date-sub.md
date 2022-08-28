@@ -1,16 +1,22 @@
-- [«date_parse](function.date-parse.md)
-- [date_sun_info »](function.date-sun-info.md)
+Псевдонім DateTime::sub
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::sub
+-   [« date\_parse](function.date-parse.html)
+    
+-   [date\_sun\_info »](function.date-sun-info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTime::sub
+    
 
-# date_sub
+# datesub
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-date_sub - Псевдонім [DateTime::sub()](datetime.sub.md)
+datesub - Псевдонім [DateTime::sub()](datetime.sub.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::sub()](datetime.sub.md)
+Ця функція є псевдонімом: [DateTime::sub()](datetime.sub.html)

@@ -1,15 +1,21 @@
-- [«Вступ](intro.misc.md)
-- [Вимоги »](misc.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Misc.](book.misc.md)
+-   [« Введение](intro.misc.html)
+    
+-   [Требования »](misc.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Misc.](book.misc.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](misc.requirements.md)
-- [Установка](misc.installation.md)
-- [Налаштування під час виконання](misc.configuration.md)
-- [Типи ресурсів](misc.resources.md)
+-   [Требования](misc.requirements.html)
+-   [Установка](misc.installation.html)
+-   [Настройка во время выполнения](misc.configuration.html)
+-   [Типы ресурсов](misc.resources.html)

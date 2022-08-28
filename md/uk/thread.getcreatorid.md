@@ -1,19 +1,27 @@
-- [«Thread](class.thread.md)
-- [Thread::getCurrentThread »](thread.getcurrentthread.md)
+Ідентифікація
 
-- [PHP Manual](index.md)
-- [Thread](class.thread.md)
-- Ідентифікація
+-   [« Thread](class.thread.html)
+    
+-   [Thread::getCurrentThread »](thread.getcurrentthread.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Thread](class.thread.html)
+    
+-   Ідентифікація
+    
 
 # Thread::getCreatorId
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Thread::getCreatorId - Ідентифікація
 
 ### Опис
 
-public **Thread::getCreatorId**(): int
+```methodsynopsis
+public Thread::getCreatorId(): int
+```
 
 Повертає ідентифікатор потоку, який створив цей потік.
 
@@ -27,12 +35,22 @@ public **Thread::getCreatorId**(): int
 
 ### Приклади
 
-**Приклад #1 Повертає ідентифікатор потоку, який створив вказаний
-потік**
+**Приклад #1 Повертає ідентифікатор потоку, який створив цей потік**
 
-` <?phpclass|
-", __CLASS__, $this->getCreatorId());    }}$my = new My();$my->start();?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        printf("%s создан потоком #%lu\n", __CLASS__, $this->getCreatorId());
+    }
+}
+$my = new My();
+$my->start();
+?>
+```
 
 Результат виконання цього прикладу:
 
-My створено потоком.
+```
+My создан потоком #123456778899
+```

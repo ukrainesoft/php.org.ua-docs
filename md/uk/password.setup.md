@@ -1,15 +1,21 @@
-- [«Вступ](intro.password.md)
-- [Вимоги »](password.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Хешування паролів](book.password.md)
+-   [« Введение](intro.password.html)
+    
+-   [Требования »](password.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Хеширование паролей](book.password.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](password.requirements.md)
-- [Установка](password.installation.md)
-- [Налаштування під час виконання](password.configuration.md)
-- [Типи ресурсів](password.resources.md)
+-   [Требования](password.requirements.html)
+-   [Установка](password.installation.html)
+-   [Настройка во время выполнения](password.configuration.html)
+-   [Типы ресурсов](password.resources.html)

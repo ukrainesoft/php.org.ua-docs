@@ -1,9 +1,15 @@
-- [« Imagick::setImageColorspace](imagick.setimagecolorspace.md)
-- [Imagick::setImageCompression »](imagick.setimagecompression.md)
+Встановлює оператор складеного зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює оператор складеного зображення
+-   [« Imagick::setImageColorspace](imagick.setimagecolorspace.html)
+    
+-   [Imagick::setImageCompression »](imagick.setimagecompression.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює оператор складеного зображення
+    
 
 # Imagick::setImageCompose
 
@@ -13,11 +19,11 @@ Imagick::setImageCompose — Встановлює оператор складе�
 
 ### Опис
 
-public **Imagick::setImageCompose**(int `$compose`): bool
+```methodsynopsis
+public Imagick::setImageCompose(int $compose): bool
+```
 
-Встановлює оператор складеного зображення, корисний для вказівки,
-як складати ескіз зображення під час використання методу
-Imagick::montageImage().
+Встановлює оператор складеного зображення, корисний для вказівки, як складати ескіз зображення під час використання методу Imagick::montageImage().
 
 ### Список параметрів
 
@@ -25,7 +31,7 @@ Imagick::montageImage().
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

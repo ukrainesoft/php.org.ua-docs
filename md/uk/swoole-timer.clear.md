@@ -1,19 +1,27 @@
-- [« Swoole\Timer::after](swoole-timer.after.md)
-- [Swoole\Timer::exists »](swoole-timer.exists.md)
+Видаляє таймер за ідентифікатором
 
-- [PHP Manual](index.md)
-- [Swoole\Timer](class.swoole-timer.md)
-- Видаляє таймер за ідентифікатором
+-   [« Swoole\\Timer::after](swoole-timer.after.html)
+    
+-   [Swoole\\Timer::exists »](swoole-timer.exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Timer](class.swoole-timer.html)
+    
+-   Видаляє таймер за ідентифікатором
+    
 
-# Swoole\Timer::clear
+# SwooleTimer::clear
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Timer::clear — Видаляє таймер за ідентифікатором
+SwooleTimer::clear — Видаляє таймер за ідентифікатором
 
 ### Опис
 
-public static **Swoole\Timer::clear**(int `$timer_id`): void
+```methodsynopsis
+public static Swoole\Timer::clear(int $timer_id): void
+```
 
 Видаляє таймер за ідентифікатором.
 

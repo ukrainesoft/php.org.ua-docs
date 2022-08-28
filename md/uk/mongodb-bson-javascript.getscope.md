@@ -1,20 +1,27 @@
-- [« MongoDB\BSON\Javascript::getCode](mongodb-bson-javascript.getcode.md)
-- [MongoDB\BSON\Javascript::jsonSerialize »](mongodb-bson-javascript.jsonserialize.md)
+Повертає область документа JavaScript
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
-- Повертає область документа JavaScript
+-   [« MongoDB\\BSON\\Javascript::getCode](mongodb-bson-javascript.getcode.html)
+    
+-   [MongoDB\\BSON\\Javascript::jsonSerialize »](mongodb-bson-javascript.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+    
+-   Повертає область документа JavaScript
+    
 
-# MongoDB\BSON\Javascript::getScope
+# MongoDBBSONJavascript::getScope
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Javascript::getScope — Повертає область документа
-JavaScript
+MongoDBBSONJavascript::getScope — Повертає область документа JavaScript
 
 ### Опис
 
-final public **MongoDB\BSON\Javascript::getScope**(): ?object
+```methodsynopsis
+final public MongoDB\BSON\Javascript::getScope(): ?object
+```
 
 ### Список параметрів
 
@@ -22,29 +29,38 @@ final public **MongoDB\BSON\Javascript::getScope**(): ?object
 
 ### Значення, що повертаються
 
-Повертає область документа JavaScript або **`null`** у випадку, якщо
-області немає.
+Повертає область документа JavaScript або **`null`** якщо області немає.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Javascript::getScope()****
+**Приклад #1 Приклад використання **MongoDBBSONJavascript::getScope()****
 
-` <?php$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');var_dump($js->getScope());$js = new MongoDB\BSON\Javascript function foo() { return foo; }', ['foo' => 42]);var_dump($js->getScope());?> `
+```php
+<?php
+
+$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');
+var_dump($js->getScope());
+
+$js = new MongoDB\BSON\Javascript('function foo() { return foo; }', ['foo' => 42]);
+var_dump($js->getScope());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
 object(stdClass)#1 (1) {
-["foo"]=>
-int(42)
+  ["foo"]=>
+  int(42)
 }
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

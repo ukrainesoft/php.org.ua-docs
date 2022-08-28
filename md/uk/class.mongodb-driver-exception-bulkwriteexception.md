@@ -1,13 +1,19 @@
-- [« MongoDB\Driver\Exception\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
-- [MongoDB\Driver\Exception\CommandException »](class.mongodb-driver-exception-commandexception.md)
+Клас MongoDBDriverExceptionBulkWriteException
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Клас MongoDB\Driver\Exception\BulkWriteException
+-   [« MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
+    
+-   [MongoDB\\Driver\\Exception\\CommandException »](class.mongodb-driver-exception-commandexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+    
+-   Клас MongoDBDriverExceptionBulkWriteException
+    
 
-# Клас MongoDB\Driver\Exception\BulkWriteException
+# Клас MongoDBDriverExceptionBulkWriteException
 
-(mongodb \>= 1.0.0)
+(mongodb >= 1.0.0)
 
 ## Вступ
 
@@ -15,62 +21,76 @@
 
 ## Огляд класів
 
-class **MongoDB\Driver\Exception\BulkWriteException** extends
-[MongoDB\Driver\Exception\WriteException](class.mongodb-driver-exception-writeexception.md)
-implements
-[MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-{
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
+
+    
+     
+      class MongoDB\Driver\Exception\BulkWriteException
+     
+
+     
+      extends
+       MongoDB\Driver\Exception\WriteException
+     
+
+     implements 
+       MongoDB\Driver\Exception\Exception {
+
+    /* Наследуемые свойства */
+    
+     protected
+     MongoDB\Driver\WriteResult
+      $writeResult;
+
+    
+    protected
+     ?array
+      $errorLabels;
+
+    
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
 protected
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-`$writeResult`;
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected ?array `$errorLabels`;
 
-protected string `$message` = "";
+    /* Наследуемые методы */
+    
+   final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\Driver\WriteResult
 
-private string `$string` = "";
+    
+    final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $errorLabel): bool
 
-protected int `$code`;
+    
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-protected string `$file` = "";
 
-protected int `$line`;
-
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public
-[MongoDB\Driver\Exception\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md)():
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-
-final public
-[MongoDB\Driver\Exception\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md)(string
-`$errorLabel`): bool
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

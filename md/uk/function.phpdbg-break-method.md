@@ -1,29 +1,39 @@
-- [«phpdbg_break_function](function.phpdbg-break-function.md)
-- [phpdbg_break_next »](function.phpdbg-break-next.md)
+Додати точку переривання на виклик методу класу
 
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- Додати точку переривання на виклик методу класу
+-   [« phpdbg\_break\_function](function.phpdbg-break-function.html)
+    
+-   [phpdbg\_break\_next »](function.phpdbg-break-next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции phpdbg](ref.phpdbg.html)
+    
+-   Додати точку переривання на виклик методу класу
+    
 
-# phpdbg_break_method
+# phpdbgbreakметод
 
-(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
+(PHP 5> = 5.6.3, PHP 7, PHP 8)
 
-phpdbg_break_method — Додати точку переривання на виклик методу класу
+phpdbgbreakmethod — Додати точку переривання на виклик методу класу
 
 ### Опис
 
-**phpdbg_break_method**(string `$class`, string `$method`): void
+```methodsynopsis
+phpdbg_break_method(string $class, string $method): void
+```
 
-Додає точку переривання на виклик методу `method` класу `class`.
+Додає точку переривання на виклик методу `method` класу `class`
 
 ### Список параметрів
 
 `class`
+
 Назва класу.
 
 `method`
-Назва методу.
+
+Ім'я методу.
 
 ### Значення, що повертаються
 
@@ -31,11 +41,7 @@ phpdbg_break_method — Додати точку переривання на ви
 
 ### Дивіться також
 
-- [phpdbg_break_file()](function.phpdbg-break-file.md) - Додати
-точку переривання на конкретний рядок файлу
-- [phpdbg_break_function()](function.phpdbg-break-function.md) -
-Додати точку переривання на виклик функції
-- [phpdbg_break_next()](function.phpdbg-break-next.md) - Додати
-точку переривання на наступний опкод
-- [phpdbg_clear()](function.phpdbg-clear.md) - Забрати всі точки
-переривання
+-   [phpdbg\_break\_file()](function.phpdbg-break-file.html) - Додати точку переривання на конкретний рядок файлу
+-   [phpdbg\_break\_function()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
+-   [phpdbg\_break\_next()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
+-   [phpdbg\_clear()](function.phpdbg-clear.html) - Прибрати всі точки переривання

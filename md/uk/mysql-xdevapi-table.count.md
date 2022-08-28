@@ -1,9 +1,15 @@
-- [«Table::\_\_construct](mysql-xdevapi-table.construct.md)
-- [Table::delete »](mysql-xdevapi-table.delete.md)
+Отримати кількість рядків
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Table](class.mysql-xdevapi-table.md)
-- Отримати кількість рядків
+-   [« Table::\_\_construct](mysql-xdevapi-table.construct.html)
+    
+-   [Table::delete »](mysql-xdevapi-table.delete.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.html)
+    
+-   Отримати кількість рядків
+    
 
 # Table::count
 
@@ -13,7 +19,9 @@ Table::count — Отримати кількість рядків
 
 ### Опис
 
-public **mysql_xdevapi\Table::count**(): int
+```methodsynopsis
+public mysql_xdevapi\Table::count(): int
+```
 
 Отримати кількість рядків у таблиці.
 
@@ -27,10 +35,26 @@ public **mysql_xdevapi\Table::count**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Table::count()****
+**Приклад #1 Приклад використання **mysqlxdevapiTable::count()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 33)")->execute();$schema = $session->getSchema("addressbook");$table  ==$schema->getTable("names ");var_dump($table->count());?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+var_dump($table->count());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(2)
+```

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](apache.configuration.md)
-- [Предвизначені константи »](apache.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](apache.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](apache.configuration.html)
+    
+-   [Предопределённые константы »](apache.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](apache.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](snmp.configuration.md)
-- [Предвизначені константи »](snmp.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](snmp.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](snmp.configuration.html)
+    
+-   [Предопределённые константы »](snmp.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](snmp.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

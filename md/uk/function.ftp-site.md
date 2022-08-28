@@ -1,56 +1,74 @@
-- [«ftp_set_option](function.ftp-set-option.md)
-- [ftp_size »](function.ftp-size.md)
+Надсилає серверу команду SITE
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Надсилає серверу команду SITE
+-   [« ftp\_set\_option](function.ftp-set-option.html)
+    
+-   [ftp\_size »](function.ftp-size.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Надсилає серверу команду SITE
+    
 
-#ftp_site
+# ftpsite
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_site — Надсилає серверу команду SITE
+ftpsite — Надсилає серверу команду SITE
 
 ### Опис
 
-**ftp_site**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$command`): bool
+```methodsynopsis
+ftp_site(FTP\Connection $ftp, string $command): bool
+```
 
-**ftp_site()** відправляє вказану команду `SITE` FTP-серверу.
+**ftpsite()** відправляє вказану команду `SITE` FTP-сервер.
 
-Команди `SITE` не стандартизовані та залежать від FTP-сервера. Вони можуть
-бути корисними для зміни прав доступу до файлів або зміни власника або
-групи.
+Команди `SITE` не стандартизовані та залежать від FTP-сервера. Вони можуть бути корисними для зміни прав доступу до файлів або зміни власника або групи.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `command`
-Команда "SITE". Зверніть увагу, що цей параметр не проходить
-екранування спецсимволів, так що можуть виникнути проблеми з іменами,
-містять прогалини та інші подібні символи.
+
+Команда SITE. Зверніть увагу, що цей параметр не проходить екранування спецсимволів, тому можуть виникнути проблеми з іменами, що містять пробіли та інші подібні символи.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 Надсилання команди SITE FTP-серверу**
 
-` <?php// З'єднання з FTP-сервером$ftp = ftp_connect('ftp.example.com');if (!$conn) die('Не удалося підключитися до ftp.example.com');// Вхід під іменем "user" з паролем "pass"if (!ftp_login($ftp, 'user', 'pass')) die('Не удалося увійти на ftp.example.com');// Відправка "SITE CHMOD /user/privatefile" FTP-серверуif (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {  echo "Команда виконана.
-";} else {  die('Команда не виконана.');}?> `
+```php
+<?php
+// Соединение с FTP-сервером
+$ftp = ftp_connect('ftp.example.com');
+if (!$conn) die('Не удалось подключиться к ftp.example.com');
+
+// Вход под именем "user" с паролем "pass"
+if (!ftp_login($ftp, 'user', 'pass')) die('Не удалось войти на ftp.example.com');
+
+// Отправка "SITE CHMOD 0600 /home/user/privatefile" FTP-серверу
+if (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {
+   echo "Команда выполнена.\n";
+} else {
+   die('Команда не выполнена.');
+}
+?>
+```
 
 ### Дивіться також
 
-- [ftp_raw()](function.ftp-raw.md) - Надсилає довільну команду
-FTP-серверу
+-   [ftp\_raw()](function.ftp-raw.html) - Надсилає довільну команду FTP-серверу

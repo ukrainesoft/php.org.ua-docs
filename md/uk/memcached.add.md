@@ -1,49 +1,50 @@
-- [«Memcached](class.memcached.md)
-- [Memcached::addByKey »](memcached.addbykey.md)
+Додає елемент із новим ключем
 
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Додає елемент із новим ключем
+-   [« Memcached](class.memcached.html)
+    
+-   [Memcached::addByKey »](memcached.addbykey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcached](class.memcached.html)
+    
+-   Додає елемент із новим ключем
+    
 
 # Memcached::add
 
-(PECL memcached \>= 0.1.0)
+(PECL memcached >= 0.1.0)
 
 Memcached::add — Додає елемент із новим ключем
 
 ### Опис
 
-public **Memcached::add**(string `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` = ?): bool
+```methodsynopsis
+public Memcached::add(string $key, mixed $value, int $expiration = ?): bool
+```
 
-Метод **Memcached::add()** схожий
-[Memcached::set()](memcached.set.md), але операція додавання
-завершиться помилкою, якщо ключ `key` вже існує на сервері.
+Метод **Memcached::add()** схожий на [Memcached::set()](memcached.set.html), але операція додавання завершиться помилкою, якщо ключ `key` вже існує на сервері.
 
 ### Список параметрів
 
 `key`
+
 Ключ, під яким зберігається значення.
 
 `value`
-Значення, що зберігається.
+
+Зберігається значення.
 
 `expiration`
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш докладної
-інформації дивіться [Час зберігання об'єкта](memcached.expiration.md).
+
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Время хранения объекта](memcached.expiration.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Метод
-[Memcached::getResultCode()](memcached.getresultcode.md) повертає
-**`Memcached::RES_NOTSTORED`**, якщо переданий ключ уже існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTSTORED`**якщо переданий ключ вже існує.
 
 ### Дивіться також
 
-- [Memcached::addByKey()](memcached.addbykey.md) - Додає новий
-елемент на заданий сервер
-- [Memcached::set()](memcached.set.md) - Зберігає запис
-- [Memcached::replace()](memcached.replace.md) - Замінює
-існуючий запис із зазначеним ключем
+-   [Memcached::addByKey()](memcached.addbykey.html) - Додає новий елемент на заданий сервер
+-   [Memcached::set()](memcached.set.html) - Зберігає запис
+-   [Memcached::replace()](memcached.replace.html) - Замінює існуючий запис із зазначеним ключем

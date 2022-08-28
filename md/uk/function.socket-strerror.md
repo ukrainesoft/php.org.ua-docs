@@ -1,63 +1,70 @@
-- [«socket_shutdown](function.socket-shutdown.md)
-- [socket_write »](function.socket-write.md)
+Повертає рядок, що описує помилку сокету
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Повертає рядок, що описує помилку сокету
+-   [« socket\_shutdown](function.socket-shutdown.html)
+    
+-   [socket\_write »](function.socket-write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Повертає рядок, що описує помилку сокету
+    
 
-# socket_strerror
+# socketstrerror
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socket_strerror — Повертає рядок, що описує помилку сокету
+socketstrerror — Повертає рядок, що описує помилку сокету
 
 ### Опис
 
-**socket_strerror**(int `$error_code`): string
+```methodsynopsis
+socket_strerror(int $error_code): string
+```
 
-**socket_strerror()** отримує як параметр `error_code` код
-помилки сокету, що повертається функцією
-[socket_last_error()](function.socket-last-error.md) і повертає
-відповідний текст із роз'ясненням.
+**socketstrerror()** отримує як параметр `error_code` код помилки сокета, що повертається функцією [socket\_last\_error()](function.socket-last-error.html) та повертає відповідний текст із роз'ясненням.
 
-> **Примітка**:
->
-> Хоча повідомлення про помилки, створювані модулем socket, англійською
-> мові, системні повідомлення, отримані цією функцією, з'являтимуться
-> залежно від поточної локалі (**`LC_MESSAGES`**).
+> **Зауваження**
+> 
+> Хоча повідомлення про помилки, створені модулем socket, англійською мовою, системні повідомлення, що отримуються цією функцією, будуть з'являтися залежно від поточної локалі (**`LC_MESSAGES`**
 
 ### Список параметрів
 
 `error_code`
-Допустимий код помилки сокету, швидше за все, повернутий функцією
-[socket_last_error()](function.socket-last-error.md).
+
+Допустимий код помилки сокету, швидше за все, повернутий функцією [socket\_last\_error()](function.socket-last-error.html)
 
 ### Значення, що повертаються
 
-Повертає повідомлення про помилку, пов'язане з параметром error_code.
+Повертає повідомлення про помилку, пов'язане з параметром `error_code`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socket_strerror()****
+**Приклад #1 Приклад використання **socketstrerror()****
 
-` <?phpif (false == ($socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP))) {   echo "socket_create() не виконана: причина: " . socket_strerror(socket_last_error()) . "
-";}if(false == (@socket_bind($socket, '127.0.0.1', 80))) {   echo "socket_bind() не виконано: причина: "socket_strerror( . . socket_strerror
-";}?> `
+```php
+<?php
+if (false == ($socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP))) {
+   echo "socket_create() не выполнена: причина: " . socket_strerror(socket_last_error()) . "\n";
+}
 
-Очікуваний висновок з прикладу вище (маю на увазі, що скрипт не запущено
-з привілеями суперкористувача root):
+if (false == (@socket_bind($socket, '127.0.0.1', 80))) {
+   echo "socket_bind() не выполнена: причина: " . socket_strerror(socket_last_error($socket)) . "\n";
+}
+?>
+```
 
-socket_bind() не виконано: причина: Доступ заборонено
+Очікуваний висновок з прикладу вище (мається на увазі, що скрипт не запущений з привілеями суперкористувача root):
+
+```
+socket_bind() не выполнена: причина: Доступ запрещён
+```
 
 ### Дивіться також
 
-- [socket_accept()](function.socket-accept.md) - Приймає
-з'єднання на сокеті
-- [socket_bind()](function.socket-bind.md) - Прив'язує ім'я до
-сокету
-- [socket_connect()](function.socket-connect.md) - Починає
-з'єднання з сокетом
-- [socket_listen()](function.socket-listen.md) - Прослуховує
-вхідні з'єднання на сокеті
-- [socket_create()](function.socket-create.md) - Створює сокет
-(кінцеву точку для обміну інформацією)
+-   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)

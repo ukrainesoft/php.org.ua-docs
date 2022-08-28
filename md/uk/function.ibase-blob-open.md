@@ -1,45 +1,50 @@
-- [« ibase_blob_info](function.ibase-blob-info.md)
-- [ibase_close »](function.ibase-close.md)
+Відкриває BLOB-об'єкт для вилучення частин даних
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Відкриває BLOB-об'єкт для вилучення частин даних
+-   [« ibase\_blob\_info](function.ibase-blob-info.html)
+    
+-   [ibase\_close »](function.ibase-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Відкриває BLOB-об'єкт для вилучення частин даних
+    
 
-# ibase_blob_open
+# ibaseblobopen
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_blob_open - Відкриває BLOB-об'єкт для вилучення частин даних
+ibaseblobopen — Відкриває BLOB-об'єкт для вилучення частин даних
 
 ### Опис
 
-**ibase_blob_open**(resource `$link_identifier`, string `$blob_id`):
-resource\|false
+```methodsynopsis
+ibase_blob_open(resource $link_identifier, string $blob_id): resource|false
+```
 
-**ibase_blob_open**(string `$blob_id`): resource\|false
+```methodsynopsis
+ibase_blob_open(string $blob_id): resource|false
+```
 
-Відкриває існуючий BLOB-об'єкт читання.
+Відкриває існуючий об'єкт BLOB для читання.
 
 ### Список параметрів
 
 `link_identifier`
-Ідентифікатор посилання на InterBase. Якщо не вказано, передбачається остання
-відкрите посилання.
+
+Ідентифікатор посилання InterBase. Якщо не вказано, передбачається останнє відкрите посилання.
 
 `blob_id`
+
 Ідентифікатор об'єкта BLOB.
 
 ### Значення, що повертаються
 
-Повертає дескриптор BLOB-об'єкта для подальшого використання з
-за допомогою [ibase_blob_get()](function.ibase-blob-get.md) або **`false`**
-у разі виникнення помилки.
+Повертає дескриптор BLOB-об'єкта для подальшого використання за допомогою [ibase\_blob\_get()](function.ibase-blob-get.html) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ibase_blob_close()](function.ibase-blob-close.md) - Закриває
-BLOB-об'єкт
-- [ibase_blob_echo()](function.ibase-blob-echo.md) - Виводить
-вміст BLOB-об'єкта у браузер
-- [ibase_blob_get()](function.ibase-blob-get.md) - Отримує
-кількість байтів від відкритого BLOB-об'єкта
+-   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibase\_blob\_echo()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер
+-   [ibase\_blob\_get()](function.ibase-blob-get.html) - Отримує кількість байтів від відкритого BLOB-об'єкта

@@ -1,31 +1,38 @@
-- [« SplObjectStorage::addAll](splobjectstorage.addall.md)
-- [SplObjectStorage::contains »](splobjectstorage.contains.md)
+Додає об'єкт у контейнер
 
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Додає об'єкт у контейнер
+-   [« SplObjectStorage::addAll](splobjectstorage.addall.html)
+    
+-   [SplObjectStorage::contains »](splobjectstorage.contains.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObjectStorage](class.splobjectstorage.html)
+    
+-   Додає об'єкт у контейнер
+    
 
 # SplObjectStorage::attach
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::attach — Додає об'єкт у контейнер
 
 ### Опис
 
-public **SplObjectStorage::attach**(object `$object`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$info` = **`null`**): void
+```methodsynopsis
+public SplObjectStorage::attach(object $object, mixed $info = null): void
+```
 
-Додає об'єкт object у контейнер та додатково може асоціювати
-цей об'єкт із якимись даними.
+Додає об'єкт object в контейнер і може додатково асоціювати цей об'єкт з якимись даними.
 
 ### Список параметрів
 
 `object`
+
 Об'єкт object, що додається.
 
 `info`
+
 Дані, із якими потрібно асоціювати об'єкт object.
 
 ### Значення, що повертаються
@@ -36,16 +43,28 @@ public **SplObjectStorage::attach**(object `$object`,
 
 **Приклад #1 Приклад використання **SplObjectStorage::attach()****
 
-` <?php$o1 = new StdClass;$o2 = new StdClass;$s = new SplObjectStorage();$s->attach($o1); // то ж, що і $s[$o1] = NULL;$s->attach($o2, "hello"); // то ж, і і $s[$o2] = "hello";var_dump($s[$o1]);var_dump($s[$o2]);?> `
+```php
+<?php
+$o1 = new StdClass;
+$o2 = new StdClass;
+$s = new SplObjectStorage();
+$s->attach($o1); // то же, что и $s[$o1] = NULL;
+$s->attach($o2, "hello"); // то же, что и $s[$o2] = "hello";
+
+var_dump($s[$o1]);
+var_dump($s[$o2]);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 NULL
 string(5) "hello"
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::detach()](splobjectstorage.detach.md) - Видаляє
-об'єкт object із контейнера
-- [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) -
-Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::detach()](splobjectstorage.detach.html) - Видаляє об'єкт object із контейнера
+-   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.html) - Асоціює дані з об'єктом у контейнері

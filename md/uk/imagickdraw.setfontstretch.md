@@ -1,36 +1,39 @@
-- [« ImagickDraw::setFontSize](imagickdraw.setfontsize.md)
-- [ImagickDraw::setFontStyle »](imagickdraw.setfontstyle.md)
+Встановлює розтягування шрифту для використання під час анотування текстом
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює розтягування шрифту для використання під час анотування
-текстом
+-   [« ImagickDraw::setFontSize](imagickdraw.setfontsize.html)
+    
+-   [ImagickDraw::setFontStyle »](imagickdraw.setfontstyle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Встановлює розтягування шрифту для використання під час анотування текстом
+    
 
 # ImagickDraw::setFontStretch
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::setFontStretch — Встановлює розтягування шрифту для
-використання при анотуванні текстом
+ImagickDraw::setFontStretch — Встановлює розтягування шрифту для використання при анотуванні текстом
 
 ### Опис
 
-public **ImagickDraw::setFontStretch**(int `$fontStretch`): bool
+```methodsynopsis
+public ImagickDraw::setFontStretch(int $fontStretch): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Встановлює розтягування шрифту для використання під час анотування
-текстом. Використання AnyStretch діє як будь-яке.
+Встановлює розтягування шрифту для використання під час анотування текстом. Використання AnyStretch діє як "будь-яке".
 
 ### Список параметрів
 
 `fontStretch`
-Одна з констант
-[STRETCH](imagick.constants.md#imagick.constants.stretch)
-(`imagick::STRETCH_*`).
+
+Одна з констант [STRETCH](imagick.constants.html#imagick.constants.stretch) `imagick::STRETCH_*`
 
 ### Значення, що повертаються
 
@@ -40,4 +43,43 @@ public **ImagickDraw::setFontStretch**(int `$fontStretch`): bool
 
 **Приклад #1 Приклад використання **ImagickDraw::setFontStretch()****
 
-` <?phpfunction setFontStretch($fillColor, $strokeColor, $backgroundColor) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(2); $draw->setFontSize(36); $fontStretchTypes = [        \Imagick::STRETCH_ULTRACONDENSED,        \Imagick::STRETCH_CONDENSED,        \Imagick::STRETCH_SEMICONDENSED,        \Imagick::STRETCH_SEMIEXPANDED,        \Imagick::STRETCH_EXPANDED,        \Imagick::STRETCH_EXTRAEXPANDED,        \Imagick::STRETCH_ULTRAEXPANDED,        \Imagick:: STRETCH_ANY    ]; $offset = 0; foreach ($fontStretchTypes as $fontStretch) {        $draw->setFontStretch($fontStretch); $draw->annotation(50, 75 + $offset, "Lorem Ipsum!"); $offset+==50; }   $imagick = new \Imagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function setFontStretch($fillColor, $strokeColor, $backgroundColor) {
+
+    $draw = new \ImagickDraw();
+
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(36);
+
+    $fontStretchTypes = [
+        \Imagick::STRETCH_ULTRACONDENSED,
+        \Imagick::STRETCH_CONDENSED,
+        \Imagick::STRETCH_SEMICONDENSED,
+        \Imagick::STRETCH_SEMIEXPANDED,
+        \Imagick::STRETCH_EXPANDED,
+        \Imagick::STRETCH_EXTRAEXPANDED,
+        \Imagick::STRETCH_ULTRAEXPANDED,
+        \Imagick::STRETCH_ANY
+    ];
+
+    $offset = 0;
+    foreach ($fontStretchTypes as $fontStretch) {
+        $draw->setFontStretch($fontStretch);
+        $draw->annotation(50, 75 + $offset, "Lorem Ipsum!");
+        $offset += 50;
+    }
+
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

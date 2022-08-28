@@ -1,19 +1,27 @@
-- [«ZMQPoll::add](zmqpoll.add.md)
-- [ZMQPoll::count »](zmqpoll.count.md)
+Очистити пул опитування
 
-- [PHP Manual](index.md)
-- [ZMQPoll](class.zmqpoll.md)
-- Очистити пул опитування
+-   [« ZMQPoll::add](zmqpoll.add.html)
+    
+-   [ZMQPoll::count »](zmqpoll.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQPoll](class.zmqpoll.html)
+    
+-   Очистити пул опитування
+    
 
 # ZMQPoll::clear
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQPoll::clear — Очистити пул опитування
 
 ### Опис
 
-public **ZMQPoll::clear**(): [ZMQPoll](class.zmqpoll.md)
+```methodsynopsis
+public ZMQPoll::clear(): ZMQPoll
+```
 
 Видаляє всі елементи з пулу опитування.
 

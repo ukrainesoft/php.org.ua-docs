@@ -1,47 +1,49 @@
-- [«socket_clear_error](function.socket-clear-error.md)
-- [socket_cmsg_space »](function.socket-cmsg-space.md)
+Закриває екземпляр Socket
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Закриває екземпляр Socket
+-   [« socket\_clear\_error](function.socket-clear-error.html)
+    
+-   [socket\_cmsg\_space »](function.socket-cmsg-space.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Закриває екземпляр Socket
+    
 
-# socket_close
+# socketclose
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socket_close - Закриває екземпляр [Socket](class.socket.md)
+socketclose — Закриває екземпляр [Socket](class.socket.html)
 
 ### Опис
 
-**socket_close**([Socket](class.socket.md) `$socket`): void
+```methodsynopsis
+socket_close(Socket $socket): void
+```
 
-Функція **socket_close()** закриває екземпляр
-[Socket](class.socket.md), вказаний параметром `socket`.
+Функція **socketclose()** закриває екземпляр [Socket](class.socket.html), вказаний параметром `socket`
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функцій
-[socket_create()](function.socket-create.md) або
-[socket_accept()](function.socket-accept.md).
+
+Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-|--------|-----------------------------------------------------------------------------------------|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_bind()](function.socket-bind.md) - Прив'язує ім'я до
-сокету
-- [socket_listen()](function.socket-listen.md) - Прослуховує
-вхідні з'єднання на сокеті
-- [socket_create()](function.socket-create.md) - Створює сокет
-(кінцеву точку для обміну інформацією)
-- [socket_strerror()](function.socket-strerror.md) - Повертає
-рядок, що описує помилку сокету
+-   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету

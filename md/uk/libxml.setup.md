@@ -1,15 +1,21 @@
-- [«Вступ](intro.libxml.md)
-- [Вимоги »](libxml.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [libxml](book.libxml.md)
+-   [« Введение](intro.libxml.html)
+    
+-   [Требования »](libxml.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [libxml](book.libxml.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](libxml.requirements.md)
-- [Установка](libxml.installation.md)
-- [Налаштування під час виконання](libxml.configuration.md)
-- [Типи ресурсів](libxml.resources.md)
+-   [Требования](libxml.requirements.html)
+-   [Установка](libxml.installation.html)
+-   [Настройка во время выполнения](libxml.configuration.html)
+-   [Типы ресурсов](libxml.resources.html)

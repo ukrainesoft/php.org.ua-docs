@@ -1,19 +1,25 @@
-- [«SolrDocumentField](class.solrdocumentfield.md)
-- [SolrDocumentField::\_\_destruct »](solrdocumentfield.destruct.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [SolrDocumentField](class.solrdocumentfield.md)
-- Конструктор
+-   [« SolrDocumentField](class.solrdocumentfield.html)
+    
+-   [SolrDocumentField::\_\_destruct »](solrdocumentfield.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocumentField](class.solrdocumentfield.html)
+    
+-   Конструктор
+    
 
-# SolrDocumentField::\_\_construct
+# SolrDocumentField::construct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocumentField::\_\_construct — Конструктор
+SolrDocumentField::construct — Конструктор
 
 ### Опис
 
-public **SolrDocumentField::\_\_construct**()
+public **SolrDocumentField::construct**
 
 Конструктор.
 

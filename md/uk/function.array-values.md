@@ -1,27 +1,34 @@
-- [«array_unshift](function.array-unshift.md)
-- [array_walk_recursive »](function.array-walk-recursive.md)
+Вибирає всі значення масиву
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Вибирає всі значення масиву
+-   [« array\_unshift](function.array-unshift.html)
+    
+-   [array\_walk\_recursive »](function.array-walk-recursive.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с массивами](ref.array.html)
+    
+-   Вибирає всі значення масиву
+    
 
-#array_values
+# arrayvalues
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-array_values — Вибирає всі значення масиву
+arrayvalues ​​- Вибирає всі значення масиву
 
 ### Опис
 
-**array_values**(array `$array`): array
+```methodsynopsis
+array_values(array $array): array
+```
 
-**array_values()** повертає масив з усіма елементами масиву
-`array`. Вона також заново індексує масив, що повертається, числовими.
-індексами.
+**arrayvalues()** повертає масив з усіма елементами масиву `array`. Вона також заново індексує масив, що повертається, числовими індексами.
 
 ### Список параметрів
 
 `array`
+
 Масив.
 
 ### Значення, що повертаються
@@ -30,22 +37,26 @@ array_values — Вибирає всі значення масиву
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_values()****
+**Приклад #1 Приклад використання **arrayvalues()****
 
-` <?php$array = array("size" => "XL", "color" => "gold");print_r(array_values($array));?> `
+```php
+<?php
+$array = array("size" => "XL", "color" => "gold");
+print_r(array_values($array));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[0] => XL
-[1] => gold
+    [0] => XL
+    [1] => gold
 )
+```
 
 ### Дивіться також
 
-- [array_keys()](function.array-keys.md) - Повертає всі або
-деяке підмножина ключів масиву
-- [array_combine()](function.array-combine.md) - Створює новий
-масив, використовуючи один масив як ключі, а інший для нього
-значень
+-   [array\_keys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
+-   [array\_combine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень

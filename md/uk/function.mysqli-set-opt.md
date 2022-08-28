@@ -1,20 +1,24 @@
-- [« mysqli_report](function.mysqli-report.md)
-- [Список змін »](changelog.mysqli.md)
+Псевдонім mysqlioptions
 
-- [PHP Manual](index.md)
-- [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-- Псевдонім mysqli_options
+-   [« mysqli\_report](function.mysqli-report.html)
+    
+-   [Список изменений »](changelog.mysqli.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+    
+-   Псевдонім mysqlioptions
+    
 
-# mysqli::set_opt
+# mysqli::setopt
 
-# mysqli_set_opt
+# mysqlisetopt
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::set_opt -- mysqli_set_opt -- Псевдонім
-[mysqli_options()](mysqli.options.md)
+mysqli::setopt - mysqlisetopt - Псевдонім [mysqli\_options()](mysqli.options.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[mysqli_options()](mysqli.options.md).
+Ця функція є псевдонімом: [mysqli\_options()](mysqli.options.html)

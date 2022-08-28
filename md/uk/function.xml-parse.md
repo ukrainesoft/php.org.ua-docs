@@ -1,70 +1,75 @@
-- [« xml_parse_into_struct](function.xml-parse-into-struct.md)
-- [xml_parser_create_ns »](function.xml-parser-create-ns.md)
+Запускає аналіз XML-документа
 
-- [PHP Manual](index.md)
-- [Функції парсера XML](ref.xml.md)
-- Запускає аналіз XML-документа
+-   [« xml\_parse\_into\_struct](function.xml-parse-into-struct.html)
+    
+-   [xml\_parser\_create\_ns »](function.xml-parser-create-ns.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции парсера XML](ref.xml.html)
+    
+-   Запускає аналіз XML-документа
+    
 
-#xml_parse
+# xmlparse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xml_parse — Запускає аналіз XML-документа
+xmlparse — Запускає розбір документа XML
 
 ### Опис
 
-**xml_parse**([XMLParser](class.xmlparser.md) `$parser`, string
-`$data`, bool `$is_final` = **`false`**): int
+```methodsynopsis
+xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
+```
 
-**xml_parse()** розбирає XML-документ. Обробники запрограмовані
-подій викликаються стільки разів, скільки необхідно.
+**xmlparse()** розбирає документ XML. Обробники запрограмованих подій викликаються стільки разів, скільки потрібно.
 
 ### Список параметрів
 
 `parser`
+
 Посилання на використовуваний XML-аналізатор.
 
 `data`
-Частина даних для аналізу. Документ можна розбирати частинами, викликаючи
-функцію **xml_parse()** кілька разів з новими даними, поки аргумент
-`is_final` не буде встановлено в **`true`**, це повідомить аналізатору,
-що розуміється остання частина документа.
+
+Частина даних для аналізу. Документ можна розбирати частинами, викликаючи функцію **xmlparse()** кілька разів з новими даними, поки аргумент `is_final` не буде встановлений у **`true`**, Це повідомить аналізатору, що розуміється остання частина документа.
 
 `is_final`
-Якщо заданий та встановлений в **`true`**, `data` вважається останньою частиною
-у цьому розборі.
+
+Якщо заданий та встановлений у **`true`** `data` вважається останньою частиною у цьому розборі.
 
 ### Значення, що повертаються
 
 Повертає 1 при успішному завершенні, 0 інакше.
 
-У разі невдалого розбору інформацію про помилки можна отримати з
-допомогою функцій
-[xml_get_error_code()](function.xml-get-error-code.md),
-[xml_error_string()](function.xml-error-string.md),
-[xml_get_current_line_number()](function.xml-get-current-line-number.md),
-[xml_get_current_column_number()](function.xml-get-current-column-number.md)
-і
-[xml_get_current_byte_index()](function.xml-get-current-byte-index.md).
+У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xml\_get\_error\_code()](function.xml-get-error-code.html) [xml\_error\_string()](function.xml-error-string.html) [xml\_get\_current\_line\_number()](function.xml-get-current-line-number.html) [xml\_get\_current\_column\_number()](function.xml-get-current-column-number.html) і [xml\_get\_current\_byte\_index()](function.xml-get-current-byte-index.html)
 
-> **Примітка**:
->
-> Деякі помилки (такі як помилки при розборі сутностей) видаються в
-> кінці розбору та отримати їх можна тільки коли `is_final` встановлений у
-> **`true`**.
+> **Зауваження**
+> 
+> Деякі помилки (такі як помилки при розборі сутностей) видаються в кінці розбору і отримати їх можна тільки коли `is_final` встановлений в **`true`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр parser чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Розбір частин великих XML-документів**
 
-Цей приклад показує, як великі XML-документи можуть бути прочитані та
-розібрані частинами, тому немає необхідності тримати весь документ у
-пам'яті. Обробка помилок опущена для стислості.
+Цей приклад показує, як великі XML-документи можуть бути прочитані та розібрані частинами, тому немає необхідності тримати весь документ у пам'яті. Обробка помилок опущена для стислості.
 
-` <?php$stream = fopen('large.xml', 'r');$parser = xml_parser_create();// встановити обробникиwhile (($data =fread($stream, 16384))    , $data); // розібрати поточну часть}xml_parse($parser, '', true); // завершити розбірxml_parser_free($parser);fclose($stream); `
+```php
+<?php
+$stream = fopen('large.xml', 'r');
+$parser = xml_parser_create();
+// установить обработчики
+while (($data = fread($stream, 16384))) {
+    xml_parse($parser, $data); // разобрать текущую часть
+}
+xml_parse($parser, '', true); // завершить разбор
+xml_parser_free($parser);
+fclose($stream);
+```

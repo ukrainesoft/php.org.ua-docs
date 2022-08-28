@@ -1,19 +1,25 @@
-- [«TableUpdate::bind](mysql-xdevapi-tableupdate.bind.md)
-- [TableUpdate::execute »](mysql-xdevapi-tableupdate.execute.md)
+Конструктор класу TableUpdate
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
-- Конструктор класу TableUpdate
+-   [« TableUpdate::bind](mysql-xdevapi-tableupdate.bind.html)
+    
+-   [TableUpdate::execute »](mysql-xdevapi-tableupdate.execute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+    
+-   Конструктор класу TableUpdate
+    
 
-# TableUpdate::\_\_construct
+# TableUpdate::construct
 
 (No version information available, might only be in Git)
 
-TableUpdate::\_\_construct - Конструктор класу TableUpdate
+TableUpdate::construct - Конструктор класу TableUpdate
 
 ### Опис
 
-private **mysql_xdevapi\TableUpdate::\_\_construct**()
+private **mysqlxdevapiTableUpdate::construct**
 
 Ініціюється за допомогою методу update().
 
@@ -23,7 +29,21 @@ private **mysql_xdevapi\TableUpdate::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableUpdate::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::construct()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$res = $table->update()  ->set('level', 3) ->where('age > 15 and age < 22') ->limit(4) --orderby(['age asc ','name desc'])  ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$res = $table->update()
+  ->set('level', 3)
+  ->where('age > 15 and age < 22')
+  ->limit(4)
+  ->orderby(['age asc','name desc'])
+  ->execute();
+
+?>
+```

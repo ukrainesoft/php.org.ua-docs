@@ -1,9 +1,15 @@
-- [« Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md)
-- [Imagick::chopImage »](imagick.chopimage.md)
+Малювання вугіллям
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Малювання вугіллям
+-   [« Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.html)
+    
+-   [Imagick::chopImage »](imagick.chopimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Малювання вугіллям
+    
 
 # Imagick::charcoalImage
 
@@ -13,24 +19,38 @@ Imagick::charcoalImage — Малювання вугіллям
 
 ### Опис
 
-public **Imagick::charcoalImage**(float `$radius`, float `$sigma`): bool
+```methodsynopsis
+public Imagick::charcoalImage(float $radius, float $sigma): bool
+```
 
 Малювання вугіллям.
 
 ### Список параметрів
 
 `radius`
+
 Радіус Гауса, у пікселях, не включаючи центральний піксель
 
 `sigma`
+
 Стандартне відхилення Гауса, у пікселях
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::charcoalImage()****
 
-`<?phpfunction charcoalImage($imagePath, $radius, $sigma) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->charcoalImage($radius, $sigma); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function charcoalImage($imagePath, $radius, $sigma) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->charcoalImage($radius, $sigma);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

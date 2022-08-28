@@ -1,22 +1,27 @@
-- [« Swoole\Server::addlistener](swoole-server.addlistener.md)
-- [Swoole\Server::after »](swoole-server.after.md)
+Додає певний користувачем swooleprocess на сервер
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Додає певний користувачем swoole_process на сервер
+-   [« Swoole\\Server::addlistener](swoole-server.addlistener.html)
+    
+-   [Swoole\\Server::after »](swoole-server.after.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Додає певний користувачем swooleprocess на сервер
+    
 
-# Swoole\Server::addProcess
+# SwooleServer::addProcess
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::addProcess — Додає певний користувач
-swoole_process на сервер
+SwooleServer::addProcess — Додає певний користувачем swooleprocess на сервер
 
 ### Опис
 
-public
-**Swoole\Server::addProcess**([swoole_process](class.swoole-process.md)
-`$process`): bool
+```methodsynopsis
+public Swoole\Server::addProcess(swoole_process $process): bool
+```
 
 ### Список параметрів
 

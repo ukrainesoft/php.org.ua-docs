@@ -1,19 +1,27 @@
-- [« SplFileObject::current](splfileobject.current.md)
-- [SplFileObject::fflush »](splfileobject.fflush.md)
+Перевіряє, чи кінець файлу досягнуто.
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Перевіряє, чи кінець файлу досягнуто
+-   [« SplFileObject::current](splfileobject.current.html)
+    
+-   [SplFileObject::fflush »](splfileobject.fflush.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Перевіряє, чи кінець файлу досягнуто.
+    
 
 # SplFileObject::eof
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::eof — Перевіряє, чи кінець файлу досягнуто.
 
 ### Опис
 
-public **SplFileObject::eof**(): bool
+```methodsynopsis
+public SplFileObject::eof(): bool
+```
 
 Визначає, чи було досягнуто кінця файлу
 
@@ -23,25 +31,32 @@ public **SplFileObject::eof**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо кінець файлу було досягнуто; **`false`** в
-інакше.
+Повертає **`true`**якщо кінець файлу було досягнуто; **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::eof()****
 
-` <?php$file = new SplFileObject("fruits.txt");while ( ! $file->eof()) {    echo $file->fgets();}?> `
+```php
+<?php
+$file = new SplFileObject("fruits.txt");
+while ( ! $file->eof()) {
+    echo $file->fgets();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apple
 banana
 cherry
 date
 elderberry
+```
 
 ### Дивіться також
 
-- [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє,
-чи досягнуто кінець файлу (EOF)
-- [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
+-   [SplFileObject::valid()](splfileobject.valid.html) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто

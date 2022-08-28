@@ -1,9 +1,15 @@
-- [« Imagick::setOption](imagick.setoption.md)
-- [Imagick::setPointSize »](imagick.setpointsize.md)
+Встановлює геометрію сторінки об'єкту Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює геометрію сторінки об'єкту Imagick
+-   [« Imagick::setOption](imagick.setoption.html)
+    
+-   [Imagick::setPointSize »](imagick.setpointsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює геометрію сторінки об'єкту Imagick
+    
 
 # Imagick::setPage
 
@@ -13,12 +19,9 @@ Imagick::setPage — Встановлює геометрію сторінки о
 
 ### Опис
 
-public **Imagick::setPage**(
-int `$width`,
-int `$height`,
-int `$x`,
-int `$y`
-): bool
+```methodsynopsis
+public Imagick::setPage(    int $width,    int $height,    int $x,    int $y): bool
+```
 
 Встановлює геометрію сторінки об'єкту Imagick.
 
@@ -34,4 +37,4 @@ int `$y`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

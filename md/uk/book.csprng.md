@@ -1,21 +1,25 @@
-- [«Криптографічні модулі](refs.crypto.md)
-- [Вступ »](intro.csprng.md)
+CSPRNG
 
-- [PHP Manual](index.md)
-- [Криптографічні модулі](refs.crypto.md)
-- CSPRNG
+-   [« Криптографические модули](refs.crypto.html)
+    
+-   [Введение »](intro.csprng.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Криптографические модули](refs.crypto.html)
+    
+-   CSPRNG
+    
 
 # CSPRNG
 
-- [Вступ](intro.csprng.md)
-- [Встановлення та налаштування](csprng.setup.md)
-- [Вимоги](csprng.requirements.md)
-- [Установка](csprng.installation.md)
-- [Налаштування під час виконання](csprng.configuration.md)
-- [Типи ресурсів](csprng.resources.md)
-- [Предвизначені константи](csprng.constants.md)
-- [Функції CSPRNG](ref.csprng.md)
-- [random_bytes](function.random-bytes.md) - Генерує
-криптографічно безпечні псевдовипадкові байти
-- [random_int](function.random-int.md) - Генерує
-криптографічно безпечні псевдовипадкові цілі числа
+-   [Введение](intro.csprng.html)
+-   [Установка и настройка](csprng.setup.html)
+    -   [Требования](csprng.requirements.html)
+    -   [Установка](csprng.installation.html)
+    -   [Настройка во время выполнения](csprng.configuration.html)
+    -   [Типы ресурсов](csprng.resources.html)
+-   [Предопределённые константы](csprng.constants.html)
+-   [Функции CSPRNG](ref.csprng.html)
+    -   [random\_bytes](function.random-bytes.html) — Генерує криптографічно безпечні псевдовипадкові байти
+    -   [random\_int](function.random-int.html) — Генерує криптографічно безпечні псевдовипадкові цілі числа

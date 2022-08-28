@@ -1,19 +1,25 @@
-- [« Phar::delete](phar.delete.md)
-- [Phar::extractTo »](phar.extractto.md)
+Знищує об'єкт архіву Phar
 
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Знищує об'єкт архіву Phar
+-   [« Phar::delete](phar.delete.html)
+    
+-   [Phar::extractTo »](phar.extractto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](class.phar.html)
+    
+-   Знищує об'єкт архіву Phar
+    
 
-# Phar::\_\_destruct
+# Phar::destruct
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-Phar::\_\_destruct — Знищує об'єкт архіву Phar
+Phar::destruct — Знищує об'єкт архіву Phar
 
 ### Опис
 
-public **Phar::\_\_destruct**()
+public **Phar::destruct**
 
 ### Список параметрів
 

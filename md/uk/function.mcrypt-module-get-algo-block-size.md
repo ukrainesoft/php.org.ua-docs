@@ -1,37 +1,43 @@
-- [«mcrypt_module_close](function.mcrypt-module-close.md)
-- [mcrypt_module_get_algo_key_size »](function.mcrypt-module-get-algo-key-size.md)
+Повертає розмір блоку вказаного алгоритму
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає розмір блоку вказаного алгоритму
+-   [« mcrypt\_module\_close](function.mcrypt-module-close.html)
+    
+-   [mcrypt\_module\_get\_algo\_key\_size »](function.mcrypt-module-get-algo-key-size.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Повертає розмір блоку вказаного алгоритму
+    
 
-# mcrypt_module_get_algo_block_size
+# mcryptmodulegetalgoblocksize
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_module_get_algo_block_size — Повертає розмір блоку вказаного
-алгоритму
+mcryptmodulegetalgoblocksize — Повертає розмір блоку вказаного алгоритму
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_module_get_algo_block_size**(string `$algorithm`, string
-`$lib_dir` = ?): int
+```methodsynopsis
+mcrypt_module_get_algo_block_size(string $algorithm, string $lib_dir = ?): int
+```
 
 Повертає розмір блоку вказаного алгоритму.
 
 ### Список параметрів
 
 `algorithm`
+
 Ім'я алгоритму.
 
 `lib_dir`
-Опціональний параметр, в якому можна вказати директорію, що містить
-модуль режиму.
+
+Опціональний параметр, у якому можна вказати директорію, що містить модуль режиму.
 
 ### Значення, що повертаються
 

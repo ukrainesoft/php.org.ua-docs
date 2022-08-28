@@ -1,161 +1,101 @@
-- [« wkhtmltox\Image\Converter::getVersion](wkhtmltox-image-converter.getversion.md)
-- [Вступ »](intro.ps.md)
+Створення документів PostScript
 
-- [PHP Manual](index.md)
-- [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-- Створення документів PostScript
+-   [« wkhtmltox\\Image\\Converter::getVersion](wkhtmltox-image-converter.getversion.html)
+    
+-   [Введение »](intro.ps.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Генерация нетекстовых MIME-форматов](refs.utilspec.nontext.html)
+    
+-   Створення документів PostScript
+    
 
 # Створення документів PostScript
 
-- [Вступ](intro.ps.md)
-- [Встановлення та налаштування](ps.setup.md)
-- [Вимоги](ps.requirements.md)
-- [Установка](ps.installation.md)
-- [Налаштування під час виконання](ps.configuration.md)
-- [Типи ресурсів](ps.resources.md)
-- [Предвизначені константи](ps.constants.md)
-- [Функції PS](ref.ps.md)
-- [ps_add_bookmark](function.ps-add-bookmark.md) — Додає
-закладку на поточну сторінку
-- [ps_add_launchlink](function.ps-add-launchlink.md) - Додає
-посилання, що запускає файл
-- [ps_add_locallink](function.ps-add-locallink.md) - Додає
-посилання на сторінку того ж документа
-- [ps_add_note](function.ps-add-note.md) — Додає примітку
-до поточної сторінки
-- [ps_add_pdflink](function.ps-add-pdflink.md) - Додає
-посилання на сторінку в іншому PDF-документі
-- [ps_add_weblink](function.ps-add-weblink.md) - Додає
-посилання на веб-сторінку
-- [ps_arc](function.ps-arc.md) — Малює дугу проти вартовий
-стрілки
-- [ps_arcn](function.ps-arcn.md) - Малює дугу за годинниковою
-стрілці
-- [ps_begin_page](function.ps-begin-page.md) - Починає нову
-сторінку
-- [ps_begin_pattern](function.ps-begin-pattern.md) - Починає
-новий візерунок
-- [ps_begin_template](function.ps-begin-template.md) - Починає
-новий шаблон
-- [ps_circle](function.ps-circle.md) - Малює коло
-- [ps_clip](function.ps-clip.md) — Відображення кліпів за поточним
-шляхи
-- [ps_close_image](function.ps-close-image.md) - Закриває
-зображення та звільняє пам'ять
-- [ps_close](function.ps-close.md) - Закриває документ
-PostScript
-- [ps_closepath_stroke](function.ps-closepath-stroke.md) -
-Замикає та обводить контур
-- [ps_closepath](function.ps-closepath.md) - Замикає шлях
-- [ps_continue_text](function.ps-continue-text.md) — Продовжує
-текст у наступному рядку
-- [ps_curveto](function.ps-curveto.md) - Малює криву
-- [ps_delete](function.ps-delete.md) — Видаляє всі ресурси
-документа PostScript
-- [ps_end_page](function.ps-end-page.md) — Завершує сторінку
-- [ps_end_pattern](function.ps-end-pattern.md) - Завершує
-шаблон
-- [ps_end_template](function.ps-end-template.md) - Завершує
-шаблон
-- [ps_fill_stroke](function.ps-fill-stroke.md) - Заповнює та
-обводить поточний шлях
-- [ps_fill](function.ps-fill.md) — Заповнює поточний шлях
-- [ps_findfont](function.ps-findfont.md) — Завантажує шрифт
-- [ps_get_buffer](function.ps-get-buffer.md) - Отримує повний
-буфер, що містить згенеровані дані PS
-- [ps_get_parameter](function.ps-get-parameter.md) — Отримує
-певні параметри
-- [ps_get_value](function.ps-get-value.md) — Отримує
-певні значення
-- [ps_hyphenate](function.ps-hyphenate.md) - Переносить слово
-- [ps_include_file](function.ps-include-file.md) - Читає
-зовнішній файл із необробленим кодом PostScript
-- [ps_lineto](function.ps-lineto.md) - Малює лінію
-- [ps_makespotcolor](function.ps-makespotcolor.md) — Створює
-плашковий колір
-- [ps_moveto](function.ps-moveto.md) — Встановлює поточну
-точку
-- [ps_new](function.ps-new.md) — Створення нового об'єкта документа
-PostScript
-- [ps_open_file](function.ps-open-file.md) — Відкриває файл для
-висновку
-- [ps_open_image_file](function.ps-open-image-file.md) -
-Відкриває зображення з файлу
-- [ps_open_image](function.ps-open-image.md) - Зчитує
-зображення для подальшого розміщення
-- [ps_open_memory_image](function.ps-open-memory-image.md) -
-Бере зображення GD і повертає зображення для розміщення в
-документі PS
-- [ps_place_image](function.ps-place-image.md) — Розміщує
-зображення на сторінці
-- [ps_rect](function.ps-rect.md) — Малює прямокутник
-- [ps_restore](function.ps-restore.md) — Поновлює раніше
-збережений контекст
-- [ps_rotate](function.ps-rotate.md) - Встановлює коефіцієнт
-обертання
-- [ps_save](function.ps-save.md) — Зберігає поточний контекст
-- [ps_scale](function.ps-scale.md) - Встановлює коефіцієнт
-масштабування
-- [ps_set_border_color](function.ps-set-border-color.md) -
-Встановлює колір межі анотацій
-- [ps_set_border_dash](function.ps-set-border-dash.md) -
-Встановлює довжину тире для межі анотації
-- [ps_set_border_style](function.ps-set-border-style.md) -
-Встановлює стиль межі анотацій
-- [ps_set_info](function.ps-set-info.md) - Встановлює
-інформаційні поля документа
-- [ps_set_parameter](function.ps-set-parameter.md) -
-Встановлює певні параметри
-- [ps_set_text_pos](function.ps-set-text-pos.md) — Встановлює
-позицію для виведення тексту
-- [ps_set_value](function.ps-set-value.md) — Встановлює
-певні значення
-- [ps_setcolor](function.ps-setcolor.md) — Встановлює поточний
-колір
-- [ps_setdash](function.ps-setdash.md) — Встановлює зовнішній вигляд
-вид пунктирної лінії
-- [ps_setflat](function.ps-setflat.md) - Встановлює
-площинність
-- [ps_setfont](function.ps-setfont.md) — Встановлює шрифт,
-який буде використовуватися для наступного висновку
-- [ps_setgray](function.ps-setgray.md) — Встановлює значення
-сірого
-- [ps_setlinecap](function.ps-setlinecap.md) — Встановлює
-зовнішній вигляд закінчення лінії
-- [ps_setlinejoin](function.ps-setlinejoin.md) — Встановлює
-спосіб з'єднання ліній
-- [ps_setlinewidth](function.ps-setlinewidth.md) — Встановлює
-ширину лінії
-- [ps_setmiterlimit](function.ps-setmiterlimit.md) -
-Встановлює межу скосу
-- [ps_setoverprintmode](function.ps-setoverprintmode.md) -
-Встановлює режим накладання
-- [ps_setpolydash](function.ps-setpolydash.md) - Встановлює
-зовнішній вигляд пунктирної лінії
-- [ps_shading_pattern](function.ps-shading-pattern.md) - Створює
-візерунок на основі затінення
-- [ps_shading](function.ps-shading.md) — Створює затінок для
-подальшого використання
-- [ps_shfill](function.ps-shfill.md) - Заповнює область
-затіненням
-- [ps_show_boxed](function.ps-show-boxed.md) — Виводить текст у
-поле
-- [ps_show_xy2](function.ps-show-xy2.md) — Виводить текст у
-заданої позиції
-- [ps_show_xy](function.ps-show-xy.md) — Виводить текст у
-заданої позиції
-- [ps_show2](function.ps-show2.md) — Виводить текст у поточному
-позиції
-- [ps_show](function.ps-show.md) — Виводить текст
-- [ps_string_geometry](function.ps-string-geometry.md) -
-Отримує геометрію рядка
-- [ps_stringwidth](function.ps-stringwidth.md) — Отримує ширину
-рядки
-- [ps_stroke](function.ps-stroke.md) — Малює поточний шлях
-- [ps_symbol_name](function.ps-symbol-name.md) — Отримує ім'я
-гліфа
-- [ps_symbol_width](function.ps-symbol-width.md) - Отримує
-ширину гліфу
-- [ps_symbol](function.ps-symbol.md) - Виводить гліф
-- [ps_translate](function.ps-translate.md) — Змінює систему
-координат
+-   [Введение](intro.ps.html)
+-   [Установка и настройка](ps.setup.html)
+    -   [Требования](ps.requirements.html)
+    -   [Установка](ps.installation.html)
+    -   [Настройка во время выполнения](ps.configuration.html)
+    -   [Типы ресурсов](ps.resources.html)
+-   [Предопределённые константы](ps.constants.html)
+-   [Функции PS](ref.ps.html)
+    -   [ps\_add\_bookmark](function.ps-add-bookmark.html) — Додає закладку на поточну сторінку
+    -   [ps\_add\_launchlink](function.ps-add-launchlink.html) — Додає посилання, яке запускає файл
+    -   [ps\_add\_locallink](function.ps-add-locallink.html) — Додає посилання на сторінку того самого документа
+    -   [ps\_add\_note](function.ps-add-note.html) — Додає примітку до поточної сторінки
+    -   [ps\_add\_pdflink](function.ps-add-pdflink.html) — Додає посилання на сторінку в іншому PDF-документі
+    -   [ps\_add\_weblink](function.ps-add-weblink.html) — Додає посилання на веб-сторінку
+    -   [ps\_arc](function.ps-arc.html) — Малює дугу проти годинникової стрілки
+    -   [ps\_arcn](function.ps-arcn.html) — Малює дугу за годинниковою стрілкою
+    -   [ps\_begin\_page](function.ps-begin-page.html) — Починає нову сторінку
+    -   [ps\_begin\_pattern](function.ps-begin-pattern.html) - Починає новий візерунок
+    -   [ps\_begin\_template](function.ps-begin-template.html) — Починає новий шаблон
+    -   [ps\_circle](function.ps-circle.html) — Малює коло
+    -   [ps\_clip](function.ps-clip.html) — Відображення кліпів поточним шляхом
+    -   [ps\_close\_image](function.ps-close-image.html) — Закриває зображення та звільняє пам'ять
+    -   [ps\_close](function.ps-close.html) — Закриває документ PostScript
+    -   [ps\_closepath\_stroke](function.ps-closepath-stroke.html) — Замикає та обводить контур
+    -   [ps\_closepath](function.ps-closepath.html) - Замикає шлях
+    -   [ps\_continue\_text](function.ps-continue-text.html) — Продовжує текст у наступному рядку
+    -   [ps\_curveto](function.ps-curveto.html) — Малює криву
+    -   [ps\_delete](function.ps-delete.html) — Видаляє всі ресурси документа PostScript
+    -   [ps\_end\_page](function.ps-end-page.html) - Завершує сторінку
+    -   [ps\_end\_pattern](function.ps-end-pattern.html) — Завершує шаблон
+    -   [ps\_end\_template](function.ps-end-template.html) — Завершує шаблон
+    -   [ps\_fill\_stroke](function.ps-fill-stroke.html) — Заповнює та обводить поточний шлях
+    -   [ps\_fill](function.ps-fill.html) - Заповнює поточний шлях
+    -   [ps\_findfont](function.ps-findfont.html) — Завантажує шрифт
+    -   [ps\_get\_buffer](function.ps-get-buffer.html) — Отримує повний буфер, що містить згенеровані дані PS
+    -   [ps\_get\_parameter](function.ps-get-parameter.html) — Отримує певні параметри
+    -   [ps\_get\_value](function.ps-get-value.html) — Отримує певні значення
+    -   [ps\_hyphenate](function.ps-hyphenate.html) - Переносить слово
+    -   [ps\_include\_file](function.ps-include-file.html) — Читає зовнішній файл із необробленим кодом PostScript
+    -   [ps\_lineto](function.ps-lineto.html) — Малює лінію
+    -   [ps\_makespotcolor](function.ps-makespotcolor.html) - Створює плашковий колір
+    -   [ps\_moveto](function.ps-moveto.html) — Встановлює поточну точку
+    -   [ps\_new](function.ps-new.html) — Створює новий об'єкт документа PostScript
+    -   [ps\_open\_file](function.ps-open-file.html) — Відкриває файл для виводу
+    -   [ps\_open\_image\_file](function.ps-open-image-file.html) — Відкриває зображення із файлу
+    -   [ps\_open\_image](function.ps-open-image.html) — Зчитує зображення для подальшого розміщення
+    -   [ps\_open\_memory\_image](function.ps-open-memory-image.html) — Бере зображення GD та повертає зображення для розміщення в документі PS
+    -   [ps\_place\_image](function.ps-place-image.html) — Розміщує зображення на сторінці
+    -   [ps\_rect](function.ps-rect.html) — Малює прямокутник
+    -   [ps\_restore](function.ps-restore.html) — Відновлює раніше збережений контекст
+    -   [ps\_rotate](function.ps-rotate.html) - Встановлює коефіцієнт обертання
+    -   [ps\_save](function.ps-save.html) — Зберігає поточний контекст
+    -   [ps\_scale](function.ps-scale.html) - Встановлює коефіцієнт масштабування
+    -   [ps\_set\_border\_color](function.ps-set-border-color.html) - Встановлює колір межі анотацій
+    -   [ps\_set\_border\_dash](function.ps-set-border-dash.html) - Встановлює довжину тире для межі анотації.
+    -   [ps\_set\_border\_style](function.ps-set-border-style.html) — Встановлює стиль межі анотацій
+    -   [ps\_set\_info](function.ps-set-info.html) - Встановлює інформаційні поля документа
+    -   [ps\_set\_parameter](function.ps-set-parameter.html) — Встановлює певні параметри
+    -   [ps\_set\_text\_pos](function.ps-set-text-pos.html) — Встановлює позицію для виведення тексту
+    -   [ps\_set\_value](function.ps-set-value.html) - Встановлює певні значення
+    -   [ps\_setcolor](function.ps-setcolor.html) — Встановлює поточний колір
+    -   [ps\_setdash](function.ps-setdash.html) - Встановлює зовнішній вигляд пунктирної лінії
+    -   [ps\_setflat](function.ps-setflat.html) - Встановлює площинність
+    -   [ps\_setfont](function.ps-setfont.html) — Встановлює шрифт, який використовуватиметься для наступного висновку
+    -   [ps\_setgray](function.ps-setgray.html) - Встановлює значення сірого
+    -   [ps\_setlinecap](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
+    -   [ps\_setlinejoin](function.ps-setlinejoin.html) — Встановлює спосіб з'єднання ліній
+    -   [ps\_setlinewidth](function.ps-setlinewidth.html) - Встановлює ширину лінії
+    -   [ps\_setmiterlimit](function.ps-setmiterlimit.html) - Встановлює межу скосу
+    -   [ps\_setoverprintmode](function.ps-setoverprintmode.html) — Встановлює режим накладання
+    -   [ps\_setpolydash](function.ps-setpolydash.html) - Встановлює зовнішній вигляд пунктирної лінії
+    -   [ps\_shading\_pattern](function.ps-shading-pattern.html) - Створює візерунок на основі затінення
+    -   [ps\_shading](function.ps-shading.html) — Створює затінення для подальшого використання
+    -   [ps\_shfill](function.ps-shfill.html) - Заповнює область затіненням
+    -   [ps\_show\_boxed](function.ps-show-boxed.html) - Виводить текст у поле
+    -   [ps\_show\_xy2](function.ps-show-xy2.html) — Виводить текст у заданій позиції
+    -   [ps\_show\_xy](function.ps-show-xy.html) — Виводить текст у заданій позиції
+    -   [ps\_show2](function.ps-show2.html) — Виводить текст у поточній позиції
+    -   [ps\_show](function.ps-show.html) - Виводить текст
+    -   [ps\_string\_geometry](function.ps-string-geometry.html) — Отримує геометрію рядка
+    -   [ps\_stringwidth](function.ps-stringwidth.html) — Отримує ширину рядка
+    -   [ps\_stroke](function.ps-stroke.html) — Малює поточний шлях
+    -   [ps\_symbol\_name](function.ps-symbol-name.html) — Отримує ім'я гліфа
+    -   [ps\_symbol\_width](function.ps-symbol-width.html) — Отримує ширину гліфа
+    -   [ps\_symbol](function.ps-symbol.html) - Виводить гліф
+    -   [ps\_translate](function.ps-translate.html) - Змінює систему координат

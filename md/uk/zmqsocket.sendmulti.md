@@ -1,37 +1,40 @@
-- [«ZMQSocket::send](zmqsocket.send.md)
-- [ZMQSocket::setSockOpt »](zmqsocket.setsockopt.md)
+Надіслати повідомлення, що складається з кількох частин
 
-- [PHP Manual](index.md)
-- [ZMQSocket](class.zmqsocket.md)
-- Надіслати повідомлення, що складається з кількох частин
+-   [« ZMQSocket::send](zmqsocket.send.html)
+    
+-   [ZMQSocket::setSockOpt »](zmqsocket.setsockopt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQSocket](class.zmqsocket.html)
+    
+-   Надіслати повідомлення, що складається з кількох частин
+    
 
 # ZMQSocket::sendmulti
 
-(PECL zmq \>= 0.8.0)
+(PECL zmq >= 0.8.0)
 
-ZMQSocket::sendmulti — Надіслати повідомлення, яке складається з кількох частин
+ZMQSocket::sendmulti — Надіслати повідомлення, що складається з кількох частин
 
 ### Опис
 
-public **ZMQSocket::sendmulti**(array `$message`, int `$mode` = 0):
-[ZMQSocket](class.zmqsocket.md)
+```methodsynopsis
+public ZMQSocket::sendmulti(array $message, int $mode = 0): ZMQSocket
+```
 
-Надіслати повідомлення, що складається з кількох частин Операція може
-блокуватись, якщо не використовується прапор **`ZMQ::MODE_NOBLOCK`**.
+Надіслати повідомлення, що складається з кількох частин Операція може блокуватися, якщо не використовується прапор **`ZMQ::MODE_NOBLOCK`**
 
 ### Список параметрів
 
 `message`
+
 Повідомлення у вигляді масиву рядків
 
 `mode`
-Прапори для налаштування режиму не блокуючого отримання та роботи з
-повідомленнями, що з кількох частин. Дивіться константи
-**`ZMQ::MODE_*`**.
+
+Прапори для налаштування режиму, що не блокує отримання та роботи з повідомленнями, що складаються з декількох частин. Дивіться константи **`ZMQ::MODE_*`**
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт. У разі виникнення помилки викидає
-виняток ZMQSocketException. Якщо використовується режим
-**`ZMQ::MODE_NOBLOCK`** та операція заблокована, то буде повернено
-**`false`**.
+Повертає поточний об'єкт. У разі помилки викидає виняток ZMQSocketException. Якщо використовується режим **`ZMQ::MODE_NOBLOCK`** і операцію заблоковано, то буде повернуто **`false`**

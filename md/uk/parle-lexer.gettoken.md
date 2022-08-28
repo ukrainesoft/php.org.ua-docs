@@ -1,20 +1,27 @@
-- [« Parle\Lexer::dump](parle-lexer.dump.md)
-- [Parle\Lexer::insertMacro »](parle-lexer.insertmacro.md)
+Отримує поточний токен
 
-- [PHP Manual](index.md)
-- [Parle\Lexer](class.parle-lexer.md)
-- Отримує поточний токен
+-   [« Parle\\Lexer::dump](parle-lexer.dump.html)
+    
+-   [Parle\\Lexer::insertMacro »](parle-lexer.insertmacro.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Lexer](class.parle-lexer.html)
+    
+-   Отримує поточний токен
+    
 
-# Parle\Lexer::getToken
+# ParleLexer::getToken
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Lexer::getToken — Отримує поточний токен
+ParleLexer::getToken — Отримує поточний токен
 
 ### Опис
 
-public **Parle\Lexer::getToken**():
-[Parle\Token](class.parle-token.md)
+```methodsynopsis
+public Parle\Lexer::getToken(): Parle\Token
+```
 
 Отримує поточний ток.
 
@@ -24,4 +31,4 @@ public **Parle\Lexer::getToken**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Parle\Token](class.parle-token.md).
+Повертає екземпляр [Parle\\Token](class.parle-token.html)

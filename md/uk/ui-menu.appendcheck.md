@@ -1,29 +1,38 @@
-- [« UI\Menu::appendAbout](ui-menu.appendabout.md)
-- [UI\Menu::appendPreferences »](ui-menu.appendpreferences.md)
+Додати пункт меню із чекбоксом
 
-- [PHP Manual](index.md)
-- [UI\Menu](class.ui-menu.md)
-- Додати пункт меню із чекбоксом
+-   [« UI\\Menu::appendAbout](ui-menu.appendabout.html)
+    
+-   [UI\\Menu::appendPreferences »](ui-menu.appendpreferences.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Menu](class.ui-menu.html)
+    
+-   Додати пункт меню із чекбоксом
+    
 
-# UI\Menu::appendCheck
+# ОЙMenu::appendCheck
 
 (UI 0.9.9)
 
-UI\Menu::appendCheck — Додати пункт меню з чекбоксом
+ОЙMenu::appendCheck — Додати пункт меню з чекбоксом
 
 ### Опис
 
-public **UI\Menu::appendCheck**(string `$name`, string `$type` =
-UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
+```methodsynopsis
+public UI\Menu::appendCheck(string $name, string $type = UI\MenuItem::class): UI\MenuItem
+```
 
-Додасть пункт меню із чекбоксом
+Додати пункт меню із чекбоксом
 
 ### Список параметрів
 
 `name`
-Назва (текст) нового пункту
+
+Ім'я (текст) нового пункту
 
 `type`
+
 Тип нового пункту
 
 ### Значення, що повертаються

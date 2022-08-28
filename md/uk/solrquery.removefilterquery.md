@@ -1,29 +1,36 @@
-- [«SolrQuery::removeField](solrquery.removefield.md)
-- [SolrQuery::removeHighlightField »](solrquery.removehighlightfield.md)
+Видаляє запит фільтра
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє запит фільтру
+-   [« SolrQuery::removeField](solrquery.removefield.html)
+    
+-   [SolrQuery::removeHighlightField »](solrquery.removehighlightfield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Видаляє запит фільтра
+    
 
 # SolrQuery::removeFilterQuery
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::removeFilterQuery — Видаляє запит фільтру
+SolrQuery::removeFilterQuery — Видаляє запит фільтра
 
 ### Опис
 
-public **SolrQuery::removeFilterQuery**(string `$fq`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeFilterQuery(string $fq): SolrQuery
+```
 
-Видаляє запит фільтру.
+Видаляє запит фільтра.
 
 ### Список параметрів
 
 `fq`
+
 Фільтр запиту для видалення
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

@@ -1,59 +1,85 @@
-- [«class_implements](function.class-implements.md)
-- [class_uses »](function.class-uses.md)
+Повертає список батьківських класів заданого класу
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- повертає список батьківських класів заданого класу
+-   [« class\_implements](function.class-implements.html)
+    
+-   [class\_uses »](function.class-uses.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Повертає список батьківських класів заданого класу
+    
 
-#class_parents
+# classparents
 
 (PHP 5, PHP 7, PHP 8)
 
-class_parents — Повертає список батьківських класів заданого класу
+classparents — Повертає список батьківських класів заданого класу
 
 ### Опис
 
-**class_parents**(object\|string `$object_or_class`, bool `$autoload` =
-**`true`**): array\|false
+```methodsynopsis
+class_parents(object|string $object_or_class, bool $autoload = true): array|false
+```
 
-Ця функція повертає масив із іменами батьківських класів заданого
-класу `object_or_class`.
+Ця функція повертає масив із іменами батьківських класів заданого класу `object_or_class`
 
 ### Список параметрів
 
 `object_or_class`
-Об'єкт (примірник класу) або рядок (ім'я класу).
+
+Об'єкт (примірник класу) чи рядок (ім'я класу).
 
 `autoload`
-Чи викликати за промовчанням [\_\_autoload](language.oop5.autoload.md).
+
+Чи викликати за замовчуванням [\_\_autoload](language.oop5.autoload.html)
 
 ### Значення, що повертаються
 
-У разі успішного виконання буде повернено масив, якщо заданий
-клас не існує, повертається **`false`**.
+У разі успішного виконання буде повернено масив, якщо заданий клас не існує, повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **class_parents()****
+**Приклад #1 Приклад використання **classparents()****
 
-`<?phpclass foo { }class bar extends foo {}print_r(class_parents(new bar)); незавантаженого класу 'not_loaded'print_r(class_parents('not_loaded', true));?> `
+```php
+<?php
+
+class foo { }
+class bar extends foo {}
+
+print_r(class_parents(new bar));
+
+// можно передавать имя класса вместо объекта
+print_r(class_parents('bar'));
+
+
+spl_autoload_register();
+
+// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
+print_r(class_parents('not_loaded', true));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[foo] => foo
+    [foo] => foo
 )
 Array
 (
-[foo] => foo
+    [foo] => foo
 )
 Array
 (
-[parent_of_not_loaded] => parent_of_not_loaded
+    [parent_of_not_loaded] => parent_of_not_loaded
 )
+```
 
 ### Дивіться також
 
-- [class_implements()](function.class-implements.md) - Повертає
-список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [class\_implements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

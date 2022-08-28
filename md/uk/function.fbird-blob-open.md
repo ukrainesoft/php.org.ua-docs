@@ -1,27 +1,28 @@
-- [«fbird_blob_info](function.fbird-blob-info.md)
-- [fbird_close »](function.fbird-close.md)
+Псевдонім ibaseblobopen
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_blob_open
+-   [« fbird\_blob\_info](function.fbird-blob-info.html)
+    
+-   [fbird\_close »](function.fbird-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseblobopen
+    
 
-#fbird_blob_open
+# fbirdblobopen
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_blob_open - Псевдонім
-[ibase_blob_open()](function.ibase-blob-open.md)
+fbirdblobopen - Псевдонім [ibase\_blob\_open()](function.ibase-blob-open.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_blob_open()](function.ibase-blob-open.md).
+Ця функція є псевдонімом: [ibase\_blob\_open()](function.ibase-blob-open.html)
 
 ### Дивіться також
 
-- [fbird_blob_close()](function.fbird-blob-close.md) - Псевдонім
-ibase_blob_close
-- [fbird_blob_echo()](function.fbird-blob-echo.md) - Псевдонім
-ibase_blob_echo
-- [fbird_blob_get()](function.fbird-blob-get.md) - Псевдонім
-ibase_blob_get
+-   [fbird\_blob\_close()](function.fbird-blob-close.html) - Псевдонім ibaseblobclose
+-   [fbird\_blob\_echo()](function.fbird-blob-echo.html) - Псевдонім ibaseblobecho
+-   [fbird\_blob\_get()](function.fbird-blob-get.html) - Псевдонім ibaseblobget

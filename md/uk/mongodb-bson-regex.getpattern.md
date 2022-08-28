@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Regex::getFlags](mongodb-bson-regex.getflags.md)
-- [MongoDB\BSON\Regex::jsonSerialize »](mongodb-bson-regex.jsonserialize.md)
+Повертає шаблон Regex
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
-- Повертає шаблон Regex
+-   [« MongoDB\\BSON\\Regex::getFlags](mongodb-bson-regex.getflags.html)
+    
+-   [MongoDB\\BSON\\Regex::jsonSerialize »](mongodb-bson-regex.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+    
+-   Повертає шаблон Regex
+    
 
-# MongoDB\BSON\Regex::getPattern
+# MongoDBBSONRegex::getPattern
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON\Regex::getPattern — Повертає шаблон Regex
+MongoDBBSONRegex::getPattern — Повертає шаблон Regex
 
 ### Опис
 
-final public **MongoDB\BSON\Regex::getPattern**(): string
+```methodsynopsis
+final public MongoDB\BSON\Regex::getPattern(): string
+```
 
 ### Список параметрів
 
@@ -25,19 +33,27 @@ final public **MongoDB\BSON\Regex::getPattern**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\BSON\Regex::getPattern()****
+**Приклад #1 Приклад використання **MongoDBBSONRegex::getPattern()****
 
-` <?php$regex = new MongoDB\BSON\Regex('regex', 'i');var_dump($regex->getPattern());?> `
+```php
+<?php
+
+$regex = new MongoDB\BSON\Regex('regex', 'i');
+var_dump($regex->getPattern());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(5) "regex"
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

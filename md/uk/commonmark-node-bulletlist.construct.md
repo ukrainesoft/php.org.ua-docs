@@ -1,30 +1,33 @@
-- [« CommonMark\Node\BulletList](class.commonmark-node-bulletlist.md)
-- [CommonMark\Node\OrderedList »](class.commonmark-node-orderedlist.md)
+Конструктор класу BulletList
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\BulletList](class.commonmark-node-bulletlist.md)
-- Конструктор класу BulletList
+-   [« CommonMark\\Node\\BulletList](class.commonmark-node-bulletlist.html)
+    
+-   [CommonMark\\Node\\OrderedList »](class.commonmark-node-orderedlist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node\\BulletList](class.commonmark-node-bulletlist.html)
+    
+-   Конструктор класу BulletList
+    
 
-# CommonMark\Node\BulletList::\_\_construct
+# CommonMarkNodeBullet List::construct
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node\BulletList::\_\_construct - Конструктор класу
-BulletList
+CommonMarkNodeBullet List::construct - Конструктор класу BulletList
 
 ### Опис
 
-public **CommonMark\Node\BulletList::\_\_construct**()
+public **CommonMarkNodeBullet List::construct**
 
-public **CommonMark\Node\BulletList::\_\_construct**(int `$tight`)
+public **CommonMarkNodeBullet List::construct**(int `$tight`
 
-public **CommonMark\Node\BulletList::\_\_construct**(int `$tight`, int
-`$delimiter`)
+public **CommonMarkNodeBullet List::construct**(int `$tight`, int `$delimiter`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

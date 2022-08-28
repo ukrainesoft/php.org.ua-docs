@@ -1,40 +1,46 @@
-- [ trader_cci](function.trader-cci.md)
-- [trader_cdl3blackcrows »](function.trader-cdl3blackcrows.md)
+Дві ворони
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Дві ворони
+-   [« trader\_cci](function.trader-cci.html)
+    
+-   [trader\_cdl3blackcrows »](function.trader-cdl3blackcrows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Дві ворони
+    
 
-# trader_cdl2crows
+# tradercdl2crows
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdl2crows — Дві ворони
+tradercdl2crows - Дві ворони
 
 ### Опис
 
-**trader_cdl2crows**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdl2crows(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

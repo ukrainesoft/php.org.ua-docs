@@ -1,10 +1,16 @@
-- [« Типи ресурсів](xlswriter.resources.md)
-- [Vtiful\Kernel\Excel »](class.vtiful-kernel-excel.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [XLSWriter](book.xlswriter.md)
-- Обумовлені константи
+-   [« Типы ресурсов](xlswriter.resources.html)
+    
+-   [Vtiful\\Kernel\\Excel »](class.vtiful-kernel-excel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XLSWriter](book.xlswriter.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

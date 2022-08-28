@@ -1,63 +1,70 @@
-- [« Функції TCP](ref.tcpwrap.md)
-- [Varnish »](book.varnish.md)
+Проводить перевірку tcpwrap
 
-- [PHP Manual](index.md)
-- [Функції TCP](ref.tcpwrap.md)
-- Проводить перевірку tcpwrap
+-   [« Функции TCP](ref.tcpwrap.html)
+    
+-   [Varnish »](book.varnish.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции TCP](ref.tcpwrap.html)
+    
+-   Проводить перевірку tcpwrap
+    
 
-#tcpwrap_check
+# tcpwrapcheck
 
-(PECL tcpwrap \>= 0.1.0)
+(PECL tcpwrap >= 0.1.0)
 
-tcpwrap_check — Перевіряє tcpwrap
+tcpwrapcheck — Проводить перевірку tcpwrap
 
 ### Опис
 
-**tcpwrap_check**(
-string `$daemon`,
-string `$address`,
-string `$user` = ?,
-bool `$nodns` = **`false`**
-): bool
+```methodsynopsis
+tcpwrap_check(    string $daemon,    string $address,    string $user = ?,    bool $nodns = false): bool
+```
 
-Функція звіряється з файлами `/etc/hosts.allow` та `/etc/hosts.deny` для
-перевірки, можна чи не можна дати доступ клієнту до демона `daemon`.
+Функція звіряється з файлами /etc/hosts.allow та /etc/hosts.deny для перевірки, чи можна чи не можна дати доступ клієнту до демона `daemon`
 
 ### Список параметрів
 
 `daemon`
+
 Ім'я Сервісу.
 
 `address`
-Адреса клієнта. Може бути як доменне ім'я, так і IP-адресою.
+
+Адреса клієнта. Може бути як доменним ім'ям, так і IP-адресою.
 
 `user`
+
 Необов'язкове ім'я користувача.
 
 `nodns`
-Якщо адреса `address` виглядає як доменне ім'я, то робиться запит до
-DNS для визначення його IP-адреси. Для блокування такої поведінки
-встановіть `nodns` у значення **`true`**.
+
+Якщо адреса `address` виглядає як доменне ім'я, то робиться запит до DNS для визначення його IP-адреси. Для блокування такої поведінки встановіть `nodns` на значення **`true`**
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо доступ дозволено і **`false`**, якщо ні.
+Повертає **`true`**, якщо доступ дозволено та **`false`**, якщо ні.
 
 ### Приклади
 
 **Приклад #1 Заборона всіх з'єднань з локального хоста**
 
-Якщо `/etc/hosts.deny` є запис:
+Якщо у /etc/hosts.deny є запис:
 
-``` examplescode
 php: 127.0.0.1
-````
 
 І ваш код виглядає якось так:
 
-` <?phpif (!tcpwrap_check('php', $_SERVER['REMOTE_ADDR'])) { die('Вас тут не ждуть');}?> `
+```php
+<?php
+if (!tcpwrap_check('php', $_SERVER['REMOTE_ADDR'])) {
+  die('Вас тут не ждут');
+}
+?>
+```
 
 ### Дивіться також
 
-Для більш детальної інформації зверніться до документації
-hosts_access(3).
+Для отримання більш детальної інформації зверніться до документації по hostsaccess(3).

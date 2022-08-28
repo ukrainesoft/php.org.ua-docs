@@ -1,19 +1,27 @@
-- [«Gmagick::enhanceimage](gmagick.enhanceimage.md)
-- [Gmagick::flipimage »](gmagick.flipimage.md)
+Вирівнює гістограму зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Вирівнює гістограму зображення
+-   [« Gmagick::enhanceimage](gmagick.enhanceimage.html)
+    
+-   [Gmagick::flipimage »](gmagick.flipimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Вирівнює гістограму зображення
+    
 
 # Gmagick::equalizeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::equalizeimage — Вирівнює гістограму зображення
 
 ### Опис
 
-public **Gmagick::equalizeimage**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::equalizeimage(): Gmagick
+```
 
 Вирівнює гістограму зображення.
 
@@ -23,7 +31,7 @@ public **Gmagick::equalizeimage**(): [Gmagick](class.gmagick.md)
 
 ### Значення, що повертаються
 
-Вирівняний об'єкт [Gmagick](class.gmagick.md).
+Вирівняний об'єкт [Gmagick](class.gmagick.html)
 
 ### Помилки
 

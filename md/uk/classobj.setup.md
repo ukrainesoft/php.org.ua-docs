@@ -1,15 +1,21 @@
-- [«Вступ](intro.classobj.md)
-- [Вимоги »](classobj.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Класи та об'єкти](book.classobj.md)
+-   [« Введение](intro.classobj.html)
+    
+-   [Требования »](classobj.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Классы и объекты](book.classobj.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](classobj.requirements.md)
-- [Установка](classobj.installation.md)
-- [Налаштування під час виконання](classobj.configuration.md)
-- [Типи ресурсів](classobj.resources.md)
+-   [Требования](classobj.requirements.html)
+-   [Установка](classobj.installation.html)
+-   [Настройка во время выполнения](classobj.configuration.html)
+-   [Типы ресурсов](classobj.resources.html)

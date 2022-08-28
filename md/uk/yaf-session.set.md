@@ -1,24 +1,31 @@
-- [« Yaf_Session::rewind](yaf-session.rewind.md)
-- [Yaf_Session::start »](yaf-session.start.md)
+Призначення set
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення \_\_set
+-   [« Yaf\_Session::rewind](yaf-session.rewind.html)
+    
+-   [Yaf\_Session::start »](yaf-session.start.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення set
+    
 
-# Yaf_Session::\_\_set
+# YafSession::set
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::\_\_set - Призначення \_\_set
+YafSession::set - Призначення set
 
 ### Опис
 
-public **Yaf_Session::\_\_set**(string `$name`, string `$value`): void
+```methodsynopsis
+public Yaf_Session::__set(string $name, string $value): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

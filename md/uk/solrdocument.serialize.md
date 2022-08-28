@@ -1,21 +1,29 @@
-- [«SolrDocument::rewind](solrdocument.rewind.md)
-- [SolrDocument::\_\_set »](solrdocument.set.md)
+Використовується для серіалізації користувача
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Використовується для серіалізації користувача
+-   [« SolrDocument::rewind](solrdocument.rewind.html)
+    
+-   [SolrDocument::\_\_set »](solrdocument.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Використовується для серіалізації користувача
+    
 
 # SolrDocument::serialize
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::serialize — Використовується для серіалізації користувача.
 
 ### Опис
 
-public **SolrDocument::serialize**(): string
+```methodsynopsis
+public SolrDocument::serialize(): string
+```
 
-Використовується для серіалізації.
+Використовується для серіалізації користувача.
 
 ### Список параметрів
 
@@ -23,4 +31,4 @@ public **SolrDocument::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, що надає серіалізований документ Solr.
+Повертає рядок, який представляє серіалізований документ Solr.

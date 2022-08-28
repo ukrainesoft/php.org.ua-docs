@@ -1,40 +1,46 @@
-- [« trader_cdllongleggeddoji](function.trader-cdllongleggeddoji.md)
-- [trader_cdlmarubozu »](function.trader-cdlmarubozu.md)
+Свічкова модель "Довга свічка"
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Свічкова модель "Довга свічка"
+-   [« trader\_cdllongleggeddoji](function.trader-cdllongleggeddoji.html)
+    
+-   [trader\_cdlmarubozu »](function.trader-cdlmarubozu.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Свічкова модель "Довга свічка"
+    
 
-#trader_cdllongline
+# tradercdllongline
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdllongline - Свічкова модель "Довга свічка"
+tradercdllongline - Свічкова модель "Довга свічка"
 
 ### Опис
 
-**trader_cdllongline**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdllongline(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

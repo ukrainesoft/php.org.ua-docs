@@ -1,81 +1,113 @@
-- [« DateInterval::createFromDateString](dateinterval.createfromdatestring.md)
-- [DatePeriod »](class.dateperiod.md)
+Форматує інтервал
 
-- [PHP Manual](index.md)
-- [DateInterval](class.dateinterval.md)
-- Форматує інтервал
+-   [« DateInterval::createFromDateString](dateinterval.createfromdatestring.html)
+    
+-   [DatePeriod »](class.dateperiod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateInterval](class.dateinterval.html)
+    
+-   Форматує інтервал
+    
 
 # DateInterval::format
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 DateInterval::format — Форматує інтервал
 
 ### Опис
 
-public **DateInterval::format**(string `$format`): string
+```methodsynopsis
+public DateInterval::format(string $format): string
+```
 
 Форматує інтервал.
 
 ### Список параметрів
 
 `format`
-**У рядку `format` розпізнаються такі символи. Кожному такому
-символу повинен передувати знак відсотка (`%`).**
 
-Символ у рядку `format`
+**У рядку `format` розпізнаються такі символи. Кожному такому символу має передувати знак відсотка (`%`** Символ у рядку`format` Опис Приклад значення `%` Символ `%` `%` `Y` Роки, число, щонайменше дві цифри з провідними нулями `01` `03` `y` Роки, число `1` `3` `M` Місяці, число, щонайменше дві цифри з провідними нулями `01` `03` `12` `m` Місяці, число `1` `3` `12` `D` Дні, число, мінімум дві цифри з провідними нулями `01` `03` `31` `d` Дні, число `1` `3` `31` `a` Загальна кількість днів як результат виконання [DateTime::diff()](datetime.diff.html), або `unknown` `4` `18` `8123` `H` Годинник, число, мінімум дві цифри з провідними нулями `01` `03` `23` `h` Годинник, число `1` `3` `23` `I` Хвилини, число, щонайменше дві цифри з провідними нулями `01` `03` `59` `i` Хвилини, число `1` `3` `59` `S` Секунди, число, щонайменше дві цифри з провідними нулями `01` `03` `57` `s` Секунди, число `1` `3` `57` `F` Мікросекунди, число як мінімум 6 цифр з ведучим 0 `007701` `052738` `428291` `f` Мікросекунди, число `7701` `52738` `428291` `R` Знак`-`"при негативному числі,"`+`при позитивному `-` `+` `r` Знак`-`при негативному числі, порожньо при позитивному `-`
 
 ### Значення, що повертаються
 
 Повертає відформатований інтервал.
 
-### Список змін
+### список змін
 
-| Версія | Опис                              |
-|--------|-----------------------------------|
-| 7.1.0  | Додані форматуючі символи F та f. |
+| Версия | Описание |
+| --- | --- |
+|  | Додані символи, що форматують. `F` і `f` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[DateInterval](class.dateinterval.md)**
+**Приклад #1 Приклад використання [DateInterval](class.dateinterval.html)**
 
-` <?php$interval = new DateInterval('P2Y4DT6H8M');echo $interval->format('%d days');?> `
+```php
+<?php
 
-Результат виконання цього прикладу:
+$interval = new DateInterval('P2Y4DT6H8M');
+echo $interval->format('%d days');
 
-4 дні
-
-**Приклад #2 [DateInterval](class.dateinterval.md) та перенесення одиниць**
-
-` <?php$interval = new DateInterval('P32D');echo $interval->format('%d days');?> `
+?>
+```
 
 Результат виконання цього прикладу:
 
-32 дні
+```
+4 days
+```
 
-**Приклад #3 [DateInterval](class.dateinterval.md) та
-[DateTime::diff()](datetime.diff.md) з модифікаторами %a та %d**
+**Приклад #2 [DateInterval](class.dateinterval.html) та перенесення одиниць**
 
-` <?php$january = new DateTime('2010-01-01');$february = new DateTime('2010-02-01');$interval = $february->diff($january);// % a виведе загальну кількість днів.echo $interval->format('%a total days')."
-";// У то час як %d виведе тільки число днів, не покритих місяцемecho $interval->format('%m month, %d days');?> `
+```php
+<?php
+
+$interval = new DateInterval('P32D');
+echo $interval->format('%d days');
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
+32 days
+```
+
+**Приклад #3 [DateInterval](class.dateinterval.html) і [DateTime::diff()](datetime.diff.html) з модифікаторами %a та %d**
+
+```php
+<?php
+
+$january = new DateTime('2010-01-01');
+$february = new DateTime('2010-02-01');
+$interval = $february->diff($january);
+
+// %a выведет общее количество дней.
+echo $interval->format('%a total days')."\n";
+
+// В то время как %d выведет только число дней, не покрытых месяцем
+echo $interval->format('%m month, %d days');
+
+?>
+```
+
+Результат виконання цього прикладу:
+
+```
 31 total days
-1 місяць, 0 днів
+1 month, 0 days
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Метод **DateInterval::format()** не робить перерахунку та перенесення одиниць
-> час при переповненні значень дат. Це очікувана поведінка,
-> оскільки неможливо реалізувати перенесення при значеннях, наприклад,
-> ``32 дні'`, які можуть інтерпретуватися по-різному, починаючи
-> `"1 місяць і 4 дні"` та закінчуючи `"1 місяць та 1 день"`.
+> **Зауваження**
+> 
+> Метод **DateInterval::format()** не робить перерахунку та перенесення одиниць часу при переповненні значень дат. Це очікувана поведінка, оскільки неможливо реалізувати перенесення при значеннях, наприклад, `"32 дня"`, які можуть інтерпретуватися по-різному, починаючи `"1 месяц и 4 дня"` та закінчуючи `"1 месяц и 1 день"`
 
 ### Дивіться також
 
-- [DateTime::diff()](datetime.diff.md) - Повертає різницю між
-двома об'єктами DateTime
+-   [DateTime::diff()](datetime.diff.html) - Повертає різницю між двома об'єктами DateTime

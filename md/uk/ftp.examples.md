@@ -1,12 +1,18 @@
-- [«Зумовлені константи](ftp.constants.md)
-- [Просте використання»](ftp.examples-basic.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [FTP](book.ftp.md)
-- Приклади
+-   [« Предопределённые константы](ftp.constants.html)
+    
+-   [Простое использование »](ftp.examples-basic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FTP](book.ftp.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Просте використання](ftp.examples-basic.md)
+-   [Простое использование](ftp.examples-basic.html)

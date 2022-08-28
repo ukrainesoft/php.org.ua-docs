@@ -1,22 +1,27 @@
-- [« MongoDB\Driver\Monitoring\ServerChangedEvent::getPreviousDescription](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent »](class.mongodb-driver-monitoring-serverclosedevent.md)
+Повертає ідентифікатор топології, пов'язаний із цим сервером
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
-- Повертає ідентифікатор топології, пов'язаний із цим сервером
+-   [« MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPreviousDescription](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent »](class.mongodb-driver-monitoring-serverclosedevent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.html)
+    
+-   Повертає ідентифікатор топології, пов'язаний із цим сервером
+    
 
-# MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId
+# MongoDBDriverMonitoringServerChangedEvent::getTopologyId
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId — Повертає
-ідентифікатор топології, пов'язаний із цим сервером
+MongoDBDriverMonitoringServerChangedEvent::getTopologyId — Повертає ідентифікатор топології, пов'язаний із цим сервером
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId**():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId(): MongoDB\BSON\ObjectId
+```
 
 ### Список параметрів
 
@@ -28,5 +33,4 @@ final public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

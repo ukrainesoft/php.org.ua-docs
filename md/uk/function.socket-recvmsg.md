@@ -1,25 +1,31 @@
-- [«socket_recvfrom](function.socket-recvfrom.md)
-- [socket_select »](function.socket-select.md)
+Прочитати повідомлення
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Прочитати повідомлення
+-   [« socket\_recvfrom](function.socket-recvfrom.html)
+    
+-   [socket\_select »](function.socket-select.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Прочитати повідомлення
+    
 
-# socket_recvmsg
+# socketrecvmsg
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-socket_recvmsg — Прочитати повідомлення
+socketrecvmsg — Прочитати повідомлення
 
 ### Опис
 
-**socket_recvmsg**([Socket](class.socket.md) `$socket`, array
-`&$message`, int `$flags` = 0): int\|false
+```methodsynopsis
+socket_recvmsg(Socket $socket, array &$message, int $flags = 0): int|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -31,15 +37,13 @@ socket_recvmsg — Прочитати повідомлення
 
 ### Значення, що повертаються
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-|--------|-----------------------------------------------------------------------------------------|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_sendmsg()](function.socket-sendmsg.md) - Надіслати
-повідомлення
-- [socket_cmsg_space()](function.socket-cmsg-space.md) - Обчислити
-розмір буфера повідомлення
+-   [socket\_sendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення
+-   [socket\_cmsg\_space()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення

@@ -1,73 +1,65 @@
-- [« CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.md)
-- [ColumnResult::\_\_construct »](mysql-xdevapi-columnresult.construct.md)
+Клас ColumnResult
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас ColumnResult
+-   [« CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.html)
+    
+-   [ColumnResult::\_\_construct »](mysql-xdevapi-columnresult.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас ColumnResult
+    
 
 # Клас ColumnResult
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\ColumnResult** {
+```classsynopsis
 
-/\* Методи \*/
 
-public **getCharacterSetName**(): string
 
-public **getCollationName**(): string
+    
+     
+      class mysql_xdevapi\ColumnResult
+     
+     {
 
-public **getColumnLabel**(): string
 
-public **getColumnName**(): string
+    /* Методы */
+    
+   public getCharacterSetName(): string
+public getCollationName(): string
+public getColumnLabel(): string
+public getColumnName(): string
+public getFractionalDigits(): int
+public getLength(): int
+public getSchemaName(): string
+public getTableLabel(): string
+public getTableName(): string
+public getType(): int
+public isNumberSigned(): int
+public isPadded(): int
 
-public **getFractionalDigits**(): int
-
-public **getLength**(): int
-
-public **getSchemaName**(): string
-
-public **getTableLabel**(): string
-
-public **getTableName**(): string
-
-public **getType**(): int
-
-public **isNumberSigned**(): int
-
-public **isPadded**(): int
-
-}
+   }
+```
 
 ## Зміст
 
-- [ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.md)
-- Конструктор класу ColumnResult
-- [ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.md)
-— Отримує набір символів
-- [ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.md)
-— Отримує ім'я зіставлення
-- [ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.md)
-— Отримує мітку стовпця
-- [ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.md)
-— Отримує назву стовпця
-- [ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.md)
-— Отримує дрібну довжину цифри
-- [ColumnResult::getLength](mysql-xdevapi-columnresult.getlength.md)
-— Отримує довжину поля стовпця
-- [ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.md)
-— Отримує назву схеми
-- [ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.md)
-— Отримує мітку таблиці
-- [ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.md)
-— Отримує назву таблиці
-- [ColumnResult::getType](mysql-xdevapi-columnresult.gettype.md)
-Отримує тип стовпця
-- [ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.md)
-— Перевіряє, чи є тип підписаним
-- [ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.md)
-Перевіряє, чи доповнюється
+-   [ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.html) - Конструктор класу ColumnResult
+-   [ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.html) — Отримує набір символів
+-   [ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.html) — Отримує ім'я зіставлення
+-   [ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.html) — Отримує мітку стовпця
+-   [ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.html) — Отримує назву стовпця
+-   [ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.html) — Отримує дрібну довжину цифри
+-   [ColumnResult::getLength](mysql-xdevapi-columnresult.getlength.html) — Отримує довжину поля стовпця
+-   [ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.html) — Отримує назву схеми
+-   [ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.html) — Отримує мітку таблиці
+-   [ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.html) — Отримує назву таблиці
+-   [ColumnResult::getType](mysql-xdevapi-columnresult.gettype.html) — Отримує тип стовпця
+-   [ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.html) — Перевіряє, чи є тип підписаним
+-   [ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.html) — Перевіряє, чи доповнюється

@@ -1,119 +1,130 @@
-- [« DateInterval::format](dateinterval.format.md)
-- [DatePeriod::\_\_construct »](dateperiod.construct.md)
+Клас DatePeriod
 
-- [PHP Manual](index.md)
-- [Дата/час](book.datetime.md)
-- Клас DatePeriod
+-   [« DateInterval::format](dateinterval.format.html)
+    
+-   [DatePeriod::\_\_construct »](dateperiod.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Дата/время](book.datetime.html)
+    
+-   Клас DatePeriod
+    
 
 # Клас DatePeriod
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
 Представляє тимчасовий період.
 
-Дозволяє переміщатися в заданому часовому інтервалі на рівні
-проміжки часу.
+Дозволяє переміщатися в заданому часовому інтервалі на рівні проміжки часу.
 
 ## Огляд класів
 
-class **DatePeriod** implements
-[IteratorAggregate](class.iteratoraggregate.md) {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `EXCLUDE_START_DATE` = 1;
+    
+     
+      class DatePeriod
+     
 
-/\* Властивості \*/
+     implements 
+       IteratorAggregate {
 
-public int `$recurrences`;
+    /* Константы */
+    
+     const
+     int
+      EXCLUDE_START_DATE = 1;
 
-public bool `$include_start_date`;
 
-public [DateTimeInterface](class.datetimeinterface.md) `$start`;
+    /* Свойства */
+    public
+     int
+      $recurrences;
 
-public [DateTimeInterface](class.datetimeinterface.md) `$current`;
+    public
+     bool
+      $include_start_date;
 
-public [DateTimeInterface](class.datetimeinterface.md) `$end`;
+    public
+     DateTimeInterface
+      $start;
 
-public [DateInterval](class.dateinterval.md) `$interval`;
+    public
+     DateTimeInterface
+      $current;
 
-/\* Методи \*/
+    public
+     DateTimeInterface
+      $end;
 
-public [\_\_construct](dateperiod.construct.md)(
-[DateTimeInterface](class.datetimeinterface.md) `$start`,
-[DateInterval](class.dateinterval.md) `$interval`,
-int `$recurrences`,
-int `$options` = 0
-)
+    public
+     DateInterval
+      $interval;
 
-public [\_\_construct](dateperiod.construct.md)(
-[DateTimeInterface](class.datetimeinterface.md) `$start`,
-[DateInterval](class.dateinterval.md) `$interval`,
-[DateTimeInterface](class.datetimeinterface.md) `$end`,
-int `$options` = 0
-)
 
-public [\_\_construct](dateperiod.construct.md)(string `$isostr`, int
-`$options` = 0)
+    /* Методы */
+    
+   public __construct(    DateTimeInterface $start,    DateInterval $interval,    int $recurrences,    int $options = 0)
+public __construct(    DateTimeInterface $start,    DateInterval $interval,    DateTimeInterface $end,    int $options = 0)
+public __construct(string $isostr, int $options = 0)
 
-public [getDateInterval](dateperiod.getdateinterval.md)():
-[DateInterval](class.dateinterval.md)
+    public getDateInterval(): DateInterval
+public getEndDate(): ?DateTimeInterface
+public getRecurrences(): ?int
+public getStartDate(): DateTimeInterface
 
-public [getEndDate](dateperiod.getenddate.md)():
-?[DateTimeInterface](class.datetimeinterface.md)
+   }
+```
 
-public [getRecurrences](dateperiod.getrecurrences.md)(): ?int
-
-public [getStartDate](dateperiod.getstartdate.md)():
-[DateTimeInterface](class.datetimeinterface.md)
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`DatePeriod::EXCLUDE_START_DATE`**
-Виключає початкову дату, використовується в
-[DatePeriod::\_\_construct()](dateperiod.construct.md).
+
+Виключає початкову дату, використовується в [DatePeriod::\_\_construct()](dateperiod.construct.html)
 
 ## Властивості
 
-`recurrences`
-Число повторів, якщо об'єкт **DatePeriod** створювався з явною вказівкою
-`$recurrences`. Дивіться
-[DatePeriod::getRecurrences()](dateperiod.getrecurrences.md).
+recurrences
 
-`include_start_date`
+Число повторів, якщо об'єкт **DatePeriod** створювався з явною вказівкою `$recurrences`. Дивіться [DatePeriod::getRecurrences()](dateperiod.getrecurrences.html)
+
+includestartdate
+
 Включати початкову дату в набір дат чи ні.
 
-`start`
+start
+
 Дата початку періоду.
 
-`current`
+current
+
 У процесі ітерації міститиме поточну дату періоду.
 
-`end`
+end
+
 Кінцева дата періоду.
 
-`interval`
-Специфікація інтервалу, що повторюється, згідно ISO 8601.
+interval
 
-## Список змін
+Специфікація інтервалу, що повторюється згідно ISO 8601.
 
-| Версія | Опис                                                                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md). |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
 
 ## Зміст
 
-- [DatePeriod::\_\_construct](dateperiod.construct.md) - Створює
-новий об'єкт DatePeriod
-- [DatePeriod::getDateInterval](dateperiod.getdateinterval.md) -
-Повертає інтервал
-- [DatePeriod::getEndDate](dateperiod.getenddate.md) - Повертає
-кінцеву дату періоду
-- [DatePeriod::getRecurrences](dateperiod.getrecurrences.md) -
-Отримує кількість повторів
-- [DatePeriod::getStartDate](dateperiod.getstartdate.md) -
-Повертає початкову дату періоду
+-   [DatePeriod::\_\_construct](dateperiod.construct.html) — Створює новий об'єкт DatePeriod
+-   [DatePeriod::getDateInterval](dateperiod.getdateinterval.html) - Повертає інтервал
+-   [DatePeriod::getEndDate](dateperiod.getenddate.html) — Повертає кінцеву дату періоду
+-   [DatePeriod::getRecurrences](dateperiod.getrecurrences.html) — Отримує кількість повторів
+-   [DatePeriod::getStartDate](dateperiod.getstartdate.html) — Повертає початкову дату періоду

@@ -1,31 +1,36 @@
-- [« SolrQuery::setTermsPrefix](solrquery.settermsprefix.md)
-- [SolrQuery::setTermsSort »](solrquery.settermssort.md)
+Повернути необроблені символи проіндексованого виразу
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повернути необроблені символи проіндексованого виразу
+-   [« SolrQuery::setTermsPrefix](solrquery.settermsprefix.html)
+    
+-   [SolrQuery::setTermsSort »](solrquery.settermssort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повернути необроблені символи проіндексованого виразу
+    
 
 # SolrQuery::setTermsReturnRaw
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setTermsReturnRaw — Повернути необроблені символи
-проіндексованого виразу
+SolrQuery::setTermsReturnRaw — Повернути необроблені символи проіндексованого виразу
 
 ### Опис
 
-public **SolrQuery::setTermsReturnRaw**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTermsReturnRaw(bool $flag): SolrQuery
+```
 
-Якщо true, повертає необроблені символи проіндексованого
-вирази, незалежно від того, чи людиночитані вони.
+Якщо true, повертає необроблені символи проіндексованого виразу, незалежно від того, чи людиночитані вони.
 
 ### Список параметрів
 
 `value`
-**`true`** or **`false`**
+
+**`true`** ор **`false`**
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](varnish.configuration.md)
-- [Предвизначені константи »](varnish.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](varnish.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](varnish.configuration.html)
+    
+-   [Предопределённые константы »](varnish.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](varnish.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

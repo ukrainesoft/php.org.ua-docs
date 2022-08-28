@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](opcache.setup.md)
-- [Встановлення »](opcache.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](opcache.setup.md)
-- Вимоги
+-   [« Установка и настройка](opcache.setup.html)
+    
+-   [Установка »](opcache.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](opcache.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](gearman.configuration.md)
-- [Предвизначені константи »](gearman.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gearman.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](gearman.configuration.html)
+    
+-   [Предопределённые константы »](gearman.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](gearman.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

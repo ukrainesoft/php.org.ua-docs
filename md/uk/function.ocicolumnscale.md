@@ -1,22 +1,26 @@
-- [« ocicolumnprecision](function.ocicolumnprecision.md)
-- [ocicolumnsize »](function.ocicolumnsize.md)
+Псевдонім ocifieldscale
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_field_scale
+-   [« ocicolumnprecision](function.ocicolumnprecision.html)
+    
+-   [ocicolumnsize »](function.ocicolumnsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ocifieldscale
+    
 
 # ocicolumnscale
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnscale - Псевдонім
-[oci_field_scale()](function.oci-field-scale.md)
+ocicolumnscale - Псевдонім [oci\_field\_scale()](function.oci-field-scale.html)
 
 ### Опис
 
-Псевдонім [oci_field_scale()](function.oci-field-scale.md)
+Псевдонім [oci\_field\_scale()](function.oci-field-scale.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

@@ -1,23 +1,29 @@
-- [« Gmagick::medianfilterimage](gmagick.medianfilterimage.md)
-- [Gmagick::modulateimage »](gmagick.modulateimage.md)
+Масштабує зображення пропорційно половині його розміру
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Масштабує зображення пропорційно половині його розміру
+-   [« Gmagick::medianfilterimage](gmagick.medianfilterimage.html)
+    
+-   [Gmagick::modulateimage »](gmagick.modulateimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Масштабує зображення пропорційно половині його розміру
+    
 
 # Gmagick::minifyimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::minifyimage — Масштабує зображення пропорційно половині
-його розміру
+Gmagick::minifyimage — Масштабує зображення пропорційно до половини його розміру.
 
 ### Опис
 
-public **Gmagick::minifyimage**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::minifyimage(): Gmagick
+```
 
-Метод масштабування зображення пропорційно половині вихідного
-розміру.
+Метод масштабування зображення пропорційно половині вихідного розміру.
 
 ### Список параметрів
 
@@ -25,7 +31,7 @@ public **Gmagick::minifyimage**(): [Gmagick](class.gmagick.md)
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання
 
 ### Помилки
 

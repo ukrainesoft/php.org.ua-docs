@@ -1,16 +1,22 @@
-- [«debug_zval_dump](function.debug-zval-dump.md)
-- [empty »](function.empty.md)
+Псевдонім floatval
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Псевдонім floatval
+-   [« debug\_zval\_dump](function.debug-zval-dump.html)
+    
+-   [empty »](function.empty.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Псевдонім floatval
+    
 
 # doubleval
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-doubleval - Псевдонім [floatval()](function.floatval.md)
+doubleval - Псевдонім [floatval()](function.floatval.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [floatval()](function.floatval.md).
+Ця функція є псевдонімом: [floatval()](function.floatval.html)

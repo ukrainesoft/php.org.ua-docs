@@ -1,21 +1,29 @@
-- [« SplDoublyLinkedList::pop](spldoublylinkedlist.pop.md)
-- [SplDoublyLinkedList::push »](spldoublylinkedlist.push.md)
+Переміщує ітератор до попереднього елемента
 
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Переміщує ітератор до попереднього елементу
+-   [« SplDoublyLinkedList::pop](spldoublylinkedlist.pop.html)
+    
+-   [SplDoublyLinkedList::push »](spldoublylinkedlist.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+    
+-   Переміщує ітератор до попереднього елемента
+    
 
 # SplDoublyLinkedList::prev
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::prev — Переміщення ітератора до попереднього елемента
+SplDoublyLinkedList::prev — Переміщує ітератор до попереднього елемента
 
 ### Опис
 
-public **SplDoublyLinkedList::prev**(): void
+```methodsynopsis
+public SplDoublyLinkedList::prev(): void
+```
 
-Переміщує ітератор до попереднього вузла.
+Переміщує ітератор до попереднього сайту.
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« Imagick::getNumberImages](imagick.getnumberimages.md)
-- [Imagick::getPackageName »](imagick.getpackagename.md)
+Повертає значення, пов'язане із зазначеним ключем
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає значення, пов'язане із зазначеним ключем
+-   [« Imagick::getNumberImages](imagick.getnumberimages.html)
+    
+-   [Imagick::getPackageName »](imagick.getpackagename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає значення, пов'язане із зазначеним ключем
+    
 
 # Imagick::getOption
 
@@ -13,13 +19,16 @@ Imagick::getOption — Повертає значення, пов'язане із
 
 ### Опис
 
-public **Imagick::getOption**(string `$key`): string
+```methodsynopsis
+public Imagick::getOption(string $key): string
+```
 
-Повертає значення, пов'язане з об'єктом зазначеного ключа.
+Повертає значення, пов'язане з об'єктом для зазначеного ключа.
 
 ### Список параметрів
 
 `key`
+
 Назва опції.
 
 ### Значення, що повертаються

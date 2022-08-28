@@ -1,43 +1,45 @@
-- [«ps_close_image](function.ps-close-image.md)
-- [ps_closepath_stroke »](function.ps-closepath-stroke.md)
+Закриває документ PostScript
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Закриває документ PostScript
+-   [« ps\_close\_image](function.ps-close-image.html)
+    
+-   [ps\_closepath\_stroke »](function.ps-closepath-stroke.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Закриває документ PostScript
+    
 
-#ps_close
+# псclose
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_close — Закриває документ PostScript
+псclose — Закриває документ PostScript
 
 ### Опис
 
-**ps_close**(resource `$psdoc`): bool
+```methodsynopsis
+ps_close(resource $psdoc): bool
+```
 
 Закриває документ PostScript.
 
-Функція записує кількість сторінок у документі PostScript. Вона також
-записує ієрархію закладок. **ps_close()** не звільняє ресурси, як
-[ps_delete()](function.ps-delete.md).
+Функція записує кількість сторінок у документі PostScript. Вона також записує ієрархію закладок . **псclose()** не звільняє ресурси, як [ps\_delete()](function.ps-delete.html)
 
-Функція також викликається функцією
-[ps_delete()](function.ps-delete.md), якщо вона не була викликана раніше.
+Функція також викликається функцією [ps\_delete()](function.ps-delete.html)якщо вона не була викликана раніше.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_open_file()](function.ps-open-file.md) - Відкриває файл для
-висновку
-- [ps_delete()](function.ps-delete.md) - Видаляє всі ресурси
-документа PostScript
+-   [ps\_open\_file()](function.ps-open-file.html) - Відкриває файл для виводу
+-   [ps\_delete()](function.ps-delete.html) - Видаляє всі ресурси документа PostScript

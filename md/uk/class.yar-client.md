@@ -1,11 +1,17 @@
-- [« Yar_Server::handle](yar-server.handle.md)
-- [Yar_Client::\_\_call »](yar-client.call.md)
+Клас YarClient
 
-- [PHP Manual](index.md)
-- [Yar](book.yar.md)
-- Клас Yar_Client
+-   [« Yar\_Server::handle](yar-server.handle.html)
+    
+-   [Yar\_Client::\_\_call »](yar-client.call.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yar](book.yar.html)
+    
+-   Клас YarClient
+    
 
-# Клас Yar_Client
+# Клас YarClient
 
 (No version information available, might only be in Git)
 
@@ -13,46 +19,53 @@
 
 ## Огляд класів
 
-class **Yar_Client** {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_protocol`;
+    
+    
+     
+      class Yar_Client
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $_protocol;
 
-protected `$_uri`;
+    protected
+      $_uri;
 
-protected `$_options`;
+    protected
+      $_options;
 
-protected `$_running`;
+    protected
+      $_running;
 
-/\* Методи \*/
 
-public [\_\_call](yar-client.call.md)(string `$method`, array
-`$parameters`): void
 
-final public [\_\_construct](yar-client.construct.md)(string `$url`,
-array `$options` = ?)
+    /* Методы */
+    
+   public __call(string $method, array $parameters): void
+final public __construct(string $url, array $options = ?)
+public setOpt(int $name, mixed $value): Yar_Client|false
 
-public [setOpt](yar-client.setopt.md)(int `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): [Yar_Client](class.yar-client.md)\|false
-
-}
+   }
+```
 
 ## Властивості
 
-`_protocol`
+protocol
 
-`_uri`
+uri
 
-`_options`
+options
 
-`_running`
+running
 
 ## Зміст
 
-- [Yar_Client::\_\_call](yar-client.call.md) - Виклик сервісу
-- [Yar_Client::\_\_construct](yar-client.construct.md) - Конструктор
-Yar_Client
-- [Yar_Client::setOpt](yar-client.setopt.md) — Задати контекст
-виклику
+-   [Yar\_Client::\_\_call](yar-client.call.html) - Виклик сервісу
+-   [Yar\_Client::\_\_construct](yar-client.construct.html) - Конструктор YarClient
+-   [Yar\_Client::setOpt](yar-client.setopt.html) — Задати контекст дзвінка

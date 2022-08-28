@@ -1,35 +1,40 @@
-- [« Типи ресурсів](expect.resources.md)
-- [Приклади »](expect.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Expect](book.expect.md)
-- Обумовлені константи
+-   [« Типы ресурсов](expect.resources.html)
+    
+-   [Примеры »](expect.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Expect](book.expect.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
 **`EXP_GLOB`** (int)
-Вказує, що шаблон є шаблон пошуку файлу (glob).
+
+Вказує на те, що шаблон є шаблоном пошуку файлу (glob).
 
 **`EXP_EXACT`** (int)
+
 Вказує, що шаблон є точним рядком.
 
 **`EXP_REGEXP`** (int)
-Вказує на те, що шаблон є регулярним виразом.
+
+Вказує, що шаблон є регулярним виразом.
 
 **`EXP_EOF`** (int)
-Значення, яке повертається [expect_expectl()](function.expect-expectl.md),
-коли досягнуто кінець файлу.
+
+Значення, що повертається [expect\_expectl()](function.expect-expectl.html), коли досягнуто кінець файлу.
 
 **`EXP_TIMEOUT`** (int)
-Значення, яке повертається [expect_expectl()](function.expect-expectl.md)
-після вичерпання часу очікування, заданого в
-[expect.timeout](expect.configuration.md#ini.expect.timeout)
+
+Значення, що повертається [expect\_expectl()](function.expect-expectl.html) після вичерпання часу очікування, заданого в [expect.timeout](expect.configuration.html#ini.expect.timeout)
 
 **`EXP_FULLBUFFER`** (int)
-Значення, яке повертається [expect_expectl()](function.expect-expectl.md),
-коли збігів із шаблоном не знайдено.
+
+Значення, що повертається [expect\_expectl()](function.expect-expectl.html), коли збігів із шаблоном не знайдено.

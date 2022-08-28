@@ -1,21 +1,27 @@
-- [« GmagickDraw::getfontweight](gmagickdraw.getfontweight.md)
-- [GmagickDraw::getstrokeopacity »](gmagickdraw.getstrokeopacity.md)
+Повертає колір для обведення контурів об'єкта.
 
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає колір, який використовується для обведення контурів об'єкта
+-   [« GmagickDraw::getfontweight](gmagickdraw.getfontweight.html)
+    
+-   [GmagickDraw::getstrokeopacity »](gmagickdraw.getstrokeopacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GmagickDraw](class.gmagickdraw.html)
+    
+-   Повертає колір для обведення контурів об'єкта.
+    
 
 # GmagickDraw::getstrokecolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-GmagickDraw::getstrokecolor — Повертає колір, який використовується для обведення
-контурів об'єкта
+GmagickDraw::getstrokecolor — Повертає колір для обведення контурів об'єкта.
 
 ### Опис
 
-public **GmagickDraw::getstrokecolor**():
-[GmagickPixel](class.gmagickpixel.md)
+```methodsynopsis
+public GmagickDraw::getstrokecolor(): GmagickPixel
+```
 
 Повертає колір для обведення контурів об'єкта.
 
@@ -25,5 +31,4 @@ public **GmagickDraw::getstrokecolor**():
 
 ### Значення, що повертаються
 
-Повертає об'єкт [GmagickPixel](class.gmagickpixel.md), який
-описує колір.
+Повертає об'єкт [GmagickPixel](class.gmagickpixel.html)що описує колір.

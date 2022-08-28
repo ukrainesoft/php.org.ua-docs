@@ -1,9 +1,15 @@
-- [« ReflectionParameter::getType](reflectionparameter.gettype.md)
-- [ReflectionParameter::isArray »](reflectionparameter.isarray.md)
+Перевірити, чи вказано тип параметра
 
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Перевірити, чи вказано тип параметра
+-   [« ReflectionParameter::getType](reflectionparameter.gettype.html)
+    
+-   [ReflectionParameter::isArray »](reflectionparameter.isarray.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionParameter](class.reflectionparameter.html)
+    
+-   Перевірити, чи вказано тип параметра
+    
 
 # ReflectionParameter::hasType
 
@@ -13,7 +19,9 @@ ReflectionParameter::hasType — Перевірити, чи вказано ти�
 
 ### Опис
 
-public **ReflectionParameter::hasType**(): bool
+```methodsynopsis
+public ReflectionParameter::hasType(): bool
+```
 
 Перевіряє, чи вказано тип параметра.
 
@@ -23,20 +31,30 @@ public **ReflectionParameter::hasType**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо тип вказаний, **`false`**, інакше.
+**`true`**, якщо тип вказано, **`false`**, в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionParameter::hasType()****
 
-` <?phpfunction someFunction(string$param,$param2 =null) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParams =$$reflectionFunc->getParameter ));var_dump($reflectionParams[1]->hasType()); `
+```php
+<?php
+function someFunction(string $param, $param2 = null) {}
+
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
+
+var_dump($reflectionParams[0]->hasType());
+var_dump($reflectionParams[1]->hasType());
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [ReflectionParameter::getType()](reflectionparameter.gettype.md) -
-Отримати тип параметра
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра

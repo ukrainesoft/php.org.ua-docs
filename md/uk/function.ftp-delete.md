@@ -1,47 +1,72 @@
-- [«ftp_connect](function.ftp-connect.md)
-- [ftp_exec »](function.ftp-exec.md)
+Видаляє файл на FTP-сервері
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Видаляє файл на FTP-сервері
+-   [« ftp\_connect](function.ftp-connect.html)
+    
+-   [ftp\_exec »](function.ftp-exec.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Видаляє файл на FTP-сервері
+    
 
-#ftp_delete
+# ftpdelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_delete — Видалення файлу на FTP-сервері
+ftpdelete — Видалення файлу на FTP-сервері
 
 ### Опис
 
-**ftp_delete**([FTP\Connection](class.ftp-connection.md) `$ftp`,
-string `$filename`): bool
+```methodsynopsis
+ftp_delete(FTP\Connection $ftp, string $filename): bool
+```
 
-**ftp_delete()** видаляє файл, заданий аргументом `filename`, з
-FTP-сервер.
+**ftpdelete()** видаляє файл, заданий аргументом `filename`з FTP-сервера.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `filename`
+
 Видалений файл.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_delete()****
+**Приклад #1 Приклад використання **ftpdelete()****
 
-` <?php$file = 'public_html/old.txt';// установка з'єднання$ftp = ftp_connect($ftp_server);// вхід з ім'ям користувача і паролем$login_result = ftp_ ;// спроба видалити файлif (ftp_delete($ftp, $file)) { echo "Файл $file віддалений
-";} else { echo "Не удалося видалити $file
-";}// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+$file = 'public_html/old.txt';
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// попытка удалить файл
+if (ftp_delete($ftp, $file)) {
+ echo "Файл $file удалён\n";
+} else {
+ echo "Не удалось удалить $file\n";
+}
+
+// закрытие соединения
+ftp_close($ftp);
+?>
+```

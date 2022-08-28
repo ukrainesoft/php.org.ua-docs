@@ -1,26 +1,27 @@
-- [« Swoole\WebSocket\Server::on](swoole-websocket-server.on.md)
-- [Swoole\WebSocket\Server::push »](swoole-websocket-server.push.md)
+Отримання пакету двійкових даних для надсилання однієї групи даних (frame)
 
-- [PHP Manual](index.md)
-- [Swoole\WebSocket\Server](class.swoole-websocket-server.md)
-- Отримання пакета двійкових даних для надсилання в одній групі даних
-(frame)
+-   [« Swoole\\WebSocket\\Server::on](swoole-websocket-server.on.html)
+    
+-   [Swoole\\WebSocket\\Server::push »](swoole-websocket-server.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+    
+-   Отримання пакету двійкових даних для надсилання однієї групи даних (frame)
+    
 
-# Swoole\WebSocket\Server::pack
+# SwooleWebSocketServer::pack
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\WebSocket\Server::pack — Отримання пакета двійкових даних для
-відправки в одній групі даних (frame)
+SwooleWebSocketServer::pack — Отримання пакета двійкових даних для надсилання в одній групі даних (frame)
 
 ### Опис
 
-public static **Swoole\WebSocket\Server::pack**(
-string `$data`,
-string `$opcode` = ?,
-string `$finish` = ?,
-string `$mask` = ?
-): binary
+```methodsynopsis
+public static Swoole\WebSocket\Server::pack(    string $data,    string $opcode = ?,    string $finish = ?,    string $mask = ?): binary
+```
 
 ### Список параметрів
 

@@ -1,51 +1,52 @@
-- [« Imagick::linearStretchImage](imagick.linearstretchimage.md)
-- [Imagick::listRegistry »](imagick.listregistry.md)
+Анімує зображення або зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Анімує зображення або зображення
+-   [« Imagick::linearStretchImage](imagick.linearstretchimage.html)
+    
+-   [Imagick::listRegistry »](imagick.listregistry.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Анімує зображення або зображення
+    
 
 # Imagick::liquidRescaleImage
 
-(PECL imagick 2 \>= 2.2.0, PECL imagick 3)
+(PECL imagick 2> = 2.2.0, PECL imagick 3)
 
-Imagick::liquidRescaleImage — Анімація зображення або зображення
+Imagick::liquidRescaleImage — Анімує зображення або зображення
 
 ### Опис
 
-public **Imagick::liquidRescaleImage**(
-int `$width`,
-int `$height`,
-float `$delta_x`,
-float `$rigidity`
-): bool
+```methodsynopsis
+public Imagick::liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
+```
 
-Масштабує зображення за допомогою методу liquid rescaling. Він
-є реалізацією техніки seam carving. Щоб метод працював
-належним чином, ImageMagick має бути скомпільований за допомогою
-liblqr. Цей метод доступний, якщо Imagick був скомпільований з версією
-ImageMagick 6.3.9 або старше.
+Масштабує зображення за допомогою методу liquid rescaling. Він є реалізацією техніки seam carving. Щоб метод працював належним чином, ImageMagick має бути скомпільований за допомогою liblqr. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.
 
 ### Список параметрів
 
 `width`
+
 Ширина цільового розміру.
 
 `height`
+
 Висота цільового розміру.
 
 `delta_x`
-Визначає скільки шов може проходити по осі x. При передачі значення
-0 шви стають прямими.
+
+Визначає скільки шов може проходити по осі x. Під час передачі значення 0 шви стають прямими.
 
 `rigidity`
+
 Вводить ухил для непрямих швів. Цей параметр зазвичай дорівнює 0.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Дивіться також
 
-- [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує
-зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.html) - Масштабує зображення

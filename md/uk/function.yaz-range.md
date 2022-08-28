@@ -1,37 +1,44 @@
-- [« yaz_present](function.yaz-present.md)
-- [yaz_record »](function.yaz-record.md)
+Визначає діапазон записів для отримання
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Визначає діапазон записів для отримання
+-   [« yaz\_present](function.yaz-present.html)
+    
+-   [yaz\_record »](function.yaz-record.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции YAZ](ref.yaz.html)
+    
+-   Визначає діапазон записів для отримання
+    
 
-# yaz_range
+# yazrange
 
-(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
+(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
 
-yaz_range — Визначає діапазон записів для отримання
+yazrange — Визначає діапазон записів для отримання
 
 ### Опис
 
-**yaz_range**(resource `$id`, int `$start`, int `$number`): void
+```methodsynopsis
+yaz_range(resource $id, int $start, int $number): void
+```
 
 Визначає діапазон записів для отримання.
 
-Функція має бути викликана перед
-[yaz_search()](function.yaz-search.md) або
-[yaz_present()](function.yaz-present.md).
+Функція має бути викликана перед [yaz\_search()](function.yaz-search.html) або [yaz\_present()](function.yaz-present.html)
 
 ### Список параметрів
 
 `id`
-Ресурс з'єднання, повернутий
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс з'єднання, повернутий [yaz\_connect()](function.yaz-connect.html)
 
 `start`
-Визначає позицію першого запису, який потрібно отримати. Номери записів
-ідуть від 1 до [yaz_hits()](function.yaz-hits.md).
+
+Визначає позицію першого запису, який потрібно отримати. Номери записів йдуть від 1 до [yaz\_hits()](function.yaz-hits.html)
 
 `number`
+
 Визначає діапазон записів для отримання.
 
 ### Значення, що повертаються

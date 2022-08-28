@@ -1,23 +1,29 @@
-- [« MongoDB\Driver\Server::isArbiter](mongodb-driver-server.isarbiter.md)
-- [MongoDB\Driver\Server::isPassive »](mongodb-driver-server.ispassive.md)
+Перевіряє, чи сервер прихованим членом набору реплік
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Перевіряє, чи сервер прихованим членом набору реплік
+-   [« MongoDB\\Driver\\Server::isArbiter](mongodb-driver-server.isarbiter.html)
+    
+-   [MongoDB\\Driver\\Server::isPassive »](mongodb-driver-server.ispassive.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+    
+-   Перевіряє, чи сервер прихованим членом набору реплік
+    
 
-# MongoDB\Driver\Server::isHidden
+# MongoDBDriverServer::isHidden
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\Server::isHidden — Перевіряє, чи сервер прихований
-членом набору реплік
+MongoDBDriverServer::isHidden — Перевіряє, чи є сервер прихованим членом набору реплік
 
 ### Опис
 
-final public **MongoDB\Driver\Server::isHidden**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Server::isHidden(): bool
+```
 
-Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member)
-набір реплік.
+Повертає, чи є цей сервер [» скрытым членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member) набір реплік.
 
 ### Список параметрів
 
@@ -25,15 +31,12 @@ final public **MongoDB\Driver\Server::isHidden**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цей сервер є прихованим членом набору
-реплік, і **`false`** інакше.
+Повертає **`true`**, якщо цей сервер є прихованим членом набору реплік, та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

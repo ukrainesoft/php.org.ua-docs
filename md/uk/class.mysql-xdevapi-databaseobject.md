@@ -1,36 +1,46 @@
-- [« CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md)
-- [DatabaseObject::existsInDatabase »](mysql-xdevapi-databaseobject.existsindatabase.md)
+Інтерфейс DatabaseObject
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс DatabaseObject
+-   [« CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.html)
+    
+-   [DatabaseObject::existsInDatabase »](mysql-xdevapi-databaseobject.existsindatabase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Інтерфейс DatabaseObject
+    
 
 # Інтерфейс DatabaseObject
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\DatabaseObject** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **existsInDatabase**(): bool
 
-abstract public **getName**(): string
+    
+     
+      class mysql_xdevapi\DatabaseObject
+     
+     {
 
-abstract public **getSession**():
-[mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
 
-}
+    /* Методы */
+    
+   abstract public existsInDatabase(): bool
+abstract public getName(): string
+abstract public getSession(): mysql_xdevapi\Session
+
+   }
+```
 
 ## Зміст
 
-- [DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.md)
-— Перевіряє, чи існує об'єкт у базі даних
-- [DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.md)
-— Отримує ім'я об'єкта
-- [DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.md)
-— Отримує ім'я сесії
+-   [DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.html) — Перевіряє, чи існує об'єкт у базі даних
+-   [DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.html) — Отримує ім'я об'єкта
+-   [DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.html) — Отримує ім'я сесії

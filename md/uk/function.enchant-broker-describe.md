@@ -1,79 +1,94 @@
-- [« Функції Enchant](ref.enchant.md)
-- [enchant_broker_dict_exists »](function.enchant-broker-dict-exists.md)
+Перераховує провайдерів Enchant
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Перераховує провайдерів Enchant
+-   [« Функции Enchant](ref.enchant.html)
+    
+-   [enchant\_broker\_dict\_exists »](function.enchant-broker-dict-exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Перераховує провайдерів Enchant
+    
 
-#enchant_broker_describe
+# enchantbrokerdescribe
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0)
 
-enchant_broker_describe - Перераховує провайдерів Enchant
+enchantbrokerdescribe — Перераховує провайдерів Enchant
 
 ### Опис
 
-**enchant_broker_describe**([EnchantBroker](class.enchantbroker.md)
-`$broker`): array
+```methodsynopsis
+enchant_broker_describe(EnchantBroker $broker): array
+```
 
-Перераховує провайдерів Enchant та повертає мінімальну інформацію про
-них. Така сама інформація може бути отримана через phpinfo().
+Перераховує провайдерів Enchant та повертає мінімальну інформацію про них. Така сама інформація може бути отримана через phpinfo().
 
 ### Список параметрів
 
 `broker`
-Провайдер Enchant, який повертається
-[enchant_broker_init()](function.enchant-broker-init.md).
+
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 
 Повертає масив доступних провайдерів Enchant з їх даними.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                               |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | До цієї версії функція повертала **false** у разі виникнення помилки.                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 
 **Приклад #1 Список бекендів, що надаються конкретним брокером**
 
-` <?php$r = enchant_broker_init();$bprovides = enchant_broker_describe($r);echo "Брокер надає наступні бекенди:
-";print_r($bprovides);?> `
+```php
+<?php
+$r = enchant_broker_init();
+$bprovides = enchant_broker_describe($r);
+echo "Брокер предоставляет следующие бэкенды:\n";
+print_r($bprovides);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Брокер надає такі бекенди:
+```
+Брокер предоставляет следующие бэкенды:
 Array
 (
-[0] => Array
-(
-[name] => aspell
-[desc] => Aspell Provider
-[file] => /usr/lib/enchant/libenchant_aspell.so
-)
+    [0] => Array
+        (
+            [name] => aspell
+            [desc] => Aspell Provider
+            [file] => /usr/lib/enchant/libenchant_aspell.so
+        )
 
-[1] => Array
-(
-[name] => hspell
-[desc] => Hspell Provider
-[file] => /usr/lib/enchant/libenchant_hspell.so
-)
+    [1] => Array
+        (
+            [name] => hspell
+            [desc] => Hspell Provider
+            [file] => /usr/lib/enchant/libenchant_hspell.so
+        )
 
-[2] => Array
-(
-[name] => ispell
-[desc] => Ispell Provider
-[file] => /usr/lib/enchant/libenchant_ispell.so
-)
+    [2] => Array
+        (
+            [name] => ispell
+            [desc] => Ispell Provider
+            [file] => /usr/lib/enchant/libenchant_ispell.so
+        )
 
-[3] => Array
-(
-[name] => myspell
-[desc] => Myspell Provider
-[file] => /usr/lib/enchant/libenchant_myspell.so
-)
+    [3] => Array
+        (
+            [name] => myspell
+            [desc] => Myspell Provider
+            [file] => /usr/lib/enchant/libenchant_myspell.so
+        )
 
 )
+```

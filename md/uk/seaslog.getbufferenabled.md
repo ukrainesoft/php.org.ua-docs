@@ -1,24 +1,29 @@
-- [« SeasLog::getBuffer](seaslog.getbuffer.md)
-- [SeasLog::getDatetimeFormat »](seaslog.getdatetimeformat.md)
+Визначає, чи включено буфер
 
-- [PHP Manual](index.md)
-- [SeasLog](class.seaslog.md)
-- Визначає, чи увімкнено буфер
+-   [« SeasLog::getBuffer](seaslog.getbuffer.html)
+    
+-   [SeasLog::getDatetimeFormat »](seaslog.getdatetimeformat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SeasLog](class.seaslog.html)
+    
+-   Визначає, чи включено буфер
+    
 
 # SeasLog::getBufferEnabled
 
-(PECL seaslog \>=1.0.0)
+(PECL seaslog >=1.0.0)
 
-SeasLog::getBufferEnabled — Визначає, чи увімкнено буфер
+SeasLog::getBufferEnabled — Визначає, чи буфер увімкнено.
 
 ### Опис
 
-public static **SeasLog::getBufferEnabled**(): bool
+```methodsynopsis
+public static SeasLog::getBufferEnabled(): bool
+```
 
-Результат об'єднання
-[seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)
-і
-[seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli).
+Результат об'єднання [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer) і [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
 
 ### Список параметрів
 
@@ -26,30 +31,30 @@ public static **SeasLog::getBufferEnabled**(): bool
 
 ### Значення, що повертаються
 
-Повертає TRUE, якщо
-[seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)
-є true. Якщо увімкнути
-[seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)
-і запустити в cli, параметр seaslog.use_buffer буде скинутий, Seaslog
-НЕГАЙНО перезапише дані в сховищі даних.
+Повертає TRUE, якщо [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer) є true. Якщо увімкнути [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli) та запустити в cli, параметр seaslog.usebuffer буде скинутий, Seaslog НЕГАЙНО перезапише дані в сховище даних.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SeasLog::getBufferEnabled()****
 
-` <?phpvar_dump(SeasLog::getBufferEnabled());?> `
+```php
+<?php
+
+var_dump(SeasLog::getBufferEnabled());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
+```
 
 ### Дивіться також
 
-- [seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)
-- [seaslog.buffer_size](seaslog.configuration.md#ini.seaslog.buffer-size)
-- [seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)
-- [SeasLog::getBuffer()](seaslog.getbuffer.md) - Отримує буфер
-логів у пам'яті у вигляді масиву
-- [SeasLog::flushBuffer()](seaslog.flushbuffer.md) - Очищає буфер
-логів, робить дамп у файл програми або відправляє на віддалений API
-за допомогою tcp/udp
+-   [seaslog.use\_buffer](seaslog.configuration.html#ini.seaslog.use-buffer)
+-   [seaslog.buffer\_size](seaslog.configuration.html#ini.seaslog.buffer-size)
+-   [seaslog.buffer\_disabled\_in\_cli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
+-   [SeasLog::getBuffer()](seaslog.getbuffer.html) - Отримує буфер логів у пам'яті у вигляді масиву
+-   [SeasLog::flushBuffer()](seaslog.flushbuffer.html) - Очищає буфер логів, робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp

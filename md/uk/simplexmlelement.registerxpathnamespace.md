@@ -1,72 +1,94 @@
-- [« SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.md)
-- [SimpleXMLElement::saveXML »](simplexmlelement.savexml.md)
+Створює префікс/простір імен контексту для наступного запиту XPath
 
-- [PHP Manual](index.md)
-- [SimpleXMLElement](class.simplexmlelement.md)
-- Створює префікс/простір імен контексту для наступного запиту
-XPath
+-   [« SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.html)
+    
+-   [SimpleXMLElement::saveXML »](simplexmlelement.savexml.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXMLElement](class.simplexmlelement.html)
+    
+-   Створює префікс/простір імен контексту для наступного запиту XPath
+    
 
 # SimpleXMLElement::registerXPathNamespace
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SimpleXMLElement::registerXPathNamespace — Створює префікс/простір
-імен контексту для наступного запиту XPath
+SimpleXMLElement::registerXPathNamespace — Створює префікс/простір імен контексту для наступного запиту XPath
 
 ### Опис
 
-public **SimpleXMLElement::registerXPathNamespace**(string `$prefix`,
-string `$namespace`): bool
+```methodsynopsis
+public SimpleXMLElement::registerXPathNamespace(string $prefix, string $namespace): bool
+```
 
-Створює префікс/простір імен контексту для наступного запиту
-XPath. Зокрема це необхідно, якщо постачальник цього XML-документа
-змінює префікс простору імен. `registerXPathNamespace` створить
-префікс для пов'язаного простору імен, дозволяючи отримати доступ до
-вузлам у цьому просторі імен без необхідності зміни коду,
-що враховує нові префікси, надані постачальником.
+Створює префікс/простір імен контексту для наступного запиту XPath. Зокрема це необхідно, якщо постачальник цього XML-документа змінює префікс простору імен . `registerXPathNamespace` створить префікс для пов'язаного простору імен, дозволяючи отримати доступ до вузлів у цьому просторі імен без необхідності зміни коду, що враховує нові префікси, надані постачальником.
 
 ### Список параметрів
 
 `prefix`
-Префікс використовуваного простору імен у запиті XPath для отримання
-простору імен в `namespace`.
+
+Префікс використовуваного простору імен у запиті XPath для отримання простору імен `namespace`
 
 `namespace`
-Використовуваний простір імен для запиту XPath. Воно має
-відповідати простору імен у використовуваному XML-документі або
-запит XPath, який використовує `prefix` не дасть жодних результатів.
+
+Використовуваний простір імен для запиту XPath. Воно має відповідати простору імен у XML-документі або запит XPath, що використовує `prefix` не дасть жодних результатів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Встановлення префіксу простору імен для використання в
-запит XPath**
+**Приклад #1 Встановлення префіксу простору імен для використання у запиті XPath**
 
-`<?php$xml = <<<EOD<book xmlns:chap="http://example.org/chapter-title">   <title>My Book</title>   <chapter id="1">       :title>Chapter 1</chap:title>         <para>Donec velit. Nullam eget tellus vitae tortor gravida scelerisque. Inorci lorem, cursus imperdiet, ultricies non, hendrerit et, orci. Nulla facilisi. Nullam velit nisl, laoreet id, condimentum ut,            ultricies id, mauris.</para>    </chapter>    <chapter id="2">        <chap:title>Chapter 2</chap:title>        <para>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin             gravida. Phasellus tincidunt massa vel urna. Proin adipiscing quam             vitae odio. Sed dictum. Ut tincidunt lorem ac lorem. Duis eros             tellus, pharetra id, faucibus eu, dapibus dictum, odio.</para>    </chapter></book>EOD;$sxe'= http://example.org/chapter-title');$result = $sxe->xpath('//c:title');foreach ($result as $title) { echo $title . "
-";}?> `
+```php
+<?php
+
+$xml = <<<EOD
+<book xmlns:chap="http://example.org/chapter-title">
+    <title>My Book</title>
+    <chapter id="1">
+        <chap:title>Chapter 1</chap:title>
+        <para>Donec velit. Nullam eget tellus vitae tortor gravida scelerisque.
+            In orci lorem, cursus imperdiet, ultricies non, hendrerit et, orci.
+            Nulla facilisi. Nullam velit nisl, laoreet id, condimentum ut,
+            ultricies id, mauris.</para>
+    </chapter>
+    <chapter id="2">
+        <chap:title>Chapter 2</chap:title>
+        <para>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin
+            gravida. Phasellus tincidunt massa vel urna. Proin adipiscing quam
+            vitae odio. Sed dictum. Ut tincidunt lorem ac lorem. Duis eros
+            tellus, pharetra id, faucibus eu, dapibus dictum, odio.</para>
+    </chapter>
+</book>
+EOD;
+
+$sxe = new SimpleXMLElement($xml);
+
+$sxe->registerXPathNamespace('c', 'http://example.org/chapter-title');
+$result = $sxe->xpath('//c:title');
+
+foreach ($result as $title) {
+  echo $title . "\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Chapter 1
 Chapter 2
+```
 
-Зверніть увагу на те, як в прикладі XML-документа встановлюється
-простір імен із префіксом `chap`. Уявіть, що цей документ
-(або інший схожий) використав префікс `c` у минулому для одного і того
-ж простору імен. Оскільки він змінився, запит XPath більше не
-поверне правильні результати, і запит доведеться змінювати. Використання
-`registerXPathNamespace` дозволяє уникнути майбутніх модифікацій
-навіть якщо постачальник змінить префікс простору імен.
+Зверніть увагу на те, як у прикладі XML-документу встановлюється простір імен з префіксом `chap`. Уявіть, що цей документ (або інший схожий) використав префікс `c` у минулому для того самого простору імен. Так як він змінився, запит XPath більше не поверне правильних результатів і запит доведеться змінювати. Використання `registerXPathNamespace` дозволяє уникнути майбутніх модифікацій запитів, навіть якщо постачальник змінить префікс простору імен.
 
 ### Дивіться також
 
-- [SimpleXMLElement::xpath()](simplexmlelement.xpath.md) - Запускає
-запит XPath до XML-даних
-- [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) -
-Повертає простір імен, оголошених у документі
-- [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) -
-Повертає простір імен, що використовуються в документі
+-   [SimpleXMLElement::xpath()](simplexmlelement.xpath.html) - Запускає запит XPath до XML-даних
+-   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.html) - Повертає простори імен, оголошених у документі
+-   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.html) - Повертає простір імен, що використовуються в документі

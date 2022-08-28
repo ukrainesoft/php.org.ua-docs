@@ -1,40 +1,44 @@
-- [« yaz_ccl_parse](function.yaz-ccl-parse.md)
-- [yaz_connect »](function.yaz-connect.md)
+Закриває з'єднання YAZ
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Закриває з'єднання YAZ
+-   [« yaz\_ccl\_parse](function.yaz-ccl-parse.html)
+    
+-   [yaz\_connect »](function.yaz-connect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции YAZ](ref.yaz.html)
+    
+-   Закриває з'єднання YAZ
+    
 
-# yaz_close
+# yazclose
 
-(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
+(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
 
-yaz_close — Закриває з'єднання YAZ
+yazclose — Закриває з'єднання YAZ
 
 ### Опис
 
-**yaz_close**(resource `$id`): bool
+```methodsynopsis
+yaz_close(resource $id): bool
+```
 
-Закриває з'єднання, яке визначається параметром `id`.
+Закриває з'єднання, яке визначається параметром `id`
 
-> **Примітка**:
->
-> Функція закриє лише непостійні з'єднання, відкриті функцією
-> [yaz_connect()](function.yaz-connect.md) з параметром `persistent`
-> встановленим на значення **`false`**.
+> **Зауваження**
+> 
+> Функція закриє лише непостійні з'єднання, відкриті функцією [yaz\_connect()](function.yaz-connect.html) з параметром `persistent` встановленим у значення **`false`**
 
 ### Список параметрів
 
 `id`
-Дескриптор з'єднання, що повертається
-[yaz_connect()](function.yaz-connect.md).
+
+Дескриптор з'єднання, що повертається [yaz\_connect()](function.yaz-connect.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [yaz_connect()](function.yaz-connect.md) - Підготовка
-з'єднання з сервером Z39.50
+-   [yaz\_connect()](function.yaz-connect.html) - Готує з'єднання із сервером Z39.50

@@ -1,72 +1,49 @@
-- [« Простий приклад використання curl](curl.examples-basic.md)
-- [curl_close »](function.curl-close.md)
+Функції cURL
 
-- [PHP Manual](index.md)
-- [cURL](book.curl.md)
-- Функції cURL
+-   [« Простой пример использования curl](curl.examples-basic.html)
+    
+-   [curl\_close »](function.curl-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [cURL](book.curl.html)
+    
+-   Функції cURL
+    
 
 # Функції cURL
 
 ## Зміст
 
-- [curl_close](function.curl-close.md) - Завершує сеанс cURL
-- [curl_copy_handle](function.curl-copy-handle.md) - Копіює
-дескриптор cURL разом із усіма його налаштуваннями
-- [curl_errno](function.curl-errno.md) — Повертає код останнього
-помилки
-- [curl_error](function.curl-error.md) — Повертає рядок з
-описом останньої помилки поточного сеансу
-- [curl_escape](function.curl-escape.md) — кодує заданий рядок
-як URL
-- [curl_exec](function.curl-exec.md) — Виконує запит cURL
-- [curl_file_create](function.curl-file-create.md) — Створює об'єкт
-CURLFile
-- [curl_getinfo](function.curl-getinfo.md) — Повертає інформацію
-про певну операцію
-- [curl_init](function.curl-init.md) – Ініціалізує сеанс cURL
-- [curl_multi_add_handle](function.curl-multi-add-handle.md) -
-Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
-- [curl_multi_close](function.curl-multi-close.md) - Закриває набір
-CURL-дескрипторів
-- [curl_multi_errno](function.curl-multi-errno.md) - Повертає код
-останньої помилки множинного curl
-- [curl_multi_exec](function.curl-multi-exec.md) - Запускає
-приєднання поточного дескриптора cURL
-- [curl_multi_getcontent](function.curl-multi-getcontent.md) -
-Повертає результат операції, якщо було встановлено опцію
-CURLOPT_RETURNTRANSFER
-- [curl_multi_info_read](function.curl-multi-info-read.md) -
-Повертає інформацію про поточні операції
-- [curl_multi_init](function.curl-multi-init.md) — Створює набір
-CURL-дескрипторів
-- [curl_multi_remove_handle](function.curl-multi-remove-handle.md) -
-Видаляє cURL дескриптор з набору cURL дескрипторів
-- [curl_multi_select](function.curl-multi-select.md) - Чекає
-активності на будь-якому curl_multi з'єднанні
-- [curl_multi_setopt](function.curl-multi-setopt.md) — Встановити
-опції для множинного дескриптора cURL
-- [curl_multi_strerror](function.curl-multi-strerror.md) -
-Повертає рядок, що описує помилку
-- [curl_pause](function.curl-pause.md) — Зупинити та відновити
-з'єднання
-- [curl_reset](function.curl-reset.md) — Скинути всі налаштування
-обробника сесії libcurl
-- [curl_setopt_array](function.curl-setopt-array.md) - Встановлює
-кілька параметрів для сеансу cURL
-- [curl_setopt](function.curl-setopt.md) — Встановлює параметр
-для сеансу CURL
-- [curl_share_close](function.curl-share-close.md) — Закрити
-оброблюваний обробник cURL
-- [curl_share_errno](function.curl-share-errno.md) — Повертає код
-останньої помилки розділяється обробника curl
-- [curl_share_init](function.curl-share-init.md) - Ініціалізація
-оброблюваного обробника cURL
-- [curl_share_setopt](function.curl-share-setopt.md) — Встановити
-опції оброблюваного cURL
-- [curl_share_strerror](function.curl-share-strerror.md) -
-Повертає опис для заданого коду помилки
-- [curl_strerror](function.curl-strerror.md) — Отримати текстове
-опис для коду помилки
-- [curl_unescape](function.curl-unescape.md) - Декодує
-закодований URL-рядок
-- [curl_version](function.curl-version.md) - Повертає версію cURL
+-   [curl\_close](function.curl-close.html) - Завершує сеанс cURL
+-   [curl\_copy\_handle](function.curl-copy-handle.html) — Копіює дескриптор cURL разом із усіма його налаштуваннями
+-   [curl\_errno](function.curl-errno.html) — Повертає код останньої помилки
+-   [curl\_error](function.curl-error.html) — Повертає рядок із описом останньої помилки поточного сеансу
+-   [curl\_escape](function.curl-escape.html) — Кодує рядок як URL
+-   [curl\_exec](function.curl-exec.html) — Виконує запит cURL
+-   [curl\_file\_create](function.curl-file-create.html) — Створює об'єкт CURLFile
+-   [curl\_getinfo](function.curl-getinfo.html) — Повертає інформацію про певну операцію
+-   [curl\_init](function.curl-init.html) - Ініціалізує сеанс cURL
+-   [curl\_multi\_add\_handle](function.curl-multi-add-handle.html) — Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
+-   [curl\_multi\_close](function.curl-multi-close.html) — Закриває набір cURL-дескрипторів
+-   [curl\_multi\_errno](function.curl-multi-errno.html) — Повертає код останньої помилки множинного curl
+-   [curl\_multi\_exec](function.curl-multi-exec.html) — Запускає підключення поточного дескриптора cURL
+-   [curl\_multi\_getcontent](function.curl-multi-getcontent.html) — Повертає результат операції, якщо було встановлено опцію CURLOPTRETURNTRANSFER
+-   [curl\_multi\_info\_read](function.curl-multi-info-read.html) — Повертає інформацію про поточні операції
+-   [curl\_multi\_init](function.curl-multi-init.html) — Створює набір cURL-дескрипторів
+-   [curl\_multi\_remove\_handle](function.curl-multi-remove-handle.html) — Видаляє cURL дескриптор із набору cURL дескрипторів
+-   [curl\_multi\_select](function.curl-multi-select.html) — Чекає на активність на будь-якому curlmulti з'єднанні
+-   [curl\_multi\_setopt](function.curl-multi-setopt.html) — Встановити налаштування для множинного дескриптора cURL
+-   [curl\_multi\_strerror](function.curl-multi-strerror.html) — Повертає рядок, що описує помилку
+-   [curl\_pause](function.curl-pause.html) — Припинити та відновити з'єднання
+-   [curl\_reset](function.curl-reset.html) — Скинути налаштування обробника сесії libcurl
+-   [curl\_setopt\_array](function.curl-setopt-array.html) — Встановлює кілька параметрів сеансу cURL
+-   [curl\_setopt](function.curl-setopt.html) — Встановлює параметр для сеансу CURL
+-   [curl\_share\_close](function.curl-share-close.html) — Закрити оброблюваний обробник cURL
+-   [curl\_share\_errno](function.curl-share-errno.html) — Повертає код останньої помилки оброблюваного обробника curl
+-   [curl\_share\_init](function.curl-share-init.html) — Ініціалізація оброблюваного обробника cURL
+-   [curl\_share\_setopt](function.curl-share-setopt.html) — Встановити опції оброблюваного cURL
+-   [curl\_share\_strerror](function.curl-share-strerror.html) — Повертає опис для заданого коду помилки
+-   [curl\_strerror](function.curl-strerror.html) — Отримати текстовий опис для коду помилки
+-   [curl\_unescape](function.curl-unescape.html) — Декодує закодований URL-рядок
+-   [curl\_version](function.curl-version.html) — Повертає версію cURL

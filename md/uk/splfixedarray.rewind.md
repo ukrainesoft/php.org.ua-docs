@@ -1,19 +1,27 @@
-- [« SplFixedArray::offsetUnset](splfixedarray.offsetunset.md)
-- [SplFixedArray::setSize »](splfixedarray.setsize.md)
+Встановлює ітератор масиву на початок
 
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Встановлює ітератор масиву на початок
+-   [« SplFixedArray::offsetUnset](splfixedarray.offsetunset.html)
+    
+-   [SplFixedArray::setSize »](splfixedarray.setsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFixedArray](class.splfixedarray.html)
+    
+-   Встановлює ітератор масиву на початок
+    
 
 # SplFixedArray::rewind
 
-(PHP 5 = 5.3.0, PHP 7)
+(PHP 5> = 5.3.0, PHP 7)
 
 SplFixedArray::rewind — Встановлює ітератор масиву на початок
 
 ### Опис
 
-public **SplFixedArray::rewind**(): void
+```methodsynopsis
+public SplFixedArray::rewind(): void
+```
 
 Встановлює ітератор масиву на початок.
 

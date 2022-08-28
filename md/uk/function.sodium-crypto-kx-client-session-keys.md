@@ -1,36 +1,40 @@
-- [« sodium_crypto_kdf_keygen](function.sodium-crypto-kdf-keygen.md)
-- [sodium_crypto_kx_keypair »](function.sodium-crypto-kx-keypair.md)
+Обчислює ключі сесії на стороні клієнта
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- обчислює ключі сесії на стороні клієнта
+-   [« sodium\_crypto\_kdf\_keygen](function.sodium-crypto-kdf-keygen.html)
+    
+-   [sodium\_crypto\_kx\_keypair »](function.sodium-crypto-kx-keypair.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Обчислює ключі сесії на стороні клієнта
+    
 
-# sodium_crypto_kx_client_session_keys
+# sodiumcryptoкксclientsessionkeys
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_kx_client_session_keys — Обчислює ключі сесії на стороні
-клієнта
+sodiumcryptoкксclientsessionkeys - обчислює ключі сесії на стороні клієнта
 
 ### Опис
 
-**sodium_crypto_kx_client_session_keys**(string `$client_key_pair`,
-string `$server_key`): array
+```methodsynopsis
+sodium_crypto_kx_client_session_keys(string $client_key_pair, string $server_key): array
+```
 
-Обчислює ключі сеансу за клієнта, використовуючи метод обміну
-ключами X25519+BLAKE2b.
+Обчислює ключі сеансу на стороні клієнта за допомогою методу обміну ключами X25519 + BLAKE2b.
 
 ### Список параметрів
 
 `client_key_pair`
-Пара ключів crypto_kx, наприклад, згенерована
-[sodium_crypto_kx_keypair()](function.sodium-crypto-kx-keypair.md).
+
+Пара ключів cryptokx, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.html)
 
 `server_key`
-Відкритий ключ crypto_kx.
+
+Відкритий ключ cryptokx.
 
 ### Значення, що повертаються
 
-Масив, що складається із двох рядків. Першу слід використовувати для прийому
-даних із сервера. Другу слід використовувати для надсилання даних на
-сервер.
+Масив, що складається із двох рядків. Першу слід використовувати для отримання даних із сервера. Другу слід використовувати для надсилання даних на сервер.

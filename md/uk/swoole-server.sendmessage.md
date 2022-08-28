@@ -1,21 +1,27 @@
-- [« Swoole\Server::sendfile](swoole-server.sendfile.md)
-- [Swoole\Server::sendto »](swoole-server.sendto.md)
+Надсилає повідомлення робочим процесам за ідентифікатором
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Надсилає повідомлення робочим процесам за ідентифікатором
+-   [« Swoole\\Server::sendfile](swoole-server.sendfile.html)
+    
+-   [Swoole\\Server::sendto »](swoole-server.sendto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Надсилає повідомлення робочим процесам за ідентифікатором
+    
 
-# Swoole\Server::sendMessage
+# SwooleServer::sendMessage
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::sendMessage — Надсилає повідомлення робочим процесам по
-ідентифікатору
+SwooleServer::sendMessage — Надсилає повідомлення робочим процесам за ідентифікатором
 
 ### Опис
 
-public **Swoole\Server::sendMessage**(int `$worker_id`, string `$data`):
-bool
+```methodsynopsis
+public Swoole\Server::sendMessage(int $worker_id, string $data): bool
+```
 
 ### Список параметрів
 

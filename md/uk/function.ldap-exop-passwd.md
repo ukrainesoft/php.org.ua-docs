@@ -1,71 +1,98 @@
-- [«ldap_escape](function.ldap-escape.md)
-- [ldap_exop_refresh »](function.ldap-exop-refresh.md)
+Обгортка для розширеної операції PASSWD
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Обертка для розширеної операції PASSWD
+-   [« ldap\_escape](function.ldap-escape.html)
+    
+-   [ldap\_exop\_refresh »](function.ldap-exop-refresh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Обгортка для розширеної операції PASSWD
+    
 
-#ldap_exop_passwd
+# ldapexoppasswd
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-ldap_exop_passwd — Обертка для розширеної операції PASSWD
+ldapexoppasswd — Обгортка для розширеної операції PASSWD
 
 ### Опис
 
-**ldap_exop_passwd**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$user` = "",
-string `$old_password` = "",
-string `$new_password` = "",
-array `&$controls` = **`null`**
-): string\|bool
+```methodsynopsis
+ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old_password = "",    string $new_password = "",    array &$controls = null): string|bool
+```
 
 Виконує розширену операцію PASSWD.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `user`
-Унікальне ім'я користувача (DN), для якого змінюється пароль.
+
+Унікальне ім'я (DN) користувача, для якого змінюється пароль.
 
 `old_password`
+
 Старий пароль. Залежно від конфігурації можна опустити.
 
 `new_password`
-Новий пароль. Може бути опущений або заданий порожнім для автогенерації
-пароля.
+
+Новий пароль. Може бути опущений або заданий порожнім для автогенерації пароля.
 
 `controls`
-Якщо задано, то із запитом буде передано запит парольної політики і це
-поле буде заповнено масивом [керуючих констант LDAP](ldap.controls.md), повернутим запитом.
+
+Якщо задано, то із запитом буде передано запит парольної політики і це поле буде заповнено масивом [управляющих констант LDAP](ldap.controls.html), повернутим запитом.
 
 ### Значення, що повертаються
 
-Повертає новий пароль, якщо параметр `new_password` не заданий, або
-заданий порожнім. Інакше повертає **`true`** або **`false`**, залежно
-від успішності виконання.
+Повертає новий пароль, якщо параметр `new_password` не заданий, або заданий порожнім. Інакше повертає **`true`** або **`false`**, Залежно від успішності виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 
 **Приклад #1 Розширена операція PASSWD**
 
-`<?php$ds = ldap_connect("localhost"); // припустимо, що сервер LDAP запущено локальноif ($ds) {     // Прив'язуємось до потрібного DN   $bind = ldap_bind($ds, cn=s; if (!$bind) {      echo "Неможливо здійснити прив'язку LDAP"; exit; }    // Використовуємо PASSWD EXOP для зміни пароля користувача на новий випадковий    $genpw = ldap_exop_passwd($ds, cn=s c| if ($genpw) {       // Використовуємо для прив'язки новий пароль      $bind =ldap_bind($ds, "cn=root, o=My $; }    // Повертаємо старий пароль "secret"   ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", $genpw, "secret"); ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
+```php
+<?php
+$ds = ldap_connect("localhost");  // предположим, что сервер LDAP запущен локально
+
+if ($ds) {
+    // Привязываемся к нужному DN
+    $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
+    if (!$bind) {
+      echo "Невозможно осуществить привязку LDAP";
+      exit;
+    }
+
+    // Используем PASSWD EXOP для смены пароля пользователя на новый случайный
+    $genpw = ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", "secret");
+    if ($genpw) {
+      // Используем для привязки новый пароль
+      $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", $genpw);
+    }
+
+    // Возвращаем старый пароль "secret"
+    ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", $genpw, "secret");
+
+    ldap_close($ds);
+} else {
+    echo "Невозможно соединиться с сервером LDAP";
+}
+?>
+```
 
 ### Дивіться також
 
-- [ldap_exop()](function.ldap-exop.md) - Виконати розширену
-операцію
-- [ldap_parse_exop()](function.ldap-parse-exop.md) - Розбір
-результуючого об'єкта виконання розширеної операції LDAP
+-   [ldap\_exop()](function.ldap-exop.html) - Виконує розширену операцію
+-   [ldap\_parse\_exop()](function.ldap-parse-exop.html) - Розбір результуючого об'єкта виконання розширеної операції LDAP

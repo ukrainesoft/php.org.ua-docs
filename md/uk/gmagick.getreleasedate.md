@@ -1,20 +1,27 @@
-- [« Gmagick::getquantumdepth](gmagick.getquantumdepth.md)
-- [Gmagick::getsamplingfactors »](gmagick.getsamplingfactors.md)
+Повертає дату релізу GraphicsMagick у вигляді рядка
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає дату релізу GraphicsMagick у вигляді рядка
+-   [« Gmagick::getquantumdepth](gmagick.getquantumdepth.html)
+    
+-   [Gmagick::getsamplingfactors »](gmagick.getsamplingfactors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає дату релізу GraphicsMagick у вигляді рядка
+    
 
 # Gmagick::getreleasedate
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getreleasedate — Повертає дату релізу GraphicsMagick у вигляді
-рядки
+Gmagick::getreleasedate — Повертає дату релізу GraphicsMagick у вигляді рядка
 
 ### Опис
 
-public **Gmagick::getreleasedate**(): string
+```methodsynopsis
+public Gmagick::getreleasedate(): string
+```
 
 Повертає дату релізу GraphicsMagick у вигляді рядка.
 

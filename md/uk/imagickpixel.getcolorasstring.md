@@ -1,19 +1,27 @@
-- [« ImagickPixel::getColor](imagickpixel.getcolor.md)
-- [ImagickPixel::getColorCount »](imagickpixel.getcolorcount.md)
+Повертає колір у вигляді рядка
 
-- [PHP Manual](index.md)
-- [ImagickPixel](class.imagickpixel.md)
-- Повертає колір у вигляді рядка
+-   [« ImagickPixel::getColor](imagickpixel.getcolor.html)
+    
+-   [ImagickPixel::getColorCount »](imagickpixel.getcolorcount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickPixel](class.imagickpixel.html)
+    
+-   Повертає колір у вигляді рядка
+    
 
 # ImagickPixel::getColorAsString
 
-(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
+(PECL imagick 2> = 2.1.0, PECL imagick 3)
 
 ImagickPixel::getColorAsString — Повертає колір у вигляді рядка
 
 ### Опис
 
-public **ImagickPixel::getColorAsString**(): string
+```methodsynopsis
+public ImagickPixel::getColorAsString(): string
+```
 
 Повертає колір об'єкта ImagickPixel у вигляді рядка.
 
@@ -29,14 +37,28 @@ public **ImagickPixel::getColorAsString**(): string
 
 **Приклад #1 Приклад використання **Imagick::getColorAsString()****
 
-`<?php// Створення ImagickPixel з стандартним колірником 'brown'$color = new ImagickPixel('brown'); );print_r($colorInfo);?> `
+```php
+<?php
+
+// Создание ImagickPixel со стандартным цветом 'brown'
+$color = new ImagickPixel('brown');
+
+$color->setColorValue(Imagick::COLOR_ALPHA, 64 / 256.0);
+
+$colorInfo = $color->getColorAsString();
+
+print_r($colorInfo);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 rgb(165,42,42)
+```
 
 ### Примітки
 
-> **Примітка**: **Альфа канал не повертається**
->
+> **Зауваження** **Альфа канал не повертається**
+> 
 > Функція не повертає значення альфа-каналу для кольору.

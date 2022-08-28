@@ -1,9 +1,15 @@
-- [« SoapServer::setPersistence](soapserver.setpersistence.md)
-- [SoapFault::\_\_construct »](soapfault.construct.md)
+Клас SoapFault
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Клас SoapFault
+-   [« SoapServer::setPersistence](soapserver.setpersistence.html)
+    
+-   [SoapFault::\_\_construct »](soapfault.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
+-   Клас SoapFault
+    
 
 # Клас SoapFault
 
@@ -15,102 +21,115 @@
 
 ## Огляд класів
 
-class **SoapFault** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$faultstring`;
+    
+     
+      class SoapFault
+     
 
-public ?string `$faultcode` = null;
+     
+      extends
+       Exception
+     
+     {
 
-public ?string `$faultcodens` = null;
+    /* Свойства */
+    
+     public
+     string
+      $faultstring;
 
-public ?string `$faultactor` = null;
+    public
+     ?string
+      $faultcode = null;
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$detail = null;
+    public
+     ?string
+      $faultcodens = null;
 
-public ?string `$_name` = null;
+    public
+     ?string
+      $faultactor = null;
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$headerfault` = null;
+    public
+     mixed
+      $detail = null;
 
-/\* Наслідувані властивості \*/
+    public
+     ?string
+      $_name = null;
 
-protected string `$message` = "";
+    public
+     mixed
+      $headerfault = null;
 
-private string `$string` = "";
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Методы */
+    
+   public __construct(    array|string|null $code,    string $string,    ?string $actor = null,    mixed $details = null,    ?string $name = null,    mixed $headerFault = null)
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    public __toString(): string
 
-/\* Методи \*/
 
-public [\_\_construct](soapfault.construct.md)(
-array\|string\|null `$code`,
-string `$string`,
-?string `$actor` = **`null`**,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$details` = **`null`**,
-?string `$name` = **`null`**,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$headerFault` = **`null`**
-)
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-public [\_\_toString](soapfault.tostring.md)(): string
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`_name`
+name
 
-`detail`
+detail
 
-`faultactor`
+faultactor
 
-`faultcode`
+faultcode
 
-`faultcodens`
+faultcodens
 
-`faultstring`
+faultstring
 
-`headerfault`
+headerfault
 
 ## Зміст
 
-- [SoapFault::\_\_construct](soapfault.construct.md) - Конструктор
-SoapFault
-- [SoapFault::\_\_toString](soapfault.tostring.md) — Отримати
-текстове уявлення SoapFault
+-   [SoapFault::\_\_construct](soapfault.construct.html) - Конструктор SoapFault
+-   [SoapFault::\_\_toString](soapfault.tostring.html) — Отримати текстове уявлення SoapFault

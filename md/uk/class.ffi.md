@@ -1,145 +1,84 @@
-- [« Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.md)
-- [FFI::addr »](ffi.addr.md)
+Основний інтерфейс до коду та даних C
 
-- [PHP Manual](index.md)
-- [FFI](book.ffi.md)
-- Основний інтерфейс до коду та даних C
+-   [« Комплексный пример PHP/FFI/preloading](ffi.examples-complete.html)
+    
+-   [FFI::addr »](ffi.addr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI](book.ffi.html)
+    
+-   Основний інтерфейс до коду та даних C
+    
 
 # Основний інтерфейс до коду та даних C
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 ## Вступ
 
-Об'єкти цього класу створюються фабричними методами
-[FFI::cdef()](ffi.cdef.md), [FFI::load()](ffi.load.md) та
-[FFI::scope()](ffi.scope.md). Оголошені змінні C доступні як
-характеристики екземпляра FFI, а функції як його способи. Оголошені типи C
-можна використовувати для створення структур даних за допомогою
-[FFI::new()](ffi.new.md) та [FFI::type()](ffi.type.md).
+Об'єкти цього класу створюються фабричними методами [FFI::cdef()](ffi.cdef.html) [FFI::load()](ffi.load.html) і [FFI::scope()](ffi.scope.html). Оголошені змінні C доступні як властивості екземпляра FFI, а функції як його методи. Оголошені типи C можна використовувати для створення структур даних за допомогою [FFI::new()](ffi.new.html) і [FFI::type()](ffi.type.html)
 
-Розбір оголошень FFI і завантаження бібліотеки, що розділяється, може зайняти
-значний час. Не має сенсу робити це для кожного HTTP-запиту
-в оточенні Web. Проте можна перезавантажити оголошення FFI та
-бібліотеки при старті PHP та інстанціювати об'єкти FFI по
-необхідності. Заголовні файли можуть бути розширені спеціальними
-оголошеннями `FFI_SCOPE` (наприклад, `#define FFI_SCOPE "foo"”"`; скоуп
-за замовчуванням "C") і завантажені за допомогою [FFI::load()](ffi.load.md)
-час передзавантаження. Це призведе до створення постійних прив'язок, які
-будуть доступні для всіх запитів через [FFI::scope()](ffi.scope.md).
-Докладніше читайте на сторінці [Прості приклади використання FFI](ffi.examples-complete.md).
+Розбір оголошень FFI і завантаження бібліотеки, що розділяється, може зайняти значний час. Немає сенсу робити це для кожного HTTP-запиту в оточенні Web. Проте можна перезавантажити оголошення FFI та бібліотеки під час старту PHP та інстанціювати об'єкти FFI за потребою. Заголовні файли можуть бути розширені спеціальними оголошеннями `FFI_SCOPE` (наприклад, `#define FFI_SCOPE "foo"”"`; скоуп за замовчуванням "C") і завантажені за допомогою [FFI::load()](ffi.load.html) під час завантаження. Це призведе до створення постійних прив'язок, які будуть доступні для всіх запитів через [FFI::scope()](ffi.scope.html). Докладніше читайте на сторінці [Простые примеры использования FFI](ffi.examples-complete.html)
 
 У той самий скоуп можна завантажити кілька заголовних файлів.
 
 ## Огляд класів
 
-final class **FFI** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public static [addr](ffi.addr.md)([FFI\CData](class.ffi-cdata.md)
-`&$ptr`): [FFI\CData](class.ffi-cdata.md)
+    
+     
+      final
+      class FFI
+     
+     {
 
-public static
-[alignof](ffi.alignof.md)([FFI\CData](class.ffi-cdata.md)\|[FFI\CType](class.ffi-ctype.md)
-`&$ptr`): int
+    /* Методы */
+    
+   public static addr(FFI\CData &$ptr): FFI\CData
+public static alignof(FFI\CData|FFI\CType &$ptr): int
+public static arrayType(FFI\CType $type, array $dimensions): FFI\CType
+public static cast(FFI\CType|string $type, FFI\CData|int|float|bool|null &$ptr): ?FFI\CData
+public cast(FFI\CType|string $type, FFI\CData|int|float|bool|null &$ptr): ?FFI\CData
+public static cdef(string $code = "", ?string $lib = null): FFI
+public static free(FFI\CData &$ptr): void
+public static isNull(FFI\CData &$ptr): bool
+public static load(string $filename): ?FFI
+public static memcmp(string|FFI\CData &$ptr1, string|FFI\CData &$ptr2, int $size): int
+public static memcpy(FFI\CData &$to, FFI\CData|string &$from, int $size): void
+public static memset(FFI\CData &$ptr, int $value, int $size): void
+public static new(FFI\CType|string $type, bool $owned = true, bool $persistent = false): ?FFI\CData
+public new(FFI\CType|string $type, bool $owned = true, bool $persistent = false): ?FFI\CData
+public static scope(string $name): FFI
+public static sizeof(FFI\CData|FFI\CType &$ptr): int
+public static string(FFI\CData &$ptr, ?int $size = null): string
+public static type(string $type): ?FFI\CType
+public type(string $type): ?FFI\CType
+public static typeof(FFI\CData &$ptr): FFI\CType
 
-public static
-[arrayType](ffi.arraytype.md)([FFI\CType](class.ffi-ctype.md)
-`$type`, array `$dimensions`): [FFI\CType](class.ffi-ctype.md)
-
-public static
-[cast](ffi.cast.md)([FFI\CType](class.ffi-ctype.md)\|string `$type`,
-[FFI\CData](class.ffi-cdata.md)\|int\|float\|bool\|null `&$ptr`):
-?[FFI\CData](class.ffi-cdata.md)
-
-public [cast](ffi.cast.md)([FFI\CType](class.ffi-ctype.md)\|string
-`$type`, [FFI\CData](class.ffi-cdata.md)\|int\|float\|bool\|null
-`&$ptr`): ?[FFI\CData](class.ffi-cdata.md)
-
-public static [cdef](ffi.cdef.md)(string `$code` = "", ?string `$lib`
-= **`null`**): [FFI](class.ffi.md)
-
-public static [free](ffi.free.md)([FFI\CData](class.ffi-cdata.md)
-`&$ptr`): void
-
-public static
-[isNull](ffi.isnull.md)([FFI\CData](class.ffi-cdata.md) `&$ptr`):
-bool
-
-public static [load](ffi.load.md)(string `$filename`):
-?[FFI](class.ffi.md)
-
-public static
-[memcmp](ffi.memcmp.md)(string\|[FFI\CData](class.ffi-cdata.md)
-`&$ptr1`, string\|[FFI\CData](class.ffi-cdata.md) `&$ptr2`, int
-`$size`): int
-
-public static
-[memcpy](ffi.memcpy.md)([FFI\CData](class.ffi-cdata.md) `&$to`,
-[FFI\CData](class.ffi-cdata.md)\|string `&$from`, int `$size`): void
-
-public static
-[memset](ffi.memset.md)([FFI\CData](class.ffi-cdata.md) `&$ptr`, int
-`$value`, int `$size`): void
-
-public static
-[new](ffi.new.md)([FFI\CType](class.ffi-ctype.md)\|string `$type`,
-bool `$owned` = **`true`**, bool `$persistent` = **`false`**):
-?[FFI\CData](class.ffi-cdata.md)
-
-public [new](ffi.new.md)([FFI\CType](class.ffi-ctype.md)\|string
-`$type`, bool `$owned` = **`true`**, bool `$persistent` = **`false`**):
-?[FFI\CData](class.ffi-cdata.md)
-
-public static [scope](ffi.scope.md)(string `$name`):
-[FFI](class.ffi.md)
-
-public static
-[sizeof](ffi.sizeof.md)([FFI\CData](class.ffi-cdata.md)\|[FFI\CType](class.ffi-ctype.md)
-`&$ptr`): int
-
-public static
-[string](ffi.string.md)([FFI\CData](class.ffi-cdata.md) `&$ptr`,
-?int `$size` = **`null`**): string
-
-public static [type](ffi.type.md)(string `$type`):
-?[FFI\CType](class.ffi-ctype.md)
-
-public [type](ffi.type.md)(string `$type`):
-?[FFI\CType](class.ffi-ctype.md)
-
-public static
-[typeof](ffi.typeof.md)([FFI\CData](class.ffi-cdata.md) `&$ptr`):
-[FFI\CType](class.ffi-ctype.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [FFI::addr](ffi.addr.md) — Створює некерований покажчик на
-дані C
-- [FFI::alignof](ffi.alignof.md) - Повертає величину вирівнювання
-- [FFI::arrayType](ffi.arraytype.md) — динамічно конструює
-новий тип З масиву
-- [FFI::cast](ffi.cast.md) — Перетворення типу C
-- [FFI::cdef](ffi.cdef.md) — Створення нового об'єкту FFI
-- [FFI::free](ffi.free.md) — Вивільняє некеровану структуру
-даних
-- [FFI::isNull](ffi.isnull.md) — Перевіряє, чи є FFI\CData
-нульовим покажчиком
-- [FFI::load](ffi.load.md) — Завантажити декларації C із заголовного
-файлу
-- [FFI::memcmp](ffi.memcmp.md) — Порівнює дві області пам'яті
-- [FFI::memcpy](ffi.memcpy.md) — Копіює вміст однієї області
-пам'яті в іншу
-- [FFI::memset](ffi.memset.md) — Заповнити область пам'яті
-- [FFI::new](ffi.new.md) — Створює структуру даних C
-- [FFI::scope](ffi.scope.md) — Встановлює об'єкт FFI в
-відповідно до декларації С, розібраної на етапі передзавантаження
-- [FFI::sizeof](ffi.sizeof.md) — Повертає розмір даних або типу C
-- [FFI::string](ffi.string.md) — Створює рядок PHP з області
-пам'яті
-- [FFI::type](ffi.type.md) — Створює об'єкт FFI\CType із декларації
-З
-- [FFI::typeof](ffi.typeof.md) — Отримує FFI\CType для FFI\CData
+-   [FFI::addr](ffi.addr.html) — Створює некерований покажчик даних C
+-   [FFI::alignof](ffi.alignof.html) - Повертає величину вирівнювання
+-   [FFI::arrayType](ffi.arraytype.html) — Динамічно конструює новий тип масиву
+-   [FFI::cast](ffi.cast.html) — Здійснює перетворення типу C
+-   [FFI::cdef](ffi.cdef.html) — Створює новий об'єкт FFI
+-   [FFI::free](ffi.free.html) — Вивільняє некеровану структуру даних
+-   [FFI::isNull](ffi.isnull.html) — Перевіряє, чи є FFICData нульовим покажчиком
+-   [FFI::load](ffi.load.html) — Завантажити декларації C із заголовного файлу
+-   [FFI::memcmp](ffi.memcmp.html) — Порівнює дві області пам'яті
+-   [FFI::memcpy](ffi.memcpy.html) — Копіює вміст однієї області пам'яті в іншу
+-   [FFI::memset](ffi.memset.html) — Заповнити область пам'яті
+-   [FFI::new](ffi.new.html) - Створює структуру даних C
+-   [FFI::scope](ffi.scope.html) — Інстанціює об'єкт FFI відповідно до декларації С, розібраної на етапі передзавантаження
+-   [FFI::sizeof](ffi.sizeof.html) — Повертає розмір даних або типу C
+-   [FFI::string](ffi.string.html) — Створює рядок PHP із області пам'яті
+-   [FFI::type](ffi.type.html) — Створює об'єкт FFICType із декларації С
+-   [FFI::typeof](ffi.typeof.html) — Отримує FFICType для FFICData

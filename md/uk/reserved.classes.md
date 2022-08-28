@@ -1,68 +1,76 @@
-- [« Список ключових слів](reserved.keywords.md)
-- [Предвизначені константи »](reserved.constants.md)
+Обумовлені класи
 
-- [PHP Manual](index.md)
-- [Список зарезервованих слів](reserved.md)
-- Обумовлені класи
+-   [« Список ключевых слов](reserved.keywords.html)
+    
+-   [Предопределённые константы »](reserved.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список зарезервированных слов](reserved.html)
+    
+-   Обумовлені класи
+    
 
-## Передбачені класи
+## Обумовлені класи
 
-У цьому розділі перераховуються стандартні визначені класи.
-Різноманітні модулі визначають інші класи, які описані в
-відповідної довідкової інформації.
+У цьому розділі перераховуються стандартні визначені класи. Різноманітні модулі визначають інші класи, які описані у відповідній довідковій інформації.
 
 ### Стандартні певні класи
 
-Ці класи визначені разом зі стандартним набором функцій, що йдуть
-збиранням PHP.
+Ці класи визначені разом зі стандартним набором функцій, що йдуть зі збиранням PHP.
 
-[Directory](class.directory.md)
-Створюється функцією [dir()](function.dir.md).
+[Directory](class.directory.html)
+
+Створюється функцією [dir()](function.dir.html)
 
 **stdClass**
-Створюється [наведенням типу до об'єкту](language.types.object.md#language.types.object.casting).
 
-**\_\_PHP_Incomplete_Class**
-Можливо, створюється функцією [unserialize()](function.unserialize.md).
+Створюється [приведением типа к объекту](language.types.object.html#language.types.object.casting)
 
-[Exception](class.exception.md)
+**PHPIncompleteClass**
 
-[ErrorException](class.errorexception.md)
+Можливо, створюється функцією [unserialize()](function.unserialize.html)
 
-[php_user_filter](class.php-user-filter.md)
+[Exception](class.exception.html)
 
-[Closure](class.closure.md)
-Обумовлений остаточний клас [Closure](class.closure.md),
-використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.md).
+[ErrorException](class.errorexception.html)
 
-[Generator](class.generator.md)
-Обумовлений остаточний клас [Generator](class.generator.md),
-використовується для представлення [генераторів](language.generators.md).
+[php\_user\_filter](class.php-user-filter.html)
 
-[ArithmeticError](class.arithmeticerror.md)
+[Closure](class.closure.html)
 
-[AssertionError](class.assertionerror.md)
+Обумовлений остаточний клас [Closure](class.closure.html), використовується для внутрішньої реалізації [анонимных функций](functions.anonymous.html)
 
-[DivisionByZeroError](class.divisionbyzeroerror.md)
+[Generator](class.generator.html)
 
-[Error](class.error.md)
+Обумовлений остаточний клас [Generator](class.generator.html), використовується для подання [генераторов](language.generators.html)
 
-[Throwable](class.throwable.md)
+[ArithmeticError](class.arithmeticerror.html)
 
-[ParseError](class.parseerror.md)
+[AssertionError](class.assertionerror.html)
 
-[TypeError](class.typeerror.md)
+[DivisionByZeroError](class.divisionbyzeroerror.html)
+
+[Error](class.error.html)
+
+[Throwable](class.throwable.html)
+
+[ParseError](class.parseerror.html)
+
+[TypeError](class.typeerror.html)
 
 ### Спеціальні класи
 
-Наступні ідентифікатори не можуть використовуватись як ім'я
-класу, оскільки вони мають спеціальне призначення.
+Наступні ідентифікатори не можуть використовуватися як ім'я класу, тому що у них є спеціальне призначення.
 
 **self**
-[Поточний клас](language.oop5.paamayim-nekudotayim.md).
+
+[Текущий класс](language.oop5.paamayim-nekudotayim.html)
 
 **static**
-[Поточний клас під час виконання](language.oop5.late-static-bindings.md).
+
+[Текущий класс во время выполнения](language.oop5.late-static-bindings.html)
 
 **parent**
-[Батьківський клас](language.oop5.paamayim-nekudotayim.md).
+
+[Родительский класс](language.oop5.paamayim-nekudotayim.html)

@@ -1,19 +1,27 @@
-- [«ZMQSocket::getPersistentId](zmqsocket.getpersistentid.md)
-- [ZMQSocket::getSockOpt »](zmqsocket.getsockopt.md)
+Отримати тип сокету
 
-- [PHP Manual](index.md)
-- [ZMQSocket](class.zmqsocket.md)
-- Отримати тип сокету
+-   [« ZMQSocket::getPersistentId](zmqsocket.getpersistentid.html)
+    
+-   [ZMQSocket::getSockOpt »](zmqsocket.getsockopt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQSocket](class.zmqsocket.html)
+    
+-   Отримати тип сокету
+    
 
 # ZMQSocket::getSocketType
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQSocket::getSocketType — Отримати тип сокету
 
 ### Опис
 
-public **ZMQSocket::getSocketType**(): int
+```methodsynopsis
+public ZMQSocket::getSocketType(): int
+```
 
 Повертає тип сокету.
 
@@ -23,5 +31,4 @@ public **ZMQSocket::getSocketType**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле уявлення типу сокета. Це значення
-співвідноситься з однією з констант **`ZMQ::SOCKET_*`**.
+Повертає ціле уявлення типу сокета. Це значення співвідноситься з однією з констант **`ZMQ::SOCKET_*`**

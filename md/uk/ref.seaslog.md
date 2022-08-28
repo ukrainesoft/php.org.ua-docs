@@ -1,15 +1,19 @@
-- [« Приклади](seaslog.examples.md)
-- [seaslog_get_author »](function.seaslog-get-author.md)
+Функції Seaslog
 
-- [PHP Manual](index.md)
-- [Seaslog](book.seaslog.md)
-- Функції Seaslog
+-   [« Примеры](seaslog.examples.html)
+    
+-   [seaslog\_get\_author »](function.seaslog-get-author.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Seaslog](book.seaslog.html)
+    
+-   Функції Seaslog
+    
 
 # Функції Seaslog
 
 ## Зміст
 
-- [seaslog_get_author](function.seaslog-get-author.md) - Отримує
-автора SeasLog
-- [seaslog_get_version](function.seaslog-get-version.md) — Отримує
-версію SeasLog
+-   [seaslog\_get\_author](function.seaslog-get-author.html) — Отримує автора SeasLog
+-   [seaslog\_get\_version](function.seaslog-get-version.html) — Отримує версію SeasLog

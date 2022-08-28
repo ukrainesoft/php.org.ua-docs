@@ -1,74 +1,69 @@
-- [« SolrParams::unserialize](solrparams.unserialize.md)
-- [SolrModifiableParams::\_\_construct »](solrmodifiableparams.construct.md)
+Клас SolrModifiableParams
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrModifiableParams
+-   [« SolrParams::unserialize](solrparams.unserialize.html)
+    
+-   [SolrModifiableParams::\_\_construct »](solrmodifiableparams.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Клас SolrModifiableParams
+    
 
 # Клас SolrModifiableParams
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
-Представляє колекцію пар "ім'я-значення", що надсилається на сервер Solr
-під час запиту.
+Представляє колекцію пар "ім'я-значення", що надсилається на сервер Solr під час запиту.
 
 ## Огляд класів
 
-class **SolrModifiableParams** extends
-[SolrParams](class.solrparams.md) implements
-[Serializable](class.serializable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](solrmodifiableparams.construct.md)()
 
-public [\_\_destruct](solrmodifiableparams.destruct.md)()
+    
+     
+      class SolrModifiableParams
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       SolrParams
+     
 
-final public [SolrParams::add](solrparams.add.md)(string `$name`,
-string `$value`): [SolrParams](class.solrparams.md)
+     implements 
+       Serializable {
 
-public [SolrParams::addParam](solrparams.addparam.md)(string `$name`,
-string `$value`): [SolrParams](class.solrparams.md)
 
-final public [SolrParams::get](solrparams.get.md)(string
-`$param_name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public __construct()
 
-final public [SolrParams::getParam](solrparams.getparam.md)(string
-`$param_name` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public __destruct()
 
-final public [SolrParams::getParams](solrparams.getparams.md)(): array
 
-final public
-[SolrParams::getPreparedParams](solrparams.getpreparedparams.md)():
-array
+    /* Наследуемые методы */
+    final public SolrParams::add(string $name, string $value): SolrParams
+public SolrParams::addParam(string $name, string $value): SolrParams
+final public SolrParams::get(string $param_name): mixed
+final public SolrParams::getParam(string $param_name = ?): mixed
+final public SolrParams::getParams(): array
+final public SolrParams::getPreparedParams(): array
+final public SolrParams::serialize(): string
+final public SolrParams::set(string $name, string $value): void
+public SolrParams::setParam(string $name, string $value): SolrParams
+final public SolrParams::toString(bool $url_encode = false): string
+final public SolrParams::unserialize(string $serialized): void
 
-final public [SolrParams::serialize](solrparams.serialize.md)():
-string
 
-final public [SolrParams::set](solrparams.set.md)(string `$name`,
-string `$value`): void
-
-public [SolrParams::setParam](solrparams.setparam.md)(string `$name`,
-string `$value`): [SolrParams](class.solrparams.md)
-
-final public [SolrParams::toString](solrparams.tostring.md)(bool
-`$url_encode` = **`false`**): string
-
-final public
-[SolrParams::unserialize](solrparams.unserialize.md)(string
-`$serialized`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md)
-- Конструктор
-- [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.md)
-- Деструктор
+-   [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.html) - Конструктор
+-   [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.html) - Деструктор

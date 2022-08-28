@@ -1,17 +1,23 @@
-- [«MongoDB](set.mongodb.md)
-- [Вимоги »](mongodb.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [MongoDB](set.mongodb.md)
+-   [« MongoDB](set.mongodb.html)
+    
+-   [Требования »](mongodb.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB](set.mongodb.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
-- [Вимоги](mongodb.requirements.md)
-- [Установка](mongodb.installation.md)
-- [Встановлення драйвера PHP MongoDB за допомогою PECL](mongodb.installation.pecl.md)
-- [Установка драйвера PHP MongoDB на macOS допомогою Homebrew](mongodb.installation.homebrew.md)
-- [Встановлення драйвера PHP MongoDB під Windows](mongodb.installation.windows.md)
-- [Складання драйвера PHP MongoDB з вихідного коду](mongodb.installation.manual.md)
-- [Налаштування під час виконання](mongodb.configuration.md)
-- [Предвизначені константи](mongodb.constants.md)
+-   [Требования](mongodb.requirements.html)
+-   [Установка](mongodb.installation.html)
+    -   [Установка драйвера PHP MongoDB с помощью PECL](mongodb.installation.pecl.html)
+    -   [Установка драйвера PHP MongoDB на macOS помощью Homebrew](mongodb.installation.homebrew.html)
+    -   [Установка драйвера PHP MongoDB под Windows](mongodb.installation.windows.html)
+    -   [Сборка драйвера PHP MongoDB из исходного кода](mongodb.installation.manual.html)
+-   [Настройка во время выполнения](mongodb.configuration.html)
+-   [Предопределённые константы](mongodb.constants.html)

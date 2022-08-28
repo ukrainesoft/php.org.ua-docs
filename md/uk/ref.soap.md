@@ -1,15 +1,19 @@
-- [«Зумовлені константи](soap.constants.md)
-- [is_soap_fault »](function.is-soap-fault.md)
+Функції SOAP
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Функції SOAP
+-   [« Предопределённые константы](soap.constants.html)
+    
+-   [is\_soap\_fault »](function.is-soap-fault.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
+-   Функції SOAP
+    
 
 # Функції SOAP
 
 ## Зміст
 
-- [is_soap_fault](function.is-soap-fault.md) — Перевіряє, чи відбулася
-помилка під час виклику SOAP
-- [use_soap_error_handler](function.use-soap-error-handler.md) -
-Встановити, чи слід використовувати обробник помилок SOAP
+-   [is\_soap\_fault](function.is-soap-fault.html) — Перевіряє, чи виникла помилка під час виклику SOAP
+-   [use\_soap\_error\_handler](function.use-soap-error-handler.html) — Встановити, чи слід використовувати обробник помилок SOAP

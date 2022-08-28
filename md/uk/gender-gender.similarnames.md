@@ -1,31 +1,39 @@
-- [«Gender\Gender::isNick](gender-gender.isnick.md)
-- [Gettext »](book.gettext.md)
+Отримати схожі імена
 
-- [PHP Manual](index.md)
-- [Gender\Gender](class.gender.md)
-- Отримати схожі імена
+-   [« Gender\\Gender::isNick](gender-gender.isnick.html)
+    
+-   [Gettext »](book.gettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gender\\Gender](class.gender.html)
+    
+-   Отримати схожі імена
+    
 
-# Gender\Gender::similarNames
+# GenderGender::similarNames
 
-(PECL gender \>= 0.9.0)
+(PECL gender >= 0.9.0)
 
-Gender\Gender::similarNames — Отримати схожі імена
+GenderGender::similarNames — Отримати схожі імена
 
 ### Опис
 
-public **Gender\Gender::similarNames**(string `$name`, int `$country` =
-?): array
+```methodsynopsis
+public Gender\Gender::similarNames(string $name, int $country = ?): array
+```
 
 Отримати схожі імена для заданих імені та країни.
 
 ### Список параметрів
 
 `name`
+
 Ім'я для перевірки.
 
 `country`
-Ідентифікатор країни заданий константою класу. Якщо опущений, то
-використовується ANY_COUNTRY.
+
+Ідентифікатор країни заданий константою класу. Якщо опущений, то використовується ANYCOUNTRY.
 
 ### Значення, що повертаються
 

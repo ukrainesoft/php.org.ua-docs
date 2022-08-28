@@ -1,9 +1,15 @@
-- [« ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.md)
-- [ImagickDraw::getTextEncoding »](imagickdraw.gettextencoding.md)
+Повертає оформлення тексту
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає оформлення тексту
+-   [« ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.html)
+    
+-   [ImagickDraw::getTextEncoding »](imagickdraw.gettextencoding.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає оформлення тексту
+    
 
 # ImagickDraw::getTextDecoration
 
@@ -13,17 +19,16 @@ ImagickDraw::getTextDecoration — Повертає оформлення тек�
 
 ### Опис
 
-public **ImagickDraw::getTextDecoration**(): int
+```methodsynopsis
+public ImagickDraw::getTextDecoration(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає оформлення, що застосовується при анотації тексту.
 
 ### Значення, що повертаються
 
-Повертає одну із констант
-[DECORATION](imagick.constants.md#imagick.constants.decoration)
-(`imagick::DECORATION_*`) або 0, якщо оформлення не встановлено.
+Повертає одну з констант [DECORATION](imagick.constants.html#imagick.constants.decoration) `imagick::DECORATION_*`) або 0, якщо оформлення не задано.

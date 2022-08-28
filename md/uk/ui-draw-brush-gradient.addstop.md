@@ -1,33 +1,43 @@
-- [« UI\Draw\Brush\Gradient](class.ui-draw-brush-gradient.md)
-- [UI\Draw\Brush\Gradient::delStop »](ui-draw-brush-gradient.delstop.md)
+Додає вузол градієнта
 
-- [PHP Manual](index.md)
-- [UI\Draw\Brush\Gradient](class.ui-draw-brush-gradient.md)
-- Додає вузол градієнта
+-   [« UI\\Draw\\Brush\\Gradient](class.ui-draw-brush-gradient.html)
+    
+-   [UI\\Draw\\Brush\\Gradient::delStop »](ui-draw-brush-gradient.delstop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Brush\\Gradient](class.ui-draw-brush-gradient.html)
+    
+-   Додає вузол градієнта
+    
 
-# UI\Draw\Brush\Gradient::addStop
+# ОЙDrawBrushGradient::addStop
 
 (UI 2.0.0)
 
-UI\Draw\Brush\Gradient::addStop — Додає вузол градієнта
+ОЙDrawBrushGradient::addStop — Додає вузол градієнта
 
 ### Опис
 
-public **UI\Draw\Brush\Gradient::addStop**(float `$position`,
-[UI\Draw\Color](class.ui-draw-color.md) `$color`): int
+```methodsynopsis
+public UI\Draw\Brush\Gradient::addStop(float $position, UI\Draw\Color $color): int
+```
 
-public **UI\Draw\Brush\Gradient::addStop**(float `$position`, int
-`$color`): int
+```methodsynopsis
+public UI\Draw\Brush\Gradient::addStop(float $position, int $color): int
+```
 
 Додає вузол градієнта заданого кольору заданої позиції.
 
 ### Список параметрів
 
 `position`
+
 Позиція нового вузла.
 
-`col`
-Колір для нового вузла може бути UI\Draw\Color або RRGGBBAA.
+`color`
+
+Колір для нового вузла, можливо UIDrawColor або RRGGBBAA.
 
 ### Значення, що повертаються
 

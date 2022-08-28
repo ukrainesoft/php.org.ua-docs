@@ -1,109 +1,144 @@
-- [« EvPrepare::createStopped](evprepare.createstopped.md)
-- [EvSignal::\_\_construct »](evsignal.construct.md)
+Клас EvSignal
 
-- [PHP Manual](index.md)
-- [Ev](book.ev.md)
-- Клас EvSignal
+-   [« EvPrepare::createStopped](evprepare.createstopped.html)
+    
+-   [EvSignal::\_\_construct »](evsignal.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ev](book.ev.html)
+    
+-   Клас EvSignal
+    
 
 # Клас EvSignal
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 ## Вступ
 
-Спостерігач **EvSignal** створює подію, коли процес отримує один або
-кілька конкретних сигналів. Оскільки сигнали приходять асинхронно,
-*libev* намагається з цим боротися та доставляти їх синхронно, тобто
-аналогічно всім іншим подіям у нормальному режимі обробки.
+Спостерігач **EvSignal** створює подію коли процес отримує чи кілька конкретних сигналів. Оскільки сигнали надходять асинхронно, *libev* намагається з цим боротися і доставляти їх синхронно, тобто аналогічно до всіх інших подій у нормальному режимі обробки.
 
-Обмежень на кількість спостерігачів за одним і тим самим сигналом немає,
-але лише в межах одного подієвого циклу. Наприклад, у циклі по
-замовчуванням працює спостерігач за **`SIGINT`**, а в іншому циклі
-спостерігач за **`SIGIO`**, але при цьому не можна спостерігати за **`SIGINT`**
-у двох циклах одразу. Ну і за **`SIGCHLD`** можна спостерігати лише у
-цикл за замовчуванням.
+Обмежень на кількість спостерігачів за тим самим сигналом немає, але тільки в межах одного подієвого циклу. Наприклад, у циклі за замовчуванням працює спостерігач за **`SIGINT`**, а в іншому циклі спостерігач за **`SIGIO`**, але при цьому не можна спостерігати **`SIGINT`** у двох циклах одразу. Ну і за **`SIGCHLD`** можна спостерігати лише у циклі за замовчуванням.
 
-Якщо доступно та підтримується, *libev* встановлює свої обробники з
-дозволеною поведінкою `SA_RESTART` (або аналогом), тому системні
-дзвінки не будуть некоректно перериватися. Якщо виникатимуть проблеми з
-перериванням системних викликів сигналами, всі сигнали можна блокувати в
-спостерігачеві [EvCheck](class.evcheck.md) та розблокувати у спостерігачі
-[EvPrepare](class.evprepare.md).
+Якщо доступно та підтримується, *libev* встановлює свої обробники з дозволеною поведінкою `SA_RESTART` (або аналогом), тому системні дзвінки не будуть некоректно перериватися. Якщо виникають проблеми із перериванням системних викликів сигналами, всі сигнали можна блокувати у спостерігачі [EvCheck](class.evcheck.html) та розблокувати у спостерігачі [EvPrepare](class.evprepare.html)
 
 ## Огляд класів
 
-class **EvSignal** extends [EvWatcher](class.evwatcher.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
+    
+    
+     
+      class EvSignal
+     
+     
+      extends
+       EvWatcher
+     
+     {
+    
+    /* Свойства */
+    
+     public
+      $signum;
 
-public `$signum`;
+    /* Наследуемые свойства */
+    public
+      $is_active;
+public
+      $data;
+public
+      $is_pending;
+public
+      $priority;
 
-/\* Наслідувані властивості \*/
+    /* Методы */
+    
+   public
+   __construct(    
+    int
+     $signum
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   )
 
-public `$is_active`;
+    final
+   public
+   static
+   createStopped(    
+    int
+     $signum
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvSignal
+public
+   set(
+    int
+     $signum
+   ): void
 
-public `$data`;
+    /* Наследуемые методы */
+    public
+   EvWatcher::clear(): int
+public
+   EvWatcher::feed(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::getLoop(): EvLoop
+public
+   EvWatcher::invoke(
+    int
+     $revents
+   ): void
+public
+   EvWatcher::keepalive(
+    bool
+     $value
+    = ?): bool
+public
+   EvWatcher::setCallback(
+    callable
+     $callback
+   ): void
+public
+   EvWatcher::start(): void
+public
+   EvWatcher::stop(): void
 
-public `$is_pending`;
-
-public `$priority`;
-
-/\* Методи \*/
-
-public [\_\_construct](evsignal.construct.md)(
-int `$signum` ,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-)
-
-final public static [createStopped](evsignal.createstopped.md)(
-int `$signum` ,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvSignal](class.evsignal.md)
-
-public [set](evsignal.set.md)( int `$signum`): void
-
-/\* Наслідувані методи \*/
-
-public [EvWatcher::clear](evwatcher.clear.md)(): int
-
-public [EvWatcher::feed](evwatcher.feed.md)( int `$revents` ): void
-
-public [EvWatcher::getLoop](evwatcher.getloop.md)():
-[EvLoop](class.evloop.md)
-
-public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
-void
-
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
-?): bool
-
-public [EvWatcher::setCallback](evwatcher.setcallback.md)(
-[callable](language.types.callable.md) `$callback` ): void
-
-public [EvWatcher::start](evwatcher.start.md)(): void
-
-public [EvWatcher::stop](evwatcher.stop.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`signum`
-Номер сигналу. Дивіться константи, експортовані модулем *pcntl*.
-Також дивіться сторінку керівництва `signal(7)`.
+signum
+
+Номер сигналу. Дивіться константи, експортовані модулем *pcntl*. Також дивіться сторінку керівництва `signal(7)`
 
 ## Зміст
 
-- [EvSignal::\_\_construct](evsignal.construct.md) - Конструктор
-об'єкта спостерігача EvSignal
-- [EvSignal::createStopped](evsignal.createstopped.md) - Create
-stopped EvSignal watcher object
-- [EvSignal::set](evsignal.set.md) — Налаштування спостерігача
+-   [EvSignal::\_\_construct](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::createStopped](evsignal.createstopped.html) — Create stopped EvSignal watcher object
+-   [EvSignal::set](evsignal.set.html) — Налаштування спостерігача

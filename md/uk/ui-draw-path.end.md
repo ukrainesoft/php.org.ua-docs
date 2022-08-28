@@ -1,19 +1,27 @@
-- [« UI\Draw\Path::\_\_construct](ui-draw-path.construct.md)
-- [UI\Draw\Path::lineTo »](ui-draw-path.lineto.md)
+Завершити шлях
 
-- [PHP Manual](index.md)
-- [UI\Draw\Path](class.ui-draw-path.md)
-- Завершити шлях
+-   [« UI\\Draw\\Path::\_\_construct](ui-draw-path.construct.html)
+    
+-   [UI\\Draw\\Path::lineTo »](ui-draw-path.lineto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Path](class.ui-draw-path.html)
+    
+-   Завершити шлях
+    
 
-# UI\Draw\Path::end
+# ОЙDrawPath::end
 
 (UI 0.9.9)
 
-UI\Draw\Path::end — Завершити шлях
+ОЙDrawPath::end — Завершити шлях
 
 ### Опис
 
-public **UI\Draw\Path::end**()
+```methodsynopsis
+public UI\Draw\Path::end()
+```
 
 Завершить цей шлях
 

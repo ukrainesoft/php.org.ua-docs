@@ -1,31 +1,34 @@
-- [«dgettext](function.dgettext.md)
-- [gettext»](function.gettext.md)
+Версія dgettext для множини
 
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Версія dgettext для множини
+-   [« dgettext](function.dgettext.html)
+    
+-   [gettext »](function.gettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции gettext](ref.gettext.html)
+    
+-   Версія dgettext для множини
+    
 
 # dngettext
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
 dngettext — Версія dgettext для множини
 
 ### Опис
 
-**dngettext**(
-string `$domain`,
-string `$singular`,
-string `$plural`,
-int `$count`
-): string
+```methodsynopsis
+dngettext(    string $domain,    string $singular,    string $plural,    int $count): string
+```
 
-Функція **dngettext()** дозволяє перевизначити поточний домен `domain`
-для одного повідомлення у множині.
+Функція **dngettext()** дозволяє перевизначити поточний домен `domain` для одного повідомлення у множині.
 
 ### Список параметрів
 
 `domain`
+
 Домен.
 
 `singular`
@@ -40,5 +43,4 @@ int `$count`
 
 ### Дивіться також
 
-- [ngettext()](function.ngettext.md) - Версія gettext для повідомлень
-у множині
+-   [ngettext()](function.ngettext.html) - Версія gettext для повідомлень у множині

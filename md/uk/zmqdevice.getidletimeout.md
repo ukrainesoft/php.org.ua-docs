@@ -1,11 +1,17 @@
-- [«ZMQDevice::\_\_construct](zmqdevice.construct.md)
-- [ZMQDevice::getTimerTimeout »](zmqdevice.gettimertimeout.md)
+Отримати час очікування бездіяльності
 
-- [PHP Manual](index.md)
-- [ZMQDevice](class.zmqdevice.md)
-- Отримати час очікування бездіяльності
+-   [« ZMQDevice::\_\_construct](zmqdevice.construct.html)
+    
+-   [ZMQDevice::getTimerTimeout »](zmqdevice.gettimertimeout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQDevice](class.zmqdevice.html)
+    
+-   Отримати час очікування бездіяльності
+    
 
-# ZMQDevice::getIdleTimeout
+# ZMQ Device::setIdleTimeout
 
 (No version information available, might only be in Git)
 
@@ -13,11 +19,11 @@ ZMQDevice::getIdleTimeout — Отримати час очікування бе�
 
 ### Опис
 
-public **ZMQDevice::getIdleTimeout**():
-[ZMQDevice](class.zmqdevice.md)
+```methodsynopsis
+public ZMQDevice::getIdleTimeout(): ZMQDevice
+```
 
-Повертає значення часу очікування callback-функції бездіяльності.
-Додано до версії модуля 1.1.0.
+Повертає значення часу очікування callback-функції бездіяльності. Додано до версії модуля 1.1.0.
 
 ### Список параметрів
 

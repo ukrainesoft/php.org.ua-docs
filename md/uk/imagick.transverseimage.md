@@ -1,23 +1,29 @@
-- [« Imagick::transposeImage](imagick.transposeimage.md)
-- [Imagick::trimImage »](imagick.trimimage.md)
+Створює горизонтальне дзеркальне відображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює горизонтальне дзеркальне відображення
+-   [« Imagick::transposeImage](imagick.transposeimage.html)
+    
+-   [Imagick::trimImage »](imagick.trimimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Створює горизонтальне дзеркальне відображення
+    
 
 # Imagick::transverseImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::transverseImage — Створює дзеркальне горизонтальне відображення
+Imagick::transverseImage — Створює горизонтальне дзеркальне відображення
 
 ### Опис
 
-public **Imagick::transverseImage**(): bool
+```methodsynopsis
+public Imagick::transverseImage(): bool
+```
 
-Створює горизонтальне дзеркальне зображення, відображаючи пікселі навколо
-центральної осі Y, повертаючи їх на 270 градусів. Цей метод доступний,
-якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
+Створює горизонтальне дзеркальне зображення, відбиваючи пікселі навколо центральної осі Y, повертаючи їх у 270 градусів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -25,15 +31,24 @@ public **Imagick::transverseImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::transverseImage()****
 
-` <?phpfunction transverseImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->transverseImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function transverseImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->transverseImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::transposeImage()](imagick.transposeimage.md) - Створює
-вертикальне дзеркальне відображення
+-   [Imagick::transposeImage()](imagick.transposeimage.html) - Створює вертикальне дзеркальне відображення

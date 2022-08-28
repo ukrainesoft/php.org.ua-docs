@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](geoip.configuration.md)
-- [Предвизначені константи »](geoip.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](geoip.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](geoip.configuration.html)
+    
+-   [Предопределённые константы »](geoip.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](geoip.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

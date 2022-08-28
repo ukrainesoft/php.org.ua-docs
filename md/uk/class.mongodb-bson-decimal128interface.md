@@ -1,33 +1,46 @@
-- [« MongoDB\BSON\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.md)
-- [MongoDB\BSON\Decimal128Interface::\_\_toString »](mongodb-bson-decimal128interface.tostring.md)
+Інтерфейс MongoDBBSONDecimal128Interface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\Decimal128Interface
+-   [« MongoDB\\BSON\\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.html)
+    
+-   [MongoDB\\BSON\\Decimal128Interface::\_\_toString »](mongodb-bson-decimal128interface.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON](book.bson.html)
+    
+-   Інтерфейс MongoDBBSONDecimal128Interface
+    
 
-# Інтерфейс MongoDB\BSON\Decimal128Interface
+# Інтерфейс MongoDBBSONDecimal128Interface
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
 ## Вступ
 
-Цей інтерфейс реалізовано
-[MongoDB\BSON\Decimal128](class.mongodb-bson-decimal128.md), але також
-може використовуватися як параметр, що повертається значення або
-типу якості у класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
-class **MongoDB\BSON\Decimal128Interface** {
+```classsynopsis
 
-/\* Методи \*/
+    
+     
+      class MongoDB\BSON\Decimal128Interface
+     
+     {
+    /* Методы */
+    
+   abstract public __toString(): string
 
-abstract public
-[\_\_toString](mongodb-bson-decimal128interface.tostring.md)(): string
+   }
+```
 
-}
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\BSON\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.md)
-— Повертає рядкову виставу Decimal128Interface
+-   [MongoDB\\BSON\\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.html) — Повертає рядкову виставу Decimal128Interface

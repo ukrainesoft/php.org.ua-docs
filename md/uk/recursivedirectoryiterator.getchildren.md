@@ -1,27 +1,31 @@
-- [« RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.md)
-- [RecursiveDirectoryIterator::getSubPath »](recursivedirectoryiterator.getsubpath.md)
+Якщо поточний елемент є директорією, метод повертає нею ітератор
 
-- [PHP Manual](index.md)
-- [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-- Якщо поточний елемент є директорією, метод повертає неї
-ітератор
+-   [« RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.html)
+    
+-   [RecursiveDirectoryIterator::getSubPath »](recursivedirectoryiterator.getsubpath.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+    
+-   Якщо поточний елемент є директорією, метод повертає нею ітератор
+    
 
 # RecursiveDirectoryIterator::getChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveDirectoryIterator::getChildren — Якщо поточний елемент є
-директорією, метод повертає для неї ітератор
+RecursiveDirectoryIterator::getChildren - Якщо поточний елемент є директорією, метод повертає для неї ітератор
 
 ### Опис
 
-public **RecursiveDirectoryIterator::getChildren**():
-[RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
+```methodsynopsis
+public RecursiveDirectoryIterator::getChildren(): RecursiveDirectoryIterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,6 +33,4 @@ public **RecursiveDirectoryIterator::getChildren**():
 
 ### Значення, що повертаються
 
-Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме
-буде повертатись залежить від прапорів налаштувань. Дивіться додатково
-[Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме повертатиметься залежить від прапорів налаштувань. Дивіться додатково [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)

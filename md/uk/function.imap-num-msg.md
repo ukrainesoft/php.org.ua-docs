@@ -1,42 +1,47 @@
-- [« imap_mutf7_to_utf8](function.imap-mutf7-to-utf8.md)
-- [imap_num_recent »](function.imap-num-recent.md)
+Отримати кількість повідомлень у поточній поштовій скриньці
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати кількість повідомлень у поточній поштовій скриньці
+-   [« imap\_mutf7\_to\_utf8](function.imap-mutf7-to-utf8.html)
+    
+-   [imap\_num\_recent »](function.imap-num-recent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Отримати кількість повідомлень у поточній поштовій скриньці
+    
 
-#imap_num_msg
+# imapnummsg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_num_msg — Отримати кількість повідомлень у поточній поштовій скриньці
+imapnummsg — Отримати кількість повідомлень у поточній поштовій скриньці
 
 ### Опис
 
-**imap_num_msg**([IMAP\Connection](class.imap-connection.md) `$imap`):
-int\|false
+```methodsynopsis
+imap_num_msg(IMAP\Connection $imap): int|false
+```
 
 Повертає кількість повідомлень у поточній поштовій скриньці.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
-Повертає кількість повідомлень у поточній поштовій скриньці у вигляді цілого
-числа. У разі виникнення помилки повертає **`false`**.
+Повертає кількість повідомлень у поточній поштовій скриньці у вигляді цілого числа. У разі виникнення помилки повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_num_recent()](function.imap-num-recent.md) - Отримати
-кількість нових повідомлень у поточній поштовій скриньці
-- [imap_status()](function.imap-status.md) - Отримати інформацію з
-статусу поштової скриньки
+-   [imap\_num\_recent()](function.imap-num-recent.html) - Отримати кількість нових повідомлень у поточній поштовій скриньці
+-   [imap\_status()](function.imap-status.html) - Отримати інформацію про статус поштової скриньки

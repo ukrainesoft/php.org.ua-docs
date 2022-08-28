@@ -1,25 +1,29 @@
-- [« MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError »](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.md)
+Повертає тривалість heartbeat у мікросекундах
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-- Повертає тривалість heartbeat у мікросекундах
+-   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getError »](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+    
+-   Повертає тривалість heartbeat у мікросекундах
+    
 
-# MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros
+# MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros
-— Повертає тривалість heartbeat у мікросекундах
+MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros — Повертає тривалість heartbeat у мікросекундах
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros**():
-int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros(): int
+```
 
-Тривалість heartbeat - це розрахункове значення, яке включає
-час відправлення повідомлення та отримання відповіді від сервера.
+Тривалість heartbeat - це розрахункове значення, яке включає час відправки повідомлення і отримання відповіді від сервера.
 
 ### Список параметрів
 
@@ -31,5 +35,4 @@ int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

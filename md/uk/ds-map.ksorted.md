@@ -1,40 +1,43 @@
-- [« Ds\Map::ksort](ds-map.ksort.md)
-- [Ds\Map::last »](ds-map.last.md)
+Повертає копію колекції, відсортованої за ключами
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає копію колекції, відсортованої за ключами
+-   [« Ds\\Map::ksort](ds-map.ksort.html)
+    
+-   [Ds\\Map::last »](ds-map.last.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Коллекция пар ключ-значение](class.ds-map.html)
+    
+-   Повертає копію колекції, відсортованої за ключами
+    
 
-# Ds\Map::ksorted
+# ДсMap::ksorted
 
 (No version information available, might only be in Git)
 
-Ds\Map::ksorted — Повертає копію відсортованої колекції.
+ДсMap::ksorted — Повертає копію колекції, відсортованої за ключами
 
 ### Опис
 
-public **Ds\Map::ksorted**([callable](language.types.callable.md)
-`$comparator` = ?): [Ds\Map](class.ds-map.md)
+```methodsynopsis
+public Ds\Map::ksorted(callable $comparator = ?): Ds\Map
+```
 
-Повертає копію колекції, відсортованої за ключами, опціонально
-використовуючи callback-функцію `comparator` для порівняння елементів.
+Повертає копію колекції, відсортованої за ключами, опціонально використовуючи callback-функцію `comparator` для порівняння елементів.
 
 ### Список параметрів
 
 `comparator`
-Функція порівняння повинна повертати ціле, яке менше, або
-більше нуля, якщо перший аргумент є відповідно меншим,
-рівним чи більшим, ніж другий.
 
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$a`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$b`): int
+Функція порівняння повинна повертати ціле, яке менше, дорівнює чи більше нуля, якщо перший аргумент є відповідно меншим, рівним чи більшим, ніж другий.
+
+```methodsynopsis
+callback(mixed $a, mixed $b): int
+```
 
 **Застереження**
-Повернення *не цілого* значення функції порівняння, такого як float,
-буде приведено до цілого числа (int). Так що значення типу 0.99 та 0.1
-будуть приведені до 0, що означатиме рівність порівнюваних значень.
+
+Повернення *не цілого* значення функції порівняння, такого як float, буде приведено до цілого числа (int). Отже значення типу 0.99 і 0.1 будуть наведені до 0, що означатиме рівність порівнюваних значень.
 
 ### Значення, що повертаються
 
@@ -42,61 +45,81 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::ksorted()****
+**Приклад #1 Приклад використання **ДсMap::ksorted()****
 
-` <?php$map = new \Ds\Map(["b" => 2, "c" => 3, "a" => 1]);print_r($map->ksorted());?> `
+```php
+<?php
+$map = new \Ds\Map(["b" => 2, "c" => 3, "a" => 1]);
 
-Результатом виконання цього прикладу буде щось подібне:
-
-Ds\Map Object
-Ds\Map Object
-(
-[0] => Ds\Pair Object
-(
-[key] => a
-[value] => 1
-)
-
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 2
-)
-
-[2] => Ds\Pair Object
-(
-[key] => c
-[value] => 3
-)
-
-)
-
-**Приклад #2 Приклад використання **Ds\Map::ksorted()** з
-callback-функцією порівняння**
-
-` <?php$map = new \Ds\Map([1 => "x", 2 => "y", 0 => "z"]);// Зворотний порядок$sorted = $map->ksorted( function($a, $b) {   return $b <=> $a;});print_r($sorted);?> `
+print_r($map->ksorted());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Map Object
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => 2
-[value] => y
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 1
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => 1
-[value] => x
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 2
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => 0
-[value] => z
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 3
+        )
 
 )
+```
+
+**Приклад #2 Приклад використання **ДсMap::ksorted()** з callback-функцією порівняння**
+
+```php
+<?php
+$map = new \Ds\Map([1 => "x", 2 => "y", 0 => "z"]);
+
+// Обратный порядок
+$sorted = $map->ksorted(function($a, $b) {
+    return $b <=> $a;
+});
+
+print_r($sorted);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+Ds\Map Object
+Ds\Map Object
+(
+    [0] => Ds\Pair Object
+        (
+            [key] => 2
+            [value] => y
+        )
+
+    [1] => Ds\Pair Object
+        (
+            [key] => 1
+            [value] => x
+        )
+
+    [2] => Ds\Pair Object
+        (
+            [key] => 0
+            [value] => z
+        )
+
+)
+```

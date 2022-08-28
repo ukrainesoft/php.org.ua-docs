@@ -1,9 +1,15 @@
-- [« Imagick::queryFontMetrics](imagick.queryfontmetrics.md)
-- [Imagick::queryFormats »](imagick.queryformats.md)
+Повертає налаштовані шрифти
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає налаштовані шрифти
+-   [« Imagick::queryFontMetrics](imagick.queryfontmetrics.html)
+    
+-   [Imagick::queryFormats »](imagick.queryformats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає налаштовані шрифти
+    
 
 # Imagick::queryFonts
 
@@ -13,18 +19,21 @@ Imagick::queryFonts — Повертає налаштовані шрифти
 
 ### Опис
 
-public static **Imagick::queryFonts**(string `$pattern` = "\*"): array
+```methodsynopsis
+public static Imagick::queryFonts(string $pattern = "*"): array
+```
 
 Повертає налаштовані шрифти.
 
 ### Список параметрів
 
 `pattern`
+
 Шаблон запиту
 
 ### Значення, що повертаються
 
-Повертає масив, який містить налаштовані шрифти.
+Повертає масив, що містить налаштовані шрифти.
 
 ### Помилки
 
@@ -34,4 +43,18 @@ public static **Imagick::queryFonts**(string `$pattern` = "\*"): array
 
 **Приклад #1 Приклад використання **Imagick::queryFonts()****
 
-`<?php        $output = ''; $output .= "Шрифти, відповідні 'Helvetica*':<br/>"; $fontList = \Imagick::queryFonts("Helvetica*"); foreach ($fontList as $fontName) {            $output .= '<li>'. $fontName."</li>"; }    return $output;?> `
+```php
+<?php
+        $output = '';
+        $output .= "Шрифты, соответствующие 'Helvetica*':<br/>";
+
+        $fontList = \Imagick::queryFonts("Helvetica*");
+
+        foreach ($fontList as $fontName) {
+            $output .= '<li>'. $fontName."</li>";
+        }
+
+        return $output;
+
+?>
+```

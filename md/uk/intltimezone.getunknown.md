@@ -1,34 +1,41 @@
-- [« IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.md)
-- [IntlTimeZone::getWindowsID »](intltimezone.getwindowsid.md)
+Отримати невідомий часовий пояс (unknown)
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Отримати невідомий часовий пояс (unknown)
+-   [« IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.html)
+    
+-   [IntlTimeZone::getWindowsID »](intltimezone.getwindowsid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Отримати невідомий часовий пояс (unknown)
+    
 
 # IntlTimeZone::getUnknown
 
-# intltz_get_unknown
+# intltzgetunknown
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlTimeZone::getUnknown -- intltz_get_unknown — Отримати невідомий
-часовий пояс ("unknown")
+IntlTimeZone::getUnknown -- intltzgetunknown — Отримати невідомий часовий пояс (unknown)
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::getUnknown**():
-[IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+public static IntlTimeZone::getUnknown(): IntlTimeZone
+```
 
 Процедурний стиль:
 
-**intltz_get_unknown**(): [IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+intltz_get_unknown(): IntlTimeZone
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,5 +43,4 @@ public static **IntlTimeZone::getUnknown**():
 
 ### Значення, що повертаються
 
-Повертає [IntlTimeZone](class.intltimezone.md) або **`null`**
-у разі виникнення помилки.
+Повертає [IntlTimeZone](class.intltimezone.html) або **`null`** у разі виникнення помилки.

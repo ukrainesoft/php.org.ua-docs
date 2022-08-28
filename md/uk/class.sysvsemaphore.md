@@ -1,9 +1,15 @@
-- [« SysvMessageQueue](class.sysvmessagequeue.md)
-- [SysvSharedMemory »](class.sysvsharedmemory.md)
+Клас SysvSemaphore
 
-- [PHP Manual](index.md)
-- [Семафори](book.sem.md)
-- Клас SysvSemaphore
+-   [« SysvMessageQueue](class.sysvmessagequeue.html)
+    
+-   [SysvSharedMemory »](class.sysvsharedmemory.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Семафоры](book.sem.html)
+    
+-   Клас SysvSemaphore
+    
 
 # Клас SysvSemaphore
 
@@ -11,10 +17,23 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `sysvsem` у PHP 8.0.0.
+Повністю непрозорий клас, який замінює ресурс `sysvsem` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **SysvSemaphore** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class SysvSemaphore
+     
+     {
+    
+
+   }
+```

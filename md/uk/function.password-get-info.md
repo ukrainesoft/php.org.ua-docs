@@ -1,34 +1,40 @@
-- [«password_algos](function.password-algos.md)
-- [password_hash »](function.password-hash.md)
+Повертає інформацію про заданий хеш
 
-- [PHP Manual](index.md)
-- [Функції хешування паролів](ref.password.md)
-- Повертає інформацію про заданий хеш
+-   [« password\_algos](function.password-algos.html)
+    
+-   [password\_hash »](function.password-hash.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции хеширования паролей](ref.password.html)
+    
+-   Повертає інформацію про заданий хеш
+    
 
-#password_get_info
+# passwordgetinfo
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-password_get_info — Повертає інформацію про заданий хеш
+passwordgetinfo — Повертає інформацію про заданий хеш
 
 ### Опис
 
-**password_get_info**(string `$hash`): array
+```methodsynopsis
+password_get_info(string $hash): array
+```
 
-Якщо передано коректний хеш, створений підтримуваним
-[password_hash()](function.password-hash.md) алгоритмом, то ця
-функція поверне інформацію про це хеш.
+Якщо передано коректний хеш, створений підтримуваним [password\_hash()](function.password-hash.html) алгоритмом, то ця функція поверне інформацію про це хеш.
 
 ### Список параметрів
 
 `hash`
-Хеш, створений функцією [password_hash()](function.password-hash.md).
+
+Хеш, створений функцією [password\_hash()](function.password-hash.html)
 
 ### Значення, що повертаються
 
 Повертає асоціативний масив із трьома елементами:
 
-- `algo`, що містить одну з [констант алгоритмів паролів](password.constants.md)
-- `algoName`, що містить ім'я алгоритму в людиночитаному вигляді
-- `options`, що включає опції, передані під час виклику
-[password_hash()](function.password-hash.md)
+-   `algo`, що містить одну з [констант алгоритмов паролей](password.constants.html)
+-   `algoName`, Що містить ім'я алгоритму в людиночитаному вигляді
+-   `options`, що включає опції, передані під час виклику [password\_hash()](function.password-hash.html)

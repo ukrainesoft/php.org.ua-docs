@@ -1,22 +1,29 @@
-- [« Imagick::setFilename](imagick.setfilename.md)
-- [Imagick::setFont »](imagick.setfont.md)
+Встановлює ітератор Imagick для першого зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює ітератор Imagick для першого зображення
+-   [« Imagick::setFilename](imagick.setfilename.html)
+    
+-   [Imagick::setFont »](imagick.setfont.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює ітератор Imagick для першого зображення
+    
 
 # Imagick::setFirstIterator
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setFirstIterator — Встановлює ітератор Imagick для першого
-зображення
+Imagick::setFirstIterator — Встановлює ітератор Imagick для першого зображення
 
 ### Опис
 
-public **Imagick::setFirstIterator**(): bool
+```methodsynopsis
+public Imagick::setFirstIterator(): bool
+```
 
-Встановлює ітератор Imagick першого зображення.
+Встановлює ітератор Imagick для першого зображення.
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ public **Imagick::setFirstIterator**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

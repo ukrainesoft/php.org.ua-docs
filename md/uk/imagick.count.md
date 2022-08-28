@@ -1,29 +1,35 @@
-- [« Imagick::convolveImage](imagick.convolveimage.md)
-- [Imagick::cropImage »](imagick.cropimage.md)
+Отримує кількість зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує кількість зображень
+-   [« Imagick::convolveImage](imagick.convolveimage.html)
+    
+-   [Imagick::cropImage »](imagick.cropimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Отримує кількість зображень
+    
 
 # Imagick::count
 
-(PECL imagick 3 \>= 3.3.0)
+(PECL imagick 3> = 3.3.0)
 
 Imagick::count — Отримує кількість зображень
 
 ### Опис
 
-public **Imagick::count**(int `$mode` = 0): int
+```methodsynopsis
+public Imagick::count(int $mode = 0): int
+```
 
 Повертає кількість зображень.
 
 ### Список параметрів
 
 `mode`
-Невикористовуваний аргумент. В даний час у PHP є не дуже чітко
-певна функція, де виклик count() для лічильного об'єкта може (або
-не може) вимагати, щоб метод набув параметра. Параметр повинен
-відповідати інтерфейсу лічильного, навіть якщо він не використовується.
+
+Невикористовуваний аргумент. В даний час у PHP є не дуже чітко визначена функція, де виклик count() для лічильного об'єкта може (або не може) вимагати, щоб метод прийняв параметр. Параметр повинен відповідати інтерфейсу лічильного, навіть якщо він не використовується.
 
 ### Значення, що повертаються
 

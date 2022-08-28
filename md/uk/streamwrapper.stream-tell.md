@@ -1,22 +1,29 @@
-- [« streamWrapper::stream_stat](streamwrapper.stream-stat.md)
-- [streamWrapper::stream_truncate »](streamwrapper.stream-truncate.md)
+Визначення поточної позиції потоку
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Визначення поточної позиції потоку
+-   [« streamWrapper::stream\_stat](streamwrapper.stream-stat.html)
+    
+-   [streamWrapper::stream\_truncate »](streamwrapper.stream-truncate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Визначення поточної позиції потоку
+    
 
-# streamWrapper::stream_tell
+# streamWrapper::streamtell
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::stream_tell — Визначення поточної позиції потоку
+streamWrapper::streamtell — Визначення поточної позиції потоку
 
 ### Опис
 
-public **streamWrapper::stream_tell**(): int
+```methodsynopsis
+public streamWrapper::stream_tell(): int
+```
 
-Цей метод викликається у процесі виконання
-[fseek()](function.fseek.md) для визначення поточної позиції.
+Цей метод викликається у процесі виконання [fseek()](function.fseek.html) визначення поточної позиції.
 
 ### Список параметрів
 
@@ -28,4 +35,4 @@ public **streamWrapper::stream_tell**(): int
 
 ### Дивіться також
 
-- **streamWrapper::stream_tell()**
+-   **streamWrapper::streamtell()**

@@ -1,57 +1,66 @@
-- [«mb_substitute_character](function.mb-substitute-character.md)
-- [mb_substr »](function.mb-substr.md)
+Повертає кількість входжень підрядка
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Повертає кількість входжень підрядки
+-   [« mb\_substitute\_character](function.mb-substitute-character.html)
+    
+-   [mb\_substr »](function.mb-substr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+    
+-   Повертає кількість входжень підрядка
+    
 
-#mb_substr_count
+# мбsubstrcount
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-mb_substr_count — Повертає кількість входжень підрядка
+мбsubstrcount — Повертає кількість входжень підрядка
 
 ### Опис
 
-**mb_substr_count**(string `$haystack`, string `$needle`, ?string
-`$encoding` = **`null`**): int
+```methodsynopsis
+mb_substr_count(string $haystack, string $needle, ?string $encoding = null): int
+```
 
-Підраховує, скільки разів підрядок `needle` зустрічається у рядку
-`haystack`.
+Підраховує, скільки разів підрядок `needle` зустрічається у рядку `haystack`
 
 ### Список параметрів
 
 `haystack`
+
 Рядок (string) для перевірки
 
 `needle`
+
 Рядок (string) для пошуку
 
 `encoding`
-Параметр 'encoding' є символьним кодуванням. Якщо він
-опущений або дорівнює **`null`**, замість нього буде використано значення
-внутрішнього кодування.
+
+Параметр `encoding` є символьним кодуванням. Якщо він опущений або дорівнює **`null`**, замість нього буде використано значення внутрішнього кодування.
 
 ### Значення, що повертаються
 
-Кількість входжень підрядки `needle` у рядок `haystack`.
+Кількість входжень підрядка `needle` у рядок `haystack`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-|--------|----------------------------------------------------------|
-| 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mb_substr_count()****
+**Приклад #1 Приклад використання **мбsubstrcount()****
 
-`<?phpecho mb_substr_count("Це просто перевірка", "то"); // виведе на екран 2?> `
+```php
+<?php
+echo mb_substr_count("Это просто проверка", "то"); // выведет на экран 2
+?>
+```
 
 ### Дивіться також
 
-- [mb_strpos()](function.mb-strpos.md) - Пошук позиції першого
-входження одного рядка в інший
-- [mb_substr()](function.mb-substr.md) - Повертає частину рядка
-- [substr_count()](function.substr-count.md) - Повертає число
-входжень підрядки
+-   [mb\_strpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого
+-   [mb\_substr()](function.mb-substr.html) - Повертає частину рядка
+-   [substr\_count()](function.substr-count.html) - Повертає кількість входжень підрядка

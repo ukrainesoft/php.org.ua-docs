@@ -1,63 +1,60 @@
-- [«gzwrite](function.gzwrite.md)
-- [inflate_get_read_len »](function.inflate-get-read-len.md)
+Інкрементальне розпакувати закодовані дані
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Інкрементальне розпакувати закодовані дані
+-   [« gzwrite](function.gzwrite.html)
+    
+-   [inflate\_get\_read\_len »](function.inflate-get-read-len.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zlib](ref.zlib.html)
+    
+-   Інкрементальне розпакувати закодовані дані
+    
 
-#inflate_add
+# inflateadd
 
 (PHP 7, PHP 8)
 
-inflate_add — Інкрементальне розпакування закодованих даних
+inflateadd — Інкрементальне розпакування закодованих даних
 
 ### Опис
 
-**inflate_add**([InflateContext](class.inflatecontext.md) `$context`,
-string `$data`, int `$flush_mode` = **`ZLIB_SYNC_FLUSH`**):
-string\|false
+```methodsynopsis
+inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_FLUSH): string|false
+```
 
-Інкрементальне розпаковує закодовані дані у вказаному
-контексті `context`.
+Інкрементальне розпаковує закодовані дані у зазначеному контексті `context`
 
 Обмеження: інформація заголовка зі стислих даних GZIP недоступна.
 
 ### Список параметрів
 
 `context`
-Контекст, створений за допомогою
-[inflate_init()](function.inflate-init.md).
+
+Контекст, створений за допомогою [inflate\_init()](function.inflate-init.html)
 
 `data`
+
 Блок стислих даних.
 
 `flush_mode`
-Одна з констант: **`ZLIB_BLOCK`**, **`ZLIB_NO_FLUSH`**,
-**`ZLIB_PARTIAL_FLUSH`**, **`ZLIB_SYNC_FLUSH`** (за замовчуванням),
-**`ZLIB_FULL_FLUSH`**, **`ZLIB_FINISH`**. Зазвичай потрібно встановити
-**`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для максимальної компресії
-завершення роботи з останнім блоком даних. Детальний опис констант
-дивіться [керівництво zlib](http://www.zlib.net/manual.md).
+
+Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» руководство zlib](http://www.zlib.net/manual.html)
 
 ### Значення, що повертаються
 
-Повертає блок розпакованих даних або **`false`** у разі
-виникнення помилки.
+Повертає блок розпакованих даних або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо передано некоректні параметри, розпакування вимагає наявність
-словника, але він не заданий, потік стислих даних зіпсований
-некоректну контрольну суму, то генерується помилка рівня
-**`E_WARNING`**.
+Якщо передано некоректні параметри, розпакування вимагає наявність словника, але він не заданий, потік стислих даних зіпсований або має некоректну контрольну суму, то генерується помилка рівня **`E_WARNING`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------|
-| 8.0.0  | context чекає екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [inflate_init()](function.inflate-init.md) - Ініціалізація
-контексту інкрементального розпакування
+-   [inflate\_init()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування

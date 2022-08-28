@@ -1,23 +1,29 @@
-- [« ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md)
-- [ReflectionFunctionAbstract::getReturnType »](reflectionfunctionabstract.getreturntype.md)
+Отримує параметри
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує параметри
+-   [« ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.html)
+    
+-   [ReflectionFunctionAbstract::getReturnType »](reflectionfunctionabstract.getreturntype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Отримує параметри
+    
 
 # ReflectionFunctionAbstract::getParameters
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getParameters — Отримує параметри
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getParameters**(): array
+```methodsynopsis
+public ReflectionFunctionAbstract::getParameters(): array
+```
 
-Отримання параметрів у вигляді масиву об'єктів
-[ReflectionParameter](class.reflectionparameter.md) в тому порядку,
-якому вони визначені у джерелі.
+Отримання параметрів у вигляді масиву об'єктів [ReflectionParameter](class.reflectionparameter.html) у тому порядку, в якому вони визначені у джерелі.
 
 ### Список параметрів
 
@@ -25,12 +31,9 @@ public **ReflectionFunctionAbstract::getParameters**(): array
 
 ### Значення, що повертаються
 
-Параметри, представлені об'єктами
-[ReflectionParameter](class.reflectionparameter.md).
+Параметри, представлені об'єктами [ReflectionParameter](class.reflectionparameter.html)
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) -
-Отримує кількість параметрів
-- [func_get_args()](function.func-get-args.md) - Повертає масив,
-містить аргументи функції
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
+-   [func\_get\_args()](function.func-get-args.html) - Повертає масив, що містить аргументи функції

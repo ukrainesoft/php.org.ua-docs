@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](errorfunc.setup.md)
-- [Установка »](errorfunc.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](errorfunc.setup.md)
-- Вимоги
+-   [« Установка и настройка](errorfunc.setup.html)
+    
+-   [Установка »](errorfunc.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](errorfunc.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

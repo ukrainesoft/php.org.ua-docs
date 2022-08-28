@@ -1,27 +1,34 @@
-- [«TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.md)
-- [TableSelect::limit »](mysql-xdevapi-tableselect.limit.md)
+Встановлює вибір із умовою
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-- Встановлює вибір із умовою
+-   [« TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.html)
+    
+-   [TableSelect::limit »](mysql-xdevapi-tableselect.limit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+    
+-   Встановлює вибір із умовою
+    
 
 # TableSelect::having
 
 (No version information available, might only be in Git)
 
-TableSelect::having — Встановлює вибір із умовою
+TableSelect::having — Встановлює вибір з умовою
 
 ### Опис
 
-public **mysql_xdevapi\TableSelect::having**(string `$sort_expr`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
+```methodsynopsis
+public mysql_xdevapi\TableSelect::having(string $sort_expr): mysql_xdevapi\TableSelect
+```
 
-Встановлює умову для записів для розгляду в операціях
-Агрегатної функції.
+Встановлює умову для записів до розгляду в операціях агрегатної функції.
 
 ### Список параметрів
 
 `sort_expr`
+
 Умова для агрегатних функцій, що використовуються в умовах угруповання.
 
 ### Значення, що повертаються
@@ -30,18 +37,40 @@ public **mysql_xdevapi\TableSelect::having**(string `$sort_expr`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableSelect::having()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::having()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 42)")->execute();$session->sql("INSERT INTO addressbook.names values ('Suki', 31)")->execute ();$schema = $session->getSchema("addressbook");$table = $schema->getTable("names");$result = $table->select('count(*) as count', ' age') ->groupBy('age')->orderBy('age asc') ->having('count > 1') ->execute();$row = $result->fetchAll();print_r($ row);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 42)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('Suki', 31)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$result = $table->select('count(*) as count', 'age')
+  ->groupBy('age')->orderBy('age asc')
+  ->having('count > 1')
+  ->execute();
+
+$row = $result->fetchAll();
+print_r($row);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[count] => 2
-[age] => 42
+    [0] => Array
+        (
+            [count] => 2
+            [age] => 42
+        )
 )
-)
+```

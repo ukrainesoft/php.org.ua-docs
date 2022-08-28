@@ -1,19 +1,27 @@
-- [« GearmanClient::removeOptions](gearmanclient.removeoptions.md)
-- [GearmanClient::runTasks »](gearmanclient.runtasks.md)
+Отримати останній код повернення Gearman
 
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Отримати останній код повернення Gearman
+-   [« GearmanClient::removeOptions](gearmanclient.removeoptions.html)
+    
+-   [GearmanClient::runTasks »](gearmanclient.runtasks.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanClient](class.gearmanclient.html)
+    
+-   Отримати останній код повернення Gearman
+    
 
 # GearmanClient::returnCode
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanClient::returnCode — Отримати останній код повернення Gearman
 
 ### Опис
 
-public **GearmanClient::returnCode**(): int
+```methodsynopsis
+public GearmanClient::returnCode(): int
+```
 
 Повертає останній код повернення Gearman.
 

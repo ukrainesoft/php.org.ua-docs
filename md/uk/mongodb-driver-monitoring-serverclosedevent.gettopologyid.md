@@ -1,22 +1,27 @@
-- [« MongoDB\Driver\Monitoring\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md)
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent »](class.mongodb-driver-monitoring-serveropeningevent.md)
+Повертає ідентифікатор топології, пов'язаний із цим сервером
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-- Повертає ідентифікатор топології, пов'язаний із цим сервером
+-   [« MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent »](class.mongodb-driver-monitoring-serveropeningevent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+    
+-   Повертає ідентифікатор топології, пов'язаний із цим сервером
+    
 
-# MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId
+# MongoDBDriverMonitoringServerClosedEvent::getTopologyId
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId — Повертає
-ідентифікатор топології, пов'язаний із цим сервером
+MongoDBDriverMonitoringServerClosedEvent::getTopologyId — Повертає ідентифікатор топології, пов'язаний із цим сервером
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId**():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId(): MongoDB\BSON\ObjectId
+```
 
 ### Список параметрів
 
@@ -28,5 +33,4 @@ final public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

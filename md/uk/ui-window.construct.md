@@ -1,30 +1,38 @@
-- [«UI\Window::add](ui-window.add.md)
-- [UI\Window::error »](ui-window.error.md)
+Створити новий об'єкт Window
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Створити новий об'єкт Window
+-   [« UI\\Window::add](ui-window.add.html)
+    
+-   [UI\\Window::error »](ui-window.error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Створити новий об'єкт Window
+    
 
-# UI\Window::\_\_construct
+# ОЙWindow::construct
 
 (UI 0.9.9)
 
-UI\Window::\_\_construct — Створити новий об'єкт Window
+ОЙWindow::construct — Створити новий об'єкт Window
 
 ### Опис
 
-public **UI\Window::\_\_construct**(string `$title`, Size `$size`, bool
-`$menu` = **`false`**)
+public **ОЙWindow::construct**(string `$title`, Size `$size`, bool `$menu` **`false`**
 
 Створить новий об'єкт Window
 
 ### Список параметрів
 
 `title`
+
 Заголовок вікна
 
 `size`
+
 Розмір вікна
 
 `menu`
+
 Перемикач меню

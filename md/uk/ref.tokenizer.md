@@ -1,15 +1,19 @@
-- [« PhpToken::tokenize](phptoken.tokenize.md)
-- [token_get_all »](function.token-get-all.md)
+Функції PHP-лексера (tokenizer)
 
-- [PHP Manual](index.md)
-- [Лексер (Tokenizer)](book.tokenizer.md)
-- Функції PHP-лексера (tokenizer)
+-   [« PhpToken::tokenize](phptoken.tokenize.html)
+    
+-   [token\_get\_all »](function.token-get-all.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Лексер (Tokenizer)](book.tokenizer.html)
+    
+-   Функції PHP-лексера (tokenizer)
+    
 
 # Функції PHP-лексера (tokenizer)
 
 ## Зміст
 
-- [token_get_all](function.token-get-all.md) — Розбиває переданий
-вихідний код на PHP-лексеми
-- [token_name](function.token-name.md) — Отримати символьне ім'я
-переданої PHP-лексеми
+-   [token\_get\_all](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
+-   [token\_name](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми

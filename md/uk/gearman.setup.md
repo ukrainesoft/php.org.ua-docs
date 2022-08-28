@@ -1,15 +1,21 @@
-- [«Вступ](intro.gearman.md)
-- [Вимоги »](gearman.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Gearman](book.gearman.md)
+-   [« Введение](intro.gearman.html)
+    
+-   [Требования »](gearman.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gearman](book.gearman.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](gearman.requirements.md)
-- [Установка](gearman.installation.md)
-- [Налаштування під час виконання](gearman.configuration.md)
-- [Типи ресурсів](gearman.resources.md)
+-   [Требования](gearman.requirements.html)
+-   [Установка](gearman.installation.html)
+-   [Настройка во время выполнения](gearman.configuration.html)
+-   [Типы ресурсов](gearman.resources.html)

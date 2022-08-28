@@ -1,27 +1,34 @@
-- [«SolrDocument::offsetExists](solrdocument.offsetexists.md)
-- [SolrDocument::offsetSet »](solrdocument.offsetset.md)
+Отримує поле
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Отримує поле
+-   [« SolrDocument::offsetExists](solrdocument.offsetexists.html)
+    
+-   [SolrDocument::offsetSet »](solrdocument.offsetset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Отримує поле
+    
 
 # SolrDocument::offsetGet
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::offsetGet — Отримує поле
 
 ### Опис
 
-public **SolrDocument::offsetGet**(string `$fieldName`):
-[SolrDocumentField](class.solrdocumentfield.md)
+```methodsynopsis
+public SolrDocument::offsetGet(string $fieldName): SolrDocumentField
+```
 
-Використовується для отримання поля, коли об'єкт розглядається як
-масив.
+Використовується для отримання поля, коли об'єкт розглядається як масив.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 ### Значення, що повертаються

@@ -1,50 +1,56 @@
-- [«finfo_open](function.finfo-open.md)
-- [mime_content_type »](function.mime-content-type.md)
+Встановлює параметри конфігурації libmagic
 
-- [PHP Manual](index.md)
-- [Функції модуля Fileinfo](ref.fileinfo.md)
-- Встановлює параметри конфігурації libmagic
+-   [« finfo\_open](function.finfo-open.html)
+    
+-   [mime\_content\_type »](function.mime-content-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции модуля Fileinfo](ref.fileinfo.html)
+    
+-   Встановлює параметри конфігурації libmagic
+    
 
-#finfo_set_flags
+# finfosetflags
 
-# finfo::set_flags
+# finfo::setflags
 
-(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
+(PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo_set_flags -- finfo::set_flags — Встановлює параметри
-конфігурації libmagic
+finfosetflags -- finfo::setflags — Встановлює параметри конфігурації libmagic
 
 ### Опис
 
 Процедурний стиль
 
-[finfo_set_flags](finfo.set-flags.md)([finfo](class.finfo.md)
-`$finfo`, int `$flags`): bool
+```methodsynopsis
+finfo_set_flags(finfo $finfo, int $flags): bool
+```
 
 Об'єктно-орієнтований стиль
 
-public [finfo::set_flags](finfo.set-flags.md)(int `$flags`): bool
+```methodsynopsis
+public finfo::set_flags(int $flags): bool
+```
 
-Функція визначає різні параметри Fileinfo. Опції також можуть
-бути встановлені безпосередньо в [finfo_open()](function.finfo-open.md) або
-інших функцій Fileinfo.
+Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfo\_open()](function.finfo-open.html) або інших функцій Fileinfo.
 
 ### Список параметрів
 
 `finfo`
-Примірник [finfo](class.finfo.md), що повертається функцією
-[finfo_open()](function.finfo-open.md).
+
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
+
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр finfo тепер чекає на екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

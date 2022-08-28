@@ -1,70 +1,92 @@
-- [« NumberFormatter::formatCurrency](numberformatter.formatcurrency.md)
-- [NumberFormatter::getAttribute »](numberformatter.getattribute.md)
+Форматує число
 
-- [PHP Manual](index.md)
-- [NumberFormatter](class.numberformatter.md)
-- Форматує число
+-   [« NumberFormatter::formatCurrency](numberformatter.formatcurrency.html)
+    
+-   [NumberFormatter::getAttribute »](numberformatter.getattribute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [NumberFormatter](class.numberformatter.html)
+    
+-   Форматує число
+    
 
 # NumberFormatter::format
 
-#numfmt_format
+# numfmtformat
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::format -- numfmt_format — Форматує число
+NumberFormatter::format -- numfmtformat — Форматує число
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **NumberFormatter::format**(int\|float `$num`, int `$type` =
-NumberFormatter::TYPE_DEFAULT): string\|false
+```methodsynopsis
+public NumberFormatter::format(int|float $num, int $type = NumberFormatter::TYPE_DEFAULT): string|false
+```
 
 Процедурний стиль
 
-**numfmt_format**([NumberFormatter](class.numberformatter.md)
-`$formatter`, int\|float `$num`, int `$type` =
-NumberFormatter::TYPE_DEFAULT): string\|false
+```methodsynopsis
+numfmt_format(NumberFormatter $formatter, int|float $num, int $type = NumberFormatter::TYPE_DEFAULT): string|false
+```
 
-Форматує числове значення відповідно до правил засобу
-форматування.
+Форматує числове значення відповідно до правил засобу форматування.
 
 ### Список параметрів
 
 `formatter`
-Об'єкт [NumberFormatter](class.numberformatter.md).
+
+Об'єкт [NumberFormatter](class.numberformatter.html)
 
 `num`
-Значення форматування. Може бути цілим числом (int) або числом з
-плаваючою точкою (float), інші типи будуть перетворені на числове
-значення.
+
+Значення форматування. Може бути цілим числом (int) або числом з плаваючою точкою (float), інші типи будуть перетворені на числове значення.
 
 `type`
-Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types).
+
+Використовуваний [тип форматирования](class.numberformatter.html#intl.numberformatter-constants.types)
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить форматоване значення або **`false`**
-у разі виникнення помилки.
+Повертає рядок, який містить форматоване значення або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmt_format()****
+**Приклад #1 Приклад використання **numfmtformat()****
 
-` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );$data = numfmt_format($fmt, 1234567.891234567890000);if(intl_is_failure(numfmt_format($fmt))) {    report_error("Formatter error"); }?> `
+```php
+<?php
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+$data = numfmt_format($fmt, 1234567.891234567890000);
+if(intl_is_failure(numfmt_format($fmt))) {
+    report_error("Formatter error");
+}
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );$fmt->format(1234567.891234567890000);if(intl_is_failure$ ;}?> `
+```php
+<?php
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+$fmt->format(1234567.891234567890000);
+if(intl_is_failure($fmt->getErrorCode())) {
+    report_error("Formatter error");
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1.234.567,891
+```
 
 ### Дивіться також
 
-- [numfmt_get_error_code()](numberformatter.geterrorcode.md) -
-Отримує останній код помилки засобу форматування
-- [numfmt_format_currency()](numberformatter.formatcurrency.md) -
-Форматує значення валюти
-- [numfmt_parse()](numberformatter.parse.md) - Розбирає число
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmt\_format\_currency()](numberformatter.formatcurrency.html) - Форматує значення валюти
+-   [numfmt\_parse()](numberformatter.parse.html) - Розбирає число

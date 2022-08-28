@@ -1,10 +1,16 @@
-- [« Типи ресурсів](rrd.resources.md)
-- [Приклади »](rrd.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
-- Обумовлені константи
+-   [« Типы ресурсов](rrd.resources.html)
+    
+-   [Примеры »](rrd.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RRD](book.rrd.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

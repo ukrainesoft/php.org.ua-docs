@@ -1,32 +1,38 @@
-- [« mysqli::$server_version](mysqli.get-server-version.md)
-- [mysqli::$info »](mysqli.info.md)
+Отримує результат SHOW WARNINGS
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Отримує результат SHOW WARNINGS
+-   [« mysqli::$server\_version](mysqli.get-server-version.html)
+    
+-   [mysqli::$info »](mysqli.info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Отримує результат SHOW WARNINGS
+    
 
-# mysqli::get_warnings
+# mysqli::getwarnings
 
-# mysqli_get_warnings
+# mysqligetwarnings
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-mysqli::get_warnings -- mysqli_get_warnings — Отримує результат SHOW
-WARNINGS
+mysqli::getwarnings - mysqligetwarnings — Отримує результат SHOW WARNINGS
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::get_warnings**():
-[mysqli_warning](class.mysqli-warning.md)\|false
+```methodsynopsis
+public mysqli::get_warnings(): mysqli_warning|false
+```
 
 Процедурний стиль
 
-**mysqli_get_warnings**([mysqli](class.mysqli.md) `$mysql`):
-[mysqli_warning](class.mysqli-warning.md)\|false
+```methodsynopsis
+mysqli_get_warnings(mysqli $mysql): mysqli_warning|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

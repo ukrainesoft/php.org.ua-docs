@@ -1,20 +1,27 @@
-- [« ReflectionParameter::getClass](reflectionparameter.getclass.md)
-- [ReflectionParameter::getDeclaringFunction »](reflectionparameter.getdeclaringfunction.md)
+Отримання класу, що оголошує
 
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Отримання класу, що оголошує
+-   [« ReflectionParameter::getClass](reflectionparameter.getclass.html)
+    
+-   [ReflectionParameter::getDeclaringFunction »](reflectionparameter.getdeclaringfunction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionParameter](class.reflectionparameter.html)
+    
+-   Отримання класу, що оголошує
+    
 
 # ReflectionParameter::getDeclaringClass
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
 ReflectionParameter::getDeclaringClass — Отримання класу, що оголошує
 
 ### Опис
 
-public **ReflectionParameter::getDeclaringClass**():
-?[ReflectionClass](class.reflectionclass.md)
+```methodsynopsis
+public ReflectionParameter::getDeclaringClass(): ?ReflectionClass
+```
 
 Отримує клас, що оголошує.
 
@@ -24,23 +31,39 @@ public **ReflectionParameter::getDeclaringClass**():
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.md), або
-**`null`**, якщо викликано для функції.
+Об'єкт класу [ReflectionClass](class.reflectionclass.html), або **`null`**, якщо викликано для функції.
 
 ### Приклади
 
 **Приклад #1 Отримання класу, в якому оголошено метод**
 
-`<?phpclass Foo{    public function bar(\DateTime $datetime)    {    }}class Baz extends Foo{}$param = new \ReflectionParameter(''| getDeclaringClass()); `
+```php
+<?php
+class Foo
+{
+    public function bar(\DateTime $datetime)
+    {
+    }
+}
+
+class Baz extends Foo
+{
+}
+
+$param = new \ReflectionParameter(['Baz', 'bar'], 0);
+
+var_dump($param->getDeclaringClass());
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ReflectionClass)#2 (1) {
-["name"]=>
-string(3) "Foo"
+  ["name"]=>
+  string(3) "Foo"
 }
+```
 
 ### Дивіться також
 
-- [ReflectionParameter::getClass()](reflectionparameter.getclass.md) -
-Отримує об'єкт ReflectionClass для параметра, що відображається, або null
+-   [ReflectionParameter::getClass()](reflectionparameter.getclass.html) - Отримує об'єкт ReflectionClass для параметра, що відображається, або null

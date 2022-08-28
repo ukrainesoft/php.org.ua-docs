@@ -1,19 +1,27 @@
-- [« Swoole\Http\Server::on](swoole-http-server.on.md)
-- [Swoole\Lock »](class.swoole-lock.md)
+Запускає http-сервер swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Server](class.swoole-http-server.md)
-- Запускає http-сервер swoole
+-   [« Swoole\\Http\\Server::on](swoole-http-server.on.html)
+    
+-   [Swoole\\Lock »](class.swoole-lock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Server](class.swoole-http-server.html)
+    
+-   Запускає http-сервер swoole
+    
 
-# Swoole\Http\Server::start
+# SwooleHttpServer::start
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Server::start - Запускає http-сервер swoole
+SwooleHttpServer::start — Запускає http-сервер swoole
 
 ### Опис
 
-public **Swoole\Http\Server::start**(): void
+```methodsynopsis
+public Swoole\Http\Server::start(): void
+```
 
 Запускає http-сервер swoole.
 

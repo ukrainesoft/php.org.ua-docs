@@ -1,51 +1,72 @@
-- [« Executable::execute](mysql-xdevapi-executable.execute.md)
-- [ExecutionStatus::\_\_construct »](mysql-xdevapi-executionstatus.construct.md)
+Клас ExecutionStatus
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас ExecutionStatus
+-   [« Executable::execute](mysql-xdevapi-executable.execute.html)
+    
+-   [ExecutionStatus::\_\_construct »](mysql-xdevapi-executionstatus.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас ExecutionStatus
+    
 
 # Клас ExecutionStatus
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\ExecutionStatus** {
+```synopsis
 
-/\* Властивості \*/
 
-public `$affectedItems`;
 
-public `$matchedItems`;
+    
+     
+      class mysql_xdevapi\ExecutionStatus
+     
+     {
 
-public `$foundItems`;
+    /* Свойства */
+    
+     public
+      $affectedItems;
 
-public `$lastInsertId`;
+    public
+      $matchedItems;
 
-public `$lastDocumentId`;
+    public
+      $foundItems;
 
-/\* Constructor \*/
+    public
+      $lastInsertId;
 
-private **\_\_construct**()
+    public
+      $lastDocumentId;
 
-}
+
+
+    /* Constructor */
+    
+   private __construct()
+
+   }
+```
 
 ## Властивості
 
-`affectedItems`
+affectedItems
 
-`matchedItems`
+matchedItems
 
-`foundItems`
+foundItems
 
-`lastInsertId`
+lastInsertId
 
-`lastDocumentId`
+lastDocumentId
 
 ## Зміст
 
-- [ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.md)
-- Конструктор класу ExecutionStatus
+-   [ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.html) - Конструктор класу ExecutionStatus

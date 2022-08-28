@@ -1,17 +1,22 @@
-- [«fbird_connect](function.fbird-connect.md)
-- [fbird_delete_user »](function.fbird-delete-user.md)
+Псевдонім ibaseдбinfo
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_db_info
+-   [« fbird\_connect](function.fbird-connect.html)
+    
+-   [fbird\_delete\_user »](function.fbird-delete-user.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseдбinfo
+    
 
-#fbird_db_info
+# fbirdдбinfo
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_db_info - Псевдонім [ibase_db_info()](function.ibase-db-info.md)
+fbirdдбinfo - Псевдонім [ibase\_db\_info()](function.ibase-db-info.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_db_info()](function.ibase-db-info.md).
+Ця функція є псевдонімом: [ibase\_db\_info()](function.ibase-db-info.html)

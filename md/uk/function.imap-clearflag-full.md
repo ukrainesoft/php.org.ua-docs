@@ -1,61 +1,60 @@
-- [« imap_check](function.imap-check.md)
-- [imap_close »](function.imap-close.md)
+Зняти з повідомлення встановлені прапори
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Зняти з повідомлення встановлені прапори
+-   [« imap\_check](function.imap-check.html)
+    
+-   [imap\_close »](function.imap-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Зняти з повідомлення встановлені прапори
+    
 
-#imap_clearflag_full
+# imapclearflagfull
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_clearflag_full — Зняти з повідомлення встановлені прапори
+imapclearflagfull — Зняти з повідомлення встановлені прапори
 
 ### Опис
 
-**imap_clearflag_full**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$sequence`,
-string `$flag`,
-int `$options` = 0
-): bool
+```methodsynopsis
+imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
+```
 
-Ця функція сповіщає сховище, що потрібно зняти заданий прапор
-`flag` для зазначеної послідовності повідомлень `sequence`.
+Ця функція повідомляє сховище, що необхідно зняти заданий прапор `flag` для зазначеної послідовності повідомлень `sequence`
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `sequence`
-Послідовність номерів повідомлень. Ви можете перерахувати номери через
-кому `X,Y`, або задати діапазон номерів за допомогою двокрапки `X:Y`
+
+Послідовність номерів повідомлень. Ви можете перерахувати номери через кому `X,Y`, або задати діапазон номерів за допомогою двокрапки `X:Y`
 
 `flag`
-Прапори, які можна видалити: "Sean", "Answered", "Flagged",
-"\\Deleted" та "\\Draft" (як визначено в
-[»RFC2060](http://www.faqs.org/rfcs/rfc2060))
+
+Прапори, які можна видалити:Seen", "Answered", "Flagged", "Deleted" та "Draft" (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
 
 `options`
-`options` - бітова маска, яка може приймати єдине
-значення:
 
-- **`ST_UID`** - аргумент sequence містить список UID, а не
-послідовність номерів
+`options` - бітова маска, яка може набувати єдиного значення:
+
+-   **`ST_UID`** - аргумент sequence містить список UID, а не послідовність номерів
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_setflag_full()](function.imap-setflag-full.md) - Встановити
-прапори на повідомлення
+-   [imap\_setflag\_full()](function.imap-setflag-full.html) - Встановити прапори на повідомлення

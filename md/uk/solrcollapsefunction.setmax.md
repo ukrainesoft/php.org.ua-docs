@@ -1,25 +1,29 @@
-- [«SolrCollapseFunction::setHint](solrcollapsefunction.sethint.md)
-- [SolrCollapseFunction::setMin »](solrcollapsefunction.setmin.md)
+Вибирає заголовки групи за максимальним значенням числового поля або запиту функції
 
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Вибирає заголовки групи за максимальним значенням числового поля
-або запит функції
+-   [« SolrCollapseFunction::setHint](solrcollapsefunction.sethint.html)
+    
+-   [SolrCollapseFunction::setMin »](solrcollapsefunction.setmin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrCollapseFunction](class.solrcollapsefunction.html)
+    
+-   Вибирає заголовки групи за максимальним значенням числового поля або запиту функції
+    
 
 # SolrCollapseFunction::setMax
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
-SolrCollapseFunction::setMax — Вибирає заголовки групи за
-максимальному значенню числового поля або запиту функції
+SolrCollapseFunction::setMax — Вибір заголовків групи за максимальним значенням числового поля або запитом функції
 
 ### Опис
 
-public **SolrCollapseFunction::setMax**(string `$max`):
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+```methodsynopsis
+public SolrCollapseFunction::setMax(string $max): SolrCollapseFunction
+```
 
-Вибирає заголовки групи за максимальним значенням числового поля або
-запиту функції.
+Вибирає заголовки групи за максимальним значенням числового поля або запиту функції.
 
 ### Список параметрів
 
@@ -27,10 +31,22 @@ public **SolrCollapseFunction::setMax**(string `$max`):
 
 ### Значення, що повертаються
 
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+[SolrCollapseFunction](class.solrcollapsefunction.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SolrCollapseFunction::setMax()****
 
-` <?php$func = new SolrCollapseFunction('field_name');$func->setMax('sum(cscore(),field(some_field))');$query = new SolrQuery('*:*');$ query->collapse($func);?> `
+```php
+<?php
+
+$func = new SolrCollapseFunction('field_name');
+
+$func->setMax('sum(cscore(),field(some_field))');
+
+$query = new SolrQuery('*:*');
+
+$query->collapse($func);
+
+?>
+```

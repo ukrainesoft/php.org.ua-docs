@@ -1,22 +1,29 @@
-- [«SolrInputDocument::clear](solrinputdocument.clear.md)
-- [SolrInputDocument::\_\_construct »](solrinputdocument.construct.md)
+Створює копію SolrDocument
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Створює копію SolrDocument
+-   [« SolrInputDocument::clear](solrinputdocument.clear.html)
+    
+-   [SolrInputDocument::\_\_construct »](solrinputdocument.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Створює копію SolrDocument
+    
 
-# SolrInputDocument::\_\_clone
+# SolrInputDocument::clone
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrInputDocument::\_\_clone — Створює копію SolrDocument
+SolrInputDocument::clone — Створює копію SolrDocument
 
 ### Опис
 
-public **SolrInputDocument::\_\_clone**(): void
+```methodsynopsis
+public SolrInputDocument::__clone(): void
+```
 
-Не слід викликати безпосередньо. Він використовується для створення глибокої
-копії SolrInputDocument.
+Не слід викликати безпосередньо. Він використовується для створення глибокої копії SolrInputDocument.
 
 ### Список параметрів
 

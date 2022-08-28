@@ -1,33 +1,40 @@
-- [« SolrQuery::addMltField](solrquery.addmltfield.md)
-- [SolrQuery::addSortField »](solrquery.addsortfield.md)
+Відповідає mlt.qf
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Відповідає mlt.qf
+-   [« SolrQuery::addMltField](solrquery.addmltfield.html)
+    
+-   [SolrQuery::addSortField »](solrquery.addsortfield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Відповідає mlt.qf
+    
 
 # SolrQuery::addMltQueryField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::addMltQueryField — Відповідає mlt.qf
 
 ### Опис
 
-public **SolrQuery::addMltQueryField**(string `$field`, float `$boost`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::addMltQueryField(string $field, float $boost): SolrQuery
+```
 
-Відповідає mlt.qf. Використовується для вказівки полів запиту та їх
-підвищення.
+Відповідає mlt.qf. Використовується для вказівки полів запиту та їх підвищення.
 
 ### Список параметрів
 
 `field`
+
 Назва поля
 
 `boost`
+
 Значення підвищення
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

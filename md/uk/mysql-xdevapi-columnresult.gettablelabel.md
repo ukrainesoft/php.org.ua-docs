@@ -1,9 +1,15 @@
-- [« ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.md)
-- [ColumnResult::getTableName »](mysql-xdevapi-columnresult.gettablename.md)
+Отримує мітку таблиці
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує мітку таблиці
+-   [« ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.html)
+    
+-   [ColumnResult::getTableName »](mysql-xdevapi-columnresult.gettablename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+    
+-   Отримує мітку таблиці
+    
 
 # ColumnResult::getTableLabel
 
@@ -13,12 +19,13 @@ ColumnResult::getTableLabel — Отримує позначку таблиці
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getTableLabel**(): string
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getTableLabel(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +35,12 @@ public **mysql_xdevapi\ColumnResult::getTableLabel**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getTableLabel()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getTableLabel()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

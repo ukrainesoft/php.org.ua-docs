@@ -1,35 +1,44 @@
-- [«ps_show_xy](function.ps-show-xy.md)
-- [ps_show »](function.ps-show.md)
+Виводить текст у поточній позиції
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Виводить текст у поточній позиції
+-   [« ps\_show\_xy](function.ps-show-xy.html)
+    
+-   [ps\_show »](function.ps-show.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Виводить текст у поточній позиції
+    
 
-#ps_show2
+# псshow2
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_show2 — Виводить текст на поточну позицію
+псshow2 — Виводить текст у поточній позиції
 
 ### Опис
 
-**ps_show2**(resource `$psdoc`, string `$text`, int `$len`): bool
+```methodsynopsis
+ps_show2(resource $psdoc, string $text, int $len): bool
+```
 
 Виводить текст у поточній позиції. Не виводить більше `len` символів.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `text`
+
 Текст для виведення.
 
 `len`
-Максимальна кількість символів для виводу.
+
+Максимальна кількість символів для виведення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

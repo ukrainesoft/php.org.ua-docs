@@ -1,9 +1,15 @@
-- [« UI\Draw\Stroke::setThickness](ui-draw-stroke.setthickness.md)
-- [UI\Draw\Brush::\_\_construct »](ui-draw-brush.construct.md)
+Щітки
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Щітки
+-   [« UI\\Draw\\Stroke::setThickness](ui-draw-stroke.setthickness.html)
+    
+-   [UI\\Draw\\Brush::\_\_construct »](ui-draw-brush.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Щітки
+    
 
 # Щітки
 
@@ -15,34 +21,33 @@
 
 ## Огляд класів
 
-class **UI\Draw\Brush** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public
-[\_\_construct](ui-draw-brush.construct.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color`)
 
-public [\_\_construct](ui-draw-brush.construct.md)(int `$color`)
+    
+     
+      class UI\Draw\Brush
+     
+     {
 
-/\* Методи \*/
 
-public [getColor](ui-draw-brush.getcolor.md)():
-[UI\Draw\Color](class.ui-draw-color.md)
+    /* Конструктор */
+    
+   public __construct(UI\Draw\Color $color)
+public __construct(int $color)
 
-public
-[setColor](ui-draw-brush.setcolor.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color`): void
 
-public [setColor](ui-draw-brush.setcolor.md)(int `$color`): void
+    /* Методы */
+    public getColor(): UI\Draw\Color
+public setColor(UI\Draw\Color $color): void
+public setColor(int $color): void
 
-}
+    }
+```
 
 ## Зміст
 
-- [UI\Draw\Brush::\_\_construct](ui-draw-brush.construct.md) -
-Створити новий об'єкт Brush
-- [UI\Draw\Brush::getColor](ui-draw-brush.getcolor.md) — Отримати
-колір
-- [UI\Draw\Brush::setColor](ui-draw-brush.setcolor.md) — Встановити
-колір
+-   [UI\\Draw\\Brush::\_\_construct](ui-draw-brush.construct.html) — Створити новий об'єкт Brush
+-   [UI\\Draw\\Brush::getColor](ui-draw-brush.getcolor.html) - Отримати колір
+-   [UI\\Draw\\Brush::setColor](ui-draw-brush.setcolor.html) - Встановити колір

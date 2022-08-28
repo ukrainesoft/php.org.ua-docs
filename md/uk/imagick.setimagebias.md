@@ -1,29 +1,33 @@
-- [« Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.md)
-- [Imagick::setImageBiasQuantum »](imagick.setimagebiasquantum.md)
+Встановлює зміщення зображення для будь-якого методу, який згортає зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює зміщення зображення для будь-якого методу, який
-згортає зображення
+-   [« Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.html)
+    
+-   [Imagick::setImageBiasQuantum »](imagick.setimagebiasquantum.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює зміщення зображення для будь-якого методу, який згортає зображення
+    
 
 # Imagick::setImageBias
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageBias — Встановлює зміщення зображення для кожного
-методу, який згортає зображення
+Imagick::setImageBias — Встановлює зміщення зображення для будь-якого методу, який згортає зображення
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::setImageBias**(float `$bias`): bool
+```methodsynopsis
+public Imagick::setImageBias(float $bias): bool
+```
 
-Встановлює зміщення зображення для будь-якого методу, який згортає
-зображення (наприклад, Imagick::ConvolveImage()).
+Встановлює зміщення зображення для будь-якого методу, який згортає зображення (наприклад Imagick::ConvolveImage()).
 
 ### Список параметрів
 
@@ -31,7 +35,7 @@ public **Imagick::setImageBias**(float `$bias`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -41,4 +45,26 @@ public **Imagick::setImageBias**(float `$bias`): bool
 
 **Приклад #1 Приклад використання **Imagick::setImageBias()****
 
-` <?php//потрібна ImageMagick версії 6.9.0-1, надавати вплив на convolveImagefunction setImageBias($bias) {    $imagick = new \Imagick(real) $xKernel==array(-0.70,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7-0,7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0.7-0. $imagick->setImageBias($bias * \Imagick::getQuantum()); $imagick->convolveImage($xKernel, \Imagick::CHANNEL_ALL); $imagick->setImageFormat('png'); header('Content-type: image/png'); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+//требуется ImageMagick версии 6.9.0-1, чтобы оказывать влияние на convolveImage
+function setImageBias($bias) {
+    $imagick = new \Imagick(realpath("images/stack.jpg"));
+
+    $xKernel = array(
+        -0.70, 0, 0.70,
+        -0.70, 0, 0.70,
+        -0.70, 0, 0.70
+    );
+
+    $imagick->setImageBias($bias * \Imagick::getQuantum());
+    $imagick->convolveImage($xKernel, \Imagick::CHANNEL_ALL);
+
+    $imagick->setImageFormat('png');
+
+    header('Content-type: image/png');
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

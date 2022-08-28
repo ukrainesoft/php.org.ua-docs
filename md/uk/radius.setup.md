@@ -1,15 +1,21 @@
-- [«Вступ](intro.radius.md)
-- [Вимоги »](radius.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Radius](book.radius.md)
+-   [« Введение](intro.radius.html)
+    
+-   [Требования »](radius.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Radius](book.radius.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](radius.requirements.md)
-- [Установка](radius.installation.md)
-- [Налаштування під час виконання](radius.configuration.md)
-- [Типи ресурсів](radius.resources.md)
+-   [Требования](radius.requirements.html)
+-   [Установка](radius.installation.html)
+-   [Настройка во время выполнения](radius.configuration.html)
+-   [Типы ресурсов](radius.resources.html)

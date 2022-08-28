@@ -1,9 +1,15 @@
-- [« ImagickDraw::clone](imagickdraw.clone.md)
-- [ImagickDraw::comment »](imagickdraw.comment.md)
+Малює колір на зображенні
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Малює колір на зображенні
+-   [« ImagickDraw::clone](imagickdraw.clone.html)
+    
+-   [ImagickDraw::comment »](imagickdraw.comment.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Малює колір на зображенні
+    
 
 # ImagickDraw::color
 
@@ -13,28 +19,29 @@ ImagickDraw::color — Малює колір на зображенні
 
 ### Опис
 
-public **ImagickDraw::col**(float `$x`, float `$y`, int
-`$paintMethod`): bool
+```methodsynopsis
+public ImagickDraw::color(float $x, float $y, int $paintMethod): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Малює колір на зображенні, використовуючи поточний колір заливки, починаючи з
-зазначеної позиції та використовуючи зазначений метод малювання.
+Малює колір на зображенні, використовуючи поточний колір заливки, починаючи з вказаної позиції та використовуючи вказаний метод малювання.
 
 ### Список параметрів
 
 `x`
+
 Координата X малюнка
 
 `y`
+
 Координата Y малюнка
 
 `paintMethod`
-Одна з констант [PAINT](imagick.constants.md#imagick.constants.paint)
-(`imagick::PAINT_*`).
+
+Одна з констант [PAINT](imagick.constants.html#imagick.constants.paint) `imagick::PAINT_*`
 
 ### Значення, що повертаються
 

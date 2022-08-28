@@ -1,25 +1,29 @@
-- [« Parle\RLexer::advance](parle-rlexer.advance.md)
-- [Parle\RLexer::callout »](parle-rlexer.callout.md)
+Завершує набір правил лексера
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- Завершує набір правил лексера
+-   [« Parle\\RLexer::advance](parle-rlexer.advance.html)
+    
+-   [Parle\\RLexer::callout »](parle-rlexer.callout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\RLexer](class.parle-rlexer.html)
+    
+-   Завершує набір правил лексера
+    
 
-# Parle\RLexer::build
+# ParleRLexer::build
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\RLexer::build — Завершує набір правил лексера
+ParleRLexer::build - Завершує набір правил лексера
 
 ### Опис
 
-public **Parle\RLexer::build**(): void
+```methodsynopsis
+public Parle\RLexer::build(): void
+```
 
-Правила раніше додані за допомогою
-[Parle\RLexer::push()](parle-rlexer.push.md) завершуються. Виклик
-методу повинен бути виконаний після того, як усі необхідні правила були
-передані. Набір правил стає лише читання. Лексер готовий до
-запуску.
+Правила, раніше додані за допомогою [Parle\\RLexer::push()](parle-rlexer.push.html), завершуються. Виклик методу має бути виконаний після того, як усі необхідні правила були передані. Набір правил стає лише читання. Лексер готовий до запуску.
 
 ### Список параметрів
 

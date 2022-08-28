@@ -1,13 +1,19 @@
-- [« TableInsert::values](mysql-xdevapi-tableinsert.values.md)
-- [TableSelect::bind »](mysql-xdevapi-tableselect.bind.md)
+Клас TableSelect
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас TableSelect
+-   [« TableInsert::values](mysql-xdevapi-tableinsert.values.html)
+    
+-   [TableSelect::bind »](mysql-xdevapi-tableselect.bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас TableSelect
+    
 
 # Клас TableSelect
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
@@ -15,70 +21,45 @@
 
 ## Огляд класів
 
-class **mysql_xdevapi\TableSelect** implements
-[mysql_xdevapi\Executable](class.mysql-xdevapi-executable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public **bind**(array `$placeholder_values`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
 
-public **execute**():
-[mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)
+    
+     
+      class mysql_xdevapi\TableSelect
+     
 
-public
-**groupBy**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$sort_expr`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
+     implements 
+       mysql_xdevapi\Executable {
 
-public **having**(string `$sort_expr`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
 
-public **limit**(int `$rows`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
+    /* Методы */
+    
+   public bind(array $placeholder_values): mysql_xdevapi\TableSelect
+public execute(): mysql_xdevapi\RowResult
+public groupBy(mixed $sort_expr): mysql_xdevapi\TableSelect
+public having(string $sort_expr): mysql_xdevapi\TableSelect
+public limit(int $rows): mysql_xdevapi\TableSelect
+public lockExclusive(int $lock_waiting_option = ?): mysql_xdevapi\TableSelect
+public lockShared(int $lock_waiting_option = ?): mysql_xdevapi\TableSelect
+public offset(int $position): mysql_xdevapi\TableSelect
+public orderby(mixed $sort_expr, mixed ...$sort_exprs): mysql_xdevapi\TableSelect
+public where(string $where_expr): mysql_xdevapi\TableSelect
 
-public **lockExclusive**(int `$lock_waiting_option` = ?):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-
-public **lockShared**(int `$lock_waiting_option` = ?):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-
-public **offset**(int `$position`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-
-public
-**orderby**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$sort_expr`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$sort_exprs`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-
-public **where**(string `$where_expr`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [TableSelect::bind](mysql-xdevapi-tableselect.bind.md) -
-Прив'язує параметри запиту вибірки
-- [TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.md)
-- Конструктор класу TableSelect
-- [TableSelect::execute](mysql-xdevapi-tableselect.execute.md) -
-Виконує оператор вибірки
-- [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.md) -
-Встановлює критерії угруповання вибірки
-- [TableSelect::having](mysql-xdevapi-tableselect.having.md) -
-Встановлює вибір із умовою
-- [TableSelect::limit](mysql-xdevapi-tableselect.limit.md) -
-Обмежує вибрані рядки
-- [TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.md)
-- Виконує EXCLUSIVE LOCK
-- [TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.md)
-- Виконує SHARED LOCK
-- [TableSelect::offset](mysql-xdevapi-tableselect.offset.md) -
-Встановлює межу зміщення
-- [TableSelect::orderby](mysql-xdevapi-tableselect.orderby.md) -
-Встановлює критерії сортування вибірки
-- [TableSelect::where](mysql-xdevapi-tableselect.where.md) -
-Встановлює умову пошуку вибірки
+-   [TableSelect::bind](mysql-xdevapi-tableselect.bind.html) — Прив'язує параметри запиту вибірки
+-   [TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.html) - Конструктор класу TableSelect
+-   [TableSelect::execute](mysql-xdevapi-tableselect.execute.html) — Виконує оператор вибірки
+-   [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.html) — Встановлює критерії угруповання вибірки
+-   [TableSelect::having](mysql-xdevapi-tableselect.having.html) — Встановлює вибір із умовою
+-   [TableSelect::limit](mysql-xdevapi-tableselect.limit.html) — Обмежує вибрані рядки
+-   [TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.html) - Виконує EXCLUSIVE LOCK
+-   [TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.html) - Виконує SHARED LOCK
+-   [TableSelect::offset](mysql-xdevapi-tableselect.offset.html) - Встановлює межу зміщення
+-   [TableSelect::orderby](mysql-xdevapi-tableselect.orderby.html) — Встановлює критерії сортування вибірки
+-   [TableSelect::where](mysql-xdevapi-tableselect.where.html) — Встановлює умову пошуку вибірки

@@ -1,15 +1,18 @@
-- [« Встановлення та налаштування](imagick.setup.md)
-- [Установка »](imagick.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](imagick.setup.md)
-- Вимоги
+-   [« Установка и настройка](imagick.setup.html)
+    
+-   [Установка »](imagick.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](imagick.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
 ## Вимоги для встановлення на платформах, відмінних від Windows
 
-Потрібен ImageMagick = 6.2.4. Кількість підтримуваних Imagick
-форматів файлів залежить від кількості підтримуваних форматів
-встановлений ImageMagick. Наприклад, Imagemagick вимагає ghostscript
-для проведення операцій із PDF документами.
+Потрібний ImageMagick >= 6.2.4. Кількість форматів файлів, що підтримуються Imagick, залежить від кількості підтримуваних форматів встановленого ImageMagick. Наприклад, Imagemagick вимагає ghostscript для операцій з PDF документами.

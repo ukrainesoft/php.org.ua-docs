@@ -1,19 +1,27 @@
-- [« Yaf_Request_Abstract::isPut](yaf-request-abstract.isput.md)
-- [Yaf_Request_Abstract::isXmlHttpRequest »](yaf-request-abstract.isxmlhttprequest.md)
+Визначає, чи запит надіслано
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Визначає, чи був запит надісланий
+-   [« Yaf\_Request\_Abstract::isPut](yaf-request-abstract.isput.html)
+    
+-   [Yaf\_Request\_Abstract::isXmlHttpRequest »](yaf-request-abstract.isxmlhttprequest.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Визначає, чи запит надіслано
+    
 
-# Yaf_Request_Abstract::isRouted
+# YafRequestAbstract::isRouted
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::isRouted — Визначає, чи був запит надісланий
+YafRequestAbstract::isRouted — Визначає, чи надіслано запит.
 
 ### Опис
 
-public **Yaf_Request_Abstract::isRouted**(): bool
+```methodsynopsis
+public Yaf_Request_Abstract::isRouted(): bool
+```
 
 ### Список параметрів
 

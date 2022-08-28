@@ -1,66 +1,93 @@
-- [«SolrClient::commit](solrclient.commit.md)
-- [SolrClient::deleteById »](solrclient.deletebyid.md)
+Конструктор об'єкта SolrClient
 
-- [PHP Manual](index.md)
-- [SolrClient](class.solrclient.md)
-- Конструктор об'єкта SolrClient
+-   [« SolrClient::commit](solrclient.commit.html)
+    
+-   [SolrClient::deleteById »](solrclient.deletebyid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrClient](class.solrclient.html)
+    
+-   Конструктор об'єкта SolrClient
+    
 
-# SolrClient::\_\_construct
+# SolrClient::construct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrClient::\_\_construct — Конструктор об'єкта SolrClient
+SolrClient::construct - Конструктор об'єкта SolrClient
 
 ### Опис
 
-public **SolrClient::\_\_construct**(array `$clientOptions`)
+public **SolrClient::construct**(array `$clientOptions`
 
 Конструктор об'єкта SolrClient
 
 ### Список параметрів
 
 `clientOptions`
+
 Масив, що містить один із таких ключів:
 
-``` parameterscode
-- secure (Логічне значення, яке вказує, чи слід підключатися у безпечному режимі)
-- hostname (Ім'я хоста для сервера Solr)
-- port (Номер порту)
-- path (Шлях до Solr)
-- wt (Ім'я автора відповіді, наприклад xml, json)
-- login (Ім'я користувача, яке використовується для HTTP-автентифікації, якщо є)
-- password (Пароль HTTP-автентифікації)
-- proxy_host (Ім'я хоста для проксі-сервера, якщо є)
-- proxy_port (Порт проксі)
-- proxy_login (Ім'я користувача проксі)
-- proxy_password (Пароль проксі)
-- timeout (Максимальний час у секундах, дозволений для операції передачі даних http. За замовчуванням 30 секунд)
-- ssl_cert (Ім'я файлу у форматі PEM, що містить закритий ключ + закритий сертифікат (об'єднані в цьому порядку))
-- ssl_key (Ім'я файлу лише для файлу закритого ключа у форматі PEM)
-- ssl_keypassword (Пароль для закритого ключа)
-- ssl_cainfo (Ім'я файлу, що містить один або кілька сертифікатів CA для перевірки однорангового вузла)
-- ssl_capath (Ім'я каталогу, що містить кілька сертифікатів CA для перевірки однорангового вузла)
+secure (Логічне значення, яке вказує, чи слід підключатися в безпечному режимі)
 
-Зверніть увагу: якщо файл ssl_cert містить лише приватний сертифікат, вам необхідно вказати окремий файл ssl_key.
+-   hostname (Ім'я хоста для сервера Solr)
+-   port (Номер порту)
+-   path (Шлях до Solr)
+-   wt (ім'я автора відповіді, наприклад xml, json)
+-   login (Ім'я користувача, яке використовується для HTTP-автентифікації, якщо є)
+-   password (Пароль HTTP-автентифікації)
+-   proxyhost (ім'я хоста для проксі-сервера, якщо є)
+-   proxyport (Порт проксі)
+-   proxylogin (Ім'я користувача проксі)
+-   proxypassword (Пароль проксі)
+-   timeout (Максимальний час у секундах, дозволений для операції передачі http. За замовчуванням 30 секунд)
+-   sslcert (ім'я файлу у форматі PEM, що містить закритий ключ + закритий сертифікат (об'єднані в цьому порядку))
+-   sslkey (Ім'я файлу лише для файлу закритого ключа у форматі PEM)
+-   sslkeypassword (Пароль для закритого ключа)
+-   sslcainfo (ім'я файлу, що містить один або кілька сертифікатів CA для перевірки однорангового вузла)
+-   sslcapath (Ім'я каталогу, що містить кілька сертифікатів CA для перевірки однорангового вузла)
 
-Параметр ssl_keypassword необхідний, якщо встановлено параметри ssl_cert або ssl_key.
-````
+Зверніть увагу: якщо файл sslcert містить лише приватний сертифікат, вам необхідно вказати окремий файл sslkey.
+
+Параметр sslkeypassword необхідний, якщо встановлені параметри sslcert або sslkey.
 
 ### Помилки
 
-Викидає
-[SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-у разі виникнення помилки.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.html) у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::\_\_construct()****
+**Приклад #1 Приклад використання **SolrClient::construct()****
 
-` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,    'path'     => SOLR_PATH_TO_SOLR,    'wt'       => ' xml',);$client= SoleClient($options);$doc=New SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software') ;$doc->addField('cat', 'Lucene');$updateResponse = $client->addDocument($doc);?> `
+```php
+<?php
+
+$options = array
+(
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
+    'path'     => SOLR_PATH_TO_SOLR,
+    'wt'       => 'xml',
+);
+
+$client = new SolrClient($options);
+
+$doc = new SolrInputDocument();
+
+$doc->addField('id', 334455);
+$doc->addField('cat', 'Software');
+$doc->addField('cat', 'Lucene');
+
+$updateResponse = $client->addDocument($doc);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [SolrClient::getOptions()](solrclient.getoptions.md) - Повертає
-внутрішні параметри клієнта
+-   [SolrClient::getOptions()](solrclient.getoptions.html) - Повертає внутрішні параметри клієнта

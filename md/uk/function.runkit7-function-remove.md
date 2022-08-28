@@ -1,42 +1,43 @@
-- [« runkit7_function_redefine](function.runkit7-function-redefine.md)
-- [runkit7_function_rename »](function.runkit7-function-rename.md)
+Видаляє визначення функції
 
-- [PHP Manual](index.md)
-- [Функції runkit7](ref.runkit7.md)
-- Видаляє визначення функції
+-   [« runkit7\_function\_redefine](function.runkit7-function-redefine.html)
+    
+-   [runkit7\_function\_rename »](function.runkit7-function-rename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции runkit7](ref.runkit7.html)
+    
+-   Видаляє визначення функції
+    
 
-# runkit7_function_remove
+# runkit7functionremove
 
-(PECL runkit7 \>= Unknown)
+(PECL runkit7> = Unknown)
 
-runkit7_function_remove — Видалення визначення функції
+runkit7functionremove — Видалення визначення функції
 
 ### Опис
 
-**runkit7_function_remove**(string `$function_name`): bool
+```methodsynopsis
+runkit7_function_remove(string $function_name): bool
+```
 
-> **Примітка**: За замовчуванням, лише функції користувача можуть
-> бути видалені, перейменовані чи змінені. Для перекриття внутрішніх
-> функцій необхідно включити в `php.ini` опцію
-> `runkit.internal_override`.
+> **Зауваження**: За замовчуванням, лише функції користувача можуть бути видалені, перейменовані або змінені. Для перекриття внутрішніх функцій, необхідно включити до php.ini опцію `runkit.internal_override`
 
 ### Список параметрів
 
 `function_name`
+
 Ім'я функції, що видаляється.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [runkit7_function_add()](function.runkit7-function-add.md) -
-Додає нову функцію, функція аналогічна create_function
-- [runkit7_function_copy()](function.runkit7-function-copy.md) -
-Копіює функцію у нове ім'я функції
-- [runkit7_function_redefine()](function.runkit7-function-redefine.md) -
-Замінює визначення функції новою реалізацією
-- [runkit7_function_rename()](function.runkit7-function-rename.md) -
-Змінює ім'я функції
+-   [runkit7\_function\_add()](function.runkit7-function-add.html) - Додає нову функцію, функція аналогічна createfunction
+-   [runkit7\_function\_copy()](function.runkit7-function-copy.html) - Копіює функцію в нове ім'я функції
+-   [runkit7\_function\_redefine()](function.runkit7-function-redefine.html) - замінює визначення функції новою реалізацією
+-   [runkit7\_function\_rename()](function.runkit7-function-rename.html) - Змінює ім'я функції

@@ -1,24 +1,31 @@
-- [« IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md)
-- [IntlBreakIterator::isBoundary »](intlbreakiterator.isboundary.md)
+Повертає сканований текст
 
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Повертає сканований текст
+-   [« IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.html)
+    
+-   [IntlBreakIterator::isBoundary »](intlbreakiterator.isboundary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlBreakIterator](class.intlbreakiterator.html)
+    
+-   Повертає сканований текст
+    
 
 # IntlBreakIterator::getText
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::getText — Повертає сканований текст
+IntlBreakIterator::getText — Повертає текст, що сканується.
 
 ### Опис
 
-public **IntlBreakIterator::getText**(): ?string
+```methodsynopsis
+public IntlBreakIterator::getText(): ?string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

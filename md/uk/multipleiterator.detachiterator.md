@@ -1,32 +1,38 @@
-- [« MultipleIterator::current](multipleiterator.current.md)
-- [MultipleIterator::getFlags »](multipleiterator.getflags.md)
+Від'єднує ітератор
 
-- [PHP Manual](index.md)
-- [MultipleIterator](class.multipleiterator.md)
-- Від'єднує ітератор
+-   [« MultipleIterator::current](multipleiterator.current.html)
+    
+-   [MultipleIterator::getFlags »](multipleiterator.getflags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MultipleIterator](class.multipleiterator.html)
+    
+-   Від'єднує ітератор
+    
 
 # MultipleIterator::detachIterator
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::detachIterator — Від'єднує ітератор
 
 ### Опис
 
-public
-**MultipleIterator::detachIterator**([Iterator](class.iterator.md)
-`$iterator`): void
+```methodsynopsis
+public MultipleIterator::detachIterator(Iterator $iterator): void
+```
 
 Від'єднує ітератор.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `iterator`
+
 Ітератор, що від'єднується.
 
 ### Значення, що повертаються
@@ -35,5 +41,4 @@ public
 
 ### Дивіться також
 
-- [MultipleIterator::attachIterator()](multipleiterator.attachiterator.md) -
-Приєднує ітератор
+-   [MultipleIterator::attachIterator()](multipleiterator.attachiterator.html) - приєднує ітератор

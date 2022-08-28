@@ -1,26 +1,34 @@
-- [« GearmanWorker::\_\_construct](gearmanworker.construct.md)
-- [GearmanWorker::error »](gearmanworker.error.md)
+Перевірка відгуку серверів завдань
 
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Перевірка відгуку серверів завдань
+-   [« GearmanWorker::\_\_construct](gearmanworker.construct.html)
+    
+-   [GearmanWorker::error »](gearmanworker.error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanWorker](class.gearmanworker.html)
+    
+-   Перевірка відгуку серверів завдань
+    
 
 # GearmanWorker::echo
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanWorker::echo — Перевірка відгуку серверів завдань
 
 ### Опис
 
-public **GearmanWorker::echo**(string `$workload`): bool
+```methodsynopsis
+public GearmanWorker::echo(string $workload): bool
+```
 
-Надсилає дані всім серверам завдань, щоб перевірити, які сервери
-дадуть відповідь. Це налагоджувальна функція для перевірки відгуку серверів.
+Надсилає дані всім серверам завдань, щоб перевірити, які із серверів дадуть відповідь. Це налагоджувальна функція для перевірки відгуку серверів.
 
 ### Список параметрів
 
 `workload`
+
 Довільні серіалізовані дані
 
 ### Значення, що повертаються
@@ -29,5 +37,4 @@ public **GearmanWorker::echo**(string `$workload`): bool
 
 ### Дивіться також
 
-- [GearmanClient::echo()](gearmanclient.echo.md) - Надсилає дані
-всім серверам завдань, щоб перевірити відгук [Застарілий метод]
+-   [GearmanClient::echo()](gearmanclient.echo.html) - Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод

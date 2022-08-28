@@ -1,11 +1,17 @@
-- [«imagefttext](function.imagefttext.md)
-- [imagegd2 »](function.imagegd2.md)
+Застосування гамма корекції до GD зображення
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Застосування гамма корекції до GD зображення
+-   [« imagefttext](function.imagefttext.html)
+    
+-   [imagegd2 »](function.imagegd2.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Застосування гамма корекції до GD зображення
+    
 
-#imagegammacorrect
+# imagegammacorrect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,38 +19,50 @@ imagegammacorrect — Застосування гамма корекції до 
 
 ### Опис
 
-**imagegammacorrect**([GdImage](class.gdimage.md) `$image`, float
-`$input_gamma`, float `$output_gamma`): bool
+```methodsynopsis
+imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
+```
 
-Застосовує гама корекцію до зображення `image` згідно з заданими
-вхідним та вихідним налаштуванням.
+Застосовує гамма корекцію до зображення `image` згідно з заданими вхідними та вихідними налаштуваннями.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `input_gamma`
+
 Вхідна настройка гами.
 
 `output_gamma`
-Вихідне настроювання гами.
+
+Вихідна настройка гами.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagegammacorrect()****
 
-`<?php// Створення зображення$im = imagecreatefromgif('php.gif');// Коректування гами, на виході 1.537imagegammacorrect($im, 1.0, і і         ./php_gamma_corrected.gif');imagedestroy($im);?> `
+```php
+<?php
+// Создание изображения
+$im = imagecreatefromgif('php.gif');
+
+// Корректировка гаммы, на выходе 1.537
+imagegammacorrect($im, 1.0, 1.537);
+
+// Сохранение изображения и освобождение памяти
+imagegif($im, './php_gamma_corrected.gif');
+imagedestroy($im);
+?>
+```

@@ -1,26 +1,36 @@
-- [« EvEmbed::set](evembed.set.md)
-- [EvFork »](class.evfork.md)
+Робить одиночну, неблокуючу розгортку за вбудованим циклом
 
-- [PHP Manual](index.md)
-- [EvEmbed](class.evembed.md)
-- Робить одиночну, неблокуючу розгортку за вбудованим циклом
+-   [« EvEmbed::set](evembed.set.html)
+    
+-   [EvFork »](class.evfork.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvEmbed](class.evembed.html)
+    
+-   Робить одиночну, неблокуючу розгортку за вбудованим циклом
+    
 
 # EvEmbed::sweep
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvEmbed::sweep — Робить одиночну, неблокуючу розгортку по
-вбудованого циклу
+EvEmbed::sweep — Робить одиночну, неблокуючу розгортку за вбудованим циклом
 
 ### Опис
 
-public **EvEmbed::sweep**(): void
+```methodsynopsis
+public
+   EvEmbed::sweep(): void
+```
 
-Робить одиночну, неблокуючу розгортку за вбудованим циклом. Працює
-аналогічно наступному коду, але є кращим у випадку
-вбудованих циклів:
+Робить одиночну, неблокуючу розгортку за вбудованим циклом. Працює аналогічно наступному коду, але є кращим у разі вбудованих циклів:
 
-` <?php$other->start(Ev::RUN_NOWAIT);?> `
+```php
+<?php
+$other->start(Ev::RUN_NOWAIT);
+?>
+```
 
 ### Список параметрів
 
@@ -32,4 +42,4 @@ public **EvEmbed::sweep**(): void
 
 ### Дивіться також
 
-- [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача

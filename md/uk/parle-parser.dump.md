@@ -1,19 +1,27 @@
-- [« Parle\Parser::consume](parle-parser.consume.md)
-- [Parle\Parser::errorInfo »](parle-parser.errorinfo.md)
+Виводить граматику
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Виводить граматику
+-   [« Parle\\Parser::consume](parle-parser.consume.html)
+    
+-   [Parle\\Parser::errorInfo »](parle-parser.errorinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Parser](class.parle-parser.html)
+    
+-   Виводить граматику
+    
 
-# Parle\Parser::dump
+# ParleParser::dump
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Parser::dump - Виводить граматику
+ParleParser::dump - Виводить граматику
 
 ### Опис
 
-public **Parle\Parser::dump**(): void
+```methodsynopsis
+public Parle\Parser::dump(): void
+```
 
 Виводить поточну граматику у стандартний висновок.
 

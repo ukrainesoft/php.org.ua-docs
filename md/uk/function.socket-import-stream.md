@@ -1,45 +1,57 @@
-- [« socket_getsockname](function.socket-getsockname.md)
-- [socket_last_error »](function.socket-last-error.md)
+Імпортувати потік
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Імпортувати потік
+-   [« socket\_getsockname](function.socket-getsockname.html)
+    
+-   [socket\_last\_error »](function.socket-last-error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Імпортувати потік
+    
 
-# socket_import_stream
+# socketimportstream
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-socket_import_stream — Імпортувати потік
+socketimportstream — Імпортувати потік
 
 ### Опис
 
-**socket_import_stream**(resource `$stream`):
-[Socket](class.socket.md)\|false
+```methodsynopsis
+socket_import_stream(resource $stream): Socket|false
+```
 
 Імпортує потік, який інкапсулює сокет ресурс модуля сокету.
 
 ### Список параметрів
 
 `stream`
+
 Ресурс потік імпорту.
 
 ### Значення, що повертаються
 
 Повертає **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання, функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.html); раніше повертався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socket_import_stream()****
+**Приклад #1 Приклад використання **socketimportstream()****
 
-` <?php$stream = stream_socket_server("udp://0.0.0.0:58380", $errno, $errstr, STREAM_SERVER_BIND);$sock   = socket_import_stream($stream);?> `
+```php
+<?php
+$stream = stream_socket_server("udp://0.0.0.0:58380", $errno, $errstr, STREAM_SERVER_BIND);
+$sock   = socket_import_stream($stream);
+?>
+```
 
 ### Дивіться також
 
-- [stream_socket_server()](function.stream-socket-server.md) -
-Створює інтернет-сокет або доменний сокет Unix
+-   [stream\_socket\_server()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix

@@ -1,9 +1,15 @@
-- [« ImagickPixel::setColor](imagickpixel.setcolor.md)
-- [ImagickPixel::setColorValue »](imagickpixel.setcolorvalue.md)
+Опис
 
-- [PHP Manual](index.md)
-- [ImagickPixel](class.imagickpixel.md)
-- Опис
+-   [« ImagickPixel::setColor](imagickpixel.setcolor.html)
+    
+-   [ImagickPixel::setColorValue »](imagickpixel.setcolorvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickPixel](class.imagickpixel.html)
+    
+-   Опис
+    
 
 # ImagickPixel::setColorCount
 
@@ -13,7 +19,9 @@ ImagickPixel::setColorCount — Опис
 
 ### Опис
 
-public **ImagickPixel::setcolorcount**(int `$colorCount`): bool
+```methodsynopsis
+public ImagickPixel::setcolorcount(int $colorCount): bool
+```
 
 Встановлює кількість кольорів, пов'язаних із цим кольором.
 
@@ -23,4 +31,4 @@ public **ImagickPixel::setcolorcount**(int `$colorCount`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

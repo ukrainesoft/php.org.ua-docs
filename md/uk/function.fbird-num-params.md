@@ -1,25 +1,27 @@
-- [«fbird_num_fields](function.fbird-num-fields.md)
-- [fbird_param_info »](function.fbird-param-info.md)
+Псевдонім ibasenumparams
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_num_params
+-   [« fbird\_num\_fields](function.fbird-num-fields.html)
+    
+-   [fbird\_param\_info »](function.fbird-param-info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasenumparams
+    
 
-#fbird_num_params
+# fbirdnumparams
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_num_params - Псевдонім
-[ibase_num_params()](function.ibase-num-params.md)
+fbirdnumparams — Псевдонім [ibase\_num\_params()](function.ibase-num-params.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_num_params()](function.ibase-num-params.md).
+Ця функція є псевдонімом: [ibase\_num\_params()](function.ibase-num-params.html)
 
 ### Дивіться також
 
-- [fbird_prepare()](function.fbird-prepare.md) - Псевдонім
-ibase_prepare
-- [fbird_param_info()](function.fbird-param-info.md) - Псевдонім
-ibase_param_info
+-   [fbird\_prepare()](function.fbird-prepare.html) - Псевдонім ibaseprepare
+-   [fbird\_param\_info()](function.fbird-param-info.html) - Псевдонім ibaseparaminfo

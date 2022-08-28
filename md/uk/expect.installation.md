@@ -1,22 +1,20 @@
-- [« Вимоги](expect.requirements.md)
-- [Налаштування під час виконання »](expect.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](expect.setup.md)
-- Установка
+-   [« Требования](expect.requirements.html)
+    
+-   [Настройка во время выполнения »](expect.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](expect.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP. Інформація щодо встановлення цього модуля PECL може бути знайдена в
-розділ керівництва [Встановлення модулів PECL](install.pecl.md).
-Додаткова інформація, така як нові версії, скачування, вихідні
-файли, інформація про розробника та CHANGELOG, можна знайти тут:
-[»https://pecl.php.net/package/expect](https://pecl.php.net/package/expect).
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP. Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/expect](https://pecl.php.net/package/expect)
 
-Для використання цього модуля необхідно зібрати PHP з опцією
-**--with-expect[=DIR]**.
+Для використання цього модуля вам необхідно зібрати PHP з опцією **\-with-expect=DIR**
 
-Для використання в Windows потрібно дозволити `php_expect.dll`
-`php.ini`. DLL для цього модуля PECL зараз недоступна.
-Дивіться також розділ [складання на Windows](install.windows.building.md).
+Для використання у Windows потрібно дозволити phpexpect.dll у php.ini. DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)

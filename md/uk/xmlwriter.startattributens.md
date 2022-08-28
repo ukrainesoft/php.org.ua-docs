@@ -1,74 +1,72 @@
-- [« XMLWriter::startAttribute](xmlwriter.startattribute.md)
-- [XMLWriter::startCdata »](xmlwriter.startcdata.md)
+Створити стартовий атрибут простору імен
 
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Створити стартовий атрибут простору імен
+-   [« XMLWriter::startAttribute](xmlwriter.startattribute.html)
+    
+-   [XMLWriter::startCdata »](xmlwriter.startcdata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](class.xmlwriter.html)
+    
+-   Створити стартовий атрибут простору імен
+    
 
 # XMLWriter::startAttributeNs
 
-#xmlwriter_start_attribute_ns
+# xmlwriterstartattributeнс
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startAttributeNs -- xmlwriter_start_attribute_ns — Створити
-стартовий атрибут простору імен
+XMLWriter::startAttributeNs -- xmlwriterstartattributens — Створити стартовий атрибут простору імен
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::startAttributeNs**(?string `$prefix`, string
-`$name`, ?string `$namespace`): bool
+```methodsynopsis
+public XMLWriter::startAttributeNs(?string $prefix, string $name, ?string $namespace): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_start_attribute_ns**(
-[XMLWriter](class.xmlwriter.md) `$writer`,
-?string `$prefix`,
-string `$name`,
-?string `$namespace`
-): bool
+```methodsynopsis
+xmlwriter_start_attribute_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace): bool
+```
 
-Починає атрибут простір імен.
+Починає атрибут простору імен.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
 
 `prefix`
+
 Префікс простору імен.
 
 `name`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 `namespace`
-URI простір імен. Якщо `namespace` дорівнює **`null`**, оголошення
-простір імен буде опущено.
+
+URI простір імен. Якщо `namespace` дорівнює **`null`**, оголошення простору імен буде опущено.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
-| 8.0.0  | prefix тепер припускає значення null.                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | `prefix` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [XMLWriter::startAttribute()](xmlwriter.startattribute.md) -
-Створити початковий атрибут
-- [XMLWriter::endAttribute()](xmlwriter.endattribute.md) - Завершити
-атрибут
-- [XMLWriter::writeAttribute()](xmlwriter.writeattribute.md) -
-Записати повний атрибут
-- [XMLWriter::writeAttributeNs()](xmlwriter.writeattributens.md) -
-Записати повний атрибут простору імен
+-   [XMLWriter::startAttribute()](xmlwriter.startattribute.html) - Створити початковий атрибут
+-   [XMLWriter::endAttribute()](xmlwriter.endattribute.html) - Завершити атрибут
+-   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.html) - Записати повний атрибут
+-   [XMLWriter::writeAttributeNs()](xmlwriter.writeattributens.html) - Записати повний атрибут простору імен

@@ -1,21 +1,29 @@
-- [« Imagick::getImageColors](imagick.getimagecolors.md)
-- [Imagick::getImageCompose »](imagick.getimagecompose.md)
+Повертає палітру кольорів зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає колірну палітру зображення
+-   [« Imagick::getImageColors](imagick.getimagecolors.html)
+    
+-   [Imagick::getImageCompose »](imagick.getimagecompose.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає палітру кольорів зображення
+    
 
 # Imagick::getImageColorspace
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageColorspace — Повертає колірну палітру зображення
+Imagick::getImageColorspace — Повертає палітру кольорів зображення
 
 ### Опис
 
-public **Imagick::getImageColorspace**(): int
+```methodsynopsis
+public Imagick::getImageColorspace(): int
+```
 
-Повертає ціле число, яке відповідає значенню однієї з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace).
+Повертає ціле число, що відповідає значенню однієї з [COLORSPACE констант](imagick.constants.html#imagick.constants.colorspace)
 
 ### Список параметрів
 
@@ -23,4 +31,4 @@ public **Imagick::getImageColorspace**(): int
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

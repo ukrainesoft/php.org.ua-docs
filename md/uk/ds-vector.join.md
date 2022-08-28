@@ -1,26 +1,34 @@
-- [« Ds\Vector::isEmpty](ds-vector.isempty.md)
-- [Ds\Vector::jsonSerialize »](ds-vector.jsonserialize.md)
+Склеює всі значення в рядок
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Склеює всі значення в рядок
+-   [« Ds\\Vector::isEmpty](ds-vector.isempty.html)
+    
+-   [Ds\\Vector::jsonSerialize »](ds-vector.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Вектор](class.ds-vector.html)
+    
+-   Склеює всі значення в рядок
+    
 
-# Ds\Vector::join
+# ДсVector::join
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Vector::join — Склеює всі значення в рядок
+ДсVector::join — Склеює всі значення в рядок
 
 ### Опис
 
-public **Ds\Vector::join**(string `$glue` = ?): string
+```methodsynopsis
+public Ds\Vector::join(string $glue = ?): string
+```
 
-Склеює всі значення в рядок, опціонально використовуючи заданий
-роздільник.
+Склеює всі значення в рядок, опціонально використовуючи заданий роздільник.
 
 ### Список параметрів
 
 `glue`
+
 Необов'язковий параметр, який визначає роздільник між значеннями.
 
 ### Значення, що повертаються
@@ -29,18 +37,34 @@ public **Ds\Vector::join**(string `$glue` = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::join()** з роздільником**
+**Приклад #1 Приклад використання **ДсVector::join()** з роздільником**
 
-` <?php$vector = new \Ds\Vector(["a", "b", c", 1, 2, 3]);var_dump($vector->join("|"));?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);
+
+var_dump($vector->join("|"));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "a|b|c|1|2|3"
+```
 
-**Приклад #2 Приклад використання **Ds\Vector::join()** без роздільника**
+**Приклад #2 Приклад використання **ДсVector::join()** без роздільника**
 
-` <?php$vector = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);var_dump($vector->join());?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);
+
+var_dump($vector->join());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "abc123"
+```

@@ -1,15 +1,21 @@
-- [«Вступ](intro.oauth.md)
-- [Вимоги »](oauth.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [OAuth](book.oauth.md)
+-   [« Введение](intro.oauth.html)
+    
+-   [Требования »](oauth.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](book.oauth.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](oauth.requirements.md)
-- [Установка](oauth.installation.md)
-- [Налаштування під час виконання](oauth.configuration.md)
-- [Типи ресурсів](oauth.resources.md)
+-   [Требования](oauth.requirements.html)
+-   [Установка](oauth.installation.html)
+-   [Настройка во время выполнения](oauth.configuration.html)
+-   [Типы ресурсов](oauth.resources.html)

@@ -1,9 +1,15 @@
-- [«readline_write_history](function.readline-write-history.md)
-- [Модулі для стиснення та архівації »](refs.compression.md)
+Читає рядок
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Читає рядок
+-   [« readline\_write\_history](function.readline-write-history.html)
+    
+-   [Модули для сжатия и архивации »](refs.compression.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Readline](ref.readline.html)
+    
+-   Читає рядок
+    
 
 # readline
 
@@ -13,25 +19,38 @@ readline — Читає рядок
 
 ### Опис
 
-**readline**(?string `$prompt` = **`null`**): string\|false
+```methodsynopsis
+readline(?string $prompt = null): string|false
+```
 
-Читає один рядок, введений користувачем. Якщо вам потрібно додати цю
-рядок в історію, то зробити це ви повинні самостійно, за допомогою
-[readline_add_history()](function.readline-add-history.md).
+Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readline\_add\_history()](function.readline-add-history.html)
 
 ### Список параметрів
 
 `prompt`
+
 Підказка, яка буде виведена користувачеві.
 
 ### Значення, що повертаються
 
-Повертає один рядок, введений користувачем. Символ кінця рядка
-буде видалено. Якщо більше даних немає для читання, тоді повертає
-**`false`**.
+Повертає один рядок, введений користувачем. Символ кінця рядка буде видалено. Якщо більше нема даних для читання, тоді повертає **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **readline()****
 
-` <?php//отримаємо 3 команди від користувачаfor ($i=0; $i < 3; $i++) {        $line = readline("Command: "); readline_add_history($line);}//роздрукуємо історію введенняprint_r(readline_list_history());//роздрукуємо змінніprint_r(readline_info());?> `
+```php
+<?php
+//получим 3 команды от пользователя
+for ($i=0; $i < 3; $i++) {
+        $line = readline("Command: ");
+        readline_add_history($line);
+}
+
+//распечатаем историю ввода
+print_r(readline_list_history());
+
+//распечатаем переменные
+print_r(readline_info());
+?>
+```

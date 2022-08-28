@@ -1,113 +1,154 @@
-- [« mysqli_result::fetch_field_direct](mysqli-result.fetch-field-direct.md)
-- [mysqli_result::fetch_fields »](mysqli-result.fetch-fields.md)
+Повертає наступне поле результуючого набору
 
-- [PHP Manual](index.md)
-- [mysqli_result](class.mysqli-result.md)
-- Повертає наступне поле результуючого набору
+-   [« mysqli\_result::fetch\_field\_direct](mysqli-result.fetch-field-direct.html)
+    
+-   [mysqli\_result::fetch\_fields »](mysqli-result.fetch-fields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_result](class.mysqli-result.html)
+    
+-   Повертає наступне поле результуючого набору
+    
 
-# mysqli_result::fetch_field
+# mysqliresult::fetchfield
 
-# mysqli_fetch_field
+# mysqlifetchfield
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_result::fetch_field -- mysqli_fetch_field -- Повертає наступне
-поле результуючого набору
+mysqliresult::fetchfield - mysqlifetchfield — Повертає наступне поле результуючого набору
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_result::fetch_field**(): object\|false
+```methodsynopsis
+public mysqli_result::fetch_field(): object|false
+```
 
 Процедурний стиль
 
-**mysqli_fetch_field**([mysqli_result](class.mysqli-result.md)
-`$result`): object\|false
+```methodsynopsis
+mysqli_fetch_field(mysqli_result $result): object|false
+```
 
-Повертає інформацію про один стовпчик результуючого набору у вигляді
-об'єкт. Щоб отримати визначення всіх стовпців, просто запустіть цю
-функцію багаторазово.
+Повертає інформацію про один стовпчик результуючого набору у вигляді об'єкта. Щоб отримати визначення всіх стовпців, просто запустіть цю функцію багаторазово.
 
 ### Список параметрів
 
 `result`
-Тільки для процедурного стилю: об'єкт
-[mysqli_result](class.mysqli-result.md), отриманий за допомогою
-[mysqli_query()](mysqli.query.md),
-[mysqli_store_result()](mysqli.store-result.md),
-[mysqli_use_result()](mysqli.use-result.md) або
-[mysqli_stmt_get_result()](mysqli-stmt.get-result.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
-Повертає об'єкт, що містить визначення поля або **`false`**, якщо
-стовпці в результуючій таблиці закінчилися.
+Повертає об'єкт, що містить визначення поля або **`false`**якщо стовпці в результуючій таблиці закінчилися.
 
-| Властивість Опис |                                                                    |
-| ---------------- | ------------------------------------------------------------------ |
-| name             | Ім'я шпальти                                                       |
-| orgname          | Вихідне ім'я стовпця, якщо він є псевдонім                         |
-| table            | Ім'я таблиці, якою належить стовпець (якщо не обчислено)           |
-| orgtable         | Початкове ім'я таблиці, якщо є псевдонім                           |
-| def              | Зарезервовано для стандартного значення, на даний момент завжди "" |
-| db               | Ім'я бази                                                          |
-| Каталог          | Ім'я каталогу завжди "def"                                         |
-| max_length       | Максимальна ширина поля результуючого набору.                      |
-| length           | Ширина поля, як вона задана щодо таблиці.                          |
-| charsetnr        | Кількість наборів символів для поля.                               |
-| flags            | Ціле число, яке представляє бітові прапори для поля.               |
-| тип              | Тип даних поля                                                     |
-| decimals         | Число знаків після коми (для цілих полів)                          |
+**Властивості об'єкту**
 
-**Властивості об'єкта**
+| Свойство | Описание |
+| --- | --- |
+| name | Ім'я стовпця |
+| orgname | Вихідне ім'я стовпця, якщо він має псевдонім |
+| table | Ім'я таблиці, якій належить стовпець (якщо не обчислено) |
+| orgtable | Початкове ім'я таблиці, якщо є псевдонім |
+| def | Зарезервовано для стандартного значення, на даний момент завжди "" |
+| дб | Ім'я бази даних |
+| catalog | Ім'я каталогу завжди "def" |
+| maxlength | Максимальна ширина поля результуючого набору. |
+| length | Ширина поля, як вона задана щодо таблиці. |
+| charsetnr | Кількість наборів символів для поля. |
+| flags | Ціла кількість, що представляє бітові прапори для поля. |
+| type | Тип даних поля |
+| decimals | Число знаків після коми (для цілих полів) |
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {   єд
-", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = $mysqli-  всіх стовпцях */    while ($finfo = $result->fetch_field()) {         printf("Ім'я:          %s
-", $finfo->name);         printf("Таблиця:     %s
-", $finfo->table);         printf("Макс. довжина: %d
-", $finfo->max_length);         printf("Прапори:       %d
-", $finfo->flags);         printf("Тип:         %d
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-", $finfo->type);    }    $result->close();}/* закриваємо підключення */$mysqli->close();?> `
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
+
+if ($result = $mysqli->query($query)) {
+
+    /* Получим информацию обо всех столбцах */
+    while ($finfo = $result->fetch_field()) {
+
+        printf("Имя:         %s\n", $finfo->name);
+        printf("Таблица:     %s\n", $finfo->table);
+        printf("Макс. длина: %d\n", $finfo->max_length);
+        printf("Флаги:       %d\n", $finfo->flags);
+        printf("Тип:         %d\n\n", $finfo->type);
+    }
+    $result->close();
+}
+
+/* закрываем подключение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = mysqli_   стовпцях */    while ($finfo = mysqli_fetch_field($result)) {         printf("Ім'я:          %s
-", $finfo->name);         printf("Таблиця:     %s
-", $finfo->table);         printf("Макс. довжина: %d
-", $finfo->max_length);         printf("Прапори:       %d
-", $finfo->flags);         printf("Тип:         %d
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-", $finfo->type);    }     mysqli_free_result($result);}/* закриваємо підключення */mysqli_close($link);?> `
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
+
+if ($result = mysqli_query($link, $query)) {
+
+    /* Получим информацию обо всех столбцах */
+    while ($finfo = mysqli_fetch_field($result)) {
+
+        printf("Имя:         %s\n", $finfo->name);
+        printf("Таблица:     %s\n", $finfo->table);
+        printf("Макс. длина: %d\n", $finfo->max_length);
+        printf("Флаги:       %d\n", $finfo->flags);
+        printf("Тип:         %d\n\n", $finfo->type);    }
+    mysqli_free_result($result);
+}
+
+/* закрываем подключение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Ім'я: Name
-Таблиця: Country
-Макс. довжина: 11
-Прапори: 1
-Тип: 254
+```
+Имя:         Name
+Таблица:     Country
+Макс. длина: 11
+Флаги:       1
+Тип:         254
 
-Ім'я: SurfaceArea
-Таблиця: Country
-Макс. довжина: 10
-Прапори: 32769
-Тип: 4
+Имя:         SurfaceArea
+Таблица:     Country
+Макс. длина: 10
+Флаги:       32769
+Тип:         4
+```
 
 ### Дивіться також
 
-- [mysqli_num_fields()](mysqli-result.field-count.md) - Отримує
-кількість полів у наборі результатів
-- [mysqli_fetch_field_direct()](mysqli-result.fetch-field-direct.md) -
-Отримання метаданих конкретного поля
-- [mysqli_fetch_fields()](mysqli-result.fetch-fields.md) -
-Повертає масив об'єктів, що становлять поля результуючого
-набору
-- [mysqli_field_seek()](mysqli-result.field-seek.md) - Встановити
-вказівник поля на певне усунення
+-   [mysqli\_num\_fields()](mysqli-result.field-count.html) - Отримує кількість полів у наборі результатів
+-   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.html) - Отримання метаданих конкретного поля
+-   [mysqli\_fetch\_fields()](mysqli-result.fetch-fields.html) - Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqli\_field\_seek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення

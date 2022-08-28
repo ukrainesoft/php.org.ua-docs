@@ -1,40 +1,40 @@
-- [«oci_statement_type](function.oci-statement-type.md)
-- [OCICollection »](class.ocicollection.md)
+Видалити реєстрацію користувача callback-функції для Oracle Database TAF
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Видалити реєстрацію користувача callback-функції для Oracle
-Database TAF
+-   [« oci\_statement\_type](function.oci-statement-type.html)
+    
+-   [OCICollection »](class.ocicollection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Видалити реєстрацію користувача callback-функції для Oracle Database TAF
+    
 
-#oci_unregister_taf_callback
+# ociunregistertafcallback
 
-(PHP 7.0 \>= 7.0.23, PHP 8, PHP 7 \>= 7.1.9, PHP 8, PECL OCI8 \>= 2.1.7)
+(PHP 7.0 >= 7.0.23, PHP 8, PHP 7 >= 7.1.9, PHP 8, PECL OCI8 >= 2.1.7)
 
-oci_unregister_taf_callback — Видалити реєстрацію користувача
-callback-функції для Oracle Database TAF
+ociunregistertafcallback — Видалити реєстрацію користувача callback-функції для Oracle Database TAF
 
 ### Опис
 
-**oci_unregister_taf_callback**(resource `$connection`): bool
+```methodsynopsis
+oci_unregister_taf_callback(resource $connection): bool
+```
 
-Видаляє реєстрацію користувача callback-функції,
-зареєстровану для з'єднання `connection` за допомогою
-[oci_register_taf_callback()](function.oci-register-taf-callback.md).
-Докладніше читайте [OCI8 Transparent Application Failover (TAF)
-Support](oci8.taf.md) .
+Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [oci\_register\_taf\_callback()](function.oci-register-taf-callback.html). Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.html)
 
 ### Список параметрів
 
 `connection`
+
 Ідентифікатор з'єднання Oracle.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [oci_register_taf_callback()](function.oci-register-taf-callback.md) -
-Реєструє функцію зворотного виклику для Oracle
-Database TAF
+-   [oci\_register\_taf\_callback()](function.oci-register-taf-callback.html) - Реєструє функцію зворотного виклику для Oracle Database TAF

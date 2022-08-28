@@ -1,65 +1,65 @@
-- [« Нові можливості](migration73.new-features.md)
-- [Нові глобальні константи »](migration73.constants.md)
+Нові функції
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.2.x на PHP 7.3.x](migration73.md)
-- Нові функції
+-   [« Новые возможности](migration73.new-features.html)
+    
+-   [Новые глобальные константы »](migration73.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 7.2.x на PHP 7.3.x](migration73.html)
+    
+-   Нові функції
+    
 
 ## Нові функції
 
 ### Ядро PHP
 
-- [array_key_first()](function.array-key-first.md)
-- [array_key_last()](function.array-key-last.md)
-- [gc_status()](function.gc-status.md)
-- [hrtime()](function.hrtime.md)
-- [is_countable()](function.is-countable.md)
-- [net_get_interfaces()](function.net-get-interfaces.md)
+-   [array\_key\_first()](function.array-key-first.html)
+-   [array\_key\_last()](function.array-key-last.html)
+-   [gc\_status()](function.gc-status.html)
+-   [hrtime()](function.hrtime.html)
+-   [is\_countable()](function.is-countable.html)
+-   [net\_get\_interfaces()](function.net-get-interfaces.html)
 
 ### Менеджер процесів FastCGI
 
-- [fpm_get_status()](function.fpm-get-status.md)
+-   [fpm\_get\_status()](function.fpm-get-status.html)
 
-### Дата і час
+### дата і час
 
--
-[DateTime::createFromImmutable()](datetime.createfromimmutable.md)
+-   [DateTime::createFromImmutable()](datetime.createfromimmutable.html)
 
 ### Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
 
-- [gmp_binomial()](function.gmp-binomial.md)
-- [gmp_kronecker()](function.gmp-kronecker.md)
-- [gmp_lcm()](function.gmp-lcm.md)
-- [gmp_perfect_power()](function.gmp-perfect-power.md)
+-   [gmp\_binomial()](function.gmp-binomial.html)
+-   [gmp\_kronecker()](function.gmp-kronecker.html)
+-   [gmp\_lcm()](function.gmp-lcm.html)
+-   [gmp\_perfect\_power()](function.gmp-perfect-power.html)
 
 ### Функції інтернаціоналізації
 
--
-[Normalizer::getRawDecomposition()](normalizer.getrawdecomposition.md)
--
-[normalizer_get_raw_decomposition()](normalizer.getrawdecomposition.md)
-- **Spoofchecker::setRestrictionLevel()**
+-   [Normalizer::getRawDecomposition()](normalizer.getrawdecomposition.html)
+-   [normalizer\_get\_raw\_decomposition()](normalizer.getrawdecomposition.html)
+-   **Spoofchecker::setRestrictionLevel()**
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
-- [ldap_add_ext()](function.ldap-add-ext.md)
-- [ldap_bind_ext()](function.ldap-bind-ext.md)
-- [ldap_delete_ext()](function.ldap-delete-ext.md)
-- [ldap_exop_refresh()](function.ldap-exop-refresh.md)
-- [ldap_mod_add_ext()](function.ldap-mod_add-ext.md)
-- [ldap_mod_replace_ext()](function.ldap-mod_replace-ext.md)
-- [ldap_mod_del_ext()](function.ldap-mod_del-ext.md)
-- [ldap_rename_ext()](function.ldap-rename-ext.md)
+-   [ldap\_add\_ext()](function.ldap-add-ext.html)
+-   [ldap\_bind\_ext()](function.ldap-bind-ext.html)
+-   [ldap\_delete\_ext()](function.ldap-delete-ext.html)
+-   [ldap\_exop\_refresh()](function.ldap-exop-refresh.html)
+-   [ldap\_mod\_add\_ext()](function.ldap-mod_add-ext.html)
+-   [ldap\_mod\_replace\_ext()](function.ldap-mod_replace-ext.html)
+-   [ldap\_mod\_del\_ext()](function.ldap-mod_del-ext.html)
+-   [ldap\_rename\_ext()](function.ldap-rename-ext.html)
 
 ### OpenSSL
 
-- [openssl_pkey_derive()](function.openssl-pkey-derive.md)
+-   [openssl\_pkey\_derive()](function.openssl-pkey-derive.html)
 
 ### Сокети
 
--
-[socket_wsaprotocol_info_export()](function.socket-wsaprotocol-info-export.md)
--
-[socket_wsaprotocol_info_import()](function.socket-wsaprotocol-info-import.md)
--
-[socket_wsaprotocol_info_release()](function.socket-wsaprotocol-info-release.md)
+-   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html)
+-   [socket\_wsaprotocol\_info\_import()](function.socket-wsaprotocol-info-import.html)
+-   [socket\_wsaprotocol\_info\_release()](function.socket-wsaprotocol-info-release.html)

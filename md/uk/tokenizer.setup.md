@@ -1,15 +1,21 @@
-- [«Вступ](intro.tokenizer.md)
-- [Вимоги »](tokenizer.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Лексер (Tokenizer)](book.tokenizer.md)
+-   [« Введение](intro.tokenizer.html)
+    
+-   [Требования »](tokenizer.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Лексер (Tokenizer)](book.tokenizer.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](tokenizer.requirements.md)
-- [Установка](tokenizer.installation.md)
-- [Налаштування під час виконання](tokenizer.configuration.md)
-- [Типи ресурсів](tokenizer.resources.md)
+-   [Требования](tokenizer.requirements.html)
+-   [Установка](tokenizer.installation.html)
+-   [Настройка во время выполнения](tokenizer.configuration.html)
+-   [Типы ресурсов](tokenizer.resources.html)

@@ -1,26 +1,31 @@
-- [«socket_create](function.socket-create.md)
-- [socket_get_option »](function.socket-get-option.md)
+Експортувати сокет у потік, що інкапсулює сокет
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Експортувати сокет у потік, що інкапсулює сокет
+-   [« socket\_create](function.socket-create.html)
+    
+-   [socket\_get\_option »](function.socket-get-option.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Експортувати сокет у потік, що інкапсулює сокет
+    
 
-# socket_export_stream
+# socketexportstream
 
-(PHP 7 \>= 7.0.7, PHP 8)
+(PHP 7> = 7.0.7, PHP 8)
 
-socket_export_stream — Експортувати сокет у потік, що інкапсулює
-сокет
+socketexportstream — Експортувати сокет у потік, що інкапсулює сокет
 
 ### Опис
 
-**socket_export_stream**([Socket](class.socket.md) `$socket`):
-resource\|false
+```methodsynopsis
+socket_export_stream(Socket $socket): resource|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +33,10 @@ resource\|false
 
 ### Значення, що повертаються
 
-Повертає ресурс або **false** у разі виникнення помилки.
+Повертає ресурс або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |

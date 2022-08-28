@@ -1,33 +1,31 @@
-- [« Використання Phar-архівів: Вступ](phar.using.intro.md)
-- [Використання Phar-архівів: класи Phar та PharData »](phar.using.object.md)
+Використання Phar-архівів: обгортка потоку phar
 
-- [PHP Manual](index.md)
-- [Використання Phar-архівів](phar.using.md)
-- Використання Phar-архівів: обгортка потоку phar
+-   [« Использование Phar-архивов: Введение](phar.using.intro.html)
+    
+-   [Использование Phar-архивов: классы Phar и PharData »](phar.using.object.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Использование Phar-архивов](phar.using.html)
+    
+-   Використання Phar-архівів: обгортка потоку phar
+    
 
 ## Використання Phar-архівів: обгортка потоку phar
 
-Обгортка потоку Phar повністю підтримує
-[fopen()](function.fopen.md) для читання та запису (не для додавання),
-[unlink()](function.unlink.md), [stat()](function.stat.md),
-[fstat()](function.fstat.md), [fseek()](function.fseek.md),
-[rename()](function.rename.md) та потокові операції каталогів, такі
-як [opendir()](function.opendir.md), [rmdir()](function.rmdir.md) та
-[mkdir()](function.mkdir.md).
+Обгортка потоку Phar повністю підтримує [fopen()](function.fopen.html) для читання та запису (не для додавання), [unlink()](function.unlink.html) [stat()](function.stat.html) [fstat()](function.fstat.html) [fseek()](function.fseek.html) [rename()](function.rename.html) та потокові операції каталогів, такі як [opendir()](function.opendir.html) [rmdir()](function.rmdir.html) і [mkdir()](function.mkdir.html)
 
-Також за допомогою контекстів потоку можна впливати на стиснення окремих
-файлів та пофайлові метадані в Phar-архіві:
+Також за допомогою контекстів потоку можна впливати на стиснення окремих файлів і метадані пофайлові в Phar-архіві:
 
-` <?php$context = stream_context_create(array('phar' =>                                    array('compress' => Phar::GZ)),                                    array('metadata' => array('user' => 'cellog'))) ;file_put_contents('phar://my.phar/somefile.php', 0, $context);?> `
+```php
+<?php
+$context = stream_context_create(array('phar' =>
+                                    array('compress' => Phar::GZ)),
+                                    array('metadata' => array('user' => 'cellog')));
+file_put_contents('phar://my.phar/somefile.php', 0, $context);
+?>
+```
 
-Обгортка потоку `phar` не працює з файлами, розташованими віддалено, та
-не може з ними працювати, так що її використання можливе навіть коли
-параметри INI
-[allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) та
-[allow_url_include](filesystem.configuration.md#ini.allow-url-include)
-вимкнено.
+Обгортка потоку `phar` не працює з файлами, розташованими віддалено, і не може з ними працювати, так що її використання можливе навіть коли параметри INI [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen) і [allow\_url\_include](filesystem.configuration.html#ini.allow-url-include) вимкнено.
 
-Незважаючи на наявність можливості створювати phar-архіви з нуля, просто
-використовуючи потокові операції, найкращим рішенням буде використання
-функціоналу, вбудованого у клас Phar. Обертку потоку найкраще
-використовувати лише читання.
+Незважаючи на наявність можливості створювати phar-архіви з нуля, просто використовуючи потокові операції, найкращим рішенням буде використання функціоналу, вбудованого в клас Phar. Обгортку потоку найкраще використовувати лише читання.

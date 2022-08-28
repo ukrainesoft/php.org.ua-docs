@@ -1,15 +1,21 @@
-- [«Вступ](intro.geoip.md)
-- [Вимоги »](geoip.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [GeoIP](book.geoip.md)
+-   [« Введение](intro.geoip.html)
+    
+-   [Требования »](geoip.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GeoIP](book.geoip.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](geoip.requirements.md)
-- [Установка](geoip.installation.md)
-- [Налаштування під час виконання](geoip.configuration.md)
-- [Типи ресурсів](geoip.resources.md)
+-   [Требования](geoip.requirements.html)
+-   [Установка](geoip.installation.html)
+-   [Настройка во время выполнения](geoip.configuration.html)
+-   [Типы ресурсов](geoip.resources.html)

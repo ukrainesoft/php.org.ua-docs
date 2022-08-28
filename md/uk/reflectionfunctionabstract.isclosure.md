@@ -1,20 +1,27 @@
-- [« ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md)
-- [ReflectionFunctionAbstract::isDeprecated »](reflectionfunctionabstract.isdeprecated.md)
+Перевіряє, чи є функція замикання (Closure)
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Перевіряє, чи є функція замикання (Closure)
+-   [« ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.html)
+    
+-   [ReflectionFunctionAbstract::isDeprecated »](reflectionfunctionabstract.isdeprecated.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Перевіряє, чи є функція замикання (Closure)
+    
 
 # ReflectionFunctionAbstract::isClosure
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція
-замиканням ([Closure](class.closure.md))
+ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція замиканням ([Closure](class.closure.html)
 
 ### Опис
 
-public **ReflectionFunctionAbstract::isClosure**(): bool
+```methodsynopsis
+public ReflectionFunctionAbstract::isClosure(): bool
+```
 
 Перевірка, чи є функція замикання.
 
@@ -24,22 +31,33 @@ public **ReflectionFunctionAbstract::isClosure**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо функція є замиканням
-([Closure](class.closure.md)), **`false`** інакше.
+Повертає **`true`**, якщо функція є замиканням ([Closure](class.closure.html) **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання методу
-**ReflectionFunctionAbstract::isClosure()****
+**Приклад #1 Приклад використання методу **ReflectionFunctionAbstract::isClosure()****
 
-` <?php// Не замикання$function1 = 'str_replace';$reflection1 = new ReflectionFunction($function1);var_dump($reflection1->isClosure());// Замикання$function2 = $ = new ReflectionFunction($function2);var_dump($reflection2->isClosure());?> `
+```php
+<?php
+// Не замыкание
+$function1 = 'str_replace';
+$reflection1 = new ReflectionFunction($function1);
+var_dump($reflection1->isClosure());
+
+// Замыкание
+$function2 = function () {};
+$reflection2 = new ReflectionFunction($function2);
+var_dump($reflection2->isClosure());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::isGenerator()](reflectionfunctionabstract.isgenerator.md) -
-Перевіряє, чи є функція генератором
+-   [ReflectionFunctionAbstract::isGenerator()](reflectionfunctionabstract.isgenerator.html) - Перевіряє, чи є функція генератором

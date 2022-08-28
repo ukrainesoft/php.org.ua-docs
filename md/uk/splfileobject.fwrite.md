@@ -1,54 +1,68 @@
-- [« SplFileObject::ftruncate](splfileobject.ftruncate.md)
-- [SplFileObject::getChildren »](splfileobject.getchildren.md)
+Запис у файл
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Запис у файл
+-   [« SplFileObject::ftruncate](splfileobject.ftruncate.html)
+    
+-   [SplFileObject::getChildren »](splfileobject.getchildren.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Запис у файл
+    
 
 # SplFileObject::fwrite
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fwrite — Запис до файлу
 
 ### Опис
 
-public **SplFileObject::fwrite**(string `$data`, int `$length` = 0):
-int\|false
+```methodsynopsis
+public SplFileObject::fwrite(string $data, int $length = 0): int|false
+```
 
 Записує вміст рядка `string` у файл
 
 ### Список параметрів
 
 `data`
+
 Рядок, який буде записаний у файл.
 
 `length`
-Якщо заданий аргумент `length`, запис зупиниться після того, як
-`length` байт будуть записані або буде досягнуто кінця рядка `string`,
-залежно від того, що станеться раніше.
+
+Якщо заданий аргумент `length`, запис зупиниться після того, як `length` байт будуть записані або буде досягнуто кінець рядка `string`, Залежно від того, що трапиться раніше.
 
 ### Значення, що повертаються
 
-Повертає кількість записаних байт або **`false`** у разі
-виникнення помилки.
+Повертає кількість записаних байт або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                     |
-|--------|--------------------------------------------------------------------------|
-| 7.4.0  | Функція тепер повертає **false** замість нуля у разі виникнення помилки. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція тепер повертає **`false`** замість нуля у разі виникнення помилки. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fwrite()****
 
-` <?php$file = new SplFileObject("fwrite.txt", "w");$written = $file->fwrite("12345");echo "У файл записано $written байт";?> `
+```php
+<?php
+$file = new SplFileObject("fwrite.txt", "w");
+$written = $file->fwrite("12345");
+echo "В файл записано $written байт";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-У файл записано 5 байт
+```
+В файл записано 5 байт
+```
 
 ### Дивіться також
 
-- [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл

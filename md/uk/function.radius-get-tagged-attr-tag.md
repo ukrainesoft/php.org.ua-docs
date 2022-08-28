@@ -1,46 +1,64 @@
-- [« radius_get_tagged_attr_data](function.radius-get-tagged-attr-data.md)
-- [radius_get_vendor_attr »](function.radius-get-vendor-attr.md)
+Витягує тег із позначеного атрибуту
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Витягує тег із позначеного атрибуту
+-   [« radius\_get\_tagged\_attr\_data](function.radius-get-tagged-attr-data.html)
+    
+-   [radius\_get\_vendor\_attr »](function.radius-get-vendor-attr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Витягує тег із позначеного атрибуту
+    
 
-#radius_get_tagged_attr_tag
+# radiusgettaggedattrtag
 
-(PECL radius \>= 1.3.0)
+(PECL radius >= 1.3.0)
 
-radius_get_tagged_attr_tag — Витягує тег із позначеного атрибута
+radiusgettaggedattrtag — Витягує тег із позначеного атрибуту
 
 ### Опис
 
-**radius_get_tagged_attr_tag**(string `$data`): int\|false
+```methodsynopsis
+radius_get_tagged_attr_tag(string $data): int|false
+```
 
-Якщо [radius_get_attr()](function.radius-get-attr.md) був повернутий
-тегований атрибут,
-[radius_get_tagged_attr_data()](function.radius-get-tagged-attr-data.md)
-поверне тег із атрибута.
+Якщо з [radius\_get\_attr()](function.radius-get-attr.html) був повернутий тегований атрибут, [radius\_get\_tagged\_attr\_data()](function.radius-get-tagged-attr-data.html) поверне тег із атрибуту.
 
 ### Список параметрів
 
 `data`
+
 Тегований атрибут, який потрібно розкодувати.
 
 ### Значення, що повертаються
 
-Повертає тег із тегованого атрибуту або **`false`** у випадку
-виникнення помилки.
+Повертає тег із тегованого атрибуту або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radius_get_tagged_attr_tag()****
+**Приклад #1 Приклад використання **radiusgettaggedattrtag()****
 
-` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));        exit;    }    $attr = $resa['attr'];    $data = $resa['data'];    $tag = radius_get_tagged_attr_tag($data);    $value = radius_get_tagged_attr_data($data );    printf("Отриманий тегований атрибут з тегом %d і значенням %s
-", $tag, $value);}?> `
+```php
+<?php
+while ($resa = radius_get_attr($res)) {
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
+
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+
+    $tag = radius_get_tagged_attr_tag($data);
+    $value = radius_get_tagged_attr_data($data);
+
+    printf("Получен тегированный атрибут с тегом %d и значением %s\n", $tag, $value);
+}
+?>
+```
 
 ### Дивіться також
 
-- [radius_get_attr()](function.radius-get-attr.md) - Витягує
-атрибут
-- [radius_get_tagged_attr_data()](function.radius-get-tagged-attr-data.md) -
-Витягує дані із позначеного атрибуту
+-   [radius\_get\_attr()](function.radius-get-attr.html) - Витягує атрибут
+-   [radius\_get\_tagged\_attr\_data()](function.radius-get-tagged-attr-data.html) - Витягує дані із позначеного атрибуту

@@ -1,34 +1,40 @@
-- [«ps_setmiterlimit](function.ps-setmiterlimit.md)
-- [ps_setpolydash »](function.ps-setpolydash.md)
+Встановлює режим накладання
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює режим накладання
+-   [« ps\_setmiterlimit](function.ps-setmiterlimit.html)
+    
+-   [ps\_setpolydash »](function.ps-setpolydash.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює режим накладання
+    
 
-#ps_setoverprintmode
+# псsetoverprintmode
 
-(PECL ps \>= 1.3.0)
+(PECL ps >= 1.3.0)
 
-ps_setoverprintmode — Встановлює режим накладання
+псsetoverprintmode — Встановлює режим накладання
 
 ### Опис
 
-**ps_setoverprintmode**(resource `$psdoc`, int `$mode`): bool
+```methodsynopsis
+ps_setoverprintmode(resource $psdoc, int $mode): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `mode`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,23 +1,32 @@
-- [«UI\Controls\Slider::onChange](ui-controls-slider.onchange.md)
-- [UI\Controls\Progress »](class.ui-controls-progress.md)
+Встановити значення
 
-- [PHP Manual](index.md)
-- [UI\Controls\Slider](class.ui-controls-slider.md)
-- Встановити значення
+-   [« UI\\Controls\\Slider::onChange](ui-controls-slider.onchange.html)
+    
+-   [UI\\Controls\\Progress »](class.ui-controls-progress.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+    
+-   Встановити значення
+    
 
-# UI\Controls\Slider::setValue
+# ОЙControlsSlider::setValue
 
 (UI 0.9.9)
 
-UI\Controls\Slider::setValue — Встановити значення
+ОЙControlsSlider::setValue — Встановити значення
 
 ### Опис
 
-public **UI\Controls\Slider::setValue**(int `$value`)
+```methodsynopsis
+public UI\Controls\Slider::setValue(int $value)
+```
 
 Встановить значення для цього слайдера
 
 ### Список параметрів
 
 `value`
+
 Нове значення

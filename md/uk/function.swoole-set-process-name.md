@@ -1,20 +1,27 @@
-- [« swoole_select](function.swoole-select.md)
-- [swoole_strerror »](function.swoole-strerror.md)
+Встановити ім'я процесу
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Встановити ім'я процесу
+-   [« swoole\_select](function.swoole-select.html)
+    
+-   [swoole\_strerror »](function.swoole-strerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Встановити ім'я процесу
+    
 
-# swoole_set_process_name
+# swoolesetprocessname
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_set_process_name — Встановити ім'я процесу
+swoolesetprocessname — Встановити ім'я процесу
 
 ### Опис
 
-**swoole_set_process_name**(string `$process_name`, int `$size` = 128):
-void
+```methodsynopsis
+swoole_set_process_name(string $process_name, int $size = 128): void
+```
 
 ### Список параметрів
 

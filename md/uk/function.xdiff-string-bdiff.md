@@ -1,40 +1,44 @@
-- [«xdiff_string_bdiff_size](function.xdiff-string-bdiff-size.md)
-- [xdiff_string_bpatch »](function.xdiff-string-bpatch.md)
+Створити бінарний патч для двох рядків
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Створити бінарний патч для двох рядків
+-   [« xdiff\_string\_bdiff\_size](function.xdiff-string-bdiff-size.html)
+    
+-   [xdiff\_string\_bpatch »](function.xdiff-string-bpatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции xdiff](ref.xdiff.html)
+    
+-   Створити бінарний патч для двох рядків
+    
 
-#xdiff_string_bdiff
+# xdiffstringbdiff
 
-(PECL xdiff \>= 1.5.0)
+(PECL xdiff >= 1.5.0)
 
-xdiff_string_bdiff — Створити бінарний патч для двох рядків
+xdiffstringbdiff — Створити бінарний патч для двох рядків
 
 ### Опис
 
-**xdiff_string_bdiff**(string `$old_data`, string `$new_data`): string
+```methodsynopsis
+xdiff_string_bdiff(string $old_data, string $new_data): string
+```
 
-Здійснює бінарне порівняння двох рядків та повертає патч. Ця функція
-працює як з текстом, так і з бінарними даними. Отриманий патч
-згодом можна застосувати за допомогою функцій
-[xdiff_string_bpatch()](function.xdiff-string-bpatch.md) та
-[xdiff_file_bpatch()](function.xdiff-file-bpatch.md).
+Здійснює бінарне порівняння двох рядків та повертає патч. Ця функція працює як з текстом, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.html) і [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.html)
 
 ### Список параметрів
 
 `old_data`
+
 Перший рядок із бінарними даними. Це будуть "старі" дані.
 
 `new_data`
+
 Другий рядок із бінарними даними. Це будуть "нові" дані.
 
 ### Значення, що повертаються
 
-Повертає рядок з бінарним патчем, що містить різницю між "старими"
-та "новими" даними, або **`false`** у разі виникнення помилки.
+Повертає рядок з бінарним патчем, що містить різницю між "старими" та "новими" даними, або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [xdiff_string_bpatch()](function.xdiff-string-bpatch.md) -
-Застосування бінарного патча до рядка
+-   [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.html) - Застосування бінарного патча до рядка

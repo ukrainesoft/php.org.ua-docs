@@ -1,29 +1,38 @@
-- [«trader_ceil](function.trader-ceil.md)
-- [trader_correl »](function.trader-correl.md)
+Осцилятор цінових моментів Чанде
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- осцилятор цінових моментів Чанде
+-   [« trader\_ceil](function.trader-ceil.html)
+    
+-   [trader\_correl »](function.trader-correl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Осцилятор цінових моментів Чанде
+    
 
-# trader_cmo
+# tradercmo
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cmo — Осцилятор цінових моментів Чанде
+tradercmo — Осцилятор цінових моментів Чанде
 
 ### Опис
 
-**trader_cmo**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_cmo(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

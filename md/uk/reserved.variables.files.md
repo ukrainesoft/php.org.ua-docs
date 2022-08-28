@@ -1,33 +1,33 @@
-- [«$\_POST](reserved.variables.post.md)
-- [$\_REQUEST »](reserved.variables.request.md)
+Змінні файли, завантажені за HTTP
 
-- [PHP Manual](index.md)
-- [Предвизначені змінні](reserved.variables.md)
-- Змінні файли, завантажені за HTTP
+-   [« $\_POST](reserved.variables.post.html)
+    
+-   [$\_REQUEST »](reserved.variables.request.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые переменные](reserved.variables.html)
+    
+-   Змінні файли, завантажені за HTTP
+    
 
-# $\_FILES
+# FILES
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-$\_FILES — Змінні файли, завантажені за HTTP
+FILES — Змінні файли, завантажені за HTTP
 
 ### Опис
 
-Асоціативний масив (array) елементів, завантажених у поточний скрипт
-через метод HTTP POST. Структура цього масиву описана у розділі
-[Завантаження файлів методом POST](features.file-upload.post-method.md).
+Асоціативний масив (array) елементів, завантажених у поточний скрипт через метод HTTP POST. Структура цього масиву описана у розділі [Загрузка файлов методом POST](features.file-upload.post-method.html)
 
 ### Примітки
 
-> **Примітка**:
->
-> Це 'суперглобальна' або автоматична глобальна змінна. Це
-> просто означає, що вона є у всіх контекстах скрипта. Ні
-> необхідності виконувати **global $variable;** для доступу до неї всередині
-> методу чи функції.
+> **Зауваження**
+> 
+> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
 ### Дивіться також
 
-- [move_uploaded_file()](function.move-uploaded-file.md) -
-Переміщує завантажений файл у нове місце
-- [Завантаження файлів на сервер](features.file-upload.md)
+-   [move\_uploaded\_file()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [Загрузка файлов на сервер](features.file-upload.html)

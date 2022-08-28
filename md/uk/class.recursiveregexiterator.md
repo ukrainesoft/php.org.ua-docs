@@ -1,122 +1,110 @@
-- [« RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)
-- [RecursiveRegexIterator::\_\_construct »](recursiveregexiterator.construct.md)
+Клас RecursiveRegexIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас RecursiveRegexIterator
+-   [« RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.html)
+    
+-   [RecursiveRegexIterator::\_\_construct »](recursiveregexiterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас RecursiveRegexIterator
+    
 
 # Клас RecursiveRegexIterator
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Цей рекурсивний ітератор може фільтрувати інший рекурсивний ітератор.
-за допомогою регулярних виразів.
+Цей рекурсивний ітератор може фільтрувати інший рекурсивний ітератор за допомогою регулярних виразів.
 
 ## Огляд класів
 
-class **RecursiveRegexIterator** extends
-[RegexIterator](class.regexiterator.md) implements
-[RecursiveIterator](class.recursiveiterator.md) {
+```classsynopsis
 
-/\* Успадковані константи \*/
+     
+    
 
-const int `MATCH` = 0;
+    
+     
+      class RecursiveRegexIterator
+     
 
-const int `GET_MATCH` = 1;
+     
+      extends
+       RegexIterator
+     
 
-const int `ALL_MATCHES` = 2;
+     implements 
+       RecursiveIterator {
 
-const int `SPLIT` = 3;
+    /* Наследуемые константы */
+    
+     const
+     int
+      MATCH = 0;
+const
+     int
+      GET_MATCH = 1;
+const
+     int
+      ALL_MATCHES = 2;
+const
+     int
+      SPLIT = 3;
+const
+     int
+      REPLACE = 4;
+const
+     int
+      USE_KEY = 1;
 
-const int `REPLACE` = 4;
 
-const int `USE_KEY` = 1;
+    /* Наследуемые свойства */
+    public
+     ?string
+      $replacement = null;
 
-/\* Наслідувані властивості \*/
 
-public ?string `$replacement` = null;
+    /* Методы */
+    
+   public __construct(    RecursiveIterator $iterator,    string $pattern,    int $mode = RecursiveRegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
 
-/\* Методи \*/
+    public getChildren(): RecursiveRegexIterator
+public hasChildren(): bool
 
-public [\_\_construct](recursiveregexiterator.construct.md)(
-[RecursiveIterator](class.recursiveiterator.md) `$iterator`,
-string `$pattern`,
-int `$mode` = RecursiveRegexIterator::MATCH,
-int `$flags` = 0,
-int `$pregFlags` = 0
-)
 
-public [getChildren](recursiveregexiterator.getchildren.md)():
-[RecursiveRegexIterator](class.recursiveregexiterator.md)
+    /* Наследуемые методы */
+    public RegexIterator::accept(): bool
+public RegexIterator::getFlags(): int
+public RegexIterator::getMode(): int
+public RegexIterator::getPregFlags(): int
+public RegexIterator::getRegex(): string
+public RegexIterator::setFlags(int $flags): void
+public RegexIterator::setMode(int $mode): void
+public RegexIterator::setPregFlags(int $pregFlags): void
 
-public [hasChildren](recursiveregexiterator.haschildren.md)(): bool
+    public FilterIterator::accept(): bool
+public FilterIterator::current(): mixed
+public FilterIterator::getInnerIterator(): Iterator
+public FilterIterator::key(): mixed
+public FilterIterator::next(): void
+public FilterIterator::rewind(): void
+public FilterIterator::valid(): bool
 
-/\* Наслідувані методи \*/
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [RegexIterator::accept](regexiterator.accept.md)(): bool
-
-public [RegexIterator::getFlags](regexiterator.getflags.md)(): int
-
-public [RegexIterator::getMode](regexiterator.getmode.md)(): int
-
-public [RegexIterator::getPregFlags](regexiterator.getpregflags.md)():
-int
-
-public [RegexIterator::getRegex](regexiterator.getregex.md)(): string
-
-public [RegexIterator::setFlags](regexiterator.setflags.md)(int
-`$flags`): void
-
-public [RegexIterator::setMode](regexiterator.setmode.md)(int
-`$mode`): void
-
-public
-[RegexIterator::setPregFlags](regexiterator.setpregflags.md)(int
-`$pregFlags`): void
-
-public [FilterIterator::accept](filteriterator.accept.md)(): bool
-
-public [FilterIterator::current](filteriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
-
-public [FilterIterator::key](filteriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [FilterIterator::next](filteriterator.next.md)(): void
-
-public [FilterIterator::rewind](filteriterator.rewind.md)(): void
-
-public [FilterIterator::valid](filteriterator.valid.md)(): bool
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [RecursiveRegexIterator::\_\_construct](recursiveregexiterator.construct.md)
-- Конструктор класу RecursiveRegexIterator
-- [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)
-— Повертає ітератор до поточного елемента
-- [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md)
-— Визначає, чи можлива навігація вмісту поточного елемента
+-   [RecursiveRegexIterator::\_\_construct](recursiveregexiterator.construct.html) - Конструктор класу RecursiveRegexIterator
+-   [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.html) — Повертає ітератор до поточного елемента
+-   [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.html) — Визначає, чи можлива навігація за вмістом поточного елемента

@@ -1,76 +1,91 @@
-- [«finfo_close](function.finfo-close.md)
-- [finfo_open »](function.finfo-open.md)
+Повертає інформацію про файл
 
-- [PHP Manual](index.md)
-- [Функції модуля Fileinfo](ref.fileinfo.md)
-- Повертає інформацію про файл
+-   [« finfo\_close](function.finfo-close.html)
+    
+-   [finfo\_open »](function.finfo-open.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции модуля Fileinfo](ref.fileinfo.html)
+    
+-   Повертає інформацію про файл
+    
 
-# finfo_file
+# finfofile
 
 # finfo::file
 
-(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
+(PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo_file -- finfo::file — Повертає інформацію про файл
+finfofile -- finfo::file — Повертає інформацію про файл
 
 ### Опис
 
 Процедурний стиль
 
-[finfo_file](finfo.file.md)(
-[finfo](class.finfo.md) `$finfo`,
-string `$filename`,
-int `$flags` = **`FILEINFO_NONE`**,
-?resource `$context` = **`null`**
-): string\|false
+```methodsynopsis
+finfo_file(    finfo $finfo,    string $filename,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
+```
 
 Об'єктно-орієнтований стиль
 
-public [finfo::file](finfo.file.md)(string `$filename`, int `$flags` =
-**`FILEINFO_NONE`**, ?resource `$context` = **`null`**): string\|false
+```methodsynopsis
+public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $context = null): string|false
+```
 
-Функція використовується для отримання інформації щодо файлу.
+Функція використовується для отримання інформації про файл.
 
 ### Список параметрів
 
 `finfo`
-Примірник [finfo](class.finfo.md), що повертається функцією
-[finfo_open()](function.finfo-open.md).
+
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
 
 `filename`
+
 Назва файлу, що перевіряється.
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
+
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
 
 `context`
-Для опису `contexts`, дивіться [Функції для роботи з потоками](ref.stream.md).
+
+Для опису `contexts`, дивіться [Функции для работы с потоками](ref.stream.html)
 
 ### Значення, що повертаються
 
-Повертає текстовий опис вмісту файлу `filename` або
-**`false`** у разі виникнення помилки.
+Повертає текстовий опис вмісту файлу `filename` або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр finfo тепер чекає на екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | 'context' тепер допускає значення null.                                                                                             |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [finfo_file()](finfo.file.md)**
+**Приклад #1 Приклад використання [finfo\_file()](finfo.file.html)**
 
-`<?php$finfo==finfo_open(FILEINFO_MIME_TYPE); // повертає mime-типforeach (glob("*") as $filename) {    echo finfo_file($finfo, $filename) . "
-";}finfo_close($finfo);?> `
+```php
+<?php
+$finfo = finfo_open(FILEINFO_MIME_TYPE); // возвращает mime-тип
+foreach (glob("*") as $filename) {
+    echo finfo_file($finfo, $filename) . "\n";
+}
+finfo_close($finfo);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 text/html
 image/gif
 application/vnd.ms-excel
+```
 
 ### Дивіться також
 
-- [finfo_buffer()](finfo.buffer.md) - Псевдонім finfo_buffer()
+-   [finfo\_buffer()](finfo.buffer.html) - Псевдонім finfobuffer()

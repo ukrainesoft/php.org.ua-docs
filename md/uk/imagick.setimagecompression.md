@@ -1,9 +1,15 @@
-- [« Imagick::setImageCompose](imagick.setimagecompose.md)
-- [Imagick::setImageCompressionQuality »](imagick.setimagecompressionquality.md)
+Встановлює стиснення зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює стиснення зображення
+-   [« Imagick::setImageCompose](imagick.setimagecompose.html)
+    
+-   [Imagick::setImageCompressionQuality »](imagick.setimagecompressionquality.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює стиснення зображення
+    
 
 # Imagick::setImageCompression
 
@@ -13,16 +19,19 @@ Imagick::setImageCompression — Встановлює стиснення зоб�
 
 ### Опис
 
-public **Imagick::setImageCompression**(int `$compression`): bool
+```methodsynopsis
+public Imagick::setImageCompression(int $compression): bool
+```
 
 ### Список параметрів
 
 `compression`
+
 Одна з **`COMPRESSION`** констант
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

@@ -1,25 +1,31 @@
-- [«pcntl_fork](function.pcntl-fork.md)
-- [pcntl_getpriority »](function.pcntl-getpriority.md)
+Отримати код останньої помилки, що виникла в pcntl-функції
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Отримати код останньої помилки, що виникла в pcntl-функції
+-   [« pcntl\_fork](function.pcntl-fork.html)
+    
+-   [pcntl\_getpriority »](function.pcntl-getpriority.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Отримати код останньої помилки, що виникла в pcntl-функції
+    
 
-#pcntl_get_last_error
+# pcntlgetlasterror
 
-(PHP 5 \>= 5.3.4, PHP 7, PHP 8)
+(PHP 5> = 5.3.4, PHP 7, PHP 8)
 
-pcntl_get_last_error — Отримати код останньої помилки, що виникла в
-pcntl-функції
+pcntlgetlasterror — Отримати код останньої помилки, що виникла в pcntl-функції
 
 ### Опис
 
-**pcntl_get_last_error**(): int
+```methodsynopsis
+pcntl_get_last_error(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -31,5 +37,4 @@ pcntl-функції
 
 ### Дивіться також
 
-- [pcntl_strerror()](function.pcntl-strerror.md) - Отримати текст
-помилки за її кодом
+-   [pcntl\_strerror()](function.pcntl-strerror.html) - Отримати текст помилки за її кодом

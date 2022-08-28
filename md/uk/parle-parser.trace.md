@@ -1,22 +1,29 @@
-- [« Parle\Parser::tokenId](parle-parser.tokenid.md)
-- [Parle\Parser::validate »](parle-parser.validate.md)
+Стежить за роботою парсера
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Стежить за роботою парсера
+-   [« Parle\\Parser::tokenId](parle-parser.tokenid.html)
+    
+-   [Parle\\Parser::validate »](parle-parser.validate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Parser](class.parle-parser.html)
+    
+-   Стежить за роботою парсера
+    
 
-# Parle\Parser::trace
+# ParleParser::trace
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Parser::trace — Слідкує за роботою парсера
+ParleParser::trace — Слідкує за роботою парсера
 
 ### Опис
 
-public **Parle\Parser::trace**(): string
+```methodsynopsis
+public Parle\Parser::trace(): string
+```
 
-Отримує опис роботи парсера. Може бути корисно для
-вивчення парсера та оптимізації граматики.
+Отримує опис роботи парсера. Може бути корисним для вивчення парсера та оптимізації граматики.
 
 ### Список параметрів
 

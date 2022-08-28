@@ -1,9 +1,15 @@
-- [« Exception::\_\_construct](exception.construct.md)
-- [Exception::getPrevious »](exception.getprevious.md)
+Отримує повідомлення виключення
 
-- [PHP Manual](index.md)
-- [Exception](class.exception.md)
-- Отримує повідомлення виключення
+-   [« Exception::\_\_construct](exception.construct.html)
+    
+-   [Exception::getPrevious »](exception.getprevious.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exception](class.exception.html)
+    
+-   Отримує повідомлення виключення
+    
 
 # Exception::getMessage
 
@@ -13,7 +19,9 @@ Exception::getMessage — Отримує повідомлення про вик�
 
 ### Опис
 
-final public **Exception::getMessage**(): string
+```methodsynopsis
+final public Exception::getMessage(): string
+```
 
 Повертає повідомлення виключення.
 
@@ -29,13 +37,22 @@ final public **Exception::getMessage**(): string
 
 **Приклад #1 Приклад використання **Exception::getMessage()****
 
-` <?phptry {    throw new Exception("Яке-небудь повідомлення про помилки");} catch(Exception $e) {    echo $e->getMessage();}?> `
+```php
+<?php
+try {
+    throw new Exception("Какое-нибудь сообщение об ошибке");
+} catch(Exception $e) {
+    echo $e->getMessage();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Якесь повідомлення про помилку
+```
+Какое-нибудь сообщение об ошибке
+```
 
 ### Дивіться також
 
-- [Throwable::getMessage()](throwable.getmessage.md) - Отримує
-повідомлення помилки
+-   [Throwable::getMessage()](throwable.getmessage.html) - Отримує повідомлення помилки

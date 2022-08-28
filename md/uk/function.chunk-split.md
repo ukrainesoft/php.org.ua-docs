@@ -1,37 +1,42 @@
-- [«chr](function.chr.md)
-- [convert_cyr_string »](function.convert-cyr-string.md)
+Розбиває рядок на фрагменти
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Розбиває рядок на фрагменти
+-   [« chr](function.chr.html)
+    
+-   [convert\_cyr\_string »](function.convert-cyr-string.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Розбиває рядок на фрагменти
+    
 
-#chunk_split
+# chunksplit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-chunk_split — Розбиває рядок на фрагменти
+chunksplit — Розбиває рядок на фрагменти
 
 ### Опис
 
-**chunk_split**(string `$string`, int `$length` = 76, string
-`$separator` = "
-"): string
+```methodsynopsis
+chunk_split(string $string, int $length = 76, string $separator = "\r\n"): string
+```
 
-Функція використовується для розбиття рядка на фрагменти, наприклад,
-приведення результату функції
-[base64_encode()](function.base64-encode.md) у відповідність до
-вимогами RFC 2045. Вона вставляє рядок `separator` після кожних
-`length` символів.
+Функція використовується для розбиття рядка на фрагменти, наприклад, для наведення результату функції [base64\_encode()](function.base64-encode.html) у відповідність до вимог RFC 2045. Вона вставляє рядок `separator` після кожних `length` символів.
 
 ### Список параметрів
 
 `string`
+
 Рядок, що розбивається.
 
 `length`
+
 Довжина фрагмента.
 
 `separator`
+
 Послідовність символів, що використовується як кінець рядка.
 
 ### Значення, що повертаються
@@ -40,15 +45,18 @@ chunk_split — Розбиває рядок на фрагменти
 
 ### Приклади
 
-**Приклад #1 Приклад використання **chunk_split()****
+**Приклад #1 Приклад використання **chunksplit()****
 
-`<?php// форматування даних у відповідності з RFC 2045$new_string = chunk_split(base64_encode($data));?> `
+```php
+<?php
+// форматирование данных в соответствии с RFC 2045
+$new_string = chunk_split(base64_encode($data));
+?>
+```
 
 ### Дивіться також
 
-- [str_split()](function.str-split.md) - Перетворює рядок на масив
-- [explode()](function.explode.md) - Розбиває рядок за допомогою
-роздільника
-- [wordwrap()](function.wordwrap.md) - Переносить рядок по
-вказаній кількості символів
-- [»RFC 2045](http://www.faqs.org/rfcs/rfc2045)
+-   [str\_split()](function.str-split.html) - Перетворює рядок на масив
+-   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
+-   [wordwrap()](function.wordwrap.html) - Переносить рядок за вказаною кількістю символів
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)

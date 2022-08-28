@@ -1,22 +1,29 @@
-- [« Generator::valid](generator.valid.md)
-- [Fiber »](class.fiber.md)
+Callback-функція серіалізації
 
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Callback-функція серіалізації
+-   [« Generator::valid](generator.valid.html)
+    
+-   [Fiber »](class.fiber.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Generator](class.generator.html)
+    
+-   Callback-функція серіалізації
+    
 
-# Generator::\_\_wakeup
+# Generator::wakeup
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-Generator::\_\_wakeup - Callback-функція серіалізації
+Generator::wakeup - Callback-функція серіалізації
 
 ### Опис
 
-public **Generator::\_\_wakeup**(): void
+```methodsynopsis
+public Generator::__wakeup(): void
+```
 
-Викидає виняток, оскільки генератори не можуть бути
-серіалізовані.
+Викидає виняток, оскільки генератори не можуть бути серіалізовані.
 
 ### Список параметрів
 

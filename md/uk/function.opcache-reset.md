@@ -1,24 +1,29 @@
-- [« opcache_is_script_cached](function.opcache-is-script-cached.md)
-- [Контроль виведення »](book.outcontrol.md)
+Скидає вміст кешу опкодів
 
-- [PHP Manual](index.md)
-- [Функції OPcache](ref.opcache.md)
-- скидає вміст кешу опкодів
+-   [« opcache\_is\_script\_cached](function.opcache-is-script-cached.html)
+    
+-   [Контроль вывода »](book.outcontrol.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OPcache](ref.opcache.html)
+    
+-   Скидає вміст кешу опкодів
+    
 
-# opcache_reset
+# opcachereset
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \>= 7.0.0)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache >= 7.0.0)
 
-opcache_reset — Скидає вміст кешу опкодів
+opcachereset — Скидає вміст кешу опкодів
 
 ### Опис
 
-**opcache_reset**(): bool
+```methodsynopsis
+opcache_reset(): bool
+```
 
-Функція скидає весь кеш. Після виклику **opcache_reset()** все
-скрипти будуть заново завантажені, скомпільовані і поміщені в кеш після їх
-наступного дзвінка. Функція скидає лише кеш у пам'яті, не торкаючись
-файловий кеш.
+Функція скидає весь кеш. Після виклику **opcachereset()** всі скрипти будуть заново завантажені, скомпільовані та поміщені в кеш після їхнього наступного виклику. Функція скидає лише кеш у пам'яті, не торкаючись файлового кешу.
 
 ### Список параметрів
 
@@ -26,10 +31,8 @@ opcache_reset — Скидає вміст кешу опкодів
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо кеш скинутий або **`false`**, якщо не
-використовується.
+Повертає **`true`**якщо кеш скинутий або **`false`**якщо не використовується.
 
 ### Дивіться також
 
-- [opcache_invalidate()](function.opcache-invalidate.md) -
-Анулює закешований скрипт
+-   [opcache\_invalidate()](function.opcache-invalidate.html) - анулює закешований скрипт

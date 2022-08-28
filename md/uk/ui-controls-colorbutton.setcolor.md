@@ -1,27 +1,36 @@
-- [« UI\Controls\ColorButton::onChange](ui-controls-colorbutton.onchange.md)
-- [UI\Controls\Label »](class.ui-controls-label.md)
+Встановити об'єкт Color
 
-- [PHP Manual](index.md)
-- [UI\Controls\ColorButton](class.ui-controls-colorbutton.md)
-- Встановити об'єкт Color
+-   [« UI\\Controls\\ColorButton::onChange](ui-controls-colorbutton.onchange.html)
+    
+-   [UI\\Controls\\Label »](class.ui-controls-label.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html)
+    
+-   Встановити об'єкт Color
+    
 
-# UI\Controls\ColorButton::setColor
+# ОЙControlsColorButton::setColor
 
 (UI 0.9.9)
 
-UI\Controls\ColorButton::setColor — Встановити об'єкт Color
+ОЙControlsColorButton::setColor — Встановити об'єкт Color
 
 ### Опис
 
-public
-**UI\Controls\ColorButton::setColor**([UI\Draw\Color](class.ui-draw-color.md)
-`$color`)
+```methodsynopsis
+public UI\Controls\ColorButton::setColor(UI\Draw\Color $color)
+```
 
-public **UI\Controls\ColorButton::setColor**(int `$color`)
+```methodsynopsis
+public UI\Controls\ColorButton::setColor(int $color)
+```
 
 Встановлює поточний вибраний об'єкт Color
 
 ### Список параметрів
 
-`col`
+`color`
+
 Новий колір

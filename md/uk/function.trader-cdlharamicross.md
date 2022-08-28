@@ -1,40 +1,46 @@
-- [«trader_cdlharami](function.trader-cdlharami.md)
-- [trader_cdlhighwave »](function.trader-cdlhighwave.md)
+Паттерн "Хрест Харамі"
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Паттерн "Хрест Харамі"
+-   [« trader\_cdlharami](function.trader-cdlharami.html)
+    
+-   [trader\_cdlhighwave »](function.trader-cdlhighwave.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Паттерн "Хрест Харамі"
+    
 
-# trader_cdlharamicross
+# tradercdlharamicross
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlharamicross - Паттерн "Хрест Харамі"
+tradercdlharamicross - Паттерн "Хрест Харамі"
 
 ### Опис
 
-**trader_cdlharamicross**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlharamicross(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,34 +1,38 @@
-- [« PDOStatement::fetchObject](pdostatement.fetchobject.md)
-- [PDOStatement::getColumnMeta »](pdostatement.getcolumnmeta.md)
+Отримання значення атрибуту запиту PDOStatement
 
-- [PHP Manual](index.md)
-- [PDOStatement](class.pdostatement.md)
-- Отримання атрибуту запиту PDOStatement
+-   [« PDOStatement::fetchObject](pdostatement.fetchobject.html)
+    
+-   [PDOStatement::getColumnMeta »](pdostatement.getcolumnmeta.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDOStatement](class.pdostatement.html)
+    
+-   Отримання значення атрибуту запиту PDOStatement
+    
 
 # PDOStatement::getAttribute
 
-(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
+(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)
 
-PDOStatement::getAttribute — Отримання атрибуту запиту
-PDOStatement
+PDOStatement::getAttribute — Отримання атрибуту запиту PDOStatement
 
 ### Опис
 
-public **PDOStatement::getAttribute**(int `$name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public PDOStatement::getAttribute(int $name): mixed
+```
 
-Отримує значення атрибута запиту. На даний момент не існує спільних
-атрибути, є тільки характерними для конкретного драйвера:
+Отримує значення атрибута запиту. На даний момент не існує загальних атрибутів, є лише характерні для конкретного драйвера:
 
-- `PDO::ATTR_CURSOR_NAME` (для Firebird та ODBC): Отримання імені
-курсора для запиту `UPDATE ... WHERE CURRENT OF`.
+-   `PDO::ATTR_CURSOR_NAME` (для Firebird та ODBC): Отримання імені курсору для запиту `UPDATE ... WHERE CURRENT OF`
 
-Зверніть увагу, що атрибути драйвера *не повинні* використовуватися
-інші драйвери.
+Зверніть увагу, що атрибути драйвера *не повинні* використовуватись з іншими драйверами.
 
 ### Список параметрів
 
 `name`
+
 Атрибут для запиту.
 
 ### Значення, що повертаються
@@ -37,8 +41,6 @@ public **PDOStatement::getAttribute**(int `$name`):
 
 ### Дивіться також
 
-- [PDO::getAttribute()](pdo.getattribute.md) - Отримати атрибут
-з'єднання з базою даних
-- [PDO::setAttribute()](pdo.setattribute.md) - Встановлення атрибута
-- [PDOStatement::setAttribute()](pdostatement.setattribute.md) -
-Встановлює атрибут об'єкту PDOStatement
+-   [PDO::getAttribute()](pdo.getattribute.html) - Отримати атрибут з'єднання з базою даних
+-   [PDO::setAttribute()](pdo.setattribute.html) - Встановлення атрибуту
+-   [PDOStatement::setAttribute()](pdostatement.setattribute.html) - Встановлює атрибут об'єкту PDOStatement

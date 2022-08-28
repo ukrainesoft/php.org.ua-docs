@@ -1,19 +1,27 @@
-- [« Swoole\Server::clearTimer](swoole-server.cleartimer.md)
-- [Swoole\Server::confirm »](swoole-server.confirm.md)
+Закриває з'єднання з клієнтом
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Закриває з'єднання із клієнтом
+-   [« Swoole\\Server::clearTimer](swoole-server.cleartimer.html)
+    
+-   [Swoole\\Server::confirm »](swoole-server.confirm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Закриває з'єднання з клієнтом
+    
 
-# Swoole\Server::close
+# SwooleServer::close
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::close — Закриває з'єднання з клієнтом
+SwooleServer::close — Закриває з'єднання з клієнтом
 
 ### Опис
 
-public **Swoole\Server::close**(int `$fd`, bool `$reset` = ?): bool
+```methodsynopsis
+public Swoole\Server::close(int $fd, bool $reset = ?): bool
+```
 
 ### Список параметрів
 

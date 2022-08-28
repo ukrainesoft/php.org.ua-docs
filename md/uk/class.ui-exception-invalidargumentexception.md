@@ -1,9 +1,15 @@
-- [«UI\Key](class.ui-key.md)
-- [UI\Exception\RuntimeException »](class.ui-exception-runtimeexception.md)
+InvalidArgumentException
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- InvalidArgumentException
+-   [« UI\\Key](class.ui-key.html)
+    
+-   [UI\\Exception\\RuntimeException »](class.ui-exception-runtimeexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   InvalidArgumentException
+    
 
 # InvalidArgumentException
 
@@ -13,46 +19,60 @@
 
 ## Огляд класів
 
-class **UI\Exception\InvalidArgumentException** extends
-[InvalidArgumentException](class.invalidargumentexception.md)
-implements [Throwable](class.throwable.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class UI\Exception\InvalidArgumentException
+     
 
-protected int `$code`;
+     
+      extends
+       InvalidArgumentException
+     
 
-protected string `$file` = "";
+     implements 
+       Throwable {
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

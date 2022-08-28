@@ -1,9 +1,15 @@
-- [«Мережа](book.network.md)
-- [Встановлення та налаштування »](network.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [Мережа](book.network.md)
+-   [« Сеть](book.network.html)
+    
+-   [Установка и настройка »](network.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сеть](book.network.html)
+    
 -   Вступ
+    
 
 # Вступ
 

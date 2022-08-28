@@ -1,70 +1,71 @@
-- [«Змінені функції](migration70.changed-functions.md)
-- [Нові класи та інтерфейси »](migration70.classes.md)
+Нові функції
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 5.6.x на PHP 7.0.x](migration70.md)
-- Нові функції
+-   [« Изменённые функции](migration70.changed-functions.html)
+    
+-   [Новые классы и интерфейсы »](migration70.classes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+    
+-   Нові функції
+    
 
 ## Нові функції
 
-### [Замикання](class.closure.md)
+### [Замыкания](class.closure.html)
 
-- [Closure::call()](closure.call.md)
+-   [Closure::call()](closure.call.html)
 
-### [CSPRNG](book.csprng.md)
+### [CSPRNG](book.csprng.html)
 
-- [random_bytes()](function.random-bytes.md)
-- [random_int()](function.random-int.md)
+-   [random\_bytes()](function.random-bytes.html)
+-   [random\_int()](function.random-int.html)
 
-### [Обробка та логування помилок](book.errorfunc.md)
+### [Обработка и логирование ошибок](book.errorfunc.html)
 
-- [error_clear_last()](function.error-clear-last.md)
+-   [error\_clear\_last()](function.error-clear-last.html)
 
-### [Генератори](class.generator.md)
+### [Генераторы](class.generator.html)
 
-- [Generator::getReturn()](generator.getreturn.md)
+-   [Generator::getReturn()](generator.getreturn.html)
 
-### [Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)](book.gmp.md)
+### [Вычисления над целыми числами с произвольной точностью (GNU Multiple Precision)](book.gmp.html)
 
-- [gmp_random_seed()](function.gmp-random-seed.md)
+-   [gmp\_random\_seed()](function.gmp-random-seed.html)
 
-### [Математика](book.math.md)
+### [Математика](book.math.html)
 
-- [intdiv()](function.intdiv.md)
+-   [intdiv()](function.intdiv.html)
 
-### [PCRE](book.pcre.md)
+### [PCRE](book.pcre.html)
 
--
-[preg_replace_callback_array()](function.preg-replace-callback-array.md)
+-   [preg\_replace\_callback\_array()](function.preg-replace-callback-array.html)
 
-### [Опції/інформація PHP](book.info.md)
+### [Опции/информация PHP](book.info.html)
 
-- [gc_mem_caches()](function.gc-mem-caches.md)
-- [get_resources()](function.get-resources.md)
+-   [gc\_mem\_caches()](function.gc-mem-caches.html)
+-   [get\_resources()](function.get-resources.html)
 
-### [POSIX](book.posix.md)
+### [POSIX](book.posix.html)
 
-- [posix_setrlimit()](function.posix-setrlimit.md)
+-   [posix\_setrlimit()](function.posix-setrlimit.html)
 
-### [Reflection](book.reflection.md)
+### [Reflection](book.reflection.html)
 
-- [ReflectionParameter::getType()](reflectionparameter.gettype.md)
-- [ReflectionParameter::hasType()](reflectionparameter.hastype.md)
--
-[ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md)
--
-[ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md)
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.html)
+-   [ReflectionParameter::hasType()](reflectionparameter.hastype.html)
+-   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.html)
+-   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.html)
 
-### [Zip](book.zip.md)
+### [Zip](book.zip.html)
 
--
-[ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.md)
--
-[ZipArchive::setCompressionName()](ziparchive.setcompressionname.md)
+-   [ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.html)
+-   [ZipArchive::setCompressionName()](ziparchive.setcompressionname.html)
 
-### [Компресія Zlib](book.zlib.md)
+### [Компрессия Zlib](book.zlib.html)
 
-- [inflate_add()](function.inflate-add.md)
-- [deflate_add()](function.deflate-add.md)
-- [inflate_init()](function.inflate-init.md)
-- [deflate_init()](function.deflate-init.md)
+-   [inflate\_add()](function.inflate-add.html)
+-   [deflate\_add()](function.deflate-add.html)
+-   [inflate\_init()](function.inflate-init.html)
+-   [deflate\_init()](function.deflate-init.html)

@@ -1,17 +1,20 @@
-- [«DOM](book.dom.md)
-- [Встановлення та налаштування »](dom.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
+-   [« DOM](book.dom.html)
+    
+-   [Установка и настройка »](dom.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOM](book.dom.html)
+    
 -   Вступ
+    
 
 # Вступ
 
 Модуль DOM дозволяє працювати з XML-документами через DOM API з PHP.
 
-> **Примітка**:
->
-> Модуль DOM використовує кодування UTF-8. Використовуйте
-> [mb_convert_encoding()](function.mb-convert-encoding.md),
-> [UConverter::transcode()](uconverter.transcode.md) або
-> [iconv()](function.iconv.md) для роботи з іншими кодуваннями.
+> **Зауваження**
+> 
+> Модуль DOM використовує кодування UTF-8. Використовуйте [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.

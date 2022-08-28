@@ -1,20 +1,27 @@
-- [«SolrDocument::\_\_construct](solrdocument.construct.md)
-- [SolrDocument::deleteField »](solrdocument.deletefield.md)
+Отримує поточне поле
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Отримує поточне поле
+-   [« SolrDocument::\_\_construct](solrdocument.construct.html)
+    
+-   [SolrDocument::deleteField »](solrdocument.deletefield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Отримує поточне поле
+    
 
 # SolrDocument::current
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::current — Отримує поточне поле
 
 ### Опис
 
-public **SolrDocument::current**():
-[SolrDocumentField](class.solrdocumentfield.md)
+```methodsynopsis
+public SolrDocument::current(): SolrDocumentField
+```
 
 Отримує поточне поле
 

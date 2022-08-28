@@ -1,42 +1,46 @@
-- [« yaz_database](function.yaz-database.md)
-- [yaz_errno»](function.yaz-errno.md)
+Вказує ім'я набору елементів для пошуку
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Вказує ім'я набору елементів для пошуку
+-   [« yaz\_database](function.yaz-database.html)
+    
+-   [yaz\_errno »](function.yaz-errno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции YAZ](ref.yaz.html)
+    
+-   Вказує ім'я набору елементів для пошуку
+    
 
-# yaz_element
+# yazelement
 
-(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
+(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
 
-yaz_element — Вказує ім'я набору елементів для пошуку
+yazelement — Вказує ім'я набору елементів для пошуку
 
 ### Опис
 
-**yaz_element**(resource `$id`, string `$elementset`): bool
+```methodsynopsis
+yaz_element(resource $id, string $elementset): bool
+```
 
 Функція встановлює ім'я набору елементів пошуку.
 
-Викличте цю функцію перед [yaz_search()](function.yaz-search.md) або
-[yaz_present()](function.yaz-present.md), щоб вказати ім'я набору
-елементів для записів.
+Викличте цю функцію перед [yaz\_search()](function.yaz-search.html) або [yaz\_present()](function.yaz-present.html), щоб вказати ім'я набору елементів для записів, що виймаються.
 
-> **Примітка**:
->
-> Якщо здається, що не відбувається жодного ефекту, дивіться опис
-> опції `piggybacking` у [yaz_connect()](function.yaz-connect.md).
+> **Зауваження**
+> 
+> Якщо здається, що не відбувається жодного ефекту, дивіться опис опції `piggybacking` в [yaz\_connect()](function.yaz-connect.html)
 
 ### Список параметрів
 
 `id`
-Ресурс з'єднання, повернутий
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс з'єднання, повернутий [yaz\_connect()](function.yaz-connect.html)
 
 `elementset`
-Більшість серверів підтримують `F` (для повних записів) та `B` (для повних записів)
-коротких записів).
+
+Більшість серверів підтримують `F` (для повних записів) та `B` (Для коротких записів).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

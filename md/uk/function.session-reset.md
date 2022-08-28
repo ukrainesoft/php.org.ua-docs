@@ -1,24 +1,29 @@
-- [« session_register_shutdown](function.session-register-shutdown.md)
-- [session_save_path »](function.session-save-path.md)
+Реініціалізує сесію оригінальними значеннями
 
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- реініціалізує сесію оригінальними значеннями
+-   [« session\_register\_shutdown](function.session-register-shutdown.html)
+    
+-   [session\_save\_path »](function.session-save-path.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с сессиями](ref.session.html)
+    
+-   Реініціалізує сесію оригінальними значеннями
+    
 
-# session_reset
+# sessionreset
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-session_reset - Реініціалізує сесію оригінальними значеннями
+sessionreset - Реініціалізує сесію оригінальними значеннями
 
 ### Опис
 
-**session_reset**(): bool
+```methodsynopsis
+session_reset(): bool
+```
 
-Функція **session_reset()** повторно ініціалізує сесію, використовуючи
-оригінальні значення, збережені у сховищі сесії. Ця функція
-вимагає наявності активної сесії та знищує всі зміни у масиві
-$\_SESSION.
+Функція **sessionreset()** повторно ініціалізує сесію, використовуючи оригінальні значення, збережені у сховищі сесії. Ця функція вимагає наявності активної сесії та знищує всі зміни в масиві $SESSION.
 
 ### Список параметрів
 
@@ -26,23 +31,18 @@ $\_SESSION.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                           |
-|--------|----------------------------------------------------------------|
-| 7.2.0  | Тепер тип цієї функції bool, що повертається. Раніше тип void. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер тип цієї функції bool, що повертається. Раніше був тип void. |
 
 ### Дивіться також
 
-- `$_SESSION`
-- Опція конфігурації
-[session.auto_start](session.configuration.md#ini.session.auto-start)
-- [session_start()](function.session-start.md) - Стартує нову
-сесію, або відновлює існуючу
-- [session_abort()](function.session-abort.md) - Скасує зміни
-у масиві сесії та завершує її
-- [session_commit()](function.session-commit.md) - Псевдонім
-session_write_close
+-   [$\_SESSION](reserved.variables.session.html)
+-   Опція конфігурації [session.auto\_start](session.configuration.html#ini.session.auto-start)
+-   [session\_start()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [session\_abort()](function.session-abort.html) - Скасує зміни у масиві сесії та завершує її
+-   [session\_commit()](function.session-commit.html) - Псевдонім sessionwriteclose

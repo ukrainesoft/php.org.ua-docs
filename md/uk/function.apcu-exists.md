@@ -1,55 +1,88 @@
-- [«apcu_entry](function.apcu-entry.md)
-- [apcu_fetch »](function.apcu-fetch.md)
+Перевіряє, чи існують записи
 
-- [PHP Manual](index.md)
-- [Функції APCu](ref.apcu.md)
-- Перевіряє, чи є записи
+-   [« apcu\_entry](function.apcu-entry.html)
+    
+-   [apcu\_fetch »](function.apcu-fetch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции APCu](ref.apcu.html)
+    
+-   Перевіряє, чи існують записи
+    
 
-# apcu_exists
+# apcuexists
 
-(PECL apcu \>= 4.0.0)
+(PECL apcu >= 4.0.0)
 
-apcu_exists — Перевіряє, чи є записи
+apcuexists — Перевіряє, чи є записи
 
 ### Опис
 
-**apcu_exists**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$keys`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+apcu_exists(mixed $keys): mixed
+```
 
 Перевіряє, чи є записи.
 
 ### Список параметрів
 
 `keys`
+
 Рядок або масив рядків, що містять ключі для перевірки.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо ключ існує або **`false`**, якщо ні.
-Якщо ж було передано масив ключів, то повернеться масив із існуючими
-ключами, або порожній масив, якщо жодного ключа немає.
+Повертає **`true`**, якщо ключ існує або **`false`**, якщо ні. Якщо ж було передано масив ключів, то повернеться масив з існуючими ключами, або порожній масив, якщо жодного ключа немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcu_exists()****
+**Приклад #1 Приклад використання **apcuexists()****
 
-` <?php$fruit  = 'apple';$veggie = 'carrot';apcu_store('foo', $fruit);apcu_store('bar', $veggie);if (apcu_exists('foo')) {   | Foo с: "; echo apcu_fetch('foo');} else {   echo "Foo не існує";}echo PHP_EOL;if (apcu_exists('baz')) { є|є| }echo PHP_EOL;$ret = apcu_exists(array('foo', 'donotexist', 'bar'));var_dump($ret);?> `
+```php
+<?php
+$fruit  = 'apple';
+$veggie = 'carrot';
+
+apcu_store('foo', $fruit);
+apcu_store('bar', $veggie);
+
+if (apcu_exists('foo')) {
+    echo "Foo с: ";
+    echo apcu_fetch('foo');
+} else {
+    echo "Foo не существует";
+}
+
+echo PHP_EOL;
+if (apcu_exists('baz')) {
+    echo "Baz не существует.";
+} else {
+    echo "Baz не существует";
+}
+
+echo PHP_EOL;
+
+$ret = apcu_exists(array('foo', 'donotexist', 'bar'));
+var_dump($ret);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Foo існує: apple
-Baz не існує
+```
+Foo существует: apple
+Baz не существует
 array(2) {
-["foo"]=>
-bool(true)
-["bar"]=>
-bool(true)
+  ["foo"]=>
+  bool(true)
+  ["bar"]=>
+  bool(true)
 }
+```
 
 ### Дивіться також
 
-- [apcu_cache_info()](function.apcu-cache-info.md) - Витягує
-закешовану інформацію зі сховища APCu
-- [apcu_fetch()](function.apcu-fetch.md) - Витягує з кеша
-збережену змінну
+-   [apcu\_cache\_info()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
+-   [apcu\_fetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну

@@ -1,11 +1,16 @@
-- [«RpmInfo](book.rpminfo.md)
-- [Встановлення та налаштування »](rpminfo.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [RpmInfo](book.rpminfo.md)
+-   [« RpmInfo](book.rpminfo.html)
+    
+-   [Установка и настройка »](rpminfo.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RpmInfo](book.rpminfo.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Модуль дозволяє отримувати інформацію з файлів RPM або зі встановленої
-бази даних RPM.
+Модуль дозволяє отримувати інформацію з файлів RPM або встановленої бази даних RPM.

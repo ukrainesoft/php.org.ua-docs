@@ -1,42 +1,48 @@
-- [« Swoole\Table::valid](swoole-table.valid.md)
-- [Swoole\Timer::after »](swoole-timer.after.md)
+Клас SwooleTimer
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Timer
+-   [« Swoole\\Table::valid](swoole-table.valid.html)
+    
+-   [Swoole\\Timer::after »](swoole-timer.after.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleTimer
+    
 
-# Клас Swoole\Timer
+# Клас SwooleTimer
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Timer** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static [after](swoole-timer.after.md)(int `$after_time_ms`,
-[callable](language.types.callable.md) `$callback`): void
 
-public static [clear](swoole-timer.clear.md)(int `$timer_id`): void
+    
+     
+      class Swoole\Timer
+     
+     {
 
-public static [exists](swoole-timer.exists.md)(int `$timer_id`): bool
 
-public static [tick](swoole-timer.tick.md)(int `$interval_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` =
-?): void
+    /* Методы */
+    
+            public static after(int $after_time_ms, callable $callback): void
+public static clear(int $timer_id): void
+public static exists(int $timer_id): bool
+public static tick(int $interval_ms, callable $callback, string $param = ?): void
 
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Timer::after](swoole-timer.after.md) - Запускає
-callback-функцію через певний проміжок часу
-- [Swoole\Timer::clear](swoole-timer.clear.md) — Видаляє таймер за
-ідентифікатору
-- [Swoole\Timer::exists](swoole-timer.exists.md) — Перевіряє,
-чи існує таймер
-- [Swoole\Timer::tick](swoole-timer.tick.md) - Повторює цю
-функцію у кожний заданий інтервал часу
+-   [Swoole\\Timer::after](swoole-timer.after.html) - Запускає callback-функцію через певний проміжок часу
+-   [Swoole\\Timer::clear](swoole-timer.clear.html) — Видаляє таймер за ідентифікатором
+-   [Swoole\\Timer::exists](swoole-timer.exists.html) — Перевіряє, чи існує таймер
+-   [Swoole\\Timer::tick](swoole-timer.tick.html) — Повторює цю функцію у кожний заданий інтервал часу

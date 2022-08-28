@@ -1,26 +1,31 @@
-- [«CommonMark\Node\Text](class.commonmark-node-text.md)
-- [CommonMark\Node\Text\Strong »](class.commonmark-node-text-strong.md)
+Конструктор класу Text
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\Text](class.commonmark-node-text.md)
-- Конструктор класу Text
+-   [« CommonMark\\Node\\Text](class.commonmark-node-text.html)
+    
+-   [CommonMark\\Node\\Text\\Strong »](class.commonmark-node-text-strong.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node\\Text](class.commonmark-node-text.html)
+    
+-   Конструктор класу Text
+    
 
-# CommonMark\Node\Text::\_\_construct
+# CommonMarkNodeText::construct
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node\Text::\_\_construct - Конструктор класу Text
+CommonMarkNodeText::construct - Конструктор класу Text
 
 ### Опис
 
-public **CommonMark\Node\Text::\_\_construct**()
+public **CommonMarkNodeText::construct**
 
-public **CommonMark\Node\Text::\_\_construct**(string `$literal`)
+public **CommonMarkNodeText::construct**(string `$literal`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

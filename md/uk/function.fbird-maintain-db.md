@@ -1,18 +1,22 @@
-- [«fbird_gen_id](function.fbird-gen-id.md)
-- [fbird_modify_user »](function.fbird-modify-user.md)
+Псевдонім ibasemaintainдб
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_maintain_db
+-   [« fbird\_gen\_id](function.fbird-gen-id.html)
+    
+-   [fbird\_modify\_user »](function.fbird-modify-user.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasemaintainдб
+    
 
-#fbird_maintain_db
+# fbirdmaintainдб
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_maintain_db - Псевдонім
-[ibase_maintain_db()](function.ibase-maintain-db.md)
+fbirdmaintaindb - Псевдонім [ibase\_maintain\_db()](function.ibase-maintain-db.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_maintain_db()](function.ibase-maintain-db.md).
+Ця функція є псевдонімом: [ibase\_maintain\_db()](function.ibase-maintain-db.html)

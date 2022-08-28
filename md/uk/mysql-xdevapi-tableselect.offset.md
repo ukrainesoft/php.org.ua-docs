@@ -1,9 +1,15 @@
-- [« TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.md)
-- [TableSelect::orderby »](mysql-xdevapi-tableselect.orderby.md)
+Встановлює межу усунення
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-- Встановлює межу зміщення
+-   [« TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.html)
+    
+-   [TableSelect::orderby »](mysql-xdevapi-tableselect.orderby.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+    
+-   Встановлює межу усунення
+    
 
 # TableSelect::offset
 
@@ -13,14 +19,16 @@ TableSelect::offset — Встановлює межу зміщення
 
 ### Опис
 
-public **mysql_xdevapi\TableSelect::offset**(int `$position`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
+```methodsynopsis
+public mysql_xdevapi\TableSelect::offset(int $position): mysql_xdevapi\TableSelect
+```
 
-Пропускає зазначену кількість рядків у результаті.
+Пропускає вказану кількість рядків у результаті.
 
 ### Список параметрів
 
 `position`
+
 Межа усунення.
 
 ### Значення, що повертаються
@@ -29,18 +37,39 @@ public **mysql_xdevapi\TableSelect::offset**(int `$position`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableSelect::offset()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::offset()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();$session->sql("INSERT INTO addressbook. names values ('John', 42), ('Sam', 42)")->execute();$schema = $session->getSchema("addressbook");$table  ==$schema->getTable("names ");$result = $table->select('name', 'age') ->limit(1) ->offset(1) ->execute();$row = $result->fetchAll();print_r ($row);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 42)")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$result = $table->select('name', 'age')
+  ->limit(1)
+  ->offset(1)
+  ->execute();
+
+$row = $result->fetchAll();
+print_r($row);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[name] => Sam
-[age] => 42
+    [0] => Array
+        (
+            [name] => Sam
+            [age] => 42
+        )
 )
-)
+```

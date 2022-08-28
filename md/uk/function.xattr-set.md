@@ -1,71 +1,74 @@
-- [«xattr_remove](function.xattr-remove.md)
-- [xattr_supported »](function.xattr-supported.md)
+Встановлення розширених атрибутів файлу
 
-- [PHP Manual](index.md)
-- [xattr Функції](ref.xattr.md)
-- Встановлення розширених атрибутів файлу
+-   [« xattr\_remove](function.xattr-remove.html)
+    
+-   [xattr\_supported »](function.xattr-supported.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [xattr Функции](ref.xattr.html)
+    
+-   Встановлення розширених атрибутів файлу
+    
 
-#xattr_set
+# xattrset
 
-(PECL xattr \>= 0.9.0)
+(PECL xattr >= 0.9.0)
 
-xattr_set — Встановлення розширених атрибутів файлу
+xattrset — Встановлення розширених атрибутів файлу
 
 ### Опис
 
-**xattr_set**(
-string `$filename`,
-string `$name`,
-string `$value`,
-int `$flags` = 0
-): bool
+```methodsynopsis
+xattr_set(    string $filename,    string $name,    string $value,    int $flags = 0): bool
+```
 
-Ця функція визначає розширений атрибут файлу.
+Ця функція встановлює розширений атрибут файлу.
 
-Розширені атрибути мають два різні простори імен:
-користувальницьке та кореневе (root). Користувальницький простір імен
-доступно для всіх користувачів, в той час як кореневе - тільки для
-користувачів з root-привілеями. За замовчуванням xattr оперує в
-користувальницькому просторі імен, але ви можете змінити цю поведінку
-за допомогою аргументу `flags`.
+Розширені атрибути мають два різні простори імен: користувальницьке та кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
 
 ### Список параметрів
 
 `filename`
+
 Назва файлу, атрибут якого потрібно встановити.
 
 `name`
-Назва розширеного атрибута. За його відсутності атрибут створюється,
-в іншому випадку - перезаписується. Ви можете змінити поведінку,
-використовуючи прапори (flags).
+
+Назва розширеного атрибута. За його відсутності атрибут створюється, інакше - перезаписується. Ви можете змінити поведінку, використовуючи прапори (`flags`
 
 `value`
+
 Значення атрибуту.
 
 `flags`
-|                      |                                                                                 |
-|----------------------|---------------------------------------------------------------------------------|
-| **XATTR_CREATE**     | Функція поверне помилку, якщо існує атрибут.                                    |
-| **XATTR_REPLACE**    | Функція поверне помилку, якщо атрибут не існує.                                 |
-| **XATTR_DONTFOLLOW** | Чи не розіменовувати символічні посилання, працювати з самим посиланням.        |
-| **XATTR_ROOT**       | Встановити атрибут у кореневому просторі назв. Потрібні права суперкористувача. |
 
-**Підтримувані xattr-прапори**
+< td>Не розіменовувати символічні посилання, працювати з самим посиланням.
+
+<table class="doctable table"><caption><strong>Підтримувані xattr-прапори</strong></caption><tbody class="tbody"><tr><td><strong><code>XATTR_CREATE</code></strong></td><td>Функція поверне помилку, якщо атрибут існує.</td></tr><tr><td><strong><code>XATTR_REPLACE</code></strong></td><td>Функція поверне помилку, якщо атрибут не існує.</td></tr><tr><td><strong><code>XATTR_DONTFOLLOW</code></strong></td></tr><tr><td><strong><code>XATTR_ROOT</code></strong></td><td>Встановити атрибут у кореневому просторі імен. Потрібні права суперкористувача.</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Встановити розширені атрибути `.wav` файлу**
+**Приклад #1 Встановити розширені атрибути .wav файлу**
 
-` <?php$file = 'my_favourite_song.wav';xattr_set($file, 'Artist', 'Someone');xattr_set($file, 'My ranking', 'Good');xattr_set($file, 'Listen ', '34');/* ... other code ... */printf("You've played this song %d times", xattr_get($file, 'Listen count'));?> `
+```php
+<?php
+$file = 'my_favourite_song.wav';
+xattr_set($file, 'Artist', 'Someone');
+xattr_set($file, 'My ranking', 'Good');
+xattr_set($file, 'Listen count', '34');
+
+/* ... other code ... */
+
+printf("You've played this song %d times", xattr_get($file, 'Listen count'));
+?>
+```
 
 ### Дивіться також
 
-- [xattr_get()](function.xattr-get.md) - Отримання розширених
-атрибутів файлу
-- [xattr_remove()](function.xattr-remove.md) - Видалення розширених
-атрибутів файлу
+-   [xattr\_get()](function.xattr-get.html) - Отримання розширених атрибутів файлу
+-   [xattr\_remove()](function.xattr-remove.html) - Видалення розширених атрибутів файлу

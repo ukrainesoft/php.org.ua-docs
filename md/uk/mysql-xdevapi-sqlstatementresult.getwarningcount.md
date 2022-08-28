@@ -1,25 +1,31 @@
-- [« SqlStatementResult::getWarnings](mysql-xdevapi-sqlstatementresult.getwarnings.md)
-- [SqlStatementResult::hasData »](mysql-xdevapi-sqlstatementresult.hasdata.md)
+Отримує кількість попереджень від останньої операції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)
-- Отримує кількість попереджень від останньої операції
+-   [« SqlStatementResult::getWarnings](mysql-xdevapi-sqlstatementresult.getwarnings.html)
+    
+-   [SqlStatementResult::hasData »](mysql-xdevapi-sqlstatementresult.hasdata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+    
+-   Отримує кількість попереджень від останньої операції
+    
 
 # SqlStatementResult::getWarningsCount
 
 (No version information available, might only be in Git)
 
-SqlStatementResult::getWarningsCount — Отримує кількість
-попереджень від останньої операції
+SqlStatementResult::getWarningsCount — Отримує кількість попереджень від останньої операції
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatementResult::getWarningCounts**(): int
+```methodsynopsis
+public mysql_xdevapi\SqlStatementResult::getWarningCounts(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,11 +33,16 @@ public **mysql_xdevapi\SqlStatementResult::getWarningCounts**(): int
 
 ### Значення, що повертаються
 
-Кількість попереджень, що були видані під час останньої операції CRUD.
+Кількість попереджень виданих під час останньої операції CRUD.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatementResult::getWarningsCount()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getWarningsCount()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

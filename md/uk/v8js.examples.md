@@ -1,9 +1,15 @@
-- [« Типи ресурсів](v8js.resources.md)
-- [V8Js »](class.v8js.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [V8js](book.v8js.md)
-- Приклади
+-   [« Типы ресурсов](v8js.resources.html)
+    
+-   [V8Js »](class.v8js.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [V8js](book.v8js.html)
+    
+-   Приклади
+    
 
 # Приклади
 
@@ -11,9 +17,29 @@
 
 **Приклад #1 Запуск Javascript**
 
-`<?php$v8 = new V8Js();/* basic.js */$JS = <<< EOTlen = print('Hello' + ' ' + 'World!' + "\n");len;EOT ;try { var_dump($v8->executeString($JS, 'basic.js'));} catch (V8JsException $e) { var_dump($e);}?> `
+```php
+<?php
+
+$v8 = new V8Js();
+
+/* basic.js */
+$JS = <<< EOT
+len = print('Hello' + ' ' + 'World!' + "\\n");
+len;
+EOT;
+
+try {
+  var_dump($v8->executeString($JS, 'basic.js'));
+} catch (V8JsException $e) {
+  var_dump($e);
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Hello World!
 int(13)
+```

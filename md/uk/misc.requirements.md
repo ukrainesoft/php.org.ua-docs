@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](misc.setup.md)
-- [Встановлення »](misc.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](misc.setup.md)
-- Вимоги
+-   [« Установка и настройка](misc.setup.html)
+    
+-   [Установка »](misc.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](misc.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

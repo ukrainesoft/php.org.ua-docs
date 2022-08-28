@@ -1,89 +1,100 @@
-- [« Parle\Lexer::reset](parle-lexer.reset.md)
-- [Parle\RLexer::advance »](parle-rlexer.advance.md)
+Клас ParleRLexer
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
-- Клас Parle\RLexer
+-   [« Parle\\Lexer::reset](parle-lexer.reset.html)
+    
+-   [Parle\\RLexer::advance »](parle-rlexer.advance.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle](book.parle.html)
+    
+-   Клас ParleRLexer
+    
 
-# Клас Parle\RLexer
+# Клас ParleRLexer
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
 ## Вступ
 
-Клас лексера з кількома станами. Лексеми можна визначати на
-літа. Якщо конкретний екземпляр лексера призначений для використання з
-[Parle\RParser](class.parle-rparser.md), ідентифікатори токенів повинні
-бути взяті звідти. В іншому випадку можуть бути надані
-довільні ідентифікатори токенів. Зверніть увагу, що
-[Parle\Parser](class.parle-parser.md) несумісний із цим лексером.
+Клас лексера з кількома станами. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [Parle\\RParser](class.parle-rparser.html)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Зверніть увагу, що [Parle\\Parser](class.parle-parser.html) несумісний із цим лексером.
 
 ## Огляд класів
 
-class **Parle\RLexer** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `ICASE` = 1;
 
-const int `DOT_NOT_LF` = 2;
+    
+     
+      class Parle\RLexer
+     
+     {
 
-const int `DOT_NOT_CRLF` = 4;
+    /* Константы */
+    
+     const
+     int
+      ICASE = 1;
 
-const int `SKIP_WS` = 8;
+    const
+     int
+      DOT_NOT_LF = 2;
 
-const int `MATCH_ZERO_LEN` = 16;
+    const
+     int
+      DOT_NOT_CRLF = 4;
 
-/\* Властивості \*/
+    const
+     int
+      SKIP_WS = 8;
 
-public bool `$bol` = **`false`**;
+    const
+     int
+      MATCH_ZERO_LEN = 16;
 
-public int `$flags` = 0;
 
-public int `$state` = 0;
+    /* Свойства */
+    public
+     bool
+      $bol = false;
 
-public int `$marker` = 0;
+    public
+     int
+      $flags = 0;
 
-public int `$cursor` = 0;
+    public
+     int
+      $state = 0;
 
-/\* Методи \*/
+    public
+     int
+      $marker = 0;
 
-public [advance](parle-rlexer.advance.md)(): void
+    public
+     int
+      $cursor = 0;
 
-public [build](parle-rlexer.build.md)(): void
 
-public [callout](parle-rlexer.callout.md)(int `$id`,
-[callable](language.types.callable.md) `$callback`): void
+    /* Методы */
+    
+   public advance(): void
+public build(): void
+public callout(int $id, callable $callback): void
+public consume(string $data): void
+public dump(): void
+public getToken(): Parle\Token
+public insertMacro(string $name, string $regex): void
+public push(string $regex, int $id): void
+public push(    string $state,    string $regex,    int $id,    string $newState): void
+public push(string $state, string $regex, string $newState): void
+public pushState(string $state): int
+public reset(int $pos): void
 
-public [consume](parle-rlexer.consume.md)(string `$data`): void
+   }
+```
 
-public [dump](parle-rlexer.dump.md)(): void
-
-public [getToken](parle-rlexer.gettoken.md)():
-[Parle\Token](class.parle-token.md)
-
-public [insertMacro](parle-rlexer.insertmacro.md)(string `$name`,
-string `$regex`): void
-
-public [push](parle-rlexer.push.md)(string `$regex`, int `$id`): void
-
-public [push](parle-rlexer.push.md)(
-string `$state`,
-string `$regex`,
-int `$id`,
-string `$newState`
-): void
-
-public [push](parle-rlexer.push.md)(string `$state`, string `$regex`,
-string `$newState`): void
-
-public [pushState](parle-rlexer.pushstate.md)(string `$state`): int
-
-public [reset](parle-rlexer.reset.md)(int `$pos`): void
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Parle\RLexer::ICASE`**
 
@@ -97,38 +108,35 @@ public [reset](parle-rlexer.reset.md)(int `$pos`): void
 
 ## Властивості
 
-`bol`
+біль
+
 Прапор початку введення.
 
-`flags`
+flags
+
 Прапори лексера.
 
-`state`
+state
+
 Поточний стан лексера, лише читання.
 
-`marker`
+marker
+
 Позиція останнього збігу токена, лише читання.
 
-`cursor`
+cursor
+
 Поточне усунення введення, тільки для читання.
 
 ## Зміст
 
-- [Parle\RLexer::advance](parle-rlexer.advance.md) — Обробка
-наступного правила лексера
-- [Parle\RLexer::build](parle-rlexer.build.md) — Завершує набір
-правил лексера
-- [Parle\RLexer::callout](parle-rlexer.callout.md) — Визначає
-callback-функцію токена
-- [Parle\RLexer::consume](parle-rlexer.consume.md) — Передає дані
-для обробки
-- [Parle\RLexer::dump](parle-rlexer.dump.md) — Вивантажує стан
-пристрої
-- [Parle\RLexer::getToken](parle-rlexer.gettoken.md) - v
-- [Parle\RLexer::insertMacro](parle-rlexer.insertmacro.md) -
-Вставляє макрос регулярного виразу
-- [Parle\RLexer::push](parle-rlexer.push.md) — Додає правило
-лексера
-- [Parle\RLexer::pushState](parle-rlexer.pushstate.md) - Просуває
-новий початковий стан
-- [Parle\RLexer::reset](parle-rlexer.reset.md) - Скидає лексер
+-   [Parle\\RLexer::advance](parle-rlexer.advance.html) - Обробка наступного правила лексера
+-   [Parle\\RLexer::build](parle-rlexer.build.html) - Завершує набір правил лексера
+-   [Parle\\RLexer::callout](parle-rlexer.callout.html) - Визначає callback-функцію токена
+-   [Parle\\RLexer::consume](parle-rlexer.consume.html) — Передає дані для обробки
+-   [Parle\\RLexer::dump](parle-rlexer.dump.html) — Вивантажує стан пристрою
+-   [Parle\\RLexer::getToken](parle-rlexer.gettoken.html) - в
+-   [Parle\\RLexer::insertMacro](parle-rlexer.insertmacro.html) — Вставляє макрос регулярного виразу
+-   [Parle\\RLexer::push](parle-rlexer.push.html) - Додає правило лексера
+-   [Parle\\RLexer::pushState](parle-rlexer.pushstate.html) - Просуває новий початковий стан
+-   [Parle\\RLexer::reset](parle-rlexer.reset.html) - скидає лексер

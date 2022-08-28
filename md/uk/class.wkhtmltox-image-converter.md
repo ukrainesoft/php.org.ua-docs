@@ -1,13 +1,19 @@
-- [« wkhtmltox\PDF\Object::\_\_construct](wkhtmltox-pdf-object.construct.md)
-- [wkhtmltox\Image\Converter::\_\_construct »](wkhtmltox-image-converter.construct.md)
+Клас wkhtmltoxImageConverter
 
-- [PHP Manual](index.md)
-- [wkhtmltox](book.wkhtmltox.md)
-- Клас wkhtmltox\Image\Converter
+-   [« wkhtmltox\\PDF\\Object::\_\_construct](wkhtmltox-pdf-object.construct.html)
+    
+-   [wkhtmltox\\Image\\Converter::\_\_construct »](wkhtmltox-image-converter.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [wkhtmltox](book.wkhtmltox.html)
+    
+-   Клас wkhtmltoxImageConverter
+    
 
-# Клас wkhtmltox\Image\Converter
+# Клас wkhtmltoxImageConverter
 
-(wkhtmltox \>= 0.1.0)
+(wkhtmltox >= 0.1.0)
 
 ## Вступ
 
@@ -15,26 +21,31 @@
 
 ## Огляд класів
 
-class **wkhtmltox\Image\Converter** {
+```classsynopsis
 
-/\* Constructor \*/
 
-public [\_\_construct](wkhtmltox-image-converter.construct.md)(string
-`$buffer` = ?, array `$settings` = ?)
 
-/\* Методи \*/
+    
+     
+      class wkhtmltox\Image\Converter
+     
+     {
 
-public [convert](wkhtmltox-image-converter.convert.md)(): ?string
 
-public [getVersion](wkhtmltox-image-converter.getversion.md)(): string
+    /* Constructor */
+    
+   public __construct(string $buffer = ?, array $settings = ?)
 
-}
+
+    /* Методы */
+    public convert(): ?string
+public getVersion(): string
+
+   }
+```
 
 ## Зміст
 
-- [wkhtmltox\Image\Converter::\_\_construct](wkhtmltox-image-converter.construct.md)
-— Створити новий конвертер зображень
-- [wkhtmltox\Image\Converter::convert](wkhtmltox-image-converter.convert.md)
-— Виконати перетворення зображень
-- [wkhtmltox\Image\Converter::getVersion](wkhtmltox-image-converter.getversion.md)
-— Визначити версію конвертера
+-   [wkhtmltox\\Image\\Converter::\_\_construct](wkhtmltox-image-converter.construct.html) — Створити новий конвертер зображень
+-   [wkhtmltox\\Image\\Converter::convert](wkhtmltox-image-converter.convert.html) — Виконати перетворення зображень
+-   [wkhtmltox\\Image\\Converter::getVersion](wkhtmltox-image-converter.getversion.html) — Визначити версію конвертера

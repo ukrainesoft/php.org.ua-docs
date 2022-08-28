@@ -1,20 +1,22 @@
-- [« Публікуючі callback-функції](yaml.callbacks.emit.md)
-- [yaml_emit_file »](function.yaml-emit-file.md)
+Функції Yaml
 
-- [PHP Manual](index.md)
-- [Yaml](book.yaml.md)
-- Функції Yaml
+-   [« Публикующие callback-функции](yaml.callbacks.emit.html)
+    
+-   [yaml\_emit\_file »](function.yaml-emit-file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaml](book.yaml.html)
+    
+-   Функції Yaml
+    
 
 # Функції Yaml
 
 ## Зміст
 
-- [yaml_emit_file](function.yaml-emit-file.md) - Надсилає
-YAML-представлення значення у файл
-- [yaml_emit](function.yaml-emit.md) — Повертає YAML-виставу
-значення
-- [yaml_parse_file](function.yaml-parse-file.md) - Розбирає
-YAML-потік із файлу
-- [yaml_parse_url](function.yaml-parse-url.md) - Розбирає
-YAML-потік з URL
-- [yaml_parse](function.yaml-parse.md) - Розбирає потік YAML
+-   [yaml\_emit\_file](function.yaml-emit-file.html) — Відправляє YAML-подання значення файлу
+-   [yaml\_emit](function.yaml-emit.html) — Повертає YAML-подання значення
+-   [yaml\_parse\_file](function.yaml-parse-file.html) — Розбирає YAML-потік із файлу
+-   [yaml\_parse\_url](function.yaml-parse-url.html) — Розбирає YAML-потік із URL
+-   [yaml\_parse](function.yaml-parse.html) - Розбирає потік YAML

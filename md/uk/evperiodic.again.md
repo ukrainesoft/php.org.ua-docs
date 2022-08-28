@@ -1,23 +1,30 @@
-- [«EvPeriodic](class.evperiodic.md)
-- [EvPeriodic::at »](evperiodic.at.md)
+Зупиняє та знову запускає періодичний спостерігач
 
-- [PHP Manual](index.md)
-- [EvPeriodic](class.evperiodic.md)
-- Зупиняє та знову запускає періодичний спостерігач
+-   [« EvPeriodic](class.evperiodic.html)
+    
+-   [EvPeriodic::at »](evperiodic.at.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvPeriodic](class.evperiodic.html)
+    
+-   Зупиняє та знову запускає періодичний спостерігач
+    
 
 # EvPeriodic::again
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvPeriodic::again — Зупиняє та знову запускає періодичний
-спостерігач
+EvPeriodic::again — Зупиняє та знову запускає періодичний спостерігач
 
 ### Опис
 
-public **EvPeriodic::again**(): void
+```methodsynopsis
+public
+   EvPeriodic::again(): void
+```
 
-Зупиняє та знову запускає періодичний спостерігач. Корисно
-лише за зміни атрибутів.
+Зупиняє та знову запускає періодичний спостерігач. Корисно лише за зміни атрибутів.
 
 ### Список параметрів
 
@@ -29,5 +36,4 @@ public **EvPeriodic::again**(): void
 
 ### Дивіться також
 
-- [EvTimer::again()](evtimer.again.md) - Перезапускає таймер
-спостерігача
+-   [EvTimer::again()](evtimer.again.html) - Перезапускає таймер спостерігача

@@ -1,54 +1,74 @@
-- [« Imagick::transformImageColorspace](imagick.transformimagecolorspace.md)
-- [Imagick::transposeImage »](imagick.transposeimage.md)
+Малює пікселі прозорими
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Малює пікселі прозорими
+-   [« Imagick::transformImageColorspace](imagick.transformimagecolorspace.html)
+    
+-   [Imagick::transposeImage »](imagick.transposeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Малює пікселі прозорими
+    
 
 # Imagick::transparentPaintImage
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
 Imagick::transparentPaintImage — Малює пікселі прозорими
 
 ### Опис
 
-public **Imagick::transparentPaintImage**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$target`,
-float `$alpha`,
-float `$fuzz`,
-bool `$invert`
-): bool
+```methodsynopsis
+public Imagick::transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
+```
 
-Малює пікселі, що відповідають цільовому кольору, прозорим. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або
-старше.
+Малює пікселі, що відповідають цільовому кольору, прозорим. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
 
 ### Список параметрів
 
 `target`
+
 Цільовий колір для малювання
 
 `alpha`
-Рівень прозорості: 1.0 повністю непрозорий, тоді як 0.0
-повністю прозорий.
+
+Рівень прозорості: 1.0 повністю непрозорий, тоді як 0.0 повністю прозорий.
 
 `fuzz`
-Міра заокруглення (fuzz). Наприклад, встановіть значення fuzz в 10 і
-червоний колір з інтенсивністю 100 та 102 буде інтерпретуватися як
-той самий колір.
+
+міра округлення (fuzz). Для прикладу, встановіть значення fuzz 10 і червоний колір з інтенсивністю 100 і 102 буде інтерпретуватися як один і той же колір.
 
 `invert`
-Якщо **`true`**, зафарбовує будь-який піксель, який не відповідає
-цільового кольору.
+
+Якщо **`true`**, зафарбовує будь-який піксель, який відповідає цільовому кольору.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::transparentPaintImage()****
 
-` <?phpfunction transparentPaintImage($color, $alpha, $fuzz) {    $imagick = new \Imagick(realpath("images/BlueScreen.jpg")); //Мовен бути в форматі, підтримує прозорість    $imagick->setimageformat('png'); $imagick->transparentPaintImage(        $color, $alpha, $fuzz * \Imagick::getQuantum(), false    ); //Не потрібно, але допомагає прибирати залишені пікселі    $imagick->despeckleimage(); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function transparentPaintImage($color, $alpha, $fuzz) {
+    $imagick = new \Imagick(realpath("images/BlueScreen.jpg"));
+
+    //Должен быть в формате, который поддерживает прозрачность
+    $imagick->setimageformat('png');
+
+    $imagick->transparentPaintImage(
+        $color, $alpha, $fuzz * \Imagick::getQuantum(), false
+    );
+
+    //Не требуется, но помогает убирать оставленные пиксели
+    $imagick->despeckleimage();
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

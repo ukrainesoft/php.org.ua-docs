@@ -1,60 +1,78 @@
-- [« pg_execute](function.pg-execute.md)
-- [pg_fetch_all »](function.pg-fetch-all.md)
+Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Вибирає всі записи з однієї колонки результату запиту та поміщає
-їх у масив
+-   [« pg\_execute](function.pg-execute.html)
+    
+-   [pg\_fetch\_all »](function.pg-fetch-all.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
+    
 
-#pg_fetch_all_columns
+# пгfetchallcolumns
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-pg_fetch_all_columns — Вибирає всі записи з однієї колонки результату
-запиту та поміщає їх у масив
+пгfetchallcolumns — Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
 
 ### Опис
 
-**pg_fetch_all_columns**([PgSql\Result](class.pgsql-result.md)
-`$result`, int `$field` = 0): array
+```methodsynopsis
+pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
+```
 
-**pg_fetch_all_columns()** повертає масив, що містить усі записи
-однієї колонки екземпляра [PgSql \ Result](class.pgsql-result.md).
+**пгfetchallcolumns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSql\\Result](class.pgsql-result.html)
 
-> **Примітка**: Ця функція встановлює NULL-поля у значення
-> **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `field`
-Номер стовпчика. Якщо параметр не заданий, буде оброблено першу (нульову)
-стовпчик.
+
+Номер колонки. Якщо параметр не заданий, буде оброблено першу (нульову) колонку.
 
 ### Значення, що повертаються
 
 Масив значень стовпчика результату запиту.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_fetch_all_columns()****
+**Приклад #1 Приклад використання **пгfetchallcolumns()****
 
-` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}$result = pg_query($conn, "SELECT title, name, address FROM authors");if (!$result) { echo "Відбулася помилка.
-";  exit;}// Отримати масив імен всіх авторів$arr = pg_fetch_all_columns($result, 1);var_dump($arr);?> `
+```php
+<?php
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+$result = pg_query($conn, "SELECT title, name, address FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+// Получить массив имён всех авторов
+$arr = pg_fetch_all_columns($result, 1);
+
+var_dump($arr);
+
+?>
+```
 
 ### Дивіться також
 
-- [pg_fetch_all()](function.pg-fetch-all.md) - Вибирає всі дані
-з результату запиту та поміщає їх у масив
+-   [pg\_fetch\_all()](function.pg-fetch-all.html) - Вибирає всі дані з результату запиту та поміщає їх у масив

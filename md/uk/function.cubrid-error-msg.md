@@ -1,23 +1,29 @@
-- [«cubrid_error_code](function.cubrid-error-code.md)
-- [cubrid_execute »](function.cubrid-execute.md)
+Повертає текст останньої помилки, що сталася
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Повертає текст останньої помилки, що відбулася.
+-   [« cubrid\_error\_code](function.cubrid-error-code.html)
+    
+-   [cubrid\_execute »](function.cubrid-execute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Повертає текст останньої помилки, що сталася
+    
 
-#cubrid_error_msg
+# cubriderrormsg
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_error_msg — Повертає текст останньої помилки, що сталася
+cubriderrormsg — Повертає текст останньої помилки, що відбулася.
 
 ### Опис
 
-**cubrid_error_msg**(): string
+```methodsynopsis
+cubrid_error_msg(): string
+```
 
-Функція **cubrid_error_msg()** використовується для отримання тексту
-помилки, що відбулася. Зазвичай ви можете отримати текст помилки, якщо
-якась функція повернула **`false`**.
+Функція **cubriderrormsg()** використовується для отримання тексту помилки, що відбулася. Зазвичай ви можете отримати текст помилки, якщо якась функція повернула **`false`**
 
 ### Список параметрів
 
@@ -29,22 +35,31 @@ cubrid_error_msg — Повертає текст останньої помилк
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_error_msg()****
+**Приклад #1 Приклад використання **cubriderrormsg()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");if (!@cubrid_schema($conn, 100000)) {    printf("Error facility: %d
-Error code: %d
-Error msg: %s
-",   cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());   cubrid_disconnect($conn);    exit;}?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+
+if (!@cubrid_schema($conn, 100000)) {
+    printf("Error facility: %d\nError code: %d\nError msg: %s\n",
+        cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());
+
+    cubrid_disconnect($conn);
+    exit;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Error facility: 2
 Error code: -10015
 Error msg: Invalid T_CCI_SCH_TYPE value
+```
 
 ### Дивіться також
 
-- [cubrid_error_code()](function.cubrid-error-code.md) - Отримати
-код помилки
-- [cubrid_error_code_facility()](function.cubrid-error-code-facility.md) -
-Отримати код рівня, на якому сталася помилка
+-   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка

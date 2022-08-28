@@ -1,61 +1,68 @@
-- [« Yaf_Plugin_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.md)
-- [Yaf_Registry::\_\_construct »](yaf-registry.construct.md)
+Клас YafRegistry
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Registry
+-   [« Yaf\_Plugin\_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.html)
+    
+-   [Yaf\_Registry::\_\_construct »](yaf-registry.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafRegistry
+    
 
-# Клас Yaf_Registry
+# Клас YafRegistry
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-Усі методи **Yaf_Registry** визначені як статичні, роблячи їх
-Універсально доступними. Це надає можливості прочитати або
-записати будь-які дані з будь-якого місця у вашому додатку.
+Усі методи **YafRegistry** визначено як статичні, роблячи їх універсально доступними. Це надає можливості прочитати або записати будь-які дані з будь-якого місця у вашому додатку.
 
 ## Огляд класів
 
-class **Yaf_Registry** {
+```classsynopsis
 
-/\* Властивості \*/
 
-static `$_instance`;
+    
+    
+     
+      class Yaf_Registry
+     
+     {
+    
+    /* Свойства */
+    
+     static
+      $_instance;
 
-protected `$_entries`;
+    protected
+      $_entries;
 
-/\* Методи \*/
 
-private [\_\_construct](yaf-registry.construct.md)()
 
-public static [del](yaf-registry.del.md)(string `$name`): void
+    /* Методы */
+    
+   private __construct()
 
-public static [get](yaf-registry.get.md)(string `$name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public static del(string $name): void
+public static get(string $name): mixed
+public static has(string $name): bool
+public static set(string $name, string $value): bool
 
-public static [has](yaf-registry.has.md)(string `$name`): bool
-
-public static [set](yaf-registry.set.md)(string `$name`, string
-`$value`): bool
-
-}
+   }
+```
 
 ## Властивості
 
-`_instance`
+instance
 
-`_entries`
+entries
 
 ## Зміст
 
-- [Yaf_Registry::\_\_construct](yaf-registry.construct.md) -
-Yaf_Registry реалізує шаблон проектування "Одиночка"
-- [Yaf_Registry::del](yaf-registry.del.md) — Видаляє елемент з
-реєстру
-- [Yaf_Registry::get](yaf-registry.get.md) — Отримує елемент із
-реєстру
-- [Yaf_Registry::has](yaf-registry.has.md) — Перевіряє, чи існує
-чи елемент
-- [Yaf_Registry::set](yaf-registry.set.md) — Додає елемент до
-реєстр
+-   [Yaf\_Registry::\_\_construct](yaf-registry.construct.html) - YafRegistry реалізує шаблон проектування "Одиночка"
+-   [Yaf\_Registry::del](yaf-registry.del.html) — Видаляє елемент із реєстру
+-   [Yaf\_Registry::get](yaf-registry.get.html) — Отримує елемент із реєстру
+-   [Yaf\_Registry::has](yaf-registry.has.html) — Перевіряє, чи існує елемент
+-   [Yaf\_Registry::set](yaf-registry.set.html) — Додає елемент до реєстру

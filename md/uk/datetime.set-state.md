@@ -1,30 +1,36 @@
-- [« DateTime::modify](datetime.modify.md)
-- [DateTime::setDate »](datetime.setdate.md)
+Обробник setstate
 
-- [PHP Manual](index.md)
-- [DateTime](class.datetime.md)
-- Обробник \_\_set_state
+-   [« DateTime::modify](datetime.modify.html)
+    
+-   [DateTime::setDate »](datetime.setdate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTime](class.datetime.html)
+    
+-   Обробник setstate
+    
 
-# DateTime::\_\_set_state
+# DateTime::setstate
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-DateTime::\_\_set_state - Обробник \_\_set_state
+DateTime::setstate - Оброблювач setstate
 
 ### Опис
 
-public static **DateTime::\_\_set_state**(array `$array`):
-[DateTime](class.datetime.md)
+```methodsynopsis
+public static DateTime::__set_state(array $array): DateTime
+```
 
-Обробник [\_\_set_state()](language.oop5.magic.md#object.set-state).
+Обробник [\_\_set\_state()](language.oop5.magic.html#object.set-state)
 
-Подібний методу
-[DateTimeImmutable::\_\_set_state()](datetimeimmutable.set-state.md),
-крім роботи з об'єктом [DateTime](class.datetime.md).
+Подібний до методу [DateTimeImmutable::\_\_set\_state()](datetimeimmutable.set-state.html), крім роботи з об'єктом [DateTime](class.datetime.html)
 
 ### Список параметрів
 
 `array`
+
 Масив для ініціалізації.
 
 ### Значення, що повертаються

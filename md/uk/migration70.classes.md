@@ -1,35 +1,39 @@
-- [« Нові функції](migration70.new-functions.md)
-- [Нові глобальні константи »](migration70.constants.md)
+Нові класи та інтерфейси
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 5.6.x на PHP 7.0.x](migration70.md)
-- Нові класи та інтерфейси
+-   [« Новые функции](migration70.new-functions.html)
+    
+-   [Новые глобальные константы »](migration70.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 5.6.x на PHP 7.0.x](migration70.html)
+    
+-   Нові класи та інтерфейси
+    
 
 ## Нові класи та інтерфейси
 
-### [Інтернаціоналізація](book.intl.md)
+### [Интернационализация](book.intl.html)
 
-- [IntlChar](class.intlchar.md)
+-   [IntlChar](class.intlchar.html)
 
-### [Reflection](book.reflection.md)
+### [Reflection](book.reflection.html)
 
-- [ReflectionGenerator](class.reflectiongenerator.md)
+-   [ReflectionGenerator](class.reflectiongenerator.html)
+    
+-   [ReflectionType](class.reflectiontype.html)
+    
 
+### [Управление сессиями](book.session.html)
 
-
-- [ReflectionType](class.reflectiontype.md)
-
-### [Управління сесіями](book.session.md)
-
--
-[SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
+-   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.html)
 
 ### Ієрархія винятків
 
-- [Throwable](class.throwable.md)
-- [Error](class.error.md)
-- [TypeError](class.typeerror.md)
-- [ParseError](class.parseerror.md)
-- [AssertionError](class.assertionerror.md)
-- [ArithmeticError](class.arithmeticerror.md)
-- [DivisionByZeroError](class.divisionbyzeroerror.md)
+-   [Throwable](class.throwable.html)
+-   [Error](class.error.html)
+-   [TypeError](class.typeerror.html)
+-   [ParseError](class.parseerror.html)
+-   [AssertionError](class.assertionerror.html)
+-   [ArithmeticError](class.arithmeticerror.html)
+-   [DivisionByZeroError](class.divisionbyzeroerror.html)

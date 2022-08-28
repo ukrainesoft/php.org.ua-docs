@@ -1,19 +1,27 @@
-- [« GearmanWorker::removeOptions](gearmanworker.removeoptions.md)
-- [GearmanWorker::setId »](gearmanworker.setid.md)
+Отримання останнього коду повернення Gearman
 
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Отримання останнього коду повернення Gearman
+-   [« GearmanWorker::removeOptions](gearmanworker.removeoptions.html)
+    
+-   [GearmanWorker::setId »](gearmanworker.setid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanWorker](class.gearmanworker.html)
+    
+-   Отримання останнього коду повернення Gearman
+    
 
 # GearmanWorker::returnCode
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanWorker::returnCode — Отримання останнього коду повернення Gearman
 
 ### Опис
 
-public **GearmanWorker::returnCode**(): int
+```methodsynopsis
+public GearmanWorker::returnCode(): int
+```
 
 Витягує останній код повернення Gearman.
 
@@ -27,7 +35,5 @@ public **GearmanWorker::returnCode**(): int
 
 ### Дивіться також
 
-- [GearmanWorker::error()](gearmanworker.error.md) - Отримання
-останньої виявленої помилки
-- [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання
-номери помилки
+-   [GearmanWorker::error()](gearmanworker.error.html) - Отримання останньої виявленої помилки
+-   [GearmanWorker::getErrno()](gearmanworker.geterrno.html) - Отримання номера помилки

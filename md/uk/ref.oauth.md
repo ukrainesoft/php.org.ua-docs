@@ -1,15 +1,19 @@
-- [« FireEagle](oauth.examples.fireeagle.md)
-- [oauth_get_sbs »](function.oauth-get-sbs.md)
+Функції OAuth
 
-- [PHP Manual](index.md)
-- [OAuth](book.oauth.md)
-- Функції OAuth
+-   [« FireEagle](oauth.examples.fireeagle.html)
+    
+-   [oauth\_get\_sbs »](function.oauth-get-sbs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](book.oauth.html)
+    
+-   Функції OAuth
+    
 
 # Функції OAuth
 
 ## Зміст
 
-- [oauth_get_sbs](function.oauth-get-sbs.md) — Створити базову
-рядок підпису (Signature Base String)
-- [oauth_urlencode](function.oauth-urlencode.md) - Кодує URI в
-відповідно до RFC 3986
+-   [oauth\_get\_sbs](function.oauth-get-sbs.html) - Створити базовий рядок підпису (Signature Base String)
+-   [oauth\_urlencode](function.oauth-urlencode.html) — Кодує URI відповідно до RFC 3986

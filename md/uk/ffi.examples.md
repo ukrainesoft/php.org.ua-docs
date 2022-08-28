@@ -1,14 +1,20 @@
-- [«Зумовлені константи](ffi.constants.md)
-- [Прості приклади використання FFI»](ffi.examples-basic.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [FFI](book.ffi.md)
-- Приклади
+-   [« Предопределённые константы](ffi.constants.html)
+    
+-   [Простые примеры использования FFI »](ffi.examples-basic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI](book.ffi.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Прості приклади використання FFI](ffi.examples-basic.md)
-- [Callback-функції PHP](ffi.examples-callback.md)
-- [Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.md)
+-   [Простые примеры использования FFI](ffi.examples-basic.html)
+-   [Callback-функции PHP](ffi.examples-callback.html)
+-   [Комплексный пример PHP/FFI/preloading](ffi.examples-complete.html)

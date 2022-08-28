@@ -1,23 +1,30 @@
-- [«UI\Controls\Check](class.ui-controls-check.md)
-- [UI\Controls\Check::getText »](ui-controls-check.gettext.md)
+Створити новий об'єкт Check
 
-- [PHP Manual](index.md)
-- [UI\Controls\Check](class.ui-controls-check.md)
-- Створити новий об'єкт Check
+-   [« UI\\Controls\\Check](class.ui-controls-check.html)
+    
+-   [UI\\Controls\\Check::getText »](ui-controls-check.gettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Check](class.ui-controls-check.html)
+    
+-   Створити новий об'єкт Check
+    
 
-# UI\Controls\Check::\_\_construct
+# ОЙControlsCheck::construct
 
 (UI 0.9.9)
 
-UI\Controls\Check::\_\_construct — Створити новий об'єкт Check
+ОЙControlsCheck::construct — Створити новий об'єкт Check
 
 ### Опис
 
-public **UI\Controls\Check::\_\_construct**(string `$text`)
+public **ОЙControlsCheck::construct**(string `$text`
 
 Створює новий об'єкт Check
 
 ### Список параметрів
 
 `text`
+
 Текст (мітка) для чекбоксу

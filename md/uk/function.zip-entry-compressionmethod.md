@@ -1,46 +1,51 @@
-- [«zip_entry_compressedsize](function.zip-entry-compressedsize.md)
-- [zip_entry_filesize »](function.zip-entry-filesize.md)
+Повертає метод стиснення дескриптора директорії
 
-- [PHP Manual](index.md)
-- [Функції Zip](ref.zip.md)
-- Повертає метод стиснення дескриптора директорії
+-   [« zip\_entry\_compressedsize](function.zip-entry-compressedsize.html)
+    
+-   [zip\_entry\_filesize »](function.zip-entry-filesize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zip](ref.zip.html)
+    
+-   Повертає метод стиснення дескриптора директорії
+    
 
-#zip_entry_compressionmethod
+# zipentrycompressionmethod
 
-(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
+(PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-zip_entry_compressionmethod — Повертає метод стиснення дескриптора
-директорії
+zipentrycompressionmethod - Повертає метод стиснення дескриптора директорії
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**zip_entry_compressionmethod**(resource `$zip_entry`): string\|false
+```methodsynopsis
+zip_entry_compressionmethod(resource $zip_entry): string|false
+```
 
-Повертає метод стиснення дескриптора директорії, заданого в `zip_entry`.
+Повертає метод стиснення дескриптора директорії, заданого в `zip_entry`
 
 ### Список параметрів
 
 `zip_entry`
-Дескриптор директорії, що повертається функцією
-[zip_read()](function.zip-read.md).
+
+Дескриптор директорії, що повертається функцією [zip\_read()](function.zip-read.html)
 
 ### Значення, що повертаються
 
 Метод стиснення або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
 
 ### Дивіться також
 
-- [zip_open()](function.zip-open.md) - Відкриває ZIP-архів
-- [zip_read()](function.zip-read.md) - Зчитує наступний запис у
-ZIP-архіві
+-   [zip\_open()](function.zip-open.html) - Відкриває ZIP-архів
+-   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві

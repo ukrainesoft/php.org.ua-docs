@@ -1,32 +1,36 @@
-- [«SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.md)
-- [SolrDisMaxQuery »](class.solrdismaxquery.md)
+Час, відведений на пошук
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Час, відведений на пошук
+-   [« SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.html)
+    
+-   [SolrDisMaxQuery »](class.solrdismaxquery.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Час, відведений на пошук
+    
 
 # SolrQuery::setTimeAllowed
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setTimeAllowed — Час, відведений на пошук
+SolrQuery::setTime Allowed — Час, відведений на пошук
 
 ### Опис
 
-public **SolrQuery::setTimeAllowed**(int `$timeAllowed`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTimeAllowed(int $timeAllowed): SolrQuery
+```
 
-Час, відведений для завершення пошуку. Це значення відноситься тільки до
-пошуку, а не до запитів загалом. Час у мілісекундах. Значення,
-менші або рівні нулю, не припускають обмеження часу.
-Часткові результати можуть бути повернуті, якщо вони є.
+Час, відведений для завершення пошуку. Це значення стосується лише пошуку, а чи не запитів загалом. Час у мілісекундах. Значення, менші або рівні нулю, не передбачають обмеження часу. Часткові результати можуть бути повернуті, якщо вони є.
 
 ### Список параметрів
 
 `timeAllowed`
+
 Час, відведений для завершення пошуку.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

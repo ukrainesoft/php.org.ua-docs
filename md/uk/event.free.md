@@ -1,30 +1,34 @@
-- [«Event::delTimer](event.deltimer.md)
-- [Event::getSupportedMethods »](event.getsupportedmethods.md)
+Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
 
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- Перевести подію в пасивний стан та звільнити всі виділені
-для нього ресурси
+-   [« Event::delTimer](event.deltimer.html)
+    
+-   [Event::getSupportedMethods »](event.getsupportedmethods.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Event](class.event.html)
+    
+-   Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
+    
 
 # Event::free
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-Event::free — Перевести подію в пасивний стан та звільнити все
-виділені йому ресурси
+Event::free — Перевести подію в пасивний стан і звільнити всі виділені для неї ресурси
 
 ### Опис
 
-public **Event::free**(): void
+```methodsynopsis
+public
+   Event::free(): void
+```
 
-Видаляє подію з набору подій, що відстежуються, і вивільняє
-всі виділені йому ресурси.
+Видаляє подію з набору відстежуваних libevent подій і звільняє всі виділені йому ресурси.
 
 **Увага**
 
-Нині метод **Event::free()** не знищує сам об'єкт. Для
-знищення об'єкта події використовуйте функцію
-[unset()](function.unset.md) або привласніть йому **`null`**.
+В даний час метод **Event::free()** не знищує сам об'єкт. Для знищення об'єкта події використовуйте функцію [unset()](function.unset.html) або привласніть йому **`null`**
 
 ### Список параметрів
 
@@ -36,5 +40,4 @@ public **Event::free**(): void
 
 ### Дивіться також
 
-- [Event::\_\_construct()](event.construct.md) - Конструктор об'єкта
-Event
+-   [Event::\_\_construct()](event.construct.html) - Конструктор об'єкту Event

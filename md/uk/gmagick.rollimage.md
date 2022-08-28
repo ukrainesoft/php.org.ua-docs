@@ -1,34 +1,43 @@
-- [«Gmagick::resizeimage](gmagick.resizeimage.md)
-- [Gmagick::rotateimage »](gmagick.rotateimage.md)
+Зміщує зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Зміщує зображення
+-   [« Gmagick::resizeimage](gmagick.resizeimage.html)
+    
+-   [Gmagick::rotateimage »](gmagick.rotateimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Зміщує зображення
+    
 
 # Gmagick::rollimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::rollimage — Зміщує зображення
 
 ### Опис
 
-public **Gmagick::rollimage**(int `$x`, int `$y`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::rollimage(int $x, int $y): Gmagick
+```
 
 Зміщує зображення відповідно до x та y.
 
 ### Список параметрів
 
 `x`
-Зміщення по осі х.
+
+Зміщення по осі x.
 
 `y`
-Усунення по осі y.
+
+Зміщення осі y.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

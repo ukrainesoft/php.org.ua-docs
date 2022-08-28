@@ -1,27 +1,33 @@
-- [« xhprof_sample_enable](function.xhprof-sample-enable.md)
-- [Вступ »](intro.yac.md)
+Yac
 
-- [PHP Manual](index.md)
-- [Зміна поведінки PHP](refs.basic.php.md)
-- Yac
+-   [« xhprof\_sample\_enable](function.xhprof-sample-enable.html)
+    
+-   [Введение »](intro.yac.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Изменение поведения PHP](refs.basic.php.html)
+    
+-   Yac
+    
 
 # Yac
 
-- [Вступ](intro.yac.md)
-- [Встановлення та налаштування](yac.setup.md)
-- [Вимоги](yac.requirements.md)
-- [Установка](yac.installation.md)
-- [Налаштування під час виконання](yac.configuration.md)
-- [Типи ресурсів](yac.resources.md)
-- [Предвизначені константи](yac.constants.md)
-- [Yac](class.yac.md) - Клас Yac
-- [Yac::add](yac.add.md) — Зберігає в кеш
-- [Yac::\_\_construct](yac.construct.md) - Конструктор класу
-- [Yac::delete](yac.delete.md) — Видалення елементів із кешу
-- [Yac::dump](yac.dump.md) - Дамп кеша
-- [Yac::flush](yac.flush.md) - Очищає кеш
-- [Yac::get](yac.get.md) — Витягує значення з кеша
-- [Yac::\_\_get](yac.getter.md) - Геттер
-- [Yac::info](yac.info.md) — Стан кешу
-- [Yac::set](yac.set.md) — Зберігає в кеш
-- [Yac::\_\_set](yac.setter.md) - Сеттер
+-   [Введение](intro.yac.html)
+-   [Установка и настройка](yac.setup.html)
+    -   [Требования](yac.requirements.html)
+    -   [Установка](yac.installation.html)
+    -   [Настройка во время выполнения](yac.configuration.html)
+    -   [Типы ресурсов](yac.resources.html)
+-   [Предопределённые константы](yac.constants.html)
+-   [Yac](class.yac.html) - Клас Yac
+    -   [Yac::add](yac.add.html) - Зберігає в кеш
+    -   [Yac::\_\_construct](yac.construct.html) - Конструктор класу
+    -   [Yac::delete](yac.delete.html) — Видаляє елементи з кешу
+    -   [Yac::dump](yac.dump.html) - Дамп кеша
+    -   [Yac::flush](yac.flush.html) - Очищає кеш
+    -   [Yac::get](yac.get.html) — Витягує значення з кешу
+    -   [Yac::\_\_get](yac.getter.html) - Геттер
+    -   [Yac::info](yac.info.html) - Стан кешу
+    -   [Yac::set](yac.set.html) - Зберігає в кеш
+    -   [Yac::\_\_set](yac.setter.html) - Сеттер

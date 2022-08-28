@@ -1,55 +1,83 @@
-- [«ftp_cdup](function.ftp-cdup.md)
-- [ftp_chmod»](function.ftp-chmod.md)
+Змінює поточну директорію на FTP-сервері
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Змінює поточну директорію на FTP-сервері
+-   [« ftp\_cdup](function.ftp-cdup.html)
+    
+-   [ftp\_chmod »](function.ftp-chmod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Змінює поточну директорію на FTP-сервері
+    
 
-#ftp_chdir
+# ftpchdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_chdir — Змінює поточну директорію на FTP-сервері
+ftpchdir — Змінює поточну директорію на FTP-сервері
 
 ### Опис
 
-**ftp_chdir**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$directory`): bool
+```methodsynopsis
+ftp_chdir(FTP\Connection $ftp, string $directory): bool
+```
 
 Змінює поточну директорію на задану аргументом.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `directory`
+
 Цільова директорія.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Якщо зміна директорії завершилася
-невдачею, PHP викличе попередження.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо зміна директорії завершилася невдачею, PHP викликає попередження.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_chdir()****
+**Приклад #1 Приклад використання **ftpchdir()****
 
-` <?php// установка з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і паролем$login_result = ftp_login($ftp, $ftp_user_name, $ ! ! || (!$login_result)) {    die("Не удалося підключитися до FTP-серверу!");}echo "Поточна директорія: " . ftp_pwd($ftp) . "
-";// намагаємося змінити поточну директорію на somedirif (ftp_chdir($ftp, "somedir")) {    echo "Нова поточна директорія: " . ftp_pwd$|
-";} else {    echo "Не удалося змінити директорію
-";}// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// проверка соединения
+if ((!$ftp) || (!$login_result)) {
+    die("Не удалось подключиться к FTP-серверу!");
+}
+
+echo "Текущая директория: " . ftp_pwd($ftp) . "\n";
+
+// пытаемся сменить текущую директорию на somedir
+if (ftp_chdir($ftp, "somedir")) {
+    echo "Новая текущая директория: " . ftp_pwd($ftp) . "\n";
+} else {
+    echo "Не удалось сменить директорию\n";
+}
+
+// закрытие соединения
+ftp_close($ftp);
+?>
+```
 
 ### Дивіться також
 
-- [ftp_cdup()](function.ftp-cdup.md) - Переходить до батьківської
-директорію
-- [ftp_pwd()](function.ftp-pwd.md) - Повертає поточне ім'я
-директорії
+-   [ftp\_cdup()](function.ftp-cdup.html) - Переходить до батьківської директорії
+-   [ftp\_pwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії

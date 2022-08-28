@@ -1,9 +1,15 @@
-- [« DOMDocument::\_\_construct](domdocument.construct.md)
-- [DOMDocument::createAttributeNS »](domdocument.createattributens.md)
+Створити новий атрибут
 
-- [PHP Manual](index.md)
-- [DOMDocument](class.domdocument.md)
-- Створити новий атрибут
+-   [« DOMDocument::\_\_construct](domdocument.construct.html)
+    
+-   [DOMDocument::createAttributeNS »](domdocument.createattributens.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMDocument](class.domdocument.html)
+    
+-   Створити новий атрибут
+    
 
 # DOMDocument::createAttribute
 
@@ -13,48 +19,37 @@ DOMDocument::createAttribute — Створити новий атрибут
 
 ### Опис
 
-public **DOMDocument::createAttribute**(string `$localName`):
-[DOMAttr](class.domattr.md)\|false
+```methodsynopsis
+public DOMDocument::createAttribute(string $localName): DOMAttr|false
+```
 
-Ця функція створює новий об'єкт класу [DOMAttr](class.domattr.md).
-Цей вузол не буде відображатися в документі, доки він не буде
-вставлений, наприклад, функцією
-[DOMNode::appendChild()](domnode.appendchild.md).
+Ця функція створює новий об'єкт класу [DOMAttr](class.domattr.html). Цей вузол не буде відображатися в документі, доки він не буде вставлений, наприклад, функцією [DOMNode::appendChild()](domnode.appendchild.html)
 
 ### Список параметрів
 
 `localName`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 ### Значення, що повертаються
 
-Новий об'єкт [DOMAttr](class.domattr.md) або **`false`** у разі
-виникнення помилки.
+Новий об'єкт [DOMAttr](class.domattr.html) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
 **`DOM_INVALID_CHARACTER_ERR`**
+
 Виникає, якщо `localName` містить неприпустимі символи.
 
 ### Дивіться також
 
-- [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий
-дочірній вузол у кінець списку нащадків
-- [DOMDocument::createAttributeNS()](domdocument.createattributens.md) -
-Створює новий атрибут вузла з відповідним простором імен
-- [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) -
-Створює новий вузол cdata
-- [DOMDocument::createComment()](domdocument.createcomment.md) -
-Створити новий вузол коментаря
-- [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) -
-Створити новий фрагмент документу
-- [DOMDocument::createElement()](domdocument.createelement.md) -
-Створити новий вузол елемента
-- [DOMDocument::createElementNS()](domdocument.createelementns.md) -
-Створити новий вузол елемента з відповідним простором імен
-- [DOMDocument::createEntityReference()](domdocument.createentityreference.md) -
-Створити новий вузол посилання на суть
-- [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) -
-Створити новий PI-вузол
-- [DOMDocument::createTextNode()](domdocument.createtextnode.md) -
-Створити новий текстовий вузол
+-   [DOMNode::appendChild()](domnode.appendchild.html) - Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMDocument::createAttributeNS()](domdocument.createattributens.html) - Створює новий атрибут вузла з відповідним простором імен
+-   [DOMDocument::createCDATASection()](domdocument.createcdatasection.html) - Створює новий вузол cdata
+-   [DOMDocument::createComment()](domdocument.createcomment.html) - Створити новий вузол коментаря
+-   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.html) - створити новий фрагмент документа
+-   [DOMDocument::createElement()](domdocument.createelement.html) - Створити новий вузол елемента
+-   [DOMDocument::createElementNS()](domdocument.createelementns.html) - Створити новий вузол елемента з відповідним простором імен
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.html) - Створити новий вузол посилання на суть
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.html) - Створити новий PI-вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.html) - Створити новий текстовий вузол

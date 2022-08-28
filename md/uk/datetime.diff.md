@@ -1,105 +1,127 @@
-- [« DateTimeInterface](class.datetimeinterface.md)
-- [DateTime::format »](datetime.format.md)
+Повертає різницю між двома об'єктами DateTime
 
-- [PHP Manual](index.md)
-- [DateTimeInterface](class.datetimeinterface.md)
-- Повертає різницю між двома об'єктами DateTime
-
-# DateTime::diff
-
-# DateTimeImmutable::diff
+-   [« DateTimeInterface](class.datetimeinterface.html)
+    
+-   [DateTimeInterface::format »](datetime.format.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTimeInterface](class.datetimeinterface.html)
+    
+-   Повертає різницю між двома об'єктами DateTime
+    
 
 # DateTimeInterface::diff
 
-#date_diff
+# DateTimeImmutable::diff
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+# DateTime::diff
 
-DateTime::diff -- DateTimeImmutable::diff -- DateTimeInterface::diff --
-date_diff — Повертає різницю між двома об'єктами DateTime
+# datediff
+
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
+
+DateTimeInterface::diff -- DateTimeImmutable::diff -- DateTime::diff -- datediff — Повертає різницю між двома об'єктами DateTime
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public
-**DateTime::diff**([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` = **`false`**):
-[DateInterval](class.dateinterval.md)
+```methodsynopsis
+public DateTimeInterface::diff(DateTimeInterface $targetObject, bool $absolute = false): DateInterval
+```
 
-public
-**DateTimeImmutable::diff**([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` = **`false`**):
-[DateInterval](class.dateinterval.md)
+```methodsynopsis
+public DateTimeImmutable::diff(DateTimeInterface $targetObject, bool $absolute = false): DateInterval
+```
 
-public
-**DateTimeInterface::diff**([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` = **`false`**):
-[DateInterval](class.dateinterval.md)
+```methodsynopsis
+public DateTime::diff(DateTimeInterface $targetObject, bool $absolute = false): DateInterval
+```
 
 Процедурний стиль
 
-[date_diff](function.date-diff.md)([DateTimeInterface](class.datetimeinterface.md)
-`$baseObject`, [DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` = **`false`**):
-[DateInterval](class.dateinterval.md)
+```methodsynopsis
+date_diff(DateTimeInterface $baseObject, DateTimeInterface $targetObject, bool $absolute = false): DateInterval
+```
 
-Повертає різницю між двома об'єктами
-[DateTimeInterface](class.datetimeinterface.md).
+Повертає різницю між двома об'єктами [DateTimeInterface](class.datetimeinterface.html)
 
 ### Список параметрів
 
 `datetime`
+
 Дата та час для порівняння.
 
 `absolute`
-Використовується, щоб відновити абсолютну різницю.
+
+Використовується, щоб повернути абсолютну різницю.
 
 ### Значення, що повертаються
 
-[DateInterval](class.dateinterval.md) об'єкт представляє різницю
-між двома датами або **`false`** у разі виникнення помилки.
+[DateInterval](class.dateinterval.html) об'єкт представляє різницю між двома датами.
 
-Значення, що повертається, більш конкретно представляє інтервал для
-застосування до вихідного об'єкта (`$this` або `$originObject`), щоб
-прийти до $targetObject. Цей процес не завжди оборотний.
+Значення, що повертається, більш конкретно представляє інтервал для застосування до вихідного об'єкта (`$this` або `$originObject`), щоб прийти до `$targetObject`. Цей процес не завжди оборотний.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTime::diff()****
+**Приклад #1 Приклад використання **DateTimeImmutable::diff()****
 
 Об'єктно-орієнтований стиль
 
-` <?php$origin = new DateTime('2009-10-11');$target = new DateTime('2009-10-13');$interval = $origin->diff($target);echo $interval ->format('%R%a днів');?> `
+```php
+<?php
+$origin = new DateTimeImmutable('2009-10-11');
+$target = new DateTimeImmutable('2009-10-13');
+$interval = $origin->diff($target);
+echo $interval->format('%R%a дней');
+?>
+```
 
 Процедурний стиль
 
-` <?php$origin = date_create('2009-10-11');$target = date_create('2009-10-13');$interval = date_diff($origin, $target);echo $interval->format ('%R%a днів');?> `
+```php
+<?php
+$origin = date_create('2009-10-11');
+$target = date_create('2009-10-13');
+$interval = date_diff($origin, $target);
+echo $interval->format('%R%a дней');
+?>
+```
 
 Результат виконання даних прикладів:
 
-+2 дні
+```
++2 days
+```
 
-**Приклад #2 Порівняння об'єктів [DateTime](class.datetime.md)**
+**Приклад #2 Порівняння об'єктів [DateTime](class.datetime.html)**
 
-> **Примітка**:
->
-> Об'єкти DateTime можуть порівнюватися за допомогою [операторів > порівняння](language.operators.comparison.md).
+> **Зауваження**
+> 
+> Об'єкти [DateTimeImmutable](class.datetimeimmutable.html) і [DateTime](class.datetime.html) можуть порівнюватися за допомогою [операторов сравнения](language.operators.comparison.html)
 
-` <?php$date1 = new DateTime("now");$date2 = new DateTime("tomorrow");var_dump($date1 == $date2);var_dump($date1 < $date2);var_dump> $date2);?> `
+```php
+<?php
+$date1 = new DateTime("now");
+$date2 = new DateTime("tomorrow");
+
+var_dump($date1 == $date2);
+var_dump($date1 < $date2);
+var_dump($date1 > $date2);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [DateInterval::format()](dateinterval.format.md) - Форматує
-інтервал
-- [DateTime::add()](datetime.add.md) - Змінює об'єкт DateTime,
-додаючи кількість днів, місяців, років, годин, хвилин та секунд
-- [DateTime::sub()](datetime.sub.md) - Віднімає задану кількість
-днів, місяців, років, годин, хвилин та секунд з часу об'єкту
-DateTime
+-   [DateInterval::format()](dateinterval.format.html) - Форматує інтервал
+-   [DateTime::add()](datetime.add.html) - Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTime::sub()](datetime.sub.html) - Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.

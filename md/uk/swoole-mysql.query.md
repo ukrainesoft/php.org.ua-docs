@@ -1,20 +1,27 @@
-- [« Swoole\MySQL::on](swoole-mysql.on.md)
-- [Swoole\MySQL\Exception »](class.swoole-mysql-exception.md)
+Виконує запит SQL
 
-- [PHP Manual](index.md)
-- [Swoole\MySQL](class.swoole-mysql.md)
-- Виконує запит SQL
+-   [« Swoole\\MySQL::on](swoole-mysql.on.html)
+    
+-   [Swoole\\MySQL\\Exception »](class.swoole-mysql-exception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\MySQL](class.swoole-mysql.html)
+    
+-   Виконує запит SQL
+    
 
-# Swoole\MySQL::query
+# SwooleMySQL::query
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\MySQL::query — Виконує запит SQL
+SwooleMySQL::query — Виконує запит SQL
 
 ### Опис
 
-public **Swoole\MySQL::query**(string `$sql`,
-[callable](language.types.callable.md) `$callback`): ReturnType
+```methodsynopsis
+public Swoole\MySQL::query(string $sql, callable $callback): ReturnType
+```
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.md)
-- [mysql_xdevapi\CollectionFind »](class.mysql-xdevapi-collectionfind.md)
+Виконує затвердження
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionAdd](class.mysql-xdevapi-collectionadd.md)
-- Виконує затвердження
+-   [« CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.html)
+    
+-   [mysql\_xdevapi\\CollectionFind »](class.mysql-xdevapi-collectionfind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html)
+    
+-   Виконує затвердження
+    
 
 # CollectionAdd::execute
 
@@ -13,11 +19,11 @@ CollectionAdd::execute — Виконує затвердження
 
 ### Опис
 
-public **mysql_xdevapi\CollectionAdd::execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionAdd::execute(): mysql_xdevapi\Result
+```
 
-Метод execute необхідний для надсилання запиту операції CRUD на сервер
-MySQL.
+Метод execute необхідний відправки запиту операції CRUD на сервер MySQL.
 
 ### Список параметрів
 
@@ -25,20 +31,55 @@ MySQL.
 
 ### Значення, що повертаються
 
-Об'єкт Result, який можна використовувати для перевірки стану
-операції, наприклад, кількості порушених рядків.
+Об'єкт Result, який можна використовувати для перевірки стану операції, наприклад кількості порушених рядків.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionAdd::execute()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionAdd::execute()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$collection = $schema->get people");// Добавляємо два документи$collection ->add('{"name": "Fred",  "age": 21, "job": "Construction"}')  ->execute();$collection >add('{"name": "Wilma", "age": 23, "job": "Teacher"}') ->execute();// Додаємо два документи, використовуючи один об'єкт JSON$result ->add(   '{"name": "Bernie",      "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0 }],    "hobbies": ["Sports","Making cupcakes"]}',   '{"name": "Jane",      "jobs": [{"title":"Sciry , {"title":"Mother","Salary":0}],     "hobbies": ["Walking","Making pies"]}') ->execute();// Отримуємо список згенерованих ідентифікації виконання add()$ids = $result->getGeneratedIds();print_r($ids);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
+
+$collection = $schema->getCollection("people");
+
+// Добавляем два документа
+$collection
+  ->add('{"name": "Fred",  "age": 21, "job": "Construction"}')
+  ->execute();
+
+$collection
+  ->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')
+  ->execute();
+
+// Добавляем два документа, используя один объект JSON
+$result = $collection
+  ->add(
+    '{"name": "Bernie",
+      "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0}],
+      "hobbies": ["Sports","Making cupcakes"]}',
+    '{"name": "Jane",
+      "jobs": [{"title":"Scientist","Salary":18000}, {"title":"Mother","Salary":0}],
+      "hobbies": ["Walking","Making pies"]}')
+  ->execute();
+
+// Получаем список сгенерированных идентификаторов из последнего выполнения add()
+$ids = $result->getGeneratedIds();
+print_r($ids);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => 00005b6b5361000000000000056
-[1] => 00005b6b5361000000000000057
+    [0] => 00005b6b53610000000000000056
+    [1] => 00005b6b53610000000000000057
 )
+```

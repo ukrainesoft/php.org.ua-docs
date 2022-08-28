@@ -1,31 +1,34 @@
-- [«eio_readlink](function.eio-readlink.md)
-- [eio_rename »](function.eio-rename.md)
+Отримує абсолютний приведений до канонічного виду шлях
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Отримує абсолютний приведений до канонічного виду шлях
+-   [« eio\_readlink](function.eio-readlink.html)
+    
+-   [eio\_rename »](function.eio-rename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Отримує абсолютний приведений до канонічного виду шлях
+    
 
-#eio_realpath
+# eiorealpath
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_realpath - Отримує абсолютний приведений до канонічного виду шлях
+eiorealpath - Отримує абсолютний приведений до канонічного виду шлях
 
 ### Опис
 
-**eio_realpath**(
-string `$path`,
-int `$pri`,
-[callable](language.types.callable.md) `$callback`,
-string `$data` = NULL
-): resource
+```methodsynopsis
+eio_realpath(    string $path,    int $pri,    callable $callback,    string $data = NULL): resource
+```
 
-**eio_realpath()** повертає абсолютний шлях через аргумент `result`
-функції `callback`.
+**eiorealpath()** повертає абсолютний шлях через аргумент `result` функції `callback`
 
 ### Список параметрів
 
 `path`
+
 Короткий чи відносний шлях
 
 `pri`
@@ -38,11 +41,24 @@ string `$data` = NULL
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eio_realpath()****
+**Приклад #1 Приклад використання **eiorealpath()****
 
-` <?phpvar_dump(getcwd());function my_realpath_allback($data, $result) {   var_dump($result);}eio_realpath("../", EIO_PRI_DEFAULT, "my_realpath_alle"?
+```php
+<?php
+var_dump(getcwd());
+
+function my_realpath_allback($data, $result) {
+    var_dump($result);
+}
+
+eio_realpath("../", EIO_PRI_DEFAULT, "my_realpath_allback");
+eio_event_loop();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(12) "/home/ruslan"
 string(5) "/home"
+```

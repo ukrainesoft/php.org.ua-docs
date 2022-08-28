@@ -1,9 +1,15 @@
-- [« mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md)
-- [BaseResult::getWarningsCount »](mysql-xdevapi-baseresult.getwarningscount.md)
+Отримує попередження останньої операції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md)
-- отримує попередження останньої операції
+-   [« mysql\_xdevapi\\BaseResult](class.mysql-xdevapi-baseresult.html)
+    
+-   [BaseResult::getWarningsCount »](mysql-xdevapi-baseresult.getwarningscount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\BaseResult](class.mysql-xdevapi-baseresult.html)
+    
+-   Отримує попередження останньої операції
+    
 
 # BaseResult::getWarnings
 
@@ -13,10 +19,11 @@ BaseResult::getWarnings — Отримує попередження останн
 
 ### Опис
 
-abstract public **mysql_xdevapi\BaseResult::getWarnings**(): array
+```methodsynopsis
+abstract public mysql_xdevapi\BaseResult::getWarnings(): array
+```
 
-Отримує попередження, згенеровані останньою операцією сервера
-MySQL.
+Отримує попередження згенеровані останньою операцією сервера MySQL.
 
 ### Список параметрів
 
@@ -24,31 +31,47 @@ MySQL.
 
 ### Значення, що повертаються
 
-Масив об'єктів Warning останньої операції. Кожен об'єкт містить
-повідомлення про помилку ('message'), рівень помилки ('level') та код помилки
-('Code'). Повертається порожній масив якщо помилок немає.
+Масив об'єктів Warning останньої операції. Кожен об'єкт містить повідомлення про помилку ('message'), рівень помилки ('level') та код помилки ('code'). Повертається порожній масив, якщо помилок немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\RowResult::getWarnings()****
+**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getWarnings()****
 
-` <?php$session== mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("CREATE DATABASE foo")->execute();$session->sql("CREATE TABLE foo.test_table(x int)")->execute();$schema = $session->getSchema("foo");$table  = $schema->getTable("test_table");$table->insert( ['x'])->values([1])->values([2])->execute();$res = $table->select(['x/0 as bad_x'])->execute ();$warnings = $res->getWarnings();print_r($warnings);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+
+$schema = $session->getSchema("foo");
+$table  = $schema->getTable("test_table");
+
+$table->insert(['x'])->values([1])->values([2])->execute();
+
+$res = $table->select(['x/0 as bad_x'])->execute();
+$warnings = $res->getWarnings();
+
+print_r($warnings);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => mysql_xdevapi\Warning Object
-(
-[message] => Division by 0
-[level] => 2
-[code] => 1365
+    [0] => mysql_xdevapi\Warning Object
+        (
+            [message] => Division by 0
+            [level] => 2
+            [code] => 1365
+        )
+    [1] => mysql_xdevapi\Warning Object
+        (
+            [message] => Division by 0
+            [level] => 2
+            [code] => 1365
+        )
 )
-[1] => mysql_xdevapi\Warning Object
-(
-[message] => Division by 0
-[level] => 2
-[code] => 1365
-)
-)
+```

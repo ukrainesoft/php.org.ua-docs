@@ -1,62 +1,76 @@
-- [«xdiff_file_bdiff](function.xdiff-file-bdiff.md)
-- [xdiff_file_diff_binary »](function.xdiff-file-diff-binary.md)
+Застосувати бінарний патч до файлу
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Застосувати бінарний патч до файлу
+-   [« xdiff\_file\_bdiff](function.xdiff-file-bdiff.html)
+    
+-   [xdiff\_file\_diff\_binary »](function.xdiff-file-diff-binary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции xdiff](ref.xdiff.html)
+    
+-   Застосувати бінарний патч до файлу
+    
 
-#xdiff_file_bpatch
+# xdifffilebpatch
 
-(PECL xdiff \>= 1.5.0)
+(PECL xdiff >= 1.5.0)
 
-xdiff_file_bpatch — Застосувати бінарний патч до файлу
+xdifffilebpatch — Застосувати бінарний патч до файлу
 
 ### Опис
 
-**xdiff_file_bpatch**(string `$file`, string `$patch`, string `$dest`):
-bool
+```methodsynopsis
+xdiff_file_bpatch(string $file, string $patch, string $dest): bool
+```
 
-Застосувати до файлу `file` патч `patch` і записати результат у файл
-`dest`. Ця функція приймає патчі, створені як
-[xdiff_file_bdiff()](function.xdiff-file-bdiff.md) так і
-[xdiff_file_rabdiff()](function.xdiff-file-rabdiff.md) або їх
-копії.
+Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі, створені як [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html) так і [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html) або їх копії.
 
 ### Список параметрів
 
 `file`
+
 Оригінальний файл.
 
 `patch`
+
 Файл бінарний патч.
 
 `dest`
+
 Підсумковий файл.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_file_bpatch()****
+**Приклад #1 Приклад використання **xdifffilebpatch()****
 
-У цьому коді показано застосування бінарного патча до файлу.
+У наступному коді показано застосування бінарного патчу до файлу.
 
-` <?php$old_version = 'archive-1.0.tgz';$patch = 'archive.bpatch';$result = xdiff_file_bpatch($old_version, $patch, 'archive-1.1.tgz');if ($result) { echo "Файл пропатчений";} else {   echo "Файл не може бути пропатчений";}?> `
+```php
+<?php
+$old_version = 'archive-1.0.tgz';
+$patch = 'archive.bpatch';
+
+$result = xdiff_file_bpatch($old_version, $patch, 'archive-1.1.tgz');
+if ($result) {
+   echo "Файл пропатчен";
+} else {
+   echo "Файл не может быть пропатчен";
+}
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Обидва файли (`file` і `patch`) будуть завантажені на згадку, отже
-> Переконайтеся, що параметр memory_limit налаштований коректно.
+> **Зауваження**
+> 
+> Обидва файли (`file` і `patch`) будуть завантажені в пам'ять, так що переконайтеся, що параметр memorylimit налаштовано коректно.
 
 ### Дивіться також
 
-- [xdiff_file_bdiff()](function.xdiff-file-bdiff.md) - Створити
-бінарний патч порівнюючи два файли
-- [xdiff_file_rabdiff()](function.xdiff-file-rabdiff.md) - Створити
-бінарний патч порівнюючи два файли за допомогою поліномінального
-алгоритму Rabin fingerprinting
+-   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html) - Створити бінарний патч порівнюючи два файли
+-   [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting

@@ -1,15 +1,21 @@
-- [«Вступ](intro.apcu.md)
-- [Вимоги »](apcu.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [APCu](book.apcu.md)
+-   [« Введение](intro.apcu.html)
+    
+-   [Требования »](apcu.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [APCu](book.apcu.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](apcu.requirements.md)
-- [Установка](apcu.installation.md)
-- [Налаштування під час виконання](apcu.configuration.md)
-- [Типи ресурсів](apcu.resources.md)
+-   [Требования](apcu.requirements.html)
+-   [Установка](apcu.installation.html)
+-   [Настройка во время выполнения](apcu.configuration.html)
+-   [Типы ресурсов](apcu.resources.html)

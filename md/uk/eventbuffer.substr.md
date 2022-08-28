@@ -1,37 +1,51 @@
-- [«EventBuffer::searchEol](eventbuffer.searcheol.md)
-- [EventBuffer::unfreeze »](eventbuffer.unfreeze.md)
+Обрізає частину даних буфера
 
-- [PHP Manual](index.md)
-- [EventBuffer](class.eventbuffer.md)
-- обрізає частину даних буфера
+-   [« EventBuffer::searchEol](eventbuffer.searcheol.html)
+    
+-   [EventBuffer::unfreeze »](eventbuffer.unfreeze.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBuffer](class.eventbuffer.html)
+    
+-   Обрізає частину даних буфера
+    
 
 # EventBuffer::substr
 
-(PECL event \>= 1.6.0)
+(PECL event >= 1.6.0)
 
 EventBuffer::substr — Обрізає частину даних буфера
 
 ### Опис
 
-public **EventBuffer::substr**( int `$start` , int `$length` = ?):
-string
+```methodsynopsis
+public
+   EventBuffer::substr(
+    int
+     $start
+   , 
+    int
+     $length
+    = ?): string
+```
 
-Обрізає до `length` байтів даних буфера, починаючи з позиції `start`.
+Обрізає до `length` байтів даних буфера, починаючи з позиції `start`
 
 ### Список параметрів
 
 `start`
-Початкова позиція даних обрізання.
+
+Початкова позиція даних, що підлягають обрізанню.
 
 `length`
+
 Максимальна кількість байтів для обрізання.
 
 ### Значення, що повертаються
 
-Повертає дані, віднімені у вигляді рядка (string) у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Повертає дані, вираховані у вигляді рядка (string) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBuffer::read()](eventbuffer.read.md) - Читає дані з
-evbuffer і виснажує прочитані байти
+-   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти

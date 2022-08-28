@@ -1,25 +1,31 @@
-- [« ReflectionExtension::info](reflectionextension.info.md)
-- [ReflectionExtension::isTemporary »](reflectionextension.istemporary.md)
+Визначає, чи модуль постійним
 
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Визначає, чи модуль є постійним
+-   [« ReflectionExtension::info](reflectionextension.info.html)
+    
+-   [ReflectionExtension::isTemporary »](reflectionextension.istemporary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionExtension](class.reflectionextension.html)
+    
+-   Визначає, чи модуль постійним
+    
 
 # ReflectionExtension::isPersistent
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionExtension::isPersistent — Визначає, чи є модуль
-постійним
+ReflectionExtension::isPersistent — Визначає, чи модуль постійний
 
 ### Опис
 
-public **ReflectionExtension::isPersistent**(): bool
+```methodsynopsis
+public ReflectionExtension::isPersistent(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,11 +33,8 @@ public **ReflectionExtension::isPersistent**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** для модулів, що завантажуються через ini-налаштування
-[`extension`](ini.core.md#ini.extension), **`false`** у протилежному
-випадку.
+Повертає **`true`** для модулів, що завантажуються через ini-налаштування [`extension`](ini.core.html#ini.extension) **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionExtension::isTemporary()](reflectionextension.istemporary.md) -
-Визначає, чи модуль тимчасовим
+-   [ReflectionExtension::isTemporary()](reflectionextension.istemporary.html) - Визначає, чи модуль тимчасовим

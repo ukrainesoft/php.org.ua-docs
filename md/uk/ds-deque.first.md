@@ -1,20 +1,27 @@
-- [« Ds\Deque::find](ds-deque.find.md)
-- [Ds\Deque::get »](ds-deque.get.md)
+Повертає перший елемент двосторонньої черги
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає перший елемент двосторонньої черги
+-   [« Ds\\Deque::find](ds-deque.find.html)
+    
+-   [Ds\\Deque::get »](ds-deque.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає перший елемент двосторонньої черги
+    
 
-# Ds\Deque::first
+# ДсDeque::first
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::first — Повертає перший елемент двосторонньої черги
+ДсDeque::first — Повертає перший елемент двосторонньої черги
 
 ### Опис
 
-public **Ds\Deque::first**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::first(): mixed
+```
 
 Повертає перший елемент двосторонньої черги.
 
@@ -28,16 +35,21 @@ public **Ds\Deque::first**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо двостороння
-черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.html)якщо двостороння черга порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::first()****
+**Приклад #1 Приклад використання **ДсDeque::first()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->first());?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+var_dump($deque->first());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1)
+```

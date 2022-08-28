@@ -1,20 +1,27 @@
-- [« Swoole\Table::get](swoole-table.get.md)
-- [Swoole\Table::key »](swoole-table.key.md)
+Збільшує значення $rowkey та $columnkey
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Збільшує значення за $row_key та $column_key
+-   [« Swoole\\Table::get](swoole-table.get.html)
+    
+-   [Swoole\\Table::key »](swoole-table.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Збільшує значення $rowkey та $columnkey
+    
 
-# Swoole\Table::incr
+# SwooleTable::incr
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::incr — Збільшує значення $row_key і $column_key
+SwooleTable::incr — Збільшує значення $rowkey та $columnkey
 
 ### Опис
 
-public **Swoole\Table::incr**(string `$key`, string `$column`, int
-`$incrby` = ?): void
+```methodsynopsis
+public Swoole\Table::incr(string $key, string $column, int $incrby = ?): void
+```
 
 ### Список параметрів
 

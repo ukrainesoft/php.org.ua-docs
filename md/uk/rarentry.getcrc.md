@@ -1,22 +1,29 @@
-- [« RarEntry::getAttr](rarentry.getattr.md)
-- [RarEntry::getFileTime »](rarentry.getfiletime.md)
+Повертає CRC елемент архіву
 
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Повертає CRC елемент архіву
+-   [« RarEntry::getAttr](rarentry.getattr.html)
+    
+-   [RarEntry::getFileTime »](rarentry.getfiletime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RarEntry](class.rarentry.html)
+    
+-   Повертає CRC елемент архіву
+    
 
 # RarEntry::getCrc
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
-RarEntry::getCrc — Повертає CRC елемента архіву
+RarEntry::getCrc — Повертає CRC елемент архіву
 
 ### Опис
 
-public **RarEntry::getCrc**(): string
+```methodsynopsis
+public RarEntry::getCrc(): string
+```
 
-Повертає шістнадцяткове рядкове представлення CRC елемента
-архів.
+Повертає шістнадцяткове рядкове представлення CRC елемента архіву.
 
 ### Список параметрів
 
@@ -24,11 +31,10 @@ public **RarEntry::getCrc**(): string
 
 ### Значення, що повертаються
 
-Повертає CRC елемента архіву або **`false`** у разі виникнення
-помилки.
+Повертає CRC елемента архіву або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія         | Опис                                                             |
-|----------------|------------------------------------------------------------------|
+| Версия | Описание |
+| --- | --- |
 | PECL rar 2.0.0 | Тепер цей метод повертає коректні значення багатотомних архівів. |

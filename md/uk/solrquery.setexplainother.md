@@ -1,30 +1,36 @@
-- [«SolrQuery::setExpandRows](solrquery.setexpandrows.md)
-- [SolrQuery::setFacet »](solrquery.setfacet.md)
+Встановлює загальний параметр запиту explainOther
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює загальний параметр запиту explainOther
+-   [« SolrQuery::setExpandRows](solrquery.setexpandrows.html)
+    
+-   [SolrQuery::setFacet »](solrquery.setfacet.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює загальний параметр запиту explainOther
+    
 
 # SolrQuery::setExplainOther
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setExplainOther — Встановлює загальний параметр запиту
-explainOther
+SolrQuery::setExplainOther — Встановлює загальний параметр запиту explainOther
 
 ### Опис
 
-public **SolrQuery::setExplainOther**(string `$query`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setExplainOther(string $query): SolrQuery
+```
 
 Встановлює загальний параметр запиту explainOther
 
 ### Список параметрів
 
 `query`
+
 Запит Lucene для ідентифікації набору документів
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

@@ -1,16 +1,18 @@
-- [«DBA](book.dba.md)
-- [Встановлення та налаштування »](dba.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [DBA](book.dba.md)
+-   [« DBA](book.dba.html)
+    
+-   [Установка и настройка »](dba.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DBA](book.dba.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Ці функції є основою доступу до баз даних типу Berkeley
-DB.
+Ці функції є основою доступу до баз даних типу Berkeley DB.
 
-Це є головний рівень абстракції для файлових баз даних. Таким чином,
-функціональність обмежена загальним підмножиною функцій підтримуваних
-сучасними базами даних такими як Oracle Oracle Berkeley
-DB](https://www.oracle.com/database/berkeley-db/db.md).
+Це основний рівень абстракції для файлових баз даних. Таким чином, функціональність обмежена загальним підмножиною функцій, що підтримуються сучасними базами даних такими як [» Oracle Berkeley DB](https://www.oracle.com/database/berkeley-db/db.html)

@@ -1,22 +1,29 @@
-- [« Phar::getMetadata](phar.getmetadata.md)
-- [Phar::getPath »](phar.getpath.md)
+Визначити, чи змінювався phar-архів
 
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Визначити, чи змінювався phar-архів
+-   [« Phar::getMetadata](phar.getmetadata.html)
+    
+-   [Phar::getPath »](phar.getpath.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](class.phar.html)
+    
+-   Визначити, чи змінювався phar-архів
+    
 
 # Phar::getModified
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
 Phar::getModified — Визначити, чи змінювався phar-архів
 
 ### Опис
 
-public **Phar::getModified**(): bool
+```methodsynopsis
+public Phar::getModified(): bool
+```
 
-Цей метод використовується для визначення, чи змінювалося щось у
-phar-архіві.
+Цей метод використовується для визначення, чи щось змінювалося в phar-архіві.
 
 ### Список параметрів
 
@@ -24,5 +31,4 @@ phar-архіві.
 
 ### Значення, що повертаються
 
-**`true`**, якщо архів після відкриття змінювався і **`false`**, в
-інакше.
+**`true`**, якщо архів після відкриття змінювався та **`false`**, в іншому випадку.

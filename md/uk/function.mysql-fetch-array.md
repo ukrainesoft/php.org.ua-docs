@@ -1,106 +1,126 @@
-- [«mysql_escape_string](function.mysql-escape-string.md)
-- [mysql_fetch_assoc »](function.mysql-fetch-assoc.md)
+Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- обробляє ряд результатів запиту, повертаючи асоціативний масив,
-чисельний масив чи обидва
+-   [« mysql\_escape\_string](function.mysql-escape-string.html)
+    
+-   [mysql\_fetch\_assoc »](function.mysql-fetch-assoc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
+    
 
-# mysql_fetch_array
+# mysqlfetcharray
 
 (PHP 4, PHP 5)
 
-mysql_fetch_array — Обробляє ряд результатів запиту, повертаючи
-асоціативний масив, чисельний масив або обидва
+mysqlfetcharray - Обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_fetch_array()](mysqli-result.fetch-array.md)
-- [PDOStatement::fetch()](pdostatement.fetch.md)
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html)
+-   [PDOStatement::fetch()](pdostatement.fetch.html)
 
 ### Опис
 
-**mysql_fetch_array**(resource `$result`, int `$result_type` =
-MYSQL_BOTH): array
+```methodsynopsis
+mysql_fetch_array(resource $result, int $result_type = MYSQL_BOTH): array
+```
 
-Повертає масив, що відповідає обробленому ряду результату запиту
-і зсуває внутрішній покажчик даних уперед.
+Повертає масив, що відповідає обробленому ряду результату запиту та зсуває внутрішній покажчик даних уперед.
 
 ### Список параметрів
 
 `result`
-Оброблюваний [результат запита](language.types.resource.md). Цей
-результат може бути отриманий за допомогою функції
-[mysql_query()](function.mysql-query.md).
+
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
 
 `result_type`
-Тип масиву, що повертається. Є константою і може приймати
-наступні значення: **`MYSQL_ASSOC`**, **`MYSQL_NUM`** та
-**`MYSQL_BOTH`**.
+
+Тип масива, що повертається. Є константою і може приймати такі значення: **`MYSQL_ASSOC`** **`MYSQL_NUM`** і **`MYSQL_BOTH`**
 
 ### Значення, що повертаються
 
-Повертає масив рядків, що відповідають обробленому ряду результату
-запиту, або **`false`**, якщо рядів більше немає. Тип повертається
-масиву залежить від значення параметра `result_type`. При використанні
-**`MYSQL_BOTH`** (за замовчуванням), ви отримаєте масив, що складається як з
-асоціативних індексів, і з чисельних. **`MYSQL_ASSOC`** поверне
-лише асоціативні індекси (аналогічно функції
-[mysql_fetch_assoc()](function.mysql-fetch-assoc.md)), а
-**`MYSQL_NUM`** - лише чисельні (аналогічно функції
-[mysql_fetch_row()](function.mysql-fetch-row.md)).
+Повертає масив рядків, що відповідають обробленому ряду результату запиту, або **`false`**якщо рядів більше немає. Тип масиву, що повертається, залежить від значення параметра `result_type`. При використанні **`MYSQL_BOTH`** (за умовчанням), ви отримаєте масив, що складається як з асоціативних індексів, так і з чисельних . **`MYSQL_ASSOC`** поверне лише асоціативні індекси (аналогічно функції [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html)), а **`MYSQL_NUM`** - лише чисельні (аналогічно функції [mysql\_fetch\_row()](function.mysql-fetch-row.html)
 
-Якщо кілька колонок в результаті матимуть однакові назви, то
-буде повернуто останню колонку. Щоб отримати доступ до інших
-колонкам з тим же ім'ям, використовуйте чисельні індекси масиву або
-псевдоніми у запиті. У разі псевдонімів використовуйте саме їх – ви не
-Ви можете використовувати справжні імена колонок.
+Якщо кілька колонок в результаті матимуть однакові назви, то буде повернуто останню колонку. Щоб отримати доступ до інших колонок з тим самим ім'ям, використовуйте чисельні індекси масиву або псевдоніми у запиті. У разі псевдонімів використовуйте саме їх – ви не зможете використати справжні імена колонок.
 
 ### Приклади
 
-**Приклад #1 Запит із застосуванням псевдонімів для імен, що дублюються.
-колонок**
+**Приклад #1 Запит із застосуванням псевдонімів для імен колонок, що дублюються.**
 
-`` sqlcode
 SELECT table1.field AS foo, table2.field AS bar FROM table1, table2
-````
 
-**Приклад #2 **mysql_fetch_array()** з **`MYSQL_NUM`****
+**Приклад #2 **mysqlfetcharray()** з **`MYSQL_NUM`****
 
-`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result = mysql  ");while ($row = mysql_fetch_array($result, MYSQL_NUM)) {    printf("ID: %s  Ім'я: %s", $row[0], $row[1]);}mysql_free_result ?> `
+```php
+<?php
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Ошибка соединения: " . mysql_error());
+mysql_select_db("mydb");
 
-**Приклад #3 **mysql_fetch_array()** з **`MYSQL_ASSOC`****
+$result = mysql_query("SELECT id, name FROM mytable");
 
-`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result = mysql  ");while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {    printf("ID: %s  Ім'я: %s", $row["id"], $row["name"]);}my__ $result);?> `
+while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
+    printf("ID: %s  Имя: %s", $row[0], $row[1]);
+}
 
-**Приклад #4 **mysql_fetch_array()** з **`MYSQL_BOTH`****
+mysql_free_result($result);
+?>
+```
 
-`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result = mysql  ");while($row = mysql_fetch_array($result, MYSQL_BOTH)) {    printf ("ID: %s  Ім'я: %s", $row[0], $row["name"]);}my$_result );?> `
+**Приклад #3 **mysqlfetcharray()** з **`MYSQL_ASSOC`****
+
+```php
+<?php
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Ошибка соединения: " . mysql_error());
+mysql_select_db("mydb");
+
+$result = mysql_query("SELECT id, name FROM mytable");
+
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+    printf("ID: %s  Имя: %s", $row["id"], $row["name"]);
+}
+
+mysql_free_result($result);
+?>
+```
+
+**Приклад #4 **mysqlfetcharray()** з **`MYSQL_BOTH`****
+
+```php
+<?php
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Ошибка соединения: " . mysql_error());
+mysql_select_db("mydb");
+
+$result = mysql_query("SELECT id, name FROM mytable");
+
+while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
+    printf ("ID: %s  Имя: %s", $row[0], $row["name"]);
+}
+
+mysql_free_result($result);
+?>
+```
 
 ### Примітки
 
-> **Примітка**: **Продуктивність**
->
-> Важливо, що **mysql_fetch_array()** працює *незначно*
-> повільніше, ніж [mysql_fetch_row()](function.mysql-fetch-row.md),
-> водночас надаючи набагато більш зручний доступ до даних.
+> **Зауваження** **Продуктивність**
+> 
+> Важливо зауважити, що **mysqlfetcharray()** працює *незначно* повільніше, ніж [mysql\_fetch\_row()](function.mysql-fetch-row.html), в той же час надаючи набагато більш зручний доступ до даних.
 
-> **Примітка**: Імена полів, що повертаються цією функцією,
-> *залежними від регістру*.
+> **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
-> **Примітка**: Ця функція встановлює NULL-поля у значення
-> **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
 ### Дивіться також
 
-- [mysql_fetch_row()](function.mysql-fetch-row.md) - Обробляє
-ряд результату запиту та повертає масив з числовими індексами
-- [mysql_fetch_assoc()](function.mysql-fetch-assoc.md) - Повертає
-ряд результату запиту як асоціативний масив
-- [mysql_data_seek()](function.mysql-data-seek.md) - Переміщує
-внутрішній покажчик в результаті запиту
-- [mysql_query()](function.mysql-query.md) - Надсилає запит MySQL
+-   [mysql\_fetch\_row()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_data\_seek()](function.mysql-data-seek.html) - Переміщує внутрішній покажчик у результаті запиту
+-   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL

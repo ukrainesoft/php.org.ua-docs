@@ -1,49 +1,60 @@
-- [«class_exists](function.class-exists.md)
-- [get_called_class »](function.get-called-class.md)
+Перевіряє, чи визначено перерахування
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Перевіряє, чи визначено перерахування
+-   [« class\_exists](function.class-exists.html)
+    
+-   [get\_called\_class »](function.get-called-class.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Перевіряє, чи визначено перерахування
+    
 
-#enum_exists
+# enumexists
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-enum_exists — Перевіряє, чи визначено перерахування
+enumexists — Перевіряє, чи визначено перерахування
 
 ### Опис
 
-**enum_exists**(string `$enum`, bool `$autoload` = **`true`**): bool
+```methodsynopsis
+enum_exists(string $enum, bool $autoload = true): bool
+```
 
 Функція перевіряє, чи визначено цей перелік.
 
 ### Список параметрів
 
 `enum`
+
 Ім'я переліку. Ім'я зіставляється без урахування регістру.
 
 `autoload`
-Чи слід викликати [\_\_autoload](language.oop5.autoload.md)
-замовчуванням.
+
+Чи слід викликати [\_\_autoload](language.oop5.autoload.html) за замовчуванням.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо перерахування `enum` визначено або
-**`false`** інакше.
+Повертає **`true`**, якщо перерахування `enum` визначено або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enum_exists()****
+**Приклад #1 Приклад використання **enumexists()****
 
-`<?php// Переконайтеся, що перерахування існує, перш чем намагатися його використовуватиif (enum_exists(Suit::class)) {    $myclass = Suit::Hearts;}>
+```php
+<?php
+// Убедитесь, что перечисление существует, прежде чем пытаться его использовать
+if (enum_exists(Suit::class)) {
+    $myclass = Suit::Hearts;
+}
+?>
+```
 
 ### Дивіться також
 
-- [function_exists()](function.function-exists.md) - Повертає
-true, якщо зазначена функція визначена
-- [class_exists()](function.class-exists.md) - Перевіряє, чи був він
-оголошено клас
-- [interface_exists()](function.interface-exists.md) - Перевіряє,
-чи визначено інтерфейс
-- [get_declared_classes()](function.get-declared-classes.md) -
-Повертає масив із іменами оголошених класів
+-   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [class\_exists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
+-   [interface\_exists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
+-   [get\_declared\_classes()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів

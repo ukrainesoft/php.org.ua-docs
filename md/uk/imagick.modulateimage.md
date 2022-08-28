@@ -1,9 +1,15 @@
-- [« Imagick::minifyImage](imagick.minifyimage.md)
-- [Imagick::montageImage »](imagick.montageimage.md)
+Керуйте яскравістю, насиченістю та відтінком
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Управляйте яскравістю, насиченістю та відтінком
+-   [« Imagick::minifyImage](imagick.minifyimage.html)
+    
+-   [Imagick::montageImage »](imagick.montageimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Керуйте яскравістю, насиченістю та відтінком
+    
 
 # Imagick::modulateImage
 
@@ -13,14 +19,11 @@ Imagick::modulateImage — Керуйте яскравістю, насичені
 
 ### Опис
 
-public **Imagick::modulateImage**(float `$brightness`, float
-`$saturation`, float `$hue`): bool
+```methodsynopsis
+public Imagick::modulateImage(float $brightness, float $saturation, float $hue): bool
+```
 
-Дозволяє керувати яскравістю, насиченістю та відтінком зображення.
-Відтінок – це відсоток абсолютного повороту від поточної позиції. Наприклад,
-50 призводить до повороту проти годинникової стрілки на 90 градусів, а 150 - до
-повороту за годинниковою стрілкою на 90 градусів, 0 і 200 - обидва призводять до
-повороту на 180 градусів.
+Дозволяє керувати яскравістю, насиченістю та відтінком зображення. Відтінок – це відсоток абсолютного повороту від поточної позиції. Наприклад, 50 призводить до повороту проти годинникової стрілки на 90 градусів, а 150 - повороту за годинниковою стрілкою на 90 градусів, 0 і 200 - обидва приводять до повороту на 180 градусів.
 
 ### Список параметрів
 
@@ -32,10 +35,20 @@ public **Imagick::modulateImage**(float `$brightness`, float
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::modulateImage()****
 
-`<?phpfunction modulateImage($imagePath, $hue, $brightness, $saturation) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->modulateImage($brightness, $saturation, $hue); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function modulateImage($imagePath, $hue, $brightness, $saturation) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->modulateImage($brightness, $saturation, $hue);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

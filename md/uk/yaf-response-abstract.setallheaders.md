@@ -1,24 +1,31 @@
-- [« Yaf_Response_Abstract::response](yaf-response-abstract.response.md)
-- [Yaf_Response_Abstract::setBody »](yaf-response-abstract.setbody.md)
+Призначення setAllHeaders
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- Призначення setAllHeaders
+-   [« Yaf\_Response\_Abstract::response](yaf-response-abstract.response.html)
+    
+-   [Yaf\_Response\_Abstract::setBody »](yaf-response-abstract.setbody.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+    
+-   Призначення setAllHeaders
+    
 
-# Yaf_Response_Abstract::setAllHeaders
+# YafResponseAbstract::setAllHeaders
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Response_Abstract::setAllHeaders — Призначення setAllHeaders
+YafResponseAbstract::setAllHeaders — Призначення setAllHeaders
 
 ### Опис
 
-protected **Yaf_Response_Abstract::setAllHeaders**(): void
+```methodsynopsis
+protected Yaf_Response_Abstract::setAllHeaders(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

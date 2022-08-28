@@ -1,71 +1,49 @@
-- [« SQLite3Result::reset](sqlite3result.reset.md)
-- [Вступ »](intro.sqlsrv.md)
+Драйвер СУБД Microsoft SQL Server для PHP
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-- Драйвер СУБД Microsoft SQL Server для PHP
+-   [« SQLite3Result::reset](sqlite3result.reset.html)
+    
+-   [Введение »](intro.sqlsrv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с базами данных отдельных производителей](refs.database.vendors.html)
+    
+-   Драйвер СУБД Microsoft SQL Server для PHP
+    
 
 # Драйвер СУБД Microsoft SQL Server для PHP
 
-- [Вступ](intro.sqlsrv.md)
-- [Встановлення та налаштування](sqlsrv.setup.md)
-- [Вимоги](sqlsrv.requirements.md)
-- [Установка](sqlsrv.installation.md)
-- [Налаштування під час виконання](sqlsrv.configuration.md)
-- [Типи ресурсів](sqlsrv.resources.md)
-- [Предвизначені константи](sqlsrv.constants.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- [sqlsrv_begin_transaction](function.sqlsrv-begin-transaction.md)
-- Починає транзакцію бази даних
-- [sqlsrv_cancel](function.sqlsrv-cancel.md) — скасовує оператор
-- [sqlsrv_client_info](function.sqlsrv-client-info.md) -
-Повертає інформацію про клієнта та зазначене підключення
-- [sqlsrv_close](function.sqlsrv-close.md) — Закриває відкрите
-з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
-- [sqlsrv_commit](function.sqlsrv-commit.md) - Фіксує
-транзакцію, розпочату за допомогою sqlsrv_begin_transaction
-- [sqlsrv_configure](function.sqlsrv-configure.md) — Змінює
-конфігурацію обробки помилок драйвера та ведення журналу
-- [sqlsrv_connect](function.sqlsrv-connect.md) — Відкриває
-з'єднання з базою даних Microsoft SQL Server
-- [sqlsrv_errors](function.sqlsrv-errors.md) — Повертає
-інформацію про помилку та попередження останньої виконаної
-операції SQLSRV
-- [sqlsrv_execute](function.sqlsrv-execute.md) — Виконує
-запит, підготовлений за допомогою sqlsrv_prepare
-- [sqlsrv_fetch_array](function.sqlsrv-fetch-array.md) -
-Повертає рядок як масив
-- [sqlsrv_fetch_object](function.sqlsrv-fetch-object.md) -
-Отримує наступний рядок даних у наборі результатів як об'єкт
-- [sqlsrv_fetch](function.sqlsrv-fetch.md) — Робить таку
-рядок у наборі результатів доступного для читання
-- [sqlsrv_field_metadata](function.sqlsrv-field-metadata.md) -
-Отримує метадані для полів оператора, підготовленого з
-за допомогою sqlsrv_prepare або sqlsrv_query
-- [sqlsrv_free_stmt](function.sqlsrv-free-stmt.md) — Визволяє
-всі ресурси для вказаного оператора
-- [sqlsrv_get_config](function.sqlsrv-get-config.md) -
-Повертає значення вказаного параметра конфігурації
-- [sqlsrv_get_field](function.sqlsrv-get-field.md) — Отримує
-дані поля з поточного вибраного рядка
-- [sqlsrv_has_rows](function.sqlsrv-has-rows.md) — Вказує,
-чи є у зазначеного оператора рядки
-- [sqlsrv_next_result](function.sqlsrv-next-result.md) - Робить
-активним наступний результат вказаного оператора
-- [sqlsrv_num_fields](function.sqlsrv-num-fields.md) — Витягує
-кількість полів (стовпців) оператора
-- [sqlsrv_num_rows](function.sqlsrv-num-rows.md) — Отримує
-кількість рядків у наборі результатів
-- [sqlsrv_prepare](function.sqlsrv-prepare.md) — Підготовка
-запит до виконання
-- [sqlsrv_query](function.sqlsrv-query.md) — Підготовка та
-виконує запит
-- [sqlsrv_rollback](function.sqlsrv-rollback.md) - Відкочує
-транзакцію, розпочату sqlsrv_begin_transaction
-- [sqlsrv_rows_affected](function.sqlsrv-rows-affected.md) -
-Повертає кількість рядків, змінених останнім виконаним
-запитом INSERT, UPDATE або DELETE
-- [sqlsrv_send_stream_data](function.sqlsrv-send-stream-data.md)
-— Надсилає дані із потоків параметрів на сервер
-- [sqlsrv_server_info](function.sqlsrv-server-info.md) -
-Повертає інформацію про сервер
+-   [Введение](intro.sqlsrv.html)
+-   [Установка и настройка](sqlsrv.setup.html)
+    -   [Требования](sqlsrv.requirements.html)
+    -   [Установка](sqlsrv.installation.html)
+    -   [Настройка во время выполнения](sqlsrv.configuration.html)
+    -   [Типы ресурсов](sqlsrv.resources.html)
+-   [Предопределённые константы](sqlsrv.constants.html)
+-   [Функции SQLSRV](ref.sqlsrv.html)
+    -   [sqlsrv\_begin\_transaction](function.sqlsrv-begin-transaction.html) - Починає транзакцію бази даних
+    -   [sqlsrv\_cancel](function.sqlsrv-cancel.html) — скасовує оператор
+    -   [sqlsrv\_client\_info](function.sqlsrv-client-info.html) — Повертає інформацію про клієнта та зазначене підключення
+    -   [sqlsrv\_close](function.sqlsrv-close.html) — Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням.
+    -   [sqlsrv\_commit](function.sqlsrv-commit.html) — Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
+    -   [sqlsrv\_configure](function.sqlsrv-configure.html) — Змінює конфігурацію обробки помилок драйвера та ведення журналу
+    -   [sqlsrv\_connect](function.sqlsrv-connect.html) — Відкриває з'єднання з базою даних Microsoft SQL Server
+    -   [sqlsrv\_errors](function.sqlsrv-errors.html) — Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+    -   [sqlsrv\_execute](function.sqlsrv-execute.html) — Виконує запит підготовлений за допомогою sqlsrvprepare
+    -   [sqlsrv\_fetch\_array](function.sqlsrv-fetch-array.html) — Повертає рядок як масив
+    -   [sqlsrv\_fetch\_object](function.sqlsrv-fetch-object.html) — Отримує наступний рядок даних у наборі результатів як об'єкт
+    -   [sqlsrv\_fetch](function.sqlsrv-fetch.html) — Робить наступний рядок у наборі результатів, доступних для читання.
+    -   [sqlsrv\_field\_metadata](function.sqlsrv-field-metadata.html) — Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
+    -   [sqlsrv\_free\_stmt](function.sqlsrv-free-stmt.html) — Звільняє всі ресурси для вказаного оператора
+    -   [sqlsrv\_get\_config](function.sqlsrv-get-config.html) — Повертає значення вказаного параметра конфігурації
+    -   [sqlsrv\_get\_field](function.sqlsrv-get-field.html) — Отримує дані поля з поточного вибраного рядка
+    -   [sqlsrv\_has\_rows](function.sqlsrv-has-rows.html) — Вказує, чи має зазначений оператор рядки
+    -   [sqlsrv\_next\_result](function.sqlsrv-next-result.html) — Робить активним наступний результат вказаного оператора
+    -   [sqlsrv\_num\_fields](function.sqlsrv-num-fields.html) — Витягує кількість полів (стовпців) оператора
+    -   [sqlsrv\_num\_rows](function.sqlsrv-num-rows.html) — Отримує кількість рядків у наборі результатів
+    -   [sqlsrv\_prepare](function.sqlsrv-prepare.html) — готує запит до виконання
+    -   [sqlsrv\_query](function.sqlsrv-query.html) — готує та виконує запит
+    -   [sqlsrv\_rollback](function.sqlsrv-rollback.html) — Відкочує транзакцію, розпочату sqlsrvbegintransaction
+    -   [sqlsrv\_rows\_affected](function.sqlsrv-rows-affected.html) — Повертає кількість рядків, змінених останнім запитом INSERT, UPDATE або DELETE
+    -   [sqlsrv\_send\_stream\_data](function.sqlsrv-send-stream-data.html) — Надсилає дані з потоків параметрів на сервер
+    -   [sqlsrv\_server\_info](function.sqlsrv-server-info.html) — Повертає інформацію про сервер

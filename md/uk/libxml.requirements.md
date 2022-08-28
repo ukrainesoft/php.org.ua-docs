@@ -1,11 +1,16 @@
-- [« Встановлення та налаштування](libxml.setup.md)
-- [Встановлення »](libxml.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](libxml.setup.md)
-- Вимоги
+-   [« Установка и настройка](libxml.setup.html)
+    
+-   [Установка »](libxml.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](libxml.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Цей модуль вимагає для роботи [> libxml](http://www.xmlsoft.org/) \>=
-2.6.0.
+Цей модуль вимагає роботи [» libxml](http://www.xmlsoft.org/) >= 2.6.0.

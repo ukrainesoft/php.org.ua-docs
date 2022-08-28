@@ -1,76 +1,82 @@
-- [«ldap_parse_reference](function.ldap-parse-reference.md)
-- [ldap_read »](function.ldap-read.md)
+Витягти інформацію з результату
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Витягти інформацію з результату
+-   [« ldap\_parse\_reference](function.ldap-parse-reference.html)
+    
+-   [ldap\_read »](function.ldap-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Витягти інформацію з результату
+    
 
-#ldap_parse_result
+# ldapparseresult
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldap_parse_result — Отримати інформацію з результату
+ldapparseresult — Витягти інформацію з результату
 
 ### Опис
 
-**ldap_parse_result**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-[LDAP\Result](class.ldap-result.md) `$result`,
-int `&$error_code`,
-string `&$matched_dn` = **`null`**,
-string `&$error_message` = **`null`**,
-array `&$referrals` = **`null`**,
-array `&$controls` = **`null`**
-): bool
+```methodsynopsis
+ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,    int &$error_code,    string &$matched_dn = null,    string &$error_message = null,    array &$referrals = null,    array &$controls = null): bool
+```
 
 Обробляє результат пошуку LDAP.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `result`
-Примірник [LDAP\Result](class.ldap-result.md), що повертається
-[ldap_list()](function.ldap-list.md) або
-[ldap_search()](function.ldap-search.md).
+
+Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
 
 `error_code`
-Посилання на змінну, якій надається код помилки LDAP, або `0`,
-якщо ні помилки.
+
+Посилання на змінну, якій надається код помилки LDAP, або `0`якщо немає помилки.
 
 `matched_dn`
-Посилання на змінну, якій надається знайдений DN, якщо він
-визначається в запиті, інакше надається **`null`**.
+
+Посилання на змінну, якій надається знайдений DN, якщо він визначається в запиті, інакше присвоюється **`null`**
 
 `error_message`
-Посилання на змінну, якій надається повідомлення про помилку LDAP,
-або порожній рядок, якщо немає помилки.
+
+Посилання на змінну, якій присвоюється повідомлення про помилку LDAP, або порожній рядок, якщо немає помилки.
 
 `referrals`
-Посилання на змінну, якій надається масив (array) з усіма
-посилання (referral) у вигляді рядків, або порожній масив, якщо вони не були
-повернуто.
+
+Посилання на змінну, якій присвоюється масив (array) з усіма посиланнями (referral) як рядків, чи порожній масив, якщо вони повернули.
 
 `controls`
-Масив (array) LDAP Controls, які були надіслані замість відповіді.
+
+Масив (array) LDAP Controls, які були відправлені замість відповіді.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Додано підтримку параметра `controls` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ldap_parse_result()****
+**Приклад #1 Приклад використання **ldapparseresult()****
 
-` <?php$result = ldap_search($link, "cn=userref,dc=my-domain,dc=com", "(cn=user*)");$errcode = $dn = $errmsg = $refs == null;if (ldap_parse_result($link, $result, $errcode, $dn, $errmsg, $refs)) {     // різні операції с $errcode, $dn, $|
+```php
+<?php
+$result = ldap_search($ldap, "cn=userref,dc=my-domain,dc=com", "(cn=user*)");
+$errcode = $dn = $errmsg = $refs =  null;
+if (ldap_parse_result($ldap, $result, $errcode, $dn, $errmsg, $refs)) {
+    // различные операции с $errcode, $dn, $errmsg и $refs
+}
+?>
+```

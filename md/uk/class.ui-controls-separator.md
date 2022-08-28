@@ -1,9 +1,15 @@
-- [« UI\Controls\Progress::setValue](ui-controls-progress.setvalue.md)
-- [UI\Controls\Separator::\_\_construct »](ui-controls-separator.construct.md)
+Елемент управління "Розділювач"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Розділювач"
+-   [« UI\\Controls\\Progress::setValue](ui-controls-progress.setvalue.html)
+    
+-   [UI\\Controls\\Separator::\_\_construct »](ui-controls-separator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент управління "Розділювач"
+    
 
 # Елемент управління "Розділювач"
 
@@ -11,61 +17,67 @@
 
 ## Вступ
 
-Розділювач представляє елемент управління роздільника без будь-яких
-функцій.
+Розділювач представляє елемент керування роздільника без будь-яких функцій.
 
 ## Огляд класів
 
-class **UI\Controls\Separator** extends
-[UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Horizontal`;
 
-const int `Vertical`;
+    
+     
+      class UI\Controls\Separator
+     
 
-/\* Конструктор \*/
+     
+      extends
+       UI\Control
+     
+     {
 
-public [\_\_construct](ui-controls-separator.construct.md)(int `$type`
-= UI\Controls\Separator::Horizontal)
+    /* Константы */
+    
+     const
+     int
+      Horizontal;
 
-/\* Наслідувані методи \*/
+    const
+     int
+      Vertical;
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Конструктор */
+    
+   public __construct(int $type = UI\Controls\Separator::Horizontal)
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
 
-public [UI\Control::hide](ui-control.hide.md)()
+   }
+```
 
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Controls\Separator::Horizontal`**
+
 Горизонтальний роздільник
 
 **`UI\Controls\Separator::Vertical`**
+
 Вертикальний роздільник
 
 ## Зміст
 
-- [UI\Controls\Separator::\_\_construct](ui-controls-separator.construct.md)
-— Створити новий об'єкт Separator
+-   [UI\\Controls\\Separator::\_\_construct](ui-controls-separator.construct.html) — Створити новий об'єкт Separator

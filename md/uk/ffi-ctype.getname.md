@@ -1,24 +1,31 @@
-- [«FFI\CType::getKind](ffi-ctype.getkind.md)
-- [FFI\CType::getPointerType »](ffi-ctype.getpointertype.md)
+Опис
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+-   [« FFI\\CType::getKind](ffi-ctype.getkind.html)
+    
+-   [FFI\\CType::getPointerType »](ffi-ctype.getpointertype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI\\CType](class.ffi-ctype.html)
+    
+-   Опис
+    
 
-# FFI\CType::getName
+# FFICType::getName
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
-FFI\CType::getName — Опис
+FFICType::getName — Опис
 
 ### Опис
 
-public **FFI\CType::getName**(): string
+```methodsynopsis
+public FFI\CType::getName(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,58 +1,54 @@
-- [«strcmp](function.strcmp.md)
-- [strcspn »](function.strcspn.md)
+Порівняння рядків з урахуванням поточної локалі
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Порівняння рядків з урахуванням поточної локалі
+-   [« strcmp](function.strcmp.html)
+    
+-   [strcspn »](function.strcspn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Порівняння рядків з урахуванням поточної локалі
+    
 
-#strcoll
+# strcoll
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
 strcoll — Порівняння рядків з урахуванням поточної локалі
 
 ### Опис
 
-**strcoll**(string `$string1`, string `$string2`): int
+```methodsynopsis
+strcoll(string $string1, string $string2): int
+```
 
-Зверніть увагу, що ця функція враховує регістр символів і в
-на відміну від [strcmp()](function.strcmp.md), не є безпечною для обробки
-даних у двійковій формі.
+Зверніть увагу, що ця функція враховує регістр символів, і на відміну від [strcmp()](function.strcmp.html), не безпечна для обробки даних у двійковій формі.
 
-**strcoll()** у порівнянні використовує установки поточної локалі. Якщо
-встановлено локаль C або POSIX, ця функція аналогічна
-[strcmp()](function.strcmp.md).
+**strcoll()** при порівнянні використовує установки поточної локалі. Якщо встановлено локаль C або POSIX, ця функція аналогічна [strcmp()](function.strcmp.html)
 
 ### Список параметрів
 
 `string1`
+
 Перший рядок.
 
 `string2`
+
 Другий рядок.
 
 ### Значення, що повертаються
 
-Повертає негативне число, якщо `string1` менше `string2`,
-позитивне число, якщо `string1` більше `string2`, і 0, якщо вони
-рівні.
+Повертає негативне число, якщо `string1` менше `string2`, позитивне число, якщо `string1` більше `string2`, та 0, якщо вони рівні.
 
 ### Дивіться також
 
-- [preg_match()](function.preg-match.md) - Виконує перевірку на
-відповідність регулярному виразу
-- [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння
-рядків
-- [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне
-порівняння рядків без урахування регістру
-- [substr()](function.substr.md) - Повертає підрядок
-- [stristr()](function.stristr.md) - Реєстронезалежний варіант
-функції strstr
-- [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне
-порівняння перших n символів рядків без урахування регістру
-- [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння
-перших n символів рядків
-- [strstr()](function.strstr.md) - Знаходить перше входження
-підрядки
-- [setlocale()](function.setlocale.md) - Встановлює налаштування
-локалі
+-   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [strcmp()](function.strcmp.html) - Бінарно-безпечне порівняння рядків
+-   [strcasecmp()](function.strcasecmp.html) - Бінарно-безпечне порівняння рядків без урахування регістру
+-   [substr()](function.substr.html) - Повертає підрядок
+-   [stristr()](function.stristr.html) - Реєстронезалежний варіант функції strstr
+-   [strncasecmp()](function.strncasecmp.html) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [strncmp()](function.strncmp.html) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
+-   [setlocale()](function.setlocale.html) - Встановлює налаштування локалі

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](mhash.configuration.md)
-- [Предвизначені константи »](mhash.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mhash.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](mhash.configuration.html)
+    
+-   [Предопределённые константы »](mhash.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](mhash.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

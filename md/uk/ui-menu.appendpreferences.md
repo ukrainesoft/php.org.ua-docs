@@ -1,27 +1,34 @@
-- [« UI\Menu::appendCheck](ui-menu.appendcheck.md)
-- [UI\Menu::appendQuit »](ui-menu.appendquit.md)
+Додати пункт меню "Параметри" (Preferences)
 
-- [PHP Manual](index.md)
-- [UI\Menu](class.ui-menu.md)
-- Додати пункт меню "Параметри" (Preferences)
+-   [« UI\\Menu::appendCheck](ui-menu.appendcheck.html)
+    
+-   [UI\\Menu::appendQuit »](ui-menu.appendquit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Menu](class.ui-menu.html)
+    
+-   Додати пункт меню "Параметри" (Preferences)
+    
 
-# UI\Menu::appendPreferences
+# ОЙMenu::appendPreferences
 
 (UI 0.9.9)
 
-UI\Menu::appendPreferences — Додати пункт меню "Налаштування"
-(Preferences)
+ОЙMenu::appendPreferences — Додати пункт меню "Налаштування" (Preferences)
 
 ### Опис
 
-public **UI\Menu::appendPreferences**(string `$type` =
-UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
+```methodsynopsis
+public UI\Menu::appendPreferences(string $type = UI\MenuItem::class): UI\MenuItem
+```
 
-Додасть пункт меню "Параметри"
+Додати пункт меню "Налаштування"
 
 ### Список параметрів
 
 `type`
+
 Тип нового пункту
 
 ### Значення, що повертаються

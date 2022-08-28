@@ -1,101 +1,139 @@
-- [«cubrid_move_cursor](function.cubrid-move-cursor.md)
-- [cubrid_num_cols »](function.cubrid-num-cols.md)
+Отримує результат наступного запиту під час виконання кількох SQL-операторів
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримує результат наступного запиту під час виконання кількох
-SQL-операторів
+-   [« cubrid\_move\_cursor](function.cubrid-move-cursor.html)
+    
+-   [cubrid\_num\_cols »](function.cubrid-num-cols.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Отримує результат наступного запиту під час виконання кількох SQL-операторів
+    
 
-#cubrid_next_result
+# cubridnextresult
 
-(PECL CUBRID = 8.4.0)
+(PECL CUBRID >= 8.4.0)
 
-cubrid_next_result — Отримує результат наступного запиту при
-виконанні кількох SQL-операторів
+cubridnextresult — Отримує результат наступного запиту під час виконання кількох SQL-операторів.
 
 ### Опис
 
-**cubrid_next_result**(resource `$result`): bool
+```methodsynopsis
+cubrid_next_result(resource $result): bool
+```
 
-Функція **cubrid_next_result()** використовується для отримання результатів
-наступного запиту, якщо виконується кілька SQL-операторів та для
-[cubrid_execute()](function.cubrid-execute.md) встановлено прапорець
-**`CUBRID_EXEC_QUERY_ALL`**.
+Функція **cubridnextresult()** використовується для отримання результатів наступного запиту, якщо виконується кілька SQL-операторів та для [cubrid\_execute()](function.cubrid-execute.html) встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**
 
 ### Список параметрів
 
 `result`
-`result` з виклику функції
-[cubrid_execute()](function.cubrid-execute.md).
+
+`result` з виклику функції [cubrid\_execute()](function.cubrid-execute.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_next_result()****
+**Приклад #1 Приклад використання **cubridnextresult()****
 
-` <?php$conn = cubrid_connect("127.0.0.1", 33000, "demodb", "dba");$sql_stmt = "SELECT * FROM code; SELECT * FROM res = cubrid_execute($conn, $sql_stmt, CUBRID_EXEC_QUERY_ALL);get_result_info($res);cubrid_next_result($res);get_result_info($res);function get_result_info($req){     
------------- get_result_info --------------------
-");    $row_num = cubrid_num_rows($req);    $col_num = cubrid_num_cols($req);    $column_name_list = cubrid_column_names($req);    $column_type_list = cubrid_column_types($req);    $column_last_name = cubrid_field_name($req, $col_num - 1);    $column_last_table = cubrid_field_table($req, $col_num - 1);    $column_last_type = cubrid_field_type($req, $col_num - 1);    $column_last_len = cubrid_field_len($req, $col_num - 1);    $column_1_flags = cubrid_field_flags( $req, 1);    printf("%-30s %d
-", "Кількість рядків:", $row_num);    printf("%-30s %d
-", "Кількість стовпців:", $col_num);    printf("
-");   printf("%-30s %-30s %-15s
-", "Назви стовпців", "Типи стовпців", "Довжина стовпців");    printf("----------------------------- -------------------------------------------------
-");    $size = count($column_name_list);   for($i = 0; $i < $size; $i++) {         $column_len =   | %-15s
-", $column_name_list[$i], $column_type_list[$i], $column_len);    }    printf("
+```php
+<?php
+$conn = cubrid_connect("127.0.0.1", 33000, "demodb", "dba");
 
-");   printf("%-30s %s
-", "Назва останнього стовпця:", $column_last_name);    printf("%-30s %s
-", "Таблиця останнього стовпця:", $column_last_table);    printf("%-30s %s
-", "Тип останнього стовпця:", $column_last_type);    printf("%-30s %d
-", "Довжина останнього стовпця:", $column_last_len);    printf("%-30s %s
-", Прапори другого стовпця:", $ column_1_flags);
+$sql_stmt = "SELECT * FROM code; SELECT * FROM history WHERE host_year=2004 AND event_code=20281";
+$res = cubrid_execute($conn, $sql_stmt, CUBRID_EXEC_QUERY_ALL);
 
-");}?> `
+get_result_info($res);
+cubrid_next_result($res);
+get_result_info($res);
+
+function get_result_info($req)
+{
+    printf("\n------------ get_result_info --------------------\n");
+
+    $row_num = cubrid_num_rows($req);
+    $col_num = cubrid_num_cols($req);
+
+    $column_name_list = cubrid_column_names($req);
+    $column_type_list = cubrid_column_types($req);
+
+    $column_last_name = cubrid_field_name($req, $col_num - 1);
+    $column_last_table = cubrid_field_table($req, $col_num - 1);
+
+    $column_last_type = cubrid_field_type($req, $col_num - 1);
+    $column_last_len = cubrid_field_len($req, $col_num - 1);
+
+    $column_1_flags = cubrid_field_flags($req, 1);
+
+    printf("%-30s %d\n", "Количество строк:", $row_num);
+    printf("%-30s %d\n", "Количество столбцов:", $col_num);
+    printf("\n");
+
+    printf("%-30s %-30s %-15s\n", "Названия столбцов", "Типы столбцов", "Длина столбцов");
+    printf("------------------------------------------------------------------------------\n");
+
+    $size = count($column_name_list);
+    for($i = 0; $i < $size; $i++) {
+        $column_len = cubrid_field_len($req, $i);
+        printf("%-30s %-30s %-15s\n", $column_name_list[$i], $column_type_list[$i], $column_len);
+    }
+    printf("\n\n");
+
+    printf("%-30s %s\n", "Название последнего столбца:", $column_last_name);
+    printf("%-30s %s\n", "Таблица последнего столбца:", $column_last_table);
+    printf("%-30s %s\n", "Тип последнего столбца:", $column_last_type);
+    printf("%-30s %d\n", "Длина последнего столбца:", $column_last_len);
+    printf("%-30s %s\n", "Флаги второго столбца:", $column_1_flags);
+
+    printf("\n\n");
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 ------------ get_result_info --------------------
-Row count: 6
-Column count: 2
+Row count:                     6
+Column count:                  2
 
-Назви стовпців Типи стовпців Довжина стовпців
--------------------------------------------------- ----------------------------
-s_name char 1
-f_name varchar 6
+Названия столбцов                 Типы столбцов                   Длина столбцов
+------------------------------------------------------------------------------
+s_name                         char                           1
+f_name                         varchar                        6
 
 
-Назва останнього стовпця: f_name
-Таблиця останнього стовпця: code
-Тип останнього стовпця: varchar
-Довжина останнього стовпця: 6
-Прапори другого стовпця:
+Название последнего столбца:          f_name
+Таблица последнего столбца:           code
+Тип последнего столбца:              varchar
+Длина последнего столбца:            6
+Флаги второго столбца:
 
 
 
 ------------ get_result_info --------------------
-Кількість рядків: 4
-Кількість стовпців: 5
+Количество строк:                    4
+Количество столбцов:                  5
 
-Назви стовпців Типи стовпців Довжина стовпців
--------------------------------------------------- ----------------------------
-event_code integer 11
-athlete varchar 40
-host_year integer 11
-score varchar 10
-unit varchar 5
+Названия столбцов                 Типы столбцов                   Длина столбцов
+------------------------------------------------------------------------------
+event_code                     integer                        11
+athlete                        varchar                        40
+host_year                      integer                        11
+score                          varchar                        10
+unit                           varchar                        5
 
 
-Назва останнього стовпця: unit
-Таблиця останнього стовпця: history
-Тип останнього стовпця: varchar
-Довжина останнього стовпця: 5
-Прапори другого стовпця: not_null primary_key unique_key
+Название последнего столбца:      unit
+Таблица последнего столбца:       history
+Тип последнего столбца:          varchar
+Длина последнего столбца:        5
+Флаги второго столбца:          not_null primary_key unique_key
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
+-   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

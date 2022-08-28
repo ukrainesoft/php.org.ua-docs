@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](ibase.configuration.md)
-- [Предвизначені константи »](ibase.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ibase.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](ibase.configuration.html)
+    
+-   [Предопределённые константы »](ibase.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ibase.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

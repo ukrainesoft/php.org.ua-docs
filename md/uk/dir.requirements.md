@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](dir.setup.md)
-- [Встановлення »](dir.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](dir.setup.md)
-- Вимоги
+-   [« Установка и настройка](dir.setup.html)
+    
+-   [Установка »](dir.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](dir.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

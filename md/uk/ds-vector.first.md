@@ -1,20 +1,27 @@
-- [« Ds\Vector::find](ds-vector.find.md)
-- [Ds\Vector::get »](ds-vector.get.md)
+Повертає перший елемент вектора
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає перший елемент вектора
+-   [« Ds\\Vector::find](ds-vector.find.html)
+    
+-   [Ds\\Vector::get »](ds-vector.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Вектор](class.ds-vector.html)
+    
+-   Повертає перший елемент вектора
+    
 
-# Ds\Vector::first
+# ДсVector::first
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Vector::first — Повертає перший елемент вектора
+ДсVector::first — Повертає перший елемент вектора
 
 ### Опис
 
-public **Ds\Vector::first**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Vector::first(): mixed
+```
 
 Повертає перший елемент вектор.
 
@@ -28,15 +35,21 @@ public **Ds\Vector::first**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо вектор порожній.
+Викидає виняток [UnderflowException](class.underflowexception.html)якщо вектор порожній.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::first()****
+**Приклад #1 Приклад використання **ДсVector::first()****
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->first());?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+var_dump($vector->first());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1)
+```

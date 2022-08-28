@@ -1,34 +1,40 @@
-- [«ZMQSocket::sendmulti](zmqsocket.sendmulti.md)
-- [ZMQSocket::unbind »](zmqsocket.unbind.md)
+Встановити опцію сокету
 
-- [PHP Manual](index.md)
-- [ZMQSocket](class.zmqsocket.md)
-- Встановити опцію сокету
+-   [« ZMQSocket::sendmulti](zmqsocket.sendmulti.html)
+    
+-   [ZMQSocket::unbind »](zmqsocket.unbind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQSocket](class.zmqsocket.html)
+    
+-   Встановити опцію сокету
+    
 
 # ZMQSocket::setSockOpt
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQSocket::setSockOpt — Встановити опцію сокету
 
 ### Опис
 
-public **ZMQSocket::setSockOpt**(int `$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): [ZMQSocket](class.zmqsocket.md)
+```methodsynopsis
+public ZMQSocket::setSockOpt(int $key, mixed $value): ZMQSocket
+```
 
-Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від
-значення параметра `key`. Дивіться [Типи констант ZMQ](class.zmq.md#zmq.constants).
+Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від значення параметра `key`. Дивіться [Типы констант ZMQ](class.zmq.html#zmq.constants)
 
 ### Список параметрів
 
 `key`
-Одна з констант **`ZMQ::SOCKOPT_*`**.
+
+Одна з констант **`ZMQ::SOCKOPT_*`**
 
 `value`
+
 Значення, що встановлюється.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт. У разі виникнення помилки викидає
-виняток ZMQSocketException.
+Повертає поточний об'єкт. У разі помилки викидає виняток ZMQSocketException.

@@ -1,15 +1,21 @@
-- [«Вступ](intro.spl.md)
-- [Вимоги »](spl.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [SPL](book.spl.md)
+-   [« Введение](intro.spl.html)
+    
+-   [Требования »](spl.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SPL](book.spl.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](spl.requirements.md)
-- [Установка](spl.installation.md)
-- [Налаштування під час виконання](spl.configuration.md)
-- [Типи ресурсів](spl.resources.md)
+-   [Требования](spl.requirements.html)
+-   [Установка](spl.installation.html)
+-   [Настройка во время выполнения](spl.configuration.html)
+-   [Типы ресурсов](spl.resources.html)

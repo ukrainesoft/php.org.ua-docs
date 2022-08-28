@@ -1,62 +1,81 @@
-- [«Win32 Service informations](win32service.constants.serviceinfos.md)
-- [Приклади »](win32service.examples.md)
+Клас Win32ServiceException
 
-- [PHP Manual](index.md)
-- [win32service](book.win32service.md)
-- Клас Win32ServiceException
+-   [« Win32 Service informations](win32service.constants.serviceinfos.html)
+    
+-   [Примеры »](win32service.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [win32service](book.win32service.html)
+    
+-   Клас Win32ServiceException
+    
 
 # Клас Win32ServiceException
 
-(PECL win32service \>=1.0.0)
+(PECL win32service >=1.0.0)
 
 ## Вступ
 
-Виняток замінює старий механізм, у якому значення помилки потрібне
-було порівнювати із константами, щоб визначити помилку. Код виключення
-дорівнює значенню помилки, а повідомлення про виключення ґрунтується на
-відповідного імені константи.
+Виняток замінює старий механізм, у якому значення помилки потрібно було порівнювати із константами, щоб визначити помилку. Код виключення дорівнює значенню помилки, а повідомлення про виключення ґрунтується на відповідному імені константи.
 
 ## Огляд класів
 
-class **Win32ServiceException** extends
-[Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class Win32ServiceException
+     
 
-protected int `$code`;
+     
+      extends
+       Exception
+     
+     {
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Наслідувані методи \*/
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
 
-final public [Exception::getCode](exception.getcode.md)(): int
+   /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

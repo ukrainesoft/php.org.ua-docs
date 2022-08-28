@@ -1,29 +1,36 @@
-- [« SolrDocument::unserialize](solrdocument.unserialize.md)
-- [SolrDocument::valid »](solrdocument.valid.md)
+Видаляє поле з документа
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Видаляє поле з документа
+-   [« SolrDocument::unserialize](solrdocument.unserialize.html)
+    
+-   [SolrDocument::valid »](solrdocument.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Видаляє поле з документа
+    
 
-# SolrDocument::\_\_unset
+# SolrDocument::unset
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::\_\_unset — Видаляє поле з документа
+SolrDocument::unset — Видалення поля з документа
 
 ### Опис
 
-public **SolrDocument::\_\_unset**(string `$fieldName`): bool
+```methodsynopsis
+public SolrDocument::__unset(string $fieldName): bool
+```
 
-Видаляє поле з документа, коли до поля звертаються як до якості
-об'єкт.
+Видаляє поле з документа, коли до поля звертаються як властивості об'єкта.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,60 +1,47 @@
-- [« Приклади](zlib.examples.md)
-- [deflate_add »](function.deflate-add.md)
+Функції Zlib
 
-- [PHP Manual](index.md)
-- [Zlib](book.zlib.md)
-- Функції Zlib
+-   [« Примеры](zlib.examples.html)
+    
+-   [deflate\_add »](function.deflate-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zlib](book.zlib.html)
+    
+-   Функції Zlib
+    
 
 # Функції Zlib
 
 ## Зміст
 
-- [deflate_add](function.deflate-add.md) - Інкрементальне стиснення
-даних
-- [deflate_init](function.deflate-init.md) - Ініціалізувати
-контекст інкрементального стиснення
-- [gzclose](function.gzclose.md) — Закрити покажчик відкритого
-gz-файлу
-- [gzcompress](function.gzcompress.md) — Стиснути рядок
-- [gzdecode](function.gzdecode.md) — Декодує рядок, стиснутий з
-допомогою gzip
-- [gzdeflate](function.gzdeflate.md) — Стисне рядок
-- [gzencode](function.gzencode.md) — Створити стислий рядок gzip
-- [gzeof](function.gzeof.md) — Перевіряє, чи поточна
-позиція в кінці (EOF) gz-файлу
-- [gzfile](function.gzfile.md) — Зчитує весь gz-файл у масив
-- [gzgetc](function.gzgetc.md) — Отримати символ із вказівника на
-gz-файл
-- [gzgets](function.gzgets.md) — Отримати рядок із покажчика файлу
-- [gzgetss](function.gzgetss.md) — Повертає рядок із покажчика
-gz-файлу та видалити HTML-теги
-- [gzinflate](function.gzinflate.md) — Розпакувати стислий рядок
-- [gzopen](function.gzopen.md) — Відкрити файл gz-файл
-- [gzpassthru](function.gzpassthru.md) — Виведення всіх, хто залишився.
-даних із покажчика gz-файлу.
-- [gzputs](function.gzputs.md) - Псевдонім gzwrite
-- [gzread](function.gzread.md) - Бінарне читання gz-файлу
-- [gzrewind](function.gzrewind.md) — Перемістити вказівник
-gz-файлу на початок
-- [gzseek](function.gzseek.md) — Перемістити вказівник на позицію
-вказівнику gz-файлу
-- [gztell](function.gztell.md) — Повертає поточну позицію
-читання/запису в покажчику gz-файлу
-- [gzuncompress](function.gzuncompress.md) — Розпакувати стиснуту
-рядок
-- [gzwrite](function.gzwrite.md) — Бінарний запис до gz-файлу
-- [inflate_add](function.inflate-add.md) - Інкрементальне
-розпакувати закодовані дані
-- [inflate_get_read_len](function.inflate-get-read-len.md) -
-Отримує кількість прочитаних байт
-- [inflate_get_status](function.inflate-get-status.md) - Отримує
-статус декомпресії
-- [inflate_init](function.inflate-init.md) - Ініціалізація контексту
-інкрементального розпакування
-- [readgzfile](function.readgzfile.md) — Виводить вміст gz-файлу
-- [zlib_decode](function.zlib-decode.md) - Розпаковує будь-які
-закодовані дані raw/gzip/zlib
-- [zlib_encode](function.zlib-encode.md) — Стиснення даних із зазначеної
-кодуванням
-- [zlib_get_coding_type](function.zlib-get-coding-type.md) -
-Повертає спосіб кодування, який використовується для стиснення виводу
+-   [deflate\_add](function.deflate-add.html) - Інкрементальний стиск даних
+-   [deflate\_init](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску
+-   [gzclose](function.gzclose.html) — Закрити вказівник відкритого gz-файлу
+-   [gzcompress](function.gzcompress.html) — Стиснути рядок
+-   [gzdecode](function.gzdecode.html) — Декодує рядок, стислий за допомогою gzip
+-   [gzdeflate](function.gzdeflate.html) — Стисне рядок
+-   [gzencode](function.gzencode.html) — Створити стислий рядок gzip
+-   [gzeof](function.gzeof.html) — Перевіряє, чи знаходиться поточна позиція наприкінці (EOF) gz-файлу
+-   [gzfile](function.gzfile.html) - Зчитує весь gz-файл у масив
+-   [gzgetc](function.gzgetc.html) — Отримати символ із покажчика на gz-файл
+-   [gzgets](function.gzgets.html) — Отримати рядок із покажчика файлу
+-   [gzgetss](function.gzgetss.html) — Повертає рядок із покажчика gz-файлу та видалити HTML-теги
+-   [gzinflate](function.gzinflate.html) — Розпакувати стислий рядок
+-   [gzopen](function.gzopen.html) - Відкрити gz-файл
+-   [gzpassthru](function.gzpassthru.html) — Виведення всіх даних, що залишилися, з покажчика gz-файлу.
+-   [gzputs](function.gzputs.html) - Псевдонім gzwrite
+-   [gzread](function.gzread.html) - Бінарне читання gz-файлу
+-   [gzrewind](function.gzrewind.html) — Перемістити позицію покажчик gz-файлу на початок
+-   [gzseek](function.gzseek.html) — Перемістити вказівник на позицію в покажчику gz-файлу
+-   [gztell](function.gztell.html) — Повертає поточну позицію читання/запису в покажчику gz-файлу
+-   [gzuncompress](function.gzuncompress.html) — Розпакувати стислий рядок
+-   [gzwrite](function.gzwrite.html) — Бінарний запис до gz-файлу
+-   [inflate\_add](function.inflate-add.html) — Інкрементальне розпакування закодованих даних
+-   [inflate\_get\_read\_len](function.inflate-get-read-len.html) — Отримує кількість прочитаних байт
+-   [inflate\_get\_status](function.inflate-get-status.html) — Отримує статус декомпресії
+-   [inflate\_init](function.inflate-init.html) — Ініціалізація контексту інкрементального розпакування
+-   [readgzfile](function.readgzfile.html) — Виводить вміст gz-файлу
+-   [zlib\_decode](function.zlib-decode.html) — Розпаковує будь-які закодовані дані raw/gzip/zlib
+-   [zlib\_encode](function.zlib-encode.html) — Стиснення даних із зазначеним кодуванням
+-   [zlib\_get\_coding\_type](function.zlib-get-coding-type.html) — Повертає спосіб кодування, який використовується для стиснення виводу

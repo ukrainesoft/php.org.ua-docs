@@ -1,9 +1,15 @@
-- [« Imagick::pingImageFile](imagick.pingimagefile.md)
-- [Imagick::posterizeImage »](imagick.posterizeimage.md)
+Імітує фото Polaroid
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Імітує фото Polaroid
+-   [« Imagick::pingImageFile](imagick.pingimagefile.html)
+    
+-   [Imagick::posterizeImage »](imagick.posterizeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Імітує фото Polaroid
+    
 
 # Imagick::polaroidImage
 
@@ -13,23 +19,25 @@ Imagick::polaroidImage — Імітує фото Polaroid
 
 ### Опис
 
-public **Imagick::polaroidImage**([ImagickDraw](class.imagickdraw.md)
-`$properties`, float `$angle`): bool
+```methodsynopsis
+public Imagick::polaroidImage(ImagickDraw $properties, float $angle): bool
+```
 
-Імітує фото Polaroid. Цей метод доступний, якщо Imagick був
-скомпільований з версією ImageMagick 6.3.2 або старшим.
+Імітує фото Polaroid. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.2 або старшим.
 
 ### Список параметрів
 
 `properties`
+
 Властивості Polaroid.
 
 `angle`
+
 Кут Polaroid.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -37,4 +45,17 @@ public **Imagick::polaroidImage**([ImagickDraw](class.imagickdraw.md)
 
 Приклад використання Imagick::polaroidImage()
 
-` <?php/* Створення об'єкта */$image = new Imagick('source.png');/* Установка непрозорості */$image->polaroidImage(new ImagickDraw(), 25);/* Виведення ('Content-type: image/png');echo $image;?> `
+```php
+<?php
+/* Создание объекта */
+$image = new Imagick('source.png');
+
+/* Установка непрозрачности */
+$image->polaroidImage(new ImagickDraw(), 25);
+
+/* Вывод изображения */
+header('Content-type: image/png');
+echo $image;
+
+?>
+```

@@ -1,9 +1,15 @@
-- [« Imagick::getImagesBlob](imagick.getimagesblob.md)
-- [Imagick::getImageSignature »](imagick.getimagesignature.md)
+Повертає сцену зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає сцену зображення
+-   [« Imagick::getImagesBlob](imagick.getimagesblob.html)
+    
+-   [Imagick::getImageSignature »](imagick.getimagesignature.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає сцену зображення
+    
 
 # Imagick::getImageScene
 
@@ -13,7 +19,9 @@ Imagick::getImageScene — Повертає сцену зображення
 
 ### Опис
 
-public **Imagick::getImageScene**(): int
+```methodsynopsis
+public Imagick::getImageScene(): int
+```
 
 Повертає сцену зображення.
 

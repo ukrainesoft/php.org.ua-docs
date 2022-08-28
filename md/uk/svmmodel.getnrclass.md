@@ -1,23 +1,29 @@
-- [« SVMModel::getLabels](svmmodel.getlabels.md)
-- [SVMModel::getSvmType »](svmmodel.getsvmtype.md)
+Повертає кількість класів, для яких навчалась модель
 
-- [PHP Manual](index.md)
-- [SVMModel](class.svmmodel.md)
-- Повертає кількість класів, для яких навчалась модель
+-   [« SVMModel::getLabels](svmmodel.getlabels.html)
+    
+-   [SVMModel::getSvmType »](svmmodel.getsvmtype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SVMModel](class.svmmodel.html)
+    
+-   Повертає кількість класів, для яких навчалась модель
+    
 
 # SVMModel::getNrClass
 
-(PECL svm = 0.1.5)
+(PECL svm >= 0.1.5)
 
-SVMModel::getNrClass — Повертає кількість класів, для яких
-навчалася модель
+SVMModel::getNrClass — Повертає кількість класів, для яких навчалася модель
 
 ### Опис
 
-public **SVMModel::getNrClass**(): int
+```methodsynopsis
+public SVMModel::getNrClass(): int
+```
 
-Повертає кількість класів, котрим навчалася модель. Для
-однокласової та регресивної моделей поверне 2.
+Повертає кількість класів, котрим навчалася модель. Для однокласової та регресивної моделей поверне 2.
 
 ### Список параметрів
 

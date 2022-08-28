@@ -1,28 +1,42 @@
-- [« CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md)
-- [CrudOperationSortable::sort »](mysql-xdevapi-crudoperationsortable.sort.md)
+Інтерфейс CrudOperationSortable
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс CrudOperationSortable
+-   [« CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.html)
+    
+-   [CrudOperationSortable::sort »](mysql-xdevapi-crudoperationsortable.sort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Інтерфейс CrudOperationSortable
+    
 
 # Інтерфейс CrudOperationSortable
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\CrudOperationSortable** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **sort**(string `$sort_expr`):
-[mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)
 
-}
+    
+     
+      class mysql_xdevapi\CrudOperationSortable
+     
+     {
+
+
+    /* Методы */
+    
+   abstract public sort(string $sort_expr): mysql_xdevapi\CrudOperationSortable
+
+   }
+```
 
 ## Зміст
 
-- [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md)
-- Сортує результати
+-   [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.html) - Сортує результати

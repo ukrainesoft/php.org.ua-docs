@@ -1,293 +1,75 @@
-- [«Переклади](about.translations.md)
-- [Список алфавіту »](indexes.md)
+Creative Commons Attribution 3.0
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Creative Commons Attribution 3.0
+-   [« Переводы](about.translations.html)
+    
+-   [Алфавитный список »](indexes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Creative Commons Attribution 3.0
+    
 
 # Creative Commons Attribution 3.0
 
-THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
-COMMONS PUBLIC LICENSE ("CCPL" або "LICENSE"). THE WORK IS PROTECTED BY
-COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
-AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+ЦЕ WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THE CREATIVE COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER ЦИМ LICENSE OR COPYRIGHT LAW IS PROHIBITED.
 
-BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
-TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY
-BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS
-CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND
-CONDITIONS.
+BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY BE CONSIDERED TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
 
-*1. Definitions*
+*Definitions*
 
-1. *"Adaptation"* means a work based upon the Work, or upon the Work
-і інші попередньо існуючі роботи, такі як translation, adaptation,
-derivative work, arrangement of music або інші alterations of a
-literary or artistic work, or phonogram or performance and includes
-cinematographic adaptations or any other form in whichthe Work may
-be recast, transformed, or adapted including in any form
-recognizably derived from the original, except that a work that
-constitutes a Collection will not be considered an Adaptation for
-purpose of this License. For the avoidance of doubt, де
-Work is a musical work, performance or phonogram, the
-synchronization of the Work в timed-relation with a moving image
-("synching") will be considered an Adaptation for the purpose of
-this License.
-2. *"Collection"* means a collection of literary or artistic works,
-such as encyclopedias and anthologies, or performances, phonograms
-or broadcasts, or other works or subject matter other than works
-listed in Section 1(f) нижче, які, відповідно до змісту і
-arrangement of their contents, constitute intellectual creations, in
-which the Work is included in its entirety in unmodified form along
-with one or more other contributions, each constituting separate and
-independent works in theselves, which together є assembled into a
-collective whole. A work that constitutes a Collection will not be
-considered an Adaptation (as defined above) for the purposes of this
-Ліцензія.
-3. *"Distribute"* means to make available to the public the original
-and copies of the Work or Adaptation, as appropriate, через sale
-or інші перевезення ownership.
-4. *"Licensor"* means the individual, individuals, entity or entities
-that offer(s) the Work під the terms of this License.
-5. *"Work"* means the literary and/or artistic work offered under the
-terms of this License including without limitation any production in
-literary, scientific and artistic domain, whatever may be the
-режим або форма його визнання, включаючи цифрову форму, так як
-book, pamphlet and other writing; a lecture, address, sermon or
-other work of the same nature; a dramatic or dramatico-musical work;
-a choreographic work or entertainment in dumb show; a musical
-composition with or without words; a cinematographic work to which
-є assimilated works expressed by a process analogous to
-cinematography; a work of drawing, painting, architecture,
-sculpture, engraving або lithography; a photographic work to which
-є assimilated works expressed by a process analogous to
-photography; a work of applied art; an illustration, map, plan,
-sketch або три-dimensional work relative to geography, topography,
-architecture or science; a performance; a broadcast; a phonogram; a
-compilation of data to the extent it is protected as a copyrightable
-work; or a work performed by a variety or circus performer to the
-extent it is not otherwise considered literary or artistic work.
-6. *"You"* means an individual або entity exercising rights under this
-Ліцензія, яка не була спершу зафіксована термінами цієї Ліцензії
-with respect to the Work, or who has received express permission
-from the Licensor до exercise rights under this License despite a
-previous violation.
-7. *"Publicly Perform"* means to perform public recitations of the
-Work and to communicate to public those public recitations, by
-any means or process, including by wire or wireless means or public
-digital performances; to make available to the public Works in such
-a way that members of the public mai access these Works from a place
-and at a place окремо chosen by them; to perform the Work to
-the public by any means or process and the communication to the
-public of the performance of the work, including by public digital
-performance; to broadcast and rebroadcast the Work by any means
-including signs, sounds or images.
-8. *"Reproduce"* means to make copies of the Work by any means
-включаючи без обмеження за допомогою звуку або visual recordings and the
-right of fixation and reproducing fixations of the Work, including
-storage of a protected performance or phonogram в digital form or
-other electronic medium.
+1.  *"Adaptation"* методи роботи засновані на роботі, або підтримують роботу і інших попередньо існуючих робіт, такі як перетворення, adaptation, derivative work, arrangement of music or other alterations of literary or artistic work, or phonogram or performance and includes cinematographic або будь-якою іншою формою, в якій робота може бути відновлена, перетворена, або пристосована до складу будь-якої форми, що відображається, отримана від оригіналу, крім того, що робота, яка складається з колекції, не розглядається як Adaptation for this License. Для ворожості доуту, де робота є музичною роботою, виконання або прізвище, synchronization роботи в timed-relation with moving image ("synching") буде розглядатися як Adaptation for the purpose of this License.
+2.  *"Collection"* means collection literary or artistic works, such as encyclopedias and anthologies, or performance, phonograms or broadcasts, or other works or subject matter other than works listed in Section 1(f) below, which, by reason of їх contents, constitute intellectual creations, у яких Work included in its entirety in unmodified form along with one or more other contributions, each constituting separate and independent works in themselves, which together assembled in collective whole. Праця, що збирається в колекції, не розглядається як Adaptation (як defined above) для цілей цієї ліцензії.
+3.  *"Distribute"* методи, що можуть бути доступні для громадських оригіналів і копій роботи або адаптації, як відповідають, за допомогою продажу або інших перевезень власників.
+4.  *"Licensor"* means the individual, individuals, entity or entities that offer(s) the Work unter the terms of this License.
+5.  *"Work"* Засоби літератури і/або художня робота пов'язана з термінами цієї Ліцензії, включаючи без обмеження будь-якої продукції в літературі, академічної і архітектурної домашній, яка може бути в режимі або формі його expressing including digital form, such as book, pamphlet and other writing; a lecture, address, sermon або інше work of the same nature; a dramatic або dramatico-musical work; a choreographic work or entertainment in dumb show; a musical composition with or without words; cinematographic work to which є assimilated works expressed by a process analogous to cinematography; a work of drawing, painting, architecture, sculpture, engraving or lithography; photographic work to which є assimilated works expressed by a process analogous to photography; a work of applied art; an ilustration, map, plan, sketch or three-dimensional work relative to geography, topography, architecture or science; a performance; a broadcast; a phonogram; compilation of data to extent it is protected as copyrightable work; або робота працює як варіація, так і circus виконання для розширення це не все, що розглядається як література або художня робота.
+6.  *"You"* means individual або entity exercising rights under this License whe not be previously violated the terms of this License with respect to the Work, або whe has received express permission from the Licensor to exercise rights under this License despite a previous violation.
+7.  *"Publicly Perform"* засоби для виконання громадських recitations з роботи і комунікацій до громадських тих громадських recitations, будь-яких засобів або процесів, включаючи wire або wireless means або public digital performances; для того, щоб бути доступним для public works в такій мірі, що members of the public mai access these works from a place and at aplace individually chosen by them; розв'язати роботу в будь-який спосіб або процеси і комунікації в громадській діяльності, включаючи public digital performance; до broadcast and rebroadcast the Work by any means including signs, sounds or images.
+8.  *"Reproduce"* методи, щоб зробити копії роботи, будь-які засоби, включаючи без обмеження звуку або visual recordss і праву fixation і reproducing fixations of Work, включаючи додаток, збережений продуктивністю або фонограми в цифровій формі або інших електронних медіа.
 
-*2. Fair Dealing Rights.
-limit, or restrict any uses free from copyright or rights arising from
-limitations or exceptions that are provided for in connection with the
-copyright protection under copyright law або інші applicable laws.
+*Fair Dealing Rights.* Ні в цій Ліцензіі не вдається до скорочення, обмеження, так і обмежений будь-який спосіб, що знаходиться у режимі зйомки або правом, віруючим з обмеженнями або виключеннями, які здійснюються в зв'язку з захистом права за допомогою права громадянина або інших застосовних прав.
 
-*3. License Grant.* Subject to the terms and conditions of this License,
-Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
-perpetual (for the duration of the applicable copyright) license to
-exercise the rights в the Work as stated below:
+*Ліцензія Grant.* Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (для тривалості of the applicable copyright)
 
-1. to Reproduce the Work, to incorporate the Work in one or more
-Збірки, і до Reproduce the Work як складаються в the
-Collections;
+1.  в Reproduce the Work, включити в Work в одну або більше коллекций, і в виконанні Work включити в the Collections;
+    
+2.  до створення і реконструкції Adaptations передбачена, що будь-яка така Adaptation, включаючи будь-яку трансляцію в будь-якому медіа, має відповідні кроки до чіткого логотипу, помітний або інший identify, що зміни були виконані в оригінальній роботі. Для прикладу, перекладу можна назвати "Оргійна робота була переведена з англійської до російської," або зміна може бути визначена "Оргійна робота була змінена.";
+    
+3.  до Distribute and Publicly Perform the Work including as incorporated in Collections; and,
+    
+4.  до Distribute and Publicly Perform Adaptations.
+    
+5.  For the avoidance of doubt:
+    
+    1.  *Non-waivable Compulsory License Schemes.* У цих літературах в яких право на з'єднання правових актів через будь-яку структуру або суспільство licensing scheme cannot be waived, the Licensor reserva the exclusive right to collect such royalties for any exercise by You of the rights granted under th
+    2.  *Waivable Compulsory License Schemes.* У цих літературах в яких право на збирання роялті через будь-яку структуру або комунікаційну систему зв'язку може бути покладено, ліцензія тримає потрібну право на збирання своїх ролей для будь-якої практики відповідно до ваших прав; and,
+    3.  *Voluntary License Schemes.* Licensor зобов'язує право на з'єднання прав, які окремо або в тому випадку, що в Licensor є членом громадського колективу, що administers беруть участь у licensing schemes, via that society, з будь-якої практики, за ним є.
 
-2. to create and Reproduce Adaptations provided that any such
-Adaptation, including any translation in any medium, таки
-reasonable steps to clearly label, demarcate or otherwise identify
-що зміни були зроблені в оригінальній роботі. For example, a
-translation could be marked "Орієнтована робота була translated from
-English to Spanish," або modification could indicate "The original
-work has been modified.";
+Вони повинні бути виконані в усіх засобах і форматах, які тепер відомі або йофіційні. Ці права включають право на те, що такі зміни є технічно необхідним для виконання прав в інших медіа і форматах. Subject to Section 8(f), всі права не expressly granted by Licensor є hereby reserved.
 
-3. to Distribute and Publicly Perform the Work including as
-incorporated in Collections; and,
+*Restrictions*. Ліцензія заборонена в розділі 3 above expressive made subject to and limited by the following restrictions:
 
-4. to Distribute and Publicly Perform Adaptations.
+1.  Ви можете розповсюдити або Publicly Perform the Work тільки під час цих ліцензій. Ви повинні включати в себе копію, або в Uniform Resource Identifier (URI) для цієї Ліцензія з кожною копією роботи, яку Ви розробляєте або Publicly Perform. Ви не можете продовжувати або продовжувати будь-які терміни на роботі, що успадковують терміни цієї Ліцензії або здатність recipient of Work для зайняття прав, спрямованих на те, що recipient під terms of License. You may not sublicense the Work. Ви повинні скоїти intact all notices що refer to this License and to disclaimer warranties with every copy of work You Distribute or Publicly Perform. Якщо Ви розробляєте або Publicly Perform the Work, Ви не можете не досягти будь-яких ефективних технологічних заходів на роботі, що усвідомлює здатність recipient of Work від вашої практики спрямована на те, що recipient під термінами License. Цей розділ 4(a) застосовується до роботи як складеного в колекції, але це не вимагається колекції, а не з роботи, що працює, щоб бути вміщена в терміни цієї Ліцензії. Якщо Ви створили колекцію, я вважаю, що будь-який ліценсор ви повинні, щоб залишитися практичним, скористатися з колекції будь-якого кредиту, що вимагається в розділі 4(b), як необхідно. Якщо Ви створили Adaptation, upon notice from any Licensor You must, to extent practicable, remove from the Adaptation any credit as required by Section 4(b), as requested.
+2.  Якщо Ви розробляєте, або Publicly Perform the Work або any Adaptations or Collections, You must, unless a request has been made pursuant to Section 4(a), keep intact all copyright notices for the Work and provide, reasonable to the medium or means You є використання: (i) Name of Original Author (or pseudonym, if applicable) if supplied, and/or if the Original Author and/or Licensor designate another party or parties (e.g., a sponsor institute, publishing entity, journal для відтворення ("Attribution Parties") в Licensor's copyright notice, термінів служби або інших чутливих засобів, name of such party or parties; (ii) the title of the Work if supplied; (iii) до вичерпної reasonably practicable, URI, if any, що specifies Licensor для того, щоб поєднуватися з Work, unless such URI не refer to copyright notice or licensing information for Work; and (iv) , consistent with Section 3(b), у випадку з Adaptation, на credit identifying the use of the Work in Adaptation (e.g., "French translation of the Work by Original Author," or "Screenplay based on original Work by Original Author"). Кредит вимагається в цьому розділі 4 (b) може бути реалізований в будь-який reasonable manner; передбачено, як, якщо в випадку Adaptation or Collection, на мінімальній такій credit буде з'явитися, якщо credit for all contributing authors of Adaptation or Collection appears, the is part of the credits and in manner at least as prominent як кредити для інших contributing authors. Для того, щоб завдати згоди, ви можете тільки скористатися кредитом, що вимагається цим розділом для того, щоб визначити, що встановлюється в manner set out above, exercising Your rights under this License, You may not implicitly or explicitly assert or imply спонсор або оприлюднення від оригінального автора, власника та/або атрибутів партій, як відповідають, ви або використовуєте роботу, без separate, express prior write permission of original autor, licensor and/or Attribution Parties.
+3.  За винятком іншого літератури наведено в повідомленні ліценсора або може бути іншим можливим правом, якщо Ви відреставруйте, розповсюджуєте або Publicly Perform the Work either itself or as part of any Adaptations or Collections, You must not distor прийнявши іншу агресивну дію в відношенні до роботи, яка повинна бути впевнена в оригінальному жителі австралійського або репутації. Licensor agrees that in those jurisdictions (e.g. Japan), в яких any exercise of the right granted in Section 3(b) of this License (the right to make Adaptations) може бути збитий для того, щоб усунути, mutilation, modification or other derogatory казати, що орієнтовний австрійський honor і reputation, Licensor буде отримувати або не поміняти, як подібний, цей розділ, до повного останнього прийнятий за застосовуваного національного права, щоб задовольнити вашу дійсність під секцією 3( License (right to make Adaptations) but nottherwise.
 
-5. For the avoidance of doubt:
+*Representations, Warranties and Disclaimer*
 
-1. *Non-waivable Compulsory License Schemes.* In those
-jurisdictions in which the right to collect royalties through
-any statutory or compulsory licensing scheme cannot be waived,
-the Licensor reserves the exclusive right to collect such
-royalties for any exercise by You of the rights застережено під
-this License;
-2. *Waivable Compulsory License Schemes.* In those jurisdictions
-in which the right to collect royalties через statutory or
-compulsory licensing scheme can be waived, the Licensor waives
-exclusive right to collect such royalties for any exercise
-за твоими правами спрямовані під цю Ліцензію; and,
-3. *Voluntary License Schemes.* The Licensor waives the right to
-collect royalties, якііндивідуально або, в тому випадку, що
-the Licensor is a member of a collecting society that
-administers voluntary licensing schemes, via that society, from
-any exercise by You of the rights застережено під цим License.
+UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS і MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTOR, FITNESS FOR PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION БУДЬ НЕ ВИКОРИСТАННЯ.
 
-The above rights may be exercised в all media і formats whether now
-відомі або тамарешти припущені. The above rights include the right to make
-Такі зміни як технічно необхідні для виконання цих прав
-в інших медіа та форматах. Subject to Section 8(f), all rights not
-expressly granted by Licensor є hereby reserved.
+*Limitation on Liability.* EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES THE OF THE OF OF OF OF BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-*4. Restrictions*. The license granted in Section 3 above is expressly
-зроблений subject to and limited by the following restrictions:
+*Termination.*
 
-1. You may Distribute or Publicly Perform the Work only under the
-terms of this License. You must include a copy of, or the Uniform
-Resource Identifier (URI) for, this License with every copy of the
-Work You Distribute or Publicly Perform. You may not offer or impose
-any terms on the Work that restrict the terms of this License or the
-ability of the recipient of the Work to exercise the rights granted
-це те, що recipient під термінами License. You may not
-sublicense the Work. You must keep intact all notices that refer to
-this License and to the disclaimer of warranties with every copy of
-the Work You Distribute or Publicly Perform. When You Distribute or
-Publicly Perform the Work, Ви не можете зробити все ефективне
-технологічні міри на роботі, що обмеження здатності до
-recipient of the Work from You to exercise the rights granted to
-що recipient під термінами License. Цей розділ 4(a)
-applies to the Work як incorporated в a Collection, but this does
-not require the Collection apart from the Work itself to be made
-subject to the terms of this License. If You create a Collection,
-upon notice from any Licensor Вам потрібно, щоб залишитися практичним,
-remove from the Collection any credit as required by Section 4(b),
-as requested. If You create an Adaptation, upon notice from any
-Licensor Ви повинні, щоб залишитися practicable, remove from the
-Adaptation any credit as required by Section 4(b), as requested.
-2. If You Distribute, або Publicly Perform the Work або Adaptations
-or Collections, You must, unless a request has been made pursuant to
-Section 4(a), keep intact all copyright notices for the Work and
-Provide, reasonable to the medium or means Ви використовуєте: (i)
-name of the Original Author (or pseudonym, if applicable) if
-supplied, and/or if the Original Author and/or Licensor designate
-інші party or parties (e.g., a sponsor institute, publishing
-entity, journal) for attribution ("Attribution Parties") in
-Licensor's copyright notice, терміни служби або інші reasonable
-means, the name of such party or parties; (ii) the title of the Work
-if supplied; (iii) to extent reasonably practicable, the URI, if
-any, що Licensor specifies to be asocied with the Work, unless
-such URI не має жодного refer to copyright notice or licensing
-information for the Work; and (iv) , consistent with Section 3(b),
-in the case of an Adaptation, a credit identifying the use of the
-Work in the Adaptation (e.g.,
-Original Author," або "Screenplay заснований на оригіналі Work by Original
-Author"). The credit required by this Section 4 (b) may be
-implemented in any reasonable manner; provided, however, that in the
-випадку з Adaptation or Collection, at a minimum such credit will
-appear, if a credit for all contributing authors of the Adaptation
-or Collection appears, then as part of these credits and in a manner
-at least as prominent as the credits for the other contributing
-authors. For avoidance of doubt, Ви можете тільки використовувати кредит
-required by this Section for the purpose of attribution in the
-manner set out above and, by exercising Your rights under this
-License, You may not implicitly або explicitly assert or imply any
-connection with, sponsorship or endorsement by the Original Author,
-Licensor and/or Attribution Parties, як ідентифікатор, You or Your
-use of the Work, без separate, express prior written
-відправлення з оригінального автора, Licensor and/or Attribution
-Parties.
-3. Except as otherwise agreed in writing by the Licensor or as may be
-іншіwise застосовується до applicable law, if You Reproduce, Distribute
-or Publicly Perform the Work either by itself or as part of any
-Adaptations or Collections, You must not distort, mutilate, modify
-or take other derogatory action in relation to the Work which would
-be prejudicial to Original Author's honor or reputation.
-Licensor agrees that in those jurisdictions (е.г. Japan), у яких
-any exercise of the right granted in Section 3(b) of this License
-(the right to make Adaptations) would be deemed to be a distortion,
-mutilation, modification or other derogatory action prejudicial to
-Original Author's honor and reputation, the Licensor will waive
-or not assert, as appropriate, ця Section, to the fullest extent
-permitted by the applicable national law, to enable You to
-reasonably exercise Your right pod Section 3(b) of this License
-(right to make Adaptations) but nottherwise.
+1.  Ця Ліцензія і права захищеного hereunder буде продовжувати автоматично під будь-який берег по You of therms of this License. Individuals or entities whe have received Adaptations or Collections from You under this License, however, is not their licenses terminated provided its individuals or entities remain in full compliance with those licenses. Розділи 1, 2, 5, 6, 7, і 8 будуть переміщені в будь-який термін цієї ліцензії.
+2.  Subject to above terms and conditions, license granted here is perpetual (для duration of the applicable copyright in the Work). Незважаючи на те, що Licensor збирає право на керування роботою під різними license термінами або натисканням, розподіляючи роботу на будь-який час; передбачена, як тільки така покупка не буде застосована до виплати цієї Ліцензії (або будь-якого license, що це буде, або є необхідною для того, щоб було прийнято під час цієї ліцензії), і ця ліцензія повинна бути в повному обсязі і ефект без наміру виконаний as stated above.
 
-*5. Representations, Warranties and Disclaimer*
+*Miscellaneous*
 
-UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR
-OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY
-KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE,
-INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY,
-FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF
-LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS,
-WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE
-EXCLUSION OF IMPLIED WARRANTIES, SU SUCH EXCLUSION MAY NOT APPLY TO YOU.
-
-*6. Limitation on Liability.* EXCEPT TO THE EXTENT REQUIRED BY
-APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL
-THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY
-DAMAGES ARISING OUT OF THE LICENSE OR THE USE OF THE WORK, EVEN IF
-LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-*7. Termination.*
-
-1. Ця література і права захищені hereunder будуть встановлені
-автоматично upon any breach по You of the terms of this License.
-Individuals or entities who have received Adaptations or Collections
-from You under this License, ні, не буде їх licenses
-terminated provided such individuals or entities remain in full
-compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will
-survive any termination of this License.
-2. Subject to above terms and conditions, the license granted here
-is perpetual (для duration of the applicable copyright in the
-Work). Немаєвідповідь, Licensor reservas right to
-release the Work under different license терміни or to stop
-distributing the Work at any time; provided, however that any such
-Використання не буде serveto withdraw this License (or any other
-license that has been, or is required to be, granted under the terms
-of this License), and this License will continue in full force and
-ефект unless terminated as stated above.
-
-*8. Miscellaneous*
-
-1. Each time You Distribute or Publicly Perform the Work or a
-Збірка, Licensor offers to recipient a license to the
-Work on the same terms and conditions as the license granted to You
-під цим License.
-2. Досягнення часу Ви можете розповсюдити або Publicly Perform an Adaptation,
-Licensor offers до recipient license to the original Work on
-the same terms and conditions as the license granted to You under
-this License.
-3. If any provision of this License is invalid or unenforceable under
-applicable law, it shall not affect the validity or enforceability
-of the remainder of the terms of this License, and without further
-action by the parties to this agreement, such provision shall be
-reformed to the minimum extent necessary to make such provision
-valid and enforceable.
-4. Немає часу або оцінки цієї Ліцензія, що руйнується, а потім не було.
-breach consented to unless such waiver or consent shall be in
-writing and signed by the party to be charged with such waiver or
-consent
-5. Ця література constitutes the entire agreement between the parties
-with respect to the Work licensed here. There are no understandings,
-agreements or representations with respect to the Work not specified
-here. Licensor shall not be bound по будь-якій іншій мірі, що
-може appear in any communication from You. This License may not be
-modified without mutual written agreement of the Licensor and
-Ви.
-6. The rights granted under, and the subject matter referenced, in
-цяLicense була drafted використовуючи terminology of the Berne
-Конвенція для захисту літератури та архітектурних робіт (as
-amended on September 28, 1979), the Rome Convention of 1961, the
-WIPO Copyright Treaty of 1996, the WIPO Performances and Phonograms
-Treaty of 1996 and the Universal Copyright Convention
-July 24, 1971). Therights and subject matter дає ефект у the
-relevant jurisdiction у яких License terms are sought to be
-enforced according to the corresponding provisions of the
-implementation of those treaty provisions в applicable national
-law. If the standard suite of rights granted under applicable
-copyright law includes additional rights не granted under this
-Ліцензія, такі особливі права є deemed to be included in the
-Ліцензія; this License is not intended to restrict license of any
-rights under applicable law.
+1.  Чому ти можеш розповсюдити або громадсько реалізувати роботу або колекцію, власника offers на recipient license to work on the same terms and conditions as license granted to You under this License.
+2.  Чому ти можеш розповсюдити або Publicly Perform Adaptation, Licensor offers до recipient a license до оригіналу Work на ті ж терміни і умови, як license granted to You under this License.
+3.  Якщо any provision of this License is invalid or unenforceable un applicable law, it shall not affect the validity or enforceability of remainder of the terms of this License, and without further action by the parties to this agreement, su provision shall be reformed minimum extent необхідний для отримання такого розміру правильний і надійний.
+4.  Чи не термін або оцінка цієї Ліцензії шахраїв, щоб позбавлятися варіантів і breach покладених на невеликий such waiver, або плакати біжить у повідомленні і повідомити про партію, щоб бути здійснені з варіативним або мертвим.
+5.  Ця література constitutes the entire agreement between parties with respect to the Work licensed here. Там немає ніякихзастережень, угруповань або творів з тим, що в роботі немає спеціальної інформації. Licensor shall not be bound by any additional provisions that may appear in any communication from You. Ця Ліцензія не може бути змінена без mutual written agreement of Licensor and You.
+6.  Праці спрямовані під, і суб'єкт матір поміщений, в цій Ліцензіі були підписані з використанням terminology of Berne Convention for Protection of Literary and Artistic Works (as amended on September 28, 1979), the Rome Convention of 1961, Treaty of 1996, the WIPO Performance and Phonograms Treaty of 1996 and the Universal Copyright Convention (as revised on July 24, 1971). Ці права і суб'єкт матір мають ефект в відповідній владі в яких літературні терміни є надійним, щоб бути спрямованими на те, щоб відповідати пропозиції of implementation of the treaty provisions in the applicable national law. Якщо у стандартній системі прав, які були захищені під застосовуваними матеріальними правами, includes additional rights не закріплені під цією Ліцензією, такі особливі права, які були включені в цю лінію; Ця Ліцензія не впроваджена до обмеження будь-якого права за допомогою застосовного права.

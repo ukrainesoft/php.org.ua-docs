@@ -1,9 +1,15 @@
-- [« Imagick::montageImage](imagick.montageimage.md)
-- [Imagick::morphology »](imagick.morphology.md)
+Перетворює набір зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Перетворює набір зображень
+-   [« Imagick::montageImage](imagick.montageimage.html)
+    
+-   [Imagick::morphology »](imagick.morphology.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Перетворює набір зображень
+    
 
 # Imagick::morphImages
 
@@ -13,19 +19,18 @@ Imagick::morphImages — Перетворює набір зображень
 
 ### Опис
 
-public **Imagick::morphImages**(int `$number_frames`):
-[Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::morphImages(int $number_frames): Imagick
+```
 
-Перетворює набір зображень. І пікселі зображення, і розмір лінійно
-інтерполуються, щоб створити видимість метаморфози від одного
-зображення до іншого.
+Перетворює набір зображень. І пікселі зображення, і розмір лінійно інтерполуються, щоб створити видимість метаморфоз від одного зображення до іншого.
 
 ### Список параметрів
 
 `number_frames`
-Кількість створюваних проміжних зображень.
+
+Кількість проміжних зображень, що створюються.
 
 ### Значення, що повертаються
 
-Метод повертає новий об'єкт Imagick у разі успішного виконання.
-Викликає **ImagickException** у разі виникнення помилки.
+Метод повертає новий об'єкт Imagick у разі успішного виконання. Викликає **ImagickException** у разі виникнення помилки.

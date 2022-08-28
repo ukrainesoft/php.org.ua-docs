@@ -1,28 +1,35 @@
-- [« ReflectionFunction::invoke](reflectionfunction.invoke.md)
-- [ReflectionFunction::isDisabled »](reflectionfunction.isdisabled.md)
+Виклик функції передачі аргументів
 
-- [PHP Manual](index.md)
-- [ReflectionFunction](class.reflectionfunction.md)
-- Виклик функції із передачею аргументів
+-   [« ReflectionFunction::invoke](reflectionfunction.invoke.html)
+    
+-   [ReflectionFunction::isDisabled »](reflectionfunction.isdisabled.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunction](class.reflectionfunction.html)
+    
+-   Виклик функції передачі аргументів
+    
 
 # ReflectionFunction::invokeArgs
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
 ReflectionFunction::invokeArgs — Виклик функції передачі аргументів
 
 ### Опис
 
-public **ReflectionFunction::invokeArgs**(array `$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionFunction::invokeArgs(array $args): mixed
+```
 
 Викликає функцію та передає їй аргументи у вигляді масиву.
 
 ### Список параметрів
 
 `args`
-Передані функції аргументи як масиву. Поведінка функції
-аналогічно [call_user_func_array()](function.call-user-func-array.md).
+
+Передані функції аргументи як масиву. Поведінка функції аналогічна [call\_user\_func\_array()](function.call-user-func-array.html)
 
 ### Значення, що повертаються
 
@@ -32,40 +39,69 @@ public **ReflectionFunction::invokeArgs**(array `$args`):
 
 **Приклад #1 Приклад використання **ReflectionFunction::invokeArgs()****
 
-` <?phpfunction title($title, $name){    return sprintf("%s. %s
-", $title, $name);}$function = new ReflectionFunction('title');echo $function->invokeArgs(array('Dr', 'Phil'));?> `
-
-Результат виконання цього прикладу:
-
-Dr. Phil
-
-**Приклад #2 Приклад використання **ReflectionFunction::invokeArgs()** з
-посиланнями на аргументи **
-
-`<?phpfunction get_false_conditions(array $conditions, array &$false_conditions){   foreach ($conditions as $condition) {         if (             ¦        ¨ }   }}$function_ref                  ¦¦¦¦¦¦¦ $false_conditions));var_dump($false_conditions);?> `
-
-Результат виконання цього прикладу:
-
-array(2) {
-[0]=>
-bool(false)
-[1]=>
-int(0)
+```php
+<?php
+function title($title, $name)
+{
+    return sprintf("%s. %s\r\n", $title, $name);
 }
+
+$function = new ReflectionFunction('title');
+
+echo $function->invokeArgs(array('Dr', 'Phil'));
+?>
+```
+
+Результат виконання цього прикладу:
+
+```
+Dr. Phil
+```
+
+**Приклад #2 Приклад використання **ReflectionFunction::invokeArgs()** з посиланнями на аргументи**
+
+```php
+<?php
+function get_false_conditions(array $conditions, array &$false_conditions)
+{
+    foreach ($conditions as $condition) {
+        if (!$condition) {
+            $false_conditions[] = $condition;
+        }
+    }
+}
+
+$function_ref     = new ReflectionFunction('get_false_conditions');
+
+$conditions       = array(true, false, -1, 0, 1);
+$false_conditions = array();
+
+$function_ref->invokeArgs(array($conditions, &$false_conditions));
+
+var_dump($false_conditions);
+?>
+```
+
+Результат виконання цього прикладу:
+
+```
+array(2) {
+  [0]=>
+  bool(false)
+  [1]=>
+  int(0)
+}
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо функція має аргументи, які мають бути посиланнями, вони
-> повинні бути посиланнями і на переданому спиці аргументів.
+> **Зауваження**
+> 
+> Якщо функція має аргументи, які мають бути посиланнями, то вони мають бути посиланнями та в переданому спиці аргументів.
 
 ### Дивіться також
 
-- [ReflectionFunction::invoke()](reflectionfunction.invoke.md) -
-Викликає функцію
-- [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) -
-Отримує кількість параметрів
-- [\_\_invoke()](language.oop5.magic.md#object.invoke)
-- [call_user_func_array()](function.call-user-func-array.md) -
-Викликає callback-функцію з масивом параметрів
+-   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
+-   [\_\_invoke()](language.oop5.magic.html#object.invoke)
+-   [call\_user\_func\_array()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів

@@ -1,21 +1,27 @@
-- [« Swoole\Process::statQueue](swoole-process.statqueue.md)
-- [Swoole\Process::wait »](swoole-process.wait.md)
+Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Створює чергу повідомлень як метод зв'язку між батьківським
-процесом та дочірніми процесами
+-   [« Swoole\\Process::statQueue](swoole-process.statqueue.html)
+    
+-   [Swoole\\Process::wait »](swoole-process.wait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
+    
 
-# Swoole\Process::useQueue
+# SwooleProcess::useQueue
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::useQueue — Створює чергу повідомлень як метод
-зв'язки між батьківським процесом та дочірніми процесами
+SwooleProcess::useQueue — Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
 
 ### Опис
 
-public **Swoole\Process::useQueue**(int `$key`, int `$mode` = ?): bool
+```methodsynopsis
+public Swoole\Process::useQueue(int $key, int $mode = ?): bool
+```
 
 ### Список параметрів
 

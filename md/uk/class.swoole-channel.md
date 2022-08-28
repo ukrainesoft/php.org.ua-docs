@@ -1,42 +1,49 @@
-- [« Swoole\Buffer::write](swoole-buffer.write.md)
-- [Swoole\Channel::\_\_construct »](swoole-channel.construct.md)
+Клас SwooleChannel
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Channel
+-   [« Swoole\\Buffer::write](swoole-buffer.write.html)
+    
+-   [Swoole\\Channel::\_\_construct »](swoole-channel.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleChannel
+    
 
-# Клас Swoole\Channel
+# Клас SwooleChannel
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Channel** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_destruct](swoole-channel.destruct.md)(): void
 
-public [pop](swoole-channel.pop.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    
+     
+      class Swoole\Channel
+     
+     {
 
-public [push](swoole-channel.push.md)(string `$data`): bool
 
-public [stats](swoole-channel.stats.md)(): array
+    /* Методы */
+    
+   public __destruct(): void
+public pop(): mixed
+public push(string $data): bool
+public stats(): array
 
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Channel::\_\_construct](swoole-channel.construct.md) -
-Створює канал Swoole
-- [Swoole\Channel::\_\_destruct](swoole-channel.destruct.md) -
-Знищує канал Swoole
-- [Swoole\Channel::pop](swoole-channel.pop.md) — Читає та витягує
-дані з каналу Swoole
-- [Swoole\Channel::push](swoole-channel.push.md) — Записує та
-передає дані до каналу Swoole
-- [Swoole\Channel::stats](swoole-channel.stats.md) — Отримує
-статистику каналу Swoole
+-   [Swoole\\Channel::\_\_construct](swoole-channel.construct.html) - Створює канал Swoole
+-   [Swoole\\Channel::\_\_destruct](swoole-channel.destruct.html) - Знищує канал Swoole
+-   [Swoole\\Channel::pop](swoole-channel.pop.html) — Читає та витягує дані з каналу Swoole
+-   [Swoole\\Channel::push](swoole-channel.push.html) — Записує та передає дані до каналу Swoole
+-   [Swoole\\Channel::stats](swoole-channel.stats.html) — Отримує статистику каналу Swoole

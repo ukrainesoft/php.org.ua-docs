@@ -1,21 +1,30 @@
-- [« Gmagick::separateimagechannel](gmagick.separateimagechannel.md)
-- [Gmagick::setfilename »](gmagick.setfilename.md)
+Встановлює якість стандартного стиснення об'єкта
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює якість стиснення об'єкта за замовчуванням
+-   [« Gmagick::separateimagechannel](gmagick.separateimagechannel.html)
+    
+-   [Gmagick::setfilename »](gmagick.setfilename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює якість стандартного стиснення об'єкта
+    
 
 # Gmagick::setCompressionQuality
 
 (No version information available, might only be in Git)
 
-Gmagick::setCompressionQuality — Встановлює якість стиснення об'єкта
-за замовчуванням
+Gmagick::setCompressionQuality — Встановлює якість стандартного стиснення об'єкта.
 
 ### Опис
 
-**Gmagick::setCompressionQuality**( int `$quality` = 75 ):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+Gmagick::setCompressionQuality(
+    int $quality
+     = 75
+   ): Gmagick
+```
 
 Встановлює якість стандартного стиснення об'єкта.
 
@@ -25,7 +34,7 @@ Gmagick::setCompressionQuality — Встановлює якість стисн�
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 
@@ -35,4 +44,10 @@ Gmagick::setCompressionQuality — Встановлює якість стисн�
 
 **Приклад #1 Приклад використання **Gmagick::setCompressionQuality()****
 
-` <?php$gm = new Gmagick();$gm->read("magick:rose");$gm->setCompressionQuality(2);?> `
+```php
+<?php
+$gm = new Gmagick();
+$gm->read("magick:rose");
+$gm->setCompressionQuality(2);
+?>
+```

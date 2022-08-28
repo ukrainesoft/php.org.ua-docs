@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](svm.configuration.md)
-- [Приклади »](svm.examples.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](svm.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](svm.configuration.html)
+    
+-   [Примеры »](svm.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](svm.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

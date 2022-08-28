@@ -1,27 +1,44 @@
-- [«EvChild::createStopped](evchild.createstopped.md)
-- [EvEmbed »](class.evembed.md)
+Конфігурування спостерігача
 
-- [PHP Manual](index.md)
-- [EvChild](class.evchild.md)
-- Конфігурування спостерігача
+-   [« EvChild::createStopped](evchild.createstopped.html)
+    
+-   [EvEmbed »](class.evembed.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvChild](class.evchild.html)
+    
+-   Конфігурування спостерігача
+    
 
 # EvChild::set
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvChild::set — Конфігурування спостерігача
+EvChild::set — Налаштування спостерігача
 
 ### Опис
 
-public **EvChild::set**( int `$pid` , bool `$trace` ): void
+```methodsynopsis
+public
+   EvChild::set(
+    int
+     $pid
+   , 
+    bool
+     $trace
+   ): void
+```
 
 ### Список параметрів
 
 `pid`
-Дивіться [EvChild::\_\_construct()](evchild.construct.md)
+
+Дивіться [EvChild::\_\_construct()](evchild.construct.html)
 
 `trace`
-Дивіться [EvChild::\_\_construct()](evchild.construct.md)
+
+Дивіться [EvChild::\_\_construct()](evchild.construct.html)
 
 ### Значення, що повертаються
 
@@ -29,5 +46,4 @@ public **EvChild::set**( int `$pid` , bool `$trace` ): void
 
 ### Дивіться також
 
-- [EvChild::\_\_construct()](evchild.construct.md) - Створює об'єкт
-спостерігач EvChild
+-   [EvChild::\_\_construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild

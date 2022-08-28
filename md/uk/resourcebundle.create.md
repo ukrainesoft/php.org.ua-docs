@@ -1,74 +1,90 @@
-- [«ResourceBundle::count](resourcebundle.count.md)
-- [ResourceBundle::getErrorCode »](resourcebundle.geterrorcode.md)
+Створити пакет ресурсів
 
-- [PHP Manual](index.md)
-- [ResourceBundle](class.resourcebundle.md)
-- Створити пакет ресурсів
+-   [« ResourceBundle::count](resourcebundle.count.html)
+    
+-   [ResourceBundle::getErrorCode »](resourcebundle.geterrorcode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ResourceBundle](class.resourcebundle.html)
+    
+-   Створити пакет ресурсів
+    
 
 # ResourceBundle::create
 
-#resourcebundle_create
+# resourcebundlecreate
 
-# ResourceBundle::\_\_construct
+# ResourceBundle::construct
 
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::create -- resourcebundle_create --
-ResourceBundle::\_\_construct — Створити пакет ресурсів
+ResourceBundle::create -- resourcebundlecreate -- ResourceBundle::construct — Створити пакет ресурсів
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод)
 
-public static **ResourceBundle::create**(?string `$locale`, ?string
-`$bundle`, bool `$fallback` = **`true`**):
-?[ResourceBundle](class.resourcebundle.md)
+```methodsynopsis
+public static ResourceBundle::create(?string $locale, ?string $bundle, bool $fallback = true): ?ResourceBundle
+```
 
 Процедурний стиль
 
-**resourcebundle_create**(?string`$locale`, ?string`$bundle`, bool
-`$fallback` = **`true`**): ?[ResourceBundle](class.resourcebundle.md)
+```methodsynopsis
+resourcebundle_create(?string $locale, ?string $bundle, bool $fallback = true): ?ResourceBundle
+```
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **ResourceBundle::\_\_construct**(?string `$locale`, ?string
-`$bundle`, bool `$fallback` = **`true`**)
+public **ResourceBundle::construct**(?string `$locale`, ?string `$bundle`, bool `$fallback` **`true`**
 
 Створює пакет ресурсів.
 
 ### Список параметрів
 
 `locale`
-Локаль для якої необхідно завантажувати ресурси (ім'я локалі, наприклад,
-ru_RU).
+
+Локаль для якої необхідно завантажувати ресурси (ім'я локалі, наприкладRU).
 
 `bundle`
-Директорія, в якій лежать дані або ім'я .dat файлу.
+
+Директорія, у якій лежать дані, чи ім'я .dat файла.
 
 `fallback`
-Визначає, чи потрібно точно дотримуватися заданої локалі, чи можна
-відкочуватися до батьківської, якщо це можливо.
+
+Визначає, чи потрібно точно дотримуватись заданої локалі, чи можна відкочуватися до батьківської, якщо можливо.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ResourceBundle](class.resourcebundle.md) або
-**`null`** у разі виникнення помилки.
+Повертає об'єкт [ResourceBundle](class.resourcebundle.html) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundle_create()****
+**Приклад #1 Приклад використання **resourcebundlecreate()****
 
-` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo $r['teststring'];?> `
+```php
+<?php
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo $r['teststring'];
+?>
+```
 
 **Приклад #2 Приклад використання **ResourceBundle::create()****
 
-` <?php$r = ResourceBundle::create( 'es', "/usr/share/data/myapp");echo $r['teststring'];?> `
+```php
+<?php
+$r = ResourceBundle::create( 'es', "/usr/share/data/myapp");
+echo $r['teststring'];
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 ¡Hola, mundo!
+```
 
 ### Дивіться також
 
-- [resourcebundle_get()](resourcebundle.get.md) - Отримати дані з
-пакету
+-   [resourcebundle\_get()](resourcebundle.get.html) - Отримати дані з пакета

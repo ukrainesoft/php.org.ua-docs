@@ -1,22 +1,29 @@
-- [« GearmanJob::fail](gearmanjob.fail.md)
-- [GearmanJob::handle »](gearmanjob.handle.md)
+Отримання імені функції
 
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Отримання імені функції
+-   [« GearmanJob::fail](gearmanjob.fail.html)
+    
+-   [GearmanJob::handle »](gearmanjob.handle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanJob](class.gearmanjob.html)
+    
+-   Отримання імені функції
+    
 
 # GearmanJob::functionName
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanJob::functionName — Отримання імені функції
 
 ### Опис
 
-public **GearmanJob::functionName**(): string
+```methodsynopsis
+public GearmanJob::functionName(): string
+```
 
-Повертає ім'я функції, що обробляє дані, тобто функції, яка
-буде викликана до виконання завдання.
+Повертає ім'я функції, яка обробляє дані, тобто функції, яка буде викликана для виконання завдання.
 
 ### Список параметрів
 
@@ -24,9 +31,8 @@ public **GearmanJob::functionName**(): string
 
 ### Значення, що повертаються
 
-Назва функції.
+Ім'я функції.
 
 ### Дивіться також
 
-- [GearmanTask::function()](gearmantask.function.md) - Отримати ім'я
-пов'язаної функції (застарілий метод)
+-   [GearmanTask::function()](gearmantask.function.html) - Отримати ім'я пов'язаної функції (застарілий метод)

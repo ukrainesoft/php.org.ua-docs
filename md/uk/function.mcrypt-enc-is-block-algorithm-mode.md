@@ -1,35 +1,40 @@
-- [« mcrypt_enc_get_supported_key_sizes](function.mcrypt-enc-get-supported-key-sizes.md)
-- [mcrypt_enc_is_block_algorithm »](function.mcrypt-enc-is-block-algorithm.md)
+Перевіряє, чи використовується блоковий режим
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Перевіряє, чи використовується блоковий режим
+-   [« mcrypt\_enc\_get\_supported\_key\_sizes](function.mcrypt-enc-get-supported-key-sizes.html)
+    
+-   [mcrypt\_enc\_is\_block\_algorithm »](function.mcrypt-enc-is-block-algorithm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Перевіряє, чи використовується блоковий режим
+    
 
-# mcrypt_enc_is_block_algorithm_mode
+# mcryptencісblockalgorithmmode
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_enc_is_block_algorithm_mode — Перевіряє, чи використовується блоковий
-режим
+mcryptencісblockalgorithmmode — Перевіряє, чи використовується блоковий режим
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_enc_is_block_algorithm_mode**(resource `$td`): bool
+```methodsynopsis
+mcrypt_enc_is_block_algorithm_mode(resource $td): bool
+```
 
-Перевіряє, чи використовується блоковий режим (іншими словами, **`false`**
-для потоків і **`true`** для cbc, cfb, ofb).
+Перевіряє, чи використовується блоковий режим (іншими словами, **`false`** для потоків та **`true`** для cbc, cfb, ofb).
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо використовується блоковий режим та **`false`**,
-якщо ні.
+Повертає **`true`**, якщо використовується блоковий режим та **`false`**, якщо ні.

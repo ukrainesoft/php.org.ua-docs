@@ -1,23 +1,29 @@
-- [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md)
-- [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.md)
+Перемикає QueryParser на DisMax Query Parser
 
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Перемикає QueryParser на DisMax Query Parser
+-   [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.html)
+    
+-   [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDisMaxQuery](class.solrdismaxquery.html)
+    
+-   Перемикає QueryParser на DisMax Query Parser
+    
 
 # SolrDisMaxQuery::useDisMaxQueryParser
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::useDisMaxQueryParser — Перемикає QueryParser на
-DisMax Query Parser
+SolrDisMaxQuery::useDisMaxQueryParser — Перемикає QueryParser на DisMax Query Parser
 
 ### Опис
 
-public **SolrDisMaxQuery::useDisMaxQueryParser**():
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::useDisMaxQueryParser(): SolrDisMaxQuery
+```
 
-Переключає QueryParser на DisMax Query Parser
+Перемикає QueryParser на DisMax Query Parser
 
 ### Список параметрів
 
@@ -25,19 +31,27 @@ public **SolrDisMaxQuery::useDisMaxQueryParser**():
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+[SolrDisMaxQuery](class.solrdismaxquery.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrDisMaxQuery::useDisMaxQueryParser()****
+**Приклад #1 Приклад використання **SolrDisMaxQuery::useDisMaxQueryParser()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->useDisMaxQueryParser();echo $dismaxQuery;?> `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery();
+$dismaxQuery->useDisMaxQueryParser();
+echo $dismaxQuery;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 defType=dismax
+```
 
 ### Дивіться також
 
-- **SolrDisMaxQuery::useDisMaxQueryParser()**
+-   **SolrDisMaxQuery::useDisMaxQueryParser()**

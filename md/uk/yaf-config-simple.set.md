@@ -1,25 +1,31 @@
-- [« Yaf_Config_Simple::rewind](yaf-config-simple.rewind.md)
-- [Yaf_Config_Simple::toArray »](yaf-config-simple.toarray.md)
+Призначення set
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення \_\_set
+-   [« Yaf\_Config\_Simple::rewind](yaf-config-simple.rewind.html)
+    
+-   [Yaf\_Config\_Simple::toArray »](yaf-config-simple.toarray.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+    
+-   Призначення set
+    
 
-# Yaf_Config_Simple::\_\_set
+# YafConfigSimple::set
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Simple::\_\_set - Призначення \_\_set
+YafConfigSimple::set - Призначення set
 
 ### Опис
 
-public **Yaf_Config_Simple::\_\_set**(string `$name`, string `$value`):
-void
+```methodsynopsis
+public Yaf_Config_Simple::__set(string $name, string $value): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

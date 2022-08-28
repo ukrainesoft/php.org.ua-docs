@@ -1,59 +1,72 @@
-- [«bzcompress](function.bzcompress.md)
-- [bzerrno »](function.bzerrno.md)
+Розпаковує дані, стиснуті з використанням bzip2
 
-- [PHP Manual](index.md)
-- [Функції Bzip2](ref.bzip2.md)
-- Розпаковує дані, стислі з використанням bzip2
+-   [« bzcompress](function.bzcompress.html)
+    
+-   [bzerrno »](function.bzerrno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Bzip2](ref.bzip2.html)
+    
+-   Розпаковує дані, стиснуті з використанням bzip2
+    
 
-#bzdecompress
+# bzdecompress
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzdecompress — Розпаковує дані, стиснуті з використанням bzip2
 
 ### Опис
 
-**bzdecompress**(string `$data`, bool `$use_less_memory` = **`false`**):
-string\|int\|false
+```methodsynopsis
+bzdecompress(string $data, bool $use_less_memory = false): string|int|false
+```
 
-**bzdecompress()** розпаковує переданий рядок, що містить стислі
-bzip2 дані.
+**bzdecompress()** розпаковує переданий рядок, що містить стиснуті bzip2 дані.
 
 ### Список параметрів
 
 `data`
+
 Рядок, що розпаковується.
 
 `use_less_memory`
-Якщо **`true`**, то буде використано альтернативний алгоритм
-розпакування, що використовує менше пам'яті (максимально потрібна пам'ять
-знаходиться в районі 2300K), але працює приблизно вдвічі повільніше.
 
-Дивіться [документацію по bzip2](https://www.sourceware.org/bzip2/)
-для більш детальної інформації про цю можливість.
+Якщо **`true`**, то буде використаний альтернативний алгоритм розпакування, що використовує менше пам'яті (максимально потрібна пам'ять знаходиться в районі 2300K), але працює приблизно вдвічі повільніше.
+
+Дивіться [» документацию по bzip2](https://www.sourceware.org/bzip2/) для більш детальної інформації про цю можливість.
 
 ### Значення, що повертаються
 
-Розпакований рядок або **`false`** або код помилки у разі
-виникнення помилки.
+Розпакований рядок або **`false`** або код помилки у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                  |
-| ------ | ------------------------------------------------------------------------------------- |
-| 8.0.0  | Тип use_less_memory змінений з int на bool. Раніше значенням за промовчанням був '0'. |
+| Версия | Описание |
+| --- | --- |
+|  | Тип `use_less_memory` змінено з int на bool. Раніше значенням за умовчанням був `0` |
 
 ### Приклади
 
 **Приклад #1 Розпакування рядка**
 
-` <?php$start_str = "This is not an honest face?";$bzstr = bzcompress($start_str);echo "Compressed String: ";echo $bzstr;echo "
-<br>
-";$str =bzdecompress($bzstr);echo "Decompressed String: ";echo $str;echo "
-<br>
-";?> `
+```php
+<?php
+$start_str = "This is not an honest face?";
+$bzstr = bzcompress($start_str);
+
+echo "Compressed String: ";
+echo $bzstr;
+echo "\n<br />\n";
+
+$str = bzdecompress($bzstr);
+echo "Decompressed String: ";
+echo $str;
+echo "\n<br />\n";
+?>
+```
 
 ### Дивіться також
 
-- [bzcompress()](function.bzcompress.md) - Стисне рядок з
-використанням bzip2
+-   [bzcompress()](function.bzcompress.html) - Стискає рядок з використанням bzip2

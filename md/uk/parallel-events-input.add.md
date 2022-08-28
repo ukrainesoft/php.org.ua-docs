@@ -1,21 +1,25 @@
-- [«parallel\Events\Input](class.parallel-events-input.md)
-- [parallel\Events\Input::clear »](parallel-events-input.clear.md)
+Входи
 
-- [PHP Manual](index.md)
-- [parallel\Events\Input](class.parallel-events-input.md)
-- Входи
+-   [« parallel\\Events\\Input](class.parallel-events-input.html)
+    
+-   [parallel\\Events\\Input::clear »](parallel-events-input.clear.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Events\\Input](class.parallel-events-input.html)
+    
+-   Входи
+    
 
-# parallel\Events\Input::add
+# parallelEventsInput::add
 
-(0.9.0)
-
-parallel\Events\Input::add — Вхід
+parallelEventsInput::add — Вхід
 
 ### Опис
 
-public **parallel\Events\Input::add**(string `$target`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public parallel\Events\Input::add(string $target, mixed $value): void
+```
 
 Встановлює вхід для заданої мети
 
@@ -23,10 +27,8 @@ public **parallel\Events\Input::add**(string `$target`,
 
 **Увага**
 
-Викидає parallel\Events\Input\Error\Existence, якщо вхід для цілі
-вже існує.
+Викидає parallelEventsInputErrorExistence, якщо вхід до мети вже існує.
 
 **Увага**
 
-Викидає parallel\Events\Input\Error\IllegalValue, якщо значення
-неприпустимо (object, ** `null`**).
+Викидає parallelEventsInputErrorIllegalValue, якщо значення неприпустимо (object, **`null`**

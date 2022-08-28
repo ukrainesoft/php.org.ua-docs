@@ -1,20 +1,27 @@
-- [« Gmagick::getreleasedate](gmagick.getreleasedate.md)
-- [Gmagick::getsize »](gmagick.getsize.md)
+Повертає вертикальний та горизонтальний фактор дискретизації
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає вертикальний та горизонтальний фактор дискретизації
+-   [« Gmagick::getreleasedate](gmagick.getreleasedate.html)
+    
+-   [Gmagick::getsize »](gmagick.getsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає вертикальний та горизонтальний фактор дискретизації
+    
 
 # Gmagick::getsamplingfactors
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getsamplingfactors — Повертає вертикальний та горизонтальний
-фактор дискретизації
+Gmagick::getsamplingfactors — Повертає вертикальний та горизонтальний фактор дискретизації
 
 ### Опис
 
-public **Gmagick::getsamplingfactors**(): array
+```methodsynopsis
+public Gmagick::getsamplingfactors(): array
+```
 
 Повертає вертикальний та горизонтальний фактор дискретизації.
 
@@ -24,8 +31,7 @@ public **Gmagick::getsamplingfactors**(): array
 
 ### Значення, що повертаються
 
-Повертає вертикальний та горизонтальний фактор дискретизації
-зображення у вигляді асоціативного масиву.
+Повертає вертикальний та горизонтальний фактор дискретизації зображення у вигляді асоціативного масиву.
 
 ### Помилки
 

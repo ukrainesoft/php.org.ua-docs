@@ -1,22 +1,30 @@
-- [«EventBase::gotExit](eventbase.gotexit.md)
-- [EventBase::loop »](eventbase.loop.md)
+Перевіряє, чи був цикл обробки подій завершено
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Перевіряє, чи був цикл обробки подій завершений
+-   [« EventBase::gotExit](eventbase.gotexit.html)
+    
+-   [EventBase::loop »](eventbase.loop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Перевіряє, чи був цикл обробки подій завершено
+    
 
 # EventBase::gotStop
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBase::gotStop — Перевіряє, чи цикл обробки подій завершено
+EventBase::gotStop — Перевіряє, чи завершився цикл обробки подій.
 
 ### Опис
 
-public **EventBase::gotStop**(): bool
+```methodsynopsis
+public
+   EventBase::gotStop(): bool
+```
 
-Перевіряє, чи був цикл обробки подій завершено за допомогою
-[EventBase::stop()](eventbase.stop.md) .
+Перевіряє, чи був цикл обробки подій завершено за допомогою [EventBase::stop()](eventbase.stop.html)
 
 ### Список параметрів
 
@@ -24,15 +32,10 @@ public **EventBase::gotStop**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цикл обробки подій був завершений з
-[EventBase::stop()](eventbase.stop.md) . В іншому випадку -
-**`false`**.
+Повертає **`true`**, якщо цикл обробки подій було завершено за допомогою [EventBase::stop()](eventbase.stop.html) . В іншому випадку - **`false`**
 
 ### Дивіться також
 
-- [EventBase::exit()](eventbase.exit.md) - Припиняє надсилання
-подій
-- [EventBase::stop()](eventbase.stop.md) - Повідомляє event_base
-припинити надсилання подій
-- [EventBase::gotExit()](eventbase.gotexit.md) - Перевіряє, чи був він
-цикл обробки подій завершено
+-   [EventBase::exit()](eventbase.exit.html) - Припиняє відправлення подій
+-   [EventBase::stop()](eventbase.stop.html) - Повідомляє eventbase припинити відправку подій
+-   [EventBase::gotExit()](eventbase.gotexit.html) - Перевіряє, чи був цикл обробки подій завершений

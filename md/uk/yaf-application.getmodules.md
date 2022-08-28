@@ -1,23 +1,29 @@
-- [« Yaf_Application::getLastErrorNo](yaf-application.getlasterrorno.md)
-- [Yaf_Application::run »](yaf-application.run.md)
+Отримати імена заявлених модулів
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Отримати імена заявлених модулів
+-   [« Yaf\_Application::getLastErrorNo](yaf-application.getlasterrorno.html)
+    
+-   [Yaf\_Application::run »](yaf-application.run.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Application](class.yaf-application.html)
+    
+-   Отримати імена заявлених модулів
+    
 
-# Yaf_Application::getModules
+# YafApplication::getModules
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Application::getModules — Отримати імена заявлених модулів
+YafApplication::getModules — Отримати імена заявлених модулів
 
 ### Опис
 
-public **Yaf_Application::getModules**(): array
+```methodsynopsis
+public Yaf_Application::getModules(): array
+```
 
-Отримати список модулів, заданих у конфігураційному файлі. Якщо не
-одного модуля не задано, то у вашому розпорядженні завжди є модуль
-"Index".
+Отримати список модулів, заданих у конфігураційному файлі. Якщо жодного модуля не встановлено, то у вашому розпорядженні завжди є модуль "Index".
 
 ### Список параметрів
 
@@ -27,13 +33,27 @@ public **Yaf_Application::getModules**(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Application::getModules()****
+**Приклад #1 Приклад використання **YafApplication::getModules()****
 
-`<?php$config = array(    "application" => array(       "directory" => realpath(dirname(__FILE__)) . "/application", Y_ ) $config);print_r($application->getModules());?> `
+```php
+<?php
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
+);
+
+/** Yaf_Application */
+$application = new Yaf_Application($config);
+print_r($application->getModules());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Index
+    [0] => Index
 )
+```

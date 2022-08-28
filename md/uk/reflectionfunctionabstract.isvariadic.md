@@ -1,23 +1,29 @@
-- [« ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md)
-- [ReflectionFunctionAbstract::returnsReference »](reflectionfunctionabstract.returnsreference.md)
+Перевіряє, чи функція є функцією зі змінною кількістю аргументів
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Перевіряє, чи є функція зі змінним числом
-аргументів
+-   [« ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.html)
+    
+-   [ReflectionFunctionAbstract::returnsReference »](reflectionfunctionabstract.returnsreference.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Перевіряє, чи функція є функцією зі змінною кількістю аргументів
+    
 
 # ReflectionFunctionAbstract::isVariadic
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isVariadic — Перевіряє, чи є функція
-функцією зі змінною кількістю аргументів
+ReflectionFunctionAbstract::isVariadic — Перевіряє, чи функція є функцією зі змінним числом аргументів
 
 ### Опис
 
-public **ReflectionFunctionAbstract::isVariadic**(): bool
+```methodsynopsis
+public ReflectionFunctionAbstract::isVariadic(): bool
+```
 
-Перевіряє, чи є функція з [змінним числом аргументів](functions.arguments.md#functions.variable-arg-list).
+Перевіряє, чи є функція функцією з [переменным числом аргументов](functions.arguments.html#functions.variable-arg-list)
 
 ### Список параметрів
 
@@ -25,5 +31,4 @@ public **ReflectionFunctionAbstract::isVariadic**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо функція зі змінним числом аргументів,
-**`false`** інакше.
+Повертає **`true`**, якщо функція зі змінним числом аргументів, **`false`** в іншому випадку.

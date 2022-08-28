@@ -1,85 +1,67 @@
-- [«Зумовлені константи](math.constants.md)
-- [abs »](function.abs.md)
-
-- [PHP Manual](index.md)
-- [Math](book.math.md)
-- Математичні функції
-
 Математичні функції
+
+-   [« Предопределённые константы](math.constants.html)
+    
+-   [abs »](function.abs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Math](book.math.html)
+    
+-   Математичні функції
+    
+
+# Математичні функції
 
 ## Зміст
 
-- [abs](function.abs.md) - Абсолютне значення (модуль числа)
-- [acos](function.acos.md) - Арккосінус
-- [acosh](function.acosh.md) - Гіперболічний арккосинус
-- [asin](function.asin.md) - Арксінус
-- [asinh](function.asinh.md) - Гіперболічний арксинус
-- [atan2](function.atan2.md) - Арктангенс двох змінних
-- [atan](function.atan.md) - Арктангенс
-- [atanh](function.atanh.md) - Гіперболічний арктангенс
-- [base_convert](function.base-convert.md) — Перетворення числа
-між довільними системами числення
-- [bindec](function.bindec.md) - Двійкове до десяткового
-- [ceil](function.ceil.md) - Округлює дріб у велику сторону
-- [cos](function.cos.md) - Косінус
-- [cosh](function.cosh.md) - Гіперболічний косинус
-- [decbin](function.decbin.md) — Перекладає число з десяткового
-системи числення в двійкову
-- [dechex](function.dechex.md) — Перекладає число з десяткового
-системи числення в шістнадцяткову
-- [decoct](function.decoct.md) — Перекладає число з десяткового
-системи числення у вісімкову
-- [deg2rad](function.deg2rad.md) — Перетворює значення градусів
-у радіани
-- [exp](function.exp.md) - Обчислює ступінь числа e
-- [expm1](function.expm1.md) - Повертає exp(number) - 1,
-розраховане таким чином, що результат точний, навіть якщо значення
-Номер близько до нуля.
-- [fdiv](function.fdiv.md) - ділить одне число на інше в
-відповідно до IEEE 754
-- [floor](function.floor.md) — Округлює дріб у менший бік
-- [fmod](function.fmod.md) — Повертає дрібний залишок від розподілу
-за модулем
-- [getrandmax](function.getrandmax.md) – Повертає максимально
-можливе випадкове число
-- [hexdec](function.hexdec.md) — Перекладає число з
-шістнадцятковій системи числення до десяткової
-- [hypot](function.hypot.md) - Розраховує довжину гіпотенузи
-прямокутного трикутника
-- [intdiv](function.intdiv.md) - цілісний поділ
-- [is_finite](function.is-finite.md) — Перевіряє, чи є
-значення допустимим кінцевим числом
-- [is_infinite](function.is-infinite.md) — Перевіряє, чи є
-значення нескінченним
-- [is_nan](function.is-nan.md) — Перевіряє, чи є значення "не
-числом"
-- [lcg_value](function.lcg-value.md) - Комбінований лінійний
-конгруентний генератор
-- [log10](function.log10.md) - Десятковий логарифм
-- [log1p](function.log1p.md) - Повертає log(1 + number),
-розрахований так, що результат точний, навіть якщо значення number
-близько до нуля
-- [log](function.log.md) - Натуральний логарифм
-- [max](function.max.md) — Повертає найбільше значення
-- [min](function.min.md) - Знаходить найменше значення
-- [mt_getrandmax](function.mt-getrandmax.md) — Показує
-максимально можливе значення випадкового числа
-- [mt_rand](function.mt-rand.md) — генерує випадкове значення
-методом за допомогою генератора простих чисел на базі Вихря Мерсенна
-- [mt_srand](function.mt-srand.md) - Проініціалізує генератор
-випадкових чисел на базі Вихря Мерсенна
-- [octdec](function.octdec.md) — Перекладає число з восьмеричного
-системи числення до десяткової
-- [pi](function.pi.md) - Повертає число Пі
-- [pow](function.pow.md) - Зведення в ступінь
-- [rad2deg](function.rad2deg.md) — Перетворює значення радіанів
-у градуси
-- [rand](function.rand.md) - Генерує випадкове число
-- [round](function.round.md) — Округлює кількість типу float
-- [sin](function.sin.md) - Сінус
-- [sinh](function.sinh.md) - Гіперболічний синус
-- [sqrt](function.sqrt.md) - Квадратний корінь
-- [srand](function.srand.md) — Змінює початкове число генератора
-псевдовипадкових чисел
-- [tan](function.tan.md) - Тангенс
-- [tanh](function.tanh.md) - Гіперболічний тангенс
+-   [abs](function.abs.html) - Абсолютне значення (модуль числа)
+-   [acos](function.acos.html) - Арккосинус
+-   [acosh](function.acosh.html) - Гіперболічний арккосинус
+-   [asin](function.asin.html) - Арксінус
+-   [asinh](function.asinh.html) - Гіперболічний арксинус
+-   [atan2](function.atan2.html) - Арктангенс двох змінних
+-   [atan](function.atan.html) - Арктангенс
+-   [atanh](function.atanh.html) - Гіперболічний арктангенс
+-   [base\_convert](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [bindec](function.bindec.html) — Двійкове у десяткове
+-   [ceil](function.ceil.html) — Заокруглює дріб у велику сторону
+-   [cos](function.cos.html) - Косінус
+-   [cosh](function.cosh.html) - Гіперболічний косинус
+-   [decbin](function.decbin.html) — Переводить число з десяткової системи числення до двійкової.
+-   [dechex](function.dechex.html) — Переводить число з десяткової системи числення до шістнадцяткової
+-   [decoct](function.decoct.html) — Переказує число з десяткової системи числення до восьмирічної
+-   [deg2rad](function.deg2rad.html) — Перетворює значення із градусів на радіани
+-   [exp](function.exp.html) - Обчислює ступінь числа e
+-   [expm1](function.expm1.html) - Повертає exp(number) - 1, розраховане таким чином, що результат точний, навіть якщо значення number близько до нуля.
+-   [fdiv](function.fdiv.html) — ділить одне число на інше відповідно до IEEE 754
+-   [floor](function.floor.html) — Округлює дріб у менший бік
+-   [fmod](function.fmod.html) — Повертає дробовий залишок від розподілу за модулем
+-   [getrandmax](function.getrandmax.html) — Повертає максимально можливе випадкове число
+-   [hexdec](function.hexdec.html) — Переводить число із шістнадцяткової системи числення до десяткової
+-   [hypot](function.hypot.html) - Розраховує довжину гіпотенузи прямокутного трикутника
+-   [intdiv](function.intdiv.html) — Цілочисельний поділ
+-   [is\_finite](function.is-finite.html) — Перевіряє, чи є значення допустимим кінцевим числом
+-   [is\_infinite](function.is-infinite.html) — Перевіряє, чи є значення нескінченним
+-   [is\_nan](function.is-nan.html) - Перевіряє, чи є значення "не числом"
+-   [lcg\_value](function.lcg-value.html) - Комбінований лінійний конгруентний генератор
+-   [log10](function.log10.html) - Десятковий логарифм
+-   [log1p](function.log1p.html) — Повертає log(1 + number), розрахований так, що результат точний, навіть якщо значення number близьке до нуля
+-   [log](function.log.html) - Натуральний логарифм
+-   [max](function.max.html) — Повертає найбільше значення
+-   [min](function.min.html) — Знаходить найменше значення
+-   [mt\_getrandmax](function.mt-getrandmax.html) — Показує максимально можливе значення випадкового числа
+-   [mt\_rand](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [mt\_srand](function.mt-srand.html) - Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна
+-   [octdec](function.octdec.html) — Переказує число з вісімкової системи числення до десяткової
+-   [pi](function.pi.html) - Повертає число Пі
+-   [pow](function.pow.html) - Зведення в ступінь
+-   [rad2deg](function.rad2deg.html) — Перетворює значення з радіанів на градуси
+-   [rand](function.rand.html) - Генерує випадкове число
+-   [round](function.round.html) - Округлює число типу float
+-   [sin](function.sin.html) - Сінус
+-   [sinh](function.sinh.html) - Гіперболічний синус
+-   [sqrt](function.sqrt.html) - Квадратний корінь
+-   [srand](function.srand.html) - Змінює початкове число генератора псевдовипадкових чисел
+-   [tan](function.tan.html) - Тангенс
+-   [tanh](function.tanh.html) - Гіперболічний тангенс

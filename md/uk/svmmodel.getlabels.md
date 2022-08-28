@@ -1,22 +1,29 @@
-- [« SVMModel::\_\_construct](svmmodel.construct.md)
-- [SVMModel::getNrClass »](svmmodel.getnrclass.md)
+Повертає мітки, на яких навчалася модель
 
-- [PHP Manual](index.md)
-- [SVMModel](class.svmmodel.md)
-- Повертає позначки, на яких навчалася модель
+-   [« SVMModel::\_\_construct](svmmodel.construct.html)
+    
+-   [SVMModel::getNrClass »](svmmodel.getnrclass.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SVMModel](class.svmmodel.html)
+    
+-   Повертає мітки, на яких навчалася модель
+    
 
 # SVMModel::getLabels
 
-(PECL svm = 0.1.5)
+(PECL svm >= 0.1.5)
 
 SVMModel::getLabels — Повертає позначки, на яких навчалася модель
 
 ### Опис
 
-public **SVMModel::getLabels**(): array
+```methodsynopsis
+public SVMModel::getLabels(): array
+```
 
-Повертає масив міток (класів), на яких була навчена модель. Для
-регресивної та однокласової моделі повертається порожній масив.
+Повертає масив міток (класів), на яких була навчена модель. Для регресивної та однокласової моделі повертається порожній масив.
 
 ### Список параметрів
 
@@ -28,5 +35,4 @@ public **SVMModel::getLabels**(): array
 
 ### Дивіться також
 
-- [SVMModel::getNrClass()](svmmodel.getnrclass.md) - Повертає
-кількість класів, для яких навчалася модель
+-   [SVMModel::getNrClass()](svmmodel.getnrclass.html) - Повертає кількість класів, для яких навчалась модель

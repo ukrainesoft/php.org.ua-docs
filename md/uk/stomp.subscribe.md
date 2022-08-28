@@ -1,60 +1,64 @@
-- [« Stomp::setReadTimeout](stomp.setreadtimeout.md)
-- [Stomp::unsubscribe »](stomp.unsubscribe.md)
+Реєструє передплату на вказану розсилку
 
-- [PHP Manual](index.md)
-- [Stomp](class.stomp.md)
-- реєструє підписку на вказану розсилку
+-   [« Stomp::setReadTimeout](stomp.setreadtimeout.html)
+    
+-   [Stomp::unsubscribe »](stomp.unsubscribe.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Stomp](class.stomp.html)
+    
+-   Реєструє передплату на вказану розсилку
+    
 
 # Stomp::subscribe
 
-#stomp_subscribe
+# stompsubscribe
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
-Stomp::subscribe -- stomp_subscribe — Зареєструє передплату на вказану
-розсилку
+Stomp :: subscribe -- stompsubscribe — Зареєструє передплату на вказану розсилку
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::subscribe**(string `$destination`, array `$headers` =
-?): bool
+```methodsynopsis
+public Stomp::subscribe(string $destination, array $headers = ?): bool
+```
 
 Процедурний стиль:
 
-**stomp_subscribe**(resource `$link`, string `$destination`, array
-`$headers` = ?): bool
+```methodsynopsis
+stomp_subscribe(resource $link, string $destination, array $headers = ?): bool
+```
 
 Реєструє передплату на вказану розсилку.
 
 ### Список параметрів
 
 `link`
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp,
-отриманий із [stomp_connect()](stomp.construct.md).
+
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
 
 `destination`
+
 Розсилання, на яке необхідно зареєструвати передплату.
 
 `headers`
-Асоціативний масив, що містить додаткові заголовки (приклад:
-receipt).
+
+Асоціативний масив, який містить додаткові заголовки (приклад: receipt).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-Дивіться [stomp_ack()](stomp.ack.md).
+Дивіться [stomp\_ack()](stomp.ack.html)
 
 ### Примітки
 
 **Підказка**
 
-Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований
-додаванням receipt-заголовка. Це змусить методи нічого не повертати,
-доки сервер не підтвердить отримання повідомлення або не буде перевищено
-час очікування повідомлення.
+Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований додаванням receipt-заголовка. Це змусить методи нічого не повертати, поки сервер не підтвердить отримання повідомлення або буде перевищено час очікування повідомлення.

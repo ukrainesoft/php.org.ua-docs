@@ -1,51 +1,47 @@
-- [« variant_cast](function.variant-cast.md)
-- [variant_cmp »](function.variant-cmp.md)
+Об'єднання (конкатенація) значень двох варіантів
 
-- [PHP Manual](index.md)
-- [Функції COM](ref.com.md)
-- Об'єднання (конкатенація) значень двох варіантів
+-   [« variant\_cast](function.variant-cast.html)
+    
+-   [variant\_cmp »](function.variant-cmp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции COM](ref.com.html)
+    
+-   Об'єднання (конкатенація) значень двох варіантів
+    
 
-# variant_cat
+# variantcat
 
 (PHP 5, PHP 7, PHP 8)
 
-variant_cat - Об'єднання (конкатенація) значень двох варіантів
+variantcat - Об'єднання (конкатенація) значень двох варіантів
 
 ### Опис
 
-**variant_cat**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$left`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$right`): [variant](class.variant.md)
+```methodsynopsis
+variant_cat(mixed $left, mixed $right): variant
+```
 
-Поєднує `left` з `right` і повертає результат.
+Об'єднує `left` з `right` та повертає результат.
 
-Функція еквівалентна виконанню `$left``.``$right`.
+Функція еквівалентна виконанню `$left` `.` `$right`
 
 ### Список параметрів
 
 `left`
+
 Лівий операнд.
 
 `right`
+
 Правий операнд.
 
-> **Примітка**:
->
-> Як і з усіма варіантними арифметичними функціями, параметри цієї
-> функції можуть бути як рідними типами PHP (integer, string, floating
-> point, boolean або **`null`**), так і екземплярами класів COM,
-> VARIANT або DOTNET. Рідні PHP типи будуть перетворені на варіанти
-> (variants) за тими самими правилами, що й у конструкторі класу
-> [Variant](class.variant.md). У об'єктів COM і DOTNET буде взято і
-> використано їх значення за замовчуванням як значення варіанта.
->
-> Варіантні арифметичні функції є обертанням навколо
-> однойменних функцій у бібліотеці COM; для більш детальної інформації
-> За цими функціями проконсультуйтеся з бібліотекою MSDN. Назви
-> PHP-функцій трохи відрізняються; наприклад,
-> [variant_add()](function.variant-add.md) у PHP відповідає
-> `VarAdd()` у документації MSDN.
+> **Зауваження**
+> 
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> 
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
 ### Значення, що повертаються
 
@@ -53,10 +49,8 @@ variant_cat - Об'єднання (конкатенація) значень дв
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md)
-у разі виникнення помилки.
+Викидає виняток [com\_exception](class.com-exception.html) у разі виникнення помилки.
 
 ### Дивіться також
 
-- [Рядкові оператори](language.operators.string.md) - конкатенація
-рядків
+-   [Строковые операторы](language.operators.string.html) - конкатенація рядків

@@ -1,20 +1,27 @@
-- [«SolrResponse::getHttpStatus](solrresponse.gethttpstatus.md)
-- [SolrResponse::getRawRequest »](solrresponse.getrawrequest.md)
+Повертає докладнішу інформацію про статус HTTP
 
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає більш детальну інформацію про статус HTTP
+-   [« SolrResponse::getHttpStatus](solrresponse.gethttpstatus.html)
+    
+-   [SolrResponse::getRawRequest »](solrresponse.getrawrequest.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrResponse](class.solrresponse.html)
+    
+-   Повертає докладнішу інформацію про статус HTTP
+    
 
 # SolrResponse::getHttpStatusMessage
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrResponse::getHttpStatusMessage — Повертає докладніше
-інформацію про статус HTTP
+SolrResponse::getHttpStatusMessage — Повертає докладнішу інформацію про статус HTTP
 
 ### Опис
 
-public **SolrResponse::getHttpStatusMessage**(): string
+```methodsynopsis
+public SolrResponse::getHttpStatusMessage(): string
+```
 
 Повертає докладнішу інформацію про статус HTTP.
 

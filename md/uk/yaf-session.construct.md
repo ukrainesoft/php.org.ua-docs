@@ -1,24 +1,29 @@
-- [« Yaf_Session](class.yaf-session.md)
-- [Yaf_Session::count »](yaf-session.count.md)
+Конструктор класу YafSession
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Конструктор класу Yaf_Session
+-   [« Yaf\_Session](class.yaf-session.html)
+    
+-   [Yaf\_Session::count »](yaf-session.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Конструктор класу YafSession
+    
 
-# Yaf_Session::\_\_construct
+# YafSession::construct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::\_\_construct - Конструктор класу Yaf_Session
+YafSession::construct - Конструктор класу YafSession
 
 ### Опис
 
-private **Yaf_Session::\_\_construct**()
+private **YafSession::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

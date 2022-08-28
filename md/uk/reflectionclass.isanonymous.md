@@ -1,9 +1,15 @@
-- [« ReflectionClass::isAbstract](reflectionclass.isabstract.md)
-- [ReflectionClass::isCloneable »](reflectionclass.iscloneable.md)
+Перевіряє, чи є клас анонімним
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевіряє, чи є клас анонімним
+-   [« ReflectionClass::isAbstract](reflectionclass.isabstract.html)
+    
+-   [ReflectionClass::isCloneable »](reflectionclass.iscloneable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Перевіряє, чи є клас анонімним
+    
 
 # ReflectionClass::isAnonymous
 
@@ -13,7 +19,9 @@ ReflectionClass::isAnonymous — Перевіряє, чи є клас аноні
 
 ### Опис
 
-public **ReflectionClass::isAnonymous**(): bool
+```methodsynopsis
+public ReflectionClass::isAnonymous(): bool
+```
 
 Перевіряє, чи анонімний клас ні.
 
@@ -23,21 +31,33 @@ public **ReflectionClass::isAnonymous**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад **ReflectionClass::isAnonymous()****
 
-` <?phpclass TestClass {}$anonClass = new class {};$normalClass = new ReflectionClass('TestClass');$anonClass = new ReflectionClass($anonClass);var_dump($normalClass->is anonClass->isAnonymous());?> `
+```php
+<?php
+class TestClass {}
+$anonClass = new class {};
+
+$normalClass = new ReflectionClass('TestClass');
+$anonClass  = new ReflectionClass($anonClass);
+
+var_dump($normalClass->isAnonymous());
+var_dump($anonClass->isAnonymous());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionClass::isFinal()](reflectionclass.isfinal.md) -
-Перевіряє, чи є клас остаточним (final)
+-   [ReflectionClass::isFinal()](reflectionclass.isfinal.html) - Перевіряє, чи є клас остаточним (final)

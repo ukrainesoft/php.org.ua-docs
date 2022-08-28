@@ -1,33 +1,46 @@
-- [«EvLoop::embed](evloop.embed.md)
-- [EvLoop::idle »](evloop.idle.md)
+Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
 
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром
-циклу подій
+-   [« EvLoop::embed](evloop.embed.html)
+    
+-   [EvLoop::idle »](evloop.idle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvLoop](class.evloop.html)
+    
+-   Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
+    
 
 # EvLoop::fork
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::fork — Створює об'єкт спостерігача EvFork, пов'язаний із поточним
-екземпляром циклу подій
+EvLoop::fork — Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
 
 ### Опис
 
-final public **EvLoop::fork**( [callable](language.types.callable.md)
-`$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** , int `$priority` = 0 ):
-[EvFork](class.evfork.md)
+```methodsynopsis
+final
+   public
+   EvLoop::fork(
+    callable
+     $callback
+   , 
+    mixed
+     $data
+     = null
+   , 
+    int
+     $priority
+     = 0
+   ): EvFork
+```
 
-Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу
-подій
+Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
 
 ### Список параметрів
 
-Усі параметри, що й для
-[EvFork::\_\_construct()](evfork.construct.md)
+Усі параметри, що й для [EvFork::\_\_construct()](evfork.construct.html)
 
 ### Значення, що повертаються
 
@@ -35,5 +48,4 @@ final public **EvLoop::fork**( [callable](language.types.callable.md)
 
 ### Дивіться також
 
-- [EvFork::\_\_construct()](evfork.construct.md) - Конструктор
-спостерігача EvFork
+-   [EvFork::\_\_construct()](evfork.construct.html) - Конструктор спостерігача EvFork

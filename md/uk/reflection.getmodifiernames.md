@@ -1,9 +1,15 @@
-- [« Reflection::export](reflection.export.md)
-- [ReflectionClass »](class.reflectionclass.md)
+Отримання імен модифікаторів
 
-- [PHP Manual](index.md)
-- [Reflection](class.reflection.md)
-- Отримання імен модифікаторів
+-   [« Reflection::export](reflection.export.html)
+    
+-   [ReflectionClass »](class.reflectionclass.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](class.reflection.html)
+    
+-   Отримання імен модифікаторів
+    
 
 # Reflection::getModifierNames
 
@@ -13,13 +19,16 @@ Reflection::getModifierNames — Отримання імен модифікат�
 
 ### Опис
 
-public static **Reflection::getModifierNames**(int `$modifiers`): array
+```methodsynopsis
+public static Reflection::getModifierNames(int $modifiers): array
+```
 
 Отримує імена модифікаторів.
 
 ### Список параметрів
 
 `modifiers`
+
 Бітова маска модифікаторів.
 
 ### Значення, що повертаються
@@ -30,29 +39,48 @@ public static **Reflection::getModifierNames**(int `$modifiers`): array
 
 **Приклад #1 Приклад використання **Reflection::getModifierNames()****
 
-` <?phpclass Testing{    final public static function foo()    {        return; }    public function bar()    {        return; }}$foo = new ReflectionMethod('Testing', 'foo');echo "Модифікатори для методу foo():
-";echo $foo->getModifiers() . "
-";echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "
-";$bar = new ReflectionMethod('Testing', 'bar');echo "Модифікатори для методу bar():
-";echo $bar->getModifiers() . "
-";echo implode(' ', Reflection::getModifierNames($bar->getModifiers())); `
+```php
+<?php
+class Testing
+{
+    final public static function foo()
+    {
+        return;
+    }
+
+    public function bar()
+    {
+        return;
+    }
+}
+
+$foo = new ReflectionMethod('Testing', 'foo');
+
+echo "Модификаторы для метода foo():\n";
+echo $foo->getModifiers() . "\n";
+echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "\n";
+
+$bar = new ReflectionMethod('Testing', 'bar');
+
+echo "Модификаторы для метода bar():\n";
+echo $bar->getModifiers() . "\n";
+echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Модифікатори для методу foo():
+```
+Модификаторы для метода foo():
 261
 final public static
-Модифікатори для методу bar():
+Модификаторы для метода bar():
 65792
 public
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getModifiers()](reflectionclass.getmodifiers.md) -
-Повертає інформацію про модифікаторів класу
-- [ReflectionClassConstant::getModifiers()](reflectionclassconstant.getmodifiers.md) -
-Отримує модифікатори константи класу
-- [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) -
-Отримує модифікатори методу
-- [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) -
-Отримання модифікаторів властивостей класу
+-   [ReflectionClass::getModifiers()](reflectionclass.getmodifiers.html) - Повертає інформацію про модифікаторів класу
+-   [ReflectionClassConstant::getModifiers()](reflectionclassconstant.getmodifiers.html) - Отримує модифікатори константи класу
+-   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.html) - Отримує модифікатори методу
+-   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.html) - Отримання модифікаторів властивостей класу

@@ -1,22 +1,27 @@
-- [« MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md)
-
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md)
-- Повертає порт, на якому прослуховується сервер
-
-# MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort
 Повертає порт, на якому прослуховується сервер
+
+-   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getReply »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html)
+    
+-   Повертає порт, на якому прослуховується сервер
+    
+
+# MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort
+
+(mongodb >=1.13.0)
+
+MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort — Повертає порт, на якому прослуховується сервер
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort**():
-int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort(): int
+```
 
 ### Список параметрів
 
@@ -28,5 +33,4 @@ int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

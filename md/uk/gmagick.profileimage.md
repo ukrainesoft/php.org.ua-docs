@@ -1,39 +1,43 @@
-- [«Gmagick::previousimage](gmagick.previousimage.md)
-- [Gmagick::quantizeimage »](gmagick.quantizeimage.md)
+Додає або видаляє профіль із зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додає або видаляє профіль із зображення
+-   [« Gmagick::previousimage](gmagick.previousimage.html)
+    
+-   [Gmagick::quantizeimage »](gmagick.quantizeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Додає або видаляє профіль із зображення
+    
 
 # Gmagick::profileimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::profileimage — Додає або видаляє профіль із зображення.
 
 ### Опис
 
-public **Gmagick::profileimage**(string `$name`, string `$profile`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::profileimage(string $name, string $profile): Gmagick
+```
 
-Додає або видаляє ICC, IPTC або загальний профіль зображення. Якщо
-значення profile дорівнює **`null`**, профіль видаляється із зображення,
-в іншому випадку додається. Використовуйте значення * для параметра
-name і **`null`** для параметра profile, щоб видалити всі профілі з
-зображення.
+Додає або видаляє ICC, IPTC або загальний профіль зображення. Якщо значення profile дорівнює **`null`**, профіль видаляється із зображення, інакше додається. Використовуйте значення `*` для параметра name та **`null`** для параметра profile, щоб видалити всі профілі із зображення.
 
 ### Список параметрів
 
 `name`
-Ім'я профілю, який потрібно додати або видалити: ICC, IPTC або загальний
-профіль.
+
+Ім'я профілю, який потрібно додати або видалити: ICC, IPTC або загальний профіль.
 
 `profile`
-Профiль.
+
+Профіль.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

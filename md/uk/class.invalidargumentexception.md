@@ -1,13 +1,19 @@
-- [«DomainException](class.domainexception.md)
-- [LengthException »](class.lengthexception.md)
+Клас InvalidArgumentException
 
-- [PHP Manual](index.md)
-- [Виключення](spl.exceptions.md)
-- Клас InvalidArgumentException
+-   [« DomainException](class.domainexception.html)
+    
+-   [LengthException »](class.lengthexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Исключения](spl.exceptions.html)
+    
+-   Клас InvalidArgumentException
+    
 
 # Клас InvalidArgumentException
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -15,45 +21,58 @@
 
 ## Огляд класів
 
-class **InvalidArgumentException** extends
-[LogicException](class.logicexception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class InvalidArgumentException
+     
 
-private string `$string` = "";
+     
+      extends
+       LogicException
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

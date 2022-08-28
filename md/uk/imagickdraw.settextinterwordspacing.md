@@ -1,20 +1,27 @@
-- [« ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md)
-- [ImagickDraw::setTextKerning »](imagickdraw.settextkerning.md)
+Встановлює міжмовний інтервал тексту
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Встановлює міжслівний інтервал тексту
+-   [« ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.html)
+    
+-   [ImagickDraw::setTextKerning »](imagickdraw.settextkerning.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Встановлює міжмовний інтервал тексту
+    
 
 # ImagickDraw::setTextInterwordSpacing
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
-ImagickDraw::setTextInterwordSpacing — Встановлює міжмовний інтервал
-тексту
+ImagickDraw::setTextInterwordSpacing — Встановлює міжмовний інтервал тексту
 
 ### Опис
 
-public **ImagickDraw::setTextInterwordSpacing**(float `$spacing`): bool
+```methodsynopsis
+public ImagickDraw::setTextInterwordSpacing(float $spacing): bool
+```
 
 Встановлює міжмовний інтервал тексту.
 
@@ -24,4 +31,4 @@ public **ImagickDraw::setTextInterwordSpacing**(float `$spacing`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

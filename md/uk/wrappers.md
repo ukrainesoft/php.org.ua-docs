@@ -1,40 +1,33 @@
-- [« Опції контексту Zip](context.zip.md)
-- [file://»](wrappers.file.md)
+Підтримувані протоколи та обгортки
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- Підтримувані протоколи та обгортки
+-   [« Опции контекста Zip](context.zip.html)
+    
+-   [file:// »](wrappers.file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Підтримувані протоколи та обгортки
+    
 
 # Підтримувані протоколи та обгортки
 
-PHP поставляється з безліччю вбудованих обгорток для різних
-URL-протоколи для використання з функціями файлової системи, таких як
-[fopen()](function.fopen.md), [copy()](function.copy.md),
-[file_exists()](function.file-exists.md) та
-[filesize()](function.filesize.md). Крім цих обгорток,
-можна реєструвати власні обгортки, використовуючи функцію
-[stream_wrapper_register()](function.stream-wrapper-register.md).
+PHP поставляється з багатьма вбудованими обгортками для різних URL-протоколів для використання з функціями файлової системи, таких як [fopen()](function.fopen.html) [copy()](function.copy.html) [file\_exists()](function.file-exists.html) і [filesize()](function.filesize.html). Крім цих обгорток, можна реєструвати власні обгортки, використовуючи функцію [stream\_wrapper\_register()](function.stream-wrapper-register.html)
 
-> **Примітка**: URL синтаксис, який використовується для опису обгортки, може
-> бути тільки виду `scheme://...`. Варіанти синтаксису `scheme:/` та
-> `scheme:` не підтримуються.
+> **Зауваження**: URL синтаксис, що використовується для опису обгортки, може бути тільки виду `scheme://...`. Варіанти синтаксису `scheme:/` і `scheme:` не підтримуються.
 
 ## Зміст
 
-- [file://](wrappers.file.md) — Доступ до локальної файлової системи
-- [http://](wrappers.http.md) — Доступ до URL-адрес за протоколом
-HTTP(s)
-- [ftp://](wrappers.ftp.md) — Доступ до URL-адрес за протоколом
-FTP(s)
-- [php://](wrappers.php.md) - Доступ до різних потоків
-введення-виводу
-- [zlib://](wrappers.compression.md) — Стислі потоки
-- [data://](wrappers.data.md) - Схема Data (RFC 2397)
-- [glob://](wrappers.glob.md) - Знаходження шляхів, що відповідають
-шаблоном
-- [phar://](wrappers.phar.md) - PHP-архів
-- [ssh2://](wrappers.ssh2.md) - Secure Shell 2
-- [rar://](wrappers.rar.md) - RAR
-- [ogg://](wrappers.audio.md) - Аудіопотоки
-- [expect://](wrappers.expect.md) — Потоки для взаємодії з
-процесами
+-   [file://](wrappers.file.html) — Доступ до локальної файлової системи
+-   [http://](wrappers.http.html) — Доступ до URL-адрес за протоколом HTTP(s)
+-   [ftp://](wrappers.ftp.html) — Доступ до URL-адрес за протоколом FTP(s)
+-   [php://](wrappers.php.html) — Доступ до різних потоків введення-виводу
+-   [zlib://](wrappers.compression.html) — Стислі потоки
+-   [data://](wrappers.data.html) - Схема Data (RFC 2397)
+-   [glob://](wrappers.glob.html) — Знаходження шляхів, що відповідають шаблону
+-   [phar://](wrappers.phar.html) - PHP-архів
+-   [ssh2://](wrappers.ssh2.html) - Secure Shell 2
+-   [rar://](wrappers.rar.html) - RAR
+-   [ogg://](wrappers.audio.html) - Аудіопотоки
+-   [expect://](wrappers.expect.html) — Потоки для взаємодії з процесами

@@ -1,51 +1,51 @@
-- [« enchant_broker_dict_exists](function.enchant-broker-dict-exists.md)
-- [enchant_broker_free »](function.enchant-broker-free.md)
+Визволяє ресурс словника
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Визволяє ресурс словника
+-   [« enchant\_broker\_dict\_exists](function.enchant-broker-dict-exists.html)
+    
+-   [enchant\_broker\_free »](function.enchant-broker-free.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Визволяє ресурс словника
+    
 
-#enchant_broker_free_dict
+# enchantbrokerfreedict
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-enchant_broker_free_dict — Визволяє ресурс словника
+enchantbrokerfreedict - Звільняє ресурс словника
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**enchant_broker_free_dict**([EnchantDictionary](class.enchantdictionary.md)
-`$dictionary`): bool
+```methodsynopsis
+enchant_broker_free_dict(EnchantDictionary $dictionary): bool
+```
 
-Визволяє словник. Починаючи з PHP 8.0.0, рекомендується знищити
-об'єкт замість виклику цієї функції.
+Звільняє словник. Починаючи з PHP 8.0.0, рекомендується знищити об'єкт замість виклику цієї функції.
 
 ### Список параметрів
 
 `dictionary`
-Словник Enchant, що повертається
-[enchant_broker_request_dict()](function.enchant-broker-request-dict.md)
-або
-[enchant_broker_request_pwl_dict()](function.enchant-broker-request-pwl-dict.md).
+
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | dictionary очікує [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [enchant_broker_request_dict()](function.enchant-broker-request-dict.md) -
-Створити новий словник, використовуючи тег
-- [enchant_broker_request_pwl_dict()](function.enchant-broker-request-pwl-dict.md) -
-Створити словник, використовуючи файл PWL
+-   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег
+-   [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html) - Створити словник, використовуючи файл PWL

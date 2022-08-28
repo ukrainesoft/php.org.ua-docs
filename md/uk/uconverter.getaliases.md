@@ -1,25 +1,31 @@
-- [« UConverter::fromUCallback](uconverter.fromucallback.md)
-- [UConverter::getAvailable »](uconverter.getavailable.md)
+Отримати псевдоніми для заданого імені
 
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати псевдоніми для заданого імені
+-   [« UConverter::fromUCallback](uconverter.fromucallback.html)
+    
+-   [UConverter::getAvailable »](uconverter.getavailable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UConverter](class.uconverter.html)
+    
+-   Отримати псевдоніми для заданого імені
+    
 
 # UConverter::getAliases
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 UConverter::getAliases — Отримати псевдоніми для заданого імені
 
 ### Опис
 
-public static **UConverter::getAliases**(string `$name`):
-array\|false\|null
+```methodsynopsis
+public static UConverter::getAliases(string $name): array|false|null
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

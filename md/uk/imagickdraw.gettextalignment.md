@@ -1,9 +1,15 @@
-- [« ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.md)
-- [ImagickDraw::getTextAntialias »](imagickdraw.gettextantialias.md)
+Повертає вирівнювання тексту
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає вирівнювання тексту
+-   [« ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.html)
+    
+-   [ImagickDraw::getTextAntialias »](imagickdraw.gettextantialias.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає вирівнювання тексту
+    
 
 # ImagickDraw::getTextAlignment
 
@@ -13,17 +19,16 @@ ImagickDraw::getTextAlignment — Повертає вирівнювання те
 
 ### Опис
 
-public **ImagickDraw::getTextAlignment**(): int
+```methodsynopsis
+public ImagickDraw::getTextAlignment(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає вирівнювання, застосоване під час анотації тексту.
 
 ### Значення, що повертаються
 
-Повертає одну із констант
-[ALIGN](imagick.constants.md#imagick.constants.align)
-(`imagick::ALIGN_*`) або 0, якщо вирівнювання не встановлено.
+Повертає одну з констант [ALIGN](imagick.constants.html#imagick.constants.align) `imagick::ALIGN_*`) або 0, якщо вирівнювання не встановлено.

@@ -1,19 +1,27 @@
-- [« ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)
-- [ReflectionFunctionAbstract »](class.reflectionfunctionabstract.md)
+Подання у вигляді рядка
 
-- [PHP Manual](index.md)
-- [ReflectionFunction](class.reflectionfunction.md)
-- Подання у вигляді рядка
+-   [« ReflectionFunction::isDisabled](reflectionfunction.isdisabled.html)
+    
+-   [ReflectionFunctionAbstract »](class.reflectionfunctionabstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunction](class.reflectionfunction.html)
+    
+-   Подання у вигляді рядка
+    
 
-# ReflectionFunction::\_\_toString
+# ReflectionFunction::toString
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionFunction::\_\_toString — Подання у вигляді рядка
+ReflectionFunction::toString — Подання у вигляді рядка
 
 ### Опис
 
-public **ReflectionFunction::\_\_toString**(): string
+```methodsynopsis
+public ReflectionFunction::__toString(): string
+```
 
 Подання у вигляді рядка.
 
@@ -23,30 +31,37 @@ public **ReflectionFunction::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Результат виконання схожий на висновок
-[ReflectionFunction::export()](reflectionfunction.export.md).
+Результат виконання схожий на висновок [ReflectionFunction::export()](reflectionfunction.export.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionFunction::\_\_toString()****
+**Приклад #1 Приклад використання **ReflectionFunction::toString()****
 
-` <?phpfunction title($title, $name){    return sprintf("%s. %s
-", $title, $name);}echo new ReflectionFunction('title');?> `
+```php
+<?php
+function title($title, $name)
+{
+    return sprintf("%s. %s\r\n", $title, $name);
+}
+
+echo new ReflectionFunction('title');
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Function [ <user> function title ] {
-@@ Command line code 1 - 1
+  @@ Command line code 1 - 1
 
-- Parameters [2] {
-Parameter #0 [ <required> $title ]
-Parameter #1 [ <required> $name ]
+  - Parameters [2] {
+    Parameter #0 [ <required> $title ]
+    Parameter #1 [ <required> $name ]
+  }
 }
-}
+```
 
 ### Дивіться також
 
-- [ReflectionFunction::export()](reflectionfunction.export.md) -
-Експортує функції
-- [\_\_toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionFunction::export()](reflectionfunction.export.html) - Експортує функції
+-   [\_\_toString()](language.oop5.magic.html#object.tostring)

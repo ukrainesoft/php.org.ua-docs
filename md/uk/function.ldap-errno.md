@@ -1,59 +1,71 @@
-- [« ldap_err2str](function.ldap-err2str.md)
-- [ldap_error »](function.ldap-error.md)
+Повернути номер помилки LDAP останньої команди
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Повернути номер помилки LDAP останньої команди
+-   [« ldap\_err2str](function.ldap-err2str.html)
+    
+-   [ldap\_error »](function.ldap-error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Повернути номер помилки LDAP останньої команди
+    
 
-#ldap_errno
+# ldaperrno
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_errno — Повернути номер помилки LDAP останньої команди
+ldaperrno — Повернути номер помилки LDAP останньої команди
 
 ### Опис
 
-**ldap_errno**([LDAP\Connection](class.ldap-connection.md) `$ldap`):
-int
+```methodsynopsis
+ldap_errno(LDAP\Connection $ldap): int
+```
 
-Повертає стандартизований код помилки, повернутий останньою
-командою LDAP. Це число може бути перетворено на текстове повідомлення
-про помилку, використовуючи [ldap_err2str()](function.ldap-err2str.md).
+Повертає стандартизований код помилки, повернутий останньою командою LDAP. Це число може бути перетворено на текстове повідомлення про помилку, використовуючи [ldap\_err2str()](function.ldap-err2str.html)
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
 Повертає код помилки LDAP останньої команди для цього посилання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-Якщо ви не знизите достатньо попереджень в `php.ini`, або
-префікс ваших LDAP-команд не буде із символом @ для придушення виводу
-попереджень, що генеруються помилки будуть також відображатися у вашому
-HTML висновку.
+Якщо ви не знизите достатньо попереджень у php.ini, або префікс ваших LDAP-команд не буде з символом @ для придушення виведення попереджень, генеровані помилки будуть також відображатися у вашому HTML виводі.
 
 **Приклад #1 Генерування та фіксація помилки**
 
-` <?php// Цей приклад містить помилку, ми спіймаємо$ld = ldap_connect("localhost");$bind = ldap_bind($ld);// синтаксічна помилка в | objectclass=*" для того, щоб це працювало.$res =  @ldap_search($ld, "o=Myorg, c=DE", "objectclass");if (!$res) {    echo ". ldap_errno($ld) . "<br />
-";   echo "LDAP-Error: " . ldap_error($ld) . "<br />
-";   die("Argh!<br />
-");}$info = ldap_get_entries($ld, $res);echo $info["count"] . " підходящих записів.<br />
-";?> `
+```php
+<?php
+// Этот пример содержит ошибку, которую мы поймаем
+$ld = ldap_connect("localhost");
+$bind = ldap_bind($ld);
+// синтаксическая ошибка в выражении фильтра (errno 87),
+// должно быть "objectclass=*" для того, чтобы это работало.
+$res =  @ldap_search($ld, "o=Myorg, c=DE", "objectclass");
+if (!$res) {
+    echo "LDAP-Errno: " . ldap_errno($ld) . "<br />\n";
+    echo "LDAP-Error: " . ldap_error($ld) . "<br />\n";
+    die("Argh!<br />\n");
+}
+$info = ldap_get_entries($ld, $res);
+echo $info["count"] . " подходящих записей.<br />\n";
+?>
+```
 
 ### Дивіться також
 
-- [ldap_err2str()](function.ldap-err2str.md) - Перетворити код
-помилки LDAP у рядкове повідомлення про помилку
-- [ldap_error()](function.ldap-error.md) - Повернути повідомлення про
-помилка LDAP останньої команди
+-   [ldap\_err2str()](function.ldap-err2str.html) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
+-   [ldap\_error()](function.ldap-error.html) - Повернути повідомлення про помилку LDAP останньої команди

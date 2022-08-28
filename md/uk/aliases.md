@@ -1,145 +1,141 @@
-- [« За станом](extensions.state.md)
-- [Список зарезервованих слів»](reserved.md)
+Список псевдонімів функцій
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Список псевдонімів функцій
+-   [« По состоянию](extensions.state.html)
+    
+-   [Список зарезервированных слов »](reserved.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Список псевдонімів функцій
+    
 
 # Список псевдонімів функцій
 
-У PHP досить багато функцій, доступних відразу за декількома іменами. В
-деяких випадках немає бажаного варіанта, хорошим прикладом
-є [is_int()](function.is-int.md) та
-[is_integer()](function.is-integer.md). Однак, є функції,
-що змінили свої назви внаслідок чищення API або будь-якої іншої
-причини, а старі імена були залишені з метою зворотної сумісності.
-Зазвичай не рекомендується використовувати ці псевдоніми, оскільки причиною їх
-існування може бути старіння або зміна імені основної функції,
-що може призвести до проблем портування скрипта. Цей перелік
-надається для допомоги при оновленні старих скриптів до нового
-синтаксису.
-
-| Псевдонім Основна функція Модуль |
-| -------------------------------- |
-| \_                               | [gettext()](function.gettext.md) | [Gettext](ref.gettext.md)
-| chop                             | [rtrim()](function.rtrim.md) | Базовий синтаксис
-| close                            | [closedir()](function.closedir.md) | Базовий синтаксис
-| com_get                          | **com_propget()** | [COM](ref.com.md)
-[COM](ref.com.md) || com_propset | **com_propput()** | 
-| com_set       | **com_propput()**                                        | [COM](ref.com.md)                      |
-| d-----------e | [------------------------------------------------------) | [------------------------------------) |
-| diskfreespace | [disk_free_space()](function.disk-free-space.md)         | [Файлова система](ref.filesystem.md)   |
-| doubleval     | [floatval()](function.floatval.md)                       | Базовий синтаксис                      |
-| fputs         | [fwrite()](function.fwrite.md)                           | Базовий синтаксис                      |
-| gzputs        | [gzwrite()](function.gzwrite.md)                         | [Zlib](ref.zlib.md)                    |
-| i18n_convert  | [mb_convert_encoding()](function.mb-convert-encoding.md) | [Багатобайтові рядки](ref.mbstring.md) |
-[Багатобайтові рядки](ref.mbstring.md) || i18n_discover_encoding | [mb_detect_encoding()](function.mb-detect-encoding.md) | 
-| i18n_http_input        | [mb_http_input()](function.mb-http-input.md)               | [Багатобайтові рядки](ref.mbstring.md) |
-| i--------------------t | [--------------------------------------------------------) | [------------------------------------) |
-| i18n_internal_encoding | [mb_internal_encoding()](function.mb-internal-encoding.md) | [Багатобайтові рядки](ref.mbstring.md) |
-| i18n_ja_jp_hantozen    | [mb_convert_kana()](function.mb-convert-kana.md)           | [Багатобайтові рядки](ref.mbstring.md) |
-[Багатобайтові рядки](ref.mbstring.md) || i18n_mime_header_decode | [mb_decode_mimeheader()](function.mb-decode-mimeheader.md) | 
-[Багатобайтові рядки](ref.mbstring.md) || i18n_mime_header_encode | [mb_encode_mimeheader()](function.mb-encode-mimeheader.md) | 
-| imap_create                                                   | [imap_createmailbox()](function.imap-createmailbox.md) | [IMAP](ref.imap.md)                    |
-| i-----------------------------------------------------------t | [----------------------------------------------------) | [------------------------------------) |
-| imap_getmailboxes                                             | **imap_list_full()**                                   | [IMAP](ref.imap.md)                    |
-| imap_getsubscribed                                            | **imap_lsub_full()**                                   | [IMAP](ref.imap.md)                    |
-| imap_header                                                   | [imap_headerinfo()](function.imap-headerinfo.md)       | [IMAP](ref.imap.md)                    |
-| imap_listmailbox                                              | [imap_list()](function.imap-list.md)                   | [IMAP](ref.imap.md)                    |
-| imap_listsubscribed                                           | [imap_lsub()](function.imap-lsub.md)                   | [IMAP](ref.imap.md)                    |
-| imap_rename                                                   | [imap_renamemailbox()](function.imap-renamemailbox.md) | [IMAP](ref.imap.md)                    |
-| imap_scan                                                     | [imap_listscan()](function.imap-listscan.md)           | [IMAP](ref.imap.md)                    |
-| imap_scanmailbox                                              | [imap_listscan()](function.imap-listscan.md)           | [IMAP](ref.imap.md)                    |
-| ini_alter                                                     | [ini_set()](function.ini-set.md)                       | Базовий синтаксис                      |
-| is_double                                                     | [is_float()](function.is-float.md)                     | Базовий синтаксис                      |
-| is_integer                                                    | [is_int()](function.is-int.md)                         | Базовий синтаксис                      |
-| is_long                                                       | [is_int()](function.is-int.md)                         | Базовий синтаксис                      |
-| is_real                                                       | [is_float()](function.is-float.md)                     | Базовий синтаксис                      |
-| is_writeable                                                  | [is_writable()](function.is-writable.md)               | Базовий синтаксис                      |
-| join                                                          | [implode()](function.implode.md)                       | Базовий синтаксис                      |
-| key_exists [array_key_exists()](function.array-key-exists.md) | Базовий синтаксис                                      |                                        |
-| ldap_close                                                    | [ldap_unbind()](function.ldap-unbind.md)               | [LDAP](ref.ldap.md)                    |
-| mbstrcut                                                      | [mb_strcut()](function.mb-strcut.md)                   | [Багатобайтові рядки](ref.mbstring.md) |
-| mbstrlen                                                      | [mb_strlen()](function.mb-strlen.md)                   | [Багатобайтові рядки](ref.mbstring.md) |
-| mbstrpos                                                      | [mb_strpos()](function.mb-strpos.md)                   | [Багатобайтові рядки](ref.mbstring.md) |
-| mbstrrpos                                                     | [mb_strrpos()](function.mb-strrpos.md)                 | [Багатобайтові рядки](ref.mbstring.md) |
-[Багатобайтові рядки](ref.mbstring.md) || mbsubstr | [mb_substr()](function.mb-substr.md) | 
-| mysql                                                                 | [mysql_db_query()](function.mysql-db-query.md)                                                                                                                                                        | [MySQL](ref.mysql.md)      |
-| m-------------------------------------------------------------------) | [---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------) | -------------------------- |
-| mysql_db_name [mysql_result()](function.mysql-result.md)              | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_dbname [mysql_result()](function.mysql-result.md)               | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_dropdb [mysql_drop_db()](function.mysql-drop-db.md)             | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_fieldflags                                                      | [mysql_field_flags()](function.mysql-field-flags.md)                                                                                                                                                  | [MySQL](ref.mysql.md)      |
-| mysql_fieldlen                                                        | [mysql_field_len()](function.mysql-field-len.md)                                                                                                                                                      | [MySQL](ref.mysql.md)      |
-| mysql_fieldname                                                       | [mysql_field_name()](function.mysql-field-name.md)                                                                                                                                                    | [MySQL](ref.mysql.md)      |
-| mysql_fieldtable                                                      | [mysql_field_table()](function.mysql-field-table.md)                                                                                                                                                  | [MySQL](ref.mysql.md)      |
-| mysql_fieldtype                                                       | [mysql_field_type()](function.mysql-field-type.md)                                                                                                                                                    | [MySQL](ref.mysql.md)      |
-| mysql_freeresult                                                      | [mysql_free_result()](function.mysql-free-result.md)                                                                                                                                                  | [MySQL](ref.mysql.md)      |
-| mysql_listdbs [mysql_list_dbs()](function.mysql-list-dbs.md)          | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_listfields                                                      | [mysql_list_fields()](function.mysql-list-fields.md)                                                                                                                                                  | [MySQL](ref.mysql.md)      |
-| mysql_listtables [mysql_list_tables()](function.mysql-list-tables.md) | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_numfields                                                       | [mysql_num_fields()](function.mysql-num-fields.md)                                                                                                                                                    | [MySQL](ref.mysql.md)      |
-| mysql_numrows [mysql_num_rows()](function.mysql-num-rows.md)          | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_selectdb [mysql_select_db()](function.mysql-select-db.md)       | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| mysql_tablename [mysql_result()](function.mysql-result.md)            | [MySQL](ref.mysql.md)                                                                                                                                                                                 |                            |
-| ociassignelem                                                         | [OCICollection::assignElem](ocicollection.assignelem.md)                                                                                                                                              | [OCI8](ref.oci8.md)        |
-| ocibindbyname                                                         | [oci_bind_by_name()](function.oci-bind-by-name.md)                                                                                                                                                    | [OCI8](ref.oci8.md)        |
-| ocicancel                                                             | [oci_cancel()](function.oci-cancel.md)                                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocicloselob                                                           | [OCILob::close](ocilob.close.md)                                                                                                                                                                      | [OCI8](ref.oci8.md)        |
-| ocicollappend                                                         | [OCICollection::append](ocicollection.append.md)                                                                                                                                                      | [OCI8](ref.oci8.md)        |
-| ocicollassign                                                         | [OCICollection::assign](ocicollection.assign.md)                                                                                                                                                      | [OCI8](ref.oci8.md)        |
-| ocicollmax                                                            | [OCICollection::max](ocicollection.max.md)                                                                                                                                                            | [OCI8](ref.oci8.md)        |
-| ocicollsize                                                           | [OCICollection::size](ocicollection.size.md)                                                                                                                                                          | [OCI8](ref.oci8.md)        |
-| ocicolltrim                                                           | [OCICollection::trim](ocicollection.trim.md)                                                                                                                                                          | [OCI8](ref.oci8.md)        |
-| ocicolumnisnull                                                       | [oci_field_is_null()](function.oci-field-is-null.md)                                                                                                                                                  | [OCI8](ref.oci8.md)        |
-| ocicolumnname                                                         | [oci_field_name()](function.oci-field-name.md)                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ocicolumnprecision                                                    | [oci_field_precision()](function.oci-field-precision.md)                                                                                                                                              | [OCI8](ref.oci8.md)        |
-| ocicolumnscale                                                        | [oci_field_scale()](function.oci-field-scale.md)                                                                                                                                                      | [OCI8](ref.oci8.md)        |
-| ocicolumnsize                                                         | [oci_field_size()](function.oci-field-size.md)                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ocicolumntype                                                         | [oci_field_type()](function.oci-field-type.md)                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ocicolumntyperaw                                                      | [oci_field_type_raw()](function.oci-field-type-raw.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocicommit                                                             | [oci_commit()](function.oci-commit.md)                                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocidefinebyname                                                       | [oci_define_by_name()](function.oci-define-by-name.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocierror                                                              | [oci_error()](function.oci-error.md)                                                                                                                                                                  | [OCI8](ref.oci8.md)        |
-| ociexecute                                                            | [oci_execute()](function.oci-execute.md)                                                                                                                                                              | [OCI8](ref.oci8.md)        |
-| ocifetch                                                              | [oci_fetch()](function.oci-fetch.md)                                                                                                                                                                  | [OCI8](ref.oci8.md)        |
-| ocifetchinto                                                          | [oci_fetch_array()](function.oci-fetch-array.md), [oci_fetch_row()](function.oci-fetch-row.md), [oci_fetch_assoc()](function.oci-fetch-assoc.md) , [oci_fetch_object()](function.oci-fetch-object.md) | [OCI8](ref.oci8.md)        |
-| ocifetchstatement                                                     | [oci_fetch_all()](function.oci-fetch-all.md)                                                                                                                                                          | [OCI8](ref.oci8.md)        |
-| ocifreecollection                                                     | [OCICollection::free](ocicollection.free.md)                                                                                                                                                          | [OCI8](ref.oci8.md)        |
-| ocifreecursor                                                         | [oci_free_statement()](function.oci-free-statement.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocifreedesc                                                           | [oci_free_descriptor()](function.oci-free-descriptor.md)                                                                                                                                              | [OCI8](ref.oci8.md)        |
-| ocifreestatement                                                      | [oci_free_statement()](function.oci-free-statement.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocigetelem                                                            | [OCICollection::getElem](ocicollection.getelem.md)                                                                                                                                                    | [OCI8](ref.oci8.md)        |
-| ociinternaldebug                                                      | [oci_internal_debug()](function.oci-internal-debug.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ociloadlob                                                            | [OCILob::load](ocilob.load.md)                                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ocilogon                                                              | [oci_connect()](function.oci-connect.md)                                                                                                                                                              | [OCI8](ref.oci8.md)        |
-| ocinewcollection                                                      | [oci_new_collection()](function.oci-new-collection.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocinewcursor                                                          | [oci_new_cursor()](function.oci-new-cursor.md)                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ocinewdescriptor                                                      | [oci_new_descriptor()](function.oci-new-descriptor.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocinlogon                                                             | [oci_new_connect()](function.oci-new-connect.md)                                                                                                                                                      | [OCI8](ref.oci8.md)        |
-| ocinumcols                                                            | [oci_num_fields()](function.oci-num-fields.md)                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ociparse                                                              | [oci_parse()](function.oci-parse.md)                                                                                                                                                                  | [OCI8](ref.oci8.md)        |
-| ocipasswordchange                                                     | [oci_password_change()](function.oci-password-change.md)                                                                                                                                              | [OCI8](ref.oci8.md)        |
-| ociplogon                                                             | [oci_pconnect()](function.oci-pconnect.md)                                                                                                                                                            | [OCI8](ref.oci8.md)        |
-| ociresult                                                             | [oci_result()](function.oci-result.md)                                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocirollback                                                           | [oci_rollback()](function.oci-rollback.md)                                                                                                                                                            | [OCI8](ref.oci8.md)        |
-| ocisavelob                                                            | [OCILob::save](ocilob.save.md)                                                                                                                                                                        | [OCI8](ref.oci8.md)        |
-| ocisavelobfile                                                        | [OCILob::import](ocilob.import.md)                                                                                                                                                                    | [OCI8](ref.oci8.md)        |
-| ociserverversion                                                      | [oci_server_version()](function.oci-server-version.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ocisetprefetch                                                        | [oci_set_prefetch()](function.oci-set-prefetch.md)                                                                                                                                                    | [OCI8](ref.oci8.md)        |
-| Визначеннятипу                                                        | [oci_statement_type()](function.oci-statement-type.md)                                                                                                                                                | [OCI8](ref.oci8.md)        |
-| ociwritelobtofile                                                     | [OCILob::export](ocilob.export.md)                                                                                                                                                                    | [OCI8](ref.oci8.md)        |
-| ociwritetemporarylob                                                  | [OCILob::writeTemporary](ocilob.writetemporary.md)                                                                                                                                                    | [OCI8](ref.oci8.md)        |
-| odbc_do                                                               | [odbc_exec()](function.odbc-exec.md)                                                                                                                                                                  | [ODBC](ref.uodbc.md)       |
-| odbc_field_precision                                                  | [odbc_field_len()](function.odbc-field-len.md)                                                                                                                                                        | [ODBC](ref.uodbc.md)       |
-| pg_clientencoding                                                     | [pg_client_encoding()](function.pg-client-encoding.md)                                                                                                                                                | [PostgreSQL](ref.pgsql.md) |
-| pg_setclientencoding                                                  | [pg_set_client_encoding()](function.pg-set-client-encoding.md)                                                                                                                                        | [PostgreSQL](ref.pgsql.md) |
-| pos                                                                   | [current()](function.current.md)                                                                                                                                                                      | Базовий синтаксис          |
-| recode                                                                | [recode_string()](function.recode-string.md)                                                                                                                                                          | [Recode](ref.recode.md)    |
-| show_source                                                           | [highlight_file()](function.highlight-file.md)                                                                                                                                                        | Базовий синтаксис          |
-| sizeof                                                                | [count()](function.count.md)                                                                                                                                                                          | Базовий синтаксис          |
-| snmpwalkoid                                                           | [snmprealwalk()](function.snmprealwalk.md)                                                                                                                                                            | [SNMP](ref.snmp.md)        |
-| strchr                                                                | [strstr()](function.strstr.md)                                                                                                                                                                        | Базовий синтаксис          |
-| xptr_new_context                                                      | **xpath_new_context()**                                                                                                                                                                               |                            |
+У PHP досить багато функцій, доступних відразу за кількома іменами. У деяких випадках немає варіанта, що віддається переваги, хорошим прикладом є [is\_int()](function.is-int.html) і [is\_integer()](function.is-integer.html). Однак, є функції, що змінили свої назви внаслідок чищення API або з іншої причини, а старі імена були залишені з метою зворотної сумісності. Зазвичай не рекомендується використовувати ці псевдоніми, оскільки причиною їхнього існування може бути старіння або зміна імені основної функції, що може призвести до проблем портування скрипта. Цей список надається для оновлення старих скриптів до нового синтаксису.
 
 **Псевдоніми**
+
+| Псевдоним | Основная функция | Модуль |
+| --- | --- | --- |
+|  | [gettext()](function.gettext.html) | [Gettext](ref.gettext.html) |
+| chop | [rtrim()](function.rtrim.html) | Базовий синтаксис |
+| close | [closedir()](function.closedir.html) | Базовий синтаксис |
+| comget | **compropget()** | [COM](ref.com.html) |
+| compropset | **compropput()** | [COM](ref.com.html) |
+| comset | **compropput()** | [COM](ref.com.html) |
+| die | [exit()](function.exit.html) | [Неклассифицированные функции](ref.misc.html) |
+| diskfreespace | [disk\_free\_space()](function.disk-free-space.html) | [Файловая система](ref.filesystem.html) |
+| doubleval | [floatval()](function.floatval.html) | Базовий синтаксис |
+| fputs | [fwrite()](function.fwrite.html) | Базовий синтаксис |
+| gzputs | [gzwrite()](function.gzwrite.html) | [Zlib](ref.zlib.html) |
+| i18nconvert | [mb\_convert\_encoding()](function.mb-convert-encoding.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18ndiscoverencoding | [mb\_detect\_encoding()](function.mb-detect-encoding.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18nhttpinput | [mb\_http\_input()](function.mb-http-input.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18nhttpoutput | [mb\_http\_output()](function.mb-http-output.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18ninternalencoding | [mb\_internal\_encoding()](function.mb-internal-encoding.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18nяжпhantozen | [mb\_convert\_kana()](function.mb-convert-kana.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18nmimeheaderdecode | [mb\_decode\_mimeheader()](function.mb-decode-mimeheader.html) | [Многобайтовые строки](ref.mbstring.html) |
+| i18nmimeheaderencode | [mb\_encode\_mimeheader()](function.mb-encode-mimeheader.html) | [Многобайтовые строки](ref.mbstring.html) |
+| imapcreate | [imap\_createmailbox()](function.imap-createmailbox.html) | [IMAP](ref.imap.html) |
+| imapfetchtext | [imap\_body()](function.imap-body.html) | [IMAP](ref.imap.html) |
+| imapgetmailboxes | **imaplistfull()** | [IMAP](ref.imap.html) |
+| imapgetsubscribed | **imaplsubfull()** | [IMAP](ref.imap.html) |
+| imapheader | [imap\_headerinfo()](function.imap-headerinfo.html) | [IMAP](ref.imap.html) |
+| imaplistmailbox | [imap\_list()](function.imap-list.html) | [IMAP](ref.imap.html) |
+| imaplistsubscribed | [imap\_lsub()](function.imap-lsub.html) | [IMAP](ref.imap.html) |
+| imaprename | [imap\_renamemailbox()](function.imap-renamemailbox.html) | [IMAP](ref.imap.html) |
+| imapscan | [imap\_listscan()](function.imap-listscan.html) | [IMAP](ref.imap.html) |
+| imapscanmailbox | [imap\_listscan()](function.imap-listscan.html) | [IMAP](ref.imap.html) |
+| inialter | [ini\_set()](function.ini-set.html) | Базовий синтаксис |
+| ісdouble | [is\_float()](function.is-float.html) | Базовий синтаксис |
+| ісinteger | [is\_int()](function.is-int.html) | Базовий синтаксис |
+| ісlong | [is\_int()](function.is-int.html) | Базовий синтаксис |
+| ісreal | [is\_float()](function.is-float.html) | Базовий синтаксис |
+| ісwriteable | [is\_writable()](function.is-writable.html) | Базовий синтаксис |
+| join | [implode()](function.implode.html) | Базовий синтаксис |
+| keyexists | [array\_key\_exists()](function.array-key-exists.html) | Базовий синтаксис |
+| ldapclose | [ldap\_unbind()](function.ldap-unbind.html) | [LDAP](ref.ldap.html) |
+| mbstrcut | [mb\_strcut()](function.mb-strcut.html) | [Многобайтовые строки](ref.mbstring.html) |
+| mbstrlen | [mb\_strlen()](function.mb-strlen.html) | [Многобайтовые строки](ref.mbstring.html) |
+| mbstrpos | [mb\_strpos()](function.mb-strpos.html) | [Многобайтовые строки](ref.mbstring.html) |
+| mbstrrpos | [mb\_strrpos()](function.mb-strrpos.html) | [Многобайтовые строки](ref.mbstring.html) |
+| mbsubstr | [mb\_substr()](function.mb-substr.html) | [Многобайтовые строки](ref.mbstring.html) |
+| mysql | [mysql\_db\_query()](function.mysql-db-query.html) | [MySQL](ref.mysql.html) |
+| mysqlcreatedb | [mysql\_create\_db()](function.mysql-create-db.html) | [MySQL](ref.mysql.html) |
+| mysqlдбname | [mysql\_result()](function.mysql-result.html) | [MySQL](ref.mysql.html) |
+| mysqldbname | [mysql\_result()](function.mysql-result.html) | [MySQL](ref.mysql.html) |
+| mysqldropdb | [mysql\_drop\_db()](function.mysql-drop-db.html) | [MySQL](ref.mysql.html) |
+| mysqlfieldflags | [mysql\_field\_flags()](function.mysql-field-flags.html) | [MySQL](ref.mysql.html) |
+| mysqlfieldlen | [mysql\_field\_len()](function.mysql-field-len.html) | [MySQL](ref.mysql.html) |
+| mysqlfieldname | [mysql\_field\_name()](function.mysql-field-name.html) | [MySQL](ref.mysql.html) |
+| mysqlfieldtable | [mysql\_field\_table()](function.mysql-field-table.html) | [MySQL](ref.mysql.html) |
+| mysqlfieldtype | [mysql\_field\_type()](function.mysql-field-type.html) | [MySQL](ref.mysql.html) |
+| mysqlfreeresult | [mysql\_free\_result()](function.mysql-free-result.html) | [MySQL](ref.mysql.html) |
+| mysqllistdbs | [mysql\_list\_dbs()](function.mysql-list-dbs.html) | [MySQL](ref.mysql.html) |
+| mysqllistfields | [mysql\_list\_fields()](function.mysql-list-fields.html) | [MySQL](ref.mysql.html) |
+| mysqllisttables | [mysql\_list\_tables()](function.mysql-list-tables.html) | [MySQL](ref.mysql.html) |
+| mysqlnumfields | [mysql\_num\_fields()](function.mysql-num-fields.html) | [MySQL](ref.mysql.html) |
+| mysqlnumrows | [mysql\_num\_rows()](function.mysql-num-rows.html) | [MySQL](ref.mysql.html) |
+| mysqlselectdb | [mysql\_select\_db()](function.mysql-select-db.html) | [MySQL](ref.mysql.html) |
+| mysqltablename | [mysql\_result()](function.mysql-result.html) | [MySQL](ref.mysql.html) |
+| ociassignelem | [OCICollection::assignElem](ocicollection.assignelem.html) | [OCI8](ref.oci8.html) |
+| ocibindbyname | [oci\_bind\_by\_name()](function.oci-bind-by-name.html) | [OCI8](ref.oci8.html) |
+| ocicancel | [oci\_cancel()](function.oci-cancel.html) | [OCI8](ref.oci8.html) |
+| ocicloselob | [OCILob::close](ocilob.close.html) | [OCI8](ref.oci8.html) |
+| ocicollappend | [OCICollection::append](ocicollection.append.html) | [OCI8](ref.oci8.html) |
+| ocicollassign | [OCICollection::assign](ocicollection.assign.html) | [OCI8](ref.oci8.html) |
+| ocicollmax | [OCICollection::max](ocicollection.max.html) | [OCI8](ref.oci8.html) |
+| ocicollsize | [OCICollection::size](ocicollection.size.html) | [OCI8](ref.oci8.html) |
+| ocicolltrim | [OCICollection::trim](ocicollection.trim.html) | [OCI8](ref.oci8.html) |
+| ocicolumnisnull | [oci\_field\_is\_null()](function.oci-field-is-null.html) | [OCI8](ref.oci8.html) |
+| ocicolumnname | [oci\_field\_name()](function.oci-field-name.html) | [OCI8](ref.oci8.html) |
+| ocicolumnprecision | [oci\_field\_precision()](function.oci-field-precision.html) | [OCI8](ref.oci8.html) |
+| ocicolumnscale | [oci\_field\_scale()](function.oci-field-scale.html) | [OCI8](ref.oci8.html) |
+| ocicolumnsize | [oci\_field\_size()](function.oci-field-size.html) | [OCI8](ref.oci8.html) |
+| ocicolumntype | [oci\_field\_type()](function.oci-field-type.html) | [OCI8](ref.oci8.html) |
+| ocicolumntyperaw | [oci\_field\_type\_raw()](function.oci-field-type-raw.html) | [OCI8](ref.oci8.html) |
+| ocicommit | [oci\_commit()](function.oci-commit.html) | [OCI8](ref.oci8.html) |
+| ocidefinebyname | [oci\_define\_by\_name()](function.oci-define-by-name.html) | [OCI8](ref.oci8.html) |
+| ocierror | [oci\_error()](function.oci-error.html) | [OCI8](ref.oci8.html) |
+| ociexecute | [oci\_execute()](function.oci-execute.html) | [OCI8](ref.oci8.html) |
+| ocifetch | [oci\_fetch()](function.oci-fetch.html) | [OCI8](ref.oci8.html) |
+| ocifetchinto | [oci\_fetch\_array()](function.oci-fetch-array.html) [oci\_fetch\_row()](function.oci-fetch-row.html) [oci\_fetch\_assoc()](function.oci-fetch-assoc.html) [oci\_fetch\_object()](function.oci-fetch-object.html) | [OCI8](ref.oci8.html) |
+| ocifetchstatement | [oci\_fetch\_all()](function.oci-fetch-all.html) | [OCI8](ref.oci8.html) |
+| ocifreecollection | [OCICollection::free](ocicollection.free.html) | [OCI8](ref.oci8.html) |
+| ocifreecursor | [oci\_free\_statement()](function.oci-free-statement.html) | [OCI8](ref.oci8.html) |
+| ocifreedesc | [oci\_free\_descriptor()](function.oci-free-descriptor.html) | [OCI8](ref.oci8.html) |
+| ocifreestatement | [oci\_free\_statement()](function.oci-free-statement.html) | [OCI8](ref.oci8.html) |
+| ocigetelem | [OCICollection::getElem](ocicollection.getelem.html) | [OCI8](ref.oci8.html) |
+| ociinternaldebug | [oci\_internal\_debug()](function.oci-internal-debug.html) | [OCI8](ref.oci8.html) |
+| ociloadlob | [OCILob::load](ocilob.load.html) | [OCI8](ref.oci8.html) |
+| ocilogon | [oci\_connect()](function.oci-connect.html) | [OCI8](ref.oci8.html) |
+| ocinewcollection | [oci\_new\_collection()](function.oci-new-collection.html) | [OCI8](ref.oci8.html) |
+| ocinewcursor | [oci\_new\_cursor()](function.oci-new-cursor.html) | [OCI8](ref.oci8.html) |
+| ocinewdescriptor | [oci\_new\_descriptor()](function.oci-new-descriptor.html) | [OCI8](ref.oci8.html) |
+| ocinlogon | [oci\_new\_connect()](function.oci-new-connect.html) | [OCI8](ref.oci8.html) |
+| ocinumcols | [oci\_num\_fields()](function.oci-num-fields.html) | [OCI8](ref.oci8.html) |
+| ociparse | [oci\_parse()](function.oci-parse.html) | [OCI8](ref.oci8.html) |
+| ocipasswordchange | [oci\_password\_change()](function.oci-password-change.html) | [OCI8](ref.oci8.html) |
+| ociplogon | [oci\_pconnect()](function.oci-pconnect.html) | [OCI8](ref.oci8.html) |
+| ociresult | [oci\_result()](function.oci-result.html) | [OCI8](ref.oci8.html) |
+| ocirollback | [oci\_rollback()](function.oci-rollback.html) | [OCI8](ref.oci8.html) |
+| ocisavelob | [OCILob::save](ocilob.save.html) | [OCI8](ref.oci8.html) |
+| ocisavelobfile | [OCILob::import](ocilob.import.html) | [OCI8](ref.oci8.html) |
+| ociserverversion | [oci\_server\_version()](function.oci-server-version.html) | [OCI8](ref.oci8.html) |
+| ocisetprefetch | [oci\_set\_prefetch()](function.oci-set-prefetch.html) | [OCI8](ref.oci8.html) |
+| ocistatementtype | [oci\_statement\_type()](function.oci-statement-type.html) | [OCI8](ref.oci8.html) |
+| ociwritelobtofile | [OCILob::export](ocilob.export.html) | [OCI8](ref.oci8.html) |
+| ociwritetemporarylob | [OCILob::writeTemporary](ocilob.writetemporary.html) | [OCI8](ref.oci8.html) |
+| odbcдо | [odbc\_exec()](function.odbc-exec.html) | [ODBC](ref.uodbc.html) |
+| odbcfieldprecision | [odbc\_field\_len()](function.odbc-field-len.html) | [ODBC](ref.uodbc.html) |
+| пгclientencoding | [pg\_client\_encoding()](function.pg-client-encoding.html) | [PostgreSQL](ref.pgsql.html) |
+| пгsetclientencoding | [pg\_set\_client\_encoding()](function.pg-set-client-encoding.html) | [PostgreSQL](ref.pgsql.html) |
+| pos | [current()](function.current.html) | Базовий синтаксис |
+| recode | [recode\_string()](function.recode-string.html) | [Recode](ref.recode.html) |
+| showsource | [highlight\_file()](function.highlight-file.html) | Базовий синтаксис |
+| sizeof | [count()](function.count.html) | Базовий синтаксис |
+| snmpwalkoid | [snmprealwalk()](function.snmprealwalk.html) | [SNMP](ref.snmp.html) |
+| strchr | [strstr()](function.strstr.html) | Базовий синтаксис |
+| xptrnewcontext | **xpathnewcontext()** |  |

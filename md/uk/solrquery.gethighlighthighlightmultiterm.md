@@ -1,25 +1,29 @@
-- [« SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.md)
-- [SolrQuery::getHighlightMaxAlternateFieldLength »](solrquery.gethighlightmaxalternatefieldlength.md)
+Повертає, чи потрібно включати виділення для запитів діапазону/підстановочних знаків/нечітких/префіксів
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає, чи потрібно включати виділення для запитів
-діапазону/підстановочних знаків/нечітких/префіксів
+-   [« SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.html)
+    
+-   [SolrQuery::getHighlightMaxAlternateFieldLength »](solrquery.gethighlightmaxalternatefieldlength.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає, чи потрібно включати виділення для запитів діапазону/підстановочних знаків/нечітких/префіксів
+    
 
 # SolrQuery::getHighlightHighlightMultiTerm
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightHighlightMultiTerm — Повертає, чи варто
-включати виділення для запитів діапазону/підстановних
-знаків/нечітких/префіксів
+SolrQuery::getHighlightHighlightMultiTerm — Повертає, чи потрібно включати виділення для запитів діапазону/підстановочних знаків/нечітких/префіксів
 
 ### Опис
 
-public **SolrQuery::getHighlightHighlightMultiTerm**(): bool
+```methodsynopsis
+public SolrQuery::getHighlightHighlightMultiTerm(): bool
+```
 
-Повертає, чи потрібно включати виділення для запитів
-діапазону/підстановочних знаків/нечітких/префіксів
+Повертає, чи потрібно включати виділення для запитів діапазону/підстановочних знаків/нечітких/префіксів
 
 ### Список параметрів
 
@@ -27,5 +31,4 @@ public **SolrQuery::getHighlightHighlightMultiTerm**(): bool
 
 ### Значення, що повертаються
 
-Повертає логічне значення у разі успішного виконання та
-**`null`**, якщо значення не задано
+Повертає логічне значення у разі успішного виконання та **`null`**, якщо значення не встановлено

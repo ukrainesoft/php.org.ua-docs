@@ -1,38 +1,44 @@
-- [«PDOException](class.pdoexception.md)
-- [CUBRID (PDO) »](ref.pdo-cubrid.md)
+Драйвери PDO
 
-- [PHP Manual](index.md)
-- [PDO](book.pdo.md)
-- Драйвери PDO
+-   [« PDOException](class.pdoexception.html)
+    
+-   [CUBRID (PDO) »](ref.pdo-cubrid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDO](book.pdo.html)
+    
+-   Драйвери PDO
+    
 
 # Драйвери PDO
 
 ## Зміст
 
-- [CUBRID (PDO)](ref.pdo-cubrid.md)
-- [MS SQL Server (PDO_DBLIB)](ref.pdo-dblib.md)
-- [Firebird (PDO)](ref.pdo-firebird.md)
-- [IBM (PDO)](ref.pdo-ibm.md)
-- [Informix (PDO)](ref.pdo-informix.md)
-- [MySQL (PDO)](ref.pdo-mysql.md)
-- [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
-- [Oracle (PDO)](ref.pdo-oci.md)
-- [ODBC та DB2 (PDO)](ref.pdo-odbc.md)
-- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
-- [SQLite (PDO)](ref.pdo-sqlite.md)
+-   [CUBRID (PDO)](ref.pdo-cubrid.html)
+-   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html)
+-   [Firebird (PDO)](ref.pdo-firebird.html)
+-   [IBM (PDO)](ref.pdo-ibm.html)
+-   [Informix (PDO)](ref.pdo-informix.html)
+-   [MySQL (PDO)](ref.pdo-mysql.html)
+-   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
+-   [Oracle (PDO)](ref.pdo-oci.html)
+-   [ODBC и DB2 (PDO)](ref.pdo-odbc.html)
+-   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
+-   [SQLite (PDO)](ref.pdo-sqlite.html)
 
 Наступні драйвери в даний час реалізовані в PDO:
 
-| Найменування драйвера бази даних, що підтримуються |
-| -------------------------------------------------- |
-| [PDO_CUBRID](ref.pdo-cubrid.md)                    | Cubrid
-| [PDO_DBLIB](ref.pdo-dblib.md)                      | FreeTDS / Microsoft SQL Server / Sybase
-| [PDO_FIREBIRD](ref.pdo-firebird.md)                | Firebird
-| [PDO_IBM](ref.pdo-ibm.md)                          | IBM DB2
-| [PDO_INFORMIX](ref.pdo-informix.md)                | IBM Informix Dynamic Server
-| [PDO_MYSQL](ref.pdo-mysql.md)                      | MySQL 3.x/4.x/5.x
-| [PDO_OCI](ref.pdo-oci.md)                          | Oracle Call Interface
-| [PDO_ODBC](ref.pdo-odbc.md)                        | ODBC v3 (IBM DB2, unixODBC та win32 ODBC)
-| [PDO_PGSQL](ref.pdo-pgsql.md)                      | PostgreSQL
-| [PDO_SQLITE](ref.pdo-sqlite.md)                    | SQLite 3 та SQLite 2
-| [PDO_SQLSRV](ref.pdo-sqlsrv.md)                    | Microsoft SQL Server / SQL Azure
+| Наименование драйвера | Поддерживаемые базы данных |
+| --- | --- |
+| [PDO\_CUBRID](ref.pdo-cubrid.html) | Cubrid |
+| [PDO\_DBLIB](ref.pdo-dblib.html) | FreeTDS / Microsoft SQL Server / Sybase |
+| [PDO\_FIREBIRD](ref.pdo-firebird.html) | Firebird |
+| [PDO\_IBM](ref.pdo-ibm.html) | IBM DB2 |
+| [PDO\_INFORMIX](ref.pdo-informix.html) | IBM Informix Dynamic Server |
+| [PDO\_MYSQL](ref.pdo-mysql.html) | MySQL 3.x/4.x/5.x |
+| [PDO\_OCI](ref.pdo-oci.html) | Oracle Call Interface |
+| [PDO\_ODBC](ref.pdo-odbc.html) | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) |
+| [PDO\_PGSQL](ref.pdo-pgsql.html) | PostgreSQL |
+| [PDO\_SQLITE](ref.pdo-sqlite.html) | SQLite 3 та SQLite 2 |
+| [PDO\_SQLSRV](ref.pdo-sqlsrv.html) | Microsoft SQL Server / SQL Azure |

@@ -1,25 +1,31 @@
-- [« svn_fs_props_changed](function.svn-fs-props-changed.md)
-- [svn_fs_revision_root »](function.svn-fs-revision-root.md)
+Повертає значення цієї властивості
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Повертає значення цієї властивості
+-   [« svn\_fs\_props\_changed](function.svn-fs-props-changed.html)
+    
+-   [svn\_fs\_revision\_root »](function.svn-fs-revision-root.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SVN](ref.svn.html)
+    
+-   Повертає значення цієї властивості
+    
 
-# svn_fs_revision_prop
+# svnфсrevisionprop
 
-(PECL svn \>= 0.1.0)
+(PECL svn >= 0.1.0)
 
-svn_fs_revision_prop — Повертає значення цієї властивості
+svnфсrevisionprop — Повертає значення цієї властивості
 
 ### Опис
 
-**svn_fs_revision_prop**(resource `$fs`, int `$revnum`, string
-`$propname`): string
+```methodsynopsis
+svn_fs_revision_prop(resource $fs, int $revnum, string $propname): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає значення цієї властивості
 
@@ -27,6 +33,4 @@ svn_fs_revision_prop — Повертає значення цієї власти
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

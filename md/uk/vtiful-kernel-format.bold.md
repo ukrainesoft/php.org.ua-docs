@@ -1,26 +1,34 @@
-- [« Vtiful\Kernel\Format::align](vtiful-kernel-format.align.md)
-- [Vtiful\Kernel\Format::italic »](vtiful-kernel-format.italic.md)
+Напівжирний
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Format](class.vtiful-kernel-format.md)
-- Напівжирний
+-   [« Vtiful\\Kernel\\Format::align](vtiful-kernel-format.align.html)
+    
+-   [Vtiful\\Kernel\\Format::italic »](vtiful-kernel-format.italic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+    
+-   Напівжирний
+    
 
-# Vtiful\Kernel\Format::bold
+# VtifulKernelFormat::bold
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Format::bold - Напівжирний
+VtifulKernelFormat::bold — Напівжирний
 
 ### Опис
 
-public **Vtiful\Kernel\Format::bold**(resource `$handle`)
+```methodsynopsis
+public Vtiful\Kernel\Format::bold(resource $handle)
+```
 
-Напівжирний формат
-[Vtiful\Kernel\Format](class.vtiful-kernel-format.md)
+Напівжирний формат [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
 
 ### Список параметрів
 
 `handle`
+
 Дескриптор файлу xlsx
 
 ### Значення, що повертаються
@@ -31,4 +39,22 @@ public **Vtiful\Kernel\Format::bold**(resource `$handle`)
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$excel  = new \Vtiful\Kernel\Excel($config);$fileObject = $excel->fileName('tutorial01.xlsx') ;$fileHandle==$fileObject->getHandle();$boldStyle==\Vtiful\Kernel\Format::bold($fileHandle);$fileObject->header(['name', 'age'])    ->data([ ['viest', 21]])   ->setColumn('A:A', 200, $boldStyle)   ->output();?> `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$excel  = new \Vtiful\Kernel\Excel($config);
+
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
+
+$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);
+
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setColumn('A:A', 200, $boldStyle)
+    ->output();
+?>
+```

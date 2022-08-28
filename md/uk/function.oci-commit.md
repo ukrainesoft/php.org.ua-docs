@@ -1,73 +1,94 @@
-- [«oci_close](function.oci-close.md)
-- [oci_connect »](function.oci-connect.md)
+Підтверджує транзакцію бази даних
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- підтверджує транзакцію бази даних
+-   [« oci\_close](function.oci-close.html)
+    
+-   [oci\_connect »](function.oci-connect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Підтверджує транзакцію бази даних
+    
 
-#oci_commit
+# ocicommit
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_commit — Підтверджує транзакцію бази даних
+ocicommit — Підтверджує транзакцію бази даних
 
 ### Опис
 
-**oci_commit**(resource `$connection`): bool
+```methodsynopsis
+oci_commit(resource $connection): bool
+```
 
-Підтверджує транзакцію з'єднання `connection`. Підтвердження завершує
-поточну транзакцію та робить усі зміни постійними. Вона також
-звільняє всі встановлені блокування.
+Підтверджує транзакцію з'єднання `connection`. Підтвердження завершує поточну транзакцію та робить усі зміни постійними. Вона також звільняє всі блокування.
 
-Транзакція починається при першому SQL-запиті, який змінює дані, який
-був запущений за допомогою функції [oci_execute()](function.oci-execute.md)
-та прапора **`OCI_NO_AUTO_COMMIT`**. Наступні зміни даних від інших
-запити також стають частиною цієї транзакції. Зміни, зроблені
-у транзакції, є тимчасовими доти, доки транзакція не буде
-зафіксована або поки не буде здійснено її відкат. Інші користувачі
-бази даних не зможуть побачити зміни до їх підтвердження.
+Транзакція починається при першому SQL-запиті, який змінює дані, який був запущений за допомогою функції [oci\_execute()](function.oci-execute.html) та прапор **`OCI_NO_AUTO_COMMIT`**. Наступні зміни даних від інших запитів також стають частиною цієї транзакції. Зміни, зроблені в транзакції, є тимчасовими доти, доки транзакція не буде зафіксована або поки не буде здійснено її відкат. Інші користувачі бази даних не зможуть побачити зміни до їх підтвердження.
 
-При вставці або оновленні даних рекомендується використовувати транзакції
-для збереження цілісності даних та збільшення продуктивності.
+При вставці або оновленні даних рекомендується використовувати транзакції для збереження цілісності даних та збільшення продуктивності.
 
 ### Список параметрів
 
 `connection`
-Ідентифікатор з'єднання Oracle, отриманий із функцій
-[oci_connect()](function.oci-connect.md),
-[oci_pconnect()](function.oci-pconnect.md) або
-[oci_new_connect()](function.oci-new-connect.md).
+
+Ідентифікатор з'єднання Oracle, отриманий із функцій [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html) або [oci\_new\_connect()](function.oci-new-connect.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_commit()****
+**Приклад #1 Приклад використання **ocicommit()****
 
-`<?php// Вставка в кілька таблиць, відкат змін в випадку виникнення помилки$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = id, name) VALUES (1, 'Chris')");// Прапор OCI_NO_AUTO_COMMIT повідомляє Oracle не фіксувати запит INSERT при його надходженні// Для і_HP| stid, OCI_NO_AUTO_COMMIT);if (!$r) {    $e = oci_error($stid); trigger_error(htmlentities($e['message']), E_USER_ERROR);}$stid = oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)')_O; if (!$r) {    $e = oci_error($stid); oci_rollback($conn); // відкат змін із двох таблиць    trigger_error(htmlentities($e['message']), E_USER_ERROR);}// Фіксація змін в  обох таблицях$r $        oci_error($conn); trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
+```php
+<?php
+
+// Вставка в несколько таблиц, откат изменений в случае возникновения ошибки
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+
+$stid = oci_parse($conn, "INSERT INTO mysalary (id, name) VALUES (1, 'Chris')");
+
+// Флаг OCI_NO_AUTO_COMMIT сообщает Oracle не фиксировать запрос INSERT при его поступлении
+// Для PHP <= 5.3.1 используйте OCI_DEFAULT, эти два флага эквивалентны
+$r = oci_execute($stid, OCI_NO_AUTO_COMMIT);
+if (!$r) {
+    $e = oci_error($stid);
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)');
+$r = oci_execute($stid, OCI_NO_AUTO_COMMIT);
+if (!$r) {
+    $e = oci_error($stid);
+    oci_rollback($conn);  // откат изменений из обоих таблиц
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+}
+
+// Фиксация изменений в обоих таблицах
+$r = oci_commit($conn);
+if (!$r) {
+    $e = oci_error($conn);
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+}
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Транзакції будуть автоматично відкачені під час закриття з'єднання або
-> закінчення скрипта (залежно від того, що станеться раніше). Для
-> підтвердження транзакції необхідно явно викликати функцію
-> **oci_commit()**.
->
-> Всі виклики [oci_execute()](function.oci-execute.md), явно або через
-> за замовчуванням, що використовують режим **`OCI_COMMIT_ON_SUCCESS`** зафіксують
-> будь-яку попередню незафіксовану транзакцію.
->
-> Будь-який DDL-запит Oracle, такий як `CREATE` або `DROP` автоматично
-> підтверджує будь-яку незавершену транзакцію.
+> **Зауваження**
+> 
+> Транзакції будуть автоматично відкачені під час закриття з'єднання або закінчення скрипту (залежно від того, що станеться раніше). Для підтвердження транзакції необхідно явно викликати функцію **ocicommit()**
+> 
+> Усі виклики [oci\_execute()](function.oci-execute.html), явно або за замовчуванням, що використовують режим **`OCI_COMMIT_ON_SUCCESS`** зафіксують будь-яку попередню незафіксовану транзакцію.
+> 
+> Будь-який DDL-запит Oracle, такий як `CREATE` або `DROP` автоматично підтверджує будь-яку незавершену транзакцію.
 
 ### Дивіться також
 
-- [oci_execute()](function.oci-execute.md) - Виконує
-підготовлений вираз
-- [oci_rollback()](function.oci-rollback.md) - Відкочує
-транзакції, що очікують на обробку
+-   [oci\_execute()](function.oci-execute.html) - Виконує підготовлений вираз
+-   [oci\_rollback()](function.oci-rollback.html) - Відкочує транзакції, що очікують на обробку

@@ -1,9 +1,15 @@
-- [«Зумовлені константи](dir.constants.md)
-- [Directory::close »](directory.close.md)
+Клас Directory
 
-- [PHP Manual](index.md)
-- [Каталоги](book.dir.md)
-- Клас Directory
+-   [« Предопределённые константы](dir.constants.html)
+    
+-   [Directory::close »](directory.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Каталоги](book.dir.html)
+    
+-   Клас Directory
+    
 
 # Клас Directory
 
@@ -11,52 +17,61 @@
 
 ## Вступ
 
-Примірники класу **Directory** створюються за допомогою виклику функції
-[dir()](function.dir.md), а не за допомогою оператора
-[new](language.oop5.basic.md#language.oop5.basic.new).
+Примірники класу **Directory** створюються за допомогою виклику функції [dir()](function.dir.html), а не за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
 
 ## Огляд класів
 
-class **Directory** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly string `$path`;
+    
+     
+      class Directory
+     
+     {
 
-public readonly resource `$handle`;
+    /* Свойства */
+    
+     public
+     readonly
+     string
+      $path;
 
-/\* Методи \*/
+    public
+     readonly
+     resource
+      $handle;
 
-public [close](directory.close.md)(): void
 
-public [read](directory.read.md)(): string\|false
+    /* Методы */
+    
+   public close(): void
+public read(): string|false
+public rewind(): void
 
-public [rewind](directory.rewind.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`path`
+path
+
 Каталог, який було відкрито.
 
-`handle`
-Може бути використано з іншими функціями каталогів, такими як
-[readdir()](function.readdir.md),
-[rewinddir()](function.rewinddir.md) та
-[closedir()](function.closedir.md).
+handle
 
-## Список змін
+Може використовуватися з іншими функціями каталогів, такими як [readdir()](function.readdir.html) [rewinddir()](function.rewinddir.html) і [closedir()](function.closedir.html)
 
-| Версія | Опис                                                          |
-| ------ | ------------------------------------------------------------- |
-| 8.1.0  | Властивості path та handle тепер доступні тільки для читання. |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Властивості path та handle тепер доступні лише для читання. |
 
 ## Зміст
 
-- [Directory::close](directory.close.md) - Закриває дескриптор
-каталогу
-- [Directory::read](directory.read.md) — Отримує елемент із
-дескриптора каталогу
-- [Directory::rewind](directory.rewind.md) — Переміщення дескриптора
-каталогу на початок каталогу
+-   [Directory::close](directory.close.html) — Закриває дескриптор каталогу
+-   [Directory::read](directory.read.html) — Отримує елемент із дескриптора каталогу
+-   [Directory::rewind](directory.rewind.html) — Переміщує дескриптор каталогу на початок каталогу

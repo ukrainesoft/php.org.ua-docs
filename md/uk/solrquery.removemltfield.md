@@ -1,29 +1,36 @@
-- [« SolrQuery::removeHighlightField](solrquery.removehighlightfield.md)
-- [SolrQuery::removeMltQueryField »](solrquery.removemltqueryfield.md)
+Видаляє одне з полів більше
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє одне з полів більшеLikeThis
+-   [« SolrQuery::removeHighlightField](solrquery.removehighlightfield.html)
+    
+-   [SolrQuery::removeMltQueryField »](solrquery.removemltqueryfield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Видаляє одне з полів більше
+    
 
 # SolrQuery::removeMltField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::removeMltField — Видаляє одне з полів moreLikeThis
 
 ### Опис
 
-public **SolrQuery::removeMltField**(string `$field`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeMltField(string $field): SolrQuery
+```
 
 Видаляє одне з полів більшежиття.
 
 ### Список параметрів
 
 `field`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

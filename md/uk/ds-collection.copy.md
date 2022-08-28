@@ -1,20 +1,27 @@
-- [« Ds\Collection::clear](ds-collection.clear.md)
-- [Ds\Collection::isEmpty »](ds-collection.isempty.md)
+Повертає копію колекції
 
-- [PHP Manual](index.md)
-- [Колекція](class.ds-collection.md)
-- Повертає копію колекції
+-   [« Ds\\Collection::clear](ds-collection.clear.html)
+    
+-   [Ds\\Collection::isEmpty »](ds-collection.isempty.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Коллекция](class.ds-collection.html)
+    
+-   Повертає копію колекції
+    
 
-# Ds\Collection::copy
+# ДсCollection::copy
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Collection::copy — Повертає копію колекції
+ДсCollection::copy — Повертає копію колекції
 
 ### Опис
 
-abstract public **Ds\Collection::copy**():
-[Ds\Collection](class.ds-collection.md)
+```methodsynopsis
+abstract public Ds\Collection::copy(): Ds\Collection
+```
 
 Повертає копію колекції.
 
@@ -28,22 +35,34 @@ abstract public **Ds\Collection::copy**():
 
 ### Приклади
 
-**Приклад #1 Приклад **Ds\Collection::copy()****
+**Приклад #1 Приклад **ДсCollection::copy()****
 
-` <?php$a = new \Ds\Vector([1, 2, 3]);$b = $a->copy();$b->push(4);print_r($a);print_r( $b);?> `
+```php
+<?php
+$a = new \Ds\Vector([1, 2, 3]);
+$b = $a->copy();
+
+$b->push(4);
+
+print_r($a);
+print_r($b);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
 )
+```

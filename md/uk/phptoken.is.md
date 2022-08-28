@@ -1,9 +1,15 @@
-- [« PhpToken::getTokenName](phptoken.gettokenname.md)
-- [PhpToken::isIgnorable »](phptoken.isignorable.md)
+Перевіряє, чи відповідає токен зазначеному типу
 
-- [PHP Manual](index.md)
-- [PhpToken](class.phptoken.md)
-- Перевіряє, чи відповідає токен зазначеному типу
+-   [« PhpToken::getTokenName](phptoken.gettokenname.html)
+    
+-   [PhpToken::isIgnorable »](phptoken.isignorable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PhpToken](class.phptoken.html)
+    
+-   Перевіряє, чи відповідає токен зазначеному типу
+    
 
 # PhpToken::is
 
@@ -13,31 +19,50 @@ PhpToken::is — Перевіряє, чи відповідає токен заз
 
 ### Опис
 
-public **PhpToken::is**(int\|string\|array `$kind`): bool
+```methodsynopsis
+public PhpToken::is(int|string|array $kind): bool
+```
 
-Перевіряє, чи відповідає токен зазначеному типу `kind`.
+Перевіряє, чи відповідає токен зазначеному типу `kind`
 
 ### Список параметрів
 
 `kind`
-Значення для порівняння з ідентифікатором токена або його текстовим
-уявленням, чи масив таких значень.
+
+Значення порівняння з ідентифікатором токена, чи його текстовим поданням, чи масив таких значень.
 
 ### Значення, що повертаються
 
-Логічне значення, **`true`** або **`false`**.
+Логічне значення, **`true`** або **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PhpToken::is()****
 
-`<?php$token = new PhpToken(T_ECHO, 'echo');var_dump($token->is(T_ECHO)); // -> bool(true)var_dump($token->is('echo')); // -> bool(true)var_dump($token->is(T_FOREACH)); // -> bool(false)var_dump($token->is('foreach')); // -> bool(false) `
+```php
+<?php
+$token = new PhpToken(T_ECHO, 'echo');
+var_dump($token->is(T_ECHO));        // -> bool(true)
+var_dump($token->is('echo'));        // -> bool(true)
+var_dump($token->is(T_FOREACH));     // -> bool(false)
+var_dump($token->is('foreach'));     // -> bool(false)
+```
 
 **Приклад #2 Використання з масивом**
 
-`<?phpfunction isClassType(PhpToken $token): bool {    return $token->is([T_CLASS, T_INTERFACE, T_TRAIT]); ); // -> bool(true)$function = new PhpToken(T_FUNCTION, 'function');var_dump(isClassType($function)); // -> bool(false) `
+```php
+<?php
+function isClassType(PhpToken $token): bool {
+    return $token->is([T_CLASS, T_INTERFACE, T_TRAIT]);
+}
+
+$interface = new PhpToken(T_INTERFACE, 'interface');
+var_dump(isClassType($interface));   // -> bool(true)
+
+$function = new PhpToken(T_FUNCTION, 'function');
+var_dump(isClassType($function));    // -> bool(false)
+```
 
 ### Дивіться також
 
-- [token_name()](function.token-name.md) - Отримати символьне ім'я
-для переданої PHP-лексеми
+-   [token\_name()](function.token-name.html) - Отримати символьне ім'я для переданої PHP-лексеми

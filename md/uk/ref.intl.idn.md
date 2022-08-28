@@ -1,15 +1,19 @@
-- [«grapheme_substr](function.grapheme-substr.md)
-- [idn_to_ascii »](function.idn-to-ascii.md)
+Функції IDN
 
-- [PHP Manual](index.md)
-- [intl](book.intl.md)
-- Функції IDN
+-   [« grapheme\_substr](function.grapheme-substr.html)
+    
+-   [idn\_to\_ascii »](function.idn-to-ascii.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [intl](book.intl.html)
+    
+-   Функції IDN
+    
 
 # Функції IDN
 
 ## Зміст
 
-- [idn_to_ascii](function.idn-to-ascii.md) — Перетворити доменне
-ім'я у формат IDNA ASCII
-- [idn_to_utf8](function.idn-to-utf8.md) - Перетворення доменного
-імені з IDNA ASCII в Unicode
+-   [idn\_to\_ascii](function.idn-to-ascii.html) — Перетворити доменне ім'я на формат IDNA ASCII
+-   [idn\_to\_utf8](function.idn-to-utf8.html) — Перетворення доменного імені з IDNA ASCII на Unicode

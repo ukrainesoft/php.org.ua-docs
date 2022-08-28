@@ -1,205 +1,152 @@
-- [« Нові можливості](migration72.new-features.md)
-- [Нові глобальні константи »](migration72.constants.md)
+Нові функції
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.1.x на PHP 7.2.x](migration72.md)
-- Нові функції
+-   [« Новые возможности](migration72.new-features.html)
+    
+-   [Новые глобальные константы »](migration72.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 7.1.x на PHP 7.2.x](migration72.html)
+    
+-   Нові функції
+    
 
 ## Нові функції
 
 ### Ядро PHP
 
-- [stream_isatty()](function.stream-isatty.md)
--
-[sapi_windows_vt100_support()](function.sapi-windows-vt100-support.md)
+-   [stream\_isatty()](function.stream-isatty.html)
+-   [sapi\_windows\_vt100\_support()](function.sapi-windows-vt100-support.html)
 
-### [SPL](book.spl.md)
+### [SPL](book.spl.html)
 
-- [spl_object_id()](function.spl-object-id.md)
+-   [spl\_object\_id()](function.spl-object-id.html)
 
-### [DOM](book.dom.md)
+### [DOM](book.dom.html)
 
-- [DomNodeList::count()](domnodelist.count.md)
-- [DOMNamedNodeMap::count()](domnamednodemap.count.md)
+-   [DomNodeList::count()](domnodelist.count.html)
+-   [DOMNamedNodeMap::count()](domnamednodemap.count.html)
 
-### [FTP](book.ftp.md)
+### [FTP](book.ftp.html)
 
-- [ftp_append()](function.ftp-append.md)
+-   [ftp\_append()](function.ftp-append.html)
 
-### [GD](book.image.md)
+### [GD](book.image.html)
 
-- [imagesetclip()](function.imagesetclip.md)
-- [imagegetclip()](function.imagegetclip.md)
-- [imageopenpolygon()](function.imageopenpolygon.md)
-- [imageresolution()](function.imageresolution.md)
-- [imagecreatefrombmp()](function.imagecreatefrombmp.md)
-- [imagebmp()](function.imagebmp.md)
+-   [imagesetclip()](function.imagesetclip.html)
+-   [imagegetclip()](function.imagegetclip.html)
+-   [imageopenpolygon()](function.imageopenpolygon.html)
+-   [imageresolution()](function.imageresolution.html)
+-   [imagecreatefrombmp()](function.imagecreatefrombmp.html)
+-   [imagebmp()](function.imagebmp.html)
 
-### [Hash](book.hash.md)
+### [Hash](book.hash.html)
 
-- [hash_hmac_algos()](function.hash-hmac-algos.md)
+-   [hash\_hmac\_algos()](function.hash-hmac-algos.html)
 
-### [LDAP](book.ldap.md)
+### [LDAP](book.ldap.html)
 
-- [ldap_parse_exop()](function.ldap-parse-exop.md)
-- [ldap_exop()](function.ldap-exop.md)
-- [ldap_exop_passwd()](function.ldap-exop-passwd.md)
-- [ldap_exop_whoami()](function.ldap-exop-whoami.md)
+-   [ldap\_parse\_exop()](function.ldap-parse-exop.html)
+-   [ldap\_exop()](function.ldap-exop.html)
+-   [ldap\_exop\_passwd()](function.ldap-exop-passwd.html)
+-   [ldap\_exop\_whoami()](function.ldap-exop-whoami.html)
 
-### [Багатобайтні рядки](book.mbstring.md)
+### [Многобайтные строки](book.mbstring.html)
 
-- [mb_chr()](function.mb-chr.md)
-- [mb_ord()](function.mb-ord.md)
-- [mb_scrub()](function.mb-scrub.md)
+-   [mb\_chr()](function.mb-chr.html)
+-   [mb\_ord()](function.mb-ord.html)
+-   [mb\_scrub()](function.mb-scrub.html)
 
-### [Oracle OCI8](book.oci8.md)
+### [Oracle OCI8](book.oci8.html)
 
--
-[oci_register_taf_callback()](function.oci-register-taf-callback.md)
--
-[oci_unregister_taf_callback()](function.oci-unregister-taf-callback.md)
+-   [oci\_register\_taf\_callback()](function.oci-register-taf-callback.html)
+-   [oci\_unregister\_taf\_callback()](function.oci-unregister-taf-callback.html)
 
-### [Сокети](book.sockets.md)
+### [Сокеты](book.sockets.html)
 
-- [socket_addrinfo_lookup()](function.socket-addrinfo-lookup.md)
-- [socket_addrinfo_connect()](function.socket-addrinfo-connect.md)
-- [socket_addrinfo_bind()](function.socket-addrinfo-bind.md)
-- [socket_addrinfo_explain()](function.socket-addrinfo-explain.md)
+-   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html)
+-   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html)
+-   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html)
+-   [socket\_addrinfo\_explain()](function.socket-addrinfo-explain.html)
 
-### [Sodium](book.sodium.md)
+### [Sodium](book.sodium.html)
 
-- [sodium_add()](function.sodium-add.md)
-- [sodium_bin2hex()](function.sodium-bin2hex.md)
-- [sodium_compare()](function.sodium-compare.md)
--
-[sodium_crypto_aead_aes256gcm_decrypt()](function.sodium-crypto-aead-aes256gcm-decrypt.md)
--
-[sodium_crypto_aead_aes256gcm_encrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.md)
--
-[sodium_crypto_aead_aes256gcm_is_available()](function.sodium-crypto-aead-aes256gcm-is-available.md)
--
-[sodium_crypto_aead_aes256gcm_keygen()](function.sodium-crypto-aead-aes256gcm-keygen.md)
--
-[sodium_crypto_aead_chacha20poly1305_decrypt()](function.sodium-crypto-aead-chacha20poly1305-decrypt.md)
--
-[sodium_crypto_aead_chacha20poly1305_encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.md)
--
-[sodium_crypto_aead_chacha20poly1305_ietf_decrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.md)
--
-[sodium_crypto_aead_chacha20poly1305_ietf_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md)
--
-[sodium_crypto_aead_chacha20poly1305_ietf_keygen()](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.md)
--
-[sodium_crypto_aead_chacha20poly1305_keygen()](function.sodium-crypto-aead-chacha20poly1305-keygen.md)
--
-[sodium_crypto_auth_keygen()](function.sodium-crypto-auth-keygen.md)
--
-[sodium_crypto_auth_verify()](function.sodium-crypto-auth-verify.md)
-- [sodium_crypto_auth()](function.sodium-crypto-auth.md)
--
-[sodium_crypto_box_keypair_from_secretkey_and_publickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md)
--
-[sodium_crypto_box_keypair()](function.sodium-crypto-box-keypair.md)
-- [sodium_crypto_box_open()](function.sodium-crypto-box-open.md)
--
-[sodium_crypto_box_publickey_from_secretkey()](function.sodium-crypto-box-publickey-from-secretkey.md)
--
-[sodium_crypto_box_publickey()](function.sodium-crypto-box-publickey.md)
--
-[sodium_crypto_box_seal_open()](function.sodium-crypto-box-seal-open.md)
-- [sodium_crypto_box_seal()](function.sodium-crypto-box-seal.md)
--
-[sodium_crypto_box_secretkey()](function.sodium-crypto-box-secretkey.md)
--
-[sodium_crypto_box_seed_keypair()](function.sodium-crypto-box-seed-keypair.md)
-- [sodium_crypto_box()](function.sodium-crypto-box.md)
--
-[sodium_crypto_generichash_final()](function.sodium-crypto-generichash-final.md)
--
-[sodium_crypto_generichash_init()](function.sodium-crypto-generichash-init.md)
--
-[sodium_crypto_generichash_keygen()](function.sodium-crypto-generichash-keygen.md)
--
-[sodium_crypto_generichash_update()](function.sodium-crypto-generichash-update.md)
--
-[sodium_crypto_generichash()](function.sodium-crypto-generichash.md)
--
-[sodium_crypto_kdf_derive_from_key()](function.sodium-crypto-kdf-derive-from-key.md)
--
-[sodium_crypto_kdf_keygen()](function.sodium-crypto-kdf-keygen.md)
--
-[sodium_crypto_kx_client_session_keys()](function.sodium-crypto-kx-client-session-keys.md)
--
-[sodium_crypto_kx_keypair()](function.sodium-crypto-kx-keypair.md)
--
-[sodium_crypto_kx_publickey()](function.sodium-crypto-kx-publickey.md)
--
-[sodium_crypto_kx_secretkey()](function.sodium-crypto-kx-secretkey.md)
--
-[sodium_crypto_kx_seed_keypair()](function.sodium-crypto-kx-seed-keypair.md)
--
-[sodium_crypto_kx_server_session_keys()](function.sodium-crypto-kx-server-session-keys.md)
--
-[sodium_crypto_pwhash_scryptsalsa208sha256_str_verify()](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md)
--
-[sodium_crypto_pwhash_scryptsalsa208sha256_str()](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md)
--
-[sodium_crypto_pwhash_scryptsalsa208sha256()](function.sodium-crypto-pwhash-scryptsalsa208sha256.md)
--
-[sodium_crypto_pwhash_str_verify()](function.sodium-crypto-pwhash-str-verify.md)
--
-[sodium_crypto_pwhash_str()](function.sodium-crypto-pwhash-str.md)
-- [sodium_crypto_pwhash()](function.sodium-crypto-pwhash.md)
--
-[sodium_crypto_scalarmult_base()](function.sodium-crypto-scalarmult-base.md)
--
-[sodium_crypto_scalarmult()](function.sodium-crypto-scalarmult.md)
--
-[sodium_crypto_secretbox_keygen()](function.sodium-crypto-secretbox-keygen.md)
--
-[sodium_crypto_secretbox_open()](function.sodium-crypto-secretbox-open.md)
-- [sodium_crypto_secretbox()](function.sodium-crypto-secretbox.md)
--
-[sodium_crypto_shorthash_keygen()](function.sodium-crypto-shorthash-keygen.md)
-- [sodium_crypto_shorthash()](function.sodium-crypto-shorthash.md)
--
-[sodium_crypto_sign_detached()](function.sodium-crypto-sign-detached.md)
--
-[sodium_crypto_sign_ed25519_pk_to_curve25519()](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md)
--
-[sodium_crypto_sign_ed25519_sk_to_curve25519()](function.sodium-crypto-sign-ed25519-sk-to-curve25519.md)
--
-[sodium_crypto_sign_keypair_from_secretkey_and_publickey()](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md)
--
-[sodium_crypto_sign_keypair()](function.sodium-crypto-sign-keypair.md)
-- [sodium_crypto_sign_open()](function.sodium-crypto-sign-open.md)
--
-[sodium_crypto_sign_publickey_from_secretkey()](function.sodium-crypto-sign-publickey-from-secretkey.md)
--
-[sodium_crypto_sign_publickey()](function.sodium-crypto-sign-publickey.md)
--
-[sodium_crypto_sign_secretkey()](function.sodium-crypto-sign-secretkey.md)
--
-[sodium_crypto_sign_seed_keypair()](function.sodium-crypto-sign-seed-keypair.md)
--
-[sodium_crypto_sign_verify_detached()](function.sodium-crypto-sign-verify-detached.md)
-- [sodium_crypto_sign()](function.sodium-crypto-sign.md)
--
-[sodium_crypto_stream_keygen()](function.sodium-crypto-stream-keygen.md)
--
-[sodium_crypto_stream_xor()](function.sodium-crypto-stream-xor.md)
-- [sodium_crypto_stream()](function.sodium-crypto-stream.md)
-- [sodium_hex2bin()](function.sodium-hex2bin.md)
-- [sodium_increment()](function.sodium-increment.md)
-- [sodium_memcmp()](function.sodium-memcmp.md)
-- [sodium_memzero()](function.sodium-memzero.md)
-- [sodium_pad()](function.sodium-pad.md)
-- [sodium_unpad()](function.sodium-unpad.md)
+-   [sodium\_add()](function.sodium-add.html)
+-   [sodium\_bin2hex()](function.sodium-bin2hex.html)
+-   [sodium\_compare()](function.sodium-compare.html)
+-   [sodium\_crypto\_aead\_aes256gcm\_decrypt()](function.sodium-crypto-aead-aes256gcm-decrypt.html)
+-   [sodium\_crypto\_aead\_aes256gcm\_encrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.html)
+-   [sodium\_crypto\_aead\_aes256gcm\_is\_available()](function.sodium-crypto-aead-aes256gcm-is-available.html)
+-   [sodium\_crypto\_aead\_aes256gcm\_keygen()](function.sodium-crypto-aead-aes256gcm-keygen.html)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_decrypt()](function.sodium-crypto-aead-chacha20poly1305-decrypt.html)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.html)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_keygen()](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_keygen()](function.sodium-crypto-aead-chacha20poly1305-keygen.html)
+-   [sodium\_crypto\_auth\_keygen()](function.sodium-crypto-auth-keygen.html)
+-   [sodium\_crypto\_auth\_verify()](function.sodium-crypto-auth-verify.html)
+-   [sodium\_crypto\_auth()](function.sodium-crypto-auth.html)
+-   [sodium\_crypto\_box\_keypair\_from\_secretkey\_and\_publickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html)
+-   [sodium\_crypto\_box\_keypair()](function.sodium-crypto-box-keypair.html)
+-   [sodium\_crypto\_box\_open()](function.sodium-crypto-box-open.html)
+-   [sodium\_crypto\_box\_publickey\_from\_secretkey()](function.sodium-crypto-box-publickey-from-secretkey.html)
+-   [sodium\_crypto\_box\_publickey()](function.sodium-crypto-box-publickey.html)
+-   [sodium\_crypto\_box\_seal\_open()](function.sodium-crypto-box-seal-open.html)
+-   [sodium\_crypto\_box\_seal()](function.sodium-crypto-box-seal.html)
+-   [sodium\_crypto\_box\_secretkey()](function.sodium-crypto-box-secretkey.html)
+-   [sodium\_crypto\_box\_seed\_keypair()](function.sodium-crypto-box-seed-keypair.html)
+-   [sodium\_crypto\_box()](function.sodium-crypto-box.html)
+-   [sodium\_crypto\_generichash\_final()](function.sodium-crypto-generichash-final.html)
+-   [sodium\_crypto\_generichash\_init()](function.sodium-crypto-generichash-init.html)
+-   [sodium\_crypto\_generichash\_keygen()](function.sodium-crypto-generichash-keygen.html)
+-   [sodium\_crypto\_generichash\_update()](function.sodium-crypto-generichash-update.html)
+-   [sodium\_crypto\_generichash()](function.sodium-crypto-generichash.html)
+-   [sodium\_crypto\_kdf\_derive\_from\_key()](function.sodium-crypto-kdf-derive-from-key.html)
+-   [sodium\_crypto\_kdf\_keygen()](function.sodium-crypto-kdf-keygen.html)
+-   [sodium\_crypto\_kx\_client\_session\_keys()](function.sodium-crypto-kx-client-session-keys.html)
+-   [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.html)
+-   [sodium\_crypto\_kx\_publickey()](function.sodium-crypto-kx-publickey.html)
+-   [sodium\_crypto\_kx\_secretkey()](function.sodium-crypto-kx-secretkey.html)
+-   [sodium\_crypto\_kx\_seed\_keypair()](function.sodium-crypto-kx-seed-keypair.html)
+-   [sodium\_crypto\_kx\_server\_session\_keys()](function.sodium-crypto-kx-server-session-keys.html)
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify()](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str()](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html)
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256()](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
+-   [sodium\_crypto\_pwhash\_str\_verify()](function.sodium-crypto-pwhash-str-verify.html)
+-   [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html)
+-   [sodium\_crypto\_pwhash()](function.sodium-crypto-pwhash.html)
+-   [sodium\_crypto\_scalarmult\_base()](function.sodium-crypto-scalarmult-base.html)
+-   [sodium\_crypto\_scalarmult()](function.sodium-crypto-scalarmult.html)
+-   [sodium\_crypto\_secretbox\_keygen()](function.sodium-crypto-secretbox-keygen.html)
+-   [sodium\_crypto\_secretbox\_open()](function.sodium-crypto-secretbox-open.html)
+-   [sodium\_crypto\_secretbox()](function.sodium-crypto-secretbox.html)
+-   [sodium\_crypto\_shorthash\_keygen()](function.sodium-crypto-shorthash-keygen.html)
+-   [sodium\_crypto\_shorthash()](function.sodium-crypto-shorthash.html)
+-   [sodium\_crypto\_sign\_detached()](function.sodium-crypto-sign-detached.html)
+-   [sodium\_crypto\_sign\_ed25519\_pk\_to\_curve25519()](function.sodium-crypto-sign-ed25519-pk-to-curve25519.html)
+-   [sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519()](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
+-   [sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey()](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html)
+-   [sodium\_crypto\_sign\_keypair()](function.sodium-crypto-sign-keypair.html)
+-   [sodium\_crypto\_sign\_open()](function.sodium-crypto-sign-open.html)
+-   [sodium\_crypto\_sign\_publickey\_from\_secretkey()](function.sodium-crypto-sign-publickey-from-secretkey.html)
+-   [sodium\_crypto\_sign\_publickey()](function.sodium-crypto-sign-publickey.html)
+-   [sodium\_crypto\_sign\_secretkey()](function.sodium-crypto-sign-secretkey.html)
+-   [sodium\_crypto\_sign\_seed\_keypair()](function.sodium-crypto-sign-seed-keypair.html)
+-   [sodium\_crypto\_sign\_verify\_detached()](function.sodium-crypto-sign-verify-detached.html)
+-   [sodium\_crypto\_sign()](function.sodium-crypto-sign.html)
+-   [sodium\_crypto\_stream\_keygen()](function.sodium-crypto-stream-keygen.html)
+-   [sodium\_crypto\_stream\_xor()](function.sodium-crypto-stream-xor.html)
+-   [sodium\_crypto\_stream()](function.sodium-crypto-stream.html)
+-   [sodium\_hex2bin()](function.sodium-hex2bin.html)
+-   [sodium\_increment()](function.sodium-increment.html)
+-   [sodium\_memcmp()](function.sodium-memcmp.html)
+-   [sodium\_memzero()](function.sodium-memzero.html)
+-   [sodium\_pad()](function.sodium-pad.html)
+-   [sodium\_unpad()](function.sodium-unpad.html)
 
-### [ZIP](book.zip.md)
+### [ZIP](book.zip.html)
 
-- [ZipArchive::count()](ziparchive.count.md)
--
-[ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md)
--
-[ZipArchive::SetEncryptionIndex()](ziparchive.setencryptionindex.md)
+-   [ZipArchive::count()](ziparchive.count.html)
+-   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.html)
+-   [ZipArchive::SetEncryptionIndex()](ziparchive.setencryptionindex.html)

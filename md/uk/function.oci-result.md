@@ -1,71 +1,86 @@
-- [« oci_register_taf_callback](function.oci-register-taf-callback.md)
-- [oci_rollback »](function.oci-rollback.md)
+Повертає значення поля з результату запиту
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Повертає значення поля із результату запиту
+-   [« oci\_register\_taf\_callback](function.oci-register-taf-callback.html)
+    
+-   [oci\_rollback »](function.oci-rollback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Повертає значення поля з результату запиту
+    
 
-#oci_result
+# ociresult
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_result — Повертає значення поля з результату запиту
+ociresult — Повертає значення поля з результату запиту
 
 ### Опис
 
-**oci_result**(resource `$statement`, string\|int `$column`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+oci_result(resource $statement, string|int $column): mixed
+```
 
-Повертає дані поля `column` поточного рядка, що повертається функцією
-[oci_fetch()](function.oci-fetch.md).
+Повертає дані поля `column` поточного рядка, що повертається функцією [oci\_fetch()](function.oci-fetch.html)
 
-За подробицями операції відображення типів даних, що здійснюється
-модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
+За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типам данных, поддерживаемых драйвером](oci8.datatypes.html)
 
 ### Список параметрів
 
 `statement`
 
 `column`
-Може бути задано номером поля (починаючи з 1) або на ім'я. Реєстр
-імені поля має бути таким самим, як і у поля, описаного в метаданих
-Oracle, яке завжди у верхньому регістрі для полів, створених
-реєстронезалежними.
+
+Може бути задано номером поля (починаючи з 1) або на ім'я. Регістр імені поля повинен бути таким самим, як і у поля, описаного в метаданих Oracle, яке завжди у верхньому регістрі для полів, створених реєстронезалежними.
 
 ### Значення, що повертаються
 
-Повертає всі значення у вигляді рядка за винятком абстрактних типів
-(ROWIDs, LOBs та FILEs). Повертає **`false`** у разі виникнення
-помилки.
+Повертає всі значення у вигляді рядка за винятком абстрактних типів (ROWIDs, LOBs та FILEs). Повертає **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання [oci_fetch()](function.oci-fetch.md)
-з **oci_result()****
+**Приклад #1 Приклад використання [oci\_fetch()](function.oci-fetch.html) з **ociresult()****
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti;$sti stid);while(oci_fetch($stid)) {    echo oci_result($stid, 'LOCATION_ID') . " - це "; echo oci_result($stid, 'CITY') . "<br>
-";}// Виведе://  1000 - це Roma//   1100 - це Veniceoci_free_statement($stid);oci_close($conn);?> `
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
+$stid = oci_parse($conn, $sql);
+oci_execute($stid);
+
+while (oci_fetch($stid)) {
+    echo oci_result($stid, 'LOCATION_ID') . " - это ";
+    echo oci_result($stid, 'CITY') . "<br>\n";
+}
+
+// Выведет:
+//   1000 - это Roma
+//   1100 - это Venice
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У версіях PHP нижче 5.0.0 ця функція називалася
-> [ociresult()](function.ociresult.md). У PHP 5.0.0 і вище
-> [ociresult()](function.ociresult.md) є аліасом
-> **oci_result()** з метою зворотної сумісності. Ви можете продовжувати
-> використовувати це ім'я, але це не рекомендується.
+> **Зауваження**
+> 
+> У версіях PHP нижче 5.0.0 ця функція називалася [ociresult()](function.ociresult.html). У PHP 5.0.0 і вище [ociresult()](function.ociresult.html) є аліасом **ociresult()** з метою зворотної сумісності. Ви можете продовжувати використовувати це ім'я, але це не рекомендується.
 
 ### Дивіться також
 
-- [oci_fetch_array()](function.oci-fetch-array.md) - Повертає
-наступний рядок з результату запиту у вигляді асоціативного або
-нумерованого масиву
-- [oci_fetch_assoc()](function.oci-fetch-assoc.md) - Повертає
-наступний рядок з результату запиту у вигляді асоціативного масиву
-- [oci_fetch_object()](function.oci-fetch-object.md) - Повертає
-наступний рядок із результату запиту у вигляді об'єкта
-- [oci_fetch_row()](function.oci-fetch-row.md) - Повертає
-наступний рядок з результату запиту у вигляді нумерованого масиву
-- [oci_fetch_all()](function.oci-fetch-all.md) - Вибирає всі рядки
-з результату запиту до двомірного масиву
+-   [oci\_fetch\_array()](function.oci-fetch-array.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [oci\_fetch\_assoc()](function.oci-fetch-assoc.html) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [oci\_fetch\_object()](function.oci-fetch-object.html) - Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [oci\_fetch\_row()](function.oci-fetch-row.html) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [oci\_fetch\_all()](function.oci-fetch-all.html) - Вибирає всі рядки з результату запиту до двомірного масиву

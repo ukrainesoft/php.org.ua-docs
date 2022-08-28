@@ -1,15 +1,21 @@
-- [«Вступ](intro.inotify.md)
-- [Вимоги »](inotify.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Inotify](book.inotify.md)
+-   [« Введение](intro.inotify.html)
+    
+-   [Требования »](inotify.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Inotify](book.inotify.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](inotify.requirements.md)
-- [Встановлення та налаштування](inotify.install.md)
-- [Налаштування під час виконання](inotify.configuration.md)
-- [Типи ресурсів](inotify.resources.md)
+-   [Требования](inotify.requirements.html)
+-   [Установка и настройка](inotify.install.html)
+-   [Настройка во время выполнения](inotify.configuration.html)
+-   [Типы ресурсов](inotify.resources.html)

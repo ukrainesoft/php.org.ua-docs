@@ -1,30 +1,33 @@
-- [«RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- [RecursiveIteratorIterator::beginIteration »](recursiveiteratoriterator.beginiteration.md)
+Перехід до першого дочірнього елемента
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Перехід до першого дочірнього елемента
+-   [« RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   [RecursiveIteratorIterator::beginIteration »](recursiveiteratoriterator.beginiteration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Перехід до першого дочірнього елемента
+    
 
 # RecursiveIteratorIterator::beginChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::beginChildren — Перехід до першого дочірнього
-елементу
+RecursiveIteratorIterator::beginChildren — Перехід до першого дочірнього елемента
 
 ### Опис
 
-public **RecursiveIteratorIterator::beginChildren**(): void
+```methodsynopsis
+public RecursiveIteratorIterator::beginChildren(): void
+```
 
-Метод викликається після виконання
-**RecursiveIteratorIterator::getChildren()**, а результат його роботи
-аналогічний виклику
-[RecursiveIteratorIterator::rewind()](recursiveiteratoriterator.rewind.md).
+Метод викликається після виконання **RecursiveIteratorIterator::getChildren()**, а результат його роботи аналогічний виклику [RecursiveIteratorIterator::rewind()](recursiveiteratoriterator.rewind.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

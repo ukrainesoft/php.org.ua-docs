@@ -1,44 +1,54 @@
-- [« swoole_async_dns_lookup](function.swoole-async-dns-lookup.md)
-- [swoole_async_readfile »](function.swoole-async-readfile.md)
+Асинхронне читання потоку файлу
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Асинхронне читання потоку файлу
+-   [« swoole\_async\_dns\_lookup](function.swoole-async-dns-lookup.html)
+    
+-   [swoole\_async\_readfile »](function.swoole-async-readfile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Асинхронне читання потоку файлу
+    
 
-# swoole_async_read
+# swooleasyncread
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_async_read — Асинхронне читання потоку файлу
+swooleasyncread — Асинхронне читання потоку файлу
 
 ### Опис
 
-**swoole_async_read**(
-string `$filename`,
-[callable](language.types.callable.md) `$callback`,
-int `$chunk_size` = 65536,
-int `$offset` = 0
-): bool
+```methodsynopsis
+swoole_async_read(    string $filename,    callable $callback,    int $chunk_size = 65536,    int $offset = 0): bool
+```
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу для читання.
 
 `callback`
-callback(string `$filename`, string `$content`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+
+```methodsynopsis
+callback(string $filename, string $content): mixed
+```
 
 `filename`
+
 Назва файлу.
 
 `content`
-Вміст з файлового потоку.
+
+Вміст, зчитаний з файлового потоку.
 
 `chunk_size`
+
 Довжина блоку.
 
 `offset`
+
 Зміщення.
 
 ### Значення, що повертаються

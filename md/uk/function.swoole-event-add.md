@@ -1,24 +1,27 @@
-- [« swoole_error_log](function.swoole-error-log.md)
-- [swoole_event_defer »](function.swoole-event-defer.md)
+Додати нових callback-функцій сокету до циклу подій
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Додати нових callback-функцій сокету до циклу подій
+-   [« swoole\_error\_log](function.swoole-error-log.html)
+    
+-   [swoole\_event\_defer »](function.swoole-event-defer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Додати нових callback-функцій сокету до циклу подій
+    
 
-# swoole_event_add
+# swooleeventadd
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_event_add - Додати нових callback-функцій сокету в цикл подій
+swooleeventadd — Додати нових callback-функцій сокету до циклу подій
 
 ### Опис
 
-**swoole_event_add**(
-int `$fd`,
-[callable](language.types.callable.md) `$read_callback` = ?,
-[callable](language.types.callable.md) `$write_callback` = ?,
-int `$events` = 0
-): int
+```methodsynopsis
+swoole_event_add(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): int
+```
 
 ### Список параметрів
 

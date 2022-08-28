@@ -1,36 +1,40 @@
-- [« sodium_crypto_kx_seed_keypair](function.sodium-crypto-kx-seed-keypair.md)
-- [sodium_crypto_pwhash_scryptsalsa208sha256_str_verify »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md)
+Обчислює ключі сесії на стороні сервера
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- обчислює ключі сесії на стороні сервера
+-   [« sodium\_crypto\_kx\_seed\_keypair](function.sodium-crypto-kx-seed-keypair.html)
+    
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Обчислює ключі сесії на стороні сервера
+    
 
-# sodium_crypto_kx_server_session_keys
+# sodiumcryptoкксserversessionkeys
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_kx_server_session_keys — Обчислює ключі сесії на стороні
-сервера
+sodiumcryptoкксserversessionkeys — обчислює ключі сесії на стороні сервера
 
 ### Опис
 
-**sodium_crypto_kx_server_session_keys**(string `$server_key_pair`,
-string `$client_key`): array
+```methodsynopsis
+sodium_crypto_kx_server_session_keys(string $server_key_pair, string $client_key): array
+```
 
-Обчислює ключі сесії на стороні сервера, використовуючи метод обміну
-ключами X25519+BLAKE2b.
+Обчислює ключі сесії на стороні сервера за допомогою методу обміну ключами X25519 + BLAKE2b.
 
 ### Список параметрів
 
 `server_key_pair`
-Пара ключів crypto_kx, наприклад, згенерована
-[sodium_crypto_kx_keypair()](function.sodium-crypto-kx-keypair.md).
+
+Пара ключів cryptokx, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.html)
 
 `client_key`
-Відкритий ключ crypto_kx.
+
+Відкритий ключ cryptokx.
 
 ### Значення, що повертаються
 
-Масив, що складається із двох рядків. Першу слід використовувати для
-отримання даних від клієнта Другу слід використовувати для надсилання
-даних клієнта.
+Масив, що складається із двох рядків. Першу слід використовуватиме отримання даних від клієнта. Другу слід використовувати для надсилання даних клієнту.

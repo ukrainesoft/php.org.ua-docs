@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md)
-- [MongoDB\BSON\DBPointer::\_\_toString »](mongodb-bson-dbpointer.tostring.md)
+Серіалізує DBPointer
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
-- Серіалізує DBPointer
+-   [« MongoDB\\BSON\\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\DBPointer::\_\_toString »](mongodb-bson-dbpointer.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html)
+    
+-   Серіалізує DBPointer
+    
 
-# MongoDB\BSON\DBPointer::serialize
+# MongoDBBSONDBPointer::serialize
 
-(mongodb \>=1.4.0)
+(mongodb >=1.4.0)
 
-MongoDB\BSON\DBPointer::serialize — Серіалізує DBPointer
+MongoDBBSONDBPointer::serialize — Серіалізує DBPointer
 
 ### Опис
 
-final public **MongoDB\BSON\DBPointer::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\DBPointer::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\DBPointer::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\DBPointer::unserialize()](mongodb-bson-dbpointer.unserialize.md) -
-Десеріалізує DBPointer
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\DBPointer::unserialize()](mongodb-bson-dbpointer.unserialize.html) - Десеріалізує DBPointer
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

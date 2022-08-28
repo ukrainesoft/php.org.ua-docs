@@ -1,27 +1,35 @@
-- [« Imagick::getReleaseDate](imagick.getreleasedate.md)
-- [Imagick::getResourceLimit »](imagick.getresourcelimit.md)
+Повертає розмір пам'яті вказаного ресурсу.
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає розмір пам'яті вказаного ресурсу.
+-   [« Imagick::getReleaseDate](imagick.getreleasedate.html)
+    
+-   [Imagick::getResourceLimit »](imagick.getresourcelimit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає розмір пам'яті вказаного ресурсу.
+    
 
 # Imagick::getResource
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getResource — Повертає розмір пам'яті, що використовується.
-ресурсу
+Imagick::getResource — Повертає розмір пам'яті вказаного ресурсу.
 
 ### Опис
 
-public static **Imagick::getResource**(int `$type`): int
+```methodsynopsis
+public static Imagick::getResource(int $type): int
+```
 
 Повертає розмір пам'яті вказаного ресурсу в мегабайтах.
 
 ### Список параметрів
 
 `type`
-Дивіться список [констант типів ресурсов](imagick.constants.md#imagick.constants.resourcetypes).
+
+Дивіться список [констант типов ресурсов](imagick.constants.html#imagick.constants.resourcetypes)
 
 ### Значення, що повертаються
 

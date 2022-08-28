@@ -1,26 +1,36 @@
-- [«UI\Window::\_\_construct](ui-window.construct.md)
-- [UI\Window::getSize »](ui-window.getsize.md)
+Показати блок помилки
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Показати блок помилки
+-   [« UI\\Window::\_\_construct](ui-window.construct.html)
+    
+-   [UI\\Window::getSize »](ui-window.getsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Показати блок помилки
+    
 
-# UI\Window::error
+# ОЙWindow::error
 
 (UI 0.9.9)
 
-UI\Window::error — Показати блок помилки
+ОЙWindow::error — Показати блок помилки
 
 ### Опис
 
-public **UI\Window::error**(string `$title`, string `$msg`)
+```methodsynopsis
+public UI\Window::error(string $title, string $msg)
+```
 
 Покаже блок помилки
 
 ### Список параметрів
 
 `title`
+
 Заголовок блоку помилки
 
 `msg`
+
 Повідомлення блоку помилки

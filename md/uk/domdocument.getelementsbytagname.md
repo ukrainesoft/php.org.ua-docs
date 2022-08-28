@@ -1,50 +1,72 @@
-- [« DOMDocument::getElementById](domdocument.getelementbyid.md)
-- [DOMDocument::getElementsByTagNameNS »](domdocument.getelementsbytagnamens.md)
+Шукає всі елементи із заданим локальним ім'ям
 
-- [PHP Manual](index.md)
-- [DOMDocument](class.domdocument.md)
-- Шукає всі елементи із заданим локальним ім'ям
+-   [« DOMDocument::getElementById](domdocument.getelementbyid.html)
+    
+-   [DOMDocument::getElementsByTagNameNS »](domdocument.getelementsbytagnamens.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMDocument](class.domdocument.html)
+    
+-   Шукає всі елементи із заданим локальним ім'ям
+    
 
 # DOMDocument::getElementsByTagName
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMDocument::getElementsByTagName — Шукає всі елементи із заданим
-локальним ім'ям
+DOMDocument::getElementsByTagName — Шукає всі елементи із заданим локальним ім'ям
 
 ### Опис
 
-public **DOMDocument::getElementsByTagName**(string `$qualifiedName`):
-[DOMNodeList](class.domnodelist.md)
+```methodsynopsis
+public DOMDocument::getElementsByTagName(string $qualifiedName): DOMNodeList
+```
 
-Ця функція повертає новий об'єкт класу
-[DOMNodeList](class.domnodelist.md), що містить елементи із заданим
-локальним іменем.
+Ця функція повертає новий об'єкт класу [DOMNodeList](class.domnodelist.html)містить елементи із заданим локальним ім'ям.
 
 ### Список параметрів
 
 `qualifiedName`
-Локальне ім'я (без простору імен) тега, яким буде
-проводитися пошук. Спеціальне значення `*` відповідає всім тегам.
+
+Локальне ім'я (без простору імен) тега, яким буде проводитися пошук. Спеціальне значення `*` відповідає всім тегам.
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMNodeList](class.domnodelist.md), що містить
-усі знайдені елементи.
+Новий об'єкт класу [DOMNodeList](class.domnodelist.html)містить всі знайдені елементи.
 
 ### Приклади
 
 **Приклад #1 Простий приклад використання**
 
-`<?php$xml = <<<<XML<?xml version="1.0" encoding="utf-8"?><books> <book>Шаблони корпоративних додатків</book> <book>Прийоми об'єктно-орієнтованого проектування. Паттерни проектування</book> <book>Чистий код</book></books>XML;$dom = new DOMDocument;$dom->loadXML($xml);$books = $dom->getElementsByTagName('book') ;foreach ($books as $book) {   echo $book->nodeValue, PHP_EOL;}?> `
+```php
+<?php
+$xml = <<< XML
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+ <book>Шаблоны корпоративных приложений</book>
+ <book>Приёмы объектно-ориентированного проектирования. Паттерны проектирования</book>
+ <book>Чистый код</book>
+</books>
+XML;
+
+$dom = new DOMDocument;
+$dom->loadXML($xml);
+$books = $dom->getElementsByTagName('book');
+foreach ($books as $book) {
+    echo $book->nodeValue, PHP_EOL;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Шаблони корпоративних додатків
-Прийоми об'єктно-орієнтованого проектування. Паттерни проектування
-Чистий код
+```
+Шаблоны корпоративных приложений
+Приёмы объектно-ориентированного проектирования. Паттерны проектирования
+Чистый код
+```
 
 ### Дивіться також
 
-- [DOMDocument::getElementsByTagNameNS()](domdocument.getelementsbytagnamens.md) -
-Шукає всі елементи із заданим ім'ям у вказаному просторі імен
+-   [DOMDocument::getElementsByTagNameNS()](domdocument.getelementsbytagnamens.html) - Шукає всі елементи із заданим ім'ям у вказаному просторі імен

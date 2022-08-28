@@ -1,86 +1,82 @@
-- [«pg_prepare](function.pg-prepare.md)
-- [pg_query_params »](function.pg-query-params.md)
+Передає на PostgreSQL сервер рядок із завершальним нулем
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Передає на PostgreSQL сервер рядок із завершальним нулем
+-   [« pg\_prepare](function.pg-prepare.html)
+    
+-   [pg\_query\_params »](function.pg-query-params.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Передає на PostgreSQL сервер рядок із завершальним нулем
+    
 
-#pg_put_line
+# пгputline
 
-(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
 
-pg_put_line — Передає на PostgreSQL сервер рядок із завершальним нулем
+пгputline — Передає на PostgreSQL сервер рядок із завершальним нулем
 
 ### Опис
 
-**pg_put_line**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` = ?, string `$data`): bool
+```methodsynopsis
+pg_put_line(PgSql\Connection $connection = ?, string $data): bool
+```
 
-**pg_put_line()** передає на PostgreSQL сервер рядок із завершальним
-нулем. Завершення рядка значенням NULL необхідно при її об'єднанні з
-командою PostgreSQL `COPY FROM`.
+**пгputline()** передає на PostgreSQL сервер рядок із завершальним нулем. Завершення рядка значенням NULL необхідно при його поєднанні з командою PostgreSQL `COPY FROM`
 
-COPY є високошвидкісним інтерфейсом передачі даних,
-підтримується PostgreSQL. Дані передаються однією транзакцією і не
-розбираються парсером.
+`COPY` є високошвидкісним інтерфейсом передачі, підтримуваним PostgreSQL. Дані передаються однією транзакцією та не розбираються парсером.
 
-Як альтернативу можна використовувати функцію
-[pg_copy_from()](function.pg-copy-from.md). Вона значно простіше в
-використання.
+Як альтернативу можна використовувати функцію [pg\_copy\_from()](function.pg-copy-from.html). Вона значно простіша у використанні.
 
-> **Примітка**:
->
-> Перед запуском функції [pg_end_copy()](function.pg-end-copy.md)
-> програма повинна повідомити про сервер про завершення передачі даних,
-> додавши до кінця останнього рядка символи "\.".
+> **Зауваження**
+> 
+> Перед запуском функції [pg\_end\_copy()](function.pg-end-copy.html) програма повинна повідомити про сервер про завершення передачі даних, додавши в кінець останнього рядка символи ".".
 
 **Увага**
 
-Використання **pg_put_line()** може призвести до відмови операцій
-великими об'єктами, що включають функції
-[pg_lo_read()](function.pg-lo-read.md) та
-[pg_lo_tell()](function.pg-lo-tell.md). Для цих цілей використовуйте
-функції [pg_copy_from()](function.pg-copy-from.md) та
-[pg_copy_to()](function.pg-copy-to.md).
+Використання **пгputline()** може призвести до відмови операцій з великими об'єктами, що включають функції [pg\_lo\_read()](function.pg-lo-read.html) і [pg\_lo\_tell()](function.pg-lo-tell.html). Для цього використовуйте функції [pg\_copy\_from()](function.pg-copy-from.html) і [pg\_copy\_to()](function.pg-copy-to.html)
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо
-`connection` не вказано, використовується стандартне з'єднання.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 `data`
-Текстовий рядок для прямого пересилання на сервер. Завершальний `NULL`
-додається автоматично.
+
+Текстовий рядок для прямого пересилання на сервер. Завершальний `NULL` додається автоматично.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_put_line()****
+**Приклад #1 Приклад використання **пгputline()****
 
-` <?php $conn==pg_pconnect("dbname=foo"); pg_query($conn, "create table bar (a int4, b char(16), d float8)"); pg_query($conn, "copy bar from stdin"); pg_put_line($conn, "3 hello world 4.5
-"); pg_put_line($conn, "4 goodbye world 7.11
-"); pg_put_line($conn,"".
-"); pg_end_copy($conn);?> `
+```php
+<?php
+  $conn = pg_pconnect("dbname=foo");
+  pg_query($conn, "create table bar (a int4, b char(16), d float8)");
+  pg_query($conn, "copy bar from stdin");
+  pg_put_line($conn, "3\thello world\t4.5\n");
+  pg_put_line($conn, "4\tgoodbye world\t7.11\n");
+  pg_put_line($conn, "\\.\n");
+  pg_end_copy($conn);
+?>
+```
 
 ### Дивіться також
 
-- [pg_end_copy()](function.pg-end-copy.md) - Синхронізує з
-бекендом PostgreSQL
+-   [pg\_end\_copy()](function.pg-end-copy.html) - Синхронізує з бекендом PostgreSQL

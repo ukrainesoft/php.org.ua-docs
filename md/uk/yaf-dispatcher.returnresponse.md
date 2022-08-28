@@ -1,20 +1,27 @@
-- [« Yaf_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.md)
-- [Yaf_Dispatcher::setDefaultAction »](yaf-dispatcher.setdefaultaction.md)
+Призначення returnResponse
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Призначення returnResponse
+-   [« Yaf\_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.html)
+    
+-   [Yaf\_Dispatcher::setDefaultAction »](yaf-dispatcher.setdefaultaction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Призначення returnResponse
+    
 
-# Yaf_Dispatcher::returnResponse
+# YafDispatcher::returnResponse
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Dispatcher::returnResponse — Призначення returnResponse
+YafDispatcher::returnResponse — Призначення returnResponse
 
 ### Опис
 
-public **Yaf_Dispatcher::returnResponse**(bool `$flag`):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::returnResponse(bool $flag): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

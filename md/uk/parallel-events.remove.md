@@ -1,19 +1,25 @@
-- [« parallel\Events::addFuture](parallel-events.addfuture.md)
-- [parallel\Events::poll »](parallel-events.poll.md)
+Цілі
 
-- [PHP Manual](index.md)
-- [parallel\Events](class.parallel-events.md)
-- Цілі
+-   [« parallel\\Events::addFuture](parallel-events.addfuture.html)
+    
+-   [parallel\\Events::poll »](parallel-events.poll.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Events](class.parallel-events.html)
+    
+-   Цілі
+    
 
-# parallel\Events::remove
+# parallelEvents::remove
 
-(0.9.0)
-
-parallel\Events::remove — Цілі
+parallelEvents::remove — Цілі
 
 ### Опис
 
-public **parallel\Events::remove**(string `$target`): void
+```methodsynopsis
+public parallel\Events::remove(string $target): void
+```
 
 Видаляє заданий `target`
 
@@ -21,5 +27,4 @@ public **parallel\Events::remove**(string `$target`): void
 
 **Увага**
 
-Викидає parallel\Events\Error\Existence, якщо ціль із зазначеним
-ім'ям не знайдено.
+Викидає parallelEventsErrorExistence, якщо ціль із зазначеним ім'ям не знайдена.

@@ -1,24 +1,29 @@
-- [« SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.md)
-- [SolrQuery::getMltQueryFields »](solrquery.getmltqueryfields.md)
+Повертає мінімальну довжину слова, нижче за яку слова ігноруватимуться
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає мінімальну довжину слова, нижче за яку слова будуть
-ігноруватися
+-   [« SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.html)
+    
+-   [SolrQuery::getMltQueryFields »](solrquery.getmltqueryfields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає мінімальну довжину слова, нижче за яку слова ігноруватимуться
+    
 
 # SolrQuery::getMltMinWordLength
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMltMinWordLength — Повертає мінімальну довжину слова,
-нижче за яку слова ігноруватимуться
+SolrQuery::getMltMinWordLength — Повертає мінімальну довжину слова, нижче за яку слова будуть ігноруватися
 
 ### Опис
 
-public **SolrQuery::getMltMinWordLength**(): int
+```methodsynopsis
+public SolrQuery::getMltMinWordLength(): int
+```
 
-Повертає мінімальну довжину слова, нижче за яку слова будуть
-ігноруватися.
+Повертає мінімальну довжину слова, нижче за яку слова ігноруватимуться.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ public **SolrQuery::getMltMinWordLength**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

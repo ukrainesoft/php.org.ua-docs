@@ -1,9 +1,15 @@
-- [«parse_url](function.parse-url.md)
-- [rawurlencode »](function.rawurlencode.md)
+Декодування URL-кодованого рядка
 
-- [PHP Manual](index.md)
-- [Функції URL](ref.url.md)
-- Декодування URL-кодованого рядка
+-   [« parse\_url](function.parse-url.html)
+    
+-   [rawurlencode »](function.rawurlencode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции URL](ref.url.html)
+    
+-   Декодування URL-кодованого рядка
+    
 
 # rawurldecode
 
@@ -13,39 +19,43 @@ rawurldecode — Декодування URL-кодованого рядка
 
 ### Опис
 
-**rawurldecode**(string `$string`): string
+```methodsynopsis
+rawurldecode(string $string): string
+```
 
-Повертає рядок, у якому послідовність знаків відсотка (`%`) та
-наступні за ним два шістнадцяткові числа замінені буквальними
-символи.
+Повертає рядок, у якому послідовність знаків відсотка (`%`) та наступні за ним два шістнадцяткові числа замінені буквальними символами.
 
 ### Список параметрів
 
 `string`
+
 URL, який має бути декодований.
 
 ### Значення, що повертаються
 
-Повертає декодований URL у вигляді рядка.
+Повертає декодовану URL-адресу у вигляді рядка.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **rawurldecode()****
 
-`<?phpecho rawurldecode('foo%20bar%40baz'); // foo bar@baz?> `
+```php
+<?php
+
+echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **rawurldecode()** не декодує символ додавання ('+') у пробіли. Це
-> робить [urldecode()](function.urldecode.md).
+> **Зауваження**
+> 
+> **rawurldecode()** не декодує символ додавання ('+') у пробіли. Це робить [urldecode()](function.urldecode.html)
 
 ### Дивіться також
 
-- [rawurlencode()](function.rawurlencode.md) - URL-кодування
-рядки згідно з RFC 3986
-- [urldecode()](function.urldecode.md) - Декодування
-URL-кодованого рядка
-- [urlencode()](function.urlencode.md) - URL-кодування рядка
-- [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
+-   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.html) - URL-кодування рядка
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

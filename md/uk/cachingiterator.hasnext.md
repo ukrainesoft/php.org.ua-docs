@@ -1,25 +1,31 @@
-- [« CachingIterator::getInnerIterator](cachingiterator.getinneriterator.md)
-- [CachingIterator::key »](cachingiterator.key.md)
+Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
 
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
+-   [« CachingIterator::getInnerIterator](cachingiterator.getinneriterator.html)
+    
+-   [CachingIterator::key »](cachingiterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CachingIterator](class.cachingiterator.html)
+    
+-   Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
+    
 
 # CachingIterator::hasNext
 
 (PHP 5, PHP 7, PHP 8)
 
-CachingIterator::hasNext — Перевіряє, чи має внутрішній ітератор
-допустимий наступний елемент
+CachingIterator::hasNext — Перевіряє, чи внутрішній ітератор має допустимий наступний елемент
 
 ### Опис
 
-public **CachingIterator::hasNext**(): bool
+```methodsynopsis
+public CachingIterator::hasNext(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,5 +33,4 @@ public **CachingIterator::hasNext**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,9 +1,15 @@
-- [« DOMNamedNodeMap::item](domnamednodemap.item.md)
-- [DOMNode::appendChild »](domnode.appendchild.md)
+Клас DOMNode
 
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMNode
+-   [« DOMNamedNodeMap::item](domnamednodemap.item.html)
+    
+-   [DOMNode::appendChild »](domnode.appendchild.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOM](book.dom.html)
+    
+-   Клас DOMNode
+    
 
 # Клас DOMNode
 
@@ -11,225 +17,218 @@
 
 ## Огляд класів
 
-class **DOMNode** {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public readonly string `$nodeName`;
+    
+     
+      class DOMNode
+     
+     {
 
-public ?string `$nodeValue`;
+    /* Свойства */
+    
+     public
+     readonly
+     string
+      $nodeName;
 
-public readonly int `$nodeType`;
+    public
+     ?string
+      $nodeValue;
 
-public readonly ?[DOMNode](class.domnode.md) `$parentNode`;
+    public
+     readonly
+     int
+      $nodeType;
 
-public readonly [DOMNodeList](class.domnodelist.md) `$childNodes`;
+    public
+     readonly
+     ?DOMNode
+      $parentNode;
 
-public readonly ?[DOMNode](class.domnode.md) `$firstChild`;
+    public
+     readonly
+     DOMNodeList
+      $childNodes;
 
-public readonly ?[DOMNode](class.domnode.md) `$lastChild`;
+    public
+     readonly
+     ?DOMNode
+      $firstChild;
 
-public readonly ?[DOMNode](class.domnode.md) `$previousSibling`;
+    public
+     readonly
+     ?DOMNode
+      $lastChild;
 
-public readonly ?[DOMNode](class.domnode.md) `$nextSibling`;
+    public
+     readonly
+     ?DOMNode
+      $previousSibling;
 
-public readonly ?[DOMNamedNodeMap](class.domnamednodemap.md)
-`$attributes`;
+    public
+     readonly
+     ?DOMNode
+      $nextSibling;
 
-public readonly ?[DOMDocument](class.domdocument.md) `$ownerDocument`;
+    public
+     readonly
+     ?DOMNamedNodeMap
+      $attributes;
 
-public readonly ?string `$namespaceURI`;
+    public
+     readonly
+     ?DOMDocument
+      $ownerDocument;
 
-public string `$prefix`;
+    public
+     readonly
+     ?string
+      $namespaceURI;
 
-public readonly ?string `$localName`;
+    public
+     string
+      $prefix;
 
-public readonly ?string `$baseURI`;
+    public
+     readonly
+     ?string
+      $localName;
 
-public string `$textContent`;
+    public
+     readonly
+     ?string
+      $baseURI;
 
-/\* Методи \*/
+    public
+     string
+      $textContent;
 
-public
-[appendChild](domnode.appendchild.md)([DOMNode](class.domnode.md)
-`$node`): [DOMNode](class.domnode.md)\|false
 
-public [C14N](domnode.c14n.md)(
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): string\|false
+    /* Методы */
+    
+   public appendChild(DOMNode $node): DOMNode|false
+public C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public cloneNode(bool $deep = false): DOMNode|false
+public getLineNo(): int
+public getNodePath(): ?string
+public hasAttributes(): bool
+public hasChildNodes(): bool
+public insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|false
+public isDefaultNamespace(string $namespace): bool
+public isSameNode(DOMNode $otherNode): bool
+public isSupported(string $feature, string $version): bool
+public lookupNamespaceUri(string $prefix): string
+public lookupPrefix(string $namespace): ?string
+public normalize(): void
+public removeChild(DOMNode $child): DOMNode|false
+public replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
-public [C14NFile](domnode.c14nfile.md)(
-string `$uri`,
-bool `$exclusive` = **`false`**,
-bool `$withComments` = **`false`**,
-?array `$xpath` = **`null`**,
-?array `$nsPrefixes` = **`null`**
-): int\|false
-
-public [cloneNode](domnode.clonenode.md)(bool `$deep` = **`false`**):
-[DOMNode](class.domnode.md)\|false
-
-public [getLineNo](domnode.getlineno.md)(): int
-
-public [getNodePath](domnode.getnodepath.md)(): ?string
-
-public [hasAttributes](domnode.hasattributes.md)(): bool
-
-public [hasChildNodes](domnode.haschildnodes.md)(): bool
-
-public
-[insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
-[DOMNode](class.domnode.md)\|false
-
-public [isDefaultNamespace](domnode.isdefaultnamespace.md)(string
-`$namespace`): bool
-
-public
-[isSameNode](domnode.issamenode.md)([DOMNode](class.domnode.md)
-`$otherNode`): bool
-
-public [isSupported](domnode.issupported.md)(string `$feature`, string
-`$version`): bool
-
-public [lookupNamespaceUri](domnode.lookupnamespaceuri.md)(string
-`$prefix`): string
-
-public [lookupPrefix](domnode.lookupprefix.md)(string `$namespace`):
-?string
-
-public [normalize](domnode.normalize.md)(): void
-
-public
-[removeChild](domnode.removechild.md)([DOMNode](class.domnode.md)
-`$child`): [DOMNode](class.domnode.md)\|false
-
-public
-[replaceChild](domnode.replacechild.md)([DOMNode](class.domnode.md)
-`$node`, [DOMNode](class.domnode.md) `$child`):
-[DOMNode](class.domnode.md)\|false
-
-}
+   }
+```
 
 ## Властивості
 
-`nodeName`
+nodeName
+
 Повертає найточніше ім'я для поточного типу вузла
 
-`nodeValue`
-Значення цього вузла, залежно з його типу. На відміну від
-специфікації W3C, значення вузлів [DOMElement](class.domelement.md)
-одно
-[DOMNode::textContent](class.domnode.md#domnode.props.textcontent), а
-не **`null`**.
+nodeValue
 
-`nodeType`
-Повертає тип вузла. Одна з можливих [констант XML_xxx_NODE](dom.constants.md)
+Значення цього вузла, залежно з його типу. На відміну від специфікації W3C, значення вузлів [DOMElement](class.domelement.html) одно [DOMNode::textContent](class.domnode.html#domnode.props.textcontent), а не **`null`**
 
-`parentNode`
-Батьківський вузол цього вузла. Якщо такого вузла немає, повертає
-**`null`**
+nodeType
 
-`childNodes`
-Об'єкт [DOMNodeList](class.domnodelist.md), що містить всіх нащадків
-цього вузла. Якщо нащадків немає, повертається порожній
-[DOMNodeList](class.domnodelist.md).
+Повертає тип цього сайту. Одна з можливих [констант XML\_xxx\_NODE](dom.constants.html)
 
-`firstChild`
-Перший дочірній вузол цього вузла. Якщо такого вузла немає, повертає
-**`null`**.
+парентНоді
 
-`lastChild`
-Останній дочірній вузол цього вузла. Якщо такого вузла немає, повертає
-**`null`**.
+Батьківський вузол цього вузла. Якщо такого вузла немає, повертає **`null`**
 
-`previousSibling`
-Вузол, що безпосередньо передує цьому вузлу. Якщо такого вузла немає,
-повертає **`null`**.
+childNodes
 
-`nextSibling`
-Вузол безпосередньо наступний після цього вузла. Якщо такого вузла немає,
-повертає **`null`**.
+Об'єкт [DOMNodeList](class.domnodelist.html)містить всіх нащадків цього вузла. Якщо нащадків немає, повертається порожній [DOMNodeList](class.domnodelist.html)
 
-`attributes`
-Об'єкт [DOMNamedNodeMap](class.domnamednodemap.md), що містить
-атрибути цього вузла (тільки якщо це
-[DOMElement](class.domelement.md)), інакше поверне **`null`**.
+firstChild
 
-`ownerDocument`
-Об'єкт [DOMDocument](class.domdocument.md), пов'язаний з цим вузлом,
-або **`null`**, якщо вузол є
-[DOMDocument](class.domdocument.md).
+Перший дочірній вузол цього вузла. Якщо такого вузла немає, повертає **`null`**
 
-`namespaceURI`
-URI - простір імен цього вузла або **`null`**, якщо він не вказаний.
+lastChild
 
-`prefix`
-Префікс простору імен цього вузла або **`null`**, якщо він не вказано.
+Останній дочірній вузол цього вузла. Якщо такого вузла немає, повертає **`null`**
 
-`localName`
+previousSibling
+
+Вузол, що безпосередньо передує цьому вузлу. Якщо такого вузла немає, повертає **`null`**
+
+nextSibling
+
+Вузол безпосередньо наступний після цього вузла. Якщо такого вузла немає, повертає **`null`**
+
+attributes
+
+Об'єкт [DOMNamedNodeMap](class.domnamednodemap.html), що містить атрибути цього вузла (тільки якщо це [DOMElement](class.domelement.html)), інакше поверне **`null`**
+
+ownerDocument
+
+Об'єкт [DOMDocument](class.domdocument.html), пов'язаний з цим вузлом, або **`null`**, якщо вузол є [DOMDocument](class.domdocument.html)
+
+namespaceURI
+
+URI простір імен цього вузла або **`null`**якщо він не вказаний.
+
+prefix
+
+Префікс простору імен цього вузла або **`null`**якщо він не вказаний.
+
+localName
+
 Повертає локальну частину кваліфікованого імені цього сайту.
 
-`baseURI`
-Абсолютний базовий URI цього вузла або **`null`**, якщо реалізація не
-змогла отримати абсолютний URI.
+baseURI
 
-`textContent`
+Абсолютний базовий URI цього вузла або **`null`**якщо реалізація не змогла отримати абсолютний URI.
+
+textContent
+
 Текстовий вміст цього вузла та його нащадків
 
-## Список змін
+## список змін
 
-| Версія | Опис                                                                                                                                                                                        |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Нереалізовані методи **DOMNode::compareDocumentPosition()**, **DOMNode::isEqualNode()**, **DOMNode::getFeature()**, **DOMNode::setUserData()** і **DOMNode: :getUserData()** було видалено. |
+| Версия | Описание |
+| --- | --- |
+|  | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
 
 ## Примітки
 
-> **Примітка**:
->
-> Модуль DOM використовує кодування UTF-8. Використовуйте
-> [mb_convert_encoding()](function.mb-convert-encoding.md),
-> [UConverter::transcode()](uconverter.transcode.md) або
-> [iconv()](function.iconv.md) для роботи з іншими кодуваннями.
+> **Зауваження**
+> 
+> Модуль DOM використовує кодування UTF-8. Використовуйте [mb\_convert\_encoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.html) для роботи з іншими кодуванням.
 
 ## Дивіться також
 
-- [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1950641247)
+-   [» Спецификация W3C элемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-1950641247)
 
 ## Зміст
 
-- [DOMNode::appendChild](domnode.appendchild.md) — Додає новий
-дочірній вузол у кінець списку нащадків
-- [DOMNode::C14N](domnode.c14n.md) — Канонізувати вузли в рядок
-- [DOMNode::C14NFile](domnode.c14nfile.md) — Канонізувати вузли в
-файл
-- [DOMNode::cloneNode](domnode.clonenode.md) - Клонує вузол
-- [DOMNode::getLineNo](domnode.getlineno.md) — Отримати номер рядка
-вузла
-- [DOMNode::getNodePath](domnode.getnodepath.md) — Отримання XPath
-вузла
-- [DOMNode::hasAttributes](domnode.hasattributes.md) — Перевіряє,
-чи має цей вузол атрибути
-- [DOMNode::hasChildNodes](domnode.haschildnodes.md) — Перевіряє,
-чи має цей вузол нащадків
-- [DOMNode::insertBefore](domnode.insertbefore.md) — Додає новий
-дочірній вузол перед вказаним вузлом
-- [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md) -
-Перевіряє, чи є вказаний URI простору імен вузла
-простором імен за замовчуванням чи ні
-- [DOMNode::isSameNode](domnode.issamenode.md) — Вказує, є
-чи два вузли одним і тим же вузлом
-- [DOMNode::isSupported](domnode.issupported.md) — Перевіряє,
-чи підтримується можливість у певній версії
-- [DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.md)
-Отримує URI простору імен вузла за префіксом
-- [DOMNode::lookupPrefix](domnode.lookupprefix.md) — Повертає
-префікс простору імен вузла з URI простору імен
-- [DOMNode::normalize](domnode.normalize.md) - Нормалізує вузол
-- [DOMNode::removeChild](domnode.removechild.md) — Видаляє дочірній
-вузол зі списку нащадків
-- [DOMNode::replaceChild](domnode.replacechild.md) — Замінює
-дочірній вузол
+-   [DOMNode::appendChild](domnode.appendchild.html) — Додає новий дочірній вузол до кінця списку нащадків.
+-   [DOMNode::C14N](domnode.c14n.html) - Канонізувати вузли в рядок
+-   [DOMNode::C14NFile](domnode.c14nfile.html) - Канонізувати вузли у файл
+-   [DOMNode::cloneNode](domnode.clonenode.html) - Клонує вузол
+-   [DOMNode::getLineNo](domnode.getlineno.html) - Отримати номер рядка вузла
+-   [DOMNode::getNodePath](domnode.getnodepath.html) - Отримання XPath вузла
+-   [DOMNode::hasAttributes](domnode.hasattributes.html) — Перевіряє, чи цей вузол має атрибути.
+-   [DOMNode::hasChildNodes](domnode.haschildnodes.html) — Перевіряє, чи цей вузол має нащадків.
+-   [DOMNode::insertBefore](domnode.insertbefore.html) — Додає новий дочірній вузол перед вказаним вузлом
+-   [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.html) — Перевіряє, чи вказаний URI простору імен вузла є простором імен за умовчанням чи ні
+-   [DOMNode::isSameNode](domnode.issamenode.html) — Вказує, чи є два вузли одним і тим самим вузлом
+-   [DOMNode::isSupported](domnode.issupported.html) — Перевіряє, чи підтримується можливість у певній версії
+-   [DOMNode::lookupNamespaceUri](domnode.lookupnamespaceuri.html) — Отримує URI простору імен вузла за префіксом
+-   [DOMNode::lookupPrefix](domnode.lookupprefix.html) — Повертає префікс простору імен вузла із URI простору імен
+-   [DOMNode::normalize](domnode.normalize.html) - Нормалізує вузол
+-   [DOMNode::removeChild](domnode.removechild.html) - Видаляє дочірній вузол зі списку нащадків.
+-   [DOMNode::replaceChild](domnode.replacechild.html) - Замінює дочірній вузол

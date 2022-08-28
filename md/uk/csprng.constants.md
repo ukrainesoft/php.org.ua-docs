@@ -1,10 +1,16 @@
-- [« Типи ресурсів](csprng.resources.md)
-- [Функції CSPRNG»](ref.csprng.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [CSPRNG](book.csprng.md)
-- Обумовлені константи
+-   [« Типы ресурсов](csprng.resources.html)
+    
+-   [Функции CSPRNG »](ref.csprng.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CSPRNG](book.csprng.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

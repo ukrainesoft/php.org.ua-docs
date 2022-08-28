@@ -1,53 +1,79 @@
-- [« Yaf_Dispatcher::autoRender](yaf-dispatcher.autorender.md)
-- [Yaf_Dispatcher::\_\_construct »](yaf-dispatcher.construct.md)
+Включає/вимикає перехоплення винятків
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Включає/вимикає перехоплення виключень
+-   [« Yaf\_Dispatcher::autoRender](yaf-dispatcher.autorender.html)
+    
+-   [Yaf\_Dispatcher::\_\_construct »](yaf-dispatcher.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Включає/вимикає перехоплення винятків
+    
 
-# Yaf_Dispatcher::catchException
+# YafDispatcher::catchException
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Dispatcher::catchException — Включає/вимикає перехоплення винятків
+YafDispatcher::catchException — Вмикає/вимикає перехоплення винятків
 
 ### Опис
 
-public **Yaf_Dispatcher::catchException**(bool `$flag` = ?):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::catchException(bool $flag = ?): Yaf_Dispatcher
+```
 
-Поки application.dispatcher.throwException увімкнено (ви також можете
-викликати **Yaf_Dispatcher::throwException(TRUE)()**, щоб увімкнути), Yaf
-викидатиме виняток у разі виникнення помилки замість помилки
-спрацьовування.
+Поки включено application.dispatcher.throwException (ви також можете викликати **YafDispatcher::throwException(TRUE)()**, щоб увімкнути), Yaf буде викидати виняток у разі виникнення помилки замість помилки спрацьовування.
 
-тоді, якщо ви увімкнете **Yaf_Dispatcher::catchException()** (також
-можна ввімкнути, встановивши
-[application.dispatcher.catchException](yaf.appconfig.md#configuration.yaf.dispatcher.catchexception)),
-всі неперехоплені винятки будуть зловлені ErrorController::error,
-якщо ви його визначили.
+тоді, якщо ви увімкнете **YafDispatcher::catchException()** (також можна увімкнути, встановивши [application.dispatcher.catchException](yaf.appconfig.html#configuration.yaf.dispatcher.catchexception)), всі неперехоплені винятки будуть спіймані ErrorController::error, якщо ви його визначили.
 
 ### Список параметрів
 
 `flag`
+
 Логічне значення
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Dispatcher::catchException()****
+**Приклад #1 Приклад використання **YafDispatcher::catchException()****
 
-` /* если вы определили ErrorController следующим образом */<?phpclass ErrorController extends Yaf_Controller_Abstract {     /**      * вы также можете вызвать Yaf_Request_Abstract::getException, чтобы получить      * неперехваченное исключение. */     public function errorAction($exception) {        /* error occurs */        switch ($exception->getCode()) {            case YAF_ERR_NOTFOUND_MODULE:            case YAF_ERR_NOTFOUND_CONTROLLER:            case YAF_ERR_NOTFOUND_ACTION:            case YAF_ERR_NOTFOUND_VIEW:                echo 404, ":", $exception-> getMessage(); break; default :                 $message = $exception->getMessage(); echo 0, ":", $exception->getMessage(); break; }     }}?> `
+```php
+/* если вы определили ErrorController следующим образом */
+<?php
+class ErrorController extends Yaf_Controller_Abstract {
+     /**
+      * вы также можете вызвать Yaf_Request_Abstract::getException, чтобы получить
+      * неперехваченное исключение.
+      */
+     public function errorAction($exception) {
+        /* error occurs */
+        switch ($exception->getCode()) {
+            case YAF_ERR_NOTFOUND_MODULE:
+            case YAF_ERR_NOTFOUND_CONTROLLER:
+            case YAF_ERR_NOTFOUND_ACTION:
+            case YAF_ERR_NOTFOUND_VIEW:
+                echo 404, ":", $exception->getMessage();
+                break;
+            default :
+                $message = $exception->getMessage();
+                echo 0, ":", $exception->getMessage();
+                break;
+        }
+     }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /* now if some error occur, assuming access a non-exists controller(or you can throw a exception yourself): */
 404:Could not find controller script **/application/controllers/No-exists-controller.php
+```
 
 ### Дивіться також
 
-- [Yaf_Dispatcher::throwException()](yaf-dispatcher.throwexception.md) -
-Включає/вимикає викидання виключень
-- [Yaf_Dispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.md) -
-Встановлює обробник помилок
+-   [Yaf\_Dispatcher::throwException()](yaf-dispatcher.throwexception.html) - Вмикає/вимикає викидання винятків
+-   [Yaf\_Dispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.html) - Встановлює обробник помилок

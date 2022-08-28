@@ -1,29 +1,34 @@
-- [« MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber »](class.mongodb-driver-monitoring-sdamsubscriber.md)
+Метод повідомлення про успішну команду
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
-- Метод повідомлення про успішну команду
+-   [« MongoDB\\Driver\\Monitoring\\CommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber »](class.mongodb-driver-monitoring-sdamsubscriber.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.html)
+    
+-   Метод повідомлення про успішну команду
+    
 
-# MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded
+# MongoDBDriverMonitoringCommandSubscriber::commandSucceeded
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
-MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded — Метод
-повідомлення про успішну команду
+MongoDBDriverMonitoringCommandSubscriber::commandSucceeded — Метод сповіщення про успішну команду
 
 ### Опис
 
-abstract public
-**MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded**([MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md)
-`$event`): void
+```methodsynopsis
+abstract public MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded(MongoDB\Driver\Monitoring\CommandSucceededEvent $event): void
+```
 
-Якщо передплатник зареєстровано, драйвер викличе цей метод у разі
-успішного виконання команди.
+Якщо передплатник зареєстровано, драйвер викличе цей метод у разі успішного виконання команди.
 
 ### Список параметрів
 
-`event` ([MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md))
+`event` [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
+
 Об'єкт події, що містить інформацію про успішну команду.
 
 ### Значення, що повертаються
@@ -32,16 +37,11 @@ abstract public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md)
-- [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) -
-Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) -
-Реєструє передплатника на подію моніторингу в даному об'єкті
-Manager
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)

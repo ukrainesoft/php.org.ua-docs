@@ -1,16 +1,19 @@
-- [« Налаштування під час виконання](igbinary.configuration.md)
-- [igbinary_serialize »](function.igbinary-serialize.md)
+Функції Igbinary
 
-- [PHP Manual](index.md)
-- [Igbinary](book.igbinary.md)
-- Функції Igbinary
+-   [« Настройка во время выполнения](igbinary.configuration.html)
+    
+-   [igbinary\_serialize »](function.igbinary-serialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Igbinary](book.igbinary.html)
+    
+-   Функції Igbinary
+    
 
 # Функції Igbinary
 
 ## Зміст
 
-- [igbinary_serialize](function.igbinary-serialize.md) — Створює
-компактне, двійкове уявлення значення, що зберігається
-- [igbinary_unserialize](function.igbinary-unserialize.md) — Створює
-значення PHP із збереженого представлення функцією
-igbinary_serialize
+-   [igbinary\_serialize](function.igbinary-serialize.html) — Створює компактне, двійкове уявлення, що зберігається.
+-   [igbinary\_unserialize](function.igbinary-unserialize.html) — Створює значення PHP із збереженого уявлення функцією igbinaryserialize

@@ -1,44 +1,46 @@
-- [« openssl_x509_free](function.openssl-x509-free.md)
-- [openssl_x509_read »](function.openssl-x509-read.md)
+Розібрати сертифікат X509 та отримати масив з даними про нього
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Розібрати сертифікат X509 та отримати масив з даними про нього
+-   [« openssl\_x509\_free](function.openssl-x509-free.html)
+    
+-   [openssl\_x509\_read »](function.openssl-x509-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Розібрати сертифікат X509 та отримати масив з даними про нього
+    
 
-# openssl_x509_parse
+# opensslx509parse
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_x509_parse — Розібрати сертифікат X509 та отримати масив з
-даними про нього
+opensslx509parse — Розібрати сертифікат X509 та отримати масив з даними про нього
 
 ### Опис
 
-**openssl_x509_parse**([OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`, bool `$short_names` = **`true`**): array\|false
+```methodsynopsis
+openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = true): array|false
+```
 
-**openssl_x509_parse()** повертає інформацію сертифікату з
-ідентифікатором `certificate`, включаючи такі поля, як ім'я суб'єкта, ім'я
-видавця, призначення, дати початку та закінчення дії тощо.
+**opensslx509parse()** повертає інформацію сертифікату з ідентифікатором `certificate`, включаючи такі поля, як ім'я суб'єкта, ім'я видавця, призначення, дати початку та закінчення дії тощо.
 
 ### Список параметрів
 
 `certificate`
-Сертифікат X509 Перелік коректних значень дивись у [Параметри Key/Certificate](openssl.certparams.md).
+
+Сертифікат X509 Список коректних значень дивись у [Параметры Key/Certificate](openssl.certparams.html)
 
 `short_names`
-`short_names` визначає, як індексуватимуться дані у підсумковому
-масиві. Якщо `short_names` поставити як **`true`** (за замовчуванням), то
-поля індексуватимуться короткими іменами, а не довгими. Наприклад,
-CN – це коротке ім'я для commonName.
+
+`short_names` визначає, як індексуватимуться дані у підсумковому масиві. Якщо `short_names` поставити як **`true`** (за замовчуванням), поля будуть індексуватися короткими іменами, а не довгими. Наприклад, CN – це коротке ім'я для commonName.
 
 ### Значення, що повертаються
 
-*Структура масиву, що повертається, ще не до кінця встояла, так що поки що
-не документується.
+*Структура масива, що повертається, ще не до кінця встояла, так що поки не документується.*
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

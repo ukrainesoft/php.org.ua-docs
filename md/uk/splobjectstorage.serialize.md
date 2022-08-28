@@ -1,19 +1,27 @@
-- [« SplObjectStorage::rewind](splobjectstorage.rewind.md)
-- [SplObjectStorage::setInfo »](splobjectstorage.setinfo.md)
+Серіалізує контейнер
 
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Серіалізує контейнер
+-   [« SplObjectStorage::rewind](splobjectstorage.rewind.html)
+    
+-   [SplObjectStorage::setInfo »](splobjectstorage.setinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObjectStorage](class.splobjectstorage.html)
+    
+-   Серіалізує контейнер
+    
 
 # SplObjectStorage::serialize
 
-(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
+(PHP 5> = 5.2.2, PHP 7, PHP 8)
 
 SplObjectStorage::serialize — Серіалізує контейнер
 
 ### Опис
 
-public **SplObjectStorage::serialize**(): string
+```methodsynopsis
+public SplObjectStorage::serialize(): string
+```
 
 Повертає рядкову виставу контейнера.
 
@@ -29,14 +37,22 @@ public **SplObjectStorage::serialize**(): string
 
 **Приклад #1 Приклад використання **SplObjectStorage::serialize()****
 
-` <?php$s = new SplObjectStorage;$o = new StdClass;$s[$o] = "data";echo $s->serialize()."
-";?> `
+```php
+<?php
+$s = new SplObjectStorage;
+$o = new StdClass;
+$s[$o] = "data";
+
+echo $s->serialize()."\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 x:i:1;O:8:"stdClass":0:{},s:4:"data";;m:a:0:{}
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::unserialize()](splobjectstorage.unserialize.md) -
-Відновлює серіалізований контейнер із рядка
+-   [SplObjectStorage::unserialize()](splobjectstorage.unserialize.html) - Відновлює серіалізований контейнер із рядка

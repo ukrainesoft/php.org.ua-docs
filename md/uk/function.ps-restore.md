@@ -1,37 +1,40 @@
-- [«ps_rect](function.ps-rect.md)
-- [ps_rotate »](function.ps-rotate.md)
+Відновлює раніше збережений контекст
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Відновлює раніше збережений контекст
+-   [« ps\_rect](function.ps-rect.html)
+    
+-   [ps\_rotate »](function.ps-rotate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Відновлює раніше збережений контекст
+    
 
-#ps_restore
+# псrestore
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_restore — Відновлює раніше збережений контекст
+псrestore — Відновлює раніше збережений контекст
 
 ### Опис
 
-**ps_restore**(resource `$psdoc`): bool
+```methodsynopsis
+ps_restore(resource $psdoc): bool
+```
 
-Відновлює раніше збережений графічний контекст. Будь-який виклик
-[ps_save()](function.ps-save.md) має супроводжуватися викликом
-**ps_restore()**. Усі перетворення координат, налаштування стилю ліній,
-налаштування кольору і т.д. відновлюються до стану до дзвінка
-[ps_save()](function.ps-save.md).
+Відновлює раніше збережений графічний контекст. Будь-який виклик [ps\_save()](function.ps-save.html) повинен супроводжуватись викликом **псrestore()**. Усі перетворення координат, налаштування стилю ліній, налаштування кольору тощо. відновлюються до стану до дзвінка [ps\_save()](function.ps-save.html)
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_save()](function.ps-save.md) - Зберігає поточний контекст
+-   [ps\_save()](function.ps-save.html) - Зберігає поточний контекст

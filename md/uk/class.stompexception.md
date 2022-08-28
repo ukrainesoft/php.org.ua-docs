@@ -1,54 +1,61 @@
-- [« StompFrame::\_\_construct](stompframe.construct.md)
-- [StompException::getDetails »](stomp.getdetails.md)
+Клас StompException
 
-- [PHP Manual](index.md)
-- [Stomp](book.stomp.md)
-- Клас StompException
+-   [« StompFrame::\_\_construct](stompframe.construct.html)
+    
+-   [StompException::getDetails »](stomp.getdetails.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Stomp](book.stomp.html)
+    
+-   Клас StompException
+    
 
 # Клас StompException
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
 ## Вступ
 
-Помилка, викликана модулем Stomp. Дивіться
-[Виключення](language.exceptions.md) для отримання докладної
-інформації про винятки у PHP.
+Помилка, викликана модулем Stomp. Дивіться [Исключения](language.exceptions.html) для отримання детальної інформації про винятки PHP.
 
 ## Огляд класів
 
-class **StompException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані методи \*/
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
+    
+     
+      class StompException
+     
 
-final public [Exception::getCode](exception.getcode.md)(): int
+     
+      extends
+       Exception
+     
+     {
 
-final public [Exception::getFile](exception.getfile.md)(): string
 
-final public [Exception::getLine](exception.getline.md)(): int
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getTrace](exception.gettrace.md)(): array
 
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
+    /* Методы */
+    public getDetails(): string
 
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-/\* Методи \*/
-
-public [getDetails](stomp.getdetails.md)(): string
-
-}
+   }
+```
 
 ## Зміст
 
-- [StompException::getDetails](stomp.getdetails.md) — Повертає
-відомості про виключення
+-   [StompException::getDetails](stomp.getdetails.html) — Повертає відомості про виключення

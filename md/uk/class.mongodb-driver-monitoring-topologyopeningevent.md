@@ -1,32 +1,45 @@
-- [« MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md)
-- [MongoDB\Driver\Monitoring\TopologyOpeningEvent::getTopologyId »](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md)
+Клас MongoDBDriverMonitoringTopologyOpeningEvent
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Клас MongoDB\Driver\Monitoring\TopologyOpeningEvent
+-   [« MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent::getTopologyId »](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+    
+-   Клас MongoDBDriverMonitoringTopologyOpeningEvent
+    
 
-# Клас MongoDB\Driver\Monitoring\TopologyOpeningEvent
+# Клас MongoDBDriverMonitoringTopologyOpeningEvent
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDB\Driver\Monitoring\TopologyOpeningEvent** інкапсулює
-інформацію про відкриту топологію.
+Клас **MongoDBDriverMonitoringTopologyOpeningEvent** інкапсулює інформацію про відкриту топологію.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Monitoring\TopologyOpeningEvent** {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md)():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
+    
+    
+     final
+     
+      class MongoDB\Driver\Monitoring\TopologyOpeningEvent
+     
+     {
+    
 
-}
+    /* Методы */
+    
+   final public getTopologyId(): MongoDB\BSON\ObjectId
+
+   }
+```
 
 ## Зміст
 
-- [MongoDB\Driver\Monitoring\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md)
-- Повертає ідентифікатор топології
+-   [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html) - Повертає ідентифікатор топології

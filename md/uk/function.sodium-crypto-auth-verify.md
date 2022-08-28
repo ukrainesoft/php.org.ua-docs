@@ -1,43 +1,46 @@
-- [« sodium_crypto_auth_keygen](function.sodium-crypto-auth-keygen.md)
-- [sodium_crypto_auth »](function.sodium-crypto-auth.md)
+Перевіряє, чи допустимо тег для повідомлення
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Перевіряє, чи допустимо тег для повідомлення
+-   [« sodium\_crypto\_auth\_keygen](function.sodium-crypto-auth-keygen.html)
+    
+-   [sodium\_crypto\_auth »](function.sodium-crypto-auth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Перевіряє, чи допустимо тег для повідомлення
+    
 
-# sodium_crypto_auth_verify
+# sodiumcryptoauthverify
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_auth_verify — Перевіряє, чи припустимо тег для повідомлення
+sodiumcryptoauthverify — Перевіряє, чи допустимо тег для повідомлення
 
 ### Опис
 
-**sodium_crypto_auth_verify**(string `$mac`, string `$message`, string
-`$key`): bool
+```methodsynopsis
+sodium_crypto_auth_verify(string $mac, string $message, string $key): bool
+```
 
-Перевіряє, що тег автентифікації є дійсним для цього повідомлення та
-ключа.
+Перевіряє, що тег автентифікації дійсний для цього повідомлення та ключа.
 
-На відміну від цифрових підписів (наприклад,
-[sodium_crypto_sign_verify_detached()](function.sodium-crypto-sign-verify-detached.md)),
-будь-яка сторона, здатна перевірити повідомлення, також здатна перевірити
-справжність власних повідомлень. (Отже, симетрична
-перевірка автентичності.)
+На відміну від цифрових підписів (наприклад, [sodium\_crypto\_sign\_verify\_detached()](function.sodium-crypto-sign-verify-detached.html)), будь-яка сторона, здатна перевірити повідомлення, також здатна перевірити справжність своїх повідомлень. (Отже, симетрична автентифікація.)
 
 ### Список параметрів
 
 `mac`
-Тег аутентифікації, створений
-[sodium_crypto_auth()](function.sodium-crypto-auth.md)
+
+Тег аутентифікації, створений [sodium\_crypto\_auth()](function.sodium-crypto-auth.html)
 
 `message`
+
 Повідомлення
 
 `key`
+
 Ключ аутентифікації
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

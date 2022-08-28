@@ -1,16 +1,19 @@
-- [« Типи ресурсів](sodium.resources.md)
-- [Функції Sodium »](ref.sodium.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Sodium](book.sodium.md)
-- Обумовлені константи
+-   [« Типы ресурсов](sodium.resources.html)
+    
+-   [Функции Sodium »](ref.sodium.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Sodium](book.sodium.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
 **`SODIUM_LIBRARY_VERSION`** (string)
 
@@ -125,15 +128,19 @@
 **`SODIUM_CRYPTO_PWHASH_SCRYPTSALSA208SHA256_MEMLIMIT_SENSITIVE`** (int)
 
 **`SODIUM_CRYPTO_CORE_RISTRETTO255_BYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_CORE_RISTRETTO255_HASHBYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_CORE_RISTRETTO255_NONREDUCEDSCALARBYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_CORE_RISTRETTO255_SCALARBYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_SCALARMULT_BYTES`** (int)
@@ -141,9 +148,11 @@
 **`SODIUM_CRYPTO_SCALARMULT_SCALARBYTES`** (int)
 
 **`SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_BYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_SCALARMULT_RISTRETTO255_SCALARBYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_SHORTHASH_BYTES`** (int)
@@ -171,7 +180,9 @@
 **`SODIUM_CRYPTO_STREAM_KEYBYTES`** (int)
 
 **`SODIUM_CRYPTO_STREAM_XCHACHA20_KEYBYTES`** (int)
+
 Доступно з PHP 8.1.0.
 
 **`SODIUM_CRYPTO_STREAM_XCHACHA20_NONCEBYTES`** (int)
+
 Доступно з PHP 8.1.0.

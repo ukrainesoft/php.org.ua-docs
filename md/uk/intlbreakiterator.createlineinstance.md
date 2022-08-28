@@ -1,27 +1,31 @@
-- [« IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md)
-- [IntlBreakIterator::createSentenceInstance »](intlbreakiterator.createsentenceinstance.md)
+Створює ітератор переривання для логічно можливих розривів рядків
 
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- створює ітератор переривання для логічно можливих розривів рядків
+-   [« IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.html)
+    
+-   [IntlBreakIterator::createSentenceInstance »](intlbreakiterator.createsentenceinstance.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlBreakIterator](class.intlbreakiterator.html)
+    
+-   Створює ітератор переривання для логічно можливих розривів рядків
+    
 
 # IntlBreakIterator::createLineInstance
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::createLineInstance — Створює ітератор переривання для
-логічно можливих розривів рядків
+IntlBreakIterator::createLineInstance — Створює ітератор переривання для логічно можливих розривів рядків
 
 ### Опис
 
-public static **IntlBreakIterator::createLineInstance**(?string
-`$locale` = **`null`**):
-?[IntlBreakIterator](class.intlbreakiterator.md)
+```methodsynopsis
+public static IntlBreakIterator::createLineInstance(?string $locale = null): ?IntlBreakIterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

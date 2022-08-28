@@ -1,21 +1,27 @@
-- [« Yaf_Route_Rewrite::\_\_construct](yaf-route-rewrite.construct.md)
-- [Yaf_Router »](class.yaf-router.md)
+Призначення route
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Rewrite](class.yaf-route-rewrite.md)
-- Призначення route
+-   [« Yaf\_Route\_Rewrite::\_\_construct](yaf-route-rewrite.construct.html)
+    
+-   [Yaf\_Router »](class.yaf-router.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.html)
+    
+-   Призначення route
+    
 
-# Yaf_Route_Rewrite::route
+# YafRouteRewrite::route
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Route_Rewrite::route — Призначення route
+YafRouteRewrite::route — Призначення route
 
 ### Опис
 
-public
-**Yaf_Route_Rewrite::route**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
+```methodsynopsis
+public Yaf_Route_Rewrite::route(Yaf_Request_Abstract $request): bool
+```
 
 ### Список параметрів
 

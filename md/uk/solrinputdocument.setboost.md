@@ -1,30 +1,36 @@
-- [«SolrInputDocument::reset](solrinputdocument.reset.md)
-- [SolrInputDocument::setFieldBoost »](solrinputdocument.setfieldboost.md)
+Встановлює значення підвищення документа
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Встановлює значення підвищення документа
+-   [« SolrInputDocument::reset](solrinputdocument.reset.html)
+    
+-   [SolrInputDocument::setFieldBoost »](solrinputdocument.setfieldboost.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Встановлює значення підвищення документа
+    
 
 # SolrInputDocument::setBoost
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrInputDocument::setBoost — Встановлює значення підвищення для
-документа
+SolrInputDocument::setBoost — Встановлює значення підвищення документа
 
 ### Опис
 
-public **SolrInputDocument::setBoost**(float `$documentBoostValue`):
-bool
+```methodsynopsis
+public SolrInputDocument::setBoost(float $documentBoostValue): bool
+```
 
 Встановлює значення підвищення документа.
 
 ### Список параметрів
 
 `documentBoostValue`
+
 Значення індексу часу документа.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

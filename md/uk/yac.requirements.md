@@ -1,8 +1,14 @@
-- [« Встановлення та налаштування](yac.setup.md)
-- [Встановлення »](yac.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yac.setup.md)
-- Вимоги
+-   [« Установка и настройка](yac.setup.html)
+    
+-   [Установка »](yac.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](yac.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги

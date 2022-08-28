@@ -1,36 +1,40 @@
-- [«openal_context_destroy](function.openal-context-destroy.md)
-- [openal_context_suspend »](function.openal-context-suspend.md)
+Обробити вказаний контекст
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- обробити зазначений контекст
+-   [« openal\_context\_destroy](function.openal-context-destroy.html)
+    
+-   [openal\_context\_suspend »](function.openal-context-suspend.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenAL](ref.openal.html)
+    
+-   Обробити вказаний контекст
+    
 
-#openal_context_process
+# openalcontextprocess
 
-(PECL openal = 0.1.0)
+(PECL openal >= 0.1.0)
 
-openal_context_process — Обробити вказаний контекст
+openalcontextprocess — Обробити вказаний контекст
 
 ### Опис
 
-**openal_context_process**(resource `$context`): bool
+```methodsynopsis
+openal_context_process(resource $context): bool
+```
 
 ### Список параметрів
 
 `context`
-Ресурс [Open AL(Context)](openal.resources.md) (заснований раніше з
-за допомогою [openal_context_create()](function.openal-context-create.md)).
+
+Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openal\_context\_create()](function.openal-context-create.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_context_create()](function.openal-context-create.md) -
-Створити контекст обробки звуку
-- [openal_context_current()](function.openal-context-current.md) -
-Зробити вказаний контекст поточним
-- [openal_context_suspend()](function.openal-context-suspend.md) -
-Призупинити вказаний контекст
+-   [openal\_context\_create()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openal\_context\_current()](function.openal-context-current.html) - Зробити вказаний контекст поточним
+-   [openal\_context\_suspend()](function.openal-context-suspend.html) - призупинити зазначений контекст

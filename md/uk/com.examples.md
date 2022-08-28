@@ -1,13 +1,19 @@
-- [« Помилки та їх обробка](com.error-handling.md)
-- [For Each »](com.examples.foreach.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [COM](book.com.md)
-- Приклади
+-   [« Ошибки и их обработка](com.error-handling.html)
+    
+-   [For Each »](com.examples.foreach.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [COM](book.com.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [For Each](com.examples.foreach.md)
-- [Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
+-   [For Each](com.examples.foreach.html)
+-   [Массивы и свойства COM в стиле массивов](com.examples.arrays.html)

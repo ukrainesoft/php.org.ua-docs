@@ -1,23 +1,29 @@
-- [«SyncEvent::fire](syncevent.fire.md)
-- [SyncEvent::wait »](syncevent.wait.md)
+Скидає ручну подію
 
-- [PHP Manual](index.md)
-- [SyncEvent](class.syncevent.md)
-- скидає ручну подію
+-   [« SyncEvent::fire](syncevent.fire.html)
+    
+-   [SyncEvent::wait »](syncevent.wait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SyncEvent](class.syncevent.html)
+    
+-   Скидає ручну подію
+    
 
 # SyncEvent::reset
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 SyncEvent::reset — Скидає ручну подію
 
 ### Опис
 
-public **SyncEvent::reset**(): bool
+```methodsynopsis
+public SyncEvent::reset(): bool
+```
 
-Скидає об'єкт [SyncEvent](class.syncevent.md), який був
-запущений/встановлений. Дійсно лише для об'єктів подій із скиданням
-вручну.
+Скидає об'єкт [SyncEvent](class.syncevent.html), який було запущено/встановлено. Дійсно лише для об'єктів подій зі скиданням вручну.
 
 ### Список параметрів
 
@@ -25,19 +31,28 @@ public **SyncEvent::reset**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 **SyncEvent::reset()** example**
 
-` <?php// У веб-додатку:$event = new SyncEvent("DemoApplication", true);$event->wait();// В завдання cron:$event = new SyncEvent("DemoApplication", true) ;$event->reset();/* ... Виконання деяких задач по обслуговування ... */$event->fire();?> `
+```php
+<?php
+// В веб-приложении:
+$event = new SyncEvent("DemoApplication", true);
+$event->wait();
+
+// В задании cron:
+$event = new SyncEvent("DemoApplication", true);
+$event->reset();
+/* ... Выполнение некоторых задач по обслуживанию ... */
+$event->fire();
+?>
+```
 
 ### Дивіться також
 
-- [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює
-подія
-- **SyncEvent::reset()**
-- [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки
-події
+-   [SyncEvent::fire()](syncevent.fire.html) - Запускає/встановлює подію
+-   **SyncEvent::reset()**
+-   [SyncEvent::wait()](syncevent.wait.html) - Очікує запуску/установки події

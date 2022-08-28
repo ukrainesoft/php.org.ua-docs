@@ -1,21 +1,29 @@
-- [« Gmagick::queryfontmetrics](gmagick.queryfontmetrics.md)
-- [Gmagick::queryformats »](gmagick.queryformats.md)
+Повертає налаштовані шрифти
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає налаштовані шрифти
+-   [« Gmagick::queryfontmetrics](gmagick.queryfontmetrics.html)
+    
+-   [Gmagick::queryformats »](gmagick.queryformats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає налаштовані шрифти
+    
 
 # Gmagick::queryfonts
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::queryfonts — Повертає налаштовані шрифти
 
 ### Опис
 
-public **Gmagick::queryfonts**(string `$pattern` = "\*"): array
+```methodsynopsis
+public Gmagick::queryfonts(string $pattern = "*"): array
+```
 
-Повертає шрифти, що підтримуються [Gmagick](class.gmagick.md).
+Повертає шрифти, що підтримуються [Gmagick](class.gmagick.html)
 
 ### Список параметрів
 
@@ -23,7 +31,7 @@ public **Gmagick::queryfonts**(string `$pattern` = "\*"): array
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

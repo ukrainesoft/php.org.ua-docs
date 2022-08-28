@@ -1,42 +1,53 @@
-- [« ReflectionExtension::\_\_clone](reflectionextension.clone.md)
-- [ReflectionExtension::export »](reflectionextension.export.md)
+Створює об'єкт класу ReflectionExtension
 
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Створює об'єкт класу ReflectionExtension
+-   [« ReflectionExtension::\_\_clone](reflectionextension.clone.html)
+    
+-   [ReflectionExtension::export »](reflectionextension.export.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionExtension](class.reflectionextension.html)
+    
+-   Створює об'єкт класу ReflectionExtension
+    
 
-# ReflectionExtension::\_\_construct
+# ReflectionExtension::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionExtension::\_\_construct — Створює об'єкт класу
-ReflectionExtension
+ReflectionExtension::construct — Створює об'єкт класу ReflectionExtension
 
 ### Опис
 
-public **ReflectionExtension::\_\_construct**(string `$name`)
+public **ReflectionExtension::construct**(string `$name`
 
-Створює об'єкт (object) класу
-[ReflectionExtension](class.reflectionextension.md).
+Створює об'єкт (object) класу [ReflectionExtension](class.reflectionextension.html)
 
 ### Список параметрів
 
 `name`
+
 Ім'я модуль.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[ReflectionExtension](class.reflectionextension.md)**
+**Приклад #1 Приклад використання [ReflectionExtension](class.reflectionextension.html)**
 
-` <?php$ext = new ReflectionExtension('Reflection');printf('Модуль: %s (версія: %s)', $ext->getName(), $ext->getVersion());?> `
+```php
+<?php
+$ext = new ReflectionExtension('Reflection');
+
+printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVersion());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Модуль: Reflection (версія: $ Revision $)
+```
+Модуль: Reflection (версия: $Revision$)
+```
 
 ### Дивіться також
 
-- [ReflectionExtension::info()](reflectionextension.info.md) - Висновок
-інформації про модуль
-- [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)
+-   [ReflectionExtension::info()](reflectionextension.info.html) - Виведення інформації про модуль
+-   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)

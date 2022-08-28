@@ -1,37 +1,60 @@
-- [« Callback-функції PHP](ffi.examples-callback.md)
-- [FFI »](class.ffi.md)
+Комплексний приклад PHP/FFI/preloading
 
-- [PHP Manual](index.md)
-- [Приклади](ffi.examples.md)
-- Комплексний приклад PHP/FFI/preloading
+-   [« Callback-функции PHP](ffi.examples-callback.html)
+    
+-   [FFI »](class.ffi.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Примеры](ffi.examples.html)
+    
+-   Комплексний приклад PHP/FFI/preloading
+    
 
 ## Комплексний приклад PHP/FFI/preloading
 
-`php.ini`
+php.ini
 
-`` inicode
-ffi.enable=preload
-opcache.preload=preload.php
-````
+ffi.enable=preload opcache.preload=preload.php
 
-`preload.php`
+preload.php
 
-` <?phpFFI::load(__DIR__ . "/dummy.h");opcache_compile_file(__DIR__ . "/dummy.php");?> `
+```php
+<?php
+FFI::load(__DIR__ . "/dummy.h");
+opcache_compile_file(__DIR__ . "/dummy.php");
+?>
+```
 
-`dummy.h`
+dummy.h
 
-`` ccode
-#define FFI_SCOPE "DUMMY"
-#define FFI_LIB "libc.so.6"
+#define FFISCOPE "DUMMY" #define FFILIB "libc.so.6"
 
-int printf(const char *format, ...);
-````
+int printf(const char format, ...);
 
-`dummy.php`
+dummy.php
 
-`<?phpfinal class Dummy {     private static $ffi = null; function __construct() {        if (is_null(self::$ffi)) {            selsel::$ffi = FFI::scope("DUMMY" }    }    function printf($format, ...$args) {      return (int)self::$ffi->printf($format, ...$args); }}?> `
+```php
+<?php
+final class Dummy {
+    private static $ffi = null;
+    function __construct() {
+        if (is_null(self::$ffi)) {
+            self::$ffi = FFI::scope("DUMMY");
+        }
+    }
+    function printf($format, ...$args) {
+       return (int)self::$ffi->printf($format, ...$args);
+    }
+}
+?>
+```
 
-`test.php`
+test.php
 
-` <?php$d = new Dummy();$d->printf("Привіт,%s!"
-", "світ");?> `
+```php
+<?php
+$d = new Dummy();
+$d->printf("Привет, %s!\n", "мир");
+?>
+```

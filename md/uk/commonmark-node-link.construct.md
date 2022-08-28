@@ -1,29 +1,33 @@
-- [«CommonMark\Node\Link](class.commonmark-node-link.md)
-- [CommonMark\Node\CustomBlock »](class.commonmark-node-customblock.md)
+Конструктор класу Link
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\Link](class.commonmark-node-link.md)
-- Конструктор класу Link
+-   [« CommonMark\\Node\\Link](class.commonmark-node-link.html)
+    
+-   [CommonMark\\Node\\CustomBlock »](class.commonmark-node-customblock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node\\Link](class.commonmark-node-link.html)
+    
+-   Конструктор класу Link
+    
 
-# CommonMark\Node\Link::\_\_construct
+# CommonMarkNodeLink::construct
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node\Link::\_\_construct - Конструктор класу Link
+CommonMarkNodeLink::construct - Конструктор класу Link
 
 ### Опис
 
-public **CommonMark\Node\Link::\_\_construct**()
+public **CommonMarkNodeLink::construct**
 
-public **CommonMark\Node\Link::\_\_construct**(string `$url`)
+public **CommonMarkNodeLink::construct**(string `$url`
 
-public **CommonMark\Node\Link::\_\_construct**(string `$url`, string
-`$title`)
+public **CommonMarkNodeLink::construct**(string `$url`, string `$title`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

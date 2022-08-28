@@ -1,50 +1,61 @@
-- [«gmp_fact](function.gmp-fact.md)
-- [gmp_gcdext »](function.gmp-gcdext.md)
+Обчислення найбільшого спільного дільника
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Обчислення найбільшого загального дільника
+-   [« gmp\_fact](function.gmp-fact.html)
+    
+-   [gmp\_gcdext »](function.gmp-gcdext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Обчислення найбільшого спільного дільника
+    
 
-#gmp_gcd
+# gmpgcd
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmp_gcd - Обчислення найбільшого загального дільника
+gmpgcd - Обчислення найбільшого спільного дільника
 
 ### Опис
 
-**gmp_gcd**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_gcd(GMP|int|string $num1, GMP|int|string $num2): GMP
+```
 
-Обчислює найбільший загальний дільник чисел `num1` та `num2`. Результат
-завжди позитивний, навіть якщо одне з чисел, або обидва негативні.
+Обчислює найбільший спільний дільник чисел `num1` і `num2`. Результат завжди позитивний, навіть якщо одне з чисел, або обидва негативні.
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Позитивний НОД чисел `num1` та `num2`.
+Позитивний НОД чисел `num1` і `num2`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_gcd()****
+**Приклад #1 Приклад використання **gmpgcd()****
 
-` <?php$gcd = gmp_gcd("12", "21");echo gmp_strval($gcd) . "
-";?> `
+```php
+<?php
+$gcd = gmp_gcd("12", "21");
+echo gmp_strval($gcd) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3
+```
 
 ### Дивіться також
 
-- [gmp_lcm()](function.gmp-lcm.md) - Обчислює найменше загальне
-кратне
+-   [gmp\_lcm()](function.gmp-lcm.html) - обчислює найменше загальне кратне

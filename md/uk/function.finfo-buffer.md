@@ -1,74 +1,84 @@
-- [« Функції модуля Fileinfo](ref.fileinfo.md)
-- [finfo_close »](function.finfo-close.md)
+Повертає інформацію про рядок буфера
 
-- [PHP Manual](index.md)
-- [Функції модуля Fileinfo](ref.fileinfo.md)
-- Повертає інформацію про рядок буфера
+-   [« Функции модуля Fileinfo](ref.fileinfo.html)
+    
+-   [finfo\_close »](function.finfo-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции модуля Fileinfo](ref.fileinfo.html)
+    
+-   Повертає інформацію про рядок буфера
+    
 
-#finfo_buffer
+# finfobuffer
 
 # finfo::buffer
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo_buffer -- finfo::buffer — Повертає інформацію про рядок буфера
+finfobuffer -- finfo::buffer — Повертає інформацію про рядок буфера
 
 ### Опис
 
 Процедурний стиль
 
-[finfo_buffer](finfo.buffer.md)(
-[finfo](class.finfo.md) `$finfo`,
-string `$string`,
-int `$flags` = **`FILEINFO_NONE`**,
-?resource `$context` = **`null`**
-): string\|false
+```methodsynopsis
+finfo_buffer(    finfo $finfo,    string $string,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
+```
 
 Об'єктно-орієнтований стиль
 
-public [finfo::buffer](finfo.buffer.md)(string `$string`, int `$flags`
-= **`FILEINFO_NONE`**, ?resource `$context` = **`null`**): string\|false
+```methodsynopsis
+public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $context = null): string|false
+```
 
-Ця функція використовується для отримання інформації про бінарних даних
-рядку.
+Ця функція використовується для отримання інформації про бінарних даних у рядку.
 
 ### Список параметрів
 
 `finfo`
-Примірник [finfo](class.finfo.md), що повертається функцією
-[finfo_open()](function.finfo-open.md).
+
+Екземпляр [finfo](class.finfo.html), що повертається функцією [finfo\_open()](function.finfo-open.html)
 
 `string`
+
 Вміст файлу, що перевіряється.
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
+
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
 
 `context`
 
 ### Значення, що повертаються
 
-Повертає текстовий опис для аргументу `string` або **`false`**
-у разі виникнення помилки.
+Повертає текстовий опис для аргументу `string` або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр finfo тепер чекає на екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | 'context' тепер допускає значення null.                                                                                             |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад [finfo_buffer()](finfo.buffer.md)**
+**Приклад #1 Приклад [finfo\_buffer()](finfo.buffer.html)**
 
-` <?php$finfo = new finfo(FILEINFO_MIME);echo $finfo->buffer($_POST["script"]) . "
-";?> `
+```php
+<?php
+$finfo = new finfo(FILEINFO_MIME);
+echo $finfo->buffer($_POST["script"]) . "\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 application/x-sh; charset=us-ascii
+```
 
 ### Дивіться також
 
-- [finfo_file()](finfo.file.md) - Псевдонім finfo_file()
+-   [finfo\_file()](finfo.file.html) - Псевдонім finfofile()

@@ -1,19 +1,27 @@
-- [« MongoDB\Driver\CursorId::\_\_construct](mongodb-driver-cursorid.construct.md)
-- [MongoDB\Driver\CursorId::\_\_toString »](mongodb-driver-cursorid.tostring.md)
+Серіалізація CursorId
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-- Серіалізація CursorId
+-   [« MongoDB\\Driver\\CursorId::\_\_construct](mongodb-driver-cursorid.construct.html)
+    
+-   [MongoDB\\Driver\\CursorId::\_\_toString »](mongodb-driver-cursorid.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
+    
+-   Серіалізація CursorId
+    
 
-# MongoDB\Driver\CursorId::serialize
+# MongoDBDriverCursorId::serialize
 
-(mongodb \>=1.7.0)
+(mongodb >=1.7.0)
 
-MongoDB\Driver\CursorId::serialize — Серіалізація CursorId
+MongoDBDriverCursorId::serialize — Серіалізація CursorId
 
 ### Опис
 
-final public **MongoDB\Driver\CursorId::serialize**(): string
+```methodsynopsis
+final public MongoDB\Driver\CursorId::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\Driver\CursorId::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md).
+Повертає серіалізовану виставу [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\CursorId::unserialize()](mongodb-driver-cursorid.unserialize.md) -
-Десеріалізація CursorId
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\Driver\\CursorId::unserialize()](mongodb-driver-cursorid.unserialize.html) - Десеріалізація CursorId
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

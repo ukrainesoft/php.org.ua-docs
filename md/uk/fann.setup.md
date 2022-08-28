@@ -1,15 +1,21 @@
-- [«Вступ](intro.fann.md)
-- [Вимоги »](fann.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [FANN](book.fann.md)
+-   [« Введение](intro.fann.html)
+    
+-   [Требования »](fann.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FANN](book.fann.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](fann.requirements.md)
-- [Установка](fann.installation.md)
-- [Налаштування під час виконання](fann.configuration.md)
-- [Типи ресурсів](fann.resources.md)
+-   [Требования](fann.requirements.html)
+-   [Установка](fann.installation.html)
+-   [Настройка во время выполнения](fann.configuration.html)
+-   [Типы ресурсов](fann.resources.html)

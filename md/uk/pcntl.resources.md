@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](pcntl.configuration.md)
-- [Предвизначені константи »](pcntl.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](pcntl.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](pcntl.configuration.html)
+    
+-   [Предопределённые константы »](pcntl.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](pcntl.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

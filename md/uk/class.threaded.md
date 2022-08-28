@@ -1,83 +1,72 @@
-- [«Зумовлені константи](pthreads.constants.md)
-- [Threaded::chunk »](threaded.chunk.md)
+Клас Threaded
 
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
-- Клас Threaded
+-   [« Предопределённые константы](pthreads.constants.html)
+    
+-   [Threaded::chunk »](threaded.chunk.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [pthreads](book.pthreads.html)
+    
+-   Клас Threaded
+    
 
 # Клас Threaded
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 ## Вступ
 
-Об'єкти Threaded формують базис здатності pthreads запускати
-код користувача в нових потоках. Клас містить методи
-синхронізації та різні корисні інтерфейси.
+Об'єкти Threaded формують базис здатності pthreads запускати код користувача в нових потоках. Клас містить методи синхронізації та різні корисні інтерфейси.
 
-Найважливіше, що об'єкти Threaded забезпечують безпеку для
-розробника. Усі операції у тих об'єкта - безпечні.
+Найважливіше, що Threaded об'єкти забезпечують безпеку для розробника. Усі операції у контексті об'єкта – безпечні.
 
 ## Огляд класів
 
-class **Threaded** implements [Collectable](class.collectable.md),
-[Traversable](class.traversable.md),
-[Countable](class.countable.md), [ArrayAccess](class.arrayaccess.md)
-{
+```classsynopsis
 
-/\* Методи \*/
 
-public [chunk](threaded.chunk.md)(int `$size`, bool `$preserve`):
-array
+    
+    
+     
+      class Threaded
+     
 
-public [count](threaded.count.md)(): int
+     implements 
+       Collectable,  Traversable,  Countable,  ArrayAccess {
+    
 
-public [extend](threaded.extend.md)(string `$class`): bool
+    /* Методы */
+    
+   public chunk(int $size, bool $preserve): array
+public count(): int
+public extend(string $class): bool
+public isRunning(): bool
+public isTerminated(): bool
+public merge(mixed $from, bool $overwrite = ?): bool
+public notify(): bool
+public notifyOne(): bool
+public pop(): bool
+public run(): void
+public shift(): mixed
+public synchronized(Closure $block, mixed ...$args): mixed
+public wait(int $timeout = ?): bool
 
-public [isRunning](thread.isrunning.md)(): bool
-
-public [isTerminated](threaded.isterminated.md)(): bool
-
-public
-[merge](threaded.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` = ?): bool
-
-public [notify](threaded.notify.md)(): bool
-
-public [notifyOne](threaded.notifyone.md)(): bool
-
-public [pop](threaded.pop.md)(): bool
-
-public [run](threaded.run.md)(): void
-
-public [shift](threaded.shift.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[synchronized](threaded.synchronized.md)([Closure](class.closure.md)
-`$block`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [wait](threaded.wait.md)(int `$timeout` = ?): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [Threaded::chunk](threaded.chunk.md) - Обробка
-- [Threaded::count](threaded.count.md) - Обробка
-- [Threaded::extend](threaded.extend.md) — Обробка під час
-виконання
-- [Threaded::isRunning](thread.isrunning.md) — Визначення стану
-- [Threaded::isTerminated](threaded.isterminated.md) — Визначення
-стану
-- [Threaded::merge](threaded.merge.md) - Обробка
-- [Threaded::notify](threaded.notify.md) — Синхронізація
-- [Threaded::notifyOne](threaded.notifyone.md) — Синхронізація
-- [Threaded::pop](threaded.pop.md) — Обробка
-- [Threaded::run](threaded.run.md) — Виконання
-- [Threaded::shift](threaded.shift.md) — Обробка
-- [Threaded::synchronized](threaded.synchronized.md) — Синхронізація
-- [Threaded::wait](threaded.wait.md) — Синхронізація
+-   [Threaded::chunk](threaded.chunk.html) - Обробка
+-   [Threaded::count](threaded.count.html) - Обробка
+-   [Threaded::extend](threaded.extend.html) - Обробка під час виконання
+-   [Threaded::isRunning](thread.isrunning.html) — Визначення стану
+-   [Threaded::isTerminated](threaded.isterminated.html) — Визначення стану
+-   [Threaded::merge](threaded.merge.html) - Обробка
+-   [Threaded::notify](threaded.notify.html) - Синхронізація
+-   [Threaded::notifyOne](threaded.notifyone.html) - Синхронізація
+-   [Threaded::pop](threaded.pop.html) - Обробка
+-   [Threaded::run](threaded.run.html) - Виконання
+-   [Threaded::shift](threaded.shift.html) - Обробка
+-   [Threaded::synchronized](threaded.synchronized.html) - Синхронізація
+-   [Threaded::wait](threaded.wait.html) - Синхронізація

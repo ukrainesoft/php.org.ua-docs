@@ -1,25 +1,34 @@
-- [«Componere\Patch::isApplied](componere-patch.isapplied.md)
-- [Componere\Patch::getClosure »](componere-patch.getclosure.md)
+Отримання патчу
 
-- [PHP Manual](index.md)
-- [Componere\Patch](class.componere-patch.md)
-- Отримання патчу
+-   [« Componere\\Patch::isApplied](componere-patch.isapplied.html)
+    
+-   [Componere\\Patch::getClosure »](componere-patch.getclosure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Patch](class.componere-patch.html)
+    
+-   Отримання патчу
+    
 
-# Componere\Patch::derive
+# ComponerePatch::derive
 
-(Componere 2 \>= 2.1.1)
+(Componere 2 >= 2.1.1)
 
-Componere\Patch::derive — Отримання патча
+ComponerePatch::derive — Отримання патчу
 
 ### Опис
 
-public **Componere\Patch::derive**(object `$instance`): Patch
+```methodsynopsis
+public Componere\Patch::derive(object $instance): Patch
+```
 
 Повинен отримати Patch для заданого екземпляра `instance`
 
 ### Список параметрів
 
 `instance`
+
 Призначення для отриманого патчу
 
 ### Значення, що повертаються
@@ -30,6 +39,4 @@ Patch для `instance` виходить з поточного Patch
 
 **Увага**
 
-Викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md) якщо
-`instance` не сумісний
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.html) якщо `instance` не сумісний

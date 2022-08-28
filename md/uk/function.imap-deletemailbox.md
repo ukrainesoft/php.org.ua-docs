@@ -1,54 +1,56 @@
-- [«imap_delete](function.imap-delete.md)
-- [imap_errors »](function.imap-errors.md)
+Видалити поштову скриньку
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Видалити поштову скриньку
+-   [« imap\_delete](function.imap-delete.html)
+    
+-   [imap\_errors »](function.imap-errors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Видалити поштову скриньку
+    
 
-#imap_deletemailbox
+# imapdeletemailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_deletemailbox — Видалити поштову скриньку
+imapdeletemailbox — Видалити поштову скриньку
 
 ### Опис
 
-**imap_deletemailbox**([IMAP\Connection](class.imap-connection.md)
-`$imap`, string `$mailbox`): bool
+```methodsynopsis
+imap_deletemailbox(IMAP\Connection $imap, string $mailbox): bool
+```
 
-Видаляє поштову скриньку `mailbox`.
+Видаляє поштову скриньку `mailbox`
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `mailbox`
-Ім'я ящика. Докладніше читайте в описі
-[imap_open()](function.imap-open.md)
+
+Ім'я ящика. Детальніше читайте в описі [imap\_open()](function.imap-open.html)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_createmailbox()](function.imap-createmailbox.md) - Створити
-нова поштова скринька
-- [imap_renamemailbox()](function.imap-renamemailbox.md) -
-Перейменувати поштову скриньку
-- [imap_open()](function.imap-open.md) - Відкриває потік IMAP до
-поштовій скриньці для формату `mbox`
+-   [imap\_createmailbox()](function.imap-createmailbox.html) - Створити нову поштову скриньку
+-   [imap\_renamemailbox()](function.imap-renamemailbox.html) - Перейменувати поштову скриньку
+-   [imap\_open()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки формату `mbox`

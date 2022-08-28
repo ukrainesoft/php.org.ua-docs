@@ -1,27 +1,35 @@
-- [«odbc_next_result](function.odbc-next-result.md)
-- [odbc_num_rows »](function.odbc-num-rows.md)
+Повертає кількість стовпців у результаті
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Повертає кількість стовпців у результаті
+-   [« odbc\_next\_result](function.odbc-next-result.html)
+    
+-   [odbc\_num\_rows »](function.odbc-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Повертає кількість стовпців у результаті
+    
 
-#odbc_num_fields
+# odbcnumfields
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_num_fields — Повертає кількість стовпців у результаті
+odbcnumfields — Повертає кількість стовпців у результаті
 
 ### Опис
 
-**odbc_num_fields**(resource `$statement`): int
+```methodsynopsis
+odbc_num_fields(resource $statement): int
+```
 
 Повертає кількість полів (стовпців) у результаті ODBC.
 
 ### Список параметрів
 
 `statement`
-Ідентифікатор результату, що повертається
-[odbc_exec()](function.odbc-exec.md).
+
+Ідентифікатор результату, що повертається [odbc\_exec()](function.odbc-exec.html)
 
 ### Значення, що повертаються
 

@@ -1,53 +1,64 @@
-- [« pg_connection_busy](function.pg-connection-busy.md)
-- [pg_connection_status »](function.pg-connection-status.md)
+Скидання підключення (перепідключення)
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Скидання підключення (перепідключення)
+-   [« pg\_connection\_busy](function.pg-connection-busy.html)
+    
+-   [pg\_connection\_status »](function.pg-connection-status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Скидання підключення (перепідключення)
+    
 
-#pg_connection_reset
+# пгconnectionreset
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_connection_reset — Скидання підключення (перепідключення)
+пгconnectionreset — Скинути з'єднання (перепідключення)
 
 ### Опис
 
-**pg_connection_reset**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`): bool
+```methodsynopsis
+pg_connection_reset(PgSql\Connection $connection): bool
+```
 
-**pg_connection_reset()** скидає підключення. Може бути
-використано для усунення помилок.
+**пгconnectionreset()** скидає підключення. Може бути використана для усунення помилок.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_connection_reset()****
+**Приклад #1 Приклад використання **пгconnectionreset()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися"); $dbconn2==pg_connection_reset($dbconn); if ($dbconn2) {      echo "Успішне скидання
-";  } else {      echo "Невдалий скидання
-";  }?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
+  $dbconn2 = pg_connection_reset($dbconn);
+  if ($dbconn2) {
+      echo "Успешный сброс\n";
+  } else {
+      echo "Неудачный сброс\n";
+  }
+?>
+```
 
 ### Дивіться також
 
-- [pg_connect()](function.pg-connect.md) - Відкриває з'єднання з
-базою даних PostgreSQL
-- [pg_pconnect()](function.pg-pconnect.md) - Відкриває постійне
-з'єднання з сервером PostgreSQL
-- [pg_connection_status()](function.pg-connection-status.md) -
-Визначає стан підключення
+-   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_pconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення

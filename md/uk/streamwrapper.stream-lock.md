@@ -1,51 +1,50 @@
-- [« streamWrapper::stream_flush](streamwrapper.stream-flush.md)
-- [streamWrapper::stream_metadata »](streamwrapper.stream-metadata.md)
+Консультативне блокування файлу
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Консультативне блокування файлу
+-   [« streamWrapper::stream\_flush](streamwrapper.stream-flush.html)
+    
+-   [streamWrapper::stream\_metadata »](streamwrapper.stream-metadata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Консультативне блокування файлу
+    
 
-# streamWrapper::stream_lock
+# streamWrapper::streamlock
 
 (PHP 5, PHP 7, PHP 8)
 
-streamWrapper::stream_lock — Консультативне блокування файлу
+streamWrapper::streamlock — Консультативне блокування файлу
 
 ### Опис
 
-public **streamWrapper::stream_lock**(int `$operation`): bool
+```methodsynopsis
+public streamWrapper::stream_lock(int $operation): bool
+```
 
-Цей метод викликається у відповідь [flock()](function.flock.md), коли
-викликається [file_put_contents()](function.file-put-contents.md) (якщо
-`flags` містить **`LOCK_EX`**),
-[stream_set_blocking()](function.stream-set-blocking.md) або за
-закриття потоку (**`LOCK_UN`**).
+Цей метод викликається у відповідь [flock()](function.flock.html), коли викликається [file\_put\_contents()](function.file-put-contents.html) (якщо `flags` містить **`LOCK_EX`** [stream\_set\_blocking()](function.stream-set-blocking.html) або при закритті потоку (**`LOCK_UN`**
 
 ### Список параметрів
 
 `operation`
+
 `operation` може приймати одне з наступних значень:
 
-- **`LOCK_SH`** встановити загальне блокування (для читання).
-- **`LOCK_EX`** встановити ексклюзивне блокування (для запису).
-- **`LOCK_UN`** зняти блокування (загальне або ексклюзивне).
-- **`LOCK_NB`**, якщо ви не хочете, щоб
-[flock()](function.flock.md) під час роботи не блокувався. (не
-підтримується у Windows)
+-   **`LOCK_SH`** встановити загальне блокування (для читання).
+-   **`LOCK_EX`** встановити ексклюзивне блокування (для запису).
+-   **`LOCK_UN`** зняти блокування (загальне або ексклюзивне).
+-   **`LOCK_NB`**, якщо ви не хочете, щоб [flock()](function.flock.html) не блокувався під час роботи. (не підтримується у Windows)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викликає помилку **`E_WARNING`**, якщо виклик методу не вдався (тобто
-метод не реалізовано).
+Викликає помилку **`E_WARNING`**якщо виклик методу не вдався (тобто метод не реалізований).
 
 ### Дивіться також
 
-- [stream_set_blocking()](function.stream-set-blocking.md) -
-Встановити блокуючий/неблокуючий режим у потоці
-- [flock()](function.flock.md) - Портована консультативна
-блокування файлів
+-   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [flock()](function.flock.html) - Портоване консультативне блокування файлів

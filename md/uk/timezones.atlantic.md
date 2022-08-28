@@ -1,16 +1,18 @@
-- [« Азія](timezones.asia.md)
-- [Австралія »](timezones.australia.md)
+Атлантика
 
-- [PHP Manual](index.md)
-- [Список підтримуваних часових поясів](timezones.md)
-- Атлантика
+-   [« Азия](timezones.asia.html)
+    
+-   [Австралия »](timezones.australia.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список поддерживаемых часовых поясов](timezones.html)
+    
+-   Атлантика
+    
 
 ## Атлантика
 
-|                    |                  |                    |                        |
-| ------------------ | ---------------- | ------------------ | ---------------------- |
-| Atlantic/Azores    | Atlantic/Bermuda | Atlantic/Canary    | Atlantic/Cape_Verde    |
-| Atlantic/Faroe     | Atlantic/Madeira | Atlantic/Reykjavik | Atlantic/South_Georgia |
-| Atlantic/St_Helena | Atlantic/Stanley |                    |                        |
+< td class="empty"> 
 
-**Атлантика**
+<table class="doctable table"><caption><strong>Атлантика</strong></caption><tbody class="tbody"><tr><td>Atlantic/Azores</td><td>Atlantic/ Bermuda</td><td>Atlantic/Canary</td><td>Atlantic/Cape_Verde</td></tr><tr><td>Atlantic/Faroe</td><td>Atlantic/Madeira</td><td>Atlantic/Reykjavik</td><td>Atlantic/South_Georgia</td></tr><tr><td>Atlantic/St_Helena</td><td>Atlantic/Stanley</td><td class="empty">&nbsp;</td></tr></tbody></table>

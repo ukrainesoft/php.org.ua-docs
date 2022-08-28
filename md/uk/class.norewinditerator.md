@@ -1,78 +1,71 @@
-- [« MultipleIterator::valid](multipleiterator.valid.md)
-- [NoRewindIterator::\_\_construct »](norewinditerator.construct.md)
+Клас NoRewindIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас NoRewindIterator
+-   [« MultipleIterator::valid](multipleiterator.valid.html)
+    
+-   [NoRewindIterator::\_\_construct »](norewinditerator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас NoRewindIterator
+    
 
 # Клас NoRewindIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Ітератор ігнорує операції перемотування. Це дозволяє обробляти
-ітератор в декількох часткових циклах начому.
+Ітератор ігнорує операції перемотування. Це дозволяє обробляти ітератор у кількох часткових циклах начому.
 
 ## Огляд класів
 
-class **NoRewindIterator** extends
-[IteratorIterator](class.iteratoriterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](norewinditerator.construct.md)([Iterator](class.iterator.md)
-`$iterator`)
+    
+     
+      class NoRewindIterator
+     
 
-public [current](norewinditerator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     
+      extends
+       IteratorIterator
+     
+     {
 
-public [getInnerIterator](norewinditerator.getinneriterator.md)():
-[iterator](class.iterator.md)
+    /* Методы */
+    
+   public __construct(Iterator $iterator)
 
-public [key](norewinditerator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public current(): mixed
+public getInnerIterator(): iterator
+public key(): mixed
+public next(): void
+public rewind(): void
+public valid(): bool
 
-public [next](norewinditerator.next.md)(): void
 
-public [rewind](norewinditerator.rewind.md)(): void
+    /* Наследуемые методы */
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [valid](norewinditerator.valid.md)(): bool
-
-/\* Наслідувані методи \*/
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [NoRewindIterator::\_\_construct](norewinditerator.construct.md) -
-Створює новий об'єкт NoRewindIterator
-- [NoRewindIterator::current](norewinditerator.current.md)
-Отримує поточне значення
-- [NoRewindIterator::getInnerIterator](norewinditerator.getinneriterator.md)
-— Отримує внутрішній ітератор
-- [NoRewindIterator::key](norewinditerator.key.md) — Отримує
-поточний ключ
-- [NoRewindIterator::next](norewinditerator.next.md) — Переміщує
-ітератор до наступного елементу
-- [NoRewindIterator::rewind](norewinditerator.rewind.md)
-Запобігає поверненню внутрішнього ітератора на початок
-- [NoRewindIterator::valid](norewinditerator.valid.md) — Перевіряє
-ітератор
+-   [NoRewindIterator::\_\_construct](norewinditerator.construct.html) — Створює новий об'єкт NoRewindIterator
+-   [NoRewindIterator::current](norewinditerator.current.html) — Отримує поточне значення
+-   [NoRewindIterator::getInnerIterator](norewinditerator.getinneriterator.html) — Отримує внутрішній ітератор
+-   [NoRewindIterator::key](norewinditerator.key.html) — Отримує поточний ключ
+-   [NoRewindIterator::next](norewinditerator.next.html) — Переміщує ітератор до наступного елемента
+-   [NoRewindIterator::rewind](norewinditerator.rewind.html) — Запобігає поверненню внутрішнього ітератора на початок
+-   [NoRewindIterator::valid](norewinditerator.valid.html) - Перевіряє ітератор

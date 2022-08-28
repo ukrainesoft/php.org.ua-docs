@@ -1,9 +1,15 @@
-- [« Imagick::setImageOpacity](imagick.setimageopacity.md)
-- [Imagick::setImagePage »](imagick.setimagepage.md)
+Встановлює орієнтацію зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює орієнтацію зображення
+-   [« Imagick::setImageOpacity](imagick.setimageopacity.html)
+    
+-   [Imagick::setImagePage »](imagick.setimagepage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює орієнтацію зображення
+    
 
 # Imagick::setImageOrientation
 
@@ -13,22 +19,35 @@ Imagick::setImageOrientation — Встановлює орієнтацію зо�
 
 ### Опис
 
-public **Imagick::setImageOrientation**(int `$orientation`): bool
+```methodsynopsis
+public Imagick::setImageOrientation(int $orientation): bool
+```
 
 Встановлює орієнтацію зображення.
 
 ### Список параметрів
 
 `orientation`
-Одна з констант
-[ORIENTATION](imagick.constants.md#imagick.constants.orientation)
+
+Одна з констант [ORIENTATION](imagick.constants.html#imagick.constants.orientation)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::setImageOrientation()****
 
-`<?php// Здається, нічого не робитьfunction setImageOrientation($imagePath, $orientationType) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageOrientation($orientationType); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+// Кажется, ничего не делает
+function setImageOrientation($imagePath, $orientationType) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageOrientation($orientationType);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

@@ -1,59 +1,79 @@
-- [«db2_cursor_type](function.db2-cursor-type.md)
-- [db2_exec »](function.db2-exec.md)
+Використовується для екранування деяких символів
 
-- [PHP Manual](index.md)
-- [Функції IBM DB2](ref.ibm-db2.md)
-- Використовується для екранування деяких символів
+-   [« db2\_cursor\_type](function.db2-cursor-type.html)
+    
+-   [db2\_exec »](function.db2-exec.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IBM DB2](ref.ibm-db2.html)
+    
+-   Використовується для екранування деяких символів
+    
 
-#db2_escape_string
+# db2escapestring
 
-(PECL ibm_db2 \>= 1.6.0)
+(PECL ibmdb2> = 1.6.0)
 
-db2_escape_string — Використовується для екранування деяких символів
+db2escapestring — Використовується для екранування деяких символів
 
 ### Опис
 
-**db2_escape_string**(string `$string_literal`): string
+```methodsynopsis
+db2_escape_string(string $string_literal): string
+```
 
-Додає зворотні сліші перед спеціальними символами в переданій
-рядку.
+Додає зворотні сліші перед спеціальними символами в переданому рядку.
 
 ### Список параметрів
 
 `string_literal`
-Рядок, що містить символи, які потрібно екранувати. Символи, які
-треба екранувати: `\x00`, `
-`,`
-`, `\`, ```, ```` і `\x1a`.
+
+Рядок, що містить символи, які потрібно екранувати. Символи, які потрібно екранувати: `\x00` `\n` `\r` `\` `'` `"` і `\x1a`
 
 ### Значення, що повертаються
 
-Повертає `string_literal` із екранованими спеціальними символами.
+Повертає `string_literal` з екранованих спеціальних символів.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **db2_escape_string()****
+**Приклад #1 Приклад використання **db2escapestring()****
 
-Результат виконання функції **db2_escape_string()**
-==
-` <?php$conn = db2_connect($da=e, $user, $password);if ($conn) {    $str[0] = "All characters=0 ,===
-,
-, \ , ' , \" , \x1a ."; $str[1] = "Backslash (\). Single quote ('). Double quote (\")";    $str[2] = "The NULL character   must be quoted   Intersting characters: \x1a , \x00 .";    $str[4] = "Nothing to quote";    $str[5] = 200676;    $str[6] = "";    foreach( $str as $string ) {        echo "db2_escape_string: " . db2_escape_string($string). "
-";    }}?> `
+Результат виконання функції **db2escapestring()**
+
+```php
+<?php
+
+$conn = db2_connect($database, $user, $password);
+
+if ($conn) {
+    $str[0] = "All characters: \x00 , \n , \r , \ , ' , \" , \x1a .";
+    $str[1] = "Backslash (\). Single quote ('). Double quote (\")";
+    $str[2] = "The NULL character \0 must be quoted as well";
+    $str[3] = "Intersting characters: \x1a , \x00 .";
+    $str[4] = "Nothing to quote";
+    $str[5] = 200676;
+    $str[6] = "";
+
+    foreach( $str as $string ) {
+        echo "db2_escape_string: " . db2_escape_string($string). "\n";
+    }
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-db2_escape_string: All characters: ,
- ,
- , \ , \' , \" , \Z .
-db2_escape_string: Backslash (\). Single quote (\'). Double quote (\")
-db2_escape_string: NULL character must be quoted as well
-db2_escape_string: Intersting characters: \Z , .
+```
+db2_escape_string: All characters: \0 , \n , \r , \\ , \' , \" , \Z .
+db2_escape_string: Backslash (\\). Single quote (\'). Double quote (\")
+db2_escape_string: The NULL character \0 must be quoted as well
+db2_escape_string: Intersting characters: \Z , \0 .
 db2_escape_string: Nothing to quote
 db2_escape_string: 200676
 db2_escape_string:
+```
 
 ### Дивіться також
 
-- [db2_prepare()](function.db2-prepare.md) - Підготовка
-SQL-запит до виконання
+-   [db2\_prepare()](function.db2-prepare.html) - готує SQL-запит до виконання

@@ -1,22 +1,29 @@
-- [« Imagick::getFilename](imagick.getfilename.md)
-- [Imagick::getFormat »](imagick.getformat.md)
+Повертає назву шрифту
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає назву шрифту
+-   [« Imagick::getFilename](imagick.getfilename.html)
+    
+-   [Imagick::getFormat »](imagick.getformat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає назву шрифту
+    
 
 # Imagick::getFont
 
-(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
+(PECL imagick 2> = 2.1.0, PECL imagick 3)
 
 Imagick::getFont — Повертає назву шрифту
 
 ### Опис
 
-public **Imagick::getFont**(): string
+```methodsynopsis
+public Imagick::getFont(): string
+```
 
-Повертає значення шрифту об'єкта. Цей метод доступний, якщо Imagick
-був скомпільований з версією ImageMagick 6.3.7 або старшим.
+Повертає значення шрифту об'єкта. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.7 або старшим.
 
 ### Список параметрів
 
@@ -24,13 +31,10 @@ public **Imagick::getFont**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, який містить назву шрифту або **`false`**, якщо
-шрифт не встановлено.
+Повертає рядок, що містить назву шрифту або **`false`**якщо шрифт не встановлено.
 
 ### Дивіться також
 
-- [Imagick::setFont()](imagick.setfont.md) - Встановлює шрифт
-- [ImagickDraw::setFont()](imagickdraw.setfont.md) - Встановлює
-вказаний шрифт для використання при анотуванні текстом
-- [ImagickDraw::getFont()](imagickdraw.getfont.md) - Повертає
-шрифт
+-   [Imagick::setFont()](imagick.setfont.html) - Встановлює шрифт
+-   [ImagickDraw::setFont()](imagickdraw.setfont.html) - Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::getFont()](imagickdraw.getfont.html) - Повертає шрифт

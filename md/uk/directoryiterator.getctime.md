@@ -1,24 +1,29 @@
-- [« DirectoryIterator::getBasename](directoryiterator.getbasename.md)
-- [DirectoryIterator::getExtension »](directoryiterator.getextension.md)
+Повертає час останньої зміни inode поточного елемента DirectoryIterator
 
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає час останньої зміни inode поточного елемента
-DirectoryIterator
+-   [« DirectoryIterator::getBasename](directoryiterator.getbasename.html)
+    
+-   [DirectoryIterator::getExtension »](directoryiterator.getextension.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DirectoryIterator](class.directoryiterator.html)
+    
+-   Повертає час останньої зміни inode поточного елемента DirectoryIterator
+    
 
 # DirectoryIterator::getCTime
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::getCTime — Повертає час останньої зміни
-inode поточного елемента DirectoryIterator
+DirectoryIterator::getCTime — Повертає час останньої зміни inode поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getCTime**(): int
+```methodsynopsis
+public DirectoryIterator::getCTime(): int
+```
 
-Повертає час останньої зміни inode поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає час останньої зміни inode поточного елемента [DirectoryIterator](class.directoryiterator.html)
 
 ### Список параметрів
 
@@ -26,33 +31,36 @@ public **DirectoryIterator::getCTime**(): int
 
 ### Значення, що повертаються
 
-Повертає час останньої зміни файлу у форматі позначки часу
-Unix.
+Повертає час останньої зміни файлу у форматі позначки часу Unix.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::getCTime()****
 
-Приклад виведе список файлів директорії, що містить скрипт і
-час їхньої останньої зміни.
+Приклад виведе список файлів директорії, що містить скрипт, що виконується, і час їх останньої зміни.
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " змінювався в " . $fileinfo->getCTime() . "
-";    }}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getFilename() . " изменялся в " . $fileinfo->getCTime() . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-apple.jpg змінювався на 1240398312
-banana.jpg змінювався на 1238605440
-index.php змінювався на 1240398935
-pear.jpg змінювався в 1237423740
+```
+apple.jpg изменялся в 1240398312
+banana.jpg изменялся в 1238605440
+index.php изменялся в 1240398935
+pear.jpg изменялся в 1237423740
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getATime()](directoryiterator.getatime.md) -
-Повертає час останнього доступу до поточного елемента
-DirectoryIterator
-- [DirectoryIterator::getMTime()](directoryiterator.getmtime.md) -
-Повертає час останньої зміни поточного елемента
-DirectoryIterator
-- [filectime()](function.filectime.md) - Повертає час зміни
-індексного дескриптора файлу
+-   [DirectoryIterator::getATime()](directoryiterator.getatime.html) - Повертає час останнього доступу до поточного елементу DirectoryIterator
+-   [DirectoryIterator::getMTime()](directoryiterator.getmtime.html) - Повертає час останньої зміни поточного елемента DirectoryIterator
+-   [filectime()](function.filectime.html) - Повертає час зміни індексного дескриптора файлу

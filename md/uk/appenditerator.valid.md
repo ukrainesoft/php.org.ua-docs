@@ -1,19 +1,27 @@
-- [« AppendIterator::rewind](appenditerator.rewind.md)
-- [ArrayIterator »](class.arrayiterator.md)
+Перевіряє термін дії поточного елемента
 
-- [PHP Manual](index.md)
-- [AppendIterator](class.appenditerator.md)
-- Перевіряє термін дії поточного елемента
+-   [« AppendIterator::rewind](appenditerator.rewind.html)
+    
+-   [ArrayIterator »](class.arrayiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [AppendIterator](class.appenditerator.html)
+    
+-   Перевіряє термін дії поточного елемента
+    
 
 # AppendIterator::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::valid — Перевірка терміну дії поточного елемента
 
 ### Опис
 
-public **AppendIterator::valid**(): bool
+```methodsynopsis
+public AppendIterator::valid(): bool
+```
 
 Перевірка терміну дії поточного елемента.
 
@@ -23,16 +31,11 @@ public **AppendIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо поточна ітерація допустима та **`false`** в
-інакше.
+Повертає **`true`**, якщо поточна ітерація допустима та **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [AppendIterator::current()](appenditerator.current.md) -
-Повертає поточне значення
-- [AppendIterator::key()](appenditerator.key.md) - Повертає
-поточний ключ
-- [AppendIterator::next()](appenditerator.next.md) - Переходить до
-наступному елементу
-- [AppendIterator::rewind()](appenditerator.rewind.md) -
-Перемотує ітератор
+-   [AppendIterator::current()](appenditerator.current.html) - Повертає поточне значення
+-   [AppendIterator::key()](appenditerator.key.html) - Повертає поточний ключ
+-   [AppendIterator::next()](appenditerator.next.html) - Переходить до наступного елементу
+-   [AppendIterator::rewind()](appenditerator.rewind.html) - перемотує ітератор

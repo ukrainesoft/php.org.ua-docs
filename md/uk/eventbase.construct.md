@@ -1,27 +1,39 @@
-- [«EventBase](class.eventbase.md)
-- [EventBase::dispatch »](eventbase.dispatch.md)
+Конструктор об'єкту EventBase
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Конструктор об'єкту EventBase
+-   [« EventBase](class.eventbase.html)
+    
+-   [EventBase::dispatch »](eventbase.dispatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Конструктор об'єкту EventBase
+    
 
-# EventBase::\_\_construct
+# EventBase::construct
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBase::\_\_construct - Конструктор об'єкту EventBase
+EventBase::construct - Конструктор об'єкта EventBase
 
 ### Опис
 
-public **EventBase::\_\_construct**(
-[EventConfig](class.eventconfig.md) `$cfg` = ?)
+```methodsynopsis
+public
+   EventBase::__construct(
+    EventConfig
+     $cfg
+    = ?)
+```
 
 Конструктор об'єкту EventBase
 
 ### Список параметрів
 
 `cfg`
-Обов'язковий об'єкт [EventConfig](class.eventconfig.md).
+
+Необов'язковий об'єкт [EventConfig](class.eventconfig.html)
 
 ### Значення, що повертаються
 
@@ -29,4 +41,4 @@ public **EventBase::\_\_construct**(
 
 ### Дивіться також
 
-- [EventConfig](class.eventconfig.md)
+-   [EventConfig](class.eventconfig.html)

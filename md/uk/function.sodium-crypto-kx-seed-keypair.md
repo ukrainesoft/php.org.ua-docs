@@ -1,24 +1,31 @@
-- [« sodium_crypto_kx_secretkey](function.sodium-crypto-kx-secretkey.md)
-- [sodium_crypto_kx_server_session_keys »](function.sodium-crypto-kx-server-session-keys.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Опис
+-   [« sodium\_crypto\_kx\_secretkey](function.sodium-crypto-kx-secretkey.html)
+    
+-   [sodium\_crypto\_kx\_server\_session\_keys »](function.sodium-crypto-kx-server-session-keys.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Опис
+    
 
-# sodium_crypto_kx_seed_keypair
+# sodiumcryptoкксseedkeypair
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_kx_seed_keypair — Опис
+sodiumcryptoкксseedkeypair — Опис
 
 ### Опис
 
-**sodium_crypto_kx_seed_keypair**(string `$seed`): string
+```methodsynopsis
+sodium_crypto_kx_seed_keypair(string $seed): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

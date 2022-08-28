@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](bc.setup.md)
-- [Встановлення »](bc.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](bc.setup.md)
-- Вимоги
+-   [« Установка и настройка](bc.setup.html)
+    
+-   [Установка »](bc.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](bc.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

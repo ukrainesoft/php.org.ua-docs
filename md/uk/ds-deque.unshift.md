@@ -1,32 +1,38 @@
-- [« Ds\Deque::toArray](ds-deque.toarray.md)
-- [Колекція пар ключ-значення »](class.ds-map.md)
+Додає значення на початок двосторонньої черги
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Додає значення на початок двосторонньої черги
+-   [« Ds\\Deque::toArray](ds-deque.toarray.html)
+    
+-   [Коллекция пар ключ-значение »](class.ds-map.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Додає значення на початок двосторонньої черги
+    
 
-# Ds\Deque::unshift
+# ДсDeque::unshift
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::unshift — Додає значення на початок двосторонньої черги
+ДсDeque::unshift — Додає значення на початок двосторонньої черги
 
 ### Опис
 
-public
-**Ds\Deque::unshift**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values = ?): void
+```methodsynopsis
+public Ds\Deque::unshift(mixed $values = ?): void
+```
 
-Додає значення на початок двосторонньої черги, зсуваючи всі елементи
-наперед, щоб звільнити місце для нових.
+Додає значення початку двосторонньої черги, зрушуючи всі елементи вперед, щоб звільнити місце для нових.
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Багато значень додаються в тому порядку, як вони були передані.
 
 ### Значення, що повертаються
@@ -35,18 +41,29 @@ $values = ?): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::unshift()****
+**Приклад #1 Приклад використання **ДсDeque::unshift()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);$deque->unshift("a");$deque->unshift("b", "c");print_r( $ deque);?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+
+$deque->unshift("a");
+$deque->unshift("b", "c");
+
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => b
-[1] => c
-[2] => a
-[3] => 1
-[4] => 2
-[5] => 3
+    [0] => b
+    [1] => c
+    [2] => a
+    [3] => 1
+    [4] => 2
+    [5] => 3
 )
+```

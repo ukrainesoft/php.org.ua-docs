@@ -1,11 +1,17 @@
-- [«imagecropauto](function.imagecropauto.md)
-- [imagedestroy »](function.imagedestroy.md)
+Малювання пунктирної лінії
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Малювання пунктирної лінії
+-   [« imagecropauto](function.imagecropauto.html)
+    
+-   [imagedestroy »](function.imagedestroy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Малювання пунктирної лінії
+    
 
-#imagedashedline
+# imagedashedline
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,70 +19,104 @@ imagedashedline — Малювання пунктирної лінії
 
 ### Опис
 
-**imagedashedline**(
-[GdImage](class.gdimage.md) `$image`,
-int `$x1`,
-int `$y1`,
-int `$x2`,
-int `$y2`,
-int `$color`
-): bool
+```methodsynopsis
+imagedashedline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
+```
 
-Функція застаріла. Використовуйте поєднання функцій
-[imagesetstyle()](function.imagesetstyle.md) та
-[imageline()](function.imageline.md).
+Функція застаріла. Використовуйте поєднання функцій [imagesetstyle()](function.imagesetstyle.html) і [imageline()](function.imageline.html)
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `x1`
+
 Верхня ліва x-координата.
 
 `y1`
+
 Верхня ліва y-координата. 0, 0 – верхній лівий кут зображення.
 
 `x2`
+
 Нижня права х-координата.
 
 `y2`
+
 Нижня права у-координата.
 
-`col`
-Колір лінії. Ідентифікатор кольору, створений функцією
-[imagecolorallocate()](function.imagecolorallocate.md).
+`color`
+
+Колір лінії. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagedashedline()****
 
-` <?php// Створення зображення 100x100$im = imagecreatetruecolor(100, 100);$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF),/5    75, $white);// Збереження зображенняimagepng($im, './dashedline.png');imagedestroy($im);?> `
+```php
+<?php
+// Создание изображения 100x100
+$im = imagecreatetruecolor(100, 100);
+$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+
+// Рисование вертикальной пунктирной линии
+imagedashedline($im, 50, 25, 50, 75, $white);
+
+// Сохранение изображения
+imagepng($im, './dashedline.png');
+imagedestroy($im);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Висновок прикладу:
-imagedashedline()](images/21009b70229598c6a80eef8b45bf282b-imagedashedline.png)
+![Висновок прикладу: imagedashedline()](images/21009b70229598c6a80eef8b45bf282b-imagedashedline.png)
 
 **Приклад #2 Альтернатива функції **imagedashedline()****
 
-` <?php// Створення зображення 100x100$im = imagecreatetruecolor(100, 100);$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);// Виявлення / Это создаёт эффект пунктира.$style = Array(                $white,                $white,                $white,                $white,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT                );imagesetstyle($im, $style);// Рисование пунктирной линииimageline($im, 50, 25, 50, 75, IMG_COLOR_STYLED);// Збереження зображенняimagepng($im, './imageline.png');imagedestroy($im);?> `
+```php
+<?php
+// Создание изображения 100x100
+$im = imagecreatetruecolor(100, 100);
+$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+
+// Определение стиля: Первые 4 пиксела белые, следующие 4 - прозрачные.
+// Это создаёт эффект пунктира.
+$style = Array(
+                $white,
+                $white,
+                $white,
+                $white,
+                IMG_COLOR_TRANSPARENT,
+                IMG_COLOR_TRANSPARENT,
+                IMG_COLOR_TRANSPARENT,
+                IMG_COLOR_TRANSPARENT
+                );
+
+imagesetstyle($im, $style);
+
+// Рисование пунктирной линии
+imageline($im, 50, 25, 50, 75, IMG_COLOR_STYLED);
+
+// Сохранение изображения
+imagepng($im, './imageline.png');
+imagedestroy($im);
+?>
+```
 
 ### Дивіться також
 
-- [imagesetstyle()](function.imagesetstyle.md) - Установка стилю
-малювання ліній
-- [imageline()](function.imageline.md) - Малювання лінії
+-   [imagesetstyle()](function.imagesetstyle.html) - Встановлення стилю малювання ліній
+-   [imageline()](function.imageline.html) - Малювання лінії

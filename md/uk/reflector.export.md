@@ -1,9 +1,15 @@
-- [« Reflector](class.reflector.md)
-- [Reflector::\_\_toString »](reflector.tostring.md)
+Експорт
 
-- [PHP Manual](index.md)
-- [Reflector](class.reflector.md)
-- Експорт
+-   [« Reflector](class.reflector.html)
+    
+-   [Reflector::\_\_toString »](reflector.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflector](class.reflector.html)
+    
+-   Експорт
+    
 
 # Reflector::export
 
@@ -13,19 +19,19 @@ Reflector::export — Експорт
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНА*, починаючи з
-PHP 8.0.0 Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-public static **Reflector::export**(): string
+```methodsynopsis
+public static Reflector::export(): string
+```
 
 Експорт.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -35,4 +41,4 @@ public static **Reflector::export**(): string
 
 ### Дивіться також
 
-- **Reflection::\_\_toString()**
+-   **Reflection::toString()**

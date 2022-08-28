@@ -1,97 +1,127 @@
-- [« mysqli_stmt::free_result](mysqli-stmt.free-result.md)
-- [mysqli_stmt::get_warnings »](mysqli-stmt.get-warnings.md)
+Отримує результат підготовленого запиту у вигляді об'єкта mysqliresult
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Отримує результат із підготовленого запиту у вигляді об'єкту
-mysqli_result
+-   [« mysqli\_stmt::free\_result](mysqli-stmt.free-result.html)
+    
+-   [mysqli\_stmt::get\_warnings »](mysqli-stmt.get-warnings.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_stmt](class.mysqli-stmt.html)
+    
+-   Отримує результат підготовленого запиту у вигляді об'єкта mysqliresult
+    
 
-# mysqli_stmt::get_result
+# mysqlistmt::getresult
 
-# mysqli_stmt_get_result
+# mysqlistmtgetresult
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-mysqli_stmt::get_result -- mysqli_stmt_get_result — Отримує результат
-із підготовленого запиту у вигляді об'єкту
-[mysqli_result](class.mysqli-result.md)
+mysqlistmt::getresult -- mysqlistmtgetresult — Отримує результат із підготовленого запиту у вигляді об'єкта [mysqli\_result](class.mysqli-result.html)
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::get_result**():
-[mysqli_result](class.mysqli-result.md)\|false
+```methodsynopsis
+public mysqli_stmt::get_result(): mysqli_result|false
+```
 
 Процедурний стиль
 
-**mysqli_stmt_get_result**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): [mysqli_result](class.mysqli-result.md)\|false
+```methodsynopsis
+mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
+```
 
-Витягує набір результатів із підготовленого запиту як об'єкта
-[mysqli_result](class.mysqli-result.md). Дані будуть завантажені з
-сервера MySQL у PHP. Метод слід викликати лише для запитів, які
-виробляють набір результатів.
+Отримує набір результатів з підготовленого запиту як об'єкта [mysqli\_result](class.mysqli-result.html). Дані будуть завантажені з сервера MySQL у PHP. Метод слід викликати лише для запитів, які виробляють набір результатів.
 
-> **Примітка**:
->
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.md).
+> **Зауваження**
+> 
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
 
-> **Примітка**:
->
-> Цю функцію не можна використовувати разом з
-> [mysqli_stmt_store_result()](mysqli-stmt.store-result.md). Обидві ці
-> функції отримують повний набір результатів із сервера MySQL.
+> **Зауваження**
+> 
+> Цю функцію не можна використовувати спільно з [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html). Обидві ці функції отримують повний набір результатів із сервера MySQL.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. Для успішних
-запитів, які виробляють набір результатів, таких як
-`SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqli_stmt_get_result()**
-поверне об'єкт [mysqli_result](class.mysqli-result.md). Для інших
-успішних запитів **mysqli_stmt_get_result()** поверне **`false`**.
-Функцію [mysqli_stmt_errno()](mysqli-stmt.errno.md) можна
-використовувати, щоб розрізняти дві причини появи **`false`**; через
-помилки до PHP 7.4.13 для цієї мети доводилося використовувати
-[mysqli_errno()](mysqli.errno.md).
+Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqli\_result](class.mysqli-result.html). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqli\_stmt\_errno()](mysqli-stmt.errno.html) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqli\_errno()](mysqli.errno.html)
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = " BY Name LIMIT 1";$stmt = $mysqli->prepare($query);$stmt->bind_param("s", $continent);$continentList = array('Europe', 'Africa', 'Asia', 'North America');foreach ($continentList as $continent) {   $stmt->execute(); $result==$stmt->get_result(); while($row = $result->fetch_array(MYSQLI_NUM)) {        foreach ($row as $r) {             print| }         print "
-";    }} `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$query = "SELECT Name, Population, Continent FROM Country WHERE Continent=? ORDER BY Name LIMIT 1";
+
+$stmt = $mysqli->prepare($query);
+$stmt->bind_param("s", $continent);
+
+$continentList = array('Europe', 'Africa', 'Asia', 'North America');
+
+foreach ($continentList as $continent) {
+    $stmt->execute();
+    $result = $stmt->get_result();
+    while ($row = $result->fetch_array(MYSQLI_NUM)) {
+        foreach ($row as $r) {
+            print "$r ";
+        }
+        print "\n";
+    }
+}
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT Name Name LIMIT 1";$stmt==mysqli_prepare($link, $query);mysqli_stmt_bind_param($stmt, "s", $continent);$continentList= array('Europe', 'Africa', ');foreach ($continentList as $continent) {    mysqli_stmt_execute($stmt); $result = mysqli_stmt_get_result($stmt); while($row = mysqli_fetch_array($result, MYSQLI_NUM)) {       foreach ($row as $r) {            | }         print "
-";    }} `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$query = "SELECT Name, Population, Continent FROM Country WHERE Continent=? ORDER BY Name LIMIT 1";
+
+$stmt = mysqli_prepare($link, $query);
+mysqli_stmt_bind_param($stmt, "s", $continent);
+
+$continentList= array('Europe', 'Africa', 'Asia', 'North America');
+
+foreach ($continentList as $continent) {
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+    while ($row = mysqli_fetch_array($result, MYSQLI_NUM)) {
+        foreach ($row as $r) {
+            print "$r ";
+        }
+        print "\n";
+    }
+}
+```
 
 Результатом виконання даних прикладів буде щось подібне:
 
-Albania 3401200 Європа
+```
+Albania 3401200 Europe
 Algeria 31471000 Africa
 Afghanistan 22720000 Asia
 Anguilla 8000 North America
+```
 
 ### Дивіться також
 
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
-- [mysqli_stmt_result_metadata()](mysqli-stmt.result-metadata.md) -
-Повертає метадані результуючої таблиці.
-запиту
-- [mysqli_stmt_fetch()](mysqli-stmt.fetch.md) - Зв'язує результати
-підготовленого виразу зі змінними
-- [mysqli_fetch_array()](mysqli-result.fetch-array.md) - Вибирає
-наступний рядок з набору результатів та поміщає її в асоціативний
-масив, звичайний масив або в обидва
-- [mysqli_stmt_store_result()](mysqli-stmt.store-result.md) -
-Зберігає набір результатів у внутрішньому буфері
+-   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqli\_stmt\_result\_metadata()](mysqli-stmt.result-metadata.html) - Повертає метадані результуючої таблиці запиту, що готується.
+-   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.html) - Зберігає набір результатів у внутрішньому буфері

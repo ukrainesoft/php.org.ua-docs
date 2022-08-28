@@ -1,26 +1,31 @@
-- [« Yaf_Router::getRoutes](yaf-router.getroutes.md)
-- [Yaf_Route_Simple »](class.yaf-route-simple.md)
+Призначення route
 
-- [PHP Manual](index.md)
-- [Yaf_Router](class.yaf-router.md)
-- Призначення route
+-   [« Yaf\_Router::getRoutes](yaf-router.getroutes.html)
+    
+-   [Yaf\_Route\_Simple »](class.yaf-route-simple.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Router](class.yaf-router.html)
+    
+-   Призначення route
+    
 
-# Yaf_Router::route
+# YafRouter::route
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Router::route — Призначення route
+YafRouter::route — Призначення route
 
 ### Опис
 
-public
-**Yaf_Router::route**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`): bool
+```methodsynopsis
+public Yaf_Router::route(Yaf_Request_Abstract $request): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

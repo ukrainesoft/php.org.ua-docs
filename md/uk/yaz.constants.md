@@ -1,10 +1,16 @@
-- [« Типи ресурсів](yaz.resources.md)
-- [Приклади »](yaz.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [YAZ](book.yaz.md)
-- Обумовлені константи
+-   [« Типы ресурсов](yaz.resources.html)
+    
+-   [Примеры »](yaz.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [YAZ](book.yaz.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

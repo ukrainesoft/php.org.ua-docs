@@ -1,21 +1,29 @@
-- [« Ds\Vector::reverse](ds-vector.reverse.md)
-- [Ds\Vector::rotate »](ds-vector.rotate.md)
+Повертає перегорнуту копію вектора
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає перегорнуту копію вектора
+-   [« Ds\\Vector::reverse](ds-vector.reverse.html)
+    
+-   [Ds\\Vector::rotate »](ds-vector.rotate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Вектор](class.ds-vector.html)
+    
+-   Повертає перегорнуту копію вектора
+    
 
-# Ds\Vector::reversed
+# ДсVector::reversed
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Vector::reversed — Повертає перевернуту копію вектора
+ДсVector::reverse — Повертає перегорнуту копію вектора
 
 ### Опис
 
-public **Ds\Vector::reversed**(): [Ds\Vector](class.ds-vector.md)
+```methodsynopsis
+public Ds\Vector::reversed(): Ds\Vector
+```
 
-Повертає копію вектора.
+Повертає перегорнуту копію вектора.
 
 ### Список параметрів
 
@@ -23,29 +31,38 @@ public **Ds\Vector::reversed**(): [Ds\Vector](class.ds-vector.md)
 
 ### Значення, що повертаються
 
-Перегорнута копія вектора.
+Вектор перевернена копія.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточний вектор не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::reversed()****
+**Приклад #1 Приклад використання **ДсVector::reversed()****
 
-` <?php$vector = new \Ds\Vector(["a", "b", "c"]);print_r($vector->reversed());print_r($vector);?> `
+```php
+<?php
+$vector = new \Ds\Vector(["a", "b", "c"]);
+
+print_r($vector->reversed());
+print_r($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => c
-[1] => b
-[2] => a
+    [0] => c
+    [1] => b
+    [2] => a
 )
 Ds\Vector Object
 (
-[0] => a
-[1] => b
-[2] => c
+    [0] => a
+    [1] => b
+    [2] => c
 )
+```

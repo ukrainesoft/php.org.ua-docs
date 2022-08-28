@@ -1,35 +1,34 @@
-- [«scandir](function.scandir.md)
-- [Вступ »](intro.fileinfo.md)
+Інформація про файл
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з файловою системою](refs.fileprocess.file.md)
-- Інформація про файл
+-   [« scandir](function.scandir.html)
+    
+-   [Введение »](intro.fileinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с файловой системой](refs.fileprocess.file.html)
+    
+-   Інформація про файл
+    
 
 # Інформація про файл
 
-- [Вступ](intro.fileinfo.md)
-- [Встановлення та налаштування](fileinfo.setup.md)
-- [Вимоги](fileinfo.requirements.md)
-- [Установка](fileinfo.installation.md)
-- [Налаштування під час виконання](fileinfo.configuration.md)
-- [Типи ресурсів](fileinfo.resources.md)
-- [Предвизначені константи](fileinfo.constants.md)
-- [Функції модуля Fileinfo](ref.fileinfo.md)
-- [finfo_buffer](function.finfo-buffer.md) - Повертає
-інформацію про рядок буфера
-- [finfo_close](function.finfo-close.md) - Закриває екземпляр
-finfo
-- [finfo_file](function.finfo-file.md) — Повертає інформацію про
-файлі
-- [finfo_open](function.finfo-open.md) — Створює екземпляр finfo
-- [finfo_set_flags](function.finfo-set-flags.md) - Встановлює
-параметри конфігурації libmagic
-- [mime_content_type](function.mime-content-type.md) -
-Визначає MIME-тип вмісту файлу
-- [finfo](class.finfo.md) - Клас finfo
-- [finfo::buffer](finfo.buffer.md) - Псевдонім finfo_buffer()
-- [finfo::\_\_construct](finfo.construct.md) - Псевдонім
-finfo_open
-- [finfo::file](finfo.file.md) - Псевдонім finfo_file()
-- [finfo::set_flags](finfo.set-flags.md) - Псевдонім
-finfo_set_flags()
+-   [Введение](intro.fileinfo.html)
+-   [Установка и настройка](fileinfo.setup.html)
+    -   [Требования](fileinfo.requirements.html)
+    -   [Установка](fileinfo.installation.html)
+    -   [Настройка во время выполнения](fileinfo.configuration.html)
+    -   [Типы ресурсов](fileinfo.resources.html)
+-   [Предопределённые константы](fileinfo.constants.html)
+-   [Функции модуля Fileinfo](ref.fileinfo.html)
+    -   [finfo\_buffer](function.finfo-buffer.html) — Повертає інформацію про рядок буфера
+    -   [finfo\_close](function.finfo-close.html) - Закриває екземпляр finfo
+    -   [finfo\_file](function.finfo-file.html) — Повертає інформацію про файл
+    -   [finfo\_open](function.finfo-open.html) - Створює екземпляр finfo
+    -   [finfo\_set\_flags](function.finfo-set-flags.html) — Встановлює параметри конфігурації libmagic
+    -   [mime\_content\_type](function.mime-content-type.html) - Визначає MIME-тип вмісту файлу
+-   [finfo](class.finfo.html) - Клас finfo
+    -   [finfo::buffer](finfo.buffer.html) - Псевдонім finfobuffer()
+    -   [finfo::\_\_construct](finfo.construct.html) - Псевдонім finfoopen
+    -   [finfo::file](finfo.file.html) - Псевдонім finfofile()
+    -   [finfo::set\_flags](finfo.set-flags.html) - Псевдонім finfosetflags()

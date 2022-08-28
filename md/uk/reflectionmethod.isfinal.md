@@ -1,9 +1,15 @@
-- [« ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md)
-- [ReflectionMethod::isPrivate »](reflectionmethod.isprivate.md)
+Перевіряє, чи є метод остаточним
 
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Перевіряє, чи є метод остаточним
+-   [« ReflectionMethod::isDestructor](reflectionmethod.isdestructor.html)
+    
+-   [ReflectionMethod::isPrivate »](reflectionmethod.isprivate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionMethod](class.reflectionmethod.html)
+    
+-   Перевіряє, чи є метод остаточним
+    
 
 # ReflectionMethod::isFinal
 
@@ -13,7 +19,9 @@ ReflectionMethod::isFinal — Перевіряє, чи є метод остат�
 
 ### Опис
 
-public **ReflectionMethod::isFinal**(): bool
+```methodsynopsis
+public ReflectionMethod::isFinal(): bool
+```
 
 Перевіряє, чи є метод остаточним.
 
@@ -23,9 +31,8 @@ public **ReflectionMethod::isFinal**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо метод остаточний, **`false`** інакше.
+**`true`**, якщо метод остаточний, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionMethod::isStatic()](reflectionmethod.isstatic.md) -
-Перевіряє, чи є метод статичним
+-   [ReflectionMethod::isStatic()](reflectionmethod.isstatic.html) - Перевіряє, чи є метод статичним

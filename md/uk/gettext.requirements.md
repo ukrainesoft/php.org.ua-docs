@@ -1,12 +1,16 @@
-- [« Встановлення та налаштування](gettext.setup.md)
-- [Установка »](gettext.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gettext.setup.md)
-- Вимоги
+-   [« Установка и настройка](gettext.setup.html)
+    
+-   [Установка »](gettext.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](gettext.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Для використання функцій цього модуля потрібна установка пакета GNU
-gettext, який можна завантажити за посиланням:
-[»http://www.gnu.org/software/gettext/gettext.md](http://www.gnu.org/software/gettext/gettext.md).
+Для використання функцій даного модуля потрібно встановити пакет GNU gettext, який можна завантажити за посиланням: [» http://www.gnu.org/software/gettext/gettext.html](http://www.gnu.org/software/gettext/gettext.html)

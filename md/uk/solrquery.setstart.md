@@ -1,27 +1,34 @@
-- [«SolrQuery::setShowDebugInfo](solrquery.setshowdebuginfo.md)
-- [SolrQuery::setStats »](solrquery.setstats.md)
+Визначає кількість рядків, що пропускаються
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Визначає кількість рядків, що пропускаються
+-   [« SolrQuery::setShowDebugInfo](solrquery.setshowdebuginfo.html)
+    
+-   [SolrQuery::setStats »](solrquery.setstats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Визначає кількість рядків, що пропускаються
+    
 
 # SolrQuery::setStart
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::setStart — Визначає кількість рядків, що пропускаються.
 
 ### Опис
 
-public **SolrQuery::setStart**(int `$start`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setStart(int $start): SolrQuery
+```
 
-Визначає кількість рядків, що пропускаються. Корисно у розбивці на сторінки
-результатів.
+Визначає кількість рядків, що пропускаються. Корисно у розбивці на сторінки результатів.
 
 ### Список параметрів
 
 `start`
+
 Кількість пропущених рядків.
 
 ### Значення, що повертаються

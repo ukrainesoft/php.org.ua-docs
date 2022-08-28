@@ -1,15 +1,21 @@
-- [«Вступ](intro.zip.md)
-- [Вимоги »](zip.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Zip](book.zip.md)
+-   [« Введение](intro.zip.html)
+    
+-   [Требования »](zip.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zip](book.zip.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](zip.requirements.md)
-- [Установка](zip.installation.md)
-- [Налаштування під час виконання](zip.configuration.md)
-- [Типи ресурсів](zip.resources.md)
+-   [Требования](zip.requirements.html)
+-   [Установка](zip.installation.html)
+-   [Настройка во время выполнения](zip.configuration.html)
+-   [Типы ресурсов](zip.resources.html)

@@ -1,39 +1,44 @@
-- [« LuaSandbox::getVersionInfo](luasandbox.getversioninfo.md)
-- [LuaSandbox::loadString »](luasandbox.loadstring.md)
+Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Завантажує попередньо скомпільований двійковий фрагмент у середу
-Lua
+-   [« LuaSandbox::getVersionInfo](luasandbox.getversioninfo.html)
+    
+-   [LuaSandbox::loadString »](luasandbox.loadstring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
+    
 
 # LuaSandbox::loadBinary
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
-LuaSandbox::loadBinary — Завантажує попередньо скомпільований
-двійковий фрагмент у середу Lua
+LuaSandbox::loadBinary — Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
 
 ### Опис
 
-public **LuaSandbox::loadBinary**(string `$code`, string `$chunkName` =
-''): [LuaSandboxFunction](class.luasandboxfunction.md)
+```methodsynopsis
+public LuaSandbox::loadBinary(string $code, string $chunkName = ''): LuaSandboxFunction
+```
 
-Завантажує дані, створені
-[LuaSandboxFunction::dump()](luasandboxfunction.dump.md).
+Завантажує дані, створені [LuaSandboxFunction::dump()](luasandboxfunction.dump.html)
 
 ### Список параметрів
 
 `code`
-Дані з [LuaSandboxFunction::dump()](luasandboxfunction.dump.md).
+
+Дані з [LuaSandboxFunction::dump()](luasandboxfunction.dump.html)
 
 `chunkName`
+
 Ім'я завантаженої функції.
 
 ### Значення, що повертаються
 
-Повертає [LuaSandboxFunction](class.luasandboxfunction.md).
+Повертає [LuaSandboxFunction](class.luasandboxfunction.html)
 
 ### Дивіться також
 
-- [LuaSandbox::loadString()](luasandbox.loadstring.md) - Завантажує
-код Lua у середу Lua
+-   [LuaSandbox::loadString()](luasandbox.loadstring.html) - Завантажує код Lua у середу Lua

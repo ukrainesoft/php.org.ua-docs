@@ -1,64 +1,78 @@
-- [« imap_search](function.imap-search.md)
-- [imap_setacl »](function.imap-setacl.md)
+Встановити квоту для заданої поштової скриньки
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Встановити квоту для заданої поштової скриньки
+-   [« imap\_search](function.imap-search.html)
+    
+-   [imap\_setacl »](function.imap-setacl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Встановити квоту для заданої поштової скриньки
+    
 
-#imap_set_quota
+# imapsetquota
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-imap_set_quota — Встановити квоту для заданої поштової скриньки
+imapsetquota — Встановити квоту для заданої поштової скриньки
 
 ### Опис
 
-**imap_set_quota**([IMAP\Connection](class.imap-connection.md)
-`$imap`, string `$quota_root`, int `$mailbox_size`): bool
+```methodsynopsis
+imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bool
+```
 
 Встановлює верхню межу квоти для заданої поштової скриньки
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `quota_root`
-Поштова скринька, для якої встановлюється квота у вигляді рядка в
-формат IMAP: `user.name`.
+
+Поштова скринька, для якої встановлюється квота у вигляді рядка у форматі IMAP: `user.name`
 
 `mailbox_size`
+
 Максимальний розмір (у кілобайтах) для `quota_root`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_set_quota()****
+**Приклад #1 Приклад використання **imapsetquota()****
 
-` <?php$mbox = imap_open("{imap.example.org:143}", "mailadmin", "password");if (!imap_set_quota($mbox, "user.kalowsky", 3000)) {      Помилка при установці квоти
-";   return;}imap_close($mbox);?> `
+```php
+<?php
+$mbox = imap_open("{imap.example.org:143}", "mailadmin", "password");
+
+if (!imap_set_quota($mbox, "user.kalowsky", 3000)) {
+    echo "Ошибка при установке квоты\n";
+    return;
+}
+
+imap_close($mbox);
+?>
+```
 
 ### Примітки
 
-В даний момент ця функція підтримується лише при використанні
-бібліотеки c-client2000 або свіжішою.
+На даний момент ця функція підтримується лише при використанні бібліотеки c-client2000 або свіжішої.
 
-Заданий imap повинен бути відкритий від імені адміністратора поштового
-сервера, інакше функція завершиться помилкою.
+Заданий `imap` має бути відкрито від імені адміністратора поштового сервера, інакше функція завершиться з помилкою.
 
 ### Дивіться також
 
-- [imap_open()](function.imap-open.md) - Відкриває потік IMAP до
-поштовій скриньці
-- [imap_get_quota()](function.imap-get-quota.md) - Отримати
-налаштування рівня квоти та статистику використання поштових скриньок
+-   [imap\_open()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
+-   [imap\_get\_quota()](function.imap-get-quota.html) - Отримати налаштування рівня квоти та статистику використання поштових скриньок

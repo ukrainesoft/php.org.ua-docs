@@ -1,11 +1,17 @@
-- [«strchr](function.strchr.md)
-- [strcoll »](function.strcoll.md)
+Бінарно-безпечне порівняння рядків
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Бінарно-безпечне порівняння рядків
+-   [« strchr](function.strchr.html)
+    
+-   [strcoll »](function.strcoll.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Бінарно-безпечне порівняння рядків
+    
 
-#strcmp
+# strcmp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,41 +19,45 @@ strcmp — Бінарно-безпечне порівняння рядків
 
 ### Опис
 
-**strcmp**(string `$string1`, string `$string2`): int
+```methodsynopsis
+strcmp(string $string1, string $string2): int
+```
 
 Ця функція враховує регістр символів.
 
 ### Список параметрів
 
 `string1`
+
 Перший рядок.
 
 `string2`
+
 Другий рядок.
 
 ### Значення, що повертаються
 
-Повертає негативне число, якщо `string1` менше `string2`,
-позитивне число, якщо `string1` більше `string2`, і 0, якщо рядки
-рівні.
+Повертає негативне число, якщо `string1` менше `string2`, позитивне число, якщо `string1` більше `string2`, та 0, якщо рядки рівні.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **strcmp()****
 
-` <?php$var1 = "Hello";$var2 = "hello";if (strcmp($var1, $var2) !== 0) {    echo '$var1 не рівно $var2 при реєстро> `
+```php
+<?php
+$var1 = "Hello";
+$var2 = "hello";
+if (strcmp($var1, $var2) !== 0) {
+    echo '$var1 не равно $var2 при регистрозависимом сравнении';
+}
+?>
+```
 
 ### Дивіться також
 
-- [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне
-порівняння рядків без урахування регістру
-- [preg_match()](function.preg-match.md) - Виконує перевірку на
-відповідність регулярному виразу
-- [substr_compare()](function.substr-compare.md) -
-Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без
-обліку регістру
-- [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння
-перших n символів рядків
-- [strstr()](function.strstr.md) - Знаходить перше входження
-підрядки
-- [substr()](function.substr.md) - Повертає підрядок
+-   [strcasecmp()](function.strcasecmp.html) - Бінарно-безпечне порівняння рядків без урахування регістру
+-   [preg\_match()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [substr\_compare()](function.substr-compare.html) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
+-   [strncmp()](function.strncmp.html) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
+-   [substr()](function.substr.html) - Повертає підрядок

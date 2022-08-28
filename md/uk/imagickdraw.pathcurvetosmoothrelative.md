@@ -1,54 +1,50 @@
-- [« ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.md)
-- [ImagickDraw::pathEllipticArcAbsolute »](imagickdraw.pathellipticarcabsolute.md)
+Малює кубічну криву Безьє
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Малює кубічну криву Безьє
+-   [« ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.html)
+    
+-   [ImagickDraw::pathEllipticArcAbsolute »](imagickdraw.pathellipticarcabsolute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Малює кубічну криву Безьє
+    
 
 # ImagickDraw::pathCurveToSmoothRelative
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::pathCurveToSmoothRelative — Малює кубичну криву Безьє
+ImagickDraw::pathCurveToSmoothRelative — Малює кубічну криву Безьє
 
 ### Опис
 
-public **ImagickDraw::pathCurveToSmoothRelative**(
-float `$x2`,
-float `$y2`,
-float `$x`,
-float `$y`
-): bool
+```methodsynopsis
+public ImagickDraw::pathCurveToSmoothRelative(    float $x2,    float $y2,    float $x,    float $y): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Малює кубичну криву Безьє від поточної точки до (x, y) з
-використанням відносних координат. Передбачається, що перша
-контрольна точка є відображенням другої контрольної точки
-попередньої команди щодо поточної точки. (Якщо попередня команда
-відсутня чи не є DrawPathCurveToAbsolute,
-DrawPathCurveToRelative, DrawPathCurveToSmoothAbsolute або
-DrawPathCurveToSmoothRelative, то передбачається, що перша контрольна
-точка збігається з поточною точкою). (x2, y2) - друга контрольна точка
-(Тобто контрольна точка в кінці кривої). Наприкінці команди нова поточна
-точка стає останньою парою координат (x,y), що використовується в кривій
-Без'є.
+Малює кубичну криву Безьє від поточної точки до (x, y) з використанням відносних координат. Передбачається, що перша контрольна точка є відображенням другої контрольної точки попередньої команди щодо поточної точки. (Якщо попередня команда відсутня або не є DrawPathCurveToAbsolute, DrawPathCurveToRelative, DrawPathCurveToSmoothAbsolute або DrawPathCurveToSmoothRelative, то передбачається, що перша контрольна точка збігається з . (x2, y2) – друга контрольна точка (тобто контрольна точка в кінці кривої). В кінці команди нова поточна точка стає останньою парою координат (x, y), що використовується в кривій Безьє.
 
 ### Список параметрів
 
 `x2`
+
 Координата x другої контрольної точки.
 
 `y2`
-Координата у другої контрольної точки.
+
+Координата y другої контрольної точки.
 
 `x`
+
 Координата x кінцевої точки.
 
 `y`
+
 Координата y кінцевої точки.
 
 ### Значення, що повертаються

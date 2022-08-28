@@ -1,21 +1,29 @@
-- [« UI\Menu::appendQuit](ui-menu.appendquit.md)
-- [UI\Menu::\_\_construct »](ui-menu.construct.md)
+Додати пункт меню "Розділювач" (Separator)
 
-- [PHP Manual](index.md)
-- [UI\Menu](class.ui-menu.md)
-- Додати пункт меню "Розділювач" (Separator)
+-   [« UI\\Menu::appendQuit](ui-menu.appendquit.html)
+    
+-   [UI\\Menu::\_\_construct »](ui-menu.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Menu](class.ui-menu.html)
+    
+-   Додати пункт меню "Розділювач" (Separator)
+    
 
-# UI\Menu::appendSeparator
+# ОЙMenu::appendSeparator
 
 (UI 0.9.9)
 
-UI\Menu::appendSeparator — Додати пункт меню "Розділювач" (Separator)
+ОЙMenu::appendSeparator — Додати пункт меню "Розділювач" (Separator)
 
 ### Опис
 
-public **UI\Menu::appendSeparator**()
+```methodsynopsis
+public UI\Menu::appendSeparator()
+```
 
-Додасть роздільник
+Додати роздільник
 
 ### Список параметрів
 

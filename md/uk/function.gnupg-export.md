@@ -1,44 +1,61 @@
-- [«gnupg_encryptsign](function.gnupg-encryptsign.md)
-- [gnupg_getengineinfo »](function.gnupg-getengineinfo.md)
+Експортує ключ
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Експортує ключ
+-   [« gnupg\_encryptsign](function.gnupg-encryptsign.html)
+    
+-   [gnupg\_getengineinfo »](function.gnupg-getengineinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Експортує ключ
+    
 
-#gnupg_export
+# gnupgexport
 
-(PECL gnupg \>= 0.1)
+(PECL gnupg >= 0.1)
 
-gnupg_export — Експортує ключ
+gnupgexport — Експортує ключ
 
 ### Опис
 
-**gnupg_export**(resource `$identifier`, string `$fingerprint`): string
+```methodsynopsis
+gnupg_export(resource $identifier, string $fingerprint): string
+```
 
-Експортує ключ `fingerprint`.
+Експортує ключ `fingerprint`
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `fingerprint`
+
 Відбиток ключа.
 
 ### Значення, що повертаються
 
-У разі успішного виконання, функція повертає ключ. В разі
-виникнення помилки функція повертає **`false`**.
+У разі успішного виконання, функція повертає ключ. У разі помилки функція повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_export()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupgexport()** у процедурному стилі**
 
-` <?php$res = gnupg_init();$export = gnupg_export($res, "8660281B6051D071D94B5B230549F9DC851566DC");echo $export;?> `
+```php
+<?php
+$res = gnupg_init();
+$export = gnupg_export($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+echo $export;
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_export()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgexport()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$export = $gpg->export("8660281B6051D071D94B5B230549F9DC851566DC");?> `
+```php
+<?php
+$gpg = new gnupg();
+$export = $gpg->export("8660281B6051D071D94B5B230549F9DC851566DC");
+?>
+```

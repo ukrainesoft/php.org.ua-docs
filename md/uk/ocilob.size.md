@@ -1,19 +1,27 @@
-- [« OCILob::setBuffering](ocilob.setbuffering.md)
-- [OCILob::tell »](ocilob.tell.md)
+Повертає розмір об'єкта LOB
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Повертає розмір об'єкта LOB
+-   [« OCILob::setBuffering](ocilob.setbuffering.html)
+    
+-   [OCILob::tell »](ocilob.tell.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCILob](class.ocilob.html)
+    
+-   Повертає розмір об'єкта LOB
+    
 
 # OCILob::size
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
 OCILob::size — Повертає розмір об'єкта LOB
 
 ### Опис
 
-public **OCILob::size**(): int\|false
+```methodsynopsis
+public OCILob::size(): int|false
+```
 
 Повертає розмір об'єкта LOB
 
@@ -23,11 +31,10 @@ public **OCILob::size**(): int\|false
 
 ### Значення, що повертаються
 
-Повертає довжину об'єкта LOB або **`false`** у разі виникнення
-помилки. Для порожніх об'єктів довжина дорівнює нулю.
+Повертає довжину об'єкта LOB або **`false`** у разі виникнення помилки. Для порожніх об'єктів довжина дорівнює нулю.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |

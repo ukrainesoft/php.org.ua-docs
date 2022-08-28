@@ -1,15 +1,21 @@
-- [«Вступ](intro.exec.md)
-- [Вимоги »](exec.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Запуск програми](book.exec.md)
+-   [« Введение](intro.exec.html)
+    
+-   [Требования »](exec.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Запуск программы](book.exec.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](exec.requirements.md)
-- [Установка](exec.installation.md)
-- [Налаштування під час виконання](exec.configuration.md)
-- [Типи ресурсів](exec.resources.md)
+-   [Требования](exec.requirements.html)
+-   [Установка](exec.installation.html)
+-   [Настройка во время выполнения](exec.configuration.html)
+-   [Типы ресурсов](exec.resources.html)

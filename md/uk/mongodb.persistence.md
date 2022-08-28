@@ -1,17 +1,21 @@
-- [« З'єднання](mongodb.connection-handling.md)
-- [Серіалізація в BSON »](mongodb.persistence.serialization.md)
+Серіалізація та десеріалізація змінних PHP у MongoDB
 
-- [PHP Manual](index.md)
-- [Архітектура та внутрішній пристрій драйвера](mongodb.architecture.md)
-- Серіалізація та десеріалізація змінних PHP у MongoDB
+-   [« Соединения](mongodb.connection-handling.html)
+    
+-   [Сериализация в BSON »](mongodb.persistence.serialization.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.html)
+    
+-   Серіалізація та десеріалізація змінних PHP у MongoDB
+    
 
 # Серіалізація та десеріалізація змінних PHP у MongoDB
 
 ## Зміст
 
-- [Серіалізація у BSON](mongodb.persistence.serialization.md)
-- [Десеріалізація з BSON](mongodb.persistence.deserialization.md)
+-   [Сериализация в BSON](mongodb.persistence.serialization.html)
+-   [Десериализация из BSON](mongodb.persistence.deserialization.html)
 
-Цей документ обговорює методи, як складові структури (документи,
-масиви, об'єкти) зберігаються через драйвери. І як вони повертаються
-тому в PHP.
+Цей документ обговорює методи, як складові структури (документи, масиви, об'єкти) зберігаються через драйвери. І як вони повертаються назад до PHP.

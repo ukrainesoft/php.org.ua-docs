@@ -1,45 +1,62 @@
-- [«gnupg_addencryptkey](function.gnupg-addencryptkey.md)
-- [gnupg_cleardecryptkeys »](function.gnupg-cleardecryptkeys.md)
+Додати ключ для підписання
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Додати ключ для підписання
+-   [« gnupg\_addencryptkey](function.gnupg-addencryptkey.html)
+    
+-   [gnupg\_cleardecryptkeys »](function.gnupg-cleardecryptkeys.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Додати ключ для підписання
+    
 
-#gnupg_addsignkey
+# gnupgaddsignkey
 
-(PECL gnupg \>= 0.5)
+(PECL gnupg >= 0.5)
 
-gnupg_addsignkey — Додати ключ для підписання
+gnupgaddsignkey — Додати ключ для підписання
 
 ### Опис
 
-**gnupg_addsignkey**(resource `$identifier`, string `$fingerprint`,
-string `$passphrase` = ?): bool
+```methodsynopsis
+gnupg_addsignkey(resource $identifier, string $fingerprint, string $passphrase = ?): bool
+```
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `fingerprint`
+
 Відбиток ключа.
 
 `passphrase`
+
 Пароль.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupg_addsignkey()****
+**Приклад #1 Процедурний приклад використання **gnupgaddsignkey()****
 
-` <?php$res = gnupg_init();gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");?> `
+```php
+<?php
+$res = gnupg_init();
+gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+?>
+```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання
-**gnupg_addsignkey()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgaddsignkey()****
 
-` <?php$gpg = new gnupg();$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");?> `
+```php
+<?php
+$gpg = new gnupg();
+$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
+?>
+```

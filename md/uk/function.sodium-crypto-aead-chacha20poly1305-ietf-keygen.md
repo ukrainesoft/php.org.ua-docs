@@ -1,30 +1,33 @@
-- [« sodium_crypto_aead_chacha20poly1305_ietf_encrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md)
-- [sodium_crypto_aead_chacha20poly1305_keygen »](function.sodium-crypto-aead-chacha20poly1305-keygen.md)
+Створює випадковий ключ ChaCha20-Poly1305 (IETF)
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює випадковий ключ ChaCha20-Poly1305 (IETF)
+-   [« sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html)
+    
+-   [sodium\_crypto\_aead\_chacha20poly1305\_keygen »](function.sodium-crypto-aead-chacha20poly1305-keygen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Створює випадковий ключ ChaCha20-Poly1305 (IETF)
+    
 
-# sodium_crypto_aead_chacha20poly1305_ietf_keygen
+# sodiumcryptoaeadchacha20poly1305ietfkeygen
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_aead_chacha20poly1305_ietf_keygen — Створює випадковий ключ
-ChaCha20-Poly1305 (IETF)
+sodiumcryptoaeadchacha20poly1305ietfkeygen - Створює випадковий ключ ChaCha20-Poly1305 (IETF)
 
 ### Опис
 
-**sodium_crypto_aead_chacha20poly1305_ietf_keygen**(): string
+```methodsynopsis
+sodium_crypto_aead_chacha20poly1305_ietf_keygen(): string
+```
 
-Створює випадковий ключ для використання в
-[sodium_crypto_aead_chacha20poly1305_ietf_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md)
-і
-[sodium_crypto_aead_chacha20poly1305_ietf_decrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.md).
+Створює випадковий ключ для використання в [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html) і [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

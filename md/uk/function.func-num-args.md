@@ -1,26 +1,31 @@
-- [«func_get_args](function.func-get-args.md)
-- [function_exists »](function.function-exists.md)
+Повертає кількість аргументів, переданих функції
 
-- [PHP Manual](index.md)
-- [Функції керування функціями](ref.funchand.md)
-- Повертає кількість аргументів, переданих функції
+-   [« func\_get\_args](function.func-get-args.html)
+    
+-   [function\_exists »](function.function-exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции управления функциями](ref.funchand.html)
+    
+-   Повертає кількість аргументів, переданих функції
+    
 
-# func_num_args
+# funcnumargs
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-func_num_args — Повертає кількість аргументів, надісланих на функції
+funcnumargs - Повертає кількість аргументів, переданих функції
 
 ### Опис
 
-**func_num_args**(): int
+```methodsynopsis
+func_num_args(): int
+```
 
-Отримує кількість аргументів, що передані функції.
+Отримує кількість аргументів переданих функції.
 
-Ця функція також може бути використана спільно з
-[func_get_arg()](function.func-get-arg.md) та
-[func_get_args()](function.func-get-args.md) для створення функцій з
-змінною кількістю аргументів.
+Ця функція також може бути використана спільно з [func\_get\_arg()](function.func-get-arg.html) і [func\_get\_args()](function.func-get-args.html) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -28,8 +33,7 @@ func_num_args — Повертає кількість аргументів, на
 
 ### Значення, що повертаються
 
-Повертає кількість аргументів, переданих поточною користувальницькою
-функції.
+Повертає кількість аргументів, переданих поточній функції користувача.
 
 ### Помилки
 
@@ -37,29 +41,35 @@ func_num_args — Повертає кількість аргументів, на
 
 ### Приклади
 
-**Приклад #1 Приклад використання **func_num_args()****
+**Приклад #1 Приклад використання **funcnumargs()****
 
-`<?phpfunction foo(){    echo "Кількість аргументів: ", func_num_args(), PHP_EOL;}foo(1, 2, 3);?> `
+```php
+<?php
+
+function foo()
+{
+    echo "Количество аргументов: ", func_num_args(), PHP_EOL;
+}
+
+foo(1, 2, 3);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Кількість аргументів: 3
+```
+Количество аргументов: 3
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Починаючи з PHP 8.0.0, сімейство функцій func\_\*() призначене для
-> більшої прозорості щодо іменованих аргументів, обробляючи
-> аргументи так, якби всі вони були передані позиційно, а
-> відсутні аргументи замінюються їх значеннями за замовчуванням. Функція
-> ігнорує набір невідомих іменованих варіативних аргументів. До
-> зібраним невідомим іменованим аргументам можна отримати доступ
-> лише через варіативний параметр.
+> **Зауваження**
+> 
+> Починаючи з PHP 8.0.0, сімейство функцій func() призначено для більшої прозорості щодо іменованих аргументів, обробляючи аргументи так, ніби всі вони були передані позиційно, а відсутні аргументи замінюються їх значеннями за умовчанням. Функція ігнорує набір невідомих варіативних аргументів. До зібраних невідомих іменованих аргументів можна отримати доступ лише через варіативний параметр.
 
 ### Дивіться також
 
-- [Синтаксис `...`](functions.arguments.md#functions.variable-arg-list)
-- [func_get_arg()](function.func-get-arg.md)
-- [func_get_args()](function.func-get-args.md)
-- [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md)
+-   [Синтаксис `...`](functions.arguments.html#functions.variable-arg-list)
+-   [func\_get\_arg()](function.func-get-arg.html)
+-   [func\_get\_args()](function.func-get-args.html)
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html)

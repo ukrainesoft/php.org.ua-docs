@@ -1,9 +1,15 @@
-- [« Приклади](ds.examples.md)
-- [Ds\Collection::clear »](ds-collection.clear.md)
+Інтерфейс Collection
 
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Інтерфейс Collection
+-   [« Примеры](ds.examples.html)
+    
+-   [Ds\\Collection::clear »](ds-collection.clear.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](book.ds.html)
+    
+-   Інтерфейс Collection
+    
 
 # Інтерфейс Collection
 
@@ -11,44 +17,40 @@
 
 ## Вступ
 
-**Collection** – це базовий інтерфейс, який покриває
-функціональність загальну всім структур даних у цій бібліотеці. Він
-гарантує, що це структури обхідні, счётный і може бути
-перетворені на JSON за допомогою функції
-[json_encode()](function.json-encode.md).
+**Collection** - це базовий інтерфейс, який покриває функціональність загальну всім структур даних у цій бібліотеці. Він гарантує, що всі структури обхідні, лічильний і можуть бути перетворені на JSON за допомогою функції [json\_encode()](function.json-encode.html)
 
 ## Огляд інтерфейсів
 
-class **Ds\Collection** implements [Countable](class.countable.md),
-[IteratorAggregate](class.iteratoraggregate.md),
-[JsonSerializable](class.jsonserializable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public [clear](ds-collection.clear.md)(): void
+    
+    
 
-abstract public [copy](ds-collection.copy.md)():
-[Ds\Collection](class.ds-collection.md)
+     class Ds\Collection
 
-abstract public [isEmpty](ds-collection.isempty.md)(): bool
+     implements  Countable,  IteratorAggregate,  JsonSerializable {
+    
 
-abstract public [toArray](ds-collection.toarray.md)(): array
+    /* Методы */
+    
+   abstract public clear(): void
+abstract public copy(): Ds\Collection
+abstract public isEmpty(): bool
+abstract public toArray(): array
 
-}
+   }
+```
 
-## Список змін
+## список змін
 
-| Версія        | Опис                                                                                                                                                                                      |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL DS 1.4.0 | Клас **Collection** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md) замість [Traversable](class.traversable.md). (Ця зміна з'явилася у поліфілі у версії 1.4.1). |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.4.0 | Клас **Collection** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html). (Ця зміна з'явилася у поліфілі у версії 1.4.1). |
 
 ## Зміст
 
-- [Ds\Collection::clear](ds-collection.clear.md) — Видаляє все
-значення
-- [Ds\Collection::copy](ds-collection.copy.md) — Повертає копію
-колекції
-- [Ds\Collection::isEmpty](ds-collection.isempty.md) — Перевіряє,
-чи порожня колекція
-- [Ds\Collection::toArray](ds-collection.toarray.md) - Перетворює
-колекцію в масив (array)
+-   [Ds\\Collection::clear](ds-collection.clear.html) - Видаляє всі значення
+-   [Ds\\Collection::copy](ds-collection.copy.html) — Повертає копію колекції
+-   [Ds\\Collection::isEmpty](ds-collection.isempty.html) — Перевіряє, чи колекція порожня.
+-   [Ds\\Collection::toArray](ds-collection.toarray.html) — Перетворює колекцію на масив (array)

@@ -1,12 +1,16 @@
-- [«var_representation](book.var_representation.md)
-- [Встановлення та налаштування »](var-representation.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [var_representation](book.var_representation.md)
+-   [« var\_representation](book.var_representation.html)
+    
+-   [Установка и настройка »](var-representation.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [var\_representation](book.var_representation.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Модуль var_presentation надає компактну альтернативу
-[var_export()](function.var-export.md), яка належним чином
-екранує керуючі символи.
+Модуль varpresentation надає компактну альтернативу [var\_export()](function.var-export.html), яка належним чином екранує символи керування.

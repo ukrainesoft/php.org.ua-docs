@@ -1,19 +1,27 @@
-- [« Vtiful\Kernel\Excel::mergeCells](vtiful-kernel-excel.mergeCells.md)
-- [Vtiful\Kernel\Excel::setColumn »](vtiful-kernel-excel.setColumn.md)
+Висновок
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- Висновок
+-   [« Vtiful\\Kernel\\Excel::mergeCells](vtiful-kernel-excel.mergeCells.html)
+    
+-   [Vtiful\\Kernel\\Excel::setColumn »](vtiful-kernel-excel.setColumn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
+-   Висновок
+    
 
-# Vtiful\Kernel\Excel::output
+# VtifulKernelExcel::output
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::output - Висновок
+VtifulKernelExcel::output - Висновок
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::output**()
+```methodsynopsis
+public Vtiful\Kernel\Excel::output()
+```
 
 Виведення файлу xlsx на диск.
 
@@ -29,4 +37,21 @@ public **Vtiful\Kernel\Excel::output**()
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$fileObject  = new \Vtiful\Kernel\Excel($config);$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')   ->header(['name', 'age'])    ->data([      ['viest', 23],      ['wjx', 2$]| ();?> `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$fileObject  = new \Vtiful\Kernel\Excel($config);
+
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age'])
+    ->data([
+      ['viest', 23],
+      ['wjx', 23],
+    ]);
+
+$path = $file->output();
+?>
+```

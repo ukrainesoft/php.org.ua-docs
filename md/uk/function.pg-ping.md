@@ -1,60 +1,69 @@
-- [« pg_pconnect](function.pg-pconnect.md)
-- [pg_port »](function.pg-port.md)
+Перевірка з'єднання з базою даних
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Перевірка з'єднання з базою даних
+-   [« pg\_pconnect](function.pg-pconnect.html)
+    
+-   [pg\_port »](function.pg-port.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Перевірка з'єднання з базою даних
+    
 
-#pg_ping
+# пгping
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-pg_ping — Перевірити з'єднання з базою даних
+пгping — Перевірити з'єднання з базою даних
 
 ### Опис
 
-**pg_ping**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): bool
+```methodsynopsis
+pg_ping(?PgSql\Connection $connection = null): bool
+```
 
-**pg_ping()** перевіряє з'єднання з базою даних і перепідключається,
-якщо вона порушена.
+**пгping()** перевіряє з'єднання з базою даних та перепідключається, якщо воно порушено.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_ping()****
+**Приклад #1 Приклад використання **пгping()****
 
-` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}if (!pg_ping($conn)) die("Сполука порушено
-");?> `
+```php
+<?php
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+if (!pg_ping($conn))
+  die("Соединение нарушено\n");
+?>
+```
 
 ### Дивіться також
 
-- [pg_connection_status()](function.pg-connection-status.md) -
-Визначає стан підключення
-- [pg_connection_reset()](function.pg-connection-reset.md) - Скидання
-підключення (перепідключення)
+-   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення
+-   [pg\_connection\_reset()](function.pg-connection-reset.html) - Скидання підключення (перепідключення)

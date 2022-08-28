@@ -1,34 +1,40 @@
-- [« DOMXPath::query](domxpath.query.md)
-- [DOMXPath::registerPhpFunctions »](domxpath.registerphpfunctions.md)
+Реєструє простір імен з об'єктом DOMXPath
 
-- [PHP Manual](index.md)
-- [DOMXPath](class.domxpath.md)
-- Реєструє простір імен з об'єктом DOMXPath
+-   [« DOMXPath::query](domxpath.query.html)
+    
+-   [DOMXPath::registerPhpFunctions »](domxpath.registerphpfunctions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMXPath](class.domxpath.html)
+    
+-   Реєструє простір імен з об'єктом DOMXPath
+    
 
 # DOMXPath::registerNamespace
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMXPath::registerNamespace — Реєструє простір імен з об'єктом
-[DOMXPath](class.domxpath.md)
+DOMXPath::registerNamespace — Реєструє простір імен з об'єктом [DOMXPath](class.domxpath.html)
 
 ### Опис
 
-public **DOMXPath::registerNamespace**(string `$prefix`, string
-`$namespace`): bool
+```methodsynopsis
+public DOMXPath::registerNamespace(string $prefix, string $namespace): bool
+```
 
-Реєструє URI простору імен `namespace` та префікс `prefix` з
-об'єктом DOMXPath.
+Реєструє URI простору імен `namespace` та префікс `prefix` з об'єктом DOMXPath.
 
 ### Список параметрів
 
 `prefix`
+
 Префікс.
 
 `namespace`
+
 URI простір імен.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

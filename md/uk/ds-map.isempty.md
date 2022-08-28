@@ -1,19 +1,27 @@
-- [« Ds\Map::intersect](ds-map.intersect.md)
-- [Ds\Map::jsonSerialize »](ds-map.jsonserialize.md)
+Перевіряє, чи порожня колекція
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Перевіряє, чи порожня колекція
+-   [« Ds\\Map::intersect](ds-map.intersect.html)
+    
+-   [Ds\\Map::jsonSerialize »](ds-map.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Коллекция пар ключ-значение](class.ds-map.html)
+    
+-   Перевіряє, чи порожня колекція
+    
 
-# Ds\Map::isEmpty
+# ДсMap::isEmpty
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Map::isEmpty — Перевіряє, чи порожня колекція
+ДсMap::isEmpty — Перевіряє, чи порожня колекція
 
 ### Опис
 
-public **Ds\Map::isEmpty**(): bool
+```methodsynopsis
+public Ds\Map::isEmpty(): bool
+```
 
 Перевіряє, чи колекція порожня.
 
@@ -23,16 +31,25 @@ public **Ds\Map::isEmpty**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, та **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо колекція порожня, та **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::isEmpty()****
+**Приклад #1 Приклад використання **ДсMap::isEmpty()****
 
-` <?php$a = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$b = new \Ds\Map();var_dump( $a->isEmpty());var_dump($b->isEmpty());?> `
+```php
+<?php
+$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$b = new \Ds\Map();
+
+var_dump($a->isEmpty());
+var_dump($b->isEmpty());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 bool(true)
+```

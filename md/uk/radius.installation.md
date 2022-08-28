@@ -1,20 +1,20 @@
-- [« Вимоги](radius.requirements.md)
-- [Налаштування під час виконання »](radius.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](radius.setup.md)
-- Встановлення
+-   [« Требования](radius.requirements.html)
+    
+-   [Настройка во время выполнения »](radius.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](radius.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/radius](https://pecl.php.net/package/radius).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/radius](https://pecl.php.net/package/radius)
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md).
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)

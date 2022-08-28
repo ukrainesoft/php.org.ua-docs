@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](openal.setup.md)
-- [Встановлення »](openal.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](openal.setup.md)
-- Вимоги
+-   [« Установка и настройка](openal.setup.html)
+    
+-   [Установка »](openal.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](openal.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

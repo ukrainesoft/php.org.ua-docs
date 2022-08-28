@@ -1,23 +1,23 @@
-- [« MongoDB \ BSON](book.bson.md)
-- [MongoDB\BSON romJSON »](function.mongodb.bson-fromjson.md)
+Функції
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Функції
+-   [« MongoDB\\BSON](book.bson.html)
+    
+-   [MongoDB\\BSON\\fromJSON »](function.mongodb.bson-fromjson.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON](book.bson.html)
+    
+-   Функції
+    
 
 # Функції
 
 ## Зміст
 
-- [MongoDB\BSON romJSON](function.mongodb.bson-fromjson.md) -
-Повертає уявлення BSON значення JSON
-- [MongoDB\BSON romPHP](function.mongodb.bson-fromphp.md) -
-Повертає уявлення BSON значення PHP
-- [MongoDB\BSON oCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.md)
-— Повертає Canonical Extended JSON представлення для BSON
-- [MongoDB\BSON oJSON](function.mongodb.bson-tojson.md) -
-Повертає Legacy Extended JSON подання значення BSON
-- [MongoDB\BSON oPHP](function.mongodb.bson-tophp.md) — Повертає
-PHP представлення значення BSON
-- [MongoDB\BSON oRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.md)
-— Повертає Relaxed Extended JSON представлення значення BSON
+-   [MongoDB\\BSON\\fromJSON](function.mongodb.bson-fromjson.html) — Повертає уявлення BSON значення JSON
+-   [MongoDB\\BSON\\fromPHP](function.mongodb.bson-fromphp.html) — Повертає представлення BSON значення PHP
+-   [MongoDB\\BSON\\toCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.html) — Повертає Canonical Extended JSON представлення для BSON
+-   [MongoDB\\BSON\\toJSON](function.mongodb.bson-tojson.html) — Повертає Legacy Extended JSON представлення значення BSON
+-   [MongoDB\\BSON\\toPHP](function.mongodb.bson-tophp.html) — Повертає PHP подання значення BSON
+-   [MongoDB\\BSON\\toRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.html) — Повертає Relaxed Extended JSON уявлення значення BSON

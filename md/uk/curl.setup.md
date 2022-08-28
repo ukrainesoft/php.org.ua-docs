@@ -1,15 +1,21 @@
-- [«Вступ](intro.curl.md)
-- [Вимоги »](curl.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [cURL](book.curl.md)
+-   [« Введение](intro.curl.html)
+    
+-   [Требования »](curl.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [cURL](book.curl.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](curl.requirements.md)
-- [Установка](curl.installation.md)
-- [Налаштування під час виконання](curl.configuration.md)
-- [Типи ресурсів](curl.resources.md)
+-   [Требования](curl.requirements.html)
+-   [Установка](curl.installation.html)
+-   [Настройка во время выполнения](curl.configuration.html)
+-   [Типы ресурсов](curl.resources.html)

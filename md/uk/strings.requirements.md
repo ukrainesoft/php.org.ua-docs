@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](strings.setup.md)
-- [Встановлення »](strings.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](strings.setup.md)
-- Вимоги
+-   [« Установка и настройка](strings.setup.html)
+    
+-   [Установка »](strings.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](strings.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

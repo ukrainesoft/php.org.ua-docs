@@ -1,62 +1,73 @@
-- [« tidy::diagnose](tidy.diagnose.md)
-- [tidy::getConfig »](tidy.getconfig.md)
+Повертає попередження та помилки, що виникли при розборі зазначеного документа
 
-- [PHP Manual](index.md)
-- [Tidy](class.tidy.md)
-- Повертає попередження та помилки, що виникли при розборі вказаного
-документа
+-   [« tidy::diagnose](tidy.diagnose.html)
+    
+-   [tidy::getConfig »](tidy.getconfig.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [tidy](class.tidy.html)
+    
+-   Повертає попередження та помилки, що виникли при розборі зазначеного документа
+    
 
 # tidy::$errorBuffer
 
-#tidy_get_error_buffer
+# tidygeterrorbuffer
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy::$errorBuffer -- tidy_get_error_buffer — Повертає попередження
-та помилки, що виникли при розборі зазначеного документа
+tidy::$errorBuffer -- tidygeterrorbuffer — Повертає попередження та помилки, що виникли під час аналізу зазначеного документа
 
 ### Опис
 
 Об'єктно-орієнтований стиль (property):
 
-public string `$tidy->errorBuffer`;
+public string [$tidy->errorBuffer](tidy.props.errorbuffer.html)
 
 Процедурний стиль:
 
-**tidy_get_error_buffer**([tidy](class.tidy.md) `$tidy`):
-string\|false
+```methodsynopsis
+tidy_get_error_buffer(tidy $tidy): string|false
+```
 
-Повертає попередження та помилки, що виникли при розборі вказаного
-документа.
+Повертає попередження та помилки, що виникли при розборі зазначеного документа.
 
 ### Список параметрів
 
 `tidy`
-Об'єкт [Tidy](class.tidy.md).
+
+Об'єкт [Tidy](class.tidy.html)
 
 ### Значення, що повертаються
 
-Повертає буфер помилки у вигляді рядка або **`false`**, якщо буфер
-порожній.
+Повертає буфер помилки у вигляді рядка або **`false`**якщо буфер порожній.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy_get_error_buffer()****
+**Приклад #1 Приклад використання **tidygeterrorbuffer()****
 
-` <?php$html = '<p>параграф</p>';$tidy = tidy_parse_string($html);echo tidy_get_error_buffer($tidy);/* або в ООП стилі: */echo $tidy->errorBuffer; ?> `
+```php
+<?php
+$html = '<p>параграф</p>';
+
+$tidy = tidy_parse_string($html);
+
+echo tidy_get_error_buffer($tidy);
+/* или в ООП стиле: */
+echo $tidy->errorBuffer;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 line 1 column 1 - Warning: missing <!DOCTYPE> declaration
 line 1 column 1 - Warning: inserting missing 'title' element
+```
 
 ### Дивіться також
 
-- [tidy_access_count()](function.tidy-access-count.md) - Повертає
-число доступних попереджень Tidy, що зустрілися у розглянутому
-документі
-- [tidy_error_count()](function.tidy-error-count.md) - Повертає
-число помилок Tidy, які зустрілися під час розгляду документа
-- [tidy_warning_count()](function.tidy-warning-count.md) -
-Повертає число Tidy-попереджень, зустрінених у зазначеному
-документі
+-   [tidy\_access\_count()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidy\_error\_count()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidy\_warning\_count()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінуті у зазначеному документі

@@ -1,29 +1,36 @@
-- [«SolrQuery::setTermsSort](solrquery.settermssort.md)
-- [SolrQuery::setTimeAllowed »](solrquery.settimeallowed.md)
+Встановлює умову для зупинки
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює умову для зупинки
+-   [« SolrQuery::setTermsSort](solrquery.settermssort.html)
+    
+-   [SolrQuery::setTimeAllowed »](solrquery.settimeallowed.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює умову для зупинки
+    
 
 # SolrQuery::setTermsUpperBound
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::setTermsUpperBound — Встановлює умову для зупинки
 
 ### Опис
 
-public **SolrQuery::setTermsUpperBound**(string `$upperBound`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTermsUpperBound(string $upperBound): SolrQuery
+```
 
 Встановлює умову для зупинки
 
 ### Список параметрів
 
 `upperBound`
+
 Умова для зупинки
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

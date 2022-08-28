@@ -1,26 +1,29 @@
-- [« Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.md)
-- [Imagick::getImageBluePrimary »](imagick.getimageblueprimary.md)
+Повертає послідовність зображень у вигляді BLOB
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає послідовність зображень у вигляді BLOB
+-   [« Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.html)
+    
+-   [Imagick::getImageBluePrimary »](imagick.getimageblueprimary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає послідовність зображень у вигляді BLOB
+    
 
 # Imagick::getImageBlob
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageBlob — Повертає послідовність зображень у вигляді
-BLOB
+Imagick::getImageBlob — Повертає послідовність зображень у вигляді BLOB
 
 ### Опис
 
-public **Imagick::getImageBlob**(): string
+```methodsynopsis
+public Imagick::getImageBlob(): string
+```
 
-Реалізує формати зображень безпосередньо на згадку. Повертає
-послідовність зображень у вигляді рядка. Формат зображення
-визначає формат BLOB-об'єкта, що повертається (GIF, JPEG, PNG і т.д.).
-Щоб повернути інший формат зображення, використовуйте
-Imagick::setImageFormat().
+Реалізує формати зображень безпосередньо на згадку. Повертає послідовність зображень у вигляді рядка. Формат зображення визначає формат BLOB-об'єкта, що повертається (GIF, JPEG, PNG і т.д.). Щоб повернути інший формат зображення, використовуйте Imagick::setImageFormat().
 
 ### Список параметрів
 

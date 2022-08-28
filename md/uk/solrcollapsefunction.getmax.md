@@ -1,19 +1,27 @@
-- [«SolrCollapseFunction::getHint](solrcollapsefunction.gethint.md)
-- [SolrCollapseFunction::getMin »](solrcollapsefunction.getmin.md)
+Повертає максимальне значення
 
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Повертає максимальне значення
+-   [« SolrCollapseFunction::getHint](solrcollapsefunction.gethint.html)
+    
+-   [SolrCollapseFunction::getMin »](solrcollapsefunction.getmin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrCollapseFunction](class.solrcollapsefunction.html)
+    
+-   Повертає максимальне значення
+    
 
 # SolrCollapseFunction::getMax
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrCollapseFunction::getMax — Повертає максимальне значення
 
 ### Опис
 
-public **SolrCollapseFunction::getMax**(): string
+```methodsynopsis
+public SolrCollapseFunction::getMax(): string
+```
 
 Повертає максимальне значення числового поля чи запиту функції.
 
@@ -25,6 +33,4 @@ public **SolrCollapseFunction::getMax**(): string
 
 ### Дивіться також
 
-- [SolrCollapseFunction::setMax()](solrcollapsefunction.setmax.md) -
-Вибирає заголовки групи за максимальним значенням числового поля
-або запит функції
+-   [SolrCollapseFunction::setMax()](solrcollapsefunction.setmax.html) - Вибирає заголовки групи за максимальним значенням числового поля або запиту функції

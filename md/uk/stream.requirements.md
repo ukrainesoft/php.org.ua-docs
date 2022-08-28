@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](stream.setup.md)
-- [Встановлення »](stream.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](stream.setup.md)
-- Вимоги
+-   [« Установка и настройка](stream.setup.html)
+    
+-   [Установка »](stream.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](stream.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,19 +1,27 @@
-- [« swoole_async_readfile](function.swoole-async-readfile.md)
-- [swoole_async_write »](function.swoole-async-write.md)
+Оновлення опцій асинхронного введення-виводу
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Оновлення опцій асинхронного введення-виводу
+-   [« swoole\_async\_readfile](function.swoole-async-readfile.html)
+    
+-   [swoole\_async\_write »](function.swoole-async-write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Оновлення опцій асинхронного введення-виводу
+    
 
-# swoole_async_set
+# swooleasyncset
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_async_set — Оновлення опцій асинхронного введення-виводу
+swooleasyncset - Оновлення опцій асинхронного введення-виводу
 
 ### Опис
 
-**swoole_async_set**(array `$settings`): void
+```methodsynopsis
+swoole_async_set(array $settings): void
+```
 
 ### Список параметрів
 

@@ -1,13 +1,19 @@
-- [« Exception::\_\_clone](exception.clone.md)
-- [ErrorException::\_\_construct »](errorexception.construct.md)
+ErrorException
 
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- ErrorException
+-   [« Exception::\_\_clone](exception.clone.html)
+    
+-   [ErrorException::\_\_construct »](errorexception.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые исключения](reserved.exceptions.html)
+    
+-   ErrorException
+    
 
-#ErrorException
+# ErrorException
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -15,90 +21,112 @@
 
 ## Огляд класів
 
-class **ErrorException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-protected int `$severity` = E_ERROR;
+    
+     
+      class ErrorException
+     
 
-/\* Наслідувані властивості \*/
+     
+      extends
+       Exception
+     
+     {
 
-protected string `$message` = "";
+    /* Свойства */
+    
+     protected
+     int
+      $severity = E_ERROR;
 
-private string `$string` = "";
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Методы */
+    
+   public __construct(    string $message = "",    int $code = 0,    int $severity = E_ERROR,    ?string $filename = null,    ?int $line = null,    ?Throwable $previous = null)
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+    final public getSeverity(): int
 
-/\* Методи \*/
 
-public [\_\_construct](errorexception.construct.md)(
-string `$message` = "",
-int `$code` = 0,
-int `$severity` = **`E_ERROR`**,
-?string `$filename` = **`null`**,
-?int `$line` = **`null`**,
-?[Throwable](class.throwable.md) `$previous` = **`null`**
-)
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [getSeverity](errorexception.getseverity.md)(): int
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`severity`
+severity
+
 Серйозність виключення
 
 ## Приклади
 
-**Приклад #1 Використання
-[set_error_handler()](function.set-error-handler.md) для зміни
-повідомлень про помилки в ErrorException.**
+**Приклад #1 Використання [set\_error\_handler()](function.set-error-handler.html) змінити повідомлення про помилки в ErrorException.**
 
-`<?phpfunction exception_error_handler($severity, $message, $file, $line) {   if (!(error_reporting() & $severity))    |       }   throw new ErrorException($message, 0,$severity, $file, $line);}set_error_handler("exception_error_handler");/* викликаємо виключення */strpos();?> `
+```php
+<?php
+function exception_error_handler($severity, $message, $file, $line) {
+    if (!(error_reporting() & $severity)) {
+        // Этот код ошибки не входит в error_reporting
+        return;
+    }
+    throw new ErrorException($message, 0, $severity, $file, $line);
+}
+set_error_handler("exception_error_handler");
+
+/* вызываем исключение */
+strpos();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Випадковий error: Відповідь про exception 'ErrorException' with message 'strpos() expects at least 2 parameters, 0 given' in /home/bjori/tmp/ex.php:12
+```
+Fatal error: Uncaught exception 'ErrorException' with message 'strpos() expects at least 2 parameters, 0 given' in /home/bjori/tmp/ex.php:12
 Stack trace:
 #0 [internal function]: exception_error_handler(2, 'strpos() expect...', '/home/bjori/php...', 12, Array)
 #1 /home/bjori/php/cleandocs/test.php(12): strpos()
 #2 {main}
-thrown in /home/bjori/tmp/ex.php on line 12
+  thrown in /home/bjori/tmp/ex.php on line 12
+```
 
 ## Зміст
 
-- [ErrorException::\_\_construct](errorexception.construct.md) -
-Створює виняток
-- [ErrorException::getSeverity](errorexception.getseverity.md) -
-Отримує серйозність виключення
+-   [ErrorException::\_\_construct](errorexception.construct.html) - Створює виняток
+-   [ErrorException::getSeverity](errorexception.getseverity.html) — Отримує серйозність виключення

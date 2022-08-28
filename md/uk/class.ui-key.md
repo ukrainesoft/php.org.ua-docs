@@ -1,9 +1,15 @@
-- [«UI\Draw\Line\Join](class.ui-draw-line-join.md)
-- [UI\Exception\InvalidArgumentException »](class.ui-exception-invalidargumentexception.md)
+Ключові ідентифікатори
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Ключові ідентифікатори
+-   [« UI\\Draw\\Line\\Join](class.ui-draw-line-join.html)
+    
+-   [UI\\Exception\\InvalidArgumentException »](class.ui-exception-invalidargumentexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Ключові ідентифікатори
+    
 
 # Ключові ідентифікатори
 
@@ -13,86 +19,175 @@
 
 ## Огляд класів
 
-final class **UI\Key** {
+```synopsis
 
-/\* Константи \*/
 
-const int `Escape`;
 
-const int `Insert`;
+    
+     
+      final
+      class UI\Key
+     
+     {
 
-const int `Delete`;
+    /* Константы */
+    
+     const
+     int
+      Escape;
 
-const int `Home`;
+    const
+     int
+      Insert;
 
-const int `End`;
+    const
+     int
+      Delete;
 
-const int `PageUp`;
+    const
+     int
+      Home;
 
-const int `PageDown`;
+    const
+     int
+      End;
 
-const int `Up`;
+    const
+     int
+      PageUp;
 
-const int `Down`;
+    const
+     int
+      PageDown;
 
-const int `Left`;
+    const
+     int
+      Up;
 
-const int `Right`;
+    const
+     int
+      Down;
 
-const int `F1`;
+    const
+     int
+      Left;
 
-const int `F2`;
+    const
+     int
+      Right;
 
-const int `F3`;
+    const
+     int
+      F1;
 
-const int `F4`;
+    const
+     int
+      F2;
 
-const int `F5`;
+    const
+     int
+      F3;
 
-const int `F6`;
+    const
+     int
+      F4;
 
-const int `F7`;
+    const
+     int
+      F5;
 
-const int `F8`;
+    const
+     int
+      F6;
 
-const int `F9`;
+    const
+     int
+      F7;
 
-const int `F10`;
+    const
+     int
+      F8;
 
-const int `F11`;
+    const
+     int
+      F9;
 
-const int `F12`;
+    const
+     int
+      F10;
 
-const int `N0`;
+    const
+     int
+      F11;
 
-const int `N1`;
+    const
+     int
+      F12;
 
-const int `N2`;
+    const
+     int
+      N0;
 
-const int `N3`;
+    const
+     int
+      N1;
 
-const int `N4`;
+    const
+     int
+      N2;
 
-const int `N5`;
+    const
+     int
+      N3;
 
-const int `N6`;
+    const
+     int
+      N4;
 
-const int `N7`;
+    const
+     int
+      N5;
 
-const int `N8`;
+    const
+     int
+      N6;
 
-const int `N9`;
+    const
+     int
+      N7;
 
-const int `NDot`;
+    const
+     int
+      N8;
 
-const int `NEnter`;
+    const
+     int
+      N9;
 
-const int `NAdd`;
+    const
+     int
+      NDot;
 
-const int `NSubtract`;
+    const
+     int
+      NEnter;
 
-const int `NMultiply`;
+    const
+     int
+      NAdd;
 
-const int `NDivide`;
+    const
+     int
+      NSubtract;
 
-}
+    const
+     int
+      NMultiply;
+
+    const
+     int
+      NDivide;
+
+
+   }
+```

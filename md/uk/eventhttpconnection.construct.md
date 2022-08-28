@@ -1,60 +1,79 @@
-- [«EventHttpConnection](class.eventhttpconnection.md)
-- [EventHttpConnection::getBase »](eventhttpconnection.getbase.md)
+Конструктор об'єкта EventHttpConnection
 
-- [PHP Manual](index.md)
-- [EventHttpConnection](class.eventhttpconnection.md)
-- Конструктор об'єкту EventHttpConnection
+-   [« EventHttpConnection](class.eventhttpconnection.html)
+    
+-   [EventHttpConnection::getBase »](eventhttpconnection.getbase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpConnection](class.eventhttpconnection.html)
+    
+-   Конструктор об'єкта EventHttpConnection
+    
 
-# EventHttpConnection::\_\_construct
+# EventHttpConnection::construct
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventHttpConnection::\_\_construct — Конструктор об'єкта
-EventHttpConnection
+EventHttpConnection::construct — Конструктор об'єкта EventHttpConnection
 
 ### Опис
 
-public **EventHttpConnection::\_\_construct**(
-[EventBase](class.eventbase.md) `$base` ,
-[EventDnsBase](class.eventdnsbase.md) `$dns_base` ,
-string `$address` ,
-int `$port` ,
-[EventSslContext](class.eventsslcontext.md) `$ctx` = **`null`**
+```methodsynopsis
+public
+   EventHttpConnection::__construct(    
+    EventBase
+     $base
+   ,    
+    EventDnsBase
+     $dns_base
+   ,    
+    string
+     $address
+   ,    
+    int
+     $port
+   ,    
+    EventSslContext
+     $ctx
+     = null
+   )
+```
 
-)
-
-Конструктор об'єкту EventHttpConnection.
+Конструктор об'єкта EventHttpConnection.
 
 ### Список параметрів
 
 `base`
+
 Пов'язана основа подій.
 
 `dns_base`
-Якщо параметр `dns_base` дорівнює **`null`**, роздільна здатність імені хоста буде
-заблоковано.
+
+Якщо параметр `dns_base` дорівнює **`null`**, дозвіл імені хоста буде заблоковано.
 
 `address`
+
 Адреса для підключення.
 
 `port`
+
 Порт для підключення.
 
 `ctx`
-Об'єкт класу [EventSslContext](class.eventsslcontext.md). Включає
-OpenSSL.
 
-> **Примітка**:
->
-> Цей параметр доступний, тільки якщо `Event` скомпільовано за допомогою
-> OpenSSL і тільки з `Libevent 2.1.0-alpha` та вище.
+Об'єкт класу [EventSslContext](class.eventsslcontext.html). Включає OpenSSL.
+
+> **Зауваження**
+> 
+> Цей параметр доступний, лише якщо `Event` скомпільований за допомогою OpenSSL і тільки з `Libevent 2.1.0-alpha` і вище.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [EventHttpConnection](class.eventhttpconnection.md).
+Повертає об'єкт [EventHttpConnection](class.eventhttpconnection.html)
 
-### Список змін
+### список змін
 
-| Версія           | Опис                            |
-| ---------------- | ------------------------------- |
-| PECL event 1.9.0 | Додано підтримку OpenSSL (ctx). |
+| Версия | Описание |
+| --- | --- |
+| PECL event 1.9.0 | Додана підтримка OpenSSL (`ctx` |

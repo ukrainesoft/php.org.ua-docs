@@ -1,65 +1,64 @@
-- [« mysqli::real_escape_string](mysqli.real-escape-string.md)
-- [mysqli::reap_async_query »](mysqli.reap-async-query.md)
+Виконання SQL запиту
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Виконання SQL запиту
+-   [« mysqli::real\_escape\_string](mysqli.real-escape-string.html)
+    
+-   [mysqli::reap\_async\_query »](mysqli.reap-async-query.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Виконання SQL запиту
+    
 
-# mysqli::real_query
+# mysqli::realquery
 
-# mysqli_real_query
+# mysqlirealquery
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::real_query -- mysqli_real_query -- Виконання SQL запиту
+mysqli::realquery -- mysqlirealquery — Виконання запиту SQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::real_query**(string `$query`): bool
+```methodsynopsis
+public mysqli::real_query(string $query): bool
+```
 
 Процедурний стиль
 
-**mysqli_real_query**([mysqli](class.mysqli.md) `$mysql`, string
-`$query`): bool
+```methodsynopsis
+mysqli_real_query(mysqli $mysql, string $query): bool
+```
 
-Виконує одиночний запит до бази даних, результати якого можна
-отримати або використовувати функції
-[mysqli_store_result()](mysqli.store-result.md) або
-[mysqli_use_result()](mysqli.use-result.md).
+Виконує одиночний запит до бази даних, результати якого можна отримати або використовувати функціями [mysqli\_store\_result()](mysqli.store-result.html) або [mysqli\_use\_result()](mysqli.use-result.html)
 
-Щоб визначити, чи повинен повертати запит результуючий набір,
-дивіться [mysqli_field_count()](mysqli.field-count.md).
+Щоб визначити, чи має запит повертати результуючий набір, дивіться [mysqli\_field\_count()](mysqli.field-count.html)
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 `query`
+
 Текст запиту у вигляді рядка.
 
 **Увага**
+
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід
-використовувати [підготовлювані запросы](mysqli.quickstart.prepared-statements.md). В якості
-альтернативи дані повинні бути правильно відформатовані та всі рядки
-повинні бути екрановані за допомогою функції
-[mysqli_real_escape_string()](mysqli.real-escape-string.md).
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [подготавливаемые запросы](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [mysqli_query()](mysqli.query.md) - Виконує запит до бази даних
-- [mysqli_store_result()](mysqli.store-result.md) - Передає на
-клієнта результуючий набір останнього запиту
-- [mysqli_use_result()](mysqli.use-result.md) - Готує
-результуючий набір на сервері для використання
+-   [mysqli\_query()](mysqli.query.html) - Виконує запит до бази даних
+-   [mysqli\_store\_result()](mysqli.store-result.html) - передає на клієнта результуючий набір останнього запиту
+-   [mysqli\_use\_result()](mysqli.use-result.html) - Готує результуючий набір на сервері для використання

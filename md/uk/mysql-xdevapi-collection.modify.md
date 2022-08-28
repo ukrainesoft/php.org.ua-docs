@@ -1,9 +1,15 @@
-- [« Collection::getSession](mysql-xdevapi-collection.getsession.md)
-- [Collection::remove »](mysql-xdevapi-collection.remove.md)
+Змінює документи колекції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Змінює документи колекції
+-   [« Collection::getSession](mysql-xdevapi-collection.getsession.html)
+    
+-   [Collection::remove »](mysql-xdevapi-collection.remove.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+    
+-   Змінює документи колекції
+    
 
 # Collection::modify
 
@@ -13,33 +19,52 @@ Collection::modify — Змінює документи колекції
 
 ### Опис
 
-public **mysql_xdevapi\Collection::modify**(string `$search_condition`):
-[mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
+```methodsynopsis
+public mysql_xdevapi\Collection::modify(string $search_condition): mysql_xdevapi\CollectionModify
+```
 
-Змінює колекції, які відповідають певним умовам пошуку.
-Дозволено кілька операцій, підтримується прив'язка параметрів.
+Змінює колекції, які відповідають певним умовам пошуку. Дозволено кілька операцій, підтримується прив'язка параметрів.
 
 ### Список параметрів
 
 `search_condition`
-Параметр повинен бути допустимим виразом SQL, що використовується для
-відповідності документам, які потрібно змінити. Цей вираз може
-бути простим значенням **`true`**, що відповідає всім документам,
-або може використовувати функції та оператори, такі як
-''CAST(_id AS SIGNED)>= 10'', ''age MOD 2 = 0 OR age MOD 3 = 0'' або
-`'_id IN ["2","5","7","10"]'`.
+
+Параметр повинен бути допустимим виразом SQL, який використовується для відповідності документам, які потрібно змінити. Цей вираз може бути простим значенням **`true`**, що відповідає всім документам, або може використовувати функції та оператори, такі як `'CAST(_id AS SIGNED) >= 10'` `'age MOD 2 = 0 OR age MOD 3 = 0'` або `'_id IN ["2","5","7","10"]'`
 
 ### Значення, що повертаються
 
-Якщо операцію не виконано, функція поверне об'єкт Modify, який можна
-використовуватиме додавання додаткових операцій MODIFY.
+Якщо операцію не здійснено, функція поверне об'єкт Modify, який можна використовувати для додавання додаткових операцій MODIFY.
 
-Якщо операція MODIFY виконана, то об'єкт, що повертається, міститиме
-результат операції.
+Якщо операція MODIFY виконана, то об'єкт, що повертається, міститиме результат операції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::modify()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::modify()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$collection->ad ": "Альфред", "age": 18, "job": "Дворецький"}')->execute();$collection->add('{"name": "Боб",    "age": 19, "job": "Художник"}')->execute();// Додавання двох робіт для всіх художників: артист і майстер$collection ->modify("job in ('Дворецький', '>> arrayAppend('job', 'Артист')  ->arrayAppend('job', 'Майстер') ->execute();// Видалення поля 'beer' з всіх документів з віком 2$ 21') ->unset(['beer']) ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+$collection->add('{"name": "Альфред", "age": 18, "job": "Дворецкий"}')->execute();
+$collection->add('{"name": "Боб",    "age": 19, "job": "Художник"}')->execute();
+
+// Добавление двух работ для всех художников: артист и мастер
+$collection
+  ->modify("job in ('Дворецкий', 'Художник')")
+  ->arrayAppend('job', 'Артист')
+  ->arrayAppend('job', 'Мастер')
+  ->execute();
+
+// Удаление поля 'beer' из всех документов с возрастом 21
+$collection
+  ->modify('age < 21')
+  ->unset(['beer'])
+  ->execute();
+?>
+```

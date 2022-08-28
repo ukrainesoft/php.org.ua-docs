@@ -1,22 +1,26 @@
-- [« ocisetprefetch](function.ocisetprefetch.md)
-- [ociwritelobtofile »](function.ociwritelobtofile.md)
+Псевдонім ocistatementtype
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_statement_type
+-   [« ocisetprefetch](function.ocisetprefetch.html)
+    
+-   [ociwritelobtofile »](function.ociwritelobtofile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ocistatementtype
+    
 
 # ocistatementtype
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocistatementtype - Псевдонім
-[oci_statement_type()](function.oci-statement-type.md)
+ocistatementtype - Псевдонім [oci\_statement\_type()](function.oci-statement-type.html)
 
 ### Опис
 
-Псевдонім [oci_statement_type()](function.oci-statement-type.md)
+Псевдонім [oci\_statement\_type()](function.oci-statement-type.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

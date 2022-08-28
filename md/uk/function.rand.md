@@ -1,9 +1,15 @@
-- [«rad2deg](function.rad2deg.md)
-- [round »](function.round.md)
+Генерує випадкове число
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Генерує випадкове число
+-   [« rad2deg](function.rad2deg.html)
+    
+-   [round »](function.round.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Генерує випадкове число
+    
 
 # rand
 
@@ -13,92 +19,77 @@ rand - Генерує випадкове число
 
 ### Опис
 
-**rand**(): int
+```methodsynopsis
+rand(): int
+```
 
-**rand**(int `$min`, int `$max`): int
+```methodsynopsis
+rand(int $min, int $max): int
+```
 
-При виклику без параметрів `min` та `max`, повертає псевдовипадкове
-ціле в діапазоні від 0 до [getrandmax()](function.getrandmax.md).
-Наприклад, якщо вам потрібне випадкове число між 5 і 15 (включно),
-викличте `rand(5, 15)`.
+При дзвінку без параметрів `min` і `max`, повертає псевдовипадкове ціле в діапазоні від 0 до [getrandmax()](function.getrandmax.html). Наприклад, якщо вам потрібне випадкове число між 5 і 15 (включно), викличте `rand(5, 15)`
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення та не
-повинна використовуватись у криптографічних цілях. Якщо вам потрібно
-криптографічно безпечне значення, подумайте про використання функцій
-[random_int()](function.random-int.md),
-[random_bytes()](function.random-bytes.md) або
-[openssl_random_pseudo_bytes()](function.openssl-random-pseudo-bytes.md)
-замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [random\_int()](function.random-int.html) [random\_bytes()](function.random-bytes.html) або [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
 
-> **Примітка**: На деяких платформах (наприклад, Windows)
-> [getrandmax()](function.getrandmax.md) всього лише 32767. Щоб
-> розширити діапазон, використовуйте параметри `min` та `max`, або
-> Зверніться до функції [mt_rand()](function.mt-rand.md).
+> **Зауваження**: На деяких платформах (таких як Windows) [getrandmax()](function.getrandmax.html) лише 32767. Щоб розширити діапазон, використовуйте параметри `min` і `max`, або зверніться до функції [mt\_rand()](function.mt-rand.html)
 
-> **Примітка**: Починаючи з PHP 7.1.0, **rand()** використовує той же
-> алгоритм отримання випадкових чисел, що й
-> [mt_rand()](function.mt-rand.md). Для збереження зворотної
-> сумісності, функція **rand()** дозволяє задавати параметр `max`
-> менше, ніж параметр `min`. Функція [mt_rand()](function.mt-rand.md)
-> у такій ситуації повертатиме **`false`**
+> **Зауваження**: Починаючи з PHP 7.1.0, **rand()** використовує той же алгоритм отримання випадкових чисел, що й [mt\_rand()](function.mt-rand.html). Для збереження зворотної сумісності, функція **rand()** дозволяє задавати параметр `max` менше, ніж параметр `min`. Функція [mt\_rand()](function.mt-rand.html) у такій ситуації повертатиме **`false`**
 
 ### Список параметрів
 
 `min`
+
 Найменше значення, яке можна повернути (за замовчуванням: 0)
 
 `max`
-Найбільше значення, яке можна повернути (за замовчуванням:
-[getrandmax()](function.getrandmax.md))
+
+Найбільше значення, яке можна повернути (за замовчуванням: [getrandmax()](function.getrandmax.html)
 
 ### Значення, що повертаються
 
-Псевдовипадкове значення в діапазоні від `min` (або 0) до `max` (або
-[getrandmax()](function.getrandmax.md)).
+Псевдовипадкове значення в діапазоні від `min` (або 0) до `max` (або [getrandmax()](function.getrandmax.html)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                                         |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7.2.0  | Для **rand()** [виправлення бага](migration72.incompatible.md#migration72.incompatible.rand-mt_rand-output) зміщення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
-| 7.1.0  | [**rand()** стала синонімом функції [mt_rand()](function.mt-rand.md).](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases)                                                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | Для **rand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
+|  | [**rand()** стала синонимом функции](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) [mt\_rand()](function.mt-rand.html) |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **rand()****
 
-`<?phpecho rand() . "
-";echo rand() . "
-";echo rand(5, 15);?> `
+```php
+<?php
+echo rand() . "\n";
+echo rand() . "\n";
+
+echo rand(5, 15);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 7771
 22264
 11
+```
 
 ### Примітки
 
 **Увага**
 
-Діапазон `min` - `max` не повинен виходити за межі
-[getrandmax()](function.getrandmax.md). Тобто (`max` - `min`) \<=
-[getrandmax()](function.getrandmax.md). В іншому випадку, **rand()**
-може повертати менш якісні випадкові числа.
+Діапазон `min` `max` не повинен виходити за кордон [getrandmax()](function.getrandmax.html). Тобто (`max` `min`) <= [getrandmax()](function.getrandmax.html). В іншому випадку, **rand()** може повертати менш якісні випадкові числа.
 
 ### Дивіться також
 
-- [srand()](function.srand.md) - Змінює початкове число генератора
-псевдовипадкових чисел
-- [getrandmax()](function.getrandmax.md) - Повертає максимально
-можливе випадкове число
-- [mt_rand()](function.mt-rand.md) - Генерує випадкове значення
-методом за допомогою генератора простих чисел на базі Вихря Мерсенна
-- [random_int()](function.random-int.md) - Генерує
-криптографічно безпечні псевдовипадкові цілі числа
-- [random_bytes()](function.random-bytes.md) - Генерує
-криптографічно безпечні псевдовипадкові байти
-- [openssl_random_pseudo_bytes()](function.openssl-random-pseudo-bytes.md) -
-Генерує псевдовипадкову послідовність байт
+-   [srand()](function.srand.html) - Змінює початкове число генератора псевдовипадкових чисел
+-   [getrandmax()](function.getrandmax.html) - Повертає максимально можливе випадкове число
+-   [mt\_rand()](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+-   [random\_int()](function.random-int.html) - Генерує криптографічно безпечні псевдовипадкові цілі числа
+-   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [openssl\_random\_pseudo\_bytes()](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт

@@ -1,56 +1,65 @@
-- [«pcntl_signal](function.pcntl-signal.md)
-- [pcntl_sigtimedwait »](function.pcntl-sigtimedwait.md)
+Задає та витягує список сигналів, що блокуються.
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Задає та витягує список сигналів, що блокуються.
+-   [« pcntl\_signal](function.pcntl-signal.html)
+    
+-   [pcntl\_sigtimedwait »](function.pcntl-sigtimedwait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Задає та витягує список сигналів, що блокуються.
+    
 
-#pcntl_sigprocmask
+# pcntlsigprocmask
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-pcntl_sigprocmask — Задає та витягує список сигналів, що блокуються.
+pcntlsigprocmask — Задає та витягує список сигналів, що блокуються.
 
 ### Опис
 
-**pcntl_sigprocmask**(int `$mode`, array `$signals`, array
-`&$old_signals` = **`null`**): bool
+```methodsynopsis
+pcntl_sigprocmask(int $mode, array $signals, array &$old_signals = null): bool
+```
 
-Функція **pcntl_sigprocmask()** додає, видаляє або задає список
-блокованих процесів в залежності від значення переданого в
-аргумент "mode".
+Функція **pcntlsigprocmask()** додає, видаляє або задає список заблокованих процесів залежно від значення переданого в аргументі `mode`
 
 ### Список параметрів
 
 `mode`
-Задає поведінку функції **pcntl_sigprocmask()**. Можливі значення:
 
-- **`SIG_BLOCK`**: Додати сигнал до списку вже блокованих сигналів.
-- **`SIG_UNBLOCK`**: Видалити сигнал зі списку блокованих.
-- **`SIG_SETMASK`**: Замінити список сигналів, що блокуються, новим
-списком.
+Задає поведінку функції **pcntlsigprocmask()**. Можливі значення:
+
+-   **`SIG_BLOCK`**: Додати сигнал до списку сигналів, що вже блокуються.
+-   **`SIG_UNBLOCK`**: Видалити сигнал зі списку заблокованих.
+-   **`SIG_SETMASK`**: Замінити список сигналів, що блокуються, новим списком.
 
 `signals`
+
 Список сигналів
 
 `old_signals`
-Функція передасть за посиланням у аргумент `old_signals` раніше заданий
-список сигналів, що блокуються.
+
+Функція передасть за посиланням аргумент `old_signals` раніше заданий список сигналів, що блокуються.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pcntl_sigprocmask()****
+**Приклад #1 Приклад використання **pcntlsigprocmask()****
 
-` <?phppcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));$oldset = array();pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);?> `
+```php
+<?php
+pcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));
+$oldset = array();
+pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);
+?>
+```
 
 ### Дивіться також
 
-- [pcntl_sigwaitinfo()](function.pcntl-sigwaitinfo.md) - Очікування
-сигналів
-- [pcntl_sigtimedwait()](function.pcntl-sigtimedwait.md) - Очікує
-сигнали протягом заданого часу
+-   [pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
+-   [pcntl\_sigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу

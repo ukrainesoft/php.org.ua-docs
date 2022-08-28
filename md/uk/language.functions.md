@@ -1,19 +1,25 @@
-- [«goto](control-structures.goto.md)
-- [Функції, що визначаються користувачем »](functions.user-defined.md)
+Функції
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- Функції
+-   [« goto](control-structures.goto.html)
+    
+-   [Функции, определяемые пользователем »](functions.user-defined.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Функції
+    
 
 # Функції
 
 ## Зміст
 
-- [Функції, що визначаються користувачем](functions.user-defined.md)
-- [Аргументи функції](functions.arguments.md)
-- [Повернення значень](functions.returning-values.md)
-- [Звернення до функцій через змінні](functions.variable-functions.md)
-- [Вбудовані функції](functions.internal.md)
-- [Анонімні функції](functions.anonymous.md)
-- [Стрілкові функції](functions.arrow.md)
-- [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)
+-   [Функции, определяемые пользователем](functions.user-defined.html)
+-   [Аргументы функции](functions.arguments.html)
+-   [Возврат значений](functions.returning-values.html)
+-   [Обращение к функциям через переменные](functions.variable-functions.html)
+-   [Встроенные функции](functions.internal.html)
+-   [Анонимные функции](functions.anonymous.html)
+-   [Стрелочные функции](functions.arrow.html)
+-   [Callback-функции как объекты первого класса](functions.first_class_callable_syntax.html)

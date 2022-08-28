@@ -1,29 +1,32 @@
-- [« xmlrpc_parse_method_descriptions](function.xmlrpc-parse-method-descriptions.md)
-- [xmlrpc_server_call_method »](function.xmlrpc-server-call-method.md)
+Додає документацію самоаналізу
 
-- [PHP Manual](index.md)
-- [Функції XML-RPC](ref.xmlrpc.md)
-- Додає документацію самоаналізу
+-   [« xmlrpc\_parse\_method\_descriptions](function.xmlrpc-parse-method-descriptions.html)
+    
+-   [xmlrpc\_server\_call\_method »](function.xmlrpc-server-call-method.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции XML-RPC](ref.xmlrpc.html)
+    
+-   Додає документацію самоаналізу
+    
 
-#xmlrpc_server_add_introspection_data
+# xmlrpcserveraddintrospectiondata
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
+(PHP 4> = 4.1.0, PHP 5, PHP 7)
 
-xmlrpc_server_add_introspection_data — Додає документацію
-самоаналізу
+xmlrpcserveraddintrospectiondata — Додає документацію самоаналізу
 
 ### Опис
 
-**xmlrpc_server_add_introspection_data**(resource `$server`, array
-`$desc`): int
+```methodsynopsis
+xmlrpc_server_add_introspection_data(resource $server, array $desc): int
+```
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

@@ -1,40 +1,63 @@
-- [« Vtiful\Kernel\Excel::insertFormula](vtiful-kernel-excel.insertFormula.md)
-- [Vtiful\Kernel\Excel::insertText »](vtiful-kernel-excel.insertText.md)
+Вставити зображення
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- Вставити зображення
+-   [« Vtiful\\Kernel\\Excel::insertFormula](vtiful-kernel-excel.insertFormula.html)
+    
+-   [Vtiful\\Kernel\\Excel::insertText »](vtiful-kernel-excel.insertText.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
+-   Вставити зображення
+    
 
-# Vtiful\Kernel\Excel::insertImage
+# VtifulKernelExcel::insertImage
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::insertImage — Вставити зображення
+VtifulKernelExcel::insertImage — Вставити зображення
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::insertImage**(int `$row`, int `$column`,
-string `$localImagePath`)
+```methodsynopsis
+public Vtiful\Kernel\Excel::insertImage(int $row, int $column, string $localImagePath)
+```
 
-Вставте локальне зображення в комірку.
+Вставте локальне зображення у комірку.
 
 ### Список параметрів
 
 `row`
+
 рядок осередку
 
 `column`
+
 стовпець осередку
 
 `localImagePath`
+
 шлях до локального зображення
 
 ### Значення, що повертаються
 
-Примірник [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$excel = new \Vtiful\Kernel\Excel($config);$file = $excel->fileName("free.xlsx") ;$file->insertImage(5, 0, '/vagrant/ASW-G-66.jpg');$file->output(); `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$excel = new \Vtiful\Kernel\Excel($config);
+
+$file = $excel->fileName("free.xlsx");
+
+$file->insertImage(5, 0, '/vagrant/ASW-G-66.jpg');
+
+$file->output();
+```

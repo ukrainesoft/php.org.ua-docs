@@ -1,40 +1,52 @@
-- [« CommonMark\Interfaces\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md)
-- [CommonMark\Parser::\_\_construct »](commonmark-parser.construct.md)
+Клас CommonMarkParser
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
-- Клас CommonMark\Parser
+-   [« CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.html)
+    
+-   [CommonMark\\Parser::\_\_construct »](commonmark-parser.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark](book.cmark.html)
+    
+-   Клас CommonMarkParser
+    
 
-# Клас CommonMark\Parser
+# Клас CommonMarkParser
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
 ## Вступ
 
-Надає інкрементний синтаксичний аналізатор як
-альтернативи простої функції API синтаксичного аналізу
+Надає інкрементний синтаксичний аналізатор як альтернативу простої функції API синтаксичного аналізу
 
 ## Огляд класів
 
-final class **CommonMark\Parser** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](commonmark-parser.construct.md)(int `$options`
-=?)
 
-/\* Методи \*/
+    
+     
+      final
+      class CommonMark\Parser
+     
+     {
 
-public [parse](commonmark-parser.parse.md)(string `$buffer`): void
 
-public [finish](commonmark-parser.finish.md)():
-[CommonMark\Node](class.commonmark-node.md)
+    /* Конструктор */
+    
+   public __construct(int $options = ?)
 
-}
+
+    /* Методы */
+    public parse(string $buffer): void
+public finish(): CommonMark\Node
+
+   }
+```
 
 ## Зміст
 
-- [CommonMark\Parser::\_\_construct](commonmark-parser.construct.md)
-- Розбір
-- [CommonMark\Parser::parse](commonmark-parser.parse.md) - Розбір
-- [CommonMark\Parser::finish](commonmark-parser.finish.md) - Розбір
+-   [CommonMark\\Parser::\_\_construct](commonmark-parser.construct.html) - Розбір
+-   [CommonMark\\Parser::parse](commonmark-parser.parse.html) - Розбір
+-   [CommonMark\\Parser::finish](commonmark-parser.finish.html) - Розбір

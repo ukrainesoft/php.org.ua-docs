@@ -1,9 +1,15 @@
-- [« Imagick::getRegistry](imagick.getregistry.md)
-- [Imagick::getResource »](imagick.getresource.md)
+Повертає дату релізу ImageMagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає дату релізу ImageMagick
+-   [« Imagick::getRegistry](imagick.getregistry.html)
+    
+-   [Imagick::getResource »](imagick.getresource.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає дату релізу ImageMagick
+    
 
 # Imagick::getReleaseDate
 
@@ -13,7 +19,9 @@ Imagick::getReleaseDate — Повертає дату випуску ImageMagick
 
 ### Опис
 
-public static **Imagick::getReleaseDate**(): string
+```methodsynopsis
+public static Imagick::getReleaseDate(): string
+```
 
 Повертає дату релізу ImageMagick у вигляді рядка.
 

@@ -1,24 +1,29 @@
-- [« MongoDB\Driver\Server::getTags](mongodb-driver-server.gettags.md)
-- [MongoDB\Driver\Server::isArbiter »](mongodb-driver-server.isarbiter.md)
+Повертає ціле число, що означає тип цього сервера
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Повертає ціле число, яке позначає тип сервера
+-   [« MongoDB\\Driver\\Server::getTags](mongodb-driver-server.gettags.html)
+    
+-   [MongoDB\\Driver\\Server::isArbiter »](mongodb-driver-server.isarbiter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+    
+-   Повертає ціле число, що означає тип цього сервера
+    
 
-# MongoDB\Driver\Server::getType
+# MongoDBDriverServer::getType
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\Server::getType - Повертає ціле число, що позначає
-тип цього сервера
+MongoDBDriverServer::getType — Повертає ціле число, яке означає тип цього сервера
 
 ### Опис
 
-final public **MongoDB\Driver\Server::getType**(): int
+```methodsynopsis
+final public MongoDB\Driver\Server::getType(): int
+```
 
-Повертає int, що означає тип сервера. Значення буде
-відповідати константі
-[MongoDB\Driver\Server](class.mongodb-driver-server.md).
+Повертає int, що означає тип цього сервера. Значення буде відповідати константі [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
 
 ### Список параметрів
 
@@ -26,16 +31,13 @@ final public **MongoDB\Driver\Server::getType**(): int
 
 ### Значення, що повертаються
 
-Повертає int, що означає тип сервера.
+Повертає int, що означає тип цього сервера.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
-- [MongoDB\Driver\ServerDescription::getType()](mongodb-driver-serverdescription.gettype.md) -
-Повертає рядок, що позначає тип сервера
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\ServerDescription::getType()](mongodb-driver-serverdescription.gettype.html) - Повертає рядок, що позначає тип сервера

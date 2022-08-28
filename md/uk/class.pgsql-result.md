@@ -1,21 +1,39 @@
-- [«PgSql\Connection](class.pgsql-connection.md)
-- [PgSql\Lob »](class.pgsql-lob.md)
+Клас PgSqlResult
 
-- [PHP Manual](index.md)
-- [PostgreSQL](book.pgsql.md)
-- Клас PgSql\Result
+-   [« PgSql\\Connection](class.pgsql-connection.html)
+    
+-   [PgSql\\Lob »](class.pgsql-lob.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PostgreSQL](book.pgsql.html)
+    
+-   Клас PgSqlResult
+    
 
-# Клас PgSql\Result
+# Клас PgSqlResult
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `pgsql result` у PHP
-8.1.0.
+Повністю непрозорий клас, який замінює ресурс `pgsql result` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **PgSql\Result** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class PgSql\Result
+     
+     {
+    
+
+   }
+```

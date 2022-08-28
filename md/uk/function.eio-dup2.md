@@ -1,68 +1,68 @@
-- [«eio_custom](function.eio-custom.md)
-- [eio_event_loop »](function.eio-event-loop.md)
+Створює дублікат дескриптора файлу
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Створює дублікат дескриптора файлу
+-   [« eio\_custom](function.eio-custom.html)
+    
+-   [eio\_event\_loop »](function.eio-event-loop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Створює дублікат дескриптора файлу
+    
 
-# eio_dup2
+# eiodup2
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_dup2 — Створює дублікат дескриптора файлу
+eiodup2 — Створює дублікат дескриптора файлу
 
 ### Опис
 
-**eio_dup2**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd2`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_dup2()** створює дублікат дескриптора файлу.
+**eiodup2()** Створює дублікат дескриптора файлу.
 
 ### Список параметрів
 
 `fd`
-Вихідний потік, покажчик на сокет (Socket resource), або нумерований
-дескриптор файлу
+
+Вихідний потік, покажчик на сокет (Socket resource) або нумерований дескриптор файлу
 
 `fd2`
-Цільовий потік, покажчик на сокет (Socket resource), або нумерований
-дескриптор файлу
+
+Цільовий потік, покажчик на сокет (Socket resource) або нумерований дескриптор файлу
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-**eio_dup2()** повертає вказівник на запит у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eiodup2()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.

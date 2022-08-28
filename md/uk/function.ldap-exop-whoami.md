@@ -1,40 +1,46 @@
-- [« ldap_exop_refresh](function.ldap-exop-refresh.md)
-- [ldap_exop »](function.ldap-exop.md)
+Обертка для розширеної операції WHOAMI
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Обертка для розширеної операції WHOAMI
+-   [« ldap\_exop\_refresh](function.ldap-exop-refresh.html)
+    
+-   [ldap\_exop »](function.ldap-exop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Обертка для розширеної операції WHOAMI
+    
 
-#ldap_exop_whoami
+# ldapexopwhoami
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-ldap_exop_whoami — Обертка для розширеної операції WHOAMI
+ldapexopwhoami — Обертка для розширеної операції WHOAMI
 
 ### Опис
 
-**ldap_exop_whoami**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`): string\|false
+```methodsynopsis
+ldap_exop_whoami(LDAP\Connection $ldap): string|false
+```
 
 Виконує розширену операцію WHOAMI та повертає дані.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
-Дані, повернені сервером, або ** false **.
+Дані, повернуті сервером, або **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [ldap_exop()](function.ldap-exop.md) - Виконати розширену
-операцію
+-   [ldap\_exop()](function.ldap-exop.html) - Виконує розширену операцію

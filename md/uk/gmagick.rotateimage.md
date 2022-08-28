@@ -1,37 +1,43 @@
-- [«Gmagick::rollimage](gmagick.rollimage.md)
-- [Gmagick::scaleimage »](gmagick.scaleimage.md)
+Повертає зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає зображення
+-   [« Gmagick::rollimage](gmagick.rollimage.html)
+    
+-   [Gmagick::scaleimage »](gmagick.scaleimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає зображення
+    
 
 # Gmagick::rotateimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::rotateimage — Повертає зображення
 
 ### Опис
 
-public
-**Gmagick::rotateimage**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$color`, float `$degrees`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::rotateimage(mixed $color, float $degrees): Gmagick
+```
 
-Повертає зображення на вказану кількість градусів. Порожні
-трикутники, що залишилися від повороту зображення, заповнюються кольором
-фону.
+Повертає зображення на вказану кількість градусів. Порожні трикутники, що залишилися від повороту зображення, заповнюються кольором тла.
 
 ### Список параметрів
 
-`col`
+`color`
+
 Піксель фону.
 
 `degrees`
+
 Число градусів для повороту зображення.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

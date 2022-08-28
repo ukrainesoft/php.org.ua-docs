@@ -1,28 +1,38 @@
-- [«Константи posix_access](posix.constants.access.md)
-- [Константи posix_setrlimit »](posix.constants.setrlimit.md)
+Константи posixmknod
 
-- [PHP Manual](index.md)
-- [Предвизначені константи](posix.constants.md)
-- Константи posix_mknod
+-   [« Константы posix\_access](posix.constants.access.html)
+    
+-   [Константы posix\_setrlimit »](posix.constants.setrlimit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые константы](posix.constants.html)
+    
+-   Константи posixmknod
+    
 
-## Константи [posix_mknod()](function.posix-mknod.md)
+## Константи [posix\_mknod()](function.posix-mknod.html)
 
-> **Примітка**:
->
-> Будь ласка, зверніть увагу, що деякі з цих констант можуть
-> бути недоступними у вашій операційній системі.
+> **Зауваження**
+> 
+> Будь ласка, зверніть увагу, що деякі з цих констант можуть бути недоступні у вашій операційній системі.
 
 **`POSIX_S_IFBLK`** (int)
-Спеціальний блоковий файл
+
+Блоковий спеціальний файл
 
 **`POSIX_S_IFCHR`** (int)
+
 Символьний спеціальний файл
 
 **`POSIX_S_IFIFO`** (int)
+
 FIFO (іменований канал) спеціальний файл
 
 **`POSIX_S_IFREG`** (int)
+
 Звичайний файл
 
 **`POSIX_S_IFSOCK`** (int)
+
 Сокет

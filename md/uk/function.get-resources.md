@@ -1,85 +1,96 @@
-- [«get_required_files](function.get-required-files.md)
-- [getenv »](function.getenv.md)
+Повертає активні ресурси
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Повертає активні ресурси
+-   [« get\_required\_files](function.get-required-files.html)
+    
+-   [getenv »](function.getenv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Повертає активні ресурси
+    
 
-#get_resources
+# getresources
 
 (PHP 7, PHP 8)
 
-get_resources — Повертає активні ресурси
+getresources — Повертає активні ресурси
 
 ### Опис
 
-**get_resources**(?string `$type` = **`null`**): array
+```methodsynopsis
+get_resources(?string $type = null): array
+```
 
-Повертає масив усіх поточних активних ресурсів (resource), опціонально
-відфільтрований за типом ресурсу.
+Повертає масив усіх поточних активних ресурсів, опціонально відфільтрований за типом ресурсу.
 
-> **Примітка**: Функція призначена для налагодження та тестування.
-> Функцію не слід використовувати у робочому оточенні, особливо для
-> доступу або навіть управління ресурсами, які зазвичай недоступні
-> (наприклад, базовий ресурс потоку екземплярів
-> [SplFileObject](class.splfileobject.md)).
+> **Зауваження**: Функція призначена для налагодження та тестування. Функцію не слід використовувати в робочому оточенні, особливо для доступу або навіть управління ресурсами, які зазвичай недоступні (наприклад, базовий ресурс потоку екземплярів [SplFileObject](class.splfileobject.html)
 
 ### Список параметрів
 
 `type`
-Якщо поставлено, то **get_resources()** поверне лише ресурси вказаного
-типу. [Список доступних типів ресурсів.](resource.md)
 
-Якщо в якості типу заданий рядок `Unknown`, то буде повернено тільки
-ресурси невідомого типу
+Якщо поставлено, то **getresources()** поверне лише ресурси зазначеного типу . [Список доступных типов ресурсов.](resource.html)
+
+Якщо як тип заданий рядок `Unknown`, то будуть повернуті лише ресурси невідомого типу.
 
 Якщо не задано, то буде повернено всі ресурси.
 
 ### Значення, що повертаються
 
-Повертає масив поточних активних ресурсів, проіндексованих за
-номер ресурсу.
+Повертає масив поточних активних ресурсів, проіндексованих за номером ресурсу.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                |
-| ------ | ----------------------------------- |
-| 8.0.0  | type тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `type` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_resources()****
+**Приклад #1 Приклад використання **getresources()****
 
-` <?php$fp = tmpfile();var_dump(get_resources());?> `
+```php
+<?php
+$fp = tmpfile();
+var_dump(get_resources());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-[1]=>
-resource(1) of type (stream)
+  [1]=>
+  resource(1) of type (stream)
 }
+```
 
-**Приклад #2 Приклад використання **get_resources()** з фільтрацією**
+**Приклад #2 Приклад використання **getresources()** з фільтрацією**
 
-` <?php$fp = tmpfile();var_dump(get_resources('stream'));var_dump(get_resources('curl'));?> `
+```php
+<?php
+$fp = tmpfile();
+var_dump(get_resources('stream'));
+var_dump(get_resources('curl'));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-[1]=>
-resource(1) of type (stream)
+  [1]=>
+  resource(1) of type (stream)
 }
 array(0) {
 }
+```
 
 ### Дивіться також
 
-- [get_loaded_extensions()](function.get-loaded-extensions.md) -
-Повертає масив імен усіх скомпілованих та завантажених модулів
-- [get_defined_constants()](function.get-defined-constants.md) -
-Повертає асоціативний масив з іменами всіх констант та їх
-значень
-- [get_defined_functions()](function.get-defined-functions.md) -
-Повертає масив усіх певних функцій
-- [get_defined_vars()](function.get-defined-vars.md) - Повертає
-масив усіх певних змінних
+-   [get\_loaded\_extensions()](function.get-loaded-extensions.html) - Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [get\_defined\_constants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [get\_defined\_functions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
+-   [get\_defined\_vars()](function.get-defined-vars.html) - Повертає масив усіх певних змінних

@@ -1,19 +1,27 @@
-- [« SplHeap::compare](splheap.compare.md)
-- [SplHeap::current »](splheap.current.md)
+Визначає кількість елементів у купі
 
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Визначає кількість елементів у купі
+-   [« SplHeap::compare](splheap.compare.html)
+    
+-   [SplHeap::current »](splheap.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplHeap](class.splheap.html)
+    
+-   Визначає кількість елементів у купі
+    
 
 # SplHeap::count
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::count — Визначає кількість елементів у купі
 
 ### Опис
 
-public **SplHeap::count**(): int
+```methodsynopsis
+public SplHeap::count(): int
+```
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« Imagick::randomThresholdImage](imagick.randomthresholdimage.md)
-- [Imagick::readImageBlob »](imagick.readimageblob.md)
+Читає зображення з файлу
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Читає зображення із файлу
+-   [« Imagick::randomThresholdImage](imagick.randomthresholdimage.html)
+    
+-   [Imagick::readImageBlob »](imagick.readimageblob.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Читає зображення з файлу
+    
 
 # Imagick::readImage
 
@@ -13,7 +19,9 @@ Imagick::readImage — Читає зображення з файлу
 
 ### Опис
 
-public **Imagick::readImage**(string `$filename`): bool
+```methodsynopsis
+public Imagick::readImage(string $filename): bool
+```
 
 Читає зображення із файлу.
 
@@ -23,4 +31,4 @@ public **Imagick::readImage**(string `$filename`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

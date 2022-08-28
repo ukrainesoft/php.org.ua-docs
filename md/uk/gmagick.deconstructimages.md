@@ -1,24 +1,29 @@
-- [« Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.md)
-- [Gmagick::despeckleimage »](gmagick.despeckleimage.md)
+Повертає певні піксельні різницю між зображеннями
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає певні піксельні відмінності між зображеннями
+-   [« Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.html)
+    
+-   [Gmagick::despeckleimage »](gmagick.despeckleimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає певні піксельні різницю між зображеннями
+    
 
 # Gmagick::deconstructimages
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::deconstructimages — Повертає певні піксельні відмінності
-між зображеннями
+Gmagick::deconstructimages — Повертає певні піксельні відмінності між зображеннями
 
 ### Опис
 
-public **Gmagick::deconstructimages**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::deconstructimages(): Gmagick
+```
 
-Порівнює кожне зображення з наступним у послідовності та
-повертає максимальну обмежуючу область будь-яких виявлених
-відмінностей пікселів.
+Порівнює кожне зображення з наступним у послідовності і повертає максимальну область, що обмежує будь-яких виявлених відмінностей пікселів.
 
 ### Список параметрів
 
@@ -26,8 +31,7 @@ public **Gmagick::deconstructimages**(): [Gmagick](class.gmagick.md)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [Gmagick](class.gmagick.md) у разі успішного
-виконання.
+Повертає новий об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

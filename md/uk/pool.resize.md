@@ -1,25 +1,34 @@
-- [« Pool::\_\_construct](pool.construct.md)
-- [Pool::shutdown »](pool.shutdown.md)
+Змінює розмір пулу
 
-- [PHP Manual](index.md)
-- [Pool](class.pool.md)
-- Змінює розмір пулу
+-   [« Pool::\_\_construct](pool.construct.html)
+    
+-   [Pool::shutdown »](pool.shutdown.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Pool](class.pool.html)
+    
+-   Змінює розмір пулу
+    
 
 # Pool::resize
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Pool::resize — Змінює розмір пулу
 
 ### Опис
 
-public **Pool::resize**(int `$size`): void
+```methodsynopsis
+public Pool::resize(int $size): void
+```
 
 Змінює розмір пулу
 
 ### Список параметрів
 
 `size`
+
 Максимальна кількість воркерів, яка може створити цей пул
 
 ### Значення, що повертаються

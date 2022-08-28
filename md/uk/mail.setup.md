@@ -1,15 +1,21 @@
-- [«Вступ](intro.mail.md)
-- [Вимоги »](mail.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Mail](book.mail.md)
+-   [« Введение](intro.mail.html)
+    
+-   [Требования »](mail.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mail](book.mail.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](mail.requirements.md)
-- [Установка](mail.installation.md)
-- [Налаштування під час виконання](mail.configuration.md)
-- [Типи ресурсів](mail.resources.md)
+-   [Требования](mail.requirements.html)
+-   [Установка](mail.installation.html)
+-   [Настройка во время выполнения](mail.configuration.html)
+-   [Типы ресурсов](mail.resources.html)

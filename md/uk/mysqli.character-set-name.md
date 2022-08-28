@@ -1,65 +1,94 @@
-- [« mysqli::change_user](mysqli.change-user.md)
-- [mysqli::close »](mysqli.close.md)
+Повертає поточне кодування, встановлене для з'єднання з БД
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає поточне кодування, встановлене для з'єднання з БД
+-   [« mysqli::change\_user](mysqli.change-user.html)
+    
+-   [mysqli::close »](mysqli.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Повертає поточне кодування, встановлене для з'єднання з БД
+    
 
-# mysqli::character_set_name
+# mysqli::charactersetname
 
-# mysqli_character_set_name
+# mysqlicharactersetname
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::character_set_name -- mysqli_character_set_name -- Повертає
-поточне кодування, встановлене для з'єднання з БД
+mysqli::charactersetname -- mysqlicharactersetname — Повертає поточне кодування, встановлене для підключення до БД.
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::character_set_name**(): string
+```methodsynopsis
+public mysqli::character_set_name(): string
+```
 
 Процедурний стиль
 
-**mysqli_character_set_name**([mysqli](class.mysqli.md) `$mysql`):
-string
+```methodsynopsis
+mysqli_character_set_name(mysqli $mysql): string
+```
 
 Повертає поточне кодування, встановлене для з'єднання з БД.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Поточне кодування, встановлене для підключення
+Поточне кодування, встановлене для з'єднання
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::character_set_name()****
+**Приклад #1 Приклад використання **mysqli::charactersetname()****
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Установка );/* Висновок поточного кодування */$charset = $mysqli->character_set_name();printf("Поточне кодування - %s
-", $charset);?> `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* Установка кодировки по умолчанию */
+$mysqli->set_charset('utf8mb4');
+
+/* Вывод текущей кодировки */
+$charset = $mysqli->character_set_name();
+printf("Текущая кодировка - %s\n", $charset);
+?>
+```
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");/* Установка кодування| /* Висновок поточного кодування */$charset = mysqli_character_set_name($mysqli);printf("Поточне кодування - %s
-", $charset); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* Установка кодировки по умолчанию */
+mysqli_set_charset($mysqli, 'utf8mb4');
+
+/* Вывод текущей кодировки */
+$charset = mysqli_character_set_name($mysqli);
+printf("Текущая кодировка - %s\n", $charset);
+```
 
 Результат виконання даних прикладів:
 
-Поточне кодування - utf8mb4
+```
+Текущая кодировка - utf8mb4
+```
 
 ### Дивіться також
 
-- [mysqli_set_charset()](mysqli.set-charset.md) - Задає набір
-символів
-- [mysqli_real_escape_string()](mysqli.real-escape-string.md) -
-Екранує спеціальні символи в рядку для використання в
-SQL-вираз, використовуючи поточний набір символів з'єднання
+-   [mysqli\_set\_charset()](mysqli.set-charset.html) - Встановлює набір символів
+-   [mysqli\_real\_escape\_string()](mysqli.real-escape-string.html) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання

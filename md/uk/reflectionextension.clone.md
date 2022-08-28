@@ -1,22 +1,29 @@
-- [« ReflectionExtension](class.reflectionextension.md)
-- [ReflectionExtension::\_\_construct »](reflectionextension.construct.md)
+Клонує об'єкт
 
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- клонує об'єкт
+-   [« ReflectionExtension](class.reflectionextension.html)
+    
+-   [ReflectionExtension::\_\_construct »](reflectionextension.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionExtension](class.reflectionextension.html)
+    
+-   Клонує об'єкт
+    
 
-# ReflectionExtension::\_\_clone
+# ReflectionExtension::clone
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionExtension::\_\_clone — Клонує об'єкт
+ReflectionExtension::clone — Клонує об'єкт
 
 ### Опис
 
-private **ReflectionExtension::\_\_clone**(): void
+```methodsynopsis
+private ReflectionExtension::__clone(): void
+```
 
-Метод clone запобігає клонуванню об'єкта. Об'єкти reflection не
-можуть бути клоновані.
+Метод clone запобігає клонуванню об'єкта. Об'єкти reflection не можуть бути клоновані.
 
 ### Список параметрів
 
@@ -26,14 +33,13 @@ private **ReflectionExtension::\_\_clone**(): void
 
 Метод нічого не повертає, у разі виклику виникає рокова помилка.
 
-### Список змін
+### список змін
 
-| Версія | Опис                           |
-| ------ | ------------------------------ |
-| 8.1.0  | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 
-- [ReflectionExtension::\_\_construct()](reflectionextension.construct.md) -
-Створює об'єкт класу ReflectionExtension
-- [Клонування об'єктів](language.oop5.cloning.md)
+-   [ReflectionExtension::\_\_construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
+-   [Клонирование объектов](language.oop5.cloning.html)

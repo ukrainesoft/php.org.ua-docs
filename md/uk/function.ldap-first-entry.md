@@ -1,56 +1,54 @@
-- [« ldap_first_attribute](function.ldap-first-attribute.md)
-- [ldap_first_reference »](function.ldap-first-reference.md)
+Повернути перший ідентифікатор результату
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Повернути перший ідентифікатор результату
+-   [« ldap\_first\_attribute](function.ldap-first-attribute.html)
+    
+-   [ldap\_first\_reference »](function.ldap-first-reference.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Повернути перший ідентифікатор результату
+    
 
-#ldap_first_entry
+# ldapfirstentry
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_first_entry — Повернути перший ідентифікатор результату
+ldapfirstentry — Повернути перший ідентифікатор результату
 
 ### Опис
 
-**ldap_first_entry**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, [LDAP\Result](class.ldap-result.md) `$result`):
-LDAP\ResultEntry\|false
+```methodsynopsis
+ldap_first_entry(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEntry|false
+```
 
-Повертає ідентифікатор для першого запису в результаті. Цей
-ідентифікатор потім використовується у функції
-[ldap_next_entry()](function.ldap-next-entry.md), для
-послідовного отримання записів із результату.
+Повертає ідентифікатор першого запису в результаті. Цей ідентифікатор потім використовується у функції [ldap\_next\_entry()](function.ldap-next-entry.html)для послідовного отримання записів з результату.
 
-Записи в LDAP результаті зчитуються послідовно використовуючи функції
-**ldap_first_entry()** та
-[ldap_next_entry()](function.ldap-next-entry.md).
+Записи в LDAP результаті зчитуються послідовно використовуючи функції **ldapfirstentry()** і [ldap\_next\_entry()](function.ldap-next-entry.html)
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `result`
-Примірник [LDAP\Result](class.ldap-result.md), що повертається
-[ldap_list()](function.ldap-list.md) або
-[ldap_search()](function.ldap-search.md).
+
+Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md)
-або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
-| 8.1.0  | Повертає екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md); раніше повертався ресурс ([resource](language.types.resource.md)).                   |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [ldap_get_entries()](function.ldap-get-entries.md) - Отримує все
-запису результату
+-   [ldap\_get\_entries()](function.ldap-get-entries.html) - Отримує всі записи результату

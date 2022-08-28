@@ -1,49 +1,70 @@
-- [« Stomp::unsubscribe](stomp.unsubscribe.md)
-- [StompFrame::\_\_construct »](stompframe.construct.md)
+Клас StompFrame
 
-- [PHP Manual](index.md)
-- [Stomp](book.stomp.md)
-- Клас StompFrame
+-   [« Stomp::unsubscribe](stomp.unsubscribe.html)
+    
+-   [StompFrame::\_\_construct »](stompframe.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Stomp](book.stomp.html)
+    
+-   Клас StompFrame
+    
 
 # Клас StompFrame
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
 ## Вступ
 
-Представляє повідомлення, яке було надіслано або отримано від
-Stomp-сумісного брокера повідомлень (Message Broker).
+Показує повідомлення, яке було надіслано або отримано від Stomp-сумісного брокера повідомлень (Message Broker).
 
 ## Огляд класів
 
-class **StompFrame** {
+```synopsis
 
-/\* Властивості \*/
 
-public `$command`;
 
-public `$headers`;
+    
+     
+      class StompFrame
+     
+     {
 
-public `$body`;
+    /* Свойства */
+    
+     public
+      $command;
 
-/\* Методи \*/
+    public
+      $headers;
 
-[\_\_construct](stompframe.construct.md)(string `$command` = ?, array
-`$headers` = ?, string `$body` = ?)
+    public
+      $body;
 
-}
+
+
+    /* Методы */
+    
+   __construct(string $command = ?, array $headers = ?, string $body = ?)
+
+   }
+```
 
 ## Властивості
 
-`command`
+command
+
 Команда кадру.
 
-`headers`
+headers
+
 Заголовки кадру (array).
 
-`body`
+body
+
 Тіло кадру.
 
 ## Зміст
 
-- [StompFrame::\_\_construct](stompframe.construct.md) - Конструктор
+-   [StompFrame::\_\_construct](stompframe.construct.html) - Конструктор

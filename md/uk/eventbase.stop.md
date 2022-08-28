@@ -1,21 +1,30 @@
-- [«EventBase::reInit](eventbase.reinit.md)
-- [EventBuffer »](class.eventbuffer.md)
+Повідомляє eventbase припинити відправку подій
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Повідомляє event_base припинити надсилання подій
+-   [« EventBase::reInit](eventbase.reinit.html)
+    
+-   [EventBuffer »](class.eventbuffer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Повідомляє eventbase припинити відправку подій
+    
 
 # EventBase::stop
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBase::stop — Повідомляє event_base припинити надсилання подій
+EventBase::stop — Повідомляє eventbase припинити відправку подій
 
 ### Опис
 
-public **EventBase::stop**(): bool
+```methodsynopsis
+public
+   EventBase::stop(): bool
+```
 
-Повідомляє event_base припинити надсилання подій
+Повідомляє eventbase припинити відправку подій
 
 ### Список параметрів
 
@@ -23,12 +32,9 @@ public **EventBase::stop**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBase::exit()](eventbase.exit.md) - Припиняє надсилання
-подій
-- [EventBase::gotStop()](eventbase.gotstop.md) - Перевіряє, чи був він
-цикл обробки подій завершено
+-   [EventBase::exit()](eventbase.exit.html) - Припиняє відправлення подій
+-   [EventBase::gotStop()](eventbase.gotstop.html) - Перевіряє, чи був цикл обробки подій завершений

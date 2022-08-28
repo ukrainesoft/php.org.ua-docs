@@ -1,9 +1,15 @@
-- [« RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md)
-- [RowResult::getColumns »](mysql-xdevapi-rowresult.getcolumns.md)
+Отримує всі імена стовпців
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)
-- Отримує всі імена стовпців
+-   [« RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.html)
+    
+-   [RowResult::getColumns »](mysql-xdevapi-rowresult.getcolumns.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+    
+-   Отримує всі імена стовпців
+    
 
 # RowResult::getColumnNames
 
@@ -13,14 +19,15 @@ RowResult::getColumnNames — Отримує всі імена стовпців
 
 ### Опис
 
-public **mysql_xdevapi\RowResult::getColumnNames**(): array
+```methodsynopsis
+public mysql_xdevapi\RowResult::getColumnNames(): array
+```
 
 Отримує імена стовпців, які є у наборі результатів.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,20 +35,34 @@ public **mysql_xdevapi\RowResult::getColumnNames**(): array
 
 ### Значення, що повертаються
 
-Числовий масив імен стовпців таблиці або порожній масив, якщо набір
-результатів порожній.
+Числовий масив імен шпальт таблиці або порожній масив, якщо набір результатів порожній.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\RowResult::getColumnNames()****
+**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getColumnNames()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE addressbook")->execute();$session->sql("CREATE DATABASE foo")->execute();$session->sql("CREATE TABLE foo.test_table(x int)")->execute();$session->sql("INSERT INTO addressbook.names values ('John ', 42), ('Sam', 33)")->execute();$sql = $session->sql("SELECT * from addressbook.names")->execute();$colnames = $sql- >getColumnNames();print_r($colnames); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE addressbook")->execute();
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+
+$sql = $session->sql("SELECT * from addressbook.names")->execute();
+
+$colnames = $sql->getColumnNames();
+
+print_r($colnames);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => name
-[1] => age
+    [0] => name
+    [1] => age
 )
+```

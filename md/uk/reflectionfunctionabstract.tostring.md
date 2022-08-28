@@ -1,26 +1,33 @@
-- [« ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)
-- [ReflectionMethod »](class.reflectionmethod.md)
+Перетворення на рядок
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Перетворення на рядок
+-   [« ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.html)
+    
+-   [ReflectionMethod »](class.reflectionmethod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Перетворення на рядок
+    
 
-# ReflectionFunctionAbstract::\_\_toString
+# ReflectionFunctionAbstract::toString
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::\_\_toString — Перетворення на рядок
+ReflectionFunctionAbstract::toString — Перетворення на рядок
 
 ### Опис
 
-abstract public **ReflectionFunctionAbstract::\_\_toString**(): void
+```methodsynopsis
+abstract public ReflectionFunctionAbstract::__toString(): void
+```
 
 Подання у вигляді рядка.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,5 +39,5 @@ abstract public **ReflectionFunctionAbstract::\_\_toString**(): void
 
 ### Дивіться також
 
-- **ReflectionClass::clone()**
-- [\_\_toString()](language.oop5.magic.md#object.tostring)
+-   **ReflectionClass::clone()**
+-   [\_\_toString()](language.oop5.magic.html#object.tostring)

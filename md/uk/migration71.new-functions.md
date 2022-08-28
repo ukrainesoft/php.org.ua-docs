@@ -1,44 +1,49 @@
-- [« Нові можливості](migration71.new-features.md)
-- [Нові глобальні константи »](migration71.constants.md)
+Нові функції
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.0.x на PHP 7.1.x](migration71.md)
-- Нові функції
+-   [« Новые возможности](migration71.new-features.html)
+    
+-   [Новые глобальные константы »](migration71.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 7.0.x на PHP 7.1.x](migration71.html)
+    
+-   Нові функції
+    
 
 ## Нові функції
 
 ### Ядро PHP
 
-- [sapi_windows_cp_get()](function.sapi-windows-cp-get.md)
-- [sapi_windows_cp_set()](function.sapi-windows-cp-set.md)
-- [sapi_windows_cp_conv()](function.sapi-windows-cp-conv.md)
-- [sapi_windows_cp_is_utf8()](function.sapi-windows-cp-is-utf8.md)
+-   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.html)
+-   [sapi\_windows\_cp\_set()](function.sapi-windows-cp-set.html)
+-   [sapi\_windows\_cp\_conv()](function.sapi-windows-cp-conv.html)
+-   [sapi\_windows\_cp\_is\_utf8()](function.sapi-windows-cp-is-utf8.html)
 
-### [Замикання](class.closure.md)
+### [Замыкания](class.closure.html)
 
-- [Closure::fromCallable()](closure.fromcallable.md)
+-   [Closure::fromCallable()](closure.fromcallable.html)
 
-### [CURL](book.curl.md)
+### [CURL](book.curl.html)
 
-- [curl_multi_errno()](function.curl-multi-errno.md)
-- [curl_share_errno()](function.curl-share-errno.md)
-- [curl_share_strerror()](function.curl-share-strerror.md)
+-   [curl\_multi\_errno()](function.curl-multi-errno.html)
+-   [curl\_share\_errno()](function.curl-share-errno.html)
+-   [curl\_share\_strerror()](function.curl-share-strerror.html)
 
-### [OpenSSL](book.openssl.md)
+### [OpenSSL](book.openssl.html)
 
-- [openssl_get_curve_names()](function.openssl-get-curve-names.md)
+-   [openssl\_get\_curve\_names()](function.openssl-get-curve-names.html)
 
-### [Сесії](book.session.md)
+### [Сессии](book.session.html)
 
-- [session_create_id()](function.session-create-id.md)
-- [session_gc()](function.session-gc.md)
+-   [session\_create\_id()](function.session-create-id.html)
+-   [session\_gc()](function.session-gc.html)
 
-### [SPL](book.spl.md)
+### [SPL](book.spl.html)
 
-- [is_iterable()](function.is-iterable.md)
+-   [is\_iterable()](function.is-iterable.html)
 
-### [PCNTL](book.pcntl.md)
+### [PCNTL](book.pcntl.html)
 
-- [pcntl_async_signals()](function.pcntl-async-signals.md)
--
-[pcntl_signal_get_handler()](function.pcntl-signal-get-handler.md)
+-   [pcntl\_async\_signals()](function.pcntl-async-signals.html)
+-   [pcntl\_signal\_get\_handler()](function.pcntl-signal-get-handler.html)

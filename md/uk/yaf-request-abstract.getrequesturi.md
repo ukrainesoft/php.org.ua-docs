@@ -1,24 +1,31 @@
-- [« Yaf_Request_Abstract::getParams](yaf-request-abstract.getparams.md)
-- [Yaf_Request_Abstract::getServer »](yaf-request-abstract.getserver.md)
+Призначення getRequestUri
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Призначення getRequestUri
+-   [« Yaf\_Request\_Abstract::getParams](yaf-request-abstract.getparams.html)
+    
+-   [Yaf\_Request\_Abstract::getServer »](yaf-request-abstract.getserver.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Призначення getRequestUri
+    
 
-# Yaf_Request_Abstract::getRequestUri
+# YafRequestAbstract::getRequestUri
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::getRequestUri — Призначення getRequestUri
+YafRequestAbstract::getRequestUri — Призначення getRequestUri
 
 ### Опис
 
-public **Yaf_Request_Abstract::getRequestUri**(): void
+```methodsynopsis
+public Yaf_Request_Abstract::getRequestUri(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

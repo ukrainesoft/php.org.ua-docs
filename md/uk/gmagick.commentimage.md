@@ -1,31 +1,39 @@
-- [« Gmagick::clear](gmagick.clear.md)
-- [Gmagick::compositeimage »](gmagick.compositeimage.md)
+Додати коментар до зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додати коментар до зображення
+-   [« Gmagick::clear](gmagick.clear.html)
+    
+-   [Gmagick::compositeimage »](gmagick.compositeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Додати коментар до зображення
+    
 
 # Gmagick::commentimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::commentimage — Додати коментар до зображення
 
 ### Опис
 
-public **Gmagick::commentimage**(string `$comment`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::commentimage(string $comment): Gmagick
+```
 
 Додає коментар до зображення.
 
 ### Список параметрів
 
 `comment`
+
 Коментар.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md), що вийшов.
+Об'єкт, що вийшов [Gmagick](class.gmagick.html)
 
 ### Помилки
 

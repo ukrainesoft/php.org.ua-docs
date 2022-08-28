@@ -1,20 +1,27 @@
-- [« Swoole\Server::pause](swoole-server.pause.md)
-- [Swoole\Server::reload »](swoole-server.reload.md)
+Встановлює з'єднання у захищений режим
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Встановлює з'єднання у захищений режим
+-   [« Swoole\\Server::pause](swoole-server.pause.html)
+    
+-   [Swoole\\Server::reload »](swoole-server.reload.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Встановлює з'єднання у захищений режим
+    
 
-# Swoole\Server::protect
+# SwooleServer::protect
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::protect — Встановлює з'єднання у захищений режим
+SwooleServer::protect — Встановлює з'єднання у захищений режим
 
 ### Опис
 
-public **Swoole\Server::protect**(int `$fd`, bool `$is_protected` = ?):
-void
+```methodsynopsis
+public Swoole\Server::protect(int $fd, bool $is_protected = ?): void
+```
 
 ### Список параметрів
 

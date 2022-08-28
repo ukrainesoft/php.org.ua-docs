@@ -1,11 +1,16 @@
-- [« Налаштування під час виконання](ps.configuration.md)
-- [Предвизначені константи »](ps.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ps.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](ps.configuration.html)
+    
+-   [Предопределённые константы »](ps.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ps.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-У модулі визначено ресурс PostScript document, що повертається функцією
-[ps_new()](function.ps-new.md).
+У модулі визначено ресурс PostScript document, який повертається функцією [ps\_new()](function.ps-new.html)

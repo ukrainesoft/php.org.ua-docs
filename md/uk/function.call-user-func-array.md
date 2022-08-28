@@ -1,94 +1,160 @@
-- [« Функції керування функціями](ref.funchand.md)
-- [call_user_func »](function.call-user-func.md)
+Викликає callback-функцію з масивом параметрів
 
-- [PHP Manual](index.md)
-- [Функції керування функціями](ref.funchand.md)
-- Викликає callback-функцію з масивом параметрів
+-   [« Функции управления функциями](ref.funchand.html)
+    
+-   [call\_user\_func »](function.call-user-func.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции управления функциями](ref.funchand.html)
+    
+-   Викликає callback-функцію з масивом параметрів
+    
 
-#call_user_func_array
+# calluserfuncarray
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-call_user_func_array — Викликає callback-функцію з масивом параметрів
+calluserfuncarray - Викликає callback-функцію з масивом параметрів
 
 ### Опис
 
-**call_user_func_array**([callable](language.types.callable.md)
-`$callback`, array `$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+call_user_func_array(callable $callback, array $args): mixed
+```
 
-Викликає callback-функцію `callback`, з параметрами з масиву `args`.
+Викликає callback-функцію `callback`, з параметрами з масиву `args`
 
 ### Список параметрів
 
 `callback`
-Функція типу [callable](language.types.callable.md).
+
+Функція типу, що викликається [callable](language.types.callable.html)
 
 `args`
+
 Параметри, що передаються в функцію, у вигляді індексованого масиву.
 
 ### Значення, що повертаються
 
-Повертає результат функції або **`false`** у разі виникнення
-помилки.
+Повертає результат функції або **`false`** у разі виникнення помилки.
+
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Ключі параметра `args` тепер інтерпретуються як імена параметрів, а чи не ігноруються. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **call_user_func_array()****
+**Приклад #1 Приклад використання функції **calluserfuncarray()****
 
-` <?phpfunction foobar($arg, $arg2) {   echo __FUNCTION__, " got $arg and $arg2
-";}class foo {    function bar($arg, $arg2) {       echo __METHOD__, " got $arg and $arg2
-";    }}// Викликаємо функцію foobar() з 2 аргументамиcall_user_func_array("foobar", array("one", "two")); ;call_user_func_array(array($foo, "bar"), array("three", "four"));?> `
+```php
+<?php
+function foobar($arg, $arg2) {
+    echo __FUNCTION__, " got $arg and $arg2\n";
+}
+class foo {
+    function bar($arg, $arg2) {
+        echo __METHOD__, " got $arg and $arg2\n";
+    }
+}
+
+
+// Вызываем функцию foobar() с 2 аргументами
+call_user_func_array("foobar", array("one", "two"));
+
+// Вызываем метод $foo->bar() с 2 аргументами
+$foo = new foo;
+call_user_func_array(array($foo, "bar"), array("three", "four"));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 foobar got one and two
 foo::bar got three and four
+```
 
-**Приклад #2 Приклад використання **call_user_func_array()** з ім'ям
-простору імен**
+**Приклад #2 Приклад використання **calluserfuncarray()** з ім'ям простору імен**
 
-` <?phpnamespace Foobar;class Foo {    static public function test($name) {         print "Hello {$name}!
-";    }}call_user_func_array(__NAMESPACE__ .'\Foo::test', array('Hannes'));call_user_func_array(array(__NAMESPACE__ .'\Foo', 'test'), array('>) `
+```php
+<?php
+
+namespace Foobar;
+
+class Foo {
+    static public function test($name) {
+        print "Hello {$name}!\n";
+    }
+}
+
+call_user_func_array(__NAMESPACE__ .'\Foo::test', array('Hannes'));
+
+call_user_func_array(array(__NAMESPACE__ .'\Foo', 'test'), array('Philip'));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Hello Hannes!
 Hello Philip!
+```
 
 **Приклад #3 Використання лямбда-функції**
 
-` <?php$func = function($arg1, $arg2) {    return $arg1 * $arg2;};var_dump(call_user_func_array($func, array(2, 4))));?> `
+```php
+<?php
+
+$func = function($arg1, $arg2) {
+    return $arg1 * $arg2;
+};
+
+var_dump(call_user_func_array($func, array(2, 4)));
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(8)
+```
 
 **Приклад #4 Передача значень за посиланням**
 
-` <?phpfunction mega(&$a){    $a = 55; echo "function mega \$a=$a
-";}$bar = 77;call_user_func_array('mega',array(&$bar));echo "global \$bar=$bar
-";?> `
+```php
+<?php
+
+function mega(&$a){
+    $a = 55;
+    echo "function mega \$a=$a\n";
+}
+$bar = 77;
+call_user_func_array('mega',array(&$bar));
+echo "global \$bar=$bar\n";
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 function mega $a=55
 global $bar=55
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Callback-функції, зареєстровані такими функціями як
-> [call_user_func()](function.call-user-func.md) та
-> **call_user_func_array()**, не будуть викликані за наявності не спійманого
-> винятки, кинутого попередньої callback-функции.
+> **Зауваження**
+> 
+> Callback-функції, зареєстровані такими функціями як [call\_user\_func()](function.call-user-func.html) і **calluserfuncarray()**, не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
 
 ### Дивіться також
 
-- [call_user_func()](function.call-user-func.md) - Викликає
-callback-функцію, задану у першому параметрі
-- [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.md) -
-Виклик функції з надсиланням аргументів
-- [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) -
-Виклик методу з передачею аргументів масивом
+-   [call\_user\_func()](function.call-user-func.html) - Викликає callback-функцію, задану у першому параметрі
+-   [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.html) - Виклик функції із передачею аргументів
+-   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.html) - виклик методу з передачею аргументів масивом

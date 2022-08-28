@@ -1,25 +1,31 @@
-- [« UConverter::getErrorCode](uconverter.geterrorcode.md)
-- [UConverter::getSourceEncoding »](uconverter.getsourceencoding.md)
+Отримати останнє повідомлення про помилку в об'єкті
 
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати останнє повідомлення про помилку в об'єкті
+-   [« UConverter::getErrorCode](uconverter.geterrorcode.html)
+    
+-   [UConverter::getSourceEncoding »](uconverter.getsourceencoding.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UConverter](class.uconverter.html)
+    
+-   Отримати останнє повідомлення про помилку в об'єкті
+    
 
 # UConverter::getErrorMessage
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-UConverter::getErrorMessage — Отримати останнє повідомлення про помилку в
-об'єкті
+UConverter::getErrorMessage — Отримати останнє повідомлення про помилку в об'єкті
 
 ### Опис
 
-public **UConverter::getErrorMessage**(): ?string
+```methodsynopsis
+public UConverter::getErrorMessage(): ?string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

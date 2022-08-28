@@ -1,9 +1,15 @@
-- [«quoted_printable_encode](function.quoted-printable-encode.md)
-- [rtrim »](function.rtrim.md)
+Екранує спеціальні символи
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Екранує спеціальні символи
+-   [« quoted\_printable\_encode](function.quoted-printable-encode.html)
+    
+-   [rtrim »](function.rtrim.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Екранує спеціальні символи
+    
 
 # quotemeta
 
@@ -13,55 +19,54 @@ quotemeta - Екранує спеціальні символи
 
 ### Опис
 
-**quotemeta**(string `$string`): string
+```methodsynopsis
+quotemeta(string $string): string
+```
 
-Повертає модифікований рядок, в якому перед кожним символом
-наступного списку:
+Повертає модифікований рядок, у якому перед кожним символом із наступного списку:
 
-. \+\*? [^]($)
+. .
 
-вставлений зворотний сліш (`\`).
+вставлений зворотний сліш (`\`
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 ### Значення, що повертаються
 
-Повертає екранований рядок або **`false`**, якщо як
-параметра `string` було вказано порожній рядок.
+Повертає екранований рядок або **`false`**, якщо як параметр `string` було вказано порожній рядок.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **quotemeta()****
 
-` <?phpvar_dump(quotemeta('PHP is a popular scripting language. Fast, flexible, and pragmatic.'));?> `
+```php
+<?php
+
+var_dump(quotemeta('PHP is a popular scripting language. Fast, flexible, and pragmatic.'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(69) "PHP is a popular scripting language\. Fast, flexible, and pragmatic\."
+```
 
 ### Примітки
 
-> **Примітка**: Ця функція безпечна для обробки даних у двійковій
-> Формі.
+> **Зауваження**: Ця функція безпечна для обробки даних у двійковій формі.
 
 ### Дивіться також
 
-- [addslashes()](function.addslashes.md) - Екранує рядок з
-допомогою слішів
-- [addcslashes()](function.addcslashes.md) - Екранує рядок
-слішами в стилі мови C
-- [htmlentities()](function.mdentities.md) - Перетворює всі
-можливі символи у відповідні HTML-сутності
-- [htmlspecialchars()](function.mdspecialchars.md) - Перетворює
-спеціальні символи в HTML-сутності
-- [nl2br()](function.nl2br.md) - Вставляє HTML-код розриву рядка
-перед кожним перекладом рядка
-- [stripslashes()](function.stripslashes.md) - Видаляє екранування
-символів
-- [stripcslashes()](function.stripcslashes.md) - Видаляє
-екранування символів, зроблене функцією addcslashes
-- [preg_quote()](function.preg-quote.md) - Екранує символи в
-регулярних виразах
+-   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
+-   [addcslashes()](function.addcslashes.html) - Екранує рядок слішами у стилі мови C
+-   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
+-   [nl2br()](function.nl2br.html) - Вставляє HTML код розриву рядка перед кожним перекладом рядка
+-   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
+-   [stripcslashes()](function.stripcslashes.html) - Видаляє екранування символів, зроблене функцією addcslashes
+-   [preg\_quote()](function.preg-quote.html) - Екранує символи у регулярних виразах

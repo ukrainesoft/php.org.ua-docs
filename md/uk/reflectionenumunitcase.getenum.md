@@ -1,21 +1,27 @@
-- [« ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md)
-- [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.md)
+Отримує Reflection-об'єкт перерахування цього варіанта
 
-- [PHP Manual](index.md)
-- [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
-- Отримує Reflection-об'єкт перерахування цього варіанта
+-   [« ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.html)
+    
+-   [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
+    
+-   Отримує Reflection-об'єкт перерахування цього варіанта
+    
 
 # ReflectionEnumUnitCase::getEnum
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionEnumUnitCase::getEnum — Отримує Reflection-об'єкт
-перерахування цього варіанта
+ReflectionEnumUnitCase::getEnum — Отримує Reflection-об'єкт перерахування цього варіанта
 
 ### Опис
 
-public **ReflectionEnumUnitCase::getEnum**():
-[ReflectionEnum](class.reflectionenum.md)
+```methodsynopsis
+public ReflectionEnumUnitCase::getEnum(): ReflectionEnum
+```
 
 Отримує Reflection-об'єкт перерахування цього варіанта.
 
@@ -25,9 +31,8 @@ public **ReflectionEnumUnitCase::getEnum**():
 
 ### Значення, що повертаються
 
-Примірник [ReflectionEnum](class.reflectionenum.md), що описує
-перерахування, якому належить цей випадок.
+Екземпляр [ReflectionEnum](class.reflectionenum.html), Який описує перерахування, якому належить цей варіант.
 
 ### Дивіться також
 
-- [Перерахування](language.enumerations.md)
+-   [Перечисления](language.enumerations.html)

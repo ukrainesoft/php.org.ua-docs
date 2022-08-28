@@ -1,19 +1,27 @@
-- [« SoapFault::\_\_construct](soapfault.construct.md)
-- [SoapHeader »](class.soapheader.md)
+Отримати текстове уявлення SoapFault
 
-- [PHP Manual](index.md)
-- [SoapFault](class.soapfault.md)
-- Отримати текстове уявлення SoapFault
+-   [« SoapFault::\_\_construct](soapfault.construct.html)
+    
+-   [SoapHeader »](class.soapheader.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SoapFault](class.soapfault.html)
+    
+-   Отримати текстове уявлення SoapFault
+    
 
-# SoapFault::\_\_toString
+# SoapFault::toString
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapFault::\_\_toString — Отримати текстове уявлення SoapFault
+SoapFault::toString — Отримати текстове уявлення SoapFault
 
 ### Опис
 
-public **SoapFault::\_\_toString**(): string
+```methodsynopsis
+public SoapFault::__toString(): string
+```
 
 Повертає текстове уявлення SoapFault.
 

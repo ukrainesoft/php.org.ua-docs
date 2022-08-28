@@ -1,13 +1,19 @@
-- [« Установка](xmldiff.installation.md)
-- [XMLDiff\Base::\_\_construct »](xmldiff-base.construct.md)
+Клас XMLDiffBase
 
-- [PHP Manual](index.md)
-- [XMLDiff](book.xmldiff.md)
-- Клас XMLDiff\Base
+-   [« Установка](xmldiff.installation.html)
+    
+-   [XMLDiff\\Base::\_\_construct »](xmldiff-base.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLDiff](book.xmldiff.html)
+    
+-   Клас XMLDiffBase
+    
 
-# Клас XMLDiff\Base
+# Клас XMLDiffBase
 
-(PECL xmldiff \>= 0.8.0)
+(PECL xmldiff >= 0.8.0)
 
 ## Вступ
 
@@ -15,33 +21,29 @@
 
 ## Огляд класів
 
-class **XMLDiff\Base** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](xmldiff-base.construct.md)(string `$nsname`)
+    
+    
+     
+      class XMLDiff\Base
+     
+     {
+    
 
-abstract public
-[diff](xmldiff-base.diff.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$to`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public __construct(string $nsname)
 
-abstract public
-[merge](xmldiff-base.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$src`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$diff`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    abstract public diff(mixed $from, mixed $to): mixed
+abstract public merge(mixed $src, mixed $diff): mixed
 
-}
+   }
+```
 
 ## Зміст
 
-- [XMLDiff\Base::\_\_construct](xmldiff-base.construct.md) -
-Конструктор
-- [XMLDiff\Base::diff](xmldiff-base.diff.md) — Порівняє
-двох документів XML
-- [XMLDiff\Base::merge](xmldiff-base.merge.md) — Створює новий
-документ XML, ґрунтуючись на інформації про його відмінність від іншого
+-   [XMLDiff\\Base::\_\_construct](xmldiff-base.construct.html) - Конструктор
+-   [XMLDiff\\Base::diff](xmldiff-base.diff.html) — Здійснює порівняння двох документів XML
+-   [XMLDiff\\Base::merge](xmldiff-base.merge.html) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого

@@ -1,19 +1,27 @@
-- [« Gmagick::getimagegreenprimary](gmagick.getimagegreenprimary.md)
-- [Gmagick::getimagehistogram »](gmagick.getimagehistogram.md)
+Повертає висоту зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає висоту зображення
+-   [« Gmagick::getimagegreenprimary](gmagick.getimagegreenprimary.html)
+    
+-   [Gmagick::getimagehistogram »](gmagick.getimagehistogram.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає висоту зображення
+    
 
 # Gmagick::getimageheight
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageheight — Повертає висоту зображення
 
 ### Опис
 
-public **Gmagick::getimageheight**(): int
+```methodsynopsis
+public Gmagick::getimageheight(): int
+```
 
 Повертає висоту зображення.
 

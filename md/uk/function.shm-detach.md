@@ -1,48 +1,48 @@
-- [«shm_attach](function.shm-attach.md)
-- [shm_get_var »](function.shm-get-var.md)
+Відключається від сегмента пам'яті, що розділяється
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Вимикається від сегмента пам'яті, що розділяється
+-   [« shm\_attach](function.shm-attach.html)
+    
+-   [shm\_get\_var »](function.shm-get-var.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Відключається від сегмента пам'яті, що розділяється
+    
 
-#shm_detach
+# shmdetach
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-shm_detach — Вимикається від сегмента пам'яті, що розділяється
+shmdetach — Вимикається від сегмента пам'яті, що розділяється.
 
 ### Опис
 
-**shm_detach**([SysvSharedMemory](class.sysvsharedmemory.md) `$shm`):
-bool
+```methodsynopsis
+shm_detach(SysvSharedMemory $shm): bool
+```
 
-**shm_detach()** відключається від сегмента пам'яті, що розділяється, вказаного
-в `shm`, створеного [shm_attach()](function.shm-attach.md). Пам'ятайте,
-що розділена пам'ять все ще існує в системі Unix і дані все
-ще присутні.
+**shmdetach()** відключається від сегмента пам'яті, зазначеного в `shm`, створеного [shm\_attach()](function.shm-attach.html). Пам'ятайте, що пам'ять, що розділяється, все ще існує в системі Unix і дані все ще присутні.
 
 ### Список параметрів
 
 `shm`
-Сегмент пам'яті, що розділяється, отриманий з
-[shm_attach()](function.shm-attach.md).
+
+Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | shm чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` чекає на екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [shm_attach()](function.shm-attach.md) - Створює або відкриває
-сегмент розділеної пам'яті
-- [shm_remove()](function.shm-remove.md) - Видаляє розділену
-пам'ять із систем Unix
-- [shm_remove_var()](function.shm-remove-var.md) - Видаляє
-змінну з пам'яті, що розділяється
+-   [shm\_attach()](function.shm-attach.html) - Створює або відкриває сегмент пам'яті, що розділяється
+-   [shm\_remove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix
+-   [shm\_remove\_var()](function.shm-remove-var.html) - Видаляє змінну з пам'яті, що розділяється.

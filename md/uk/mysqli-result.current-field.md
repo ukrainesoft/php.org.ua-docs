@@ -1,44 +1,43 @@
-- [« mysqli_result::\_\_construct](mysqli-result.construct.md)
-- [mysqli_result::data_seek »](mysqli-result.data-seek.md)
+Отримує зміщення вказівника по відношенню до поточного поля
 
-- [PHP Manual](index.md)
-- [mysqli_result](class.mysqli-result.md)
-- Отримує зміщення вказівника по відношенню до поточного поля
+-   [« mysqli\_result::\_\_construct](mysqli-result.construct.html)
+    
+-   [mysqli\_result::data\_seek »](mysqli-result.data-seek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_result](class.mysqli-result.html)
+    
+-   Отримує зміщення вказівника по відношенню до поточного поля
+    
 
-# mysqli_result::$current_field
+# mysqliresult::$currentfield
 
-# mysqli_field_tell
+# mysqlifieldtell
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_result::$current_field -- mysqli_field_tell — Отримує зсув
-вказівника по відношенню до поточного поля
+mysqliresult::$currentfield - mysqlifieldtell — Отримує зміщення вказівника по відношенню до поточного поля
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli_result->current_field`;
+int [$mysqli\_result->current\_field](mysqli-result.current-field.html)
 
 Процедурний стиль
 
-**mysqli_field_tell**([mysqli_result](class.mysqli-result.md)
-`$result`): int
+```methodsynopsis
+mysqli_field_tell(mysqli_result $result): int
+```
 
-Повертає позицію покажчика поля, що використовується під час останнього виклику
-[mysqli_fetch_field()](mysqli-result.fetch-field.md). Це значення
-може бути використано як аргумент для
-[mysqli_field_seek()](mysqli-result.field-seek.md).
+Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqli\_fetch\_field()](mysqli-result.fetch-field.html). Це значення може бути використане як аргумент для [mysqli\_field\_seek()](mysqli-result.field-seek.html)
 
 ### Список параметрів
 
 `result`
-Тільки для процедурного стилю: об'єкт
-[mysqli_result](class.mysqli-result.md), отриманий за допомогою
-[mysqli_query()](mysqli.query.md),
-[mysqli_store_result()](mysqli.store-result.md),
-[mysqli_use_result()](mysqli.use-result.md) або
-[mysqli_stmt_get_result()](mysqli-stmt.get-result.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.html), отриманий за допомогою [mysqli\_query()](mysqli.query.html) [mysqli\_store\_result()](mysqli.store-result.html) [mysqli\_use\_result()](mysqli.use-result.html) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html)
 
 ### Значення, що повертаються
 
@@ -48,47 +47,97 @@ int `$mysqli_result->current_field`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) {                    я
-", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = $mysqli-       поле для всех столбцов */    while ($finfo = $result->fetch_field()) {        /* Получить смещение указателя поля */        $currentfield = $result->current_field;        printf("Столбец %d:
-", $currentfield);        printf("Ім'я:    %%s
-", $finfo->name);         printf("Таблиця:    %s
-", $finfo->table);         printf("Макс. довжина: %d
-", $finfo->max_length);         printf("Прапори:    %d
-", $finfo->flags);         printf("Тип:     %d
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-", $finfo->type);    }    $result->close();}/* Закрити з'єднання*/$mysqli->close();?> `
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Ошибка соединения: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
+
+if ($result = $mysqli->query($query)) {
+
+    /* Получить информацию о поле для всех столбцов */
+    while ($finfo = $result->fetch_field()) {
+
+        /* Получить смещение указателя поля */
+        $currentfield = $result->current_field;
+
+        printf("Столбец %d:\n", $currentfield);
+        printf("Имя:     %s\n", $finfo->name);
+        printf("Таблица:    %s\n", $finfo->table);
+        printf("Макс. длина: %d\n", $finfo->max_length);
+        printf("Флаги:    %d\n", $finfo->flags);
+        printf("Тип:     %d\n\n", $finfo->type);
+    }
+    $result->close();
+}
+
+/* Закрыть соединение */
+$mysqli->close();
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Помилка|
-", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = mysqli_    для всех столбцов */    while ($finfo = mysqli_fetch_field($result)) {        /* Получить смещение указателя поля */        $currentfield = mysqli_field_tell($result);        printf("Столбец %d:
-", $currentfield);        printf("Ім'я:    %%s
-", $finfo->name);         printf("Таблиця:    %s
-", $finfo->table);         printf("Макс. довжина: %d
-", $finfo->max_length);         printf("Прапори:    %d
-", $finfo->flags);         printf("Тип:     %d
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-", $finfo->type);    }     mysqli_free_result($result);}/* Закрити з'єднання*/mysqli_close($link);?> `
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Ошибка соединения: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
+
+if ($result = mysqli_query($link, $query)) {
+
+    /* Получить информацию о поле для всех столбцов */
+    while ($finfo = mysqli_fetch_field($result)) {
+
+        /* Получить смещение указателя поля */
+        $currentfield = mysqli_field_tell($result);
+
+        printf("Столбец %d:\n", $currentfield);
+        printf("Имя:     %s\n", $finfo->name);
+        printf("Таблица:    %s\n", $finfo->table);
+        printf("Макс. длина: %d\n", $finfo->max_length);
+        printf("Флаги:    %d\n", $finfo->flags);
+        printf("Тип:     %d\n\n", $finfo->type);
+    }
+    mysqli_free_result($result);
+}
+
+/* Закрыть соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Стовпець 1:
-Ім'я: Name
-Таблиця: Country
-Макс. довжина: 11
-Прапори: 1
-Тип: 254
+```
+Столбец 1:
+Имя:     Name
+Таблица:    Country
+Макс. длина: 11
+Флаги:    1
+Тип:     254
 
-Стовпець 2:
-Ім'я: SurfaceArea
-Таблиця: Country
-Макс. довжина: 10
-Прапори: 32769
-Тип: 4
+Столбец 2:
+Имя:     SurfaceArea
+Таблица:    Country
+Макс. длина: 10
+Флаги:    32769
+Тип:     4
+```
 
 ### Дивіться також
 
-- [mysqli_fetch_field()](mysqli-result.fetch-field.md) - Повертає
-наступне поле результуючого набору
-- [mysqli_field_seek()](mysqli-result.field-seek.md) - Встановити
-вказівник поля на певне усунення
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.html) - Повертає наступне поле результуючого набору
+-   [mysqli\_field\_seek()](mysqli-result.field-seek.html) - встановити покажчик поля на певне зміщення

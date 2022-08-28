@@ -1,19 +1,27 @@
-- [«Componere\Value::\_\_construct](componere-value.construct.md)
-- [Componere\Value::setProtected »](componere-value.setprotected.md)
+Зміна доступності
 
-- [PHP Manual](index.md)
-- [Componere\Value](class.componere-value.md)
-- Зміна доступності
+-   [« Componere\\Value::\_\_construct](componere-value.construct.html)
+    
+-   [Componere\\Value::setProtected »](componere-value.setprotected.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Value](class.componere-value.html)
+    
+-   Зміна доступності
+    
 
-# Componere\Value::setPrivate
+# ComponereValue::setPrivate
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Value::setPrivate — Зміна доступності
+ComponereValue::setPrivate — Зміна доступності
 
 ### Опис
 
-public **Componere\Value::setPrivate**(): Value
+```methodsynopsis
+public Componere\Value::setPrivate(): Value
+```
 
 ### Значення, що повертаються
 
@@ -23,5 +31,4 @@ public **Componere\Value::setPrivate**(): Value
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо рівень доступу був раніше встановлений
+Викидає виняток [RuntimeException](class.runtimeexception.html)якщо рівень доступу був раніше встановлений

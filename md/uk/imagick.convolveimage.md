@@ -1,38 +1,43 @@
-- [« Imagick::contrastStretchImage](imagick.contraststretchimage.md)
-- [Imagick::count »](imagick.count.md)
+Застосовує ядро ​​користувача згортки до зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Застосовує ядро згортки до зображення.
+-   [« Imagick::contrastStretchImage](imagick.contraststretchimage.html)
+    
+-   [Imagick::count »](imagick.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Застосовує ядро ​​користувача згортки до зображення
+    
 
 # Imagick::convolveImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::convolveImage — Застосовує ядро згортки для користувача
-зображенню
+Imagick::convolveImage — Застосовує ядро ​​згортки для користувача.
 
 ### Опис
 
-public **Imagick::convolveImage**(array `$kernel`, int `$channel` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Застосовує ядро згортки до зображення.
+Застосовує ядро ​​користувача згортки до зображення.
 
 ### Список параметрів
 
 `kernel`
+
 Ядро згортки.
 
 `channel`
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму
-каналу. Для застосування більш ніж одного каналу об'єднайте константи
-типу CHANNEL за допомогою побітових операторів.Зверніться до цього списку
-[констант CHANNEL](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів.Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -42,4 +47,16 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::convolveImage()****
 
-`<?phpfunction convolveImage($imagePath, $bias, $kernelMatrix) {   $imagick = new \Imagick(realpath($imagePath)); //$edgeFindingKernel==[-1, -1, -1, -1, 8, -1, -1, -1, -1,]; $imagick->setImageBias($bias * \Imagick::getQuantum()); $imagick->convolveImage($kernelMatrix); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function convolveImage($imagePath, $bias, $kernelMatrix) {
+    $imagick = new \Imagick(realpath($imagePath));
+    //$edgeFindingKernel = [-1, -1, -1, -1, 8, -1, -1, -1, -1,];
+    $imagick->setImageBias($bias * \Imagick::getQuantum());
+    $imagick->convolveImage($kernelMatrix);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

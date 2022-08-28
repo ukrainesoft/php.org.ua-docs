@@ -1,22 +1,29 @@
-- [« SimpleXMLElement::saveXML](simplexmlelement.savexml.md)
-- [SimpleXMLElement::xpath »](simplexmlelement.xpath.md)
+Повертає вміст рядка
 
-- [PHP Manual](index.md)
-- [SimpleXMLElement](class.simplexmlelement.md)
-- Повертає вміст рядка
+-   [« SimpleXMLElement::saveXML](simplexmlelement.savexml.html)
+    
+-   [SimpleXMLElement::xpath »](simplexmlelement.xpath.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXMLElement](class.simplexmlelement.html)
+    
+-   Повертає вміст рядка
+    
 
-# SimpleXMLElement::\_\_toString
+# SimpleXMLElement::toString
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SimpleXMLElement::\_\_toString — Повертає вміст рядка
+SimpleXMLElement::toString — Повертає вміст рядка
 
 ### Опис
 
-public **SimpleXMLElement::\_\_toString**(): string
+```methodsynopsis
+public SimpleXMLElement::__toString(): string
+```
 
-Повертає вміст рядка безпосередньо в елементі. Не
-повертає текстовий контент дочірніх елементів.
+Повертає вміст рядка безпосередньо в елементі. Чи не повертає текстовий контент дочірніх елементів.
 
 ### Список параметрів
 
@@ -24,21 +31,25 @@ public **SimpleXMLElement::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Повертає вміст рядка у разі успішного виконання та порожню
-рядок інакше.
+Повертає вміст рядка у разі успішного виконання та порожній рядок в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Отримати вміст рядка**
 
-` <?php$xml = new SimpleXMLElement('<a>1 <b>2 </b>3</a>');echo $xml;?> `
+```php
+<?php
+$xml = new SimpleXMLElement('<a>1 <b>2 </b>3</a>');
+echo $xml;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1 3
+```
 
 ### Дивіться також
 
-- [SimpleXMLElement::asXML()](simplexmlelement.asxml.md) -
-Повертає сформований XML-документ у вигляді рядка на основі
-елемента SimpleXML
+-   [SimpleXMLElement::asXML()](simplexmlelement.asxml.html) - Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML

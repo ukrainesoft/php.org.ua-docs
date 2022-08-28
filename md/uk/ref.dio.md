@@ -1,30 +1,26 @@
-- [«Зумовлені константи](dio.constants.md)
-- [dio_close »](function.dio-close.md)
+Функції прямого введення/виводу
 
-- [PHP Manual](index.md)
-- [Пряме введення/виведення (Direct IO)](book.dio.md)
-- Функції прямого введення/виводу
+-   [« Предопределённые константы](dio.constants.html)
+    
+-   [dio\_close »](function.dio-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Прямой ввод/вывод (Direct IO)](book.dio.html)
+    
+-   Функції прямого введення/виводу
+    
 
 # Функції прямого введення/виводу
 
 ## Зміст
 
-- [dio_close](function.dio-close.md) — Закрити файловий дескриптор
-- [dio_fcntl](function.dio-fcntl.md) — Викликає функцію бібліотеки C
-fcntl для файлового дескриптора
-- [dio_open](function.dio-open.md) — Відкриває файл (за
-необхідності створює) на нижчому рівні, ніж потокові
-функції введення/виведення мови C
-- [dio_read](function.dio-read.md) - Прочитай байти з файлового
-дескриптора
-- [dio_seek](function.dio-seek.md) — Перемістити вказівник на
-файловому дескрипторі
-- [dio_stat](function.dio-stat.md) — Отримати інформацію про файлове
-дескриптори
-- [dio_tcsetattr](function.dio-tcsetattr.md) - Встановлює
-атрибути терміналу та швидкість передачі даних для послідовного
-порту
-- [dio_truncate](function.dio-truncate.md) — Обрізає файл до
-заданої кількості байт
-- [dio_write](function.dio-write.md) — Записує байти у файл,
-опціонально обрізаючи до вказаної довжини
+-   [dio\_close](function.dio-close.html) - Закрити файловий дескриптор
+-   [dio\_fcntl](function.dio-fcntl.html) — Викликає функцію бібліотеки C fcntl для файлового дескриптора
+-   [dio\_open](function.dio-open.html) — Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
+-   [dio\_read](function.dio-read.html) — Прочитай байти із файлового дескриптора
+-   [dio\_seek](function.dio-seek.html) — Перемістити вказівник у файловому дескрипторі
+-   [dio\_stat](function.dio-stat.html) — Отримати інформацію про файловий дескриптор
+-   [dio\_tcsetattr](function.dio-tcsetattr.html) — Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
+-   [dio\_truncate](function.dio-truncate.html) - Обрізає файл до заданої кількості байт
+-   [dio\_write](function.dio-write.html) — Записує байти у файл, опціонально обрізаючи до вказаної довжини

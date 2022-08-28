@@ -1,19 +1,27 @@
-- [« UI\Controls\Radio::getSelected](ui-controls-radio.getselected.md)
-- [UI\Controls\Radio::setSelected »](ui-controls-radio.setselected.md)
+Обробник вибору
 
-- [PHP Manual](index.md)
-- [UI\Controls\Radio](class.ui-controls-radio.md)
-- Обробник вибору
+-   [« UI\\Controls\\Radio::getSelected](ui-controls-radio.getselected.html)
+    
+-   [UI\\Controls\\Radio::setSelected »](ui-controls-radio.setselected.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Radio](class.ui-controls-radio.html)
+    
+-   Обробник вибору
+    
 
-# UI\Controls\Radio::onSelected
+# ОЙControlsRadio::onSelected
 
 (UI 0.9.9)
 
-UI\Controls\Radio::onSelected — Обробник вибору
+ОЙControlsRadio::onSelected — Обробник вибору
 
 ### Опис
 
-protected **UI\Controls\Radio::onSelected**()
+```methodsynopsis
+protected UI\Controls\Radio::onSelected()
+```
 
 Виконується, коли вибирається варіант у цій радіокнопці
 

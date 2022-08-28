@@ -1,22 +1,29 @@
-- [« Imagick::setImageUnits](imagick.setimageunits.md)
-- [Imagick::setImageWhitePoint »](imagick.setimagewhitepoint.md)
+Встановлює метод віртуального пікселя
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює метод віртуального пікселя
+-   [« Imagick::setImageUnits](imagick.setimageunits.html)
+    
+-   [Imagick::setImageWhitePoint »](imagick.setimagewhitepoint.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює метод віртуального пікселя
+    
 
 # Imagick::setImageVirtualPixelMethod
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageVirtualPixelMethod — Встановлює метод віртуального
-пікселя
+Imagick::setImageVirtualPixelMethod — Встановлює метод віртуального пікселя
 
 ### Опис
 
-public **Imagick::setImageVirtualPixelMethod**(int `$method`): bool
+```methodsynopsis
+public Imagick::setImageVirtualPixelMethod(int $method): bool
+```
 
-Встановлює спосіб віртуального пікселя.
+Встановлює метод віртуального пікселя.
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ public **Imagick::setImageVirtualPixelMethod**(int `$method`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

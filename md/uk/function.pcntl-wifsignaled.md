@@ -1,39 +1,41 @@
-- [« pcntl_wifexited](function.pcntl-wifexited.md)
-- [pcntl_wifstopped »](function.pcntl-wifstopped.md)
+Перевірити, чи відповідає код завершення процесу завершення сигналу
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Перевірити, чи відповідає код завершення процесу завершення
-сигналу
+-   [« pcntl\_wifexited](function.pcntl-wifexited.html)
+    
+-   [pcntl\_wifstopped »](function.pcntl-wifstopped.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Перевірити, чи відповідає код завершення процесу завершення сигналу
+    
 
-#pcntl_wifsignaled
+# pcntlwifsignaled
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-pcntl_wifsignaled — Перевірити, чи код завершення процесу відповідає
-завершення по сигналу
+pcntlwifsignaled — Перевірити, чи код завершення процесу завершення по сигналу відповідає
 
 ### Опис
 
-**pcntl_wifsignaled**(int `$status`): bool
+```methodsynopsis
+pcntl_wifsignaled(int $status): bool
+```
 
-Перевірити, чи відповідає код завершення процесу завершення
-сигналу.
+Перевірити, чи код завершення процесу завершення по сигналу.
 
 ### Список параметрів
 
 `status`
-Параметр `status` - це параметр статусу, який передається для успішного
-виклик функції [pcntl_waitpid()](function.pcntl-waitpid.md).
+
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо дочірній процес було завершено через
-неперехопленого сигналу. Якщо ні, то повертає **`false`**.
+Повертає **`true`**, якщо дочірній процес було завершено через неперехоплений сигнал. Якщо ні, то повертає **`false`**
 
 ### Дивіться також
 
-- [pcntl_waitpid()](function.pcntl-waitpid.md) - Очікує або
-повертає статус породженого дочірнього процесу
-- [pcntl_signal()](function.pcntl-signal.md) - Встановлення обробника
-сигналу
+-   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу

@@ -1,9 +1,15 @@
-- [« UI\Draw\Matrix::translate](ui-draw-matrix.translate.md)
-- [UI\Draw\Color::\_\_construct »](ui-draw-color.construct.md)
+Подання кольору
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Подання кольору
+-   [« UI\\Draw\\Matrix::translate](ui-draw-matrix.translate.html)
+    
+-   [UI\\Draw\\Color::\_\_construct »](ui-draw-color.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Подання кольору
+    
 
 # Подання кольору
 
@@ -11,84 +17,104 @@
 
 ## Вступ
 
-Представляє кольори RGBA, окремі канали доступні через загальнодоступні
-властивості.
+Є кольори RGBA, окремі канали доступні через загальнодоступні властивості.
 
 ## Огляд класів
 
-class **UI\Draw\Color** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Red`;
 
-const int `Green`;
+    
+     
+      class UI\Draw\Color
+     
+     {
 
-const int `Blue`;
+    /* Константы */
+    
+     const
+     int
+      Red;
 
-const int `Alpha`;
+    const
+     int
+      Green;
 
-/\* Властивості \*/
+    const
+     int
+      Blue;
 
-public `$ r`;
+    const
+     int
+      Alpha;
 
-public `$g`;
 
-public `$b`;
+    /* Свойства */
+    public
+      $r;
 
-public `$a`;
+    public
+      $g;
 
-/\* Конструктор \*/
+    public
+      $b;
 
-public
-[\_\_construct](ui-draw-color.construct.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color` = ?)
+    public
+      $a;
 
-public [\_\_construct](ui-draw-color.construct.md)(int `$color` = ?)
 
-/\* Методи \*/
+    /* Конструктор */
+    
+   public __construct(UI\Draw\Color $color = ?)
+public __construct(int $color = ?)
 
-public [getChannel](ui-draw-color.getchannel.md)(int `$channel`):
-float
 
-public [setChannel](ui-draw-color.setchannel.md)(int `$channel`, float
-`$value`): void
+    /* Методы */
+    public getChannel(int $channel): float
+public setChannel(int $channel, float $value): void
 
-}
+   }
+```
 
 ## Властивості
 
-`r`
+р
+
 Забезпечує доступ до червоного каналу
 
-`g`
+г
+
 Забезпечує доступ до зеленого каналу
 
-`b`
+в
+
 Забезпечує доступ до синього каналу
 
-`a`
+а
+
 Забезпечує доступ до альфа-каналу
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Draw\Color::Red`**
+
 Визначає червоний канал
 
 **`UI\Draw\Color::Green`**
+
 Визначає зелений канал
 
 **`UI\Draw\Color::Blue`**
+
 Визначає синій канал
 
 **`UI\Draw\Color::Alpha`**
+
 Визначає альфа-канал
 
 ## Зміст
 
-- [UI\Draw\Color::\_\_construct](ui-draw-color.construct.md) -
-Створити новий об'єкт Color
-- [UI\Draw\Color::getChannel](ui-draw-color.getchannel.md) -
-Керування кольором
-- [UI\Draw\Color::setChannel](ui-draw-color.setchannel.md) -
-Керування кольором
+-   [UI\\Draw\\Color::\_\_construct](ui-draw-color.construct.html) — Створити новий об'єкт Color
+-   [UI\\Draw\\Color::getChannel](ui-draw-color.getchannel.html) - Управління кольором
+-   [UI\\Draw\\Color::setChannel](ui-draw-color.setchannel.html) - Управління кольором

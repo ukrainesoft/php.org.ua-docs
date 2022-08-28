@@ -1,53 +1,78 @@
-- [«imagesetstyle](function.imagesetstyle.md)
-- [imagesettile »](function.imagesettile.md)
+Встановлення товщини ліній
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Встановлення товщини ліній
+-   [« imagesetstyle](function.imagesetstyle.html)
+    
+-   [imagesettile »](function.imagesettile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Встановлення товщини ліній
+    
 
 # imagesetthickness
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagesetthickness — Встановлення товщини ліній
 
 ### Опис
 
-**imagesetthickness**([GdImage](class.gdimage.md) `$image`, int
-`$thickness`): bool
+```methodsynopsis
+imagesetthickness(GdImage $image, int $thickness): bool
+```
 
-**imagesetthickness()** визначає значення товщини ліній для малювання
-відрізків, прямокутників, багатокутників, еліпсів тощо. в
-`thickness` пікселів.
+**imagesetthickness()** визначає значення товщини ліній для малювання відрізків, прямокутників, багатокутників, еліпсів і т.п. в `thickness` пікселів.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `thickness`
+
 Товщина пікселів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagesetthickness()****
 
-` <?php// Створення зображення 200x100$im = imagecreatetruecolor(200, 100);$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);$black, 0 0 0 / Установка білого фонуimagefilledrectangle($im, 0, 0, 299, 99, $white);// Установка товщини ліній 5 пікселівimagesetthickness($im, 5);// 5, $black);//Виведення зображення в броузерheader('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `
+```php
+<?php
+// Создание изображения 200x100
+$im = imagecreatetruecolor(200, 100);
+$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
+
+// Установка белого фона
+imagefilledrectangle($im, 0, 0, 299, 99, $white);
+
+// Установка толщины линий 5 пикселов
+imagesetthickness($im, 5);
+
+// Рисование прямоугольника
+imagerectangle($im, 14, 14, 185, 85, $black);
+
+// Вывод изображения в броузер
+header('Content-Type: image/png');
+
+imagepng($im);
+imagedestroy($im);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Висновок прикладу:
-imagesetthickness()](images/21009b70229598c6a80eef8b45bf282b-imagesetthickness.png)
+![Висновок прикладу: imagesetthickness()](images/21009b70229598c6a80eef8b45bf282b-imagesetthickness.png)

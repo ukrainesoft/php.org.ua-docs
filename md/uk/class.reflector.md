@@ -1,9 +1,15 @@
-- [« ReflectionAttribute::newInstance](reflectionattribute.newinstance.md)
-- [Reflector::export »](reflector.export.md)
+Інтерфейс Reflector
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Інтерфейс Reflector
+-   [« ReflectionAttribute::newInstance](reflectionattribute.newinstance.html)
+    
+-   [Reflector::export »](reflector.export.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Інтерфейс Reflector
+    
 
 # Інтерфейс Reflector
 
@@ -11,32 +17,43 @@
 
 ## Вступ
 
-Інтерфейс **Reflector** реалізують усі експортовані Reflection-класи.
+Інтерфейс **Reflector** реалізують всі експортовані Reflection-класи.
 
 ## Огляд інтерфейсів
 
-interface **Reflector** extends [Stringable](class.stringable.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public static [export](reflector.export.md)(): string
+    
+     
+      interface Reflector
+      extends
+       Stringable
+     
+     {
 
-public [\_\_toString](reflector.tostring.md)(): string
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public static export(): string
+public __toString(): string
 
-public [Stringable::\_\_toString](stringable.tostring.md)(): string
 
-}
+    /* Наследуемые методы */
+    public Stringable::__toString(): string
 
-## Список змін
+   }
+```
 
-| Версія | Опис                                                                           |
-| ------ | ------------------------------------------------------------------------------ |
-| 8.0.0  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
 
 ## Зміст
 
-- [Reflector::export](reflector.export.md) — Експорт
-- [Reflector::\_\_toString](reflector.tostring.md) — Подання в
-вигляді рядка
+-   [Reflector::export](reflector.export.html) - Експорт
+-   [Reflector::\_\_toString](reflector.tostring.html) — Подання у вигляді рядка

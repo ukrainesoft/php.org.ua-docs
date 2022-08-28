@@ -1,20 +1,27 @@
-- [« Swoole\Server::listen](swoole-server.listen.md)
-- [Swoole\Server::pause »](swoole-server.pause.md)
+Реєструє callback-функцію на ім'я події
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Реєструє callback-функцію на ім'я події
+-   [« Swoole\\Server::listen](swoole-server.listen.html)
+    
+-   [Swoole\\Server::pause »](swoole-server.pause.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Реєструє callback-функцію на ім'я події
+    
 
-# Swoole\Server::on
+# SwooleServer::on
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::on — Реєструє callback-функцію на ім'я події
+SwooleServer::on — Реєструє callback-функцію на ім'я події
 
 ### Опис
 
-public **Swoole\Server::on**(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\Server::on(string $event_name, callable $callback): void
+```
 
 ### Список параметрів
 

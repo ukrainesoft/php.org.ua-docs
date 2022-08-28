@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](soap.configuration.md)
-- [Предвизначені константи »](soap.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](soap.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](soap.configuration.html)
+    
+-   [Предопределённые константы »](soap.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](soap.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

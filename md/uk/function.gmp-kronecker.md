@@ -1,38 +1,45 @@
-- [«gmp_jacobi](function.gmp-jacobi.md)
-- [gmp_lcm »](function.gmp-lcm.md)
+Символ Кронекера - Якобі.
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Символ Кронекера - Якобі
+-   [« gmp\_jacobi](function.gmp-jacobi.html)
+    
+-   [gmp\_lcm »](function.gmp-lcm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Символ Кронекера - Якобі.
+    
 
-#gmp_kronecker
+# gmpkronecker
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-gmp_kronecker - Символ Кронекера - Якобі
+gmpkronecker - Символ Кронекера - Якобі
 
 ### Опис
 
-**gmp_kronecker**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): int
+```methodsynopsis
+gmp_kronecker(GMP|int|string $num1, GMP|int|string $num2): int
+```
 
-Здійснює обчислення символу Кронекера - Якобі для `num1` та `num2`.
+Здійснює обчислення символу Кронекера - Якобі для `num1` і `num2`
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Повертає символ Кронекера - Якобі для `num1` та `num2`
+Повертає символ Кронекера - Якобі для `num1` і `num2`
 
 ### Дивіться також
 
-- [gmp_jacobi()](function.gmp-jacobi.md) - Символ Якобі
-- [gmp_legendre()](function.gmp-legendre.md) - Символ Лежандра
+-   [gmp\_jacobi()](function.gmp-jacobi.html) - Символ Якобі
+-   [gmp\_legendre()](function.gmp-legendre.html) - Символ Лежандра

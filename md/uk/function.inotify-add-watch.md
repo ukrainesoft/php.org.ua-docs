@@ -1,45 +1,50 @@
-- [« Функції Inotify](ref.inotify.md)
-- [inotify_init »](function.inotify-init.md)
+Додати спостерігача для екземпляра inotify
 
-- [PHP Manual](index.md)
-- [Функції Inotify](ref.inotify.md)
-- Додати спостерігача для екземпляра inotify
+-   [« Функции Inotify](ref.inotify.html)
+    
+-   [inotify\_init »](function.inotify-init.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Inotify](ref.inotify.html)
+    
+-   Додати спостерігача для екземпляра inotify
+    
 
-#inotify_add_watch
+# inotifyaddwatch
 
-(PECL inotify \>= 0.1.2)
+(PECL inotify >= 0.1.2)
 
-inotify_add_watch — Додати спостерігача для екземпляра inotify
+inotifyaddwatch — Додати спостерігача для екземпляра inotify
 
 ### Опис
 
-**inotify_add_watch**(resource `$inotify_instance`, string `$pathname`,
-int `$mask`): int
+```methodsynopsis
+inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
+```
 
-**inotify_add_watch()** додає нового спостерігача або змінює
-існуючого для файлу чи директорії, заданих у `pathname`.
+**inotifyaddwatch()** додає нового спостерігача або змінює існуючий для файлу або директорії, заданих у `pathname`
 
-Використання **inotify_add_watch()** на об'єкті, що вже відстежується.
-замінить поточного спостерігача. використання константи **`IN_MASK_ADD`**
-додасть (OR) події існуючому спостерігачеві.
+Використання **inotifyaddwatch()** на обстеженні, що вже відстежується, замінить поточного спостерігача. використання константи **`IN_MASK_ADD`** додати (OR) події існуючому спостерігачеві.
 
 ### Список параметрів
 
 `inotify_instance`
-Ресурс, що повертається [inotify_init()](function.inotify-init.md)
+
+Ресурс, що повертається [inotify\_init()](function.inotify-init.html)
 
 `pathname`
+
 Файл або директорія для відстеження
 
 `mask`
-Події, які слід відслідковувати. Дивіться [Предвизначені константи](inotify.constants.md).
+
+Події, які слід відстежувати. Дивіться [Предопределённые константы](inotify.constants.html)
 
 ### Значення, що повертаються
 
-Повертає унікальний (в контексті екземпляра inotify) дескриптор
-спостерігача.
+Повертає унікальний (в контексті екземпляра inotify) дескриптор спостерігача.
 
 ### Дивіться також
 
-- [inotify_init()](function.inotify-init.md) - Ініціалізує
-екземпляр inotify
+-   [inotify\_init()](function.inotify-init.html) - Ініціалізує екземпляр inotify

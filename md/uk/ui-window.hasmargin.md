@@ -1,19 +1,27 @@
-- [«UI\Window::hasBorders](ui-window.hasborders.md)
-- [UI\Window::isFullScreen »](ui-window.isfullscreen.md)
+Визначення полів
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Визначення полів
+-   [« UI\\Window::hasBorders](ui-window.hasborders.html)
+    
+-   [UI\\Window::isFullScreen »](ui-window.isfullscreen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Визначення полів
+    
 
-# UI\Window::hasMargin
+# ОЙWindow::hasMargin
 
 (UI 0.9.9)
 
-UI\Window::hasMargin — Визначення полів
+ОЙWindow::hasMargin — Визначення полів
 
 ### Опис
 
-public **UI\Window::hasMargin**(): bool
+```methodsynopsis
+public UI\Window::hasMargin(): bool
+```
 
 Визначити, чи використовуються поля у цьому вікні
 

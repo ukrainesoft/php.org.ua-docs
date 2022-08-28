@@ -1,55 +1,64 @@
-- [« SplFileInfo::getPath](splfileinfo.getpath.md)
-- [SplFileInfo::getPathname »](splfileinfo.getpathname.md)
+Отримує об'єкт SplFileInfo для заданого шляху
 
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Отримує об'єкт SplFileInfo для заданого шляху
+-   [« SplFileInfo::getPath](splfileinfo.getpath.html)
+    
+-   [SplFileInfo::getPathname »](splfileinfo.getpathname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileInfo](class.splfileinfo.html)
+    
+-   Отримує об'єкт SplFileInfo для заданого шляху
+    
 
 # SplFileInfo::getPathInfo
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-SplFileInfo::getPathInfo — Отримує об'єкт SplFileInfo для заданого
-шляхи
+SplFileInfo::getPathInfo — Отримує об'єкт SplFileInfo для заданого шляху
 
 ### Опис
 
-public **SplFileInfo::getPathInfo**(?string `$class` = **`null`**):
-?[SplFileInfo](class.splfileinfo.md)
+```methodsynopsis
+public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
+```
 
-Отримує об'єкт класу [SplFileInfo](class.splfileinfo.md) для шляху
-поточний файл.
+Отримує об'єкт класу [SplFileInfo](class.splfileinfo.html) для шляху поточного файлу
 
 ### Список параметрів
 
 `class`
-Ім'я похідного від [SplFileInfo](class.splfileinfo.md) класу
-використання або себе, якщо **`null`**.
+
+Ім'я похідного від [SplFileInfo](class.splfileinfo.html) класу для використання або себе, якщо **`null`**
 
 ### Значення, що повертаються
 
-Повертає об'єкт класу [SplFileInfo](class.splfileinfo.md) для
-батьківського шляху файлу у разі успішного виконання або **`null`**
-у разі виникнення помилки.
+Повертає об'єкт класу [SplFileInfo](class.splfileinfo.html) для батьківського шляху файлу у разі успішного виконання або **`null`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                 |
-| ------ | ------------------------------------ |
-| 8.0.0  | class тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `class` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileInfo::getPathInfo()****
 
-` <?php$info = new SplFileInfo('/usr/bin/php');$parent_info = $info->getPathInfo();var_dump($parent_info->getRealPath());?> `
+```php
+<?php
+$info = new SplFileInfo('/usr/bin/php');
+$parent_info = $info->getPathInfo();
+var_dump($parent_info->getRealPath());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(8) "/usr/bin"
+```
 
 ### Дивіться також
 
-- [SplFileInfo::setInfoClass()](splfileinfo.setinfoclass.md) -
-Задає ім'я класу, об'єкти якого створюватимуться методами
-SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
+-   [SplFileInfo::setInfoClass()](splfileinfo.setinfoclass.html) - Вказує ім'я класу, об'єкти якого будуть створюватися методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo

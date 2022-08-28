@@ -1,19 +1,27 @@
-- [«Gmagick::getimagetype](gmagick.getimagetype.md)
-- [Gmagick::getimagewhitepoint »](gmagick.getimagewhitepoint.md)
+Повертає одиниці роздільної здатності зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає одиниці роздільної здатності зображення
+-   [« Gmagick::getimagetype](gmagick.getimagetype.html)
+    
+-   [Gmagick::getimagewhitepoint »](gmagick.getimagewhitepoint.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає одиниці роздільної здатності зображення
+    
 
 # Gmagick::getimageunits
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageunits — Повертає одиниці роздільної здатності зображення
 
 ### Опис
 
-public **Gmagick::getimageunits**(): int
+```methodsynopsis
+public Gmagick::getimageunits(): int
+```
 
 Повертає одиниці роздільної здатності зображення.
 

@@ -1,9 +1,15 @@
-- [«Imagick::remapImage](imagick.remapimage.md)
-- [Imagick::removeImageProfile »](imagick.removeimageprofile.md)
+Видаляє зображення зі списку зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Видаляє зображення зі списку зображень
+-   [« Imagick::remapImage](imagick.remapimage.html)
+    
+-   [Imagick::removeImageProfile »](imagick.removeimageprofile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Видаляє зображення зі списку зображень
+    
 
 # Imagick::removeImage
 
@@ -13,7 +19,9 @@ Imagick::removeImage — Видалення зображення зі списк
 
 ### Опис
 
-public **Imagick::removeImage**(): bool
+```methodsynopsis
+public Imagick::removeImage(): bool
+```
 
 Видаляє зображення зі списку зображень.
 
@@ -23,7 +31,7 @@ public **Imagick::removeImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

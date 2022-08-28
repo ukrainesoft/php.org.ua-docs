@@ -1,20 +1,27 @@
-- [« ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)
-- [ReflectionFunctionAbstract::getStaticVariables »](reflectionfunctionabstract.getstaticvariables.md)
+Отримує початковий номер рядка
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- отримує початковий номер рядка
+-   [« ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.html)
+    
+-   [ReflectionFunctionAbstract::getStaticVariables »](reflectionfunctionabstract.getstaticvariables.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Отримує початковий номер рядка
+    
 
 # ReflectionFunctionAbstract::getStartLine
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getStartLine — Отримує початковий номер
-рядки
+ReflectionFunctionAbstract::getStartLine — Отримує початковий номер рядка
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getStartLine**(): int\|false
+```methodsynopsis
+public ReflectionFunctionAbstract::getStartLine(): int|false
+```
 
 Отримання номера рядка початку опису функції.
 
@@ -24,9 +31,8 @@ public **ReflectionFunctionAbstract::getStartLine**(): int\|false
 
 ### Значення, що повертаються
 
-Стартовий номер рядка або ** false, якщо невідомо.
+Стартовий номер рядка або **`false`**якщо невідомо.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getEndLine()](reflectionfunctionabstract.getendline.md) -
-Отримує номер рядка завершення опису функції
+-   [ReflectionFunctionAbstract::getEndLine()](reflectionfunctionabstract.getendline.html) - Отримує номер рядка завершення опису функції

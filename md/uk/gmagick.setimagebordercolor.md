@@ -1,32 +1,39 @@
-- [« Gmagick::setimageblueprimary](gmagick.setimageblueprimary.md)
-- [Gmagick::setimagechanneldepth »](gmagick.setimagechanneldepth.md)
+Встановлює колір рамки зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює колір рамки зображення
+-   [« Gmagick::setimageblueprimary](gmagick.setimageblueprimary.html)
+    
+-   [Gmagick::setimagechanneldepth »](gmagick.setimagechanneldepth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює колір рамки зображення
+    
 
 # Gmagick::setimagebordercolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimagebordercolor — Встановлює колір рамки зображення
 
 ### Опис
 
-public
-**Gmagick::setimagebordercolor**([GmagickPixel](class.gmagickpixel.md)
-`$color`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagebordercolor(GmagickPixel $color): Gmagick
+```
 
 Встановлює колір кадру зображення.
 
 ### Список параметрів
 
-`col`
+`color`
+
 Колір кадру.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

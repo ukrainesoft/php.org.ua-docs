@@ -1,19 +1,27 @@
-- [« Yaf_View_Simple::\_\_get](yaf-view-simple.get.md)
-- [Yaf_View_Simple::\_\_isset »](yaf-view-simple.isset.md)
+Отримує каталог шаблонів
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Отримує каталог шаблонів
+-   [« Yaf\_View\_Simple::\_\_get](yaf-view-simple.get.html)
+    
+-   [Yaf\_View\_Simple::\_\_isset »](yaf-view-simple.isset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+    
+-   Отримує каталог шаблонів
+    
 
-# Yaf_View_Simple::getScriptPath
+# YafViewSimple::getScriptPath
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_View_Simple::getScriptPath — Отримує каталог шаблонів
+YafViewSimple::getScriptPath — Отримує каталог шаблонів
 
 ### Опис
 
-public **Yaf_View_Simple::getScriptPath**(): string
+```methodsynopsis
+public Yaf_View_Simple::getScriptPath(): string
+```
 
 ### Список параметрів
 

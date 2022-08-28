@@ -1,36 +1,41 @@
-- [«array_key_first](function.array-key-first.md)
-- [array_keys »](function.array-keys.md)
+Отримує останній ключ масиву
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Отримує останній ключ масиву
+-   [« array\_key\_first](function.array-key-first.html)
+    
+-   [array\_keys »](function.array-keys.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с массивами](ref.array.html)
+    
+-   Отримує останній ключ масиву
+    
 
-#array_key_last
+# arraykeylast
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-array_key_last — Отримує останній ключ масиву
+arraykeylast — Отримує останній ключ масиву
 
 ### Опис
 
-**array_key_last**(array `$array`): int\|string\|null
+```methodsynopsis
+array_key_last(array $array): int|string|null
+```
 
-Отримати останній ключ заданого масиву `array`, не торкаючись
-внутрішній покажчик масиву.
+Отримати останній ключ заданого масиву `array`, не торкаючись внутрішнього покажчика масиву.
 
 ### Список параметрів
 
 `array`
+
 Масив.
 
 ### Значення, що повертаються
 
-Повертає останній ключ масиву `array`, якщо він не порожній; **`null`**
-в іншому випадку.
+Повертає останній ключ масиву `array`якщо він не порожній; **`null`** в іншому випадку.
 
 ### Дивіться також
 
-- [array_key_first()](function.array-key-first.md) - Отримує перший
-ключ масиву
-- [end()](function.end.md) - Встановлює внутрішній покажчик
-масиву на його останній елемент
+-   [array\_key\_first()](function.array-key-first.html) - Отримує перший ключ масиву
+-   [end()](function.end.html) - Встановлює внутрішній покажчик масиву на його останній елемент

@@ -1,18 +1,20 @@
-- [« Вимоги](gmagick.requirements.md)
-- [Налаштування під час виконання »](gmagick.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gmagick.setup.md)
-- Встановлення
+-   [« Требования](gmagick.requirements.html)
+    
+-   [Настройка во время выполнения »](gmagick.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](gmagick.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/gmagick](https://pecl.php.net/package/gmagick).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/gmagick](https://pecl.php.net/package/gmagick)
 
-> **Примітка**: Офіційна назва модуля - *gmagick*.
+> **Зауваження**: Офіційне ім'я модуля - *gmagick*
 
-Складання модуля для Windows доступне [»тут](http://valokuva.org/magick/)
+Складання модуля для Windows доступне [» тут](http://valokuva.org/magick/)

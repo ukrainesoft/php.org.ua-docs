@@ -1,18 +1,22 @@
-- [«fbird_free_query](function.fbird-free-query.md)
-- [fbird_gen_id »](function.fbird-gen-id.md)
+Псевдонім ibasefreeresult
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_free_result
+-   [« fbird\_free\_query](function.fbird-free-query.html)
+    
+-   [fbird\_gen\_id »](function.fbird-gen-id.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasefreeresult
+    
 
-#fbird_free_result
+# fbirdfreeresult
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_free_result - Псевдонім
-[ibase_free_result()](function.ibase-free-result.md)
+fbirdfreeresult - Псевдонім [ibase\_free\_result()](function.ibase-free-result.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_free_result()](function.ibase-free-result.md).
+Ця функція є псевдонімом: [ibase\_free\_result()](function.ibase-free-result.html)

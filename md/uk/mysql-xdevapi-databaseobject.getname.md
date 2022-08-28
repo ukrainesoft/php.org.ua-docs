@@ -1,9 +1,15 @@
-- [« DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.md)
-- [DatabaseObject::getSession »](mysql-xdevapi-databaseobject.getsession.md)
+Отримує ім'я об'єкта
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\DatabaseObject](class.mysql-xdevapi-databaseobject.md)
-- Отримує ім'я об'єкта
+-   [« DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.html)
+    
+-   [DatabaseObject::getSession »](mysql-xdevapi-databaseobject.getsession.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\DatabaseObject](class.mysql-xdevapi-databaseobject.html)
+    
+-   Отримує ім'я об'єкта
+    
 
 # DatabaseObject::getName
 
@@ -13,14 +19,15 @@ DatabaseObject::getName — Отримує ім'я об'єкта
 
 ### Опис
 
-abstract public **mysql_xdevapi\DatabaseObject::getName**(): string
+```methodsynopsis
+abstract public mysql_xdevapi\DatabaseObject::getName(): string
+```
 
-Отримує ім'я бази даних.
+Отримує ім'я об'єкта бази даних.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,11 +35,16 @@ abstract public **mysql_xdevapi\DatabaseObject::getName**(): string
 
 ### Значення, що повертаються
 
-Ім'я бази даних.
+Назва об'єкта бази даних.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\DatabaseObject::getName()****
+**Приклад #1 Приклад використання **mysqlxdevapiDatabaseObject::getName()****
 
-` <?php$dbObjName = $dbObj->getName();?> `
+```php
+<?php
+
+$dbObjName = $dbObj->getName();
+
+?>
+```

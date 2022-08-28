@@ -1,56 +1,65 @@
-- [« apache_get_version](function.apache-get-version.md)
-- [apache_lookup_uri »](function.apache-lookup-uri.md)
+Повертає змінну оточення підпроцесу сервера Apache
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Повертає змінну оточення підпроцесу сервера Apache
+-   [« apache\_get\_version](function.apache-get-version.html)
+    
+-   [apache\_lookup\_uri »](function.apache-lookup-uri.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Apache](ref.apache.html)
+    
+-   Повертає змінну оточення підпроцесу сервера Apache
+    
 
-#apache_getenv
+# apachegetenv
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-apache_getenv — Повертає змінну оточення підпроцесу сервера
-Apache
+apachegetenv — Повертає змінну оточення підпроцесу сервера Apache
 
 ### Опис
 
-**apache_getenv**(string `$variable`, bool `$walk_to_top` =
-**`false`**): string\|false
+```methodsynopsis
+apache_getenv(string $variable, bool $walk_to_top = false): string|false
+```
 
-Повертає змінну оточення сервера Apache, вказану параметром
-`variable`.
+Повертає змінну оточення сервера Apache, вказану параметром `variable`
 
 ### Список параметрів
 
 `variable`
+
 Змінне оточення сервера Apache
 
 `walk_to_top`
-Отримати змінну верхнього рівня, доступну для всіх рівнів сервера
-Apache чи ні.
+
+Отримати змінну верхнього рівня, доступну для всіх рівнів Apache сервера чи ні.
 
 ### Значення, що повертаються
 
-Значення змінної оточення сервера Apache у разі успішного
-виконання, або **`false`** у разі виникнення помилки.
+Значення змінної оточення сервера Apache у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apache_getenv()****
+**Приклад #1 Приклад використання **apachegetenv()****
 
-Нижче наведений приклад показує, як можна отримати значення
-змінної оточення сервера Apache `SERVER_ADDR`.
+Нижче наведений приклад показує, як можна отримати значення змінної оточення сервера Apache SERVERADDR.
 
-` <?php$ret = apache_getenv("SERVER_ADDR");echo $ret;?> `
+```php
+<?php
+$ret = apache_getenv("SERVER_ADDR");
+echo $ret;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 42.24.42.240
+```
 
 ### Дивіться також
 
-- [apache_setenv()](function.apache-setenv.md) - Встановлює
-змінну subprocess_env Apache
-- [getenv()](function.getenv.md) - Отримання значення змінної
-оточення
-- "[Суперглобальні змінні](language.variables.superglobals.md)"
+-   [apache\_setenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
+-   [getenv()](function.getenv.html) - набуття значення змінної оточення
+-   "[Суперглобальные переменные](language.variables.superglobals.html)"

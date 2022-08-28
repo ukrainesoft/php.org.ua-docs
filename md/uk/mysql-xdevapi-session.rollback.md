@@ -1,9 +1,15 @@
-- [« Session::releaseSavepoint](mysql-xdevapi-session.releasesavepoint.md)
-- [Session::rollbackTo »](mysql-xdevapi-session.rollbackto.md)
+Відкочує транзакцію
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Відкочує транзакцію
+-   [« Session::releaseSavepoint](mysql-xdevapi-session.releasesavepoint.html)
+    
+-   [Session::rollbackTo »](mysql-xdevapi-session.rollbackto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Відкочує транзакцію
+    
 
 # Session::rollback
 
@@ -13,7 +19,9 @@ Session::rollback - Відкочує транзакцію
 
 ### Опис
 
-public **mysql_xdevapi\Session::rollback**(): void
+```methodsynopsis
+public mysql_xdevapi\Session::rollback(): void
+```
 
 Відкочує транзакцію.
 
@@ -27,6 +35,21 @@ public **mysql_xdevapi\Session::rollback**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Session::rollback()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::rollback()****
 
-` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("names");$session-> startTransaction();$collection->add( '{"test1":1, "test2":2}' )->execute();$savepoint = $session->setSavepoint();$collection->add( ' {"test3":3, "test4":4}' )->execute();$session->releaseSavepoint($savepoint);$session->rollback();?> `
+```php
+<?php
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("names");
+
+$session->startTransaction();
+$collection->add( '{"test1":1, "test2":2}' )->execute();
+
+$savepoint = $session->setSavepoint();
+
+$collection->add( '{"test3":3, "test4":4}' )->execute();
+
+$session->releaseSavepoint($savepoint);
+$session->rollback();
+?>
+```

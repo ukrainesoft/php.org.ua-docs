@@ -1,9 +1,15 @@
-- [«CompileError](class.compileerror.md)
-- [TypeError »](class.typeerror.md)
+ParseError
 
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- ParseError
+-   [« CompileError](class.compileerror.html)
+    
+-   [TypeError »](class.typeerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые исключения](reserved.exceptions.html)
+    
+-   ParseError
+    
 
 # ParseError
 
@@ -11,53 +17,64 @@
 
 ## Вступ
 
-**ParseError** викидається, коли виникає помилка при розборі
-PHP-код, наприклад, коли викликається функція
-[eval()](function.eval.md).
+**ParseError** викидається, коли виникає помилка при розборі PHP-коду, наприклад, коли викликається функція [eval()](function.eval.html)
 
-> **Примітка**: Починаючи з PHP 7.3.0, клас **ParseError** успадковується
-> від [CompileError](class.compileerror.md). Раніше цей клас розширював
-> клас [Error](class.error.md).
+> **Зауваження**: Починаючи з PHP 7.3.0, клас **ParseError** успадковується від [CompileError](class.compileerror.html). Раніше цей клас розширював клас [Error](class.error.html)
 
 ## Огляд класів
 
-class **ParseError** extends [CompileError](class.compileerror.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class ParseError
+     
 
-private string `$string` = "";
+     
+      extends
+       CompileError
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Error::getMessage(): string
+final public Error::getPrevious(): ?Throwable
+final public Error::getCode(): int
+final public Error::getFile(): string
+final public Error::getLine(): int
+final public Error::getTrace(): array
+final public Error::getTraceAsString(): string
+public Error::__toString(): string
+private Error::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Error::getMessage](error.getmessage.md)(): string
-
-final public [Error::getPrevious](error.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Error::getCode](error.getcode.md)(): int
-
-final public [Error::getFile](error.getfile.md)(): string
-
-final public [Error::getLine](error.getline.md)(): int
-
-final public [Error::getTrace](error.gettrace.md)(): array
-
-final public [Error::getTraceAsString](error.gettraceasstring.md)():
-string
-
-public [Error::\_\_toString](error.tostring.md)(): string
-
-private [Error::\_\_clone](error.clone.md)(): void
-
-}
+   }
+```

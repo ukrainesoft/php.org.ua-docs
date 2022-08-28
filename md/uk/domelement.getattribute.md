@@ -1,37 +1,42 @@
-- [«DOMElement::\_\_construct](domelement.construct.md)
-- [DOMElement::getAttributeNode »](domelement.getattributenode.md)
+Повертає значення атрибуту
 
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Повертає значення атрибуту
+-   [« DOMElement::\_\_construct](domelement.construct.html)
+    
+-   [DOMElement::getAttributeNode »](domelement.getattributenode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMElement](class.domelement.html)
+    
+-   Повертає значення атрибуту
+    
 
 # DOMElement::getAttribute
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::getAttribute — Повертає значення атрибута
+DOMElement::getAttribute — Повертає значення атрибуту
 
 ### Опис
 
-public **DOMElement::getAttribute**(string `$qualifiedName`): string
+```methodsynopsis
+public DOMElement::getAttribute(string $qualifiedName): string
+```
 
-Повертає значення атрибута під назвою `qualifiedName` для поточного вузла.
+Повертає значення атрибуту з ім'ям `qualifiedName` для поточного сайту.
 
 ### Список параметрів
 
 `qualifiedName`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 ### Значення, що повертаються
 
-Значення атрибута або порожнє значення, якщо атрибут із зазначеним ім'ям
-`qualifiedName` не знайдено.
+Значення атрибута або порожнє значення, якщо атрибут із зазначеним ім'ям `qualifiedName` НЕ знайдений.
 
 ### Дивіться також
 
-- [DOMElement::hasAttribute()](domelement.hasattribute.md) -
-Перевіряє, чи існує атрибут
-- [DOMElement::setAttribute()](domelement.setattribute.md) -
-Додає новий або змінює існуючий атрибут
-- [DOMElement::removeAttribute()](domelement.removeattribute.md) -
-Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
+-   [DOMElement::setAttribute()](domelement.setattribute.html) - Додає новий або змінює існуючий атрибут
+-   [DOMElement::removeAttribute()](domelement.removeattribute.html) - Видаляє атрибут

@@ -1,9 +1,15 @@
-- [« DOMEntityReference::\_\_construct](domentityreference.construct.md)
-- [DOMImplementation »](class.domimplementation.md)
+Клас DOMException
 
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Клас DOMException
+-   [« DOMEntityReference::\_\_construct](domentityreference.construct.html)
+    
+-   [DOMImplementation »](class.domimplementation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOM](book.dom.html)
+    
+-   Клас DOMException
+    
 
 # Клас DOMException
 
@@ -11,60 +17,77 @@
 
 ## Вступ
 
-Операції DOM за певних обставин викидають винятки,
-наприклад, коли виконання операції неможливе зі зрозумілих причин.
+Операції DOM за певних обставин викидають винятки, наприклад, коли виконання операції неможливе зі зрозумілих причин.
 
-Дивіться також [Виключення](language.exceptions.md).
+Дивіться також [Исключения](language.exceptions.html)
 
 ## Огляд класів
 
-final class **DOMException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public int `$code`;
+    
+     
+      final
+      class DOMException
+     
 
-/\* Наслідувані властивості \*/
+     
+      extends
+       Exception
+     
+     {
 
-protected string `$message` = "";
+    /* Свойства */
+    
+     public
+     int
+      $code;
 
-private string `$string` = "";
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`code`
+code
+
 Ціло число, що вказує тип помилки, що відбулася

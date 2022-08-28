@@ -1,9 +1,15 @@
-- [« mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)
-- [mysql_xdevapi\CrudOperationLimitable »](class.mysql-xdevapi-crudoperationlimitable.md)
+Прив'язує значення до заповнювача
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)
-- Прив'язує значення до заповнювача
+-   [« mysql\_xdevapi\\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
+    
+-   [mysql\_xdevapi\\CrudOperationLimitable »](class.mysql-xdevapi-crudoperationlimitable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.html)
+    
+-   Прив'язує значення до заповнювача
+    
 
 # CrudOperationBindable::bind
 
@@ -13,20 +19,20 @@ CrudOperationBindable::bind — Прив'язує значення до запо
 
 ### Опис
 
-abstract public **mysql_xdevapi\CrudOperationBindable::bind**(array
-`$placeholder_values`):
-[mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)
+```methodsynopsis
+abstract public mysql_xdevapi\CrudOperationBindable::bind(array $placeholder_values): mysql_xdevapi\CrudOperationBindable
+```
 
 Прив'язує значення до певного наповнювача.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `placeholder_values`
+
 Ім'я заповнювачів та значення для прив'язки.
 
 ### Значення, що повертаються
@@ -35,7 +41,13 @@ abstract public **mysql_xdevapi\CrudOperationBindable::bind**(array
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CrudOperationBindable::bind()****
+**Приклад #1 Приклад використання **mysqlxdevapiCrudOperationBindable::bind()****
 
-` <?php$res = $coll->modify('name like :name')->arrayInsert('job[0]', 'Calciatore')->bind(['name' => 'ENTITY']) ->execute();$res = $table->delete()->orderby('age desc')->where('age < 20 and age >>12 and name != :name')->bind([ 'name' => 'Tierney'])->limit(2)->execute();?> `
+```php
+<?php
+
+$res = $coll->modify('name like :name')->arrayInsert('job[0]', 'Calciatore')->bind(['name' => 'ENTITY'])->execute();
+$res = $table->delete()->orderby('age desc')->where('age < 20 and age > 12 and name != :name')->bind(['name' => 'Tierney'])->limit(2)->execute();
+
+?>
+```

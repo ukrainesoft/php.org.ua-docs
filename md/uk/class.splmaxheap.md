@@ -1,73 +1,65 @@
-- [« SplHeap::valid](splheap.valid.md)
-- [SplMaxHeap::compare »](splmaxheap.compare.md)
+Клас SplMaxHeap
 
-- [PHP Manual](index.md)
-- [Структури даних](spl.datastructures.md)
-- Клас SplMaxHeap
+-   [« SplHeap::valid](splheap.valid.html)
+    
+-   [SplMaxHeap::compare »](splmaxheap.compare.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](spl.datastructures.html)
+    
+-   Клас SplMaxHeap
+    
 
 # Клас SplMaxHeap
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SplMaxHeap надає основні функціональні можливості купи,
-зберігаючи максимальний елемент зверху.
+Клас SplMaxHeap надає основні функціональні можливості купи, зберігаючи максимальний елемент нагорі.
 
 ## Огляд класів
 
-class **SplMaxHeap** extends [SplHeap](class.splheap.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-protected
-[compare](splmaxheap.compare.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value1`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value2`): int
+    
+     
+      class SplMaxHeap
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       SplHeap
+     
+     {
 
-protected
-[SplHeap::compare](splheap.compare.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value1`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value2`): int
+    /* Методы */
+    
+   protected compare(mixed $value1, mixed $value2): int
 
-public [SplHeap::count](splheap.count.md)(): int
 
-public [SplHeap::current](splheap.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Наследуемые методы */
+    protected SplHeap::compare(mixed $value1, mixed $value2): int
+public SplHeap::count(): int
+public SplHeap::current(): mixed
+public SplHeap::extract(): mixed
+public SplHeap::insert(mixed $value): bool
+public SplHeap::isCorrupted(): bool
+public SplHeap::isEmpty(): bool
+public SplHeap::key(): int
+public SplHeap::next(): void
+public SplHeap::recoverFromCorruption(): bool
+public SplHeap::rewind(): void
+public SplHeap::top(): mixed
+public SplHeap::valid(): bool
 
-public [SplHeap::extract](splheap.extract.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[SplHeap::insert](splheap.insert.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
-
-public [SplHeap::isCorrupted](splheap.iscorrupted.md)(): bool
-
-public [SplHeap::isEmpty](splheap.isempty.md)(): bool
-
-public [SplHeap::key](splheap.key.md)(): int
-
-public [SplHeap::next](splheap.next.md)(): void
-
-public
-[SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.md)():
-bool
-
-public [SplHeap::rewind](splheap.rewind.md)(): void
-
-public [SplHeap::top](splheap.top.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [SplHeap::valid](splheap.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [SplMaxHeap::compare](splmaxheap.compare.md) — Порівнює
-елементи, щоб під час сортування коректно розмістити їх у купі
+-   [SplMaxHeap::compare](splmaxheap.compare.html) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі

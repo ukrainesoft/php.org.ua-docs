@@ -1,22 +1,27 @@
-- [« Yaf_Plugin_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.md)
-- [Yaf_Plugin_Abstract::postDispatch »](yaf-plugin-abstract.postdispatch.md)
+Хук перед відправкою циклу
 
-- [PHP Manual](index.md)
-- [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-- Хук перед відправкою циклу
+-   [« Yaf\_Plugin\_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.html)
+    
+-   [Yaf\_Plugin\_Abstract::postDispatch »](yaf-plugin-abstract.postdispatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
+    
+-   Хук перед відправкою циклу
+    
 
-# Yaf_Plugin_Abstract::dispatchLoopStartup
+# YafPluginAbstract::dispatchLoopStartup
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Plugin_Abstract::dispatchLoopStartup — Гук перед відправкою циклу
+YafPluginAbstract::dispatchLoopStartup — Гук перед відправкою циклу
 
 ### Опис
 
-public
-**Yaf_Plugin_Abstract::dispatchLoopStartup**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`, [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-`$response`): void
+```methodsynopsis
+public Yaf_Plugin_Abstract::dispatchLoopStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response): void
+```
 
 ### Список параметрів
 

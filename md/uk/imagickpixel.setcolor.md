@@ -1,9 +1,15 @@
-- [« ImagickPixel::isSimilar](imagickpixel.issimilar.md)
-- [ImagickPixel::setColorCount »](imagickpixel.setcolorcount.md)
+Встановлює колір
 
-- [PHP Manual](index.md)
-- [ImagickPixel](class.imagickpixel.md)
-- Встановлює колір
+-   [« ImagickPixel::isSimilar](imagickpixel.issimilar.html)
+    
+-   [ImagickPixel::setColorCount »](imagickpixel.setcolorcount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickPixel](class.imagickpixel.html)
+    
+-   Встановлює колір
+    
 
 # ImagickPixel::setColor
 
@@ -13,29 +19,53 @@ ImagickPixel::setColor — Встановлює колір
 
 ### Опис
 
-public **ImagickPixel::setColor**(string `$color`): bool
+```methodsynopsis
+public ImagickPixel::setColor(string $color): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Встановлює колір об'єкта ImagickPixel зазначеним рядком (наприклад
-"blue", "#0000ff", "rgb(0,0,255)", "cmyk(100,100,100,10)" і т.д.).
+Встановлює колір об'єкта ImagickPixel зазначеним рядком (наприклад, "blue", "#0000ff", "rgb(0,0,255)", "cmyk(100,100,100,10)" і т.д.).
 
 ### Список параметрів
 
-`col`
-Визначення кольору для використання у порядку ініціалізації об'єкта
-ImagickPixel.
+`color`
+
+Визначення кольору для використання у порядку ініціалізації об'єкта ImagickPixel.
 
 ### Значення, що повертаються
 
-Повертає **`true`** якщо колір був встановлений, інакше
-**`false`**.
+Повертає **`true`** якщо колір був встановлений, інакше **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ImagickPixel::setColor()****
 
-` <?phpfunction setColor() {    $draw = new \ImagickDraw(); $strokeColor = new \ImagickPixel('green'); $fillColor= new \ImagickPixel(); $fillColor->setColor('rgba(100%, 75%, 0%, 1.0)'); $draw->setstrokewidth(3.0); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->rectangle(200, 200, 300, 300); $image = new \Imagick(); $image->newImage(500, 500, "SteelBlue2"); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+```php
+<?php
+function setColor() {
+    $draw = new \ImagickDraw();
+
+    $strokeColor = new \ImagickPixel('green');
+    $fillColor = new \ImagickPixel();
+    $fillColor->setColor('rgba(100%, 75%, 0%, 1.0)');
+
+    $draw->setstrokewidth(3.0);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle(200, 200, 300, 300);
+
+    $image = new \Imagick();
+    $image->newImage(500, 500, "SteelBlue2");
+    $image->setImageFormat("png");
+
+    $image->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
+}
+
+?>
+```

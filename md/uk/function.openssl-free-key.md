@@ -1,28 +1,33 @@
-- [« openssl_error_string](function.openssl-error-string.md)
-- [openssl_get_cert_locations »](function.openssl-get-cert-locations.md)
+Вивільнення ресурсу ключа
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Вивільнення ресурсу ключа
+-   [« openssl\_error\_string](function.openssl-error-string.html)
+    
+-   [openssl\_get\_cert\_locations »](function.openssl-get-cert-locations.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Вивільнення ресурсу ключа
+    
 
-# openssl_free_key
+# opensslfreekey
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-openssl_free_key — Вивільнення ресурсу ключа
+opensslfreekey — Вивільнення ресурсу ключа
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**openssl_free_key**([OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)
-`$key`): void
+```methodsynopsis
+openssl_free_key(OpenSSLAsymmetricKey $key): void
+```
 
-**openssl_free_key()** видаляє ключ, пов'язаний із заданим
-ідентифікатором `key` із пам'яті.
+**opensslfreekey()** видаляє ключ, пов'язаний із заданим ідентифікатором `key` із пам'яті.
 
 ### Список параметрів
 
@@ -32,9 +37,9 @@ openssl_free_key — Вивільнення ресурсу ключа
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                       |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла, оскільки не має сенсу.                                                                                                                  |
-| 8.0.0  | key тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймала ресурс ([resource](language.types.resource.md)) типу OpenSSL key. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла, оскільки не має сенсу. |
+|  | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймала ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |

@@ -1,32 +1,42 @@
-- [«FFI::memcpy](ffi.memcpy.md)
-- [FFI::new »](ffi.new.md)
+Заповнити область пам'яті
 
-- [PHP Manual](index.md)
-- [FFI](class.ffi.md)
-- Заповнити область пам'яті
+-   [« FFI::memcpy](ffi.memcpy.html)
+    
+-   [FFI::new »](ffi.new.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI](class.ffi.html)
+    
+-   Заповнити область пам'яті
+    
 
 # FFI::memset
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 FFI::memset — Заповнити область пам'яті
 
 ### Опис
 
-public static **FFI::memset**([FFI\CData](class.ffi-cdata.md) `&$ptr`,
-int `$value`, int `$size`): void
+```methodsynopsis
+public static FFI::memset(FFI\CData &$ptr, int $value, int $size): void
+```
 
-Заповнює `size` байт пам'яті за вказівником `ptr` значенням `value`.
+Заповнює `size` байт пам'яті за вказівником `ptr` значенням `value`
 
 ### Список параметрів
 
 `ptr`
+
 Вказівник початку ділянки пам'яті.
 
 `value`
+
 Значення заповнення.
 
 `size`
+
 Кількість байт, які будуть заповнені.
 
 ### Значення, що повертаються

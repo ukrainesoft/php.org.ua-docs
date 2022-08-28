@@ -1,20 +1,27 @@
-- [« SplHeap::rewind](splheap.rewind.md)
-- [SplHeap::valid »](splheap.valid.md)
+Повертає вузол, що знаходиться на вершині купи
 
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Повертає вузол, що знаходиться на вершині купи
+-   [« SplHeap::rewind](splheap.rewind.html)
+    
+-   [SplHeap::valid »](splheap.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplHeap](class.splheap.html)
+    
+-   Повертає вузол, що знаходиться на вершині купи
+    
 
 # SplHeap::top
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::top — Повертає вузол, що знаходиться на вершині купи
 
 ### Опис
 
-public **SplHeap::top**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplHeap::top(): mixed
+```
 
 ### Список параметрів
 
@@ -26,5 +33,4 @@ public **SplHeap::top**():
 
 ### Помилки
 
-Якщо структура даних вузла виявиться порожньою, буде викинуто виняток
-[RuntimeException](class.runtimeexception.md).
+Якщо структура даних вузла виявиться порожньою, буде викинуто виняток [RuntimeException](class.runtimeexception.html)

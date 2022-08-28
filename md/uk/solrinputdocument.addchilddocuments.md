@@ -1,28 +1,35 @@
-- [« SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.md)
-- [SolrInputDocument::addField »](solrinputdocument.addfield.md)
+Додає масив дочірніх документів
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Додає масив дочірніх документів
+-   [« SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.html)
+    
+-   [SolrInputDocument::addField »](solrinputdocument.addfield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Додає масив дочірніх документів
+    
 
 # SolrInputDocument::addChildDocuments
 
-(PECL solr \>= 2.3.0)
+(PECL solr> = 2.3.0)
 
-SolrInputDocument::addChildDocuments — Додає масив дочірніх
-документів
+SolrInputDocument::addChildDocuments — Додає масив дочірніх документів
 
 ### Опис
 
-public **SolrInputDocument::addChildDocuments**(array `&$docs`): void
+```methodsynopsis
+public SolrInputDocument::addChildDocuments(array &$docs): void
+```
 
 Додає масив дочірніх документів до поточного вхідного документа.
 
 ### Список параметрів
 
 `docs`
-Масив (array) об'єктів
-[SolrInputDocument](class.solrinputdocument.md).
+
+Масив (array) об'єктів [SolrInputDocument](class.solrinputdocument.html)
 
 ### Значення, що повертаються
 
@@ -30,38 +37,85 @@ public **SolrInputDocument::addChildDocuments**(array `&$docs`): void
 
 ### Помилки
 
-Викидає виняток
-[SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-у разі виникнення помилки.
+Викидає виняток [SolrIllegalArgumentException](class.solrillegalargumentexception.html) у разі виникнення помилки.
 
-Викидає виняток [SolrException](class.solrexception.md)
-у разі виникнення внутрішньої помилки.
+Викидає виняток [SolrException](class.solrexception.html) у разі виникнення внутрішньої помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrInputDocument::addChildDocuments()****
+**Приклад #1 Приклад використання **SolrInputDocument::addChildDocuments()****
 
-` <?phpinclude "bootstrap.php";$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,    'path'     => SOLR_SERVER_STORE_PATH, );$client = new SolrClient($options);$product = new SolrInputDocument();$product->addField('id', 'P-BLACK');$product->addField('cat', 'tshirt' );$product->addField('cat', 'polo');$product->addField('content_type', 'product');$small = new SolrInputDocument();$small->addField('id', 'TS-BLK-S');$small->addField('content_type', 'sku');$small->addField('size', 'S');$small->addField('inventory', 100 );$medium = new SolrInputDocument();$medium->addField('id', 'TS-BLK-M');$medium->addField('content_type', 'sku');$medium->addField( 'size', 'M');$medium->addField('inventory', 200);$large = new SolrInputDocument();$large->addField('id', 'TS-BLK-L');$ large->addField('content_type', 'sku');$large->addField('size', 'L');$large->addField('inventory', 300);// додати дочірні документи$skus = [$small, $medium, $large];$product->addChildDocuments($skus);// додати блок документу продукту в індекс$updateResponse = $                          перезаписати, якщо документ існує         10000 // зафіксувати протягом 10 секунд);print_r($updateResponse->getResponse()); `
+```php
+<?php
+
+include "bootstrap.php";
+
+$options = array
+(
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
+    'path'     => SOLR_SERVER_STORE_PATH,
+);
+
+$client = new SolrClient($options);
+
+$product = new SolrInputDocument();
+
+$product->addField('id', 'P-BLACK');
+$product->addField('cat', 'tshirt');
+$product->addField('cat', 'polo');
+$product->addField('content_type', 'product');
+
+$small = new SolrInputDocument();
+$small->addField('id', 'TS-BLK-S');
+$small->addField('content_type', 'sku');
+$small->addField('size', 'S');
+$small->addField('inventory', 100);
+
+$medium = new SolrInputDocument();
+$medium->addField('id', 'TS-BLK-M');
+$medium->addField('content_type', 'sku');
+$medium->addField('size', 'M');
+$medium->addField('inventory', 200);
+
+$large = new SolrInputDocument();
+$large->addField('id', 'TS-BLK-L');
+$large->addField('content_type', 'sku');
+$large->addField('size', 'L');
+$large->addField('inventory', 300);
+
+// добавить дочерние документы
+$skus = [$small, $medium, $large];
+$product->addChildDocuments($skus);
+
+// добавить блок документа продукта в индекс
+$updateResponse = $client->addDocument(
+        $product,
+        true, // перезаписать, если документ существует
+        10000 // зафиксировать в течение 10 секунд
+);
+
+print_r($updateResponse->getResponse());
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 SolrObject Object
 (
-[responseHeader] => SolrObject Object
-(
-[status] => 0
-[QTime] => 5
+    [responseHeader] => SolrObject Object
+        (
+            [status] => 0
+            [QTime] => 5
+        )
 )
-)
+```
 
 ### Дивіться також
 
-- [SolrInputDocument::addChildDocument()](solrinputdocument.addchilddocument.md) -
-Додає дочірній документ для блокової індексації
-- [SolrInputDocument::hasChildDocuments()](solrinputdocument.haschilddocuments.md) -
-Повертає true, якщо документ має дочірні документи
-- [SolrInputDocument::getChildDocuments()](solrinputdocument.getchilddocuments.md) -
-Повертає масив дочірніх документів (SolrInputDocument)
-- [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.md) -
-Повертає кількість дочірніх документів
+-   [SolrInputDocument::addChildDocument()](solrinputdocument.addchilddocument.html) - Додає дочірній документ для блокової індексації
+-   [SolrInputDocument::hasChildDocuments()](solrinputdocument.haschilddocuments.html) - Повертає true, якщо документ має дочірні документи
+-   [SolrInputDocument::getChildDocuments()](solrinputdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrInputDocument)
+-   [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.html) - Повертає кількість дочірніх документів

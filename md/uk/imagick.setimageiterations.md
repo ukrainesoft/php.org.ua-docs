@@ -1,9 +1,15 @@
-- [« Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.md)
-- [Imagick::setImageMatte »](imagick.setimagematte.md)
+Встановлює ітерацію зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює ітерацію зображення
+-   [« Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.html)
+    
+-   [Imagick::setImageMatte »](imagick.setimagematte.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює ітерацію зображення
+    
 
 # Imagick::setImageIterations
 
@@ -13,20 +19,21 @@ Imagick::setImageIterations — Встановлює ітерацію зобра
 
 ### Опис
 
-public **Imagick::setImageIterations**(int `$iterations`): bool
+```methodsynopsis
+public Imagick::setImageIterations(int $iterations): bool
+```
 
-Встановлює кількість ітерацій, коли анімоване зображення
-повторюється.
+Встановлює кількість ітерацій, коли анімоване зображення повторюється.
 
 ### Список параметрів
 
 `iterations`
-Число ітерацій, які зображення має повторити. Використовуйте
-значення '0' для безперервного повторення.
+
+Число ітерацій, які зображення має повторити. Використовуйте '0' для безперервного повторення.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -36,4 +43,16 @@ public **Imagick::setImageIterations**(int `$iterations`): bool
 
 **Приклад #1 Приклад використання **Imagick::setImageIterations()****
 
-` <?php$imagick = new Imagick(realpath("Test.gif"));$imagick = $imagick->coalesceImages();$imagick->setImageIterations(1);$imagick = $imagick->deconstructImages() ;$imagick->writeImages('/path/to/save/OnceOnly.gif', true);?> `
+```php
+<?php
+
+$imagick = new Imagick(realpath("Test.gif"));
+
+$imagick = $imagick->coalesceImages();
+$imagick->setImageIterations(1);
+$imagick = $imagick->deconstructImages();
+
+$imagick->writeImages('/path/to/save/OnceOnly.gif', true);
+
+?>
+```

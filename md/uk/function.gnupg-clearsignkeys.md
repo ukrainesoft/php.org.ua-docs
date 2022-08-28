@@ -1,39 +1,54 @@
-- [«gnupg_clearencryptkeys](function.gnupg-clearencryptkeys.md)
-- [gnupg_decrypt »](function.gnupg-decrypt.md)
+Видаляє всі ключі, які були встановлені для підписання раніше
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Видаляє всі ключі, які були встановлені для підписання раніше
+-   [« gnupg\_clearencryptkeys](function.gnupg-clearencryptkeys.html)
+    
+-   [gnupg\_decrypt »](function.gnupg-decrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Видаляє всі ключі, які були встановлені для підписання раніше
+    
 
-#gnupg_clearsignkeys
+# gnupgclearsignkeys
 
-(PECL gnupg \>= 0.5)
+(PECL gnupg >= 0.5)
 
-gnupg_clearsignkeys — Видаляє всі ключі, встановлені для
-підписання раніше
+gnupgclearsignkeys — Видалення всіх ключів, які були встановлені для підписання раніше
 
 ### Опис
 
-**gnupg_clearsignkeys**(resource `$identifier`): bool
+```methodsynopsis
+gnupg_clearsignkeys(resource $identifier): bool
+```
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupg_clearsignkeys()****
+**Приклад #1 Процедурний приклад використання **gnupgclearsignkeys()****
 
-` <?php$res = gnupg_init();gnupg_clearsignkeys($res);?> `
+```php
+<?php
+$res = gnupg_init();
+gnupg_clearsignkeys($res);
+?>
+```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання
-**gnupg_clearsignkeys()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgclearsignkeys()****
 
-` <?php$gpg = new gnupg();$gpg->clearsignkeys();?> `
+```php
+<?php
+$gpg = new gnupg();
+$gpg->clearsignkeys();
+?>
+```

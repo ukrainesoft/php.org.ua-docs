@@ -1,20 +1,27 @@
-- [« VarnishAdmin::\_\_construct](varnishadmin.construct.md)
-- [VarnishAdmin::getPanic »](varnishadmin.getpanic.md)
+Відключення від інтерфейсу адміністрування екземпляра varnish
 
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Відключення від інтерфейсу адміністрування екземпляра varnish
+-   [« VarnishAdmin::\_\_construct](varnishadmin.construct.html)
+    
+-   [VarnishAdmin::getPanic »](varnishadmin.getpanic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [VarnishAdmin](class.varnishadmin.html)
+    
+-   Відключення від інтерфейсу адміністрування екземпляра varnish
+    
 
 # VarnishAdmin::disconnect
 
-(PECL varnish => 1.0.0)
+(PECL varnish >= 1.0.0)
 
-VarnishAdmin::disconnect — Відключення від інтерфейсу адміністрування
-екземпляра varnish
+VarnishAdmin::disconnect — Відключення від інтерфейсу адміністрування примірника varnish
 
 ### Опис
 
-public **VarnishAdmin::disconnect**(): bool
+```methodsynopsis
+public VarnishAdmin::disconnect(): bool
+```
 
 ### Список параметрів
 
@@ -22,5 +29,4 @@ public **VarnishAdmin::disconnect**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

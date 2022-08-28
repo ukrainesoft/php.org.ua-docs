@@ -1,19 +1,27 @@
-- [« Ds\Queue::\_\_construct](ds-queue.construct.md)
-- [Ds\Queue::count »](ds-queue.count.md)
+Повертає поверхневу копію черги
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Повертає поверхневу копію черги
+-   [« Ds\\Queue::\_\_construct](ds-queue.construct.html)
+    
+-   [Ds\\Queue::count »](ds-queue.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь](class.ds-queue.html)
+    
+-   Повертає поверхневу копію черги
+    
 
-# Ds\Queue::copy
+# ДсQueue::copy
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Queue::copy — Повертає поверхневу копію черги
+ДсQueue::copy — Повертає поверхневу копію черги
 
 ### Опис
 
-public **Ds\Queue::copy**(): [Ds\Queue](class.ds-queue.md)
+```methodsynopsis
+public Ds\Queue::copy(): Ds\Queue
+```
 
 Повертає поверхневу копію черги.
 
@@ -27,22 +35,35 @@ public **Ds\Queue::copy**(): [Ds\Queue](class.ds-queue.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::copy()****
+**Приклад #1 Приклад використання **ДсQueue::copy()****
 
-` <?php$a = new \Ds\Queue([1, 2, 3]);$b = $a->copy();// Зміна копії не відбивається на оригіналі$b->push(4); print_r($a);print_r($b);?> `
+```php
+<?php
+$a = new \Ds\Queue([1, 2, 3]);
+$b = $a->copy();
+
+// Изменение копии не отражается на оригинале
+$b->push(4);
+
+print_r($a);
+print_r($b);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Queue Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Queue Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
 )
+```

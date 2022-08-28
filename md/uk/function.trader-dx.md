@@ -1,40 +1,46 @@
-- [ trader_div](function.trader-div.md)
-- [trader_ema»](function.trader-ema.md)
+Індекс спрямованого руху
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- індекс спрямованого руху
+-   [« trader\_div](function.trader-div.html)
+    
+-   [trader\_ema »](function.trader-ema.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Індекс спрямованого руху
+    
 
-# trader_dx
+# traderдкс
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_dx - Індекс спрямованого руху
+traderdx - Індекс спрямованого руху
 
 ### Опис
 
-**trader_dx**(
-array `$high`,
-array `$low`,
-array `$close`,
-int `$timePeriod` = ?
-): array
+```methodsynopsis
+trader_dx(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

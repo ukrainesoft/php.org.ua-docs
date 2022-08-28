@@ -1,20 +1,27 @@
-- [« Ds\Sequence::merge](ds-sequence.merge.md)
-- [Ds\Sequence::push »](ds-sequence.push.md)
+Видаляє та повертає останнє значення
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Видаляє та повертає останнє значення
+-   [« Ds\\Sequence::merge](ds-sequence.merge.html)
+    
+-   [Ds\\Sequence::push »](ds-sequence.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Последовательность](class.ds-sequence.html)
+    
+-   Видаляє та повертає останнє значення
+    
 
-# Ds\Sequence::pop
+# ДсSequence::pop
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Sequence::pop — Видаляє та повертає останнє значення
+ДсSequence::pop — Видаляє та повертає останнє значення
 
 ### Опис
 
-abstract public **Ds\Sequence::pop**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract public Ds\Sequence::pop(): mixed
+```
 
 Видаляє та повертає останнє значення.
 
@@ -28,18 +35,26 @@ abstract public **Ds\Sequence::pop**():
 
 ### Помилки
 
-Викидає виняток
-[UnderflowException](class.underflowexception.md), якщо колекція
-порожня.
+Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::pop()****
+**Приклад #1 Приклад використання **ДсSequence::pop()****
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->pop());var_dump($sequence->pop());var_dump($sequence-> pop());?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+
+var_dump($sequence->pop());
+var_dump($sequence->pop());
+var_dump($sequence->pop());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(3)
 int(2)
 int(1)
+```

@@ -1,24 +1,29 @@
-- [« sodium_crypto_sign](function.sodium-crypto-sign.md)
-- [sodium_crypto_stream_xchacha20_keygen »](function.sodium-crypto-stream-xchacha20-keygen.md)
+Генерує випадковий ключ.cryptostream
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Генерує випадковий ключ sodium_crypto_stream
+-   [« sodium\_crypto\_sign](function.sodium-crypto-sign.html)
+    
+-   [sodium\_crypto\_stream\_xchacha20\_keygen »](function.sodium-crypto-stream-xchacha20-keygen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Генерує випадковий ключ.cryptostream
+    
 
-# sodium_crypto_stream_keygen
+# sodiumcryptostreamkeygen
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_stream_keygen - Генерує випадковий ключ
-sodium_crypto_stream
+sodiumcryptostreamkeygen - Генерує випадковий ключ sodiumcryptostream
 
 ### Опис
 
-**sodium_crypto_stream_keygen**(): string
+```methodsynopsis
+sodium_crypto_stream_keygen(): string
+```
 
-Створює ключ, який використовується в
-[sodium_crypto_stream()](function.sodium-crypto-stream.md) та
-[sodium_crypto_stream_xor()](function.sodium-crypto-stream-xor.md).
+Створює ключ, який використовується в [sodium\_crypto\_stream()](function.sodium-crypto-stream.html) і [sodium\_crypto\_stream\_xor()](function.sodium-crypto-stream-xor.html)
 
 ### Список параметрів
 

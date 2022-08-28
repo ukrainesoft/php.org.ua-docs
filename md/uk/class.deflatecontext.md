@@ -1,9 +1,15 @@
-- [« zlib_get_coding_type](function.zlib-get-coding-type.md)
-- [InflateContext »](class.inflatecontext.md)
+Клас DeflateContext
 
-- [PHP Manual](index.md)
-- [Zlib](book.zlib.md)
-- Клас DeflateContext
+-   [« zlib\_get\_coding\_type](function.zlib-get-coding-type.html)
+    
+-   [InflateContext »](class.inflatecontext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zlib](book.zlib.html)
+    
+-   Клас DeflateContext
+    
 
 # Клас DeflateContext
 
@@ -11,11 +17,20 @@
 
 ## Вступ
 
-Повністю непрозорий клас, який замінює ресурси `zlib.deflate` в PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `zlib.deflate` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **DeflateContext** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class DeflateContext
+     
+     {
+   }
+```

@@ -1,24 +1,29 @@
-- [« MongoDB\BSON\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md)
-- [MongoDB\BSON\MaxKeyInterface »](class.mongodb-bson-maxkeyinterface.md)
+Повертає код JavascriptInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\JavascriptInterface](class.mongodb-bson-javascriptinterface.md)
-- Повертає код JavascriptInterface
+-   [« MongoDB\\BSON\\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.html)
+    
+-   [MongoDB\\BSON\\MaxKeyInterface »](class.mongodb-bson-maxkeyinterface.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)
+    
+-   Повертає код JavascriptInterface
+    
 
-# MongoDB\BSON\JavascriptInterface::\_\_toString
+# MongoDBBSONJavascriptInterface::toString
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
-MongoDB\BSON\JavascriptInterface::\_\_toString — Повертає код
-JavascriptInterface
+MongoDBBSONJavascriptInterface::toString — Повертає код JavascriptInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\JavascriptInterface::\_\_toString**():
-string
+```methodsynopsis
+abstract public MongoDB\BSON\JavascriptInterface::__toString(): string
+```
 
-Цей метод є псевдонімом:
-[MongoDB\BSON\JavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.md).
+Цей метод є псевдонімом: [MongoDB\\BSON\\JavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.html)
 
 ### Список параметрів
 
@@ -30,7 +35,5 @@ string
 
 ### Дивіться також
 
-- [MongoDB\BSON\JavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.md) -
-Повертає код JavascriptInterface
-- [MongoDB\BSON\Javascript::\_\_toString()](mongodb-bson-javascript.tostring.md) -
-Повертає код JavaScript
+-   [MongoDB\\BSON\\JavascriptInterface::getCode()](mongodb-bson-javascriptinterface.getcode.html) - Повертає код JavascriptInterface
+-   [MongoDB\\BSON\\Javascript::\_\_toString()](mongodb-bson-javascript.tostring.html) - Повертає код JavaScript

@@ -1,40 +1,42 @@
-- [« fann_get_train_stop_function](function.fann-get-train-stop-function.md)
-- [fann_init_weights »](function.fann-init-weights.md)
+Повертає алгоритм навчання
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає алгоритм навчання
+-   [« fann\_get\_train\_stop\_function](function.fann-get-train-stop-function.html)
+    
+-   [fann\_init\_weights »](function.fann-init-weights.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає алгоритм навчання
+    
 
-# fann_get_training_algorithm
+# fanngettrainingalgorithm
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_training_algorithm — Повертає алгоритм навчання
+fanngettrainingalgorithm - Повертає алгоритм навчання
 
 ### Опис
 
-**fann_get_training_algorithm**(resource `$ann`): int
+```methodsynopsis
+fann_get_training_algorithm(resource $ann): int
+```
 
-Повертає алгоритм навчання. Цей алгоритм навчання використовується
-[fann_train_on_data()](function.fann-train-on-data.md) та пов'язаними
-функціями.
+Повертає алгоритм навчання. Цей алгоритм навчання використовується [fann\_train\_on\_data()](function.fann-train-on-data.html) та пов'язаними функціями.
 
-Зверніть увагу, що цей алгоритм також використовується під час
-[fann_cascadetrain_on_data()](function.fann-cascadetrain-on-data.md),
-хоча під час каскадного навчання дозволено тільки
-**`FANN_TRAIN_RPROP`** and **`FANN_TRAIN_QUICKPROP`**.
+Зверніть увагу, що цей алгоритм також використовується під час [fann\_cascadetrain\_on\_data()](function.fann-cascadetrain-on-data.html), хоча під час каскадного навчання дозволено лише **`FANN_TRAIN_RPROP`** and **`FANN_TRAIN_QUICKPROP`**
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Константа [Алгоритма навчання](fann.constants.md#constants.fann-train)
-або **`false`** у разі виникнення помилки.
+Константа [Алгоритма обучения](fann.constants.html#constants.fann-train) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_training_algorithm()](function.fann-set-training-algorithm.md) -
-Встановлює алгоритм навчання
+-   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

@@ -1,19 +1,27 @@
-- [« LuaSandbox::callFunction](luasandbox.callfunction.md)
-- [LuaSandbox::enableProfiler »](luasandbox.enableprofiler.md)
+Вимикає профільник
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- відключає профільник
+-   [« LuaSandbox::callFunction](luasandbox.callfunction.html)
+    
+-   [LuaSandbox::enableProfiler »](luasandbox.enableprofiler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Вимикає профільник
+    
 
 # LuaSandbox::disableProfiler
 
-(PECL luasandbox \>= 1.1.0)
+(PECL luasandbox >= 1.1.0)
 
-LuaSandbox::disableProfiler — Вимикає профільник
+LuaSandbox::disableProfiler — Вимикає профільувальник
 
 ### Опис
 
-public **LuaSandbox::disableProfiler**(): void
+```methodsynopsis
+public LuaSandbox::disableProfiler(): void
+```
 
 Вимикає профільувальник.
 
@@ -27,7 +35,5 @@ public **LuaSandbox::disableProfiler**(): void
 
 ### Дивіться також
 
-- [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.md) -
-Включає профільник
-- [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) -
-Отримує дані профілювача
+-   [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.html) - Включає профільувальник
+-   [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.html) - Отримує дані профілювача

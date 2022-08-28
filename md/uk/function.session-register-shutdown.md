@@ -1,23 +1,29 @@
-- [« session_regenerate_id](function.session-regenerate-id.md)
-- [session_reset »](function.session-reset.md)
+Функція завершення сесії
 
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- Функція завершення сесії
+-   [« session\_regenerate\_id](function.session-regenerate-id.html)
+    
+-   [session\_reset »](function.session-reset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с сессиями](ref.session.html)
+    
+-   Функція завершення сесії
+    
 
-# session_register_shutdown
+# sessionregistershutdown
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-session_register_shutdown — Функція завершення сесії
+sessionregistershutdown - Функція завершення сесії
 
 ### Опис
 
-**session_register_shutdown**(): void
+```methodsynopsis
+session_register_shutdown(): void
+```
 
-Реєструє функцію
-[session_write_close()](function.session-write-close.md) як
-функції завершення сесії.
+Реєструє функцію [session\_write\_close()](function.session-write-close.html) як функція завершення сесії.
 
 ### Список параметрів
 
@@ -29,5 +35,4 @@ session_register_shutdown — Функція завершення сесії
 
 ### Помилки
 
-При невдалій реєстрації завершальної функції генерує помилку рівня
-**`E_WARNING`**.
+При невдалій реєстрації завершальної функції генерує помилку рівня **`E_WARNING`**

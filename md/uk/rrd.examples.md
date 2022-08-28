@@ -1,13 +1,19 @@
-- [«Зумовлені константи](rrd.constants.md)
-- [Процедурний приклад PECL/rrd »](rrd.examples-procedural.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
-- Приклади
+-   [« Предопределённые константы](rrd.constants.html)
+    
+-   [Процедурный пример PECL/rrd »](rrd.examples-procedural.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RRD](book.rrd.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Процедурний приклад PECL/rrd](rrd.examples-procedural.md)
-- [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.md)
+-   [Процедурный пример PECL/rrd](rrd.examples-procedural.html)
+-   [Объектно-ориентированный пример PECL/rrd](rrd.examples-oop.html)

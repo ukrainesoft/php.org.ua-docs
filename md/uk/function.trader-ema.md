@@ -1,29 +1,38 @@
-- [ trader_dx](function.trader-dx.md)
-- [trader_errno»](function.trader-errno.md)
+Експоненційна ковзна середня
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Експоненційна ковзна середня
+-   [« trader\_dx](function.trader-dx.html)
+    
+-   [trader\_errno »](function.trader-errno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Експоненційна ковзна середня
+    
 
-# trader_ema
+# traderema
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_ema - Експоненційна ковзна середня
+traderema - Експоненційна ковзна середня
 
 ### Опис
 
-**trader_ema**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_ema(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

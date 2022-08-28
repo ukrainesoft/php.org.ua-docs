@@ -1,15 +1,21 @@
-- [«Вступ](intro.rar.md)
-- [Вимоги »](rar.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Rar](book.rar.md)
+-   [« Введение](intro.rar.html)
+    
+-   [Требования »](rar.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Rar](book.rar.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](rar.requirements.md)
-- [Установка](rar.installation.md)
-- [Налаштування під час виконання](rar.configuration.md)
-- [Типи ресурсів](rar.resources.md)
+-   [Требования](rar.requirements.html)
+-   [Установка](rar.installation.html)
+-   [Настройка во время выполнения](rar.configuration.html)
+-   [Типы ресурсов](rar.resources.html)

@@ -1,28 +1,35 @@
-- [« GearmanWorker::timeout](gearmanworker.timeout.md)
-- [GearmanWorker::unregisterAll »](gearmanworker.unregisterall.md)
+Видалити реєстрацію імені функції на всіх серверах завдань
 
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Видалити реєстрацію імені функції на всіх серверах завдань
+-   [« GearmanWorker::timeout](gearmanworker.timeout.html)
+    
+-   [GearmanWorker::unregisterAll »](gearmanworker.unregisterall.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanWorker](class.gearmanworker.html)
+    
+-   Видалити реєстрацію імені функції на всіх серверах завдань
+    
 
 # GearmanWorker::unregister
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
-GearmanWorker::unregister — Видалити реєстрацію імені функції на всіх
-сервери завдань
+GearmanWorker::unregister — Видалити реєстрацію імені функції на всіх серверах завдань
 
 ### Опис
 
-public **GearmanWorker::unregister**(string `$function_name`): bool
+```methodsynopsis
+public GearmanWorker::unregister(string $function_name): bool
+```
 
-Знімає реєстрацію імені функції на всіх серверах завдань. Це означає,
-що цьому обробнику (цієї функції) завдання посилатися не будуть.
+Знімає реєстрацію імені функції на всіх серверах завдань. Це означає, що цього оброблювача (цієї функції) завдання посилатися більше не будуть.
 
 ### Список параметрів
 
 `function_name`
-Назва функції, реєстрацію якої потрібно зняти.
+
+Ім'я функції, реєстрацію якої потрібно зняти.
 
 ### Значення, що повертаються
 
@@ -30,7 +37,5 @@ public **GearmanWorker::unregister**(string `$function_name`): bool
 
 ### Дивіться також
 
-- [GearmanWorker::register()](gearmanworker.register.md) -
-Реєстрація функції на сервері завдань
-- [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.md) -
-Видалення реєстрації всіх імен функцій на серверах завдань
+-   [GearmanWorker::register()](gearmanworker.register.html) - Реєстрація функції на сервері завдань
+-   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.html) - Видалення реєстрації всіх імен функцій на серверах завдань

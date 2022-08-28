@@ -1,9 +1,15 @@
-- [« streamWrapper::rename](streamwrapper.rename.md)
-- [streamWrapper::stream_cast »](streamwrapper.stream-cast.md)
+Видаляє директорію
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Видаляє директорію
+-   [« streamWrapper::rename](streamwrapper.rename.html)
+    
+-   [streamWrapper::stream\_cast »](streamwrapper.stream-cast.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Видаляє директорію
+    
 
 # streamWrapper::rmdir
 
@@ -13,47 +19,42 @@ streamWrapper::rmdir — Видаляє директорію
 
 ### Опис
 
-public **streamWrapper::rmdir**(string `$path`, int `$options`): bool
+```methodsynopsis
+public streamWrapper::rmdir(string $path, int $options): bool
+```
 
-Цей метод викликається у процесі виконання
-[rmdir()](function.rmdir.md).
+Цей метод викликається у процесі виконання [rmdir()](function.rmdir.html)
 
-> **Примітка**:
->
-> Щоб повідомлення про помилки відповідали реальним помилкам, цей
-> метод *не потрібно* визначати у випадках, коли обгортка не підтримує
-> Видалення директорій.
+> **Зауваження**
+> 
+> Щоб повідомлення про помилки відповідали реальним помилкам, цей метод *не потрібно* визначати у випадках, коли обгортка не підтримує видалення директорій.
 
 ### Список параметрів
 
 `path`
+
 URL директорії, що видаляється.
 
 `options`
-Бітова маска, складена з констант, як
-**`STREAM_MKDIR_RECURSIVE`**.
+
+Бітова маска, складена з констант, начебто **`STREAM_MKDIR_RECURSIVE`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не
-удався (наприклад, не реалізований).
+Викликає помилку рівня **`E_WARNING`**, якщо виклик до цього методу не вдалося (наприклад, не реалізовано).
 
 ### Примітки
 
-> **Примітка**:
->
-> Властивість `streamWrapper::$context` буде оновлена, якщо коректна
-> контекст був переданий у функцію, що викликається.
+> **Зауваження**
+> 
+> Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
-- [rmdir()](function.rmdir.md) - Видаляє директорію
-- [streamwrapper::mkdir()](streamwrapper.mkdir.md) - Створення
-директорії
-- [streamwrapper::unlink()](streamwrapper.unlink.md) - Видалення
-файлу
+-   [rmdir()](function.rmdir.html) - видаляє директорію
+-   [streamwrapper::mkdir()](streamwrapper.mkdir.html) - створення директорії
+-   [streamwrapper::unlink()](streamwrapper.unlink.html) - Видалення файлу

@@ -1,58 +1,76 @@
-- [« Locale::getRegion](locale.getregion.md)
-- [Locale::lookup »](locale.lookup.md)
+Отримати алфавіт для локалі
 
-- [PHP Manual](index.md)
-- [Locale](class.locale.md)
-- Отримати алфавіт для локалі
+-   [« Locale::getRegion](locale.getregion.html)
+    
+-   [Locale::lookup »](locale.lookup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Locale](class.locale.html)
+    
+-   Отримати алфавіт для локалі
+    
 
 # Locale::getScript
 
-#local_get_script
+# localegetscript
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getScript -- locale_get_script — Отримати алфавіт для локалі
+Locale::getScript -- localegetscript — Отримати алфавіт для локалі
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public static **Locale::getScript**(string `$locale`): ?string
+```methodsynopsis
+public static Locale::getScript(string $locale): ?string
+```
 
 Процедурний стиль
 
-**locale_get_script**(string `$locale`): ?string
+```methodsynopsis
+locale_get_script(string $locale): ?string
+```
 
 Отримує абетку для локалі.
 
 ### Список параметрів
 
 `locale`
+
 Локаль для отримання алфавіту
 
 ### Значення, що повертаються
 
-Алфавіт, пов'язаний з локаллю або **`null`**, якщо відсутня.
+Алфавіт, пов'язаний з локаллю або **`null`**якщо відсутня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **locale_get_script()****
+**Приклад #1 Приклад використання **localegetscript()****
 
-`<?phpecho locale_get_script('sr-Cyrl');?> `
+```php
+<?php
+echo locale_get_script('sr-Cyrl');
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?phpecho Locale::getScript('sr-Cyrl');?> `
+```php
+<?php
+echo Locale::getScript('sr-Cyrl');
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Cyrl
+```
 
 ### Дивіться також
 
-- [locale_get_primary_language()](locale.getprimarylanguage.md) -
-Отримати первинну мову для локалі
-- [locale_get_region()](locale.getregion.md) - Отримати регіон для
-локалі
-- [locale_get_all_variants()](locale.getallvariants.md) - Отримання
-варіантів із переданої локалі
+-   [locale\_get\_primary\_language()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
+-   [locale\_get\_region()](locale.getregion.html) - Отримати регіон для локалі
+-   [locale\_get\_all\_variants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі

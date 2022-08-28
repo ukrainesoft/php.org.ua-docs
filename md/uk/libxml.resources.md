@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](libxml.configuration.md)
-- [Предвизначені константи »](libxml.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](libxml.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](libxml.configuration.html)
+    
+-   [Предопределённые константы »](libxml.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](libxml.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

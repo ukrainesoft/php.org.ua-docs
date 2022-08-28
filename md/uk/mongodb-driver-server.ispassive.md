@@ -1,23 +1,29 @@
-- [« MongoDB\Driver\Server::isHidden](mongodb-driver-server.ishidden.md)
-- [MongoDB\Driver\Server::isPrimary »](mongodb-driver-server.isprimary.md)
+Перевіряє, чи є сервер пасивним членом набору реплік.
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Перевіряє, чи є сервер пасивним членом набору реплік
+-   [« MongoDB\\Driver\\Server::isHidden](mongodb-driver-server.ishidden.html)
+    
+-   [MongoDB\\Driver\\Server::isPrimary »](mongodb-driver-server.isprimary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+    
+-   Перевіряє, чи є сервер пасивним членом набору реплік.
+    
 
-# MongoDB\Driver\Server::isPassive
+# MongoDBDriverServer::isPassive
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\Server::isPassive — Перевіряє, чи є сервер
-пасивним членом набору реплік
+MongoDBDriverServer::isPassive — Перевіряє, чи є сервер пасивним членом набору реплік
 
 ### Опис
 
-final public **MongoDB\Driver\Server::isPassive**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Server::isPassive(): bool
+```
 
-Повертає, чи є сервер [» пасивним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-passive-member)
-набору реплік (тобто його пріоритет дорівнює `0`).
+Повертає, чи є цей сервер [» пассивным членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-passive-member) набору реплік (тобто його пріоритет дорівнює `0`
 
 ### Список параметрів
 
@@ -25,15 +31,12 @@ final public **MongoDB\Driver\Server::isPassive**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цей сервер є пасивним членом набору
-реплік, і **`false`** інакше.
+Повертає **`true`**, якщо цей сервер є пасивним членом набору реплік, та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

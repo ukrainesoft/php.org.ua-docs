@@ -1,22 +1,28 @@
-- [«ldap_parse_exop](function.ldap-parse-exop.md)
-- [ldap_parse_result »](function.ldap-parse-result.md)
+Витягує інформацію з довідника
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Витягує інформацію з довідника
+-   [« ldap\_parse\_exop](function.ldap-parse-exop.html)
+    
+-   [ldap\_parse\_result »](function.ldap-parse-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Витягує інформацію з довідника
+    
 
-#ldap_parse_reference
+# ldapparsereference
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldap_parse_reference — Витягує інформацію з довідника
+ldapparsereference — Витягує інформацію з довідника
 
 ### Опис
 
-**ldap_parse_reference**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, LDAP\ResultEntry `$entry`, array `&$referrals`): bool
+```methodsynopsis
+ldap_parse_reference(LDAP\Connection $ldap, LDAP\ResultEntry $entry, array &$referrals): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

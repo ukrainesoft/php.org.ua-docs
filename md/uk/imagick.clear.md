@@ -1,9 +1,15 @@
-- [« Imagick::clampImage](imagick.clampimage.md)
-- [Imagick::clipImage »](imagick.clipimage.md)
+Очищає всі ресурси, пов'язані з об'єктом Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Очищає всі ресурси, пов'язані з об'єктом Imagick
+-   [« Imagick::clampImage](imagick.clampimage.html)
+    
+-   [Imagick::clipImage »](imagick.clipimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Очищає всі ресурси, пов'язані з об'єктом Imagick
+    
 
 # Imagick::clear
 
@@ -13,7 +19,9 @@ Imagick::clear — Очищає всі ресурси, пов'язані з об
 
 ### Опис
 
-public **Imagick::clear**(): bool
+```methodsynopsis
+public Imagick::clear(): bool
+```
 
 Очищає всі ресурси, пов'язані з об'єктом Imagick
 
@@ -23,4 +31,4 @@ public **Imagick::clear**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

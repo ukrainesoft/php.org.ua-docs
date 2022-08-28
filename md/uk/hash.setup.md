@@ -1,15 +1,21 @@
-- [«Вступ](intro.hash.md)
-- [Вимоги »](hash.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Hash](book.hash.md)
+-   [« Введение](intro.hash.html)
+    
+-   [Требования »](hash.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Hash](book.hash.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](hash.requirements.md)
-- [Установка](hash.installation.md)
-- [Налаштування під час виконання](hash.configuration.md)
-- [Типи ресурсів](hash.resources.md)
+-   [Требования](hash.requirements.html)
+-   [Установка](hash.installation.html)
+-   [Настройка во время выполнения](hash.configuration.html)
+-   [Типы ресурсов](hash.resources.html)

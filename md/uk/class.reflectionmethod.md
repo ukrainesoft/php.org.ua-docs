@@ -1,9 +1,15 @@
-- [« ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md)
-- [ReflectionMethod::\_\_construct »](reflectionmethod.construct.md)
+Клас ReflectionMethod
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionMethod
+-   [« ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.html)
+    
+-   [ReflectionMethod::\_\_construct »](reflectionmethod.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionMethod
+    
 
 # Клас ReflectionMethod
 
@@ -15,287 +21,180 @@
 
 ## Огляд класів
 
-class **ReflectionMethod** extends
-[ReflectionFunctionAbstract](class.reflectionfunctionabstract.md) {
-
-/\* Константи \*/
-
-const int `IS_STATIC` = 16;
-
-const int `IS_PUBLIC` = 1;
-
-const int `IS_PROTECTED` = 2;
-
-const int `IS_PRIVATE` = 4;
-
-const int `IS_ABSTRACT` = 64;
-
-const int `IS_FINAL` = 32;
-
-/\* Властивості \*/
-
-public string `$class`;
-
-/\* Наслідувані властивості \*/
-
-public string `$name`;
-
-/\* Методи \*/
-
-public [\_\_construct](reflectionmethod.construct.md)(object\|string
-`$objectOrMethod`, string `$method`)
-
-public [\_\_construct](reflectionmethod.construct.md)(string
-`$classMethod`)
-
-public static [export](reflectionmethod.export.md)(string `$class`,
-string `$name`, bool `$return` = **`false`**): string
-
-public [getClosure](reflectionmethod.getclosure.md)(?object `$object`
-= **`null`**): [Closure](class.closure.md)
-
-public [getDeclaringClass](reflectionmethod.getdeclaringclass.md)():
-[ReflectionClass](class.reflectionclass.md)
-
-public [getModifiers](reflectionmethod.getmodifiers.md)(): int
-
-public [getPrototype](reflectionmethod.getprototype.md)():
-[ReflectionMethod](class.reflectionmethod.md)
-
-public [invoke](reflectionmethod.invoke.md)(?object `$object`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [invokeArgs](reflectionmethod.invokeargs.md)(?object `$object`,
-array `$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [isAbstract](reflectionmethod.isabstract.md)(): bool
-
-public [isConstructor](reflectionmethod.isconstructor.md)(): bool
-
-public [isDestructor](reflectionmethod.isdestructor.md)(): bool
-
-public [isFinal](reflectionmethod.isfinal.md)(): bool
-
-public [isPrivate](reflectionmethod.isprivate.md)(): bool
-
-public [isProtected](reflectionmethod.isprotected.md)(): bool
-
-public [isPublic](reflectionmethod.ispublic.md)(): bool
-
-public [isStatic](reflectionmethod.isstatic.md)(): bool
-
-public [setAccessible](reflectionmethod.setaccessible.md)(bool
-`$accessible`): void
-
-public [\_\_toString](reflectionmethod.tostring.md)(): string
-
-/\* Наслідувані методи \*/
-
-private
-[ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.md)():
-void
-
-public
-[ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)(?string
-`$name` = **`null`**, int `$flags` = 0): array
-
-public
-[ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)():
-?[ReflectionClass](class.reflectionclass.md)
-
-public
-[ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md)():
-?object
-
-public
-[ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md)():
-array
-
-public
-[ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)():
-string\|false
-
-public
-[ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md)():
-int\|false
-
-public
-[ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md)():
-?[ReflectionExtension](class.reflectionextension.md)
-
-public
-[ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md)():
-string\|false
-
-public
-[ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md)():
-string\|false
-
-public
-[ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md)():
-string
-
-public
-[ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)():
-string
-
-public
-[ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.md)():
-int
-
-public
-[ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md)():
-int
-
-public
-[ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md)():
-array
-
-public
-[ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md)():
-?[ReflectionType](class.reflectiontype.md)
-
-public
-[ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)():
-string
-
-public
-[ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md)():
-int\|false
-
-public
-[ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md)():
-array
-
-public
-[ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md)():
-?[ReflectionType](class.reflectiontype.md)
-
-public
-[ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md)():
-bool
-
-public
-[ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)():
-bool
-
-abstract public
-[ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md)():
-void
-
-}
+```classsynopsis
+
+     
+    
+
+    
+     
+      class ReflectionMethod
+     
+
+     
+      extends
+       ReflectionFunctionAbstract
+     
+     {
+
+    /* Константы */
+    
+     const
+     int
+      IS_STATIC = 16;
+
+    const
+     int
+      IS_PUBLIC = 1;
+
+    const
+     int
+      IS_PROTECTED = 2;
+
+    const
+     int
+      IS_PRIVATE = 4;
+
+    const
+     int
+      IS_ABSTRACT = 64;
+
+    const
+     int
+      IS_FINAL = 32;
+
+
+    /* Свойства */
+    public
+     string
+      $class;
+
+
+    /* Наследуемые свойства */
+    public
+     string
+      $name;
+
+
+    /* Методы */
+    
+   public __construct(object|string $objectOrMethod, string $method)
+public __construct(string $classMethod)
+
+    public static export(string $class, string $name, bool $return = false): string
+public getClosure(?object $object = null): Closure
+public getDeclaringClass(): ReflectionClass
+public getModifiers(): int
+public getPrototype(): ReflectionMethod
+public invoke(?object $object, mixed ...$args): mixed
+public invokeArgs(?object $object, array $args): mixed
+public isAbstract(): bool
+public isConstructor(): bool
+public isDestructor(): bool
+public isFinal(): bool
+public isPrivate(): bool
+public isProtected(): bool
+public isPublic(): bool
+public isStatic(): bool
+public setAccessible(bool $accessible): void
+public __toString(): string
+
+
+    /* Наследуемые методы */
+    private ReflectionFunctionAbstract::__clone(): void
+public ReflectionFunctionAbstract::getAttributes(?string $name = null, int $flags = 0): array
+public ReflectionFunctionAbstract::getClosureScopeClass(): ?ReflectionClass
+public ReflectionFunctionAbstract::getClosureThis(): ?object
+public ReflectionFunctionAbstract::getClosureUsedVariables(): array
+public ReflectionFunctionAbstract::getDocComment(): string|false
+public ReflectionFunctionAbstract::getEndLine(): int|false
+public ReflectionFunctionAbstract::getExtension(): ?ReflectionExtension
+public ReflectionFunctionAbstract::getExtensionName(): string|false
+public ReflectionFunctionAbstract::getFileName(): string|false
+public ReflectionFunctionAbstract::getName(): string
+public ReflectionFunctionAbstract::getNamespaceName(): string
+public ReflectionFunctionAbstract::getNumberOfParameters(): int
+public ReflectionFunctionAbstract::getNumberOfRequiredParameters(): int
+public ReflectionFunctionAbstract::getParameters(): array
+public ReflectionFunctionAbstract::getReturnType(): ?ReflectionType
+public ReflectionFunctionAbstract::getShortName(): string
+public ReflectionFunctionAbstract::getStartLine(): int|false
+public ReflectionFunctionAbstract::getStaticVariables(): array
+public ReflectionFunctionAbstract::getTentativeReturnType(): ?ReflectionType
+public ReflectionFunctionAbstract::hasReturnType(): bool
+public ReflectionFunctionAbstract::hasTentativeReturnType(): bool
+public ReflectionFunctionAbstract::inNamespace(): bool
+public ReflectionFunctionAbstract::isClosure(): bool
+public ReflectionFunctionAbstract::isDeprecated(): bool
+public ReflectionFunctionAbstract::isGenerator(): bool
+public ReflectionFunctionAbstract::isInternal(): bool
+public ReflectionFunctionAbstract::isUserDefined(): bool
+public ReflectionFunctionAbstract::isVariadic(): bool
+public ReflectionFunctionAbstract::returnsReference(): bool
+abstract public ReflectionFunctionAbstract::__toString(): void
+
+   }
+```
 
 ## Властивості
 
-`name`
+name
+
 Ім'я методу
 
-`class`
+class
+
 Ім'я класу
 
-## Зумовлені константи
+## Обумовлені константи
 
 ## Модифікатори ReflectionMethod
 
 **`ReflectionMethod::IS_STATIC`**
-Вказує, що це статичний метод. До PHP 7.4.0, значення було
-`1`.
+
+Вказує, що це статичний метод. До PHP 7.4.0, значення було `1`
 
 **`ReflectionMethod::IS_PUBLIC`**
-Вказує, що це загальнодоступний метод. До PHP 7.4.0, значення
-було `256`.
+
+Вказує, що це загальнодоступний метод. До PHP 7.4.0, значення було `256`
 
 **`ReflectionMethod::IS_PROTECTED`**
-Вказує, що це захищений метод. До PHP 7.4.0, значення було
-`512`.
+
+Вказує, що це захищений метод. До PHP 7.4.0, значення було `512`
 
 **`ReflectionMethod::IS_PRIVATE`**
-Вказує, що це закритий метод. До PHP 7.4.0, значення було
-`1024`.
+
+Вказує, що це закритий метод. До PHP 7.4.0, значення було `1024`
 
 **`ReflectionMethod::IS_ABSTRACT`**
-Вказує, що це абстрактний метод. До PHP 7.4.0, значення було
-`2`.
+
+Вказує, що це абстрактний метод. До PHP 7.4.0, значення було `2`
 
 **`ReflectionMethod::IS_FINAL`**
-Вказує, що це остаточний метод. До PHP 7.4.0, значення
-було `4`.
 
-> **Примітка**:
->
-> Ці константи можуть змінюватися від версії до версії PHP.
-> Рекомендується завжди використовувати константи і не покладатися безпосередньо
-> на значення.
+Вказує, що це остаточний метод. До PHP 7.4.0, значення було `4`
+
+> **Зауваження**
+> 
+> Ці константи можуть змінюватися від версії до версії PHP. Рекомендується завжди використовувати константи та не покладатися безпосередньо на значення.
 
 ## Зміст
 
-- [ReflectionMethod::\_\_construct](reflectionmethod.construct.md) -
-Конструктор класу ReflectionMethod
-- [ReflectionMethod::export](reflectionmethod.export.md) — Експорт
-відбитого методу
-- [ReflectionMethod::getClosure](reflectionmethod.getclosure.md) -
-Повертає динамічно створене замикання для методу
-- [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)
-— Отримує клас, який оголошує відбитий метод
-- [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)
-— Отримує модифікатори методу
-- [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
-— Отримує прототип методу (якщо такий є)
-- [ReflectionMethod::invoke](reflectionmethod.invoke.md) — Виклик
-- [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md)
-Виклик методу з передачею аргументів масивом
-- [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md)
-Перевіряє, чи є метод абстрактним
-- [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
-— Перевіряє, чи є метод конструктором
-- [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md)
-— Перевіряє, чи є метод деструктором
-- [ReflectionMethod::isFinal](reflectionmethod.isfinal.md) -
-Перевіряє, чи є метод остаточним
-- [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md) -
-Перевіряє, чи є метод закритим
-- [ReflectionMethod::isProtected](reflectionmethod.isprotected.md) -
-Перевіряє, чи є метод захищеним
-- [ReflectionMethod::isPublic](reflectionmethod.ispublic.md) -
-Перевіряє, чи є метод загальнодоступним
-- [ReflectionMethod::isStatic](reflectionmethod.isstatic.md) -
-Перевіряє, чи є метод статичним
-- [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md)
-— Робить метод доступним
-- [ReflectionMethod::\_\_toString](reflectionmethod.tostring.md) -
-Повертає строкове представлення об'єкту ReflectionMethod
+-   [ReflectionMethod::\_\_construct](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::export](reflectionmethod.export.html) - Експорт відбитого методу
+-   [ReflectionMethod::getClosure](reflectionmethod.getclosure.html) — Повертає динамічно створене замикання для методу
+-   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.html) — Отримує клас, що оголошує відбитий метод
+-   [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.html) — Отримує модифікатори методу
+-   [ReflectionMethod::getPrototype](reflectionmethod.getprototype.html) — Отримує прототип методу (якщо такий є)
+-   [ReflectionMethod::invoke](reflectionmethod.invoke.html) - Виклик
+-   [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.html) - Виклик методу з передачею аргументів масивом
+-   [ReflectionMethod::isAbstract](reflectionmethod.isabstract.html) — Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.html) — Перевіряє, чи є метод конструктором
+-   [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.html) — Перевіряє, чи є метод деструктором
+-   [ReflectionMethod::isFinal](reflectionmethod.isfinal.html) — Перевіряє, чи є метод остаточним
+-   [ReflectionMethod::isPrivate](reflectionmethod.isprivate.html) — Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isProtected](reflectionmethod.isprotected.html) — Перевіряє, чи метод захищений
+-   [ReflectionMethod::isPublic](reflectionmethod.ispublic.html) — Перевіряє, чи є метод загальнодоступним
+-   [ReflectionMethod::isStatic](reflectionmethod.isstatic.html) — Перевіряє, чи метод статичний
+-   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.html) — Робить метод доступним
+-   [ReflectionMethod::\_\_toString](reflectionmethod.tostring.html) — Повертає рядкову виставу об'єкта ReflectionMethod

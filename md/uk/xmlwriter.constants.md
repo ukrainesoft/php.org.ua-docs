@@ -1,10 +1,16 @@
-- [« Типи ресурсів](xmlwriter.resources.md)
-- [Приклади »](xmlwriter.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [XMLWriter](book.xmlwriter.md)
-- Обумовлені константи
+-   [« Типы ресурсов](xmlwriter.resources.html)
+    
+-   [Примеры »](xmlwriter.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](book.xmlwriter.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

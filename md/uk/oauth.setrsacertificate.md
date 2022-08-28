@@ -1,51 +1,62 @@
-- [« OAuth::setRequestEngine](oauth.setrequestengine.md)
-- [OAuth::setSSLChecks »](oauth.setsslchecks.md)
+Встановити сертифікат RSA
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Встановити сертифікат RSA
+-   [« OAuth::setRequestEngine](oauth.setrequestengine.html)
+    
+-   [OAuth::setSSLChecks »](oauth.setsslchecks.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Встановити сертифікат RSA
+    
 
 # OAuth::setRSACertificate
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuth::setRSACertificate — Встановити сертифікат RSA
 
 ### Опис
 
-public **OAuth::setRSACertificate**(string `$cert`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public OAuth::setRSACertificate(string $cert): mixed
+```
 
 Встановлює сертифікат RSA.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `cert`
+
 Сертифікат RSA
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** (наприклад, якщо заданий некоректний
-сертифікат RSA)
+Повертає **`true`** або **`false`** (наприклад, якщо встановлено неправильний сертифікат RSA)
 
-### Список змін
+### список змін
 
-| Версія           | Опис                                                                    |
-|------------------|-------------------------------------------------------------------------|
-| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **null** замість **false**. |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **OAuth::setRsaCertificate()****
 
-` <?php$consume = new OAuth('1234', '', OAUTH_SIG_METHOD_RSASHA1);$consume->setRSACertificate(file_get_contents('test.pem'));?> `
+```php
+<?php
+$consume = new OAuth('1234', '', OAUTH_SIG_METHOD_RSASHA1);
+
+$consume->setRSACertificate(file_get_contents('test.pem'));
+?>
+```
 
 ### Дивіться також
 
-- [OAuth::setCaPath()](oauth.setcapath.md) - Встановити CA для шляху
-та інформації
+-   [OAuth::setCaPath()](oauth.setcapath.html) - Встановити CA для шляху та інформації

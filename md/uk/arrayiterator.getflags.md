@@ -1,23 +1,29 @@
-- [« ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.md)
-- [ArrayIterator::key »](arrayiterator.key.md)
+Отримує прапори поведінки
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Отримує прапори поведінки
+-   [« ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.html)
+    
+-   [ArrayIterator::key »](arrayiterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Отримує прапори поведінки
+    
 
 # ArrayIterator::getFlags
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ArrayIterator::getFlags — Отримує прапори поведінки
 
 ### Опис
 
-public **ArrayIterator::getFlags**(): int
+```methodsynopsis
+public ArrayIterator::getFlags(): int
+```
 
-Отримує прапори [ArrayIterator](class.arrayiterator.md).
-Дивіться метод [ArrayIterator::setFlags](arrayiterator.setflags.md)
-Щоб переглянути список доступних прапорців.
+Отримує прапори поведінки [ArrayIterator](class.arrayiterator.html). Дивіться метод [ArrayIterator::setFlags](arrayiterator.setflags.html) Щоб переглянути список доступних прапорів.
 
 ### Список параметрів
 
@@ -29,7 +35,5 @@ public **ArrayIterator::getFlags**(): int
 
 ### Дивіться також
 
-- [ArrayIterator::setFlags()](arrayiterator.setflags.md) -
-Встановлює прапори, що змінюють поведінку.
-- [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє,
-містить масив ще записи
+-   [ArrayIterator::setFlags()](arrayiterator.setflags.html) - Встановлює прапори, що змінюють поведінку ArrayIterator
+-   [ArrayIterator::valid()](arrayiterator.valid.html) - Перевіряє, чи містить масив ще запису

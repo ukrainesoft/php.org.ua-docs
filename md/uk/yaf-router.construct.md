@@ -1,19 +1,25 @@
-- [« Yaf_Router::addRoute](yaf-router.addroute.md)
-- [Yaf_Router::getCurrentRoute »](yaf-router.getcurrentroute.md)
+Конструктор класу YafRouter
 
-- [PHP Manual](index.md)
-- [Yaf_Router](class.yaf-router.md)
-- Конструктор класу Yaf_Router
+-   [« Yaf\_Router::addRoute](yaf-router.addroute.html)
+    
+-   [Yaf\_Router::getCurrentRoute »](yaf-router.getcurrentroute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Router](class.yaf-router.html)
+    
+-   Конструктор класу YafRouter
+    
 
-# Yaf_Router::\_\_construct
+# YafRouter::construct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Router::\_\_construct - Конструктор класу Yaf_Router
+YafRouter::construct - Конструктор класу YafRouter
 
 ### Опис
 
-public **Yaf_Router::\_\_construct**()
+public **YafRouter::construct**
 
 ### Список параметрів
 

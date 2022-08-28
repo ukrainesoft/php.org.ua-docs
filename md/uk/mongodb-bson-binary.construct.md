@@ -1,65 +1,79 @@
-- [« MongoDB \ BSON \ Binary](class.mongodb-bson-binary.md)
-- [MongoDB\BSON\Binary::getData »](mongodb-bson-binary.getdata.md)
+Створює новий Binary
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-- Створює новий Binary
+-   [« MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+    
+-   [MongoDB\\BSON\\Binary::getData »](mongodb-bson-binary.getdata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+    
+-   Створює новий Binary
+    
 
-# MongoDB\BSON\Binary::\_\_construct
+# MongoDBBSONBinary::construct
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON\Binary::\_\_construct — Створює новий Binary
+MongoDBBSONBinary::construct — Створює новий Binary
 
 ### Опис
 
-final public **MongoDB\BSON\Binary::\_\_construct**(string `$data`, int
-`$type`)
+```methodsynopsis
+final public MongoDB\BSON\Binary::__construct(string $data, int $type)
+```
 
 ### Список параметрів
 
 `data` (string)
+
 Двійкові дані.
 
 `type` (int)
+
 8-розрядне ціле число, що означає тип даних.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Видає
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md),
-якщо `type` не є 8-розрядним цілим числом.
-- Видає
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md),
-якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або
-**`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16
-байт.
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `type` не є 8-розрядним цілим числом.
+-   Видає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html), якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам.
 
-### Список змін
+### список змін
 
-| Версія             | Опис                                                                                                                                                                                                                                                         |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PECL mongodb 1.3.0 | [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо type є **MongoDB\BSON\Binary::TYPE_UUID** або **MongoDB\BSON \Binary::TYPE_OLD_UUID**, а довжина data не дорівнює 16 байтам. |
-| PECL mongodb 1.1.3 | [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо type не є 8-розрядним цілим числом.                                                                                          |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.3.0 |  |
+| [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |  |
+
+| | PECL mongodb 1.1.3 |
+
+[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` не є 8-розрядним цілим числом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Binary::\_\_construct()****
+**Приклад #1 Приклад використання **MongoDBBSONBinary::construct()****
 
-` <?php$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary);?> `
+```php
+<?php
+
+$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
+var_dump($binary);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(MongoDB\BSON\Binary)#1 (2) {
-["data"]=>
-string(3) "foo"
-["type"]=>
-int(0)
+  ["data"]=>
+  string(3) "foo"
+  ["type"]=>
+  int(0)
 }
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

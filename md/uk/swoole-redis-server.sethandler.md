@@ -1,29 +1,31 @@
-- [« Swoole\Redis\Server::format](swoole-redis-server.format.md)
-- [Swoole\Redis\Server::start »](swoole-redis-server.start.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Redis\Server](class.swoole-redis-server.md)
-- Опис
+-   [« Swoole\\Redis\\Server::format](swoole-redis-server.format.html)
+    
+-   [Swoole\\Redis\\Server::start »](swoole-redis-server.start.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Redis\\Server](class.swoole-redis-server.html)
+    
+-   Опис
+    
 
-# Swoole\Redis\Server::setHandler
+# SwooleRedisServer::setHandler
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Redis\Server::setHandler — Опис
+SwooleRedisServer::setHandler — Опис
 
 ### Опис
 
-public **Swoole\Redis\Server::setHandler**(
-string `$command`,
-string `$callback`,
-string `$number_of_string_param` = ?,
-string `$type_of_array_param` = ?
-): ReturnType
+```methodsynopsis
+public Swoole\Redis\Server::setHandler(    string $command,    string $callback,    string $number_of_string_param = ?,    string $type_of_array_param = ?): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

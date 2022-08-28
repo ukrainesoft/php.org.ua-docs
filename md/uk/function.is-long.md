@@ -1,16 +1,22 @@
-- [«is_iterable](function.is-iterable.md)
-- [is_null »](function.is-null.md)
+Псевдонім isint
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Псевдонім is_int
+-   [« is\_iterable](function.is-iterable.html)
+    
+-   [is\_null »](function.is-null.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Псевдонім isint
+    
 
-#is_long
+# ісlong
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_long - Псевдонім [is_int()](function.is-int.md)
+ісlong - Псевдонім [is\_int()](function.is-int.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [is_int()](function.is-int.md).
+Ця функція є псевдонімом: [is\_int()](function.is-int.html)

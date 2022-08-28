@@ -1,24 +1,29 @@
-- [« Yaf_Exception](class.yaf-exception.md)
-- [Yaf_Exception::getPrevious »](yaf-exception.getprevious.md)
+Конструктор класу YafException
 
-- [PHP Manual](index.md)
-- [Yaf_Exception](class.yaf-exception.md)
-- Конструктор класу Yaf_Exception
+-   [« Yaf\_Exception](class.yaf-exception.html)
+    
+-   [Yaf\_Exception::getPrevious »](yaf-exception.getprevious.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Exception](class.yaf-exception.html)
+    
+-   Конструктор класу YafException
+    
 
-# Yaf_Exception::\_\_construct
+# YafException::construct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Exception::\_\_construct - Конструктор класу Yaf_Exception
+YafException::construct - Конструктор класу YafException
 
 ### Опис
 
-public **Yaf_Exception::\_\_construct**()
+public **YafException::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

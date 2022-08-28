@@ -1,68 +1,71 @@
-- [« PharData::addFromString](phardata.addfromstring.md)
-- [PharData::buildFromIterator »](phardata.buildfromiterator.md)
+Створює tar/zip-архів із файлів у директорії
 
-- [PHP Manual](index.md)
-- [PharData](class.phardata.md)
-- Створює tar/zip-архів із файлів у директорії
+-   [« PharData::addFromString](phardata.addfromstring.html)
+    
+-   [PharData::buildFromIterator »](phardata.buildfromiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PharData](class.phardata.html)
+    
+-   Створює tar/zip-архів із файлів у директорії
+    
 
 # PharData::buildFromDirectory
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::buildFromDirectory — Створює tar/zip-архів із файлів у
-директорії
+PharData::buildFromDirectory — Створює tar/zip-архів із файлів у директорії
 
 ### Опис
 
-public **PharData::buildFromDirectory**(string `$directory`, string
-`$pattern` = ""): array
+```methodsynopsis
+public PharData::buildFromDirectory(string $directory, string $pattern = ""): array
+```
 
-Наповнює tar/zip-архів вмістом директорії. Другий опціональний
-Параметр є регулярним виразом (pcre). Файли, імена яких
-підходять під регулярне вираження, будуть включені до архіву, а всі
-решта немає. Якщо при створенні архіву потрібна велика вибірковість,
-то використовуйте метод
-[PharData::buildFromIterator()](phardata.buildfromiterator.md).
+Наповнює tar/zip-архів вмістом директорії. Другий опціональний параметр є регулярним виразом (pcre). Файли, імена яких підходять під регулярне вираження, будуть включені в архів, а решта немає. Якщо при створенні архіву потрібна більша вибірковість, то використовуйте метод [PharData::buildFromIterator()](phardata.buildfromiterator.html)
 
 ### Список параметрів
 
 `directory`
-Повний або відносний шлях до каталогу, файли з якого будуть
-додано до архіву.
+
+Повний або відносний шлях до директорії, файли з якої буде додано до архіву.
 
 `pattern`
-Регулярний вираз, який визначає, які файли необхідно включати в
-архів.
+
+Регулярний вираз, який визначає, які файли необхідно включати в архів.
 
 ### Значення, що повертаються
 
-[Phar::buildFromDirectory()](phar.buildfromdirectory.md) повертає
-асоціативний масив, що зв'язує шлях до файлу всередині архіву з повним
-шляхом до файлу на диску або **`false`** у разі виникнення помилки.
+[Phar::buildFromDirectory()](phar.buildfromdirectory.html) повертає асоціативний масив, що пов'язує шлях до файлу всередині архіву з повним шляхом до файлу на диску або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток
-[BadMethodCallException](class.badmethodcallexception.md), якщо не
-вдається ініціалізувати внутрішні ітератори директорії. Виняток
-[PharException](class.pharexception.md) викидається при помилках
-запису на диск.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.html)якщо не вдається ініціалізувати внутрішні ітератори директорії. Виняток [PharException](class.pharexception.html) викидається при помилках запису на диск.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                      |
-|--------|---------------------------------------------------------------------------|
-| 8.1.0  | **PharData::buildFromDirectory()** більше не повертає значення **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::buildFromDirectory()****
 
-` <?php$phar = new PharData('project.tar');// додамо всі файли в проект$phar->buildFromDirectory(dirname(__FILE__) . '/project');$phar2 = new PharData zip');// додамо в проект тільки .php файли$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');?> `
+```php
+<?php
+$phar = new PharData('project.tar');
+// добавим все файлы в проект
+$phar->buildFromDirectory(dirname(__FILE__) . '/project');
+
+$phar2 = new PharData('project2.zip');
+// добавим в проект только .php файлы
+$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
+?>
+```
 
 ### Дивіться також
 
-- [Phar::buildFromDirectory()](phar.buildfromdirectory.md) - Створює
-phar-архів із файлів, розташованих усередині директорії
-- [PharData::buildFromIterator()](phardata.buildfromiterator.md) -
-Створення tar/zip-архіву за допомогою ітератора
+-   [Phar::buildFromDirectory()](phar.buildfromdirectory.html) - Створює phar-архів із файлів, розташованих усередині директорії
+-   [PharData::buildFromIterator()](phardata.buildfromiterator.html) - Створення tar/zip-архіву за допомогою ітератора

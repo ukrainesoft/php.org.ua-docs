@@ -1,27 +1,31 @@
-- [«CommonMark\Node::prependChild](commonmark-node.prependchild.md)
-- [CommonMark\Node::insertBefore »](commonmark-node.insertbefore.md)
+Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
-- [PHP Manual](index.md)
-- [CommonMark\Node](class.commonmark-node.md)
-- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [« CommonMark\\Node::prependChild](commonmark-node.prependchild.html)
+    
+-   [CommonMark\\Node::insertBefore »](commonmark-node.insertbefore.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node](class.commonmark-node.html)
+    
+-   Маніпуляції з AST (Абстрактне синтаксичне дерево)
+    
 
-# CommonMark\Node::insertAfter
+# CommonMarkNode::insertAfter
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node::insertAfter - Маніпуляції з AST (Абстрактне
-синтаксичне дерево)
+CommonMarkNode::insertAfter — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
-public
-**CommonMark\Node::insertAfter**([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
+```methodsynopsis
+public CommonMark\Node::insertAfter(CommonMark\Node $sibling): CommonMark\Node
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

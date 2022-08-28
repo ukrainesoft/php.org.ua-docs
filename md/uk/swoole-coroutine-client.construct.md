@@ -1,19 +1,25 @@
-- [« Swoole\Coroutine\Client::connect](swoole-coroutine-client.connect.md)
-- [Swoole\Coroutine\Client::\_\_destruct »](swoole-coroutine-client.destruct.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+-   [« Swoole\\Coroutine\\Client::connect](swoole-coroutine-client.connect.html)
+    
+-   [Swoole\\Coroutine\\Client::\_\_destruct »](swoole-coroutine-client.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Опис
+    
 
-# Swoole\Coroutine\Client::\_\_construct
+# SwooleCoroutineClient::construct
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine\Client::\_\_construct — Опис
+SwooleCoroutineClient::construct — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Client::\_\_construct**()
+public **SwooleCoroutineClient::construct**
 
 ### Список параметрів
 

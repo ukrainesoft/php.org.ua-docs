@@ -1,26 +1,33 @@
-- [« ArrayObject::offsetUnset](arrayobject.offsetunset.md)
-- [ArrayObject::setFlags »](arrayobject.setflags.md)
+Серіалізувати ArrayObject
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Серіалізувати ArrayObject
+-   [« ArrayObject::offsetUnset](arrayobject.offsetunset.html)
+    
+-   [ArrayObject::setFlags »](arrayobject.setflags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Серіалізувати ArrayObject
+    
 
 # ArrayObject::serialize
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ArrayObject::serialize — Серіалізувати ArrayObject
 
 ### Опис
 
-public **ArrayObject::serialize**(): string
+```methodsynopsis
+public ArrayObject::serialize(): string
+```
 
-Серіалізує [ArrayObject](class.arrayobject.md).
+Серіалізує [ArrayObject](class.arrayobject.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,23 +35,33 @@ public **ArrayObject::serialize**(): string
 
 ### Значення, що повертаються
 
-Серіалізоване уявлення [ArrayObject](class.arrayobject.md).
+Серіалізоване подання [ArrayObject](class.arrayobject.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayObject::serialize()****
 
-` <?php$o = new ArrayObject();$s1 = serialize($o);$s2 = $o->serialize();var_dump($s1);var_dump($s2);?> `
+```php
+<?php
+$o = new ArrayObject();
+
+$s1 = serialize($o);
+$s2 = $o->serialize();
+
+var_dump($s1);
+var_dump($s2);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(45) "C:11:"ArrayObject":21:{x:i:0;a:0:{};m:a:0:{}}"
 string(21) "x:i:0;a:0:{};m:a:0:{}"
+```
 
 ### Дивіться також
 
-- [ArrayObject::unserialize()](arrayobject.unserialize.md) -
-Десеріалізувати ArrayObject
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [ArrayObject::unserialize()](arrayobject.unserialize.html) - Десеріалізувати ArrayObject
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

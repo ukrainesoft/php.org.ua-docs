@@ -1,41 +1,44 @@
-- [« fann_set_rprop_delta_zero](function.fann-set-rprop-delta-zero.md)
-- [fann_set_sarprop_step_error_shift »](function.fann-set-sarprop-step-error-shift.md)
+Встановлює коефіцієнт збільшення під час навчання Rprop
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює коефіцієнт збільшення, який використовується під час навчання
-Rprop
+-   [« fann\_set\_rprop\_delta\_zero](function.fann-set-rprop-delta-zero.html)
+    
+-   [fann\_set\_sarprop\_step\_error\_shift »](function.fann-set-sarprop-step-error-shift.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює коефіцієнт збільшення під час навчання Rprop
+    
 
-# fann_set_rprop_increase_factor
+# fannsetrpropincreasefactor
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_rprop_increase_factor — Встановлює коефіцієнт збільшення,
-використовується під час навчання Rprop
+fannsetrpropincreasefactor — Встановлює коефіцієнт збільшення, який використовується під час навчання Rprop
 
 ### Опис
 
-**fann_set_rprop_increase_factor**(resource `$ann`, float
-`$rprop_increase_factor`): bool
+```methodsynopsis
+fann_set_rprop_increase_factor(resource $ann, float $rprop_increase_factor): bool
+```
 
-Встановлює коефіцієнт збільшення, який використовується під час навчання
-Rprop
+Встановлює коефіцієнт збільшення під час навчання Rprop
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `rprop_increase_factor`
+
 Коефіцієнт збільшення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_rprop_increase_factor()](function.fann-get-rprop-increase-factor.md) -
-Повертає коефіцієнт збільшення, який використовується під час навчання
-RPROP
+-   [fann\_get\_rprop\_increase\_factor()](function.fann-get-rprop-increase-factor.html) - Повертає коефіцієнт збільшення, який використовується під час навчання RPROP

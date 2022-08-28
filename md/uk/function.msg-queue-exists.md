@@ -1,37 +1,42 @@
-- [«msg_get_queue](function.msg-get-queue.md)
-- [msg_receive »](function.msg-receive.md)
+Перевірка існування черги повідомлень
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Перевірка існування черги повідомлень
+-   [« msg\_get\_queue](function.msg-get-queue.html)
+    
+-   [msg\_receive »](function.msg-receive.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Перевірка існування черги повідомлень
+    
 
-# msg_queue_exists
+# msgqueueexists
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-msg_queue_exists — Перевірка існування черги повідомлень
+msgqueueexists — Перевірка існування черги повідомлень
 
 ### Опис
 
-**msg_queue_exists**(int `$key`): bool
+```methodsynopsis
+msg_queue_exists(int $key): bool
+```
 
-Перевіряє існування черги повідомлень, що задається ключем `key`.
+Перевіряє існування черги повідомлень, що задається ключем `key`
 
 ### Список параметрів
 
 `key`
+
 Ключ черги.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [msg_remove_queue()](function.msg-remove-queue.md) - Видалення
-черги повідомлень
-- [msg_receive()](function.msg-receive.md) - Отримання повідомлення з
-черги повідомлень
-- [msg_stat_queue()](function.msg-stat-queue.md) - Отримання
-інформації із структури даних черги повідомлень
+-   [msg\_remove\_queue()](function.msg-remove-queue.html) - Видалення черги повідомлень
+-   [msg\_receive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
+-   [msg\_stat\_queue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень

@@ -1,25 +1,29 @@
-- [«SolrDisMaxQuery](class.solrdismaxquery.md)
-- [SolrDisMaxQuery::addBoostQuery »](solrdismaxquery.addboostquery.md)
+Додає поле фразової біграми (параметр pf2)
 
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Додає поле фразової біграми (параметр pf2)
+-   [« SolrDisMaxQuery](class.solrdismaxquery.html)
+    
+-   [SolrDisMaxQuery::addBoostQuery »](solrdismaxquery.addboostquery.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDisMaxQuery](class.solrdismaxquery.html)
+    
+-   Додає поле фразової біграми (параметр pf2)
+    
 
 # SolrDisMaxQuery::addBigramPhraseField
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::addBigramPhraseField — Додає поле фразової біграми
-(Параметр pf2)
+SolrDisMaxQuery::addBigramPhraseField — Додає поле фразової біграми (параметр pf2)
 
 ### Опис
 
-public **SolrDisMaxQuery::addBigramPhraseField**(string `$field`, string
-`$boost`, string `$slop` = ?):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::addBigramPhraseField(string $field, string $boost, string $slop = ?): SolrDisMaxQuery
+```
 
-Додає поле фразової біграми (параметр pf2) Вихідний формат:
-field\~slop^boost АБО field^boost Slop не є обов'язковим
+Додає поле фразової біграми (параметр pf2) Вихідний формат: field~slop^boost АБО field^boost Slop не є обов'язковим
 
 ### Список параметрів
 
@@ -31,25 +35,33 @@ field\~slop^boost АБО field^boost Slop не є обов'язковим
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+[SolrDisMaxQuery](class.solrdismaxquery.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**SolrDisMaxQuery::addBigramPhraseField()****
+**Приклад #1 Приклад використання **SolrDisMaxQuery::addBigramPhraseField()****
 
-`<?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBigramPhraseField('cat', 2, 5.1)    ->addBigramPhraseField' 
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery
+    ->addBigramPhraseField('cat', 2, 5.1)
+    ->addBigramPhraseField('feature', 4.5)
+;
+echo $dismaxQuery;
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 q=lucene&defType=edismax&pf2=cat~5.1^2 feature^4.5
+```
 
 ### Дивіться також
 
-- [SolrDisMaxQuery::removeBigramPhraseField()](solrdismaxquery.removebigramphrasefield.md) -
-Видаляє поле біграми фрази (параметр pf2)
-- [SolrDisMaxQuery::setBigramPhraseFields()](solrdismaxquery.setbigramphrasefields.md) -
-Встановлює поля біграми фрази та їх посилення (і відхилення) з
-за допомогою параметра pf2
-- [SolrDisMaxQuery::setBigramPhraseSlop()](solrdismaxquery.setbigramphraseslop.md) -
-Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
+-   [SolrDisMaxQuery::removeBigramPhraseField()](solrdismaxquery.removebigramphrasefield.html) - Видаляє поле біграми фрази (параметр pf2)
+-   [SolrDisMaxQuery::setBigramPhraseFields()](solrdismaxquery.setbigramphrasefields.html) - Встановлює поля біграми фрази та їх посилення (і відхилення) за допомогою параметра pf2
+-   [SolrDisMaxQuery::setBigramPhraseSlop()](solrdismaxquery.setbigramphraseslop.html) - Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)

@@ -1,14 +1,20 @@
-- [«Вступ](intro.gmagick.md)
-- [Вимоги »](gmagick.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Gmagick](book.gmagick.md)
+-   [« Введение](intro.gmagick.html)
+    
+-   [Требования »](gmagick.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](book.gmagick.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](gmagick.requirements.md)
-- [Установка](gmagick.installation.md)
-- [Налаштування під час виконання](gmagick.configuration.md)
+-   [Требования](gmagick.requirements.html)
+-   [Установка](gmagick.installation.html)
+-   [Настройка во время выполнения](gmagick.configuration.html)

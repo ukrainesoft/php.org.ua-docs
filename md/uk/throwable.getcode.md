@@ -1,9 +1,15 @@
-- [« Throwable::getMessage](throwable.getmessage.md)
-- [Throwable::getFile »](throwable.getfile.md)
+Повертає код виключення
 
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- Повертає код виключення
+-   [« Throwable::getMessage](throwable.getmessage.html)
+    
+-   [Throwable::getFile »](throwable.getfile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Throwable](class.throwable.html)
+    
+-   Повертає код виключення
+    
 
 # Throwable::getCode
 
@@ -13,10 +19,11 @@ Throwable::getCode — Повертає код виключення
 
 ### Опис
 
-public **Throwable::getCode**(): int
+```methodsynopsis
+public Throwable::getCode(): int
+```
 
-Повертає код помилки викинутого об'єкта, до якого застосовано
-функція.
+Повертає код помилки викинутого об'єкта, до якого застосовано функцію.
 
 ### Список параметрів
 
@@ -24,13 +31,8 @@ public **Throwable::getCode**(): int
 
 ### Значення, що повертаються
 
-Повертає код виключення у вигляді цілого числа (int)
-[Exception](class.exception.md), але можливий і інший тип, що повертається
-у класах, що успадковують [Exception](class.exception.md) (наприклад,
-вигляді рядка (string), якщо тип помилки
-[PDOException](class.pdoexception.md)).
+Повертає код виключення у вигляді цілого числа (int) [Exception](class.exception.html), але можливий і інший тип, що повертається в класах, що успадковують [Exception](class.exception.html) (наприклад, у вигляді рядка (string), якщо тип помилки [PDOException](class.pdoexception.html)
 
 ### Дивіться також
 
-- [Exception::getCode()](exception.getcode.md) - Отримує код
-винятки
+-   [Exception::getCode()](exception.getcode.html) - Отримує код виключення

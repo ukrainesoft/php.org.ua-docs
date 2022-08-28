@@ -1,9 +1,15 @@
-- [« Imagick::getImageAlphaChannel](imagick.getimagealphachannel.md)
-- [Imagick::getImageAttribute »](imagick.getimageattribute.md)
+Повертає артефакт зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає артефакт зображення
+-   [« Imagick::getImageAlphaChannel](imagick.getimagealphachannel.html)
+    
+-   [Imagick::getImageAttribute »](imagick.getimageattribute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає артефакт зображення
+    
 
 # Imagick::getImageArtifact
 
@@ -13,15 +19,16 @@ Imagick::getImageArtifact — Повертає артефакт зображен
 
 ### Опис
 
-public **Imagick::getImageArtifact**(string `$artifact`): string
+```methodsynopsis
+public Imagick::getImageArtifact(string $artifact): string
+```
 
-Повертає артефакт, пов'язаний із зображенням. Різниця між властивостями
-зображення та артефактами зображення полягає в тому, що властивості
-є загальнодоступними, а артефакти – закритими.
+Повертає артефакт, пов'язаний із зображенням. Різниця між властивостями зображення та артефактами зображення полягає в тому, що властивості є загальнодоступними, а артефакти – закритими.
 
 ### Список параметрів
 
 `artifact`
+
 Ім'я артефакту.
 
 ### Значення, що повертаються
@@ -34,7 +41,5 @@ public **Imagick::getImageArtifact**(string `$artifact`): string
 
 ### Дивіться також
 
-- [Imagick::setImageArtifact()](imagick.setimageartifact.md) -
-Встановлює артефакт зображення
-- [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) -
-Видаляє артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.html) - Встановлює артефакт зображення
+-   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.html) - Видаляє артефакт зображення

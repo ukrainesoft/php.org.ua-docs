@@ -1,70 +1,80 @@
-- [«array_values](function.array-values.md)
-- [array_walk »](function.array-walk.md)
+Рекурсивно застосовує функцію користувача до кожного елементу масиву
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Рекурсивно застосовує функцію користувача до кожного елемента
-масиву
+-   [« array\_values](function.array-values.html)
+    
+-   [array\_walk »](function.array-walk.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с массивами](ref.array.html)
+    
+-   Рекурсивно застосовує функцію користувача до кожного елементу масиву
+    
 
-#array_walk_recursive
+# arraywalkrecursive
 
 (PHP 5, PHP 7, PHP 8)
 
-array_walk_recursive — Рекурсивно застосовує функцію користувача до
-кожному елементу масиву
+arraywalkrecursive — Рекурсивно застосовує функцію користувача до кожного елементу масиву
 
 ### Опис
 
-**array_walk_recursive**(array\|object `&$array`,
-[callable](language.types.callable.md) `$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = **`null`**): bool
+```methodsynopsis
+array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null): bool
+```
 
-Застосовує функцію користувача `callback` до кожного елемента масиву
-`input`. Ця функція обробляє кожен елемент багатовимірного масиву.
+Застосовує функцію користувача `callback` до кожного елементу масиву `input`. Ця функція обробляє кожен елемент багатовимірного масиву.
 
 ### Список параметрів
 
 `array`
-Вхідний масив.
+
+Вхідний масив
 
 `callback`
-Зазвичай, callback приймає два параметри. Першим параметром є
-значення елемента масиву `input`, а другим - його ключ.
 
-> **Примітка**:
->
-> Якщо потрібно, щоб функція callback змінила значення в масиві,
-> визначте перший параметр `callback` як
-> [Посилання](language.references.md). Тоді всі зміни будуть
-> застосовані до елементів масиву.
+Зазвичай, `callback` приймає два параметри. Першим параметром є значення елемента масиву `input`, а другим - його ключ.
+
+> **Зауваження**
+> 
+> Якщо потрібно, щоб функція `callback` змінила значення у масиві, визначте перший параметр `callback` як [ссылку](language.references.html). Тоді всі зміни будуть застосовані до елементів масиву.
 
 `arg`
-Якщо вказано необов'язковий параметр `arg`, він буде переданий третім
-параметром функції callback.
+
+Якщо вказано необов'язковий параметр `arg`, то він буде переданий третім параметром функції `callback`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **array_walk_recursive()****
+**Приклад #1 Приклад використання **arraywalkrecursive()****
 
-` <?php$sweet = array('a' => 'apple', 'b' => 'banana');$fruits = array('sweet' => $sweet, 'sour' => 'lemon') ;function test_print($item, $key){   echo "$key містить $item
-";}array_walk_recursive($fruits, 'test_print');?> `
+```php
+<?php
+$sweet = array('a' => 'apple', 'b' => 'banana');
+$fruits = array('sweet' => $sweet, 'sour' => 'lemon');
+
+function test_print($item, $key)
+{
+    echo "$key содержит $item\n";
+}
+
+array_walk_recursive($fruits, 'test_print');
+?>
+```
 
 Результат виконання цього прикладу:
 
-a містить apple
-b містить banana
-sour містить lemon
+```
+a содержит apple
+b содержит banana
+sour содержит lemon
+```
 
-Зверніть увагу, що ключ "sweet" ніколи не відображається. Будь-який
-ключ, що містить значення типу array, не передаватиметься у функцію.
+Зверніть увагу, що ключ '`sweet`' ніколи не відображається. Будь-який ключ, що містить значення типу array, не передаватиметься у функцію.
 
 ### Дивіться також
 
-- [array_walk()](function.array-walk.md) - Застосовує задану
-користувачем функцію до кожного елементу масиву
+-   [array\_walk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву

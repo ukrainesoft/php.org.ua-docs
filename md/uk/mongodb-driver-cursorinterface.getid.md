@@ -1,24 +1,29 @@
-- [« MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
-- [MongoDB\Driver\CursorInterface::getServer »](mongodb-driver-cursorinterface.getserver.md)
+Повертає ідентифікатор курсору
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
-- Повертає ідентифікатор курсору
+-   [« MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.html)
+    
+-   [MongoDB\\Driver\\CursorInterface::getServer »](mongodb-driver-cursorinterface.getserver.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.html)
+    
+-   Повертає ідентифікатор курсору
+    
 
-# MongoDB\Driver\CursorInterface::getId
+# MongoDBDriverCursorInterface::getId
 
-(mongodb \>=1.6.0)
+(mongodb >=1.6.0)
 
-MongoDB\Driver\CursorInterface::getId — Повертає ідентифікатор курсору
+MongoDBDriverCursorInterface::getId — Повертає ідентифікатор курсору
 
 ### Опис
 
-abstract public **MongoDB\Driver\CursorInterface::getId**():
-[MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
+```methodsynopsis
+abstract public MongoDB\Driver\CursorInterface::getId(): MongoDB\Driver\CursorId
+```
 
-Повертає [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-пов'язаний із курсором. Кожен курсор на сервері має унікальний
-ідентифікатор.
+Повертає [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html) пов'язаний із курсором. Кожен курсор має унікальний ідентифікатор.
 
 ### Список параметрів
 
@@ -26,18 +31,14 @@ abstract public **MongoDB\Driver\CursorInterface::getId**():
 
 ### Значення, що повертаються
 
-Повертає [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-для курсору.
+Повертає [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html) для курсору.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Cursor::getId()](mongodb-driver-cursor.getid.md) -
-Повертає ідентифікатор для курсору
-- [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)
-- [MongoDB\Driver\CursorId::\_\_toString()](mongodb-driver-cursorid.tostring.md) -
-Строкове представлення ідентифікатора курсору
+-   [MongoDB\\Driver\\Cursor::getId()](mongodb-driver-cursor.getid.html) - Повертає ідентифікатор для курсору
+-   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.html)
+-   [MongoDB\\Driver\\CursorId::\_\_toString()](mongodb-driver-cursorid.tostring.html) - Строкове подання ідентифікатора курсору

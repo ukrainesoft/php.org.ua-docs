@@ -1,82 +1,98 @@
-- [« SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md)
-- [SolrIllegalArgumentException::getInternalInfo »](solrillegalargumentexception.getinternalinfo.md)
+Клас SolrIllegalArgumentException
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrIllegalArgumentException
+-   [« SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.html)
+    
+-   [SolrIllegalArgumentException::getInternalInfo »](solrillegalargumentexception.getinternalinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Клас SolrIllegalArgumentException
+    
 
 # Клас SolrIllegalArgumentException
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
-Викидається, коли методу передається неприпустимий чи некоректний
-аргумент.
+Викидається, коли методу передається неприпустимий чи некоректний аргумент.
 
 ## Огляд класів
 
-class **SolrIllegalArgumentException** extends
-[SolrException](class.solrexception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class SolrIllegalArgumentException
+     
 
-protected int `$code`;
+     
+      extends
+       SolrException
+     
+     {
 
-protected string `$file` = "";
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$line`;
+    protected
+     int
+      $sourceline;
+protected
+     string
+      $sourcefile;
+protected
+     string
+      $zif_name;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-protected int `$sourceline`;
+    /* Методы */
+    
+   public getInternalInfo(): array
 
-protected string `$sourcefile`;
 
-protected string `$zif_name`;
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-/\* Методи \*/
+    public SolrException::getInternalInfo(): array
 
-public
-[getInternalInfo](solrillegalargumentexception.getinternalinfo.md)():
-array
 
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-public
-[SolrException::getInternalInfo](solrexception.getinternalinfo.md)():
-array
-
-}
+   }
+```
 
 ## Зміст
 
-- [SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.md)
-— Повертає внутрішню інформацію про те, де було викинуто
-виняток
+-   [SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.html) — Повертає внутрішню інформацію про те, де було викинуто виняток

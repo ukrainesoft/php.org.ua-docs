@@ -1,9 +1,15 @@
-- [« Statement::getResult](mysql-xdevapi-statement.getresult.md)
-- [mysql_xdevapi\Table »](class.mysql-xdevapi-table.md)
+Перевіряє, чи є ще результати
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Statement](class.mysql-xdevapi-statement.md)
-- Перевіряє, чи є ще результати
+-   [« Statement::getResult](mysql-xdevapi-statement.getresult.html)
+    
+-   [mysql\_xdevapi\\Table »](class.mysql-xdevapi-table.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Statement](class.mysql-xdevapi-statement.html)
+    
+-   Перевіряє, чи є ще результати
+    
 
 # Statement::hasMoreResults
 
@@ -13,12 +19,13 @@ Statement::hasMoreResults — Перевіряє, чи є ще результа�
 
 ### Опис
 
-public **mysql_xdevapi\Statement::hasMoreResults**(): bool
+```methodsynopsis
+public mysql_xdevapi\Statement::hasMoreResults(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +35,12 @@ public **mysql_xdevapi\Statement::hasMoreResults**(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Statement::hasMoreResults()****
+**Приклад #1 Приклад використання **mysqlxdevapiStatement::hasMoreResults()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

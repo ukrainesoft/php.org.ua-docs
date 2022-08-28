@@ -1,15 +1,21 @@
-- [«Вступ](intro.dom.md)
-- [Вимоги »](dom.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
+-   [« Введение](intro.dom.html)
+    
+-   [Требования »](dom.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOM](book.dom.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](dom.requirements.md)
-- [Установка](dom.installation.md)
-- [Налаштування під час виконання](dom.configuration.md)
-- [Типи ресурсів](dom.resources.md)
+-   [Требования](dom.requirements.html)
+-   [Установка](dom.installation.html)
+-   [Настройка во время выполнения](dom.configuration.html)
+-   [Типы ресурсов](dom.resources.html)

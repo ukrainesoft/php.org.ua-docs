@@ -1,35 +1,40 @@
-- [«SolrQuery::setFacetOffset](solrquery.setfacetoffset.md)
-- [SolrQuery::setFacetSort »](solrquery.setfacetsort.md)
+Визначає рядковий префікс, за допомогою якого обмежуються вирази, на яких виконується фасет
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- визначає рядковий префікс, за допомогою якого обмежуються
-вирази, на яких виконується фасет
+-   [« SolrQuery::setFacetOffset](solrquery.setfacetoffset.html)
+    
+-   [SolrQuery::setFacetSort »](solrquery.setfacetsort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Визначає рядковий префікс, за допомогою якого обмежуються вирази, на яких виконується фасет
+    
 
 # SolrQuery::setFacetPrefix
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setFacetPrefix — Визначає рядковий префікс за допомогою
-якого обмежуються вирази, на яких виконується фасет
+SolrQuery::setFacetPrefix — Визначає строковий префікс, за допомогою якого обмежуються вирази, на яких виконується фасет
 
 ### Опис
 
-public **SolrQuery::setFacetPrefix**(string `$prefix`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setFacetPrefix(string $prefix, string $field_override = ?): SolrQuery
+```
 
-Визначає рядковий префікс, за допомогою якого обмежуються
-вирази, у яких виконується фасет.
+Визначає рядковий префікс, з якого обмежуються висловлювання, у яких виконується фасет.
 
 ### Список параметрів
 
 `prefix`
-Строковий префікс
+
+Рядковий префікс
 
 `field_override`
-Назва поля.
+
+Ім'я поля.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

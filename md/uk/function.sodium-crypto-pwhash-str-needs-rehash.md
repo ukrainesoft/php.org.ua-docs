@@ -1,40 +1,44 @@
-- [« sodium_crypto_pwhash_scryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.md)
-- [sodium_crypto_pwhash_str_verify »](function.sodium-crypto-pwhash-str-verify.md)
+Визначає, чи потрібно повторно використовувати пароль
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Визначає, чи потрібно повторно використовувати пароль
+-   [« sodium\_crypto\_pwhash\_scryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.html)
+    
+-   [sodium\_crypto\_pwhash\_str\_verify »](function.sodium-crypto-pwhash-str-verify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Визначає, чи потрібно повторно використовувати пароль
+    
 
-# sodium_crypto_pwhash_str_needs_rehash
+# sodiumcryptopwhashstrneedsrehash
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_pwhash_str_needs_rehash — Визначає, чи потрібно повторно
-використовувати пароль
+sodiumcryptopwhashstrneedsrehash — Визначає, чи потрібно повторно використовувати пароль
 
 ### Опис
 
-**sodium_crypto_pwhash_str_needs_rehash**(string `$password`, int
-`$opslimit`, int `$memlimit`): bool
+```methodsynopsis
+sodium_crypto_pwhash_str_needs_rehash(string $password, int $opslimit, int $memlimit): bool
+```
 
-Визначає, чи слід повторно використовувати пароль на основі поточного
-хеш-значення `opslimit` та `memlimit`.
+Визначає, чи потрібно повторно використовувати пароль на основі поточного хеш-значення `opslimit` і `memlimit`
 
 ### Список параметрів
 
 `password`
+
 Хеш пароля
 
 `opslimit`
-Налаштований opslimit; дивіться
-[sodium_crypto_pwhash_str()](function.sodium-crypto-pwhash-str.md)
+
+Налаштований opslimit; дивіться [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html)
 
 `memlimit`
-Налаштований memlimit; дивіться
-[sodium_crypto_pwhash_str()](function.sodium-crypto-pwhash-str.md)
+
+Налаштований memlimit; дивіться [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо наданий memlimit/opslimit не
-відповідає тому, що зберігається у хеші. Повертає **`false`**, якщо
-вони збігаються.
+Повертає **`true`**якщо наданий memlimit/opslimit не відповідає тому, що зберігається в хеші. Повертає **`false`**якщо вони збігаються.

@@ -1,23 +1,29 @@
-- [« Generator::key](generator.key.md)
-- [Generator::rewind »](generator.rewind.md)
+Відновити роботу генератора
 
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Відновити роботу генератора
+-   [« Generator::key](generator.key.html)
+    
+-   [Generator::rewind »](generator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Generator](class.generator.html)
+    
+-   Відновити роботу генератора
+    
 
 # Generator::next
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 Generator::next — Відновити роботу генератора
 
 ### Опис
 
-public **Generator::next**(): void
+```methodsynopsis
+public Generator::next(): void
+```
 
-Виклик **Generator::next()** має той самий ефект, що й виклик
-[Generator::send()](generator.send.md) з **`null`** як
-аргументу.
+Виклик **Generator::next()** має той самий ефект, що й виклик [Generator::send()](generator.send.html) з **`null`** як аргумент.
 
 ### Список параметрів
 

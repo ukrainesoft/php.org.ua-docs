@@ -1,36 +1,41 @@
-- [« GearmanJob::returnCode](gearmanjob.returncode.md)
-- [GearmanJob::sendData »](gearmanjob.senddata.md)
+Надсилання результату та статусу завершення
 
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Надсилання результату та статусу завершення
+-   [« GearmanJob::returnCode](gearmanjob.returncode.html)
+    
+-   [GearmanJob::sendData »](gearmanjob.senddata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanJob](class.gearmanjob.html)
+    
+-   Надсилання результату та статусу завершення
+    
 
 # GearmanJob::sendComplete
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanJob::sendComplete — Надсилання результату та статусу завершення
 
 ### Опис
 
-public **GearmanJob::sendComplete**(string `$result`): bool
+```methodsynopsis
+public GearmanJob::sendComplete(string $result): bool
+```
 
-Відправляє результати роботи клієнту та оновлює статус об'єкту на
-завершений.
+Надсилає результати роботи клієнту та оновлює статус об'єкта на завершений.
 
 ### Список параметрів
 
 `result`
+
 Серіалізовані результати роботи.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Надсилання
-статусу невдалої операції
-- [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Установка
-значення, що повертається
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.html) - Відправлення статусу невдалої операції
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається

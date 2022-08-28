@@ -1,76 +1,122 @@
-- [« mysqli::store_result](mysqli.store-result.md)
-- [mysqli::thread_safe »](mysqli.thread-safe.md)
+Повертає ID процесу поточного підключення
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає ID процесу поточного підключення
+-   [« mysqli::store\_result](mysqli.store-result.html)
+    
+-   [mysqli::thread\_safe »](mysqli.thread-safe.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Повертає ID процесу поточного підключення
+    
 
-# mysqli::$thread_id
+# mysqli::$threadід
 
-# mysqli_thread_id
+# mysqlithreadід
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$thread_id -- mysqli_thread_id -- Повертає ID процесу поточного
-підключення
+mysqli::$threadid - mysqlithreadid — Повертає ID процесу поточного підключення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli->thread_id`;
+int [$mysqli->thread\_id](mysqli.thread-id.html)
 
 Процедурний стиль
 
-**mysqli_thread_id**([mysqli](class.mysqli.md) `$mysql`): int
+```methodsynopsis
+mysqli_thread_id(mysqli $mysql): int
+```
 
-**mysqli_thread_id()** повертає ID процесу поточного підключення,
-який можна завершити функцією [mysqli_kill()](mysqli.kill.md). Якщо
-з'єднання було розірвано та відновлено функцією
-[mysqli_ping()](mysqli.ping.md), ID процесу буде вже іншим. Тому
-потрібно отримувати цей ідентифікатор, коли це справді необхідно.
+**mysqlithreadid()** повертає ID процесу поточного підключення, який можна завершити функцією [mysqli\_kill()](mysqli.kill.html). Якщо з'єднання було розірвано та відновлено функцією [mysqli\_ping()](mysqli.ping.html), ID процесу буде вже іншим. Тому потрібно отримувати цей ідентифікатор, коли це справді необхідно.
 
-> **Примітка**:
->
-> ID процесу призначається за принципом підключення-за-підключенням.
-> Відповідно, якщо з'єднання розірвано та наново встановлено, йому
-> буде надано новий ідентифікатор.
->
-> Для завершення запущеного запиту можна використовувати
-> SQL-команду `KILL QUERY processid`.
+> **Зауваження**
+> 
+> ID процесу призначається за принципом підключення-за-підключенням. Відповідно, якщо з'єднання розірвано та заново встановлено, йому буде присвоєно новий ідентифікатор.
+> 
+> Для завершення запущеного запиту можна використовувати SQL-команду `KILL QUERY processid`
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Повертає ID процесу поточного підключення.
+Повертає ID процесу поточного з'єднання.
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$mysqli->thread_id`**
+**Приклад #1 Приклад використання $mysqli->threadід**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
-", mysqli_connect_error()); помилка */if (!$mysqli->query("CREATE TABLE myCity LIKE City")) {    printf("Помилка: %s
-", $mysqli->error);   exit;}/* закриваємо з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* определяем наш id процесса */
+$thread_id = $mysqli->thread_id;
+
+/* убиваем соединение */
+$mysqli->kill($thread_id);
+
+/* тут должна произойти ошибка */
+if (!$mysqli->query("CREATE TABLE myCity LIKE City")) {
+    printf("Ошибка: %s\n", $mysqli->error);
+    exit;
+}
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error()); */if(!mysqli_query($link, "CREATE TABLE myCity LIKE City")) {    printf("Помилка: %s
-", mysqli_error($link));   exit;}/* закриваємо з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* определяем наш id процесса */
+$thread_id = mysqli_thread_id($link);
+
+/* убиваем соединение */
+mysqli_kill($link, $thread_id);
+
+/* тут должна произойти ошибка */
+if (!mysqli_query($link, "CREATE TABLE myCity LIKE City")) {
+    printf("Ошибка: %s\n", mysqli_error($link));
+    exit;
+}
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Помилка: MySQL server has gone away
+```
+Ошибка: MySQL server has gone away
+```
 
 ### Дивіться також
 
-- [mysqli_kill()](mysqli.kill.md) - Запит для сервера завершити
-виконання процесу MySQL
+-   [mysqli\_kill()](mysqli.kill.html) - Запит для сервера завершити виконання процесу MySQL

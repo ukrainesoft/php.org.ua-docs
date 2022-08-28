@@ -1,19 +1,27 @@
-- [«ErrorException::\_\_construct](errorexception.construct.md)
-- [Error»](class.error.md)
+Отримує серйозність виключення
 
-- [PHP Manual](index.md)
-- [ErrorException](class.errorexception.md)
-- Отримує серйозність виключення
+-   [« ErrorException::\_\_construct](errorexception.construct.html)
+    
+-   [Error »](class.error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ErrorException](class.errorexception.html)
+    
+-   Отримує серйозність виключення
+    
 
-#ErrorException::getSeverity
+# ErrorException::getSeverity
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ErrorException::getSeverity — Отримує серйозність виключення
 
 ### Опис
 
-final public **ErrorException::getSeverity**(): int
+```methodsynopsis
+final public ErrorException::getSeverity(): int
+```
 
 Повертає серйозність виключення.
 
@@ -29,9 +37,20 @@ final public **ErrorException::getSeverity**(): int
 
 **Приклад #1 Приклад використання **ErrorException::getSeverity()****
 
-` <?phptry {    throw new ErrorException("Повідомлення про виключення", 0,E_USER_ERROR);} catch(ErrorException $e) {    echo "Серьез        $e->getSeverity(); var_dump($e->getSeverity() === E_USER_ERROR);}?> `
+```php
+<?php
+try {
+    throw new ErrorException("Сообщение об исключении", 0, E_USER_ERROR);
+} catch(ErrorException $e) {
+    echo "Серьёзность этого исключения равна: " . $e->getSeverity();
+    var_dump($e->getSeverity() === E_USER_ERROR);
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Серйозність цього винятку дорівнює: 256
+```
+Серьёзность этого исключения равна: 256
 bool(true)
+```

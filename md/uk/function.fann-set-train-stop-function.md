@@ -1,40 +1,46 @@
-- [« fann_set_train_error_function](function.fann-set-train-error-function.md)
-- [fann_set_training_algorithm »](function.fann-set-training-algorithm.md)
+Встановлює функцію зупинки під час тренування.
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює функцію зупинки під час тренування.
+-   [« fann\_set\_train\_error\_function](function.fann-set-train-error-function.html)
+    
+-   [fann\_set\_training\_algorithm »](function.fann-set-training-algorithm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює функцію зупинки під час тренування.
+    
 
-# fann_set_train_stop_function
+# fannsettrainstopfunction
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_train_stop_function — Встановлює функцію зупинки,
-використовується під час тренування
+fannsettrainstopfunction — Встановлює функцію зупинки під час тренування.
 
 ### Опис
 
-**fann_set_train_stop_function**(resource `$ann`, int `$stop_function`):
-bool
+```methodsynopsis
+fann_set_train_stop_function(resource $ann, int $stop_function): bool
+```
 
 Встановлює функцію зупинки під час тренування.
 
-Опції зупинки описані далі в константах [функції зупинки](fann.constants.md#constants.fann-stopfunc).
+Функції зупинки описані далі в константах [функции остановки](fann.constants.html#constants.fann-stopfunc)
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `stop_function`
-Константа [функції зупинки](fann.constants.md#constants.fann-stopfunc).
+
+Константа [функции остановки](fann.constants.html#constants.fann-stopfunc)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_train_stop_function()](function.fann-get-train-stop-function.md) -
-Повертає функцію зупинки, що використовується під час навчання
+-   [fann\_get\_train\_stop\_function()](function.fann-get-train-stop-function.html) - Повертає функцію зупинки, що використовується під час навчання

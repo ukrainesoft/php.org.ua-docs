@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](xhprof.configuration.md)
-- [Предвизначені константи »](xhprof.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xhprof.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](xhprof.configuration.html)
+    
+-   [Предопределённые константы »](xhprof.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](xhprof.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

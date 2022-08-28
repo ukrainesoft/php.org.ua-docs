@@ -1,18 +1,26 @@
-- [«Componere\Patch::apply](componere-patch.apply.md)
-- [Componere\Patch::isApplied »](componere-patch.isapplied.md)
+скасування
 
-- [PHP Manual](index.md)
-- [Componere\Patch](class.componere-patch.md)
--   Скасування
+-   [« Componere\\Patch::apply](componere-patch.apply.html)
+    
+-   [Componere\\Patch::isApplied »](componere-patch.isapplied.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Patch](class.componere-patch.html)
+    
+-   скасування
+    
 
-# Componere\Patch::revert
+# ComponerePatch::revert
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Patch::revert — Скасувати
+ComponerePatch::revert — Скасувати
 
 ### Опис
 
-public **Componere\Patch::revert**(): void
+```methodsynopsis
+public Componere\Patch::revert(): void
+```
 
 Скасує поточний патч

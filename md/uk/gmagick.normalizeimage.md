@@ -1,32 +1,39 @@
-- [«Gmagick::nextimage](gmagick.nextimage.md)
-- [Gmagick::oilpaintimage »](gmagick.oilpaintimage.md)
+Підвищує контрастність кольорового зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Підвищує контрастність кольорового зображення
+-   [« Gmagick::nextimage](gmagick.nextimage.html)
+    
+-   [Gmagick::oilpaintimage »](gmagick.oilpaintimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Підвищує контрастність кольорового зображення
+    
 
 # Gmagick::normalizeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::normalizeimage — Підвищує контрастність кольорового зображення
 
 ### Опис
 
-public **Gmagick::normalizeimage**(int `$channel` = ?):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::normalizeimage(int $channel = ?): Gmagick
+```
 
-Підвищує контрастність кольорового зображення, регулюючи колір пікселів
-охоплення всього діапазону доступних кольорів.
+Підвищує контраст кольорового зображення, регулюючи колір пікселів для охоплення всього діапазону доступних кольорів.
 
 ### Список параметрів
 
 `channel`
+
 Визначає який канал нормалізувати.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

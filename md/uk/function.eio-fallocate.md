@@ -1,85 +1,80 @@
-- [«eio_event_loop](function.eio-event-loop.md)
-- [eio_fchmod »](function.eio-fchmod.md)
+Дозволяє безпосередньо керувати розміром використовуваного дискового простору для файлу
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Дозволяє безпосередньо керувати розміром дискового
-простору для файлу
+-   [« eio\_event\_loop](function.eio-event-loop.html)
+    
+-   [eio\_fchmod »](function.eio-fchmod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Дозволяє безпосередньо керувати розміром використовуваного дискового простору для файлу
+    
 
-#eio_fallocate
+# eiofallocate
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_fallocate — Дозволяє безпосередньо керувати розміром використовуваного
-дискового простору для файлу
+eiofallocate — Дозволяє безпосередньо керувати розміром дискового простору, що використовується для файлу.
 
 ### Опис
 
-**eio_fallocate**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-int `$mode`,
-int `$offset`,
-int `$length`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_fallocate(    mixed $fd,    int $mode,    int $offset,    int $length,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_fallocate()** дозволяє безпосередньо керувати розміром використовуваного
-дисковий простір для файлу. Дескриптор файлу вказується в
-параметрі `fd`, розмір визначається діапазоном у байтах, починаючи від
-усунення `offset` і до `length`.
+**eiofallocate()** дозволяє безпосередньо керувати розміром дискового простору для файлу. Дескриптор файлу вказується у параметрі `fd`, Розмір визначається діапазоном в байтах, починаючи від зсуву `offset` і до `length`
 
-> **Примітка**: **Файл повинен бути відкритим для запису**
->
-> **`EIO_O_CREAT`** *OR* (одна з констант **`EIO_O_WRONLY`**,
-> **`EIO_O_RDWR`**
+> **Зауваження** **Файл має бути відкритим для запису**
+> 
+> **`EIO_O_CREAT`** *ВР* (одна з констант **`EIO_O_WRONLY`** **`EIO_O_RDWR`**
 
 ### Список параметрів
 
 `fd`
-Потік, покажчик на сокет або числовий дескриптор файлу, наприклад
-повернутий [eio_open()](function.eio-open.md).
+
+Потік, покажчик на сокет, чи числовий дескриптор файлу, наприклад повернутий [eio\_open()](function.eio-open.html)
 
 `mode`
-Доступний тільки один прапор: **`EIO_FALLOC_FL_KEEP_SIZE`** (те саме,
-що **`FALLOC_FL_KEEP_SIZE`** в POSIX).
+
+Доступний лише один прапор: **`EIO_FALLOC_FL_KEEP_SIZE`** (те саме, що **`FALLOC_FL_KEEP_SIZE`** в POSIX).
 
 `offset`
+
 Визначає усунення діапазону в байтах.
 
 `length`
+
 Визначає розміри діапазону.
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-**eio_fallocate()** повертає вказівник на запит у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eiofallocate()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.

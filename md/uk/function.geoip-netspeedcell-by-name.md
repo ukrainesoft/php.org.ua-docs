@@ -1,57 +1,69 @@
-- [« geoip_isp_by_name](function.geoip-isp-by-name.md)
-- [geoip_org_by_name »](function.geoip-org-by-name.md)
+Отримати швидкість з'єднання з мережею Інтернет
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Отримати швидкість з'єднання з мережею Інтернет
+-   [« geoip\_isp\_by\_name](function.geoip-isp-by-name.html)
+    
+-   [geoip\_org\_by\_name »](function.geoip-org-by-name.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GeoIP](ref.geoip.html)
+    
+-   Отримати швидкість з'єднання з мережею Інтернет
+    
 
-# geoip_netspeedcell_by_name
+# geoipnetspeedcellбname
 
-(PECL geoip \>= 1.1.0)
+(PECL geoip >= 1.1.0)
 
-geoip_netspeedcell_by_name — Отримати швидкість з'єднання з мережею
-Інтернет
+geoipnetspeedcellбname — Отримати швидкість підключення до мережі Інтернет
 
 ### Опис
 
-**geoip_netspeedcell_by_name**(string `$hostname`): string
+```methodsynopsis
+geoip_netspeedcell_by_name(string $hostname): string
+```
 
-Функція **geoip_netspeedcell_by_name()** повертає тип підключення до
-мережі Інтернет та його швидкість щодо заданого імені хоста або
-IP-адреси.
+Функція **geoipnetspeedcellбname()** повертає тип підключення до мережі Інтернет та його швидкість щодо заданого імені хоста або IP-адреси.
 
-Ця функція доступна, лише якщо використовується бібліотека GeoIP версії
-1.4.8 та вище.
+Ця функція доступна лише тоді, коли використовується бібліотека GeoIP версії 1.4.8 та вище.
 
-Зараз ця функція доступна лише користувачам, які купили комерційну
-GeoIP Domain Edition. Якщо коректна база даних не
-буде знайдено, буде виведено попередження.
+Зараз ця функція доступна лише користувачам, які купили комерційну версію GeoIP Domain Edition. Якщо коректна база даних не буде знайдена, буде виведено попередження.
 
 Повертається рядок. Стандартні значення:
 
-- Cable/DSL
-- Dialup
-- Cellular
-- Corporate
+-   Cable/DSL
+-   Dialup
+-   Cellular
+-   Corporate
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста або IP-адреса.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає швидкість з'єднання. Якщо адреса
-не знайдено в базі даних, то повертається **`false`**.
+У разі успішного виконання повертає швидкість з'єднання. Якщо адреса не знайдена у базі даних, то повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_netspeedcell_by_name()****
+**Приклад #1 Приклад використання **geoipnetspeedcellбname()****
 
-Отримання швидкості підключення до example.com.
+Отримання швидкості з'єднання з example.com.
 
-` <?php$netspeed = geoip_netspeedcell_by_name('www.example.com');if ($netspeed) {    echo 'Тип з'єднання: '. $netspeed;}?> `
+```php
+<?php
+$netspeed = geoip_netspeedcell_by_name('www.example.com');
+
+if ($netspeed) {
+    echo 'Тип соединения: '. $netspeed;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Тип з'єднання: Corporate
+```
+Тип соединения: Corporate
+```

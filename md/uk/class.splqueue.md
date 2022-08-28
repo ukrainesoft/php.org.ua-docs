@@ -1,133 +1,82 @@
-- [« SplStack::setIteratorMode](splstack.setiteratormode.md)
-- [SplQueue::\_\_construct »](splqueue.construct.md)
+Клас SplQueue
 
-- [PHP Manual](index.md)
-- [Структури даних](spl.datastructures.md)
-- Клас SplQueue
+-   [« SplStack::setIteratorMode](splstack.setiteratormode.html)
+    
+-   [SplQueue::\_\_construct »](splqueue.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](spl.datastructures.html)
+    
+-   Клас SplQueue
+    
 
 # Клас SplQueue
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SplQueue надає основні функціональні можливості
-черги, реалізовані з допомогою двозв'язкового списку.
+Клас SplQueue надає основні функціональні можливості черги, реалізовані за допомогою двозв'язкового списку.
 
 ## Огляд класів
 
-class **SplQueue** extends
-[SplDoublyLinkedList](class.spldoublylinkedlist.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [SplStack::\_\_construct](splstack.construct.md)()
+    
+     
+      class SplQueue
+     
 
-public [dequeue](splqueue.dequeue.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     
+      extends
+       SplDoublyLinkedList
+     
+     {
 
-public
-[enqueue](splqueue.enqueue.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+    /* Методы */
+    
+   public SplStack::__construct()
 
-public [setIteratorMode](splqueue.setiteratormode.md)(int `$mode`):
-void
+    public dequeue(): mixed
+public enqueue(mixed $value): void
+public setIteratorMode(int $mode): void
 
-/\* Наслідувані методи \*/
 
-public [SplDoublyLinkedList::add](spldoublylinkedlist.add.md)(int
-`$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+    /* Наследуемые методы */
+    public SplDoublyLinkedList::add(int $index, mixed $value): void
+public SplDoublyLinkedList::bottom(): mixed
+public SplDoublyLinkedList::count(): int
+public SplDoublyLinkedList::current(): mixed
+public SplDoublyLinkedList::getIteratorMode(): int
+public SplDoublyLinkedList::isEmpty(): bool
+public SplDoublyLinkedList::key(): int
+public SplDoublyLinkedList::next(): void
+public SplDoublyLinkedList::offsetExists(int $index): bool
+public SplDoublyLinkedList::offsetGet(int $index): mixed
+public SplDoublyLinkedList::offsetSet(?int $index, mixed $value): void
+public SplDoublyLinkedList::offsetUnset(int $index): void
+public SplDoublyLinkedList::pop(): mixed
+public SplDoublyLinkedList::prev(): void
+public SplDoublyLinkedList::push(mixed $value): void
+public SplDoublyLinkedList::rewind(): void
+public SplDoublyLinkedList::serialize(): string
+public SplDoublyLinkedList::setIteratorMode(int $mode): int
+public SplDoublyLinkedList::shift(): mixed
+public SplDoublyLinkedList::top(): mixed
+public SplDoublyLinkedList::unserialize(string $data): void
+public SplDoublyLinkedList::unshift(mixed $value): void
+public SplDoublyLinkedList::valid(): bool
 
-public [SplDoublyLinkedList::bottom](spldoublylinkedlist.bottom.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [SplDoublyLinkedList::count](spldoublylinkedlist.count.md)():
-int
-
-public
-[SplDoublyLinkedList::current](spldoublylinkedlist.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md)():
-int
-
-public
-[SplDoublyLinkedList::isEmpty](spldoublylinkedlist.isempty.md)(): bool
-
-public [SplDoublyLinkedList::key](spldoublylinkedlist.key.md)(): int
-
-public [SplDoublyLinkedList::next](spldoublylinkedlist.next.md)():
-void
-
-public
-[SplDoublyLinkedList::offsetExists](spldoublylinkedlist.offsetexists.md)(int
-`$index`): bool
-
-public
-[SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md)(int
-`$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[SplDoublyLinkedList::offsetSet](spldoublylinkedlist.offsetset.md)(?int
-`$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public
-[SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.md)(int
-`$index`): void
-
-public [SplDoublyLinkedList::pop](spldoublylinkedlist.pop.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [SplDoublyLinkedList::prev](spldoublylinkedlist.prev.md)():
-void
-
-public
-[SplDoublyLinkedList::push](spldoublylinkedlist.push.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md)():
-void
-
-public
-[SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md)():
-string
-
-public
-[SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.md)(int
-`$mode`): int
-
-public [SplDoublyLinkedList::shift](spldoublylinkedlist.shift.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [SplDoublyLinkedList::top](spldoublylinkedlist.top.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md)(string
-`$data`): void
-
-public
-[SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [SplDoublyLinkedList::valid](spldoublylinkedlist.valid.md)():
-bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [SplQueue::\_\_construct](splqueue.construct.md) - Створює нову
-чергу, реалізовану з використанням двозв'язкового списку
-- [SplQueue::dequeue](splqueue.dequeue.md) — Видаляє елемент з
-черги
-- [SplQueue::enqueue](splqueue.enqueue.md) — Додає елемент до
-черга
-- [SplQueue::setIteratorMode](splqueue.setiteratormode.md)
-Встановлює режим ітератора
+-   [SplQueue::\_\_construct](splqueue.construct.html) — Створює нову чергу, реалізовану за допомогою двозв'язкового списку
+-   [SplQueue::dequeue](splqueue.dequeue.html) — Видаляє елемент із черги
+-   [SplQueue::enqueue](splqueue.enqueue.html) — Додає елемент у чергу
+-   [SplQueue::setIteratorMode](splqueue.setiteratormode.html) - Встановлює режим ітератора

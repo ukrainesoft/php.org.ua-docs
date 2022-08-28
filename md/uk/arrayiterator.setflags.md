@@ -1,39 +1,44 @@
-- [« ArrayIterator::serialize](arrayiterator.serialize.md)
-- [ArrayIterator::uasort »](arrayiterator.uasort.md)
+Встановлює прапори, що змінюють поведінку.
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Встановлює прапори, що змінюють поведінку.
+-   [« ArrayIterator::serialize](arrayiterator.serialize.html)
+    
+-   [ArrayIterator::uasort »](arrayiterator.uasort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Встановлює прапори, що змінюють поведінку.
+    
 
 # ArrayIterator::setFlags
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-ArrayIterator::setFlags — Встановлює прапори, що змінюють поведінку
-ArrayIterator
+ArrayIterator::setFlags — Встановлює прапори, що змінюють поведінку ArrayIterator
 
 ### Опис
 
-public **ArrayIterator::setFlags**(int `$flags`): void
+```methodsynopsis
+public ArrayIterator::setFlags(int $flags): void
+```
 
 Встановлює прапори, які керують поведінкою.
 
 ### Список параметрів
 
 `flags`
-Поведінка нового ArrayIterator. Приймає або бітову маску, або
-іменовані константи. Використання іменованих констант наполегливо
-рекомендується для сумісності з майбутніми версіями.
 
-Доступні прапори поведінки наведені нижче. Фактичний сенс цих
-прапорів описаний в [визначених константах](class.arrayiterator.md#arrayiterator.constants).
+Поведінка нового ArrayIterator. Приймає або бітову маску, або названі константи. Використання іменованих констант рекомендується для забезпечення сумісності з майбутніми версіями.
 
-| значення | константа                                                                                      |
-|----------|------------------------------------------------------------------------------------------------|
-| 1        | [ArrayIterator::STD_PROP_LIST](class.arrayiterator.md#arrayiterator.constants.std-prop-list)   |
-| 2        | [ArrayIterator::ARRAY_AS_PROPS](class.arrayiterator.md#arrayiterator.constants.array-as-props) |
+Доступні прапори поведінки наведені нижче. Фактичний зміст цих прапорів описаний у [предопределённых константах](class.arrayiterator.html#arrayiterator.constants)
 
 **Прапори поведінки ArrayIterator**
+
+| значение | константа |
+| --- | --- |
+|  | [ArrayIterator::STD\_PROP\_LIST](class.arrayiterator.html#arrayiterator.constants.std-prop-list) |
+|  | [ArrayIterator::ARRAY\_AS\_PROPS](class.arrayiterator.html#arrayiterator.constants.array-as-props) |
 
 ### Значення, що повертаються
 
@@ -41,5 +46,4 @@ public **ArrayIterator::setFlags**(int `$flags`): void
 
 ### Дивіться також
 
-- [ArrayIterator::getFlags()](arrayiterator.getflags.md) - Отримує
-прапори поведінки
+-   [ArrayIterator::getFlags()](arrayiterator.getflags.html) - Отримує прапори поведінки

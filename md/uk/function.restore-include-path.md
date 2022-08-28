@@ -1,30 +1,33 @@
-- [«putenv](function.putenv.md)
-- [set_include_path »](function.set-include-path.md)
+Відновлює початкове значення конфігураційної установки includepath
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Відновлює початкове значення налаштування конфігурації
-include_path
+-   [« putenv](function.putenv.html)
+    
+-   [set\_include\_path »](function.set-include-path.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Відновлює початкове значення конфігураційної установки includepath
+    
 
-# restore_include_path
+# restoreincludepath
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7)
+(PHP 4> = 4.3.0, PHP 5, PHP 7)
 
-restore_include_path — Відновлює початкове значення налаштування
-конфігурації include_path
+restoreincludepath — Відновлює початкове значення конфігураційної установки includepath
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНА*, починаючи з
-PHP 8.0.0 Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**restore_include_path**(): void
+```methodsynopsis
+restore_include_path(): void
+```
 
-Відновлює вихідне значення конфігураційної установки
-[include_path](ini.core.md#ini.include-path), яке записано в
-`php.ini`
+Відновлює вихідне значення конфігураційної установки [include\_path](ini.core.html#ini.include-path), яка записана в php.ini
 
 ### Список параметрів
 
@@ -36,16 +39,30 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 ### Приклади
 
-**Приклад #1 Приклад використання **restore_include_path()****
+**Приклад #1 Приклад використання **restoreincludepath()****
 
-`<?phpecho get_include_path(); // .:/usr/local/lib/phpset_include_path('/inc');echo get_include_path(); // /increstore_include_path();// або такini_restore('include_path');echo get_include_path(); // .:/usr/local/lib/php?> `
+```php
+<?php
+
+echo get_include_path();  // .:/usr/local/lib/php
+
+set_include_path('/inc');
+
+echo get_include_path();  // /inc
+
+restore_include_path();
+
+// или так
+ini_restore('include_path');
+
+echo get_include_path();  // .:/usr/local/lib/php
+
+?>
+```
 
 ### Дивіться також
 
-- [ini_restore()](function.ini-restore.md) - Відновлює
-значення налаштування конфігурації
-- [get_include_path()](function.get-include-path.md) - Отримання
-поточного значення конфігураційної установки include_path
-- [set_include_path()](function.set-include-path.md) - Встановлює
-значення налаштування конфігурації include_path
-- [include](function.include.md) - include
+-   [ini\_restore()](function.ini-restore.html) - Відновлює налаштування конфігурації.
+-   [get\_include\_path()](function.get-include-path.html) - Отримання поточного значення конфігураційної установки includepath
+-   [set\_include\_path()](function.set-include-path.html) - Встановлює налаштування конфігурації includepath
+-   [include](function.include.html) - include

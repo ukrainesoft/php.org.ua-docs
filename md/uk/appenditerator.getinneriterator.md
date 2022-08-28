@@ -1,20 +1,27 @@
-- [« AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md)
-- [AppendIterator::getIteratorIndex »](appenditerator.getiteratorindex.md)
+Повертає внутрішній ітератор
 
-- [PHP Manual](index.md)
-- [AppendIterator](class.appenditerator.md)
-- Повертає внутрішній ітератор
+-   [« AppendIterator::getArrayIterator](appenditerator.getarrayiterator.html)
+    
+-   [AppendIterator::getIteratorIndex »](appenditerator.getiteratorindex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [AppendIterator](class.appenditerator.html)
+    
+-   Повертає внутрішній ітератор
+    
 
 # AppendIterator::getInnerIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::getInnerIterator — Повертає внутрішній ітератор
 
 ### Опис
 
-public **AppendIterator::getInnerIterator**():
-[Iterator](class.iterator.md)
+```methodsynopsis
+public AppendIterator::getInnerIterator(): Iterator
+```
 
 Цей спосіб повертає поточний внутрішній ітератор.
 
@@ -24,24 +31,43 @@ public **AppendIterator::getInnerIterator**():
 
 ### Значення, що повертаються
 
-Поточний внутрішній ітератор або **`null`**, якщо такий відсутній.
+Поточний внутрішній ітератор або **`null`**, якщо така відсутня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**AppendIterator::getInnerIterator()****
+**Приклад #1 Приклад використання **AppendIterator::getInnerIterator()****
 
-` <?php$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));$array_b = new Regey '/^[ac]/');$iterator==new AppendIterator;$iterator->append($array_a);$iterator->append($array_b);foreach ($iterator as $current) {    $inner = ->getInnerIterator(); if ($inner instanceOf RegexIterator) {       echo 'Відфільтрований: '; } else {        echo 'Оригінальний: '; }   echo $current . PHP_EOL;}?> `
+```php
+<?php
+$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));
+$array_b = new RegexIterator($array_a, '/^[ac]/');
+
+$iterator = new AppendIterator;
+$iterator->append($array_a);
+$iterator->append($array_b);
+
+foreach ($iterator as $current) {
+    $inner = $iterator->getInnerIterator();
+    if ($inner instanceOf RegexIterator) {
+        echo 'Отфильтрованный: ';
+    } else {
+        echo 'Оригинальный: ';
+    }
+    echo $current . PHP_EOL;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Оригінальний: aardwolf
-Оригінальний: bear
-Оригінальний: capybara
-Відфільтрований: aardwolf
-Відфільтрований: capybara
+```
+Оригинальный: aardwolf
+Оригинальный: bear
+Оригинальный: capybara
+Отфильтрованный: aardwolf
+Отфильтрованный: capybara
+```
 
 ### Дивіться також
 
-- [AppendIterator::getIteratorIndex()](appenditerator.getiteratorindex.md) -
-Повертає індекс ітератора
+-   [AppendIterator::getIteratorIndex()](appenditerator.getiteratorindex.html) - Повертає індекс ітератора

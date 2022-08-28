@@ -1,45 +1,78 @@
-- [«sqlsrv_rows_affected](function.sqlsrv-rows-affected.md)
-- [sqlsrv_server_info »](function.sqlsrv-server-info.md)
+Надсилає дані з потоків параметрів на сервер
 
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Надсилає дані з потоків параметрів на сервер
+-   [« sqlsrv\_rows\_affected](function.sqlsrv-rows-affected.html)
+    
+-   [sqlsrv\_server\_info »](function.sqlsrv-server-info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SQLSRV](ref.sqlsrv.html)
+    
+-   Надсилає дані з потоків параметрів на сервер
+    
 
-#sqlsrv_send_stream_data
+# sqlsrvsendstreamdata
 
 (No version information available, might only be in Git)
 
-sqlsrv_send_stream_data — Надсилає дані з потоків параметрів на
-сервер
+sqlsrvsendstreamdata — Надсилання даних із потоків параметрів на сервер
 
 ### Опис
 
-**sqlsrv_send_stream_data**(resource `$stmt`): bool
+```methodsynopsis
+sqlsrv_send_stream_data(resource $stmt): bool
+```
 
-Надсилати дані із потоків параметрів на сервер. При кожному дзвінку
-надсилається до 8 КБ даних.
+Надсилати дані з потоків параметрів на сервер. Кожний дзвінок надсилає до 8 КБ даних.
 
 ### Список параметрів
 
 `stmt`
-Ресурс виразу, що повертається
-[sqlsrv_query()](function.sqlsrv-query.md) або
-[sqlsrv_execute()](function.sqlsrv-execute.md).
+
+Ресурс виразу, що повертається [sqlsrv\_query()](function.sqlsrv-query.html) або [sqlsrv\_execute()](function.sqlsrv-execute.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо є ще дані для відправки та **`false`**,
-якщо ні.
+Повертає **`true`**, якщо є ще дані для відправки та **`false`**, якщо ні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrv_send_stream_data()****
+**Приклад #1 Приклад використання **sqlsrvsendstreamdata()****
 
-` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "UPDATE Table_1 SET  | / Відкрийте дані параметрів як потік і помістіть их в масив $params.$data = fopen( "data://text/plain,[ Lengthy content here. ]" "r")$| ;// Підготуйте вираз. Використовуйте масив $options, щоб// відключити поведінку за замовчуванням, заключається в відправці всіх даних// потоку во час виконання запиту.$options , $params, $options);sqlsrv_execute( $stmt);// Отправляйте до 8 КБ данных параметров на сервер// при каждом вызове sqlsrv_send_stream_data.$i = 1;while( sqlsrv_send_stream_data( $stmt)) {      $i++;}echo "$i дзвінків було зроблено.";?> `
+```php
+<?php
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
+}
+
+$sql = "UPDATE Table_1 SET data = ( ?) WHERE id = 100";
+
+// Откройте данные параметров как поток и поместите их в массив $params.
+$data = fopen( "data://text/plain,[ Lengthy content here. ]", "r");
+$params = array( &$data);
+
+// Подготовьте выражение. Используйте массив $options, чтобы
+// отключить поведение по умолчанию, которое заключается в отправке всех данных
+// потока во время выполнения запроса.
+$options = array("SendStreamParamsAtExec"=>0);
+$stmt = sqlsrv_prepare( $conn, $sql, $params, $options);
+
+sqlsrv_execute( $stmt);
+
+// Отправляйте до 8 КБ данных параметров на сервер
+// при каждом вызове sqlsrv_send_stream_data.
+$i = 1;
+while( sqlsrv_send_stream_data( $stmt)) {
+      $i++;
+}
+echo "$i вызовов было сделано.";
+?>
+```
 
 ### Дивіться також
 
-- [sqlsrv_prepare()](function.sqlsrv-prepare.md) - Підготовка
-запит до виконання
-- [sqlsrv_query()](function.sqlsrv-query.md) - Підготовляє та
-виконує запит
+-   [sqlsrv\_prepare()](function.sqlsrv-prepare.html) - готує запит до виконання
+-   [sqlsrv\_query()](function.sqlsrv-query.html) - готує та виконує запит

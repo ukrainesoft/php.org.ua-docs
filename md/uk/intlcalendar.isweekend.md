@@ -1,65 +1,76 @@
-- [« IntlCalendar::isSet](intlcalendar.isset.md)
-- [IntlCalendar::roll »](intlcalendar.roll.md)
+Визначає, чи припадають певні дата/час на вихідні
 
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- Визначає, чи доводиться певна дата/час на вихідні
+-   [« IntlCalendar::isSet](intlcalendar.isset.html)
+    
+-   [IntlCalendar::roll »](intlcalendar.roll.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlCalendar](class.intlcalendar.html)
+    
+-   Визначає, чи припадають певні дата/час на вихідні
+    
 
 # IntlCalendar::isWeekend
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlCalendar::isWeekend — Визначає, чи припадають певні
-дата/час на вихідні
+IntlCalendar::isWeekend — Визначає, чи припадають певні дата/час на вихідні
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::isWeekend**(?float `$timestamp` = **`null`**):
-bool
+```methodsynopsis
+public IntlCalendar::isWeekend(?float $timestamp = null): bool
+```
 
 Процедурний стиль
 
-**intlcal_is_weekend**([IntlCalendar](class.intlcalendar.md)
-`$calendar`, ?float `$timestamp` = **`null`**): bool
+```methodsynopsis
+intlcal_is_weekend(IntlCalendar $calendar, ?float $timestamp = null): bool
+```
 
-Повертає, чи є поточний час об'єкта чи задана тимчасова
-мітка вихідними у календарній системі цього об'єкта.
+Повертає, чи є поточний час об'єкта чи задана тимчасова мітка вихідними в системі календаря цього об'єкта.
 
 Для цієї функції потрібний ICU 4.4 або новіший.
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.html)
 
 `timestamp`
-Необов'язкова мітка часу, що представляє кількість мілісекунд з
-початку епохи Unix, крім додаткових секунд. Якщо **`null`**,
-натомість використовується поточний час об'єкта.
+
+Необов'язкова мітка часу, що становить кількість мілісекунд з початку епохи Unix, за винятком додаткових секунд. Якщо **`null`**, натомість використовується поточний час об'єкта.
 
 ### Значення, що повертаються
 
-Логічне значення (bool), яке вказує, чи є час об'єкта
-вихідними.
+Логічне значення (bool), що вказує на те, чи є час об'єкта вихідними.
 
-У разі виникнення помилки також повертається **`false`**. Для
-виявлення умов помилки використовуйте
-[intl_get_error_code()](function.intl-get-error-code.md) або налаштуйте
-викидання
-[виключень](intl.configuration.md#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intl\_get\_error\_code()](function.intl-get-error-code.html) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlCalendar::isWeekend()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');$cal = new IntlGregorianCalendar(NULL, 'en_US');$cal->set(2013, 6 /* Липень */, 7); // Неділяvar_dump($cal->isWeekend()); // truevar_dump($cal->isWeekend(strtotime('2013-07-01 00:00:00'))); // false, Понеділок$cal = new IntlGregorianCalendar(NULL, 'ar_SA');$cal->set(2013, 6 /* Липень */, 7); // Неділяvar_dump($cal->isWeekend()); // false, неділя не є вихідним днем в цьому календарі `
+```php
+<?php
+ini_set('date.timezone', 'Europe/Lisbon');
+
+$cal = new IntlGregorianCalendar(NULL, 'en_US');
+$cal->set(2013, 6 /* Июль */, 7); // Воскресенье
+
+var_dump($cal->isWeekend()); // true
+var_dump($cal->isWeekend(strtotime('2013-07-01 00:00:00'))); // false, Понедельник
+
+$cal = new IntlGregorianCalendar(NULL, 'ar_SA');
+$cal->set(2013, 6 /* Июль */, 7); // Воскресенье
+var_dump($cal->isWeekend()); // false, воскресенье не является выходным днём в этом календаре
+```
 
 ### Дивіться також
 
-- [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) -
-Повідомляє, чи є день буднім, вихідним чи днем із переходом
-між ними
-- [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md) -
-Отримує час, коли вихідні починаються або закінчуються
+-   [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) - Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
+-   [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.html) - Отримує час дня, коли вихідні починаються чи закінчуються

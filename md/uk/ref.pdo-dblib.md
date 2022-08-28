@@ -1,31 +1,28 @@
-- [« PDO::cubrid_schema](pdo.cubrid-schema.md)
-- [PDO_DBLIB DSN »](ref.pdo-dblib.connection.md)
+Функції Microsoft SQL Server та Sybase (PDODBLIB)
 
-- [PHP Manual](index.md)
-- [Драйвери PDO](pdo.drivers.md)
-- Функції Microsoft SQL Server та Sybase (PDO_DBLIB)
+-   [« PDO::cubrid\_schema](pdo.cubrid-schema.html)
+    
+-   [PDO\_DBLIB DSN »](ref.pdo-dblib.connection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Драйверы PDO](pdo.drivers.html)
+    
+-   Функції Microsoft SQL Server та Sybase (PDODBLIB)
+    
 
-# Функції Microsoft SQL Server та Sybase (PDO_DBLIB)
+# Функції Microsoft SQL Server та Sybase (PDODBLIB)
 
 ## Вступ
 
-PDO_DBLIB – драйвер, що реалізує [інтерфейс PHP Data Objects
-(PDO)](intro.pdo.md) для доступу до баз даних Microsoft SQL Server та
-Sybase за допомогою бібліотеки FreeTDS.
+PDODBLIB – драйвер, що реалізує [интерфейс PHP Data Objects (PDO)](intro.pdo.html) для доступу до баз даних Microsoft SQL Server та Sybase за допомогою бібліотеки FreeTDS.
 
 Модуль недоступний для Windows.
 
-У Windows ви повинні використовувати SqlSrv – альтернативний драйвер для MS
-SQL, доступний на сайті Microsoft:
-[»http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx)
-.
+У Windows ви повинні використовувати SqlSrv – альтернативний драйвер для MS SQL, доступний на сайті Microsoft: [» http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx)
 
-Якщо використовувати SqlSrv неможливо, то для з'єднання
-з Microsoft SQL Server та Sybase, використовуйте драйвер
-[PDO_ODBC](ref.pdo-odbc.md), так як нативний Windows DB-LIB є
-стародавнім, потоконебезпечним і не підтримується Microsoft.
+Якщо використовувати SqlSrv неможливо, то для з'єднання з Microsoft SQL Server і Sybase, використовуйте драйвер [PDO\_ODBC](ref.pdo-odbc.html), тому що нативний Windows DB-LIB є давнім, потоконебезпечним і не підтримується Microsoft.
 
 ## Зміст
 
-- [PDO_DBLIB DSN](ref.pdo-dblib.connection.md) — З'єднання з базами
-даних Microsoft SQL Server та Sybase
+-   [PDO\_DBLIB DSN](ref.pdo-dblib.connection.html) — З'єднання з базами даних Microsoft SQL Server та Sybase

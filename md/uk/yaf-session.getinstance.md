@@ -1,24 +1,31 @@
-- [« Yaf_Session::\_\_get](yaf-session.get.md)
-- [Yaf_Session::has »](yaf-session.has.md)
+Призначення getInstance
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення getInstance
+-   [« Yaf\_Session::\_\_get](yaf-session.get.html)
+    
+-   [Yaf\_Session::has »](yaf-session.has.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення getInstance
+    
 
-# Yaf_Session::getInstance
+# YafSession::getInstance
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::getInstance — Призначення getInstance
+YafSession::getInstance — Призначення getInstance
 
 ### Опис
 
-public static **Yaf_Session::getInstance**(): void
+```methodsynopsis
+public static Yaf_Session::getInstance(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

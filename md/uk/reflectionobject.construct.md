@@ -1,29 +1,35 @@
-- [«ReflectionObject](class.reflectionobject.md)
-- [ReflectionObject::export »](reflectionobject.export.md)
+Конструктор класу ReflectionObject
 
-- [PHP Manual](index.md)
-- [ReflectionObject](class.reflectionobject.md)
-- Конструктор класу ReflectionObject
+-   [« ReflectionObject](class.reflectionobject.html)
+    
+-   [ReflectionObject::export »](reflectionobject.export.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionObject](class.reflectionobject.html)
+    
+-   Конструктор класу ReflectionObject
+    
 
-# ReflectionObject::\_\_construct
+# ReflectionObject::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionObject::\_\_construct - Конструктор класу ReflectionObject
+ReflectionObject::construct - Конструктор класу ReflectionObject
 
 ### Опис
 
-public **ReflectionObject::\_\_construct**(object `$object`)
+public **ReflectionObject::construct**(object `$object`
 
-Створює новий об'єкт класу
-[ReflectionObject](class.reflectionobject.md).
+Створює новий об'єкт класу [ReflectionObject](class.reflectionobject.html)
 
 ### Список параметрів
 
 `object`
+
 Примірник об'єкта.
 
 ### Дивіться також
 
-- [ReflectionObject::export()](reflectionobject.export.md) - Експорт
-- [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)
+-   [ReflectionObject::export()](reflectionobject.export.html) - Експорт
+-   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)

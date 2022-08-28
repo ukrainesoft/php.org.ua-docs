@@ -1,19 +1,28 @@
-- [«EventBase::getFeatures](eventbase.getfeatures.md)
-- [EventBase::getTimeOfDayCached »](eventbase.gettimeofdaycached.md)
+Повертає використовуваний метод події
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Повертає використовуваний метод події
+-   [« EventBase::getFeatures](eventbase.getfeatures.html)
+    
+-   [EventBase::getTimeOfDayCached »](eventbase.gettimeofdaycached.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Повертає використовуваний метод події
+    
 
 # EventBase::getMethod
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBase::getMethod — Повертає використовуваний метод події
+EventBase::getMethod — Повертає метод події, що використовується.
 
 ### Опис
 
-public **EventBase::getMethod**(): string
+```methodsynopsis
+public
+   EventBase::getMethod(): string
+```
 
 ### Список параметрів
 
@@ -27,15 +36,27 @@ public **EventBase::getMethod**(): string
 
 **Приклад #1 Приклад використання **EventBase::getMethod()****
 
-` <?php$cfg = new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
-";}// Створюємо базу подій, з конфігурацією$base==new EventBase($cfg);echo "Використовуваний метод події: ", $base->getMethod(), PHP_E;
+```php
+<?php
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
+}
+
+// Создаём базу событий, с конфигурацией
+$base = new EventBase($cfg);
+echo "Используемый метод события: ", $base->getMethod(), PHP_EOL;
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 `select' method avoided
-Метод події, що використовується: epoll
+Используемый метод события: epoll
+```
 
 ### Дивіться також
 
-- [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає
-бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.html) - Повертає бітову маску підтримуваних функцій

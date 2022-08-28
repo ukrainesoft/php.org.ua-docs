@@ -1,20 +1,26 @@
-- [« Створення Phar-архівів: Вступ](phar.creating.intro.md)
-- [Складові частини всіх Phar-архівів незалежно від формату файлу »](phar.fileformat.ingredients.md)
+Чим відрізняється phar від tar-або zip-архіву?
 
-- [PHP Manual](index.md)
-- [Phar](book.phar.md)
-- Чим відрізняється phar від tar-або zip-архіву?
+-   [« Создание Phar-архивов: Введение](phar.creating.intro.html)
+    
+-   [Составные части всех Phar-архивов вне зависимости от формата файла »](phar.fileformat.ingredients.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](book.phar.html)
+    
+-   Чим відрізняється phar від tar-або zip-архіву?
+    
 
-Чим відрізняється phar від tar- або zip-архіву?
+# Чим відрізняється phar від tar-або zip-архіву?
 
 ## Зміст
 
-- [Складові частини всіх Phar-архівів незалежно від формату файла](phar.fileformat.ingredients.md)
-- [Заглушка Phar-файлу](phar.fileformat.stub.md)
-- [Порівняння Phar, Tar та Zip](phar.fileformat.comparison.md)
-- [Phar-архіви, що базуються на tar](phar.fileformat.tar.md)
-- [Phar-архіви, що базуються на zip](phar.fileformat.zip.md)
-- [Формат файлу phar](phar.fileformat.phar.md)
-- [Прапори глобальної бітової карти Phar](phar.fileformat.flags.md)
-- [Опис запису файлу у маніфесті Phar](phar.fileformat.manifestfile.md)
-- [Формат підпису Phar](phar.fileformat.signature.md)
+-   [Составные части всех Phar-архивов вне зависимости от формата файла](phar.fileformat.ingredients.html)
+-   [Заглушка Phar-файла](phar.fileformat.stub.html)
+-   [Сравнение Phar, Tar и Zip](phar.fileformat.comparison.html)
+-   [Phar-архивы, основанные на tar](phar.fileformat.tar.html)
+-   [Phar-архивы, основанные на zip](phar.fileformat.zip.html)
+-   [Формат файла phar](phar.fileformat.phar.html)
+-   [Флаги глобальной битовой карты Phar](phar.fileformat.flags.html)
+-   [Описание записи файла в манифесте Phar](phar.fileformat.manifestfile.html)
+-   [Формат подписи Phar](phar.fileformat.signature.html)

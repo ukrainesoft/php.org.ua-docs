@@ -1,19 +1,27 @@
-- [« Swoole\WebSocket\Server](class.swoole-websocket-server.md)
-- [Swoole\WebSocket\Server::on »](swoole-websocket-server.on.md)
+Перевіряє, чи існує опис файлу
 
-- [PHP Manual](index.md)
-- [Swoole\WebSocket\Server](class.swoole-websocket-server.md)
-- Перевіряє, чи є опис файлу
+-   [« Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+    
+-   [Swoole\\WebSocket\\Server::on »](swoole-websocket-server.on.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+    
+-   Перевіряє, чи існує опис файлу
+    
 
-# Swoole\WebSocket\Server::exist
+# SwooleWebSocketServer::exist
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\WebSocket\Server::exist — Перевіряє, чи існує опис файлу
+SwooleWebSocketServer::exist — Перевіряє, чи існує опис файлу
 
 ### Опис
 
-public **Swoole\WebSocket\Server::exist**(int `$fd`): bool
+```methodsynopsis
+public Swoole\WebSocket\Server::exist(int $fd): bool
+```
 
 ### Список параметрів
 

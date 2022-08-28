@@ -1,31 +1,30 @@
-- [«igbinary_unserialize](function.igbinary-unserialize.md)
-- [Вступ »](intro.json.md)
+JavaScript Object Notation
 
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- JavaScript Object Notation
+-   [« igbinary\_unserialize](function.igbinary-unserialize.html)
+    
+-   [Введение »](intro.json.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие базовые модули](refs.basic.other.html)
+    
+-   JavaScript Object Notation
+    
 
 # JavaScript Object Notation
 
-- [Вступ](intro.json.md)
-- [Встановлення та налаштування](json.setup.md)
-- [Вимоги](json.requirements.md)
-- [Установка](json.installation.md)
-- [Налаштування під час виконання](json.configuration.md)
-- [Типи ресурсів](json.resources.md)
-- [Предвизначені константи](json.constants.md)
-- [JsonException](class.jsonexception.md) - Клас JsonException
-- [JsonSerializable](class.jsonserializable.md) - Інтерфейс
-JsonSerializable
-- [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)
-— Задає дані, які мають бути серіалізовані у JSON
-- [Функції JSON](ref.json.md)
-- [json_decode](function.json-decode.md) — Декодує рядок
-JSON
-- [json_encode](function.json-encode.md) - Повертає
-JSON-подання даних
-- [json_last_error_msg](function.json-last-error-msg.md) -
-Повертає рядок із повідомленням про помилку останнього виклику
-json_encode() або json_decode()
-- [json_last_error](function.json-last-error.md) - Повертає
-останню помилку
+-   [Введение](intro.json.html)
+-   [Установка и настройка](json.setup.html)
+    -   [Требования](json.requirements.html)
+    -   [Установка](json.installation.html)
+    -   [Настройка во время выполнения](json.configuration.html)
+    -   [Типы ресурсов](json.resources.html)
+-   [Предопределённые константы](json.constants.html)
+-   [JsonException](class.jsonexception.html) - Клас JsonException
+-   [JsonSerializable](class.jsonserializable.html) - Інтерфейс JsonSerializable
+    -   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.html) — Задає дані, які мають бути серіалізовані у JSON
+-   [Функции JSON](ref.json.html)
+    -   [json\_decode](function.json-decode.html) - Декодує рядок JSON
+    -   [json\_encode](function.json-encode.html) — Повертає JSON-подання даних
+    -   [json\_last\_error\_msg](function.json-last-error-msg.html) — Повертає рядок із повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
+    -   [json\_last\_error](function.json-last-error.html) — Повертає останню помилку

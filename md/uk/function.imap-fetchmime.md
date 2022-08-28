@@ -1,64 +1,64 @@
-- [« imap_fetchheader](function.imap-fetchheader.md)
-- [imap_fetchstructure »](function.imap-fetchstructure.md)
+Вийняти MIME-заголовки для конкретного розділу повідомлення
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Вийняти MIME-заголовки для конкретного розділу повідомлення
+-   [« imap\_fetchheader](function.imap-fetchheader.html)
+    
+-   [imap\_fetchstructure »](function.imap-fetchstructure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Вийняти MIME-заголовки для конкретного розділу повідомлення
+    
 
-#imap_fetchmime
+# imapfetchmime
 
-(PHP 5 \>= 5.3.6, PHP 7, PHP 8)
+(PHP 5> = 5.3.6, PHP 7, PHP 8)
 
-imap_fetchmime — Вийняти MIME-заголовки для конкретного розділу повідомлення
+imapfetchmime — Вийняти MIME-заголовки для конкретного розділу повідомлення
 
 ### Опис
 
-**imap_fetchmime**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-int `$message_num`,
-string `$section`,
-int `$flags` = 0
-): string\|false
+```methodsynopsis
+imap_fetchmime(    IMAP\Connection $imap,    int $message_num,    string $section,    int $flags = 0): string|false
+```
 
-Виймає заголовки MIME для конкретної секції повідомлення.
+Витягує MIME-заголовки для конкретного розділу повідомлення.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `message_num`
+
 Номер повідомлення
 
 `section`
-Номер розділу повідомлення. Рядок цілих чисел, розділених крапками,
-визначальна частина тіла повідомлення відповідно до специфікації IMAP4
+
+Номер розділу повідомлення. Рядок цілих чисел, розділених точками, визначальна частина тіла повідомлення відповідно до специфікації IMAP4
 
 `flags`
+
 Бітова маска з однієї або кількох опцій:
 
-- **`FT_UID`** - параметр `message_num` є UID
-- **`FT_PEEK`** - Не встановлювати прапор \Seen, якщо він уже не
-встановлений
-- **`FT_INTERNAL`** - повертати рядок у внутрішньому форматі, без
-перетворення кінців рядків до CRLF.
+-   **`FT_UID`** - Параметр `message_num` є UID
+-   **`FT_PEEK`** - Не встановлювати прапор Seen, якщо його вже не встановлено
+-   **`FT_INTERNAL`** - Повертати рядок у внутрішньому форматі, без перетворення кінців рядків до CRLF.
 
 ### Значення, що повертаються
 
-Повертає MIME-заголовки для конкретної секції повідомлення у вигляді рядка
-або **`false`** у разі виникнення помилки.
+Повертає MIME-заголовки для конкретної секції повідомлення у вигляді рядка або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_fetchbody()](function.imap-fetchbody.md) - Вийняти
-конкретну секцію тіла повідомлення
-- [imap_fetchstructure()](function.imap-fetchstructure.md) -
-Прочитати структуру вказаного повідомлення
-- [imap_fetchheader()](function.imap-fetchheader.md) - Отримати
-заголовок повідомлення
+-   [imap\_fetchbody()](function.imap-fetchbody.html) - Витягти конкретну секцію тіла повідомлення
+-   [imap\_fetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення
+-   [imap\_fetchheader()](function.imap-fetchheader.html) - Отримати заголовок повідомлення

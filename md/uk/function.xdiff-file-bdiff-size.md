@@ -1,30 +1,35 @@
-- [« Функції xdiff](ref.xdiff.md)
-- [xdiff_file_bdiff »](function.xdiff-file-bdiff.md)
+Отримати розмір файлу після застосування бінарного патчу
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Отримати розмір файлу після застосування бінарного патчу
+-   [« Функции xdiff](ref.xdiff.html)
+    
+-   [xdiff\_file\_bdiff »](function.xdiff-file-bdiff.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции xdiff](ref.xdiff.html)
+    
+-   Отримати розмір файлу після застосування бінарного патчу
+    
 
-#xdiff_file_bdiff_size
+# xdifffilebdiffsize
 
-(PECL xdiff \>= 1.5.0)
+(PECL xdiff >= 1.5.0)
 
-xdiff_file_bdiff_size — Отримати розмір файлу після застосування бінарного
-патча
+xdifffilebdiffsize — Отримати розмір файлу після застосування бінарного патчу
 
 ### Опис
 
-**xdiff_file_bdiff_size**(string `$file`): int
+```methodsynopsis
+xdiff_file_bdiff_size(string $file): int
+```
 
-Повертає розмір файлу, який буде створено після застосування бінарного
-патча із файлу `file`.
+Повертає розмір файлу, який буде створено після застосування бінарного патчу з файлу `file`
 
 ### Список параметрів
 
 `file`
-Шлях до бінарного патчу, створеного функціями
-[xdiff_string_bdiff()](function.xdiff-string-bdiff.md) або
-[xdiff_string_rabdiff()](function.xdiff-string-rabdiff.md).
+
+Шлях до бінарного патчу, створеного функціями [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.html) або [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.html)
 
 ### Значення, що повертаються
 
@@ -32,19 +37,19 @@ xdiff_file_bdiff_size — Отримати розмір файлу після з
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_file_bdiff_size()****
+**Приклад #1 Приклад використання **xdifffilebdiffsize()****
 
-Наступний код отримує розмір файлу, який буде створено після
-застосування патчу.
+Наступний код отримує розмір файлу, створеного після застосування патча.
 
-` <?php$length = xdiff_string_bdiff_size('file.bdiff');echo "Розмір результуючого файлу буде $length байт";?> `
+```php
+<?php
+$length = xdiff_string_bdiff_size('file.bdiff');
+echo "Размер результирующего файла будет $length байт";
+?>
+```
 
 ### Дивіться також
 
-- [xdiff_file_bdiff()](function.xdiff-file-bdiff.md) - Створити
-бінарний патч порівнюючи два файли
-- [xdiff_file_rabdiff()](function.xdiff-file-rabdiff.md) - Створити
-бінарний патч порівнюючи два файли за допомогою поліномінального
-алгоритму Rabin fingerprinting
-- [xdiff_file_bpatch()](function.xdiff-file-bpatch.md) - Застосувати
-бінарний патч до файлу
+-   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.html) - Створити бінарний патч порівнюючи два файли
+-   [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.html) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
+-   [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.html) - Застосувати бінарний патч до файлу

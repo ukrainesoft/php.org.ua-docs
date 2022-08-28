@@ -1,12 +1,16 @@
-- [« Встановлення та налаштування](eio.setup.md)
-- [Встановлення »](eio.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](eio.setup.md)
-- Вимоги
+-   [« Установка и настройка](eio.setup.html)
+    
+-   [Установка »](eio.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](eio.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Модуль включає бібліотеку
-[»libeio](http://software.schmorp.de/pkg/libeio.md). Встановлення libeio
-окремо не потрібно.
+Модуль включає бібліотеку [» libeio](http://software.schmorp.de/pkg/libeio.html). Встановлення libeio окремо не потрібне.

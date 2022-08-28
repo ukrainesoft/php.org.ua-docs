@@ -1,24 +1,31 @@
-- [« svn_fs_apply_text](function.svn-fs-apply-text.md)
-- [svn_fs_change_node_prop »](function.svn-fs-change-node-prop.md)
+Створює нову транзакцію
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Створює нову транзакцію
+-   [« svn\_fs\_apply\_text](function.svn-fs-apply-text.html)
+    
+-   [svn\_fs\_change\_node\_prop »](function.svn-fs-change-node-prop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SVN](ref.svn.html)
+    
+-   Створює нову транзакцію
+    
 
-# svn_fs_begin_txn2
+# svnфсbegintxn2
 
-(PECL svn \>= 0.2.0)
+(PECL svn >= 0.2.0)
 
-svn_fs_begin_txn2 — Створює нову транзакцію
+svnфсbegintxn2 - Створює нову транзакцію
 
 ### Опис
 
-**svn_fs_begin_txn2**(resource `$repos`, int `$rev`): resource
+```methodsynopsis
+svn_fs_begin_txn2(resource $repos, int $rev): resource
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Створює нову транзакцію.
 
@@ -26,6 +33,4 @@ svn_fs_begin_txn2 — Створює нову транзакцію
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

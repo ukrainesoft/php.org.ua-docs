@@ -1,554 +1,289 @@
-- [«unregister_tick_function](function.unregister-tick-function.md)
-- [Вступ »](intro.reflection.md)
+Reflection
 
-- [PHP Manual](index.md)
-- [Модулі, що стосуються змінних та типів](refs.basic.vartype.md)
-- Reflection
+-   [« QuickHashIntStringHash::update](quickhashintstringhash.update.html)
+    
+-   [Введение »](intro.reflection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+    
+-   Reflection
+    
 
 # Reflection
 
-- [Вступ](intro.reflection.md)
-- [Встановлення та налаштування](reflection.setup.md)
-- [Вимоги](reflection.requirements.md)
-- [Установка](reflection.installation.md)
-- [Налаштування під час виконання](reflection.configuration.md)
-- [Типи ресурсів](reflection.resources.md)
-- [Предвизначені константи](reflection.constants.md)
-- [Приклади](reflection.examples.md)
-- [Розширення](reflection.extending.md)
-- [Reflection](class.reflection.md) - Клас Reflection
-- [Reflection::export](reflection.export.md) — Експортує
-Reflection
-- [Reflection::getModifierNames](reflection.getmodifiernames.md)
-— Отримання імен модифікаторів
-- [ReflectionClass](class.reflectionclass.md) - Клас
-ReflectionClass
-- [ReflectionClass::\_\_construct](reflectionclass.construct.md)
-— Створює об'єкт класу ReflectionClass
-- [ReflectionClass::export](reflectionclass.export.md)
-Експортує клас
-- [ReflectionClass::getAttributes](reflectionclass.getattributes.md)
-— Отримує атрибути
-- [ReflectionClass::getConstant](reflectionclass.getconstant.md)
-— Повертає певну константу
-- [ReflectionClass::getConstants](reflectionclass.getconstants.md)
-- Повертає константи
-- [ReflectionClass::getConstructor](reflectionclass.getconstructor.md)
-- Повертає конструктор класу
-- [ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md)
-— Повертає властивості за промовчанням
-- [ReflectionClass::getDocComment](reflectionclass.getdoccomment.md)
-— Повертає doc-блоки коментарів
-- [ReflectionClass::getEndLine](reflectionclass.getendline.md) -
-Повертає номер останнього рядка
-- [ReflectionClass::getExtension](reflectionclass.getextension.md)
-— Повертає об'єкт класу ReflectionExtension для модуля,
-визначального клас
-- [ReflectionClass::getExtensionName](reflectionclass.getextensionname.md)
-— Повертає ім'я модуля, що визначає клас
-- [ReflectionClass::getFileName](reflectionclass.getfilename.md)
-— Повертає ім'я файлу, у якому визначено клас
-- [ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md)
-— Повертає імена інтерфейсів
-- [ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md)
-— Повертає інтерфейси
-- [ReflectionClass::getMethod](reflectionclass.getmethod.md) -
-Повертає екземпляр ReflectionMethod для методу класу
-- [ReflectionClass::getMethods](reflectionclass.getmethods.md) -
-Повертає список методів у вигляді масиву
-- [ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)
-— Повертає інформацію про модифікаторів класу
-- [ReflectionClass::getName](reflectionclass.getname.md)
-Повертає ім'я класу
-- [ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md)
-— Повертає назву простору імен
-- [ReflectionClass::getParentClass](reflectionclass.getparentclass.md)
-- Повертає батьківський клас
-- [ReflectionClass::getProperties](reflectionclass.getproperties.md)
-- Повертає властивості
-- [ReflectionClass::getProperty](reflectionclass.getproperty.md)
-— Повертає екземпляр ReflectionProperty для якості класу
-- [ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md)
-— Отримує ReflectionClassConstant для константи класу
-- [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)
-— Отримує константи класу
-- [ReflectionClass::getShortName](reflectionclass.getshortname.md)
-- Повертає коротке ім'я
-- [ReflectionClass::getStartLine](reflectionclass.getstartline.md)
-— Повертає номер початкового рядка
-- [ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md)
-- Повертає статичні властивості
-- [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md)
-— Повертає значення статичної властивості
-- [ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md)
-— Повертає масив псевдонімів трейтів
-- [ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md)
-— Повертає масив імен трейтів, які використовуються у цьому класі
-- [ReflectionClass::getTraits](reflectionclass.gettraits.md)
-Повертає масив трейтів, що використовуються у цьому класі
-- [ReflectionClass::hasConstant](reflectionclass.hasconstant.md)
-— Перевіряє, чи визначено константу
-- [ReflectionClass::hasMethod](reflectionclass.hasmethod.md) -
-Перевіряє, чи заданий метод
-- [ReflectionClass::hasProperty](reflectionclass.hasproperty.md)
-— Перевіряє, чи визначено властивість
-- [ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md)
-— Перевіряє, чи реалізується інтерфейс
-- [ReflectionClass::inNamespace](reflectionclass.innamespace.md)
-— Перевіряє, чи є клас у просторі імен
-- [ReflectionClass::isAbstract](reflectionclass.isabstract.md)
-Перевіряє, чи є клас абстрактним
-- [ReflectionClass::isAnonymous](reflectionclass.isanonymous.md)
-— Перевіряє, чи є клас анонімним
-- [ReflectionClass::isCloneable](reflectionclass.iscloneable.md)
-- Перевіряє, чи можна клонувати цей клас
-- [ReflectionClass::isEnum](reflectionclass.isenum.md) -
-Повертає, чи є клас перерахуванням
-- [ReflectionClass::isFinal](reflectionclass.isfinal.md)
-Перевіряє, чи є клас остаточним (final)
-- [ReflectionClass::isInstance](reflectionclass.isinstance.md) -
-Перевіряє, чи об'єкт належить класу
-- [ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)
-— Перевіряє, чи можна створити екземпляр класу
-- [ReflectionClass::isInterface](reflectionclass.isinterface.md)
-— Перевіряє, чи клас є інтерфейсом
-- [ReflectionClass::isInternal](reflectionclass.isinternal.md) -
-Перевіряє, чи є клас вбудованим у модуль чи ядро
-- [ReflectionClass::isIterable](reflectionclass.isiterable.md) -
-Перевірити, чи клас ітерується
-- [ReflectionClass::isIterateable](reflectionclass.isiterateable.md)
-- Псевдонім ReflectionClass::isIterable
-- [ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md)
-— Перевіряє, чи є клас підкласом
-- [ReflectionClass::isTrait](reflectionclass.istrait.md) -
-Перевіряє, чи це трейтом
-- [ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md)
-— Перевіряє, чи є клас для користувача
-- [ReflectionClass::newInstance](reflectionclass.newinstance.md)
-— створює екземпляр класу з переданими аргументами
-- [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)
-- Створює екземпляр класу з переданими параметрами
-- [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)
-- Створює новий екземпляр класу без виклику конструктора
-- [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md)
-- Встановлює значення статичної властивості
-- [ReflectionClass::\_\_toString](reflectionclass.tostring.md) -
-Повертає рядкову виставу об'єкта класу
-ReflectionClass
-- [ReflectionClassConstant](class.reflectionclassconstant.md) -
-Клас ReflectionClassConstant
-- [ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.md)
-- Створює ReflectionClassConstant
-- [ReflectionClassConstant::export](reflectionclassconstant.export.md)
-- Експорт
-- [ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md)
-— Отримує атрибути
-- [ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.md)
-— Отримує клас, що оголошує
-- [ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)
-— Отримує doc-коментарі
-- [ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md)
-— Отримує модифікатори константи класу
-- [ReflectionClassConstant::getName](reflectionclassconstant.getname.md)
-— Отримати ім'я константи
-- [ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.md)
-— Отримує значення
-- [ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md)
-— Перевіряє, чи є константа класу остаточною
-- [ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md)
-— Перевіряє, чи константа закрита
-- [ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md)
-— Перевіряє, чи константа захищена
-- [ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md)
-— Перевіряє, чи константа є загальнодоступною
-- [ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.md)
-— Повертає строкове представлення об'єкта
-ReflectionClassConstant
-- [ReflectionEnum](class.reflectionenum.md) - Клас ReflectionEnum
-- [ReflectionEnum::\_\_construct](reflectionenum.construct.md) -
-Створює об'єкт ReflectionEnum
-- [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md)
-— Отримує тип перерахування, якщо є
-- [ReflectionEnum::getCase](reflectionenum.getcase.md) -
-Повертає певний варіант перерахування
-- [ReflectionEnum::getCases](reflectionenum.getcases.md) -
-Повертає список усіх варіантів перерахування
-- [ReflectionEnum::hasCase](reflectionenum.hascase.md) -
-Перевіряє варіант перерахування
-- [ReflectionEnum::isBacked](reflectionenum.isbacked.md) -
-Визначає, чи є перерахування типовим
-- [ReflectionEnumUnitCase](class.reflectionenumunitcase.md) - Клас
-ReflectionEnumUnitCase
-- [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md)
-— Створює екземпляр об'єкту ReflectionEnumUnitCase
-- [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md)
-— Отримує Reflection-об'єкт перерахування цього варіанта
-- [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md)
-— Отримує об'єкт варіанта перерахування, описаний
-Reflection-об'єктом
-- [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md) -
-Клас ReflectionEnumBackedCase
-- [ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.md)
-— Створює об'єкт ReflectionEnumBackedCase
-- [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md)
-— Отримує скалярне значення варіанта перерахування
-- [ReflectionZendExtension](class.reflectionzendextension.md) -
-Клас ReflectionZendExtension
-- [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md)
-- Обробник клонування
-- [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.md)
-- Конструктор
-- [ReflectionZendExtension::export](reflectionzendextension.export.md)
-- Експорт
-- [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md)
-— Отримує автора
-- [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md)
-— Отримує авторські права
-- [ReflectionZendExtension::getName](reflectionzendextension.getname.md)
-— Отримує ім'я
-- [ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
-— Отримує URL
-- [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md)
-— Отримує версію
-- [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md)
-- Обробник перетворення в рядок
-- [ReflectionExtension](class.reflectionextension.md) - Клас
-ReflectionExtension
-- [ReflectionExtension::\_\_clone](reflectionextension.clone.md)
-- Клонує об'єкт
-- [ReflectionExtension::\_\_construct](reflectionextension.construct.md)
-— Створює об'єкт класу ReflectionExtension
-- [ReflectionExtension::export](reflectionextension.export.md) -
-Експортує модуль
-- [ReflectionExtension::getClasses](reflectionextension.getclasses.md)
-- Повертає класи
-- [ReflectionExtension::getClassNames](reflectionextension.getclassnames.md)
-- Отримання імен класів
-- [ReflectionExtension::getConstants](reflectionextension.getconstants.md)
-- Отримання констант
-- [ReflectionExtension::getDependencies](reflectionextension.getdependencies.md)
-- Отримання залежностей
-- [ReflectionExtension::getFunctions](reflectionextension.getfunctions.md)
-— Отримання функцій модуля
-- [ReflectionExtension::getINIEntries](reflectionextension.getinientries.md)
-— Отримання ini-налаштувань модуля
-- [ReflectionExtension::getName](reflectionextension.getname.md)
-— Отримання імені модуля
-- [ReflectionExtension::getVersion](reflectionextension.getversion.md)
-— Отримання версії модуля
-- [ReflectionExtension::info](reflectionextension.info.md)
-Виведення інформації про модуль
-- [ReflectionExtension::isPersistent](reflectionextension.ispersistent.md)
-— Визначає, чи модуль постійний
-- [ReflectionExtension::isTemporary](reflectionextension.istemporary.md)
-— Визначає, чи модуль є тимчасовим
-- [ReflectionExtension::\_\_toString](reflectionextension.tostring.md)
-— Перетворення на рядок
-- [ReflectionFunction](class.reflectionfunction.md) - Клас
-ReflectionFunction
-- [ReflectionFunction::\_\_construct](reflectionfunction.construct.md)
-- Конструктор класу ReflectionFunction
-- [ReflectionFunction::export](reflectionfunction.export.md) -
-Експортує функції
-- [ReflectionFunction::getClosure](reflectionfunction.getclosure.md)
-— Повертає динамічно створене замикання функції
-- [ReflectionFunction::invoke](reflectionfunction.invoke.md)
-Викликає функцію
-- [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md)
-- Виклик функції з передачею аргументів
-- [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)
-— Перевіряє, що функцію вимкнено
-- [ReflectionFunction::\_\_toString](reflectionfunction.tostring.md)
-— Подання у вигляді рядка
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Клас ReflectionFunctionAbstract
-- [ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.md)
-- Клонує функцію
-- [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)
-— Отримує атрибути
-- [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)
-— Повертає клас, в рамках якого було оголошено замикання
-- [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md)
-— Повертає вказівник, прив'язаний до замикання
-- [ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md)
-— Повертає масив змінних, що використовуються в замиканні.
-- [ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)
-— Отримує doc-коментар
-- [ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md)
-— Отримує номер рядка завершення опису функції
-- [ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md)
-— Отримує інформацію про модуль
-- [ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md)
-— Отримання імені модуля
-- [ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md)
-— Отримує ім'я файлу
-- [ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md)
-— Отримує ім'я функції
-- [ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)
-— Отримання імені простору імен
-- [ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.md)
-— Отримує кількість параметрів
-- [ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md)
-— Отримує кількість обов'язкових параметрів
-- [ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md)
-— Отримує параметри
-- [ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md)
-— Отримує оголошений тип значення, що повертається функцією значення
-- [ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)
-— Отримує коротке ім'я функції
-- [ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md)
-— Отримує початковий номер рядка
-- [ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md)
-— Отримує статичні змінні
-- [ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md)
-— Повертає попередній тип значення, що повертається,
-пов'язаний з функцією
-- [ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)
-— Перевіряє, чи функція має оголошений тип повертаного
-значення
-- [ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)
-— Визначає, чи має функція попередній тип
-значення, що повертається
-- [ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md)
-— Перевіряє, чи є функція у просторі імен
-- [ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md)
-- Перевіряє, чи є функція замиканням (Closure)
-- [ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)
-— Перевіряє, чи функція застаріла
-- [ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)
-— Перевіряє, чи функція є генератором
-- [ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md)
-— Перевіряє, чи є функція внутрішньої
-- [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md)
-— Перевіряє, чи функція є певною користувачем
-- [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md)
-— Перевіряє, чи є функція зі змінним числом
-аргументів
-- [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)
-- Перевіряє, що функція повертає посилання
-- [ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md)
-— Перетворення на рядок
-- [ReflectionMethod](class.reflectionmethod.md) - Клас
-ReflectionMethod
-- [ReflectionMethod::\_\_construct](reflectionmethod.construct.md)
-- Конструктор класу ReflectionMethod
-- [ReflectionMethod::export](reflectionmethod.export.md) -
-Експорт відбитого методу
-- [ReflectionMethod::getClosure](reflectionmethod.getclosure.md)
-— Повертає динамічно створене замикання для методу
-- [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)
-— Отримує клас, який оголошує відбитий метод
-- [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)
-— Отримує модифікатори методу
-- [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
-— Отримує прототип методу (якщо такий є)
-- [ReflectionMethod::invoke](reflectionmethod.invoke.md) — Виклик
-- [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md)
-- Виклик методу з передачею аргументів масивом
-- [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md)
-— Перевіряє, чи є метод абстрактним
-- [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
-— Перевіряє, чи є метод конструктором
-- [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md)
-— Перевіряє, чи є метод деструктором
-- [ReflectionMethod::isFinal](reflectionmethod.isfinal.md) -
-Перевіряє, чи є метод остаточним
-- [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md) -
-Перевіряє, чи є метод закритим
-- [ReflectionMethod::isProtected](reflectionmethod.isprotected.md)
-— Перевіряє, чи метод захищений
-- [ReflectionMethod::isPublic](reflectionmethod.ispublic.md) -
-Перевіряє, чи є метод загальнодоступним
-- [ReflectionMethod::isStatic](reflectionmethod.isstatic.md) -
-Перевіряє, чи є метод статичним
-- [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md)
-— Робить метод доступним
-- [ReflectionMethod::\_\_toString](reflectionmethod.tostring.md)
-— Повертає строкове представлення об'єкту ReflectionMethod
-- [ReflectionNamedType](class.reflectionnamedtype.md) - Клас
-ReflectionNamedType
-- [ReflectionNamedType::getName](reflectionnamedtype.getname.md)
-— Отримує ім'я типу у вигляді рядка
-- [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md)
-— Перевіряє, чи тип вбудований
-- [ReflectionObject](class.reflectionobject.md) - Клас
-ReflectionObject
-- [ReflectionObject::\_\_construct](reflectionobject.construct.md)
-- Конструктор класу ReflectionObject
-- [ReflectionObject::export](reflectionobject.export.md)
-Експорт
-- [ReflectionParameter](class.reflectionparameter.md) - Клас
-ReflectionParameter
-- [ReflectionParameter::allowsNull](reflectionparameter.allowsnull.md)
-— Перевіряє, чи допустиме значення null для параметра
-- [ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.md)
-— Перевіряє, чи можна передати цей аргумент за значенням
-- [ReflectionParameter::\_\_clone](reflectionparameter.clone.md)
-- Клонувати
-- [ReflectionParameter::\_\_construct](reflectionparameter.construct.md)
-- Конструктор
-- [ReflectionParameter::export](reflectionparameter.export.md)
-Експорт
-- [ReflectionParameter::getAttributes](reflectionparameter.getattributes.md)
-— Отримує атрибути
-- [ReflectionParameter::getClass](reflectionparameter.getclass.md)
-— Отримує об'єкт ReflectionClass для параметра, що відображається, або
-null
-- [ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md)
-— Отримання класу, що оголошує
-- [ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.md)
-— Отримання функції, що оголошує
-- [ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.md)
-— Отримати стандартне значення для параметра
-- [ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.md)
-— Повертає ім'я константи за замовчуванням, якщо значення
-за промовчанням константа або null
-- [ReflectionParameter::getName](reflectionparameter.getname.md)
-— Отримання імені параметра
-- [ReflectionParameter::getPosition](reflectionparameter.getposition.md)
-— Отримання позиції параметра
-- [ReflectionParameter::getType](reflectionparameter.gettype.md)
-— Отримати тип параметра
-- [ReflectionParameter::hasType](reflectionparameter.hastype.md)
-— Перевірити, чи вказано тип параметра
-- [ReflectionParameter::isArray](reflectionparameter.isarray.md)
-— Перевіряє, чи очікує аргумент масив як значення
-- [ReflectionParameter::isCallable](reflectionparameter.iscallable.md)
-— Визначити, чи параметр має бути типу callable
-- [ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.md)
-— Перевіряє, чи є значення за замовчуванням
-- [ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md)
-— Визначити значення параметра за замовчуванням
-константою
-- [ReflectionParameter::isOptional](reflectionparameter.isoptional.md)
-— Перевіряє, чи є аргумент необов'язковим
-- [ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.md)
-— Перевіряє, чи передано параметр за посиланням
-- [ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md)
-— Перевірити, чи параметр є змінним.
-кількістю аргументів
-- [ReflectionParameter::\_\_toString](reflectionparameter.tostring.md)
-— Перетворення на рядок
-- [ReflectionProperty](class.reflectionproperty.md) - Клас
-ReflectionProperty
-- [ReflectionProperty::\_\_clone](reflectionproperty.clone.md) -
-Клонувати
-- [ReflectionProperty::\_\_construct](reflectionproperty.construct.md)
-- Конструктор класу ReflectionProperty
-- [ReflectionProperty::export](reflectionproperty.export.md)
-Експорт
-- [ReflectionProperty::getAttributes](reflectionproperty.getattributes.md)
-— Отримує атрибути
-- [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md)
-— Отримання класу, що оголошує
-- [ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md)
-— Повертає значення за промовчанням, задане для якості
-- [ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.md)
-— Отримання doc-коментаря для якості
-- [ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md)
-- Отримання модифікаторів властивостей класу
-- [ReflectionProperty::getName](reflectionproperty.getname.md) -
-Отримання імені властивості
-- [ReflectionProperty::getType](reflectionproperty.gettype.md) -
-Отримати тип якості
-- [ReflectionProperty::getValue](reflectionproperty.getvalue.md)
-— Отримує значення
-- [ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.md)
-— Перевіряє, чи встановлено значення за замовчуванням.
-- [ReflectionProperty::hasType](reflectionproperty.hastype.md) -
-Перевірити, чи заданий для якості тип
-- [ReflectionProperty::isDefault](reflectionproperty.isdefault.md)
-— Перевіряє, чи є властивістю за замовчуванням
-- [ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md)
-— Перевірити, чи ініціалізована властивість
-- [ReflectionProperty::isPrivate](reflectionproperty.isprivate.md)
-— Перевіряє, чи властивість закрита
-- [ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md)
-— Перевіряє, чи визначено властивість у конструкторі
-- [ReflectionProperty::isProtected](reflectionproperty.isprotected.md)
-— Перевіряє, чи властивість захищена
-- [ReflectionProperty::isPublic](reflectionproperty.ispublic.md)
-— Перевіряє, чи є властивість загальнодоступною
-- [ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md)
-— Перевіряє, чи властивість є readonly-властивістю
-- [ReflectionProperty::isStatic](reflectionproperty.isstatic.md)
-— Перевірка, чи властивість статична
-- [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md)
-— Робить властивість доступною
-- [ReflectionProperty::setValue](reflectionproperty.setvalue.md)
-- Встановлення значення властивості
-- [ReflectionProperty::\_\_toString](reflectionproperty.tostring.md)
-— Перетворення на рядок
-- [ReflectionType](class.reflectiontype.md) - Клас ReflectionType
-- [ReflectionType::allowsNull](reflectiontype.allowsnull.md) -
-Перевіряє, чи допустимо NULL
-- [ReflectionType::\_\_toString](reflectiontype.tostring.md) -
-Перетворення на рядок
-- [ReflectionUnionType](class.reflectionuniontype.md) - Клас
-ReflectionUnionType
-- [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md)
-— Повертає типи, включені до типу union
-- [ReflectionGenerator](class.reflectiongenerator.md) - Клас
-ReflectionGenerator
-- [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.md)
-- Конструктор ReflectionGenerator
-- [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.md)
-— Отримати ім'я файлу, з якого запущено генератор
-- [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md)
-— Отримати запущений об'єкт Generator
-- [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md)
-— Отримати поточний рядок генератора, що виконується.
-- [ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
-- Отримати ім'я функції генератора
-- [ReflectionGenerator::getThis](reflectiongenerator.getthis.md)
-— Отримує значення $this генератора
-- [ReflectionGenerator::getTrace](reflectiongenerator.gettrace.md)
-— Отримати трасування запущеного генератора
-- [ReflectionFiber](class.reflectionfiber.md) - Клас
-ReflectionFiber
-- [ReflectionFiber::\_\_construct](reflectionfiber.construct.md)
-— Створює об'єкт ReflectionFiber
-- [ReflectionFiber::getCallable](reflectionfiber.getcallable.md)
-— Отримує об'єкт, що викликається, який використовується для створення файбера
-- [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md)
-— Отримує ім'я файлу поточної точки виконання
-- [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md)
-— Отримує номер рядка поточної точки виконання
-- [ReflectionFiber::getFiber](reflectionfiber.getfiber.md) -
-Отримує відображений екземпляр файбера
-- [ReflectionFiber::getTrace](reflectionfiber.gettrace.md) -
-Отримує зворотне трасування поточної точки виконання
-- [ReflectionIntersectionType](class.reflectionintersectiontype.md)
-- Клас ReflectionIntersectionType
-- [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
-— Повертає типи, включені до типу intersection
-- [ReflectionReference](class.reflectionreference.md) - Клас
-ReflectionReference
-- [ReflectionReference::\_\_construct](reflectionreference.construct.md)
-— Закритий конструктор, який забороняє створення екземпляра безпосередньо
-- [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md)
-— Створює ReflectionReference із елементу масиву
-- [ReflectionReference::getId](reflectionreference.getid.md) -
-Отримати унікальний ідентифікатор посилання
-- [ReflectionAttribute](class.reflectionattribute.md) - Клас
-ReflectionAttribute
-- [ReflectionAttribute::\_\_construct](reflectionattribute.construct.md)
-— Закритий конструктор, який забороняє створення об'єкта безпосередньо
-- [ReflectionAttribute::getArguments](reflectionattribute.getarguments.md)
-— Повертає аргументи, передані атрибуту
-- [ReflectionAttribute::getName](reflectionattribute.getname.md)
-- Повертає ім'я атрибута
-- [ReflectionAttribute::getTarget](reflectionattribute.gettarget.md)
-— Повертає мету атрибуту у вигляді бітової маски
-- [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md)
-— Перевіряє, чи атрибут може вказуватися багаторазово в елементі
-коду
-- [ReflectionAttribute::newInstance](reflectionattribute.newinstance.md)
-- Створює екземпляр класу атрибута, представленого цим
-класом ReflectionAttribute та аргументами
-- [Reflector](class.reflector.md) - Інтерфейс Reflector
-- [Reflector::export](reflector.export.md) — Експорт
-- [Reflector::\_\_toString](reflector.tostring.md) -
-Подання у вигляді рядка
-- [ReflectionException](class.reflectionexception.md) - Клас
-ReflectionException
+-   [Введение](intro.reflection.html)
+-   [Установка и настройка](reflection.setup.html)
+    -   [Требования](reflection.requirements.html)
+    -   [Установка](reflection.installation.html)
+    -   [Настройка во время выполнения](reflection.configuration.html)
+    -   [Типы ресурсов](reflection.resources.html)
+-   [Предопределённые константы](reflection.constants.html)
+-   [Примеры](reflection.examples.html)
+-   [Расширение](reflection.extending.html)
+-   [Reflection](class.reflection.html) - Клас Reflection
+    -   [Reflection::export](reflection.export.html) - Експортує Reflection
+    -   [Reflection::getModifierNames](reflection.getmodifiernames.html) — Отримання імен модифікаторів
+-   [ReflectionClass](class.reflectionclass.html) - Клас ReflectionClass
+    -   [ReflectionClass::\_\_construct](reflectionclass.construct.html) — Створює об'єкт класу ReflectionClass
+    -   [ReflectionClass::export](reflectionclass.export.html) - Експортує клас
+    -   [ReflectionClass::getAttributes](reflectionclass.getattributes.html) — Отримує атрибути
+    -   [ReflectionClass::getConstant](reflectionclass.getconstant.html) — Повертає певну константу
+    -   [ReflectionClass::getConstants](reflectionclass.getconstants.html) — Повертає константи
+    -   [ReflectionClass::getConstructor](reflectionclass.getconstructor.html) - Повертає конструктор класу
+    -   [ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.html) — Повертає властивості за промовчанням
+    -   [ReflectionClass::getDocComment](reflectionclass.getdoccomment.html) — Повертає doc-блоки коментарів
+    -   [ReflectionClass::getEndLine](reflectionclass.getendline.html) — Повертає номер останнього рядка
+    -   [ReflectionClass::getExtension](reflectionclass.getextension.html) — Повертає об'єкт класу ReflectionExtension для модуля, що визначає клас
+    -   [ReflectionClass::getExtensionName](reflectionclass.getextensionname.html) - Повертає ім'я модуля, що визначає клас
+    -   [ReflectionClass::getFileName](reflectionclass.getfilename.html) — Повертає ім'я файлу, у якому визначено клас
+    -   [ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.html) — Повертає імена інтерфейсів
+    -   [ReflectionClass::getInterfaces](reflectionclass.getinterfaces.html) — Повертає інтерфейси
+    -   [ReflectionClass::getMethod](reflectionclass.getmethod.html) — Повертає екземпляр ReflectionMethod для методу класу
+    -   [ReflectionClass::getMethods](reflectionclass.getmethods.html) — Повертає список методів у вигляді масиву
+    -   [ReflectionClass::getModifiers](reflectionclass.getmodifiers.html) — Повертає інформацію про модифікаторів класу
+    -   [ReflectionClass::getName](reflectionclass.getname.html) - Повертає ім'я класу
+    -   [ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.html) — Повертає назву простору імен
+    -   [ReflectionClass::getParentClass](reflectionclass.getparentclass.html) - Повертає батьківський клас
+    -   [ReflectionClass::getProperties](reflectionclass.getproperties.html) - Повертає властивості
+    -   [ReflectionClass::getProperty](reflectionclass.getproperty.html) — Повертає екземпляр ReflectionProperty для якості класу
+    -   [ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.html) — Отримує ReflectionClassConstant для константи класу
+    -   [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.html) — Отримує константи класу
+    -   [ReflectionClass::getShortName](reflectionclass.getshortname.html) - Повертає коротке ім'я
+    -   [ReflectionClass::getStartLine](reflectionclass.getstartline.html) — Повертає номер початкового рядка
+    -   [ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.html) — Повертає статичні властивості
+    -   [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.html) — Повертає значення статичної властивості
+    -   [ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.html) — Повертає масив псевдонімів трейтів
+    -   [ReflectionClass::getTraitNames](reflectionclass.gettraitnames.html) — Повертає масив імен трейтів, які використовуються у цьому класі
+    -   [ReflectionClass::getTraits](reflectionclass.gettraits.html) — Повертає масив трейтів, які використовуються у цьому класі.
+    -   [ReflectionClass::hasConstant](reflectionclass.hasconstant.html) — Перевіряє, чи визначено константу
+    -   [ReflectionClass::hasMethod](reflectionclass.hasmethod.html) — Перевіряє, чи заданий метод
+    -   [ReflectionClass::hasProperty](reflectionclass.hasproperty.html) — Перевіряє, чи визначено властивість
+    -   [ReflectionClass::implementsInterface](reflectionclass.implementsinterface.html) — Перевіряє, чи реалізується інтерфейс
+    -   [ReflectionClass::inNamespace](reflectionclass.innamespace.html) — Перевіряє, чи визначений клас у просторі імен
+    -   [ReflectionClass::isAbstract](reflectionclass.isabstract.html) — Перевіряє, чи клас є абстрактним.
+    -   [ReflectionClass::isAnonymous](reflectionclass.isanonymous.html) — Перевіряє, чи є клас анонімним
+    -   [ReflectionClass::isCloneable](reflectionclass.iscloneable.html) — Перевіряє, чи можна клонувати цей клас
+    -   [ReflectionClass::isEnum](reflectionclass.isenum.html) — Повертає, чи є клас перерахуванням
+    -   [ReflectionClass::isFinal](reflectionclass.isfinal.html) — Перевіряє, чи клас є остаточним (final)
+    -   [ReflectionClass::isInstance](reflectionclass.isinstance.html) — Перевіряє, чи об'єкт належить класу
+    -   [ReflectionClass::isInstantiable](reflectionclass.isinstantiable.html) — Перевіряє, чи можна створити екземпляр класу
+    -   [ReflectionClass::isInterface](reflectionclass.isinterface.html) — Перевіряє, чи клас є інтерфейсом
+    -   [ReflectionClass::isInternal](reflectionclass.isinternal.html) — Перевіряє, чи є клас вбудованим у модуль чи ядро
+    -   [ReflectionClass::isIterable](reflectionclass.isiterable.html) — Перевірити, чи клас ітерується.
+    -   [ReflectionClass::isIterateable](reflectionclass.isiterateable.html) - Псевдонім ReflectionClass::isIterable
+    -   [ReflectionClass::isSubclassOf](reflectionclass.issubclassof.html) — Перевіряє, чи є клас підкласом
+    -   [ReflectionClass::isTrait](reflectionclass.istrait.html) — Перевіряє, чи це є трейтом.
+    -   [ReflectionClass::isUserDefined](reflectionclass.isuserdefined.html) — Перевіряє, чи є клас для користувача
+    -   [ReflectionClass::newInstance](reflectionclass.newinstance.html) - Створює екземпляр класу з переданими аргументами
+    -   [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.html) — Створює екземпляр класу з переданими параметрами
+    -   [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.html) - Створює новий екземпляр класу без виклику конструктора
+    -   [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості
+    -   [ReflectionClass::\_\_toString](reflectionclass.tostring.html) — Повертає рядкову виставу об'єкта класу ReflectionClass
+-   [ReflectionClassConstant](class.reflectionclassconstant.html) - Клас ReflectionClassConstant
+    -   [ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.html) — Створює ReflectionClassConstant
+    -   [ReflectionClassConstant::export](reflectionclassconstant.export.html) - Експорт
+    -   [ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.html) — Отримує атрибути
+    -   [ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.html) — Отримує оголошуючий клас
+    -   [ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.html) — Отримує doc-коментарі
+    -   [ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.html) — Отримує модифікатори константи класу
+    -   [ReflectionClassConstant::getName](reflectionclassconstant.getname.html) — Отримати ім'я константи
+    -   [ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.html) — Отримує значення
+    -   [ReflectionClassConstant::isEnumCase](reflectionclassconstant.isenumcase.html) — Перевіряє, чи є константа класу варіантом перерахування
+    -   [ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.html) — Перевіряє, чи константа класу є остаточною
+    -   [ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.html) — Перевіряє, чи константа закрита
+    -   [ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.html) — Перевіряє, чи константа захищена
+    -   [ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.html) — Перевіряє, чи константа є загальнодоступною
+    -   [ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.html) — Повертає строкове представлення об'єкта ReflectionClassConstant
+-   [ReflectionEnum](class.reflectionenum.html) - Клас ReflectionEnum
+    -   [ReflectionEnum::\_\_construct](reflectionenum.construct.html) — Створює об'єкт ReflectionEnum
+    -   [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.html) — Отримує тип перерахування, якщо є
+    -   [ReflectionEnum::getCase](reflectionenum.getcase.html) — Повертає певний варіант перерахування
+    -   [ReflectionEnum::getCases](reflectionenum.getcases.html) — Повертає список усіх варіантів перерахування
+    -   [ReflectionEnum::hasCase](reflectionenum.hascase.html) - Перевіряє варіант перерахування
+    -   [ReflectionEnum::isBacked](reflectionenum.isbacked.html) — Визначає, чи є перерахування типовим
+-   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html) - Клас ReflectionEnumUnitCase
+    -   [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.html) — Створює екземпляр об'єкту ReflectionEnumUnitCase
+    -   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.html) — Отримує Reflection-об'єкт перерахування цього варіанта
+    -   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.html) — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
+-   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html) - Клас ReflectionEnumBackedCase
+    -   [ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.html) — Створює об'єкт ReflectionEnumBackedCase
+    -   [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.html) — Отримує скалярне значення варіанта перерахування
+-   [ReflectionZendExtension](class.reflectionzendextension.html) - Клас ReflectionZendExtension
+    -   [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.html) - Обробник клонування
+    -   [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.html) - Конструктор
+    -   [ReflectionZendExtension::export](reflectionzendextension.export.html) - Експорт
+    -   [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.html) — Отримує автора
+    -   [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.html) — Отримує авторські права
+    -   [ReflectionZendExtension::getName](reflectionzendextension.getname.html) — Отримує ім'я
+    -   [ReflectionZendExtension::getURL](reflectionzendextension.geturl.html) — Отримує URL
+    -   [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.html) — Отримує версію
+    -   [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.html) - Обробник перетворення в рядок
+-   [ReflectionExtension](class.reflectionextension.html) - Клас ReflectionExtension
+    -   [ReflectionExtension::\_\_clone](reflectionextension.clone.html) - Клонує об'єкт
+    -   [ReflectionExtension::\_\_construct](reflectionextension.construct.html) — Створює об'єкт класу ReflectionExtension
+    -   [ReflectionExtension::export](reflectionextension.export.html) - Експортує модуль
+    -   [ReflectionExtension::getClasses](reflectionextension.getclasses.html) - Повертає класи
+    -   [ReflectionExtension::getClassNames](reflectionextension.getclassnames.html) - Отримання імен класів
+    -   [ReflectionExtension::getConstants](reflectionextension.getconstants.html) - Отримання констант
+    -   [ReflectionExtension::getDependencies](reflectionextension.getdependencies.html) - Отримання залежностей
+    -   [ReflectionExtension::getFunctions](reflectionextension.getfunctions.html) — Отримання функцій модуля
+    -   [ReflectionExtension::getINIEntries](reflectionextension.getinientries.html) — Отримання ini-налаштувань модуля
+    -   [ReflectionExtension::getName](reflectionextension.getname.html) — Отримання імені модуля
+    -   [ReflectionExtension::getVersion](reflectionextension.getversion.html) — Отримання версії модуля
+    -   [ReflectionExtension::info](reflectionextension.info.html) — Виведення інформації про модуль
+    -   [ReflectionExtension::isPersistent](reflectionextension.ispersistent.html) — Визначає, чи модуль є постійним
+    -   [ReflectionExtension::isTemporary](reflectionextension.istemporary.html) — Визначає, чи модуль є тимчасовим
+    -   [ReflectionExtension::\_\_toString](reflectionextension.tostring.html) — Перетворення на рядок
+-   [ReflectionFunction](class.reflectionfunction.html) - Клас ReflectionFunction
+    -   [ReflectionFunction::\_\_construct](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
+    -   [ReflectionFunction::export](reflectionfunction.export.html) - Експортує функції
+    -   [ReflectionFunction::getClosure](reflectionfunction.getclosure.html) — Повертає динамічно створене замикання функції
+    -   [ReflectionFunction::invoke](reflectionfunction.invoke.html) - Викликає функцію
+    -   [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.html) - Виклик функції з передачею аргументів
+    -   [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.html) — Перевіряє, що функцію вимкнено
+    -   [ReflectionFunction::\_\_toString](reflectionfunction.tostring.html) — Подання у вигляді рядка
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html) - Клас ReflectionFunctionAbstract
+    -   [ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.html) - Клонує функцію
+    -   [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.html) — Отримує атрибути
+    -   [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.html) — Повертає клас, в рамках якого було оголошено замикання
+    -   [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.html) — Повертає покажчик, прив'язаний до замикання
+    -   [ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.html) — Повертає масив змінних, що використовуються в замиканні.
+    -   [ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.html) — Отримує doc-коментар
+    -   [ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.html) — Отримує номер рядка завершення опису функції
+    -   [ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.html) — Отримує інформацію про модуль
+    -   [ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.html) — Отримання імені модуля
+    -   [ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.html) — Отримує ім'я файлу
+    -   [ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.html) — Отримує ім'я функції
+    -   [ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.html) — Отримання імені простору імен
+    -   [ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.html) — Отримує кількість параметрів
+    -   [ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.html) — Отримує кількість обов'язкових параметрів
+    -   [ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.html) — Отримує параметри
+    -   [ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.html) — Отримує оголошений тип значення, що повертається функцією значення
+    -   [ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.html) — Отримує коротке ім'я функції
+    -   [ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.html) — Отримує початковий номер рядка
+    -   [ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.html) — Отримує статичні змінні
+    -   [ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.html) — Повертає попередній тип значення, що повертається, пов'язаний з функцією
+    -   [ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.html) — Перевіряє, чи має функція оголошений тип значення, що повертається
+    -   [ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.html) — Визначає, чи має функція попередній тип значення, що повертається.
+    -   [ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.html) — Перевіряє, чи є функція у просторі імен
+    -   [ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.html) - Перевіряє, чи є функція замиканням (Closure)
+    -   [ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.html) — Перевіряє, чи є функція застарілої
+    -   [ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.html) — Перевіряє, чи функція є генератором
+    -   [ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.html) — Перевіряє, чи функція є внутрішньою
+    -   [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.html) — Перевіряє, чи функція є певною користувачем
+    -   [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.html) — Перевіряє, чи є функція зі змінною кількістю аргументів
+    -   [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.html) - Перевіряє, що функція повертає посилання
+    -   [ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.html) — Перетворення на рядок
+-   [ReflectionMethod](class.reflectionmethod.html) - Клас ReflectionMethod
+    -   [ReflectionMethod::\_\_construct](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
+    -   [ReflectionMethod::export](reflectionmethod.export.html) — Експорт відбитого методу
+    -   [ReflectionMethod::getClosure](reflectionmethod.getclosure.html) — Повертає динамічно створене замикання для методу
+    -   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.html) — Отримує клас, що оголошує відбитий метод
+    -   [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.html) — Отримує модифікатори методу
+    -   [ReflectionMethod::getPrototype](reflectionmethod.getprototype.html) — Отримує прототип методу (якщо такий є)
+    -   [ReflectionMethod::invoke](reflectionmethod.invoke.html) - Виклик
+    -   [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.html) - Виклик методу з передачею аргументів масивом
+    -   [ReflectionMethod::isAbstract](reflectionmethod.isabstract.html) — Перевіряє, чи є метод абстрактним
+    -   [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.html) — Перевіряє, чи є метод конструктором
+    -   [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.html) — Перевіряє, чи є метод деструктором
+    -   [ReflectionMethod::isFinal](reflectionmethod.isfinal.html) — Перевіряє, чи є метод остаточним
+    -   [ReflectionMethod::isPrivate](reflectionmethod.isprivate.html) — Перевіряє, чи є метод закритим
+    -   [ReflectionMethod::isProtected](reflectionmethod.isprotected.html) — Перевіряє, чи метод захищений
+    -   [ReflectionMethod::isPublic](reflectionmethod.ispublic.html) — Перевіряє, чи є метод загальнодоступним
+    -   [ReflectionMethod::isStatic](reflectionmethod.isstatic.html) — Перевіряє, чи метод статичний
+    -   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.html) — Робить метод доступним
+    -   [ReflectionMethod::\_\_toString](reflectionmethod.tostring.html) — Повертає рядкову виставу об'єкта ReflectionMethod
+-   [ReflectionNamedType](class.reflectionnamedtype.html) — Клас ReflectionNamedType
+    -   [ReflectionNamedType::getName](reflectionnamedtype.getname.html) — Отримує ім'я типу у вигляді рядка
+    -   [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.html) — Перевіряє, чи тип вбудований
+-   [ReflectionObject](class.reflectionobject.html) - Клас ReflectionObject
+    -   [ReflectionObject::\_\_construct](reflectionobject.construct.html) - Конструктор класу ReflectionObject
+    -   [ReflectionObject::export](reflectionobject.export.html) - Експорт
+-   [ReflectionParameter](class.reflectionparameter.html) - Клас ReflectionParameter
+    -   [ReflectionParameter::allowsNull](reflectionparameter.allowsnull.html) — Перевіряє, чи допустиме значення null для параметра
+    -   [ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.html) — Перевіряє, чи можна передати цей аргумент за значенням
+    -   [ReflectionParameter::\_\_clone](reflectionparameter.clone.html) - Клонувати
+    -   [ReflectionParameter::\_\_construct](reflectionparameter.construct.html) - Конструктор
+    -   [ReflectionParameter::export](reflectionparameter.export.html) - Експорт
+    -   [ReflectionParameter::getAttributes](reflectionparameter.getattributes.html) — Отримує атрибути
+    -   [ReflectionParameter::getClass](reflectionparameter.getclass.html) — Отримує об'єкт ReflectionClass для параметра, що відображається, або null
+    -   [ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.html) — Отримання класу, що оголошує
+    -   [ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.html) — Отримання функції, що оголошує
+    -   [ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.html) — Отримання стандартного значення для параметра
+    -   [ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.html) — Повертає ім'я константи за промовчанням, якщо значення за промовчанням константа або null
+    -   [ReflectionParameter::getName](reflectionparameter.getname.html) — Отримання імені параметра
+    -   [ReflectionParameter::getPosition](reflectionparameter.getposition.html) — Отримання позиції параметра
+    -   [ReflectionParameter::getType](reflectionparameter.gettype.html) — Отримати тип параметра
+    -   [ReflectionParameter::hasType](reflectionparameter.hastype.html) — Перевірити, чи вказано тип параметра
+    -   [ReflectionParameter::isArray](reflectionparameter.isarray.html) — Перевіряє, чи очікує аргумент масив як значення
+    -   [ReflectionParameter::isCallable](reflectionparameter.iscallable.html) — Визначити, чи параметр має бути типу callable
+    -   [ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.html) — Перевіряє, чи є значення за замовчуванням
+    -   [ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.html) — Визначити, чи значення параметра за промовчанням є константою
+    -   [ReflectionParameter::isOptional](reflectionparameter.isoptional.html) — Перевіряє, чи аргумент є необов'язковим
+    -   [ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.html) — Перевіряє, чи передано параметр за посиланням
+    -   [ReflectionParameter::isVariadic](reflectionparameter.isvariadic.html) — Перевірити, чи параметр є параметром зі змінною кількістю аргументів
+    -   [ReflectionParameter::\_\_toString](reflectionparameter.tostring.html) — Перетворення на рядок
+-   [ReflectionProperty](class.reflectionproperty.html) - Клас ReflectionProperty
+    -   [ReflectionProperty::\_\_clone](reflectionproperty.clone.html) - Клонувати
+    -   [ReflectionProperty::\_\_construct](reflectionproperty.construct.html) - Конструктор класу ReflectionProperty
+    -   [ReflectionProperty::export](reflectionproperty.export.html) - Експорт
+    -   [ReflectionProperty::getAttributes](reflectionproperty.getattributes.html) — Отримує атрибути
+    -   [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.html) — Отримання класу, що оголошує
+    -   [ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.html) — Повертає значення за промовчанням, задане для якості
+    -   [ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.html) — Отримання doc-коментаря для якості
+    -   [ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.html) - Отримання модифікаторів властивостей класу
+    -   [ReflectionProperty::getName](reflectionproperty.getname.html) - Отримання імені властивості
+    -   [ReflectionProperty::getType](reflectionproperty.gettype.html) — Отримати тип якості
+    -   [ReflectionProperty::getValue](reflectionproperty.getvalue.html) — Отримує значення
+    -   [ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.html) — Перевіряє, чи встановлено значення за промовчанням для властивості.
+    -   [ReflectionProperty::hasType](reflectionproperty.hastype.html) — Перевірити, чи заданий для якості тип
+    -   [ReflectionProperty::isDefault](reflectionproperty.isdefault.html) — Перевіряє, чи значення є властивістю за умовчанням
+    -   [ReflectionProperty::isInitialized](reflectionproperty.isinitialized.html) — Перевірити, чи ініціалізована властивість
+    -   [ReflectionProperty::isPrivate](reflectionproperty.isprivate.html) — Перевіряє, чи властивість закрита.
+    -   [ReflectionProperty::isPromoted](reflectionproperty.ispromoted.html) — Перевіряє, чи визначено властивість у конструкторі
+    -   [ReflectionProperty::isProtected](reflectionproperty.isprotected.html) — Перевіряє, чи властивість захищена
+    -   [ReflectionProperty::isPublic](reflectionproperty.ispublic.html) — Перевіряє, чи є властивість загальнодоступною.
+    -   [ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.html) — Перевіряє, чи властивість є readonly-властивістю
+    -   [ReflectionProperty::isStatic](reflectionproperty.isstatic.html) — Перевірка, чи властивість статична
+    -   [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.html) — Робить властивість доступною
+    -   [ReflectionProperty::setValue](reflectionproperty.setvalue.html) - Встановлення значення властивості
+    -   [ReflectionProperty::\_\_toString](reflectionproperty.tostring.html) — Перетворення на рядок
+-   [ReflectionType](class.reflectiontype.html) - Клас ReflectionType
+    -   [ReflectionType::allowsNull](reflectiontype.allowsnull.html) — Перевіряє, чи допустимо NULL
+    -   [ReflectionType::\_\_toString](reflectiontype.tostring.html) — Перетворення на рядок
+-   [ReflectionUnionType](class.reflectionuniontype.html) - Клас ReflectionUnionType
+    -   [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.html) — Повертає типи, включені до типу union
+-   [ReflectionGenerator](class.reflectiongenerator.html) - Клас ReflectionGenerator
+    -   [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.html) - Конструктор ReflectionGenerator
+    -   [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.html) — Отримати ім'я файлу, з якого запущено генератор
+    -   [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.html) — Отримати запущений об'єкт Generator
+    -   [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.html) — Отримати поточний рядок генератора, що виконується.
+    -   [ReflectionGenerator::getFunction](reflectiongenerator.getfunction.html) — Отримати ім'я функції генератора
+    -   [ReflectionGenerator::getThis](reflectiongenerator.getthis.html) — Отримує значення $this генератора
+    -   [ReflectionGenerator::getTrace](reflectiongenerator.gettrace.html) — Отримати трасування запущеного генератора
+-   [ReflectionFiber](class.reflectionfiber.html) - Клас ReflectionFiber
+    -   [ReflectionFiber::\_\_construct](reflectionfiber.construct.html) — Створює об'єкт ReflectionFiber
+    -   [ReflectionFiber::getCallable](reflectionfiber.getcallable.html) — Отримує об'єкт, що викликається, що використовується для створення файбера
+    -   [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.html) — Отримує ім'я файлу поточної точки виконання
+    -   [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.html) — Отримує номер рядка поточної точки виконання
+    -   [ReflectionFiber::getFiber](reflectionfiber.getfiber.html) — Отримує відбитий екземпляр файбера
+    -   [ReflectionFiber::getTrace](reflectionfiber.gettrace.html) — Отримує зворотне трасування поточної точки виконання.
+-   [ReflectionIntersectionType](class.reflectionintersectiontype.html) - Клас ReflectionIntersectionType
+    -   [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.html) — Повертає типи, включені до типу intersection
+-   [ReflectionReference](class.reflectionreference.html) - Клас ReflectionReference
+    -   [ReflectionReference::\_\_construct](reflectionreference.construct.html) — Закритий конструктор, який забороняє створення екземпляра безпосередньо
+    -   [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.html) — Створює ReflectionReference із елементу масиву
+    -   [ReflectionReference::getId](reflectionreference.getid.html) — Отримати унікальний ідентифікатор посилання
+-   [ReflectionAttribute](class.reflectionattribute.html) - Клас ReflectionAttribute
+    -   [ReflectionAttribute::\_\_construct](reflectionattribute.construct.html) — Закритий конструктор, який забороняє створення об'єкта безпосередньо
+    -   [ReflectionAttribute::getArguments](reflectionattribute.getarguments.html) — Повертає аргументи, передані атрибуту
+    -   [ReflectionAttribute::getName](reflectionattribute.getname.html) - Повертає ім'я атрибута
+    -   [ReflectionAttribute::getTarget](reflectionattribute.gettarget.html) — Повертає мету атрибуту у вигляді бітової маски
+    -   [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.html) — Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду
+    -   [ReflectionAttribute::newInstance](reflectionattribute.newinstance.html) — Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
+-   [Reflector](class.reflector.html) - Інтерфейс Reflector
+    -   [Reflector::export](reflector.export.html) - Експорт
+    -   [Reflector::\_\_toString](reflector.tostring.html) — Подання у вигляді рядка
+-   [ReflectionException](class.reflectionexception.html) - Клас ReflectionException

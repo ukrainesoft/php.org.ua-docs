@@ -1,26 +1,33 @@
-- [« Iterator::key](iterator.key.md)
-- [Iterator::rewind »](iterator.rewind.md)
+Переходить до наступного елементу
 
-- [PHP Manual](index.md)
-- [Iterator](class.iterator.md)
-- Переходить до наступного елементу
+-   [« Iterator::key](iterator.key.html)
+    
+-   [Iterator::rewind »](iterator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Iterator](class.iterator.html)
+    
+-   Переходить до наступного елементу
+    
 
 # Iterator::next
 
 (PHP 5, PHP 7, PHP 8)
 
-Iterator::next — Перейти до наступного елементу
+Iterator::next — Переходить до наступного елемента
 
 ### Опис
 
-public **Iterator::next**(): void
+```methodsynopsis
+public Iterator::next(): void
+```
 
-Переміщує поточну позицію до наступного елемента.
+Переміщення поточної позиції до наступного елемента.
 
-> **Примітка**:
->
-> Метод викликається *після* кожної ітерації
-> [foreach](control-structures.foreach.md).
+> **Зауваження**
+> 
+> Метод викликається *після* кожної ітерації [foreach](control-structures.foreach.html)
 
 ### Список параметрів
 

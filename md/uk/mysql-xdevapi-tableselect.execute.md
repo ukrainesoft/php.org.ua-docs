@@ -1,9 +1,15 @@
-- [« TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.md)
-- [TableSelect::groupBy »](mysql-xdevapi-tableselect.groupby.md)
+Виконує оператор вибірки
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-- Виконує оператор вибірки
+-   [« TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.html)
+    
+-   [TableSelect::groupBy »](mysql-xdevapi-tableselect.groupby.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+    
+-   Виконує оператор вибірки
+    
 
 # TableSelect::execute
 
@@ -13,10 +19,11 @@ TableSelect::execute — Виконує оператор вибірки
 
 ### Опис
 
-public **mysql_xdevapi\TableSelect::execute**():
-[mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)
+```methodsynopsis
+public mysql_xdevapi\TableSelect::execute(): mysql_xdevapi\RowResult
+```
 
-Виконує затвердження вибірки, пов'язуючи його методом execute().
+Виконує затвердження вибірки, пов'язуючи його із методом execute().
 
 ### Список параметрів
 
@@ -28,18 +35,34 @@ public **mysql_xdevapi\TableSelect::execute**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableSelect::execute()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::execute()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$result = $table->select('name','age') ->where('name like :name and age > :age') ->bind(['name' => 'John', ' age' => 42]) ->orderBy('age desc')  ->execute();$row = $result->fetchAll();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$result = $table->select('name','age')
+  ->where('name like :name and age > :age')
+  ->bind(['name' => 'John', 'age' => 42])
+  ->orderBy('age desc')
+  ->execute();
+
+$row = $result->fetchAll();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[name] => John
-[age] => 42
+    [0] => Array
+        (
+            [name] => John
+            [age] => 42
+        )
 )
-)
+```

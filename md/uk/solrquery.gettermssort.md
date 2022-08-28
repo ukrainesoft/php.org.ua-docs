@@ -1,25 +1,29 @@
-- [« SolrQuery::getTermsReturnRaw](solrquery.gettermsreturnraw.md)
-- [SolrQuery::getTermsUpperBound »](solrquery.gettermsupperbound.md)
+Повертає ціле число, що вказує, як сортуються вирази
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає ціле число, яке вказує, як сортуються вирази
+-   [« SolrQuery::getTermsReturnRaw](solrquery.gettermsreturnraw.html)
+    
+-   [SolrQuery::getTermsUpperBound »](solrquery.gettermsupperbound.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає ціле число, що вказує, як сортуються вирази
+    
 
 # SolrQuery::getTermsSort
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTermsSort — Повертає ціле число, яке вказує, як
-сортуються вирази
+SolrQuery::getTermsSort — Повертає ціле число, що вказує, як сортуються вирази
 
 ### Опис
 
-public **SolrQuery::getTermsSort**(): int
+```methodsynopsis
+public SolrQuery::getTermsSort(): int
+```
 
-SolrQuery::TERMS_SORT_INDEX вказує, що вирази повертаються в
-порядку індексу. SolrQuery::TERMS_SORT_COUNT має на увазі, що
-вирази сортуються за частотою виразу (спочатку найвище
-кількість)
+SolrQuery::TERMSSORTINDEX вказує, що вирази повертаються у порядку індексу. SolrQuery::TERMSSORTCOUNT має на увазі, що вирази сортуються за частотою виразу (спочатку найвищу кількість)
 
 ### Список параметрів
 
@@ -27,5 +31,4 @@ SolrQuery::TERMS_SORT_INDEX вказує, що вирази повертають
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](csprng.setup.md)
-- [Установка »](csprng.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](csprng.setup.md)
-- Вимоги
+-   [« Установка и настройка](csprng.setup.html)
+    
+-   [Установка »](csprng.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](csprng.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

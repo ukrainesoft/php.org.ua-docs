@@ -1,12 +1,18 @@
-- [«Зумовлені константи](wddx.constants.md)
-- [Приклади wddx »](wddx.examples-serialize.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [WDDX](book.wddx.md)
-- Приклади
+-   [« Предопределённые константы](wddx.constants.html)
+    
+-   [Примеры wddx »](wddx.examples-serialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WDDX](book.wddx.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Приклади wddx](wddx.examples-serialize.md)
+-   [Примеры wddx](wddx.examples-serialize.html)

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](array.configuration.md)
-- [Предвизначені константи »](array.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](array.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](array.configuration.html)
+    
+-   [Предопределённые константы »](array.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](array.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

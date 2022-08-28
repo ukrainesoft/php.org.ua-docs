@@ -1,56 +1,64 @@
-- [« mcrypt_enc_get_modes_name](function.mcrypt-enc-get-modes-name.md)
-- [mcrypt_enc_is_block_algorithm_mode »](function.mcrypt-enc-is-block-algorithm-mode.md)
+Повертає масив з допустимими розмірами ключа для алгоритму
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає масив із допустимими розмірами ключа для використовуваного
-алгоритму
+-   [« mcrypt\_enc\_get\_modes\_name](function.mcrypt-enc-get-modes-name.html)
+    
+-   [mcrypt\_enc\_is\_block\_algorithm\_mode »](function.mcrypt-enc-is-block-algorithm-mode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Повертає масив з допустимими розмірами ключа для алгоритму
+    
 
-# mcrypt_enc_get_supported_key_sizes
+# mcryptencgetsupportedkeysizes
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_enc_get_supported_key_sizes — Повертає масив із допустимими
-розмірами ключа для алгоритму
+mcryptencgetsupportedkeysizes — Повертає масив з допустимими розмірами ключа для алгоритму, що використовується.
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_enc_get_supported_key_sizes**(resource `$td`): array
+```methodsynopsis
+mcrypt_enc_get_supported_key_sizes(resource $td): array
+```
 
-Повертає масив із допустимими розмірами ключа для використовуваного
-алгоритму.
+Повертає масив з допустимими розмірами ключа для алгоритму.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
 
-Повертає масив із допустимими розмірами ключа для використовуваного
-алгоритму. Якщо допустимі будь-які розміри від 1 до
-[mcrypt_enc_get_key_size()](function.mcrypt-enc-get-key-size.md), то
-повертається порожній масив.
+Повертає масив з допустимими розмірами ключа для алгоритму. Якщо допустимі будь-які розміри від 1 до [mcrypt\_enc\_get\_key\_size()](function.mcrypt-enc-get-key-size.html), Повертається порожній масив.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mcrypt_enc_get_supported_key_sizes()****
+**Приклад #1 Приклад використання **mcryptencgetsupportedkeysizes()****
 
-`<?php   $td = mcrypt_module_open('rijndael-256', '', 'ecb', ''); var_dump(mcrypt_enc_get_supported_key_sizes($td));?> `
+```php
+<?php
+    $td = mcrypt_module_open('rijndael-256', '', 'ecb', '');
+    var_dump(mcrypt_enc_get_supported_key_sizes($td));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(3) {
-[0]=>
-int(16)
-[1]=>
-int(24)
-[2]=>
-int(32)
+  [0]=>
+  int(16)
+  [1]=>
+  int(24)
+  [2]=>
+  int(32)
 }
+```

@@ -1,59 +1,74 @@
-- [« sodium_crypto_box_seal_open](function.sodium-crypto-box-seal-open.md)
-- [sodium_crypto_box_secretkey »](function.sodium-crypto-box-secretkey.md)
+Шифрування відкритим ключем без автентифікації
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Шифрування відкритим ключем без автентифікації
+-   [« sodium\_crypto\_box\_seal\_open](function.sodium-crypto-box-seal-open.html)
+    
+-   [sodium\_crypto\_box\_secretkey »](function.sodium-crypto-box-secretkey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Шифрування відкритим ключем без автентифікації
+    
 
-# sodium_crypto_box_seal
+# sodiumcryptoboxseal
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_box_seal — Шифрування відкритим ключем без перевірки
-справжності
+sodiumcryptoboxseal — Шифрування відкритим ключем без автентифікації
 
 ### Опис
 
-**sodium_crypto_box_seal**(string `$message`, string `$public_key`):
-string
+```methodsynopsis
+sodium_crypto_box_seal(string $message, string $public_key): string
+```
 
-Шифрує повідомлення так, що лише одержувач може його розшифрувати.
+Шифрує повідомлення так, що тільки одержувач може його розшифрувати.
 
-На відміну від [sodium_crypto_box()](function.sodium-crypto-box.md), вам
-потрібно знати лише відкритий ключ одержувача, щоб використовувати
-**sodium_crypto_box_seal()**. Однак одним із наслідків цієї зручності
-є те, що зашифрований текст не прив'язаний до статичного
-відкритого ключа і, отже, не автентифікується. Отже,
-шифрування відкритим ключем без автентифікації.
+На відміну від [sodium\_crypto\_box()](function.sodium-crypto-box.html)Вам потрібно знати тільки відкритий ключ одержувача, щоб використовувати **sodiumcryptoboxseal()**. Однак одним із наслідків цієї зручності є те, що зашифрований текст не прив'язаний до статичного відкритого ключа і, отже, не автентифікується. Отже, шифрування відкритим ключем без автентифікації.
 
-**sodium_crypto_box_seal()**, як і раніше, забезпечує цілісність
-зашифрований текст. Тільки не перевіряє справжність відправника.
+**sodiumcryptoboxseal()** як і забезпечує цілісність зашифрованого тексту. Тільки не перевіряє справжність відправника.
 
-Якщо вам також потрібна автентифікація відправника, найкраще
-почати з функцій
-[sodium_crypto_sign()](function.sodium-crypto-sign.md).
+Якщо вам також потрібна автентифікація відправника, найкраще почати з функцій [sodium\_crypto\_sign()](function.sodium-crypto-sign.html)
 
 ### Список параметрів
 
 `message`
+
 Повідомлення, яке потрібно зашифрувати.
 
 `public_key`
-Відкритий ключ, який відповідає єдиному ключу, який може
-розшифрувати повідомлення.
+
+Відкритий ключ, який відповідає єдиному ключу, який може розшифрувати повідомлення.
 
 ### Значення, що повертаються
 
-Рядок зашифрованого тексту у форматі (одноразовий відкритий ключ,
-зашифроване повідомлення, тег аутентифікації).
+Рядок зашифрованого тексту (одноразовий відкритий ключ, зашифроване повідомлення, тег аутентифікації).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodium_crypto_box_seal()****
+**Приклад #1 Приклад використання **sodiumcryptoboxseal()****
 
-` <?php$keypair = sodium_crypto_box_keypair();$public_key = sodium_crypto_box_publickey($keypair);// Обфусцированный текст, чтобы сделать пример более увлекательным$plaintext_b64 = "V3JpdGluZyBzb2Z0d2FyZSBpbiBQSFAgY2FuIGJlIGEgZGVsaWdodCE=";$decoded_plaintext = sodium_base642bin($plaintext_b64, SODIUM_BASE64_VARIANT_ORIGINAL);$ sealed= sodium_crypto_box_seal($decoded_plaintext, $public_key);var_dump(base64_encode($sealed));$opened==sodium_crypto_box_seal_open($sealed, $keypair);
+```php
+<?php
+$keypair = sodium_crypto_box_keypair();
+$public_key = sodium_crypto_box_publickey($keypair);
+
+// Обфусцированный текст, чтобы сделать пример более увлекательным
+$plaintext_b64 = "V3JpdGluZyBzb2Z0d2FyZSBpbiBQSFAgY2FuIGJlIGEgZGVsaWdodCE=";
+$decoded_plaintext = sodium_base642bin($plaintext_b64, SODIUM_BASE64_VARIANT_ORIGINAL);
+
+$sealed = sodium_crypto_box_seal($decoded_plaintext, $public_key);
+var_dump(base64_encode($sealed));
+
+$opened = sodium_crypto_box_seal_open($sealed, $keypair);
+var_dump($opened);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(120) "oRBXXAV4iQBrxlV4A21Bord8Yo/D8ZlrIIGNyaRCcGBfpz0map52I3xq6l+CST+1NSgQkbV+HyYyFjXWiWiaCGupGf+zl4bgWj/A9Adtem7
+```
+string(120) "oRBXXAV4iQBrxlV4A21Bord8Yo/D8ZlrIIGNyaRCcGBfpz0map52I3xq6l+CST+1NSgQkbV+HiYyFjXWiWiaCGupGf+zl4bgWj/A9Adtem7Jt3h3emrMsLw="
 string(41) "Writing software in PHP can be a delight!"
+```

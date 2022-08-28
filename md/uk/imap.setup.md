@@ -1,15 +1,21 @@
-- [«Вступ](intro.imap.md)
-- [Вимоги »](imap.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [IMAP](book.imap.md)
+-   [« Введение](intro.imap.html)
+    
+-   [Требования »](imap.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IMAP](book.imap.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](imap.requirements.md)
-- [Установка](imap.installation.md)
-- [Налаштування під час виконання](imap.configuration.md)
-- [Типи ресурсів](imap.resources.md)
+-   [Требования](imap.requirements.html)
+-   [Установка](imap.installation.html)
+-   [Настройка во время выполнения](imap.configuration.html)
+-   [Типы ресурсов](imap.resources.html)

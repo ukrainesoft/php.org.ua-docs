@@ -1,44 +1,52 @@
-- [« imap_mime_header_decode](function.imap-mime-header-decode.md)
-- [imap_mutf7_to_utf8 »](function.imap-mutf7-to-utf8.md)
+Отримати номер повідомлення із заданим UID
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати номер повідомлення із заданим UID
+-   [« imap\_mime\_header\_decode](function.imap-mime-header-decode.html)
+    
+-   [imap\_mutf7\_to\_utf8 »](function.imap-mutf7-to-utf8.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Отримати номер повідомлення із заданим UID
+    
 
-#imap_msgno
+# imapmsgno
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_msgno — Отримати номер повідомлення із заданим UID
+imapmsgno — Отримати номер повідомлення із заданим UID
 
 ### Опис
 
-**imap_msgno**([IMAP\Connection](class.imap-connection.md) `$imap`,
-int `$message_uid`): int
+```methodsynopsis
+imap_msgno(IMAP\Connection $imap, int $message_uid): int
+```
 
-Повертає номер повідомлення для вказаного 'message_uid'.
+Повертає номер повідомлення для вказаного `message_uid`
 
-Ця функція є зворотною до [imap_uid()](function.imap-uid.md).
+Ця функція зворотна до [imap\_uid()](function.imap-uid.html)
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `message_uid`
+
 UID повідомлення
 
 ### Значення, що повертаються
 
-Повертає номер повідомлення для вказаного 'message_uid'.
+Повертає номер повідомлення для вказаного `message_uid`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_uid()](function.imap-uid.md) - Отримати UID за номером
-повідомлення
+-   [imap\_uid()](function.imap-uid.html) - Отримати UID за номером повідомлення

@@ -1,30 +1,36 @@
-- [« LuaSandbox::disableProfiler](luasandbox.disableprofiler.md)
-- [LuaSandbox::getCPUUsage »](luasandbox.getcpuusage.md)
+Включає профільувальник
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Включає профільник
+-   [« LuaSandbox::disableProfiler](luasandbox.disableprofiler.html)
+    
+-   [LuaSandbox::getCPUUsage »](luasandbox.getcpuusage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Включає профільувальник
+    
 
 # LuaSandbox::enableProfiler
 
-(PECL luasandbox \>= 1.1.0)
+(PECL luasandbox >= 1.1.0)
 
-LuaSandbox::enableProfiler — Включає профільник
+LuaSandbox::enableProfiler — Включає профільувальник
 
 ### Опис
 
-public **LuaSandbox::enableProfiler**(float `$period` = 0.02): bool
+```methodsynopsis
+public LuaSandbox::enableProfiler(float $period = 0.02): bool
+```
 
 Вмикає профільувальник. Профілювання розпочнеться після введення коду Lua.
 
-Профілювальник періодично проводить вимірювання середовища Lua для запису
-виконуваної функції. Тестування показує, що принаймні в
-Linux установка періоду менше 1 мілісекунди призведе до великого
-кількості переповнень, але без проблем із продуктивністю.
+Профілювальник періодично проводить вимірювання середовища Lua для запису функції, що виконується. Тестування показує, що принаймні в Linux установка періоду менше 1 мілісекунд призведе до великої кількості переповнень, але без проблем з продуктивністю.
 
 ### Список параметрів
 
 `period`
+
 Період вибірки за секунди.
 
 ### Значення, що повертаються
@@ -33,7 +39,5 @@ Linux установка періоду менше 1 мілісекунди пр
 
 ### Дивіться також
 
-- [LuaSandbox::disableProfiler()](luasandbox.disableprofiler.md) -
-Відключає профільник
-- [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) -
-Отримує дані профілювача
+-   [LuaSandbox::disableProfiler()](luasandbox.disableprofiler.html) - відключає профільник
+-   [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.html) - Отримує дані профілювача

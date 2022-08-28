@@ -1,37 +1,42 @@
-- [« fann_get_quickprop_decay](function.fann-get-quickprop-decay.md)
-- [fann_get_rprop_decrease_factor »](function.fann-get-rprop-decrease-factor.md)
+Повертає коефіцієнт mu
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає коефіцієнт mu
+-   [« fann\_get\_quickprop\_decay](function.fann-get-quickprop-decay.html)
+    
+-   [fann\_get\_rprop\_decrease\_factor »](function.fann-get-rprop-decrease-factor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає коефіцієнт mu
+    
 
-# fann_get_quickprop_mu
+# fanngetquickpropму
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_quickprop_mu — Повертає коефіцієнт mu
+fanngetquickpropmu — Повертає коефіцієнт mu
 
 ### Опис
 
-**fann_get_quickprop_mu**(resource `$ann`): float
+```methodsynopsis
+fann_get_quickprop_mu(resource $ann): float
+```
 
-Коефіцієнт mu використовується для збільшення та зменшення розміру кроку
-час швидкого тренування. Коефіцієнт mu завжди повинен бути більше 1,
-оскільки в іншому випадку розмір кроку зменшиться, коли
-передбачається його збільшити.
+Коефіцієнт mu використовується для збільшення та зменшення розміру кроку під час швидкого тренування. Коефіцієнт mu завжди повинен бути більшим за 1, оскільки в іншому випадку розмір кроку зменшиться, коли передбачається його збільшити.
 
 Коефіцієнт mu за умовчанням дорівнює 1.75.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Коефіцієнт mu чи **`false`** у разі виникнення помилки.
+Коефіцієнт mu або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_quickprop_mu()](function.fann-set-quickprop-mu.md) -
-Встановлює МЮ-фактор quickprop
+-   [fann\_set\_quickprop\_mu()](function.fann-set-quickprop-mu.html) - Встановлює МЮ-фактор quickprop

@@ -1,20 +1,27 @@
-- [« VarnishAdmin::clearPanic](varnishadmin.clearpanic.md)
-- [VarnishAdmin::\_\_construct »](varnishadmin.construct.md)
+Підключення до інтерфейсу адміністрування екземпляра varnish
 
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Підключення до інтерфейсу адміністрування екземпляра varnish
+-   [« VarnishAdmin::clearPanic](varnishadmin.clearpanic.html)
+    
+-   [VarnishAdmin::\_\_construct »](varnishadmin.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [VarnishAdmin](class.varnishadmin.html)
+    
+-   Підключення до інтерфейсу адміністрування екземпляра varnish
+    
 
 # VarnishAdmin::connect
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
-VarnishAdmin::connect — Підключення до інтерфейсу адміністрування
-екземпляра varnish
+VarnishAdmin::connect — Підключення до інтерфейсу адміністрування примірника varnish
 
 ### Опис
 
-public **VarnishAdmin::connect**(): bool
+```methodsynopsis
+public VarnishAdmin::connect(): bool
+```
 
 ### Список параметрів
 
@@ -22,5 +29,4 @@ public **VarnishAdmin::connect**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

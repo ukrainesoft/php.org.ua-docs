@@ -1,20 +1,27 @@
-- [«Gmagick::gammaimage](gmagick.gammaimage.md)
-- [Gmagick::getfilename »](gmagick.getfilename.md)
+Повертає копірайт GraphicsMagick API у вигляді рядка
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає копірайт GraphicsMagick API у вигляді рядка
+-   [« Gmagick::gammaimage](gmagick.gammaimage.html)
+    
+-   [Gmagick::getfilename »](gmagick.getfilename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає копірайт GraphicsMagick API у вигляді рядка
+    
 
 # Gmagick::getcopyright
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getcopyright — Повертає копірайт GraphicsMagick API у вигляді
-рядки
+Gmagick::getcopyright — Повертає копірайт GraphicsMagick API у вигляді рядка
 
 ### Опис
 
-public **Gmagick::getcopyright**(): string
+```methodsynopsis
+public Gmagick::getcopyright(): string
+```
 
 Повертає копірайт GraphicsMagick API у вигляді рядка.
 

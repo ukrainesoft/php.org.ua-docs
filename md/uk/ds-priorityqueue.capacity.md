@@ -1,19 +1,27 @@
-- [« Ds\PriorityQueue::allocate](ds-priorityqueue.allocate.md)
-- [Ds\PriorityQueue::clear »](ds-priorityqueue.clear.md)
+Повертає поточну місткість
 
-- [PHP Manual](index.md)
-- [Черга з пріоритетом](class.ds-priorityqueue.md)
-- Повертає поточну місткість
+-   [« Ds\\PriorityQueue::allocate](ds-priorityqueue.allocate.html)
+    
+-   [Ds\\PriorityQueue::clear »](ds-priorityqueue.clear.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь с приоритетом](class.ds-priorityqueue.html)
+    
+-   Повертає поточну місткість
+    
 
-# Ds\PriorityQueue::capacity
+# ДсPriorityQueue::capacity
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\PriorityQueue::capacity — Повертає поточну місткість
+ДсPriorityQueue::capacity — Повертає поточну місткість
 
 ### Опис
 
-public **Ds\PriorityQueue::capacity**(): int
+```methodsynopsis
+public Ds\PriorityQueue::capacity(): int
+```
 
 Повертає поточну місткість.
 
@@ -27,10 +35,17 @@ public **Ds\PriorityQueue::capacity**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\PriorityQueue::capacity()****
+**Приклад #1 Приклад використання **ДсPriorityQueue::capacity()****
 
-` <?php$queue = new \Ds\PriorityQueue();var_dump($queue->capacity());?> `
+```php
+<?php
+$queue = new \Ds\PriorityQueue();
+var_dump($queue->capacity());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(8)
+```

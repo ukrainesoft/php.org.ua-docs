@@ -1,19 +1,27 @@
-- [« GearmanTask::create](gearmantask.create.md)
-- [GearmanTask::dataSize »](gearmantask.datasize.md)
+Отримати дані, повернені для завдання
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Отримати дані, повернені для завдання
+-   [« GearmanTask::create](gearmantask.create.html)
+    
+-   [GearmanTask::dataSize »](gearmantask.datasize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Отримати дані, повернені для завдання
+    
 
 # GearmanTask::data
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanTask::data — Отримати дані, повернені для завдання
 
 ### Опис
 
-public **GearmanTask::data**(): string
+```methodsynopsis
+public GearmanTask::data(): string
+```
 
 Отримує дані, що повертаються обробником після завершення роботи завдання.
 
@@ -23,10 +31,8 @@ public **GearmanTask::data**(): string
 
 ### Значення, що повертаються
 
-Серіалізовані дані або **`false`**, якщо обробник не надав
-даних.
+Серіалізовані дані або **`false`**якщо обробник не надав даних.
 
 ### Дивіться також
 
-- [GearmanTask::dataSize()](gearmantask.datasize.md) - Отримати
-розмір даних, що повертаються
+-   [GearmanTask::dataSize()](gearmantask.datasize.html) - Отримати розмір даних, що повертаються

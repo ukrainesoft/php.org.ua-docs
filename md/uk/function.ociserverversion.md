@@ -1,22 +1,26 @@
-- [«ocisavelobfile](function.ocisavelobfile.md)
-- [ocisetprefetch »](function.ocisetprefetch.md)
+Псевдонім ociserverversion
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_server_version
+-   [« ocisavelobfile](function.ocisavelobfile.html)
+    
+-   [ocisetprefetch »](function.ocisetprefetch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ociserverversion
+    
 
 # ociserverversion
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociserverversion - Псевдонім
-[oci_server_version()](function.oci-server-version.md)
+ociserverversion - Псевдонім [oci\_server\_version()](function.oci-server-version.html)
 
 ### Опис
 
-Псевдонім [oci_server_version()](function.oci-server-version.md)
+Псевдонім [oci\_server\_version()](function.oci-server-version.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

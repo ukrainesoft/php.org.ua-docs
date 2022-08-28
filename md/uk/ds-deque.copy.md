@@ -1,19 +1,27 @@
-- [« Ds\Deque::contains](ds-deque.contains.md)
-- [Ds\Deque::count »](ds-deque.count.md)
+Повертає поверхневу копію колекції
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає поверхневу копію колекції
+-   [« Ds\\Deque::contains](ds-deque.contains.html)
+    
+-   [Ds\\Deque::count »](ds-deque.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає поверхневу копію колекції
+    
 
-# Ds\Deque::copy
+# ДсDeque::copy
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::copy — Повертає поверхневу копію колекції
+ДсDeque::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
-public **Ds\Deque::copy**(): [Ds\Deque](class.ds-deque.md)
+```methodsynopsis
+public Ds\Deque::copy(): Ds\Deque
+```
 
 Повертає поверхневу копію двосторонньої черги.
 
@@ -27,22 +35,34 @@ public **Ds\Deque::copy**(): [Ds\Deque](class.ds-deque.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::copy()****
+**Приклад #1 Приклад використання **ДсDeque::copy()****
 
-` <?php$a = new \Ds\Deque([1, 2, 3]);$b = $a->copy();$b->push(4);print_r($a);print_r( $b);?> `
+```php
+<?php
+$a = new \Ds\Deque([1, 2, 3]);
+$b = $a->copy();
+
+$b->push(4);
+
+print_r($a);
+print_r($b);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Deque Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
 )
+```

@@ -1,37 +1,57 @@
-- [« Vtiful\Kernel\Excel::insertText](vtiful-kernel-excel.insertText.md)
-- [Vtiful\Kernel\Excel::output »](vtiful-kernel-excel.output.md)
+Об'єднати комірки
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
+-   [« Vtiful\\Kernel\\Excel::insertText](vtiful-kernel-excel.insertText.html)
+    
+-   [Vtiful\\Kernel\\Excel::output »](vtiful-kernel-excel.output.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
 -   Об'єднати комірки
+    
 
-# Vtiful\Kernel\Excel::mergeCells
+# VtifulKernelExcel::mergeCells
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::mergeCells — Об'єднати осередки
+VtifulKernelExcel::mergeCells — Об'єднати осередки
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::mergeCells**(string `$scope`, string
-`$data`)
+```methodsynopsis
+public Vtiful\Kernel\Excel::mergeCells(string $scope, string $data)
+```
 
 Об'єднати комірки.
 
 ### Список параметрів
 
 `scope`
+
 початкові та кінцеві рядки координат осередку
 
 `data`
+
 дані рядки
 
 ### Значення, що повертаються
 
-Примірник [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$excel = new \Vtiful\Kernel\Excel($config);$excel->fileName("test.xlsx")         ('A1:C1', 'Merge cells')        ->output(); `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$excel = new \Vtiful\Kernel\Excel($config);
+
+$excel->fileName("test.xlsx")
+        ->mergeCells('A1:C1', 'Merge cells')
+        ->output();
+```

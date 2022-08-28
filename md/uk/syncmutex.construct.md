@@ -1,36 +1,43 @@
-- [«SyncMutex](class.syncmutex.md)
-- [SyncMutex::lock »](syncmutex.lock.md)
+Створює новий об'єкт SyncMutex
 
-- [PHP Manual](index.md)
-- [SyncMutex](class.syncmutex.md)
-- Створює новий об'єкт SyncMutex
+-   [« SyncMutex](class.syncmutex.html)
+    
+-   [SyncMutex::lock »](syncmutex.lock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SyncMutex](class.syncmutex.html)
+    
+-   Створює новий об'єкт SyncMutex
+    
 
-# SyncMutex::\_\_construct
+# SyncMutex::construct
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
-SyncMutex::\_\_construct — Створює новий об'єкт SyncMutex
+SyncMutex::construct — Створення нового об'єкту SyncMutex
 
 ### Опис
 
-public **SyncMutex::\_\_construct**(string `$name` = ?)
+```methodsynopsis
+public SyncMutex::__construct(string $name = ?)
+```
 
-Створює іменований або безіменний лічильний м'ютекс.
+Створює іменований чи безіменний лічильний м'ютекс.
 
 ### Список параметрів
 
 `name`
+
 Ім'я мьютексу, якщо це названий об'єкт мьютексу.
 
-> **Примітка**:
->
-> Якщо ім'я вже існує, воно має бути доступним для відкриття поточним
-> користувачем, від імені якого запущено процес, інакше буде
-> викинуто виняток із безглуздим повідомленням про помилку.
+> **Зауваження**
+> 
+> Якщо ім'я вже існує, воно має бути доступним для відкриття поточним користувачем, від імені якого запущено процес, інакше буде викинуто виняток із безглуздим повідомленням про помилку.
 
 ### Значення, що повертаються
 
-Новий об'єкт [SyncMutex](class.syncmutex.md).
+Новий об'єкт [SyncMutex](class.syncmutex.html)
 
 ### Помилки
 
@@ -38,18 +45,40 @@ public **SyncMutex::\_\_construct**(string `$name` = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncMutex::\_\_construct()** для
-створення іменованого м'ютексу з часом очікування**
+**Приклад #1 Приклад використання **SyncMutex::construct()** для створення іменованого м'ютексу з часом очікування**
 
-` <?php$mutex = new SyncMutex("UniqueName");if (!$mutex->lock(3000)){    echo "Неможливо створити м'ютеккс."; exit();}/* ... */$mutex->unlock();?> `
+```php
+<?php
+$mutex = new SyncMutex("UniqueName");
 
-**Приклад #2 Приклад використання **SyncMutex::\_\_construct()** для
-створення безіменного м'ютексу**
+if (!$mutex->lock(3000))
+{
+    echo "Невозможно создать мьютеккс.";
 
-` <?php$mutex = new SyncMutex();$mutex->lock();/* ... */$mutex->unlock();?> `
+    exit();
+}
+
+/* ... */
+
+$mutex->unlock();
+?>
+```
+
+**Приклад #2 Приклад використання **SyncMutex::construct()** для створення безіменного м'ютексу**
+
+```php
+<?php
+$mutex = new SyncMutex();
+
+$mutex->lock();
+
+/* ... */
+
+$mutex->unlock();
+?>
+```
 
 ### Дивіться також
 
-- [SyncMutex::lock()](syncmutex.lock.md) - Чекає ексклюзивної
-блокування
-- [SyncMutex::unlock()](syncmutex.unlock.md) - Розблокує м'ютекс
+-   [SyncMutex::lock()](syncmutex.lock.html) - Чекає на ексклюзивне блокування
+-   [SyncMutex::unlock()](syncmutex.unlock.html) - Розблокує м'ютекс

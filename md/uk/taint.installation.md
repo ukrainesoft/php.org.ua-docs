@@ -1,20 +1,20 @@
-- [« Вимоги](taint.requirements.md)
-- [Налаштування під час виконання »](taint.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](taint.setup.md)
-- Встановлення
+-   [« Требования](taint.requirements.html)
+    
+-   [Настройка во время выполнения »](taint.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](taint.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/taint](https://pecl.php.net/package/taint).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/taint](https://pecl.php.net/package/taint)
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md).
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)

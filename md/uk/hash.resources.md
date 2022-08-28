@@ -1,11 +1,16 @@
-- [« Налаштування під час виконання](hash.configuration.md)
-- [Предвизначені константи »](hash.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](hash.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](hash.configuration.html)
+    
+-   [Предопределённые константы »](hash.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](hash.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-Цей модуль визначає ресурс контексту хешування, що повертається
-[hash_init()](function.hash-init.md).
+Цей модуль визначає ресурс контексту хешування, що повертається [hash\_init()](function.hash-init.html)

@@ -1,15 +1,21 @@
-- [«Вступ](intro.readline.md)
-- [Вимоги »](readline.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Readline](book.readline.md)
+-   [« Введение](intro.readline.html)
+    
+-   [Требования »](readline.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Readline](book.readline.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](readline.requirements.md)
-- [Установка](readline.installation.md)
-- [Налаштування під час виконання](readline.configuration.md)
-- [Типи ресурсів](readline.resources.md)
+-   [Требования](readline.requirements.html)
+-   [Установка](readline.installation.html)
+-   [Настройка во время выполнения](readline.configuration.html)
+-   [Типы ресурсов](readline.resources.html)

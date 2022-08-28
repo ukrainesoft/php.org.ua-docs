@@ -1,22 +1,26 @@
-- [« imap_getsubscribed](function.imap-getsubscribed.md)
-- [imap_headerinfo »](function.imap-headerinfo.md)
+Псевдонім imapheaderinfo
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Псевдонім imap_headerinfo
+-   [« imap\_getsubscribed](function.imap-getsubscribed.html)
+    
+-   [imap\_headerinfo »](function.imap-headerinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Псевдонім imapheaderinfo
+    
 
-#imap_header
+# imapheader
 
 (PHP 4, PHP 5, PHP 7)
 
-imap_header - Псевдонім
-[imap_headerinfo()](function.imap-headerinfo.md)
+imapheader - Псевдонім [imap\_headerinfo()](function.imap-headerinfo.html)
 
 **Увага**
 
-Псевдонім *Видалений* в PHP 8.0.0.
+Псевдонім *ВИДАЛЕНО* у PHP 8.0.0.
 
 ### Опис
 
-Ця функція є псевдонімом:
-[imap_headerinfo()](function.imap-headerinfo.md).
+Ця функція є псевдонімом: [imap\_headerinfo()](function.imap-headerinfo.html)

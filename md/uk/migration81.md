@@ -1,26 +1,28 @@
-- [« Публікації, присвячені PHP](history.php.publications.md)
-- [Нова функціональність »](migration81.new-features.md)
+Міграція з PHP 8.0.x на PHP 8.1.x
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Міграція з PHP 8.0.x на PHP 8.1.x
+-   [« Публикации, посвящённые PHP](history.php.publications.html)
+    
+-   [Новая функциональность »](migration81.new-features.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Міграція з PHP 8.0.x на PHP 8.1.x
+    
 
 # Міграція з PHP 8.0.x на PHP 8.1.x
 
 ## Зміст
 
-- [Нова функціональність](migration81.new-features.md)
-- [Нові класи та інтерфейси](migration81.new-classes.md)
-- [Нові функції](migration81.new-functions.md)
-- [Нові глобальні константи](migration81.constants.md)
-- [Зміни, що ламають зворотну сумісність](migration81.incompatible.md)
-- [Застаріла функціональність](migration81.deprecated.md)
-- [Інші зміни](migration81.other-changes.md)
+-   [Новая функциональность](migration81.new-features.html)
+-   [Новые классы и интерфейсы](migration81.new-classes.html)
+-   [Новые функции](migration81.new-functions.html)
+-   [Новые глобальные константы](migration81.constants.html)
+-   [Изменения, ломающие обратную совместимость](migration81.incompatible.html)
+-   [Устаревшая функциональность](migration81.deprecated.html)
+-   [Другие изменения](migration81.other-changes.html)
 
-Ця оновлена версія приносить із собою ряд [нових можливостей](migration81.new-features.md) та [кілька несумісностей](migration81.incompatible.md), які мають бути
-перевірені перед зміною версії у виробничому середовищі.
+Ця оновлена ​​версія приносить із собою ряд [новых возможностей](migration81.new-features.html) і [несколько несовместимостей](migration81.incompatible.html), які мають бути перевірені перед зміною версії у виробничому середовищі.
 
-Дивіться також посібник з міграції для версій PHP
-[7.1.x](migration71.md), [7.2.x](migration72.md),
-[7.3.x](migration73.md), [7.4.x](migration74.md),
-[8.0.x](migration80.md).
+Дивіться також посібник з міграції для версій PHP [7.1.x](migration71.html) [7.2.x](migration72.html) [7.3.x](migration73.html) [7.4.x](migration74.html) [8.0.x](migration80.html)

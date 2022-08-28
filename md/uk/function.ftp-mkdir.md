@@ -1,55 +1,81 @@
-- [«ftp_mdtm](function.ftp-mdtm.md)
-- [ftp_mlsd »](function.ftp-mlsd.md)
+Створює директорію
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- створює директорію
+-   [« ftp\_mdtm](function.ftp-mdtm.html)
+    
+-   [ftp\_mlsd »](function.ftp-mlsd.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Створює директорію
+    
 
-#ftp_mkdir
+# ftpmkdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_mkdir — Створює директорію
+ftpmkdir - Створює директорію
 
 ### Опис
 
-**ftp_mkdir**([FTP\Connection](class.ftp-connection.md) `$ftp`, string
-`$directory`): string\|false
+```methodsynopsis
+ftp_mkdir(FTP\Connection $ftp, string $directory): string|false
+```
 
 Створює директорію `directory` на FTP-сервері.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `directory`
+
 Ім'я директорії, що створюється.
 
 ### Значення, що повертаються
 
-Повертає ім'я щойно створеної директорії у разі успішного
-виконання або **`false`** в іншому випадку.
+Повертає ім'я щойно створеної директорії у разі успішного виконання або **`false`** в іншому випадку.
 
 ### Помилки
 
-Видає помилку рівня **`E_WARNING`**, якщо каталог вже існує або
-відповідні права доступу перешкоджають створенню каталогу.
+Видає помилку рівня **`E_WARNING`**, якщо каталог вже існує або відповідні права доступу перешкоджають створенню каталогу.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_mkdir()****
+**Приклад #1 Приклад використання **ftpmkdir()****
 
-` <?php$dir = 'www';// установка з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і паролем$login_result = ftp_login($ftp, створення директорії $dirif (ftp_mkdir($ftp, $dir)) { echo "Створена директорія $dir
-";} else { echo "Не удалося створити директорію $dir
-";}// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+
+$dir = 'www';
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// попытка создания директории $dir
+if (ftp_mkdir($ftp, $dir)) {
+ echo "Создана директория $dir\n";
+} else {
+ echo "Не удалось создать директорию $dir\n";
+}
+
+// закрытие соединения
+ftp_close($ftp);
+?>
+```
 
 ### Дивіться також
 
-- [ftp_rmdir()](function.ftp-rmdir.md) - Видаляє директорію
+-   [ftp\_rmdir()](function.ftp-rmdir.html) - видаляє директорію

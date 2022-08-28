@@ -1,25 +1,31 @@
-- [« streamWrapper::\_\_destruct](streamwrapper.destruct.md)
-- [streamWrapper::dir_opendir »](streamwrapper.dir-opendir.md)
+Закрити дескриптор директорії
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Закрити дескриптор директорії
+-   [« streamWrapper::\_\_destruct](streamwrapper.destruct.html)
+    
+-   [streamWrapper::dir\_opendir »](streamwrapper.dir-opendir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Закрити дескриптор директорії
+    
 
-# streamWrapper::dir_closedir
+# streamWrapper::dirclosedir
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::dir_closedir — Закрити дескриптор директорії
+streamWrapper::dirclosedir — Закрити дескриптор директорії
 
 ### Опис
 
-public **streamWrapper::dir_closedir**(): bool
+```methodsynopsis
+public streamWrapper::dir_closedir(): bool
+```
 
-Цей метод викликається у процесі виконання
-[closedir()](function.closedir.md).
+Цей метод викликається у процесі виконання [closedir()](function.closedir.html)
 
-Усі ресурси, заблоковані або виділені під час відкриття та
-використання потоку директорії необхідно звільнити.
+Усі ресурси, заблоковані або виділені під час відкриття та використання потоку директорії, необхідно звільнити.
 
 ### Список параметрів
 
@@ -27,11 +33,9 @@ public **streamWrapper::dir_closedir**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [closedir()](function.closedir.md) - Закриває дескриптор каталогу
-- [streamWrapper::dir_opendir()](streamwrapper.dir-opendir.md) -
-Відкрити дескриптор директорії
+-   [closedir()](function.closedir.html) - Закриває дескриптор каталогу
+-   [streamWrapper::dir\_opendir()](streamwrapper.dir-opendir.html) - відкрити дескриптор директорії

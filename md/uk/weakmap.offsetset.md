@@ -1,9 +1,15 @@
-- [« WeakMap::offsetGet](weakmap.offsetget.md)
-- [WeakMap::offsetUnset »](weakmap.offsetunset.md)
+Оновлює колекцію (map) новою парою ключ-значення
 
-- [PHP Manual](index.md)
-- [WeakMap](class.weakmap.md)
-- Оновлює колекцію (map) новою парою ключ-значення
+-   [« WeakMap::offsetGet](weakmap.offsetget.html)
+    
+-   [WeakMap::offsetUnset »](weakmap.offsetunset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WeakMap](class.weakmap.html)
+    
+-   Оновлює колекцію (map) новою парою ключ-значення
+    
 
 # WeakMap::offsetSet
 
@@ -13,19 +19,20 @@ WeakMap::offsetSet — Оновлює колекцію (map) новою паро
 
 ### Опис
 
-public **WeakMap::offsetSet**(object `$object`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public WeakMap::offsetSet(object $object, mixed $value): void
+```
 
-Оновлює колекцію (map) новою парою ключ-значення. Якщо ключ уже
-існує у колекції, старе значення замінюється новим.
+Оновлює колекцію (map) новою парою ключ-значення. Якщо ключ уже існує в колекції, старе значення замінюється на новий.
 
 ### Список параметрів
 
 `object`
+
 Об'єкт, що є ключем пари ключ-значення.
 
 `value`
+
 Довільні дані, що служать значенням пари ключ-значення.
 
 ### Значення, що повертаються

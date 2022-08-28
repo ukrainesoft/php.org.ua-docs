@@ -1,100 +1,104 @@
-- [« SQLite3Stmt::bindParam](sqlite3stmt.bindparam.md)
-- [SQLite3Stmt::clear »](sqlite3stmt.clear.md)
+Зв'язує значення параметра зі змінною підготовленого запиту
 
-- [PHP Manual](index.md)
-- [SQLite3Stmt](class.sqlite3stmt.md)
-- Зв'язує значення параметра зі змінною підготовленого запиту
+-   [« SQLite3Stmt::bindParam](sqlite3stmt.bindparam.html)
+    
+-   [SQLite3Stmt::clear »](sqlite3stmt.clear.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SQLite3Stmt](class.sqlite3stmt.html)
+    
+-   Зв'язує значення параметра зі змінною підготовленого запиту
+    
 
 # SQLite3Stmt::bindValue
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SQLite3Stmt::bindValue — Зв'язує значення параметра зі змінною
-підготовленого запиту
+SQLite3Stmt::bindValue — Зв'язує значення параметра зі змінною підготовленого запиту
 
 ### Опис
 
-public **SQLite3Stmt::bindValue**(string\|int `$param`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$type` = **`SQLITE3_TEXT`**): bool
+```methodsynopsis
+public SQLite3Stmt::bindValue(string|int $param, mixed $value, int $type = SQLITE3_TEXT): bool
+```
 
 Зв'язує значення параметра зі змінною підготовленого запиту.
 
 **Застереження**
 
-До PHP 7.2.14 та 7.3.0, якщо виконаний запит, необхідно викликати метод
-[SQLite3Stmt::reset()](sqlite3stmt.reset.md) для того, щоб можна
-було змінити значення пов'язаних властивостей.
+До PHP 7.2.14 та 7.3.0, якщо виконано запит, необхідно викликати метод [SQLite3Stmt::reset()](sqlite3stmt.reset.html) щоб можна було змінити значення пов'язаних параметрів.
 
 ### Список параметрів
 
 `param`
-Або рядок (string) (для іменованих параметрів), або ціле число
-(int) (для позитивних параметрів), що ідентифікує змінну
-підготовленого запиту, якого має бути прив'язане значення. Якщо
-іменований параметр не починається з двокрапки ((`:`)) або знака `@`,
-автоматично додається двокрапка (`:`). Позитивні параметри
-починаються з першого.
+
+Або рядок (string) (для іменованих параметрів), або ціле число (int) (для позитивних параметрів), що ідентифікує змінну підготовленого запиту, якого має бути прив'язане значення. Якщо іменований параметр не починається з двокрапки ((`:`)) або знаку `@`, автоматично додається двокрапка (`:`). Позитивні параметри починаються з першого.
 
 `value`
-Значення для прив'язки змінної підготовленого запиту.
+
+Значення прив'язки до змінної підготовленого запиту.
 
 `type`
+
 Тип даних для прив'язки.
 
-- **`SQLITE3_INTEGER`**: Значення є цілим числом зі знаком,
-яке зберігається в 1, 2, 3, 4, 6 або 8 байт залежно від
-величини значення.
+-   **`SQLITE3_INTEGER`**: Значення є цілим числом зі знаком, яке зберігається в 1, 2, 3, 4, 6 або 8 байт, залежно від величини значення.
+    
+-   **`SQLITE3_FLOAT`**: Значення є числом з плаваючою точкою, яке зберігається у вигляді 8-байтного числа IEEE з плаваючою точкою.
+    
+-   **`SQLITE3_TEXT`**: Значення є текстовим рядком, який зберігається в кодуванні бази даних (UTF-8, UTF-16BE або UTF-16-LE).
+    
+-   **`SQLITE3_BLOB`**: Значення є великим двійковим об'єктом (blob) даних, який зберігається так само, як і вхідні дані.
+    
+-   **`SQLITE3_NULL`**: Значення є значенням NULL.
+    
 
-- **`SQLITE3_FLOAT`**: Значення є числом з плаваючою точкою,
-яке зберігається у вигляді 8-байтного числа IEEE з плаваючою точкою.
+У PHP 7.0.7, якщо `type` опущений, то він автоматично визначається з типу `param`: bool та int розглядаються як **`SQLITE3_INTEGER`**, float як **`SQLITE3_FLOAT`**, null як **`SQLITE3_NULL`** і всіх інших як **`SQLITE3_TEXT`**. Раніше, якщо тип опущений, він за умовчанням використовувався **`SQLITE3_TEXT`**
 
-- **`SQLITE3_TEXT`**: Значення є текстовим рядком, яке
-зберігається у кодуванні бази даних (UTF-8, UTF-16BE або UTF-16-LE).
-
-- **`SQLITE3_BLOB`**: Значення є великим двійковим об'єктом
-(blob) даних, який зберігається так само, як і вхідні дані.
-
-- **`SQLITE3_NULL`**: Значення є NULL-значенням.
-
-У PHP 7.0.7, якщо `type` опущений, він автоматично визначається з
-типу `param`: bool та int розглядаються як **`SQLITE3_INTEGER`**,
-float як **`SQLITE3_FLOAT`**, null як **`SQLITE3_NULL`** і всіх
-решти як **`SQLITE3_TEXT`**. Раніше, якщо тип опущений, він по
-замовчуванням використовувався **`SQLITE3_TEXT`**.
-
-> **Примітка**:
->
-> Якщо `param` дорівнює **`null`**, він завжди обробляється як
-> **`SQLITE3_NULL`**, незалежно від заданого `type`.
+> **Зауваження**
+> 
+> Якщо `param` дорівнює **`null`**, він завжди обробляється як **`SQLITE3_NULL`**незалежно від заданого `type`
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо параметр прив'язаний до змінної
-підготовленого запиту або **`false`** у разі виникнення помилки.
+Повертає **`true`**, якщо параметр прив'язаний до змінної підготовленого запиту або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                           |
-|--------|------------------------------------------------|
-| 7.4.0  | Параметр param тепер підтримує нотацію @param. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `param` тепер підтримує нотацію `@param` |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SQLite3Stmt::bindValue()****
 
-` <?php$db = new SQLite3(':memory:');$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'This is a test')");$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');$stmt->bindValue(':id', , SQLITE3_INTEGER);$result = $stmt->execute();var_dump($result->fetchArray(SQLITE3_ASSOC));?> `
+```php
+<?php
+$db = new SQLite3(':memory:');
+
+$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');
+$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'This is a test')");
+
+$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');
+$stmt->bindValue(':id', 1, SQLITE3_INTEGER);
+
+$result = $stmt->execute();
+var_dump($result->fetchArray(SQLITE3_ASSOC));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(1) {
-["bar"]=>
-string(14) "This is a test"
+  ["bar"]=>
+  string(14) "This is a test"
 }
+```
 
 ### Дивіться також
 
-- [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md) - Зв'язує
-параметр зі змінною підготовленого запиту
-- [SQLite3::prepare()](sqlite3.prepare.md) - Підготовка
-SQL-запит для виконання
+-   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.html) - Зв'язує параметр із змінною підготовленого запиту
+-   [SQLite3::prepare()](sqlite3.prepare.html) - готує SQL-запит для виконання

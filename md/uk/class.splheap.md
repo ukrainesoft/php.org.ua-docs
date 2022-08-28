@@ -1,13 +1,19 @@
-- [« SplQueue::setIteratorMode](splqueue.setiteratormode.md)
-- [SplHeap::compare »](splheap.compare.md)
+Клас SplHeap
 
-- [PHP Manual](index.md)
-- [Структури даних](spl.datastructures.md)
-- Клас SplHeap
+-   [« SplQueue::setIteratorMode](splqueue.setiteratormode.html)
+    
+-   [SplHeap::compare »](splheap.compare.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](spl.datastructures.html)
+    
+-   Клас SplHeap
+    
 
 # Клас SplHeap
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -15,70 +21,51 @@
 
 ## Огляд класів
 
-abstract class **SplHeap** implements [Iterator](class.iterator.md),
-[Countable](class.countable.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-protected
-[compare](splheap.compare.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value1`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value2`): int
+    
+     
+      abstract
+      class SplHeap
+     
 
-public [count](splheap.count.md)(): int
+     implements 
+       Iterator,  Countable {
 
-public [current](splheap.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+     
+   protected compare(mixed $value1, mixed $value2): int
+public count(): int
+public current(): mixed
+public extract(): mixed
+public insert(mixed $value): bool
+public isCorrupted(): bool
+public isEmpty(): bool
+public key(): int
+public next(): void
+public recoverFromCorruption(): bool
+public rewind(): void
+public top(): mixed
+public valid(): bool
 
-public [extract](splheap.extract.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[insert](splheap.insert.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
-
-public [isCorrupted](splheap.iscorrupted.md)(): bool
-
-public [isEmpty](splheap.isempty.md)(): bool
-
-public [key](splheap.key.md)(): int
-
-public [next](splheap.next.md)(): void
-
-public [recoverFromCorruption](splheap.recoverfromcorruption.md)():
-bool
-
-public [rewind](splheap.rewind.md)(): void
-
-public [top](splheap.top.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [valid](splheap.valid.md)(): bool
-
-}
+    }
+```
 
 ## Зміст
 
-- [SplHeap::compare](splheap.compare.md) — Порівнює елементи,
-щоб під час сортування коректно розмістити їх у купі
-- [SplHeap::count](splheap.count.md) — Визначає кількість
-елементів у купі
-- [SplHeap::current](splheap.current.md) — Повертає поточний вузол,
-на який вказує ітератор
-- [SplHeap::extract](splheap.extract.md) - Витягує вузол з купи і
-пересортує її
-- [SplHeap::insert](splheap.insert.md) — Вставляє елемент у купу і
-пересортує її
-- [SplHeap::isCorrupted](splheap.iscorrupted.md) — Вказує,
-чи знаходиться купа в пошкодженому стані
-- [SplHeap::isEmpty](splheap.isempty.md) — Перевірка, чи порожня купа
-- [SplHeap::key](splheap.key.md) — Повертає індекс поточного сайту
-- [SplHeap::next](splheap.next.md) — Перехід до наступного сайту
-- [SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.md)
-- Відновлює коректний стан купи
-- [SplHeap::rewind](splheap.rewind.md) — Переведення ітератора на початок
-- [SplHeap::top](splheap.top.md) — Повертає вузол, що знаходиться на
-вершині купи
-- [SplHeap::valid](splheap.valid.md) — Перевіряє, чи містить купа
-ще елементи
+-   [SplHeap::compare](splheap.compare.html) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
+-   [SplHeap::count](splheap.count.html) — Визначає кількість елементів у купі
+-   [SplHeap::current](splheap.current.html) — Повертає вузол, на який вказує ітератор.
+-   [SplHeap::extract](splheap.extract.html) — Витягує вузол із купи і пересортує її.
+-   [SplHeap::insert](splheap.insert.html) — Вставляє елемент у купу та пересортує її
+-   [SplHeap::isCorrupted](splheap.iscorrupted.html) — Вказує, чи купа у пошкодженому стані
+-   [SplHeap::isEmpty](splheap.isempty.html) — Перевірка, чи пуста купа
+-   [SplHeap::key](splheap.key.html) — Повертає індекс поточного сайту
+-   [SplHeap::next](splheap.next.html) - Перехід до наступного вузла
+-   [SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.html) - Відновлює коректний стан купи
+-   [SplHeap::rewind](splheap.rewind.html) - Переклад ітератора на початок
+-   [SplHeap::top](splheap.top.html) - Повертає вузол, що знаходиться на вершині купи
+-   [SplHeap::valid](splheap.valid.html) - Перевіряє, чи містить купа ще елементи

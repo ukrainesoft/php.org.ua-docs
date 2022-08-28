@@ -1,29 +1,35 @@
-- [« CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md)
-- [CommonMark\Parser »](class.commonmark-parser.md)
+Visitation
 
-- [PHP Manual](index.md)
-- [CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md)
-- Visitation
+-   [« CommonMark\\Interfaces\\IVisitable](class.commonmark-interfaces-ivisitable.html)
+    
+-   [CommonMark\\Parser »](class.commonmark-parser.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Interfaces\\IVisitable](class.commonmark-interfaces-ivisitable.html)
+    
+-   Visitation
+    
 
-# CommonMark\Interfaces\IVisitable::accept
+# CommonMarkInterfacesIVisitable::accept
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Interfaces\IVisitable::accept — Visitation
+CommonMarkInterfacesIVisitable::accept — Visitation
 
 ### Опис
 
-abstract public
-**CommonMark\Interfaces\IVisitable::accept**([CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-`$visitor`): void
+```methodsynopsis
+abstract public CommonMark\Interfaces\IVisitable::accept(CommonMark\Interfaces\IVisitor $visitor): void
+```
 
 ### Список параметрів
 
 `visitor`
-Об'єкт, що реалізує
-[CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
+
+Об'єкт, що реалізує [CommonMark\\Interfaces\\IVisitor](class.commonmark-interfaces-ivisitor.html)
 
 ### Дивіться також
 
-- [CommonMark\Interfaces\IVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
-- [CommonMark\Interfaces\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md)
+-   [CommonMark\\Interfaces\\IVisitor::enter](commonmark-interfaces-ivisitor.enter.html)
+-   [CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.html)

@@ -1,15 +1,21 @@
-- [«Вступ](intro.varnish.md)
-- [Вимоги »](varnish.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Varnish](book.varnish.md)
+-   [« Введение](intro.varnish.html)
+    
+-   [Требования »](varnish.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Varnish](book.varnish.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](varnish.requirements.md)
-- [Встановлення](varnish.installation.md)
-- [Налаштування під час виконання](varnish.configuration.md)
-- [Типи ресурсів](varnish.resources.md)
+-   [Требования](varnish.requirements.html)
+-   [Установка](varnish.installation.html)
+-   [Настройка во время выполнения](varnish.configuration.html)
+-   [Типы ресурсов](varnish.resources.html)

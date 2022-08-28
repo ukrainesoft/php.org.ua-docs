@@ -1,88 +1,102 @@
-- [«RarEntry](class.rarentry.md)
-- [RarEntry::getAttr »](rarentry.getattr.md)
+Витягує елемент із архіву
 
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Витягує елемент із архіву
+-   [« RarEntry](class.rarentry.html)
+    
+-   [RarEntry::getAttr »](rarentry.getattr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RarEntry](class.rarentry.html)
+    
+-   Витягує елемент із архіву
+    
 
 # RarEntry::extract
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
-RarEntry::extract — Витягує елемент із архіву
+RarEntry::extract — Витягує елемент з архіву
 
 ### Опис
 
-public **RarEntry::extract**(
-string `$dir`,
-string `$filepath` = "",
-string `$password` = NULL,
-bool `$extended_data` = **`false`**
-): bool
+```methodsynopsis
+public RarEntry::extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
+```
 
-**RarEntry::extract()** витягує вміст елемента. При цьому
-створюється новий файл у зазначеній директорії `dir` з ім'ям, що збігається з
-іменем елемента, якщо не заданий другий аргумент. Дивіться
-докладніше нижче.
+**RarEntry::extract()** витягує вміст елемента. При цьому створюється новий файл у зазначеній директорії `dir` з ім'ям, що збігається з ім'ям елемента, якщо тільки не заданий другий аргумент. Дивіться нижче.
 
 ### Список параметрів
 
 `dir`
-Шлях до директорії, куди потрібно витягти файли. Цей параметр
-враховується лише якщо не вказано параметр `filepath`. Якщо обидва
-параметра не вказано, файли витягуються в поточну директорію.
+
+Шлях до директорії, куди потрібно витягти файли. Цей параметр враховується лише якщо не вказано `filepath`. Якщо обидва параметри не вказані, файли витягуються в поточну директорію.
 
 `filepath`
-Шлях (повний або відносний) містить директорію та ім'я видобутого
-файлу. Цей параметр перевизначає і параметр `dir` та оригінальне ім'я
-файлу.
+
+Шлях (повний або відносний) містить директорію та ім'я файлу, що видобувається. Цей параметр перевизначає параметр `dir` та оригінальне ім'я файлу.
 
 `password`
-Пароль використовується для розшифрування поточного елемента. Якщо елемент не
-зашифрований, цей параметр не буде використаний і його можна не
-вказувати. Якщо цей параметр не вказано, а елемент зашифрований, то
-буде використано пароль, переданий функції
-[rar_open()](rararchive.open.md), якщо її викликали. Якщо передано
-невірний пароль, явно чи неявно через
-[rar_open()](rararchive.open.md), то перевірка CRC буде невдалою і
-буде повернено **`false`**. Ви можете перевірити чи є елемент
-зашифрованим за допомогою
-[RarEntry::isEncrypted()](rarentry.isencrypted.md).
+
+Пароль використовується для шифрування поточного елемента. Якщо елемент не зашифрований, цей параметр не буде використаний і його можна не вказувати. Якщо цей параметр не вказано, а елемент зашифрований, то буде використаний пароль, переданий функції [rar\_open()](rararchive.open.html), Якщо її викликали. Якщо передано невірний пароль, явно чи неявно через [rar\_open()](rararchive.open.html), то перевірка CRC буде невдалою і буде повернуто **`false`**. Ви можете перевірити, чи є елемент зашифрованим за допомогою [RarEntry::isEncrypted()](rarentry.isencrypted.html)
 
 `extended_data`
-Якщо **`true`**, то до файлу, що видобувається, буде додана додаткова
-інформація, така як NTFS ACL і власник у системі Unix, якщо вони
-були присутні в архіві.
+
+Якщо **`true`**, то до файлу буде додано додаткову інформацію, таку як NTFS ACL і власник у системі Unix, якщо вони були присутні в архіві.
 
 **Увага**
 
-До версії 2.0.0 не обробляла відносні шляхи коректно.
-Використовуйте для цієї ситуації [realpath()](function.realpath.md).
+До версії 2.0.0 не обробляла відносні шляхи коректно. Використовуйте для цієї ситуації [realpath()](function.realpath.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія         | Опис                                                                   |
-| -------------- | ---------------------------------------------------------------------- |
-| PECL rar 3.0.0 | Було додано параметр extended_data.                                    |
-| PECL rar 3.0.0 | Виправлена підтримка RAR архівів з іменами елементів, що повторюються. |
+| Версия | Описание |
+| --- | --- |
+| PECL rar 3.0.0 | Було додано параметр `extended_data` |
+| PECL rar 3.0.0 | Виправлена ​​підтримка RAR архівів з іменами елементів, що повторюються. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **RarEntry::extract()****
 
-` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не таку запис");$entry->extract('/dir/to'); // створення /dir/to/Dir/file.txt$entry->extract(false, '/dir/to/new_name.txt'); // створення /dir/to/new_name.txt?> `
+```php
+<?php
 
-**Приклад #2 Як витягти всі файли з архіву:**
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-` <?php/* Приклад від Erik Jenssen aka erix */$filename = "foobar.rar";$filepath = "/home/foo/bar/";$rar_file = rar_open($filepath.$filename);$list = rar_list($rar_file);foreach($list as $file) {    $entry = rar_entry_get($rar_file, $file); $entry->extract("."); // витягти в поточний каталог}rar_close($rar_file);?> `
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+
+$entry->extract('/dir/to'); // создание /dir/to/Dir/file.txt
+$entry->extract(false, '/dir/to/new_name.txt'); // создание /dir/to/new_name.txt
+
+?>
+```
+
+**Приклад #2 Як отримати всі файли з архіву:**
+
+```php
+<?php
+
+/* Пример от Erik Jenssen aka erix */
+
+$filename = "foobar.rar";
+$filepath = "/home/foo/bar/";
+
+$rar_file = rar_open($filepath.$filename);
+$list = rar_list($rar_file);
+foreach($list as $file) {
+    $entry = rar_entry_get($rar_file, $file);
+    $entry->extract("."); // извлечь в текущий каталог
+}
+rar_close($rar_file);
+
+?>
+```
 
 ### Дивіться також
 
-- [RarEntry::getStream()](rarentry.getstream.md) - Отримати
-обробник для запису
-- [`rar://`wrapper](wrappers.rar.md)
+-   [RarEntry::getStream()](rarentry.getstream.html) - Отримати обробник для запису
+-   [`rar://` wrapper](wrappers.rar.html)

@@ -1,15 +1,21 @@
-- [«Вступ](intro.json.md)
-- [Вимоги »](json.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [JSON](book.json.md)
+-   [« Введение](intro.json.html)
+    
+-   [Требования »](json.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [JSON](book.json.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](json.requirements.md)
-- [Установка](json.installation.md)
-- [Налаштування під час виконання](json.configuration.md)
-- [Типи ресурсів](json.resources.md)
+-   [Требования](json.requirements.html)
+-   [Установка](json.installation.html)
+-   [Настройка во время выполнения](json.configuration.html)
+-   [Типы ресурсов](json.resources.html)

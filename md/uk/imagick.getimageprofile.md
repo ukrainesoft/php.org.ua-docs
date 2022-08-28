@@ -1,9 +1,15 @@
-- [« Imagick::getImagePixelColor](imagick.getimagepixelcolor.md)
-- [Imagick::getImageProfiles »](imagick.getimageprofiles.md)
+Повертає іменований профіль зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає іменований профіль зображення
+-   [« Imagick::getImagePixelColor](imagick.getimagepixelcolor.html)
+    
+-   [Imagick::getImageProfiles »](imagick.getimageprofiles.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає іменований профіль зображення
+    
 
 # Imagick::getImageProfile
 
@@ -13,13 +19,16 @@ Imagick::getImageProfile — Повертає іменований профіл�
 
 ### Опис
 
-public **Imagick::getImageProfile**(string `$name`): string
+```methodsynopsis
+public Imagick::getImageProfile(string $name): string
+```
 
-Повертає названий профіль зображення.
+Повертає іменований профіль зображення.
 
 ### Список параметрів
 
 `name`
+
 Ім'я профілю, що повертається.
 
 ### Значення, що повертаються

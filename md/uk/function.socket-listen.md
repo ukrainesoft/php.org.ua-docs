@@ -1,77 +1,61 @@
-- [«socket_last_error](function.socket-last-error.md)
-- [socket_read »](function.socket-read.md)
+Прослуховує вхідні з'єднання на сокеті
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- прослуховує вхідні з'єднання на сокеті
+-   [« socket\_last\_error](function.socket-last-error.html)
+    
+-   [socket\_read »](function.socket-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Прослуховує вхідні з'єднання на сокеті
+    
 
-# socket_listen
+# socketlisten
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socket_listen — Прослуховує вхідні з'єднання на сокеті
+socketlisten — Прослуховує вхідні з'єднання на сокеті
 
 ### Опис
 
-**socket_listen**([Socket](class.socket.md) `$socket`, int `$backlog`
-= 0): bool
+```methodsynopsis
+socket_listen(Socket $socket, int $backlog = 0): bool
+```
 
-Після того, як сокет `socket` був створений за допомогою функції
-[socket_create()](function.socket-create.md) і прив'язаний до імені при
-допомогою функції [socket_bind()](function.socket-bind.md), йому можна
-вказати слухати вхідні з'єднання на сокеті `socket`.
+Після того, як сокет `socket` був створений за допомогою функції [socket\_create()](function.socket-create.html) та прив'язаний до імені за допомогою функції [socket\_bind()](function.socket-bind.html), йому можна вказати слухати вхідні з'єднання на сокеті `socket`
 
-Функція **socket_listen()** застосовна лише до сокетів типу
-**`SOCK_STREAM`** або **`SOCK_SEQPACKET`**.
+Функція **socketlisten()** застосовна тільки до сокетів типу **`SOCK_STREAM`** або **`SOCK_SEQPACKET`**
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функцій
-[socket_create()](function.socket-create.md) або
-[socket_addrinfo_bind()](function.socket-addrinfo-bind.md).
+
+Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html)
 
 `backlog`
-Максимум backlog вхідних з'єднань буде поміщено в чергу на
-обробку. Якщо запит на підключення прийде, коли черга заповнена,
-клієнт може отримати помилку `ECONNREFUSED`, або якщо базовий протокол
-дозволяє повторну передачу, запит буде повторено.
 
-> **Примітка**:
->
-> Максимальне значення параметра `backlog` дуже залежить
-> використовуваної платформи. У Linux дуже велике значення буде мовчки
-> обрізано до **`SOMAXCONN`**. У win32, якщо передано **`SOMAXCONN`**,
-> базовий провайдер сервісу, відповідального за сокет, встановить цей
-> параметр максимальним *розумним* значенням. Ні стандартного способу
-> дізнатися про актуальне значення "backlog" для цієї платформи.
+Максимум `backlog` вхідних з'єднань буде поміщено у чергу на обробку. Якщо запит на з'єднання прийде, коли черга заповнена, клієнт може отримати помилку `ECONNREFUSED`, або, якщо базовий протокол дозволяє повторну передачу, запит буде повторено.
+
+> **Зауваження**
+> 
+> Максимальне значення параметра `backlog` дуже залежить використовується платформи. У Linux дуже велике значення буде мовчки обрізано до **`SOMAXCONN`**. У win32, якщо передано **`SOMAXCONN`**, базовий провайдер сервісу, відповідального за сокет, встановить цей параметр максимальним *розумним* значенням. Немає стандартного способу дізнатися про актуальне значення "backlog" для цієї платформи.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Код помилки може бути отриманий за допомогою
-функції [socket_last_error()](function.socket-last-error.md). Цей код
-може бути переданий функції
-[socket_strerror()](function.socket-strerror.md) для отримання
-текстового опису помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки може бути отриманий за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_accept()](function.socket-accept.md) - Приймає
-з'єднання на сокеті
-- [socket_bind()](function.socket-bind.md) - Прив'язує ім'я до
-сокету
-- [socket_connect()](function.socket-connect.md) - Починає
-з'єднання з сокетом
-- [socket_create()](function.socket-create.md) - Створює сокет
-(кінцеву точку для обміну інформацією)
-- [socket_strerror()](function.socket-strerror.md) - Повертає
-рядок, що описує помилку сокету
-- [socket_addrinfo_bind()](function.socket-addrinfo-bind.md) -
-Створити та прив'язати до сокету із зазначеного addrinfo
+-   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socket\_create()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із зазначеного addrinfo

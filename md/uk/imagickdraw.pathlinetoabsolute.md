@@ -1,9 +1,15 @@
-- [« ImagickDraw::pathFinish](imagickdraw.pathfinish.md)
-- [ImagickDraw::pathLineToHorizontalAbsolute »](imagickdraw.pathlinetohorizontalabsolute.md)
+Малює лінію
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Малює лінію
+-   [« ImagickDraw::pathFinish](imagickdraw.pathfinish.html)
+    
+-   [ImagickDraw::pathLineToHorizontalAbsolute »](imagickdraw.pathlinetohorizontalabsolute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Малює лінію
+    
 
 # ImagickDraw::pathLineToAbsolute
 
@@ -13,22 +19,24 @@ ImagickDraw::pathLineToAbsolute — Малює лінію
 
 ### Опис
 
-public **ImagickDraw::pathLineToAbsolute**(float `$x`, float `$y`): bool
+```methodsynopsis
+public ImagickDraw::pathLineToAbsolute(float $x, float $y): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Малює лінію від поточної точки до заданої координати з використанням
-абсолютних координат. Потім координата стає новою поточною точкою.
+Малює лінію від поточної точки до заданої координати з використанням абсолютних координат. Потім координата стає новою поточною точкою.
 
 ### Список параметрів
 
 `x`
+
 Початкова координата X
 
 `y`
+
 Кінцева координата X
 
 ### Значення, що повертаються

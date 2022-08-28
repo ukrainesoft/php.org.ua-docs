@@ -1,20 +1,27 @@
-- [« Gmagick::getimageextrema](gmagick.getimageextrema.md)
-- [Gmagick::getimageformat »](gmagick.getimageformat.md)
+Повертає ім'я файлу конкретного зображення у послідовності
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає ім'я файлу конкретного зображення у послідовності
+-   [« Gmagick::getimageextrema](gmagick.getimageextrema.html)
+    
+-   [Gmagick::getimageformat »](gmagick.getimageformat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає ім'я файлу конкретного зображення у послідовності
+    
 
 # Gmagick::getimagefilename
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagefilename — Повертає ім'я певного файлу.
-у послідовності
+Gmagick::getimagefilename — Повертає ім'я файлу конкретного зображення у послідовності
 
 ### Опис
 
-public **Gmagick::getimagefilename**(): string
+```methodsynopsis
+public Gmagick::getimagefilename(): string
+```
 
 Повертає ім'я файлу конкретного зображення у послідовності
 
@@ -24,7 +31,7 @@ public **Gmagick::getimagefilename**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я конкретного файлу.
+Повертає ім'я файлу зображення
 
 ### Помилки
 

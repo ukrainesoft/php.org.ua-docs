@@ -1,63 +1,57 @@
-- [«fdf_set_target_frame](function.fdf-set-target-frame.md)
-- [fdf_set_version »](function.fdf-set-version.md)
+Встановлює значення поля
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Встановлює значення поля
+-   [« fdf\_set\_target\_frame](function.fdf-set-target-frame.html)
+    
+-   [fdf\_set\_version »](function.fdf-set-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Встановлює значення поля
+    
 
-#fdf_set_value
+# fdfsetvalue
 
-(PHP 4, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdf_set_value — Встановлює значення поля
+fdfsetvalue — Встановлює значення поля
 
 ### Опис
 
-**fdf_set_value**(
-resource `$fdf_document`,
-string `$fieldname`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value,
-int `$isName` = ?
-): bool
+```methodsynopsis
+fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,    int $isName = ?): bool
+```
 
 Встановлює `value` для заданого поля.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) or
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
 
 `fieldname`
+
 Ім'я поля FDF у вигляді рядка.
 
 `value`
-Цей параметр буде зберігатися у вигляді рядка, якщо він не є
-масивом. У цьому випадку всі елементи масиву будуть збережені як масив
-значень.
+
+Цей параметр зберігатиметься у вигляді рядка, якщо він не є масивом. І тут всі елементи масиву будуть збережені як масив значень.
 
 `isName`
-> **Примітка**:
->
-> У старіших версіях набору інструментів FDF останній параметр
-> визначав, чи має значення поля бути перетворено на PDF Name (= 1)
-> або встановлено PDF String (= 0).
->
-> Це значення не використовується у поточній версії 5.0. Для
-> сумісності воно, як і раніше, підтримується як необов'язковий
-> параметр, але внутрішньо ігнорується.
+
+> **Зауваження**
+> 
+> У старіших версіях набору інструментів FDF останній параметр визначав, чи має значення поля бути перетворено на PDF Name (= 1) чи встановлено PDF String (= 0).
+> 
+> Це значення більше не використовується у поточній версії 5.0. Для сумісності воно, як і раніше, підтримується як необов'язковий параметр, але внутрішньо ігнорується.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fdf_get_value()](function.fdf-get-value.md) - Отримує значення
-поля
-- [fdf_remove_item()](function.fdf-remove-item.md) - Встановлює
-цільовий кадр для форми
+-   [fdf\_get\_value()](function.fdf-get-value.html) - Отримує значення поля
+-   [fdf\_remove\_item()](function.fdf-remove-item.html) - Встановлює цільовий кадр для форми

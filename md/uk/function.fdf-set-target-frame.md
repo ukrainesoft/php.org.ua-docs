@@ -1,40 +1,44 @@
-- [« fdf_set_submit_form_action](function.fdf-set-submit-form-action.md)
-- [fdf_set_value »](function.fdf-set-value.md)
+Встановлює цільовий кадр для відображення форми
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Встановлює цільовий кадр для відображення форми
+-   [« fdf\_set\_submit\_form\_action](function.fdf-set-submit-form-action.html)
+    
+-   [fdf\_set\_value »](function.fdf-set-value.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Встановлює цільовий кадр для відображення форми
+    
 
-#fdf_set_target_frame
+# fdfsettargetframe
 
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_set_target_frame — Встановлює цільовий кадр для відображення форми
+fdfsettargetframe — Встановлює цільовий кадр для відображення форми.
 
 ### Опис
 
-**fdf_set_target_frame**(resource `$fdf_document`, string
-`$frame_name`): bool
+```methodsynopsis
+fdf_set_target_frame(resource $fdf_document, string $frame_name): bool
+```
 
-Встановлює цільовий кадр для відображення PDF-файлу, визначеного з
-за допомогою **fdf_save_file()**.
+Встановлює цільовий кадр для відображення PDF-файлу, визначеного за допомогою **fdfsavefile()**
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
 
 `frame_name`
-Ім'я кадру у вигляді рядка.
+
+Фрейм у вигляді рядка.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- **fdf_save_file()**
+-   **fdfsavefile()**

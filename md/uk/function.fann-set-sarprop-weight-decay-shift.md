@@ -1,45 +1,50 @@
-- [« fann_set_sarprop_temperature](function.fann-set-sarprop-temperature.md)
-- [fann_set_scaling_params »](function.fann-set-scaling-params.md)
+Встановлює зсув згасання sarprop
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює зміщення загасання sarprop
+-   [« fann\_set\_sarprop\_temperature](function.fann-set-sarprop-temperature.html)
+    
+-   [fann\_set\_scaling\_params »](function.fann-set-scaling-params.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює зсув згасання sarprop
+    
 
-# fann_set_sarprop_weight_decay_shift
+# fannsetsarpropweightdecayshift
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_sarprop_weight_decay_shift — Встановлює зсув загасання
-sarprop
+fannsetsarpropweightdecayshift - Встановлює зміщення згасання sarprop
 
 ### Опис
 
-**fann_set_sarprop_weight_decay_shift**(resource `$ann`, float
-`$sarprop_weight_decay_shift`): bool
+```methodsynopsis
+fann_set_sarprop_weight_decay_shift(resource $ann, float $sarprop_weight_decay_shift): bool
+```
 
-Встановлює усунення загасання sarprop.
+Встановлює зміщення загасання sarprop.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `sarprop_weight_decay_shift`
+
 Зміщення загасання sarprop.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_get_sarprop_weight_decay_shift()](function.fann-get-sarprop-weight-decay-shift.md) -
-Повертає зсув зменшення ваги sarprop
+-   [fann\_get\_sarprop\_weight\_decay\_shift()](function.fann-get-sarprop-weight-decay-shift.html) - Повертає зсув зменшення ваги sarprop

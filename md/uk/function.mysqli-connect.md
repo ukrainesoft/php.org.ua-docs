@@ -1,25 +1,26 @@
-- [« Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-- [mysqli::escape_string »](function.mysqli-escape-string.md)
+Псевдонім mysqli::construct
 
-- [PHP Manual](index.md)
-- [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-- Псевдонім mysqli::\_\_construct
+-   [« Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+    
+-   [mysqli::escape\_string »](function.mysqli-escape-string.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+    
+-   Псевдонім mysqli::construct
+    
 
-# mysqli_connect
+# mysqliconnect
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_connect - Псевдонім
-[mysqli::\_\_construct()](mysqli.construct.md)
+mysqliconnect — Псевдонім [mysqli::\_\_construct()](mysqli.construct.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[mysqli::\_\_construct()](mysqli.construct.md)
+Ця функція є псевдонімом: [mysqli::\_\_construct()](mysqli.construct.html)
 
-> **Примітка**:
->
-> Якщо режим виключення mysqli вимкнено і помилка з'єднання,
-> тоді **mysqli_connect()** повертає **`false`** замість об'єкта. Для
-> отримання помилки з'єднання можна використовувати функцію
-> [mysqli_connect_error()](mysqli.connect-error.md).
+> **Зауваження**
+> 
+> Якщо режим виключення mysqli вимкнено і сталася помилка з'єднання, тоді **mysqliconnect()** повертає **`false`** замість об'єкта. Для отримання помилки з'єднання можна використовувати функцію [mysqli\_connect\_error()](mysqli.connect-error.html)

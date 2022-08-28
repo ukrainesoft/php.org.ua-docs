@@ -1,9 +1,15 @@
-- [« Imagick::getPage](imagick.getpage.md)
-- [Imagick::getPixelRegionIterator »](imagick.getpixelregioniterator.md)
+Повертає MagickPixelIterator
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає MagickPixelIterator
+-   [« Imagick::getPage](imagick.getpage.html)
+    
+-   [Imagick::getPixelRegionIterator »](imagick.getpixelregioniterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає MagickPixelIterator
+    
 
 # Imagick::getPixelIterator
 
@@ -13,8 +19,9 @@ Imagick::getPixelIterator — Повертає MagickPixelIterator
 
 ### Опис
 
-public **Imagick::getPixelIterator**():
-[ImagickPixelIterator](class.imagickpixeliterator.md)
+```methodsynopsis
+public Imagick::getPixelIterator(): ImagickPixelIterator
+```
 
 Повертає MagickPixelIterator.
 
@@ -34,4 +41,25 @@ public **Imagick::getPixelIterator**():
 
 **Приклад #1 Приклад використання **Imagick::getPixelIterator()****
 
-` <?phpfunction getPixelIterator($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imageIterator==$imagick->getPixelIterator(); foreach ($imageIterator as $row => $pixels) { /* Проход по строкам пикселей в цикле */        foreach ($pixels as $column => $pixel) { /* Проход по пикселям в строке (по столбцам) */            / ** @var $pixel \ImagickPixel */            if ($column % 2) {                   $pixel| /* Зафарбовування кожного другого пікселя в чорний колір */            }        } | /* Синхронізація ітератора, це важливо робити на кожній ітерації. */    }    header("Content-Type: image/jpg"); echo $imagick;}?> `
+```php
+<?php
+function getPixelIterator($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imageIterator = $imagick->getPixelIterator();
+
+    foreach ($imageIterator as $row => $pixels) { /* Проход по строкам пикселей в цикле */
+        foreach ($pixels as $column => $pixel) { /* Проход по пикселям в строке (по столбцам) */
+            /** @var $pixel \ImagickPixel */
+            if ($column % 2) {
+                $pixel->setColor("rgba(0, 0, 0, 0)"); /* Закрашивание каждого второго пикселя в черный цвет */
+            }
+        }
+        $imageIterator->syncIterator(); /* Синхронизация итератора, это важно делать на каждой итерации. */
+    }
+
+    header("Content-Type: image/jpg");
+    echo $imagick;
+}
+
+?>
+```

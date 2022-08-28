@@ -1,15 +1,21 @@
-- [«Вступ](intro.enchant.md)
-- [Вимоги »](enchant.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Enchant](book.enchant.md)
+-   [« Введение](intro.enchant.html)
+    
+-   [Требования »](enchant.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Enchant](book.enchant.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](enchant.requirements.md)
-- [Установка](enchant.installation.md)
-- [Налаштування під час виконання](enchant.configuration.md)
-- [Типи ресурсів](enchant.resources.md)
+-   [Требования](enchant.requirements.html)
+-   [Установка](enchant.installation.html)
+-   [Настройка во время выполнения](enchant.configuration.html)
+-   [Типы ресурсов](enchant.resources.html)

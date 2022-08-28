@@ -1,15 +1,21 @@
-- [«Вступ](intro.svn.md)
-- [Вимоги »](svn.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [SVN](book.svn.md)
+-   [« Введение](intro.svn.html)
+    
+-   [Требования »](svn.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SVN](book.svn.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](svn.requirements.md)
-- [Установка](svn.installation.md)
-- [Налаштування під час виконання](svn.configuration.md)
-- [Типи ресурсів](svn.resources.md)
+-   [Требования](svn.requirements.html)
+-   [Установка](svn.installation.html)
+-   [Настройка во время выполнения](svn.configuration.html)
+-   [Типы ресурсов](svn.resources.html)

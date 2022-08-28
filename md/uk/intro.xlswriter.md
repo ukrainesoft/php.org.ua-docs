@@ -1,9 +1,15 @@
-- [«XLSriter](book.xlswriter.md)
-- [Встановлення та налаштування »](xlswriter.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [XLSWriter](book.xlswriter.md)
+-   [« XLSWriter](book.xlswriter.html)
+    
+-   [Установка и настройка »](xlswriter.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XLSWriter](book.xlswriter.html)
+    
 -   Вступ
+    
 
 # Вступ
 

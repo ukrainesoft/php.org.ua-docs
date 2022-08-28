@@ -1,44 +1,59 @@
-- [«gmp_export](function.gmp-export.md)
-- [gmp_gcd »](function.gmp-gcd.md)
+Факторіал
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Факторіал
+-   [« gmp\_export](function.gmp-export.html)
+    
+-   [gmp\_gcd »](function.gmp-gcd.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Факторіал
+    
 
-#gmp_fact
+# gmpfact
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmp_fact - Факторіал
+gmpfact - Факторіал
 
 ### Опис
 
-**gmp_fact**([GMP](class.gmp.md)\|int\|string `$num`):
-[GMP](class.gmp.md)
+```methodsynopsis
+gmp_fact(GMP|int|string $num): GMP
+```
 
-Обчислює факторіал (`num!`) числа `num`.
+Обчислює факторіал (`num!`) числа `num`
 
 ### Список параметрів
 
 `num`
+
 Число, факторіал якого обчислюється.
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.html)ю
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_fact()****
+**Приклад #1 Приклад використання **gmpfact()****
 
-`<?php$fact1 = gmp_fact(5); // 5 * 4 * 3 * 2 * 1echo gmp_strval($fact1) . "
-";$fact2 = gmp_fact(50); // 50 * 49 * 48, ... і т.д.echo gmp_strval($fact2) . "
-";?> `
+```php
+<?php
+$fact1 = gmp_fact(5); // 5 * 4 * 3 * 2 * 1
+echo gmp_strval($fact1) . "\n";
+
+$fact2 = gmp_fact(50); // 50 * 49 * 48, ... и т.д.
+echo gmp_strval($fact2) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 120
-3041409320171337804361260816606476884437764156896051200000000000
+30414093201713378043612608166064768844377641568960512000000000000
+```

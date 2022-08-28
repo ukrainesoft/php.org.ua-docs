@@ -1,9 +1,15 @@
-- [« Imagick::getImageIterations](imagick.getimageiterations.md)
-- [Imagick::getImageMatte »](imagick.getimagematte.md)
+Повертає довжину зображення у байтах
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає довжину зображення у байтах
+-   [« Imagick::getImageIterations](imagick.getimageiterations.html)
+    
+-   [Imagick::getImageMatte »](imagick.getimagematte.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає довжину зображення у байтах
+    
 
 # Imagick::getImageLength
 
@@ -13,7 +19,9 @@ Imagick::getImageLength — Повертає довжину зображення
 
 ### Опис
 
-public **Imagick::getImageLength**(): int
+```methodsynopsis
+public Imagick::getImageLength(): int
+```
 
 Повертає довжину зображення у байтах.
 
@@ -23,12 +31,17 @@ public **Imagick::getImageLength**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число, яке містить поточний розмір зображення.
+Повертає ціле число, що містить поточний розмір зображення.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getImageLength()**:**
+**Приклад #1 Приклад використання **Imagick::getImageLength()****
 
 Отримання довжини зображення в байтах
 
-` <?php$image = new Imagick('test.jpg');echo $image->getImageLength() . ' байт';?> `
+```php
+<?php
+$image = new Imagick('test.jpg');
+echo $image->getImageLength() . ' байт';
+?>
+```

@@ -1,31 +1,36 @@
-- [« fann_set_weight](function.fann-set-weight.md)
-- [fann_subset_train_data »](function.fann-subset-train-data.md)
+Перемішує навчальні дані у випадковому порядку
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Перемішує навчальні дані у випадковому порядку
+-   [« fann\_set\_weight](function.fann-set-weight.html)
+    
+-   [fann\_subset\_train\_data »](function.fann-subset-train-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Перемішує навчальні дані у випадковому порядку
+    
 
-# fann_shuffle_train_data
+# fannshuffletraindata
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_shuffle_train_data - Перемішує навчальні дані у випадковому
-порядку
+fannshuffletraindata — Перемішує навчальні дані у випадковому порядку
 
 ### Опис
 
-**fann_shuffle_train_data**(resource `$train_data`): bool
+```methodsynopsis
+fann_shuffle_train_data(resource $train_data): bool
+```
 
-Перемішує навчальні дані у випадковому порядку. Рекомендується
-використовувати при інкрементальному навчанні, але ніяк не впливає на
-пакетне навчання.
+Перемішує навчальні дані у випадковому порядку. Рекомендується використовувати при інкрементальному навчанні, але не впливає на пакетне навчання.
 
 ### Список параметрів
 
 `train_data`
+
 Ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.

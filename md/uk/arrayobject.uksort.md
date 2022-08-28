@@ -1,75 +1,84 @@
-- [« ArrayObject::uasort](arrayobject.uasort.md)
-- [ArrayObject::unserialize »](arrayobject.unserialize.md)
+Сортувати масив за ключами, використовуючи функцію користувача для порівняння
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Сортувати масив за ключами, використовуючи користувальницьку функцію для
-порівняння
+-   [« ArrayObject::uasort](arrayobject.uasort.html)
+    
+-   [ArrayObject::unserialize »](arrayobject.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+    
 
 # ArrayObject::uksort
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ArrayObject::uksort — Сортування масиву за ключами, використовуючи
-користувальницьку функцію для порівняння
+ArrayObject::uksort — Сортувати масив за ключами, використовуючи функцію користувача для порівняння
 
 ### Опис
 
-public **ArrayObject::uksort**([callable](language.types.callable.md)
-`$callback`): bool
+```methodsynopsis
+public ArrayObject::uksort(callable $callback): bool
+```
 
-Ця функція сортує ключі записів, використовуючи надану
-користувачем функцію. Відносини між ключами та елементами зберігаються.
+Ця функція сортує ключі записів за допомогою наданої користувачем функції. Відносини між ключами та елементами зберігаються.
 
-> **Примітка**:
->
-> Якщо обидва порівнювані значення еквівалентні, вони зберігають свій
-> Початковий порядок. До PHP 8.0.0 їх відносний порядок
-> відсортованому масиві був визначений.
+> **Зауваження**
+> 
+> Якщо обидва порівнювані значення еквівалентні, вони зберігають свій початковий порядок. До PHP 8.0.0 їх відносний порядок у відсортованому масиві не було визначено.
 
 ### Список параметрів
 
 `callback`
-Функція порівняння повинна повертати ціле, яке менше, або
-більше нуля, якщо перший аргумент є відповідно меншим,
-рівним чи більшим, ніж другий.
 
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$a`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$b`): int
+Функція порівняння повинна повертати ціле, яке менше, дорівнює чи більше нуля, якщо перший аргумент є відповідно меншим, рівним чи більшим, ніж другий.
+
+```methodsynopsis
+callback(mixed $a, mixed $b): int
+```
 
 ### Значення, що повертаються
 
-Функція завжди повертає **`true`**.
+Функція завжди повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayObject::uksort()****
 
-` <?phpfunction cmp($a, $b) {    $a = preg_replace('@^(a|an|the) @', '', $a); $b = preg_replace('@^(a|an|the) @', '', $b); return strcasecmp($a, $b);}$array = array("John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4); = new ArrayObject($array);$arrayObject->uksort('cmp');foreach ($arrayObject as $key => $value) {    echo "$key: $value
-";}?> `
+```php
+<?php
+function cmp($a, $b) {
+    $a = preg_replace('@^(a|an|the) @', '', $a);
+    $b = preg_replace('@^(a|an|the) @', '', $b);
+    return strcasecmp($a, $b);
+}
+
+$array = array("John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4);
+$arrayObject = new ArrayObject($array);
+$arrayObject->uksort('cmp');
+
+foreach ($arrayObject as $key => $value) {
+    echo "$key: $value\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 an apple: 3
 a banana: 4
 the Earth: 2
 John: 1
+```
 
 ### Дивіться також
 
-- [ArrayObject::asort()](arrayobject.asort.md) - Сортувати записи
-за значенням
-- [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи
-за ключами
-- [ArrayObject::natsort()](arrayobject.natsort.md) - Сортувати
-масив, використовуючи алгоритм "natural order"
-- [ArrayObject::natcasesort()](arrayobject.natcasesort.md) -
-Сортувати масив, використовуючи реєстронезалежний алгоритм "natural
-order"
-- [ArrayObject::uasort()](arrayobject.uasort.md) - Сортувати
-записи, використовуючи функцію користувача для порівняння елементів і
-зберігаючи при цьому зв'язок ключ/значення
-- [uksort()](function.uksort.md) - Сортує масив за ключами,
-використовуючи функцію користувача для порівняння ключів
+-   [ArrayObject::asort()](arrayobject.asort.html) - Сортувати записи за значенням
+-   [ArrayObject::ksort()](arrayobject.ksort.html) - Сортувати записи за ключами
+-   [ArrayObject::natsort()](arrayobject.natsort.html) - Сортувати масив, використовуючи алгоритм "natural order"
+-   [ArrayObject::natcasesort()](arrayobject.natcasesort.html) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
+-   [ArrayObject::uasort()](arrayobject.uasort.html) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
+-   [uksort()](function.uksort.html) - Сортує масив за ключами, використовуючи функцію користувача для порівняння ключів

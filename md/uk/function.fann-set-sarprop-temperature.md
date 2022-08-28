@@ -1,44 +1,50 @@
-- [« fann_set_sarprop_step_error_threshold_factor](function.fann-set-sarprop-step-error-threshold-factor.md)
-- [fann_set_sarprop_weight_decay_shift »](function.fann-set-sarprop-weight-decay-shift.md)
+Встановлює температуру sarprop
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює температуру sarprop
+-   [« fann\_set\_sarprop\_step\_error\_threshold\_factor](function.fann-set-sarprop-step-error-threshold-factor.html)
+    
+-   [fann\_set\_sarprop\_weight\_decay\_shift »](function.fann-set-sarprop-weight-decay-shift.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює температуру sarprop
+    
 
-# fann_set_sarprop_temperature
+# fannsetsarproptemperature
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_sarprop_temperature — Встановлює температуру sarprop
+fannsetsarproptemperature - Встановлює температуру sarprop
 
 ### Опис
 
-**fann_set_sarprop_temperature**(resource `$ann`, float
-`$sarprop_temperature`): bool
+```methodsynopsis
+fann_set_sarprop_temperature(resource $ann, float $sarprop_temperature): bool
+```
 
 Встановлює температуру sarprop.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `sarprop_temperature`
-Температура sarprop.
+
+Температура сарprop.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_get_sarprop_temperature()](function.fann-get-sarprop-temperature.md) -
-Повертає температуру sarprop
+-   [fann\_get\_sarprop\_temperature()](function.fann-get-sarprop-temperature.html) - Повертає температуру sarprop

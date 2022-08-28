@@ -1,63 +1,79 @@
-- [«imageistruecolor](function.imageistruecolor.md)
-- [imagelayereffect »](function.imagelayereffect.md)
+Виводить зображення у браузер або пише у файл
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Виводить зображення у браузер або пише у файл
+-   [« imageistruecolor](function.imageistruecolor.html)
+    
+-   [imagelayereffect »](function.imagelayereffect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Виводить зображення у браузер або пише у файл
+    
 
-#imagejpeg
+# imagejpeg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imagejpeg — Виводить зображення до браузера або пише файл
+imagejpeg — Виводить зображення до браузера або пише у файл
 
 ### Опис
 
-**imagejpeg**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` = **`null`**, int `$quality` = -1): bool
+```methodsynopsis
+imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1): bool
+```
 
-Функція **imagejpeg()** створює файл JPEG із зображення `image`.
+Функція **imagejpeg()** створює файл JPEG із зображення`image`
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `file`
-Шлях, або відкритий потоковий ресурс (який автоматично закривається
-після завершення функції), щоб зберегти файл. Якщо не встановлено або
-дорівнює **`null`**, зображення буде виведено в потік виведення у бінарному
-вигляді.
+
+Шлях, або відкритий потоковий ресурс (який автоматично закривається після завершення функції) для збереження файлу. Якщо не встановлено або дорівнює **`null`**, зображення буде виведено у потік виведення у бінарному вигляді.
 
 `quality`
-Необов'язковий параметр, і може набувати значення в діапазоні від 0
-(низька якість, маленький розмір файлу) до 100 (висока якість,
-великий розмір файлу). За замовчуванням (`-1`) використовується якість IJG
-(близько 75).
+
+Необов'язковий параметр, і може набувати значення в діапазоні від 0 (низька якість, маленький розмір файлу) до 100 (висока якість, великий розмір файлу). За замовчуванням (`-1`) використовується якість IJG (близько 75).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 **Застереження**
 
-Однак, якщо libgd не може вивести зображення, ця функція поверне
-**`true`**.
+Однак, якщо libgd не може вивести зображення, ця функція поверне **`true`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Виведення JPEG-зображень у браузер**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Встановлюємо тип вмісту в заголовок, в даному випадкуimage/jpegheader('Content-Type:image/jpeg'); im);?> `
+```php
+<?php
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
+
+// Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
+header('Content-Type: image/jpeg');
+
+// Выводим изображение
+imagejpeg($im);
+
+// Освобождаем память
+imagedestroy($im);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -65,30 +81,51 @@ resource\|string\|null `$file` = **`null`**, int `$quality` = -1): bool
 
 **Приклад #2 Збереження зображення JPEG у файл**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Зберігаємо зображення в 'simpletext.jpg'imagejpeg($im, 'simpletext.jpg');// Звільняємо пам'ятьimagedestroy($im);?> `
+```php
+<?php
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
 
-**Приклад #3 Висновок JPEG-зображення з 75% якістю в браузер**
+// Сохраняем изображение в 'simpletext.jpg'
+imagejpeg($im, 'simpletext.jpg');
 
-`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Встановлюємо тип вмісту в заголовок, в даному випадку image/jpegheader('Content-Type: image/jpeg'); %imagejpeg($im, NULL, 75);// Звільняємо пам'ятьimagedestroy($im);?> `
+// Освобождаем память
+imagedestroy($im);
+?>
+```
+
+**Приклад #3 Виведення JPEG-зображення з 75% якістю у браузер**
+
+```php
+<?php
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
+
+// Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
+header('Content-Type: image/jpeg');
+
+// Пропускаем параметр filename, используя NULL, а затем устанавливаем качество в 75%
+imagejpeg($im, NULL, 75);
+
+// Освобождаем память
+imagedestroy($im);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо потрібно вивести Progressive JPEG (прогресивне уявлення
-> даних), необхідно використовувати функцію
-> [imageinterlace()](function.imageinterlace.md) для активації
-> відповідного режиму.
+> **Зауваження**
+> 
+> Якщо потрібно вивести Progressive JPEG (прогресивне представлення даних), необхідно використовувати функцію [imageinterlace()](function.imageinterlace.html) для активації відповідного режиму.
 
 ### Дивіться також
 
-- [imagepng()](function.imagepng.md) - Виведення PNG зображення в
-браузер або файл
-- [imagegif()](function.imagegif.md) - Виводить зображення до браузера
-або пише у файл
-- [imagewbmp()](function.imagewbmp.md) - Виводить зображення на
-браузер або пише у файл
-- [imageinterlace()](function.imageinterlace.md) - Увімкнення або
-вимкнення інтерлейсингу
-- [imagetypes()](function.imagetypes.md) - Повертає список типів
-зображень, підтримуваних PHP збиранням
+-   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
+-   [imagegif()](function.imagegif.html) - Виводить зображення до браузера або пише у файл
+-   [imagewbmp()](function.imagewbmp.html) - Виводить зображення до браузера або пише у файл
+-   [imageinterlace()](function.imageinterlace.html) - Увімкнення або вимкнення інтерлейсингу
+-   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка

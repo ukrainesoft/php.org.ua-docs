@@ -1,35 +1,44 @@
-- [«EventBufferEvent::read](eventbufferevent.read.md)
-- [EventBufferEvent::setCallbacks »](eventbufferevent.setcallbacks.md)
+Зливає весь вміст буфера введення та поміщає його у буфер
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Зливає весь вміст буфера введення та поміщає його у буфер
+-   [« EventBufferEvent::read](eventbufferevent.read.html)
+    
+-   [EventBufferEvent::setCallbacks »](eventbufferevent.setcallbacks.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Зливає весь вміст буфера введення та поміщає його у буфер
+    
 
 # EventBufferEvent::readBuffer
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBufferEvent::readBuffer — Зливає весь вміст буфера введення та
-поміщає його у буфер
+EventBufferEvent::readBuffer — Зливає весь вміст буфера введення та поміщає його в буфер
 
 ### Опис
 
-public **EventBufferEvent::readBuffer**(
-[EventBuffer](class.eventbuffer.md) `$buf`): bool
+```methodsynopsis
+public
+   EventBufferEvent::readBuffer(
+    EventBuffer
+     $buf
+   ): bool
+```
 
-Зливає весь вміст буфера введення та поміщає його в `buf`.
+Зливає весь вміст буфера введення і поміщає його в `buf`
 
 ### Список параметрів
 
 `buf`
+
 Цільовий буфер
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBufferEvent::read()](eventbufferevent.read.md) - Читає
-дані буфера
+-   [EventBufferEvent::read()](eventbufferevent.read.html) - Читає дані буфера

@@ -1,9 +1,15 @@
-- [«Error::getLine](error.getline.md)
-- [Error::getTraceAsString »](error.gettraceasstring.md)
+Отримує трасування стека
 
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Отримує трасування стека
+-   [« Error::getLine](error.getline.html)
+    
+-   [Error::getTraceAsString »](error.gettraceasstring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Error](class.error.html)
+    
+-   Отримує трасування стека
+    
 
 # Error::getTrace
 
@@ -13,7 +19,9 @@ Error::getTrace — Отримує трасування стека
 
 ### Опис
 
-final public **Error::getTrace**(): array
+```methodsynopsis
+final public Error::getTrace(): array
+```
 
 Повертає трасування стека.
 
@@ -29,26 +37,39 @@ final public **Error::getTrace**(): array
 
 **Приклад #1 Приклад використання **Error::getTrace()****
 
-` <?phpfunction test() { throw new Error;}try { test();} catch(Error $e) { var_dump($e->getTrace());}?> `
+```php
+<?php
+function test() {
+ throw new Error;
+}
+
+try {
+ test();
+} catch(Error $e) {
+ var_dump($e->getTrace());
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-[0]=>
-array(4) {
-["file"]=>
-string(22) "/home/bjori/tmp/ex.php"
-["line"]=>
-int(7)
-["function"]=>
-string(4) "test"
-["args"]=>
-array(0) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(22) "/home/bjori/tmp/ex.php"
+    ["line"]=>
+    int(7)
+    ["function"]=>
+    string(4) "test"
+    ["args"]=>
+    array(0) {
+    }
+  }
 }
-}
-}
+```
 
 ### Дивіться також
 
-- [Throwable::getTrace()](throwable.gettrace.md) - Повертає
-трасування стеку
+-   [Throwable::getTrace()](throwable.gettrace.html) - Повертає трасування стека

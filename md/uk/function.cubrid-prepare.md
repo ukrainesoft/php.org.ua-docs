@@ -1,75 +1,98 @@
-- [«cubrid_pconnect](function.cubrid-pconnect.md)
-- [cubrid_put »](function.cubrid-put.md)
+Підготовляє SQL-вираз до виконання
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Підготовляє SQL-вираз до виконання
+-   [« cubrid\_pconnect](function.cubrid-pconnect.html)
+    
+-   [cubrid\_put »](function.cubrid-put.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Підготовляє SQL-вираз до виконання
+    
 
-#cubrid_prepare
+# cubridprepare
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_prepare — Підготовляє SQL-вираз до виконання
+cubridprepare — Підготовка SQL-виразу до виконання
 
 ### Опис
 
-**cubrid_prepare**(resource `$conn_identifier`, string `$prepare_stmt`,
-int `$option` = 0): resource
+```methodsynopsis
+cubrid_prepare(resource $conn_identifier, string $prepare_stmt, int $option = 0): resource
+```
 
-Функція **cubrid_prepare()** - це свого роду API, який представляє
-вирази SQL, скомпіловані раніше для цього дескриптора
-з'єднання. Цей попередньо скомпільований SQL-вираз буде
-включено до функції **cubrid_prepare()**.
+Функція **cubridprepare()** - це свого роду API, який представляє вирази SQL, раніше скомпільовані для даного дескриптора з'єднання. Цей попередньо скомпільований SQL-вираз буде включений у функцію **cubridprepare()**
 
-Відповідно, ви можете ефективно використовувати цей оператор для
-багаторазового виконання або обробки великих даних. Можна, можливо
-використовувати лише один оператор, а в параметрі можна вказати
-знак запитання (?) у відповідну область SQL-вираження.
-Додайте параметр при прив'язці значення в VALUES вирази INSERT або в
-Вираз WHERE. Зверніть увагу, що можна прив'язати значення до
-знаку питання (?) тільки за допомогою функції
-[cubrid_bind()](function.cubrid-bind.md).
+Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubrid\_bind()](function.cubrid-bind.html)
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `prepare_stmt`
+
 Підготовлений запит.
 
 `option`
-Опція повернення OID **`CUBRID_INCLUDE_OID`**.
+
+Опція повернення OID **`CUBRID_INCLUDE_OID`**
 
 ### Значення, що повертаються
 
-Ідентифікатор запиту у разі успішного виконання або **`false`**
-у разі виникнення помилки.
+Ідентифікатор запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_prepare()****
+**Приклад #1 Приклад використання **cubridprepare()****
 
-`<?php$conn = cubrid_connect("localhost", 33000, "demodb");$sql = <<<EODSELECT g.event_code, e.nameFROM game gJOIN event e ON g.event AND event_code NOT IN (SELECT event_code FROM game WHERE host_year=?) GROUP BY event_code;EOD;$req = cubrid_prepare($conn, $sql); ); cubrid_execute ($ req);
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-", $row_num);printf("%-15s %s
-", "Код змагання", "Назва");printf("----------------------------
-");$row = cubrid_fetch_assoc($req);printf("%-15d %s
-", $row["event_code"], $row["name"]);$row = cubrid_fetch_assoc($req);printf("%-15d %s
-", $row["event_code"], $row["name"]);cubrid_disconnect($conn);?> `
+$sql = <<<EOD
+SELECT g.event_code, e.name
+FROM game g
+JOIN event e ON g.event_code=e.code
+WHERE host_year = ? AND event_code NOT IN (SELECT event_code FROM game WHERE host_year=?) GROUP BY event_code;
+EOD;
+
+$req = cubrid_prepare($conn, $sql);
+
+cubrid_bind($req, 1, 2004);
+cubrid_bind($req, 2, 2000);
+cubrid_execute($req);
+
+$row_num = cubrid_num_rows($req);
+printf("%d соревнований пройдут на олимпиаде 2004, но не в 2000. Например:\n\n", $row_num);
+
+printf("%-15s %s\n", "Код соревнования", "Название");
+printf("----------------------------\n");
+
+$row = cubrid_fetch_assoc($req);
+printf("%-15d %s\n", $row["event_code"], $row["name"]);
+$row = cubrid_fetch_assoc($req);
+printf("%-15d %s\n", $row["event_code"], $row["name"]);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-27 змагань пройдуть на олімпіаді 2004, але не у 2000. Наприклад:
+```
+27 соревнований пройдут на олимпиаде 2004, но не в 2000. Например:
 
-Код змагання Назва
+Код соревнования   Название
 ----------------------------
-20063 +91kg
-20070 64kg
+20063           +91kg
+20070           64kg
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
-- [cubrid_bind()](function.cubrid-bind.md) - Зв'язує змінні з
-підготовленим запитом
+-   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubrid\_bind()](function.cubrid-bind.html) - пов'язує змінні з підготовленим запитом

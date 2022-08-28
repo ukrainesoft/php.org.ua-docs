@@ -1,19 +1,27 @@
-- [« Swoole\Buffer::substr](swoole-buffer.substr.md)
-- [Swoole\Buffer::write »](swoole-buffer.write.md)
+Отримує строкове значення буфера пам'яті
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Отримує строкове значення буфера пам'яті
+-   [« Swoole\\Buffer::substr](swoole-buffer.substr.html)
+    
+-   [Swoole\\Buffer::write »](swoole-buffer.write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Buffer](class.swoole-buffer.html)
+    
+-   Отримує строкове значення буфера пам'яті
+    
 
-# Swoole\Buffer::\_\_toString
+# SwooleBuffer::function toString() { \[native code\] }
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Buffer::\_\_toString — Отримує строкове значення буфера пам'яті
+SwooleBuffer::toString — Отримує строкове значення буфера пам'яті
 
 ### Опис
 
-public **Swoole\Buffer::\_\_toString**(): string
+```methodsynopsis
+public Swoole\Buffer::__toString(): string
+```
 
 ### Список параметрів
 

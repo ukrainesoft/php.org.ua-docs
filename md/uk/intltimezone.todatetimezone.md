@@ -1,35 +1,41 @@
-- [« IntlTimeZone::hasSameRules](intltimezone.hassamerules.md)
-- [IntlTimeZone::useDaylightTime »](intltimezone.usedaylighttime.md)
+Перетворити на об'єкт DateTimeZone
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Перетворити на об'єкт DateTimeZone
+-   [« IntlTimeZone::hasSameRules](intltimezone.hassamerules.html)
+    
+-   [IntlTimeZone::useDaylightTime »](intltimezone.usedaylighttime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Перетворити на об'єкт DateTimeZone
+    
 
 # IntlTimeZone::toDateTimeZone
 
-# intltz_to_date_time_zone
+# intltzтоdatetimezone
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::toDateTimeZone -- intltz_to_date_time_zone — Перетворити
-в об'єкт [DateTimeZone](class.datetimezone.md)
+IntlTimeZone::toDateTimeZone -- intltzтоdatetimezone — Перетворити на об'єкт [DateTimeZone](class.datetimezone.html)
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::toDateTimeZone**():
-[DateTimeZone](class.datetimezone.md)\|false
+```methodsynopsis
+public IntlTimeZone::toDateTimeZone(): DateTimeZone|false
+```
 
 Процедурний стиль:
 
-**intltz_to_date_time_zone**([IntlTimeZone](class.intltimezone.md)
-`$timezone`): [DateTimeZone](class.datetimezone.md)\|false
+```methodsynopsis
+intltz_to_date_time_zone(IntlTimeZone $timezone): DateTimeZone|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

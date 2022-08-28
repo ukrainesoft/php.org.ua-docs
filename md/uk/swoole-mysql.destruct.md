@@ -1,19 +1,27 @@
-- [« Swoole\MySQL::\_\_construct](swoole-mysql.construct.md)
-- [Swoole\MySQL::getBuffer »](swoole-mysql.getbuffer.md)
+Знищує асинхронний клієнт MySQL
 
-- [PHP Manual](index.md)
-- [Swoole\MySQL](class.swoole-mysql.md)
-- Знищує асинхронний клієнт MySQL
+-   [« Swoole\\MySQL::\_\_construct](swoole-mysql.construct.html)
+    
+-   [Swoole\\MySQL::getBuffer »](swoole-mysql.getbuffer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\MySQL](class.swoole-mysql.html)
+    
+-   Знищує асинхронний клієнт MySQL
+    
 
-# Swoole\MySQL::\_\_destruct
+# SwooleMySQL::destruct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\MySQL::\_\_destruct - Знищує асинхронний клієнт MySQL
+SwooleMySQL::destruct — Знищує асинхронний клієнт MySQL
 
 ### Опис
 
-public **Swoole\MySQL::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\MySQL::__destruct(): void
+```
 
 ### Список параметрів
 

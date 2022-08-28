@@ -1,11 +1,17 @@
-- [« Встановлення та налаштування](scoutapm.setup.md)
-- [Установка »](scoutapm.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](scoutapm.setup.md)
-- Вимоги
+-   [« Установка и настройка](scoutapm.setup.html)
+    
+-   [Установка »](scoutapm.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](scoutapm.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-- PHP \>= 7.1.0
-- Windows зараз не підтримується
+-   PHP >= 7.1.0
+-   Windows зараз не підтримується

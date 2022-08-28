@@ -1,196 +1,344 @@
-- [« Приклади](simplexml.examples.md)
-- [Робота з помилками XML »](simplexml.examples-errors.md)
+Базове використання SimpleXML
 
-- [PHP Manual](index.md)
-- [Приклади](simplexml.examples.md)
-- Базове використання SimpleXML
+-   [« Примеры](simplexml.examples.html)
+    
+-   [Работа с ошибками XML »](simplexml.examples-errors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Примеры](simplexml.examples.html)
+    
+-   Базове використання SimpleXML
+    
 
 ## Базове використання SimpleXML
 
-Деякі приклади цього посібника включають рядок XML. Замість того,
-щоб повторювати її в кожному прикладі, покладіть цей рядок у файл, який
-і включайте у кожному прикладі. Цей рядок наведено у наступному прикладі.
-Крім цього, можна створити XML-документ і зчитувати його функцією
-[simplexml_load_file()](function.simplexml-load-file.md).
+Деякі приклади цього посібника включають рядок XML. Замість того, щоб повторювати її в кожному прикладі, покладіть цей рядок у файл, який включайте в кожному прикладі. Цей рядок наведено у наступному прикладі. Крім цього, можна створити XML-документ і зчитувати його функцією [simplexml\_load\_file()](function.simplexml-load-file.html)
 
 **Приклад #1 Файл example.php з рядком XML**
 
-`<?php$xmlstr = <<<<XML<?xml version='1.0' standalone='yes'?><movies> <movie>  <title>PHP: Поява Парсера</title>  <characters>  <character> name>Ms. Coder</name>    <actor>Onlivia Actora</actor>   </character>   <character>    <name>Mr. Coder</name>    <actor>El ActÓr</actor>   </character>  </characters>  <plot>   Таким образом, мова. Це все рівно мова програмування. Чи    це скриптова мова? Все розкривається в цьому документальному фільмі, схожому на фільм жахів. </plot>  <great-lines>   <line>PHP вирішує всі мої проблеми в вебе</line>  </great-lines>  <rating type="thumbs">7</rating>  <rating type= 5</rating> </movie></movies>XML;?> `
+```php
+<?php
+$xmlstr = <<<XML
+<?xml version='1.0' standalone='yes'?>
+<movies>
+ <movie>
+  <title>PHP: Появление Парсера</title>
+  <characters>
+   <character>
+    <name>Ms. Coder</name>
+    <actor>Onlivia Actora</actor>
+   </character>
+   <character>
+    <name>Mr. Coder</name>
+    <actor>El Act&#211;r</actor>
+   </character>
+  </characters>
+  <plot>
+   Таким образом, это язык. Это всё равно язык программирования. Или
+   это скриптовый язык? Все раскрывается в этом документальном фильме,
+   похожем на фильм ужасов.
+  </plot>
+  <great-lines>
+   <line>PHP решает все мои проблемы в вебе</line>
+  </great-lines>
+  <rating type="thumbs">7</rating>
+  <rating type="stars">5</rating>
+ </movie>
+</movies>
+XML;
+?>
+```
 
-SimpleXML користуватися дуже просто! Спробуйте отримати якусь
-рядок або число базового XML-документа.
+SimpleXML користуватися дуже просто! Спробуйте отримати якийсь рядок чи число з базового документа XML.
 
 **Приклад #2 Отримання частини документа `<plot>`**
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);echo $movies->movie[0]->plot;?> `
+```php
+<?php
+include 'example.php';
+
+$movies = new SimpleXMLElement($xmlstr);
+
+echo $movies->movie[0]->plot;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
+Таким образом, это язык. Это всё равно язык программирования. Или
+   это скриптовый язык? Все раскрывается в этом документальном фильме,
+   похожем на фильм ужасов.
+```
 
-Отже, це мова. Це все одно мова програмування. Або
-це скриптова мова? Все розкривається у цьому документальному фільмі,
-схожим на фільм жахів.
-
-У PHP отримати доступ до елемента в XML документі, що міститься в назві
-неприпустимі символи (наприклад, дефіс), можна шляхом укладання даного
-імені елемента у фігурні дужки та апострофи.
+У PHP отримати доступ до елемента в XML документі, що містить у назві неприпустимі символи (наприклад, дефіс), можна шляхом укладання цього імені елемента у фігурні дужки та апострофи.
 
 **Приклад #3 Отримання рядка `<line>`**
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);echo $movies->movie->{'great-lines'}->line;?> `
+```php
+<?php
+include 'example.php';
+
+$movies = new SimpleXMLElement($xmlstr);
+
+echo $movies->movie->{'great-lines'}->line;
+?>
+```
 
 Результат виконання цього прикладу:
 
-PHP вирішує всі мої проблеми в Інтернеті
+```
+PHP решает все мои проблемы в вебе
+```
 
-**Приклад #4 Доступ до неунікальних елементів у SimpleXML**
+**Приклад #4 Доступ до неунікальних елементів SimpleXML**
 
-У тому випадку, якщо існує кілька екземплярів дочірніх елементів у
-одному батьківському елементі, то потрібно застосовувати стандартні методи
-ітерації.
+Якщо існує кілька екземплярів дочірніх елементів в одному батьківському елементі, то потрібно застосовувати стандартні методи ітерації.
 
-`<?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);/* Для кожного вузла <character>, ми окремо виведемо ім'я<name>. */foreach ($movies->movie->characters->character as $character) {   echo $character->name, ' грає ', $character->actor, PHP_EOL;}?> `
+```php
+<?php
+include 'example.php';
+
+$movies = new SimpleXMLElement($xmlstr);
+
+/* Для каждого узла <character>, мы отдельно выведем имя <name>. */
+foreach ($movies->movie->characters->character as $character) {
+   echo $character->name, ' играет ', $character->actor, PHP_EOL;
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-Ms. Coder грає Onlivia Actora
-Mr. Coder грає El ActÓr
+```
+Ms. Coder играет Onlivia Actora
+Mr. Coder играет El ActÓr
+```
 
-> **Примітка**:
->
-> Властивості (`$movies->movie` у попередньому прикладі) не є
-> масивами. Це [об'єкт, що ітерується](class.iterator.md) об'єкт [у вигляді > масиву](class.arrayaccess.md).
+> **Зауваження**
+> 
+> Властивості (`$movies->movie` у попередньому прикладі) не є масивами. Це [итерируемый](class.iterator.html) об'єкт [в виде массива](class.arrayaccess.html)
 
 **Приклад #5 Використання атрибутів**
 
-Досі ми лише отримували назви та значення елементів. SimpleXML
-може також отримати доступ до атрибутів елемента. Отримати доступ до
-атрибут елемента можна так само, як до елементів масиву (array).
+Досі ми лише отримували назви та значення елементів. SimpleXML може також отримати доступ до атрибутів елемента. Отримати доступ до атрибуту елемента можна так само, як і до елементів масиву (array).
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);/* Доступ до вузла <rating> першого фільму. * Так же виведемо шкалу оцінок. */foreach ($movies->movie[0]->rating as $rating) {    switch((string) $rating['type']) { // Отримання атрибутів елементу по індексу                                      ' thumbs up'; break; case 'stars':        echo $rating, ' stars'; break; }}?> `
+```php
+<?php
+include 'example.php';
+
+$movies = new SimpleXMLElement($xmlstr);
+
+/* Доступ к узлу <rating> первого фильма.
+ * Так же выведем шкалу оценок. */
+foreach ($movies->movie[0]->rating as $rating) {
+    switch((string) $rating['type']) { // Получение атрибутов элемента по индексу
+    case 'thumbs':
+        echo $rating, ' thumbs up';
+        break;
+    case 'stars':
+        echo $rating, ' stars';
+        break;
+    }
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 7 thumbs up5 stars
+```
 
-**Приклад #6 Порівняння елементів та атрибутів із текстом**
+**Приклад #6 Порівняння елементів та атрибутів з текстом**
 
-Для порівняння елемента або атрибута з рядком або для передачі
-функцію як текст, необхідно привести його до рядка, використовуючи
-`(string)`. В іншому випадку, PHP розглядатиме елемент як
-об'єкт.
+Для порівняння елемента або атрибута з рядком або для передачі в функцію як текст, необхідно привести його до рядка, використовуючи `(string)`. В іншому випадку, PHP розглядатиме елемент як об'єкт.
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);if ((string) $movies->movie->title == 'PHP: Поява Парсера') { м           ;}echo htmlentities((string) $movies->movie->title);?> `
+```php
+<?php
+include 'example.php';
+
+$movies = new SimpleXMLElement($xmlstr);
+
+if ((string) $movies->movie->title == 'PHP: Появление Парсера') {
+    print 'Мой любимый фильм.';
+}
+
+echo htmlentities((string) $movies->movie->title);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Мій улюблений фільм. PHP: Поява Парсера
+```
+Мой любимый фильм.PHP: Появление Парсера
+```
 
 **Приклад #7 Порівняння двох елементів**
 
-Два елементи SimpleXMLElements вважаються різними, навіть якщо вони
-вказують на той самий об'єкт.
+Два елементи SimpleXMLElements вважаються різними, навіть якщо вони вказують на той самий об'єкт.
 
-` <?phpinclude 'example.php';$movies1 = new SimpleXMLElement($xmlstr);$movies2 = new SimpleXMLElement($xmlstr);var_dump($movies1 ===$movies2); // false?> `
+```php
+<?php
+include 'example.php';
+
+$movies1 = new SimpleXMLElement($xmlstr);
+$movies2 = new SimpleXMLElement($xmlstr);
+var_dump($movies1 == $movies2); // false
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
+```
 
 **Приклад #8 Використання XPath**
 
-SimpleXML включає вбудовану підтримку XPath. Пошук усіх
-елементів `<character>`:
+SimpleXML включає вбудовану підтримку XPath. Пошук усіх елементів `<character>`
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);foreach ($movies->xpath('//character') as $character) {    echo $character->name| $character->actor, PHP_EOL;}?> `
+```php
+<?php
+include 'example.php';
 
-'`//`' служить як шаблон. Для вказівки абсолютного шляху,
-опустіть одну з косих рис.
+$movies = new SimpleXMLElement($xmlstr);
+
+foreach ($movies->xpath('//character') as $character) {
+    echo $character->name, ' играет ', $character->actor, PHP_EOL;
+}
+?>
+```
+
+`//`' служить як шаблон. Для вказівки абсолютного шляху опустіть одну з косих рис.
 
 Результат виконання цього прикладу:
 
-Ms. Coder грає Onlivia Actora
-Mr. Coder грає by El ActÓr
+```
+Ms. Coder играет Onlivia Actora
+Mr. Coder играет by El ActÓr
+```
 
 **Приклад #9 Встановлення значень**
 
-Дані SimpleXML не обов'язково повинні бути незмінними. Об'єкт
-дозволяє маніпулювати усіма елементами.
+Дані SimpleXML не обов'язково повинні бути незмінними. Об'єкт дозволяє маніпулювати всіма елементами.
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);$movies->movie[0]->characters->character[0]->name = 'Miss Coder';echo $movies- >asXML();?> `
+```php
+<?php
+include 'example.php';
+$movies = new SimpleXMLElement($xmlstr);
+
+$movies->movie[0]->characters->character[0]->name = 'Miss Coder';
+
+echo $movies->asXML();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <?xml version="1.0" standalone="yes"?>
 <movies>
-<movie>
-<title>PHP: Поява Парсера</title>
-<characters>
-<character>
-<name>Miss Coder</name>
-<actor>Onlivia Actora</actor>
-</character>
-<character>
-<name>Mr. Coder</name>
-<actor>El ActÓr</actor>
-</character>
-</characters>
-<plot>
-Отже, це мова. Це все одно мова програмування. Або
-це скриптова мова? Все розкривається у цьому документальному фільмі,
-схожим на фільм жахів.
-</plot>
-<great-lines>
-<line>PHP вирішує всі мої завдання на web</line>
-</great-lines>
-<rating type="thumbs">7</rating>
-<rating type="stars">5</rating>
-</movie>
+ <movie>
+  <title>PHP: Появление Парсера</title>
+  <characters>
+   <character>
+    <name>Miss Coder</name>
+    <actor>Onlivia Actora</actor>
+   </character>
+   <character>
+    <name>Mr. Coder</name>
+    <actor>El Act&#xD3;r</actor>
+   </character>
+  </characters>
+  <plot>
+   Таким образом, это язык. Это всё равно язык программирования. Или
+   это скриптовый язык? Все раскрывается в этом документальном фильме,
+   похожем на фильм ужасов.
+  </plot>
+  <great-lines>
+   <line>PHP решает все мои задачи в web</line>
+  </great-lines>
+  <rating type="thumbs">7</rating>
+  <rating type="stars">5</rating>
+ </movie>
 </movies>
+```
 
 **Приклад #10 Додавання елементів та атрибутів**
 
-SimpleXML має можливість легко додавати дочірні елементи та
-атрибути.
+SimpleXML має можливість легко додавати дочірні елементи та атрибути.
 
-` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);$character = $movies->movie[0]->characters->addChild('character');$character->addChild(' name', 'Mr. Parser');$character->addChild('actor', 'John Doe');$rating = $movies->movie[0]->addChild('rating', 'PG'); $rating->addAttribute('type', 'mpaa');echo $movies->asXML();?> `
+```php
+<?php
+include 'example.php';
+$movies = new SimpleXMLElement($xmlstr);
+
+$character = $movies->movie[0]->characters->addChild('character');
+$character->addChild('name', 'Mr. Parser');
+$character->addChild('actor', 'John Doe');
+
+$rating = $movies->movie[0]->addChild('rating', 'PG');
+$rating->addAttribute('type', 'mpaa');
+
+echo $movies->asXML();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <?xml version="1.0" standalone="yes"?>
 <movies>
-<movie>
-<title>PHP: Поява Парсера</title>
-<characters>
-<character>
-<name>Ms. Coder</name>
-<actor>Onlivia Actora</actor>
-</character>
-<character>
-<name>Mr. Coder</name>
-<actor>El ActÓr</actor>
-</character>
-<character><name>Mr. Parser</name><actor>John Doe</actor></character></characters>
-<plot>
-Отже, це мова. Це все одно мова програмування. Або
-це скриптова мова? Все розкривається у цьому документальному фільмі,
-схожим на фільм жахів.
-</plot>
-<great-lines>
-<line>PHP вирішує всі мої завдання на web</line>
-</great-lines>
-<rating type="thumbs">7</rating>
-<rating type="stars">5</rating>
-<rating type="mpaa">PG</rating></movie>
+ <movie>
+  <title>PHP: Появление Парсера</title>
+  <characters>
+   <character>
+    <name>Ms. Coder</name>
+    <actor>Onlivia Actora</actor>
+   </character>
+   <character>
+    <name>Mr. Coder</name>
+    <actor>El Act&#xD3;r</actor>
+   </character>
+  <character><name>Mr. Parser</name><actor>John Doe</actor></character></characters>
+  <plot>
+   Таким образом, это язык. Это всё равно язык программирования. Или
+   это скриптовый язык? Все раскрывается в этом документальном фильме,
+   похожем на фильм ужасов.
+  </plot>
+  <great-lines>
+   <line>PHP решает все мои задачи в web</line>
+  </great-lines>
+  <rating type="thumbs">7</rating>
+  <rating type="stars">5</rating>
+ <rating type="mpaa">PG</rating></movie>
 </movies>
+```
 
 **Приклад #11 Взаємодія з DOM**
 
-PHP може перетворювати XML-вузли з SimpleXML у формат DOM та навпаки.
-Цей приклад показує, як можна змінити DOM-елемент у SimpleXML.
+PHP може перетворювати XML-вузли з SimpleXML у формат DOM і навпаки. Цей приклад показує, як можна змінити DOM-елемент у SimpleXML.
 
-` <?php$dom = new DOMDocument;$dom->loadXML('<books><book><title>дурниця</title></book></books>');if (!$dom) {    echo 'Помилка при розборі документа'; exit;}$books = simplexml_import_dom($dom);echo $books->book[0]->title;?> `
+```php
+<?php
+$dom = new DOMDocument;
+$dom->loadXML('<books><book><title>чепуха</title></book></books>');
+if (!$dom) {
+    echo 'Ошибка при разборе документа';
+    exit;
+}
+
+$books = simplexml_import_dom($dom);
+
+echo $books->book[0]->title;
+?>
+```
 
 Результат виконання цього прикладу:
 
-нісенітниця
+```
+чепуха
+```

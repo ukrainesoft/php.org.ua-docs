@@ -1,44 +1,38 @@
-- [« SoapVar::\_\_construct](soapvar.construct.md)
-- [Вступ »](intro.yar.md)
+Ще один RPC-фреймворк
 
-- [PHP Manual](index.md)
-- [Веб-сервіси](refs.webservice.md)
-- Ще один RPC-фреймворк
+-   [« SoapVar::\_\_construct](soapvar.construct.html)
+    
+-   [Введение »](intro.yar.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Веб-сервисы](refs.webservice.html)
+    
+-   Ще один RPC-фреймворк
+    
 
 # Ще один RPC-фреймворк
 
-- [Вступ](intro.yar.md)
-- [Встановлення та налаштування](yar.setup.md)
-- [Вимоги](yar.requirements.md)
-- [Установка](yar.installation.md)
-- [Налаштування під час виконання](yar.configuration.md)
-- [Типи ресурсів](yar.resources.md)
-- [Предвизначені константи](yar.constants.md)
-- [Приклади](yar.examples.md)
-- [Yar_Server](class.yar-server.md) - Клас Yar_Server
-- [Yar_Server::\_\_construct](yar-server.construct.md) -
-Конструктор Yar_Server
-- [Yar_Server::handle](yar-server.handle.md) — Запустити сервер
-RPC
-- [Yar_Client](class.yar-client.md) - Клас Yar_Client
-- [Yar_Client::\_\_call](yar-client.call.md) - Виклик сервісу
-- [Yar_Client::\_\_construct](yar-client.construct.md) -
-Конструктор Yar_Client
-- [Yar_Client::setOpt](yar-client.setopt.md) — Задати контекст
-виклику
-- [Yar_Concurrent_Client](class.yar-concurrent-client.md) - Клас
-Yar_Concurrent_Client
-- [Yar_Concurrent_Client::call](yar-concurrent-client.call.md)
-Зареєструвати конкурентний виклик
-- [Yar_Concurrent_Client::loop](yar-concurrent-client.loop.md)
-Запуск усіх зареєстрованих викликів
-- [Yar_Concurrent_Client::reset](yar-concurrent-client.reset.md)
-— Очистити всі зареєстровані дзвінки
-- [Yar_Server_Exception](class.yar-server-exception.md) - Клас
-Yar_Server_Exception
-- [Yar_Server_Exception::getType](yar-server-exception.gettype.md)
-— Отримати тип виключення
-- [Yar_Client_Exception](class.yar-client-exception.md) - Клас
-Yar_Client_Exception
-- [Yar_Client_Exception::getType](yar-client-exception.gettype.md)
-— Отримати тип виключення
+-   [Введение](intro.yar.html)
+-   [Установка и настройка](yar.setup.html)
+    -   [Требования](yar.requirements.html)
+    -   [Установка](yar.installation.html)
+    -   [Настройка во время выполнения](yar.configuration.html)
+    -   [Типы ресурсов](yar.resources.html)
+-   [Предопределённые константы](yar.constants.html)
+-   [Примеры](yar.examples.html)
+-   [Yar\_Server](class.yar-server.html) - Клас YarServer
+    -   [Yar\_Server::\_\_construct](yar-server.construct.html) - Конструктор YarServer
+    -   [Yar\_Server::handle](yar-server.handle.html) — Запустити сервер RPC
+-   [Yar\_Client](class.yar-client.html) - Клас YarClient
+    -   [Yar\_Client::\_\_call](yar-client.call.html) - Виклик сервісу
+    -   [Yar\_Client::\_\_construct](yar-client.construct.html) - Конструктор YarClient
+    -   [Yar\_Client::setOpt](yar-client.setopt.html) — Задати контекст дзвінка
+-   [Yar\_Concurrent\_Client](class.yar-concurrent-client.html) - Клас YarConcurrentClient
+    -   [Yar\_Concurrent\_Client::call](yar-concurrent-client.call.html) — Зареєструвати конкурентний виклик
+    -   [Yar\_Concurrent\_Client::loop](yar-concurrent-client.loop.html) — Запуск усіх зареєстрованих викликів
+    -   [Yar\_Concurrent\_Client::reset](yar-concurrent-client.reset.html) — Очистити всі зареєстровані дзвінки
+-   [Yar\_Server\_Exception](class.yar-server-exception.html) - Клас YarServerException
+    -   [Yar\_Server\_Exception::getType](yar-server-exception.gettype.html) — Отримати тип виключення
+-   [Yar\_Client\_Exception](class.yar-client-exception.html) - Клас YarClientException
+    -   [Yar\_Client\_Exception::getType](yar-client-exception.gettype.html) — Отримати тип виключення

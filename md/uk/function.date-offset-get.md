@@ -1,18 +1,22 @@
-- [«date_modify](function.date-modify.md)
-- [date_parse_from_format »](function.date-parse-from-format.md)
+Псевдонім DateTime::getOffset
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::getOffset
+-   [« date\_modify](function.date-modify.html)
+    
+-   [date\_parse\_from\_format »](function.date-parse-from-format.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTime::getOffset
+    
 
-# date_offset_get
+# dateoffsetget
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-date_offset_get - Псевдонім
-[DateTime::getOffset()](datetime.getoffset.md)
+dateoffsetget - Псевдонім [DateTime::getOffset()](datetime.getoffset.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTime::getOffset()](datetime.getoffset.md)
+Ця функція є псевдонімом: [DateTime::getOffset()](datetime.getoffset.html)

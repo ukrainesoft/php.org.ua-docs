@@ -1,30 +1,36 @@
-- [«SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.md)
-- [SolrQuery::setTermsPrefix »](solrquery.settermsprefix.md)
+Встановлює мінімальну частоту документів
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює мінімальну частоту документів
+-   [« SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.html)
+    
+-   [SolrQuery::setTermsPrefix »](solrquery.settermsprefix.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює мінімальну частоту документів
+    
 
 # SolrQuery::setTermsMinCount
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setTermsMinCount — Встановлює мінімальну частоту
-документів
+SolrQuery::setTermsMinCount - Встановлює мінімальну частоту документів
 
 ### Опис
 
-public **SolrQuery::setTermsMinCount**(int `$frequency`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setTermsMinCount(int $frequency): SolrQuery
+```
 
-Встановлює мінімальну частоту повернення документів для увімкнення
+Встановлює мінімальну частоту повернення документів для включення
 
 ### Список параметрів
 
 `frequency`
+
 Мінімальна частота
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

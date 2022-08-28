@@ -1,20 +1,27 @@
-- [« SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md)
-- [SolrResponse::getRawRequestHeaders »](solrresponse.getrawrequestheaders.md)
+Повертає необроблений запит, надісланий на сервер Solr
 
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає необроблений запит, надісланий на сервер Solr
+-   [« SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.html)
+    
+-   [SolrResponse::getRawRequestHeaders »](solrresponse.getrawrequestheaders.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrResponse](class.solrresponse.html)
+    
+-   Повертає необроблений запит, надісланий на сервер Solr
+    
 
 # SolrResponse::getRawRequest
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrResponse::getRawRequest — Повертає необроблений запит,
-надісланий на сервер Solr
+SolrResponse::getRawRequest — Повертає необроблений запит, надісланий на сервер Solr
 
 ### Опис
 
-public **SolrResponse::getRawRequest**(): string
+```methodsynopsis
+public SolrResponse::getRawRequest(): string
+```
 
 Повертає необроблений запит, надісланий на сервер Solr.
 

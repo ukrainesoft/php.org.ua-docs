@@ -1,21 +1,29 @@
-- [«UI\Controls\Form::isPadded](ui-controls-form.ispadded.md)
-- [UI\Controls\Grid »](class.ui-controls-grid.md)
+Встановити заповнення
 
-- [PHP Manual](index.md)
-- [UI\Controls\Form](class.ui-controls-form.md)
-- встановити заповнення
+-   [« UI\\Controls\\Form::isPadded](ui-controls-form.ispadded.html)
+    
+-   [UI\\Controls\\Grid »](class.ui-controls-grid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Form](class.ui-controls-form.html)
+    
+-   Встановити заповнення
+    
 
-# UI\Controls\Form::setPadded
+# ОЙControlsForm::setPadded
 
 (UI 0.9.9)
 
-UI\Controls\Form::setPadded — Встановити заповнення
+ОЙControlsForm::setPadded — Встановити заповнення
 
 ### Опис
 
-public **UI\Controls\Form::setPadded**(bool `$padded`)
+```methodsynopsis
+public UI\Controls\Form::setPadded(bool $padded)
+```
 
-Визначає, увімкнено або вимкнено заповнення у даній формі
+Визначає, увімкнено або вимкнено заповнення у цій формі
 
 ### Список параметрів
 

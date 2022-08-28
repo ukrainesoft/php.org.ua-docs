@@ -1,56 +1,111 @@
-- [« Stomp::\_\_destruct](stomp.destruct.md)
-- [Stomp::getReadTimeout »](stomp.getreadtimeout.md)
+Повертає останню помилку Stomp
 
-- [PHP Manual](index.md)
-- [Stomp](class.stomp.md)
-- Повертає останню помилку Stomp
+-   [« Stomp::\_\_destruct](stomp.destruct.html)
+    
+-   [Stomp::getReadTimeout »](stomp.getreadtimeout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Stomp](class.stomp.html)
+    
+-   Повертає останню помилку Stomp
+    
 
 # Stomp::error
 
-#stomp_error
+# stomperror
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
-Stomp::error -- stomp_error — Повертає останню помилку Stomp
+Stomp :: error -- stomperror — Повертає останню помилку Stomp
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::error**(): string
+```methodsynopsis
+public Stomp::error(): string
+```
 
 Процедурний стиль:
 
-**stomp_error**(resource `$link`): string
+```methodsynopsis
+stomp_error(resource $link): string
+```
 
 Повертає останню помилку Stomp.
 
 ### Список параметрів
 
 `link`
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp,
-отриманий із [stomp_connect()](stomp.construct.md).
+
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
 
 ### Значення, що повертаються
 
-Повертає текст помилки або **false** у разі виникнення помилки.
+Повертає текст помилки або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}var_dump($stomp->error());if (!$stomp->abort('unknown-transaction', array('receipt' => 'foo'))) {    var_dump($stomp-> error());}/* Закриття з'єднання*/unset($stomp);?> `
+```php
+<?php
+
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
+}
+
+var_dump($stomp->error());
+
+if (!$stomp->abort('unknown-transaction', array('receipt' => 'foo'))) {
+    var_dump($stomp->error());
+}
+
+/* Закрытие соединения */
+unset($stomp);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 string(43) "Invalid transaction id: unknown-transaction"
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}var_dump(stomp_error($link));if (!stomp_abort($link, 'unknown-transaction', array('receipt' => 'foo'))) {   var_dump(stomp_error($link));}/ * закриття з'єднання*/stomp_close($link);?> `
+```php
+<?php
+
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
+
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
+}
+
+var_dump(stomp_error($link));
+
+if (!stomp_abort($link, 'unknown-transaction', array('receipt' => 'foo'))) {
+    var_dump(stomp_error($link));
+}
+
+/* закрытие соединения */
+stomp_close($link);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(false)
 string(43) "Invalid transaction id: unknown-transaction"
+```

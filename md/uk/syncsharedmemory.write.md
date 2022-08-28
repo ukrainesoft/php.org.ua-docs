@@ -1,65 +1,84 @@
-- [« SyncSharedMemory::size](syncsharedmemory.size.md)
-- [Інші базові модулі »](refs.basic.other.md)
+Копіює дані в іменовану пам'ять, що розділяється.
 
-- [PHP Manual](index.md)
-- [SyncSharedMemory](class.syncsharedmemory.md)
-- Копіює дані в іменовану пам'ять, що розділяється.
+-   [« SyncSharedMemory::size](syncsharedmemory.size.html)
+    
+-   [Другие базовые модули »](refs.basic.other.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SyncSharedMemory](class.syncsharedmemory.html)
+    
+-   Копіює дані в іменовану пам'ять, що розділяється.
+    
 
-# SyncSharedMemory::write
+# Sync Shared Memory::write
 
-(PECL sync \>= 1.1.0)
+(PECL sync >= 1.1.0)
 
-SyncSharedMemory::write — Копіює дані в іменовану розділювану
-пам'ять
+Sync Shared Memory::write — Копіює дані в іменовану пам'ять, що розділяється.
 
 ### Опис
 
-public **SyncSharedMemory::write**(string `$string` = ?, int `$start` =
-0)
+```methodsynopsis
+public SyncSharedMemory::write(string $string = ?, int $start = 0)
+```
 
 Копіює дані в іменовану пам'ять, що розділяється.
 
 ### Список параметрів
 
 `string`
+
 Дані для запису в пам'ять, що розділяється.
 
-> **Примітка**:
->
-> Якщо розмір даних перевищує розмір пам'яті, що розділяється, кількість
-> записаних байтів, що повертаються, буде менше довжини вхідних даних.
+> **Зауваження**
+> 
+> Якщо розмір даних перевищує розмір пам'яті, що розділяється, кількість записаних повертаються байтів буде менше довжини вхідних даних.
 
 `start`
+
 Початок/зміщення у байтах для початку запису.
 
-> **Примітка**:
->
-> Якщо значення негативне, початкова позиція почнеться з
-> вказаної кількості байтів з кінця сегмента пам'яті, що розділяється.
+> **Зауваження**
+> 
+> Якщо значення негативне, початкова позиція буде починатися із зазначеної кількості байтів з кінця сегмента пам'яті, що розділяється.
 
 ### Значення, що повертаються
 
-Ціле число, що містить кількість байтів, записаних в розділяється
-пам'ять.
+Ціле число, що містить кількість байтів, записаних у пам'ять, що розділяється.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSharedMemory::write()****
+**Приклад #1 Приклад використання **Sync Shared Memory::write()****
 
-` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem = new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Тутможно виконати первинну ініціалізацію.}$result = $mem->write("report.txt");var_dump($result);$result = $mem->write(" , -3);var_dump($result);?> `
+```php
+<?php
+// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.
+// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.
+$mem = new SyncSharedMemory("AppReportName", 1024);
+if ($mem->first())
+{
+    // Здесь можно выполнить первоначальную инициализацию.
+}
+
+$result = $mem->write("report.txt");
+var_dump($result);
+
+$result = $mem->write("report.txt", -3);
+var_dump($result);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(10)
 int(3)
+```
 
 ### Дивіться також
 
-- [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md) -
-Створює новий об'єкт SyncSharedMemory
-- [SyncSharedMemory::first()](syncsharedmemory.first.md) -
-Перевіряє, чи є об'єкт першим загальносистемним екземпляром
-іменованої роздільної пам'яті
-- **SyncSharedMemory::write()**
-- [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює
-дані з іменованої пам'яті
+-   [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.html) - Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::first()](syncsharedmemory.first.html) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   **Sync Shared Memory::write()**
+-   [SyncSharedMemory::read()](syncsharedmemory.read.html) - Копіює дані з іменованої пам'яті, що розділяється

@@ -1,54 +1,79 @@
-- [« LuaSandbox::loadBinary](luasandbox.loadbinary.md)
-- [LuaSandbox::pauseUsageTimer »](luasandbox.pauseusagetimer.md)
+Завантажує код Lua у середу Lua
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Завантажує код Lua у середу Lua
+-   [« LuaSandbox::loadBinary](luasandbox.loadbinary.html)
+    
+-   [LuaSandbox::pauseUsageTimer »](luasandbox.pauseusagetimer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Завантажує код Lua у середу Lua
+    
 
 # LuaSandbox::loadString
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
 LuaSandbox::loadString — Завантажує код Lua у середу Lua
 
 ### Опис
 
-public **LuaSandbox::loadString**(string `$code`, string `$chunkName` =
-''): [LuaSandboxFunction](class.luasandboxfunction.md)
+```methodsynopsis
+public LuaSandbox::loadString(string $code, string $chunkName = ''): LuaSandboxFunction
+```
 
 Завантажує код Lua у середу Lua.
 
-Це еквівалент стандартної функції Lua `loadstring()`.
+Це еквівалент стандартної функції Lua `loadstring()`
 
 ### Список параметрів
 
 `code`
+
 Код Lua.
 
 `chunkName`
+
 Ім'я завантаженого фрагмента для використання у трасуванні помилок.
 
 ### Значення, що повертаються
 
-Повертає [LuaSandboxFunction](class.luasandboxfunction.md), який
-при виконанні виконає переданий $code.
+Повертає [LuaSandboxFunction](class.luasandboxfunction.html), який під час виконання виконає переданий $code.
 
 ### Приклади
 
-**Приклад #1 Завантаження коду в Lua**
+**Приклад #1 Завантаження коду Lua**
 
-` <?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// Завантаження кода$function = $sandbox->loadString(<<<CODE     return "Звіт| || $function->call() );?> `
+```php
+<?php
+
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
+
+// Загрузка кода
+$function = $sandbox->loadString(
+<<<CODE
+    return "Привет, мир!"
+CODE
+);
+
+// Выполнение загруженного кода
+var_dump( $function->call() );
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(1) {
-[0]=>
-string(12) "Привіт, мир!"
+  [0]=>
+  string(12) "Привет, мир!"
 }
+```
 
 ### Дивіться також
 
-- [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.md) -
-Реєструє набір PHP-функцій як бібліотеку Lua
-- [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) -
-Обертає викликаний PHP-об'єкт у LuaSandboxFunction
+-   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.html) - Реєструє набір PHP-функцій як бібліотеку Lua
+-   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.html) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction

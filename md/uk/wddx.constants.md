@@ -1,10 +1,16 @@
-- [« Типи ресурсів](wddx.resources.md)
-- [Приклади »](wddx.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [WDDX](book.wddx.md)
-- Обумовлені константи
+-   [« Типы ресурсов](wddx.resources.html)
+    
+-   [Примеры »](wddx.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WDDX](book.wddx.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

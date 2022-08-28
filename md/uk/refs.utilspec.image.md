@@ -1,42 +1,46 @@
-- [« recode ](function.recode.md)
-- [Exif »](book.exif.md)
+Обробка та генерація зображень
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Обробка та генерація зображень
+-   [« recode](function.recode.html)
+    
+-   [Exif »](book.exif.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Обробка та генерація зображень
+    
 
 # Обробка та генерація зображень
 
-- [Exif](book.exif.md) — Зміна інформації про зображення
-- [Вступ](intro.exif.md)
-- [Встановлення та налаштування](exif.setup.md)
-- [Предвизначені константи](exif.constants.md)
-- [Exif Функції](ref.exif.md)
-- [GD](book.image.md) — Обробка зображень та GD
-- [Вступ](intro.image.md)
-- [Встановлення та налаштування](image.setup.md)
-- [Предвизначені константи](image.constants.md)
-- [Приклади](image.examples.md)
-- [Функції GD та функції для роботи з зображення](ref.image.md)
-- [GdImage](class.gdimage.md) - Клас GdImage
-- [GdFont](class.gdfont.md) - Клас GdFont
-- [Gmagick](book.gmagick.md)
-- [Вступ](intro.gmagick.md)
-- [Встановлення та налаштування](gmagick.setup.md)
-- [Предвизначені константи](gmagick.constants.md)
-- [Приклади](gmagick.examples.md)
-- [Gmagick](class.gmagick.md) - Клас Gmagick
-- [GmagickDraw](class.gmagickdraw.md) - Клас GmagickDraw
-- [GmagickPixel](class.gmagickpixel.md) — Клас GmagickPixel
-- [ImageMagick](book.imagick.md) — Обробка зображень
-(ImageMagick)
-- [Вступ](intro.imagick.md)
-- [Встановлення та налаштування](imagick.setup.md)
-- [Предвизначені константи](imagick.constants.md)
-- [Приклади](imagick.examples.md)
-- [Imagick](class.imagick.md) - Клас Imagick
-- [ImagickDraw](class.imagickdraw.md) - Клас ImagickDraw
-- [ImagickPixel](class.imagickpixel.md) - Клас ImagickPixel
-- [ImagickPixelIterator](class.imagickpixeliterator.md) - Клас
-ImagickPixelIterator
-- [ImagickKernel](class.imagickkernel.md) - Клас ImagickKernel
+-   [Exif](book.exif.html) — Змінювана інформація про зображення
+    -   [Введение](intro.exif.html)
+    -   [Установка и настройка](exif.setup.html)
+    -   [Предопределённые константы](exif.constants.html)
+    -   [Exif Функции](ref.exif.html)
+-   [GD](book.image.html) — Обробка зображень та GD
+    -   [Введение](intro.image.html)
+    -   [Установка и настройка](image.setup.html)
+    -   [Предопределённые константы](image.constants.html)
+    -   [Примеры](image.examples.html)
+    -   [Функции GD и функции для работы с изображениями](ref.image.html)
+    -   [GdImage](class.gdimage.html) - Клас GdImage
+    -   [GdFont](class.gdfont.html) - Клас GdFont
+-   [Gmagick](book.gmagick.html)
+    -   [Введение](intro.gmagick.html)
+    -   [Установка и настройка](gmagick.setup.html)
+    -   [Предопределённые константы](gmagick.constants.html)
+    -   [Примеры](gmagick.examples.html)
+    -   [Gmagick](class.gmagick.html) - Клас Gmagick
+    -   [GmagickDraw](class.gmagickdraw.html) - Клас GmagickDraw
+    -   [GmagickPixel](class.gmagickpixel.html) - Клас GmagickPixel
+-   [ImageMagick](book.imagick.html) - Обробка зображень (ImageMagick)
+    -   [Введение](intro.imagick.html)
+    -   [Установка и настройка](imagick.setup.html)
+    -   [Предопределённые константы](imagick.constants.html)
+    -   [Примеры](imagick.examples.html)
+    -   [Imagick](class.imagick.html) - Клас Imagick
+    -   [ImagickDraw](class.imagickdraw.html) - Клас ImagickDraw
+    -   [ImagickPixel](class.imagickpixel.html) - Клас ImagickPixel
+    -   [ImagickPixelIterator](class.imagickpixeliterator.html) - Клас ImagickPixelIterator
+    -   [ImagickKernel](class.imagickkernel.html) - Клас ImagickKernel

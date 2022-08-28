@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](event.configuration.md)
-- [Приклади »](event.examples.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](event.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](event.configuration.html)
+    
+-   [Примеры »](event.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](event.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

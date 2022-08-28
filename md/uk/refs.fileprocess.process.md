@@ -1,117 +1,112 @@
-- [« Vtiful\Kernel\Format::underline](vtiful-kernel-format.underline.md)
-- [Eio »](book.eio.md)
+Модулі для керування процесами програм
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Модулі для управління процесами програм
+-   [« Vtiful\\Kernel\\Format::underline](vtiful-kernel-format.underline.html)
+    
+-   [Eio »](book.eio.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Модулі для керування процесами програм
+    
 
-# Модулі для управління процесами програм
+# Модулі для керування процесами програм
 
-- [Eio](book.eio.md)
-- [Вступ](intro.eio.md)
-- [Встановлення та налаштування](eio.setup.md)
-- [Предвизначені константи](eio.constants.md)
-- [Приклади](eio.examples.md)
-- [Eio Функції](ref.eio.md)
-- [Ev](book.ev.md)
-- [Вступ](intro.ev.md)
-- [Встановлення та налаштування](ev.setup.md)
-- [Предвизначені константи](ev.global.constants.md)
-- [Приклади](ev.examples.md)
-- [Спостерігачі](ev.watchers.md)
-- [Watcher callbacks](ev.watcher-callbacks.md)
-- [Режими роботи періодичних спостерігачів](ev.periodic-modes.md)
-- [Ev](class.ev.md) - Клас Ev
-- [EvCheck](class.evcheck.md) - Клас EvCheck
-- [EvChild](class.evchild.md) - Клас EvChild
-- [EvEmbed](class.evembed.md) - Клас EvEmbed
-- [EvFork](class.evfork.md) - Клас EvFork
-- [EvIdle](class.evidle.md) - Клас EvIdle
-- [EvIo](class.evio.md) - Клас EvIo
-- [EvLoop](class.evloop.md) - Клас EvLoop
-- [EvPeriodic](class.evperiodic.md) - Клас EvPeriodic
-- [EvPrepare](class.evprepare.md) - Клас EvPrepare
-- [EvSignal](class.evsignal.md) - Клас EvSignal
-- [EvStat](class.evstat.md) - Клас EvStat
-- [EvTimer](class.evtimer.md) - Клас EvTimer
-- [EvWatcher](class.evwatcher.md) - Клас EvWatcher
-- [Expect](book.expect.md)
-- [Вступ](intro.expect.md)
-- [Встановлення та налаштування](expect.setup.md)
-- [Предвизначені константи](expect.constants.md)
-- [Приклади](expect.examples.md)
-- [Функції Expect](ref.expect.md)
-- [PCNTL](book.pcntl.md) — Керування процесами
-- [Вступ](intro.pcntl.md)
-- [Встановлення та налаштування](pcntl.setup.md)
-- [Предвизначені константи](pcntl.constants.md)
-- [Приклади](pcntl.examples.md)
-- [Функції PCNTL](ref.pcntl.md)
-- [POSIX](book.posix.md)
-- [Вступ](intro.posix.md)
-- [Встановлення та налаштування](posix.setup.md)
-- [Предвизначені константи](posix.constants.md)
-- [POSIX Функції](ref.posix.md)
-- [Запуск програм](book.exec.md) — Запуск програм у системі
-- [Вступ](intro.exec.md)
-- [Встановлення та налаштування](exec.setup.md)
-- [Предвизначені константи](exec.constants.md)
-- [Функції запуску програм](ref.exec.md)
-- [parallel](book.parallel.md)
-- [Вступ](intro.parallel.md)
-- [Установка](parallel.setup.md)
-- [Філософія](philosophy.parallel.md)
-- [Функціональний API](functional.parallel.md)
-- [parallel\Runtime](class.parallel-runtime.md) - Клас
-parallel\Runtime
-- [parallel\Future](class.parallel-future.md) - Клас
-parallel\Future
-- [parallel\Channel](class.parallel-channel.md) - Клас
-parallel\Channel
-- [parallel\Events](class.parallel-events.md) - Клас
-parallel\Events
-- [parallel\Events\Input](class.parallel-events-input.md) -
-Клас parallel\Events\Input
-- [parallel\Events\Event](class.parallel-events-event.md) -
-Клас parallel\Events\Event
-- [parallel\Events\Event\Type](class.parallel-events-event-type.md)
-- Клас parallel\Events\Event\Type
-- [parallel\Sync](class.parallel-sync.md) - Клас parallel\Sync
-- [pthreads](book.pthreads.md)
-- [Вступ](intro.pthreads.md)
-- [Встановлення та налаштування](pthreads.setup.md)
-- [Предвизначені константи](pthreads.constants.md)
-- [Threaded](class.threaded.md) - Клас Threaded
-- [Thread](class.thread.md) - Клас Thread
-- [Worker](class.worker.md) - Клас Worker
-- [Collectable](class.collectable.md) - Інтерфейс Collectable
-- [Pool](class.pool.md) - Клас Pool
-- [Volatile](class.volatile.md) - Клас Volatile
-- [Семафори](book.sem.md) — Семафори, пам'ять, що розділяється, і IPC
-- [Вступ](intro.sem.md)
-- [Встановлення та налаштування](sem.setup.md)
-- [Предвизначені константи](sem.constants.md)
-- [Функції семафорів](ref.sem.md)
-- [SysvMessageQueue](class.sysvmessagequeue.md) - Клас
-SysvMessageQueue
-- [SysvSemaphore](class.sysvsemaphore.md) — Клас SysvSemaphore
-- [SysvSharedMemory](class.sysvsharedmemory.md) - Клас
-SysvSharedMemory
-- [Керування пам'яттю, що розділяється](book.shmop.md)
-- [Вступ](intro.shmop.md)
-- [Встановлення та налаштування](shmop.setup.md)
-- [Предвизначені константи](shmop.constants.md)
-- [Приклади](shmop.examples.md)
-- [Поділ, що розділяється (shared) пам'ять](ref.shmop.md)
-- [Shmop](class.shmop.md) - Клас Shmop
-- [Sync](book.sync.md)
-- [Вступ](intro.sync.md)
-- [Встановлення та налаштування](sync.setup.md)
-- [Предвизначені константи](sync.constants.md)
-- [SyncMutex](class.syncmutex.md) — Клас SyncMutex
-- [SyncSemaphore](class.syncsemaphore.md) — Клас SyncSemaphore
-- [SyncEvent](class.syncevent.md) - Клас SyncEvent
-- [SyncReaderWriter](class.syncreaderwriter.md) - Клас
-SyncReaderWriter
-- [SyncSharedMemory](class.syncsharedmemory.md) - Клас
-SyncSharedMemory
+-   [Eio](book.eio.html)
+    -   [Введение](intro.eio.html)
+    -   [Установка и настройка](eio.setup.html)
+    -   [Предопределённые константы](eio.constants.html)
+    -   [Примеры](eio.examples.html)
+    -   [Eio Функции](ref.eio.html)
+-   [Ev](book.ev.html)
+    -   [Введение](intro.ev.html)
+    -   [Установка и настройка](ev.setup.html)
+    -   [Предопределённые константы](ev.global.constants.html)
+    -   [Примеры](ev.examples.html)
+    -   [Наблюдатели](ev.watchers.html)
+    -   [Watcher callbacks](ev.watcher-callbacks.html)
+    -   [Режимы работы периодических наблюдателей](ev.periodic-modes.html)
+    -   [Ev](class.ev.html) - Клас Ev
+    -   [EvCheck](class.evcheck.html) - Клас EvCheck
+    -   [EvChild](class.evchild.html) - Клас EvChild
+    -   [EvEmbed](class.evembed.html) - Клас EvEmbed
+    -   [EvFork](class.evfork.html) - Клас EvFork
+    -   [EvIdle](class.evidle.html) - Клас EvIdle
+    -   [EvIo](class.evio.html) - Клас EvIo
+    -   [EvLoop](class.evloop.html) - Клас EvLoop
+    -   [EvPeriodic](class.evperiodic.html) - Клас EvPeriodic
+    -   [EvPrepare](class.evprepare.html) - Клас EvPrepare
+    -   [EvSignal](class.evsignal.html) - Клас EvSignal
+    -   [EvStat](class.evstat.html) - Клас EvStat
+    -   [EvTimer](class.evtimer.html) - Клас EvTimer
+    -   [EvWatcher](class.evwatcher.html) - Клас EvWatcher
+-   [Expect](book.expect.html)
+    -   [Введение](intro.expect.html)
+    -   [Установка и настройка](expect.setup.html)
+    -   [Предопределённые константы](expect.constants.html)
+    -   [Примеры](expect.examples.html)
+    -   [Функции Expect](ref.expect.html)
+-   [PCNTL](book.pcntl.html) - Управління процесами
+    -   [Введение](intro.pcntl.html)
+    -   [Установка и настройка](pcntl.setup.html)
+    -   [Предопределённые константы](pcntl.constants.html)
+    -   [Примеры](pcntl.examples.html)
+    -   [Функции PCNTL](ref.pcntl.html)
+-   [POSIX](book.posix.html)
+    -   [Введение](intro.posix.html)
+    -   [Установка и настройка](posix.setup.html)
+    -   [Предопределённые константы](posix.constants.html)
+    -   [POSIX Функции](ref.posix.html)
+-   [Запуск программы](book.exec.html) - Запуск програм у системі
+    -   [Введение](intro.exec.html)
+    -   [Установка и настройка](exec.setup.html)
+    -   [Предопределённые константы](exec.constants.html)
+    -   [Функции запуска программ](ref.exec.html)
+-   [parallel](book.parallel.html)
+    -   [Введение](intro.parallel.html)
+    -   [Установка](parallel.setup.html)
+    -   [Философия](philosophy.parallel.html)
+    -   [Функциональный API](functional.parallel.html)
+    -   [parallel\\Runtime](class.parallel-runtime.html) - Клас parallelRuntime
+    -   [parallel\\Future](class.parallel-future.html) - Клас parallelFuture
+    -   [parallel\\Channel](class.parallel-channel.html) - Клас parallelChannel
+    -   [parallel\\Events](class.parallel-events.html) - Клас parallelEvents
+    -   [parallel\\Events\\Input](class.parallel-events-input.html) - Клас parallelEventsInput
+    -   [parallel\\Events\\Event](class.parallel-events-event.html) - Клас parallelEventsEvent
+    -   [parallel\\Events\\Event\\Type](class.parallel-events-event-type.html) - Клас parallelEventsEventType
+    -   [parallel\\Sync](class.parallel-sync.html) - Клас parallelSync
+-   [pthreads](book.pthreads.html)
+    -   [Введение](intro.pthreads.html)
+    -   [Установка и настройка](pthreads.setup.html)
+    -   [Предопределённые константы](pthreads.constants.html)
+    -   [Threaded](class.threaded.html) - Клас Threaded
+    -   [Thread](class.thread.html) - Клас Thread
+    -   [Worker](class.worker.html) - Клас Worker
+    -   [Collectable](class.collectable.html) - Інтерфейс Collectable
+    -   [Pool](class.pool.html) - Клас Pool
+    -   [Volatile](class.volatile.html) - Клас Volatile
+-   [Семафоры](book.sem.html) — Семафори, пам'ять, що розділяється, і IPC
+    -   [Введение](intro.sem.html)
+    -   [Установка и настройка](sem.setup.html)
+    -   [Предопределённые константы](sem.constants.html)
+    -   [Функции семафоров](ref.sem.html)
+    -   [SysvMessageQueue](class.sysvmessagequeue.html) - Клас SysvMessageQueue
+    -   [SysvSemaphore](class.sysvsemaphore.html) - Клас SysvSemaphore
+    -   [SysvSharedMemory](class.sysvsharedmemory.html) - Клас SysvSharedMemory
+-   [Управление разделяемой памятью](book.shmop.html)
+    -   [Введение](intro.shmop.html)
+    -   [Установка и настройка](shmop.setup.html)
+    -   [Предопределённые константы](shmop.constants.html)
+    -   [Примеры](shmop.examples.html)
+    -   [Разделяемая (shared) память](ref.shmop.html)
+    -   [Shmop](class.shmop.html) - Клас Shmop
+-   [Sync](book.sync.html)
+    -   [Введение](intro.sync.html)
+    -   [Установка и настройка](sync.setup.html)
+    -   [Предопределённые константы](sync.constants.html)
+    -   [SyncMutex](class.syncmutex.html) - Клас SyncMutex
+    -   [SyncSemaphore](class.syncsemaphore.html) - Клас SyncSemaphore
+    -   [SyncEvent](class.syncevent.html) - Клас SyncEvent
+    -   [SyncReaderWriter](class.syncreaderwriter.html) - Клас SyncReaderWriter
+    -   [SyncSharedMemory](class.syncsharedmemory.html) - Клас SyncSharedMemory

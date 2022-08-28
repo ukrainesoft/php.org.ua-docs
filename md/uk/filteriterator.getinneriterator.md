@@ -1,25 +1,31 @@
-- [« FilterIterator::current](filteriterator.current.md)
-- [FilterIterator::key »](filteriterator.key.md)
+Отримує внутрішній ітератор
 
-- [PHP Manual](index.md)
-- [FilterIterator](class.filteriterator.md)
-- отримує внутрішній ітератор
+-   [« FilterIterator::current](filteriterator.current.html)
+    
+-   [FilterIterator::key »](filteriterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FilterIterator](class.filteriterator.html)
+    
+-   Отримує внутрішній ітератор
+    
 
 # FilterIterator::getInnerIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::getInnerIterator — Отримує внутрішній ітератор
 
 ### Опис
 
-public **FilterIterator::getInnerIterator**():
-[Iterator](class.iterator.md)
+```methodsynopsis
+public FilterIterator::getInnerIterator(): Iterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Отримує внутрішній ітератор.
 

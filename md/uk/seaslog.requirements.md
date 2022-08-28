@@ -1,8 +1,14 @@
-- [« Встановлення та налаштування](seaslog.setup.md)
-- [Встановлення »](seaslog.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](seaslog.setup.md)
-- Вимоги
+-   [« Установка и настройка](seaslog.setup.html)
+    
+-   [Установка »](seaslog.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](seaslog.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги

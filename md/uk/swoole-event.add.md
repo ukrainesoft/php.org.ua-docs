@@ -1,24 +1,27 @@
-- [« Swoole\Event](class.swoole-event.md)
-- [Swoole\Event::defer »](swoole-event.defer.md)
+Додає нові callback функції сокету в EventLoop
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Додає нові callback-функції сокету до EventLoop
+-   [« Swoole\\Event](class.swoole-event.html)
+    
+-   [Swoole\\Event::defer »](swoole-event.defer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Event](class.swoole-event.html)
+    
+-   Додає нові callback функції сокету в EventLoop
+    
 
-# Swoole\Event::add
+# SwooleEvent::add
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Event::add - Додає нові callback-функції сокету в EventLoop
+SwooleEvent::add - Додає нові callback-функції сокету в EventLoop
 
 ### Опис
 
-public static **Swoole\Event::add**(
-int `$fd`,
-[callable](language.types.callable.md) `$read_callback`,
-[callable](language.types.callable.md) `$write_callback` = ?,
-string `$events` = ?
-): bool
+```methodsynopsis
+public static Swoole\Event::add(    int $fd,    callable $read_callback,    callable $write_callback = ?,    string $events = ?): bool
+```
 
 ### Список параметрів
 

@@ -1,73 +1,86 @@
-- [« geoip_setup_custom_directory](function.geoip-setup-custom-directory.md)
-- [FANN »](book.fann.md)
+Повертає часовий пояс для коду країни та регіону
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Повертає часовий пояс для коду країни та регіону
+-   [« geoip\_setup\_custom\_directory](function.geoip-setup-custom-directory.html)
+    
+-   [FANN »](book.fann.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GeoIP](ref.geoip.html)
+    
+-   Повертає часовий пояс для коду країни та регіону
+    
 
-# geoip_time_zone_by_country_and_region
+# geoiptimezoneбcountryandregion
 
-(PECL geoip \>= 1.0.4)
+(PECL geoip >= 1.0.4)
 
-geoip_time_zone_by_country_and_region — Повертає часовий пояс для коду
-країни та регіону
+geoiptimezoneбcountryandregion — Повертає часовий пояс для коду країни та регіону.
 
 ### Опис
 
-**geoip_time_zone_by_country_and_region**(string `$country_code`, string
-`$region_code` = ?): string
+```methodsynopsis
+geoip_time_zone_by_country_and_region(string $country_code, string $region_code = ?): string
+```
 
-Функція **geoip_time_zone_by_country_and_region()** поверне часовий пояс
-та код регіону відповідної країни.
+Функція **geoiptimezoneбcountryandregion()** поверне часовий пояс та код регіону відповідної країни.
 
-У США код регіону відповідає дволітерному скороченню кожного штату.
-У Канаді код регіону відповідає дволітерному скороченню провінції
-або територіальний код, який відповідає канадській пошті.
+У США код регіону відповідає дволітерному скороченню кожного штату. У Канаді код регіону відповідає дволітерному скороченню провінції або територіальний код, який відповідає канадській пошті.
 
-Для решти світу, для представлення регіонів GeoIP використовує
-коди FIPS 10-4. Ви можете переглянути
-[»http://www.maxmind.com/app/fips10_4](http://www.maxmind.com/app/fips10_4)
-для отримання повного переліку FIPS 10-4 кодів.
+Для решти світу, для представлення регіонів GeoIP використовує коди FIPS 10-4. Ви можете переглянути [» http://www.maxmind.com/app/fips10\_4](http://www.maxmind.com/app/fips10_4) для отримання повного переліку FIPS 10-4 кодів.
 
-Ця функція завжди доступна під час використання бібліотеки GeoIP версії
-1.4.1 чи новіше. Дані беруться безпосередньо з бібліотеки GeoIP, а
-не з будь-якої бази даних.
+Ця функція завжди доступна під час використання бібліотеки GeoIP версії 1.4.1 або новішої. Дані беруться безпосередньо з бібліотеки GeoIP, а не з будь-якої бази даних.
 
 ### Список параметрів
 
 `country_code`
-Двохлітерний код країни (дивіться
-[geoip_country_code_by_name()](function.geoip-country-code-by-name.md))
+
+Дволітерний код країни (дивіться [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.html)
 
 `region_code`
-Дволітерний (або цифровий) код регіону (дивіться
-[geoip_region_by_name()](function.geoip-region-by-name.md))
+
+Дволітерний (або цифровий) код регіону (дивіться [geoip\_region\_by\_name()](function.geoip-region-by-name.html)
 
 ### Значення, що повертаються
 
-Повертає часовий пояс у разі успішного виконання або **`false`**,
-якщо країна та одночасно код регіону не можуть бути знайдені.
+Повертає часовий пояс у разі успішного виконання або **`false`**, якщо країна і одночасно код регіону не можуть бути знайдені.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**geoip_time_zone_by_country_and_region()** для коду регіону US/Canada**
+**Приклад #1 Приклад використання **geoiptimezoneбcountryandregion()** для коду регіону US/Canada**
 
 Надрукує часовий пояс країни CA (Канада), регіону QC (Квебек).
 
-` <?php$timezone = geoip_time_zone_by_country_and_region('CA', 'QC');if ($timezone) {    echo 'Годинний пояс для CA/QC: ' . $timezone;}?> `
+```php
+<?php
+$timezone = geoip_time_zone_by_country_and_region('CA', 'QC');
+if ($timezone) {
+    echo 'Часовой пояс для CA/QC: ' . $timezone;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Часовий пояс для CA/QC: America/Montreal
+```
+Часовой пояс для CA/QC: America/Montreal
+```
 
-**Приклад #2 Використання **geoip_time_zone_by_country_and_region()**,
-використовуючи коди FIPS**
+**Приклад #2 Використання **geoiptimezoneбcountryandregion()**, використовуючи коди FIPS**
 
 Виводить часовий пояс для країни JP (Японія), регіон 01 (Aichi).
 
-` <?php$timezone = geoip_time_zone_by_country_and_region('JP', '01');if ($timezone) {    echo 'Годинний пояс для JP/01: ' . $timezone;}?> `
+```php
+<?php
+$timezone = geoip_time_zone_by_country_and_region('JP', '01');
+if ($timezone) {
+    echo 'Часовой пояс для JP/01: ' . $timezone;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Часовий пояс для JP/01: Asia/Tokyo
+```
+Часовой пояс для JP/01: Asia/Tokyo
+```

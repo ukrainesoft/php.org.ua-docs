@@ -1,9 +1,15 @@
-- [«Socket](class.socket.md)
-- [SSH2 »](book.ssh2.md)
+Клас AddressInfo
 
-- [PHP Manual](index.md)
-- [Сокети](book.sockets.md)
-- Клас AddressInfo
+-   [« Socket](class.socket.html)
+    
+-   [SSH2 »](book.ssh2.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сокеты](book.sockets.html)
+    
+-   Клас AddressInfo
+    
 
 # Клас AddressInfo
 
@@ -11,11 +17,20 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `AddressInfo` у PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `AddressInfo` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **AddressInfo** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class AddressInfo
+     
+     {
+   }
+```

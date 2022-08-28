@@ -1,15 +1,21 @@
-- [«Вступ](intro.filesystem.md)
-- [Вимоги »](filesystem.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Файлова система](book.filesystem.md)
+-   [« Введение](intro.filesystem.html)
+    
+-   [Требования »](filesystem.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Файловая система](book.filesystem.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](filesystem.requirements.md)
-- [Установка](filesystem.installation.md)
-- [Налаштування під час виконання](filesystem.configuration.md)
-- [Типи ресурсів](filesystem.resources.md)
+-   [Требования](filesystem.requirements.html)
+-   [Установка](filesystem.installation.html)
+-   [Настройка во время выполнения](filesystem.configuration.html)
+-   [Типы ресурсов](filesystem.resources.html)

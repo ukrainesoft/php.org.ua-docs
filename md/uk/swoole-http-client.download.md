@@ -1,24 +1,27 @@
-- [« Swoole\Http\Client::\_\_destruct](swoole-http-client.destruct.md)
-- [Swoole\Http\Client::execute »](swoole-http-client.execute.md)
+Завантажує файл із віддаленого сервера
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Завантажує файл із віддаленого сервера
+-   [« Swoole\\Http\\Client::\_\_destruct](swoole-http-client.destruct.html)
+    
+-   [Swoole\\Http\\Client::execute »](swoole-http-client.execute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Client](class.swoole-http-client.html)
+    
+-   Завантажує файл із віддаленого сервера
+    
 
-# Swoole\Http\Client::download
+# SwooleHttpClient::download
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Client::download — Завантажує файл із віддаленого сервера
+SwooleHttpClient::download — Завантажує файл із віддаленого сервера
 
 ### Опис
 
-public **Swoole\Http\Client::download**(
-string `$path`,
-string `$file`,
-[callable](language.types.callable.md) `$callback`,
-int `$offset` = ?
-): void
+```methodsynopsis
+public Swoole\Http\Client::download(    string $path,    string $file,    callable $callback,    int $offset = ?): void
+```
 
 ### Список параметрів
 

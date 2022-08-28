@@ -1,37 +1,40 @@
-- [«sqlsrv_free_stmt](function.sqlsrv-free-stmt.md)
-- [sqlsrv_get_field »](function.sqlsrv-get-field.md)
+Повертає значення вказаного параметра конфігурації
 
-- [PHP Manual](index.md)
-- [Функції SQLSRV](ref.sqlsrv.md)
-- Повертає значення вказаного параметра конфігурації
+-   [« sqlsrv\_free\_stmt](function.sqlsrv-free-stmt.html)
+    
+-   [sqlsrv\_get\_field »](function.sqlsrv-get-field.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SQLSRV](ref.sqlsrv.html)
+    
+-   Повертає значення вказаного параметра конфігурації
+    
 
-#sqlsrv_get_config
+# sqlsrvgetconfig
 
 (No version information available, might only be in Git)
 
-sqlsrv_get_config — Повертає значення вказаного параметра
-конфігурації
+sqlsrvgetconfig — Повертає значення вказаного параметра конфігурації
 
 ### Опис
 
-**sqlsrv_get_config**(string `$setting`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+sqlsrv_get_config(string $setting): mixed
+```
 
 Повертає значення вказаного параметра конфігурації.
 
 ### Список параметрів
 
 `setting`
-Назва параметра, для якого повертається значення. Список настроюваних
-параметрів дивіться у розділі
-[sqlsrv_configure()](function.sqlsrv-configure.md).
+
+Назва параметра, для якого повертається значення. Список настроюваних параметрів дивіться в розділі [sqlsrv\_configure()](function.sqlsrv-configure.html)
 
 ### Значення, що повертаються
 
-Повертає значення вказаного параметра. Якщо вказано неправильний параметр,
-повертається **`false`**.
+Повертає значення вказаного параметра. Якщо вказано неправильний параметр, повертається **`false`**
 
 ### Дивіться також
 
-- [sqlsrv_configure()](function.sqlsrv-configure.md) - Змінює
-конфігурацію обробки помилок драйвера та ведення журналу
+-   [sqlsrv\_configure()](function.sqlsrv-configure.html) - Змінює конфігурацію обробки помилок драйвера та ведення журналу

@@ -1,34 +1,48 @@
-- [«EventListener::getBase](eventlistener.getbase.md)
-- [EventListener::setCallback »](eventlistener.setcallback.md)
+Отримує поточну адресу, до якої прив'язаний сокет слухача
 
-- [PHP Manual](index.md)
-- [EventListener](class.eventlistener.md)
-- Отримує поточну адресу, до якої прив'язаний сокет слухача
+-   [« EventListener::getBase](eventlistener.getbase.html)
+    
+-   [EventListener::setCallback »](eventlistener.setcallback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventListener](class.eventlistener.html)
+    
+-   Отримує поточну адресу, до якої прив'язаний сокет слухача
+    
 
 # EventListener::getSocketName
 
-(PECL event \>= 1.5.0)
+(PECL event >= 1.5.0)
 
-EventListener::getSocketName — Отримує поточну адресу, до якої
-прив'язаний сокет слухача
+EventListener::getSocketName — Отримує поточну адресу, до якої прив'язаний сокет слухача
 
 ### Опис
 
-public static **EventListener::getSocketName**( string `&$address` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$port` = ?): bool
+```methodsynopsis
+public
+   static
+   EventListener::getSocketName(
+    string
+     &$address
+   , 
+    mixed
+     &$port
+    = ?): bool
+```
 
-Отримує поточну адресу, яку прив'язаний сокет слухача.
+Отримує адресу, до якої прив'язаний сокет слухача.
 
 ### Список параметрів
 
 `address`
+
 Вихідний параметр. IP-адреса залежно від сімейства адрес сокетів.
 
 `port`
+
 Вихідний параметр. Порт, якого прив'язаний сокет.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,19 +1,27 @@
-- [« Swoole\Http\Client::setHeaders](swoole-http-client.setheaders.md)
-- [Swoole\Http\Client::upgrade »](swoole-http-client.upgrade.md)
+Встановлює метод HTTP-запиту
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Встановлює метод HTTP-запиту
+-   [« Swoole\\Http\\Client::setHeaders](swoole-http-client.setheaders.html)
+    
+-   [Swoole\\Http\\Client::upgrade »](swoole-http-client.upgrade.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Client](class.swoole-http-client.html)
+    
+-   Встановлює метод HTTP-запиту
+    
 
-# Swoole\Http\Client::setMethod
+# SwooleHttpClient::setMethod
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Client::setMethod - Встановлює метод HTTP-запиту
+SwooleHttpClient::setMethod — Встановлює метод HTTP-запиту
 
 ### Опис
 
-public **Swoole\Http\Client::setMethod**(string `$method`): void
+```methodsynopsis
+public Swoole\Http\Client::setMethod(string $method): void
+```
 
 ### Список параметрів
 

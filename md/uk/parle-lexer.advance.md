@@ -1,22 +1,29 @@
-- [Parle\Lexer](class.parle-lexer.md)
-- [Parle\Lexer::build »](parle-lexer.build.md)
+Обробляє таке правило лексера
 
-- [PHP Manual](index.md)
-- [Parle\Lexer](class.parle-lexer.md)
-- Обробляє таке правило лексера
+-   [« Parle\\Lexer](class.parle-lexer.html)
+    
+-   [Parle\\Lexer::build »](parle-lexer.build.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Lexer](class.parle-lexer.html)
+    
+-   Обробляє таке правило лексера
+    
 
-# Parle\Lexer::advance
+# ParleLexer::advance
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Lexer::advance — Обробляє таке правило лексера
+ParleLexer::advance - Обробляє наступне правило лексера
 
 ### Опис
 
-public **Parle\Lexer::advance**(): void
+```methodsynopsis
+public Parle\Lexer::advance(): void
+```
 
-Обробляє таке правило та готує отримані дані
-токена.
+Обробляє таке правило та готує отримані дані токена.
 
 ### Список параметрів
 

@@ -1,58 +1,80 @@
-- [« GearmanWorker::work](gearmanworker.work.md)
-- [LDAP »](book.ldap.md)
+Клас GearmanException
 
-- [PHP Manual](index.md)
-- [Gearman](book.gearman.md)
-- Клас GearmanException
+-   [« GearmanWorker::work](gearmanworker.work.html)
+    
+-   [LDAP »](book.ldap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gearman](book.gearman.html)
+    
+-   Клас GearmanException
+    
 
 # Клас GearmanException
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **GearmanException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class GearmanException
+     
 
-protected int `$code`;
+     
+      extends
+       Exception
+     
+     {
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Методи \*/
+    /* Методы */
+    
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

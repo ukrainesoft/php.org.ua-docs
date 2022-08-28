@@ -1,21 +1,29 @@
-- [« ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md)
-- [ReflectionFunctionAbstract::getStartLine »](reflectionfunctionabstract.getstartline.md)
+Отримує коротке ім'я функції
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує коротке ім'я функції
+-   [« ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.html)
+    
+-   [ReflectionFunctionAbstract::getStartLine »](reflectionfunctionabstract.getstartline.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Отримує коротке ім'я функції
+    
 
 # ReflectionFunctionAbstract::getShortName
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getShortName — Отримує коротке ім'я функції
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getShortName**(): string
+```methodsynopsis
+public ReflectionFunctionAbstract::getShortName(): string
+```
 
-Отримання короткого імені функції (без вказівки простору імен).
+Отримання короткого імені функції (без зазначення простору імен).
 
 ### Список параметрів
 
@@ -23,10 +31,9 @@ public **ReflectionFunctionAbstract::getShortName**(): string
 
 ### Значення, що повертаються
 
-Коротка назва функції.
+Короткий ім'я функції.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) -
-Отримання імені простору імен
-- [простір імен](language.namespaces.md)
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.html) - Отримання імені простору імен
+-   [пространства имён](language.namespaces.html)

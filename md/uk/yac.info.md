@@ -1,19 +1,27 @@
-- [« Yac::\_\_get](yac.getter.md)
-- [Yac::set »](yac.set.md)
+Стан кешу
 
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Стан кешу
+-   [« Yac::\_\_get](yac.getter.html)
+    
+-   [Yac::set »](yac.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yac](class.yac.html)
+    
+-   Стан кешу
+    
 
 # Yac::info
 
-(PECL yac \>= 1.0.0)
+(PECL yac >= 1.0.0)
 
 Yac::info — Стан кешу
 
 ### Опис
 
-public **Yac::info**(): array
+```methodsynopsis
+public Yac::info(): array
+```
 
 Отримує статус кеш-системи
 
@@ -23,6 +31,4 @@ public **Yac::info**(): array
 
 ### Значення, що повертаються
 
-Повернути масив, що відповідає: "memory_size", "slots_memory_size",
-"values_memory_size", "segment_size", "segment_num", "miss", "hits",
-"fails", "kicks", "recycles", "slots_size", "slots_used"
+Повернути відповідний масив: "memorysize", "slotsmemorysize", "valuesmemorysize", "segmentsize", "segmentnum", "miss", "hits", "fails", "kicks", "recycles", "slotssize", "slotsused"

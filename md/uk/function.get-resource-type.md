@@ -1,49 +1,62 @@
-- [«get_resource_id](function.get-resource-id.md)
-- [gettype»](function.gettype.md)
+Повертає тип ресурсу
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Повертає тип ресурсу
+-   [« get\_resource\_id](function.get-resource-id.html)
+    
+-   [gettype »](function.gettype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Повертає тип ресурсу
+    
 
-#get_resource_type
+# getresourcetype
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-get_resource_type — Повертає тип ресурсу
+getresourcetype — Повертає тип ресурсу
 
 ### Опис
 
-**get_resource_type**(resource `$resource`): string
+```methodsynopsis
+get_resource_type(resource $resource): string
+```
 
 Функція повертає тип ресурсу.
 
 ### Список параметрів
 
 `resource`
+
 Визначається дескриптор ресурсу.
 
 ### Значення, що повертаються
 
-Якщо цей параметр `resource` є ресурсом, функція повертає
-рядок, що вказує на його тип. Якщо тип не визначається цією функцією,
-значенням, що повертається, буде рядок `Unknown`.
+Якщо цей параметр `resource` є ресурсом, функція повертає рядок, що вказує на його тип. Якщо тип не визначається цією функцією, значенням, що повертається, буде рядок `Unknown`
 
-Функція повертає **`null`** і викликає помилку, якщо `resource` не
-є ресурсом (resource).
+Функція повертає **`null`** і викликає помилку, якщо `resource` не є ресурсом (resource).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_resource_type()****
+**Приклад #1 Приклад використання **getresourcetype()****
 
-`<?php// Починаючи з версії PHP 8.0.0, наступний код більше не працює. Функція curl_init тепер повертає об'єкт CurlHandle.$c =curl_init();echo get_resource_type($c) . "
-";?> `
+```php
+<?php
+
+// Начиная с версии PHP 8.0.0, следующий код больше не работает. Функция curl_init теперь возвращает объект CurlHandle.
+$c = curl_init();
+echo get_resource_type($c) . "\n";
+?>
+```
 
 Результат виконання цього прикладу в PHP 7:
 
+```
 stream
 curl
+```
 
 ### Дивіться також
 
-- [get_resource_id()](function.get-resource-id.md) - Повертає
-цілісний ідентифікатор для цього ресурсу
+-   [get\_resource\_id()](function.get-resource-id.html) - Повертає цілий ідентифікатор для даного ресурсу

@@ -1,22 +1,30 @@
-- [«EvLoop::stop](evloop.stop.md)
-- [EvLoop::timer »](evloop.timer.md)
+Припиняє цикл
 
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Припиняє цикл
+-   [« EvLoop::stop](evloop.stop.html)
+    
+-   [EvLoop::timer »](evloop.timer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvLoop](class.evloop.html)
+    
+-   Припиняє цикл
+    
 
 # EvLoop::suspend
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::suspend — Зупиняє цикл
+EvLoop::suspend — Припиняє цикл
 
 ### Опис
 
-public **EvLoop::suspend**(): void
+```methodsynopsis
+public
+   EvLoop::suspend(): void
+```
 
-Методи **EvLoop::suspend()** та [EvLoop::resume()](evloop.resume.md)
-зупиняють і відновлюють цикл відповідно.
+Методи **EvLoop::suspend()** і [EvLoop::resume()](evloop.resume.html) зупиняють та відновлюють цикл відповідно.
 
 ### Список параметрів
 
@@ -28,7 +36,5 @@ public **EvLoop::suspend**(): void
 
 ### Дивіться також
 
-- [EvLoop::resume()](evloop.resume.md) - Поновлює раніше
-призупинений цикл подій
-- [Ev::suspend()](ev.suspend.md) - Призупинити подійний цикл
-замовчуванням
+-   [EvLoop::resume()](evloop.resume.html) - Відновлює раніше зупинений цикл подій
+-   [Ev::suspend()](ev.suspend.html) - Зупинити подійний цикл за замовчуванням

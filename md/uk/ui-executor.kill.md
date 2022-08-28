@@ -1,19 +1,27 @@
-- [«UI\Executor::\_\_construct](ui-executor.construct.md)
-- [UI\Executor::onExecute »](ui-executor.onexecute.md)
+Зупинити виконавця
 
-- [PHP Manual](index.md)
-- [UI\Executor](class.ui-executor.md)
-- зупинити виконавець
+-   [« UI\\Executor::\_\_construct](ui-executor.construct.html)
+    
+-   [UI\\Executor::onExecute »](ui-executor.onexecute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Executor](class.ui-executor.html)
+    
+-   Зупинити виконавця
+    
 
-# UI\Executor::kill
+# ОЙExecutor::kill
 
 (UI 2.0.0)
 
-UI\Executor::kill — Зупинити виконавця
+ОЙExecutor::kill — Зупинити виконавця
 
 ### Опис
 
-public **UI\Executor::kill**(): void
+```methodsynopsis
+public UI\Executor::kill(): void
+```
 
 Зупинить виконавець, він не буде перезапущений
 

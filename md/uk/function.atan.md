@@ -1,9 +1,15 @@
-- [«atan2](function.atan2.md)
-- [atanh »](function.atanh.md)
+Арктангенс
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Арктангенс
+-   [« atan2](function.atan2.html)
+    
+-   [atanh »](function.atanh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Арктангенс
+    
 
 # atan
 
@@ -13,25 +19,25 @@ atan - Арктангенс
 
 ### Опис
 
-**atan**(float `$num`): float
+```methodsynopsis
+atan(float $num): float
+```
 
-Повертає арктангенс числа 'num' у радіанах. **atan()** - зворотна
-тригонометрична функція до [tan()](function.tan.md), тобто
-`a==tan(atan(a))` для кожного значення a, що входить в область значень
-функції **atan()**.
+Повертає арктангенс числа `num` у радіанах . **atan()** - зворотна тригонометрична функція до [tan()](function.tan.html), тобто `a==tan(atan(a))` для кожного значення a, що входить у область значень функції **atan()**
 
 ### Список параметрів
 
 `num`
+
 Аргумент функції
 
 ### Значення, що повертаються
 
-Арктангенс числа 'num' у радіанах.
+Арктангенс числа `num` у радіанах.
 
 ### Дивіться також
 
-- [tan()](function.tan.md) - Тангенс
-- [atanh()](function.atanh.md) - Гіперболічний арктангенс
-- [asin()](function.asin.md) - Арксінус
-- [acos()](function.acos.md) - Арккосінус
+-   [tan()](function.tan.html) - Тангенс
+-   [atanh()](function.atanh.html) - гіперболічний арктангенс
+-   [asin()](function.asin.html) - Арксінус
+-   [acos()](function.acos.html) - Арккосінус

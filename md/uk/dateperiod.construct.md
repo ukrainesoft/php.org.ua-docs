@@ -1,95 +1,136 @@
-- [« DatePeriod](class.dateperiod.md)
-- [DatePeriod::getDateInterval »](dateperiod.getdateinterval.md)
+Створює новий об'єкт DatePeriod
 
-- [PHP Manual](index.md)
-- [DatePeriod](class.dateperiod.md)
-- Створює новий об'єкт DatePeriod
+-   [« DatePeriod](class.dateperiod.html)
+    
+-   [DatePeriod::getDateInterval »](dateperiod.getdateinterval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DatePeriod](class.dateperiod.html)
+    
+-   Створює новий об'єкт DatePeriod
+    
 
-# DatePeriod::\_\_construct
+# DatePeriod::construct
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-DatePeriod::\_\_construct — Створює новий об'єкт DatePeriod
+DatePeriod::construct — Створює новий об'єкт DatePeriod
 
 ### Опис
 
-public **DatePeriod::\_\_construct**(
-[DateTimeInterface](class.datetimeinterface.md) `$start`,
-[DateInterval](class.dateinterval.md) `$interval`,
-int `$recurrences`,
-int `$options` = 0
-)
+public **DatePeriod::construct**  
+[DateTimeInterface](class.datetimeinterface.html) `$start`  
+[DateInterval](class.dateinterval.html) `$interval`  
+int `$recurrences`  
+int `$options`  
 
-public **DatePeriod::\_\_construct**(
-[DateTimeInterface](class.datetimeinterface.md) `$start`,
-[DateInterval](class.dateinterval.md) `$interval`,
-[DateTimeInterface](class.datetimeinterface.md) `$end`,
-int `$options` = 0
-)
+public **DatePeriod::construct**  
+[DateTimeInterface](class.datetimeinterface.html) `$start`  
+[DateInterval](class.dateinterval.html) `$interval`  
+[DateTimeInterface](class.datetimeinterface.html) `$end`  
+int `$options`  
 
-public **DatePeriod::\_\_construct**(string `$isostr`, int `$options` =
-0)
+public **DatePeriod::construct**(string `$isostr`, int `$options`
 
 Створює новий об'єкт DatePeriod.
 
 ### Список параметрів
 
 `start`
+
 Початкова дата.
 
 `interval`
+
 Інтервал.
 
 `recurrences`
-Кількість повторень. Має бути більше `0`.
+
+Кількість повторень. Має бути більше `0`
 
 `end`
+
 Кінцева дата.
 
 `isostr`
-Рядок, що містить інтервал згідно [спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові
-входження (`R0/`) не підтримуються.
+
+Рядок, що містить інтервал згідно [» спецификации ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові входження (`R0/`) не підтримуються.
 
 `options`
-Можливе значення **`DatePeriod::EXCLUDE_START_DATE`** для
-виняток початкової дати з періоду.
 
-### Список змін
+Можливе значення **`DatePeriod::EXCLUDE_START_DATE`** для виключення початкової дати із періоду.
 
-| Версія               | Опис                           |
-|----------------------|--------------------------------|
-| 7.2.19, 7.3.6, 7.4.0 | recurrences має бути більше 0. |
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | `recurrences` має бути більше `0` |
 
 ### Приклади
 
 **Приклад #1 Приклад використання DatePeriod**
 
-` <?php$start = new DateTime('2012-07-01');$interval = new DateInterval('P7D');$end = new DateTime('2012-07-31');$recurrences = $iso = 'R4/2012-07-01T00:00:00Z/P7D';// Ці періоди еквівалентні.$period = new DatePeriod($start, $interval, $recurrences);$period = $interval, $end);$period = new DatePeriod($iso);// При переборі примірника DatePeriod в циклі будуть відображені всі відібрані дати// періоду. 'Y-m-d')."
-";}?> `
+```php
+<?php
+$start = new DateTime('2012-07-01');
+$interval = new DateInterval('P7D');
+$end = new DateTime('2012-07-31');
+$recurrences = 4;
+$iso = 'R4/2012-07-01T00:00:00Z/P7D';
+
+// Эти периоды эквивалентны.
+$period = new DatePeriod($start, $interval, $recurrences);
+$period = new DatePeriod($start, $interval, $end);
+$period = new DatePeriod($iso);
+
+// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты
+// периода.
+foreach ($period as $date) {
+    echo $date->format('Y-m-d')."\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2012-07-01
 2012-07-08
 2012-07-15
 2012-07-22
 2012-07-29
+```
 
-**Приклад #2 Приклад використання DatePeriod з
-**`DatePeriod::EXCLUDE_START_DATE`****
+**Приклад #2 Приклад використання DatePeriod з **`DatePeriod::EXCLUDE_START_DATE`****
 
-` <?php$start = new DateTime('2012-07-01');$interval = new DateInterval('P7D');$end = new DateTime('2012-07-31');$period = ne ($start, $interval, $end,                         DatePeriod::EXCLUDE_START_DATE);// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты// периода.// Однако в этом случае 2012-07-01 не будет отображена.foreach ( $period as $date) {   echo $date->format('Y-m-d')."
-";}?> `
+```php
+<?php
+$start = new DateTime('2012-07-01');
+$interval = new DateInterval('P7D');
+$end = new DateTime('2012-07-31');
+
+$period = new DatePeriod($start, $interval, $end,
+                         DatePeriod::EXCLUDE_START_DATE);
+
+// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты
+// периода.
+// Однако в этом случае 2012-07-01 не будет отображена.
+foreach ($period as $date) {
+    echo $date->format('Y-m-d')."\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2012-07-08
 2012-07-15
 2012-07-22
 2012-07-29
+```
 
 ### Примітки
 
-Нескладне кількість повторень, визначених у розділі 4.5 ISO 8601
-"Recurring time interval", не підтримується, тобто ні передача
-`"R/..."' в `isostr`, ні **`null`** в `end`, не працюватимуть.
+Незв'язкова кількість повторень, визначених у секції 4.5 ISO 8601 "Recurring time interval", не підтримується, тобто ні передача `"R/..."` в `isostr`ні **`null`** в `end`, не працюватимуть.

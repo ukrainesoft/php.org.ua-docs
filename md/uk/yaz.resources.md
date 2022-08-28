@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](yaz.configuration.md)
-- [Предвизначені константи »](yaz.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yaz.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](yaz.configuration.html)
+    
+-   [Предопределённые константы »](yaz.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](yaz.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

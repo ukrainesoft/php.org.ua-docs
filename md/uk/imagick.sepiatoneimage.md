@@ -1,9 +1,15 @@
-- [« Imagick::separateImageChannel](imagick.separateimagechannel.md)
-- [Imagick::setBackgroundColor »](imagick.setbackgroundcolor.md)
+Тонування зображення сепією
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Тонування зображення сепією
+-   [« Imagick::separateImageChannel](imagick.separateimagechannel.html)
+    
+-   [Imagick::setBackgroundColor »](imagick.setbackgroundcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Тонування зображення сепією
+    
 
 # Imagick::sepiaToneImage
 
@@ -13,12 +19,11 @@ Imagick::sepiaToneImage — Тонування зображення сепією
 
 ### Опис
 
-public **Imagick::sepiaToneImage**(float `$threshold`): bool
+```methodsynopsis
+public Imagick::sepiaToneImage(float $threshold): bool
+```
 
-Застосовує до зображення спеціальний ефект, аналогічний ефекту,
-досягається у фотолабораторії за допомогою тонування сепією. поріг
-варіюється від 0 до QuantumRange і є мірою ступеня тонування
-сепії. Поріг 80 – хороша відправна точка для розумного тону.
+Застосовує до зображення спеціальний ефект, аналогічний ефекту, що досягається фотолабораторії за допомогою тонування сепією. Поріг варіюється від 0 до QuantumRange і є мірою тонування сепії. Поріг 80 - відправна точка для розумного тону.
 
 ### Список параметрів
 
@@ -26,7 +31,7 @@ public **Imagick::sepiaToneImage**(float `$threshold`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -36,4 +41,14 @@ public **Imagick::sepiaToneImage**(float `$threshold`): bool
 
 **Приклад #1 Приклад використання **Imagick::sepiaToneImage()****
 
-`<?phpfunction sepiaToneImage($imagePath, $sepia) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->sepiaToneImage($sepia); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function sepiaToneImage($imagePath, $sepia) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->sepiaToneImage($sepia);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

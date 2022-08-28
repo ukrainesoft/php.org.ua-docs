@@ -1,20 +1,27 @@
-- [« ReflectionClassConstant::getName](reflectionclassconstant.getname.md)
-- [ReflectionClassConstant::isFinal »](reflectionclassconstant.isfinal.md)
+Отримує значення
 
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- набуває значення
+-   [« ReflectionClassConstant::getName](reflectionclassconstant.getname.html)
+    
+-   [ReflectionClassConstant::isEnumCase »](reflectionclassconstant.isenumcase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClassConstant](class.reflectionclassconstant.html)
+    
+-   Отримує значення
+    
 
 # ReflectionClassConstant::getValue
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
 ReflectionClassConstant::getValue — Отримує значення
 
 ### Опис
 
-public **ReflectionClassConstant::getValue**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionClassConstant::getValue(): mixed
+```
 
 Отримує значення константи класу.
 

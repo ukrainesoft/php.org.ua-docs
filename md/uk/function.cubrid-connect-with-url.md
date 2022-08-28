@@ -1,149 +1,150 @@
-- [«cubrid_commit](function.cubrid-commit.md)
-- [cubrid_connect »](function.cubrid-connect.md)
+Створює оточення для з'єднання із сервером CUBRID
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Створює оточення для з'єднання із сервером CUBRID
+-   [« cubrid\_commit](function.cubrid-commit.html)
+    
+-   [cubrid\_connect »](function.cubrid-connect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Створює оточення для з'єднання із сервером CUBRID
+    
 
-#cubrid_connect_with_url
+# cubridconnectwithurl
 
-(PECL CUBRID = 8.3.1)
+(PECL CUBRID >= 8.3.1)
 
-cubrid_connect_with_url — Створює оточення для підключення до сервера
-CUBRID
+cubridconnectwithurl — Створює оточення для з'єднання із сервером CUBRID
 
 ### Опис
 
-**cubrid_connect_with_url**(
-string `$conn_url`,
-string `$userid` = ?,
-string `$passwd` = ?,
-bool `$new_link` = **`false`**
-): resource
+```methodsynopsis
+cubrid_connect_with_url(    string $conn_url,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
+```
 
-Функція **cubrid_connect_with_url()** використовується для створення
-оточення для з'єднання з сервером за допомогою інформації заданої в
-у вигляді рядка URL. Якщо у CUBRID дозволена функціональність високою
-доступності, необхідно встановити інформацію для з'єднання з резервним
-сервером, яка буде використовуватися для з'єднання, якщо з основним
-щось трапиться. Якщо логін та пароль не задані, то за замовчуванням буде
-використовувати з'єднання "PUBLIC".
+Функція **cubridconnectwithurl()** використовується для створення оточення для з'єднання з сервером за допомогою інформації, заданої у вигляді рядка URL. Якщо в CUBRID дозволена функціональність високої доступності, необхідно встановити інформацію для з'єднання з резервним сервером, яка буде використовуватися для з'єднання, якщо з основним щось трапиться. Якщо логін та пароль не задані, то за умовчанням використовуватиметься з'єднання "PUBLIC".
 
-\<url\> ::=
-CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:[?\<properties\>]
+::= CUBRID:::::
 
-\<properties\> ::= \<property\> [&\<property\>]
+&
 
-\<properties\> ::= alhosts=\<alternative_hosts\>[ &rctime=\<time\>]
+::= alhosts= &rctime=
 
-\<properties\> ::= login_timeout=\<milli_sec\>
+::= logintimeout=
 
-\<properties\> ::= query_timeout=\<milli_sec\>
+::= querytimeout=
 
-\<properties\> ::= disconnect_on_query_timeout=true\|false
+::= disconnectвінquerytimeout=true|false
 
-\<alternative_hosts\> ::= \<standby_broker1_host\>:\<port\>
-[,\<standby_broker2_host\>:\<port\>]
+::= : ,:
 
-\<host\> := HOSTNAME \| IP_ADDR
+:= HOSTNAME | IPADDR
 
-\<time\> := SECOND
+:= SECOND
 
-\<milli_sec\> := MILLI SECOND
+:= MILLI SECOND
 
-- host : Ім'я хоста або IP-адреса основного сервера
-- db_name: ім'я бази даних
-- db_user : Ім'я користувача
-- db_password: пароль
-- alhosts : Задає інформацію про брокера резервного сервера, який
-буде використовуватись у разі недоступності основного. Якщо ви
-задайте кілька резервних брокерів, то спроби з'єднання будуть
-відбуватися у тому порядку, як вони описані в URL.
-- rctime : Інтервал між спробами підключення до активного брокера,
-якому стався збій. після виникнення помилки, система
-з'єднається з резервним брокерам, зазначеним у althosts (failover),
-відкотить незавершені транзакції, а потім спробує з'єднатися з
-активним брокером основного вузла через кожні rctime. Значення по
-замовчуванням 600 секунд.
-- login_timeout : Максимальний час (мілісекунди) очікування
-авторизації. За замовчуванням 0, що означає нескінченний час
-очікування.
-- query_timeout : Максимальний час (мілісекунди) очікування
-виконання запиту. Після вичерпання цього часу на сервер буде
-надіслано повідомлення про припинення запиту. Повернене значення
-запит буде залежати від налаштування disconnect_on_query_timeout;
-навіть якщо буде надіслано повідомлення про припинення запиту, він все ще
-може завершитися успішно.
-- disconnect_on_query_timeout : Визначає, чи буде відразу після
-перевищення часу очікування запиту повернуто помилку. За замовчуванням
-**`false`**.
+-   host : Ім'я хоста або IP-адреса основного сервера
+-   дбname : ім'я бази даних
+-   дбuser : Ім'я користувача
+-   дбpassword : пароль
+-   alhosts : Задає інформацію про брокера резервного сервера, який буде використовуватись у разі недоступності основного. Якщо ви задасте кілька резервних брокерів, спроби з'єднання будуть відбуватися в тому ж порядку, як вони описані в URL.
+-   rctime : Інтервал між спробами підключення до активного брокера, у якому відбувся збій. Після виникнення помилки, система з'єднається з резервним брокерам, вказаним у althosts (failover), відкотить незавершені транзакції, і потім спробує з'єднатися з активним брокером основного вузла через кожні rctime. Значення за промовчанням 600 секунд.
+-   logintimeout : Максимальний час (мілісекунди) очікування на авторизацію. За умовчанням 0, що означає нескінченний час очікування.
+-   querytimeout : Максимальний час (мілісекунди) очікування на виконання запиту. Після вичерпання цього часу на сервер буде надіслано повідомлення про припинення запиту. Повернене значення запиту залежатиме від налаштування disconnectвінquerytimeout; навіть якщо буде надіслано повідомлення про припинення запиту, він може завершитися вдало.
+-   disconnectвінquerytimeout : Визначає, чи повертається помилка відразу після перевищення часу очікування запиту. За замовчуванням **`false`**
 
-> **Примітка**:
->
-> Символи `?` та `:` є спеціальними в URL з'єднання і не можуть
-> використовувати у паролі. Приклад некоректного пароля, який
-> не можна використовувати в рядку з'єднання, тому що в ньому
-> використовуються символи "?:".
->
-> $url = "CUBRID:localhost:33000:tdb:dba:12?:?login_timeout=100";
->
+> **Зауваження**
+> 
+> Символи `?` і `:` є спеціальними в URL-з'єднання і не можуть бути використані в паролі. Приклад некоректного пароля, який не можна використовувати в рядку з'єднання, тому що в ньому використовуються символи "`?:`".
+> 
+> $url = "CUBRID:localhost:33000:tdb:dba:12?:?logintimeout=100";
+> 
 > Паролі, що містять `?` або `:` можуть бути надіслані окремо.
->
-> $url = "CUBRID:localhost:33000:tbd:::?login_timeout=100";
->
-> $conn = cubrid_connect_with_url($url, "dba", "12?");
->
-> Якщо логін або пароль порожні, необхідно все одно зберігати символи
-> "`:`":
->
+> 
+> $url = "CUBRID:localhost:33000:tbd:::?logintimeout=100";
+> 
+> $conn = cubridconnectwithurl($url, "dba", "12?");
+> 
+> Якщо логін або пароль порожні, необхідно зберігати символи "`:`":
+> 
 > $url = "CUBRID:localhost:33000:demodb:::";
 
 ### Список параметрів
 
 `conn_url`
+
 Рядок, що містить інформацію для з'єднання.
 
 `userid`
+
 Ім'я користувача.
 
 `passwd`
+
 пароль.
 
 `new_link`
-Якщо функція **cubrid_connect_with_url()** була викликана повторно
-такими ж аргументами, нове з'єднання не буде створено замість нього
-буде повернено ідентифікатор існуючого підключення. Параметр
-`new_link` змінює таку поведінку і змушує
-**cubrid_connect_with_url()** у будь-якому випадку створити нове з'єднання,
-навіть якщо функція **cubrid_connect_with_url()** раніше була викликана з
-такими самими аргументами.
+
+Якщо функція **cubridconnectwithurl()** була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує **cubridconnectwithurl()** у будь-якому випадку створити нове з'єднання, навіть якщо функція **cubridconnectwithurl()** раніше була викликана з такими самими аргументами.
 
 ### Значення, що повертаються
 
-Ідентифікатор підключення у разі успішного виконання або **`false`**
-у разі виникнення помилки.
+Ідентифікатор підключення у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_connect_with_url()** без
-завдання властивостей**
+**Приклад #1 Приклад використання **cubridconnectwithurl()** без завдання властивостей**
 
-` <?php$conn_url=="CUBRID:localhost:33000:demodb:dba::";$con = cubrid_connect_with_url($conn_url);if ($con) {   echo "connected successfully"; cubrid_execute($con, "create table person(id int,name char(16))"); $req =cubrid_execute($con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request($req); cubrid_commit($con); } else {      cubrid_rollback($con); }   cubrid_disconnect($con);}?> `
+```php
+<?php
+$conn_url = "CUBRID:localhost:33000:demodb:dba::";
+$con = cubrid_connect_with_url($conn_url);
 
-**Приклад #2 Приклад використання **cubrid_connect_with_url()** з
-завданням властивостей**
+if ($con) {
+   echo "connected successfully";
+   cubrid_execute($con, "create table person(id int,name char(16))");
+   $req =cubrid_execute($con, "insert into person values(1,'James')");
 
-` <?php$conn_url=="CUBRID:127.0.0.1:33000:demodb:dba::?login_timeout=100";$con = cubrid_connect_with_url ($conn_url);if ($con) {  cubrid_execute($con, "create table person(id int,name char(16))"); $req =cubrid_execute($con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request($req); cubrid_commit($con); } else {      cubrid_rollback($con); }   cubrid_disconnect($con);}?> `
+   if ($req) {
+      cubrid_close_request($req);
+      cubrid_commit($con);
+   } else {
+      cubrid_rollback($con);
+   }
+   cubrid_disconnect($con);
+}
+?>
+```
+
+**Приклад #2 Приклад використання **cubridconnectwithurl()** із завданням властивостей**
+
+```php
+<?php
+$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::?login_timeout=100";
+$con = cubrid_connect_with_url ($conn_url);
+
+if ($con) {
+   echo "connected successfully";
+   cubrid_execute($con, "create table person(id int,name char(16))");
+   $req =cubrid_execute($con, "insert into person values(1,'James')");
+
+   if ($req) {
+      cubrid_close_request($req);
+      cubrid_commit($con);
+   } else {
+      cubrid_rollback($con);
+   }
+   cubrid_disconnect($con);
+}
+?>
+```
 
 ### Дивіться також
 
-- [cubrid_connect()](function.cubrid-connect.md) - Відкриває
-з'єднання з сервером CUBRID
-- [cubrid_pconnect()](function.cubrid-pconnect.md) - Відкриває
-постійне з'єднання із сервером CUBRID
-- [cubrid_pconnect_with_url()](function.cubrid-pconnect-with-url.md) -
-Відкриває постійне з'єднання із сервером CUBRID
-- [cubrid_disconnect()](function.cubrid-disconnect.md) - Закриває
-з'єднання з базою даних
-- [cubrid_close()](function.cubrid-close.md) - Закриває з'єднання
-з базою даних
+-   [cubrid\_connect()](function.cubrid-connect.html) - Відкриває з'єднання з сервером CUBRID
+-   [cubrid\_pconnect()](function.cubrid-pconnect.html) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubrid\_pconnect\_with\_url()](function.cubrid-pconnect-with-url.html) - Відкриває постійне з'єднання із сервером CUBRID
+-   [cubrid\_disconnect()](function.cubrid-disconnect.html) - Закриває з'єднання з базою даних
+-   [cubrid\_close()](function.cubrid-close.html) - Закриває з'єднання з базою даних

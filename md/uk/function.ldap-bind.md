@@ -1,61 +1,112 @@
-- [« ldap_bind_ext](function.ldap-bind-ext.md)
-- [ldap_close »](function.ldap-close.md)
+Прив'язати до LDAP директорії
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Прив'язати до LDAP директорії
+-   [« ldap\_bind\_ext](function.ldap-bind-ext.html)
+    
+-   [ldap\_close »](function.ldap-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Прив'язати до LDAP директорії
+    
 
-#ldap_bind
+# ldapbind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_bind — Прив'язати до директорії LDAP
+ldapbind — Прив'язати до LDAP директорії
 
 ### Опис
 
-**ldap_bind**([LDAP\Connection](class.ldap-connection.md) `$ldap`,
-?string `$dn` = **`null`**, ?string `$password` = **`null`**): bool
+```methodsynopsis
+ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): bool
+```
 
 Зв'язує LDAP-директорію із зазначеним RDN та паролем.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `dn`
 
 `password`
 
-Якщо `password` не визначено, то буде спроба анонімної прив'язки. Також
-для анонімної прив'язки можна залишити порожнім `dn`, як визначено в
-https://translate.google.com/translate?hl=emj&sl=ru&tl=uk&u=https://tools.ietf.org/html/rfc2251#section-4.2.2
+Якщо `password` не визначено, то буде спроба анонімної прив'язки. Також для анонімної прив'язки можна залишити порожнім `dn`, як визначено в [https://tools.ietf.org/html/rfc2251#section-4.2.2](https://tools.ietf.org/html/rfc2251#section-4.2.2)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 Приклад використання прив'язки LDAP**
 
-` <?php// використовується|ldap-прив'язка$ldaprdn = 'uname'; //ldap rdn або dn$ldappass = 'password'; // асоційований пароль// з'єднання з сервером$ldapconn = ldap_connect("ldap://ldap.example.com")    or die("Не можу з'єднатися з сервером LDAP."   ldap-серверу $ldapbind = ldap_bind ($ ldapconn, $ ldaprdn, $ ldappass); // перевірка прив'язки    if ($ldapbind) {        echo "LDAP-прив'язка успішна..."; } else {        echo "LDAP-прив'язка не удалася..."; }}?> `
+```php
+<?php
+
+// используется ldap-привязка
+$ldaprdn  = 'uname';     // ldap rdn или dn
+$ldappass = 'password';  // ассоциированный пароль
+
+// соединение с сервером
+$ldapconn = ldap_connect("ldap://ldap.example.com")
+    or die("Не могу соединиться с сервером LDAP.");
+
+if ($ldapconn) {
+
+    // привязка к ldap-серверу
+    $ldapbind = ldap_bind($ldapconn, $ldaprdn, $ldappass);
+
+    // проверка привязки
+    if ($ldapbind) {
+        echo "LDAP-привязка успешна...";
+    } else {
+        echo "LDAP-привязка не удалась...";
+    }
+
+}
+
+?>
+```
 
 **Приклад #2 Використання анонімної прив'язки LDAP**
 
-` <?php//анонімне використання ldap-прив'язки// з'єднання з сервером ldap$ldapconn = ldap_connect("ldap://ldap.example.com")    or die("Не можу з'єднатися | $ldapconn) {    // анонімна прив'язка   $ldapbind =ldap_bind($ldapconn); if ($ldapbind) {        echo "Анонімна прив'язка LDAP минула успішно..."; } else {        echo "Анонімна прив'язка LDAP не удалася..."; }}?> `
+```php
+<?php
+
+//анонимное использование ldap-привязки
+
+// соединение с сервером ldap
+$ldapconn = ldap_connect("ldap://ldap.example.com")
+    or die("Не могу соединиться с сервером LDAP.");
+
+if ($ldapconn) {
+
+    // анонимная привязка
+    $ldapbind = ldap_bind($ldapconn);
+
+    if ($ldapbind) {
+        echo "Анонимная привязка LDAP прошла успешно...";
+    } else {
+        echo "Анонимная привязка LDAP не удалась...";
+    }
+
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [ldap_bind_ext()](function.ldap-bind-ext.md) - Прив'язати до
-директорії LDAP
-- [ldap_unbind()](function.ldap-unbind.md) - Розірвати прив'язку до
-директорії LDAP
+-   [ldap\_bind\_ext()](function.ldap-bind-ext.html) - Прив'язати до директорії LDAP
+-   [ldap\_unbind()](function.ldap-unbind.html) - Розірвати прив'язку до директорії LDAP

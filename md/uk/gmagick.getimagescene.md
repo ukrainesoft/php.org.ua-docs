@@ -1,19 +1,27 @@
-- [« Gmagick::getimageresolution](gmagick.getimageresolution.md)
-- [Gmagick::getimagesignature »](gmagick.getimagesignature.md)
+Отримує сцену зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує сцену зображення
+-   [« Gmagick::getimageresolution](gmagick.getimageresolution.html)
+    
+-   [Gmagick::getimagesignature »](gmagick.getimagesignature.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Отримує сцену зображення
+    
 
 # Gmagick::getimagescene
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagescene — Отримує сцену зображення
 
 ### Опис
 
-public **Gmagick::getimagescene**(): int
+```methodsynopsis
+public Gmagick::getimagescene(): int
+```
 
 Отримує сцену зображення.
 

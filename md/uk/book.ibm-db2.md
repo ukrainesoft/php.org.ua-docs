@@ -1,135 +1,74 @@
-- [« ibase_wait_event](function.ibase-wait-event.md)
-- [Вступ »](intro.ibm-db2.md)
+IBM DB2, Cloudscape та Apache Derby
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
-- IBM DB2, Cloudscape та Apache Derby
+-   [« ibase\_wait\_event](function.ibase-wait-event.html)
+    
+-   [Введение »](intro.ibm-db2.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с базами данных отдельных производителей](refs.database.vendors.html)
+    
+-   IBM DB2, Cloudscape та Apache Derby
+    
 
 # IBM DB2, Cloudscape та Apache Derby
 
-- [Вступ](intro.ibm-db2.md)
-- [Встановлення та налаштування](ibm-db2.setup.md)
-- [Вимоги](ibm-db2.requirements.md)
-- [Установка](ibm-db2.installation.md)
-- [Налаштування під час виконання](ibm-db2.configuration.md)
-- [Типи ресурсів](ibm-db2.resources.md)
-- [Предвизначені константи](ibm-db2.constants.md)
-- [Функції IBM DB2](ref.ibm-db2.md)
-- [db2_autocommit](function.db2-autocommit.md) — Повертає або
-встановлює режим автопідтвердження транзакцій для з'єднання
-- [db2_bind_param](function.db2-bind-param.md) - Зв'язує
-змінну PHP з параметром SQL-виразу
-- [db2_client_info](function.db2-client-info.md) - Повертає
-об'єкт з властивостями, що описують клієнта DB2
-- [db2_close](function.db2-close.md) — Закриває з'єднання з
-базою даних
-- [db2_column_privileges](function.db2-column-privileges.md)
-Повертає результуючий набір, що перераховує стовпці та
-пов'язані з ним привілеї для таблиці
-- [db2_columns](function.db2-columns.md) — Повертає
-результуючий набір, що перераховує стовпці та пов'язані з ними
-метадані для таблиці
-- [db2_commit](function.db2-commit.md) — Підтверджує транзакцію
-- [db2_conn_error](function.db2-conn-error.md) — Повертає
-рядок, що містить значення SQLSTATE, повернутий останній
-спробою підключення
-- [db2_conn_errormsg](function.db2-conn-errormsg.md) -
-Повертає останнє повідомлення про помилку підключення та значення
-SQLCODE
-- [db2_connect](function.db2-connect.md) — Повертає з'єднання
-з базою даних
-- [db2_cursor_type](function.db2-cursor-type.md) — Повертає
-тип курсору, який використовується у ресурсі оператора
-- [db2_escape_string](function.db2-escape-string.md) -
-Використовується для екранування деяких символів
-- [db2_exec](function.db2-exec.md) — Виконує SQL-запит
-безпосередньо
-- [db2_execute](function.db2-execute.md) — Виконує
-підготовлений SQL-запит
-- [db2_fetch_array](function.db2-fetch-array.md) — Повертає
-масив, індексований за положенням стовпця, що представляє
-рядок у наборі результатів
-- [db2_fetch_assoc](function.db2-fetch-assoc.md) - Повертає
-масив, індексований на ім'я стовпця, що представляє рядок
-у наборі результатів
-- [db2_fetch_both](function.db2-fetch-both.md) - Повертає
-масив, індексований як на ім'я стовпця, і за позицією,
-представляє рядок у наборі результатів
-- [db2_fetch_object](function.db2-fetch-object.md) — Повертає
-об'єкт з властивостями, що становлять стовпці у вибраному рядку
-- [db2_fetch_row](function.db2-fetch-row.md) - Встановлює
-покажчик набору результатів на наступний рядок або запитаний
-рядок
-- [db2_field_display_size](function.db2-field-display-size.md) -
-Повертає максимальну кількість байтів, необхідну для
-відображення стовпця
-- [db2_field_name](function.db2-field-name.md) — Повертає ім'я
-стовпця у наборі результатів
-- [db2_field_num](function.db2-field-num.md) — Повертає
-позицію зазначеного стовпця у наборі результатів
-- [db2_field_precision](function.db2-field-precision.md) -
-Повертає точність зазначеного стовпця у наборі результатів
-- [db2_field_scale](function.db2-field-scale.md) - Повертає
-масштаб вказаного стовпця у наборі результатів
-- [db2_field_type](function.db2-field-type.md) — Повертає тип
-даних вказаного стовпця у наборі результатів
-- [db2_field_width](function.db2-field-width.md) — Повертає
-ширину поточного значення вказаного стовпця у наборі результатів
-- [db2_foreign_keys](function.db2-foreign-keys.md) — Повертає
-набір результатів, у якому перелічені зовнішні ключі таблиці
-- [db2_free_result](function.db2-free-result.md) — Звільняє
-ресурси, пов'язані з набором результатів
-- [db2_free_stmt](function.db2-free-stmt.md) - Звільняє
-ресурси, пов'язані із зазначеним ресурсом вираження
-- [db2_get_option](function.db2-get-option.md) — Витягує
-значення параметра для ресурсу оператора або ресурсу з'єднання
-- [db2_last_insert_id](function.db2-last-insert-id.md) -
-Повертає автоматично згенерований ідентифікатор
-останнього запиту на додавання, успішно виконаного в цьому
-з'єднанні
-- [db2_lob_read](function.db2-lob-read.md) — Отримує
-визначений користувачем розмір LOB-файлів під час кожного виклику
-- [db2_next_result](function.db2-next-result.md) — Запитує
-наступний набір результатів із процедури, що зберігається
-- [db2_num_fields](function.db2-num-fields.md) — Повертає
-кількість полів у результуючому наборі
-- [db2_num_rows](function.db2-num-rows.md) - Повертає
-кількість рядків, порушених SQL-запитом
-- [db2_pclose](function.db2-pclose.md) - Закриває постійне
-з'єднання з базою даних
-- [db2_pconnect](function.db2-pconnect.md) — Повертає
-постійне з'єднання з базою даних
-- [db2_prepare](function.db2-prepare.md) — Підготовка
-SQL-запит до виконання
-- [db2_primary_keys](function.db2-primary-keys.md) — Повертає
-набір результатів, що містить первинні ключі таблиці
-- [db2_procedure_columns](function.db2-procedure-columns.md)
-Повертає набір результатів зі списком параметрів збереженої
-процедури
-- [db2_procedures](function.db2-procedures.md) — Повертає
-набір результатів, в якому перераховані процедури, що зберігаються,
-зареєстровані у базі даних
-- [db2_result](function.db2-result.md) — Повертає один стовпець
-з рядка у наборі результатів
-- [db2_rollback](function.db2-rollback.md) - Відкочує
-транзакцію
-- [db2_server_info](function.db2-server-info.md) - Повертає
-об'єкт з властивостями, що описують сервер бази даних DB2
-- [db2_set_option](function.db2-set-option.md) — Встановлення опції
-для з'єднання або ресурсу оператора
-- [db2_special_columns](function.db2-special-columns.md)
-Повертає набір результатів, в якому перераховані стовпці з
-унікальним ідентифікатором рядка таблиці
-- [db2_statistics](function.db2-statistics.md) — Повертає
-набір результатів, що містить індекс та статистику таблиці
-- [db2_stmt_error](function.db2-stmt-error.md) — Повертає
-рядок, що містить SQLSTATE, повернутий SQL-оператором
-- [db2_stmt_errormsg](function.db2-stmt-errormsg.md) -
-Повертає рядок, що містить останнє повідомлення про помилку
-SQL-вирази
-- [db2_table_privileges](function.db2-table-privileges.md) -
-Повертає набір результатів, у якому перераховані таблиці та
-пов'язані з ними права доступу до бази даних
-- [db2_tables](function.db2-tables.md) — Повертає набір
-результатів, в якому перераховані таблиці та пов'язані
-метадані у базі даних
+-   [Введение](intro.ibm-db2.html)
+-   [Установка и настройка](ibm-db2.setup.html)
+    -   [Требования](ibm-db2.requirements.html)
+    -   [Установка](ibm-db2.installation.html)
+    -   [Настройка во время выполнения](ibm-db2.configuration.html)
+    -   [Типы ресурсов](ibm-db2.resources.html)
+-   [Предопределённые константы](ibm-db2.constants.html)
+-   [Функции IBM DB2](ref.ibm-db2.html)
+    -   [db2\_autocommit](function.db2-autocommit.html) — Повертає або встановлює режим підтвердження транзакцій для з'єднання
+    -   [db2\_bind\_param](function.db2-bind-param.html) — Зв'язує змінну PHP із параметром SQL-виразу
+    -   [db2\_client\_info](function.db2-client-info.html) — Повертає об'єкт із властивостями, що описують клієнта DB2
+    -   [db2\_close](function.db2-close.html) — Закриває з'єднання з базою даних
+    -   [db2\_column\_privileges](function.db2-column-privileges.html) — Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
+    -   [db2\_columns](function.db2-columns.html) — Повертає результуючий набір, що перераховує стовпці та метадані для таблиці, пов'язані з ними.
+    -   [db2\_commit](function.db2-commit.html) - Підтверджує транзакцію
+    -   [db2\_conn\_error](function.db2-conn-error.html) — Повертає рядок, який містить значення SQLSTATE, повернене останньою спробою підключення
+    -   [db2\_conn\_errormsg](function.db2-conn-errormsg.html) — Повертає останнє повідомлення про помилку підключення та значення SQLCODE
+    -   [db2\_connect](function.db2-connect.html) — Повертає з'єднання з базою даних
+    -   [db2\_cursor\_type](function.db2-cursor-type.html) — Повертає тип курсору, який використовується у ресурсі оператора
+    -   [db2\_escape\_string](function.db2-escape-string.html) — Використовується для екранування деяких символів
+    -   [db2\_exec](function.db2-exec.html) — Виконує SQL-запит безпосередньо
+    -   [db2\_execute](function.db2-execute.html) - Виконує підготовлений SQL-запит
+    -   [db2\_fetch\_array](function.db2-fetch-array.html) — Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
+    -   [db2\_fetch\_assoc](function.db2-fetch-assoc.html) — Повертає масив, індексований на ім'я стовпця, який представляє рядок у наборі результатів
+    -   [db2\_fetch\_both](function.db2-fetch-both.html) — Повертає масив, індексований як на ім'я стовпця, так і на позицію, що представляє рядок у наборі результатів
+    -   [db2\_fetch\_object](function.db2-fetch-object.html) — Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
+    -   [db2\_fetch\_row](function.db2-fetch-row.html) — Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+    -   [db2\_field\_display\_size](function.db2-field-display-size.html) — Повертає максимальну кількість байтів, необхідну для відображення стовпця
+    -   [db2\_field\_name](function.db2-field-name.html) — Повертає ім'я стовпця у наборі результатів
+    -   [db2\_field\_num](function.db2-field-num.html) — Повертає позицію зазначеного стовпця у наборі результатів
+    -   [db2\_field\_precision](function.db2-field-precision.html) — Повертає точність зазначеного стовпця у наборі результатів
+    -   [db2\_field\_scale](function.db2-field-scale.html) — Повертає масштаб вказаного стовпця у наборі результатів
+    -   [db2\_field\_type](function.db2-field-type.html) — Повертає тип даних зазначеного стовпця у наборі результатів
+    -   [db2\_field\_width](function.db2-field-width.html) — Повертає ширину поточного значення вказаного стовпця у наборі результатів
+    -   [db2\_foreign\_keys](function.db2-foreign-keys.html) — Повертає набір результатів, де перелічені зовнішні ключі таблиці
+    -   [db2\_free\_result](function.db2-free-result.html) — Звільняє ресурси, пов'язані із набором результатів
+    -   [db2\_free\_stmt](function.db2-free-stmt.html) — Звільняє ресурси, пов'язані із зазначеним ресурсом вираження
+    -   [db2\_get\_option](function.db2-get-option.html) — Виймає параметр для ресурсу оператора або ресурсу з'єднання
+    -   [db2\_last\_insert\_id](function.db2-last-insert-id.html) — Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
+    -   [db2\_lob\_read](function.db2-lob-read.html) — Отримує певний користувачем розмір LOB-файлів під час кожного виклику
+    -   [db2\_next\_result](function.db2-next-result.html) — Запитує наступний набір результатів із процедури, що зберігається.
+    -   [db2\_num\_fields](function.db2-num-fields.html) — Повертає кількість полів у результуючому наборі
+    -   [db2\_num\_rows](function.db2-num-rows.html) — Повертає кількість рядків, порушених SQL-запитом
+    -   [db2\_pclose](function.db2-pclose.html) — Закриває постійне з'єднання з базою даних
+    -   [db2\_pconnect](function.db2-pconnect.html) — Повертає постійне з'єднання з базою даних
+    -   [db2\_prepare](function.db2-prepare.html) — Підготовка SQL-запиту до виконання
+    -   [db2\_primary\_keys](function.db2-primary-keys.html) — Повертає набір результатів, що містить первинні ключі таблиці
+    -   [db2\_procedure\_columns](function.db2-procedure-columns.html) — Повертає набір результатів зі списком параметрів процедури, що зберігається.
+    -   [db2\_procedures](function.db2-procedures.html) — Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
+    -   [db2\_result](function.db2-result.html) — Повертає один стовпець із рядка у наборі результатів
+    -   [db2\_rollback](function.db2-rollback.html) - Відкочує транзакцію
+    -   [db2\_server\_info](function.db2-server-info.html) — Повертає об'єкт із властивостями, що описують сервер бази даних DB2
+    -   [db2\_set\_option](function.db2-set-option.html) — Встановити опцію для з'єднання або ресурсу оператора
+    -   [db2\_special\_columns](function.db2-special-columns.html) — Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
+    -   [db2\_statistics](function.db2-statistics.html) — Повертає набір результатів, що містить індекс та статистику таблиці
+    -   [db2\_stmt\_error](function.db2-stmt-error.html) — Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
+    -   [db2\_stmt\_errormsg](function.db2-stmt-errormsg.html) — Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
+    -   [db2\_table\_privileges](function.db2-table-privileges.html) — Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
+    -   [db2\_tables](function.db2-tables.html) — Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних

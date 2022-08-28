@@ -1,32 +1,38 @@
-- [« ReflectionMethod::invoke](reflectionmethod.invoke.md)
-- [ReflectionMethod::isAbstract »](reflectionmethod.isabstract.md)
+Виклик методу з передачею аргументів масивом
 
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- виклик методу з передачею аргументів масивом
+-   [« ReflectionMethod::invoke](reflectionmethod.invoke.html)
+    
+-   [ReflectionMethod::isAbstract »](reflectionmethod.isabstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionMethod](class.reflectionmethod.html)
+    
+-   Виклик методу з передачею аргументів масивом
+    
 
 # ReflectionMethod::invokeArgs
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-ReflectionMethod::invokeArgs — Виклик методу передачі аргументів
-масивом
+ReflectionMethod::invokeArgs - Виклик методу з передачею аргументів масивом
 
 ### Опис
 
-public **ReflectionMethod::invokeArgs**(?object `$object`, array
-`$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionMethod::invokeArgs(?object $object, array $args): mixed
+```
 
 Викликає відбитий спосіб і передає йому аргументи як масиву.
 
 ### Список параметрів
 
 `object`
-Об'єкт, спосіб якого викликається. Якщо метод статичний, можна
-передати null.
+
+Об'єкт, метод якого викликається. Якщо статичний метод, можна передати null.
 
 `args`
+
 Масив (array), що містить аргументи функції.
 
 ### Значення, що повертаються
@@ -35,34 +41,43 @@ public **ReflectionMethod::invokeArgs**(?object `$object`, array
 
 ### Помилки
 
-Викидає виняток
-[ReflectionException](class.reflectionexception.md), якщо в об'єкті
-object немає визначення цього методу.
+Викидає виняток [ReflectionException](class.reflectionexception.html), якщо в об'єкті `object` немає визначення цього.
 
-Викидає виняток
-[ReflectionException](class.reflectionexception.md), якщо викликати
-метод виконання не вдалося.
+Викидає виняток [ReflectionException](class.reflectionexception.html), якщо викликати метод виконання не вдалося.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionMethod::invokeArgs()****
 
-`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');echo $reflectionMethod->invokeArgs(new HelloWorld(), array('Майк'));?> `
+```php
+<?php
+class HelloWorld {
+
+    public function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
+
+}
+
+$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');
+echo $reflectionMethod->invokeArgs(new HelloWorld(), array('Майк'));
+?>
+```
 
 Результат виконання цього прикладу:
 
-Привіт Майк
+```
+Привет, Майк
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо функція має аргументи, які мають бути посиланнями, вони
-> повинні бути посиланнями і на переданому спиці аргументів.
+> **Зауваження**
+> 
+> Якщо функція має аргументи, які мають бути посиланнями, то вони мають бути посиланнями та в переданому спиці аргументів.
 
 ### Дивіться також
 
-- [ReflectionMethod::invoke()](reflectionmethod.invoke.md) - Виклик
-- [\_\_invoke()](language.oop5.magic.md#object.invoke)
-- [call_user_func_array()](function.call-user-func-array.md) -
-Викликає callback-функцію з масивом параметрів
+-   [ReflectionMethod::invoke()](reflectionmethod.invoke.html) - Виклик
+-   [\_\_invoke()](language.oop5.magic.html#object.invoke)
+-   [call\_user\_func\_array()](function.call-user-func-array.html) - Викликає callback-функцію з масивом параметрів

@@ -1,29 +1,38 @@
-- [« fann_reset_MSE](function.fann-reset-mse.md)
-- [fann_save_train »](function.fann-save-train.md)
+Запускає нейронну мережу із заданими даними
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Запускає нейронну мережу із заданими даними
+-   [« fann\_reset\_MSE](function.fann-reset-mse.html)
+    
+-   [fann\_save\_train »](function.fann-save-train.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Запускає нейронну мережу із заданими даними
+    
 
-# fann_run
+# fannrun
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_run — Запускає нейронну мережу із заданими даними
+fannrun — Запускає нейронну мережу із заданими даними
 
 ### Опис
 
-**fann_run**(resource `$ann`, array `$input`): array
+```methodsynopsis
+fann_run(resource $ann, array $input): array
+```
 
-Запускає нейронну мережу із заданими даними, повертаючи масив виходів,
-номери яких відповідає номерам нейронів у вихідному шарі.
+Запускає нейронну мережу із заданими даними, повертаючи масив виходів, номери яких відповідає номерам нейронів у вихідному шарі.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `input`
+
 Масив вхідних даних
 
 ### Значення, що повертаються

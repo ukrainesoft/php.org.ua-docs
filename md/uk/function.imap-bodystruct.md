@@ -1,49 +1,54 @@
-- [« imap_body](function.imap-body.md)
-- [imap_check »](function.imap-check.md)
+Прочитати структуру вказаної секції тіла заданого повідомлення
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Прочитати структуру вказаної секції тіла заданого повідомлення
+-   [« imap\_body](function.imap-body.html)
+    
+-   [imap\_check »](function.imap-check.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Прочитати структуру вказаної секції тіла заданого повідомлення
+    
 
-# imap_bodystruct
+# imapbodystruct
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_bodystruct — Прочитати структуру вказаної секції тіла заданого
-повідомлення
+imapbodystruct — Прочитати структуру вказаної секції тіла заданого повідомлення
 
 ### Опис
 
-**imap_bodystruct**([IMAP\Connection](class.imap-connection.md)
-`$imap`, int `$message_num`, string `$section`): stdClass\|false
+```methodsynopsis
+imap_bodystruct(IMAP\Connection $imap, int $message_num, string $section): stdClass|false
+```
 
 Читає структуру вказаної секції тіла заданого повідомлення.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `message_num`
+
 Номер повідомлення
 
 `section`
+
 Секція тіла для читання
 
 ### Значення, що повертаються
 
-Повертає інформацію у вигляді об'єкта або **`false`** у разі
-виникнення помилки. Опис структури та властивостей об'єкту читайте у
-розділ, присвячений функції
-[imap_fetchstructure()](function.imap-fetchstructure.md).
+Повертає інформацію у вигляді об'єкта або **`false`** у разі виникнення помилки. Опис структури та властивостей об'єкта читайте у розділі, присвяченому функції [imap\_fetchstructure()](function.imap-fetchstructure.html)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_fetchstructure()](function.imap-fetchstructure.md) -
-Прочитати структуру вказаного повідомлення
+-   [imap\_fetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення

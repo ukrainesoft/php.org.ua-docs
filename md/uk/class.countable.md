@@ -1,30 +1,42 @@
-- [« Інтерфейси](spl.interfaces.md)
-- [Countable::count »](countable.count.md)
+Інтерфейс Countable
 
-- [PHP Manual](index.md)
-- [Інтерфейси](spl.interfaces.md)
-- Інтерфейс Countable
+-   [« Интерфейсы](spl.interfaces.html)
+    
+-   [Countable::count »](countable.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Интерфейсы](spl.interfaces.html)
+    
+-   Інтерфейс Countable
+    
 
 # Інтерфейс Countable
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Класи, що реалізують інтерфейс **Countable**, можуть бути використані з
-функцією [count()](function.count.md).
+Класи, що реалізують інтерфейс **Countable**, можуть бути використані з функцією [count()](function.count.html)
 
 ## Огляд інтерфейсів
 
-interface **Countable** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [count](countable.count.md)(): int
+    
+     
+      interface Countable {
 
-}
+    /* Методы */
+    
+   public count(): int
+
+   }
+```
 
 ## Зміст
 
-- [Countable::count](countable.count.md) — Кількість елементів
-об'єкта
+-   [Countable::count](countable.count.html) - Кількість елементів об'єкта

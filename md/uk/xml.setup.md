@@ -1,15 +1,21 @@
-- [«Вступ](intro.xml.md)
-- [Вимоги »](xml.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Розбір XML](book.xml.md)
+-   [« Введение](intro.xml.html)
+    
+-   [Требования »](xml.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разбор XML](book.xml.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xml.requirements.md)
-- [Установка](xml.installation.md)
-- [Налаштування під час виконання](xml.configuration.md)
-- [Типи ресурсів](xml.resources.md)
+-   [Требования](xml.requirements.html)
+-   [Установка](xml.installation.html)
+-   [Настройка во время выполнения](xml.configuration.html)
+-   [Типы ресурсов](xml.resources.html)

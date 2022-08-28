@@ -1,45 +1,62 @@
-- [« ibase_modify_user](function.ibase-modify-user.md)
-- [ibase_num_fields »](function.ibase-num-fields.md)
+Надає ім'я набору результатів
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Надає ім'я набору результатів
+-   [« ibase\_modify\_user](function.ibase-modify-user.html)
+    
+-   [ibase\_num\_fields »](function.ibase-num-fields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Надає ім'я набору результатів
+    
 
-# ibase_name_result
+# ibasenameresult
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_name_result — Надає ім'я набору результатів.
+ibasenameresult — Надає ім'я набору результатів.
 
 ### Опис
 
-**ibase_name_result**(resource `$result`, string `$name`): bool
+```methodsynopsis
+ibase_name_result(resource $result, string $name): bool
+```
 
-Функція надає ім'я набору результатів. Ім'я може бути використане
-пізніше в запитах UPDATE\|DELETE... WHERE CURRENT OF `name`.
+Функція надає ім'я набору результатів. Ім'я може бути використане пізніше у запитах UPDATE | DELETE ... WHERE CURRENT OF `name`
 
 ### Список параметрів
 
 `result`
+
 Набір результатів InterBase.
 
 `name`
+
 Ім'я призначення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_name_result()****
+**Приклад #1 Приклад використання **ibasenameresult()****
 
-` <?php$result = ibase_query("SELECT field1,field2 FROM table FOR UPDATE");ibase_name_result($result, "my_cursor");$updateqry = ibase_prepare("URDATE_ CU| for ($i = 0; ibase_fetch_row($result); ++$i) {    ibase_execute($updateqry, $i);}?> `
+```php
+<?php
+$result = ibase_query("SELECT field1,field2 FROM table FOR UPDATE");
+ibase_name_result($result, "my_cursor");
+
+$updateqry = ibase_prepare("UPDATE table SET field2 = ? WHERE CURRENT OF my_cursor");
+
+for ($i = 0; ibase_fetch_row($result); ++$i) {
+    ibase_execute($updateqry, $i);
+}
+?>
+```
 
 ### Дивіться також
 
-- [ibase_prepare()](function.ibase-prepare.md) - Підготовка
-запит для подальшого зв'язування псевдозмінних та виконання
-- [ibase_execute()](function.ibase-execute.md) - Виконує
-попередньо підготовлений запит
+-   [ibase\_prepare()](function.ibase-prepare.html) - готує запит для подальшого зв'язування псевдозмінних та виконання
+-   [ibase\_execute()](function.ibase-execute.html) - Виконує попередньо підготовлений запит

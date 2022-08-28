@@ -1,25 +1,29 @@
-- [« UConverter](class.uconverter.md)
-- [UConverter::convert »](uconverter.convert.md)
+Створити об'єкт UConverter
 
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Створити об'єкт UConverter
+-   [« UConverter](class.uconverter.html)
+    
+-   [UConverter::convert »](uconverter.convert.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UConverter](class.uconverter.html)
+    
+-   Створити об'єкт UConverter
+    
 
-# UConverter::\_\_construct
+# UConverter::construct
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-UConverter::\_\_construct — Створити об'єкт UConverter
+UConverter::construct — Створити об'єкт UConverter
 
 ### Опис
 
-public **UConverter::\_\_construct**(?string `$destination_encoding` =
-**`null`**, ?string `$source_encoding` = **`null`**)
+public **UConverter::construct**(?string `$destination_encoding` **`null`**, ?string `$source_encoding` **`null`**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

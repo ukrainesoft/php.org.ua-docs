@@ -1,27 +1,33 @@
-- [«get_loaded_extensions](function.get-loaded-extensions.md)
-- [get_magic_quotes_runtime »](function.get-magic-quotes-runtime.md)
+Отримання поточного значення конфігурації конфігурації magicquotesgpc
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Отримання поточного значення конфігурації magic_quotes_gpc
+-   [« get\_loaded\_extensions](function.get-loaded-extensions.html)
+    
+-   [get\_magic\_quotes\_runtime »](function.get-magic-quotes-runtime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Отримання поточного значення конфігурації конфігурації magicquotesgpc
+    
 
-#get_magic_quotes_gpc
+# getmagicquotesgpc
 
 (PHP 4, PHP 5, PHP 7)
 
-get_magic_quotes_gpc — Отримання поточного значення налаштування
-конфігурації magic_quotes_gpc
+getmagicquotesgpc — отримання поточного значення конфігураційної установки magicquotesgpc
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНА*, починаючи з
-PHP 8.0.0 Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**get_magic_quotes_gpc**(): bool
+```methodsynopsis
+get_magic_quotes_gpc(): bool
+```
 
-Завжди повертає **`false`**.
+Завжди повертає **`false`**
 
 ### Список параметрів
 
@@ -29,22 +35,17 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 ### Значення, що повертаються
 
-Завжди повертає **`false`**.
+Завжди повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                          |
-| ------ | ----------------------------- |
-| 7.4.0  | Функція оголошена застарілою. |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. |
 
 ### Дивіться також
 
-- [addslashes()](function.addslashes.md) - Екранує рядок з
-допомогою слішів
-- [stripslashes()](function.stripslashes.md) - Видаляє екранування
-символів
-- [get_magic_quotes_runtime()](function.get-magic-quotes-runtime.md) -
-Отримання поточного значення налаштування конфігурації
-magic_quotes_runtime
-- [ini_get()](function.ini-get.md) - Отримує значення налаштування
-конфігурації
+-   [addslashes()](function.addslashes.html) - Екранує рядок за допомогою слішів
+-   [stripslashes()](function.stripslashes.html) - Видаляє екранування символів
+-   [get\_magic\_quotes\_runtime()](function.get-magic-quotes-runtime.html) - Отримання поточного значення конфігурації конфігурації magicquotesruntime
+-   [ini\_get()](function.ini-get.html) - Отримує значення налаштування конфігурації

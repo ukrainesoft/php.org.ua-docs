@@ -1,25 +1,29 @@
-- [«restore_error_handler](function.restore-error-handler.md)
-- [set_error_handler »](function.set-error-handler.md)
+Відновлює попередній обробник винятків
 
-- [PHP Manual](index.md)
-- [Функції обробки помилок](ref.errorfunc.md)
-- Відновлює попередній обробник винятків
+-   [« restore\_error\_handler](function.restore-error-handler.html)
+    
+-   [set\_error\_handler »](function.set-error-handler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции обработки ошибок](ref.errorfunc.html)
+    
+-   Відновлює попередній обробник винятків
+    
 
-# restore_exception_handler
+# restoreexceptionhandler
 
 (PHP 5, PHP 7, PHP 8)
 
-restore_exception_handler — Відновлює попередній обробник
-винятків
+restoreexceptionhandler — Відновлює попередній обробник винятків
 
 ### Опис
 
-**restore_exception_handler**(): bool
+```methodsynopsis
+restore_exception_handler(): bool
+```
 
-Використовується після зміни обробника виключень функцією
-[set_exception_handler()](function.set-exception-handler.md), щоб
-повернути попередній обробник (який може бути як вбудований
-функцією, і визначеною користувачем).
+Використовується після зміни обробника виключень функцією [set\_exception\_handler()](function.set-exception-handler.html), щоб повернути попередній обробник (який може бути як вбудованою функцією, так і певною користувачем).
 
 ### Список параметрів
 
@@ -27,25 +31,42 @@ restore_exception_handler — Відновлює попередній оброб
 
 ### Значення, що повертаються
 
-Ця функція завжди повертає **`true`**.
+Ця функція завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **restore_exception_handler()****
+**Приклад #1 Приклад використання **restoreexceptionhandler()****
 
-` <?php    function exception_handler_1(Exception $e)    {       echo '[' . __FUNCTION__ . '] ' . $e->getMessage(); }   function exception_handler_2(Exception $e)    {       echo '[' . __FUNCTION__ . '] ' . $e->getMessage(); }   set_exception_handler('exception_handler_1'); set_exception_handler('exception_handler_2'); restore_exception_handler(); throw new Exception('Викликаний перший обробник виключень...');?> `
+```php
+<?php
+    function exception_handler_1(Exception $e)
+    {
+        echo '[' . __FUNCTION__ . '] ' . $e->getMessage();
+    }
+
+    function exception_handler_2(Exception $e)
+    {
+        echo '[' . __FUNCTION__ . '] ' . $e->getMessage();
+    }
+
+    set_exception_handler('exception_handler_1');
+    set_exception_handler('exception_handler_2');
+
+    restore_exception_handler();
+
+    throw new Exception('Вызван первый обработчик исключений...');
+?>
+```
 
 Результат виконання цього прикладу:
 
-[exception_handler_1] Викликаний перший обробник винятків...
+```
+[exception_handler_1] Вызван первый обработчик исключений...
+```
 
 ### Дивіться також
 
-- [set_exception_handler()](function.set-exception-handler.md) -
-Задає користувальницький обробник винятків
-- [set_error_handler()](function.set-error-handler.md) - Задає
-користувальницький обробник помилок
-- [restore_error_handler()](function.restore-error-handler.md) -
-Відновлює попередній обробник помилок
-- [error_reporting()](function.error-reporting.md) - Задає, які
-помилки PHP потраплять у звіт
+-   [set\_exception\_handler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків
+-   [set\_error\_handler()](function.set-error-handler.html) - Задає користувальницький обробник помилок
+-   [restore\_error\_handler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
+-   [error\_reporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт

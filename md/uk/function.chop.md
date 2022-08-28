@@ -1,23 +1,28 @@
-- [«bin2hex](function.bin2hex.md)
-- [chr »](function.chr.md)
+Псевдонім rtrim
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Псевдонім rtrim
+-   [« bin2hex](function.bin2hex.html)
+    
+-   [chr »](function.chr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Псевдонім rtrim
+    
 
 # chop
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-chop - Псевдонім [rtrim()](function.rtrim.md)
+chop - Псевдонім [rtrim()](function.rtrim.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [rtrim()](function.rtrim.md).
+Ця функція є псевдонімом: [rtrim()](function.rtrim.html)
 
 ### Примітки
 
-> **Примітка**:
->
-> Дія **chop()** відрізняється від однойменної функції `chop()` мови
-> Perl, що видаляє останній символ рядка.
+> **Зауваження**
+> 
+> Дія **chop()** відрізняється від однойменної функції `chop()` мови Perl видаляє останній символ рядка.

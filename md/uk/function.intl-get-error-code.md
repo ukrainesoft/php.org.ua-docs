@@ -1,22 +1,29 @@
-- [« intl_error_name](function.intl-error-name.md)
-- [intl_get_error_message »](function.intl-get-error-message.md)
+Отримати код останньої помилки
 
-- [PHP Manual](index.md)
-- [Функції intl](ref.intl.md)
-- Отримати код останньої помилки
+-   [« intl\_error\_name](function.intl-error-name.html)
+    
+-   [intl\_get\_error\_message »](function.intl-get-error-message.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции intl](ref.intl.html)
+    
+-   Отримати код останньої помилки
+    
 
-# intl_get_error_code
+# intlgeterrorcode
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-intl_get_error_code — Отримати код останньої помилки
+intlgeterrorcode — Отримати код останньої помилки
 
 ### Опис
 
-**intl_get_error_code**(): int
+```methodsynopsis
+intl_get_error_code(): int
+```
 
-Корисно для обробки помилок статичних методів, коли відсутня
-об'єкт для отримання помилки з нього.
+Корисно для обробки помилок статичних методів, коли немає об'єкта для вилучення помилки з нього.
 
 ### Список параметрів
 
@@ -24,23 +31,25 @@ intl_get_error_code — Отримати код останньої помилк�
 
 ### Значення, що повертаються
 
-Код помилки, повернутий останнім викликом API.
+Код помилки, повернутий останнім викликом функції API.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **intl_get_error_code()****
+**Приклад #1 Приклад використання **intlgeterrorcode()****
 
-` <?php$coll = collator_create( '<bad_param>' );if( !$coll ) {   handle_error( intl_get_error_code() );}?> `
+```php
+<?php
+$coll = collator_create( '<bad_param>' );
+if( !$coll ) {
+    handle_error( intl_get_error_code() );
+}
+?>
+```
 
 ### Дивіться також
 
-- [intl_is_failure()](function.intl-is-failure.md) - Перевірити,
-чи є код помилки ознакою збою
-- [intl_error_name()](function.intl-error-name.md) - Отримати ім'я
-помилки за її кодом
-- [intl_get_error_message()](function.intl-get-error-message.md) -
-Отримати опис помилки
-- [collator_get_error_code()](collator.geterrorcode.md) - Отримує
-останній код помилки Collator
-- [numfmt_get_error_code()](numberformatter.geterrorcode.md) -
-Отримує останній код помилки засобу форматування
+-   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою
+-   [intl\_error\_name()](function.intl-error-name.html) - Отримати ім'я помилки за її кодом
+-   [intl\_get\_error\_message()](function.intl-get-error-message.html) - Отримати опис помилки
+-   [collator\_get\_error\_code()](collator.geterrorcode.html) - Отримує останній код помилки Collator
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування

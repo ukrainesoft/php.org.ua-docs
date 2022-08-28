@@ -1,22 +1,27 @@
-- [« swoole_strerror](function.swoole-strerror.md)
-- [swoole_timer_exists »](function.swoole-timer-exists.md)
+Запуск callback-функції один раз у майбутньому
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Запуск callback-функції один раз у майбутньому
+-   [« swoole\_strerror](function.swoole-strerror.html)
+    
+-   [swoole\_timer\_exists »](function.swoole-timer-exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Запуск callback-функції один раз у майбутньому
+    
 
-# swoole_timer_after
+# swooletimerafter
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_timer_after - Запуск callback-функції один раз у майбутньому
+swooletimerafter - Запуск callback-функції один раз у майбутньому
 
 ### Опис
 
-**swoole_timer_after**(int `$ms`,
-[callable](language.types.callable.md) `$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$param` = ?): int
+```methodsynopsis
+swoole_timer_after(int $ms, callable $callback, mixed $param = ?): int
+```
 
 ### Список параметрів
 

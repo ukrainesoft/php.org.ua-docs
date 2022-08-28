@@ -1,21 +1,27 @@
-- [« OuterIterator](class.outeriterator.md)
-- [RecursiveIterator »](class.recursiveiterator.md)
+Повертає внутрішній ітератор для поточного елемента
 
-- [PHP Manual](index.md)
-- [OuterIterator](class.outeriterator.md)
-- Повертає внутрішній ітератор для поточного елемента
+-   [« OuterIterator](class.outeriterator.html)
+    
+-   [RecursiveIterator »](class.recursiveiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OuterIterator](class.outeriterator.html)
+    
+-   Повертає внутрішній ітератор для поточного елемента
+    
 
 # OuterIterator::getInnerIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-OuterIterator::getInnerIterator — Повертає внутрішній ітератор для
-поточного елемента
+OuterIterator::getInnerIterator — Повертає внутрішній ітератор для поточного елемента
 
 ### Опис
 
-public **OuterIterator::getInnerIterator**():
-?[Iterator](class.iterator.md)
+```methodsynopsis
+public OuterIterator::getInnerIterator(): ?Iterator
+```
 
 Повертає внутрішній ітератор поточного елемента.
 
@@ -25,5 +31,4 @@ public **OuterIterator::getInnerIterator**():
 
 ### Значення, що повертаються
 
-Внутрішній ітератор для поточного елемента, якщо він існує
-**`null`** інакше.
+Внутрішній ітератор для поточного елемента, якщо він існує або **`null`** в іншому випадку.

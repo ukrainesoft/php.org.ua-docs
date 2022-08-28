@@ -1,20 +1,27 @@
-- [« ReflectionClass::getMethods](reflectionclass.getmethods.md)
-- [ReflectionClass::getName »](reflectionclass.getname.md)
+Повертає інформацію про модифікаторів класу
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає інформацію про модифікаторів класу
+-   [« ReflectionClass::getMethods](reflectionclass.getmethods.html)
+    
+-   [ReflectionClass::getName »](reflectionclass.getname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Повертає інформацію про модифікаторів класу
+    
 
 # ReflectionClass::getModifiers
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getModifiers — Повертає інформацію про модифікатори
-класу
+ReflectionClass::getModifiers — Повертає інформацію про модифікаторів класу
 
 ### Опис
 
-public **ReflectionClass::getModifiers**(): int
+```methodsynopsis
+public ReflectionClass::getModifiers(): int
+```
 
 Повертає бітову маску модифікаторів даного методу.
 
@@ -24,11 +31,9 @@ public **ReflectionClass::getModifiers**(): int
 
 ### Значення, що повертаються
 
-Повертає бітову маску з [констант модифікаторів](class.reflectionclass.md#reflectionclass.constants.modifiers).
+Повертає бітову маску з [констант модификаторов](class.reflectionclass.html#reflectionclass.constants.modifiers)
 
 ### Дивіться також
 
-- [ReflectionClass::getProperties()](reflectionclass.getproperties.md) -
-Повертає властивості
-- [Reflection::getModifierNames()](reflection.getmodifiernames.md) -
-Отримання імен модифікаторів
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.html) - Повертає властивості
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.html) - Отримання імен модифікаторів

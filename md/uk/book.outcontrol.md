@@ -1,53 +1,43 @@
-- [« opcache_reset](function.opcache-reset.md)
-- [Вступ »](intro.outcontrol.md)
+Управління буфером виводу
 
-- [PHP Manual](index.md)
-- [Зміна поведінки PHP](refs.basic.php.md)
-- Управління буфером виводу
+-   [« opcache\_reset](function.opcache-reset.html)
+    
+-   [Введение »](intro.outcontrol.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Изменение поведения PHP](refs.basic.php.html)
+    
+-   Управління буфером виводу
+    
 
 # Управління буфером виводу
 
-- [Вступ](intro.outcontrol.md)
-- [Встановлення та налаштування](outcontrol.setup.md)
-- [Вимоги](outcontrol.requirements.md)
-- [Установка](outcontrol.installation.md)
-- [Налаштування під час виконання](outcontrol.configuration.md)
-- [Типи ресурсів](outcontrol.resources.md)
-- [Предвизначені константи](outcontrol.constants.md)
-- [Приклади](outcontrol.examples.md)
-- [Базове використання](outcontrol.examples.basic.md)
-- [Використання перезапису виводу](outcontrol.examples.rewrite.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- [flush](function.flush.md) - Скидання системного буфера виводу
-- [ob_clean](function.ob-clean.md) — Очистити (стерти) буфер
-висновку
-- [ob_end_clean](function.ob-end-clean.md) — Очистити (стерти)
-буфер виведення та вимкнути буферизацію виводу
-- [ob_end_flush](function.ob-end-flush.md) — Скинути
-(надіслати) буфер виведення та відключити буферизацію виводу
-- [ob_flush](function.ob-flush.md) — Скинути (надіслати) буфер
-висновку
-- [ob_get_clean](function.ob-get-clean.md) — Отримати вміст
-поточний буфер і видалити його
-- [ob_get_contents](function.ob-get-contents.md) - Повертає
-вміст буфера виводу
-- [ob_get_flush](function.ob-get-flush.md) — Скинути буфер
-виводу, повернути його у вигляді рядка та відключити буферизацію виводу
-- [ob_get_length](function.ob-get-length.md) — Повертає розмір
-буфера виводу
-- [ob_get_level](function.ob-get-level.md) — Повертає рівень
-вкладеності механізму буферизації виводу
-- [ob_get_status](function.ob-get-status.md) — Отримати статус
-буфера виводу
-- [ob_gzhandler](function.ob-gzhandler.md) - callback-функція,
-використовується для gzip-стиснення буфера виводу при виклик ob_start
-- [ob_implicit_flush](function.ob-implicit-flush.md) -
-Увімкнення/вимкнення неявного скидання
-- [ob_list_handlers](function.ob-list-handlers.md) - Список всіх
-використовуваних обробників виводу
-- [ob_start](function.ob-start.md) — Увімкнення буферизації
-висновку
-- [output_add_rewrite_var](function.output-add-rewrite-var.md) -
-Додати значення в обробник URL
-- [output_reset_rewrite_vars](function.output-reset-rewrite-vars.md)
-— Скинути значення обробника URL
+-   [Введение](intro.outcontrol.html)
+-   [Установка и настройка](outcontrol.setup.html)
+    -   [Требования](outcontrol.requirements.html)
+    -   [Установка](outcontrol.installation.html)
+    -   [Настройка во время выполнения](outcontrol.configuration.html)
+    -   [Типы ресурсов](outcontrol.resources.html)
+-   [Предопределённые константы](outcontrol.constants.html)
+-   [Примеры](outcontrol.examples.html)
+    -   [Базовое использование](outcontrol.examples.basic.html)
+    -   [Использование перезаписи вывода](outcontrol.examples.rewrite.html)
+-   [Функции контроля вывода](ref.outcontrol.html)
+    -   [flush](function.flush.html) - Скидання системного буфера виводу
+    -   [ob\_clean](function.ob-clean.html) - Очистити (стерти) буфер виводу
+    -   [ob\_end\_clean](function.ob-end-clean.html) — Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
+    -   [ob\_end\_flush](function.ob-end-flush.html) — Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+    -   [ob\_flush](function.ob-flush.html) — Скинути (надіслати) буфер виводу
+    -   [ob\_get\_clean](function.ob-get-clean.html) — Отримати вміст поточного буфера та видалити його
+    -   [ob\_get\_contents](function.ob-get-contents.html) — Повертає вміст буфера виводу
+    -   [ob\_get\_flush](function.ob-get-flush.html) — Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
+    -   [ob\_get\_length](function.ob-get-length.html) — Повертає розмір буфера виводу
+    -   [ob\_get\_level](function.ob-get-level.html) — Повертає рівень вкладеності механізму буферизації виводу
+    -   [ob\_get\_status](function.ob-get-status.html) — Отримати статус буфера виводу
+    -   [ob\_gzhandler](function.ob-gzhandler.html) - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
+    -   [ob\_implicit\_flush](function.ob-implicit-flush.html) — Увімкнення/вимкнення неявного скидання
+    -   [ob\_list\_handlers](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+    -   [ob\_start](function.ob-start.html) — Увімкнення буферизації виводу
+    -   [output\_add\_rewrite\_var](function.output-add-rewrite-var.html) — Додати значення до обробника URL
+    -   [output\_reset\_rewrite\_vars](function.output-reset-rewrite-vars.html) — Скинути значення обробника URL

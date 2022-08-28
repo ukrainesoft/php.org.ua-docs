@@ -1,9 +1,15 @@
-- [«CachingIterator::count](cachingiterator.count.md)
-- [CachingIterator::getCache »](cachingiterator.getcache.md)
+Повертає поточний елемент
 
-- [PHP Manual](index.md)
-- [CachingIterator](class.cachingiterator.md)
-- Повертає поточний елемент
+-   [« CachingIterator::count](cachingiterator.count.html)
+    
+-   [CachingIterator::getCache »](cachingiterator.getcache.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CachingIterator](class.cachingiterator.html)
+    
+-   Повертає поточний елемент
+    
 
 # CachingIterator::current
 
@@ -13,13 +19,13 @@ CachingIterator::current — Повертає поточний елемент
 
 ### Опис
 
-public **CachingIterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public CachingIterator::current(): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає поточний елемент до ітерації.
 
@@ -33,5 +39,4 @@ mixed
 
 ### Дивіться також
 
-- [Iterator::current()](iterator.current.md) - Повернення поточного
-елемента
+-   [Iterator::current()](iterator.current.html) - Повернення поточного елемента

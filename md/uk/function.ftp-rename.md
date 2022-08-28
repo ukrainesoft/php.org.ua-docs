@@ -1,51 +1,77 @@
-- [«ftp_rawlist](function.ftp-rawlist.md)
-- [ftp_rmdir »](function.ftp-rmdir.md)
+Перейменовує файл або директорію на FTP-сервері
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Перейменовує файл або директорію на FTP-сервері
+-   [« ftp\_rawlist](function.ftp-rawlist.html)
+    
+-   [ftp\_rmdir »](function.ftp-rmdir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Перейменовує файл або директорію на FTP-сервері
+    
 
-#ftp_rename
+# ftprename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_rename — Перейменовує файл або директорію на FTP-сервері
+ftprename — Перейменовує файл або директорію на FTP-сервері
 
 ### Опис
 
-**ftp_rename**([FTP\Connection](class.ftp-connection.md) `$ftp`,
-string `$from`, string `$to`): bool
+```methodsynopsis
+ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
+```
 
-**ftp_rename()** перейменовує файл або директорію на FTP-сервері.
+**ftprename()** перейменовує файл або директорію на сервері FTP.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `from`
+
 Старе ім'я файлу/директорії.
 
 `to`
-Нове ім'я.
+
+Нове ім'я
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. У разі виникнення помилки (наприклад
-при спробі перейменувати неіснуючий файл) буде викликана помилка
-рівня `E_WARNING`.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. У разі виникнення помилки (наприклад, при спробі перейменувати неіснуючий файл) буде викликана помилка рівня `E_WARNING`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_rename()****
+**Приклад #1 Приклад використання **ftprename()****
 
-` <?php$old_file = 'somefile.txt.bak';$new_file = 'somefile.txt';// установка з'єднання$ftp = ftp_connect($ftp_server);// перевірка імені користувача ftp, $ftp_user_name, $ftp_user_pass);// спроба перейменувати $olf_file в $new_fileif (ftp_rename($ftp, $old_file, $new_file)) { переменити 
-";} else { echo "Не удалося перейменувати $old_file в $new_file
-";}// закриття з'єднанняftp_close($ftp);?> `
+```php
+<?php
+$old_file = 'somefile.txt.bak';
+$new_file = 'somefile.txt';
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// попытка переименовать $olf_file в $new_file
+if (ftp_rename($ftp, $old_file, $new_file)) {
+ echo "Файл $old_file переименован в $new_file\n";
+} else {
+ echo "Не удалось переименовать $old_file в $new_file\n";
+}
+
+// закрытие соединения
+ftp_close($ftp);
+?>
+```

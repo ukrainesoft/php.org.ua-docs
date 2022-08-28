@@ -1,9 +1,15 @@
-- [« ImagickDraw::roundRectangle](imagickdraw.roundrectangle.md)
-- [ImagickDraw::setClipPath »](imagickdraw.setclippath.md)
+Регулює коефіцієнт масштабування
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- регулює коефіцієнт масштабування
+-   [« ImagickDraw::roundRectangle](imagickdraw.roundrectangle.html)
+    
+-   [ImagickDraw::setClipPath »](imagickdraw.setclippath.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Регулює коефіцієнт масштабування
+    
 
 # ImagickDraw::scale
 
@@ -13,22 +19,24 @@ ImagickDraw::scale — Регулює коефіцієнт масштабува�
 
 ### Опис
 
-public **ImagickDraw::scale**(float `$x`, float `$y`): bool
+```methodsynopsis
+public ImagickDraw::scale(float $x, float $y): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Регулює коефіцієнт масштабування для застосування у горизонтальному та
-вертикальному напрямку до поточного координатного простору.
+Регулює коефіцієнт масштабування для застосування у горизонтальному та вертикальному напрямках до поточного координатного простору.
 
 ### Список параметрів
 
 `x`
+
 Горизонтальний коефіцієнт масштабування.
 
 `y`
+
 Вертикальний коефіцієнт масштабування.
 
 ### Значення, що повертаються
@@ -39,4 +47,27 @@ public **ImagickDraw::scale**(float `$x`, float `$y`): bool
 
 **Приклад #1 Приклад використання **ImagickDraw::scale()****
 
-`<?phpfunction scale($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setStrokeWidth(4); $draw->setFillColor($fillColor); $draw->rectangle(200, 200, 300, 300); $draw->setFillColor($fillModifiedColor); $draw->scale(1.4, 1.4); $draw->rectangle(200, 200, 300, 300); $image = new \Imagick(); $image->newImage(500, 500, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+```php
+<?php
+function scale($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
+
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setStrokeWidth(4);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle(200, 200, 300, 300);
+    $draw->setFillColor($fillModifiedColor);
+    $draw->scale(1.4, 1.4);
+    $draw->rectangle(200, 200, 300, 300);
+
+    $image = new \Imagick();
+    $image->newImage(500, 500, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
+}
+
+?>
+```

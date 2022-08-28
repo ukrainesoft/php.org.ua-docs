@@ -1,21 +1,23 @@
-- [«Зумовлені константи](fileinfo.constants.md)
-- [finfo_buffer »](function.finfo-buffer.md)
+Функції модуля Fileinfo
 
-- [PHP Manual](index.md)
-- [FileInfo](book.fileinfo.md)
-- Функції модуля Fileinfo
+-   [« Предопределённые константы](fileinfo.constants.html)
+    
+-   [finfo\_buffer »](function.finfo-buffer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FileInfo](book.fileinfo.html)
+    
+-   Функції модуля Fileinfo
+    
 
 # Функції модуля Fileinfo
 
 ## Зміст
 
-- [finfo_buffer](function.finfo-buffer.md) — Повертає інформацію про
-рядку буфера
-- [finfo_close](function.finfo-close.md) - Закриває екземпляр finfo
-- [finfo_file](function.finfo-file.md) — Повертає інформацію про
-файлі
-- [finfo_open](function.finfo-open.md) — Створює екземпляр finfo
-- [finfo_set_flags](function.finfo-set-flags.md) - Встановлює
-параметри конфігурації libmagic
-- [mime_content_type](function.mime-content-type.md) — Визначає
-MIME-тип вмісту файлу
+-   [finfo\_buffer](function.finfo-buffer.html) — Повертає інформацію про рядок буфера
+-   [finfo\_close](function.finfo-close.html) - Закриває екземпляр finfo
+-   [finfo\_file](function.finfo-file.html) — Повертає інформацію про файл
+-   [finfo\_open](function.finfo-open.html) - Створює екземпляр finfo
+-   [finfo\_set\_flags](function.finfo-set-flags.html) — Встановлює параметри конфігурації libmagic
+-   [mime\_content\_type](function.mime-content-type.html) - Визначає MIME-тип вмісту файлу

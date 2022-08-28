@@ -1,26 +1,34 @@
-- [«UI\Window](class.ui-window.md)
-- [UI\Window::\_\_construct »](ui-window.construct.md)
+Додати елемент керування
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Додати елемент керування
+-   [« UI\\Window](class.ui-window.html)
+    
+-   [UI\\Window::\_\_construct »](ui-window.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Додати елемент керування
+    
 
-# UI\Window::add
+# ОЙWindow::add
 
 (UI 0.9.9)
 
-UI\Window::add — Додати елемент керування
+ОЙWindow::add — Додати елемент керування
 
 ### Опис
 
-public **UI\Window::add**([UI\Control](class.ui-control.md)
-`$control`)
+```methodsynopsis
+public UI\Window::add(UI\Control $control)
+```
 
-Додасть елемент керування до вікна
+Додати елемент керування до вікна
 
 ### Список параметрів
 
 `control`
+
 Елемент управління для додавання
 
 ### Значення, що повертаються

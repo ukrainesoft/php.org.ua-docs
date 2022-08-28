@@ -1,13 +1,19 @@
-- [« DatePeriod::\_\_construct](dateperiod.construct.md)
-- [DatePeriod::getEndDate »](dateperiod.getenddate.md)
+Повертає інтервал
 
-- [PHP Manual](index.md)
-- [DatePeriod](class.dateperiod.md)
-- Повертає інтервал
+-   [« DatePeriod::\_\_construct](dateperiod.construct.html)
+    
+-   [DatePeriod::getEndDate »](dateperiod.getenddate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DatePeriod](class.dateperiod.html)
+    
+-   Повертає інтервал
+    
 
 # DatePeriod::getDateInterval
 
-(PHP 5 \>= 5.6.5, PHP 7, PHP 8)
+(PHP 5> = 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getDateInterval — Повертає інтервал
 
@@ -15,11 +21,11 @@ DatePeriod::getDateInterval — Повертає інтервал
 
 Об'єктно-орієнтований стиль
 
-public **DatePeriod::getDateInterval**():
-[DateInterval](class.dateinterval.md)
+```methodsynopsis
+public DatePeriod::getDateInterval(): DateInterval
+```
 
-Повертає об'єкт [DateInterval](class.dateinterval.md),
-інтервал, що представляє, використаний для створення періоду.
+Повертає об'єкт [DateInterval](class.dateinterval.html), що представляє інтервал, використаний для створення періоду
 
 ### Список параметрів
 
@@ -27,21 +33,27 @@ public **DatePeriod::getDateInterval**():
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateInterval](class.dateinterval.md)
+Повертає об'єкт [DateInterval](class.dateinterval.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DatePeriod::getDateInterval()****
 
-` <?php$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');$interval = $period->getDateInterval();echo $interval->format('%d day' );?> `
+```php
+<?php
+$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');
+$interval = $period->getDateInterval();
+echo $interval->format('%d day');
+?>
+```
 
 Результат виконання цього прикладу:
 
-1 день
+```
+1 day
+```
 
 ### Дивіться також
 
-- [DatePeriod::getStartDate()](dateperiod.getstartdate.md) -
-Повертає початкову дату періоду
-- [DatePeriod::getEndDate()](dateperiod.getenddate.md) - Повертає
-кінцеву дату періоду
+-   [DatePeriod::getStartDate()](dateperiod.getstartdate.html) - Повертає початкову дату періоду
+-   [DatePeriod::getEndDate()](dateperiod.getenddate.html) - Повертає кінцеву дату періоду

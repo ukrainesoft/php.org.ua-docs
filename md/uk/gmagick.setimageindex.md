@@ -1,34 +1,39 @@
-- [« Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.md)
-- [Gmagick::setimageinterlacescheme »](gmagick.setimageinterlacescheme.md)
+Встановлює ітератор у положення списку зображень, заданому параметром index
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює ітератор у положення списку зображень, заданому
-параметром index
+-   [« Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.html)
+    
+-   [Gmagick::setimageinterlacescheme »](gmagick.setimageinterlacescheme.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює ітератор у положення списку зображень, заданому параметром index
+    
 
 # Gmagick::setimageindex
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimageindex — Встановлює ітератор у положення у списку
-зображень, заданим параметром index
+Gmagick::setimageindex — Встановлює ітератор у положення списку зображень, заданому параметром index
 
 ### Опис
 
-public **Gmagick::setimageindex**(int `$index`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageindex(int $index): Gmagick
+```
 
-Встановлює ітератор у положення списку зображень, заданому
-параметром index.
+Встановлює ітератор у положення списку зображень, заданому параметром index.
 
 ### Список параметрів
 
 `index`
+
 Номер сцени.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,227 +1,120 @@
-- [«Зумовлені константи](sodium.constants.md)
-- [sodium_add »](function.sodium-add.md)
+Опції Sodium
 
-- [PHP Manual](index.md)
-- [Sodium](book.sodium.md)
-- Функції Sodium
+-   [« Предопределённые константы](sodium.constants.html)
+    
+-   [sodium\_add »](function.sodium-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Sodium](book.sodium.html)
+    
+-   Опції Sodium
+    
 
-# Функції Sodium
+# Опції Sodium
 
 ## Зміст
 
-- [sodium_add](function.sodium-add.md) — Додає великі числа
-- [sodium_base642bin](function.sodium-base642bin.md) - Перетворює
-рядок у кодуванні base64 у необроблений двійковий файл
-- [sodium_bin2base64](function.sodium-bin2base64.md) - Кодує
-необроблений двійковий рядок за допомогою base64
-- [sodium_bin2hex](function.sodium-bin2hex.md) — Кодувати в
-шістнадцяткове уявлення
-- [sodium_compare](function.sodium-compare.md) — порівняти великі
-числа
-- [sodium_crypto_aead_aes256gcm_decrypt](function.sodium-crypto-aead-aes256gcm-decrypt.md)
-— Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM
-- [sodium_crypto_aead_aes256gcm_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.md)
-— Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
-- [sodium_crypto_aead_aes256gcm_is_available](function.sodium-crypto-aead-aes256gcm-is-available.md)
-— Перевірити, чи підтримує обладнання AES256-GCM
-- [sodium_crypto_aead_aes256gcm_keygen](function.sodium-crypto-aead-aes256gcm-keygen.md)
-— Створює випадковий ключ AES-256-GCM
-- [sodium_crypto_aead_chacha20poly1305_decrypt](function.sodium-crypto-aead-chacha20poly1305-decrypt.md)
-— Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
-- [sodium_crypto_aead_chacha20poly1305_encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.md)
-- Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305
-- [sodium_crypto_aead_chacha20poly1305_ietf_decrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.md)
-— Перевірити, чи зашифрований текст містить допустимий тег
-- [sodium_crypto_aead_chacha20poly1305_ietf_encrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md)
-— Зашифрувати повідомлення
-- [sodium_crypto_aead_chacha20poly1305_ietf_keygen](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.md)
-- Створює випадковий ключ ChaCha20-Poly1305 (IETF)
-- [sodium_crypto_aead_chacha20poly1305_keygen](function.sodium-crypto-aead-chacha20poly1305-keygen.md)
-- Створює випадковий ключ ChaCha20-Poly1305
-- [sodium_crypto_aead_xchacha20poly1305_ietf_decrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.md)
-— (Переважно) Перевіряє, потім розшифровує за допомогою
-XChaCha20-Poly1305
-- [sodium_crypto_aead_xchacha20poly1305_ietf_encrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md)
-- (Переважно) Шифрує, а потім перевіряє справжність за допомогою
-XChaCha20-Poly1305
-- [sodium_crypto_aead_xchacha20poly1305_ietf_keygen](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.md)
-- Створює випадковий ключ XChaCha20-Poly1305
-- [sodium_crypto_auth_keygen](function.sodium-crypto-auth-keygen.md)
-- Створює випадковий ключ для sodium_crypto_auth
-- [sodium_crypto_auth_verify](function.sodium-crypto-auth-verify.md)
-— Перевіряє, чи допустимо тег для повідомлення
-- [sodium_crypto_auth](function.sodium-crypto-auth.md) — Обчислити
-тег для повідомлення
-- [sodium_crypto_box_keypair_from_secretkey_and_publickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md)
-— Створює уніфікований рядок ключової пари із секретного та
-відкритого ключів
-- [sodium_crypto_box_keypair](function.sodium-crypto-box-keypair.md)
-— Згенерувати випадковим чином секретний ключ та відповідний
-йому відкритий ключ
-- [sodium_crypto_box_open](function.sodium-crypto-box-open.md) -
-Розшифровка відкритого ключа з автентичністю
-- [sodium_crypto_box_publickey_from_secretkey](function.sodium-crypto-box-publickey-from-secretkey.md)
-— Обчислює відкритий ключ із секретного ключа
-- [sodium_crypto_box_publickey](function.sodium-crypto-box-publickey.md)
-— Витягує відкритий ключ із ключової пари crypto_box
-- [sodium_crypto_box_seal_open](function.sodium-crypto-box-seal-open.md)
-— Розшифровка відкритим ключем без автентифікації
-- [sodium_crypto_box_seal](function.sodium-crypto-box-seal.md) -
-Шифрування відкритим ключем без автентифікації
-- [sodium_crypto_box_secretkey](function.sodium-crypto-box-secretkey.md)
-— Витягує секретний ключ із ключової пари crypto_box
-- [sodium_crypto_box_seed_keypair](function.sodium-crypto-box-seed-keypair.md)
-- Детерміністичний висновок ключової пари з одного ключа
-- [sodium_crypto_box](function.sodium-crypto-box.md) - Шифрування
-відкритим ключем з автентичністю
-- [sodium_crypto_core_ristretto255_add](function.sodium-crypto-core-ristretto255-add.md)
-— Додає елемент
-- [sodium_crypto_core_ristretto255_from_hash](function.sodium-crypto-core-ristretto255-from-hash.md)
-— Зіставляє вектор
-- [sodium_crypto_core_ristretto255_is_valid_point](function.sodium-crypto-core-ristretto255-is-valid-point.md)
-— Визначає, чи лежить точка на кривій.
-- [sodium_crypto_core_ristretto255_random](function.sodium-crypto-core-ristretto255-random.md)
-- Генерує випадковий ключ
-- [sodium_crypto_core_ristretto255_scalar_add](function.sodium-crypto-core-ristretto255-scalar-add.md)
-- Додає скалярне значення
-- [sodium_crypto_core_ristretto255_scalar_complement](function.sodium-crypto-core-ristretto255-scalar-complement.md)
-- Призначення sodium_crypto_core_ristretto255_scalar_complement
-- [sodium_crypto_core_ristretto255_scalar_invert](function.sodium-crypto-core-ristretto255-scalar-invert.md)
-- Інвертує скалярне значення
-- [sodium_crypto_core_ristretto255_scalar_mul](function.sodium-crypto-core-ristretto255-scalar-mul.md)
-- Помножує скалярне значення
-- [sodium_crypto_core_ristretto255_scalar_negate](function.sodium-crypto-core-ristretto255-scalar-negate.md)
-— Скасовує скалярне значення
-- [sodium_crypto_core_ristretto255_scalar_random](function.sodium-crypto-core-ristretto255-scalar-random.md)
-- Генерує випадковий ключ
-- [sodium_crypto_core_ristretto255_scalar_reduce](function.sodium-crypto-core-ristretto255-scalar-reduce.md)
-— Зменшує скалярне значення
-- [sodium_crypto_core_ristretto255_scalar_sub](function.sodium-crypto-core-ristretto255-scalar-sub.md)
-— Віднімає скалярне значення
-- [sodium_crypto_core_ristretto255_sub](function.sodium-crypto-core-ristretto255-sub.md)
-— Віднімає елемент
-- [sodium_crypto_generichash_final](function.sodium-crypto-generichash-final.md)
-- Закінчити хешування
-- [sodium_crypto_generichash_init](function.sodium-crypto-generichash-init.md)
-- Ініціалізує хеш для потокової передачі
-- [sodium_crypto_generichash_keygen](function.sodium-crypto-generichash-keygen.md)
-- Створює випадковий загальний хеш-ключ
-- [sodium_crypto_generichash_update](function.sodium-crypto-generichash-update.md)
-— Додати повідомлення до хешу
-- [sodium_crypto_generichash](function.sodium-crypto-generichash.md)
-— Отримати хеш повідомлення
-- [sodium_crypto_kdf_derive_from_key](function.sodium-crypto-kdf-derive-from-key.md)
-— Витягти підрозділ
-- [sodium_crypto_kdf_keygen](function.sodium-crypto-kdf-keygen.md) -
-Створює випадковий кореневий ключ для інтерфейсу KDF
-- [sodium_crypto_kx_client_session_keys](function.sodium-crypto-kx-client-session-keys.md)
-- Обчислює ключі сесії на стороні клієнта
-- [sodium_crypto_kx_keypair](function.sodium-crypto-kx-keypair.md) -
-Створює нову пару ключів.
-- [sodium_crypto_kx_publickey](function.sodium-crypto-kx-publickey.md)
-— Витягує відкритий ключ із пари ключів crypto_kx
-- [sodium_crypto_kx_secretkey](function.sodium-crypto-kx-secretkey.md)
-— Витягує секретний ключ із пари ключів crypto_kx
-- [sodium_crypto_kx_seed_keypair](function.sodium-crypto-kx-seed-keypair.md)
-- Опис
-- [sodium_crypto_kx_server_session_keys](function.sodium-crypto-kx-server-session-keys.md)
-- Обчислює ключі сесії на стороні сервера
-- [sodium_crypto_pwhash_scryptsalsa208sha256_str_verify](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md)
-— Перевірити, що пароль є дійсним рядком перевірки
-пароля
-- [sodium_crypto_pwhash_scryptsalsa208sha256_str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md)
-— Отримати закодований в ASCII хеш
-- [sodium_crypto_pwhash_scryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.md)
-— Отримує ключ із пароля, використовуючи scrypt
-- [sodium_crypto_pwhash_str_needs_rehash](function.sodium-crypto-pwhash-str-needs-rehash.md)
-— Визначає, чи потрібно повторно використовувати пароль
-- [sodium_crypto_pwhash_str_verify](function.sodium-crypto-pwhash-str-verify.md)
-- Перевіряє, що пароль відповідає хешу
-- [sodium_crypto_pwhash_str](function.sodium-crypto-pwhash-str.md) -
-Отримати ASCII-кодований хеш
-- [sodium_crypto_pwhash](function.sodium-crypto-pwhash.md) -
-Отримує ключ із пароля, використовуючи Argon2
-- [sodium_crypto_scalarmult_base](function.sodium-crypto-scalarmult-base.md)
-- Псевдонім sodium_crypto_box_publickey_from_secretkey
-- [sodium_crypto_scalarmult_ristretto255_base](function.sodium-crypto-scalarmult-ristretto255-base.md)
-— Обчислює відкритий ключ із закритого ключа
-- [sodium_crypto_scalarmult_ristretto255](function.sodium-crypto-scalarmult-ristretto255.md)
-- Обчислює загальний секрет
-- [sodium_crypto_scalarmult](function.sodium-crypto-scalarmult.md) -
-Обчислити загальний секрет на підставі секретного ключа користувача та
-відкритого ключа іншого користувача
-- [sodium_crypto_secretbox_keygen](function.sodium-crypto-secretbox-keygen.md)
-— Створює випадковий ключ для sodium_crypto_secretbox
-- [sodium_crypto_secretbox_open](function.sodium-crypto-secretbox-open.md)
-— Розшифровка за допомогою загального ключа з автентичністю
-- [sodium_crypto_secretbox](function.sodium-crypto-secretbox.md) -
-Шифрування із загальним ключем з автентичністю
-- [sodium_crypto_secretstream_xchacha20poly1305_init_pull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md)
-- Ініціалізує контекст secretstream для дешифрування
-- [sodium_crypto_secretstream_xchacha20poly1305_init_push](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md)
-- Ініціалізує контекст secretstream для шифрування
-- [sodium_crypto_secretstream_xchacha20poly1305_keygen](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md)
-- Створює випадковий ключ secretstream
-- [sodium_crypto_secretstream_xchacha20poly1305_pull](function.sodium-crypto-secretstream-xchacha20poly1305-pull.md)
-— Розшифровує частину даних із зашифрованого потоку
-- [sodium_crypto_secretstream_xchacha20poly1305_push](function.sodium-crypto-secretstream-xchacha20poly1305-push.md)
-— Шифрує фрагмент даних, щоб його можна було безпечно.
-розшифрувати в потоковому API
-- [sodium_crypto_secretstream_xchacha20poly1305_rekey](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.md)
-- Явно повертає ключ у стан secretstream
-- [sodium_crypto_shorthash_keygen](function.sodium-crypto-shorthash-keygen.md)
-— Отримати випадкові байти для ключа
-- [sodium_crypto_shorthash](function.sodium-crypto-shorthash.md) -
-Обчислює короткий хеш повідомлення та ключ
-- [sodium_crypto_sign_detached](function.sodium-crypto-sign-detached.md)
-— Підписати повідомлення
-- [sodium_crypto_sign_ed25519_pk_to_curve25519](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md)
-— Перетворення відкритого ключа системи Ed25519 на відкритий ключ
-Curve25519
-- [sodium_crypto_sign_ed25519_sk_to_curve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.md)
-— Перетворити секретний ключ із системи Ed25519 на секретний ключ
-Curve25519
-- [sodium_crypto_sign_keypair_from_secretkey_and_publickey](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md)
-— Об'єднує секретний ключ та відкритий ключ разом
-- [sodium_crypto_sign_keypair](function.sodium-crypto-sign-keypair.md)
-— Довільно згенерувати секретний ключ та відповідний
-відкритий ключ
-- [sodium_crypto_sign_open](function.sodium-crypto-sign-open.md) -
-Перевірити, що підписане повідомлення має коректний підпис
-- [sodium_crypto_sign_publickey_from_secretkey](function.sodium-crypto-sign-publickey-from-secretkey.md)
-— Витягує відкритий ключ Ed25519 із секретного ключа
-- [sodium_crypto_sign_publickey](function.sodium-crypto-sign-publickey.md)
-— Витягує відкритий ключ Ed25519 із пари ключів
-- [sodium_crypto_sign_secretkey](function.sodium-crypto-sign-secretkey.md)
-— Витягує секретний ключ Ed25519 із пари ключів
-- [sodium_crypto_sign_seed_keypair](function.sodium-crypto-sign-seed-keypair.md)
-— Детерміноване виведення пари ключів з одного ключа
-- [sodium_crypto_sign_verify_detached](function.sodium-crypto-sign-verify-detached.md)
-— Перевірити підпис для повідомлення
-- [sodium_crypto_sign](function.sodium-crypto-sign.md) — Підписати
-повідомлення
-- [sodium_crypto_stream_keygen](function.sodium-crypto-stream-keygen.md)
-- Генерує випадковий ключ sodium_crypto_stream
-- [sodium_crypto_stream_xchacha20_keygen](function.sodium-crypto-stream-xchacha20-keygen.md)
-- Повертає безпечний випадковий ключ
-- [sodium_crypto_stream_xchacha20_xor](function.sodium-crypto-stream-xchacha20-xor.md)
-— Шифрує повідомлення, використовуючи одноразовий номер та секретний ключ
-(без автентифікації)
-- [sodium_crypto_stream_xchacha20](function.sodium-crypto-stream-xchacha20.md)
-— Розширює ключ та одноразовий номер у ключовий потік
-псевдовипадкових байтів
-- [sodium_crypto_stream_xor](function.sodium-crypto-stream-xor.md) -
-Шифрує повідомлення без автентифікації
-- [sodium_crypto_stream](function.sodium-crypto-stream.md) — Створює
-детерміновану послідовність байтів із початкового числа
-- [sodium_hex2bin](function.sodium-hex2bin.md) — Декодує рядок у
-шістнадцятковому поданні в бінарне
-- [sodium_increment](function.sodium-increment.md) — Збільшити на
-одиницю велике число
-- [sodium_memcmp](function.sodium-memcmp.md) — Перевірка на рівність
-за постійну кількість часу
-- [sodium_memzero](function.sodium-memzero.md) — Перезаписує
-рядок символами NULL
-- [sodium_pad](function.sodium-pad.md) — Доповнює рядок відступами
-- [sodium_unpad](function.sodium-unpad.md) — Видалення даних
-відступів
+-   [sodium\_add](function.sodium-add.html) — Додає великі числа
+-   [sodium\_base642bin](function.sodium-base642bin.html) — Перетворює рядок у кодуванні base64 на необроблений двійковий файл
+-   [sodium\_bin2base64](function.sodium-bin2base64.html) — Кодує необроблений двійковий рядок за допомогою base64
+-   [sodium\_bin2hex](function.sodium-bin2hex.html) — Кодувати у шістнадцяткову виставу
+-   [sodium\_compare](function.sodium-compare.html) — Порівняти великі числа
+-   [sodium\_crypto\_aead\_aes256gcm\_decrypt](function.sodium-crypto-aead-aes256gcm-decrypt.html) — Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM
+-   [sodium\_crypto\_aead\_aes256gcm\_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.html) — Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
+-   [sodium\_crypto\_aead\_aes256gcm\_is\_available](function.sodium-crypto-aead-aes256gcm-is-available.html) — Перевірити, чи підтримує обладнання AES256-GCM
+-   [sodium\_crypto\_aead\_aes256gcm\_keygen](function.sodium-crypto-aead-aes256gcm-keygen.html) — Створює випадковий ключ AES-256-GCM
+-   [sodium\_crypto\_aead\_chacha20poly1305\_decrypt](function.sodium-crypto-aead-chacha20poly1305-decrypt.html) — Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
+-   [sodium\_crypto\_aead\_chacha20poly1305\_encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.html) - Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305
+-   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.html) — Перевірити, чи зашифрований текст містить допустимий тег
+-   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.html) — Зашифрувати повідомлення
+-   [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_keygen](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.html) - Створює випадковий ключ ChaCha20-Poly1305 (IETF)
+-   [sodium\_crypto\_aead\_chacha20poly1305\_keygen](function.sodium-crypto-aead-chacha20poly1305-keygen.html) - Створює випадковий ключ ChaCha20-Poly1305
+-   [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html) — (Переважно) Перевіряє, потім розшифровує за допомогою XChaCha20-Poly1305
+-   [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) — (Переважно) Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305
+-   [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_keygen](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.html) - Створює випадковий ключ XChaCha20-Poly1305
+-   [sodium\_crypto\_auth\_keygen](function.sodium-crypto-auth-keygen.html) - Створює випадковий ключ для sodiumcryptoauth
+-   [sodium\_crypto\_auth\_verify](function.sodium-crypto-auth-verify.html) — Перевіряє, чи допустимо тег для повідомлення
+-   [sodium\_crypto\_auth](function.sodium-crypto-auth.html) — Обчислити тег для повідомлення
+-   [sodium\_crypto\_box\_keypair\_from\_secretkey\_and\_publickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html) — Створює уніфікований рядок ключової пари із секретного та відкритого ключів
+-   [sodium\_crypto\_box\_keypair](function.sodium-crypto-box-keypair.html) — Згенерувати випадковим чином секретний ключ та відповідний йому відкритий ключ
+-   [sodium\_crypto\_box\_open](function.sodium-crypto-box-open.html) — Розшифровка відкритого ключа з автентифікацією
+-   [sodium\_crypto\_box\_publickey\_from\_secretkey](function.sodium-crypto-box-publickey-from-secretkey.html) — Обчислює відкритий ключ із секретного ключа
+-   [sodium\_crypto\_box\_publickey](function.sodium-crypto-box-publickey.html) — Витягує відкритий ключ із ключової пари cryptobox
+-   [sodium\_crypto\_box\_seal\_open](function.sodium-crypto-box-seal-open.html) — Розшифрування відкритим ключем без автентифікації
+-   [sodium\_crypto\_box\_seal](function.sodium-crypto-box-seal.html) — Шифрування відкритим ключем без автентифікації
+-   [sodium\_crypto\_box\_secretkey](function.sodium-crypto-box-secretkey.html) — Витягує секретний ключ із ключової пари cryptobox
+-   [sodium\_crypto\_box\_seed\_keypair](function.sodium-crypto-box-seed-keypair.html) - Детерміністичний висновок ключової пари з одного ключа
+-   [sodium\_crypto\_box](function.sodium-crypto-box.html) — Шифрування відкритим ключем із автентифікацією
+-   [sodium\_crypto\_core\_ristretto255\_add](function.sodium-crypto-core-ristretto255-add.html) — Додає елемент
+-   [sodium\_crypto\_core\_ristretto255\_from\_hash](function.sodium-crypto-core-ristretto255-from-hash.html) — Зіставляє вектор
+-   [sodium\_crypto\_core\_ristretto255\_is\_valid\_point](function.sodium-crypto-core-ristretto255-is-valid-point.html) — Визначає, чи лежить крапка на кривій.
+-   [sodium\_crypto\_core\_ristretto255\_random](function.sodium-crypto-core-ristretto255-random.html) - Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_add](function.sodium-crypto-core-ristretto255-scalar-add.html) — Додає скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_complement](function.sodium-crypto-core-ristretto255-scalar-complement.html) - Призначення sodiumcryptocoreristretto255scalarcomplement
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_invert](function.sodium-crypto-core-ristretto255-scalar-invert.html) - Інвертує скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_mul](function.sodium-crypto-core-ristretto255-scalar-mul.html) — Помножує скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_negate](function.sodium-crypto-core-ristretto255-scalar-negate.html) — Скасовує скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_reduce](function.sodium-crypto-core-ristretto255-scalar-reduce.html) — Зменшує скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_sub](function.sodium-crypto-core-ristretto255-scalar-sub.html) — Віднімає скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_sub](function.sodium-crypto-core-ristretto255-sub.html) — Віднімає елемент
+-   [sodium\_crypto\_generichash\_final](function.sodium-crypto-generichash-final.html) - Закінчити хешування
+-   [sodium\_crypto\_generichash\_init](function.sodium-crypto-generichash-init.html) - Ініціалізує хеш для потокової передачі
+-   [sodium\_crypto\_generichash\_keygen](function.sodium-crypto-generichash-keygen.html) - Створює випадковий загальний хеш-ключ
+-   [sodium\_crypto\_generichash\_update](function.sodium-crypto-generichash-update.html) — Додати повідомлення до хешу
+-   [sodium\_crypto\_generichash](function.sodium-crypto-generichash.html) — Отримати хеш повідомлення
+-   [sodium\_crypto\_kdf\_derive\_from\_key](function.sodium-crypto-kdf-derive-from-key.html) — Витягти підрозділ
+-   [sodium\_crypto\_kdf\_keygen](function.sodium-crypto-kdf-keygen.html) — Створює випадковий кореневий ключ для інтерфейсу KDF
+-   [sodium\_crypto\_kx\_client\_session\_keys](function.sodium-crypto-kx-client-session-keys.html) - Обчислює ключі сесії на стороні клієнта
+-   [sodium\_crypto\_kx\_keypair](function.sodium-crypto-kx-keypair.html) — Створює нову пару ключів.
+-   [sodium\_crypto\_kx\_publickey](function.sodium-crypto-kx-publickey.html) — Витягує відкритий ключ із пари ключів cryptoккс
+-   [sodium\_crypto\_kx\_secretkey](function.sodium-crypto-kx-secretkey.html) — Витягує секретний ключ із пари ключів cryptoккс
+-   [sodium\_crypto\_kx\_seed\_keypair](function.sodium-crypto-kx-seed-keypair.html) - Опис
+-   [sodium\_crypto\_kx\_server\_session\_keys](function.sodium-crypto-kx-server-session-keys.html) - Обчислює ключі сесії на стороні сервера
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html) — Перевірити, чи пароль є дійсним рядком перевірки пароля
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html) — Отримати закодований в ASCII хеш
+-   [sodium\_crypto\_pwhash\_scryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.html) — Отримує ключ із пароля, використовуючи scrypt
+-   [sodium\_crypto\_pwhash\_str\_needs\_rehash](function.sodium-crypto-pwhash-str-needs-rehash.html) — Визначає, чи потрібно повторно використовувати пароль
+-   [sodium\_crypto\_pwhash\_str\_verify](function.sodium-crypto-pwhash-str-verify.html) - Перевіряє, що пароль відповідає хешу
+-   [sodium\_crypto\_pwhash\_str](function.sodium-crypto-pwhash-str.html) — Отримати ASCII-кодований хеш
+-   [sodium\_crypto\_pwhash](function.sodium-crypto-pwhash.html) — Отримує ключ із пароля, використовуючи Argon2
+-   [sodium\_crypto\_scalarmult\_base](function.sodium-crypto-scalarmult-base.html) - Псевдонім sodiumcryptoboxpublickeyfromsecretkey
+-   [sodium\_crypto\_scalarmult\_ristretto255\_base](function.sodium-crypto-scalarmult-ristretto255-base.html) — Обчислює відкритий ключ із закритого ключа
+-   [sodium\_crypto\_scalarmult\_ristretto255](function.sodium-crypto-scalarmult-ristretto255.html) - Обчислює загальний секрет
+-   [sodium\_crypto\_scalarmult](function.sodium-crypto-scalarmult.html) — Обчислити загальний секрет на основі секретного ключа користувача та відкритого ключа іншого користувача
+-   [sodium\_crypto\_secretbox\_keygen](function.sodium-crypto-secretbox-keygen.html) - Створює випадковий ключ для sodiumcryptosecretbox
+-   [sodium\_crypto\_secretbox\_open](function.sodium-crypto-secretbox-open.html) — Розшифровка за допомогою загального ключа з автентичністю
+-   [sodium\_crypto\_secretbox](function.sodium-crypto-secretbox.html) — Шифрування із загальним ключем із автентифікацією
+-   [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html) - Ініціалізує контекст secretstream для дешифрування
+-   [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html) - Ініціалізує контекст secretstream для шифрування
+-   [sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.html) - Створює випадковий ключ secretstream
+-   [sodium\_crypto\_secretstream\_xchacha20poly1305\_pull](function.sodium-crypto-secretstream-xchacha20poly1305-pull.html) — Розшифровує частину даних із зашифрованого потоку
+-   [sodium\_crypto\_secretstream\_xchacha20poly1305\_push](function.sodium-crypto-secretstream-xchacha20poly1305-push.html) — Шифрує фрагмент даних, щоб його можна було безпечно розшифрувати у потоковому API
+-   [sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html) - Явно повертає ключ у стан secretstream
+-   [sodium\_crypto\_shorthash\_keygen](function.sodium-crypto-shorthash-keygen.html) — Отримати випадкові байти для ключа
+-   [sodium\_crypto\_shorthash](function.sodium-crypto-shorthash.html) — Обчислює короткий хеш повідомлення та ключ
+-   [sodium\_crypto\_sign\_detached](function.sodium-crypto-sign-detached.html) — Підписати повідомлення
+-   [sodium\_crypto\_sign\_ed25519\_pk\_to\_curve25519](function.sodium-crypto-sign-ed25519-pk-to-curve25519.html) — Перетворення відкритого ключа системи Ed25519 на відкритий ключ Curve25519
+-   [sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html) — Перетворити секретний ключ із системи Ed25519 на секретний ключ Curve25519
+-   [sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.html) — Об'єднує секретний ключ та відкритий ключ разом
+-   [sodium\_crypto\_sign\_keypair](function.sodium-crypto-sign-keypair.html) — Довільно згенерувати секретний ключ та відповідний відкритий ключ
+-   [sodium\_crypto\_sign\_open](function.sodium-crypto-sign-open.html) — Перевірити, чи підписане повідомлення має коректний підпис
+-   [sodium\_crypto\_sign\_publickey\_from\_secretkey](function.sodium-crypto-sign-publickey-from-secretkey.html) — Витягує відкритий ключ Ed25519 із секретного ключа
+-   [sodium\_crypto\_sign\_publickey](function.sodium-crypto-sign-publickey.html) — Витягує відкритий ключ Ed25519 із пари ключів
+-   [sodium\_crypto\_sign\_secretkey](function.sodium-crypto-sign-secretkey.html) — Витягує секретний ключ Ed25519 із пари ключів
+-   [sodium\_crypto\_sign\_seed\_keypair](function.sodium-crypto-sign-seed-keypair.html) — Детерміноване виведення пари ключів з одного ключа
+-   [sodium\_crypto\_sign\_verify\_detached](function.sodium-crypto-sign-verify-detached.html) — Перевірити підпис для повідомлення
+-   [sodium\_crypto\_sign](function.sodium-crypto-sign.html) — Підписати повідомлення
+-   [sodium\_crypto\_stream\_keygen](function.sodium-crypto-stream-keygen.html) - Генерує випадковий ключ.cryptostream
+-   [sodium\_crypto\_stream\_xchacha20\_keygen](function.sodium-crypto-stream-xchacha20-keygen.html) - Повертає безпечний випадковий ключ
+-   [sodium\_crypto\_stream\_xchacha20\_xor](function.sodium-crypto-stream-xchacha20-xor.html) — Шифрує повідомлення, використовуючи одноразовий номер та секретний ключ (без автентифікації)
+-   [sodium\_crypto\_stream\_xchacha20](function.sodium-crypto-stream-xchacha20.html) — Розширює ключ та одноразовий номер у ключовий потік псевдовипадкових байтів
+-   [sodium\_crypto\_stream\_xor](function.sodium-crypto-stream-xor.html) — Шифрує повідомлення без автентифікації
+-   [sodium\_crypto\_stream](function.sodium-crypto-stream.html) — Створює детерміновану послідовність байтів із початкового числа.
+-   [sodium\_hex2bin](function.sodium-hex2bin.html) — Декодує рядок у шістнадцятковому поданні до бінарного
+-   [sodium\_increment](function.sodium-increment.html) - Збільшити на одиницю велике число
+-   [sodium\_memcmp](function.sodium-memcmp.html) — Перевірка на рівність за постійну кількість часу
+-   [sodium\_memzero](function.sodium-memzero.html) - Перезаписує рядок символами NULL
+-   [sodium\_pad](function.sodium-pad.html) — Доповнює рядок відступами
+-   [sodium\_unpad](function.sodium-unpad.html) — Видалення даних відступів

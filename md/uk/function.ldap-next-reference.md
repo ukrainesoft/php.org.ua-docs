@@ -1,22 +1,28 @@
-- [«ldap_next_entry](function.ldap-next-entry.md)
-- [ldap_parse_exop »](function.ldap-parse-exop.md)
+Повертає наступну довідку
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Повертає наступну довідку
+-   [« ldap\_next\_entry](function.ldap-next-entry.html)
+    
+-   [ldap\_parse\_exop »](function.ldap-parse-exop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Повертає наступну довідку
+    
 
-# ldap_next_reference
+# ldapnextreference
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldap_next_reference — Повертає наступну довідку
+ldapnextreference — Повертає наступну довідку
 
 ### Опис
 
-**ldap_next_reference**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, LDAP\ResultEntry `$entry`): LDAP\ResultEntry\|false
+```methodsynopsis
+ldap_next_reference(LDAP\Connection $ldap, LDAP\ResultEntry $entry): LDAP\ResultEntry|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

@@ -1,9 +1,15 @@
-- [«ceil](function.ceil.md)
-- [cosh »](function.cosh.md)
+Косінус
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Косінус
+-   [« ceil](function.ceil.html)
+    
+-   [cosh »](function.cosh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Косінус
+    
 
 # cos
 
@@ -13,14 +19,16 @@ cos — Косінус
 
 ### Опис
 
-**cos**(float `$num`): float
+```methodsynopsis
+cos(float $num): float
+```
 
-**cos()** повертає косинус параметра `num`. Параметр `num` задається в
-радіанах.
+**cos()** повертає косинус параметра `num`. Параметр `num` задається у радіанах.
 
 ### Список параметрів
 
 `num`
+
 Кут у радіанах
 
 ### Значення, що повертаються
@@ -31,12 +39,17 @@ cos — Косінус
 
 **Приклад #1 Приклад використання **cos()****
 
-`<?phpecho cos(M_PI); // -1?> `
+```php
+<?php
+
+echo cos(M_PI); // -1
+
+?>
+```
 
 ### Дивіться також
 
-- [acos()](function.acos.md) - Арккосінус
-- [sin()](function.sin.md) - Сінус
-- [tan()](function.tan.md) - Тангенс
-- [deg2rad()](function.deg2rad.md) - Перетворює значення з
-градусів у радіани
+-   [acos()](function.acos.html) - Арккосінус
+-   [sin()](function.sin.html) - Сінус
+-   [tan()](function.tan.html) - Тангенс
+-   [deg2rad()](function.deg2rad.html) - Перетворює значення із градусів на радіани

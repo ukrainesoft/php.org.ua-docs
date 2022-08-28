@@ -1,19 +1,27 @@
-- [« PDO::pgsqlGetNotify](pdo.pgsqlgetnotify.md)
-- [PDO::pgsqlLOBCreate »](pdo.pgsqllobcreate.md)
+Отримує PID сервера
 
-- [PHP Manual](index.md)
-- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
-- Отримує PID сервера
+-   [« PDO::pgsqlGetNotify](pdo.pgsqlgetnotify.html)
+    
+-   [PDO::pgsqlLOBCreate »](pdo.pgsqllobcreate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
+    
+-   Отримує PID сервера
+    
 
 # PDO::pgsqlGetPid
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
 PDO::pgsqlGetPid — Отримує PID сервера
 
 ### Опис
 
-public **PDO::pgsqlGetPid**(): int
+```methodsynopsis
+public PDO::pgsqlGetPid(): int
+```
 
 Повертає сервер PID.
 

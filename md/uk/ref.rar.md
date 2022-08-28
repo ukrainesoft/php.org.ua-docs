@@ -1,13 +1,18 @@
-- [« Приклади](rar.examples.md)
-- [rar_wrapper_cache_stats »](function.rar-wrapper-cache-stats.md)
+Rar
 
-- [PHP Manual](index.md)
-- [Rar](book.rar.md)
-- Rar
+-   [« Примеры](rar.examples.html)
+    
+-   [rar\_wrapper\_cache\_stats »](function.rar-wrapper-cache-stats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Rar](book.rar.html)
+    
+-   Rar
+    
 
 # Rar
 
 ## Зміст
 
-- [rar_wrapper_cache_stats](function.rar-wrapper-cache-stats.md) -
-Кеш доступів та відмов обгортки URL
+-   [rar\_wrapper\_cache\_stats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL

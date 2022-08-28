@@ -1,46 +1,51 @@
-- [«shm_get_var](function.shm-get-var.md)
-- [shm_put_var »](function.shm-put-var.md)
+Перевіряє, чи існує конкретний запис
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Перевіряє, чи існує конкретний запис
+-   [« shm\_get\_var](function.shm-get-var.html)
+    
+-   [shm\_put\_var »](function.shm-put-var.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Перевіряє, чи існує конкретний запис
+    
 
-#shm_has_var
+# shmhasvar
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-shm_has_var — Перевіряє, чи існує конкретний запис
+shmhasvar — Перевіряє, чи існує конкретний запис
 
 ### Опис
 
-**shm_has_var**([SysvSharedMemory](class.sysvsharedmemory.md) `$shm`,
-int `$key`): bool
+```methodsynopsis
+shm_has_var(SysvSharedMemory $shm, int $key): bool
+```
 
 Перевіряє, чи існує конкретний ключ у сегменті пам'яті, що розділяється.
 
 ### Список параметрів
 
 `shm`
-Сегмент пам'яті, що розділяється, отриманий з
-[shm_attach()](function.shm-attach.md).
+
+Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
 
 `key`
+
 Ключ змінної.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо запис існує, інакше
-повертає **`false`**.
+Повертає **`true`**, якщо запис існує, інакше повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                         |
-|--------|--------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | shm тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [shm_get_var()](function.shm-get-var.md) - Повертає змінну
-з роздільної пам'яті
-- [shm_put_var()](function.shm-put-var.md) - Вставляє або оновлює
-змінну в пам'яті, що розділяється
+-   [shm\_get\_var()](function.shm-get-var.html) - Повертає змінну з пам'яті, що розділяється
+-   [shm\_put\_var()](function.shm-put-var.html) - Вставляє або оновлює змінну в пам'яті, що розділяється.

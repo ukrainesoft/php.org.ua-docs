@@ -1,60 +1,47 @@
-- [« Зміна поведінки PHP](refs.basic.php.md)
-- [Вступ »](intro.apcu.md)
+Користувальницький кеш APC
 
-- [PHP Manual](index.md)
-- [Зміна поведінки PHP](refs.basic.php.md)
-- Користувальницький кеш APC
+-   [« Изменение поведения PHP](refs.basic.php.html)
+    
+-   [Введение »](intro.apcu.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Изменение поведения PHP](refs.basic.php.html)
+    
+-   Користувальницький кеш APC
+    
 
 # Користувальницький кеш APC
 
-- [Вступ](intro.apcu.md)
-- [Встановлення та налаштування](apcu.setup.md)
-- [Вимоги](apcu.requirements.md)
-- [Установка](apcu.installation.md)
-- [Налаштування під час виконання](apcu.configuration.md)
-- [Типи ресурсів](apcu.resources.md)
-- [Предвизначені константи](apcu.constants.md)
-- [Функції APCu](ref.apcu.md)
-- [apcu_add](function.apcu-add.md) — Додати змінну до кешу
-- [apcu_cache_info](function.apcu-cache-info.md) - Витягує
-закешовану інформацію зі сховища APCu
-- [apcu_cas](function.apcu-cas.md) — Замінює старе значення на
-нове
-- [apcu_clear_cache](function.apcu-clear-cache.md) — Очистити
-кеш APCu
-- [apcu_dec](function.apcu-dec.md) — Зменшити збережене число
-- [apcu_delete](function.apcu-delete.md) — Видаляє збережене
-значення з кешу
-- [apcu_enabled](function.apcu-enabled.md) — Чи можливо
-використовувати APCu у поточному оточенні
-- [apcu_entry](function.apcu-entry.md) - Автоматичне
-вилучення або створення запису в кеші
-- [apcu_exists](function.apcu-exists.md) — Перевіряє, чи існують
-чи записи
-- [apcu_fetch](function.apcu-fetch.md) — Витягує з кеша
-збережену змінну
-- [apcu_inc](function.apcu-inc.md) — Збільшити збережене число
-- [apcu_key_info](function.apcu-key-info.md) — Отримати
-детальну інформацію про ключ у кеші
-- [apcu_sma_info](function.apcu-sma-info.md) - Витягує
-інформацію про виділення роздільної пам'яті APCu
-- [apcu_store](function.apcu-store.md) - Кешує змінну
-- [APCUIterator](class.apcuiterator.md) - Клас APCUIterator
-- [APCUIterator::\_\_construct](apcuiterator.construct.md) -
-Створює об'єкт ітератор класу APCUIterator
-- [APCUIterator::current](apcuiterator.current.md) — Отримати
-поточний елемент
-- [APCUIterator::getTotalCount](apcuiterator.gettotalcount.md) -
-Отримати загальну кількість записів
-- [APCUIterator::getTotalHits](apcuiterator.gettotalhits.md) -
-Отримати загальну кількість влучень у кеш
-- [APCUIterator::getTotalSize](apcuiterator.gettotalsize.md) -
-Загальний розмір кешу
-- [APCUIterator::key](apcuiterator.key.md) — Отримати ключ
-ітератора
-- [APCUIterator::next](apcuiterator.next.md) — Переміщує
-вказівник на наступний елемент
-- [APCUIterator::rewind](apcuiterator.rewind.md) - Перемотування
-ітератора
-- [APCUIterator::valid](apcuiterator.valid.md) — Перевіряє,
-чи коректна поточна позиція ітератора
+-   [Введение](intro.apcu.html)
+-   [Установка и настройка](apcu.setup.html)
+    -   [Требования](apcu.requirements.html)
+    -   [Установка](apcu.installation.html)
+    -   [Настройка во время выполнения](apcu.configuration.html)
+    -   [Типы ресурсов](apcu.resources.html)
+-   [Предопределённые константы](apcu.constants.html)
+-   [Функции APCu](ref.apcu.html)
+    -   [apcu\_add](function.apcu-add.html) - Додати змінну в кеш
+    -   [apcu\_cache\_info](function.apcu-cache-info.html) — Витягує закешовану інформацію зі сховища APCu
+    -   [apcu\_cas](function.apcu-cas.html) — Замінює старе значення на нове
+    -   [apcu\_clear\_cache](function.apcu-clear-cache.html) — Очистити кеш APCu
+    -   [apcu\_dec](function.apcu-dec.html) — Зменшити збережене число
+    -   [apcu\_delete](function.apcu-delete.html) — Видаляє збережене значення з кешу
+    -   [apcu\_enabled](function.apcu-enabled.html) — Чи можливо використовувати APCu у поточному оточенні
+    -   [apcu\_entry](function.apcu-entry.html) — Автоматичне вилучення або створення запису в кеші
+    -   [apcu\_exists](function.apcu-exists.html) — Перевіряє, чи є записи
+    -   [apcu\_fetch](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+    -   [apcu\_inc](function.apcu-inc.html) — Збільшити збережене число
+    -   [apcu\_key\_info](function.apcu-key-info.html) — Отримати детальну інформацію про ключ у кеші
+    -   [apcu\_sma\_info](function.apcu-sma-info.html) — Витягує інформацію про виділення пам'яті APCu, що розділяється.
+    -   [apcu\_store](function.apcu-store.html) - Кешує змінну
+-   [APCUIterator](class.apcuiterator.html) - Клас APCUIterator
+    -   [APCUIterator::\_\_construct](apcuiterator.construct.html) — Створює об'єкт ітератора класу APCUIterator
+    -   [APCUIterator::current](apcuiterator.current.html) — Отримати поточний елемент
+    -   [APCUIterator::getTotalCount](apcuiterator.gettotalcount.html) — Отримати загальну кількість записів
+    -   [APCUIterator::getTotalHits](apcuiterator.gettotalhits.html) — Отримати загальну кількість влучень у кеш
+    -   [APCUIterator::getTotalSize](apcuiterator.gettotalsize.html) - Загальний розмір кешу
+    -   [APCUIterator::key](apcuiterator.key.html) - Отримати ключ ітератора
+    -   [APCUIterator::next](apcuiterator.next.html) — Переміщує курсор на наступний елемент
+    -   [APCUIterator::rewind](apcuiterator.rewind.html) - Перемотування ітератора
+    -   [APCUIterator::valid](apcuiterator.valid.html) — Перевіряє, чи поточна позиція ітератора коректна.

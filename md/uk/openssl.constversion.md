@@ -1,9 +1,15 @@
-- [« Алгоритми шифрування](openssl.ciphers.md)
-- [Константа SNI (Server Name Indication) »](openssl.constsni.md)
+Константи версій
 
-- [PHP Manual](index.md)
-- [Предвизначені константи](openssl.constants.md)
-- Константи версій
+-   [« Алгоритмы шифрования](openssl.ciphers.html)
+    
+-   [Константа SNI (Server Name Indication) »](openssl.constsni.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые константы](openssl.constants.html)
+    
+-   Константи версій
+    
 
 ## Константи версій
 

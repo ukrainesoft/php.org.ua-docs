@@ -1,9 +1,15 @@
-- [« UI\Draw\Color::setChannel](ui-draw-color.setchannel.md)
-- [UI\Draw\Stroke::\_\_construct »](ui-draw-stroke.construct.md)
+Малювання обведення
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Малювання обведення
+-   [« UI\\Draw\\Color::setChannel](ui-draw-color.setchannel.html)
+    
+-   [UI\\Draw\\Stroke::\_\_construct »](ui-draw-stroke.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Малювання обведення
+    
 
 # Малювання обведення
 
@@ -15,56 +21,43 @@
 
 ## Огляд класів
 
-class **UI\Draw\Stroke** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-draw-stroke.construct.md)(
-int `$cap` = UI\Draw\Line\Cap::Flat,
-int `$join` = UI\Draw\Line\Join::Miter,
-float `$thickness` = 1,
-float `$miterLimit` = 10
-)
 
-/\* Методи \*/
+    
+     
+      class UI\Draw\Stroke
+     
+     {
 
-public [getCap](ui-draw-stroke.getcap.md)(): int
 
-public [getJoin](ui-draw-stroke.getjoin.md)(): int
+    /* Конструктор */
+    
+   public __construct(    int $cap = UI\Draw\Line\Cap::Flat,    int $join = UI\Draw\Line\Join::Miter,    float $thickness = 1,    float $miterLimit = 10)
 
-public [getMiterLimit](ui-draw-stroke.getmiterlimit.md)(): float
 
-public [getThickness](ui-draw-stroke.getthickness.md)(): float
+    /* Методы */
+    public getCap(): int
+public getJoin(): int
+public getMiterLimit(): float
+public getThickness(): float
+public setCap(int $cap)
+public setJoin(int $join)
+public setMiterLimit(float $limit)
+public setThickness(float $thickness)
 
-public [setCap](ui-draw-stroke.setcap.md)(int `$cap`)
-
-public [setJoin](ui-draw-stroke.setjoin.md)(int `$join`)
-
-public [setMiterLimit](ui-draw-stroke.setmiterlimit.md)(float
-`$limit`)
-
-public [setThickness](ui-draw-stroke.setthickness.md)(float
-`$thickness`)
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Draw\Stroke::\_\_construct](ui-draw-stroke.construct.md) -
-Створити новий об'єкт Stroke
-- [UI\Draw\Stroke::getCap](ui-draw-stroke.getcap.md) — Отримати
-кінець лінії
-- [UI\Draw\Stroke::getJoin](ui-draw-stroke.getjoin.md) - Отримати
-з'єднання лінії
-- [UI\Draw\Stroke::getMiterLimit](ui-draw-stroke.getmiterlimit.md) -
-Отримати межу зрізу
-- [UI\Draw\Stroke::getThickness](ui-draw-stroke.getthickness.md) -
-Отримати товщину
-- [UI\Draw\Stroke::setCap](ui-draw-stroke.setcap.md) — Встановити
-кінець лінії
-- [UI\Draw\Stroke::setJoin](ui-draw-stroke.setjoin.md) - Отримати
-з'єднання лінії
-- [UI\Draw\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.md) -
-Встановити межу зрізу
-- [UI\Draw\Stroke::setThickness](ui-draw-stroke.setthickness.md) -
-Встановити товщину
+-   [UI\\Draw\\Stroke::\_\_construct](ui-draw-stroke.construct.html) - Створити новий об'єкт Stroke
+-   [UI\\Draw\\Stroke::getCap](ui-draw-stroke.getcap.html) - Отримати кінець лінії
+-   [UI\\Draw\\Stroke::getJoin](ui-draw-stroke.getjoin.html) — Отримати з'єднання лінії
+-   [UI\\Draw\\Stroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html) — Отримати межу зрізу
+-   [UI\\Draw\\Stroke::getThickness](ui-draw-stroke.getthickness.html) - Отримати товщину
+-   [UI\\Draw\\Stroke::setCap](ui-draw-stroke.setcap.html) - Встановити кінець лінії
+-   [UI\\Draw\\Stroke::setJoin](ui-draw-stroke.setjoin.html) — Отримати з'єднання лінії
+-   [UI\\Draw\\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html) - Встановити межу зрізу
+-   [UI\\Draw\\Stroke::setThickness](ui-draw-stroke.setthickness.html) - Встановити товщину

@@ -1,26 +1,27 @@
-- [« Imagick::quantizeImage](imagick.quantizeimage.md)
-- [Imagick::queryFontMetrics »](imagick.queryfontmetrics.md)
+Аналізує кольори у послідовності зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Аналізує кольори у послідовності зображень
+-   [« Imagick::quantizeImage](imagick.quantizeimage.html)
+    
+-   [Imagick::queryFontMetrics »](imagick.queryfontmetrics.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Аналізує кольори у послідовності зображень
+    
 
 # Imagick::quantizeImages
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::quantizeImages — Аналізує кольори у послідовності
-зображень
+Imagick::quantizeImages — Аналізує кольори у послідовності зображень
 
 ### Опис
 
-public **Imagick::quantizeImages**(
-int `$numberColors`,
-int `$colorspace`,
-int `$treedepth`,
-bool `$dither`,
-bool `$ measureError`
-): bool
+```methodsynopsis
+public Imagick::quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+```
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ bool `$ measureError`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

@@ -1,123 +1,149 @@
-- [« mysqli_stmt::$param_count](mysqli-stmt.param-count.md)
-- [mysqli_stmt::reset »](mysqli-stmt.reset.md)
+Готує затвердження SQL до виконання
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- готує затвердження SQL до виконання
+-   [« mysqli\_stmt::$param\_count](mysqli-stmt.param-count.html)
+    
+-   [mysqli\_stmt::reset »](mysqli-stmt.reset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_stmt](class.mysqli-stmt.html)
+    
+-   Готує затвердження SQL до виконання
+    
 
-# mysqli_stmt::prepare
+# mysqlistmt::prepare
 
-# mysqli_stmt_prepare
+# mysqlistmtprepare
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::prepare -- mysqli_stmt_prepare -- Готує затвердження
-SQL до виконання
+mysqlistmt::prepare -- mysqlistmtprepare — Підготовка затвердження SQL до виконання
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::prepare**(string `$query`): bool
+```methodsynopsis
+public mysqli_stmt::prepare(string $query): bool
+```
 
 Процедурний стиль
 
-**mysqli_stmt_prepare**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`, string `$query`): bool
+```methodsynopsis
+mysqli_stmt_prepare(mysqli_stmt $statement, string $query): bool
+```
 
-Підготовляє твердження до виконання. Запит повинен складатися з
-одного оператора SQL.
+Готує затвердження до виконання. Запит повинен складатися з одного оператора SQL.
 
-Шаблон затвердження може містити нуль або кілька запитань
-знаків (`?`), міток параметрівu2060, також званих заповнювачами. Мітки
-параметрів повинні бути прив'язані до змінних програми за допомогою
-[mysqli_stmt_bind_param()](mysqli-stmt.bind-param.md) перед
-виконанням затвердження. рядків.
+Шаблон затвердження може містити нуль або кілька знаків запитання (`?`), позначок параметрів⁠, також званих заповнювачами. Мітки параметрів повинні бути прив'язані до змінних додатків за допомогою [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) перед виконанням затвердження. рядків.
 
-> **Примітка**:
->
-> У випадку, якщо довжина виразу, який ви передаєте в
-> **mysqli_stmt_prepare()**, більше, ніж `max_allowed_packet` сервера,
-> коди помилки, що повертаються, можуть різнитися в залежності від
-> використовуваного драйвера. А це може бути рідний MySQL-драйвер
-> (`mysqlnd`), або клієнтська бібліотека MySQL (`libmysqlclient`).
-> Поведінка функції буде такою:
->
-> - `mysqlnd` на платформі Linux повертає код помилки 1153. Повідомлення
-> про помилку означає “розмір пакета перевищує `max_allowed_packet`
-> байт”.
->
-> - `mysqlnd` на платформі Windows повертає код помилки 2006. Це
-> повідомлення про помилку означає “сервер недоступний”.
->
-> - `libmysqlclient` на всіх платформах повертає код помилки 2006 року.
-> Це повідомлення про помилку означає “сервер недоступний”.
+> **Зауваження**
+> 
+> У випадку, якщо довжина виразу, який ви передаєте в **mysqlistmtprepare()**, більше ніж `max_allowed_packet` сервера, коди помилки, що повертаються, можуть відрізнятися в залежності від використовуваного драйвера. А це може бути або рідний MySQL-драйвер (`mysqlnd`), або клієнтська бібліотека MySQL (`libmysqlclient`). Поведінка функції буде такою:
+> 
+> -   `mysqlnd` на платформі Linux повертає код помилки 1153. Повідомлення про помилку означає розмір пакета перевищує `max_allowed_packet` байт.
+>     
+> -   `mysqlnd` на платформі Windows повертає код помилки 2006. Це повідомлення про помилку означає, що сервер недоступний.
+>     
+> -   `libmysqlclient` на всіх платформах повертає код помилки 2006 року. Це повідомлення про помилку означає сервер недоступний.
+>     
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
 
 `query`
-Текст запиту у вигляді рядка. Запит повинен складатися з одного
-SQL-вирази.
 
-Затвердження SQL може містити нуль або більше позначок параметрів,
-представлених знаками питання (`?`) у відповідних позиціях.
+Текст запиту у вигляді рядка. Запит повинен складатися з одного виразу SQL.
 
-> **Примітка**:
->
-> Мітки параметрів запиту можна вбудовувати лише у певні місця.
-> у виразі. Наприклад, вони допустимі у списку `VALUES()` виразу
-> `INSERT` (щоб встановити значення стовпців для рядка), чи операціях
-> порівняння пропозиції `WHERE` для завдання порівнюваного значення.
->
-> Однак ці позначки неприпустимі як ідентифікатори (такі як
-> імена стовпців або таблиць) або для завдання обох операндів бінарного
-> оператора, як знак рівності `=`. Останнє обмеження
-> необхідно, оскільки інакше неможливо буде визначити тип
-> операнда. В основному параметри допустимі у виразах мови
-> маніпулювання даними (DML), і неприпустимі у виразах мови
-> Визначення даних (DDL).
+Затвердження SQL може містити нуль або більше позначок параметрів, представлених знаками питання (`?`) у відповідних позиціях.
+
+> **Зауваження**
+> 
+> Мітки параметрів запиту можна вбудовувати лише у певні місця у виразі. Наприклад, вони допустимі у списку `VALUES()` вирази `INSERT` (щоб задати значення стовпців для рядка), або в операціях порівняння речення `WHERE` для завдання порівнюваного значення.
+> 
+> Однак, ці мітки неприпустимі як ідентифікатори (наприклад, імена стовпців або таблиць) або завдання обох операндів бінарного оператора, такого як знак рівності `=`. Останнє обмеження необхідне, оскільки інакше неможливо визначити тип операндов. В основному параметри допустимі у виразах мови маніпулювання даними (DML), і неприпустимі у виразах мови визначення даних (DDL).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli_stmt::prepare()****
+**Приклад #1 Приклад використання **mysqlistmt::prepare()****
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$city =      $mysqli->stmt_init();$stmt->prepare("SELECT District FROM City WHERE Name=?");/* Зв'язуємо змінні змітками */$stmt->bind_param("s"; Виконуємо запит */$stmt->execute();/* Зв'язуємо змінні результату */$stmt->bind_result($district);/* Отримуємо значення */$stmt->fetch()находиться районі%s
-", $city, $district); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$city = "Amersfoort";
+
+/* Создаём подготовленное утверждение */
+$stmt = $mysqli->stmt_init();
+$stmt->prepare("SELECT District FROM City WHERE Name=?");
+
+/* Связываем переменные с метками */
+$stmt->bind_param("s", $city);
+
+/* Выполняем запрос */
+$stmt->execute();
+
+/* Связываем переменные результата */
+$stmt->bind_result($district);
+
+/* Получаем значение */
+$stmt->fetch();
+
+printf("%s находится в районе %s\n", $city, $district);
+```
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$city =| ($link);mysqli_stmt_prepare($stmt, "SELECT District FROM City WHERE Name=?");/* Зв'язуємо змінні з| ($stmt);/* Зв'язуємо змінні результату */mysqli_stmt_bind_result($stmt, $district);/* Отримуємо значення */mysqli_stmt_fetch($stmt);printf("%s не
-", $city, $district); `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$city = "Amersfoort";
+
+/* Создаём подготовленное утверждение */
+$stmt = mysqli_stmt_init($link);
+mysqli_stmt_prepare($stmt, "SELECT District FROM City WHERE Name=?");
+
+/* Связываем переменные с метками */
+mysqli_stmt_bind_param($stmt, "s", $city);
+
+/* Выполняем запрос */
+mysqli_stmt_execute($stmt);
+
+/* Связываем переменные результата */
+mysqli_stmt_bind_result($stmt, $district);
+
+/* Получаем значение */
+mysqli_stmt_fetch($stmt);
+
+printf("%s находится в районе %s\n", $city, $district);
+```
 
 Результат виконання даних прикладів:
 
-Amersfoort знаходиться в районі Utrecht
+```
+Amersfoort находится в районе Utrecht
+```
 
 ### Дивіться також
 
-- [mysqli_stmt_init()](mysqli.stmt-init.md) - Ініціалізує запит
-та повертає об'єкт для використання в mysqli_stmt_prepare
-- [mysqli_stmt_execute()](mysqli-stmt.execute.md) - Виконує
-підготовлене затвердження
-- [mysqli_stmt_fetch()](mysqli-stmt.fetch.md) - Зв'язує результати
-підготовленого виразу зі змінними
-- [mysqli_stmt_bind_param()](mysqli-stmt.bind-param.md) - Прив'язка
-змінних до параметрів запиту, що готується
-- [mysqli_stmt_bind_result()](mysqli-stmt.bind-result.md) - Прив'язка
-змінних до підготовленого запиту для розміщення результату
-- [mysqli_stmt_get_result()](mysqli-stmt.get-result.md) - Отримує
-результат із підготовленого запиту як об'єкт mysqli_result
-- [mysqli_stmt_close()](mysqli-stmt.close.md) - Закриває
-підготовлений запит
+-   [mysqli\_stmt\_init()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+-   [mysqli\_stmt\_execute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
+-   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqli\_stmt\_bind\_result()](mysqli-stmt.bind-result.html) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
+-   [mysqli\_stmt\_close()](mysqli-stmt.close.html) - Закриває підготовлений запит

@@ -1,23 +1,32 @@
-- [« UI\MenuItem::onClick](ui-menuitem.onclick.md)
-- [UI\Area »](class.ui-area.md)
+Вибрати пункт меню
 
-- [PHP Manual](index.md)
-- [UI\MenuItem](class.ui-menuitem.md)
-- Вибрати пункт меню
+-   [« UI\\MenuItem::onClick](ui-menuitem.onclick.html)
+    
+-   [UI\\Area »](class.ui-area.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\MenuItem](class.ui-menuitem.html)
+    
+-   Вибрати пункт меню
+    
 
-# UI\MenuItem::setChecked
+# ОЙMenuItem::setChecked
 
 (UI 0.9.9)
 
-UI\MenuItem::setChecked — Виберіть пункт меню
+ОЙMenuItem::setChecked — Виберіть пункт меню
 
 ### Опис
 
-public **UI\MenuItem::setChecked**(bool `$checked`)
+```methodsynopsis
+public UI\MenuItem::setChecked(bool $checked)
+```
 
 Встановити статус вибраності цього пункту меню
 
 ### Список параметрів
 
 `checked`
+
 Новий статус

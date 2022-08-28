@@ -1,9 +1,15 @@
-- [« Imagick::getImageMimeType](imagick.getimagemimetype.md)
-- [Imagick::getImagePage »](imagick.getimagepage.md)
+Повертає орієнтацію зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає орієнтацію зображення
+-   [« Imagick::getImageMimeType](imagick.getimagemimetype.html)
+    
+-   [Imagick::getImagePage »](imagick.getimagepage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає орієнтацію зображення
+    
 
 # Imagick::getImageOrientation
 
@@ -13,10 +19,11 @@ Imagick::getImageOrientation — Повертає орієнтацію зобр�
 
 ### Опис
 
-public **Imagick::getImageOrientation**(): int
+```methodsynopsis
+public Imagick::getImageOrientation(): int
+```
 
-Повертає орієнтацію зображення. Повертається - одна з
-[констант ORIENTATION](imagick.constants.md#imagick.constants.orientation).
+Повертає орієнтацію зображення. Значення, що повертається - одна з [констант ORIENTATION](imagick.constants.html#imagick.constants.orientation)
 
 ### Список параметрів
 

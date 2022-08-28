@@ -1,42 +1,57 @@
-- [«EventConfig](class.eventconfig.md)
-- [EventConfig::\_\_construct »](eventconfig.construct.md)
+Попросити libevent не використати певний метод події
 
-- [PHP Manual](index.md)
-- [EventConfig](class.eventconfig.md)
-- Попросити libevent не використати певний метод події
+-   [« EventConfig](class.eventconfig.html)
+    
+-   [EventConfig::\_\_construct »](eventconfig.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventConfig](class.eventconfig.html)
+    
+-   Попросити libevent не використати певний метод події
+    
 
 # EventConfig::avoidMethod
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventConfig::avoidMethod — Попросити libevent не використовувати
-певний метод події
+EventConfig::avoidMethod — Попросити libevent не використовувати певний метод події
 
 ### Опис
 
-public **EventConfig::avoidMethod**( string `$method` ): bool
+```methodsynopsis
+public
+   EventConfig::avoidMethod(
+    string
+     $method
+   ): bool
+```
 
-Попросити libevent не використовувати певний метод події (бекенд).
-Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.md#_creating_an_event_base).
+Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Создание базы события](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.html#_creating_an_event_base)
 
 ### Список параметрів
 
 `method`
-Метод бекенду, який потрібно ігнорувати. Дивіться [константи EventConfig](class.eventconfig.md#eventconfig.constants) .
+
+Метод бекенда, який потрібно ігнорувати. Дивіться [константы EventConfig](class.eventconfig.html#eventconfig.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 **Приклад використання EventConfig::avoidMethod()****
 
-` <?php$cfg = new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
-";}?> `
+```php
+<?php
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [EventBase::\_\_construct()](eventbase.construct.md) - Конструктор
-об'єкта EventBase
+-   [EventBase::\_\_construct()](eventbase.construct.html) - Конструктор об'єкту EventBase

@@ -1,19 +1,27 @@
-- [« Yar_Concurrent_Client::loop](yar-concurrent-client.loop.md)
-- [Yar_Server_Exception »](class.yar-server-exception.md)
+Очистити всі зареєстровані дзвінки
 
-- [PHP Manual](index.md)
-- [Yar_Concurrent_Client](class.yar-concurrent-client.md)
-- Очистити всі зареєстровані дзвінки
+-   [« Yar\_Concurrent\_Client::loop](yar-concurrent-client.loop.html)
+    
+-   [Yar\_Server\_Exception »](class.yar-server-exception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yar\_Concurrent\_Client](class.yar-concurrent-client.html)
+    
+-   Очистити всі зареєстровані дзвінки
+    
 
-# Yar_Concurrent_Client::reset
+# YarConcurrentClient::reset
 
-(PECL yar \> = 1.2.4)
+(PECL yar >= 1.2.4)
 
-Yar_Concurrent_Client::reset — Очистити всі зареєстровані дзвінки
+YarConcurrentClient::reset — Очистити всі зареєстровані дзвінки
 
 ### Опис
 
-public static **Yar_Concurrent_Client::reset**(): bool
+```methodsynopsis
+public static Yar_Concurrent_Client::reset(): bool
+```
 
 Очищає всі зареєстровані дзвінки
 
@@ -23,19 +31,13 @@ public static **Yar_Concurrent_Client::reset**(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Concurrent_Client::reset()****
-
-``
+**Приклад #1 Приклад використання **YarConcurrentClient::reset()****
 
 Результатом виконання цього прикладу буде щось подібне:
 
 ### Дивіться також
 
-- [Yar_Concurrent_Client::call()](yar-concurrent-client.call.md) -
-Зареєструвати конкурентний виклик
-- [Yar_Concurrent_Client::loop()](yar-concurrent-client.loop.md) -
-Запуск усіх зареєстрованих викликів
-- [Yar_Server::\_\_construct()](yar-server.construct.md) -
-Конструктор Yar_Server
-- [Yar_Server::handle()](yar-server.handle.md) - Запустити сервер
-RPC
+-   [Yar\_Concurrent\_Client::call()](yar-concurrent-client.call.html) - Зареєструвати конкурентний виклик
+-   [Yar\_Concurrent\_Client::loop()](yar-concurrent-client.loop.html) - Запуск усіх зареєстрованих викликів
+-   [Yar\_Server::\_\_construct()](yar-server.construct.html) - Конструктор YarServer
+-   [Yar\_Server::handle()](yar-server.handle.html) - Запустити сервер RPC

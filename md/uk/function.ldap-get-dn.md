@@ -1,40 +1,47 @@
-- [« ldap_get_attributes](function.ldap-get-attributes.md)
-- [ldap_get_entries »](function.ldap-get-entries.md)
+Отримати DN результуючого запису
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Отримати DN результуючого запису
+-   [« ldap\_get\_attributes](function.ldap-get-attributes.html)
+    
+-   [ldap\_get\_entries »](function.ldap-get-entries.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Отримати DN результуючого запису
+    
 
-#ldap_get_dn
+# ldapgetдн
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_get_dn — Отримати DN результуючого запису
+ldapgetdn — Отримати DN результуючого запису
 
 ### Опис
 
-**ldap_get_dn**([LDAP\Connection](class.ldap-connection.md) `$ldap`,
-LDAP\ResultEntry `$entry`): string\|false
+```methodsynopsis
+ldap_get_dn(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
+```
 
-Виявити результат DN в результаті.
+Виявити DN запису в результаті.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `entry`
-Примірник [LDAP\ResultEntry](class.ldap-result-entry.md).
+
+Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html)
 
 ### Значення, що повертаються
 
-Повертає DN запису результату та **`false`** у разі виникнення
-помилки.
+Повертає DN запису результату та **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)).    |
-| 8.1.0  | Параметр entry тепер чекає на екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

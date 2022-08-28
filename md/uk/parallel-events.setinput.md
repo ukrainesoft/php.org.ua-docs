@@ -1,18 +1,24 @@
-- [« parallel\Events::setTimeout](parallel-events.settimeout.md)
-- [parallel\Events::addChannel »](parallel-events.addchannel.md)
+Вхід
 
-- [PHP Manual](index.md)
-- [parallel\Events](class.parallel-events.md)
+-   [« parallel\\Events::setTimeout](parallel-events.settimeout.html)
+    
+-   [parallel\\Events::addChannel »](parallel-events.addchannel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Events](class.parallel-events.html)
+    
 -   Вхід
+    
 
-# parallel\Events::setInput
+# parallelEvents::setInput
 
-(0.9.0)
-
-parallel\Events::setInput — Вхід
+parallelEvents::setInput — Вхід
 
 ### Опис
 
-public **parallel\Events::setInput**(Input `$input`): void
+```methodsynopsis
+public parallel\Events::setInput(Input $input): void
+```
 
 Встановлює `input` для цього циклу подій

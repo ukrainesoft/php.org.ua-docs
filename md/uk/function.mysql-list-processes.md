@@ -1,62 +1,71 @@
-- [« mysql_list_fields](function.mysql-list-fields.md)
-- [mysql_list_tables »](function.mysql-list-tables.md)
+Повертає список процесів MySQL
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає список процесів MySQL
+-   [« mysql\_list\_fields](function.mysql-list-fields.html)
+    
+-   [mysql\_list\_tables »](function.mysql-list-tables.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Повертає список процесів MySQL
+    
 
-# mysql_list_processes
+# mysqllistprocesses
 
-(PHP 4 = 4.3.0, PHP 5)
+(PHP 4> = 4.3.0, PHP 5)
 
-mysql_list_processes — Повертає список процесів MySQL
+mysqllistprocesses — Повертає список процесів MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_thread_id()](mysqli.thread-id.md)
+-   [mysqli\_thread\_id()](mysqli.thread-id.html)
 
 ### Опис
 
-**mysql_list_processes**(resource `$link_identifier` = NULL):
-resource\|false
+```methodsynopsis
+mysql_list_processes(resource $link_identifier = NULL): resource|false
+```
 
 Повертає перелік поточних процесів на сервері MySQL.
 
 ### Список параметрів
 
 `link_identifier`
-З'єднання MySQL. Якщо ідентифікатор з'єднання не було вказано,
-використовується останнє з'єднання, відкрите
-[mysql_connect()](function.mysql-connect.md). Якщо таке з'єднання не
-було знайдено, функція спробує створити таке, якби
-[mysql_connect()](function.mysql-connect.md) була викликана без
-параметрів. Якщо з'єднання не було знайдено і не змогло бути створено,
-генерується помилка рівня **`E_WARNING`**.
+
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Дескриптор результату (resource) у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Дескриптор результату (resource) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_list_processes()****
+**Приклад #1 Приклад використання **mysqllistprocesses()****
 
-` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$result = mysql_list_processes($link);while ($row = mysql_fetch_assoc($result)){    %s%s%s
-", $row["Id"], $row["Host"], $row["db"],        $row["Command"], $row["Time"]);}mysql_free_result($result); ?> `
+```php
+<?php
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+
+$result = mysql_list_processes($link);
+while ($row = mysql_fetch_assoc($result)){
+    printf("%s %s %s %s %s\n", $row["Id"], $row["Host"], $row["db"],
+        $row["Command"], $row["Time"]);
+}
+mysql_free_result($result);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 1 localhost test Processlist 0
 4 localhost mysql sleep 5
+```
 
 ### Дивіться також
 
-- [mysql_thread_id()](function.mysql-thread-id.md) - Повертає
-ідентифікатор потоку
-- [mysql_stat()](function.mysql-stat.md) - Повертає поточний статус
-сервера
+-   [mysql\_thread\_id()](function.mysql-thread-id.html) - Повертає ідентифікатор потоку
+-   [mysql\_stat()](function.mysql-stat.html) - Повертає поточний статус сервера

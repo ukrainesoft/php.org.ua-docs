@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](intl.configuration.md)
-- [Предвизначені константи »](intl.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](intl.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](intl.configuration.html)
+    
+-   [Предопределённые константы »](intl.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](intl.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

@@ -1,93 +1,76 @@
-- [« IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md)
-- [ResourceBundle::count »](resourcebundle.count.md)
+Клас ResourceBundle
 
-- [PHP Manual](index.md)
-- [intl](book.intl.md)
-- Клас ResourceBundle
+-   [« IntlDateFormatter::setTimeZone](intldateformatter.settimezone.html)
+    
+-   [ResourceBundle::count »](resourcebundle.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [intl](book.intl.html)
+    
+-   Клас ResourceBundle
+    
 
 # Клас ResourceBundle
 
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
 ## Вступ
 
-Локалізовані програмні продукти часто потребують наборів даних
-підготовлених залежно від поточної локалі, наприклад: повідомлення,
-етикетки, шаблони форматування. Механізм ресурсів ICU дозволяє задати
-набори ресурсів, які програма може завантажити в залежності від
-поточної локалі та використовувати уніфікованим, не залежним від локалі,
-чином.
+Локалізовані програмні продукти часто потребують наборів даних, підготовлених залежно від поточної локалі, наприклад: повідомлення, мітки, шаблони форматування. Механізм ресурсів ICU дозволяє задати набори ресурсів, які програма може завантажити в залежності від поточної локалі та використовувати уніфікованим, не залежним від локалі, способом.
 
-Цей клас реалізує доступ до файлів ресурсів ICU. Ці файли є
-бінарними масивами даних, які ICU використовує для зберігання
-локалізованих даних.
+Цей клас реалізує доступ до файлів ресурсів ICU. Ці файли є бінарними масивами даних, які використовує ICU для зберігання локалізованих даних.
 
-Пакет ресурсів ICU може містити прості та складні ресурси. Складні
-ресурси – це контейнери, які можуть бути індексовані як числами
-так і рядками (аналогічно до масивів PHP). Прості ресурси можуть бути
-наступних типів: рядки, цілі, бінарні поля даних та цілочислові
-масиви.
+Пакет ресурсів ICU може містити прості та складні ресурси. Складні ресурси - це контейнери, які можуть бути індексовані як числами, так і рядками (аналогічно масивам PHP). Прості ресурси можуть бути наступних типів: рядки, цілі, бінарні поля даних та цілочисленні масиви.
 
-**ResourceBundle** підтримує прямий доступ до даних через синтаксис
-доступу до масивів та ітеруватися через
-[foreach](control-structures.foreach.md), так само як і доступ через
-методи. В результаті буде отримано значення PHP для простих ресурсів та
-об'єкти **ResourceBundle** для складних. Усі ресурси доступні лише для
-читання.
+**ResourceBundle**підтримує прямий доступ до даних через синтаксис доступу до масивів та ітеруватися через [foreach](control-structures.foreach.html), як і і через методи. В результаті буде отримано значення PHP для простих ресурсів та об'єкти **ResourceBundle** для складних. Усі ресурси доступні лише для читання.
 
 ## Огляд класів
 
-class **ResourceBundle** implements
-[IteratorAggregate](class.iteratoraggregate.md),
-[Countable](class.countable.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [\_\_construct](resourcebundle.create.md)(?string `$locale`,
-?string `$bundle`, bool `$fallback` = **`true`**)
+    
+     
+      class ResourceBundle
+     
 
-public [count](resourcebundle.count.md)(): int
+     implements 
+       IteratorAggregate,  Countable {
 
-public static [create](resourcebundle.create.md)(?string `$locale`,
-?string `$bundle`, bool `$fallback` = **`true`**):
-?[ResourceBundle](class.resourcebundle.md)
+    /* Методы */
+    
+   public __construct(?string $locale, ?string $bundle, bool $fallback = true)
 
-public [getErrorCode](resourcebundle.geterrorcode.md)(): int
+    public count(): int
+public static create(?string $locale, ?string $bundle, bool $fallback = true): ?ResourceBundle
+public getErrorCode(): int
+public getErrorMessage(): string
+public get(string|int $index, bool $fallback = true): mixed
+public static getLocales(string $bundle): array|false
 
-public [getErrorMessage](resourcebundle.geterrormessage.md)(): string
+   }
+```
 
-public [get](resourcebundle.get.md)(string\|int `$index`, bool
-`$fallback` = **`true`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+## список змін
 
-public static [getLocales](resourcebundle.locales.md)(string
-`$bundle`): array\|false
-
-}
-
-## Список змін
-
-| Версія | Опис                                                                                                                                                                     |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Traversable](class.traversable.md). |
-| 7.4.0  | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.md).                                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Traversable](class.traversable.html) |
+|  | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.html) |
 
 ## Дивіться також
 
-- [»  Менеджер ресурсів ICU](http://userguide.icu-project.org/locale/resources)
-- [» Дані ICU](http://userguide.icu-project.org/icudata)
+-   [»  Менеджер ресурсов ICU](http://userguide.icu-project.org/locale/resources)
+-   [» Данные ICU](http://userguide.icu-project.org/icudata)
 
 ## Зміст
 
-- [ResourceBundle::count](resourcebundle.count.md) — Отримати
-кількість елементів у пакеті
-- [ResourceBundle::create](resourcebundle.create.md) — Створити пакет
-ресурсів
-- [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md) -
-Отримати останній код помилки пакета
-- [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md)
-— Отримати останнє повідомлення про помилку пакета
-- [ResourceBundle::get](resourcebundle.get.md) — Отримати дані з
-пакету
-- [ResourceBundle::getLocales](resourcebundle.locales.md) — Отримати
-підтримувані локалі
+-   [ResourceBundle::count](resourcebundle.count.html) — Отримати кількість елементів у пакеті
+-   [ResourceBundle::create](resourcebundle.create.html) - Створити пакет ресурсів
+-   [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.html) — Отримати останній код помилки пакета
+-   [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.html) — Отримати останнє повідомлення про помилку пакета
+-   [ResourceBundle::get](resourcebundle.get.html) — Отримати дані з пакета
+-   [ResourceBundle::getLocales](resourcebundle.locales.html) — Отримати підтримувані локалі

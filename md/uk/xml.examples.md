@@ -1,14 +1,20 @@
-- [«Кодування символів](xml.encoding.md)
-- [Приклад структури елемента XML »](example.xml-structure.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [Розбір XML](book.xml.md)
-- Приклади
+-   [« Кодировка символов](xml.encoding.html)
+    
+-   [Пример Структуры Элемента XML »](example.xml-structure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разбор XML](book.xml.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Приклад структури елемента XML](example.xml-structure.md)
-- [Приклад відображення тегів XML](example.xml-map-tags.md)
-- [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.md)
+-   [Пример Структуры Элемента XML](example.xml-structure.html)
+-   [Пример отображения XML тегов](example.xml-map-tags.html)
+-   [Пример использования внешних сущностей XML](example.xml-external-entity.html)

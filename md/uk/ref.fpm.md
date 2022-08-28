@@ -1,15 +1,19 @@
-- [«Сторінка стану](fpm.status.md)
-- [fastcgi_finish_request »](function.fastcgi-finish-request.md)
+Функції FPM
 
-- [PHP Manual](index.md)
-- [Менеджер процесів FastCGI](book.fpm.md)
-- Функції FPM
+-   [« Страница состояния](fpm.status.html)
+    
+-   [fastcgi\_finish\_request »](function.fastcgi-finish-request.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Менеджер процессов FastCGI](book.fpm.html)
+    
+-   Функції FPM
+    
 
 # Функції FPM
 
 ## Зміст
 
-- [fastcgi_finish_request](function.fastcgi-finish-request.md) -
-скидає всі запитані дані клієнту
-- [fpm_get_status](function.fpm-get-status.md) — Повертає поточне
-стан пулу FPM
+-   [fastcgi\_finish\_request](function.fastcgi-finish-request.html) - Скидає всі запитані дані клієнту
+-   [fpm\_get\_status](function.fpm-get-status.html) — Повертає поточний стан пулу FPM

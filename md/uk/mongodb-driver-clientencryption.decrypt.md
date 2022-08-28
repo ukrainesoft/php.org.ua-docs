@@ -1,45 +1,45 @@
-- [« MongoDB\Driver\ClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.md)
-- [MongoDB\Driver\ClientEncryption::encrypt »](mongodb-driver-clientencryption.encrypt.md)
+Розшифрувати дані
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
-- Розшифрувати дані
+-   [« MongoDB\\Driver\\ClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.html)
+    
+-   [MongoDB\\Driver\\ClientEncryption::encrypt »](mongodb-driver-clientencryption.encrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html)
+    
+-   Розшифрувати дані
+    
 
-# MongoDB\Driver\ClientEncryption::decrypt
+# MongoDBDriverClientEncryption::decrypt
 
-(mongodb \>=1.7.0)
+(mongodb >=1.7.0)
 
-MongoDB\Driver\ClientEncryption::decrypt — Розшифрувати дані
+MongoDBDriverClientEncryption::decrypt — Розшифрувати дані
 
 ### Опис
 
-final public
-**MongoDB\Driver\ClientEncryption::decrypt**([MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+final public MongoDB\Driver\ClientEncryption::decrypt(MongoDB\BSON\Binary $value): mixed
+```
 
 Розшифровує значення.
 
 ### Список параметрів
 
 `value`
-Об'єкт класу [MongoDB\BSON\Binary](class.mongodb-bson-binary.md) з
-підтипом 6, що містить зашифровані дані.
+
+Об'єкт класу [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html) з підтипом 6, що містить зашифровані дані.
 
 ### Значення, що повертаються
 
-Повертає розшифровані дані у тому вигляді, як вони були передані у
-[MongoDB\Driver\ClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.md).
+Повертає розшифровані дані у тому вигляді, як вони були передані в [MongoDB\\Driver\\ClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- кидає виняток
-[MongoDB\Driver\Exception\EncryptionException](class.mongodb-driver-exception-encryptionexception.md)
-якщо в процесі дешифрування сталася помилка
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Кидає виняток [MongoDB\\Driver\\Exception\\EncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо в процесі дешифрування сталася помилка
 
 ### Дивіться також
 
-- [MongoDB\Driver\ClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.md) -
-Шифрує дані
+-   [MongoDB\\Driver\\ClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.html) - Шифрує дані

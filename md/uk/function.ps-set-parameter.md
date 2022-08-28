@@ -1,44 +1,49 @@
-- [«ps_set_info](function.ps-set-info.md)
-- [ps_set_text_pos »](function.ps-set-text-pos.md)
+Встановлює певні параметри
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює певні параметри
+-   [« ps\_set\_info](function.ps-set-info.html)
+    
+-   [ps\_set\_text\_pos »](function.ps-set-text-pos.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює певні параметри
+    
 
-#ps_set_parameter
+# псsetparameter
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_set_parameter — Встановлює певні параметри
+псsetparameter — Встановлює певні параметри
 
 ### Опис
 
-**ps_set_parameter**(resource `$psdoc`, string `$name`, string
-`$value`): bool
+```methodsynopsis
+ps_set_parameter(resource $psdoc, string $name, string $value): bool
+```
 
-Встановлює кілька параметрів, що використовуються багатьма
-функціями. Параметри визначення є рядковими значеннями.
+Встановлює кілька параметрів, які використовують багато функцій. Параметри визначення є строковими значеннями.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `name`
-Список можливих імен дивіться
-[ps_get_parameter()](function.ps-get-parameter.md).
+
+Список можливих імен дивіться [ps\_get\_parameter()](function.ps-get-parameter.html)
 
 `value`
+
 Значення параметру.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- **ps_get_parameters()**
-- [ps_set_value()](function.ps-set-value.md) - Встановлює
-певні значення
+-   **псgetparameters()**
+-   [ps\_set\_value()](function.ps-set-value.html) - Встановлює певні значення

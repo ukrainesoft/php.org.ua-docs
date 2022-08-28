@@ -1,78 +1,98 @@
-- [« PDOStatement::setFetchMode](pdostatement.setfetchmode.md)
-- [Драйвери PDO »](pdo.drivers.md)
+Клас PDOException
 
-- [PHP Manual](index.md)
-- [PDO](book.pdo.md)
-- Клас PDOException
+-   [« PDOStatement::setFetchMode](pdostatement.setfetchmode.html)
+    
+-   [Драйверы PDO »](pdo.drivers.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDO](book.pdo.html)
+    
+-   Клас PDOException
+    
 
 # Клас PDOException
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Помилка, викликана PDO. Вам не слід викидати
-виняток **PDOException** зі свого коду. Для додаткової
-інформації про винятки в PHP дивіться розділ
-[Винятки](language.exceptions.md).
+Помилка, викликана PDO. Вам не слід викидати винятки **PDOException** зі свого коду. Для додаткової інформації про винятки в PHP дивіться розділ [Исключения](language.exceptions.html)
 
 ## Огляд класів
 
-class **PDOException** extends
-[RuntimeException](class.runtimeexception.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-protected int\|string `$code`;
+    
+     
+      class PDOException
+     
 
-public ?array `$errorInfo` = null;
+     
+      extends
+       RuntimeException
+     
+     {
 
-/\* Наслідувані властивості \*/
+    /* Свойства */
+    
+     protected
+     int|string
+      $code;
 
-protected string `$message` = "";
+    public
+     ?array
+      $errorInfo = null;
 
-private string `$string` = "";
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`errorInfo`
-Відповідає [PDO::errorInfo()](pdo.errorinfo.md) або
-[PDOStatement::errorInfo()](pdostatement.errorinfo.md)
+errorInfo
 
-`code`
-Код помилки `SQLSTATE`. Щоб його отримати, використовуйте
-[Exception::getCode()](exception.getcode.md).
+Відповідає [PDO::errorInfo()](pdo.errorinfo.html) або [PDOStatement::errorInfo()](pdostatement.errorinfo.html)
+
+code
+
+Код помилки `SQLSTATE`. Щоб його отримати, використовуйте [Exception::getCode()](exception.getcode.html)

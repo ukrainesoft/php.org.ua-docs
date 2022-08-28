@@ -1,33 +1,39 @@
-- [« Yac::set](yac.set.md)
-- [Обробка аудіо форматів »](refs.utilspec.audio.md)
+Сеттер
 
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Сеттер
+-   [« Yac::set](yac.set.html)
+    
+-   [Обработка аудио форматов »](refs.utilspec.audio.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yac](class.yac.html)
+    
+-   Сеттер
+    
 
-# Yac::\_\_set
+# Yac::set
 
-(PECL yac \>= 1.0.0)
+(PECL yac >= 1.0.0)
 
-Yac::\_\_set - Сеттер
+Yac::set - Сеттер
 
 ### Опис
 
-public **Yac::\_\_set**(string `$keys`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Yac::__set(string $keys, mixed $value): mixed
+```
 
 Зберігає елемент у кеш
 
 ### Список параметрів
 
 `keys`
+
 Ключ (string)
 
 `value`
-Змішане значення. Можуть бути збережені всі типи значень php, крім
-[resource](language.types.resource.md)
+
+Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.html)
 
 ### Значення, що повертаються
 

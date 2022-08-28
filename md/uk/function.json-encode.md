@@ -1,229 +1,284 @@
-- [«json_decode](function.json-decode.md)
-- [json_last_error_msg »](function.json-last-error-msg.md)
+Повертає JSON-подання даних
 
-- [PHP Manual](index.md)
-- [Функції JSON](ref.json.md)
-- Повертає JSON-подання даних
+-   [« json\_decode](function.json-decode.html)
+    
+-   [json\_last\_error\_msg »](function.json-last-error-msg.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции JSON](ref.json.html)
+    
+-   Повертає JSON-подання даних
+    
 
-#json_encode
+# jsonencode
 
-(PHP 5 = 5.2.0, PHP 7, PHP 8, PECL json = 1.2.0)
+(PHP 5> = 5.2.0, PHP 7, PHP 8, PECL json> = 1.2.0)
 
-json_encode — Повертає JSON-подання даних
+jsonencode — Повертає JSON-подання даних
 
 ### Опис
 
-**json_encode**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$flags` = 0, int `$depth` = 512): string\|false
+```methodsynopsis
+json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false
+```
 
-Повертає рядок, що містить JSON-подання для зазначеного `value`.
+Повертає рядок, що містить JSON-подання для зазначеного `value`. Якщо параметр масивом (array) або об'єктом (object), він буде рекурсивно серіалізований.
 
-На кодування впливає параметр `flags` і, крім того, кодування
-значень типу float залежить від значення
-[serialize_precision](ini.core.md#ini.serialize-precision).
+Якщо значення, що серіалізується, є об'єктом, то за замовчуванням будуть включені тільки публічно видимі властивості. Як альтернатива клас може реалізувати інтерфейс [JsonSerializable](class.jsonserializable.html) для керування тим, як його значення серіалізуються в JSON.
+
+На кодування впливає параметр `flags` та, крім того, кодування значень типу float залежить від значення [serialize\_precision](ini.core.html#ini.serialize-precision)
 
 ### Список параметрів
 
 `value`
-`value` – значення, яке буде закодовано. Можливо будь-якого типу,
-крім [resource](language.types.resource.md).
+
+`value` - значення, яке буде закодовано. Можливо будь-якого типу, крім [resource](language.types.resource.html)
 
 Функція працює лише з кодуванням UTF-8.
 
-> **Примітка**:
->
-> PHP реалізує надмножина JSON, який описаний у початковому
-> [» RFC 7159](http://www.faqs.org/rfcs/rfc7159).
+> **Зауваження**
+> 
+> PHP реалізує надмножина JSON, який описаний у початковому [» RFC 7159](http://www.faqs.org/rfcs/rfc7159)
 
 `flags`
-Бітова маска, що складається із значень **`JSON_FORCE_OBJECT`**,
-**`JSON_HEX_QUOT`**, **`JSON_HEX_TAG`**, **`JSON_HEX_AMP`**,
-**`JSON_HEX_APOS`**, **`JSON_INVALID_UTF8_IGNORE`**,
-**`JSON_INVALID_UTF8_SUBSTITUTE`**, **`JSON_NUMERIC_CHECK`**,
-**`JSON_PARTIAL_OUTPUT_ON_ERROR`**, **`JSON_PRESERVE_ZERO_FRACTION`**,
-**`JSON_PRETTY_PRINT`**, **`JSON_UNESCAPED_LINE_TERMINATORS`**,
-**`JSON_UNESCAPED_SLASHES`**, **`JSON_UNESCAPED_UNICODE`**,
-**`JSON_THROW_ON_ERROR`**. Сенс цих констант пояснюється на [сторінці JSON-констант](json.constants.md).
+
+Бітова маска, що складається із значень **`JSON_FORCE_OBJECT`** **`JSON_HEX_QUOT`** **`JSON_HEX_TAG`** **`JSON_HEX_AMP`** **`JSON_HEX_APOS`** **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_NUMERIC_CHECK`** **`JSON_PARTIAL_OUTPUT_ON_ERROR`** **`JSON_PRESERVE_ZERO_FRACTION`** **`JSON_PRETTY_PRINT`** **`JSON_UNESCAPED_LINE_TERMINATORS`** **`JSON_UNESCAPED_SLASHES`** **`JSON_UNESCAPED_UNICODE`** **`JSON_THROW_ON_ERROR`**. Сенс цих констант пояснюється на [странице JSON-констант](json.constants.html)
 
 `depth`
+
 Встановлює максимальну глибину. Має бути більше нуля.
 
 ### Значення, що повертаються
 
-Повертає рядок (string), закодований JSON або **`false`** у разі
-виникнення помилки.
+Повертає рядок (string), закодований JSON або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 7.3.0  | Додано константу **JSON_THROW_ON_ERROR** для параметра flags.                                                                                                      |
-| 7.2.0  | Додані константи **JSON_INVALID_UTF8_IGNORE** та **JSON_INVALID_UTF8_SUBSTITUTE** для параметра flags.                                                             |
-| 7.1.0  | Додано константу **JSON_UNESCAPED_LINE_TERMINATORS** для параметра flags.                                                                                          |
-| 7.1.0  | При кодуванні чисел з плаваючою точкою використовується [serialize_precision](ini.core.md#ini.serialize-precision) замість [precision](ini.core.md#ini.precision). |
+| Версия | Описание |
+| --- | --- |
+|  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags` |
+|  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags` |
+|  | Додано константу **`JSON_UNESCAPED_LINE_TERMINATORS`** для параметра `flags` |
+|  | При кодуванні чисел із плаваючою точкою використовується [serialize\_precision](ini.core.html#ini.serialize-precision) замість [precision](ini.core.html#ini.precision) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **json_encode()****
+**Приклад #1 Приклад використання **jsonencode()****
 
-` <?php$arr = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);echo json_encode($arr );?> `
+```php
+<?php
+$arr = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
+
+echo json_encode($arr);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 {"a":1,"b":2,"c":3,"d":4,"e":5}
+```
 
-**Приклад #2 Приклад використання **json_encode()** з опціями**
+**Приклад #2 Приклад використання **jsonencode()** з опціями**
 
-` <?php$a = array('<foo>',"'bar'",'"baz"','&blong&', "\xc3\xa9");echo "Зазвичай: ",    json_encode($a) , "
-";echo "Теги: ",       json_encode($a, JSON_HEX_TAG), "
-";echo "Апострофи: ", json_encode($a, JSON_HEX_APOS), "
-";echo "Кички: ",    json_encode($a, JSON_HEX_QUOT), "
-";echo "Амперсанди: ", json_encode($a, JSON_HEX_AMP), "
-";echo "Юнікод: ",     json_encode($a, JSON_UNESCAPED_UNICODE), "
-";echo "Всі: ",        json_encode($a, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UN
+```php
+<?php
+$a = array('<foo>',"'bar'",'"baz"','&blong&', "\xc3\xa9");
 
-";$b = array();echo "Відображення пустого масиву як масиву: ", json_encode($b), "
-";echo "Відображення неасоціативного масиву як об'єкта: ", json_encode($b, JSON_FORCE_OBJECT), "
+echo "Обычно: ",     json_encode($a), "\n";
+echo "Теги: ",       json_encode($a, JSON_HEX_TAG), "\n";
+echo "Апострофы: ",  json_encode($a, JSON_HEX_APOS), "\n";
+echo "Кавычки: ",    json_encode($a, JSON_HEX_QUOT), "\n";
+echo "Амперсанды: ", json_encode($a, JSON_HEX_AMP), "\n";
+echo "Юникод: ",     json_encode($a, JSON_UNESCAPED_UNICODE), "\n";
+echo "Все: ",        json_encode($a, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE), "\n\n";
 
-";$c = array(array(1,2,3));echo "Відображення неасоціативного масиву як масиву: ", json_encode($c), "
-";echo "Відображення неасоціативного масиву як об'єкта: ", json_encode($c, JSON_FORCE_OBJECT), "
+$b = array();
 
-";$d = array('foo' => 'bar', 'baz' => 'long');echo "Асоціативний масив завжди відображається як об'єкт: ", json_encode($d), 
-";echo "Асоціативний масив завжди відображається як об'єкт: ", json_encode($d, JSON_FORCE_OBJECT), "
+echo "Отображение пустого массива как массива: ", json_encode($b), "\n";
+echo "Отображение неассоциативного массива как объекта: ", json_encode($b, JSON_FORCE_OBJECT), "\n\n";
 
-";?> `
+$c = array(array(1,2,3));
+
+echo "Отображение неассоциативного массива как массива: ", json_encode($c), "\n";
+echo "Отображение неассоциативного массива как объекта: ", json_encode($c, JSON_FORCE_OBJECT), "\n\n";
+
+$d = array('foo' => 'bar', 'baz' => 'long');
+
+echo "Ассоциативный массив всегда отображается как объект: ", json_encode($d), "\n";
+echo "Ассоциативный массив всегда отображается как объект: ", json_encode($d, JSON_FORCE_OBJECT), "\n\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Зазвичай: ["<foo>","'bar'","baz","&blong&","\u00e9"]
-Мітки: ["Cfoo", "'bar'", ""baz"","&blong&","\u00e9"]
-Апострофи: ["<foo>","Bar","baz","blong&","u9"
-Лапки: ["<foo>","'bar'","baz","blong&","u9]
-Амперсанди: ["<foo>","'bar'","baz","long\u0026","\u00e9"]
-Юнікод: ["<foo>","'bar'","baz","blong&","é"]
-Все: ["Cfoo", "Bar", "baz", "blong", "é"]
+```
+Обычно: ["<foo>","'bar'","\"baz\"","&blong&","\u00e9"]
+Теги: ["\u003Cfoo\u003E","'bar'","\"baz\"","&blong&","\u00e9"]
+Апострофы: ["<foo>","\u0027bar\u0027","\"baz\"","&blong&","\u00e9"]
+Кавычки: ["<foo>","'bar'","\u0022baz\u0022","&blong&","\u00e9"]
+Амперсанды: ["<foo>","'bar'","\"baz\"","\u0026blong\u0026","\u00e9"]
+Юникод: ["<foo>","'bar'","\"baz\"","&blong&","é"]
+Все: ["\u003Cfoo\u003E","\u0027bar\u0027","\u0022baz\u0022","\u0026blong\u0026","é"]
 
-Відображення порожнього масиву як масиву: []
-Відображення неасоціативного масиву як об'єкта: {}
+Отображение пустого массива как массива: []
+Отображение неассоциативного массива как объекта: {}
 
-Відображення неасоціативного масиву як масиву: [[1,2,3]]
-Відображення неасоціативного масиву як об'єкта: {"0":{"0":1,"1":2,"2":3}}
+Отображение неассоциативного массива как массива: [[1,2,3]]
+Отображение неассоциативного массива как объекта: {"0":{"0":1,"1":2,"2":3}}
 
-Асоціативний масив завжди відображається як об'єкт: {"foo":"bar","baz":"long"}
-Асоціативний масив завжди відображається як об'єкт: {"foo":"bar","baz":"long"}
+Ассоциативный массив всегда отображается как объект: {"foo":"bar","baz":"long"}
+Ассоциативный массив всегда отображается как объект: {"foo":"bar","baz":"long"}
+```
 
-**Приклад #3 Приклад використання опції JSON_NUMERIC_CHECK**
+**Приклад #3 Приклад використання опції JSONNUMERICCHECK**
 
-`<?phpecho "Рядки, містять числа перетворюються в числа". , JSON_NUMERIC_CHECK));echo "Рядки, містять некоректно задані числа".
+```php
+<?php
+echo "Строки, содержащие числа преобразуются в числа".PHP_EOL;
+$numbers = array('+123123', '-123123', '1.2e3', '0.00001');
+var_dump(
+ $numbers,
+ json_encode($numbers, JSON_NUMERIC_CHECK)
+);
+echo "Строки, содержащие некорректно заданные числа".PHP_EOL;
+$strings = array('+a33123456789', 'a123');
+var_dump(
+ $strings,
+ json_encode($strings, JSON_NUMERIC_CHECK)
+);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Рядки, що містять числа перетворюються на числа
+```
+Строки, содержащие числа преобразуются в числа
 array(4) {
-[0]=>
-string(7) "+123123"
-[1]=>
-string(7) "-123123"
-[2]=>
-string(5) "1.2e3"
-[3]=>
-string(7) "0.00001"
+  [0]=>
+  string(7) "+123123"
+  [1]=>
+  string(7) "-123123"
+  [2]=>
+  string(5) "1.2e3"
+  [3]=>
+  string(7) "0.00001"
 }
 string(28) "[123123,-123123,1200,1.0e-5]"
-Рядки, що містять некоректно задані числа
+Строки, содержащие некорректно заданные числа
 array(2) {
-[0]=>
-string(13) "+a33123456789"
-[1]=>
-string(4) "a123"
+  [0]=>
+  string(13) "+a33123456789"
+  [1]=>
+  string(4) "a123"
 }
 string(24) "["+a33123456789","a123"]"
+```
 
-**Приклад #4 Приклад з послідовними індексами, що починаються з нуля,
-та непослідовними індексами масивів**
+**Приклад #4 Приклад з послідовними індексами, що починаються з нуля, та непослідовними індексами масивів**
 
-`<?phpecho "Послідовний масив".PHP_EOL;$sequential = array("foo", "bar", "baz", "blong");var_dump( $sequential, json_encode($sequential)) масив".PHP_EOL;$nonsequential = array(1=>"foo", 2=>"bar", 3=>baz", 4=>"blong"); ;echo PHP_EOL."Послідовний масив з одним віддаленим індексом".PHP_EOL;unset($sequential[1]);var_dump( $sequential, json_encode($sequential));?> `
+```php
+<?php
+echo "Последовательный массив".PHP_EOL;
+$sequential = array("foo", "bar", "baz", "blong");
+var_dump(
+ $sequential,
+ json_encode($sequential)
+);
+
+echo PHP_EOL."Непоследовательный массив".PHP_EOL;
+$nonsequential = array(1=>"foo", 2=>"bar", 3=>"baz", 4=>"blong");
+var_dump(
+ $nonsequential,
+ json_encode($nonsequential)
+);
+
+echo PHP_EOL."Последовательный массив с одним удалённым индексом".PHP_EOL;
+unset($sequential[1]);
+var_dump(
+ $sequential,
+ json_encode($sequential)
+);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Послідовний масив
+```
+Последовательный массив
 array(4) {
-[0]=>
-string(3) "foo"
-[1]=>
-string(3) "bar"
-[2]=>
-string(3) "baz"
-[3]=>
-string(5) "blong"
+  [0]=>
+  string(3) "foo"
+  [1]=>
+  string(3) "bar"
+  [2]=>
+  string(3) "baz"
+  [3]=>
+  string(5) "blong"
 }
 string(27) "["foo","bar","baz","blong"]"
 
-Непослідовний масив
+Непоследовательный массив
 array(4) {
-[1]=>
-string(3) "foo"
-[2]=>
-string(3) "bar"
-[3]=>
-string(3) "baz"
-[4]=>
-string(5) "blong"
+  [1]=>
+  string(3) "foo"
+  [2]=>
+  string(3) "bar"
+  [3]=>
+  string(3) "baz"
+  [4]=>
+  string(5) "blong"
 }
 string(43) "{"1":"foo","2":"bar","3":"baz","4":"blong"}"
 
-Послідовний масив з одним віддаленим індексом
+Последовательный массив с одним удалённым индексом
 array(3) {
-[0]=>
-string(3) "foo"
-[2]=>
-string(3) "baz"
-[3]=>
-string(5) "blong"
+  [0]=>
+  string(3) "foo"
+  [2]=>
+  string(3) "baz"
+  [3]=>
+  string(5) "blong"
 }
 string(33) "{"0":"foo","2":"baz","3":"blong"}"
+```
 
-**Приклад #5 Приклад використання опції
-**`JSON_PRESERVE_ZERO_FRACTION`****
+**Приклад #5 Приклад використання опції **`JSON_PRESERVE_ZERO_FRACTION`****
 
-` <?phpvar_dump(json_encode(12.0, JSON_PRESERVE_ZERO_FRACTION));var_dump(json_encode(12.0));?> `
+```php
+<?php
+var_dump(json_encode(12.0, JSON_PRESERVE_ZERO_FRACTION));
+var_dump(json_encode(12.0));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(4) "12.0"
 string(2) "12"
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> у разі помилки кодування можна використовувати
-> [json_last_error()](function.json-last-error.md) для визначення
-> точні помилки.
+> **Зауваження**
+> 
+> у разі виникнення помилки кодування можна використовувати [json\_last\_error()](function.json-last-error.html) визначення точної помилки.
 
-> **Примітка**:
->
-> При кодуванні масиву у випадку, якщо його індекси не є
-> послідовними числами від нуля, всі індекси кодуються в
-> рядкові ключі кожної пари індекс-значення.
+> **Зауваження**
+> 
+> При кодуванні масиву у разі, якщо його індекси не є послідовними числами від нуля, всі індекси кодуються в рядкові ключі для кожної пари індекс-значення.
 
-> **Примітка**:
->
-> Як і еталонний кодувальник JSON, **json_encode()** буде створювати
-> JSON у вигляді простого значення (тобто не об'єкт і не масив), якщо
-> йому передані типи string, int, float або bool як вхідний
-> значення `value`. Більшість декодерів сприймають ці значення як
-> правильний JSON, але деякі ні, тому що специфікація
-> неоднозначна щодо цього.
->
-> Завжди перевіряйте, що ваш декодер JSON може правильно обробляти
-> дані, які ви створюєте за допомогою **json_encode()**.
+> **Зауваження**
+> 
+> Як і еталонний кодувальник JSON, **jsonencode()** буде створювати JSON у вигляді простого значення (тобто не об'єкт і не масив), якщо йому передані типи string, int, float або bool як вхідне значення `value`. Більшість декодерів сприймають ці значення як правильний JSON, але деякі ні, тому що специфікація неоднозначна щодо цього.
+> 
+> Завжди перевіряйте, що ваш декодер JSON може правильно обробляти дані, які ви створюєте за допомогою **jsonencode()**
 
 ### Дивіться також
 
-- [JsonSerializable](class.jsonserializable.md)
-- [json_decode()](function.json-decode.md) - Декодує рядок JSON
-- [json_last_error()](function.json-last-error.md) - Повертає
-останню помилку
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
+-   [JsonSerializable](class.jsonserializable.html)
+-   [json\_decode()](function.json-decode.html) - Декодує рядок JSON
+-   [json\_last\_error()](function.json-last-error.html) - Повертає останню помилку
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної

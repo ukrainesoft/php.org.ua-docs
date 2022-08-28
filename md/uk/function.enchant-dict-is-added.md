@@ -1,47 +1,50 @@
-- [«enchant_dict_get_error](function.enchant-dict-get-error.md)
-- [enchant_dict_is_in_session »](function.enchant-dict-is-in-session.md)
+Визначає, чи існує слово у цій орфографічній сесії
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Визначає, чи існує слово у цій орфографічній сесії
+-   [« enchant\_dict\_get\_error](function.enchant-dict-get-error.html)
+    
+-   [enchant\_dict\_is\_in\_session »](function.enchant-dict-is-in-session.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Визначає, чи існує слово у цій орфографічній сесії
+    
 
-#enchant_dict_is_added
+# enchantdictісadded
 
 (PHP 8)
 
-enchant_dict_is_added — Визначає, чи існує слово в цьому
-орфографічної сесії
+enchantdictісadded - Визначає, чи існує слово в цій орфографічній сесії
 
 ### Опис
 
-**enchant_dict_is_added**([EnchantDictionary](class.enchantdictionary.md)
-`$dictionary`, string `$word`): bool
+```methodsynopsis
+enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
+```
 
-Визначає, чи існує слово в поточній сесії.
+Визначає, чи вже існує слово в поточній сесії.
 
 ### Список параметрів
 
 `dictionary`
-Словник Enchant, що повертається
-[enchant_broker_request_dict()](function.enchant-broker-request-dict.md)
-або
-[enchant_broker_request_pwl_dict()](function.enchant-broker-request-pwl-dict.md).
+
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
+
 Слово для пошуку
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо слово вже існує, інакше
-повертає **`false`**
+Повертає **`true`**якщо слово вже існує, інакше повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [enchant_dict_add_to_session()](function.enchant-dict-add-to-session.md) -
-Додати слово до поточної сесії перевірки
+-   [enchant\_dict\_add\_to\_session()](function.enchant-dict-add-to-session.html) - Додати слово у поточну сесію перевірки

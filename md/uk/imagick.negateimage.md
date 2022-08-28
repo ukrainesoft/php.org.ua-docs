@@ -1,39 +1,43 @@
-- [« Imagick::motionBlurImage](imagick.motionblurimage.md)
-- [Imagick::newImage »](imagick.newimage.md)
+Інвертує кольори у еталонному зображенні
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Інвертує кольори в еталонному зображенні
+-   [« Imagick::motionBlurImage](imagick.motionblurimage.html)
+    
+-   [Imagick::newImage »](imagick.newimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Інвертує кольори у еталонному зображенні
+    
 
 # Imagick::negateImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::negateImage — Інвертує кольори до еталонного зображення
+Imagick::negateImage — Інвертує кольори в еталонному зображенні
 
 ### Опис
 
-public **Imagick::negateImage**(bool `$gray`, int `$channel` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::negateImage(bool $gray, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Інвертує кольори у еталонному зображенні. Параметр Grayscale означає,
-що у зображенні інвертуються лише значення відтінків сірого.
+Інвертує кольори у еталонному зображенні. Параметр Grayscale означає, що зображення інвертуються лише значення відтінків сірого.
 
 ### Список параметрів
 
 `gray`
-Визначає, чи потрібно інвертувати тільки пікселі у відтінках сірого
-зображення.
+
+Визначає, чи потрібно інвертувати лише пікселі у відтінках сірого зображення.
 
 `channel`
-Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму
-каналу. Для застосування більш ніж одного каналу необхідно об'єднати
-константи типу CHANNEL за допомогою побітових операторів. Зверніться до
-цьому списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму каналу. Для застосування більш ніж одного каналу необхідно об'єднати константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -43,4 +47,14 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::negateImage()****
 
-`<?phpfunction negateImage($imagePath, $grayOnly, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->negateImage($grayOnly, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function negateImage($imagePath, $grayOnly, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->negateImage($grayOnly, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

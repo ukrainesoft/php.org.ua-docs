@@ -1,24 +1,28 @@
-- [Fiber](class.fiber.md)
-- [Fiber::start »](fiber.start.md)
+Створює новий екземпляр Fiber
 
-- [PHP Manual](index.md)
-- [Fiber](class.fiber.md)
-- Створює новий екземпляр Fiber
+-   [« Fiber](class.fiber.html)
+    
+-   [Fiber::start »](fiber.start.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Fiber](class.fiber.html)
+    
+-   Створює новий екземпляр Fiber
+    
 
-# Fiber::\_\_construct
+# Fiber::construct
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-Fiber::\_\_construct — Створює новий екземпляр Fiber
+Fiber::construct - Створює новий екземпляр Fiber
 
 ### Опис
 
-public **Fiber::\_\_construct**([callable](language.types.callable.md)
-`$callback`)
+public **Fiber::construct**[callable](language.types.callable.html) `$callback`
 
 ### Список параметрів
 
 `callback`
-[callable](language.types.callable.md)-функція для виклику під час запуску
-файбер. Аргументи для [Fiber::start()](fiber.start.md) будуть
-надається як аргументи для даного викликаного об'єкта.
+
+[callable](language.types.callable.html)функція виклику під час запуску файбера. Аргументи для [Fiber::start()](fiber.start.html) будуть надається як аргументи для даного викликаного об'єкта.

@@ -1,49 +1,52 @@
-- [«SyncSemaphore::unlock](syncsemaphore.unlock.md)
-- [SyncEvent::\_\_construct »](syncevent.construct.md)
+Клас SyncEvent
 
-- [PHP Manual](index.md)
-- [Sync](book.sync.md)
-- Клас SyncEvent
+-   [« SyncSemaphore::unlock](syncsemaphore.unlock.html)
+    
+-   [SyncEvent::\_\_construct »](syncevent.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Sync](book.sync.html)
+    
+-   Клас SyncEvent
+    
 
 # Клас SyncEvent
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 ## Вступ
 
-Кросплатформова, нативна реалізація іменованих та безіменних
-об'єктів подій Підтримуються як автоматичні, так і ручні
-об'єкти подій.
+Кросплатформова, нативна реалізація іменованих та безіменних об'єктів подій. Підтримуються як автоматичні, і ручні об'єкти подій.
 
-Об'єкт події без опитування очікує на запуск/установку об'єкта. Один
-екземпляр чекає на об'єкт події, а інший запускає/встановлює
-подія. Об'єкти подій корисні там, де інакше тривалий
-процес міг би опитати ресурс (наприклад, перевірити, чи потрібно
-обробляти завантажені дані).
+Об'єкт події без опитування очікує запуску/установки об'єкта. Один екземпляр чекає на об'єкт події, а інший запускає/встановлює подію. Об'єкти подій корисні там, де інакше тривалий процес міг би опитати ресурс (наприклад, перевірити, чи потрібно обробляти завантажені дані).
 
 ## Огляд класів
 
-class **SyncEvent** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](syncevent.construct.md)(string `$name` = ?,
-bool `$manual` = **`false`**, bool `$prefire` = **`false`**)
 
-public [fire](syncevent.fire.md)(): bool
+    
+     
+      class SyncEvent
+     
+     {
 
-public [reset](syncevent.reset.md)(): bool
 
-public [wait](syncevent.wait.md)(int `$wait` = -1): bool
+    /* Методы */
+    
+   public __construct(string $name = ?, bool $manual = false, bool $prefire = false)
+public fire(): bool
+public reset(): bool
+public wait(int $wait = -1): bool
 
-}
+   }
+```
 
 ## Зміст
 
-- [SyncEvent::\_\_construct](syncevent.construct.md) — Створює новий
-об'єкт SyncEvent
-- [SyncEvent::fire](syncevent.fire.md) — Запускає/встановлює
-подія
-- [SyncEvent::reset](syncevent.reset.md) — Скидає ручну подію
-- [SyncEvent::wait](syncevent.wait.md) — Очікує запуску/установки
-події
+-   [SyncEvent::\_\_construct](syncevent.construct.html) — Створює новий об'єкт SyncEvent
+-   [SyncEvent::fire](syncevent.fire.html) — Запускає/встановлює подію
+-   [SyncEvent::reset](syncevent.reset.html) — скидає ручну подію
+-   [SyncEvent::wait](syncevent.wait.html) — Чекає на запуск/установку події

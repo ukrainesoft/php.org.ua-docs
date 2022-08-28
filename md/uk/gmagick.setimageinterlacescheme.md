@@ -1,33 +1,39 @@
-- [«Gmagick::setimageindex](gmagick.setimageindex.md)
-- [Gmagick::setimageiterations »](gmagick.setimageiterations.md)
+Встановлює схему надстрокової розгортки зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює схему надстрокової розгортки зображення
+-   [« Gmagick::setimageindex](gmagick.setimageindex.html)
+    
+-   [Gmagick::setimageiterations »](gmagick.setimageiterations.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює схему надстрокової розгортки зображення
+    
 
 # Gmagick::setimageinterlacescheme
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimageinterlacescheme — Встановлює схему черезрядкової
-розгортки зображення
+Gmagick::setimageinterlacescheme — Встановлює схему надстрокової розгортки зображення
 
 ### Опис
 
-public **Gmagick::setimageinterlacescheme**(int `$interlace`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageinterlacescheme(int $interlace): Gmagick
+```
 
-Встановлює схему надстрокової розгортки зображення.
+Встановлює схему черезрядкової розгортки зображення.
 
 ### Список параметрів
 
 `interlace`
-Одна із констант [схеми черезрядкового зображення](gmagick.constants.md#gmagick.constants.interlace)
-(`Gmagick::INTERLACE_*`).
+
+Одна з констант [схемы чересстрочного изображения](gmagick.constants.html#gmagick.constants.interlace) `Gmagick::INTERLACE_*`
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

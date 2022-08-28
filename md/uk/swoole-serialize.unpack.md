@@ -1,20 +1,27 @@
-- [« Swoole\Serialize::pack](swoole-serialize.pack.md)
-- [Swoole\Server »](class.swoole-server.md)
+Десеріалізувати дані
 
-- [PHP Manual](index.md)
-- [Swoole\Serialize](class.swoole-serialize.md)
-- Десеріалізувати дані
+-   [« Swoole\\Serialize::pack](swoole-serialize.pack.html)
+    
+-   [Swoole\\Server »](class.swoole-server.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Serialize](class.swoole-serialize.html)
+    
+-   Десеріалізувати дані
+    
 
-# Swoole\Serialize::unpack
+# SwooleSerialize::unpack
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Serialize::unpack — Десеріалізувати дані
+SwooleSerialize::unpack — Десеріалізувати дані
 
 ### Опис
 
-public static **Swoole\Serialize::unpack**(string `$data`, string
-`$args` = ?): ReturnType
+```methodsynopsis
+public static Swoole\Serialize::unpack(string $data, string $args = ?): ReturnType
+```
 
 Десеріалізувати дані.
 

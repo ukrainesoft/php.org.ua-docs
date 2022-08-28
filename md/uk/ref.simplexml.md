@@ -1,17 +1,20 @@
-- [« SimpleXMLIterator::valid](simplexmliterator.valid.md)
-- [simplexml_import_dom »](function.simplexml-import-dom.md)
+Функції SimpleXML
 
-- [PHP Manual](index.md)
-- [SimpleXML](book.simplexml.md)
-- Функції SimpleXML
+-   [« SimpleXMLIterator::valid](simplexmliterator.valid.html)
+    
+-   [simplexml\_import\_dom »](function.simplexml-import-dom.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXML](book.simplexml.html)
+    
+-   Функції SimpleXML
+    
 
 # Функції SimpleXML
 
 ## Зміст
 
-- [simplexml_import_dom](function.simplexml-import-dom.md) -
-Отримує об'єкт класу SimpleXMLElement із вузла DOM
-- [simplexml_load_file](function.simplexml-load-file.md) -
-Інтерпретує файл XML в об'єкт
-- [simplexml_load_string](function.simplexml-load-string.md) -
-Інтерпретує рядок із XML в об'єкт
+-   [simplexml\_import\_dom](function.simplexml-import-dom.html) — Отримує об'єкт класу SimpleXMLElement із вузла DOM
+-   [simplexml\_load\_file](function.simplexml-load-file.html) — Інтерпретує файл XML в об'єкт
+-   [simplexml\_load\_string](function.simplexml-load-string.html) — Інтерпретує рядок із XML в об'єкт

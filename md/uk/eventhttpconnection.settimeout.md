@@ -1,26 +1,38 @@
-- [« EventHttpConnection::setRetries](eventhttpconnection.setretries.md)
-- [EventHttpRequest »](class.eventhttprequest.md)
+Встановлює час очікування з'єднання
 
-- [PHP Manual](index.md)
-- [EventHttpConnection](class.eventhttpconnection.md)
-- Встановлює час очікування для підключення
+-   [« EventHttpConnection::setRetries](eventhttpconnection.setretries.html)
+    
+-   [EventHttpRequest »](class.eventhttprequest.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpConnection](class.eventhttpconnection.html)
+    
+-   Встановлює час очікування з'єднання
+    
 
 # EventHttpConnection::setTimeout
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventHttpConnection::setTimeout — Встановлює час очікування
-з'єднання
+EventHttpConnection::setTimeout — Встановлює час очікування для з'єднання.
 
 ### Опис
 
-public **EventHttpConnection::setTimeout**( int `$timeout` ): void
+```methodsynopsis
+public
+   EventHttpConnection::setTimeout(
+    int
+     $timeout
+   ): void
+```
 
-Встановлює час очікування для підключення
+Встановлює час очікування з'єднання
 
 ### Список параметрів
 
 `timeout`
+
 Час очікування за секунди
 
 ### Значення, що повертаються

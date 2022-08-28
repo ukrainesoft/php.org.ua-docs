@@ -1,40 +1,67 @@
-- [« Vtiful\Kernel\Excel::output](vtiful-kernel-excel.output.md)
-- [Vtiful\Kernel\Excel::setRow »](vtiful-kernel-excel.setRow.md)
+Встановити стовпець
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- встановити стовпець
+-   [« Vtiful\\Kernel\\Excel::output](vtiful-kernel-excel.output.html)
+    
+-   [Vtiful\\Kernel\\Excel::setRow »](vtiful-kernel-excel.setRow.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
+-   Встановити стовпець
+    
 
-# Vtiful\Kernel\Excel::setColumn
+# VtifulKernelExcel::setColumn
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::setColumn — Встановити стовпець
+VtifulKernelExcel::setColumn — Встановити стовпець
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::setColumn**(string `$range`, float
-`$width`, resource `$format` = ?)
+```methodsynopsis
+public Vtiful\Kernel\Excel::setColumn(string $range, float $width, resource $format = ?)
+```
 
 Встановити формат шпальти.
 
 ### Список параметрів
 
 `range`
+
 початкові та кінцеві рядки координат осередку
 
 `width`
+
 ширина стовпця
 
 `format`
+
 ресурс формату осередку
 
 ### Значення, що повертаються
 
-Примірник [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$excel  = new \Vtiful\Kernel\Excel($config);$fileObject = $excel->fileName('tutorial01.xlsx') ;$fileHandle==$fileObject->getHandle();$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);$fileObject->header(['name', 'age'])    ->data([ ['viest', 21]])   ->setColumn('A:A', 200, $boldStyle)   ->output(); `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$excel  = new \Vtiful\Kernel\Excel($config);
+
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
+
+$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);
+
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setColumn('A:A', 200, $boldStyle)
+    ->output();
+```

@@ -1,38 +1,55 @@
-- [« Imagick::nextImage](imagick.nextimage.md)
-- [Imagick::oilPaintImage »](imagick.oilpaintimage.md)
+Підвищує контрастність кольорового зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Підвищує контрастність кольорового зображення
+-   [« Imagick::nextImage](imagick.nextimage.html)
+    
+-   [Imagick::oilPaintImage »](imagick.oilpaintimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Підвищує контрастність кольорового зображення
+    
 
 # Imagick::normalizeImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::normalizeImage — Підвищує контраст кольорового зображення
+Imagick::normalizeImage — Підвищує контрастність кольорового зображення
 
 ### Опис
 
-public **Imagick::normalizeImage**(int `$channel` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::normalizeImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Підвищує контрастність кольорового зображення, регулюючи колір пікселів
-охоплення всього діапазону доступних кольорів.
+Підвищує контраст кольорового зображення, регулюючи колір пікселів для охоплення всього діапазону доступних кольорів.
 
 ### Список параметрів
 
 `channel`
-Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму
-каналу. Для застосування більш ніж одного каналу необхідно об'єднати
-константи типу CHANNEL за допомогою побітових операторів. Зверніться до
-цьому списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму каналу. Для застосування більш ніж одного каналу необхідно об'єднати константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::normalizeImage()****
 
-` <?phpfunction normalizeImage($imagePath, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $original==clone$imagick; $original->cropimage($original->getImageWidth() / 2, $original->getImageHeight(), 0, 0); $imagick->normalizeImage($channel); $imagick->compositeimage($original, \Imagick::COMPOSITE_ATOP, 0, 0); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function normalizeImage($imagePath, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $original = clone $imagick;
+    $original->cropimage($original->getImageWidth() / 2, $original->getImageHeight(), 0, 0);
+    $imagick->normalizeImage($channel);
+    $imagick->compositeimage($original, \Imagick::COMPOSITE_ATOP, 0, 0);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

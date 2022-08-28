@@ -1,24 +1,29 @@
-- [« Часті питання (FAQ): речі, які вам необхідно
-знати про простори імен](language.namespaces.faq.md)
-- [Огляд перерахувань »](language.enumerations.overview.md)
+Перерахування
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- Перерахування
+-   [« Часто задаваемые вопросы (FAQ): вещи, которые вам необходимо знать о пространствах имён](language.namespaces.faq.html)
+    
+-   [Обзор перечислений »](language.enumerations.overview.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Перерахування
+    
 
 # Перерахування
 
 ## Зміст
 
-- [Огляд перерахувань](language.enumerations.overview.md)
-- [Основи перерахувань](language.enumerations.basics.md)
-- [Типізовані перерахування](language.enumerations.backed.md)
-- [Методи перерахувань](language.enumerations.methods.md)
-- [Статичні методи перерахувань](language.enumerations.static-methods.md)
-- [Константи перерахувань](language.enumerations.constants.md)
-- [Трейти](language.enumerations.traits.md)
-- [Значення перерахування у постійних виразах](language.enumerations.expressions.md)
-- [Відмінності від об'єктів](language.enumerations.object-differences.md)
-- [Список значень](language.enumerations.listing.md)
-- [Серіалізація](language.enumerations.serialization.md)
-- [Приклади](language.enumerations.examples.md)
+-   [Обзор перечислений](language.enumerations.overview.html)
+-   [Основы перечислений](language.enumerations.basics.html)
+-   [Типизированные перечисления](language.enumerations.backed.html)
+-   [Методы перечислений](language.enumerations.methods.html)
+-   [Статические методы перечислений](language.enumerations.static-methods.html)
+-   [Константы перечислений](language.enumerations.constants.html)
+-   [Трейты](language.enumerations.traits.html)
+-   [Значения перечисления в постоянных выражениях](language.enumerations.expressions.html)
+-   [Отличия от объектов](language.enumerations.object-differences.html)
+-   [Список значений](language.enumerations.listing.html)
+-   [Сериализация](language.enumerations.serialization.html)
+-   [Примеры](language.enumerations.examples.html)

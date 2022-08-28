@@ -1,19 +1,27 @@
-- [« Swoole\Client::getsockname](swoole-client.getsockname.md)
-- [Swoole\Client::on »](swoole-client.on.md)
+Перевіряє, чи підключено з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Перевіряє, чи підключено з'єднання
+-   [« Swoole\\Client::getsockname](swoole-client.getsockname.html)
+    
+-   [Swoole\\Client::on »](swoole-client.on.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Client](class.swoole-client.html)
+    
+-   Перевіряє, чи підключено з'єднання
+    
 
-# Swoole\Client::isConnected
+# SwooleClient::isConnected
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Client::isConnected — Перевіряє, чи підключено з'єднання
+SwooleClient::isConnected — Перевіряє, чи підключено з'єднання.
 
 ### Опис
 
-public **Swoole\Client::isConnected**(): bool
+```methodsynopsis
+public Swoole\Client::isConnected(): bool
+```
 
 Метод повертає стан з'єднання прикладного рівня.
 

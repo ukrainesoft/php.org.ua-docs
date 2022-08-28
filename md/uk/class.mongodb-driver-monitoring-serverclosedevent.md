@@ -1,44 +1,49 @@
-- [« MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId](mongodb-driver-monitoring-serverchangedevent.gettopologyid.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getHost »](mongodb-driver-monitoring-serverclosedevent.gethost.md)
+Клас MongoDBDriverMonitoringServerClosedEvent
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Клас MongoDB\Driver\Monitoring\ServerClosedEvent
+-   [« MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getTopologyId](mongodb-driver-monitoring-serverchangedevent.gettopologyid.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getHost »](mongodb-driver-monitoring-serverclosedevent.gethost.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+    
+-   Клас MongoDBDriverMonitoringServerClosedEvent
+    
 
-# Клас MongoDB\Driver\Monitoring\ServerClosedEvent
+# Клас MongoDBDriverMonitoringServerClosedEvent
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDB\Driver\Monitoring\ServerClosedEvent** інкапсулює
-інформацію про закритий сервер.
+Клас **MongoDBDriverMonitoringServerClosedEvent** інкапсулює інформацію про закритий сервер.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Monitoring\ServerClosedEvent** {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md)():
-string
+    
+    
+     final
+     
+      class MongoDB\Driver\Monitoring\ServerClosedEvent
+     
+     {
+    
 
-final public
-[getPort](mongodb-driver-monitoring-serverclosedevent.getport.md)():
-int
+    /* Методы */
+    
+   final public getHost(): string
+final public getPort(): int
+final public getTopologyId(): MongoDB\BSON\ObjectId
 
-final public
-[getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md)
-— Повертає ім'я сервера.
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md)
-— Повертає порт, на якому прослуховується сервер
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)
-— Повертає ідентифікатор топології, пов'язаний із цим сервером
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.html) — Повертає ім'я сервера.
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.html) — Повертає порт, на якому прослуховується сервер
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.html) — Повертає ідентифікатор топології, пов'язаний із цим сервером

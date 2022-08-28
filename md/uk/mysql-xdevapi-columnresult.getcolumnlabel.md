@@ -1,24 +1,31 @@
-- [« ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.md)
-- [ColumnResult::getColumnName »](mysql-xdevapi-columnresult.getcolumnname.md)
+Отримує мітку стовпця
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує мітку стовпця
+-   [« ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.html)
+    
+-   [ColumnResult::getColumnName »](mysql-xdevapi-columnresult.getcolumnname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+    
+-   Отримує мітку стовпця
+    
 
 # ColumnResult::getColumnLabel
 
 (No version information available, might only be in Git)
 
-ColumnResult::getColumnLabel — Отримує позначку стовпця
+ColumnResult::getColumnLabel — Отримує мітку стовпця
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getColumnLabel**(): string
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getColumnLabel(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +35,12 @@ public **mysql_xdevapi\ColumnResult::getColumnLabel**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getColumnLabel()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getColumnLabel()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

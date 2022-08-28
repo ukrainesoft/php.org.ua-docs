@@ -1,9 +1,15 @@
-- [«SQLite3](book.sqlite3.md)
-- [Встановлення та налаштування »](sqlite3.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [SQLite3](book.sqlite3.md)
+-   [« SQLite3](book.sqlite3.html)
+    
+-   [Установка и настройка »](sqlite3.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SQLite3](book.sqlite3.html)
+    
 -   Вступ
+    
 
 # Вступ
 

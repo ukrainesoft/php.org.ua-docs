@@ -1,40 +1,46 @@
-- [« pspell_add_to_personal](function.pspell-add-to-personal.md)
-- [pspell_check »](function.pspell-check.md)
+Додає слово до списку слів у поточній сесії
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Додає слово до списку слів у поточній сесії
+-   [« pspell\_add\_to\_personal](function.pspell-add-to-personal.html)
+    
+-   [pspell\_check »](function.pspell-check.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Додає слово до списку слів у поточній сесії
+    
 
-#pspell_add_to_session
+# pspelladdтоsession
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_add_to_session — Додає слово до списку слів у поточній сесії
+pspelladdтоsession — Додає слово до списку слів у поточній сесії
 
 ### Опис
 
-**pspell_add_to_session**([PSpell\Dictionary](class.pspell-dictionary.md)
-`$dictionary`, string `$word`): bool
+```methodsynopsis
+pspell_add_to_session(PSpell\Dictionary $dictionary, string $word): bool
+```
 
-**pspell_add_to_session()** додає слово до списку слів,
-асоційований із поточною сесією. Ця функція дуже схожа на функцію
-[pspell_add_to_personal()](function.pspell-add-to-personal.md)
+**pspelladdтоsession()** додає слово до списку слів, асоційованого з поточною сесією. Ця функція дуже схожа на функцію [pspell\_add\_to\_personal()](function.pspell-add-to-personal.html)
 
 ### Список параметрів
 
 `dictionary`
-Примірник [PSpell\Dictionary](class.pspell-dictionary.md).
+
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
 
 `word`
+
 Слово, що додається.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                              |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр dictionary тепер очікує на екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

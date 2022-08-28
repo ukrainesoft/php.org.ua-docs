@@ -1,71 +1,60 @@
-- [« variant_eqv](function.variant-eqv.md)
-- [variant_get_type »](function.variant-get-type.md)
+Повернути цілу частину варіанта
 
-- [PHP Manual](index.md)
-- [Функції COM](ref.com.md)
-- Повернути цілу частину варіанта
+-   [« variant\_eqv](function.variant-eqv.html)
+    
+-   [variant\_get\_type »](function.variant-get-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции COM](ref.com.html)
+    
+-   Повернути цілу частину варіанта
+    
 
-# variant_fix
+# variantfix
 
 (PHP 5, PHP 7, PHP 8)
 
-variant_fix — Повернути цілу частину варіанта
+variantfix — Повернути цілу частину варіанта
 
 ### Опис
 
-**variant_fix**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): [variant](class.variant.md)
+```methodsynopsis
+variant_fix(mixed $value): variant
+```
 
 Повертає цілу частину варіанта.
 
 ### Список параметрів
 
 `value`
+
 Різновид.
 
-> **Примітка**:
->
-> Як і з усіма варіантними арифметичними функціями, параметри цієї
-> функції можуть бути як рідними типами PHP (integer, string, floating
-> point, boolean або **`null`**), так і екземплярами класів COM,
-> VARIANT або DOTNET. Рідні PHP типи будуть перетворені на варіанти
-> (variants) за тими самими правилами, що й у конструкторі класу
-> [Variant](class.variant.md). У об'єктів COM і DOTNET буде взято і
-> використано їх значення за замовчуванням як значення варіанта.
->
-> Варіантні арифметичні функції є обертанням навколо
-> однойменних функцій у бібліотеці COM; для більш детальної інформації
-> За цими функціями проконсультуйтеся з бібліотекою MSDN. Назви
-> PHP-функцій трохи відрізняються; наприклад,
-> [variant_add()](function.variant-add.md) у PHP відповідає
-> `VarAdd()` у документації MSDN.
+> **Зауваження**
+> 
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> 
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
 ### Значення, що повертаються
 
-Якщо `value` негативний, то буде повернено перше негативне ціле
-більше або дорівнює варіанту. У разі позитивної кількості буде просто
-повернута ціла частина `value`.
+Якщо `value` від'ємний, то буде повернено перше негативне ціле більше або дорівнює варіанту. У разі позитивного числа буде просто повернена ціла частина `value`
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md)
-у разі виникнення помилки.
+Викидає виняток [com\_exception](class.com-exception.html) у разі виникнення помилки.
 
 ### Примітки
 
 **Увага**
 
-Ви, напевно, помітили, що опис цієї функції буквально в букву
-збігається з описом функції
-[variant_int()](function.variant-int.md). Оскільки ця документація
-заснована на MSDN, це або так і повинно бути, або в MSDN помилка.
+Ви, мабуть, помітили, що опис цієї функції буква в букву збігається з описом функції [variant\_int()](function.variant-int.html). Так як ця документація заснована на MSDN, то це або так має бути, або в MSDN помилка.
 
 ### Дивіться також
 
-- [variant_int()](function.variant-int.md) - Повернути цілу чисельну
-частина варіанта
-- [variant_round()](function.variant-round.md) - Округлює варіант з
-заданою точністю
-- [floor()](function.floor.md) - Округлює дріб у менший бік
-- [ceil()](function.ceil.md) - Округлює дріб у велику сторону
-- [round()](function.round.md) - Округлює кількість типу float
+-   [variant\_int()](function.variant-int.html) - Повернути цілу частину варіанта
+-   [variant\_round()](function.variant-round.html) - Округлює варіант із заданою точністю
+-   [floor()](function.floor.html) - Округлює дріб у менший бік
+-   [ceil()](function.ceil.html) - Округлює дріб у велику сторону
+-   [round()](function.round.html) - Округлює кількість типу float

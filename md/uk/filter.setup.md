@@ -1,15 +1,21 @@
-- [«Вступ](intro.filter.md)
-- [Вимоги »](filter.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Filter](book.filter.md)
+-   [« Введение](intro.filter.html)
+    
+-   [Требования »](filter.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Filter](book.filter.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](filter.requirements.md)
-- [Установка](filter.installation.md)
-- [Налаштування під час виконання](filter.configuration.md)
-- [Типи ресурсів](filter.resources.md)
+-   [Требования](filter.requirements.html)
+-   [Установка](filter.installation.html)
+-   [Настройка во время выполнения](filter.configuration.html)
+-   [Типы ресурсов](filter.resources.html)

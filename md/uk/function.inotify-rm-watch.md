@@ -1,38 +1,44 @@
-- [«inotify_read](function.inotify-read.md)
-- [xattr »](book.xattr.md)
+Видалити спостерігача
 
-- [PHP Manual](index.md)
-- [Функції Inotify](ref.inotify.md)
-- Видалити спостерігача
+-   [« inotify\_read](function.inotify-read.html)
+    
+-   [xattr »](book.xattr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Inotify](ref.inotify.html)
+    
+-   Видалити спостерігача
+    
 
-#inotify_rm_watch
+# inotifyрмwatch
 
-(PECL inotify \>= 0.1.2)
+(PECL inotify >= 0.1.2)
 
-inotify_rm_watch — Видалити спостерігача
+inotifyрмwatch — Видалити спостерігача
 
 ### Опис
 
-**inotify_rm_watch**(resource `$inotify_instance`, int
-`$watch_descriptor`): bool
+```methodsynopsis
+inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
+```
 
-**inotify_rm_watch()** видаляє спостерігача `watch_descriptor` з
-екземпляра inotify `inotify_instance`.
+**inotifyрмwatch()** видаляє спостерігача `watch_descriptor` з екземпляра inotify `inotify_instance`
 
 ### Список параметрів
 
 `inotify_instance`
-Ресурс, що повертається [inotify_init()](function.inotify-init.md)
+
+Ресурс, що повертається [inotify\_init()](function.inotify-init.html)
 
 `watch_descriptor`
+
 Спостерігач для видалення
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [inotify_init()](function.inotify-init.md) - Ініціалізує
-екземпляр inotify
+-   [inotify\_init()](function.inotify-init.html) - Ініціалізує екземпляр inotify

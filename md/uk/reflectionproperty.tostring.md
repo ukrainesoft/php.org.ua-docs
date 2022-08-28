@@ -1,26 +1,33 @@
-- [« ReflectionProperty::setValue](reflectionproperty.setvalue.md)
-- [ReflectionType »](class.reflectiontype.md)
+Перетворення на рядок
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Перетворення на рядок
+-   [« ReflectionProperty::setValue](reflectionproperty.setvalue.html)
+    
+-   [ReflectionType »](class.reflectiontype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Перетворення на рядок
+    
 
-# ReflectionProperty::\_\_toString
+# ReflectionProperty::function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::\_\_toString — Перетворення на рядок
+ReflectionProperty::toString — Перетворення на рядок
 
 ### Опис
 
-public **ReflectionProperty::\_\_toString**(): string
+```methodsynopsis
+public ReflectionProperty::__toString(): string
+```
 
 Подання у вигляді рядка.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,4 +37,4 @@ public **ReflectionProperty::\_\_toString**(): string
 
 ### Дивіться також
 
-- [\_\_toString()](language.oop5.magic.md#object.tostring)
+-   [\_\_toString()](language.oop5.magic.html#object.tostring)

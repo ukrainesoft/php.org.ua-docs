@@ -1,40 +1,45 @@
-- [« IntlTimeZone::getID](intltimezone.getid.md)
-- [IntlTimeZone::getOffset »](intltimezone.getoffset.md)
+Перетворити часовий пояс для Windows на системний часовий пояс
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Перетворити часовий пояс для Windows на системний часовий пояс
+-   [« IntlTimeZone::getID](intltimezone.getid.html)
+    
+-   [IntlTimeZone::getOffset »](intltimezone.getoffset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Перетворити часовий пояс для Windows на системний часовий пояс
+    
 
 # IntlTimeZone::getIDForWindowsID
 
-# intltz_get_id_for_windows_id
+# intltzgetідforwindowsід
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-IntlTimeZone::getIDForWindowsID -- intltz_get_id_for_windows_id
-Перетворити часовий пояс для Windows на системний часовий пояс
+IntlTimeZone::getIDForWindowsID -- intltzgetідforwindowsid — Перетворити часовий пояс для Windows на системний часовий пояс
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::getIDForWindowsID**(string `$timezoneId`,
-?string `$region` = **`null`**): string\|false
+```methodsynopsis
+public static IntlTimeZone::getIDForWindowsID(string $timezoneId, ?string $region = null): string|false
+```
 
 Процедурний стиль:
 
-**intltz_get_id_for_windows_id**(string `$timezoneId`, ?string `$region`
-= **`null`**): string\|false
+```methodsynopsis
+intltz_get_id_for_windows_id(string $timezoneId, ?string $region = null): string|false
+```
 
-Перекладає часовий пояс для Windows (наприклад, "Pacific Standard Time")
-системний часовий пояс (наприклад, "America/Los_Angeles").
+Переводить часовий пояс для Windows (наприклад, "Pacific Standard Time") у системний часовий пояс (наприклад, "America/Los"Angeles»).
 
-> **Примітка**: Ця функція потребує ICU версії ≥ 52.
+> **Зауваження**: Ця функція потребує ICU версії ≥ 52.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -44,16 +49,14 @@ public static **IntlTimeZone::getIDForWindowsID**(string `$timezoneId`,
 
 ### Значення, що повертаються
 
-Повертає системний часовий пояс або **`false`** у разі виникнення
-помилки.
+Повертає системний часовий пояс або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                              |
-| ------ | ------------------------------------------------- |
-| 8.0.0  | Параметр region тепер допускає значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `region` тепер припускає значення **`null`** |
 
 ### Дивіться також
 
-- [IntlTimeZone::getWindowsID()](intltimezone.getwindowsid.md) -
-Перетворити часовий пояс на часовий пояс для Windows
+-   [IntlTimeZone::getWindowsID()](intltimezone.getwindowsid.html) - Перетворити системний часовий пояс на часовий пояс для Windows

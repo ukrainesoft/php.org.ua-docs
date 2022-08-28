@@ -1,15 +1,21 @@
-- [«Вступ](intro.mqseries.md)
-- [Вимоги »](mqseries.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [mqseries](book.mqseries.md)
+-   [« Введение](intro.mqseries.html)
+    
+-   [Требования »](mqseries.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mqseries](book.mqseries.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](mqseries.requirements.md)
-- [Установка](mqseries.configure.md)
-- [Налаштування під час виконання](mqseries.ini.md)
-- [Типи ресурсів](mqseries.resources.md)
+-   [Требования](mqseries.requirements.html)
+-   [Установка](mqseries.configure.html)
+-   [Настройка во время выполнения](mqseries.ini.html)
+-   [Типы ресурсов](mqseries.resources.html)

@@ -1,64 +1,86 @@
-- [«curl_strerror](function.curl-strerror.md)
-- [curl_version »](function.curl-version.md)
+Декодує закодований URL-рядок
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Декодує закодований URL-рядок
+-   [« curl\_strerror](function.curl-strerror.html)
+    
+-   [curl\_version »](function.curl-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Декодує закодований URL-рядок
+    
 
-#curl_unescape
+# curlunescape
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-curl_unescape — Декодує закодований URL-рядок
+curlunescape — Декодує закодований URL-рядок
 
 ### Опис
 
-**curl_unescape**([CurlHandle](class.curlhandle.md) `$handle`, string
-`$string`): string\|false
+```methodsynopsis
+curl_unescape(CurlHandle $handle, string $string): string|false
+```
 
 Ця функція декодує закодований URL-рядок.
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
 
 `string`
+
 Закодований рядок.
 
 ### Значення, що повертаються
 
-Повертає декодований рядок або **`false`** у разі виникнення
-помилки.
+Повертає декодований рядок або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------- |
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[curl_escape()](function.curl-escape.md)**
+**Приклад #1 Приклад використання [curl\_escape()](function.curl-escape.html)**
 
-`<?php// Створюємо обробник curl$ch = curl_init('http://example.com/redirect.php');//Посилаємо HTTP-запитcurl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);cur // Отримуємо останній використаний URL$effective_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);// наприклад "http://example.com/show_location.php?loc=M%C3%BCnchen"| ch, $effective_url);// "http://example.com/show_location.php?loc=München"// Закриваємо обробникcurl_close($ch);?> `
+```php
+<?php
+// Создаём обработчик curl
+$ch = curl_init('http://example.com/redirect.php');
+
+// Посылаем HTTP-запрос
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+curl_exec($ch);
+
+// Получаем последний использованный URL
+$effective_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+// например "http://example.com/show_location.php?loc=M%C3%BCnchen"
+
+// Декодируем
+$effective_url_decoded = curl_unescape($ch, $effective_url);
+// "http://example.com/show_location.php?loc=München"
+
+// Закрываем обработчик
+curl_close($ch);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **curl_unescape()** не перетворює плюс (+) у пробіл. Це робить
-> функція [urldecode()](function.urldecode.md).
+> **Зауваження**
+> 
+> **curlunescape()** не перетворює плюс (+) у пробіл. Це робить функцію [urldecode()](function.urldecode.html)
 
 ### Дивіться також
 
-- [curl_escape()](function.curl-escape.md) - Кодує задану
-рядок як URL
-- [urlencode()](function.urlencode.md) - URL-кодування рядка
-- [urldecode()](function.urldecode.md) - Декодування
-URL-кодованого рядка
-- [rawurlencode()](function.rawurlencode.md) - URL-кодування
-рядки згідно з RFC 3986
-- [rawurldecode()](function.rawurldecode.md) - Декодування
-URL-кодованого рядка
+-   [curl\_escape()](function.curl-escape.html) - Кодує заданий рядок як URL
+-   [urlencode()](function.urlencode.html) - URL-кодування рядка
+-   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка
+-   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
+-   [rawurldecode()](function.rawurldecode.html) - Декодування URL-кодованого рядка

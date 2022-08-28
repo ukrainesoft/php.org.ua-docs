@@ -1,19 +1,21 @@
-- [« IntlIterator::valid](intliterator.valid.md)
-- [intl_error_name »](function.intl-error-name.md)
+Функції intl
 
-- [PHP Manual](index.md)
-- [intl](book.intl.md)
-- Функції intl
+-   [« IntlIterator::valid](intliterator.valid.html)
+    
+-   [intl\_error\_name »](function.intl-error-name.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [intl](book.intl.html)
+    
+-   Функції intl
+    
 
 # Функції intl
 
 ## Зміст
 
-- [intl_error_name](function.intl-error-name.md) — Отримати ім'я
-помилки за її кодом
-- [intl_get_error_code](function.intl-get-error-code.md) — Отримати
-код останньої помилки
-- [intl_get_error_message](function.intl-get-error-message.md) -
-Отримати опис помилки
-- [intl_is_failure](function.intl-is-failure.md) — Перевірити,
-чи є код помилки ознакою збою
+-   [intl\_error\_name](function.intl-error-name.html) — Отримати ім'я помилки за її кодом
+-   [intl\_get\_error\_code](function.intl-get-error-code.html) — Отримати код останньої помилки
+-   [intl\_get\_error\_message](function.intl-get-error-message.html) — Отримати опис помилки
+-   [intl\_is\_failure](function.intl-is-failure.html) — Перевірити, чи є код помилки ознакою збою

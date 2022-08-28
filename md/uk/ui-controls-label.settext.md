@@ -1,23 +1,32 @@
-- [«UI\Controls\Label::getText](ui-controls-label.gettext.md)
-- [UI\Controls\Entry »](class.ui-controls-entry.md)
+Встановити текст
 
-- [PHP Manual](index.md)
-- [UI\Controls\Label](class.ui-controls-label.md)
-- Встановити текст
+-   [« UI\\Controls\\Label::getText](ui-controls-label.gettext.html)
+    
+-   [UI\\Controls\\Entry »](class.ui-controls-entry.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Label](class.ui-controls-label.html)
+    
+-   Встановити текст
+    
 
-# UI\Controls\Label::setText
+# ОЙControlsLabel::setText
 
 (UI 0.9.9)
 
-UI\Controls\Label::setText — Встановити текст
+ОЙControlsLabel::setText — Встановити текст
 
 ### Опис
 
-public **UI\Controls\Label::setText**(string `$text`)
+```methodsynopsis
+public UI\Controls\Label::setText(string $text)
+```
 
 Встановлює текст для цієї позначки
 
 ### Список параметрів
 
 `text`
+
 Новий текст

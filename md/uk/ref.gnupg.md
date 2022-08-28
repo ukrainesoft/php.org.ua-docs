@@ -1,79 +1,53 @@
-- [« Прозоре підписування тексту](gnupg.examples-clearsign.md)
-- [gnupg_adddecryptkey »](function.gnupg-adddecryptkey.md)
+GnuPG Функції
 
-- [PHP Manual](index.md)
-- [GnuPG](book.gnupg.md)
-- GnuPG Функції
+-   [« Прозрачное подписывание текста](gnupg.examples-clearsign.html)
+    
+-   [gnupg\_adddecryptkey »](function.gnupg-adddecryptkey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG](book.gnupg.html)
+    
+-   GnuPG Функції
+    
 
 # GnuPG Функції
 
 # Примітки
 
-Цей модуль дозволяє використовувати зв'язок ключів поточного користувача.
-Зв'язування, як правило, розташоване в \~/.gnupg/. Щоб вказати іншу
-папку, збережіть шлях до зв'язки ключів у змінному оточенні GNUPGHOME.
-Дивіться [putenv](function.putenv.md) для отримання додаткової інформації
-інформації, як це зробити.
+Цей модуль дозволяє використовувати зв'язок ключів поточного користувача. Зв'язка, як правило, розташована в ~/.gnupg/. Щоб вказати іншу папку, збережіть шлях до зв'язування ключів у змінному оточенні GNUPGHOME. Дивіться [putenv](function.putenv.html) для отримання додаткової інформації, як це зробити.
 
-Деякі функції потребують специфікації ключа. Ця специфікація може
-бути всім, що відноситься до унікального ключа (ідентифікатор
-користувача, ідентифікатор ключа, відбитки пальців...). В цій
-У документації використовується відбиток пальця у всіх прикладах.
+Деякі функції потребують специфікації ключа. Ця специфікація може бути всім, що стосується унікального ключа (ідентифікатор користувача, ідентифікатор ключа, відбитки пальців, ...). У цій документації використовується відбиток пальця у всіх прикладах.
 
-> **Примітка**:
->
-> Як альтернатива явно документованим функціям, що використовують
-> resource, ви можете використовувати об'єктно-орієнтований стиль з
-> за допомогою об'єктів **gnupg**.
+> **Зауваження**
+> 
+> Як альтернатива явно документованим функціям, що використовують resource, ви можете використовувати об'єктно-орієнтований стиль за допомогою об'єктів **gnupg**
 
 ## Зміст
 
-- [gnupg_adddecryptkey](function.gnupg-adddecryptkey.md) — Додати
-ключ для розшифровки
-- [gnupg_addencryptkey](function.gnupg-addencryptkey.md) — Додає
-ключ для шифрування
-- [gnupg_addsignkey](function.gnupg-addsignkey.md) — Додати ключ
-для підписання
-- [gnupg_cleardecryptkeys](function.gnupg-cleardecryptkeys.md) -
-Видаляє всі ключі, які були встановлені для розшифровки раніше
-- [gnupg_clearencryptkeys](function.gnupg-clearencryptkeys.md) -
-Видаляє всі ключі, які були встановлені для шифрування раніше
-- [gnupg_clearsignkeys](function.gnupg-clearsignkeys.md) — Видаляє
-всі ключі, які були встановлені для підписання раніше
-- [gnupg_decrypt](function.gnupg-decrypt.md) - Розшифровує
-переданий текст
-- [gnupg_decryptverify](function.gnupg-decryptverify.md) -
-Розшифровує та перевіряє підпис переданого тексту
-- [gnupg_deletekey](function.gnupg-deletekey.md) — Видаляє ключ з
-зв'язки ключів
-- [gnupg_encrypt](function.gnupg-encrypt.md) - Шифрує заданий
-текст
-- [gnupg_encryptsign](function.gnupg-encryptsign.md) — Шифрує та
-підписує переданий текст
-- [gnupg_export](function.gnupg-export.md) — Експортує ключ
-- [gnupg_getengineinfo](function.gnupg-getengineinfo.md) -
-Повертає інформацію про движок
-- [gnupg_geterror](function.gnupg-geterror.md) — Повертає текст
-повідомлення про помилку, якщо функція не була виконана
-- [gnupg_geterrorinfo](function.gnupg-geterrorinfo.md) — Повертає
-інформацію про помилку
-- [gnupg_getprotocol](function.gnupg-getprotocol.md) - Повертає
-поточний активний протокол для всіх операцій
-- [gnupg_gettrustlist](function.gnupg-gettrustlist.md) — Пошук
-довірчих елементів
-- [gnupg_import](function.gnupg-import.md) — Імпортує ключ
-- [gnupg_init](function.gnupg-init.md) - Ініціалізувати GnuPG
-- [gnupg_keyinfo](function.gnupg-keyinfo.md) - Повертає масив з
-інформацією про всі ключі, які відповідають заданому шаблону
-- [gnupg_listsignatures](function.gnupg-listsignatures.md) -
-Перераховує підписи ключа
-- [gnupg_setarmor](function.gnupg-setarmor.md) — Перемикає висновок
-текстовому або бінарному режимі
-- [gnupg_seterrormode](function.gnupg-seterrormode.md) -
-Встановлює режим звітів про помилки (error_reporting)
-- [gnupg_setsignmode](function.gnupg-setsignmode.md) — Встановлює
-режим підписування
-- [gnupg_sign](function.gnupg-sign.md) — Підписує переданий
-текст
-- [gnupg_verify](function.gnupg-verify.md) — Перевірка підпису
-тексту
+-   [gnupg\_adddecryptkey](function.gnupg-adddecryptkey.html) — Додати ключ для розшифровки
+-   [gnupg\_addencryptkey](function.gnupg-addencryptkey.html) — Додає ключ для шифрування
+-   [gnupg\_addsignkey](function.gnupg-addsignkey.html) — Додати ключ для підписання
+-   [gnupg\_cleardecryptkeys](function.gnupg-cleardecryptkeys.html) — Видаляє всі ключі, які були встановлені для розшифровки раніше
+-   [gnupg\_clearencryptkeys](function.gnupg-clearencryptkeys.html) — Видаляє всі ключі, які були встановлені для шифрування раніше
+-   [gnupg\_clearsignkeys](function.gnupg-clearsignkeys.html) — Видаляє всі ключі, які були встановлені для підписання раніше
+-   [gnupg\_decrypt](function.gnupg-decrypt.html) - Розшифровує переданий текст
+-   [gnupg\_decryptverify](function.gnupg-decryptverify.html) — Розшифровує та перевіряє підпис переданого тексту
+-   [gnupg\_deletekey](function.gnupg-deletekey.html) — Видаляє ключ із зв'язування ключів
+-   [gnupg\_encrypt](function.gnupg-encrypt.html) - Шифрує заданий текст
+-   [gnupg\_encryptsign](function.gnupg-encryptsign.html) — Шифрує та підписує переданий текст
+-   [gnupg\_export](function.gnupg-export.html) - Експортує ключ
+-   [gnupg\_getengineinfo](function.gnupg-getengineinfo.html) — Повертає інформацію про двигун
+-   [gnupg\_geterror](function.gnupg-geterror.html) — Повертає текст повідомлення про помилку, якщо функція не була виконана
+-   [gnupg\_geterrorinfo](function.gnupg-geterrorinfo.html) — Повертає інформацію про помилку
+-   [gnupg\_getprotocol](function.gnupg-getprotocol.html) — Повертає активний протокол для всіх операцій.
+-   [gnupg\_gettrustlist](function.gnupg-gettrustlist.html) - Пошук довірчих елементів
+-   [gnupg\_import](function.gnupg-import.html) - Імпортує ключ
+-   [gnupg\_init](function.gnupg-init.html) - Ініціалізувати GnuPG
+-   [gnupg\_keyinfo](function.gnupg-keyinfo.html) — Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
+-   [gnupg\_listsignatures](function.gnupg-listsignatures.html) - Перераховує підписи ключа
+-   [gnupg\_setarmor](function.gnupg-setarmor.html) — Перемикає висновок у текстовому чи бінарному режимі
+-   [gnupg\_seterrormode](function.gnupg-seterrormode.html) — Встановлює режим звітування про помилки (errorreporting)
+-   [gnupg\_setsignmode](function.gnupg-setsignmode.html) — Встановлює режим підписування
+-   [gnupg\_sign](function.gnupg-sign.html) — Підписує переданий текст
+-   [gnupg\_verify](function.gnupg-verify.html) - Перевіряє підпис тексту

@@ -1,9 +1,15 @@
-- [« ReflectionMethod::isProtected](reflectionmethod.isprotected.md)
-- [ReflectionMethod::isStatic »](reflectionmethod.isstatic.md)
+Перевіряє, чи є метод загальнодоступним
 
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Перевіряє, чи є метод загальнодоступним
+-   [« ReflectionMethod::isProtected](reflectionmethod.isprotected.html)
+    
+-   [ReflectionMethod::isStatic »](reflectionmethod.isstatic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionMethod](class.reflectionmethod.html)
+    
+-   Перевіряє, чи є метод загальнодоступним
+    
 
 # ReflectionMethod::isPublic
 
@@ -13,7 +19,9 @@ ReflectionMethod::isPublic — Перевіряє, чи є метод загал
 
 ### Опис
 
-public **ReflectionMethod::isPublic**(): bool
+```methodsynopsis
+public ReflectionMethod::isPublic(): bool
+```
 
 Перевіряє, чи є метод загальнодоступним.
 
@@ -23,9 +31,8 @@ public **ReflectionMethod::isPublic**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо метод загальнодоступний, **`false`** інакше.
+**`true`**, якщо метод загальнодоступний, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) -
-Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.html) - Перевіряє, чи є метод закритим

@@ -1,26 +1,34 @@
-- [« Ds\Deque::isEmpty](ds-deque.isempty.md)
-- [Ds\Deque::jsonSerialize »](ds-deque.jsonserialize.md)
+Склеює всі значення в рядок
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Склеює всі значення в рядок
+-   [« Ds\\Deque::isEmpty](ds-deque.isempty.html)
+    
+-   [Ds\\Deque::jsonSerialize »](ds-deque.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Склеює всі значення в рядок
+    
 
-# Ds\Deque::join
+# ДсDeque::join
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::join — Склеює всі значення в рядок
+ДсDeque::join — Склеює всі значення в рядок
 
 ### Опис
 
-public **Ds\Deque::join**(string `$glue` = ?): string
+```methodsynopsis
+public Ds\Deque::join(string $glue = ?): string
+```
 
-Склеює всі значення в рядок, опціонально використовуючи заданий
-роздільник.
+Склеює всі значення у рядок, опціонально використовуючи заданий роздільник.
 
 ### Список параметрів
 
 `glue`
+
 Необов'язковий параметр, який визначає роздільник між значеннями.
 
 ### Значення, що повертаються
@@ -29,18 +37,34 @@ public **Ds\Deque::join**(string `$glue` = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::join()** з роздільником**
+**Приклад #1 Приклад використання **ДсDeque::join()** з роздільником**
 
-` <?php$deque = new \Ds\Deque(["a", "b", c", 1, 2, 3]);var_dump($deque->join("|"));?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);
+
+var_dump($deque->join("|"));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "a|b|c|1|2|3"
+```
 
-**Приклад #2 Приклад використання **Ds\Deque::join()** без роздільника**
+**Приклад #2 Приклад використання **ДсDeque::join()** без роздільника**
 
-` <?php$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);var_dump($deque->join());?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);
+
+var_dump($deque->join());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "abc123"
+```

@@ -1,21 +1,24 @@
-- [« UI\Exception\RuntimeException](class.ui-exception-runtimeexception.md)
-- [Загальна інформація »](faq.general.md)
+ЧАВО: Часті питання та відповіді на них
 
-- [PHP Manual](index.md)
-- ЧАВО: Часті питання та Відповіді на них
+-   [« UI\\Exception\\RuntimeException](class.ui-exception-runtimeexception.html)
+    
+-   [Общая информация »](faq.general.html)
+    
+-   [PHP Manual](index.html)
+    
+-   ЧАВО: Часті питання та відповіді на них
+    
 
-# ЧАВО: Часті питання та Відповіді на них
+# ЧАВО: Часті питання та відповіді на них
 
-- [Загальна інформація](faq.general.md)
-- [Списки розсилки](faq.mailinglist.md)
-- [Отримання PHP](faq.obtaining.md)
-- [Питання з баз даних](faq.databases.md) — Питання по Базам
-даних
-- [Установка](faq.installation.md)
-- [Проблеми складання](faq.build.md)
-- [Використання PHP](faq.using.md)
-- [Хешування паролів](faq.passwords.md) — Безпечне хешування
-паролів
-- [PHP та HTML](faq.md.md)
-- [PHP та COM](faq.com.md)
-- [Різні питання](faq.misc.md)
+-   [Общая информация](faq.general.html)
+-   [Списки рассылки](faq.mailinglist.html)
+-   [Получение PHP](faq.obtaining.html)
+-   [Вопросы по базам данных](faq.databases.html) — Питання щодо Баз даних
+-   [Установка](faq.installation.html)
+-   [Проблемы сборки](faq.build.html)
+-   [Использование PHP](faq.using.html)
+-   [Хеширование паролей](faq.passwords.html) - Безпечне хешування паролів
+-   [PHP и HTML](faq.html.html)
+-   [PHP и COM](faq.com.html)
+-   [Разные вопросы](faq.misc.html)

@@ -1,22 +1,29 @@
-- [« ibase_drop_db](function.ibase-drop-db.md)
-- [ibase_errmsg »](function.ibase-errmsg.md)
+Повертає код помилки
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Повертає код помилки
+-   [« ibase\_drop\_db](function.ibase-drop-db.html)
+    
+-   [ibase\_errmsg »](function.ibase-errmsg.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Повертає код помилки
+    
 
-# ibase_errcode
+# ibaseerrcode
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_errcode — Повертає код помилки
+ibaseerrcode — Повертає код помилки
 
 ### Опис
 
-**ibase_errcode**(): int
+```methodsynopsis
+ibase_errcode(): int
+```
 
-Повертає код помилки, отриманий в результаті останнього виклику функції
-InterBase.
+Повертає код помилки, отриманий внаслідок останнього виклику функції InterBase.
 
 ### Список параметрів
 
@@ -24,10 +31,8 @@ InterBase.
 
 ### Значення, що повертаються
 
-Повертає код помилки у вигляді цілого числа або **`false`**, якщо помилки
-не відбулося.
+Повертає код помилки у вигляді цілого числа або **`false`**якщо помилки не сталося.
 
 ### Дивіться також
 
-- [ibase_errmsg()](function.ibase-errmsg.md) - Повертає повідомлення
-про помилку
+-   [ibase\_errmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку

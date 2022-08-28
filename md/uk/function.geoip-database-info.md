@@ -1,46 +1,56 @@
-- [« geoip_country_name_by_name](function.geoip-country-name-by-name.md)
-- [geoip_db_avail »](function.geoip-db-avail.md)
+Повертає інформацію про базу GeoIP
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Повертає інформацію про базу GeoIP
+-   [« geoip\_country\_name\_by\_name](function.geoip-country-name-by-name.html)
+    
+-   [geoip\_db\_avail »](function.geoip-db-avail.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GeoIP](ref.geoip.html)
+    
+-   Повертає інформацію про базу GeoIP
+    
 
-# geoip_database_info
+# geoipdatabaseinfo
 
-(PECL geoip \>= 0.2.0)
+(PECL geoip >= 0.2.0)
 
-geoip_database_info — Повертає інформацію про базу GeoIP
+geoipdatabaseinfo — Повертає інформацію про базу GeoIP
 
 ### Опис
 
-**geoip_database_info**(int `$database` = GEOIP_COUNTRY_EDITION): string
+```methodsynopsis
+geoip_database_info(int $database = GEOIP_COUNTRY_EDITION): string
+```
 
-Функція **geoip_database_info()** повертає версію бази GeoIP,
-відповідне визначення у бінарному файлі.
+Функція **geoipdatabaseinfo()** повертає версію бази GeoIP, що відповідає визначенню у бінарному файлі.
 
-Ця функція викликається без параметрів та повертає версію бази GeoIP
-Free Country Edition.
+Ця функція викликається без параметрів та повертає версію бази GeoIP Free Country Edition.
 
 ### Список параметрів
 
 `database`
-Тип бази визначається цілим числом (integer). Ви можете використовувати
-[різноманітні константи](geoip.constants.md), визначені в цьому
-модулі (тобто: GEOIP\_\*\_EDITION).
+
+Тип бази визначається цілим числом (integer). Ви можете використовувати [разнообразные константы](geoip.constants.html), визначені в цьому модулі (тобто: GEOIPEDITION).
 
 ### Значення, що повертаються
 
-Повертає відповідну версію, або **`null`** у разі виникнення
-помилки.
+Повертає відповідну версію, або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_database_info()****
+**Приклад #1 Приклад використання **geoipdatabaseinfo()****
 
 Приклад демонструє виведення інформації про базу даних.
 
-` <?phpprint geoip_database_info(GEOIP_COUNTRY_EDITION);?> `
+```php
+<?php
+print geoip_database_info(GEOIP_COUNTRY_EDITION);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 GEO-106FREE 20060801 Build 1 Copyright (c) 2006 MaxMind LLC All Rights Reserved
+```

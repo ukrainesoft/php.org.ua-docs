@@ -1,9 +1,15 @@
-- [« Imagick::annotateImage](imagick.annotateimage.md)
-- [Imagick::autoLevelImage »](imagick.autolevelimage.md)
+Об'єднує набір зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Об'єднує набір зображень
+-   [« Imagick::annotateImage](imagick.annotateimage.html)
+    
+-   [Imagick::autoLevelImage »](imagick.autolevelimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Об'єднує набір зображень
+    
 
 # Imagick::appendImages
 
@@ -13,18 +19,17 @@ Imagick::appendImages — Об'єднує набір зображень
 
 ### Опис
 
-public **Imagick::appendImages**(bool `$stack`):
-[Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::appendImages(bool $stack): Imagick
+```
 
-Об'єднує набір зображень в одне велике зображення.
+Поєднує набір зображень в одне велике зображення.
 
 ### Список параметрів
 
 `stack`
-Чи варто складати зображення вертикально. За замовчуванням (або якщо
-вказано **`false`**) зображення складаються зліва направо. Якщо
-`stack` встановлений в **`true`**, то зображення складаються зверху
-вниз.
+
+Чи варто складати зображення вертикально. За замовчуванням (або якщо зазначено **`false`**) зображення складаються зліва направо. Якщо `stack` встановлений в **`true`**то зображення складаються зверху вниз.
 
 ### Значення, що повертаються
 
@@ -38,9 +43,28 @@ public **Imagick::appendImages**(bool `$stack`):
 
 **Приклад #1 Приклад використання **Imagick::appendImages()****
 
-` <?php/* Створюємо новий об'єкт imagick */$im = new Imagick();/* створюємо червоне, зелене і синє зображення */$im->newImage(100, 50; newImage(100, 50, "green");$im->newImage(100, 50, "blue");/* З'єднуємо всі зображення в одно */$im->resetIterator(); appendImages(true);/* Виводимо зображення */$combined->setImageFormat("png");header("Content-Type: image/png");echo $combined;?> `
+```php
+<?php
+
+/* Создаём новый объект imagick */
+$im = new Imagick();
+
+/* создаём красное, зелёное и синее изображения */
+$im->newImage(100, 50, "red");
+$im->newImage(100, 50, "green");
+$im->newImage(100, 50, "blue");
+
+/* Соединяем все изображения в одно */
+$im->resetIterator();
+$combined = $im->appendImages(true);
+
+/* Выводим изображение */
+$combined->setImageFormat("png");
+header("Content-Type: image/png");
+echo $combined;
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Приклад виведення:
-Imagick::appendImages()](images/c0d23d2d6769e53e24a1b3136c064577-floodfillpaint_intermediate.png)
+![Приклад висновку: Imagick::appendImages()](images/c0d23d2d6769e53e24a1b3136c064577-floodfillpaint_intermediate.png)

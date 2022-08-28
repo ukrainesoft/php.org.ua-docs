@@ -1,51 +1,53 @@
-- [«socket_write](function.socket-write.md)
-- [socket_wsaprotocol_info_import »](function.socket-wsaprotocol-info-import.md)
+Експорт структури WSAPROTOCOLINFO
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Експорт структури WSAPROTOCOL_INFO
+-   [« socket\_write](function.socket-write.html)
+    
+-   [socket\_wsaprotocol\_info\_import »](function.socket-wsaprotocol-info-import.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Експорт структури WSAPROTOCOLINFO
+    
 
-# socket_wsaprotocol_info_export
+# socketwsaprotocolinfoexport
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-socket_wsaprotocol_info_export — Експорт структури WSAPROTOCOL_INFO
+socketwsaprotocolinfoexport — Експорт структури WSAPROTOCOLINFO
 
 ### Опис
 
-**socket_wsaprotocol_info_export**([Socket](class.socket.md)
-`$socket`, int `$process_id`): string\|false
+```methodsynopsis
+socket_wsaprotocol_info_export(Socket $socket, int $process_id): string|false
+```
 
-Експортує структуру `WSAPROTOCOL_INFO` в роздільну пам'ять та
-повертає ідентифікатор, який можна використовувати в
-[socket_wsaprotocol_info_import()](function.socket-wsaprotocol-info-import.md).
-Цей ідентифікатор придатний лише для використання з PID,
-вказаним у `process_id`.
+Експортує структуру `WSAPROTOCOL_INFO` в пам'ять, що розділяється, і повертає ідентифікатор, який можна використовувати в [socket\_wsaprotocol\_info\_import()](function.socket-wsaprotocol-info-import.html). Цей ідентифікатор придатний лише для використання в процесі PID, зазначеного в `process_id`
 
-> **Примітка**: Функція доступна лише у Windows.
+> **Зауваження**: Функція доступна лише у Windows.
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md).
+
+Екземпляр [Socket](class.socket.html)
 
 `process_id`
+
 Ідентифікатор процесу, який імпортуватиме сокет.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор, який можна використовувати для імпорту або
-**`false`** у разі виникнення помилки.
+Повертає ідентифікатор, який можна використовувати для імпорту або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_wsaprotocol_info_import()](function.socket-wsaprotocol-info-import.md) -
-Імпортує сокет з іншого процесу
-- [socket_wsaprotocol_info_release()](function.socket-wsaprotocol-info-release.md) -
-Вивільняє експортовану структуру WSAPROTOCOL_INFO
+-   [socket\_wsaprotocol\_info\_import()](function.socket-wsaprotocol-info-import.html) - Імпортує сокет з іншого процесу
+-   [socket\_wsaprotocol\_info\_release()](function.socket-wsaprotocol-info-release.html) - Вивільняє експортовану структуру WSAPROTOCOLINFO

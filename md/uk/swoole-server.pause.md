@@ -1,19 +1,27 @@
-- [« Swoole\Server::on](swoole-server.on.md)
-- [Swoole\Server::protect »](swoole-server.protect.md)
+Припиняє отримання даних від з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Припиняє отримання даних від з'єднання
+-   [« Swoole\\Server::on](swoole-server.on.html)
+    
+-   [Swoole\\Server::protect »](swoole-server.protect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Припиняє отримання даних від з'єднання
+    
 
-# Swoole\Server::pause
+# SwooleServer::pause
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::pause — Припиняє отримання даних від з'єднання
+SwooleServer::pause — Припиняє отримання даних від з'єднання
 
 ### Опис
 
-public **Swoole\Server::pause**(int `$fd`): void
+```methodsynopsis
+public Swoole\Server::pause(int $fd): void
+```
 
 ### Список параметрів
 

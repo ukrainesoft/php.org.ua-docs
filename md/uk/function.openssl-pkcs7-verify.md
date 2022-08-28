@@ -1,73 +1,69 @@
-- [« openssl_pkcs7_sign](function.openssl-pkcs7-sign.md)
-- [openssl_pkey_derive »](function.openssl-pkey-derive.md)
+Перевірити підпис повідомлення S/MIME
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Перевірити підпис повідомлення S/MIME
+-   [« openssl\_pkcs7\_sign](function.openssl-pkcs7-sign.html)
+    
+-   [openssl\_pkey\_derive »](function.openssl-pkey-derive.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Перевірити підпис повідомлення S/MIME
+    
 
-#openssl_pkcs7_verify
+# opensslpkcs7verify
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_pkcs7_verify — Перевірити підпис повідомлення S/MIME
+opensslpkcs7verify — Перевірити підпис повідомлення S/MIME
 
 ### Опис
 
-**openssl_pkcs7_verify**(
-string `$input_filename`,
-int `$flags`,
-?string `$signers_certificates_filename` = **`null`**,
-array `$ca_info` = [],
-?string `$untrusted_certificates_filename` = **`null`**,
-?string `$content` = **`null`**,
-?string `$output_filename` = **`null`**
-): bool\|int
+```methodsynopsis
+openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $signers_certificates_filename = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $output_filename = null): bool|int
+```
 
-**openssl_pkcs7_verify()** читає S/MIME повідомлення з файлу та перевіряє
-його підпис.
+**opensslpkcs7verify()** читає S/MIME повідомлення з файлу та перевіряє його підпис.
 
 ### Список параметрів
 
 `input_filename`
+
 Шлях до файлу із повідомленням.
 
 `flags`
-flags можна використовувати для модифікації процесу перевірки. Більше
-Детально дивіться [константи PKCS7](openssl.pkcs7.flags.md).
+
+`flags` можна використовувати модифікації процесу перевірки. Детальніше дивіться [константы PKCS7](openssl.pkcs7.flags.html)
 
 `signers_certificates_filename`
-Якщо заданий параметр `signers_certificates_filename`, то він повинен
-бути рядок з ім'ям файлу, в який буде збережено сертифікати,
-використані під час підписання, у форматі PEM.
+
+Якщо встановлено параметр `signers_certificates_filename`, то в ньому має бути рядок з ім'ям файлу, в який будуть збережені сертифікати, використані під час підписання, у форматі PEM.
 
 `ca_info`
-Якщо заданий параметр `ca_info`, то в ньому повинна бути інформація про
-довірених сертифікатах CA, які необхідно використовувати у процесі
-перевірки. Докладніше читайте на сторінці [перевірки сертифікатів](openssl.cert.verification.md).
+
+Якщо встановлено параметр `ca_info`, то в ньому повинна бути інформація про довірені сертифікати CA, які необхідно використовувати в процесі перевірки. Докладніше читайте на сторінці [проверки сертификатов](openssl.cert.verification.html)
 
 `untrusted_certificates_filename`
-Якщо встановлено параметр `untrusted_certificates_filename`, у ньому повинно бути
-міститься ім'я файлу, який містить набір недовірених сертифікатів CA.
+
+Якщо встановлено параметр `untrusted_certificates_filename`, у ньому має бути ім'я файлу, що містить набір недовірених сертифікатів CA.
 
 `content`
-У параметрі `content` можна вказати ім'я файлу, до якого будуть записані
-верифіковані дані без інформації щодо підпису.
+
+У параметрі `content` можна вказати ім'я файлу, до якого буде записано верифіковані дані без інформації про підпис.
 
 `output_filename`
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо перевірка успішна, **`false`**, якщо ні та -1
-у разі виникнення помилки.
+Повертає **`true`**, якщо перевірка успішна, **`false`**якщо немає і -1 у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                       |
-|--------|----------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | signers_certificates_filename, untrusted_certificates_filename, content та output_filename тепер допускають значення null. |
-| 7.2.0  | Доданий параметр output_filename.                                                                                          |
+| Версия | Описание |
+| --- | --- |
+|  | `signers_certificates_filename` `untrusted_certificates_filename` `content` і `output_filename` тепер допускають значення null. |
+|  | Доданий параметр `output_filename` |
 
 ### Примітки
 
-> **Примітка**: Як зазначено в RFC 2045, довжина параметра
-> `input_filename` не має бути довшим за 76 символів.
+> **Зауваження**: Як зазначено в RFC 2045, довжина параметра `input_filename` не має бути довшим за 76 символів.

@@ -1,20 +1,20 @@
-- [« Вимоги](dio.requirements.md)
-- [Налаштування під час виконання »](dio.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](dio.setup.md)
-- Установка
+-   [« Требования](dio.requirements.html)
+    
+-   [Настройка во время выполнения »](dio.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](dio.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/dio](https://pecl.php.net/package/dio).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/dio](https://pecl.php.net/package/dio)
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md).
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)

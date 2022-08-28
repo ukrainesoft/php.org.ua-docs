@@ -1,51 +1,48 @@
-- [« mcrypt_module_get_algo_key_size](function.mcrypt-module-get-algo-key-size.md)
-- [mcrypt_module_is_block_algorithm_mode »](function.mcrypt-module-is-block-algorithm-mode.md)
+Повертає список підтримуваних розмірів ключів для відкритого алгоритму
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Повертає список підтримуваних розмірів ключів для відкритого
-алгоритму
+-   [« mcrypt\_module\_get\_algo\_key\_size](function.mcrypt-module-get-algo-key-size.html)
+    
+-   [mcrypt\_module\_is\_block\_algorithm\_mode »](function.mcrypt-module-is-block-algorithm-mode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Повертає список підтримуваних розмірів ключів для відкритого алгоритму
+    
 
-# mcrypt_module_get_supported_key_sizes
+# mcryptmodulegetsupportedkeysizes
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_module_get_supported_key_sizes — Повертає список підтримуваних
-розмірів ключів для відкритого алгоритму
+mcryptmodulegetsupportedkeysizes — Повертає список підтримуваних розмірів ключів для відкритого алгоритму
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_module_get_supported_key_sizes**(string `$algorithm`, string
-`$lib_dir` = ?): array
+```methodsynopsis
+mcrypt_module_get_supported_key_sizes(string $algorithm, string $lib_dir = ?): array
+```
 
-Повертає список підтримуваних розмірів ключів для відкритого
-алгоритму. Якщо повернутий порожній масив, то підтримується будь-яка
-довжина ключа від 1 до значення, що повертається
-[mcrypt_module_get_algo_key_size()](function.mcrypt-module-get-algo-key-size.md).
+Повертає список розмірів ключів, що підтримуються, для відкритого алгоритму. Якщо повернутий порожній масив, то підтримується будь-яка довжина ключа від 1 до значення, що повертається. [mcrypt\_module\_get\_algo\_key\_size()](function.mcrypt-module-get-algo-key-size.html)
 
 ### Список параметрів
 
 `algorithm`
+
 Використовуваний алгоритм.
 
 `lib_dir`
-Опціональний параметр `lib_dir`, в якому можна вказати директорію,
-містить модуль алгоритму.
+
+Опціональний параметр `lib_dir`, В якому можна вказати директорію, що містить модуль алгоритму.
 
 ### Значення, що повертаються
 
-Повертає список підтримуваних розмірів ключів для відкритого
-алгоритму. Якщо повернутий порожній масив, то підтримується будь-яка
-довжина ключа від 1 до значення, що повертається
-[mcrypt_module_get_algo_key_size()](function.mcrypt-module-get-algo-key-size.md).
+Повертає список розмірів ключів, що підтримуються, для відкритого алгоритму. Якщо повернутий порожній масив, то підтримується будь-яка довжина ключа від 1 до значення, що повертається. [mcrypt\_module\_get\_algo\_key\_size()](function.mcrypt-module-get-algo-key-size.html)
 
 ### Дивіться також
 
-- [mcrypt_enc_get_supported_key_sizes()](function.mcrypt-enc-get-supported-key-sizes.md) -
-Повертає масив із допустимими розмірами ключа для використовуваного
-алгоритму
+-   [mcrypt\_enc\_get\_supported\_key\_sizes()](function.mcrypt-enc-get-supported-key-sizes.html) - Повертає масив з допустимими розмірами ключа для алгоритму

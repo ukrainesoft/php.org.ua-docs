@@ -1,19 +1,27 @@
-- [« ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md)
-- [ReflectionFunctionAbstract::getNamespaceName »](reflectionfunctionabstract.getnamespacename.md)
+Отримує ім'я функції
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує ім'я функції
+-   [« ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.html)
+    
+-   [ReflectionFunctionAbstract::getNamespaceName »](reflectionfunctionabstract.getnamespacename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Отримує ім'я функції
+    
 
 # ReflectionFunctionAbstract::getName
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getName — Отримує ім'я функції
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getName**(): string
+```methodsynopsis
+public ReflectionFunctionAbstract::getName(): string
+```
 
 Отримання імені функції.
 
@@ -23,11 +31,9 @@ public **ReflectionFunctionAbstract::getName**(): string
 
 ### Значення, що повертаються
 
-Назва функції.
+Ім'я функції.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.md) -
-Отримання імені модуля
-- [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) -
-Перевіряє, чи функція є певною користувачем
+-   [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.html) - Отримання імені модуля
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.html) - Перевіряє, чи функція є певною користувачем

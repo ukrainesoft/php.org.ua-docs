@@ -1,26 +1,31 @@
-- [« RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md)
-- [RecursiveCallbackFilterIterator »](class.recursivecallbackfilteriterator.md)
+Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
 
-- [PHP Manual](index.md)
-- [RecursiveCachingIterator](class.recursivecachingiterator.md)
-- Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні
-елементи
+-   [« RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.html)
+    
+-   [RecursiveCallbackFilterIterator »](class.recursivecallbackfilteriterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveCachingIterator](class.recursivecachingiterator.html)
+    
+-   Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
+    
 
 # RecursiveCachingIterator::hasChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveCachingIterator::hasChildren — Перевіряє, чи поточний
-елемент внутрішнього ітератора дочірні елементи
+RecursiveCachingIterator::hasChildren — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
 
 ### Опис
 
-public **RecursiveCachingIterator::hasChildren**(): bool
+```methodsynopsis
+public RecursiveCachingIterator::hasChildren(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,5 +33,4 @@ public **RecursiveCachingIterator::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо внутрішній ітератор має дочірні елементи; в
-інакше - **`false`**
+**`true`**якщо внутрішній ітератор має дочірні елементи; в іншому випадку - **`false`**

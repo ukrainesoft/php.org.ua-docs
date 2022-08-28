@@ -1,32 +1,38 @@
-- [« Ds\Sequence::sum](ds-sequence.sum.md)
-- [Вектор »](class.ds-vector.md)
+Додає значення на початок послідовності
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Додає значення на початок послідовності
+-   [« Ds\\Sequence::sum](ds-sequence.sum.html)
+    
+-   [Вектор »](class.ds-vector.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Последовательность](class.ds-sequence.html)
+    
+-   Додає значення на початок послідовності
+    
 
-# Ds\Sequence::unshift
+# ДсSequence::unshift
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Sequence::unshift — Додає значення на початок послідовності
+ДсSequence::unshift — Додає значення на початок послідовності
 
 ### Опис
 
-abstract public
-**Ds\Sequence::unshift**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values = ?): void
+```methodsynopsis
+abstract public Ds\Sequence::unshift(mixed $values = ?): void
+```
 
-Додає значення на початок послідовності, переміщуючи всі поточні
-значення вперед, щоб звільнити місце для нових значень.
+Додає значення на початок послідовності, переміщуючи всі поточні значення вперед, щоб звільнити місце для нових значень.
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Багато значень додаються в тому порядку, як вони були передані.
 
 ### Значення, що повертаються
@@ -35,18 +41,29 @@ $values = ?): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::unshift()****
+**Приклад #1 Приклад використання **ДсSequence::unshift()****
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3]);$sequence->unshift("a");$sequence->unshift("b", "c");print_r( $ sequence);?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+
+$sequence->unshift("a");
+$sequence->unshift("b", "c");
+
+print_r($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => b
-[1] => c
-[2] => a
-[3] => 1
-[4] => 2
-[5] => 3
+    [0] => b
+    [1] => c
+    [2] => a
+    [3] => 1
+    [4] => 2
+    [5] => 3
 )
+```

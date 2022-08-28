@@ -1,19 +1,25 @@
-- [« Session::commit](mysql-xdevapi-session.commit.md)
-- [Session::createSchema »](mysql-xdevapi-session.createschema.md)
+Опис конструктора
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Опис конструктора
+-   [« Session::commit](mysql-xdevapi-session.commit.html)
+    
+-   [Session::createSchema »](mysql-xdevapi-session.createschema.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Опис конструктора
+    
 
-# Session::\_\_construct
+# Session::construct
 
 (No version information available, might only be in Git)
 
-Session::\_\_construct — Опис конструктора
+Session::construct — Опис конструктора
 
 ### Опис
 
-private **mysql_xdevapi\Session::\_\_construct**()
+private **mysqlxdevapiSession::construct**
 
 Об'єкт Session, ініційований getSession().
 
@@ -23,7 +29,11 @@ private **mysql_xdevapi\Session::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::construct()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->close();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->close();
+?>
+```

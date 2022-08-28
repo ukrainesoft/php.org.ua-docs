@@ -1,20 +1,25 @@
-- [«IMAP\Connection](class.imap-connection.md)
-- [Вступ »](intro.mail.md)
+Mail
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з поштою](refs.remote.mail.md)
-- Mail
+-   [« IMAP\\Connection](class.imap-connection.html)
+    
+-   [Введение »](intro.mail.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с почтой](refs.remote.mail.html)
+    
+-   Mail
+    
 
-#Mail
+# Mail
 
-- [Вступ](intro.mail.md)
-- [Встановлення та налаштування](mail.setup.md)
-- [Вимоги](mail.requirements.md)
-- [Установка](mail.installation.md)
-- [Налаштування під час виконання](mail.configuration.md)
-- [Типи ресурсів](mail.resources.md)
-- [Предвизначені константи](mail.constants.md)
-- [Пошта](ref.mail.md)
-- [ezmlm_hash](function.ezmlm-hash.md) - обчислює хеш-суму,
-необхідну для EZMLM
-- [mail](function.mail.md) — Надсилає електронну пошту
+-   [Введение](intro.mail.html)
+-   [Установка и настройка](mail.setup.html)
+    -   [Требования](mail.requirements.html)
+    -   [Установка](mail.installation.html)
+    -   [Настройка во время выполнения](mail.configuration.html)
+    -   [Типы ресурсов](mail.resources.html)
+-   [Предопределённые константы](mail.constants.html)
+-   [Почта](ref.mail.html)
+    -   [ezmlm\_hash](function.ezmlm-hash.html) — Обчислює хеш-суму, необхідну для EZMLM
+    -   [mail](function.mail.html) — Надсилає електронну пошту

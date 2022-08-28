@@ -1,24 +1,29 @@
-- [« RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.md)
-- [RecursiveDirectoryIterator »](class.recursivedirectoryiterator.md)
+Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
 
-- [PHP Manual](index.md)
-- [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md)
-- Перевіряє, чи містить поточний елемент внутрішнього ітератора
-дочірні елементи
+-   [« RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.html)
+    
+-   [RecursiveDirectoryIterator »](class.recursivedirectoryiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html)
+    
+-   Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
+    
 
 # RecursiveCallbackFilterIterator::hasChildren
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-RecursiveCallbackFilterIterator::hasChildren — Перевіряє, чи міститься
-поточний елемент внутрішнього ітератора дочірні елементи
+RecursiveCallbackFilterIterator::hasChildren — Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
 
 ### Опис
 
-public **RecursiveCallbackFilterIterator::hasChildren**(): bool
+```methodsynopsis
+public RecursiveCallbackFilterIterator::hasChildren(): bool
+```
 
-Повертає **`true`**, якщо поточний елемент має дочірні елементи та
-**`false`**, якщо ні.
+Повертає **`true`**, якщо поточний елемент має дочірні елементи і **`false`**, якщо ні.
 
 ### Список параметрів
 
@@ -26,22 +31,35 @@ public **RecursiveCallbackFilterIterator::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо поточний елемент має дочірні елементи та
-**`false`**, якщо ні.
+Повертає **`true`**, якщо поточний елемент має дочірні елементи і **`false`**, якщо ні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**RecursiveCallbackFilterIterator::hasChildren()****
+**Приклад #1 Приклад використання **RecursiveCallbackFilterIterator::hasChildren()****
 
-`<?php$dir = new RecursiveDirectoryIterator(__DIR__);// Рекурсивний обхід XML файлів$files = new RecursiveCallbackFilterIterator($dir, function ($current, $                      | hasChildren()) {        return TRUE;    }    // отбор XML файлов    if (!strcasecmp($current->getExtension(), 'xml')) {        return TRUE;    }    return FALSE;});?> `
+```php
+<?php
+
+$dir = new RecursiveDirectoryIterator(__DIR__);
+
+// Рекурсивный обход XML файлов
+$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
+    // просматривать директории
+    if ($iterator->hasChildren()) {
+        return TRUE;
+    }
+    // отбор XML файлов
+    if (!strcasecmp($current->getExtension(), 'xml')) {
+        return TRUE;
+    }
+    return FALSE;
+});
+
+?>
+```
 
 ### Дивіться також
 
-- [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
-- [RecursiveCallbackFilterIterator::\_\_construct()](recursivecallbackfilteriterator.construct.md) -
-Створює об'єкт класу RecursiveCallbackFilterIterator на основі
-об'єкту RecursiveIterator
-- [RecursiveCallbackFilteriterator::getChildren()](recursivecallbackfilteriterator.getchildren.md) -
-Повертає дочірні елементи ітератора, що зберігається всередині
-RecursiveCallbackFilterIterator
+-   [Примеры использования RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
+-   [RecursiveCallbackFilterIterator::\_\_construct()](recursivecallbackfilteriterator.construct.html) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilteriterator::getChildren()](recursivecallbackfilteriterator.getchildren.html) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator

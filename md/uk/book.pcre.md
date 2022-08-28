@@ -1,50 +1,39 @@
-- [« Parle\ParserException](class.parle-parserexception.md)
-- [Вступ »](intro.pcre.md)
+Функції для роботи з регулярними виразами (Perl-сумісні)
 
-- [PHP Manual](index.md)
-- [Обробка тексту](refs.basic.text.md)
-- Функції для роботи з регулярними виразами (Perl-сумісні)
+-   [« Parle\\ParserException](class.parle-parserexception.html)
+    
+-   [Введение »](intro.pcre.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обработка текста](refs.basic.text.html)
+    
+-   Функції для роботи з регулярними виразами (Perl-сумісні)
+    
 
-# Функції для регулярних виразів (Perl-сумісні)
+# Функції для роботи з регулярними виразами (Perl-сумісні)
 
-- [Вступ](intro.pcre.md)
-- [Встановлення та налаштування](pcre.setup.md)
-- [Вимоги](pcre.requirements.md)
-- [Установка](pcre.installation.md)
-- [Налаштування під час виконання](pcre.configuration.md)
-- [Типи ресурсів](pcre.resources.md)
-- [Предвизначені константи](pcre.constants.md)
-- [Приклади](pcre.examples.md)
-- [Регулярні висловлювання PCRE](pcre.pattern.md)
-- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md) - Синтаксис
-регулярних виразів
-- [Описує можливі модифікатори шаблонів Perl-сумісних
-регулярних виразів
-(PCRE)](reference.pcre.pattern.modifiers.md) — Модифікатори
-шаблонів
-- [Відмінності від Perl](reference.pcre.pattern.differences.md)
-- [Функції PCRE](ref.pcre.md)
-- [preg_filter](function.preg-filter.md) — Пошук та пошук
-заміну за регулярним виразом
-- [preg_grep](function.preg-grep.md) - Повертає масив
-входжень, які відповідають шаблону
-- [preg_last_error_msg](function.preg-last-error-msg.md) -
-Повертає повідомлення про помилку останньої запущеної функції PCRE
-- [preg_last_error](function.preg-last-error.md) - Повертає
-код помилки виконання останнього регулярного вираження PCRE
-- [preg_match_all](function.preg-match-all.md) — Виконує
-глобальний пошук шаблону в рядку
-- [preg_match](function.preg-match.md) — Виконує перевірку на
-відповідність регулярному виразу
-- [preg_quote](function.preg-quote.md) - Екранує символи в
-регулярних виразах
-- [preg_replace_callback_array](function.preg-replace-callback-array.md)
-— Виконує пошук та заміну за регулярним виразом з
-використанням функцій зворотного виклику
-- [preg_replace_callback](function.preg-replace-callback.md) -
-Виконує пошук за регулярним виразом та заміною з
-використанням callback-функції
-- [preg_replace](function.preg-replace.md) — Пошук та пошук
-заміну за регулярним виразом
-- [preg_split](function.preg-split.md) — Розбиває рядок по
-регулярному виразу
+-   [Введение](intro.pcre.html)
+-   [Установка и настройка](pcre.setup.html)
+    -   [Требования](pcre.requirements.html)
+    -   [Установка](pcre.installation.html)
+    -   [Настройка во время выполнения](pcre.configuration.html)
+    -   [Типы ресурсов](pcre.resources.html)
+-   [Предопределённые константы](pcre.constants.html)
+-   [Примеры](pcre.examples.html)
+-   [Регулярные выражения PCRE](pcre.pattern.html)
+    -   [Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html) - Синтаксис регулярних виразів
+    -   [Описывает возможные модификаторы шаблонов Perl-совместимых регулярных выражений (PCRE)](reference.pcre.pattern.modifiers.html) — Модифікатори шаблонів
+    -   [Отличия от Perl](reference.pcre.pattern.differences.html)
+-   [Функции PCRE](ref.pcre.html)
+    -   [preg\_filter](function.preg-filter.html) — Здійснює пошук та заміну за регулярним виразом
+    -   [preg\_grep](function.preg-grep.html) — Повертає масив входжень, які відповідають шаблону
+    -   [preg\_last\_error\_msg](function.preg-last-error-msg.html) — Повертає повідомлення про помилку останньої запущеної функції PCRE
+    -   [preg\_last\_error](function.preg-last-error.html) — Повертає код помилки виконання останнього регулярного виразу PCRE
+    -   [preg\_match\_all](function.preg-match-all.html) — Виконує глобальний пошук шаблону у рядку
+    -   [preg\_match](function.preg-match.html) — Виконує перевірку на відповідність регулярному виразу
+    -   [preg\_quote](function.preg-quote.html) — Екранує символи у регулярних виразах
+    -   [preg\_replace\_callback\_array](function.preg-replace-callback-array.html) — Здійснює пошук та заміну за регулярним виразом за допомогою функцій зворотного дзвінка.
+    -   [preg\_replace\_callback](function.preg-replace-callback.html) — Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+    -   [preg\_replace](function.preg-replace.html) — Виконує пошук та заміну за регулярним виразом
+    -   [preg\_split](function.preg-split.html) — Розбиває рядок за регулярним виразом

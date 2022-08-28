@@ -1,84 +1,126 @@
-- [«imagetypes](function.imagetypes.md)
-- [imagewebp»](function.imagewebp.md)
+Виводить зображення у браузер або пише у файл
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Виводить зображення у браузер або пише у файл
+-   [« imagetypes](function.imagetypes.html)
+    
+-   [imagewebp »](function.imagewebp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Виводить зображення у браузер або пише у файл
+    
 
-#imagewbmp
+# imagewbmp
 
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
-imagewbmp — Виводить зображення до браузера або пише файл
+imagewbmp — Виводить зображення до браузера або пише у файл
 
 ### Опис
 
-**imagewbmp**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` = **`null`**, ?int `$foreground_color` =
-**`null`**): bool
+```methodsynopsis
+imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_color = null): bool
+```
 
-**imagewbmp()** виводить або зберігає у форматі WBMP задане
-зображення `image`.
+**imagewbmp()** виводить або зберігає у форматі WBMP задане зображення `image`
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `file`
-Шлях, або відкритий потоковий ресурс (який автоматично закривається
-після завершення функції), щоб зберегти файл. Якщо не встановлено або
-дорівнює **`null`**, зображення буде виведено в потік виведення у бінарному
-вигляді.
+
+Шлях, або відкритий потоковий ресурс (який автоматично закривається після завершення функції) для збереження файлу. Якщо не встановлено або дорівнює **`null`**, зображення буде виведено у потік виведення у бінарному вигляді.
 
 `foreground_color`
-Можна встановити колір верхнього шару. Колір задається ідентифікатором,
-створеним функцією
-[imagecolorallocate()](function.imagecolorallocate.md). За замовчуванням
-колір чорний.
+
+Можна встановити колір верхнього шару. Колір задається ідентифікатором, створеним функцією [imagecolorallocate()](function.imagecolorallocate.html). За промовчанням колір чорний.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 **Застереження**
 
-Однак, якщо libgd не може вивести зображення, ця функція поверне
-**`true`**.
+Однак, якщо libgd не може вивести зображення, ця функція поверне **`true`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-| 8.0.0  | foreground_color тепер припускає значення null.                                              |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `foreground_color` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Висновок WBMP зображення**
 
-`<?php// створення пустого зображення і додавання тексту$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); $$  текстовий рядок, $text_color);// Тип типу, в даному випадку image/vnd.wap.wbmp // Підказка: дивіться Висновок зображенняimagewbmp($im);// Звільнення пам'ятіimagedestroy($im);?> `
+```php
+<?php
+// создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+
+// Тип содержимого, в данном случае image/vnd.wap.wbmp
+// Подсказка: смотрите image_type_to_mime_type()
+header('Content-Type: image/vnd.wap.wbmp');
+
+// Вывод изображения
+imagewbmp($im);
+
+// Освобождение памяти
+imagedestroy($im);
+?>
+```
 
 **Приклад #2 Збереження WBMP зображення**
 
-`<?php// створення пустого зображення і додавання тексту$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); $$  текстова рядок', $text_color);// Збереження зображенняimagewbmp($im, 'simpletext.wbmp');// Звільнення пам'ятіimagedestroy($im);?> `
+```php
+<?php
+// создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+
+// Сохранение изображения
+imagewbmp($im, 'simpletext.wbmp');
+
+// Освобождение памяти
+imagedestroy($im);
+?>
+```
 
 **Приклад #3 Виведення зображення зі зміненим верхнім шаром**
 
-`<?php// створення пустого зображення і додавання тексту$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); $$  текстовий рядок, $text_color);// Тип типу, в даному випадку image/vnd.wap.wbmp // Підказка: дивіться заміна кольору$foreground_color = imagecolorallocate($im, 255, 0, 0);imagewbmp($im, NULL, $foreground_color);// Звільнення пам'ятіimagedestroy($im);?> `
+```php
+<?php
+// создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+
+// Тип содержимого, в данном случае image/vnd.wap.wbmp
+// Подсказка: смотрите image_type_to_mime_type()
+header('Content-Type: image/vnd.wap.wbmp');
+
+// замена цвета
+$foreground_color = imagecolorallocate($im, 255, 0, 0);
+
+imagewbmp($im, NULL, $foreground_color);
+
+// Освобождение памяти
+imagedestroy($im);
+?>
+```
 
 ### Дивіться також
 
-- [image2wbmp()](function.image2wbmp.md) - Виводить зображення у
-браузер або пише у файл
-- [imagepng()](function.imagepng.md) - Виведення PNG зображення в
-браузер або файл
-- [imagegif()](function.imagegif.md) - Виводить зображення до браузера
-або пише у файл
-- [imagejpeg()](function.imagejpeg.md) - Виводить зображення на
-браузер або пише у файл
-- [imagetypes()](function.imagetypes.md) - Повертає список типів
-зображень, підтримуваних PHP збиранням
+-   [image2wbmp()](function.image2wbmp.html) - Виводить зображення у браузер або пише у файл
+-   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
+-   [imagegif()](function.imagegif.html) - Виводить зображення у браузер або пише у файл
+-   [imagejpeg()](function.imagejpeg.html) - Виводить зображення у браузер або пише у файл
+-   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка

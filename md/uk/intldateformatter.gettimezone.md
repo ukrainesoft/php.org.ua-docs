@@ -1,39 +1,39 @@
-- [« IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.md)
-- [IntlDateFormatter::isLenient »](intldateformatter.islenient.md)
+Отримує часовий пояс засобу форматування
 
-- [PHP Manual](index.md)
-- [IntlDateFormatter](class.intldateformatter.md)
-- Отримує часовий пояс засобу форматування
+-   [« IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.html)
+    
+-   [IntlDateFormatter::isLenient »](intldateformatter.islenient.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlDateFormatter](class.intldateformatter.html)
+    
+-   Отримує часовий пояс засобу форматування
+    
 
 # IntlDateFormatter::getTimeZone
 
-#datefmt_get_timezone
+# datefmtgettimezone
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL intl >= 3.0.0)
 
-IntlDateFormatter::getTimeZone -- datefmt_get_timezone — Отримує
-часовий пояс засобу форматування
+IntlDateFormatter::getTimeZone -- datefmtgettimezone — Отримує часовий пояс засобу форматування
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlDateFormatter::getTimeZone**():
-[IntlTimeZone](class.intltimezone.md)\|false
+```methodsynopsis
+public IntlDateFormatter::getTimeZone(): IntlTimeZone|false
+```
 
 Процедурний стиль
 
-**datefmt_get_timezone**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`): [IntlTimeZone](class.intltimezone.md)\|false
+```methodsynopsis
+datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
+```
 
-Повертає об'єкт [IntlTimeZone](class.intltimezone.md),
-представляє часовий пояс, який використовуватиметься цим об'єктом
-для форматування дати та часу. При форматуванні об'єктів
-[IntlCalendar](class.intlcalendar.md) та
-[DateTime](class.datetime.md) за допомогою цього
-[IntlDateFormatter](class.intldateformatter.md), використовуваний вартовий
-пояс буде той, що повертається цим методом, а не той, що
-пов'язаний з об'єктами, що форматуються.
+Повертає об'єкт [IntlTimeZone](class.intltimezone.html), що представляє часовий пояс, який використовуватиметься цим об'єктом для форматування дати та часу. При форматуванні об'єктів [IntlCalendar](class.intlcalendar.html) і [DateTime](class.datetime.html) За допомогою цього [IntlDateFormatter](class.intldateformatter.html), використовуваний часовий пояс буде той, який повертається цим методом, а не той, який пов'язаний з об'єктами, що форматуються.
 
 ### Список параметрів
 
@@ -41,39 +41,46 @@ public **IntlDateFormatter::getTimeZone**():
 
 ### Значення, що повертаються
 
-Пов'язаний об'єкт [IntlTimeZone](class.intltimezone.md) або **`false`**
-у разі виникнення помилки.
+Пов'язаний об'єкт [IntlTimeZone](class.intltimezone.html) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlDateFormatter::getTimeZone()****
 
-` <?php$madrid = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Madrid');$lisbon = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Lisbon'); ->getTimezone());echo$madrid->getTimezone()->getDisplayName(        false, IntlTimeZone::DISPLAY_GENERIC_LOCATION, "en_US"), "
-";echo $lisbon->getTimeZone()->getId(), "
-";//Ідентифікатор також можна отримати з допомогою ->getTimezoneId()echo $lisbon->getTimeZoneId(), "
-";
+```php
+<?php
+
+$madrid = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Madrid');
+$lisbon = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Lisbon');
+
+var_dump($madrid->getTimezone());
+echo $madrid->getTimezone()->getDisplayName(
+        false, IntlTimeZone::DISPLAY_GENERIC_LOCATION, "en_US"), "\n";
+echo $lisbon->getTimeZone()->getId(), "\n";
+//Идентификатор также можно получить с помощью ->getTimezoneId()
+echo $lisbon->getTimeZoneId(), "\n";
+```
 
 Результат виконання цього прикладу:
 
+```
 object(IntlTimeZone)#4 (4) {
-["valid"]=>
-bool(true)
-["id"]=>
-string(13) "Europe/Madrid"
-["rawOffset"]=>
-int(3600000)
-["currentOffset"]=>
-int(7200000)
+  ["valid"]=>
+  bool(true)
+  ["id"]=>
+  string(13) "Europe/Madrid"
+  ["rawOffset"]=>
+  int(3600000)
+  ["currentOffset"]=>
+  int(7200000)
 }
 Spain Time
 Europe/Lisbon
 Europe/Lisbon
+```
 
 ### Дивіться також
 
-- [IntlDateFormatter::getTimeZoneId()](intldateformatter.gettimezoneid.md) -
-Отримує ідентифікатор часового поясу, який використовується
-IntlDateFormatter
-- [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md) -
-Встановлює часовий пояс засобу форматування
-- [IntlTimeZone](class.intltimezone.md)
+-   [IntlDateFormatter::getTimeZoneId()](intldateformatter.gettimezoneid.html) - Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
+-   [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.html) - Встановлює часовий пояс засобу форматування
+-   [IntlTimeZone](class.intltimezone.html)

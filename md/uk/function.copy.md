@@ -1,9 +1,15 @@
-- [«clearstatcache](function.clearstatcache.md)
-- [delete »](function.delete.md)
+Копіює файл
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Копіює файл
+-   [« clearstatcache](function.clearstatcache.html)
+    
+-   [delete »](function.delete.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции файловой системы](ref.filesystem.html)
+    
+-   Копіює файл
+    
 
 # copy
 
@@ -13,47 +19,53 @@ copy — Копіює файл
 
 ### Опис
 
-**copy**(string `$from`, string `$to`, ?resource `$context` =
-**`null`**): bool
+```methodsynopsis
+copy(string $from, string $to, ?resource $context = null): bool
+```
 
-Копіює файл `from` у файл з ім'ям `to`.
+Копіює файл `from` у файл з ім'ям `to`
 
-Якщо потрібно перейменувати файл, використовуйте функцію
-[rename()](function.rename.md).
+Якщо потрібно перейменувати файл, використовуйте функцію [rename()](function.rename.html)
 
 ### Список параметрів
 
 `from`
+
 Шлях до вихідного файлу.
 
 `to`
-Дорога до цільового файлу. Якщо `to` є URL, то операція копіювання
-може завершитися помилкою, якщо обгортка URL не підтримує
-перезаписування наявних файлів.
+
+Шлях до цільового файлу. Якщо `to` є URL, то копіювання може завершитися помилкою, якщо обгортка URL не підтримує перезаписування існуючих файлів.
 
 **Увага**
+
 Якщо цільовий файл вже існує, він буде перезаписаний.
 
 `context`
-Коректний ресурс контексту, створений функцією
-[stream_context_create()](function.stream-context-create.md).
+
+Коректний ресурс контексту, створений функцією [stream\_context\_create()](function.stream-context-create.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання функції **copy()****
 
-` <?php$file = 'example.txt';$newfile = 'example.txt.bak';if (!copy($file, $newfile)) {   echo "не удалося скопіювати $file...
-";}?> `
+```php
+<?php
+$file = 'example.txt';
+$newfile = 'example.txt.bak';
+
+if (!copy($file, $newfile)) {
+    echo "не удалось скопировать $file...\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [move_uploaded_file()](function.move-uploaded-file.md) -
-Переміщує завантажений файл у нове місце
-- [rename()](function.rename.md) - Перейменовує файл або
-директорію
-- Розділ керівництва "[Завантаження файлів](features.file-upload.md)"
+-   [move\_uploaded\_file()](function.move-uploaded-file.html) - Переміщує завантажений файл у нове місце
+-   [rename()](function.rename.html) - Перейменовує файл або директорію
+-   Розділ керівництва[Загрузка файлов](features.file-upload.html)"

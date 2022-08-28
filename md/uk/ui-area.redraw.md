@@ -1,19 +1,27 @@
-- [«UI\Area::onMouse](ui-area.onmouse.md)
-- [UI\Area::scrollTo »](ui-area.scrollto.md)
+Перемалювати область
 
-- [PHP Manual](index.md)
-- [UI\Area](class.ui-area.md)
-- Перемалювати область
+-   [« UI\\Area::onMouse](ui-area.onmouse.html)
+    
+-   [UI\\Area::scrollTo »](ui-area.scrollto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Area](class.ui-area.html)
+    
+-   Перемалювати область
+    
 
-# UI\Area::redraw
+# ОЙArea::redraw
 
 (UI 0.9.9)
 
-UI\Area::redraw — Перемальовувати область
+ОЙArea::redraw — Перемалювати область
 
 ### Опис
 
-public **UI\Area::redraw**()
+```methodsynopsis
+public UI\Area::redraw()
+```
 
 Запитує, щоб ця область була перемальована
 

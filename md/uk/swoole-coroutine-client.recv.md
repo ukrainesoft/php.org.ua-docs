@@ -1,24 +1,31 @@
-- [« Swoole\Coroutine\Client::isConnected](swoole-coroutine-client.isconnected.md)
-- [Swoole\Coroutine\Client::send »](swoole-coroutine-client.send.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+-   [« Swoole\\Coroutine\\Client::isConnected](swoole-coroutine-client.isconnected.html)
+    
+-   [Swoole\\Coroutine\\Client::send »](swoole-coroutine-client.send.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Опис
+    
 
-# Swoole\Coroutine\Client::recv
+# SwooleCoroutineClient::recv
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine\Client::recv — Опис
+SwooleCoroutineClient::recv — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Client::recv**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Client::recv(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

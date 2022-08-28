@@ -1,26 +1,33 @@
-- [« ImagickDraw::composite](imagickdraw.composite.md)
-- [ImagickDraw::destroy »](imagickdraw.destroy.md)
+Конструктор класу ImagickDraw
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Конструктор класу ImagickDraw
+-   [« ImagickDraw::composite](imagickdraw.composite.html)
+    
+-   [ImagickDraw::destroy »](imagickdraw.destroy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Конструктор класу ImagickDraw
+    
 
-# ImagickDraw::\_\_construct
+# ImagickDraw::construct
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::\_\_construct - Конструктор класу ImagickDraw
+ImagickDraw::construct - Конструктор класу ImagickDraw
 
 ### Опис
 
-public **ImagickDraw::\_\_construct**()
+```methodsynopsis
+public ImagickDraw::__construct()
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Конструктор класу [ImagickDraw](class.imagickdraw.md).
+Конструктор класу [ImagickDraw](class.imagickdraw.html)
 
 ### Значення, що повертаються
 

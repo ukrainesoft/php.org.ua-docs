@@ -1,54 +1,71 @@
-- [«Collator::create](collator.create.md)
-- [Collator::getErrorCode »](collator.geterrorcode.md)
+Отримує значення атрибуту зіставлення
 
-- [PHP Manual](index.md)
-- [Collator](class.collator.md)
-- Отримує значення атрибуту зіставлення
+-   [« Collator::create](collator.create.html)
+    
+-   [Collator::getErrorCode »](collator.geterrorcode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Collator](class.collator.html)
+    
+-   Отримує значення атрибуту зіставлення
+    
 
 # Collator::getAttribute
 
-#collator_get_attribute
+# collatorgetattribute
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::getAttribute -- collator_get_attribute — Отримує значення
-атрибуту зіставлення
+Collator::getAttribute -- collatorgetattribute — Отримує значення атрибуту зіставлення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **Collator::getAttribute**(int `$attribute`): int\|false
+```methodsynopsis
+public Collator::getAttribute(int $attribute): int|false
+```
 
 Процедурний стиль
 
-**collator_get_attribute**([Collator](class.collator.md) `$object`,
-int `$attribute`): int\|false
+```methodsynopsis
+collator_get_attribute(Collator $object, int $attribute): int|false
+```
 
 Отримує значення цілісного атрибуту зіставника.
 
 ### Список параметрів
 
 `object`
-Об'єкт [Collator](class.collator.md).
+
+Об'єкт [Collator](class.collator.html)
 
 `attribute`
-Атрибут, для якого потрібно отримати значення.
+
+Атрибут, котрому потрібно отримати значення.
 
 ### Значення, що повертаються
 
-Значення атрибуту або **false** у разі виникнення помилки.
+Значення атрибуту або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collator_get_attribute()****
+**Приклад #1 Приклад використання **collatorgetattribute()****
 
-`<?php$coll = collator_create( 'en_CA' );$val = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );if( $val ====false ){     |
+```php
+<?php
+$coll = collator_create( 'en_CA' );
+$val = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );
+if( $val === false )
+{
+    // Обработка ошибки
+}
+?>
+```
 
 ### Дивіться також
 
-- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
-- [collator_set_attribute()](collator.setattribute.md) -
-Встановлює атрибут зіставлення
-- [collator_get_strength()](collator.getstrength.md) - Отримує
-поточну силу зіставлення
+-   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
+-   [collator\_set\_attribute()](collator.setattribute.html) - Встановлює атрибут зіставлення
+-   [collator\_get\_strength()](collator.getstrength.html) - набуває поточної сили зіставлення

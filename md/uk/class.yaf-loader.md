@@ -1,260 +1,185 @@
-- [« Yaf_View_Simple::setScriptPath](yaf-view-simple.setscriptpath.md)
-- [Yaf_Loader::autoload »](yaf-loader.autoload.md)
+Клас YafLoader
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Loader
+-   [« Yaf\_View\_Simple::setScriptPath](yaf-view-simple.setscriptpath.html)
+    
+-   [Yaf\_Loader::autoload »](yaf-loader.autoload.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafLoader
+    
 
-# Клас Yaf_Loader
+# Клас YafLoader
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-**Yaf_Loader** представляє комплексне рішення для автозавантаження
-Yaf.
+**YafLoader** представляє комплексне рішення для автозавантаження Yaf.
 
-При першому вилученні екземпляра
-[Yaf_Application](class.yaf-application.md), **Yaf_Loader** створює
-екземпляр-одиначок і реєструється за допомогою spl_autoload. Ви
-витягуєте екземпляр, використовуючи
-[Yaf_Loader::getInstance()](yaf-loader.getinstance.md)
+При першому вилученні екземпляра [Yaf\_Application](class.yaf-application.html) **YafLoader** створює екземпляр-одиначок і реєструється за допомогою splautoload. Ви отримуєте екземпляр, використовуючи [Yaf\_Loader::getInstance()](yaf-loader.getinstance.html)
 
-**Yaf_Loader** спробує завантажити клас лише один раз, у разі
-виникнення помилки, залежить від
-[yaf.use_spl_auload](yaf.configuration.md#ini.yaf.use-spl-autoload),
-якщо ця конфігурація увімкнена
-[Yaf_Loader::autoload()](yaf-loader.autoload.md) поверне **`false`**,
-таким чином, надаючи можливість іншої функції автозавантаження. Якщо
-вимкнена (за замовчуванням),
-[Yaf_Loader::autoload()](yaf-loader.autoload.md) поверне **`true`**, а
-також спрацює дуже корисне попередження (корисно, щоб з'ясувати,
-чому клас може бути завантажений).
+**YafLoader** спробує завантажити клас лише один раз, у разі виникнення помилки, залежить від [yaf.use\_spl\_auload](yaf.configuration.html#ini.yaf.use-spl-autoload)якщо ця конфігурація включена [Yaf\_Loader::autoload()](yaf-loader.autoload.html) поверне **`false`**, таким чином надаючи можливість іншої функції автозавантаження. Якщо вимкнено (за замовчуванням), [Yaf\_Loader::autoload()](yaf-loader.autoload.html) поверне **`true`**, а також спрацює дуже корисне попередження (корисно з'ясувати, чому клас не може бути завантажений).
 
-> **Примітка**:
->
-> Будь ласка, залиште yaf.use_spl_autoload вимкненим, якщо в якійсь
-> бібліотеці немає власного механізму автозавантаження та його неможливо
-> переписати.
+> **Зауваження**
+> 
+> Будь ласка, залиште yaf.usesplautoload вимкненим, якщо в бібліотеці немає власного механізму автозавантаження і його неможливо переписати.
 
-За замовчуванням **Yaf_Loader** припускає, що вся бібліотека (сценарій,
-визначений класом) зберігається в [каталозі глобальної бібліотеки](yaf.configuration.md#ini.yaf.library), який визначено в
-php.ini (yaf.library).
+За замовчуванням **YafLoader** припускає, що вся бібліотека (сценарій, визначений класом) зберігається в [каталоге глобальной библиотеки](yaf.configuration.html#ini.yaf.library), який визначено у php.ini (yaf.library).
 
-Якщо ви хочете за допомогою **Yaf_Loader** виконати пошук деяких
-класів (бібліотек) у [каталозі локальних класів](class.yaf-loader.md#yaf-loader.props.library) (який
-визначено в application.ini, за замовчуванням це
-[application.directory](yaf.appconfig.md#configuration.yaf.directory).
-"/library"), ви повинні зареєструвати префікс класу, використовуючи
-[Yaf_Loader::registerLocalNameSpace()](yaf-loader.registerlocalnamespace.md)
+Якщо ви хочете за допомогою **YafLoader** виконати пошук деяких класів (бібліотек) у [каталоге локальных классов](class.yaf-loader.html#yaf-loader.props.library) (який визначений в application.ini, це за замовчуванням [application.directory](yaf.appconfig.html#configuration.yaf.directory). "/library"), ви повинні зареєструвати префікс класу, використовуючи [Yaf\_Loader::registerLocalNameSpace()](yaf-loader.registerlocalnamespace.html)
 
-Давайте подивимося кілька прикладів (за умови, що APPLICATION_PATH
-[application.directory](yaf.appconfig.md#configuration.yaf.directory)):
+Давайте подивимося кілька прикладів (за умови, що APPLICATIONPATH [application.directory](yaf.appconfig.html#configuration.yaf.directory)
 
 **Приклад #1 Приклад конфігурації**
 
-`` shellcode
-// Передбачаються наступні налаштування у php.ini:
-yaf.library = "/global_dir"
+// Передбачаються такі налаштування в php.ini: yaf.library = "/globaldir"
 
-/ / Передбачаються наступні налаштування в php.ini:
-application.library = APPLICATION_PATH "/library"
-````
+/ / Передбачаються наступні налаштування в php.ini: application.library = APPLICATIONPATH "/library"
 
-Передбачається, що зареєстровано такий локальний простір
-імен:
+Передбачається, що зареєстровано такий локальний простір імен:
 
 **Приклад #2 Зареєструвати локальний простір імен**
 
-` <?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{   | }?> `
+```php
+<?php
+class Bootstrap extends Yaf_Bootstrap_Abstract{
+     public function _initLoader($dispatcher) {
+          Yaf_Loader::getInstance()->registerLocalNameSpace(array("Foo", "Bar"));
+     }
+?>
+```
 
 Тоді приклад автозавантаження:
 
 **Приклад #3 Приклад завантаження класу**
 
-`` shellcode
-class Foo_Bar_Test =>
-// APPLICATION_PATH/library/Foo/Bar/Test.php
+class FooBarTest => // APPLICATIONPATH/library/Foo/Bar/Test.php
 
-class GLO_Name =>
-// /global_dir/Glo/Name.php
+class GLOName => ///globaldir/Glo/Name.php
 
-class BarNon_Test
-// /global_dir/Barnon/Test.php
-````
+class BarNonTest ///globaldir/Barnon/Test.php
 
 **Приклад #4 Приклад завантаження класу імен**
 
-`` shellcode
-class \Foo\Bar\Dummy =>
-// APPLICATION_PATH/library/Foo/Bar/Dummy.php
+class FooBarDummy => // APPLICATIONPATH/library/Foo/Bar/Dummy.php
 
-class \FooBar\Bar\Dummy =>
-// /global_dir/FooBar/Bar/Dummy.php
-````
+class FooBarBarDummy => ///globaldir/FooBar/Bar/Dummy.php
 
-Ви можете помітити, що всі папки з першою літерою великими, ви можете
-зробити їх малими, встановивши
-[yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path) = On в
-php.ini.
+Ви можете помітити, що всі папки з першою літерою заголовними, ви можете зробити їх малими, встановивши [yaf.lowcase\_path](yaf.configuration.html#ini.yaf.lowcase-path) = On у php.ini.
 
-**Yaf_Loader** також призначений для завантаження класів MVC, і правило
-таке:
+**YafLoader** також призначений для завантаження класів MVC, і правило таке:
 
 **Приклад #5 Приклад завантаження класу MVC**
 
-`` shellcode
-Controller Classes =>
-// APPLICATION_PATH/controllers/
+Controller Classes => // APPLICATIONPATH/controllers/
 
-Model Classes =>
-// APPLICATION_PATH/models/
+Model Classes => // APPLICATIONPATH/models/
 
-Plugin Classes =>
-// APPLICATION_PATH/plugins/
-````
+Plugin Classes => // APPLICATIONPATH/plugins/
 
-Yaf ідентифікує суфікс класу (це за замовчуванням, ви також можете
-змінити його на префікс, змінивши конфігурацію
-[yaf.name_suffix](yaf.configuration.md#ini.yaf.name-suffix)), щоб
-вирішити, чи є він класом MVC:
+Yaf ідентифікує суфікс класу (за умовчанням, ви також можете змінити його на префікс, змінивши конфігурацію [yaf.name\_suffix](yaf.configuration.html#ini.yaf.name-suffix)), щоб вирішити, чи є він класом MVC:
 
 **Приклад #6 Класові відмінності MVC**
 
-`` shellcode
-Controller Classes =>
-// ***Controller
+Controller Classes => // Controller
 
-Model Classes =>
-// ***Model
+Model Classes => // Model
 
-Plugin Classes =>
-// ***Plugin
-````
+Plugin Classes => // Plugin
 
 кілька прикладів:
 
 **Приклад #7 Приклад завантаження MVC**
 
-`` shellcode
-class IndexController
-// APPLICATION_PATH/controllers/Index.php
+class IndexController // APPLICATIONPATH/controllers/Index.php
 
-class DataModel =>
-// APPLICATION_PATH/models/Data.php
+class DataModel => // APPLICATIONPATH/models/Data.php
 
-class DummyPlugin =>
-// APPLICATION_PATH/plugins/Dummy.php
+class DummyPlugin => // APPLICATIONPATH/plugins/Dummy.php
 
-class A_B_TestModel =>
-// APPLICATION_PATH/models/A/B/Test.php
-````
+class AУTestModel => // APPLICATIONPATH/models/A/B/Test.php
 
-> **Примітка**:
->
-> Починаючи з 2.1.18, Yaf підтримує автозавантаження контролерів для
-> сторони скрипта користувача (що означає автозавантаження,
-> php, що запускається користувальницьким скриптом, наприклад: доступ до
-> статичні властивості контролера в Bootstrap або плагінах), але
-> автозавантажувач тільки намагається знайти скрипт класу контролера у папці
-> модуля за замовчуванням, що називається
-> "APPLICATION_PATH/controllers/".
+> **Зауваження**
+> 
+> Починаючи з 2.1.18, Yaf підтримує автозавантаження контролерів для сторони скрипта користувача (що означає автозавантаження, що запускається користувальницьким скриптом php, наприклад: доступ до статичної властивості контролера в Bootstrap або плагінах). , яка називається "APPLICATIONPATH/controllers/".
 
-також на каталог буде впливати
-[yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path).
+також на каталог буде впливати [yaf.lowcase\_path](yaf.configuration.html#ini.yaf.lowcase-path)
 
 ## Огляд класів
 
-class **Yaf_Loader** {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_local_ns`;
+    
+    
+     
+      class Yaf_Loader
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $_local_ns;
 
-protected `$_library`;
+    protected
+      $_library;
 
-protected `$_global_library`;
+    protected
+      $_global_library;
 
-static `$_instance`;
+    static
+      $_instance;
 
-/\* Методи \*/
 
-private [\_\_construct](yaf-loader.construct.md)()
 
-public [autoload](yaf-loader.autoload.md)(): void
+    /* Методы */
+    
+   private __construct()
 
-public [clearLocalNamespace](yaf-loader.clearlocalnamespace.md)():
-void
+    public autoload(): void
+public clearLocalNamespace(): void
+public static getInstance(): void
+public getLibraryPath(bool $is_global = false): Yaf_Loader
+public getLocalNamespace(): void
+public getNamespacePath(string $namespaces): string
+public getNamespaces(): array
+public static import(): void
+public isLocalName(): void
+public registerLocalNamespace(mixed $prefix): void
+public registerNamespace(string|array $namespaces, string $path = ?): bool
+public setLibraryPath(string $directory, bool $is_global = false): Yaf_Loader
 
-public static [getInstance](yaf-loader.getinstance.md)(): void
-
-public [getLibraryPath](yaf-loader.getlibrarypath.md)(bool
-`$is_global` = **`false`**): [Yaf_Loader](class.yaf-loader.md)
-
-public [getLocalNamespace](yaf-loader.getnamespaces.md)(): void
-
-public [getNamespacePath](yaf-loader.getnamespacepath.md)(string
-`$namespaces`): string
-
-public **getNamespaces**(): array
-
-public static [import](yaf-loader.import.md)(): void
-
-public [isLocalName](yaf-loader.islocalname.md)(): void
-
-public
-[registerLocalNamespace](yaf-loader.registerlocalNamespace.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$prefix`): void
-
-public
-[registerNamespace](yaf-loader.registernamespace.md)(string\|array
-`$namespaces`, string `$path` = ?): bool
-
-public [setLibraryPath](yaf-loader.setlibrarypath.md)(string
-`$directory`, bool `$is_global` = **`false`**):
-[Yaf_Loader](class.yaf-loader.md)
-
-}
+   }
+```
 
 ## Властивості
 
-`_local_ns`
+localнс
 
-`_library`
-За замовчуванням це значення дорівнює
-[application.directory](yaf.appconfig.md#configuration.yaf.directory)
-. "/library", ви можете змінити це або в
-application.ini(application.library) або викликати
-[Yaf_Loader::setLibraryPath()](yaf-loader.setlibrarypath.md)
+library
 
-`_global_library`
+За умовчанням це значення дорівнює [application.directory](yaf.appconfig.html#configuration.yaf.directory) . "/library", ви можете змінити це або application.ini(application.library), або викликати [Yaf\_Loader::setLibraryPath()](yaf-loader.setlibrarypath.html)
 
-`_instance`
+globallibrary
+
+instance
 
 ## Зміст
 
-- [Yaf_Loader::autoload](yaf-loader.autoload.md) — Призначення
-autoload
-- [Yaf_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md)
-— Призначення clearLocalNamespace
-- [Yaf_Loader::\_\_construct](yaf-loader.construct.md) - Призначення
-\_\_construct
-- [Yaf_Loader::getInstance](yaf-loader.getinstance.md) — Призначення
-getInstance
-- [Yaf_Loader::getLibraryPath](yaf-loader.getlibrarypath.md) -
-Отримує шлях до бібліотеки
-- [Yaf_Loader::getLocalNamespace](yaf-loader.getlocalnamespace.md)
-Призначення getLocalNamespace
-- [Yaf_Loader::getNamespacePath](yaf-loader.getnamespacepath.md) -
-Отримує шлях зареєстрованого простору імен
-- [Yaf_Loader::getLocalNamespace](yaf-loader.getnamespaces.md)
-Отримує всю інформацію про зареєстровані простори імен
-- [Yaf_Loader::import](yaf-loader.import.md) — Призначення import
-- [Yaf_Loader::isLocalName](yaf-loader.islocalname.md) — Призначення
-isLocalName
-- [Yaf_Loader::registerLocalNamespace](yaf-loader.registerlocalNamespace.md)
-- Реєструє префікс локального класу
-- [Yaf_Loader::registerNamespace](yaf-loader.registernamespace.md)
-Реєструє простір імен шляхом пошуку
-- [Yaf_Loader::setLibraryPath](yaf-loader.setlibrarypath.md) -
-Змінює шлях до бібліотеки
+-   [Yaf\_Loader::autoload](yaf-loader.autoload.html) - Призначення autoload
+-   [Yaf\_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.html) — Призначення clearLocalNamespace
+-   [Yaf\_Loader::\_\_construct](yaf-loader.construct.html) - Призначення construct
+-   [Yaf\_Loader::getInstance](yaf-loader.getinstance.html) — Призначення getInstance
+-   [Yaf\_Loader::getLibraryPath](yaf-loader.getlibrarypath.html) — Отримує шлях до бібліотеки
+-   [Yaf\_Loader::getLocalNamespace](yaf-loader.getlocalnamespace.html) — Призначення getLocalNamespace
+-   [Yaf\_Loader::getNamespacePath](yaf-loader.getnamespacepath.html) — Отримує шлях зареєстрованого простору імен
+-   [Yaf\_Loader::getLocalNamespace](yaf-loader.getnamespaces.html) — Отримує всю інформацію про зареєстровані простори імен
+-   [Yaf\_Loader::import](yaf-loader.import.html) - Призначення import
+-   [Yaf\_Loader::isLocalName](yaf-loader.islocalname.html) — Призначення isLocalName
+-   [Yaf\_Loader::registerLocalNamespace](yaf-loader.registerlocalnamespace.html) - Реєструє префікс локального класу
+-   [Yaf\_Loader::registerNamespace](yaf-loader.registernamespace.html) — Реєструє простір імен шляхом пошуку
+-   [Yaf\_Loader::setLibraryPath](yaf-loader.setlibrarypath.html) — Змінює шлях до бібліотеки

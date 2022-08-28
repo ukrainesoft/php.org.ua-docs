@@ -1,26 +1,33 @@
-- [« ParentIterator::next](parentiterator.next.md)
-- [RecursiveArrayIterator »](class.recursivearrayiterator.md)
+Перекладає ітератор на початок
 
-- [PHP Manual](index.md)
-- [ParentIterator](class.parentiterator.md)
-- перекладає ітератор на початок
+-   [« ParentIterator::next](parentiterator.next.html)
+    
+-   [RecursiveArrayIterator »](class.recursivearrayiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ParentIterator](class.parentiterator.html)
+    
+-   Перекладає ітератор на початок
+    
 
 # ParentIterator::rewind
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ParentIterator::rewind - Перекладає ітератор на початок
 
 ### Опис
 
-public **ParentIterator::rewind**(): void
+```methodsynopsis
+public ParentIterator::rewind(): void
+```
 
-Переміщує вказівник на початкову позицію.
+Переміщує покажчик на початкову позицію.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

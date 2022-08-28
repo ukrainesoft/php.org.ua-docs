@@ -1,37 +1,40 @@
-- [« pcntl_wifsignaled](function.pcntl-wifsignaled.md)
-- [pcntl_wstopsig »](function.pcntl-wstopsig.md)
+Перевірити, чи зупинено дочірній процес
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Перевірити, чи зупинено дочірній процес
+-   [« pcntl\_wifsignaled](function.pcntl-wifsignaled.html)
+    
+-   [pcntl\_wstopsig »](function.pcntl-wstopsig.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Перевірити, чи зупинено дочірній процес
+    
 
-#pcntl_wifstopped
+# pcntlwifstopped
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-pcntl_wifstopped — Перевірити, чи зупинено дочірній процес
+pcntlwifstopped — Перевірити, чи зупинено дочірній процес
 
 ### Опис
 
-**pcntl_wifstopped**(int `$status`): bool
+```methodsynopsis
+pcntl_wifstopped(int $status): bool
+```
 
-Перевіряє, чи зупинено дочірній процес, що викликало повернення; це
-можливо тільки якщо функція
-[pcntl_waitpid()](function.pcntl-waitpid.md) викликалася з опцією
-`WUNTRACED`.
+Перевіряє, чи зупинено дочірній процес, що викликало повернення; це можливо лише якщо функція [pcntl\_waitpid()](function.pcntl-waitpid.html) викликалася з опцією `WUNTRACED`
 
 ### Список параметрів
 
 `status`
-Параметр `status` - це параметр статусу, який передається для успішного
-виклик функції [pcntl_waitpid()](function.pcntl-waitpid.md).
+
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо дочірній процес викликав повернення зараз
-зупинено. Якщо ні, то повертає **`false`**.
+Повертає **`true`**якщо дочірній процес викликав повернення зараз зупинено. Якщо ні, то повертає **`false`**
 
 ### Дивіться також
 
-- [pcntl_waitpid()](function.pcntl-waitpid.md) - Очікує або
-повертає статус породженого дочірнього процесу
+-   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу

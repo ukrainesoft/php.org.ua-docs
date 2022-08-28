@@ -1,31 +1,20 @@
-- [« HTTP-автентифікація в PHP](features.http-auth.md)
-- [Сесії»](features.sessions.md)
+Cookies
 
-- [PHP Manual](index.md)
-- [Відмінні риси](features.md)
-- Cookies
+-   [« HTTP-аутентификация в PHP](features.http-auth.html)
+    
+-   [Сессии »](features.sessions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Отличительные особенности](features.html)
+    
+-   Cookies
+    
 
 # Cookies
 
-PHP прозоро підтримує HTTP cookies. Cookies – це механізм зберігання
-даних браузером віддаленої машини для відстеження або ідентифікації
-відвідувачів, що повертаються. Ви можете встановити cookies за допомогою
-функцій [setcookie()](function.setcookie.md) або
-[setrawcookie()](function.setrawcookie.md). Cookies є частиною
-HTTP-заголовка, тому [setcookie()](function.setcookie.md) має
-викликатись до будь-якого виведення даних у браузер. Це теж саме
-обмеження, яке має функція [header()](function.header.md). Ви
-Ви можете використовувати [функції буферизації виводу](ref.outcontrol.md),
-щоб затримати виведення результатів роботи скрипта до того моменту, коли
-буде відомо, чи знадобиться встановлення cookies або інших заголовків.
+PHP прозоро підтримує HTTP cookies. Cookies - це механізм зберігання даних браузером віддаленої машини для відстеження або ідентифікації відвідувачів, що повертаються. Ви можете встановити cookies за допомогою функцій [setcookie()](function.setcookie.html) або [setrawcookie()](function.setrawcookie.html). Cookies є частиною HTTPзаголовка, тому [setcookie()](function.setcookie.html) повинна викликатись до будь-якого виведення даних у браузер. Це те саме обмеження, яке має функція [header()](function.header.html). Ви можете використовувати [функции буферизации вывода](ref.outcontrol.html), щоб затримати виведення результатів роботи скрипта до того моменту, коли буде відомо, чи знадобиться встановлення cookies або інших заголовків.
 
-Будь-які cookie, надіслані серверу браузером клієнта, будуть
-автоматично включені в суперглобальний масив `$_COOKIE`, якщо
-директива [variables_order](ini.core.md#ini.variables-order) містить
-літеру "C". Для призначення кількох значень одного cookie просто
-додайте `[]` до її імені.
+Будь-які cookies, надіслані серверу браузером клієнта, будуть автоматично включені до суперглобального масиву [$\_COOKIE](reserved.variables.cookies.html), якщо директива [variables\_order](ini.core.html#ini.variables-order) містить літеру "C". Для призначення кількох значень однієї cookie просто додайте `[]` до її імені.
 
-Додаткова інформація, зокрема особливості реалізації
-браузерів, наведена в описі функцій
-[setcookie()](function.setcookie.md) та
-[setrawcookie()](function.setrawcookie.md).
+Додаткову інформацію, в тому числі й особливості реалізації браузерів, наведено в описі функцій [setcookie()](function.setcookie.html) і [setrawcookie()](function.setrawcookie.html)

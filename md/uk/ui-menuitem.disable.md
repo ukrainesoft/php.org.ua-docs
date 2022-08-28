@@ -1,19 +1,27 @@
-- [«UI\MenuItem](class.ui-menuitem.md)
-- [UI\MenuItem::enable »](ui-menuitem.enable.md)
+Вимкнути пункт меню
 
-- [PHP Manual](index.md)
-- [UI\MenuItem](class.ui-menuitem.md)
-- Вимкнути пункт меню
+-   [« UI\\MenuItem](class.ui-menuitem.html)
+    
+-   [UI\\MenuItem::enable »](ui-menuitem.enable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\MenuItem](class.ui-menuitem.html)
+    
+-   Вимкнути пункт меню
+    
 
-# UI\MenuItem::disable
+# ОЙMenuItem::disable
 
 (UI 0.9.9)
 
-UI\MenuItem::disable — Вимкнути пункт меню
+ОЙMenuItem::disable — Вимкнути пункт меню
 
 ### Опис
 
-public **UI\MenuItem::disable**()
+```methodsynopsis
+public UI\MenuItem::disable()
+```
 
 Відключить цей пункт меню
 

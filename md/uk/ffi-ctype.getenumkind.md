@@ -1,24 +1,31 @@
-- [« FFI\CType::getAttributes](ffi-ctype.getattributes.md)
-- [FFI\CType::getFuncABI »](ffi-ctype.getfuncabi.md)
+Опис
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+-   [« FFI\\CType::getAttributes](ffi-ctype.getattributes.html)
+    
+-   [FFI\\CType::getFuncABI »](ffi-ctype.getfuncabi.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI\\CType](class.ffi-ctype.html)
+    
+-   Опис
+    
 
-# FFI\CType::getEnumKind
+# FFICType::getEnumKind
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-FFI\CType::getEnumKind — Опис
+FFICType::getEnumKind — Опис
 
 ### Опис
 
-public **FFI\CType::getEnumKind**(): int
+```methodsynopsis
+public FFI\CType::getEnumKind(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,51 +1,55 @@
-- [« mysqli_stmt::$insert_id](mysqli-stmt.insert-id.md)
-- [mysqli_stmt::next_result »](mysqli-stmt.next-result.md)
+Перевіряє, чи є ще набори рядків через мультизапит.
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Перевіряє, чи є ще набори рядків через мультизапит
+-   [« mysqli\_stmt::$insert\_id](mysqli-stmt.insert-id.html)
+    
+-   [mysqli\_stmt::next\_result »](mysqli-stmt.next-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_stmt](class.mysqli-stmt.html)
+    
+-   Перевіряє, чи є ще набори рядків через мультизапит.
+    
 
-# mysqli_stmt::more_results
+# mysqlistmt::moreresults
 
-# mysqli_stmt_more_results
+# mysqlistmtmoreresults
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-mysqli_stmt::more_results -- mysqli_stmt_more_results — Перевіряє, чи є
-ще набори рядків в результаті мультизапиту
+mysqlistmt::moreresults -- mysqlistmtmoreresults — Перевіряє, чи є ще набори рядків через мультизапит.
 
 ### Опис
 
 Об'єктно-орієнтований стиль:
 
-public **mysqli_stmt::more_results**(): bool
+```methodsynopsis
+public mysqli_stmt::more_results(): bool
+```
 
 Процедурний стиль:
 
-**mysqli_stmt_more_results**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): bool
+```methodsynopsis
+mysqli_stmt_more_results(mysqli_stmt $statement): bool
+```
 
 Перевіряє, чи є ще набори рядків через мультизапит.
 
-> **Примітка**:
->
-> Доступно лише з модулем [mysqlnd](book.mysqlnd.md).
+> **Зауваження**
+> 
+> Доступно лише з модулем [mysqlnd](book.mysqlnd.html)
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо ще є доступні результуючі набори,
-**`false`** інакше.
+Повертає **`true`**, якщо є доступні результуючі набори, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [mysqli_stmt::next_result()](mysqli-stmt.next-result.md) - Читає
-наступний набір рядків із мультизапиту
-- [mysqli::multi_query()](mysqli.multi-query.md) - Виконує один
-або кілька запитів до бази даних
+-   [mysqli\_stmt::next\_result()](mysqli-stmt.next-result.html) - Читає наступний набір рядків із мультизапиту
+-   [mysqli::multi\_query()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних

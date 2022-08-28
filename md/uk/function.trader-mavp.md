@@ -1,47 +1,50 @@
-- [«trader_mama](function.trader-mama.md)
-- [trader_max »](function.trader-max.md)
+Ковзна середня зі змінним періодом
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Змінна середня зі змінним періодом
+-   [« trader\_mama](function.trader-mama.html)
+    
+-   [trader\_max »](function.trader-max.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Ковзна середня зі змінним періодом
+    
 
-#trader_mavp
+# tradermavp
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_mavp — Змінна середня зі змінним періодом
+tradermavp — Ковзна середня зі змінним періодом
 
 ### Опис
 
-**trader_mavp**(
-array `$real`,
-array `$periods`,
-int `$minPeriod` = ?,
-int `$maxPeriod` = ?,
-int `$mAType` = ?
-): array
+```methodsynopsis
+trader_mavp(    array $real,    array $periods,    int $minPeriod = ?,    int $maxPeriod = ?,    int $mAType = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `periods`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `minPeriod`
-Значення менше мінімуму буде змінено на мінімальний період.
-Допустимі значення від 2 до 100000
+
+Значення менше мінімуму буде змінено на мінімальний період. Допустимі значення від 2 до 100000
 
 `maxPeriod`
-Значення більше максимуму буде змінено на максимальний період.
-Допустимі значення від 2 до 100000
+
+Значення більше максимуму буде змінено на максимальний період. Допустимі значення від 2 до 100000
 
 `mAType`
-Тип ковзної середньої. Слід використовувати серію констант
-[TRADER_MA_TYPE\_\*](trader.constants.md).
+
+Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.html)
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

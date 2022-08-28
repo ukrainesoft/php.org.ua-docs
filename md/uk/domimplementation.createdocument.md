@@ -1,70 +1,68 @@
-- [« DOMImplementation::\_\_construct](domimplementation.construct.md)
-- [DOMImplementation::createDocumentType »](domimplementation.createdocumenttype.md)
+Створює об'єкт класу DOMDocument заданого типу з його елементом
 
-- [PHP Manual](index.md)
-- [DOMImplementation](class.domimplementation.md)
-- Створює об'єкт класу DOMDocument заданого типу з його елементом
-document
+-   [« DOMImplementation::\_\_construct](domimplementation.construct.html)
+    
+-   [DOMImplementation::createDocumentType »](domimplementation.createdocumenttype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMImplementation](class.domimplementation.html)
+    
+-   Створює об'єкт класу DOMDocument заданого типу з його елементом
+    
 
 # DOMImplementation::createDocument
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMImplementation::createDocument — Створює об'єкт класу DOMDocument
-заданого типу з його елементом
+DOMImplementation::createDocument — Створює об'єкт класу DOMDocument заданого типу з його елементом.
 
 ### Опис
 
-public **DOMImplementation::createDocument**(?string `$namespace` =
-**`null`**, string `$qualifiedName` = "",
-?[DOMDocumentType](class.domdocumenttype.md) `$doctype` = **`null`**):
-[DOMDocument](class.domdocument.md)\|false
+```methodsynopsis
+public DOMImplementation::createDocument(?string $namespace = null, string $qualifiedName = "", ?DOMDocumentType $doctype = null): DOMDocument|false
+```
 
-Створює об'єкт класу [DOMDocument](class.domdocument.md) заданого
-типу з елементом document.
+Створює об'єкт класу [DOMDocument](class.domdocument.html) заданого типу із його елементом document.
 
 ### Список параметрів
 
 `namespace`
+
 URI простору імен створюваного елемента document.
 
 `qualifiedName`
+
 Кваліфіковане ім'я елемента document, що створюється.
 
 `doctype`
-Тип створюваного елемента document або **`null`**.
+
+Тип створюваного елемента document або **`null`**
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMDocument](class.domdocument.md). Якщо
-аргументи `namespace`, `qualifiedName`, та `doctype` мають значення null,
-об'єкт, що повертається [DOMDocument](class.domdocument.md) буде порожнім і
-без елемента document.
+Новий об'єкт класу [DOMDocument](class.domdocument.html). Якщо аргументи `namespace` `qualifiedName`, і `doctype` мають значення null, об'єкт, що повертається [DOMDocument](class.domdocument.html) буде порожнім та без елемента document.
 
 ### Помилки
 
 **`DOM_WRONG_DOCUMENT_ERR`**
-Виникає, якщо аргумент `doctype` вже використовувався з іншим документом
-або був створений в іншій реалізації.
+
+Виникає, якщо аргумент `doctype` вже використовувався з іншим документом або було створено в іншій реалізації.
 
 **`DOM_NAMESPACE_ERR`**
-Виникає, якщо виявлена помилка в рядках `namespace` та
-`qualifiedName`.
 
-До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку
-**`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично
-викидає виняток [Error](class.error.md).
+Виникає, якщо виявлена ​​помилка у рядках `namespace` і `qualifiedName`
 
-### Список змін
+До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.html)
 
-| Версія | Опис                                     |
-|--------|------------------------------------------|
-| 8.0.3  | namespace тепер припускає значення null. |
-| 8.0.0  | doctype тепер припускає значення null.   |
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | `namespace` тепер допускає значення null. |
+|  | `doctype` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [DOMDocument::\_\_construct()](domdocument.construct.md) - Створює
-новий об'єкт DOMDocument
-- [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.md) -
-Створює порожній об'єкт класу DOMDocumentType
+-   [DOMDocument::\_\_construct()](domdocument.construct.html) - Створює новий об'єкт DOMDocument
+-   [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.html) - Створює порожній об'єкт класу DOMDocumentType

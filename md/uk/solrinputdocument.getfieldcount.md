@@ -1,20 +1,27 @@
-- [« SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.md)
-- [SolrInputDocument::getFieldNames »](solrinputdocument.getfieldnames.md)
+Повертає кількість полів у документі
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Повертає кількість полів у документі
+-   [« SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.html)
+    
+-   [SolrInputDocument::getFieldNames »](solrinputdocument.getfieldnames.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Повертає кількість полів у документі
+    
 
 # SolrInputDocument::getFieldCount
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrInputDocument::getFieldCount — Повертає кількість полів у
-документі
+SolrInputDocument::getFieldCount — Повертає кількість полів у документі
 
 ### Опис
 
-public **SolrInputDocument::getFieldCount**(): int\|false
+```methodsynopsis
+public SolrInputDocument::getFieldCount(): int|false
+```
 
 Повертає кількість полів у документі.
 
@@ -24,5 +31,4 @@ public **SolrInputDocument::getFieldCount**(): int\|false
 
 ### Значення, що повертаються
 
-Повертає ціле число у разі успішного виконання або **`false`**
-у разі виникнення помилки.
+Повертає ціле число у разі успішного виконання або **`false`** у разі виникнення помилки.

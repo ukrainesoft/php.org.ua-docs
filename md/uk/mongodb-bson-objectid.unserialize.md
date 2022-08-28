@@ -1,26 +1,33 @@
-- [« MongoDB\BSON\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.md)
-- [MongoDB\BSON\Regex »](class.mongodb-bson-regex.md)
+Десеріалізує ObjectId
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
-- Десеріалізує ObjectId
+-   [« MongoDB\\BSON\\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.html)
+    
+-   [MongoDB\\BSON\\Regex »](class.mongodb-bson-regex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
+    
+-   Десеріалізує ObjectId
+    
 
-# MongoDB\BSON\ObjectId::unserialize
+# MongoDBBSONObjectId::unserialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\ObjectId::unserialize — Десеріалізує ObjectId
+MongoDBBSONObjectId::unserialize — Десеріалізує ObjectId
 
 ### Опис
 
-final public **MongoDB\BSON\ObjectId::unserialize**(string
-`$serialized`): void
+```methodsynopsis
+final public MongoDB\BSON\ObjectId::unserialize(string $serialized): void
+```
 
 ### Список параметрів
 
 `serialized`
-Серіалізований
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md).
+
+Серіалізований [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html)
 
 ### Значення, що повертаються
 
@@ -28,21 +35,12 @@ final public **MongoDB\BSON\ObjectId::unserialize**(string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Видає виняток
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md),
-якщо властивості не можуть бути десеріалізовані (наприклад, `serialized`
-був неправильно сформований).
-- Видає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md),
-якщо властивості недійсні (наприклад, відсутні поля або
-неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` був неправильно сформований).
+-   Видає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості недійсні (наприклад, відсутні поля або неприпустимі значення).
 
 ### Дивіться також
 
-- [MongoDB\BSON\ObjectId::serialize()](mongodb-bson-objectid.serialize.md) -
-Серіалізує ObjectId
-- [unserialize()](function.unserialize.md) - Створює PHP-значення з
-збереженого уявлення
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\ObjectId::serialize()](mongodb-bson-objectid.serialize.html) - Серіалізує ObjectId
+-   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
+-   [Сериализация объектов](language.oop5.serialization.html)

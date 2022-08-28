@@ -1,17 +1,22 @@
-- [«curl_exec](function.curl-exec.md)
-- [curl_getinfo »](function.curl-getinfo.md)
+Створює об'єкт CURLFile
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Створює об'єкт CURLFile
+-   [« curl\_exec](function.curl-exec.html)
+    
+-   [curl\_getinfo »](function.curl-getinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Створює об'єкт CURLFile
+    
 
-#curl_file_create
+# curlfilecreate
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-curl_file_create — Створює об'єкт CURLFile
+curlfilecreate — Створює об'єкт CURLFile
 
 ### Опис
 
-Ця функція є псевдонімом:
-[CURLFile::\_\_construct()](curlfile.construct.md)
+Ця функція є псевдонімом: [CURLFile::\_\_construct()](curlfile.construct.html)

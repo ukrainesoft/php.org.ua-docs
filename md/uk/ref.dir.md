@@ -1,30 +1,30 @@
-- [« Directory::rewind](directory.rewind.md)
-- [chdir »](function.chdir.md)
+Функції для роботи з каталогами
 
-- [PHP Manual](index.md)
-- [Каталоги](book.dir.md)
-- Функції для роботи з каталогами
+-   [« Directory::rewind](directory.rewind.html)
+    
+-   [chdir »](function.chdir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Каталоги](book.dir.html)
+    
+-   Функції для роботи з каталогами
+    
 
 # Функції для роботи з каталогами
 
 # Дивіться також
 
-За описом супутніх функцій, таких як
-[dirname()](function.dirname.md), [is_dir()](function.is-dir.md),
-[mkdir()](function.mkdir.md) та [rmdir()](function.rmdir.md),
-Зверніться до розділу [Файлова система](ref.filesystem.md).
+За описом супутніх функцій, таких як [dirname()](function.dirname.html) [is\_dir()](function.is-dir.html) [mkdir()](function.mkdir.html) і [rmdir()](function.rmdir.html), зверніться до глави [Файловая система](ref.filesystem.html)
 
 ## Зміст
 
-- [chdir](function.chdir.md) — Змінює каталог
-- [chroot](function.chroot.md) — Змінює кореневий каталог
-- [closedir](function.closedir.md) — Закриває дескриптор каталогу
-- [dir](function.dir.md) - Повертає екземпляр класу Directory
-- [getcwd](function.getcwd.md) — Отримує ім'я поточного робітника
-каталогу
-- [opendir](function.opendir.md) — Відкриває дескриптор каталогу
-- [readdir](function.readdir.md) — Отримує елемент каталогу на його
-дескриптору
-- [rewinddir](function.rewinddir.md) — Скинути дескриптор каталогу
-- [scandir](function.scandir.md) — Отримує список файлів та
-каталогів, розташованих за вказаним шляхом
+-   [chdir](function.chdir.html) - Змінює каталог
+-   [chroot](function.chroot.html) - Змінює кореневий каталог
+-   [closedir](function.closedir.html) — Закриває дескриптор каталогу
+-   [dir](function.dir.html) — Повертає екземпляр класу Directory
+-   [getcwd](function.getcwd.html) — Отримує ім'я поточного робочого каталогу
+-   [opendir](function.opendir.html) - Відкриває дескриптор каталогу
+-   [readdir](function.readdir.html) — Отримує елемент каталогу за його дескриптором
+-   [rewinddir](function.rewinddir.html) - Скинути дескриптор каталогу
+-   [scandir](function.scandir.html) — Отримує список файлів та каталогів, розташованих за вказаним шляхом

@@ -1,9 +1,15 @@
-- [« ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.md)
-- [ColumnResult::getColumnLabel »](mysql-xdevapi-columnresult.getcolumnlabel.md)
+Отримує ім'я зіставлення
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує ім'я зіставлення
+-   [« ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.html)
+    
+-   [ColumnResult::getColumnLabel »](mysql-xdevapi-columnresult.getcolumnlabel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+    
+-   Отримує ім'я зіставлення
+    
 
 # ColumnResult::getCollationName
 
@@ -13,12 +19,13 @@ ColumnResult::getCollationName — Отримує ім'я порівняння
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getCollationName**(): string
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getCollationName(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +35,12 @@ public **mysql_xdevapi\ColumnResult::getCollationName**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getCollationName()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getCollationName()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

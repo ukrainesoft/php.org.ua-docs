@@ -1,9 +1,15 @@
-- [«$argc](reserved.variables.argc.md)
-- [Предвизначені винятки »](reserved.exceptions.md)
+Масив переданих скрипту аргументів
 
-- [PHP Manual](index.md)
-- [Предвизначені змінні](reserved.variables.md)
-- Масив переданих скрипту аргументів
+-   [« $argc](reserved.variables.argc.html)
+    
+-   [Предопределённые исключения »](reserved.exceptions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые переменные](reserved.variables.html)
+    
+-   Масив переданих скрипту аргументів
+    
 
 # $argv
 
@@ -13,43 +19,46 @@ $argv — Масив переданих скрипту аргументів
 
 ### Опис
 
-Містить масив (array) всіх аргументів, переданих скрипту під час запуску
-з [командного рядка](features.commandline.md).
+Містить масив (array) всіх аргументів, переданих скрипту при запуску з [командной строки](features.commandline.html)
 
-> **Примітка**: Перший аргумент `$argv[0]` завжди містить ім'я файлу
-> запущеного сценарію.
+> **Зауваження**: Перший аргумент $argv завжди містить ім'я запущеного файлу скрипта.
 
-> **Примітка**: Ця змінна недоступна, якщо > [register_argc_argv](ini.core.md#ini.register-argc-argv) вимкнено.
+> **Зауваження**: Ця змінна недоступна, якщо [register\_argc\_argv](ini.core.html#ini.register-argc-argv) вимкнено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$argv`**
+**Приклад #1 Приклад використання $argv**
 
-` <?phpvar_dump($argv);?> `
+```php
+<?php
+var_dump($argv);
+?>
+```
 
 Запустимо приклад у командному рядку: php script.php arg1 arg2 arg3
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(4) {
-[0]=>
-string(10) "script.php"
-[1]=>
-string(4) "arg1"
-[2]=>
-string(4) "arg2"
-[3]=>
-string(4) "arg3"
+  [0]=>
+  string(10) "script.php"
+  [1]=>
+  string(4) "arg1"
+  [2]=>
+  string(4) "arg2"
+  [3]=>
+  string(4) "arg3"
 }
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Доступно як `$_SERVER['argv']`.
+> **Зауваження**
+> 
+> Також доступно як [$\_SERVER\['argv'\]](reserved.variables.server.html)
 
 ### Дивіться також
 
-- [getopt()](function.getopt.md) - Отримує параметри зі списку
-аргументів командного рядка
-- [`$argc`](reserved.variables.argc.md)
+-   [getopt()](function.getopt.html) - Отримує параметри зі списку аргументів командного рядка
+-   [](reserved.variables.argc.html)[$argc](reserved.variables.argc.html)

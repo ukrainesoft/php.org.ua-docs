@@ -1,37 +1,44 @@
-- [«UI\Area](class.ui-area.md)
-- [UI\Area::onKey »](ui-area.onkey.md)
+Функція зворотного виклику під час малювання
 
-- [PHP Manual](index.md)
-- [UI\Area](class.ui-area.md)
-- Функція зворотного виклику під час малювання
+-   [« UI\\Area](class.ui-area.html)
+    
+-   [UI\\Area::onKey »](ui-area.onkey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Area](class.ui-area.html)
+    
+-   Функція зворотного виклику під час малювання
+    
 
-# UI\Area::onDraw
+# ОЙArea::onDraw
 
 (UI 0.9.9)
 
-UI\Area::onDraw — Функція зворотного виклику під час малювання
+ОЙArea::onDraw - Функція зворотного виклику при малюванні
 
 ### Опис
 
-protected **UI\Area::onDraw**(
-[UI\Draw\Pen](class.ui-draw-pen.md) `$pen`,
-[UI\Size](class.ui-size.md) `$areaSize`,
-[UI\Point](class.ui-point.md) `$clipPoint`,
-[UI\Size](class.ui-size.md) `$clipSize`
-)
+```methodsynopsis
+protected UI\Area::onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
+```
 
 Викликається, коли ця область вимагає перемальовки
 
 ### Список параметрів
 
 `pen`
+
 Ручка (Pen), що підходить для малювання у цьому районі
 
 `areaSize`
+
 Розмір області
 
 `clipPoint`
+
 Точка обрізки (clip point) області
 
 `clipSize`
+
 Розмір обрізки (clip size) області

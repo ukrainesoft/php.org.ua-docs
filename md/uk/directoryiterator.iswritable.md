@@ -1,23 +1,29 @@
-- [« DirectoryIterator::isReadable](directoryiterator.isreadable.md)
-- [DirectoryIterator::key »](directoryiterator.key.md)
+Визначає, чи доступний поточний елемент DirectoryIterator для запису
 
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Визначає, чи доступний поточний елемент DirectoryIterator для запису
+-   [« DirectoryIterator::isReadable](directoryiterator.isreadable.html)
+    
+-   [DirectoryIterator::key »](directoryiterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DirectoryIterator](class.directoryiterator.html)
+    
+-   Визначає, чи доступний поточний елемент DirectoryIterator для запису
+    
 
 # DirectoryIterator::isWritable
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::isWritable — Визначає, чи доступний поточний елемент
-DirectoryIterator для запису
+DirectoryIterator::isWritable — Визначає, чи доступний поточний елемент DirectoryIterator для запису
 
 ### Опис
 
-public **DirectoryIterator::isWritable**(): bool
+```methodsynopsis
+public DirectoryIterator::isWritable(): bool
+```
 
-Визначає, чи доступний поточний елемент
-[DirectoryIterator](class.directoryiterator.md) для запису.
+Визначає, чи поточний елемент доступний. [DirectoryIterator](class.directoryiterator.html) для запису.
 
 ### Список параметрів
 
@@ -25,31 +31,35 @@ public **DirectoryIterator::isWritable**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо файл або директорія доступні для запису,
-інакше повертає **`false`**
+Повертає **`true`**якщо файл або директорія доступні для запису, інакше повертає **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::isWritable()****
 
-Приклад показує список файлів та каталогів, які можуть бути відкриті
-для запису, розташовані в директорії, що містить скрипт, що виконується.
+Приклад показує список файлів і директорій, які можуть бути відкриті для запису, розташовані в директорії, що містить скрипт, що виконується.
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isWritable()) {            "
-";    }}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isWritable()) {
+        echo $fileinfo->getFilename() . "\n";
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 apples.txt
-bananas.md
+bananas.html
 pears
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getPerms()](directoryiterator.getperms.md) -
-Повертає набір прав для поточного елемента DirectoryIterator item
-- [DirectoryIterator::isExecutable()](directoryiterator.isexecutable.md) -
-Визначає, чи є поточний елемент DirectoryIterator
-виконуваним
-- [DirectoryIterator::isReadable()](directoryiterator.isreadable.md) -
-Визначає, чи доступний поточний елемент DirectoryIterator для читання
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.html) - Повертає набір прав для поточного елемента DirectoryIterator item
+-   [DirectoryIterator::isExecutable()](directoryiterator.isexecutable.html) - Визначає, чи поточний елемент DirectoryIterator виконується
+-   [DirectoryIterator::isReadable()](directoryiterator.isreadable.html) - Визначає, чи доступний поточний елемент DirectoryIterator для читання

@@ -1,9 +1,15 @@
-- [« ReflectionObject::\_\_construct](reflectionobject.construct.md)
-- [ReflectionParameter »](class.reflectionparameter.md)
+Експорт
 
-- [PHP Manual](index.md)
-- [ReflectionObject](class.reflectionobject.md)
-- Експорт
+-   [« ReflectionObject::\_\_construct](reflectionobject.construct.html)
+    
+-   [ReflectionParameter »](class.reflectionparameter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionObject](class.reflectionobject.html)
+    
+-   Експорт
+    
 
 # ReflectionObject::export
 
@@ -13,37 +19,34 @@ ReflectionObject::export — Експорт
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНА*, починаючи з
-PHP 8.0.0 Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-public static **ReflectionObject::export**(string `$argument`, bool
-`$return` = ?): string
+```methodsynopsis
+public static ReflectionObject::export(string $argument, bool $return = ?): string
+```
 
 Експортує відображення (reflection).
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `argument`
+
 Експортований об'єкт Reflection.
 
 `return`
-Установка в **`true`** поверне значення, що експортується, на відміну від
-поведінки, де цей параметр опущено. Установка в **`false`** (за
-замовчуванням) зробить протилежне.
+
+Встановлення в **`true`** поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
 
 ### Значення, що повертаються
 
-Якщо параметр `return` встановлений у **`true`**, тоді експортований
-об'єкт буде повернутий як string, інакше буде повернено **`null`**.
+Якщо параметр `return` встановлений в **`true`**, тоді експортований об'єкт буде повернутий як string, інакше буде повернутий **`null`**
 
 ### Дивіться також
 
-- [ReflectionObject::\_\_construct()](reflectionobject.construct.md) -
-Конструктор класу ReflectionObject
+-   [ReflectionObject::\_\_construct()](reflectionobject.construct.html) - Конструктор класу ReflectionObject

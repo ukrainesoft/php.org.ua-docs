@@ -1,9 +1,15 @@
-- [« SoapServer::\_\_construct](soapserver.construct.md)
-- [SoapServer::getFunctions »](soapserver.getfunctions.md)
+Вимушує SoapServer повернути помилку
 
-- [PHP Manual](index.md)
-- [SoapServer](class.soapserver.md)
-- змушує SoapServer повернути помилку
+-   [« SoapServer::\_\_construct](soapserver.construct.html)
+    
+-   [SoapServer::getFunctions »](soapserver.getfunctions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SoapServer](class.soapserver.html)
+    
+-   Вимушує SoapServer повернути помилку
+    
 
 # SoapServer::fault
 
@@ -13,37 +19,37 @@ SoapServer::fault — Вимушує SoapServer повернути помилк�
 
 ### Опис
 
-public **SoapServer::fault**(
-string `$code`,
-string `$string`,
-string `$actor` = "",
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$details` = **`null`**,
-string `$name` = ""
-): void
+```methodsynopsis
+public SoapServer::fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
+```
 
 Надсилає клієнту відповідь на поточний запит із повідомленням про помилку.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Може бути викликана лише під час обробки запиту.
 
 ### Список параметрів
 
 `code`
+
 Код помилки, що повертається
 
 `string`
+
 Короткий опис помилки
 
 `actor`
+
 Рядок, що ідентифікує відправника, що спричинив помилку
 
 `details`
+
 Детальна інформація про помилку
 
 `name`
-Ім'я помилки. Можна використовувати для вибору імені з файлу WSDL.
+
+Ім'я помилки. Може використовуватись для вибору імені із WSDL-файлу.
 
 ### Значення, що повертаються
 
@@ -51,5 +57,4 @@ string `$name` = ""
 
 ### Дивіться також
 
-- [SoapFault::\_\_construct()](soapfault.construct.md) - Конструктор
-SoapFault
+-   [SoapFault::\_\_construct()](soapfault.construct.html) - Конструктор SoapFault

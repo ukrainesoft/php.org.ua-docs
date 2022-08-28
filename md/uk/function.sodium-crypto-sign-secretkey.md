@@ -1,28 +1,35 @@
-- [« sodium_crypto_sign_publickey](function.sodium-crypto-sign-publickey.md)
-- [sodium_crypto_sign_seed_keypair »](function.sodium-crypto-sign-seed-keypair.md)
+Витягує секретний ключ Ed25519 із пари ключів
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Витягує секретний ключ Ed25519 із пари ключів
+-   [« sodium\_crypto\_sign\_publickey](function.sodium-crypto-sign-publickey.html)
+    
+-   [sodium\_crypto\_sign\_seed\_keypair »](function.sodium-crypto-sign-seed-keypair.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Витягує секретний ключ Ed25519 із пари ключів
+    
 
-# sodium_crypto_sign_secretkey
+# sodiumcryptosignsecretkey
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_sign_secretkey — Витягує секретний ключ Ed25519 з пари
-ключів
+sodiumcryptosignsecretkey — Витягує секретний ключ Ed25519 із пари ключів
 
 ### Опис
 
-**sodium_crypto_sign_secretkey**(string `$key_pair`): string
+```methodsynopsis
+sodium_crypto_sign_secretkey(string $key_pair): string
+```
 
-Виймає секретний ключ Ed25519 із пари ключів
+Витягує секретний ключ Ed25519 із пари ключів
 
 ### Список параметрів
 
 `key_pair`
-Ключова пара Ed25519 (дивіться
-[sodium_crypto_sign_keypair()](function.sodium-crypto-sign-keypair.md))
+
+Ключова пара Ed25519 (дивіться [sodium\_crypto\_sign\_keypair()](function.sodium-crypto-sign-keypair.html)
 
 ### Значення, що повертаються
 

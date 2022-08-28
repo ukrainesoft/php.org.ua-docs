@@ -1,27 +1,33 @@
-- [« RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md)
-- [RecursiveTreeIterator::setPostfix »](recursivetreeiterator.setpostfix.md)
+Переведення ітератора на початок
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Переведення ітератора на початок
+-   [« RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.html)
+    
+-   [RecursiveTreeIterator::setPostfix »](recursivetreeiterator.setpostfix.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+    
+-   Переведення ітератора на початок
+    
 
 # RecursiveTreeIterator::rewind
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::rewind — Переклад ітератора на початок
 
 ### Опис
 
-public **RecursiveTreeIterator::rewind**(): void
+```methodsynopsis
+public RecursiveTreeIterator::rewind(): void
+```
 
-Ітератор перекладає на перший елемент верхнього рівня елементів.
-внутрішнього ітератора.
+Перекладає ітератор перший елемент верхнього рівня елементів внутрішнього ітератора.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

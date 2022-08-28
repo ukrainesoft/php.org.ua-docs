@@ -1,21 +1,27 @@
-- [« Lua::include](lua.include.md)
-- [LuaClosure »](class.luaclosure.md)
+Зареєструвати функцію PHP у Lua
 
-- [PHP Manual](index.md)
-- [Lua](class.lua.md)
-- Зареєструвати функцію PHP у Lua
+-   [« Lua::include](lua.include.html)
+    
+-   [LuaClosure »](class.luaclosure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Lua](class.lua.html)
+    
+-   Зареєструвати функцію PHP у Lua
+    
 
 # Lua::registerCallback
 
 (No version information available, might only be in Git)
 
-Lua::registerCallback — Зареєструвати функцію PHP в Lua
+Lua::registerCallback — Зареєструвати функцію PHP у Lua
 
 ### Опис
 
-public **Lua::registerCallback**(string `$name`,
-[callable](language.types.callable.md) `$function`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Lua::registerCallback(string $name, callable $function): mixed
+```
 
 Реєструє функцію PHP у Lua з ім'ям "$name"
 
@@ -24,26 +30,37 @@ public **Lua::registerCallback**(string `$name`,
 `name`
 
 `function`
+
 Коректна функція зворотного виклику PHP
 
 ### Значення, що повертаються
 
-Повертає `$this`, **`null`** у разі некоректних аргументів, або
-**`false`** у разі виникнення помилки.
+Повертає $this, **`null`** у разі некоректних аргументів, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Lua::registerCallback()****
 
-` <?php$lua = new Lua();$lua->registerCallback("echo", "var_dump");$lua->eval(<<<CODE   echo({1, 2, 3});CODE) ;?> `
+```php
+<?php
+$lua = new Lua();
+$lua->registerCallback("echo", "var_dump");
+$lua->eval(<<<CODE
+    echo({1, 2, 3});
+CODE
+);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(3) {
-[1]=>
-float(1)
-[2]=>
-float(2)
-[3]=>
-float(3)
+  [1]=>
+  float(1)
+  [2]=>
+  float(2)
+  [3]=>
+  float(3)
 }
+```

@@ -1,24 +1,31 @@
-- [« Yaf_Request_Simple::\_\_construct](yaf-request-simple.construct.md)
-- [Yaf_Request_Simple::getCookie »](yaf-request-simple.getcookie.md)
+Призначення get
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Simple](class.yaf-request-simple.md)
-- Призначення get
+-   [« Yaf\_Request\_Simple::\_\_construct](yaf-request-simple.construct.html)
+    
+-   [Yaf\_Request\_Simple::getCookie »](yaf-request-simple.getcookie.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Simple](class.yaf-request-simple.html)
+    
+-   Призначення get
+    
 
-# Yaf_Request_Simple::get
+# YafRequestSimple::get
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Simple::get — Призначення get
+YafRequestSimple::get — Призначення get
 
 ### Опис
 
-public **Yaf_Request_Simple::get**(): void
+```methodsynopsis
+public Yaf_Request_Simple::get(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

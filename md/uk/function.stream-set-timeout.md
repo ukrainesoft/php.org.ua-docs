@@ -1,70 +1,87 @@
-- [«stream_set_read_buffer](function.stream-set-read-buffer.md)
-- [stream_set_write_buffer »](function.stream-set-write-buffer.md)
+Встановити час очікування для потоку
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Встановити значення часу очікування потоку
+-   [« stream\_set\_read\_buffer](function.stream-set-read-buffer.html)
+    
+-   [stream\_set\_write\_buffer »](function.stream-set-write-buffer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Встановити час очікування для потоку
+    
 
-#stream_set_timeout
+# streamsettimeout
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-stream_set_timeout — Встановити час очікування для потоку.
+streamsettimeout — Встановлення часу очікування потоку.
 
 ### Опис
 
-**stream_set_timeout**(resource `$stream`, int `$seconds`, int
-`$microseconds` = 0): bool
+```methodsynopsis
+stream_set_timeout(resource $stream, int $seconds, int $microseconds = 0): bool
+```
 
-Встановлює значення часу очікування в потоці `stream`, що дорівнює сумі
-параметрів `seconds` та `microseconds`.
+Встановлює значення часу очікування у потоці `stream`, що дорівнює сумі параметрів `seconds` і `microseconds`
 
-Коли час роботи потоку спливає, ключ 'timed_out' масиву,
-повертається функцією
-[stream_get_meta_data()](function.stream-get-meta-data.md),
-встановлюється в значення **`true`**, хоча помилка чи попередження не
-генерується.
+Коли час роботи потоку спливає, ключ 'timedout' масиву, що повертається функцією [stream\_get\_meta\_data()](function.stream-get-meta-data.html), встановлюється в значення **`true`**хоча помилка або попередження не генерується.
 
 ### Список параметрів
 
 `stream`
+
 Цільовий потік.
 
 `seconds`
+
 Секунди в установленому часі очікування.
 
 `microseconds`
+
 Мікросекунди в установленому часі очікування.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_set_timeout()****
+**Приклад #1 Приклад використання **streamsettimeout()****
 
-` <?php$fp = fsockopen("www.example.com", 80);if (!$fp) {    echo "Неможливо відкрити сокет
-";} else {   fwrite($fp, "GET / HTTP/1.0
+```php
+<?php
+$fp = fsockopen("www.example.com", 80);
+if (!$fp) {
+    echo "Невозможно открыть сокет\n";
+} else {
 
-");    stream_set_timeout($fp, 2);    $res = fread($fp, 2000);    $info = stream_get_meta_data($fp);    fclose($fp);    if ($info['timed_out']) {        echo ' Закінчився час з'єднання!';
+    fwrite($fp, "GET / HTTP/1.0\r\n\r\n");
+    stream_set_timeout($fp, 2);
+    $res = fread($fp, 2000);
+
+    $info = stream_get_meta_data($fp);
+    fclose($fp);
+
+    if ($info['timed_out']) {
+        echo 'Истекло время соединения!';
+    } else {
+        echo $res;
+    }
+
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Ця функція не працює з просунутими операціями, такими як
-> [stream_socket_recvfrom()](function.stream-socket-recvfrom.md).
-> Використовуйте замість неї [stream_select()](function.stream-select.md)
-> з параметром часу очікування.
+> **Зауваження**
+> 
+> Ця функція не працює з просунутими операціями, такими як [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.html). Використовуйте замість неї [stream\_select()](function.stream-select.html) з параметром часу очікування.
 
-Ця функція раніше викликалася через **set_socket_timeout()** та пізніше
-через [socket_set_timeout()](function.socket-set-timeout.md), але це
-використання застаріло.
+Ця функція раніше викликалася через **setsockettimeout()** і пізніше через [socket\_set\_timeout()](function.socket-set-timeout.html)але це використання застаріло.
 
 ### Дивіться також
 
-- [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з
-інтернет-сокетом або доменним сокетом Unix
-- [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [fopen()](function.fopen.html) - Відкриває файл або URL

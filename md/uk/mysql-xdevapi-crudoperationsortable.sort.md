@@ -1,9 +1,15 @@
-- [« mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)
-- [mysql_xdevapi\DatabaseObject »](class.mysql-xdevapi-databaseobject.md)
+Сортує результати
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)
-- Сортує результати
+-   [« mysql\_xdevapi\\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
+    
+-   [mysql\_xdevapi\\DatabaseObject »](class.mysql-xdevapi-databaseobject.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.html)
+    
+-   Сортує результати
+    
 
 # CrudOperationSortable::sort
 
@@ -13,26 +19,21 @@ CrudOperationSortable::sort — Сортує результати
 
 ### Опис
 
-abstract public **mysql_xdevapi\CrudOperationSortable::sort**(string
-`$sort_expr`):
-[mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)
+```methodsynopsis
+abstract public mysql_xdevapi\CrudOperationSortable::sort(string $sort_expr): mysql_xdevapi\CrudOperationSortable
+```
 
-Сортує результуючий набір по полю, вибраному аргументом
-sort_expr. Допустимий порядок сортування: ASC (за зростанням) або DESC
-(по спаданню). Ця операція еквівалентна операції SQL 'ORDER BY' та
-слід тому ж набору правил.
+Сортує результуючий набір по полю, вибраному в аргументі sortexpr. Допустимий порядок сортування: ASC (за зростанням) або DESC (за спаданням). Ця операція еквівалентна операції SQL 'ORDER BY' і слідує тому ж набору правил.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `sort_expr`
-Може бути надано один або кілька виразів сортування.
-Обчислення виконується зліва направо, і кожен вираз поділяється
-комою.
+
+Може бути надано один або кілька виразів сортування. Обчислення виконується зліва направо, і кожен вираз розділяється комою.
 
 ### Значення, що повертаються
 
@@ -40,7 +41,12 @@ sort_expr. Допустимий порядок сортування: ASC (за �
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CrudOperationSortable::sort()****
+**Приклад #1 Приклад використання **mysqlxdevapiCrudOperationSortable::sort()****
 
-` <?php$res = $coll->find('job like \'Cavia\'')->sort('age desc', '_id desc')->execute();?> `
+```php
+<?php
+
+$res = $coll->find('job like \'Cavia\'')->sort('age desc', '_id desc')->execute();
+
+?>
+```

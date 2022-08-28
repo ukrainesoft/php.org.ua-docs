@@ -1,15 +1,21 @@
-- [«Вступ](intro.xmlwriter.md)
-- [Вимоги »](xmlwriter.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [XMLWriter](book.xmlwriter.md)
+-   [« Введение](intro.xmlwriter.html)
+    
+-   [Требования »](xmlwriter.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](book.xmlwriter.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xmlwriter.requirements.md)
-- [Установка](xmlwriter.installation.md)
-- [Налаштування під час виконання](xmlwriter.configuration.md)
-- [Типи ресурсів](xmlwriter.resources.md)
+-   [Требования](xmlwriter.requirements.html)
+-   [Установка](xmlwriter.installation.html)
+-   [Настройка во время выполнения](xmlwriter.configuration.html)
+-   [Типы ресурсов](xmlwriter.resources.html)

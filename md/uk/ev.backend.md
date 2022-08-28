@@ -1,23 +1,32 @@
-- [«Ev](class.ev.md)
-- [Ev::depth »](ev.depth.md)
+Повертає ціле число, що описує бекенд, використовуваний libev
 
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Повертає ціле число, що описує бекенд, використовуваний libev
+-   [« Ev](class.ev.html)
+    
+-   [Ev::depth »](ev.depth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ev](class.ev.html)
+    
+-   Повертає ціле число, що описує бекенд, використовуваний libev
+    
 
 # Ev::backend
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-Ev::backend - Повертає ціле число, що описує бекенд, що використовується
-libev
+Ev::backend - Повертає ціле число, що описує бекенд, що використовується libev
 
 ### Опис
 
-final public static **Ev::backend**(): int
+```methodsynopsis
+final
+   public
+   static
+   Ev::backend(): int
+```
 
-Повертає ціле число, що описує бекенд, який використовується *libev*.
-Дивіться [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
+Повертає ціле число, що описує бекенд, що використовується *libev*. Дивіться [Флаги бэкенда](class.ev.html#ev.constants.watcher-backends)
 
 ### Список параметрів
 
@@ -25,16 +34,12 @@ final public static **Ev::backend**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число (бітова маска), що описує бекенд, що використовується
-* libev *.
+Повертає ціле число (бітова маска), що описує бекенд, що використовується *libev*
 
 ### Дивіться також
 
-- [EvEmbed](class.evembed.md)
-- [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає
-набір бекендів, які можна вбудувати в інші цикли подій
-- [Ev::recommendedBackends()](ev.recommendedbackends.md) - Отримати
-бітову маску рекомендованих бекендів для даної платформи
-- [Ev::supportedBackends()](ev.supportedbackends.md) - Повертає
-набір бекендів, що підтримуються поточною конфігурацією libev
-- [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
+-   [EvEmbed](class.evembed.html)
+-   [Ev::embeddableBackends()](ev.embeddablebackends.html) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::recommendedBackends()](ev.recommendedbackends.html) - Отримати бітову маску рекомендованих бекендів для даної платформи
+-   [Ev::supportedBackends()](ev.supportedbackends.html) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
+-   [Флаги бэкенда](class.ev.html#ev.constants.watcher-backends)

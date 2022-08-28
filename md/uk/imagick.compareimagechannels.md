@@ -1,42 +1,47 @@
-- [« Imagick::commentImage](imagick.commentimage.md)
-- [Imagick::compareImageLayers »](imagick.compareimagelayers.md)
+Повертає різницю в одному або кількох зображеннях
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає різницю в одному або кількох зображеннях
+-   [« Imagick::commentImage](imagick.commentimage.html)
+    
+-   [Imagick::compareImageLayers »](imagick.compareimagelayers.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає різницю в одному або кількох зображеннях
+    
 
 # Imagick::compareImageChannels
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::compareImageChannels — Повертає різницю в одному або
-кількох зображеннях
+Imagick::compareImageChannels — Повертає різницю в одному або кількох зображеннях
 
 ### Опис
 
-public **Imagick::compareImageChannels**([Imagick](class.imagick.md)
-`$image`, int `$channelType`, int `$metricType`): array
+```methodsynopsis
+public Imagick::compareImageChannels(Imagick $image, int $channelType, int $metricType): array
+```
 
-Порівнює одне або кілька зображень і повертає різницеве
-зображення.
+Порівнює одне або кілька зображень та повертає різницеве ​​зображення.
 
 ### Список параметрів
 
 `image`
-Об'єкт Imagick, який містить зображення для порівняння.
+
+Об'єкт Imagick, що містить зображення для порівняння.
 
 `channelType`
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму
-каналу. Для застосування більш ніж одного каналу об'єднайте константи
-типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку
-[констант CHANNEL](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
 
 `metricType`
-Одна з [констант типу METRIC](imagick.constants.md#imagick.constants.metric).
+
+Одна з [констант типа METRIC](imagick.constants.html#imagick.constants.metric)
 
 ### Значення, що повертаються
 
-Масив, що складається з `new_wand` та `distortion`.
+Масив, що складається з `new_wand` і `distortion`
 
 ### Помилки
 

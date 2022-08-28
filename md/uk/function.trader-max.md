@@ -1,29 +1,38 @@
-- [ trader_mavp](function.trader-mavp.md)
-- [trader_maxindex »](function.trader-maxindex.md)
+Найбільше значення за вказаний період
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Найбільше значення за вказаний період
+-   [« trader\_mavp](function.trader-mavp.html)
+    
+-   [trader\_maxindex »](function.trader-maxindex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Найбільше значення за вказаний період
+    
 
-# trader_max
+# tradermax
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_max — Найбільше значення за вказаний період
+tradermax — Найбільше значення за вказаний період
 
 ### Опис
 
-**trader_max**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_max(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

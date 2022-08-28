@@ -1,74 +1,75 @@
-- [«pg_insert](function.pg-insert.md)
-- [pg_last_notice »](function.pg-last-notice.md)
+Отримує повідомлення про останню помилку на з'єднанні з базою даних.
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Отримує повідомлення про останню помилку на з'єднанні з
-базою даних
+-   [« pg\_insert](function.pg-insert.html)
+    
+-   [pg\_last\_notice »](function.pg-last-notice.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+    
 
-#pg_last_error
+# пгlasterror
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_last_error — Отримує повідомлення про останню помилку, що відбулася на
-з'єднанні з базою даних
+пгlasterror — Отримує повідомлення про помилку, що відбулася на з'єднанні з базою даних.
 
 ### Опис
 
-**pg_last_error**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): string
+```methodsynopsis
+pg_last_error(?PgSql\Connection $connection = null): string
+```
 
-**pg_last_error()** повертає повідомлення про останню помилку на заданому
-з'єднанні `connection`.
+**пгlasterror()** повертає повідомлення про останню помилку на заданому з'єднанні `connection`
 
-Повідомлення про помилки можуть перезаписуватися під час внутрішніх викликів
-функцій PostgreSQL (libpq). Якщо всередині модуля PostgreSQL відбудеться
-кілька помилок, повідомлення може бути неінформативним.
+Повідомлення про помилки можуть перезаписуватися під час внутрішніх викликів функцій PostgreSQL (libpq). Якщо всередині модуля PostgreSQL буде кілька помилок, повідомлення може виявитися неінформативним.
 
-Для обробки помилок краще використовувати функції
-[pg_result_error()](function.pg-result-error.md),
-[pg_result_error_field()](function.pg-result-error-field.md),
-[pg_result_status()](function.pg-result-status.md) та
-[pg_connection_status()](function.pg-connection-status.md).
+Для обробки помилок краще використовувати функції [pg\_result\_error()](function.pg-result-error.html) [pg\_result\_error\_field()](function.pg-result-error-field.html) [pg\_result\_status()](function.pg-result-status.html) і [pg\_connection\_status()](function.pg-connection-status.html)
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_errormessage()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгerrormessage()**
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Рядок, що містить повідомлення про останню помилку, що сталася на
-з'єднанні `connection`.
+Рядок, що містить повідомлення про останню помилку, що сталася на з'єднанні `connection`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_last_error()****
+**Приклад #1 Приклад використання **пгlasterror()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з сервером"); // Невдалий запит  $res = pg_query($dbconn, "select * from doesnotexist"); echo pg_last_error($dbconn);?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с сервером");
+
+  // Неудачный запрос
+  $res = pg_query($dbconn, "select * from doesnotexist");
+
+  echo pg_last_error($dbconn);
+?>
+```
 
 ### Дивіться також
 
-- [pg_result_error()](function.pg-result-error.md) - Повертає
-повідомлення про помилку, пов'язане із запитом результату
-- [pg_result_error_field()](function.pg-result-error-field.md) -
-Повертає конкретне поле зі звіту про помилки
+-   [pg\_result\_error()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [pg\_result\_error\_field()](function.pg-result-error-field.html) - Повертає конкретне поле зі звіту про помилки

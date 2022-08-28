@@ -1,43 +1,45 @@
-- [« fann_descale_input](function.fann-descale-input.md)
-- [fann_descale_train »](function.fann-descale-train.md)
+Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Масштабує дані у вихідному векторі після отримання їх на основі
-раніше розрахованих параметрів
+-   [« fann\_descale\_input](function.fann-descale-input.html)
+    
+-   [fann\_descale\_train »](function.fann-descale-train.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
+    
 
-# fann_descale_output
+# fanndescaleoutput
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_descale_output — Масштабує дані у вихідному векторі після
-отримання їх на основі раніше розрахованих параметрів
+fanndescaleoutput — Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
 
 ### Опис
 
-**fann_descale_output**(resource `$ann`, array `$output_vector`): bool
+```methodsynopsis
+fann_descale_output(resource $ann, array $output_vector): bool
+```
 
-Масштабує дані у вихідному векторі після отримання їх на основі
-раніше розрахованих параметрів.
+Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `output_vector`
+
 Вихідний вектор, який буде масштабовано
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_scale_output()](function.fann-scale-output.md) -
-Масштабує дані у вихідному векторі перед їх передачею в ann
-основі раніше розрахованих параметрів
-- [fann_descale_input()](function.fann-descale-input.md) -
-Масштабує дані у вхідному векторі після отримання на основі
-раніше розрахованих параметрів
+-   [fann\_scale\_output()](function.fann-scale-output.html) - Масштабує дані у вихідному векторі перед їх передачею в ann на основі раніше розрахованих параметрів
+-   [fann\_descale\_input()](function.fann-descale-input.html) - Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів

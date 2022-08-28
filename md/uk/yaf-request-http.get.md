@@ -1,47 +1,47 @@
-- [« Yaf_Request_Http::\_\_construct](yaf-request-http.construct.md)
-- [Yaf_Request_Http::getCookie »](yaf-request-http.getcookie.md)
+Отримує змінну від клієнта
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Http](class.yaf-request-http.md)
-- Отримує змінну від клієнта
+-   [« Yaf\_Request\_Http::\_\_construct](yaf-request-http.construct.html)
+    
+-   [Yaf\_Request\_Http::getCookie »](yaf-request-http.getcookie.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Http](class.yaf-request-http.html)
+    
+-   Отримує змінну від клієнта
+    
 
-# Yaf_Request_Http::get
+# YafRequestHttp::get
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Http::get — Отримує змінну від клієнта
+YafRequestHttp::get — Отримує змінну від клієнта
 
 ### Опис
 
-public **Yaf_Request_Http::get**(string `$name`, string `$default` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Yaf_Request_Http::get(string $name, string $default = ?): mixed
+```
 
-Отримуючи змінну від клієнта, метод шукатиме `name` у параметрах
-запиту, якщо ім'я не знайдено, буде шукати в POST, GET, Cookie,
-Server
+Отримує змінну від клієнта, метод шукатиме `name` у параметрах запиту, якщо ім'я не знайдено, буде шукати в POST, GET, Cookie, Server
 
 ### Список параметрів
 
 `name`
+
 Ім'я змінної
 
 `default`
-Якщо параметр вказано, він буде повернутий, якщо змінна не
-знайдено
+
+Якщо параметр вказано, він буде повернутий, якщо змінна не знайдена
 
 ### Значення, що повертаються
 
 ### Дивіться також
 
-- [Yaf_Request_Http::getQuery()](yaf-request-http.getquery.md) -
-Отримує параметр запиту
-- [Yaf_Request_Http::getPost()](yaf-request-http.getpost.md) -
-Отримує змінну POST
-- [Yaf_Request_Http::getCookie()](yaf-request-http.getcookie.md) -
-Отримує змінну Cookie
-- [Yaf_Request_Http::getRaw()](yaf-request-http.getraw.md) -
-Отримує необроблене тіло запиту
-- [Yaf_Request_Abstract::getServer()](yaf-request-abstract.getserver.md) -
-Отримує змінну SERVER
-- [Yaf_Request_Abstract::getParam()](yaf-request-abstract.getparam.md) -
-Отримує параметр дзвінка
+-   [Yaf\_Request\_Http::getQuery()](yaf-request-http.getquery.html) - Отримує параметр запиту
+-   [Yaf\_Request\_Http::getPost()](yaf-request-http.getpost.html) - Отримує змінну POST
+-   [Yaf\_Request\_Http::getCookie()](yaf-request-http.getcookie.html) - Отримує змінну Cookie
+-   [Yaf\_Request\_Http::getRaw()](yaf-request-http.getraw.html) - Отримує необроблене тіло запиту
+-   [Yaf\_Request\_Abstract::getServer()](yaf-request-abstract.getserver.html) - Отримує змінну SERVER
+-   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка

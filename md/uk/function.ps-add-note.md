@@ -1,83 +1,77 @@
-- [«ps_add_locallink](function.ps-add-locallink.md)
-- [ps_add_pdflink »](function.ps-add-pdflink.md)
+Додає примітку до поточної сторінки
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Додає примітку до поточної сторінки
+-   [« ps\_add\_locallink](function.ps-add-locallink.html)
+    
+-   [ps\_add\_pdflink »](function.ps-add-pdflink.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Додає примітку до поточної сторінки
+    
 
-#ps_add_note
+# псaddnote
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_add_note — Додає примітку до поточної сторінки
+псaddnote — Додає нотатку до поточної сторінки
 
 ### Опис
 
-**ps_add_note**(
-resource `$psdoc`,
-float `$llx`,
-float `$lly`,
-float `$urx`,
-float `$ury`,
-string `$contents`,
-string `$title`,
-string `$icon`,
-int `$open`
-): bool
+```methodsynopsis
+ps_add_note(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $contents,    string $title,    string $icon,    int $open): bool
+```
 
-Додає примітку до певного місця на сторінці. Примітки
-на маленькі прямокутні листи з текстом, які можна розмістити в
-будь-яке місце сторінки. Вони показані у згорнутому чи розгорнутому вигляді. В
-згорнутому вигляді зазначений значок використовується як заповнювач.
+Додає примітку до певного місця на сторінці. Примітки нагадують маленькі прямокутні аркуші з текстом, які можна розмістити в будь-якому місці сторінки. Вони показані у згорнутому чи розгорнутому вигляді. У згорнутому вигляді зазначений значок використовується як заповнювач.
 
-Примітка не відображатиметься під час друку або перегляду документа, але
-буде показано при конвертуванні документа в PDF за допомогою Acrobat
-Distiller™ або Ghostview.
+Примітка не відображатиметься під час друку або перегляду документа, але буде показана під час конвертування документа в pdf за допомогою Acrobat Distiller™ або Ghostview.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
 
 `llx`
+
 Координата X лівого нижнього кута.
 
 `lly`
+
 Координата Y лівого нижнього кута.
 
 `urx`
+
 Координата X правого верхнього кута.
 
 `ury`
+
 Координата Y правого верхнього кута.
 
 `contents`
-Текст примітки.
+
+Примітка тексту.
 
 `title`
+
 Назва примітки, що відображається у заголовку примітки.
 
 `icon`
-Якщо примітка складена, значок відображається. Можливо: `comment`,
-`insert`, `note`, `paragraph`, `newparagraph`, `key` або `help`.
+
+Значок відображається, якщо нотатка складена. Може бути: `comment` `insert` `note` `paragraph` `newparagraph` `key` або `help`
 
 `open`
-Якщо `open` не дорівнює нулю, замітка буде відображатися розгорнутою після
-відкриття документа за допомогою програми перегляду PDF.
+
+Якщо `open` не дорівнює нулю, нотатка буде відображатися розгорнутою після відкриття документа за допомогою програми перегляду PDF.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_add_pdflink()](function.ps-add-pdflink.md) - Додає посилання
-на сторінку в іншому PDF-документі
-- [ps_add_launchlink()](function.ps-add-launchlink.md) - Додає
-посилання, що запускає файл
-- [ps_add_locallink()](function.ps-add-locallink.md) - Додає
-посилання на сторінку того ж документа
-- [ps_add_weblink()](function.ps-add-weblink.md) - Додає посилання
-на веб-сторінку
+-   [ps\_add\_pdflink()](function.ps-add-pdflink.html) - Додає посилання на сторінку в іншому PDF-документі
+-   [ps\_add\_launchlink()](function.ps-add-launchlink.html) - Додає посилання, яке запускає файл
+-   [ps\_add\_locallink()](function.ps-add-locallink.html) - Додає посилання на сторінку того самого документа
+-   [ps\_add\_weblink()](function.ps-add-weblink.html) - Додає посилання на веб-сторінку

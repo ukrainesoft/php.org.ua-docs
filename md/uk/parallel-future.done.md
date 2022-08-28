@@ -1,18 +1,24 @@
-- [« parallel\Future::cancelled](parallel-future.cancelled.md)
-- [parallel\Future::value »](parallel-future.value.md)
+Визначення стану
 
-- [PHP Manual](index.md)
-- [parallel\Future](class.parallel-future.md)
-- Визначення стану
+-   [« parallel\\Future::cancelled](parallel-future.cancelled.html)
+    
+-   [parallel\\Future::value »](parallel-future.value.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Future](class.parallel-future.html)
+    
+-   Визначення стану
+    
 
-# parallel\Future::done
+# parallelFuture::done
 
-(0.8.0)
-
-parallel\Future::done — Визначення стану
+parallelFuture::done — Визначення стану
 
 ### Опис
 
-public **parallel\Future::done**(): bool
+```methodsynopsis
+public parallel\Future::done(): bool
+```
 
 Вказує, чи виконано завдання

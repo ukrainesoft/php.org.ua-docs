@@ -1,71 +1,64 @@
-- [« fann_set_activation_function_output](function.fann-set-activation-function-output.md)
-- [fann_set_activation_steepness_hidden »](function.fann-set-activation-steepness-hidden.md)
+Встановлює функцію активації для вказаного нейрона та шару
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює функцію активації для вказаного нейрона та шару
+-   [« fann\_set\_activation\_function\_output](function.fann-set-activation-function-output.html)
+    
+-   [fann\_set\_activation\_steepness\_hidden »](function.fann-set-activation-steepness-hidden.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює функцію активації для вказаного нейрона та шару
+    
 
-# fann_set_activation_function
+# fannsetactivationfunction
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_activation_function — Встановлює функцію активації для
-зазначеного нейрона та шару
+fannsetactivationfunction — Встановлює функцію активації для вказаного нейрона та шару
 
 ### Опис
 
-**fann_set_activation_function**(
-resource `$ann`,
-int `$activation_function`,
-int `$layer`,
-int `$neuron`
-): bool
+```methodsynopsis
+fann_set_activation_function(    resource $ann,    int $activation_function,    int $layer,    int $neuron): bool
+```
 
-Встановіть функцію активації для нейрона номер `neuron` у шарі номер
-`layer`, рахуючи вхідний шар як шар 0.
+Встановіть функцію активації для нейрона номер `neuron` у шарі номер `layer`, Вважаючи вхідний шар як шар 0.
 
 Неможливо встановити функції активації для нейронів у вхідному шарі.
 
-При виборі функції активації важливо враховувати, що функції активації
-різний діапазон. **`FANN_SIGMOID`**, наприклад, в діапазоні від 0 до 1,
-той час як **`FANN_SIGMOID_SYMMETRIC`** знаходиться в діапазоні від -1 до
-1, а **`FANN_LINEAR`** без обмежень.
+При виборі функції активації важливо враховувати, що функції активації мають різний діапазон . **`FANN_SIGMOID`**наприклад, в діапазоні від 0 до 1, у той час як **`FANN_SIGMOID_SYMMETRIC`** знаходиться в діапазоні від -1 до 1, а **`FANN_LINEAR`** без обмежень.
 
-Надане значення activation_function має бути однією з
-констант [функцій активації](fann.constants.md#constants.fann-activation-funcs).
+Надане значення activationfunction має бути однією з констант [функций активации](fann.constants.html#constants.fann-activation-funcs)
 
-Значення, що повертається - одна з констант [функцій активації](fann.constants.md#constants.fann-train).
+Значення, що повертається - одна з констант [функций активации](fann.constants.html#constants.fann-train)
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `activation_function`
-Константа [функцій активації](fann.constants.md#constants.fann-activation-funcs).
+
+Константа [функций активации](fann.constants.html#constants.fann-activation-funcs)
 
 `layer`
+
 Номер шару.
 
 `neuron`
+
 Номер нейрона.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_set_activation_function_layer()](function.fann-set-activation-function-layer.md) -
-Встановлює функцію активації для всіх нейронів у наданому
-шарі
-- [fann_set_activation_function_hidden()](function.fann-set-activation-function-hidden.md) -
-Встановлює функцію активації для всіх прихованих шарів
-- [fann_set_activation_function_output()](function.fann-set-activation-function-output.md) -
-Встановлює функцію активації для вихідного шару
-- [fann_set_activation_steepness()](function.fann-set-activation-steepness.md) -
-Встановлює крутість активації для вказаного нейрона та номера
-шару
-- [fann_get_activation_function()](function.fann-get-activation-function.md) -
-Повертає функцію активації
+-   [fann\_set\_activation\_function\_layer()](function.fann-set-activation-function-layer.html) - Встановлює функцію активації для всіх нейронів у наданому шарі
+-   [fann\_set\_activation\_function\_hidden()](function.fann-set-activation-function-hidden.html) - Встановлює функцію активації для всіх прихованих шарів
+-   [fann\_set\_activation\_function\_output()](function.fann-set-activation-function-output.html) - Встановлює функцію активації для вихідного шару
+-   [fann\_set\_activation\_steepness()](function.fann-set-activation-steepness.html) - Встановлює крутість активації для вказаного нейрона та номера шару
+-   [fann\_get\_activation\_function()](function.fann-get-activation-function.html) - Повертає функцію активації

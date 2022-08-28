@@ -1,66 +1,69 @@
-- [« XMLWriter::startDocument](xmlwriter.startdocument.md)
-- [XMLWriter::startDtdAttlist »](xmlwriter.startdtdattlist.md)
+Створити стартовий DTD тег
 
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Створити стартовий DTD тег
+-   [« XMLWriter::startDocument](xmlwriter.startdocument.html)
+    
+-   [XMLWriter::startDtdAttlist »](xmlwriter.startdtdattlist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](class.xmlwriter.html)
+    
+-   Створити стартовий DTD тег
+    
 
 # XMLWriter::startDtd
 
-#xmlwriter_start_dtd
+# xmlwriterstartdtd
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startDtd -- xmlwriter_start_dtd — Створити стартовий DTD тег
+XMLWriter::startDtd -- xmlwriterstartdtd - Створити стартовий DTD тег
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::startDtd**(string `$qualifiedName`, ?string
-`$publicId` = **`null`**, ?string `$systemId` = **`null`**): bool
+```methodsynopsis
+public XMLWriter::startDtd(string $qualifiedName, ?string $publicId = null, ?string $systemId = null): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_start_dtd**(
-[XMLWriter](class.xmlwriter.md) `$writer`,
-string `$qualifiedName`,
-?string `$publicId` = **`null`**,
-?string `$systemId` = **`null`**
-): bool
+```methodsynopsis
+xmlwriter_start_dtd(    XMLWriter $writer,    string $qualifiedName,    ?string $publicId = null,    ?string $systemId = null): bool
+```
 
 Починає DTD.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
 
 `qualifiedName`
+
 Цілком визначене ім'я типу документа для створення.
 
 `publicId`
+
 Ідентифікатор зовнішнього громадського підмножини.
 
 `systemId`
+
 Ідентифікатор зовнішнього системного підмножини.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::endDtd()](xmlwriter.enddtd.md) - Завершити поточний DTD
-- [XMLWriter::writeDtd()](xmlwriter.writedtd.md) - Записати повний
-тег DTD
+-   [XMLWriter::endDtd()](xmlwriter.enddtd.html) - Завершити поточний DTD
+-   [XMLWriter::writeDtd()](xmlwriter.writedtd.html) - Записати повний тег DTD

@@ -1,23 +1,29 @@
-- [« MongoDB\Driver\Session::getTransactionState](mongodb-driver-session.gettransactionstate.md)
-- [MongoDB\Driver\Session::isInTransaction »](mongodb-driver-session.isintransaction.md)
+Повертає, чи сесія була позначена як брудна
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- Повертає, чи сесія була позначена як брудна
+-   [« MongoDB\\Driver\\Session::getTransactionState](mongodb-driver-session.gettransactionstate.html)
+    
+-   [MongoDB\\Driver\\Session::isInTransaction »](mongodb-driver-session.isintransaction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
+    
+-   Повертає, чи сесія була позначена як брудна
+    
 
-# MongoDB\Driver\Session::isDirty
+# MongoDBDriverSession::isDirty
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Session::isDirty - Повертає, чи була сесія позначена
-як брудна
+MongoDBDriverSession::isDirty - Повертає, чи була сесія позначена як брудна
 
 ### Опис
 
-final public **MongoDB\Driver\Session::isDirty**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Session::isDirty(): bool
+```
 
-Повертає, чи була сесія позначена як брудна (тобто була вона
-використано з командою, яка зіткнулася з мережевою помилкою).
+Повертає, чи була сесія позначена як брудна (тобто була використана з командою, яка зіткнулася з мережевою помилкою).
 
 ### Список параметрів
 
@@ -29,5 +35,4 @@ final public **MongoDB\Driver\Session::isDirty**(): bool
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

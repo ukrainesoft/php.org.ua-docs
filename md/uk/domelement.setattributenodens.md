@@ -1,9 +1,15 @@
-- [« DOMElement::setAttributeNode](domelement.setattributenode.md)
-- [DOMElement::setAttributeNS »](domelement.setattributens.md)
+Додає новий атрибут елемент
 
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Додає новий атрибут елемент
+-   [« DOMElement::setAttributeNode](domelement.setattributenode.html)
+    
+-   [DOMElement::setAttributeNS »](domelement.setattributens.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMElement](class.domelement.html)
+    
+-   Додає новий атрибут елемент
+    
 
 # DOMElement::setAttributeNodeNS
 
@@ -13,14 +19,16 @@ DOMElement::setAttributeNodeNS — Додає новий атрибут елем
 
 ### Опис
 
-public **DOMElement::setAttributeNodeNS**([DOMAttr](class.domattr.md)
-`$attr`): [DOMAttr](class.domattr.md)\|null\|false
+```methodsynopsis
+public DOMElement::setAttributeNodeNS(DOMAttr $attr): DOMAttr|null|false
+```
 
-Додає новий вузол атрибуту 'attr' елемент.
+Додає новий вузол атрибуту `attr` елемент.
 
 ### Список параметрів
 
 `attr`
+
 Вузол атрибуту.
 
 ### Значення, що повертаються
@@ -30,13 +38,11 @@ public **DOMElement::setAttributeNodeNS**([DOMAttr](class.domattr.md)
 ### Помилки
 
 **`DOM_NO_MODIFICATION_ALLOWED_ERR`**
+
 Виникає, якщо вузол доступний лише читання.
 
 ### Дивіться також
 
-- [DOMElement::hasAttributeNS()](domelement.hasattributens.md) -
-Перевіряє, чи існує заданий атрибут
-- [DOMElement::getAttributeNodeNS()](domelement.getattributenodens.md) -
-Повертає вузол атрибуту
-- [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) -
-Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttributeNodeNS()](domelement.getattributenodens.html) - Повертає вузол атрибуту
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.html) - Видаляє атрибут

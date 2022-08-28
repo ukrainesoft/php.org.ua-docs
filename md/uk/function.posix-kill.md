@@ -1,38 +1,44 @@
-- [«posix_isatty](function.posix-isatty.md)
-- [posix_mkfifo »](function.posix-mkfifo.md)
+Надсилає сигнал відповідному процесу
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Надсилає сигнал відповідному процесу
+-   [« posix\_isatty](function.posix-isatty.html)
+    
+-   [posix\_mkfifo »](function.posix-mkfifo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Надсилає сигнал відповідному процесу
+    
 
-#posix_kill
+# posixkill
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_kill — Надсилає сигнал відповідному процесу
+posixkill — Надсилає сигнал відповідному процесу
 
 ### Опис
 
-**posix_kill**(int `$process_id`, int `$signal`): bool
+```methodsynopsis
+posix_kill(int $process_id, int $signal): bool
+```
 
-Відправляє сигнал `signal` процесу з ідентифікатором `process_id`.
+Надсилає сигнал `signal` процесу з ідентифікатором `process_id`
 
 ### Список параметрів
 
 `process_id`
+
 Ідентифікатор процесу.
 
 `signal`
-Один із [PCNTL констант сигналов](pcntl.constants.md).
+
+Одна з [PCNTL констант сигналов](pcntl.constants.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- kill(2) посібник для POSIX систем, які містять
-додаткову інформацію про негативні ідентифікатори
-процесів, спеціальному ідентифікаторі 0, спеціальному ідентифікаторі
--1, і сигнал з ідентифікатором 0.
+-   kill(2) посібник для POSIX систем, які містять додаткову інформацію про негативні ідентифікатори процесів, спеціальний ідентифікатор 0, спеціальний ідентифікатор -1, і сигнал з ідентифікатором 0.

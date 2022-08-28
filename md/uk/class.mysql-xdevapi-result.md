@@ -1,47 +1,53 @@
-- [« Expression::\_\_construct](mysql-xdevapi-expression.construct.md)
-- [Result::\_\_construct »](mysql-xdevapi-result.construct.md)
+Клас Result
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас Result
+-   [« Expression::\_\_construct](mysql-xdevapi-expression.construct.html)
+    
+-   [Result::\_\_construct »](mysql-xdevapi-result.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас Result
+    
 
 # Клас Result
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\Result** implements
-[mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md),
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public **getAffectedItemsCount**(): int
 
-public **getAutoIncrementValue**(): int
+    
+     
+      class mysql_xdevapi\Result
+     
 
-public **getGeneratedIds**(): array
+     implements 
+       mysql_xdevapi\BaseResult,  Traversable {
 
-public **getWarnings**(): array
 
-public **getWarningsCount**(): int
+    /* Методы */
+    
+   public getAffectedItemsCount(): int
+public getAutoIncrementValue(): int
+public getGeneratedIds(): array
+public getWarnings(): array
+public getWarningsCount(): int
 
-}
+   }
+```
 
 ## Зміст
 
-- [Result::\_\_construct](mysql-xdevapi-result.construct.md) -
-Конструктор класу Result
-- [Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.md)
-— Отримує кількість порушених рядків
-- [Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.md)
-— Отримує значення автоінкремента
-- [Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.md)
-— Отримує згенеровані ідентифікатори
-- [Result::getWarnings](mysql-xdevapi-result.getwarnings.md) -
-Отримує попередження останньої операції
-- [Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.md)
-— Отримує кількість попереджень останньої операції
+-   [Result::\_\_construct](mysql-xdevapi-result.construct.html) - Конструктор класу Result
+-   [Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.html) — Отримує кількість порушених рядків
+-   [Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.html) — Отримує значення автоінкремента
+-   [Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.html) — Отримує згенеровані ідентифікатори
+-   [Result::getWarnings](mysql-xdevapi-result.getwarnings.html) — Отримує попередження останньої операції
+-   [Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.html) — Отримує кількість попереджень останньої операції

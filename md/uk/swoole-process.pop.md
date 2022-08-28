@@ -1,20 +1,27 @@
-- [« Swoole\Process::name](swoole-process.name.md)
-- [Swoole\Process::push »](swoole-process.push.md)
+Читає та витягує дані з черги повідомлень
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Читає та витягує дані з черги повідомлень
+-   [« Swoole\\Process::name](swoole-process.name.html)
+    
+-   [Swoole\\Process::push »](swoole-process.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Читає та витягує дані з черги повідомлень
+    
 
-# Swoole\Process::pop
+# SwooleProcess::pop
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::pop — Читає та витягує дані з черги повідомлень
+SwooleProcess::pop — Читає та витягує дані з черги повідомлень
 
 ### Опис
 
-public **Swoole\Process::pop**(int `$maxsize` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Swoole\Process::pop(int $maxsize = ?): mixed
+```
 
 ### Список параметрів
 

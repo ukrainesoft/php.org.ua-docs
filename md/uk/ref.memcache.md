@@ -1,13 +1,18 @@
-- [« Memcache::setServerParams](memcache.setserverparams.md)
-- [memcache_debug »](function.memcache-debug.md)
+Функції Memcache
 
-- [PHP Manual](index.md)
-- [Memcache](book.memcache.md)
-- Функції Memcache
+-   [« Memcache::setServerParams](memcache.setserverparams.html)
+    
+-   [memcache\_debug »](function.memcache-debug.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcache](book.memcache.html)
+    
+-   Функції Memcache
+    
 
 # Функції Memcache
 
 ## Зміст
 
-- [memcache_debug](function.memcache-debug.md) — Увімкнути/вимкнути
-виведення налагоджувальної інформації
+-   [memcache\_debug](function.memcache-debug.html) — Увімкнути/вимкнути виведення налагоджувальної інформації

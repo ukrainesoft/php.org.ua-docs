@@ -1,28 +1,32 @@
-- [«EventBufferEvent::getEnabled](eventbufferevent.getenabled.md)
-- [EventBufferEvent::getOutput »](eventbufferevent.getoutput.md)
+Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Повертає базовий вхідний буфер, пов'язаний із поточним буферним
-подією
+-   [« EventBufferEvent::getEnabled](eventbufferevent.getenabled.html)
+    
+-   [EventBufferEvent::getOutput »](eventbufferevent.getoutput.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
+    
 
 # EventBufferEvent::getInput
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBufferEvent::getInput — Повертає базовий вхідний буфер, пов'язаний
-з поточною буферною подією
+EventBufferEvent::getInput — Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
 
 ### Опис
 
-public **EventBufferEvent::getInput**():
-[EventBuffer](class.eventbuffer.md)
+```methodsynopsis
+public
+   EventBufferEvent::getInput(): EventBuffer
+```
 
-Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією.
-Вхідний буфер – це сховище даних для читання.
+Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією. Вхідний буфер - це сховище для читання.
 
-Зверніть увагу, що є також ` input ` властивість класу
-[EventBufferEvent](class.eventbufferevent.md).
+Зверніть увагу, що є також `[input](class.eventbufferevent.html#eventbufferevent.props.input)` властивість класу [EventBufferEvent](class.eventbufferevent.html)
 
 ### Список параметрів
 
@@ -30,17 +34,24 @@ public **EventBufferEvent::getInput**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр класу [EventBuffer](class.eventbuffer.md)
-вхідного буфера, пов'язаного із поточною буферною подією.
+Повертає екземпляр класу [EventBuffer](class.eventbuffer.html) вхідного буфера, пов'язаного з поточною буферною подією.
 
 ### Приклади
 
 **Приклад #1 Callback-функція читання буфера**
 
-` <?phpfunction readcb($bev, $base) {    $input = $bev->input; //$bev->getInput(); while(($n = $input->remove($buf, 1024)) > 0) {       echo $buf; }}?> `
+```php
+<?php
+function readcb($bev, $base) {
+    $input = $bev->input; //$bev->getInput();
+
+    while (($n = $input->remove($buf, 1024)) > 0) {
+        echo $buf;
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [EventBufferEvent::getOutput()](eventbufferevent.getoutput.md) -
-Повертає базовий вихідний буфер, пов'язаний із поточним буферним
-подією
+-   [EventBufferEvent::getOutput()](eventbufferevent.getoutput.html) - Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією

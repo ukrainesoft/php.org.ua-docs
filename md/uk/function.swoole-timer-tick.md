@@ -1,24 +1,27 @@
-- [« swoole_timer_exists](function.swoole-timer-exists.md)
-- [swoole_version »](function.swoole-version.md)
+Викликати callback-функцію таймера тактів через певний проміжок часу
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Викликати callback-функцію таймера тактів через певний
-проміжок часу
+-   [« swoole\_timer\_exists](function.swoole-timer-exists.html)
+    
+-   [swoole\_version »](function.swoole-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Викликати callback-функцію таймера тактів через певний проміжок часу
+    
 
-# swoole_timer_tick
+# swooletimertick
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_timer_tick — Викликати callback-функцію таймера тактів через
-певний проміжок часу
+swooletimertick — Викликати callback-функцію таймера тактів через певний проміжок часу
 
 ### Опис
 
-**swoole_timer_tick**(int `$ms`,
-[callable](language.types.callable.md) `$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$param` = ?): int
+```methodsynopsis
+swoole_timer_tick(int $ms, callable $callback, mixed $param = ?): int
+```
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« Session::generateUUID](mysql-xdevapi-session.generateuuid.md)
-- [Session::getSchema »](mysql-xdevapi-session.getschema.md)
+Отримує ім'я схеми за промовчанням
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Отримує ім'я схеми за замовчуванням
+-   [« Session::generateUUID](mysql-xdevapi-session.generateuuid.html)
+    
+-   [Session::getSchema »](mysql-xdevapi-session.getschema.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Отримує ім'я схеми за промовчанням
+    
 
 # Session::getDefaultSchema
 
@@ -13,10 +19,11 @@ Session::getDefaultSchema — Отримує назву схеми за пром
 
 ### Опис
 
-public **mysql_xdevapi\Session::getDefaultSchema**(): string
+```methodsynopsis
+public mysql_xdevapi\Session::getDefaultSchema(): string
+```
 
-Витягує ім'я схеми за замовчуванням, яка зазвичай встановлюється в URI
-з'єднання.
+Витягує ім'я за замовчуванням схеми, яка зазвичай встановлюється в URI з'єднання.
 
 ### Список параметрів
 
@@ -24,16 +31,24 @@ public **mysql_xdevapi\Session::getDefaultSchema**(): string
 
 ### Значення, що повертаються
 
-Ім'я схеми за замовчуванням, визначеною сполукою або **`null`**, якщо
-схема не встановлена.
+Ім'я схеми за промовчанням, визначеною з'єднанням або **`null`**якщо схема не встановлена.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::getSchema()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchema()****
 
-` <?php$uri = "mysqlx://testuser:testpasswd@localhost:33160/testx?ssl-mode=disabled";$session = Mysql_xdevapi\getSession($uri);$schema = $session->getDefault ;echo $schema;?> `
+```php
+<?php
+$uri = "mysqlx://testuser:testpasswd@localhost:33160/testx?ssl-mode=disabled";
+$session = mysql_xdevapi\getSession($uri);
+
+$schema = $session->getDefaultSchema();
+echo $schema;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 testx
+```

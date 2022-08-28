@@ -1,12 +1,18 @@
-- [«Зумовлені константи](curl.constants.md)
-- [Простий приклад використання curl »](curl.examples-basic.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [cURL](book.curl.md)
-- Приклади
+-   [« Предопределённые константы](curl.constants.html)
+    
+-   [Простой пример использования curl »](curl.examples-basic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [cURL](book.curl.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Простий приклад використання curl](curl.examples-basic.md)
+-   [Простой пример использования curl](curl.examples-basic.html)

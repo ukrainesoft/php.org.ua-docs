@@ -1,9 +1,15 @@
-- [« ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)
-- [ReflectionClass::isInternal »](reflectionclass.isinternal.md)
+Перевіряє, чи є клас інтерфейсом
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевіряє, чи є клас інтерфейсом
+-   [« ReflectionClass::isInstantiable](reflectionclass.isinstantiable.html)
+    
+-   [ReflectionClass::isInternal »](reflectionclass.isinternal.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Перевіряє, чи є клас інтерфейсом
+    
 
 # ReflectionClass::isInterface
 
@@ -13,7 +19,9 @@ ReflectionClass::isInterface — Перевіряє, чи клас є інтер
 
 ### Опис
 
-public **ReflectionClass::isInterface**(): bool
+```methodsynopsis
+public ReflectionClass::isInterface(): bool
+```
 
 Перевіряє, чи є клас інтерфейсом чи ні.
 
@@ -23,20 +31,29 @@ public **ReflectionClass::isInterface**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::isInterface()****
 
-` <?phpinterface SomeInterface {    public function interfaceMethod();}$class = new ReflectionClass('SomeInterface');var_dump($class->isInterface());?> `
+```php
+<?php
+interface SomeInterface {
+    public function interfaceMethod();
+}
+
+$class = new ReflectionClass('SomeInterface');
+var_dump($class->isInterface());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionClass::isInstance()](reflectionclass.isinstance.md) -
-Перевіряє, чи об'єкт належить класу
+-   [ReflectionClass::isInstance()](reflectionclass.isinstance.html) - Перевіряє, чи належить об'єкт класу

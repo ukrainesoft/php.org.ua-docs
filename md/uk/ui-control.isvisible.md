@@ -1,19 +1,27 @@
-- [« UI\Control::isEnabled](ui-control.isenabled.md)
-- [UI\Control::setParent »](ui-control.setparent.md)
+Визначити, чи видимий елемент керування
 
-- [PHP Manual](index.md)
-- [UI\Control](class.ui-control.md)
-- Визначити, чи видимий елемент керування
+-   [« UI\\Control::isEnabled](ui-control.isenabled.html)
+    
+-   [UI\\Control::setParent »](ui-control.setparent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Control](class.ui-control.html)
+    
+-   Визначити, чи видимий елемент керування
+    
 
-# UI\Control::isVisible
+# ОЙControl::isVisible
 
 (UI 0.9.9)
 
-UI\Control::isVisible — Визначити, чи видимий елемент керування
+ОЙControl::isVisible — Визначити, чи видимий елемент керування
 
 ### Опис
 
-public **UI\Control::isVisible**(): bool
+```methodsynopsis
+public UI\Control::isVisible(): bool
+```
 
 Визначає, чи видимий елемент керування
 

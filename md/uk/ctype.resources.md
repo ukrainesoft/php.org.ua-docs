@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](ctype.configuration.md)
-- [Предвизначені константи »](ctype.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ctype.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](ctype.configuration.html)
+    
+-   [Предопределённые константы »](ctype.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ctype.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

@@ -1,14 +1,20 @@
-- [«wincache_unlock](function.wincache-unlock.md)
-- [Пререквізити »](wincache.win32build.prereq.md)
+Складання для Windows
 
-- [PHP Manual](index.md)
-- [WinCache](book.wincache.md)
-- Складання для Windows
+-   [« wincache\_unlock](function.wincache-unlock.html)
+    
+-   [Пререквизиты »](wincache.win32build.prereq.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WinCache](book.wincache.html)
+    
+-   Складання для Windows
+    
 
 # Складання для Windows
 
 ## Зміст
 
-- [Пререквізити](wincache.win32build.prereq.md)
-- [Компіляція та складання](wincache.win32build.building.md)
-- [Перевірка складання](wincache.win32build.verify.md)
+-   [Пререквизиты](wincache.win32build.prereq.html)
+-   [Компиляция и сборка](wincache.win32build.building.html)
+-   [Проверка сборки](wincache.win32build.verify.html)

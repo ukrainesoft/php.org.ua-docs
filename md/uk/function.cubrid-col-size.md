@@ -1,61 +1,92 @@
-- [«cubrid_col_get](function.cubrid-col-get.md)
-- [cubrid_column_names »](function.cubrid-column-names.md)
+Отримує кількість елементів у стовпці типу колекція OID
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримує кількість елементів у стовпці типу колекція з OID
+-   [« cubrid\_col\_get](function.cubrid-col-get.html)
+    
+-   [cubrid\_column\_names »](function.cubrid-column-names.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Отримує кількість елементів у стовпці типу колекція OID
+    
 
-#cubrid_col_size
+# cubridcolsize
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_col_size — Отримує кількість елементів у стовпці типу колекція
-по OID
+cubridcolsize — Отримує кількість елементів у стовпці типу колекція OID
 
 ### Опис
 
-**cubrid_col_size**(resource `$conn_identifier`, string `$oid`, string
-`$attr_name`): int
+```methodsynopsis
+cubrid_col_size(resource $conn_identifier, string $oid, string $attr_name): int
+```
 
-Функція **cubrid_col_size()** використовується для отримання кількості
-елементів в атрибуті типу колекції (set, multiset, sequence).
+Функція **cubridcolsize()** використовується для отримання кількості елементів в атрибуті типу колекції (set, multiset, sequence).
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `oid`
+
 OID екземпляра.
 
 `attr_name`
+
 Назва атрибута, з яким ви хочете працювати.
 
 ### Значення, що повертаються
 
-Кількість елементів, у разі успішного виконання або **`false`**
-у разі виникнення помилки.
+Кількість елементів, у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                               |
-|--------|------------------------------------------------------------------------------------|
-| 8.3.1  | Змінено значення, що повертається: у разі невдачі повертається **false**, а не -1. |
+| Версия | Описание |
+| --- | --- |
+|  | Змінено значення, що повертається: у разі невдачі повертається **`false`**, а чи не -1. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_col_size()****
+**Приклад #1 Приклад використання **cubridcolsize()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c list(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3 }, {11,22,33,333}, 'a')");$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);cubrid_move_cursor($Rq; $req);$attr = cubrid_col_get($conn, $oid, "b");var_dump($attr);$size = cubrid_col_size($conn, $oid, "b");var_dump($size);cubrid_clo $req);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+
+@cubrid_execute($conn, "DROP TABLE foo");
+cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c list(int), d char(10))");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
+
+$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
+
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$oid = cubrid_current_oid($req);
+
+$attr = cubrid_col_get($conn, $oid, "b");
+var_dump($attr);
+
+$size = cubrid_col_size($conn, $oid, "b");
+var_dump($size);
+
+cubrid_close_request($req);
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(3) {
-[0]=>
-string(1) "1"
-[1]=>
-string(1) "2"
-[2]=>
-string(1) "3"
+  [0]=>
+  string(1) "1"
+  [1]=>
+  string(1) "2"
+  [2]=>
+  string(1) "3"
 }
 int(3)
+```

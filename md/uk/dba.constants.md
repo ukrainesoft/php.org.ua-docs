@@ -1,10 +1,16 @@
-- [« Типи ресурсів](dba.resources.md)
-- [Приклади »](dba.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [DBA](book.dba.md)
-- Обумовлені константи
+-   [« Типы ресурсов](dba.resources.html)
+    
+-   [Примеры »](dba.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DBA](book.dba.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

@@ -1,26 +1,34 @@
-- [«Gender\Gender](class.gender.md)
-- [Gender\Gender::\_\_construct »](gender-gender.construct.md)
+З'єднання із зовнішньою базою імен
 
-- [PHP Manual](index.md)
-- [Gender\Gender](class.gender.md)
-- З'єднання із зовнішньою базою імен
+-   [« Gender\\Gender](class.gender.html)
+    
+-   [Gender\\Gender::\_\_construct »](gender-gender.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gender\\Gender](class.gender.html)
+    
+-   З'єднання із зовнішньою базою імен
+    
 
-# Gender\Gender::connect
+# GenderGender::connect
 
-(PECL gender \>= 0.6.0)
+(PECL gender >= 0.6.0)
 
-Gender\Gender::connect — З'єднання із зовнішньою базою імен
+GenderGender::connect — З'єднання із зовнішньою базою імен
 
 ### Опис
 
-public **Gender\Gender::connect**(string `$dsn`): bool
+```methodsynopsis
+public Gender\Gender::connect(string $dsn): bool
+```
 
-Підключення до зовнішнього словника імен. На даний момент підтримуються
-лише потокові ресурси.
+Підключення до зовнішнього словника імен. На даний момент підтримуються лише потокові ресурси.
 
 ### Список параметрів
 
 `dsn`
+
 DSN для відкриття.
 
 ### Значення, що повертаються

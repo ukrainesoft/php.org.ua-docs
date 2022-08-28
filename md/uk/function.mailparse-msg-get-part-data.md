@@ -1,27 +1,34 @@
-- [«mailparse_msg_free](function.mailparse-msg-free.md)
-- [mailparse_msg_get_part »](function.mailparse-msg-get-part.md)
+Повернути асоціативний масив з інформацією про повідомлення
 
-- [PHP Manual](index.md)
-- [Mailparse](ref.mailparse.md)
-- Повернути асоціативний масив з інформацією про повідомлення
+-   [« mailparse\_msg\_free](function.mailparse-msg-free.html)
+    
+-   [mailparse\_msg\_get\_part »](function.mailparse-msg-get-part.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mailparse](ref.mailparse.html)
+    
+-   Повернути асоціативний масив з інформацією про повідомлення
+    
 
-#mailparse_msg_get_part_data
+# mailparsemsggetpartdata
 
-(PECL mailparse \>= 0.9.0)
+(PECL mailparse >= 0.9.0)
 
-mailparse_msg_get_part_data - Повернути асоціативний масив з інформацією
-про повідомлення
+mailparsemsggetpartdata — Повернути асоціативний масив з інформацією про повідомлення
 
 ### Опис
 
-**mailparse_msg_get_part_data**(resource `$mimemail`): array
+```methodsynopsis
+mailparse_msg_get_part_data(resource $mimemail): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `mimemail`
-Коректний `MIME`-ресурс.
+
+Коректний `MIME`ресурс.

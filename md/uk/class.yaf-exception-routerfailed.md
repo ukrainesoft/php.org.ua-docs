@@ -1,28 +1,48 @@
-- [« Yaf_Exception_DispatchFailed](class.yaf-exception-dispatchfailed.md)
-- [Yaf_Exception_LoadFailed »](class.yaf-exception-loadfailed.md)
+Клас YafExceptionRouterFailed
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Exception_RouterFailed
+-   [« Yaf\_Exception\_DispatchFailed](class.yaf-exception-dispatchfailed.html)
+    
+-   [Yaf\_Exception\_LoadFailed »](class.yaf-exception-loadfailed.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafExceptionRouterFailed
+    
 
-# Клас Yaf_Exception_RouterFailed
+# Клас YafExceptionRouterFailed
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Yaf_Exception_RouterFailed** extends
-[Yaf_Exception](class.yaf-exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-/\* Методи \*/
+    
+    
+     
+      class Yaf_Exception_RouterFailed
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       Yaf_Exception
+     
+     {
+    
+    /* Свойства */
 
-public [Yaf_Exception::getPrevious](yaf-exception.getprevious.md)():
-void
 
-}
+    /* Методы */
+
+    /* Наследуемые методы */
+    
+   public Yaf_Exception::getPrevious(): void
+
+
+   }
+```

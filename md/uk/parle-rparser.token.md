@@ -1,25 +1,34 @@
-- [« Parle\RParser::sigil](parle-rparser.sigil.md)
-- [Parle\RParser::tokenId »](parle-rparser.tokenid.md)
+Оголошує токен
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Оголошує токен
+-   [« Parle\\RParser::sigil](parle-rparser.sigil.html)
+    
+-   [Parle\\RParser::tokenId »](parle-rparser.tokenid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\RParser](class.parle-rparser.html)
+    
+-   Оголошує токен
+    
 
-# Parle\RParser::token
+# ParleRParser::token
 
-(PECL parle \>= 0.7.0)
+(PECL parle >= 0.7.0)
 
-Parle\RParser::token — Оголошує токен
+ParleRParser::token — Оголошує токен
 
 ### Опис
 
-public **Parle\RParser::token**(string `$tok`): void
+```methodsynopsis
+public Parle\RParser::token(string $tok): void
+```
 
 Оголошує термінал, який використовуватиметься у граматиці.
 
 ### Список параметрів
 
 `tok`
+
 Ім'я токена.
 
 ### Значення, що повертаються

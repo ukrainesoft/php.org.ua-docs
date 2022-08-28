@@ -1,30 +1,38 @@
-- [« DOMCharacterData::deleteData](domcharacterdata.deletedata.md)
-- [DOMCharacterData::replaceData »](domcharacterdata.replacedata.md)
+Вставити рядок у вказану 16-бітну позицію
 
-- [PHP Manual](index.md)
-- [DOMCharacterData](class.domcharacterdata.md)
-- Вставити рядок у вказану 16-бітну позицію
+-   [« DOMCharacterData::deleteData](domcharacterdata.deletedata.html)
+    
+-   [DOMCharacterData::replaceData »](domcharacterdata.replacedata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMCharacterData](class.domcharacterdata.html)
+    
+-   Вставити рядок у вказану 16-бітну позицію
+    
 
 # DOMCharacterData::insertData
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMCharacterData::insertData — Вставити рядок у вказаний 16-розрядний
-позицію
+DOMCharacterData::insertData — Вставити рядок у вказану 16-бітну позицію
 
 ### Опис
 
-public **DOMCharacterData::insertData**(int `$offset`, string `$data`):
-bool
+```methodsynopsis
+public DOMCharacterData::insertData(int $offset, string $data): bool
+```
 
-Вставляє рядок `data` у позицію `offset`.
+Вставляє рядок `data` у позицію `offset`
 
 ### Список параметрів
 
 `offset`
+
 Позиція символу, з якого буде вставлено рядок.
 
 `data`
+
 Рядок, що вставляється.
 
 ### Значення, що повертаються
@@ -34,16 +42,12 @@ bool
 ### Помилки
 
 **`DOM_INDEX_SIZE_ERR`**
-Виникає, якщо `offset` менше нуля чи більше кількості 16-бітних
-блоків даних.
+
+Виникає, якщо `offset` менше нуля або більше кількості 16-бітних блоків даних.
 
 ### Дивіться також
 
-- [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) -
-Додати рядок до кінця символьних даних вузла
-- [DOMCharacterData::deleteData()](domcharacterdata.deletedata.md) -
-Видалити діапазон символів із вузла
-- [DOMCharacterData::replaceData()](domcharacterdata.replacedata.md) -
-Замінити підрядок у вузлі типу DOMCharacterData
-- [DOMCharacterData::substringData()](domcharacterdata.substringdata.md) -
-Витягує певний діапазон даних із вузла
+-   [DOMCharacterData::appendData()](domcharacterdata.appenddata.html) - Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::deleteData()](domcharacterdata.deletedata.html) - Видалити діапазон символів із вузла
+-   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.html) - Замінити підрядок у вузлі типу DOMCharacterData
+-   [DOMCharacterData::substringData()](domcharacterdata.substringdata.html) - Витягує певний діапазон даних із вузла

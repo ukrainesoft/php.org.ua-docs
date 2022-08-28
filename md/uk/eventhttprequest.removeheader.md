@@ -1,31 +1,46 @@
-- [«EventHttpRequest::getUri](eventhttprequest.geturi.md)
-- [EventHttpRequest::sendError »](eventhttprequest.senderror.md)
+Видаляє заголовок HTTP із заголовків запиту
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Видаляє заголовок HTTP із заголовків запиту
+-   [« EventHttpRequest::getUri](eventhttprequest.geturi.html)
+    
+-   [EventHttpRequest::sendError »](eventhttprequest.senderror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Видаляє заголовок HTTP із заголовків запиту
+    
 
 # EventHttpRequest::removeHeader
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::removeHeader — Видаляє заголовок HTTP із заголовків
-запиту
+EventHttpRequest::removeHeader — Видаляє заголовок HTTP із заголовків запиту
 
 ### Опис
 
-public **EventHttpRequest::removeHeader**( string `$key` , string
-`$type` ): void
+```methodsynopsis
+public
+   EventHttpRequest::removeHeader(
+    string
+     $key
+   , 
+    string
+     $type
+   ): void
+```
 
 Видаляє заголовок HTTP із заголовків запиту.
 
 ### Список параметрів
 
 `key`
+
 Назва заголовка.
 
 `type`
-`type` одна із констант `EventHttpRequest::*_HEADER` .
+
+`type` одна з констант `EventHttpRequest::*_HEADER`
 
 ### Значення, що повертаються
 
@@ -33,5 +48,4 @@ public **EventHttpRequest::removeHeader**( string `$key` , string
 
 ### Дивіться також
 
-- [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) -
-Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту

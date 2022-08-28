@@ -1,61 +1,71 @@
-- [« SplTempFileObject](class.spltempfileobject.md)
-- [Різні класи та інтерфейси »](spl.misc.md)
+Створює новий об'єкт тимчасового файлу
 
-- [PHP Manual](index.md)
-- [SplTempFileObject](class.spltempfileobject.md)
-- Створює новий об'єкт тимчасового файлу
+-   [« SplTempFileObject](class.spltempfileobject.html)
+    
+-   [Различные классы и интерфейсы »](spl.misc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplTempFileObject](class.spltempfileobject.html)
+    
+-   Створює новий об'єкт тимчасового файлу
+    
 
-# SplTempFileObject::\_\_construct
+# SplTempFileObject::construct
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-SplTempFileObject::\_\_construct — Створює новий об'єкт тимчасового файлу
+SplTempFileObject::construct — Створює новий об'єкт тимчасового файлу
 
 ### Опис
 
-public **SplTempFileObject::\_\_construct**(int `$maxMemory` = 2 \* 1024
-\* 1024)
+public **SplTempFileObject::construct**(int `$maxMemory`
 
-Створює новий об'єкт, який представляє часовий файл.
+Створює новий об'єкт, який представляє тимчасовий файл.
 
 ### Список параметрів
 
 `maxMemory`
-Максимальний обсяг пам'яті (у байтах, за умовчанням дорівнює 2 МБ)
-тимчасового файлу. Якщо тимчасовий файл перевищуватиме цей розмір, він буде
-переміщений у файл у папці тимчасових файлів.
 
-Якщо значення `maxMemory` негативне, буде використовуватись тільки
-пам'ять. Якщо значення `maxMemory` дорівнює нулю, то пам'ять не буде
-використовуватись.
+Максимальний обсяг пам'яті (у байтах, за умовчанням дорівнює 2 МБ) для тимчасового файлу. Якщо тимчасовий файл перевищує цей розмір, він буде переміщений у файл у папці тимчасових файлів.
+
+Якщо значення `maxMemory` негативне, використовуватиметься лише пам'ять. Якщо значення `maxMemory` і нулю, то пам'ять не буде використовуватися.
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md)
-у разі виникнення помилки.
+Викидає виняток [RuntimeException](class.runtimeexception.html) у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplTempFileObject()****
 
-Цей приклад створює в пам'яті тимчасовий файл, який можна записати
-дані та прочитати їх.
+Цей приклад створює в пам'яті тимчасовий файл, який можна записати дані і прочитати їх.
 
-` <?php$temp = new SplTempFileObject();$temp->fwrite("Перший рядок
-"); $ temp-> fwrite ("А це друга.
-");echo "Вчасний файл записано " . $temp->ftell() . " байт.
+```php
+<?php
+$temp = new SplTempFileObject();
+$temp->fwrite("Первая строка\n");
+$temp->fwrite("А это вторая.\n");
+echo "Во временный файл записано " . $temp->ftell() . " байт.\n\n";
 
-";// Перемотка в початок і читання того, було записано$temp->rewind();foreach ($temp as $line) {   echo $line;}?> `
+// Перемотка в начало и чтение того, что было записано
+$temp->rewind();
+foreach ($temp as $line) {
+    echo $line;
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-У часовий файл записано 28 байт.
+```
+Во временный файл записано 28 байт.
 
-Перший рядок
-А це друга.
+Первая строка
+А это вторая.
+```
 
 ### Дивіться також
 
-- [SplFileObject](class.splfileobject.md)
-- [потоки введення-виводу PHP](wrappers.php.md) (для `php://temp` і
-`php://memory`)
+-   [SplFileObject](class.splfileobject.html)
+-   [потоки ввода-вывода PHP](wrappers.php.html) (для`php://temp` і `php://memory`

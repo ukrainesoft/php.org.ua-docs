@@ -1,26 +1,34 @@
-- [« trader_ht_dcphase](function.trader-ht-dcphase.md)
-- [trader_ht_sine »](function.trader-ht-sine.md)
+Перетворення Гільберта - Phasor Components
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Перетворення Гільберта - Phasor Components
+-   [« trader\_ht\_dcphase](function.trader-ht-dcphase.html)
+    
+-   [trader\_ht\_sine »](function.trader-ht-sine.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Перетворення Гільберта - Phasor Components
+    
 
-#trader_ht_phasor
+# traderхтphasor
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_ht_phasor - Перетворення Гільберта - Phasor Components
+traderхтphasor - Перетворення Гільберта - Phasor Components
 
 ### Опис
 
-**trader_ht_phasor**(array `$real`): array
+```methodsynopsis
+trader_ht_phasor(array $real): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,46 +1,48 @@
-- [« Функції runkit7](ref.runkit7.md)
-- [runkit7_constant_redefine »](function.runkit7-constant-redefine.md)
+Аналогічний define(), але також дозволяє визначити константу класу
 
-- [PHP Manual](index.md)
-- [Функції runkit7](ref.runkit7.md)
-- Аналогічний define(), але також дозволяє визначити константу класу
+-   [« Функции runkit7](ref.runkit7.html)
+    
+-   [runkit7\_constant\_redefine »](function.runkit7-constant-redefine.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции runkit7](ref.runkit7.html)
+    
+-   Аналогічний define(), але також дозволяє визначити константу класу
+    
 
-# runkit7_constant_add
+# runkit7constantadd
 
-(PECL runkit7 \>= Unknown)
+(PECL runkit7> = Unknown)
 
-runkit7_constant_add - Аналогічний define(), але також дозволяє
-визначити константу класу
+runkit7constantadd — Аналогічний define(), але також дозволяє визначити константу класу
 
 ### Опис
 
-**runkit7_constant_add**(string `$constant_name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$newVisibility` = ?): bool
+```methodsynopsis
+runkit7_constant_add(string $constant_name, mixed $value, int $newVisibility = ?): bool
+```
 
 ### Список параметрів
 
 `constant_name`
-Ім'я константи, що оголошується. Або рядок для позначення глобального
-константи, або `classname::constname` визначення константи класу.
+
+Ім'я константи, що оголошується. Або рядок для позначення глобальної константи, або `classname::constname` визначення константи класу.
 
 `value`
-Значення константи (NULL, Bool, Long, Double, String, Array або
-Resource).
+
+Значення константи (NULL, Bool, Long, Double, String, Array чи Resource).
 
 `newVisibility`
-Видимість константи для констант класу. За замовчуванням є загальнодоступним.
-Одна із констант **`RUNKIT7_ACC_*`**.
+
+Видимість константи для констант класу. За замовчуванням є загальнодоступним. Одна з констант **`RUNKIT7_ACC_*`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [define()](function.define.md) - Визначає іменовану константу
-- [runkit7_constant_redefine()](function.runkit7-constant-redefine.md) -
-Перевизначає вже певну константу
-- [runkit7_constant_remove()](function.runkit7-constant-remove.md) -
-Видаляє вже певну константу
+-   [define()](function.define.html) - визначає іменовану константу
+-   [runkit7\_constant\_redefine()](function.runkit7-constant-redefine.html) - Перевизначає вже певну константу
+-   [runkit7\_constant\_remove()](function.runkit7-constant-remove.html) - Видаляє вже певну константу

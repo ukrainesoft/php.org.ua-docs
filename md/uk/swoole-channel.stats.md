@@ -1,22 +1,29 @@
-- [« Swoole\Channel::push](swoole-channel.push.md)
-- [Swoole\Client »](class.swoole-client.md)
+Отримує статистику каналу Swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Channel](class.swoole-channel.md)
-- Отримує статистику каналу Swoole
+-   [« Swoole\\Channel::push](swoole-channel.push.html)
+    
+-   [Swoole\\Client »](class.swoole-client.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Channel](class.swoole-channel.html)
+    
+-   Отримує статистику каналу Swoole
+    
 
-# Swoole\Channel::stats
+# SwooleChannel::stats
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Channel::stats — Отримує статистику каналу Swoole
+SwooleChannel::stats — Отримує статистику каналу Swoole
 
 ### Опис
 
-public **Swoole\Channel::stats**(): array
+```methodsynopsis
+public Swoole\Channel::stats(): array
+```
 
-Отримує кількість елементів у черзі та загальний обсяг пам'яті,
-використовується у черзі.
+Отримує кількість елементів у черзі та загальний обсяг пам'яті, що використовується у черзі.
 
 ### Список параметрів
 

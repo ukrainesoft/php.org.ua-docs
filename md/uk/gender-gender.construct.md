@@ -1,25 +1,30 @@
-- [« Gender\Gender::connect](gender-gender.connect.md)
-- [Gender\Gender::country »](gender-gender.country.md)
+Конструктор об'єкта класу Gender
 
-- [PHP Manual](index.md)
-- [Gender\Gender](class.gender.md)
-- Конструктор об'єкту класу Gender
+-   [« Gender\\Gender::connect](gender-gender.connect.html)
+    
+-   [Gender\\Gender::country »](gender-gender.country.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gender\\Gender](class.gender.html)
+    
+-   Конструктор об'єкта класу Gender
+    
 
-# Gender\Gender::\_\_construct
+# GenderGender::construct
 
-(PECL gender \>= 0.6.0)
+(PECL gender >= 0.6.0)
 
-Gender\Gender::\_\_construct - Конструктор об'єкта класу Gender
+GenderGender::construct - Конструктор об'єкта класу Gender
 
 ### Опис
 
-public **Gender\Gender::\_\_construct**(string `$dsn` = ?)
+public **GenderGender::construct**(string `$dsn`
 
-Створює об'єкт класу Gender, який необов'язково може бути підключений
-до зовнішнього словника імен. Якщо зовнішня база даних не задана, будуть
-використовуватися внутрішні скомпіловані дані.
+Створює об'єкт класу Gender, який може бути підключений до зовнішнього словника імен. Якщо зовнішня база даних не задана, використовуватимуться внутрішні скомпіловані дані.
 
 ### Список параметрів
 
 `dsn`
+
 DSN для відкриття.

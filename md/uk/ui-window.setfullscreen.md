@@ -1,26 +1,33 @@
-- [«UI\Window::setBorders](ui-window.setborders.md)
-- [UI\Window::setMargin »](ui-window.setmargin.md)
+Використання повного екрану
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Використання повного екрану
+-   [« UI\\Window::setBorders](ui-window.setborders.html)
+    
+-   [UI\\Window::setMargin »](ui-window.setmargin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Використання повного екрану
+    
 
-# UI\Window::setFullScreen
+# ОЙWindow::setFullScreen
 
 (UI 0.9.9)
 
-UI\Window::setFullScreen — Використання повного екрана
+ОЙWindow::setFullScreen — Використання повного екрану
 
 ### Опис
 
-public **UI\Window::setFullScreen**(bool `$full`)
+```methodsynopsis
+public UI\Window::setFullScreen(bool $full)
+```
 
-Увімкнути або вимкнути повний екран для цього вікна
+Увімкнути або вимкнути використання повного екрана для цього вікна
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

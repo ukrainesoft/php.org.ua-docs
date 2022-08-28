@@ -1,9 +1,15 @@
-- [« RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md)
-- [RecursiveIteratorIterator::next »](recursiveiteratoriterator.next.md)
+Отримання ключа поточного елемента
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Отримання ключа поточного елемента
+-   [« RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.html)
+    
+-   [RecursiveIteratorIterator::next »](recursiveiteratoriterator.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Отримання ключа поточного елемента
+    
 
 # RecursiveIteratorIterator::key
 
@@ -13,13 +19,13 @@ RecursiveIteratorIterator::key — Отримання ключа поточно�
 
 ### Опис
 
-public **RecursiveIteratorIterator::key**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public RecursiveIteratorIterator::key(): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,45 +1,50 @@
-- [«mqseries_cmit](function.mqseries-cmit.md)
-- [mqseries_connx »](function.mqseries-connx.md)
+MQSeries MQCONN
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- MQSeries MQCONN
+-   [« mqseries\_cmit](function.mqseries-cmit.html)
+    
+-   [mqseries\_connx »](function.mqseries-connx.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции mqseries](ref.mqseries.html)
+    
+-   MQSeries MQCONN
+    
 
-# mqseries_conn
+# mqseriesconn
 
-(PECL mqseries \>= 0.10.0)
+(PECL mqseries >= 0.10.0)
 
-mqseries_conn — MQSeries MQCONN
+mqseriesconn - MQSeries MQCONN
 
 ### Опис
 
-**mqseries_conn**(
-string `$qManagerName`,
-resource `&$hconn`,
-resource `&$compCode`,
-resource `&$reason`
-): void
+```methodsynopsis
+mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compCode,    resource &$reason): void
+```
 
-Функція **mqseries_conn()** (MQCONN) відкриває з'єднання з менеджером
-черг. Вона повертає обробник з'єднання, що використовується всіма
-рештою функцій модуля.
+Функція **mqseriesconn()** (MQCONN) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
 
 ### Список параметрів
 
 `qManagerName`
+
 Ім'я менеджера черг.
 
 Ім'я менеджера черг, з яким встановлюється з'єднання.
 
 `hConn`
-Обробник з'єднання.
+
+Оброблювач з'єднання.
 
 Є відкрите з'єднання з менеджером черг.
 
 `compCode`
+
 Код завершення.
 
 `reason`
+
 Код причини, що кваліфікує compCode.
 
 ### Значення, що повертаються
@@ -48,11 +53,18 @@ resource `&$reason`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_conn()****
+**Приклад #1 Приклад використання **mqseriesconn()****
 
-`<?php   mqseries_conn('WMQ1', $conn, $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("conn CompCode:%d Reason:%d Text:%s<br>
-", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
+```php
+<?php
+    mqseries_conn('WMQ1', $conn, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("conn CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        exit;
+    }
+?>
+```
 
 ### Дивіться також
 
-- [mqseries_disc()](function.mqseries-disc.md) - MQSeries MQDISC
+-   [mqseries\_disc()](function.mqseries-disc.html) - MQSeries MQDISC

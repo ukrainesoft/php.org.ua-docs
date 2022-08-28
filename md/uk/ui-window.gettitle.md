@@ -1,19 +1,27 @@
-- [«UI\Window::getSize](ui-window.getsize.md)
-- [UI\Window::hasBorders »](ui-window.hasborders.md)
+Отримати заголовок
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Отримати заголовок
+-   [« UI\\Window::getSize](ui-window.getsize.html)
+    
+-   [UI\\Window::hasBorders »](ui-window.hasborders.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Отримати заголовок
+    
 
-# UI\Window::getTitle
+# ОЙWindow::getTitle
 
 (UI 0.9.9)
 
-UI\Window::getTitle — Отримати заголовок
+ОЙWindow::getTitle — Отримати заголовок
 
 ### Опис
 
-public **UI\Window::getTitle**(): string
+```methodsynopsis
+public UI\Window::getTitle(): string
+```
 
 Отримає заголовок цього вікна
 

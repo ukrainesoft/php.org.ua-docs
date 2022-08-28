@@ -1,26 +1,31 @@
-- [« ssh2_publickey_add](function.ssh2-publickey-add.md)
-- [ssh2_publickey_list »](function.ssh2-publickey-list.md)
+Ініціалізує підсистему відкритого ключа
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Ініціалізує підсистему відкритого ключа
+-   [« ssh2\_publickey\_add](function.ssh2-publickey-add.html)
+    
+-   [ssh2\_publickey\_list »](function.ssh2-publickey-list.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Ініціалізує підсистему відкритого ключа
+    
 
-# ssh2_publickey_init
+# ssh2publickeyinit
 
-(PECL ssh2 \>= 0.10)
+(PECL ssh2> = 0.10)
 
-ssh2_publickey_init — Ініціалізує підсистему відкритого ключа
+ssh2publickeyinit - Ініціалізує підсистему відкритого ключа
 
 ### Опис
 
-**ssh2_publickey_init**(resource `$session`): resource\|false
+```methodsynopsis
+ssh2_publickey_init(resource $session): resource|false
+```
 
-Запитує підсистему відкритого ключа вже з відкритого з'єднання SSH2.
+Запитує підсистему відкритого ключа із вже відкритого з'єднання SSH2.
 
-Підсистема відкритого ключа дозволяє авторизованому клієнту управляти
-списком авторизованих відкритих ключів, що зберігаються на сервері
-незалежним чином. Якщо віддалений сервер не підтримує підсистему
-відкритого ключа, функція **ssh2_publickey_init()** поверне **`false`**.
+Підсистема відкритого ключа дозволяє авторизованому клієнту керувати списком авторизованих відкритих ключів, що зберігаються на сервері незалежно. Якщо віддалений сервер не підтримує підсистему відкритого ключа, функція **ssh2publickeyinit()** поверне **`false`**
 
 ### Список параметрів
 
@@ -28,23 +33,14 @@ ssh2_publickey_init — Ініціалізує підсистему відкри
 
 ### Значення, що повертаються
 
-Повертає ресурс `підсистеми відкритого ключа SSH2` (SSH2 Publickey
-Subsystem) для використання з іншими методами ssh2_publickey\_\*()
-або **`false`** у разі виникнення помилки.
+Повертає ресурс `подсистемы открытого ключа SSH2` (SSH2 Publickey Subsystem) для використання з іншими методами ssh2publickey() або **`false`** у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**: Підсистема відкритих ключів використовується для керування
-> відкритими ключами на сервері, на якому клієнт *вже* пройшов
-> Авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій
-> системі, використовуйте натомість функцію
-> [ssh2_auth_pubkey_file()](function.ssh2-auth-pubkey-file.md).
+> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2\_auth\_pubkey\_file()](function.ssh2-auth-pubkey-file.html)
 
 ### Дивіться також
 
-- [ssh2_publickey_add()](function.ssh2-publickey-add.md) - Додає
-авторизований відкритий ключ
-- [ssh2_publickey_remove()](function.ssh2-publickey-remove.md) -
-Видаляє авторизований відкритий ключ
-- [ssh2_publickey_list()](function.ssh2-publickey-list.md) - Список
-вже авторизованих відкритих ключів
+-   [ssh2\_publickey\_add()](function.ssh2-publickey-add.html) - Додає авторизований відкритий ключ
+-   [ssh2\_publickey\_remove()](function.ssh2-publickey-remove.html) - Видаляє авторизований відкритий ключ
+-   [ssh2\_publickey\_list()](function.ssh2-publickey-list.html) - Список вже авторизованих відкритих ключів

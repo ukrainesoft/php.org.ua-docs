@@ -1,10 +1,16 @@
-- [« Типи ресурсів](apache.resources.md)
-- [Функції Apache »](ref.apache.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Apache](book.apache.md)
-- Обумовлені константи
+-   [« Типы ресурсов](apache.resources.html)
+    
+-   [Функции Apache »](ref.apache.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Apache](book.apache.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

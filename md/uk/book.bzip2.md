@@ -1,36 +1,34 @@
-- [« Модулі для стиснення та архівації](refs.compression.md)
-- [Вступ »](intro.bzip2.md)
+Bzip2
 
-- [PHP Manual](index.md)
-- [Модулі для стиснення та архівації](refs.compression.md)
-- Bzip2
+-   [« Модули для сжатия и архивации](refs.compression.html)
+    
+-   [Введение »](intro.bzip2.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для сжатия и архивации](refs.compression.html)
+    
+-   Bzip2
+    
 
 # Bzip2
 
-- [Вступ](intro.bzip2.md)
-- [Встановлення та налаштування](bzip2.setup.md)
-- [Вимоги](bzip2.requirements.md)
-- [Установка](bzip2.installation.md)
-- [Налаштування під час виконання](bzip2.configuration.md)
-- [Типи ресурсів](bzip2.resources.md)
-- [Предвизначені константи](bzip2.constants.md)
-- [Приклади](bzip2.examples.md)
-- [Функції Bzip2](ref.bzip2.md)
-- [bzclose](function.bzclose.md) — Закриває файл bzip2
-- [bzcompress](function.bzcompress.md) — Стисне рядок з
-використанням bzip2
-- [bzdecompress](function.bzdecompress.md) — Розпаковує
-дані, стиснуті з використанням bzip2
-- [bzerrno](function.bzerrno.md) — Повертає код помилки роботи
-з bzip2
-- [bzerror](function.bzerror.md) — Повертає код та рядок
-помилки роботи з bzip2 у вигляді масиву
-- [bzerrstr](function.bzerrstr.md) — Повертає рядок помилки
-роботи з bzip2
-- [bzflush](function.bzflush.md) - Нічого не робить
-- [bzopen](function.bzopen.md) — Відкриває файл, стислий з
-використанням bzip2
-- [bzread](function.bzread.md) - Бінарно-безпечне читання файлу
-bzip2
-- [bzwrite](function.bzwrite.md) - Бінарно-безпечний запис
-bzip2 файлу
+-   [Введение](intro.bzip2.html)
+-   [Установка и настройка](bzip2.setup.html)
+    -   [Требования](bzip2.requirements.html)
+    -   [Установка](bzip2.installation.html)
+    -   [Настройка во время выполнения](bzip2.configuration.html)
+    -   [Типы ресурсов](bzip2.resources.html)
+-   [Предопределённые константы](bzip2.constants.html)
+-   [Примеры](bzip2.examples.html)
+-   [Функции Bzip2](ref.bzip2.html)
+    -   [bzclose](function.bzclose.html) — Закриває файл bzip2
+    -   [bzcompress](function.bzcompress.html) — Стискає рядок із використанням bzip2
+    -   [bzdecompress](function.bzdecompress.html) — Розпаковує дані, стиснуті з використанням bzip2
+    -   [bzerrno](function.bzerrno.html) — Повертає код помилки роботи з bzip2
+    -   [bzerror](function.bzerror.html) — Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
+    -   [bzerrstr](function.bzerrstr.html) — Повертає рядок помилки роботи з bzip2
+    -   [bzflush](function.bzflush.html) - Нічого не робить
+    -   [bzopen](function.bzopen.html) — Відкриває файл, стислий за допомогою bzip2
+    -   [bzread](function.bzread.html) - Бінарно-безпечне читання файлу bzip2
+    -   [bzwrite](function.bzwrite.html) — Бінарно-безпечний запис bzip2 файлу

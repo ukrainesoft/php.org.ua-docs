@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](exif.configuration.md)
-- [Предвизначені константи »](exif.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](exif.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](exif.configuration.html)
+    
+-   [Предопределённые константы »](exif.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](exif.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

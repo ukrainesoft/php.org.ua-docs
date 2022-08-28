@@ -1,39 +1,46 @@
-- [« variant_and](function.variant-and.md)
-- [variant_cat »](function.variant-cat.md)
+Перетворення варіанта на новий варіант іншого типу
 
-- [PHP Manual](index.md)
-- [Функції COM](ref.com.md)
-- Перетворення варіанта на новий варіант іншого типу
+-   [« variant\_and](function.variant-and.html)
+    
+-   [variant\_cat »](function.variant-cat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции COM](ref.com.html)
+    
+-   Перетворення варіанта на новий варіант іншого типу
+    
 
-# variant_cast
+# variantcast
 
 (PHP 5, PHP 7, PHP 8)
 
-variant_cast — Перетворення варіанта на новий варіант іншого типу
+variantcast — Перетворення варіанта на новий варіант іншого типу
 
 ### Опис
 
-**variant_cast**([variant](class.variant.md) `$variant`, int `$type`):
-[Variant](class.variant.md)
+```methodsynopsis
+variant_cast(variant $variant, int $type): variant
+```
 
-Функція робить копію варіанта `variant` та перетворює її до типу `type`.
+Функція робить копію варіанта `variant` і перетворює її до типу `type`
 
-Функція є обертанням над функцією VariantChangeType() з бібліотеки
-COM. Докладніше читайте у MSDN.
+Функція є обгорткою над функцією VariantChangeType() із бібліотеки COM. Докладніше читайте у MSDN.
 
 ### Список параметрів
 
 `variant`
+
 Різновид.
 
 `type`
-`type` має бути однією з констант **`VT_XXX`**.
+
+`type` має бути однією з констант **`VT_XXX`**
 
 ### Значення, що повертаються
 
-Повертає варіант заданого типу `type`.
+Повертає варіант заданого типу `type`
 
 ### Дивіться також
 
-- [variant_set_type()](function.variant-set-type.md) - Приведення
-варіанти до іншого типу "за місцем"
+-   [variant\_set\_type()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"

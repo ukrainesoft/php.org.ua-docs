@@ -1,27 +1,34 @@
-- [«mailparse_msg_get_part](function.mailparse-msg-get-part.md)
-- [mailparse_msg_parse_file »](function.mailparse-msg-parse-file.md)
+Отримати масив імен mime-секцій у заданому повідомленні
 
-- [PHP Manual](index.md)
-- [Mailparse](ref.mailparse.md)
-- Отримати масив імен mime-секцій у заданому повідомленні
+-   [« mailparse\_msg\_get\_part](function.mailparse-msg-get-part.html)
+    
+-   [mailparse\_msg\_parse\_file »](function.mailparse-msg-parse-file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mailparse](ref.mailparse.html)
+    
+-   Отримати масив імен mime-секцій у заданому повідомленні
+    
 
-#mailparse_msg_get_structure
+# mailparsemsggetstructure
 
-(PECL mailparse \>= 0.9.0)
+(PECL mailparse >= 0.9.0)
 
-mailparse_msg_get_structure — Отримати масив імен mime-секцій у
-заданому повідомленні
+mailparsemsggetstructure — Отримати масив імен mime-секцій у заданому повідомленні
 
 ### Опис
 
-**mailparse_msg_get_structure**(resource `$mimemail`): array
+```methodsynopsis
+mailparse_msg_get_structure(resource $mimemail): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `mimemail`
-Коректний `MIME`-ресурс.
+
+Коректний `MIME`ресурс.

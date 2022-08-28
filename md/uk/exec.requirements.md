@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](exec.setup.md)
-- [Установка »](exec.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](exec.setup.md)
-- Вимоги
+-   [« Установка и настройка](exec.setup.html)
+    
+-   [Установка »](exec.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](exec.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

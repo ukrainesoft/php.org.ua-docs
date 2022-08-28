@@ -1,9 +1,15 @@
-- [« Imagick::setSamplingFactors](imagick.setsamplingfactors.md)
-- [Imagick::setSizeOffset »](imagick.setsizeoffset.md)
+Встановлює розмір об'єкту Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює розмір об'єкту Imagick
+-   [« Imagick::setSamplingFactors](imagick.setsamplingfactors.html)
+    
+-   [Imagick::setSizeOffset »](imagick.setsizeoffset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює розмір об'єкту Imagick
+    
 
 # Imagick::setSize
 
@@ -13,10 +19,11 @@ Imagick::setSize — Встановлює розмір об'єкту Imagick
 
 ### Опис
 
-public **Imagick::setSize**(int `$columns`, int `$rows`): bool
+```methodsynopsis
+public Imagick::setSize(int $columns, int $rows): bool
+```
 
-Встановлює розмір об'єкту Imagick. Встановіть його перед читанням
-необробленого формату зображення, такого як RGB, GRAY або CMYK.
+Встановлює розмір об'єкту Imagick. Встановіть його перед читанням необробленого формату зображення, як RGB, GRAY або CMYK.
 
 ### Список параметрів
 
@@ -26,4 +33,4 @@ public **Imagick::setSize**(int `$columns`, int `$rows`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

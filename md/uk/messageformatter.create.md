@@ -1,83 +1,98 @@
-- [«MessageFormatter](class.messageformatter.md)
-- [MessageFormatter::formatMessage »](messageformatter.formatmessage.md)
+Створює засіб форматування повідомлень
 
-- [PHP Manual](index.md)
-- [MessageFormatter](class.messageformatter.md)
-- Створює засіб форматування повідомлень
+-   [« MessageFormatter](class.messageformatter.html)
+    
+-   [MessageFormatter::formatMessage »](messageformatter.formatmessage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MessageFormatter](class.messageformatter.html)
+    
+-   Створює засіб форматування повідомлень
+    
 
 # MessageFormatter::create
 
-# MessageFormatter::\_\_construct
+# MessageFormatter::construct
 
-#msgfmt_create
+# msgfmtcreate
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::create -- MessageFormatter::\_\_construct --
-msgfmt_create — Створює засіб форматування повідомлень
+MessageFormatter::create -- MessageFormatter::construct - msgfmtcreate — Створює засіб форматування повідомлень
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод)
 
-public static **MessageFormatter::create**(string `$locale`, string
-`$pattern`): ?[MessageFormatter](class.messageformatter.md)
+```methodsynopsis
+public static MessageFormatter::create(string $locale, string $pattern): ?MessageFormatter
+```
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **MessageFormatter::\_\_construct**(string `$locale`, string
-`$pattern`)
+public **MessageFormatter::construct**(string `$locale`, string `$pattern`
 
 Процедурний стиль
 
-**msgfmt_create**(string `$locale`, string `$pattern`):
-?[MessageFormatter](class.messageformatter.md)
+```methodsynopsis
+msgfmt_create(string $locale, string $pattern): ?MessageFormatter
+```
 
 Створює засіб форматування повідомлень.
 
 ### Список параметрів
 
 `locale`
-Локаль, що використовується при форматуванні аргументів
+
+Локаль, яка використовується при форматуванні аргументів
 
 `pattern`
-Рядок (string) шаблон для вставлення аргументів. У шаблоні використовується
-"дружній до апострофів" синтаксис; перед інтерпретацією він проходить
-через
-[»umsg_autoQuoteApostrophe](http://www.icu-project.org/apiref/icu4c/umsg_8h.md#9da796210146ff51d395affe4928f0b7).
+
+Рядок (string) шаблон для вставлення аргументів. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
 
 ### Значення, що повертаються
 
-Об'єкт [MessageFormatter](class.messageformatter.md) або **`null`**
-у разі виникнення помилки.
+Об'єкт [MessageFormatter](class.messageformatter.html) або **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-При виклику як конструктор у разі виникнення помилки
-викидається виняток [IntlException](class.intlexception.md).
+При виклику як конструктор у разі виникнення помилки викидається виняток [IntlException](class.intlexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmt_create()****
+**Приклад #1 Приклад використання **msgfmtcreate()****
 
-` <?php$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");echo (4560, 123, 4560/123));$fmt==msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,num echo msgfmt_format($fmt, array(4560, 123, 4560/123));?> `
+```php
+<?php
+$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
+echo msgfmt_format($fmt, array(4560, 123, 4560/123));
+$fmt = msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
+echo msgfmt_format($fmt, array(4560, 123, 4560/123));
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree"t)t; (array(4560, 123, 4560/123));$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen s  ");echo $fmt->format(array(4560, 123, 4560/123));?> `
+```php
+<?php
+$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
+echo $fmt->format(array(4560, 123, 4560/123));
+$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
+echo $fmt->format(array(4560, 123, 4560/123));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 4,560 monkeys on 123 trees make 37.073 monkeys per tree
 4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum
+```
 
 ### Дивіться також
 
-- [msgfmt_format()](messageformatter.format.md) - Форматує
-повідомлення
-- [msgfmt_parse()](messageformatter.parse.md) - Розбирає рядок
-згідно шаблону
-- [msgfmt_get_error_code()](messageformatter.geterrorcode.md) -
-Повертає код помилки останньої операції
-- [msgfmt_get_error_message()](messageformatter.geterrormessage.md) -
-Повертає текст помилки останньої операції
+-   [msgfmt\_format()](messageformatter.format.html) - Форматує повідомлення
+-   [msgfmt\_parse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції

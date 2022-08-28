@@ -1,49 +1,52 @@
-- [« Установка](componere.installation.md)
-- [Componere\Abstract\Definition::addInterface »](componere-abstract-definition.addinterface.md)
+Клас ComponereAbstractDefinition
 
-- [PHP Manual](index.md)
-- [Componere](book.componere.md)
-- Клас Componere\Abstract\Definition
+-   [« Установка](componere.installation.html)
+    
+-   [Componere\\Abstract\\Definition::addInterface »](componere-abstract-definition.addinterface.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere](book.componere.html)
+    
+-   Клас ComponereAbstractDefinition
+    
 
-# Клас Componere\Abstract\Definition
+# Клас ComponereAbstractDefinition
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
 ## Вступ
 
-Остаточний абстрактний клас є структурою класу і не
-повинен використовуватись програмістом.
+Остаточний абстрактний клас є структурою класу і не повинен використовуватися програмістом.
 
 ## Огляд класів
 
-final abstract class **Componere\Abstract\Definition** {
+```classsynopsis
 
-/\* Методи \*/
 
-public
-[addInterface](componere-abstract-definition.addinterface.md)(string
-`$interface`): Definition
+    
+    
+     
+      final
+      abstract
+      class Componere\Abstract\Definition
+     
+     {
+    
 
-public [addMethod](componere-abstract-definition.addmethod.md)(string
-`$name`, [Componere\Method](class.componere-method.md) `$method`):
-Definition
+    /* Методы */
+    
+   public addInterface(string $interface): Definition
+public addMethod(string $name, Componere\Method $method): Definition
+public addTrait(string $trait): Definition
+public getReflector(): ReflectionClass
 
-public [addTrait](componere-abstract-definition.addtrait.md)(string
-`$trait`): Definition
-
-public
-[getReflector](componere-abstract-definition.getreflector.md)():
-[ReflectionClass](class.reflectionclass.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [Componere\Abstract\Definition::addInterface](componere-abstract-definition.addinterface.md)
-— Додає інтерфейс
-- [Componere\Abstract\Definition::addMethod](componere-abstract-definition.addmethod.md)
-- Додає метод
-- [Componere\Abstract\Definition::addTrait](componere-abstract-definition.addtrait.md)
-- Додає трейт
-- [Componere\Abstract\Definition::getReflector](componere-abstract-definition.getreflector.md)
-- Reflection
+-   [Componere\\Abstract\\Definition::addInterface](componere-abstract-definition.addinterface.html) — Додає інтерфейс
+-   [Componere\\Abstract\\Definition::addMethod](componere-abstract-definition.addmethod.html) — Додає метод
+-   [Componere\\Abstract\\Definition::addTrait](componere-abstract-definition.addtrait.html) - Додає трейт
+-   [Componere\\Abstract\\Definition::getReflector](componere-abstract-definition.getreflector.html) - Reflection

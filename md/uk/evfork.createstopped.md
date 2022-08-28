@@ -1,35 +1,55 @@
-- [«EvFork::\_\_construct](evfork.construct.md)
-- [EvIdle »](class.evidle.md)
+Створити об'єкт класу EvFork, але не стартувати його
 
-- [PHP Manual](index.md)
-- [EvFork](class.evfork.md)
-- створити об'єкт класу EvFork, але не стартувати його
+-   [« EvFork::\_\_construct](evfork.construct.html)
+    
+-   [EvIdle »](class.evidle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvFork](class.evfork.html)
+    
+-   Створити об'єкт класу EvFork, але не стартувати його
+    
 
 # EvFork::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvFork::createStopped — Створити об'єкт класу EvFork, але не стартувати
-його
+EvFork::createStopped — Створити об'єкт класу EvFork, але не стартувати його
 
 ### Опис
 
-final public static **EvFork::createStopped**( string `$callback` ,
-string `$data` = ?, string `$priority` = ?): object
+```methodsynopsis
+final
+   public
+   static
+   EvFork::createStopped(
+    string
+     $callback
+   , 
+    string
+     $data
+    = ?, 
+    string
+     $priority
+    = ?): object
+```
 
-Те саме, що і [EvFork::\_\_construct()](evfork.construct.md) , але
-не здійснює автоматичного старту спостерігача.
+Те саме, що й [EvFork::\_\_construct()](evfork.construct.html) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
 `callback`
-Дивіться [функції спостерігачів callback](ev.watcher-callbacks.md) .
+
+Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
 
 `data`
+
 Довільні дані, асоційовані із спостерігачем
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -37,5 +57,4 @@ string `$data` = ?, string `$priority` = ?): object
 
 ### Дивіться також
 
-- [EvFork::\_\_construct()](evfork.construct.md) - Конструктор
-спостерігача EvFork
+-   [EvFork::\_\_construct()](evfork.construct.html) - Конструктор спостерігача EvFork

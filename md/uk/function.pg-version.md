@@ -1,67 +1,74 @@
-- [«pg_update](function.pg-update.md)
-- [PgSql\Connection »](class.pgsql-connection.md)
+Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає масив, що містить версії клієнта, протоколу
-клієнт-серверної взаємодії та сервера (якщо є)
+-   [« pg\_update](function.pg-update.html)
+    
+-   [PgSql\\Connection »](class.pgsql-connection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
+    
 
-#pg_version
+# пгversion
 
 (PHP 5, PHP 7, PHP 8)
 
-pg_version - Повертає масив, що містить версії клієнта, протоколу
-клієнт-серверної взаємодії та сервера (якщо є)
+пгversion — Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
 
 ### Опис
 
-**pg_version**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): array
+```methodsynopsis
+pg_version(?PgSql\Connection $connection = null): array
+```
 
-**pg_version()** повертає масив, що містить версії клієнта, протоколу
-клієнт-серверної взаємодії та сервера. Версії протоколу та сервера
-доступні лише якщо модуль PHP скомпільований для PostgreSQL версії 7.4
-або вище.
+**пгversion()** повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера. Версії протоколу та сервера доступні, тільки якщо модуль PHP скомпільовано для PostgreSQL версії 7.4 або вище.
 
-Для отримання детальної інформації про сервер використовуйте функцію
-[pg_parameter_status()](function.pg-parameter-status.md).
+Для отримання детальної інформації про сервер використовуйте функцію [pg\_parameter\_status()](function.pg-parameter-status.html)
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Повертає масив з ключами `client`, `protocol` та `server` та
-відповідними значеннями версії.
+Повертає масив із ключами `client` `protocol` і `server` та відповідними значеннями версій.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_version()****
+**Приклад #1 Приклад використання **пгversion()****
 
-`<?php  $dbconn = pg_connect("host=localhost port=5432 dbname=mary")    or| die("Could not connect"); $v = pg_version($dbconn); echo $v['client'];?> `
+```php
+<?php
+  $dbconn = pg_connect("host=localhost port=5432 dbname=mary")
+     or die("Could not connect");
+
+  $v = pg_version($dbconn);
+
+  echo $v['client'];
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 7.4
+```
 
 ### Дивіться також
 
-- [pg_parameter_status()](function.pg-parameter-status.md) -
-Перегляд поточних значень параметрів сервера
+-   [pg\_parameter\_status()](function.pg-parameter-status.html) - Перегляд поточних значень параметрів сервера

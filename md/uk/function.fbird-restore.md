@@ -1,17 +1,22 @@
-- [«fbird_query](function.fbird-query.md)
-- [fbird_rollback_ret »](function.fbird-rollback-ret.md)
+Псевдонім ibaserestore
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_restore
+-   [« fbird\_query](function.fbird-query.html)
+    
+-   [fbird\_rollback\_ret »](function.fbird-rollback-ret.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaserestore
+    
 
-#fbird_restore
+# fbirdrestore
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_restore - Псевдонім [ibase_restore()](function.ibase-restore.md)
+fbirdrestore - Псевдонім [ibase\_restore()](function.ibase-restore.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_restore()](function.ibase-restore.md).
+Ця функція є псевдонімом: [ibase\_restore()](function.ibase-restore.html)

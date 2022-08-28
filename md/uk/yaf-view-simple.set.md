@@ -1,44 +1,57 @@
-- [« Yaf_View_Simple::render](yaf-view-simple.render.md)
-- [Yaf_View_Simple::setScriptPath »](yaf-view-simple.setscriptpath.md)
+Встановлює значення для двигуна
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Встановлює значення для двигуна
+-   [« Yaf\_View\_Simple::render](yaf-view-simple.render.html)
+    
+-   [Yaf\_View\_Simple::setScriptPath »](yaf-view-simple.setscriptpath.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+    
+-   Встановлює значення для двигуна
+    
 
-# Yaf_View_Simple::\_\_set
+# YafViewSimple::set
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_View_Simple::\_\_set - Встановлює значення для движка
+YafViewSimple::set - Встановлює значення для движка
 
 ### Опис
 
-public **Yaf_View_Simple::\_\_set**(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public Yaf_View_Simple::__set(string $name, mixed $value): void
+```
 
-Альтернативний і простіший спосіб
-[Yaf_View_Simple::assign()](yaf-view-simple.assign.md).
+Альтернативний і простий спосіб [Yaf\_View\_Simple::assign()](yaf-view-simple.assign.html)
 
 ### Список параметрів
 
 `name`
-Ім'я рядкового значення.
+
+Ім'я строкового значення.
 
 `value`
+
 Різне значення.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_View_Simple::\_\_set()**exampl**
+\*\*Приклад #1 Приклад використання \*\*YafViewSimple::set()**exampl**
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $this->getView()->foo = "bar"; // те ж, що і assign("foo", "bar"); }}?> `
+```php
+<?php
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $this->getView()->foo = "bar"; // то же, что и assign("foo", "bar");
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [Yaf_View_Simple::assignRef()](yaf-view-simple.assignref.md) -
-Призначення assignRef
-- [Yaf_View_Interface::assign()](yaf-view-interface.assign.md) -
-Призначає значення для движка відображення
+-   [Yaf\_View\_Simple::assignRef()](yaf-view-simple.assignref.html) - Призначення assignRef
+-   [Yaf\_View\_Interface::assign()](yaf-view-interface.assign.html) - Призначає значення для движка відображення

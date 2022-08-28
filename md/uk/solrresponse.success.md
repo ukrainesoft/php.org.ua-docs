@@ -1,19 +1,27 @@
-- [«SolrResponse::setParseMode](solrresponse.setparsemode.md)
-- [SolrQueryResponse »](class.solrqueryresponse.md)
+Чи був запит успішним?
 
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Чи був запит успішним?
+-   [« SolrResponse::setParseMode](solrresponse.setparsemode.html)
+    
+-   [SolrQueryResponse »](class.solrqueryresponse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrResponse](class.solrresponse.html)
+    
+-   Чи був запит успішним?
+    
 
 # SolrResponse::success
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrResponse::success — Чи був успішним запит?
 
 ### Опис
 
-public **SolrResponse::success**(): bool
+```methodsynopsis
+public SolrResponse::success(): bool
+```
 
 Використовується для перевірки успішності запиту на сервер.
 
@@ -23,5 +31,4 @@ public **SolrResponse::success**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі якщо запит виконано успішно та
-**`false`**, якщо ні.
+Повертає **`true`** у разі якщо запит виконано успішно та **`false`**, якщо ні.

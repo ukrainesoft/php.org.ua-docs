@@ -1,9 +1,15 @@
-- [« IntlChar::getBlockCode](intlchar.getblockcode.md)
-- [IntlChar::getFC_NFKC_Closure »](intlchar.getfc-nfkc-closure.md)
+Отримати комбінуючий клас для символу
 
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Отримати комбінуючий клас для символу
+-   [« IntlChar::getBlockCode](intlchar.getblockcode.html)
+    
+-   [IntlChar::getFC\_NFKC\_Closure »](intlchar.getfc-nfkc-closure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlChar](class.intlchar.html)
+    
+-   Отримати комбінуючий клас для символу
+    
 
 # IntlChar::getCombiningClass
 
@@ -13,31 +19,38 @@ IntlChar::getCombiningClass — Отримати комбінуючий клас
 
 ### Опис
 
-public static **IntlChar::getCombiningClass**(int\|string `$codepoint`):
-?int
+```methodsynopsis
+public static IntlChar::getCombiningClass(int|string $codepoint): ?int
+```
 
 Повертає комбінуючий клас для символу.
 
 ### Список параметрів
 
 `codepoint`
-Цілочисленне (int) завдання коду символу (наприклад, `0x2603` для *U+2603
-СНІГОВИКА*), або символ, закодований рядок UTF-8 (наприклад
-``\u{2603}"`)
+
+Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
 
 ### Значення, що повертаються
 
-Повертає комбінуючий клас для символу. У разі виникнення
-помилки повертає **`null`**.
+Повертає комбінуючий клас для символу. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::getCombiningClass("A"));var_dump(IntlChar::getCombiningClass("\u{0334}"));var_dump(IntlChar::getCombiningClass("\u{0358}")); ?> `
+```php
+<?php
+var_dump(IntlChar::getCombiningClass("A"));
+var_dump(IntlChar::getCombiningClass("\u{0334}"));
+var_dump(IntlChar::getCombiningClass("\u{0358}"));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(0)
 int(1)
 int(232)
+```

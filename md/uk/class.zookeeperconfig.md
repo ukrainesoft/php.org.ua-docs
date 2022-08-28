@@ -1,13 +1,19 @@
-- [« Zookeeper::setWatcher](zookeeper.setwatcher.md)
-- [ZookeeperConfig::add »](zookeeperconfig.add.md)
+Клас ZookeeperConfig
 
-- [PHP Manual](index.md)
-- [ZooKeeper](book.zookeeper.md)
-- Клас ZookeeperConfig
+-   [« Zookeeper::setWatcher](zookeeper.setwatcher.html)
+    
+-   [ZookeeperConfig::add »](zookeeperconfig.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZooKeeper](book.zookeeper.html)
+    
+-   Клас ZookeeperConfig
+    
 
 # Клас ZookeeperConfig
 
-(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
+(PECL zookeeper >= 0.6.0, ZooKeeper >= 3.5.0)
 
 ## Вступ
 
@@ -15,33 +21,37 @@
 
 ## Огляд класів
 
-class **ZookeeperConfig** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [add](zookeeperconfig.add.md)(string `$members`, int `$version`
-= -1, array `&$stat` = **`null`**): void
+     
+     
+      
+       class ZookeeperConfig
+      
+      {
+     
 
+     
+     /* Методы */
+     
+   public
+   add(string $members, int $version = -1, array &$stat = null): void
 public
-[get](zookeeperconfig.get.md)([callable](language.types.callable.md)
-`$watcher_cb` = **`null`**, array `&$stat` = **`null`**): string
+   get(callable $watcher_cb = null, array &$stat = null): string
+public
+   remove(string $id_list, int $version = -1, array &$stat = null): void
+public
+   set(string $members, int $version = -1, array &$stat = null): void
 
-public [remove](zookeeperconfig.remove.md)(string `$id_list`, int
-`$version` = -1, array `&$stat` = **`null`**): void
+     
 
-public [set](zookeeperconfig.set.md)(string `$members`, int `$version`
-= -1, array `&$stat` = **`null`**): void
-
-}
+    }
+```
 
 ## Зміст
 
-- [ZookeeperConfig::add](zookeeperconfig.add.md) — Додає сервери
-в ансамбль
-- [ZookeeperConfig::get](zookeeperconfig.get.md) — Синхронно
-отримує останню підтверджену конфігурацію кластера ZooKeeper,
-якій відомо серверу, до якого підключений клієнт
-- [ZookeeperConfig::remove](zookeeperconfig.remove.md) — Видаляє
-сервери з ансамблю
-- [ZookeeperConfig::set](zookeeperconfig.set.md) — Змінює склад
-ансамблю ZK та ролі його учасників
+-   [ZookeeperConfig::add](zookeeperconfig.add.html) — Додає сервери до ансамблю
+-   [ZookeeperConfig::get](zookeeperconfig.get.html) — Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::remove](zookeeperconfig.remove.html) — Видаляє сервери з ансамблю
+-   [ZookeeperConfig::set](zookeeperconfig.set.html) — Змінює склад ансамблю ZK та ролі його учасників

@@ -1,9 +1,15 @@
-- [« Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.md)
-- [Imagick::getImageDepth »](imagick.getimagedepth.md)
+Повертає затримку зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає затримку зображення
+-   [« Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.html)
+    
+-   [Imagick::getImageDepth »](imagick.getimagedepth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає затримку зображення
+    
 
 # Imagick::getImageDelay
 
@@ -13,7 +19,9 @@ Imagick::getImageDelay — Повертає затримку зображенн�
 
 ### Опис
 
-public **Imagick::getImageDelay**(): int
+```methodsynopsis
+public Imagick::getImageDelay(): int
+```
 
 Повертає затримку зображення.
 

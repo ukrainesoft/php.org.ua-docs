@@ -1,58 +1,57 @@
-- [« Установка](expect.installation.md)
-- [Типи ресурсів»](expect.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](expect.setup.md)
-- Налаштування під час виконання
+-   [« Установка](expect.installation.html)
+    
+-   [Типы ресурсов »](expect.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](expect.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
+Поведінка цих функцій залежить від установок у php.ini.
 
-Для налаштування модуля використовуйте наведені нижче опції
-[Файл конфігурації](configuration.file.md) `php.ini`.
-
-| Ім'я За замовчуванням                                            | Місце зміни | Список змін |
-| ---------------------------------------------------------------- | ----------- | ----------- |
-| [expect.timeout](expect.configuration.md#ini.expect.timeout)     | "10"        | PHP_INI_ALL |
-| [expect.loguser](expect.configuration.md#ini.expect.loguser)     | "1"         | PHP_INI_ALL |
-| [expect.logfile](expect.configuration.md#ini.expect.logfile)     | ""          | PHP_INI_ALL |
-| [expect.match_max](expect.configuration.md#ini.expect.match-max) | ""          | PHP_INI_ALL |
+Для налаштування модуля використовуйте наведені нижче опції [конфигурационного файла](configuration.file.html) php.ini.
 
 **Опції налаштування Expect**
 
-Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [expect.timeout](expect.configuration.html#ini.expect.timeout) | "10" | PHPINIALL |  |
+| [expect.loguser](expect.configuration.html#ini.expect.loguser) | "1" | PHPINIALL |  |
+| [expect.logfile](expect.configuration.html#ini.expect.logfile) | "" | PHPINIALL |  |
+| [expect.match\_max](expect.configuration.html#ini.expect.match-max) | "" | PHPINIALL |  |
+
+Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 
 `expect.timeout` int
-Максимальний час очікування даних під час використання функції
-[expect_expectl()](function.expect-expectl.md).
+
+Максимальний час очікування даних під час використання функції [expect\_expectl()](function.expect-expectl.html)
 
 Значення "-1" задає вічне очікування.
 
-> **Примітка**:
->
-> Значення "0" означає, що функція
-> [expect_expectl()](function.expect-expectl.md) завершиться одразу.
+> **Зауваження**
+> 
+> Значення "0" означає, що функція [expect\_expectl()](function.expect-expectl.html) завершиться одразу.
 
 `expect.loguser` bool
-Визначає, чи породжений процес робитиме висновок у потік
-stdout. Оскільки інтерактивні програми зазвичай дублюють
-введення користувача, зазвичай потрібно вирішувати цю опцію, щоб
-взаємодія була усвідомленою.
+
+Визначає, чи породжений процес робитиме висновок у потік stdout. Так як інтерактивні програми зазвичай дублюють введення користувача, зазвичай потрібно вирішувати цю опцію, щоб взаємодія була усвідомленою.
 
 `expect.logfile` string
-Ім'я файлу, куди писатиметься виведення породженого процесу. Якщо файл не
-існує, він буде створено.
 
-> **Примітка**:
->
-> Якщо цій опції надано якесь не порожнє значення, то висновок
-> писатиметься у файл незалежно від налаштування
-> [expect.loguser](expect.configuration.md#ini.expect.loguser).
+Ім'я файлу, куди писатиметься висновок породженого процесу. Якщо файл не існує, його буде створено.
+
+> **Зауваження**
+> 
+> Якщо цій опції надано якесь не порожнє значення, то висновок писатиметься у файл незалежно від налаштування [expect.loguser](expect.configuration.html#ini.expect.loguser)
 
 `expect.match_max` int
-Змінює розмір буфера (за замовчуванням 2000 байт), який використовується для пошуку
-зірочки символ у шаблонах.
+
+Змінює розмір буфера (за замовчуванням 2000 байт), який використовується для пошуку символу зірочки в шаблонах.

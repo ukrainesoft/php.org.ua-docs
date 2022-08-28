@@ -1,29 +1,38 @@
-- [«trader_rocr](function.trader-rocr.md)
-- [trader_sar »](function.trader-sar.md)
+Індекс відносної сили
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- індекс відносної сили
+-   [« trader\_rocr](function.trader-rocr.html)
+    
+-   [trader\_sar »](function.trader-sar.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Індекс відносної сили
+    
 
-# trader_rsi
+# traderrsi
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_rsi - Індекс відносної сили
+traderrsi - Індекс відносної сили
 
 ### Опис
 
-**trader_rsi**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_rsi(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,22 +1,30 @@
-- [«EvLoop](class.evloop.md)
-- [EvLoop::check »](evloop.check.md)
+Повертає ціле число, що описує бекенд, використовуваний libev
 
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Повертає ціле число, що описує бекенд, використовуваний libev
+-   [« EvLoop](class.evloop.html)
+    
+-   [EvLoop::check »](evloop.check.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvLoop](class.evloop.html)
+    
+-   Повертає ціле число, що описує бекенд, використовуваний libev
+    
 
 # EvLoop::backend
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::backend — Повертає ціле число, що описує бекенд,
-використовуваний libev
+EvLoop::backend — Повертає ціле число, що описує бекенд, який використовується libev
 
 ### Опис
 
-public **EvLoop::backend**(): int
+```methodsynopsis
+public
+   EvLoop::backend(): int
+```
 
-Те саме, що [Ev::backend()](ev.backend.md), але для екземпляра циклу.
+Те саме, що [Ev::backend()](ev.backend.html)але для екземпляра циклу.
 
 ### Список параметрів
 
@@ -24,10 +32,8 @@ public **EvLoop::backend**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число, що описує бекенд, який використовується libev. Дивіться
-[Ev::backend()](ev.backend.md).
+Повертає ціле число, що описує бекенд, який використовується libev. Дивіться [Ev::backend()](ev.backend.html)
 
 ### Дивіться також
 
-- [Ev::backend()](ev.backend.md) - Повертає ціле число,
-описує бекенд, використовуваний libev
+-   [Ev::backend()](ev.backend.html) - Повертає ціле число, що описує бекенд, що використовується libev

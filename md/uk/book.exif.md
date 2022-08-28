@@ -1,27 +1,28 @@
-- [« Обробка та генерація зображень](refs.utilspec.image.md)
-- [Вступ »](intro.exif.md)
+Інформація, що змінюється про зображення
 
-- [PHP Manual](index.md)
-- [Обробка та генерація зображень](refs.utilspec.image.md)
-- Змінна інформація про зображення
+-   [« Обработка и генерация изображений](refs.utilspec.image.html)
+    
+-   [Введение »](intro.exif.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обработка и генерация изображений](refs.utilspec.image.html)
+    
+-   Інформація, що змінюється про зображення
+    
 
+# Інформація, що змінюється про зображення
 
-
-- [Вступ](intro.exif.md)
-- [Встановлення та налаштування](exif.setup.md)
-
-
-
-
-- [Предвизначені константи](exif.constants.md)
-- [Exif Функції](ref.exif.md)
-- [exif_imagetype](function.exif-imagetype.md) - Determine the
-type of an image
-- [exif_read_data](function.exif-read-data.md) - Читає
-заголовки EXIF із файлів зображень
-- [exif_tagname](function.exif-tagname.md) - Отримання імені
-заголовка за його індексом
-- [exif_thumbnail](function.exif-thumbnail.md) - Отримує
-вбудоване прев'ю зображення
-- [read_exif_data](function.read-exif-data.md) - Псевдонім
-exif_read_data
+-   [Введение](intro.exif.html)
+-   [Установка и настройка](exif.setup.html)
+    -   [Требования](exif.requirements.html)
+    -   [Установка](exif.installation.html)
+    -   [Настройка во время выполнения](exif.configuration.html)
+    -   [Типы ресурсов](exif.resources.html)
+-   [Предопределённые константы](exif.constants.html)
+-   [Exif Функции](ref.exif.html)
+    -   [exif\_imagetype](function.exif-imagetype.html) — Determine the type of an image
+    -   [exif\_read\_data](function.exif-read-data.html) — Читає заголовки EXIF ​​із файлів зображень
+    -   [exif\_tagname](function.exif-tagname.html) — Отримання імені заголовка за його індексом
+    -   [exif\_thumbnail](function.exif-thumbnail.html) — Отримує вбудоване прев'ю зображення
+    -   [read\_exif\_data](function.read-exif-data.html) - Псевдонім exifreaddata

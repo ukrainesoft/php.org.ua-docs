@@ -1,39 +1,33 @@
-- [« Інші](timezones.others.md)
-- [Вступ »](intro.hrtime.md)
+Час високого дозволу
 
-- [PHP Manual](index.md)
-- [Модулі для роботи з датою та часом](refs.calendar.md)
-- Час високого дозволу
+-   [« Другие](timezones.others.html)
+    
+-   [Введение »](intro.hrtime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для работы с датой и временем](refs.calendar.html)
+    
+-   Час високого дозволу
+    
 
 # Час високого дозволу
 
-- [Вступ](intro.hrtime.md)
-- [Встановлення та налаштування](hrtime.setup.md)
-- [Установка](hrtime.installation.md)
-- [Приклади](hrtime.examples.md)
-- [Основи використання](hrtime.example.basic.md)
-- [HRTime\PerformanceCounter](class.hrtime-performancecounter.md) -
-Клас HRTime\PerformanceCounter
-- [HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)
-- Частота таймера в тиках за секунду
-- [HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)
-- Поточне значення тиків системи
-- [HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)
-- Кількість тиків, що пройшли із заданого значення
-- [HRTime\StopWatch](class.hrtime-stopwatch.md) - Клас
-HRTime\StopWatch
-- [HRTime\StopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.md)
-— Отримати кількість тиків для всіх інтервалів.
-- [HRTime\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.md)
-— Отримати сумарний минулий час усіх інтервалів
-- [HRTime\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md)
-— Отримати кількість тиків за останній інтервал
-- [HRTime\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)
-— Отримати минулий час для останнього інтервалу
-- [HRTime\StopWatch::isRunning](hrtime-stopwatch.isrunning.md) -
-Перевірити, чи виконується вимір
-- [HRTime\StopWatch::start](hrtime-stopwatch.start.md) -
-Запустити вимір часу
-- [HRTime\StopWatch::stop](hrtime-stopwatch.stop.md) -
-Зупинити вимір
-- [HRTime\Unit](class.hrtime-unit.md) - Клас HRTime\Unit
+-   [Введение](intro.hrtime.html)
+-   [Установка и настройка](hrtime.setup.html)
+    -   [Установка](hrtime.installation.html)
+-   [Примеры](hrtime.examples.html)
+    -   [Основы использования](hrtime.example.basic.html)
+-   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html) - Клас HRTimePerformanceCounter
+    -   [HRTime\\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html) - Частота таймера в тиках за секунду
+    -   [HRTime\\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.html) - Поточне значення тиків системи
+    -   [HRTime\\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.html) - Кількість тиків, що пройшли із заданого значення
+-   [HRTime\\StopWatch](class.hrtime-stopwatch.html) - Клас HRTimeStopWatch
+    -   [HRTime\\StopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.html) — Отримати кількість тиків для всіх інтервалів.
+    -   [HRTime\\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.html) — Отримати сумарний час усіх інтервалів, що минув.
+    -   [HRTime\\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.html) — Отримати кількість тиків, що пройшли, за останній інтервал
+    -   [HRTime\\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.html) — Отримати минулий час для останнього інтервалу
+    -   [HRTime\\StopWatch::isRunning](hrtime-stopwatch.isrunning.html) — Перевірити, чи виконується вимір
+    -   [HRTime\\StopWatch::start](hrtime-stopwatch.start.html) - Запустити вимір часу
+    -   [HRTime\\StopWatch::stop](hrtime-stopwatch.stop.html) — Зупинити вимір
+-   [HRTime\\Unit](class.hrtime-unit.html) - Клас HRTimeUnit

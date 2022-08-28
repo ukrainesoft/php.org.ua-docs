@@ -1,42 +1,48 @@
-- [« PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md)
-- [PharFileInfo »](class.pharfileinfo.md)
+Функція заглушка (Phar::setStub не можна використовувати для PharData)
 
-- [PHP Manual](index.md)
-- [PharData](class.phardata.md)
-- Функція заглушка (Phar::setStub не можна використовувати для PharData)
+-   [« PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.html)
+    
+-   [PharFileInfo »](class.pharfileinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PharData](class.phardata.html)
+    
+-   Функція заглушка (Phar::setStub не можна використовувати для PharData)
+    
 
 # PharData::setStub
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::setStub — Функція заглушка (Phar::setStub не можна використовувати
-для PharData)
+PharData::setStub — Функція заглушка (Phar::setStub не можна використовувати для PharData)
 
 ### Опис
 
-public **PharData::setStub**(string `$stub`, int `$len` = -1): bool
+```methodsynopsis
+public PharData::setStub(string $stub, int $len = -1): bool
+```
 
-Незапускані tar/zip-архіви не можуть мати завантажувача (stub), тому
-цей метод просто кидає виняток.
+tar/zip-архіви, що не запускаються, не можуть мати завантажувача (stub), так що цей метод просто кидає виняток.
 
 ### Список параметрів
 
 `stub`
+
 Параметр ігнорується.
 
 `len`
+
 Параметр ігнорується.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md)
+Викидає виняток [PharException](class.pharexception.html)
 
 ### Дивіться також
 
-- [Phar::setStub()](phar.setstub.md) - Встановити завантажувач або
-завантажувальну заглушку в Phar-архів
+-   [Phar::setStub()](phar.setstub.html) - Встановити завантажувач або завантажувальну заглушку в Phar-архів

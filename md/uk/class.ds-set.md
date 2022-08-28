@@ -1,9 +1,15 @@
-- [« Ds\Pair::toArray](ds-pair.toarray.md)
-- [Ds\Set::add »](ds-set.add.md)
+Клас Set
 
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Клас Set
+-   [« Ds\\Pair::toArray](ds-pair.toarray.html)
+    
+-   [Ds\\Set::add »](ds-set.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](book.ds.html)
+    
+-   Клас Set
+    
 
 # Клас Set
 
@@ -11,180 +17,112 @@
 
 ## Вступ
 
-Set – це послідовність унікальних значень. Реалізація використовує
-ту ж хеш-таблицю, що і **Ds\Map**, в якій значення використовуються в
-як ключі, а пов'язані значення ігноруються.
+Set – це послідовність унікальних значень. Реалізація використовує ту ж хеш-таблицю, що й **ДсMap**, В якій значення використовуються як ключі, а зв'язані значення ігноруються.
 
 ## Сильні сторони
 
-- Значення можуть бути будь-якого типу, включаючи об'єкти.
-- Підтримує синтаксис масиву (квадратні дужки).
-- Зберігається порядок вставки.
-- Автоматично звільняє пам'ять, коли кількість елементів
-значно зменшується.
-- **add()**, **remove()** та **contains()** мають складність O(1).
+-   Значення можуть бути будь-якого типу, включаючи об'єкти.
+-   Підтримує синтаксис масиву (квадратні дужки).
+-   Зберігається порядок вставки.
+-   Автоматично звільняє пам'ять, коли кількість елементів значно зменшується.
+-   **add()** **remove()** і **contains()** мають складність O(1).
 
 ## Слабкі сторони
 
-- Не підтримує **push()**, **pop()**, **insert()**, **shift()** та
-**unshift()**.
-- **get()** має складність O(n), якщо є віддалені значення
-буфері, до значення, якого відбувається доступ. Інакше O(1).
+-   Не підтримує **push()** **pop()** **insert()** **shift()** і **unshift()**
+-   **get()** має складність O(n), якщо є віддалені значення буфері, до значення, до якого відбувається доступ. Інакше O(1).
 
 ## Огляд класів
 
-class **Ds\Set** implements **Ds\Collection**,
-[ArrayAccess](class.arrayaccess.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `MIN_CAPACITY` = 16;
+    
+    
+     
+      class Ds\Set
+     
 
-/\* Методи \*/
+     implements 
+       Ds\Collection,  ArrayAccess {
+    
+    /* Константы */
+    
+     const
+     int
+      MIN_CAPACITY = 16;
 
-public
-[add](ds-set.add.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
 
-public [allocate](ds-set.allocate.md)(int `$capacity`): void
+    /* Методы */
+    
+   public add(mixed ...$values): void
+public allocate(int $capacity): void
+public capacity(): int
+public clear(): void
+public contains(mixed ...$values): bool
+public copy(): Ds\Set
+public diff(Ds\Set $set): Ds\Set
+public filter(callable $callback = ?): Ds\Set
+public first(): mixed
+public get(int $index): mixed
+public intersect(Ds\Set $set): Ds\Set
+public isEmpty(): bool
+public join(string $glue = ?): string
+public last(): mixed
+public merge(mixed $values): Ds\Set
+public reduce(callable $callback, mixed $initial = ?): mixed
+public remove(mixed ...$values): void
+public reverse(): void
+public reversed(): Ds\Set
+public slice(int $index, int $length = ?): Ds\Set
+public sort(callable $comparator = ?): void
+public sorted(callable $comparator = ?): Ds\Set
+public sum(): int|float
+public toArray(): array
+public union(Ds\Set $set): Ds\Set
+public xor(Ds\Set $set): Ds\Set
 
-public [capacity](ds-set.capacity.md)(): int
+   }
+```
 
-public [clear](ds-set.clear.md)(): void
-
-public
-[contains](ds-set.contains.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): bool
-
-public [copy](ds-set.copy.md)(): [Ds\Set](class.ds-set.md)
-
-public [diff](ds-set.diff.md)([Ds\Set](class.ds-set.md) `$set`):
-[Ds\Set](class.ds-set.md)
-
-public
-[filter](ds-set.filter.md)([callable](language.types.callable.md)
-`$callback` = ?): [Ds\Set](class.ds-set.md)
-
-public [first](ds-set.first.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [get](ds-set.get.md)(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [intersect](ds-set.intersect.md)([Ds\Set](class.ds-set.md)
-`$set`): [Ds\Set](class.ds-set.md)
-
-public [isEmpty](ds-set.isempty.md)(): bool
-
-public [join](ds-set.join.md)(string `$glue` = ?): string
-
-public [last](ds-set.last.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[merge](ds-set.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$values`): [Ds\Set](class.ds-set.md)
-
-public
-[reduce](ds-set.reduce.md)([callable](language.types.callable.md)
-`$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[remove](ds-set.remove.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
-
-public [reverse](ds-set.reverse.md)(): void
-
-public [reversed](ds-set.reversed.md)(): [Ds\Set](class.ds-set.md)
-
-public [slice](ds-set.slice.md)(int `$index`, int `$length` = ?):
-[Ds\Set](class.ds-set.md)
-
-public [sort](ds-set.sort.md)([callable](language.types.callable.md)
-`$comparator` = ?): void
-
-public
-[sorted](ds-set.sorted.md)([callable](language.types.callable.md)
-`$comparator` = ?): [Ds\Set](class.ds-set.md)
-
-public [sum](ds-set.sum.md)(): int\|float
-
-public [toArray](ds-set.toarray.md)(): array
-
-public [union](ds-set.union.md)([Ds\Set](class.ds-set.md) `$set`):
-[Ds\Set](class.ds-set.md)
-
-public [xor](ds-set.xor.md)([Ds\Set](class.ds-set.md) `$set`):
-[Ds\Set](class.ds-set.md)
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Ds\Set::MIN_CAPACITY`**
 
-## Список змін
+## список змін
 
-| Версія        | Опис                                                   |
-| ------------- | ------------------------------------------------------ |
-| PECL DS 1.3.0 | Тепер клас продає [ArrayAccess](class.arrayaccess.md). |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
 
 ## Зміст
 
-- [Ds\Set::add](ds-set.add.md) — Додає значення до набору
-- [Ds\Set::allocate](ds-set.allocate.md) — Виділяє пам'ять під
-зазначену місткість
-- [Ds\Set::capacity](ds-set.capacity.md) — Повертає поточну
-місткість
-- [Ds\Set::clear](ds-set.clear.md) — Видаляє всі значення з
-колекції
-- [Ds\Set::\_\_construct](ds-set.construct.md) - Створює новий
-екземпляр класу
-- [Ds\Set::contains](ds-set.contains.md) — Перевіряє, чи міститься
-у колекції задані значення
-- [Ds\Set::copy](ds-set.copy.md) — Повертає поверхневу копію
-колекції
-- [Ds\Set::count](ds-set.count.md) — Повертає кількість елементів
-колекції
-- [Ds\Set::diff](ds-set.diff.md) — Створення нового набору з елементами,
-яких немає в іншому наборі
-- [Ds\Set::filter](ds-set.filter.md) — Створення нового списку з
-елементів, вибраних за допомогою заданої callback-функції
-- [Ds\Set::first](ds-set.first.md) — Повертає перший елемент
-колекції
-- [Ds\Set::get](ds-set.get.md) — Повертає значення за індексом
-- [Ds\Set::intersect](ds-set.intersect.md) — Створення нового набору,
-створений перетином з іншим набором
-- [Ds\Set::isEmpty](ds-set.isempty.md) — Перевіряє, чи порожня
-колекція
-- [Ds\Set::join](ds-set.join.md) — Склеює всі значення в рядок
-- [Ds\Set::jsonSerialize](ds-set.jsonserialize.md) — Повертає
-колекцію в JSON-представленні
-- [Ds\Set::last](ds-set.last.md) — Повертає останнє значення
-колекції
-- [Ds\Set::merge](ds-set.merge.md) — Повертає результат додавання
-всіх заданих значень у набір
-- [Ds\Set::reduce](ds-set.reduce.md) — Зменшує колекцію до одного
-значення, використовуючи callback-функцію
-- [Ds\Set::remove](ds-set.remove.md) — Видалення всіх заданих значень
-з набору
-- [Ds\Set::reverse](ds-set.reverse.md) — Перевертає поточну
-колекцію
-- [Ds\Set::reversed](ds-set.reversed.md) — Повертає перевернуту
-копію колекції
-- [Ds\Set::slice](ds-set.slice.md) — Повертає підбір з
-заданого діапазону
-- [Ds\Set::sort](ds-set.sort.md) — Сортує колекцію
-- [Ds\Set::sorted](ds-set.sorted.md) — Повертає відсортовану за
-значенням копію колекції
-- [Ds\Set::sum](ds-set.sum.md) — Повертає суму всіх значень
-колекції
-- [Ds\Set::toArray](ds-set.toarray.md) — Перетворює колекцію на
-масив (array)
-- [Ds\Set::union](ds-set.union.md) — Створення нового набору з
-елементів поточного та переданого наборів
-- [Ds\Set::xor](ds-set.xor.md) — Створення нового набору значень,
-які є в одному з наборів, але не в обох одночасно
+-   [Ds\\Set::add](ds-set.add.html) — Додає значення до набору
+-   [Ds\\Set::allocate](ds-set.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [Ds\\Set::capacity](ds-set.capacity.html) — Повертає поточну місткість
+-   [Ds\\Set::clear](ds-set.clear.html) — Видаляє всі значення з колекції
+-   [Ds\\Set::\_\_construct](ds-set.construct.html) - Створює новий екземпляр класу
+-   [Ds\\Set::contains](ds-set.contains.html) — Перевіряє, чи міститься в колекції задані значення
+-   [Ds\\Set::copy](ds-set.copy.html) — Повертає поверхневу копію колекції
+-   [Ds\\Set::count](ds-set.count.html) — Повертає кількість елементів колекції
+-   [Ds\\Set::diff](ds-set.diff.html) — Створює новий набір із елементами, яких немає в іншому наборі
+-   [Ds\\Set::filter](ds-set.filter.html) — Створює новий список із елементів, вибраних за допомогою заданої callback-функції
+-   [Ds\\Set::first](ds-set.first.html) — Повертає перший елемент колекції
+-   [Ds\\Set::get](ds-set.get.html) — Повертає значення за індексом
+-   [Ds\\Set::intersect](ds-set.intersect.html) — Створює новий набір, створений перетином з іншим набором
+-   [Ds\\Set::isEmpty](ds-set.isempty.html) — Перевіряє, чи колекція порожня.
+-   [Ds\\Set::join](ds-set.join.html) — Склеює всі значення в рядок
+-   [Ds\\Set::jsonSerialize](ds-set.jsonserialize.html) — Повертає колекцію в JSON-представництві
+-   [Ds\\Set::last](ds-set.last.html) — Повертає останнє значення колекції
+-   [Ds\\Set::merge](ds-set.merge.html) — Повертає результат додавання всіх заданих значень до набору
+-   [Ds\\Set::reduce](ds-set.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
+-   [Ds\\Set::remove](ds-set.remove.html) — Видаляє всі задані значення набору
+-   [Ds\\Set::reverse](ds-set.reverse.html) — Перевертає поточну колекцію
+-   [Ds\\Set::reversed](ds-set.reversed.html) — Повертає перегорнуту копію колекції
+-   [Ds\\Set::slice](ds-set.slice.html) — Повертає піднабір із заданого діапазону
+-   [Ds\\Set::sort](ds-set.sort.html) — Сортує колекцію
+-   [Ds\\Set::sorted](ds-set.sorted.html) — Повертає копію колекції, відсортовану за значенням.
+-   [Ds\\Set::sum](ds-set.sum.html) — Повертає суму всіх значень колекції
+-   [Ds\\Set::toArray](ds-set.toarray.html) — Перетворює колекцію на масив (array)
+-   [Ds\\Set::union](ds-set.union.html) — Створює новий набір з елементів поточного та переданого наборів
+-   [Ds\\Set::xor](ds-set.xor.html) — Створює новий набір із значень, які є в одному з наборів, але не в обох одночасно

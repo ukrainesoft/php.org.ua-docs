@@ -1,15 +1,21 @@
-- [«Вступ](intro.soap.md)
-- [Вимоги »](soap.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
+-   [« Введение](intro.soap.html)
+    
+-   [Требования »](soap.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](soap.requirements.md)
-- [Установка](soap.installation.md)
-- [Налаштування під час виконання](soap.configuration.md)
-- [Типи ресурсів](soap.resources.md)
+-   [Требования](soap.requirements.html)
+-   [Установка](soap.installation.html)
+-   [Настройка во время выполнения](soap.configuration.html)
+-   [Типы ресурсов](soap.resources.html)

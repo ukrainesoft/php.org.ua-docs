@@ -1,22 +1,26 @@
-- [«fbird_drop_db](function.fbird-drop-db.md)
-- [fbird_errmsg»](function.fbird-errmsg.md)
+Псевдонім ibaseerrcode
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_errcode
+-   [« fbird\_drop\_db](function.fbird-drop-db.html)
+    
+-   [fbird\_errmsg »](function.fbird-errmsg.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseerrcode
+    
 
-#fbird_errcode
+# fbirderrcode
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_errcode - Псевдонім [ibase_errcode()](function.ibase-errcode.md)
+fbirderrcode - Псевдонім [ibase\_errcode()](function.ibase-errcode.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_errcode()](function.ibase-errcode.md).
+Ця функція є псевдонімом: [ibase\_errcode()](function.ibase-errcode.html)
 
 ### Дивіться також
 
-- [fbird_errmsg()](function.fbird-errmsg.md) - Псевдонім
-ibase_errmsg
+-   [fbird\_errmsg()](function.fbird-errmsg.html) - Псевдонім ibaseerrmsg

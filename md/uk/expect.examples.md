@@ -1,12 +1,18 @@
-- [«Зумовлені константи](expect.constants.md)
-- [Приклади використання Expect»](expect.examples-usage.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [Expect](book.expect.md)
-- Приклади
+-   [« Предопределённые константы](expect.constants.html)
+    
+-   [Примеры использования Expect »](expect.examples-usage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Expect](book.expect.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Приклади використання Expect](expect.examples-usage.md)
+-   [Примеры использования Expect](expect.examples-usage.html)

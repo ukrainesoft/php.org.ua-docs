@@ -1,25 +1,31 @@
-- [« IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.md)
-- [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.md)
+Отримує дату зміни григоріанського календаря
 
-- [PHP Manual](index.md)
-- [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-- Отримує дату зміни григоріанського календаря
+-   [« IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.html)
+    
+-   [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlGregorianCalendar](class.intlgregoriancalendar.html)
+    
+-   Отримує дату зміни григоріанського календаря
+    
 
 # IntlGregorianCalendar::getGregorianChange
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlGregorianCalendar::getGregorianChange — Отримує дату зміни
-григоріанського календаря
+Intel GregorianCalendar::get Gregorian Change — Отримує дату зміни григоріанського календаря
 
 ### Опис
 
-public **IntlGregorianCalendar::getGregorianChange**(): float
+```methodsynopsis
+public IntlGregorianCalendar::getGregorianChange(): float
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

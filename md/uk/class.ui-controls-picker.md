@@ -1,76 +1,91 @@
-- [« UI\Controls\Radio::setSelected](ui-controls-radio.setselected.md)
-- [UI\Controls\Picker::\_\_construct »](ui-controls-picker.construct.md)
+Елемент керування "Селектор"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент керування "Селектор"
+-   [« UI\\Controls\\Radio::setSelected](ui-controls-radio.setselected.html)
+    
+-   [UI\\Controls\\Picker::\_\_construct »](ui-controls-picker.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент керування "Селектор"
+    
 
-# Елемент управління "Селектор"
+# Елемент керування "Селектор"
 
 (UI 0.9.9)
 
 ## Вступ
 
-Селектор представляє кнопку, яка при натисканні відкриває нативний
-інтерфейс селектора дати/часу/дати та часу.
+Селектор представляє кнопку, яка при натисканні відкриває нативний інтерфейс селектора дати/часу/дати та часу.
 
 ## Огляд класів
 
-class **UI\Controls\Picker** extends [UI\Control](class.ui-control.md)
-{
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Date`;
 
-const int `Time`;
+    
+     
+      class UI\Controls\Picker
+     
 
-const int `DateTime`;
+     
+      extends
+       UI\Control
+     
+     {
 
-/\* Конструктор \*/
+    /* Константы */
+    
+     const
+     int
+      Date;
 
-public [\_\_construct](ui-controls-picker.construct.md)(int `$type` =
-UI\Controls\Picker::Date)
+    const
+     int
+      Time;
 
-/\* Наслідувані методи \*/
+    const
+     int
+      DateTime;
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Конструктор */
+    
+   public __construct(int $type = UI\Controls\Picker::Date)
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
 
-public [UI\Control::hide](ui-control.hide.md)()
+   }
+```
 
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Controls\Picker::Date`**
+
 Селектор дати
 
 **`UI\Controls\Picker::Time`**
+
 Селектор часу
 
 **`UI\Controls\Picker::DateTime`**
+
 Селектор дати та часу
 
 ## Зміст
 
-- [UI\Controls\Picker::\_\_construct](ui-controls-picker.construct.md)
-- Створює новий об'єкт Picker
+-   [UI\\Controls\\Picker::\_\_construct](ui-controls-picker.construct.html) - Створює новий об'єкт Picker

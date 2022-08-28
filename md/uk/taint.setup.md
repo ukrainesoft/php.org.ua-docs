@@ -1,15 +1,21 @@
-- [«Вступ](intro.taint.md)
-- [Вимоги »](taint.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Taint](book.taint.md)
+-   [« Введение](intro.taint.html)
+    
+-   [Требования »](taint.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Taint](book.taint.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](taint.requirements.md)
-- [Установка](taint.installation.md)
-- [Налаштування під час виконання](taint.configuration.md)
-- [Типи ресурсів](taint.resources.md)
+-   [Требования](taint.requirements.html)
+-   [Установка](taint.installation.html)
+-   [Настройка во время выполнения](taint.configuration.html)
+-   [Типы ресурсов](taint.resources.html)

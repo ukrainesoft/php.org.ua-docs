@@ -1,17 +1,18 @@
-- [«CSPRNG](book.csprng.md)
-- [Встановлення та налаштування »](csprng.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [CSPRNG](book.csprng.md)
+-   [« CSPRNG](book.csprng.html)
+    
+-   [Установка и настройка »](csprng.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CSPRNG](book.csprng.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-API [»  Криптографічно безпечного генератора псевдовипадкових чисел](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator)
-(Cryptographically secure pseudorandom number generator, CSPRNG)
-надає простий та надійний шлях для створення криптографічно
-сильних, випадкових цілих чисел і байт, придатних для використання в
-криптографічних цілей.
+API [»  Криптографически безопасного генератора псевдослучайных чисел](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator) (Cryptographically secure pseudorandom number generator, CSPRNG) надає простий і надійний шлях створення криптографічно сильних, випадкових цілих чисел і байт, придатних до використання з криптографічних цілях.
 
-Існує, починаючи з PHP 7.0.0, а для попередніх версій PHP \>= 5.2.0
-існує [» користувацька реалізація](https://github.com/paragonie/random_compat).
+Існує, починаючи з PHP 7.0.0, а для попередніх версій PHP >= 5.2.0 існує [» пользовательская реализация](https://github.com/paragonie/random_compat)

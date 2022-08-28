@@ -1,25 +1,34 @@
-- [«UI\Draw\Color::\_\_construct](ui-draw-color.construct.md)
-- [UI\Draw\Color::setChannel »](ui-draw-color.setchannel.md)
+Керування кольором
 
-- [PHP Manual](index.md)
-- [UI\Draw\Color](class.ui-draw-color.md)
-- Управління кольором
+-   [« UI\\Draw\\Color::\_\_construct](ui-draw-color.construct.html)
+    
+-   [UI\\Draw\\Color::setChannel »](ui-draw-color.setchannel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Color](class.ui-draw-color.html)
+    
+-   Керування кольором
+    
 
-# UI\Draw\Color::getChannel
+# ОЙDrawColor::getChannel
 
 (UI 0.9.9)
 
-UI\Draw\Color::getChannel — Керування кольором
+ОЙDrawColor::getChannel — Керування кольором
 
 ### Опис
 
-public **UI\Draw\Color::getChannel**(int `$channel`): float
+```methodsynopsis
+public UI\Draw\Color::getChannel(int $channel): float
+```
 
 Отримає значення каналу
 
 ### Список параметрів
 
 `channel`
+
 Ідентифікація постійного каналу
 
 ### Значення, що повертаються

@@ -1,27 +1,30 @@
-- [«EventBuffer::freeze](eventbuffer.freeze.md)
-- [EventBuffer::prepend »](eventbuffer.prepend.md)
+Отримує блокування буфера
 
-- [PHP Manual](index.md)
-- [EventBuffer](class.eventbuffer.md)
-- Отримує блокування буфера
+-   [« EventBuffer::freeze](eventbuffer.freeze.html)
+    
+-   [EventBuffer::prepend »](eventbuffer.prepend.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBuffer](class.eventbuffer.html)
+    
+-   Отримує блокування буфера
+    
 
 # EventBuffer::lock
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventBuffer::lock — Отримує блокування буфера
 
 ### Опис
 
-public **EventBuffer::lock**(): void
+```methodsynopsis
+public
+   EventBuffer::lock(): void
+```
 
-Отримує блокування буфера. Може використовуватися в парі з
-[EventBuffer::unlock()](eventbuffer.unlock.md), щоб зробити набір
-операцій атомарним, тобто потокобезпечним. Зверніть увагу, що ні
-необхідності блокувати буфери для *окремих* операцій. Коли
-блокування увімкнено (дивіться
-[EventBuffer::enableLocking()](eventbuffer.enablelocking.md)),
-окремі операції над буферами подій є атомарними.
+Отримує блокування буфера. Може використовуватися в парі з [EventBuffer::unlock()](eventbuffer.unlock.html)щоб зробити набір операцій атомарним, тобто потокобезпечним. Зверніть увагу, що немає необхідності блокувати буфери для *окремих* операцій. Коли блокування увімкнено (дивіться [EventBuffer::enableLocking()](eventbuffer.enablelocking.html)), окремі операції над буферами подій є атомарними.
 
 ### Список параметрів
 
@@ -33,5 +36,4 @@ public **EventBuffer::lock**(): void
 
 ### Дивіться також
 
-- [EventBuffer::unlock()](eventbuffer.unlock.md) - Знімає
-блокування, встановлене EventBuffer::lock
+-   [EventBuffer::unlock()](eventbuffer.unlock.html) - Знімає блокування, встановлене EventBuffer::lock

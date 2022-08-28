@@ -1,21 +1,27 @@
-- [« SplPriorityQueue::current](splpriorityqueue.current.md)
-- [SplPriorityQueue::getExtractFlags »](splpriorityqueue.getextractflags.md)
+Витягує вузол з початку черги та пересортує її
 
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Витягує вузол з початку черги та пересортує її
+-   [« SplPriorityQueue::current](splpriorityqueue.current.html)
+    
+-   [SplPriorityQueue::getExtractFlags »](splpriorityqueue.getextractflags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplPriorityQueue](class.splpriorityqueue.html)
+    
+-   Витягує вузол з початку черги та пересортує її
+    
 
 # SplPriorityQueue::extract
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplPriorityQueue::extract — Витягує вузол з початку черги та
-пересортує її
+SplPriorityQueue::extract — Витягує вузол з початку черги та пересортує її.
 
 ### Опис
 
-public **SplPriorityQueue::extract**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public SplPriorityQueue::extract(): mixed
+```
 
 ### Список параметрів
 
@@ -23,5 +29,4 @@ public **SplPriorityQueue::extract**():
 
 ### Значення, що повертаються
 
-Значення або пріоритет (або те й інше) поточного вузла в залежності
-від заданого прапора.
+Значення або пріоритет (або те й інше) поточного вузла в залежності від заданого прапора.

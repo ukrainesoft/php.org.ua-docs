@@ -1,13 +1,19 @@
-- [« ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
-- [ReflectionReference::\_\_construct »](reflectionreference.construct.md)
+Клас ReflectionReference
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionReference
+-   [« ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.html)
+    
+-   [ReflectionReference::\_\_construct »](reflectionreference.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionReference
+    
 
 # Клас ReflectionReference
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 ## Вступ
 
@@ -15,26 +21,30 @@
 
 ## Огляд класів
 
-final class **ReflectionReference** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-private [\_\_construct](reflectionreference.construct.md)()
+    
+     
+      final
+      class ReflectionReference
+     
+     {
 
-public static
-[fromArrayElement](reflectionreference.fromarrayelement.md)(array
-`$array`, int\|string `$key`):
-?[ReflectionReference](class.reflectionreference.md)
+    /* Методы */
+    
+   private __construct()
 
-public [getId](reflectionreference.getid.md)(): string
+    public static fromArrayElement(array $array, int|string $key): ?ReflectionReference
+public getId(): string
 
-}
+   }
+```
 
 ## Зміст
 
-- [ReflectionReference::\_\_construct](reflectionreference.construct.md)
-— Закритий конструктор, який забороняє створення екземпляра безпосередньо
-- [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md)
-— Створює ReflectionReference із елементу масиву
-- [ReflectionReference::getId](reflectionreference.getid.md) -
-Отримати унікальний ідентифікатор посилання
+-   [ReflectionReference::\_\_construct](reflectionreference.construct.html) — Закритий конструктор, який забороняє створення екземпляра безпосередньо
+-   [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.html) — Створює ReflectionReference із елементу масиву
+-   [ReflectionReference::getId](reflectionreference.getid.html) — Отримати унікальний ідентифікатор посилання

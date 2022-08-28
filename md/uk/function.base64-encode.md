@@ -1,32 +1,38 @@
-- [«base64_decode](function.base64-decode.md)
-- [get_headers »](function.get-headers.md)
+Кодує дані у формат MIME base64
 
-- [PHP Manual](index.md)
-- [Функції URL](ref.url.md)
-- Кодує дані у формат MIME base64
+-   [« base64\_decode](function.base64-decode.html)
+    
+-   [get\_headers »](function.get-headers.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции URL](ref.url.html)
+    
+-   Кодує дані у формат MIME base64
+    
 
-# base64_encode
+# base64encode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-base64_encode — Кодує дані у формат MIME base64
+base64encode — Кодує дані у формат MIME base64
 
 ### Опис
 
-**base64_encode**(string `$string`): string
+```methodsynopsis
+base64_encode(string $string): string
+```
 
-Кодує `string` із base64.
+Кодує `string` з base64.
 
-Це кодування призначене для коректної передачі бінарних даних за
-протоколи, що не підтримують 8-бітну передачу, наприклад, для відправлення
-тіла листи.
+Це кодування призначене для коректної передачі бінарних даних за протоколами, які не підтримують 8-бітну передачу, наприклад, для відправлення тіла листа.
 
-Дані, закодовані base64 займають на 33% більше місця порівняно
-з оригінальними даними.
+Дані, закодовані base64, займають на 33% більше місця в порівнянні з оригінальними даними.
 
 ### Список параметрів
 
 `string`
+
 Дані кодування.
 
 ### Значення, що повертаються
@@ -35,20 +41,24 @@ base64_encode — Кодує дані у формат MIME base64
 
 ### Приклади
 
-**Приклад #1 Приклад використання **base64_encode()****
+**Приклад #1 Приклад використання **base64encode()****
 
-` <?php$str = 'Це закодований рядок';echo base64_encode($str);?> `
+```php
+<?php
+$str = 'Это закодированная строка';
+echo base64_encode($str);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 0K3RgtC+INC30LDQutC+0LTQuNGA0L7QstCw0L3QvdCw0Y8g0YHRgtGA0L7QutCw
+```
 
 ### Дивіться також
 
-- [base64_decode()](function.base64-decode.md) - Декодує дані,
-закодовані MIME base64
-- [chunk_split()](function.chunk-split.md) - Розбиває рядок на
-фрагменти
-- [convert_uuencode()](function.convert-uuencode.md) - Кодує
-рядок у формат uuencode
-- [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8
+-   [base64\_decode()](function.base64-decode.html) - Декодує дані, закодовані MIME base64
+-   [chunk\_split()](function.chunk-split.html) - Розбиває рядок на фрагменти
+-   [convert\_uuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8

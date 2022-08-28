@@ -1,19 +1,27 @@
-- [« Swoole\Table::rewind](swoole-table.rewind.md)
-- [Swoole\Table::valid »](swoole-table.valid.md)
+Оновлює рядок таблиці за $rowkey
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Оновлює рядок таблиці за $row_key
+-   [« Swoole\\Table::rewind](swoole-table.rewind.html)
+    
+-   [Swoole\\Table::valid »](swoole-table.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Оновлює рядок таблиці за $rowkey
+    
 
-# Swoole\Table::set
+# SwooleTable::set
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::set — Оновлює рядок таблиці за $row_key
+SwooleTable::set — Оновлює рядок таблиці за $rowkey
 
 ### Опис
 
-public **Swoole\Table::set**(string `$key`, array `$value`): VOID
+```methodsynopsis
+public Swoole\Table::set(string $key, array $value): VOID
+```
 
 ### Список параметрів
 

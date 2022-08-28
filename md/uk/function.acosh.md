@@ -1,26 +1,34 @@
-- [«acos](function.acos.md)
-- [asin »](function.asin.md)
+Гіперболічний арккосинус
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Гіперболічний арккосинус
+-   [« acos](function.acos.html)
+    
+-   [asin »](function.asin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Гіперболічний арккосинус
+    
 
 # acosh
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
 acosh - Гіперболічний арккосинус
 
 ### Опис
 
-**acosh**(float `$num`): float
+```methodsynopsis
+acosh(float $num): float
+```
 
-Повертає гіперболічний арккосинус `num`, тобто значення, чий
-гіперболічний косинус дорівнює `num`.
+Повертає гіперболічний арккосинус `num`тобто значення, чий гіперболічний косинус дорівнює `num`
 
 ### Список параметрів
 
 `num`
+
 Вхідне значення
 
 ### Значення, що повертаються
@@ -29,7 +37,7 @@ acosh - Гіперболічний арккосинус
 
 ### Дивіться також
 
-- [cosh()](function.cosh.md) - Гіперболічний косинус
-- [acos()](function.acos.md) - Арккосінус
-- [asinh()](function.asinh.md) - Гіперболічний арксинус
-- [atanh()](function.atanh.md) - Гіперболічний арктангенс
+-   [cosh()](function.cosh.html) - Гіперболічний косинус
+-   [acos()](function.acos.html) - Арккосінус
+-   [asinh()](function.asinh.html) - гіперболічний арксинус
+-   [atanh()](function.atanh.html) - гіперболічний арктангенс

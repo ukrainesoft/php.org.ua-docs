@@ -1,33 +1,31 @@
-- [« openssl_private_decrypt](function.openssl-private-decrypt.md)
-- [openssl_public_decrypt »](function.openssl-public-decrypt.md)
+Шифрує дані секретним ключем
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Шифрує дані секретним ключем
+-   [« openssl\_private\_decrypt](function.openssl-private-decrypt.html)
+    
+-   [openssl\_public\_decrypt »](function.openssl-public-decrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Шифрує дані секретним ключем
+    
 
-#openssl_private_encrypt
+# opensslprivateencrypt
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_private_encrypt — Шифрує дані секретним ключем
+opensslprivateencrypt - Шифрує дані секретним ключем
 
 ### Опис
 
-**openssl_private_encrypt**(
-string `$data`,
-string `&$encrypted_data`,
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$private_key`,
-int `$padding` = **`OPENSSL_PKCS1_PADDING`**
-): bool
+```methodsynopsis
+openssl_private_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
+```
 
-**openssl_private_encrypt()** шифрує `data` за допомогою секретного ключа
-`private_key` і зберігає результат у `encrypted_data`. Потім дані
-можна розшифрувати за допомогою
-[openssl_public_decrypt()](function.openssl-public-decrypt.md).
+**opensslprivateencrypt()** шифрує `data` за допомогою секретного ключа `private_key` і зберігає результат у `encrypted_data`. Далі можна розшифрувати за допомогою [openssl\_public\_decrypt()](function.openssl-public-decrypt.html)
 
-Ця функція використовується, наприклад, для підпису даних. Щоб була
-впевненість у тому, хто саме надіслав повідомлення.
+Ця функція використовується, наприклад, для підпису даних. Щоб була впевненість у тому, хто саме надіслав повідомлення.
 
 ### Список параметрів
 
@@ -38,23 +36,20 @@ int `$padding` = **`OPENSSL_PKCS1_PADDING`**
 `private_key`
 
 `padding`
-`padding` може бути однією з констант: **`OPENSSL_PKCS1_PADDING`**,
-**`OPENSSL_NO_PADDING`**.
+
+`padding` може бути однією з констант: **`OPENSSL_PKCS1_PADDING`** **`OPENSSL_NO_PADDING`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 
-- [openssl_public_encrypt()](function.openssl-public-encrypt.md) -
-Шифрування даних відкритим ключем
-- [openssl_public_decrypt()](function.openssl-public-decrypt.md) -
-Розшифровка даних за допомогою відкритого ключа
+-   [openssl\_public\_encrypt()](function.openssl-public-encrypt.html) - Шифрування даних відкритим ключем
+-   [openssl\_public\_decrypt()](function.openssl-public-decrypt.html) - Розшифрування даних за допомогою відкритого ключа

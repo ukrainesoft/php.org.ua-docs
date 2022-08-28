@@ -1,19 +1,27 @@
-- [« Imagick::setImageDepth](imagick.setimagedepth.md)
-- [Imagick::setImageExtent »](imagick.setimageextent.md)
+Встановлює метод видалення зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює метод видалення зображення
+-   [« Imagick::setImageDepth](imagick.setimagedepth.html)
+    
+-   [Imagick::setImageExtent »](imagick.setimageextent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює метод видалення зображення
+    
 
 # Imagick::setImageDispose
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageDispose — Встановлює спосіб видалення зображення
+Imagick::setImageDispose — Встановлює спосіб видалення зображення.
 
 ### Опис
 
-public **Imagick::setImageDispose**(int `$dispose`): bool
+```methodsynopsis
+public Imagick::setImageDispose(int $dispose): bool
+```
 
 Встановлює спосіб видалення зображення.
 
@@ -23,7 +31,7 @@ public **Imagick::setImageDispose**(int `$dispose`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

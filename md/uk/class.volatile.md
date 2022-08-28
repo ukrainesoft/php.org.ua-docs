@@ -1,84 +1,111 @@
-- [« Pool::submitTo](pool.submitTo.md)
-- [Семафори »](book.sem.md)
+Клас Volatile
 
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
-- Клас Volatile
+-   [« Pool::submitTo](pool.submitTo.html)
+    
+-   [Семафоры »](book.sem.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [pthreads](book.pthreads.html)
+    
+-   Клас Volatile
+    
 
 # Клас Volatile
 
-(PECL pthreads \>= 3.0.0)
+(PECL pthreads >= 3.0.0)
 
 ## Вступ
 
-Клас **Volatile** з'явився у pthreads v3. Його введення є
-наслідком нової семантики незмінності
-[Threaded](class.threaded.md)-властивостей класів
-[Threaded](class.threaded.md). Клас **Volatile** включає
-іммутабельність їх [Threaded](class.threaded.md)-властивостей і, також,
-використовується для зберігання масивів PHP у контексті
-[Threaded](class.threaded.md).
+Клас **Volatile** з'явився в pthreads v3. Його запровадження є наслідком нової семантики незмінності [Threaded](class.threaded.html)властивостей класів [Threaded](class.threaded.html). Клас **Volatile** включає іммутабельність їх [Threaded](class.threaded.html)властивостей і також використовується для зберігання масивів PHP в контексті [Threaded](class.threaded.html)
 
 ## Огляд класів
 
-class **Volatile** extends [Threaded](class.threaded.md) implements
-[Collectable](class.collectable.md),
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Наслідувані методи \*/
 
-public [Threaded::chunk](threaded.chunk.md)(int `$size`, bool
-`$preserve`): array
+    
+    
+     
+      class Volatile
+     
 
-public [Threaded::count](threaded.count.md)(): int
+     
+      extends
+       Threaded
+     
 
-public [Threaded::extend](threaded.extend.md)(string `$class`): bool
+     implements 
+       Collectable,  Traversable {
 
-public [Threaded::isRunning](thread.isrunning.md)(): bool
+    /* Наследуемые методы */
+    
+   public Threaded::chunk(int $size, bool $preserve): array
+public Threaded::count(): int
+public Threaded::extend(string $class): bool
+public Threaded::isRunning(): bool
+public Threaded::isTerminated(): bool
+public Threaded::merge(mixed $from, bool $overwrite = ?): bool
+public Threaded::notify(): bool
+public Threaded::notifyOne(): bool
+public Threaded::pop(): bool
+public Threaded::run(): void
+public Threaded::shift(): mixed
+public Threaded::synchronized(Closure $block, mixed ...$args): mixed
+public Threaded::wait(int $timeout = ?): bool
 
-public [Threaded::isTerminated](threaded.isterminated.md)(): bool
-
-public
-[Threaded::merge](threaded.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` = ?): bool
-
-public [Threaded::notify](threaded.notify.md)(): bool
-
-public [Threaded::notifyOne](threaded.notifyone.md)(): bool
-
-public [Threaded::pop](threaded.pop.md)(): bool
-
-public [Threaded::run](threaded.run.md)(): void
-
-public [Threaded::shift](threaded.shift.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[Threaded::synchronized](threaded.synchronized.md)([Closure](class.closure.md)
-`$block`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [Threaded::wait](threaded.wait.md)(int `$timeout` = ?): bool
-
-}
+   }
+```
 
 ## Приклади
 
 **Приклад #1 Нова семантика іммутабельності Threaded**
 
-` <?phpclass Task extends Threaded{    public function __construct()   {        $this->data = new Threaded(); // спроба перевизначити Threaded-властивість Threaded-класу (помилка)        $this->data = new StdClass(); }}var_dump((new Task())->data); `
+```php
+<?php
+
+class Task extends Threaded
+{
+    public function __construct()
+    {
+        $this->data = new Threaded();
+
+        // попытка переопределить Threaded-свойство Threaded-класса (ошибка)
+        $this->data = new StdClass();
+    }
+}
+
+var_dump((new Task())->data);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 RuntimeException: Threaded members previously set to Threaded objects are immutable, cannot overwrite data in %s:%d
+```
 
 **Приклад #2 Приклад використання Volatile**
 
-` <?phpclass Task extends Volatile{    public function __construct()   {        $this->data = new Threaded(); // спроба перевизначити Threaded-властивість Volatile-класу (коректно)        $this->data = new StdClass(); }}var_dump((new Task())->data); `
+```php
+<?php
+
+class Task extends Volatile
+{
+    public function __construct()
+    {
+        $this->data = new Threaded();
+
+        // попытка переопределить Threaded-свойство Volatile-класса (корректно)
+        $this->data = new StdClass();
+    }
+}
+
+var_dump((new Task())->data);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(stdClass)#3 (0) {
 }
+```

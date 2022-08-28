@@ -1,37 +1,42 @@
-- [« socket_wsaprotocol_info_import](function.socket-wsaprotocol-info-import.md)
-- [Socket »](class.socket.md)
+Вивільняє експортовану структуру WSAPROTOCOLINFO
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Вивільняє експортовану структуру WSAPROTOCOL_INFO
+-   [« socket\_wsaprotocol\_info\_import](function.socket-wsaprotocol-info-import.html)
+    
+-   [Socket »](class.socket.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Вивільняє експортовану структуру WSAPROTOCOLINFO
+    
 
-# socket_wsaprotocol_info_release
+# socketwsaprotocolinforelease
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-socket_wsaprotocol_info_release — Вивільняє експортовану
-структуру WSAPROTOCOL_INFO
+socketwsaprotocolinforelease — Вивільняє експортовану структуру WSAPROTOCOLINFO
 
 ### Опис
 
-**socket_wsaprotocol_info_release**(string `$info_id`): bool
+```methodsynopsis
+socket_wsaprotocol_info_release(string $info_id): bool
+```
 
-Вивільняє пам'ять, що розділяється, відповідну заданому `info_id`.
+Вивільняє пам'ять, що розділяється, відповідну заданому `info_id`
 
-> **Примітка**: Функція доступна лише у Windows.
+> **Зауваження**: Функція доступна лише у Windows.
 
 ### Список параметрів
 
 `info_id`
-Ідентифікатор, отриманий під час виклику
-[socket_wsaprotocol_info_export()](function.socket-wsaprotocol-info-export.md).
+
+Ідентифікатор, отриманий під час виклику [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [socket_wsaprotocol_info_export()](function.socket-wsaprotocol-info-export.md) -
-Експорт структури WSAPROTOCOL_INFO
+-   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO

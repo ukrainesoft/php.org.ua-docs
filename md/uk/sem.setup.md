@@ -1,15 +1,21 @@
-- [«Вступ](intro.sem.md)
-- [Вимоги »](sem.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Семафори](book.sem.md)
+-   [« Введение](intro.sem.html)
+    
+-   [Требования »](sem.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Семафоры](book.sem.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](sem.requirements.md)
-- [Установка](sem.installation.md)
-- [Налаштування під час виконання](sem.configuration.md)
-- [Типи ресурсів](sem.resources.md)
+-   [Требования](sem.requirements.html)
+-   [Установка](sem.installation.html)
+-   [Настройка во время выполнения](sem.configuration.html)
+-   [Типы ресурсов](sem.resources.html)

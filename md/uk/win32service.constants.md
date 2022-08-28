@@ -1,27 +1,30 @@
-- [« Питання безпеки](win32service.security.md)
-- [Бітові маски типу служби Win32Service »](win32service.constants.servicetype.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [win32service](book.win32service.md)
-- Обумовлені константи
+-   [« Вопросы безопасности](win32service.security.html)
+    
+-   [Битовые маски типа службы Win32Service »](win32service.constants.servicetype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [win32service](book.win32service.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 ## Зміст
 
-- [Бітові маски типу служби Win32Service](win32service.constants.servicetype.md)
-- [Константи статусу служби Win32Service](win32service.constants.servicestatus.md)
-- [Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.md)
-- [Битові маски обробки повідомлень, що приймаються службою Win32Service](win32service.constants.controlsaccepted.md)
-- [Константи типу запуску служби Win32Service](win32service.constants.servicestarttype.md)
-- [Константи контролю помилок сервісу Win32Service](win32service.constants.errorcontrol.md)
-- [Константи прапорів сервісу Win32Service](win32service.constants.serviceflag.md)
-- [Коди помилок Win32](win32service.constants.errors.md)
-- [Базові класи пріоритетів Win32](win32service.constants.basepriorities.md)
-- [Дії при відновленні Win32](win32service.constants.recovery-action.md)
-- [Win32 Service informations](win32service.constants.serviceinfos.md)
+-   [Битовые маски типа службы Win32Service](win32service.constants.servicetype.html)
+-   [Константы статуса службы Win32Service](win32service.constants.servicestatus.html)
+-   [Константы обработки сообщений службой Win32Service](win32service.constants.servicecontrol.html)
+-   [Принимаемые битовые маски обработки сообщений службой Win32Service](win32service.constants.controlsaccepted.html)
+-   [Константы типа запуска службы Win32Service](win32service.constants.servicestarttype.html)
+-   [Константы контроля ошибок сервиса Win32Service](win32service.constants.errorcontrol.html)
+-   [Константы флагов сервиса Win32Service](win32service.constants.serviceflag.html)
+-   [Коды ошибок Win32](win32service.constants.errors.html)
+-   [Базовые классы приоритетов Win32](win32service.constants.basepriorities.html)
+-   [Действия при восстановлении Win32](win32service.constants.recovery-action.html)
+-   [Win32 Service informations](win32service.constants.serviceinfos.html)
 
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

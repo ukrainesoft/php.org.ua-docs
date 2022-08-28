@@ -1,168 +1,147 @@
-- [« Зміни, що ламають зворотну сумісність](migration81.incompatible.md)
-- [Інші зміни »](migration81.other-changes.md)
+Застаріла функціональність
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 8.0.x на PHP 8.1.x](migration81.md)
-- Застаріла функціональність
+-   [« Изменения, ломающие обратную совместимость](migration81.incompatible.html)
+    
+-   [Другие изменения »](migration81.other-changes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 8.0.x на PHP 8.1.x](migration81.html)
+    
+-   Застаріла функціональність
+    
 
 ## Застаріла функціональність
 
 ### Ядро PHP
 
-#### Реалізація [Serializable](class.serializable.md) без **\_\_serialize()** та **\_\_unserialize()**
+#### Реалізація [Serializable](class.serializable.html) без **serialize()** і **unserialize()**
 
-Якщо не потрібна підтримка версій PHP менше 7.4, повинні бути
-реалізовані лише ці два магічні методи, інакше потрібно реалізувати
-як методи інтерфейсу, і магічні методи.
+Якщо не потрібна підтримка версій PHP менше 7.4, повинні бути реалізовані лише ці два магічні методи, інакше потрібно реалізувати як методи інтерфейсу, так і магічні методи.
 
-#### Передача **`null`** параметрам вбудованих функцій, що не допускають значення NULL
+#### Передача **`null`** параметрам вбудованих функцій, які не допускають значення NULL
 
-Не рекомендується передавати значення NULL скалярним параметрам
-вбудованих функцій. В іншому випадку тепер буде викликане повідомлення.
-Таке обмеження було запроваджено, щоб краще відповідати роботі
-функцій користувача, де параметри, що допускають значення NULL,
-повинні бути при цьому явно позначені.
+Не рекомендується передавати значення NULL скалярним параметрам вбудованих функцій. В іншому випадку тепер буде викликане повідомлення. Таке обмеження було введено, щоб краще відповідати роботі функцій користувача, де параметри, що допускають значення NULL, повинні бути для цього явно позначені.
 
-`<?phpvar_dump(str_contains("foobar", null));// Deprecated: Passing null to parameter #2 ($needle) of type string//          
+```php
+<?php
+var_dump(str_contains("foobar", null));
+// Deprecated: Passing null to parameter #2 ($needle) of type string
+//             is deprecated
+?>
+```
 
 #### Неявна несумісність перетворення float до int
 
-Тепер потрібно уникати неявного перетворення числа з плаваючою точкою
-(float) до цілого числа (int), що призводить до втрати точності. Це
-впливає на ключі масиву (array), оголошення цілісних (int) типів
-примусовому режимі та операторів, що працюють з цілими числами (int).
+Тепер потрібно уникати неявного перетворення числа з плаваючою точкою (float) до цілого числа (int), що призводить до втрати точності. Це впливає на ключі масиву (array), оголошення цілих (int) типів у примусовому режимі та операторів, що працюють з цілими числами (int).
 
-` <?php$a = [];$a[15.5]; // застаріло, оскільки значення ключа втрачає компонент 0.5$a[15.0]; // працює, так як 15.0 == 15?> `
+```php
+<?php
+$a = [];
+$a[15.5]; // устарело, поскольку значение ключа теряет компонент 0.5
+$a[15.0]; // работает, так как 15.0 == 15
+?>
+```
 
-#### Виклик static-елемента в трейтах
+#### Виклик staticелемента у трейтах
 
-Виклик static-методу або доступ до static-властивості безпосередньо в
-Треть застарілий. До статичних методів та властивостей слід звертатися
-лише у класі, який використовує трейт.
+Виклик staticметоду або доступ до staticвластивості безпосередньо в трейті застарів. До статичних методів та властивостей слід звертатися лише у класі, який використовує трейт.
 
-#### Повернення не масиву (array) з **\_\_sleep()**
+#### Повернення не масиву (array) з **sleep()**
 
-Значення, що повертається
-[\_\_sleep()](language.oop5.magic.md#object.sleep), що не є
-масивом, тепер згенерує повідомлення.
+Значення, що повертається [\_\_sleep()](language.oop5.magic.html#object.sleep), що не є масивом, тепер згенерує повідомлення.
 
-#### Повернення значення за посиланням з функції void
+#### Повернення значення за посиланням функції void
 
-` <?phpfunction &test(): void {}?> `
+```php
+<?php
+function &test(): void {}
+?>
+```
 
-Така функція збиває з пантелику, тому тепер видасть наступний
-**`E_NOTICE`**:
-`Only variable references should be returned by reference` (За посиланням
-повинні повертатися лише посилання на змінні).
+Така функція збиває з пантелику, тому тепер видасть наступний **`E_NOTICE`** `Only variable references should be returned by reference` (За посиланням повинні повертатися лише посилання змінні).
 
 #### Автовівіфікація з **`false`**
 
-Автовівіфікація - це процес створення нового масиву (array) при
-додавання нового значення. Автовівіфікація заборонена для скалярних
-значень, проте **`false`** був винятком. Тепер така поведінка
-застаріло.
+Автовівіфікація - це створення нового масиву (array) при додаванні нового значення. Автовівіфікація заборонена для скалярних значень, проте **`false`** був винятком. Тепер така поведінка застаріла.
 
-` <?php$arr = false;$arr[] = 2; // застаріло?
+```php
+<?php
+$arr = false;
+$arr[] = 2;   // устарело
+?>
+```
 
-> **Примітка**:
->
-> Автовівіфікація з **`null`** та невизначеного значення як і раніше
-> дозволено:
->
-> ` <?php// З невизначеного значення$arr[] = 'якесь значення';$arr['doesNotExist'][] = 2;// З null$arr = null;$arr[] = ?> `
+> **Зауваження**
+> 
+> Автовівіфікація з **`null`** та невизначеного значення як і раніше дозволена:
+> 
+> ```php
+> <?php
+> // Из неопределённого значения
+> $arr[] = 'какое-то значение';
+> $arr['doesNotExist'][] = 2;
+> // Из null
+> $arr = null;
+> $arr[] = 2;
+> ?>
+> ```
 
 ### ctype
 
 #### Перевірка нерядкових аргументів
 
-Передача нерядкового аргументу застаріла. У майбутньому аргумент буде
-інтерпретуватись як рядок замість коду ASCII. Залежно від
-передбачуваної поведінки аргумент має бути приведений до рядка
-(string) явно або через виклик [chr()](function.chr.md). Це
-зміна відноситься до всіх функцій `ctype_*()`.
+Передача нерядкового аргументу застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки аргумент має бути приведений до рядка (string) явно або через виклик [chr()](function.chr.html). Ця зміна стосується всіх функцій `ctype_*()`
 
 ### Date
 
-Функції [date_sunrise()](function.date-sunrise.md) та
-[date_sunset()](function.date-sunset.md) застаріли на користь
-[date_sun_info()](function.date-sun-info.md).
+Функції [date\_sunrise()](function.date-sunrise.html) і [date\_sunset()](function.date-sunset.html) застаріли на користь [date\_sun\_info()](function.date-sun-info.html)
 
-Функція [strptime()](function.strptime.md) застаріла. Замість неї
-використовуйте
-[date_parse_from_format()](function.date-parse-from-format.md) (для
-синтаксичного аналізу, що не залежить від мовного стандарту) або
-[IntlDateFormatter::parse()](intldateformatter.parse.md) (для
-синтаксичного аналізу, що залежить від мовного стандарту).
+Функція [strptime()](function.strptime.html) застаріла. Замість неї використовуйте [date\_parse\_from\_format()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.html) (Для синтаксичного аналізу, що залежить від мовного стандарту).
 
-Функція [strftime()](function.strftime.md) та
-[gmstrftime()](function.gmstrftime.md) застаріли. Використовуйте замість
-їх функцію [date()](function.date.md) (для форматування, не
-залежить від мовного стандарту) або метод
-[IntlDateFormatter::format()](intldateformatter.format.md) (для
-форматування, що залежить від мовного стандарту).
+Функція [strftime()](function.strftime.html) і [gmstrftime()](function.gmstrftime.html) застаріли. Використовуйте замість них функцію [date()](function.date.html) (для форматування, що не залежить від мовного стандарту) або метод [IntlDateFormatter::format()](intldateformatter.format.html) (Для форматування, що залежить від мовного стандарту).
 
 ### Фільтр
 
-Фільтри **`FILTER_SANITIZE_STRING`** та **`FILTER_SANITIZE_STRIPPED`**
-застаріли.
+Фільтри **`FILTER_SANITIZE_STRING`** і **`FILTER_SANITIZE_STRIPPED`** застаріли.
 
-INI-директива
-[filter.default](filter.configuration.md#ini.filter.default) застаріла.
+INI-директива [filter.default](filter.configuration.html#ini.filter.default) застаріла.
 
-### GD
+### ДД
 
-Параметр `num_points` функції
-[imagepolygon()](function.imagepolygon.md),
-[imageopenpolygon()](function.imageopenpolygon.md) та
-[imagefilledpolygon()](function.imagefilledpolygon.md) застарів.
+Параметр `num_points` функції [imagepolygon()](function.imagepolygon.html) [imageopenpolygon()](function.imageopenpolygon.html) і [imagefilledpolygon()](function.imagefilledpolygon.html) застарів.
 
 ### Хешування
 
-Функції [mhash()](function.mhash.md),
-[mhash_keygen_s2k()](function.mhash-keygen-s2k.md),
-[mhash_count()](function.mhash-count.md),
-[mhash_get_block_size()](function.mhash-get-block-size.md) та
-[mhash_get_hash_name()](function.mhash-get-hash-name.md) застаріли.
-Замість них використовуйте функції `hash_*()`.
+Функції [mhash()](function.mhash.html) [mhash\_keygen\_s2k()](function.mhash-keygen-s2k.html) [mhash\_count()](function.mhash-count.html) [mhash\_get\_block\_size()](function.mhash-get-block-size.html) і [mhash\_get\_hash\_name()](function.mhash-get-hash-name.html) застаріли. Замість них використовуйте функції `hash_*()`
 
 ### IMAP
 
-Константа **`NIL`** застаріла. Замість неї використовуйте `0`.
+Константа **`NIL`** застаріла. Замість неї використовуйте `0`
 
 ### Intl
 
-Виклик [IntlCalendar::roll()](intlcalendar.roll.md) з логічним
-значенням (bool) застарів. Використовуйте `1` та `-1` замість **`true`** та
-**`false`** відповідно.
+Виклик [IntlCalendar::roll()](intlcalendar.roll.html) із логічним значенням (bool) застарів. Використовуйте `1` і `-1` замість **`true`** і **`false`** відповідно.
 
 ### Багатобайтові рядки
 
-Виклик [mb_check_encoding()](function.mb-check-encoding.md) без
-будь-яких аргументів застарів.
+Виклик [mb\_check\_encoding()](function.mb-check-encoding.html) без жодних аргументів застарів.
 
 ### MySQLi
 
-Властивість mysqli_driver::$driver_version застаріла. Воно було неактуальним,
-використовуйте натомість **`PHP_VERSION_ID`**.
+Властивість mysqlidriver::$driverversion застаріло. Воно було неактуальним, використовуйте замість нього **`PHP_VERSION_ID`**
 
-Виклик методу [mysqli::get_client_info()](mysqli.get-client-info.md)
-або [mysqli_get_client_info()](mysqli.get-client-info.md) з аргументом
-`mysqli` застарів. Використовуйте
-[mysqli_get_client_info()](mysqli.get-client-info.md) без будь-яких
-аргументів, щоб отримати інформацію щодо версії клієнтської бібліотеки.
+Виклик методу [mysqli::get\_client\_info()](mysqli.get-client-info.html) або [mysqli\_get\_client\_info()](mysqli.get-client-info.html) з аргументом `mysqli` застарів. Використовуйте [mysqli\_get\_client\_info()](mysqli.get-client-info.html) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
 
-Метод [mysqli::init()](mysqli.init.md) застарів. Замініть дзвінки
-**parent::init()** на **parent::\_\_construct()**.
+Метод [mysqli::init()](mysqli.init.html) застарів. Замініть дзвінки **parent::init()** на **parent::construct()**
 
 ### OCI8
 
-INI-директива
-[oci8.old_oci_close_semantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics)
-застаріла.
+INI-директива [oci8.old\_oci\_close\_semantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) застаріла.
 
 ### ODBC
 
-Функція [odbc_result_all()](function.odbc-result-all.md) застаріла.
+Функція [odbc\_result\_all()](function.odbc-result-all.html) застаріла.
 
 ### PDO
 
@@ -170,27 +149,16 @@ INI-директива
 
 ### PgSQL
 
-Функціям `pgsql_*()` тепер потрібно передавати параметр connection.
+функцій `pgsql_*()` Тепер потрібно явно передавати параметр connection.
 
 ### SOAP
 
-Параметр `ssl_method` в
-[SoapClient::\_\_construct()](soapclient.construct.md) застарів у
-користь параметрів контексту потоку SSL.
+Параметр `ssl_method` в [SoapClient::\_\_construct()](soapclient.construct.html) застарів на користь параметрів контексту потоку SSL.
 
 ### Стандартні функції
 
-Виклик [key()](function.key.md), [current()](function.current.md),
-[next()](function.next.md), [prev()](function.prev.md),
-[reset()](function.reset.md) або [end()](function.end.md) з
-об'єктами (object) застарів. Використовуйте ці функції на об'єкті через
-[get_mangled_object_vars()](function.get-mangled-object-vars.md), або
-через [ArrayIterator](class.arrayiterator.md).
+Виклик [key()](function.key.html) [current()](function.current.html) [next()](function.next.html) [prev()](function.prev.html) [reset()](function.reset.html) або [end()](function.end.html) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [get\_mangled\_object\_vars()](function.get-mangled-object-vars.html), або через [ArrayIterator](class.arrayiterator.html)
 
-INI-директива
-[auto_detect_line_endings](filesystem.configuration.md#ini.auto-detect-line-endings)
-застаріла. При необхідності обробіть розриви рядків.
-вручну.
+INI-директива [auto\_detect\_line\_endings](filesystem.configuration.html#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"` вручну.
 
-Константи **`FILE_BINARY`** та **`FILE_TEXT`** застаріли. Вони ніколи не
-мали сенсу.
+Константи **`FILE_BINARY`** і **`FILE_TEXT`** застаріли. Вони ніколи не мали сенсу.

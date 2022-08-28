@@ -1,34 +1,39 @@
-- [« Imagick::posterizeImage](imagick.posterizeimage.md)
-- [Imagick::previousImage »](imagick.previousimage.md)
+Швидке визначення відповідних параметрів для обробки зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Швидке визначення відповідних параметрів для обробки зображень
+-   [« Imagick::posterizeImage](imagick.posterizeimage.html)
+    
+-   [Imagick::previousImage »](imagick.previousimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Швидке визначення відповідних параметрів для обробки зображень
+    
 
 # Imagick::previewImages
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::previewImages — Швидке визначення відповідних параметрів для
-обробки зображень
+Imagick::previewImages — Швидке визначення відповідних параметрів для обробки зображень
 
 ### Опис
 
-public **Imagick::previewImages**(int `$preview`): bool
+```methodsynopsis
+public Imagick::previewImages(int $preview): bool
+```
 
-Розміщує 9 мініатюр вказаного зображення за допомогою операції обробки
-зображення, що застосовується з різною інтенсивністю. Це допомагає швидко
-визначити потрібний параметр для операції обробки зображення.
+Розміщує 9 мініатюр вказаного зображення за допомогою операції обробки зображення, що застосовується з різною інтенсивністю. Це допомагає швидко визначити відповідний параметр для обробки зображення.
 
 ### Список параметрів
 
 `preview`
-Тип попереднього перегляду. Дивіться [константи типу
-попереднього перегляду](imagick.constants.md#imagick.constants.preview)
+
+Тип попереднього перегляду. Дивіться [константы типа предварительного просмотра](imagick.constants.html#imagick.constants.preview)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

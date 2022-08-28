@@ -1,9 +1,15 @@
-- [« Imagick::shaveImage](imagick.shaveimage.md)
-- [Imagick::sigmoidalContrastImage »](imagick.sigmoidalcontrastimage.md)
+Створює паралелограм
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює паралелограм
+-   [« Imagick::shaveImage](imagick.shaveimage.html)
+    
+-   [Imagick::sigmoidalContrastImage »](imagick.sigmoidalcontrastimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Створює паралелограм
+    
 
 # Imagick::shearImage
 
@@ -13,41 +19,48 @@ Imagick::shearImage — Створює паралелограм
 
 ### Опис
 
-public
-**Imagick::shearImage**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$background`, float `$x_shear`, float `$y_shear`): bool
+```methodsynopsis
+public Imagick::shearImage(mixed $background, float $x_shear, float $y_shear): bool
+```
 
-Зсуває один край зображення по осі X або Y, утворюючи паралелограм.
-Зсув у напрямку X зсуває край по осі X, а зсув у напрямку Y
-переміщує край по осі Y. Величина зсуву контролюється кутом зсуву.
-Для зсуву в напрямку X, x_shear вимірюється щодо осі Y
-аналогічно для зсуву в напрямку Y, y_shear вимірюється щодо
-осі X. Порожні трикутники, що залишилися від обрізки зображення,
-заповнюються кольором фону.
+Зсуває один край зображення по осі X або Y, утворюючи паралелограм. Зсув в напрямку X зсуває край осі X, а зсув в напрямку Y переміщує край осі Y. Величина зсуву контролюється кутом зсуву. Для зсуву у напрямку X, xshear вимірюється щодо осі Y та аналогічно для зсуву в напрямку Y, yshear вимірюється щодо осі X. Порожні трикутники, що залишилися від обрізки зображення, заповнюються кольором тла.
 
 ### Список параметрів
 
 `background`
+
 Колір фону.
 
 `x_shear`
+
 Кількість градусів для зсуву осі X.
 
 `y_shear`
+
 Кількість градусів для зсуву осі Y.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
-### Список змін
+### список змін
 
-| Версія                                                                                                                            | Опис |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL imagick 2.1.0 Тепер допускається рядок, що представляє колір як перший параметр. Раніше допускався лише об'єкт ImagickPixel. |      |
+| Версия | Описание |
+| --- | --- |
+| PECL imagick 2.1.0 | Тепер допускається рядок, що представляє колір, як перший параметр. Раніше допускався лише об'єкт ImagickPixel. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::shearImage()****
 
-` <?phpfunction shearImage($imagePath, $color, $shearX, $shearY) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->shearimage($color, $shearX, $shearY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function shearImage($imagePath, $color, $shearX, $shearY) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->shearimage($color, $shearX, $shearY);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

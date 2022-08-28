@@ -1,9 +1,15 @@
-- [« ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md)
-- [ReflectionObject::\_\_construct »](reflectionobject.construct.md)
+Клас ReflectionObject
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionObject
+-   [« ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.html)
+    
+-   [ReflectionObject::\_\_construct »](reflectionobject.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionObject
+    
 
 # Клас ReflectionObject
 
@@ -15,233 +21,104 @@
 
 ## Огляд класів
 
-class **ReflectionObject** extends
-[ReflectionClass](class.reflectionclass.md) {
+```classsynopsis
 
-/\* Успадковані константи \*/
+     
+    
 
-const int `ReflectionClass::IS_IMPLICIT_ABSTRACT` = 16;
+    
+     
+      class ReflectionObject
+     
 
-const int `ReflectionClass::IS_EXPLICIT_ABSTRACT` = 32;
+     
+      extends
+       ReflectionClass
+     
+     {
+    /* Наследуемые константы */
+    
+     const
+     int
+      ReflectionClass::IS_IMPLICIT_ABSTRACT = 16;
+const
+     int
+      ReflectionClass::IS_EXPLICIT_ABSTRACT = 32;
+const
+     int
+      ReflectionClass::IS_FINAL = 64;
 
-const int `ReflectionClass::IS_FINAL` = 64;
 
-/\* Наслідувані властивості \*/
+    /* Наследуемые свойства */
+    public
+     string
+      $name;
 
-public string `$name`;
 
-/\* Методи \*/
+    /* Методы */
+    
+   public __construct(object $object)
 
-public [\_\_construct](reflectionobject.construct.md)(object
-`$object`)
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    public static ReflectionClass::export(mixed $argument, bool $return = false): string
+public ReflectionClass::getAttributes(?string $name = null, int $flags = 0): array
+public ReflectionClass::getConstant(string $name): mixed
+public ReflectionClass::getConstants(?int $filter = null): array
+public ReflectionClass::getConstructor(): ?ReflectionMethod
+public ReflectionClass::getDefaultProperties(): array
+public ReflectionClass::getDocComment(): string|false
+public ReflectionClass::getEndLine(): int|false
+public ReflectionClass::getExtension(): ?ReflectionExtension
+public ReflectionClass::getExtensionName(): string|false
+public ReflectionClass::getFileName(): string|false
+public ReflectionClass::getInterfaceNames(): array
+public ReflectionClass::getInterfaces(): array
+public ReflectionClass::getMethod(string $name): ReflectionMethod
+public ReflectionClass::getMethods(?int $filter = null): array
+public ReflectionClass::getModifiers(): int
+public ReflectionClass::getName(): string
+public ReflectionClass::getNamespaceName(): string
+public ReflectionClass::getParentClass(): ReflectionClass|false
+public ReflectionClass::getProperties(?int $filter = null): array
+public ReflectionClass::getProperty(string $name): ReflectionProperty
+public ReflectionClass::getReflectionConstant(string $name): ReflectionClassConstant|false
+public ReflectionClass::getReflectionConstants(?int $filter = null): array
+public ReflectionClass::getShortName(): string
+public ReflectionClass::getStartLine(): int|false
+public ReflectionClass::getStaticProperties(): ?array
+public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value = ?): mixed
+public ReflectionClass::getTraitAliases(): array
+public ReflectionClass::getTraitNames(): array
+public ReflectionClass::getTraits(): array
+public ReflectionClass::hasConstant(string $name): bool
+public ReflectionClass::hasMethod(string $name): bool
+public ReflectionClass::hasProperty(string $name): bool
+public ReflectionClass::implementsInterface(ReflectionClass|string $interface): bool
+public ReflectionClass::inNamespace(): bool
+public ReflectionClass::isAbstract(): bool
+public ReflectionClass::isAnonymous(): bool
+public ReflectionClass::isCloneable(): bool
+public ReflectionClass::isEnum(): bool
+public ReflectionClass::isFinal(): bool
+public ReflectionClass::isInstance(object $object): bool
+public ReflectionClass::isInstantiable(): bool
+public ReflectionClass::isInterface(): bool
+public ReflectionClass::isInternal(): bool
+public ReflectionClass::isIterable(): bool
+public ReflectionClass::isSubclassOf(ReflectionClass|string $class): bool
+public ReflectionClass::isTrait(): bool
+public ReflectionClass::isUserDefined(): bool
+public ReflectionClass::newInstance(mixed ...$args): object
+public ReflectionClass::newInstanceArgs(array $args = []): ?object
+public ReflectionClass::newInstanceWithoutConstructor(): object
+public ReflectionClass::setStaticPropertyValue(string $name, mixed $value): void
+public ReflectionClass::__toString(): string
 
-public static
-[ReflectionClass::export](reflectionclass.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$argument`, bool `$return` = **`false`**): string
-
-public
-[ReflectionClass::getAttributes](reflectionclass.getattributes.md)(?string
-`$name` = **`null`**, int `$flags` = 0): array
-
-public
-[ReflectionClass::getConstant](reflectionclass.getconstant.md)(string
-`$name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[ReflectionClass::getConstants](reflectionclass.getconstants.md)(?int
-`$filter` = **`null`**): array
-
-public
-[ReflectionClass::getConstructor](reflectionclass.getconstructor.md)():
-?[ReflectionMethod](class.reflectionmethod.md)
-
-public
-[ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md)():
-array
-
-public
-[ReflectionClass::getDocComment](reflectionclass.getdoccomment.md)():
-string\|false
-
-public [ReflectionClass::getEndLine](reflectionclass.getendline.md)():
-int\|false
-
-public
-[ReflectionClass::getExtension](reflectionclass.getextension.md)():
-?[ReflectionExtension](class.reflectionextension.md)
-
-public
-[ReflectionClass::getExtensionName](reflectionclass.getextensionname.md)():
-string\|false
-
-public
-[ReflectionClass::getFileName](reflectionclass.getfilename.md)():
-string\|false
-
-public
-[ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md)():
-array
-
-public
-[ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md)():
-array
-
-public
-[ReflectionClass::getMethod](reflectionclass.getmethod.md)(string
-`$name`): [ReflectionMethod](class.reflectionmethod.md)
-
-public
-[ReflectionClass::getMethods](reflectionclass.getmethods.md)(?int
-`$filter` = **`null`**): array
-
-public
-[ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)():
-int
-
-public [ReflectionClass::getName](reflectionclass.getname.md)():
-string
-
-public
-[ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md)():
-string
-
-public
-[ReflectionClass::getParentClass](reflectionclass.getparentclass.md)():
-[ReflectionClass](class.reflectionclass.md)\|false
-
-public
-[ReflectionClass::getProperties](reflectionclass.getproperties.md)(?int
-`$filter` = **`null`**): array
-
-public
-[ReflectionClass::getProperty](reflectionclass.getproperty.md)(string
-`$name`): [ReflectionProperty](class.reflectionproperty.md)
-
-public
-[ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md)(string
-`$name`):
-[ReflectionClassConstant](class.reflectionclassconstant.md)\|false
-
-public
-[ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)(?int
-`$filter` = **`null`**): array
-
-public
-[ReflectionClass::getShortName](reflectionclass.getshortname.md)():
-string
-
-public
-[ReflectionClass::getStartLine](reflectionclass.getstartline.md)():
-int\|false
-
-public
-[ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md)():
-?array
-
-public
-[ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md)(string
-`$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$def_value` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md)():
-array
-
-public
-[ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md)():
-array
-
-public [ReflectionClass::getTraits](reflectionclass.gettraits.md)():
-array
-
-public
-[ReflectionClass::hasConstant](reflectionclass.hasconstant.md)(string
-`$name`): bool
-
-public
-[ReflectionClass::hasMethod](reflectionclass.hasmethod.md)(string
-`$name`): bool
-
-public
-[ReflectionClass::hasProperty](reflectionclass.hasproperty.md)(string
-`$name`): bool
-
-public
-[ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md)([ReflectionClass](class.reflectionclass.md)\|string
-`$interface`): bool
-
-public
-[ReflectionClass::inNamespace](reflectionclass.innamespace.md)(): bool
-
-public [ReflectionClass::isAbstract](reflectionclass.isabstract.md)():
-bool
-
-public
-[ReflectionClass::isAnonymous](reflectionclass.isanonymous.md)(): bool
-
-public
-[ReflectionClass::isCloneable](reflectionclass.iscloneable.md)(): bool
-
-public [ReflectionClass::isEnum](reflectionclass.isenum.md)(): bool
-
-public [ReflectionClass::isFinal](reflectionclass.isfinal.md)(): bool
-
-public
-[ReflectionClass::isInstance](reflectionclass.isinstance.md)(object
-`$object`): bool
-
-public
-[ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)():
-bool
-
-public
-[ReflectionClass::isInterface](reflectionclass.isinterface.md)(): bool
-
-public [ReflectionClass::isInternal](reflectionclass.isinternal.md)():
-bool
-
-public [ReflectionClass::isIterable](reflectionclass.isiterable.md)():
-bool
-
-public
-[ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md)([ReflectionClass](class.reflectionclass.md)\|string
-`$class`): bool
-
-public [ReflectionClass::isTrait](reflectionclass.istrait.md)(): bool
-
-public
-[ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md)():
-bool
-
-public
-[ReflectionClass::newInstance](reflectionclass.newinstance.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`): object
-
-public
-[ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)(array
-`$args` = []): ?object
-
-public [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
-object
-
-public
-[ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md)(string
-`$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [ReflectionClass::\_\_toString](reflectionclass.tostring.md)():
-string
-
-}
+   }
+```
 
 ## Зміст
 
-- [ReflectionObject::\_\_construct](reflectionobject.construct.md) -
-Конструктор класу ReflectionObject
-- [ReflectionObject::export](reflectionobject.export.md) - Експорт
+-   [ReflectionObject::\_\_construct](reflectionobject.construct.html) - Конструктор класу ReflectionObject
+-   [ReflectionObject::export](reflectionobject.export.html) - Експорт

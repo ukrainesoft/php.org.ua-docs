@@ -1,9 +1,15 @@
-- [« Imagick::getImageGreenPrimary](imagick.getimagegreenprimary.md)
-- [Imagick::getImageHistogram »](imagick.getimagehistogram.md)
+Повертає висоту зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає висоту зображення
+-   [« Imagick::getImageGreenPrimary](imagick.getimagegreenprimary.html)
+    
+-   [Imagick::getImageHistogram »](imagick.getimagehistogram.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає висоту зображення
+    
 
 # Imagick::getImageHeight
 
@@ -13,7 +19,9 @@ Imagick::getImageHeight — Повертає висоту зображення
 
 ### Опис
 
-public **Imagick::getImageHeight**(): int
+```methodsynopsis
+public Imagick::getImageHeight(): int
+```
 
 Повертає висоту зображення.
 

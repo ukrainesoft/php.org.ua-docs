@@ -1,19 +1,27 @@
-- [«get_declared_classes](function.get-declared-classes.md)
-- [get_declared_traits »](function.get-declared-traits.md)
+Повертає масив усіх оголошених інтерфейсів
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Повертає масив усіх оголошених інтерфейсів
+-   [« get\_declared\_classes](function.get-declared-classes.html)
+    
+-   [get\_declared\_traits »](function.get-declared-traits.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Повертає масив усіх оголошених інтерфейсів
+    
 
-#get_declared_interfaces
+# getdeclaredinterfaces
 
 (PHP 5, PHP 7, PHP 8)
 
-get_declared_interfaces — Повертає масив усіх оголошених інтерфейсів
+getdeclaredinterfaces — Повертає масив усіх оголошених інтерфейсів
 
 ### Опис
 
-**get_declared_interfaces**(): array
+```methodsynopsis
+get_declared_interfaces(): array
+```
 
 Повертає оголошені інтерфейси.
 
@@ -27,28 +35,31 @@ get_declared_interfaces — Повертає масив усіх оголоше�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_declared_interfaces()****
+**Приклад #1 Приклад використання **getdeclaredinterfaces()****
 
-` <?phpprint_r(get_declared_interfaces());?> `
+```php
+<?php
+print_r(get_declared_interfaces());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Traversable
-[1] => IteratorAggregate
-[2] => Iterator
-[3] => ArrayAccess
-[4] => reflector
-[5] => RecursiveIterator
-[6] => SeekableIterator
+    [0] => Traversable
+    [1] => IteratorAggregate
+    [2] => Iterator
+    [3] => ArrayAccess
+    [4] => reflector
+    [5] => RecursiveIterator
+    [6] => SeekableIterator
 )
+```
 
 ### Дивіться також
 
-- [interface_exists()](function.interface-exists.md) - Перевіряє,
-чи визначено інтерфейс
-- [get_declared_classes()](function.get-declared-classes.md) -
-Повертає масив із іменами оголошених класів
-- [class_implements()](function.class-implements.md) - Повертає
-список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [interface\_exists()](function.interface-exists.html) - Перевіряє, чи визначено інтерфейс
+-   [get\_declared\_classes()](function.get-declared-classes.html) - Повертає масив із іменами оголошених класів
+-   [class\_implements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

@@ -1,41 +1,56 @@
-- [« ssh2_sftp_symlink](function.ssh2-sftp-symlink.md)
-- [ssh2_sftp »](function.ssh2-sftp.md)
+Видалити файл на сервері
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Видалити файл на сервері
+-   [« ssh2\_sftp\_symlink](function.ssh2-sftp-symlink.html)
+    
+-   [ssh2\_sftp »](function.ssh2-sftp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Видалити файл на сервері
+    
 
-# ssh2_sftp_unlink
+# ssh2sftpunlink
 
-(PECL ssh2 \>= 0.9.0)
+(PECL ssh2> = 0.9.0)
 
-ssh2_sftp_unlink — Видалити файл на сервері
+ssh2sftpunlink — Видалити файл на сервері
 
 ### Опис
 
-**ssh2_sftp_unlink**(resource `$sftp`, string `$filename`): bool
+```methodsynopsis
+ssh2_sftp_unlink(resource $sftp, string $filename): bool
+```
 
 Видаляє файл на сервері.
 
 ### Список параметрів
 
 `sftp`
-Ресурс SSH2 SFTP, відкритий за допомогою
-[ssh2_sftp()](function.ssh2-sftp.md).
+
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
 
 `filename`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Видалення файлу**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);ssh2_sftp_unlink('$ home/username/stale_file');?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
+
+ssh2_sftp_unlink($sftp, '/home/username/stale_file');
+?>
+```
 
 ### Дивіться також
 
-- [unlink()](function.unlink.md) - Видаляє файл
+-   [unlink()](function.unlink.html) - Видаляє файл

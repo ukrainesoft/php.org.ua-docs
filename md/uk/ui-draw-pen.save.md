@@ -1,19 +1,27 @@
-- [« UI\Draw\Pen::restore](ui-draw-pen.restore.md)
-- [UI\Draw\Pen::stroke »](ui-draw-pen.stroke.md)
+Зберегти
 
-- [PHP Manual](index.md)
-- [UI\Draw\Pen](class.ui-draw-pen.md)
-- Зберегти
+-   [« UI\\Draw\\Pen::restore](ui-draw-pen.restore.html)
+    
+-   [UI\\Draw\\Pen::stroke »](ui-draw-pen.stroke.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Pen](class.ui-draw-pen.html)
+    
+-   Зберегти
+    
 
-# UI\Draw\Pen::save
+# ОЙDrawPen::save
 
 (UI 0.9.9)
 
-UI\Draw\Pen::save — Зберегти
+ОЙDrawPen::save — Зберегти
 
 ### Опис
 
-public **UI\Draw\Pen::save**()
+```methodsynopsis
+public UI\Draw\Pen::save()
+```
 
 Збереже перо
 

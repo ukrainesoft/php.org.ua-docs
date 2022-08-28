@@ -1,25 +1,34 @@
-- [« Parle\Lexer::callout](parle-lexer.callout.md)
-- [Parle\Lexer::dump »](parle-lexer.dump.md)
+Передає дані на обробку
 
-- [PHP Manual](index.md)
-- [Parle\Lexer](class.parle-lexer.md)
-- Передає дані на обробку
+-   [« Parle\\Lexer::callout](parle-lexer.callout.html)
+    
+-   [Parle\\Lexer::dump »](parle-lexer.dump.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Lexer](class.parle-lexer.html)
+    
+-   Передає дані на обробку
+    
 
-# Parle\Lexer::consume
+# ParleLexer::consume
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Lexer::consume — Передає дані на обробку
+ParleLexer::consume — Передає дані на обробку
 
 ### Опис
 
-public **Parle\Lexer::consume**(string `$data`): void
+```methodsynopsis
+public Parle\Lexer::consume(string $data): void
+```
 
 Обробляє дані для лексування.
 
 ### Список параметрів
 
 `data`
+
 Дані для лексування.
 
 ### Значення, що повертаються

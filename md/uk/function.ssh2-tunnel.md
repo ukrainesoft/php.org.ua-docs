@@ -1,29 +1,35 @@
-- [« ssh2_shell](function.ssh2-shell.md)
-- [Stomp »](book.stomp.md)
+Відкрити тунель через віддалений сервер
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Відкрити тунель через віддалений сервер
+-   [« ssh2\_shell](function.ssh2-shell.html)
+    
+-   [Stomp »](book.stomp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Відкрити тунель через віддалений сервер
+    
 
-# ssh2_tunnel
+# ssh2tunnel
 
-(PECL ssh2 \>= 0.9.0)
+(PECL ssh2> = 0.9.0)
 
-ssh2_tunnel — Відкрити тунель через віддалений сервер
+ssh2tunnel — Відкрити тунель через віддалений сервер
 
 ### Опис
 
-**ssh2_tunnel**(resource `$session`, string `$host`, int `$port`):
-resource
+```methodsynopsis
+ssh2_tunnel(resource $session, string $host, int $port): resource
+```
 
-Відкриває потік сокету до довільного хосту/порту за допомогою
-підключеного сервера SSH.
+Відкриває потік сокета до довільного хоста/порту за допомогою підключеного сервера SSH.
 
 ### Список параметрів
 
 `session`
-Ідентифікатор з'єднання SSH, отриманий з
-[ssh2_connect()](function.ssh2-connect.md).
+
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
 
 `host`
 
@@ -35,11 +41,16 @@ resource
 
 **Приклад #1 Відкриття тунелю по довільному хосту**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_pubkey_file($connection, 'username', 'id_dsa.pub', 'id_dsa');$tunnel = ssh2_tunnel .0.101', 12345);?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_pubkey_file($connection, 'username', 'id_dsa.pub', 'id_dsa');
+
+$tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
+?>
+```
 
 ### Дивіться також
 
-- [ssh2_connect()](function.ssh2-connect.md) - Підключення до
-SSH-серверу
-- [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з
-інтернет-сокетом або доменним сокетом Unix
+-   [ssh2\_connect()](function.ssh2-connect.html) - Підключення до SSH-сервера
+-   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix

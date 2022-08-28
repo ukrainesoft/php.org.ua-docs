@@ -1,23 +1,32 @@
-- [« VarnishAdmin::setParam](varnishadmin.setparam.md)
-- [VarnishAdmin::setSecret »](varnishadmin.setsecret.md)
+Встановити параметр конфігурації port класу
 
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Встановити параметр конфігурації port класу
+-   [« VarnishAdmin::setParam](varnishadmin.setparam.html)
+    
+-   [VarnishAdmin::setSecret »](varnishadmin.setsecret.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [VarnishAdmin](class.varnishadmin.html)
+    
+-   Встановити параметр конфігурації port класу
+    
 
 # VarnishAdmin::setPort
 
-(PECL varnish \>= 0.8)
+(PECL varnish >= 0.8)
 
 VarnishAdmin::setPort — Встановити параметр конфігурації port класу
 
 ### Опис
 
-public **VarnishAdmin::setPort**(int `$port`): void
+```methodsynopsis
+public VarnishAdmin::setPort(int $port): void
+```
 
 ### Список параметрів
 
 `port`
-Параметр конфігурації підключення port.
+
+Параметр конфігурації з'єднання port.
 
 ### Значення, що повертаються

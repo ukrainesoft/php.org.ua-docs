@@ -1,15 +1,21 @@
-- [«Вступ](intro.zlib.md)
-- [Вимоги »](zlib.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Zlib](book.zlib.md)
+-   [« Введение](intro.zlib.html)
+    
+-   [Требования »](zlib.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zlib](book.zlib.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](zlib.requirements.md)
-- [Установка](zlib.installation.md)
-- [Налаштування під час виконання](zlib.configuration.md)
-- [Типи ресурсів](zlib.resources.md)
+-   [Требования](zlib.requirements.html)
+-   [Установка](zlib.installation.html)
+-   [Настройка во время выполнения](zlib.configuration.html)
+-   [Типы ресурсов](zlib.resources.html)

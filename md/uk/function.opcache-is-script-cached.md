@@ -1,35 +1,40 @@
-- [«opcache_invalidate](function.opcache-invalidate.md)
-- [opcache_reset»](function.opcache-reset.md)
+Перевіряє, чи закешовано скрипт в OPCache
 
-- [PHP Manual](index.md)
-- [Функції OPcache](ref.opcache.md)
-- Перевіряє, чи закешовано скрипт в OPCache
+-   [« opcache\_invalidate](function.opcache-invalidate.html)
+    
+-   [opcache\_reset »](function.opcache-reset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OPcache](ref.opcache.html)
+    
+-   Перевіряє, чи закешовано скрипт в OPCache
+    
 
-# opcache_is_script_cached
+# opcacheісscriptcached
 
-(PHP 5 = 5.5.11, PHP 7, PHP 8, PECL ZendOpcache = 7.0.4)
+(PHP 5> = 5.5.11, PHP 7, PHP 8, PECL ZendOpcache> = 7.0.4)
 
-opcache_is_script_cached — Перевіряє, чи закешовано скрипт в OPCache
+opcacheісscriptcached — Перевіряє, чи закешовано скрипт в OPCache
 
 ### Опис
 
-**opcache_is_script_cached**(string `$filename`): bool
+```methodsynopsis
+opcache_is_script_cached(string $filename): bool
+```
 
-Функція перевіряє, чи вказаний скрипт в OPCache. Може бути
-використана для визначення, чи прогрітий кеш для конкретного скрипта.
-Функція перевіряє лише кеш у пам'яті, не перевіряючи файловий кеш.
+Функція перевіряє, чи вказаний скрипт в OPCache. Може бути використана для визначення прогріти кеш для конкретного скрипту. Функція перевіряє лише кеш у пам'яті, не перевіряючи файловий кеш.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу сценарію.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `filename` закешовано в OPCache,
-**`false`** якщо ні.
+Повертає **`true`**, якщо `filename` закешований в OPCache, **`false`** якщо ні.
 
 ### Дивіться також
 
-- [opcache_compile_file()](function.opcache-compile-file.md) -
-Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcache\_compile\_file()](function.opcache-compile-file.html) - Скомпілювати та закешувати, але не виконувати скрипт PHP

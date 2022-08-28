@@ -1,9 +1,15 @@
-- [« fann_train](function.fann-train.md)
-- [FANNConnection::\_\_construct »](fannconnection.construct.md)
+Клас FANNConnection
 
-- [PHP Manual](index.md)
-- [FANN](book.fann.md)
-- Клас FANNConnection
+-   [« fann\_train](function.fann-train.html)
+    
+-   [FANNConnection::\_\_construct »](fannconnection.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FANN](book.fann.html)
+    
+-   Клас FANNConnection
+    
 
 # Клас FANNConnection
 
@@ -11,58 +17,63 @@
 
 ## Вступ
 
-**FANNConnection** використовується для зв'язку нейронної мережі. Об'єкти цього
-класу використовуються у функціях
-[fann_get_connection_array()](function.fann-get-connection-array.md) та
-[fann_set_weight_array()](function.fann-set-weight-array.md).
+**FANNConnection** використовується для зв'язку нейронної мережі. Об'єкти цього класу використовуються у функціях [fann\_get\_connection\_array()](function.fann-get-connection-array.html) і [fann\_set\_weight\_array()](function.fann-set-weight-array.html)
 
 ## Огляд класів
 
-class **FANNConnection** {
+```classsynopsis
 
-/\* Властивості \*/
 
-public `$from_neuron`;
+    
+    
+     
+      class FANNConnection
+     
+     {
+    
+    /* Свойства */
+    
+     public
+      $from_neuron;
 
-public `$to_neuron`;
+    public
+      $to_neuron;
 
-public `$weight`;
+    public
+      $weight;
 
-/\* Методи \*/
 
-public [\_\_construct](fannconnection.construct.md)(int
-`$from_neuron`, int `$to_neuron`, float `$weight`)
 
-public [getFromNeuron](fannconnection.getfromneuron.md)(): int
+    /* Методы */
+    
+   public __construct(int $from_neuron, int $to_neuron, float $weight)
 
-public [getToNeuron](fannconnection.gettoneuron.md)(): int
+    public getFromNeuron(): int
+public getToNeuron(): int
+public getWeight(): void
+public setWeight(float $weight): void
 
-public [getWeight](fannconnection.getweight.md)(): void
-
-public [setWeight](fannconnection.setweight.md)(float `$weight`): void
-
-}
+   }
+```
 
 ## Властивості
 
-`from_neuron`
+fromneuron
+
 Перший нейрон (початковий)
 
-`to_neuron`
+тоneuron
+
 Другий нейрон (кінцевий)
 
-`weight`
+weight
+
 Вага зв'язку
 
 ## Зміст
 
-- [FANNConnection::\_\_construct](fannconnection.construct.md) -
-Конструктор зв'язку
-- [FANNConnection::getFromNeuron](fannconnection.getfromneuron.md) -
-Повертає позицію стартового нейрона
-- [FANNConnection::getToNeuron](fannconnection.gettoneuron.md) -
-Повертає позицію кінцевого нейрона
-- [FANNConnection::getWeight](fannconnection.getweight.md) -
-Повертає вагу зв'язку
-- [FANNConnection::setWeight](fannconnection.setweight.md) -
-Встановлює вагу зв'язку
+-   [FANNConnection::\_\_construct](fannconnection.construct.html) - Конструктор зв'язку
+-   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.html) — Повертає позицію стартового нейрона
+-   [FANNConnection::getToNeuron](fannconnection.gettoneuron.html) — Повертає позицію кінцевого нейрона
+-   [FANNConnection::getWeight](fannconnection.getweight.html) — Повертає вагу зв'язку
+-   [FANNConnection::setWeight](fannconnection.setweight.html) - Встановлює вагу зв'язку

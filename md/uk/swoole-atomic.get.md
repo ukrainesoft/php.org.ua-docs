@@ -1,19 +1,27 @@
-- [« Swoole\Atomic::\_\_construct](swoole-atomic.construct.md)
-- [Swoole\Atomic::set »](swoole-atomic.set.md)
+Отримує поточне значення атомарного об'єкта
 
-- [PHP Manual](index.md)
-- [Swoole\Atomic](class.swoole-atomic.md)
-- Отримує поточне значення атомарного об'єкта
+-   [« Swoole\\Atomic::\_\_construct](swoole-atomic.construct.html)
+    
+-   [Swoole\\Atomic::set »](swoole-atomic.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Atomic](class.swoole-atomic.html)
+    
+-   Отримує поточне значення атомарного об'єкта
+    
 
-# Swoole\Atomic::get
+# SwooleAtomic::get
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Atomic::get — Отримує поточне значення атомарного об'єкта
+SwooleAtomic::get — Отримує поточне значення атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::get**(): int
+```methodsynopsis
+public Swoole\Atomic::get(): int
+```
 
 Набуває поточного значення атомарного об'єкта.
 

@@ -1,29 +1,33 @@
-- [« GearmanTask::dataSize](gearmantask.datasize.md)
-- [GearmanTask::functionName »](gearmantask.functionname.md)
+Отримати ім'я пов'язаної функції (застарілий метод)
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Отримати ім'я пов'язаної функції (застарілий метод)
+-   [« GearmanTask::dataSize](gearmantask.datasize.html)
+    
+-   [GearmanTask::functionName »](gearmantask.functionname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Отримати ім'я пов'язаної функції (застарілий метод)
+    
 
 # GearmanTask::function
 
-(PECL gearman \<= 0.5.0)
+(PECL gearman <= 0.5.0)
 
-GearmanTask::function — Отримати ім'я пов'язаної функції (застарілий
-метод)
+GearmanTask::function — Отримати ім'я пов'язаної функції (застарілий метод)
 
 ### Опис
 
-public **GearmanTask::function**(): string
+```methodsynopsis
+public GearmanTask::function(): string
+```
 
-Повертає ім'я функції, з якою пов'язане це завдання. Цю функцію
-викликає обробник у процесі роботи з даними.
+Повертає ім'я функції, з якою пов'язане це завдання. Цю функцію викликає обробник у процесі роботи з даними.
 
-> **Примітка**:
->
-> Цей метод було замінено на
-> [GearmanTask::functionName()](gearmantask.functionname.md) у версії
-> 0.6.0 Gearman модуля.
+> **Зауваження**
+> 
+> Цей метод було замінено на [GearmanTask::functionName()](gearmantask.functionname.html) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -31,4 +35,4 @@ public **GearmanTask::function**(): string
 
 ### Значення, що повертаються
 
-Назва функції.
+Ім'я функції.

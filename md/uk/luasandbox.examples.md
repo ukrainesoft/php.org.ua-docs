@@ -1,12 +1,18 @@
-- [« Відмінності від стандартного Lua](reference.luasandbox.differences.md)
-- [Базове використання LuaSandbox »](luasandbox.examples-basic.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [LuaSandbox](book.luasandbox.md)
-- Приклади
+-   [« Отличия от стандартного Lua](reference.luasandbox.differences.html)
+    
+-   [Базовое использование LuaSandbox »](luasandbox.examples-basic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](book.luasandbox.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Базове використання LuaSandbox](luasandbox.examples-basic.md)
+-   [Базовое использование LuaSandbox](luasandbox.examples-basic.html)

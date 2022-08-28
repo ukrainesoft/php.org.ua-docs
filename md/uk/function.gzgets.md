@@ -1,9 +1,15 @@
-- [«gzgetc](function.gzgetc.md)
-- [gzgetss »](function.gzgetss.md)
+Отримати рядок із покажчика файлу
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Отримати рядок із покажчика файлу
+-   [« gzgetc](function.gzgetc.html)
+    
+-   [gzgetss »](function.gzgetss.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zlib](ref.zlib.html)
+    
+-   Отримати рядок із покажчика файлу
+    
 
 # gzgets
 
@@ -13,42 +19,49 @@ gzgets — Отримати рядок із покажчика файлу
 
 ### Опис
 
-**gzgets**(resource `$stream`, ?int `$length` = **`null`**):
-string\|false
+```methodsynopsis
+gzgets(resource $stream, ?int $length = null): string|false
+```
 
-Отримує рядок (несжатий) з gz-файлу, його довжина обмежується
-`length` – 1 байтами. Читання закінчується при досягненні максимальної
-довжини, кінця рядка або кінця файлу (EOF), залежно від того, що
-настане раніше.
+Отримує рядок (несжатий) з gz-файлу, його довжина обмежується `length` - 1 байт. Читання закінчується при досягненні максимальної довжини, кінця рядка або кінця файлу (EOF), залежно від того, що настане раніше.
 
 ### Список параметрів
 
 `stream`
-Вказівник на gz-файл. Він повинен бути коректним і повинен вказувати на
-файл успішно відкритий [gzopen()](function.gzopen.md).
+
+Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.html)
 
 `length`
+
 Максимальний розмір даних, що повертаються.
 
 ### Значення, що повертаються
 
 Розпакований рядок або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                            |
-| ------ | ------------------------------------------------------------------------------- |
-| 8.0.0  | length тепер допускає значення null; раніше значення за умовчанням було '1024'. |
+| Версия | Описание |
+| --- | --- |
+|  | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **gzgets()****
 
-`<?php$handle = gzopen('somefile.gz', 'r');while (!gzeof($handle)) {   $buffer = gzgets($handle, 4096); echo $buffer;}gzclose($handle);?> `
+```php
+<?php
+$handle = gzopen('somefile.gz', 'r');
+while (!gzeof($handle)) {
+   $buffer = gzgets($handle, 4096);
+   echo $buffer;
+}
+gzclose($handle);
+?>
+```
 
 ### Дивіться також
 
-- [gzopen()](function.gzopen.md) - Відкрити файл gz-файл
-- [gzgetc()](function.gzgetc.md) - Отримати символ із вказівника на
-gz-файл
-- [gzwrite()](function.gzwrite.md) - Бінарний запис у gz-файл
+-   [gzopen()](function.gzopen.html) - Відкрити gz-файл
+-   [gzgetc()](function.gzgetc.html) - Отримати символ із покажчика на gz-файл
+-   [gzwrite()](function.gzwrite.html) - Бінарний запис у gz-файл

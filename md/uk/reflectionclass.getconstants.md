@@ -1,9 +1,15 @@
-- [« ReflectionClass::getConstant](reflectionclass.getconstant.md)
-- [ReflectionClass::getConstructor »](reflectionclass.getconstructor.md)
+Повертає константи
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає константи
+-   [« ReflectionClass::getConstant](reflectionclass.getconstant.html)
+    
+-   [ReflectionClass::getConstructor »](reflectionclass.getconstructor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Повертає константи
+    
 
 # ReflectionClass::getConstants
 
@@ -13,31 +19,28 @@ ReflectionClass::getConstants — Повертає константи
 
 ### Опис
 
-public **ReflectionClass::getConstants**(?int `$filter` = **`null`**):
-array
+```methodsynopsis
+public ReflectionClass::getConstants(?int $filter = null): array
+```
 
-Повертає всі визначені у класі константи, незалежно від них
-модифікаторів видимості.
+Повертає всі визначені класі константи, незалежно від своїх модифікаторів видимості.
 
 ### Список параметрів
 
 `filter`
-Додатковий фільтр для фільтрації констант видимості. Він
-налаштовується за допомогою [ReflectionClassConstant constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
-і за умовчанням використовується всім констант видимості.
+
+Додатковий фільтр для фільтрації констант видимості. Він налаштовується за допомогою [ReflectionClassConstant constants](class.reflectionclassconstant.html#reflectionclassconstant.constants.modifiers) і за умовчанням використовується всім констант видимості.
 
 ### Значення, що повертаються
 
-Масив (array) констант. Ім'я константи - ключ, значення константи -
-значення.
+Масив (array) констант. Ім'я константи – ключ, значення константи – значення.
 
-### Список змін
+### список змін
 
-| Версія | Опис                     |
-| ------ | ------------------------ |
-| 8.0.0  | Доданий параметр filter. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий параметр `filter` |
 
 ### Дивіться також
 
-- [ReflectionClass::getConstant()](reflectionclass.getconstant.md) -
-Повертає певну константу
+-   [ReflectionClass::getConstant()](reflectionclass.getconstant.html) - Повертає певну константу

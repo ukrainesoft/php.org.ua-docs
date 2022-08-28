@@ -1,17 +1,22 @@
-- [«fbird_affected_rows](function.fbird-affected-rows.md)
-- [fbird_blob_add »](function.fbird-blob-add.md)
+Псевдонім ibasebackup
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_backup
+-   [« fbird\_affected\_rows](function.fbird-affected-rows.html)
+    
+-   [fbird\_blob\_add »](function.fbird-blob-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasebackup
+    
 
-#fbird_backup
+# fbirdbackup
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_backup - Псевдонім [ibase_backup()](function.ibase-backup.md)
+fbirdbackup - Псевдонім [ibase\_backup()](function.ibase-backup.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_backup()](function.ibase-backup.md).
+Ця функція є псевдонімом: [ibase\_backup()](function.ibase-backup.html)

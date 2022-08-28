@@ -1,9 +1,15 @@
-- [« Imagick::rotationalBlurImage](imagick.rotationalblurimage.md)
-- [Imagick::sampleImage »](imagick.sampleimage.md)
+Заокруглює кути зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Закруглює кути зображення
+-   [« Imagick::rotationalBlurImage](imagick.rotationalblurimage.html)
+    
+-   [Imagick::sampleImage »](imagick.sampleimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Заокруглює кути зображення
+    
 
 # Imagick::roundCorners
 
@@ -13,46 +19,41 @@ Imagick::roundCorners — Скруглює кути зображення
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::roundCorners**(
-float `$x_rounding`,
-float `$y_rounding`,
-float `$stroke_width` = 10,
-float `$displace` = 5,
-float `$size_correction` = -6
-): bool
+```methodsynopsis
+public Imagick::roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
+```
 
-Заокруглює кути зображення. Перші два параметри керують ступенем
-округлення, а три останні параметри можуть використовуватися для точної
-налаштування процесу округлення. Цей метод доступний, якщо Imagick був
-скомпільований з версією ImageMagick 6.2.9 або старшим. Цей метод
-недоступний, якщо Imagick був скомпільований з версією ImageMagick
-7.0.70або старше.
+Заокруглює кути зображення. Перші два параметри керують ступенем заокруглення, а три останні параметри можуть використовуватися для точного налаштування процесу заокруглення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим. Цей метод недоступний, якщо Imagick був скомпільований з версією ImageMagick 7.0.70 або старшим.
 
 ### Список параметрів
 
 `x_rounding`
+
 Округлення по x.
 
 `y_rounding`
+
 Округлення по y.
 
 `stroke_width`
+
 Ширина обведення.
 
 `displace`
+
 Зміщення зображення.
 
 `size_correction`
+
 Корекція розміру.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -60,4 +61,14 @@ float `$size_correction` = -6
 
 Закруглення кутів зображення
 
-` <?php$image = new Imagick();$image->newPseudoImage(100, 100, "magick:rose");$image->setImageFormat("png");$image->roundCorners(5,3) ;$image->writeImage("rounded.png");?> `
+```php
+<?php
+
+$image = new Imagick();
+$image->newPseudoImage(100, 100, "magick:rose");
+$image->setImageFormat("png");
+
+$image->roundCorners(5,3);
+$image->writeImage("rounded.png");
+?>
+```

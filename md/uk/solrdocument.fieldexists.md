@@ -1,29 +1,36 @@
-- [«SolrDocument::\_\_destruct](solrdocument.destruct.md)
-- [SolrDocument::\_\_get »](solrdocument.get.md)
+Перевіряє, чи існує поле у ​​документі
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Перевіряє, чи існує поле у документі
+-   [« SolrDocument::\_\_destruct](solrdocument.destruct.html)
+    
+-   [SolrDocument::\_\_get »](solrdocument.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Перевіряє, чи існує поле у ​​документі
+    
 
 # SolrDocument::fieldExists
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::fieldExists — Перевіряє, чи є поле в документі
+SolrDocument::fieldExists — Перевіряє, чи існує поле в документі
 
 ### Опис
 
-public **SolrDocument::fieldExists**(string `$fieldName`): bool
+```methodsynopsis
+public SolrDocument::fieldExists(string $fieldName): bool
+```
 
-Перевіряє, чи є запитане поле коректним ім'ям поля
-документ.
+Перевіряє, чи поле поле в документі є коректним ім'ям поля.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі якщо поле присутній та **`false`** якщо
-це не так.
+Повертає **`true`** якщо поле є і **`false`** якщо це не так.

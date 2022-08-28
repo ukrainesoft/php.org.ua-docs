@@ -1,9 +1,15 @@
-- ["UI\Draw\Text\Font\Italic](class.ui-draw-text-font-italic.md)
-- [UI\Draw\Line\Cap »](class.ui-draw-line-cap.md)
+Налаштування товщини шрифту
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Налаштування товщини шрифту
+-   [« UI\\Draw\\Text\\Font\\Italic](class.ui-draw-text-font-italic.html)
+    
+-   [UI\\Draw\\Line\\Cap »](class.ui-draw-line-cap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Налаштування товщини шрифту
+    
 
 # Налаштування товщини шрифту
 
@@ -13,26 +19,55 @@
 
 ## Огляд класів
 
-final class **UI\Draw\Text\Font\Stretch** {
+```synopsis
 
-/\* Constants \*/
 
-const int `UltraCondensed` = 0;
 
-const int `ExtraCondensed` = 1;
+    
+     
+      final
+      class UI\Draw\Text\Font\Stretch
+     
+     {
 
-const int `Condensed` = 2;
+    /* Constants */
+    
+     const
+     int
+      UltraCondensed = 0;
 
-const int `SemiCondensed` = 3;
+    const
+     int
+      ExtraCondensed = 1;
 
-const int `Normal` = 4;
+    const
+     int
+      Condensed = 2;
 
-const int `SemiExpanded` = 5;
+    const
+     int
+      SemiCondensed = 3;
 
-const int `Expanded` = 6;
+    const
+     int
+      Normal = 4;
 
-const int `ExtraExpanded` = 7;
+    const
+     int
+      SemiExpanded = 5;
 
-const int `UltraExpanded` = 8;
+    const
+     int
+      Expanded = 6;
 
-}
+    const
+     int
+      ExtraExpanded = 7;
+
+    const
+     int
+      UltraExpanded = 8;
+
+
+   }
+```

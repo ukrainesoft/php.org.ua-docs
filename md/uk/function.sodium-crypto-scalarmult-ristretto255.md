@@ -1,35 +1,42 @@
-- [« sodium_crypto_scalarmult_ristretto255_base](function.sodium-crypto-scalarmult-ristretto255-base.md)
-- [sodium_crypto_scalarmult »](function.sodium-crypto-scalarmult.md)
+Обчислює загальний секрет
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- обчислює загальний секрет
+-   [« sodium\_crypto\_scalarmult\_ristretto255\_base](function.sodium-crypto-scalarmult-ristretto255-base.html)
+    
+-   [sodium\_crypto\_scalarmult »](function.sodium-crypto-scalarmult.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Обчислює загальний секрет
+    
 
-# sodium_crypto_scalarmult_ristretto255
+# sodiumcryptoscalarmultristretto255
 
-(PHP 8 \>= 8.1.1)
+(PHP 8> = 8.1.1)
 
-sodium_crypto_scalarmult_ristretto255 - Обчислює загальний секрет
+sodiumcryptoscalarmultristretto255 - Обчислює загальний секрет
 
 ### Опис
 
-**sodium_crypto_scalarmult_ristretto255**(string `$n`, string `$p`):
-string
+```methodsynopsis
+sodium_crypto_scalarmult_ristretto255(string $n, string $p): string
+```
 
-Обчислює скаляр `n`, помножений на точку `p`. Доступно, починаючи з
-libsodium 1.0.18.
+Обчислює скаляр `n`, помножений на крапку `p`. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `n`
+
 Скаляр, який зазвичай є закритим ключем.
 
 `p`
+
 Крапка (x-координата), яка зазвичай є відкритим ключем.
 
 ### Значення, що повертаються
@@ -38,5 +45,4 @@ libsodium 1.0.18.
 
 ### Дивіться також
 
-- [sodium_crypto_scalarmult_ristretto255_base()](function.sodium-crypto-scalarmult-ristretto255-base.md) -
-Обчислює відкритий ключ із закритого ключа
+-   [sodium\_crypto\_scalarmult\_ristretto255\_base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа

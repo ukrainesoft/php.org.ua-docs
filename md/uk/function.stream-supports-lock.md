@@ -1,34 +1,40 @@
-- [«stream_socket_shutdown](function.stream-socket-shutdown.md)
-- [stream_wrapper_register »](function.stream-wrapper-register.md)
+Визначає, чи підтримує потік блокування
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Визначає, чи підтримує потік блокування
+-   [« stream\_socket\_shutdown](function.stream-socket-shutdown.html)
+    
+-   [stream\_wrapper\_register »](function.stream-wrapper-register.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Визначає, чи підтримує потік блокування
+    
 
-#stream_supports_lock
+# streamsupportslock
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-stream_supports_lock — Визначає, чи блокування підтримує потік.
+streamsupportslock — Визначає, чи блокування підтримує потік.
 
 ### Опис
 
-**stream_supports_lock**(resource `$stream`): bool
+```methodsynopsis
+stream_supports_lock(resource $stream): bool
+```
 
-Визначає, чи потік підтримує блокування з використанням
-[flock()](function.flock.md).
+Визначає, чи потік підтримує блокування з використанням [flock()](function.flock.html)
 
 ### Список параметрів
 
 `stream`
-Потік для перевірки.
+
+Потік для перевірки
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [flock()](function.flock.md) - Портована консультативна
-блокування файлів
+-   [flock()](function.flock.html) - Портоване консультативне блокування файлів

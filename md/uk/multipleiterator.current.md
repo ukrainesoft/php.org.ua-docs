@@ -1,26 +1,33 @@
-- [« MultipleIterator::countIterators](multipleiterator.countiterators.md)
-- [MultipleIterator::detachIterator »](multipleiterator.detachiterator.md)
+Отримує зареєстровані ітератори
 
-- [PHP Manual](index.md)
-- [MultipleIterator](class.multipleiterator.md)
-- отримує зареєстровані ітератори
+-   [« MultipleIterator::countIterators](multipleiterator.countiterators.html)
+    
+-   [MultipleIterator::detachIterator »](multipleiterator.detachiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MultipleIterator](class.multipleiterator.html)
+    
+-   Отримує зареєстровані ітератори
+    
 
 # MultipleIterator::current
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::current — Отримує зареєстровані ітератори
 
 ### Опис
 
-public **MultipleIterator::current**(): array
+```methodsynopsis
+public MultipleIterator::current(): array
+```
 
 Отримує результат виконання current() зареєстрованих ітераторів.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,19 +39,14 @@ public **MultipleIterator::current**(): array
 
 ### Помилки
 
-[RuntimeException](class.runtimeexception.md), якщо ітератор
-недійсний (починаючи з PHP 8.1.0) або встановлено режим
-**`MIT_NEED_ALL`** і принаймні один приєднаний ітератор
-недійсний. Або **IllegalValueException**, якщо ключ має значення
-**`null`**, а прапор **`MIT_KEYS_ASSOC`** встановлено.
+[RuntimeException](class.runtimeexception.html), якщо ітератор недійсний (починаючи з PHP 8.1.0) або встановлено режим **`MIT_NEED_ALL`** і, принаймні, один приєднаний ітератор недійсний. Або **IlegallegalValueException**якщо ключ має значення **`null`**, а прапор **`MIT_KEYS_ASSOC`** встановлений.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Тепер викидається [RuntimeException](class.runtimeexception.md), якщо [MultipleIterator::key()](multipleiterator.key.md) викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидається виняток [RuntimeException](class.runtimeexception.html), якщо [MultipleIterator::key()](multipleiterator.key.html) викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 
-- [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє
-коректність підитераторів
+-   [MultipleIterator::valid()](multipleiterator.valid.html) - Перевіряє коректність підитераторів

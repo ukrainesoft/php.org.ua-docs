@@ -1,19 +1,27 @@
-- [« Swoole\Server::close](swoole-server.close.md)
-- [Swoole\Server::connection_info »](swoole-server.connection-info.md)
+Перевіряє стан з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Перевіряє стан з'єднання
+-   [« Swoole\\Server::close](swoole-server.close.html)
+    
+-   [Swoole\\Server::connection\_info »](swoole-server.connection-info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Перевіряє стан з'єднання
+    
 
-# Swoole\Server::confirm
+# SwooleServer::confirm
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::confirm — Перевірка стану з'єднання
+SwooleServer::confirm — Перевірка стану з'єднання
 
 ### Опис
 
-public **Swoole\Server::confirm**(int `$fd`): bool
+```methodsynopsis
+public Swoole\Server::confirm(int $fd): bool
+```
 
 ### Список параметрів
 

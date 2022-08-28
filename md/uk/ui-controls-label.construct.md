@@ -1,23 +1,30 @@
-- [«UI\Controls\Label](class.ui-controls-label.md)
-- [UI\Controls\Label::getText »](ui-controls-label.gettext.md)
+Створити новий об'єкт Label
 
-- [PHP Manual](index.md)
-- [UI\Controls\Label](class.ui-controls-label.md)
-- Створити новий об'єкт Label
+-   [« UI\\Controls\\Label](class.ui-controls-label.html)
+    
+-   [UI\\Controls\\Label::getText »](ui-controls-label.gettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Label](class.ui-controls-label.html)
+    
+-   Створити новий об'єкт Label
+    
 
-# UI\Controls\Label::\_\_construct
+# ОЙControlsLabel::construct
 
 (UI 0.9.9)
 
-UI\Controls\Label::\_\_construct — Створити новий об'єкт Label
+ОЙControlsLabel::construct — Створити новий об'єкт Label
 
 ### Опис
 
-public **UI\Controls\Label::\_\_construct**(string `$text`)
+public **ОЙControlsLabel::construct**(string `$text`
 
 Створює новий об'єкт Label
 
 ### Список параметрів
 
 `text`
+
 Текст для цієї мітки

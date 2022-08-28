@@ -1,28 +1,36 @@
-- [« LuaSandbox::setCPULimit](luasandbox.setcpulimit.md)
-- [LuaSandbox::unpauseUsageTimer »](luasandbox.unpauseusagetimer.md)
+Встановлює межу пам'яті для середовища Lua
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Встановлює межу пам'яті для середовища Lua
+-   [« LuaSandbox::setCPULimit](luasandbox.setcpulimit.html)
+    
+-   [LuaSandbox::unpauseUsageTimer »](luasandbox.unpauseusagetimer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Встановлює межу пам'яті для середовища Lua
+    
 
 # LuaSandbox::setMemoryLimit
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
 LuaSandbox::setMemoryLimit — Встановлює межу пам'яті для середовища Lua
 
 ### Опис
 
-public **LuaSandbox::setMemoryLimit**(int `$limit`): void
+```methodsynopsis
+public LuaSandbox::setMemoryLimit(int $limit): void
+```
 
 Встановлює межу пам'яті для середовища Lua.
 
-Якщо межа перевищена, буде викинуто виняток
-[LuaSandboxMemoryError](class.luasandboxmemoryerror.md).
+Якщо межа перевищена, буде викинуто виняток [LuaSandboxMemoryError](class.luasandboxmemoryerror.html)
 
 ### Список параметрів
 
 `limit`
+
 Межа пам'яті у байтах.
 
 ### Значення, що повертаються
@@ -33,17 +41,29 @@ public **LuaSandbox::setMemoryLimit**(int `$limit`): void
 
 **Приклад #1 Виклик функції Lua**
 
-`<?php// Створення нового об'єкта LuaSandbox$sandbox = neu LuaSandbox();// Установка межі пам'яті$sandbox->setMemoryLimit( 50 * 1024 * > = "x"; while true do x = x .. x; end' )->call();?> `
+```php
+<?php
+
+// Создание нового объекта LuaSandbox
+$sandbox = new LuaSandbox();
+
+// Установка предела памяти
+$sandbox->setMemoryLimit( 50 * 1024 * 1024 );
+
+// Запуск кода Lua
+$sandbox->loadString( 'local x = "x"; while true do x = x .. x; end' )->call();
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-PHP Fatal error: Uncaught LuaSandboxMemoryError: not enough memory
+```
+PHP Fatal error:  Uncaught LuaSandboxMemoryError: not enough memory
+```
 
 ### Дивіться також
 
-- [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) -
-Повертає поточне використання пам'яті у середовищі Lua
-- [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) -
-Повертає пікове використання пам'яті у середовищі Lua
-- [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) -
-Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.html) - Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.html) - Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.html) - Встановлює обмеження часу процесора для середовища Lua

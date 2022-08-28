@@ -1,42 +1,43 @@
-- [« Ds\Sequence::sort](ds-sequence.sort.md)
-- [Ds\Sequence::sum »](ds-sequence.sum.md)
+Повертає відсортовану за значенням копію колекції
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Повертає відсортовану за значенням копію колекції
+-   [« Ds\\Sequence::sort](ds-sequence.sort.html)
+    
+-   [Ds\\Sequence::sum »](ds-sequence.sum.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Последовательность](class.ds-sequence.html)
+    
+-   Повертає відсортовану за значенням копію колекції
+    
 
-# Ds\Sequence::sorted
+# ДсSequence::sorted
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Sequence::sorted — Повертає відсортовану за значенням копію
-колекції
+ДсSequence::sorted — Повертає копію колекції, відсортовану за значенням.
 
 ### Опис
 
-abstract public
-**Ds\Sequence::sorted**([callable](language.types.callable.md)
-`$comparator` = ?): [Ds\Sequence](class.ds-sequence.md)
+```methodsynopsis
+abstract public Ds\Sequence::sorted(callable $comparator = ?): Ds\Sequence
+```
 
-Повертає відсортовану копію колекції, опціонально використовуючи
-callback-функцію `comparator`.
+Повертає відсортовану копію колекції, опціонально використовуючи callback-функцію `comparator`
 
 ### Список параметрів
 
 `comparator`
-Функція порівняння повинна повертати ціле, яке менше, або
-більше нуля, якщо перший аргумент є відповідно меншим,
-рівним чи більшим, ніж другий.
 
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$a`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$b`): int
+Функція порівняння повинна повертати ціле, яке менше, дорівнює чи більше нуля, якщо перший аргумент є відповідно меншим, рівним чи більшим, ніж другий.
+
+```methodsynopsis
+callback(mixed $a, mixed $b): int
+```
 
 **Застереження**
-*Не ціле* значення повернене з функції порівняння, такого як float,
-буде приведено до цілого числа (int). Так що значення типу 0.99 та 0.1
-будуть приведені до 0, що означатиме рівність порівнюваних значень.
+
+*Не ціле* значення, повернене з функції порівняння, такого як float, буде приведено до цілого числа (int). Отже значення типу 0.99 і 0.1 будуть наведені до 0, що означатиме рівність порівнюваних значень.
 
 ### Значення, що повертаються
 
@@ -44,33 +45,52 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::sorted()****
+**Приклад #1 Приклад використання **ДсSequence::sorted()****
 
-` <?php$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);print_r($sequence->sorted());?> `
+```php
+<?php
+$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
 
-Результатом виконання цього прикладу буде щось подібне:
-
-Ds\Vector Object
-(
-[0] => 1
-[1] => 2
-[2] => 3
-[3] => 4
-[4] => 5
-)
-
-**Приклад #2 Приклад використання **Ds\Sequence::sorted()** з
-callback-функцією порівняння**
-
-` <?php$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);$sorted = $sequence->sorted(function($a, $b) {    return $b <=> $a;});print_r($sorted);?> `
+print_r($sequence->sorted());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 5
-[1] => 4
-[2] => 3
-[3] => 2
-[4] => 1
+    [0] => 1
+    [1] => 2
+    [2] => 3
+    [3] => 4
+    [4] => 5
 )
+```
+
+**Приклад #2 Приклад використання **ДсSequence::sorted()** з callback-функцією порівняння**
+
+```php
+<?php
+$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
+
+$sorted = $sequence->sorted(function($a, $b) {
+    return $b <=> $a;
+});
+
+print_r($sorted);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+Ds\Vector Object
+(
+    [0] => 5
+    [1] => 4
+    [2] => 3
+    [3] => 2
+    [4] => 1
+)
+```

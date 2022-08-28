@@ -1,51 +1,63 @@
-- [« pg_connect](function.pg-connect.md)
-- [pg_connection_reset »](function.pg-connection-reset.md)
+Перевіряє, чи зайнято з'єднання на даний момент.
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Перевіряє, чи зайнято з'єднання на даний момент.
+-   [« pg\_connect](function.pg-connect.html)
+    
+-   [pg\_connection\_reset »](function.pg-connection-reset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Перевіряє, чи зайнято з'єднання на даний момент.
+    
 
-#pg_connection_busy
+# пгconnectionbusy
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_connection_busy - Перевіряє, чи зайнято з'єднання в даний момент.
+пгconnectionbusy - Перевіряє, чи зайнято з'єднання в даний момент.
 
 ### Опис
 
-**pg_connection_busy**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`): bool
+```methodsynopsis
+pg_connection_busy(PgSql\Connection $connection): bool
+```
 
-**pg_connection_busy()** визначає, чи зайнято з'єднання в даний момент
-чи ні. З'єднання зайнято, коли попередній запит ще виконується.
-Функція [pg_get_result()](function.pg-get-result.md) також блокує
-з'єднання на час виконання.
+**пгconnectionbusy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [pg\_get\_result()](function.pg-get-result.html) також блокує з'єднання на час виконання.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо з'єднання зайняте, інакше
-**`false`**.
+Повертає **`true`**, якщо з'єднання зайнято, інакше **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_connection_busy()****
+**Приклад #1 Приклад використання **пгconnectionbusy()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднається"); $bs==pg_connection_busy($dbconn); if ($bs) {      echo 'З'єднання зайнято'; } else {     echo 'З'єднання не зайнято'; }?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединится");
+  $bs = pg_connection_busy($dbconn);
+  if ($bs) {
+      echo 'Соединение занято';
+  } else {
+     echo 'Соединение не занято';
+  }
+?>
+```
 
 ### Дивіться також
 
-- [pg_connection_status()](function.pg-connection-status.md) -
-Визначає стан підключення
-- [pg_get_result()](function.pg-get-result.md) - Отримання
-результату асинхронного запиту
+-   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення
+-   [pg\_get\_result()](function.pg-get-result.html) - Отримання результату асинхронного запиту

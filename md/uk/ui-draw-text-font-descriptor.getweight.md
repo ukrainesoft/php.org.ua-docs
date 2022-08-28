@@ -1,19 +1,27 @@
-- [« UI\Draw\Text\Font\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.md)
-- [Функції UI»](ref.ui.md)
+Визначення насиченості
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)
-- Визначення насиченості
+-   [« UI\\Draw\\Text\\Font\\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html)
+    
+-   [Функции UI »](ref.ui.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+    
+-   Визначення насиченості
+    
 
-# UI\Draw\Text\Font\Descriptor::getWeight
+# ОЙDrawTextFontDescriptor::getWeight
 
 (UI 1.0.3)
 
-UI\Draw\Text\Font\Descriptor::getWeight — Визначення насиченості
+ОЙDrawTextFontDescriptor::getWeight — Визначення насиченості
 
 ### Опис
 
-public **UI\Draw\Text\Font\Descriptor::getWeight**(): int
+```methodsynopsis
+public UI\Draw\Text\Font\Descriptor::getWeight(): int
+```
 
 Повертає насиченість
 

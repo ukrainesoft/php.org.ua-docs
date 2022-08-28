@@ -1,22 +1,27 @@
-- [« MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId »](mongodb-driver-monitoring-commandfailedevent.getoperationid.md)
+Повертає виняток, пов'язаний із невдалою командою
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-- Повертає виняток, пов'язаний із невдалою командою
+-   [« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getDurationMicros](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getOperationId »](mongodb-driver-monitoring-commandfailedevent.getoperationid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html)
+    
+-   Повертає виняток, пов'язаний із невдалою командою
+    
 
-# MongoDB\Driver\Monitoring\CommandFailedEvent::getError
+# MongoDBDriverMonitoringCommandFailedEvent::getError
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
-MongoDB\Driver\Monitoring\CommandFailedEvent::getError — Повертає
-виняток, пов'язаний із невдалою командою
+MongoDBDriverMonitoringCommandFailedEvent::getError — Повертає виняток, пов'язаний із невдалою командою
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\CommandFailedEvent::getError**():
-[Exception](class.exception.md)
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\CommandFailedEvent::getError(): Exception
+```
 
 ### Список параметрів
 
@@ -24,15 +29,12 @@ final public
 
 ### Значення, що повертаються
 
-Повертає виняток ([Exception](class.exception.md)), пов'язане з
-невдалою командою.
+Повертає виняток ([Exception](class.exception.html)), пов'язане з невдалою командою.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Мониторинг производительности приложения (Application Performance Monitoring или APM)](mongodb.tutorial.apm.html)

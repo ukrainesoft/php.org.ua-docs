@@ -1,255 +1,218 @@
-- [« Підтримка прозорого для програм відновлення після відмови
-(Transparent Application Failover або TAF) для OCI8](oci8.taf.md)
-- [Підтримувані типи даних »](oci8.datatypes.md)
+OCI8 та динамічне трасування DTrace
 
-- [PHP Manual](index.md)
-- [OCI8](book.oci8.md)
-- OCI8 та динамічне трасування DTrace
+-   [« Поддержка прозрачного для приложений восстановления после отказа (Transparent Application Failover или TAF) для OCI8](oci8.taf.html)
+    
+-   [Поддерживаемые типы данных »](oci8.datatypes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8](book.oci8.html)
+    
+-   OCI8 та динамічне трасування DTrace
+    
 
 # OCI8 та динамічне трасування DTrace
 
-OCI8 2.0 містить статичні зонди DTrace, які можна використовувати в
-операційні системи, що підтримують DTrace. Більш детально
-взаємовідносини PHP та DTrace описані в розділі [Динамічна трасування DTrace](features.dtrace.md).
+OCI8 2.0 містить статичні зонди DTrace, які можна використовувати в операційних системах, які підтримують DTrace. Докладніше взаємини PHP та DTrace описані в розділі [Динамическая трассировка DTrace](features.dtrace.html)
 
 ## Установка OCI8 з підтримкою DTrace
 
-Для включення підтримки DTrace в PHP OCI8, зберіть OCI8 як розділяється
-модуль після встановлення змінної оточення `PHP_DTRACE`.
+Для включення підтримки DTrace в PHP OCI8, зберіть OCI8 як модуль, що розділяється після установки змінної оточення `PHP_DTRACE`
 
+```
 $ export PHP_DTRACE=yes
 $ pecl install oci8
+```
 
-Відредагуйте php.ini, задавши
-[extension_dir](ini.core.md#ini.extension-dir) рівним директорії, в
-якої створився `oci8.so`, а також увімкніть модуль таким чином:
+Відредагуйте php.ini, задавши [extension\_dir](ini.core.html#ini.extension-dir) рівним директорії, в якій створився oci8.so, а також увімкніть модуль таким чином:
 
+```
 extension=oci8.so
+```
 
-Якщо ви встановили PHP OCI8 з PECL з використанням `phpize` та
-`configure` (замість `pecl`), вам все ще буде необхідно встановити
-`PHP_DTRACE=yes`. Це тому, що опція `--enable-dtrace` буде
-проігнорована обмеженим скриптом `configure` модуля PECL.
+Якщо ви встановили PHP OCI8 з PECL з використанням phpize і configure (замість pecl), вам все ще потрібно буде встановити `PHP_DTRACE=yes`. Це тому, що опція `--enable-dtrace` буде проігноровано обмеженим скриптом configure модуля PECL.
 
-Докладніше про встановлення PECL модулів читайте у розділі [Установка модулів PECL](install.pecl.md).
+Докладніше про встановлення PECL модулів читайте у розділі [Установка модулей PECL](install.pecl.html)
 
-## Статичні зонди DTrace в PHP OCI8
-
-| Ім'я зонда Опис зонда Аргументи зонда |
-| ------------------------------------- |
-| oci8-connect-entry                    | Ініціюється oci_connect(), oci_pconnect() та oci_new_connect(). Спрацьовує перед тим, як з'єднання було встановлено. | char \*username, char \*dbname, char \*charset, long session_mode, int persistent, int exclusive 
-| oci8-connect-return                   | Спрацьовує після встановлення з'єднання. | void \*connection
-| oci8-check-connection                 | Спрацьовує, якщо помилка Oracle може призвести до псування з'єднання. | void \*connection, char \*client_id, int is_open, long errcode, unsigned long server_status
-| oci8-sqltext                          | Спрацьовує під час запуску oci_parse(). | void \*connection, char \*client_id, void \*statement, char \*sql
-| oci8-connection-close                 | Спрацьовує, коли з'єднання остаточно знищено. | void \*connection
-| oci8-error                            | Спрацьовує, якщо виникла помилка Oracle. | int status, long errcode
-| oci8-execute-mode                     | Спрацьовує при [oci_execute()](function.oci-execute.md) для виявлення режиму запуску. | void \*connection, char \*client_id, void \*statement, unsigned int mode
+## Статичні зонди DTrace у PHP OCI8
 
 **Наступні статичні зонди доступні в PHP OCI8**
 
-Ці зонди корисні при налагодженні скриптів OCI8.
+| Имя зонда | Описание зонда | Аргументы зонда |
+| --- | --- | --- |
+| `oci8-connect-entry` | Ініціюється ociconnect(), ocipconnect() та ocinewconnect(). Спрацьовує доти, як з'єднання було встановлено. | char username, char dbname, char charset, long sessionmode, int persistent, int exclusive |
+| `oci8-connect-return` | Спрацьовує після встановлення з'єднання. | void connection |
+| `oci8-check-connection` | Спрацьовує, якщо помилка Oracle може призвести до псування з'єднання. | void connection, char clientid, int isopen, long errcode, unsigned long serverstatus |
+| `oci8-sqltext` | Спрацьовує при запуску ociparse(). | void connection, char clientid, void statement, char sql |
+| `oci8-connection-close` | Спрацьовує, коли з'єднання остаточно знищено. | void connection |
+| `oci8-error` | Спрацьовує, якщо виникла помилка Oracle. | int status, long errcode |
+| `oci8-execute-mode` | Спрацьовує за [oci\_execute()](function.oci-execute.html) виявлення режиму запуску. | void connection, char clientid, void statement, unsigned int mode |
 
-Параметри `connection` та `statement` є вказівниками на внутрішні
-структури, що використовуються для відстеження з'єднань та запущених
-запитів.
+Ці зонди корисні для налагодження скриптів OCI8.
 
-Параметр `client_id` встановлюється функцією
-[oci_set_client_identifier()](function.oci-set-client-identifier.md).
+Параметри connection та statement є вказівниками на внутрішні структури, які використовуються для відстеження з'єднань та запущених запитів.
 
-Ядро PHP містить статичні зонди. Дивіться розділ [Статичні
-зонди DTrace у ядрі PHP](features.dtrace.dtrace.md#features.dtrace.static-probes).
+Параметр clientid встановлюється функцією [oci\_set\_client\_identifier()](function.oci-set-client-identifier.html)
 
-| Ім'я зонда                  |
-|-----------------------------|
-| oci8-connect-expiry         |
-| oci8-connect-lookup         |
-| oci8-connect-p-dtor-close   |
-| oci8-connect-p-dtor-release |
-| oci8-connect-type           |
-| oci8-sesspool-create        |
-| oci8-sesspool-stats         |
-| oci8-sesspool-type          |
+Ядро PHP містить статичні зонди. Дивіться розділ [Статические зонды DTrace в ядре PHP](features.dtrace.dtrace.html#features.dtrace.static-probes)
 
 **Внутрішні налагоджувальні зонди DTrace в OCI8**
 
-Ці зонди є корисними для розробників модуля OCI8. Для більш детальної
-вивчайте вихідні коди OCI8.
+| Имя зонда |
+| --- |
+| `oci8-connect-expiry` |
+| `oci8-connect-lookup` |
+| `oci8-connect-p-dtor-close` |
+| `oci8-connect-p-dtor-release` |
+| `oci8-connect-type` |
+| `oci8-sesspool-create` |
+| `oci8-sesspool-stats` |
+| `oci8-sesspool-type` |
+
+Ці зонди є корисними для розробників модуля OCI8. Для детальнішої інформації вивчайте вихідні коди OCI8.
 
 ## Отримання списку статичних зондів DTrace у PHP OCI8
 
-Щоб отримати список доступних зондів, запустіть процес PHP і потім
-запустіть:
+Щоб отримати список доступних зондів, запустіть процес PHP і потім запустіть:
 
+```
 # dtrace -l
+```
 
 Висновок буде приблизно наступним:
 
-ID PROVIDER MODULE FUNCTION NAME
-[ . . . ]
-17 phpoci22116 oci8.so php_oci_dtrace_check_connection oci8-check-connection
-18 phpoci22116 oci8.so php_oci_do_connect oci8-connect-entry
-19 phpoci22116 oci8.so php_oci_persistent_helper oci8-connect-expiry
-20 phpoci22116 oci8.so php_oci_do_connect_ex oci8-connect-lookup
-21 phpoci22116 oci8.so php_oci_pconnection_list_np_dtor oci8-connect-p-dtor-close
-22 phpoci22116 oci8.so php_oci_pconnection_list_np_dtor oci8-connect-p-dtor-release
-23 phpoci22116 oci8.so php_oci_do_connect oci8-connect-return
-24 phpoci22116 oci8.so php_oci_do_connect_ex oci8-connect-type
-25 phpoci22116 oci8.so php_oci_connection_close oci8-connection-close
-26 phpoci22116 oci8.so php_oci_error oci8-error
-27 phpoci22116 oci8.so php_oci_statement_execute oci8-execute-mode
-28 phpoci22116 oci8.so php_oci_create_spool oci8-sesspool-create
-29 phpoci22116 oci8.so php_oci_create_session oci8-sesspool-stats
-30 phpoci22116 oci8.so php_oci_create_session oci8-sesspool-type
-31 phpoci22116 oci8.so php_oci_statement_create oci8-sqltext
+```
+ID   PROVIDER            MODULE                          FUNCTION NAME
+   [ . . . ]
+   17 phpoci22116           oci8.so   php_oci_dtrace_check_connection oci8-check-connection
+   18 phpoci22116           oci8.so                php_oci_do_connect oci8-connect-entry
+   19 phpoci22116           oci8.so         php_oci_persistent_helper oci8-connect-expiry
+   20 phpoci22116           oci8.so             php_oci_do_connect_ex oci8-connect-lookup
+   21 phpoci22116           oci8.so  php_oci_pconnection_list_np_dtor oci8-connect-p-dtor-close
+   22 phpoci22116           oci8.so  php_oci_pconnection_list_np_dtor oci8-connect-p-dtor-release
+   23 phpoci22116           oci8.so                php_oci_do_connect oci8-connect-return
+   24 phpoci22116           oci8.so             php_oci_do_connect_ex oci8-connect-type
+   25 phpoci22116           oci8.so          php_oci_connection_close oci8-connection-close
+   26 phpoci22116           oci8.so                     php_oci_error oci8-error
+   27 phpoci22116           oci8.so         php_oci_statement_execute oci8-execute-mode
+   28 phpoci22116           oci8.so              php_oci_create_spool oci8-sesspool-create
+   29 phpoci22116           oci8.so            php_oci_create_session oci8-sesspool-stats
+   30 phpoci22116           oci8.so            php_oci_create_session oci8-sesspool-type
+   31 phpoci22116           oci8.so          php_oci_statement_create oci8-sqltext
+```
 
-Стовпець "Provider" складається з `phpoci` та ідентифікатора запущеного
-процесу PHP.
+Стовпець "Provider" складається з `phpoci` та ідентифікатора запущеного процесу PHP.
 
-Стовпець "Function" містить імена внутрішніх, написаних на C, функцій
-PHP, які містять відповідні провайдери (Provider).
+Стовпець "Function" містить імена внутрішніх, написаних на C, функцій PHP, які містять відповідні провайдери (Provider).
 
 Якщо процес PHP не запущено, то ніяких зондів PHP не буде показано.
 
-## Приклад використання DTrace з PHP OCI8
+## Приклад використання DTrace із PHP OCI8
 
 У цьому прикладі показано основи скриптової мови DTrace D.
 
-**Приклад #1 `user_oci8_probes.d` для трасування всіх статичних зондів
-PHP OCI8 за допомогою DTrace на рівні користувача**
+**Приклад #1oci8probes.d для трасування всіх статичних зондів PHP OCI8 за допомогою DTrace на рівні користувача**
 
+```
 #!/usr/sbin/dtrace -Zs
 
 #pragma D option quiet
 
 php*:::oci8-connect-entry
 {
-printf("%lld: PHP connect-entry
-", walltimestamp);
-printf(" credentials=\"%s@%s\"
-", arg0 ? copyinstr(arg0) : "", arg1 ? copyinstr(arg1) : "");
-printf(" charset=\"%s\"
-", arg2 ? copyinstr(arg2) : "");
-printf(" session_mode=%ld
-", (long) arg3);
-printf(" persistent=%d
-", (int) arg4);
-printf(" exclusive=%d
-", (int) arg5);
+    printf("%lld: PHP connect-entry\n", walltimestamp);
+    printf("  credentials=\"%s@%s\"\n", arg0 ? copyinstr(arg0) : "", arg1 ? copyinstr(arg1) : "");
+    printf("  charset=\"%s\"\n", arg2 ? copyinstr(arg2) : "");
+    printf("  session_mode=%ld\n", (long)arg3);
+    printf("  persistent=%d\n", (int)arg4);
+    printf("  exclusive=%d\n", (int)arg5);
 }
 
 php*:::oci8-connect-return
 {
-printf("%lld: PHP oci8-connect-return
-", walltimestamp);
-printf(" connection=0x%p
-", (void *) arg0);
+    printf("%lld: PHP oci8-connect-return\n", walltimestamp);
+    printf("  connection=0x%p\n", (void *)arg0);
 }
 
 php*:::oci8-connection-close
 {
-printf("%lld: PHP oci8-connect-close
-", walltimestamp);
-printf(" connection=0x%p
-", (void *) arg0);
+    printf("%lld: PHP oci8-connect-close\n", walltimestamp);
+    printf("  connection=0x%p\n", (void *)arg0);
 }
 
 php*:::oci8-error
 {
-printf("%lld: PHP oci8-error
-", walltimestamp);
-printf(" status=%d
-", (int) arg0);
-printf(" errcode=%ld
-", (long) arg1);
+    printf("%lld: PHP oci8-error\n", walltimestamp);
+    printf("  status=%d\n", (int)arg0);
+    printf("  errcode=%ld\n", (long)arg1);
 }
 
 php*:::oci8-check-connection
 {
-printf("%lld: PHP oci8-check-connection
-", walltimestamp);
-printf(" connection=0x%p
-", (void *) arg0);
-printf("client_id=\"%s\"
-", arg1 ? copyinstr(arg1) : "");
-printf(" is_open=%d
-", arg2);
-printf(" errcode=%ld
-", (long) arg3);
-printf(" server_status=%lu
-", (unsigned long) arg4);
+    printf("%lld: PHP oci8-check-connection\n", walltimestamp);
+    printf("  connection=0x%p\n", (void *)arg0);
+    printf("  client_id=\"%s\"\n", arg1 ? copyinstr(arg1) : "");
+    printf("  is_open=%d\n", arg2);
+    printf("  errcode=%ld\n", (long)arg3);
+    printf("  server_status=%lu\n", (unsigned long)arg4);
 }
 
 php*:::oci8-sqltext
 {
-printf("%lld: PHP oci8-sqltext
-", walltimestamp);
-printf(" connection=0x%p
-", (void *) arg0);
-printf("client_id=\"%s\"
-", arg1 ? copyinstr(arg1) : "");
-printf(" statement=0x%p
-", (void *) arg2);
-printf(" sql=\"%s\"
-", arg3 ? copyinstr(arg3) : "");
+    printf("%lld: PHP oci8-sqltext\n", walltimestamp);
+    printf("  connection=0x%p\n", (void *)arg0);
+    printf("  client_id=\"%s\"\n", arg1 ? copyinstr(arg1) : "");
+    printf("  statement=0x%p\n", (void *)arg2);
+    printf("  sql=\"%s\"\n", arg3 ? copyinstr(arg3) : "");
 }
 
 php*:::oci8-execute-mode
 {
-printf("%lld: PHP oci8-execute-mode
-", walltimestamp);
-printf(" connection=0x%p
-", (void *) arg0);
-printf("client_id=\"%s\"
-", arg1 ? copyinstr(arg1) : "");
-printf(" statement=0x%p
-", (void *) arg2);
-printf(" mode=0x%x
-", arg3);
+    printf("%lld: PHP oci8-execute-mode\n", walltimestamp);
+    printf("  connection=0x%p\n", (void *)arg0);
+    printf("  client_id=\"%s\"\n", arg1 ? copyinstr(arg1) : "");
+    printf("  statement=0x%p\n", (void *)arg2);
+    printf("  mode=0x%x\n", arg3);
 }
+```
 
-У цьому скрипті з `dtrace` використовується опція `-Z`, що дозволяє йому
-запускатись навіть якщо жодних процесів PHP не запущено. Якщо не поставити
-цю опцію, то скрипт відразу ж припинить свою роботу, оскільки
-відсутні зонди для відстеження.
+У цьому скрипті з dtrace використовується опція `-Z`, що дозволяє йому запускатись навіть якщо ніяких процесів PHP не запущено. Якщо не задати цю опцію, то скрипт відразу припинить свою роботу, тому що відсутні зонди для відстеження.
 
-На багатопроцесорних машинах порядок зондів може бути не
-послідовним. Це залежить від того, на яких ядрах працюють зонди та
-як потоки мігрують між ядрами. У такій ситуації має
-сенс орієнтуватися на тимчасові мітки зондів.
+На багатопроцесорних машинах порядок зондів може бути послідовним. Це залежить від того, на яких ядрах працюють зонди та яким чином потоки мігрують між ядрами. У такій ситуації є сенс орієнтуватися на тимчасові мітки зондів.
 
-Скрипт відстежує всі повідомлення статичних зондів PHP OCI8 рівня
-користувача протягом роботи скрипта PHP. Запускаємо скрипт D:
+Скрипт відстежує всі повідомлення статичних зондів PHP OCI8 рівня користувача протягом роботи PHP. Запускаємо скрипт D:
 
+```
 # ./user_oci8_probes.d
+```
 
-Запускаємо скрипт PHP або свою програму. D-скрипт виводитиме все
-аргументи зондів за її спрацьовуванні. Наприклад, простий скрипт PHP,
-виконуючий запит до бази даних може створювати такі повідомлення:
+Запускаємо скрипт PHP або свою програму. D-скрипт виводитиме всі аргументи зондів при їх спрацьовуванні. Наприклад, простий скрипт PHP, що виконує запит до бази даних може створювати такі повідомлення:
 
+```
 1381794982092854582: PHP connect-entry
-credentials="hr@localhost/pdborcl"
-charset=""
-session_mode=0
-persistent=0
-exclusive=0
+  credentials="hr@localhost/pdborcl"
+  charset=""
+  session_mode=0
+  persistent=0
+  exclusive=0
 1381794982183158766: PHP oci8-connect-return
-connection=0x7f4a7907bfb8
+  connection=0x7f4a7907bfb8
 1381794982183594576: PHP oci8-sqltext
-connection=0x7f4a7907bfb8
-client_id="Chris"
-statement=0x7f4a7907c2a0
-sql="select * from employees"
+  connection=0x7f4a7907bfb8
+  client_id="Chris"
+  statement=0x7f4a7907c2a0
+  sql="select * from employees"
 1381794982183783706: PHP oci8-execute-mode
-connection=0x7f4a7907bfb8
-client_id="Chris"
-statement=0x7f4a7907c2a0
-mode=0x20
+  connection=0x7f4a7907bfb8
+  client_id="Chris"
+  statement=0x7f4a7907c2a0
+  mode=0x20
 1381794982444344390: PHP oci8-connect-close
-connection=0x7f4a7907bfb8
+  connection=0x7f4a7907bfb8
+```
 
-Після завершення діагностики D-скрипт можна перервати за допомогою натискання
-`^C`.
+Після завершення діагностики D-скрипт можна перервати за допомогою натискання `^C`
 
 ## Дивіться також
 
-- [Динамічна трасування DTrace](features.dtrace.md)
+-   [Динамическая трассировка DTrace](features.dtrace.html)

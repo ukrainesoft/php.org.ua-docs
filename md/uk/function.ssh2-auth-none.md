@@ -1,42 +1,56 @@
-- [« ssh2_auth_hostbased_file](function.ssh2-auth-hostbased-file.md)
-- [ssh2_auth_password »](function.ssh2-auth-password.md)
+Аутентифікація як "none"
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Аутентифікація як "none"
+-   [« ssh2\_auth\_hostbased\_file](function.ssh2-auth-hostbased-file.html)
+    
+-   [ssh2\_auth\_password »](function.ssh2-auth-password.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Аутентифікація як "none"
+    
 
-# ssh2_auth_none
+# ssh2authnone
 
-(PECL ssh2 \>= 0.9.0)
+(PECL ssh2> = 0.9.0)
 
-ssh2_auth_none - Аутентифікація як "none"
+ssh2authnone - Аутентифікація як "none"
 
 ### Опис
 
-**ssh2_auth_none**(resource `$session`, string `$username`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+ssh2_auth_none(resource $session, string $username): mixed
+```
 
-Спроба пройти автентифікацію як "none" зазвичай терпітиме невдачу (і
-повинна). Разом з помилкою ця функція поверне список доступних методів
-автентифікації.
+Спроба пройти аутентифікацію як "none" зазвичай буде зазнавати невдачі (і має). Разом з помилкою ця функція поверне список доступних методів автентифікації.
 
 ### Список параметрів
 
 `session`
-Ідентифікатор з'єднання SSH, отриманий з
-[ssh2_connect()](function.ssh2-connect.md).
+
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.html)
 
 `username`
+
 Ім'я користувача на віддаленому сервері.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо сервер приймає аутентифікацію "none", або
-масив доступних методів аутентифікації.
+Повертає **`true`**якщо сервер приймає аутентифікацію "none", або масив доступних методів аутентифікації.
 
 ### Приклади
 
-**Приклад #1 Вилучення списку доступних методів аутентифікації**
+**Приклад #1 Вилучення списку доступних методів автентифікації**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);$auth_methods = ssh2_auth_none($connection, 'user');if (in_array('password', $auth_methods))   | аутентифікацію на основі паролю
-";}?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+
+$auth_methods = ssh2_auth_none($connection, 'user');
+
+if (in_array('password', $auth_methods)) {
+  echo "Сервер поддерживает аутентификацию на основе пароля\n";
+}
+?>
+```

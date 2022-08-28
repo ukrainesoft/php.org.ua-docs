@@ -1,23 +1,29 @@
-- [« ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)
-- [ReflectionFunctionAbstract::getNumberOfRequiredParameters »](reflectionfunctionabstract.getnumberofrequiredparameters.md)
+Отримує кількість параметрів
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримує кількість параметрів
+-   [« ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.html)
+    
+-   [ReflectionFunctionAbstract::getNumberOfRequiredParameters »](reflectionfunctionabstract.getnumberofrequiredparameters.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Отримує кількість параметрів
+    
 
 # ReflectionFunctionAbstract::getNumberOfParameters
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getNumberOfParameters — Отримує кількість
-параметрів
+ReflectionFunctionAbstract::getNumberOfParameters — Отримує кількість параметрів
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getNumberOfParameters**(): int
+```methodsynopsis
+public ReflectionFunctionAbstract::getNumberOfParameters(): int
+```
 
-Отримання кількості параметрів у визначенні функції як обов'язкових,
-так і опціональних.
+Отримання кількості параметрів у визначенні функції як обов'язкових, і опціональних.
 
 ### Список параметрів
 
@@ -29,7 +35,5 @@ public **ReflectionFunctionAbstract::getNumberOfParameters**(): int
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.md) -
-Отримує кількість обов'язкових параметрів
-- [func_num_args()](function.func-num-args.md) - Повертає
-кількість аргументів, переданих функції
+-   [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.html) - Отримує кількість обов'язкових параметрів
+-   [func\_num\_args()](function.func-num-args.html) - Повертає кількість аргументів, переданих функції

@@ -1,27 +1,34 @@
-- [« EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md)
-- [EventBufferEvent::sslGetProtocol »](eventbufferevent.sslgetprotocol.md)
+Повертає версію шифру, який використовується поточним SSL-з'єднанням
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Повертає версію шифру, який використовується поточним SSL-з'єднанням
+-   [« EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.html)
+    
+-   [EventBufferEvent::sslGetProtocol »](eventbufferevent.sslgetprotocol.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Повертає версію шифру, який використовується поточним SSL-з'єднанням
+    
 
 # EventBufferEvent::sslGetCipherVersion
 
-(PECL event \>= 1.10.0)
+(PECL event >= 1.10.0)
 
-EventBufferEvent::sslGetCipherVersion — Повертає версію шифру,
-використовуваного поточним SSL-з'єднанням
+EventBufferEvent::sslGetCipherVersion — Повертає версію шифру, що використовується поточним SSL-з'єднанням
 
 ### Опис
 
-public **EventBufferEvent::sslGetCipherVersion**(): string
+```methodsynopsis
+public
+   EventBufferEvent::sslGetCipherVersion(): string
+```
 
-Отримує версію шифру, який використовує поточне з'єднання SSL.
+Отримує версію шифру, який використовується поточним з'єднанням SSL.
 
-> **Примітка**:
->
-> Функція доступна, тільки якщо `Event` скомпільовано з підтримкою
-> OpenSSL.
+> **Зауваження**
+> 
+> Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
 ### Список параметрів
 
@@ -29,5 +36,4 @@ public **EventBufferEvent::sslGetCipherVersion**(): string
 
 ### Значення, що повертаються
 
-Повертає поточну версію шифрованого з'єднання SSL або **`false`**
-у разі виникнення помилки.
+Повертає поточну версію шифрованого з'єднання SSL або **`false`** у разі виникнення помилки.

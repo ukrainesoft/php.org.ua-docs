@@ -1,11 +1,17 @@
-- [« Десеріалізація з BSON](mongodb.persistence.deserialization.md)
-- [Атака за допомогою ін'єкцій у запиті »](mongodb.security.request_injection.md)
+Безпека
 
-- [PHP Manual](index.md)
-- [MongoDB](set.mongodb.md)
-- Безпека
+-   [« Десериализация из BSON](mongodb.persistence.deserialization.html)
+    
+-   [Атака с помощью инъекций в запросе »](mongodb.security.request_injection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB](set.mongodb.html)
+    
+-   Безпека
+    
 
 # Безпека
 
-- [Атака за допомогою ін'єкцій у запиту](mongodb.security.request_injection.md)
-- [Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
+-   [Атака с помощью инъекций в запросе](mongodb.security.request_injection.html)
+-   [Атака с помощью инъекций в скриптах](mongodb.security.script_injection.html)

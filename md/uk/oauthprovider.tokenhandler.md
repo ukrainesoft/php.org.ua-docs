@@ -1,35 +1,39 @@
-- [« OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md)
-- [OAuthException »](class.oauthexception.md)
+Встановити обробник tokenHandler
 
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Встановити обробник tokenHandler
+-   [« OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.html)
+    
+-   [OAuthException »](class.oauthexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuthProvider](class.oauthprovider.html)
+    
+-   Встановити обробник tokenHandler
+    
 
 # OAuthProvider::tokenHandler
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuthProvider::tokenHandler — Встановити обробник tokenHandler
 
 ### Опис
 
-public
-**OAuthProvider::tokenHandler**([callable](language.types.callable.md)
-`$callback_function`): void
+```methodsynopsis
+public OAuthProvider::tokenHandler(callable $callback_function): void
+```
 
-Встановлює callback-функцію обробника токена, яка буде
-використовуватися
-[OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.md).
+Встановлює callback-функцію обробника токена, яка використовуватиметься [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `callback_function`
-Функція типу [callable](language.types.callable.md).
+
+Функція типу [callable](language.types.callable.html)
 
 ### Значення, що повертаються
 
@@ -39,9 +43,22 @@ public
 
 **Приклад #1 Приклад використання **OAuthProvider::tokenHandler()****
 
-` <?phpfunction tokenHandler($provider) {    if ($provider->token === 'rejected') {       return OAUTH_TOKEN_REJECTED; } elseif ($provider->token === 'revoked') {        return OAUTH_TOKEN_REVOKED; }   $provider->token_secret = "the_tokens_secret"; return OAUTH_OK;}?> `
+```php
+<?php
+function tokenHandler($provider) {
+
+    if ($provider->token === 'rejected') {
+        return OAUTH_TOKEN_REJECTED;
+    } elseif ($provider->token === 'revoked') {
+        return OAUTH_TOKEN_REVOKED;
+    }
+
+    $provider->token_secret = "the_tokens_secret";
+    return OAUTH_OK;
+}
+?>
+```
 
 ### Дивіться також
 
-- [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.md) -
-Викликати callback-функцію tokenNonceHandler
+-   [OAuthProvider::callTokenHandler()](oauthprovider.calltokenhandler.html) - Викликати callback-функцію tokenNonceHandler

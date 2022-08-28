@@ -1,52 +1,68 @@
-- [«uopz_delete](function.uopz-delete.md)
-- [uopz_flags »](function.uopz-flags.md)
+Розширити клас під час виконання
 
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Розширити клас під час виконання
+-   [« uopz\_delete](function.uopz-delete.html)
+    
+-   [uopz\_flags »](function.uopz-flags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Uopz](ref.uopz.html)
+    
+-   Розширити клас під час виконання
+    
 
-#uopz_extend
+# uopzextend
 
-(PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7 \<
-7.1.0)
+(PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7 < 7.1.0)
 
-uopz_extend — Розширити клас під час виконання
+uopzextend — Розширити клас під час виконання
 
 ### Опис
 
-**uopz_extend**(string `$class`, string `$parent`): bool
+```methodsynopsis
+uopz_extend(string $class, string $parent): bool
+```
 
 Розширює поточний клас `class` батьківським `parent`
 
 ### Список параметрів
 
 `class`
+
 Назва класу для розширення
 
 `parent`
-Назва класу для успадкування
+
+Назва класу для наслідування
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, **uopz_extends()** викидає
-[RuntimeException](class.runtimeexception.md), якщо
-[OPcache](book.opcache.md) включений і запис класу або `class`, або
-`parent` (якщо це ознака) незмінні.
+Починаючи з PHP 7.4.0, **uopzextends()** викидає [RuntimeException](class.runtimeexception.html), якщо [OPcache](book.opcache.html) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_extend()****
+**Приклад #1 Приклад використання **uopzextend()****
 
-` <?phpclass A {}class B {}uopz_extend(A::class, B::class);var_dump(class_parents(A::class));?> `
+```php
+<?php
+class A {}
+class B {}
+
+uopz_extend(A::class, B::class);
+
+var_dump(class_parents(A::class));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(1) {
-["B"]=>
-string(1) "B"
+  ["B"]=>
+  string(1) "B"
 }
+```

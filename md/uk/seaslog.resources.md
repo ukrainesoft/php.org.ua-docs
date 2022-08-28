@@ -1,8 +1,14 @@
-- [« Налаштування під час виконання](seaslog.configuration.md)
-- [Предвизначені константи »](seaslog.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](seaslog.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](seaslog.configuration.html)
+    
+-   [Предопределённые константы »](seaslog.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](seaslog.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів

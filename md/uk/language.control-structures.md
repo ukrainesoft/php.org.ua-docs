@@ -1,31 +1,37 @@
-- [« Оператор перевірки типу](language.operators.type.md)
-- [Вступ »](control-structures.intro.md)
+Керуючі конструкції
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- керуючі конструкції
+-   [« Оператор проверки типа](language.operators.type.html)
+    
+-   [Введение »](control-structures.intro.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Керуючі конструкції
+    
 
 # Керуючі конструкції
 
 ## Зміст
 
-- [Вступ](control-structures.intro.md)
-- [if](control-structures.if.md)
-- [else](control-structures.else.md)
-- [elseif/else if](control-structures.elseif.md)
-- [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.md)
-- [while](control-structures.while.md)
-- [do-while](control-structures.do.while.md)
-- [for](control-structures.for.md)
-- [foreach](control-structures.foreach.md)
-- [break](control-structures.break.md)
-- [continue](control-structures.continue.md)
-- [switch](control-structures.switch.md)
-- [match](control-structures.match.md)
-- [declare](control-structures.declare.md)
-- [return](function.return.md)
-- [require](function.require.md)
-- [include](function.include.md)
-- [require_once](function.require-once.md)
-- [include_once](function.include-once.md)
-- [goto](control-structures.goto.md)
+-   [Введение](control-structures.intro.html)
+-   [if](control-structures.if.html)
+-   [else](control-structures.else.html)
+-   [elseif/else if](control-structures.elseif.html)
+-   [Альтернативный синтаксис управляющих структур](control-structures.alternative-syntax.html)
+-   [while](control-structures.while.html)
+-   [do-while](control-structures.do.while.html)
+-   [for](control-structures.for.html)
+-   [foreach](control-structures.foreach.html)
+-   [break](control-structures.break.html)
+-   [continue](control-structures.continue.html)
+-   [switch](control-structures.switch.html)
+-   [match](control-structures.match.html)
+-   [declare](control-structures.declare.html)
+-   [return](function.return.html)
+-   [require](function.require.html)
+-   [include](function.include.html)
+-   [require\_once](function.require-once.html)
+-   [include\_once](function.include-once.html)
+-   [goto](control-structures.goto.html)

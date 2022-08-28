@@ -1,13 +1,16 @@
-- [« Налаштування під час виконання](mailparse.configuration.md)
-- [Предвизначені константи »](mailparse.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mailparse.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](mailparse.configuration.html)
+    
+-   [Предопределённые константы »](mailparse.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](mailparse.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-Mailparse визначає тип ресурсу `mailparse_mail_structure`, який
-повертається функціями
-[mailparse_msg_create()](function.mailparse-msg-create.md) та
-[mailparse_msg_parse_file()](function.mailparse-msg-parse-file.md).
+Mailparse визначає тип ресурсу `mailparse_mail_structure`, який повертається функціями [mailparse\_msg\_create()](function.mailparse-msg-create.html) і [mailparse\_msg\_parse\_file()](function.mailparse-msg-parse-file.html)

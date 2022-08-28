@@ -1,66 +1,85 @@
-- [« xmlrpc_decode](function.xmlrpc-decode.md)
-- [xmlrpc_encode »](function.xmlrpc-encode.md)
+Генерує XML для методу запиту
 
-- [PHP Manual](index.md)
-- [Функції XML-RPC](ref.xmlrpc.md)
-- Генерує XML для методу запиту
+-   [« xmlrpc\_decode](function.xmlrpc-decode.html)
+    
+-   [xmlrpc\_encode »](function.xmlrpc-encode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции XML-RPC](ref.xmlrpc.html)
+    
+-   Генерує XML для методу запиту
+    
 
-#xmlrpc_encode_request
+# xmlrpcencoderequest
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
+(PHP 4> = 4.1.0, PHP 5, PHP 7)
 
-xmlrpc_encode_request — генерує XML для методу запиту
+xmlrpcencoderequest — генерує XML для методу запиту
 
 ### Опис
 
-**xmlrpc_encode_request**(string `$method`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$params`, array `$output_options` = ?): string
+```methodsynopsis
+xmlrpc_encode_request(string $method, mixed $params, array $output_options = ?): string
+```
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 ### Список параметрів
 
 `method`
+
 Ім'я методу виклику.
 
 `params`
+
 Параметри методу, сумісні із сигнатурою виклику.
 
 `output_options`
-Масив, що уточнює параметри виведення, може містити (значення по
-замовчування виділено):
 
-- output_type: php, *xml*
+Масив, що уточнює параметри виведення, може містити (значення за замовчуванням виділено):
 
-- verbosity: no_white_space, newlines_only, *pretty*
-
-- escaping: cdata, *non-ascii, non-print, markup* (може бути рядок з
-одним значенням або масив з декількома значеннями)
-
-- version: simple, *xmlrpc*, soap 1.1, auto
-
-- encoding: *iso-8859-1*, інший набір символів, що підтримується iconv
+-   outputtype: php, *xml*
+    
+-   verbosity: nowhitespace, newlinesonly, *pretty*
+    
+-   escaping: cdata, *non-ascii, non-print, markup* (може бути рядок з одним значенням або масив з кількома значеннями)
+    
+-   version: simple, *xmlrpc*, soap 1.1, auto
+    
+-   encoding: *iso-8859-1*, інший набір символів, що підтримується iconv
+    
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить запит XML.
+Повертає рядок, що містить запит на запит XML.
 
 ### Приклади
 
 **Приклад #1 Приклад клієнтської функції XMLRPC**
 
-` <?php$request = xmlrpc_encode_request("method", array(1, 2, 3));$context = stream_context_create(array('http' => array(    'method' =>         > "Content-Type: text/xml",    'content' => $request)));$file = file_get_contents("http://www.example.com/xmlrpc", false, $context);$response == xmlrpc_decode($file);if($response && xmlrpc_is_fault($response)) {   trigger_error("xmlrpc: $response[faultString] ($response[faultCode])");}  | `
+```php
+<?php
+$request = xmlrpc_encode_request("method", array(1, 2, 3));
+$context = stream_context_create(array('http' => array(
+    'method' => "POST",
+    'header' => "Content-Type: text/xml",
+    'content' => $request
+)));
+$file = file_get_contents("http://www.example.com/xmlrpc", false, $context);
+$response = xmlrpc_decode($file);
+if ($response && xmlrpc_is_fault($response)) {
+    trigger_error("xmlrpc: $response[faultString] ($response[faultCode])");
+} else {
+    print_r($response);
+}
+?>
+```
 
 ### Дивіться також
 
-- [stream_context_create()](function.stream-context-create.md) -
-Створює контекст потоку
-- [file_get_contents()](function.file-get-contents.md) - Читає
-вміст файлу в рядок
-- [xmlrpc_decode()](function.xmlrpc-decode.md) - Декодує XML у
-нативні типи PHP
+-   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
+-   [file\_get\_contents()](function.file-get-contents.html) - Читає вміст файлу в рядок
+-   [xmlrpc\_decode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP

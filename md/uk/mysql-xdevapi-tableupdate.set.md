@@ -1,9 +1,15 @@
-- [«TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.md)
-- [TableUpdate::where »](mysql-xdevapi-tableupdate.where.md)
+Додає поле для оновлення
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
-- Додає поле для оновлення
+-   [« TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.html)
+    
+-   [TableUpdate::where »](mysql-xdevapi-tableupdate.where.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableUpdate](class.mysql-xdevapi-tableupdate.html)
+    
+-   Додає поле для оновлення
+    
 
 # TableUpdate::set
 
@@ -13,18 +19,20 @@ TableUpdate::set — Додає поле для оновлення
 
 ### Опис
 
-public **mysql_xdevapi\TableUpdate::set**(string `$table_field`, string
-`$expression_or_literal`):
-[mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
+```methodsynopsis
+public mysql_xdevapi\TableUpdate::set(string $table_field, string $expression_or_literal): mysql_xdevapi\TableUpdate
+```
 
 Оновлює значення стовпця для записів у таблиці.
 
 ### Список параметрів
 
 `table_field`
+
 Ім'я стовпця, що підлягає оновленню.
 
 `expression_or_literal`
+
 Значення, яке буде встановлене у вказаному стовпці.
 
 ### Значення, що повертаються
@@ -33,6 +41,21 @@ public **mysql_xdevapi\TableUpdate::set**(string `$table_field`, string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\TableUpdate::set()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::set()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$res = $table->update()  ->set('level', 3) ->where('age > 15 and age < 22') ->limit(4) --orderby(['age asc ','name desc'])  ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$res = $table->update()
+  ->set('level', 3)
+  ->where('age > 15 and age < 22')
+  ->limit(4)
+  ->orderby(['age asc','name desc'])
+  ->execute();
+
+?>
+```

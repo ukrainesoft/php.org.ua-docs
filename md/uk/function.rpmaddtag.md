@@ -1,35 +1,42 @@
-- [« Функції RpmInfo](ref.rpminfo.md)
-- [rpmdbinfo »](function.rpmdbinfo.md)
+Додає тег, отриманий у запиті
 
-- [PHP Manual](index.md)
-- [Функції RpmInfo](ref.rpminfo.md)
-- Додає тег, отриманий у запиті
+-   [« Функции RpmInfo](ref.rpminfo.html)
+    
+-   [rpmdbinfo »](function.rpmdbinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции RpmInfo](ref.rpminfo.html)
+    
+-   Додає тег, отриманий у запиті
+    
 
-#rpmaddtag
+# rpmaddtag
 
-(PECL rpminfo \>= 0.5.0)
+(PECL rpminfo >= 0.5.0)
 
-rpmaddtag — Додає тег, отриманий у запиті
+rpmaddtag ​​— Додає тег, отриманий у запиті
 
 ### Опис
 
-**rpmaddtag**(int `$tag`): bool
+```methodsynopsis
+rpmaddtag(int $tag): bool
+```
 
 Додає додатковий витягнутий тег у наступних запитах.
 
 ### Список параметрів
 
 `tag`
-Одна з констант RPMTAG\_\*, перегляньте сторінку [константи rpminfo](rpminfo.constants.md).
+
+Одна з констант RPMTAG, перегляньте сторінку [константы rpminfo](rpminfo.constants.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [rpminfo()](function.rpminfo.md) - Вийняти інформацію з RPM-файлу
-- [rpmdbinfo()](function.rpmdbinfo.md) - Отримує інформацію від
-встановленого RPM
-- [rpmdbsearch()](function.rpmdbsearch.md) - Пошук RPM-пакетів
+-   [rpminfo()](function.rpminfo.html) - Витягти інформацію з RPM-файлу
+-   [rpmdbinfo()](function.rpmdbinfo.html) - Отримує інформацію від встановленого RPM
+-   [rpmdbsearch()](function.rpmdbsearch.html) - Пошук RPM-пакетів

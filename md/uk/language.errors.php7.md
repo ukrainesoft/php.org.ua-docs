@@ -1,46 +1,36 @@
-- [« Основи](language.errors.basics.md)
-- [Винятки »](language.exceptions.md)
+Помилки у PHP 7
 
-- [PHP Manual](index.md)
-- [Помилки](language.errors.md)
-- Помилки у PHP 7
+-   [« Основы](language.errors.basics.html)
+    
+-   [Исключения »](language.exceptions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ошибки](language.errors.html)
+    
+-   Помилки у PHP 7
+    
 
-## Помилки в PHP 7
+## Помилки у PHP 7
 
-У PHP 7 механізм повідомлення про помилки було сильно змінено. Традиційне
-оповіщення про помилку в PHP 5 було замінено на новий механізм, в якому
-більшість помилок викликаються за допомогою винятків класу
-[Error](class.error.md).
+У PHP 7 механізм повідомлення про помилки було сильно змінено. Традиційне сповіщення про помилку в PHP 5 було замінено на новий механізм, в якому більшість помилок викликаються за допомогою винятків класу [Error](class.error.html)
 
-Як і звичайні винятки, винятки [Error](class.error.md)
-викликаються до появи першого відповідного блоку
-[`catch`](language.exceptions.md#language.exceptions.catch). Якщо
-відповідні блоки не передбачені, то буде викликано будь-якого обробника
-винятків, встановлений за допомогою
-[set_exception_handler()](function.set-exception-handler.md). В разі
-відсутності обробника за замовчуванням, виняток буде конвертовано в
-фатальну помилку та буде оброблено як традиційна помилка.
+Як і звичайні винятки, винятки [Error](class.error.html) викликаються до появи першого відповідного блоку [`catch`](language.exceptions.html#language.exceptions.catch). Якщо відповідних блоків не передбачено, то буде викликано будь-якого обробника винятків, встановленого за допомогою [set\_exception\_handler()](function.set-exception-handler.html). У разі відсутності оброблювача за замовчуванням, виняток буде конвертовано у фатальну помилку та буде оброблено як традиційна помилка.
 
-Оскільки клас [Error](class.error.md) не успадковується від класу
-[Exception](class.exception.md), блок `catch (Exception $e) { ... }`
-для обробки неперехоплених винятків PHP 5 не може перехопити
-виняток [Error](class.error.md). Для їх перехоплення використовуйте блок
-`catch (Error $e) { ... }` або встановіть обробник виключень з
-за допомогою [set_exception_handler()](function.set-exception-handler.md).
+Оскільки клас [Error](class.error.html) не успадковується від класу [Exception](class.exception.html), блок `catch (Exception $e) { ... }` для обробки неперехоплених винятків PHP 5 не може перехопити виключення [Error](class.error.html). Для їх перехоплення використовуйте блок `catch (Error $e) { ... }` або встановіть обробник виключень за допомогою [set\_exception\_handler()](function.set-exception-handler.html)
 
-### Ієрархія [Error](class.error.md)
+### Ієрархія [Error](class.error.html)
 
-- [Throwable](class.throwable.md)
-- [Error](class.error.md)
-- [ArithmeticError](class.arithmeticerror.md)
-- [DivisionByZeroError](class.divisionbyzeroerror.md)
-- [AssertionError](class.assertionerror.md)
-- [CompileError](class.compileerror.md)
-- [ParseError](class.parseerror.md)
-- [TypeError](class.typeerror.md)
-- [ArgumentCountError](class.argumentcounterror.md)
-- [ValueError](class.valueerror.md)
-- [UnhandledMatchError](class.unhandledmatcherror.md)
-- [FiberError](class.fibererror.md)
-- [Exception](class.exception.md)
-- ...
+-   [Throwable](class.throwable.html)
+    -   [Error](class.error.html)
+        -   [ArithmeticError](class.arithmeticerror.html)
+            -   [DivisionByZeroError](class.divisionbyzeroerror.html)
+        -   [AssertionError](class.assertionerror.html)
+        -   [CompileError](class.compileerror.html)
+            -   [ParseError](class.parseerror.html)
+        -   [TypeError](class.typeerror.html)
+            -   [ArgumentCountError](class.argumentcounterror.html)
+        -   [ValueError](class.valueerror.html)
+        -   [UnhandledMatchError](class.unhandledmatcherror.html)
+        -   [FiberError](class.fibererror.html)
+    -   [Exception](class.exception.html)

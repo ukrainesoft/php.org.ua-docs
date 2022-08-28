@@ -1,29 +1,38 @@
-- [« trader_minus_dm](function.trader-minus-dm.md)
-- [trader_mult»](function.trader-mult.md)
+Моментум
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Моментум
+-   [« trader\_minus\_dm](function.trader-minus-dm.html)
+    
+-   [trader\_mult »](function.trader-mult.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Моментум
+    
 
-# trader_mom
+# tradermom
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_mom — Моментум
+tradermom — Моментум
 
 ### Опис
 
-**trader_mom**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_mom(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

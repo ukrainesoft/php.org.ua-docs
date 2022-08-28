@@ -1,44 +1,50 @@
-- [«Зумовлені константи](sync.constants.md)
-- [SyncMutex::\_\_construct »](syncmutex.construct.md)
+Клас SyncMutex
 
-- [PHP Manual](index.md)
-- [Sync](book.sync.md)
-- Клас SyncMutex
+-   [« Предопределённые константы](sync.constants.html)
+    
+-   [SyncMutex::\_\_construct »](syncmutex.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Sync](book.sync.html)
+    
+-   Клас SyncMutex
+    
 
 # Клас SyncMutex
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 ## Вступ
 
-Кросплатформова, нативна реалізація іменованих та безіменних рахункових
-об'єктів м'ютексу.
+Кросплатформова, нативна реалізація іменованих та безіменних лічильних об'єктів мьютексу.
 
-М'ютекс – це об'єкт взаємного виключення, який обмежує доступ до
-спільний ресурс (наприклад, файл) для одного екземпляра. Рахункові мьютекси
-отримують м'ютекс один раз і внутрішньо відстежують, скільки разів м'ютекс
-було заблоковано. М'ютекс розблокується, як тільки він виходить із
-області дії або розблокується стільки разів, скільки він був
-заблоковано.
+М'ютекс - це об'єкт взаємного виключення, який обмежує доступ до спільного ресурсу (наприклад, файлу) одного екземпляра. Рахункові м'ютекси отримують м'ютекс один раз і внутрішньо відстежують, скільки разів м'ютекс був заблокований. М'ютекс розблокується, коли він виходить з області дії або розблокується стільки разів, скільки він був заблокований.
 
 ## Огляд класів
 
-class **SyncMutex** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](syncmutex.construct.md)(string `$name` = ?)
 
-public [lock](syncmutex.lock.md)(int `$wait` = -1): bool
+    
+     
+      class SyncMutex
+     
+     {
 
-public [unlock](syncmutex.unlock.md)(bool `$all` = **`false`**): bool
 
-}
+    /* Методы */
+    
+   public __construct(string $name = ?)
+public lock(int $wait = -1): bool
+public unlock(bool $all = false): bool
+
+   }
+```
 
 ## Зміст
 
-- [SyncMutex::\_\_construct](syncmutex.construct.md) — Створює новий
-об'єкт SyncMutex
-- [SyncMutex::lock](syncmutex.lock.md) — Чекає на ексклюзивну
-блокування
-- [SyncMutex::unlock](syncmutex.unlock.md) — Розблокує м'ютекс
+-   [SyncMutex::\_\_construct](syncmutex.construct.html) — Створює новий об'єкт SyncMutex
+-   [SyncMutex::lock](syncmutex.lock.html) — Чекає на ексклюзивне блокування
+-   [SyncMutex::unlock](syncmutex.unlock.html) - Розблокує м'ютекс

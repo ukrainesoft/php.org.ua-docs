@@ -1,23 +1,29 @@
-- [« Parle\RParser::advance](parle-rparser.advance.md)
-- [Parle\RParser::consume »](parle-rparser.consume.md)
+Завершує граматичні правила
 
-- [PHP Manual](index.md)
-- [Parle\RParser](class.parle-rparser.md)
-- Завершує граматичні правила
+-   [« Parle\\RParser::advance](parle-rparser.advance.html)
+    
+-   [Parle\\RParser::consume »](parle-rparser.consume.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\RParser](class.parle-rparser.html)
+    
+-   Завершує граматичні правила
+    
 
-# Parle\RParser::build
+# ParleRParser::build
 
-(PECL parle \>= 0.7.0)
+(PECL parle >= 0.7.0)
 
-Parle\RParser::build — Завершує граматичні правила
+ParleRParser::build - Завершує граматичні правила
 
 ### Опис
 
-public **Parle\RParser::build**(): void
+```methodsynopsis
+public Parle\RParser::build(): void
+```
 
-Всі раніше додані токени та правила граматики будуть доопрацьовані.
-Набір правил стає доступним лише для читання, і аналізатор готовий
-до запуску
+Всі раніше додані токени та правила граматики будуть доопрацьовані. Набір правил стає доступним лише читання, і аналізатор готовий до запуску.
 
 ### Список параметрів
 

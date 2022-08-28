@@ -1,28 +1,36 @@
-- [« GmagickDraw::arc](gmagickdraw.arc.md)
-- [GmagickDraw::ellipse »](gmagickdraw.ellipse.md)
+Малює криву Безьє
 
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Малює криву Безьє
+-   [« GmagickDraw::arc](gmagickdraw.arc.html)
+    
+-   [GmagickDraw::ellipse »](gmagickdraw.ellipse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GmagickDraw](class.gmagickdraw.html)
+    
+-   Малює криву Безьє
+    
 
 # GmagickDraw::bezier
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::bezier — Малює криву Безьє
 
 ### Опис
 
-public **GmagickDraw::bezier**(array `$coordinate_array`):
-[GmagickDraw](class.gmagickdraw.md)
+```methodsynopsis
+public GmagickDraw::bezier(array $coordinate_array): GmagickDraw
+```
 
 Малює криву Безьє через набір точок на зображенні.
 
 ### Список параметрів
 
 `coordinate_array`
+
 Масив координат.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.html)

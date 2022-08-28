@@ -1,86 +1,91 @@
-- [« mysql_real_escape_string](function.mysql-real-escape-string.md)
-- [mysql_select_db »](function.mysql-select-db.md)
+Повертає дані результату запиту
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає дані результату запиту
+-   [« mysql\_real\_escape\_string](function.mysql-real-escape-string.html)
+    
+-   [mysql\_select\_db »](function.mysql-select-db.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Повертає дані результату запиту
+    
 
-# mysql_result
+# mysqlresult
 
 (PHP 4, PHP 5)
 
-mysql_result — Повертає дані результату запиту
+mysqlresult — Повертає дані результату запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_data_seek()](mysqli-result.data-seek.md) у зв'язці з
-[mysqli_field_seek()](mysqli-result.field-seek.md) та
-[mysqli_fetch_field()](mysqli-result.fetch-field.md)
-- [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md)
+-   [mysqli\_data\_seek()](mysqli-result.data-seek.html) у зв'язку з [mysqli\_field\_seek()](mysqli-result.field-seek.html) і [mysqli\_fetch\_field()](mysqli-result.fetch-field.html)
+-   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.html)
 
 ### Опис
 
-**mysql_result**(resource `$result`, int `$row`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field` = 0): string
+```methodsynopsis
+mysql_result(resource $result, int $row, mixed $field = 0): string
+```
 
-Повертає вміст одного поля з набору MySQL.
+Повертає вміст одного поля із набору результату MySQL.
 
-Працюючи з великими результатами запитів, слід використати одну з
-функцій, що обробляють одночасно цілий ряд результату (зазначені нижче). Так
-як ці функції повертають значення декількох осередків відразу, вони НАМНОГО
-швидше **mysql_result()**. Крім того, врахуйте, що вказівка чисельного
-зміщення працює набагато швидше, ніж вказівка колонки, або колонки з
-таблиці через точку.
+Працюючи з великими результатами запитів, слід використовувати одну з функцій, що опрацьовують одразу цілий ряд результатів (наведено нижче). Так як ці функції повертають значення декількох осередків відразу, вони набагато швидше **mysqlresult()**. Крім того, врахуйте, що вказівка ​​чисельного зміщення працює набагато швидше, ніж вказівка ​​колонки або колонки з таблицею через точку.
 
 ### Список параметрів
 
 `result`
-Оброблюваний [результат запита](language.types.resource.md). Цей
-результат може бути отриманий за допомогою функції
-[mysql_query()](function.mysql-query.md).
+
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
 
 `row`
-Номер одержуваного ряду результату. Нумерація рядів починається з `0`.
+
+Номер одержуваного ряду результату. Нумерація рядів починається з `0`
 
 `field`
+
 Ім'я або зміщення одержуваного поля.
 
-Можливо як зміщенням поля, іменем поля, і ім'ям поля разом з
-таблицею (таблиця.поле). Якщо для поля було вказано псевдонім (select foo
-as bar from...'), використовуйте його замість імені поля. Якщо не
-вказано, повертається перше поле.
+Можливо як зміщенням поля, ім'ям поля, і ім'ям поля разом із таблицею (таблица.поле). Якщо для поля було вказано псевдонім ('select foo as bar from...'), використовуйте його замість імені поля. Якщо не вказано, повертається перше поле.
 
 ### Значення, що повертаються
 
-Вміст одного поля з набору результату MySQL у разі успішного
-виконання, або **`false`** у разі виникнення помилки.
+Вміст одного поля з набору результату MySQL у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_result()****
+**Приклад #1 Приклад використання **mysqlresult()****
 
-` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}if (!my ')) {    die('Помилка вибору бази даних: ' . mysql_error());}$result = mysql_query('SELECT name FROM work.employee');if (!$result)  | . mysql_error());}echo mysql_result($result, 2); // виведе ім'я третього співробітника mysql_close($link);?> `
+```php
+<?php
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
+}
+if (!mysql_select_db('database_name')) {
+    die('Ошибка выбора базы данных: ' . mysql_error());
+}
+$result = mysql_query('SELECT name FROM work.employee');
+if (!$result) {
+    die('Ошибка выполнения запроса:' . mysql_error());
+}
+echo mysql_result($result, 2); // выведет имя третьего сотрудника
+
+mysql_close($link);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Виклики функції **mysql_result()** не повинні змішуватись з іншими
-> функціями, що працюють із результатом запиту.
+> **Зауваження**
+> 
+> Виклики функції **mysqlresult()** не повинні змішуватись з іншими функціями, що працюють з результатом запиту.
 
 ### Дивіться також
 
-- [mysql_fetch_row()](function.mysql-fetch-row.md) - Обробляє
-ряд результату запиту та повертає масив з числовими індексами
-- [mysql_fetch_array()](function.mysql-fetch-array.md) -
-Обробляє ряд результатів запиту, повертаючи асоціативний масив,
-чисельний масив чи обидва
-- [mysql_fetch_assoc()](function.mysql-fetch-assoc.md) - Повертає
-ряд результату запиту як асоціативний масив
-- [mysql_fetch_object()](function.mysql-fetch-object.md) -
-Обробляє ряд результату запиту та повертає об'єкт
+-   [mysql\_fetch\_row()](function.mysql-fetch-row.html) - Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysql\_fetch\_array()](function.mysql-fetch-array.html) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_fetch\_object()](function.mysql-fetch-object.html) - обробляє ряд результату запиту та повертає об'єкт

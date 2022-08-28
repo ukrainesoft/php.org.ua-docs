@@ -1,52 +1,76 @@
-- [«curl_pause](function.curl-pause.md)
-- [curl_setopt_array »](function.curl-setopt-array.md)
+Скинути налаштування обробника сесії libcurl
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Скинути всі налаштування обробника сесії libcurl
+-   [« curl\_pause](function.curl-pause.html)
+    
+-   [curl\_setopt\_array »](function.curl-setopt-array.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Скинути налаштування обробника сесії libcurl
+    
 
-#curl_reset
+# curlreset
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-curl_reset — Скинути всі налаштування обробника сесії libcurl
+curlreset — Скинути всі налаштування обробника сесії libcurl
 
 ### Опис
 
-**curl_reset**([CurlHandle](class.curlhandle.md) `$handle`): void
+```methodsynopsis
+curl_reset(CurlHandle $handle): void
+```
 
-Ця функція переініціалізує всі налаштування заданого обробника
-сесії cURL за промовчанням.
+Ця функція переініціалізує всі параметри заданого оброблювача сесії cURL за промовчанням.
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curl_reset()****
+**Приклад #1 Приклад використання **curlreset()****
 
-`<?php//Створюємо обробник curl$ch = curl_init();// Встановлюємо опцію CURLOPT_USERAGENTcurl_setopt($ch, CURLOPT_USERAGENT, "My test user| запит HTTPcurl_setopt($ch, CURLOPT_URL, 'http://example.com/');curl_exec($ch); // встановлений раніше user-agent скинуто// Закриваємо обробникcurl_close($ch);?> `
+```php
+<?php
+// Создаём обработчик curl
+$ch = curl_init();
+
+// Устанавливаем опцию CURLOPT_USERAGENT
+curl_setopt($ch, CURLOPT_USERAGENT, "My test user-agent");
+
+// Сбрасываем все установленные опции
+curl_reset($ch);
+
+// Посылаем запрос HTTP
+curl_setopt($ch, CURLOPT_URL, 'http://example.com/');
+curl_exec($ch); // установленный ранее user-agent сброшен
+
+// Закрываем обработчик
+curl_close($ch);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **curl_reset()** також скидає URL, заданий як параметр
-> [curl_init()](function.curl-init.md).
+> **Зауваження**
+> 
+> **curlreset()** також скидає URL, заданий як параметр [curl\_init()](function.curl-init.html)
 
 ### Дивіться також
 
-- [curl_setopt()](function.curl-setopt.md) - Встановлює параметр
-для сеансу CURL
+-   [curl\_setopt()](function.curl-setopt.html) - Встановлює параметр для сеансу CURL

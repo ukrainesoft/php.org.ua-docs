@@ -1,101 +1,80 @@
-- [«NoRewindIterator::valid](norewinditerator.valid.md)
-- [ParentIterator::accept »](parentiterator.accept.md)
+Клас ParentIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас ParentIterator
+-   [« NoRewindIterator::valid](norewinditerator.valid.html)
+    
+-   [ParentIterator::accept »](parentiterator.accept.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас ParentIterator
+    
 
 # Клас ParentIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Це розширений клас від [FilterIterator](class.filteriterator.md),
-що дозволяє здійснити рекурсивну ітерацію, використовуючи клас
-[RecursiveIteratorIterator](class.recursiveiteratoriterator.md),
-який показує ті елементи, які мають нащадків.
+Це розширений клас від [FilterIterator](class.filteriterator.html), що дозволяє здійснити рекурсивну ітерацію, використовуючи клас [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)що показує тільки ті елементи, які мають нащадків.
 
 ## Огляд класів
 
-class **ParentIterator** extends
-[RecursiveFilterIterator](class.recursivefilteriterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](parentiterator.construct.md)([RecursiveIterator](class.recursiveiterator.md)
-`$iterator`)
+    
+     
+      class ParentIterator
+     
 
-public [accept](parentiterator.accept.md)(): bool
+     
+      extends
+       RecursiveFilterIterator
+     
+     {
 
-public [getChildren](parentiterator.getchildren.md)():
-[ParentIterator](class.parentiterator.md)
+    /* Методы */
+    
+   public __construct(RecursiveIterator $iterator)
 
-public [hasChildren](parentiterator.haschildren.md)(): bool
+    public accept(): bool
+public getChildren(): ParentIterator
+public hasChildren(): bool
+public next(): void
+public rewind(): void
 
-public [next](parentiterator.next.md)(): void
 
-public [rewind](parentiterator.rewind.md)(): void
+    /* Наследуемые методы */
+    public RecursiveFilterIterator::getChildren(): ?RecursiveFilterIterator
+public RecursiveFilterIterator::hasChildren(): bool
 
-/\* Наслідувані методи \*/
+    public FilterIterator::accept(): bool
+public FilterIterator::current(): mixed
+public FilterIterator::getInnerIterator(): Iterator
+public FilterIterator::key(): mixed
+public FilterIterator::next(): void
+public FilterIterator::rewind(): void
+public FilterIterator::valid(): bool
 
-public
-[RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md)():
-?[RecursiveFilterIterator](class.recursivefilteriterator.md)
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public
-[RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md)():
-bool
-
-public [FilterIterator::accept](filteriterator.accept.md)(): bool
-
-public [FilterIterator::current](filteriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
-
-public [FilterIterator::key](filteriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [FilterIterator::next](filteriterator.next.md)(): void
-
-public [FilterIterator::rewind](filteriterator.rewind.md)(): void
-
-public [FilterIterator::valid](filteriterator.valid.md)(): bool
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [ParentIterator::accept](parentiterator.accept.md) — Визначення
-доступності
-- [ParentIterator::\_\_construct](parentiterator.construct.md) -
-Конструктор класу ParentIterator
-- [ParentIterator::getChildren](parentiterator.getchildren.md) -
-Повертає дочірні об'єкти ітератора, що зберігається всередині
-ParentIterator
-- [ParentIterator::hasChildren](parentiterator.haschildren.md) -
-Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
-- [ParentIterator::next](parentiterator.next.md) — Переміщує
-вказівник на одну позицію вперед
-- [ParentIterator::rewind](parentiterator.rewind.md) - Перекладає
-ітератор на початок
+-   [ParentIterator::accept](parentiterator.accept.html) — Визначення доступності
+-   [ParentIterator::\_\_construct](parentiterator.construct.html) - Конструктор класу ParentIterator
+-   [ParentIterator::getChildren](parentiterator.getchildren.html) — Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
+-   [ParentIterator::hasChildren](parentiterator.haschildren.html) — Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
+-   [ParentIterator::next](parentiterator.next.html) — Переміщує вказівник на одну позицію вперед
+-   [ParentIterator::rewind](parentiterator.rewind.html) - Перекладає ітератор на початок

@@ -1,24 +1,29 @@
-- [« DirectoryIterator::getSize](directoryiterator.getsize.md)
-- [DirectoryIterator::isDir »](directoryiterator.isdir.md)
+Визначає тип поточного елемента DirectoryIterator
 
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- визначає тип поточного елемента DirectoryIterator
+-   [« DirectoryIterator::getSize](directoryiterator.getsize.html)
+    
+-   [DirectoryIterator::isDir »](directoryiterator.isdir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DirectoryIterator](class.directoryiterator.html)
+    
+-   Визначає тип поточного елемента DirectoryIterator
+    
 
 # DirectoryIterator::getType
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::getType — Визначає тип поточного елемента
-DirectoryIterator
+DirectoryIterator::getType — Визначає тип поточного елемента DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getType**(): string
+```methodsynopsis
+public DirectoryIterator::getType(): string
+```
 
-Визначає, до якого типу належить поточний елемент
-[DirectoryIterator](class.directoryiterator.md). Можливі варіанти:
-`file` (файл), `link` (посилання), або `dir` (директорія).
+Визначає до якого типу належить поточний елемент [DirectoryIterator](class.directoryiterator.html). Можливі варіанти: `file` (файл), `link` (Посилання), або `dir` (Директорія).
 
 ### Список параметрів
 
@@ -26,36 +31,35 @@ public **DirectoryIterator::getType**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок (string), який містить тип файлу. Можливі варіанти:
-`file` (файл), `link` (посилання), або `dir` (директорія).
+Повертає рядок (string), який містить тип файлу. Можливі варіанти: `file` (файл), `link` (Посилання), або `dir` (Директорія).
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DirectoryIterator::getType()****
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {   echo $fileinfo->getFilename() . " " . $fileinfo->getType() . "
-";}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    echo $fileinfo->getFilename() . " " . $fileinfo->getType() . "\n";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 . dir
 .. dir
 apple.jpg file
 banana.jpg file
 example.php file
 pear.jpg file
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::isDir()](directoryiterator.isdir.md) -
-Визначає, чи є поточний елемент DirectoryIterator
-директорією
-- [DirectoryIterator::isDot()](directoryiterator.isdot.md) -
-Визначає, чи є поточний елемент DirectoryIterator '.' або
-'..'
-- [DirectoryIterator::isFile()](directoryiterator.isfile.md) -
-Визначає, чи поточний елемент DirectoryIterator є звичайним
-файлом
-- [DirectoryIterator::isLink()](directoryiterator.islink.md) -
-Визначає, чи є поточний елемент DirectoryIterator
-символічним посиланням
+-   [DirectoryIterator::isDir()](directoryiterator.isdir.html) - Визначає, чи є поточний елемент DirectoryIterator директорією
+-   [DirectoryIterator::isDot()](directoryiterator.isdot.html) - Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
+-   [DirectoryIterator::isFile()](directoryiterator.isfile.html) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
+-   [DirectoryIterator::isLink()](directoryiterator.islink.html) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням

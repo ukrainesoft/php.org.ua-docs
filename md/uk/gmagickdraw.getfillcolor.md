@@ -1,20 +1,27 @@
-- [« GmagickDraw::ellipse](gmagickdraw.ellipse.md)
-- [GmagickDraw::getfillopacity »](gmagickdraw.getfillopacity.md)
+Повертає колір заливки
 
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає колір заливки
+-   [« GmagickDraw::ellipse](gmagickdraw.ellipse.html)
+    
+-   [GmagickDraw::getfillopacity »](gmagickdraw.getfillopacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GmagickDraw](class.gmagickdraw.html)
+    
+-   Повертає колір заливки
+    
 
 # GmagickDraw::getfillcolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::getfillcolor — Повертає колір заливки
 
 ### Опис
 
-public **GmagickDraw::getfillcolor**():
-[GmagickPixel](class.gmagickpixel.md)
+```methodsynopsis
+public GmagickDraw::getfillcolor(): GmagickPixel
+```
 
 Повертає колір заливки, який використовується для малювання об'єктів із заливкою.
 
@@ -24,5 +31,4 @@ public **GmagickDraw::getfillcolor**():
 
 ### Значення, що повертаються
 
-Колір заливки [GmagickPixel](class.gmagickpixel.md), що використовується для
-малювання об'єктів із заливкою.
+Колір заливки [GmagickPixel](class.gmagickpixel.html), що використовується для малювання об'єктів із заливкою.

@@ -1,26 +1,34 @@
-- [« UI\Menu::append](ui-menu.append.md)
-- [UI\Menu::appendCheck »](ui-menu.appendcheck.md)
+Додати пункт меню About
 
-- [PHP Manual](index.md)
-- [UI\Menu](class.ui-menu.md)
-- Додати пункт меню About
+-   [« UI\\Menu::append](ui-menu.append.html)
+    
+-   [UI\\Menu::appendCheck »](ui-menu.appendcheck.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Menu](class.ui-menu.html)
+    
+-   Додати пункт меню About
+    
 
-# UI\Menu::appendAbout
+# ОЙMenu::appendAbout
 
 (UI 0.9.9)
 
-UI\Menu::appendAbout — Додати пункт меню About
+ОЙMenu::appendAbout — Додати пункт меню About
 
 ### Опис
 
-public **UI\Menu::appendAbout**(string `$type` = UI\MenuItem::class):
-[UI\MenuItem](class.ui-menuitem.md)
+```methodsynopsis
+public UI\Menu::appendAbout(string $type = UI\MenuItem::class): UI\MenuItem
+```
 
 Додати пункт меню About
 
 ### Список параметрів
 
 `type`
+
 Тип нового пункту меню
 
 ### Значення, що повертаються

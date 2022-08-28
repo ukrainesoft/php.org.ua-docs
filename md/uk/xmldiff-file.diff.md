@@ -1,32 +1,40 @@
-- [« XMLDiff\File](class.xmldiff-file.md)
-- [XMLDiff\File::merge »](xmldiff-file.merge.md)
+Порівняння двох файлів XML
 
-- [PHP Manual](index.md)
-- [XMLDiff\File](class.xmldiff-file.md)
-- Порівняння двох файлів XML
+-   [« XMLDiff\\File](class.xmldiff-file.html)
+    
+-   [XMLDiff\\File::merge »](xmldiff-file.merge.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLDiff\\File](class.xmldiff-file.html)
+    
+-   Порівняння двох файлів XML
+    
 
-# XMLDiff\File::diff
+# XMLDiffFile::diff
 
-(PECL xmldiff \>= 0.8.0)
+(PECL xmldiff >= 0.8.0)
 
-XMLDiff\File::diff — Порівняння двох файлів XML
+XMLDiffFile::diff — Порівняння двох файлів XML
 
 ### Опис
 
-public **XMLDiff\File::diff**(string `$from`, string `$to`): string
+```methodsynopsis
+public XMLDiff\File::diff(string $from, string $to): string
+```
 
-Порівнює два локальні файли XML і повертає рядок з інформацією про
-розходження.
+Порівнює два локальні файли XML і повертає рядок з інформацією про відмінності.
 
 ### Список параметрів
 
 `from`
+
 Шлях до джерела документа.
 
 `to`
+
 Шлях до цільового документа.
 
 ### Значення, що повертаються
 
-Рядок з XML-документом, що містить інформацію про відмінності, або
-**`null`**.
+Рядок з XML-документом, що містить інформацію про відмінності, або **`null`**

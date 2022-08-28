@@ -1,19 +1,27 @@
-- [« MongoDB\Driver\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md)
-- [MongoDB\Driver\ReadConcern::unserialize »](mongodb-driver-readconcern.unserialize.md)
+Серіалізація ReadConcern
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
-- Серіалізація ReadConcern
+-   [« MongoDB\\Driver\\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.html)
+    
+-   [MongoDB\\Driver\\ReadConcern::unserialize »](mongodb-driver-readconcern.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
+    
+-   Серіалізація ReadConcern
+    
 
-# MongoDB\Driver\ReadConcern::serialize
+# MongoDBDriverReadConcern::serialize
 
-(mongodb \>=1.7.0)
+(mongodb >=1.7.0)
 
-MongoDB\Driver\ReadConcern::serialize — Серіалізація ReadConcern
+MongoDBDriverReadConcern::serialize — Серіалізація ReadConcern
 
 ### Опис
 
-final public **MongoDB\Driver\ReadConcern::serialize**(): string
+```methodsynopsis
+final public MongoDB\Driver\ReadConcern::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\Driver\ReadConcern::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md).
+Повертає серіалізовану виставу [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\ReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.md) -
-Десеріалізація ReadConcern
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\Driver\\ReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.html) - Десеріалізація ReadConcern
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](iconv.configuration.md)
-- [Предвизначені константи »](iconv.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](iconv.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](iconv.configuration.html)
+    
+-   [Предопределённые константы »](iconv.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](iconv.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

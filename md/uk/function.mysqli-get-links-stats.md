@@ -1,23 +1,29 @@
-- [« mysqli_get_client_stats](function.mysqli-get-client-stats.md)
-- [mysqli_report »](function.mysqli-report.md)
+Повертає інформацію про відкриті та закешовані з'єднання MySQL
 
-- [PHP Manual](index.md)
-- [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-- Повертає інформацію про відкриті та закешовані з'єднання MySQL
+-   [« mysqli\_get\_client\_stats](function.mysqli-get-client-stats.html)
+    
+-   [mysqli\_report »](function.mysqli-report.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+    
+-   Повертає інформацію про відкриті та закешовані з'єднання MySQL
+    
 
-# mysqli_get_links_stats
+# mysqligetlinksstats
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-mysqli_get_links_stats — Повертає інформацію про відкриті та
-закешованих з'єднаннях MySQL
+mysqligetlinksstats — Повертає інформацію про відкриті та закешовані з'єднання MySQL
 
 ### Опис
 
-**mysqli_get_links_stats**(): array
+```methodsynopsis
+mysqli_get_links_stats(): array
+```
 
-**mysqli_get_links_stats()** повертає інформацію про відкриті та
-закешованих з'єднаннях MySQL.
+**mysqligetlinksstats()** повертає інформацію про відкриті та закешовані з'єднання MySQL.
 
 ### Список параметрів
 
@@ -25,17 +31,16 @@ mysqli_get_links_stats — Повертає інформацію про відк
 
 ### Значення, що повертаються
 
-**mysqli_get_links_stats()** повертає асоціативний масив із трьох
-цілісних значень із такими ключами:
+**mysqligetlinksstats()** повертає асоціативний масив із трьох цілочисельних значень з такими ключами:
 
 `total`
-Ціле число (int), що означає загальну кількість з'єднань з будь-якими
-статусами.
+
+Ціле число (int), що означає загальну кількість з'єднань із будь-якими статусами.
 
 `active_plinks`
-Ціле число (int), що означає кількість активних постійних
-(Persistent) з'єднаннях.
+
+Ціле число (int), що означає кількість активних постійних (persistent) з'єднань.
 
 `cached_plinks`
-Ціле число (int), що означає кількість неактивних постійних
-(Persistent) з'єднаннях.
+
+Ціле число (int), що означає кількість неактивних постійних (persistent) з'єднань.

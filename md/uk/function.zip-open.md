@@ -1,48 +1,51 @@
-- [«zip_entry_read](function.zip-entry-read.md)
-- [zip_read »](function.zip-read.md)
+Відкриває ZIP-архів
 
-- [PHP Manual](index.md)
-- [Функції Zip](ref.zip.md)
-- Відкриває ZIP-архів
+-   [« zip\_entry\_read](function.zip-entry-read.html)
+    
+-   [zip\_read »](function.zip-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zip](ref.zip.html)
+    
+-   Відкриває ZIP-архів
+    
 
-#zip_open
+# zipopen
 
-(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
+(PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-zip_open - Відкриває ZIP-архів
+zipopen — Відкриває ZIP-архів
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**zip_open**(string `$filename`): resource\|int\|false
+```methodsynopsis
+zip_open(string $filename): resource|int|false
+```
 
 Відкриває ZIP-архів для читання.
 
 ### Список параметрів
 
 `filename`
-Ім'я файлу ZIP-архіву для відкриття.
+
+Ім'я ZIP-архіву для відкриття.
 
 ### Значення, що повертаються
 
-Повертає посилання на ресурс для подальшого використання з функціями
-[zip_read()](function.zip-read.md) та
-[zip_close()](function.zip-close.md) або повертає номер помилки,
-якщо `filename` не існує або у разі іншої помилки.
+Повертає посилання на ресурс для подальшого використання з функціями [zip\_read()](function.zip-read.html) і [zip\_close()](function.zip-close.html) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                       |
-|--------|--------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла на користь Object API дивіться [ZipArchive::open()](ziparchive.open.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::open()](ziparchive.open.html) |
 
 ### Дивіться також
 
-- [zip_read()](function.zip-read.md) - Зчитує наступний запис у
-ZIP-архіві
-- [zip_close()](function.zip-close.md) - Закриває дескриптор
-ZIP-архіву
+-   [zip\_read()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zip\_close()](function.zip-close.html) - Закриває дескриптор ZIP-архіву

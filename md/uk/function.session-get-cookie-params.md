@@ -1,19 +1,27 @@
-- [« session_gc](function.session-gc.md)
-- [session_id »](function.session-id.md)
+Повертає параметри cookie сесії
 
-- [PHP Manual](index.md)
-- [Функції для роботи з сесіями](ref.session.md)
-- Повертає параметри cookie сесії
+-   [« session\_gc](function.session-gc.html)
+    
+-   [session\_id »](function.session-id.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с сессиями](ref.session.html)
+    
+-   Повертає параметри cookie сесії
+    
 
-# session_get_cookie_params
+# sessiongetcookieparams
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-session_get_cookie_params — Повертає параметри cookie сесії
+sessiongetcookieparams — Повертає параметри cookie сесії
 
 ### Опис
 
-**session_get_cookie_params**(): array
+```methodsynopsis
+session_get_cookie_params(): array
+```
 
 Повертає параметри cookie сесії.
 
@@ -23,38 +31,27 @@ session_get_cookie_params — Повертає параметри cookie сес�
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією про cookie поточної сесії, який
-містить такі елементи:
+Повертає масив з інформацією про cookie поточної сесії, що містить такі елементи:
 
--
-["lifetime"](session.configuration.md#ini.session.cookie-lifetime) -
-час життя cookie за секунди.
-- ["path"](session.configuration.md#ini.session.cookie-path) -
-шлях, де розміщена інформація, що зберігається.
-- ["domain"](session.configuration.md#ini.session.cookie-domain) -
-домен cookie.
-- ["secure"](session.configuration.md#ini.session.cookie-secure) -
-cookie повинні передаватись лише через безпечні з'єднання.
--
-["httponly"](session.configuration.md#ini.session.cookie-httponly) -
-cookie можуть бути доступні лише за протоколом HTTP.
--
-["samesite"](session.configuration.md#ini.session.cookie-samesite) -
-керує міждоменною відправкою cookie.
+-   ["lifetime"](session.configuration.html#ini.session.cookie-lifetime) - час життя cookie за секунди.
+-   ["path"](session.configuration.html#ini.session.cookie-path) - шлях, де розміщена інформація, що зберігається.
+-   ["domain"](session.configuration.html#ini.session.cookie-domain) - Домен cookie.
+-   ["secure"](session.configuration.html#ini.session.cookie-secure) - cookie повинні передаватись лише через безпечні з'єднання.
+-   ["httponly"](session.configuration.html#ini.session.cookie-httponly) - cookie можуть бути доступні лише за протоколом HTTP.
+-   ["samesite"](session.configuration.html#ini.session.cookie-samesite) - керує міждоменною відправкою cookie.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                 |
-| ------ | ---------------------------------------------------- |
-| 7.3.0  | Доданий елемент "samesite" у масив, що повертається. |
+| Версия | Описание |
+| --- | --- |
+|  | Доданий елемент "samesite" у масив, що повертається. |
 
 ### Дивіться також
 
-- [session.cookie_lifetime](session.configuration.md#ini.session.cookie-lifetime)
-- [session.cookie_path](session.configuration.md#ini.session.cookie-path)
-- [session.cookie_domain](session.configuration.md#ini.session.cookie-domain)
-- [session.cookie_secure](session.configuration.md#ini.session.cookie-secure)
-- [session.cookie_httponly](session.configuration.md#ini.session.cookie-httponly)
-- [session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)
-- [session_set_cookie_params()](function.session-set-cookie-params.md) -
-Встановлює параметри сесійної cookie
+-   [session.cookie\_lifetime](session.configuration.html#ini.session.cookie-lifetime)
+-   [session.cookie\_path](session.configuration.html#ini.session.cookie-path)
+-   [session.cookie\_domain](session.configuration.html#ini.session.cookie-domain)
+-   [session.cookie\_secure](session.configuration.html#ini.session.cookie-secure)
+-   [session.cookie\_httponly](session.configuration.html#ini.session.cookie-httponly)
+-   [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite)
+-   [session\_set\_cookie\_params()](function.session-set-cookie-params.html) - Встановлює параметри сесійної cookie

@@ -1,54 +1,70 @@
-- [« SplObjectStorage::next](splobjectstorage.next.md)
-- [SplObjectStorage::offsetGet »](splobjectstorage.offsetget.md)
+Перевіряє, чи існує об'єкт у контейнері
 
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Перевіряє, чи існує об'єкт у контейнері
+-   [« SplObjectStorage::next](splobjectstorage.next.html)
+    
+-   [SplObjectStorage::offsetGet »](splobjectstorage.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObjectStorage](class.splobjectstorage.html)
+    
+-   Перевіряє, чи існує об'єкт у контейнері
+    
 
 # SplObjectStorage::offsetExists
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplObjectStorage::offsetExists — Перевіряє, чи існує об'єкт в
-контейнері
+SplObjectStorage::offsetExists — Перевіряє, чи існує об'єкт у контейнері
 
 ### Опис
 
-public **SplObjectStorage::offsetExists**(object `$object`): bool
+```methodsynopsis
+public SplObjectStorage::offsetExists(object $object): bool
+```
 
 Перевіряє, чи об'єкт об'єкта існує в контейнері.
 
-> **Примітка**:
->
-> **SplObjectStorage::offsetExists()** є псевдонімом методу
-> [SplObjectStorage::contains()](splobjectstorage.contains.md).
+> **Зауваження**
+> 
+> **SplObjectStorage::offsetExists()** є псевдонімом методу [SplObjectStorage::contains()](splobjectstorage.contains.html)
 
 ### Список параметрів
 
 `object`
+
 Об'єкт об'єкта, що шукається.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо об'єкт object є у контейнері, та
-**`false`** інакше.
+Повертає **`true`**, якщо об'єкт object є у контейнері, та **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetExists()****
 
-` <?php$s = new SplObjectStorage;$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1);var_dump($s->offsetExists($o1)); // аналогічно isset($s[$o1])var_dump($s->offsetExists($o2)); // аналогічно isset($s[$o2])?> `
+```php
+<?php
+$s = new SplObjectStorage;
+$o1 = new StdClass;
+$o2 = new StdClass;
+
+$s->attach($o1);
+
+var_dump($s->offsetExists($o1)); // аналогично isset($s[$o1])
+var_dump($s->offsetExists($o2)); // аналогично isset($s[$o2])
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) -
-Асоціює дані з об'єктом у контейнері
-- [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.md) -
-Повертає дані, асоційовані з об'єктом object
-- [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) -
-Видаляє об'єкт із контейнера
+-   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.html) - Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.html) - Повертає дані, асоційовані з об'єктом object
+-   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.html) - Видаляє об'єкт із контейнера

@@ -1,15 +1,21 @@
-- [«Вступ](intro.network.md)
-- [Вимоги »](network.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Мережа](book.network.md)
+-   [« Введение](intro.network.html)
+    
+-   [Требования »](network.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сеть](book.network.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](network.requirements.md)
-- [Установка](network.installation.md)
-- [Налаштування під час виконання](network.configuration.md)
-- [Типи ресурсів](network.resources.md)
+-   [Требования](network.requirements.html)
+-   [Установка](network.installation.html)
+-   [Настройка во время выполнения](network.configuration.html)
+-   [Типы ресурсов](network.resources.html)

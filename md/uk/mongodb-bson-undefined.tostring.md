@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Undefined::serialize](mongodb-bson-undefined.serialize.md)
-- [MongoDB\BSON\Undefined::unserialize »](mongodb-bson-undefined.unserialize.md)
+Повертає порожній рядок
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
-- Повертає порожній рядок
+-   [« MongoDB\\BSON\\Undefined::serialize](mongodb-bson-undefined.serialize.html)
+    
+-   [MongoDB\\BSON\\Undefined::unserialize »](mongodb-bson-undefined.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.html)
+    
+-   Повертає порожній рядок
+    
 
-# MongoDB\BSON\Undefined::\_\_toString
+# MongoDBBSONUndefined::toString
 
-(mongodb \>=1.4.0)
+(mongodb >=1.4.0)
 
-MongoDB\BSON\Undefined::\_\_toString — Повертає порожній рядок
+MongoDBBSONUndefined::toString — Повертає порожній рядок
 
 ### Опис
 
-final public **MongoDB\BSON\Undefined::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Undefined::__toString(): string
+```
 
 ### Список параметрів
 
@@ -25,4 +33,4 @@ final public **MongoDB\BSON\Undefined::\_\_toString**(): string
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

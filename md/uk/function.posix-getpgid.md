@@ -1,27 +1,34 @@
-- [«posix_getlogin](function.posix-getlogin.md)
-- [posix_getpgrp »](function.posix-getpgrp.md)
+Повертає ID групи поточного процесу для менеджера завдань
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає ID групи поточного процесу для менеджера завдань
+-   [« posix\_getlogin](function.posix-getlogin.html)
+    
+-   [posix\_getpgrp »](function.posix-getpgrp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Повертає ID групи поточного процесу для менеджера завдань
+    
 
-#posix_getpgid
+# posixgetpgid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getpgid — Повертає ID групи поточного процесу для менеджера
-завдань
+posixgetpgid — Повертає ID групи поточного процесу для менеджера завдань
 
 ### Опис
 
-**posix_getpgid**(int `$process_id`): int\|false
+```methodsynopsis
+posix_getpgid(int $process_id): int|false
+```
 
-Повертає ідентифікатор поточного процесу. `process_id` або
-**`false`** у разі виникнення помилки.
+Повертає ідентифікатор групи поточного процесу . `process_id` або **`false`** у разі виникнення помилки.
 
 ### Список параметрів
 
 `process_id`
+
 Ідентифікатор поточного процесу.
 
 ### Значення, що повертаються
@@ -30,22 +37,22 @@ posix_getpgid — Повертає ID групи поточного процес
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getpgid()****
+**Приклад #1 Приклад використання **posixgetpgid()****
 
-` <?php$pid = posix_getppid();echo posix_getpgid($pid); //35?> `
+```php
+<?php
+$pid = posix_getppid();
+echo posix_getpgid($pid); //35
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Це не POSIX функція, але вона сумісна з BSD та System V операційними
-> системами. Якщо операційна система не підтримує цю функцію,
-> вона не буде увімкнена при компіляції. Доступність цієї функції може
-> бути перевірена за допомогою
-> [function_exists()](function.function-exists.md).
+> **Зауваження**
+> 
+> Це не POSIX функція, але вона сумісна з BSD та System V операційними системами. Якщо операційна система не підтримує цю функцію, вона не буде увімкнена при компіляції. Доступність цієї функції може бути перевірена за допомогою [function\_exists()](function.function-exists.html)
 
 ### Дивіться також
 
-- [posix_getppid()](function.posix-getppid.md) - Повертає
-ідентифікатор батьківського процесу
-- Посібник SETPGID(2)
+-   [posix\_getppid()](function.posix-getppid.html) - Повертає ідентифікатор батьківського процесу
+-   керівництво SETPGID(2)

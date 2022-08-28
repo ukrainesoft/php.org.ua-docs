@@ -1,63 +1,59 @@
-- [« mysqli::real_connect](mysqli.real-connect.md)
-- [mysqli::real_query »](mysqli.real-query.md)
+Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Екранує спеціальні символи у рядку для використання у
-SQL-вираз, використовуючи поточний набір символів з'єднання
+-   [« mysqli::real\_connect](mysqli.real-connect.html)
+    
+-   [mysqli::real\_query »](mysqli.real-query.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+    
 
-# mysqli::real_escape_string
+# mysqli::realescapestring
 
-# mysqli::escape_string
+# mysqli::escapestring
 
-# mysqli_real_escape_string
+# mysqlirealescapestring
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::real_escape_string -- mysqli::escape_string --
-mysqli_real_escape_string — Екранує спеціальні символи в рядку
-використання у SQL-вираженні, використовуючи поточний набір символів
-з'єднання
+mysqli::realescapestring -- mysqli::escapestring -- mysqlirealescapestring — Екран спеціальних символів у рядку для використання в SQL-вираженні, використовуючи поточний набір символів з'єднання
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::real_escape_string**(string `$string`): string
+```methodsynopsis
+public mysqli::real_escape_string(string $string): string
+```
 
 Процедурний стиль
 
-**mysqli_real_escape_string**([mysqli](class.mysqli.md) `$mysql`,
-string `$string`): string
+```methodsynopsis
+mysqli_real_escape_string(mysqli $mysql, string $string): string
+```
 
-Ця функція використовується для створення допустимих SQL рядків, які
-можна використовувати у SQL виразах. Заданий рядок кодується для
-створення екранованого рядка SQL з урахуванням поточного набору символів
-підключення.
+Ця функція використовується для створення допустимих SQL рядків, які можна використовувати в SQL виразах. Цей рядок кодується для створення екранованого рядка SQL з урахуванням поточного набору символів підключення.
 
 **Застереження**
 
-# Безпека: набір за промовчанням символів
+# Безпека: набір символів за промовчанням
 
-Набір символів повинен бути заданий на стороні сервера, або за допомогою
-API-функції [mysqli_set_charset()](mysqli.set-charset.md). В протилежному
-у разі **mysqli_real_escape_string()** працювати не буде. За
-додаткову інформацію звертайтеся до документації [набори символів](mysqlinfo.concepts.charset.md).
+Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqli\_set\_charset()](mysqli.set-charset.html). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [наборы символов](mysqlinfo.concepts.charset.html)
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 `string`
+
 Рядок, який потрібно екранувати.
 
-Екрановані символи
-`NUL (ASCII 0),
-,
-, \, ', ", та Control-Z`.
+Екрановані символи `NUL (ASCII 0), \n, \r, \, ', ", и Control-Z`
 
 ### Значення, що повертаються
 
@@ -65,25 +61,58 @@ API-функції [mysqli_set_charset()](mysqli.set-charset.md). В проти�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::real_escape_string()****
+**Приклад #1 Приклад використання **mysqli::realescapestring()****
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$city х| city працювати */$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",    $mysqli->real_escape_string($city));$result = $mysqli-y "Повернені рядки: %d.
-", $result->num_rows);/* цей запрос завершиться помилкою, потому ми не екранували $city */$query = sprintf("SELECT CountryCode FROM City$ = $mysqli->query($query);
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$city = "'s-Hertogenbosch";
+
+/* этот запрос с экранированным $city будет работать */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",
+    $mysqli->real_escape_string($city));
+$result = $mysqli->query($query);
+printf("Возвращённые строки: %d.\n", $result->num_rows);
+
+/* этот запрос завершится ошибкой, потому что мы не экранировали $city */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
+$result = $mysqli->query($query);
+```
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$city = х' | буде працювати */$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",    mysqli_real_escape_string($mysqli, $city));$result =mysqli_y;y : %d.
-", mysqli_num_rows ($result)); = mysqli_query ($ mysqli, $ $ query);
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$city = "'s-Hertogenbosch";
+
+/* этот запрос с экранированным $city будет работать */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",
+    mysqli_real_escape_string($mysqli, $city));
+$result = mysqli_query($mysqli, $query);
+printf("Возвращённые строки: %d.\n", mysqli_num_rows($result));
+
+/* этот запрос завершится ошибкой, потому что мы не экранировали $city */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
+$result = mysqli_query($mysqli, $query);
+```
 
 Результатом виконання даних прикладів буде щось подібне:
 
-Повернені рядки: 1.
+```
+Возвращённые строки: 1.
 
-Fatal error: Uncaught mysqli_sql_exception: Ви маєте error в вашій SQL syntax; check the manual that corresponds to your MySQL server version for right syntax to used near 's-Hertogenbosch'' at line 1 in...
+Fatal error: Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's-Hertogenbosch'' at line 1 in...
+```
 
 ### Дивіться також
 
-- [mysqli_set_charset()](mysqli.set-charset.md) - Задає набір
-символів
+-   [mysqli\_set\_charset()](mysqli.set-charset.html) - Встановлює набір символів

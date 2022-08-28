@@ -1,25 +1,31 @@
-- [« IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md)
-- [IntlGregorianCalendar::setGregorianChange »](intlgregoriancalendar.setgregorianchange.md)
+Визначає, чи цей рік є високосним.
 
-- [PHP Manual](index.md)
-- [IntlGregorianCalendar](class.intlgregoriancalendar.md)
-- Визначає, чи цей рік є високосним.
+-   [« IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.html)
+    
+-   [IntlGregorianCalendar::setGregorianChange »](intlgregoriancalendar.setgregorianchange.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlGregorianCalendar](class.intlgregoriancalendar.html)
+    
+-   Визначає, чи цей рік є високосним.
+    
 
 # IntlGregorianCalendar::isLeapYear
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlGregorianCalendar::isLeapYear — Визначає, чи є цей рік
-високосним
+IntlGregorianCalendar::isLeapYear — Визначає, чи цей рік є високосним.
 
 ### Опис
 
-public **IntlGregorianCalendar::isLeapYear**(int `$year`): bool
+```methodsynopsis
+public IntlGregorianCalendar::isLeapYear(int $year): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,5 +33,4 @@ public **IntlGregorianCalendar::isLeapYear**(int `$year`): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у випадку, якщо рік є високосним,
-**`false`**, якщо не є або у разі виникнення помилки.
+Повертає **`true`** у разі, якщо рік є високосним, **`false`**якщо не є або у разі виникнення помилки.

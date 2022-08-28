@@ -1,20 +1,27 @@
-- [« Yaf_Controller_Abstract::render](yaf-controller-abstract.render.md)
-- [Yaf_Action_Abstract »](class.yaf-action-abstract.md)
+Призначення setViewpath
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Призначення setViewpath
+-   [« Yaf\_Controller\_Abstract::render](yaf-controller-abstract.render.html)
+    
+-   [Yaf\_Action\_Abstract »](class.yaf-action-abstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+    
+-   Призначення setViewpath
+    
 
-# Yaf_Controller_Abstract::setViewpath
+# YafControllerAbstract::setViewpath
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Controller_Abstract::setViewpath — Призначення setViewpath
+YafControllerAbstract::setViewpath — Призначення setViewpath
 
 ### Опис
 
-public **Yaf_Controller_Abstract::setViewpath**(string
-`$view_directory`): void
+```methodsynopsis
+public Yaf_Controller_Abstract::setViewpath(string $view_directory): void
+```
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« SoapFault::\_\_toString](soapfault.tostring.md)
-- [SoapHeader::\_\_construct »](soapheader.construct.md)
+Клас SoapHeader
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Клас SoapHeader
+-   [« SoapFault::\_\_toString](soapfault.tostring.html)
+    
+-   [SoapHeader::\_\_construct »](soapheader.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
+-   Клас SoapHeader
+    
 
 # Клас SoapHeader
 
@@ -15,48 +21,59 @@
 
 ## Огляд класів
 
-class **SoapHeader** {
+```synopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$namespace`;
+    
+     
+      class SoapHeader
+     
+     {
 
-public string `$name`;
+    /* Свойства */
+    
+     public
+     string
+      $namespace;
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = null;
+    public
+     string
+      $name;
 
-public bool `$mustUnderstand`;
+    public
+     mixed
+      $data = null;
 
-public string\|int\|null `$actor`;
+    public
+     bool
+      $mustUnderstand;
 
-/\* Методи \*/
+    public
+     string|int|null
+      $actor;
 
-[\_\_construct](soapheader.construct.md)(
-string `$namespace`,
-string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-bool `$mustunderstand` = ?,
-string `$actor` = ?
-)
 
-}
+    /* Методы */
+    
+   __construct(    string $namespace,    string $name,    mixed $data = ?,    bool $mustunderstand = ?,    string $actor = ?)
+
+   }
+```
 
 ## Властивості
 
-`actor`
+actor
 
-`data`
+data
 
-`mustUnderstand`
+mustUnderstand
 
-`name`
+name
 
-`namespace`
+namespace
 
 ## Зміст
 
-- [SoapHeader::\_\_construct](soapheader.construct.md) - Конструктор
-SoapHeader
+-   [SoapHeader::\_\_construct](soapheader.construct.html) - Конструктор SoapHeader

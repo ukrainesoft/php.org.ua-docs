@@ -1,19 +1,27 @@
-- [« GmagickDraw::getfont](gmagickdraw.getfont.md)
-- [GmagickDraw::getfontstyle »](gmagickdraw.getfontstyle.md)
+Повертає розмір шрифту
 
-- [PHP Manual](index.md)
-- [GmagickDraw](class.gmagickdraw.md)
-- Повертає розмір шрифту
+-   [« GmagickDraw::getfont](gmagickdraw.getfont.html)
+    
+-   [GmagickDraw::getfontstyle »](gmagickdraw.getfontstyle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GmagickDraw](class.gmagickdraw.html)
+    
+-   Повертає розмір шрифту
+    
 
 # GmagickDraw::getfontsize
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickDraw::getfontsize — Повертає розмір шрифту
 
 ### Опис
 
-public **GmagickDraw::getfontsize**(): float
+```methodsynopsis
+public GmagickDraw::getfontsize(): float
+```
 
 Повертає розмір шрифту, який використовується під час анотування текстом.
 
@@ -23,5 +31,4 @@ public **GmagickDraw::getfontsize**(): float
 
 ### Значення, що повертаються
 
-Повертає розмір шрифту, пов'язаний із поточним об'єктом
-[GmagickDraw](class.gmagickdraw.md).
+Повертає розмір шрифту, пов'язаний із поточним об'єктом [GmagickDraw](class.gmagickdraw.html)

@@ -1,9 +1,15 @@
-- [«Iterator](class.iterator.md)
-- [Iterator::key »](iterator.key.md)
+Повернення поточного елемента
 
-- [PHP Manual](index.md)
-- [Iterator](class.iterator.md)
-- Повернення поточного елемента
+-   [« Iterator](class.iterator.html)
+    
+-   [Iterator::key »](iterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Iterator](class.iterator.html)
+    
+-   Повернення поточного елемента
+    
 
 # Iterator::current
 
@@ -13,8 +19,9 @@ Iterator::current — Повернення поточного елемента
 
 ### Опис
 
-public **Iterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Iterator::current(): mixed
+```
 
 Повертає поточний елемент.
 

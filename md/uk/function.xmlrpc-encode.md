@@ -1,28 +1,32 @@
-- [« xmlrpc_encode_request](function.xmlrpc-encode-request.md)
-- [xmlrpc_get_type »](function.xmlrpc-get-type.md)
+Генерує XML для значення PHP
 
-- [PHP Manual](index.md)
-- [Функції XML-RPC](ref.xmlrpc.md)
-- Генерує XML для PHP значення
+-   [« xmlrpc\_encode\_request](function.xmlrpc-encode-request.html)
+    
+-   [xmlrpc\_get\_type »](function.xmlrpc-get-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции XML-RPC](ref.xmlrpc.html)
+    
+-   Генерує XML для значення PHP
+    
 
-#xmlrpc_encode
+# xmlrpcencode
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
+(PHP 4> = 4.1.0, PHP 5, PHP 7)
 
-xmlrpc_encode — Генерує XML для PHP значення
+xmlrpcencode — Генерує XML для значення PHP
 
 ### Опис
 
-**xmlrpc_encode**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): string
+```methodsynopsis
+xmlrpc_encode(mixed $value): string
+```
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

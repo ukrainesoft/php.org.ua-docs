@@ -1,22 +1,29 @@
-- [« LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md)
-- [LuaSandbox::getProfilerFunctionReport »](luasandbox.getprofilerfunctionreport.md)
+Повертає пікове використання пам'яті в середовищі Lua
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Повертає пікове використання пам'яті в середовищі Lua
+-   [« LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.html)
+    
+-   [LuaSandbox::getProfilerFunctionReport »](luasandbox.getprofilerfunctionreport.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Повертає пікове використання пам'яті в середовищі Lua
+    
 
 # LuaSandbox::getPeakMemoryUsage
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
-LuaSandbox::getPeakMemoryUsage — Повертає пікове використання пам'яті
-у середовищі Lua
+LuaSandbox::getPeakMemoryUsage — Повертає пікове використання пам'яті в середовищі Lua
 
 ### Опис
 
-public **LuaSandbox::getPeakMemoryUsage**(): int
+```methodsynopsis
+public LuaSandbox::getPeakMemoryUsage(): int
+```
 
-Повертає пікове використання пам'яті серед Lua.
+Повертає пікове використання пам'яті у середовищі Lua.
 
 ### Список параметрів
 
@@ -24,13 +31,10 @@ public **LuaSandbox::getPeakMemoryUsage**(): int
 
 ### Значення, що повертаються
 
-Повертає пікове використання пам'яті у байтах.
+Повертає пікове використання пам'яті в байтах.
 
 ### Дивіться також
 
-- [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) -
-Повертає поточне використання пам'яті у середовищі Lua
-- [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) -
-Повертає поточний час використання процесора у середовищі Lua
-- [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) -
-Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.html) - Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.html) - Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.html) - Встановлює межу пам'яті для середовища Lua

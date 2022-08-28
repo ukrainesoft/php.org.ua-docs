@@ -1,51 +1,64 @@
-- [«stream_set_timeout](function.stream-set-timeout.md)
-- [stream_socket_accept »](function.stream-socket-accept.md)
+Встановлює буферизацію файлу під час запису у вказаний потік
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Встановлює буферизацію файлу під час запису у вказаний потік
+-   [« stream\_set\_timeout](function.stream-set-timeout.html)
+    
+-   [stream\_socket\_accept »](function.stream-socket-accept.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Встановлює буферизацію файлу під час запису у вказаний потік
+    
 
-#stream_set_write_buffer
+# streamsetwritebuffer
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-stream_set_write_buffer — Встановлює буферизацію файлу під час запису в
-вказаний потік
+streamsetwritebuffer — Встановлює буферизацію файлу під час запису у вказаний потік
 
 ### Опис
 
-**stream_set_write_buffer**(resource `$stream`, int `$size`): int
+```methodsynopsis
+stream_set_write_buffer(resource $stream, int $size): int
+```
 
-Встановлює буферизацію для операцій запису на заданому потоці
-`stream` у число `size` байт.
+Встановлює буферизацію операцій запису на заданому потоці `stream` до числа `size` байт.
 
 ### Список параметрів
 
 `stream`
-Вказівник файлу.
+
+Файловий покажчик.
 
 `size`
-Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції
-записи не буферизуються. Це гарантує, що всі операції запису з
-використанням функції [fwrite()](function.fwrite.md) буде завершено
-перед тим, як іншим процесам буде дозволено записувати в потік
-виведення.
+
+Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції запису не буферизуються. Це гарантує, що всі операції запису з використанням функції [fwrite()](function.fwrite.html) будуть завершені перед тим, як іншим процесам буде дозволено записувати потік виведення.
 
 ### Значення, що повертаються
 
-Повертає 0 у разі успішного виконання, або інше значення в
-у випадку, якщо запит не може бути виконаний.
+Повертає 0 у разі успішного виконання, або інше значення, якщо запит не може бути виконаний.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stream_set_write_buffer()****
+**Приклад #1 Приклад використання **streamsetwritebuffer()****
 
-Наступний приклад демонструє використання функції
-**stream_set_write_buffer()** для створення потоку, що не буферизується.
+Наступний приклад демонструє використання функції **streamsetwritebuffer()** для створення потоку, що не буферизується.
 
-`<?php$fp = fopen($file, "w");if ($fp) {   if (stream_set_write_buffer($fp, 0) !== 0) {    f f/   $ output); fclose($fp);}?> `
+```php
+<?php
+$fp = fopen($file, "w");
+if ($fp) {
+   if (stream_set_write_buffer($fp, 0) !== 0) {
+      // не удалось внести изменение
+  }
+  fwrite($fp, $output);
+  fclose($fp);
+}
+?>
+```
 
 ### Дивіться також
 
-- [fopen()](function.fopen.md) - Відкриває файл або URL
-- [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл

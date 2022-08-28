@@ -1,59 +1,73 @@
-- [« snmp_set_oid_numeric_print](function.snmp-set-oid-numeric-print.md)
-- [snmp_set_quick_print »](function.snmp-set-quick-print.md)
+Встановлює вихідний OID
 
-- [PHP Manual](index.md)
-- [Функції SNMP](ref.snmp.md)
-- Встановлює вихідний формат OID
+-   [« snmp\_set\_oid\_numeric\_print](function.snmp-set-oid-numeric-print.html)
+    
+-   [snmp\_set\_quick\_print »](function.snmp-set-quick-print.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SNMP](ref.snmp.html)
+    
+-   Встановлює вихідний OID
+    
 
-# snmp_set_oid_output_format
+# snmpsetoidoutputformat
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-snmp_set_oid_output_format — Встановлює вихідний формат OID
+snmpsetoidoutputformat — Встановлює вихідний формат OID
 
 ### Опис
 
-**snmp_set_oid_output_format**(int `$format`): bool
+```methodsynopsis
+snmp_set_oid_output_format(int $format): bool
+```
 
-**snmp_set_oid_output_format()** встановлює повний або числовий
-формат виводу.
+**snmpsetoidoutputformat()** встановлює повний чи числовий формат виведення.
 
 ### Список параметрів
 
 `format`
-|                             |                                                                     |
-| --------------------------- | ------------------------------------------------------------------- |
-| **SNMP_OID_OUTPUT_FULL**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |                                     
-| **SNMP_OID_OUTPUT_NUMERIC** | .1.3.6.1.2.1.1.3.0                                                  |
-| **SNMP_OID_OUTPUT_MODULE**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
-| **SNMP_OID_OUTPUT_SUFFIX**  | sysUpTimeInstance                                                   |
-| **SNMP_OID_OUTPUT_UCD**     | system.sysUpTime.sysUpTimeInstance                                  |
-| **SNMP_OID_OUTPUT_NONE**    | Undefined                                                           |
 
-**OID .1.3.6.1.2.1.1.3.0 представлення для різних значень `format`**
+<table class="doctable table"><caption><strong>OID .1.3.6.1.2.1.1.3.0 представлення для різних значень <code class="parameter">format</code></strong></caption><tbody class="tbody"><tr><td><strong><code>SNMP_OID_OUTPUT_FULL</code></strong></td><td>.iso.org.dod.internet.mgmt.mib- 2.system.sysUpTime.sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_NUMERIC</code></strong></td><td>.1.3.6.1.2.1. 1.3.0</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_MODULE</code></strong></td><td>DISMAN-EVENT-MIB::sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_SUFFIX</code></strong></td><td>sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_UCD</code></strong></td><td>system.sysUpTime.sysUpTimeInstance</td></tr><tr><td><strong><code>SNMP_OID_OUTPUT_NONE</code></strong></td><td>Undefined</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-Функція завжди повертає **`true`**.
+Функція завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[snmprealwalk()](function.snmprealwalk.md)**
+**Приклад #1 Приклад використання [snmprealwalk()](function.snmprealwalk.html)**
 
-` <?php snmp_read_mib("/usr/share/mibs/netsnmp/NET-SNMP-TC"); // default or SNMP_OID_OUTPUT_MODULE print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') ); snmp_set_oid_output_format(SNMP_OID_OUTPUT_NUMERIC); print_r(snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') ); snmp_set_oid_output_format(SNMP_OID_OUTPUT_FULL); print_r(snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );?> `
+```php
+<?php
+
+ snmp_read_mib("/usr/share/mibs/netsnmp/NET-SNMP-TC");
+
+ // default or SNMP_OID_OUTPUT_MODULE
+ print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
+
+ snmp_set_oid_output_format(SNMP_OID_OUTPUT_NUMERIC);
+ print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
+
+ snmp_set_oid_output_format(SNMP_OID_OUTPUT_FULL);
+ print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
+?>
+```
 
 Приклад вище повинен повернути:
 
+```
 Array
-(
-[RFC1213-MIB::sysObjectID.0] => OID: NET-SNMP-TC::linux
-)
-Array
-(
-[.1.3.6.1.2.1.1.2.0] => OID: .1.3.6.1.4.1.8072.3.2.10
-)
-Array
-(
-[.iso.org.dod.internet.mgmt.mib-2.system.sysObjectID.0] => OID: .iso.org.dod.internet.private.enterprises.netSnmp.netSnmpEnumerations.netSnmpAgentOIDs.linux
-)
+ (
+    [RFC1213-MIB::sysObjectID.0] => OID: NET-SNMP-TC::linux
+ )
+ Array
+ (
+    [.1.3.6.1.2.1.1.2.0] => OID: .1.3.6.1.4.1.8072.3.2.10
+ )
+ Array
+ (
+    [.iso.org.dod.internet.mgmt.mib-2.system.sysObjectID.0] => OID: .iso.org.dod.internet.private.enterprises.netSnmp.netSnmpEnumerations.netSnmpAgentOIDs.linux
+ )
+```

@@ -1,74 +1,80 @@
-- [« pg_last_error](function.pg-last-error.md)
-- [pg_last_oid »](function.pg-last-oid.md)
+Повертає останнє повідомлення від сервера PostgreSQL
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає останнє повідомлення від сервера PostgreSQL
+-   [« pg\_last\_error](function.pg-last-error.html)
+    
+-   [pg\_last\_oid »](function.pg-last-oid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає останнє повідомлення від сервера PostgreSQL
+    
 
-#pg_last_notice
+# пгlastnotice
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-pg_last_notice — Повертає останнє повідомлення від сервера PostgreSQL
+пгlastnotice — Повертає останнє повідомлення від сервера PostgreSQL
 
 ### Опис
 
-**pg_last_notice**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`, int `$mode` = **`PGSQL_NOTICE_LAST`**):
-array\|string\|bool
+```methodsynopsis
+pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): array|string|bool
+```
 
-**pg_last_notice()** повертає останнє повідомлення, згенероване
-сервером PostgreSQL на заданому з'єднанні `connection`. В деяких
-випадках сервер посилає повідомлення, наприклад при створенні в таблиці
-колонки типу `SERIAL`.
+**пгlastnotice()** повертає останнє повідомлення згенероване сервером PostgreSQL на заданому з'єднанні `connection`. У деяких випадках сервер надсилає повідомлення, наприклад, при створенні в таблиці колонки типу `SERIAL`
 
-Завдяки **pg_last_notice()** не потрібно робити зайвих запитів,
-щоб дізнатися надсилала ваша транзакція повідомлення чи ні.
+Завдяки **пгlastnotice()** не потрібно робити зайвих запитів, щоб дізнатися надсилала ваша транзакція повідомлення чи ні.
 
-Можна відключити відстеження сповіщень налаштуванням на значення 1
-параметра `pgsql.ignore_notice` у файлі `php.ini`.
+Можна відключити відстеження сповіщень установкою до 1 параметра `pgsql.ignore_notice` у файлі php.ini.
 
-Можна вимкнути журналування повідомлень установкою на значення 0
-параметра `pgsql.log_notice` у файлі `php.ini`. Поки що цей параметр
-встановлено на значення 0, повідомлення неможливо записати до журналу
-виконання.
+Можна вимкнути журналування повідомлень установкою до значення 0 параметра `pgsql.log_notice` у файлі php.ini. Поки цей параметр встановлено на 0, повідомлення неможливо записати до журналу виконання.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 `mode`
-Одна з констант **`PGSQL_NOTICE_LAST`** (для повернення останнього
-повідомлення), **`PGSQL_NOTICE_ALL`** (для повернення всіх повідомлень) або
-**`PGSQL_NOTICE_CLEAR`** (для очищення повідомлень).
+
+Одна з констант **`PGSQL_NOTICE_LAST`** (Для повернення останнього повідомлення), **`PGSQL_NOTICE_ALL`** (для повернення всіх повідомлень) або **`PGSQL_NOTICE_CLEAR`** (Для очищення повідомлень).
 
 ### Значення, що повертаються
 
-Рядок, що містить останнє повідомлення на заданому з'єднанні, якщо
-задана опція **`PGSQL_NOTICE_LAST`**, масив (array), якщо опція
-**`PGSQL_NOTICE_ALL`** та значення типу bool у разі опції
-**`PGSQL_NOTICE_CLEAR`**.
+Рядок, що містить останнє повідомлення на заданому з'єднанні, якщо задана опція **`PGSQL_NOTICE_LAST`**, масив (array), якщо опція **`PGSQL_NOTICE_ALL`** та значення типу bool у разі опції **`PGSQL_NOTICE_CLEAR`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.1.0  | Доданий параметр mode.                                                                                                                                         |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Доданий параметр `mode` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_last_notice()****
+**Приклад #1 Приклад використання **пгlastnotice()****
 
-`<?php $pgsql_conn==pg_connect("dbname=mark host=localhost"); $res==pg_query("CREATE TABLE test|id(SERIAL)"); $notice==pg_last_notice($pgsql_conn); echo $notice;?> `
+```php
+<?php
+  $pgsql_conn = pg_connect("dbname=mark host=localhost");
+
+  $res = pg_query("CREATE TABLE test (id SERIAL)");
+
+  $notice = pg_last_notice($pgsql_conn);
+
+  echo $notice;
+?>
+```
 
 Результат виконання цього прикладу:
 
-CREATE TABLE буде створювати implicit sequence "test_id_seq" for "serial" column "test.id"
+```
+CREATE TABLE will create implicit sequence "test_id_seq" for "serial" column "test.id"
+```
 
 ### Дивіться також
 
-- [pg_query()](function.pg-query.md) - Виконує запит
-- [pg_last_error()](function.pg-last-error.md) - Отримує повідомлення
-про останню помилку на з'єднанні з базою даних
+-   [pg\_query()](function.pg-query.html) - Виконує запит
+-   [pg\_last\_error()](function.pg-last-error.html) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.

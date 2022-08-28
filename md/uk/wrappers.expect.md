@@ -1,9 +1,15 @@
-- [«ogg://](wrappers.audio.md)
-- [Безпека »](security.md)
+Потоки для взаємодії з процесами
 
-- [PHP Manual](index.md)
-- [Підтримувані протоколи та обгортки](wrappers.md)
-- Потоки для взаємодії з процесами
+-   [« ogg://](wrappers.audio.html)
+    
+-   [Безопасность »](security.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Поддерживаемые протоколы и обёртки](wrappers.html)
+    
+-   Потоки для взаємодії з процесами
+    
 
 # expect://
 
@@ -11,35 +17,32 @@ expect:// - Потоки для взаємодії з процесами
 
 ### Опис
 
-Потоки, відкриті за допомогою обгортки `expect://`, надають доступ до
-процесів stdio, stdout та stderr через PTY.
+Потоки, відкриті за допомогою обгортки expect://, надають доступ до процесів stdio, stdout та stderr через PTY.
 
-> **Примітка**: **Ця обгортка вимкнена за замовчуванням**
-> Для того щоб використовувати обгортку `expect://`, необхідно
-> встановити модуль [» Expect](https://pecl.php.net/package/expect),
-> доступний у [»PECL](https://pecl.php.net/).
+> **Зауваження** **Ця обгортка вимкнена за умовчанням**  
+> Для того щоб використовувати обгортку expect://, необхідно встановити модуль [» Expect](https://pecl.php.net/package/expect), доступний у [» PECL](https://pecl.php.net/)
 
-`expect://` (PECL)
+expect:// (PECL)
 
 ### Використання
 
-- `expect://command`
+-   expect://command
 
 ### Опції
 
-| Атрибут Підтримка                                                               |
-| ------------------------------------------------------------------------------- |
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні
-| Читання                                                                         | Так
-| Запис                                                                           | Так
-| Додавання                                                                       | Так
-| Одночасне читання та запис                                                      | Ні
-| Підтримка [stat()](function.stat.md)                                            | Ні
-| Підтримка [unlink()](function.unlink.md)                                        | Ні
-| Підтримка [rename()](function.rename.md)                                        | Ні
-| Підтримка [mkdir()](function.mkdir.md)                                          | Ні
-| Підтримка [rmdir()](function.rmdir.md)                                          | Ні
-
 **Основна інформація**
+
+| Атрибут | Поддержка |
+| --- | --- |
+| Обмеження по [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
+| Читання | Так |
+| Запис | Так |
+| Додавання | Так |
+| Одночасне читання та запис | Ні |
+| Підтримка [stat()](function.stat.html) | Ні |
+| Підтримка [unlink()](function.unlink.html) | Ні |
+| Підтримка [rename()](function.rename.html) | Ні |
+| Підтримка [mkdir()](function.mkdir.html) | Ні |
+| Підтримка [rmdir()](function.rmdir.html) | Ні |
 
 ### Приклади

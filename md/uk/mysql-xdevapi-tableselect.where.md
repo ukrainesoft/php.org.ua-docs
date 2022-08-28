@@ -1,9 +1,15 @@
-- [«TableSelect::orderby](mysql-xdevapi-tableselect.orderby.md)
-- [mysql_xdevapi\TableUpdate »](class.mysql-xdevapi-tableupdate.md)
+Встановлює умову пошуку вибірки
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-- Встановлює умову пошуку вибірки
+-   [« TableSelect::orderby](mysql-xdevapi-tableselect.orderby.html)
+    
+-   [mysql\_xdevapi\\TableUpdate »](class.mysql-xdevapi-tableupdate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+    
+-   Встановлює умову пошуку вибірки
+    
 
 # TableSelect::where
 
@@ -13,14 +19,16 @@ TableSelect::where — Встановлює умову пошуку вибірк
 
 ### Опис
 
-public **mysql_xdevapi\TableSelect::where**(string `$where_expr`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
+```methodsynopsis
+public mysql_xdevapi\TableSelect::where(string $where_expr): mysql_xdevapi\TableSelect
+```
 
 Встановлює умову пошуку фільтрації.
 
 ### Список параметрів
 
 `where_expr`
+
 Визначає умову пошуку фільтрації документів або записів.
 
 ### Значення, що повертаються
@@ -29,18 +37,34 @@ public **mysql_xdevapi\TableSelect::where**(string `$where_expr`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableSelect::where()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::where()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$result = $table->select('name','age') ->where('name like :name and age > :age') ->bind(['name' => 'John', ' age' => 42]) ->execute();$row = $result->fetchAll();print_r($row);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$result = $table->select('name','age')
+  ->where('name like :name and age > :age')
+  ->bind(['name' => 'John', 'age' => 42])
+  ->execute();
+
+$row = $result->fetchAll();
+print_r($row);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[name] => John
-[age] => 42
+    [0] => Array
+        (
+            [name] => John
+            [age] => 42
+        )
 )
-)
+```

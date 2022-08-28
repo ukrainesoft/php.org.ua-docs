@@ -1,37 +1,38 @@
-- [« fdf_set_on_import_javascript](function.fdf-set-on-import-javascript.md)
-- [fdf_set_status »](function.fdf-set-status.md)
+Встановлює параметри поля
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Встановлює параметри поля
+-   [« fdf\_set\_on\_import\_javascript](function.fdf-set-on-import-javascript.html)
+    
+-   [fdf\_set\_status »](function.fdf-set-status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Встановлює параметри поля
+    
 
-#fdf_set_opt
+# fdfsetopt
 
-(PHP 4 \>= 4.0.2, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_set_opt — Встановлює параметри поля
+fdfsetopt — Встановлює параметри поля
 
 ### Опис
 
-**fdf_set_opt**(
-resource `$fdf_document`,
-string `$fieldname`,
-int `$element`,
-string `$str1`,
-string `$str2`
-): bool
+```methodsynopsis
+fdf_set_opt(    resource $fdf_document,    string $fieldname,    int $element,    string $str1,    string $str2): bool
+```
 
 Встановлює параметри заданого поля.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) or
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
 
 `fieldname`
+
 Ім'я поля FDF у вигляді рядка.
 
 `element`
@@ -42,10 +43,8 @@ string `$str2`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fdf_set_flags()](function.fdf-set-flags.md) - Встановлює прапор
-поля
+-   [fdf\_set\_flags()](function.fdf-set-flags.html) - Встановлює прапор поля

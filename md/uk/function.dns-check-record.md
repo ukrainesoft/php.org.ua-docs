@@ -1,17 +1,22 @@
-- [«closelog](function.closelog.md)
-- [dns_get_mx »](function.dns-get-mx.md)
+Псевдонім checkdnsrr
 
-- [PHP Manual](index.md)
-- [Мережні функції](ref.network.md)
-- Псевдонім checkdnsrr
+-   [« closelog](function.closelog.html)
+    
+-   [dns\_get\_mx »](function.dns-get-mx.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сетевые функции](ref.network.html)
+    
+-   Псевдонім checkdnsrr
+    
 
-# dns_check_record
+# dnscheckrecord
 
 (PHP 5, PHP 7, PHP 8)
 
-dns_check_record - Псевдонім [checkdnsrr()](function.checkdnsrr.md)
+dnscheckrecord - Псевдонім [checkdnsrr()](function.checkdnsrr.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[checkdnsrr()](function.checkdnsrr.md).
+Ця функція є псевдонімом: [checkdnsrr()](function.checkdnsrr.html)

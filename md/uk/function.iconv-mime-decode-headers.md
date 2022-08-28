@@ -1,95 +1,109 @@
-- [« iconv_get_encoding](function.iconv-get-encoding.md)
-- [iconv_mime_decode »](function.iconv-mime-decode.md)
+Декодує кілька полів заголовка MIME
 
-- [PHP Manual](index.md)
-- [Функції iconv](ref.iconv.md)
-- Декодує кілька полів заголовка MIME
+-   [« iconv\_get\_encoding](function.iconv-get-encoding.html)
+    
+-   [iconv\_mime\_decode »](function.iconv-mime-decode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции iconv](ref.iconv.html)
+    
+-   Декодує кілька полів заголовка MIME
+    
 
-# iconv_mime_decode_headers
+# iconvmimedecodeheaders
 
 (PHP 5, PHP 7, PHP 8)
 
-iconv_mime_decode_headers - Декодує кілька полів заголовка `MIME`
+iconvmimedecodeheaders — Декодує кілька полів заголовка `MIME`
 
 ### Опис
 
-**iconv_mime_decode_headers**(string `$headers`, int `$mode` = 0,
-?string `$encoding` = **`null`**): array\|false
+```methodsynopsis
+iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = null): array|false
+```
 
 Декодує кілька полів заголовка `MIME` за один раз.
 
 ### Список параметрів
 
 `headers`
+
 Закодовані заголовки у вигляді рядка.
 
 `mode`
-Параметр `mode` визначає поведінку, якщо
-**iconv_mime_decode_headers()** виявить неправильне поле заголовка
-`MIME`. Можна вказати будь-яку комбінацію наступних бітових масок.
 
-| Значення | Константа Опис                      |                                                                                                                                                                                                                                                             |
-|----------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1        | ICONV_MIME_DECODE_STRICT            | Суворо дотримуватися стандартів, визначених у [»RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки MIME. |
-| 2        | ICONV_MIME_DECODE_CONTINUE_ON_ERROR | Якщо встановлено, **iconv_mime_decode_headers()** намагатиметься ігнорувати будь-які помилки та продовжувати обробку поточного заголовка.                                                                                                                   |
+Параметр `mode` визначає поведінку, якщо **iconvmimedecodeheaders()** виявить неправильне поле заголовка `MIME`. Можна вказати будь-яку комбінацію наступних бітових масок.
 
-**Бітові маски **iconv_mime_decode_headers()****
+**Бітові маски **iconvmimedecodeheaders()****
+
+| Значение | Константа | Описание |
+| --- | --- | --- |
+|  | ICONVMIMEDECODESTRICT | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
+|  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо встановлено, **iconvmimedecodeheaders()** намагатиметься ігнорувати будь-які помилки і продовжувати обробку поточного заголовка. |
 
 `encoding`
-Необов'язковий параметр `encoding` вказує кодування, в якому буде
-представлений результат. Якщо опущено, буде використано значення
-директиви [iconv.internal_encoding](iconv.configuration.md).
+
+Необов'язковий параметр `encoding` вказує кодування, в якому буде представлено результат. Якщо опущено, буде використано значення директиви [iconv.internal\_encoding](iconv.configuration.html)
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає асоціативний масив із полями
-`MIME`-заголовків, вказаних параметром `headers`, або **`false`** в
-у разі виникнення помилки.
+У разі успішного виконання повертає асоціативний масив із полями `MIME`заголовків, вказаних параметром `headers`, або **`false`** у разі виникнення помилки.
 
-Кожен ключ елемента повертається масиву є окремим
-ім'я поля, а сам елемент – його значення. Якщо у заголовку існує
-кілька полів з однаковим ім'ям **iconv_mime_decode_headers()**
-автоматично поміщає їх у підмасив з числовими індексами в порядку їх
-обробки. Зверніть увагу, що імена заголовків не * нечутливі до
-регістру*.
+Кожен ключ елемента повертається масиву є окреме ім'я поля, а сам елемент - його значення. Якщо в заголовку є кілька полів з однаковим ім'ям, **iconvmimedecodeheaders()** автоматично поміщає їх у підмасив із числовими індексами в порядку їх обробки. Зверніть увагу, що імена заголовків не *нечутливі до регістру*
 
-### Список змін
+### список змін
 
-| Версія | Опис                                   |
-|--------|----------------------------------------|
-| 8.0.0  | encoding тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **iconv_mime_decode_headers()****
+**Приклад #1 Приклад використання **iconvmimedecodeheaders()****
 
-` <?php$headers_string = <<<<EOFSubject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=To: example@example.comDate: Thu, 1 Jan 1970 00:00:00:00 example.com>Received: from localhost (localhost [127.0.0.1]) by localhost   with SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC)    (envelope-from example-return-0000-example=example.com@example.com)Received: (qmail 0 in5 1 Thu 2003 00:00:00 +0000EOF;$headers =  iconv_mime_decode_headers($headers_string, 0, "ISO-8859-1");print_r($headers);?> `
+```php
+<?php
+$headers_string = <<<EOF
+Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=
+To: example@example.com
+Date: Thu, 1 Jan 1970 00:00:00 +0000
+Message-Id: <example@example.com>
+Received: from localhost (localhost [127.0.0.1]) by localhost
+    with SMTP id example for <example@example.com>;
+    Thu, 1 Jan 1970 00:00:00 +0000 (UTC)
+    (envelope-from example-return-0000-example=example.com@example.com)
+Received: (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
+
+EOF;
+
+$headers =  iconv_mime_decode_headers($headers_string, 0, "ISO-8859-1");
+print_r($headers);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[Subject] => Prüfung Prüfung
-[To] => example@example.com
-[Date] => Thu, 1 Jan 1970 00:00:00 +0000
-[Message-Id] => <example@example.com>
-[Received] => Array
-(
-[0] => з localhost (localhost [127.0.0.1]) by localhost з SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC) (envelope-from example-return-0000-example=example.com@example.com)
-[1] => (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
-)
+    [Subject] => Prüfung Prüfung
+    [To] => example@example.com
+    [Date] => Thu, 1 Jan 1970 00:00:00 +0000
+    [Message-Id] => <example@example.com>
+    [Received] => Array
+        (
+            [0] => from localhost (localhost [127.0.0.1]) by localhost with SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC) (envelope-from example-return-0000-example=example.com@example.com)
+            [1] => (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
+        )
 
 )
+```
 
 ### Дивіться також
 
-- [iconv_mime_decode()](function.iconv-mime-decode.md) - Декодує
-поле MIME-заголовка
-- [mb_decode_mimeheader()](function.mb-decode-mimeheader.md) -
-Декодує рядок у MIME-заголовку
-- [imap_mime_header_decode()](function.imap-mime-header-decode.md) -
-Декодувати елементи заголовка
-- [imap_base64()](function.imap-base64.md) - Декодувати текст
-закодований BASE64
-- [imap_qprint()](function.imap-qprint.md) - Перетворити рядок з
-формату "quoted-printable" у 8-бітний рядок
+-   [iconv\_mime\_decode()](function.iconv-mime-decode.html) - Декодує поле MIME-заголовка
+-   [mb\_decode\_mimeheader()](function.mb-decode-mimeheader.html) - Декодує рядок у MIME-заголовку
+-   [imap\_mime\_header\_decode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
+-   [imap\_base64()](function.imap-base64.html) - Декодувати текст закодований BASE64
+-   [imap\_qprint()](function.imap-qprint.html) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок

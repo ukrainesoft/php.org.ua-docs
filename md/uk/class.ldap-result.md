@@ -1,21 +1,39 @@
-- [« LDAP\Connection](class.ldap-connection.md)
-- [LDAP\ResultEntry »](class.ldap-result-entry.md)
+Клас LDAPResult
 
-- [PHP Manual](index.md)
-- [LDAP](book.ldap.md)
-- Клас LDAP\Result
+-   [« LDAP\\Connection](class.ldap-connection.html)
+    
+-   [LDAP\\ResultEntry »](class.ldap-result-entry.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LDAP](book.ldap.html)
+    
+-   Клас LDAPResult
+    
 
-# Клас LDAP\Result
+# Клас LDAPResult
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `ldap result` у PHP
-8.1.0.
+Повністю непрозорий клас, який замінює ресурс `ldap result` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **LDAP\Result** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class LDAP\Result
+     
+     {
+    
+
+   }
+```

@@ -1,105 +1,128 @@
-- [«mysql_ping](function.mysql-ping.md)
-- [mysql_real_escape_string »](function.mysql-real-escape-string.md)
+Надсилає запит MySQL
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Надсилає запит MySQL
+-   [« mysql\_ping](function.mysql-ping.html)
+    
+-   [mysql\_real\_escape\_string »](function.mysql-real-escape-string.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Надсилає запит MySQL
+    
 
-# mysql_query
+# mysqlquery
 
 (PHP 4, PHP 5)
 
-mysql_query — Надсилає запит MySQL
+mysqlquery — Надсилає запит MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_query()](mysqli.query.md)
-- [PDO::query()](pdo.query.md)
+-   [mysqli\_query()](mysqli.query.html)
+-   [PDO::query()](pdo.query.html)
 
 ### Опис
 
-**mysql_query**(string `$query`, resource `$link_identifier` = NULL):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+mysql_query(string $query, resource $link_identifier = NULL): mixed
+```
 
-**mysql_query()** посилає один запит (надсилка кількох запитів не
-підтримується) активної бази даних сервера, на який посилається
-переданий дескриптор `link_identifier`.
+**mysqlquery()** посилає один запит (надсилання кількох запитів не підтримується) активній базі даних сервера, на який посилається переданий дескриптор `link_identifier`
 
 ### Список параметрів
 
 `query`
+
 SQL-запит
 
-Запит не повинен закінчуватися крапкою з комою. Дані у запиті повинні
-бути [коректно проекрановані](function.mysql-real-escape-string.md).
+Запит не повинен закінчуватися крапкою з комою. Дані у запиті мають бути [корректно проэкранированы](function.mysql-real-escape-string.html)
 
 `link_identifier`
-З'єднання MySQL. Якщо ідентифікатор з'єднання не було вказано,
-використовується останнє з'єднання, відкрите
-[mysql_connect()](function.mysql-connect.md). Якщо таке з'єднання не
-було знайдено, функція спробує створити таке, якби
-[mysql_connect()](function.mysql-connect.md) була викликана без
-параметрів. Якщо з'єднання не було знайдено і не змогло бути створено,
-генерується помилка рівня **`E_WARNING`**.
+
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Для запитів SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів,
-що повертають результат з кількох рядів, **mysql_query()** повертає
-дескриптор результату запиту (resource), або **`false`** у разі
-виникнення помилки.
+Для запитів SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результат з кількох рядів, **mysqlquery()** повертає дескриптор результату запиту (resource), або **`false`** у разі виникнення помилки.
 
-Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP та інших,
-**mysql_query()** повертає **`true`** у разі успішного виконання та
-**`false`** у разі виникнення помилки.
+Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP та інших, **mysqlquery()** повертає **`true`** у разі успішного виконання та **`false`** у разі виникнення помилки.
 
-Отриманий дескриптор результату слід передати у функцію
-[mysql_fetch_assoc()](function.mysql-fetch-assoc.md) або будь-яку іншу
-функцію, що працює із результатами запитів.
+Отриманий дескриптор результату слід передати у функцію [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) або будь-яку іншу функцію, яка працює з результатами запитів.
 
-Використовуйте [mysql_num_rows()](function.mysql-num-rows.md) для
-з'ясування кількості рядів в результаті SELECT-запиту або
-[mysql_affected_rows()](function.mysql-affected-rows.md) для з'ясування
-кількості оброблених рядів запитами DELETE, INSERT, REPLACE та
-UPDATE.
+Використовуйте [mysql\_num\_rows()](function.mysql-num-rows.html) для з'ясування кількості рядів в результаті SELECT-запиту або [mysql\_affected\_rows()](function.mysql-affected-rows.html) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
 
-**mysql_query()** також завершиться з помилкою і поверне **`false`**, якщо
-у користувача немає доступу до будь-якої з таблиць, що фігурують у
-запит.
+**mysqlquery()** також завершиться з помилкою та поверне **`false`**, якщо користувач не має доступу до будь-якої з таблиць, що фігурують у запиті.
 
 ### Приклади
 
 **Приклад #1 Неправильний запит**
 
-Наступний запит складено неправильно і **mysql_query()** поверне
-**`false`**.
+Наступний запит складено неправильно та **mysqlquery()** поверне **`false`**
 
-` <?php$result = mysql_query('SELECT * WHERE 1 = 1');if (!$result) {    die('Невірний запит: ' . mysql_error());}?> `
+```php
+<?php
+$result = mysql_query('SELECT * WHERE 1 = 1');
+if (!$result) {
+    die('Неверный запрос: ' . mysql_error());
+}
+
+?>
+```
 
 **Приклад #2 Вірний запит**
 
-Наступний запит є вірним, тому **mysql_query()** поверне resource.
+Наступний запит вірний, тому **mysqlquery()** поверне ресурс.
 
-` <?php//Ці дані, к прикладу, могли бути отримані від користувача$firstname = 'fred';$lastname  = 'fox';// Формуємо запрос// Ценай          ¦¦ в документации mysql_real_escape_string()$query = sprintf("SELECT firstname, lastname, address, age FROM friends    WHERE firstname='%s' AND lastname='%s'",    mysql_real_escape_string($firstname),    mysql_real_escape_string($lastname)); // Виконуємо запит$result = mysql_query($query);// Перевіряємо результат// Це показує реальний запит, посланий к MySQL, а також помилки. Зручно при налагодженні.if (!$result) {   $message  = 'Невірний запит: ' . mysql_error() . "
-";    $message .= 'Запит цілком: ' . $query;   die($message);}// Використовуємо результат// Спроба інформацію , працюючу з результатом запиту// Дивіться також mysql_result(), mysql_fetch_array(), mysql_fetch_row() і т.п.while ($row = mysql_fetch_   'lastname'];    echo $row['address'];   echo $row['age'];}// Звільняємо ресурси, асоційовані з результатом// Це робиться автоматично 
+```php
+<?php
+// Эти данные, к примеру, могли быть получены от пользователя
+$firstname = 'fred';
+$lastname  = 'fox';
+
+// Формируем запрос
+// Это лучший способ выполнить SQL-запрос
+// Ещё примеры можно найти в документации mysql_real_escape_string()
+$query = sprintf("SELECT firstname, lastname, address, age FROM friends
+    WHERE firstname='%s' AND lastname='%s'",
+    mysql_real_escape_string($firstname),
+    mysql_real_escape_string($lastname));
+
+// Выполняем запрос
+$result = mysql_query($query);
+
+// Проверяем результат
+// Это показывает реальный запрос, посланный к MySQL, а также ошибку. Удобно при отладке.
+if (!$result) {
+    $message  = 'Неверный запрос: ' . mysql_error() . "\n";
+    $message .= 'Запрос целиком: ' . $query;
+    die($message);
+}
+
+// Используем результат
+// Попытка напечатать $result не выведет информацию, которая в нем хранится
+// Необходимо использовать какую-либо mysql-функцию, работающую с результатом запроса
+// Смотрите также mysql_result(), mysql_fetch_array(), mysql_fetch_row() и т.п.
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row['firstname'];
+    echo $row['lastname'];
+    echo $row['address'];
+    echo $row['age'];
+}
+
+// Освобождаем ресурсы, ассоциированные с результатом
+// Это делается автоматически в конце скрипта
+mysql_free_result($result);
+?>
+```
 
 ### Дивіться також
 
-- [mysql_connect()](function.mysql-connect.md) - Відкриває
-з'єднання з сервером MySQL
-- [mysql_error()](function.mysql-error.md) - Повертає текст помилки
-останньої операції з MySQL
-- [mysql_real_escape_string()](function.mysql-real-escape-string.md) -
-Екранує спеціальні символи в рядках для використання в
-виразах SQL
-- [mysql_result()](function.mysql-result.md) - Повертає дані
-результату запиту
-- [mysql_fetch_assoc()](function.mysql-fetch-assoc.md) - Повертає
-ряд результату запиту як асоціативний масив
-- [mysql_unbuffered_query()](function.mysql-unbuffered-query.md) -
-Надсилає запит MySQL без авто-обробки результату та його
-буферизації
+-   [mysql\_connect()](function.mysql-connect.html) - Відкриває з'єднання із сервером MySQL
+-   [mysql\_error()](function.mysql-error.html) - Повертає текст помилки останньої операції з MySQL
+-   [mysql\_real\_escape\_string()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
+-   [mysql\_result()](function.mysql-result.html) - Повертає дані результату запиту
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.html) - Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_unbuffered\_query()](function.mysql-unbuffered-query.html) - Надсилає запит MySQL без авто-обробки результату та його буферизації

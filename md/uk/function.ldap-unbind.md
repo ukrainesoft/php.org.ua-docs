@@ -1,40 +1,46 @@
-- [« ldap_t61_to_8859](function.ldap-t61-to-8859.md)
-- [LDAP\Connection »](class.ldap-connection.md)
+Розірвати прив'язку до директорії LDAP
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Розірвати прив'язку до директорії LDAP
+-   [« ldap\_t61\_to\_8859](function.ldap-t61-to-8859.html)
+    
+-   [LDAP\\Connection »](class.ldap-connection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Розірвати прив'язку до директорії LDAP
+    
 
-#ldap_unbind
+# ldapunbind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_unbind — Розірвати прив'язку до директорії LDAP
+ldapunbind — Розірвати прив'язку до директорії LDAP
 
 ### Опис
 
-**ldap_unbind**([LDAP\Connection](class.ldap-connection.md) `$ldap`):
-bool
+```methodsynopsis
+ldap_unbind(LDAP\Connection $ldap): bool
+```
 
 Розриває прив'язку до LDAP-директорії.
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [ldap_bind()](function.ldap-bind.md) - Прив'язати до директорії LDAP
+-   [ldap\_bind()](function.ldap-bind.html) - Прив'язати до LDAP директорії

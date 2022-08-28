@@ -1,43 +1,48 @@
-- [« OAuth::setCAPath](oauth.setcapath.md)
-- [OAuth::setRequestEngine »](oauth.setrequestengine.md)
+Встановити nonce для наступних запитів
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Встановити nonce для подальших запитів
+-   [« OAuth::setCAPath](oauth.setcapath.html)
+    
+-   [OAuth::setRequestEngine »](oauth.setrequestengine.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Встановити nonce для наступних запитів
+    
 
 # OAuth::setNonce
 
-(PECL OAuth = 0.99.1)
+(PECL OAuth >= 0.99.1)
 
-OAuth::setNonce — Встановити nonce для подальших запитів
+OAuth::setNonce — Встановити nonce для подальших запитів.
 
 ### Опис
 
-public **OAuth::setNonce**(string `$nonce`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public OAuth::setNonce(string $nonce): mixed
+```
 
-Встановлює nonce на наступні запити.
+Встановлює nonce для подальших запитів.
 
 ### Список параметрів
 
 `nonce`
-Значення oauth_nonce.
+
+Значення oauthnonce.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`**,
-якщо параметр `nonce` заданий некоректно.
+Повертає **`true`** у разі успішного виконання, або **`false`**, якщо параметр `nonce` заданий некоректно.
 
-### Список змін
+### список змін
 
-| Версія           | Опис                                                                    |
-|------------------|-------------------------------------------------------------------------|
-| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **null** замість **false**. |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Дивіться також
 
-- [OAuth::setToken()](oauth.settoken.md) - Задати токен та його пароль
-- [OAuth::setAuthType()](oauth.setauthtype.md) - Встановити тип
-авторизації
-- [OAuth::setVersion()](oauth.setversion.md) - Встановити версію
-OAuth
+-   [OAuth::setToken()](oauth.settoken.html) - Задати токен та його пароль
+-   [OAuth::setAuthType()](oauth.setauthtype.html) - встановити тип авторизації
+-   [OAuth::setVersion()](oauth.setversion.html) - Встановити версію OAuth

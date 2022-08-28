@@ -1,24 +1,29 @@
-- [« SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md)
-- [SolrQuery::getHighlightFormatter »](solrquery.gethighlightformatter.md)
+Повертає всі поля, для яких Solr має генерувати виділені фрагменти
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі поля, для яких Solr має генерувати виділені
-фрагменти
+-   [« SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.html)
+    
+-   [SolrQuery::getHighlightFormatter »](solrquery.gethighlightformatter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає всі поля, для яких Solr має генерувати виділені фрагменти
+    
 
 # SolrQuery::getHighlightFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightFields — Повертає всі поля, для яких Solr
-має генерувати виділені фрагменти
+SolrQuery::getHighlightFields — Повертає всі поля, для яких Solr має генерувати виділені фрагменти
 
 ### Опис
 
-public **SolrQuery::getHighlightFields**(): array
+```methodsynopsis
+public SolrQuery::getHighlightFields(): array
+```
 
-Повертає всі поля, для яких Solr має генерувати виділені
-фрагменти.
+Повертає всі поля, для яких Solr має генерувати виділені фрагменти.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ public **SolrQuery::getHighlightFields**(): array
 
 ### Значення, що повертаються
 
-Повертає масив у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає масив у разі успішного виконання та **`null`**, якщо значення не встановлено

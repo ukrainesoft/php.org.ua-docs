@@ -1,9 +1,15 @@
-- [« mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
-- [SqlStatement::\_\_construct »](mysql-xdevapi-sqlstatement.construct.md)
+Зв'язує параметри затвердження
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
-- пов'язує параметри затвердження
+-   [« mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+    
+-   [SqlStatement::\_\_construct »](mysql-xdevapi-sqlstatement.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\SqlStatement](class.mysql-xdevapi-sqlstatement.html)
+    
+-   Зв'язує параметри затвердження
+    
 
 # SqlStatement::bind
 
@@ -13,13 +19,13 @@ SqlStatement::bind — Зв'язує параметри затвердження
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatement::bind**(string `$param`):
-[mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
+```methodsynopsis
+public mysql_xdevapi\SqlStatement::bind(string $param): mysql_xdevapi\SqlStatement
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,7 +35,12 @@ public **mysql_xdevapi\SqlStatement::bind**(string `$param`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatement::bind()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::bind()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

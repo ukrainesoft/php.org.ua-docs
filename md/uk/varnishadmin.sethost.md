@@ -1,23 +1,32 @@
-- [« VarnishAdmin::setCompat](varnishadmin.setcompat.md)
-- [VarnishAdmin::setIdent »](varnishadmin.setident.md)
+Встановити параметр конфігурації host класу
 
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- встановити параметр конфігурації host класу
+-   [« VarnishAdmin::setCompat](varnishadmin.setcompat.html)
+    
+-   [VarnishAdmin::setIdent »](varnishadmin.setident.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [VarnishAdmin](class.varnishadmin.html)
+    
+-   Встановити параметр конфігурації host класу
+    
 
 # VarnishAdmin::setHost
 
-(PECL varnish \>= 0.8)
+(PECL varnish >= 0.8)
 
 VarnishAdmin::setHost — Встановити параметр конфігурації host класу
 
 ### Опис
 
-public **VarnishAdmin::setHost**(string `$host`): void
+```methodsynopsis
+public VarnishAdmin::setHost(string $host): void
+```
 
 ### Список параметрів
 
 `host`
+
 Параметр конфігурації хоста підключення.
 
 ### Значення, що повертаються

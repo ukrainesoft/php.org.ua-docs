@@ -1,9 +1,15 @@
-- [«lcg_value](function.lcg-value.md)
-- [log1p »](function.log1p.md)
+Десятковий логарифм
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Десятковий логарифм
+-   [« lcg\_value](function.lcg-value.html)
+    
+-   [log1p »](function.log1p.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Десятковий логарифм
+    
 
 # log10
 
@@ -13,13 +19,16 @@ log10 - Десятковий логарифм
 
 ### Опис
 
-**log10**(float `$num`): float
+```methodsynopsis
+log10(float $num): float
+```
 
-Повертає десятковий логарифм 'num'.
+Повертає десятковий логарифм `num`
 
 ### Список параметрів
 
 `num`
+
 Вхідне значення
 
 ### Значення, що повертаються
@@ -28,4 +37,4 @@ log10 - Десятковий логарифм
 
 ### Дивіться також
 
-- [log()](function.log.md) - Натуральний логарифм
+-   [log()](function.log.html) - Натуральний логарифм

@@ -1,73 +1,82 @@
-- [«pg_socket](function.pg-socket.md)
-- [pg_transaction_status »](function.pg-transaction-status.md)
+Включає трасування підключення PostgreSQL
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Включає трасування підключення PostgreSQL
+-   [« pg\_socket](function.pg-socket.html)
+    
+-   [pg\_transaction\_status »](function.pg-transaction-status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Включає трасування підключення PostgreSQL
+    
 
-#pg_trace
+# пгtrace
 
-(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
 
-pg_trace — Включає трасування підключення PostgreSQL
+пгtrace — Включає трасування підключення PostgreSQL
 
 ### Опис
 
-**pg_trace**(string `$filename`, string `$mode` = "w",
-?[PgSql\Connection](class.pgsql-connection.md) `$connection` =
-**`null`**): bool
+```methodsynopsis
+pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = null): bool
+```
 
-**pg_trace()** включає трасування з'єднання з PostgreSQL сервером у
-зовнішній файл. Щоб розуміти вміст таких файлів, потрібно добре
-розбиратися у внутрішньому пристрої клієнт-серверної взаємодії.
+**пгtrace()** включає трасування з'єднання з PostgreSQL сервером у зовнішній файл. Щоб розуміти вміст таких файлів, необхідно добре розумітися на внутрішньому пристрої клієнт-серверної взаємодії.
 
-Для тих, хто не володіє подібними навичками, трасування все ж таки може
-виявитися корисною для пошуку помилок при надсиланні запитів на сервер.
-Наприклад, можна виконати команду **grep '^To backend' trace.log** та
-переглянути, які запити реально надіслані на сервер. Додаткову
-інформацію можна отримати з [» документації PostgreSQL](http://www.postgresql.org/docs/current/interactive/).
+Для тих, хто не володіє подібними навичками, трасування все ж таки може виявитися корисним для пошуку помилок при відправці запитів на сервер. Наприклад, можна виконати команду **grep '^To backend' trace.log** та подивитися, які запити реально надіслані на сервер. Додаткову інформацію можна отримати з [» документации PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
 
 ### Список параметрів
 
 `filename`
-Повний шлях та ім'я файлу для запису журналу трасування. Аналогічно
-[fopen()](function.fopen.md).
+
+Повний шлях та ім'я файлу для запису журналу трасування. Аналогічно [fopen()](function.fopen.html)
 
 `mode`
-Необов'язковий аргумент. Режим доступу до файлу. Аналогічно
-[fopen()](function.fopen.md).
+
+Необов'язковий аргумент. Режим доступу до файлу. Аналогічно [fopen()](function.fopen.html)
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_trace()****
+**Приклад #1 Приклад використання **пгtrace()****
 
-` <?php$pgsql_conn = pg_connect("dbname=mark host=localhost");if ($pgsql_conn) {   pg_trace('/tmp/trace.log', 'w', $pgsql_conn); pg_query("SELECT 1"); pg_untrace($pgsql_conn); // Тепер /tmp/trace.log зберігати інформацію про взаємодію з сервером} else {   print pg_last_error($pgsql_conn); exit;}?> `
+```php
+<?php
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
+
+if ($pgsql_conn) {
+   pg_trace('/tmp/trace.log', 'w', $pgsql_conn);
+   pg_query("SELECT 1");
+   pg_untrace($pgsql_conn);
+   // Теперь /tmp/trace.log будет хранить информацию о взаимодействии с сервером
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
+}
+?>
+```
 
 ### Дивіться також
 
-- [fopen()](function.fopen.md) - Відкриває файл або URL
-- [pg_untrace()](function.pg-untrace.md) - Вимикає трасування
-з'єднання з PostgreSQL
+-   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [pg\_untrace()](function.pg-untrace.html) - Вимикає трасування з'єднання з PostgreSQL

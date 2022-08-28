@@ -1,9 +1,15 @@
-- [« OAuth::getLastResponse](oauth.getlastresponse.md)
-- [OAuth::getLastResponseInfo »](oauth.getlastresponseinfo.md)
+Отримати заголовки останньої відповіді
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Отримати заголовки останньої відповіді
+-   [« OAuth::getLastResponse](oauth.getlastresponse.html)
+    
+-   [OAuth::getLastResponseInfo »](oauth.getlastresponseinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Отримати заголовки останньої відповіді
+    
 
 # OAuth::getLastResponseHeaders
 
@@ -13,7 +19,9 @@ OAuth::getLastResponseHeaders — Отримати заголовки остан
 
 ### Опис
 
-public **OAuth::getLastResponseHeaders**(): string\|false
+```methodsynopsis
+public OAuth::getLastResponseHeaders(): string|false
+```
 
 Повертає заголовки останньої відповіді.
 
@@ -23,5 +31,4 @@ public **OAuth::getLastResponseHeaders**(): string\|false
 
 ### Значення, що повертаються
 
-Рядок із заголовками останньої відповіді або **`false`** у разі
-виникнення помилки
+Рядок із заголовками останньої відповіді або **`false`** у разі виникнення помилки

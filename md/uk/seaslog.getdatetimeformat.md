@@ -1,25 +1,29 @@
-- [« SeasLog::getBufferEnabled](seaslog.getbufferenabled.md)
-- [SeasLog::getLastLogger »](seaslog.getlastlogger.md)
+Отримує стиль формату дати та часу SeasLog
 
-- [PHP Manual](index.md)
-- [SeasLog](class.seaslog.md)
-- Отримує стиль формату дати та часу SeasLog
+-   [« SeasLog::getBufferEnabled](seaslog.getbufferenabled.html)
+    
+-   [SeasLog::getLastLogger »](seaslog.getlastlogger.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SeasLog](class.seaslog.html)
+    
+-   Отримує стиль формату дати та часу SeasLog
+    
 
 # SeasLog::getDatetimeFormat
 
-(PECL seaslog \>=1.0.0)
+(PECL seaslog >=1.0.0)
 
-SeasLog::getDatetimeFormat — Отримує стиль формату дати та часу
-SeasLog
+SeasLog::getDatetimeFormat — Отримує стиль формату дати та часу SeasLog
 
 ### Опис
 
-public static **SeasLog::getDatetimeFormat**(): string
+```methodsynopsis
+public static SeasLog::getDatetimeFormat(): string
+```
 
-Отримує стиль формату дати та часу SeasLog. Використовуйте функцію
-**SeasLog::getDatetimeFormat()**, щоб отримати значення
-[seaslog.default_datetime_format](seaslog.configuration.md#ini.seaslog.default-datetime-format),
-який налаштований у php.ini(seaslog.ini).
+Отримує стиль формату дати та часу SeasLog. Використовуйте функцію **SeasLog::getDatetimeFormat()**, щоб отримати значення [seaslog.default\_datetime\_format](seaslog.configuration.html#ini.seaslog.default-datetime-format), яка налаштована в php.ini(seaslog.ini).
 
 ### Список параметрів
 
@@ -27,25 +31,30 @@ public static **SeasLog::getDatetimeFormat**(): string
 
 ### Значення, що повертаються
 
-Отримує стиль формату дати та часу SeasLog
-[seaslog.default_datetime_format](seaslog.configuration.md#ini.seaslog.default-datetime-format).
-Використання функції
-[SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.md) змінить
-це значення.
+Отримує стиль формату дати та часу SeasLog [seaslog.default\_datetime\_format](seaslog.configuration.html#ini.seaslog.default-datetime-format). Використання функції [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.html) змінить це значення.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SeasLog::getDatetimeFormat()****
 
-` <?phpvar_dump(SeasLog::getDateTimeFormat());var_dump(SeasLog::setDateTimeFormat('Ymd His'));var_dump(SeasLog::getDateTimeFormat());?> `
+```php
+<?php
+
+var_dump(SeasLog::getDateTimeFormat());
+var_dump(SeasLog::setDateTimeFormat('Ymd His'));
+var_dump(SeasLog::getDateTimeFormat());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "Y-m-d H:i:s"
 bool(true)
 string(7) "Ymd His"
+```
 
 ### Дивіться також
 
-- [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.md) -
-Встановлює стиль формату дати та часу SeasLog
+-   [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.html) - Встановлює стиль формату дати та часу SeasLog

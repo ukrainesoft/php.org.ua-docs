@@ -1,19 +1,27 @@
-- [« GearmanJob::functionName](gearmanjob.functionname.md)
-- [GearmanJob::returnCode »](gearmanjob.returncode.md)
+Отримання дескриптора об'єкта завдання
 
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Отримання дескриптора об'єкта завдання
+-   [« GearmanJob::functionName](gearmanjob.functionname.html)
+    
+-   [GearmanJob::returnCode »](gearmanjob.returncode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanJob](class.gearmanjob.html)
+    
+-   Отримання дескриптора об'єкта завдання
+    
 
 # GearmanJob::handle
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanJob::handle — Отримання дескриптора об'єкта завдання
 
 ### Опис
 
-public **GearmanJob::handle**(): string
+```methodsynopsis
+public GearmanJob::handle(): string
+```
 
 Повертає дескриптор завдання, наданий сервером.
 
@@ -27,5 +35,4 @@ public **GearmanJob::handle**(): string
 
 ### Дивіться також
 
-- [GearmanTask::jobHandle()](gearmantask.jobhandle.md) - Отримати
-дескриптор завдання
+-   [GearmanTask::jobHandle()](gearmantask.jobhandle.html) - Отримати дескриптор завдання

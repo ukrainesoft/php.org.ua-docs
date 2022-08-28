@@ -1,45 +1,49 @@
-- [«sem_get](function.sem-get.md)
-- [sem_remove »](function.sem-remove.md)
+Звільнення семафору
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Звільнення семафору
+-   [« sem\_get](function.sem-get.html)
+    
+-   [sem\_remove »](function.sem-remove.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Звільнення семафору
+    
 
-# sem_release
+# semrelease
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-sem_release - Звільнення семафору
+semrelease - Звільнення семафору
 
 ### Опис
 
-**sem_release**([SysvSemaphore](class.sysvsemaphore.md) `$semaphore`):
-bool
+```methodsynopsis
+sem_release(SysvSemaphore $semaphore): bool
+```
 
-**sem_release()** звільняє семафор, якщо він був захоплений зухвалим
-процесом, інакше генерується попередження.
+**semrelease()** звільняє семафор, якщо він був захоплений зухвалим процесом, інакше генерується попередження.
 
-Після звільнення семафор може бути захоплений повторно через виклик
-[sem_acquire()](function.sem-acquire.md).
+Після звільнення семафор може бути захоплений повторно через виклик [sem\_acquire()](function.sem-acquire.html)
 
 ### Список параметрів
 
 `semaphore`
-Семафор, повернутий [sem_get()](function.sem-get.md).
+
+Семафор, повернутий [sem\_get()](function.sem-get.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                      |
-| ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр semaphore тепер очікує на екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [sem_get()](function.sem-get.md) - Отримання ідентифікатора
-семафора
-- [sem_acquire()](function.sem-acquire.md) - Захоплення семафору
+-   [sem\_get()](function.sem-get.html) - Отримання ідентифікатора семафору
+-   [sem\_acquire()](function.sem-acquire.html) - Захоплення семафору

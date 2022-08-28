@@ -1,59 +1,59 @@
-- [« dbase_get_record_with_names](function.dbase-get-record-with-names.md)
-- [dbase_numfields »](function.dbase-numfields.md)
+Отримує записи з бази даних як з індексованого масиву
 
-- [PHP Manual](index.md)
-- [dBase](ref.dbase.md)
-- Отримує записи з бази даних, як із індексованого масиву
+-   [« dbase\_get\_record\_with\_names](function.dbase-get-record-with-names.html)
+    
+-   [dbase\_numfields »](function.dbase-numfields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [dBase](ref.dbase.html)
+    
+-   Отримує записи з бази даних як з індексованого масиву
+    
 
-#dbase_get_record
+# dbasegetrecord
 
-(PHP 5 \< 5.3.0, dbase 5, dbase 7)
+(PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbase_get_record — Отримує записи з бази даних, як із
-індексованого масиву
+dbasegetrecord — Отримує записи з бази даних, як із індексованого масиву
 
 ### Опис
 
-**dbase_get_record**(resource `$database`, int `$number`): array
+```methodsynopsis
+dbase_get_record(resource $database, int $number): array
+```
 
 Отримує записи з бази даних як з індексованого масиву.
 
 ### Список параметрів
 
 `database`
-Ресурс бази даних, що повертається функцією
-[dbase_open()](function.dbase-open.md) або
-[dbase_create()](function.dbase-create.md).
+
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.html) або [dbase\_create()](function.dbase-create.html)
 
 `number`
-Індекс запису (Тут відповідає фізичному номеру запису. - Прим.
-пер.) в діапазоні від `1` до `dbase_numrecords($dbase_identifier)`
+
+Індекс запису (Тут відповідає фізичному номеру запису. - прим. пров.) в діапазоні від `1` до `dbase_numrecords($dbase_identifier)`
 
 ### Значення, що повертаються
 
-Повертає запис як масиву. Масив буде включати ключ
-`deleted` який дорівнює 1, якщо запис позначений на видалення (дивіться
-[dbase_delete_record()](function.dbase-delete-record.md)).
+Повертає запис як масиву. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbase\_delete\_record()](function.dbase-delete-record.html)
 
 Кожне поле перетворюється на відповідний тип PHP, за винятком:
 
-- Date перетворюється на рядок.
-- DateTime перетворюється на рядок.
-- Цілі, що виходять з діапазону **`PHP_INT_MIN`**..**`PHP_INT_MAX`**
-перетворюються на рядки.
-- До dbase 7.0.0, логічні значення (`L`) перетворюються на `1` або
-`0`.
+-   Date перетворюється на рядок.
+-   DateTime перетворюється на рядок.
+-   Цілі, що виходять із діапазону **`PHP_INT_MIN`****`PHP_INT_MAX`** перетворюються на рядки.
+-   До dbase 7.0.0, логічні значення (`L`) перетворюються на `1` або `0`
 
-У разі виникнення помилки, **dbase_get_record()** повертає
-**`false`**.
+У разі виникнення помилки, **dbasegetrecord()** повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія    | Опис                                                |
-| --------- | --------------------------------------------------- |
-| dbase 7.0 | Параметр database тепер має тип resource, а не int. |
+| Версия | Описание |
+| --- | --- |
+| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
 
 ### Дивіться також
 
-- [dbase_get_record_with_names()](function.dbase-get-record-with-names.md) -
-Отримує запис із бази даних у вигляді асоціативного масиву
+-   [dbase\_get\_record\_with\_names()](function.dbase-get-record-with-names.html) - Отримує запис із бази даних у вигляді асоціативного масиву

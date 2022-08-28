@@ -1,20 +1,24 @@
-- [« parallel\Sync::notify](parallel-sync.notify.md)
-- [pthreads »](book.pthreads.md)
+Синхронізація
 
-- [PHP Manual](index.md)
-- [parallel\Sync](class.parallel-sync.md)
-- Синхронізація
+-   [« parallel\\Sync::notify](parallel-sync.notify.html)
+    
+-   [pthreads »](book.pthreads.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Sync](class.parallel-sync.html)
+    
+-   Синхронізація
+    
 
-# parallel\Sync::\_\_invoke
+# parallelSync::invoke
 
-(1.1.0)
-
-parallel\Sync::\_\_invoke — Синхронізація
+parallelSync::invoke — Синхронізація
 
 ### Опис
 
-public
-**parallel\Sync::\_\_invoke**([callable](language.types.callable.md)
-`$critical`)
+```methodsynopsis
+public parallel\Sync::__invoke(callable $critical)
+```
 
 Повинен бути включений виключно до критичного коду.

@@ -1,15 +1,21 @@
-- [«Вступ](intro.pcntl.md)
-- [Вимоги »](pcntl.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [PCNTL](book.pcntl.md)
+-   [« Введение](intro.pcntl.html)
+    
+-   [Требования »](pcntl.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PCNTL](book.pcntl.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](pcntl.requirements.md)
-- [Установка](pcntl.installation.md)
-- [Налаштування під час виконання](pcntl.configuration.md)
-- [Типи ресурсів](pcntl.resources.md)
+-   [Требования](pcntl.requirements.html)
+-   [Установка](pcntl.installation.html)
+-   [Настройка во время выполнения](pcntl.configuration.html)
+-   [Типы ресурсов](pcntl.resources.html)

@@ -1,24 +1,31 @@
-- [« Yaf_Request_Abstract::getActionName](yaf-request-abstract.getactionname.md)
-- [Yaf_Request_Abstract::getControllerName »](yaf-request-abstract.getcontrollername.md)
+Призначення getBaseUri
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Призначення getBaseUri
+-   [« Yaf\_Request\_Abstract::getActionName](yaf-request-abstract.getactionname.html)
+    
+-   [Yaf\_Request\_Abstract::getControllerName »](yaf-request-abstract.getcontrollername.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Призначення getBaseUri
+    
 
-# Yaf_Request_Abstract::getBaseUri
+# YafRequestAbstract::getBaseUri
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::getBaseUri — Призначення getBaseUri
+YafRequestAbstract::getBaseUri — Призначення getBaseUri
 
 ### Опис
 
-public **Yaf_Request_Abstract::getBaseUri**(): void
+```methodsynopsis
+public Yaf_Request_Abstract::getBaseUri(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

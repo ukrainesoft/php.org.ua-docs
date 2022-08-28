@@ -1,29 +1,36 @@
-- [«SVM::getOptions](svm.getoptions.md)
-- [SVM::train »](svm.train.md)
+Встановити параметри навчання
 
-- [PHP Manual](index.md)
-- [SVM](class.svm.md)
-- встановити параметри навчання
+-   [« SVM::getOptions](svm.getoptions.html)
+    
+-   [SVM::train »](svm.train.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SVM](class.svm.html)
+    
+-   Встановити параметри навчання
+    
 
 # SVM::setOptions
 
-(PECL svm \>= 0.1.0)
+(PECL svm >= 0.1.0)
 
 SVM::setOptions — Встановити параметри навчання
 
 ### Опис
 
-public **SVM::setOptions**(array `$params`): bool
+```methodsynopsis
+public SVM::setOptions(array $params): bool
+```
 
-Встановлює один або більше параметрів навчання.
+Встановлює один або декілька параметрів навчання.
 
 ### Список параметрів
 
 `params`
-Масив параметрів навчання, де як ключі використовуються константи
-SVM.
+
+Масив параметрів навчання, де як ключі використовуються константи SVM.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, у разі
-Виникнення помилки викидає SVMException.
+Повертає **`true`** у разі успішного виконання, у разі виникнення помилки викидає SVMException.

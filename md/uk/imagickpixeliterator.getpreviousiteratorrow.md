@@ -1,9 +1,15 @@
-- [« ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.md)
-- [ImagickPixelIterator::newPixelIterator »](imagickpixeliterator.newpixeliterator.md)
+Повертає попередній ряд
 
-- [PHP Manual](index.md)
-- [ImagickPixelIterator](class.imagickpixeliterator.md)
-- Повертає попередній ряд
+-   [« ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.html)
+    
+-   [ImagickPixelIterator::newPixelIterator »](imagickpixeliterator.newpixeliterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickPixelIterator](class.imagickpixeliterator.html)
+    
+-   Повертає попередній ряд
+    
 
 # ImagickPixelIterator::getPreviousIteratorRow
 
@@ -13,17 +19,16 @@ ImagickPixelIterator::getPreviousIteratorRow — Повертає поперед
 
 ### Опис
 
-public **ImagickPixelIterator::getPreviousIteratorRow**(): array
+```methodsynopsis
+public ImagickPixelIterator::getPreviousIteratorRow(): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає попередній ряд як масиву пікселів з ітератора пікселів.
 
 ### Значення, що повертаються
 
-Повертає попередній ряд у вигляді масиву об'єктів ImagickPixel, у разі
-виникнення помилки викидає виняток
-ImagickPixelIteratorException.
+Повертає попередній ряд у вигляді масиву об'єктів ImagickPixel, у разі виникнення помилки викидає виняток ImagickPixelIteratorException.

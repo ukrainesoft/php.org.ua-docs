@@ -1,15 +1,21 @@
-- [«Вступ](intro.posix.md)
-- [Вимоги »](posix.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [POSIX](book.posix.md)
+-   [« Введение](intro.posix.html)
+    
+-   [Требования »](posix.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX](book.posix.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](posix.requirements.md)
-- [Установка](posix.installation.md)
-- [Налаштування під час виконання](posix.configuration.md)
-- [Типи ресурсів](posix.resources.md)
+-   [Требования](posix.requirements.html)
+-   [Установка](posix.installation.html)
+-   [Настройка во время выполнения](posix.configuration.html)
+-   [Типы ресурсов](posix.resources.html)

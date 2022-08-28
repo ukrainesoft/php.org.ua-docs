@@ -1,20 +1,39 @@
-- [« imap_utf8](function.imap-utf8.md)
-- [Mail»](book.mail.md)
+Клас IMAPConnection
 
-- [PHP Manual](index.md)
-- [IMAP](book.imap.md)
-- Клас IMAP\Connection
+-   [« imap\_utf8](function.imap-utf8.html)
+    
+-   [Mail »](book.mail.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IMAP](book.imap.html)
+    
+-   Клас IMAPConnection
+    
 
-# Клас IMAP\Connection
+# Клас IMAPConnection
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс imap в PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `imap` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **IMAP\Connection** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class IMAP\Connection
+     
+     {
+    
+
+   }
+```

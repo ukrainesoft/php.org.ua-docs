@@ -1,102 +1,89 @@
-- [« parallel\Future::value](parallel-future.value.md)
-- [parallel\Channel::\_\_construct »](parallel-channel.construct.md)
+Клас parallelChannel
 
-- [PHP Manual](index.md)
-- [parallel](book.parallel.md)
-- Клас parallel\Channel
+-   [« parallel\\Future::value](parallel-future.value.html)
+    
+-   [parallel\\Channel::\_\_construct »](parallel-channel.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel](book.parallel.html)
+    
+-   Клас parallelChannel
+    
 
-# Клас parallel\Channel
-
-(0.9.0)
+# Клас parallelChannel
 
 ## Небуферизовані канали
 
-Небуферизований канал блокуватиме виклики
-[parallel\Channel::send()](parallel-channel.send.md), поки
-не буде одержувач та блокувати виклики
-[parallel\Channel::recv()](parallel-channel.recv.md), поки
-не буде відправник. Це означає, що небуферизований канал – це не
-тільки спосіб обміну даними між завданнями, а й простий метод
-синхронізації.
+Небуферизований канал блокуватиме виклики [parallel\\Channel::send()](parallel-channel.send.html) до тих пір, поки не буде одержувач і блокуватиме дзвінки [parallel\\Channel::recv()](parallel-channel.recv.html) доти, доки відправник. Це означає, що небуферизований канал - це спосіб обміну даними між завданнями, а й простий метод синхронізації.
 
-Небуферизований канал - це найшвидший спосіб обміну даними між
-завданням, що вимагає найменшої кількості копіювання.
+Небуферизований канал – це найшвидший спосіб обміну даними між завданнями, що вимагає найменшої кількості копіювання.
 
 ## Буферизовані канали
 
-Буферизований канал не блокуватиметься під час дзвінків
-[parallel\Channel::send()](parallel-channel.send.md), поки
-не буде досягнуто ємність, виклики
-[parallel\Channel::recv()](parallel-channel.recv.md) буде
-блокуватись, поки в буфері не з'являться дані.
+Буферизований канал не блокуватиметься під час дзвінків [parallel\\Channel::send()](parallel-channel.send.html) доти, доки не буде досягнуто ємності, виклики [parallel\\Channel::recv()](parallel-channel.recv.html) буде блокуватись, поки в буфері не з'являться дані.
 
 ## Замикання поверх каналів
 
-Потужна особливість паралельних каналів у тому, що вони дозволяють
-обмінюватися замикання між завданнями (і середовищами виконання).
+Потужна особливість паралельних каналів полягає в тому, що вони дозволяють обмінюватися замикання між завданнями (і середовищами виконання).
 
-Коли замикання відправляється каналом, воно буферизується, не змінює
-буферизацію каналу, що передає замикання, але воно впливає на статичну
-область видимості всередині замикання: одне й те саме замикання, відправлене
-в різні середовища виконання або в те саме середовище виконання, не буде
-ділитися своєю статичною областю.
+Коли замикання відправляється по каналу, воно буферизується, не змінює буферизацію каналу, що передає замикання, але воно впливає на статичну область видимості всередині замикання: одне і те ж замикання, відправлене в різні середовища виконання або в те саме середовище виконання, не ділитися своєю статичною областю.
 
-Це означає, що кожен раз, коли виконується замикання, яке було
-передано каналом, статичний стан буде таким, яким він був при
-буферизації замикання.
+Це означає, що кожного разу, коли виконується замикання, яке було передане каналом, статичний стан буде таким, яким воно було при буферизації замикання.
 
 ## Анонімні канали
 
-Конструктор анонімного каналу дозволяє програмісту уникати присвоєння
-імен кожному каналу: parallel генерує унікальне ім'я для анонімних
-каналів.
+Конструктор анонімного каналу дозволяє програмісту уникати присвоєння імен кожному каналу: parallel генерує унікальне ім'я анонімних каналів.
 
 ## Огляд класів
 
-final class **parallel\Channel** {
+```classsynopsis
 
-/\* Анонімний конструктор \*/
 
-public [\_\_construct](parallel-channel.construct.md)()
 
-public [\_\_construct](parallel-channel.construct.md)(int `$capacity`)
+    
+     
+      final
+      class parallel\Channel
+     
+     {
 
-/\* Доступ \*/
 
-public [make](parallel-channel.make.md)(string `$name`): Channel
+    /* Анонимный конструктор */
+    
+   public __construct()
+public __construct(int $capacity)
 
-public [make](parallel-channel.make.md)(string `$name`, int
-`$capacity`): Channel
 
-public [open](parallel-channel.open.md)(string `$name`): Channel
+    /* Доступ */
+    public make(string $name): Channel
+public make(string $name, int $capacity): Channel
+public open(string $name): Channel
 
-/\* Спільне використання \*/
 
-public [recv](parallel-channel.recv.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Совместное использование */
+    public recv(): mixed
+public send(mixed $value): void
 
-public
-[send](parallel-channel.send.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
 
-/\* Закриття \*/
+    /* Закрытие */
+    public close(): void
 
-public [close](parallel-channel.close.md)(): void
 
-/\* Константа для нескінченної буферизації \*/
+    /* Константа для бесконечной буферизации */
+    
+     const
+      Infinite;
 
-const `Infinite`;
 
-}
+   }
+```
 
 ## Зміст
 
-- [parallel\Channel::\_\_construct](parallel-channel.construct.md) -
-Конструктор класу Channel
-- [parallel\Channel::make](parallel-channel.make.md) — Доступ
-- [parallel\Channel::open](parallel-channel.open.md) — Доступ
-- [parallel\Channel::recv](parallel-channel.recv.md) — Спільне
-використання
-- [parallel\Channel::send](parallel-channel.send.md) — Спільне
-використання
-- [parallel\Channel::close](parallel-channel.close.md) — Закриття
+-   [parallel\\Channel::\_\_construct](parallel-channel.construct.html) - Конструктор класу Channel
+-   [parallel\\Channel::make](parallel-channel.make.html) - Доступ
+-   [parallel\\Channel::open](parallel-channel.open.html) - Доступ
+-   [parallel\\Channel::recv](parallel-channel.recv.html) - Спільне використання
+-   [parallel\\Channel::send](parallel-channel.send.html) - Спільне використання
+-   [parallel\\Channel::close](parallel-channel.close.html) - Закриття

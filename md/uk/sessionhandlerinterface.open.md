@@ -1,42 +1,45 @@
-- [« SessionHandlerInterface::gc](sessionhandlerinterface.gc.md)
-- [SessionHandlerInterface::read »](sessionhandlerinterface.read.md)
+Ініціалізує сесію
 
-- [PHP Manual](index.md)
-- [SessionHandlerInterface](class.sessionhandlerinterface.md)
-- Ініціалізує сесію
+-   [« SessionHandlerInterface::gc](sessionhandlerinterface.gc.html)
+    
+-   [SessionHandlerInterface::read »](sessionhandlerinterface.read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SessionHandlerInterface](class.sessionhandlerinterface.html)
+    
+-   Ініціалізує сесію
+    
 
 # SessionHandlerInterface::open
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::open — Ініціалізує сесію
 
 ### Опис
 
-public **SessionHandlerInterface::open**(string `$path`, string
-`$name`): bool
+```methodsynopsis
+public SessionHandlerInterface::open(string $path, string $name): bool
+```
 
-Повторно ініціалізує існуючу сесію чи створює нову.
-Викликається коли сесія стартує або коли викликана функція
-[session_start()](function.session-start.md).
+Повторно ініціалізує існуючу сесію чи створює нову. Викликається коли сесія стартує або коли викликана функція [session\_start()](function.session-start.html)
 
 ### Список параметрів
 
 `path`
+
 Шлях, яким зберігається/відновлюється сесія.
 
 `name`
+
 Назва сесії.
 
 ### Значення, що повертаються
 
-Значення сесійного сховища, що повертається (зазвичай **`true`** у випадку
-успішного виконання, **`false`** у разі виникнення помилки). Це
-значення повертається назад до PHP для внутрішньої обробки.
+Значення сесійного сховища, що повертається (зазвичай **`true`** у разі успішного виконання, **`false`** у разі виникнення помилки). Це значення повертається назад до PHP для внутрішньої обробки.
 
 ### Дивіться також
 
-- [session_name()](function.session-name.md) - Отримати або
-встановити ім'я поточної сесії
-- Опція конфігурації
-[session.auto-start](session.configuration.md#ini.session.auto-start)
+-   [session\_name()](function.session-name.html) - Отримати чи встановити ім'я поточної сесії
+-   Опція конфігурації [session.auto-start](session.configuration.html#ini.session.auto-start)

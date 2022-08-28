@@ -1,9 +1,15 @@
-- [« ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.md)
-- [ZMQDevice::setIdleCallback »](zmqdevice.setidlecallback.md)
+Запуск нового пристрою
 
-- [PHP Manual](index.md)
-- [ZMQDevice](class.zmqdevice.md)
-- Запуск нового пристрою
+-   [« ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.html)
+    
+-   [ZMQDevice::setIdleCallback »](zmqdevice.setidlecallback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQDevice](class.zmqdevice.html)
+    
+-   Запуск нового пристрою
+    
 
 # ZMQDevice::run
 
@@ -13,7 +19,9 @@ ZMQDevice::run — Запуск нового пристрою
 
 ### Опис
 
-public **ZMQDevice::run**(): void
+```methodsynopsis
+public ZMQDevice::run(): void
+```
 
 Запускає пристрій.
 
@@ -23,6 +31,4 @@ public **ZMQDevice::run**(): void
 
 ### Значення, що повертаються
 
-Запуск цього методу блокує виконання, поки пристрій запущено. Не
-рекомендується використовувати у інтерактивних скриптах. В разі
-Виникнення помилки викидає виняток ZMQDeviceException.
+Запуск цього методу блокує виконання, поки пристрій запущено. Не рекомендується використовувати в інтерактивних сценаріях. У разі помилки викидає виняток ZMQDeviceException.

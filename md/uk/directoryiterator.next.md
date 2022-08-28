@@ -1,23 +1,29 @@
-- [« DirectoryIterator::key](directoryiterator.key.md)
-- [DirectoryIterator::rewind »](directoryiterator.rewind.md)
+Переміщує покажчик на наступний елемент DirectoryIterator
 
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Переміщує покажчик на наступний елемент DirectoryIterator
+-   [« DirectoryIterator::key](directoryiterator.key.html)
+    
+-   [DirectoryIterator::rewind »](directoryiterator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DirectoryIterator](class.directoryiterator.html)
+    
+-   Переміщує покажчик на наступний елемент DirectoryIterator
+    
 
 # DirectoryIterator::next
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::next — Переміщує покажчик на наступний елемент
-DirectoryIterator
+DirectoryIterator::next — Переміщує курсор на наступний елемент DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::next**(): void
+```methodsynopsis
+public DirectoryIterator::next(): void
+```
 
-Переміщує покажчик на наступний елемент
-[DirectoryIterator](class.directoryiterator.md).
+Переміщує покажчик на наступний елемент [DirectoryIterator](class.directoryiterator.html)
 
 ### Список параметрів
 
@@ -33,28 +39,31 @@ public **DirectoryIterator::next**(): void
 
 Виведення списку вмісту директорії за допомогою циклу while
 
-` <?php$iterator = new DirectoryIterator(dirname(__FILE__));while($iterator->valid()) {    echo $iterator->getFilename() . "
-";   $iterator->next();}?> `
+```php
+<?php
+$iterator = new DirectoryIterator(dirname(__FILE__));
+while($iterator->valid()) {
+    echo $iterator->getFilename() . "\n";
+    $iterator->next();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 .
 ..
 apple.jpg
 banana.jpg
 index.php
 pear.jpg
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::current()](directoryiterator.current.md) -
-Повертає поточний елемент DirectoryIterator
-- [DirectoryIterator::key()](directoryiterator.key.md) - Повертає
-ключ поточного елемента DirectoryIterator
-- [DirectoryIterator::rewind()](directoryiterator.rewind.md) -
-Встановлює вказівник на перший елемент DirectoryIterator
-- [DirectoryIterator::valid()](directoryiterator.valid.md) -
-Перевіряє, чи поточний елемент DirectoryIterator є допустимим
-файлом
-- [Iterator::next()](iterator.next.md) - Переходить до наступного
-елементу
+-   [DirectoryIterator::current()](directoryiterator.current.html) - Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.html) - Повертає ключ поточного елемента DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.html) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::valid()](directoryiterator.valid.html) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
+-   [Iterator::next()](iterator.next.html) - Переходить до наступного елементу

@@ -1,23 +1,26 @@
-- [«fbird_fetch_row](function.fbird-fetch-row.md)
-- [fbird_free_event_handler »](function.fbird-free-event-handler.md)
+Псевдонім ibasefieldinfo
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_field_info
+-   [« fbird\_fetch\_row](function.fbird-fetch-row.html)
+    
+-   [fbird\_free\_event\_handler »](function.fbird-free-event-handler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasefieldinfo
+    
 
-#fbird_field_info
+# fbirdfieldinfo
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_field_info - Псевдонім
-[ibase_field_info()](function.ibase-field-info.md)
+fbirdfieldinfo - Псевдонім [ibase\_field\_info()](function.ibase-field-info.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_field_info()](function.ibase-field-info.md).
+Ця функція є псевдонімом: [ibase\_field\_info()](function.ibase-field-info.html)
 
 ### Дивіться також
 
-- [fbird_num_fields()](function.fbird-num-fields.md) - Псевдонім
-ibase_num_fields
+-   [fbird\_num\_fields()](function.fbird-num-fields.html) - Псевдонім ibasenumfields

@@ -1,9 +1,15 @@
-- [« ImagickDraw::popDefs](imagickdraw.popdefs.md)
-- [ImagickDraw::push »](imagickdraw.push.md)
+Завершує визначення шаблону
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Завершує визначення шаблону
+-   [« ImagickDraw::popDefs](imagickdraw.popdefs.html)
+    
+-   [ImagickDraw::push »](imagickdraw.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Завершує визначення шаблону
+    
 
 # ImagickDraw::popPattern
 
@@ -13,16 +19,16 @@ ImagickDraw::popPattern — Завершує визначення шаблону
 
 ### Опис
 
-public **ImagickDraw::popPattern**(): bool
+```methodsynopsis
+public ImagickDraw::popPattern(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Завершує визначення шаблону.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

@@ -1,64 +1,61 @@
-- [« imap_listsubscribed](function.imap-listsubscribed.md)
-- [imap_mail_compose »](function.imap-mail-compose.md)
+Список усіх підписаних поштових скриньок
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Список усіх підписаних поштових скриньок
+-   [« imap\_listsubscribed](function.imap-listsubscribed.html)
+    
+-   [imap\_mail\_compose »](function.imap-mail-compose.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Список усіх підписаних поштових скриньок
+    
 
-#imap_lsub
+# imaplsub
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_lsub — список усіх підписаних поштових скриньок
+imaplsub — Список усіх підписаних поштових скриньок
 
 ### Опис
 
-**imap_lsub**([IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$reference`, string `$pattern`): array\|false
+```methodsynopsis
+imap_lsub(IMAP\Connection $imap, string $reference, string $pattern): array|false
+```
 
-Повертає масив всіх поштових скриньок, на які ви підписані.
+Повертає масив усіх поштових скриньок, на які ви підписані.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `reference`
-В `reference`, як правило, має бути вказана лише специфікація
-сервера, як описано в [imap_open()](function.imap-open.md).
+
+У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imap\_open()](function.imap-open.html)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
-Визначає початок пошуку у ієрархії поштових скриньок.
 
-Є два спеціальні символи, які можна використовувати під час передачі
-як частина `pattern`: '`*`` та '`%''. '`*`' повертає всі поштові скриньки.
-Якщо ви передасте `pattern` як ``*``, то отримаєте повний перелік
-ієрархії поштових скриньок. ''%'' поверне лише поточний рівень. ''%'',
-переданий як параметр `pattern`, поверне поштові скриньки лише на самому
-верхній рівень; '`~/mail/%`' на `UW_IMAPD` поверне всі ящики в директорії
-`~/mail`, крім тих, що знаходяться в її піддиректоріях.
+Визначає початок пошуку в ієрархії поштових скриньок.
+
+Є два спеціальні символи, які можна використовувати при передачі як частину `pattern``*`'і'`%``*`' повертає всі поштові скриньки. Якщо ви передасте `pattern` як '`*`', то отримайте повний список ієрархії поштових скриньок. '`%`' поверне лише поточний рівень. '`%`', переданий як параметр `pattern`, поверне поштові скриньки лише на верхньому рівні; '`~/mail/%`' на `UW_IMAPD` поверне всі ящики в директорії ~/mail, крім тих, що знаходяться в її піддиректорії.
 
 ### Значення, що повертаються
 
-Повертає масив усіх підписаних поштових скриньок або **`false`**
-у разі виникнення помилки.
+Повертає масив усіх підписаних поштових скриньок або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_list()](function.imap-list.md) - Прочитати список поштових
-ящиків
-- [imap_getmailboxes()](function.imap-getmailboxes.md) - Прочитати
-список поштових скриньок, повертаючи докладну інформацію по кожному з
-них
+-   [imap\_list()](function.imap-list.html) - Прочитати список поштових скриньок
+-   [imap\_getmailboxes()](function.imap-getmailboxes.html) - Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожного з них

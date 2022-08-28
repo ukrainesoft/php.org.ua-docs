@@ -1,18 +1,24 @@
-- [«Оголошення класів атрибутів](language.attributes.classes.md)
-- [Що таке посилання »](language.references.whatare.md)
+Пояснення посилань
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- Пояснення посилань
+-   [« Объявление классов атрибутов](language.attributes.classes.html)
+    
+-   [Что такое ссылки »](language.references.whatare.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Пояснення посилань
+    
 
 # Пояснення посилань
 
 ## Зміст
 
-- [Що таке посилання](language.references.whatare.md)
-- [Що роблять посилання](language.references.whatdo.md)
-- [Чим посилання не є](language.references.arent.md)
-- [Передача за посиланням](language.references.pass.md)
-- [Повернення за посиланням](language.references.return.md)
-- [Скидання змінних-посилань](language.references.unset.md)
-- [Неявне використання механізму посилань](language.references.spot.md)
+-   [Что такое ссылки](language.references.whatare.html)
+-   [Что делают ссылки](language.references.whatdo.html)
+-   [Чем ссылки не являются](language.references.arent.html)
+-   [Передача по ссылке](language.references.pass.html)
+-   [Возврат по ссылке](language.references.return.html)
+-   [Сброс переменных-ссылок](language.references.unset.html)
+-   [Неявное использование механизма ссылок](language.references.spot.html)

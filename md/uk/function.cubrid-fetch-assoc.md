@@ -1,74 +1,89 @@
-- [«cubrid_fetch_array](function.cubrid-fetch-array.md)
-- [cubrid_fetch_field »](function.cubrid-fetch-field.md)
+Витягти рядок з результуючого набору у вигляді асоціативного масиву
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Витягти рядок із результуючого набору у вигляді асоціативного
-масиву
+-   [« cubrid\_fetch\_array](function.cubrid-fetch-array.html)
+    
+-   [cubrid\_fetch\_field »](function.cubrid-fetch-field.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+    
+-   Витягти рядок з результуючого набору у вигляді асоціативного масиву
+    
 
-#cubrid_fetch_assoc
+# cubridfetchassoc
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_fetch_assoc — Витягти рядок з результуючого набору у вигляді
-асоціативного масиву
+cubridfetchassoc — Витягти рядок із результуючого набору у вигляді асоціативного масиву
 
 ### Опис
 
-**cubrid_fetch_assoc**(resource `$result`, int `$type` = ?): array
+```methodsynopsis
+cubrid_fetch_assoc(resource $result, int $type = ?): array
+```
 
-Функція повертає асоціативний масив, що відповідає рядку в
-результуючому наборі, на яку вказує внутрішній покажчик. Після
-вилучення внутрішній покажчик переміщується на наступний рядок. Якщо
-рядки закінчилися, то функція поверне **`false`**.
+Функція повертає асоціативний масив, відповідному рядку в результуючому наборі, на яку вказує внутрішній покажчик. Після вилучення внутрішній покажчик переміщується на наступний рядок. Якщо рядки закінчилися, то функція поверне **`false`**
 
 ### Список параметрів
 
 `result`
-`Result`, отриманий з [cubrid_execute()](function.cubrid-execute.md)
+
+`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.html)
 
 `type`
-Можливо тільки CUBRID_LOB. Цей параметр використовується лише якщо вам
-необхідно оперувати об'єктами LOB.
+
+Можливо тільки CUBRIDLOB. Цей параметр використовується лише якщо вам потрібно оперувати об'єктами LOB.
 
 ### Значення, що повертаються
 
 Асоціативний масив у разі успішного виконання.
 
-**`false`**, якщо рядків більше немає; **`null`**, коли процес
-завершується з помилкою.
+**`false`**якщо рядків більше немає; **`null`**коли процес завершується з помилкою.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_fetch_assoc()****
+**Приклад #1 Приклад використання **cubridfetchassoc()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE    );printf("%-40s %-10s %-6s %-20s
-", "name", "area", "seats", "address");while($row = cubrid_fetch_assoc($req)) {    printf("%-40s %-10s %-6s %-2
-",        $row["name"], $row["area"], $row["seats"], $row["address"]);}//Якщо вам потрібно оперувати об'єктами LOB - | $req, CUBRID_LOB)cubrid_close_request($req);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE nation_code='GRE' AND seats > 10000");
+
+printf("%-40s %-10s %-6s %-20s\n", "name", "area", "seats", "address");
+while ($row = cubrid_fetch_assoc($req)) {
+    printf("%-40s %-10s %-6s %-20s\n",
+        $row["name"], $row["area"], $row["seats"], $row["address"]);
+}
+
+// Если вам нужно оперировать объектами LOB - используйте
+// cubrid_fetch_assoc($req, CUBRID_LOB)
+
+cubrid_close_request($req);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-name area seats address
-Panathinaiko Stadium 86300.00 50000 Athens, Greece
-Olympic Stadium 54700.00 13000 Athens, Greece
-Olympic Indoor Hall 34100.00 18800 Athens, Greece
-Olympic Hall 52400.00 21000 Athens, Greece
-Olympic Aquatic Centre 42500.00 11500 Athens, Greece
-Markopoulo Olympic Equestrian Centre 64000.00 15000 Markopoulo, Athens, Greece
-Faliro Coastal Zone Olympic Complex 34650.00 12171 Faliro, Athens, Greece
-Athens Olympic Stadium 120400.00 71030 Maroussi, Athens, Greece
-Ano Liossia 34000.00 12000 Ano Liosia, Athens, Greece
+```
+name                                     area       seats  address
+Panathinaiko Stadium                     86300.00   50000  Athens, Greece
+Olympic Stadium                          54700.00   13000  Athens, Greece
+Olympic Indoor Hall                      34100.00   18800  Athens, Greece
+Olympic Hall                             52400.00   21000  Athens, Greece
+Olympic Aquatic Centre                   42500.00   11500  Athens, Greece
+Markopoulo Olympic Equestrian Centre     64000.00   15000  Markopoulo, Athens, Greece
+Faliro Coastal Zone Olympic Complex      34650.00   12171  Faliro, Athens, Greece
+Athens Olympic Stadium                   120400.00  71030  Maroussi, Athens, Greece
+Ano Liossia                              34000.00   12000  Ano Liosia, Athens, Greece
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
-- [cubrid_fetch()](function.cubrid-fetch.md) - Вибирає наступну
-рядок із набору результатів
-- [cubrid_fetch_row()](function.cubrid-fetch-row.md) - Вийняти
-рядок із результуючого набору у вигляді індексованого масиву
-- [cubrid_fetch_array()](function.cubrid-fetch-array.md) -
-Вилучення рядка з результуючого набору у вигляді асоціативного
-масиву, індексованого масиву або обох відразу
-- [cubrid_fetch_object()](function.cubrid-fetch-object.md) - Вийняти
-наступний рядок як об'єкт
+-   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubrid\_fetch()](function.cubrid-fetch.html) - Вибирає наступний рядок із набору результатів
+-   [cubrid\_fetch\_row()](function.cubrid-fetch-row.html) - Витягти рядок із результуючого набору у вигляді індексованого масиву
+-   [cubrid\_fetch\_array()](function.cubrid-fetch-array.html) - Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
+-   [cubrid\_fetch\_object()](function.cubrid-fetch-object.html) - Витягти наступний рядок як об'єкт

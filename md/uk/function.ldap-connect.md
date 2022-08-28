@@ -1,85 +1,103 @@
-- [«ldap_compare](function.ldap-compare.md)
-- [ldap_control_paged_result_response »](function.ldap-control-paged-result-response.md)
+Підключитись до сервера LDAP
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Підключитись до сервера LDAP
+-   [« ldap\_compare](function.ldap-compare.html)
+    
+-   [ldap\_control\_paged\_result\_response »](function.ldap-control-paged-result-response.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Підключитись до сервера LDAP
+    
 
-#ldap_connect
+# ldapconnect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_connect — Підключитись до сервера LDAP
+ldapconnect — З'єднатися з сервером LDAP
 
 ### Опис
 
-**ldap_connect**(?string `$uri` = **`null`**):
-[LDAP\Connection](class.ldap-connection.md)\|false
+```methodsynopsis
+ldap_connect(?string $uri = null): LDAP\Connection|false
+```
 
 **Увага**
 
-*Наступний* синтаксис все ще підтримується для забезпечення зворотної
-сумісності (крім використання іменованих аргументів), але він
-оголошений застарілим і не повинен використовуватися!
+*Наступний* синтаксис все ще підтримується для забезпечення зворотної сумісності (крім використання іменованих аргументів), але він оголошений застарілим і не повинен використовуватися!
 
-**ldap_connect**(?string `$uri` = **`null`**, int `$port` = 389):
-[LDAP\Connection](class.ldap-connection.md)\|false
+```methodsynopsis
+ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
+```
 
-Створює [LDAP\Connection](class.ldap-connection.md) та перевіряє
-правдоподібність заданого `uri`.
+Створює [LDAP\\Connection](class.ldap-connection.html) та перевіряє правдоподібність заданого `uri`
 
-> **Примітка**: Ця функція *НЕ* відкриває з'єднання. Вона перевіряє,
-> чи вірогідні задані параметри і чи можуть вони використовуватися для
-> підключення, коли в ньому виникне потреба.
+> **Зауваження**: Ця функція *НЕ* відкриває з'єднання. Вона перевіряє, чи правдоподібні задані параметри і чи можуть використовуватися для підключення, коли в ньому виникне потрібна.
 
 ### Список параметрів
 
 `uri`
-Повний LDAP URI типу `ldap://hostname:port` або `ldaps://hostname:port`.
+
+Повний LDAP URI виду `ldap://hostname:port` або `ldaps://hostname:port`
 
 Також можна вказати кілька LDAP-URI, розділених пробілом.
 
-Зверніть увагу, що `hostname:port` - це непідтримуваний LDAP URI,
-оскільки відсутня схема.
+Зверніть увагу, що `hostname:port` - це LDAP URI, що не підтримується, оскільки відсутня схема.
 
 `uri`
-Ім'я сервера для підключення.
+
+Ім'я сервера для з'єднання.
 
 `port`
+
 Порт для підключення.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Connection](class.ldap-connection.md), якщо
-LDAP URI правдоподібний. Вона проводить синтаксичний розбір та перевірку
-переданих параметрів, але з'єднання із сервером не відбувається. Якщо
-перевірка синтаксису провалилася – повертається **`false`**.
-**ldap_connect()** завжди повертатиме екземпляр
-[LDAP\Connection](class.ldap-connection.md), оскільки вона фактично
-не з'єднується, лише ініціалізує параметри з'єднання.
-Фактичне підключення відбувається за наступних викликів ldap\_\*
-функцій, зазвичай, при виклику [ldap_bind()](function.ldap-bind.md).
+Повертає екземпляр [LDAP\\Connection](class.ldap-connection.html)якщо LDAP URI правдоподібний. Вона здійснює синтаксичний аналіз та перевірку переданих параметрів, але з'єднання з сервером не відбувається. Якщо перевірка синтаксису провалилася – повертається **`false`**. . **ldapconnect()** завжди повертатиме екземпляр [LDAP\\Connection](class.ldap-connection.html)оскільки вона фактично не з'єднується, а лише ініціалізує параметри з'єднання. Фактичне підключення відбувається за наступних викликів ldap функцій, зазвичай під час виклику [ldap\_bind()](function.ldap-bind.html)
 
-Якщо жодних параметрів не буде визначено, тоді буде повернено
-екземпляр [LDAP\Connection](class.ldap-connection.md) відкритого
-з'єднання.
+Якщо жодних параметрів не буде визначено, тоді буде повернено екземпляр [LDAP\\Connection](class.ldap-connection.html) відкритого з'єднання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                               |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Повертає екземпляр [LDAP\Connection](class.ldap-connection.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад підключення до сервера LDAP.**
+**Приклад #1 Приклад підключення до LDAP-сервера.**
 
-`<?php//LDAP змінні$ldapuri = "ldap://ldap.example.com:389"; // ldap-uri// Сполука з LDAP$ldapconn = ldap_connect($ldapuri)          or die("LDAP-URI некоректний");?> `
+```php
+<?php
 
-**Приклад #2 Приклад безпечного підключення до сервера LDAP.**
+// LDAP переменные
+$ldapuri = "ldap://ldap.example.com:389";  // ldap-uri
 
-` <?php// Переконайтеся, що ваш хост і коректний і ви видали сертифікат безпеки $ldaphost = = "ldaps://ldap.example.com/"; / / | or die("LDAP-URI некоректний");?> `
+// Соединение с LDAP
+$ldapconn = ldap_connect($ldapuri)
+          or die("LDAP-URI некорректен");
+
+?>
+```
+
+**Приклад #2 Приклад безпечного підключення до LDAP-сервера.**
+
+```php
+<?php
+
+// Убедитесь, что ваш хост корректный и
+// что вы выдали ему сертификат безопасности
+$ldaphost = "ldaps://ldap.example.com/";
+
+// Соединение с LDAP
+$ldapconn = ldap_connect($ldaphost)
+          or die("LDAP-URI некорректен");
+
+?>
+```
 
 ### Дивіться також
 
-- [ldap_bind()](function.ldap-bind.md) - Прив'язати до директорії LDAP
+-   [ldap\_bind()](function.ldap-bind.html) - Прив'язати до LDAP директорії

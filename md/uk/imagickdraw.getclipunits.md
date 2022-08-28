@@ -1,25 +1,31 @@
-- [« ImagickDraw::getClipRule](imagickdraw.getcliprule.md)
-- [ImagickDraw::getFillColor »](imagickdraw.getfillcolor.md)
+Повертає інтерпретацію одиниць відсічного контуру
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає інтерпретацію одиниць відсічного контуру
+-   [« ImagickDraw::getClipRule](imagickdraw.getcliprule.html)
+    
+-   [ImagickDraw::getFillColor »](imagickdraw.getfillcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає інтерпретацію одиниць відсічного контуру
+    
 
 # ImagickDraw::getClipUnits
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::getClipUnits — Повертає інтерпретацію одиниць відсічного
-контуру
+ImagickDraw::getClipUnits — Повертає інтерпретацію одиниць відсічного контуру
 
 ### Опис
 
-public **ImagickDraw::getClipUnits**(): int
+```methodsynopsis
+public ImagickDraw::getClipUnits(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає інтерпретацію одиниць відсічного контуру.
 

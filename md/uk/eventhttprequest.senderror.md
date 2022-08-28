@@ -1,32 +1,47 @@
-- [« EventHttpRequest::removeHeader](eventhttprequest.removeheader.md)
-- [EventHttpRequest::sendReply »](eventhttprequest.sendreply.md)
+Надсилає HTML-повідомлення про помилку клієнту
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Надсилає HTML-повідомлення про помилку клієнту
+-   [« EventHttpRequest::removeHeader](eventhttprequest.removeheader.html)
+    
+-   [EventHttpRequest::sendReply »](eventhttprequest.sendreply.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Надсилає HTML-повідомлення про помилку клієнту
+    
 
 # EventHttpRequest::sendError
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::sendError — Надсилає HTML-повідомлення про помилку
-клієнту
+EventHttpRequest::sendError — Надсилає HTML-повідомлення про помилку клієнту
 
 ### Опис
 
-public **EventHttpRequest::sendError**( int `$error` , string `$reason`
-= **`null`** ): void
+```methodsynopsis
+public
+   EventHttpRequest::sendError(
+    int
+     $error
+   , 
+    string
+     $reason
+     = null
+   ): void
+```
 
-Надсилає HTML-повідомлення про помилку клієнта.
+Надсилає HTML-повідомлення про помилку клієнту.
 
 ### Список параметрів
 
 `error`
+
 HTTP код помилки.
 
 `reason`
-Короткий опис помилки. Якщо **`null`**, буде використовуватись
-стандартне значення коду помилки.
+
+Короткий опис помилки. Якщо **`null`**, використовуватиметься стандартне значення коду помилки.
 
 ### Значення, що повертаються
 
@@ -36,9 +51,22 @@ HTTP код помилки.
 
 **Приклад #1 Приклад використання **EventHttpRequest::sendError()****
 
-` <?phpfunction _http_400($req) {   $req->sendError(400);}$base = new EventBase();$http = neu EventHttp($base);$http->setCallback("/er _http_400");$http->bind("0.0.0.0", 8010);$base->loop();?> `
+```php
+<?php
+function _http_400($req) {
+    $req->sendError(400);
+}
+
+$base = new EventBase();
+$http = new EventHttp($base);
+
+$http->setCallback("/err400", "_http_400");
+
+$http->bind("0.0.0.0", 8010);
+$base->loop();
+?>
+```
 
 ### Дивіться також
 
-- [EventHttpRequest::sendReply()](eventhttprequest.sendreply.md) -
-Відправляє HTML-відповідь клієнту
+-   [EventHttpRequest::sendReply()](eventhttprequest.sendreply.html) - Відправляє HTML-відповідь клієнту

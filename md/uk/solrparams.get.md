@@ -1,26 +1,34 @@
-- [«SolrParams::addParam](solrparams.addparam.md)
-- [SolrParams::getParam »](solrparams.getparam.md)
+Псевдонім SolrParams::getParam
 
-- [PHP Manual](index.md)
-- [SolrParams](class.solrparams.md)
-- Псевдонім SolrParams::getParam
+-   [« SolrParams::addParam](solrparams.addparam.html)
+    
+-   [SolrParams::getParam »](solrparams.getparam.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrParams](class.solrparams.html)
+    
+-   Псевдонім SolrParams::getParam
+    
 
 # SolrParams::get
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrParams::get — Псевдонім SolrParams::getParam
 
 ### Опис
 
-final public **SolrParams::get**(string `$param_name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+final public SolrParams::get(string $param_name): mixed
+```
 
 Псевдонім SolrParams::getParam
 
 ### Список параметрів
 
 `param_name`
+
 Ім'я параметра
 
 ### Значення, що повертаються

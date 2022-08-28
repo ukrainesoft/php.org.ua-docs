@@ -1,24 +1,27 @@
-- [«fbird_delete_user](function.fbird-delete-user.md)
-- [fbird_errcode »](function.fbird-errcode.md)
+Псевдонім ibasedropдб
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_drop_db
+-   [« fbird\_delete\_user](function.fbird-delete-user.html)
+    
+-   [fbird\_errcode »](function.fbird-errcode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasedropдб
+    
 
-#fbird_drop_db
+# fbirddropдб
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_drop_db - Псевдонім [ibase_drop_db()](function.ibase-drop-db.md)
+fbirddropdb - Псевдонім [ibase\_drop\_db()](function.ibase-drop-db.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_drop_db()](function.ibase-drop-db.md).
+Ця функція є псевдонімом: [ibase\_drop\_db()](function.ibase-drop-db.html)
 
 ### Дивіться також
 
-- [fbird_connect()](function.fbird-connect.md) - Псевдонім
-ibase_connect
-- [fbird_pconnect()](function.fbird-pconnect.md) - Псевдонім
-ibase_pconnect
+-   [fbird\_connect()](function.fbird-connect.html) - Псевдонім ibaseconnect
+-   [fbird\_pconnect()](function.fbird-pconnect.html) - Псевдонім ibasepconnect

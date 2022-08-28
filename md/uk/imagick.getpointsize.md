@@ -1,22 +1,29 @@
-- [« Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.md)
-- [Imagick::getQuantum »](imagick.getquantum.md)
+Повертає розмір точки
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає розмір точки
+-   [« Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.html)
+    
+-   [Imagick::getQuantum »](imagick.getquantum.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає розмір точки
+    
 
 # Imagick::getPointSize
 
-(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
+(PECL imagick 2> = 2.1.0, PECL imagick 3)
 
 Imagick::getPointSize — Повертає розмір точки
 
 ### Опис
 
-public **Imagick::getPointSize**(): float
+```methodsynopsis
+public Imagick::getPointSize(): float
+```
 
-Повертає розмір точки об'єкта. Цей метод доступний, якщо
-Imagick був скомпілюваний з версією ImageMagick 6.3.7 або старшим.
+Повертає розмір точки об'єкта. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.7 або старшим.
 
 ### Список параметрів
 
@@ -28,5 +35,4 @@ Imagick був скомпілюваний з версією ImageMagick 6.3.7 а
 
 ### Дивіться також
 
-- [Imagick::setPointSize()](imagick.setpointsize.md) - Встановлює
-розмір точки
+-   [Imagick::setPointSize()](imagick.setpointsize.html) - Встановлює розмір точки

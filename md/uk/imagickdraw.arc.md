@@ -1,9 +1,15 @@
-- [« ImagickDraw::annotation](imagickdraw.annotation.md)
-- [ImagickDraw::bezier »](imagickdraw.bezier.md)
+Малює дугу
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Малює дугу
+-   [« ImagickDraw::annotation](imagickdraw.annotation.html)
+    
+-   [ImagickDraw::bezier »](imagickdraw.bezier.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Малює дугу
+    
 
 # ImagickDraw::arc
 
@@ -13,41 +19,40 @@ ImagickDraw::arc — Малює дугу
 
 ### Опис
 
-public **ImagickDraw::arc**(
-float `$sx`,
-float `$sy`,
-float `$ex`,
-float `$ey`,
-float `$sd`,
-float `$ed`
-): bool
+```methodsynopsis
+public ImagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Малює дугу, що потрапляє у вказаний обмежуючий прямокутник на
-зображення.
+Малює дугу, що потрапляє у вказаний прямокутник на зображенні.
 
 ### Список параметрів
 
 `sx`
-Початкова координата X обмежує прямокутника
+
+Початкова координата X прямокутника, що обмежує
 
 `sy`
-Початкова координата Y обмежує прямокутника
+
+Початкова координата Y прямокутника, що обмежує
 
 `ex`
-Кінцева координата X обмежує прямокутника
+
+Кінцева координата X прямокутника, що обмежує
 
 `ey`
+
 Кінцева координата Y обмежує прямокутника
 
 `sd`
+
 Початковий градус обертання
 
 `ed`
+
 Кінцевий градус обертання
 
 ### Значення, що повертаються
@@ -58,4 +63,32 @@ float `$ed`
 
 **Приклад #1 Приклад використання **ImagickDraw::arc()****
 
-` <?phpfunction arc($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $startAngle, $endAngle) {    //Створення для об'єкт| $draw = new \ImagickDraw(); $draw->setStrokeWidth(1); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(2); $draw->arc($startX, $startY, $endX, $endY, $startAngle, $endAngle); // Створення об'єкта зображення, в який можна перетворити команди малювання. $image = new \Imagick(); $image->newImage(IMAGE_WIDTH, IMAGE_HEIGHT, $backgroundColor); $image->setImageFormat("png"); //Перетворення команд малювання в об'єкті ImagickDraw    //в зображення. $image->drawImage($draw); //Відображення зображення в браузері   header("Content-Type:image/png"); echo $image->getImageBlob();}?> `
+```php
+<?php
+function arc($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $startAngle, $endAngle) {
+
+    //Создание объекта ImagickDraw для рисования.
+    $draw = new \ImagickDraw();
+    $draw->setStrokeWidth(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+
+    $draw->arc($startX, $startY, $endX, $endY, $startAngle, $endAngle);
+
+    //Создание объекта изображения, в который можно преобразовать команды рисования.
+    $image = new \Imagick();
+    $image->newImage(IMAGE_WIDTH, IMAGE_HEIGHT, $backgroundColor);
+    $image->setImageFormat("png");
+
+    //Преобразование команд рисования в объекте ImagickDraw
+    //в изображение.
+    $image->drawImage($draw);
+
+    //Отображение изображения в браузере
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
+}
+
+?>
+```

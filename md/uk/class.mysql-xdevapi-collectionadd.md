@@ -1,31 +1,45 @@
-- [« Collection::replaceOne](mysql-xdevapi-collection.replaceone.md)
-- [CollectionAdd::\_\_construct »](mysql-xdevapi-collectionadd.construct.md)
+Клас CollectionAdd
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас CollectionAdd
+-   [« Collection::replaceOne](mysql-xdevapi-collection.replaceone.html)
+    
+-   [CollectionAdd::\_\_construct »](mysql-xdevapi-collectionadd.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас CollectionAdd
+    
 
 # Клас CollectionAdd
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\CollectionAdd** implements
-[mysql_xdevapi\Executable](class.mysql-xdevapi-executable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public **execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
 
-}
+    
+     
+      class mysql_xdevapi\CollectionAdd
+     
+
+     implements 
+       mysql_xdevapi\Executable {
+
+
+    /* Методы */
+    
+   public execute(): mysql_xdevapi\Result
+
+   }
+```
 
 ## Зміст
 
-- [CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.md)
-- Конструктор класу CollectionAdd
-- [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.md) -
-Виконує затвердження
+-   [CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.html) - Конструктор класу CollectionAdd
+-   [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.html) - Виконує твердження

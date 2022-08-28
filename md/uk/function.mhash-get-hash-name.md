@@ -1,44 +1,58 @@
-- [« mhash_get_block_size](function.mhash-get-block-size.md)
-- [mhash_keygen_s2k »](function.mhash-keygen-s2k.md)
+Отримати ім'я вказаного хеша
 
-- [PHP Manual](index.md)
-- [Функції Mhash](ref.mhash.md)
-- Отримати ім'я вказаного хеша
+-   [« mhash\_get\_block\_size](function.mhash-get-block-size.html)
+    
+-   [mhash\_keygen\_s2k »](function.mhash-keygen-s2k.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Mhash](ref.mhash.html)
+    
+-   Отримати ім'я вказаного хеша
+    
 
-# mhash_get_hash_name
+# mhashgethashname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-mhash_get_hash_name — Отримати ім'я вказаного хеша
+mhashgethashname — Отримати ім'я вказаного хеша
 
 **Увага**
 
-Функція оголошена *УСТАРНІЙ*, починаючи з PHP 8.1.0. Використати цю
-функцію не рекомендується.
+Функція оголошена *Застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mhash_get_hash_name**(int `$algo`): string\|false
+```methodsynopsis
+mhash_get_hash_name(int $algo): string|false
+```
 
-Повертає ім'я заданого 'algo'.
+Повертає ім'я заданого `algo`
 
 ### Список параметрів
 
 `algo`
-Ідентифікатор хешу. Одна з констант **`MHASH_hashname`**.
+
+Ідентифікатор хешу. Одна з констант **`MHASH_hashname`**
 
 ### Значення, що повертаються
 
-Повертає рядок під назвою або **`false`**, якщо такого хешу немає.
+Повертає рядок з назвою або **`false`**якщо такого хеша немає.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------- |
-| 8.1.0  | Функція оголошена застарілою. Використовуйте замість неї [функції hash_*()](ref.hash.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функции `hash_*()`](ref.hash.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mhash_get_hash_name()****
+**Приклад #1 Приклад використання **mhashgethashname()****
 
-`<?phpecho mhash_get_hash_name(MHASH_MD5); // MD5?> `
+```php
+<?php
+
+echo mhash_get_hash_name(MHASH_MD5); // MD5
+
+?>
+```

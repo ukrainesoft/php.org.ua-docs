@@ -1,29 +1,38 @@
-- [ trader_trange](function.trader-trange.md)
-- [trader_trix »](function.trader-trix.md)
+Трикутна ковзна середня
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Трикутна ковзна середня
+-   [« trader\_trange](function.trader-trange.html)
+    
+-   [trader\_trix »](function.trader-trix.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Трикутна ковзна середня
+    
 
-# trader_trima
+# tradertrima
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_trima — Трикутна ковзна середня
+tradertrima - Трикутна ковзна середня
 
 ### Опис
 
-**trader_trima**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_trima(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

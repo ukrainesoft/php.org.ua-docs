@@ -1,9 +1,15 @@
-- [« BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.md)
-- [mysql_xdevapi\Client::close »](mysql-xdevapi-client.close.md)
+Клас Client
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас Client
+-   [« BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.html)
+    
+-   [mysql\_xdevapi\\Client::close »](mysql-xdevapi-client.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас Client
+    
 
 # Клас Client
 
@@ -15,22 +21,27 @@
 
 ## Огляд класів
 
-class **mysql_xdevapi\Client** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [close](mysql-xdevapi-client.close.md)(): bool
 
-public **getSession**():
-[mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
+    
+     
+      class mysql_xdevapi\Client
+     
+     {
 
-}
+
+    /* Методы */
+    
+   public close(): bool
+public getSession(): mysql_xdevapi\Session
+
+   }
+```
 
 ## Зміст
 
-- [mysql_xdevapi\Client::close](mysql-xdevapi-client.close.md) -
-Закриття клієнта
-- [Client::\_\_construct](mysql-xdevapi-client.construct.md) -
-Конструктор класу Client
-- [Client::getClient](mysql-xdevapi-client.getsession.md) — Отримує
-сеанс клієнта
+-   [mysql\_xdevapi\\Client::close](mysql-xdevapi-client.close.html) - Закриття клієнта
+-   [Client::\_\_construct](mysql-xdevapi-client.construct.html) - Конструктор класу Client
+-   [Client::getClient](mysql-xdevapi-client.getsession.html) — Отримує сеанс клієнта

@@ -1,27 +1,34 @@
-- [« HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)
-- [HRTime\StopWatch »](class.hrtime-stopwatch.md)
+Кількість тиків, що пройшли із заданого значення
 
-- [PHP Manual](index.md)
-- [HRTime\PerformanceCounter](class.hrtime-performancecounter.md)
-- Кількість тиків, що пройшли із заданого значення
+-   [« HRTime\\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.html)
+    
+-   [HRTime\\StopWatch »](class.hrtime-stopwatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html)
+    
+-   Кількість тиків, що пройшли із заданого значення
+    
 
-# HRTime\PerformanceCounter::getTicksSince
+# HRTimePerformanceCounter::getTicksSince
 
-(PECL hrtime \>= 0.6.0)
+(PECL hrtime >= 0.6.0)
 
-HRTime\PerformanceCounter::getTicksSince — Кількість тиків, що пройшли з
-заданого значення
+HRTimePerformanceCounter::getTicksSince — Кількість тиків, що пройшли із заданого значення
 
 ### Опис
 
-public static **HRTime\PerformanceCounter::getTicksSince**(int
-`$start`): int
+```methodsynopsis
+public static HRTime\PerformanceCounter::getTicksSince(int $start): int
+```
 
 Повертає тиків, що пройшли із заданого початкового значення.
 
 ### Список параметрів
 
 `start`
+
 Початкове значення.
 
 ### Значення, що повертаються

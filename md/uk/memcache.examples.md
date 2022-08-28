@@ -1,12 +1,18 @@
-- [«Зумовлені константи](memcache.constants.md)
-- [Базове використання»](memcache.examples-overview.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [Memcache](book.memcache.md)
-- Приклади
+-   [« Предопределённые константы](memcache.constants.html)
+    
+-   [Базовое использование »](memcache.examples-overview.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcache](book.memcache.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Базове використання](memcache.examples-overview.md)
+-   [Базовое использование](memcache.examples-overview.html)

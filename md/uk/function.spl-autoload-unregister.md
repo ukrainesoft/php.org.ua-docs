@@ -1,37 +1,38 @@
-- [« spl_autoload_register](function.spl-autoload-register.md)
-- [spl_autoload »](function.spl-autoload.md)
+Скасування реєстрації функції як реалізацію методу autoload()
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Скасування реєстрації функції як реалізацію методу
-\_\_autoload()
+-   [« spl\_autoload\_register](function.spl-autoload-register.html)
+    
+-   [spl\_autoload »](function.spl-autoload.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Скасування реєстрації функції як реалізацію методу autoload()
+    
 
-# spl_autoload_unregister
+# splautoloadunregister
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-spl_autoload_unregister — Скасувати реєстрацію функції як
-реалізації методу \_\_autoload()
+splautoloadunregister — Скасування реєстрації функції як реалізацію методу autoload()
 
 ### Опис
 
-**spl_autoload_unregister**([callable](language.types.callable.md)
-`$callback`): bool
+```methodsynopsis
+spl_autoload_unregister(callable $callback): bool
+```
 
-Видаляє функцію із черги автозавантаження. Якщо черга була активна та
-після видалення функції виявиться порожньою, вона буде автоматично
-деактивовано.
+Видаляє функцію із черги автозавантаження. Якщо черга була активна і після видалення функції виявиться порожньою, вона буде автоматично деактивована.
 
-Коли ця функція призводить до деактивації черги, будь-яка функція
-\_\_autoload, яка раніше існувала, не буде повторно
-активовано.
+Коли ця функція призводить до деактивації черги, будь-яка функція autoload, яка раніше існувала, не буде повторно активовано.
 
 ### Список параметрів
 
 `callback`
+
 Функція автозавантаження, реєстрацію якої потрібно зняти.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

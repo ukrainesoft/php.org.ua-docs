@@ -1,51 +1,83 @@
-- [«curl_multi_select](function.curl-multi-select.md)
-- [curl_multi_strerror »](function.curl-multi-strerror.md)
+Встановити налаштування для множинного дескриптора cURL
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Встановити налаштування для множинного дескриптора cURL
+-   [« curl\_multi\_select](function.curl-multi-select.html)
+    
+-   [curl\_multi\_strerror »](function.curl-multi-strerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Встановити налаштування для множинного дескриптора cURL
+    
 
-#curl_multi_setopt
+# curlmultisetopt
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-curl_multi_setopt — Встановити налаштування для множинного дескриптора cURL
+curlmultisetopt — встановити опції для множинного дескриптора cURL
 
 ### Опис
 
-**curl_multi_setopt**([CurlMultiHandle](class.curlmultihandle.md)
-`$multi_handle`, int `$option`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+curl_multi_setopt(CurlMultiHandle $multi_handle, int $option, mixed $value): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `multi_handle`
 
 `option`
-Одна із констант **`CURLMOPT_*`**.
+
+Одна з констант **`CURLMOPT_*`**
 
 `value`
-Значення, яке потрібно встановити для `option`.
 
-`value` має бути типу int для наступних значень параметра `option`:
+Значення, яке необхідно встановити для `option`
 
-[TABLE]
+`value` має бути типу int для наступних значень параметра `option`
+
+| Опция | Установить `value` в |
+| --- | --- |
+| **`CURLMOPT_PIPELINING`** | 1 для включення та 0 для відключення. Дозволяє конвеєр для множинного дескриптора, що приведе до спроби використовувати конвеєра HTTP, якщо це можливо, для передачі з використанням цього дескриптора. Це означає, що якщо ви додасте другий запит, який може використовувати вже існуюче з'єднання, він буде переданий "по конвеєру" цьому з'єднанню. Починаючи з cURL 7.43.0, значення є бітовою маскою і ви можете передати 2 для спроби мультиплікування нової передачі за допомогою існуючого з'єднання HTTP/2, якщо це можливо. Передача 3 інструктує cURL запитувати конвеєризацію та мультиплексування незалежно один від одного. Починаючи з cURL 7.62.0, установка біта конвеєра не має жодного ефекту. Замість чисельних значень можна використовувати константи CURLPIPEякщо вони доступні. |
+| **`CURLMOPT_MAXCONNECTS`** | Задає кількість максимальної кількості одночасно відкритих з'єднань, які libcurl може закешувати. За замовчуванням це значення задається як число дескрипторів, доданих через [curl\_multi\_add\_handle()](function.curl-multi-add-handle.html), помножене на 4. Коли кеш заповниться, curl закриє найстаріші з'єднання в кеші, запобігаючи збільшенню кількості відкритих з'єднань. |
+| **`CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE`** | Задає граничне значення довжини пакета для конвеєра в байтах. |
+| **`CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE`** | Задає граничне значення розміру для "штрафу" конвеєра в байтах. |
+| **`CURLMOPT_MAX_HOST_CONNECTIONS`** | Величина, що визначає максимальну кількість з'єднань з одним хостом. |
+| **`CURLMOPT_MAX_PIPELINE_LENGTH`** | Величина, що визначає максимальну кількість запитів у конвеєрі. |
+| **`CURLMOPT_MAX_TOTAL_CONNECTIONS`** | Величина, що визначає максимальну кількість одночасно відкритих з'єднань. |
+| **`CURLMOPT_PUSHFUNCTION`** | Передає [callable](language.types.callable.html), який буде зареєстрований для обробки пушкою від сервера і повинен мати таку сигнатуру: |
+
+```methodsynopsis
+pushfunction(resource $parent_ch, resource $pushed_ch, array $headers): int
+```
+
+`parent_ch`
+
+Батьківський обробник cURL (запит зроблений клієнтом).
+
+`pushed_ch`
+
+Новий обробник cURL для обробки гармат.
+
+`headers`
+
+Заголовки очікуваного пуша.
+
+Функція має повертати **`CURL_PUSH_OK`**, якщо може обробити пуш, або **`CURL_PUSH_DENY`**якщо відхиляє його. |
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                         |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource).                                                                                                    |
-| 7.1.0  | Додано константу **CURLMOPT_PUSHFUNCTION**.                                                                                                                                  |
-| 7.0.7  | Додані константи **CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE**, **CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE**, **CURLMOPT_MAX_HOST_CONNECTIONS**, **CURLMOPT_MAX_PIPELINE_LENGTH** та ** |
+| Версия | Описание |
+| --- | --- |
+|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+|  | Додано константу **`CURLMOPT_PUSHFUNCTION`** |
+|  | Додані константи **`CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE`** **`CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE`** **`CURLMOPT_MAX_HOST_CONNECTIONS`** **`CURLMOPT_MAX_PIPELINE_LENGTH`** і **`CURLMOPT_MAX_TOTAL_CONNECTIONS`** |

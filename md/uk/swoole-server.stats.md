@@ -1,19 +1,27 @@
-- [« Swoole\Server::start](swoole-server.start.md)
-- [Swoole\Server::stop »](swoole-server.stop.md)
+Отримує статистику сервера Swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Отримує статистику сервера Swoole
+-   [« Swoole\\Server::start](swoole-server.start.html)
+    
+-   [Swoole\\Server::stop »](swoole-server.stop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Отримує статистику сервера Swoole
+    
 
-# Swoole\Server::stats
+# SwooleServer::stats
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::stats — Отримує статистику сервера Swoole
+SwooleServer::stats — Отримує статистику сервера Swoole
 
 ### Опис
 
-public **Swoole\Server::stats**(): array
+```methodsynopsis
+public Swoole\Server::stats(): array
+```
 
 ### Список параметрів
 

@@ -1,27 +1,34 @@
-- [« mqseries_set](function.mqseries-set.md)
-- [Мережа »](book.network.md)
+Отримати повідомлення про помилку, що відповідає її коду (MQRC)
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- Отримати повідомлення про помилку, яке відповідає її коду (MQRC)
+-   [« mqseries\_set](function.mqseries-set.html)
+    
+-   [Сеть »](book.network.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции mqseries](ref.mqseries.html)
+    
+-   Отримати повідомлення про помилку, що відповідає її коду (MQRC)
+    
 
-# mqseries_strerror
+# mqseriesstrerror
 
-(PECL mqseries \>= 0.10.0)
+(PECL mqseries >= 0.10.0)
 
-mqseries_strerror — Отримати повідомлення про помилку, яке відповідає її
-коду (MQRC)
+mqseriesstrerror — Отримати повідомлення про помилку, яке відповідає її коду (MQRC)
 
 ### Опис
 
-**mqseries_strerror**(int `$reason`): string
+```methodsynopsis
+mqseries_strerror(int $reason): string
+```
 
-Функція **mqseries_strerror()** повертає повідомлення про помилку в
-відповідно до її коду.
+Функція **mqseriesstrerror()** повертає повідомлення про помилку відповідно до її коду.
 
 ### Список параметрів
 
 `reason`
+
 Код помилки.
 
 ### Значення, що повертаються
@@ -30,11 +37,19 @@ mqseries_strerror — Отримати повідомлення про поми�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_strerror()****
+**Приклад #1 Приклад використання **mqseriesstrerror()****
 
-` <?php   if ($comp_code !== MQSERIES_MQCC_OK) {        printf("open CompCode:%d Reason:%d Text:%s<br>
-", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
+```php
+<?php
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("open CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        exit;
+    }
+?>
+```
 
 Результат виконання цього прикладу:
 
-Connx CompCode:2 Reason:2059 Text:Queue manager недоступний для з'єднання.
+```
+Connx CompCode:2 Reason:2059 Text:Queue manager not available for connection.
+```

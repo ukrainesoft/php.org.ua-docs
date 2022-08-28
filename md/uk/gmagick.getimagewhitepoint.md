@@ -1,22 +1,29 @@
-- [« Gmagick::getimageunits](gmagick.getimageunits.md)
-- [Gmagick::getimagewidth »](gmagick.getimagewidth.md)
+Повертає хроматичну білу точку
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає хроматичну білу точку
+-   [« Gmagick::getimageunits](gmagick.getimageunits.html)
+    
+-   [Gmagick::getimagewidth »](gmagick.getimagewidth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає хроматичну білу точку
+    
 
 # Gmagick::getimagewhitepoint
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagewhitepoint — Повертає хроматичну білу точку
 
 ### Опис
 
-public **Gmagick::getimagewhitepoint**(): array
+```methodsynopsis
+public Gmagick::getimagewhitepoint(): array
+```
 
-Повертає хроматичну білу точку у вигляді асоціативного масиву з
-ключами "x" та "y".
+Повертає білу хроматичну точку у вигляді асоціативного масиву з ключами "x" і "y".
 
 ### Список параметрів
 
@@ -24,8 +31,7 @@ public **Gmagick::getimagewhitepoint**(): array
 
 ### Значення, що повертаються
 
-Повертає хроматичну білу точку у вигляді асоціативного масиву з
-ключами "x" та "y".
+Повертає білу хроматичну точку у вигляді асоціативного масиву з ключами "x" і "y".
 
 ### Помилки
 

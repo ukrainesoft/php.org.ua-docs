@@ -1,62 +1,54 @@
-- [« variant_imp](function.variant-imp.md)
-- [variant_mod»](function.variant-mod.md)
+Повернути цілу частину варіанта
 
-- [PHP Manual](index.md)
-- [Функції COM](ref.com.md)
-- Повернути цілу частину варіанта
+-   [« variant\_imp](function.variant-imp.html)
+    
+-   [variant\_mod »](function.variant-mod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции COM](ref.com.html)
+    
+-   Повернути цілу частину варіанта
+    
 
-# variant_int
+# variantint
 
 (PHP 5, PHP 7, PHP 8)
 
-variant_int — Повернути цілу частину варіанта
+variantint — Повернути цілу частину варіанта
 
 ### Опис
 
-**variant_int**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): [variant](class.variant.md)
+```methodsynopsis
+variant_int(mixed $value): variant
+```
 
-Витягує цілу частину варіанту.
+Витягує цілу частину варіанта.
 
 ### Список параметрів
 
 `value`
+
 Різновид.
 
-> **Примітка**:
->
-> Як і з усіма варіантними арифметичними функціями, параметри цієї
-> функції можуть бути як рідними типами PHP (integer, string, floating
-> point, boolean або **`null`**), так і екземплярами класів COM,
-> VARIANT або DOTNET. Рідні PHP типи будуть перетворені на варіанти
-> (variants) за тими самими правилами, що й у конструкторі класу
-> [Variant](class.variant.md). У об'єктів COM і DOTNET буде взято і
-> використано їх значення за замовчуванням як значення варіанта.
->
-> Варіантні арифметичні функції є обертанням навколо
-> однойменних функцій у бібліотеці COM; для більш детальної інформації
-> За цими функціями проконсультуйтеся з бібліотекою MSDN. Назви
-> PHP-функцій трохи відрізняються; наприклад,
-> [variant_add()](function.variant-add.md) у PHP відповідає
-> `VarAdd()` у документації MSDN.
+> **Зауваження**
+> 
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.html). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> 
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.html) у PHP відповідає `VarAdd()` у документації MSDN.
 
 ### Значення, що повертаються
 
-Якщо `value` негативний, то буде повернено перше негативне ціле
-більше або дорівнює варіанту. У разі позитивної кількості буде просто
-повернута ціла частина `value`.
+Якщо `value` від'ємний, то буде повернено перше негативне ціле більше або дорівнює варіанту. У разі позитивного числа буде просто повернена ціла частина `value`
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md)
-у разі виникнення помилки.
+Викидає виняток [com\_exception](class.com-exception.html) у разі виникнення помилки.
 
 ### Дивіться також
 
-- [variant_fix()](function.variant-fix.md) - Повернути цілу частину
-варіанти
-- [variant_round()](function.variant-round.md) - Округлює варіант з
-заданою точністю
-- [floor()](function.floor.md) - Округлює дріб у менший бік
-- [ceil()](function.ceil.md) - Округлює дріб у велику сторону
-- [round()](function.round.md) - Округлює кількість типу float
+-   [variant\_fix()](function.variant-fix.html) - Повернути цілу частину варіанта
+-   [variant\_round()](function.variant-round.html) - Округлює варіант із заданою точністю
+-   [floor()](function.floor.html) - Округлює дріб у менший бік
+-   [ceil()](function.ceil.html) - Округлює дріб у велику сторону
+-   [round()](function.round.html) - Округлює кількість типу float

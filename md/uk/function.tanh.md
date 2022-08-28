@@ -1,26 +1,34 @@
-- [«tan](function.tan.md)
-- [Trader »](book.trader.md)
+Гіперболічний тангенс
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Гіперболічний тангенс
+-   [« tan](function.tan.html)
+    
+-   [Статистика »](book.stats.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Гіперболічний тангенс
+    
 
 # tanh
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
 tanh - Гіперболічний тангенс
 
 ### Опис
 
-**tanh**(float `$num`): float
+```methodsynopsis
+tanh(float $num): float
+```
 
-Повертає гіперболічний тангенс `num`, який визначається як
-`sinh(arg)/cosh(arg)`.
+Повертає гіперболічний тангенс `num`, що визначається як `sinh(arg)/cosh(arg)`
 
 ### Список параметрів
 
 `num`
+
 Вхідне значення
 
 ### Значення, що повертаються
@@ -29,7 +37,7 @@ tanh - Гіперболічний тангенс
 
 ### Дивіться також
 
-- [tan()](function.tan.md) - Тангенс
-- [atanh()](function.atanh.md) - Гіперболічний арктангенс
-- [sinh()](function.sinh.md) - Гіперболічний синус
-- [cosh()](function.cosh.md) - Гіперболічний косинус
+-   [tan()](function.tan.html) - Тангенс
+-   [atanh()](function.atanh.html) - гіперболічний арктангенс
+-   [sinh()](function.sinh.html) - Гіперболічний синус
+-   [cosh()](function.cosh.html) - Гіперболічний косинус

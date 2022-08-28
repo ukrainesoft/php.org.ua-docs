@@ -1,20 +1,28 @@
-- [«EventListener::enable](eventlistener.enable.md)
-- [EventListener::getSocketName »](eventlistener.getsocketname.md)
+Повертає базу подій, пов'язану із слухачем подій
 
-- [PHP Manual](index.md)
-- [EventListener](class.eventlistener.md)
-- Повертає базу подій, пов'язану із слухачем подій
+-   [« EventListener::enable](eventlistener.enable.html)
+    
+-   [EventListener::getSocketName »](eventlistener.getsocketname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventListener](class.eventlistener.html)
+    
+-   Повертає базу подій, пов'язану із слухачем подій
+    
 
 # EventListener::getBase
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventListener::getBase — Повертає базу подій, пов'язану з
-слухачем подій
+EventListener::getBase - Повертає базу подій, пов'язану зі слухачем подій
 
 ### Опис
 
-public **EventListener::getBase**(): void
+```methodsynopsis
+public
+   EventListener::getBase(): void
+```
 
 Повертає базу подій, пов'язану зі слухачем.
 

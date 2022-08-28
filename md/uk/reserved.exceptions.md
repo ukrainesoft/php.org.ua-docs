@@ -1,26 +1,32 @@
-- [«$argv](reserved.variables.argv.md)
-- [Exception »](class.exception.md)
+Обумовлені винятки
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- визначені винятки
+-   [« $argv](reserved.variables.argv.html)
+    
+-   [Exception »](class.exception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Обумовлені винятки
+    
 
-# Зумовлені винятки
+# Обумовлені винятки
 
 ## Зміст
 
-- [Exception](class.exception.md)
-- [ErrorException](class.errorexception.md)
-- [Error](class.error.md)
-- [ArgumentCountError](class.argumentcounterror.md)
-- [ArithmeticError](class.arithmeticerror.md)
-- [AssertionError](class.assertionerror.md)
-- [DivisionByZeroError](class.divisionbyzeroerror.md)
-- [CompileError](class.compileerror.md)
-- [ParseError](class.parseerror.md)
-- [TypeError](class.typeerror.md)
-- [ValueError](class.valueerror.md)
-- [UnhandledMatchError](class.unhandledmatcherror.md)
-- [FiberError](class.fibererror.md)
+-   [Exception](class.exception.html)
+-   [ErrorException](class.errorexception.html)
+-   [Error](class.error.html)
+-   [ArgumentCountError](class.argumentcounterror.html)
+-   [ArithmeticError](class.arithmeticerror.html)
+-   [AssertionError](class.assertionerror.html)
+-   [DivisionByZeroError](class.divisionbyzeroerror.html)
+-   [CompileError](class.compileerror.html)
+-   [ParseError](class.parseerror.html)
+-   [TypeError](class.typeerror.html)
+-   [ValueError](class.valueerror.html)
+-   [UnhandledMatchError](class.unhandledmatcherror.html)
+-   [FiberError](class.fibererror.html)
 
-Дивіться також "[Виключення SPL](spl.exceptions.md)"
+Дивіться також "[Исключения SPL](spl.exceptions.html)"

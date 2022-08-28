@@ -1,23 +1,27 @@
-- [« Swoole\Server::addProcess](swoole-server.addprocess.md)
-- [Swoole\Server::bind »](swoole-server.bind.md)
+Запускає callback-функцію після закінчення певного періоду часу
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Запускає callback-функцію після закінчення певного періоду
-часу
+-   [« Swoole\\Server::addProcess](swoole-server.addprocess.html)
+    
+-   [Swoole\\Server::bind »](swoole-server.bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Запускає callback-функцію після закінчення певного періоду часу
+    
 
-# Swoole\Server::after
+# SwooleServer::after
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::after — Запускає callback-функцію після закінчення
-певного періоду часу
+SwooleServer::after — Запускає callback-функцію після закінчення певного періоду часу
 
 ### Опис
 
-public **Swoole\Server::after**(int `$after_time_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` =
-?): ReturnType
+```methodsynopsis
+public Swoole\Server::after(int $after_time_ms, callable $callback, string $param = ?): ReturnType
+```
 
 ### Список параметрів
 

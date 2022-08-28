@@ -1,18 +1,22 @@
-- [«timezone_open](function.timezone-open.md)
-- [timezone_version_get »](function.timezone-version-get.md)
+Псевдонім DateTimeZone::getTransitions
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTimeZone::getTransitions
+-   [« timezone\_open](function.timezone-open.html)
+    
+-   [timezone\_version\_get »](function.timezone-version-get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTimeZone::getTransitions
+    
 
-#timezone_transitions_get
+# timezonetransitionsget
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-timezone_transitions_get - Псевдонім
-[DateTimeZone::getTransitions()](datetimezone.gettransitions.md)
+timezonetransitionsget - Псевдонім [DateTimeZone::getTransitions()](datetimezone.gettransitions.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTimeZone::getTransitions()](datetimezone.gettransitions.md)
+Ця функція є псевдонімом: [DateTimeZone::getTransitions()](datetimezone.gettransitions.html)

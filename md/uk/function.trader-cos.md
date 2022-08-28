@@ -1,29 +1,36 @@
-- [«trader_correl](function.trader-correl.md)
-- [trader_cosh »](function.trader-cosh.md)
+Тригонометричний вектор косинуса
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Тригонометричний вектор косинуса
+-   [« trader\_correl](function.trader-correl.html)
+    
+-   [trader\_cosh »](function.trader-cosh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Тригонометричний вектор косинуса
+    
 
-# trader_cos
+# tradercos
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cos — вектор тригонометричного косинуса.
+tradercos — вектор тригонометричних косинуса.
 
 ### Опис
 
-**trader_cos**(array `$real`): array
+```methodsynopsis
+trader_cos(array $real): array
+```
 
-Обчислює косинус для кожного значення в `real` та повертає отриманий
-масив.
+Обчислює косинус для кожного значення `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

@@ -1,19 +1,27 @@
-- [« Threaded::chunk](threaded.chunk.md)
-- [Threaded::extend »](threaded.extend.md)
+Обробка
 
-- [PHP Manual](index.md)
-- [Threaded](class.threaded.md)
-- обробка
+-   [« Threaded::chunk](threaded.chunk.html)
+    
+-   [Threaded::extend »](threaded.extend.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Threaded](class.threaded.html)
+    
+-   Обробка
+    
 
 # Threaded::count
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Threaded::count — Обробка
 
 ### Опис
 
-public **Threaded::count**(): int
+```methodsynopsis
+public Threaded::count(): int
+```
 
 Повертає кількість властивостей цього об'єкта.
 
@@ -27,8 +35,20 @@ public **Threaded::count**(): int
 
 **Приклад #1 Підрахунок властивостей об'єкта**
 
-` <?php$safe = new Threaded();while (count($safe) < 10) {    $safe[] = count($safe);}var_dump(count($safe));?> `
+```php
+<?php
+$safe = new Threaded();
+
+while (count($safe) < 10) {
+    $safe[] = count($safe);
+}
+
+var_dump(count($safe));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(10)
+```

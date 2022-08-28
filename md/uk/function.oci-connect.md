@@ -1,194 +1,288 @@
-- [«oci_commit](function.oci-commit.md)
-- [oci_define_by_name »](function.oci-define-by-name.md)
+Встановлює з'єднання з базою даних Oracle
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Встановлює з'єднання з базою даних Oracle
+-   [« oci\_commit](function.oci-commit.html)
+    
+-   [oci\_define\_by\_name »](function.oci-define-by-name.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Встановлює з'єднання з базою даних Oracle
+    
 
-# oci_connect
+# ociconnect
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_connect — Встановлює з'єднання з базою даних Oracle
+ociconnect — Встановлює з'єднання з базою даних Oracle
 
 ### Опис
 
-**oci_connect**(
-string `$username`,
-string `$password`,
-?string `$connection_string` = **`null`**,
-string `$encoding` = "",
-int `$session_mode` = **`OCI_DEFAULT`**
-): resource \ | false
+```methodsynopsis
+oci_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
+```
 
-Повертає ідентифікатор з'єднання, який використовується більшістю
-функцій цього модуля.
+Повертає ідентифікатор з'єднання, який використовується більшістю функцій модуля.
 
-Для підвищення продуктивності більшість додатків повинні
-використовувати постійні з'єднання за допомогою
-[oci_pconnect()](function.oci-pconnect.md) замість **oci_connect()**.
-Дивіться [Управління підключенням](oci8.connection.md) для більш
-детальної інформації з управління з'єднаннями та створення пулів
-підключень.
+Для підвищення продуктивності більшість програм повинні використовувати постійні з'єднання за допомогою [oci\_pconnect()](function.oci-pconnect.html) замість **ociconnect()**. Дивіться [Управление соединением](oci8.connection.html) для більш детальної інформації з управління з'єднаннями та створення пулів підключень.
 
-Починаючи з PHP 5.1.2 (PECL OCI8 1.1) функція
-[oci_close()](function.oci-close.md) може використовуватися для
-завершення з'єднання.
+Починаючи з PHP 5.1.2 (PECL OCI8 1.1) функція [oci\_close()](function.oci-close.html) може використовуватись для завершення з'єднання.
 
-Другий та подальші виклики функції **oci_connect()** з тими ж
-параметрами повернуть ідентифікатор відкритого з'єднання. Це означає,
-що транзакції використовують *одне й те ж* базове з'єднання з базою
-даних. За необхідності поділу транзакцій рекомендується
-використовувати функцію [oci_new_connect()](function.oci-new-connect.md).
+Другий та наступні виклики функції **ociconnect()** з тими ж параметрами повернуть ідентифікатор відкритого з'єднання. Це означає, що транзакції використовують *одне і теж* базове з'єднання із базою даних. При необхідності поділу транзакцій рекомендується використовувати функцію [oci\_new\_connect()](function.oci-new-connect.html)
 
 ### Список параметрів
 
 `username`
+
 Ім'я користувача Oracle.
 
 `password`
-Пароль `username`.
+
+Пароль `username`
 
 `connection_string`
-Містить `примірник Oracle` для підключення. Це може бути [» Easy
-Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
-або Connect Name з файлу `tnsnames.ora`, або ім'я локального екземпляра
-Oracle.
 
-Якщо не вказано окремо або **`null`**, PHP використовує змінні
-оточення, такі як **`TWO_TASK`** (на Linux) або **`LOCAL`** (на
-Windows) і **`ORACLE_SID`** для визначення `примірника Oracle` для
-з'єднання.
+Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
 
-Для використання методу Easy Connect, PHP повинен бути злінкований з
-клієнтські бібліотеки версії Oracle 10*g* або старші. Easy Connect
-string для Oracle 10*g* набуває такої форми:
-*[//]host_name[:port][/service_name]*. Починаючи з Oracle 11*g*
-синтаксис такий:
-*[//]host_name[:port][/service_name][:server_type][/instance_name]*.
-У Oracle 19c було введено додаткові параметри, включаючи налаштування
-часу очікування та перевірки активності. Зверніться до документації
-Oracle. Назви служб можуть бути визначені за допомогою запуску Oracle
-утиліти `lsnrctl status` на сервері бази даних.
+Якщо не вказано окремо або **`null`**, PHP використовує змінні оточення, такі як **`TWO_TASK`** (на Linux) або **`LOCAL`** (на Windows) та **`ORACLE_SID`** для визначення `экземпляра Oracle` для з'єднання.
 
-Файл `tnsnames.ora` може знаходитись у пошуковому шляху Oracle Net,
-який включає `/your/path/to/instantclient/network/admin`,
-`$ORACLE_HOME/network/admin` та `/etc`. Як альтернативний
-варіанта можна встановити `TNS_ADMIN` таким чином, щоб шлях
-`$TNS_ADMIN/tnsnames.ora` читалося. Переконайтеся, що веб-сервер має
-доступ до файлу.
+Для використання методу Easy Connect, PHP має бути з'єднаний з клієнтськими бібліотеками версії Oracle 10*г* чи старше. Easy Connect string для Oracle 10*г* приймає таку форму: *hostname:port/servicename*. Починаючи з Oracle 11*г* синтаксис такий: *hostname:port/servicename:servertype/instancename*. У Oracle 19c було введено додаткові параметри, включаючи налаштування часу очікування та перевірки активності. Зверніться до документації Oracle. Назви служб можуть бути визначені за допомогою запуску Oracle утиліти `lsnrctl status` на сервері бази даних.
+
+Файл tnsnames.ora може знаходитись у пошуковому шляху Oracle Net, який включає /your/path/to/instantclient/network/admin, $ORACLEHOME/network/admin та /etc. Як альтернативний варіант можна встановити `TNS_ADMIN` таким чином, щоб шлях $TNSADMIN/tnsnames.ora читав. Переконайтеся, що веб-сервер має доступ до файлу.
 
 `encoding`
-Визначає кодування, яке використовується клієнтськими бібліотеками Oracle.
-Дане кодування не обов'язково має співпадати з кодуванням,
-використовується у самій базі даних. Якщо вона не співпадає, Oracle зробить
-все можливе для конвертування даних з-і це кодування. В
-залежно від використовуваних кодувань це може не завжди давати
-прийнятні результати. Перетворення також створює деякі
-додаткові часові витрати.
 
-Якщо кодування не вказано, клієнтські бібліотеки Oracle будуть визначати
-її із змінної оточення **`NLS_LANG`**.
+Визначає кодування, яке використовується клієнтськими бібліотеками Oracle. Дане кодування не обов'язково має збігатися з кодуванням, яке використовується в самій базі даних. Якщо вона не збігається, Oracle зробить все можливе для конвертування даних із-і в дане кодування. Залежно від використовуваних кодувань, це може не завжди давати прийнятні результати. Перетворення також створює деякі додаткові витрати часу.
 
-Передача цього параметра може зменшити час, що витрачається на
-з'єднання.
+Якщо кодування не вказано, клієнтські бібліотеки Oracle визначатимуть його зі змінного оточення. **`NLS_LANG`**
+
+Передача цього параметра може зменшити час, що витрачається на з'єднання.
 
 `session_mode`
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) та
-приймає наступні значення: **`OCI_DEFAULT`**, **`OCI_SYSOPER`** та
-**`OCI_SYSDBA`**. Якщо були вказані **`OCI_SYSOPER`** або
-**`OCI_SYSDBA`**, дана функція спробує встановити привілейоване
-з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням
-привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно
-встановити
-[oci8.privileged_connect](oci8.configuration.md#ini.oci8.privileged-connect)
-в `On`.
 
-У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення
-**`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню
-аутентифікацію або аутентифікацію за допомогою операційної системи, що
-має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути
-використаний лише з ім'ям користувача "/" та порожнім паролем.
-[oci8.privileged_connect](oci8.configuration.md#ini.oci8.privileged-connect)
-може приймати значення `On` або `Off`.
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
 
-**`OCI_CRED_EXT`** може використовуватися спільно з режимами
-**`OCI_SYSOPER`** та **`OCI_SYSDBA`**.
+У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privileged\_connect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
 
-**`OCI_CRED_EXT`** не підтримується в Windows через безпеку.
+**`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
+
+**`OCI_CRED_EXT`** не підтримується у Windows через безпеку.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор з'єднання або **`false`** у разі
-виникнення помилки.
+Повертає ідентифікатор з'єднання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                             |
-| ---------------------- | ------------------------------------------------ |
-| 8.0.0, PECL OCI8 3.0.0 | connection_string тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `connection_string` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_connect()** із синтаксисом Easy
-Connect**
+**Приклад #1 Приклад використання **ociconnect()** із синтаксисом Easy Connect**
 
-`<?php// Підключається к XE сервісу (тобто к базі даних) на "localhost"$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$n $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
-";    }    echo "</tr>
-";}echo "</table>
-";?> `
+```php
+<?php
 
-**Приклад #2 Приклад використання **oci_connect()** використовуючи ім'я Network
-Connect**
+// Подключается к XE сервису (т.е. к базе данных) на "localhost"
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
 
-` <?php// Соединяется с базой данных MYDB описанной в файле tnsnames.ora,// Пример записи в tnsnames.ora для MYDB://   MYDB =//     (DESCRIPTION =//       (ADDRESS = (PROTOCOL = TCP)(HOST = mymachine.oracle.com)(PORT = 1521))//       (CONNECT_DATA =//         (SERVER = DEDICATED)//         (SERVICE_NAME = XE)//       )//     )$conn = oci_connect('hr', 'welcome' , 'MYDB');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
-";    }    echo "</tr>
-";}echo "</table>
-";?> `
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
 
-**Приклад #3 Приклад використання **oci_connect()** з використанням
-певного набору символів**
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
-";    }    echo "</tr>
-";}echo "</table>
-";?> `
+?>
+```
 
-**Приклад #4 Приклад використання багаторазових дзвінків
-**oci_connect()****
+**Приклад #2 Приклад використання **ociconnect()** використовуючи ім'я Network Connect**
 
-` <?php$c1 = oci_connect("hr", "welcome", 'localhost/XE');$c2 = oci_connect("hr", "welcome", 'localhost/XE');// $c1 і $ c2 містять однаковий PHP id ресурсу, означає, що// вони використовують однакове базове з'єднанняecho "c1 is $c1<br>
-";echo "c2 is $c2<br>
-";function create_table($conn){    $stmt = oci_parse($conn, "create table hallo (test varchar2(64))");    oci_execute($stmt);    
-";}function drop_table($conn){    $stmt = oci_parse($conn, "drop table hallo");    oci_execute($stmt);    echo "Dropped table
-";}function insert_data($connname, $conn){    $stmt = oci_parse($conn, "insert into hallo                                                                                                          ■ $stmt, OCI_DEFAULT);   echo "$connname inserted row without committing<br>
-";}function rollback($connname, $conn){    oci_rollback($conn);   echo "$connname rollback<br>
-";}function select_data($connname, $conn){    $stmt = oci_parse($conn, "select * from hallo");   oci_execute($stmt, oCI_DEFAULT)
-";    while (oci_fetch($stmt)) {        echo "    " . oci_result($stmt, "TEST") . "<br>
-";    }    echo "$connname ----done<br>
-";}create_table($c1);insert_data('c1', $c1);   // Вставить строку используя c1sleep(2);                 // остановиться для записи другой временной метки для следующей строкиinsert_data('c2', $c2);   / / Вставить строку используя c2select_data('c1', $c1);   // Возврат результата обоих вставокselect_data('c2', $c2);   // Возврат результата обоих вставокrollback('c1', $c1);      // Откат используя c1select_data( 'c1', $c1); $c1);echo "c1 is $c1<br>
-";echo "c2 is $c2<br>
-";// Вывод is://    c1 is Resource id #5//    c2 is Resource id #5//    Created table//    c1 inserted row without committing//    c2 inserted row without committing//    c1 ----selecting/ /                                                  43//                            х             | /   c2 ----done//    Dropped table//    c1 is//    c2 is Resource id #5?> `
+```php
+<?php
+
+// Соединяется с базой данных MYDB описанной в файле tnsnames.ora,
+// Пример записи в tnsnames.ora для MYDB:
+//   MYDB =
+//     (DESCRIPTION =
+//       (ADDRESS = (PROTOCOL = TCP)(HOST = mymachine.oracle.com)(PORT = 1521))
+//       (CONNECT_DATA =
+//         (SERVER = DEDICATED)
+//         (SERVICE_NAME = XE)
+//       )
+//     )
+
+$conn = oci_connect('hr', 'welcome', 'MYDB');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+?>
+```
+
+**Приклад #3 Приклад використання **ociconnect()** з використанням певного набору символів**
+
+```php
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+?>
+```
+
+**Приклад #4 Приклад використання багаторазових дзвінків **ociconnect()****
+
+```php
+<?php
+
+$c1 = oci_connect("hr", "welcome", 'localhost/XE');
+$c2 = oci_connect("hr", "welcome", 'localhost/XE');
+
+// $c1 и $c2 содержат одинаковый PHP id ресурса, что означает, что
+// они используют одинаковое базовое соединение
+echo "c1 is $c1<br>\n";
+echo "c2 is $c2<br>\n";
+
+function create_table($conn)
+{
+    $stmt = oci_parse($conn, "create table hallo (test varchar2(64))");
+    oci_execute($stmt);
+    echo "Created table<br>\n";
+}
+
+function drop_table($conn)
+{
+    $stmt = oci_parse($conn, "drop table hallo");
+    oci_execute($stmt);
+    echo "Dropped table<br>\n";
+}
+
+function insert_data($connname, $conn)
+{
+    $stmt = oci_parse($conn, "insert into hallo
+              values(to_char(sysdate,'DD-MON-YY HH24:MI:SS'))");
+    oci_execute($stmt, OCI_DEFAULT);
+    echo "$connname inserted row without committing<br>\n";
+}
+
+function rollback($connname, $conn)
+{
+    oci_rollback($conn);
+    echo "$connname rollback<br>\n";
+}
+
+function select_data($connname, $conn)
+{
+    $stmt = oci_parse($conn, "select * from hallo");
+    oci_execute($stmt, OCI_DEFAULT);
+    echo "$connname ----selecting<br>\n";
+    while (oci_fetch($stmt)) {
+        echo "    " . oci_result($stmt, "TEST") . "<br>\n";
+    }
+    echo "$connname ----done<br>\n";
+}
+
+create_table($c1);
+
+insert_data('c1', $c1);   // Вставить строку используя c1
+sleep(2);                 // остановиться для записи другой временной метки для следующей строки
+insert_data('c2', $c2);   // Вставить строку используя c2
+
+select_data('c1', $c1);   // Возврат результата обоих вставок
+select_data('c2', $c2);   // Возврат результата обоих вставок
+
+rollback('c1', $c1);      // Откат используя c1
+
+select_data('c1', $c1);   // Откат был произведён для обоих вставок
+select_data('c2', $c2);
+
+drop_table($c1);
+
+// Закрытие одного из соединений делает переменную PHP недоступной, но
+// другие могут быть использованы
+oci_close($c1);
+echo "c1 is $c1<br>\n";
+echo "c2 is $c2<br>\n";
+
+
+// Вывод is:
+//    c1 is Resource id #5
+//    c2 is Resource id #5
+//    Created table
+//    c1 inserted row without committing
+//    c2 inserted row without committing
+//    c1 ----selecting
+//        09-DEC-09 12:14:43
+//        09-DEC-09 12:14:45
+//    c1 ----done
+//    c2 ----selecting
+//        09-DEC-09 12:14:43
+//        09-DEC-09 12:14:45
+//    c2 ----done
+//    c1 rollback
+//    c1 ----selecting
+//    c1 ----done
+//    c2 ----selecting
+//    c2 ----done
+//    Dropped table
+//    c1 is
+//    c2 is Resource id #5
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Некоректно встановлений або налаштований модуль OCI8 буде часто
-> повідомляти про проблеми з'єднання або помилки. Дивіться
-> [Установка/Настройка](oci8.setup.md) для вирішення проблем.
+> **Зауваження**
+> 
+> Некоректно встановлений або налаштований модуль OCI8 часто повідомлятиме про проблеми з'єднання або помилки. Дивіться [Установка/Настройка](oci8.setup.html) для вирішення проблем.
 
 ### Дивіться також
 
-- [oci_pconnect()](function.oci-pconnect.md) - Встановлює
-постійне з'єднання з сервером Oracle
-- [oci_new_connect()](function.oci-new-connect.md) - Встановлює
-нове з'єднання з сервером Oracle
-- [oci_close()](function.oci-close.md) - Закриває з'єднання з
-сервером Oracle
+-   [oci\_pconnect()](function.oci-pconnect.html) - Встановлює постійне з'єднання із сервером Oracle
+-   [oci\_new\_connect()](function.oci-new-connect.html) - Встановлює нове з'єднання із сервером Oracle
+-   [oci\_close()](function.oci-close.html) - Закриває з'єднання із сервером Oracle

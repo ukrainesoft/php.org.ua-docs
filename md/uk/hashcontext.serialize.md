@@ -1,24 +1,31 @@
-- [« HashContext::\_\_construct](hashcontext.construct.md)
-- [HashContext::\_\_unserialize »](hashcontext.unserialize.md)
+Серіалізує об'єкт HashContext
 
-- [PHP Manual](index.md)
-- [HashContext](class.hashcontext.md)
-- Серіалізує об'єкт HashContext
+-   [« HashContext::\_\_construct](hashcontext.construct.html)
+    
+-   [HashContext::\_\_unserialize »](hashcontext.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [HashContext](class.hashcontext.html)
+    
+-   Серіалізує об'єкт HashContext
+    
 
-# HashContext::\_\_serialize
+# HashContext::serialize
 
 (PHP 8)
 
-HashContext::\_\_serialize — Серіалізує об'єкт HashContext
+HashContext::serialize — Серіалізує об'єкт HashContext
 
 ### Опис
 
-public **HashContext::\_\_serialize**(): array
+```methodsynopsis
+public HashContext::__serialize(): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

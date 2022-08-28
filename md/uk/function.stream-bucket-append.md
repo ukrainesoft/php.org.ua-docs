@@ -1,21 +1,28 @@
-- [« Функції для роботи з потоками](ref.stream.md)
-- [stream_bucket_make_writeable »](function.stream-bucket-make-writeable.md)
+Додати відро (bucket) до бригади (brigade)
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Додати відро (bucket) до бригади (brigade)
+-   [« Функции для работы с потоками](ref.stream.html)
+    
+-   [stream\_bucket\_make\_writeable »](function.stream-bucket-make-writeable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Додати відро (bucket) до бригади (brigade)
+    
 
-#stream_bucket_append
+# streambucketappend
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_bucket_append — Додати відро (bucket) до бригади (brigade)
+streambucketappend - Додати відро (bucket) до бригади (brigade)
 
 ### Опис
 
-**stream_bucket_append**(resource `$brigade`, object `$bucket`): void
+```methodsynopsis
+stream_bucket_append(resource $brigade, object $bucket): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

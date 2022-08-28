@@ -1,13 +1,19 @@
-- [« Componere\Patch::getClosures](componere-patch.getclosures.md)
-- [Componere\Method::\_\_construct »](componere-method.construct.md)
+Клас ComponereMethod
 
-- [PHP Manual](index.md)
-- [Componere](book.componere.md)
-- Клас Componere\Method
+-   [« Componere\\Patch::getClosures](componere-patch.getclosures.html)
+    
+-   [Componere\\Method::\_\_construct »](componere-method.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere](book.componere.html)
+    
+-   Клас ComponereMethod
+    
 
-# Клас Componere\Method
+# Клас ComponereMethod
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
 ## Вступ
 
@@ -15,36 +21,36 @@ Method представляє функцію зі змінними прапор�
 
 ## Огляд класів
 
-final class **Componere\Method** {
+```classsynopsis
 
-/\* Конструктор класу \*/
 
-public
-[\_\_construct](componere-method.construct.md)([Closure](class.closure.md)
-`$closure`)
 
-/\* Методи \*/
+    
+     
+      final
+      class Componere\Method
+     
+     {
 
-public [setPrivate](componere-method.setprivate.md)(): Method
 
-public [setProtected](componere-method.setprotected.md)(): Method
+    /* Конструктор класса */
+    
+   public __construct(Closure $closure)
 
-public [setStatic](componere-method.setstatic.md)(): Method
 
-public [getReflector](componere-method.getreflector.md)():
-[ReflectionMethod](class.reflectionmethod.md)
+    /* Методы */
+    public setPrivate(): Method
+public setProtected(): Method
+public setStatic(): Method
+public getReflector(): ReflectionMethod
 
-}
+   }
+```
 
 ## Зміст
 
-- [Componere\Method::\_\_construct](componere-method.construct.md) -
-Конструктор класу Method
-- [Componere\Method::setPrivate](componere-method.setprivate.md) -
-Зміна доступності
-- [Componere\Method::setProtected](componere-method.setprotected.md)
-— Зміна доступності
-- [Componere\Method::setStatic](componere-method.setstatic.md) -
-Зміна доступності
-- [Componere\Method::getReflector](componere-method.getreflector.md)
-- Reflection
+-   [Componere\\Method::\_\_construct](componere-method.construct.html) - Конструктор класу Method
+-   [Componere\\Method::setPrivate](componere-method.setprivate.html) — Зміна доступності
+-   [Componere\\Method::setProtected](componere-method.setprotected.html) — Зміна доступності
+-   [Componere\\Method::setStatic](componere-method.setstatic.html) — Зміна доступності
+-   [Componere\\Method::getReflector](componere-method.getreflector.html) - Reflection

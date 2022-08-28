@@ -1,20 +1,27 @@
-- [« Swoole\Connection\Iterator::rewind](swoole-connection-iterator.rewind.md)
-- [Swoole\Coroutine »](class.swoole-coroutine.md)
+Перевіряє правильність поточної позиції
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- Перевіряє правильність поточної позиції
+-   [« Swoole\\Connection\\Iterator::rewind](swoole-connection-iterator.rewind.html)
+    
+-   [Swoole\\Coroutine »](class.swoole-coroutine.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   Перевіряє правильність поточної позиції
+    
 
-# Swoole\Connection\Iterator::valid
+# SwooleConnectionIterator::valid
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Connection\Iterator::valid — Перевіряє правильність поточної
-позиції
+SwooleConnectionIterator::valid — Перевіряє правильність поточної позиції
 
 ### Опис
 
-public **Swoole\Connection\Iterator::valid**(): bool
+```methodsynopsis
+public Swoole\Connection\Iterator::valid(): bool
+```
 
 Перевіряє правильність поточної позиції.
 

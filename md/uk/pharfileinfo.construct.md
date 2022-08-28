@@ -1,53 +1,69 @@
-- [« PharFileInfo::compress](pharfileinfo.compress.md)
-- [PharFileInfo::decompress »](pharfileinfo.decompress.md)
+Конструктор об'єкта PharFileInfo
 
-- [PHP Manual](index.md)
-- [PharFileInfo](class.pharfileinfo.md)
-- Конструктор об'єкта PharFileInfo
+-   [« PharFileInfo::compress](pharfileinfo.compress.html)
+    
+-   [PharFileInfo::decompress »](pharfileinfo.decompress.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PharFileInfo](class.pharfileinfo.html)
+    
+-   Конструктор об'єкта PharFileInfo
+    
 
-# PharFileInfo::\_\_construct
+# PharFileInfo::construct
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-PharFileInfo::\_\_construct — Конструктор об'єкта PharFileInfo
+PharFileInfo::construct — Конструктор об'єкта PharFileInfo
 
 ### Опис
 
-public **PharFileInfo::\_\_construct**(string `$filename`)
+public **PharFileInfo::construct**(string `$filename`
 
-Не повинен викликатись безпосередньо. Об'єкт PharFileInfo слідує
-ініціалізувати за допомогою [Phar::offsetGet()](phar.offsetget.md),
-використовуючи синтаксис доступу до масиву.
+Не повинен викликатись безпосередньо. Об'єкт PharFileInfo слід ініціалізувати за допомогою [Phar::offsetGet()](phar.offsetget.html)за допомогою синтаксису доступу до масиву.
 
 ### Список параметрів
 
 `filename`
-Повний URL-файл. Якщо ви бажаєте вийняти файл `my/file.php` з архіву
-`boo.phar`, необхідно задати `phar://boo.phar/my/file.php`.
+
+Повний URL-файл. Якщо ви хочете вийняти файл `my/file.php` з архіву `boo.phar`необхідно задати `phar://boo.phar/my/file.php`
 
 ### Помилки
 
-Викидає виняток
-[BadMethodCallException](class.badmethodcallexception.md), якщо
-[\_\_construct()](language.oop5.decon.md#object.construct) викликаний
-двічі. Викидає виняток
-[UnexpectedValueException](class.unexpectedvalueexception.md), якщо
-запитаний URL некоректний, phar-архів неможливо відкрити або якщо
-вказаний файл відсутній в архіві.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо [\_\_construct()](language.oop5.decon.html#object.construct) викликаний двічі. Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо запитаний URL некоректний, phar-архів неможливо відкрити або якщо вказаний файл відсутній в архіві.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::\_\_construct()****
+**Приклад #1 Приклад використання **PharFileInfo::construct()****
 
-`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['testfile.txt'] = "hi
-there
-dude";    $file = $p['testfile.txt'];    foreach ($file as $line => $text) {        echo "номер строки $line: $text";    }    // так то же работает    $file = new PharFileInfo('phar:///path/to/my.phar/testfile.txt');    foreach ($file as $line => $text) {         echo "ряд|$ (Exception $e) {   echo 'Операції Phar завершилися помилкою;}?> `
+```php
+<?php
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['testfile.txt'] = "hi\nthere\ndude";
+    $file = $p['testfile.txt'];
+    foreach ($file as $line => $text) {
+        echo "номер строки $line: $text";
+    }
+    // так то же работает
+    $file = new PharFileInfo('phar:///path/to/my.phar/testfile.txt');
+    foreach ($file as $line => $text) {
+        echo "номер строки $line: $text";
+    }
+} catch (Exception $e) {
+    echo 'Операции Phar завершились ошибкой;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-номер рядка 1: hi
-номер рядка 2: there
-номер рядка 3: dude
-номер рядка 1: hi
-номер рядка 2: there
-номер рядка 3: dude
+```
+номер строки 1: hi
+номер строки 2: there
+номер строки 3: dude
+номер строки 1: hi
+номер строки 2: there
+номер строки 3: dude
+```

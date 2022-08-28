@@ -1,19 +1,27 @@
-- [« mysql_xdevapi \ Client](class.mysql-xdevapi-client.md)
-- [Client::\_\_construct »](mysql-xdevapi-client.construct.md)
+Закриття клієнта
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Client](class.mysql-xdevapi-client.md)
-- Закриття клієнта
+-   [« mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html)
+    
+-   [Client::\_\_construct »](mysql-xdevapi-client.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Client](class.mysql-xdevapi-client.html)
+    
+-   Закриття клієнта
+    
 
-# mysql_xdevapi\Client::close
+# mysqlxdevapiClient::close
 
 (No version information available, might only be in Git)
 
-mysql_xdevapi\Client::close — Закриття клієнта
+mysqlxdevapiClient::close — Закриття клієнта
 
 ### Опис
 
-public **mysql_xdevapi\Client::close**(): bool
+```methodsynopsis
+public mysql_xdevapi\Client::close(): bool
+```
 
 Закриває всі клієнтські з'єднання із сервером.
 
@@ -23,4 +31,4 @@ public **mysql_xdevapi\Client::close**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо з'єднання закриті.
+**`true`**якщо з'єднання закриті.

@@ -1,15 +1,21 @@
-- [«Вступ](intro.snmp.md)
-- [Вимоги »](snmp.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [SNMP](book.snmp.md)
+-   [« Введение](intro.snmp.html)
+    
+-   [Требования »](snmp.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SNMP](book.snmp.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](snmp.requirements.md)
-- [Установка](snmp.installation.md)
-- [Налаштування під час виконання](snmp.configuration.md)
-- [Типи ресурсів](snmp.resources.md)
+-   [Требования](snmp.requirements.html)
+-   [Установка](snmp.installation.html)
+-   [Настройка во время выполнения](snmp.configuration.html)
+-   [Типы ресурсов](snmp.resources.html)

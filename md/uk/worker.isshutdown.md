@@ -1,19 +1,27 @@
-- [« Worker::getStacked](worker.getstacked.md)
-- [Worker::shutdown »](worker.shutdown.md)
+Визначення стану
 
-- [PHP Manual](index.md)
-- [Worker](class.worker.md)
-- Визначення стану
+-   [« Worker::getStacked](worker.getstacked.html)
+    
+-   [Worker::shutdown »](worker.shutdown.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Worker](class.worker.html)
+    
+-   Визначення стану
+    
 
 # Worker::isShutdown
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Worker::isShutdown — Визначення стану
 
 ### Опис
 
-public **Worker::isShutdown**(): bool
+```methodsynopsis
+public Worker::isShutdown(): bool
+```
 
 Визначає, чи зупинено Worker чи ні.
 
@@ -29,9 +37,21 @@ public **Worker::isShutdown**(): bool
 
 **Приклад #1 Визначення стану**
 
-` <?php$worker = new Worker();$worker->start();var_dump($worker->isShutdown());$worker->shutdown();var_dump($worker->isShutdown()); `
+```php
+<?php
+$worker = new Worker();
+$worker->start();
+
+var_dump($worker->isShutdown());
+
+$worker->shutdown();
+
+var_dump($worker->isShutdown());
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```

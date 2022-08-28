@@ -1,20 +1,27 @@
-- [« wkhtmltox\Image\Converter::\_\_construct](wkhtmltox-image-converter.construct.md)
-- [wkhtmltox\Image\Converter::getVersion »](wkhtmltox-image-converter.getversion.md)
+Виконати перетворення зображень
 
-- [PHP Manual](index.md)
-- [wkhtmltox\Image\Converter](class.wkhtmltox-image-converter.md)
-- Виконати перетворення зображень
+-   [« wkhtmltox\\Image\\Converter::\_\_construct](wkhtmltox-image-converter.construct.html)
+    
+-   [wkhtmltox\\Image\\Converter::getVersion »](wkhtmltox-image-converter.getversion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.html)
+    
+-   Виконати перетворення зображень
+    
 
-# wkhtmltox\Image\Converter::convert
+# wkhtmltoxImageConverter::convert
 
-(wkhtmltox \>= 0.1.0)
+(wkhtmltox >= 0.1.0)
 
-wkhtmltox\Image\Converter::convert — Виконати перетворення
-зображень
+wkhtmltoxImageConverter::convert — Виконати перетворення зображень
 
 ### Опис
 
-public **wkhtmltox\Image\Converter::convert**(): ?string
+```methodsynopsis
+public wkhtmltox\Image\Converter::convert(): ?string
+```
 
 Виконує перетворення вхідного буфера
 
@@ -24,5 +31,4 @@ public **wkhtmltox\Image\Converter::convert**(): ?string
 
 ### Значення, що повертаються
 
-Якщо використовується значення, що повертається, воно буде заповнене вмістом
-буфера перетворення
+Якщо використовується значення, що повертається, воно буде заповнене вмістом буфера перетворення

@@ -1,25 +1,32 @@
-- [«EventBufferEvent](class.eventbufferevent.md)
-- [EventBufferEvent::connect »](eventbufferevent.connect.md)
+Закриває дескриптор файлу, пов'язаний із поточною подією буфера
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Закриває дескриптор файлу, пов'язаний із поточною подією буфера
+-   [« EventBufferEvent](class.eventbufferevent.html)
+    
+-   [EventBufferEvent::connect »](eventbufferevent.connect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Закриває дескриптор файлу, пов'язаний із поточною подією буфера
+    
 
 # EventBufferEvent::close
 
-(PECL event \>= 1.10.0)
+(PECL event >= 1.10.0)
 
-EventBufferEvent::close — Закриває дескриптор файлу, пов'язаний з
-поточною подією буфера
+EventBufferEvent::close — Закриває дескриптор файлу, пов'язаний із поточною подією буфера
 
 ### Опис
 
-public **EventBufferEvent::close**(): void
+```methodsynopsis
+public
+   EventBufferEvent::close(): void
+```
 
 Закриває дескриптор файлу, пов'язаний із поточною подією буфера.
 
-Метод може використовуватись у тих випадках, коли опція
-**`EventBufferEvent::OPT_CLOSE_ON_FREE`** не підходить.
+Метод може використовуватись у тих випадках, коли опція **`EventBufferEvent::OPT_CLOSE_ON_FREE`** не підходить.
 
 ### Список параметрів
 

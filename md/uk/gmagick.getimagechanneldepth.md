@@ -1,20 +1,27 @@
-- [« Gmagick::getimagebordercolor](gmagick.getimagebordercolor.md)
-- [Gmagick::getimagecolors »](gmagick.getimagecolors.md)
+Отримує глибину для певного каналу зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує глибину для певного каналу зображення
+-   [« Gmagick::getimagebordercolor](gmagick.getimagebordercolor.html)
+    
+-   [Gmagick::getimagecolors »](gmagick.getimagecolors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Отримує глибину для певного каналу зображення
+    
 
 # Gmagick::getimagechanneldepth
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagechanneldepth — Отримує глибину для певного
-каналу зображення
+Gmagick::getimagechanneldepth — Отримує глибину для певного каналу зображення
 
 ### Опис
 
-public **Gmagick::getimagechanneldepth**(int `$channel_type`): int
+```methodsynopsis
+public Gmagick::getimagechanneldepth(int $channel_type): int
+```
 
 Отримує глибину певного каналу зображення.
 

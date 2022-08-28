@@ -1,9 +1,15 @@
-- [« ReflectionExtension::export](reflectionextension.export.md)
-- [ReflectionExtension::getClassNames »](reflectionextension.getclassnames.md)
+Повертає класи
 
-- [PHP Manual](index.md)
-- [ReflectionExtension](class.reflectionextension.md)
-- Повертає класи
+-   [« ReflectionExtension::export](reflectionextension.export.html)
+    
+-   [ReflectionExtension::getClassNames »](reflectionextension.getclassnames.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionExtension](class.reflectionextension.html)
+    
+-   Повертає класи
+    
 
 # ReflectionExtension::getClasses
 
@@ -13,7 +19,9 @@ ReflectionExtension::getClasses — Повертає класи
 
 ### Опис
 
-public **ReflectionExtension::getClasses**(): array
+```methodsynopsis
+public ReflectionExtension::getClasses(): array
+```
 
 Повертає перелік класів модуля.
 
@@ -23,27 +31,31 @@ public **ReflectionExtension::getClasses**(): array
 
 ### Значення, що повертаються
 
-Масив об'єктів класу [ReflectionClass](class.reflectionclass.md),
-одному на кожен клас модуля. Якщо не визначено жодного класу, то
-повертається порожній масив.
+Масив об'єктів класу [ReflectionClass](class.reflectionclass.html)по одному на кожен клас модуля. Якщо не визначено жодного класу, повертається порожній масив.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionExtension::getClasses()****
 
-` <?php$ext = new ReflectionExtension('XMLWriter');var_dump($ext->getClasses());?> `
+```php
+<?php
+$ext = new ReflectionExtension('XMLWriter');
+var_dump($ext->getClasses());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-["XMLWriter"]=>
-object(ReflectionClass)#2 (1) {
-["name"]=>
-string(9) "XMLWriter"
+  ["XMLWriter"]=>
+  object(ReflectionClass)#2 (1) {
+    ["name"]=>
+    string(9) "XMLWriter"
+  }
 }
-}
+```
 
 ### Дивіться також
 
-- [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) -
-Отримання імен класів
+-   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.html) - Отримання імен класів

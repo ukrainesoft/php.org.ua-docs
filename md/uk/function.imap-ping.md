@@ -1,43 +1,59 @@
-- [« imap_open](function.imap-open.md)
-- [imap_qprint »](function.imap-qprint.md)
+Перевірити, чи активний потік IMAP
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Перевірити, чи активний потік IMAP
+-   [« imap\_open](function.imap-open.html)
+    
+-   [imap\_qprint »](function.imap-qprint.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Перевірити, чи активний потік IMAP
+    
 
-#imap_ping
+# imapping
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_ping — Перевірити, чи активний потік IMAP.
+imapping — Перевірити, чи активний потік IMAP
 
 ### Опис
 
-**imap_ping**([IMAP\Connection](class.imap-connection.md) `$imap`):
-bool
+```methodsynopsis
+imap_ping(IMAP\Connection $imap): bool
+```
 
-**imap_ping()** перевіряє, чи активний ще відкритий потік. За допомогою нього
-можна дізнаватись, чи є нова пошта. Це кращий метод
-перевіряти чи є нові повідомлення та аналог "keep alive" для серверів з
-налаштованим часом очікування неактивності.
+**imapping()** перевіряє, чи активний відкритий потік. За допомогою нього можна дізнаватися, чи є нова пошта. Це кращий метод перевіряти чи є нові повідомлення та аналог "keep alive" для серверів з налаштованим часом очікування неактивності.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо потік активний і **`false`**, якщо ні.
+Повертає **`true`**якщо потік активний і **`false`**, якщо ні.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_ping()****
+**Приклад #1 Приклад використання **imapping()****
 
-` <?php$imap = imap_open("{imap.example.org}", "mailadmin", "password");
+```php
+<?php
+
+$imap = imap_open("{imap.example.org}", "mailadmin", "password");
+
+// после некоторого ожидания
+if (!imap_ping($imap)) {
+    // производим переподключение
+}
+
+?>
+```

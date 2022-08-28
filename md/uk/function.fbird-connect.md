@@ -1,23 +1,27 @@
-- [«fbird_commit](function.fbird-commit.md)
-- [fbird_db_info »](function.fbird-db-info.md)
+Псевдонім ibaseconnect
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_connect
+-   [« fbird\_commit](function.fbird-commit.html)
+    
+-   [fbird\_db\_info »](function.fbird-db-info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseconnect
+    
 
-#fbird_connect
+# fbirdconnect
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_connect - Псевдонім [ibase_connect()](function.ibase-connect.md)
+fbirdconnect — Псевдонім [ibase\_connect()](function.ibase-connect.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_connect()](function.ibase-connect.md).
+Ця функція є псевдонімом: [ibase\_connect()](function.ibase-connect.html)
 
 ### Дивіться також
 
-- [fbird_pconnect()](function.fbird-pconnect.md) - Псевдонім
-ibase_pconnect
-- [fbird_close()](function.fbird-close.md) - Псевдонім ibase_close
+-   [fbird\_pconnect()](function.fbird-pconnect.html) - Псевдонім ibasepconnect
+-   [fbird\_close()](function.fbird-close.html) - Псевдонім ibaseclose

@@ -1,33 +1,46 @@
-- [« EvPeriodic::createStopped](evperiodic.createstopped.md)
-- [EvPrepare »](class.evprepare.md)
+Налаштовує спостерігача
 
-- [PHP Manual](index.md)
-- [EvPeriodic](class.evperiodic.md)
-- Налаштовує спостерігача
+-   [« EvPeriodic::createStopped](evperiodic.createstopped.html)
+    
+-   [EvPrepare »](class.evprepare.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvPeriodic](class.evperiodic.html)
+    
+-   Налаштовує спостерігача
+    
 
 # EvPeriodic::set
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvPeriodic::set — Налаштовує спостерігача
 
 ### Опис
 
-public **EvPeriodic::set**( float `$offset` , float `$interval` ): void
+```methodsynopsis
+public
+   EvPeriodic::set(
+    float
+     $offset
+   , 
+    float
+     $interval
+   ): void
+```
 
-Налаштовує або переналаштовує EvPeriodic спостерігача.
+Налаштовує чи переналаштовує EvPeriodic спостерігача.
 
 ### Список параметрів
 
 `offset`
-Те саме, що і для
-[EvPeriodic::\_\_construct()](evperiodic.construct.md) . Дивіться
-[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+
+Те саме, що і для [EvPeriodic::\_\_construct()](evperiodic.construct.html) . Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
 
 `interval`
-Те саме, що і для
-[EvPeriodic::\_\_construct()](evperiodic.construct.md) . Дивіться
-[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+
+Те саме, що і для [EvPeriodic::\_\_construct()](evperiodic.construct.html) . Дивіться [Периодические режимы работы наблюдателя](ev.periodic-modes.html)
 
 ### Значення, що повертаються
 

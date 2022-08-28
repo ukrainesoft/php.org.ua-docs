@@ -1,35 +1,43 @@
-- [«Gmagick::setimagegamma](gmagick.setimagegamma.md)
-- [Gmagick::setimageindex »](gmagick.setimageindex.md)
+Встановлює кольоровість зображення зеленою первинною точкою
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює кольоровість зображення зеленою первинною точкою
+-   [« Gmagick::setimagegamma](gmagick.setimagegamma.html)
+    
+-   [Gmagick::setimageindex »](gmagick.setimageindex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює кольоровість зображення зеленою первинною точкою
+    
 
 # Gmagick::setimagegreenprimary
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimagegreenprimary — Встановлює кольоровість зображення
-зеленою первинною точкою
+Gmagick::setimagegreenprimary — Встановлює кольоровість зображення зеленою первинною точкою
 
 ### Опис
 
-public **Gmagick::setimagegreenprimary**(float `$x`, float `$y`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagegreenprimary(float $x, float $y): Gmagick
+```
 
-Встановлює кольоровість зображення зеленою первинною точкою.
+Встановлює кольоровість зображення первинною зеленою точкою.
 
 ### Список параметрів
 
 `x`
+
 X-координата зеленої основної точки.
 
 `y`
+
 Y-координата зеленої основної точки.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

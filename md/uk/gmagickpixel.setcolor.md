@@ -1,31 +1,36 @@
-- [« GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.md)
-- [GmagickPixel::setcolorvalue »](gmagickpixel.setcolorvalue.md)
+Задати колір
 
-- [PHP Manual](index.md)
-- [GmagickPixel](class.gmagickpixel.md)
-- Задати колір
+-   [« GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.html)
+    
+-   [GmagickPixel::setcolorvalue »](gmagickpixel.setcolorvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GmagickPixel](class.gmagickpixel.html)
+    
+-   Задати колір
+    
 
 # GmagickPixel::setcolor
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 GmagickPixel::setcolor — Задати колір
 
 ### Опис
 
-public **GmagickPixel::setcolor**(string `$color`):
-[GmagickPixel](class.gmagickpixel.md)
+```methodsynopsis
+public GmagickPixel::setcolor(string $color): GmagickPixel
+```
 
-Задати колір у форматі [GmagickPixel](class.gmagickpixel.md) з
-за допомогою рядка (наприклад, "blue", "#0000ff", "rgb(0,0,255)",
-"Cmyk(100,100,100,10)", і т.д.).
+Задати колір у форматі об'єкта [GmagickPixel](class.gmagickpixel.html) за допомогою рядка (наприклад, "blue", "#0000ff", "rgb(0,0,255)", "cmyk(100,100,100,10)" і т.д.).
 
 ### Список параметрів
 
-`col`
-Визначення кольору для ініціалізації об'єкту
-[GmagickPixel](class.gmagickpixel.md).
+`color`
+
+Визначення кольору для ініціалізації об'єкту [GmagickPixel](class.gmagickpixel.html)
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickPixel](class.gmagickpixel.md).
+Об'єкт [GmagickPixel](class.gmagickpixel.html)

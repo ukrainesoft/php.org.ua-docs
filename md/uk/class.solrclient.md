@@ -1,203 +1,189 @@
-- [«SolrObject::offsetUnset](solrobject.offsetunset.md)
-- [SolrClient::addDocument »](solrclient.adddocument.md)
+Клас SolrClient
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrClient
+-   [« SolrObject::offsetUnset](solrobject.offsetunset.html)
+    
+-   [SolrClient::addDocument »](solrclient.adddocument.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Клас SolrClient
+    
 
 # Клас SolrClient
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
-Використовується для надсилання запитів на сервер Solr. В даний час
-клонування та серіалізація екземплярів SolrClient не підтримується.
+Використовується для надсилання запитів на сервер Solr. В даний час клонування та серіалізація екземплярів SolrClient не підтримується.
 
 ## Огляд класів
 
-final class **SolrClient** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `SEARCH_SERVLET_TYPE` = 1;
 
-const int `UPDATE_SERVLET_TYPE` = 2;
+    
+     
+      final
+      class SolrClient
+     
+     {
 
-const int `THREADS_SERVLET_TYPE` = 4;
+    /* Константы */
+    
+     const
+     int
+      SEARCH_SERVLET_TYPE = 1;
 
-const int `PING_SERVLET_TYPE` = 8;
+    const
+     int
+      UPDATE_SERVLET_TYPE = 2;
 
-const int `TERMS_SERVLET_TYPE` = 16;
+    const
+     int
+      THREADS_SERVLET_TYPE = 4;
 
-const int `SYSTEM_SERVLET_TYPE` = 32;
+    const
+     int
+      PING_SERVLET_TYPE = 8;
 
-const string `DEFAULT_SEARCH_SERVLET` = select;
+    const
+     int
+      TERMS_SERVLET_TYPE = 16;
 
-const string `DEFAULT_UPDATE_SERVLET` = update;
+    const
+     int
+      SYSTEM_SERVLET_TYPE = 32;
 
-const string `DEFAULT_THREADS_SERVLET` = admin/threads;
+    const
+     string
+      DEFAULT_SEARCH_SERVLET = select;
 
-const string `DEFAULT_PING_SERVLET` = admin/ping;
+    const
+     string
+      DEFAULT_UPDATE_SERVLET = update;
 
-const string `DEFAULT_TERMS_SERVLET` = terms;
+    const
+     string
+      DEFAULT_THREADS_SERVLET = admin/threads;
 
-const string `DEFAULT_SYSTEM_SERVLET` = admin/system;
+    const
+     string
+      DEFAULT_PING_SERVLET = admin/ping;
 
-/\* Методи \*/
+    const
+     string
+      DEFAULT_TERMS_SERVLET = terms;
 
-public [\_\_construct](solrclient.construct.md)(array
-`$clientOptions`)
+    const
+     string
+      DEFAULT_SYSTEM_SERVLET = admin/system;
 
-public
-[addDocument](solrclient.adddocument.md)([SolrInputDocument](class.solrinputdocument.md)
-`$doc`, bool `$overwrite` = **`true`**, int `$commitWithin` = 0):
-[SolrUpdateResponse](class.solrupdateresponse.md)
 
-public [addDocuments](solrclient.adddocuments.md)(array `$docs`, bool
-`$overwrite` = **`true`**, int `$commitWithin` = 0): void
+    /* Методы */
+    
+   public __construct(array $clientOptions)
 
-public [commit](solrclient.commit.md)(bool `$softCommit` =
-**`false`**, bool `$waitSearcher` = **`true`**, bool `$expungeDeletes` =
-**`false`**): [SolrUpdateResponse](class.solrupdateresponse.md)
+    public addDocument(SolrInputDocument $doc, bool $overwrite = true, int $commitWithin = 0): SolrUpdateResponse
+public addDocuments(array $docs, bool $overwrite = true, int $commitWithin = 0): void
+public commit(bool $softCommit = false, bool $waitSearcher = true, bool $expungeDeletes = false): SolrUpdateResponse
+public deleteById(string $id): SolrUpdateResponse
+public deleteByIds(array $ids): SolrUpdateResponse
+public deleteByQueries(array $queries): SolrUpdateResponse
+public deleteByQuery(string $query): SolrUpdateResponse
+public getById(string $id): SolrQueryResponse
+public getByIds(array $ids): SolrQueryResponse
+public getDebug(): string
+public getOptions(): array
+public optimize(int $maxSegments = 1, bool $softCommit = true, bool $waitSearcher = true): SolrUpdateResponse
+public ping(): SolrPingResponse
+public query(SolrParams $query): SolrQueryResponse
+public request(string $raw_request): SolrUpdateResponse
+public rollback(): SolrUpdateResponse
+public setResponseWriter(string $responseWriter): void
+public setServlet(int $type, string $value): bool
+public system(): void
+public threads(): void
 
-public [deleteById](solrclient.deletebyid.md)(string `$id`):
-[SolrUpdateResponse](class.solrupdateresponse.md)
+    public __destruct()
 
-public [deleteByIds](solrclient.deletebyids.md)(array `$ids`):
-[SolrUpdateResponse](class.solrupdateresponse.md)
+   }
+```
 
-public [deleteByQueries](solrclient.deletebyqueries.md)(array
-`$queries`): [SolrUpdateResponse](class.solrupdateresponse.md)
-
-public [deleteByQuery](solrclient.deletebyquery.md)(string `$query`):
-[SolrUpdateResponse](class.solrupdateresponse.md)
-
-public [getById](solrclient.getbyid.md)(string `$id`):
-[SolrQueryResponse](class.solrqueryresponse.md)
-
-public [getByIds](solrclient.getbyids.md)(array `$ids`):
-[SolrQueryResponse](class.solrqueryresponse.md)
-
-public [getDebug](solrclient.getdebug.md)(): string
-
-public [getOptions](solrclient.getoptions.md)(): array
-
-public [optimize](solrclient.optimize.md)(int `$maxSegments` = 1, bool
-`$softCommit` = **`true`**, bool `$waitSearcher` = **`true`**):
-[SolrUpdateResponse](class.solrupdateresponse.md)
-
-public [ping](solrclient.ping.md)():
-[SolrPingResponse](class.solrpingresponse.md)
-
-public
-[query](solrclient.query.md)([SolrParams](class.solrparams.md)
-`$query`): [SolrQueryResponse](class.solrqueryresponse.md)
-
-public [request](solrclient.request.md)(string `$raw_request`):
-[SolrUpdateResponse](class.solrupdateresponse.md)
-
-public [rollback](solrclient.rollback.md)():
-[SolrUpdateResponse](class.solrupdateresponse.md)
-
-public [setResponseWriter](solrclient.setresponsewriter.md)(string
-`$responseWriter`): void
-
-public [setServlet](solrclient.setservlet.md)(int `$type`, string
-`$value`): bool
-
-public [system](solrclient.system.md)(): void
-
-public [threads](solrclient.threads.md)(): void
-
-public [\_\_destruct](solrclient.destruct.md)()
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`SolrClient::SEARCH_SERVLET_TYPE`**
+
 Використовується для оновлення сервлета пошуку.
 
 **`SolrClient::UPDATE_SERVLET_TYPE`**
+
 Використовується для оновлення сервлета оновлення.
 
 **`SolrClient::THREADS_SERVLET_TYPE`**
+
 Використовується для оновлення сервлета потоків.
 
 **`SolrClient::PING_SERVLET_TYPE`**
+
 Використовується для оновлення сервлета ping.
 
 **`SolrClient::TERMS_SERVLET_TYPE`**
+
 Використовується для оновлення термінів сервлет.
 
 **`SolrClient::SYSTEM_SERVLET_TYPE`**
+
 Використовується для отримання системної інформації із системного сервлета.
 
 **`SolrClient::DEFAULT_SEARCH_SERVLET`**
-Це початкове значення для пошуку сервлета.
+
+Це початкове значення пошукового сервлета.
 
 **`SolrClient::DEFAULT_UPDATE_SERVLET`**
+
 Це початкове значення для сервлета оновлення.
 
 **`SolrClient::DEFAULT_THREADS_SERVLET`**
+
 Це початкове значення сервлета потоків.
 
 **`SolrClient::DEFAULT_PING_SERVLET`**
+
 Це початкове значення для ping сервлета.
 
 **`SolrClient::DEFAULT_TERMS_SERVLET`**
-Це початкове значення для термінів сервлет, які використовуються для
-TermsComponent
+
+Це початкове значення для термінів сервлет, що використовуються для TermsComponent
 
 **`SolrClient::DEFAULT_SYSTEM_SERVLET`**
-Це початкове значення для системного сервлета, що використовується для
-отримання інформації про сервер Solr.
+
+Це початкове значення для системного сервлета, який використовується для отримання інформації про сервер Solr.
 
 ## Зміст
 
-- [SolrClient::addDocument](solrclient.adddocument.md) — Додає
-документ в індекс
-- [SolrClient::addDocuments](solrclient.adddocuments.md) — Додає
-колекцію екземплярів SolrInputDocument в індекс
-- [SolrClient::commit](solrclient.commit.md) - Завершує все
-додавання/видалення, зроблені в індексі
-- [SolrClient::\_\_construct](solrclient.construct.md) - Конструктор
-об'єкта SolrClient
-- [SolrClient::deleteById](solrclient.deletebyid.md) — Видаляє за
-ідентифікатору
-- [SolrClient::deleteByIds](solrclient.deletebyids.md) — Видаляє за
-ідентифікаторам
-- [SolrClient::deleteByQueries](solrclient.deletebyqueries.md) -
-Видаляє всі документи, що відповідають будь-якому запиту.
-- [SolrClient::deleteByQuery](solrclient.deletebyquery.md) — Видаляє
-всі документи, що відповідають заданому запиту
-- [SolrClient::\_\_destruct](solrclient.destruct.md) - Деструктор
-SolrClient
-- [SolrClient::getById](solrclient.getbyid.md) — Отримує документ
-за ідентифікатором. Використовує Solr Realtime Get (RTG)
-- [SolrClient::getByIds](solrclient.getbyids.md) — Отримує
-документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
-- [SolrClient::getDebug](solrclient.getdebug.md) — Повертає дані
-налагодження для останньої спроби підключення
-- [SolrClient::getOptions](solrclient.getoptions.md) — Повертає
-внутрішні параметри клієнта
-- [SolrClient::optimize](solrclient.optimize.md) - Дефрагментує
-індекс
-- [SolrClient::ping](solrclient.ping.md) — Перевіряє, чи працює
-сервер Solr
-- [SolrClient::query](solrclient.query.md) — Надсилає запит на
-сервер
-- [SolrClient::request](solrclient.request.md) - Відправляє
-необроблений запит на оновлення
-- [SolrClient::rollback](solrclient.rollback.md) - Відкочує все
-додавання/видалення, зроблені в індекс з моменту останньої фіксації
-- [SolrClient::setResponseWriter](solrclient.setresponsewriter.md) -
-Встановлює письменник відповіді, що використовується для підготовки відповіді
-Solr
-- [SolrClient::setServlet](solrclient.setservlet.md) — Змінює
-вказаний тип сервлету на нове значення
-- [SolrClient::system](solrclient.system.md) — Отримує інформацію про
-сервері Solr
-- [SolrClient::threads](solrclient.threads.md) — Перевірка статусу
-тим
+-   [SolrClient::addDocument](solrclient.adddocument.html) — Додає документ до індексу
+-   [SolrClient::addDocuments](solrclient.adddocuments.html) — Додає колекцію екземплярів SolrInputDocument до індексу
+-   [SolrClient::commit](solrclient.commit.html) — Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::\_\_construct](solrclient.construct.html) - Конструктор об'єкта SolrClient
+-   [SolrClient::deleteById](solrclient.deletebyid.html) — Видаляє за ідентифікатором
+-   [SolrClient::deleteByIds](solrclient.deletebyids.html) — Видаляє за ідентифікаторами
+-   [SolrClient::deleteByQueries](solrclient.deletebyqueries.html) — Видаляє всі документи, що відповідають будь-якому запиту.
+-   [SolrClient::deleteByQuery](solrclient.deletebyquery.html) — Видаляє всі документи, які відповідають заданому запиту
+-   [SolrClient::\_\_destruct](solrclient.destruct.html) - Деструктор SolrClient
+-   [SolrClient::getById](solrclient.getbyid.html) — Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getByIds](solrclient.getbyids.html) — Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getDebug](solrclient.getdebug.html) — Повертає дані налагодження для останньої спроби підключення
+-   [SolrClient::getOptions](solrclient.getoptions.html) - Повертає внутрішні параметри клієнта
+-   [SolrClient::optimize](solrclient.optimize.html) - Дефрагментує індекс
+-   [SolrClient::ping](solrclient.ping.html) — Перевіряє, чи сервер Solr працює
+-   [SolrClient::query](solrclient.query.html) — Надсилає запит на сервер
+-   [SolrClient::request](solrclient.request.html) — Надсилає необроблений запит на оновлення
+-   [SolrClient::rollback](solrclient.rollback.html) — Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
+-   [SolrClient::setResponseWriter](solrclient.setresponsewriter.html) - Встановлює письменник відповіді, що використовується для підготовки відповіді від Solr
+-   [SolrClient::setServlet](solrclient.setservlet.html) — Змінює вказаний тип сервлету на нове значення
+-   [SolrClient::system](solrclient.system.html) — Отримує інформацію про сервер Solr
+-   [SolrClient::threads](solrclient.threads.html) — Перевіряє статус тем

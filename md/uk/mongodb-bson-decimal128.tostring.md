@@ -1,20 +1,27 @@
-- [« MongoDB\BSON\Decimal128::serialize](mongodb-bson-decimal128.serialize.md)
-- [MongoDB\BSON\Decimal128::unserialize »](mongodb-bson-decimal128.unserialize.md)
+Повертає рядкову виставу Decimal128
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Decimal128](class.mongodb-bson-decimal128.md)
-- Повертає рядкову виставу Decimal128
+-   [« MongoDB\\BSON\\Decimal128::serialize](mongodb-bson-decimal128.serialize.html)
+    
+-   [MongoDB\\BSON\\Decimal128::unserialize »](mongodb-bson-decimal128.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.html)
+    
+-   Повертає рядкову виставу Decimal128
+    
 
-# MongoDB\BSON\Decimal128::\_\_toString
+# MongoDBBSONDecimal128::function toString() { \[native code\] }
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Decimal128::\_\_toString — Повертає строкове
-уявлення Decimal128
+MongoDBBSONDecimal128::toString — Повертає рядкову виставу Decimal128
 
 ### Опис
 
-final public **MongoDB\BSON\Decimal128::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Decimal128::__toString(): string
+```
 
 ### Список параметрів
 
@@ -26,18 +33,27 @@ final public **MongoDB\BSON\Decimal128::\_\_toString**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Decimal128::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONDecimal128::toString()****
 
-` <?phpvar_dump((string) new MongoDB\BSON\Decimal128(1234.5678));var_dump((string) new MongoDB\BSON\Decimal128(NAN)); ;?> `
+```php
+<?php
+
+var_dump((string) new MongoDB\BSON\Decimal128(1234.5678));
+var_dump((string) new MongoDB\BSON\Decimal128(NAN));
+var_dump((string) new MongoDB\BSON\Decimal128(INF));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(9) "1234.5678"
 string(3) "NaN"
 string(8) "Infinity"
+```
 
 ### Дивіться також
 
-- [» Формат із плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Формат с плавающей точкой Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

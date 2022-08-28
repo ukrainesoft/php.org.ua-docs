@@ -1,28 +1,36 @@
-- [«rrd_graph](function.rrd-graph.md)
-- [rrd_last »](function.rrd-last.md)
+Отримує інформацію про файл rrd
 
-- [PHP Manual](index.md)
-- [Функції RRD](ref.rrd.md)
-- Отримує інформацію про файл rrd
+-   [« rrd\_graph](function.rrd-graph.html)
+    
+-   [rrd\_last »](function.rrd-last.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции RRD](ref.rrd.html)
+    
+-   Отримує інформацію про файл rrd
+    
 
-#rrd_info
+# rrdinfo
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
-rrd_info — Отримує інформацію про файл rrd
+rrdinfo — Отримує інформацію про файл rrd
 
 ### Опис
 
-**rrd_info**(string `$filename`): array
+```methodsynopsis
+rrd_info(string $filename): array
+```
 
 Повертає інформацію про вказаний файл бази даних RRD.
 
 ### Список параметрів
 
 `file`
+
 Назва файлу бази даних RRD.
 
 ### Значення, що повертаються
 
-Масив, що містить інформацію про вказаний файл RRD або **`false`**
-у разі виникнення помилки.
+Масив, що містить інформацію про вказаний файл RRD або **`false`** у разі виникнення помилки.

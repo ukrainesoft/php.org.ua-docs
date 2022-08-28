@@ -1,45 +1,47 @@
-- [« Gmagick::setsize](gmagick.setsize.md)
-- [Gmagick::solarizeimage »](gmagick.solarizeimage.md)
+Створює паралелограм
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Створює паралелограм
+-   [« Gmagick::setsize](gmagick.setsize.html)
+    
+-   [Gmagick::solarizeimage »](gmagick.solarizeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Створює паралелограм
+    
 
 # Gmagick::shearimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::shearimage — Створює паралелограм
 
 ### Опис
 
-public
-**Gmagick::shearimage**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$color`, float `$xShear`, float `$yShear`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::shearimage(mixed $color, float $xShear, float $yShear): Gmagick
+```
 
-Зсуває один край зображення по осі X або Y, утворюючи паралелограм.
-Зсув у напрямку X зсуває край по осі X, а зсув у напрямку Y
-переміщує край по осі Y. Величина зсуву контролюється кутом зсуву.
-Для зсуву в напрямку X xShear вимірюється щодо осі Y і
-аналогічно для зсуву в напрямку Y yShear вимірюється
-щодо осі X. Порожні трикутники, що залишилися від обрізки
-зображення заповнюються кольором фону.
+Зсуває один край зображення по осі X або Y, утворюючи паралелограм. Зсув в напрямку X зсуває край осі X, а зсув в напрямку Y переміщує край осі Y. Величина зсуву контролюється кутом зсуву. Для зсуву в напрямку X xShear вимірюється щодо осі Y і аналогічним чином для зсуву в напрямку Y yShear вимірюється щодо осі X. Порожні трикутники, що залишилися від обрізки зображення, заповнюються кольором фону.
 
 ### Список параметрів
 
-`col`
+`color`
+
 Піксельна паличка фону.
 
 `xShear`
+
 Число градусів для зсуву зображення на осі X.
 
 `yShear`
-Число градусів для зсуву зображення на осі Y.
+
+Число градусів для зсуву зображення по осі Y.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

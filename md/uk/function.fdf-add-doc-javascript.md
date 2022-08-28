@@ -1,67 +1,68 @@
-- [«FDF](ref.fdf.md)
-- [fdf_add_template »](function.fdf-add-template.md)
+Додає код javascript до документа FDF
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Додає код javascript у документ FDF
+-   [« FDF](ref.fdf.html)
+    
+-   [fdf\_add\_template »](function.fdf-add-template.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Додає код javascript до документа FDF
+    
 
-#fdf_add_doc_javascript
+# fdfadddocjavascript
 
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_add_doc_javascript — Додає код javascript до документа FDF
+fdfadddocjavascript — Додає код javascript до документа FDF
 
 ### Опис
 
-**fdf_add_doc_javascript**(resource `$fdf_document`, string
-`$script_name`, string `$script_code`): bool
+```methodsynopsis
+fdf_add_doc_javascript(resource $fdf_document, string $script_name, string $script_code): bool
+```
 
-Додає скрипт до FDF, який Acrobat потім додає до скрипту
-документа на рівні документа після того, як до нього буде імпортовано
-FDF.
+Додає скрипт до FDF, який Acrobat потім додає до скрипта документа на рівні документа після того, як у нього буде імпортований FDF.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
 
 `script_name`
+
 Ім'я сценарію.
 
 `script_code`
-Код скрипту. Рекомендовано використовувати `
-` для перенесення
-рядків у коді скрипта.
+
+Код сценарію. Настійно рекомендується використовувати `\r` для перенесення рядків у коді скрипта.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Додавання коду JavaScript до FDF**
-=
-` <?php$fdf = fdf_create();fdf_add_doc_javascript($fdf, "PlusOne", "function PlusOne(x)
-{
-return x +1;
-}
-");fdf_save($fdf);?> `
+
+```php
+<?php
+$fdf = fdf_create();
+fdf_add_doc_javascript($fdf, "PlusOne", "function PlusOne(x)\r{\r  return x+1;\r}\r");
+fdf_save($fdf);
+?>
+```
 
 створить FDF наступним чином:
 
+```
 %FDF-1.2
 %âãÏÓ
 1 0 obj
 <<
-/FDF << /JavaScript << /Doc [ (PlusOne)(function PlusOne\(x\)
-{
-  return x+1;
-}
-)] >> >>
+/FDF << /JavaScript << /Doc [ (PlusOne)(function PlusOne\(x\)\r{\r  return x+1;\r}\r)] >> >>
 >>
 endobj
 trailer
@@ -70,3 +71,4 @@ trailer
 
 >>
 %%EOF
+```

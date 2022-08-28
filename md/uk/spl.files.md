@@ -1,16 +1,22 @@
-- [« spl_object_id](function.spl-object-id.md)
-- [SplFileInfo »](class.splfileinfo.md)
+Обробка файлів
 
-- [PHP Manual](index.md)
-- [SPL](book.spl.md)
-- Обробка файлів
+-   [« spl\_object\_id](function.spl-object-id.html)
+    
+-   [SplFileInfo »](class.splfileinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SPL](book.spl.html)
+    
+-   Обробка файлів
+    
 
 # Обробка файлів
 
 ## Зміст
 
-- [SplFileInfo](class.splfileinfo.md)
-- [SplFileObject](class.splfileobject.md)
-- [SplTempFileObject](class.spltempfileobject.md)
+-   [SplFileInfo](class.splfileinfo.html)
+-   [SplFileObject](class.splfileobject.html)
+-   [SplTempFileObject](class.spltempfileobject.html)
 
 SPL забезпечує кілька класів для роботи із файлами.

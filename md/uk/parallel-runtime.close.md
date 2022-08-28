@@ -1,29 +1,34 @@
-- [« parallel\Runtime::run](parallel-runtime.run.md)
-- [parallel\Runtime::kill »](parallel-runtime.kill.md)
+Витончене з'єднання під час виконання
 
-- [PHP Manual](index.md)
-- [parallel\Runtime](class.parallel-runtime.md)
-- Витончене з'єднання під час виконання
+-   [« parallel\\Runtime::run](parallel-runtime.run.html)
+    
+-   [parallel\\Runtime::kill »](parallel-runtime.kill.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Runtime](class.parallel-runtime.html)
+    
+-   Витончене з'єднання під час виконання
+    
 
-# parallel\Runtime::close
+# parallelRuntime::close
 
-(0.8.0)
-
-parallel\Runtime::close — Витончене з'єднання під час виконання
+parallelRuntime::close — Витончене з'єднання під час виконання
 
 ### Опис
 
-public **parallel\Runtime::close**(): void
+```methodsynopsis
+public parallel\Runtime::close(): void
+```
 
 Запитує завершення роботи середовища виконання.
 
-> **Примітка**:
->
-> Заплановані для виконання завдання будуть виконані до завершення
-> роботи.
+> **Зауваження**
+> 
+> Заплановані для виконання завдання будуть виконані до завершення роботи.
 
 ### Помилки
 
 **Увага**
 
-Викидає parallel\Runtime\Error\Closed, якщо Runtime вже було закрито.
+Викидає parallelRuntimeErrorClosed, якщо Runtime вже було закрито.

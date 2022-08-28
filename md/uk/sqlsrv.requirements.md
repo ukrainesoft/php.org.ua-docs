@@ -1,31 +1,32 @@
-- [« Встановлення та налаштування](sqlsrv.setup.md)
-- [Установка »](sqlsrv.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sqlsrv.setup.md)
-- Вимоги
+-   [« Установка и настройка](sqlsrv.setup.html)
+    
+-   [Установка »](sqlsrv.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](sqlsrv.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Модуль SQLSRV може використовуватися в наступних операційних системах:
+Модуль SQLSRV може використовуватися в таких операційних системах:
 
-- Windows Vista Service Pack 2 або пізніше
-- Windows Server 2008 Service Pack 2 або пізніше
-- Windows Server 2008 R2
-- Windows 7
+-   Windows Vista Service Pack 2 або пізніше
+-   Windows Server 2008 Service Pack 2 або пізніше
+-   Windows Server 2008 R2
+-   Windows 7
 
-Модуль SQLSRV вимагає, щоб комп'ютер, на якому встановлено PHP,
-було встановлено бібліотеку Microsoft SQL Server 2008 R2 Native Client.
-Якщо Microsoft SQL Server 2008 R2 ще не встановлений, ви можете завантажити
-потрібний дистрибутив за посиланнями нижче:
+Модуль SQLSRV вимагає, щоб на комп'ютері, на якому встановлено PHP, було встановлено бібліотеку Microsoft SQL Server 2008 R2 Native Client. Якщо Microsoft SQL Server 2008 R2 ще не встановлений, ви можете завантажити потрібний дистрибутив за посиланнями нижче:
 
-- [» Завантажити версію x86](http://go.microsoft.com/fwlink/?LinkID=239647)
-- [» Завантажити версію x64](http://go.microsoft.com/fwlink/?LinkID=239648)
+-   [» Скачать версию x86](http://go.microsoft.com/fwlink/?LinkID=239647)
+-   [» Скачать версию x64](http://go.microsoft.com/fwlink/?LinkID=239648)
 
-Завантажувана копія модуля PDO_SQLSRV включає вісім файлів
-драйвери, чотири з них для підтримки PDO.
+Завантажена копія модуля PDOSQLSRV включає вісім файлів драйверів, чотири з них для підтримки PDO.
 
-Версія драйвера, що найчастіше використовується, доступна тут: [» Завантаження SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx).
+Найчастіше використовувана версія драйвера доступна тут: [» Загрузка SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx)
 
-За детальною інформацією про системні вимоги зверніться до розділу
-[" Системні вимоги SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx).
+За детальною інформацією про системні вимоги зверніться до розділу [» Системные требования SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx)

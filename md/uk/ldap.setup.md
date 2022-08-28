@@ -1,15 +1,21 @@
-- [«Вступ](intro.ldap.md)
-- [Вимоги »](ldap.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [LDAP](book.ldap.md)
+-   [« Введение](intro.ldap.html)
+    
+-   [Требования »](ldap.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LDAP](book.ldap.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ldap.requirements.md)
-- [Установка](ldap.installation.md)
-- [Налаштування під час виконання](ldap.configuration.md)
-- [Типи ресурсів](ldap.resources.md)
+-   [Требования](ldap.requirements.html)
+-   [Установка](ldap.installation.html)
+-   [Настройка во время выполнения](ldap.configuration.html)
+-   [Типы ресурсов](ldap.resources.html)

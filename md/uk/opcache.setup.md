@@ -1,15 +1,21 @@
-- [«Вступ](intro.opcache.md)
-- [Вимоги »](opcache.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [OPcache](book.opcache.md)
+-   [« Введение](intro.opcache.html)
+    
+-   [Требования »](opcache.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OPcache](book.opcache.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](opcache.requirements.md)
-- [Установка](opcache.installation.md)
-- [Налаштування під час виконання](opcache.configuration.md)
-- [Типи ресурсів](opcache.resources.md)
+-   [Требования](opcache.requirements.html)
+-   [Установка](opcache.installation.html)
+-   [Настройка во время выполнения](opcache.configuration.html)
+-   [Типы ресурсов](opcache.resources.html)

@@ -1,34 +1,52 @@
-- [« MongoDB \ BSON \ Persistable](class.mongodb-bson-persistable.md)
-- [MongoDB\BSON\Serializable::bsonSerialize »](mongodb-bson-serializable.bsonserialize.md)
+Інтерфейс MongoDBBSONSerializable
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON](book.bson.md)
-- Інтерфейс MongoDB\BSON\Serializable
+-   [« MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.html)
+    
+-   [MongoDB\\BSON\\Serializable::bsonSerialize »](mongodb-bson-serializable.bsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON](book.bson.html)
+    
+-   Інтерфейс MongoDBBSONSerializable
+    
 
-# Інтерфейс MongoDB\BSON\Serializable
+# Інтерфейс MongoDBBSONSerializable
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
-Класи, які реалізують цей інтерфейс, можуть повертати дані для
-серіалізації у вигляді масиву BSON або документа замість відкритих властивостей
-об'єкт.
+Класи, які реалізують цей інтерфейс можуть повертати дані для серіалізації у вигляді масиву BSON або документа замість відкритих властивостей об'єкта.
 
 ## Огляд інтерфейсів
 
-class **MongoDB\BSON\Serializable** implements
-[MongoDB\BSON\Type](class.mongodb-bson-type.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public
-[bsonSerialize](mongodb-bson-serializable.bsonserialize.md)():
-array\|object
 
-}
+    
+     
+      class MongoDB\BSON\Serializable
+     
+
+     implements 
+       MongoDB\BSON\Type {
+
+
+    /* Методы */
+    
+   abstract public bsonSerialize(): array|object
+
+   }
+```
+
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
-- [MongoDB\BSON\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md)
-— Надає масив або документ для серіалізації у BSON
+-   [MongoDB\\BSON\\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.html) — Надає масив або документ для серіалізації у BSON

@@ -1,52 +1,76 @@
-- [«imagecolorexactalpha](function.imagecolorexactalpha.md)
-- [imagecolorresolve »](function.imagecolorresolve.md)
+Робить кольори палітрової версії зображення більш відповідними truecolor версії
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Робить кольори палітрової версії зображення більш відповідними
-truecolor версії
+-   [« imagecolorexactalpha](function.imagecolorexactalpha.html)
+    
+-   [imagecolorresolve »](function.imagecolorresolve.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Робить кольори палітрової версії зображення більш відповідними truecolor версії
+    
 
-#imagecolormatch
+# imagecolormatch
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-imagecolormatch — Робить кольори палітрової версії зображення.
-відповідними truecolor версії
+imagecolormatch — Робить кольори палітрової версії зображення більш відповідними truecolor версії
 
 ### Опис
 
-**imagecolormatch**([GdImage](class.gdimage.md) `$image1`,
-[GdImage](class.gdimage.md) `$image2`): bool
+```methodsynopsis
+imagecolormatch(GdImage $image1, GdImage $image2): bool
+```
 
-Робить кольори палітрової версії зображення більш відповідними
-truecolor версії.
+Робить кольори палітрової версії зображення більш відповідними truecolor версії.
 
 ### Список параметрів
 
 `image1`
+
 Об'єкт truecolor-зображення.
 
 `image2`
-Об'єкт палітрового зображення, що має той самий розмір, що і `image1`.
+
+Об'єкт палітрового зображення, що має той самий розмір, що і `image1`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | image1 та image2 тепер очікують екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image1` і `image2` тепер чекають на екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecolormatch()****
 
-` <?php// створення зображень$im1 = imagecreatefrompng('./gdlogo.png');$im2 = imagecreate(imagesx($im1), imagesy($im1));// Додамо кілька квітів в$ = Array();$colors[] = imagecolorallocate($im2, 255, 36, 74);$colors[] = imagecolorallocate($im2, 40, 0, 240);$colors[] = imagecololoca , 100, 255);$colors[] = imagecolorallocate($im2,84,63,44); ($im2);?> `
+```php
+<?php
+// создание изображений
+$im1 = imagecreatefrompng('./gdlogo.png');
+$im2 = imagecreate(imagesx($im1), imagesy($im1));
+
+// Добавим несколько цветов в $im2
+$colors   = Array();
+$colors[] = imagecolorallocate($im2, 255, 36, 74);
+$colors[] = imagecolorallocate($im2, 40, 0, 240);
+$colors[] = imagecolorallocate($im2, 82, 100, 255);
+$colors[] = imagecolorallocate($im2, 84, 63, 44);
+
+// Зададим соответствия этих цветов цветам truecolor изображения
+imagecolormatch($im1, $im2);
+
+// освободим память
+imagedestroy($im1);
+imagedestroy($im2);
+?>
+```
 
 ### Дивіться також
 
-- [imagecreatetruecolor()](function.imagecreatetruecolor.md) -
-Створення нового повнокольорового зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення

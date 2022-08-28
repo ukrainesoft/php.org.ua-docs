@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](componere.setup.md)
-- [Встановлення »](componere.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](componere.setup.md)
-- Вимоги
+-   [« Установка и настройка](componere.setup.html)
+    
+-   [Установка »](componere.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](componere.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,9 +1,15 @@
-- [«fdatasync](function.fdatasync.md)
-- [fflush »](function.fflush.md)
+Перевіряє, чи кінець файлу досягнуто.
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Перевіряє, чи кінець файлу досягнуто
+-   [« fdatasync](function.fdatasync.html)
+    
+-   [fflush »](function.fflush.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции файловой системы](ref.filesystem.html)
+    
+-   Перевіряє, чи кінець файлу досягнуто.
+    
 
 # feof
 
@@ -13,42 +19,65 @@ feof — Перевіряє, чи кінець файлу досягнуто.
 
 ### Опис
 
-**feof**(resource `$stream`): bool
+```methodsynopsis
+feof(resource $stream): bool
+```
 
 Перевіряє, чи кінець файлу досягнуто.
 
 ### Список параметрів
 
 `stream`
-Вказівник на файл повинен бути коректним і вказувати на файл успішно
-відкритий функціями [fopen()](function.fopen.md) або
-[fsockopen()](function.fsockopen.md) (і все ще не закритий функцією
-[fclose()](function.fclose.md)).
+
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо вказівник файлу вказує на EOF або
-сталася помилка (у тому числі перевищено час очікування сокету), інакше
-повертає **`false`**.
+Повертає **`true`**якщо вказівник файлу вказує на EOF або сталася помилка (у тому числі перевищено час очікування сокету), інакше повертає **`false`**
 
 ### Примітки
 
 **Увага**
 
-Якщо підключення відкрите за допомогою
-[fsockopen()](function.fsockopen.md), не було закрито сервером,
-**feof()** повисне. Для варіанта обходу цієї поведінки дивіться
-наступний приклад:
+Якщо підключення відкрите за допомогою [fsockopen()](function.fsockopen.html), не було закрито сервером, **feof()** повисне. Для варіанта обходу цієї поведінки дивіться такий приклад:
 
 **Приклад #1 Обробка часу очікування з функцією **feof()****
 
-`<?phpfunction safe_feof($fp, &$start = NULL) { $start = microtime(true); return feof($fp);}/* Припустимо, що $fp був раніше відкритий за допомогою fsockopen() */$start = NULL;$timeout = ini_get('default_socket$ ) && (microtime(true) - $start) < $timeout){ /* Обробка */}?> `
+```php
+<?php
+function safe_feof($fp, &$start = NULL) {
+ $start = microtime(true);
+
+ return feof($fp);
+}
+
+/* Предположим, что $fp был ранее открыт с помощью fsockopen() */
+
+$start = NULL;
+$timeout = ini_get('default_socket_timeout');
+
+while(!safe_feof($fp, $start) && (microtime(true) - $start) < $timeout)
+{
+ /* Обработка */
+}
+?>
+```
 
 **Увага**
 
-Якщо передано невірний файловий покажчик, то ви можете отримати
-нескінченний цикл, тому що **feof()** не зможе повернути **`true`**.
+Якщо передано неправильний файловий покажчик, то ви можете отримати нескінченний цикл, оскільки **feof()** не зможе повернути **`true`**
 
 **Приклад #2 Приклад **feof()** з невірним файловим покажчиком**
 
-`<?php//якщо файл не може пробутий прочитаний або не існує, fopen верне FALSE$file = @fopen("no_such_file", "r");// попередження| $file)) {}fclose($file);?> `
+```php
+<?php
+// если файл не может быть прочтён или не существует, fopen вернёт FALSE
+$file = @fopen("no_such_file", "r");
+
+// FALSE от fopen вызовет предупреждение и следующий цикл станет бесконечным
+while (!feof($file)) {
+}
+
+fclose($file);
+?>
+```

@@ -1,23 +1,29 @@
-- [« Imagick::hasNextImage](imagick.hasnextimage.md)
-- [Imagick::identifyFormat »](imagick.identifyformat.md)
+Перевіряє, чи об'єкт має попереднє зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Перевіряє, чи має об'єкт попереднє зображення
+-   [« Imagick::hasNextImage](imagick.hasnextimage.html)
+    
+-   [Imagick::identifyFormat »](imagick.identifyformat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Перевіряє, чи об'єкт має попереднє зображення
+    
 
 # Imagick::hasPreviousImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::hasPreviousImage — Перевіряє, чи є об'єкт попередній
-зображення
+Imagick::hasPreviousImage — Перевіряє, чи об'єкт має попереднє зображення.
 
 ### Опис
 
-public **Imagick::hasPreviousImage**(): bool
+```methodsynopsis
+public Imagick::hasPreviousImage(): bool
+```
 
-Повертає **`true`**, якщо об'єкт містить більше зображень при
-переміщення по списку у зворотному напрямку.
+Повертає **`true`**, якщо об'єкт містить більше зображень під час переміщення по списку у зворотному напрямку.
 
 ### Список параметрів
 
@@ -25,6 +31,4 @@ public **Imagick::hasPreviousImage**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо об'єкт містить більше зображень при
-переміщенні за списком у зворотному напрямку, повертає **`false`**,
-якщо зображень немає.
+Повертає **`true`**, якщо об'єкт містить більше зображень під час переміщення по списку у зворотному напрямку, повертає **`false`**, якщо немає зображень.

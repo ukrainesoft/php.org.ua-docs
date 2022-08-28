@@ -1,34 +1,40 @@
-- [« imap_base64](function.imap-base64.md)
-- [imap_body »](function.imap-body.md)
+Конвертує 8-бітний рядок у рядок base64
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Конвертує 8-бітний рядок у рядок base64
+-   [« imap\_base64](function.imap-base64.html)
+    
+-   [imap\_body »](function.imap-body.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Конвертує 8-бітний рядок у рядок base64
+    
 
-#imap_binary
+# imapbinary
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_binary — Конвертує 8-бітний рядок у рядок base64
+imapbinary — Конвертує 8-бітний рядок у рядок base64
 
 ### Опис
 
-**imap_binary**(string `$string`): string\|false
+```methodsynopsis
+imap_binary(string $string): string|false
+```
 
-Конвертує 8-бітний рядок у рядок base64 відповідно до
-[» RFC2045](http://www.faqs.org/rfcs/rfc2045), Секція 6.8.
+Конвертує 8-бітний рядок у рядок base64 відповідно до [» RFC2045](http://www.faqs.org/rfcs/rfc2045), секція 6.8.
 
 ### Список параметрів
 
 `string`
+
 8-бітний рядок
 
 ### Значення, що повертаються
 
-Повертає рядок, кодований у base64 або **`false`** у разі
-виникнення помилки.
+Повертає рядок, кодований у base64 або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [imap_base64()](function.imap-base64.md) - Декодувати текст
-закодований BASE64
+-   [imap\_base64()](function.imap-base64.html) - Декодувати текст закодований BASE64

@@ -1,19 +1,27 @@
-- [« Yaf_Registry::get](yaf-registry.get.md)
-- [Yaf_Registry::set »](yaf-registry.set.md)
+Перевіряє, чи існує елемент
 
-- [PHP Manual](index.md)
-- [Yaf_Registry](class.yaf-registry.md)
-- Перевіряє, чи існує елемент
+-   [« Yaf\_Registry::get](yaf-registry.get.html)
+    
+-   [Yaf\_Registry::set »](yaf-registry.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Registry](class.yaf-registry.html)
+    
+-   Перевіряє, чи існує елемент
+    
 
-# Yaf_Registry::has
+# YafRegistry::has
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Registry::has — Перевіряє, чи існує елемент
+YafRegistry::has — Перевіряє, чи існує елемент
 
 ### Опис
 
-public static **Yaf_Registry::has**(string `$name`): bool
+```methodsynopsis
+public static Yaf_Registry::has(string $name): bool
+```
 
 Перевіряє, чи існує елемент
 

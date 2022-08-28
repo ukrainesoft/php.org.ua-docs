@@ -1,47 +1,53 @@
-- [«posix_getrlimit](function.posix-getrlimit.md)
-- [posix_getuid »](function.posix-getuid.md)
+Повертає поточний процес SID
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає поточний SID процесу
+-   [« posix\_getrlimit](function.posix-getrlimit.html)
+    
+-   [posix\_getuid »](function.posix-getuid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Повертає поточний процес SID
+    
 
-#posix_getsid
+# posixgetsid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getsid — Повертає поточний процес SID
+posixgetsid — Повертає поточний процес SID
 
 ### Опис
 
-**posix_getsid**(int `$process_id`): int\|false
+```methodsynopsis
+posix_getsid(int $process_id): int|false
+```
 
-Повертає ідентифікатор сесії процесу `process_id`. Сесійним
-Ідентифікатор процесу є ідентифікатор процесу лідера сеансу.
+Повертає ідентифікатор сесії процесу `process_id`. Сесійний ідентифікатор процесу є ідентифікатор процесу лідера сеансу.
 
 ### Список параметрів
 
 `process_id`
-Ідентифікатор процесу. Якщо встановлено в 0, мається на увазі поточний
-процес. Якщо передано некоректний `process_id`, то буде повернено
-**`false`**. Також буде встановлено номер помилки, який можна
-обробити за допомогою функції
-[posix_get_last_error()](function.posix-get-last-error.md).
+
+Ідентифікатор процесу. Якщо встановлено 0, мається на увазі поточний процес. Якщо передано некоректний `process_id`, то буде повернуто **`false`**. Також буде встановлено номер помилки, який можна обробити за допомогою функції [posix\_get\_last\_error()](function.posix-get-last-error.html)
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор як int або **`false`** у разі виникнення
-помилки.
+Повертає ідентифікатор як int або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getsid()****
+**Приклад #1 Приклад використання **posixgetsid()****
 
-` <?php$pid = posix_getpid();echo posix_getsid($pid); //8805?> `
+```php
+<?php
+$pid = posix_getpid();
+echo posix_getsid($pid); //8805
+?>
+```
 
 ### Дивіться також
 
-- [posix_getpgid()](function.posix-getpgid.md) - Повертає ID
-групи поточного процесу для менеджера завдань
-- [posix_setsid()](function.posix-setsid.md) - Робить поточний
-процес лідером сесії
-- POSIX керівництво GETSID(2)
+-   [posix\_getpgid()](function.posix-getpgid.html) - Повертає ID групи поточного процесу для менеджера завдань
+-   [posix\_setsid()](function.posix-setsid.html) - Робить поточний процес лідером сесії
+-   POSIX керівництво GETSID(2)

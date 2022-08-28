@@ -1,15 +1,35 @@
-- [«Зумовлені константи](gmagick.constants.md)
-- [Gmagick »](class.gmagick.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [Gmagick](book.gmagick.md)
-- Приклади
+-   [« Предопределённые константы](gmagick.constants.html)
+    
+-   [Gmagick »](class.gmagick.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](book.gmagick.html)
+    
+-   Приклади
+    
 
 # Приклади
 
-Наступний код демонструє часто використовувані операції Gmagick над
-зображення.
+Наступний код показує часто використовувані операції Gmagick над зображеннями.
 
 **Приклад #1 Приклади використання Gmagick**
 
-` <?php// Створюємо новий об'єкт Gmagick$image = new Gmagick('example.jpg');// Створюємо зменшену копію зображення. 0 для збереження пропорцій. , 8, 8)->oilpaintimage(0.3);// Записуємо отримане зображення в файл$image->write('example_thumbnail.jpg');?> `
+```php
+<?php
+// Создаём новый объект Gmagick
+$image = new Gmagick('example.jpg');
+
+// Создаём уменьшенную копию изображения. 0 для сохранения пропорций.
+$image->thumbnailimage(100, 0);
+
+// Создаём рамку вокруг изображения, после чего накладываем эффект масляной краски
+// Обратите внимание на цепочки преобразующих методов, поддерживаемых в gmagick
+$image->borderimage("yellow", 8, 8)->oilpaintimage(0.3);
+
+// Записываем полученное изображение в файл
+$image->write('example_thumbnail.jpg');
+?>
+```

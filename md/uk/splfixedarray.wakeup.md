@@ -1,20 +1,27 @@
-- [« SplFixedArray::valid](splfixedarray.valid.md)
-- [SplObjectStorage »](class.splobjectstorage.md)
+Переініціалізація масиву після десеріалізації
 
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Переініціалізація масиву після десеріалізації
+-   [« SplFixedArray::valid](splfixedarray.valid.html)
+    
+-   [SplObjectStorage »](class.splobjectstorage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFixedArray](class.splfixedarray.html)
+    
+-   Переініціалізація масиву після десеріалізації
+    
 
-# SplFixedArray::\_\_wakeup
+# SplFixedArray::wakeup
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-SplFixedArray::\_\_wakeup - Переініціалізація масиву після
-десеріалізації
+SplFixedArray::wakeup - Переініціалізація масиву після десеріалізації
 
 ### Опис
 
-public **SplFixedArray::\_\_wakeup**(): void
+```methodsynopsis
+public SplFixedArray::__wakeup(): void
+```
 
 Проініціалізує масив після десеріалізації.
 

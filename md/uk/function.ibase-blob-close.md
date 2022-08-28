@@ -1,42 +1,41 @@
-- [« ibase_blob_cancel](function.ibase-blob-cancel.md)
-- [ibase_blob_create »](function.ibase-blob-create.md)
+Закриває BLOB-об'єкт
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Закриває BLOB-об'єкт
+-   [« ibase\_blob\_cancel](function.ibase-blob-cancel.html)
+    
+-   [ibase\_blob\_create »](function.ibase-blob-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Закриває BLOB-об'єкт
+    
 
-# ibase_blob_close
+# ibaseblobclose
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_blob_close — Закриває BLOB-об'єкт
+ibaseblobclose — Закриває BLOB-об'єкт
 
 ### Опис
 
-**ibase_blob_close**(resource `$blob_handle`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+ibase_blob_close(resource $blob_handle): mixed
+```
 
-Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою
-[ibase_blob_open()](function.ibase-blob-open.md) або
-[ibase_blob_create()](function.ibase-blob-create.md).
+Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibase\_blob\_open()](function.ibase-blob-open.html) або [ibase\_blob\_create()](function.ibase-blob-create.html)
 
 ### Список параметрів
 
 `blob_handle`
-BLOB-об'єкт, відкритий за допомогою
-[ibase_blob_create()](function.ibase-blob-create.md) або
-[ibase_blob_open()](function.ibase-blob-open.md).
+
+BLOB-об'єкт, відкритий за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html) або [ibase\_blob\_open()](function.ibase-blob-open.html)
 
 ### Значення, що повертаються
 
-Якщо BLOB-об'єкт читався, функція повертає **`true`** у разі
-успішного виконання, якщо BLOB записувався, функція повертає рядок,
-містить ідентифікатор BLOB-об'єкта, призначений їй базою
-даних. У разі невдачі функція повертає **`false`**.
+Якщо BLOB-об'єкт читався, функція повертає **`true`** у разі успішного виконання, якщо BLOB записувався, функція повертає рядок, що містить ідентифікатор BLOB-об'єкта, призначений їй базою даних. У разі невдачі функція повертає **`false`**
 
 ### Дивіться також
 
-- [ibase_blob_cancel()](function.ibase-blob-cancel.md) - Скасує
-створення BLOB-об'єкта
-- [ibase_blob_open()](function.ibase-blob-open.md) - Відкриває
-BLOB-об'єкт для вилучення частин даних
+-   [ibase\_blob\_cancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
+-   [ibase\_blob\_open()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних

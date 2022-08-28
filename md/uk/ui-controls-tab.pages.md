@@ -1,19 +1,27 @@
-- [«UI\Controls\Tab::insertAt](ui-controls-tab.insertat.md)
-- [UI\Controls\Tab::setMargin »](ui-controls-tab.setmargin.md)
+Кількість сторінок
 
-- [PHP Manual](index.md)
-- [UI\Controls\Tab](class.ui-controls-tab.md)
+-   [« UI\\Controls\\Tab::insertAt](ui-controls-tab.insertat.html)
+    
+-   [UI\\Controls\\Tab::setMargin »](ui-controls-tab.setmargin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Tab](class.ui-controls-tab.html)
+    
 -   Кількість сторінок
+    
 
-# UI\Controls\Tab::pages
+# ОЙControlsTab::pages
 
 (UI 0.9.9)
 
-UI\Controls\Tab::pages — Кількість сторінок
+ОЙControlsTab::pages — Кількість сторінок
 
 ### Опис
 
-public **UI\Controls\Tab::pages**(): int
+```methodsynopsis
+public UI\Controls\Tab::pages(): int
+```
 
 Поверне кількість сторінок у цьому керуючому елементі "Таб"
 

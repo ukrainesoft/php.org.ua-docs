@@ -1,30 +1,35 @@
-- [« sodium_crypto_box_seal](function.sodium-crypto-box-seal.md)
-- [sodium_crypto_box_seed_keypair »](function.sodium-crypto-box-seed-keypair.md)
+Витягує секретний ключ із ключової пари cryptobox
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Витягує секретний ключ із ключової пари crypto_box
+-   [« sodium\_crypto\_box\_seal](function.sodium-crypto-box-seal.html)
+    
+-   [sodium\_crypto\_box\_seed\_keypair »](function.sodium-crypto-box-seed-keypair.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Витягує секретний ключ із ключової пари cryptobox
+    
 
-# sodium_crypto_box_secretkey
+# sodiumcryptoboxsecretkey
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_box_secretkey — Витягує секретний ключ із ключової пари
-crypto_box
+sodiumcryptoboxsecretkey — Витягує секретний ключ із ключової пари cryptobox
 
 ### Опис
 
-**sodium_crypto_box_secretkey**(string `$key_pair`): string
+```methodsynopsis
+sodium_crypto_box_secretkey(string $key_pair): string
+```
 
 Отримує лише секретний ключ для цієї ключової пари.
 
 ### Список параметрів
 
 `key_pair`
-Пара ключів, створена, наприклад,
-[sodium_crypto_box_keypair()](function.sodium-crypto-box-keypair.md)
-або
-[sodium_crypto_box_seed_keypair()](function.sodium-crypto-box-seed-keypair.md)
+
+Пара ключів, створена, наприклад, [sodium\_crypto\_box\_keypair()](function.sodium-crypto-box-keypair.html) або [sodium\_crypto\_box\_seed\_keypair()](function.sodium-crypto-box-seed-keypair.html)
 
 ### Значення, що повертаються
 

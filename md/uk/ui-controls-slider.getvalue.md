@@ -1,19 +1,27 @@
-- [« UI\Controls\Slider::\_\_construct](ui-controls-slider.construct.md)
-- [UI\Controls\Slider::onChange »](ui-controls-slider.onchange.md)
+Отримати значення
 
-- [PHP Manual](index.md)
-- [UI\Controls\Slider](class.ui-controls-slider.md)
-- Отримати значення
+-   [« UI\\Controls\\Slider::\_\_construct](ui-controls-slider.construct.html)
+    
+-   [UI\\Controls\\Slider::onChange »](ui-controls-slider.onchange.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+    
+-   Отримати значення
+    
 
-# UI\Controls\Slider::getValue
+# ОЙControlsSlider::getValue
 
 (UI 0.9.9)
 
-UI\Controls\Slider::getValue — Отримати значення
+ОЙControlsSlider::getValue — Отримати значення
 
 ### Опис
 
-public **UI\Controls\Slider::getValue**(): int
+```methodsynopsis
+public UI\Controls\Slider::getValue(): int
+```
 
 Отримати значення з цього слайдера
 

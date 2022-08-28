@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](tokenizer.setup.md)
-- [Встановлення »](tokenizer.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tokenizer.setup.md)
-- Вимоги
+-   [« Установка и настройка](tokenizer.setup.html)
+    
+-   [Установка »](tokenizer.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](tokenizer.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

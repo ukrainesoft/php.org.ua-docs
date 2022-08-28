@@ -1,13 +1,16 @@
-- [« Встановлення та налаштування](xmlreader.setup.md)
-- [Встановлення »](xmlreader.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xmlreader.setup.md)
-- Вимоги
+-   [« Установка и настройка](xmlreader.setup.html)
+    
+-   [Установка »](xmlreader.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](xmlreader.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Для коректної роботи цього модуля потрібний PHP-модуль
-[libxml](book.libxml.md). Це означає, що також потрібна передача
-опції **--with-libxml**, або до PHP 7.4 **--enable-libxml**, хоча неявно
-це вже зроблено, тому що підтримка libxml за замовчуванням увімкнена.
+Для коректної роботи цього модуля потрібний PHP-модуль [libxml](book.libxml.html). Це означає, що також потрібна передача опції **\-with-libxml**, або до PHP 7.4 **\-enable-libxml**, хоча це вже неявно зроблено, оскільки підтримка libxml за замовчуванням включена.

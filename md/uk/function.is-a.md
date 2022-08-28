@@ -1,63 +1,81 @@
-- [«interface_exists](function.interface-exists.md)
-- [is_subclass_of »](function.is-subclass-of.md)
+Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Перевіряє, чи належить об'єкт до даного класу, чи є
-цей клас одним із його батьків
+-   [« interface\_exists](function.interface-exists.html)
+    
+-   [is\_subclass\_of »](function.is-subclass-of.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
+    
 
-#is_a
+# іса
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-is_a — Перевіряє, чи об'єкт належить до цього класу, чи є
-цей клас одним із його батьків
+ісa — Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
 
 ### Опис
 
-**is_a**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_or_class`, string `$class`, bool `$allow_string` =
-**`false`**): bool
+```methodsynopsis
+is_a(mixed $object_or_class, string $class, bool $allow_string = false): bool
+```
 
-Перевіряє, чи об'єкт object_or_class належить до даного класу.
-чи є цей клас одним із його батьків.
+Перевіряє, чи об'єкт належить `object_or_class` до цього класу чи є цей клас одним із його батьків.
 
 ### Список параметрів
 
 `object_or_class`
+
 Ім'я класу чи об'єкт
 
 `class`
+
 Ім'я класу
 
 `allow_string`
-Якщо параметр встановлено в **`false`**, то не допускається ім'я класу
-вигляді рядка як параметр `object_or_class`. це також
-запобігає виклику автозавантажувача, якщо клас не існує.
+
+Якщо параметр встановлений у **`false`**, то не допускається ім'я класу у вигляді рядка як параметр `object_or_class`. Це також запобігає виклику автозавантажувача, якщо клас не існує.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо об'єкт належить даному класу або
-чи є цей клас одним з його батьків, інакше повертається
-**`false`**.
+Повертає **`true`**якщо об'єкт належить даному класу або чи є цей клас одним з його батьків, інакше повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_a()****
+**Приклад #1 Приклад використання **ісa()****
 
-`<?php// оголошення класуclass WidgetFactory{  var $oink = 'moo';}// створення нового об'єкта$WF = new WidgetFactory();f y| $WF все ще WidgetFactory
-";}?> `
+```php
+<?php
+// объявление класса
+class WidgetFactory
+{
+  var $oink = 'moo';
+}
+
+// создание нового объекта
+$WF = new WidgetFactory();
+
+if (is_a($WF, 'WidgetFactory')) {
+  echo "да, \$WF всё ещё WidgetFactory\n";
+}
+?>
+```
 
 **Приклад #2 Використання оператора *instanceof***
 
-` <?phpif ($WF instanceof WidgetFactory) {    echo 'Так, $WF - WidgetFactory';}?> `
+```php
+<?php
+if ($WF instanceof WidgetFactory) {
+    echo 'Да, $WF - WidgetFactory';
+}
+?>
+```
 
 ### Дивіться також
 
-- [get_class()](function.get-class.md) - Повертає ім'я класу, до
-якому належить об'єкт
-- [get_parent_class()](function.get-parent-class.md) - Повертає
-ім'я батьківського класу для об'єкта чи класу
-- [is_subclass_of()](function.is-subclass-of.md) - Перевіряє,
-чи містить об'єкт у своєму дереві предків зазначений клас чи прямо
-реалізує його
+-   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

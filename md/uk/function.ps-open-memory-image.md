@@ -1,31 +1,36 @@
-- [«ps_open_image](function.ps-open-image.md)
-- [ps_place_image »](function.ps-place-image.md)
+Бере зображення GD та повертає зображення для розміщення в документі PS
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Бере зображення GD і повертає зображення для розміщення в
-документі PS
+-   [« ps\_open\_image](function.ps-open-image.html)
+    
+-   [ps\_place\_image »](function.ps-place-image.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Бере зображення GD та повертає зображення для розміщення в документі PS
+    
 
-#ps_open_memory_image
+# псopenmemoryimage
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_open_memory_image — Бере зображення GD і повертає зображення для
-розміщення у документі PS
+псopenmemoryimage — Бере зображення GD та повертає зображення для розміщення в документі PS
 
 ### Опис
 
-**ps_open_memory_image**(resource `$psdoc`, int `$gd`): int
+```methodsynopsis
+ps_open_memory_image(resource $psdoc, int $gd): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `gd`

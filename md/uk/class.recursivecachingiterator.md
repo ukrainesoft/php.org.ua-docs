@@ -1,126 +1,102 @@
-- [« RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.md)
-- [RecursiveCachingIterator::\_\_construct »](recursivecachingiterator.construct.md)
+Клас RecursiveCachingIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас RecursiveCachingIterator
+-   [« RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.html)
+    
+-   [RecursiveCachingIterator::\_\_construct »](recursivecachingiterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас RecursiveCachingIterator
+    
 
 # Клас RecursiveCachingIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-...
-
 ## Огляд класів
 
-class **RecursiveCachingIterator** extends
-[CachingIterator](class.cachingiterator.md) implements
-[RecursiveIterator](class.recursiveiterator.md) {
+```classsynopsis
 
-/\* Успадковані константи \*/
+     
+    
 
-const int `CachingIterator::CALL_TOSTRING` = 1;
+    
+     
+      class RecursiveCachingIterator
+     
 
-const int `CachingIterator::CATCH_GET_CHILD` = 16;
+     
+      extends
+       CachingIterator
+     
 
-const int `CachingIterator::TOSTRING_USE_KEY` = 2;
+     implements 
+       RecursiveIterator {
 
-const int `CachingIterator::TOSTRING_USE_CURRENT` = 4;
+    /* Наследуемые константы */
+    
+     const
+     int
+      CachingIterator::CALL_TOSTRING = 1;
+const
+     int
+      CachingIterator::CATCH_GET_CHILD = 16;
+const
+     int
+      CachingIterator::TOSTRING_USE_KEY = 2;
+const
+     int
+      CachingIterator::TOSTRING_USE_CURRENT = 4;
+const
+     int
+      CachingIterator::TOSTRING_USE_INNER = 8;
+const
+     int
+      CachingIterator::FULL_CACHE = 256;
 
-const int `CachingIterator::TOSTRING_USE_INNER` = 8;
 
-const int `CachingIterator::FULL_CACHE` = 256;
+    /* Методы */
+    
+   public __construct(Iterator $iterator, int $flags = RecursiveCachingIterator::CALL_TOSTRING)
 
-/\* Методи \*/
+    public getChildren(): ?RecursiveCachingIterator
+public hasChildren(): bool
 
-public
-[\_\_construct](recursivecachingiterator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, int `$flags` = RecursiveCachingIterator::CALL_TOSTRING)
 
-public [getChildren](recursivecachingiterator.getchildren.md)():
-?[RecursiveCachingIterator](class.recursivecachingiterator.md)
+    /* Наследуемые методы */
+    public CachingIterator::count(): int
+public CachingIterator::current(): mixed
+public CachingIterator::getCache(): array
+public CachingIterator::getFlags(): void
+public CachingIterator::getInnerIterator(): Iterator
+public CachingIterator::hasNext(): bool
+public CachingIterator::key(): scalar
+public CachingIterator::next(): void
+public CachingIterator::offsetExists(string $key): bool
+public CachingIterator::offsetGet(string $key): mixed
+public CachingIterator::offsetSet(string $key, mixed $value): void
+public CachingIterator::offsetUnset(string $key): void
+public CachingIterator::rewind(): void
+public CachingIterator::setFlags(int $flags): void
+public CachingIterator::__toString(): string
+public CachingIterator::valid(): bool
 
-public [hasChildren](recursivecachingiterator.haschildren.md)(): bool
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-/\* Наслідувані методи \*/
-
-public [CachingIterator::count](cachingiterator.count.md)(): int
-
-public [CachingIterator::current](cachingiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [CachingIterator::getCache](cachingiterator.getcache.md)():
-array
-
-public [CachingIterator::getFlags](cachingiterator.getflags.md)():
-void
-
-public
-[CachingIterator::getInnerIterator](cachingiterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
-
-public [CachingIterator::hasNext](cachingiterator.hasnext.md)(): bool
-
-public [CachingIterator::key](cachingiterator.key.md)(): scalar
-
-public [CachingIterator::next](cachingiterator.next.md)(): void
-
-public
-[CachingIterator::offsetExists](cachingiterator.offsetexists.md)(string
-`$key`): bool
-
-public
-[CachingIterator::offsetGet](cachingiterator.offsetget.md)(string
-`$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[CachingIterator::offsetSet](cachingiterator.offsetset.md)(string
-`$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public
-[CachingIterator::offsetUnset](cachingiterator.offsetunset.md)(string
-`$key`): void
-
-public [CachingIterator::rewind](cachingiterator.rewind.md)(): void
-
-public [CachingIterator::setFlags](cachingiterator.setflags.md)(int
-`$flags`): void
-
-public [CachingIterator::\_\_toString](cachingiterator.tostring.md)():
-string
-
-public [CachingIterator::valid](cachingiterator.valid.md)(): bool
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.md)
-- Конструктор
-- [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md)
-— Повертає дочірні елементи внутрішнього ітератора як об'єкт
-RecursiveCachingIterator
-- [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md)
-— Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні
-елементи
+-   [RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.html) - Конструктор
+-   [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.html) — Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
+-   [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.html) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи

@@ -1,19 +1,27 @@
-- [«ob_get_flush](function.ob-get-flush.md)
-- [ob_get_level »](function.ob-get-level.md)
+Повертає розмір буфера виводу
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Повертає розмір буфера виводу
+-   [« ob\_get\_flush](function.ob-get-flush.html)
+    
+-   [ob\_get\_level »](function.ob-get-level.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции контроля вывода](ref.outcontrol.html)
+    
+-   Повертає розмір буфера виводу
+    
 
-#ob_get_length
+# проgetlength
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-ob_get_length — Повертає розмір буфера виводу
+проgetlength — Повертає розмір буфера виводу
 
 ### Опис
 
-**ob_get_length**(): int\|false
+```methodsynopsis
+ob_get_length(): int|false
+```
 
 Поверне розмір у байтах вмісту у буфері виводу.
 
@@ -23,21 +31,38 @@ ob_get_length — Повертає розмір буфера виводу
 
 ### Значення, що повертаються
 
-Повертає розмір у байтах вмісту буфера виводу або **`false`**,
-якщо буферизація не активна.
+Повертає розмір у байтах вмісту буфера виводу або **`false`**якщо буферизація не активна.
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання функції **ob_get_length()****
+**Приклад #1 Простий приклад використання функції **проgetlength()****
 
-` <?phpob_start();echo "Привіт ";$len1 = ob_get_length();echo "Світ";$len2 = ob_get_length();ob_end_clean();echo $len1 . ", " . $ len2;?> `
+```php
+<?php
+
+ob_start();
+
+echo "Привет ";
+
+$len1 = ob_get_length();
+
+echo "Мир";
+
+$len2 = ob_get_length();
+
+ob_end_clean();
+
+echo $len1 . ", " . $len2;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 13, 19
+```
 
 ### Дивіться також
 
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
-- [ob_get_contents()](function.ob-get-contents.md) - Повертає
-вміст буфера виводу
+-   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
+-   [ob\_get\_contents()](function.ob-get-contents.html) - Повертає вміст буфера виводу

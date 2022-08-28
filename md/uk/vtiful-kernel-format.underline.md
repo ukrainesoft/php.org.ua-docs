@@ -1,31 +1,39 @@
-- [« Vtiful\Kernel\Format::italic](vtiful-kernel-format.italic.md)
-- [Модулі для управління процесами програм »](refs.fileprocess.process.md)
+Підкреслений
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Format](class.vtiful-kernel-format.md)
-- Підкреслений
+-   [« Vtiful\\Kernel\\Format::italic](vtiful-kernel-format.italic.html)
+    
+-   [Модули для управления процессами программ »](refs.fileprocess.process.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
+    
+-   Підкреслений
+    
 
-# Vtiful\Kernel\Format::underline
+# VtifulKernelFormat::underline
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Format::underline — Підкреслений
+VtifulKernelFormat::underline — Підкреслений
 
 ### Опис
 
-public **Vtiful\Kernel\Format::underline**(resource `$handle`, int
-`$style`)
+```methodsynopsis
+public Vtiful\Kernel\Format::underline(resource $handle, int $style)
+```
 
-Підкреслений формат
-[Vtiful\Kernel\Format](class.vtiful-kernel-format.md)
+Підкреслений формат [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
 
 ### Список параметрів
 
 `handle`
+
 Дескриптор файлу xlsx
 
 `style`
-Константа [Vtiful\Kernel\Format](class.vtiful-kernel-format.md)
+
+Константа [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.html)
 
 ### Значення, що повертаються
 
@@ -35,4 +43,22 @@ public **Vtiful\Kernel\Format::underline**(resource `$handle`, int
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [   'path' => './tests'];$excel  = new \Vtiful\Kernel\Excel($config);$fileObject = $excel->fileName('tutorial01.xlsx') ;$fileHandle==$fileObject->getHandle();$underlineStyle==\Vtiful\Kernel\Format::underline($fileHandle, \Vtiful\Kernel\Format::UNDERLINE_SINGLE);$fileObject->header(['name', 'age'])   ->data([['viest', 21]]))   ->setColumn('A:A', 200,$$underlineStyle)   ->output();?> `
+```php
+<?php
+$config = [
+    'path' => './tests'
+];
+
+$excel  = new \Vtiful\Kernel\Excel($config);
+
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
+
+$underlineStyle = \Vtiful\Kernel\Format::underline($fileHandle, \Vtiful\Kernel\Format::UNDERLINE_SINGLE);
+
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setColumn('A:A', 200, $underlineStyle)
+    ->output();
+?>
+```

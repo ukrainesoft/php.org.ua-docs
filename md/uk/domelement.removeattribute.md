@@ -1,9 +1,15 @@
-- [« DOMElement::hasAttributeNS](domelement.hasattributens.md)
-- [DOMElement::removeAttributeNode »](domelement.removeattributenode.md)
+Видаляє атрибут
 
-- [PHP Manual](index.md)
-- [DOMElement](class.domelement.md)
-- Видаляє атрибут
+-   [« DOMElement::hasAttributeNS](domelement.hasattributens.html)
+    
+-   [DOMElement::removeAttributeNode »](domelement.removeattributenode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMElement](class.domelement.html)
+    
+-   Видаляє атрибут
+    
 
 # DOMElement::removeAttribute
 
@@ -13,30 +19,30 @@ DOMElement::removeAttribute — Видаляє атрибут
 
 ### Опис
 
-public **DOMElement::removeAttribute**(string `$qualifiedName`): bool
+```methodsynopsis
+public DOMElement::removeAttribute(string $qualifiedName): bool
+```
 
-Видаляє атрибут з ім'ям `qualifiedName` з елемента.
+Видаляє атрибут з ім'ям `qualifiedName` елемент.
 
 ### Список параметрів
 
 `qualifiedName`
-Назва атрибута.
+
+Ім'я атрибуту.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
 **`DOM_NO_MODIFICATION_ALLOWED_ERR`**
-Виникає, якщо атрибут доступний лише читання.
+
+Виникає, якщо атрибут доступний лише для читання.
 
 ### Дивіться також
 
-- [DOMElement::hasAttribute()](domelement.hasattribute.md) -
-Перевіряє, чи існує атрибут
-- [DOMElement::getAttribute()](domelement.getattribute.md) -
-Повертає значення атрибуту
-- [DOMElement::setAttribute()](domelement.setattribute.md) -
-Додає новий або змінює існуючий атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.html) - Повертає значення атрибуту
+-   [DOMElement::setAttribute()](domelement.setattribute.html) - Додає новий або змінює існуючий атрибут

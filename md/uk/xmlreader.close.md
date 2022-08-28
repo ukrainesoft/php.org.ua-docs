@@ -1,19 +1,27 @@
-- [« XMLReader](class.xmlreader.md)
-- [XMLReader::expand »](xmlreader.expand.md)
+Закрити введення XMLReader
 
-- [PHP Manual](index.md)
-- [XMLReader](class.xmlreader.md)
-- Закрити введення XMLReader
+-   [« XMLReader](class.xmlreader.html)
+    
+-   [XMLReader::expand »](xmlreader.expand.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLReader](class.xmlreader.html)
+    
+-   Закрити введення XMLReader
+    
 
 # XMLReader::close
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 XMLReader::close — Закрити введення XMLReader
 
 ### Опис
 
-public **XMLReader::close**(): bool
+```methodsynopsis
+public XMLReader::close(): bool
+```
 
 Закриває введення, яке зараз аналізує об'єкт XMLReader.
 
@@ -23,12 +31,9 @@ public **XMLReader::close**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [XMLReader::open()](xmlreader.open.md) - Встановити URI,
-містить XML-документ для аналізу
-- [XMLReader::xml()](xmlreader.xml.md) - Встановити дані,
-містять XML для розбору
+-   [XMLReader::open()](xmlreader.open.html) - Встановити URI, що містить XML-документ для аналізу
+-   [XMLReader::xml()](xmlreader.xml.html) - Встановити дані, що містять XML для аналізу

@@ -1,19 +1,27 @@
-- [«ob_implicit_flush](function.ob-implicit-flush.md)
-- [ob_start »](function.ob-start.md)
+Список всіх обробників виводу, що використовуються
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Список всіх використовуваних обробників виводу
+-   [« ob\_implicit\_flush](function.ob-implicit-flush.html)
+    
+-   [ob\_start »](function.ob-start.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции контроля вывода](ref.outcontrol.html)
+    
+-   Список всіх обробників виводу, що використовуються
+    
 
-#ob_list_handlers
+# проlisthandlers
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-ob_list_handlers — Список всіх обробників виводу, що використовуються.
+проlisthandlers — Список всіх обробників виводу, що використовуються.
 
 ### Опис
 
-**ob_list_handlers**(): array
+```methodsynopsis
+ob_list_handlers(): array
+```
 
 Список всіх обробників виведення.
 
@@ -23,42 +31,51 @@ ob_list_handlers — Список всіх обробників виводу, щ
 
 ### Значення, що повертаються
 
-Функція поверне масив із використовуваними обробниками виводу (якщо
-є). Якщо увімкнено
-[output_buffering](outcontrol.configuration.md#ini.output-buffering)
-або використовувалася анонімна функція разом з
-[ob_start()](function.ob-start.md), то **ob_list_handlers()** поверне
-"default output handler".
+Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [output\_buffering](outcontrol.configuration.html#ini.output-buffering) або використовувалася анонімна функція разом з [ob\_start()](function.ob-start.html), то **проlisthandlers()** поверне "default output handler".
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ob_list_handlers()****
+**Приклад #1 Приклад використання функції **проlisthandlers()****
 
-` <?php//використовується output_buffering=Onprint_r(ob_list_handlers());ob_end_flush();ob_start("ob_gzhandler");print_r(ob_list_handlers());ob_end_flush();// анонімна $string; });print_r(ob_list_handlers());ob_end_flush();?> `
+```php
+<?php
+//используется output_buffering=On
+print_r(ob_list_handlers());
+ob_end_flush();
+
+ob_start("ob_gzhandler");
+print_r(ob_list_handlers());
+ob_end_flush();
+
+// анонимная функция
+ob_start(function($string) { return $string; });
+print_r(ob_list_handlers());
+ob_end_flush();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[0] => default output handler
+    [0] => default output handler
 )
 
 Array
 (
-[0] => ob_gzhandler
+    [0] => ob_gzhandler
 )
 
 Array
 (
-[0] => Closure::__invoke
+    [0] => Closure::__invoke
 )
+```
 
 ### Дивіться також
 
-- [ob_end_clean()](function.ob-end-clean.md) - Очистити (стерти)
-буфер виводу та вимкнути буферизацію виводу
-- [ob_end_flush()](function.ob-end-flush.md) - Скинути (надіслати)
-буфер виведення та вимкнути буферизацію виводу
-- [ob_get_flush()](function.ob-get-flush.md) - Скинути буфер
-виводу, повернути його у вигляді рядка та відключити буферизацію виводу
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
+-   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
+-   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [ob\_get\_flush()](function.ob-get-flush.html) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
+-   [ob\_start()](function.ob-start.html) - Включення буферизації виводу

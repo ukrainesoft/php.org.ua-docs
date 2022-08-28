@@ -1,15 +1,21 @@
-- [«Вступ](intro.zookeeper.md)
-- [Вимоги »](zookeeper.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [ZooKeeper](book.zookeeper.md)
+-   [« Введение](intro.zookeeper.html)
+    
+-   [Требования »](zookeeper.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZooKeeper](book.zookeeper.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](zookeeper.requirements.md)
-- [Установка](zookeeper.installation.md)
-- [Налаштування під час виконання](zookeeper.configuration.md)
-- [Типи ресурсів](zookeeper.resources.md)
+-   [Требования](zookeeper.requirements.html)
+-   [Установка](zookeeper.installation.html)
+-   [Настройка во время выполнения](zookeeper.configuration.html)
+-   [Типы ресурсов](zookeeper.resources.html)

@@ -1,65 +1,77 @@
-- [« mysqli_stmt::result_metadata](mysqli-stmt.result-metadata.md)
-- [mysqli_stmt::$sqlstate »](mysqli-stmt.sqlstate.md)
+Надсилання даних блоками
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Надсилання даних блоками
+-   [« mysqli\_stmt::result\_metadata](mysqli-stmt.result-metadata.html)
+    
+-   [mysqli\_stmt::$sqlstate »](mysqli-stmt.sqlstate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_stmt](class.mysqli-stmt.html)
+    
+-   Надсилання даних блоками
+    
 
-# mysqli_stmt::send_long_data
+# mysqlistmt::sendlongdata
 
-# mysqli_stmt_send_long_data
+# mysqlistmtsendlongdata
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::send_long_data -- mysqli_stmt_send_long_data — Надсилання
-даних блоками
+mysqlistmt::sendlongdata - mysqlistmtsendlongdata — Надсилання даних блоками
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::send_long_data**(int `$param_num`, string
-`$data`): bool
+```methodsynopsis
+public mysqli_stmt::send_long_data(int $param_num, string $data): bool
+```
 
 Процедурний стиль
 
-**mysqli_stmt_send_long_data**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`, int `$param_num`, string `$data`): bool
+```methodsynopsis
+mysqli_stmt_send_long_data(mysqli_stmt $statement, int $param_num, string $data): bool
+```
 
-Дозволяє пересилати дані параметра на сервер частинами (або чанками),
-наприклад, коли розмір великого об'єкта (blob) перевищує
-`max_allowed_packet`. Цю функцію можна запускати багаторазово, щоб
-надіслати частини символьних або двійкових даних стовпця. Дані у стовпці
-повинен мати тип TEXT або BLOB.
+Дозволяє пересилати дані параметра на сервер частинами (або чанками), наприклад коли розмір великого об'єкта (blob) перевищує `max_allowed_packet`. Цю функцію можна запускати багаторазово, щоб надіслати частини символьних або двійкових даних стовпця. Дані у стовпці повинні мати тип TEXT або BLOB.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
 
 `param_num`
-Вказує, із яким параметром пов'язані дані. Параметри нумеруються з
-нуля.
+
+Вказує, із яким параметром пов'язані дані. Параметри нумеруються з нуля.
 
 `data`
+
 Рядок, що містить дані, що пересилаються.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$stmt = $mysqli->prepare("INSERT INTO messages (message) VALUES (?)");$null = NULL;$stmt->bind_param("b", $null);$fp = ("messages.txt", "r");while (!feof($fp)) {    $stmt->send_long_data(0, fread($fp, 8192));}fclose($fp);$stmt-> execute();?> `
+```php
+<?php
+$stmt = $mysqli->prepare("INSERT INTO messages (message) VALUES (?)");
+$null = NULL;
+$stmt->bind_param("b", $null);
+$fp = fopen("messages.txt", "r");
+while (!feof($fp)) {
+    $stmt->send_long_data(0, fread($fp, 8192));
+}
+fclose($fp);
+$stmt->execute();
+?>
+```
 
 ### Дивіться також
 
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
-- [mysqli_stmt_bind_param()](mysqli-stmt.bind-param.md) - Прив'язка
-змінних до параметрів запиту, що готується
+-   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.

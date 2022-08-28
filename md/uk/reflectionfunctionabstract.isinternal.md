@@ -1,23 +1,29 @@
-- [« ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)
-- [ReflectionFunctionAbstract::isUserDefined »](reflectionfunctionabstract.isuserdefined.md)
+Перевіряє, чи є функція внутрішньої
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Перевіряє, чи є функція внутрішньої
+-   [« ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.html)
+    
+-   [ReflectionFunctionAbstract::isUserDefined »](reflectionfunctionabstract.isuserdefined.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Перевіряє, чи є функція внутрішньої
+    
 
 # ReflectionFunctionAbstract::isInternal
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isInternal — Перевіряє, чи є функція
-внутрішньої
+ReflectionFunctionAbstract::isInternal — Перевіряє, чи є функція внутрішньої
 
 ### Опис
 
-public **ReflectionFunctionAbstract::isInternal**(): bool
+```methodsynopsis
+public ReflectionFunctionAbstract::isInternal(): bool
+```
 
-Перевіряє, чи функція є внутрішньою, тобто не визначеною
-користувачем.
+Перевіряє, чи функція є внутрішньою, тобто не визначеною користувачем.
 
 ### Список параметрів
 
@@ -25,9 +31,8 @@ public **ReflectionFunctionAbstract::isInternal**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо функція внутрішня, **`false`** інакше.
+**`true`**, якщо функція внутрішня, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) -
-Перевіряє, чи функція є певною користувачем
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.html) - Перевіряє, чи функція є певною користувачем

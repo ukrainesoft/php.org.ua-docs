@@ -1,33 +1,39 @@
-- [« Gmagick::setimageiterations](gmagick.setimageiterations.md)
-- [Gmagick::setimageredprimary »](gmagick.setimageredprimary.md)
+Додає іменований профіль до об'єкту Gmagick
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Додає іменований профіль в об'єкт Gmagick
+-   [« Gmagick::setimageiterations](gmagick.setimageiterations.html)
+    
+-   [Gmagick::setimageredprimary »](gmagick.setimageredprimary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Додає іменований профіль до об'єкту Gmagick
+    
 
 # Gmagick::setimageprofile
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimageprofile — Додає іменований профіль в об'єкт
-Gmagick
+Gmagick::setimageprofile — Додає іменований профіль до об'єкту Gmagick
 
 ### Опис
 
-public **Gmagick::setimageprofile**(string `$name`, string `$profile`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageprofile(string $name, string $profile): Gmagick
+```
 
-Додає іменований профіль об'єкт Gmagick. Якщо профіль з таким
-ім'ям вже існує, він замінюється. Метод відрізняється від методу
-Gmagick::profileimage() тим, що він не застосовує колірні профілі CMS.
+Додає іменований профіль об'єкт Gmagick. Якщо профіль з такою назвою вже існує, він замінюється. Метод відрізняється від методу Gmagick::profileimage() тим, що він не застосовує колірні профілі CMS.
 
 ### Список параметрів
 
 `name`
+
 Ім'я профілю для додавання або видалення: ICC, IPTC або загальний профіль.
 
 `profile`
-Профiль.
+
+Профіль.
 
 ### Значення, що повертаються
 

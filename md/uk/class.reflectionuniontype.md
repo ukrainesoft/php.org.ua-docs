@@ -1,9 +1,15 @@
-- [« ReflectionType::\_\_toString](reflectiontype.tostring.md)
-- [ReflectionUnionType::getTypes »](reflectionuniontype.gettypes.md)
+Клас ReflectionUnionType
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionUnionType
+-   [« ReflectionType::\_\_toString](reflectiontype.tostring.html)
+    
+-   [ReflectionUnionType::getTypes »](reflectionuniontype.gettypes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionUnionType
+    
 
 # Клас ReflectionUnionType
 
@@ -13,24 +19,34 @@
 
 ## Огляд класів
 
-class **ReflectionUnionType** extends
-[ReflectionType](class.reflectiontype.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getTypes](reflectionuniontype.gettypes.md)(): array
+    
+     
+      class ReflectionUnionType
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       ReflectionType
+     
+     {
 
-public [ReflectionType::allowsNull](reflectiontype.allowsnull.md)():
-bool
+    /* Методы */
+    
+   public getTypes(): array
 
-public [ReflectionType::\_\_toString](reflectiontype.tostring.md)():
-string
 
-}
+    /* Наследуемые методы */
+    public ReflectionType::allowsNull(): bool
+public ReflectionType::__toString(): string
+
+   }
+```
 
 ## Зміст
 
-- [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md) -
-Повертає типи, включені до типу union
+-   [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.html) — Повертає типи, включені до типу union

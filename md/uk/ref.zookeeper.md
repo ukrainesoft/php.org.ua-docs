@@ -1,13 +1,18 @@
-- [«Зумовлені константи](zookeeper.constants.md)
-- [zookeeper_dispatch »](function.zookeeper-dispatch.md)
+Опції ZooKeeper
 
-- [PHP Manual](index.md)
-- [ZooKeeper](book.zookeeper.md)
-- Опції ZooKeeper
+-   [« Предопределённые константы](zookeeper.constants.html)
+    
+-   [zookeeper\_dispatch »](function.zookeeper-dispatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZooKeeper](book.zookeeper.html)
+    
+-   Опції ZooKeeper
+    
 
-# Функції ZooKeeper
+# Опції ZooKeeper
 
 ## Зміст
 
-- [zookeeper_dispatch](function.zookeeper-dispatch.md) — Викликати
-callback-функції для операцій, що очікують
+-   [zookeeper\_dispatch](function.zookeeper-dispatch.html) — Викликати callback-функції для операцій, що очікують

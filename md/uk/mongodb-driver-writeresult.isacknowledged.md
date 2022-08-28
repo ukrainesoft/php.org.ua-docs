@@ -1,23 +1,29 @@
-- [« MongoDB\Driver\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.md)
-- [MongoDB\BSON »](book.bson.md)
+Повертає, чи був запис підтверджений
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-- Повертає, чи був запис підтверджений
+-   [« MongoDB\\Driver\\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.html)
+    
+-   [MongoDB\\BSON »](book.bson.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+    
+-   Повертає, чи був запис підтверджений
+    
 
-# MongoDB\Driver\WriteResult::isAcknowledged
+# MongoDBDriverWriteResult::isAcknowledged
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\WriteResult::isAcknowledged — Повертає запис.
-підтверджено
+MongoDBDriverWriteResult::isAcknowledged — Повертає, чи був запис підтверджений
 
 ### Опис
 
-final public **MongoDB\Driver\WriteResult::isAcknowledged**(): bool
+```methodsynopsis
+final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
+```
 
-Якщо запис підтверджено, інші поля будуть доступні в об'єкті
-[MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md).
+Якщо запис підтверджено, інші поля будуть доступні в об'єкті [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
 
 ### Список параметрів
 
@@ -25,37 +31,61 @@ final public **MongoDB\Driver\WriteResult::isAcknowledged**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо запис був підтверджений, та **`false`** в
-інакше.
+Повертає **`true`**, якщо запис було підтверджено, та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteResult::isAcknowledged()** з підтвердженими
-гарантіями запису**
+**Приклад #1 Приклад використання **MongoDBDriverWriteResult::isAcknowledged()** з підтвердженими гарантіями запису**
 
-` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$result = $manager->executeBulkWrite(' db.collection', $bulk);var_dump($result->isAcknowledged());?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager;
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+
+$result = $manager->executeBulkWrite('db.collection', $bulk);
+
+var_dump($result->isAcknowledged());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
-**Приклад #2 Приклад використання
-**MongoDB\Driver\WriteResult::isAcknowledged()** з непідтвердженими
-гарантіями запису**
+**Приклад #2 Приклад використання **MongoDBDriverWriteResult::isAcknowledged()** з непідтвердженими гарантіями запису**
 
-` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$result = $manager->executeBulkWrite(' db.collection', $bulk, new MongoDB\Driver\WriteConcern(0));var_dump($result->isAcknowledged());?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager;
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+
+$result = $manager->executeBulkWrite('db.collection', $bulk, new MongoDB\Driver\WriteConcern(0));
+
+var_dump($result->isAcknowledged());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+-   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

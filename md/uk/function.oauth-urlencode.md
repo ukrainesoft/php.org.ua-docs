@@ -1,27 +1,36 @@
-- [« oauth_get_sbs](function.oauth-get-sbs.md)
-- [OAuth »](class.oauth.md)
+Кодує URI відповідно до RFC 3986
 
-- [PHP Manual](index.md)
-- [Функції OAuth](ref.oauth.md)
-- Кодує URI відповідно до RFC 3986
+-   [« oauth\_get\_sbs](function.oauth-get-sbs.html)
+    
+-   [OAuth »](class.oauth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OAuth](ref.oauth.html)
+    
+-   Кодує URI відповідно до RFC 3986
+    
 
-#oauth_urlencode
+# oauthurlencode
 
-(PECL OAuth \>=0.99.2)
+(PECL OAuth >=0.99.2)
 
-oauth_urlencode — Кодує URI відповідно до RFC 3986
+oauthurlencode — Кодує URI відповідно до RFC 3986
 
 ### Опис
 
-**oauth_urlencode**(string `$uri`): string
+```methodsynopsis
+oauth_urlencode(string $uri): string
+```
 
-Кодує URI відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986).
+Кодує URI відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
 
 ### Список параметрів
 
 `uri`
+
 URI для кодування.
 
 ### Значення, що повертаються
 
-Повертає рядок закодований відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986).
+Повертає рядок закодований відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

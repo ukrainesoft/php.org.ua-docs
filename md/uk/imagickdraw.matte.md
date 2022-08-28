@@ -1,9 +1,15 @@
-- [« ImagickDraw::line](imagickdraw.line.md)
-- [ImagickDraw::pathClose »](imagickdraw.pathclose.md)
+Зафарбовує канал непрозорості зображення
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Зафарбовує канал непрозорості зображення
+-   [« ImagickDraw::line](imagickdraw.line.html)
+    
+-   [ImagickDraw::pathClose »](imagickdraw.pathclose.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Зафарбовує канал непрозорості зображення
+    
 
 # ImagickDraw::matte
 
@@ -13,36 +19,60 @@ ImagickDraw::matte — Зафарбовує канал непрозорості 
 
 ### Опис
 
-public **ImagickDraw::matte**(float `$x`, float `$y`, int
-`$paintMethod`): bool
+```methodsynopsis
+public ImagickDraw::matte(float $x, float $y, int $paintMethod): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Зафарбовує канал непрозорості зображення з метою зробити порушені
-пікселі прозорі.
+Зафарбовує канал непрозорості зображення з метою зробити торкнуті пікселі прозорими.
 
 ### Список параметрів
 
 `x`
-Координата х.
+
+Координата x.
 
 `y`
-Координати y.
+
+Координата y.
 
 `paintMethod`
-Одна з констант [PAINT](imagick.constants.md#imagick.constants.paint)
-(`imagick::PAINT_*`).
+
+Одна з констант [PAINT](imagick.constants.html#imagick.constants.paint) `imagick::PAINT_*`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ImagickDraw::matte()****
 
-` <?phpfunction matte($strokeColor, $fillColor, $backgroundColor, $paintType) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(2); $draw->setFontSize(72); $draw->matte(120, 120, $paintType); $draw->rectangle(100, 100, 300, 200); $imagick==newImagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function matte($strokeColor, $fillColor, $backgroundColor, $paintType) {
+    $draw = new \ImagickDraw();
+
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+
+    $draw->matte(120, 120, $paintType);
+    $draw->rectangle(100, 100, 300, 200);
+
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
+
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

@@ -1,18 +1,22 @@
-- [« pcntl_async_signals](function.pcntl-async-signals.md)
-- [pcntl_exec »](function.pcntl-exec.md)
+Псевдонім pcntlgetlasterror
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Псевдонім pcntl_get_last_error
+-   [« pcntl\_async\_signals](function.pcntl-async-signals.html)
+    
+-   [pcntl\_exec »](function.pcntl-exec.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Псевдонім pcntlgetlasterror
+    
 
-#pcntl_errno
+# pcntlerrno
 
-(PHP 5 \>= 5.3.4, PHP 7, PHP 8)
+(PHP 5> = 5.3.4, PHP 7, PHP 8)
 
-pcntl_errno - Псевдонім
-[pcntl_get_last_error()](function.pcntl-get-last-error.md)
+pcntlerrno - Псевдонім [pcntl\_get\_last\_error()](function.pcntl-get-last-error.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[pcntl_get_last_error()](function.pcntl-get-last-error.md)
+Ця функція є псевдонімом: [pcntl\_get\_last\_error()](function.pcntl-get-last-error.html)

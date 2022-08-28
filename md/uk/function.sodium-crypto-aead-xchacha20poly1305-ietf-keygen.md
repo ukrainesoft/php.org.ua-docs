@@ -1,25 +1,29 @@
-- [« sodium_crypto_aead_xchacha20poly1305_ietf_encrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md)
-- [sodium_crypto_auth_keygen »](function.sodium-crypto-auth-keygen.md)
+Створює випадковий ключ XChaCha20-Poly1305
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює випадковий ключ XChaCha20-Poly1305
+-   [« sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html)
+    
+-   [sodium\_crypto\_auth\_keygen »](function.sodium-crypto-auth-keygen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Створює випадковий ключ XChaCha20-Poly1305
+    
 
-# sodium_crypto_aead_xchacha20poly1305_ietf_keygen
+# sodiumcryptoaeadxchacha20poly1305ietfkeygen
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_aead_xchacha20poly1305_ietf_keygen — Створює випадковий
-ключ XChaCha20-Poly1305
+sodiumcryptoaeadxchacha20poly1305ietfkeygen — Створює випадковий ключ XChaCha20-Poly1305
 
 ### Опис
 
-**sodium_crypto_aead_xchacha20poly1305_ietf_keygen**(): string
+```methodsynopsis
+sodium_crypto_aead_xchacha20poly1305_ietf_keygen(): string
+```
 
-Створює випадковий ключ для використання в
-[sodium_crypto_aead_xchacha20poly1305_ietf_encrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md)
-і
-[sodium_crypto_aead_xchacha20poly1305_ietf_decrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.md).
+Створює випадковий ключ для використання в [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) і [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.html)
 
 ### Список параметрів
 

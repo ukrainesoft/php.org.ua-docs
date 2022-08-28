@@ -1,9 +1,15 @@
-- [« DOMChildNode::remove](domchildnode.remove.md)
-- [DOMComment »](class.domcomment.md)
+Замінює вузол новими вузлами
 
-- [PHP Manual](index.md)
-- [DOMChildNode](class.domchildnode.md)
-- Замінює вузол новими вузлами
+-   [« DOMChildNode::remove](domchildnode.remove.html)
+    
+-   [DOMComment »](class.domcomment.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMChildNode](class.domchildnode.html)
+    
+-   Замінює вузол новими вузлами
+    
 
 # DOMChildNode::replaceWith
 
@@ -13,18 +19,17 @@ DOMChildNode::replaceWith — Замінює вузол новими вузла�
 
 ### Опис
 
-public
-**DOMChildNode::replaceWith**([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
+```methodsynopsis
+public DOMChildNode::replaceWith(DOMNode|string ...$nodes): void
+```
 
-Замінює вузол новими переданими 'nodes'. Поєднання методу
-[DOMChildNode::remove()](domchildnode.remove.md) та
-**DOMChildNode::append()**.
+Замінює вузол новими переданими `nodes`. Поєднання методу [DOMChildNode::remove()](domchildnode.remove.html) і **DOMChildNode::append()**
 
 ### Список параметрів
 
 `nodes`
-Вузли, якими необхідно замінити вузол.
+
+Вузли, якими потрібно замінити вузол.
 
 ### Значення, що повертаються
 
@@ -32,10 +37,7 @@ public
 
 ### Дивіться також
 
-- [DOMChildNode::after()](domchildnode.after.md) - Додає вузли
-після вузла
-- [DOMChildNode::before()](domchildnode.before.md) - Додає вузли
-перед вузлом
-- [DOMChildNode::remove()](domchildnode.remove.md) - Видаляє вузол
-- [DOMNode::replaceChild()](domnode.replacechild.md) - Замінює
-дочірній вузол
+-   [DOMChildNode::after()](domchildnode.after.html) - Додає вузли після вузла
+-   [DOMChildNode::before()](domchildnode.before.html) - Додає вузли перед вузлом
+-   [DOMChildNode::remove()](domchildnode.remove.html) - видаляє вузол
+-   [DOMNode::replaceChild()](domnode.replacechild.html) - Замінює дочірній вузол

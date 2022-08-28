@@ -1,9 +1,15 @@
-- [« SoapParam::\_\_construct](soapparam.construct.md)
-- [SoapVar::\_\_construct »](soapvar.construct.md)
+Клас SoapVar
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
-- Клас SoapVar
+-   [« SoapParam::\_\_construct](soapparam.construct.html)
+    
+-   [SoapVar::\_\_construct »](soapvar.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
+-   Клас SoapVar
+    
 
 # Клас SoapVar
 
@@ -11,58 +17,69 @@
 
 ## Вступ
 
-Клас, що представляє змінну або об'єкт для використання з
-сервісами SOAP.
+Клас, який представляє змінну чи об'єкт використання з сервісами SOAP.
 
 ## Огляд класів
 
-class **SoapVar** {
+```synopsis
 
-/\* Властивості \*/
+     
+    
 
-public int `$enc_type`;
+    
+     
+      class SoapVar
+     
+     {
 
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$enc_value` = null;
+    /* Свойства */
+    
+     public
+     int
+      $enc_type;
 
-public ?string `$enc_stype` = null;
+    public
+     mixed
+      $enc_value = null;
 
-public ?string `$enc_ns` = null;
+    public
+     ?string
+      $enc_stype = null;
 
-public ?string `$enc_name` = null;
+    public
+     ?string
+      $enc_ns = null;
 
-public ?string `$enc_namens` = null;
+    public
+     ?string
+      $enc_name = null;
 
-/\* Методи \*/
+    public
+     ?string
+      $enc_namens = null;
 
-public [\_\_construct](soapvar.construct.md)(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data`,
-?int `$encoding`,
-?string `$typeName` = **`null`**,
-?string `$typeNamespace` = **`null`**,
-?string `$nodeName` = **`null`**,
-?string `$nodeNamespace` = **`null`**
-)
 
-}
+    /* Методы */
+    
+   public __construct(    mixed $data,    ?int $encoding,    ?string $typeName = null,    ?string $typeNamespace = null,    ?string $nodeName = null,    ?string $nodeNamespace = null)
+
+   }
+```
 
 ## Властивості
 
-`enc_name`
+encname
 
-`enc_namens`
+encnamens
 
-`enc_ns`
+encнс
 
-`enc_type`
+enctype
 
-`enc_stype`
+encstype
 
-`enc_value`
+encvalue
 
 ## Зміст
 
-- [SoapVar::\_\_construct](soapvar.construct.md) - Конструктор
-SoapVar
+-   [SoapVar::\_\_construct](soapvar.construct.html) - Конструктор SoapVar

@@ -1,42 +1,46 @@
-- [«ps_setgray](function.ps-setgray.md)
-- [ps_setlinejoin »](function.ps-setlinejoin.md)
+Встановлює зовнішній вигляд закінчення лінії
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює зовнішній вигляд закінчення лінії
+-   [« ps\_setgray](function.ps-setgray.html)
+    
+-   [ps\_setlinejoin »](function.ps-setlinejoin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює зовнішній вигляд закінчення лінії
+    
 
-#ps_setlinecap
+# псsetlinecap
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_setlinecap — Встановлює зовнішній вигляд закінчення лінії
+псsetlinecap - Встановлює зовнішній вигляд закінчення лінії
 
 ### Опис
 
-**ps_setlinecap**(resource `$psdoc`, int `$type`): bool
+```methodsynopsis
+ps_setlinecap(resource $psdoc, int $type): bool
+```
 
 Встановлює зовнішній вигляд закінчення лінії.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `type`
-Тип закінчення лінії. Можливі значення: `PS_LINECAP_BUTT`,
-`PS_LINECAP_ROUND` або `PS_LINECAP_SQUARED`.
+
+Тип закінчення лінії. Можливі значення: `PS_LINECAP_BUTT` `PS_LINECAP_ROUND` або `PS_LINECAP_SQUARED`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_setlinejoin()](function.ps-setlinejoin.md) - Встановлює
-спосіб з'єднання ліній
-- [ps_setlinewidth()](function.ps-setlinewidth.md) - Встановлює
-ширину лінії
-- [ps_setmiterlimit()](function.ps-setmiterlimit.md) - Встановлює
-межа скосу
+-   [ps\_setlinejoin()](function.ps-setlinejoin.html) - Встановлює спосіб з'єднання ліній
+-   [ps\_setlinewidth()](function.ps-setlinewidth.html) - Встановлює ширину лінії
+-   [ps\_setmiterlimit()](function.ps-setmiterlimit.html) - Встановлює межу скосу

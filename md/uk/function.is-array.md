@@ -1,52 +1,67 @@
-- [«intval](function.intval.md)
-- [is_bool »](function.is-bool.md)
+Визначає, чи є змінна масивом
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Визначає, чи є змінна масивом
+-   [« intval](function.intval.html)
+    
+-   [is\_bool »](function.is-bool.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Визначає, чи є змінна масивом
+    
 
-#is_array
+# ісarray
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_array - Визначає, чи є змінна масивом
+ісarray - Визначає, чи є змінна масивом
 
 ### Опис
 
-**is_array**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_array(mixed $value): bool
+```
 
-Визначає, чи є ця змінна масивом.
+Визначає, чи є змінна масивом.
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо змінна `value` є масивом
-(array), або **`false`** інакше.
+Повертає **`true`**, якщо змінна `value` є масивом (array), або **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Перевіряє, чи є змінна масивом**
 
-` <?php$yes = array('це', 'масив');echo is_array($yes) ? 'Масив' : 'Не масив';echo "
-";$no = 'це рядок';echo is_array($no) ? 'Масив' : 'Не масив';?> `
+```php
+<?php
+$yes = array('это', 'массив');
+
+echo is_array($yes) ? 'Массив' : 'Не массив';
+echo "\n";
+
+$no = 'это строка';
+
+echo is_array($no) ? 'Массив' : 'Не массив';
+?>
+```
 
 Результат виконання цього прикладу:
 
-Масив
-Чи не масив
+```
+Массив
+Не массив
+```
 
 ### Дивіться також
 
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_int()](function.is-int.md) - Перевіряє, чи є змінна
-цілим числом
-- [is_string()](function.is-string.md) - Перевіряє, чи є
-змінним рядком
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
+-   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом

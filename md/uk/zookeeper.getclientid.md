@@ -1,23 +1,28 @@
-- [« Zookeeper::getChildren](zookeeper.getchildren.md)
-- [Zookeeper::getConfig »](zookeeper.getconfig.md)
+Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
 
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- Повертає ідентифікатор сесії клієнта, дійсний лише у тому
-у випадку, якщо підключення в даний час підключено (тобто останнє
-стан спостерігача - ZOO_CONNECTED_STATE)
+-   [« Zookeeper::getChildren](zookeeper.getchildren.html)
+    
+-   [Zookeeper::getConfig »](zookeeper.getconfig.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zookeeper](class.zookeeper.html)
+    
+-   Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
+    
 
 # Zookeeper::getClientId
 
-(PECL zookeeper \>= 0.1.0)
+(PECL zookeeper >= 0.1.0)
 
-Zookeeper::getClientId — Повертає ідентифікатор сесії клієнта,
-дійсний тільки в тому випадку, якщо з'єднання в даний час
-підключені (тобто останній стан спостерігача - ZOO_CONNECTED_STATE)
+Zookeeper::getClientId — Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
 
 ### Опис
 
-public **Zookeeper::getClientId**(): int
+```methodsynopsis
+public
+   Zookeeper::getClientId(): int
+```
 
 ### Список параметрів
 
@@ -25,26 +30,20 @@ public **Zookeeper::getClientId**(): int
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор клієнтської сесії у разі успішного виконання
-і false у разі виникнення помилки.
+Повертає ідентифікатор клієнтської сесії у разі успішного виконання та false у разі виникнення помилки.
 
 ### Помилки
 
-Метод видає помилку/попередження PHP, коли не може отримати
-ідентифікатор сеансу клієнта.
+Метод видає помилку/попередження PHP, коли не може отримати ідентифікатор сеансу клієнта.
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає
-[ZookeeperException](class.zookeeperexception.md) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
 
 ### Дивіться також
 
-- [Zookeeper::\_\_construct()](zookeeper.construct.md) - Створює
-дескриптор для спілкування з zookeeper
-- [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор
-для спілкування з zookeeper
-- [Zookeeper::getState()](zookeeper.getstate.md) - Отримує
-стан з'єднання zookeeper
-- [Стани ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
-- [ZookeeperException](class.zookeeperexception.md)
+-   [Zookeeper::\_\_construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::getState()](zookeeper.getstate.html) - Отримує стан з'єднання zookeeper
+-   [Состояния ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
+-   [ZookeeperException](class.zookeeperexception.html)

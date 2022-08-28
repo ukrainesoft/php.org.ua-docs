@@ -1,19 +1,27 @@
-- [« Exception::\_\_toString](exception.tostring.md)
-- [ErrorException »](class.errorexception.md)
+Клонувати виняток
 
-- [PHP Manual](index.md)
-- [Exception](class.exception.md)
-- Клонувати виняток
+-   [« Exception::\_\_toString](exception.tostring.html)
+    
+-   [ErrorException »](class.errorexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exception](class.exception.html)
+    
+-   Клонувати виняток
+    
 
-# Exception::\_\_clone
+# Exception::clone
 
 (PHP 5, PHP 7, PHP 8)
 
-Exception::\_\_clone — Клонувати виняток
+Exception::clone — Клонувати виняток
 
 ### Опис
 
-private **Exception::\_\_clone**(): void
+```methodsynopsis
+private Exception::__clone(): void
+```
 
 Намагається клонувати виняток, що призводить до фатальної помилки.
 
@@ -29,8 +37,8 @@ private **Exception::\_\_clone**(): void
 
 Винятки *не* піддаються клонуванню.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                             |
-| ------ | ---------------------------------------------------------------- |
-| 8.1.0  | Метод **Exception::\_\_clone()** більше не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод **Exception::clone()** більше не є остаточним (final). |

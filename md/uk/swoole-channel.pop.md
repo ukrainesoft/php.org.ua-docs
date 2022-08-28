@@ -1,20 +1,27 @@
-- [« Swoole\Channel::\_\_destruct](swoole-channel.destruct.md)
-- [Swoole\Channel::push »](swoole-channel.push.md)
+Читає та витягує дані з каналу Swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Channel](class.swoole-channel.md)
-- Читає та витягує дані з каналу Swoole
+-   [« Swoole\\Channel::\_\_destruct](swoole-channel.destruct.html)
+    
+-   [Swoole\\Channel::push »](swoole-channel.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Channel](class.swoole-channel.html)
+    
+-   Читає та витягує дані з каналу Swoole
+    
 
-# Swoole\Channel::pop
+# SwooleChannel::pop
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Channel::pop — Читає та витягує дані з каналу Swoole
+SwooleChannel::pop — Читає та витягує дані з каналу Swoole
 
 ### Опис
 
-public **Swoole\Channel::pop**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Swoole\Channel::pop(): mixed
+```
 
 ### Список параметрів
 
@@ -22,4 +29,4 @@ public **Swoole\Channel::pop**():
 
 ### Значення, що повертаються
 
-Якщо канал порожній, то функція поверне false або несеріалізовані дані.
+Якщо канал порожній, функція поверне false чи несеріалізовані дані.

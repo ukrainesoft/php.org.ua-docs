@@ -1,49 +1,66 @@
-- [« pcntl_signal_dispatch](function.pcntl-signal-dispatch.md)
-- [pcntl_signal »](function.pcntl-signal.md)
+Отримати поточний обробник вказаного сигналу
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Отримати поточний обробник вказаного сигналу
+-   [« pcntl\_signal\_dispatch](function.pcntl-signal-dispatch.html)
+    
+-   [pcntl\_signal »](function.pcntl-signal.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Отримати поточний обробник вказаного сигналу
+    
 
-#pcntl_signal_get_handler
+# pcntlsignalgethandler
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-pcntl_signal_get_handler — Отримати поточний обробник зазначеного
-сигналу
+pcntlsignalgethandler — Отримати поточний обробник вказаного сигналу
 
 ### Опис
 
-**pcntl_signal_get_handler**(int `$signal`):
-[callable](language.types.callable.md)\|int
+```methodsynopsis
+pcntl_signal_get_handler(int $signal): callable|int
+```
 
-Функція **pcntl_signal_get_handler()** отримає поточний обробник
-вказаного сигналу `signal`.
+Функція **pcntlsignalgethandler()** отримає поточний обробник вказаного сигналу `signal`
 
 ### Список параметрів
 
 `signal`
+
 Номер сигналу.
 
 ### Значення, що повертаються
 
-Функція поверне ціле значення, що вказує на константи
-**`SIG_DFL`** або **`SIG_IGN`**. Якщо заданий обробник користувача,
-повертається цей [callable](language.types.callable.md). функції.
+Функція поверне ціле значення, що вказує на константи **`SIG_DFL`** або **`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.html). функції.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                           |
-|--------|------------------------------------------------|
-| 7.1.0  | Додано функцію **pcntl_signal_get_handler()**. |
+| Версия | Описание |
+| --- | --- |
+|  | Була додана функція **pcntlsignalgethandler()** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pcntl_signal_get_handler()****
+**Приклад #1 Приклад використання **pcntlsignalgethandler()****
 
-` <?phpvar_dump(pcntl_signal_get_handler(SIGUSR1)); // Висновок: int(0)function pcntl_test($signo) {}pcntl_signal(SIGUSR1, 'pcntl_test');var_dump(pcntl_signal_get_handler(SIGUSR1)); // Висновок: string (10) pcntl_test pcntl_signal (SIGUSR1, SIG_DFL); var_dump (pcntl_signal_get_handler (SIGUSR1)); // Висновок: int (0) pcntl_signal (SIGUSR1, SIG_IGN); var_dump (pcntl_signal_get_handler (SIGUSR1)); // Висновок: int (1)?
+```php
+<?php
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(0)
+
+function pcntl_test($signo) {}
+pcntl_signal(SIGUSR1, 'pcntl_test');
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: string(10) "pcntl_test"
+
+pcntl_signal(SIGUSR1, SIG_DFL);
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(0)
+
+pcntl_signal(SIGUSR1, SIG_IGN);
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(1)
+?>
+```
 
 ### Дивіться також
 
-- [pcntl_signal()](function.pcntl-signal.md) - Встановлення обробника
-сигналу
+-   [pcntl\_signal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу

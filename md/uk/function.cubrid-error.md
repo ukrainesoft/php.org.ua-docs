@@ -1,27 +1,34 @@
-- [«cubrid_errno](function.cubrid-errno.md)
-- [cubrid_fetch_array »](function.cubrid-fetch-array.md)
+Повертає текст останньої помилки, що сталася
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Повертає текст останньої помилки, що відбулася.
+-   [« cubrid\_errno](function.cubrid-errno.html)
+    
+-   [cubrid\_fetch\_array »](function.cubrid-fetch-array.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+    
+-   Повертає текст останньої помилки, що сталася
+    
 
-#cubrid_error
+# cubriderror
 
-(PECL CUBRID = 8.3.1)
+(PECL CUBRID >= 8.3.1)
 
-cubrid_error — Повертає текст останньої помилки, що відбулася.
+cubriderror — Повертає текст останньої помилки, що сталася.
 
 ### Опис
 
-**cubrid_error**(resource `$connection` = ?): string
+```methodsynopsis
+cubrid_error(resource $connection = ?): string
+```
 
-Функція **cubrid_error()** використовується для отримання тексту
-помилки, що відбулася. Зазвичай ви можете отримати текст помилки, якщо
-якась функція повернула **`false`**.
+Функція **cubriderror()** використовується для отримання тексту помилки, що відбулася. Зазвичай ви можете отримати текст помилки, якщо якась функція повернула **`false`**
 
 ### Список параметрів
 
 `connection`
+
 Ідентифікатор з'єднання.
 
 ### Значення, що повертаються
@@ -30,19 +37,30 @@ cubrid_error — Повертає текст останньої помилки, 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_error()****
+**Приклад #1 Приклад використання **cubriderror()****
 
-` <?php$con = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$req = cubrid_execute($con, "select id, name from person");if {   while (list ($id, $name) = cubrid_fetch($req))   echo $id, $name;} else {    echo "Код помилки: ","; echo "Текст помилки: ", cubrid_error($con);}?> `
+```php
+<?php
+$con = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
+$req = cubrid_execute($con, "select id, name from person");
+if ($req) {
+    while (list ($id, $name) = cubrid_fetch($req))
+    echo $id, $name;
+} else {
+    echo "Код ошибки: ", cubrid_errno($con);
+    echo "Текст ошибки: ", cubrid_error($con);
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Код помилки: -493 Текст помилки: Syntax: Unknown class "person". select id, [name] from person
+```
+Код ошибки: -493 Текст ошибки: Syntax: Unknown class "person". select id, [name] from person
+```
 
 ### Дивіться також
 
-- [cubrid_errno()](function.cubrid-errno.md) - Повертає код помилки
-попередньої операції CUBRID
-- [cubrid_error_code()](function.cubrid-error-code.md) - Отримати
-код помилки
-- [cubrid_error_msg()](function.cubrid-error-msg.md) - Повертає
-текст останньої помилки, що відбулася
+-   [cubrid\_errno()](function.cubrid-errno.html) - Повертає код помилки попередньої операції CUBRID
+-   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubrid\_error\_msg()](function.cubrid-error-msg.html) - Повертає текст останньої помилки, що відбулася.

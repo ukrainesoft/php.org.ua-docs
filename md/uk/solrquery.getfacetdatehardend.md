@@ -1,31 +1,36 @@
-- [«SolrQuery::getFacetDateGap](solrquery.getfacetdategap.md)
-- [SolrQuery::getFacetDateOther »](solrquery.getfacetdateother.md)
+Повертає значення параметра facet.date.hardend
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення параметра facet.date.hardend
+-   [« SolrQuery::getFacetDateGap](solrquery.getfacetdategap.html)
+    
+-   [SolrQuery::getFacetDateOther »](solrquery.getfacetdateother.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає значення параметра facet.date.hardend
+    
 
 # SolrQuery::getFacetDateHardEnd
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getFacetDateHardEnd — Повертає значення параметра
-facet.date.hardend
+SolrQuery::getFacetDateHardEnd — Повертає значення параметра facet.date.hardend
 
 ### Опис
 
-public **SolrQuery::getFacetDateHardEnd**(string `$field_override` = ?):
-string
+```methodsynopsis
+public SolrQuery::getFacetDateHardEnd(string $field_override = ?): string
+```
 
-Повертає значення facet.date.hardend. Приймає
-необов'язкове перевизначення поля
+Повертає значення параметра facet.date.hardend. Приймає необов'язкове перевизначення поля
 
 ### Список параметрів
 
 `field_override`
-Назва поля.
+
+Ім'я поля.
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає рядок у разі успішного виконання та **`null`**, якщо значення не встановлено

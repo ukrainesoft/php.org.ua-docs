@@ -1,25 +1,31 @@
-- [« FFI\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.md)
-- [FFI\Exception »](class.ffi-exception.md)
+Опис
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+-   [« FFI\\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.html)
+    
+-   [FFI\\Exception »](class.ffi-exception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI\\CType](class.ffi-ctype.html)
+    
+-   Опис
+    
 
-# FFI\CType::getStructFieldType
+# FFICType::getStructFieldType
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-FFI\CType::getStructFieldType — Опис
+FFICType::getStructFieldType — Опис
 
 ### Опис
 
-public **FFI\CType::getStructFieldType**(string `$name`):
-[FFI\CType](class.ffi-ctype.md)
+```methodsynopsis
+public FFI\CType::getStructFieldType(string $name): FFI\CType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

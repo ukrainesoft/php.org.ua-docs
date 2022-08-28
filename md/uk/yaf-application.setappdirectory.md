@@ -1,20 +1,27 @@
-- [« Yaf_Application::run](yaf-application.run.md)
-- [Yaf_Bootstrap_Abstract »](class.yaf-bootstrap-abstract.md)
+Змінити директорію програми
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Змінити директорію програми
+-   [« Yaf\_Application::run](yaf-application.run.html)
+    
+-   [Yaf\_Bootstrap\_Abstract »](class.yaf-bootstrap-abstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Application](class.yaf-application.html)
+    
+-   Змінити директорію програми
+    
 
-# Yaf_Application::setAppDirectory
+# YafApplication::setAppDirectory
 
-(Yaf \> = 2.1.4)
+(Yaf> = 2.1.4)
 
-Yaf_Application::setAppDirectory — Змінити каталог програми
+YafApplication::setAppDirectory — Змінити каталог програми
 
 ### Опис
 
-public **Yaf_Application::setAppDirectory**(string `$directory`):
-[Yaf_Application](class.yaf-application.md)
+```methodsynopsis
+public Yaf_Application::setAppDirectory(string $directory): Yaf_Application
+```
 
 ### Список параметрів
 

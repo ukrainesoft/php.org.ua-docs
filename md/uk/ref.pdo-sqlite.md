@@ -1,50 +1,37 @@
-- [« PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.md)
-- [PDO_SQLITE DSN »](ref.pdo-sqlite.connection.md)
+Функції SQLite (PDOSQLITE)
 
-- [PHP Manual](index.md)
-- [Драйвери PDO](pdo.drivers.md)
-- Функції SQLite (PDO_SQLITE)
+-   [« PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.html)
+    
+-   [PDO\_SQLITE DSN »](ref.pdo-sqlite.connection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Драйверы PDO](pdo.drivers.html)
+    
+-   Функції SQLite (PDOSQLITE)
+    
 
-# Функції SQLite (PDO_SQLITE)
+# Функції SQLite (PDOSQLITE)
 
 ## Вступ
 
-PDO_SQLITE – це драйвер, який реалізує [інтерфейс Data Objects
-(PDO)](intro.pdo.md) для забезпечення доступу до баз даних SQLite 3.
+PDOSQLITE це драйвер, який реалізує [интерфейс Data Objects (PDO)](intro.pdo.html) для доступу до баз даних SQLite 3.
 
-> **Примітка**:
->
-> PDO_SQLITE дозволяє використовувати рядки крім потоків разом з
-> **`PDO::PARAM_LOB`**.
+> **Зауваження**
+> 
+> PDOSQLITE дозволяє використовувати рядки крім потоків разом з **`PDO::PARAM_LOB`**
 
-## Установка
+## Встановлення
 
-Драйвер PDO_SQLITE PDO доступний за замовчуванням. Для відключення використовуйте
-**--without-pdo-sqlite[=DIR]**, де `[=DIR]` - директорія, куди
-встановлений sqlite. Починаючи з PHP 7.4.0, потрібна бібліотека [» libsqlite](http://sqlite.org/) версії 3.5.0 або новіші. Раніше
-вбудований з коробки libsqlite міг використовуватися замість цього, і був
-за замовчуванням, якщо опція `[=DIR]` не задана.
+Драйвер PDOSQLITE PDO доступний за замовчуванням. Для вимкнення використовуйте **\-without-pdo-sqlite=DIR**, де `[=DIR]` - Директорія, куди встановлений SQLite. Починаючи з PHP 7.4.0 потрібна бібліотека [» libsqlite](http://sqlite.org/) версії 3.5.0 чи новіші. Раніше вбудований з коробки libsqlite міг використовуватися натомість, і був значенням за замовчуванням, якщо опція `[=DIR]` не задано.
 
-> **Примітка**: **Додаткове налаштування на Windows з PHP 7.4.0**
->
-> Для роботи цього модуля системної змінної Windows `PATH` мають бути
-> Доступні файли DLL. Щоб дізнатися як цього досягти, зверніться до
-> розділ FAQ "[Як додати мою директорію з PHP до змінної Windows > PATH](faq.installation.md#faq.installation.addtopath)". Хоча
-> копіювання DLL-файлів із директорії PHP до системної папки Windows
-> також вирішує проблему (бо системна директорія за замовчуванням
-> перебуває у змінній `PATH`), це рекомендується. *Цьому модулю
-> потрібні наступні файли в змінній `PATH`: * `libsqlite3.dll`.
+> **Зауваження** **Додаткове налаштування на Windows з PHP 7.4.0**
+> 
+> Для роботи цього модуля системної змінної Windows PATH повинні бути доступні DLLфайли. Щоб дізнатися, як цього досягти, зверніться до розділу FAQ "[Как добавить мою директорию с PHP в переменную Windows PATH](faq.installation.html#faq.installation.addtopath)". Хоча копіювання DLL-файлів з директорії PHP до системної папки Windows також вирішує проблему (бо системна директорія за умовчанням знаходиться в змінній PATH), це не рекомендується . *Цей модуль потребує наступних файлів у змінній PATH:* libsqlite3.dll.
 
 ## Зміст
 
-- [PDO_SQLITE DSN](ref.pdo-sqlite.connection.md) — З'єднання з
-базою даних SQLite
-- [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.md) -
-Реєстрація агрегуючої функції користувача для використання
-у SQL-запитах
-- [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.md) -
-Реєстрація користувальницької функції сортування для використання в
-SQL-запитах
-- [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md) -
-Реєстрація користувальницької функції для використання в
-SQL-запитах
+-   [PDO\_SQLITE DSN](ref.pdo-sqlite.connection.html) — З'єднання з базою даних SQLite
+-   [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.html) — Реєстрація агрегуючої функції користувача для використання в SQL-запитах
+-   [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.html) — Реєстрація функції сортування для використання в SQL-запитах
+-   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.html) — Реєстрація функції користувача для використання в SQL-запитах

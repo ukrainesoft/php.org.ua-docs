@@ -1,32 +1,40 @@
-- [ trader_ad](function.trader-ad.md)
-- [trader_adosc »](function.trader-adosc.md)
+Арифметична додавання вектора
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Арифметичне складання вектора
+-   [« trader\_ad](function.trader-ad.html)
+    
+-   [trader\_adosc »](function.trader-adosc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Арифметична додавання вектора
+    
 
-#trader_add
+# traderadd
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_add — Арифметична додавання вектора
+traderadd — Арифметична додавання вектора
 
 ### Опис
 
-**trader_add**(array `$real0`, array `$real1`): array
+```methodsynopsis
+trader_add(array $real0, array $real1): array
+```
 
-Обчислює векторне додавання `real0` до `real1` та повертає отриманий
-вектор.
+Обчислює векторне додавання `real0` до `real1` та повертає отриманий вектор.
 
 ### Список параметрів
 
 `real0`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `real1`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

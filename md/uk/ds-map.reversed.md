@@ -1,19 +1,27 @@
-- [« Ds\Map::reverse](ds-map.reverse.md)
-- [Ds\Map::skip »](ds-map.skip.md)
+Повертає перегорнуту копію колекції
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Повертає перегорнуту копію колекції
+-   [« Ds\\Map::reverse](ds-map.reverse.html)
+    
+-   [Ds\\Map::skip »](ds-map.skip.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Коллекция пар ключ-значение](class.ds-map.html)
+    
+-   Повертає перегорнуту копію колекції
+    
 
-# Ds\Map::reversed
+# ДсMap::reversed
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Map::reversed — Повертає перегорнуту копію колекції
+ДсMap::reverse — Повертає перегорнуту копію колекції
 
 ### Опис
 
-public **Ds\Map::reversed**(): [Ds\Map](class.ds-map.md)
+```methodsynopsis
+public Ds\Map::reversed(): Ds\Map
+```
 
 Повертає копію колекції.
 
@@ -25,36 +33,44 @@ public **Ds\Map::reversed**(): [Ds\Map](class.ds-map.md)
 
 Перегорнута копія колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточна колекція не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::reversed()****
+**Приклад #1 Приклад використання **ДсMap::reversed()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);print_r($map->reversed());?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+
+print_r($map->reversed());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => c
-[value] => 3
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 3
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 2
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 2
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => a
-[value] => 1
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 1
+        )
 
 )
+```

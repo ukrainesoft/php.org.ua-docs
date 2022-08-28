@@ -1,21 +1,29 @@
-- [« Gmagick::getimagewidth](gmagick.getimagewidth.md)
-- [Gmagick::getquantumdepth »](gmagick.getquantumdepth.md)
+Повертає ім'я пакета GraphicsMagick
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає ім'я пакета GraphicsMagick
+-   [« Gmagick::getimagewidth](gmagick.getimagewidth.html)
+    
+-   [Gmagick::getquantumdepth »](gmagick.getquantumdepth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає ім'я пакета GraphicsMagick
+    
 
 # Gmagick::getpackagename
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getpackagename — Повертає ім'я пакета GraphicsMagick
 
 ### Опис
 
-public **Gmagick::getpackagename**(): string
+```methodsynopsis
+public Gmagick::getpackagename(): string
+```
 
-Повертає ім'я пакета GraphicsMagick.
+Повертає ім'я GraphicsMagick.
 
 ### Список параметрів
 

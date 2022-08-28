@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.md)
-- [MongoDB\BSON\MaxKey::unserialize »](mongodb-bson-maxkey.unserialize.md)
+Серіалізує MaxKey
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)
-- Серіалізує MaxKey
+-   [« MongoDB\\BSON\\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\MaxKey::unserialize »](mongodb-bson-maxkey.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
+    
+-   Серіалізує MaxKey
+    
 
-# MongoDB\BSON\MaxKey::serialize
+# MongoDBBSONMaxKey::serialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\MaxKey::serialize — Серіалізує MaxKey
+MongoDBBSONMaxKey::serialize — Серіалізує MaxKey
 
 ### Опис
 
-final public **MongoDB\BSON\MaxKey::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\MaxKey::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\MaxKey::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\MaxKey::unserialize()](mongodb-bson-maxkey.unserialize.md) -
-Десеріалізує MaxKey
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\MaxKey::unserialize()](mongodb-bson-maxkey.unserialize.html) - Десеріалізує MaxKey
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

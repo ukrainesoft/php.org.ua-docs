@@ -1,19 +1,27 @@
-- [« UI\Draw\Text\Font::getDescent](ui-draw-text-font.getdescent.md)
-- [UI\Draw\Text\Font::getUnderlinePosition »](ui-draw-text-font.getunderlineposition.md)
+Показники шрифту
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font](class.ui-draw-text-font.md)
-- Показники шрифту
+-   [« UI\\Draw\\Text\\Font::getDescent](ui-draw-text-font.getdescent.html)
+    
+-   [UI\\Draw\\Text\\Font::getUnderlinePosition »](ui-draw-text-font.getunderlineposition.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html)
+    
+-   Показники шрифту
+    
 
-# UI\Draw\Text\Font::getLeading
+# ОЙDrawTextFont::getLeading
 
 (UI 1.0.3)
 
-UI\Draw\Text\Font::getLeading — Показники шрифту
+ОЙDrawTextFont::getLeading — Показники шрифту
 
 ### Опис
 
-public **UI\Draw\Text\Font::getLeading**(): float
+```methodsynopsis
+public UI\Draw\Text\Font::getLeading(): float
+```
 
 ### Список параметрів
 

@@ -1,29 +1,34 @@
-- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md)
+Метод сповіщення про закриття сервера
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
-- Метод сповіщення про закриття сервера
+-   [« MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatFailed »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.html)
+    
+-   Метод сповіщення про закриття сервера
+    
 
-# MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed
+# MongoDBDriverMonitoringSDAMSubscriber::serverClosed
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed — Метод
-повідомлення про закриття сервера
+MongoDBDriverMonitoringSDAMSubscriber::serverClosed — Метод сповіщення про закриття сервера
 
 ### Опис
 
-abstract public
-**MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed**([MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-`$event`): void
+```methodsynopsis
+abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed(MongoDB\Driver\Monitoring\ServerClosedEvent $event): void
+```
 
-Якщо передплатник був зареєстрований, драйвер викличе цей метод, якщо
-сервер зачинився.
+Якщо передплатник був зареєстрований, драйвер викликає цей метод, якщо сервер закрився.
 
 ### Список параметрів
 
-`event` ([MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md))
+`event` [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+
 Об'єкт події, що містить інформацію про закритий сервер.
 
 ### Значення, що повертаються
@@ -32,14 +37,10 @@ abstract public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-- [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) -
-Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) -
-Реєструє передплатника на подію моніторингу в даному об'єкті
-Manager
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

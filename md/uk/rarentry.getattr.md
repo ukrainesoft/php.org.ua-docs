@@ -1,21 +1,29 @@
-- [« RarEntry::extract](rarentry.extract.md)
-- [RarEntry::getCrc »](rarentry.getcrc.md)
+Повертає атрибути елемента архіву
 
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Повертає атрибути елемента архіву
+-   [« RarEntry::extract](rarentry.extract.html)
+    
+-   [RarEntry::getCrc »](rarentry.getcrc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RarEntry](class.rarentry.html)
+    
+-   Повертає атрибути елемента архіву
+    
 
 # RarEntry::getAttr
 
-(PECL rar \>= 0.1)
+(PECL rar >= 0.1)
 
 RarEntry::getAttr — Повертає атрибути елемента архіву
 
 ### Опис
 
-public **RarEntry::getAttr**(): int
+```methodsynopsis
+public RarEntry::getAttr(): int
+```
 
-Повертає атрибути архіву, що залежать від операційної системи.
+Повертає атрибути елемента архіву, що залежать від операційної системи.
 
 ### Список параметрів
 
@@ -29,12 +37,62 @@ public **RarEntry::getAttr**(): int
 
 **Приклад #1 Приклад використання **RarEntry::getAttr()****
 
-` <?php$rar_file==rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'dir/in/the/archive') or die("Не удалось найти такую запись");$host_os = $entry->getHostOs();$attr = $entry->getAttr();switch($host_os) {    case RAR_HOST_MSDOS:    case RAR_HOST_OS2:    case RAR_HOST_WIN32:    case RAR_HOST_MACOS:        printf(" %c%c%c%c%c%c
-",                ($attr & 0x08) ? 'V' : '.',                ($attr & 0x10) ? 'D' : '.',                ($attr & 0x01) ? 'R' : '.',                ($attr & 0x02) ? 'H' : '.',                ($attr & 0x04) ? 'S' : '.',                ($attr & 0x20) ? 'A' : '.');        break;    case RAR_HOST_UNIX:    case RAR_HOST_BEOS :        switch ($attr & 0xF000)        {            case 0x4000:                printf("d");                break;            case 0xA000:                printf("l");                break;            default:                printf("-");                break;        }        printf("%c %c%c%c%c%c%c%c%c
-",                ($attr & 0x0100) ? 'r' : '-',                ($attr & 0x0080) ? 'w' : '-',                ($attr & 0x0040) ? (($attr & 0x0800) ? 's' :'x'):(($attr & 0x0800) ? 'S':'-'),                ($attr & 0x0020) ? 'r' : '-',                ($attr & 0x0010) ? 'w' : ' -',                ($attr & 0x0008) ? (($attr & 0x0400) ? 's':'x'):(($attr & 0x0400) ? 'S':'-'),                ($attr & 0x0004) ? 'r' : '-',                ($attr & 0x0002) ? 'w' : '-',                ($attr & 0x0001) ? 'x' : '-');        break;}rar_close($rar_file);? > `
+```php
+<?php
+
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+
+$entry = rar_entry_get($rar_file, 'dir/in/the/archive') or die("Не удалось найти такую запись");
+
+$host_os = $entry->getHostOs();
+$attr = $entry->getAttr();
+
+switch($host_os) {
+    case RAR_HOST_MSDOS:
+    case RAR_HOST_OS2:
+    case RAR_HOST_WIN32:
+    case RAR_HOST_MACOS:
+        printf("%c%c%c%c%c%c\n",
+                ($attr & 0x08) ? 'V' : '.',
+                ($attr & 0x10) ? 'D' : '.',
+                ($attr & 0x01) ? 'R' : '.',
+                ($attr & 0x02) ? 'H' : '.',
+                ($attr & 0x04) ? 'S' : '.',
+                ($attr & 0x20) ? 'A' : '.');
+        break;
+    case RAR_HOST_UNIX:
+    case RAR_HOST_BEOS:
+        switch ($attr & 0xF000)
+        {
+            case 0x4000:
+                printf("d");
+                break;
+            case 0xA000:
+                printf("l");
+                break;
+            default:
+                printf("-");
+                break;
+        }
+        printf("%c%c%c%c%c%c%c%c%c\n",
+                ($attr & 0x0100) ? 'r' : '-',
+                ($attr & 0x0080) ? 'w' : '-',
+                ($attr & 0x0040) ? (($attr & 0x0800) ? 's':'x'):(($attr & 0x0800) ? 'S':'-'),
+                ($attr & 0x0020) ? 'r' : '-',
+                ($attr & 0x0010) ? 'w' : '-',
+                ($attr & 0x0008) ? (($attr & 0x0400) ? 's':'x'):(($attr & 0x0400) ? 'S':'-'),
+                ($attr & 0x0004) ? 'r' : '-',
+                ($attr & 0x0002) ? 'w' : '-',
+                ($attr & 0x0001) ? 'x' : '-');
+        break;
+}
+
+rar_close($rar_file);
+
+?>
+```
 
 ### Дивіться також
 
-- [RarEntry::getHostOs()](rarentry.gethostos.md) - Повертає
-оригінальну ОС елемента
-- Константи [RarEntry](class.rarentry.md)
+-   [RarEntry::getHostOs()](rarentry.gethostos.html) - Повертає оригінальну ОС елемента
+-   Константи [RarEntry](class.rarentry.html)

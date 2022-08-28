@@ -1,65 +1,81 @@
-- [« pg_result_seek](function.pg-result-seek.md)
-- [pg_select »](function.pg-select.md)
+Повертає стан результату запиту
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає стан результату запиту
+-   [« pg\_result\_seek](function.pg-result-seek.html)
+    
+-   [pg\_select »](function.pg-select.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає стан результату запиту
+    
 
-#pg_result_status
+# пгresultstatus
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_result_status — Повертає стан результату запиту
+пгresultstatus — Повернення стану результату запиту
 
 ### Опис
 
-**pg_result_status**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$mode` = **`PGSQL_STATUS_LONG`**): string\|int
+```methodsynopsis
+pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|int
+```
 
-**pg_result_status()** повертає поточний стан екземпляра
-[PgSql\Result](class.pgsql-result.md), або тег завершення сервером
-роботи з цим ресурсом.
+**пгresultstatus()** повертає поточний стан екземпляра [PgSql\\Result](class.pgsql-result.html), або тег завершення сервером роботи з цим ресурсом.
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `mode`
-Приймає одне із двох значень: **`PGSQL_STATUS_LONG`** для отримання
-числового позначення стану `result`, або **`PGSQL_STATUS_STRING`**
-для отримання стану теги у вигляді рядка. За замовчуванням використовується
-**`PGSQL_STATUS_LONG`**.
+
+Приймає одне із двох значень: **`PGSQL_STATUS_LONG`** для отримання числового позначення стану `result`, або **`PGSQL_STATUS_STRING`** для отримання стану теги у вигляді рядка. За замовчуванням використовується **`PGSQL_STATUS_LONG`**
 
 ### Значення, що повертаються
 
-Якщо як аргумент передається **`PGSQL_STATUS_LONG`**, то
-повертається одна з перерахованих констант: **`PGSQL_EMPTY_QUERY`**,
-**`PGSQL_COMMAND_OK`**, **`PGSQL_TUPLES_OK`**, **`PGSQL_COPY_OUT`**,
-**`PGSQL_COPY_IN`**, **`PGSQL_BAD_RESPONSE`**,
-**`PGSQL_NONFATAL_ERROR`**, **`PGSQL_FATAL_ERROR`**. В іншому випадку
-функція поверне рядкове відображення стану результату запиту.
+Якщо як аргумент передається **`PGSQL_STATUS_LONG`**, то повертається одна з перерахованих констант: **`PGSQL_EMPTY_QUERY`** **`PGSQL_COMMAND_OK`** **`PGSQL_TUPLES_OK`** **`PGSQL_COPY_OUT`** **`PGSQL_COPY_IN`** **`PGSQL_BAD_RESPONSE`** **`PGSQL_NONFATAL_ERROR`** **`PGSQL_FATAL_ERROR`**. В іншому випадку функція поверне рядкове подання стану результату запиту.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_result_status()****
+**Приклад #1 Приклад використання **пгresultstatus()****
 
-` <?php// Підключаємося до бази даних$conn = pg_pconnect("dbname=publisher"); $status = pg_result_status($result);// Розбираємо отримані даніif ($status == PGSQL_COPY_IN)  echo "Copy began.";else   echo "Copy fai>
+```php
+<?php
+
+// Подключаемся к базе данных
+$conn = pg_pconnect("dbname=publisher");
+
+// Выполняем команду COPY
+$result = pg_query($conn, "COPY authors FROM STDIN;");
+
+// Получаем состояние результата запроса
+$status = pg_result_status($result);
+
+// Разбираем полученные данные
+if ($status == PGSQL_COPY_IN)
+   echo "Copy began.";
+else
+   echo "Copy failed.";
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Copy began.
+```
 
 ### Дивіться також
 
-- [pg_connection_status()](function.pg-connection-status.md) -
-Визначає стан підключення
+-   [pg\_connection\_status()](function.pg-connection-status.html) - Визначає стан підключення

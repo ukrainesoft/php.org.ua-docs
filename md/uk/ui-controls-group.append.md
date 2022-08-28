@@ -1,24 +1,32 @@
-- [«UI\Controls\Group](class.ui-controls-group.md)
-- [UI\Controls\Group::\_\_construct »](ui-controls-group.construct.md)
+Додати керуючий елемент
 
-- [PHP Manual](index.md)
-- [UI\Controls\Group](class.ui-controls-group.md)
-- Додати керуючий елемент
+-   [« UI\\Controls\\Group](class.ui-controls-group.html)
+    
+-   [UI\\Controls\\Group::\_\_construct »](ui-controls-group.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Group](class.ui-controls-group.html)
+    
+-   Додати керуючий елемент
+    
 
-# UI\Controls\Group::append
+# ОЙControlsGroup::append
 
 (No version information available, might only be in Git)
 
-UI\Controls\Group::append — Додати елемент керування
+ОЙControlsGroup::append — Додати елемент керування
 
 ### Опис
 
-public **UI\Controls\Group::append**([UI\Control](class.ui-control.md)
-`$control`)
+```methodsynopsis
+public UI\Controls\Group::append(UI\Control $control)
+```
 
 Додає елемент керування до групи
 
 ### Список параметрів
 
 `control`
+
 Керуючий елемент для додавання

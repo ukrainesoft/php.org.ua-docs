@@ -1,9 +1,15 @@
-- [« Imagick::transverseImage](imagick.transverseimage.md)
-- [Imagick::uniqueImageColors »](imagick.uniqueimagecolors.md)
+Видаляє краї із зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Видаляє краї із зображення
+-   [« Imagick::transverseImage](imagick.transverseimage.html)
+    
+-   [Imagick::uniqueImageColors »](imagick.uniqueimagecolors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Видаляє краї із зображення
+    
 
 # Imagick::trimImage
 
@@ -13,24 +19,21 @@ Imagick::trimImage — Видаляє краї зображення
 
 ### Опис
 
-public **Imagick::trimImage**(float `$fuzz`): bool
+```methodsynopsis
+public Imagick::trimImage(float $fuzz): bool
+```
 
-Видаляє краї, які є кольором фону із зображенням. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або
-старше.
+Видаляє краї, які є кольором фону із зображенням. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
 `fuzz`
-За замовчуванням ціль повинна точно відповідати певному кольору
-пікселя. Однак у багатьох випадках два кольори можуть незначно
-відрізнятиметься. Розмитий елемент зображення визначає, наскільки
-допустимо, щоб два кольори вважалися однаковими. Цей параметр
-є зміною квантового діапазону.
+
+За замовчуванням ціль повинна точно відповідати певному кольору пікселя. Однак у багатьох випадках два кольори можуть трохи відрізнятися. Розмитий елемент зображення визначає, наскільки допустимо, щоб два кольори вважалися однаковими. Цей параметр є зміною квантового діапазону.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -38,17 +41,26 @@ public **Imagick::trimImage**(float `$fuzz`): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::trimImage()**:**
+**Приклад #1 Приклад використання **Imagick::trimImage()****
 
 Обріжте зображення, а потім відобразіть у браузері.
 
-` <?php/* Створіть об'єкт і прочитайте зображення в */$im = new Imagick("image.jpg");/* Обріжте зображення. */$im->trimImage(0);/* Виведіть зображення */header("Content-Type: image/" . $im->getImageFormat());echo $im;?> `
+```php
+<?php
+/* Создайте объект и прочитайте изображение в */
+$im = new Imagick("image.jpg");
+
+/* Обрежьте изображение. */
+$im->trimImage(0);
+
+/* Выведите изображение */
+header("Content-Type: image/" . $im->getImageFormat());
+echo $im;
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::getQuantumDepth()](imagick.getquantumdepth.md) -
-Повертає величину глибини
-- [Imagick::getQuantumRange()](imagick.getquantumrange.md) -
-Повертає величину розміру спектру Imagick
-- [imagecropauto()](function.imagecropauto.md) - Обрізає
-зображення автоматично, використовуючи один із доступних режимів
+-   [Imagick::getQuantumDepth()](imagick.getquantumdepth.html) - Повертає величину глибини
+-   [Imagick::getQuantumRange()](imagick.getquantumrange.html) - Повертає величину розміру спектру Imagick
+-   [imagecropauto()](function.imagecropauto.html) - Обрізає зображення автоматично, використовуючи один із доступних режимів

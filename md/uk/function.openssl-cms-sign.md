@@ -1,69 +1,74 @@
-- [« openssl_cms_read](function.openssl-cms-read.md)
-- [openssl_cms_verify »](function.openssl-cms-verify.md)
+Підписує файл
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Підписує файл
+-   [« openssl\_cms\_read](function.openssl-cms-read.html)
+    
+-   [openssl\_cms\_verify »](function.openssl-cms-verify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Підписує файл
+    
 
-# openssl_cms_sign
+# opensslcmssign
 
 (PHP 8)
 
-openssl_cms_sign — Підписує файл
+opensslcmssign — Підписує файл
 
 ### Опис
 
-**openssl_cms_sign**(
-string `$input_filename`,
-string `$output_filename`,
-[OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`,
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$private_key`,
-?array `$headers`,
-int `$flags` = 0,
-int `$encoding` = **`OPENSSL_ENCODING_SMIME`**,
-?string `$untrusted_certificates_filename` = **`null`**
-): bool
+```methodsynopsis
+openssl_cms_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    ?string $untrusted_certificates_filename = null): bool
+```
 
 Підписує файл сертифікатом X.509 та ключем.
 
 ### Список параметрів
 
 `input_filename`
+
 Назва файлу для підпису.
 
 `output_filename`
+
 Ім'я файлу для збереження результатів.
 
 `certificate`
-Сертифікат підпису. Дивіться [параметри ключа/сертифіката](openssl.certparams.md) для отримання списку
-допустимих значень.
+
+Сертифікат підпису. Дивіться [параметры ключа/сертификата](openssl.certparams.html) для отримання списку припустимих значень.
 
 `private_key`
-Ключ, пов'язаний із `certificate`. Дивіться [параметри ключа/сертифіката](openssl.certparams.md) для отримання списку
-допустимих значень.
+
+Ключ, пов'язаний з `certificate`. Дивіться [параметры ключа/сертификата](openssl.certparams.html) для отримання списку припустимих значень.
 
 `headers`
+
 Масив заголовків для включення виведення S/MIME.
 
 `flags`
-Прапори, які передаються **cms_sign()**.
+
+Прапори, що передаються **cmssign()**
 
 `encoding`
-Кодування вихідного файлу. **`OPENSSL_ENCODING_SMIME`**,
-**`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**.
+
+Кодування вихідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**
 
 `untrusted_certificates_filename`
+
 Проміжні сертифікати, що включаються до підпису.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **openssl_cms_sign()****
+**Приклад #1 Приклад використання **opensslcmssign()****
 
-` <?phpopenssl_cms_sign('input.txt', 'output.txt', 'file://cert.pem', 'file://privkey.pem', null, OPENSSL_CMS_BINARY, OPENSSL_ENCODING_DER, 'chain.p ?> `
+```php
+<?php
+openssl_cms_sign('input.txt', 'output.txt', 'file://cert.pem', 'file://privkey.pem', null, OPENSSL_CMS_BINARY, OPENSSL_ENCODING_DER, 'chain.pem');
+?>
+```

@@ -1,59 +1,69 @@
-- [«xdiff_file_bdiff_size](function.xdiff-file-bdiff-size.md)
-- [xdiff_file_bpatch »](function.xdiff-file-bpatch.md)
+Створити бінарний патч порівнюючи два файли
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Створити бінарний патч порівнюючи два файли
+-   [« xdiff\_file\_bdiff\_size](function.xdiff-file-bdiff-size.html)
+    
+-   [xdiff\_file\_bpatch »](function.xdiff-file-bpatch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции xdiff](ref.xdiff.html)
+    
+-   Створити бінарний патч порівнюючи два файли
+    
 
-#xdiff_file_bdiff
+# xdifffilebdiff
 
-(PECL xdiff \>= 1.5.0)
+(PECL xdiff >= 1.5.0)
 
-xdiff_file_bdiff — Створити бінарний патч порівнюючи два файли
+xdifffilebdiff — Створити бінарний патч порівнюючи два файли
 
 ### Опис
 
-**xdiff_file_bdiff**(string `$old_file`, string `$new_file`, string
-`$dest`): bool
+```methodsynopsis
+xdiff_file_bdiff(string $old_file, string $new_file, string $dest): bool
+```
 
-Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює
-як з бінарними, і з текстовими файлами. Надалі, отриманий
-патч можна застосувати за допомогою функцій
-[xdiff_file_bpatch()](function.xdiff-file-bpatch.md)/[xdiff_string_bpatch()](function.xdiff-string-bpatch.md).
+Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.html)[xdiff\_string\_bpatch()](function.xdiff-string-bpatch.html)
 
 ### Список параметрів
 
 `old_file`
+
 Шлях до першого, "старого" файлу.
 
 `new_file`
+
 Шлях до другого, "нового" файлу.
 
 `dest`
-Шлях результуючого файлу патчу. Він буде містити різницю між
-старим та новим файлом у бінарному, людинонечитаному форматі.
+
+Шлях результуючого файлу патчу. Він міститиме різницю між старим і новим файлом у бінарному, человеконечитаемом форматі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_file_bdiff()****
+**Приклад #1 Приклад використання **xdifffilebdiff()****
 
 Наступний код створює бінарний патч.
 
-` <?php$old_version = 'my_script_1.0.tgz';$new_version = 'my_script_1.1.tgz';xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');?> `
+```php
+<?php
+$old_version = 'my_script_1.0.tgz';
+$new_version = 'my_script_1.1.tgz';
+
+xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр
-> memory_limit налаштовано коректно.
+> **Зауваження**
+> 
+> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр memorylimit налаштовано коректно.
 
 ### Дивіться також
 
-- [xdiff_file_bpatch()](function.xdiff-file-bpatch.md) - Застосувати
-бінарний патч до файлу
+-   [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.html) - Застосувати бінарний патч до файлу

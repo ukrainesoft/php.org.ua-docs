@@ -1,32 +1,34 @@
-- [«dcgettext](function.dcgettext.md)
-- [dgettext »](function.dgettext.md)
+Версія dcgettext для множини
 
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Версія dcgettext для множини
+-   [« dcgettext](function.dcgettext.html)
+    
+-   [dgettext »](function.dgettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции gettext](ref.gettext.html)
+    
+-   Версія dcgettext для множини
+    
 
-#dcngettext
+# dcngettext
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
 dcngettext — Версія dcgettext для множини
 
 ### Опис
 
-**dcngettext**(
-string `$domain`,
-string `$singular`,
-string `$plural`,
-int `$count`,
-int `$category`
-): string
+```methodsynopsis
+dcngettext(    string $domain,    string $singular,    string $plural,    int $count,    int $category): string
+```
 
-Ця функція дозволяє перевизначити одне повідомлення за допомогою
-множини в поточному домені.
+Ця функція дозволяє перевизначити одне повідомлення з використанням множини в поточному домені.
 
 ### Список параметрів
 
 `domain`
+
 Домен.
 
 `singular`
@@ -43,5 +45,4 @@ int `$category`
 
 ### Дивіться також
 
-- [ngettext()](function.ngettext.md) - Версія gettext для повідомлень
-у множині
+-   [ngettext()](function.ngettext.html) - Версія gettext для повідомлень у множині

@@ -1,23 +1,29 @@
-- [« Swoole\Process::\_\_destruct](swoole-process.destruct.md)
-- [Swoole\Process::exit »](swoole-process.exit.md)
+Виконує системні команди
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Виконує системні команди
+-   [« Swoole\\Process::\_\_destruct](swoole-process.destruct.html)
+    
+-   [Swoole\\Process::exit »](swoole-process.exit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Виконує системні команди
+    
 
-# Swoole\Process::exec
+# SwooleProcess::exec
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::exec — Виконує системні команди
+SwooleProcess::exec — Виконує системні команди
 
 ### Опис
 
-public **Swoole\Process::exec**(string `$exec_file`, string `$args`):
-ReturnType
+```methodsynopsis
+public Swoole\Process::exec(string $exec_file, string $args): ReturnType
+```
 
-Процес буде замінено на системний командний процес, але канал до
-батьківського процесу буде збережено.
+Процес буде замінено на системний командний процес, на канал до батьківського процесу буде збережено.
 
 ### Список параметрів
 

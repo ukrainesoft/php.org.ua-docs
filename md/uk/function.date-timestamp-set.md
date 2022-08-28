@@ -1,18 +1,22 @@
-- [« date_timestamp_get](function.date-timestamp-get.md)
-- [date_timezone_get »](function.date-timezone-get.md)
+Псевдонім DateTime::setTimestamp
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::setTimestamp
+-   [« date\_timestamp\_get](function.date-timestamp-get.html)
+    
+-   [date\_timezone\_get »](function.date-timezone-get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTime::setTimestamp
+    
 
-#date_timestamp_set
+# datetimestampset
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-date_timestamp_set - Псевдонім
-[DateTime::setTimestamp()](datetime.settimestamp.md)
+datetimestampset - Псевдонім [DateTime::setTimestamp()](datetime.settimestamp.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTime::setTimestamp()](datetime.settimestamp.md)
+Ця функція є псевдонімом: [DateTime::setTimestamp()](datetime.settimestamp.html)

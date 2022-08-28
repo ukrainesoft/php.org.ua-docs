@@ -1,15 +1,21 @@
-- [«Вступ](intro.sqlite3.md)
-- [Вимоги »](sqlite3.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [SQLite3](book.sqlite3.md)
+-   [« Введение](intro.sqlite3.html)
+    
+-   [Требования »](sqlite3.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SQLite3](book.sqlite3.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](sqlite3.requirements.md)
-- [Установка](sqlite3.installation.md)
-- [Налаштування під час виконання](sqlite3.configuration.md)
-- [Типи ресурсів](sqlite3.resources.md)
+-   [Требования](sqlite3.requirements.html)
+-   [Установка](sqlite3.installation.html)
+-   [Настройка во время выполнения](sqlite3.configuration.html)
+-   [Типы ресурсов](sqlite3.resources.html)

@@ -1,32 +1,33 @@
-- [« PDOStatement::closeCursor](pdostatement.closecursor.md)
-- [PDOStatement::debugDumpParams »](pdostatement.debugdumpparams.md)
+Повертає кількість стовпців у результуючому наборі
 
-- [PHP Manual](index.md)
-- [PDOStatement](class.pdostatement.md)
-- Повертає кількість стовпців у результуючому наборі
+-   [« PDOStatement::closeCursor](pdostatement.closecursor.html)
+    
+-   [PDOStatement::debugDumpParams »](pdostatement.debugdumpparams.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDOStatement](class.pdostatement.html)
+    
+-   Повертає кількість стовпців у результуючому наборі
+    
 
 # PDOStatement::columnCount
 
-(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
+(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)
 
-PDOStatement::columnCount — Повертає кількість стовпців у
-результуючому наборі
+PDOStatement::columnCount — Повертає кількість стовпців у результуючому наборі
 
 ### Опис
 
-public **PDOStatement::columnCount**(): int
+```methodsynopsis
+public PDOStatement::columnCount(): int
+```
 
-Використовуйте **PDOStatement::columnCount()**, щоб дізнатися кількість
-стовпців у результуючому наборі, який представляє об'єкт
-PDOStatement.
+Використовуйте **PDOStatement::columnCount()**, щоб дізнатися кількість стовпців у результуючому наборі, який представляє об'єкт PDOStatement.
 
-Якщо об'єкт PDOStatement був повернутий з методу
-[PDO::query()](pdo.query.md), число стовпців можна дізнатися відразу.
+Якщо об'єкт PDOStatement був повернутий з методу [PDO::query()](pdo.query.html), Число стовпців можна дізнатися відразу ж.
 
-Якщо об'єкт PDOStatement був повернутий з методу
-[PDO::prepare()](pdo.prepare.md), точну кількість стовпців можна
-буде дізнатися тільки після запуску методу
-[PDOStatement::execute()](pdostatement.execute.md).
+Якщо об'єкт PDOStatement був повернутий з методу [PDO::prepare()](pdo.prepare.html)Точну кількість стовпців можна буде дізнатися тільки після запуску методу [PDOStatement::execute()](pdostatement.execute.html)
 
 ### Список параметрів
 
@@ -34,31 +35,42 @@ PDOStatement.
 
 ### Значення, що повертаються
 
-Повертає кількість стовпців у результуючому наборі запиту
-PDOStatement, навіть якщо він порожній. Якщо результуючого набору немає,
-**PDOStatement::columnCount()** повертає `0`.
+Повертає кількість стовпців у результуючому наборі запиту PDOStatement, навіть якщо він порожній. Якщо результуючого набору немає, **PDOStatement::columnCount()** повертає `0`
 
 ### Приклади
 
 **Приклад #1 Підрахунок стовпців**
 
-У цьому прикладі показано, як **PDOStatement::columnCount()** працює в
-у разі наявності та відсутності результуючого набору.
+У цьому прикладі показано, як **PDOStatement::columnCount()** працює у разі наявності та відсутності результуючого набору.
 
-` <?php$dbh = new PDO('odbc:sample', 'db2inst1', 'ibmdb2');$sth = $dbh->prepare("SELECT name, colour FROM fruit");/* Поліц (неіснуючому) результуючому наборі */$colcount = $sth->columnCount();print("Перед викликом execute(), в результуючому наборі $colcount стовпців (повинно бути  
-");$sth->execute();/* Підрахунок кількості стовпців в результуючому наборі */$colcount = $sth->columnCount();print("Після виклику execute(),ж| 2)
-");?> `
+```php
+<?php
+$dbh = new PDO('odbc:sample', 'db2inst1', 'ibmdb2');
+
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+
+/* Подсчёт количества столбцов в (несуществующем) результирующем наборе */
+$colcount = $sth->columnCount();
+print("Перед вызовом execute(), в результирующем наборе $colcount столбцов (должно быть 0)\n");
+
+$sth->execute();
+
+/* Подсчёт количества столбцов в результирующем наборе */
+$colcount = $sth->columnCount();
+print("После вызова execute(), в результирующем наборе $colcount столбцов (должно быть 2)\n");
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-Перед викликом execute(), у результуючому наборі 0 стовпців (має бути 0)
-Після виклику execute(), у результуючому наборі 2 стовпчиків (має бути 2)
+```
+Перед вызовом execute(), в результирующем наборе 0 столбцов (должно быть 0)
+После вызова execute(), в результирующем наборе 2 столбцов (должно быть 2)
+```
 
 ### Дивіться також
 
-- [PDO::prepare()](pdo.prepare.md) - Підготовка запиту до
-виконання та повертає пов'язаний з цим запитом об'єкт
-- [PDOStatement::execute()](pdostatement.execute.md) - Запускає
-підготовлений запит на виконання
-- [PDOStatement::rowCount()](pdostatement.rowcount.md) - Повертає
-кількість рядків, порушених останнім SQL-запитом
+-   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
+-   [PDOStatement::rowCount()](pdostatement.rowcount.html) - Повертає кількість рядків, порушених останнім SQL-запитом

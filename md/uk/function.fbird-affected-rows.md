@@ -1,24 +1,27 @@
-- [«fbird_add_user](function.fbird-add-user.md)
-- [fbird_backup»](function.fbird-backup.md)
+Псевдонім ibaseaffectedrows
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_affected_rows
+-   [« fbird\_add\_user](function.fbird-add-user.html)
+    
+-   [fbird\_backup »](function.fbird-backup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseaffectedrows
+    
 
-#fbird_affected_rows
+# fbirdaffectedrows
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_affected_rows - Псевдонім
-[ibase_affected_rows()](function.ibase-affected-rows.md)
+fbirdaffectedrows - Псевдонім [ibase\_affected\_rows()](function.ibase-affected-rows.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_affected_rows()](function.ibase-affected-rows.md).
+Ця функція є псевдонімом: [ibase\_affected\_rows()](function.ibase-affected-rows.html)
 
 ### Дивіться також
 
-- [fbird_query()](function.fbird-query.md) - Псевдонім ibase_query
-- [fbird_execute()](function.fbird-execute.md) - Псевдонім
-ibase_execute
+-   [fbird\_query()](function.fbird-query.html) - Псевдонім ibasequery
+-   [fbird\_execute()](function.fbird-execute.html) - Псевдонім ibaseexecute

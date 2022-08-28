@@ -1,26 +1,34 @@
-- [« Ds\Deque::first](ds-deque.first.md)
-- [Ds\Deque::insert »](ds-deque.insert.md)
+Повертає значення за індексом
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає значення за індексом
+-   [« Ds\\Deque::first](ds-deque.first.html)
+    
+-   [Ds\\Deque::insert »](ds-deque.insert.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає значення за індексом
+    
 
-# Ds\Deque::get
+# ДсDeque::get
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::get — Повертає значення за індексом
+ДсDeque::get — Повертає значення за індексом
 
 ### Опис
 
-public **Ds\Deque::get**(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::get(int $index): mixed
+```
 
 Повертає значення за заданим індексом.
 
 ### Список параметрів
 
 `index`
+
 Індекс. Перший елемент має індекс 0.
 
 ### Значення, що повертаються
@@ -29,29 +37,46 @@ public **Ds\Deque::get**(int `$index`):
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md), якщо індекс
-некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::get()****
+**Приклад #1 Приклад використання **ДсDeque::get()****
 
-` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque->get(0));var_dump($deque->get(1) );var_dump($deque->get(2));?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
-Результатом виконання цього прикладу буде щось подібне:
-
-string(1) "a"
-string(1) "b"
-string(1) "c"
-
-**Приклад #2 Приклад використання **Ds\Deque::get()** із синтаксисом
-масиву**
-
-` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque[0]);var_dump($deque[1]);var_dump($deque [2]);?> `
+var_dump($deque->get(0));
+var_dump($deque->get(1));
+var_dump($deque->get(2));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "a"
 string(1) "b"
 string(1) "c"
+```
+
+**Приклад #2 Приклад використання **ДсDeque::get()** із синтаксисом масиву**
+
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c"]);
+
+var_dump($deque[0]);
+var_dump($deque[1]);
+var_dump($deque[2]);
+?>
+```
+
+Результатом виконання цього прикладу буде щось подібне:
+
+```
+string(1) "a"
+string(1) "b"
+string(1) "c"
+```

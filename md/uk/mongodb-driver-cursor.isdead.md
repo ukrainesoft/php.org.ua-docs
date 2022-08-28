@@ -1,52 +1,40 @@
-- [« MongoDB\Driver\Cursor::getServer](mongodb-driver-cursor.getserver.md)
-- [MongoDB\Driver\Cursor::key »](mongodb-driver-cursor.key.md)
+Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- Перевіряє, чи курсор вичерпано чи може містити додаткові
-результати
+-   [« MongoDB\\Driver\\Cursor::getServer](mongodb-driver-cursor.getserver.html)
+    
+-   [MongoDB\\Driver\\Cursor::key »](mongodb-driver-cursor.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+    
+-   Перевіряє, чи курсор вичерпано чи може містити додаткові результати.
+    
 
-# MongoDB\Driver\Cursor::isDead
+# MongoDBDriverCursor::isDead
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\Cursor::isDead — Перевіряє, чи вичерпано курсор чи може
-містити додаткові результати
+MongoDBDriverCursor::isDead — Перевіряє, чи курсор вичерпано, чи може містити додаткові результати.
 
 ### Опис
 
-final public **MongoDB\Driver\Cursor::isDead**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Cursor::isDead(): bool
+```
 
-Перевіряє, чи у курсора немає додаткових результатів. Цей метод
-аналогічний методу
-[» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/)
-в оболонці MongoDB і насамперед корисний при виконанні ітерації
-[»хвостових курсорів](https://www.mongodb.com/docs/manual/core/tailable-cursors/).
+Перевіряє, чи немає курсора додаткових результатів. Цей метод аналогічний методу [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) в оболонці MongoDB і насамперед корисний при виконанні ітерації [» хвостовых курсоров](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
 
-Курсор не має додаткових результатів і вважається "мертвим", якщо
-виконується одна з наступних умов:
+Курсор не має додаткових результатів і вважається "мертвим", якщо виконується одна з наступних умов:
 
-- Поточний пакет повністю повторений *і* ідентифікатор курсора дорівнює
-нулю (тобто
-[» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/)
-може бути виконаний).
-- Сталася помилка під час ітерації курсору.
-- Курсор досяг своєї встановленої межі.
+-   Поточний пакет повністю повторений *і* ідентифікатор курсору дорівнює нулю (тобто [» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/) не може бути виконаний).
+-   Сталася помилка під час ітерації курсору.
+-   Курсор досяг своєї встановленої межі.
 
-Умисно не завжди можна визначити, чи має курсор
-додаткові результати. Випадки, коли курсор може мати більше
-доступних даних:
+Навмисно не завжди можна визначити, чи курсор має додаткові результати. Випадки, коли курсор *може* мати більше доступних даних, такі:
 
-- У поточному пакеті є додаткові документи, які
-буферизуються за клієнта. Ітерація витягне документ з
-локальний буфер.
-- У поточному пакеті немає додаткових документів (тобто локального
-буфера), але ідентифікатор курсору не дорівнює нулю. Ітерація буде
-запитувати більше документів із сервера за допомогою операції
-[» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/),
-яка може повертати чи не повертати додаткові результати
-та/або вказувати, що курсор був закритий на сервері, повертаючи нуль
-для його ідентифікатора.
+-   У поточному пакеті є додаткові документи, які буферизуються за клієнта. Ітерація витягне документ із локального буфера.
+-   У пакеті немає додаткових документів (тобто локального буфера), але ідентифікатор курсору не дорівнює нулю. Ітерація вимагатиме більше документів із сервера за допомогою операції [» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/)яка може повертати або не повертати додаткові результати та/або вказувати, що курсор був закритий на сервері, повертаючи нуль для його ідентифікатора.
 
 ### Список параметрів
 
@@ -54,30 +42,57 @@ final public **MongoDB\Driver\Cursor::isDead**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо курсор не містить жодних додаткових
-результатів і **`false`** інакше.
+Повертає **`true`**, якщо курсор не містить жодних додаткових результатів та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\Driver\Cursor::isDead()****
+**Приклад #1 Приклад використання **MongoDBDriverCursor::isDead()****
 
-` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$query = new MongoDB\Driver\Query([]);$bulk = new MongoDB\Driver\BulkWrite; bulk->insert(['x' => 1]);$bulk->insert(['x' => 2]);$bulk->insert(['x' => 3]);$manager- >executeBulkWrite('db.collection', $bulk);$cursor==$manager->executeQuery('db.collection', $query);$iterator = new IteratorIterator($cursor);$iterator->rewind(); var_dump($cursor->isDead());$iterator->next();var_dump($cursor->isDead());$iterator->next();var_dump($cursor->isDead());$ iterator->next();var_dump($cursor->isDead());?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$query = new MongoDB\Driver\Query([]);
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$bulk->insert(['x' => 2]);
+$bulk->insert(['x' => 3]);
+$manager->executeBulkWrite('db.collection', $bulk);
+
+$cursor = $manager->executeQuery('db.collection', $query);
+
+$iterator = new IteratorIterator($cursor);
+
+$iterator->rewind();
+var_dump($cursor->isDead());
+
+$iterator->next();
+var_dump($cursor->isDead());
+
+$iterator->next();
+var_dump($cursor->isDead());
+
+$iterator->next();
+var_dump($cursor->isDead());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(false)
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
-у посібнику MongoDB
-- [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/)
-у посібнику MongoDB
+-   [» Хвостовые курсоры](https://www.mongodb.com/docs/manual/core/tailable-cursors/) у посібнику MongoDB
+-   [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) у посібнику MongoDB

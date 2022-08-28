@@ -1,64 +1,58 @@
-- [« fann_create_standard_array](function.fann-create-standard-array.md)
-- [fann_create_train_from_callback »](function.fann-create-train-from-callback.md)
+Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Створює стандартну повністю підключену нейронну мережу зворотного
-поширення
+-   [« fann\_create\_standard\_array](function.fann-create-standard-array.html)
+    
+-   [fann\_create\_train\_from\_callback »](function.fann-create-train-from-callback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+    
 
-# fann_create_standard
+# fanncreatestandard
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_create_standard — Створює стандартну підключену повністю
-нейронну мережу зворотного розповсюдження
+fanncreatestandard — Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
 
 ### Опис
 
-**fann_create_standard**(
-int `$num_layers`,
-int `$num_neurons1`,
-int `$num_neurons2`,
-int `...$num_neuronsN`
-): resource
+```methodsynopsis
+fann_create_standard(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
+```
 
-Створює стандартну повністю підключену нейронну мережу зворотного
-поширення.
+Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження.
 
-У кожному шарі буде нейрон зміщення (крім вихідного шару), і цей
-нейрон усунення буде пов'язаний з усіма нейронами в наступному шарі. При
-роботі в мережі вузли усунення завжди видає 1.
+У кожному шарі буде зміщений нейрон (крім вихідного шару), і цей нейрон зміщення буде пов'язаний з усіма нейронами в наступному шарі. Працюючи в мережі вузли усунення завжди видає 1.
 
-Щоб знищити нейронну мережу, використовуйте функцію
-[fann_destroy()](function.fann-destroy.md).
+Щоб знищити нейронну мережу, скористайтеся функцією [fann\_destroy()](function.fann-destroy.html)
 
 ### Список параметрів
 
 `num_layers`
+
 Загальна кількість шарів, включаючи вхідний та вихідний шар.
 
 `num_neurons1`
+
 Кількість нейронів у першому шарі.
 
 `num_neurons2`
+
 Кількість нейронів у другому шарі.
 
 `num_neuronsN`
+
 Кількість нейронів у інших шарах.
 
 ### Значення, що повертаються
 
-Повертає ресурс нейронної мережі у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає ресурс нейронної мережі у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_create_standard_array()](function.fann-create-standard-array.md) -
-Створює стандартну повністю підключену нейронну мережу зворотного
-поширення, використовуючи масив розмірів шарів
-- [fann_create_sparse()](function.fann-create-sparse.md) - Створює
-стандартну нейронну мережу зворотного розповсюдження, яка не
-повністю підключена
-- [fann_create_shortcut()](function.fann-create-shortcut.md) -
-Створює стандартну нейронну мережу зворотного розповсюдження,
-яка не повністю підключена та має швидкі з'єднання
+-   [fann\_create\_standard\_array()](function.fann-create-standard-array.html) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження, використовуючи масив розмірів шарів
+-   [fann\_create\_sparse()](function.fann-create-sparse.html) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
+-   [fann\_create\_shortcut()](function.fann-create-shortcut.html) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання

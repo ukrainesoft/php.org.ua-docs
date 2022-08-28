@@ -1,33 +1,52 @@
-- [«EventHttpRequest::sendError](eventhttprequest.senderror.md)
-- [EventHttpRequest::sendReplyChunk »](eventhttprequest.sendreplychunk.md)
+Відправляє HTML-відповідь клієнту
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Відправляє HTML-відповідь клієнту
+-   [« EventHttpRequest::sendError](eventhttprequest.senderror.html)
+    
+-   [EventHttpRequest::sendReplyChunk »](eventhttprequest.sendreplychunk.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Відправляє HTML-відповідь клієнту
+    
 
 # EventHttpRequest::sendReply
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::sendReply — Відправляє HTML-відповідь клієнту
+EventHttpRequest::sendReply — Надсилає HTML-відповідь клієнту
 
 ### Опис
 
-public **EventHttpRequest::sendReply**( int `$code` , string `$reason` ,
-[EventBuffer](class.eventbuffer.md) `$buf` = ?): void
+```methodsynopsis
+public
+   EventHttpRequest::sendReply(
+    int
+     $code
+   , 
+    string
+     $reason
+   , 
+    EventBuffer
+     $buf
+    = ?): void
+```
 
-Відправляє HTML0відповідь клієнту. Тіло відповіді складається з даних у
-необов'язковому параметрі `buf`.
+Відправляє HTML0відповідь клієнту. Тіло відповіді складається з даних у необов'язковому параметрі `buf`
 
 ### Список параметрів
 
 `code`
+
 Код відповіді HTTP для надсилання.
 
 `reason`
+
 Коротке повідомлення, щоб надіслати код відповіді.
 
 `buf`
+
 Тіло відповіді.
 
 ### Значення, що повертаються
@@ -36,7 +55,5 @@ public **EventHttpRequest::sendReply**( int `$code` , string `$reason` ,
 
 ### Дивіться також
 
-- [EventHttpRequest::sendError()](eventhttprequest.senderror.md) -
-Надсилає HTML-повідомлення про помилку клієнту
-- [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) -
-Відправляє блок даних як частину поточної фрагментованої відповіді
+-   [EventHttpRequest::sendError()](eventhttprequest.senderror.html) - Надсилає HTML-повідомлення про помилку клієнту
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.html) - Відправляє блок даних, як частина поточної фрагментованої відповіді

@@ -1,76 +1,117 @@
-- [« openssl_spki_verify](function.openssl-spki-verify.md)
-- [openssl_x509_check_private_key »](function.openssl-x509-check-private-key.md)
+Звіряння сигнатури
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Звіряння сигнатури
+-   [« openssl\_spki\_verify](function.openssl-spki-verify.html)
+    
+-   [openssl\_x509\_check\_private\_key »](function.openssl-x509-check-private-key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Звіряння сигнатури
+    
 
-# openssl_verify
+# opensslverify
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-openssl_verify - Звірка сигнатури
+opensslverify - Звіряння сигнатури
 
 ### Опис
 
-**openssl_verify**(
-string `$data`,
-string `$signature`,
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$public_key`,
-string\|int `$algorithm` = **`OPENSSL_ALGO_SHA1`**
-): int\|false
+```methodsynopsis
+openssl_verify(    string $data,    string $signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): int|false
+```
 
-**openssl_verify()** перевіряє, що підпис `signature` коректний для
-даних `data` та відкритого ключа `public_key`. Відкритий ключ повинен
-відповідати закритому ключу, за допомогою якого генерувалася
-підпис.
+**opensslverify()** перевіряє, що підпис `signature` коректна для даних `data` та відкритого ключа `public_key`. Відкритий ключ повинен відповідати закритому ключу, за допомогою якого генерувався підпис.
 
 ### Список параметрів
 
 `data`
+
 Перевірені дані
 
 `signature`
-Необроблений бінарний рядок, створений функцією
-[openssl_sign()](function.openssl-sign.md) або її аналогом
+
+Необроблений бінарний рядок, створений функцією [openssl\_sign()](function.openssl-sign.html) або її аналогом
 
 `public_key`
-Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md),
-містить ключ, підготовлений
-[openssl_get_publickey()](function.openssl-get-publickey.md)
 
-Рядок із ключем у форматі PEM. Приблизно такого виду "-----BEGIN PUBLIC
-KEY----- MIIBCgK..."
+Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), що містить ключ, підготовлений [openssl\_get\_publickey()](function.openssl-get-publickey.html)
+
+Рядок із ключем у форматі PEM. Приблизно такого виду "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
 `algorithm`
-Ціле число, що відповідає одному з [алгоритмів підпису](openssl.signature-algos.md).
 
-Рядок, повернутий
-[openssl_get_md_methods()](function.openssl-get-md-methods.md),
-наприклад, "sha1WithRSAEncryption" або "sha512".
+Ціло число, що відповідає одному з [алгоритмов подписи](openssl.signature-algos.html)
+
+Рядок, повернутий [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html)наприклад "sha1WithRSAEncryption" або "sha512".
 
 ### Значення, що повертаються
 
-Повертає 1, якщо підпис коректний, 0, якщо ні -1 або **`false`**
-у разі виникнення помилки.
+Повертає 1, якщо підпис коректний, 0, якщо ні та -1 або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | public_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **openssl_verify()****
+**Приклад #1 Приклад використання **opensslverify()****
 
-`<?php//$$da і $signature містять дані і підпис відповідно// Витягує відкритий ключ із сертифіката і підготовляємо його$pubkeyid = openssl_opss Pem"); {   echo "Підпис некоректний";} else {    echo "Відбулася якась помилка, печаль :(";}//Видаляємо ключ з пам'ятіopenssl_free
+```php
+<?php
+// $data и $signature содержат данные и подпись соответственно
 
-**Приклад #2 Приклад використання **openssl_verify()****
+// Извлекает открытый ключ из сертификата и подготавливаем его
+$pubkeyid = openssl_pkey_get_public("file://src/openssl-0.9.6/demos/sign/cert.pem");
 
-` <?php//Данные для генерации подписи$data = 'my data';//Создаём новую пару открытый/закрытый ключ$private_key_res = openssl_pkey_new(array(    "private_key_bits" => 2048,    "private_key_type" => OPENSSL_KEYTYPE_RSA,)) ;$details = openssl_pkey_get_details($private_key_res);$public_key_res = openssl_pkey_get_public($details['key']);//Обчислюємо підписopenssl_sign($data, $; $2; openssl_verify($data, $signature, $public_key_res, OPENSSL_ALGO_SHA256);if ($ok == 1) {   echo "коректна";} oseif ($ok ==    | ".openssl_error_string();}?> `
+// Проверяем, корректна ли подпись
+$ok = openssl_verify($data, $signature, $pubkeyid);
+if ($ok == 1) {
+    echo "Подпись корректная";
+} elseif ($ok == 0) {
+    echo "Подпись некорректная";
+} else {
+    echo "Произошла какая-то ошибка, печаль :(";
+}
+// Удаляем ключ из памяти
+openssl_free_key($pubkeyid);
+?>
+```
+
+**Приклад #2 Приклад використання **opensslverify()****
+
+```php
+<?php
+//Данные для генерации подписи
+$data = 'my data';
+
+//Создаём новую пару открытый/закрытый ключ
+$private_key_res = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+));
+$details = openssl_pkey_get_details($private_key_res);
+$public_key_res = openssl_pkey_get_public($details['key']);
+
+//Вычисляем подпись
+openssl_sign($data, $signature, $private_key_res, "sha256WithRSAEncryption");
+
+//Сверяем подпись
+$ok = openssl_verify($data, $signature, $public_key_res, OPENSSL_ALGO_SHA256);
+if ($ok == 1) {
+    echo "корректна";
+} elseif ($ok == 0) {
+    echo "некорректна";
+} else {
+    echo "ошибка: ".openssl_error_string();
+}
+?>
+```
 
 ### Дивіться також
 
-- [openssl_sign()](function.openssl-sign.md) - Генерація підпису
+-   [openssl\_sign()](function.openssl-sign.html) - генерація підпису

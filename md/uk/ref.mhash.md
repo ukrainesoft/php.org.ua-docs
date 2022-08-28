@@ -1,19 +1,22 @@
-- [« Приклади](mhash.examples.md)
-- [mhash_count »](function.mhash-count.md)
+Функції Mhash
 
-- [PHP Manual](index.md)
-- [Mhash](book.mhash.md)
-- Функції Mhash
+-   [« Примеры](mhash.examples.html)
+    
+-   [mhash\_count »](function.mhash-count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mhash](book.mhash.html)
+    
+-   Функції Mhash
+    
 
 # Функції Mhash
 
 ## Зміст
 
-- [mhash_count](function.mhash-count.md) — Отримати найбільший
-доступний ідентифікатор хешу
-- [mhash_get_block_size](function.mhash-get-block-size.md) -
-Отримати розмір блоку для заданого хеша
-- [mhash_get_hash_name](function.mhash-get-hash-name.md) — Отримати
-ім'я вказаного хеша
-- [mhash_keygen_s2k](function.mhash-keygen-s2k.md) - Генерація ключа
-- [mhash](function.mhash.md) - Обчислює хеш
+-   [mhash\_count](function.mhash-count.html) — Отримати найбільш доступний ідентифікатор хешу
+-   [mhash\_get\_block\_size](function.mhash-get-block-size.html) — Отримати розмір блоку для заданого хеша
+-   [mhash\_get\_hash\_name](function.mhash-get-hash-name.html) — Отримати ім'я вказаного хеша
+-   [mhash\_keygen\_s2k](function.mhash-keygen-s2k.html) - Генерація ключа
+-   [mhash](function.mhash.html) - Обчислює хеш

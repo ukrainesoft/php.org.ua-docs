@@ -1,20 +1,27 @@
-- [« swoole_last_error](function.swoole-last-error.md)
-- [swoole_select »](function.swoole-select.md)
+Завантажити модуль swoole
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Завантажити модуль swoole
+-   [« swoole\_last\_error](function.swoole-last-error.html)
+    
+-   [swoole\_select »](function.swoole-select.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Завантажити модуль swoole
+    
 
-# swoole_load_module
+# swooleloadmodule
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_load_module — Завантажити модуль swoole
+swooleloadmodule — Завантажити модуль swoole
 
 ### Опис
 
-**swoole_load_module**(string `$filename`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+swoole_load_module(string $filename): mixed
+```
 
 ### Список параметрів
 

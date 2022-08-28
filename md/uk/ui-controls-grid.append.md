@@ -1,38 +1,36 @@
-- [«UI\Controls\Grid](class.ui-controls-grid.md)
-- [UI\Controls\Grid::isPadded »](ui-controls-grid.ispadded.md)
+Додати керуючий елемент
 
-- [PHP Manual](index.md)
-- [UI\Controls\Grid](class.ui-controls-grid.md)
-- Додати керуючий елемент
+-   [« UI\\Controls\\Grid](class.ui-controls-grid.html)
+    
+-   [UI\\Controls\\Grid::isPadded »](ui-controls-grid.ispadded.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Grid](class.ui-controls-grid.html)
+    
+-   Додати керуючий елемент
+    
 
-# UI\Controls\Grid::append
+# ОЙControlsGrid::append
 
 (UI 0.9.9)
 
-UI\Controls\Grid::append — Додати елемент керування
+ОЙControlsGrid::append — Додати елемент керування
 
 ### Опис
 
-public **UI\Controls\Grid::append**(
-[UI\Control](class.ui-control.md) `$control`,
-int `$left`,
-int `$top`,
-int `$xspan`,
-int `$yspan`,
-bool `$ hexpand`,
-int `$halign`,
-bool `$vexpand`,
-int `$valign`
-)
+```methodsynopsis
+public UI\Controls\Grid::append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `control`
+
 Елемент управління для додавання
 
 `left`

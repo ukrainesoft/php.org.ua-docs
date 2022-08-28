@@ -1,53 +1,64 @@
-- [« Yaf_Dispatcher::throwException](yaf-dispatcher.throwexception.md)
-- [Yaf_Config_Abstract::get »](yaf-config-abstract.get.md)
+Клас YafConfigAbstract
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Config_Abstract
+-   [« Yaf\_Dispatcher::throwException](yaf-dispatcher.throwexception.html)
+    
+-   [Yaf\_Config\_Abstract::get »](yaf-config-abstract.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafConfigAbstract
+    
 
-# Клас Yaf_Config_Abstract
+# Клас YafConfigAbstract
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-abstract class **Yaf_Config_Abstract** {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_config`;
+    
+    
+     
+      abstract
+      class Yaf_Config_Abstract
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $_config;
 
-protected `$_readonly`;
+    protected
+      $_readonly;
 
-/\* Методи \*/
 
-abstract public [get](yaf-config-abstract.get.md)(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-abstract public [readonly](yaf-config-abstract.readonly.md)(): bool
+    /* Методы */
+    
+   abstract public get(string $name, mixed $value): mixed
+abstract public readonly(): bool
+abstract public set(): Yaf_Config_Abstract
+abstract public toArray(): array
 
-abstract public [set](yaf-config-abstract.set.md)():
-[Yaf_Config_Abstract](class.yaf-config-abstract.md)
-
-abstract public [toArray](yaf-config-abstract.toarray.md)(): array
-
-}
+   }
+```
 
 ## Властивості
 
-`_config`
+config
 
-`_readonly`
+readonly
 
 ## Зміст
 
-- [Yaf_Config_Abstract::get](yaf-config-abstract.get.md) - Геттер
-- [Yaf_Config_Abstract::readonly](yaf-config-abstract.readonly.md) -
-Знаходить конфігурацію лише для читання
-- [Yaf_Config_Abstract::set](yaf-config-abstract.set.md) - Сеттер
-- [Yaf_Config_Abstract::toArray](yaf-config-abstract.toarray.md)
-Приведення до масиву
+-   [Yaf\_Config\_Abstract::get](yaf-config-abstract.get.html) - Геттер
+-   [Yaf\_Config\_Abstract::readonly](yaf-config-abstract.readonly.html) — Знаходить конфігурацію лише для читання
+-   [Yaf\_Config\_Abstract::set](yaf-config-abstract.set.html) - Сеттер
+-   [Yaf\_Config\_Abstract::toArray](yaf-config-abstract.toarray.html) - Приведення до масиву

@@ -1,44 +1,50 @@
-- [« trader_cdlmorningdojistar](function.trader-cdlmorningdojistar.md)
-- [trader_cdlonneck »](function.trader-cdlonneck.md)
+Ранкова зірка
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
+-   [« trader\_cdlmorningdojistar](function.trader-cdlmorningdojistar.html)
+    
+-   [trader\_cdlonneck »](function.trader-cdlonneck.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
 -   Ранкова зірка
+    
 
-# trader_cdlmorningstar
+# tradercdlmorningstar
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlmorningstar — Ранкова зірка
+tradercdlmorningstar - Ранкова зірка
 
 ### Опис
 
-**trader_cdlmorningstar**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`,
-float `$penetration` = ?
-): array
+```methodsynopsis
+trader_cdlmorningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `penetration`
+
 Відсоток проникнення однієї свічки всередині іншої свічки.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

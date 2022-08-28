@@ -1,26 +1,31 @@
-- [« mysqli::set_opt](function.mysqli-set-opt.md)
-- [Mysql_xdevapi »](book.mysql-xdevapi.md)
+список змін
 
-- [PHP Manual](index.md)
-- [MySQLi](book.mysqli.md)
--   Список змін
+-   [« mysqli::set\_opt](function.mysqli-set-opt.html)
+    
+-   [Mysql\_xdevapi »](book.mysql-xdevapi.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQLi](book.mysqli.html)
+    
+-   список змін
+    
 
-# Список змін
+# список змін
 
-Наступні зміни були зроблені з класами/функціями/методами
-даного модуля.
+Наступні зміни були здійснені з класами/функціями/методами даного модуля.
 
-| Version | Function                                                     | Description                                                                                                                                                          |
-| ------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0   | [mysqli_driver::$report_mode](mysqli-driver.report-mode.md)  | За замовчуванням встановлено значення MYSQLI_REPORT_ERROR \| MYSQLI_REPORT_STRICT. Раніше він був MYSQLI_REPORT_OFF.                                                 |
-|         | [mysqli_result::fetch_all](mysqli-result.fetch-all.md)       | Тепер також доступно при збиранні з libmysqlclient.                                                                                                                  |
-|         | [mysqli_stmt::execute](mysqli-stmt.execute.md)               | Додано необов'язковий параметр params.                                                                                                                               |
-|         | [mysqli_stmt::next_result](mysqli-stmt.next-result.md)       | Тепер також доступно при збиранні з libmysqlclient.                                                                                                                  |
-|         | [mysqli::$client_info](mysqli.get-client-info.md)            | Виклик функції mysqli_get_client_info із аргументом mysql застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
-|         | [mysqli::$client_info](mysqli.get-client-info.md)            | Об'єктно-орієнтований стиль виклику методу mysqli::get_client_info застарів.                                                                                         |
-|         | [mysqli::init](mysqli.init.md)                               | Об'єктно-орієнтований стиль виклику методу mysqli:: init застарів. Замініть виклик методу parent::init за допомогою parent::\_\_construct.                           |
-| 8.0.0   | [mysqli_result::fetch_object](mysqli-result.fetch-object.md) | constructor_args тепер приймає для конструкторів без параметрів; раніше викидався виняток.                                                                           |
-|         | [mysqli_stmt::\_\_construct](mysqli-stmt.construct.md)       | query тепер припускає значення null.                                                                                                                                 |
-|         | [mysqli::begin_transaction](mysqli.begin-transaction.md)     | name тепер припускає значення null.                                                                                                                                  |
-|         | [mysqli::commit](mysqli.commit.md)                           | name тепер припускає значення null.                                                                                                                                  |
-|         | [mysqli::rollback](mysqli.rollback.md)                       | name тепер припускає значення null.                                                                                                                                  |
+| Version | Function | Description |
+| --- | --- | --- |
+|  | [mysqli\_driver::$report\_mode](mysqli-driver.report-mode.html) | Тепер за замовчуванням встановлено значення MYSQLIREPORTERROR |
+|  | [mysqli\_result::fetch\_all](mysqli-result.fetch-all.html) | Тепер також доступно при збиранні з libmysqlclient. |
+|  | [mysqli\_stmt::execute](mysqli-stmt.execute.html) | Додано необов'язковий параметр params. |
+|  | [mysqli\_stmt::next\_result](mysqli-stmt.next-result.html) | Тепер також доступно при збиранні з libmysqlclient. |
+|  | [mysqli::$client\_info](mysqli.get-client-info.html) | Виклик функції mysqligetclientinfo з аргументом mysql застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
+|  | [mysqli::$client\_info](mysqli.get-client-info.html) | Об'єктно-орієнтований стиль виклику методу mysqli::getclientinfo застарів. |
+|  | [mysqli::init](mysqli.init.html) | Об'єктно-орієнтований стиль виклику методу mysqli::init застарів. Замініть виклик методу parent::init за допомогою parent::construct. |
+|  | [mysqli\_result::fetch\_object](mysqli-result.fetch-object.html) | constructorargs тепер приймає для конструкторів без параметрів; раніше викидався виняток. |
+|  | [mysqli\_stmt::\_\_construct](mysqli-stmt.construct.html) | query тепер припускає значення null. |
+|  | [mysqli::begin\_transaction](mysqli.begin-transaction.html) | name тепер припускає значення null. |
+|  | [mysqli::commit](mysqli.commit.html) | name тепер припускає значення null. |
+|  | [mysqli::rollback](mysqli.rollback.html) | name тепер припускає значення null. |

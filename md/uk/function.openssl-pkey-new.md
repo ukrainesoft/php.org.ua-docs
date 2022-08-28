@@ -1,57 +1,66 @@
-- [« openssl_pkey_get_public](function.openssl-pkey-get-public.md)
-- [openssl_private_decrypt »](function.openssl-private-decrypt.md)
+Генерує новий закритий ключ
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Генерує новий закритий ключ
+-   [« openssl\_pkey\_get\_public](function.openssl-pkey-get-public.html)
+    
+-   [openssl\_private\_decrypt »](function.openssl-private-decrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Генерує новий закритий ключ
+    
 
-#openssl_pkey_new
+# opensslpkeynew
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-openssl_pkey_new — Генерує новий закритий ключ
+opensslpkeynew — Генерує новий закритий ключ
 
 ### Опис
 
-**openssl_pkey_new**(?array `$options` = **`null`**):
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|false
+```methodsynopsis
+openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
+```
 
-**openssl_pkey_new()** створює новий закритий ключ. Як отримати
-відкриту частину ключа показано на прикладі нижче.
+**opensslpkeynew()** створює новий закритий ключ. Як отримати відкриту частину ключа показано на прикладі нижче.
 
-> **Примітка**: Для коректної роботи цієї функції має існувати
-> правильний `openssl.cnf`. Для більш детальної інформації дивіться
-> зауваження під розділом установки (openssl.installation.md).
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.html)
 
 ### Список параметрів
 
 `options`
-Ви можете налаштувати параметри генерації ключа (наприклад, вказати число
-біт) за допомогою `options`. Дивіться опис функції
-[openssl_csr_new()](function.openssl-csr-new.md) для детальної
-інформації про `options`.
+
+Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`. Дивіться опис функції [openssl\_csr\_new()](function.openssl-csr-new.html) для детальної інформації про `options`
 
 ### Значення, що повертаються
 
-Повертає екземпляр
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                             |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL key. |
-| 7.1.0  | Доданий ключ curve_name до option для забезпечення можливості створення EC ключів.                                                                                                               |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+|  | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів. |
 
 ### Приклади
 
 **Приклад #1 Отримати відкриту частину ключа із закритого ключа**
 
-` <?php$private_key = openssl_pkey_new();$public_key_pem = openssl_pkey_get_details($private_key)['key'];echo$public_key_pem;$public_key==openssl_p$
+```php
+<?php
+$private_key = openssl_pkey_new();
+$public_key_pem = openssl_pkey_get_details($private_key)['key'];
+echo $public_key_pem;
+$public_key = openssl_pkey_get_public($public_key_pem);
+var_dump($public_key);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArZFsmN2P6rx1Xt7YV95o
 gcdlal0k3ryiIhFNzjwtRNNTXfEfBr6lUuaIJYQ8/XqEBX0hpcfuuF6tTRlonA3t
@@ -62,3 +71,4 @@ MsmODsUwgAUrwnWKKx+eQUP5g3GnSB3dPkRh9zRVRiLNWbCugyjrf3e6DgQWrW7j
 pwIDAQAB
 -----END PUBLIC KEY-----
 resource(5) of type (OpenSSL key)
+```

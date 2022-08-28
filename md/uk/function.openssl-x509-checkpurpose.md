@@ -1,69 +1,67 @@
-- [« openssl_x509_check_private_key](function.openssl-x509-check-private-key.md)
-- [openssl_x509_export_to_file »](function.openssl-x509-export-to-file.md)
+Перевіряє, чи можна використовувати сертифікат для конкретних завдань
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Перевіряє, чи можна використовувати сертифікат для конкретних завдань
+-   [« openssl\_x509\_check\_private\_key](function.openssl-x509-check-private-key.html)
+    
+-   [openssl\_x509\_export\_to\_file »](function.openssl-x509-export-to-file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Перевіряє, чи можна використовувати сертифікат для конкретних завдань
+    
 
-# openssl_x509_checkpurpose
+# opensslx509checkpurpose
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_x509_checkpurpose — Перевіряє, чи можна використовувати сертифікат
-для конкретних завдань
+opensslx509checkpurpose — Перевіряє, чи можна використовувати сертифікат для конкретних завдань
 
 ### Опис
 
-**openssl_x509_checkpurpose**(
-[OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`,
-int `$purpose`,
-array `$ca_info` = [],
-?string `$untrusted_certificates_file` = **`null`**
-): bool\|int
+```methodsynopsis
+openssl_x509_checkpurpose(    OpenSSLCertificate|string $certificate,    int $purpose,    array $ca_info = [],    ?string $untrusted_certificates_file = null): bool|int
+```
 
-**openssl_x509_checkpurpose()** перевіряє сертифікат, щоб дізнатися,
-чи може він використовуватися із заданою метою `purpose`.
+**opensslx509checkpurpose()** перевіряє сертифікат, щоб дізнатися, чи він може використовуватися із заданою метою `purpose`
 
 ### Список параметрів
 
 `certificate`
+
 Сертифікат
 
 `purpose`
-| Константа Опис             |                                                             |
-|----------------------------|-------------------------------------------------------------|
-| X509_PURPOSE_SSL_CLIENT    | Чи можна використовувати сертифікат SSL на стороні клієнта? |
-| X509_PURPOSE_SSL_SERVER    | Чи можна використовувати сертифікат SSL на стороні сервера? |
-| X509_PURPOSE_NS_SSL_SERVER | Чи можна використовувати сервер Netscape SSL?               |
-| X509_PURPOSE_SMIME_SIGN    | Чи можна підписати S/MIME email?                            |
-| X509_PURPOSE_SMIME_ENCRYPT | Чи можна шифрувати S/MIME email?                            |
-| X509_PURPOSE_CRL_SIGN      | Чи можна підписувати список відгуків сертифікатів (CRL)?    |
-| X509_PURPOSE_ANY           | Чи можна використовувати будь-які завдання?                 |
 
-**Мета **openssl_x509_checkpurpose()****
+**Цілі **opensslx509checkpurpose()****
 
-Ці опції не є бінарною маскою - можна використовувати лише одне
-значення за раз!
+| Константа | Описание |
+| --- | --- |
+| X509PURPOSESSLCLIENT | Чи можна використовувати сертифікат для з'єднання SSL на стороні клієнта? |
+| X509PURPOSESSLSERVER | Чи можна використовувати сертифікат для з'єднання SSL на стороні сервера? |
+| X509PURPOSEНСSSLSERVER | Чи можна використовувати сервер Netscape SSL? |
+| X509PURPOSESMIMESIGN | Чи можна підписати S/MIME email? |
+| X509PURPOSESMIMEENCRYPT | Чи можна шифрувати S/MIME email? |
+| X509PURPOSECRLSIGN | Чи можна підписувати список відкликань сертифікатів (CRL)? |
+| X509PURPOSEANY | Чи можна використовувати будь-які завдання? |
+
+Ці опції не є бінарною маскою – можна використовувати лише одне значення за раз!
 
 `ca_info`
-`ca_info` повинен містити масив довірених CA файлів/директорій, як
-описано на сторінці [перевірки сертифікатів](openssl.cert.verification.md).
+
+`ca_info` повинен містити масив довірених CA файлів/директорій, як описано на сторінці [проверки сертификатов](openssl.cert.verification.html)
 
 `untrusted_certificates_file`
-Якщо задано, то має містити шлях до PEM-файлу, що містить
-сертифікати, які можуть бути використані для перевірки сертифіката,
-але не є при цьому довіреними.
+
+Якщо задано, то має містити шлях до PEM-файлу, що містить сертифікати, які можуть бути використані для перевірки сертифіката, але не є довіреними.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо сертифікат можна використовувати за вказаним
-призначенню, **`false`** - якщо не можна і -1 у разі виникнення
-помилки.
+Повертає **`true`**якщо сертифікат можна використовувати за вказаним призначенням, **`false`** - якщо не можна і -1 у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
-| 8.0.0  | untrusted_certificates_file тепер допускає значення null.                                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|  | `untrusted_certificates_file` тепер допускає значення null. |

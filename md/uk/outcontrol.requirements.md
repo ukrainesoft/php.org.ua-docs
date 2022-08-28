@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](outcontrol.setup.md)
-- [Встановлення »](outcontrol.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](outcontrol.setup.md)
-- Вимоги
+-   [« Установка и настройка](outcontrol.setup.html)
+    
+-   [Установка »](outcontrol.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](outcontrol.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

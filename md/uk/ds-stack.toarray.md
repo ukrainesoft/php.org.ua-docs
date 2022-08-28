@@ -1,24 +1,32 @@
-- [« Ds\Stack::push](ds-stack.push.md)
-- [Черга»](class.ds-queue.md)
+Перетворює колекцію на масив (array)
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Перетворює колекцію на масив (array)
+-   [« Ds\\Stack::push](ds-stack.push.html)
+    
+-   [Очередь »](class.ds-queue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Стек](class.ds-stack.html)
+    
+-   Перетворює колекцію на масив (array)
+    
 
-# Ds\Stack::toArray
+# ДсStack::toArray
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Stack::toArray — Перетворює колекцію на масив (array)
+ДсStack::toArray — Перетворює колекцію на масив (array)
 
 ### Опис
 
-public **Ds\Stack::toArray**(): array
+```methodsynopsis
+public Ds\Stack::toArray(): array
+```
 
 Перетворює колекцію на array.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Приведення до типу array поки що не підтримується.
 
 ### Список параметрів
@@ -27,22 +35,29 @@ public **Ds\Stack::toArray**(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи колекції із збереженням їх
-порядку.
+Масив (array), що містить всі елементи колекції із збереженням їхнього порядку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::toArray()****
+**Приклад #1 Приклад використання **ДсStack::toArray()****
 
-` <?php$stack = new \Ds\Stack([1, 2, 3]);var_dump($stack->toArray());?> `
+```php
+<?php
+$stack = new \Ds\Stack([1, 2, 3]);
+
+var_dump($stack->toArray());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(3) {
-[0]=>
-int(3)
-[1]=>
-int(2)
-[2]=>
-int(1)
+  [0]=>
+  int(3)
+  [1]=>
+  int(2)
+  [2]=>
+  int(1)
 }
+```

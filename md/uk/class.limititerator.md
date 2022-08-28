@@ -1,78 +1,102 @@
-- [« IteratorIterator::valid](iteratoriterator.valid.md)
-- [LimitIterator::\_\_construct »](limititerator.construct.md)
+Клас LimitIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас LimitIterator
+-   [« IteratorIterator::valid](iteratoriterator.valid.html)
+    
+-   [LimitIterator::\_\_construct »](limititerator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас LimitIterator
+    
 
 # Клас LimitIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас **LimitIterator** дозволяє зробити перебір обмеженого
-кількості елементів у [Iterator](class.iterator.md).
+Клас **LimitIterator** дозволяє зробити перебір обмеженої кількості елементів у [Iterator](class.iterator.html)
 
 ## Огляд класів
 
-class **LimitIterator** extends
-[IteratorIterator](class.iteratoriterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](limititerator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, int `$offset` = 0, int `$limit` = -1)
+    
+     
+      class LimitIterator
+     
 
-public [current](limititerator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     
+      extends
+       IteratorIterator
+     
+     {
 
-public [getInnerIterator](limititerator.getinneriterator.md)():
-[Iterator](class.iterator.md)
+    /* Методы */
+    
+   public __construct(Iterator $iterator, int $offset = 0, int $limit = -1)
 
-public [getPosition](limititerator.getposition.md)(): int
+    public current(): mixed
+public getInnerIterator(): Iterator
+public getPosition(): int
+public key(): mixed
+public next(): void
+public rewind(): void
+public seek(int $offset): int
+public valid(): bool
 
-public [key](limititerator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [next](limititerator.next.md)(): void
+    /* Наследуемые методы */
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [rewind](limititerator.rewind.md)(): void
-
-public [seek](limititerator.seek.md)(int `$offset`): int
-
-public [valid](limititerator.valid.md)(): bool
-
-/\* Наслідувані методи \*/
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Приклади
 
 **Приклад #1 Приклад використання **LimitIterator****
 
-` <?php// Создать итератор для ограничения$fruits = new ArrayIterator(array(    'apple',    'banana',    'cherry',    'damson',    'elderberry'));// Цикл только по первым трём фруктамforeach (new LimitIterator($fruits, 0, 3) as $fruit) {   var_dump($fruit);}echo "
-";// Цикл, починаючи з третього фрукта і до кінця// Примітка: зміщення починається з нуля для яблукаforeach (new LimitIterator($fruits, 2)                 ¦¦¦
+```php
+<?php
+
+// Создать итератор для ограничения
+$fruits = new ArrayIterator(array(
+    'apple',
+    'banana',
+    'cherry',
+    'damson',
+    'elderberry'
+));
+
+// Цикл только по первым трём фруктам
+foreach (new LimitIterator($fruits, 0, 3) as $fruit) {
+    var_dump($fruit);
+}
+
+echo "\n";
+
+// Цикл, начиная с третьего фрукта и до конца
+// Примечание: смещение начинается с нуля для яблока
+foreach (new LimitIterator($fruits, 2) as $fruit) {
+    var_dump($fruit);
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(5) "apple"
 string(6) "banana"
 string(6) "cherry"
@@ -80,24 +104,16 @@ string(6) "cherry"
 string(6) "cherry"
 string(6) "damson"
 string(10) "elderberry"
+```
 
 ## Зміст
 
-- [LimitIterator::\_\_construct](limititerator.construct.md) -
-Конструктор класу LimitIterator
-- [LimitIterator::current](limititerator.current.md) - Отримання
-поточного елемента
-- [LimitIterator::getInnerIterator](limititerator.getinneriterator.md)
-— Отримання внутрішнього об'єкта-ітератора
-- [LimitIterator::getPosition](limititerator.getposition.md) -
-Повертає поточну позицію
-- [LimitIterator::key](limititerator.key.md) — Отримання поточного
-ключа
-- [LimitIterator::next](limititerator.next.md) - Переміщення до
-наступної позиції
-- [LimitIterator::rewind](limititerator.rewind.md) — Переміщує
-вказівник на початкову позицію
-- [LimitIterator::seek](limititerator.seek.md) - Переміщує ітератор
-на задану позицію
-- [LimitIterator::valid](limititerator.valid.md) — Перевіряє
-валідність поточного елемента
+-   [LimitIterator::\_\_construct](limititerator.construct.html) - Конструктор класу LimitIterator
+-   [LimitIterator::current](limititerator.current.html) — Отримання поточного елемента
+-   [LimitIterator::getInnerIterator](limititerator.getinneriterator.html) — Отримання внутрішнього об'єкта-ітератора
+-   [LimitIterator::getPosition](limititerator.getposition.html) — Повертає поточну позицію
+-   [LimitIterator::key](limititerator.key.html) — Отримання поточного ключа
+-   [LimitIterator::next](limititerator.next.html) — Переміщення до наступної позиції
+-   [LimitIterator::rewind](limititerator.rewind.html) — Переміщує покажчик на початкову позицію
+-   [LimitIterator::seek](limititerator.seek.html) - Переміщає ітератор на задану позицію
+-   [LimitIterator::valid](limititerator.valid.html) - Перевіряє валідність поточного елемента

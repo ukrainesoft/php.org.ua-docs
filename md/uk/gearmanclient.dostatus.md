@@ -1,23 +1,29 @@
-- [« GearmanClient::doNormal](gearmanclient.donormal.md)
-- [GearmanClient::echo »](gearmanclient.echo.md)
+Отримання статусу завдання, що виконується
 
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Отримання статусу завдання, що виконується
+-   [« GearmanClient::doNormal](gearmanclient.donormal.html)
+    
+-   [GearmanClient::echo »](gearmanclient.echo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanClient](class.gearmanclient.html)
+    
+-   Отримання статусу завдання, що виконується
+    
 
 # GearmanClient::doStatus
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanClient::doStatus — Отримання статусу завдання, що виконується
 
 ### Опис
 
-public **GearmanClient::doStatus**(): array
+```methodsynopsis
+public GearmanClient::doStatus(): array
+```
 
-Повертає статус обробки запущеного завдання. Цей метод викликається
-між викликами, що повторюються
-[GearmanClient::doNormal()](gearmanclient.donormal.md).
+Повертає статус обробки запущеного завдання. Цей метод викликається між викликами, що повторюються. [GearmanClient::doNormal()](gearmanclient.donormal.html)
 
 ### Список параметрів
 
@@ -25,42 +31,74 @@ public **GearmanClient::doStatus**(): array
 
 ### Значення, що повертаються
 
-Масив, що становить відсоткове відношення виконаної роботи. Перший
-елемент відповідає кількості оброблених чанків, другий - загальне
-кількість даних.
+Масив, що становить відсоткове відношення виконаної роботи. Перший елемент відповідає кількості оброблених чанків, другий – загальна кількість даних.
 
 ### Приклади
 
 **Приклад #1 Отримання стану виконання довгого завдання**
 
-У цьому прикладі в обробник, що перевертає рядок, впроваджено затримку,
-щоб змоделювати завдання, що довго виконується. Після кожної паузи
-обробник виконує [GearmanJob::status()](gearmanjob.status.md),
-результат якого підхоплюється клієнтом.
+У цьому прикладі в обробник, що перевертає рядок, впроваджена затримка, щоб змоделювати завдання, що довго виконується. Після кожної паузи обробник виконує [GearmanJob::status()](gearmanjob.status.html)результат якого підхоплюється клієнтом.
 
-`<?phpecho "Запуск
-";# Створюємо об'єкт клієнта.$gmclient= new GearmanClient();# Додаємо сервер за замовчуванням (localhost).$gmclient->addServer();echo "Відправка завдання
-";# Отправляем задание перевернуть строкуdo{  $result = $gmclient->doNormal("reverse", "Hello!");  # Проверяем, есть ли ошибки или готовые данные.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA :      break;    case GEARMAN_WORK_STATUS:      # получить статус выполнения задания      list($numerator, $denominator)= $gmclient->doStatus();      echo "Статус: $numerator/$denominator завершено
-";      break;    case GEARMAN_WORK_FAIL:      echo "Помилка
-";     exit;   case GEARMAN_SUCCESS:      break;    default:      echo "Код повернення: " . |
-";      exit;  }}while($gmclient->returnCode() != GEARMAN_SUCCESS);echo "Успішно: $result
-";?> `
+```php
+<?php
+
+echo "Запуск\n";
+
+# Создаём объект клиента.
+$gmclient= new GearmanClient();
+
+# Добавляем сервер по умолчанию (localhost).
+$gmclient->addServer();
+
+echo "Отправка задание\n";
+
+# Отправляем задание перевернуть строку
+do
+{
+  $result = $gmclient->doNormal("reverse", "Hello!");
+
+  # Проверяем, есть ли ошибки или готовые данные.
+  switch($gmclient->returnCode())
+  {
+    case GEARMAN_WORK_DATA:
+      break;
+    case GEARMAN_WORK_STATUS:
+      # получить статус выполнения задания
+      list($numerator, $denominator)= $gmclient->doStatus();
+      echo "Статус: $numerator/$denominator завершено\n";
+      break;
+    case GEARMAN_WORK_FAIL:
+      echo "Ошибка\n";
+      exit;
+    case GEARMAN_SUCCESS:
+      break;
+    default:
+      echo "Код возврата: " . $gmclient->returnCode() . "\n";
+      exit;
+  }
+}
+while($gmclient->returnCode() != GEARMAN_SUCCESS);
+
+echo "Успешно: $result\n";
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Запуск
-Надсилання завдання
-Стан: 1/6 завершено
-Стан: 2/6 завершено
-Стан: 3/6 завершено
-Стан: 4/6 завершено
-Стан: 5/6 завершено
-Стан: 6/6 завершено
-Успішно: !olleH
+Отправка задания
+Состояние: 1/6 завершено
+Состояние: 2/6 завершено
+Состояние: 3/6 завершено
+Состояние: 4/6 завершено
+Состояние: 5/6 завершено
+Состояние: 6/6 завершено
+Успешно: !olleH
+```
 
 ### Дивіться також
 
-- [GearmanClient::doNormal()](gearmanclient.donormal.md) - Виконує
-одиночне завдання та повертає результат
-- [GearmanJob::status()](gearmanjob.status.md) - Надсилання статусу
-завдання (застарілий метод)
+-   [GearmanClient::doNormal()](gearmanclient.donormal.html) - Виконує одиночне завдання та повертає результат
+-   [GearmanJob::status()](gearmanjob.status.html) - Надсилання статусу завдання (застарілий метод)

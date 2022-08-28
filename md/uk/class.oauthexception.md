@@ -1,72 +1,94 @@
-- [« OAuthProvider::tokenHandler](oauthprovider.tokenhandler.md)
-- [SOAP »](book.soap.md)
+Клас OAuthException
 
-- [PHP Manual](index.md)
-- [OAuth](book.oauth.md)
-- Клас OAuthException
+-   [« OAuthProvider::tokenHandler](oauthprovider.tokenhandler.html)
+    
+-   [SOAP »](book.soap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](book.oauth.html)
+    
+-   Клас OAuthException
+    
 
 # Клас OAuthException
 
-(PECL OAuth = 0.99.1)
+(PECL OAuth >= 0.99.1)
 
 ## Вступ
 
-Це виняток викидається у разі виникнення помилок при
-використання модуля OAuth і містить корисну налагоджувальну інформацію.
+Це виняток викидається у разі виникнення помилок під час використання модуля OAuth і містить корисну налагоджувальну інформацію.
 
 ## Огляд класів
 
-class **OAuthException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-public `$lastResponse`;
+    
+    
+     
+      class OAuthException
+     
 
-public `$debugInfo`;
+     
+      extends
+       Exception
+     
+     {
+    
+    /* Свойства */
+    
+     public
+      $lastResponse;
 
-/\* Наслідувані властивості \*/
+    public
+      $debugInfo;
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    /* Наследуемые свойства */
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$code`;
 
-protected string `$file` = "";
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-protected int `$line`;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`lastResponse`
+lastResponse
+
 Останній виняток, якщо такий є
 
-`debugInfo`
+debugInfo

@@ -1,29 +1,38 @@
-- [«SolrParams](class.solrparams.md)
-- [SolrParams::addParam »](solrparams.addparam.md)
+Псевдонім SolrParams::addParam
 
-- [PHP Manual](index.md)
-- [SolrParams](class.solrparams.md)
-- Псевдонім SolrParams::addParam
+-   [« SolrParams](class.solrparams.html)
+    
+-   [SolrParams::addParam »](solrparams.addparam.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrParams](class.solrparams.html)
+    
+-   Псевдонім SolrParams::addParam
+    
 
 # SolrParams::add
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrParams::add — Псевдонім SolrParams::addParam
 
 ### Опис
 
-final public **SolrParams::add**(string `$name`, string `$value`):
-[SolrParams](class.solrparams.md)
+```methodsynopsis
+final public SolrParams::add(string $name, string $value): SolrParams
+```
 
 Псевдонім SolrParams::addParam
 
 ### Список параметрів
 
 `name`
+
 Ім'я параметра
 
 `value`
+
 Значення параметру
 
 ### Значення, що повертаються

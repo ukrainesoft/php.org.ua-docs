@@ -1,26 +1,34 @@
-- [« Componere\Abstract\Definition::addMethod](componere-abstract-definition.addmethod.md)
-- [Componere\Abstract\Definition::getReflector »](componere-abstract-definition.getreflector.md)
+Додає трейт
 
-- [PHP Manual](index.md)
-- [Componere\Abstract\Definition](class.componere-abstract-definition.md)
-- Додає трейт
+-   [« Componere\\Abstract\\Definition::addMethod](componere-abstract-definition.addmethod.html)
+    
+-   [Componere\\Abstract\\Definition::getReflector »](componere-abstract-definition.getreflector.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Abstract\\Definition](class.componere-abstract-definition.html)
+    
+-   Додає трейт
+    
 
-# Componere\Abstract\Definition::addTrait
+# ComponereAbstractDefinition::addTrait
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Abstract\Definition::addTrait — Додає трейт
+ComponereAbstractDefinition::addTrait — Додає трейт
 
 ### Опис
 
-public **Componere\Abstract\Definition::addTrait**(string `$trait`):
-Definition
+```methodsynopsis
+public Componere\Abstract\Definition::addTrait(string $trait): Definition
+```
 
 Використовувати цей трейт для поточного визначення
 
 ### Список параметрів
 
 `trait`
+
 Нечутливе до регістру ім'я трейту
 
 ### Значення, що повертаються
@@ -31,5 +39,4 @@ The current Definition
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition був зареєстрований
+Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition було зареєстровано

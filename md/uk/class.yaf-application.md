@@ -1,138 +1,117 @@
-- [«Конфігурація програми](yaf.appconfig.md)
-- [Yaf_Application::app »](yaf-application.app.md)
+Клас YafApplication
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Application
+-   [« Конфигурация приложения](yaf.appconfig.html)
+    
+-   [Yaf\_Application::app »](yaf-application.app.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafApplication
+    
 
-# Клас Yaf_Application
+# Клас YafApplication
 
 (No version information available, might only be in Git)
 
 ## Вступ
 
-[Yaf_Application](class.yaf-application.md) забезпечує ініціалізацію
-об'єкта для додатків які надають ресурси, що перевикористовуються.
-загальні та модульні bootstrap-класи та перевірки залежностей.
+[Yaf\_Application](class.yaf-application.html) забезпечує ініціалізацію об'єкта для додатків які надають ресурси, що використовуються, загальні та модульні bootstrap-класи та перевірки залежностей.
 
-> **Примітка**:
->
-> [Yaf_Application](class.yaf-application.md) реалізує шаблон
-> singleton, та [Yaf_Application](class.yaf-application.md) не може
-> бути серіалізований або десеріалізований що викликає проблеми коли ви
-> Ви намагаєтесь використати PHPUnit щоб написати деякі тести для Yaf.
->
-> Ви можете використовувати @backupGlobals анотації PHPUnit для контролю
-> бекапів та операцій відновлення глобальних змінних. Таким чином
-> Ви можете вирішити цю проблему.
+> **Зауваження**
+> 
+> [Yaf\_Application](class.yaf-application.html) реалізує шаблоном singleton, та [Yaf\_Application](class.yaf-application.html) не може бути серіалізований або десеріалізований що викликає проблеми, коли ви намагаєтеся використовувати PHPUnit щоб написати деякі тести для Yaf.
+> 
+> Ви можете використовувати @backupGlobals анотації PHPUnit для контролю бекапів та операцій відновлення глобальних змінних. У такий спосіб можна вирішити цю проблему.
 
 ## Огляд класів
 
-final class [Yaf_Application](class.yaf-application.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$config`;
 
-protected `$dispatcher`;
+    
+     
+      final
+      class Yaf_Application
+     
+     {
 
-protected static `$_app`;
+    /* Свойства */
+    
+     protected
+      $config;
 
-protected `$_modules`;
+    protected
+      $dispatcher;
 
-protected `$_running`;
+    protected
+     static
+      $_app;
 
-protected `$_environ`;
+    protected
+      $_modules;
 
-/\* Методи \*/
+    protected
+      $_running;
 
-public
-[\_\_construct](yaf-application.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$config`, string `$envrion` = ?)
+    protected
+      $_environ;
 
-public static[app](yaf-application.app.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public
-[bootstrap](yaf-application.bootstrap.md)([Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
-$bootstrap = ?): void
 
-public [clearLastError](yaf-application.clearlasterror.md)():
-[Yaf_Application](class.yaf-application.md)
+    /* Методы */
+    
+   public __construct(mixed $config, string $envrion = ?)
 
-public [environ](yaf-application.environ.md)(): void
+    public staticapp(): mixed
+public bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
+public clearLastError(): Yaf_Application
+public environ(): void
+public execute(callable $entry, string ...$args): void
+public getAppDirectory(): Yaf_Application
+public getConfig(): Yaf_Config_Abstract
+public getDispatcher(): Yaf_Dispatcher
+public getLastErrorMsg(): string
+public getLastErrorNo(): int
+public getModules(): array
+public run(): void
+public setAppDirectory(string $directory): Yaf_Application
 
-public
-[execute](yaf-application.execute.md)([callable](language.types.callable.md)
-`$entry`, string `...$args`): void
+    public __destruct()
 
-public [getAppDirectory](yaf-application.getappdirectory.md)():
-[Yaf_Application](class.yaf-application.md)
-
-public [getConfig](yaf-application.getconfig.md)():
-[Yaf_Config_Abstract](class.yaf-config-abstract.md)
-
-public [getDispatcher](yaf-application.getdispatcher.md)():
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
-
-public [getLastErrorMsg](yaf-application.getlasterrormsg.md)(): string
-
-public [getLastErrorNo](yaf-application.getlasterrorno.md)(): int
-
-public [getModules](yaf-application.getmodules.md)(): array
-
-public [run](yaf-application.run.md)(): void
-
-public [setAppDirectory](yaf-application.setappdirectory.md)(string
-`$directory`): [Yaf_Application](class.yaf-application.md)
-
-public [\_\_destruct](yaf-application.destruct.md)()
-
-}
+   }
+```
 
 ## Властивості
 
-`config`
+config
 
-`dispatcher`
+dispatcher
 
-`_app`
+app
 
-`_modules`
+modules
 
-`_running`
+running
 
-`_environ`
+environ
 
 ## Зміст
 
-- [Yaf_Application::app](yaf-application.app.md) — Витягти екземпляр
-програми
-- [Yaf_Application::bootstrap](yaf-application.bootstrap.md) -
-Викликати bootstrap
-- [Yaf_Application::clearLastError](yaf-application.clearlasterror.md)
-— Очищення інформації з останньої помилки
-- [Yaf_Application::\_\_construct](yaf-application.construct.md) -
-Конструктор класу Yaf_Application
-- [Yaf_Application::\_\_destruct](yaf-application.destruct.md) -
-Деструктор Yaf_Application
-- [Yaf_Application::environ](yaf-application.environ.md) — Отримати
-значення оточення
-- [Yaf_Application::execute](yaf-application.execute.md) — Запустити
-callback-функцію
-- [Yaf_Application::getAppDirectory](yaf-application.getappdirectory.md)
-— Отримати директорію програми
-- [Yaf_Application::getConfig](yaf-application.getconfig.md) -
-Отримати екземпляр класу конфігурації
-- [Yaf_Application::getDispatcher](yaf-application.getdispatcher.md)
-- Отримати екземпляр класу Yaf_Dispatcher
-- [Yaf_Application::getLastErrorMsg](yaf-application.getlasterrormsg.md)
-— Отримати останнє повідомлення про помилку
-- [Yaf_Application::getLastErrorNo](yaf-application.getlasterrorno.md)
-— Отримати код останньої помилки
-- [Yaf_Application::getModules](yaf-application.getmodules.md) -
-Отримати імена заявлених модулів
-- [Yaf_Application::run](yaf-application.run.md) — Запустити
-Yaf_Application
-- [Yaf_Application::setAppDirectory](yaf-application.setappdirectory.md)
-— Змінити директорію програми
+-   [Yaf\_Application::app](yaf-application.app.html) — Вийняти екземпляр програми
+-   [Yaf\_Application::bootstrap](yaf-application.bootstrap.html) - Викликати bootstrap
+-   [Yaf\_Application::clearLastError](yaf-application.clearlasterror.html) — Очищення інформації з останньої помилки
+-   [Yaf\_Application::\_\_construct](yaf-application.construct.html) - Конструктор класу YafApplication
+-   [Yaf\_Application::\_\_destruct](yaf-application.destruct.html) - Деструктор YafApplication
+-   [Yaf\_Application::environ](yaf-application.environ.html) — Отримати значення оточення
+-   [Yaf\_Application::execute](yaf-application.execute.html) - Запустити callback-функцію
+-   [Yaf\_Application::getAppDirectory](yaf-application.getappdirectory.html) — Отримати директорію програми
+-   [Yaf\_Application::getConfig](yaf-application.getconfig.html) — Отримати екземпляр класу конфігурації
+-   [Yaf\_Application::getDispatcher](yaf-application.getdispatcher.html) - Отримати екземпляр класу YafDispatcher
+-   [Yaf\_Application::getLastErrorMsg](yaf-application.getlasterrormsg.html) — Отримати останнє повідомлення про помилку
+-   [Yaf\_Application::getLastErrorNo](yaf-application.getlasterrorno.html) — Отримати код останньої помилки
+-   [Yaf\_Application::getModules](yaf-application.getmodules.html) — Отримати імена заявлених модулів
+-   [Yaf\_Application::run](yaf-application.run.html) - Запустити YafApplication
+-   [Yaf\_Application::setAppDirectory](yaf-application.setappdirectory.html) — Змінити директорію програми

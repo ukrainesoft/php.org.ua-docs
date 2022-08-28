@@ -1,41 +1,43 @@
-- [« openssl_x509_parse](function.openssl-x509-parse.md)
-- [openssl_x509_verify »](function.openssl-x509-verify.md)
+Розібрати сертифікат X.509 та повернути для нього об'єкт
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Розібрати сертифікат X.509 та повернути для нього об'єкт
+-   [« openssl\_x509\_parse](function.openssl-x509-parse.html)
+    
+-   [openssl\_x509\_verify »](function.openssl-x509-verify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Розібрати сертифікат X.509 та повернути для нього об'єкт
+    
 
-# openssl_x509_read
+# opensslx509read
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_x509_read — Розібрати сертифікат X.509 та повернути для нього об'єкт
+opensslx509read — Розібрати сертифікат X.509 та повернути для нього об'єкт
 
 ### Опис
 
-**openssl_x509_read**([OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`):
-[OpenSSLCertificate](class.opensslcertificate.md)\|false
+```methodsynopsis
+openssl_x509_read(OpenSSLCertificate|string $certificate): OpenSSLCertificate|false
+```
 
-**openssl_x509_read()** отримує сертифікат з `certificate` та
-повертає об'єкт [OpenSSLCertificate](class.opensslcertificate.md)
-для нього.
+**opensslx509read()** отримує сертифікат з `certificate` та повертає об'єкт [OpenSSLCertificate](class.opensslcertificate.html) для нього.
 
 ### Список параметрів
 
 `certificate`
-Сертифікат X509 Список коректних значень дивіться на сторінці
-[Параметри ключів та сертифікатів](openssl.certparams.md).
+
+Сертифікат X509 Список коректних значень дивіться на сторінці [Параметры ключей и сертификатов](openssl.certparams.html)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [OpenSSLCertificate](class.opensslcertificate.md) у
-у разі успішного виконання або **`false`** у разі виникнення
-помилки.
+Повертає об'єкт [OpenSSLCertificate](class.opensslcertificate.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                   |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання повертає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
-| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509.            |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

@@ -1,74 +1,83 @@
-- [« iterator_count](function.iterator-count.md)
-- [spl_autoload_call »](function.spl-autoload-call.md)
+Копіює ітератор у масив
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Копіює ітератор у масив
+-   [« iterator\_count](function.iterator-count.html)
+    
+-   [spl\_autoload\_call »](function.spl-autoload-call.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Копіює ітератор у масив
+    
 
-#iterator_to_array
+# iteratorтоarray
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-iterator_to_array - Копіює ітератор в масив
+iteratorтоarray - Копіює ітератор в масив
 
 ### Опис
 
-**iterator_to_array**([Traversable](class.traversable.md) `$iterator`,
-bool `$preserve_keys` = **`true`**): array
+```methodsynopsis
+iterator_to_array(Traversable $iterator, bool $preserve_keys = true): array
+```
 
 Копіює елементи ітератора масив.
 
 ### Список параметрів
 
 `iterator`
+
 Копіюваний ітератор.
 
 `preserve_keys`
+
 Чи слід використовувати ключі елементів ітератора як індекси?
 
-Якщо ключ є масивом (array) чи об'єктом (object), то кидається
-попередження. Ключі зі значенням **`null`** перетворюються на порожню
-рядок, ключі у вигляді чисел з плаваючою точкою (float) обрізаються до них
-цілих (int) частин, ключі з ресурсами (resource) кидають
-попередження та перетворюються на їх ідентифікатори ресурсу, а логічні
-(bool) ключі перетворюються на цілі числа.
+Якщо ключ є масивом (array) чи об'єктом (object), кидається попередження. Ключі зі значенням **`null`** перетворюються на порожній рядок, ключі у вигляді чисел з плаваючою точкою (float) обрізаються до їх цілих (int) частин, ключі з ресурсами (resource) кидають попередження і перетворюються на їх ідентифікатори ресурсу, а логічні (bool) ключі перетворюються на цілі числа.
 
-> **Примітка**:
->
-> Якщо параметр не заданий, або заданий як **`true`**, ключі, що дублюються
-> буде перезаписано. Останнє значення із заданим ключем буде в
-> результуючий масив. Встановіть цей параметр рівним **`false`**
-> для отримання всіх значень.
+> **Зауваження**
+> 
+> Якщо параметр не заданий, або заданий як **`true`**, дублюючі ключі будуть перезаписані. Останнє значення із заданим ключем буде в результуючому масиві. Встановіть цей параметр рівним **`false`** для здобуття всіх значень.
 
 ### Значення, що повертаються
 
-Масив, що містить елементи iterator.
+Масив, що містить елементи `iterator`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **iterator_to_array()****
+**Приклад #1 Приклад використання **iteratorтоarray()****
 
-` <?php$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));var_dump(iterator_to_array($iterator, true));var_dump(itera $iterator, false));?> `
+```php
+<?php
+$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));
+var_dump(iterator_to_array($iterator, true));
+var_dump(iterator_to_array($iterator, false));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(4) {
-["recipe"]=>
-string(8) "pancakes"
-[0]=>
-string(3) "egg"
-[1]=>
-string(4) "milk"
-[2]=>
-string(5) "flour"
+  ["recipe"]=>
+  string(8) "pancakes"
+  [0]=>
+  string(3) "egg"
+  [1]=>
+  string(4) "milk"
+  [2]=>
+  string(5) "flour"
 }
 array(4) {
-[0]=>
-string(8) "pancakes"
-[1]=>
-string(3) "egg"
-[2]=>
-string(4) "milk"
-[3]=>
-string(5) "flour"
+  [0]=>
+  string(8) "pancakes"
+  [1]=>
+  string(3) "egg"
+  [2]=>
+  string(4) "milk"
+  [3]=>
+  string(5) "flour"
 }
+```

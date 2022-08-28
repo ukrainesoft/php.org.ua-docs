@@ -1,9 +1,15 @@
-- [« Ds\Stack::toArray](ds-stack.toarray.md)
-- [Ds\Queue::allocate »](ds-queue.allocate.md)
+Клас Queue
 
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Клас Queue
+-   [« Ds\\Stack::toArray](ds-stack.toarray.html)
+    
+-   [Ds\\Queue::allocate »](ds-queue.allocate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](book.ds.html)
+    
+-   Клас Queue
+    
 
 # Клас Queue
 
@@ -11,77 +17,65 @@
 
 ## Вступ
 
-Черга – це колекція типу "Перший увійшов, перший вийшов" (First In,
-First Out або FIFO), яка дозволяє працювати тільки з найпершим
-значенням. Ітерація походить від початку до кінця з видаленням взятого
-елемент.
+Черга - це колекція типу "Перший увійшов, перший вийшов" (First In, First Out або FIFO), яка дозволяє працювати тільки з першим значенням. Ітерація походить від початку до кінця з видаленням взятого елемента.
 
 ## Огляд класів
 
-class **Ds\Queue** implements **Ds\Collection**,
-[ArrayAccess](class.arrayaccess.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `MIN_CAPACITY` = 8;
+    
+    
+     
+      class Ds\Queue
+     
 
-/\* Методи \*/
+     implements 
+       Ds\Collection,  ArrayAccess {
+    
+    /* Константы */
+    
+     const
+     int
+      MIN_CAPACITY = 8;
 
-public [allocate](ds-queue.allocate.md)(int `$capacity`): void
 
-public [capacity](ds-queue.capacity.md)(): int
+    /* Методы */
+    
+   public allocate(int $capacity): void
+public capacity(): int
+public clear(): void
+public copy(): Ds\Queue
+public isEmpty(): bool
+public peek(): mixed
+public pop(): mixed
+public push(mixed ...$values): void
+public toArray(): array
 
-public [clear](ds-queue.clear.md)(): void
+   }
+```
 
-public [copy](ds-queue.copy.md)(): [Ds\Queue](class.ds-queue.md)
-
-public [isEmpty](ds-queue.isempty.md)(): bool
-
-public [peek](ds-queue.peek.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [pop](ds-queue.pop.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[push](ds-queue.push.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
-
-public [toArray](ds-queue.toarray.md)(): array
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Ds\Queue::MIN_CAPACITY`**
 
-## Список змін
+## список змін
 
-| Версія        | Опис                                                   |
-|---------------|--------------------------------------------------------|
-| PECL DS 1.3.0 | Тепер клас продає [ArrayAccess](class.arrayaccess.md). |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
 
 ## Зміст
 
-- [Ds\Queue::allocate](ds-queue.allocate.md) — Виділяє пам'ять під
-зазначену місткість
-- [Ds\Queue::capacity](ds-queue.capacity.md) — Повертає поточну
-місткість
-- [Ds\Queue::clear](ds-queue.clear.md) — Видаляє всі значення
-- [Ds\Queue::\_\_construct](ds-queue.construct.md) - Створює новий
-екземпляр
-- [Ds\Queue::copy](ds-queue.copy.md) — Повертає поверхневу
-копію черги
-- [Ds\Queue::count](ds-queue.count.md) — Повертає кількість
-елементів черги
-- [Ds\Queue::isEmpty](ds-queue.isempty.md) — Перевіряє, чи порожня
-колекція
-- [Ds\Queue::jsonSerialize](ds-queue.jsonserialize.md) - Повертає
-колекцію в JSON-представленні
-- [Ds\Queue::peek](ds-queue.peek.md) — Повертає значення спочатку
-черги
-- [Ds\Queue::pop](ds-queue.pop.md) — Видаляє та повертає значення
-з початку черги
-- [Ds\Queue::push](ds-queue.push.md) — Додає значення в чергу
-- [Ds\Queue::toArray](ds-queue.toarray.md) — Перетворює колекцію на
-масив (array)
+-   [Ds\\Queue::allocate](ds-queue.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [Ds\\Queue::capacity](ds-queue.capacity.html) — Повертає поточну місткість
+-   [Ds\\Queue::clear](ds-queue.clear.html) - Видаляє всі значення
+-   [Ds\\Queue::\_\_construct](ds-queue.construct.html) - Створює новий екземпляр
+-   [Ds\\Queue::copy](ds-queue.copy.html) — Повертає поверхневу копію черги
+-   [Ds\\Queue::count](ds-queue.count.html) — Повертає кількість елементів черги
+-   [Ds\\Queue::isEmpty](ds-queue.isempty.html) — Перевіряє, чи колекція порожня.
+-   [Ds\\Queue::jsonSerialize](ds-queue.jsonserialize.html) — Повертає колекцію в JSON-представництві
+-   [Ds\\Queue::peek](ds-queue.peek.html) — Повертає значення із початку черги
+-   [Ds\\Queue::pop](ds-queue.pop.html) — Видаляє та повертає значення з початку черги
+-   [Ds\\Queue::push](ds-queue.push.html) - Додає значення в чергу
+-   [Ds\\Queue::toArray](ds-queue.toarray.html) — Перетворює колекцію на масив (array)

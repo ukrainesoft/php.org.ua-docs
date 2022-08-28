@@ -1,21 +1,29 @@
-- [« Thread::isJoined](thread.isjoined.md)
-- [Thread::join »](thread.join.md)
+Визначення стану
 
-- [PHP Manual](index.md)
-- [Thread](class.thread.md)
-- Визначення стану
+-   [« Thread::isJoined](thread.isjoined.html)
+    
+-   [Thread::join »](thread.join.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Thread](class.thread.html)
+    
+-   Визначення стану
+    
 
 # Thread::isStarted
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Thread::isStarted — Визначення стану
 
 ### Опис
 
-public **Thread::isStarted**(): bool
+```methodsynopsis
+public Thread::isStarted(): bool
+```
 
-Повідомляє, чи запущено вказаний потік.
+Повідомляє, чи було запущено вказаний потік.
 
 ### Список параметрів
 
@@ -23,15 +31,22 @@ public **Thread::isStarted**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Повідомляє, чи було запущено зазначений потік**
 
-` <?php$worker = new Worker();$worker->start();var_dump($worker->isStarted());?> `
+```php
+<?php
+$worker = new Worker();
+$worker->start();
+var_dump($worker->isStarted());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

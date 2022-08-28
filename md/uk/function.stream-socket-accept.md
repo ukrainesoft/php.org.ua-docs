@@ -1,81 +1,73 @@
-- [«stream_set_write_buffer](function.stream-set-write-buffer.md)
-- [stream_socket_client »](function.stream-socket-client.md)
+Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Приймати з'єднання в сокеті, створеному за допомогою функції
-stream_socket_server
+-   [« stream\_set\_write\_buffer](function.stream-set-write-buffer.html)
+    
+-   [stream\_socket\_client »](function.stream-socket-client.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
+    
 
-#stream_socket_accept
+# streamsocketaccept
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_socket_accept — Приймати з'єднання в сокеті, створеному c
-допомогою функції
-[stream_socket_server()](function.stream-socket-server.md)
+streamsocketaccept — Приймати з'єднання в сокеті, створеному за допомогою функції [stream\_socket\_server()](function.stream-socket-server.html)
 
 ### Опис
 
-**stream_socket_accept**(resource `$socket`, ?float `$timeout` =
-**`null`**, string `&$peer_name` = **`null`**): resource\|false
+```methodsynopsis
+stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_name = null): resource|false
+```
 
-Приймати з'єднання в сокеті, попередньо створеному за допомогою
-функції [stream_socket_server()](function.stream-socket-server.md).
+Приймати з'єднання в сокеті, попередньо створеному за допомогою функції [stream\_socket\_server()](function.stream-socket-server.html)
 
 ### Список параметрів
 
 `socket`
-Серверний сокет для ухвалення з'єднання.
+
+Серверний сокет для прийняття з'єднання.
 
 `timeout`
-Перевизначити час очікування підключення за замовчуванням. Час
-має бути вказано за секунди. За замовчуванням використовується значення
-[default_socket_timeout](filesystem.configuration.md#ini.default-socket-timeout).
+
+Перевизначити час очікування на підключення за замовчуванням. Час має бути вказано за секунди. За замовчуванням використовується значення [default\_socket\_timeout](filesystem.configuration.html#ini.default-socket-timeout)
 
 `peer_name`
-Буде присвоєно ім'я (адресу) клієнта, який приєднався, якщо воно
-міститься та доступно з обраного транспорту.
 
-> **Примітка**:
->
-> Можливо пізніше, використовуючи функцію
-> [stream_socket_get_name()](function.stream-socket-get-name.md).
+Буде присвоєно ім'я (адресу) клієнта, який приєднався, якщо воно міститься та доступне з вибраного транспорту.
+
+> **Зауваження**
+> 
+> Можливо визначено пізніше, використовуючи функцію [stream\_socket\_get\_name()](function.stream-socket-get-name.html)
 
 ### Значення, що повертаються
 
-Повертає потік прийнятого з'єднання із сокетом або **`false`** у разі
-виникнення помилки.
+Повертає потік прийнятого з'єднання з сокетом або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                  |
-| ------ | ------------------------------------- |
-| 8.0.0  | timeout тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `timeout` тепер допускає значення null. |
 
 ### Примітки
 
 **Увага**
 
-Ця функція не повинна використовуватись із серверними сокетами UDP. Замість
-цього використовуйте
-[stream_socket_recvfrom()](function.stream-socket-recvfrom.md) та
-[stream_socket_sendto()](function.stream-socket-sendto.md).
+Ця функція не повинна використовуватись із серверними сокетами UDP. Натомість використовуйте [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.html) і [stream\_socket\_sendto()](function.stream-socket-sendto.html)
 
 ### Дивіться також
 
-- [stream_socket_server()](function.stream-socket-server.md) -
-Створює інтернет-сокет або доменний сокет Unix
-- [stream_socket_get_name()](function.stream-socket-get-name.md) -
-Отримати назву локального або віддаленого сокету
-- [stream_set_blocking()](function.stream-set-blocking.md) -
-Встановити блокуючий/неблокуючий режим у потоці
-- [stream_set_timeout()](function.stream-set-timeout.md) -
-Встановити час очікування для потоку
-- [fgets()](function.fgets.md) - Читає рядок із файлу
-- [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє
-HTML-теги
-- [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
-- [fclose()](function.fclose.md) - Закриває відкритий дескриптор
-файлу
-- [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
-- [Функції cURL](ref.curl.md)
+-   [stream\_socket\_server()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [stream\_socket\_get\_name()](function.stream-socket-get-name.html) - Отримати назву локального чи віддаленого сокету
+-   [stream\_set\_blocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [stream\_set\_timeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [fgets()](function.fgets.html) - Читає рядок із файлу
+-   [fgetss()](function.fgetss.html) - Читає рядок з файлу та видаляє HTML-теги
+-   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
+-   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
+-   [feof()](function.feof.html) - Перевіряє, чи кінець файлу досягнуто
+-   [Функции cURL](ref.curl.html)

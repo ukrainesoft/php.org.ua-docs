@@ -1,20 +1,27 @@
-- [«SolrQuery::getTermsMaxCount](solrquery.gettermsmaxcount.md)
-- [SolrQuery::getTermsPrefix »](solrquery.gettermsprefix.md)
+Повертає мінімальну частоту повернення документів для включення
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає мінімальну частоту повернення документів для увімкнення
+-   [« SolrQuery::getTermsMaxCount](solrquery.gettermsmaxcount.html)
+    
+-   [SolrQuery::getTermsPrefix »](solrquery.gettermsprefix.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає мінімальну частоту повернення документів для включення
+    
 
 # SolrQuery::getTermsMinCount
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTermsMinCount - Повертає мінімальну частоту повернення
-документів для включення
+SolrQuery::getTermsMinCount - Повертає мінімальну частоту повернення документів для включення
 
 ### Опис
 
-public **SolrQuery::getTermsMinCount**(): int
+```methodsynopsis
+public SolrQuery::getTermsMinCount(): int
+```
 
 Повертає мінімальну частоту повернення документів для включення
 
@@ -24,5 +31,4 @@ public **SolrQuery::getTermsMinCount**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

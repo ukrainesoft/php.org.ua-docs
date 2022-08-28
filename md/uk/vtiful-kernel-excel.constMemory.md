@@ -1,37 +1,56 @@
-- [« Vtiful\Kernel\Excel::autoFilter](vtiful-kernel-excel.autoFilter.md)
-- [Vtiful\Kernel\Excel::\_\_construct »](vtiful-kernel-excel.construct.md)
+Кількість пам'яті
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- Кількість пам'яті
+-   [« Vtiful\\Kernel\\Excel::autoFilter](vtiful-kernel-excel.autoFilter.html)
+    
+-   [Vtiful\\Kernel\\Excel::\_\_construct »](vtiful-kernel-excel.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
+-   Кількість пам'яті
+    
 
-# Vtiful\Kernel\Excel::constMemory
+# VtifulKernelExcel::constMemory
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::constMemory — Кількість пам'яті
+VtifulKernelExcel::constMemory — Кількість пам'яті
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::constMemory**(string `$fileName`, string
-`$sheetName` = ?)
+```methodsynopsis
+public Vtiful\Kernel\Excel::constMemory(string $fileName, string $sheetName = ?)
+```
 
 Запис великого файлу з використанням пам'яті.
 
 ### Список параметрів
 
 `fileName`
+
 Ім'я файлу XLSX
 
 `sheetName`
+
 Назва листа
 
 ### Значення, що повертаються
 
-Примірник [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [ 'path' => '/home/viest'];$fileObject = new \Vtiful\Kernel\Excel($config);$file = $instance->constMemory('tutorial.xlsx'' , 'sheet');?> `
+```php
+<?php
+$config = [
+  'path' => '/home/viest'
+];
+
+$fileObject = new \Vtiful\Kernel\Excel($config);
+
+$file = $instance->constMemory('tutorial.xlsx', 'sheet');
+?>
+```

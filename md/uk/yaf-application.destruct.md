@@ -1,19 +1,25 @@
-- [« Yaf_Application::\_\_construct](yaf-application.construct.md)
-- [Yaf_Application::environ »](yaf-application.environ.md)
+Деструктор YafApplication
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Деструктор Yaf_Application
+-   [« Yaf\_Application::\_\_construct](yaf-application.construct.html)
+    
+-   [Yaf\_Application::environ »](yaf-application.environ.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Application](class.yaf-application.html)
+    
+-   Деструктор YafApplication
+    
 
-# Yaf_Application::\_\_destruct
+# YafApplication::destruct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Application::\_\_destruct - Деструктор Yaf_Application
+YafApplication::destruct - Деструктор YafApplication
 
 ### Опис
 
-public **Yaf_Application::\_\_destruct**()
+public **YafApplication::destruct**
 
 ### Список параметрів
 

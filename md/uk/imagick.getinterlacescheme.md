@@ -1,9 +1,15 @@
-- [« Imagick::getImageWidth](imagick.getimagewidth.md)
-- [Imagick::getIteratorIndex »](imagick.getiteratorindex.md)
+Отримує схему стиснення зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Отримує схему стиснення зображення
+-   [« Imagick::getImageWidth](imagick.getimagewidth.html)
+    
+-   [Imagick::getIteratorIndex »](imagick.getiteratorindex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Отримує схему стиснення зображення
+    
 
 # Imagick::getInterlaceScheme
 
@@ -13,7 +19,9 @@ Imagick::getInterlaceScheme — Отримує схему стиснення з�
 
 ### Опис
 
-public **Imagick::getInterlaceScheme**(): int
+```methodsynopsis
+public Imagick::getInterlaceScheme(): int
+```
 
 Отримує схему стиснення зображення.
 
@@ -23,7 +31,7 @@ public **Imagick::getInterlaceScheme**(): int
 
 ### Значення, що повертаються
 
-Отримує схему [стиснення зображення](imagick.constants.md#imagick.constants.interlace).
+Отримує схему [сжатия изображения](imagick.constants.html#imagick.constants.interlace)
 
 ### Помилки
 

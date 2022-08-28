@@ -1,38 +1,44 @@
-- [« fann_get_train_error_function](function.fann-get-train-error-function.md)
-- [fann_get_training_algorithm »](function.fann-get-training-algorithm.md)
+Повертає функцію зупинки, що використовується під час навчання
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає функцію зупинки, що використовується під час навчання
+-   [« fann\_get\_train\_error\_function](function.fann-get-train-error-function.html)
+    
+-   [fann\_get\_training\_algorithm »](function.fann-get-training-algorithm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає функцію зупинки, що використовується під час навчання
+    
 
-# fann_get_train_stop_function
+# fanngettrainstopfunction
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_train_stop_function — Повертає функцію зупинки,
-використовується під час навчання
+fanngettrainstopfunction — Повертає функцію зупинки, що використовується під час навчання
 
 ### Опис
 
-**fann_get_train_stop_function**(resource `$ann`): int
+```methodsynopsis
+fann_get_train_stop_function(resource $ann): int
+```
 
 Повертає функцію зупинки під час навчання.
 
-Опції зупинки описані далі в константах [функції зупинки](fann.constants.md#constants.fann-stopfunc).
+Опції зупинки описані далі в константах [функции остановки](fann.constants.html#constants.fann-stopfunc)
 
-Функція зупинки за промовчанням: **`FANN_STOPFUNC_MSE`**.
+За замовчуванням функція зупинки: **`FANN_STOPFUNC_MSE`**
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Константа [функції зупинки](fann.constants.md#constants.fann-stopfunc) або **`false`**
-у разі виникнення помилки.
+Константа [функции остановки](fann.constants.html#constants.fann-stopfunc) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_train_stop_function()](function.fann-set-train-stop-function.md) -
-Встановлює функцію зупинки під час тренування.
+-   [fann\_set\_train\_stop\_function()](function.fann-set-train-stop-function.html) - Встановлює функцію зупинки під час тренування.

@@ -1,43 +1,36 @@
-- [« PharFileInfo::isCompressed](pharfileinfo.iscompressed.md)
-- [PharException »](class.pharexception.md)
+Встановлення метаданих для файлу
 
-- [PHP Manual](index.md)
-- [PharFileInfo](class.pharfileinfo.md)
-- Встановлення метаданих для конкретного файлу
+-   [« PharFileInfo::isCompressed](pharfileinfo.iscompressed.html)
+    
+-   [PharException »](class.pharexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PharFileInfo](class.pharfileinfo.html)
+    
+-   Встановлення метаданих для файлу
+    
 
 # PharFileInfo::setMetadata
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
 PharFileInfo::setMetadata — Встановлення метаданих для файлу
 
 ### Опис
 
-public
-**PharFileInfo::setMetadata**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$metadata`): void
+```methodsynopsis
+public PharFileInfo::setMetadata(mixed $metadata): void
+```
 
-**PharFileInfo::setMetadata()** слід використовувати для збереження
-метаданих конкретного файлу, які не можна зберігати всередині самого
-файлу, оскільки, якщо даних багато, або в принципі багато файлів з
-метаданими - це сповільнює завантаження phar-архіву. Важливо
-пам'ятати, що phar-архіви з коробки підтримують права на файли та їх
-можна задати за допомогою методу
-[PharFileInfo::chmod()](pharfileinfo.chmod.md). Бо ця
-функціональність змінює phar-архів, необхідно, щоб опція
-[phar.readonly](phar.configuration.md#ini.phar.readonly) була
-відключена, інакше внести зміни до архіву [Phar](class.phar.md) не
-вийде. На архіви [PharData](class.phardata.md) обмеження на
-запис не поширюється.
+**PharFileInfo::setMetadata()** слід використовувати для збереження метаданих конкретного файлу, які не можна зберігати всередині самого файлу, оскільки, якщо даних багато, або в принципі багато файлів з метаданими - це сповільнює завантаження phar-архіву. Важливо пам'ятати, що архіви з коробки підтримують права на файли і їх можна задати за допомогою методу [PharFileInfo::chmod()](pharfileinfo.chmod.html). Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.html#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.html) не вийде. На архіви [PharData](class.phardata.html) обмеження на запис не поширюється.
 
-Метадані файлів можна використовувати, наприклад, для вказівки, які
-права треба призначити файлу при експорті його на диск, або для вказівки
-MIME-типу, що він повертає. Загалом - будь-яка корисна інформація,
-якої не місце усередині самого файлу.
+Метадані файлів можна використовувати, наприклад, для вказівки, які права треба призначити файлу під час експорту його на диск, або для вказівки MIME-типу, який він повертає. Загалом - будь-яка корисна інформація, якій не місце всередині файлу.
 
 ### Список параметрів
 
 `metadata`
+
 Будь-яка змінна PHP, що містить необхідну інформацію
 
 ### Значення, що повертаються
@@ -48,28 +41,37 @@ MIME-типу, що він повертає. Загалом - будь-яка к
 
 **Приклад #1 Приклад використання **PharFileInfo::setMetadata()****
 
-`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.txt'] = 'hello'; $p['file.txt']->setMetadata(array('user' => 'bill', 'mime-type' => 'text/plain'))); var_dump($p['file.txt']->getMetaData());} catch (Exception $e) {   echo 'Не удалося створити/змінити phar: ', $e;}?> `
+```php
+<?php
+// удалим, на всякий случай
+@unlink('brandnewphar.phar');
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+    $p['file.txt'] = 'hello';
+    $p['file.txt']->setMetadata(array('user' => 'bill', 'mime-type' => 'text/plain'));
+    var_dump($p['file.txt']->getMetaData());
+} catch (Exception $e) {
+    echo 'Не удалось создать/изменить phar: ', $e;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(2) {
-["user"]=>
-string(4) "bill"
-["mime-type"]=>
-string(10) "text/plain"
+  ["user"]=>
+  string(4) "bill"
+  ["mime-type"]=>
+  string(10) "text/plain"
 }
+```
 
 ### Дивіться також
 
-- [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.md) -
-Перевірити, чи є файли метадані
-- [PharFileInfo::getMetadata()](pharfileinfo.getmetadata.md) -
-Отримати метадані, пов'язані з файлом
-- [PharFileInfo::delMetadata()](pharfileinfo.delmetadata.md) -
-Видалити метадані файлу
-- [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані
-phar-архіву
-- [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить
-чи phar-архів глобальні метадані
-- [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані
-phar-архіву
+-   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.html) - Перевірити, чи є у файлу метадані
+-   [PharFileInfo::getMetadata()](pharfileinfo.getmetadata.html) - Отримати метадані, пов'язані з файлом
+-   [PharFileInfo::delMetadata()](pharfileinfo.delmetadata.html) - Видалити метадані файлу
+-   [Phar::setMetadata()](phar.setmetadata.html) - Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.html) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.html) - Витягти метадані phar-архіву

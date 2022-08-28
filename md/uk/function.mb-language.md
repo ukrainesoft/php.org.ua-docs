@@ -1,59 +1,61 @@
-- [«mb_internal_encoding](function.mb-internal-encoding.md)
-- [mb_list_encodings »](function.mb-list-encodings.md)
+Встановлює/отримує поточну мову
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Встановлює/отримує поточну мову
+-   [« mb\_internal\_encoding](function.mb-internal-encoding.html)
+    
+-   [mb\_list\_encodings »](function.mb-list-encodings.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+    
+-   Встановлює/отримує поточну мову
+    
 
-#mb_language
+# мбlanguage
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-mb_language — Встановлює/отримує поточну мову
+мбlanguage — Встановлює/отримує поточну мову
 
 ### Опис
 
-**mb_language**(?string `$language` = **`null`**): string\|bool
+```methodsynopsis
+mb_language(?string $language = null): string|bool
+```
 
 Встановлює/отримує поточну мову.
 
 ### Список параметрів
 
 `language`
-Використовується для кодування електронних листів. Допустимі
-мови перелічені у наступній таблиці.
-[mb_send_mail()](function.mb-send-mail.md) використовує параметр
-кодування електронної пошти.
 
-| Мова                                  | Кодування        | Кодування        | Псевдонім     |
-| ------------------------------------- | ---------------- | ---------------- | ------------- |
-| Німецька мова/de (German) ISO-8859-15 | Quoted-Printable | Німецька мова    |               |
-| Англійська мова/en                    | ISO-8859         | Quoted-Printable |               |
-| Вірменська мова/hy                    | ArmSCII-8        | Quoted-Printable |               |
-| Японська мова/ja                      | ISO-2022         | BASE64           |               |
-| Корейська мова/ko                     | ISO-2022         | BASE64           |               |
-| neutral                               | UTF-8            | BASE64           |               |
-| Російська мова/ua                     | KOI8-R           | Quoted-Printable |               |
-| Турецька мова/tr                      | ISO-8859-9       | Quoted-Printable |               |
-| Українська мова/ua                    | KOI8-U           | Quoted-Printable |               |
-| uni                                   | UTF-8            | BASE64           | Універсальний |
-| Спрощена китайська мова/zh-cn         | HZ               | BASE64           |               |
-| Традиційна китайська мова/zh-tw       | BIG-5            | BASE64           |               |
+Використовується для кодування електронних листів. Допустимі мови перелічені в наступній таблиці.[mb\_send\_mail()](function.mb-send-mail.html) використовує параметр для кодування електронної пошти.
+
+| Язык | Кодировка | Кодирование | Псевдоним |
+| --- | --- | --- | --- |
+| Німецька мова/de (German) | ISO-8859-15 | Quoted-Printable | Німецька мова (Deutsch) |
+| Англійська мова/en | ISO-8859-1 | Quoted-Printable |  |
+| Вірменська мова/hy | ArmSCII-8 | Quoted-Printable |  |
+| Японська мова/ja | ISO-2022-JP | BASE64 |  |
+| Корейська мова/ko | ISO-2022-KR | BASE64 |  |
+| neutral | UTF-8 | BASE64 |  |
+| Російська мова/ua | KOI8-R | Quoted-Printable |  |
+| Турецька мова/tr | ISO-8859-9 | Quoted-Printable |  |
+| Українська мова/ua | KOI8-U | Quoted-Printable |  |
+| uni | UTF-8 | BASE64 | Універсальний |
+| Спрощена китайська мова/zh-cn | ХЗ | BASE64 |  |
+| Традиційна китайська мова/zh-tw | BIG-5 | BASE64 |  |
 
 ### Значення, що повертаються
 
-Якщо аргумент `language` заданий та `language` має допустиме значення,
-функція повертає **`true`**. Інакше вона поверне
-**`false`**. Якщо `language` опущений або дорівнює **`null`**, функція поверне
-поточне значення мови як рядка (string).
+Якщо аргумент `language` заданий та `language` має допустиме значення, функція повертає **`true`**. Інакше вона поверне **`false`**. Якщо `language` опущений або дорівнює **`null`**, функція поверне поточне значення мови як рядка (string).
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                     |
-| ------ | -------------------------------------------------------- |
-| 8.0.0  | Тепер параметр language може набувати значення **null**. |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер параметр `language` може набувати значення **`null`** |
 
 ### Дивіться також
 
-- [mb_send_mail()](function.mb-send-mail.md) - Надсилання
-закодованого повідомлення
+-   [mb\_send\_mail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення

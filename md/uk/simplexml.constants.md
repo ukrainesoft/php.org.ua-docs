@@ -1,10 +1,16 @@
-- [« Типи ресурсів](simplexml.resources.md)
-- [Приклади »](simplexml.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [SimpleXML](book.simplexml.md)
-- Обумовлені константи
+-   [« Типы ресурсов](simplexml.resources.html)
+    
+-   [Примеры »](simplexml.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXML](book.simplexml.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

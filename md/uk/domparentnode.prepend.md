@@ -1,9 +1,15 @@
-- [« DOMParentNode::append](domparentnode.append.md)
-- [DOMProcessingInstruction »](class.domprocessinginstruction.md)
+Додає вузли перед першим дочірнім вузлом
 
-- [PHP Manual](index.md)
-- [DOMParentNode](class.domparentnode.md)
-- Додає вузли перед першим дочірнім вузлом
+-   [« DOMParentNode::append](domparentnode.append.html)
+    
+-   [DOMProcessingInstruction »](class.domprocessinginstruction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMParentNode](class.domparentnode.html)
+    
+-   Додає вузли перед першим дочірнім вузлом
+    
 
 # DOMParentNode::prepend
 
@@ -13,15 +19,16 @@ DOMParentNode::prepend — Додає вузли перед першим доч�
 
 ### Опис
 
-public **DOMParentNode::prepend**([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
+```methodsynopsis
+public DOMParentNode::prepend(DOMNode|string ...$nodes): void
+```
 
-Додає один або кілька `nodes` до списку дочірніх вузлів перед
-першим дочірнім вузлом.
+Додає один чи кілька `nodes` до списку дочірніх вузлів перед першим дочірнім вузлом.
 
 ### Список параметрів
 
 `nodes`
+
 Вузли, які потрібно додати.
 
 ### Значення, що повертаються
@@ -30,5 +37,4 @@ public **DOMParentNode::prepend**([DOMNode](class.domnode.md)\|string
 
 ### Дивіться також
 
-- [DOMParentNode::append()](domparentnode.append.md) - Додає
-вузли після останнього дочірнього вузла
+-   [DOMParentNode::append()](domparentnode.append.html) - Додає вузли після останнього дочірнього вузла

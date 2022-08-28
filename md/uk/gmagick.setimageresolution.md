@@ -1,29 +1,38 @@
-- [« Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md)
-- [Gmagick::setimagescene »](gmagick.setimagescene.md)
+Встановлює роздільну здатність зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює роздільну здатність зображення
+-   [« Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.html)
+    
+-   [Gmagick::setimagescene »](gmagick.setimagescene.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює роздільну здатність зображення
+    
 
 # Gmagick::setimageresolution
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimageresolution — Встановлює роздільну здатність зображення
 
 ### Опис
 
-public **Gmagick::setimageresolution**(float `$xResolution`, float
-`$yResolution`): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageresolution(float $xResolution, float $yResolution): Gmagick
+```
 
 Встановлює роздільну здатність зображення.
 
 ### Список параметрів
 
 `xResolution`
+
 Роздільна здатність зображення х.
 
 `yResolution`
+
 Роздільна здатність зображення y.
 
 ### Значення, що повертаються

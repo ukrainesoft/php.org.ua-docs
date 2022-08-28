@@ -1,35 +1,38 @@
-- [« SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.md)
-- [SolrQuery::setHighlightSimplePost »](solrquery.sethighlightsimplepost.md)
+Вимагати зіставлення полів при виділенні
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Вимагати зіставлення полів при виділенні
+-   [« SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.html)
+    
+-   [SolrQuery::setHighlightSimplePost »](solrquery.sethighlightsimplepost.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Вимагати зіставлення полів при виділенні
+    
 
 # SolrQuery::setHighlightRequireFieldMatch
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightRequireFieldMatch — Вимагати зіставлення полів
-при виділенні
+SolrQuery::setHighlightRequireFieldMatch — Вимагати зіставлення полів при виділенні
 
 ### Опис
 
-public **SolrQuery::setHighlightRequireFieldMatch**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightRequireFieldMatch(bool $flag): SolrQuery
+```
 
-Якщо **`true`**, тоді поле буде виділено лише в тому випадку, якщо
-запит відповідає цьому конкретному полю.
+Якщо **`true`**тоді поле буде виділено тільки в тому випадку, якщо запит відповідає цьому конкретному полю.
 
-Працюватиме, тільки якщо для
-SolrQuery::setHighlightUsePhraseHighlighter() встановлено значення
-**`true`**
+Буде працювати тільки якщо для SolrQuery::setHighlightUsePhraseHighlighter() встановлено значення **`true`**
 
 ### Список параметрів
 
 `flag`
+
 **`true`** або **`false`**
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

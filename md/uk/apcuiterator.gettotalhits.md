@@ -1,26 +1,33 @@
-- [«APCUIterator::getTotalCount](apcuiterator.gettotalcount.md)
-- [APCUIterator::getTotalSize »](apcuiterator.gettotalsize.md)
+Отримати загальну кількість влучень у кеш
 
-- [PHP Manual](index.md)
-- [APCUIterator](class.apcuiterator.md)
-- Отримати загальну кількість попадань у кеш
+-   [« APCUIterator::getTotalCount](apcuiterator.gettotalcount.html)
+    
+-   [APCUIterator::getTotalSize »](apcuiterator.gettotalsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [APCUIterator](class.apcuiterator.html)
+    
+-   Отримати загальну кількість влучень у кеш
+    
 
 # APCUIterator::getTotalHits
 
-(PECL apcu \>= 5.0.0)
+(PECL apcu >= 5.0.0)
 
 APCUIterator::getTotalHits — Отримати загальну кількість влучень у кеш
 
 ### Опис
 
-public **APCUIterator::getTotalHits**(): int
+```methodsynopsis
+public APCUIterator::getTotalHits(): int
+```
 
 Отримати загальну кількість влучень у кеш.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,14 +35,10 @@ public **APCUIterator::getTotalHits**(): int
 
 ### Значення, що повертаються
 
-Кількість влучень у разі успішного виконання або **`false`**
-у разі виникнення помилки.
+Кількість влучень у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) -
-Отримати загальну кількість записів
-- [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) -
-Загальний розмір кешу
-- [apcu_cache_info()](function.apcu-cache-info.md) - Витягує
-закешовану інформацію зі сховища APCu
+-   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.html) - Отримати загальну кількість записів
+-   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.html) - Загальний розмір кешу
+-   [apcu\_cache\_info()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu

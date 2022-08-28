@@ -1,20 +1,47 @@
-- [« Приклади](pgsql.examples.md)
-- [Базове використання»](pgsql.examples-queries.md)
+Базове використання
 
-- [PHP Manual](index.md)
-- [Приклади](pgsql.examples.md)
-- Базове використання
+-   [« Примеры](pgsql.examples.html)
+    
+-   [Базовое использование »](pgsql.examples-queries.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Примеры](pgsql.examples.html)
+    
+-   Базове використання
+    
 
 ## Базове використання
 
-Цей простий приклад показує, як виконати з'єднання з БД, відправити
-запит, вивести його результат та закрити з'єднання з PostgreSQL.
+Цей простий приклад показує, як виконати з'єднання з БД, надіслати запит, вивести його результат і закрити з'єднання з PostgreSQL.
 
 **Приклад #1 Приклад роботи з модулем PostgreSQL**
 
-` <?php// З'єднання, вибір бази даних$dbconn = pg_connect("host=localhost dbname=publishing user=www password=foo")    or die('Не удалося з'єднатися: | | -запиту$query = 'SELECT * FROM authors';$result = pg_query($query) or die('Помилка запиту: ' . pg_last_error());// Виведення результатів
-";while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {    echo " <tr>
-";    foreach ($line as $col_value) {        echo " <td>$col_value</td>
-";    }    echo " </tr>
-";}echo "</table>
-";// Очистка результатаpg_free_result($result);// Закриття з'єднанняpg_close($dbconn);?> `
+```php
+<?php
+// Соединение, выбор базы данных
+$dbconn = pg_connect("host=localhost dbname=publishing user=www password=foo")
+    or die('Не удалось соединиться: ' . pg_last_error());
+
+// Выполнение SQL-запроса
+$query = 'SELECT * FROM authors';
+$result = pg_query($query) or die('Ошибка запроса: ' . pg_last_error());
+
+// Вывод результатов в HTML
+echo "<table>\n";
+while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {
+    echo "\t<tr>\n";
+    foreach ($line as $col_value) {
+        echo "\t\t<td>$col_value</td>\n";
+    }
+    echo "\t</tr>\n";
+}
+echo "</table>\n";
+
+// Очистка результата
+pg_free_result($result);
+
+// Закрытие соединения
+pg_close($dbconn);
+?>
+```

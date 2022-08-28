@@ -1,35 +1,39 @@
-- [« XMLDiff\DOM::diff](xmldiff-dom.diff.md)
-- [XMLDiff\Memory »](class.xmldiff-memory.md)
+Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
 
-- [PHP Manual](index.md)
-- [XMLDiff\DOM](class.xmldiff-dom.md)
-- Об'єднує об'єкт DOMDocument, на підставі іншого об'єкта
-DOMDocument, отриманого за допомогою XMLDiff\DOM::diff
+-   [« XMLDiff\\DOM::diff](xmldiff-dom.diff.html)
+    
+-   [XMLDiff\\Memory »](class.xmldiff-memory.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLDiff\\DOM](class.xmldiff-dom.html)
+    
+-   Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
+    
 
-# XMLDiff\DOM::merge
+# XMLDiffDOM::merge
 
-(PECL xmldiff \>= 0.8.0)
+(PECL xmldiff >= 0.8.0)
 
-XMLDiff\DOM::merge — Об'єднує об'єкт DOMDocument, на основі іншого
-об'єкта DOMDocument, отриманого за допомогою XMLDiff\DOM::diff
+XMLDiffDOM::merge — Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff
 
 ### Опис
 
-public **XMLDiff\DOM::merge**([DOMDocument](class.domdocument.md)
-`$src`, [DOMDocument](class.domdocument.md) `$diff`):
-[DOMDocument](class.domdocument.md)
+```methodsynopsis
+public XMLDiff\DOM::merge(DOMDocument $src, DOMDocument $diff): DOMDocument
+```
 
-Об'єднує об'єкт DOMDocument, виходячи з іншого об'єкта DOMDocument,
-отриманого за допомогою XMLDiff\DOM::diff.
+Об'єднує об'єкт DOMDocument на основі іншого об'єкта DOMDocument, отриманого за допомогою XMLDiffDOM::diff.
 
 ### Список параметрів
 
 `src`
+
 Вихідний об'єкт DOMDocument.
 
 `diff`
-Об'єкт DOMDocument, що містить інформацію, отриману за допомогою
-XMLDiff\DOM::diff.
+
+Об'єкт DOMDocument, що містить інформацію, отриману за допомогою XMLDiffDOM::diff.
 
 ### Значення, що повертаються
 

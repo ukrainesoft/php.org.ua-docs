@@ -1,54 +1,83 @@
-- [« Yaf_Application::app](yaf-application.app.md)
-- [Yaf_Application::clearLastError »](yaf-application.clearlasterror.md)
+Викликати bootstrap
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Викликати bootstrap
+-   [« Yaf\_Application::app](yaf-application.app.html)
+    
+-   [Yaf\_Application::clearLastError »](yaf-application.clearlasterror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Application](class.yaf-application.html)
+    
+-   Викликати bootstrap
+    
 
-# Yaf_Application::bootstrap
+# YafApplication::bootstrap
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Application::bootstrap — Викликати bootstrap
+YafApplication::bootstrap — Викликати bootstrap
 
 ### Опис
 
-public
-**Yaf_Application::bootstrap**([Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
-$bootstrap = ?): void
+```methodsynopsis
+public Yaf_Application::bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
+```
 
-Запускає Bootstrap, всі методи, визначені в Bootstrap і іменовані з
-префіксом \init будуть викликані в порядку їх визначення. Якщо параметр
-bootstrap не заданий, Yaf буде шукати його по шляху, вказаному в
-application.directory.
+Запускає Bootstrap, всі методи, визначені в Bootstrap і іменовані з префіксом.init" будуть викликані в порядку їх визначення. Якщо параметр bootstrap не заданий, Yaf його шукатиме по шляху, вказаному в application.directory.
 
 ### Список параметрів
 
 `bootstrap`
-Екземпляр класу
-[Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
+
+Екземпляр класу [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
 
 ### Значення, що повертаються
 
-Примірник класу [Yaf_Application](class.yaf-application.md)
+Екземпляр класу [Yaf\_Application](class.yaf-application.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Bootstrap()****
 
-` <?php/** * Цей файл повинен перебувати по шляху APPLICATION_PATH . "/application/" * (котрий визначений в конфігураційному файлі додатки Yaf_Application). * і називатися Bootstrap.php, щоб Yaf_Application зміг його найти */class Bootstrap extends Yaf_Bootstrap_Abstract {                                     ¦    
-";    }    function _initPlugin($dispatcher) {        echo "другий метод викликаний
-";    }}?> `
+```php
+<?php
+/**
+ * Этот файл должен находиться по пути APPLICATION_PATH . "/application/"
+ * (который определён в конфигурационном файле приложения Yaf_Application).
+ * и называться Bootstrap.php, чтобы Yaf_Application смог его найти
+ */
+class Bootstrap extends Yaf_Bootstrap_Abstract {
+    function _initConfig(Yaf_Dispatcher $dispatcher) {
+        echo "первый метод вызван\n";
+    }
 
-**Приклад #2 Приклад використання **Yaf_Application::bootstrap()****
+    function _initPlugin($dispatcher) {
+        echo "второй метод вызван\n";
+    }
+}
+?>
+```
 
-` <?phpdefined('APPLICATION_PATH') // Буде використаний APPLICATION_PATH    || define('APPLICATION_PATH', __DIR__);$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');$application->bootstrap();?> `
+**Приклад #2 Приклад використання **YafApplication::bootstrap()****
+
+```php
+<?php
+
+defined('APPLICATION_PATH') // Будет использован APPLICATION_PATH
+    || define('APPLICATION_PATH', __DIR__);
+
+$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');
+$application->bootstrap();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-перший метод викликаний
-другий метод викликаний
+```
+первый метод вызван
+второй метод вызван
+```
 
 ### Дивіться також
 
-- [Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)

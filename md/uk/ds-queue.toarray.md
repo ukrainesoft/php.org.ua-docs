@@ -1,28 +1,36 @@
-- [« Ds\Queue::push](ds-queue.push.md)
-- [Черга з пріоритетом »](class.ds-priorityqueue.md)
+Перетворює колекцію на масив (array)
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Перетворює колекцію на масив (array)
+-   [« Ds\\Queue::push](ds-queue.push.html)
+    
+-   [Очередь с приоритетом »](class.ds-priorityqueue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь](class.ds-queue.html)
+    
+-   Перетворює колекцію на масив (array)
+    
 
-# Ds\Queue::toArray
+# ДсQueue::toArray
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Queue::toArray — Перетворює колекцію на масив (array)
+ДсQueue::toArray — Перетворює колекцію на масив (array)
 
 ### Опис
 
-public **Ds\Queue::toArray**(): array
+```methodsynopsis
+public Ds\Queue::toArray(): array
+```
 
 Перетворює колекцію на масив (array).
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Приведення до типу array поки що не підтримується.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Цей метод не є руйнівним.
 
 ### Список параметрів
@@ -31,22 +39,29 @@ public **Ds\Queue::toArray**(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи колекції із збереженням їх
-порядку.
+Масив (array), що містить всі елементи колекції із збереженням їхнього порядку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::toArray()****
+**Приклад #1 Приклад використання **ДсQueue::toArray()****
 
-` <?php$queue = new \Ds\Queue([1, 2, 3]);var_dump($queue->toArray());?> `
+```php
+<?php
+$queue = new \Ds\Queue([1, 2, 3]);
+
+var_dump($queue->toArray());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

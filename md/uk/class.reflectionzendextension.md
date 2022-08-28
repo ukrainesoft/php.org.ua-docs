@@ -1,74 +1,74 @@
-- [« ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md)
-- [ReflectionZendExtension::\_\_clone »](reflectionzendextension.clone.md)
+Клас ReflectionZendExtension
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionZendExtension
+-   [« ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.html)
+    
+-   [ReflectionZendExtension::\_\_clone »](reflectionzendextension.clone.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionZendExtension
+    
 
 # Клас ReflectionZendExtension
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
 ## Огляд класів
 
-class **ReflectionZendExtension** implements
-[Reflector](class.reflector.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$name`;
+    
+     
+      class ReflectionZendExtension
+     
 
-/\* Методи \*/
+     implements 
+       Reflector {
 
-public [\_\_construct](reflectionzendextension.construct.md)(string
-`$name`)
+    /* Свойства */
+    
+     public
+     string
+      $name;
 
-private [\_\_clone](reflectionzendextension.clone.md)(): void
 
-public static [export](reflectionzendextension.export.md)(string
-`$name`, bool `$return` = ?): string
+    /* Методы */
+    
+   public __construct(string $name)
 
-public [getAuthor](reflectionzendextension.getauthor.md)(): string
+    private __clone(): void
+public static export(string $name, bool $return = ?): string
+public getAuthor(): string
+public getCopyright(): string
+public getName(): string
+public getURL(): string
+public getVersion(): string
+public __toString(): string
 
-public [getCopyright](reflectionzendextension.getcopyright.md)():
-string
-
-public [getName](reflectionzendextension.getname.md)(): string
-
-public [getURL](reflectionzendextension.geturl.md)(): string
-
-public [getVersion](reflectionzendextension.getversion.md)(): string
-
-public [\_\_toString](reflectionzendextension.tostring.md)(): string
-
-}
+   }
+```
 
 ## Властивості
 
-`name`
-Ім'я модуль. Доступно тільки для читання та викидає виняток
-[ReflectionException](class.reflectionexception.md) під час спроби
-запису.
+name
+
+Ім'я модуль. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.html) під час спроби запису.
 
 ## Зміст
 
-- [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md)
-- Обробник клонування
-- [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.md)
-- Конструктор
-- [ReflectionZendExtension::export](reflectionzendextension.export.md)
-- Експорт
-- [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md)
-— Отримує автора
-- [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md)
-— Отримує авторські права
-- [ReflectionZendExtension::getName](reflectionzendextension.getname.md)
-— Отримує ім'я
-- [ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
-— Отримує URL
-- [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md)
-— Отримує версію
-- [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md)
-- Обробник перетворення в рядок
+-   [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.html) - Обробник клонування
+-   [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.html) - Конструктор
+-   [ReflectionZendExtension::export](reflectionzendextension.export.html) - Експорт
+-   [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.html) — Отримує автора
+-   [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.html) — Отримує авторські права
+-   [ReflectionZendExtension::getName](reflectionzendextension.getname.html) — Отримує ім'я
+-   [ReflectionZendExtension::getURL](reflectionzendextension.geturl.html) — Отримує URL
+-   [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.html) — Отримує версію
+-   [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.html) - Обробник перетворення в рядок

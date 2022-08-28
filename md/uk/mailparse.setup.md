@@ -1,15 +1,21 @@
-- [«Вступ](intro.mailparse.md)
-- [Вимоги »](mailparse.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Mailparse](book.mailparse.md)
+-   [« Введение](intro.mailparse.html)
+    
+-   [Требования »](mailparse.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mailparse](book.mailparse.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](mailparse.requirements.md)
-- [Установка](mailparse.installation.md)
-- [Налаштування під час виконання](mailparse.configuration.md)
-- [Типи ресурсів](mailparse.resources.md)
+-   [Требования](mailparse.requirements.html)
+-   [Установка](mailparse.installation.html)
+-   [Настройка во время выполнения](mailparse.configuration.html)
+-   [Типы ресурсов](mailparse.resources.html)

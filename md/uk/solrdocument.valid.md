@@ -1,23 +1,29 @@
-- [«SolrDocument::\_\_unset](solrdocument.unset.md)
-- [SolrDocumentField »](class.solrdocumentfield.md)
+Перевіряє, чи поточна позиція є внутрішньо коректною
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Перевіряє, чи поточна позиція є внутрішньо коректною
+-   [« SolrDocument::\_\_unset](solrdocument.unset.html)
+    
+-   [SolrDocumentField »](class.solrdocumentfield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Перевіряє, чи поточна позиція є внутрішньо коректною
+    
 
 # SolrDocument::valid
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::valid — Перевіряє, чи є поточна позиція внутрішньо
-коректною
+SolrDocument::valid — Перевіряє, чи поточна позиція є внутрішньо коректною.
 
 ### Опис
 
-public **SolrDocument::valid**(): bool
+```methodsynopsis
+public SolrDocument::valid(): bool
+```
 
-Перевіряє, чи поточна позиція є внутрішньо коректною.
-Використовується під час операцій начому.
+Перевіряє, чи поточна позиція є внутрішньо коректною. Використовується під час операцій начому.
 
 ### Список параметрів
 
@@ -25,5 +31,4 @@ public **SolrDocument::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання та **`false`**, якщо
-поточна позиція не дійсна.
+Повертає **`true`** у разі успішного виконання та **`false`**, якщо поточна позиція не дійсна.

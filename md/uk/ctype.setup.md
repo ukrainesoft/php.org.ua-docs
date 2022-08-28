@@ -1,15 +1,21 @@
-- [«Вступ](intro.ctype.md)
-- [Вимоги »](ctype.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Ctype](book.ctype.md)
+-   [« Введение](intro.ctype.html)
+    
+-   [Требования »](ctype.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ctype](book.ctype.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ctype.requirements.md)
-- [Установка](ctype.installation.md)
-- [Налаштування під час виконання](ctype.configuration.md)
-- [Типи ресурсів](ctype.resources.md)
+-   [Требования](ctype.requirements.html)
+-   [Установка](ctype.installation.html)
+-   [Настройка во время выполнения](ctype.configuration.html)
+-   [Типы ресурсов](ctype.resources.html)

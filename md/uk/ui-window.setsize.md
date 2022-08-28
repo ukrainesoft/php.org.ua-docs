@@ -1,19 +1,27 @@
-- [«UI\Window::setMargin](ui-window.setmargin.md)
-- [UI\Window::setTitle »](ui-window.settitle.md)
+Встановити розмір
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Встановити розмір
+-   [« UI\\Window::setMargin](ui-window.setmargin.html)
+    
+-   [UI\\Window::setTitle »](ui-window.settitle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Встановити розмір
+    
 
-# UI\Window::setSize
+# ОЙWindow::setSize
 
 (UI 0.9.9)
 
-UI\Window::setSize — Встановити розмір
+ОЙWindow::setSize — Встановити розмір
 
 ### Опис
 
-public **UI\Window::setSize**([UI\Size](class.ui-size.md) `$size`)
+```methodsynopsis
+public UI\Window::setSize(UI\Size $size)
+```
 
 Встановить розмір вікна
 

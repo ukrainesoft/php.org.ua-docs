@@ -1,19 +1,27 @@
-- [« SolrQuery::getFacetDateStart](solrquery.getfacetdatestart.md)
-- [SolrQuery::getFacetLimit »](solrquery.getfacetlimit.md)
+Повертає всі поля фасетів
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі поля фасетів
+-   [« SolrQuery::getFacetDateStart](solrquery.getfacetdatestart.html)
+    
+-   [SolrQuery::getFacetLimit »](solrquery.getfacetlimit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає всі поля фасетів
+    
 
 # SolrQuery::getFacetFields
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getFacetFields — Повертає всі поля фасетів
 
 ### Опис
 
-public **SolrQuery::getFacetFields**(): array
+```methodsynopsis
+public SolrQuery::getFacetFields(): array
+```
 
 Повертає всі поля фасетів
 
@@ -23,4 +31,4 @@ public **SolrQuery::getFacetFields**(): array
 
 ### Значення, що повертаються
 
-Повертає масив усіх полів та **`null`**, якщо нічого не задано
+Повертає масив усіх полів та **`null`**якщо нічого не поставлено

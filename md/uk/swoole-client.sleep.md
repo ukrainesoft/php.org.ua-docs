@@ -1,19 +1,27 @@
-- [« Swoole\Client::set](swoole-client.set.md)
-- [Swoole\Client::wakeup »](swoole-client.wakeup.md)
+Видаляє TCP-клієнт із циклу системних подій
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Видаляє TCP-клієнт із циклу системних подій
+-   [« Swoole\\Client::set](swoole-client.set.html)
+    
+-   [Swoole\\Client::wakeup »](swoole-client.wakeup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Client](class.swoole-client.html)
+    
+-   Видаляє TCP-клієнт із циклу системних подій
+    
 
-# Swoole\Client::sleep
+# SwooleClient::sleep
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Client::sleep — Видаляє TCP-клієнт із циклу системних подій
+SwooleClient::sleep — Видаляє TCP-клієнт із циклу системних подій
 
 ### Опис
 
-public **Swoole\Client::sleep**(): void
+```methodsynopsis
+public Swoole\Client::sleep(): void
+```
 
 Видаляє TCP-клієнт із циклу системних подій.
 

@@ -1,17 +1,22 @@
-- [«odbc_data_source](function.odbc-data-source.md)
-- [odbc_error »](function.odbc-error.md)
+Псевдонім odbcexec
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Псевдонім odbc_exec
+-   [« odbc\_data\_source](function.odbc-data-source.html)
+    
+-   [odbc\_error »](function.odbc-error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Псевдонім odbcexec
+    
 
-#odbc_do
+# odbcдо
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_do - Псевдонім [odbc_exec()](function.odbc-exec.md)
+odbcdo - Псевдонім [odbc\_exec()](function.odbc-exec.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[odbc_exec()](function.odbc-exec.md).
+Ця функція є псевдонімом: [odbc\_exec()](function.odbc-exec.html)

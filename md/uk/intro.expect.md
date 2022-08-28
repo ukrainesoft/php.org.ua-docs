@@ -1,13 +1,16 @@
-- [« Expect](book.expect.md)
-- [Встановлення та налаштування »](expect.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [Expect](book.expect.md)
+-   [« Expect](book.expect.html)
+    
+-   [Установка и настройка »](expect.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Expect](book.expect.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Цей модуль дозволяє взаємодіяти із процесами через PTY. Ви
-можете використовувати обгортку [`expect://`](wrappers.expect.md) з
-[функціями файлової системи](ref.filesystem.md), які забезпечують
-Найпростіший і інтуїтивно зрозумілий інтерфейс.
+Цей модуль дозволяє взаємодіяти із процесами через PTY. Ви можете використовувати обгортку [`expect://`](wrappers.expect.html) з [функциями файловой системы](ref.filesystem.html)які забезпечують більш простий та інтуїтивно зрозумілий інтерфейс.

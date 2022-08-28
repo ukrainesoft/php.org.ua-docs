@@ -1,107 +1,96 @@
-- [« Yaf_Request_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md)
-- [Yaf_Response_Abstract::appendBody »](yaf-response-abstract.appendbody.md)
+Клас YafResponseAbstract
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Response_Abstract
+-   [« Yaf\_Request\_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.html)
+    
+-   [Yaf\_Response\_Abstract::appendBody »](yaf-response-abstract.appendbody.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafResponseAbstract
+    
 
-# Клас Yaf_Response_Abstract
+# Клас YafResponseAbstract
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Yaf_Response_Abstract** {
+```classsynopsis
 
-/\* Константи \*/
 
-const string `DEFAULT_BODY` = "content";
+    
+    
+     
+      class Yaf_Response_Abstract
+     
+     {
+    
+    /* Константы */
+    
+     const
+     string
+      DEFAULT_BODY = "content";
 
-/\* Властивості \*/
 
-protected `$_header`;
+    /* Свойства */
+    protected
+      $_header;
 
-protected `$_body`;
+    protected
+      $_body;
 
-protected `$_sendheader`;
+    protected
+      $_sendheader;
 
-/\* Методи \*/
 
-public [\_\_construct](yaf-response-abstract.construct.md)()
 
-public [appendBody](yaf-response-abstract.appendbody.md)(string
-`$content`, string `$key` = ?): bool
+    /* Методы */
+    
+   public __construct()
 
-public [clearBody](yaf-response-abstract.clearbody.md)(string `$key` =
-?): bool
+    public appendBody(string $content, string $key = ?): bool
+public clearBody(string $key = ?): bool
+public clearHeaders(): void
+public getBody(string $key = ?): mixed
+public getHeader(): void
+public prependBody(string $content, string $key = ?): bool
+public response(): void
+protected setAllHeaders(): void
+public setBody(string $content, string $key = ?): bool
+public setHeader(string $name, string $value, bool $replace = ?): bool
+public setRedirect(string $url): bool
+private __toString(): string
 
-public [clearHeaders](yaf-response-abstract.clearheaders.md)(): void
+    public __destruct()
 
-public [getBody](yaf-response-abstract.getbody.md)(string `$key` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [getHeader](yaf-response-abstract.getheader.md)(): void
-
-public [prependBody](yaf-response-abstract.prependbody.md)(string
-`$content`, string `$key` = ?): bool
-
-public [response](yaf-response-abstract.response.md)(): void
-
-protected [setAllHeaders](yaf-response-abstract.setallheaders.md)():
-void
-
-public [setBody](yaf-response-abstract.setbody.md)(string `$content`,
-string `$key` = ?): bool
-
-public [setHeader](yaf-response-abstract.setheader.md)(string `$name`,
-string `$value`, bool `$replace` = ?): bool
-
-public [setRedirect](yaf-response-abstract.setredirect.md)(string
-`$url`): bool
-
-private [\_\_toString](yaf-response-abstract.tostring.md)(): string
-
-public [\_\_destruct](yaf-response-abstract.destruct.md)()
-
-}
+   }
+```
 
 ## Властивості
 
-`_header`
+header
 
-`_body`
+body
 
-`_sendheader`
+sendheader
 
 ## Зміст
 
-- [Yaf_Response_Abstract::appendBody](yaf-response-abstract.appendbody.md)
-— Додає вміст до тіла відповіді
-- [Yaf_Response_Abstract::clearBody](yaf-response-abstract.clearbody.md)
-- Скидає все існуюче тіло відповіді
-- [Yaf_Response_Abstract::clearHeaders](yaf-response-abstract.clearheaders.md)
-- Скидає всі встановлені заголовки
-- [Yaf_Response_Abstract::\_\_construct](yaf-response-abstract.construct.md)
-- Конструктор класу Yaf_Response_Abstract
-- [Yaf_Response_Abstract::\_\_destruct](yaf-response-abstract.destruct.md)
-- Деструктор класу Yaf_Response_Abstract
-- [Yaf_Response_Abstract::getBody](yaf-response-abstract.getbody.md)
-— Отримує наявний вміст
-- [Yaf_Response_Abstract::getHeader](yaf-response-abstract.getheader.md)
-- Призначення getHeader
-- [Yaf_Response_Abstract::prependBody](yaf-response-abstract.prependbody.md)
-- Призначення prependBody
-- [Yaf_Response_Abstract::response](yaf-response-abstract.response.md)
-- Відправляє відповідь
-- [Yaf_Response_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.md)
-- Призначення setAllHeaders
-- [Yaf_Response_Abstract::setBody](yaf-response-abstract.setbody.md)
-- Встановлює вміст відповіді
-- [Yaf_Response_Abstract::setHeader](yaf-response-abstract.setheader.md)
-- Встановлює заголовок відповіді
-- [Yaf_Response_Abstract::setRedirect](yaf-response-abstract.setredirect.md)
-- Призначення setRedirect
-- [Yaf_Response_Abstract::\_\_toString](yaf-response-abstract.tostring.md)
-— Отримує все тіло у вигляді рядка
+-   [Yaf\_Response\_Abstract::appendBody](yaf-response-abstract.appendbody.html) - Додає вміст до тіла відповіді
+-   [Yaf\_Response\_Abstract::clearBody](yaf-response-abstract.clearbody.html) — Скидає все тіло відповіді, що існує.
+-   [Yaf\_Response\_Abstract::clearHeaders](yaf-response-abstract.clearheaders.html) - Скидає всі встановлені заголовки
+-   [Yaf\_Response\_Abstract::\_\_construct](yaf-response-abstract.construct.html) - Конструктор класу YafResponseAbstract
+-   [Yaf\_Response\_Abstract::\_\_destruct](yaf-response-abstract.destruct.html) - Деструктор класу YafResponseAbstract
+-   [Yaf\_Response\_Abstract::getBody](yaf-response-abstract.getbody.html) — Отримує наявний вміст
+-   [Yaf\_Response\_Abstract::getHeader](yaf-response-abstract.getheader.html) - Призначення getHeader
+-   [Yaf\_Response\_Abstract::prependBody](yaf-response-abstract.prependbody.html) - Призначення prependBody
+-   [Yaf\_Response\_Abstract::response](yaf-response-abstract.response.html) - Відправляє відповідь
+-   [Yaf\_Response\_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.html) — Призначення setAllHeaders
+-   [Yaf\_Response\_Abstract::setBody](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
+-   [Yaf\_Response\_Abstract::setHeader](yaf-response-abstract.setheader.html) - Встановлює заголовок відповіді
+-   [Yaf\_Response\_Abstract::setRedirect](yaf-response-abstract.setredirect.html) - Призначення setRedirect
+-   [Yaf\_Response\_Abstract::\_\_toString](yaf-response-abstract.tostring.html) — Отримує все тіло у вигляді рядка

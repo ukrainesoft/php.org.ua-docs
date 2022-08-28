@@ -1,9 +1,15 @@
-- [« Collection::remove](mysql-xdevapi-collection.remove.md)
-- [Collection::replaceOne »](mysql-xdevapi-collection.replaceone.md)
+Видаляє один документ із колекції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Видаляє один документ із колекції
+-   [« Collection::remove](mysql-xdevapi-collection.remove.html)
+    
+-   [Collection::replaceOne »](mysql-xdevapi-collection.replaceone.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+    
+-   Видаляє один документ із колекції
+    
 
 # Collection::removeOne
 
@@ -13,32 +19,55 @@ Collection::removeOne — Видаляє один документ із коле
 
 ### Опис
 
-public **mysql_xdevapi\Collection::removeOne**(string `$id`):
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\Collection::removeOne(string $id): mysql_xdevapi\Result
+```
 
-Видаляє один документ із колекції з відповідним ідентифікатором.
-Скорочений запис для
-`Collection.remove("_id = :id").bind("id", id).execute()`.
+Видаляє один документ із колекції з відповідним ідентифікатором. Скорочений запис для `Collection.remove("_id = :id").bind("id", id).execute()`
 
 ### Список параметрів
 
 `id`
-Ідентифікатор документа колекції, який потрібно видалити. Зазвичай це
-\_id, який було згенеровано MySQL Server при додаванні запису.
+
+Ідентифікатор документа колекції, який потрібно видалити. Зазвичай це id, який було згенеровано MySQL Server при додаванні запису.
 
 ### Значення, що повертаються
 
-Об'єкт Result, який можна використовувати для запиту кількості
-порушених елементів або кількості попереджень, згенерованих
-операцією.
+Об'єкт Result, який можна використовувати для запиту кількості порушених елементів чи кількості попереджень, згенерованих операцією.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::removeOne()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::removeOne()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result = $ {"name": "Alfred", "age": 18, "job": "Butler"}')->execute(); використовуємо його$ids       = $result->getGeneratedIds();$alfred_id = $ids[0];$result = $collection->removeOne($alfred_id);if(!$result->getAffectedItem { з ідентифікатором $ alfred_id не був віддалений.
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+$result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
+
+// Обычно _id известен другими способами,
+// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
+$ids       = $result->getGeneratedIds();
+$alfred_id = $ids[0];
+
+$result = $collection->removeOne($alfred_id);
+
+if(!$result->getAffectedItemsCount()) {
+    echo "Alfred с идентификатором $alfred_id не был удален.";
+} else {
+    echo "До свидания, Alfred, ты можешь взять с собой _id $alfred_id.";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-До побачення, Alfred, ти можеш взяти з собою _id 00005b6b53610000000000000cb.
+```
+До свидания, Alfred, ты можешь взять с собой _id 00005b6b536100000000000000cb.
+```

@@ -1,57 +1,45 @@
-- [« Volatile](class.volatile.md)
-- [Вступ »](intro.sem.md)
+Семафори, пам'ять, що розділяється, і IPC
 
-- [PHP Manual](index.md)
-- [Модулі для управління процесами програм](refs.fileprocess.process.md)
-- Семафори, що розділяється пам'ять та IPC
+-   [« Volatile](class.volatile.html)
+    
+-   [Введение »](intro.sem.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули для управления процессами программ](refs.fileprocess.process.html)
+    
+-   Семафори, пам'ять, що розділяється, і IPC
+    
 
-# Семафори, розділяється пам'ять та IPC
+# Семафори, пам'ять, що розділяється, і IPC
 
-- [Вступ](intro.sem.md)
-- [Встановлення та налаштування](sem.setup.md)
-- [Вимоги](sem.requirements.md)
-- [Установка](sem.installation.md)
-- [Налаштування під час виконання](sem.configuration.md)
-- [Типи ресурсів](sem.resources.md)
-- [Предвизначені константи](sem.constants.md)
-- [Функції семафорів](ref.sem.md)
-- [ftok](function.ftok.md) - Перетворення шляху та
-ідентифікатор проекту в ключ System V IPC
-- [msg_get_queue](function.msg-get-queue.md) — Створення або
-підключення до черги повідомлень
-- [msg_queue_exists](function.msg-queue-exists.md) — Перевірка
-існування черги повідомлень
-- [msg_receive](function.msg-receive.md) — Отримання повідомлення
-із черги повідомлень
-- [msg_remove_queue](function.msg-remove-queue.md) — Видалення
-черги повідомлень
-- [msg_send](function.msg-send.md) — Надсилання повідомлення до
-черга повідомлень
-- [msg_set_queue](function.msg-set-queue.md) — Встановлення
-інформації у структурі даних черги повідомлень
-- [msg_stat_queue](function.msg-stat-queue.md) - Отримання
-інформації із структури даних черги повідомлень
-- [sem_acquire](function.sem-acquire.md) - Захоплення семафору
-- [sem_get](function.sem-get.md) — отримання ідентифікатора
-семафора
-- [sem_release](function.sem-release.md) - Звільнення семафору
-- [sem_remove](function.sem-remove.md) — Видалення семафору
-- [shm_attach](function.shm-attach.md) — Створює або відкриває
-сегмент розділеної пам'яті
-- [shm_detach](function.shm-detach.md) — Вимикається від сегмента
-пам'яті
-- [shm_get_var](function.shm-get-var.md) — Повертає змінну
-з роздільної пам'яті
-- [shm_has_var](function.shm-has-var.md) — Перевіряє, чи існує
-конкретний запис
-- [shm_put_var](function.shm-put-var.md) — Вставляє або
-оновлює змінну в пам'яті, що розділяється
-- [shm_remove_var](function.shm-remove-var.md) — Видаляє
-змінну з пам'яті, що розділяється
-- [shm_remove](function.shm-remove.md) — Видаляє розділену
-пам'ять із систем Unix
-- [SysvMessageQueue](class.sysvmessagequeue.md) - Клас
-SysvMessageQueue
-- [SysvSemaphore](class.sysvsemaphore.md) — Клас SysvSemaphore
-- [SysvSharedMemory](class.sysvsharedmemory.md) - Клас
-SysvSharedMemory
+-   [Введение](intro.sem.html)
+-   [Установка и настройка](sem.setup.html)
+    -   [Требования](sem.requirements.html)
+    -   [Установка](sem.installation.html)
+    -   [Настройка во время выполнения](sem.configuration.html)
+    -   [Типы ресурсов](sem.resources.html)
+-   [Предопределённые константы](sem.constants.html)
+-   [Функции семафоров](ref.sem.html)
+    -   [ftok](function.ftok.html) — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
+    -   [msg\_get\_queue](function.msg-get-queue.html) — Створення або підключення до черги повідомлень
+    -   [msg\_queue\_exists](function.msg-queue-exists.html) — Перевірка існування черги повідомлень
+    -   [msg\_receive](function.msg-receive.html) — Отримання повідомлення з черги повідомлень
+    -   [msg\_remove\_queue](function.msg-remove-queue.html) — Видалення черги повідомлень
+    -   [msg\_send](function.msg-send.html) — Надсилання повідомлення до черги повідомлень
+    -   [msg\_set\_queue](function.msg-set-queue.html) — Встановлення інформації у структурі даних черги повідомлень
+    -   [msg\_stat\_queue](function.msg-stat-queue.html) — Отримання інформації із структури даних черги повідомлень
+    -   [sem\_acquire](function.sem-acquire.html) - Захоплення семафору
+    -   [sem\_get](function.sem-get.html) - Отримання ідентифікатора семафору
+    -   [sem\_release](function.sem-release.html) - Звільнення семафору
+    -   [sem\_remove](function.sem-remove.html) - Видалення семафору
+    -   [shm\_attach](function.shm-attach.html) — Створює або відкриває сегмент пам'яті, що розділяється.
+    -   [shm\_detach](function.shm-detach.html) — Відключається від сегмента пам'яті, що розділяється.
+    -   [shm\_get\_var](function.shm-get-var.html) — Повертає змінну з пам'яті, що розділяється.
+    -   [shm\_has\_var](function.shm-has-var.html) — Перевіряє, чи існує конкретний запис
+    -   [shm\_put\_var](function.shm-put-var.html) — Вставляє або оновлює змінну в пам'яті, що розділяється.
+    -   [shm\_remove\_var](function.shm-remove-var.html) — Видаляє змінну з пам'яті, що розділяється.
+    -   [shm\_remove](function.shm-remove.html) — Видаляє пам'ять із систем Unix, що розділяється.
+-   [SysvMessageQueue](class.sysvmessagequeue.html) - Клас SysvMessageQueue
+-   [SysvSemaphore](class.sysvsemaphore.html) - Клас SysvSemaphore
+-   [SysvSharedMemory](class.sysvsharedmemory.html) - Клас SysvSharedMemory

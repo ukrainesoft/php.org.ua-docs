@@ -1,19 +1,27 @@
-- [« Parle \ Stack](class.parle-stack.md)
-- [Parle\Stack::push »](parle-stack.push.md)
+Витягує предмет зі стека
 
-- [PHP Manual](index.md)
-- [Parle\Stack](class.parle-stack.md)
-- Витягує предмет зі стеку
+-   [« Parle\\Stack](class.parle-stack.html)
+    
+-   [Parle\\Stack::push »](parle-stack.push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Stack](class.parle-stack.html)
+    
+-   Витягує предмет зі стека
+    
 
-# Parle\Stack::pop
+# ParleStack::pop
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Stack::pop — Витягує предмет зі стеку
+ParleStack::pop — Витягує предмет зі стека
 
 ### Опис
 
-public **Parle\Stack::pop**(): void
+```methodsynopsis
+public Parle\Stack::pop(): void
+```
 
 ### Список параметрів
 

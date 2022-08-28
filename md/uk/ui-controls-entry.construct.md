@@ -1,24 +1,30 @@
-- [«UI\Controls\Entry](class.ui-controls-entry.md)
-- [UI\Controls\Entry::getText »](ui-controls-entry.gettext.md)
+Створити новий об'єкт Entry
 
-- [PHP Manual](index.md)
-- [UI\Controls\Entry](class.ui-controls-entry.md)
-- Створити новий об'єкт Entry
+-   [« UI\\Controls\\Entry](class.ui-controls-entry.html)
+    
+-   [UI\\Controls\\Entry::getText »](ui-controls-entry.gettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Entry](class.ui-controls-entry.html)
+    
+-   Створити новий об'єкт Entry
+    
 
-# UI\Controls\Entry::\_\_construct
+# ОЙControlsEntry::construct
 
 (UI 0.9.9)
 
-UI\Controls\Entry::\_\_construct — Створити новий об'єкт Entry
+ОЙControlsEntry::construct — Створити новий об'єкт Entry
 
 ### Опис
 
-public **UI\Controls\Entry::\_\_construct**(int `$type` =
-UI\Controls\Entry::Normal)
+public **ОЙControlsEntry::construct**(int `$type` = UIControlsEntry::Normal)
 
 Створити новий елемент керування "Введення" заданого типу
 
 ### Список параметрів
 
 `type`
+
 Entry::Normal, Entry::Password або Entry::Search

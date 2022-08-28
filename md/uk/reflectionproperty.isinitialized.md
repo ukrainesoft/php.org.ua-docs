@@ -1,63 +1,76 @@
-- [« ReflectionProperty::isDefault](reflectionproperty.isdefault.md)
-- [ReflectionProperty::isPrivate »](reflectionproperty.isprivate.md)
+Перевірити, чи ініціалізована властивість
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Перевірити, чи ініціалізована властивість
+-   [« ReflectionProperty::isDefault](reflectionproperty.isdefault.html)
+    
+-   [ReflectionProperty::isPrivate »](reflectionproperty.isprivate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Перевірити, чи ініціалізована властивість
+    
 
 # ReflectionProperty::isInitialized
 
-(PHP 7 = 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
-ReflectionProperty::isInitialized — Перевірити, чи ініціалізовано
-властивість
+ReflectionProperty::isInitialized — Перевірити, чи ініціалізована властивість
 
 ### Опис
 
-public **ReflectionProperty::isInitialized**(?object `$object` =
-**`null`**): bool
+```methodsynopsis
+public ReflectionProperty::isInitialized(?object $object = null): bool
+```
 
 Перевіряє, чи ініціалізована властивість.
 
 ### Список параметрів
 
 `object`
-Якщо властивість не статична, необхідно передати об'єкт, для
-якого буде проводитись перевірка.
+
+Якщо властивість не статична, необхідно передати об'єкт, котрій буде проводитися перевірка.
 
 ### Значення, що повертаються
 
-Повертає **`false`** для типізованих властивостей, яких не було
-присвоєно значення і властивостей, яких явно застосували функцію
-[unset()](function.unset.md). Для решти властивостей повертає
-**`true`**.
+Повертає **`false`** для типизованих властивостей, яким не було надано значення і для властивостей, до яких явно застосували функцію [unset()](function.unset.html). Для решти властивостей повертає **`true`**
 
 ### Помилки
 
-Вкидає виняток [ReflectionException](class.reflectionexception.md)
-якщо властивість недоступна. Доступ до protected і private властивостей можна
-отримати за допомогою
-[ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md).
+Кидає виняток [ReflectionException](class.reflectionexception.html) якщо властивість недоступна. Доступ до protected і private властивостей можна отримати за допомогою [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                 |
-|--------|--------------------------------------|
-| 8.0.0  | object тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `object` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionProperty::isInitialized()****
+**Приклад #1 Приклад використання **ReflectionProperty::isInitialized()****
 
-` <?phpclass User{    public string $name;}$rp = new ReflectionProperty('User', 'name');$user = new User;var_dump($rp->isInitialized($user));$user-> name=='Nikita';var_dump($rp->isInitialized($user));?> `
+```php
+<?php
+class User
+{
+    public string $name;
+}
+
+$rp = new ReflectionProperty('User', 'name');
+$user = new User;
+var_dump($rp->isInitialized($user));
+$user->name = 'Nikita';
+var_dump($rp->isInitialized($user));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [ReflectionProperty::hasType()](reflectionproperty.hastype.md) -
-Перевірити, чи заданий для властивості тип
+-   [ReflectionProperty::hasType()](reflectionproperty.hastype.html) - Перевірити, чи заданий для властивості тип

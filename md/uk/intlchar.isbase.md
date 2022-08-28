@@ -1,9 +1,15 @@
-- [« IntlChar::isalpha](intlchar.isalpha.md)
-- [IntlChar::isblank »](intlchar.isblank.md)
+Перевірити, чи є символ базовим
 
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Перевірити, чи є символ базовим
+-   [« IntlChar::isalpha](intlchar.isalpha.html)
+    
+-   [IntlChar::isblank »](intlchar.isblank.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlChar](class.intlchar.html)
+    
+-   Перевірити, чи є символ базовим
+    
 
 # IntlChar::isbase
 
@@ -13,46 +19,47 @@ IntlChar::isbase — Перевірити, чи символ є базовим
 
 ### Опис
 
-public static **IntlChar::isbase**(int\|string `$codepoint`): ?bool
+```methodsynopsis
+public static IntlChar::isbase(int|string $codepoint): ?bool
+```
 
-Перевіряє, чи є символом базовим. **`true`** для категорій "L"
-(літери), "N" (числа), "Mc" (міткою позиціонування при комбінації
-символів) та "Me" (enclosing marks).
+Перевіряє, чи є символ базовим . **`true`** для категорій "L" (літери), "N" (числа), "Mc" (міткою позиціонування при комбінації символів) та "Me" (enclosing marks).
 
-> **Примітка**:
->
-> Відрізняється від визначення, заданого в розділі 3.5 статті D13 Unicode,
-> визначального базові символи як всі символи (не Cn) графічно не
-> що поєднуються з попередніми символами (M) і не є керуючими
-> (Cc) або форматуючими (Cf).
+> **Зауваження**
+> 
+> Відрізняється від визначення, заданого в розділі 3.5 статті D13 Unicode, що визначає базові символи як усі символи (не Cn), що графічно не поєднуються з попередніми символами (M) і не є керуючими (Cc) або форматуючими (Cf).
 
 ### Список параметрів
 
 `codepoint`
-Цілочисленне (int) завдання коду символу (наприклад, `0x2603` для *U+2603
-СНІГОВИКА*), або символ, закодований рядок UTF-8 (наприклад
-``\u{2603}"`)
+
+Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `codepoint` є базовим, **`false`** -
-якщо ні. У разі виникнення помилки повертає **`null`**.
+Повертає **`true`**, якщо `codepoint` є базовим, **`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::isbase("A"));var_dump(IntlChar::isbase("1"));var_dump(IntlChar::isbase("\u{2603}"));?> `
+```php
+<?php
+var_dump(IntlChar::isbase("A"));
+var_dump(IntlChar::isbase("1"));
+var_dump(IntlChar::isbase("\u{2603}"));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є
-чи символ літерою
-- [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є
-чи символ цифрою
+-   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
+-   [IntlChar::isdigit()](intlchar.isdigit.html) - Перевірити, чи є символ цифрою

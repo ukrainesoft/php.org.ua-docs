@@ -1,18 +1,22 @@
-- [« date_get_last_errors](function.date-get-last-errors.md)
-- [date_interval_format »](function.date-interval-format.md)
+Псевдонім DateInterval::createFromDateString
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateInterval::createFromDateString
+-   [« date\_get\_last\_errors](function.date-get-last-errors.html)
+    
+-   [date\_interval\_format »](function.date-interval-format.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateInterval::createFromDateString
+    
 
-# date_interval_create_from_date_string
+# dateintervalcreatefromdatestring
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-date_interval_create_from_date_string - Псевдонім
-[DateInterval::createFromDateString()](dateinterval.createfromdatestring.md)
+dateintervalcreatefromdatestring - Псевдонім [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateInterval::createFromDateString()](dateinterval.createfromdatestring.md)
+Ця функція є псевдонімом: [DateInterval::createFromDateString()](dateinterval.createfromdatestring.html)

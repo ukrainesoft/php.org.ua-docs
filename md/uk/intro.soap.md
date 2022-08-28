@@ -1,11 +1,16 @@
-- [«SOAP](book.soap.md)
-- [Встановлення та налаштування »](soap.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [SOAP](book.soap.md)
+-   [« SOAP](book.soap.html)
+    
+-   [Установка и настройка »](soap.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SOAP](book.soap.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Модуль SOAP може використовуватися для написання серверної, так і
-клієнтської частини. Він реалізує специфікації [» SOAP 1.1](http://www.w3.org/TR/soap11/), [» SOAP 1.2](http://www.w3.org/TR/soap12/) та [»WSDL 1.1](http://www.w3.org/TR/wsdl).
+Модуль SOAP може бути використаний для написання як серверної, так і клієнтської частини. Він реалізує специфікації [» SOAP 1.1](http://www.w3.org/TR/soap11/) [» SOAP 1.2](http://www.w3.org/TR/soap12/) і [» WSDL 1.1](http://www.w3.org/TR/wsdl)

@@ -1,70 +1,94 @@
-- [« IntlCalendar::equals](intlcalendar.equals.md)
-- [IntlCalendar::fromDateTime »](intlcalendar.fromdatetime.md)
+Обчислює різницю між заданим часом та часом об'єкта
 
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- обчислює різницю між заданим часом та часом об'єкта
+-   [« IntlCalendar::equals](intlcalendar.equals.html)
+    
+-   [IntlCalendar::fromDateTime »](intlcalendar.fromdatetime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlCalendar](class.intlcalendar.html)
+    
+-   Обчислює різницю між заданим часом та часом об'єкта
+    
 
 # IntlCalendar::fieldDifference
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlCalendar::fieldDifference — Обчислює різницю між заданим
-часом та часом об'єкту
+IntlCalendar::fieldDifference — Обчислює різницю між заданим часом та часом об'єкта
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::fieldDifference**(float `$timestamp`, int
-`$field`): int\|false
+```methodsynopsis
+public IntlCalendar::fieldDifference(float $timestamp, int $field): int|false
+```
 
 Процедурний стиль
 
-**intlcal_field_difference**([IntlCalendar](class.intlcalendar.md)
-`$calendar`, float `$timestamp`, int `$field`): int\|false
+```methodsynopsis
+intlcal_field_difference(IntlCalendar $calendar, float $timestamp, int $field): int|false
+```
 
-Повертає різницю між заданим часом та часом, встановленим для
-об'єкта щодо кількості, вказаної в параметрі `field`.
+Повертає різницю між заданим часом та часом, встановленим для об'єкта, щодо кількості, зазначеної у параметрі `field`
 
-Метод призначений для послідовного виклику, спочатку від найбільш
-значною областю інтересів до менш значної області. В якості
-побічного ефекту, значення календаря для вказаного поля збільшується
-на повернену суму.
+Метод призначений для послідовного виклику, в першу чергу від найбільш значущою областю інтересів до найменш значущої області. Як побічний ефект, значення календаря для вказаного поля збільшується на повернену суму.
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.html)
 
 `timestamp`
-Час, з яким порівнюється кількість, представлена `field`. Щоб
-результат був позитивним, час, зазначений у цьому параметрі
-випереджати час об'єкта, якого викликається метод.
+
+Час, з яким порівнюється кількість, представлена `field`. Щоб результат був позитивним, час, вказаний у цьому параметрі, повинен випереджати час об'єкта, якого викликається метод.
 
 `field`
+
 Поле, що становить кількість, що порівнюється.
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md)
-[констант](class.intlcalendar.md#intlcalendar.constants) полів типу
-дата час. Ціле число від `0` до **`IntlCalendar::FIELD_COUNT`**.
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 
-Повертає різницю часу (зі знаком) в одиницях виміру, пов'язаних
-із зазначеним полем або **`false`** у разі виникнення помилки.
+Повертає різницю часу (зі знаком) в одиницях виміру, пов'язаних із зазначеним полем або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlCalendar::fieldDifference()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'fr_FR');$cal1 = IntlCalendar::fromDateTime('2012-02-29 09:00:1 ');$cal2 = IntlCalendar::fromDateTime('2013-03-01 09:19:29');$time = $cal2->getTime();echo "Час до: ", IntlDateFormatter::formatObject$ ), "
-";printf(    "Різниця в часі: %d рік(років), %d місяць(ів), "  . "%d день(днів), %d годин(ів) і %d хвилин(хвилин)
-",   $cal1->fieldDifference($time, IntlCalendar::FIELD_YEAR),   $cal1->fieldDifference($time, IntlCalendar::FIELD_MONTH),    $cal1->fieldDifference$| >fieldDifference($time, IntlCalendar::FIELD_HOUR_OF_DAY),    $cal1->fieldDifference($time, IntlCalendar::FIELD_MINUTE)); "Час після: ", IntlDateFormatter::formatObject($cal1), "
-";
+```php
+<?php
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'fr_FR');
+
+$cal1 = IntlCalendar::fromDateTime('2012-02-29 09:00:11');
+$cal2 = IntlCalendar::fromDateTime('2013-03-01 09:19:29');
+$time = $cal2->getTime();
+
+echo "Время до: ", IntlDateFormatter::formatObject($cal1), "\n";
+
+printf(
+    "Разница во времени: %d год(лет), %d месяц(ев), "
+  . "%d день(дней), %d час(ов) и %d минуту(минут)\n",
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_YEAR),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_MONTH),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_DAY_OF_MONTH),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_HOUR_OF_DAY),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_MINUTE)
+);
+
+// теперь оно было продвинуто к целевому времени, за исключением секунд,
+// для которых мы не измеряли разницу
+echo "Время после: ", IntlDateFormatter::formatObject($cal1), "\n";
+```
 
 Результат виконання цього прикладу:
 
-Час до: 29 févr. 2012 09:00:11
-Різниця в часі: 1 рік(років), 0 місяць(ів), 1 день(днів), 0 годин(ів) and 19 хвилину(хвилин)
-Час після: 1 mars 2013 09:19:11
+```
+Время до: 29 févr. 2012 09:00:11
+Разница во времени: 1 год(лет), 0 месяц(ев), 1 день(дней), 0 час(ов) and 19 минуту(минут)
+Время после: 1 mars 2013 09:19:11
+```

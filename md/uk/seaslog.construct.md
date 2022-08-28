@@ -1,24 +1,29 @@
-- [« SeasLog::closeLoggerStream](seaslog.closeloggerstream.md)
-- [SeasLog::critical »](seaslog.critical.md)
+Опис
 
-- [PHP Manual](index.md)
-- [SeasLog](class.seaslog.md)
-- Опис
+-   [« SeasLog::closeLoggerStream](seaslog.closeloggerstream.html)
+    
+-   [SeasLog::critical »](seaslog.critical.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SeasLog](class.seaslog.html)
+    
+-   Опис
+    
 
-# SeasLog::\_\_construct
+# SeasLog::construct
 
-(PECL seaslog \>=1.0.0)
+(PECL seaslog >=1.0.0)
 
-SeasLog::\_\_construct — Опис
+SeasLog::construct — Опис
 
 ### Опис
 
-public **SeasLog::\_\_construct**()
+public **SeasLog::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,10 +31,18 @@ public **SeasLog::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::\_\_construct()****
+**Приклад #1 Приклад використання **SeasLog::construct()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```

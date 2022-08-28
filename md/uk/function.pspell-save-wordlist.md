@@ -1,53 +1,63 @@
-- [« pspell_new](function.pspell-new.md)
-- [pspell_store_replacement »](function.pspell-store-replacement.md)
+Зберігає персональний список слів у файлі
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Зберігає персональний список слів у файлі
+-   [« pspell\_new](function.pspell-new.html)
+    
+-   [pspell\_store\_replacement »](function.pspell-store-replacement.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Зберігає персональний список слів у файлі
+    
 
-#pspell_save_wordlist
+# pspellsavewordlist
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_save_wordlist — Зберігає персональний список слів у файлі
+pspellsavewordlist — Зберігає персональний список слів у файлі
 
 ### Опис
 
-**pspell_save_wordlist**([PSpell\Dictionary](class.pspell-dictionary.md)
-`$dictionary`): bool
+```methodsynopsis
+pspell_save_wordlist(PSpell\Dictionary $dictionary): bool
+```
 
-**pspell_save_wordlist()** зберігає персональний список слів поточної
-сесії. Розташування файлів для збереження вказується за допомогою
-[pspell_config_personal()](function.pspell-config-personal.md) та
-(не обов'язково)
-[pspell_config_repl()](function.pspell-config-repl.md).
+**pspellsavewordlist()** зберігає персональний список слів поточної сесії. Розташування файлів для збереження вказується за допомогою [pspell\_config\_personal()](function.pspell-config-personal.html) та (необов'язково) [pspell\_config\_repl()](function.pspell-config-repl.html)
 
 ### Список параметрів
 
 `dictionary`
-Примірник [PSpell\Dictionary](class.pspell-dictionary.md).
+
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                              |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр dictionary тепер очікує на екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[pspell_add_to_personal()](function.pspell-add-to-personal.md)**
+**Приклад #1 Приклад використання [pspell\_add\_to\_personal()](function.pspell-add-to-personal.html)**
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/tmp/dicts/newdict");$pspell = pspell_new_config($pspell_config);pspell_add_$ $pspell);?> `
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/tmp/dicts/newdict");
+$pspell = pspell_new_config($pspell_config);
+
+pspell_add_to_personal($pspell, "Vlad");
+pspell_save_wordlist($pspell);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція не працюватиме, якщо у вас немає pspell .11.2 та aspell .32.5
-> або вище.
+> **Зауваження**
+> 
+> Функція не працюватиме, якщо у вас немає pspell .11.2 і aspell .32.5 або вище.

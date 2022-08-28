@@ -1,57 +1,66 @@
-- [«ErrorException](class.errorexception.md)
-- [ErrorException::getSeverity »](errorexception.getseverity.md)
+Створює виняток
 
-- [PHP Manual](index.md)
-- [ErrorException](class.errorexception.md)
-- Створює виняток
+-   [« ErrorException](class.errorexception.html)
+    
+-   [ErrorException::getSeverity »](errorexception.getseverity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ErrorException](class.errorexception.html)
+    
+-   Створює виняток
+    
 
-# ErrorException::\_\_construct
+# ErrorException::construct
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-ErrorException::\_\_construct — Створює виняток
+ErrorException::construct — Створює виняток
 
 ### Опис
 
-public **ErrorException::\_\_construct**(
-string `$message` = "",
-int `$code` = 0,
-int `$severity` = **`E_ERROR`**,
-?string `$filename` = **`null`**,
-?int `$line` = **`null`**,
-?[Throwable](class.throwable.md) `$previous` = **`null`**
-)
+public **ErrorException::construct**  
+string `$message` = "",  
+int `$code`  
+int `$severity` **`E_ERROR`**  
+?string `$filename` **`null`**  
+?int `$line` **`null`**  
+[Throwable](class.throwable.html) `$previous` **`null`**  
 
 Створює виняток.
 
 ### Список параметрів
 
 `message`
+
 Текст виключення.
 
 `code`
-Код виняток.
+
+Код виключення.
 
 `severity`
+
 Рівень серйозності виключення.
 
-> **Примітка**:
->
-> У той час, як рівень серйозності може бути будь-яким цілим числом
-> (int), передбачається, що її вказівки будуть використані
-> константи [помилок](errorfunc.constants.md).
+> **Зауваження**
+> 
+> У той час, як рівень серйозності може бути будь-яким цілим числом (int), передбачається, що для її вказівки будуть використані константи [ошибок](errorfunc.constants.html)
 
 `filename`
+
 Ім'я файлу, де викликано виняток.
 
 `line`
+
 Номер рядка, де викликано виняток.
 
 `previous`
+
 Попередній виняток. Використовується для створення ланцюжка винятків.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                              |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | filename та line тепер допускають значення null. Раніше їх значеннями за умовчанням були **__FILE__** та **__LINE__** відповідно. |
+| Версия | Описание |
+| --- | --- |
+|  | `filename` і `line` тепер допускають значення null. Раніше їх значеннями за промовчанням були **`__FILE__`** і **`__LINE__`**відповідно. |

@@ -1,52 +1,64 @@
-- [«enchant_broker_describe](function.enchant-broker-describe.md)
-- [enchant_broker_free_dict »](function.enchant-broker-free-dict.md)
+Перевіряє, чи є словник чи ні. Використовується не пустий тег
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Перевіряє, чи присутній словник чи ні. Використовується не порожній
-тег
+-   [« enchant\_broker\_describe](function.enchant-broker-describe.html)
+    
+-   [enchant\_broker\_free\_dict »](function.enchant-broker-free-dict.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Перевіряє, чи є словник чи ні. Використовується не пустий тег
+    
 
-#enchant_broker_dict_exists
+# enchantbrokerdictexists
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-enchant_broker_dict_exists — Перевіряє, чи присутній словник.
-Використовується не пустий тег
+enchantbrokerdictexists — Перевіряє, чи присутній словник. Використовується не пустий тег
 
 ### Опис
 
-**enchant_broker_dict_exists**([EnchantBroker](class.enchantbroker.md)
-`$broker`, string `$tag`): bool
+```methodsynopsis
+enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
+```
 
-Перевіряє, присутній словник чи ні використовуючи не порожній тег
+Перевіряє, чи присутній словник чи ні використовуючи не порожній тег
 
 ### Список параметрів
 
 `broker`
-Провайдер Enchant, який повертається
-[enchant_broker_init()](function.enchant-broker-init.md).
+
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
 
 `tag`
-Не порожній тег у форматі LOCALE, тобто us_US, ch_DE і т.д.
+
+Не порожній тег у форматі LOCALE, тобто: usUS, chDE і т.д.
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**.
+Повертає **`true`** або **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enchant_broker_dict_exists()****
+**Приклад #1 Приклад використання **enchantbrokerdictexists()****
 
-` <?php$tag = 'en_US';$r = enchant_broker_init();if (enchant_broker_dict_exists($r,$tag)) {   echo $tag . "Словник" знайдений.
-";}?> `
+```php
+<?php
+$tag = 'en_US';
+$r = enchant_broker_init();
+if (enchant_broker_dict_exists($r,$tag)) {
+    echo $tag . " словарь найден.\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [enchant_broker_describe()](function.enchant-broker-describe.md) -
-Перелічує провайдерів Enchant
+-   [enchant\_broker\_describe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant

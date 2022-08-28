@@ -1,51 +1,48 @@
-- [«ldap_mod_add](function.ldap-mod-add.md)
-- [ldap_mod_del »](function.ldap-mod-del.md)
+Видалити значення атрибутів із поточних атрибутів
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Видалити значення атрибутів із поточних атрибутів
+-   [« ldap\_mod\_add](function.ldap-mod-add.html)
+    
+-   [ldap\_mod\_del »](function.ldap-mod-del.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Видалити значення атрибутів із поточних атрибутів
+    
 
-#ldap_mod_del_ext
+# ldapmoddelext
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-ldap_mod_del_ext — Видалити значення атрибутів із поточних атрибутів
+ldapmoddelext — Видалити значення атрибутів із поточних атрибутів.
 
 ### Опис
 
-**ldap_mod_del_ext**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`,
-array `$entry`,
-?array `$controls` = **`null`**
-): [LDAP\Result](class.ldap-result.md)\|false
+```methodsynopsis
+ldap_mod_del_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+```
 
-Робить те саме, що і [ldap_mod_del()](function.ldap-mod-del.md),
-але повертає екземпляр [LDAP\Result](class.ldap-result.md) для
-розбору за допомогою
-[ldap_parse_result()](function.ldap-parse-result.md).
+Робить те саме, що й [ldap\_mod\_del()](function.ldap-mod-del.html), але повертає екземпляр [LDAP\\Result](class.ldap-result.html) для розбору за допомогою [ldap\_parse\_result()](function.ldap-parse-result.html)
 
 ### Список параметрів
 
-Дивіться [ldap_mod_del()](function.ldap-mod-del.md)
+Дивіться [ldap\_mod\_del()](function.ldap-mod-del.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Result](class.ldap-result.md) або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.html) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 
-- [ldap_mod_del()](function.ldap-mod-del.md) - Видалити значення
-атрибута із поточних атрибутів
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
+-   [ldap\_mod\_del()](function.ldap-mod-del.html) - Видалити значення атрибута із поточних атрибутів
+-   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату

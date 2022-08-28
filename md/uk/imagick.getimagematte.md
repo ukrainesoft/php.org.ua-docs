@@ -1,29 +1,33 @@
-- [« Imagick::getImageLength](imagick.getimagelength.md)
-- [Imagick::getImageMatteColor »](imagick.getimagemattecolor.md)
+Повертає, якщо зображення містить матовий канал
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає, якщо зображення містить матовий канал
+-   [« Imagick::getImageLength](imagick.getimagelength.html)
+    
+-   [Imagick::getImageMatteColor »](imagick.getimagemattecolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає, якщо зображення містить матовий канал
+    
 
 # Imagick::getImageMatte
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageMatte — Повертає, якщо зображення містить матовий
-канал
+Imagick::getImageMatte — Повертає, якщо зображення містить матовий канал
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::getImageMatte**(): bool
+```methodsynopsis
+public Imagick::getImageMatte(): bool
+```
 
-Повертає **`true`**, якщо зображення містить матовий канал,
-в іншому випадку повертає false. Цей метод доступний, якщо Imagick був
-скомпільований з версією ImageMagick 6.2.9 або старшим.
+Повертає **`true`**якщо зображення містить матовий канал, інакше повертає false. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -31,4 +35,4 @@ public **Imagick::getImageMatte**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

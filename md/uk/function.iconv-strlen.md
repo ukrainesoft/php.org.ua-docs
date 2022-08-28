@@ -1,51 +1,52 @@
-- [« iconv_set_encoding](function.iconv-set-encoding.md)
-- [iconv_strpos »](function.iconv-strpos.md)
+Повертає кількість символів у рядку
 
-- [PHP Manual](index.md)
-- [Функції iconv](ref.iconv.md)
-- Повертає кількість символів у рядку
+-   [« iconv\_set\_encoding](function.iconv-set-encoding.html)
+    
+-   [iconv\_strpos »](function.iconv-strpos.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции iconv](ref.iconv.html)
+    
+-   Повертає кількість символів у рядку
+    
 
-# iconv_strlen
+# iconvstrlen
 
 (PHP 5, PHP 7, PHP 8)
 
-iconv_strlen — Повертає кількість символів у рядку
+iconvstrlen — Повертає кількість символів у рядку
 
 ### Опис
 
-**iconv_strlen**(string `$string`, ?string `$encoding` = **`null`**):
-int\|false
+```methodsynopsis
+iconv_strlen(string $string, ?string $encoding = null): int|false
+```
 
-На відміну від [strlen()](function.strlen.md), **iconv_strlen()**
-враховує кодування рядка. Довжина `string` не обов'язково буде
-відповідати кількості байт у ній, так як у різних кодуваннях
-різні символи кодуються різною кількістю байт, наприклад,
-Юнікод може бути і дво-, і чотирибайтним.
+На відміну від [strlen()](function.strlen.html) **iconvstrlen()** враховує кодування рядка. Довжина `string` не обов'язково буде відповідати кількості байт у ній, так як у різних кодуваннях різні символи кодуються різною кількістю байт, наприклад, юнікод може бути і дво-, і чотирибайтним.
 
 ### Список параметрів
 
 `string`
+
 Рядок.
 
 `encoding`
-Якщо параметр `encoding` опущений, передбачається, що кодування рядка
-`string` еквівалентна значенню
-[iconv.internal_encoding](iconv.configuration.md).
+
+Якщо параметр `encoding` опущено, передбачається, що кодування рядка `string` еквівалентна значенню [iconv.internal\_encoding](iconv.configuration.html)
 
 ### Значення, що повертаються
 
-Повертає кількість символів в `string` як ціле число або
-**`false`** у разі виникнення помилки при кодуванні.
+Повертає кількість символів у `string` як ціле число або **`false`** у разі виникнення помилки під час кодування.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                   |
-|--------|----------------------------------------|
-| 8.0.0  | encoding тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [grapheme_strlen()](function.grapheme-strlen.md) - Отримує довжину
-рядки в одиницях графеми
-- [mb_strlen()](function.mb-strlen.md) - Отримує довжину рядка
-- [strlen()](function.strlen.md) - Повертає довжину рядка
+-   [grapheme\_strlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
+-   [mb\_strlen()](function.mb-strlen.html) - Отримує довжину рядка
+-   [strlen()](function.strlen.html) - Повертає довжину рядка

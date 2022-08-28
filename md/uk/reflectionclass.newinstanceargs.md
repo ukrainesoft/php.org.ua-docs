@@ -1,63 +1,68 @@
-- [« ReflectionClass::newInstance](reflectionclass.newinstance.md)
-- [ReflectionClass::newInstanceWithoutConstructor »](reflectionclass.newinstancewithoutconstructor.md)
+Створює екземпляр класу з переданими параметрами
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- створює екземпляр класу з переданими параметрами
+-   [« ReflectionClass::newInstance](reflectionclass.newinstance.html)
+    
+-   [ReflectionClass::newInstanceWithoutConstructor »](reflectionclass.newinstancewithoutconstructor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Створює екземпляр класу з переданими параметрами
+    
 
 # ReflectionClass::newInstanceArgs
 
-(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
+(PHP 5> = 5.1.3, PHP 7, PHP 8)
 
-ReflectionClass::newInstanceArgs — Створює екземпляр класу з
-переданими параметрами
+ReflectionClass::newInstanceArgs — Створює екземпляр класу з переданими параметрами
 
 ### Опис
 
-public **ReflectionClass::newInstanceArgs**(array `$args` = []):
-?object
+```methodsynopsis
+public ReflectionClass::newInstanceArgs(array $args = []): ?object
+```
 
-Створює новий екземпляр класу. Прийняті аргументи передаються в
-конструктор класу.
+Створює новий екземпляр класу. Прийняті аргументи передаються конструктор класу.
 
 ### Список параметрів
 
 `args`
-Масив (array) аргументів, який потім передається до конструктора
-класу.
+
+Масив (array) аргументів, який потім передається конструктор класу.
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр класу або **`null`** у разі виникнення
-помилки.
+Повертає новий екземпляр класу або **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо конструктор не є public (загальнодоступним), це призведе до
-генерації виключення
-[ReflectionException](class.reflectionexception.md).
+Якщо конструктор не є public (загальнодоступним), це призведе до генерації винятку [ReflectionException](class.reflectionexception.html)
 
-Якщо конструктор відсутній, а параметр args має один і більше
-аргументів, це призведе до генерації виключення
-[ReflectionException](class.reflectionexception.md).
+Якщо конструктор відсутня, а параметр `args` має один і більше аргументів, то це призведе до генерації винятку [ReflectionException](class.reflectionexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionClass::newInstanceArgs()****
+**Приклад #1 Приклад використання **ReflectionClass::newInstanceArgs()****
 
-` <?php$class = new ReflectionClass('ReflectionFunction');$instance = $class->newInstanceArgs(array('substr'));var_dump($instance);?> `
+```php
+<?php
+$class = new ReflectionClass('ReflectionFunction');
+$instance = $class->newInstanceArgs(array('substr'));
+var_dump($instance);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(ReflectionFunction)#2 (1) {
-["name"]=>
-string(6) "substr"
+  ["name"]=>
+  string(6) "substr"
 }
+```
 
 ### Дивіться також
 
-- [ReflectionClass::newInstance()](reflectionclass.newinstance.md) -
-Створює екземпляр класу з переданими аргументами
-- [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.md) -
-Створює новий екземпляр класу без виклику конструктора
+-   [ReflectionClass::newInstance()](reflectionclass.newinstance.html) - створює екземпляр класу з переданими аргументами
+-   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.html) - Створює новий екземпляр класу без виклику конструктора

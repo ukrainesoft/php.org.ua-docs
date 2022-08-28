@@ -1,40 +1,38 @@
-- [«ctype_xdigit](function.ctype-xdigit.md)
-- [Вступ »](intro.filter.md)
+Фільтрування даних
 
-- [PHP Manual](index.md)
-- [Модулі, що стосуються змінних та типів](refs.basic.vartype.md)
-- Фільтрування даних
+-   [« ctype\_xdigit](function.ctype-xdigit.html)
+    
+-   [Введение »](intro.filter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Модули, относящиеся к переменным и типам](refs.basic.vartype.html)
+    
+-   Фільтрування даних
+    
 
 # Фільтрування даних
 
-- [Вступ](intro.filter.md)
-- [Встановлення та налаштування](filter.setup.md)
-- [Вимоги](filter.requirements.md)
-- [Установка](filter.installation.md)
-- [Налаштування під час виконання](filter.configuration.md)
-- [Типи ресурсів](filter.resources.md)
-- [Типи фільтрів](filter.filters.md)
-- [Фільтри валідації даних](filter.filters.validate.md)
-- [Очищувальні фільтри](filter.filters.sanitize.md)
-- [Інші фільтри](filter.filters.misc.md)
-- [Прапори, що використовуються у фільтрах](filter.filters.flags.md)
-- [Предвизначені константи](filter.constants.md)
-- [Приклади](filter.examples.md)
-- [Перевірка (валідація)](filter.examples.validation.md)
-- [Очистка (нормалізація)](filter.examples.sanitization.md)
-- [Функції фільтрації даних](ref.filter.md)
-- [filter_has_var](function.filter-has-var.md) — Перевіряє
-існування змінної зазначеного типу
-- [filter_id](function.filter-id.md) — Повертає ідентифікатор,
-що належить іменованому фільтру
-- [filter_input_array](function.filter-input-array.md) -
-Отримує кілька змінних ззовні PHP і, за необхідності,
-фільтрує їх
-- [filter_input](function.filter-input.md) - Приймає
-змінну ззовні PHP і, за необхідності, фільтрує її
-- [filter_list](function.filter-list.md) — Повертає список
-всіх підтримуваних фільтрів
-- [filter_var_array](function.filter-var-array.md) - Приймає
-кілька змінних і, при необхідності, фільтрує їх
-- [filter_var](function.filter-var.md) - Фільтрує змінну з
-допомогою певного фільтра
+-   [Введение](intro.filter.html)
+-   [Установка и настройка](filter.setup.html)
+    -   [Требования](filter.requirements.html)
+    -   [Установка](filter.installation.html)
+    -   [Настройка во время выполнения](filter.configuration.html)
+    -   [Типы ресурсов](filter.resources.html)
+-   [Типы фильтров](filter.filters.html)
+    -   [Фильтры валидации данных](filter.filters.validate.html)
+    -   [Очищающие фильтры](filter.filters.sanitize.html)
+    -   [Остальные фильтры](filter.filters.misc.html)
+    -   [Флаги, используемые в фильтрах](filter.filters.flags.html)
+-   [Предопределённые константы](filter.constants.html)
+-   [Примеры](filter.examples.html)
+    -   [Проверка (валидация)](filter.examples.validation.html)
+    -   [Очистка (нормализация)](filter.examples.sanitization.html)
+-   [Функции фильтрации данных](ref.filter.html)
+    -   [filter\_has\_var](function.filter-has-var.html) - Перевіряє існування змінної зазначеного типу
+    -   [filter\_id](function.filter-id.html) — Повертає ідентифікатор, який належить іменованому фільтру
+    -   [filter\_input\_array](function.filter-input-array.html) — Отримує кілька змінних ззовні PHP і, за потреби, фільтрує їх
+    -   [filter\_input](function.filter-input.html) - Приймає змінну ззовні PHP і, при необхідності, фільтрує її
+    -   [filter\_list](function.filter-list.html) — Повертає список усіх підтримуваних фільтрів
+    -   [filter\_var\_array](function.filter-var-array.html) — Приймає кілька змінних і, за потреби, фільтрує їх
+    -   [filter\_var](function.filter-var.html) — Фільтрує змінну за допомогою певного фільтра

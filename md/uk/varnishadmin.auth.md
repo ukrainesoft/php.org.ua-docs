@@ -1,19 +1,27 @@
-- [«VarnishAdmin](class.varnishadmin.md)
-- [VarnishAdmin::ban »](varnishadmin.ban.md)
+Аутентифікація на екземплярі varnish
 
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Аутентифікація на екземплярі varnish
+-   [« VarnishAdmin](class.varnishadmin.html)
+    
+-   [VarnishAdmin::ban »](varnishadmin.ban.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [VarnishAdmin](class.varnishadmin.html)
+    
+-   Аутентифікація на екземплярі varnish
+    
 
 # VarnishAdmin::auth
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
 VarnishAdmin::auth — Аутентифікація на екземплярі varnish
 
 ### Опис
 
-public **VarnishAdmin::auth**(): bool
+```methodsynopsis
+public VarnishAdmin::auth(): bool
+```
 
 ### Список параметрів
 
@@ -21,5 +29,4 @@ public **VarnishAdmin::auth**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

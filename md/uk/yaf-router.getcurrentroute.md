@@ -1,26 +1,33 @@
-- [« Yaf_Router::\_\_construct](yaf-router.construct.md)
-- [Yaf_Router::getRoute »](yaf-router.getroute.md)
+Отримує ім'я діючого маршруту
 
-- [PHP Manual](index.md)
-- [Yaf_Router](class.yaf-router.md)
-- Отримує ім'я діючого маршруту
+-   [« Yaf\_Router::\_\_construct](yaf-router.construct.html)
+    
+-   [Yaf\_Router::getRoute »](yaf-router.getroute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Router](class.yaf-router.html)
+    
+-   Отримує ім'я діючого маршруту
+    
 
-# Yaf_Router::getCurrentRoute
+# YafRouter::getCurrentRoute
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Router::getCurrentRoute — Отримує ім'я діючого маршруту
+YafRouter::getCurrentRoute — Отримує ім'я чинного маршруту
 
 ### Опис
 
-public **Yaf_Router::getCurrentRoute**(): string
+```methodsynopsis
+public Yaf_Router::getCurrentRoute(): string
+```
 
 Отримує ім'я діючого маршруту.
 
-> **Примітка**:
->
-> Ви повинні викликати цей метод після завершення процесу маршрутизації,
-> оскільки до цього цей метод завжди повертатиме **`null`**.
+> **Зауваження**
+> 
+> Ви повинні викликати цей метод після завершення процесу маршрутизації, оскільки до цього цей метод завжди повертатиметься **`null`**
 
 ### Список параметрів
 
@@ -34,33 +41,79 @@ public **Yaf_Router::getCurrentRoute**(): string
 
 **Приклад #1 Реєстрація деяких маршрутів у Bootstrap**
 
-` <?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config =Yaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {       $router =$$dispatcher->getRouter(); $rewrite_route  = new Yaf_Route_Rewrite(            "/product/list/:page",            array(                "controller" => "product",                "action"     => "list",            )        ); $regex_route  = new Yaf_Route_Rewrite(            "#^/product/info/(\d+)",            array(                "controller" => "product",                "action"     => "info",            )        ); $router->addRoute('rewrite', $rewrite_route)->addRoute('regex', $regex_route); }   /**     * зареєструвати плагін     */   public function __initPlugins(Yaf_Dispatcher $dispatcher) { {         | }}?> `
+```php
+<?php
+class Bootstrap extends Yaf_Bootstrap_Abstract{
+    public function _initConfig() {
+        $config = Yaf_Application::app()->getConfig();
+        Yaf_Registry::set("config", $config);
+    }
 
-**Приклад #2 Плагін Dummy.php (в
-[application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**
+    public function _initRoute(Yaf_Dispatcher $dispatcher) {
+        $router = $dispatcher->getRouter();
+        $rewrite_route  = new Yaf_Route_Rewrite(
+            "/product/list/:page",
+            array(
+                "controller" => "product",
+                "action"     => "list",
+            )
+        );
 
-` <?phpclass DummyPlugin extends Yaf_Plugin_Abstract {    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {         var_dump(Yaf_Dispatcher::getInstance()->getRouter()->getCurrentRoute()); }}?> `
+        $regex_route  = new Yaf_Route_Rewrite(
+            "#^/product/info/(\d+)",
+            array(
+                "controller" => "product",
+                "action"     => "info",
+            )
+        );
+
+        $router->addRoute('rewrite', $rewrite_route)->addRoute('regex', $regex_route);
+    }
+
+    /**
+     * зарегистрировать плагин
+     */
+    public function __initPlugins(Yaf_Dispatcher $dispatcher) {
+        $dispatcher->registerPlugin(new DummyPlugin());
+    }
+}
+?>
+```
+
+**Приклад #2 Плагін Dummy.php (у [application.directory](yaf.appconfig.html#configuration.yaf.directory)/plugins)**
+
+```php
+<?php
+class DummyPlugin extends Yaf_Plugin_Abstract {
+
+    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+         var_dump(Yaf_Dispatcher::getInstance()->getRouter()->getCurrentRoute());
+    }
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /* для http://yourdomain.com/product/list/1
-* DummyPlugin виведе:
-*/
+ * DummyPlugin выведет:
+ */
 string(7) "rewrite"
 
 /* для http://yourdomain.com/product/info/34
-* DummyPlugin виведе:
-*/
+ * DummyPlugin выведет:
+ */
 string(5) "regex"
 
-/* для іншого запиту URI
-* DummyPlugin виведе:
-*/
+/* для другого запроса URI
+ * DummyPlugin выведет:
+ */
 string(8) "_default"
+```
 
 ### Дивіться також
 
-- [Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
-- [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-- [Yaf_Router::addRoute()](yaf-router.addroute.md) - Додає новий
-маршрут у маршрутизатор
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.html)
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора

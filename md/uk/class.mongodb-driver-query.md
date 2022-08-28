@@ -1,32 +1,45 @@
-- [« MongoDB\Driver\Command::\_\_construct](mongodb-driver-command.construct.md)
-- [MongoDB\Driver\Query::\_\_construct »](mongodb-driver-query.construct.md)
+Клас MongoDBDriverQuery
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver](book.mongodb.md)
-- Клас MongoDB\Driver\Query
+-   [« MongoDB\\Driver\\Command::\_\_construct](mongodb-driver-command.construct.html)
+    
+-   [MongoDB\\Driver\\Query::\_\_construct »](mongodb-driver-query.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver](book.mongodb.html)
+    
+-   Клас MongoDBDriverQuery
+    
 
-# Клас MongoDB\Driver\Query
+# Клас MongoDBDriverQuery
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
-Клас **MongoDB\Driver\Query** - це об'єкт значення, що представляє
-- запит бази даних.
+Клас **MongoDBDriverQuery** - Це об'єкт значення, що представляє запит бази даних.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Query** {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[\_\_construct](mongodb-driver-query.construct.md)(array\|object
-`$filter`, array `$queryOptions` = ?)
 
-}
+    
+     final
+     
+      class MongoDB\Driver\Query
+     
+     {
+
+
+    /* Методы */
+    
+   final public __construct(array|object $filter, ?array $queryOptions = null)
+
+   }
+```
 
 ## Зміст
 
-- [MongoDB\Driver\Query::\_\_construct](mongodb-driver-query.construct.md)
-- Створює новий запит
+-   [MongoDB\\Driver\\Query::\_\_construct](mongodb-driver-query.construct.html) - Створює новий запит

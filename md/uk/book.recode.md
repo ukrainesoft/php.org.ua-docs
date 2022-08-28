@@ -1,22 +1,26 @@
-- [«PSpell\Config](class.pspell-config.md)
-- [Вступ »](intro.recode.md)
+GNU Recode
 
-- [PHP Manual](index.md)
-- [Підтримка мов та кодувань](refs.international.md)
-- GNU Recode
+-   [« PSpell\\Config](class.pspell-config.html)
+    
+-   [Введение »](intro.recode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Поддержка языков и кодировок](refs.international.html)
+    
+-   GNU Recode
+    
 
 # GNU Recode
 
-- [Вступ](intro.recode.md)
-- [Встановлення та налаштування](recode.setup.md)
-- [Вимоги](recode.requirements.md)
-- [Установка](recode.installation.md)
-- [Налаштування під час виконання](recode.configuration.md)
-- [Типи ресурсів](recode.resources.md)
-- [Предвизначені константи](recode.constants.md)
-- [Функції Recode](ref.recode.md)
-- [recode_file](function.recode-file.md) — Перекодує з
-одного файлу в інший відповідно до заданих параметрів
-- [recode_string](function.recode-string.md) — Перекодування
-рядок відповідно до заданих параметрів
-- [recode](function.recode.md) - Псевдонім recode_string
+-   [Введение](intro.recode.html)
+-   [Установка и настройка](recode.setup.html)
+    -   [Требования](recode.requirements.html)
+    -   [Установка](recode.installation.html)
+    -   [Настройка во время выполнения](recode.configuration.html)
+    -   [Типы ресурсов](recode.resources.html)
+-   [Предопределённые константы](recode.constants.html)
+-   [Функции Recode](ref.recode.html)
+    -   [recode\_file](function.recode-file.html) — Перекодує з одного файлу до іншого відповідно до заданих параметрів
+    -   [recode\_string](function.recode-string.html) — Перекодує рядок відповідно до заданих параметрів
+    -   [recode](function.recode.html) - Псевдонім recodestring

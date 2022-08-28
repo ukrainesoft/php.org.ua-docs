@@ -1,9 +1,15 @@
-- [«UI\Draw\Line\Cap](class.ui-draw-line-cap.md)
-- [UI\Key »](class.ui-key.md)
+Налаштування з'єднання ліній
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Налаштування з'єднання ліній
+-   [« UI\\Draw\\Line\\Cap](class.ui-draw-line-cap.html)
+    
+-   [UI\\Key »](class.ui-key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Налаштування з'єднання ліній
+    
 
 # Налаштування з'єднання ліній
 
@@ -13,14 +19,31 @@
 
 ## Огляд класів
 
-final class **UI\Draw\Line\Join** {
+```synopsis
 
-/\* Константи \*/
 
-const int `Miter`;
 
-const int `Round`;
+    
+     
+      final
+      class UI\Draw\Line\Join
+     
+     {
 
-const int `Bevel`;
+    /* Константы */
+    
+     const
+     int
+      Miter;
 
-}
+    const
+     int
+      Round;
+
+    const
+     int
+      Bevel;
+
+
+   }
+```

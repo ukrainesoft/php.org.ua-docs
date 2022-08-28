@@ -1,20 +1,27 @@
-- [« GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md)
-- [GearmanClient::wait »](gearmanclient.wait.md)
+Отримання часу очікування операцій введення/виводу
 
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Отримання значення часу очікування операцій введення/виводу
+-   [« GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.html)
+    
+-   [GearmanClient::wait »](gearmanclient.wait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanClient](class.gearmanclient.html)
+    
+-   Отримання часу очікування операцій введення/виводу
+    
 
 # GearmanClient::timeout
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
-GearmanClient::timeout — Отримання значення часу очікування операцій
-введення/виводу
+GearmanClient::timeout — Отримання часу очікування операцій введення/виводу
 
 ### Опис
 
-public **GearmanClient::timeout**(): int
+```methodsynopsis
+public GearmanClient::timeout(): int
+```
 
 Повертає час очікування операцій введення/виводу у мілісекундах.
 
@@ -24,10 +31,8 @@ public **GearmanClient::timeout**(): int
 
 ### Значення, що повертаються
 
-Час очікування у мілісекундах. Негативне значення означає
-відсутність обмеження.
+Час очікування у мілісекундах. Негативне значення означає відсутність обмеження.
 
 ### Дивіться також
 
-- [GearmanClient::setTimeout()](gearmanclient.settimeout.md) -
-Встановлення часу очікування для введення/виводу
+-   [GearmanClient::setTimeout()](gearmanclient.settimeout.html) - Встановлення часу очікування для операцій введення/виводу

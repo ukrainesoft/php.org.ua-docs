@@ -1,42 +1,52 @@
-- [« CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.md)
-- [CollectionRemove::sort »](mysql-xdevapi-collectionremove.sort.md)
+Обмежує кількість документів для видалення
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)
-- Обмежує кількість документів для видалення
+-   [« CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.html)
+    
+-   [CollectionRemove::sort »](mysql-xdevapi-collectionremove.sort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html)
+    
+-   Обмежує кількість документів для видалення
+    
 
 # CollectionRemove::limit
 
 (No version information available, might only be in Git)
 
-CollectionRemove::limit — Обмежує кількість документів для
-видалення
+Collection Remove::limit — Обмежує кількість документів для видалення
 
 ### Опис
 
-public **mysql_xdevapi\CollectionRemove::limit**(int `$rows`):
-[mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionRemove::limit(int $rows): mysql_xdevapi\CollectionRemove
+```
 
 Встановлює максимальну кількість документів для видалення.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `rows`
+
 Максимальна кількість документів видалення.
 
 ### Значення, що повертаються
 
-Повертає об'єкт CollectionRemove, який можна використовувати для
-виконання команди або додавання додаткових операцій.
+Повертає об'єкт CollectionRemove, який можна використовувати для виконання команди або додавання додаткових операцій.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionRemove::limit()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionRemove::limit()****
 
-` <?php$res = $coll->remove('job in (\'Barista\', \'Programmatore\', \'Ballerino\', \'Programmatrice\')')->limit(5)- >sort(['age desc', 'name asc'])->execute();?> `
+```php
+<?php
+
+$res = $coll->remove('job in (\'Barista\', \'Programmatore\', \'Ballerino\', \'Programmatrice\')')->limit(5)->sort(['age desc', 'name asc'])->execute();
+
+?>
+```

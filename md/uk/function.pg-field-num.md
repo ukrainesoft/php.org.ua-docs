@@ -1,62 +1,74 @@
-- [« pg_field_name](function.pg-field-name.md)
-- [pg_field_prtlen »](function.pg-field-prtlen.md)
+Повертає порядковий номер іменованого поля
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає порядковий номер іменованого поля
+-   [« pg\_field\_name](function.pg-field-name.html)
+    
+-   [pg\_field\_prtlen »](function.pg-field-prtlen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає порядковий номер іменованого поля
+    
 
-#pg_field_num
+# пгfieldnum
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_field_num - Повертає порядковий номер іменованого поля
+пгfieldnum - Повертає порядковий номер іменованого поля
 
 ### Опис
 
-**pg_field_num**([PgSql\Result](class.pgsql-result.md) `$result`,
-string `$field`): int
+```methodsynopsis
+pg_field_num(PgSql\Result $result, string $field): int
+```
 
-**pg_field_num()** поверне порядковий номер поля з ім'ям `field` у
-в результаті запиту `result`.
+**пгfieldnum()** поверне порядковий номер поля з ім'ям `field` в результаті запиту `result`
 
-> **Примітка**:
->
-> Колишня назва функції: pg_fieldnum()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгfieldnum()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `field`
-Найменування поля. Це ім'я обробляється як ідентифікатор у
-SQL-команді, тобто воно переводиться в нижній регістр, якщо воно не
-укладено у подвійні лапки.
+
+Найменування поля. Це ім'я обробляється як ідентифікатор у SQL-команді, тобто воно переводиться в нижній регістр, якщо воно не укладено в подвійні лапки.
 
 ### Значення, що повертаються
 
 Номер поля (починаючи з нуля) або -1 у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поля вибірки**
 
-`<?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з базою"); $res = pg_query($dbconn, "select author, year, title from authors where author ='Orwell'"); echo "Стовпець 'title' - це поле з номером: ", pg_field_num($res, 'title');?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+
+  $res = pg_query($dbconn, "select author, year, title from authors where author = 'Orwell'");
+
+  echo "Столбец 'title' - это поле с номером: ", pg_field_num($res, 'title');
+?>
+```
 
 Результат виконання цього прикладу:
 
-Стовпець 'title' - це поле з номером: 2
+```
+Столбец 'title' - это поле с номером: 2
+```
 
 ### Дивіться також
 
-- [pg_field_name()](function.pg-field-name.md) - Повертає
-найменування поля
+-   [pg\_field\_name()](function.pg-field-name.html) - Повертає найменування поля

@@ -1,22 +1,29 @@
-- [« PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md)
-- [PharFileInfo::getMetadata »](pharfileinfo.getmetadata.md)
+Отримати повний вміст файлу запису
 
-- [PHP Manual](index.md)
-- [PharFileInfo](class.pharfileinfo.md)
-- Отримати повний вміст файлу запису
+-   [« PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.html)
+    
+-   [PharFileInfo::getMetadata »](pharfileinfo.getmetadata.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PharFileInfo](class.pharfileinfo.html)
+    
+-   Отримати повний вміст файлу запису
+    
 
 # PharFileInfo::getContent
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 PharFileInfo::getContent — Отримати повний вміст файлу запису
 
 ### Опис
 
-public **PharFileInfo::getContent**(): string
+```methodsynopsis
+public PharFileInfo::getContent(): string
+```
 
-Ця функція поводиться як
-[file_get_contents()](function.file-get-contents.md), але для Phar.
+Ця функція поводиться як [file\_get\_contents()](function.file-get-contents.html)але для Phar.
 
 ### Список параметрів
 

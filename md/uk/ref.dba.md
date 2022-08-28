@@ -1,35 +1,32 @@
-- [« Базове використання](dba.example.md)
-- [dba_close »](function.dba-close.md)
+Функції DBA
 
-- [PHP Manual](index.md)
-- [DBA](book.dba.md)
-- Функції DBA
+-   [« Базовое использование](dba.example.html)
+    
+-   [dba\_close »](function.dba-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DBA](book.dba.html)
+    
+-   Функції DBA
+    
 
 # Функції DBA
 
 ## Зміст
 
-- [dba_close](function.dba-close.md) — Закриває базу даних DBA
-- [dba_delete](function.dba-delete.md) — Видалення запису бази даних
-визначену ключем
-- [dba_exists](function.dba-exists.md) — Перевіряє, чи існує
-ключ
-- [dba_fetch](function.dba-fetch.md) — Витягує дані з
-вказаним ключем
-- [dba_firstkey](function.dba-firstkey.md) — Витягує перший ключ
-- [dba_handlers](function.dba-handlers.md) — Перелік усіх доступних
-обробників
-- [dba_insert](function.dba-insert.md) — Вставляє запис
-- [dba_key_split](function.dba-key-split.md) — розділяє ключ,
-заданий у вигляді рядка та створює масив з отриманих частин
-- [dba_list](function.dba-list.md) — Список усіх відкритих файлів
-бази даних
-- [dba_nextkey](function.dba-nextkey.md) — Витягує наступний ключ
-- [dba_open](function.dba-open.md) — Відкриває базу даних
-- [dba_optimize](function.dba-optimize.md) - Оптимізує базу
-даних
-- [dba_popen](function.dba-popen.md) — встановити постійний
-екземпляр бази даних
-- [dba_replace](function.dba-replace.md) — Перезаписати або вставити
-запис
-- [dba_sync](function.dba-sync.md) — Синхронізує базу даних
+-   [dba\_close](function.dba-close.html) — Закриває базу даних DBA
+-   [dba\_delete](function.dba-delete.html) — Видаляє запис бази даних, визначену ключем
+-   [dba\_exists](function.dba-exists.html) — Перевіряє, чи існує ключ
+-   [dba\_fetch](function.dba-fetch.html) — Витягує дані за вказаним ключем
+-   [dba\_firstkey](function.dba-firstkey.html) — Витягує перший ключ
+-   [dba\_handlers](function.dba-handlers.html) - Список всіх доступних обробників
+-   [dba\_insert](function.dba-insert.html) - Вставляє запис
+-   [dba\_key\_split](function.dba-key-split.html) — Розділяє ключ, заданий у вигляді рядка та створює масив із отриманих частин
+-   [dba\_list](function.dba-list.html) - Список всіх відкритих файлів бази даних
+-   [dba\_nextkey](function.dba-nextkey.html) — Витягує наступний ключ
+-   [dba\_open](function.dba-open.html) — Відкриває базу даних
+-   [dba\_optimize](function.dba-optimize.html) - Оптимізує базу даних
+-   [dba\_popen](function.dba-popen.html) — Встановити постійний екземпляр бази даних
+-   [dba\_replace](function.dba-replace.html) - Перезаписати або вставити запис
+-   [dba\_sync](function.dba-sync.html) — Синхронізує базу даних

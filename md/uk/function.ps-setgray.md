@@ -1,37 +1,44 @@
-- [«ps_setfont](function.ps-setfont.md)
-- [ps_setlinecap »](function.ps-setlinecap.md)
+Встановлює значення сірого
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює значення сірого
+-   [« ps\_setfont](function.ps-setfont.html)
+    
+-   [ps\_setlinecap »](function.ps-setlinecap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює значення сірого
+    
 
-#ps_setgray
+# псsetgray
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_setgray — Встановлює значення сірого
+псsetgray - Встановлює значення сірого
 
 ### Опис
 
-**ps_setgray**(resource `$psdoc`, float `$gray`): bool
+```methodsynopsis
+ps_setgray(resource $psdoc, float $gray): bool
+```
 
-Встановлює значення сірого для наступних операцій малювання.
+Встановлює значення сірого всіх наступних операцій малювання.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `gray`
-Значення має бути від 0 (білий) до 1 (чорний).
+
+Значення повинне бути від 0 (білий) до 1 (чорний).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_setcolor()](function.ps-setcolor.md) - Встановлює поточний
-колір
+-   [ps\_setcolor()](function.ps-setcolor.html) - Встановлює поточний колір

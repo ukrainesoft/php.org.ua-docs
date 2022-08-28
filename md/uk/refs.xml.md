@@ -1,102 +1,96 @@
-- [«win32_stop_service](function.win32-stop-service.md)
-- [DOM »](book.dom.md)
+Обробка XML
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Обробка XML
+-   [« win32\_stop\_service](function.win32-stop-service.html)
+    
+-   [DOM »](book.dom.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Обробка XML
+    
 
 # Обробка XML
 
-- [DOM](book.dom.md) - Document Object Model
-- [Вступ](intro.dom.md)
-- [Встановлення та налаштування](dom.setup.md)
-- [Предвизначені константи](dom.constants.md)
-- [Приклади](dom.examples.md)
-- [DOMAttr](class.domattr.md) - Клас DOMAttr
-- [DOMCdataSection](class.domcdatasection.md) - Клас
-DOMCdataSection
-- [DOMCharacterData](class.domcharacterdata.md) - Клас
-DOMCharacterData
-- [DOMChildNode](class.domchildnode.md) — Інтерфейс DOMChildNode
-- [DOMComment](class.domcomment.md) - Клас DOMComment
-- [DOMDocument](class.domdocument.md) - Клас DOMDocument
-- [DOMDocumentFragment](class.domdocumentfragment.md) - Клас
-DOMDocumentFragment
-- [DOMDocumentType](class.domdocumenttype.md) — Клас
-DOMDocumentType
-- [DOMElement](class.domelement.md) - Клас DOMElement
-- [DOMEntity](class.domentity.md) - Клас DOMEntity
-- [DOMEntityReference](class.domentityreference.md) - Клас
-DOMEntityReference
-- [DOMException](class.domexception.md) - Клас DOMException
-- [DOMImplementation](class.domimplementation.md) - Клас
-DOMImplementation
-- [DOMNamedNodeMap](class.domnamednodemap.md) - Клас
-DOMNamedNodeMap
-- [DOMNode](class.domnode.md) - Клас DOMNode
-- [DOMNodeList](class.domnodelist.md) - Клас DOMNodeList
-- [DOMNotation](class.domnotation.md) - Клас DOMNotation
-- [DOMParentNode](class.domparentnode.md) — Інтерфейс
-DOMParentNode
-- [DOMProcessingInstruction](class.domprocessinginstruction.md)
-- Клас DOMProcessingInstruction
-- [DOMText](class.domtext.md) - Клас DOMText
-- [DOMXPath](class.domxpath.md) - Клас DOMXPath
-- [Функції DOM](ref.dom.md)
-- [libxml](book.libxml.md)
-- [Вступ](intro.libxml.md)
-- [Встановлення та налаштування](libxml.setup.md)
-- [Предвизначені константи](libxml.constants.md)
-- [libXMLError](class.libxmlerror.md) - Клас libXMLError
-- [Функції libxml](ref.libxml.md)
-- [SimpleXML](book.simplexml.md)
-- [Вступ](intro.simplexml.md)
-- [Встановлення та налаштування](simplexml.setup.md)
-- [Предвизначені константи](simplexml.constants.md)
-- [Приклади](simplexml.examples.md)
-- [SimpleXMLElement](class.simplexmlelement.md) - Клас
-SimpleXMLElement
-- [SimpleXMLIterator](class.simplexmliterator.md) - Клас
-SimpleXMLIterator
-- [Функції SimpleXML](ref.simplexml.md)
-- [WDDX](book.wddx.md)
-- [Вступ](intro.wddx.md)
-- [Встановлення та налаштування](wddx.setup.md)
-- [Предвизначені константи](wddx.constants.md)
-- [Приклади](wddx.examples.md)
-- [Функції WDDX](ref.wddx.md)
-- [XMLDiff](book.xmldiff.md) — Порівняння та об'єднання XML
-- [Вступ](intro.xmldiff.md)
-- [Встановлення та налаштування](xmldiff.setup.md)
-- [XMLDiff\Base](class.xmldiff-base.md) - Клас XMLDiff\Base
-- [XMLDiff\DOM](class.xmldiff-dom.md) - Клас XMLDiff\DOM
-- [XMLDiff\Memory](class.xmldiff-memory.md) - Клас
-XMLDiff\Memory
-- [XMLDiff\File](class.xmldiff-file.md) - Клас XMLDiff\File
-- [Розбір XML](book.xml.md)
-- [Вступ](intro.xml.md)
-- [Встановлення та налаштування](xml.setup.md)
-- [Предвизначені константи](xml.constants.md)
-- [Обробники подій](xml.eventhandlers.md)
-- [Приведення до одного регістру](xml.case-folding.md)
-- [Коди помилок](xml.error-codes.md)
-- [кодування символів](xml.encoding.md)
-- [Приклади](xml.examples.md)
-- [Функції парсера XML](ref.xml.md)
-- [XmlParser](class.xmlparser.md) - Клас XmlParser
-- [XMLReader](book.xmlreader.md)
-- [Вступ](intro.xmlreader.md)
-- [Встановлення та налаштування](xmlreader.setup.md)
-- [XMLReader](class.xmlreader.md) - Клас XMLReader
-- [XMLWriter](book.xmlwriter.md)
-- [Вступ](intro.xmlwriter.md)
-- [Встановлення та налаштування](xmlwriter.setup.md)
-- [Предвизначені константи](xmlwriter.constants.md)
-- [Приклади](xmlwriter.examples.md)
-- [XMLWriter](class.xmlwriter.md) - Клас XMLWriter
-- [XSL](book.xsl.md)
-- [Вступ](intro.xsl.md)
-- [Встановлення та налаштування](xsl.setup.md)
-- [Предвизначені константи](xsl.constants.md)
-- [Приклади](xsl.examples.md)
-- [XSLTProcessor](class.xsltprocessor.md) — Клас XSLTProcessor
+-   [DOM](book.dom.html) - Document Object Model
+    -   [Введение](intro.dom.html)
+    -   [Установка и настройка](dom.setup.html)
+    -   [Предопределённые константы](dom.constants.html)
+    -   [Примеры](dom.examples.html)
+    -   [DOMAttr](class.domattr.html) - Клас DOMAttr
+    -   [DOMCdataSection](class.domcdatasection.html) - Клас DOMCdataSection
+    -   [DOMCharacterData](class.domcharacterdata.html) - Клас DOMCharacterData
+    -   [DOMChildNode](class.domchildnode.html) - Інтерфейс DOMChildNode
+    -   [DOMComment](class.domcomment.html) - Клас DOMComment
+    -   [DOMDocument](class.domdocument.html) - Клас DOMDocument
+    -   [DOMDocumentFragment](class.domdocumentfragment.html) - Клас DOMDocumentFragment
+    -   [DOMDocumentType](class.domdocumenttype.html) - Клас DOMDocumentType
+    -   [DOMElement](class.domelement.html) - Клас DOMElement
+    -   [DOMEntity](class.domentity.html) - Клас DOMEntity
+    -   [DOMEntityReference](class.domentityreference.html) - Клас DOMEntityReference
+    -   [DOMException](class.domexception.html) - Клас DOMException
+    -   [DOMImplementation](class.domimplementation.html) - Клас DOMImplementation
+    -   [DOMNamedNodeMap](class.domnamednodemap.html) — Клас DOMNamedNodeMap
+    -   [DOMNode](class.domnode.html) - Клас DOMNode
+    -   [DOMNodeList](class.domnodelist.html) - Клас DOMNodeList
+    -   [DOMNotation](class.domnotation.html) - Клас DOMNotation
+    -   [DOMParentNode](class.domparentnode.html) - Інтерфейс DOMParentNode
+    -   [DOMProcessingInstruction](class.domprocessinginstruction.html) - Клас DOMProcessingInstruction
+    -   [DOMText](class.domtext.html) - Клас DOMText
+    -   [DOMXPath](class.domxpath.html) - Клас DOMXPath
+    -   [Функции DOM](ref.dom.html)
+-   [libxml](book.libxml.html)
+    -   [Введение](intro.libxml.html)
+    -   [Установка и настройка](libxml.setup.html)
+    -   [Предопределённые константы](libxml.constants.html)
+    -   [libXMLError](class.libxmlerror.html) - Клас libXMLError
+    -   [Функции libxml](ref.libxml.html)
+-   [SimpleXML](book.simplexml.html)
+    -   [Введение](intro.simplexml.html)
+    -   [Установка и настройка](simplexml.setup.html)
+    -   [Предопределённые константы](simplexml.constants.html)
+    -   [Примеры](simplexml.examples.html)
+    -   [SimpleXMLElement](class.simplexmlelement.html) - Клас SimpleXMLElement
+    -   [SimpleXMLIterator](class.simplexmliterator.html) - Клас SimpleXMLIterator
+    -   [Функции SimpleXML](ref.simplexml.html)
+-   [WDDX](book.wddx.html)
+    -   [Введение](intro.wddx.html)
+    -   [Установка и настройка](wddx.setup.html)
+    -   [Предопределённые константы](wddx.constants.html)
+    -   [Примеры](wddx.examples.html)
+    -   [Функции WDDX](ref.wddx.html)
+-   [XMLDiff](book.xmldiff.html) — Порівняння та об'єднання XML
+    -   [Введение](intro.xmldiff.html)
+    -   [Установка и настройка](xmldiff.setup.html)
+    -   [XMLDiff\\Base](class.xmldiff-base.html) - Клас XMLDiffBase
+    -   [XMLDiff\\DOM](class.xmldiff-dom.html) - Клас XMLDiffDOM
+    -   [XMLDiff\\Memory](class.xmldiff-memory.html) - Клас XMLDiffMemory
+    -   [XMLDiff\\File](class.xmldiff-file.html) - Клас XMLDiffFile
+-   [Разбор XML](book.xml.html)
+    -   [Введение](intro.xml.html)
+    -   [Установка и настройка](xml.setup.html)
+    -   [Предопределённые константы](xml.constants.html)
+    -   [Обработчики событий](xml.eventhandlers.html)
+    -   [Приведение к одному регистру](xml.case-folding.html)
+    -   [Коды ошибок](xml.error-codes.html)
+    -   [Кодировка символов](xml.encoding.html)
+    -   [Примеры](xml.examples.html)
+    -   [Функции парсера XML](ref.xml.html)
+    -   [XmlParser](class.xmlparser.html) - Клас XmlParser
+-   [XMLReader](book.xmlreader.html)
+    -   [Введение](intro.xmlreader.html)
+    -   [Установка и настройка](xmlreader.setup.html)
+    -   [XMLReader](class.xmlreader.html) - Клас XMLReader
+-   [XMLWriter](book.xmlwriter.html)
+    -   [Введение](intro.xmlwriter.html)
+    -   [Установка и настройка](xmlwriter.setup.html)
+    -   [Предопределённые константы](xmlwriter.constants.html)
+    -   [Примеры](xmlwriter.examples.html)
+    -   [XMLWriter](class.xmlwriter.html) - Клас XMLWriter
+-   [XSL](book.xsl.html)
+    -   [Введение](intro.xsl.html)
+    -   [Установка и настройка](xsl.setup.html)
+    -   [Предопределённые константы](xsl.constants.html)
+    -   [Примеры](xsl.examples.html)
+    -   [XSLTProcessor](class.xsltprocessor.html) - Клас XSLTProcessor

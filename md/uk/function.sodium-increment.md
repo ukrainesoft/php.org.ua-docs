@@ -1,26 +1,34 @@
-- [« sodium_hex2bin](function.sodium-hex2bin.md)
-- [sodium_memcmp »](function.sodium-memcmp.md)
+Збільшити на одиницю велике число
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Збільшити на одиницю велике число
+-   [« sodium\_hex2bin](function.sodium-hex2bin.html)
+    
+-   [sodium\_memcmp »](function.sodium-memcmp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Збільшити на одиницю велике число
+    
 
-# sodium_increment
+# sodiumincrement
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_increment — Збільшити на одиницю велике число
+sodiumincrement — Збільшити на одиницю велике число
 
 ### Опис
 
-**sodium_increment**(string `&$string`): void
+```methodsynopsis
+sodium_increment(string &$string): void
+```
 
-Обробляє рядок як ціле без знака з прямим порядком байтів,
-потім збільшує його на 1. Постійний час.
+Обробляє рядок як ціле без знака з прямим порядком байтів, потім збільшує його на 1. Постійний час.
 
 ### Список параметрів
 
 `string`
+
 Рядок для збільшення.
 
 ### Значення, що повертаються

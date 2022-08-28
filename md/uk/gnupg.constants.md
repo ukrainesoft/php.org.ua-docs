@@ -1,11 +1,17 @@
-- [« Типи ресурсів](gnupg.resources.md)
-- [Приклади »](gnupg.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [GnuPG](book.gnupg.md)
-- Обумовлені константи
+-   [« Типы ресурсов](gnupg.resources.html)
+    
+-   [Примеры »](gnupg.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG](book.gnupg.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 **`GNUPG_SIG_MODE_NORMAL`** (int)
 

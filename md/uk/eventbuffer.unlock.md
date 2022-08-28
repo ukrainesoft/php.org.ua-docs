@@ -1,23 +1,30 @@
-- [« EventBuffer::unfreeze](eventbuffer.unfreeze.md)
-- [EventBuffer::write »](eventbuffer.write.md)
+Знімає блокування, встановлене EventBuffer::lock
 
-- [PHP Manual](index.md)
-- [EventBuffer](class.eventbuffer.md)
-- Знімає блокування, встановлене EventBuffer::lock
+-   [« EventBuffer::unfreeze](eventbuffer.unfreeze.html)
+    
+-   [EventBuffer::write »](eventbuffer.write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBuffer](class.eventbuffer.html)
+    
+-   Знімає блокування, встановлене EventBuffer::lock
+    
 
 # EventBuffer::unlock
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBuffer::unlock — Знімає блокування, встановлене
-EventBuffer::lock
+EventBuffer::unlock — Знімає блокування, встановлене EventBuffer::lock
 
 ### Опис
 
-public **EventBuffer::unlock**(): bool
+```methodsynopsis
+public
+   EventBuffer::unlock(): bool
+```
 
-Знімає блокування, встановлене
-[EventBuffer::lock()](eventbuffer.lock.md) .
+Знімає блокування, встановлене [EventBuffer::lock()](eventbuffer.lock.html)
 
 ### Список параметрів
 
@@ -25,10 +32,8 @@ public **EventBuffer::unlock**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBuffer::lock()](eventbuffer.lock.md) - Отримує блокування
-буфера
+-   [EventBuffer::lock()](eventbuffer.lock.html) - Отримує блокування буфера

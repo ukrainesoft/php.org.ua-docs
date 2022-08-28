@@ -1,15 +1,21 @@
-- [«Вступ](intro.strings.md)
-- [Вимоги »](strings.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Рядки](book.strings.md)
+-   [« Введение](intro.strings.html)
+    
+-   [Требования »](strings.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Строки](book.strings.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](strings.requirements.md)
-- [Установка](strings.installation.md)
-- [Налаштування під час виконання](strings.configuration.md)
-- [Типи ресурсів](strings.resources.md)
+-   [Требования](strings.requirements.html)
+-   [Установка](strings.installation.html)
+-   [Настройка во время выполнения](strings.configuration.html)
+-   [Типы ресурсов](strings.resources.html)

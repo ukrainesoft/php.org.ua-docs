@@ -1,9 +1,15 @@
-- [ gzgets](function.gzgets.md)
-- [gzinflate »](function.gzinflate.md)
+Повертає рядок із покажчика gz-файлу та видалити HTML-теги
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Повертає рядок із покажчика gz-файлу та видалити HTML-теги
+-   [« gzgets](function.gzgets.html)
+    
+-   [gzinflate »](function.gzinflate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zlib](ref.zlib.html)
+    
+-   Повертає рядок із покажчика gz-файлу та видалити HTML-теги
+    
 
 # gzgetss
 
@@ -13,30 +19,29 @@ gzgetss — Повертає рядок із покажчика gz-файлу т
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.3.0 і була *Видалена*
-у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**gzgetss**(resource `$zp`, int `$length`, string `$allowable_tags` =
-?): string
+```methodsynopsis
+gzgetss(resource $zp, int $length, string $allowable_tags = ?): string
+```
 
-Аналогічно [gzgets()](function.gzgets.md), за винятком того, що
-**gzgetss()** намагається видалити будь-які теги HTML і PHP зі зчитуваної
-рядки.
+Аналогічно [gzgets()](function.gzgets.html), за винятком того, що **gzgetss()** намагається видалити будь-які теги HTML і PHP з рядка, що зчитується.
 
 ### Список параметрів
 
 `zp`
-Вказівник на gz-файл. Він повинен бути коректним і повинен вказувати на
-файл успішно відкритий [gzopen()](function.gzopen.md).
+
+Вказівник на файл gz. Він має бути коректним і повинен вказувати на файл, успішно відкритий. [gzopen()](function.gzopen.html)
 
 `length`
+
 Максимальний розмір даних, що повертаються.
 
 `allowable_tags`
-Використовуйте цей параметр, щоб вказати теги, які не
-слід видаляти.
+
+Використовуйте цей параметр, щоб вказати теги, які не потрібно видаляти.
 
 ### Значення, що повертаються
 
@@ -46,12 +51,19 @@ gzgetss — Повертає рядок із покажчика gz-файлу т
 
 **Приклад #1 Приклад використання **gzgetss()****
 
-` <?php$handle = gzopen('somefile.gz', 'r');while (!gzeof($handle)) {   $buffer = gzgetss($handle, 4096); echo $buffer;}gzclose($handle);?> `
+```php
+<?php
+$handle = gzopen('somefile.gz', 'r');
+while (!gzeof($handle)) {
+   $buffer = gzgetss($handle, 4096);
+   echo $buffer;
+}
+gzclose($handle);
+?>
+```
 
 ### Дивіться також
 
-- [gzopen()](function.gzopen.md) - Відкрити файл gz-файл
-- [gzgets()](function.gzgets.md) - Отримати рядок із покажчика
-файлу
-- [strip_tags()](function.strip-tags.md) - Видаляє теги HTML та PHP
-з рядка
+-   [gzopen()](function.gzopen.html) - Відкрити gz-файл
+-   [gzgets()](function.gzgets.html) - Отримати рядок із покажчика файлу
+-   [strip\_tags()](function.strip-tags.html) - Видаляє теги HTML та PHP з рядка

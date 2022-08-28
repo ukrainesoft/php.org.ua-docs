@@ -1,69 +1,84 @@
-- [« ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md)
-- [ResourceBundle::getLocales »](resourcebundle.locales.md)
+Отримати дані з пакета
 
-- [PHP Manual](index.md)
-- [ResourceBundle](class.resourcebundle.md)
-- Отримати дані з пакета
+-   [« ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.html)
+    
+-   [ResourceBundle::getLocales »](resourcebundle.locales.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ResourceBundle](class.resourcebundle.html)
+    
+-   Отримати дані з пакета
+    
 
 # ResourceBundle::get
 
-# resourcebundle_get
+# resourcebundleget
 
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::get -- resourcebundle_get — Отримати дані з пакета
+ResourceBundle::get -- resourcebundleget — Отримати дані з пакета
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **ResourceBundle::get**(string\|int `$index`, bool `$fallback` =
-**`true`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ResourceBundle::get(string|int $index, bool $fallback = true): mixed
+```
 
 Процедурний стиль
 
-**resourcebundle_get**([ResourceBundle](class.resourcebundle.md)
-`$bundle`, string\|int `$index`, bool `$fallback` = **`true`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+resourcebundle_get(ResourceBundle $bundle, string|int $index, bool $fallback = true): mixed
+```
 
 Повертає дані з пакета за індексом або рядковим ключем.
 
 ### Список параметрів
 
 `bundle`
-Об'єкт [ResourceBundle](class.resourcebundle.md).
+
+Об'єкт [ResourceBundle](class.resourcebundle.html)
 
 `index`
+
 Індекс даних повинен бути рядком або цілим числом.
 
 `fallback`
-Чи повинна локаль збігатися точно, чи можна відкотитися до батьківської
-локалі.
+
+Чи повинна локаль збігатися точно, чи можна відкотитися до батьківської локалі.
 
 ### Значення, що повертаються
 
-Повертає дані з пакета за індексом або рядковим ключем або
-**`null`** у разі виникнення помилки. Рядки, цілі числа та бінарні
-рядки повертаються у відповідному типі PHP, масиви цілих чисел
-повертаються як масиви PHP. Складні типи повертаються як об'єкти
-[ResourceBundle](class.resourcebundle.md).
+Повертає дані з пакета за індексом або рядковим ключем або **`null`** у разі виникнення помилки. Рядки, цілі числа та бінарні рядки повертаються у відповідному типі PHP, масиви цілих чисел повертаються як масиви PHP. Складні типи повертаються як об'єкти [ResourceBundle](class.resourcebundle.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundle_get()****
+**Приклад #1 Приклад використання **resourcebundleget()****
 
-` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo resourcebundle_get($r, 'somestring');?> `
+```php
+<?php
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo resourcebundle_get($r, 'somestring');
+?>
+```
 
 **Приклад #2 Приклад в об'єктно-орієнтованому стилі**
 
-` <?php$r = new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r->get('somestring');?> `
+```php
+<?php
+$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
+echo $r->get('somestring');
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 ?Hola, mundo!
+```
 
 ### Дивіться також
 
-- [resourcebundle_count()](resourcebundle.count.md) - Отримати
-кількість елементів у пакеті
+-   [resourcebundle\_count()](resourcebundle.count.html) - Отримати кількість елементів у пакеті

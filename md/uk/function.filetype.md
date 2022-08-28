@@ -1,9 +1,15 @@
-- [«filesize](function.filesize.md)
-- [flock »](function.flock.md)
+Повертає тип файлу
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Повертає тип файлу
+-   [« filesize](function.filesize.html)
+    
+-   [flock »](function.flock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции файловой системы](ref.filesystem.html)
+    
+-   Повертає тип файлу
+    
 
 # filetype
 
@@ -13,59 +19,55 @@ filetype — Повертає тип файлу
 
 ### Опис
 
-**filetype**(string `$filename`): string\|false
+```methodsynopsis
+filetype(string $filename): string|false
+```
 
 Повертає тип файлу.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 ### Значення, що повертаються
 
-Повертає тип файлу. Можливі значення є fifo, char, dir,
-block, link, file, socket та unknown.
+Повертає тип файлу. Можливими значеннями є fifo, char, dir, block, link, file, socket та unknown.
 
-Повертає **`false`** у разі виникнення помилки. **filetype()**
-також викликає помилку рівня **`E_NOTICE`**, якщо системний виклик stat
-помилка завершиться або тип файлу невідомий.
+Повертає **`false`** у разі виникнення помилки . **filetype()** також викликає помилку рівня **`E_NOTICE`**якщо системний виклик stat завершиться помилкою або тип файлу невідомий.
 
 ### Помилки
 
-У разі невдалого завершення роботи генерується помилка рівня
-**`E_WARNING`**.
+У разі невдалого завершення роботи генерується помилка рівня **`E_WARNING`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання функції **filetype()****
 
-`<?phpecho filetype('/etc/passwd'); // fileecho filetype('/etc/'); // dir?> `
+```php
+<?php
+
+echo filetype('/etc/passwd');  // file
+echo filetype('/etc/');        // dir
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**: Результати цієї функції кешуються. Детальніше
-> інформацію дивіться у розділі
-> [clearstatcache()](function.clearstatcache.md).
+> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.html)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з
-* Деякими * обгортками url. Список обгорток, що підтримуються сімейством
-функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md).
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Поддерживаемые протоколы и обёртки](wrappers.html)
 
 ### Дивіться також
 
-- [is_dir()](function.is-dir.md) - Визначає, чи є ім'я файлу
-директорією
-- [is_file()](function.is-file.md) - Визначає, чи є файл
-звичайним файлом
-- [is_link()](function.is-link.md) - Визначає, чи є файл
-символічним посиланням
-- [file_exists()](function.file-exists.md) - Перевіряє існування
-вказаного файлу чи каталогу
-- [mime_content_type()](function.mime-content-type.md) - Визначає
-MIME-тип вмісту файлу
-- [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях
-до файлу
-- [stat()](function.stat.md) - Повертає інформацію про файл
+-   [is\_dir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
+-   [is\_file()](function.is-file.html) - Визначає, чи файл є звичайним файлом
+-   [is\_link()](function.is-link.html) - Визначає, чи є файл символічним посиланням
+-   [file\_exists()](function.file-exists.html) - Перевіряє існування вказаного файлу чи каталогу
+-   [mime\_content\_type()](function.mime-content-type.html) - Визначає MIME-тип вмісту файлу
+-   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
+-   [stat()](function.stat.html) - Повертає інформацію про файл

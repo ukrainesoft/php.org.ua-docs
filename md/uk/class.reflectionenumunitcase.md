@@ -1,113 +1,97 @@
-- [« ReflectionEnum::isBacked](reflectionenum.isbacked.md)
-- [ReflectionEnumUnitCase::\_\_construct »](reflectionenumunitcase.construct.md)
+Клас ReflectionEnumUnitCase
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionEnumUnitCase
+-   [« ReflectionEnum::isBacked](reflectionenum.isbacked.html)
+    
+-   [ReflectionEnumUnitCase::\_\_construct »](reflectionenumunitcase.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionEnumUnitCase
+    
 
 # Клас ReflectionEnumUnitCase
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Клас **ReflectionEnumUnitCase** повідомляє інформацію про варіант
-перерахування, що не має скалярного еквівалента.
+Клас **ReflectionEnumUnitCase** повідомляє інформацію про варіант перерахування, що не має скалярного еквівалента.
 
 ## Огляд класів
 
-class **ReflectionEnumUnitCase** extends
-[ReflectionClassConstant](class.reflectionclassconstant.md) {
+```classsynopsis
 
-/\* Успадковані константи \*/
+     
+    
 
-const int `ReflectionClassConstant::IS_PUBLIC` = 1;
+    
+     
+      class ReflectionEnumUnitCase
+     
 
-const int `ReflectionClassConstant::IS_PROTECTED` = 2;
+     
+      extends
+       ReflectionClassConstant
+     
+     {
 
-const int `ReflectionClassConstant::IS_PRIVATE` = 4;
+    /* Наследуемые константы */
+    
+     const
+     int
+      ReflectionClassConstant::IS_PUBLIC = 1;
+const
+     int
+      ReflectionClassConstant::IS_PROTECTED = 2;
+const
+     int
+      ReflectionClassConstant::IS_PRIVATE = 4;
 
-/\* Наслідувані властивості \*/
 
-public string `$name`;
-
-public string `$class`;
-
-/\* Методи \*/
-
+    /* Наследуемые свойства */
+    public
+     string
+      $name;
 public
-[\_\_construct](reflectionenumunitcase.construct.md)(object\|string
-`$class`, string `$constant`)
+     string
+      $class;
 
-public [getEnum](reflectionenumunitcase.getenum.md)():
-[ReflectionEnum](class.reflectionenum.md)
 
-public [getValue](reflectionenumunitcase.getvalue.md)():
-[UnitEnum](class.unitenum.md)
+    /* Методы */
+    
+   public __construct(object|string $class, string $constant)
 
-/\* Наслідувані методи \*/
+    public getEnum(): ReflectionEnum
+public getValue(): UnitEnum
 
-public static
-[ReflectionClassConstant::export](reflectionclassconstant.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$class`, string `$name`, bool `$return` = ?): string
 
-public
-[ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md)(?string
-`$name` = **`null`**, int `$flags` = 0): array
+    /* Наследуемые методы */
+    public static ReflectionClassConstant::export(mixed $class, string $name, bool $return = ?): string
+public ReflectionClassConstant::getAttributes(?string $name = null, int $flags = 0): array
+public ReflectionClassConstant::getDeclaringClass(): ReflectionClass
+public ReflectionClassConstant::getDocComment(): string|false
+public ReflectionClassConstant::getModifiers(): int
+public ReflectionClassConstant::getName(): string
+public ReflectionClassConstant::getValue(): mixed
+public ReflectionClassConstant::isEnumCase(): bool
+public ReflectionClassConstant::isFinal(): bool
+public ReflectionClassConstant::isPrivate(): bool
+public ReflectionClassConstant::isProtected(): bool
+public ReflectionClassConstant::isPublic(): bool
+public ReflectionClassConstant::__toString(): string
 
-public
-[ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.md)():
-[ReflectionClass](class.reflectionclass.md)
-
-public
-[ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)():
-string\|false
-
-public
-[ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md)():
-int
-
-public
-[ReflectionClassConstant::getName](reflectionclassconstant.getname.md)():
-string
-
-public
-[ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md)():
-bool
-
-public
-[ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md)():
-bool
-
-public
-[ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md)():
-bool
-
-public
-[ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md)():
-bool
-
-public
-[ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.md)():
-string
-
-}
+   }
+```
 
 ## Дивіться також
 
-- [Перерахування](language.enumerations.md)
-- [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
+-   [Перечисления](language.enumerations.html)
+-   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
 
 ## Зміст
 
-- [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md)
-— Створює екземпляр об'єкту ReflectionEnumUnitCase
-- [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md)
-— Отримує Reflection-об'єкт перерахування цього варіанта
-- [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md)
-— Отримує об'єкт варіанта перерахування, описаний
-Reflection-об'єктом
+-   [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.html) — Створює екземпляр об'єкту ReflectionEnumUnitCase
+-   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.html) — Отримує Reflection-об'єкт перерахування цього варіанта
+-   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.html) — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом

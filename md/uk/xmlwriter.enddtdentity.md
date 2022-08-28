@@ -1,54 +1,57 @@
-- [« XMLWriter::endDtdElement](xmlwriter.enddtdelement.md)
-- [XMLWriter::endElement »](xmlwriter.endelement.md)
+Завершити поточний запис DTD
 
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Завершити поточний запис DTD
+-   [« XMLWriter::endDtdElement](xmlwriter.enddtdelement.html)
+    
+-   [XMLWriter::endElement »](xmlwriter.endelement.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](class.xmlwriter.html)
+    
+-   Завершити поточний запис DTD
+    
 
 # XMLWriter::endDtdEntity
 
-#xmlwriter_end_dtd_entity
+# xmlwriterenddtdentity
 
-(PHP 5 \>= 5.2.1, PHP 7, PHP 8, PECL xmlwriter \>= 0.1.0)
+(PHP 5 >= 5.2.1, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::endDtdEntity -- xmlwriter_end_dtd_entity — Завершити поточну
-запис DTD
+XMLWriter::endDtdEntity -- xmlwriterenddtdentity — Завершити поточний запис DTD
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::endDtdEntity**(): bool
+```methodsynopsis
+public XMLWriter::endDtdEntity(): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_end_dtd_entity**([XMLWriter](class.xmlwriter.md)
-`$writer`): bool
+```methodsynopsis
+xmlwriter_end_dtd_entity(XMLWriter $writer): bool
+```
 
 Завершує поточний запис DTD.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::startDtdEntity()](xmlwriter.startdtdentity.md) -
-Створити стартовий запис DTD
-- [XMLWriter::writeDtdEntity()](xmlwriter.writedtdentity.md) -
-Записати повний тег DTD запису
+-   [XMLWriter::startDtdEntity()](xmlwriter.startdtdentity.html) - Створити стартовий запис DTD
+-   [XMLWriter::writeDtdEntity()](xmlwriter.writedtdentity.html) - Записати повний тег DTD запису

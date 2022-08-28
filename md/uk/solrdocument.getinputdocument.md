@@ -1,24 +1,29 @@
-- [«SolrDocument::getFieldNames](solrdocument.getfieldnames.md)
-- [SolrDocument::hasChildDocuments »](solrdocument.haschilddocuments.md)
+SolrInputDocument повертає еквівалент об'єкта
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Повертає SolrInputDocument еквівалент об'єкту
+-   [« SolrDocument::getFieldNames](solrdocument.getfieldnames.html)
+    
+-   [SolrDocument::hasChildDocuments »](solrdocument.haschilddocuments.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   SolrInputDocument повертає еквівалент об'єкта
+    
 
 # SolrDocument::getInputDocument
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::getInputDocument — Повертає SolrInputDocument еквівалент
-об'єкта
+SolrDocument::getInputDocument — Повертає SolrInputDocument еквівалент об'єкту
 
 ### Опис
 
-public **SolrDocument::getInputDocument**():
-[SolrInputDocument](class.solrinputdocument.md)
+```methodsynopsis
+public SolrDocument::getInputDocument(): SolrInputDocument
+```
 
-SolrInputDocument повертає еквівалент об'єкта. Це корисно, якщо ви
-хочете повторно надіслати/оновити документ, отриманий із запиту.
+SolrInputDocument повертає еквівалент об'єкта. Це корисно, якщо потрібно повторно надіслати/оновити документ, отриманий із запиту.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ SolrInputDocument повертає еквівалент об'єкта. Це ко
 
 ### Значення, що повертаються
 
-Повертає SolrInputDocument у разі успішного виконання і **`null`**
-у разі виникнення помилки.
+Повертає SolrInputDocument у разі успішного виконання та **`null`** у разі виникнення помилки.

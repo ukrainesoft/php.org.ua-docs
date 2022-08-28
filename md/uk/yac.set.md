@@ -1,36 +1,46 @@
-- [« Yac::info](yac.info.md)
-- [Yac::\_\_set »](yac.setter.md)
+Зберігає у кеш
 
-- [PHP Manual](index.md)
-- [Yac](class.yac.md)
-- Зберігає у кеш
+-   [« Yac::info](yac.info.html)
+    
+-   [Yac::\_\_set »](yac.setter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yac](class.yac.html)
+    
+-   Зберігає у кеш
+    
 
 # Yac::set
 
-(PECL yac \>= 1.0.0)
+(PECL yac >= 1.0.0)
 
 Yac::set — Зберігає у кеш
 
 ### Опис
 
-public **Yac::set**(string `$keys`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$ttl` = 0): bool
+```methodsynopsis
+public Yac::set(string $keys, mixed $value, int $ttl = 0): bool
+```
 
-public [Yac::add](yac.add.md)(array `$key_vals`): bool
+```methodsynopsis
+public Yac::add(array $key_vals): bool
+```
 
 Додає елемент до кешу, якщо ключ уже існує, замінює його.
 
 ### Список параметрів
 
 `keys`
+
 Ключ (string)
 
 `value`
-Змішане значення. Можуть бути збережені всі типи значень php, крім
-[resource](language.types.resource.md)
+
+Змішане значення. Можуть бути збережені всі типи значень php, крім [resource](language.types.resource.html)
 
 `ttl`
+
 Час життя
 
 ### Значення, що повертаються

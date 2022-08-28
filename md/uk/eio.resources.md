@@ -1,10 +1,16 @@
-- [« Налаштування під час виконання](eio.configuration.md)
-- [Предвизначені константи »](eio.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](eio.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](eio.configuration.html)
+    
+-   [Предопределённые константы »](eio.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](eio.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-У цьому модулі два типи ресурсів: request і request group.
+У цьому модулі два типи ресурсів: request та request group.

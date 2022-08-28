@@ -1,9 +1,15 @@
-- [« Imagick::cropThumbnailImage](imagick.cropthumbnailimage.md)
-- [Imagick::cycleColormapImage »](imagick.cyclecolormapimage.md)
+Повертає посилання на поточний об'єкт Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає посилання на поточний об'єкт Imagick
+-   [« Imagick::cropThumbnailImage](imagick.cropthumbnailimage.html)
+    
+-   [Imagick::cycleColormapImage »](imagick.cyclecolormapimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає посилання на поточний об'єкт Imagick
+    
 
 # Imagick::current
 
@@ -13,10 +19,11 @@ Imagick::current — Повертає посилання на поточний �
 
 ### Опис
 
-public **Imagick::current**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::current(): Imagick
+```
 
-Повертає посилання на поточний об'єкт imagick із вказівником на зображення
-у правильній послідовності.
+Повертає посилання на поточний об'єкт imagick із вказівником на зображення у правильній послідовності.
 
 ### Список параметрів
 

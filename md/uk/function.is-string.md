@@ -1,41 +1,59 @@
-- [«is_scalar](function.is-scalar.md)
-- [isset »](function.isset.md)
+Перевіряє, чи є змінним рядком
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевіряє, чи є змінним рядком
+-   [« is\_scalar](function.is-scalar.html)
+    
+-   [isset »](function.isset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Перевіряє, чи є змінним рядком
+    
 
-#is_string
+# ісstring
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_string — Перевіряє, чи є змінним рядком
+ісstring — Перевіряє, чи є змінним рядком
 
 ### Опис
 
-**is_string**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_string(mixed $value): bool
+```
 
 Перевіряє, чи є цей змінний рядком.
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є рядком, і **`false`** в
-інакше.
+Повертає **`true`**, якщо `value` є рядком, та **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_string()****
+**Приклад #1 Приклад використання **ісstring()****
 
-` <?php$values = array(false, true, null, 'abc', '23', 23, '23.5', 23.5, '', ' ', '0', 0);foreach ($u$ value) {    echo "is_string(";   var_export($value);   echo ") = "; echo var_dump(is_string($value));}?> `
+```php
+<?php
+$values = array(false, true, null, 'abc', '23', 23, '23.5', 23.5, '', ' ', '0', 0);
+foreach ($values as $value) {
+    echo "is_string(";
+    var_export($value);
+    echo ") = ";
+    echo var_dump(is_string($value));
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 is_string(false) = bool(false)
 is_string(true) = bool(false)
 is_string(NULL) = bool(false)
@@ -48,16 +66,12 @@ is_string('') = bool(true)
 is_string(' ') = bool(true)
 is_string('0') = bool(true)
 is_string(0) = bool(false)
+```
 
 ### Дивіться також
 
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_int()](function.is-int.md) - Перевіряє, чи є змінна
-цілим числом
-- [is_bool()](function.is-bool.md) - Перевіряє, чи є
-змінна булева
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
+-   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом

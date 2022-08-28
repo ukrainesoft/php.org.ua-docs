@@ -1,20 +1,27 @@
-- [«CURLFile::getMimeType](curlfile.getmimetype.md)
-- [CURLFile::setMimeType »](curlfile.setmimetype.md)
+Повертає ім'я файлу, що надсилається POST-запитом
 
-- [PHP Manual](index.md)
-- [CURLFile](class.curlfile.md)
-- Повертає ім'я файлу, що надсилається POST-запитом
+-   [« CURLFile::getMimeType](curlfile.getmimetype.html)
+    
+-   [CURLFile::setMimeType »](curlfile.setmimetype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CURLFile](class.curlfile.html)
+    
+-   Повертає ім'я файлу, що надсилається POST-запитом
+    
 
 # CURLFile::getPostFilename
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-CURLFile::getPostFilename — Повертає ім'я файлу, що надсилається
-POST-запитом
+CURLFile::getPostFilename — Повертає ім'я файлу, що надсилається POST-запитом
 
 ### Опис
 
-public **CURLFile::getPostFilename**(): string
+```methodsynopsis
+public CURLFile::getPostFilename(): string
+```
 
 ### Список параметрів
 
@@ -22,4 +29,4 @@ public **CURLFile::getPostFilename**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу, який надсилається запитом POST.
+Повертає ім'я файлу, що надсилається запитом POST.

@@ -1,74 +1,149 @@
-- [« Stomp::abort](stomp.abort.md)
-- [Stomp::begin »](stomp.begin.md)
+Підтверджує отримання повідомлення
 
-- [PHP Manual](index.md)
-- [Stomp](class.stomp.md)
-- Підтверджує отримання повідомлення
+-   [« Stomp::abort](stomp.abort.html)
+    
+-   [Stomp::begin »](stomp.begin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Stomp](class.stomp.html)
+    
+-   Підтверджує отримання повідомлення
+    
 
 # Stomp::ack
 
-#stomp_ack
+# stompack
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
-Stomp::ack -- stomp_ack — Підтверджує отримання повідомлення
+Stomp::ack - stompack — Підтверджує отримання повідомлення
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public
-**Stomp::ack**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` = ?): bool
+```methodsynopsis
+public Stomp::ack(mixed $msg, array $headers = ?): bool
+```
 
 Процедурний стиль:
 
-**stomp_ack**(resource `$link`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` = ?): bool
+```methodsynopsis
+stomp_ack(resource $link, mixed $msg, array $headers = ?): bool
+```
 
-Підтверджує факт отримання повідомлення із черги, використовуючи
-підтвердження клієнта.
+Підтверджує факт отримання повідомлення із черги, використовуючи підтвердження клієнта.
 
 ### Список параметрів
 
 `link`
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp,
-отриманий із [stomp_connect()](stomp.construct.md).
+
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.html)
 
 `msg`
-Повідомлення/ідентифікатор повідомлення, отримання якого має бути
-підтверджено.
+
+Повідомлення/ідентифікатор повідомлення, отримання якого має бути підтверджено.
 
 `headers`
-Асоціативний масив, що містить додаткові заголовки (приклад:
-receipt).
+
+Асоціативний масив, який містить додаткові заголовки (приклад: receipt).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$queue  = '/queue/foo';$msg   = 'bar';/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613' $ e) {    die('Помилка з'єднання: ' . $e->getMessage());}/* відправка повідомлення в черга 'foo' */$stomp->send($queue, $msg); із черги 'foo' */$stomp->subscribe($queue);/* читання фрейму */$frame = $stomp->readFrame();if ($frame->body === $msg) {     підтвердження отримання фрейму */    $stomp->ack($frame);}/* скасування підписки до черги */$stomp->unsubscribe($queue);/* закриття підключення */unset($sto
+```php
+<?php
+
+$queue  = '/queue/foo';
+$msg    = 'bar';
+
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
+}
+
+/* отправка сообщения в очередь 'foo' */
+$stomp->send($queue, $msg);
+
+/* подписка на сообщения из очереди 'foo' */
+$stomp->subscribe($queue);
+
+/* чтение фрейма */
+$frame = $stomp->readFrame();
+
+if ($frame->body === $msg) {
+    /* подтверждение получения фрейма */
+    $stomp->ack($frame);
+}
+
+/* отмена подписки к очереди */
+$stomp->unsubscribe($queue);
+
+/* закрытие подключения */
+unset($stomp);
+
+?>
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$queue  = '/queue/foo';$msg   = 'bar';/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */ !$link) {    die('Помилка з'єднання: ' . stomp_connect_error());}/* початок транзакції */stomp_begin($link, 't1');/* відправка sto$'' | , $queue, $msg, array('transaction' => 't1'));/* підтвердження транзакції */stomp_commit($link, 't1');/* підписка на повідомлення з чері $link, $queue);/* читання фрейму */$frame = stomp_read_frame($link);if ($frame['body'] ====$msg) {    /* підтвердження одержання $frame['headers']['message-id']);}/* відміна підписи до черги */stomp_unsubscribe($link, $queue);/* закриття підключення */stomp_close($link);?> `
+```php
+<?php
+
+$queue  = '/queue/foo';
+$msg    = 'bar';
+
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
+
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
+}
+
+/* начало транзакции */
+stomp_begin($link, 't1');
+
+/* отправка сообщения в очередь  'foo' */
+stomp_send($link, $queue, $msg, array('transaction' => 't1'));
+
+/* подтверждение транзакции */
+stomp_commit($link, 't1');
+
+/* подписка на сообщения из очереди 'foo' */
+stomp_subscribe($link, $queue);
+
+/* чтение фрейма */
+$frame = stomp_read_frame($link);
+
+if ($frame['body'] === $msg) {
+    /* подтверждение получения фрейма */
+    stomp_ack($link, $frame['headers']['message-id']);
+}
+
+/* отмена подписки к очереди */
+stomp_unsubscribe($link, $queue);
+
+/* закрытие подключения */
+stomp_close($link);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Також може бути зазначений заголовок транзакції, що означає, що прийом
-> повідомлення має бути частиною іменованої транзакції.
+> **Зауваження**
+> 
+> Також може бути зазначений заголовок транзакції, що означає, що прийом повідомлення повинен бути частиною іменованої транзакції.
 
 **Підказка**
 
-Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований
-додаванням receipt-заголовка. Це змусить методи нічого не повертати,
-доки сервер не підтвердить отримання повідомлення або не буде перевищено
-час очікування повідомлення.
+Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований додаванням receipt-заголовка. Це змусить методи нічого не повертати, поки сервер не підтвердить отримання повідомлення або буде перевищено час очікування повідомлення.

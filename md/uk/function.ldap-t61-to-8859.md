@@ -1,21 +1,28 @@
-- [«ldap_start_tls](function.ldap-start-tls.md)
-- [ldap_unbind »](function.ldap-unbind.md)
+Перекладає символи з кодування t61 ISO-8859
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Переводить символи з кодування t61 ISO-8859
+-   [« ldap\_start\_tls](function.ldap-start-tls.html)
+    
+-   [ldap\_unbind »](function.ldap-unbind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Перекладає символи з кодування t61 ISO-8859
+    
 
-#ldap_t61_to_8859
+# ldapt61то
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-ldap_t61_to_8859 — Переводить символи з кодування t61 ISO-8859
+ldapt61то8859 — Переводить символи з кодування t61 ISO-8859
 
 ### Опис
 
-**ldap_t61_to_8859**(string `$value`): string\|false
+```methodsynopsis
+ldap_t61_to_8859(string $value): string|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

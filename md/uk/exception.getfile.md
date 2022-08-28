@@ -1,9 +1,15 @@
-- [« Exception::getCode](exception.getcode.md)
-- [Exception::getLine »](exception.getline.md)
+Отримує файл, у якому виник виняток
 
-- [PHP Manual](index.md)
-- [Exception](class.exception.md)
-- Отримує файл, у якому виник виняток
+-   [« Exception::getCode](exception.getcode.html)
+    
+-   [Exception::getLine »](exception.getline.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exception](class.exception.html)
+    
+-   Отримує файл, у якому виник виняток
+    
 
 # Exception::getFile
 
@@ -13,7 +19,9 @@ Exception::getFile — Отримує файл, у якому виник вин�
 
 ### Опис
 
-final public **Exception::getFile**(): string
+```methodsynopsis
+final public Exception::getFile(): string
+```
 
 Отримати ім'я файлу, де виняток було створено.
 
@@ -23,19 +31,28 @@ final public **Exception::getFile**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу, в якому виняток було створено.
+Повертає ім'я файлу, в якому виняток створено.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Exception::getFile()****
 
-` <?phptry {   throw new Exception;} catch(Exception $e) {   echo $e->getFile();}?> `
+```php
+<?php
+try {
+    throw new Exception;
+} catch(Exception $e) {
+    echo $e->getFile();
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 /home/bjori/tmp/ex.php
+```
 
 ### Дивіться також
 
-- [Throwable::getFile()](throwable.getfile.md) - Повертає файл, в
-якому викинуто виняток
+-   [Throwable::getFile()](throwable.getfile.html) - Повертає файл, у якому викинуто виняток

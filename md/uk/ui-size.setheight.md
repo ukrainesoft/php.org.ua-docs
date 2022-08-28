@@ -1,25 +1,34 @@
-- [« UI\Size::of](ui-size.of.md)
-- [UI\Size::setWidth »](ui-size.setwidth.md)
+Встановити висоту
 
-- [PHP Manual](index.md)
-- [UI\Size](class.ui-size.md)
-- встановити висоту
+-   [« UI\\Size::of](ui-size.of.html)
+    
+-   [UI\\Size::setWidth »](ui-size.setwidth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Size](class.ui-size.html)
+    
+-   Встановити висоту
+    
 
-# UI\Size::setHeight
+# ОЙSize::setHeight
 
 (UI 0.9.9)
 
-UI\Size::setHeight — Встановити висоту
+ОЙSize::setHeight — Встановити висоту
 
 ### Опис
 
-public **UI\Size::setHeight**(float `$size`)
+```methodsynopsis
+public UI\Size::setHeight(float $size)
+```
 
 Встановити нову висоту
 
 ### Список параметрів
 
 `size`
+
 Нова висота
 
 ### Значення, що повертаються

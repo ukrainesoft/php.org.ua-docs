@@ -1,30 +1,43 @@
-- [«SplFileInfo](class.splfileinfo.md)
-- [SplFileInfo::getATime »](splfileinfo.getatime.md)
+Створити новий об'єкт SplFileInfo
 
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Створити новий об'єкт SplFileInfo
+-   [« SplFileInfo](class.splfileinfo.html)
+    
+-   [SplFileInfo::getATime »](splfileinfo.getatime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileInfo](class.splfileinfo.html)
+    
+-   Створити новий об'єкт SplFileInfo
+    
 
-# SplFileInfo::\_\_construct
+# SplFileInfo::construct
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-SplFileInfo::\_\_construct — Створити новий об'єкт SplFileInfo
+SplFileInfo::construct — Створити новий об'єкт SplFileInfo
 
 ### Опис
 
-public **SplFileInfo::\_\_construct**(string `$filename`)
+public **SplFileInfo::construct**(string `$filename`
 
-Створює новий об'єкт SplFileInfo для вказаного імені файлу. Файл не
-обов'язково має існувати чи бути доступним для читання.
+Створює новий об'єкт SplFileInfo для вказаного імені файлу. Файл не обов'язково має існувати чи бути доступним для читання.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::\_\_construct()****
+**Приклад #1 Приклад використання **SplFileInfo::construct()****
 
-` <?php$info = new SplFileInfo('example.php');if ($info->isFile()) {   echo $info->getRealPath();}?> `
+```php
+<?php
+$info = new SplFileInfo('example.php');
+if ($info->isFile()) {
+    echo $info->getRealPath();
+}
+?>
+```

@@ -1,34 +1,42 @@
-- [« fann_set_training_algorithm](function.fann-set-training-algorithm.md)
-- [fann_set_weight »](function.fann-set-weight.md)
+Створення зв'язків у мережі
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Створення зв'язків у мережі
+-   [« fann\_set\_training\_algorithm](function.fann-set-training-algorithm.html)
+    
+-   [fann\_set\_weight »](function.fann-set-weight.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Створення зв'язків у мережі
+    
 
-# fann_set_weight_array
+# fannsetweightarray
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_weight_array — Створення зв'язків у мережі
+fannsetweightarray — Створення зв'язків у мережі
 
 ### Опис
 
-**fann_set_weight_array**(resource `$ann`, array `$connections`): bool
+```methodsynopsis
+fann_set_weight_array(resource $ann, array $connections): bool
+```
 
 Створення зв'язків у мережі.
 
-Можуть бути змінені лише вагові коефіцієнти, що не існують у мережі
-зв'язку та ваги ігноруватимуться.
+Можуть бути змінені лише вагові коефіцієнти, що не існують у мережі зв'язку та ваги ігноруватимуться.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `connections`
-Масив об'єктів [FANNConnection](class.fannconnection.md)
+
+Масив об'єктів [FANNConnection](class.fannconnection.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.

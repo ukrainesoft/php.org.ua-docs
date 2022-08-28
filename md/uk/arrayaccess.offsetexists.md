@@ -1,73 +1,106 @@
-- [«ArrayAccess](class.arrayaccess.md)
-- [ArrayAccess::offsetGet »](arrayaccess.offsetget.md)
+Визначає, чи існує задане усунення (ключ)
 
-- [PHP Manual](index.md)
-- [ArrayAccess](class.arrayaccess.md)
-- Визначає, чи існує задане усунення (ключ)
+-   [« ArrayAccess](class.arrayaccess.html)
+    
+-   [ArrayAccess::offsetGet »](arrayaccess.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayAccess](class.arrayaccess.html)
+    
+-   Визначає, чи існує задане усунення (ключ)
+    
 
 # ArrayAccess::offsetExists
 
 (PHP 5, PHP 7, PHP 8)
 
-ArrayAccess::offsetExists - Визначає, чи існує задане зміщення
-(ключ)
+ArrayAccess::offsetExists — Визначає, чи існує зміщення (ключ).
 
 ### Опис
 
-public
-**ArrayAccess::offsetExists**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$offset`): bool
+```methodsynopsis
+public ArrayAccess::offsetExists(mixed $offset): bool
+```
 
 Визначає, чи існує дане зміщення (ключ).
 
-Цей метод виконується при використанні
-[isset()](function.isset.md) або [empty()](function.empty.md) на
-об'єкти, що реалізують інтерфейс [ArrayAccess](class.arrayaccess.md).
+Цей метод виконується під час використання [isset()](function.isset.html) або [empty()](function.empty.html) на об'єктах, що реалізують інтерфейс [ArrayAccess](class.arrayaccess.html)
 
-> **Примітка**:
->
-> При використанні функції [empty()](function.empty.md) викликається
-> метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.md) та
-> перевірка на порожнечу відбудеться, лише якщо метод
-> **ArrayAccess::offsetExists()** поверне **`true`**.
+> **Зауваження**
+> 
+> При використанні функції [empty()](function.empty.html), викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.html) і перевірка на порожнечу відбудеться, тільки якщо метод **ArrayAccess::offsetExists()** поверне **`true`**
 
 ### Список параметрів
 
 `offset`
-Переміщення (ключ) для перевірки.
+
+Усунення (ключ) для перевірки.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-> **Примітка**:
->
-> Значення, що повертається, буде приведено до логічного типу (bool), якщо
-> значення, що повертається не є логічним.
+> **Зауваження**
+> 
+> Значення, що повертається, буде приведено до логічного типу (bool), якщо значення, що повертається, не є логічним.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayAccess::offsetExists()****
 
-";var_dump(isset($obj["foobar"]));echo "
-}    public function offsetUnset($var): void {        var_dump(__METHOD__); Виконується obj::offsetExists() і obj::offsetGet()
-`<?phpclass obj implements ArrayAccess {    public function offsetSet($offset, $value): void {       var_dump(__METHOD__); ";var_dump(empty($obj["foobar"]));echo "
-}   #[\ReturnTypeWillChange]    public function offsetGet($var) {       var_dump(__METHOD__); }    public function offsetExists($var): bool {        var_dump(__METHOD__); Виконується obj::offsetExists(), але *не* obj:offsetGet(), оскільки не повертати
-return "value"; if ($var == "foobar") {            return true; ";var_dump(empty($obj["foobaz"]));?> `}}$obj = new obj;echo "Виконується obj::offsetExists()
-}    return false; 
+```php
+<?php
+class obj implements ArrayAccess {
+    public function offsetSet($offset, $value): void {
+        var_dump(__METHOD__);
+    }
+
+    public function offsetExists($var): bool {
+        var_dump(__METHOD__);
+        if ($var == "foobar") {
+            return true;
+        }
+        return false;
+    }
+
+    public function offsetUnset($var): void {
+        var_dump(__METHOD__);
+    }
+
+    #[ReturnTypeWillChange]
+    public function offsetGet($var) {
+        var_dump(__METHOD__);
+        return "value";
+    }
+}
+
+$obj = new obj;
+
+echo "Выполняется obj::offsetExists()\n";
+var_dump(isset($obj["foobar"]));
+
+echo "\nВыполняется obj::offsetExists() и obj::offsetGet()\n";
+var_dump(empty($obj["foobar"]));
+
+echo "\nВыполняется obj::offsetExists(), но *не* obj:offsetGet(), поскольку нечего возвращать\n";
+var_dump(empty($obj["foobaz"]));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Виконується obj::offsetExists()
+```
+Выполняется obj::offsetExists()
 string(17) "obj::offsetExists"
 bool(true)
 
-Виконується obj::offsetExists() та obj::offsetGet()
+Выполняется obj::offsetExists() и obj::offsetGet()
 string(17) "obj::offsetExists"
 string(14) "obj::offsetGet"
 bool(false)
 
-Виконується obj::offsetExists(), але *не* obj:offsetGet(), оскільки нічого повертати
+Выполняется obj::offsetExists(), но *не* obj:offsetGet(), поскольку нечего возвращать
 string(17) "obj::offsetExists"
 bool(true)
+```

@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::toArray](yaf-config-ini.toarray.md)
-- [Yaf_Config_Simple »](class.yaf-config-simple.md)
+Призначення valid
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Призначення valid
+-   [« Yaf\_Config\_Ini::toArray](yaf-config-ini.toarray.html)
+    
+-   [Yaf\_Config\_Simple »](class.yaf-config-simple.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Призначення valid
+    
 
-# Yaf_Config_Ini::valid
+# YafConfigIni::valid
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::valid — Призначення valid
+YafConfigIni::valid — Призначення valid
 
 ### Опис
 
-public **Yaf_Config_Ini::valid**(): void
+```methodsynopsis
+public Yaf_Config_Ini::valid(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

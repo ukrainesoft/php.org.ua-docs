@@ -1,19 +1,27 @@
-- [« UI\Controls\Slider::getValue](ui-controls-slider.getvalue.md)
-- [UI\Controls\Slider::setValue »](ui-controls-slider.setvalue.md)
+Обробник зміни
 
-- [PHP Manual](index.md)
-- [UI\Controls\Slider](class.ui-controls-slider.md)
-- обробник зміни
+-   [« UI\\Controls\\Slider::getValue](ui-controls-slider.getvalue.html)
+    
+-   [UI\\Controls\\Slider::setValue »](ui-controls-slider.setvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Slider](class.ui-controls-slider.html)
+    
+-   Обробник зміни
+    
 
-# UI\Controls\Slider::onChange
+# ОЙControlsSlider::onChange
 
 (UI 0.9.9)
 
-UI\Controls\Slider::onChange — Обробник зміни
+ОЙControlsSlider::onChange — Обробник зміни
 
 ### Опис
 
-protected **UI\Controls\Slider::onChange**()
+```methodsynopsis
+protected UI\Controls\Slider::onChange()
+```
 
 Виконується при зміні значення в даному слайдері
 

@@ -1,19 +1,27 @@
-- [«trader_ema](function.trader-ema.md)
-- [trader_exp»](function.trader-exp.md)
+Отримати код помилки
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Отримати код помилки
+-   [« trader\_ema](function.trader-ema.html)
+    
+-   [trader\_exp »](function.trader-exp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Отримати код помилки
+    
 
-# trader_errno
+# tradererrno
 
-(PECL trader \>= 0.3.0)
+(PECL trader >= 0.3.0)
 
-trader_errno — Отримати код помилки
+tradererrno — Отримати код помилки
 
 ### Опис
 
-**trader_errno**(): int
+```methodsynopsis
+trader_errno(): int
+```
 
 Отримати код помилки останньої операції.
 
@@ -23,5 +31,4 @@ trader_errno — Отримати код помилки
 
 ### Значення, що повертаються
 
-Повертає код помилки, ідентифікований однією з
-[TRADER_ERR\_\*](trader.constants.md) констант.
+Повертає код помилки, ідентифікований однією з [TRADER\_ERR\_\*](trader.constants.html) констант.

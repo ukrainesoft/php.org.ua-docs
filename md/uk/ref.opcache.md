@@ -1,23 +1,23 @@
-- [« Preloading](opcache.preloading.md)
-- [opcache_compile_file »](function.opcache-compile-file.md)
+Опції OPcache
 
-- [PHP Manual](index.md)
-- [OPcache](book.opcache.md)
-- Опції OPcache
+-   [« Preloading](opcache.preloading.html)
+    
+-   [opcache\_compile\_file »](function.opcache-compile-file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OPcache](book.opcache.html)
+    
+-   Опції OPcache
+    
 
-# Функції OPcache
+# Опції OPcache
 
 ## Зміст
 
-- [opcache_compile_file](function.opcache-compile-file.md) -
-Скомпілювати та закешувати, але не виконувати скрипт PHP
-- [opcache_get_configuration](function.opcache-get-configuration.md)
-— Отримати конфігураційну інформацію кешу
-- [opcache_get_status](function.opcache-get-status.md) — Отримати
-інформацію про стан кешу
-- [opcache_invalidate](function.opcache-invalidate.md) - Анулює
-закешований скрипт
-- [opcache_is_script_cached](function.opcache-is-script-cached.md) -
-Перевіряє, чи закешовано скрипт в OPCache
-- [opcache_reset](function.opcache-reset.md) — Скидає вміст
-кеша опкодів
+-   [opcache\_compile\_file](function.opcache-compile-file.html) — Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcache\_get\_configuration](function.opcache-get-configuration.html) — Отримати конфігураційну інформацію кешу
+-   [opcache\_get\_status](function.opcache-get-status.html) — Отримати інформацію про стан кешу
+-   [opcache\_invalidate](function.opcache-invalidate.html) — Анулює закешований скрипт
+-   [opcache\_is\_script\_cached](function.opcache-is-script-cached.html) — Перевіряє, чи закешовано скрипт в OPCache
+-   [opcache\_reset](function.opcache-reset.html) — скидає вміст кешу опкодів

@@ -1,110 +1,102 @@
-- [« Yaf_Route_Supervar::route](yaf-route-supervar.route.md)
-- [Yaf_Session::\_\_construct »](yaf-session.construct.md)
+Клас YafSession
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Session
+-   [« Yaf\_Route\_Supervar::route](yaf-route-supervar.route.html)
+    
+-   [Yaf\_Session::\_\_construct »](yaf-session.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafSession
+    
 
-# Клас Yaf_Session
+# Клас YafSession
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Yaf_Session** implements [Iterator](class.iterator.md),
-[ArrayAccess](class.arrayaccess.md), [Countable](class.countable.md)
-{
+```classsynopsis
 
-/\* Властивості \*/
 
-protected static `$_instance`;
+    
+    
+     
+      class Yaf_Session
+     
 
-protected `$_session`;
+     implements 
+       Iterator,  ArrayAccess,  Countable {
+    
+    /* Свойства */
+    
+     protected
+     static
+      $_instance;
 
-protected `$_started`;
+    protected
+      $_session;
 
-/\* Методи \*/
+    protected
+      $_started;
 
-private [\_\_construct](yaf-session.construct.md)()
 
-public [count](yaf-session.count.md)(): void
 
-public [current](yaf-session.current.md)(): void
+    /* Методы */
+    
+   private __construct()
 
-public [del](yaf-session.del.md)(string `$name`): void
+    public count(): void
+public current(): void
+public del(string $name): void
+public __get(string $name): void
+public static getInstance(): void
+public has(string $name): void
+public __isset(string $name): void
+public key(): void
+public next(): void
+public offsetExists(string $name): void
+public offsetGet(string $name): void
+public offsetSet(string $name, string $value): void
+public offsetUnset(string $name): void
+public rewind(): void
+public __set(string $name, string $value): void
+public start(): void
+public __unset(string $name): void
+public valid(): void
 
-public [\_\_get](yaf-session.get.md)(string `$name`): void
-
-public static [getInstance](yaf-session.getinstance.md)(): void
-
-public [has](yaf-session.has.md)(string `$name`): void
-
-public [\_\_isset](yaf-session.isset.md)(string `$name`): void
-
-public [key](yaf-session.key.md)(): void
-
-public [next](yaf-session.next.md)(): void
-
-public [offsetExists](yaf-session.offsetexists.md)(string `$name`):
-void
-
-public [offsetGet](yaf-session.offsetget.md)(string `$name`): void
-
-public [offsetSet](yaf-session.offsetset.md)(string `$name`, string
-`$value`): void
-
-public [offsetUnset](yaf-session.offsetunset.md)(string `$name`): void
-
-public [rewind](yaf-session.rewind.md)(): void
-
-public [\_\_set](yaf-session.set.md)(string `$name`, string `$value`):
-void
-
-public [start](yaf-session.start.md)(): void
-
-public [\_\_unset](yaf-session.unset.md)(string `$name`): void
-
-public [valid](yaf-session.valid.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`_instance`
+instance
 
-`_session`
+session
 
-`_started`
+started
 
 ## Зміст
 
-- [Yaf_Session::\_\_construct](yaf-session.construct.md) -
-Конструктор класу Yaf_Session
-- [Yaf_Session::count](yaf-session.count.md) - Призначення count
-- [Yaf_Session::current](yaf-session.current.md) - Призначення
-current
-- [Yaf_Session::del](yaf-session.del.md) — Призначення del
-- [Yaf_Session::\_\_get](yaf-session.get.md) - Призначення \_\_get
-- [Yaf_Session::getInstance](yaf-session.getinstance.md) -
-Призначення getInstance
-- [Yaf_Session::has](yaf-session.has.md) — Призначення has
-- [Yaf_Session::\_\_isset](yaf-session.isset.md) - Призначення
-\_\_isset
-- [Yaf_Session::key](yaf-session.key.md) — Призначення key
-- [Yaf_Session::next](yaf-session.next.md) - Призначення next
-- [Yaf_Session::offsetExists](yaf-session.offsetexists.md) -
-Призначення offsetExists
-- [Yaf_Session::offsetGet](yaf-session.offsetget.md) — Призначення
-offsetGet
-- [Yaf_Session::offsetSet](yaf-session.offsetset.md) — Призначення
-offsetSet
-- [Yaf_Session::offsetUnset](yaf-session.offsetunset.md) -
-Призначення offsetUnset
-- [Yaf_Session::rewind](yaf-session.rewind.md) — Призначення rewind
-- [Yaf_Session::\_\_set](yaf-session.set.md) - Призначення \_\_set
-- [Yaf_Session::start](yaf-session.start.md) — Призначення start
-- [Yaf_Session::\_\_unset](yaf-session.unset.md) — Призначення
-\_\_unset
-- [Yaf_Session::valid](yaf-session.valid.md) — Призначення valid
+-   [Yaf\_Session::\_\_construct](yaf-session.construct.html) - Конструктор класу YafSession
+-   [Yaf\_Session::count](yaf-session.count.html) - Призначення count
+-   [Yaf\_Session::current](yaf-session.current.html) - Призначення current
+-   [Yaf\_Session::del](yaf-session.del.html) - Призначення del
+-   [Yaf\_Session::\_\_get](yaf-session.get.html) - Призначення get
+-   [Yaf\_Session::getInstance](yaf-session.getinstance.html) — Призначення getInstance
+-   [Yaf\_Session::has](yaf-session.has.html) - Призначення has
+-   [Yaf\_Session::\_\_isset](yaf-session.isset.html) - Призначення isset
+-   [Yaf\_Session::key](yaf-session.key.html) - Призначення key
+-   [Yaf\_Session::next](yaf-session.next.html) - Призначення next
+-   [Yaf\_Session::offsetExists](yaf-session.offsetexists.html) — Призначення offsetExists
+-   [Yaf\_Session::offsetGet](yaf-session.offsetget.html) - Призначення offsetGet
+-   [Yaf\_Session::offsetSet](yaf-session.offsetset.html) - Призначення offsetSet
+-   [Yaf\_Session::offsetUnset](yaf-session.offsetunset.html) - Призначення offsetUnset
+-   [Yaf\_Session::rewind](yaf-session.rewind.html) - Призначення rewind
+-   [Yaf\_Session::\_\_set](yaf-session.set.html) - Призначення set
+-   [Yaf\_Session::start](yaf-session.start.html) - Призначення start
+-   [Yaf\_Session::\_\_unset](yaf-session.unset.html) - Призначення unset
+-   [Yaf\_Session::valid](yaf-session.valid.html) - Призначення valid

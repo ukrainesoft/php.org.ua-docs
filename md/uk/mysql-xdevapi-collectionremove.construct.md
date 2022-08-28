@@ -1,22 +1,27 @@
-- [« CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.md)
-- [CollectionRemove::execute »](mysql-xdevapi-collectionremove.execute.md)
+Конструктор класу CollectionRemove
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)
-- Конструктор класу CollectionRemove
+-   [« CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.html)
+    
+-   [CollectionRemove::execute »](mysql-xdevapi-collectionremove.execute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionRemove](class.mysql-xdevapi-collectionremove.html)
+    
+-   Конструктор класу CollectionRemove
+    
 
-# CollectionRemove::\_\_construct
+# CollectionRemove::construct
 
 (No version information available, might only be in Git)
 
-CollectionRemove::\_\_construct - Конструктор класу CollectionRemove
+CollectionRemove::construct — Конструктор класу CollectionRemove
 
 ### Опис
 
-private **mysql_xdevapi\CollectionRemove::\_\_construct**()
+private **mysqlxdevapiCollectionRemove::construct**
 
-Видаляє документи колекції та створюється екземпляром методу
-Collection::remove().
+Видаляє документи колекції та створюється екземпляром методу Collection::remove().
 
 ### Список параметрів
 
@@ -24,7 +29,38 @@ Collection::remove().
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::remove()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::remove()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$collection->ad ": "Alfred", "age": 18, "job": "Butler"}')->execute();$collection->add('{"name": "Bob",    "age": 19, "job": "Painter"}')->execute();// Видалення всіх художників$collection  ->remove("job in ('Painter')") ->execute();// Видалити найстарішого двору collection  ->remove("job in ('Butler')") ->sort('age desc') ->limit(1) --execute();// Видалити запис з самим низким віку$ 'true') ->sort('age desc') ->limit(1) ->execute();?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+$collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
+$collection->add('{"name": "Bob",    "age": 19, "job": "Painter"}')->execute();
+
+// Удаление всех художников
+$collection
+  ->remove("job in ('Painter')")
+  ->execute();
+
+// Удалить самого старого дворецкого
+$collection
+  ->remove("job in ('Butler')")
+  ->sort('age desc')
+  ->limit(1)
+  ->execute();
+
+// Удалить запись с самым низким возрастом
+$collection
+  ->remove('true')
+  ->sort('age desc')
+  ->limit(1)
+  ->execute();
+?>
+```

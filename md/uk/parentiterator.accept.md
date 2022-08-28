@@ -1,26 +1,33 @@
-- [«ParentIterator](class.parentiterator.md)
-- [ParentIterator::\_\_construct »](parentiterator.construct.md)
+Визначення доступності
 
-- [PHP Manual](index.md)
-- [ParentIterator](class.parentiterator.md)
-- Визначення доступності
+-   [« ParentIterator](class.parentiterator.html)
+    
+-   [ParentIterator::\_\_construct »](parentiterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ParentIterator](class.parentiterator.html)
+    
+-   Визначення доступності
+    
 
 # ParentIterator::accept
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ParentIterator::accept — Визначення доступності
 
 ### Опис
 
-public **ParentIterator::accept**(): bool
+```methodsynopsis
+public ParentIterator::accept(): bool
+```
 
 Визначає, чи елемент має дочірні елементи.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,7 +39,5 @@ public **ParentIterator::accept**(): bool
 
 ### Дивіться також
 
-- [ParentIterator::hasChildren()](parentiterator.haschildren.md) -
-Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
-- [FilterIterator::accept()](filteriterator.accept.md) - Перевіряє,
-чи є поточний елемент ітератора допустимим
+-   [ParentIterator::hasChildren()](parentiterator.haschildren.html) - Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
+-   [FilterIterator::accept()](filteriterator.accept.html) - Перевіряє, чи є поточний елемент ітератора допустимим

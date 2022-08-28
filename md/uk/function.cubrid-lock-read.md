@@ -1,73 +1,107 @@
-- [«cubrid_lob2_write](function.cubrid-lob2-write.md)
-- [cubrid_lock_write »](function.cubrid-lock-write.md)
+Встановлює блокування читання для цього OID
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Встановлює блокування читання для цього OID
+-   [« cubrid\_lob2\_write](function.cubrid-lob2-write.html)
+    
+-   [cubrid\_lock\_write »](function.cubrid-lock-write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Встановлює блокування читання для цього OID
+    
 
-#cubrid_lock_read
+# cubridlockread
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_lock_read — Встановлює блокування читання для цього OID
+cubridlockread — Встановлює блокування читання для цього OID
 
 ### Опис
 
-**cubrid_lock_read**(resource `$conn_identifier`, string `$oid`): bool
+```methodsynopsis
+cubrid_lock_read(resource $conn_identifier, string $oid): bool
+```
 
-Функція **cubrid_lock_read()** використовується для встановлення блокування
-читання екземпляра, на який вказує цей `oid`.
+Функція **cubridlockread()** використовується для встановлення блокування читання екземпляра, на який вказує даний `oid`
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `oid`
+
 OID екземпляра, на який необхідно встановити блокування читання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_lock_read()****
+**Приклад #1 Приклад використання **cubridlockread()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c list(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3 }, {11,22,33,333}, 'a')");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44, 55,66,666}, 'b')"); ($conn, $oid);$attr = cubrid_get($conn, $oid, "b");var_dump($attr);$attr = cubrid_get($conn, $oid);var_dump($attr);cubrid_close_request $req);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+
+@cubrid_execute($conn, "DROP TABLE foo");
+cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c list(int), d char(10))");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44,55,66,666}, 'b')");
+
+$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
+
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$oid = cubrid_current_oid($req);
+
+cubrid_lock_read($conn, $oid);
+
+$attr = cubrid_get($conn, $oid, "b");
+var_dump($attr);
+
+$attr = cubrid_get($conn, $oid);
+var_dump($attr);
+
+cubrid_close_request($req);
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(9) "{1, 2, 3}"
 array(4) {
-["a"]=>
-string(1) "1"
-["b"]=>
-array(3) {
-[0]=>
-string(1) "1"
-[1]=>
-string(1) "2"
-[2]=>
-string(1) "3"
+  ["a"]=>
+  string(1) "1"
+  ["b"]=>
+  array(3) {
+    [0]=>
+    string(1) "1"
+    [1]=>
+    string(1) "2"
+    [2]=>
+    string(1) "3"
+  }
+  ["c"]=>
+  array(4) {
+    [0]=>
+    string(2) "11"
+    [1]=>
+    string(2) "22"
+    [2]=>
+    string(2) "33"
+    [3]=>
+    string(3) "333"
+  }
+  ["d"]=>
+  string(10) "a         "
 }
-["c"]=>
-array(4) {
-[0]=>
-string(2) "11"
-[1]=>
-string(2) "22"
-[2]=>
-string(2) "33"
-[3]=>
-string(3) "333"
-}
-["d"]=>
-string(10) "a"
-}
+```
 
 ### Дивіться також
 
-- [cubrid_lock_write()](function.cubrid-lock-write.md) -
-Встановлює блокування запису для цього OID
+-   [cubrid\_lock\_write()](function.cubrid-lock-write.html) - Встановлює блокування запису для цього OID

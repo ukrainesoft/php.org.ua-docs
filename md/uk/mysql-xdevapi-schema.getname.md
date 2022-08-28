@@ -1,19 +1,27 @@
-- [« Schema::getCollections](mysql-xdevapi-schema.getcollections.md)
-- [Schema::getSession »](mysql-xdevapi-schema.getsession.md)
+Отримати ім'я схеми
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- Отримати ім'я схеми
+-   [« Schema::getCollections](mysql-xdevapi-schema.getcollections.html)
+    
+-   [Schema::getSession »](mysql-xdevapi-schema.getsession.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+    
+-   Отримати ім'я схеми
+    
 
 # Schema::getName
 
 (No version information available, might only be in Git)
 
-Schema::getName — Отримати назву схеми
+Schema::getName — Отримати ім'я схеми
 
 ### Опис
 
-public **mysql_xdevapi\Schema::getName**(): string
+```methodsynopsis
+public mysql_xdevapi\Schema::getName(): string
+```
 
 Отримати назву схеми.
 
@@ -27,10 +35,24 @@ public **mysql_xdevapi\Schema::getName**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Schema::getName()****
+**Приклад #1 Приклад використання **mysqlxdevapiSchema::getName()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");// ...var_dump($schema->getName());?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema  = $session->getSchema("addressbook");
+
+// ...
+
+var_dump($schema->getName());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(11) "addressbook"
+```

@@ -1,69 +1,102 @@
-- [« Phar::mapPhar](phar.mapphar.md)
-- [Phar::mungServer »](phar.mungserver.md)
+Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
 
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Монтування зовнішнього шляху або файлу до віртуального шляху
-phar-архіві
+-   [« Phar::mapPhar](phar.mapphar.html)
+    
+-   [Phar::mungServer »](phar.mungserver.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](class.phar.html)
+    
+-   Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
+    
 
 # Phar::mount
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-Phar::mount — Монтування зовнішнього шляху або файлу до віртуального шляху
-phar-архіві
+Phar::mount — Монтування зовнішнього шляху або файлу до віртуального шляху в phar-архіві
 
 ### Опис
 
-final public static **Phar::mount**(string `$pharPath`, string
-`$externalPath`): void
+```methodsynopsis
+final public static Phar::mount(string $pharPath, string $externalPath): void
+```
 
-Дуже схоже на концепцію файлової системи unix по монтуванню зовнішнього.
-пристрої у існуюче дерево директорій. **Phar::mount()** дозволяє
-посилатися на зовнішні файли та директорії, ніби вони знаходяться всередині
-архів. Це дозволяє підвищити рівень абстракції, звертаючись до зовнішніх.
-конфігураційним файлам так, ніби вони є частиною архіву.
+Дуже схоже на концепцію файлової системи unix щодо монтування зовнішнього пристрою в існуюче дерево директорій . **Phar::mount()** дозволяє посилатися на зовнішні файли та директорії, ніби вони знаходяться всередині архіву. Це дозволяє підвищити рівень абстракції, звертаючись до зовнішніх конфігураційних файлів так, ніби вони є частиною архіву.
 
 ### Список параметрів
 
 `pharPath`
-Внутрішній шлях в архіві, яким необхідно примонтувати зовнішній
-шлях. Це має бути неіснуючий відносний шлях усередині архіву.
+
+Внутрішній шлях в архіві, яким необхідно примонтувати зовнішній шлях. Це має бути неіснуючий відносний шлях усередині архіву.
 
 `externalPath`
+
 Шлях або URL зовнішнього файлу чи директорії
 
 ### Значення, що повертаються
 
-Нічого не вертає. У разі виникнення помилки викидає
-виняток [PharException](class.pharexception.md).
+Нічого не вертає. У разі виникнення помилки викидає виняток [PharException](class.pharexception.html)
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у
-виникнення помилок.
+Викидає виняток [PharException](class.pharexception.html) у разі виникнення помилок.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::mount()****
 
-У наступному прикладі демонструється доступ до зовнішнього конфігураційного
-файлу, як він знаходиться всередині архіву.
+У наступному прикладі демонструється доступ до зовнішнього конфігураційного файлу, наче він знаходиться всередині архіву.
 
 Для початку код, що міститься в архіві:
 
-` <?php$configuration = simplexml_load_string(file_get_contents(    Phar::running(false) . '/config.xml')));?> `
+```php
+<?php
+$configuration = simplexml_load_string(file_get_contents(
+    Phar::running(false) . '/config.xml'));
+?>
+```
 
-Далі зовнішній код, що монтує файл до архіву:
+Далі зовнішній код, який монтує файл в архів:
 
-`<?php// для початку налаштуємо асоціацію між абстрактним config.xml// і конкретним файлом на дискуPhar::mount('phar://config.xml', '/home/example/config.xml');/// а тепер запускаємо додатокinclude '/path/to/archive.phar';?> `
+```php
+<?php
+// для начала настроим ассоциацию между абстрактным config.xml
+// и конкретным файлом на диске
+Phar::mount('phar://config.xml', '/home/example/config.xml');
+// а теперь запускаем приложение
+include '/path/to/archive.phar';
+?>
+```
 
-Інший метод - помістити монтуючий код у заглушку (stub) Phar-архіву.
-Приклад використання конфігураційного файлу за замовчуванням, якщо
-Файл конфігурації користувача не заданий:
+Інший метод - помістити код, що монтує, в заглушку (stub) Phar-архіву. Приклад використання конфігураційного файлу за замовчуванням, якщо файл конфігурації не заданий:
 
-`<?php// для початку налаштуємо зв'язок між абстрактним config.xml// і конкретним файлом на дискеif (defined('EXTERNAL_CONFIG')) {    Phar::ml if (file_exists(__DIR__ . '/extra_config.xml')) {        Phar::mount('extra.xml', __DIR__ . '/extra_config.xml'); }} else {    Phar::mount('config.xml', 'phar://' . __FILE__ . '/default_config.xml'); Phar::mount('extra.xml', 'phar://' . __FILE__ . '/default_extra.xml');}// а тепер запускаємо додатокinclude 'phar://' . __FILE__ . '/index.php';__HALT_COMPILER();?> `
+```php
+<?php
+// для начала настроим связь между абстрактным config.xml
+// и конкретным файлом на диске
+if (defined('EXTERNAL_CONFIG')) {
+    Phar::mount('config.xml', EXTERNAL_CONFIG);
+    if (file_exists(__DIR__ . '/extra_config.xml')) {
+        Phar::mount('extra.xml', __DIR__ . '/extra_config.xml');
+    }
+} else {
+    Phar::mount('config.xml', 'phar://' . __FILE__ . '/default_config.xml');
+    Phar::mount('extra.xml', 'phar://' . __FILE__ . '/default_extra.xml');
+}
+// а теперь запускаем приложение
+include 'phar://' . __FILE__ . '/index.php';
+__HALT_COMPILER();
+?>
+```
 
-... і код для завантаження цього phar-архіву:
+... та код для завантаження цього phar-архіву:
 
-` <?phpdefine('EXTERNAL_CONFIG', '/home/example/config.xml');// а тепер запускаємо додатокinclude '/path/to/archive.phar';?> `
+```php
+<?php
+define('EXTERNAL_CONFIG', '/home/example/config.xml');
+// а теперь запускаем приложение
+include '/path/to/archive.phar';
+?>
+```

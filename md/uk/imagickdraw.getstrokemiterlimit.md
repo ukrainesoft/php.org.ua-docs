@@ -1,9 +1,15 @@
-- [« ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md)
-- [ImagickDraw::getStrokeOpacity »](imagickdraw.getstrokeopacity.md)
+Повертає межу зрізу обведення
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає межу зрізу обведення
+-   [« ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.html)
+    
+-   [ImagickDraw::getStrokeOpacity »](imagickdraw.getstrokeopacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає межу зрізу обведення
+    
 
 # ImagickDraw::getStrokeMiterLimit
 
@@ -13,19 +19,16 @@ ImagickDraw::getStrokeMiterLimit — Повертає межу зрізу обв
 
 ### Опис
 
-public **ImagickDraw::getStrokeMiterLimit**(): int
+```methodsynopsis
+public ImagickDraw::getStrokeMiterLimit(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає межу зрізу. Коли два відрізки лінії зустрічаються під гострим
-кутом і для 'lineJoin' задані кутові стики, зріз може виходити далеко
-за межі товщини лінії, що обводить контур. 'miterLimit' накладає
-обмеження відношення довжини зрізу до 'lineWidth'.
+Повертає межу зрізу. Коли два відрізки лінії зустрічаються під гострим кутом і для lineJoin задані кутові стики, зріз може виходити далеко за межі товщини лінії, що обводить контур. 'miterLimit' накладає обмеження на відношення довжини зрізу до 'lineWidth'.
 
 ### Значення, що повертаються
 
-Повертає ціле число, що описує межу зрізу, або 0, якщо межа
-зрізу не встановлено.
+Повертає ціле число, що описує межу зрізу, або 0, якщо межа зрізу не встановлена.

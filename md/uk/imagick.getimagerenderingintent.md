@@ -1,20 +1,27 @@
-- [« Imagick::getImageRegion](imagick.getimageregion.md)
-- [Imagick::getImageResolution »](imagick.getimageresolution.md)
+Повертає схему передачі кольору зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає схему кольору зображення
+-   [« Imagick::getImageRegion](imagick.getimageregion.html)
+    
+-   [Imagick::getImageResolution »](imagick.getimageresolution.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає схему передачі кольору зображення
+    
 
 # Imagick::getImageRenderingIntent
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageRenderingIntent — Повертає схему передачі кольору
-зображення
+Imagick::getImageRenderingIntent — Повертає схему передачі кольору зображення
 
 ### Опис
 
-public **Imagick::getImageRenderingIntent**(): int
+```methodsynopsis
+public Imagick::getImageRenderingIntent(): int
+```
 
 Повертає схему передачі кольору зображення.
 
@@ -24,8 +31,7 @@ public **Imagick::getImageRenderingIntent**(): int
 
 ### Значення, що повертаються
 
-Повертає [схему кольору](imagick.constants.md#imagick.constants.renderingintent)
-зображення.
+Повертає [схему цветопередачи](imagick.constants.html#imagick.constants.renderingintent) зображення.
 
 ### Помилки
 

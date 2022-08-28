@@ -1,26 +1,35 @@
-- [« Функції прямого введення/виводу](ref.dio.md)
-- [dio_fcntl »](function.dio-fcntl.md)
+Закрити файловий дескриптор
 
-- [PHP Manual](index.md)
-- [Функції прямого введення/виводу](ref.dio.md)
-- Закрити файловий дескриптор
+-   [« Функции прямого ввода/вывода](ref.dio.html)
+    
+-   [dio\_fcntl »](function.dio-fcntl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции прямого ввода/вывода](ref.dio.html)
+    
+-   Закрити файловий дескриптор
+    
 
-#dio_close
+# dioclose
 
-(PHP 4 \>= 4.2.0, PHP 5 \< 5.1.0)
+(PHP 4> = 4.2.0, PHP 5 <5.1.0)
 
-dio_close — Закрити файловий дескриптор
+dioclose — Закрити файловий дескриптор
 
 ### Опис
 
-**dio_close**(resource `$fd`): void
+```methodsynopsis
+dio_close(resource $fd): void
+```
 
-Функція **dio_close()** закриває файловий дескриптор `fd`.
+Функція **dioclose()** закриває файловий дескриптор `fd`
 
 ### Список параметрів
 
 `fd`
-Файловий дескриптор, отриманий із [dio_open()](function.dio-open.md).
+
+Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.html)
 
 ### Значення, що повертаються
 
@@ -30,10 +39,14 @@ dio_close — Закрити файловий дескриптор
 
 **Приклад #1 Закриття файлового дескриптора**
 
-` <?php$fd = dio_open('/dev/ttyS0', O_RDWR);dio_close($fd);?> `
+```php
+<?php
+$fd = dio_open('/dev/ttyS0', O_RDWR);
+
+dio_close($fd);
+?>
+```
 
 ### Дивіться також
 
-- [dio_open()](function.dio-open.md) - Відкриває файл (за
-необхідності створює) на нижчому рівні, ніж потокові
-функції введення/виведення мови C
+-   [dio\_open()](function.dio-open.html) - Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C

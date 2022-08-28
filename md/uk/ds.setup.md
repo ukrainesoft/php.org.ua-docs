@@ -1,13 +1,19 @@
-- [«Вступ](intro.ds.md)
-- [Вимоги »](ds.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
+-   [« Введение](intro.ds.html)
+    
+-   [Требования »](ds.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](book.ds.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ds.requirements.md)
-- [Установка](ds.installation.md)
+-   [Требования](ds.requirements.html)
+-   [Установка](ds.installation.html)

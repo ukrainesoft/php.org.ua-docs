@@ -1,11 +1,17 @@
-- [« UI\Draw\Text\Layout::setWidth](ui-draw-text-layout.setwidth.md)
-- [UI\Draw\Text\Font::\_\_construct »](ui-draw-text-font.construct.md)
+Подає шрифт
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Представляє шрифт
+-   [« UI\\Draw\\Text\\Layout::setWidth](ui-draw-text-layout.setwidth.html)
+    
+-   [UI\\Draw\\Text\\Font::\_\_construct »](ui-draw-text-font.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Подає шрифт
+    
 
-# Представляє шрифт
+# Подає шрифт
 
 (UI 0.9.9)
 
@@ -15,43 +21,38 @@
 
 ## Огляд класів
 
-class **UI\Draw\Text\Font** {
+```classsynopsis
 
-/\* Конструктор \*/
 
-public
-[\_\_construct](ui-draw-text-font.construct.md)([UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)
-`$descriptor`)
 
-/\* Методи \*/
+    
+     
+      class UI\Draw\Text\Font
+     
+     {
 
-public [getAscent](ui-draw-text-font.getascent.md)(): float
 
-public [getDescent](ui-draw-text-font.getdescent.md)(): float
+    /* Конструктор */
+    
+   public __construct(UI\Draw\Text\Font\Descriptor $descriptor)
 
-public [getLeading](ui-draw-text-font.getleading.md)(): float
 
-public
-[getUnderlinePosition](ui-draw-text-font.getunderlineposition.md)():
-float
+    /* Методы */
+    public getAscent(): float
+public getDescent(): float
+public getLeading(): float
+public getUnderlinePosition(): float
+public getUnderlineThickness(): float
 
-public
-[getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md)():
-float
 
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Draw\Text\Font::\_\_construct](ui-draw-text-font.construct.md)
-— Створити новий об'єкт Font
-- [UI\Draw\Text\Font::getAscent](ui-draw-text-font.getascent.md) -
-Показники шрифту
-- [UI\Draw\Text\Font::getDescent](ui-draw-text-font.getdescent.md) -
-Показники шрифту
-- [UI\Draw\Text\Font::getLeading](ui-draw-text-font.getleading.md) -
-Показники шрифту
-- [UI\Draw\Text\Font::getUnderlinePosition](ui-draw-text-font.getunderlineposition.md)
-- Показники шрифту
-- [UI\Draw\Text\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md)
-- Показники шрифту
+-   [UI\\Draw\\Text\\Font::\_\_construct](ui-draw-text-font.construct.html) — Створити новий об'єкт Font
+-   [UI\\Draw\\Text\\Font::getAscent](ui-draw-text-font.getascent.html) — Показники шрифту
+-   [UI\\Draw\\Text\\Font::getDescent](ui-draw-text-font.getdescent.html) — Показники шрифту
+-   [UI\\Draw\\Text\\Font::getLeading](ui-draw-text-font.getleading.html) — Показники шрифту
+-   [UI\\Draw\\Text\\Font::getUnderlinePosition](ui-draw-text-font.getunderlineposition.html) — Показники шрифту
+-   [UI\\Draw\\Text\\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.html) — Показники шрифту

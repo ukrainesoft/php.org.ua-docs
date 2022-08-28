@@ -1,23 +1,29 @@
-- [« Swoole\Serialize](class.swoole-serialize.md)
-- [Swoole\Serialize::unpack »](swoole-serialize.unpack.md)
+Серіалізувати дані
 
-- [PHP Manual](index.md)
-- [Swoole\Serialize](class.swoole-serialize.md)
-- Серіалізувати дані
+-   [« Swoole\\Serialize](class.swoole-serialize.html)
+    
+-   [Swoole\\Serialize::unpack »](swoole-serialize.unpack.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Serialize](class.swoole-serialize.html)
+    
+-   Серіалізувати дані
+    
 
-# Swoole\Serialize::pack
+# SwooleSerialize::pack
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Serialize::pack — Серіалізувати дані
+SwooleSerialize::pack — Серіалізувати дані
 
 ### Опис
 
-public static **Swoole\Serialize::pack**(string `$data`, int `$is_fast`
-=?): ReturnType
+```methodsynopsis
+public static Swoole\Serialize::pack(string $data, int $is_fast = ?): ReturnType
+```
 
-Swoolle забезпечує швидкий та високопродуктивний модуль
-серіалізації.
+Swoolle забезпечує швидкий та високопродуктивний модуль серіалізації.
 
 ### Список параметрів
 

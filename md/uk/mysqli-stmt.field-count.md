@@ -1,38 +1,43 @@
-- [« mysqli_stmt::fetch](mysqli-stmt.fetch.md)
-- [mysqli_stmt::free_result »](mysqli-stmt.free-result.md)
+Повертає кількість стовпців у заданому виразі
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Повертає кількість стовпців у заданому вираженні
+-   [« mysqli\_stmt::fetch](mysqli-stmt.fetch.html)
+    
+-   [mysqli\_stmt::free\_result »](mysqli-stmt.free-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_stmt](class.mysqli-stmt.html)
+    
+-   Повертає кількість стовпців у заданому виразі
+    
 
-# mysqli_stmt::$field_count
+# mysqlistmt::$fieldcount
 
-# mysqli_stmt_field_count
+# mysqlistmtfieldcount
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::$field_count -- mysqli_stmt_field_count — Повертає число
-стовпців у заданому вираженні
+mysqlistmt::$fieldcount - mysqlistmtfieldcount — Повертає кількість стовпців у заданому виразі
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli_stmt->field_count`;
+int [$mysqli\_stmt->field\_count](mysqli-stmt.field-count.html)
 
 Процедурний стиль
 
-**mysqli_stmt_field_count**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`): int
+```methodsynopsis
+mysqli_stmt_field_count(mysqli_stmt $statement): int
+```
 
-Повертає кількість стовпців у підготовленому вираженні.
+Повертає кількість стовпців у підготовленому виразі.
 
 ### Список параметрів
 
 `stmt`
-Тільки для процедурного стилю: об'єкт
-[mysqli_stmt](class.mysqli-stmt.md), отриманий за допомогою
-[mysqli_stmt_init()](mysqli.stmt-init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.html), отриманий за допомогою [mysqli\_stmt\_init()](mysqli.stmt-init.html)
 
 ### Значення, що повертаються
 
@@ -42,17 +47,49 @@ int `$mysqli_stmt->field_count`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$code = 'FR'; SELECT Name FROM Country WHERE Code=?");$stmt->bind_param('s', $code);$stmt->execute();$row = $stmt->get_result()->fetch_row();for ($i = 0; $i < $stmt->field_count; $i++) {    printf("Значення номери стовпця %d - %s", $i, $row[$i]);} `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$code = 'FR';
+
+$stmt = $mysqli->prepare("SELECT Name FROM Country WHERE Code=?");
+$stmt->bind_param('s', $code);
+$stmt->execute();
+$row = $stmt->get_result()->fetch_row();
+for ($i = 0; $i < $stmt->field_count; $i++) {
+    printf("Значение номера столбца %d - %s", $i, $row[$i]);
+}
+```
 
 **Приклад #2 Процедурний стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$code = 'FR'$$ FROM Country WHERE Code=?"); mysqli_stmt_bind_param($stmt, 's', $code); mysqli_stmt_execute($stmt); = 0; $i < mysqli_stmt_field_count($stmt); $i++) {    printf("Значення номеру стовпця %d - %s", $i, $row[$i]);} `
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$code = 'FR';
+
+$stmt = mysqli_prepare($mysqli, "SELECT Name FROM Country WHERE Code=?");
+mysqli_stmt_bind_param($stmt, 's', $code);
+mysqli_stmt_execute($stmt);
+$result = mysqli_stmt_get_result($stmt);
+$row = mysqli_fetch_row($result);
+for ($i = 0; $i < mysqli_stmt_field_count($stmt); $i++) {
+    printf("Значение номера столбца %d - %s", $i, $row[$i]);
+}
+```
 
 Результатом виконання даних прикладів буде щось подібне:
 
-Значення номера стовпця 0 - France
+```
+Значение номера столбца 0 - France
+```
 
 ### Дивіться також
 
-- [mysqli_stmt_num_rows()](mysqli-stmt.num-rows.md) - Повертає
-кількість рядків, отриманих із сервера
+-   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.html) - Повертає кількість рядків, отриманих із сервера

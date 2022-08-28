@@ -1,22 +1,30 @@
-- [«EvWatcher::start](evwatcher.start.md)
-- [Expect »](book.expect.md)
+Зупиняє спостерігача
 
-- [PHP Manual](index.md)
-- [EvWatcher](class.evwatcher.md)
-- зупиняє спостерігача
+-   [« EvWatcher::start](evwatcher.start.html)
+    
+-   [Expect »](book.expect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvWatcher](class.evwatcher.html)
+    
+-   Зупиняє спостерігача
+    
 
 # EvWatcher::stop
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvWatcher::stop — Зупиняє спостерігача
 
 ### Опис
 
-public **EvWatcher::stop**(): void
+```methodsynopsis
+public
+   EvWatcher::stop(): void
+```
 
-Зазначає спостерігача як неактивного. Зверніть увагу, що тільки
-активні спостерігачі отримуватимуть події.
+Зазначає спостерігача як неактивного. Зверніть увагу, що лише активні спостерігачі отримуватимуть події.
 
 ### Список параметрів
 
@@ -28,4 +36,4 @@ public **EvWatcher::stop**(): void
 
 ### Дивіться також
 
-- [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача

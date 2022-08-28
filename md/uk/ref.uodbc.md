@@ -1,94 +1,62 @@
-- [«Зумовлені константи](uodbc.constants.md)
-- [odbc_autocommit »](function.odbc-autocommit.md)
+Функції ODBC
 
-- [PHP Manual](index.md)
-- [ODBC](book.uodbc.md)
-- Функції ODBC
+-   [« Предопределённые константы](uodbc.constants.html)
+    
+-   [odbc\_autocommit »](function.odbc-autocommit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ODBC](book.uodbc.html)
+    
+-   Функції ODBC
+    
 
 # Функції ODBC
 
 ## Зміст
 
-- [odbc_autocommit](function.odbc-autocommit.md) — Перемикає
-поведінка автоматичної фіксації
-- [odbc_binmode](function.odbc-binmode.md) - Керує обробкою
-двійкових даних стовпця
-- [odbc_close_all](function.odbc-close-all.md) - Закриває все
-з'єднання ODBC
-- [odbc_close](function.odbc-close.md) — Закриває з'єднання ODBC
-- [odbc_columnprivileges](function.odbc-columnprivileges.md) -
-Перелічує стовпці та пов'язані привілеї для даної таблиці
-- [odbc_columns](function.odbc-columns.md) - Перераховує імена
-стовпців у зазначених таблицях
-- [odbc_commit](function.odbc-commit.md) - Фіксує транзакцію ODBC
-- [odbc_connect](function.odbc-connect.md) — З'єднує з джерелом
-даних
-- [odbc_cursor](function.odbc-cursor.md) — Повертає курсор.
-- [odbc_data_source](function.odbc-data-source.md) - Повертає
-інформацію про доступні DSN
-- [odbc_do](function.odbc-do.md) - Псевдонім odbc_exec
-- [odbc_error](function.odbc-error.md) — Повертає останній код
-помилки
-- [odbc_errormsg](function.odbc-errormsg.md) - Повертає останнє
-повідомлення про помилку
-- [odbc_exec](function.odbc-exec.md) — Виконує інструкцію SQL
-безпосередньо
-- [odbc_execute](function.odbc-execute.md) — Виконує запит
-- [odbc_fetch_array](function.odbc-fetch-array.md) - Повертає
-рядок результату у вигляді асоціативного масиву
-- [odbc_fetch_into](function.odbc-fetch-into.md) - Повертає одну
-рядок результату в масив
-- [odbc_fetch_object](function.odbc-fetch-object.md) - Повертає
-рядок результату як об'єкта
-- [odbc_fetch_row](function.odbc-fetch-row.md) — Повертає рядок
-- [odbc_field_len](function.odbc-field-len.md) - Повертає довжину
-(точність) поля
-- [odbc_field_name](function.odbc-field-name.md) — Повертає ім'я
-стовпця
-- [odbc_field_num](function.odbc-field-num.md) — Повертає номер
-стовпця
-- [odbc_field_precision](function.odbc-field-precision.md) -
-Псевдонім odbc_field_len
-- [odbc_field_scale](function.odbc-field-scale.md) - Повертає
-масштаб поля
-- [odbc_field_type](function.odbc-field-type.md) — Повертає тип
-даних поля
-- [odbc_foreignkeys](function.odbc-foreignkeys.md) - Повертає
-список зовнішніх ключів
-- [odbc_free_result](function.odbc-free-result.md) - Звільняє
-ресурси, пов'язані з результатом
-- [odbc_gettypeinfo](function.odbc-gettypeinfo.md) — Повертає
-інформацію про типи даних, що підтримуються джерелом даних
-- [odbc_longreadlen](function.odbc-longreadlen.md) - Обробляє
-стовпці LONG
-- [odbc_next_result](function.odbc-next-result.md) — Перевіряє,
-чи є кілька результатів
-- [odbc_num_fields](function.odbc-num-fields.md) - Повертає
-кількість стовпців в результаті
-- [odbc_num_rows](function.odbc-num-rows.md) — Повертає кількість
-рядків у результаті
-- [odbc_pconnect](function.odbc-pconnect.md) — Відкриває постійне
-з'єднання з базою даних
-- [odbc_prepare](function.odbc-prepare.md) — Підготовка запиту до
-виконанню
-- [odbc_primarykeys](function.odbc-primarykeys.md) — Отримує
-первинні ключі таблиці
-- [odbc_procedurecolumns](function.odbc-procedurecolumns.md) -
-Отримує інформацію про параметри процедур
-- [odbc_procedures](function.odbc-procedures.md) — Отримує список
-процедур, що зберігаються у певному джерелі даних
-- [odbc_result_all](function.odbc-result-all.md) — Виводить результат
-у вигляді HTML-таблиці
-- [odbc_result](function.odbc-result.md) — Отримує дані
-результату
-- [odbc_rollback](function.odbc-rollback.md) - Відкочує транзакцію
-- [odbc_setoption](function.odbc-setoption.md) — Регулює
-налаштування ODBC
-- [odbc_specialcolumns](function.odbc-specialcolumns.md) — Витягує
-особливі стовпці
-- [odbc_statistics](function.odbc-statistics.md) - Отримує
-статистику про таблицю
-- [odbc_tableprivileges](function.odbc-tableprivileges.md) -
-Перелічує таблиці та привілеї, пов'язані з кожною таблицею
-- [odbc_tables](function.odbc-tables.md) — Отримує список імен
-таблиць, що зберігаються у певному джерелі даних
+-   [odbc\_autocommit](function.odbc-autocommit.html) — Перемикає поведінку автоматичної фіксації
+-   [odbc\_binmode](function.odbc-binmode.html) — керує обробкою двійкових даних стовпця
+-   [odbc\_close\_all](function.odbc-close-all.html) — Закриває всі з'єднання ODBC
+-   [odbc\_close](function.odbc-close.html) — Закриває з'єднання ODBC
+-   [odbc\_columnprivileges](function.odbc-columnprivileges.html) — Перераховує стовпці та пов'язані привілеї для даної таблиці
+-   [odbc\_columns](function.odbc-columns.html) — Перераховує імена стовпців у зазначених таблицях
+-   [odbc\_commit](function.odbc-commit.html) - Фіксує транзакцію ODBC
+-   [odbc\_connect](function.odbc-connect.html) — З'єднує із джерелом даних
+-   [odbc\_cursor](function.odbc-cursor.html) - Повертає ім'я курсора
+-   [odbc\_data\_source](function.odbc-data-source.html) — Повертає інформацію про доступні DSN
+-   [odbc\_do](function.odbc-do.html) - Псевдонім odbcexec
+-   [odbc\_error](function.odbc-error.html) — Повертає останній код помилки
+-   [odbc\_errormsg](function.odbc-errormsg.html) — Повертає останнє повідомлення про помилку
+-   [odbc\_exec](function.odbc-exec.html) — Виконує інструкцію SQL безпосередньо
+-   [odbc\_execute](function.odbc-execute.html) — Виконує запит
+-   [odbc\_fetch\_array](function.odbc-fetch-array.html) — Повертає рядок результату у вигляді асоціативного масиву
+-   [odbc\_fetch\_into](function.odbc-fetch-into.html) — Повертає один рядок результату до масиву
+-   [odbc\_fetch\_object](function.odbc-fetch-object.html) — Повертає рядок результату як об'єкт
+-   [odbc\_fetch\_row](function.odbc-fetch-row.html) — Повертає рядок
+-   [odbc\_field\_len](function.odbc-field-len.html) - Повертає довжину (точність) поля
+-   [odbc\_field\_name](function.odbc-field-name.html) — Повертає ім'я стовпця
+-   [odbc\_field\_num](function.odbc-field-num.html) - Повертає номер стовпця
+-   [odbc\_field\_precision](function.odbc-field-precision.html) - Псевдонім odbcfieldlen
+-   [odbc\_field\_scale](function.odbc-field-scale.html) — Повертає масштаб поля
+-   [odbc\_field\_type](function.odbc-field-type.html) — Повертає тип даних поля
+-   [odbc\_foreignkeys](function.odbc-foreignkeys.html) — Повертає список зовнішніх ключів
+-   [odbc\_free\_result](function.odbc-free-result.html) - Звільняє ресурси, пов'язані з результатом
+-   [odbc\_gettypeinfo](function.odbc-gettypeinfo.html) — Повертає інформацію про типи даних, що підтримуються джерелом даних
+-   [odbc\_longreadlen](function.odbc-longreadlen.html) - Обробляє стовпці LONG
+-   [odbc\_next\_result](function.odbc-next-result.html) — Перевіряє, чи є кілька результатів.
+-   [odbc\_num\_fields](function.odbc-num-fields.html) — Повертає кількість стовпців у результаті
+-   [odbc\_num\_rows](function.odbc-num-rows.html) — Повертає кількість рядків у результаті
+-   [odbc\_pconnect](function.odbc-pconnect.html) — Відкриває постійне з'єднання з базою даних
+-   [odbc\_prepare](function.odbc-prepare.html) — готує запит до виконання
+-   [odbc\_primarykeys](function.odbc-primarykeys.html) — Отримує первинні ключі таблиці
+-   [odbc\_procedurecolumns](function.odbc-procedurecolumns.html) — Отримує інформацію про параметри процедур
+-   [odbc\_procedures](function.odbc-procedures.html) — Отримує список процедур, що зберігаються у певному джерелі даних
+-   [odbc\_result\_all](function.odbc-result-all.html) - Виводить результат у вигляді HTML-таблиці
+-   [odbc\_result](function.odbc-result.html) — Отримує дані результату
+-   [odbc\_rollback](function.odbc-rollback.html) - Відкочує транзакцію
+-   [odbc\_setoption](function.odbc-setoption.html) — Регулює налаштування ODBC
+-   [odbc\_specialcolumns](function.odbc-specialcolumns.html) — Витягує спеціальні стовпці
+-   [odbc\_statistics](function.odbc-statistics.html) — Отримує статистику про таблицю
+-   [odbc\_tableprivileges](function.odbc-tableprivileges.html) — Перераховує таблиці та привілеї, пов'язані з кожною таблицею
+-   [odbc\_tables](function.odbc-tables.html) — Отримує список імен таблиць, що зберігаються у певному джерелі даних

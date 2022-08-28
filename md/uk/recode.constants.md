@@ -1,10 +1,16 @@
-- [« Типи ресурсів](recode.resources.md)
-- [Функції Recode »](ref.recode.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Recode](book.recode.md)
-- Обумовлені константи
+-   [« Типы ресурсов](recode.resources.html)
+    
+-   [Функции Recode »](ref.recode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Recode](book.recode.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

@@ -1,26 +1,38 @@
-- [« EventBufferEvent::getOutput](eventbufferevent.getoutput.md)
-- [EventBufferEvent::readBuffer »](eventbufferevent.readbuffer.md)
+Читає дані буфера
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Читає дані буфера
+-   [« EventBufferEvent::getOutput](eventbufferevent.getoutput.html)
+    
+-   [EventBufferEvent::readBuffer »](eventbufferevent.readbuffer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Читає дані буфера
+    
 
 # EventBufferEvent::read
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventBufferEvent::read — Читає дані буфера
 
 ### Опис
 
-public **EventBufferEvent::read**( int `$size` ): string
+```methodsynopsis
+public
+   EventBufferEvent::read(
+    int
+     $size
+   ): string
+```
 
-Видаляє до 'size' байтів із вхідного буфера. Повертає рядок даних,
-прочитану із вхідного буфера.
+Видаляє до `size` байтів із вхідного буфера. Повертає рядок даних, прочитаний із вхідного буфера.
 
 ### Список параметрів
 
 `size`
+
 Максимальна кількість байтів для читання
 
 ### Значення, що повертаються
@@ -29,5 +41,4 @@ public **EventBufferEvent::read**( int `$size` ): string
 
 ### Дивіться також
 
-- [EventBufferEvent::readBuffer()](eventbufferevent.readbuffer.md) -
-Зливає весь вміст буфера введення та поміщає його у буфер
+-   [EventBufferEvent::readBuffer()](eventbufferevent.readbuffer.html) - Зливає весь вміст буфера введення та поміщає його у буфер

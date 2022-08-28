@@ -1,9 +1,15 @@
-- [«getmygid](function.getmygid.md)
-- [getmypid »](function.getmypid.md)
+Отримує значення inode поточного скрипту
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Отримує значення inode поточного скрипту
+-   [« getmygid](function.getmygid.html)
+    
+-   [getmypid »](function.getmypid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Отримує значення inode поточного скрипту
+    
 
 # getmyinode
 
@@ -13,7 +19,9 @@ getmyinode — Отримує значення inode поточного скри
 
 ### Опис
 
-**getmyinode**(): int\|false
+```methodsynopsis
+getmyinode(): int|false
+```
 
 Отримує inode поточного скрипта.
 
@@ -23,17 +31,12 @@ getmyinode — Отримує значення inode поточного скри
 
 ### Значення, що повертаються
 
-Повертає inode поточного скрипта у вигляді цілого числа або **`false`**
-у разі помилки.
+Повертає inode поточного скрипта у вигляді цілого числа або **`false`** у разі помилки.
 
 ### Дивіться також
 
-- [getmygid()](function.getmygid.md) - Отримати GID власника
-скрипта PHP
-- [getmyuid()](function.getmyuid.md) - Отримання UID власника
-скрипта PHP
-- [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
-- [get_current_user()](function.get-current-user.md) - Отримує ім'я
-власника поточного скрипту PHP
-- [getlastmod()](function.getlastmod.md) - Отримує час останнього
-модифікації сторінки
+-   [getmygid()](function.getmygid.html) - Отримати GID власника скрипта PHP
+-   [getmyuid()](function.getmyuid.html) - Отримання UID власника скрипта PHP
+-   [getmypid()](function.getmypid.html) - Отримання ID процесу PHP
+-   [get\_current\_user()](function.get-current-user.html) - Отримує ім'я власника поточного скрипту PHP
+-   [getlastmod()](function.getlastmod.html) - Отримує час останньої модифікації сторінки

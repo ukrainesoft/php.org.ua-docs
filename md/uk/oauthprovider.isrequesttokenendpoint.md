@@ -1,32 +1,37 @@
-- [« OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md)
-- [OAuthProvider::removeRequiredParameter »](oauthprovider.removerequiredparameter.md)
+Установка isRequestTokenEndpoint
 
-- [PHP Manual](index.md)
-- [OAuthProvider](class.oauthprovider.md)
-- Установка isRequestTokenEndpoint
+-   [« OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.html)
+    
+-   [OAuthProvider::removeRequiredParameter »](oauthprovider.removerequiredparameter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuthProvider](class.oauthprovider.html)
+    
+-   Установка isRequestTokenEndpoint
+    
 
 # OAuthProvider::isRequestTokenEndpoint
 
-(PECL OAuth => 1.0.0)
+(PECL OAuth >= 1.0.0)
 
 OAuthProvider::isRequestTokenEndpoint — Установка isRequestTokenEndpoint
 
 ### Опис
 
-public **OAuthProvider::isRequestTokenEndpoint**(bool
-`$will_issue_request_token`): void
+```methodsynopsis
+public OAuthProvider::isRequestTokenEndpoint(bool $will_issue_request_token): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `will_issue_request_token`
-Встановлює, чи видаватиме токен запиту, тим самим визначаючи,
-чи потрібно викликати
-[OAuthProvider::tokenHandler()](oauthprovider.tokenhandler.md).
+
+Встановлює, чи видаватиме токен запиту, тим самим визначаючи, чи потрібно викликати [OAuthProvider::tokenHandler()](oauthprovider.tokenhandler.html)
 
 ### Значення, що повертаються
 
@@ -34,7 +39,5 @@ public **OAuthProvider::isRequestTokenEndpoint**(bool
 
 ### Дивіться також
 
-- [OAuthProvider::setRequestTokenPath()](oauthprovider.setrequesttokenpath.md) -
-Встановити шлях запиту токена
-- [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) -
-Повідомити про проблему
+-   [OAuthProvider::setRequestTokenPath()](oauthprovider.setrequesttokenpath.html) - Встановити шлях запиту токена
+-   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.html) - Повідомити про проблему

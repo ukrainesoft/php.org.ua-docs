@@ -1,42 +1,46 @@
-- [« Функції mqseries](ref.mqseries.md)
-- [mqseries_begin »](function.mqseries-begin.md)
+MQSeries MQBACK
 
-- [PHP Manual](index.md)
-- [Функції mqseries](ref.mqseries.md)
-- MQSeries MQBACK
+-   [« Функции mqseries](ref.mqseries.html)
+    
+-   [mqseries\_begin »](function.mqseries-begin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции mqseries](ref.mqseries.html)
+    
+-   MQSeries MQBACK
+    
 
-# mqseries_back
+# mqseriesback
 
-(PECL mqseries \>= 0.10.0)
+(PECL mqseries >= 0.10.0)
 
-mqseries_back — MQSeries MQBACK
+mqseriesback — MQSeries MQBACK
 
 ### Опис
 
-**mqseries_back**(resource `$hconn`, resource `&$compCode`, resource
-`&$reason`): void
+```methodsynopsis
+mqseries_back(resource $hconn, resource &$compCode, resource &$reason): void
+```
 
-Функція **mqseries_back()** (MQBACK) здійснює відкат транзакції. Тобто.
-всі повідомлення, розміщені в чергу з останньої точки синхронізації,
-видаляються із неї. Всі повідомлення, прочитані з черги з останньої
-точки синхронізації, відновлюються у ній (стають доступними).
+Функція **mqseriesback()** (MQBACK) здійснює відкат транзакції. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, видаляються з неї. Всі повідомлення, прочитані з черги з останньої точки синхронізації, відновлюються (стають доступними).
 
-Using **mqseries_back()** працює тільки спільно з
-[mqseries_begin()](function.mqseries-begin.md) і тільки якщо
-використовується пряме з'єднання з менеджером черг, а не через
-інтерфейс mqclient.
+Using **mqseriesback()** працює тільки спільно з [mqseries\_begin()](function.mqseries-begin.html) і тільки якщо використовується пряме з'єднання з менеджером черг, а не через інтерфейс mqclient.
 
 ### Список параметрів
 
 `hConn`
-Обробник з'єднання.
+
+Оброблювач з'єднання.
 
 Є відкрите з'єднання з менеджером черг.
 
 `compCode`
+
 Код завершення.
 
 `reason`
+
 Код причини, що кваліфікує compCode.
 
 ### Значення, що повертаються
@@ -45,20 +49,26 @@ Using **mqseries_back()** працює тільки спільно з
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseries_back()****
+**Приклад #1 Приклад використання **mqseriesback()****
 
-`<?php   mqseries_back($conn, $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("CompCode:%d Reason:%d Text:%s<br>
-", $comp_code, $reason, mqseries_strerror($reason));    }?> `
+```php
+<?php
+    mqseries_back($conn, $comp_code, $reason);
+
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **mqseries_back()** не працює, якщо для з'єднання з менеджером
-> черг використовується MQSeries Client.
+> **Зауваження**
+> 
+> **mqseriesback()** не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
-- [mqseries_conn()](function.mqseries-conn.md) - MQSeries MQCONN
-- [mqseries_connx()](function.mqseries-connx.md) - MQSeries MQCONNX
-- [mqseries_begin()](function.mqseries-begin.md) - MQseries MQBEGIN
+-   [mqseries\_conn()](function.mqseries-conn.html) - MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.html) - MQSeries MQCONNX
+-   [mqseries\_begin()](function.mqseries-begin.html) - MQseries MQBEGIN

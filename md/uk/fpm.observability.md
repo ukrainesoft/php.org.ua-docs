@@ -1,12 +1,18 @@
-- [« Встановлення та налаштування](fpm.setup.md)
-- [Сторінка стану »](fpm.status.md)
+Спостережуваність
 
-- [PHP Manual](index.md)
-- [Менеджер процесів FastCGI](book.fpm.md)
-- Спостереження
+-   [« Установка и настройка](fpm.setup.html)
+    
+-   [Страница состояния »](fpm.status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Менеджер процессов FastCGI](book.fpm.html)
+    
+-   Спостережуваність
+    
 
 # Спостережуваність
 
 ## Зміст
 
-- [Сторінка стану](fpm.status.md)
+-   [Страница состояния](fpm.status.html)

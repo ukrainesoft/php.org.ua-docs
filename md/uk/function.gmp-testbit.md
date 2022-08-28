@@ -1,53 +1,69 @@
-- [«gmp_sub](function.gmp-sub.md)
-- [gmp_xor »](function.gmp-xor.md)
+Перевірка, чи встановлений біт в 1
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Перевірка, чи біт в 1
+-   [« gmp\_sub](function.gmp-sub.html)
+    
+-   [gmp\_xor »](function.gmp-xor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Перевірка, чи встановлений біт в 1
+    
 
-#gmp_testbit
+# gmptestbit
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-gmp_testbit — Перевірте, чи встановлено біт в 1
+gmptestbit — Перевірка, чи біт 1
 
 ### Опис
 
-**gmp_testbit**([GMP](class.gmp.md)\|int\|string `$num`, int
-`$index`): bool
+```methodsynopsis
+gmp_testbit(GMP|int|string $num, int $index): bool
+```
 
 Перевіряє, чи встановлено заданий біт 1.
 
 ### Список параметрів
 
 `num`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 `index`
+
 Перевірений біт
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо біт встановлений у `num`, інакше **`false`**.
+Повертає **`true`**якщо біт встановлено в `num`інакше **`false`**
 
 ### Помилки
 
-Викидається помилка рівня **`E_WARNING`**, якщо `index` менше нуля, та
-повертається **`false`**.
+Викидається помилка рівня **`E_WARNING`**, якщо `index` менше нуля, і повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_testbit()****
+**Приклад #1 Приклад використання **gmptestbit()****
 
-` <?php$n = gmp_init("1000000");var_dump(gmp_testbit($n, 1));gmp_setbit($n, 1);var_dump(gmp_testbit($n, 1));?> `
+```php
+<?php
+$n = gmp_init("1000000");
+var_dump(gmp_testbit($n, 1));
+gmp_setbit($n, 1);
+var_dump(gmp_testbit($n, 1));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [gmp_setbit()](function.gmp-setbit.md) - Встановлення біта
-- [gmp_clrbit()](function.gmp-clrbit.md) - Скидання біта
+-   [gmp\_setbit()](function.gmp-setbit.html) - Встановлення біта
+-   [gmp\_clrbit()](function.gmp-clrbit.html) - Скидання біта

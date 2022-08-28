@@ -1,35 +1,37 @@
-- [«MemcachedException](class.memcachedexception.md)
-- [Вступ »](intro.mqseries.md)
+mqseries
 
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
-- mqseries
+-   [« MemcachedException](class.memcachedexception.html)
+    
+-   [Введение »](intro.mqseries.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие службы](refs.remote.other.html)
+    
+-   mqseries
+    
 
 # mqseries
 
-- [Вступ](intro.mqseries.md)
-- [Встановлення та налаштування](mqseries.setup.md)
-- [Вимоги](mqseries.requirements.md)
-- [Установка](mqseries.configure.md)
-- [Налаштування під час виконання](mqseries.ini.md)
-- [Типи ресурсів](mqseries.resources.md)
-- [Предвизначені константи](mqseries.constants.md)
-- [Функції mqseries](ref.mqseries.md)
-- [mqseries_back](function.mqseries-back.md) - MQSeries MQBACK
-- [mqseries_begin](function.mqseries-begin.md) - MQseries
-MQBEGIN
-- [mqseries_close](function.mqseries-close.md) - MQSeries
-MQCLOSE
-- [mqseries_cmit](function.mqseries-cmit.md) - MQSeries MQCMIT
-- [mqseries_conn](function.mqseries-conn.md) - MQSeries MQCONN
-- [mqseries_connx](function.mqseries-connx.md) - MQSeries
-MQCONNX
-- [mqseries_disc](function.mqseries-disc.md) - MQSeries MQDISC
-- [mqseries_get](function.mqseries-get.md) - MQSeries MQGET
-- [mqseries_inq](function.mqseries-inq.md) - MQSeries MQINQ
-- [mqseries_open](function.mqseries-open.md) - MQSeries MQOPEN
-- [mqseries_put1](function.mqseries-put1.md) - MQSeries MQPUT1
-- [mqseries_put](function.mqseries-put.md) - MQSeries MQPUT
-- [mqseries_set](function.mqseries-set.md) - MQSeries MQSET
-- [mqseries_strerror](function.mqseries-strerror.md) — Отримати
-повідомлення про помилку, що відповідає її коду (MQRC)
+-   [Введение](intro.mqseries.html)
+-   [Установка и настройка](mqseries.setup.html)
+    -   [Требования](mqseries.requirements.html)
+    -   [Установка](mqseries.configure.html)
+    -   [Настройка во время выполнения](mqseries.ini.html)
+    -   [Типы ресурсов](mqseries.resources.html)
+-   [Предопределённые константы](mqseries.constants.html)
+-   [Функции mqseries](ref.mqseries.html)
+    -   [mqseries\_back](function.mqseries-back.html) - MQSeries MQBACK
+    -   [mqseries\_begin](function.mqseries-begin.html) - MQseries MQBEGIN
+    -   [mqseries\_close](function.mqseries-close.html) - MQSeries MQCLOSE
+    -   [mqseries\_cmit](function.mqseries-cmit.html) - MQSeries MQCMIT
+    -   [mqseries\_conn](function.mqseries-conn.html) - MQSeries MQCONN
+    -   [mqseries\_connx](function.mqseries-connx.html) - MQSeries MQCONNX
+    -   [mqseries\_disc](function.mqseries-disc.html) - MQSeries MQDISC
+    -   [mqseries\_get](function.mqseries-get.html) - MQSeries MQGET
+    -   [mqseries\_inq](function.mqseries-inq.html) - MQSeries MQINQ
+    -   [mqseries\_open](function.mqseries-open.html) - MQSeries MQOPEN
+    -   [mqseries\_put1](function.mqseries-put1.html) - MQSeries MQPUT1
+    -   [mqseries\_put](function.mqseries-put.html) - MQSeries MQPUT
+    -   [mqseries\_set](function.mqseries-set.html) - MQSeries MQSET
+    -   [mqseries\_strerror](function.mqseries-strerror.html) — Отримати повідомлення про помилку, яке відповідає її коду (MQRC)

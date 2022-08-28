@@ -1,10 +1,16 @@
-- [« Типи ресурсів](sync.resources.md)
-- [SyncMutex »](class.syncmutex.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Sync](book.sync.md)
-- Обумовлені константи
+-   [« Типы ресурсов](sync.resources.html)
+    
+-   [SyncMutex »](class.syncmutex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Sync](book.sync.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

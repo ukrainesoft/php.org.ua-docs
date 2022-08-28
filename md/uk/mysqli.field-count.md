@@ -1,54 +1,107 @@
-- [« mysqli::$error](mysqli.error.md)
-- [mysqli::get_charset »](mysqli.get-charset.md)
+Повертає кількість стовпців, зачеплених останнім запитом
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає кількість стовпців, зачеплених останнім запитом
+-   [« mysqli::$error](mysqli.error.html)
+    
+-   [mysqli::get\_charset »](mysqli.get-charset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Повертає кількість стовпців, зачеплених останнім запитом
+    
 
-# mysqli::$field_count
+# mysqli::$fieldcount
 
-# mysqli_field_count
+# mysqlifieldcount
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$field_count -- mysqli_field_count — Повертає кількість стовпців,
-порушених останнім запитом
+mysqli::$fieldcount - mysqlifieldcount — Повертає кількість стовпців, зачеплених останнім запитом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli->field_count`;
+int [$mysqli->field\_count](mysqli.field-count.html)
 
 Процедурний стиль
 
-**mysqli_field_count**([mysqli](class.mysqli.md) `$mysql`): int
+```methodsynopsis
+mysqli_field_count(mysqli $mysql): int
+```
 
-Повертає число стовпців, які зачепили останній запит для з'єднання,
-вказаного в `mysql`. Ця функція може бути корисною під час використання
-[mysqli_store_result()](mysqli.store-result.md) для того, щоб
-визначити чи виданий непустий результат, чи у разі невідомого
-призначення запиту.
+Повертає кількість стовпців, які торкнулися останнім запитом для з'єднання, зазначеного в `mysql`. Ця функція може бути корисною під час використання [mysqli\_store\_result()](mysqli.store-result.html) для того, щоб визначити, чи виданий непустий результат, або у разі невідомого призначення запиту.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Ціле число, яке містить число полів у результаті запиту.
+Ціле число, що містить кількість полів у результаті запиту.
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$mysqli->field_count`**
+**Приклад #1 Приклад використання $mysqli->fieldcount**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "test");$mysqli->query( "DROP TABLE IF EXISTS friends");$mysqli->query( TABLE friends (id int, name varchar(20))");$mysqli->query( "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");$mysqli->real_query "SELECT * FROM friends");if ($mysqli->field_count) {    /* Визначити тип запиту (select/show або describe) */    $result = $my /* Створити вибірку */    $row = $result->fetch_row(); /* Очистити вибірку */    $result->close();}/* Закрити з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
+
+$mysqli->query( "DROP TABLE IF EXISTS friends");
+$mysqli->query( "CREATE TABLE friends (id int, name varchar(20))");
+
+$mysqli->query( "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");
+
+
+$mysqli->real_query("SELECT * FROM friends");
+
+if ($mysqli->field_count) {
+    /* Определить тип запроса (select/show или describe) */
+    $result = $mysqli->store_result();
+
+    /* Создать выборку */
+    $row = $result->fetch_row();
+
+    /* Очистить выборку */
+    $result->close();
+}
+
+/* Закрыть соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "test"); mysqli_query($link, "DROP TABLE IF EXISTS friends");mysqli_query($link, id int, name varchar(20))");mysqli_query($link, "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");mysqli_real_query($link, "SELECT ");if(mysqli_field_count($link)) {    /* Визначити тип запиту (select/show або describe) */    $result = Mysqli_store_result($link); /* Створити вибірку */    $row = mysqli_fetch_row($result); /* Очистити вибірку */    mysqli_free_result($result);}/* Закрити з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "test");
+
+mysqli_query($link, "DROP TABLE IF EXISTS friends");
+mysqli_query($link, "CREATE TABLE friends (id int, name varchar(20))");
+
+mysqli_query($link, "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");
+
+mysqli_real_query($link, "SELECT * FROM friends");
+
+if (mysqli_field_count($link)) {
+    /* Определить тип запроса (select/show или describe) */
+    $result = mysqli_store_result($link);
+
+    /* Создать выборку */
+    $row = mysqli_fetch_row($result);
+
+    /* Очистить выборку */
+    mysqli_free_result($result);
+}
+
+/* Закрыть соединение */
+mysqli_close($link);
+?>
+```

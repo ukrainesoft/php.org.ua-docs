@@ -1,15 +1,21 @@
-- [«Вступ](intro.errorfunc.md)
-- [Вимоги »](errorfunc.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Обробка помилок](book.errorfunc.md)
+-   [« Введение](intro.errorfunc.html)
+    
+-   [Требования »](errorfunc.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обработка ошибок](book.errorfunc.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](errorfunc.requirements.md)
-- [Установка](errorfunc.installation.md)
-- [Налаштування під час виконання](errorfunc.configuration.md)
-- [Типи ресурсів](errorfunc.resources.md)
+-   [Требования](errorfunc.requirements.html)
+-   [Установка](errorfunc.installation.html)
+-   [Настройка во время выполнения](errorfunc.configuration.html)
+-   [Типы ресурсов](errorfunc.resources.html)

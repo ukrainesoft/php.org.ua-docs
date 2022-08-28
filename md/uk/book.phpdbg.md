@@ -1,35 +1,31 @@
-- [«zend_version](function.zend-version.md)
-- [Вступ »](intro.phpdbg.md)
+Інтерактивний відладчик PHP
 
-- [PHP Manual](index.md)
-- [Зміна поведінки PHP](refs.basic.php.md)
-- Інтерактивний відладчик PHP
+-   [« zend\_version](function.zend-version.html)
+    
+-   [Введение »](intro.phpdbg.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Изменение поведения PHP](refs.basic.php.html)
+    
+-   Інтерактивний відладчик PHP
+    
 
 # Інтерактивний відладчик PHP
 
-- [Вступ](intro.phpdbg.md)
-- [Встановлення та налаштування](phpdbg.setup.md)
-- [Налаштування під час виконання](phpdbg.configuration.md)
-- [Предвизначені константи](phpdbg.constants.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- [phpdbg_break_file](function.phpdbg-break-file.md) — Додати
-точку переривання на конкретний рядок файлу
-- [phpdbg_break_function](function.phpdbg-break-function.md) -
-Додати точку переривання на виклик функції
-- [phpdbg_break_method](function.phpdbg-break-method.md) -
-Додати точку переривання на виклик методу класу
-- [phpdbg_break_next](function.phpdbg-break-next.md) — Додати
-точку переривання на наступний опкод
-- [phpdbg_clear](function.phpdbg-clear.md) — Видалити всі точки
-переривання
-- [phpdbg_color](function.phpdbg-color.md) — Задати колір для
-елемента
-- [phpdbg_end_oplog](function.phpdbg-end-oplog.md) — Опис
-- [phpdbg_exec](function.phpdbg-exec.md) — Спробувати задати
-контекст виконання
-- [phpdbg_get_executable](function.phpdbg-get-executable.md) -
-Опис
-- [phpdbg_prompt](function.phpdbg-prompt.md) — Встановити
-запрошення командного рядка
-- [phpdbg_start_oplog](function.phpdbg-start-oplog.md) -
-Опис
+-   [Введение](intro.phpdbg.html)
+-   [Установка и настройка](phpdbg.setup.html)
+    -   [Настройка во время выполнения](phpdbg.configuration.html)
+-   [Предопределённые константы](phpdbg.constants.html)
+-   [Функции phpdbg](ref.phpdbg.html)
+    -   [phpdbg\_break\_file](function.phpdbg-break-file.html) — Додати точку переривання на конкретний рядок файлу
+    -   [phpdbg\_break\_function](function.phpdbg-break-function.html) — Додати точку переривання на дзвінок функції
+    -   [phpdbg\_break\_method](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
+    -   [phpdbg\_break\_next](function.phpdbg-break-next.html) — Додати точку переривання на наступний опкод
+    -   [phpdbg\_clear](function.phpdbg-clear.html) — Забрати всі точки переривання
+    -   [phpdbg\_color](function.phpdbg-color.html) — Задати колір елементу
+    -   [phpdbg\_end\_oplog](function.phpdbg-end-oplog.html) - Опис
+    -   [phpdbg\_exec](function.phpdbg-exec.html) — Спробувати поставити контекст виконання
+    -   [phpdbg\_get\_executable](function.phpdbg-get-executable.html) - Опис
+    -   [phpdbg\_prompt](function.phpdbg-prompt.html) — Встановити запрошення командного рядка
+    -   [phpdbg\_start\_oplog](function.phpdbg-start-oplog.html) - Опис

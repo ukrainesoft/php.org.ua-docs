@@ -1,32 +1,32 @@
-- [« ibase_gen_id](function.ibase-gen-id.md)
-- [ibase_modify_user »](function.ibase-modify-user.md)
+Виконує команду обслуговування на сервері бази даних
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Виконує команду обслуговування на сервері бази даних
+-   [« ibase\_gen\_id](function.ibase-gen-id.html)
+    
+-   [ibase\_modify\_user »](function.ibase-modify-user.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Виконує команду обслуговування на сервері бази даних
+    
 
-# ibase_maintain_db
+# ibasemaintainдб
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_maintain_db — Виконує команду обслуговування на сервері бази
-даних
+ibasemaintaindb — Виконує команду обслуговування на сервері бази даних
 
 ### Опис
 
-**ibase_maintain_db**(
-resource `$service_handle`,
-string `$db`,
-int `$action`,
-int `$argument` = 0
-): bool
+```methodsynopsis
+ibase_maintain_db(    resource $service_handle,    string $db,    int $action,    int $argument = 0): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

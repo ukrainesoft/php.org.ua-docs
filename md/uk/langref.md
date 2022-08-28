@@ -1,253 +1,229 @@
-- [« Як змінити налаштування конфігурації](configuration.changes.md)
-- [Основи синтаксису »](language.basic-syntax.md)
+Довідник мови
 
-- [PHP Manual](index.md)
-- Довідник мови
+-   [« Как изменить настройки конфигурации](configuration.changes.html)
+    
+-   [Основы синтаксиса »](language.basic-syntax.html)
+    
+-   [PHP Manual](index.html)
+    
+-   Довідник мови
+    
 
 # Довідник мови
 
-- [Основи синтаксису](language.basic-syntax.md)
-- [теги PHP](language.basic-syntax.phptags.md)
-- [Ізолювання від HTML](language.basic-syntax.phpmode.md)
-- [Поділ інструкцій](language.basic-syntax.instruction-separation.md)
-- [Коментарі](language.basic-syntax.comments.md)
-- [Типи](language.types.md)
-- [Вступ](language.types.intro.md)
-- [Бульов](language.types.boolean.md)
-- [Цілі числа](language.types.integer.md)
-- [Числа з плаваючою точкою](language.types.float.md)
-- [Рядки](language.types.string.md)
-- [Числові рядки](language.types.numeric-strings.md)
-- [Массиви](language.types.array.md)
-- [Ітеровані](language.types.iterable.md)
-- [Об'єкти](language.types.object.md)
-- [Перерахування](language.types.enumerations.md)
-- [Ресурс](language.types.resource.md)
-- [NULL](language.types.null.md)
-- [Функції зворотного виклику
-(callback-функції)](language.types.callable.md)
-- [Оголошення типів](language.types.declarations.md)
-- [Маніпуляції з типами](language.types.type-juggling.md)
-- [Змінні](language.variables.md)
-- [Основи](language.variables.basics.md)
-- [Предвизначені змінні](language.variables.predefined.md)
-- [Область видимості змінної](language.variables.scope.md)
-- [Змінні змінні](language.variables.variable.md)
-- [Змінні ззовні PHP](language.variables.external.md)
-- [Константи](language.constants.md)
-- [Синтаксис](language.constants.syntax.md)
-- [Предвизначені константи](language.constants.predefined.md)
-- [Магічні константи](language.constants.magic.md)
-- [Вирази](language.expressions.md)
-- [Оператори](language.operators.md)
-- [Пріоритет оператора](language.operators.precedence.md)
-- [Арифметичні оператори](language.operators.arithmetic.md)
-- [Оператор присвоєння](language.operators.assignment.md)
-- [Побітові оператори](language.operators.bitwise.md)
-- [Оператори порівняння](language.operators.comparison.md)
-- [Оператор управління помилками](language.operators.errorcontrol.md)
-- [Оператори виконання](language.operators.execution.md)
-- [Оператори інкременту та декременту](language.operators.increment.md)
-- [Логічні оператори](language.operators.logical.md)
-- [Рядкові оператори](language.operators.string.md)
-- [Оператори, що працюють з масивами](language.operators.array.md)
-- [Оператор перевірки типу](language.operators.type.md)
-- [Керування конструкції](language.control-structures.md)
-- [Вступ](control-structures.intro.md)
-- [if](control-structures.if.md)
-- [else](control-structures.else.md)
-- [elseif/else if](control-structures.elseif.md)
-- [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.md)
-- [while](control-structures.while.md)
-- [do-while](control-structures.do.while.md)
-- [for](control-structures.for.md)
-- [foreach](control-structures.foreach.md)
-- [break](control-structures.break.md)
-- [continue](control-structures.continue.md)
-- [switch](control-structures.switch.md)
-- [match](control-structures.match.md)
-- [declare](control-structures.declare.md)
-- [return](function.return.md)
-- [require](function.require.md)
-- [include](function.include.md)
-- [require_once](function.require-once.md)
-- [include_once](function.include-once.md)
-- [goto](control-structures.goto.md)
-- [Функції](language.functions.md)
-- [Функції, що визначаються користувачем](functions.user-defined.md)
-- [Аргументи функції](functions.arguments.md)
-- [Повернення значень](functions.returning-values.md)
-- [Звернення до функцій через змінні](functions.variable-functions.md)
-- [Вбудовані функції](functions.internal.md)
-- [Анонімні функції](functions.anonymous.md)
-- [Стрілкові функції](functions.arrow.md)
-- [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)
-- [Класи та об'єкти](language.oop5.md)
-- [Вступ](oop5.intro.md)
-- [Основи](language.oop5.basic.md)
-- [Властивості](language.oop5.properties.md)
-- [Константи класів](language.oop5.constants.md)
-- [Автоматичне завантаження класів](language.oop5.autoload.md)
-- [Конструктори та деструктори](language.oop5.decon.md)
-- [Область видимості](language.oop5.visibility.md)
-- [Спадкування](language.oop5.inheritance.md)
-- [Оператор роздільної здатності області видимості
-(::)](language.oop5.paamayim-nekudotayim.md)
-- [Ключове слово static](language.oop5.static.md)
-- [Абстрактні класи](language.oop5.abstract.md)
-- [Інтерфейси об'єктів](language.oop5.interfaces.md)
-- [Трейти](language.oop5.traits.md)
-- [Анонімні класи](language.oop5.anonymous.md)
-- [Перевантаження](language.oop5.overloading.md)
-- [Ітератори об'єктів](language.oop5.iterations.md)
-- [Магічні методи](language.oop5.magic.md)
-- [Ключове слово final](language.oop5.final.md)
-- [Клонування об'єктів](language.oop5.cloning.md)
-- [Порівняння об'єктів](language.oop5.object-comparison.md)
-- [Пізніше статичне зв'язування](language.oop5.late-static-bindings.md)
-- [Об'єкти та посилання](language.oop5.references.md)
-- [Серіалізація об'єктів](language.oop5.serialization.md)
-- [Коваріантність та контраваріантність](language.oop5.variance.md)
-- [Журнал змін ООП](language.oop5.changelog.md)
-- [Простори імен](language.namespaces.md)
-- [Огляд просторів імен](language.namespaces.rationale.md)
-- [Визначення просторів імен](language.namespaces.definition.md)
-- [Визначення підпросторів імен](language.namespaces.nested.md)
-- [Опис кількох просторів імен в одному файлі](language.namespaces.definitionmultiple.md)
-- [Використання простору імен: основи](language.namespaces.basics.md)
-- [Простори імен та динамічні особливості мови](language.namespaces.dynamic.md)
-- [Ключове слово namespace та константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.md)
-- [Використання просторів імен: імпорт/створення псевдоніму імені](language.namespaces.importing.md)
-- [Глобальний простір](language.namespaces.global.md)
-- [Використання просторів імен: перехід до глобальної функції/константі](language.namespaces.fallback.md)
-- [Правила дозволу імен](language.namespaces.rules.md)
-- [Часті питання (FAQ): речі, які вам необхідно
-знати про простори імен](language.namespaces.faq.md)
-- [Перерахування](language.enumerations.md)
-- [Огляд перерахувань](language.enumerations.overview.md)
-- [Основи перерахувань](language.enumerations.basics.md)
-- [Типізовані перерахування](language.enumerations.backed.md)
-- [Методи перерахувань](language.enumerations.methods.md)
-- [Статичні методи перерахувань](language.enumerations.static-methods.md)
-- [Константи перерахувань](language.enumerations.constants.md)
-- [Трейти](language.enumerations.traits.md)
-- [Значення перерахування у постійних виразах](language.enumerations.expressions.md)
-- [Відмінності від об'єктів](language.enumerations.object-differences.md)
-- [Список значень](language.enumerations.listing.md)
-- [Серіалізація](language.enumerations.serialization.md)
-- [Приклади](language.enumerations.examples.md)
-- [Помилки](language.errors.md)
-- [Основи](language.errors.basics.md)
-- [Помилки у PHP 7](language.errors.php7.md)
-- [Винятки](language.exceptions.md)
-- [Спадкування винятків](language.exceptions.extending.md)
-- [Fibers](language.fibers.md)
-- [Генератори](language.generators.md)
-- [Знайомство з генераторами](language.generators.overview.md)
-- [Синтаксис генераторів](language.generators.syntax.md)
-- [Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.md)
-- [Атрибути](language.attributes.md)
-- [Вступ до атрибутів](language.attributes.overview.md)
-- [Синтаксис атрибутів](language.attributes.syntax.md)
-- [Читання атрибутів за допомогою Reflection API](language.attributes.reflection.md)
-- [Оголошення класів атрибутів](language.attributes.classes.md)
-- [Пояснення посилань](language.references.md)
-- [Що таке посилання](language.references.whatare.md)
-- [Що роблять посилання](language.references.whatdo.md)
-- [Чим посилання не є](language.references.arent.md)
-- [Передача за посиланням](language.references.pass.md)
-- [Повернення за посиланням](language.references.return.md)
-- [Скидання змінних-посилань](language.references.unset.md)
-- [Неявне використання механізму посилань](language.references.spot.md)
-- [Предвизначені змінні](reserved.variables.md)
-- [Суперглобальні змінні](language.variables.superglobals.md) — Вбудовані
-змінні, які завжди доступні у всіх областях
-- [$GLOBALS](reserved.variables.globals.md) — Посилання на все
-змінні глобальної області видимості
-- [$\_SERVER](reserved.variables.server.md) — Інформація про
-сервері та середовищі виконання
-- [$\_GET](reserved.variables.get.md) — Змінні HTTP GET
-- [$\_POST](reserved.variables.post.md) — Змінні HTTP POST
-- [$\_FILES](reserved.variables.files.md) — Змінні файли,
-завантажених за HTTP
-- [$\_REQUEST](reserved.variables.request.md) - Змінні
-HTTP-запиту
-- [$\_SESSION](reserved.variables.session.md) - Змінні
-сесії
-- [$\_ENV](reserved.variables.environment.md) - Змінні
-оточення
-- [$\_COOKIE](reserved.variables.cookies.md) - HTTP Cookies
-- [$php_errormsg](reserved.variables.phperrormsg.md) -
-Попереднє повідомлення про помилку
-- [$http_response_header](reserved.variables.httpresponseheader.md)
-- Заголовки відповідей HTTP
-- [$argc](reserved.variables.argc.md) — Кількість аргументів,
-переданих скрипту
-- [$argv](reserved.variables.argv.md) - Масив переданих
-скрипту аргументів
-- [Предвизначені винятки](reserved.exceptions.md)
-- [Exception](class.exception.md)
-- [ErrorException](class.errorexception.md)
-- [Error](class.error.md)
-- [ArgumentCountError](class.argumentcounterror.md)
-- [ArithmeticError](class.arithmeticerror.md)
-- [AssertionError](class.assertionerror.md)
-- [DivisionByZeroError](class.divisionbyzeroerror.md)
-- [CompileError](class.compileerror.md)
-- [ParseError](class.parseerror.md)
-- [TypeError](class.typeerror.md)
-- [ValueError](class.valueerror.md)
-- [UnhandledMatchError](class.unhandledmatcherror.md)
-- [FiberError](class.fibererror.md)
-- [Вбудовані інтерфейси та класи](reserved.interfaces.md)
-- [Traversable](class.traversable.md) - Інтерфейс Traversable
-- [Iterator](class.iterator.md) - Інтерфейс Iterator
-- [IteratorAggregate](class.iteratoraggregate.md) - Інтерфейс
-IteratorAggregate
-- [Throwable](class.throwable.md)
-- [ArrayAccess](class.arrayaccess.md) - Інтерфейс ArrayAccess
-- [Serializable](class.serializable.md) - Інтерфейс Serializable
-- [Closure](class.closure.md) - Клас Closure
-- [Generator](class.generator.md) - Клас Generator
-- [Fiber](class.fiber.md) - Клас Fiber
-- [WeakReference](class.weakreference.md) - Клас WeakReference
-- [WeakMap](class.weakmap.md) - Клас WeakMap
-- [Stringable](class.stringable.md) - Інтерфейс Stringable
-- [UnitEnum](class.unitenum.md) - Інтерфейс UnitEnum
-- [BackedEnum](class.backedenum.md) - Інтерфейс BackedEnum
-- [Контекстні опції та параметри](context.md)
-- [Контекстні опції сокету](context.socket.md) - Список
-контекстних опцій сокету
-- [Опції контексту HTTP](context.http.md) - Список опцій
-контексту HTTP
-- [Параметри контексту FTP](context.ftp.md) — Список параметрів
-контексту FTP
-- [Опції контексту SSL](context.ssl.md) - Список опцій контексту
-SSL
-- [Опції контексту CURL](context.curl.md) - Список опцій
-контексту CURL
-- [Контекстні опції Phar](context.phar.md) - Список контекстних
-опцій Phar
-- [Настройки контексту](context.params.md) — Список параметрів
-контексту
-- [Опції контексту Zip](context.zip.md) - Список опцій контексту
-Zip
-- [Підтримувані протоколи та обгортки](wrappers.md)
-- [file://](wrappers.file.md) — Доступ до локальної файлової
-системі
-- [http://](wrappers.http.md) — Доступ до URL-адрес за
-протоколу HTTP(s)
-- [ftp://](wrappers.ftp.md) — Доступ до URL-адрес за протоколом
-FTP(s)
-- [php://](wrappers.php.md) - Доступ до різних потоків
-введення-виводу
-- [zlib://](wrappers.compression.md) — Стислі потоки
-- [data://](wrappers.data.md) - Схема Data (RFC 2397)
-- [glob://](wrappers.glob.md) — Знаходження шляхів,
-відповідних шаблону
-- [phar://](wrappers.phar.md) - PHP-архів
-- [ssh2://](wrappers.ssh2.md) - Secure Shell 2
-- [rar://](wrappers.rar.md) - RAR
-- [ogg://](wrappers.audio.md) - Аудіопотоки
-- [expect://](wrappers.expect.md) — Потоки для взаємодії з
-процесами
+-   [Основы синтаксиса](language.basic-syntax.html)
+    -   [Теги PHP](language.basic-syntax.phptags.html)
+    -   [Изолирование от HTML](language.basic-syntax.phpmode.html)
+    -   [Разделение инструкций](language.basic-syntax.instruction-separation.html)
+    -   [Комментарии](language.basic-syntax.comments.html)
+-   [Типы](language.types.html)
+    -   [Введение](language.types.intro.html)
+    -   [Булев](language.types.boolean.html)
+    -   [Целые числа](language.types.integer.html)
+    -   [Числа с плавающей точкой](language.types.float.html)
+    -   [Строки](language.types.string.html)
+    -   [Числовые строки](language.types.numeric-strings.html)
+    -   [Массивы](language.types.array.html)
+    -   [Итерируемые](language.types.iterable.html)
+    -   [Объекты](language.types.object.html)
+    -   [Перечисления](language.types.enumerations.html)
+    -   [Ресурс](language.types.resource.html)
+    -   [NULL](language.types.null.html)
+    -   [Функции обратного вызова (callback-функции)](language.types.callable.html)
+    -   [Объявление типов](language.types.declarations.html)
+    -   [Манипуляции с типами](language.types.type-juggling.html)
+-   [Переменные](language.variables.html)
+    -   [Основы](language.variables.basics.html)
+    -   [Предопределённые переменные](language.variables.predefined.html)
+    -   [Область видимости переменной](language.variables.scope.html)
+    -   [Переменные переменных](language.variables.variable.html)
+    -   [Переменные извне PHP](language.variables.external.html)
+-   [Константы](language.constants.html)
+    -   [Синтаксис](language.constants.syntax.html)
+    -   [Предопределённые константы](language.constants.predefined.html)
+    -   [Магические константы](language.constants.magic.html)
+-   [Выражения](language.expressions.html)
+-   [Операторы](language.operators.html)
+    -   [Приоритет оператора](language.operators.precedence.html)
+    -   [Арифметические операторы](language.operators.arithmetic.html)
+    -   [Оператор присваивания](language.operators.assignment.html)
+    -   [Побитовые операторы](language.operators.bitwise.html)
+    -   [Операторы сравнения](language.operators.comparison.html)
+    -   [Оператор управления ошибками](language.operators.errorcontrol.html)
+    -   [Операторы исполнения](language.operators.execution.html)
+    -   [Операторы инкремента и декремента](language.operators.increment.html)
+    -   [Логические операторы](language.operators.logical.html)
+    -   [Строковые операторы](language.operators.string.html)
+    -   [Операторы, работающие с массивами](language.operators.array.html)
+    -   [Оператор проверки типа](language.operators.type.html)
+-   [Управляющие конструкции](language.control-structures.html)
+    -   [Введение](control-structures.intro.html)
+    -   [if](control-structures.if.html)
+    -   [else](control-structures.else.html)
+    -   [elseif/else if](control-structures.elseif.html)
+    -   [Альтернативный синтаксис управляющих структур](control-structures.alternative-syntax.html)
+    -   [while](control-structures.while.html)
+    -   [do-while](control-structures.do.while.html)
+    -   [for](control-structures.for.html)
+    -   [foreach](control-structures.foreach.html)
+    -   [break](control-structures.break.html)
+    -   [continue](control-structures.continue.html)
+    -   [switch](control-structures.switch.html)
+    -   [match](control-structures.match.html)
+    -   [declare](control-structures.declare.html)
+    -   [return](function.return.html)
+    -   [require](function.require.html)
+    -   [include](function.include.html)
+    -   [require\_once](function.require-once.html)
+    -   [include\_once](function.include-once.html)
+    -   [goto](control-structures.goto.html)
+-   [Функции](language.functions.html)
+    -   [Функции, определяемые пользователем](functions.user-defined.html)
+    -   [Аргументы функции](functions.arguments.html)
+    -   [Возврат значений](functions.returning-values.html)
+    -   [Обращение к функциям через переменные](functions.variable-functions.html)
+    -   [Встроенные функции](functions.internal.html)
+    -   [Анонимные функции](functions.anonymous.html)
+    -   [Стрелочные функции](functions.arrow.html)
+    -   [Callback-функции как объекты первого класса](functions.first_class_callable_syntax.html)
+-   [Классы и объекты](language.oop5.html)
+    -   [Введение](oop5.intro.html)
+    -   [Основы](language.oop5.basic.html)
+    -   [Свойства](language.oop5.properties.html)
+    -   [Константы классов](language.oop5.constants.html)
+    -   [Автоматическая загрузка классов](language.oop5.autoload.html)
+    -   [Конструкторы и деструкторы](language.oop5.decon.html)
+    -   [Область видимости](language.oop5.visibility.html)
+    -   [Наследование](language.oop5.inheritance.html)
+    -   [Оператор разрешения области видимости (::)](language.oop5.paamayim-nekudotayim.html)
+    -   [Ключевое слово static](language.oop5.static.html)
+    -   [Абстрактные классы](language.oop5.abstract.html)
+    -   [Интерфейсы объектов](language.oop5.interfaces.html)
+    -   [Трейты](language.oop5.traits.html)
+    -   [Анонимные классы](language.oop5.anonymous.html)
+    -   [Перегрузка](language.oop5.overloading.html)
+    -   [Итераторы объектов](language.oop5.iterations.html)
+    -   [Магические методы](language.oop5.magic.html)
+    -   [Ключевое слово final](language.oop5.final.html)
+    -   [Клонирование объектов](language.oop5.cloning.html)
+    -   [Сравнение объектов](language.oop5.object-comparison.html)
+    -   [Позднее статическое связывание](language.oop5.late-static-bindings.html)
+    -   [Объекты и ссылки](language.oop5.references.html)
+    -   [Сериализация объектов](language.oop5.serialization.html)
+    -   [Ковариантность и контравариантность](language.oop5.variance.html)
+    -   [Журнал изменений ООП](language.oop5.changelog.html)
+-   [Пространства имён](language.namespaces.html)
+    -   [Обзор пространств имён](language.namespaces.rationale.html)
+    -   [Определение пространств имён](language.namespaces.definition.html)
+    -   [Определение подпространств имён](language.namespaces.nested.html)
+    -   [Описание нескольких пространств имён в одном файле](language.namespaces.definitionmultiple.html)
+    -   [Использование пространства имён: основы](language.namespaces.basics.html)
+    -   [Пространства имён и динамические особенности языка](language.namespaces.dynamic.html)
+    -   [Ключевое слово namespace и константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.html)
+    -   [Использование пространств имён: импорт/создание псевдонима имени](language.namespaces.importing.html)
+    -   [Глобальное пространство](language.namespaces.global.html)
+    -   [Использование пространств имён: переход к глобальной функции/константе](language.namespaces.fallback.html)
+    -   [Правила разрешения имён](language.namespaces.rules.html)
+    -   [Часто задаваемые вопросы (FAQ): вещи, которые вам необходимо знать о пространствах имён](language.namespaces.faq.html)
+-   [Перечисления](language.enumerations.html)
+    -   [Обзор перечислений](language.enumerations.overview.html)
+    -   [Основы перечислений](language.enumerations.basics.html)
+    -   [Типизированные перечисления](language.enumerations.backed.html)
+    -   [Методы перечислений](language.enumerations.methods.html)
+    -   [Статические методы перечислений](language.enumerations.static-methods.html)
+    -   [Константы перечислений](language.enumerations.constants.html)
+    -   [Трейты](language.enumerations.traits.html)
+    -   [Значения перечисления в постоянных выражениях](language.enumerations.expressions.html)
+    -   [Отличия от объектов](language.enumerations.object-differences.html)
+    -   [Список значений](language.enumerations.listing.html)
+    -   [Сериализация](language.enumerations.serialization.html)
+    -   [Примеры](language.enumerations.examples.html)
+-   [Ошибки](language.errors.html)
+    -   [Основы](language.errors.basics.html)
+    -   [Ошибки в PHP 7](language.errors.php7.html)
+-   [Исключения](language.exceptions.html)
+    -   [Наследование исключений](language.exceptions.extending.html)
+-   [Fibers](language.fibers.html)
+-   [Генераторы](language.generators.html)
+    -   [Знакомство с генераторами](language.generators.overview.html)
+    -   [Синтаксис генераторов](language.generators.syntax.html)
+    -   [Сравнение генераторов с объектами класса Iterator](language.generators.comparison.html)
+-   [Атрибуты](language.attributes.html)
+    -   [Введение в атрибуты](language.attributes.overview.html)
+    -   [Синтаксис атрибутов](language.attributes.syntax.html)
+    -   [Чтение атрибутов с помощью Reflection API](language.attributes.reflection.html)
+    -   [Объявление классов атрибутов](language.attributes.classes.html)
+-   [Объяснение ссылок](language.references.html)
+    -   [Что такое ссылки](language.references.whatare.html)
+    -   [Что делают ссылки](language.references.whatdo.html)
+    -   [Чем ссылки не являются](language.references.arent.html)
+    -   [Передача по ссылке](language.references.pass.html)
+    -   [Возврат по ссылке](language.references.return.html)
+    -   [Сброс переменных-ссылок](language.references.unset.html)
+    -   [Неявное использование механизма ссылок](language.references.spot.html)
+-   [Предопределённые переменные](reserved.variables.html)
+    -   [Суперглобальные переменные](language.variables.superglobals.html) — Вбудовані змінні, які завжди доступні у всіх областях
+    -   [$GLOBALS](reserved.variables.globals.html) — Посилання на всі змінні глобальної сфери видимості
+    -   [$\_SERVER](reserved.variables.server.html) — Інформація про сервер та середовище виконання
+    -   [$\_GET](reserved.variables.get.html) - Змінні HTTP GET
+    -   [$\_POST](reserved.variables.post.html) — Змінні HTTP POST
+    -   [$\_FILES](reserved.variables.files.html) — Змінні файли, завантажені за HTTP
+    -   [$\_REQUEST](reserved.variables.request.html) - Змінні HTTP-запиту
+    -   [$\_SESSION](reserved.variables.session.html) - Змінні сесії
+    -   [$\_ENV](reserved.variables.environment.html) - Змінні оточення
+    -   [$\_COOKIE](reserved.variables.cookies.html) - HTTP Cookies
+    -   [$php\_errormsg](reserved.variables.phperrormsg.html) — Попереднє повідомлення про помилку
+    -   [$http\_response\_header](reserved.variables.httpresponseheader.html) - Заголовки відповідей HTTP
+    -   [$argc](reserved.variables.argc.html) - Кількість аргументів, переданих скрипту
+    -   [$argv](reserved.variables.argv.html) — Масив переданих скрипту аргументів
+-   [Предопределённые исключения](reserved.exceptions.html)
+    -   [Exception](class.exception.html)
+    -   [ErrorException](class.errorexception.html)
+    -   [Error](class.error.html)
+    -   [ArgumentCountError](class.argumentcounterror.html)
+    -   [ArithmeticError](class.arithmeticerror.html)
+    -   [AssertionError](class.assertionerror.html)
+    -   [DivisionByZeroError](class.divisionbyzeroerror.html)
+    -   [CompileError](class.compileerror.html)
+    -   [ParseError](class.parseerror.html)
+    -   [TypeError](class.typeerror.html)
+    -   [ValueError](class.valueerror.html)
+    -   [UnhandledMatchError](class.unhandledmatcherror.html)
+    -   [FiberError](class.fibererror.html)
+-   [Встроенные интерфейсы и классы](reserved.interfaces.html)
+    -   [Traversable](class.traversable.html) - Інтерфейс Traversable
+    -   [Iterator](class.iterator.html) - Інтерфейс Iterator
+    -   [IteratorAggregate](class.iteratoraggregate.html) - Інтерфейс IteratorAggregate
+    -   [Throwable](class.throwable.html)
+    -   [ArrayAccess](class.arrayaccess.html) - Інтерфейс ArrayAccess
+    -   [Serializable](class.serializable.html) - Інтерфейс Serializable
+    -   [Closure](class.closure.html) - Клас Closure
+    -   [Generator](class.generator.html) - Клас Generator
+    -   [Fiber](class.fiber.html) - Клас Fiber
+    -   [WeakReference](class.weakreference.html) - Клас WeakReference
+    -   [WeakMap](class.weakmap.html) - Клас WeakMap
+    -   [Stringable](class.stringable.html) - Інтерфейс Stringable
+    -   [UnitEnum](class.unitenum.html) - Інтерфейс UnitEnum
+    -   [BackedEnum](class.backedenum.html) - Інтерфейс BackedEnum
+-   [Контекстные опции и параметры](context.html)
+    -   [Контекстные опции сокета](context.socket.html) - Список контекстних опцій сокету
+    -   [Опции контекста HTTP](context.http.html) - Список опцій контексту HTTP
+    -   [Параметры контекста FTP](context.ftp.html) - Список параметрів контексту FTP
+    -   [Опции контекста SSL](context.ssl.html) - Список опцій контексту SSL
+    -   [Опции контекста CURL](context.curl.html) - Список опцій контексту CURL
+    -   [Контекстные опции Phar](context.phar.html) - Список контекстних опцій Phar
+    -   [Параметры контекста](context.params.html) - Список параметрів контексту
+    -   [Опции контекста Zip](context.zip.html) - Список опцій контексту Zip
+-   [Поддерживаемые протоколы и обёртки](wrappers.html)
+    -   [file://](wrappers.file.html) — Доступ до локальної файлової системи
+    -   [http://](wrappers.http.html) — Доступ до URL-адрес за протоколом HTTP(s)
+    -   [ftp://](wrappers.ftp.html) — Доступ до URL-адрес за протоколом FTP(s)
+    -   [php://](wrappers.php.html) — Доступ до різних потоків введення-виводу
+    -   [zlib://](wrappers.compression.html) — Стислі потоки
+    -   [data://](wrappers.data.html) - Схема Data (RFC 2397)
+    -   [glob://](wrappers.glob.html) — Знаходження шляхів, що відповідають шаблону
+    -   [phar://](wrappers.phar.html) - PHP-архів
+    -   [ssh2://](wrappers.ssh2.html) - Secure Shell 2
+    -   [rar://](wrappers.rar.html) - RAR
+    -   [ogg://](wrappers.audio.html) - Аудіопотоки
+    -   [expect://](wrappers.expect.html) — Потоки для взаємодії з процесами

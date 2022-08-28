@@ -1,70 +1,81 @@
-- [« mysql_data_seek](function.mysql-data-seek.md)
-- [mysql_db_query »](function.mysql-db-query.md)
+Повертає назву бази даних із виклику до mysqllistdbs
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає назву бази даних із виклику до mysql_list_dbs
+-   [« mysql\_data\_seek](function.mysql-data-seek.html)
+    
+-   [mysql\_db\_query »](function.mysql-db-query.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Повертає назву бази даних із виклику до mysqllistdbs
+    
 
-# mysql_db_name
+# mysqlдбname
 
 (PHP 4, PHP 5)
 
-mysql_db_name — Повертає назву бази даних із виклику до
-[mysql_list_dbs()](function.mysql-list-dbs.md)
+mysqlдбname — Повертає назву бази даних із виклику до [mysql\_list\_dbs()](function.mysql-list-dbs.html)
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- Запит: `SELECT DATABASE()`
+-   Запит: `SELECT DATABASE()`
 
 ### Опис
 
-**mysql_db_name**(resource `$result`, int `$row`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field` = NULL): string
+```methodsynopsis
+mysql_db_name(resource $result, int $row, mixed $field = NULL): string
+```
 
-Повертає назву бази даних із виклику до
-[mysql_list_dbs()](function.mysql-list-dbs.md).
+Повертає назву бази даних із виклику до [mysql\_list\_dbs()](function.mysql-list-dbs.html)
 
 ### Список параметрів
 
 `result`
-Дескриптор результату, отриманий із виклику
-[mysql_list_dbs()](function.mysql-list-dbs.md).
+
+Дескриптор результату, отриманий із виклику [mysql\_list\_dbs()](function.mysql-list-dbs.html)
 
 `row`
+
 Індекс у результаті.
 
 `field`
-Назва поля.
+
+Ім'я поля.
 
 ### Значення, що повертаються
 
-Повертає назву бази даних у разі успішного виконання, або
-**`false`** у разі помилки. У разі повернення **`false`** використовуйте
-[mysql_error()](function.mysql-error.md) для визначення природи
-помилок.
+Повертає назву бази даних у разі успішного виконання, або **`false`** у разі помилки. У разі повернення **`false`** використовуйте [mysql\_error()](function.mysql-error.html) визначення природи помилок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_db_name()****
+**Приклад #1 Приклад використання **mysqlдбname()****
 
-` <?phperror_reporting(E_ALL);$link = mysql_connect('dbhost', 'username', 'password');$db_list = mysql_list_dbs($link);$i = 0;$cnt = mysql_num_rows($db ($i < $cnt) {   echo mysql_db_name($db_list, $i) . "
-";   $i++;}?> `
+```php
+<?php
+error_reporting(E_ALL);
+
+$link = mysql_connect('dbhost', 'username', 'password');
+$db_list = mysql_list_dbs($link);
+
+$i = 0;
+$cnt = mysql_num_rows($db_list);
+while ($i < $cnt) {
+    echo mysql_db_name($db_list, $i) . "\n";
+    $i++;
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_dbname()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqldbname()**
 
 ### Дивіться також
 
-- [mysql_list_dbs()](function.mysql-list-dbs.md) - Повертає список
-баз даних, доступних на сервері
-- [mysql_tablename()](function.mysql-tablename.md) - Повертає ім'я
-таблиці, що містить вказане поле
+-   [mysql\_list\_dbs()](function.mysql-list-dbs.html) - Повертає список баз даних, доступних на сервері
+-   [mysql\_tablename()](function.mysql-tablename.html) - Повертає ім'я таблиці, що містить вказане поле

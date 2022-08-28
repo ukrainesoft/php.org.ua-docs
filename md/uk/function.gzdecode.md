@@ -1,29 +1,38 @@
-- [«gzcompress](function.gzcompress.md)
-- [gzdeflate »](function.gzdeflate.md)
+Декодує рядок, стислий за допомогою gzip
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Декодує рядок, стиснутий за допомогою gzip
+-   [« gzcompress](function.gzcompress.html)
+    
+-   [gzdeflate »](function.gzdeflate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zlib](ref.zlib.html)
+    
+-   Декодує рядок, стислий за допомогою gzip
+    
 
 # gzdecode
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-gzdecode — Декодує рядок, стислий за допомогою gzip
+gzdecode — Декодує рядок, стиснутий за допомогою gzip
 
 ### Опис
 
-**gzdecode**(string `$data`, int `$max_length` = 0): string\|false
+```methodsynopsis
+gzdecode(string $data, int $max_length = 0): string|false
+```
 
-Ця функція повертає декодовану версію вхідних даних. `data`.
+Ця функція повертає декодовану версію вхідних даних . `data`
 
 ### Список параметрів
 
 `data`
-Дані для декодування, закодовані за допомогою
-[gzencode()](function.gzencode.md).
+
+Дані для декодування, закодовані за допомогою [gzencode()](function.gzencode.html)
 
 `max_length`
+
 Максимальний розмір рядка для декодування.
 
 ### Значення, що повертаються
@@ -32,8 +41,8 @@ gzdecode — Декодує рядок, стислий за допомогою g
 
 ### Помилки
 
-У разі виникнення помилки повертає помилку рівня **`E_WARNING`**.
+У разі виникнення помилки повертає помилку рівня **`E_WARNING`**
 
 ### Дивіться також
 
-- [gzencode()](function.gzencode.md) - Створити стислий рядок gzip
+-   [gzencode()](function.gzencode.html) - Створити стислий рядок gzip

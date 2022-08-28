@@ -1,9 +1,15 @@
-- [« Imagick::getImagePage](imagick.getimagepage.md)
-- [Imagick::getImageProfile »](imagick.getimageprofile.md)
+Повертає колір вказаного пікселя
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає колір вказаного пікселя
+-   [« Imagick::getImagePage](imagick.getimagepage.html)
+    
+-   [Imagick::getImageProfile »](imagick.getimageprofile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає колір вказаного пікселя
+    
 
 # Imagick::getImagePixelColor
 
@@ -13,22 +19,25 @@ Imagick::getImagePixelColor — Повертає колір вказаного �
 
 ### Опис
 
-public **Imagick::getImagePixelColor**(int `$x`, int `$y`):
-[ImagickPixel](class.imagickpixel.md)
+```methodsynopsis
+public Imagick::getImagePixelColor(int $x, int $y): ImagickPixel
+```
 
 Повертає колір вказаного пікселя.
 
 ### Список параметрів
 
 `x`
+
 Координата x пікселя.
 
 `y`
+
 Координата у пікселя.
 
 ### Значення, що повертаються
 
-Повертає екземпляр ImagickPixel для кольору у заданих координатах.
+Повертає екземпляр ImagickPixel для кольору в заданих координатах.
 
 ### Помилки
 

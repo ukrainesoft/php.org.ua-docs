@@ -1,88 +1,114 @@
-- [«CachingIterator::valid](cachingiterator.valid.md)
-- [CallbackFilterIterator::accept »](callbackfilteriterator.accept.md)
+Клас CallbackFilterIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас CallbackFilterIterator
+-   [« CachingIterator::valid](cachingiterator.valid.html)
+    
+-   [CallbackFilterIterator::accept »](callbackfilteriterator.accept.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас CallbackFilterIterator
+    
 
 # Клас CallbackFilterIterator
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
 ## Огляд класів
 
-class **CallbackFilterIterator** extends
-[FilterIterator](class.filteriterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](callbackfilteriterator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, [callable](language.types.callable.md) `$callback`)
+    
+     
+      class CallbackFilterIterator
+     
 
-public [accept](callbackfilteriterator.accept.md)(): bool
+     
+      extends
+       FilterIterator
+     
+     {
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public __construct(Iterator $iterator, callable $callback)
 
-public [FilterIterator::accept](filteriterator.accept.md)(): bool
+    public accept(): bool
 
-public [FilterIterator::current](filteriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public
-[FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
+    /* Наследуемые методы */
+    public FilterIterator::accept(): bool
+public FilterIterator::current(): mixed
+public FilterIterator::getInnerIterator(): Iterator
+public FilterIterator::key(): mixed
+public FilterIterator::next(): void
+public FilterIterator::rewind(): void
+public FilterIterator::valid(): bool
 
-public [FilterIterator::key](filteriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [FilterIterator::next](filteriterator.next.md)(): void
-
-public [FilterIterator::rewind](filteriterator.rewind.md)(): void
-
-public [FilterIterator::valid](filteriterator.valid.md)(): bool
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Приклади
 
-Callback-функція може приймати до трьох аргументів: поточний елемент,
-поточний ключ та ітератор відповідно.
+Callback-функція може приймати до трьох аргументів: поточний елемент, поточний ключ та ітератор відповідно.
 
 **Приклад #1 Доступні аргументи зворотного виклику**
 
-` <?php/** * Callback-функция для CallbackFilterIterator * * @param $current   Значение текущего элемента * @param $key       Ключ текущего элемента * @param $iterator  Фильтруемый итератор * @return boolean   TRUE для принятия текущего элемента, иначе - FALSE */function my_callback($current, $key, $iterator) {    // Код фільтрації}?> `
+```php
+<?php
 
-Будь-яка callback-функція типу [callable](language.types.callable.md)
-може бути використана. Наприклад, рядок, що містить ім'я функції,
-масив для методу чи анонімна функція.
+/**
+ * Callback-функция для CallbackFilterIterator
+ *
+ * @param $current   Значение текущего элемента
+ * @param $key       Ключ текущего элемента
+ * @param $iterator  Фильтруемый итератор
+ * @return boolean   TRUE для принятия текущего элемента, иначе - FALSE
+ */
+function my_callback($current, $key, $iterator) {
+    // Код фильтрации
+}
+
+?>
+```
+
+Будь-яка callback-функція типу [callable](language.types.callable.html) може бути використана. Наприклад, рядок, який містить ім'я функції, масив для методу або анонімна функція.
 
 **Приклад #2 Основні приклади зворотного виклику**
 
-` <?php$dir = new FilesystemIterator(__DIR__);// Фільтр великих файлів ( > 100MB)function is_large_file($current) {    return $current->isFile() >8 large_files = new CallbackFilterIterator($dir, 'is_large_file');// Фільтр каталогів$files = new CallbackFilterIterator($dir, function ($current, $key, $  &$         ¦     ¦         ¦   | ->isDot();});?> `
+```php
+<?php
+
+$dir = new FilesystemIterator(__DIR__);
+
+// Фильтр больших файлов ( > 100MB)
+function is_large_file($current) {
+    return $current->isFile() && $current->getSize() > 104857600;
+}
+$large_files = new CallbackFilterIterator($dir, 'is_large_file');
+
+// Фильтр каталогов
+$files = new CallbackFilterIterator($dir, function ($current, $key, $iterator) {
+    return $current->isDir() && ! $iterator->isDot();
+});
+
+?>
+```
 
 ## Зміст
 
-- [CallbackFilterIterator::accept](callbackfilteriterator.accept.md)
-— Викликає callback-функцію та передає їй як аргументи
-поточне значення, поточний ключ та внутрішній покажчик
-- [CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.md)
-— Створює фільтруючий ітератор на основі іншого ітератора
+-   [CallbackFilterIterator::accept](callbackfilteriterator.accept.html) — Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
+-   [CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.html) — Створює ітератор, що фільтрує, на основі іншого ітератора.

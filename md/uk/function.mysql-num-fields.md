@@ -1,62 +1,73 @@
-- [« mysql_list_tables](function.mysql-list-tables.md)
-- [mysql_num_rows »](function.mysql-num-rows.md)
+Повертає кількість полів результату запиту
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- Повертає кількість полів результату запиту
+-   [« mysql\_list\_tables](function.mysql-list-tables.html)
+    
+-   [mysql\_num\_rows »](function.mysql-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Повертає кількість полів результату запиту
+    
 
-# mysql_num_fields
+# mysqlnumfields
 
 (PHP 4, PHP 5)
 
-mysql_num_fields — Повертає кількість полів результату запиту
+mysqlnumfields — Повертає кількість полів результату запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
-Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_num_fields()](mysqli-result.field-count.md)
-- [PDOStatement::columnCount()](pdostatement.columncount.md)
+-   [mysqli\_num\_fields()](mysqli-result.field-count.html)
+-   [PDOStatement::columnCount()](pdostatement.columncount.html)
 
 ### Опис
 
-**mysql_num_fields**(resource `$result`): int\|false
+```methodsynopsis
+mysql_num_fields(resource $result): int|false
+```
 
 Повертає кількість полів у результаті запиту.
 
 ### Список параметрів
 
 `result`
-Оброблюваний [результат запита](language.types.resource.md). Цей
-результат може бути отриманий за допомогою функції
-[mysql_query()](function.mysql-query.md).
+
+оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.html)
 
 ### Значення, що повертаються
 
-Повертає кількість полів у результаті запиту (resource) у разі
-успішного виконання або **`false`** у разі виникнення помилки.
+Повертає кількість полів у результаті запиту (resource) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_num_fields()****
+**Приклад #1 Приклад використання **mysqlnumfields()****
 
-` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}/* повертає 2, так як id,email === двом полям */echo mysql_num_fields($result);?> `
+```php
+<?php
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Не удалось выполнить запрос: ' . mysql_error();
+    exit;
+}
+
+/* возвращает 2, так как id,email === двум полям */
+echo mysql_num_fields($result);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_numfields()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlnumfields()**
 
 ### Дивіться також
 
-- [mysql_select_db()](function.mysql-select-db.md) - Вибирає базу
-даних MySQL
-- [mysql_query()](function.mysql-query.md) - Надсилає запит MySQL
-- [mysql_fetch_field()](function.mysql-fetch-field.md) - Повертає
-інформацію про колонку з результату запиту як об'єкта
-- [mysql_num_rows()](function.mysql-num-rows.md) - Повертає
-кількість рядів результату запиту
+-   [mysql\_select\_db()](function.mysql-select-db.html) - Вибирає базу даних MySQL
+-   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysql\_fetch\_field()](function.mysql-fetch-field.html) - Повертає інформацію про колонку з результату запиту як об'єкта
+-   [mysql\_num\_rows()](function.mysql-num-rows.html) - Повертає кількість рядів результату запиту

@@ -1,9 +1,15 @@
-- [« mysql_xdevapi\SchemaObject](class.mysql-xdevapi-schemaobject.md)
-- [mysql_xdevapi\Session »](class.mysql-xdevapi-session.md)
+Отримує об'єкт схеми
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SchemaObject](class.mysql-xdevapi-schemaobject.md)
-- Отримує об'єкт схеми
+-   [« mysql\_xdevapi\\SchemaObject](class.mysql-xdevapi-schemaobject.html)
+    
+-   [mysql\_xdevapi\\Session »](class.mysql-xdevapi-session.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\SchemaObject](class.mysql-xdevapi-schemaobject.html)
+    
+-   Отримує об'єкт схеми
+    
 
 # SchemaObject::getSchema
 
@@ -13,8 +19,9 @@ SchemaObject::getSchema — Отримує об'єкт схеми
 
 ### Опис
 
-abstract **mysql_xdevapi\SchemaObject::getSchema**():
-[mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
+```methodsynopsis
+abstract mysql_xdevapi\SchemaObject::getSchema(): mysql_xdevapi\Schema
+```
 
 Використовується іншими об'єктами для отримання схеми об'єкта.
 
@@ -28,14 +35,21 @@ abstract **mysql_xdevapi\SchemaObject::getSchema**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::getSchema()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchema()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");print_r($schema); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$schema  = $session->getSchema("addressbook");
+
+print_r($schema);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 mysql_xdevapi\Schema Object
 (
-[name] => addressbook
+    [name] => addressbook
 )
+```

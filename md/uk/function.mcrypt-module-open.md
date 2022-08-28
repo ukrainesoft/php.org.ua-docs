@@ -1,93 +1,114 @@
-- [« mcrypt_module_is_block_mode](function.mcrypt-module-is-block-mode.md)
-- [mcrypt_module_self_test »](function.mcrypt-module-self-test.md)
+Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Відкриває модуль шифрування з використанням зазначених алгоритмів та
-режиму
+-   [« mcrypt\_module\_is\_block\_mode](function.mcrypt-module-is-block-mode.html)
+    
+-   [mcrypt\_module\_self\_test »](function.mcrypt-module-self-test.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+    
 
-#mcrypt_module_open
+# mcryptmoduleopen
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_module_open — Відкриває модуль шифрування за допомогою
-вказаних алгоритму та режиму
+mcryptmoduleopen — Відкриває модуль шифрування за допомогою вказаних алгоритмів і режимів.
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_module_open**(
-string `$algorithm`,
-string `$algorithm_directory`,
-string `$mode`,
-string `$mode_directory`
-): resource
+```methodsynopsis
+mcrypt_module_open(    string $algorithm,    string $algorithm_directory,    string $mode,    string $mode_directory): resource
+```
 
-Відкриває модуль шифрування з використанням зазначених алгоритмів та
-режиму. Ім'я алгоритму задається його ім'ям, наприклад ``twofish'`, або з
-за допомогою константи **`MCRYPT_ciphername`**. Закрити модуль можна з
-допомогою функції
-[mcrypt_module_close()](function.mcrypt-module-close.md).
+Відкриває модуль шифрування з використанням вказаних алгоритмів та режимів. Ім'я алгоритму задається його ім'ям, наприклад `"twofish"`, або за допомогою константи **`MCRYPT_ciphername`**. Закрити модуль можна за допомогою функції [mcrypt\_module\_close()](function.mcrypt-module-close.html)
 
 ### Список параметрів
 
 `algorithm`
-Одна з констант **`MCRYPT_ciphername`** або назва алгоритму у вигляді
-рядки.
+
+Одна з констант **`MCRYPT_ciphername`** або назва алгоритму у вигляді рядка.
 
 `algorithm_directory`
-Параметр `algorithm_directory` використовується для завдання місцезнаходження
-модуля шифрування Якщо передати порожній рядок, то (`````), то буде
-використано значення директиви `mcrypt.algorithms_dir` з `php.ini`.
-Якщо ж воно теж не задано, то буде використано стандартну директорію
-з якою компілювався libmcrypt (зазвичай `/usr/local/lib/libmcrypt`).
+
+Параметр `algorithm_directory` використовується для завдання місцезнаходження модуля шифрування. Якщо передати порожній рядок, то (`""`), то буде використано значення директиви `mcrypt.algorithms_dir` із php.ini. Якщо ж воно теж не задано, то буде використано стандартну директорію з якою компілювався libmcrypt (зазвичай /usr/local/lib/libmcrypt).
 
 `mode`
-Одна з констант **`MCRYPT_MODE_modename`**, або одна з наступних
-рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
+
+Одна з констант **`MCRYPT_MODE_modename`**, або один з наступних рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
 
 `mode_directory`
-Параметр `mode_directory` використовується для завдання місцезнаходження
-модуля режиму Якщо передати порожній рядок, то (`````), то буде
-використано значення директиви `mcrypt.modes_dir` з `php.ini`. Якщо ж
-воно теж не задано, то буде використано стандартну директорію, з
-якою компілювався libmcrypt (зазвичай `/usr/local/lib/libmcrypt`).
+
+Параметр `mode_directory` використовується для завдання місцезнаходження модуля режиму. Якщо передати порожній рядок, то (`""`), то буде використано значення директиви `mcrypt.modes_dir` із php.ini. Якщо ж воно теж не задано, то буде використано стандартну директорію, з якою компілювався libmcrypt (зазвичай /usr/local/lib/libmcrypt).
 
 ### Значення, що повертаються
 
-Зазвичай повертається дескриптор шифрування або **`false`** у разі
-виникнення помилки.
+Зазвичай повертається дескриптор шифрування або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcrypt_module_open()****
+**Приклад #1 Приклад використання **mcryptmoduleopen()****
 
-` <?php   $td = mcrypt_module_open(MCRYPT_DES, '',       MCRYPT_MODE_ECB, '/usr/lib/mcrypt-modes'); $td= mcrypt_module_open('rijndael-256', '', 'ofb', '');?> `
+```php
+<?php
+    $td = mcrypt_module_open(MCRYPT_DES, '',
+        MCRYPT_MODE_ECB, '/usr/lib/mcrypt-modes');
 
-У першому рядку прикладу ми намагаємося відкрити шифр `DES` з директорії з
-замовчуванням та використовувати режим `ECB` з директорії
-`/usr/lib/mcrypt-modes`. У другому прикладі використовуємо рядкові імена
-шифру та режиму, що працює тільки з модулем, зібраним з бібліотекою
-libmcrypt 2.4.x або 2.5.x.
+    $td = mcrypt_module_open('rijndael-256', '', 'ofb', '');
+?>
+```
 
-**Приклад #2 Приклад використання **mcrypt_module_open()****
+У першому рядку прикладу ми намагаємося відкрити шифр `DES` з директорії за замовчуванням та використовувати режим `ECB` із директорії /usr/lib/mcrypt-modes. У другому прикладі використовуємо рядкові імена шифру та режиму, що працює лише з модулем, зібраним із бібліотекою libmcrypt 2.4.x or 2.5.x.
 
-`<?php    /* Відкриваємо модуль шифрування */    $td = mcrypt_module_open('rijndael-256', '', 'ofb', ''); /* Створюємо ініціалізуючий вектор і визначаємо довжину ключа. * Для Windows  використовуємо MCRYPT_RAND */    $iv = mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_DEV_RANDOM); $ks = mcrypt_enc_get_key_size($td); /* Створюємо ключ */    $key = substr(md5('very secret key'), 0, $ks); /* Ініціалізуємо шифрування */   mcrypt_generic_init($td, $key, $iv); /* Шифруємо дані */    $encrypted==mcrypt_generic($td, 'This is very important data'); /* Деинициализируем обробник шифрування */   mcrypt_generic_deinit($td); /* Ініціалізуємо модуль дешифрування */   mcrypt_generic_init($td, $key, $iv); /* Дешифруємо дані */    $decrypted = mdecrypt_generic($td, $encrypted); /* Деініціалізуємо обробник дешифровки і закриваємо модуль */    mcrypt_generic_deinit($td); mcrypt_module_close($td); /* Друкуємо рядок */    echo trim($decrypted) . "
-";?> `
+**Приклад #2 Приклад використання **mcryptmoduleopen()****
+
+```php
+<?php
+    /* Открываем модуль шифрования */
+    $td = mcrypt_module_open('rijndael-256', '', 'ofb', '');
+
+    /* Создаём инициализирующий вектор и определяем длину ключа.
+     * Для Windows используем MCRYPT_RAND */
+    $iv = mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_DEV_RANDOM);
+    $ks = mcrypt_enc_get_key_size($td);
+
+    /* Создаём ключ */
+    $key = substr(md5('very secret key'), 0, $ks);
+
+    /* Инициализируем шифрование */
+    mcrypt_generic_init($td, $key, $iv);
+
+    /* Шифруем данные */
+    $encrypted = mcrypt_generic($td, 'This is very important data');
+
+    /* Деинициализируем обработчик шифрования */
+    mcrypt_generic_deinit($td);
+
+    /* Инициализируем модуль дешифровки */
+    mcrypt_generic_init($td, $key, $iv);
+
+    /* Дешифруем данные */
+    $decrypted = mdecrypt_generic($td, $encrypted);
+
+    /* Деинициализируем обработчик дешифровки и закрываем модуль */
+    mcrypt_generic_deinit($td);
+    mcrypt_module_close($td);
+
+    /* Печатаем строку */
+    echo trim($decrypted) . "\n";
+?>
+```
 
 ### Дивіться також
 
-- [mcrypt_module_close()](function.mcrypt-module-close.md) -
-Закриває модуль mcrypt
-- [mcrypt_generic()](function.mcrypt-generic.md) - Функція шифрує
-дані
-- [mdecrypt_generic()](function.mdecrypt-generic.md) - Дешифрування
-даних
-- [mcrypt_generic_init()](function.mcrypt-generic-init.md) - Функція
-ініціалізує всі буфери, необхідні для шифрування
-- [mcrypt_generic_deinit()](function.mcrypt-generic-deinit.md) - Ця
-функція деініціалізує модуль шифрування
+-   [mcrypt\_module\_close()](function.mcrypt-module-close.html) - Закриває модуль mcrypt
+-   [mcrypt\_generic()](function.mcrypt-generic.html) - Функція шифрує дані
+-   [mdecrypt\_generic()](function.mdecrypt-generic.html) - Дешифрування даних
+-   [mcrypt\_generic\_init()](function.mcrypt-generic-init.html) - Функція ініціалізує всі буфери, необхідні для шифрування
+-   [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.html) - Ця функція деініціалізує модуль шифрування

@@ -1,38 +1,43 @@
-- [« mysqli::$error_list](mysqli.error-list.md)
-- [mysqli::$field_count »](mysqli.field-count.md)
+Повертає рядок з описом останньої помилки
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає рядок із описом останньої помилки
+-   [« mysqli::$error\_list](mysqli.error-list.html)
+    
+-   [mysqli::$field\_count »](mysqli.field-count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Повертає рядок з описом останньої помилки
+    
 
 # mysqli::$error
 
-# mysqli_error
+# mysqlierror
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$error -- mysqli_error — Повертає рядок з описом останнього
-помилки
+mysqli::$error -- mysqlierror — Повертає рядок із описом останньої помилки
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string `$mysqli->error`;
+string [$mysqli->error](mysqli.error.html)
 
 Процедурний стиль
 
-**mysqli_error**([mysqli](class.mysqli.md) `$mysql`): string
+```methodsynopsis
+mysqli_error(mysqli $mysql): string
+```
 
-Повертає повідомлення про помилку останнього виклику функції MySQLi, який
-може успішно виконатися чи провалитися.
+Повертає повідомлення про помилку останнього виклику MySQLi, який може успішно виконатися або провалитися.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -40,31 +45,59 @@ string `$mysqli->error`;
 
 ### Приклади
 
-**Приклад #1 Приклад з `$mysqli->error`**
+**Приклад #1 Приклад $mysqli->error**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if ($mysqli->connect_errno) {  єднання| s
-", $mysqli->connect_error);   exit();}if (!$mysqli->query("SET a=1")) {    printf("Повідомлення помилки: %s
-", $mysqli->error);}/* Закрити з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* Проверить соединение */
+if ($mysqli->connect_errno) {
+    printf("Соединение не удалось: %s\n", $mysqli->connect_error);
+    exit();
+}
+
+if (!$mysqli->query("SET a=1")) {
+    printf("Сообщение ошибки: %s\n", $mysqli->error);
+}
+
+/* Закрыть соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = Mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("З'єднання|
-", mysqli_connect_error());
-", mysqli_error($link));}/* Закрити з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
+}
+
+if (!mysqli_query($link, "SET a=1")) {
+    printf("Сообщение ошибки: %s\n", mysqli_error($link));
+}
+
+/* Закрыть соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Повідомлення помилки: Unknown system variable 'a'
+```
+Сообщение ошибки: Unknown system variable 'a'
+```
 
 ### Дивіться також
 
-- [mysqli_connect_errno()](mysqli.connect-errno.md) - Повертає код
-помилки останньої спроби з'єднання
-- [mysqli_connect_error()](mysqli.connect-error.md) - Повертає
-опис останньої помилки підключення
-- [mysqli_errno()](mysqli.errno.md) - Повертає код помилки
-останнього виклику функції
-- [mysqli_sqlstate()](mysqli.sqlstate.md) - Повертає код стану
-SQLSTATE останній MySQL операції
+-   [mysqli\_connect\_errno()](mysqli.connect-errno.html) - Повертає код помилки останньої спроби з'єднання
+-   [mysqli\_connect\_error()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
+-   [mysqli\_errno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
+-   [mysqli\_sqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції

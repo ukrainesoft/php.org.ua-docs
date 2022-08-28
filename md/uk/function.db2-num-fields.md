@@ -1,63 +1,71 @@
-- [«db2_next_result](function.db2-next-result.md)
-- [db2_num_rows »](function.db2-num-rows.md)
+Повертає кількість полів у результуючому наборі
 
-- [PHP Manual](index.md)
-- [Функції IBM DB2](ref.ibm-db2.md)
-- Повертає кількість полів у результуючому наборі
+-   [« db2\_next\_result](function.db2-next-result.html)
+    
+-   [db2\_num\_rows »](function.db2-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IBM DB2](ref.ibm-db2.html)
+    
+-   Повертає кількість полів у результуючому наборі
+    
 
-#db2_num_fields
+# db2numfields
 
-(PECL ibm_db2 \>= 1.0.0)
+(PECL ibmdb2> = 1.0.0)
 
-db2_num_fields — Повертає кількість полів у результуючому наборі
+db2numfields — Повертає кількість полів у результуючому наборі
 
 ### Опис
 
-**db2_num_fields**(resource `$stmt`): int\|false
+```methodsynopsis
+db2_num_fields(resource $stmt): int|false
+```
 
-Повертає кількість полів у результуючому наборі. Це корисно при
-обробці результуючих наборів динамічно сформованих запитів,
-або у разі використання процедур, що зберігаються.
+Повертає кількість полів у результуючому наборі. Це корисно при обробці результуючих наборів динамічно сформованих запитів, або у разі використання процедур, що зберігаються.
 
 ### Список параметрів
 
 `stmt`
-Коректний ресурс оператора, який містить результуючий набір.
+
+Коректний ресурс оператора, що містить результуючий набір.
 
 ### Значення, що повертаються
 
-Повертає число полів у результуючому наборі або **`false`**, якщо
-передано некоректний ресурс оператора.
+Повертає кількість полів у результуючому наборі або **`false`**, якщо передано некоректний ресурс оператора.
 
 ### Приклади
 
 **Приклад #1 Отримання кількості полів у результуючому наборі**
 
-Наступний приклад демонструє отримання кількості полів у
-результуючий набір.
+Наступний приклад демонструє отримання кількості полів у результуючому наборі.
 
-` <?php$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";$stmt = db2_prepare($conn, $sql);db2_execute($stmt, $sql) $sql| stmt);echo "У результуючому наборі {$columns} стовпців.";?> `
+```php
+<?php
+
+$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
+$stmt = db2_prepare($conn, $sql);
+db2_execute($stmt, $sql);
+$columns = db2_num_fields($stmt);
+
+echo "В результирующем наборе {$columns} столбцов.";
+?>
+```
 
 Результат виконання цього прикладу:
 
-У результуючому наборі 4 стовпці.
+```
+В результирующем наборе 4 столбцов.
+```
 
 ### Дивіться також
 
-- [db2_execute()](function.db2-execute.md) - Виконує
-підготовлений SQL-запит
-- [db2_field_display_size()](function.db2-field-display-size.md) -
-Повертає максимальну кількість байтів, необхідну для
-відображення стовпця
-- [db2_field_name()](function.db2-field-name.md) - Повертає ім'я
-стовпця у наборі результатів
-- [db2_field_num()](function.db2-field-num.md) - Повертає позицію
-зазначеного стовпця у наборі результатів
-- [db2_field_precision()](function.db2-field-precision.md) -
-Повертає точність зазначеного стовпця у наборі результатів
-- [db2_field_scale()](function.db2-field-scale.md) - Повертає
-масштаб вказаного стовпця у наборі результатів
-- [db2_field_type()](function.db2-field-type.md) - Повертає тип
-даних вказаного стовпця у наборі результатів
-- [db2_field_width()](function.db2-field-width.md) - Повертає
-ширину поточного значення зазначеного стовпця у наборі результатів
+-   [db2\_execute()](function.db2-execute.html) - Виконує підготовлений SQL-запит
+-   [db2\_field\_display\_size()](function.db2-field-display-size.html) - Повертає максимальну кількість байтів, необхідну для відображення стовпця
+-   [db2\_field\_name()](function.db2-field-name.html) - Повертає ім'я стовпця у наборі результатів
+-   [db2\_field\_num()](function.db2-field-num.html) - Повертає позицію зазначеного стовпця у наборі результатів
+-   [db2\_field\_precision()](function.db2-field-precision.html) - Повертає точність зазначеного стовпця у наборі результатів
+-   [db2\_field\_scale()](function.db2-field-scale.html) - Повертає масштаб зазначеного стовпця у наборі результатів
+-   [db2\_field\_type()](function.db2-field-type.html) - Повертає тип даних зазначеного стовпця у наборі результатів
+-   [db2\_field\_width()](function.db2-field-width.html) - Повертає ширину поточного значення вказаного стовпця у наборі результатів

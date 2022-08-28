@@ -1,19 +1,24 @@
-- [« Ds\Deque::join](ds-deque.join.md)
-- [Ds\Deque::last »](ds-deque.last.md)
+Повертає колекцію в JSON-представництві
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає колекцію в JSON-виставі
+-   [« Ds\\Deque::join](ds-deque.join.html)
+    
+-   [Ds\\Deque::last »](ds-deque.last.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає колекцію в JSON-представництві
+    
 
-# Ds\Deque::jsonSerialize
+# ДсDeque::jsonSerialize
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::jsonSerialize — Повертає колекцію в JSON-представництві
+ДсDeque::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивіться
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ніколи не використовуйте цю функцію безпосередньо.

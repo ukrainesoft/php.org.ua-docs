@@ -1,11 +1,16 @@
-- [« Вимоги](componere.requirements.md)
-- [Componere\Abstract\Definition »](class.componere-abstract-definition.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](componere.setup.md)
-- Установка
+-   [« Требования](componere.requirements.html)
+    
+-   [Componere\\Abstract\\Definition »](class.componere-abstract-definition.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](componere.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Вихідний код Componere та випуски доступні на
-[» github](https://github.com/krakjoe/componere)
+Вихідний код Componere та випуски доступні на [» github](https://github.com/krakjoe/componere)

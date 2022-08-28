@@ -1,15 +1,21 @@
-- [«Вступ](intro.xdiff.md)
-- [Вимоги »](xdiff.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [xdiff](book.xdiff.md)
+-   [« Введение](intro.xdiff.html)
+    
+-   [Требования »](xdiff.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [xdiff](book.xdiff.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xdiff.requirements.md)
-- [Установка](xdiff.installation.md)
-- [Налаштування під час виконання](xdiff.configuration.md)
-- [Типи ресурсів](xdiff.resources.md)
+-   [Требования](xdiff.requirements.html)
+-   [Установка](xdiff.installation.html)
+-   [Настройка во время выполнения](xdiff.configuration.html)
+-   [Типы ресурсов](xdiff.resources.html)

@@ -1,20 +1,27 @@
-- [« SplHeap::insert](splheap.insert.md)
-- [SplHeap::isEmpty »](splheap.isempty.md)
+Вказує, чи перебуває купа в пошкодженому стані
 
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Вказує, чи купа у пошкодженому стані
+-   [« SplHeap::insert](splheap.insert.html)
+    
+-   [SplHeap::isEmpty »](splheap.isempty.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplHeap](class.splheap.html)
+    
+-   Вказує, чи перебуває купа в пошкодженому стані
+    
 
 # SplHeap::isCorrupted
 
 (PHP 7, PHP 8)
 
-SplHeap::isCorrupted — Вказує, чи є купа в пошкодженому
-стані
+SplHeap::isCorrupted — Вказує, чи перебуває купа в пошкодженому стані
 
 ### Опис
 
-public **SplHeap::isCorrupted**(): bool
+```methodsynopsis
+public SplHeap::isCorrupted(): bool
+```
 
 ### Список параметрів
 
@@ -22,5 +29,4 @@ public **SplHeap::isCorrupted**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо купа у пошкодженому стані, **`false`** в
-інакше.
+Повертає **`true`**, Якщо купа в пошкодженому стані, **`false`** в іншому випадку.

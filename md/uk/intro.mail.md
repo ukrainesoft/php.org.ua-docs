@@ -1,11 +1,16 @@
-- [«Mail](book.mail.md)
-- [Встановлення та налаштування »](mail.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [Mail](book.mail.md)
+-   [« Mail](book.mail.html)
+    
+-   [Установка и настройка »](mail.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mail](book.mail.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Функція [mail()](function.mail.md) дозволяє вам надсилати
-електронну пошту.
+Функція [mail()](function.mail.html) дозволяє вам надсилати електронну пошту.

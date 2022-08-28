@@ -1,27 +1,36 @@
-- [« parallel\Channel](class.parallel-channel.md)
-- [parallel\Channel::make »](parallel-channel.make.md)
+Конструктор класу Channel
 
-- [PHP Manual](index.md)
-- [parallel\Channel](class.parallel-channel.md)
-- Конструктор класу Channel
+-   [« parallel\\Channel](class.parallel-channel.html)
+    
+-   [parallel\\Channel::make »](parallel-channel.make.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Channel](class.parallel-channel.html)
+    
+-   Конструктор класу Channel
+    
 
-# parallel\Channel::\_\_construct
+# parallelChannel::construct
 
-(1.1.0)
-
-parallel\Channel::\_\_construct - Конструктор класу Channel
+parallelChannel::construct - Конструктор класу Channel
 
 ### Опис
 
-public **parallel\Channel::\_\_construct**()
+```methodsynopsis
+public parallel\Channel::__construct()
+```
 
 Створює анонімний небуферизований канал
 
-public **parallel\Channel::\_\_construct**(int `$capacity`)
+```methodsynopsis
+public parallel\Channel::__construct(int $capacity)
+```
 
 Створює анонімний буферизований канал із заданою ємністю.
 
 ### Список параметрів
 
 `capacity`
+
 Може бути Channel::Infinite або позитивним цілим числом.

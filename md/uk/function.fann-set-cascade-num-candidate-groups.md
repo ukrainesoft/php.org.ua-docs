@@ -1,38 +1,44 @@
-- [« fann_set_cascade_min_out_epochs](function.fann-set-cascade-min-out-epochs.md)
-- [fann_set_cascade_output_change_fraction »](function.fann-set-cascade-output-change-fraction.md)
+Встановлює кількість груп кандидатів
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- встановлює кількість груп кандидатів
+-   [« fann\_set\_cascade\_min\_out\_epochs](function.fann-set-cascade-min-out-epochs.html)
+    
+-   [fann\_set\_cascade\_output\_change\_fraction »](function.fann-set-cascade-output-change-fraction.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює кількість груп кандидатів
+    
 
-# fann_set_cascade_num_candidate_groups
+# fannsetcascadenumcandidategroups
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_cascade_num_candidate_groups — Встановлює кількість груп
-кандидатів
+fannsetcascadenumcandidategroups - Встановлює кількість груп кандидатів
 
 ### Опис
 
-**fann_set_cascade_num_candidate_groups**(resource `$ann`, int
-`$cascade_num_candidate_groups`): bool
+```methodsynopsis
+fann_set_cascade_num_candidate_groups(resource $ann, int $cascade_num_candidate_groups): bool
+```
 
 Встановлює кількість груп кандидатів.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `cascade_num_candidate_groups`
+
 Кількість груп кандидатів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_cascade_num_candidate_groups()](function.fann-get-cascade-num-candidate-groups.md) -
-Повертає кількість груп кандидатів
+-   [fann\_get\_cascade\_num\_candidate\_groups()](function.fann-get-cascade-num-candidate-groups.html) - Повертає кількість груп кандидатів

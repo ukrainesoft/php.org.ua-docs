@@ -1,21 +1,27 @@
-- [« Swoole\WebSocket\Server::push](swoole-websocket-server.push.md)
-- [Tidy »](book.tidy.md)
+Розпакувати двійкові дані, отримані від клієнта
 
-- [PHP Manual](index.md)
-- [Swoole\WebSocket\Server](class.swoole-websocket-server.md)
-- Розпакувати двійкові дані, отримані від клієнта
+-   [« Swoole\\WebSocket\\Server::push](swoole-websocket-server.push.html)
+    
+-   [Tidy »](book.tidy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+    
+-   Розпакувати двійкові дані, отримані від клієнта
+    
 
-# Swoole\WebSocket\Server::unpack
+# SwooleWebSocketServer::unpack
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\WebSocket\Server::unpack — Розпакувати двійкові дані,
-отримані від клієнта
+SwooleWebSocketServer::unpack — Розпакувати двійкові дані, отримані від клієнта
 
 ### Опис
 
-public static **Swoole\WebSocket\Server::unpack**(binary `$data`):
-string
+```methodsynopsis
+public static Swoole\WebSocket\Server::unpack(binary $data): string
+```
 
 ### Список параметрів
 

@@ -1,28 +1,33 @@
-- [« SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-- [SolrIllegalOperationException »](class.solrillegaloperationexception.md)
+Повертає внутрішню інформацію про те, де було викинуто виняток
 
-- [PHP Manual](index.md)
-- [SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-- Повертає внутрішню інформацію про те, де було викинуто
-виняток
+-   [« SolrIllegalArgumentException](class.solrillegalargumentexception.html)
+    
+-   [SolrIllegalOperationException »](class.solrillegaloperationexception.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrIllegalArgumentException](class.solrillegalargumentexception.html)
+    
+-   Повертає внутрішню інформацію про те, де було викинуто виняток
+    
 
 # SolrIllegalArgumentException::getInternalInfo
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrIllegalArgumentException::getInternalInfo — Повертає внутрішню
-інформацію про те, де було викинуто виняток
+SolrIllegalArgumentException::getInternalInfo — Повертає внутрішню інформацію про те, де було викинуто виняток
 
 ### Опис
 
-public **SolrIllegalArgumentException::getInternalInfo**(): array
+```methodsynopsis
+public SolrIllegalArgumentException::getInternalInfo(): array
+```
 
-Повертає внутрішню інформацію про те, де викинули виняток.
+Повертає внутрішню інформацію про те, де було викинуто виняток.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,5 +35,4 @@ public **SolrIllegalArgumentException::getInternalInfo**(): array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить внутрішню інформацію про те, де була
-викликана помилка. Використовується лише для налагодження розробниками модулів.
+Повертає масив, що містить внутрішню інформацію про те, де була викликана помилка. Використовується лише для налагодження розробниками модулів.

@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](sockets.setup.md)
-- [Установка »](sockets.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sockets.setup.md)
-- Вимоги
+-   [« Установка и настройка](sockets.setup.html)
+    
+-   [Установка »](sockets.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](sockets.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

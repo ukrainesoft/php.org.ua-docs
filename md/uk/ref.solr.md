@@ -1,13 +1,18 @@
-- [«Зумовлені константи](solr.constants.md)
-- [solr_get_version »](function.solr-get-version.md)
+Функції Solr
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Функції Solr
+-   [« Предопределённые константы](solr.constants.html)
+    
+-   [solr\_get\_version »](function.solr-get-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Функції Solr
+    
 
 # Функції Solr
 
 ## Зміст
 
-- [solr_get_version](function.solr-get-version.md) - Повертає
-поточну версію модуля Apache Solr
+-   [solr\_get\_version](function.solr-get-version.html) — Повертає поточну версію Apache Solr

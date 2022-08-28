@@ -1,27 +1,41 @@
-- [«Ev::sleep](ev.sleep.md)
-- [Ev::supportedBackends »](ev.supportedbackends.md)
+Зупинити цикл за замовчуванням
 
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Зупинити цикл за замовчуванням
+-   [« Ev::sleep](ev.sleep.html)
+    
+-   [Ev::supportedBackends »](ev.supportedbackends.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ev](class.ev.html)
+    
+-   Зупинити цикл за замовчуванням
+    
 
-# Ev:: stop
+# Ev::stop
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-Ev::stop — Зупинити цикл подій за замовчуванням
+Ev::stop — Зупинити цикл за замовчуванням
 
 ### Опис
 
-final public static **Ev::stop**( int `$how` = ?): void
+```methodsynopsis
+final
+   public
+   static
+   Ev::stop(
+    int
+     $how
+    = ?): void
+```
 
-Зупинити цикл за замовчуванням.
+Зупинити цикл подій за замовчуванням.
 
 ### Список параметрів
 
 `how`
-Одна з *Ev::BREAK\_\**
-[констант](class.ev.md#ev.constants.break-flags) .
+
+Одна з *Ev::BREAK* [констант](class.ev.html#ev.constants.break-flags)
 
 ### Значення, що повертаються
 
@@ -29,5 +43,4 @@ final public static **Ev::stop**( int `$how` = ?): void
 
 ### Дивіться також
 
-- [Ev::run()](ev.run.md) - Почати перевірку наявності подій та виклик
-callback-функцій циклу за замовчуванням
+-   [Ev::run()](ev.run.html) - Почати перевірку наявності подій та виклик callback-функцій циклу за умовчанням

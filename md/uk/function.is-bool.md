@@ -1,48 +1,65 @@
-- [«is_array](function.is-array.md)
-- [is_callable »](function.is-callable.md)
+Перевіряє, чи є змінна булевою
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевіряє, чи є мінлива булева
+-   [« is\_array](function.is-array.html)
+    
+-   [is\_callable »](function.is-callable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Перевіряє, чи є змінна булевою
+    
 
-#is_bool
+# ісbool
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_bool — Перевіряє, чи є змінна булева
+ісbool — Перевіряє, чи є змінна булевою
 
 ### Опис
 
-**is_bool**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_bool(mixed $value): bool
+```
 
-Перевіряє, чи є ця змінна булева.
+Перевіряє, чи є ця змінна булевою.
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є змінною типу bool, або
-**`false`** інакше.
+Повертає **`true`**, якщо `value` є змінною типу bool, або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_bool()****
+**Приклад #1 Приклад використання **ісbool()****
 
-`<?php$a = false;$b = 0;// Так як $a є булевою змінною, функція верне trueif (is_bool($a) === true) а а   / Так як $b не є булевою змінною, функція верне falseif (is_bool($b) === false) {    echo "Ні, це не ">>
+```php
+<?php
+$a = false;
+$b = 0;
+
+// Так как $a является булевой переменной, функция вернёт true
+if (is_bool($a) === true) {
+    echo "Да, это булевая переменная";
+}
+
+// Так как $b не является булевой переменной, функция вернёт false
+if (is_bool($b) === false) {
+    echo "Нет, это не булевая переменная";
+}
+?>
+```
 
 ### Дивіться також
 
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_int()](function.is-int.md) - Перевіряє, чи є змінна
-цілим числом
-- [is_string()](function.is-string.md) - Перевіряє, чи є
-змінним рядком
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
+-   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом

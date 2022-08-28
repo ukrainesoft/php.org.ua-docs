@@ -1,9 +1,15 @@
-- [« Imagick::getImageDepth](imagick.getimagedepth.md)
-- [Imagick::getImageDistortion »](imagick.getimagedistortion.md)
+Повертає метод видалення зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає метод видалення зображення
+-   [« Imagick::getImageDepth](imagick.getimagedepth.html)
+    
+-   [Imagick::getImageDistortion »](imagick.getimagedistortion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає метод видалення зображення
+    
 
 # Imagick::getImageDispose
 
@@ -13,7 +19,9 @@ Imagick::getImageDispose — Повертає метод видалення зо
 
 ### Опис
 
-public **Imagick::getImageDispose**(): int
+```methodsynopsis
+public Imagick::getImageDispose(): int
+```
 
 Повертає метод видалення зображення.
 

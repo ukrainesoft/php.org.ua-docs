@@ -1,37 +1,44 @@
-- [« fann_set_cascade_output_stagnation_epochs](function.fann-set-cascade-output-stagnation-epochs.md)
-- [fann_set_error_log »](function.fann-set-error-log.md)
+Встановлює множник ваги
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює множник ваги
+-   [« fann\_set\_cascade\_output\_stagnation\_epochs](function.fann-set-cascade-output-stagnation-epochs.html)
+    
+-   [fann\_set\_error\_log »](function.fann-set-error-log.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює множник ваги
+    
 
-# fann_set_cascade_weight_multiplier
+# fannsetcascadeweightmultiplier
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_cascade_weight_multiplier - Встановлює множник ваги
+fannsetcascadeweightmultiplier - Встановлює множник ваги
 
 ### Опис
 
-**fann_set_cascade_weight_multiplier**(resource `$ann`, float
-`$cascade_weight_multiplier`): bool
+```methodsynopsis
+fann_set_cascade_weight_multiplier(resource $ann, float $cascade_weight_multiplier): bool
+```
 
 Встановлює множник ваги.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `cascade_weight_multiplier`
+
 Множина ваги.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_cascade_weight_multiplier()](function.fann-get-cascade-weight-multiplier.md) -
-Повертає множник ваги
+-   [fann\_get\_cascade\_weight\_multiplier()](function.fann-get-cascade-weight-multiplier.html) - Повертає множник ваги

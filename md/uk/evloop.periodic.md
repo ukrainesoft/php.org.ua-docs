@@ -1,37 +1,52 @@
-- [«EvLoop::nowUpdate](evloop.nowupdate.md)
-- [EvLoop::prepare »](evloop.prepare.md)
+Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
 
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним
-екземпляром циклу подій
+-   [« EvLoop::nowUpdate](evloop.nowupdate.html)
+    
+-   [EvLoop::prepare »](evloop.prepare.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvLoop](class.evloop.html)
+    
+-   Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
+    
 
 # EvLoop::periodic
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::periodic — Створює об'єкт спостерігача EvPeriodic, пов'язаний із
-поточним екземпляром циклу подій
+EvLoop::periodic — Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
 
 ### Опис
 
-final public **EvLoop::periodic**(
-float `$offset`,
-float `$interval`,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   EvLoop::periodic(    
+    float
+     $offset
+   ,    
+    float
+     $interval
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvPeriodic
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvPeriodic](class.evperiodic.md)
-
-Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром
-циклу подій
+Створює об'єкт спостерігача EvPeriodic, пов'язаний із поточним екземпляром циклу подій
 
 ### Список параметрів
 
-Усі параметри, що й для
-[EvPeriodic::\_\_construct()](evperiodic.construct.md)
+Усі параметри, що й для [EvPeriodic::\_\_construct()](evperiodic.construct.html)
 
 ### Значення, що повертаються
 
@@ -39,5 +54,4 @@ int `$priority` = 0
 
 ### Дивіться також
 
-- [EvPeriodic::\_\_construct()](evperiodic.construct.md) -
-Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::\_\_construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic

@@ -1,14 +1,18 @@
-- [« Антарктика](timezones.antarctica.md)
-- [Азія »](timezones.asia.md)
+Арктика
 
-- [PHP Manual](index.md)
-- [Список підтримуваних часових поясів](timezones.md)
-- Арктика
+-   [« Антарктика](timezones.antarctica.html)
+    
+-   [Азия »](timezones.asia.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список поддерживаемых часовых поясов](timezones.html)
+    
+-   Арктика
+    
 
 ## Арктика
 
-|                     |
-| ------------------- |
-| Arctic/Longyearbyen |
+< /tbody>
 
-**Арктика**
+<table class="doctable table"><caption><strong>Арктика</strong></caption><tbody class="tbody"><tr><td>Arctic/Longyearbyen</td></tr></tbody></table>

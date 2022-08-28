@@ -1,18 +1,22 @@
-- [«fbird_rollback](function.fbird-rollback.md)
-- [fbird_service_attach »](function.fbird-service-attach.md)
+Псевдонім ibaseserverinfo
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_server_info
+-   [« fbird\_rollback](function.fbird-rollback.html)
+    
+-   [fbird\_service\_attach »](function.fbird-service-attach.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseserverinfo
+    
 
-#fbird_server_info
+# fbirdserverinfo
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_server_info - Псевдонім
-[ibase_server_info()](function.ibase-server-info.md)
+fbirdserverinfo - Псевдонім [ibase\_server\_info()](function.ibase-server-info.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_server_info()](function.ibase-server-info.md).
+Ця функція є псевдонімом: [ibase\_server\_info()](function.ibase-server-info.html)

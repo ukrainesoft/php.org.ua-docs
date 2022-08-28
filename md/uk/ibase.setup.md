@@ -1,15 +1,21 @@
-- [«Вступ](intro.ibase.md)
-- [Вимоги »](ibase.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Firebird/InterBase](book.ibase.md)
+-   [« Введение](intro.ibase.html)
+    
+-   [Требования »](ibase.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Firebird/InterBase](book.ibase.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ibase.requirements.md)
-- [Установка](ibase.installation.md)
-- [Налаштування під час виконання](ibase.configuration.md)
-- [Типи ресурсів](ibase.resources.md)
+-   [Требования](ibase.requirements.html)
+-   [Установка](ibase.installation.html)
+-   [Настройка во время выполнения](ibase.configuration.html)
+-   [Типы ресурсов](ibase.resources.html)

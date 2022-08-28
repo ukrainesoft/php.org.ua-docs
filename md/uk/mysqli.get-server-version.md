@@ -1,73 +1,102 @@
-- [« mysqli::$server_info](mysqli.get-server-info.md)
-- [mysqli::get_warnings »](mysqli.get-warnings.md)
+Повертає версію сервера MySQL, представлену у вигляді integer
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Повертає версію сервера MySQL, представлену у вигляді integer
+-   [« mysqli::$server\_info](mysqli.get-server-info.html)
+    
+-   [mysqli::get\_warnings »](mysqli.get-warnings.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Повертає версію сервера MySQL, представлену у вигляді integer
+    
 
-# mysqli::$server_version
+# mysqli::$serverversion
 
-# mysqli_get_server_version
+# mysqligetserverversion
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$server_version -- mysqli_get_server_version -- Повертає версію
-сервера MySQL, представлену у вигляді integer
+mysqli::$serverversion -- mysqligetserverversion - Повертає версію сервера MySQL, представлену у вигляді integer
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int `$mysqli->server_version`;
+int [$mysqli->server\_version](mysqli.get-server-version.html)
 
 Процедурний стиль
 
-**mysqli_get_server_version**([mysqli](class.mysqli.md) `$mysql`): int
+```methodsynopsis
+mysqli_get_server_version(mysqli $mysql): int
+```
 
-Функція **mysqli_get_server_version()** повертає версію сервера
-якому створено з'єднання (передане у параметрі `mysql`) у вигляді
-цілого числа.
+Функція **mysqligetserverversion()** повертає версію сервера, до якого створено з'єднання (передане у параметрі `mysql`) як цілого числа.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Цілочисленне представлення версії сервера.
+Цілочисельне представлення версії сервера.
 
-Це число збирається так
-`main_version * 10000 + minor_version * 100 + sub_version` (тобто версія
-4.1.0 буде представлено як 40100).
+Це число збирається так `main_version * 10000 + minor_version * 100 + sub_version` (Тобто версія 4.1.0 буде представлена ​​як 40100).
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$mysqli->server_version`**
+**Приклад #1 Приклад використання $mysqli->serverversion**
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli = new mysqli("localhost", "my_user", "my_password");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("З'єднання|
-", mysqli_connect_error());  exit();}/* виводимо версію сервера */printf("Версія сервера: %d
-", $mysqli->server_version);/* закриваємо з'єднання*/$mysqli->close();?> `
+```php
+<?php
+$mysqli = new mysqli("localhost", "my_user", "my_password");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* выводим версию сервера */
+printf("Версия сервера: %d\n", $mysqli->server_version);
+
+/* закрываем соединение */
+$mysqli->close();
+?>
+```
 
 Процедурний стиль
 
-` <?php$link = Mysqli_connect("localhost", "my_user", "my_password");
-", mysqli_connect_error());  exit();}/* виводимо версію сервера */printf("Версія сервера: %d
-", mysqli_get_server_version($link));/* закриваємо з'єднання*/mysqli_close($link);?> `
+```php
+<?php
+$link = mysqli_connect("localhost", "my_user", "my_password");
+
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
+}
+
+/* выводим версию сервера */
+printf("Версия сервера: %d\n", mysqli_get_server_version($link));
+
+/* закрываем соединение */
+mysqli_close($link);
+?>
+```
 
 Результат виконання даних прикладів:
 
-Версія сервера: 40102
+```
+Версия сервера: 40102
+```
 
 ### Дивіться також
 
-- [mysqli_get_client_info()](mysqli.get-client-info.md) - Отримує
-інформацію про клієнта MySQL
-- [mysqli_get_client_version()](mysqli.get-client-version.md) -
-Повертає інформацію про клієнта MySQL у вигляді рядка
-- [mysqli_get_server_info()](mysqli.get-server-info.md) - Повертає
-версію MySQL сервера
+-   [mysqli\_get\_client\_info()](mysqli.get-client-info.html) - Отримує інформацію про клієнта MySQL
+-   [mysqli\_get\_client\_version()](mysqli.get-client-version.html) - Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqli\_get\_server\_info()](mysqli.get-server-info.html) - Повертає версію MySQL сервера

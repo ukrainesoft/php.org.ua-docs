@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](runkit7.configuration.md)
-- [Предвизначені константи »](runkit7.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](runkit7.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](runkit7.configuration.html)
+    
+-   [Предопределённые константы »](runkit7.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](runkit7.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

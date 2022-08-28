@@ -1,9 +1,15 @@
-- [« CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.md)
-- [CollectionModify::replace »](mysql-xdevapi-collectionmodify.replace.md)
+Виправляє документ
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- Виправляє документ
+-   [« CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.html)
+    
+-   [CollectionModify::replace »](mysql-xdevapi-collectionmodify.replace.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+    
+-   Виправляє документ
+    
 
 # CollectionModify::patch
 
@@ -13,20 +19,20 @@ CollectionModify::patch — Виправляє документ
 
 ### Опис
 
-public **mysql_xdevapi\CollectionModify::patch**(string `$document`):
-[mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionModify::patch(string $document): mysql_xdevapi\CollectionModify
+```
 
-Приймає об'єкт виправлення та застосовує його до одного або кількох
-документів може оновлювати кілька властивостей документа.
+Приймає об'єкт виправлення та застосовує його до одного або кількох документів та може оновлювати декілька властивостей документа.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `document`
+
 Документ із властивостями, які застосовуються до відповідних документів.
 
 ### Значення, що повертаються
@@ -35,7 +41,12 @@ public **mysql_xdevapi\CollectionModify::patch**(string `$document`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionModify::patch()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::patch()****
 
-` <?php$res = $coll->modify('"Programmatore" IN job')->patch('{"Hobby" : "Programmare"}')->execute();?> `
+```php
+<?php
+
+$res = $coll->modify('"Programmatore" IN job')->patch('{"Hobby" : "Programmare"}')->execute();
+
+?>
+```

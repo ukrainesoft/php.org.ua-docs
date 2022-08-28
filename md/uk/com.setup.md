@@ -1,15 +1,21 @@
-- [«Вступ](intro.com.md)
-- [Вимоги »](com.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [COM](book.com.md)
+-   [« Введение](intro.com.html)
+    
+-   [Требования »](com.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [COM](book.com.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](com.requirements.md)
-- [Установка](com.installation.md)
-- [Налаштування під час виконання](com.configuration.md)
-- [Типи ресурсів](com.resources.md)
+-   [Требования](com.requirements.html)
+-   [Установка](com.installation.html)
+-   [Настройка во время выполнения](com.configuration.html)
+-   [Типы ресурсов](com.resources.html)

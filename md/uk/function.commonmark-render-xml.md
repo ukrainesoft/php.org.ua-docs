@@ -1,31 +1,38 @@
-- [«CommonMark\Render\Man](function.commonmark-render-man.md)
-- [Parle »](book.parle.md)
+Відображення
 
-- [PHP Manual](index.md)
-- [Функції CommonMark](ref.cmark.md)
-- Відображення
+-   [« CommonMark\\Render\\Man](function.commonmark-render-man.html)
+    
+-   [Parle »](book.parle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CommonMark](ref.cmark.html)
+    
+-   Відображення
+    
 
-# CommonMark\Render\XML
+# CommonMarkRenderXML
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Render\XML — Відображення
+CommonMarkRenderXML — Відображення
 
 ### Опис
 
-**CommonMark\Render\XML**([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?): string
+```methodsynopsis
+CommonMark\Render\XML(CommonMark\Node $node, int $options = ?): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `node`
 
 `options`
+
 Маска з:
 
 **`CommonMark\Render\Normal`** (int)

@@ -1,19 +1,27 @@
-- [«UI\Window::getTitle](ui-window.gettitle.md)
-- [UI\Window::hasMargin »](ui-window.hasmargin.md)
+Визначення рамки
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Визначення рамки
+-   [« UI\\Window::getTitle](ui-window.gettitle.html)
+    
+-   [UI\\Window::hasMargin »](ui-window.hasmargin.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Визначення рамки
+    
 
-# UI\Window::hasBorders
+# ОЙWindow::hasBorders
 
 (UI 0.9.9)
 
-UI\Window::hasBorders — Визначення рамки
+ОЙWindow::hasBorders — Визначення рамки
 
 ### Опис
 
-public **UI\Window::hasBorders**(): bool
+```methodsynopsis
+public UI\Window::hasBorders(): bool
+```
 
 Визначити, чи використовуються рамки у цьому вікні
 

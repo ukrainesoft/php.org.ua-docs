@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](classobj.setup.md)
-- [Установка »](classobj.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](classobj.setup.md)
-- Вимоги
+-   [« Установка и настройка](classobj.setup.html)
+    
+-   [Установка »](classobj.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](classobj.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

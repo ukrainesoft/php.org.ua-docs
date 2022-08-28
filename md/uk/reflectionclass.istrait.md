@@ -1,24 +1,31 @@
-- [« ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md)
-- [ReflectionClass::isUserDefined »](reflectionclass.isuserdefined.md)
+Перевіряє, чи це трейтом
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевіряє, чи це є трейтом
+-   [« ReflectionClass::isSubclassOf](reflectionclass.issubclassof.html)
+    
+-   [ReflectionClass::isUserDefined »](reflectionclass.isuserdefined.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Перевіряє, чи це трейтом
+    
 
 # ReflectionClass::isTrait
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionClass::isTrait — Перевіряє, чи це трейтом
+ReflectionClass::isTrait — Перевіряє, чи це трейт.
 
 ### Опис
 
-public **ReflectionClass::isTrait**(): bool
+```methodsynopsis
+public ReflectionClass::isTrait(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,5 +33,4 @@ public **ReflectionClass::isTrait**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо це є трейтом, інакше
-**`false`**. У разі виникнення помилки повертає **`null`**.
+Повертає **`true`**, якщо це є трейтом, інакше **`false`**. У разі виникнення помилки повертає **`null`**

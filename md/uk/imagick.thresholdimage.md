@@ -1,25 +1,29 @@
-- [« Imagick::textureImage](imagick.textureimage.md)
-- [Imagick::thumbnailImage »](imagick.thumbnailimage.md)
+Змінює окремі пікселі на основі порогового значення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Змінює окремі пікселі на основі порогового значення
+-   [« Imagick::textureImage](imagick.textureimage.html)
+    
+-   [Imagick::thumbnailImage »](imagick.thumbnailimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Змінює окремі пікселі на основі порогового значення
+    
 
 # Imagick::thresholdImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::thresholdImage — Змінює окремі пікселі на основі
-порогового значення
+Imagick::thresholdImage — Змінює окремі пікселі на основі порогового значення
 
 ### Опис
 
-public **Imagick::thresholdImage**(float `$threshold`, int `$channel` =
-Imagick::CHANNEL_DEFAULT): bool
+```methodsynopsis
+public Imagick::thresholdImage(float $threshold, int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Змінює окремі пікселі в залежності від їх інтенсивності
-порівняно з граничним значенням. Результатом буде високо-контрастне,
-двокольорове зображення.
+Змінює окремі пікселі залежно від їхньої інтенсивності в порівнянні з пороговим значенням. Результатом буде високо-контрастне, двоколірне зображення.
 
 ### Список параметрів
 
@@ -29,10 +33,20 @@ Imagick::CHANNEL_DEFAULT): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::thresholdImage()****
 
-`<?phpfunction thresholdimage($imagePath, $threshold, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->thresholdimage($threshold * \Imagick::getQuantum(), $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function thresholdimage($imagePath, $threshold, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->thresholdimage($threshold * \Imagick::getQuantum(), $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

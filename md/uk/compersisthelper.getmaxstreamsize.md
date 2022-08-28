@@ -1,9 +1,15 @@
-- [« COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md)
-- [COMPersistHelper::InitNew »](compersisthelper.initnew.md)
+Отримати максимальний розмір потоку
 
-- [PHP Manual](index.md)
-- [COMPersistHelper](class.compersisthelper.md)
-- Отримати максимальний розмір потоку
+-   [« COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.html)
+    
+-   [COMPersistHelper::InitNew »](compersisthelper.initnew.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [COMPersistHelper](class.compersisthelper.html)
+    
+-   Отримати максимальний розмір потоку
+    
 
 # COMPersistHelper::GetMaxStreamSize
 
@@ -13,9 +19,11 @@ COMPersistHelper::GetMaxStreamSize — Отримати максимальний
 
 ### Опис
 
-public **COMPersistHelper::GetMaxStreamSize**(): int
+```methodsynopsis
+public COMPersistHelper::GetMaxStreamSize(): int
+```
 
-Повертає розмір потоку (у байтах), необхідний збереження об'єкта.
+Повертає розмір потоку (в байтах), необхідний збереження об'єкта.
 
 ### Список параметрів
 
@@ -23,10 +31,8 @@ public **COMPersistHelper::GetMaxStreamSize**(): int
 
 ### Значення, що повертаються
 
-Повертає розмір потоку (у байтах), необхідний збереження об'єкта.
+Повертає розмір потоку (в байтах), необхідний збереження об'єкта.
 
 ### Помилки
 
-Викидає виняток [com_exception](class.com-exception.md), якщо
-пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**, або
-якщо виклик **IPersistStream::GetSizeMax()** завершився помилкою.
+Викидає виняток [com\_exception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**або якщо виклик **IPersistStream::GetSizeMax()** завершився помилкою.

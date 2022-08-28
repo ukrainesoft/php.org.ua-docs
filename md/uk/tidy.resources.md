@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](tidy.configuration.md)
-- [Предвизначені константи »](tidy.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tidy.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](tidy.configuration.html)
+    
+-   [Предопределённые константы »](tidy.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](tidy.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

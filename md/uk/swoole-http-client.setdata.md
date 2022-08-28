@@ -1,19 +1,27 @@
-- [« Swoole\Http\Client::setCookies](swoole-http-client.setcookies.md)
-- [Swoole\Http\Client::setHeaders »](swoole-http-client.setheaders.md)
+Встановлює дані тіла HTTP-запиту
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Встановлює дані тіла HTTP-запиту
+-   [« Swoole\\Http\\Client::setCookies](swoole-http-client.setcookies.html)
+    
+-   [Swoole\\Http\\Client::setHeaders »](swoole-http-client.setheaders.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Client](class.swoole-http-client.html)
+    
+-   Встановлює дані тіла HTTP-запиту
+    
 
-# Swoole\Http\Client::setData
+# SwooleHttpClient::setData
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Client::setData — Встановлює дані тіла HTTP-запиту
+SwooleHttpClient::setData — Встановлює дані тіла HTTP-запиту
 
 ### Опис
 
-public **Swoole\Http\Client::setData**(string `$data`): ReturnType
+```methodsynopsis
+public Swoole\Http\Client::setData(string $data): ReturnType
+```
 
 Метод HTTP буде змінено на POST.
 

@@ -1,46 +1,59 @@
-- [«Event::setPriority](event.setpriority.md)
-- [Event::signal »](event.signal.md)
+Переконфігурація події таймера
 
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- Переконфігурація події таймера
+-   [« Event::setPriority](event.setpriority.html)
+    
+-   [Event::signal »](event.signal.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Event](class.event.html)
+    
+-   Переконфігурація події таймера
+    
 
 # Event::setTimer
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 Event::setTimer — Переконфігурація події таймера
 
 ### Опис
 
-public **Event::setTimer**( [EventBase](class.eventbase.md) `$base` ,
-[callable](language.types.callable.md) `$cb` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = ?): bool
+```methodsynopsis
+public
+   Event::setTimer(
+    EventBase
+     $base
+   , 
+    callable
+     $cb
+   , 
+    mixed
+     $arg
+    = ?): bool
+```
 
-Переконфігурує подію таймера. Зверніть увагу, що ця функція не
-викликає застарілу функцію `event_set` бібліотеки libevent. Замість
-цього вона викликає `event_assign`.
+Переконфігурує подію таймера. Зверніть увагу, що ця функція не викликає застарілої функції `event_set` бібліотеки libevent. Натомість вона викликає `event_assign`
 
 ### Список параметрів
 
 `base`
-Події, до якої необхідно прив'язати подію.
+
+Подієва база, до якої необхідно прив'язати подію.
 
 `cb`
-Функція зворотного дзвінка події таймера. Дивіться [Функції зворотного виклику для подій](event.callbacks.md) .
+
+Функція зворотного дзвінка події таймера. Дивіться [Функции обратного вызова для событий](event.callbacks.html)
 
 `arg`
-Ці дані, пов'язані з подією. Вони будуть передані в
-функцію зворотного виклику, коли відбудеться подія.
+
+Ці дані, пов'язані з подією. Вони будуть передані у функцію зворотного виклику, коли відбудеться подія.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [Event::\_\_construct()](event.construct.md) - Конструктор об'єкта
-Event
-- [Event::timer()](event.timer.md) - Створити об'єкт події таймера
+-   [Event::\_\_construct()](event.construct.html) - Конструктор об'єкту Event
+-   [Event::timer()](event.timer.html) - Створити об'єкт події таймера

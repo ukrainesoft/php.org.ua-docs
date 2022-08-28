@@ -1,20 +1,27 @@
-- [« SplDoublyLinkedList::bottom](spldoublylinkedlist.bottom.md)
-- [SplDoublyLinkedList::current »](spldoublylinkedlist.current.md)
+Підраховує кількість елементів у двозв'язному списку
 
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Підраховує кількість елементів у двозв'язному списку
+-   [« SplDoublyLinkedList::bottom](spldoublylinkedlist.bottom.html)
+    
+-   [SplDoublyLinkedList::current »](spldoublylinkedlist.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+    
+-   Підраховує кількість елементів у двозв'язному списку
+    
 
 # SplDoublyLinkedList::count
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::count — Підраховує кількість елементів у
-двозв'язному списку
+SplDoublyLinkedList::count — Підраховує кількість елементів у двозв'язному списку
 
 ### Опис
 
-public **SplDoublyLinkedList::count**(): int
+```methodsynopsis
+public SplDoublyLinkedList::count(): int
+```
 
 ### Список параметрів
 

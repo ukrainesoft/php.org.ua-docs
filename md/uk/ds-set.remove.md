@@ -1,28 +1,34 @@
-- [« Ds\Set::reduce](ds-set.reduce.md)
-- [Ds\Set::reverse »](ds-set.reverse.md)
+Видаляє всі задані значення з набору
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Видаляє всі задані значення набору
+-   [« Ds\\Set::reduce](ds-set.reduce.html)
+    
+-   [Ds\\Set::reverse »](ds-set.reverse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Набор](class.ds-set.html)
+    
+-   Видаляє всі задані значення з набору
+    
 
-# Ds\Set::remove
+# ДсSet::remove
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Set::remove — Видалення всіх заданих значень з набору
+ДсSet::remove — Видалення всіх заданих значень з набору
 
 ### Опис
 
-public
-**Ds\Set::remove**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+public Ds\Set::remove(mixed ...$values): void
+```
 
-Видаляє всі задані значення `values` із набору. Значення, які
-відсутні в наборі, будуть проігноровані.
+Видаляє всі задані значення `values` з набору. Значення, які відсутні в наборі, будуть проігноровані.
 
 ### Список параметрів
 
 `values`
+
 Значення видалення.
 
 ### Значення, що повертаються
@@ -31,13 +37,25 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::remove()****
+**Приклад #1 Приклад використання **ДсSet::remove()****
 
-` <?php$set = new \Ds\Set([1, 2, 3, 4, 5]);$set->remove(1); // Видалити 1 $ set-> remove (1, 2); // Неможливо найти 1, але видалити 2$set->remove(...[3, 4]); // Видалити 3 і 4var_dump($set);?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2, 3, 4, 5]);
+
+$set->remove(1);            // Удалить 1
+$set->remove(1, 2);         // Невозможно найти 1, но удалить 2
+$set->remove(...[3, 4]);    // Удалить 3 и 4
+
+var_dump($set);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Set)#1 (1) {
-[0]=>
-int(5)
+  [0]=>
+  int(5)
 }
+```

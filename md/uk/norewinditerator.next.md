@@ -1,26 +1,33 @@
-- [«NoRewindIterator::key](norewinditerator.key.md)
-- [NoRewindIterator::rewind »](norewinditerator.rewind.md)
+Переміщує ітератор до наступного елемента
 
-- [PHP Manual](index.md)
-- [NoRewindIterator](class.norewinditerator.md)
-- Переміщує ітератор до наступного елементу
+-   [« NoRewindIterator::key](norewinditerator.key.html)
+    
+-   [NoRewindIterator::rewind »](norewinditerator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [NoRewindIterator](class.norewinditerator.html)
+    
+-   Переміщує ітератор до наступного елемента
+    
 
 # NoRewindIterator::next
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::next — Переміщення ітератора до наступного елемента
 
 ### Опис
 
-public **NoRewindIterator::next**(): void
+```methodsynopsis
+public NoRewindIterator::next(): void
+```
 
 Переміщення ітератора до наступного елемента.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,5 +39,4 @@ public **NoRewindIterator::next**(): void
 
 ### Дивіться також
 
-- [NoRewindIterator::rewind()](norewinditerator.rewind.md) -
-Запобігає поверненню внутрішнього ітератора на початок
+-   [NoRewindIterator::rewind()](norewinditerator.rewind.html) - Запобігає поверненню внутрішнього ітератора на початок

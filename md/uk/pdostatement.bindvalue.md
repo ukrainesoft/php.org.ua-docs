@@ -1,61 +1,85 @@
-- [« PDOStatement::bindParam](pdostatement.bindparam.md)
-- [PDOStatement::closeCursor »](pdostatement.closecursor.md)
+Зв'язує параметр із заданим значенням
 
-- [PHP Manual](index.md)
-- [PDOStatement](class.pdostatement.md)
-- Зв'язує параметр із заданим значенням
+-   [« PDOStatement::bindParam](pdostatement.bindparam.html)
+    
+-   [PDOStatement::closeCursor »](pdostatement.closecursor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDOStatement](class.pdostatement.html)
+    
+-   Зв'язує параметр із заданим значенням
+    
 
 # PDOStatement::bindValue
 
-(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 1.0.0)
+(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 1.0.0)
 
 PDOStatement::bindValue — Зв'язує параметр із заданим значенням
 
 ### Опис
 
-public **PDOStatement::bindValue**(string\|int `$param`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$type` = PDO::PARAM_STR): bool
+```methodsynopsis
+public PDOStatement::bindValue(string|int $param, mixed $value, int $type = PDO::PARAM_STR): bool
+```
 
-Задає значення іменованої або неіменованої псевдозмінної
-підготовлений SQL-запит.
+Задає значення іменованої чи неіменованої псевдозмінної у підготовленому SQL-запиті.
 
 ### Список параметрів
 
 `param`
-Ідентифікатор запиту. Для підготовлюваних запитів з
-іменованими параметрами це буде ім'я як `:name'. Якщо використовуються
-неіменовані параметри (знаки питання?) це буде позиція
-псевдозмінної у запиті (починаючи з 1).
+
+Ідентифікатор запиту. Для запитів, що готуються, з іменованими параметрами це буде ім'я у вигляді :name. Якщо використовуються неіменовані параметри (знаки питання?), це буде позиція псевдозмінної в запиті (починаючи з 1).
 
 `value`
-Значення, яке необхідно прив'язати до параметра.
+
+Значення, яке потрібно прив'язати до параметра.
 
 `type`
-Явно заданий тип даних параметра. Тип задається однією з [констант `PDO::PARAM_*`](pdo.constants.md).
+
+Явно заданий тип даних параметра. Тип задається однією з [констант `PDO::PARAM_*`](pdo.constants.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Виконання підготовленого запиту з іменованими
-псевдозмінними**
+**Приклад #1 Виконання підготовленого запиту з іменованими псевдозмінними**
 
-` <?php/* Виконання запиту з прив'язкою PHP-змінних */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name, colour, ca  ca  ca| AND colour = :colour');$sth->bindValue('calories', $calories, PDO::PARAM_INT);/* Імена також можуть починатися з двоточки ":" (необов'язково) :colour', $colour, PDO::PARAM_STR);$sth->execute();?> `
+```php
+<?php
+/* Выполнение запроса с привязкой PHP-переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < :calories AND colour = :colour');
+$sth->bindValue('calories', $calories, PDO::PARAM_INT);
+/* Имена также могут начинаться с двоеточия ":" (необязательно) */
+$sth->bindValue(':colour', $colour, PDO::PARAM_STR);
+$sth->execute();
+?>
+```
 
-**Приклад #2 Виконання підготовленого запиту з неназваними
-псевдозмінними (?)**
+**Приклад #2 Виконання підготовленого запиту з неназваними псевдозмінними (?)**
 
-` <?php/* Виконання запиту з прив'язкою PHP-змінних */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name, colour, ca   ca  colour = ?');$sth->bindValue(1, $calories, PDO::PARAM_INT);$sth->bindValue(2, $colour, PDO::PARAM_STR);$sth->execute();?> `
+```php
+<?php
+/* Выполнение запроса с привязкой PHP-переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->bindValue(1, $calories, PDO::PARAM_INT);
+$sth->bindValue(2, $colour, PDO::PARAM_STR);
+$sth->execute();
+?>
+```
 
 ### Дивіться також
 
-- [PDO::prepare()](pdo.prepare.md) - Підготовка запиту до
-виконання та повертає пов'язаний з цим запитом об'єкт
-- [PDOStatement::execute()](pdostatement.execute.md) - Запускає
-підготовлений запит на виконання
-- [PDOStatement::bindParam()](pdostatement.bindparam.md) -
-Прив'язує параметр запиту до змінної
+-   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
+-   [PDOStatement::bindParam()](pdostatement.bindparam.html) - Прив'язує параметр запиту до змінної

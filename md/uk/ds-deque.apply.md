@@ -1,35 +1,41 @@
-- [« Ds\Deque::allocate](ds-deque.allocate.md)
-- [Ds\Deque::capacity »](ds-deque.capacity.md)
+Оновлює всі значення, застосовуючи callback-функцію до кожного значення
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Оновлює всі значення, застосовуючи callback-функцію до кожного значення
+-   [« Ds\\Deque::allocate](ds-deque.allocate.html)
+    
+-   [Ds\\Deque::capacity »](ds-deque.capacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Оновлює всі значення, застосовуючи callback-функцію до кожного значення
+    
 
-# Ds\Deque::apply
+# ДсDeque::apply
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::apply — Оновлює всі значення, використовуючи функцію callback до
-кожному значенню
+ДсDeque::apply — Оновлює всі значення, застосовуючи callback-функцію до кожного значення
 
 ### Опис
 
-public **Ds\Deque::apply**([callable](language.types.callable.md)
-`$callback`): void
+```methodsynopsis
+public Ds\Deque::apply(callable $callback): void
+```
 
-Оновлює всі значення, застосовуючи callback-функцію до кожного значення.
+Оновлює всі значення, застосовуючи `callback`функцію до кожного значення.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Об'єкт типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $value): mixed
+```
 
-Callback-функція має повертати нове значення, яке замінить
-поточний.
+Об'єкт типу [callable](language.types.callable.html)
+
+Callback-функція має повертати нове значення, яке замінить поточне.
 
 ### Значення, що повертаються
 
@@ -37,15 +43,24 @@ Callback-функція має повертати нове значення, я�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::apply()****
+**Приклад #1 Приклад використання **ДсDeque::apply()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);$deque->apply(function($value) { return $value * 2; });print_r($deque);? > `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+$deque->apply(function($value) { return $value * 2; });
+
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => 2
-[1] => 4
-[2] => 6
+    [0] => 2
+    [1] => 4
+    [2] => 6
 )
+```

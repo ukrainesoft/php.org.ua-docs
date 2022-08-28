@@ -1,15 +1,21 @@
-- [«Вступ](intro.var.md)
-- [Вимоги »](var.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Обробка змінних](book.var.md)
+-   [« Введение](intro.var.html)
+    
+-   [Требования »](var.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обработка переменных](book.var.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](var.requirements.md)
-- [Встановлення](var.installation.md)
-- [Налаштування під час виконання](var.configuration.md)
-- [Типи ресурсів](var.resources.md)
+-   [Требования](var.requirements.html)
+-   [Установка](var.installation.html)
+-   [Настройка во время выполнения](var.configuration.html)
+-   [Типы ресурсов](var.resources.html)

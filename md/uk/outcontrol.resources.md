@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](outcontrol.configuration.md)
-- [Предвизначені константи »](outcontrol.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](outcontrol.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](outcontrol.configuration.html)
+    
+-   [Предопределённые константы »](outcontrol.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](outcontrol.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

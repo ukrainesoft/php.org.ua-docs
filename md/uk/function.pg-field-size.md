@@ -1,64 +1,78 @@
-- [« pg_field_prtlen](function.pg-field-prtlen.md)
-- [pg_field_table »](function.pg-field-table.md)
+Повертає розмір поля
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає розмір поля
+-   [« pg\_field\_prtlen](function.pg-field-prtlen.html)
+    
+-   [pg\_field\_table »](function.pg-field-table.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає розмір поля
+    
 
-#pg_field_size
+# пгfieldsize
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_field_size — Повертає розмір поля
+пгfieldsize — Повертає розмір поля
 
 ### Опис
 
-**pg_field_size**([PgSql\Result](class.pgsql-result.md) `$result`, int
-`$field`): int
+```methodsynopsis
+pg_field_size(PgSql\Result $result, int $field): int
+```
 
-**pg_field_size()** повертає обсяг пам'яті (в байтах), який займає
-значення поля результату запиту PostgreSQL `result`.
+**пгfieldsize()** повертає обсяг пам'яті (в байтах), який займає значення поля результату запиту PostgreSQL `result`
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_fieldsize()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгfieldsize()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `field`
-Порядковий номер поля результату запиту, починаючи з нуля.
+
+Порядковий номер поля результату запиту з нуля.
 
 ### Значення, що повертаються
 
-Необхідний об'єм пам'яті (байтах) для зберігання значення поля. -1
-вказує на змінний розмір поля.
+Необхідний обсяг пам'яті (байтах) для зберігання значення поля. -1 вказує на змінний розмір поля.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поля вибірки**
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Неможливо з'єднатися з базою"); $res = pg_query($dbconn, "select * from authors where author = 'Orwell'"); $i = pg_num_fields($res); for ($j = 0; $j < $i; $j++) {      echo "column $j
-";      $fieldname = pg_field_name($res, $j);     echo "fieldname: $fieldname
-";      echo "printed length: " . pg_field_prtlen($res, $fieldname) . "characters
-";      echo "storage length: " . pg_field_size($res, $j) . " bytes
-";      echo "field type: " . pg_field_type($res, $j) . "
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с базой");
 
-";  }?> `
+  $res = pg_query($dbconn, "select * from authors where author = 'Orwell'");
+  $i = pg_num_fields($res);
+  for ($j = 0; $j < $i; $j++) {
+      echo "column $j\n";
+      $fieldname = pg_field_name($res, $j);
+      echo "fieldname: $fieldname\n";
+      echo "printed length: " . pg_field_prtlen($res, $fieldname) . " characters\n";
+      echo "storage length: " . pg_field_size($res, $j) . " bytes\n";
+      echo "field type: " . pg_field_type($res, $j) . " \n\n";
+  }
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 column 0
 fieldname: author
 printed length: 6 characters
@@ -76,10 +90,9 @@ fieldname: title
 printed length: 24 characters
 storage length: -1 bytes
 field type: varchar
+```
 
 ### Дивіться також
 
-- [pg_field_prtlen()](function.pg-field-prtlen.md) - Повертає
-кількість друкованих символів
-- [pg_field_type()](function.pg-field-type.md) - Повертає назву типу
-заданого поля
+-   [pg\_field\_prtlen()](function.pg-field-prtlen.html) - Повертає кількість друкованих символів
+-   [pg\_field\_type()](function.pg-field-type.html) - Повертає ім'я типу заданого поля

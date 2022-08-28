@@ -1,19 +1,27 @@
-- [« Функції OpenAL](ref.openal.md)
-- [openal_buffer_data »](function.openal-buffer-data.md)
+Згенерувати буфер OpenAL
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Згенерувати буфер OpenAL
+-   [« Функции OpenAL](ref.openal.html)
+    
+-   [openal\_buffer\_data »](function.openal-buffer-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenAL](ref.openal.html)
+    
+-   Згенерувати буфер OpenAL
+    
 
-#openal_buffer_create
+# openalbuffercreate
 
-(PECL openal = 0.1.0)
+(PECL openal >= 0.1.0)
 
-openal_buffer_create — Згенерувати буфер OpenAL
+openalbuffercreate — Згенерувати буфер OpenAL
 
 ### Опис
 
-**openal_buffer_create**(): resource
+```methodsynopsis
+openal_buffer_create(): resource
+```
 
 ### Список параметрів
 
@@ -21,12 +29,9 @@ openal_buffer_create — Згенерувати буфер OpenAL
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Buffer)](openal.resources.md) у разі
-успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Buffer)](openal.resources.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_buffer_loadwav()](function.openal-buffer-loadwav.md) -
-Завантажити файл у форматі wav у буфер
-- [openal_buffer_data()](function.openal-buffer-data.md) - Завантаження
-буфера з даними
+-   [openal\_buffer\_loadwav()](function.openal-buffer-loadwav.html) - Завантажити файл у форматі wav у буфер
+-   [openal\_buffer\_data()](function.openal-buffer-data.html) - Завантаження буфера з даними

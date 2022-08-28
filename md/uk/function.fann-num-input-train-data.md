@@ -1,28 +1,34 @@
-- [« fann_merge_train_data](function.fann-merge-train-data.md)
-- [fann_num_output_train_data »](function.fann-num-output-train-data.md)
+Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає кількість вхідних даних у кожному із шаблонів у
-навчальних даних
+-   [« fann\_merge\_train\_data](function.fann-merge-train-data.html)
+    
+-   [fann\_num\_output\_train\_data »](function.fann-num-output-train-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає кількість вхідних даних у кожному із шаблонів у навчальних даних
+    
 
-# fann_num_input_train_data
+# fannnuminputtraindata
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_num_input_train_data — Повертає кількість вхідних даних у
-кожному з шаблонів у навчальних даних
+fannnuminputtraindata — Повертає кількість вхідних даних у кожному шаблоні до навчальних даних.
 
 ### Опис
 
-**fann_num_input_train_data**(resource `$data`): int
+```methodsynopsis
+fann_num_input_train_data(resource $data): int
+```
 
-Повертає кількість вхідних даних у кожному із шаблонів у ресурсі
-(Resource) навчальних даних.
+Повертає кількість вхідних даних у кожному із шаблонів у ресурсі (resource) навчальних даних.
 
 ### Список параметрів
 
 `data`
+
 Ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
@@ -31,8 +37,5 @@ fann_num_input_train_data — Повертає кількість вхідних
 
 ### Дивіться також
 
-- [fann_length_train_data()](function.fann-length-train-data.md) -
-Повертає кількість шаблонів у навчальних даних
-- [fann_num_output_train_data()](function.fann-num-output-train-data.md) -
-Повертає кількість вихідних даних у кожному з шаблонів
-навчальних даних
+-   [fann\_length\_train\_data()](function.fann-length-train-data.html) - Повертає кількість шаблонів у навчальних даних
+-   [fann\_num\_output\_train\_data()](function.fann-num-output-train-data.html) - Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних

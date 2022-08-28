@@ -1,11 +1,16 @@
-- [« Вимоги](soap.requirements.md)
-- [Налаштування під час виконання »](soap.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](soap.setup.md)
-- Встановлення
+-   [« Требования](soap.requirements.html)
+    
+-   [Настройка во время выполнения »](soap.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](soap.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Для включення підтримки SOAP скомпілюйте PHP з опцією
-**--enable-soap**.
+Для включення підтримки SOAP скомпілюйте PHP з опцією **\-enable-soap**

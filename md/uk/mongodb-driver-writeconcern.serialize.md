@@ -1,19 +1,27 @@
-- [« MongoDB\Driver\WriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md)
-- [MongoDB\Driver\WriteConcern::unserialize »](mongodb-driver-writeconcern.unserialize.md)
+Серіалізація WriteConcern
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- Серіалізація WriteConcern
+-   [« MongoDB\\Driver\\WriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.html)
+    
+-   [MongoDB\\Driver\\WriteConcern::unserialize »](mongodb-driver-writeconcern.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+    
+-   Серіалізація WriteConcern
+    
 
-# MongoDB\Driver\WriteConcern::serialize
+# MongoDBDriverWriteConcern::serialize
 
-(mongodb \>=1.7.0)
+(mongodb >=1.7.0)
 
-MongoDB\Driver\WriteConcern::serialize — Серіалізація WriteConcern
+MongoDBDriverWriteConcern::serialize — Серіалізація WriteConcern
 
 ### Опис
 
-final public **MongoDB\Driver\WriteConcern::serialize**(): string
+```methodsynopsis
+final public MongoDB\Driver\WriteConcern::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\Driver\WriteConcern::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md).
+Повертає серіалізовану виставу [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\WriteConcern::unserialize()](mongodb-driver-writeconcern.unserialize.md) -
-Десеріалізація WriteConcern
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\Driver\\WriteConcern::unserialize()](mongodb-driver-writeconcern.unserialize.html) - Десеріалізація WriteConcern
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

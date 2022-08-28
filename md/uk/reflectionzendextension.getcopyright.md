@@ -1,24 +1,31 @@
-- [« ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md)
-- [ReflectionZendExtension::getName »](reflectionzendextension.getname.md)
+Отримує авторські права
 
-- [PHP Manual](index.md)
-- [ReflectionZendExtension](class.reflectionzendextension.md)
-- Отримує авторські права
+-   [« ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.html)
+    
+-   [ReflectionZendExtension::getName »](reflectionzendextension.getname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionZendExtension](class.reflectionzendextension.html)
+    
+-   Отримує авторські права
+    
 
 # ReflectionZendExtension::getCopyright
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ReflectionZendExtension::getCopyright — Отримує авторські права
 
 ### Опис
 
-public **ReflectionZendExtension::getCopyright**(): string
+```methodsynopsis
+public ReflectionZendExtension::getCopyright(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

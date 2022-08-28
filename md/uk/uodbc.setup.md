@@ -1,15 +1,21 @@
-- [«Вступ](intro.uodbc.md)
-- [Вимоги »](uodbc.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [ODBC](book.uodbc.md)
+-   [« Введение](intro.uodbc.html)
+    
+-   [Требования »](uodbc.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ODBC](book.uodbc.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](uodbc.requirements.md)
-- [Установка](odbc.installation.md)
-- [Налаштування під час виконання](odbc.configuration.md)
-- [Типи ресурсів](uodbc.resources.md)
+-   [Требования](uodbc.requirements.html)
+-   [Установка](odbc.installation.html)
+-   [Настройка во время выполнения](odbc.configuration.html)
+-   [Типы ресурсов](uodbc.resources.html)

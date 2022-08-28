@@ -1,24 +1,28 @@
-- [« SplFileObject::setMaxLineLen](splfileobject.setmaxlinelen.md)
-- [SplFileObject::valid »](splfileobject.valid.md)
+Псевдонім SplFileObject::fgets
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Псевдонім SplFileObject::fgets
+-   [« SplFileObject::setMaxLineLen](splfileobject.setmaxlinelen.html)
+    
+-   [SplFileObject::valid »](splfileobject.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Псевдонім SplFileObject::fgets
+    
 
-# SplFileObject::\_\_toString
+# SplFileObject::toString
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplFileObject::\_\_toString - Псевдонім
-[SplFileObject::fgets()](splfileobject.fgets.md)
+SplFileObject::toString - Псевдонім [SplFileObject::fgets()](splfileobject.fgets.html)
 
 ### Опис
 
-Цей метод є псевдонімом:
-[SplFileObject::fgets()](splfileobject.fgets.md).
+Цей метод є псевдонімом: [SplFileObject::fgets()](splfileobject.fgets.html)
 
-### Список змін
+### список змін
 
-| Версія        | Опис                                                                                                                          |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------|
-| 7.2.19, 7.3.6 | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.md) на [SplFileObject::fgets()](splfileobject.fgets.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.html) на [SplFileObject::fgets()](splfileobject.fgets.html) |

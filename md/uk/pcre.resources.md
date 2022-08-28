@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](pcre.configuration.md)
-- [Предвизначені константи »](pcre.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](pcre.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](pcre.configuration.html)
+    
+-   [Предопределённые константы »](pcre.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](pcre.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

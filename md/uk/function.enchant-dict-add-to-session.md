@@ -1,46 +1,50 @@
-- [« enchant_dict_add_to_personal](function.enchant-dict-add-to-personal.md)
-- [enchant_dict_add »](function.enchant-dict-add.md)
+Додати слово у поточну сесію перевірки
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Додати слово до поточної сесії перевірки
+-   [« enchant\_dict\_add\_to\_personal](function.enchant-dict-add-to-personal.html)
+    
+-   [enchant\_dict\_add »](function.enchant-dict-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Додати слово у поточну сесію перевірки
+    
 
-#enchant_dict_add_to_session
+# enchantdictaddтоsession
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-enchant_dict_add_to_session — Додати слово до поточної сесії перевірки
+enchantdictaddтоsession — Додати слово до поточної сесії перевірки
 
 ### Опис
 
-**enchant_dict_add_to_session**([EnchantDictionary](class.enchantdictionary.md)
-`$dictionary`, string `$word`): void
+```methodsynopsis
+enchant_dict_add_to_session(EnchantDictionary $dictionary, string $word): void
+```
 
-Додає слово до заданого словника. Слово буде присутній тільки в
-поточної сесії перевірки.
+Додає слово до заданого словника. Слово буде присутнє тільки в поточній сесії перевірки.
 
 ### Список параметрів
 
 `dictionary`
-Словник Enchant, що повертається
-[enchant_broker_request_dict()](function.enchant-broker-request-dict.md)
-або
-[enchant_broker_request_pwl_dict()](function.enchant-broker-request-pwl-dict.md).
+
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.html)
 
 `word`
+
 Слово для додавання
 
 ### Значення, що повертаються
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [enchant_broker_request_dict()](function.enchant-broker-request-dict.md) -
-Створити новий словник, використовуючи тег
+-   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.html) - Створити новий словник, використовуючи тег

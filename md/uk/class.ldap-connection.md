@@ -1,20 +1,39 @@
-- [«ldap_unbind](function.ldap-unbind.md)
-- [LDAP\Result »](class.ldap-result.md)
+Клас LDAPConnection
 
-- [PHP Manual](index.md)
-- [LDAP](book.ldap.md)
-- Клас LDAP\Connection
+-   [« ldap\_unbind](function.ldap-unbind.html)
+    
+-   [LDAP\\Result »](class.ldap-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LDAP](book.ldap.html)
+    
+-   Клас LDAPConnection
+    
 
-# Клас LDAP\Connection
+# Клас LDAPConnection
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `ldap` у PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `ldap` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **LDAP\Connection** {
+```synopsis
 
-}
+     
+    
+
+    
+    
+     
+      final
+      class LDAP\Connection
+     
+     {
+    
+
+   }
+```

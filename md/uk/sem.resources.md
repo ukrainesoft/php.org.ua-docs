@@ -1,12 +1,16 @@
-- [« Налаштування під час виконання](sem.configuration.md)
-- [Предвизначені константи »](sem.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sem.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](sem.configuration.html)
+    
+-   [Предопределённые константы »](sem.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](sem.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-До PHP 8.0.0 модуль визначав типи ресурсів `sysvmsg queue` (черга
-повідомлень System V), `sysvsem` (семафор System V) та `sysvshm`
-(Розділяється пам'ять System V).
+До PHP 8.0.0 модуль визначав типи ресурсів `sysvmsg queue` (Черга повідомлень System V), `sysvsem` (Семафор System V) та `sysvshm` (Розділяється пам'ять System V).

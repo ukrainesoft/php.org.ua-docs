@@ -1,34 +1,42 @@
-- [« XMLReader::isValid](xmlreader.isvalid.md)
-- [XMLReader::moveToAttribute »](xmlreader.movetoattribute.md)
+Знайти простір імен для префікса
 
-- [PHP Manual](index.md)
-- [XMLReader](class.xmlreader.md)
-- Знайти простір імен для префіксу
+-   [« XMLReader::isValid](xmlreader.isvalid.html)
+    
+-   [XMLReader::moveToAttribute »](xmlreader.movetoattribute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLReader](class.xmlreader.html)
+    
+-   Знайти простір імен для префікса
+    
 
 # XMLReader::lookupNamespace
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-XMLReader::lookupNamespace — Знайти простір імен для префіксу
+XMLReader::lookupNamespace — Знайти простір імен для префікса
 
 ### Опис
 
-public **XMLReader::lookupNamespace**(string `$prefix`): ?string
+```methodsynopsis
+public XMLReader::lookupNamespace(string $prefix): ?string
+```
 
 Пошук у контексті простору імен для цього префікса.
 
 ### Список параметрів
 
 `prefix`
+
 Рядок, що містить префікс.
 
 ### Значення, що повертаються
 
-Значення простору імен або **`null`**, якщо простору імен не
-існує.
+Значення простору імен або **`null`**якщо простору імен не існує.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                        |
-| ------ | ------------------------------------------- |
-| 8.0.0  | Функція більше не може повертати **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція більше не може повертати **`false`** |

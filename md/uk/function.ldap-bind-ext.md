@@ -1,48 +1,47 @@
-- [«ldap_add](function.ldap-add.md)
-- [ldap_bind »](function.ldap-bind.md)
+Прив'язати до директорії LDAP
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Прив'язати до директорії LDAP
+-   [« ldap\_add](function.ldap-add.html)
+    
+-   [ldap\_bind »](function.ldap-bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Прив'язати до директорії LDAP
+    
 
-#ldap_bind_ext
+# ldapbindext
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-ldap_bind_ext — Прив'язати до директорії LDAP
+ldapbindext — Прив'язати до директорії LDAP
 
 ### Опис
 
-**ldap_bind_ext**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-?string `$dn` = **`null`**,
-?string `$password` = **`null`**,
-?array `$controls` = **`null`**
-): [LDAP\Result](class.ldap-result.md)\|false
+```methodsynopsis
+ldap_bind_ext(    LDAP\Connection $ldap,    ?string $dn = null,    ?string $password = null,    ?array $controls = null): LDAP\Result|false
+```
 
-Робить те саме, що і [ldap_bind()](function.ldap-bind.md), але
-повертає екземпляр [LDAP\Result](class.ldap-result.md) для розбору з
-за допомогою [ldap_parse_result()](function.ldap-parse-result.md).
+Робить те саме, що й [ldap\_bind()](function.ldap-bind.html), але повертає екземпляр [LDAP\\Result](class.ldap-result.html) для розбору за допомогою [ldap\_parse\_result()](function.ldap-parse-result.html)
 
 ### Список параметрів
 
-Дивіться [ldap_bind()](function.ldap-bind.md)
+Дивіться [ldap\_bind()](function.ldap-bind.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Result](class.ldap-result.md) або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.html) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 
 ### Дивіться також
 
-- [ldap_bind()](function.ldap-bind.md) - Прив'язати до директорії LDAP
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
+-   [ldap\_bind()](function.ldap-bind.html) - Прив'язати до LDAP директорії
+-   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату

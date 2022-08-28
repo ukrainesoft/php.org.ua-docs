@@ -1,57 +1,61 @@
-- [« XMLWriter::startDtdEntity](xmlwriter.startdtdentity.md)
-- [XMLWriter::startElementNs »](xmlwriter.startelementns.md)
+Створити стартовий тег елемента
 
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Створити стартовий тег елемента
+-   [« XMLWriter::startDtdEntity](xmlwriter.startdtdentity.html)
+    
+-   [XMLWriter::startElementNs »](xmlwriter.startelementns.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](class.xmlwriter.html)
+    
+-   Створити стартовий тег елемента
+    
 
 # XMLWriter::startElement
 
-#xmlwriter_start_element
+# xmlwriterstartelement
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startElement -- xmlwriter_start_element -- Створити стартовий
-тег елемента
+XMLWriter::startElement -- xmlwriterstartelement — Створити стартовий тег елемента
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::startElement**(string `$name`): bool
+```methodsynopsis
+public XMLWriter::startElement(string $name): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_start_element**([XMLWriter](class.xmlwriter.md) `$writer`,
-string `$name`): bool
+```methodsynopsis
+xmlwriter_start_element(XMLWriter $writer, string $name): bool
+```
 
 Починає елемент.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
 
 `name`
-Назва елемента.
+
+Ім'я елемент.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити
-поточний елемент
-- [XMLWriter::writeElement()](xmlwriter.writeelement.md) - Записати
-повний тег елемент
+-   [XMLWriter::endElement()](xmlwriter.endelement.html) - Завершити поточний елемент
+-   [XMLWriter::writeElement()](xmlwriter.writeelement.html) - Записати повний тег елемента

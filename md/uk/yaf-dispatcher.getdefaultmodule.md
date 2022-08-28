@@ -1,19 +1,27 @@
-- [« Yaf_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.md)
-- [Yaf_Dispatcher::getInstance »](yaf-dispatcher.getinstance.md)
+Отримує ім'я модуля за замовчуванням
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Отримує ім'я модуля за замовчуванням
+-   [« Yaf\_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.html)
+    
+-   [Yaf\_Dispatcher::getInstance »](yaf-dispatcher.getinstance.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Отримує ім'я модуля за замовчуванням
+    
 
-# Yaf_Dispatcher::getDefaultModule
+# YafDispatcher::getDefaultModule
 
-(Yaf \>=3.2.0)
+(Yaf> = 3.2.0)
 
-Yaf_Dispatcher::getDefaultModule — Отримує ім'я модуля за промовчанням
+YafDispatcher::getDefaultModule — Отримує ім'я модуля за промовчанням
 
 ### Опис
 
-public **Yaf_Dispatcher::getDefaultModule**(): string
+```methodsynopsis
+public Yaf_Dispatcher::getDefaultModule(): string
+```
 
 Отримує ім'я модуля за замовчуванням
 

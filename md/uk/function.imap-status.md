@@ -1,77 +1,87 @@
-- [« imap_sort](function.imap-sort.md)
-- [imap_subscribe »](function.imap-subscribe.md)
+Отримати інформацію про статус поштової скриньки
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати інформацію про статус поштової скриньки
+-   [« imap\_sort](function.imap-sort.html)
+    
+-   [imap\_subscribe »](function.imap-subscribe.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Отримати інформацію про статус поштової скриньки
+    
 
-#imap_status
+# imapstatus
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_status — Отримати інформацію про статус поштової скриньки
+imapstatus — Отримати інформацію про статус поштової скриньки
 
 ### Опис
 
-**imap_status**([IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$mailbox`, int `$flags`): stdClass\|false
+```methodsynopsis
+imap_status(IMAP\Connection $imap, string $mailbox, int $flags): stdClass|false
+```
 
-Повертає інформацію щодо статусу заданої скриньки `mailbox`.
+Повертає інформацію щодо статусу заданої скриньки `mailbox`
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `mailbox`
-Ім'я поштової скриньки, докладніше дивіться в описі
-[imap_open()](function.imap-open.md)
+
+Ім'я поштової скриньки, докладніше дивіться в описі [imap\_open()](function.imap-open.html)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `flags`
+
 Допустимі опції:
 
-- **`SA_MESSAGES`** - встановити `$status->messages`, рівним
-кількості листів у ящику
-- **`SA_RECENT`** - встановити `$status->recent`, що дорівнює кількості
-нових листів
-- **`SA_UNSEEN`** - встановити `$status->unseen`, що дорівнює кількості
-непрочитаних листів
-- **`SA_UIDNEXT`** - встановити `$status->uidnext` рівним наступному
-uid, який буде використаний у ящику
-- **`SA_UIDVALIDITY`** - встановити `$status->uidvalidity` у значення
-константи, яка змінюється, коли UID для поштової скриньки більше не
-можуть бути дійсними
-- **`SA_ALL`** - використовувати всі перелічені опції
+-   **`SA_MESSAGES`** - встановити $status->messages, рівним кількості листів у ящику
+-   **`SA_RECENT`** - встановити $status->recent, рівним кількості нових листів
+-   **`SA_UNSEEN`** - встановити $status->unseen, рівним кількості непрочитаних листів
+-   **`SA_UIDNEXT`** - встановити $status->uidnext рівним наступному uid, який буде використаний у ящику
+-   **`SA_UIDVALIDITY`** - встановити $status->uidvalidity у значення константи, яка змінюється, коли UID для поштової скриньки більше не можуть бути дійсними
+-   **`SA_ALL`** - Використовувати всі перелічені опції
 
 ### Значення, що повертаються
 
-Функція повертає об'єкт, який містить інформацію про статус або
-**`false`** у разі виникнення помилки. Об'єкт має такі
-властивості: `messages`, `recent`, `unseen`, `uidnext` та `uidvalidity`.
+Функція повертає об'єкт, що містить інформацію про статус або **`false`** у разі виникнення помилки. Об'єкт має такі властивості: `messages` `recent` `unseen` `uidnext` і `uidvalidity`
 
-`flags` також встановлений, він містить бітову маску яка може бути
-перевірено за допомогою перерахованих вище констант.
+`flags` також встановлено, він містить бітову маску, яка може бути перевірена за допомогою перерахованих вище констант.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_status()****
+**Приклад #1 Приклад використання **imapstatus()****
 
-` <?php$mbox =|imap_open("{imap.example.com}", "username", "password", OP_HALFOPEN)       or die("не удалося підключитися: " . imap_last mbox, "{imap.example.org}INBOX", SA_ALL);if ($status) {  echo "Повідомлення:   " . $status->messages     . "<br />
-";  echo "Останні:     " . $status->recent      . "<br />
-";  echo "Непроглянуті:     " . $status->unseen      . "<br />
-";  echo "UIDnext:    " . $status->uidnext     . "<br />
-";  echo "UIDvalidity:" . $status->uidvalidity . "<br />
-";} else {  echo "imap_status failed: " . imap_last_error() . "
-";}imap_close($mbox);?> `
+```php
+<?php
+$mbox = imap_open("{imap.example.com}", "username", "password", OP_HALFOPEN)
+      or die("не удалось подключиться: " . imap_last_error());
+
+$status = imap_status($mbox, "{imap.example.org}INBOX", SA_ALL);
+if ($status) {
+  echo "Сообщения:   " . $status->messages    . "<br />\n";
+  echo "Последние:     " . $status->recent      . "<br />\n";
+  echo "Непросмотренные:     " . $status->unseen      . "<br />\n";
+  echo "UIDnext:    " . $status->uidnext     . "<br />\n";
+  echo "UIDvalidity:" . $status->uidvalidity . "<br />\n";
+} else {
+  echo "imap_status failed: " . imap_last_error() . "\n";
+}
+
+imap_close($mbox);
+?>
+```

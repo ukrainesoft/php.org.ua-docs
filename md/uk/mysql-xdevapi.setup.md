@@ -1,15 +1,21 @@
-- [«Вступ](intro.mysql-xdevapi.md)
-- [Вимоги »](mysql-xdevapi.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
+-   [« Введение](intro.mysql-xdevapi.html)
+    
+-   [Требования »](mysql-xdevapi.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](mysql-xdevapi.requirements.md)
-- [Установка](mysql-xdevapi.installation.md)
-- [Налаштування під час виконання](mysql-xdevapi.configuration.md)
-- [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.md)
+-   [Требования](mysql-xdevapi.requirements.html)
+-   [Установка](mysql-xdevapi.installation.html)
+-   [Настройка во время выполнения](mysql-xdevapi.configuration.html)
+-   [Сборка / Компиляция из исходного кода](mysql-xdevapi.build.html)

@@ -1,21 +1,27 @@
-- [« MongoDB\Driver\Monitoring\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId »](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)
+Повертає порт, на якому прослуховується сервер
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-- Повертає порт, на якому прослуховується сервер
+-   [« MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getTopologyId »](mongodb-driver-monitoring-serverclosedevent.gettopologyid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+    
+-   Повертає порт, на якому прослуховується сервер
+    
 
-# MongoDB\Driver\Monitoring\ServerClosedEvent::getPort
+# MongoDBDriverMonitoringServerClosedEvent::getPort
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\ServerClosedEvent::getPort — Повертає порт,
-на якому прослуховується сервер
+MongoDBDriverMonitoringServerClosedEvent::getPort — Повертає порт, на якому прослуховується сервер
 
 ### Опис
 
-final public **MongoDB\Driver\Monitoring\ServerClosedEvent::getPort**():
-int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerClosedEvent::getPort(): int
+```
 
 ### Список параметрів
 
@@ -27,5 +33,4 @@ int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

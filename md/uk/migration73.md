@@ -1,25 +1,28 @@
-- [« Підтримка Windows](migration74.windows-support.md)
-- [Нові можливості »](migration73.new-features.md)
+Міграція з PHP 7.2.x на PHP 7.3.x
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Міграція з PHP 7.2.x на PHP 7.3.x
+-   [« Поддержка Windows](migration74.windows-support.html)
+    
+-   [Новые возможности »](migration73.new-features.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Міграція з PHP 7.2.x на PHP 7.3.x
+    
 
 # Міграція з PHP 7.2.x на PHP 7.3.x
 
 ## Зміст
 
-- [Нові можливості](migration73.new-features.md)
-- [Нові функції](migration73.new-functions.md)
-- [Нові глобальні константи](migration73.constants.md)
-- [Зміни, що ламають зворотну сумісність](migration73.incompatible.md)
-- [Функціонал, оголошений застарілим у PHP 7.3.x](migration73.deprecated.md)
-- [Інші зміни](migration73.other-changes.md)
-- [Підтримка Windows](migration73.windows-support.md)
+-   [Новые возможности](migration73.new-features.html)
+-   [Новые функции](migration73.new-functions.html)
+-   [Новые глобальные константы](migration73.constants.html)
+-   [Изменения, ломающие обратную совместимость](migration73.incompatible.html)
+-   [Функционал, объявленный устаревшим в PHP 7.3.x](migration73.deprecated.html)
+-   [Прочие изменения](migration73.other-changes.html)
+-   [Поддержка Windows](migration73.windows-support.html)
 
-Ця оновлена версія приносить із собою ряд [нових можливостей](migration73.new-features.md) та [кілька несумісностей](migration73.incompatible.md), які мають бути
-перевірено до зміни версії у виробничому середовищі.
+Ця оновлена ​​версія приносить із собою ряд [новых возможностей](migration73.new-features.html) і [несколько несовместимостей](migration73.incompatible.html), які мають бути перевірені до зміни версії у виробничому середовищі.
 
-Дивіться також посібник з міграції для версій PHP
-[7.0.x](migration70.md), [7.1.x](migration71.md) та
-[7.2.x](migration72.md).
+Дивіться також посібник з міграції для версій PHP [7.0.x](migration70.html) [7.1.x](migration71.html) і [7.2.x](migration72.html)

@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](spl.configuration.md)
-- [Предвизначені константи »](spl.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](spl.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](spl.configuration.html)
+    
+-   [Предопределённые константы »](spl.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](spl.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

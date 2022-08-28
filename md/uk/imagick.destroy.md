@@ -1,22 +1,29 @@
-- [« Imagick::despeckleImage](imagick.despeckleimage.md)
-- [Imagick::displayImage »](imagick.displayimage.md)
+Видаляє об'єкт Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Видаляє об'єкт Imagick
+-   [« Imagick::despeckleImage](imagick.despeckleimage.html)
+    
+-   [Imagick::displayImage »](imagick.displayimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Видаляє об'єкт Imagick
+    
 
 # Imagick::destroy
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::destroy — Видаляє об'єкт Imagick
+Imagick::destroy — Видалення об'єкту Imagick
 
 ### Опис
 
-public **Imagick::destroy**(): bool
+```methodsynopsis
+public Imagick::destroy(): bool
+```
 
-Видаляє об'єкт Imagick та звільняє всі ресурси, пов'язані з ним. Метод
-застарілий і слід використовувати [Imagick::clear](imagick.clear.md).
+Видаляє об'єкт Imagick та звільняє всі ресурси, пов'язані з ним. Метод застарілий і слід використовувати [Imagick::clear](imagick.clear.html)
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ public **Imagick::destroy**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

@@ -1,32 +1,40 @@
-- [«rrd_fetch](function.rrd-fetch.md)
-- [rrd_graph»](function.rrd-graph.md)
+Повертає позначку першого зразка з файлу rrd
 
-- [PHP Manual](index.md)
-- [Функції RRD](ref.rrd.md)
-- Повертає позначку часу першого зразка із файлу rrd
+-   [« rrd\_fetch](function.rrd-fetch.html)
+    
+-   [rrd\_graph »](function.rrd-graph.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции RRD](ref.rrd.html)
+    
+-   Повертає позначку першого зразка з файлу rrd
+    
 
-#rrd_first
+# rrdfirst
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
-rrd_first — Повертає позначку часу першого зразка з файлу rrd
+rrdfirst — Повертає позначку першого зразка з файлу rrd
 
 ### Опис
 
-**rrd_first**(string `$file`, int `$raaindex` = 0): int
+```methodsynopsis
+rrd_first(string $file, int $raaindex = 0): int
+```
 
-Повертає перший зразок даних із зазначеного RRA файлу RRD.
+Повертає перший зразок даних із вказаного RRA файлу RRD.
 
 ### Список параметрів
 
 `file`
+
 Назва файлу бази даних RRD.
 
 `raaindex`
-Номер індексу RRA, який має бути розглянутий. Значення по
-замовчуванням - 0.
+
+Номер індексу RRA, який має бути розглянутий. Значення за промовчанням - 0.
 
 ### Значення, що повертаються
 
-Номер позначки часу unix у вигляді цілого числа або **`false`** у разі
-виникнення помилки.
+Номер позначки часу unix у вигляді цілого чи числа **`false`** у разі виникнення помилки.

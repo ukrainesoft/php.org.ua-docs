@@ -1,24 +1,29 @@
-- [« sodium_crypto_scalarmult](function.sodium-crypto-scalarmult.md)
-- [sodium_crypto_secretbox_open »](function.sodium-crypto-secretbox-open.md)
+Створює випадковий ключ для sodiumcryptosecretbox
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Створює випадковий ключ для sodium_crypto_secretbox
+-   [« sodium\_crypto\_scalarmult](function.sodium-crypto-scalarmult.html)
+    
+-   [sodium\_crypto\_secretbox\_open »](function.sodium-crypto-secretbox-open.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Створює випадковий ключ для sodiumcryptosecretbox
+    
 
-# sodium_crypto_secretbox_keygen
+# sodiumcryptosecretboxkeygen
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_secretbox_keygen — Створює випадковий ключ для
-sodium_crypto_secretbox
+sodiumcryptosecretboxkeygen — Створює випадковий ключ для sodiumcryptosecretbox
 
 ### Опис
 
-**sodium_crypto_secretbox_keygen**(): string
+```methodsynopsis
+sodium_crypto_secretbox_keygen(): string
+```
 
-Створює випадковий ключ для
-[sodium_crypto_secretbox()](function.sodium-crypto-secretbox.md) та
-[sodium_crypto_secretbox_open()](function.sodium-crypto-secretbox-open.md).
+Створює випадковий ключ для [sodium\_crypto\_secretbox()](function.sodium-crypto-secretbox.html) і [sodium\_crypto\_secretbox\_open()](function.sodium-crypto-secretbox-open.html)
 
 ### Список параметрів
 
@@ -26,31 +31,42 @@ sodium_crypto_secretbox
 
 ### Значення, що повертаються
 
-Повертає згенерований рядок криптографічно безпечних випадкових
-байтів.
+Повертає згенерований рядок криптографічно безпечних випадкових байтів.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodium_crypto_secretbox_keygen()****
+**Приклад #1 Приклад використання **sodiumcryptosecretboxkeygen()****
 
-` <?php$key = sodium_crypto_secretbox_keygen();var_dump( sodium_bin2hex( $key ) );?> `
+```php
+<?php
+$key = sodium_crypto_secretbox_keygen();
+var_dump( sodium_bin2hex( $key ) );
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(64) "88bd1dc51ec81984f3ddc5a8f59a3d95b647e2da3e879f1b9ceb0abd89e7286c"
+```
 
-**Приклад #2 Порівняння **sodium_crypto_secretbox_keygen()** з
-[random_bytes()](function.random-bytes.md)**
+**Приклад #2 Порівняння **sodiumcryptosecretboxkeygen()** з [random\_bytes()](function.random-bytes.html)**
 
-`<?php$key = sodium_crypto_secretbox_keygen();$bytes = random_bytes( SODIUM_CRYPTO_SECRETBOX_KEYBYTES );var_dump( mb_strlen( $key, '8bit' > )
+```php
+<?php
+$key = sodium_crypto_secretbox_keygen();
+$bytes = random_bytes( SODIUM_CRYPTO_SECRETBOX_KEYBYTES );
+var_dump( mb_strlen( $key, '8bit' ) === mb_strlen( $bytes, '8bit' ) );
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
 ### Дивіться також
 
-- [sodium_bin2hex()](function.sodium-bin2hex.md) - Кодувати в
-шістнадцяткове уявлення
-- [random_bytes()](function.random-bytes.md) - Генерує
-криптографічно безпечні псевдовипадкові байти
+-   [sodium\_bin2hex()](function.sodium-bin2hex.html) - Кодувати у шістнадцяткову виставу
+-   [random\_bytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти

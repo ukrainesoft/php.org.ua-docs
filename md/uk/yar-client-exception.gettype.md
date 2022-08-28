@@ -1,19 +1,27 @@
-- [«Yar_Client_Exception](class.yar-client-exception.md)
-- [XML-RPC »](book.xmlrpc.md)
+Отримати тип виключення
 
-- [PHP Manual](index.md)
-- [Yar_Client_Exception](class.yar-client-exception.md)
-- Отримати тип виключення
+-   [« Yar\_Client\_Exception](class.yar-client-exception.html)
+    
+-   [XML-RPC »](book.xmlrpc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yar\_Client\_Exception](class.yar-client-exception.html)
+    
+-   Отримати тип виключення
+    
 
-# Yar_Client_Exception::getType
+# YarClientException::getType
 
-(PECL yar \> = 1.0.0)
+(PECL yar >= 1.0.0)
 
-Yar_Client_Exception::getType — Отримати тип виключення
+YarClientException::getType — Отримати тип виключення
 
 ### Опис
 
-public **Yar_Client_Exception::getType**(): string
+```methodsynopsis
+public Yar_Client_Exception::getType(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,26 @@ public **Yar_Client_Exception::getType**(): string
 
 ### Значення, що повертаються
 
-Повертає `Yar_Exception_Client`.
+Повертає `"Yar_Exception_Client"`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yar_Client_Exception::getType()****
+**Приклад #1 Приклад використання **YarClientException::getType()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```
 
 ### Дивіться також
 
-- **Yaf_Server_Exception::getType()**
+-   **YafServerException::getType()**

@@ -1,20 +1,36 @@
-- [«GdImage](class.gdimage.md)
-- [Gmagick »](book.gmagick.md)
+Клас GdFont
 
-- [PHP Manual](index.md)
-- [GD](book.image.md)
-- Клас GdFont
+-   [« GdImage](class.gdimage.html)
+    
+-   [Gmagick »](book.gmagick.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GD](book.image.html)
+    
+-   Клас GdFont
+    
 
 # Клас GdFont
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурс `gd font` у PHP 8.1.0.
+Повністю непрозорий клас, який замінює ресурс `gd font` у PHP 8.1.0.
 
 ## Огляд класів
 
-final class **GdFont** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class GdFont
+     
+     {
+   }
+```

@@ -1,22 +1,29 @@
-- [« spl_autoload_extensions](function.spl-autoload-extensions.md)
-- [spl_autoload_register »](function.spl-autoload-register.md)
+Отримання списку всіх зареєстрованих функцій autoload()
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Отримання списку всіх зареєстрованих функцій \_\_autoload()
+-   [« spl\_autoload\_extensions](function.spl-autoload-extensions.html)
+    
+-   [spl\_autoload\_register »](function.spl-autoload-register.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Отримання списку всіх зареєстрованих функцій autoload()
+    
 
-# spl_autoload_functions
+# splautoloadфункцій
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-spl_autoload_functions — Отримати список усіх зареєстрованих
-функцій \_\_autoload()
+splautoloadfunctions — отримання списку всіх зареєстрованих функцій autoload()
 
 ### Опис
 
-**spl_autoload_functions**(): array
+```methodsynopsis
+spl_autoload_functions(): array
+```
 
-Отримує список усіх зареєстрованих функцій \_\_autoload().
+Отримує список усіх зареєстрованих функцій autoload().
 
 ### Список параметрів
 
@@ -24,6 +31,4 @@ spl_autoload_functions — Отримати список усіх зареєст
 
 ### Значення, що повертаються
 
-Масив (array) всіх зареєстрованих у \_\_autoload функцій. Якщо
-черга автозавантаження не активована, поверне **`false`**. Якщо жодна
-функція не зареєстрована, поверне порожній масив.
+Масив (array) всіх зареєстрованих у autoload функцій. Якщо черга автозавантаження не активована, поверне **`false`**. Якщо жодна функція не зареєстрована, поверне порожній масив.

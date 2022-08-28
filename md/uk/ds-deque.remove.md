@@ -1,26 +1,34 @@
-- [« Ds\Deque::reduce](ds-deque.reduce.md)
-- [Ds\Deque::reverse »](ds-deque.reverse.md)
+Видаляє та повертає значення за індексом
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Видаляє та повертає значення за індексом
+-   [« Ds\\Deque::reduce](ds-deque.reduce.html)
+    
+-   [Ds\\Deque::reverse »](ds-deque.reverse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Видаляє та повертає значення за індексом
+    
 
-# Ds\Deque::remove
+# ДсDeque::remove
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::remove — Видаляє та повертає значення за індексом
+ДсDeque::remove — Видаляє та повертає значення за індексом
 
 ### Опис
 
-public **Ds\Deque::remove**(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Ds\Deque::remove(int $index): mixed
+```
 
 Видаляє та повертає значення за індексом.
 
 ### Список параметрів
 
 `index`
+
 Індекс, яким необхідно видалити значення.
 
 ### Значення, що повертаються
@@ -29,18 +37,26 @@ public **Ds\Deque::remove**(int `$index`):
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md), якщо індекс
-некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::remove()****
+**Приклад #1 Приклад використання **ДсDeque::remove()****
 
-` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque->remove(1));var_dump($deque->remove(0) );var_dump($deque->remove(0));?> `
+```php
+<?php
+$deque = new \Ds\Deque(["a", "b", "c"]);
+
+var_dump($deque->remove(1));
+var_dump($deque->remove(0));
+var_dump($deque->remove(0));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "b"
 string(1) "a"
 string(1) "c"
+```

@@ -1,170 +1,131 @@
-- [« Структури даних](spl.datastructures.md)
-- [SplDoublyLinkedList::add »](spldoublylinkedlist.add.md)
+Клас SplDoublyLinkedList
 
-- [PHP Manual](index.md)
-- [Структури даних](spl.datastructures.md)
-- Клас SplDoublyLinkedList
+-   [« Структуры данных](spl.datastructures.html)
+    
+-   [SplDoublyLinkedList::add »](spldoublylinkedlist.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](spl.datastructures.html)
+    
+-   Клас SplDoublyLinkedList
+    
 
 # Клас SplDoublyLinkedList
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SplDoublyLinkedList забезпечує основні функціональні
-можливості двозв'язкового списку.
+Клас SplDoublyLinkedList забезпечує основні функціональні можливості двозв'язкового списку.
 
 ## Огляд класів
 
-class **SplDoublyLinkedList** implements
-[Iterator](class.iterator.md), [Countable](class.countable.md),
-[ArrayAccess](class.arrayaccess.md),
-[Serializable](class.serializable.md) {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `IT_MODE_LIFO` = 2;
+    
+     
+      class SplDoublyLinkedList
+     
 
-const int `IT_MODE_FIFO` = 0;
+     implements 
+       Iterator,  Countable,  ArrayAccess,  Serializable {
 
-const int `IT_MODE_DELETE` = 1;
+    /* Константы */
+    
+     const
+     int
+      IT_MODE_LIFO = 2;
 
-const int `IT_MODE_KEEP` = 0;
+    const
+     int
+      IT_MODE_FIFO = 0;
 
-/\* Методи \*/
+    const
+     int
+      IT_MODE_DELETE = 1;
 
-public [add](spldoublylinkedlist.add.md)(int `$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+    const
+     int
+      IT_MODE_KEEP = 0;
 
-public [bottom](spldoublylinkedlist.bottom.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [count](spldoublylinkedlist.count.md)(): int
+    /* Методы */
+    
+   public add(int $index, mixed $value): void
+public bottom(): mixed
+public count(): int
+public current(): mixed
+public getIteratorMode(): int
+public isEmpty(): bool
+public key(): int
+public next(): void
+public offsetExists(int $index): bool
+public offsetGet(int $index): mixed
+public offsetSet(?int $index, mixed $value): void
+public offsetUnset(int $index): void
+public pop(): mixed
+public prev(): void
+public push(mixed $value): void
+public rewind(): void
+public serialize(): string
+public setIteratorMode(int $mode): int
+public shift(): mixed
+public top(): mixed
+public unserialize(string $data): void
+public unshift(mixed $value): void
+public valid(): bool
 
-public [current](spldoublylinkedlist.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+   }
+```
 
-public [getIteratorMode](spldoublylinkedlist.getiteratormode.md)():
-int
-
-public [isEmpty](spldoublylinkedlist.isempty.md)(): bool
-
-public [key](spldoublylinkedlist.key.md)(): int
-
-public [next](spldoublylinkedlist.next.md)(): void
-
-public [offsetExists](spldoublylinkedlist.offsetexists.md)(int
-`$index`): bool
-
-public [offsetGet](spldoublylinkedlist.offsetget.md)(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [offsetSet](spldoublylinkedlist.offsetset.md)(?int `$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [offsetUnset](spldoublylinkedlist.offsetunset.md)(int
-`$index`): void
-
-public [pop](spldoublylinkedlist.pop.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [prev](spldoublylinkedlist.prev.md)(): void
-
-public
-[push](spldoublylinkedlist.push.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [rewind](spldoublylinkedlist.rewind.md)(): void
-
-public [serialize](spldoublylinkedlist.serialize.md)(): string
-
-public [setIteratorMode](spldoublylinkedlist.setiteratormode.md)(int
-`$mode`): int
-
-public [shift](spldoublylinkedlist.shift.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [top](spldoublylinkedlist.top.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [unserialize](spldoublylinkedlist.unserialize.md)(string
-`$data`): void
-
-public
-[unshift](spldoublylinkedlist.unshift.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [valid](spldoublylinkedlist.valid.md)(): bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 ## Напрямок ітерації
 
 **`SplDoublyLinkedList::IT_MODE_LIFO`**
-Список повторюватиметься по порядку "останнім прийшов - першим вийшов",
-як стек.
+
+Список повторюватиметься по порядку "останнім прийшов - першим вийшов", як стек.
 
 **`SplDoublyLinkedList::IT_MODE_FIFO`**
-Список повторюватиметься по порядку "першим прийшов - першим вийшов", як
-чергу.
+
+Список повторюватиметься по порядку "першим прийшов - першим вийшов", як черга.
 
 ## Поведінка ітерації
 
 **`SplDoublyLinkedList::IT_MODE_DELETE`**
+
 Ітерація видалить повторювані елементи.
 
 **`SplDoublyLinkedList::IT_MODE_KEEP`**
-Ітерація не видалить повторювані елементи.
+
+Ітерація не видаляє повторювані елементи.
 
 ## Зміст
 
-- [SplDoublyLinkedList::add](spldoublylinkedlist.add.md) -
-Додає/вставляє нове значення за вказаним індексом
-- [SplDoublyLinkedList::bottom](spldoublylinkedlist.bottom.md)
-Отримує вузол, що знаходиться на початку двозв'язкового списку
-- [SplDoublyLinkedList::count](spldoublylinkedlist.count.md) -
-Підраховує кількість елементів у двозв'язному списку
-- [SplDoublyLinkedList::current](spldoublylinkedlist.current.md) -
-Повертає поточний елемент масиву
-- [SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md)
-— Повертає режим ітерації
-- [SplDoublyLinkedList::isEmpty](spldoublylinkedlist.isempty.md) -
-Перевіряє, чи є двозв'язний список порожнім
-- [SplDoublyLinkedList::key](spldoublylinkedlist.key.md) -
-Повертає індекс поточного вузла
-- [SplDoublyLinkedList::next](spldoublylinkedlist.next.md) -
-Переміщує ітератор до наступного елемента
-- [SplDoublyLinkedList::offsetExists](spldoublylinkedlist.offsetexists.md)
-— Перевіряє, чи запитуваний індекс існує
-- [SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md)
-— Повертає значення за вказаним індексом
-- [SplDoublyLinkedList::offsetSet](spldoublylinkedlist.offsetset.md)
-— Встановлює значення за заданим індексом $index у $value
-- [SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.md)
-— Видаляє значення за вказаним індексом $index
-- [SplDoublyLinkedList::pop](spldoublylinkedlist.pop.md) — Видаляє
-(виштовхує) вузол, що знаходиться в кінці двозв'язкового списку
-- [SplDoublyLinkedList::prev](spldoublylinkedlist.prev.md) -
-Переміщує ітератор до попереднього елемента
-- [SplDoublyLinkedList::push](spldoublylinkedlist.push.md) -
-Поміщає елемент до кінця двозв'язкового списку
-- [SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md)
-Повертає ітератор на початок
-- [SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md)
-- Серіалізує сховище
-- [SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.md)
-- Встановлює режим ітерації
-- [SplDoublyLinkedList::shift](spldoublylinkedlist.shift.md) -
-Видаляє вузол, що знаходиться на початку двозв'язкового списку
-- [SplDoublyLinkedList::top](spldoublylinkedlist.top.md) — Отримує
-вузол, що знаходиться в кінці двозв'язкового списку
-- [SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md)
-- Десеріалізує сховище
-- [SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.md)
-Вставляє елемент на початок двозв'язкового списку
-- [SplDoublyLinkedList::valid](spldoublylinkedlist.valid.md) -
-Перевіряє, чи вузли містить двозв'язний список
+-   [SplDoublyLinkedList::add](spldoublylinkedlist.add.html) — Додає/вставляє нове значення за вказаним індексом
+-   [SplDoublyLinkedList::bottom](spldoublylinkedlist.bottom.html) - Отримує вузол, що знаходиться на початку двозв'язкового списку
+-   [SplDoublyLinkedList::count](spldoublylinkedlist.count.html) - Підраховує кількість елементів у двозв'язному списку
+-   [SplDoublyLinkedList::current](spldoublylinkedlist.current.html) — Повертає поточний елемент масиву
+-   [SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.html) — Повертає режим ітерації
+-   [SplDoublyLinkedList::isEmpty](spldoublylinkedlist.isempty.html) — Перевіряє, чи двозв'язковий список є порожнім.
+-   [SplDoublyLinkedList::key](spldoublylinkedlist.key.html) — Повертає індекс поточного сайту
+-   [SplDoublyLinkedList::next](spldoublylinkedlist.next.html) — Переміщує ітератор до наступного елементу
+-   [SplDoublyLinkedList::offsetExists](spldoublylinkedlist.offsetexists.html) — Перевіряє, чи існує запитуваний індекс
+-   [SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.html) — Повертає значення за вказаним індексом
+-   [SplDoublyLinkedList::offsetSet](spldoublylinkedlist.offsetset.html) — Встановлює значення за заданим індексом $index у $value
+-   [SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.html) — Видаляє значення за вказаним індексом $index
+-   [SplDoublyLinkedList::pop](spldoublylinkedlist.pop.html) - Видаляє (виштовхує) вузол, що знаходиться в кінці двозв'язкового списку
+-   [SplDoublyLinkedList::prev](spldoublylinkedlist.prev.html) — Переміщує ітератор до попереднього елемента
+-   [SplDoublyLinkedList::push](spldoublylinkedlist.push.html) — Поміщає елемент до кінця двозв'язкового списку
+-   [SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.html) — Повертає ітератор на початок
+-   [SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.html) — Серіалізує сховище
+-   [SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.html) - Встановлює режим ітерації
+-   [SplDoublyLinkedList::shift](spldoublylinkedlist.shift.html) - Видаляє вузол, що знаходиться на початку двозв'язкового списку
+-   [SplDoublyLinkedList::top](spldoublylinkedlist.top.html) — Отримує вузол, що знаходиться наприкінці двозв'язкового списку.
+-   [SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.html) - Десеріалізує сховище
+-   [SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.html) — Вставляє елемент на початок двозв'язкового списку
+-   [SplDoublyLinkedList::valid](spldoublylinkedlist.valid.html) — Перевіряє, чи містить вузли двозв'язковий список

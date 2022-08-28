@@ -1,49 +1,62 @@
-- [«gnupg_seterrormode](function.gnupg-seterrormode.md)
-- [gnupg_sign »](function.gnupg-sign.md)
+Встановлює режим підписування
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Встановлює режим підписування
+-   [« gnupg\_seterrormode](function.gnupg-seterrormode.html)
+    
+-   [gnupg\_sign »](function.gnupg-sign.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Встановлює режим підписування
+    
 
-# gnupg_setsignmode
+# gnupgsetsignmode
 
-(PECL gnupg \>= 0.1)
+(PECL gnupg >= 0.1)
 
-gnupg_setsignmode — Встановлює режим підписування
+gnupgsetsignmode — Встановлює режим підписування
 
 ### Опис
 
-**gnupg_setsignmode**(resource `$identifier`, int `$signmode`): bool
+```methodsynopsis
+gnupg_setsignmode(resource $identifier, int $signmode): bool
+```
 
 Встановлює режим підписування.
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `sigmode`
+
 Режим підписування.
 
-`signmode` містить константу, яка вказує, який тип підпису повинен
-бути зроблений. Можливі значення: **`GNUPG_SIG_MODE_NORMAL`**,
-**`GNUPG_SIG_MODE_DETACH`** та **`GNUPG_SIG_MODE_CLEAR`**. За замовчуванням
-використовується **`GNUPG_SIG_MODE_CLEAR`**.
+`signmode` містить константу, що вказує, який тип підпису має бути зроблено. Можливі значення: **`GNUPG_SIG_MODE_NORMAL`** **`GNUPG_SIG_MODE_DETACH`** і **`GNUPG_SIG_MODE_CLEAR`**. За замовчуванням використовується **`GNUPG_SIG_MODE_CLEAR`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_setsignmode()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupgsetsignmode()** у процедурному стилі**
 
-` <?php$res = gnupg_init();gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // виробляти роздільну підпис?
+```php
+<?php
+$res = gnupg_init();
+gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // производить раздельную подпись
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_setsignmode()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgsetsignmode()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$gpg->setsignmode(gnupg::SIG_MODE_DETACH); // виробляти роздільну підпис?
+```php
+<?php
+$gpg = new gnupg();
+$gpg->setsignmode(gnupg::SIG_MODE_DETACH); // производить раздельную подпись
+?>
+```

@@ -1,67 +1,63 @@
-- [« Функції Yaml](ref.yaml.md)
-- [yaml_emit »](function.yaml-emit.md)
+Відправляє YAML-подання значення файлу
 
-- [PHP Manual](index.md)
-- [Функції Yaml](ref.yaml.md)
-- Відправляє YAML-подання значення у файл
+-   [« Функции Yaml](ref.yaml.html)
+    
+-   [yaml\_emit »](function.yaml-emit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Yaml](ref.yaml.html)
+    
+-   Відправляє YAML-подання значення файлу
+    
 
-# yaml_emit_file
+# yamlemitfile
 
-(PECL yaml \>= 0.5.0)
+(PECL yaml >= 0.5.0)
 
-yaml_emit_file — Відправляє YAML-подання значення файлу
+yamlemitfile — Відправляє YAML-подання значення файлу
 
 ### Опис
 
-**yaml_emit_file**(
-string `$filename`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data`,
-int `$encoding` = YAML_ANY_ENCODING,
-int `$linebreak` = YAML_ANY_BREAK,
-array `$callbacks` = **`null`**
-): bool
+```methodsynopsis
+yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): bool
+```
 
-Генерує YAML-подання з даних `data` і відправляє в
-`filename`.
+Генерує YAML-подання з даних `data` і відправляє в `filename`
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу.
 
 `data`
-Параметр 'data' кодується. Допускається будь-який тип даних крім
-ресурсу (resource).
+
+Параметр `data` буде кодовано. Допускається будь-який тип даних, крім ресурсу (resource).
 
 `encoding`
-Кодування виводу вибирається з **`YAML_ANY_ENCODING`**,
-**`YAML_UTF8_ENCODING`**, **`YAML_UTF16LE_ENCODING`**,
-**`YAML_UTF16BE_ENCODING`**.
+
+Кодування виводу вибирається з **`YAML_ANY_ENCODING`** **`YAML_UTF8_ENCODING`** **`YAML_UTF16LE_ENCODING`** **`YAML_UTF16BE_ENCODING`**
 
 `linebreak`
-Символ кінця рядка виведення вибирається з **`YAML_ANY_BREAK`**,
-**`YAML_CR_BREAK`**, **`YAML_LN_BREAK`**, **`YAML_CRLN_BREAK`**.
 
-callbacks
-Обробники контенту для створення вузлів YAML. Асоціативний масив
-(array), де як ключі використовуються імена класів, а як
-значень callback-функції ([callable](language.types.callable.md)),
-які створюватимуть вузли для цих класів. Більше подробиць можна
-дізнатися у розділі про [публікуючі callback-функції](yaml.callbacks.emit.md).
+Символ кінця рядка виведення вибирається з **`YAML_ANY_BREAK`** **`YAML_CR_BREAK`** **`YAML_LN_BREAK`** **`YAML_CRLN_BREAK`**
+
+`callbacks`
+
+Обробники контенту для створення вузлів YAML. Асоціативний масив (array), де як ключі використовуються імена класів, а як значення callback-функції ([callable](language.types.callable.html)), які створюватимуть вузли для цих класів. Більше подробиць можна дізнатись у розділі про [публикующие callback-функции](yaml.callbacks.emit.html)
 
 ### Значення, що повертаються
 
 Повертає **`true`** у разі успішного виконання.
 
-### Список змін
+### список змін
 
-| Версія          | Опис                        |
-|-----------------|-----------------------------|
-| PECL yaml 1.1.0 | Доданий аргумент callbacks. |
+| Версия | Описание |
+| --- | --- |
+| PECL yaml 1.1.0 | Доданий аргумент `callbacks` |
 
 ### Дивіться також
 
-- [yaml_emit()](function.yaml-emit.md) - Повертає
-YAML-подання значення
-- [yaml_parse()](function.yaml-parse.md) - Розбирає потік YAML
+-   [yaml\_emit()](function.yaml-emit.html) - Повертає YAML-подання значення
+-   [yaml\_parse()](function.yaml-parse.html) - Розбирає потік YAML

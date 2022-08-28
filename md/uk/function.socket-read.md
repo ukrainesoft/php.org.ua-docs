@@ -1,82 +1,67 @@
-- [«socket_listen](function.socket-listen.md)
-- [socket_recv »](function.socket-recv.md)
+Читає рядок максимальну довжину байт із сокету
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Читає рядок максимальну довжину байт із сокету
+-   [« socket\_listen](function.socket-listen.html)
+    
+-   [socket\_recv »](function.socket-recv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Читає рядок максимальну довжину байт із сокету
+    
 
-# socket_read
+# socketread
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socket_read — Читає рядок максимальну довжину байт із сокету
+socketread — Читає рядок максимальну довжину байт із сокету
 
 ### Опис
 
-**socket_read**([Socket](class.socket.md) `$socket`, int `$length`,
-int `$mode` = **`PHP_BINARY_READ`**): string\|false
+```methodsynopsis
+socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|false
+```
 
-Функція **socket_read()** читає дані з екземпляра
-[Socket](class.socket.md) `socket`, створеного за допомогою функцій
-[socket_create()](function.socket-create.md) або
-[socket_accept()](function.socket-accept.md).
+Функція **socketread()** читає дані з екземпляра [Socket](class.socket.html) `socket`, створеного за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функцій
-[socket_create()](function.socket-create.md) або
-[socket_accept()](function.socket-accept.md).
+
+Екземпляр [Socket](class.socket.html)створений за допомогою функцій [socket\_create()](function.socket-create.html) або [socket\_accept()](function.socket-accept.html)
 
 `length`
-Максимальна кількість байт для читання визначена параметром length.
-Як варіант ви можете використати **`
-`**, **`
-`**, або **` `** для
-закінчення читання (залежно від параметра `mode` дивіться нижче).
+
+Максимальна кількість байт для читання визначена параметром `length`. Як варіант ви можете використати **`\r`** **`\n`**, або **`\0`** для закінчення читання (залежно від параметра `mode`, Дивіться нижче).
 
 `mode`
+
 Необов'язковий параметр `mode` - це іменована константа:
 
-- **`PHP_BINARY_READ`** (За замовчуванням) - використовується системна
-функція `recv()`. Безпечно для читання бінарних даних.
-- **`PHP_NORMAL_READ`** - читання зупиняється на `
-або
-`.
+-   **`PHP_BINARY_READ`** (За замовчуванням) – використовується системна функція `recv()`. Безпечно читати бінарних даних.
+-   **`PHP_NORMAL_READ`** - Читання зупиняється на `\n` або `\r`
 
 ### Значення, що повертаються
 
-**socket_read()** повертає дані у вигляді рядка у разі успішного
-виконання, або **`false`** у разі виникнення помилки (включаючи
-випадок, коли віддалений хост закрив з'єднання). Код помилки може бути
-отримано за допомогою функції
-[socket_last_error()](function.socket-last-error.md). Цей код може
-бути переданий функції [socket_strerror()](function.socket-strerror.md)
-для отримання текстового опису помилки.
+**socketread()** повертає дані у вигляді рядка у разі успішного виконання, або **`false`** у разі виникнення помилки (включаючи випадок, коли віддалений хост закрив з'єднання). Код помилки може бути отриманий за допомогою функції [socket\_last\_error()](function.socket-last-error.html). Цей код може бути переданий функції [socket\_strerror()](function.socket-strerror.html) для отримання текстового опису помилки.
 
-> **Примітка**:
->
-> **socket_read()** повертає рядок нульової довжини (""), коли більше
-> немає даних для читання.
+> **Зауваження**
+> 
+> **socketread()** повертає рядок нульової довжини (""), коли немає даних для читання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    | ]( |
-|--------|-----------------------------------------------------------------------------------------|----|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |    |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_accept()](function.socket-accept.md) - Приймає
-з'єднання на сокеті
-- [socket_bind()](function.socket-bind.md) - Прив'язує ім'я до
-сокету
-- [socket_connect()](function.socket-connect.md) - Починає
-з'єднання з сокетом
-- [socket_listen()](function.socket-listen.md) - Прослуховує
-вхідні з'єднання на сокеті
-- [socket_last_error()](function.socket-last-error.md) - Повертає
-останню помилку на сокеті
-- [socket_strerror()](function.socket-strerror.md) - Повертає
-рядок, що описує помилку сокету
-- [socket_write()](function.socket-write.md) - Запис у сокет
+-   [socket\_accept()](function.socket-accept.html) - приймає з'єднання на сокеті
+-   [socket\_bind()](function.socket-bind.html) - Прив'язує ім'я до сокету
+-   [socket\_connect()](function.socket-connect.html) - Починає з'єднання із сокетом
+-   [socket\_listen()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
+-   [socket\_last\_error()](function.socket-last-error.html) - Повертає останню помилку на сокеті
+-   [socket\_strerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socket\_write()](function.socket-write.html) - Запис у сокет

@@ -1,66 +1,61 @@
-- [« Swoole\WebSocket\Frame](class.swoole-websocket-frame.md)
-- [Swoole\WebSocket\Server::exist »](swoole-websocket-server.exist.md)
+Клас SwooleWebSocketServer
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\WebSocket\Server
+-   [« Swoole\\WebSocket\\Frame](class.swoole-websocket-frame.html)
+    
+-   [Swoole\\WebSocket\\Server::exist »](swoole-websocket-server.exist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleWebSocketServer
+    
 
-# Клас Swoole\WebSocket\Server
+# Клас SwooleWebSocketServer
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\WebSocket\Server** extends
-[Swoole\Http\Server](class.swoole-http-server.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [exist](swoole-websocket-server.exist.md)(int `$fd`): bool
 
-public [on](swoole-websocket-server.on.md)(string `$event_name`,
-[callable](language.types.callable.md) `$callback`): ReturnType
+    
+     
+      class Swoole\WebSocket\Server
+     
 
-public static [pack](swoole-websocket-server.pack.md)(
-string `$data`,
-string `$opcode` = ?,
-string `$finish` = ?,
-string `$mask` = ?
-): binary
+     
+      extends
+       Swoole\Http\Server
+     
+     {
 
-public [push](swoole-websocket-server.push.md)(
-string `$fd`,
-string `$data`,
-string `$opcode` = ?,
-string `$finish` = ?
-): void
 
-public static [unpack](swoole-websocket-server.unpack.md)(binary
-`$data`): string
+    /* Методы */
+    
+   public exist(int $fd): bool
+public on(string $event_name, callable $callback): ReturnType
+public static pack(    string $data,    string $opcode = ?,    string $finish = ?,    string $mask = ?): binary
+public push(    string $fd,    string $data,    string $opcode = ?,    string $finish = ?): void
+public static unpack(binary $data): string
 
-/\* Наслідувані методи \*/
 
-public [Swoole\Http\Server::on](swoole-http-server.on.md)(string
-`$event_name`, [callable](language.types.callable.md) `$callback`):
-void
+    /* Наследуемые методы */
+    public Swoole\Http\Server::on(string $event_name, callable $callback): void
+public Swoole\Http\Server::start(): void
 
-public [Swoole\Http\Server::start](swoole-http-server.start.md)():
-void
 
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\WebSocket\Server::exist](swoole-websocket-server.exist.md)
-— Перевіряє, чи є опис файлу
-- [Swoole\WebSocket\Server::on](swoole-websocket-server.on.md) -
-Зареєструвати callback-функцію події
-- [Swoole\WebSocket\Server::pack](swoole-websocket-server.pack.md) -
-Отримання пакета двійкових даних для надсилання в одній групі даних
-(frame)
-- [Swoole\WebSocket\Server::push](swoole-websocket-server.push.md) -
-Надіслати дані віддаленому клієнту
-- [Swoole\WebSocket\Server::unpack](swoole-websocket-server.unpack.md)
-- Розпакувати двійкові дані, отримані від клієнта
+-   [Swoole\\WebSocket\\Server::exist](swoole-websocket-server.exist.html) — Перевіряє, чи є опис файлу
+-   [Swoole\\WebSocket\\Server::on](swoole-websocket-server.on.html) - Зареєструвати callback-функцію події
+-   [Swoole\\WebSocket\\Server::pack](swoole-websocket-server.pack.html) — Отримання пакета двійкових даних для надсилання в одній групі даних (frame)
+-   [Swoole\\WebSocket\\Server::push](swoole-websocket-server.push.html) — Надіслати дані віддаленому клієнту
+-   [Swoole\\WebSocket\\Server::unpack](swoole-websocket-server.unpack.html) - Розпакувати двійкові дані, отримані від клієнта

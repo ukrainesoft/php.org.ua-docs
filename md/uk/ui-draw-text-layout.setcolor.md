@@ -1,34 +1,44 @@
-- [« UI\Draw\Text\Layout::\_\_construct](ui-draw-text-layout.construct.md)
-- [UI\Draw\Text\Layout::setWidth »](ui-draw-text-layout.setwidth.md)
+Встановити колір
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Layout](class.ui-draw-text-layout.md)
-- встановити колір
+-   [« UI\\Draw\\Text\\Layout::\_\_construct](ui-draw-text-layout.construct.html)
+    
+-   [UI\\Draw\\Text\\Layout::setWidth »](ui-draw-text-layout.setwidth.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Layout](class.ui-draw-text-layout.html)
+    
+-   Встановити колір
+    
 
-# UI\Draw\Text\Layout::setColor
+# ОЙDrawTextLayout::setColor
 
 (UI 0.9.9)
 
-UI\Draw\Text\Layout::setColor — Встановити колір
+ОЙDrawTextLayout::setColor — Встановити колір
 
 ### Опис
 
-public
-**UI\Draw\Text\Layout::setColor**([UI\Draw\Color](class.ui-draw-color.md)
-`$color`, int `$start` = 0, int `$end` = ?)
+```methodsynopsis
+public UI\Draw\Text\Layout::setColor(UI\Draw\Color $color, int $start = 0, int $end = ?)
+```
 
-public **UI\Draw\Text\Layout::setColor**(int `$color`, int `$start` = 0,
-int `$end` = ?)
+```methodsynopsis
+public UI\Draw\Text\Layout::setColor(int $color, int $start = 0, int $end = ?)
+```
 
 Встановить колір для всього тексту або діапазону в макеті
 
 ### Список параметрів
 
-`col`
+`color`
+
 Використовуваний колір
 
 `start`
+
 Початковий символ
 
 `end`
+
 Кінцевий символ за промовчанням кінець рядка

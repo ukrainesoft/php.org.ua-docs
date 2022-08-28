@@ -1,34 +1,39 @@
-- [«openal_buffer_loadwav](function.openal-buffer-loadwav.md)
-- [openal_context_current »](function.openal-context-current.md)
+Створити контекст обробки звуку
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Створити контекст обробки звуку
+-   [« openal\_buffer\_loadwav](function.openal-buffer-loadwav.html)
+    
+-   [openal\_context\_current »](function.openal-context-current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenAL](ref.openal.html)
+    
+-   Створити контекст обробки звуку
+    
 
-#openal_context_create
+# openalcontextcreate
 
-(PECL openal = 0.1.0)
+(PECL openal >= 0.1.0)
 
-openal_context_create — Створити контекст обробки звуку
+openalcontextcreate — Створити контекст обробки звуку
 
 ### Опис
 
-**openal_context_create**(resource `$device`): resource
+```methodsynopsis
+openal_context_create(resource $device): resource
+```
 
 ### Список параметрів
 
 `device`
-Ресурс [Open AL(Device)](openal.resources.md) (заснований раніше з
-за допомогою **openal_device_create()**).
+
+Ресурс [Open AL(Device)](openal.resources.html) (Створений раніше за допомогою **openaldevicecreate()**
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Context)](openal.resources.md) у разі
-успішного виконання, **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Context)](openal.resources.html) у разі успішного виконання, **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_device_open()](function.openal-device-open.md) -
-Ініціалізувати звуковий рівень OpenAL
-- [openal_context_destroy()](function.openal-context-destroy.md) -
-Знищує контекст
+-   [openal\_device\_open()](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
+-   [openal\_context\_destroy()](function.openal-context-destroy.html) - Знищує контекст

@@ -1,38 +1,44 @@
-- [« sodium_crypto_generichash_update](function.sodium-crypto-generichash-update.md)
-- [sodium_crypto_kdf_derive_from_key »](function.sodium-crypto-kdf-derive-from-key.md)
+Отримати хеш повідомлення
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Отримати хеш повідомлення
+-   [« sodium\_crypto\_generichash\_update](function.sodium-crypto-generichash-update.html)
+    
+-   [sodium\_crypto\_kdf\_derive\_from\_key »](function.sodium-crypto-kdf-derive-from-key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Отримати хеш повідомлення
+    
 
-# sodium_crypto_generichash
+# sodiumcryptogenerichash
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_generichash — Отримати хеш повідомлення
+sodiumcryptogenerichash — Отримати повідомлення хеша
 
 ### Опис
 
-**sodium_crypto_generichash**(string `$message`, string `$key` = "", int
-`$length` = **`SODIUM_CRYPTO_GENERICHASH_BYTES`**): string
+```methodsynopsis
+sodium_crypto_generichash(string $message, string $key = "", int $length = SODIUM_CRYPTO_GENERICHASH_BYTES): string
+```
 
 Хешує повідомлення за допомогою BLAKE2b.
 
 ### Список параметрів
 
 `message`
+
 Хешені повідомлення.
 
 `key`
-(Необов'язковий) криптографічний ключ. Він виконує ту саму функцію, що
-і ключ HMAC, але використовується як зарезервований розділ внутрішнього
-стану BLAKE2.
+
+(Необов'язковий) криптографічний ключ. Він виконує ту ж функцію, що й ключ HMAC, але використовується як зарезервований розділ внутрішнього стану BLAKE2.
 
 `length`
+
 Розмір виводу.
 
 ### Значення, що повертаються
 
-Криптографічний хеш як необроблених байтів. Якщо бажаний висновок
-у шістнадцятковому коді, результат можна передати в
-[sodium_bin2hex()](function.sodium-bin2hex.md).
+Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodium\_bin2hex()](function.sodium-bin2hex.html)

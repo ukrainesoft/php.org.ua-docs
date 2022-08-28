@@ -1,37 +1,58 @@
-- [« EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md)
-- [EventHttpRequest::findHeader »](eventhttprequest.findheader.md)
+Конструктор об'єкта EventHttpRequest
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Конструктор об'єкту EventHttpRequest
+-   [« EventHttpRequest::closeConnection](eventhttprequest.closeconnection.html)
+    
+-   [EventHttpRequest::findHeader »](eventhttprequest.findheader.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Конструктор об'єкта EventHttpRequest
+    
 
-# EventHttpRequest::\_\_construct
+# EventHttpRequest::construct
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::\_\_construct — Конструктор об'єкта EventHttpRequest
+EventHttpRequest::construct — Конструктор об'єкта EventHttpRequest
 
 ### Опис
 
-public **EventHttpRequest::\_\_construct**(
-[callable](language.types.callable.md) `$callback` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** )
+```methodsynopsis
+public
+   EventHttpRequest::__construct(
+    callable
+     $callback
+   , 
+    mixed
+     $data
+     = null
+   )
+```
 
 Конструктор об'єкта EventHttpRequest.
 
 ### Список параметрів
 
 `callback`
-Викликається за запитом шляху. Повинен відповідати наступному
-прототипу:
 
-**callback**( [EventHttpRequest](class.eventhttprequest.md) `$req` =
-**`null`** ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` = **`null`** ): void
+Викликається за запитом шляху. Повинен відповідати наступному прототипу:
+
+```methodsynopsis
+callback(
+       EventHttpRequest
+        $req
+        = null
+      , 
+       mixed
+        $arg
+        = null
+      ): void
+```
 
 `data`
+
 Користувальницькі дані, що передаються в callback-функцію.
 
 ### Значення, що повертаються
@@ -40,18 +61,54 @@ public **EventHttpRequest::\_\_construct**(
 
 ### Приклади
 
-**Приклад #1 Приклад **EventHttpRequest::\_\_construct()****
+**Приклад #1 Приклад **EventHttpRequest::construct()****
 
-` <?phpfunction _request_handler($req, $base) {   echo __FUNCTION__, PHP_EOL; if (is_null($req)) {        echo "Час вийшло
-";  |                                             
-";         } elseif ($response_code != 200) {             echo "Несподівана відповідь: $response_code
-";        } else {            echo "Успішно: $response_code
-";             $buf = $req->getInputBuffer();            echo "Тіло відповіді:
-";            while ($s = $buf->readLine(EventBuffer::EOL_ANY)) {                echo $s, PHP_EOL;            }        }    }    $base->exit(NULL);}$address = "127.0.0.1";$port = 80;$base = new EventBase();$conn = new EventHttpConnection($base, NULL, $address, $port);$conn->setTimeout(5);$req = new EventHttpRequest("_ );$req->addHeader("Host", $address, EventHttpRequest::OUTPUT_HEADER);$req->addHeader("Content-Length", "0", EventHttpRequest::OUTPUT_HEADER);$conn->ma req, EventHttpRequest::CMD_GET, "/index.cphp");$base->loop();?> `
+```php
+<?php
+
+function _request_handler($req, $base) {
+    echo __FUNCTION__, PHP_EOL;
+
+    if (is_null($req)) {
+        echo "Время вышло\n";
+    } else {
+        $response_code = $req->getResponseCode();
+
+        if ($response_code == 0) {
+            echo "Соединение разорвано\n";
+        } elseif ($response_code != 200) {
+            echo "Неожиданный ответ: $response_code\n";
+        } else {
+            echo "Успешно: $response_code\n";
+            $buf = $req->getInputBuffer();
+            echo "Тело ответа:\n";
+            while ($s = $buf->readLine(EventBuffer::EOL_ANY)) {
+                echo $s, PHP_EOL;
+            }
+        }
+    }
+
+    $base->exit(NULL);
+}
+
+
+$address = "127.0.0.1";
+$port = 80;
+
+$base = new EventBase();
+$conn = new EventHttpConnection($base, NULL, $address, $port);
+$conn->setTimeout(5);
+$req = new EventHttpRequest("_request_handler", $base);
+
+$req->addHeader("Host", $address, EventHttpRequest::OUTPUT_HEADER);
+$req->addHeader("Content-Length", "0", EventHttpRequest::OUTPUT_HEADER);
+$conn->makeRequest($req, EventHttpRequest::CMD_GET, "/index.cphp");
+
+$base->loop();
+?>
+```
 
 ### Дивіться також
 
-- [EventHttpRequest::cancel()](eventhttprequest.cancel.md) -
-Скасує очікування HTTP-запиту
-- [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) -
-Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::cancel()](eventhttprequest.cancel.html) - Скасує очікування HTTP-запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту

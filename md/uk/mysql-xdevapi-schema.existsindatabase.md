@@ -1,9 +1,15 @@
-- [«Schema::dropCollection](mysql-xdevapi-schema.dropcollection.md)
-- [Schema::getCollection »](mysql-xdevapi-schema.getcollection.md)
+Перевірити, чи існує база даних
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- Перевірити, чи існує у базі даних
+-   [« Schema::dropCollection](mysql-xdevapi-schema.dropcollection.html)
+    
+-   [Schema::getCollection »](mysql-xdevapi-schema.getcollection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+    
+-   Перевірити, чи існує база даних
+    
 
 # Schema::existsInDatabase
 
@@ -13,15 +19,15 @@ Schema::existsInDatabase — Перевірити, чи існує у базі �
 
 ### Опис
 
-public **mysql_xdevapi\Schema::existsInDatabase**(): bool
+```methodsynopsis
+public mysql_xdevapi\Schema::existsInDatabase(): bool
+```
 
-Перевіряє, чи існує поточний об'єкт (схема, таблиця, колекція або
-уявлення) в об'єкті схеми.
+Перевіряє, чи існує поточний об'єкт (схема, таблиця, колекція або вистава) в об'єкті схеми.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,16 +35,37 @@ public **mysql_xdevapi\Schema::existsInDatabase**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо схема, таблиця, колекція чи подання
-все ще існують у схемі, інакше повертає **`false`**.
+Повертає **`true`**якщо схема, таблиця, колекція або подання все ще існують у схемі, в іншому випадку повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Schema::getCollection()****
+**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema = $session->getSchema("food ");$schema->createCollection("trees");// ...$trees = $schema->getCollection("trees");// ...//| )?if($trees->existsInDatabase()) {    echo "Так, колекція 'trees' все ще існує.";} `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
+
+$schema = $session->getSchema("food");
+$schema->createCollection("trees");
+
+// ...
+
+$trees = $schema->getCollection("trees");
+
+// ...
+
+// Эта коллекция всё ещё находится в базе данных (схеме)?
+if ($trees->existsInDatabase()) {
+    echo "Да, коллекция 'trees' всё ещё существует.";
+}
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Так, колекція 'trees' все ще існує.
+```
+Да, коллекция 'trees' всё ещё существует.
+```

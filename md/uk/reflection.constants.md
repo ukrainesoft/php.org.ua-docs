@@ -1,10 +1,16 @@
-- [« Типи ресурсів](reflection.resources.md)
-- [Приклади »](reflection.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Обумовлені константи
+-   [« Типы ресурсов](reflection.resources.html)
+    
+-   [Примеры »](reflection.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Кожен клас описує власні константи.

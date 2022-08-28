@@ -1,36 +1,44 @@
-- [« EventConfig::requireFeatures](eventconfig.requirefeatures.md)
-- [EventConfig::setMaxDispatchInterval »](eventconfig.setmaxdispatchinterval.md)
+Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
 
-- [PHP Manual](index.md)
-- [EventConfig](class.eventconfig.md)
-- Встановлює один або кілька прапорів для налаштування можливого
-ініціалізації EventBase
+-   [« EventConfig::requireFeatures](eventconfig.requirefeatures.html)
+    
+-   [EventConfig::setMaxDispatchInterval »](eventconfig.setmaxdispatchinterval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventConfig](class.eventconfig.html)
+    
+-   Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
+    
 
 # EventConfig::setFlags
 
-(PECL event \>= 2.0.2-alpha)
+(PECL event >= 2.0.2-alpha)
 
-EventConfig::setFlags — Встановлює один або кілька прапорів для
-налаштування можливої ініціалізації EventBase
+EventConfig::setFlags — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
 
 ### Опис
 
-public **EventConfig::setFlags**( int `$flags` ): bool
+```methodsynopsis
+public
+   EventConfig::setFlags(
+    int
+     $flags
+   ): bool
+```
 
-Встановлює один або кілька прапорів для налаштування того, які частини
-Можливі EventBase будуть ініціалізовані і як вони будуть працювати.
+Встановлює один або кілька прапорів для налаштування того, які частини можливої ​​EventBase будуть ініціалізовані та як вони працюватимуть.
 
 ### Список параметрів
 
 `flags`
-Одна із констант `EventBase::LOOP_*`. Дивіться [константи EventBase](class.eventbase.md#eventbase.constants).
+
+Одна з констант `EventBase::LOOP_*`. Дивіться [константы EventBase](class.eventbase.html#eventbase.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає
-бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.html) - Повертає бітову маску підтримуваних функцій

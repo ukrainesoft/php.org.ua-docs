@@ -1,9 +1,15 @@
-- [«Imagick::\_\_construct](imagick.construct.md)
-- [Imagick::contrastStretchImage »](imagick.contraststretchimage.md)
+Змінює контраст зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Змінює контраст зображення
+-   [« Imagick::\_\_construct](imagick.construct.html)
+    
+-   [Imagick::contrastStretchImage »](imagick.contraststretchimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Змінює контраст зображення
+    
 
 # Imagick::contrastImage
 
@@ -13,21 +19,21 @@ Imagick::contrastImage — Змінює контраст зображення
 
 ### Опис
 
-public **Imagick::contrastImage**(bool `$sharpen`): bool
+```methodsynopsis
+public Imagick::contrastImage(bool $sharpen): bool
+```
 
-Збільшує різницю в інтенсивності між світлими та темними елементами
-зображення. Встановіть збільшення різкості на значення, відмінне від 0,
-щоб збільшити контраст зображення, інакше контраст
-зменшується.
+Збільшує різницю в інтенсивності між світлими та темними елементами зображення. Встановіть збільшення різкості на значення, відмінне від 0, щоб збільшити контраст зображення, інакше контраст зменшується.
 
 ### Список параметрів
 
 `sharpen`
+
 Значення різкості
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -37,4 +43,17 @@ public **Imagick::contrastImage**(bool `$sharpen`): bool
 
 **Приклад #1 Приклад використання **Imagick::contrastImage()****
 
-`<?phpfunction contrastImage($imagePath, $contrastType) {   $imagick = new \Imagick(realpath($imagePath)); if ($contrastType != 2) {        $imagick->contrastImage($contrastType); }   header("Content-Type:image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function contrastImage($imagePath, $contrastType) {
+    $imagick = new \Imagick(realpath($imagePath));
+    if ($contrastType != 2) {
+        $imagick->contrastImage($contrastType);
+    }
+
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

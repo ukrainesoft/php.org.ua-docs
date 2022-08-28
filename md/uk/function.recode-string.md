@@ -1,41 +1,53 @@
-- [« recode_file](function.recode-file.md)
-- [recode »](function.recode.md)
+Перекодує рядок відповідно до заданих параметрів
 
-- [PHP Manual](index.md)
-- [Функції Recode](ref.recode.md)
-- Перекодує рядок відповідно до заданих параметрів
+-   [« recode\_file](function.recode-file.html)
+    
+-   [recode »](function.recode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Recode](ref.recode.html)
+    
+-   Перекодує рядок відповідно до заданих параметрів
+    
 
-# recode_string
+# recodestring
 
-(PHP 4, PHP 5, PHP 7 \< 7.4.0)
+(PHP 4, PHP 5, PHP 7 < 7.4.0)
 
-recode_string — Перекодує рядок відповідно до заданих
-параметрами
+recodestring — Перекодує рядок відповідно до заданих параметрів
 
 ### Опис
 
-**recode_string**(string `$request`, string `$string`): string
+```methodsynopsis
+recode_string(string $request, string $string): string
+```
 
-Перекодує рядок `string` відповідно до `request`.
+Перекодує рядок `string` відповідно до `request`
 
 ### Список параметрів
 
 `request`
+
 Вибраний тип запиту на перекодування
 
 `string`
+
 Рядок для перекодування
 
 ### Значення, що повертаються
 
-Повертає перекодований рядок (string) або **`false`**, якщо
-виникли будь-які проблеми з перекодуванням.
+Повертає перекодований рядок (string) або **`false`**, якщо виникли проблеми з перекодуванням.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **recode_string()****
+**Приклад #1 Приклад використання **recodestring()****
 
-`<?phpecho recode_string("us..flat", "The following character has a diacritical mark: á");?> `
+```php
+<?php
+echo recode_string("us..flat", "The following character has a diacritical mark: á");
+?>
+```
 
 ### Примітки
 
@@ -43,11 +55,7 @@ recode_string — Перекодує рядок відповідно до зад
 
 ### Дивіться також
 
-- Докладніше про запити на перекодування читайте у документації,
-яка входить до дистрибутиву GNU Recode.
-- [mb_convert_encoding()](function.mb-convert-encoding.md) -
-Перетворює рядок з одного кодування символів на інше
-- [UConverter::transcode()](uconverter.transcode.md) - Перетворює
-рядок з одного кодування символів до іншого
-- [iconv()](function.iconv.md) - Перетворює рядок з одного
-кодування символів в іншу
+-   Докладніше про запити на перекодування читайте у документації, яка входить до дистрибутиву GNU Recode.
+-   [mb\_convert\_encoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
+-   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

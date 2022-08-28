@@ -1,17 +1,22 @@
-- [«gmp_div_r](function.gmp-div-r.md)
-- [gmp_divexact »](function.gmp-divexact.md)
+Псевдонім gmpdivдо
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Псевдонім gmp_div_q
+-   [« gmp\_div\_r](function.gmp-div-r.html)
+    
+-   [gmp\_divexact »](function.gmp-divexact.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Псевдонім gmpdivдо
+    
 
-#gmp_div
+# gmpdiv
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmp_div - Псевдонім [gmp_div_q()](function.gmp-div-q.md)
+gmpdiv - Псевдонім [gmp\_div\_q()](function.gmp-div-q.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[gmp_div_q()](function.gmp-div-q.md).
+Ця функція є псевдонімом: [gmp\_div\_q()](function.gmp-div-q.html)

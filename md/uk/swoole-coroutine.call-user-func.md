@@ -1,35 +1,38 @@
-- [« Swoole\Coroutine::call_user_func_array](swoole-coroutine.call-user-func-array.md)
-- [Swoole\Coroutine::cli_wait »](swoole-coroutine.cli-wait.md)
+Викликає callback-функцію, задану першим параметром
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Викликає callback-функцію, задану першим параметром
+-   [« Swoole\\Coroutine::call\_user\_func\_array](swoole-coroutine.call-user-func-array.html)
+    
+-   [Swoole\\Coroutine::cli\_wait »](swoole-coroutine.cli-wait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Викликає callback-функцію, задану першим параметром
+    
 
-# Swoole\Coroutine::call_user_func
+# SwooleCoroutine::calluserfunc
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine::call_user_func — Викликає callback-функцію, задану
-першим параметром
+SwooleCoroutine::calluserfunc — Викликає callback-функцію, задану першим параметром
 
 ### Опис
 
-public static
-**Swoole\Coroutine::call_user_func**([callable](language.types.callable.md)
-`$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public static Swoole\Coroutine::call_user_func(callable $callback, mixed ...$args): mixed
+```
 
-Викликає callback-функцію, задану першим параметром і передає
-параметри, що залишилися, як аргументи.
+Викликає `callback`функцію, задану першим параметром і передає параметри, що залишилися, як аргументи.
 
 ### Список параметрів
 
 `callback`
-Функція [callable](language.types.callable.md) для дзвінка.
+
+Функція [callable](language.types.callable.html) для дзвінка.
 
 `args`
+
 Нуль або більше параметрів для передачі в callback-функцію.
 
 ### Значення, що повертаються

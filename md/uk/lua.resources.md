@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](lua.configuration.md)
-- [Lua »](class.lua.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](lua.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](lua.configuration.html)
+    
+-   [Lua »](class.lua.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](lua.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

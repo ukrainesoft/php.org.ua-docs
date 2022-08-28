@@ -1,19 +1,25 @@
-- [«mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- [Schema::createCollection »](mysql-xdevapi-schema.createcollection.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- Конструктор
+-   [« mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+    
+-   [Schema::createCollection »](mysql-xdevapi-schema.createcollection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+    
+-   Конструктор
+    
 
-# Schema::\_\_construct
+# Schema::construct
 
 (No version information available, might only be in Git)
 
-Schema::\_\_construct - Конструктор
+Schema::construct — Конструктор
 
 ### Опис
 
-private **mysql_xdevapi\Schema::\_\_construct**()
+private **mysqlxdevapiSchema::construct**
 
 Об'єкт Schema надає повний доступ до схеми (бази даних).
 
@@ -23,24 +29,38 @@ private **mysql_xdevapi\Schema::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Schema::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiSchema::construct()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema = $session->getSchema("food ");$schema->createCollection("trees");print_r($schema->gettables());print_r($schema->getcollections()); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
+
+$schema = $session->getSchema("food");
+$schema->createCollection("trees");
+
+print_r($schema->gettables());
+print_r($schema->getcollections());
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[fruit] => mysql_xdevapi\Table Object
-(
-[name] => fruit
-)
+    [fruit] => mysql_xdevapi\Table Object
+        (
+            [name] => fruit
+        )
 )
 Array
 (
-[trees] => mysql_xdevapi\Collection Object
-(
-[name] => trees
+    [trees] => mysql_xdevapi\Collection Object
+        (
+            [name] => trees
+        )
 )
-)
+```

@@ -1,19 +1,27 @@
-- [« Yaf_Response_Abstract::setRedirect](yaf-response-abstract.setredirect.md)
-- [Yaf_Route_Interface »](class.yaf-route-interface.md)
+Отримує все тіло у вигляді рядка
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- Отримує все тіло у вигляді рядка
+-   [« Yaf\_Response\_Abstract::setRedirect](yaf-response-abstract.setredirect.html)
+    
+-   [Yaf\_Route\_Interface »](class.yaf-route-interface.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+    
+-   Отримує все тіло у вигляді рядка
+    
 
-# Yaf_Response_Abstract::\_\_toString
+# YafResponseAbstract::function toString() { \[native code\] }
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Response_Abstract::\_\_toString — Отримує все тіло у вигляді рядка
+YafResponseAbstract::toString — Отримує все тіло у вигляді рядка
 
 ### Опис
 
-private **Yaf_Response_Abstract::\_\_toString**(): string
+```methodsynopsis
+private Yaf_Response_Abstract::__toString(): string
+```
 
 ### Список параметрів
 

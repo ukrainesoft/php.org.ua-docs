@@ -1,22 +1,29 @@
-- [« GearmanWorker::error](gearmanworker.error.md)
-- [GearmanWorker::options »](gearmanworker.options.md)
+Отримання номера помилки
 
-- [PHP Manual](index.md)
-- [GearmanWorker](class.gearmanworker.md)
-- Отримання номера помилки
+-   [« GearmanWorker::error](gearmanworker.error.html)
+    
+-   [GearmanWorker::options »](gearmanworker.options.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanWorker](class.gearmanworker.html)
+    
+-   Отримання номера помилки
+    
 
 # GearmanWorker::getErrno
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
 GearmanWorker::getErrno — Отримання номера помилки
 
 ### Опис
 
-public **GearmanWorker::getErrno**(): int
+```methodsynopsis
+public GearmanWorker::getErrno(): int
+```
 
-Повертає номер помилки, коли будь-який метод повернув значення
-GEARMAN_ERRNO.
+Повертає номер помилки, коли метод повернув значення GEARMANERRNO.
 
 ### Список параметрів
 
@@ -28,5 +35,4 @@ GEARMAN_ERRNO.
 
 ### Дивіться також
 
-- [GearmanWorker::error()](gearmanworker.error.md) - Отримання
-останньої виявленої помилки
+-   [GearmanWorker::error()](gearmanworker.error.html) - Отримання останньої виявленої помилки

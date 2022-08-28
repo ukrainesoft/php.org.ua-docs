@@ -1,27 +1,29 @@
-- [« Transliterator](class.transliterator.md)
-- [Transliterator::create »](transliterator.create.md)
+Приватний конструктор
 
-- [PHP Manual](index.md)
-- [Transliterator](class.transliterator.md)
-- приватний конструктор
+-   [« Transliterator](class.transliterator.html)
+    
+-   [Transliterator::create »](transliterator.create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Transliterator](class.transliterator.html)
+    
+-   Приватний конструктор
+    
 
-# Transliterator::\_\_construct
+# Transliterator::construct
 
-(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::\_\_construct - Приватний конструктор
+Transliterator::construct - Приватний конструктор
 
 ### Опис
 
-final private **Transliterator::\_\_construct**()
+final private **Transliterator::construct**
 
-Цей метод може бути викликаний. Він існує лише для закриття
-можливості створення об'єкта за допомогою оператора
-[new](language.oop5.basic.md#language.oop5.basic.new).
+Цей метод може бути викликаний. Він існує лише для закриття можливості створення об'єкта за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
 
-Замість нього використовуйте фабричні методи
-[Transliterator::create()](transliterator.create.md) або
-[Transliterator::createFromRules()](transliterator.createfromrules.md).
+Замість нього використовуйте фабричні методи [Transliterator::create()](transliterator.create.html) або [Transliterator::createFromRules()](transliterator.createfromrules.html)
 
 ### Список параметрів
 
@@ -29,7 +31,5 @@ final private **Transliterator::\_\_construct**()
 
 ### Дивіться також
 
-- [Transliterator::create()](transliterator.create.md) - Створити
-транслітератор
-- [Transliterator::createFromRules()](transliterator.createfromrules.md) -
-Створити транслітератор на основі правил
+-   [Transliterator::create()](transliterator.create.html) - Створити транслітератор
+-   [Transliterator::createFromRules()](transliterator.createfromrules.html) - Створити транслітератор на основі правил

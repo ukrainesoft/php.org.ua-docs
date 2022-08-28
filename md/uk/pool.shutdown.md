@@ -1,22 +1,29 @@
-- [« Pool::resize](pool.resize.md)
-- [Pool::submit »](pool.submit.md)
+Вимикає всі воркери
 
-- [PHP Manual](index.md)
-- [Pool](class.pool.md)
-- Вимикає всі воркери
+-   [« Pool::resize](pool.resize.html)
+    
+-   [Pool::submit »](pool.submit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Pool](class.pool.html)
+    
+-   Вимикає всі воркери
+    
 
 # Pool::shutdown
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Pool::shutdown - Вимикає всі воркери
 
 ### Опис
 
-public **Pool::shutdown**(): void
+```methodsynopsis
+public Pool::shutdown(): void
+```
 
-Вимикає всіх воркерів у пулі. Буде заблоковано доти, доки все
-надіслані завдання не будуть виконані.
+Вимикає всіх воркерів у пулі. Буде заблоковано доти, доки всі надіслані завдання не будуть виконані.
 
 ### Список параметрів
 
@@ -30,4 +37,21 @@ public **Pool::shutdown**(): void
 
 **Приклад #1 Вимкнення пулу**
 
-` <?phpclass Task? }}$pool==new Pool(4);for ($i = 0; $i < 10; ++$i) {   $$pool->submit(new Task());}$pool->shutdown(); // поки все відправлені завдання не завершать виконання
+```php
+<?php
+class Task extends Threaded
+{
+    public function run()
+    {
+        usleep(500000);
+    }
+}
+
+$pool = new Pool(4);
+
+for ($i = 0; $i < 10; ++$i) {
+    $pool->submit(new Task());
+}
+
+$pool->shutdown(); // пока все отправленные задачи не завершат выполнение
+```

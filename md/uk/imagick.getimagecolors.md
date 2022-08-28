@@ -1,23 +1,29 @@
-- [« Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md)
-- [Imagick::getImageColorspace »](imagick.getimagecolorspace.md)
+Повертає кількість унікальних кольорів у зображенні
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає кількість унікальних кольорів у зображенні
+-   [« Imagick::getImageColormapColor](imagick.getimagecolormapcolor.html)
+    
+-   [Imagick::getImageColorspace »](imagick.getimagecolorspace.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає кількість унікальних кольорів у зображенні
+    
 
 # Imagick::getImageColors
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageColors — Повертає кількість унікальних кольорів у
-зображенні
+Imagick::getImageColors — Повертає кількість унікальних кольорів у зображенні
 
 ### Опис
 
-public **Imagick::getImageColors**(): int
+```methodsynopsis
+public Imagick::getImageColors(): int
+```
 
-Повертає кількість унікальних кольорів у зображенні у вигляді цілого числа
-(int).
+Повертає кількість унікальних кольорів у зображенні у вигляді цілого числа (int).
 
 ### Список параметрів
 
@@ -25,4 +31,4 @@ public **Imagick::getImageColors**(): int
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

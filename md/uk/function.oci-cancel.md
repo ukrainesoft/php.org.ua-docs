@@ -1,29 +1,36 @@
-- [«oci_bind_by_name](function.oci-bind-by-name.md)
-- [oci_client_version »](function.oci-client-version.md)
+Закінчує процес читання з курсору
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Закінчує процес читання з курсору
+-   [« oci\_bind\_by\_name](function.oci-bind-by-name.html)
+    
+-   [oci\_client\_version »](function.oci-client-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Закінчує процес читання з курсору
+    
 
-#oci_cancel
+# ocicancel
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_cancel - Закінчує процес читання з курсору
+ocicancel — Закінчує процес читання з курсору
 
 ### Опис
 
-**oci_cancel**(resource `$statement`): bool
+```methodsynopsis
+oci_cancel(resource $statement): bool
+```
 
-Скидає курсор, звільняючи всі пов'язані ресурси та скасовує
-можливість читати із нього.
+Скидає курсор, звільняючи всі пов'язані ресурси та скасовує можливість читати з нього.
 
 ### Список параметрів
 
 `statement`
+
 Запит OCI.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

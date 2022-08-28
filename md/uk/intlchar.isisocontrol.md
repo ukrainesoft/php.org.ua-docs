@@ -1,21 +1,27 @@
-- [« IntlChar::isIDStart](intlchar.isidstart.md)
-- [IntlChar::isJavaIDPart »](intlchar.isjavaidpart.md)
+Перевірити, чи є символ керуючим відповідно до ISO
 
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Перевірити, чи є символ керуючим відповідно до ISO
+-   [« IntlChar::isIDStart](intlchar.isidstart.html)
+    
+-   [IntlChar::isJavaIDPart »](intlchar.isjavaidpart.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlChar](class.intlchar.html)
+    
+-   Перевірити, чи є символ керуючим відповідно до ISO
+    
 
 # IntlChar::isISOControl
 
 (PHP 7, PHP 8)
 
-IntlChar::isISOControl — Перевірити, чи є символ керуючим
-згідно ISO
+IntlChar::isISOControl — Перевірити, чи є символ керуючим відповідно до ISO
 
 ### Опис
 
-public static **IntlChar::isISOControl**(int\|string `$codepoint`):
-?bool
+```methodsynopsis
+public static IntlChar::isISOControl(int|string $codepoint): ?bool
+```
 
 Перевіряє, чи є символ керуючим відповідно до ISO.
 
@@ -24,30 +30,33 @@ public static **IntlChar::isISOControl**(int\|string `$codepoint`):
 ### Список параметрів
 
 `codepoint`
-Цілочисленне (int) завдання коду символу (наприклад, `0x2603` для *U+2603
-СНІГОВИКА*), або символ, закодований рядок UTF-8 (наприклад
-``\u{2603}"`)
+
+Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `codepoint` є керуючим символом
-ISO, **`false`** - якщо ні. У разі виникнення помилки повертає
-**`null`**.
+Повертає **`true`**, якщо `codepoint` є керуючим символом ISO, **`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::isISOControl(" "));var_dump(IntlChar::isISOControl("
-"));var_dump(IntlChar::isISOControl("\u{200e}"));?> `
+```php
+<?php
+var_dump(IntlChar::isISOControl(" "));
+var_dump(IntlChar::isISOControl("\n"));
+var_dump(IntlChar::isISOControl("\u{200e}"));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
 bool(false)
+```
 
 ### Дивіться також
 
-- [IntlChar::iscntrl()](intlchar.iscntrl.md) - Перевірити, чи є
-чи символ керуючим
+-   [IntlChar::iscntrl()](intlchar.iscntrl.html) - Перевірити, чи є символ керуючим

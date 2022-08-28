@@ -1,71 +1,61 @@
-- [« fann_randomize_weights](function.fann-randomize-weights.md)
-- [fann_reset_errno »](function.fann-reset-errno.md)
+Читає файл, у якому зберігаються дані навчання
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Читає файл, у якому зберігаються дані навчання
+-   [« fann\_randomize\_weights](function.fann-randomize-weights.html)
+    
+-   [fann\_reset\_errno »](function.fann-reset-errno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Читає файл, у якому зберігаються дані навчання
+    
 
-# fann_read_train_from_file
+# fannreadtrainfromfile
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_read_train_from_file — Читає файл, у якому зберігаються дані
-навчання
+fannreadtrainfromfile — Читає файл, у якому зберігаються дані навчання
 
 ### Опис
 
-**fann_read_train_from_file**(string `$filename`): resource
+```methodsynopsis
+fann_read_train_from_file(string $filename): resource
+```
 
 Читає файл, де зберігаються дані навчання.
 
 ### Список параметрів
 
 `filename`
-Вхідний файл у такому форматі:
 
-``` txtcode
-num_train_data num_input num_output
-вхідні дані, розділені пробілом
-вихідні дані, розділені пробілом
+Вхідний файл у наступному форматі:
 
-.
-.
-.
+numtraindata numinput numoutput вхідні дані, розділені пропуском вихідні дані, розділені пропуском
 
-вхідні дані, розділені пробілом
-вихідні дані, розділені пробілом
-````
+вхідні дані, розділені пропуском вихідні дані, розділені пропуском
 
 ### Значення, що повертаються
 
-Повертає ресурс (resource) навчальних даних, або **`false`** у разі
-виникнення помилки.
+Повертає ресурс (resource) навчальних даних, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **fann_read_train_from_file()****
+**Приклад #1 Приклад використання **fannreadtrainfromfile()****
 
-` <?php$train_data = fann_read_train_from_file("xor.data");if ($train_data) {     // Зробіть що-небудь з $train_data для функції XOR}?
+```php
+<?php
+$train_data = fann_read_train_from_file("xor.data");
+if ($train_data) {
+    // Сделайте что-нибудь с $train_data для функции XOR
+}
+?>
+```
 
 Вміст xor.data
 
-``` txtcode
-4 2 1
--1 -1
--1
--1 1
-1
-1 -1
-1
-1 1
--1
-````
-
 ### Дивіться також
 
-- [fann_train_on_data()](function.fann-train-on-data.md) - Навчання
-на всьому обсязі даних на часовому інтервалі
-- [fann_destroy_train()](function.fann-destroy-train.md) -
-Знищує тренувальні дані
-- [fann_save_train()](function.fann-save-train.md) - Зберігає
-структуру навчання у файл
+-   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fann\_destroy\_train()](function.fann-destroy-train.html) - Знищує тренувальні дані
+-   [fann\_save\_train()](function.fann-save-train.html) - Зберігає структуру навчання у файл

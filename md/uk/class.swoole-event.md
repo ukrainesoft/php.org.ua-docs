@@ -1,63 +1,54 @@
-- [« Swoole\Coroutine::suspend](swoole-coroutine.suspend.md)
-- [Swoole\Event::add »](swoole-event.add.md)
+Клас SwooleEvent
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Event
+-   [« Swoole\\Coroutine::suspend](swoole-coroutine.suspend.html)
+    
+-   [Swoole\\Event::add »](swoole-event.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleEvent
+    
 
-# Клас Swoole\Event
+# Клас SwooleEvent
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Event** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static [add](swoole-event.add.md)(
-int `$fd`,
-[callable](language.types.callable.md) `$read_callback`,
-[callable](language.types.callable.md) `$write_callback` = ?,
-string `$events` = ?
-): bool
 
-public static
-[defer](swoole-event.defer.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$callback`): void
+    
+     
+      class Swoole\Event
+     
+     {
 
-public static [del](swoole-event.del.md)(string `$fd`): bool
 
-public static [exit](swoole-event.exit.md)(): void
+    /* Методы */
+    
+   public static add(    int $fd,    callable $read_callback,    callable $write_callback = ?,    string $events = ?): bool
+public static defer(mixed $callback): void
+public static del(string $fd): bool
+public static exit(): void
+public static set(    int $fd,    string $read_callback = ?,    string $write_callback = ?,    string $events = ?): bool
+public static wait(): void
+public static write(string $fd, string $data): void
 
-public static [set](swoole-event.set.md)(
-int `$fd`,
-string `$read_callback` = ?,
-string `$write_callback` = ?,
-string `$events` = ?
-): bool
-
-public static [wait](swoole-event.wait.md)(): void
-
-public static [write](swoole-event.write.md)(string `$fd`, string
-`$data`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Event::add](swoole-event.add.md) - Додає нові
-callback-функції сокету в EventLoop
-- [Swoole\Event::defer](swoole-event.defer.md) - Додає
-callback-функцію у наступний цикл подій
-- [Swoole\Event::del](swoole-event.del.md) — Видаляє все
-callback-функції події сокету
-- [Swoole\Event::exit](swoole-event.exit.md) — Виходить із циклу
-подій, доступне тільки на стороні клієнта
-- [Swoole\Event::set](swoole-event.set.md) — Оновлює
-callback-функції події сокету
-- [Swoole\Event::wait](swoole-event.wait.md) — Опис
-- [Swoole\Event::write](swoole-event.write.md) — Записує дані в
-сокет
+-   [Swoole\\Event::add](swoole-event.add.html) — Додає нові callback функції сокету в EventLoop
+-   [Swoole\\Event::defer](swoole-event.defer.html) — Додає callback-функцію до наступного циклу подій
+-   [Swoole\\Event::del](swoole-event.del.html) - Видаляє всі callback-функції події сокету
+-   [Swoole\\Event::exit](swoole-event.exit.html) — Виходить із циклу подій, доступно лише на стороні клієнта
+-   [Swoole\\Event::set](swoole-event.set.html) - Оновлює callback-функції події сокету
+-   [Swoole\\Event::wait](swoole-event.wait.html) - Опис
+-   [Swoole\\Event::write](swoole-event.write.html) - Записує дані в сокет

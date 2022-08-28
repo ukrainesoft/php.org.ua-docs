@@ -1,39 +1,42 @@
-- [« ibase_blob_add](function.ibase-blob-add.md)
-- [ibase_blob_close »](function.ibase-blob-close.md)
+Скасує створення BLOB-об'єкта
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Скасує створення BLOB-об'єкта
+-   [« ibase\_blob\_add](function.ibase-blob-add.html)
+    
+-   [ibase\_blob\_close »](function.ibase-blob-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Скасує створення BLOB-об'єкта
+    
 
-# ibase_blob_cancel
+# ibaseblobcancel
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_blob_cancel — Скасує створення BLOB-об'єкта
+ibaseblobcancel — Скасує створення об'єкта BLOB
 
 ### Опис
 
-**ibase_blob_cancel**(resource `$blob_handle`): bool
+```methodsynopsis
+ibase_blob_cancel(resource $blob_handle): bool
+```
 
-Ця функція відкидає BLOB-об'єкт, якщо він ще не був закритий за допомогою
-[ibase_blob_close()](function.ibase-blob-close.md).
+Ця функція відкидає BLOB-об'єкт, якщо його ще не було закрито за допомогою [ibase\_blob\_close()](function.ibase-blob-close.html)
 
 ### Список параметрів
 
 `blob_handle`
-Дескриптор BLOB-об'єкта, відкритий за допомогою
-[ibase_blob_create()](function.ibase-blob-create.md).
+
+Дескриптор BLOB-об'єкта, відкритий за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ibase_blob_close()](function.ibase-blob-close.md) - Закриває
-BLOB-об'єкт
-- [ibase_blob_create()](function.ibase-blob-create.md) - Створює
-новий BLOB-об'єкт для заповнення даними
-- [ibase_blob_import()](function.ibase-blob-import.md) - Створює
-BLOB-об'єкт, копіює файл і закриває його
+-   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibase\_blob\_create()](function.ibase-blob-create.html) - Створює новий BLOB-об'єкт для заповнення даними
+-   [ibase\_blob\_import()](function.ibase-blob-import.html) - Створює BLOB-об'єкт, копіює файл і закриває його.

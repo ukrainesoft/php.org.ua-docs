@@ -1,29 +1,38 @@
-- [ trader_cosh](function.trader-cosh.md)
-- [trader_div »](function.trader-div.md)
+Подвійна експоненційна ковзна середня
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Подвійна експоненційна ковзна середня
+-   [« trader\_cosh](function.trader-cosh.html)
+    
+-   [trader\_div »](function.trader-div.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Подвійна експоненційна ковзна середня
+    
 
-# trader_dema
+# traderdema
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_dema — Подвійна експоненційна ковзна середня
+traderdema — Подвійна експоненційна ковзна середня
 
 ### Опис
 
-**trader_dema**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_dema(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

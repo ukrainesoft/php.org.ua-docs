@@ -1,71 +1,62 @@
-- [« Swoole\Client::wakeup](swoole-client.wakeup.md)
-- [Swoole\Connection\Iterator::count »](swoole-connection-iterator.count.md)
+Клас SwooleConnectionIterator
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Connection\Iterator
+-   [« Swoole\\Client::wakeup](swoole-client.wakeup.html)
+    
+-   [Swoole\\Connection\\Iterator::count »](swoole-connection-iterator.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleConnectionIterator
+    
 
-# Клас Swoole\Connection\Iterator
+# Клас SwooleConnectionIterator
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Connection\Iterator** implements
-[Iterator](class.iterator.md), [Countable](class.countable.md),
-[ArrayAccess](class.arrayaccess.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [count](swoole-connection-iterator.count.md)(): int
 
-public [current](swoole-connection-iterator.current.md)(): Connection
+    
+     
+      class Swoole\Connection\Iterator
+     
 
-public [key](swoole-connection-iterator.key.md)(): int
+     implements 
+       Iterator,  Countable,  ArrayAccess {
 
-public [next](swoole-connection-iterator.next.md)(): Connection
 
-public [offsetExists](swoole-connection-iterator.offsetexists.md)(int
-`$index`): bool
+    /* Методы */
+    
+   public count(): int
+public current(): Connection
+public key(): int
+public next(): Connection
+public offsetExists(int $index): bool
+public offsetGet(string $index): Connection
+public offsetSet(int $offset, mixed $connection): void
+public offsetUnset(int $offset): void
+public rewind(): void
+public valid(): bool
 
-public [offsetGet](swoole-connection-iterator.offsetget.md)(string
-`$index`): Connection
-
-public [offsetSet](swoole-connection-iterator.offsetset.md)(int
-`$offset`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$connection`): void
-
-public [offsetUnset](swoole-connection-iterator.offsetunset.md)(int
-`$offset`): void
-
-public [rewind](swoole-connection-iterator.rewind.md)(): void
-
-public [valid](swoole-connection-iterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [Swoole\Connection\Iterator::count](swoole-connection-iterator.count.md)
-- Вважає з'єднання
-- [Swoole\Connection\Iterator::current](swoole-connection-iterator.current.md)
-— Повертає поточний запис підключення
-- [Swoole\Connection\Iterator::key](swoole-connection-iterator.key.md)
-— Повертає ключ поточного з'єднання
-- [Swoole\Connection\Iterator::next](swoole-connection-iterator.next.md)
-— Переходить до наступного підключення
-- [Swoole\Connection\Iterator::offsetExists](swoole-connection-iterator.offsetexists.md)
-— Перевіряє, чи є усунення
-- [Swoole\Connection\Iterator::offsetGet](swoole-connection-iterator.offsetget.md)
-- Зміщення для вилучення
-- [Swoole\Connection\Iterator::offsetSet](swoole-connection-iterator.offsetset.md)
-— Призначає з'єднання для зазначеного усунення
-- [Swoole\Connection\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.md)
-— скидає зміщення
-- [Swoole\Connection\Iterator::rewind](swoole-connection-iterator.rewind.md)
-- Перемотує ітератор
-- [Swoole\Connection\Iterator::valid](swoole-connection-iterator.valid.md)
-— Перевіряє правильність поточної позиції
+-   [Swoole\\Connection\\Iterator::count](swoole-connection-iterator.count.html) - Вважає з'єднання
+-   [Swoole\\Connection\\Iterator::current](swoole-connection-iterator.current.html) — Повертає поточний запис з'єднання
+-   [Swoole\\Connection\\Iterator::key](swoole-connection-iterator.key.html) — Повертає ключ поточного з'єднання
+-   [Swoole\\Connection\\Iterator::next](swoole-connection-iterator.next.html) — Переходить до наступного з'єднання
+-   [Swoole\\Connection\\Iterator::offsetExists](swoole-connection-iterator.offsetexists.html) — Перевіряє, чи є зміщення
+-   [Swoole\\Connection\\Iterator::offsetGet](swoole-connection-iterator.offsetget.html) - Зміщення для вилучення
+-   [Swoole\\Connection\\Iterator::offsetSet](swoole-connection-iterator.offsetset.html) — Призначає з'єднання для зазначеного усунення
+-   [Swoole\\Connection\\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.html) — скидає зміщення
+-   [Swoole\\Connection\\Iterator::rewind](swoole-connection-iterator.rewind.html) - Перемотує ітератор
+-   [Swoole\\Connection\\Iterator::valid](swoole-connection-iterator.valid.html) - Перевіряє правильність поточної позиції

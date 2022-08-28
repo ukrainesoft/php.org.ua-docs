@@ -1,31 +1,38 @@
-- [« sodium_crypto_core_ristretto255_scalar_random](function.sodium-crypto-core-ristretto255-scalar-random.md)
-- [sodium_crypto_core_ristretto255_scalar_sub »](function.sodium-crypto-core-ristretto255-scalar-sub.md)
+Зменшує скалярне значення
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Зменшує скалярне значення
+-   [« sodium\_crypto\_core\_ristretto255\_scalar\_random](function.sodium-crypto-core-ristretto255-scalar-random.html)
+    
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_sub »](function.sodium-crypto-core-ristretto255-scalar-sub.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Зменшує скалярне значення
+    
 
-# sodium_crypto_core_ristretto255_scalar_reduce
+# sodiumcryptocoreristretto255scalarreduce
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-sodium_crypto_core_ristretto255_scalar_reduce — Зменшує скалярне
-значення
+sodiumcryptocoreristretto255scalarreduce — Зменшує скалярне значення
 
 ### Опис
 
-**sodium_crypto_core_ristretto255_scalar_reduce**(string `$s`): string
+```methodsynopsis
+sodium_crypto_core_ristretto255_scalar_reduce(string $s): string
+```
 
-Зменшує скалярне значення. Доступно з libsodium 1.0.18.
+Зменшує скалярне значення. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `s`
+
 Скалярне значення.
 
 ### Значення, що повертаються
@@ -34,5 +41,4 @@ sodium_crypto_core_ristretto255_scalar_reduce — Зменшує скалярн�
 
 ### Дивіться також
 
-- [sodium_crypto_core_ristretto255_scalar_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) -
-Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ

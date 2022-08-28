@@ -1,15 +1,21 @@
-- [«Вступ](intro.info.md)
-- [Вимоги »](info.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Опції/інформація PHP](book.info.md)
+-   [« Введение](intro.info.html)
+    
+-   [Требования »](info.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции/информация PHP](book.info.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](info.requirements.md)
-- [Установка](info.installation.md)
-- [Налаштування під час виконання](info.configuration.md)
-- [Типи ресурсів](info.resources.md)
+-   [Требования](info.requirements.html)
+-   [Установка](info.installation.html)
+-   [Настройка во время выполнения](info.configuration.html)
+-   [Типы ресурсов](info.resources.html)

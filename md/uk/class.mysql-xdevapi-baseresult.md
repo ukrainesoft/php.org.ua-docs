@@ -1,31 +1,44 @@
-- [«getSession](function.mysql-xdevapi-getsession.md)
-- [BaseResult::getWarnings »](mysql-xdevapi-baseresult.getwarnings.md)
+Інтерфейс BaseResult
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс BaseResult
+-   [« getSession](function.mysql-xdevapi-getsession.html)
+    
+-   [BaseResult::getWarnings »](mysql-xdevapi-baseresult.getwarnings.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Інтерфейс BaseResult
+    
 
 # Інтерфейс BaseResult
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\BaseResult** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **getWarnings**(): array
 
-abstract public **getWarningsCount**(): int
+    
+     
+      class mysql_xdevapi\BaseResult
+     
+     {
 
-}
+
+    /* Методы */
+    
+   abstract public getWarnings(): array
+abstract public getWarningsCount(): int
+
+   }
+```
 
 ## Зміст
 
-- [BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md)
-— Отримує попередження останньої операції
-- [BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.md)
-— Отримує кількість попереджень останньої операції
+-   [BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.html) — Отримує попередження останньої операції
+-   [BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.html) — Отримує кількість попереджень останньої операції

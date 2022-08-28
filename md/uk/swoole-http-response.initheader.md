@@ -1,19 +1,27 @@
-- [« Swoole\Http\Response::header](swoole-http-response.header.md)
-- [Swoole\Http\Response::rawcookie »](swoole-http-response.rawcookie.md)
+Ініціювати заголовок HTTP-відповіді
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Ініціювати заголовок HTTP-відповіді
+-   [« Swoole\\Http\\Response::header](swoole-http-response.header.html)
+    
+-   [Swoole\\Http\\Response::rawcookie »](swoole-http-response.rawcookie.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Response](class.swoole-http-response.html)
+    
+-   Ініціювати заголовок HTTP-відповіді
+    
 
-# Swoole\Http\Response::initHeader
+# SwooleHttpResponse::initHeader
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Response::initHeader — Ініціювати заголовок HTTP-відповіді
+SwooleHttpResponse::initHeader — Ініціювати заголовок HTTP-відповіді
 
 ### Опис
 
-public **Swoole\Http\Response::initHeader**(): ReturnType
+```methodsynopsis
+public Swoole\Http\Response::initHeader(): ReturnType
+```
 
 Ініціювати заголовок HTTP-відповіді.
 

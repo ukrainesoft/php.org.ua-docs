@@ -1,19 +1,27 @@
-- [«UI\Controls\Box::delete](ui-controls-box.delete.md)
-- [UI\Controls\Box::isPadded »](ui-controls-box.ispadded.md)
+Отримати орієнтацію
 
-- [PHP Manual](index.md)
-- [UI\Controls\Box](class.ui-controls-box.md)
-- Здобути орієнтацію
+-   [« UI\\Controls\\Box::delete](ui-controls-box.delete.html)
+    
+-   [UI\\Controls\\Box::isPadded »](ui-controls-box.ispadded.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Box](class.ui-controls-box.html)
+    
+-   Отримати орієнтацію
+    
 
-# UI\Controls\Box::getOrientation
+# ОЙControlsBox::getOrientation
 
 (UI 0.9.9)
 
-UI\Controls\Box::getOrientation — Отримати орієнтацію
+ОЙControlsBox::getOrientation — Отримати орієнтацію
 
 ### Опис
 
-public **UI\Controls\Box::getOrientation**(): int
+```methodsynopsis
+public UI\Controls\Box::getOrientation(): int
+```
 
 Отримує орієнтацію цього блоку
 

@@ -1,17 +1,18 @@
-- [« Вимоги](ssdeep.requirements.md)
-- [Налаштування під час виконання »](ssdeep.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ssdeep.setup.md)
-- Встановлення
+-   [« Требования](ssdeep.requirements.html)
+    
+-   [Настройка во время выполнения »](ssdeep.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ssdeep.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/ssdeep](https://pecl.php.net/package/ssdeep).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/ssdeep](https://pecl.php.net/package/ssdeep)

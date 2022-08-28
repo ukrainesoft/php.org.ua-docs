@@ -1,67 +1,78 @@
-- [« pg_lo_unlink](function.pg-lo-unlink.md)
-- [pg_meta_data »](function.pg-meta-data.md)
+Записує дані у великий об'єкт
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Записує дані у великий об'єкт
+-   [« pg\_lo\_unlink](function.pg-lo-unlink.html)
+    
+-   [pg\_meta\_data »](function.pg-meta-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Записує дані у великий об'єкт
+    
 
-#pg_lo_write
+# пглоwrite
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_lo_write — записує дані у великий об'єкт
+пглоwrite — Записує дані у великий об'єкт
 
 ### Опис
 
-**pg_lo_write**([PgSql\Lob](class.pgsql-lob.md) `$lob`, string
-`$data`, ?int `$length` = **`null`**): int\|false
+```methodsynopsis
+pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
+```
 
-**pg_lo_write()** записує дані у великий об'єкт, починаючи з поточної
-позиції внутрішнього покажчика.
+**пглоwrite()** записує дані у великий об'єкт, починаючи з поточної позиції внутрішнього покажчика.
 
-Операції з використанням інтерфейсу великих об'єктів необхідно
-укладати блок транзакції.
+Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Примітка**:
->
-> Колишня назва функції: pg_lowrite()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгlowrite()**
 
 ### Список параметрів
 
 `lob`
-An [PgSql\Lob](class.pgsql-lob.md) instance, returned by
-[pg_lo_open()](function.pg-lo-open.md).
+
+Ан [PgSql\\Lob](class.pgsql-lob.html) instance, returned by [pg\_lo\_open()](function.pg-lo-open.html)
 
 `data`
-Дані для запису на великий об'єкт. Якщо аргумент `length` заданий
-менше розміру `data`, то записані будуть лише `length` байт.
+
+Дані для запису на великий об'єкт. Якщо аргумент `length` заданий та менше розміру `data`, то записані будуть тільки `length` байт.
 
 `length`
-Необов'язковий аргумент. Максимальна кількість байт, що записуються.
-Повинен бути більшим за нуль і не перевищувати розмір `data`. За замовчуванням
-приймається рівним розміру `data`.
+
+Необов'язковий аргумент. Максимальна кількість байт, що записуються. Має бути більше нуля і не перевищувати розмір `data`. За замовчуванням приймається рівним розміром `data`
 
 ### Значення, що повертаються
 
-Кількість записаних у великий об'єкт байт, або **`false`** у разі
-виникнення помилки.
+Кількість записаних у великий об'єкт байт, або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр lob тепер чекає на екземпляр [PgSql\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | length тепер припускає значення null.                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `length` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_lo_write()****
+**Приклад #1 Приклад використання **пглоwrite()****
 
-`<?php  $doc_oid==189762345; $data==""This|will|overwrite|the|start|of|the|large object."; $database==pg_connect("dbname=jacarta"); pg_query($database, "begin"); $handle = pg_lo_open($database, $doc_oid, "w"); $data==pg_lo_write($handle,$data); pg_query($database, "commit");?> `
+```php
+<?php
+   $doc_oid = 189762345;
+   $data = "This will overwrite the start of the large object.";
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "w");
+   $data = pg_lo_write($handle, $data);
+   pg_query($database, "commit");
+?>
+```
 
 ### Дивіться також
 
-- [pg_lo_create()](function.pg-lo-create.md) - Створює великий
-об'єкт
-- [pg_lo_open()](function.pg-lo-open.md) - Відкриває великий об'єкт
-бази даних
+-   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [pg\_lo\_open()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних

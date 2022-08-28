@@ -1,84 +1,76 @@
-- [« Componere\Definition::getClosures](componere-definition.getclosures.md)
-- [Componere\Patch::\_\_construct »](componere-patch.construct.md)
+Клас ComponerePatch
 
-- [PHP Manual](index.md)
-- [Componere](book.componere.md)
-- Клас Componere\Patch
+-   [« Componere\\Definition::getClosures](componere-definition.getclosures.html)
+    
+-   [Componere\\Patch::\_\_construct »](componere-patch.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere](book.componere.html)
+    
+-   Клас ComponerePatch
+    
 
-# Клас Componere\Patch
+# Клас ComponerePatch
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
 ## Вступ
 
-Клас Patch дозволяє програмісту змінювати тип екземпляра під час
-виконання без реєстрації нового Definition.
+Клас Patch дозволяє програмісту змінювати тип екземпляра під час виконання без реєстрації нового Definition.
 
-Коли Patch знищується, він повертається, тому екземпляри, які
-були виправлені протягом терміну дії Patch, повертаються до їх
-формального типу.
+Коли Patch знищується, він повертається, тому екземпляри, які були виправлені протягом терміну дії Patch, повертаються до їхнього формального типу.
 
 ## Огляд класів
 
-final class **Componere\Patch** extends
-[Componere\Abstract\Definition](class.componere-abstract-definition.md)
-{
+```classsynopsis
 
-/\* Конструктори класу \*/
 
-public [\_\_construct](componere-patch.construct.md)(object
-`$instance`)
 
-public [\_\_construct](componere-patch.construct.md)(object
-`$instance`, array `$interfaces`)
+    
+     
+      final
+      class Componere\Patch
+     
 
-/\* Методи \*/
+     
+      extends
+       Componere\Abstract\Definition
+     
+     {
 
-public [apply](componere-patch.apply.md)(): void
 
-public [revert](componere-patch.revert.md)(): void
+    /* Конструкторы класса */
+    
+   public __construct(object $instance)
+public __construct(object $instance, array $interfaces)
 
-public [isApplied](componere-patch.isapplied.md)(): bool
 
-public [derive](componere-patch.derive.md)(object `$instance`): Patch
+    /* Методы */
+    public apply(): void
+public revert(): void
+public isApplied(): bool
+public derive(object $instance): Patch
+public getClosure(string $name): Closure
+public getClosures(): array
 
-public [getClosure](componere-patch.getclosure.md)(string `$name`):
-[Closure](class.closure.md)
 
-public [getClosures](componere-patch.getclosures.md)(): array
+    /* Наследуемые методы */
+    public Componere\Abstract\Definition::addInterface(string $interface): Definition
+public Componere\Abstract\Definition::addMethod(string $name, Componere\Method $method): Definition
+public Componere\Abstract\Definition::addTrait(string $trait): Definition
+public Componere\Abstract\Definition::getReflector(): ReflectionClass
 
-/\* Наслідувані методи \*/
 
-public
-[Componere\Abstract\Definition::addInterface](componere-abstract-definition.addinterface.md)(string
-`$interface`): Definition
-
-public
-[Componere\Abstract\Definition::addMethod](componere-abstract-definition.addmethod.md)(string
-`$name`, [Componere\Method](class.componere-method.md) `$method`):
-Definition
-
-public
-[Componere\Abstract\Definition::addTrait](componere-abstract-definition.addtrait.md)(string
-`$trait`): Definition
-
-public
-[Componere\Abstract\Definition::getReflector](componere-abstract-definition.getreflector.md)():
-[ReflectionClass](class.reflectionclass.md)
-
-}
+   }
+```
 
 ## Зміст
 
-- [Componere\Patch::\_\_construct](componere-patch.construct.md) -
-Конструктор класу Patch
-- [Componere\Patch::apply](componere-patch.apply.md) — Програма
-- [Componere\Patch::revert](componere-patch.revert.md) — Скасувати
-- [Componere\Patch::isApplied](componere-patch.isapplied.md) -
-Визначення стану
-- [Componere\Patch::derive](componere-patch.derive.md) — Отримання
-патча
-- [Componere\Patch::getClosure](componere-patch.getclosure.md) -
-Отримує замикання
-- [Componere\Patch::getClosures](componere-patch.getclosures.md) -
-Отримує замикання
+-   [Componere\\Patch::\_\_construct](componere-patch.construct.html) - Конструктор класу Patch
+-   [Componere\\Patch::apply](componere-patch.apply.html) - Додаток
+-   [Componere\\Patch::revert](componere-patch.revert.html) - Скасування
+-   [Componere\\Patch::isApplied](componere-patch.isapplied.html) — Визначення стану
+-   [Componere\\Patch::derive](componere-patch.derive.html) - Отримання патчу
+-   [Componere\\Patch::getClosure](componere-patch.getclosure.html) — Отримує замикання
+-   [Componere\\Patch::getClosures](componere-patch.getclosures.html) — Отримує замикання

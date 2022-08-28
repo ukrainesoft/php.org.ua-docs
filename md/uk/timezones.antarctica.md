@@ -1,16 +1,18 @@
-- [« Америка](timezones.america.md)
-- [Арктика »](timezones.arctic.md)
+Антарктика
 
-- [PHP Manual](index.md)
-- [Список підтримуваних часових поясів](timezones.md)
-- Антарктика
+-   [« Америка](timezones.america.html)
+    
+-   [Арктика »](timezones.arctic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список поддерживаемых часовых поясов](timezones.html)
+    
+-   Антарктика
+    
 
 ## Антарктика
 
-|                   |                    |                           |                      |
-| ----------------- | ------------------ | ------------------------- | -------------------- |
-| Antarctica/Casey  | Antarctica/Davis   | Antarctica/DumontDUrville | Antarctica/Macquarie |
-| Antarctica/Mawson | Antarctica/McMurdo | Antarctica/Palmer         | Antarctica/Rothera   |
-| Antarctica/Syowa  | Antarctica/Troll   | Antarctica/Vostok         |                      |
+< td>Antarctica/Vostok
 
-**Антарктика**
+<table class="doctable table"><caption><strong>Антарктика</strong></caption><tbody class="tbody"><tr><td>Antarctica/Casey</td><td>Antarctica/ Davis</td><td>Antarctica/DumontDUrville</td><td>Antarctica/Macquarie</td></tr><tr><td>Antarctica/Mawson</td><td>Antarctica/McMurdo</td><td>Antarctica/Palmer</td><td>Antarctica/Rothera</td></tr><tr><td>Antarctica/Syowa</td><td>Antarctica/Troll</td><td class="empty">&nbsp;</td></tr></tbody></table>

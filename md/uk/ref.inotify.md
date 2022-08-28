@@ -1,21 +1,22 @@
-- [«Зумовлені константи](inotify.constants.md)
-- [inotify_add_watch »](function.inotify-add-watch.md)
+Функції Inotify
 
-- [PHP Manual](index.md)
-- [Inotify](book.inotify.md)
-- Функції Inotify
+-   [« Предопределённые константы](inotify.constants.html)
+    
+-   [inotify\_add\_watch »](function.inotify-add-watch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Inotify](book.inotify.html)
+    
+-   Функції Inotify
+    
 
 # Функції Inotify
 
 ## Зміст
 
-- [inotify_add_watch](function.inotify-add-watch.md) — Додати
-спостерігача для екземпляра inotify
-- [inotify_init](function.inotify-init.md) - Ініціалізує
-екземпляр inotify
-- [inotify_queue_len](function.inotify-queue-len.md) - Повертає
-кількість очікуваних подій у черзі
-- [inotify_read](function.inotify-read.md) - Читає очікуючі
-повідомлення з черги
-- [inotify_rm_watch](function.inotify-rm-watch.md) — Видалити
-спостерігача
+-   [inotify\_add\_watch](function.inotify-add-watch.html) - Додати спостерігача для екземпляра inotify
+-   [inotify\_init](function.inotify-init.html) - Ініціалізує екземпляр inotify
+-   [inotify\_queue\_len](function.inotify-queue-len.html) — Повертає кількість очікуваних подій у черзі
+-   [inotify\_read](function.inotify-read.html) — Читає очікуючі повідомлення з черги
+-   [inotify\_rm\_watch](function.inotify-rm-watch.html) - Видалити спостерігача

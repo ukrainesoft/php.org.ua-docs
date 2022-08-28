@@ -1,58 +1,66 @@
-- [« ibase_blob_echo](function.ibase-blob-echo.md)
-- [ibase_blob_import »](function.ibase-blob-import.md)
+Отримує кількість байтів від відкритого BLOB-об'єкта
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Отримує кількість байтів від відкритого BLOB-об'єкта
+-   [« ibase\_blob\_echo](function.ibase-blob-echo.html)
+    
+-   [ibase\_blob\_import »](function.ibase-blob-import.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Отримує кількість байтів від відкритого BLOB-об'єкта
+    
 
-# ibase_blob_get
+# ibaseblobget
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_blob_get — Отримує кількість байтів від відкритого BLOB-об'єкта
+ibaseblobget — Отримує кількість байтів від відкритого BLOB-об'єкта
 
 ### Опис
 
-**ibase_blob_get**(resource `$blob_handle`, int `$len`): string
+```methodsynopsis
+ibase_blob_get(resource $blob_handle, int $len): string
+```
 
-Функція повертає не більше `len` байт із BLOB-об'єкта, який був
-відкритий для читання за допомогою
-[ibase_blob_open()](function.ibase-blob-open.md).
+Функція повертає не більше `len` байт із BLOB-об'єкта, який був відкритий для читання за допомогою [ibase\_blob\_open()](function.ibase-blob-open.html)
 
-> **Примітка**:
->
-> Неможливо прочитати з BLOB-об'єкта, який був відкритий для запису з
-> за допомогою [ibase_blob_create()](function.ibase-blob-create.md).
+> **Зауваження**
+> 
+> Неможливо прочитати з BLOB-об'єкта, який був відкритий для запису за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html)
 
 ### Список параметрів
 
 `blob_handle`
-BLOB-об'єкт, відкритий за допомогою
-[ibase_blob_open()](function.ibase-blob-open.md).
+
+BLOB-об'єкт, відкритий за допомогою [ibase\_blob\_open()](function.ibase-blob-open.html)
 
 `len`
+
 Розмір даних, що повертаються.
 
 ### Значення, що повертаються
 
-Повертає не більше `len` байт з BLOB-об'єкта або **`false`** у разі
-виникнення помилки.
+Повертає не більше `len` байт із BLOB-об'єкта або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibase_blob_get()****
+**Приклад #1 Приклад використання **ibaseblobget()****
 
-` <?php$result    = ibase_query("SELECT blob_value FROM table");$data       = ibase_fetch_object($result);$blob_data==ibase_blob_da> echo      ibase_blob_get($blob_hndl, $blob_data[0]);?> `
+```php
+<?php
+$result    = ibase_query("SELECT blob_value FROM table");
+$data      = ibase_fetch_object($result);
+$blob_data = ibase_blob_info($data->BLOB_VALUE);
+$blob_hndl = ibase_blob_open($data->BLOB_VALUE);
+echo         ibase_blob_get($blob_hndl, $blob_data[0]);
+?>
+```
 
-Хоча цей приклад робить не більше, ніж
-'ibase_blob_echo($data-\>BLOB_VALUE)', він показує, як отримати
-інформацію у $variable для подальших маніпуляцій.
+Хоча цей приклад робить не більше, ніж 'ibaseblobecho($data->BLOBVALUE)', він показує, як отримати інформацію в $variable для подальших маніпуляцій.
 
 ### Дивіться також
 
-- [ibase_blob_open()](function.ibase-blob-open.md) - Відкриває
-BLOB-об'єкт для вилучення частин даних
-- [ibase_blob_close()](function.ibase-blob-close.md) - Закриває
-BLOB-об'єкт
-- [ibase_blob_echo()](function.ibase-blob-echo.md) - Виводить
-вміст BLOB-об'єкта у браузер
+-   [ibase\_blob\_open()](function.ibase-blob-open.html) - Відкриває BLOB-об'єкт для вилучення частин даних
+-   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibase\_blob\_echo()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер

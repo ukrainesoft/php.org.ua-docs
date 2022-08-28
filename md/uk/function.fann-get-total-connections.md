@@ -1,29 +1,36 @@
-- [« fann_get_sarprop_weight_decay_shift](function.fann-get-sarprop-weight-decay-shift.md)
-- [fann_get_total_neurons »](function.fann-get-total-neurons.md)
+Отримує загальну кількість з'єднань у всій мережі
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Отримує загальну кількість з'єднань у всій мережі
+-   [« fann\_get\_sarprop\_weight\_decay\_shift](function.fann-get-sarprop-weight-decay-shift.html)
+    
+-   [fann\_get\_total\_neurons »](function.fann-get-total-neurons.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Отримує загальну кількість з'єднань у всій мережі
+    
 
-# fann_get_total_connections
+# fanngettotalconnections
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_total_connections — Отримує загальну кількість з'єднань у
-всієї мережі
+fanngettotalconnections — Отримує загальну кількість з'єднань у всій мережі
 
 ### Опис
 
-**fann_get_total_connections**(resource `$ann`): int
+```methodsynopsis
+fann_get_total_connections(resource $ann): int
+```
 
 Отримує загальну кількість з'єднань у всій мережі.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Загальна кількість з'єднань у всій мережі або **`false`** у випадку
-виникнення помилки.
+Загальна кількість з'єднань у всій мережі або **`false`** у разі виникнення помилки.

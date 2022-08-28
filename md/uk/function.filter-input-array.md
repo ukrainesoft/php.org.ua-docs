@@ -1,112 +1,134 @@
-- [«filter_id](function.filter-id.md)
-- [filter_input »](function.filter-input.md)
+Отримує кілька змінних ззовні PHP і, за необхідності, фільтрує їх
 
-- [PHP Manual](index.md)
-- [Функції фільтрації даних](ref.filter.md)
-- Отримує кілька змінних ззовні PHP і, за необхідності,
-фільтрує їх
+-   [« filter\_id](function.filter-id.html)
+    
+-   [filter\_input »](function.filter-input.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции фильтрации данных](ref.filter.html)
+    
+-   Отримує кілька змінних ззовні PHP і, за необхідності, фільтрує їх
+    
 
-#filter_input_array
+# filterinputarray
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-filter_input_array - Отримує кілька змінних ззовні PHP і, при
-необхідності, фільтрує їх
+filterinputarray - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
 
 ### Опис
 
-**filter_input_array**(int `$type`, array\|int `$options` =
-**`FILTER_DEFAULT`**, bool `$add_empty` = **`true`**):
-array\|false\|null
+```methodsynopsis
+filter_input_array(int $type, array|int $options = FILTER_DEFAULT, bool $add_empty = true): array|false|null
+```
 
-Ця функція корисна для отримання множини змінних без багаторазового
-виклик функції [filter_input()](function.filter-input.md).
+Ця функція корисна для отримання множини змінних без багаторазового виклику функції [filter\_input()](function.filter-input.html)
 
 ### Список параметрів
 
 `type`
-Одна з констант **`INPUT_GET`**, **`INPUT_POST`**, **`INPUT_COOKIE`**,
-**`INPUT_SERVER`** або **`INPUT_ENV`**.
+
+Одна з констант **`INPUT_GET`** **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`** або **`INPUT_ENV`**
 
 `options`
-Масив, який визначає аргументи. Допустимий ключ - рядок (string),
-містить ім'я змінної, а допустиме значення - або тип
-[фільтра](filter.filters.md), або масив (array), за необхідності
-визначальний фільтр, прапори та параметри. Якщо значення є масивом,
-допустимими ключами є `filter`, який визначає ([тип фільтра](filter.filters.md) ), `flags`, який визначає будь-які
-прапори, що застосовуються до фільтру та `options`, який визначає будь-які
-параметри, які застосовуються до фільтру. Дивіться приклад нижче для кращого
-розуміння.
 
-Цей параметр також може бути цілим числом, що містить
-[передбачену фільтрову константу](filter.constants.md). Потім
-Усі значення у вхідному масиві фільтруються цим фільтром.
+Масив, визначальний аргументи. Допустимий ключ - рядок (string), що містить ім'я змінної, а допустиме значення - або тип [фильтра](filter.filters.html), або масив (array), при необхідності визначальний фільтр, прапори та параметри. Якщо значення є масивом, допустимими ключами є `filter`, Який визначає ([тип фильтра](filter.filters.html) `flags`, який визначає будь-які прапори, що застосовуються до фільтра та `options`який визначає будь-які параметри, що застосовуються до фільтра. Дивіться нижче приклад для кращого розуміння.
+
+Цей параметр також може бути цілим числом, що містить [предопределённую фильтровую константу](filter.constants.html). Потім усі значення у вхідному масиві фільтруються цим фільтром.
 
 `add_empty`
-Додає результат відсутні ключі зі значенням **`null`**.
+
+Додає результат відсутні ключі зі значенням **`null`**
 
 ### Значення, що повертаються
 
-Масив, що містить значення запитаних змінних у разі успішного
-виконання. Якщо вхідний масив, який визначається параметром `type`, не
-заповнений, то функція поверне **`null`**, якщо прапор
-**`FILTER_NULL_ON_FAILURE`** не заданий, **`false`** в іншому випадку.
-Для інших невдалих виконань повертається **`false`**
+Масив, що містить значення змінених запитаних у разі успішного виконання. Якщо вхідний масив визначається параметром `type`, не заповнений, то функція поверне **`null`**, якщо прапор **`FILTER_NULL_ON_FAILURE`** не заданий, **`false`** в іншому випадку. Для інших невдалих виконань повертається **`false`**
 
-Значення масиву буде **`false`**, якщо фільтрація завершилася
-невдачею, чи **`null`**, якщо змінна не визначена. Або, якщо
-встановлено прапор **`FILTER_NULL_ON_FAILURE`**, повертається **`false`**,
-якщо змінна не визначена і **`null`**, якщо фільтрація завершилася
-невдачею. Якщо параметр `add_empty` дорівнює **`false`**, елемент масиву
-не буде додано для віддалених змінних.
+Значення масиву буде **`false`**, якщо фільтрація завершилася невдачею, або **`null`**якщо змінна не визначена. Або, якщо встановлено прапор **`FILTER_NULL_ON_FAILURE`**, повертається **`false`**, якщо змінна не визначена та **`null`**якщо фільтрація завершилася невдачею. Якщо параметр `add_empty` дорівнює **`false`**, елемент масиву не буде додано для віддалених змінних.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **filter_input_array()****
+**Приклад #1 Приклад використання **filterinputarray()****
 
-` <?php/* дані, отримані методом POST$_POST = array(   'product_id' => 'libgd<script>',   'component'  => array('10'),               ,  'testarray' => array('2', '23', '10', '12'),    'testscalar' => '2',);*/$args = array( | 'component'    => array('filter'    => FILTER_VALIDATE_INT,                            'flags'     => FILTER_REQUIRE_ARRAY,                            'options'   => array('min_range' => 1, 'max_range' => 10)                           ),    'version'      => FILTER_SANITIZE_ENCODED ,    'doesnotexist' => FILTER_VALIDATE_INT,    'testscalar'   => array(                            'filter' => FILTER_VALIDATE_INT,                            'flags'  => FILTER_REQUIRE_SCALAR,                           ),    'testarray'    => array(                            'filter' => FILTER_VALIDATE_INT,                            'flags'  => FILTER_REQUIRE_ARRAY,                             ));$myinputs = filter_inpu t_array(INPUT_POST, $args);var_dump($myinputs);echo "
-";?> `
+```php
+<?php
+
+/* данные, полученные методом POST
+$_POST = array(
+    'product_id' => 'libgd<script>',
+    'component'  => array('10'),
+    'version'    => '2.0.33',
+    'testarray'  => array('2', '23', '10', '12'),
+    'testscalar' => '2',
+);
+*/
+
+$args = array(
+    'product_id'   => FILTER_SANITIZE_ENCODED,
+    'component'    => array('filter'    => FILTER_VALIDATE_INT,
+                            'flags'     => FILTER_REQUIRE_ARRAY,
+                            'options'   => array('min_range' => 1, 'max_range' => 10)
+                           ),
+    'version'      => FILTER_SANITIZE_ENCODED,
+    'doesnotexist' => FILTER_VALIDATE_INT,
+    'testscalar'   => array(
+                            'filter' => FILTER_VALIDATE_INT,
+                            'flags'  => FILTER_REQUIRE_SCALAR,
+                           ),
+    'testarray'    => array(
+                            'filter' => FILTER_VALIDATE_INT,
+                            'flags'  => FILTER_REQUIRE_ARRAY,
+                           )
+
+);
+
+$myinputs = filter_input_array(INPUT_POST, $args);
+
+var_dump($myinputs);
+echo "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(6) {
-["product_id"]=>
-string(17) "libgd%3Cscript%3E"
-["component"]=>
-array(1) {
-[0]=>
-int(10)
+  ["product_id"]=>
+    string(17) "libgd%3Cscript%3E"
+  ["component"]=>
+  array(1) {
+    [0]=>
+    int(10)
+  }
+  ["version"]=>
+    string(6) "2.0.33"
+  ["doesnotexist"]=>
+  NULL
+  ["testscalar"]=>
+  int(2)
+  ["testarray"]=>
+  array(4) {
+    [0]=>
+    int(2)
+    [1]=>
+    int(23)
+    [2]=>
+    int(10)
+    [3]=>
+    int(12)
+  }
 }
-["version"]=>
-string(6) "2.0.33"
-["doesnotexist"]=>
-NULL
-["testscalar"]=>
-int(2)
-["testarray"]=>
-array(4) {
-[0]=>
-int(2)
-[1]=>
-int(23)
-[2]=>
-int(10)
-[3]=>
-int(12)
-}
-}
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> У масиві **`INPUT_SERVER`** немає ключа `REQUEST_TIME`, тому що він
-> пізніше в $_SERVER.
+> **Зауваження**
+> 
+> У масиві **`INPUT_SERVER`** немає ключа `REQUEST_TIME`, тому що він буде пізніше в [$\_SERVER](reserved.variables.server.html)
 
 ### Дивіться також
 
-- [filter_input()](function.filter-input.md) - Приймає змінну
-ззовні PHP і, при необхідності, фільтрує її
-- [filter_var_array()](function.filter-var-array.md) - Приймає
-кілька змінних і, при необхідності, фільтрує їх
-- [Типи фільтрів](filter.filters.md)
+-   [filter\_input()](function.filter-input.html) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
+-   [filter\_var\_array()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
+-   [Типы фильтров](filter.filters.html)

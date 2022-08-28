@@ -1,33 +1,39 @@
-- [« Gmagick::setimagechanneldepth](gmagick.setimagechanneldepth.md)
-- [Gmagick::setimagecompose »](gmagick.setimagecompose.md)
+Встановлює колірний простір зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює колірний простір зображення
+-   [« Gmagick::setimagechanneldepth](gmagick.setimagechanneldepth.html)
+    
+-   [Gmagick::setimagecompose »](gmagick.setimagecompose.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює колірний простір зображення
+    
 
 # Gmagick::setimagecolorspace
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimagecolorspace — Встановлює колірний простір
-зображення
+Gmagick::setimagecolorspace — Встановлює колірний простір зображення
 
 ### Опис
 
-public **Gmagick::setimagecolorspace**(int `$colorspace`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagecolorspace(int $colorspace): Gmagick
+```
 
 Встановлює колірний простір зображення.
 
 ### Список параметрів
 
 `colorspace`
-Одна з констант [Кольорового простору](gmagick.constants.md#gmagick.constants.colorspace)
-(`Gmagick::COLORSPACE_*`).
+
+Одна з констант [Цветового пространства](gmagick.constants.html#gmagick.constants.colorspace) `Gmagick::COLORSPACE_*`
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

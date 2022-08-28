@@ -1,31 +1,36 @@
-- [«quoted_printable_decode](function.quoted-printable-decode.md)
-- [quotemeta»](function.quotemeta.md)
+Перетворює 8-бітовий рядок за допомогою методу quoted-printable
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Перетворює 8-бітний рядок за допомогою методу quoted-printable
+-   [« quoted\_printable\_decode](function.quoted-printable-decode.html)
+    
+-   [quotemeta »](function.quotemeta.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Перетворює 8-бітовий рядок за допомогою методу quoted-printable
+    
 
-#quoted_printable_encode
+# quotedprintableencode
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-quoted_printable_encode — Перетворює 8-бітний рядок за допомогою методу
-quoted-printable
+quotedprintableencode — Перетворює 8-бітовий рядок за допомогою методу quoted-printable
 
 ### Опис
 
-**quoted_printable_encode**(string `$string`): string
+```methodsynopsis
+quoted_printable_encode(string $string): string
+```
 
-Повертає рядок, закодований у формат quoted-printable у
-відповідно до розділу 6.7
-[» RFC2045](http://www.faqs.org/rfcs/rfc2045).
+Повертає рядок, закодований у формат quoted-printable відповідно до розділу 6.7 [» RFC2045](http://www.faqs.org/rfcs/rfc2045)
 
-Ця функція подібна до функції [imap_8bit()](function.imap-8bit.md), за
-виключення того, що не вимагає для своєї роботи модуля IMAP.
+Ця функція подібна до функції [imap\_8bit()](function.imap-8bit.html), крім того, що не вимагає для своєї роботи модуля IMAP.
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 ### Значення, що повертаються
@@ -34,19 +39,26 @@ quoted-printable
 
 ### Приклади
 
-**Приклад #1 Приклад використання **quoted_printable_encode()****
+**Приклад #1 Приклад використання **quotedprintableencode()****
 
-` <?php$encoded = quoted_printable_encode('Möchten Sie ein paar Äpfel?');var_dump($encoded);var_dump(quoted_printable_decode($encoded));?> `
+```php
+<?php
+
+$encoded = quoted_printable_encode('Möchten Sie ein paar Äpfel?');
+
+var_dump($encoded);
+var_dump(quoted_printable_decode($encoded));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(37) "M=C3=B6chten Sie ein paar =C3=84pfel?"
 string(29) "Möchten Sie ein paar Äpfel?"
+```
 
 ### Дивіться також
 
-- [quoted_printable_decode()](function.quoted-printable-decode.md) -
-Перетворює рядок, закодований методом quoted-printable в
-8-бітний рядок
-- [iconv_mime_encode()](function.iconv-mime-encode.md) - Створює
-поле MIME-заголовка
+-   [quoted\_printable\_decode()](function.quoted-printable-decode.html) - Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
+-   [iconv\_mime\_encode()](function.iconv-mime-encode.html) - Створює поле MIME-заголовка

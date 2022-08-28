@@ -1,20 +1,27 @@
-- [«SolrResponse::getRawResponse](solrresponse.getrawresponse.md)
-- [SolrResponse::getRequestUrl »](solrresponse.getrequesturl.md)
+Повертає необроблені заголовки відповіді із сервера
 
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає необроблені заголовки відповіді із сервера
+-   [« SolrResponse::getRawResponse](solrresponse.getrawresponse.html)
+    
+-   [SolrResponse::getRequestUrl »](solrresponse.getrequesturl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrResponse](class.solrresponse.html)
+    
+-   Повертає необроблені заголовки відповіді із сервера
+    
 
 # SolrResponse::getRawResponseHeaders
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrResponse::getRawResponseHeaders — Повертає необроблені
-заголовки відповіді із сервера
+SolrResponse::getRawResponseHeaders — Повертає необроблені заголовки відповіді з сервера
 
 ### Опис
 
-public **SolrResponse::getRawResponseHeaders**(): string
+```methodsynopsis
+public SolrResponse::getRawResponseHeaders(): string
+```
 
 Повертає необроблені заголовки відповіді сервера.
 

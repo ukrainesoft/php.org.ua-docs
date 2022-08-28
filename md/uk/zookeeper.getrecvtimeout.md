@@ -1,25 +1,28 @@
-- [« Zookeeper::getConfig](zookeeper.getconfig.md)
-- [Zookeeper::getState »](zookeeper.getstate.md)
+Повертає час очікування для сесії, дійсний тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE). Це значення може змінитися після повторного підключення до сервера
 
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- Повертає час очікування для сесії, дійсний лише якщо
-з'єднання в даний час підключені (тобто останній стан
-спостерігача – ZOO_CONNECTED_STATE). Це значення може змінитися
-після повторного підключення до сервера
+-   [« Zookeeper::getConfig](zookeeper.getconfig.html)
+    
+-   [Zookeeper::getState »](zookeeper.getstate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zookeeper](class.zookeeper.html)
+    
+-   Повертає час очікування для сесії, дійсний тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE). Це значення може змінитися після повторного підключення до сервера
+    
 
 # Zookeeper::getRecvTimeout
 
-(PECL zookeeper \>= 0.1.0)
+(PECL zookeeper >= 0.1.0)
 
-Zookeeper::getRecvTimeout — Повертає час очікування для сесії,
-дійсний тільки якщо підключення в даний час підключено
-(тобто останній стан спостерігача - ZOO_CONNECTED_STATE). Це
-значення може змінитися після повторного підключення до сервера
+Zookeeper::getRecvTimeout — Повертає час очікування для сесії, дійсний, тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE). Це значення може змінитися після повторного підключення до сервера
 
 ### Опис
 
-public **Zookeeper::getRecvTimeout**(): int
+```methodsynopsis
+public
+   Zookeeper::getRecvTimeout(): int
+```
 
 ### Список параметрів
 
@@ -27,8 +30,7 @@ public **Zookeeper::getRecvTimeout**(): int
 
 ### Значення, що повертаються
 
-Повертає час очікування для сесії у разі успішного виконання та
-false у разі виникнення помилки.
+Повертає час очікування для сесії у разі успішного виконання та false у разі виникнення помилки.
 
 ### Помилки
 
@@ -36,13 +38,10 @@ false у разі виникнення помилки.
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає
-[ZookeeperException](class.zookeeperexception.md) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
 
 ### Дивіться також
 
-- [Zookeeper::\_\_construct()](zookeeper.construct.md) - Створює
-дескриптор для спілкування з zookeeper
-- [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор
-для спілкування з zookeeper
-- [ZookeeperException](class.zookeeperexception.md)
+-   [Zookeeper::\_\_construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.html)

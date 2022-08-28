@@ -1,22 +1,29 @@
-- [« DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md)
-- [DateTimeImmutable::modify »](datetimeimmutable.modify.md)
+Повертає попередження та помилки
 
-- [PHP Manual](index.md)
-- [DateTimeImmutable](class.datetimeimmutable.md)
-- Повертає попередження та помилки
+-   [« DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.html)
+    
+-   [DateTimeImmutable::modify »](datetimeimmutable.modify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTimeImmutable](class.datetimeimmutable.html)
+    
+-   Повертає попередження та помилки
+    
 
 # DateTimeImmutable::getLastErrors
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::getLastErrors — Повертає попередження та помилки
 
 ### Опис
 
-public static **DateTimeImmutable::getLastErrors**(): array\|false
+```methodsynopsis
+public static DateTimeImmutable::getLastErrors(): array|false
+```
 
-Повертає масив, що містить повідомлення про помилки та попередження,
-виявлені при розборі рядка дати/часу.
+Повертає масив, що містить повідомлення про помилки та попередження, виявлені при розборі рядка дати/часу.
 
 ### Список параметрів
 
@@ -24,35 +31,44 @@ public static **DateTimeImmutable::getLastErrors**(): array\|false
 
 ### Значення, що повертаються
 
-Повертає масив, що містить інформацію про попередження та помилки або
-**`false`**, якщо немає ні попереджень, ні помилок.
+Повертає масив, що містить інформацію про попередження та помилки або **`false`**якщо немає ні попереджень, ні помилок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**DateTimeImmutable::getLastErrors()****
+**Приклад #1 Приклад використання **DateTimeImmutable::getLastErrors()****
 
-Об'єктно-орієнтований стиль
+```php
+<?php
+try {
+    $date = new DateTimeImmutable('asdfasdf');
+} catch (Exception $e) {
+    // Только в целях демонстрации...
+    print_r(DateTimeImmutable::getLastErrors());
 
-` <?phptry {    $date = new DateTimeImmutable('asdfasdf');} catch (Exception $e) {    // Тільки в метах демонстрації... | // в об'єктно-орієнтованому стилі краще робити так:    // echo $e->getMessage();}?> `
+    // в объектно-ориентированном стиле лучше делать так:
+    // echo $e->getMessage();
+}
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 Array
 (
-[warning_count] => 1
-[warnings] => Array
-(
-[6] => Double timezone specification
-)
+   [warning_count] => 1
+   [warnings] => Array
+       (
+           [6] => Double timezone specification
+       )
 
-[error_count] => 1
-[errors] => Array
-(
-[0] => The timezone не може бути зроблено в 데이터베이스
-)
+   [error_count] => 1
+   [errors] => Array
+       (
+           [0] => The timezone could not be found in the database
+       )
 
 )
+```
 
-Індекси 6 та 0 вказують на символьні позиції у рядку, де відбулася
-помилка.
+Індекси 6 та 0 вказують на символьні позиції у рядку, де сталася помилка.

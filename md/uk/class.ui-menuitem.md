@@ -1,9 +1,15 @@
-- [«UI\Menu::\_\_construct](ui-menu.construct.md)
-- [UI\MenuItem::disable »](ui-menuitem.disable.md)
+Елемент меню
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент меню
+-   [« UI\\Menu::\_\_construct](ui-menu.construct.html)
+    
+-   [UI\\MenuItem::disable »](ui-menuitem.disable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент меню
+    
 
 # Елемент меню
 
@@ -15,30 +21,32 @@
 
 ## Огляд класів
 
-class **UI\MenuItem** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [disable](ui-menuitem.disable.md)()
 
-public [enable](ui-menuitem.enable.md)()
+    
+     
+      class UI\MenuItem
+     
+     {
 
-public [isChecked](ui-menuitem.ischecked.md)(): bool
 
-protected [onClick](ui-menuitem.onclick.md)()
+    /* Методы */
+    
+   public disable()
+public enable()
+public isChecked(): bool
+protected onClick()
+public setChecked(bool $checked)
 
-public [setChecked](ui-menuitem.setchecked.md)(bool `$checked`)
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\MenuItem::disable](ui-menuitem.disable.md) — Вимкнути пункт
-меню
-- [UI\MenuItem::enable](ui-menuitem.enable.md) — Увімкнути пункт меню
-- [UI\MenuItem::isChecked](ui-menuitem.ischecked.md) — Визначення
-вибраності пункту
-- [UI\MenuItem::onClick](ui-menuitem.onclick.md) - Обробник
-натискання
-- [UI\MenuItem::setChecked](ui-menuitem.setchecked.md) — Вибрати
-пункт меню
+-   [UI\\MenuItem::disable](ui-menuitem.disable.html) — Вимкнути пункт меню
+-   [UI\\MenuItem::enable](ui-menuitem.enable.html) — Увімкнути пункт меню
+-   [UI\\MenuItem::isChecked](ui-menuitem.ischecked.html) — Визначення обраності пункту
+-   [UI\\MenuItem::onClick](ui-menuitem.onclick.html) - Обробник натискання
+-   [UI\\MenuItem::setChecked](ui-menuitem.setchecked.html) - Вибрати пункт меню

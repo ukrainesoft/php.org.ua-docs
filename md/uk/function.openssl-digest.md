@@ -1,50 +1,52 @@
-- [« openssl_dh_compute_key](function.openssl-dh-compute-key.md)
-- [openssl_encrypt »](function.openssl-encrypt.md)
+Обчислення дайджесту
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Обчислення дайджесту
+-   [« openssl\_dh\_compute\_key](function.openssl-dh-compute-key.html)
+    
+-   [openssl\_encrypt »](function.openssl-encrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Обчислення дайджесту
+    
 
-# openssl_digest
+# openssldigest
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-openssl_digest - Обчислення дайджесту
+openssldigest - Обчислення дайджесту
 
 ### Опис
 
-**openssl_digest**(string `$data`, string `$digest_algo`, bool `$binary`
-= **`false`**): string\|false
+```methodsynopsis
+openssl_digest(string $data, string $digest_algo, bool $binary = false): string|false
+```
 
-Обчислює значення дайджесту для переданих даних за допомогою зазначеного
-методу. Повертає необроблений рядок або рядок шістнадцяткових
-чисел.
+Обчислює значення дайджесту для даних із допомогою зазначеного методу. Повертає необроблений рядок чи рядок шістнадцяткових чисел.
 
 ### Список параметрів
 
 `data`
+
 Дані.
 
 `digest_algo`
-Метод обчислення дайджесту, наприклад "sha256". Список доступних методів
-можна отримати за допомогою
-[openssl_get_md_methods()](function.openssl-get-md-methods.md).
+
+Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html)
 
 `binary`
-Якщо **`true`**, то буде повернено необроблений рядок. Інакше буде
-повернено рядок шістнадцяткових чисел.
+
+Якщо **`true`**, то буде повернено необроблений рядок. Інакше буде повернуто рядок шістнадцяткових чисел.
 
 ### Значення, що повертаються
 
-Повертає обчислений дайджест або **`false`** у разі виникнення
-помилки.
+Повертає обчислений дайджест або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Видає помилку рівня **`E_WARNING`**, якщо в параметрі `digest_algo`
-передано невідомий метод.
+Видає помилку рівня **`E_WARNING`**, якщо параметр `digest_algo` передано невідомий метод.
 
 ### Дивіться також
 
-- [openssl_get_md_methods()](function.openssl-get-md-methods.md) -
-Отримати список доступних методів хешування
+-   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування

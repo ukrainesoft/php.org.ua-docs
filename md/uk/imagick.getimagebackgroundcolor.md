@@ -1,9 +1,15 @@
-- [« Imagick::getImageAttribute](imagick.getimageattribute.md)
-- [Imagick::getImageBlob »](imagick.getimageblob.md)
+Повертає колір фону зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає колір фону зображення
+-   [« Imagick::getImageAttribute](imagick.getimageattribute.html)
+    
+-   [Imagick::getImageBlob »](imagick.getimageblob.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає колір фону зображення
+    
 
 # Imagick::getImageBackgroundColor
 
@@ -13,10 +19,11 @@ Imagick::getImageBackgroundColor — Повертає колір тла зобр
 
 ### Опис
 
-public **Imagick::getImageBackgroundColor**():
-[ImagickPixel](class.imagickpixel.md)
+```methodsynopsis
+public Imagick::getImageBackgroundColor(): ImagickPixel
+```
 
-Повертає колір зображення фону.
+Повертає колір тла зображення.
 
 ### Список параметрів
 

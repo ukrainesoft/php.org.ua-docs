@@ -1,42 +1,37 @@
-- [« Generator::rewind](generator.rewind.md)
-- [Generator::throw »](generator.throw.md)
+Передати значення у генератор
 
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Передати значення у генератор
+-   [« Generator::rewind](generator.rewind.html)
+    
+-   [Generator::throw »](generator.throw.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Generator](class.generator.html)
+    
+-   Передати значення у генератор
+    
 
 # Generator::send
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 Generator::send — Передати значення в генератор
 
 ### Опис
 
-public
-**Generator::send**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Generator::send(mixed $value): mixed
+```
 
-Передача заданого значення в генератор як результат поточного виразу
-[yield](language.generators.syntax.md#control-structures.yield) та
-поновлення його роботи.
+Передача заданого значення в генератор як результат поточного виразу [yield](language.generators.syntax.html#control-structures.yield) та поновлення його роботи.
 
-Якщо генератор ще не дійшов до першого виклику оператора
-[yield](language.generators.syntax.md#control-structures.yield), він
-виконається до моменту першого дзвінка
-[yield](language.generators.syntax.md#control-structures.yield),
-перш ніж передасть у нього значення. Так що немає потреби викликати
-генератор за допомогою [Generator::next()](generator.next.md) перед
-виклик цього методу (як це робиться в Python).
+Якщо генератор ще не дійшов до першого виклику оператора [yield](language.generators.syntax.html#control-structures.yield), він виконається до моменту першого виклику [yield](language.generators.syntax.html#control-structures.yield), Перш ніж передасть у нього значення. Так що немає необхідності викликати генератор за допомогою [Generator::next()](generator.next.html) перед викликом цього методу (як це робиться в Python).
 
 ### Список параметрів
 
 `value`
-Значення, що відправляється в генератор. Це значення буде поточним
-значенням вираження, що повертається
-[yield](language.generators.syntax.md#control-structures.yield)
-генератори.
+
+Значення, що відправляється в генератор. Це значення буде поточним значенням виразу, що повертається [yield](language.generators.syntax.html#control-structures.yield) генератора.
 
 ### Значення, що повертаються
 
@@ -46,10 +41,26 @@ public
 
 **Приклад #1 Використання **Generator::send()** для впровадження значень**
 
-` <?phpfunction printer() {    echo "I'm printer!".PHP_EOL; while(true)${  $string = yield; echo $string.PHP_EOL; }}$printer==printer();$printer->send('Hello world!');$printer->send('Bye world!');?> `
+```php
+<?php
+function printer() {
+    echo "I'm printer!".PHP_EOL;
+    while (true) {
+        $string = yield;
+        echo $string.PHP_EOL;
+    }
+}
+
+$printer = printer();
+$printer->send('Hello world!');
+$printer->send('Bye world!');
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 I'm printer!
 Hello world!
 Bye world!
+```

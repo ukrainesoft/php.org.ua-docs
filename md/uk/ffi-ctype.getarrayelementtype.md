@@ -1,25 +1,31 @@
-- [«FFI\CType::getAlignment](ffi-ctype.getalignment.md)
-- [FFI\CType::getArrayLength »](ffi-ctype.getarraylength.md)
+Опис
 
-- [PHP Manual](index.md)
-- [FFI\CType](class.ffi-ctype.md)
-- Опис
+-   [« FFI\\CType::getAlignment](ffi-ctype.getalignment.html)
+    
+-   [FFI\\CType::getArrayLength »](ffi-ctype.getarraylength.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI\\CType](class.ffi-ctype.html)
+    
+-   Опис
+    
 
-# FFI\CType::getArrayElementType
+# FFICType::getArrayElementType
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-FFI\CType::getArrayElementType — Опис
+FFICType::getArrayElementType — Опис
 
 ### Опис
 
-public **FFI\CType::getArrayElementType**():
-[FFI\CType](class.ffi-ctype.md)
+```methodsynopsis
+public FFI\CType::getArrayElementType(): FFI\CType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

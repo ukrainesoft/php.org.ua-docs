@@ -1,25 +1,31 @@
-- [« UConverter::getSourceType](uconverter.getsourcetype.md)
-- [UConverter::getSubstChars »](uconverter.getsubstchars.md)
+Отримати стандарти, пов'язані з іменами конвертерів
 
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати стандарти, пов'язані з іменами конвертерів
+-   [« UConverter::getSourceType](uconverter.getsourcetype.html)
+    
+-   [UConverter::getSubstChars »](uconverter.getsubstchars.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UConverter](class.uconverter.html)
+    
+-   Отримати стандарти, пов'язані з іменами конвертерів
+    
 
 # UConverter::getStandards
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-UConverter::getStandards — Отримати стандарти, пов'язані з іменами
-конвертерів
+UConverter::getStandards — Отримати стандарти, пов'язані з іменами конвертерів
 
 ### Опис
 
-public static **UConverter::getStandards**(): ?array
+```methodsynopsis
+public static UConverter::getStandards(): ?array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

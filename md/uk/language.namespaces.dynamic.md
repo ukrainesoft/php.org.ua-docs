@@ -1,38 +1,89 @@
-- [« Використання простору імен: основи](language.namespaces.basics.md)
-- [Ключове слово namespace та константа \_\_NAMESPACE\_\_ »](language.namespaces.nsconstants.md)
+Простори імен та динамічні особливості мови
 
-- [PHP Manual](index.md)
-- [Простори імен](language.namespaces.md)
-- простори імен та динамічні особливості мови
+-   [« Использование пространства имён: основы](language.namespaces.basics.html)
+    
+-   [Ключевое слово namespace и константа \_\_NAMESPACE\_\_ »](language.namespaces.nsconstants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Пространства имён](language.namespaces.html)
+    
+-   Простори імен та динамічні особливості мови
+    
 
 ## Простори імен та динамічні особливості мови
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-На реалізацію просторів імен у PHP вплинули і динамічні особливості
-мови. Перетворимо нижченаведений код для використання просторів імен:
+На реалізацію просторів імен PHP вплинули і динамічні особливості мови. Перетворимо нижченаведений код для використання просторів імен:
 
 **Приклад #1 Динамічно доступні елементи**
 
 example1.php:
 
-` <?phpclass classname{    function __construct()    {        echo __METHOD__,"
-";    }}function funcname(){    echo __FUNCTION__,"
-";}const constname = "global";$a = 'classname';$obj = new $a; // виводить classname::__construct$b = 'funcname';$b(); // виводить funcname' constname'), "
-"; // виводить global?> `
+```php
+<?php
+class classname
+{
+    function __construct()
+    {
+        echo __METHOD__,"\n";
+    }
+}
+function funcname()
+{
+    echo __FUNCTION__,"\n";
+}
+const constname = "global";
 
-Необхідно використати абсолютне ім'я (ім'я класу з префіксом
-простору імен). Зверніть увагу, що немає жодної різниці між
-повним ім'ям та абсолютним всередині динамічного імені класу, функції
-чи константи. Початковий зворотний сліш не є необхідним.
+$a = 'classname';
+$obj = new $a; // выводит classname::__construct
+$b = 'funcname';
+$b(); // выводит funcname
+echo constant('constname'), "\n"; // выводит global
+?>
+```
+
+Необхідно використати абсолютне ім'я (ім'я класу з префіксом простору імен). Зверніть увагу, що немає різниці між повним ім'ям і абсолютним всередині динамічного імені класу, функції або константи. Початковий зворотний сліш не є необхідним.
 
 **Приклад #2 Динамічно доступні елементи простору імен**
 
-`<?phpnamespace namespacename;class classname{     function __construct()    {        echo __METHOD__,"
-";    }}function funcname(){    echo __FUNCTION__,"
-";}const constname = "namespaced";include 'example1.php';$a = 'classname';$obj = new $a; // виводить classname::__construct$b = 'funcname';$b(); // виводить funcnameecho constant('constname'), "
-"; // виводить global/* зверніть увагу, що при використанні подвійних лапок символ зворотного сліша має бути заекранований. Наприклад, "\namespacename\classname"  
-amespacenam
+```php
+<?php
+namespace namespacename;
+class classname
+{
+    function __construct()
+    {
+        echo __METHOD__,"\n";
+    }
+}
+function funcname()
+{
+    echo __FUNCTION__,"\n";
+}
+const constname = "namespaced";
 
-Обов'язково прочитайте [Примітка про екранування імен простору
-імен у рядках](language.namespaces.faq.md#language.namespaces.faq.quote).
+include 'example1.php';
+
+$a = 'classname';
+$obj = new $a; // выводит classname::__construct
+$b = 'funcname';
+$b(); // выводит funcname
+echo constant('constname'), "\n"; // выводит global
+
+/* обратите внимание, что при использовании двойных кавычек символ обратного слеша должен быть заэкранирован. Например, "\\namespacename\\classname" */
+$a = '\namespacename\classname';
+$obj = new $a; // выводит namespacename\classname::__construct
+$a = 'namespacename\classname';
+$obj = new $a; // также выводит namespacename\classname::__construct
+$b = 'namespacename\funcname';
+$b(); // выводит namespacename\funcname
+$b = '\namespacename\funcname';
+$b(); // также выводит namespacename\funcname
+echo constant('\namespacename\constname'), "\n"; // выводит namespaced
+echo constant('namespacename\constname'), "\n"; // также выводит namespaced
+?>
+```
+
+Обов'язково прочитайте [примечание об экранировании имён пространства имён в строках](language.namespaces.faq.html#language.namespaces.faq.quote)

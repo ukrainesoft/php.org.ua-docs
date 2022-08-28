@@ -1,24 +1,30 @@
-- [«EventBase::getMethod](eventbase.getmethod.md)
-- [EventBase::gotExit »](eventbase.gotexit.md)
+Повертає поточний час базовий подій
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Повертає поточний час базовий подій
+-   [« EventBase::getMethod](eventbase.getmethod.html)
+    
+-   [EventBase::gotExit »](eventbase.gotexit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Повертає поточний час базовий подій
+    
 
 # EventBase::getTimeOfDayCached
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventBase::getTimeOfDayCached — Повертає поточний час базовий подій
 
 ### Опис
 
-public **EventBase::getTimeOfDayCached**(): float
+```methodsynopsis
+public
+   EventBase::getTimeOfDayCached(): float
+```
 
-При успішному завершенні повертає поточний час (як результат функції
-`gettimeofday()`), переглядаючи кешоване значення в *base*, якщо це
-можливо, і викликаючи `gettimeofday()` або `clock_gettime()`,
-залежно від ситуації, якщо немає кешованого часу.
+При успішному завершенні повертає поточний час (як результат функції `gettimeofday()`), переглядаючи кешоване значення в *base*, якщо це можливо, і викликаючи `gettimeofday()` або `clock_gettime()`, Залежно від ситуації, якщо немає кешованого часу.
 
 ### Список параметрів
 
@@ -26,5 +32,4 @@ public **EventBase::getTimeOfDayCached**(): float
 
 ### Значення, що повертаються
 
-Повертає поточний час бази подій. У разі виникнення помилки
-повертає **`null`**.
+Повертає поточний час *бази подій*. У разі виникнення помилки повертає **`null`**

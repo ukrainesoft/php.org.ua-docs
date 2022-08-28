@@ -1,53 +1,67 @@
-- [« Session::startTransaction](mysql-xdevapi-session.starttransaction.md)
-- [SqlStatement::bind »](mysql-xdevapi-sqlstatement.bind.md)
+Клас SqlStatement
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас SqlStatement
+-   [« Session::startTransaction](mysql-xdevapi-session.starttransaction.html)
+    
+-   [SqlStatement::bind »](mysql-xdevapi-sqlstatement.bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас SqlStatement
+    
 
 # Клас SqlStatement
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\SqlStatement** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `EXECUTE_ASYNC` = 1;
 
-const int `BUFFERED` = 2;
+    
+     
+      class mysql_xdevapi\SqlStatement
+     
+     {
 
-/\* Властивості \*/
+    /* Константы */
+    
+     const
+     int
+      EXECUTE_ASYNC = 1;
 
-public `$statement`;
+    const
+     int
+      BUFFERED = 2;
 
-/\* Методи \*/
 
-public **bind**(string `$param`):
-[mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
+    /* Свойства */
+    public
+      $statement;
 
-public **execute**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
 
-public **getNextResult**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
 
-public **getResult**():
-[mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+    /* Методы */
+    
+   public bind(string $param): mysql_xdevapi\SqlStatement
+public execute(): mysql_xdevapi\Result
+public getNextResult(): mysql_xdevapi\Result
+public getResult(): mysql_xdevapi\Result
+public hasMoreResults(): bool
 
-public **hasMoreResults**(): bool
-
-}
+   }
+```
 
 ## Властивості
 
-`statement`
+statement
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`mysql_xdevapi\SqlStatement::EXECUTE_ASYNC`**
 
@@ -55,15 +69,9 @@ public **hasMoreResults**(): bool
 
 ## Зміст
 
-- [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.md) -
-Зв'язує параметри затвердження
-- [SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.md)
-- Опис конструктора
-- [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.md) -
-Виконує операцію
-- [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.md)
-— Отримує наступний результат
-- [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.md)
-— Отримує результат
-- [SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.md)
-- Перевіряє, чи є ще результати
+-   [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.html) — Зв'язує параметри затвердження
+-   [SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.html) - Опис конструктора
+-   [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.html) — Виконує операцію
+-   [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.html) — Отримує наступний результат
+-   [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.html) — Отримує результат
+-   [SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.html) — Перевіряє, чи є ще результати

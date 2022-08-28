@@ -1,57 +1,95 @@
-- [« Yaf_Dispatcher::setView](yaf-dispatcher.setview.md)
-- [Yaf_Config_Abstract »](class.yaf-config-abstract.md)
+Вмикає/вимикає викидання винятків
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Вмикає/вимикає викидання виключень
+-   [« Yaf\_Dispatcher::setView](yaf-dispatcher.setview.html)
+    
+-   [Yaf\_Config\_Abstract »](class.yaf-config-abstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Вмикає/вимикає викидання винятків
+    
 
-# Yaf_Dispatcher::throwException
+# YafDispatcher::throwException
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Dispatcher::throwException — Вмикає/вимикає викидання
-винятків
+YafDispatcher::throwException — Вмикає/вимикає викидання винятків
 
 ### Опис
 
-public **Yaf_Dispatcher::throwException**(bool `$flag` = ?):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::throwException(bool $flag = ?): Yaf_Dispatcher
+```
 
-Включає/вимикає викидання винятків у разі виникнення
-непередбачуваної помилки. Коли включено, Yaf викидатиме винятки
-замість того, щоб викликати помилки, які можна відловити.
+Вмикає/вимикає викидання винятків у разі виникнення непередбаченої помилки. Коли увімкнено, Yaf буде викидати винятки замість того, щоб викликати помилки, які можна відловити.
 
-Ви також можете використати
-[application.dispatcher.throwException](yaf.appconfig.md#configuration.yaf.dispatcher.throwexception),
-щоб досягти тієї ж мети.
+Ви також можете використовувати [application.dispatcher.throwException](yaf.appconfig.html#configuration.yaf.dispatcher.throwexception), щоб досягти тієї ж мети.
 
 ### Список параметрів
 
 `flag`
+
 bool
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Dispatcher::throwexception()****
+**Приклад #1 Приклад використання **YafDispatcher::throwexception()****
 
-` <?php$config = array(    'application' => array(       'directory' => dirname(__FILE__),     ),);$app = new >> (true);try { {   $app->run();} catch (Yaf_Exception $e) {   var_dump($e->getMessage());}?> `
+```php
+<?php
+
+$config = array(
+    'application' => array(
+        'directory' => dirname(__FILE__),
+    ),
+);
+$app = new Yaf_Application($config);
+
+$app->getDispatcher()->throwException(true);
+
+try {
+    $app->run();
+} catch (Yaf_Exception $e) {
+    var_dump($e->getMessage());
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(59) "Не можна контролювати script /tmp/controllers/Index.php"
+```
+string(59) "Could not find controller script /tmp/controllers/Index.php"
+```
 
-**Приклад #2 Приклад використання **Yaf_Dispatcher::throwexception()****
+**Приклад #2 Приклад використання **YafDispatcher::throwexception()****
 
-` <?php$config = array(    'application' => array(       'directory' => dirname(__FILE__),     ),);$app = new >> (false);$app->run();?> `
+```php
+<?php
+
+$config = array(
+    'application' => array(
+        'directory' => dirname(__FILE__),
+    ),
+);
+$app = new Yaf_Application($config);
+
+$app->getDispatcher()->throwException(false);
+
+$app->run();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-PHP Catchable fatal error: Yaf_Application::run(): Досить не контролер script /tmp/controllers/Index.php in /tmp/1.php on line 12
+```
+PHP Catchable fatal error:  Yaf_Application::run(): Could not find controller script /tmp/controllers/Index.php in /tmp/1.php on line 12
+```
 
 ### Дивіться також
 
-- [Yaf_Dispatcher::catchException()](yaf-dispatcher.catchexception.md) -
-Включає/вимикає перехоплення винятків
-- [Yaf_Exception](class.yaf-exception.md)
+-   [Yaf\_Dispatcher::catchException()](yaf-dispatcher.catchexception.html) - Включає/вимикає перехоплення винятків
+-   [Yaf\_Exception](class.yaf-exception.html)

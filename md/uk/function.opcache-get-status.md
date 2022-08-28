@@ -1,41 +1,44 @@
-- [« opcache_get_configuration](function.opcache-get-configuration.md)
-- [opcache_invalidate »](function.opcache-invalidate.md)
+Отримати інформацію про стан кешу
 
-- [PHP Manual](index.md)
-- [Функції OPcache](ref.opcache.md)
-- Отримати інформацію про стан кешу
+-   [« opcache\_get\_configuration](function.opcache-get-configuration.html)
+    
+-   [opcache\_invalidate »](function.opcache-invalidate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OPcache](ref.opcache.html)
+    
+-   Отримати інформацію про стан кешу
+    
 
-# opcache_get_status
+# opcachegetstatus
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
+(PHP 5> = 5.5.0, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)
 
-opcache_get_status — Отримати інформацію про стан кешу
+opcachegetstatus — Отримати інформацію про стан кешу
 
 ### Опис
 
-**opcache_get_status**(bool `$include_scripts` = **`true`**):
-array\|false
+```methodsynopsis
+opcache_get_status(bool $include_scripts = true): array|false
+```
 
-Функція повертає інформацію про стан екземпляра кеша у пам'яті. Вона
-не повертає жодної інформації про файловий кеш.
+Функція повертає інформацію про стан екземпляра кеша у пам'яті. Вона не повертає жодної інформації про файловий кеш.
 
 ### Список параметрів
 
 `include_scripts`
+
 Включити інформацію про стан конкретного сценарію.
 
 ### Значення, що повертаються
 
-Повертає масив, що опціонально містить інформацію про стан
-конкретного скрипта або **`false`** у разі виникнення помилки.
+Повертає масив, що опціонально містить інформацію про стан конкретного скрипту або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Якщо використовується `opcache.restrict_api` та поточний шлях підпадає під
-заборона, то буде викликана помилка рівня E_WARNING та жодних даних
-повернуто не буде.
+Якщо використовується `opcache.restrict_api` і поточний шлях підпадає під заборону, то буде викликана помилка рівня EWARNING і жодних даних повернуто не буде.
 
 ### Дивіться також
 
-- [opcache_get_configuration()](function.opcache-get-configuration.md) -
-Отримати конфігураційну інформацію кешу
+-   [opcache\_get\_configuration()](function.opcache-get-configuration.html) - Отримати конфігураційну інформацію кешу

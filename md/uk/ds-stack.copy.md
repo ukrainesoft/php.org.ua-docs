@@ -1,19 +1,27 @@
-- [« Ds\Stack::\_\_construct](ds-stack.construct.md)
-- [Ds\Stack::count »](ds-stack.count.md)
+Повертає поверхневу копію колекції
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Повертає поверхневу копію колекції
+-   [« Ds\\Stack::\_\_construct](ds-stack.construct.html)
+    
+-   [Ds\\Stack::count »](ds-stack.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Стек](class.ds-stack.html)
+    
+-   Повертає поверхневу копію колекції
+    
 
-# Ds\Stack::copy
+# ДсStack::copy
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Stack::copy — Повертає поверхневу копію колекції
+ДсStack::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
-public **Ds\Stack::copy**(): [Ds\Stack](class.ds-stack.md)
+```methodsynopsis
+public Ds\Stack::copy(): Ds\Stack
+```
 
 Повертає поверхневу копію колекції.
 
@@ -27,22 +35,35 @@ public **Ds\Stack::copy**(): [Ds\Stack](class.ds-stack.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::copy()****
+**Приклад #1 Приклад використання **ДсStack::copy()****
 
-` <?php$a = new \Ds\Stack([1, 2, 3]);$b = $a->copy();// Зміна копії не відбивається на оригіналі$b->push(4); print_r($a);print_r($b);?> `
+```php
+<?php
+$a = new \Ds\Stack([1, 2, 3]);
+$b = $a->copy();
+
+// Изменение копии не отражается на оригинале
+$b->push(4);
+
+print_r($a);
+print_r($b);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Stack Object
 (
-[0] => 3
-[1] => 2
-[2] => 1
+    [0] => 3
+    [1] => 2
+    [2] => 1
 )
 Ds\Stack Object
 (
-[0] => 4
-[1] => 3
-[2] => 2
-[3] => 1
+    [0] => 4
+    [1] => 3
+    [2] => 2
+    [3] => 1
 )
+```

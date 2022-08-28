@@ -1,41 +1,44 @@
-- [«ZMQDevice](class.zmqdevice.md)
-- [ZMQDevice::getIdleTimeout »](zmqdevice.getidletimeout.md)
+Створює новий пристрій
 
-- [PHP Manual](index.md)
-- [ZMQDevice](class.zmqdevice.md)
-- Створює новий пристрій
+-   [« ZMQDevice](class.zmqdevice.html)
+    
+-   [ZMQDevice::getIdleTimeout »](zmqdevice.getidletimeout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQDevice](class.zmqdevice.html)
+    
+-   Створює новий пристрій
+    
 
-# ZMQDevice::\_\_construct
+# ZMQDevice::construct
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
-ZMQDevice::\_\_construct — Створює новий пристрій
+ZMQDevice::construct — Створює новий пристрій
 
 ### Опис
 
-public **ZMQDevice::\_\_construct**([ZMQSocket](class.zmqsocket.md)
-`$frontend`, [ZMQSocket](class.zmqsocket.md) `$backend`,
-[ZMQSocket](class.zmqsocket.md) `$listener` = ?)
+```methodsynopsis
+public ZMQDevice::__construct(ZMQSocket $frontend, ZMQSocket $backend, ZMQSocket $listener = ?)
+```
 
-Пристрої ØMQ можуть представляти адреси, служби, черги або будь-яку
-іншу абстракцію, яку ви хочете визначити над шарами повідомлень та
-сокетів.
+Пристрої ØMQ можуть представляти адреси, служби, черги або будь-яку іншу абстракцію, яку потрібно визначити над шарами повідомлень і сокетів.
 
 ### Список параметрів
 
 `frontend`
+
 Фронтенд пристрою. Зазвичай сюди надходять повідомлення.
 
 `backend`
+
 Бекенд пристрою. Зазвичай звідси повідомлення надсилаються.
 
 `listener`
-Сокет слухач, який приймає копії всіх повідомлень, які
-приймаються чи передаються. Тип сокету має бути SUB, PULL або DEALER.
+
+Сокет слухач, який приймає копії всіх повідомлень, які приймаються або надсилаються. Тип сокету має бути SUB, PULL чи DEALER.
 
 ### Значення, що повертаються
 
-Виклик цього методу готує пристрій. Зазвичай пристрої
-використовуються для дуже довгограючих завдань, так що викликати цей метод
-із інтерактивних скриптів не рекомендується. Якщо не вдалося
-запустити пристрій, викидається виняток ZMQDeviceException.
+Виклик цього методу готує пристрій. Зазвичай пристрої використовуються для довготривалих завдань, так що викликати цей метод з інтерактивних скриптів не рекомендується. У випадку, якщо пристрій не вдалося запустити, виключається виняток ZMQDeviceException.

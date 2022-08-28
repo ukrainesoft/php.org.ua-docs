@@ -1,18 +1,22 @@
-- [« Інструкції з встановлення на Debian GNU/Linux](install.unix.debian.md)
-- [Використання пакетів »](install.macosx.packages.md)
+Встановлення на macOS
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](install.md)
-- Установка на macOS
+-   [« Инструкции по установке на Debian GNU/Linux](install.unix.debian.html)
+    
+-   [Использование пакетов »](install.macosx.packages.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](install.html)
+    
+-   Встановлення на macOS
+    
 
-# Установка на macOS
+# Встановлення на macOS
 
 ## Зміст
 
-- [Використання пакетів](install.macosx.packages.md)
-- [Використання вбудованого PHP до macOS Monterey](install.macosx.bundled.md)
-- [компілювання PHP на macOS](install.macosx.compile.md)
+-   [Использование пакетов](install.macosx.packages.html)
+-   [Использование встроенного PHP до macOS Monterey](install.macosx.bundled.html)
+-   [Компилирование PHP на macOS](install.macosx.compile.html)
 
-Цей розділ містить керівництво та різні поради щодо встановлення PHP на
-macOS. PHP поставлявся разом з macOS, починаючи з macOS X (10.0.0)
-MacOS Monterey (12.0.0). Компілювання на яких схоже з [установкою в Unix-системах](install.unix.md).
+Цей розділ містить посібник та різні поради щодо встановлення PHP на macOS. PHP поставлявся разом з macOS, починаючи з macOS X (10.0.0) до macOS Monterey (12.0.0). Компілювання на яких схоже з [установкой в Unix-системах](install.unix.html)

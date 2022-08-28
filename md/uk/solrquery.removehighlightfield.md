@@ -1,30 +1,36 @@
-- [« SolrQuery::removeFilterQuery](solrquery.removefilterquery.md)
-- [SolrQuery::removeMltField »](solrquery.removemltfield.md)
+Видаляє одне з полів, що використовуються для виділення
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє одне з полів, що використовуються для виділення
+-   [« SolrQuery::removeFilterQuery](solrquery.removefilterquery.html)
+    
+-   [SolrQuery::removeMltField »](solrquery.removemltfield.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Видаляє одне з полів, що використовуються для виділення
+    
 
 # SolrQuery::removeHighlightField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::removeHighlightField — Видаляє одне з полів, що використовуються
-для виділення
+SolrQuery::removeHighlightField — Видаляє одне з полів, що використовуються для виділення
 
 ### Опис
 
-public **SolrQuery::removeHighlightField**(string `$field`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeHighlightField(string $field): SolrQuery
+```
 
 Видаляє одне з полів, що використовуються для виділення.
 
 ### Список параметрів
 
 `field`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

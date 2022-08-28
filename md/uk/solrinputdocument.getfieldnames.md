@@ -1,20 +1,27 @@
-- [« SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.md)
-- [SolrInputDocument::hasChildDocuments »](solrinputdocument.haschilddocuments.md)
+Повертає масив, що містить усі поля у документі
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Повертає масив, що містить усі поля у документі
+-   [« SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.html)
+    
+-   [SolrInputDocument::hasChildDocuments »](solrinputdocument.haschilddocuments.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Повертає масив, що містить усі поля у документі
+    
 
 # SolrInputDocument::getFieldNames
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrInputDocument::getFieldNames — Повертає масив, що містить усі
-поля у документі
+SolrInputDocument::getFieldNames — Повертає масив, який містить усі поля в документі
 
 ### Опис
 
-public **SolrInputDocument::getFieldNames**(): array
+```methodsynopsis
+public SolrInputDocument::getFieldNames(): array
+```
 
 Повертає масив, що містить усі поля у документі.
 
@@ -24,5 +31,4 @@ public **SolrInputDocument::getFieldNames**(): array
 
 ### Значення, що повертаються
 
-Повертає масив у разі успішного виконання та **`false`** у разі
-виникнення помилки.
+Повертає масив у разі успішного виконання та **`false`** у разі виникнення помилки.

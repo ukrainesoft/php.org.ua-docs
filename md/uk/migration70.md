@@ -1,32 +1,31 @@
-- [« Підтримка Windows](migration71.windows-support.md)
-- [Зміни, що ламають зворотну сумісність »](migration70.incompatible.md)
+Міграція з PHP 5.6.x на PHP 7.0.x
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Міграція з PHP 5.6.x на PHP 7.0.x
+-   [« Поддержка Windows](migration71.windows-support.html)
+    
+-   [Изменения, ломающие обратную совместимость »](migration70.incompatible.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Міграція з PHP 5.6.x на PHP 7.0.x
+    
 
 # Міграція з PHP 5.6.x на PHP 7.0.x
 
 ## Зміст
 
-- [Зміни, що ламають зворотну сумісність](migration70.incompatible.md)
-- [Нова функціональність](migration70.new-features.md)
-- [Функціональність, оголошена застарілою в PHP 7.0.x](migration70.deprecated.md)
-- [Змінені функції](migration70.changed-functions.md)
-- [Нові функції](migration70.new-functions.md)
-- [Нові класи та інтерфейси](migration70.classes.md)
-- [Нові глобальні константи](migration70.constants.md)
-- [Зміни у модулях SAPI](migration70.sapi-changes.md)
-- [Видалені модулі та SAPI](migration70.removed-exts-sapis.md)
-- [Інші зміни](migration70.other-changes.md)
+-   [Изменения, ломающие обратную совместимость](migration70.incompatible.html)
+-   [Новая функциональность](migration70.new-features.html)
+-   [Функциональность, объявленная устаревшей в PHP 7.0.x](migration70.deprecated.html)
+-   [Изменённые функции](migration70.changed-functions.html)
+-   [Новые функции](migration70.new-functions.html)
+-   [Новые классы и интерфейсы](migration70.classes.html)
+-   [Новые глобальные константы](migration70.constants.html)
+-   [Изменения в модулях SAPI](migration70.sapi-changes.html)
+-   [Удалённые модули и SAPI](migration70.removed-exts-sapis.html)
+-   [Другие изменения](migration70.other-changes.html)
 
-Незважаючи на те, що PHP 7.0 є новою основною версією, були
-зроблено зусилля, щоб зробити міграцію максимально безболісною.
-Цей реліз орієнтований, переважно, на видаленні функціональних
-можливостей оголошених застарілими в попередніх версіях та покращення
-узгодженості мови.
+Незважаючи на те, що PHP 7.0 є новою основною версією, були зроблені зусилля, щоб зробити міграцію максимально безболісною. Цей реліз орієнтований переважно на видаленні функціональних можливостей оголошених застарілими в попередніх версіях та покращення узгодженості мови.
 
-Є невелика кількість
-[несумісності](migration70.incompatible.md) та [новий функциональности](migration70.new-features.md), які слідують
-враховувати та тестувати перш ніж змінювати версію PHP у робочому
-оточенні.
+Є невелика кількість [несовместимостей](migration70.incompatible.html) і [новой функциональности](migration70.new-features.html), які слід враховувати та тестувати перш ніж змінювати версію PHP у робочому оточенні.

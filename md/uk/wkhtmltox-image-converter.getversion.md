@@ -1,19 +1,27 @@
-- [« wkhtmltox\Image\Converter::convert](wkhtmltox-image-converter.convert.md)
-- [PS»](book.ps.md)
+Визначити версію конвертера
 
-- [PHP Manual](index.md)
-- [wkhtmltox\Image\Converter](class.wkhtmltox-image-converter.md)
-- Визначити версію конвертера
+-   [« wkhtmltox\\Image\\Converter::convert](wkhtmltox-image-converter.convert.html)
+    
+-   [PS »](book.ps.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.html)
+    
+-   Визначити версію конвертера
+    
 
-# wkhtmltox\Image\Converter::getVersion
+# wkhtmltoxImageConverter::getVersion
 
-(wkhtmltox \>= 0.3.2)
+(wkhtmltox >= 0.3.2)
 
-wkhtmltox\Image\Converter::getVersion — Визначити версію конвертера
+wkhtmltoxImageConverter::getVersion — Визначити версію конвертера
 
 ### Опис
 
-public **wkhtmltox\Image\Converter::getVersion**(): string
+```methodsynopsis
+public wkhtmltox\Image\Converter::getVersion(): string
+```
 
 Визначає версію конвертера, як зазначено у бібліотеці libwkhtmltox
 

@@ -1,45 +1,48 @@
-- [« streamWrapper::dir_closedir](streamwrapper.dir-closedir.md)
-- [streamWrapper::dir_readdir »](streamwrapper.dir-readdir.md)
+Відкрити дескриптор директорії
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Відкрити дескриптор директорії
+-   [« streamWrapper::dir\_closedir](streamwrapper.dir-closedir.html)
+    
+-   [streamWrapper::dir\_readdir »](streamwrapper.dir-readdir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Відкрити дескриптор директорії
+    
 
-# streamWrapper::dir_opendir
+# streamWrapper::diropendir
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::dir_opendir — Відкрити дескриптор директорії
+streamWrapper::diropendir — Відкрити дескриптор директорії
 
 ### Опис
 
-public **streamWrapper::dir_opendir**(string `$path`, int `$options`):
-bool
+```methodsynopsis
+public streamWrapper::dir_opendir(string $path, int $options): bool
+```
 
-Цей метод викликається у процесі виконання
-[opendir()](function.opendir.md).
+Цей метод викликається у процесі виконання [opendir()](function.opendir.html)
 
 ### Список параметрів
 
 `path`
-Задає URL-адресу, яку було передано в [opendir()](function.opendir.md).
 
-> **Примітка**:
->
-> URL можна розділити на частини за допомогою
-> [parse_url()](function.parse-url.md).
+Задає URL-адресу, яка була передана в [opendir()](function.opendir.html)
+
+> **Зауваження**
+> 
+> URL можна розділити на частини за допомогою [parse\_url()](function.parse-url.html)
 
 `options`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [opendir()](function.opendir.md) - Відкриває дескриптор каталогу
-- [streamWrapper::dir_closedir()](streamwrapper.dir-closedir.md) -
-Закрити дескриптор директорії
-- [parse_url()](function.parse-url.md) - Розбирає URL та повертає
-його компоненти
+-   [opendir()](function.opendir.html) - Відкриває дескриптор каталогу
+-   [streamWrapper::dir\_closedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
+-   [parse\_url()](function.parse-url.html) - Розбирає URL та повертає його компоненти

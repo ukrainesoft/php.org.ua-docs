@@ -1,18 +1,22 @@
-- [«time](function.time.md)
-- [timezone_identifiers_list »](function.timezone-identifiers-list.md)
+Псевдонім DateTimeZone::listAbbreviations
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTimeZone::listAbbreviations
+-   [« time](function.time.html)
+    
+-   [timezone\_identifiers\_list »](function.timezone-identifiers-list.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTimeZone::listAbbreviations
+    
 
-#timezone_abbreviations_list
+# timezoneabbreviationslist
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-timezone_abbreviations_list - Псевдонім
-[DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.md)
+timezoneabbreviationslist - Псевдонім [DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.md)
+Ця функція є псевдонімом: [DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.html)

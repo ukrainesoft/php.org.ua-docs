@@ -1,59 +1,52 @@
-- [« DateTime::add](datetime.add.md)
-- [DateTime::createFromFormat »](datetime.createfromformat.md)
+Конструктор класу DateTime
 
-- [PHP Manual](index.md)
-- [DateTime](class.datetime.md)
-- Конструктор класу DateTime
+-   [« DateTime::add](datetime.add.html)
+    
+-   [DateTime::createFromFormat »](datetime.createfromformat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTime](class.datetime.html)
+    
+-   Конструктор класу DateTime
+    
 
-# DateTime::\_\_construct
+# DateTime::construct
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-DateTime::\_\_construct - Конструктор класу DateTime
+DateTime::construct - Конструктор класу DateTime
 
 ### Опис
 
-public **DateTime::\_\_construct**(string `$datetime` = "now",
-?[DateTimeZone](class.datetimezone.md) `$timezone` = **`null`**)
+public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.html) `$timezone` **`null`**
 
-Подібний конструктору
-[DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md),
-крім роботи з об'єктом [DateTime](class.datetime.md). Замість
-цього класу, розгляньте можливість використання класу
-[DateTimeImmutable](class.datetimeimmutable.md).
+Подібний до конструктора [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html), крім роботи з об'єктом [DateTime](class.datetime.html). Замість цього класу розгляньте можливість використання класу [DateTimeImmutable](class.datetimeimmutable.html)
 
 Повертає новий об'єкт DateTime.
 
 ### Список параметрів
 
 `datetime`
-Рядок дати/часу. Пояснення коректних форматів наведено в розділі
-[Формати дати та часу](datetime.formats.md).
 
-Якщо використовується аргумент `$timezone`, то для отримання поточного
-часу в новому об'єкті достатньо передати ``now'` як це
-аргументу.
+Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Форматы даты и времени](datetime.formats.html)
+
+Якщо використовується аргумент `$timezone`, то для отримання поточного часу в новому об'єкті достатньо передати `"now"` як цей аргумент.
 
 `timezone`
-Об'єкт класу [DateTimeZone](class.datetimezone.md), що представляє
-часовий пояс параметра $datetime.
 
-Якщо аргумент $timezone не заданий або **null, буде використаний
-поточний часовий пояс.
+Об'єкт класу [DateTimeZone](class.datetimezone.html), що представляє часовий пояс параметра `$datetime`
 
-> **Примітка**:
->
-> Значення аргументу `$timezone`, як і поточний часовий пояс
-> будуть враховуватись, якщо в якості аргументу `$datetime` передається
-> мітка часу UNIX (наприклад, `@946684800`) або час, в якому
-> Часовий пояс вже міститься (наприклад, `2010-01-28T15:00:00+02:00`).
+Якщо аргумент `$timezone` не заданий або **`null`**, буде використано поточний часовий пояс.
+
+> **Зауваження**
+> 
+> Значення аргументу `$timezone`, так само як і поточний часовий пояс не враховуватимуться, якщо як аргумент `$datetime` передається мітка часу UNIX (наприклад, `@946684800`) або час, в якому часовий пояс вже міститься (наприклад, `2010-01-28T15:00:00+02:00`
 
 ### Значення, що повертаються
 
-Повертає створений об'єкт класу DateTime. Процедурний стиль
-повертає **`false`** у разі виникнення помилки.
+Повертає створений об'єкт класу DateTime. Процедурний стиль повертає **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md) -
-Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable

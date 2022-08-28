@@ -1,35 +1,42 @@
-- [«trader_macdfix](function.trader-macdfix.md)
-- [trader_mavp »](function.trader-mavp.md)
+MESA Адаптивна ковзна середня
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- MESA Адаптивна ковзна середня
+-   [« trader\_macdfix](function.trader-macdfix.html)
+    
+-   [trader\_mavp »](function.trader-mavp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   MESA Адаптивна ковзна середня
+    
 
-# trader_mama
+# tradermama
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_mama — MESA Адаптивна ковзна середня
+tradermama — MESA Адаптивна ковзна середня
 
 ### Опис
 
-**trader_mama**(array `$real`, float `$fastLimit` = ?, float
-`$slowLimit` = ?): array
+```methodsynopsis
+trader_mama(array $real, float $fastLimit = ?, float $slowLimit = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `fastLimit`
-Верхня межа, яка використовується в адаптивному алгоритмі. Допустимі значення
-від 0,01 до 0,99.
+
+Верхня межа, яка використовується в адаптивному алгоритмі. Допустимі значення від 0.01 до 0.99.
 
 `slowLimit`
-Нижня межа, яка використовується в адаптивному алгоритмі. Допустимі значення
-від 0,01 до 0,99.
+
+Нижня межа, яка використовується в адаптивному алгоритмі. Допустимі значення від 0.01 до 0.99.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

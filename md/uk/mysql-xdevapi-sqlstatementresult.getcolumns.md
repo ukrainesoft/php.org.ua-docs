@@ -1,9 +1,15 @@
-- [« SqlStatementResult::getColumnNames](mysql-xdevapi-sqlstatementresult.getcolumnnames.md)
-- [SqlStatementResult::getGeneratedIds »](mysql-xdevapi-sqlstatementresult.getgeneratedids.md)
+Отримує стовпці
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)
-- отримує стовпці
+-   [« SqlStatementResult::getColumnNames](mysql-xdevapi-sqlstatementresult.getcolumnnames.html)
+    
+-   [SqlStatementResult::getGeneratedIds »](mysql-xdevapi-sqlstatementresult.getgeneratedids.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+    
+-   Отримує стовпці
+    
 
 # SqlStatementResult::getColumns
 
@@ -13,12 +19,13 @@ SqlStatementResult::getColumns — Отримує стовпці
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatementResult::getColumns**(): Array
+```methodsynopsis
+public mysql_xdevapi\SqlStatementResult::getColumns(): Array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +35,12 @@ public **mysql_xdevapi\SqlStatementResult::getColumns**(): Array
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatementResult::getColumns()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getColumns()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

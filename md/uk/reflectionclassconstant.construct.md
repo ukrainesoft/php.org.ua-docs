@@ -1,38 +1,42 @@
-- [«ReflectionClassConstant](class.reflectionclassconstant.md)
-- [ReflectionClassConstant::export »](reflectionclassconstant.export.md)
+Створює ReflectionClassConstant
 
-- [PHP Manual](index.md)
-- [ReflectionClassConstant](class.reflectionclassconstant.md)
-- Створює ReflectionClassConstant
+-   [« ReflectionClassConstant](class.reflectionclassconstant.html)
+    
+-   [ReflectionClassConstant::export »](reflectionclassconstant.export.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClassConstant](class.reflectionclassconstant.html)
+    
+-   Створює ReflectionClassConstant
+    
 
-# ReflectionClassConstant::\_\_construct
+# ReflectionClassConstant::construct
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-ReflectionClassConstant::\_\_construct — Створює ReflectionClassConstant
+ReflectionClassConstant::construct — Створює ReflectionClassConstant
 
 ### Опис
 
-public **ReflectionClassConstant::\_\_construct**(object\|string
-`$class`, string `$constant`)
+public **ReflectionClassConstant::construct**(object | string `$class`, string `$constant`
 
-Створює новий об'єкт
-[ReflectionClassConstant](class.reflectionclassconstant.md).
+Створює новий об'єкт [ReflectionClassConstant](class.reflectionclassconstant.html)
 
 ### Список параметрів
 
 `class`
-Рядок (string), що містить ім'я класу для відображення, або об'єкт
-(object).
+
+Рядок (string), що містить ім'я класу для відображення, або об'єкт (object).
 
 `constant`
+
 Назва константи класу.
 
 ### Помилки
 
-Викидає [Exception](class.exception.md) у випадку, якщо передана
-константа класу немає.
+Викидає [Exception](class.exception.html) якщо передана константа класу немає.
 
 ### Дивіться також
 
-- [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)
+-   [Конструкторы](language.oop5.decon.html#language.oop5.decon.constructor)

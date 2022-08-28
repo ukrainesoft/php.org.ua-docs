@@ -1,11 +1,16 @@
-- [«GnuPG](book.gnupg.md)
-- [Встановлення та налаштування »](gnupg.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [GnuPG](book.gnupg.md)
+-   [« GnuPG](book.gnupg.html)
+    
+-   [Установка и настройка »](gnupg.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG](book.gnupg.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Цей модуль дозволяє взаємодіяти з
-[» gnupg](http://www.gnupg.org/).
+Цей модуль дозволяє взаємодіяти з [» gnupg](http://www.gnupg.org/)

@@ -1,24 +1,31 @@
-- [« Yaf_Session::has](yaf-session.has.md)
-- [Yaf_Session::key »](yaf-session.key.md)
+Призначення isset
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення \_\_isset
+-   [« Yaf\_Session::has](yaf-session.has.html)
+    
+-   [Yaf\_Session::key »](yaf-session.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення isset
+    
 
-# Yaf_Session::\_\_isset
+# YafSession::isset
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::\_\_isset - Призначення \_\_isset
+YafSession::isset - Призначення isset
 
 ### Опис
 
-public **Yaf_Session::\_\_isset**(string `$name`): void
+```methodsynopsis
+public Yaf_Session::__isset(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

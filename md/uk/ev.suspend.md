@@ -1,32 +1,36 @@
-- [« Ev::supportedBackends](ev.supportedbackends.md)
-- [Ev::time »](ev.time.md)
+Призупинити цикл подій за замовчуванням
 
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Призупинити цикл подій за замовчуванням
+-   [« Ev::supportedBackends](ev.supportedbackends.html)
+    
+-   [Ev::time »](ev.time.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ev](class.ev.html)
+    
+-   Призупинити цикл подій за замовчуванням
+    
 
 # Ev:: suspend
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 Ev::suspend — Зупинити цикл подій за замовчуванням
 
 ### Опис
 
-final public static **Ev::suspend**(): void
+```methodsynopsis
+final
+   public
+   static
+   Ev::suspend(): void
+```
 
-Методи **Ev::suspend()** та [Ev::resume()](ev.resume.md),
-відповідно зупиняють та відновлюють роботу подієвого циклу.
+Методи **Ev::suspend()** і [Ev::resume()](ev.resume.html)відповідно припиняють і відновлюють роботу подієвого циклу.
 
-Всі спостерігачі таймери будуть затримані на час, що минув між
-*suspend* і *resume*, і всі спостерігачі типу *periodic* будуть
-переплановані (тобто будуть втрачені всі події, що відбулися
-під час призупинення).
+Всі спостерігачі таймери будуть затримані на час, що минув між *suspend* і *resume*, і всі спостерігачі типу *periodic* будуть переплановані (тобто будуть втрачені всі події, що сталися під час припинення).
 
-Після виклику **Ev::suspend()** заборонено викликати будь-які функції циклу
-окрім [Ev::resume()](ev.resume.md). Також забороняється викликати
-[Ev::resume()](ev.resume.md), якщо раніше не викликався
-**Ev::suspend()**.
+Після виклику **Ev::suspend()** заборонено викликати будь-які функції циклу крім [Ev::resume()](ev.resume.html). Також забороняється викликати [Ev::resume()](ev.resume.html)якщо раніше не викликався **Ev::suspend()**
 
 ### Список параметрів
 
@@ -38,5 +42,4 @@ final public static **Ev::suspend**(): void
 
 ### Дивіться також
 
-- [Ev::resume()](ev.resume.md) - Відновити виконання
-призупиненого раніше циклу подій за умовчанням
+-   [Ev::resume()](ev.resume.html) - Відновити виконання призупиненого раніше циклу подій за умовчанням

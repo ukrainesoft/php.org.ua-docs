@@ -1,20 +1,27 @@
-- [« ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md)
-- [ReflectionProperty::setAccessible »](reflectionproperty.setaccessible.md)
+Перевірка, чи є властивість статичним
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Перевірка, чи є властивість статичним
+-   [« ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.html)
+    
+-   [ReflectionProperty::setAccessible »](reflectionproperty.setaccessible.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Перевірка, чи є властивість статичним
+    
 
 # ReflectionProperty::isStatic
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::isStatic — Перевірка, чи є властивість
-статичним
+ReflectionProperty::isStatic — Перевірка, чи є властивість статичним
 
 ### Опис
 
-public **ReflectionProperty::isStatic**(): bool
+```methodsynopsis
+public ReflectionProperty::isStatic(): bool
+```
 
 Перевіряє, чи властивість статичним.
 
@@ -24,15 +31,11 @@ public **ReflectionProperty::isStatic**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо властивість статична, **`false`** в іншому випадку.
+**`true`**якщо властивість статична, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionProperty::isPublic()](reflectionproperty.ispublic.md) -
-Перевіряє, чи є властивість загальнодоступною
-- [ReflectionProperty::isProtected()](reflectionproperty.isprotected.md) -
-Перевіряє, чи властивість захищена
-- [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.md) -
-Перевіряє, чи є властивість readonly-властивістю
-- [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) -
-Перевіряє, чи властивість закрита
+-   [ReflectionProperty::isPublic()](reflectionproperty.ispublic.html) - Перевіряє, чи є властивість загальнодоступною
+-   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.html) - Перевіряє, чи властивість захищена
+-   [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.html) - Перевіряє, чи є властивість readonly-властивістю
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.html) - Перевіряє, чи властивість закрита

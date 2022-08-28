@@ -1,33 +1,39 @@
-- [« Imagick::setPage](imagick.setpage.md)
-- [Imagick::setProgressMonitor »](imagick.setprogressmonitor.md)
+Встановлює розмір точки
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює розмір точки
+-   [« Imagick::setPage](imagick.setpage.html)
+    
+-   [Imagick::setProgressMonitor »](imagick.setprogressmonitor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює розмір точки
+    
 
 # Imagick::setPointSize
 
-(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
+(PECL imagick 2> = 2.1.0, PECL imagick 3)
 
 Imagick::setPointSize — Встановлює розмір точки
 
 ### Опис
 
-public **Imagick::setPointSize**(float `$point_size`): bool
+```methodsynopsis
+public Imagick::setPointSize(float $point_size): bool
+```
 
-Встановлює об'єкт властивість розміру точки. Метод можна використати,
-наприклад, для встановлення розміру шрифту для caption: формату
-псевдозображень. Цей метод доступний, якщо Imagick був скомпільований з
-версією ImageMagick 6.3.7 чи старшою.
+Встановлює об'єкт властивість розміру точки. Метод можна використовувати, наприклад, для встановлення розміру шрифту для caption: формат псевдозображень. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.7 або старшим.
 
 ### Список параметрів
 
 `point_size`
+
 Розмір точки.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -35,9 +41,24 @@ public **Imagick::setPointSize**(float `$point_size`): bool
 
 Приклад використання Imagick::setPointSize
 
-` <?php/* Створення нового об'єкта Imagick */$im = new Imagick();/* Установка шрифту для об'єкту */$im->setFont("example.ttf");/* Установка >setPointSize(12);/* Створення заголовка */$im->newPseudoImage(100, 100, "caption:Hello");/* Робота з зображенням */?> `
+```php
+<?php
+/* Создание нового объекта Imagick */
+$im = new Imagick();
+
+/* Установка шрифта для объекта */
+$im->setFont("example.ttf");
+
+/* Установка размера */
+$im->setPointSize(12);
+
+/* Создание заголовка */
+$im->newPseudoImage(100, 100, "caption:Hello");
+
+/* Работа с изображением */
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::getPointSize()](imagick.getpointsize.md) - Повертає
-розмір точки
+-   [Imagick::getPointSize()](imagick.getpointsize.html) - Повертає розмір точки

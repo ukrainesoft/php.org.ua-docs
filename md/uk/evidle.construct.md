@@ -1,39 +1,43 @@
-- [«Evidle](class.evidle.md)
-- [EvIdle::createStopped »](evidle.createstopped.md)
+Конструктор спостерігача EvIdle
 
-- [PHP Manual](index.md)
-- [EvIdle](class.evidle.md)
-- Конструктор спостерігача EvIdle
+-   [« EvIdle](class.evidle.html)
+    
+-   [EvIdle::createStopped »](evidle.createstopped.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvIdle](class.evidle.html)
+    
+-   Конструктор спостерігача EvIdle
+    
 
-# EvIdle::\_\_construct
+# EvIdle::construct
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvIdle::\_\_construct — Конструктор спостерігача EvIdle
+EvIdle::construct - Конструктор спостерігача EvIdle
 
 ### Опис
 
-public **EvIdle::\_\_construct**(
-[callable](language.types.callable.md) `$callback` ,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?, int `$priority` = ?)
+public **EvIdle::construct** [callable](language.types.callable.html) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
 
 Створює об'єкт спостерігач EvIdle та автоматично його стартує.
 
 ### Список параметрів
 
 `callback`
-Дивіться [функції зворотного дзвінка спостерігачів](ev.watcher-callbacks.md).
+
+Дивіться [функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
 
 `data`
-Довільні дані, пов'язані зі спостерігачем.
+
+Довільні дані, асоційовані із спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
 
 ### Дивіться також
 
-- [EvIdle::createStopped()](evidle.createstopped.md) - Створити
-об'єкт класу EvIdle, але не стартувати його
-- [EvLoop::idle()](evloop.idle.md) - Створює об'єкт спостерігача
-EvIdle, пов'язаний з поточним екземпляром циклу подій
+-   [EvIdle::createStopped()](evidle.createstopped.html) - Створити об'єкт класу EvIdle, але не стартувати його
+-   [EvLoop::idle()](evloop.idle.html) - Створює об'єкт спостерігача EvIdle, пов'язаний із поточним екземпляром циклу подій

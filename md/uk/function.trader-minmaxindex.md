@@ -1,30 +1,38 @@
-- [«trader_minmax](function.trader-minmax.md)
-- [trader_minus_di »](function.trader-minus-di.md)
+Індекси найнижчих та найвищих значень за вказаний період
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Індекси найнижчих та найвищих значень за вказаний період
+-   [« trader\_minmax](function.trader-minmax.html)
+    
+-   [trader\_minus\_di »](function.trader-minus-di.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Індекси найнижчих та найвищих значень за вказаний період
+    
 
-#trader_minmaxindex
+# traderminmaxindex
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_minmaxindex — Індекси найнижчих та найвищих значень за
-зазначений період
+traderminmaxindex — Індекси найнижчих та найвищих значень за вказаний період
 
 ### Опис
 
-**trader_minmaxindex**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_minmaxindex(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

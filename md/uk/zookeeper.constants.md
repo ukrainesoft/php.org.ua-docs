@@ -1,10 +1,16 @@
-- [« Типи ресурсів](zookeeper.resources.md)
-- [Функції ZooKeeper »](ref.zookeeper.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [ZooKeeper](book.zookeeper.md)
-- Обумовлені константи
+-   [« Типы ресурсов](zookeeper.resources.html)
+    
+-   [Функции ZooKeeper »](ref.zookeeper.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZooKeeper](book.zookeeper.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

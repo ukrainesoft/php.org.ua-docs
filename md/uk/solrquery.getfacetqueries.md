@@ -1,19 +1,27 @@
-- [« SolrQuery::getFacetPrefix](solrquery.getfacetprefix.md)
-- [SolrQuery::getFacetSort »](solrquery.getfacetsort.md)
+Повертає всі фасетні запити
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі фасетні запити
+-   [« SolrQuery::getFacetPrefix](solrquery.getfacetprefix.html)
+    
+-   [SolrQuery::getFacetSort »](solrquery.getfacetsort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає всі фасетні запити
+    
 
 # SolrQuery::getFacetQueries
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getFacetQueries — Повертає всі фасетні запити
 
 ### Опис
 
-public **SolrQuery::getFacetQueries**(): array
+```methodsynopsis
+public SolrQuery::getFacetQueries(): array
+```
 
 Повертає всі фасетні запити
 
@@ -23,5 +31,4 @@ public **SolrQuery::getFacetQueries**(): array
 
 ### Значення, що повертаються
 
-Повертає масив у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає масив у разі успішного виконання та **`null`**, якщо значення не встановлено

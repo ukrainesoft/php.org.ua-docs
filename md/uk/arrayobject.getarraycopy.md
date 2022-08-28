@@ -1,9 +1,15 @@
-- [« ArrayObject::exchangeArray](arrayobject.exchangearray.md)
-- [ArrayObject::getFlags »](arrayobject.getflags.md)
+Створює копію ArrayObject
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Створює копію ArrayObject
+-   [« ArrayObject::exchangeArray](arrayobject.exchangearray.html)
+    
+-   [ArrayObject::getFlags »](arrayobject.getflags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Створює копію ArrayObject
+    
 
 # ArrayObject::getArrayCopy
 
@@ -13,9 +19,11 @@ ArrayObject::getArrayCopy — Створює копію ArrayObject
 
 ### Опис
 
-public **ArrayObject::getArrayCopy**(): array
+```methodsynopsis
+public ArrayObject::getArrayCopy(): array
+```
 
-Експортує [ArrayObject](class.arrayobject.md) у масив.
+Експортує [ArrayObject](class.arrayobject.html) у масив.
 
 ### Список параметрів
 
@@ -23,22 +31,36 @@ public **ArrayObject::getArrayCopy**(): array
 
 ### Значення, що повертаються
 
-Повертає копію масиву. Якщо [ArrayObject](class.arrayobject.md)
-посилається на об'єкт, то буде повернено масив властивостей даного об'єкта.
+Повертає копію масиву. Якщо [ArrayObject](class.arrayobject.html) посилається на об'єкт, то буде повернено масив властивостей даного об'єкта.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayObject::getArrayCopy()****
 
-`<?php// Масив з кількістю фруктів$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);$fr Ar $fruits);$fruitsArrayObject['pears'] = 4;// Створити копію масиву$copy = $fruitsArrayObject->getArrayCopy();print_r($copy);?> `
+```php
+<?php
+// Массив с количеством фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+
+$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject['pears'] = 4;
+
+// Создать копию массива
+$copy = $fruitsArrayObject->getArrayCopy();
+print_r($copy);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[lemons] => 1
-[oranges] => 4
-[bananas] => 5
-[apples] => 10
-[pears] => 4
+    [lemons] => 1
+    [oranges] => 4
+    [bananas] => 5
+    [apples] => 10
+    [pears] => 4
 )
+```

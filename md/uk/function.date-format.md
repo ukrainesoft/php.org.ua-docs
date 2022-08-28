@@ -1,17 +1,22 @@
-- [«date_diff](function.date-diff.md)
-- [date_get_last_errors »](function.date-get-last-errors.md)
+Псевдонім DateTime::format
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTime::format
+-   [« date\_diff](function.date-diff.html)
+    
+-   [date\_get\_last\_errors »](function.date-get-last-errors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTime::format
+    
 
-# date_format
+# dateformat
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-date_format - Псевдонім [DateTime::format()](datetime.format.md)
+dateformat — Псевдонім [DateTime::format()](datetime.format.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTime::format()](datetime.format.md)
+Ця функція є псевдонімом: [DateTime::format()](datetime.format.html)

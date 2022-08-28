@@ -1,36 +1,45 @@
-- [«ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md)
-- [ResourceBundle::get »](resourcebundle.get.md)
+Отримати останнє повідомлення про помилку пакету
 
-- [PHP Manual](index.md)
-- [ResourceBundle](class.resourcebundle.md)
-- Отримати останнє повідомлення про помилку пакета
+-   [« ResourceBundle::getErrorCode](resourcebundle.geterrorcode.html)
+    
+-   [ResourceBundle::get »](resourcebundle.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ResourceBundle](class.resourcebundle.html)
+    
+-   Отримати останнє повідомлення про помилку пакету
+    
 
 # ResourceBundle::getErrorMessage
 
-# resourcebundle_get_error_message
+# resourcebundlegeterrormessage
 
-(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::getErrorMessage -- resourcebundle_get_error_message --
-Отримати останнє повідомлення про помилку пакета
+ResourceBundle::getErrorMessage -- resourcebundlegeterrormessage — Отримати останнє повідомлення про помилку пакета
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **ResourceBundle::getErrorMessage**(): string
+```methodsynopsis
+public ResourceBundle::getErrorMessage(): string
+```
 
 Процедурний стиль
 
-**resourcebundle_get_error_message**([ResourceBundle](class.resourcebundle.md)
-`$bundle`): string
+```methodsynopsis
+resourcebundle_get_error_message(ResourceBundle $bundle): string
+```
 
 Повертає останнє повідомлення про помилку під час виклику функцій пакета.
 
 ### Список параметрів
 
 `bundle`
-Об'єкт [ResourceBundle](class.resourcebundle.md).
+
+Об'єкт [ResourceBundle](class.resourcebundle.html)
 
 ### Значення, що повертаються
 
@@ -38,20 +47,32 @@ public **ResourceBundle::getErrorMessage**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**resourcebundle_get_error_message()****
+**Приклад #1 Приклад використання **resourcebundlegeterrormessage()****
 
-` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo $r['somestring'];if(intl_is_failure(resourcebundle_get_error_code($r))) {     пакету: ".resourcebundle_get_error_message($r));}?> `
+```php
+<?php
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo $r['somestring'];
+if(intl_is_failure(resourcebundle_get_error_code($r))) {
+    report_error("Ошибка пакета: ".resourcebundle_get_error_message($r));
+}
+?>
+```
 
 **Приклад #2 Приклад в об'єктно-орієнтованому стилі**
 
-` <?php$r = new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r['somestring'];if(intl_is_failure(ResourceBundle::getErrorCode($r)))) { report_error("Помилка пакета: ".ResourceBundle::getErrorMessage($r));}?> `
+```php
+<?php
+$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
+echo $r['somestring'];
+if(intl_is_failure(ResourceBundle::getErrorCode($r))) {
+    report_error("Ошибка пакета: ".ResourceBundle::getErrorMessage($r));
+}
+?>
+```
 
 ### Дивіться також
 
-- [resourcebundle_get_error_code()](resourcebundle.geterrorcode.md) -
-Отримати останній код помилки пакета
-- [intl_get_error_code()](function.intl-get-error-code.md) -
-Отримати код останньої помилки
-- [intl_is_failure()](function.intl-is-failure.md) - Перевірити,
-чи є код помилки ознакою збою
+-   [resourcebundle\_get\_error\_code()](resourcebundle.geterrorcode.html) - Отримати останній код помилки пакета
+-   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

@@ -1,10 +1,16 @@
-- [« Типи ресурсів](wincache.resources.md)
-- [Функції WinCache »](ref.wincache.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [WinCache](book.wincache.md)
-- Обумовлені константи
+-   [« Типы ресурсов](wincache.resources.html)
+    
+-   [Функции WinCache »](ref.wincache.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WinCache](book.wincache.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

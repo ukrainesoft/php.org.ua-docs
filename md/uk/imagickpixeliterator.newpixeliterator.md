@@ -1,31 +1,34 @@
-- [« ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.md)
-- [ImagickPixelIterator::newPixelRegionIterator »](imagickpixeliterator.newpixelregioniterator.md)
+Повертає новий ітератор пікселів
 
-- [PHP Manual](index.md)
-- [ImagickPixelIterator](class.imagickpixeliterator.md)
-- Повертає новий ітератор пікселів
+-   [« ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.html)
+    
+-   [ImagickPixelIterator::newPixelRegionIterator »](imagickpixeliterator.newpixelregioniterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickPixelIterator](class.imagickpixeliterator.html)
+    
+-   Повертає новий ітератор пікселів
+    
 
 # ImagickPixelIterator::newPixelIterator
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixelIterator::newPixelIterator — Повертає новий ітератор
-пікселів
+ImagickPixelIterator::newPixelIterator — Повертає новий ітератор пікселів
 
 ### Опис
 
-public
-**ImagickPixelIterator::newPixelIterator**([Imagick](class.imagick.md)
-`$wand`): bool
+```methodsynopsis
+public ImagickPixelIterator::newPixelIterator(Imagick $wand): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає новий ітератор пікселів.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**. Виняток
-ImagickPixelIteratorException.
+У разі успішної роботи повертає **`true`**. Виняток ImagickPixelIteratorException.

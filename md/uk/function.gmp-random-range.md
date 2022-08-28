@@ -1,47 +1,63 @@
-- [«gmp_random_bits](function.gmp-random-bits.md)
-- [gmp_random_seed »](function.gmp-random-seed.md)
+Випадкове число
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Випадкове число
+-   [« gmp\_random\_bits](function.gmp-random-bits.html)
+    
+-   [gmp\_random\_seed »](function.gmp-random-seed.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Випадкове число
+    
 
-#gmp_random_range
+# gmprandomrange
 
-(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
+(PHP 5> = 5.6.3, PHP 7, PHP 8)
 
-gmp_random_range — Випадкове число
+gmprandomrange - Випадкове число
 
 ### Опис
 
-**gmp_random_range**([GMP](class.gmp.md)\|int\|string `$min`,
-[GMP](class.gmp.md)\|int\|string `$max`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_random_range(GMP|int|string $min, GMP|int|string $max): GMP
+```
 
-Генерує випадкове число в діапазоні від `min` до `max`.
+Генерує випадкове число в діапазоні від `min` до `max`
 
-`min` та `max` можуть бути негативними, але `min` у будь-якому випадку повинно
-бути менше `max`.
+`min` і `max` можуть бути негативними, але `min` у будь-якому випадку має бути менше `max`
 
 ### Список параметрів
 
 `min`
+
 GMP-число, яке є нижньою межею діапазону
 
 `max`
+
 GMP-число, що є верхньою межею діапазону
 
 ### Значення, що повертаються
 
-Випадкове GMP-число.
+Випадкове число GMP.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_random_range()****
+**Приклад #1 Приклад використання **gmprandomrange()****
 
-`<?php$rand1 = gmp_random_range(0, 100); // випадкове число від 0 до 100$rand2 = gmp_random_range(-100, -10); // випадкове число від -100 до -10echo gmp_strval($rand1) . "
-";echo gmp_strval($rand2) . "
-";?> `
+```php
+<?php
+$rand1 = gmp_random_range(0, 100);    // случайное число от 0 до 100
+$rand2 = gmp_random_range(-100, -10); // случайное число от -100 до -10
+
+echo gmp_strval($rand1) . "\n";
+echo gmp_strval($rand2) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 42
 -67
+```

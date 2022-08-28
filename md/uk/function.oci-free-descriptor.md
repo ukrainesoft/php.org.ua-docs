@@ -1,41 +1,46 @@
-- [«oci_field_type](function.oci-field-type.md)
-- [oci_free_statement »](function.oci-free-statement.md)
+Звільняє дескриптор
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- звільняє дескриптор
+-   [« oci\_field\_type](function.oci-field-type.html)
+    
+-   [oci\_free\_statement »](function.oci-free-statement.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Звільняє дескриптор
+    
 
-#oci_free_descriptor
+# ocifreedescriptor
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_free_descriptor - Звільняє дескриптор
+ocifreedescriptor - Звільняє дескриптор
 
 ### Опис
 
-**oci_free_descriptor**([OCILob](class.ocilob.md) `$lob`): bool
+```methodsynopsis
+oci_free_descriptor(OCILob $lob): bool
+```
 
-Звільняє дескриптор, створений за допомогою
-[oci_new_descriptor()](function.oci-new-descriptor.md).
+Звільняє дескриптор, створений за допомогою [oci\_new\_descriptor()](function.oci-new-descriptor.html)
 
 ### Список параметрів
 
 `descriptor`
-Дескриптор, створений за допомогою
-[oci_new_descriptor()](function.oci-new-descriptor.md).
+
+Дескриптор, створений за допомогою [oci\_new\_descriptor()](function.oci-new-descriptor.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція зазвичай використовується як метод
-> [OCILOB::free](ocilob.free.md).
+> **Зауваження**
+> 
+> Функція зазвичай використовується як метод [OCILOB::free](ocilob.free.html)
 
 ### Дивіться також
 
-- [OCILOB::free](ocilob.free.md)
+-   [OCILOB::free](ocilob.free.html)

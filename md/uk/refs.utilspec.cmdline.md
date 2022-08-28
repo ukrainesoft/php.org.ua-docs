@@ -1,14 +1,20 @@
-- [«radius_strerror](function.radius-strerror.md)
-- [Readline »](book.readline.md)
+Модулі для роботи з командним рядком
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Модулі для роботи з командним рядком
+-   [« radius\_strerror](function.radius-strerror.html)
+    
+-   [Readline »](book.readline.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Модулі для роботи з командним рядком
+    
 
 # Модулі для роботи з командним рядком
 
-- [Readline](book.readline.md) - GNU Readline
-- [Вступ](intro.readline.md)
-- [Встановлення та налаштування](readline.setup.md)
-- [Предвизначені константи](readline.constants.md)
-- [Функції Readline](ref.readline.md)
+-   [Readline](book.readline.html) - GNU Readline
+    -   [Введение](intro.readline.html)
+    -   [Установка и настройка](readline.setup.html)
+    -   [Предопределённые константы](readline.constants.html)
+    -   [Функции Readline](ref.readline.html)

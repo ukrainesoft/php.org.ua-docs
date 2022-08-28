@@ -1,46 +1,60 @@
-- [« Ds\Vector::clear](ds-vector.clear.md)
-- [Ds\Vector::contains »](ds-vector.contains.md)
+Створює новий екземпляр
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Створює новий екземпляр
+-   [« Ds\\Vector::clear](ds-vector.clear.html)
+    
+-   [Ds\\Vector::contains »](ds-vector.contains.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Вектор](class.ds-vector.html)
+    
+-   Створює новий екземпляр
+    
 
-# Ds\Vector::\_\_construct
+# ДсVector::construct
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Vector::\_\_construct — Створює новий екземпляр
+ДсVector::construct — Створює новий екземпляр
 
 ### Опис
 
-public
-**Ds\Vector::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values = ?)
+public **ДсVector::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр, використовуючи або об'єкт реалізує
-[traversable](class.traversable.md), або масив, передані в
-як параметр `values`.
+Створює новий екземпляр, використовуючи або об'єкт реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
 
 ### Список параметрів
 
 `values`
+
 Об'єкт, що реалізує інтерфейс traversable або масив.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::\_\_construct()****
+**Приклад #1 Приклад використання **ДсVector::construct()****
 
-` <?php$vector = new \Ds\Vector();var_dump($vector);$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector);?> `
+```php
+<?php
+$vector = new \Ds\Vector();
+var_dump($vector);
+
+
+$vector = new \Ds\Vector([1, 2, 3]);
+var_dump($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Vector)#2 (0) {
 }
 object(Ds\Vector)#2 (3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

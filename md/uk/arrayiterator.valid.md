@@ -1,9 +1,15 @@
-- [« ArrayIterator::unserialize](arrayiterator.unserialize.md)
-- [CachingIterator »](class.cachingiterator.md)
+Перевіряє, чи містить масив ще запису
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Перевіряє, чи містить масив ще запису
+-   [« ArrayIterator::unserialize](arrayiterator.unserialize.html)
+    
+-   [CachingIterator »](class.cachingiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Перевіряє, чи містить масив ще запису
+    
 
 # ArrayIterator::valid
 
@@ -13,9 +19,11 @@ ArrayIterator::valid — Перевіряє, чи масив ще запису
 
 ### Опис
 
-public **ArrayIterator::valid**(): bool
+```methodsynopsis
+public ArrayIterator::valid(): bool
+```
 
-Перевіряє, чи містить масив array ще записи.
+Перевіряє, чи масив array містить ще записи.
 
 ### Список параметрів
 
@@ -23,11 +31,24 @@ public **ArrayIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо ітератор дійсний та **`false`** в
-інакше.
+Повертає **`true`**якщо ітератор дійсний і **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayIterator::valid()****
 
-` <?php$array = array('1' => 'one');$arrayobject = new ArrayObject($array);$iterator = $arrayobject->getIterator();var_dump($iterator->valid()) ; //bool(true)$iterator->next(); // переміщуємо вказівник на наступний елемент//bool(false) потому що в масиві тільки один елементvar_dump($iterator->valid());?> `
+```php
+<?php
+$array = array('1' => 'one');
+
+$arrayobject = new ArrayObject($array);
+$iterator = $arrayobject->getIterator();
+
+var_dump($iterator->valid()); //bool(true)
+
+$iterator->next(); // перемещаем указатель на следующий элемент
+
+//bool(false) потому что в массиве только один элемент
+var_dump($iterator->valid());
+?>
+```

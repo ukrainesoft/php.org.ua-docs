@@ -1,25 +1,40 @@
-- [«Ev::run](ev.run.md)
-- [Ev::stop »](ev.stop.md)
+Блокувати процес задану кількість секунд
 
-- [PHP Manual](index.md)
-- [Ev](class.ev.md)
-- Блокувати процес задану кількість секунд
+-   [« Ev::run](ev.run.html)
+    
+-   [Ev::stop »](ev.stop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Ev](class.ev.html)
+    
+-   Блокувати процес задану кількість секунд
+    
 
-# Ev:: sleep
+# Ev::sleep
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 Ev::sleep — Блокувати процес задану кількість секунд
 
 ### Опис
 
-final public static **Ev::sleep**( float `$seconds` ): void
+```methodsynopsis
+final
+   public
+   static
+   Ev::sleep(
+    float
+     $seconds
+   ): void
+```
 
 Блокувати процес задану кількість секунд
 
 ### Список параметрів
 
 `seconds`
+
 Дробова кількість секунд
 
 ### Значення, що повертаються

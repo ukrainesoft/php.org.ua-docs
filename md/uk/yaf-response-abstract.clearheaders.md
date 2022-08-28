@@ -1,20 +1,27 @@
-- [« Yaf_Response_Abstract::clearBody](yaf-response-abstract.clearbody.md)
-- [Yaf_Response_Abstract::\_\_construct »](yaf-response-abstract.construct.md)
+Скидає всі встановлені заголовки
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- скидає всі встановлені заголовки
+-   [« Yaf\_Response\_Abstract::clearBody](yaf-response-abstract.clearbody.html)
+    
+-   [Yaf\_Response\_Abstract::\_\_construct »](yaf-response-abstract.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+    
+-   Скидає всі встановлені заголовки
+    
 
-# Yaf_Response_Abstract::clearHeaders
+# YafResponseAbstract::clearHeaders
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Response_Abstract::clearHeaders — Скидає всі встановлені
-заголовки
+YafResponseAbstract::clearHeaders — Скидає всі встановлені заголовки
 
 ### Опис
 
-public **Yaf_Response_Abstract::clearHeaders**(): void
+```methodsynopsis
+public Yaf_Response_Abstract::clearHeaders(): void
+```
 
 ### Список параметрів
 
@@ -24,7 +31,5 @@ public **Yaf_Response_Abstract::clearHeaders**(): void
 
 ### Дивіться також
 
-- [Yaf_Response_Abstract::getHeader()](yaf-response-abstract.getheader.md) -
-Призначення getHeader
-- [Yaf_Response_Abstract::setHeader()](yaf-response-abstract.setheader.md) -
-Встановлює заголовок відповіді
+-   [Yaf\_Response\_Abstract::getHeader()](yaf-response-abstract.getheader.html) - Призначення getHeader
+-   [Yaf\_Response\_Abstract::setHeader()](yaf-response-abstract.setheader.html) - Встановлює заголовок відповіді

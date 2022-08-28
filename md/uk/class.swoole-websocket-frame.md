@@ -1,20 +1,36 @@
-- [« Swoole\Timer::tick](swoole-timer.tick.md)
-- [Swoole\WebSocket\Server »](class.swoole-websocket-server.md)
+Клас SwooleWebSocketFrame
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\WebSocket\Frame
+-   [« Swoole\\Timer::tick](swoole-timer.tick.html)
+    
+-   [Swoole\\WebSocket\\Server »](class.swoole-websocket-server.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleWebSocketFrame
+    
 
-# Клас Swoole\WebSocket\Frame
+# Клас SwooleWebSocketFrame
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\WebSocket\Frame** {
+```synopsis
 
-/\* Методи \*/
 
-}
+
+    
+     
+      class Swoole\WebSocket\Frame
+     
+     {
+
+
+    /* Методы */
+
+   }
+```

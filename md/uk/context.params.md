@@ -1,9 +1,15 @@
-- [« Контекстні опції Phar](context.phar.md)
-- [Опції контексту Zip »](context.zip.md)
+Список параметрів контексту
 
-- [PHP Manual](index.md)
-- [Контекстні опції та параметри](context.md)
-- Список параметрів контексту
+-   [« Контекстные опции Phar](context.phar.html)
+    
+-   [Опции контекста Zip »](context.zip.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Контекстные опции и параметры](context.html)
+    
+-   Список параметрів контексту
+    
 
 # Параметри контексту
 
@@ -11,14 +17,12 @@
 
 ### Опис
 
-Ці параметри можуть бути задані для контексту за допомогою функції
-[stream_context_set_params()](function.stream-context-set-params.md).
+Ці параметри можуть бути задані для контексту за допомогою функції [stream\_context\_set\_params()](function.stream-context-set-params.html)
 
 ### Список параметрів
 
-`notification` [callable](language.types.callable.md)
-Функція типу [callable](language.types.callable.md), що викликається при
-настання події в потоці.
+`notification` [callable](language.types.callable.html)
 
-За подробицями звертайтесь до документації функції
-[stream_notification_callback](function.stream-notification-callback.md).
+Функція типу [callable](language.types.callable.html), що викликається при настанні події у потоці.
+
+За подробицями звертайтесь до документації функції [stream\_notification\_callback](function.stream-notification-callback.html)

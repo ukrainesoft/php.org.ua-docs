@@ -1,24 +1,31 @@
-- [« Yaf_Session::next](yaf-session.next.md)
-- [Yaf_Session::offsetGet »](yaf-session.offsetget.md)
+Призначення offsetExists
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення offsetExists
+-   [« Yaf\_Session::next](yaf-session.next.html)
+    
+-   [Yaf\_Session::offsetGet »](yaf-session.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення offsetExists
+    
 
-# Yaf_Session::offsetExists
+# YafSession::offsetExists
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::offsetExists — Призначення offsetExists
+YafSession::offsetExists — Призначення offsetExists
 
 ### Опис
 
-public **Yaf_Session::offsetExists**(string `$name`): void
+```methodsynopsis
+public Yaf_Session::offsetExists(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

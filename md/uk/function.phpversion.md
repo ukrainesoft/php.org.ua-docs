@@ -1,9 +1,15 @@
-- [«phpinfo](function.phpinfo.md)
-- [putenv»](function.putenv.md)
+Отримує поточну версію PHP
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Отримує поточну версію PHP
+-   [« phpinfo](function.phpinfo.html)
+    
+-   [putenv »](function.putenv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Отримує поточну версію PHP
+    
 
 # phpversion
 
@@ -13,55 +19,87 @@ phpversion — Отримує поточну версію PHP
 
 ### Опис
 
-**phpversion**(?string `$extension` = **`null`**): string\|false
+```methodsynopsis
+phpversion(?string $extension = null): string|false
+```
 
-Повертає рядок з номером версії поточного PHP-інтерпретатора або
-модуля.
+Повертає рядок з номером версії PHP-інтерпретатора або модуля.
 
 ### Список параметрів
 
 `extension`
+
 Необов'язкове ім'я модуля.
 
 ### Значення, що повертаються
 
-Повертає поточну версію PHP у вигляді рядка (string). Якщо у параметрі
-`extension` вказано строкове значення (string), **phpversion()** поверне
-версію цього модуля або **`false`**, якщо інформації про версію немає
-модуль не ввімкнено.
+Повертає поточну версію PHP у вигляді рядка (string). Якщо у параметрі `extension` вказано строкове значення (string), **phpversion()** поверне версію цього модуля або **`false`**, якщо немає інформації про версію або модуль не ввімкнено.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                     |
-|--------|------------------------------------------|
-| 8.0.0  | extension  тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `extension` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **phpversion()****
 
-`<?php// Виводить рядок типу 'Поточна версія PHP: 4.1.1'echo 'Поточна версія PHP: ' . phpversion();//Виводить рядок типу '2.0' або нічого, якщомодуль не включеноecho phpversion('tidy');?> `
+```php
+<?php
+// Выводит строку типа 'Текущая версия PHP: 4.1.1'
+echo 'Текущая версия PHP: ' . phpversion();
+
+// Выводит строку типа '2.0' или ничего, если модуль не включён
+echo phpversion('tidy');
+?>
+```
 
 **Приклад #2 Приклад використання **`PHP_VERSION_ID`****
 
-`<?php// PHP_VERSION_ID доступна в версіях PHP 5.2.7 і вище. Якщо// наша версія нижче, можна ее семулюватиif (!defined('PHP_VERSION_ID')) {    $version = explode('.', PHP_VERSION); define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));}//PHP_VERSION_ID визначена як число. Чим більша кількість, тим новіше / / PHP. Эта константа задаётся по той же схеме, что приведена выше://// $version_id = $major_version * 10000 + $minor_version * 100 + $release_version;//// Теперь с PHP_VERSION_ID можно проверять, какая функциональность есть в// текущей версии PHP. Не обязательно пользоваться version_compare()// каждый раз, когда требуется проверить, поддерживает ли PHP нужную// нам функцию.//// Например, мы можем задать значения констант PHP_VERSION_*,// которые недоступны в версиях ранее 5.2.7if (PHP_VERSION_ID < 50207) {   define('PHP_MAJOR_VERSION',  $version[0]); define('PHP_MINOR_VERSION',  $version[1]); define('PHP_RELEASE_VERSION', $version[2]); // і так далі ...}?> `
+```php
+<?php
+// PHP_VERSION_ID доступна в версиях PHP 5.2.7 и выше. Если
+// наша версия ниже, можно её сэмулировать
+if (!defined('PHP_VERSION_ID')) {
+    $version = explode('.', PHP_VERSION);
+
+    define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));
+}
+
+// PHP_VERSION_ID определена как число. Чем больше число, тем новее
+// PHP. Эта константа задаётся по той же схеме, что приведена выше:
+//
+// $version_id = $major_version * 10000 + $minor_version * 100 + $release_version;
+//
+// Теперь с PHP_VERSION_ID можно проверять, какая функциональность есть в
+// текущей версии PHP. Не обязательно пользоваться version_compare()
+// каждый раз, когда требуется проверить, поддерживает ли PHP нужную
+// нам функцию.
+//
+// Например, мы можем задать значения констант PHP_VERSION_*,
+// которые недоступны в версиях ранее 5.2.7
+
+if (PHP_VERSION_ID < 50207) {
+    define('PHP_MAJOR_VERSION',   $version[0]);
+    define('PHP_MINOR_VERSION',   $version[1]);
+    define('PHP_RELEASE_VERSION', $version[2]);
+
+    // и так далее ...
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Ця інформація також доступна через певну константу
-> **`PHP_VERSION`**. Більш детальну інформацію можна отримати за допомогою
-> констант **`PHP_VERSION_*`**.
+> **Зауваження**
+> 
+> Ця інформація також доступна через певну константу **`PHP_VERSION`**. Більш детальну інформацію можна отримати за допомогою констант **`PHP_VERSION_*`**
 
 ### Дивіться також
 
-- [Константи PHP_VERSION](reserved.constants.md#reserved.constants.core)
-- [version_compare()](function.version-compare.md) - Порівнює дві
-"стандартизовані" рядки з номером версії PHP
-- [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну
-конфігурації PHP
-- [phpcredits()](function.phpcredits.md) - Виводить список
-розробників PHP
-- [zend_version()](function.zend-version.md) - Отримує версію
-движка Zend
+-   [Константы PHP\_VERSION](reserved.constants.html#reserved.constants.core)
+-   [version\_compare()](function.version-compare.html) - Порівнює два "стандартизовані" рядки з номером версії PHP
+-   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpcredits()](function.phpcredits.html) - Виводить список розробників PHP
+-   [zend\_version()](function.zend-version.html) - Отримує версію двигуна Zend

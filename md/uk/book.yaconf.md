@@ -1,20 +1,25 @@
-- [« Yaf_Exception_LoadFailed_View](class.yaf-exception-loadfailed-view.md)
-- [Вступ »](intro.yaconf.md)
+Yaconf
 
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- Yaconf
+-   [« Yaf\_Exception\_LoadFailed\_View](class.yaf-exception-loadfailed-view.html)
+    
+-   [Введение »](intro.yaconf.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие базовые модули](refs.basic.other.html)
+    
+-   Yaconf
+    
 
 # Yaconf
 
-- [Вступ](intro.yaconf.md)
-- [Встановлення та налаштування](yaconf.setup.md)
-- [Вимоги](yaconf.requirements.md)
-- [Установка](yaconf.installation.md)
-- [Налаштування під час виконання](yaconf.configuration.md)
-- [Типи ресурсів](yaconf.resources.md)
-- [Предвизначені константи](yaconf.constants.md)
-- [Yaconf](class.yaconf.md) - Клас Yaconf
-- [Yaconf::get](yaconf.get.md) — Вийняти елемент
-- [Yaconf::has](yaconf.has.md) — Визначити, чи існує
-елемент
+-   [Введение](intro.yaconf.html)
+-   [Установка и настройка](yaconf.setup.html)
+    -   [Требования](yaconf.requirements.html)
+    -   [Установка](yaconf.installation.html)
+    -   [Настройка во время выполнения](yaconf.configuration.html)
+    -   [Типы ресурсов](yaconf.resources.html)
+-   [Предопределённые константы](yaconf.constants.html)
+-   [Yaconf](class.yaconf.html) - Клас Yaconf
+    -   [Yaconf::get](yaconf.get.html) — Вийняти елемент
+    -   [Yaconf::has](yaconf.has.html) — Визначити, чи існує елемент

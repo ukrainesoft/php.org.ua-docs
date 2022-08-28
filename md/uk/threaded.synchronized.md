@@ -1,35 +1,39 @@
-- [« Threaded::shift](threaded.shift.md)
-- [Threaded::wait »](threaded.wait.md)
+Синхронізація
 
-- [PHP Manual](index.md)
-- [Threaded](class.threaded.md)
-- Синхронізація
+-   [« Threaded::shift](threaded.shift.html)
+    
+-   [Threaded::wait »](threaded.wait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Threaded](class.threaded.html)
+    
+-   Синхронізація
+    
 
 # Threaded::synchronized
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Threaded::synchronized — Синхронізація
 
 ### Опис
 
-public **Threaded::synchronized**([Closure](class.closure.md)
-`$block`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Threaded::synchronized(Closure $block, mixed ...$args): mixed
+```
 
-Виконує блок, зберігаючи блокування синхронізації посилальних об'єктів для
-викликає контексту.
+Виконує блок, зберігаючи блокування синхронізації посилальних об'єктів для контексту, що викликає.
 
 ### Список параметрів
 
 `block`
+
 Блок коду для виконання.
 
 `args`
-Список аргументів змінної довжини для використання як
-аргументи функції блоку.
+
+Список аргументів змінної довжини для використання як аргументи функції блоку.
 
 ### Значення, що повертаються
 
@@ -39,8 +43,28 @@ public **Threaded::synchronized**([Closure](class.closure.md)
 
 **Приклад #1 Синхронізація**
 
-` <?phpclass My extends Thread {    public function run() {        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait();        }, $this); }}$my = new My();$my->start();$my->synchronized(function($thread){   $thread->done = true;    $thread->notify();}, $my );var_dump($my->join());?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        $this->synchronized(function($thread){
+            if (!$thread->done)
+                $thread->wait();
+        }, $this);
+    }
+}
+$my = new My();
+$my->start();
+$my->synchronized(function($thread){
+    $thread->done = true;
+    $thread->notify();
+}, $my);
+var_dump($my->join());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

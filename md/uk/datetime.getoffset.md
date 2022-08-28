@@ -1,57 +1,67 @@
-- [« DateTime::format](datetime.format.md)
-- [DateTime::getTimestamp »](datetime.gettimestamp.md)
+Повертає усунення часового поясу
 
-- [PHP Manual](index.md)
-- [DateTimeInterface](class.datetimeinterface.md)
-- Повертає усунення часового поясу
-
-# DateTime::getOffset
-
-# DateTimeImmutable::getOffset
+-   [« DateTimeInterface::format](datetime.format.html)
+    
+-   [DateTimeInterface::getTimestamp »](datetime.gettimestamp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTimeInterface](class.datetimeinterface.html)
+    
+-   Повертає усунення часового поясу
+    
 
 # DateTimeInterface::getOffset
 
-# date_offset_get
+# DateTimeImmutable::getOffset
 
-(PHP 5 \>= 5.2.1, PHP 7, PHP 8)
+# DateTime::getOffset
 
-DateTime::getOffset -- DateTimeImmutable::getOffset --
-DateTimeInterface::getOffset -- date_offset_get — Повертає зсув
-часового поясу
+# dateoffsetget
+
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
+
+DateTimeInterface::getOffset -- DateTimeImmutable::getOffset -- DateTime::getOffset -- dateoffsetget — Повертає зсув часового поясу
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **DateTime::getOffset**(): int
+```methodsynopsis
+public DateTimeInterface::getOffset(): int
+```
 
-public **DateTimeImmutable::getOffset**(): int
+```methodsynopsis
+public DateTimeImmutable::getOffset(): int
+```
 
-public **DateTimeInterface::getOffset**(): int
+```methodsynopsis
+public DateTime::getOffset(): int
+```
 
 Процедурний стиль
 
-[date_offset_get](function.date-offset-get.md)([DateTimeInterface](class.datetimeinterface.md)
-`$object`): int
+```methodsynopsis
+date_offset_get(DateTimeInterface $object): int
+```
 
 Повертає усунення часового поясу.
 
 ### Список параметрів
 
 `object`
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md),
-повертається [date_create()](function.date-create.md).
+
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html)
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає зсув часового поясу
-щодо UTC за секунди.
+У разі успішного виконання повертає зміщення часового поясу щодо UTC за секунди.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                             |
-|--------|------------------------------------------------------------------|
-| 8.0.0  | До цієї версії, у разі виникнення помилки поверталося **false**. |
+| Версия | Описание |
+| --- | --- |
+|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
 
 ### Приклади
 
@@ -59,19 +69,33 @@ public **DateTimeInterface::getOffset**(): int
 
 Об'єктно-орієнтований стиль
 
-` <?php$winter = new DateTime('2010-12-21', new DateTimeZone('America/New_York'));$summer = neu DateTime('2008-06-21', new '));echo $winter->getOffset() . "
-";echo $summer->getOffset() . "
-";?> `
+```php
+<?php
+$winter = new DateTimeImmutable('2010-12-21', new DateTimeZone('America/New_York'));
+$summer = new DateTimeImmutable('2008-06-21', new DateTimeZone('America/New_York'));
+
+echo $winter->getOffset() . "\n";
+echo $summer->getOffset() . "\n";
+?>
+```
 
 Процедурний стиль
 
-` <?php$winter==date_create('2010-12-21', timezone_open('America/New_York'));$summer==date_create('2008-06-21', timezone_open('America/' echo date_offset_get($winter) . "
-";echo date_offset_get($summer) . "
-";?> `
+```php
+<?php
+$winter = date_create('2010-12-21', timezone_open('America/New_York'));
+$summer = date_create('2008-06-21', timezone_open('America/New_York'));
+
+echo date_offset_get($winter) . "\n";
+echo date_offset_get($summer) . "\n";
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 -18000
 -14400
+```
 
-Зауваження: -18000=-5 годин, -14400=-4 години.
+Примітка: -18000 = -5 годин, -14400 = -4 годин.

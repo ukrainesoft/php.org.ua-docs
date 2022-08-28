@@ -1,55 +1,62 @@
-- [« pg_num_rows](function.pg-num-rows.md)
-- [pg_parameter_status »](function.pg-parameter-status.md)
+Отримання параметрів з'єднання з сервером баз даних
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Отримання параметрів з'єднання із сервером баз даних
+-   [« pg\_num\_rows](function.pg-num-rows.html)
+    
+-   [pg\_parameter\_status »](function.pg-parameter-status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Отримання параметрів з'єднання з сервером баз даних
+    
 
-#pg_options
+# пгoptions
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pg_options — Отримання параметрів підключення до сервера баз даних
+пгoptions — Отримання параметрів з'єднання з сервером баз даних
 
 ### Опис
 
-**pg_options**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): string
+```methodsynopsis
+pg_options(?PgSql\Connection $connection = null): string
+```
 
-**pg_options()** повертає рядок, що містить параметри з'єднання
-PostgreSQL `connection`.
+**пгoptions()** повертає рядок, що містить параметри з'єднання PostgreSQL `connection`
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Рядок, що містить параметри з'єднання `connection`.
+Рядок, що містить параметри з'єднання `connection`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_options()****
+**Приклад #1 Приклад використання **пгoptions()****
 
-`<?php  $pgsql_conn==pg_connect("dbname=mark host=localhost"); echo pg_options($pgsql_conn);?> `
+```php
+<?php
+   $pgsql_conn = pg_connect("dbname=mark host=localhost");
+   echo pg_options($pgsql_conn);
+?>
+```
 
 ### Дивіться також
 
-- [pg_connect()](function.pg-connect.md) - Відкриває з'єднання з
-базою даних PostgreSQL
+-   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL

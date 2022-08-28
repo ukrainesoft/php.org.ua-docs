@@ -1,24 +1,32 @@
-- [« Ds\Vector::sorted](ds-vector.sorted.md)
-- [Ds\Vector::toArray »](ds-vector.toarray.md)
+Повертає суму всіх значень колекції
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Повертає суму всіх значень колекції
+-   [« Ds\\Vector::sorted](ds-vector.sorted.html)
+    
+-   [Ds\\Vector::toArray »](ds-vector.toarray.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Вектор](class.ds-vector.html)
+    
+-   Повертає суму всіх значень колекції
+    
 
-# Ds\Vector::sum
+# ДсVector::sum
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Vector::sum — Повертає суму всіх значень колекції
+ДсVector::sum — Повертає суму всіх значень колекції
 
 ### Опис
 
-public **Ds\Vector::sum**(): int\|float
+```methodsynopsis
+public Ds\Vector::sum(): int|float
+```
 
 Повертає суму всіх значень колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Масиви та об'єкти вважаються нулем.
 
 ### Список параметрів
@@ -27,25 +35,36 @@ public **Ds\Vector::sum**(): int\|float
 
 ### Значення, що повертаються
 
-Сума всіх значень колекції типів float чи int, залежно від
-значень колекції.
+Сума всіх значень колекції типу float або int, залежно від значень колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::sum()** з цілими
-значеннями**
+**Приклад #1 Приклад використання **ДсVector::sum()** з цілими значеннями**
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->sum());?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+var_dump($vector->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(6)
+```
 
-**Приклад #2 Приклад використання **Ds\Vector::sum()** зі значеннями типу
-float**
+**Приклад #2 Приклад використання **ДсVector::sum()** зі значеннями типу float**
 
-` <?php$vector = new \Ds\Vector([1, 2.5, 3]);var_dump($vector->sum());?> `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2.5, 3]);
+var_dump($vector->sum());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 float(6.5)
+```

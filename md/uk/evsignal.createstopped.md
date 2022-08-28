@@ -1,45 +1,64 @@
-- [«EvSignal::\_\_construct](evsignal.construct.md)
-- [EvSignal::set »](evsignal.set.md)
+Create stopped EvSignal watcher об'єкт
 
-- [PHP Manual](index.md)
-- [EvSignal](class.evsignal.md)
-- Create stopped EvSignal watcher object
+-   [« EvSignal::\_\_construct](evsignal.construct.html)
+    
+-   [EvSignal::set »](evsignal.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvSignal](class.evsignal.html)
+    
+-   Create stopped EvSignal watcher об'єкт
+    
 
 # EvSignal::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvSignal::createStopped — Create stopped EvSignal watcher object
 
 ### Опис
 
-final public static **EvSignal::createStopped**(
-int `$signum` ,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   static
+   EvSignal::createStopped(    
+    int
+     $signum
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+     = null
+   ,    
+    int
+     $priority
+     = 0
+   ): EvSignal
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = **`null`** ,
-int `$priority` = 0
-): [EvSignal](class.evsignal.md)
-
-Створює зупинений об'єкт спостерігача EvSignal. На відміну від
-[EvSignal::\_\_construct()](evsignal.construct.md), цей метод не
-запускає створеного спостерігача.
+Створює зупинений об'єкт спостерігач EvSignal. На відміну від [EvSignal::\_\_construct()](evsignal.construct.html), цей метод не запускає створеного спостерігача
 
 ### Список параметрів
 
 `signum`
-Номер сигналу. Дивіться константи модуля *pcntl* та документацію по
-`signal(7)`.
+
+Номер сигналу. Дивіться константи модуля *pcntl* та документацію з `signal(7)`
 
 `callback`
-Дивіться [Функції зворотного дзвінка спостерігачів](ev.watcher-callbacks.md).
+
+Дивіться [Функции обратного вызова наблюдателей](ev.watcher-callbacks.html)
 
 `data`
-Користувальницькі дані, асоційовані із спостерігачем.
+
+Дані користувача, асоційовані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -47,6 +66,5 @@ int `$priority` = 0
 
 ### Дивіться також
 
-- [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
-- [EvSignal::\_\_construct()](evsignal.construct.md) - Конструктор
-об'єкта спостерігача EvSignal
+-   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
+-   [EvSignal::\_\_construct()](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal

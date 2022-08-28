@@ -1,21 +1,27 @@
-- [« MongoDB\BSON\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md)
-- [MongoDB\BSON\DBPointer »](class.mongodb-bson-dbpointer.md)
+Повертає рядкову виставу UTCDateTimeInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
-- Повертає строкове представлення UTCDateTimeInterface
+-   [« MongoDB\\BSON\\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.html)
+    
+-   [MongoDB\\BSON\\DBPointer »](class.mongodb-bson-dbpointer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html)
+    
+-   Повертає рядкову виставу UTCDateTimeInterface
+    
 
-# MongoDB\BSON\UTCDateTimeInterface::\_\_toString
+# MongoDBBSONUTCDateTimeInterface::function toString() { \[native code\] }
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
-MongoDB\BSON\UTCDateTimeInterface::\_\_toString — Повертає рядкове
-представлення UTCDateTimeInterface
+MongoDBBSONUTCDateTimeInterface::toString — Повертає рядкову виставу UTCDateTimeInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\UTCDateTimeInterface::\_\_toString**():
-string
+```methodsynopsis
+abstract public MongoDB\BSON\UTCDateTimeInterface::__toString(): string
+```
 
 ### Список параметрів
 
@@ -23,9 +29,8 @@ string
 
 ### Значення, що повертаються
 
-Повертає строкове представлення UTCDateTimeInterface.
+Повертає рядкову виставу UTCDateTimeInterface.
 
 ### Дивіться також
 
-- [MongoDB\BSON\UTCDateTime::\_\_toString()](mongodb-bson-utcdatetime.tostring.md) -
-Повертає рядкову виставу UTCDateTime
+-   [MongoDB\\BSON\\UTCDateTime::\_\_toString()](mongodb-bson-utcdatetime.tostring.html) - Повертає рядкову виставу UTCDateTime

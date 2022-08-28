@@ -1,29 +1,38 @@
-- [ trader_sub](function.trader-sub.md)
-- [trader_t3»](function.trader-t3.md)
+Підсумовування
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Підсумовування
+-   [« trader\_sub](function.trader-sub.html)
+    
+-   [trader\_t3 »](function.trader-t3.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Підсумовування
+    
 
-# trader_sum
+# tradersum
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_sum — Підсумовування
+tradersum — Підсумовування
 
 ### Опис
 
-**trader_sum**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_sum(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

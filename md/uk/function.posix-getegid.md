@@ -1,20 +1,27 @@
-- [«posix_getcwd](function.posix-getcwd.md)
-- [posix_geteuid »](function.posix-geteuid.md)
+Повертає ефективний ідентифікатор групи поточного процесу EGID
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає ефективний ідентифікатор групи поточного процесу EGID
+-   [« posix\_getcwd](function.posix-getcwd.html)
+    
+-   [posix\_geteuid »](function.posix-geteuid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Повертає ефективний ідентифікатор групи поточного процесу EGID
+    
 
-#posix_getegid
+# posixgetegid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_getegid — Повертає ефективний ідентифікатор групи поточного
-процесу EGID
+posixgetegid - Повертає ефективний ідентифікатор групи поточного процесу EGID
 
 ### Опис
 
-**posix_getegid**(): int
+```methodsynopsis
+posix_getegid(): int
+```
 
 Повертає ефективний ідентифікатор групи поточного процесу.
 
@@ -24,31 +31,29 @@ posix_getegid — Повертає ефективний ідентифікато
 
 ### Значення, що повертаються
 
-Повертає число типу int, що відповідає ефективному ідентифікатору
-групи.
+Повертає число типу int, що відповідає ефективному ідентифікатору групи.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_getegid()****
+**Приклад #1 Приклад використання **posixgetegid()****
 
-У прикладі програма виводить ефективний ідентифікатор групи процесу
-змінює його за допомогою функції
-[posix_setegid()](function.posix-setegid.md) і знову виводить.
+У прикладі програма виводить ефективний ідентифікатор групи процесу, змінює його за допомогою функції [posix\_setegid()](function.posix-setegid.html) і знову виводить.
 
-`<?phpecho 'My real group id is '.posix_getgid(); //20posix_setegid(40);echo 'My real group id is '.posix_getgid(); //20echo 'My effective group id is '.posix_getegid(); //40?> `
+```php
+<?php
+echo 'My real group id is '.posix_getgid(); //20
+posix_setegid(40);
+echo 'My real group id is '.posix_getgid(); //20
+echo 'My effective group id is '.posix_getegid(); //40
+?>
+```
 
 ### Примітки
 
-**posix_getegid()** відрізняється від
-[posix_getgid()](function.posix-getgid.md) тому, що ефективний
-ідентифікатор групи може бути змінений викликаним процесом, використовуючи
-[posix_setegid()](function.posix-setegid.md).
+**posixgetegid()** відрізняється від [posix\_getgid()](function.posix-getgid.html) тому, що ефективний ідентифікатор групи може бути змінений викликаним процесом, використовуючи [posix\_setegid()](function.posix-setegid.html)
 
 ### Дивіться також
 
-- [posix_getgrgid()](function.posix-getgrgid.md) - Повертає
-інформацію про групу з її ID
-- [posix_getgid()](function.posix-getgid.md) - Повертає
-дійсний ID групи поточного процесу GID
-- [posix_setgid()](function.posix-setgid.md) - Встановлює
-ідентифікатор групи для поточного процесу GID
+-   [posix\_getgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posix\_getgid()](function.posix-getgid.html) - Повертає дійсний ID групи поточного процесу GID
+-   [posix\_setgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID

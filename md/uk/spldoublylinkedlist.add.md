@@ -1,33 +1,39 @@
-- [« SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- [SplDoublyLinkedList::bottom »](spldoublylinkedlist.bottom.md)
+Додає/вставляє нове значення за вказаним індексом
 
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Додає/вставляє нове значення за вказаним індексом
+-   [« SplDoublyLinkedList](class.spldoublylinkedlist.html)
+    
+-   [SplDoublyLinkedList::bottom »](spldoublylinkedlist.bottom.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+    
+-   Додає/вставляє нове значення за вказаним індексом
+    
 
 # SplDoublyLinkedList::add
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-SplDoublyLinkedList::add — Додає/вставляє нове значення за
-зазначеному індексу
+SplDoublyLinkedList::add — Додає/вставляє нове значення за вказаним індексом
 
 ### Опис
 
-public **SplDoublyLinkedList::add**(int `$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public SplDoublyLinkedList::add(int $index, mixed $value): void
+```
 
-Вставляє значення `value` за вказаним індексом `index`. Попереднє
-значення (і всі наступні) зміщуються вгору за списком.
+Вставляє значення `value` за вказаним індексом `index`. Попереднє значення (і всі наступні) зміщуються вгору за списком.
 
 ### Список параметрів
 
 `index`
+
 Індекс, яким треба вставити значення.
 
 `value`
-Значення, яке треба вставити за індексом `index`.
+
+Значення, яке потрібно вставити за індексом `index`
 
 ### Значення, що повертаються
 
@@ -35,7 +41,4 @@ public **SplDoublyLinkedList::add**(int `$index`,
 
 ### Помилки
 
-Викидає виняток
-[OutOfRangeException](class.outofrangeexception.md), якщо `index` за
-межами списку, або якщо `index` не може бути представлений у вигляді
-цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.html), якщо `index` за межами списку, або якщо `index` може бути представлений як цілого числа.

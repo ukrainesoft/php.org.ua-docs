@@ -1,9 +1,15 @@
-- [« Опції контексту CURL](context.curl.md)
-- [Настройки контексту »](context.params.md)
+Список контекстних опцій Phar
 
-- [PHP Manual](index.md)
-- [Контекстні опції та параметри](context.md)
-- Список контекстних опцій Phar
+-   [« Опции контекста CURL](context.curl.html)
+    
+-   [Параметры контекста »](context.params.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Контекстные опции и параметры](context.html)
+    
+-   Список контекстних опцій Phar
+    
 
 # Контекстні опції Phar
 
@@ -11,17 +17,19 @@
 
 ### Опис
 
-Контекстні опції для обгортки `phar://`.
+Контекстні опції для обгортки `phar://`
 
 ### Опції
 
 `compress` int
-Одна з [констант стиснення Phar](phar.constants.md#phar.constants.compression).
 
-`metadata` [mixed](language.types.declarations.md#language.types.declarations.mixed)
-Метадані Phar. Дивіться [Phar::setMetadata()](phar.setmetadata.md).
+Одна з [констант сжатия Phar](phar.constants.html#phar.constants.compression)
+
+`metadata` [mixed](language.types.declarations.html#language.types.declarations.mixed)
+
+Метадані Phar. Дивіться [Phar::setMetadata()](phar.setmetadata.html)
 
 ### Дивіться також
 
-- [phar://](wrappers.phar.md)
-- [Потоки Phar](phar.using.stream.md)
+-   [phar://](wrappers.phar.html)
+-   [Потоки Phar](phar.using.stream.html)

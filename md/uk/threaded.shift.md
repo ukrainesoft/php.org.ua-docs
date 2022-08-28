@@ -1,20 +1,27 @@
-- [« Threaded::run](threaded.run.md)
-- [Threaded::synchronized »](threaded.synchronized.md)
+Обробка
 
-- [PHP Manual](index.md)
-- [Threaded](class.threaded.md)
-- обробка
+-   [« Threaded::run](threaded.run.html)
+    
+-   [Threaded::synchronized »](threaded.synchronized.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Threaded](class.threaded.html)
+    
+-   Обробка
+    
 
 # Threaded::shift
 
-(PECL pthreads \>= 2.0.0)
+(PECL pthreads >= 2.0.0)
 
 Threaded::shift — Обробка
 
 ### Опис
 
-public **Threaded::shift**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Threaded::shift(): mixed
+```
 
 Переміщує елемент із таблиці властивостей об'єкта.
 
@@ -28,11 +35,21 @@ public **Threaded::shift**():
 
 ### Приклади
 
-**Приклад #1 Переміщення першого елемента з таблиці властивостей пов'язаного
-об'єкта**
+**Приклад #1 Переміщення першого елемента з таблиці властивостей пов'язаного об'єкта**
 
-` <?php$safe = new Threaded();while (count($safe) < 10)   $safe[] = count($safe);var_dump($safe->shift());?> `
+```php
+<?php
+$safe = new Threaded();
+
+while (count($safe) < 10)
+    $safe[] = count($safe);
+
+var_dump($safe->shift());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(0)
+```

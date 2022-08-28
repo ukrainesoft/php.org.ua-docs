@@ -1,28 +1,34 @@
-- [« iterator_to_array](function.iterator-to-array.md)
-- [spl_autoload_extensions »](function.spl-autoload-extensions.md)
+Спроба завантажити клас усіма зареєстрованими функціями autoload()
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Спроба завантажити клас усіма зареєстрованими функціями
-\_\_autoload()
+-   [« iterator\_to\_array](function.iterator-to-array.html)
+    
+-   [spl\_autoload\_extensions »](function.spl-autoload-extensions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Спроба завантажити клас усіма зареєстрованими функціями autoload()
+    
 
-# spl_autoload_call
+# splautoloadcall
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-spl_autoload_call — Спроба завантажити клас усіма зареєстрованими
-функціями \_\_autoload()
+splautoloadcall — Спроба завантажити клас усіма зареєстрованими функціями autoload()
 
 ### Опис
 
-**spl_autoload_call**(string `$class`): void
+```methodsynopsis
+spl_autoload_call(string $class): void
+```
 
-Цю функцію можна використовувати для ручного пошуку класу або інтерфейсу,
-використовуючи всі зареєстровані методи \_\_autoload.
+Цю функцію можна використовувати для ручного пошуку класу або інтерфейсу, використовуючи всі зареєстровані методи autoload.
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу, що шукається.
 
 ### Значення, що повертаються

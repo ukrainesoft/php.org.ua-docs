@@ -1,13 +1,19 @@
-- [« RRDCreator::save](rrdcreator.save.md)
-- [RRDGraph::\_\_construct »](rrdgraph.construct.md)
+Клас RRDGraph
 
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
-- Клас RRDGraph
+-   [« RRDCreator::save](rrdcreator.save.html)
+    
+-   [RRDGraph::\_\_construct »](rrdgraph.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RRD](book.rrd.html)
+    
+-   Клас RRDGraph
+    
 
 # Клас RRDGraph
 
-(PECL rrd \>= 0.9.0)
+(PECL rrd >= 0.9.0)
 
 ## Вступ
 
@@ -15,28 +21,31 @@
 
 ## Огляд класів
 
-class **RRDGraph** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](rrdgraph.construct.md)(string `$path`)
+    
+    
+     
+      class RRDGraph
+     
+     {
+    
 
-public [save](rrdgraph.save.md)(): array
+    /* Методы */
+    
+   public __construct(string $path)
 
-public [saveVerbose](rrdgraph.saveverbose.md)(): array
+    public save(): array
+public saveVerbose(): array
+public setOptions(array $options): void
 
-public [setOptions](rrdgraph.setoptions.md)(array `$options`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [RRDGraph::\_\_construct](rrdgraph.construct.md) - Створює новий
-екземпляр RRDGraph
-- [RRDGraph::save](rrdgraph.save.md) — Зберігає результат запиту
-зображення
-- [RRDGraph::saveVerbose](rrdgraph.saveverbose.md) — Зберігає
-запит до бази даних RRD у зображення та повертає докладну
-інформацію про згенерований графік
-- [RRDGraph::setOptions](rrdgraph.setoptions.md) — Встановлює
-параметри для експорту графіка rrd
+-   [RRDGraph::\_\_construct](rrdgraph.construct.html) — Створює новий екземпляр RRDGraph
+-   [RRDGraph::save](rrdgraph.save.html) — Зберігає результат запиту на зображення
+-   [RRDGraph::saveVerbose](rrdgraph.saveverbose.html) — Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
+-   [RRDGraph::setOptions](rrdgraph.setoptions.html) — Встановлює параметри експорту графіка rrd

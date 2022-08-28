@@ -1,21 +1,27 @@
-- [« Swoole\Server::\_\_construct](swoole-server.construct.md)
-- [Swoole\Server\Port::\_\_construct »](swoole-server-port.construct.md)
+Відкладає виконання callback-функції наприкінці поточного EventLoop
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Відкладає виконання callback-функції наприкінці поточного EventLoop
+-   [« Swoole\\Server::\_\_construct](swoole-server.construct.html)
+    
+-   [Swoole\\Server\\Port::\_\_construct »](swoole-server-port.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Відкладає виконання callback-функції наприкінці поточного EventLoop
+    
 
-# Swoole\Server::defer
+# SwooleServer::defer
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::defer — Відкладає виконання callback-функції в кінці
-поточного EventLoop
+SwooleServer::defer — Відкладає виконання callback-функції в кінці поточного EventLoop
 
 ### Опис
 
-public **Swoole\Server::defer**([callable](language.types.callable.md)
-`$callback`): void
+```methodsynopsis
+public Swoole\Server::defer(callable $callback): void
+```
 
 ### Список параметрів
 

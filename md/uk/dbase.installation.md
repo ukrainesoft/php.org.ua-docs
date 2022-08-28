@@ -1,14 +1,16 @@
-- [« Вимоги](dbase.requirements.md)
-- [Налаштування під час виконання »](dbase.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](dbase.setup.md)
-- Установка
+-   [« Требования](dbase.requirements.html)
+    
+-   [Настройка во время выполнения »](dbase.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](dbase.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/dbase](https://pecl.php.net/package/dbase).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/dbase](https://pecl.php.net/package/dbase)

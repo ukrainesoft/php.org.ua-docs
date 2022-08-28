@@ -1,381 +1,389 @@
-- [«В алфавітному порядку](extensions.alphabetical.md)
-- [станом »](extensions.state.md)
+За складом
 
-- [PHP Manual](index.md)
-- [Список/класифікація модулів](extensions.md)
-- За складом
+-   [« В алфавитном порядке](extensions.alphabetical.html)
+    
+-   [По состоянию »](extensions.state.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список/классификация модулей](extensions.html)
+    
+-   За складом
+    
 
 ## За складом
 
 ## Модулі, що входять до складу ядра
 
-Насправді, це несправжні модулі. Вони є частиною ядра PHP і не
-можуть бути виключені з бінарного дистрибутива PHP за допомогою опцій
-компіляції.
+Насправді, це несправжні модулі. Вони є частиною PHP ядра і не можуть бути виключені з бінарного дистрибутива PHP за допомогою опцій компіляції.
 
-- [Массиви](book.array.md)
+-   [Массивы](book.array.html)
+    
+-   [Классы и объекты](book.classobj.html)
+    
+-   [CSPRNG](book.csprng.html)
+    
+-   [Дата/время](book.datetime.html)
+    
+-   [Каталоги](book.dir.html)
+    
+-   [Обработка ошибок](book.errorfunc.html)
+    
+-   [Запуск программы](book.exec.html)
+    
+-   [Файловая система](book.filesystem.html)
+    
+-   [Менеджер процессов FastCGI](book.fpm.html)
+    
+-   [Управление функциями](book.funchand.html)
+    
+-   [Hash](book.hash.html)
+    
+-   [Опции/информация PHP](book.info.html)
+    
+-   [JSON](book.json.html)
+    
+-   [Mail](book.mail.html)
+    
+-   [Math](book.math.html)
+    
+-   [Misc.](book.misc.html)
+    
+-   [Сеть](book.network.html)
+    
+-   [OPcache](book.opcache.html)
+    
+-   [Контроль вывода](book.outcontrol.html)
+    
+-   [Хеширование паролей](book.password.html)
+    
+-   [PCRE](book.pcre.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   [SPL](book.spl.html)
+    
+-   [Потоки](book.stream.html)
+    
+-   [Строки](book.strings.html)
+    
+-   [URL](book.url.html)
+    
+-   [Обработка переменных](book.var.html)
+    
 
-- [Класи та об'єкти](book.classobj.md)
+## Модулі, що поставляються
 
-- [CSPRNG](book.csprng.md)
+Ці модулі поставляються разом із PHP.
 
-- [Дата/час](book.datetime.md)
-
-- [Каталоги](book.dir.md)
-
-- [Обробка помилок](book.errorfunc.md)
-
-- [Запуск програми](book.exec.md)
-
-- [Файлова система](book.filesystem.md)
-
-- [Менеджер процесів FastCGI](book.fpm.md)
-
-- [Керування функціями](book.funchand.md)
-
-- [Hash](book.hash.md)
-
-- [Опції/інформація PHP](book.info.md)
-
-- [JSON](book.json.md)
-
-- [Mail](book.mail.md)
-
-- [Math](book.math.md)
-
-- [Misc.](book.misc.md)
-
-- [Мережа](book.network.md)
-
-- [OPcache](book.opcache.md)
-
-- [Контроль виведення](book.outcontrol.md)
-
-- [Хешування паролів](book.password.md)
-
-- [PCRE](book.pcre.md)
-
-- [Reflection](book.reflection.md)
-
-- [SPL](book.spl.md)
-
-- [Потоки](book.stream.md)
-
-- [Рядки](book.strings.md)
-
-- [URL](book.url.md)
-
-- [Обробка змінних](book.var.md)
-
-## Поставляються модулі
-
-Ці модулі постачаються разом з PHP.
-
-- [Apache](book.apache.md)
-
-- [BC Math](book.bc.md)
-
-- [Календарь](book.calendar.md)
-
-- [COM](book.com.md)
-
-- [Ctype](book.ctype.md)
-
-- [DBA](book.dba.md)
-
-- [Exif](book.exif.md)
-
-- [FFI](book.ffi.md)
-
-- [FileInfo](book.fileinfo.md)
-
-- [Filter](book.filter.md)
-
-- [FTP](book.ftp.md)
-
-- [HRTime](book.hrtime.md)
-
-- [iconv](book.iconv.md)
-
-- [GD](book.image.md)
-
-- [intl](book.intl.md)
-
-- [Багатобайтові рядки](book.mbstring.md)
-
-- [Mhash](book.mhash.md)
-
-- [PCNTL](book.pcntl.md)
-
-- [PDO](book.pdo.md)
-
-- [Phar](book.phar.md)
-
-- [phpdbg](book.phpdbg.md)
-
-- [POSIX](book.posix.md)
-
-- [Семафори](book.sem.md)
-
-- [Сесії](book.session.md)
-
-- [Керування пам'яттю, що розділяється](book.shmop.md)
-
-- [Сокети](book.sockets.md)
-
-- [SQLite3](book.sqlite3.md)
-
-- [Лексер (Tokenizer)](book.tokenizer.md)
-
-- [Zlib](book.zlib.md)
+-   [Apache](book.apache.html)
+    
+-   [BC Math](book.bc.html)
+    
+-   [Календарь](book.calendar.html)
+    
+-   [COM](book.com.html)
+    
+-   [Ctype](book.ctype.html)
+    
+-   [DBA](book.dba.html)
+    
+-   [Exif](book.exif.html)
+    
+-   [FFI](book.ffi.html)
+    
+-   [FileInfo](book.fileinfo.html)
+    
+-   [Filter](book.filter.html)
+    
+-   [FTP](book.ftp.html)
+    
+-   [HRTime](book.hrtime.html)
+    
+-   [iconv](book.iconv.html)
+    
+-   [GD](book.image.html)
+    
+-   [intl](book.intl.html)
+    
+-   [Многобайтовые строки](book.mbstring.html)
+    
+-   [Mhash](book.mhash.html)
+    
+-   [PCNTL](book.pcntl.html)
+    
+-   [PDO](book.pdo.html)
+    
+-   [Phar](book.phar.html)
+    
+-   [phpdbg](book.phpdbg.html)
+    
+-   [POSIX](book.posix.html)
+    
+-   [Семафоры](book.sem.html)
+    
+-   [Сессии](book.session.html)
+    
+-   [Управление разделяемой памятью](book.shmop.html)
+    
+-   [Сокеты](book.sockets.html)
+    
+-   [SQLite3](book.sqlite3.html)
+    
+-   [Лексер (Tokenizer)](book.tokenizer.html)
+    
+-   [Zlib](book.zlib.html)
+    
 
 ## Зовнішні модулі
 
-Дані модулі поставляються разом з PHP, але їх компіляції можуть
-потрібні зовнішні бібліотеки.
+Дані модулі поставляються разом з PHP, але їх компіляції можуть знадобитися зовнішні бібліотеки.
 
-- [Bzip2](book.bzip2.md)
-
-- [cURL](book.curl.md)
-
-- [DOM](book.dom.md)
-
-- [Enchant](book.enchant.md)
-
-- [Gettext](book.gettext.md)
-
-- [GMP](book.gmp.md)
-
-- [IMAP](book.imap.md)
-
-- [LDAP](book.ldap.md)
-
-- [libxml](book.libxml.md)
-
-- [MySQLi](book.mysqli.md)
-
-- [Mysqlnd](book.mysqlnd.md)
-
-- [OCI8](book.oci8.md)
-
-- [OpenSSL](book.openssl.md)
-
-- [MS SQL Server (PDO_DBLIB)](ref.pdo-dblib.md)
-
-- [Firebird (PDO)](ref.pdo-firebird.md)
-
-- [MySQL (PDO)](ref.pdo-mysql.md)
-
-- [Oracle (PDO)](ref.pdo-oci.md)
-
-- [ODBC та DB2 (PDO)](ref.pdo-odbc.md)
-
-- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
-
-- [SQLite (PDO)](ref.pdo-sqlite.md)
-
-- [PostgreSQL](book.pgsql.md)
-
-- [Pspell](book.pspell.md)
-
-- [Readline](book.readline.md)
-
-- [SimpleXML](book.simplexml.md)
-
-- [SNMP](book.snmp.md)
-
-- [SOAP](book.soap.md)
-
-- [Sodium](book.sodium.md)
-
-- [Tidy](book.tidy.md)
-
-- [ODBC](book.uodbc.md)
-
-- [Розбір XML](book.xml.md)
-
-- [XMLReader](book.xmlreader.md)
-
-- [XMLWriter](book.xmlwriter.md)
-
-- [XSL](book.xsl.md)
-
-- [Zip](book.zip.md)
+-   [Bzip2](book.bzip2.html)
+    
+-   [cURL](book.curl.html)
+    
+-   [DOM](book.dom.html)
+    
+-   [Enchant](book.enchant.html)
+    
+-   [Gettext](book.gettext.html)
+    
+-   [GMP](book.gmp.html)
+    
+-   [IMAP](book.imap.html)
+    
+-   [LDAP](book.ldap.html)
+    
+-   [libxml](book.libxml.html)
+    
+-   [MySQLi](book.mysqli.html)
+    
+-   [Mysqlnd](book.mysqlnd.html)
+    
+-   [OCI8](book.oci8.html)
+    
+-   [OpenSSL](book.openssl.html)
+    
+-   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.html)
+    
+-   [Firebird (PDO)](ref.pdo-firebird.html)
+    
+-   [MySQL (PDO)](ref.pdo-mysql.html)
+    
+-   [Oracle (PDO)](ref.pdo-oci.html)
+    
+-   [ODBC и DB2 (PDO)](ref.pdo-odbc.html)
+    
+-   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
+    
+-   [SQLite (PDO)](ref.pdo-sqlite.html)
+    
+-   [PostgreSQL](book.pgsql.html)
+    
+-   [Pspell](book.pspell.html)
+    
+-   [Readline](book.readline.html)
+    
+-   [SimpleXML](book.simplexml.html)
+    
+-   [SNMP](book.snmp.html)
+    
+-   [SOAP](book.soap.html)
+    
+-   [Sodium](book.sodium.html)
+    
+-   [Tidy](book.tidy.html)
+    
+-   [ODBC](book.uodbc.html)
+    
+-   [Разбор XML](book.xml.html)
+    
+-   [XMLReader](book.xmlreader.html)
+    
+-   [XMLWriter](book.xmlwriter.html)
+    
+-   [XSL](book.xsl.html)
+    
+-   [Zip](book.zip.html)
+    
 
 ## PECL модулі
 
-Ці модулі доступні в [»PECL](https://pecl.php.net/). Їм можуть
-потрібні зовнішні бібліотеки. Існують інші PECL модулі, але
-вони поки що не документовані в цьому посібнику.
-
-- [APCu](book.apcu.md)
-
-- [CommonMark](book.cmark.md)
-
-- [Componere](book.componere.md)
-
-- [CUBRID](book.cubrid.md)
-
-- [dBase](book.dbase.md)
-
-- [Пряме введення/виведення (Direct IO)](book.dio.md)
-
-- [Структури даних](book.ds.md)
-
-- [Eio](book.eio.md)
-
-- [Ev](book.ev.md)
-
-- [Event](book.event.md)
-
-- [Expect](book.expect.md)
-
-- [FANN](book.fann.md)
-
-- [FDF](book.fdf.md)
-
-- [Gearman](book.gearman.md)
-
-- [Gender](book.gender.md)
-
-- [GeoIP](book.geoip.md)
-
-- [Gmagick](book.gmagick.md)
-
-- [GnuPG](book.gnupg.md)
-
-- [Firebird/InterBase](book.ibase.md)
-
-- [IBM DB2](book.ibm-db2.md)
-
-- [Igbinary](book.igbinary.md)
-
-- [ImageMagick](book.imagick.md)
-
-- [Inotify](book.inotify.md)
-
-- [Lua](book.lua.md)
-
-- [LuaSandbox](book.luasandbox.md)
-
-- [LZF](book.lzf.md)
-
-- [Mailparse](book.mailparse.md)
-
-- [Mcrypt](book.mcrypt.md)
-
-- [Memcache](book.memcache.md)
-
-- [Memcached](book.memcached.md)
-
-- [mqseries](book.mqseries.md)
-
-- [MySQL (Original)](book.mysql.md)
-
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-
-- [OAuth](book.oauth.md)
-
-- [OpenAL](book.openal.md)
-
-- [parallel](book.parallel.md)
-
-- [Parle](book.parle.md)
-
-- [CUBRID (PDO)](ref.pdo-cubrid.md)
-
-- [IBM (PDO)](ref.pdo-ibm.md)
-
-- [Informix (PDO)](ref.pdo-informix.md)
-
-- [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
-
-- [PS](book.ps.md)
-
-- [pthreads](book.pthreads.md)
-
-- [Radius](book.radius.md)
-
-- [Rar](book.rar.md)
-
-- [Recode](book.recode.md)
-
-- [RpmInfo](book.rpminfo.md)
-
-- [RRD](book.rrd.md)
-
-- [runkit7](book.runkit7.md)
-
-- [ScoutAPM](book.scoutapm.md)
-
-- [Seaslog](book.seaslog.md)
-
-- [Solr](book.solr.md)
-
-- [SQLSRV](book.sqlsrv.md)
-
-- [ssdeep](book.ssdeep.md)
-
-- [SSH2](book.ssh2.md)
-
-- [Stomp](book.stomp.md)
-
-- [SVM](book.svm.md)
-
-- [SVN](book.svn.md)
-
-- [Swoole](book.swoole.md)
-
-- [Sync](book.sync.md)
-
-- [Taint](book.taint.md)
-
-- [TCP](book.tcpwrap.md)
-
-- [Trader](book.trader.md)
-
-- [UI](book.ui.md)
-
-- [uopz](book.uopz.md)
-
-- [V8js](book.v8js.md)
-
-- [var_representation](book.var_representation.md)
-
-- [Varnish](book.varnish.md)
-
-- [WDDX](book.wddx.md)
-
-- [win32service](book.win32service.md)
-
-- [WinCache](book.wincache.md)
-
-- [wkhtmltox](book.wkhtmltox.md)
-
-- [xattr](book.xattr.md)
-
-- [xdiff](book.xdiff.md)
-
-- [Xhprof](book.xhprof.md)
-
-- [XLSWriter](book.xlswriter.md)
-
-- [XMLDiff](book.xmldiff.md)
-
-- [XML-RPC](book.xmlrpc.md)
-
-- [Yac](book.yac.md)
-
-- [Yaconf](book.yaconf.md)
-
-- [Yaf](book.yaf.md)
-
-- [Yaml](book.yaml.md)
-
-- [Yar](book.yar.md)
-
-- [YAZ](book.yaz.md)
-
-- [Обмін повідомленнями 0MQ](book.zmq.md)
-
-- [ZooKeeper](book.zookeeper.md)
+Ці модулі доступні в [» PECL](https://pecl.php.net/). Їм можуть знадобитися зовнішні бібліотеки. Існують інші PECL модулі, але вони поки не документовані в цьому посібнику.
+
+-   [APCu](book.apcu.html)
+    
+-   [CommonMark](book.cmark.html)
+    
+-   [Componere](book.componere.html)
+    
+-   [CUBRID](book.cubrid.html)
+    
+-   [dBase](book.dbase.html)
+    
+-   [Прямой ввод/вывод (Direct IO)](book.dio.html)
+    
+-   [Структуры данных](book.ds.html)
+    
+-   [Eio](book.eio.html)
+    
+-   [Ev](book.ev.html)
+    
+-   [Event](book.event.html)
+    
+-   [Expect](book.expect.html)
+    
+-   [FANN](book.fann.html)
+    
+-   [FDF](book.fdf.html)
+    
+-   [Gearman](book.gearman.html)
+    
+-   [Gender](book.gender.html)
+    
+-   [GeoIP](book.geoip.html)
+    
+-   [Gmagick](book.gmagick.html)
+    
+-   [GnuPG](book.gnupg.html)
+    
+-   [Firebird/InterBase](book.ibase.html)
+    
+-   [IBM DB2](book.ibm-db2.html)
+    
+-   [Igbinary](book.igbinary.html)
+    
+-   [ImageMagick](book.imagick.html)
+    
+-   [Inotify](book.inotify.html)
+    
+-   [Lua](book.lua.html)
+    
+-   [LuaSandbox](book.luasandbox.html)
+    
+-   [LZF](book.lzf.html)
+    
+-   [Mailparse](book.mailparse.html)
+    
+-   [Mcrypt](book.mcrypt.html)
+    
+-   [Memcache](book.memcache.html)
+    
+-   [Memcached](book.memcached.html)
+    
+-   [mqseries](book.mqseries.html)
+    
+-   [MySQL (Original)](book.mysql.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   [OAuth](book.oauth.html)
+    
+-   [OpenAL](book.openal.html)
+    
+-   [parallel](book.parallel.html)
+    
+-   [Parle](book.parle.html)
+    
+-   [CUBRID (PDO)](ref.pdo-cubrid.html)
+    
+-   [IBM (PDO)](ref.pdo-ibm.html)
+    
+-   [Informix (PDO)](ref.pdo-informix.html)
+    
+-   [MS SQL Server (PDO)](ref.pdo-sqlsrv.html)
+    
+-   [PS](book.ps.html)
+    
+-   [pthreads](book.pthreads.html)
+    
+-   [Quickhash](book.quickhash.html)
+    
+-   [Radius](book.radius.html)
+    
+-   [Rar](book.rar.html)
+    
+-   [Recode](book.recode.html)
+    
+-   [RpmInfo](book.rpminfo.html)
+    
+-   [RRD](book.rrd.html)
+    
+-   [runkit7](book.runkit7.html)
+    
+-   [ScoutAPM](book.scoutapm.html)
+    
+-   [Seaslog](book.seaslog.html)
+    
+-   [Solr](book.solr.html)
+    
+-   [SQLSRV](book.sqlsrv.html)
+    
+-   [ssdeep](book.ssdeep.html)
+    
+-   [SSH2](book.ssh2.html)
+    
+-   [Статистика](book.stats.html)
+    
+-   [Stomp](book.stomp.html)
+    
+-   [SVM](book.svm.html)
+    
+-   [SVN](book.svn.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   [Sync](book.sync.html)
+    
+-   [Taint](book.taint.html)
+    
+-   [TCP](book.tcpwrap.html)
+    
+-   [Trader](book.trader.html)
+    
+-   [UI](book.ui.html)
+    
+-   [uopz](book.uopz.html)
+    
+-   [V8js](book.v8js.html)
+    
+-   [var\_representation](book.var_representation.html)
+    
+-   [Varnish](book.varnish.html)
+    
+-   [WDDX](book.wddx.html)
+    
+-   [win32service](book.win32service.html)
+    
+-   [WinCache](book.wincache.html)
+    
+-   [wkhtmltox](book.wkhtmltox.html)
+    
+-   [xattr](book.xattr.html)
+    
+-   [xdiff](book.xdiff.html)
+    
+-   [Xhprof](book.xhprof.html)
+    
+-   [XLSWriter](book.xlswriter.html)
+    
+-   [XMLDiff](book.xmldiff.html)
+    
+-   [XML-RPC](book.xmlrpc.html)
+    
+-   [Yac](book.yac.html)
+    
+-   [Yaconf](book.yaconf.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   [Yaml](book.yaml.html)
+    
+-   [Yar](book.yar.html)
+    
+-   [YAZ](book.yaz.html)
+    
+-   [Обмен сообщениями 0MQ](book.zmq.html)
+    
+-   [ZooKeeper](book.zookeeper.html)

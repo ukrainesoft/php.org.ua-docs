@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::offsetExists](yaf-config-ini.offsetexists.md)
-- [Yaf_Config_Ini::offsetSet »](yaf-config-ini.offsetset.md)
+Призначення offsetGet
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Призначення offsetGet
+-   [« Yaf\_Config\_Ini::offsetExists](yaf-config-ini.offsetexists.html)
+    
+-   [Yaf\_Config\_Ini::offsetSet »](yaf-config-ini.offsetset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Призначення offsetGet
+    
 
-# Yaf_Config_Ini::offsetGet
+# YafConfigIni::offsetGet
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::offsetGet - Призначення offsetGet
+YafConfigIni::offsetGet — Призначення offsetGet
 
 ### Опис
 
-public **Yaf_Config_Ini::offsetGet**(string `$name`): void
+```methodsynopsis
+public Yaf_Config_Ini::offsetGet(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

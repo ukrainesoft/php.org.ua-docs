@@ -1,23 +1,29 @@
-- [«Gmagick::levelimage](gmagick.levelimage.md)
-- [Gmagick::mapimage »](gmagick.mapimage.md)
+Пропорційно масштабує зображення у 2 рази
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Пропорційно масштабує зображення у 2 рази
+-   [« Gmagick::levelimage](gmagick.levelimage.html)
+    
+-   [Gmagick::mapimage »](gmagick.mapimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Пропорційно масштабує зображення у 2 рази
+    
 
 # Gmagick::magnifyimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::magnifyimage — Пропорційно масштабує зображення в 2
-рази
+Gmagick::magnifyimage — Пропорційно масштабує зображення у 2 рази
 
 ### Опис
 
-public **Gmagick::magnifyimage**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Gmagick::magnifyimage(): mixed
+```
 
-Масштабує зображення пропорційно до подвійного вихідного розміру.
+Масштабує зображення пропорційно подвійному розміру.
 
 ### Список параметрів
 
@@ -25,7 +31,7 @@ public **Gmagick::magnifyimage**():
 
 ### Значення, що повертаються
 
-Збільшений об'єкт [Gmagick](class.gmagick.md).
+Збільшений об'єкт [Gmagick](class.gmagick.html)
 
 ### Помилки
 

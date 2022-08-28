@@ -1,31 +1,27 @@
-- [«Файли .user.ini](configuration.file.per-user.md)
-- [Як змінити налаштування конфігурації »](configuration.changes.md)
+Де можна встановити параметри конфігурації
 
-- [PHP Manual](index.md)
-- [Конфігурація часу виконання](configuration.md)
-- Де можуть бути встановлені параметри конфігурації
+-   [« Файлы .user.ini](configuration.file.per-user.html)
+    
+-   [Как изменить настройки конфигурации »](configuration.changes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Конфигурация времени выполнения](configuration.html)
+    
+-   Де можна встановити параметри конфігурації
+    
 
-## Де можуть бути встановлені параметри конфігурації
+## Де можна встановити параметри конфігурації
 
-Ці режими визначають, коли і де директива PHP може або не може бути
-встановлена, і кожна директива в керівництві відноситься до одного з цих
-режимів. Наприклад, деякі установки можуть бути встановлені за допомогою
-PHP-скрипт, що використовує [ini_set()](function.ini-set.md), тоді як
-інші можуть вимагати `php.ini` або `httpd.conf`.
+Ці режими визначають, коли і де директива PHP може або не може бути встановлена, і кожна директива в посібнику відноситься до одного з цих режимів. Наприклад, деякі налаштування можуть бути встановлені за допомогою PHP-скрипту, який використовує [ini\_set()](function.ini-set.html), а інші можуть вимагати php.ini або httpd.conf.
 
-Наприклад, директива
-[output_buffering](outcontrol.configuration.md#ini.output-buffering)
-відповідає `PHP_INI_PERDIR`, тому вона не може бути встановлена
-через [ini_set()](function.ini-set.md). Тим не менш, директива
-[display_errors](errorfunc.configuration.md#ini.display-errors)
-відповідає `PHP_INI_ALL`, тому вона може бути встановлена
-всюди, включаючи [ini_set()](function.ini-set.md).
+Наприклад, директива [output\_buffering](outcontrol.configuration.html#ini.output-buffering) відповідає `PHP_INI_PERDIR`тому вона не може бути встановлена ​​через [ini\_set()](function.ini-set.html). Тим не менш, директива [display\_errors](errorfunc.configuration.html#ini.display-errors) відповідає `PHP_INI_ALL`тому вона може бути встановлена ​​звідусіль, включаючи [ini\_set()](function.ini-set.html)
 
-| Режим          | Опис                                                                                                                                                                                                                         |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PHP_INI_USER   | Значення може бути встановлено в скриптах користувача (за допомогою [ini_set()](function.ini-set.md)) або в [реєстрі Windows](configuration.changes.md#configuration.changes.windows). Значення можна встановити в .user.ini |                                                                          
-| PHP_INI_PERDIR | Значення може бути встановлене в php.ini, .htaccess або httpd.conf                                                                                                                                                           |
-| PHP_INI_SYSTEM | Значення може бути встановлене в php.ini або httpd.conf                                                                                                                                                                      |
-| PHP_INI_ALL    | Значення може бути звідусіль                                                                                                                                                                                                 |
+**Визначення режимів PHPINI**
 
-**Визначення режимів PHP_INI\_\***
+| Режим | Описание |
+| --- | --- |
+| `PHP_INI_USER` | Значення може бути встановлено в скриптах користувача (за допомогою [ini\_set()](function.ini-set.html)) або в [реестре Windows](configuration.changes.html#configuration.changes.windows). Значення може бути встановлене в .user.ini |
+| `PHP_INI_PERDIR` | Значення може бути встановлене в php.ini, .htaccess або httpd.conf |
+| `PHP_INI_SYSTEM` | Значення може бути встановлене в php.ini або httpd.conf |
+| `PHP_INI_ALL` | Значення може бути встановлене звідусіль |

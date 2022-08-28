@@ -1,9 +1,15 @@
-- [«Directory::close](directory.close.md)
-- [Directory::rewind »](directory.rewind.md)
+Отримує елемент із дескриптора каталогу
 
-- [PHP Manual](index.md)
-- [Directory](class.directory.md)
-- Отримує елемент із дескриптора каталогу
+-   [« Directory::close](directory.close.html)
+    
+-   [Directory::rewind »](directory.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Directory](class.directory.html)
+    
+-   Отримує елемент із дескриптора каталогу
+    
 
 # Directory::read
 
@@ -13,10 +19,12 @@ Directory::read — Отримує елемент із дескриптора к
 
 ### Опис
 
-public **Directory::read**(): string\|false
+```methodsynopsis
+public Directory::read(): string|false
+```
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                  |
-| ------ | ------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметри не приймаються. Раніше як аргумент можна було передати дескриптор каталогу. |
+| Версия | Описание |
+| --- | --- |
+|  | Настройки не приймаються. Раніше як аргумент можна було передати дескриптор каталогу. |

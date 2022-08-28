@@ -1,20 +1,27 @@
-- [« SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.md)
-- [SolrQuery::getHighlightRegexSlop »](solrquery.gethighlightregexslop.md)
+Повертає регулярний вираз для фрагментації
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає регулярний вираз для фрагментації
+-   [« SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.html)
+    
+-   [SolrQuery::getHighlightRegexSlop »](solrquery.gethighlightregexslop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає регулярний вираз для фрагментації
+    
 
 # SolrQuery::getHighlightRegexPattern
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightRegexPattern — Повертає регулярний вираз
-для фрагментації
+SolrQuery::getHighlightRegexPattern — Повертає регулярний вираз для фрагментації
 
 ### Опис
 
-public **SolrQuery::getHighlightRegexPattern**(): string
+```methodsynopsis
+public SolrQuery::getHighlightRegexPattern(): string
+```
 
 Повертає регулярний вираз для фрагментації
 
@@ -24,5 +31,4 @@ public **SolrQuery::getHighlightRegexPattern**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає рядок у разі успішного виконання та **`null`**, якщо значення не встановлено

@@ -1,23 +1,28 @@
-- [« OCILob::save](ocilob.save.md)
-- [OCILob::seek »](ocilob.seek.md)
+Псевдонім OCILob::import
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Псевдонім OCILob::import
+-   [« OCILob::save](ocilob.save.html)
+    
+-   [OCILob::seek »](ocilob.seek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCILob](class.ocilob.html)
+    
+-   Псевдонім OCILob::import
+    
 
 # OCILob::saveFile
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-OCILob::saveFile — Псевдонім [OCILob::import()](ocilob.import.md)
+OCILob::saveFile — Псевдонім [OCILob::import()](ocilob.import.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[OCILob::import()](ocilob.import.md).
+Ця функція є псевдонімом: [OCILob::import()](ocilob.import.html)
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |

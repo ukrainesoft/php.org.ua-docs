@@ -1,282 +1,157 @@
-- [«Кодування символів](mysqlinfo.concepts.charset.md)
-- [Вступ »](intro.mysqli.md)
+Поліпшений модуль MySQL (MySQL Improved)
 
-- [PHP Manual](index.md)
-- [MySQL](set.mysqlinfo.md)
-- Покращений модуль MySQL (MySQL Improved)
+-   [« Кодировки символов](mysqlinfo.concepts.charset.html)
+    
+-   [Введение »](intro.mysqli.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](set.mysqlinfo.html)
+    
+-   Поліпшений модуль MySQL (MySQL Improved)
+    
 
-# Покращений модуль MySQL (MySQL Improved)
+# Поліпшений модуль MySQL (MySQL Improved)
 
-- [Вступ](intro.mysqli.md)
-- [Короткий огляд](mysqli.overview.md)
-- [Короткий посібник](mysqli.quickstart.md)
-- [Процедурний та об'єктно-орієнтований интерфейс](mysqli.quickstart.dual-interface.md)
-- [З'єднання](mysqli.quickstart.connections.md)
-- [Виконання запитів](mysqli.quickstart.statements.md)
-- [Підготовлювані запити](mysqli.quickstart.prepared-statements.md)
-- [Збережені процедури](mysqli.quickstart.stored-procedures.md)
-- [Множинні запити](mysqli.quickstart.multiple-statement.md)
-- [API підтримка транзакцій](mysqli.quickstart.transactions.md)
-- [Метадані](mysqli.quickstart.metadata.md)
-- [Встановлення та налаштування](mysqli.setup.md)
-- [Вимоги](mysqli.requirements.md)
-- [Установка](mysqli.installation.md)
-- [Налаштування під час виконання](mysqli.configuration.md)
-- [Типи ресурсів](mysqli.resources.md)
-- [Модуль mysqli та постійні з'єднання](mysqli.persistconns.md)
-- [Предвизначені константи](mysqli.constants.md)
-- [Основна інформація про функції модуля MySQLi](mysqli.summary.md)
-- [mysqli](class.mysqli.md) - Клас mysqli
-- [mysqli::$affected_rows](mysqli.affected-rows.md) — Отримує
-число рядків, порушених попередньою операцією MySQL
-- [mysqli::autocommit](mysqli.autocommit.md) — Включає або
-відключає автоматичну фіксацію змін бази даних
-- [mysqli::begin_transaction](mysqli.begin-transaction.md) -
-Стартує транзакцію
-- [mysqli::change_user](mysqli.change-user.md) — Дозволяє
-змінити користувача підключеного до бази даних
-- [mysqli::character_set_name](mysqli.character-set-name.md) -
-Повертає поточне кодування, встановлене для з'єднання з БД
-- [mysqli::close](mysqli.close.md) — Закриває раніше відкрите
-з'єднання з базою даних
-- [mysqli::commit](mysqli.commit.md) — Фіксує поточну
-транзакцію
-- [mysqli::$connect_errno](mysqli.connect-errno.md) — Повертає
-код помилки останньої спроби з'єднання
-- [mysqli::$connect_error](mysqli.connect-error.md) — Повертає
-опис останньої помилки підключення
-- [mysqli::\_\_construct](mysqli.construct.md) - Встановлює
-нове з'єднання з сервером MySQL
-- [mysqli::debug](mysqli.debug.md) — Виконує процедури налагодження
-- [mysqli::dump_debug_info](mysqli.dump-debug-info.md) -
-Журналування налагоджувальної інформації
-- [mysqli::$errno](mysqli.errno.md) — Повертає код помилки
-останнього виклику функції
-- [mysqli::$error_list](mysqli.error-list.md) — Повертає
-список помилок виконання останньої запущеної команди
-- [mysqli::$error](mysqli.error.md) — Повертає рядок з
-описом останньої помилки
-- [mysqli::$field_count](mysqli.field-count.md) — Повертає
-число стовпців, порушених останнім запитом
-- [mysqli::get_charset](mysqli.get-charset.md) — Повертає
-об'єкт, що описує кодування
-- [mysqli::$client_info](mysqli.get-client-info.md) — Отримує
-інформацію про клієнта MySQL
-- [mysqli::$client_version](mysqli.get-client-version.md) -
-Повертає інформацію про клієнта MySQL у вигляді рядка
-- [mysqli::get_connection_stats](mysqli.get-connection-stats.md)
-— Повертає статистику з'єднання із клієнтом
-- [mysqli::$host_info](mysqli.get-host-info.md) — Повертає
-рядок, що містить тип використовуваного з'єднання
-- [mysqli::$protocol_version](mysqli.get-proto-info.md) -
-Повертає версію використовуваного MySQL протоколу
-- [mysqli::$server_info](mysqli.get-server-info.md) — Повертає
-версію MySQL сервера
-- [mysqli::$server_version](mysqli.get-server-version.md) -
-Повертає версію сервера MySQL, представлену у вигляді integer
-- [mysqli::get_warnings](mysqli.get-warnings.md) — Отримує
-результат SHOW WARNINGS
-- [mysqli::$info](mysqli.info.md) — Витягує інформацію про
-останньому виконаному запиті
-- [mysqli::init](mysqli.init.md) - Ініціалізує MySQLi та
-повертає об'єкт для використання у функції
-mysqli_real_connect()
-- [mysqli::$insert_id](mysqli.insert-id.md) — Повертає
-значення, створене для стовпця AUTO_INCREMENT останнім
-запитом
-- [mysqli::kill](mysqli.kill.md) — Запит для сервера завершити
-виконання процесу MySQL
-- [mysqli::more_results](mysqli.more-results.md) — Перевірка,
-є ще результати в мультизапиті
-- [mysqli::multi_query](mysqli.multi-query.md) — Виконує один
-або кілька запитів до бази даних
-- [mysqli::next_result](mysqli.next-result.md) — Підготовка
-наступного доступного результуючого набору з multi_query
-- [mysqli::options](mysqli.options.md) — Встановлення установок
-- [mysqli::ping](mysqli.ping.md) - Перевіряє працездатність
-з'єднання або намагається перепідключитися, якщо з'єднання
-розірвано
-- [mysqli::poll](mysqli.poll.md) — Опитування підключень
-- [mysqli::prepare](mysqli.prepare.md) — Підготовка SQL
-вираз до виконання
-- [mysqli::query](mysqli.query.md) — Виконує запит до бази
-даних
-- [mysqli::real_connect](mysqli.real-connect.md) — Встановлює
-з'єднання з сервером mysql
-- [mysqli::real_escape_string](mysqli.real-escape-string.md) -
-Екранує спеціальні символи в рядку для використання в
-SQL-вираз, використовуючи поточний набір символів з'єднання
-- [mysqli::real_query](mysqli.real-query.md) — Виконання SQL
-запиту
-- [mysqli::reap_async_query](mysqli.reap-async-query.md) -
-Отримання результату асинхронного запиту
-- [mysqli::refresh](mysqli.refresh.md) — Оновлення
-- [mysqli::release_savepoint](mysqli.release-savepoint.md) -
-Видаляє іменовану точку збереження зі списку точок збереження
-поточної транзакції
-- [mysqli::rollback](mysqli.rollback.md) - Відкат поточної
-транзакції
-- [mysqli::savepoint](mysqli.savepoint.md) — Встановіть
-іменовану точку збереження транзакції
-- [mysqli::select_db](mysqli.select-db.md) — Встановлює базу
-даних для виконуваних запитів
-- [mysqli::set_charset](mysqli.set-charset.md) — Задає набір
-символів
-- [mysqli::$sqlstate](mysqli.sqlstate.md) — Повертає код
-стану SQLSTATE останньої MySQL операції
-- [mysqli::ssl_set](mysqli.ssl-set.md) — Використовується для
-встановлення безпечних з'єднань за допомогою SSL
-- [mysqli::stat](mysqli.stat.md) — Отримання інформації про
-поточний стан системи
-- [mysqli::stmt_init](mysqli.stmt-init.md) - Ініціалізує
-запит і повертає об'єкт для використання в
-mysqli_stmt_prepare
-- [mysqli::store_result](mysqli.store-result.md) — Передає на
-клієнта результуючий набір останнього запиту
-- [mysqli::$thread_id](mysqli.thread-id.md) — Повертає ID
-процесу поточного підключення
-- [mysqli::thread_safe](mysqli.thread-safe.md) — Показує,
-чи безпечна робота з процесами
-- [mysqli::use_result](mysqli.use-result.md) - Готує
-результуючий набір на сервері для використання
-- [mysqli::$warning_count](mysqli.warning-count.md) — Повертає
-кількість попереджень із останнього запиту заданого
-підключення
-- [mysqli_stmt](class.mysqli-stmt.md) — The mysqli_stmt class
-- [mysqli_stmt::$affected_rows](mysqli-stmt.affected-rows.md) -
-Повертає загальну кількість рядків, змінених, віддалених,
-вставлених або зіставлених останнім виконаним виразом
-- [mysqli_stmt::attr_get](mysqli-stmt.attr-get.md) — Отримує
-поточне значення атрибуту запиту
-- [mysqli_stmt::attr_set](mysqli-stmt.attr-set.md) — Змінює
-поведінка підготовленого запиту
-- [mysqli_stmt::bind_param](mysqli-stmt.bind-param.md) -
-Прив'язка змінних до параметрів запиту
-- [mysqli_stmt::bind_result](mysqli-stmt.bind-result.md)
-Прив'язка змінних до підготовленого запиту для розміщення
-результату
-- [mysqli_stmt::close](mysqli-stmt.close.md) — Закриває
-підготовлений запит
-- [mysqli_stmt::\_\_construct](mysqli-stmt.construct.md) -
-Конструктор для об'єкту mysqli_stmt
-- [mysqli_stmt::data_seek](mysqli-stmt.data-seek.md) — Перехід до
-заданому рядку в результуючому наборі
-- [mysqli_stmt::$errno](mysqli-stmt.errno.md) — Повертає код
-помилки виконання останнього запиту
-- [mysqli_stmt::$error_list](mysqli-stmt.error-list.md) -
-Повертає перелік помилок виконання останнього запиту
-- [mysqli_stmt::$error](mysqli-stmt.error.md) — Повертає
-рядок із поясненням останньої помилки під час виконання запиту
-- [mysqli_stmt::execute](mysqli-stmt.execute.md) — Виконує
-підготовлене затвердження
-- [mysqli_stmt::fetch](mysqli-stmt.fetch.md) — Зв'язує
-результати підготовленого виразу зі змінними
-- [mysqli_stmt::$field_count](mysqli-stmt.field-count.md) -
-Повертає кількість стовпців у заданому вираженні
-- [mysqli_stmt::free_result](mysqli-stmt.free-result.md) -
-Звільняє пам'ять від результату запиту, вказаного
-дескриптором
-- [mysqli_stmt::get_result](mysqli-stmt.get-result.md)
-Отримує результат із підготовленого запиту у вигляді об'єкту
-mysqli_result
-- [mysqli_stmt::get_warnings](mysqli-stmt.get-warnings.md) -
-Отримує результат від SHOW WARNINGS
-- [mysqli_stmt::$insert_id](mysqli-stmt.insert-id.md) — Отримує
-ID, згенерований попередньою операцією INSERT
-- [mysqli_stmt::more_results](mysqli-stmt.more-results.md)
-Перевіряє, чи є ще набори рядків через мультизапит.
-- [mysqli_stmt::next_result](mysqli-stmt.next-result.md)
-Читає наступний набір рядків із мультизапиту
-- [mysqli_stmt::$num_rows](mysqli-stmt.num-rows.md) — Повертає
-кількість рядків, отриманих із сервера
-- [mysqli_stmt::$param_count](mysqli-stmt.param-count.md) -
-Повертає кількість параметрів у запиті
-- [mysqli_stmt::prepare](mysqli-stmt.prepare.md) -
-Готує затвердження SQL до виконання
-- [mysqli_stmt::reset](mysqli-stmt.reset.md) — Скидає
-результати виконання підготовленого запиту
-- [mysqli_stmt::result_metadata](mysqli-stmt.result-metadata.md)
-— Повертає метадані результуючої таблиці.
-запиту
-- [mysqli_stmt::send_long_data](mysqli-stmt.send-long-data.md) -
-Надсилання даних блоками
-- [mysqli_stmt::$sqlstate](mysqli-stmt.sqlstate.md) — Повертає
-код помилки SQLSTATE, викликаної під час виконання останньої
-операції над запитом
-- [mysqli_stmt::store_result](mysqli-stmt.store-result.md)
-Зберігає набір результатів у внутрішньому буфері
-- [mysqli_result](class.mysqli-result.md) - Клас mysqli_result
-- [mysqli_result::\_\_construct](mysqli-result.construct.md) -
-Конструктор об'єкту mysqli_result
-- [mysqli_result::$current_field](mysqli-result.current-field.md)
-— Отримує зміщення вказівника щодо поточного поля
-- [mysqli_result::data_seek](mysqli-result.data-seek.md)
-Переміщує покажчик результату на вибраний рядок
-- [mysqli_result::fetch_all](mysqli-result.fetch-all.md)
-Вибирає всі рядки з результуючого набору та поміщає їх у
-асоціативний масив, звичайний масив або обидва
-- [mysqli_result::fetch_array](mysqli-result.fetch-array.md)
-Вибирає наступний рядок з набору результатів і поміщає їх у
-асоціативний масив, звичайний масив або обидва
-- [mysqli_result::fetch_assoc](mysqli-result.fetch-assoc.md)
-Вибирає наступний рядок з набору результатів і поміщає їх у
-асоціативний масив
-- [mysqli_result::fetch_column](mysqli-result.fetch-column.md)
-Отримує один стовпець з наступного рядка набору результатів
-- [mysqli_result::fetch_field_direct](mysqli-result.fetch-field-direct.md)
-— Отримання метаданих конкретного поля
-- [mysqli_result::fetch_field](mysqli-result.fetch-field.md)
-Повертає наступне поле результуючого набору
-- [mysqli_result::fetch_fields](mysqli-result.fetch-fields.md)
-Повертає масив об'єктів, що становлять поля результуючого
-набору
-- [mysqli_result::fetch_object](mysqli-result.fetch-object.md)
-Вибирає наступний рядок із набору результатів у вигляді об'єкта
-- [mysqli_result::fetch_row](mysqli-result.fetch-row.md)
-Вибирає наступний рядок з набору результатів і поміщає їх у
-звичайний масив
-- [mysqli_result::$field_count](mysqli-result.field-count.md)
-Отримує кількість полів у наборі результатів
-- [mysqli_result::field_seek](mysqli-result.field-seek.md)
-Встановити вказівник поля на певне усунення
-- [mysqli_result::free](mysqli-result.free.md) — Звільняє
-пам'ять, зайняту результатами запиту
-- [mysqli_result::getIterator](mysqli-result.getiterator.md)
-Витягує зовнішній ітератор
-- [mysqli_result::$lengths](mysqli-result.lengths.md)
-Повертає довжини полів поточного рядка результуючого набору
-- [mysqli_result::$num_rows](mysqli-result.num-rows.md) —
-Отримує кількість рядків у наборі результатів
-- [mysqli_driver](class.mysqli-driver.md) - Клас mysqli_driver
-- [mysqli_driver::embedded_server_end](mysqli-driver.embedded-server-end.md)
-- Зупиняє вбудований сервер
-- [mysqli_driver::embedded_server_start](mysqli-driver.embedded-server-start.md)
-— Ініціалізує та запускає вбудований сервер
-- [mysqli_driver::$report_mode](mysqli-driver.report-mode.md) -
-Встановлює режим звіту про помилки mysqli
-- [mysqli_warning](class.mysqli-warning.md) - Клас mysqli_warning
-- [mysqli_warning::\_\_construct](mysqli-warning.construct.md) -
-Закритий конструктор для заборони прямого створення екземпляра
-- [mysqli_warning::next](mysqli-warning.next.md) — Отримує
-наступне попередження
-- [mysqli_sql_exception](class.mysqli-sql-exception.md) - Клас
-mysqli_sql_exception
-- [mysqli_sql_exception::getSqlState](mysqli-sql-exception.getsqlstate.md)
-— Повертає код помилки SQLSTATE
-- [Синоніми та застарілі функції Mysqli](ref.mysqli.md)
-- [mysqli_connect](function.mysqli-connect.md) - Псевдонім
-mysqli::\_\_construct
-- [mysqli::escape_string](function.mysqli-escape-string.md) -
-Псевдонім функції mysqli_real_escape_string
-- [mysqli_execute](function.mysqli-execute.md) - Синонім для
-mysqli_stmt_execute
-- [mysqli_get_client_stats](function.mysqli-get-client-stats.md)
-- Отримати клієнтську попроцесну статистику
-- [mysqli_get_links_stats](function.mysqli-get-links-stats.md) -
-Повертає інформацію про відкриті та закешовані з'єднання
-MySQL
-- [mysqli_report](function.mysqli-report.md) - Псевдонім
-mysqli_driver-\>report_mode
-- [mysqli::set_opt](function.mysqli-set-opt.md) - Псевдонім
-mysqli_options
-- [Список змін](changelog.mysqli.md)
+-   [Введение](intro.mysqli.html)
+-   [Краткий обзор](mysqli.overview.html)
+-   [Краткое руководство](mysqli.quickstart.html)
+    -   [Процедурный и объектно-ориентированный интерфейс](mysqli.quickstart.dual-interface.html)
+    -   [Соединения](mysqli.quickstart.connections.html)
+    -   [Выполнение запросов](mysqli.quickstart.statements.html)
+    -   [Подготавливаемые запросы](mysqli.quickstart.prepared-statements.html)
+    -   [Хранимые процедуры](mysqli.quickstart.stored-procedures.html)
+    -   [Множественные запросы](mysqli.quickstart.multiple-statement.html)
+    -   [API поддержка транзакций](mysqli.quickstart.transactions.html)
+    -   [Метаданные](mysqli.quickstart.metadata.html)
+-   [Установка и настройка](mysqli.setup.html)
+    -   [Требования](mysqli.requirements.html)
+    -   [Установка](mysqli.installation.html)
+    -   [Настройка во время выполнения](mysqli.configuration.html)
+    -   [Типы ресурсов](mysqli.resources.html)
+-   [Модуль mysqli и постоянные соединения](mysqli.persistconns.html)
+-   [Предопределённые константы](mysqli.constants.html)
+-   [Основная информация о функциях модуля MySQLi](mysqli.summary.html)
+-   [mysqli](class.mysqli.html) - Клас mysqli
+    -   [mysqli::$affected\_rows](mysqli.affected-rows.html) — Отримує кількість рядків, які торкнулися попередньої операції MySQL
+    -   [mysqli::autocommit](mysqli.autocommit.html) — Вмикає або вимикає автоматичну фіксацію змін бази даних
+    -   [mysqli::begin\_transaction](mysqli.begin-transaction.html) - Стартує транзакцію
+    -   [mysqli::change\_user](mysqli.change-user.html) — Дозволяє змінити користувача підключеного до бази даних
+    -   [mysqli::character\_set\_name](mysqli.character-set-name.html) — Повертає поточне кодування, встановлене для з'єднання з БД
+    -   [mysqli::close](mysqli.close.html) — Закриває раніше відкрите з'єднання з базою даних
+    -   [mysqli::commit](mysqli.commit.html) - Фіксує поточну транзакцію
+    -   [mysqli::$connect\_errno](mysqli.connect-errno.html) — Повертає код помилки останньої спроби з'єднання
+    -   [mysqli::$connect\_error](mysqli.connect-error.html) — Повертає опис останньої помилки підключення
+    -   [mysqli::\_\_construct](mysqli.construct.html) — Встановлює нове з'єднання із сервером MySQL
+    -   [mysqli::debug](mysqli.debug.html) - Виконує процедури налагодження
+    -   [mysqli::dump\_debug\_info](mysqli.dump-debug-info.html) - Журналування налагоджувальної інформації
+    -   [mysqli::$errno](mysqli.errno.html) — Повертає код помилки останнього виклику функції
+    -   [mysqli::$error\_list](mysqli.error-list.html) — Повертає перелік помилок виконання останньої запущеної команди
+    -   [mysqli::$error](mysqli.error.html) — Повертає рядок із описом останньої помилки
+    -   [mysqli::$field\_count](mysqli.field-count.html) — Повертає кількість стовпців, які торкнулися останнім запитом
+    -   [mysqli::get\_charset](mysqli.get-charset.html) — Повертає об'єкт, що описує кодування
+    -   [mysqli::$client\_info](mysqli.get-client-info.html) — Отримує інформацію про клієнта MySQL
+    -   [mysqli::$client\_version](mysqli.get-client-version.html) — Повертає інформацію про клієнта MySQL у вигляді рядка
+    -   [mysqli::get\_connection\_stats](mysqli.get-connection-stats.html) — Повертає статистику з'єднання із клієнтом
+    -   [mysqli::$host\_info](mysqli.get-host-info.html) — Повертає рядок, що містить тип використовуваної сполуки
+    -   [mysqli::$protocol\_version](mysqli.get-proto-info.html) — Повертає версію протоколу, що використовується MySQL
+    -   [mysqli::$server\_info](mysqli.get-server-info.html) — Повертає версію сервера MySQL
+    -   [mysqli::$server\_version](mysqli.get-server-version.html) — Повертає версію сервера MySQL, представлену у вигляді integer
+    -   [mysqli::get\_warnings](mysqli.get-warnings.html) — Отримує результат SHOW WARNINGS
+    -   [mysqli::$info](mysqli.info.html) — Витягує інформацію про останній виконаний запит
+    -   [mysqli::init](mysqli.init.html) — Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+    -   [mysqli::$insert\_id](mysqli.insert-id.html) — Повертає значення, створене для стовпця AUTOINCREMENT останнім запитом
+    -   [mysqli::kill](mysqli.kill.html) — Запит для сервера завершити виконання процесу MySQL
+    -   [mysqli::more\_results](mysqli.more-results.html) — Перевірка, чи є ще результати у мультизапиті
+    -   [mysqli::multi\_query](mysqli.multi-query.html) — Виконує один або кілька запитів до бази даних
+    -   [mysqli::next\_result](mysqli.next-result.html) — Підготовка наступного результуючого набору з multiquery
+    -   [mysqli::options](mysqli.options.html) — Встановлення налаштувань
+    -   [mysqli::ping](mysqli.ping.html) — Перевіряє працездатність з'єднання або намагається перепідключитися, якщо з'єднання розірвано
+    -   [mysqli::poll](mysqli.poll.html) - Опитування підключень
+    -   [mysqli::prepare](mysqli.prepare.html) - Підготовляє SQL вираз до виконання
+    -   [mysqli::query](mysqli.query.html) — Виконує запит до бази даних
+    -   [mysqli::real\_connect](mysqli.real-connect.html) — Встановлює з'єднання із сервером mysql
+    -   [mysqli::real\_escape\_string](mysqli.real-escape-string.html) — Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+    -   [mysqli::real\_query](mysqli.real-query.html) - Виконання SQL запиту
+    -   [mysqli::reap\_async\_query](mysqli.reap-async-query.html) — Отримання результату асинхронного запиту
+    -   [mysqli::refresh](mysqli.refresh.html) - Оновлення
+    -   [mysqli::release\_savepoint](mysqli.release-savepoint.html) — Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції.
+    -   [mysqli::rollback](mysqli.rollback.html) - Відкат поточної транзакції
+    -   [mysqli::savepoint](mysqli.savepoint.html) — Встановіть іменовану точку збереження транзакції
+    -   [mysqli::select\_db](mysqli.select-db.html) — Встановлює базу даних для запитів, що виконуються.
+    -   [mysqli::set\_charset](mysqli.set-charset.html) — Задає набір символів
+    -   [mysqli::$sqlstate](mysqli.sqlstate.html) — Повертає код стану SQLSTATE останньої операції MySQL операції
+    -   [mysqli::ssl\_set](mysqli.ssl-set.html) — Використовується для встановлення безпечних з'єднань за допомогою SSL
+    -   [mysqli::stat](mysqli.stat.html) - Отримання інформації про поточний стан системи
+    -   [mysqli::stmt\_init](mysqli.stmt-init.html) — Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+    -   [mysqli::store\_result](mysqli.store-result.html) — Передає на клієнта результуючий набір останнього запиту
+    -   [mysqli::$thread\_id](mysqli.thread-id.html) — Повертає ID процесу поточного підключення
+    -   [mysqli::thread\_safe](mysqli.thread-safe.html) — Показує, чи безпечна робота із процесами
+    -   [mysqli::use\_result](mysqli.use-result.html) — Готує результуючий набір на сервері для використання
+    -   [mysqli::$warning\_count](mysqli.warning-count.html) — Повертає кількість попереджень із останнього запиту заданого підключення
+-   [mysqli\_stmt](class.mysqli-stmt.html) - The mysqlistmt class
+    -   [mysqli\_stmt::$affected\_rows](mysqli-stmt.affected-rows.html) — Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
+    -   [mysqli\_stmt::attr\_get](mysqli-stmt.attr-get.html) — Отримує поточне значення атрибуту запиту
+    -   [mysqli\_stmt::attr\_set](mysqli-stmt.attr-set.html) — Змінює поведінку підготовленого запиту
+    -   [mysqli\_stmt::bind\_param](mysqli-stmt.bind-param.html) — Прив'язка змінних до параметрів запиту, що готується.
+    -   [mysqli\_stmt::bind\_result](mysqli-stmt.bind-result.html) — Прив'язка змінних до підготовленого запиту для розміщення результату
+    -   [mysqli\_stmt::close](mysqli-stmt.close.html) - Закриває підготовлений запит
+    -   [mysqli\_stmt::\_\_construct](mysqli-stmt.construct.html) - Конструктор для об'єкту mysqlistmt
+    -   [mysqli\_stmt::data\_seek](mysqli-stmt.data-seek.html) — Перехід до заданого рядка в результуючому наборі
+    -   [mysqli\_stmt::$errno](mysqli-stmt.errno.html) — Повертає код помилки виконання останнього запиту
+    -   [mysqli\_stmt::$error\_list](mysqli-stmt.error-list.html) — Повертає перелік помилок виконання останнього запиту
+    -   [mysqli\_stmt::$error](mysqli-stmt.error.html) — Повертає рядок із поясненням останньої помилки під час виконання запиту
+    -   [mysqli\_stmt::execute](mysqli-stmt.execute.html) - Виконує підготовлене твердження
+    -   [mysqli\_stmt::fetch](mysqli-stmt.fetch.html) — пов'язує результати підготовленого виразу зі змінними
+    -   [mysqli\_stmt::$field\_count](mysqli-stmt.field-count.html) — Повертає кількість стовпців у заданому виразі
+    -   [mysqli\_stmt::free\_result](mysqli-stmt.free-result.html) — Звільняє пам'ять від результату запиту, вказаного дескриптором
+    -   [mysqli\_stmt::get\_result](mysqli-stmt.get-result.html) — Отримує результат із підготовленого запиту як об'єкт mysqliresult
+    -   [mysqli\_stmt::get\_warnings](mysqli-stmt.get-warnings.html) — Отримує результат від SHOW WARNINGS
+    -   [mysqli\_stmt::$insert\_id](mysqli-stmt.insert-id.html) — Отримує ID, згенероване попередньою операцією INSERT
+    -   [mysqli\_stmt::more\_results](mysqli-stmt.more-results.html) — Перевіряє, чи є ще набори рядків через мультизапит.
+    -   [mysqli\_stmt::next\_result](mysqli-stmt.next-result.html) — Читає наступний набір рядків із мультизапиту
+    -   [mysqli\_stmt::$num\_rows](mysqli-stmt.num-rows.html) — Повертає кількість рядків, отриманих із сервера
+    -   [mysqli\_stmt::$param\_count](mysqli-stmt.param-count.html) — Повертає кількість параметрів у запиті
+    -   [mysqli\_stmt::prepare](mysqli-stmt.prepare.html) — готує затвердження SQL до виконання
+    -   [mysqli\_stmt::reset](mysqli-stmt.reset.html) — скидає результати виконання підготовленого запиту
+    -   [mysqli\_stmt::result\_metadata](mysqli-stmt.result-metadata.html) — Повертає метадані результуючої таблиці запиту, що готується.
+    -   [mysqli\_stmt::send\_long\_data](mysqli-stmt.send-long-data.html) — Надсилання даних блоками
+    -   [mysqli\_stmt::$sqlstate](mysqli-stmt.sqlstate.html) — Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+    -   [mysqli\_stmt::store\_result](mysqli-stmt.store-result.html) — Зберігає набір результатів у внутрішньому буфері
+-   [mysqli\_result](class.mysqli-result.html) - Клас mysqliresult
+    -   [mysqli\_result::\_\_construct](mysqli-result.construct.html) - Конструктор об'єкта mysqliresult
+    -   [mysqli\_result::$current\_field](mysqli-result.current-field.html) — Отримує зміщення вказівника щодо поточного поля
+    -   [mysqli\_result::data\_seek](mysqli-result.data-seek.html) — Переміщує вказівник результату на вибраний рядок
+    -   [mysqli\_result::fetch\_all](mysqli-result.fetch-all.html) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
+    -   [mysqli\_result::fetch\_array](mysqli-result.fetch-array.html) — Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+    -   [mysqli\_result::fetch\_assoc](mysqli-result.fetch-assoc.html) — Вибирає наступний рядок із набору результатів і поміщає його в асоціативний масив
+    -   [mysqli\_result::fetch\_column](mysqli-result.fetch-column.html) — Отримує один стовпець із наступного рядка набору результатів
+    -   [mysqli\_result::fetch\_field\_direct](mysqli-result.fetch-field-direct.html) — Отримання метаданих конкретного поля
+    -   [mysqli\_result::fetch\_field](mysqli-result.fetch-field.html) — Повертає наступне поле результуючого набору
+    -   [mysqli\_result::fetch\_fields](mysqli-result.fetch-fields.html) — Повертає масив об'єктів, що становлять поля результуючого набору
+    -   [mysqli\_result::fetch\_object](mysqli-result.fetch-object.html) — Вибирає наступний рядок із набору результатів у вигляді об'єкта
+    -   [mysqli\_result::fetch\_row](mysqli-result.fetch-row.html) — Вибирає наступний рядок із набору результатів та поміщає його у звичайний масив
+    -   [mysqli\_result::$field\_count](mysqli-result.field-count.html) — Отримує кількість полів у наборі результатів
+    -   [mysqli\_result::field\_seek](mysqli-result.field-seek.html) — Встановити покажчик поля на певне усунення
+    -   [mysqli\_result::free](mysqli-result.free.html) - Звільняє пам'ять, зайняту результатами запиту
+    -   [mysqli\_result::getIterator](mysqli-result.getiterator.html) - Витягує зовнішній ітератор
+    -   [mysqli\_result::$lengths](mysqli-result.lengths.html) — Повертає довжини полів поточного рядка результуючого набору
+    -   [mysqli\_result::$num\_rows](mysqli-result.num-rows.html) — Отримує кількість рядків у наборі результатів
+-   [mysqli\_driver](class.mysqli-driver.html) - Клас mysqlidriver
+    -   [mysqli\_driver::embedded\_server\_end](mysqli-driver.embedded-server-end.html) - Зупиняє вбудований сервер
+    -   [mysqli\_driver::embedded\_server\_start](mysqli-driver.embedded-server-start.html) — Ініціалізує та запускає вбудований сервер
+    -   [mysqli\_driver::$report\_mode](mysqli-driver.report-mode.html) — Встановлює режим звіту про помилки mysqli
+-   [mysqli\_warning](class.mysqli-warning.html) - Клас mysqliwarning
+    -   [mysqli\_warning::\_\_construct](mysqli-warning.construct.html) — Закритий конструктор для заборони прямого створення екземпляра
+    -   [mysqli\_warning::next](mysqli-warning.next.html) — Отримує таке попередження
+-   [mysqli\_sql\_exception](class.mysqli-sql-exception.html) - Клас mysqlisqlexception
+    -   [mysqli\_sql\_exception::getSqlState](mysqli-sql-exception.getsqlstate.html) — Повертає код помилки SQLSTATE
+-   [Синонимы и устаревшие функции Mysqli](ref.mysqli.html)
+    -   [mysqli\_connect](function.mysqli-connect.html) - Псевдонім mysqli::construct
+    -   [mysqli::escape\_string](function.mysqli-escape-string.html) - Псевдонім функції mysqlirealescapestring
+    -   [mysqli\_execute](function.mysqli-execute.html) - Синонім для mysqlistmtexecute
+    -   [mysqli\_get\_client\_stats](function.mysqli-get-client-stats.html) - Отримати клієнтську попроцесну статистику
+    -   [mysqli\_get\_links\_stats](function.mysqli-get-links-stats.html) — Повертає інформацію про відкриті та закешовані з'єднання MySQL
+    -   [mysqli\_report](function.mysqli-report.html) - Псевдонім mysqlidriver->reportmode
+    -   [mysqli::set\_opt](function.mysqli-set-opt.html) - Псевдонім mysqlioptions
+-   [Список изменений](changelog.mysqli.html)

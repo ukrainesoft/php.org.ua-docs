@@ -1,30 +1,36 @@
-- [« Componere\Definition::getClosure](componere-definition.getclosure.md)
-- [Componere\Patch »](class.componere-patch.md)
+Отримує замикання
 
-- [PHP Manual](index.md)
-- [Componere\Definition](class.componere-definition.md)
-- Отримує замикання
+-   [« Componere\\Definition::getClosure](componere-definition.getclosure.html)
+    
+-   [Componere\\Patch »](class.componere-patch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Definition](class.componere-definition.html)
+    
+-   Отримує замикання
+    
 
-# Componere\Definition::getClosures
+# ComponereDefinition::getClosures
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Definition::getClosures — Отримує замикання
+ComponereDefinition::getClosures — Отримує замикання
 
 ### Опис
 
-public **Componere\Definition::getClosures**(): array
+```methodsynopsis
+public Componere\Definition::getClosures(): array
+```
 
 Повертає масив замикань
 
 ### Значення, що повертаються
 
-Повертає всі методи у вигляді масиву об'єктів Closure, прив'язаних до
-коректної області
+Повертає всі методи у вигляді масиву об'єктів Closure, прив'язаних до коректної області
 
 ### Винятки
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо Definition вже було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition вже було зареєстровано

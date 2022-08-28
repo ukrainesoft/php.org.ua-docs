@@ -1,19 +1,27 @@
-- [« SplFileObject::\_\_toString](splfileobject.tostring.md)
-- [SplTempFileObject »](class.spltempfileobject.md)
+Перевіряє, чи кінець файлу (EOF) досягнуто.
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Перевіряє, чи кінець файлу досягнуто (EOF)
+-   [« SplFileObject::\_\_toString](splfileobject.tostring.html)
+    
+-   [SplTempFileObject »](class.spltempfileobject.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Перевіряє, чи кінець файлу (EOF) досягнуто.
+    
 
 # SplFileObject::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplFileObject::valid — Перевіряє, чи кінець файлу досягнуто (EOF)
+SplFileObject::valid — Перевіряє, чи досягнуто кінець файлу (EOF)
 
 ### Опис
 
-public **SplFileObject::valid**(): bool
+```methodsynopsis
+public SplFileObject::valid(): bool
+```
 
 Перевіряє, чи було досягнуто кінець файлу (EOF).
 
@@ -23,24 +31,26 @@ public **SplFileObject::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо EOF не досягнуто, **`false`** у протилежному
-випадку.
+Повертає **`true`**, якщо EOF не досягнуто, **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::valid()****
 
-` <?php// Цикл по файлу$file = new SplFileObject("file.txt");while ($file->valid()) {    echo $file->fgets();}?> `
+```php
+<?php
+// Цикл по файлу
+$file = new SplFileObject("file.txt");
+while ($file->valid()) {
+    echo $file->fgets();
+}
+?>
+```
 
 ### Дивіться також
 
-- [SplFileObject::current()](splfileobject.current.md) - Отримати
-поточний рядок файлу
-- [SplFileObject::key()](splfileobject.key.md) - Отримати номер
-рядки
-- [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового
-вказівника на заданий рядок
-- [SplFileObject::next()](splfileobject.next.md) - Читати наступну
-рядок
-- [SplFileObject::rewind()](splfileobject.rewind.md) - Перемотування
-файлового покажчика на початок файлу
+-   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу
+-   [SplFileObject::key()](splfileobject.key.html) - Отримати номер рядка
+-   [SplFileObject::seek()](splfileobject.seek.html) - Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.html) - Читати наступний рядок
+-   [SplFileObject::rewind()](splfileobject.rewind.html) - Перемотування файлового покажчика на початок файлу

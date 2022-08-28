@@ -1,28 +1,33 @@
-- [« RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.md)
-- [RecursiveIteratorIterator::\_\_construct »](recursiveiteratoriterator.construct.md)
+Перевірка, чи є елемент дочірні елементи
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Перевірка, чи є елемент дочірні елементи
+-   [« RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.html)
+    
+-   [RecursiveIteratorIterator::\_\_construct »](recursiveiteratoriterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Перевірка, чи є елемент дочірні елементи
+    
 
 # RecursiveIteratorIterator::callHasChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::callHasChildren — Перевірка, чи є у
-елемент дочірніх елементів
+RecursiveIteratorIterator::callHasChildren — Перевірка, чи має елемент дочірні елементи
 
 ### Опис
 
-public **RecursiveIteratorIterator::callHasChildren**(): bool
+```methodsynopsis
+public RecursiveIteratorIterator::callHasChildren(): bool
+```
 
-Викликається для кожного елемента, щоб перевірити, чи має він
-дочірніх елементів.
+Викликається для кожного елемента, щоб перевірити, чи має дочірні елементи.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

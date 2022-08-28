@@ -1,45 +1,46 @@
-- [«fdf_error](function.fdf-error.md)
-- [fdf_get_attachment »](function.fdf-get-attachment.md)
+Набуває вигляду поля
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- набуває вигляду поля
+-   [« fdf\_error](function.fdf-error.html)
+    
+-   [fdf\_get\_attachment »](function.fdf-get-attachment.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Набуває вигляду поля
+    
 
-#fdf_get_ap
+# fdfgetап
 
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_get_ap — Отримує вигляд поля
+fdfgetap — Отримує вигляд поля
 
 ### Опис
 
-**fdf_get_ap**(
-resource `$fdf_document`,
-string `$field`,
-int `$face`,
-string `$filename`
-): bool
+```methodsynopsis
+fdf_get_ap(    resource $fdf_document,    string $field,    int $face,    string $filename): bool
+```
 
-Набуває вигляду `field` (тобто значення ключа /AP) і зберігає його у файлі.
+Набуває вигляду `field` (тобто значення ключа /AP) та зберігає його у файлі.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
 
 `field`
 
 `face`
-Можливі значення: **`FDFNormalAP`**, **`FDFRolloverAP`** та
-**`FDFDownAP`**.
+
+Можливі значення: **`FDFNormalAP`** **`FDFRolloverAP`** і **`FDFDownAP`**
 
 `filename`
+
 Зовнішній вигляд буде збережено у цьому параметрі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

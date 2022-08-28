@@ -1,22 +1,27 @@
-- [« eio_sync_file_range](function.eio-sync-file-range.md)
-- [eio_syncfs »](function.eio-syncfs.md)
+Записує кеш із буфера на диск
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Записує кеш із буфера на диск
+-   [« eio\_sync\_file\_range](function.eio-sync-file-range.html)
+    
+-   [eio\_syncfs »](function.eio-syncfs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Записує кеш із буфера на диск
+    
 
-#eio_sync
+# eiosync
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_sync — Записує кеш із буфера на диск
+eiosync — записує кеш із буфера на диск
 
 ### Опис
 
-**eio_sync**(int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL): resource
+```methodsynopsis
+eio_sync(int $pri = EIO_PRI_DEFAULT, callable $callback = NULL, mixed $data = NULL): resource
+```
 
 ### Список параметрів
 
@@ -24,5 +29,4 @@ $data = NULL): resource
 
 ### Значення, що повертаються
 
-**eio_sync()** повертає вказівник на запит у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eiosync()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.

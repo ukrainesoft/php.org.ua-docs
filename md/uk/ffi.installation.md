@@ -1,14 +1,18 @@
-- [« Вимоги](ffi.requirements.md)
-- [Налаштування під час виконання »](ffi.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ffi.setup.md)
-- Установка
+-   [« Требования](ffi.requirements.html)
+    
+-   [Настройка во время выполнения »](ffi.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ffi.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Для увімкнення модуля FFI, PHP треба конфігурувати з ключем
-**--with-ffi**.
+Для включення модуля FFI, PHP треба налаштувати з ключем **\-with-ffi**
 
-Користувачам Windows необхідно додати `php_ffi.dll` в
-`php.ini`.
+Користувачам Windows буде потрібно додати phpffi.dll у php.ini.

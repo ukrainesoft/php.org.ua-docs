@@ -1,23 +1,27 @@
-- [« Типи ресурсів](radius.resources.md)
-- [Опції RADIUS »](radius.constants.options.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Radius](book.radius.md)
-- Обумовлені константи
+-   [« Типы ресурсов](radius.resources.html)
+    
+-   [Опции RADIUS »](radius.constants.options.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Radius](book.radius.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 ## Зміст
 
-- [Опції RADIUS](radius.constants.options.md)
-- [типи пакетів RADIUS](radius.constants.packets.md)
-- [Типи атрибутів RADIUS](radius.constants.attributes.md)
-- [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
+-   [Опции RADIUS](radius.constants.options.html)
+-   [типы пакетов RADIUS](radius.constants.packets.html)
+-   [Типы атрибутов RADIUS](radius.constants.attributes.html)
+-   [Атрибуты RADIUS специфичные для разных производителей](radius.constants.vendor-specific.html)
 
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
 **`RADIUS_MPPE_KEY_LEN`** (int)
+
 Максимальна довжина ключів MPPE.

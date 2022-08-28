@@ -1,11 +1,17 @@
-- [« Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.md)
-- [Result::getGeneratedIds »](mysql-xdevapi-result.getgeneratedids.md)
+Отримує значення автоінкремента
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
-- набуває значення автоінкремента
+-   [« Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.html)
+    
+-   [Result::getGeneratedIds »](mysql-xdevapi-result.getgeneratedids.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Result](class.mysql-xdevapi-result.html)
+    
+-   Отримує значення автоінкремента
+    
 
-# Result::getAutoIncrementValue
+# Result::set Auto\_Increment Value
 
 (No version information available, might only be in Git)
 
@@ -13,10 +19,11 @@ Result::getAutoIncrementValue — Отримує значення автоінк
 
 ### Опис
 
-public **mysql_xdevapi\Result::getAutoIncrementValue**(): int
+```methodsynopsis
+public mysql_xdevapi\Result::getAutoIncrementValue(): int
+```
 
-Отримує останнє значення AUTO_INCREMENT (ідентифікатор останньої
-вставки).
+Отримує останнє значення AUTOINCREMENT (ідентифікатор останньої вставки).
 
 ### Список параметрів
 
@@ -24,15 +31,36 @@ public **mysql_xdevapi\Result::getAutoIncrementValue**(): int
 
 ### Значення, що повертаються
 
-Значення AUTO_INCREMENT.
+Значення AUTOINCREMENT.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Result::getAutoIncrementValue()****
+**Приклад #1 Приклад використання **mysqlxdevapiResult::set Auto\_Increment Value()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql(" CREATE TABLE addressbook.names    (id INT NOT NULL AUTO_INCREMENT, name VARCHAR( RY  RY) execute();$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names");$result = $table->insert("name", "age")- >values(["Suzanne", 31],["Julie", 43])->execute();$result = $table->insert("name", "age")->values(["Suki" , 34])->execute();$ai = $result->getAutoIncrementValue();var_dump($ai);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("
+  CREATE TABLE addressbook.names
+    (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(30), age INT, PRIMARY KEY (id))
+  ")->execute();
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$result = $table->insert("name", "age")->values(["Suzanne", 31],["Julie", 43])->execute();
+$result = $table->insert("name", "age")->values(["Suki", 34])->execute();
+
+$ai = $result->getAutoIncrementValue();
+var_dump($ai);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(3)
+```

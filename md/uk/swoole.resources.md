@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](swoole.configuration.md)
-- [Предвизначені константи »](swoole.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](swoole.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](swoole.configuration.html)
+    
+-   [Предопределённые константы »](swoole.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](swoole.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

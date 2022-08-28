@@ -1,63 +1,86 @@
-- [« Функції SPL](ref.spl.md)
-- [class_parents »](function.class-parents.md)
+Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
 
-- [PHP Manual](index.md)
-- [Функції SPL](ref.spl.md)
-- Повертає список інтерфейсів, реалізованих у заданому класі або
-інтерфейсі
+-   [« Функции SPL](ref.spl.html)
+    
+-   [class\_parents »](function.class-parents.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SPL](ref.spl.html)
+    
+-   Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+    
 
-#class_implements
+# classimplements
 
 (PHP 5, PHP 7, PHP 8)
 
-class_implements — Повертає список інтерфейсів, реалізованих у
-заданому класі або інтерфейсі
+classimplements — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
 
 ### Опис
 
-**class_implements**(object\|string `$object_or_class`, bool `$autoload`
-= **`true`**): array\|false
+```methodsynopsis
+class_implements(object|string $object_or_class, bool $autoload = true): array|false
+```
 
-Функція повертає масив імен інтерфейсів, реалізованих у заданому
-класі `object_or_class` та його батьківських класах.
+Функція повертає масив імен інтерфейсів, реалізованих у заданому класі `object_or_class` та його батьківських класах.
 
 ### Список параметрів
 
 `object_or_class`
-Об'єкт (примірник класу) або рядок (ім'я класу чи інтерфейсу).
+
+Об'єкт (примірник класу) чи рядок (ім'я класу чи інтерфейсу).
 
 `autoload`
-Чи викликати за промовчанням [\_\_autoload](language.oop5.autoload.md).
+
+Чи викликати за замовчуванням [\_\_autoload](language.oop5.autoload.html)
 
 ### Значення, що повертаються
 
-У разі успішного виконання буде повернено масив, якщо заданий
-клас не існує, повертається **`false`**.
+У разі успішного виконання буде повернено масив, якщо заданий клас не існує, повертається **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **class_implements()****
+**Приклад #1 Приклад використання **classimplements()****
 
-`<?phpinterface foo { }class bar implements foo {}print_r(class_implements(new bar));//можна передавати ім'я класу замість об'єктаprint_r(class_implements('bar')); незавантаженого класу 'not_loaded'print_r(class_implements('not_loaded', true));?> `
+```php
+<?php
+
+interface foo { }
+class bar implements foo {}
+
+print_r(class_implements(new bar));
+
+// можно передавать имя класса вместо объекта
+print_r(class_implements('bar'));
+
+
+spl_autoload_register();
+
+// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
+print_r(class_implements('not_loaded', true));
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[foo] => foo
+    [foo] => foo
 )
 Array
 (
-[foo] => foo
+    [foo] => foo
 )
 Array
 (
-[interface_of_not_loaded] => interface_of_not_loaded
+    [interface_of_not_loaded] => interface_of_not_loaded
 )
+```
 
 ### Дивіться також
 
-- [class_parents()](function.class-parents.md) - Повертає список
-батьківських класів заданого класу
-- [get_declared_interfaces()](function.get-declared-interfaces.md) -
-Повертає масив усіх оголошених інтерфейсів
+-   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
+-   [get\_declared\_interfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів

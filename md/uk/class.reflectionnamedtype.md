@@ -1,40 +1,54 @@
-- [« ReflectionMethod::\_\_toString](reflectionmethod.tostring.md)
-- [ReflectionNamedType::getName »](reflectionnamedtype.getname.md)
+Клас ReflectionNamedType
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionNamedType
+-   [« ReflectionMethod::\_\_toString](reflectionmethod.tostring.html)
+    
+-   [ReflectionNamedType::getName »](reflectionnamedtype.getname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionNamedType
+    
 
 # Клас ReflectionNamedType
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
 ## Вступ
 
 ## Огляд класів
 
-class **ReflectionNamedType** extends
-[ReflectionType](class.reflectiontype.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getName](reflectionnamedtype.getname.md)(): string
+    
+     
+      class ReflectionNamedType
+     
 
-public [isBuiltin](reflectionnamedtype.isbuiltin.md)(): bool
+     
+      extends
+       ReflectionType
+     
+     {
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public getName(): string
+public isBuiltin(): bool
 
-public [ReflectionType::allowsNull](reflectiontype.allowsnull.md)():
-bool
 
-public [ReflectionType::\_\_toString](reflectiontype.tostring.md)():
-string
+    /* Наследуемые методы */
+    public ReflectionType::allowsNull(): bool
+public ReflectionType::__toString(): string
 
-}
+   }
+```
 
 ## Зміст
 
-- [ReflectionNamedType::getName](reflectionnamedtype.getname.md) -
-Отримує ім'я типу у вигляді рядка
-- [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md)
-— Перевіряє, чи тип вбудований
+-   [ReflectionNamedType::getName](reflectionnamedtype.getname.html) — Отримує ім'я типу у вигляді рядка
+-   [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.html) — Перевіряє, чи тип вбудований

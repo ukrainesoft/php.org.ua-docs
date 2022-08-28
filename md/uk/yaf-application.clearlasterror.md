@@ -1,20 +1,27 @@
-- [« Yaf_Application::bootstrap](yaf-application.bootstrap.md)
-- [Yaf_Application::\_\_construct »](yaf-application.construct.md)
+Очищення інформації з останньої помилки
 
-- [PHP Manual](index.md)
-- [Yaf_Application](class.yaf-application.md)
-- Очистка інформації з останньої помилки
+-   [« Yaf\_Application::bootstrap](yaf-application.bootstrap.html)
+    
+-   [Yaf\_Application::\_\_construct »](yaf-application.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Application](class.yaf-application.html)
+    
+-   Очищення інформації з останньої помилки
+    
 
-# Yaf_Application::clearLastError
+# YafApplication::clearLastError
 
-(Yaf \> = 2.1.2)
+(Yaf> = 2.1.2)
 
-Yaf_Application::clearLastError — Очищення інформації з останньої помилки
+YafApplication::clearLastError — Очищення інформації з останньої помилки
 
 ### Опис
 
-public **Yaf_Application::clearLastError**():
-[Yaf_Application](class.yaf-application.md)
+```methodsynopsis
+public Yaf_Application::clearLastError(): Yaf_Application
+```
 
 ### Список параметрів
 
@@ -24,10 +31,32 @@ public **Yaf_Application::clearLastError**():
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Application::clearLastError()****
+**Приклад #1 Приклад використання **YafApplication::clearLastError()****
 
-` <?phpfunction error_handler($errno, $errstr, $errfile, $errline) {  Yaf_Application::app()->clearLastError(); var_dump(Yaf_Application::app()->getLastErrorNo());}$config = array( "application" => array(   "directory" => "/tmp/notexists", th| " " =>|0,| );?> `
+```php
+<?php
+function error_handler($errno, $errstr, $errfile, $errline) {
+   Yaf_Application::app()->clearLastError();
+   var_dump(Yaf_Application::app()->getLastErrorNo());
+}
+
+$config = array(
+ "application" => array(
+   "directory" => "/tmp/notexists",
+     "dispatcher" => array(
+       "throwException" => 0, //вызывать ошибку вместо исключения
+      ),
+  ),
+);
+
+$app = new Yaf_Application($config);
+$app->getDispatcher()->setErrorHandler("error_handler", E_RECOVERABLE_ERROR);
+$app->run();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(0)
+```

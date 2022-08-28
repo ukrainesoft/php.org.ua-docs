@@ -1,13 +1,19 @@
-- [«Вступ](intro.componere.md)
-- [Вимоги »](componere.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Componere](book.componere.md)
+-   [« Введение](intro.componere.html)
+    
+-   [Требования »](componere.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere](book.componere.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](componere.requirements.md)
-- [Установка](componere.installation.md)
+-   [Требования](componere.requirements.html)
+-   [Установка](componere.installation.html)

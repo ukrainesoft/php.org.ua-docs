@@ -1,35 +1,42 @@
-- [«ps_setdash](function.ps-setdash.md)
-- [ps_setfont »](function.ps-setfont.md)
+Встановлює площинність
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює площинність
+-   [« ps\_setdash](function.ps-setdash.html)
+    
+-   [ps\_setfont »](function.ps-setfont.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює площинність
+    
 
-#ps_setflat
+# псsetflat
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_setflat — Встановлює площинність
+псsetflat - Встановлює площинність
 
 ### Опис
 
-**ps_setflat**(resource `$psdoc`, float `$value`): bool
+```methodsynopsis
+ps_setflat(resource $psdoc, float $value): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `value`
+
 `value` має бути між 0.2 та 1.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

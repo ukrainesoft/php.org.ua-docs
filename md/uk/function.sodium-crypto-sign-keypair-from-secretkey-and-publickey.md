@@ -1,30 +1,38 @@
-- [« sodium_crypto_sign_ed25519_sk_to_curve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.md)
-- [sodium_crypto_sign_keypair »](function.sodium-crypto-sign-keypair.md)
+Об'єднує секретний ключ та відкритий ключ разом
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Об'єднує секретний ключ та відкритий ключ разом
+-   [« sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.html)
+    
+-   [sodium\_crypto\_sign\_keypair »](function.sodium-crypto-sign-keypair.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Об'єднує секретний ключ та відкритий ключ разом
+    
 
-# sodium_crypto_sign_keypair_from_secretkey_and_publickey
+# sodiumcryptosignkeypairfromsecretkeyandpublickey
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_sign_keypair_from_secretkey_and_publickey — Об'єднує
-секретний ключ та відкритий ключ разом
+sodiumcryptosignkeypairfromsecretkeyandpublickey — Об'єднує секретний ключ та відкритий ключ разом
 
 ### Опис
 
-**sodium_crypto_sign_keypair_from_secretkey_and_publickey**(string
-`$secret_key`, string `$public_key`): string
+```methodsynopsis
+sodium_crypto_sign_keypair_from_secretkey_and_publickey(string $secret_key, string $public_key): string
+```
 
 Об'єднує секретний ключ та відкритий ключ разом.
 
 ### Список параметрів
 
 `secret_key`
+
 Секретний ключ Ed25519
 
 `public_key`
+
 Відкритий ключ Ed25519
 
 ### Значення, що повертаються

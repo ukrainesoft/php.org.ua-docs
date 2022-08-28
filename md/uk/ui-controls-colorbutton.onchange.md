@@ -1,19 +1,27 @@
-- [« UI\Controls\ColorButton::getColor](ui-controls-colorbutton.getcolor.md)
-- [UI\Controls\ColorButton::setColor »](ui-controls-colorbutton.setcolor.md)
+Обробник зміни
 
-- [PHP Manual](index.md)
-- [UI\Controls\ColorButton](class.ui-controls-colorbutton.md)
-- обробник зміни
+-   [« UI\\Controls\\ColorButton::getColor](ui-controls-colorbutton.getcolor.html)
+    
+-   [UI\\Controls\\ColorButton::setColor »](ui-controls-colorbutton.setcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\ColorButton](class.ui-controls-colorbutton.html)
+    
+-   Обробник зміни
+    
 
-# UI\Controls\ColorButton::onChange
+# ОЙControlsColorButton::onChange
 
 (UI 0.9.9)
 
-UI\Controls\ColorButton::onChange — Обробник зміни
+ОЙControlsColorButton::onChange — Обробник зміни
 
 ### Опис
 
-protected **UI\Controls\ColorButton::onChange**()
+```methodsynopsis
+protected UI\Controls\ColorButton::onChange()
+```
 
 Виконується при зміні вибраного об'єкта Color
 

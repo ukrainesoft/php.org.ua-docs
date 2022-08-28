@@ -1,79 +1,85 @@
-- [« Phar::addEmptyDir](phar.addemptydir.md)
-- [Phar::addFromString »](phar.addfromstring.md)
+Додає в phar-архів файл із файлової системи
 
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Додає в phar-архів файл із файлової системи
+-   [« Phar::addEmptyDir](phar.addemptydir.html)
+    
+-   [Phar::addFromString »](phar.addfromstring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](class.phar.html)
+    
+-   Додає в phar-архів файл із файлової системи
+    
 
 # Phar::addFile
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
 Phar::addFile — Додає в phar-архів файл із файлової системи
 
 ### Опис
 
-public **Phar::addFile**(string `$filename`, ?string `$localName` =
-**`null`**): void
+```methodsynopsis
+public Phar::addFile(string $filename, ?string $localName = null): void
+```
 
-> **Примітка**:
->
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цим методом
-> необхідна установка значення `php.ini` `phar.readonly` у `0`. В
-> інакше, буде викинуто виняток
-> [PharException](class.pharexception.md).
+> **Зауваження**
+> 
+> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
 
-За допомогою цього методу в phar-архів може бути доданий будь-який файл або
-вміст, доступний URL. Якщо вказано необов'язковий другий параметр
-`localName`, то файл буде збережено в архіві з таким ім'ям, в іншому
-випадку як шлях для збереження всередині архіву буде використаний
-параметр `file`. При додаванні вмісту, доступного за URL-адресою, параметр
-`localname` має бути вказано, інакше буде викинуто виняток. Цей
-метод аналогічний [ZipArchive::addFile()](ziparchive.addfile.md).
+За допомогою цього методу phar-архів може бути доданий будь-який файл або вміст, доступний по URL. Якщо вказано необов'язковий другий параметр `localName`, то файл буде збережений в архіві з таким ім'ям, в іншому випадку як шлях для збереження всередині архіву буде використано параметр `file`. При додаванні вмісту, доступного за URL-адресою, параметр `localname` має бути зазначено, інакше буде викинуто виняток. Цей метод аналогічний [ZipArchive::addFile()](ziparchive.addfile.html)
 
 ### Список параметрів
 
 `filename`
-Повний або відносний шлях до файлу у файловій системі, який має
-бути доданий до phar-архіву.
+
+Повний або відносний шлях до файлу у файловій системі, який має бути доданий до phar-архіву.
 
 `localName`
+
 Шлях, яким файл буде збережено в архіві.
 
 ### Значення, що повертаються
 
-Немає значення, що повертається, у разі виникнення помилки викидається
-виняток.
+Немає значення, що повертається, у разі виникнення помилки викидається виняток.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                    |
-|--------|-----------------------------------------|
-| 8.0.0  | localName тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `localName` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::addFile()****
 
-`<?phptry {    $a = new Phar('/шлях/к/phar.phar'); $a->addFile('/повний/шлях/до/файлу'); // показує, як зберігається цей файл    $b = $a['повний/шлях/к/файлу']->getContent(); $a->addFile('/повний/шлях/до/файлу', 'моя_папка/file.txt'); $c = $a['моя_папка/file.txt']->getContent(); // показує використання URL    $a->addFile('http://www.example.com', 'example.md');} catch (Exception $e) {    // обробка помилок}?> `
+```php
+<?php
+try {
+    $a = new Phar('/путь/к/phar.phar');
+
+    $a->addFile('/полный/путь/к/файлу');
+    // показывает, как хранится этот файл
+    $b = $a['полный/путь/к/файлу']->getContent();
+
+    $a->addFile('/полный/путь/к/файлу', 'моя_папка/file.txt');
+    $c = $a['моя_папка/file.txt']->getContent();
+
+    // показывает использоваие URL
+    $a->addFile('http://www.example.com', 'example.html');
+} catch (Exception $e) {
+    // обработка ошибок
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**: **Phar::addFile()**,
-> [Phar::addFromString()](phar.addfromstring.md) та
-> [Phar::offsetSet()](phar.offsetset.md) зберігає новий phar-архів
-> щоразу під час їх виклику. Якщо продуктивність викликає
-> занепокоєння, натомість слід використовувати
-> [Phar::buildFromDirectory()](phar.buildfromdirectory.md) або
-> [Phar::buildFromIterator()](phar.buildfromiterator.md).
+> **Зауваження** **Phar::addFile()** [Phar::addFromString()](phar.addfromstring.html) і [Phar::offsetSet()](phar.offsetset.html) зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.html) або [Phar::buildFromIterator()](phar.buildfromiterator.html)
 
 ### Дивіться також
 
-- [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту
-файлу
-- [PharData::addFile()](phardata.addfile.md) - Додати існуючі
-файли до tar/zip-архіву
-- [Phar::addFromString()](phar.addfromstring.md) - Додає до
-phar-архів файл з рядка
-- [Phar::addEmptyDir()](phar.addemptydir.md) - Додає до
-phar-архів порожню директорію
+-   [Phar::offsetSet()](phar.offsetset.html) - Зміна вмісту файлу
+-   [PharData::addFile()](phardata.addfile.html) - Додати існуючі файли до tar/zip-архіву
+-   [Phar::addFromString()](phar.addfromstring.html) - Додає в phar-архів файл із рядка
+-   [Phar::addEmptyDir()](phar.addemptydir.html) - Додає в phar-архів порожню директорію

@@ -1,44 +1,50 @@
-- [«SyncMutex::unlock](syncmutex.unlock.md)
-- [SyncSemaphore::\_\_construct »](syncsemaphore.construct.md)
+Клас SyncSemaphore
 
-- [PHP Manual](index.md)
-- [Sync](book.sync.md)
-- Клас SyncSemaphore
+-   [« SyncMutex::unlock](syncmutex.unlock.html)
+    
+-   [SyncSemaphore::\_\_construct »](syncsemaphore.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Sync](book.sync.html)
+    
+-   Клас SyncSemaphore
+    
 
 # Клас SyncSemaphore
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 ## Вступ
 
-Кросплатформова, нативна реалізація іменованих та безіменних
-об'єктів семафорів
+Кросплатформова, нативна реалізація іменованих та безіменних об'єктів семафорів.
 
-Семафор обмежує доступ до обмеженого ресурсу обмеженим числом
-екземплярів. Семафори відрізняються від м'ютексів тим, що вони можуть
-дозволити доступ до ресурсу більш ніж одному екземпляру одночасно, в
-той час, як м'ютекс допускає лише один екземпляр за раз.
+Семафор обмежує доступ до обмеженого ресурсу обмеженою кількістю екземплярів. Семафори відрізняються від мьютексів тим, що вони можуть дозволити доступ до ресурсу більш ніж одному екземпляру одночасно, тоді як м'ютекс допускає лише один екземпляр за один раз.
 
 ## Огляд класів
 
-class **SyncSemaphore** {
+```classsynopsis
 
-/\* Методи \*/
 
-public [\_\_construct](syncsemaphore.construct.md)(string `$name` = ?,
-int `$initialval` = 1, bool `$autounlock` = **`true`**)
 
-public [lock](syncsemaphore.lock.md)(int `$wait` = -1): bool
+    
+     
+      class SyncSemaphore
+     
+     {
 
-public [unlock](syncsemaphore.unlock.md)(int `&$prevcount` = ?): bool
 
-}
+    /* Методы */
+    
+   public __construct(string $name = ?, int $initialval = 1, bool $autounlock = true)
+public lock(int $wait = -1): bool
+public unlock(int &$prevcount = ?): bool
+
+   }
+```
 
 ## Зміст
 
-- [SyncSemaphore::\_\_construct](syncsemaphore.construct.md) -
-Створює новий об'єкт SyncSemaphore
-- [SyncSemaphore::lock](syncsemaphore.lock.md) — Зменшує рахунок
-семафора чи чекає
-- [SyncSemaphore::unlock](syncsemaphore.unlock.md) — Збільшує
-рахунок семафору
+-   [SyncSemaphore::\_\_construct](syncsemaphore.construct.html) — Створює новий об'єкт SyncSemaphore
+-   [SyncSemaphore::lock](syncsemaphore.lock.html) — Зменшує рахунок семафора чи чекає
+-   [SyncSemaphore::unlock](syncsemaphore.unlock.html) - Збільшує рахунок семафору

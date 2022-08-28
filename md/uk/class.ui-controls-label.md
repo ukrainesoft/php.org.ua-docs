@@ -1,9 +1,15 @@
-- [« UI\Controls\ColorButton::setColor](ui-controls-colorbutton.setcolor.md)
-- [UI\Controls\Label::\_\_construct »](ui-controls-label.construct.md)
+Елемент управління "Мітка"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Мітка"
+-   [« UI\\Controls\\ColorButton::setColor](ui-controls-colorbutton.setcolor.html)
+    
+-   [UI\\Controls\\Label::\_\_construct »](ui-controls-label.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент управління "Мітка"
+    
 
 # Елемент управління "Мітка"
 
@@ -11,56 +17,54 @@
 
 ## Вступ
 
-Мітка представляє один рядок тексту, призначений для ідентифікації
-користувачем певного елемента інтерфейсу.
+Мітка представляє один рядок тексту, призначений для ідентифікації користувача певного елемента інтерфейсу.
 
 ## Огляд класів
 
-class **UI\Controls\Label** extends [UI\Control](class.ui-control.md)
-{
+```classsynopsis
 
-/\* Конструктор \*/
 
-public [\_\_construct](ui-controls-label.construct.md)(string `$text`)
 
-/\* Методи \*/
+    
+     
+      class UI\Controls\Label
+     
 
-public [getText](ui-controls-label.gettext.md)(): string
+     
+      extends
+       UI\Control
+     
+     {
 
-public [setText](ui-controls-label.settext.md)(string `$text`)
 
-/\* Наслідувані методи \*/
+    /* Конструктор */
+    
+   public __construct(string $text)
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Методы */
+    public getText(): string
+public setText(string $text)
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
 
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\Label::\_\_construct](ui-controls-label.construct.md)
-- Створити новий об'єкт Label
-- [UI\Controls\Label::getText](ui-controls-label.gettext.md) -
-Отримати текст
-- [UI\Controls\Label::setText](ui-controls-label.settext.md) -
-Встановити текст
+-   [UI\\Controls\\Label::\_\_construct](ui-controls-label.construct.html) - Створити новий об'єкт Label
+-   [UI\\Controls\\Label::getText](ui-controls-label.gettext.html) — Отримати текст
+-   [UI\\Controls\\Label::setText](ui-controls-label.settext.html) — Встановити текст

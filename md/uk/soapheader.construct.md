@@ -1,58 +1,73 @@
-- [«SoapHeader](class.soapheader.md)
-- [SoapParam »](class.soapparam.md)
+Конструктор SoapHeader
 
-- [PHP Manual](index.md)
-- [SoapHeader](class.soapheader.md)
-- Конструктор SoapHeader
+-   [« SoapHeader](class.soapheader.html)
+    
+-   [SoapParam »](class.soapparam.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SoapHeader](class.soapheader.html)
+    
+-   Конструктор SoapHeader
+    
 
-# SoapHeader::\_\_construct
+# SoapHeader::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapHeader::\_\_construct - Конструктор SoapHeader
+SoapHeader::construct - Конструктор SoapHeader
 
 ### Опис
 
-**SoapHeader::\_\_construct**(
-string `$namespace`,
-string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-bool `$mustunderstand` = ?,
-string `$actor` = ?
-)
+**SoapHeader::construct**  
+string `$namespace`  
+string `$name`  
+[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
+bool `$mustunderstand`  
+string `$actor`  
 
 Створює новий об'єкт SoapHeader.
 
 ### Список параметрів
 
 `namespace`
+
 Простір імен для елемента заголовка SOAP.
 
 `name`
-Назва об'єкта SoapHeader.
+
+Ім'я об'єкта SoapHeader.
 
 `data`
-Вміст заголовка SOAP. Можливо як значенням PHP, і об'єктом
-[SoapVar](class.soapvar.md).
+
+Вміст заголовка SOAP. Можливо як значенням PHP, і об'єктом [SoapVar](class.soapvar.html)
 
 `mustUnderstand`
-Значення атрибуту `mustUnderstand` елемента заголовка SOAP.
+
+Значення атрибуту `mustUnderstand` елемент SOAP заголовка.
 
 `actor`
-Значення атрибуту `actor` елемента заголовка SOAP.
+
+Значення атрибуту `actor` елемент SOAP заголовка.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SoapHeader::SoapHeader()****
 
-` <?php$client = new SoapClient(null, array('location' => "http://localhost/soap.php",                                     'uri'      => "http://test-uri/"));$ client->__soapCall("echoVoid", null, null,                new SoapHeader('http://soapinterop.org/echoheader/',                               'echoMeStringRequest',                               'hello world'));?> `
+```php
+<?php
+$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
+                                     'uri'      => "http://test-uri/"));
+$client->__soapCall("echoVoid", null, null,
+                new SoapHeader('http://soapinterop.org/echoheader/',
+                               'echoMeStringRequest',
+                               'hello world'));
+?>
+```
 
 ### Дивіться також
 
-- [SoapClient::\_\_soapCall()](soapclient.soapcall.md) - Викликає
-SOAP-функцію
-- **SoapVar::SoapVar()**
-- **SoapParam::SoapParam()**
-- [SoapServer::addSoapHeader()](soapserver.addsoapheader.md) -
-Додати заголовок SOAP у відповідь
+-   [SoapClient::\_\_soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
+-   **SoapVar::SoapVar()**
+-   **SoapParam::SoapParam()**
+-   [SoapServer::addSoapHeader()](soapserver.addsoapheader.html) - Додати заголовок SOAP у відповідь

@@ -1,9 +1,15 @@
-- [« Imagick::getSizeOffset](imagick.getsizeoffset.md)
-- [Imagick::haldClutImage »](imagick.haldclutimage.md)
+Повертає версію API ImageMagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає версію API ImageMagick
+-   [« Imagick::getSizeOffset](imagick.getsizeoffset.html)
+    
+-   [Imagick::haldClutImage »](imagick.haldclutimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає версію API ImageMagick
+    
 
 # Imagick::getVersion
 
@@ -13,7 +19,9 @@ Imagick::getVersion — Повертає версію API ImageMagick
 
 ### Опис
 
-public static **Imagick::getVersion**(): array
+```methodsynopsis
+public static Imagick::getVersion(): array
+```
 
 Повертає версію API ImageMagick як рядок та число.
 

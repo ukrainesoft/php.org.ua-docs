@@ -1,38 +1,33 @@
-- [« PDO::pgsqlGetPid](pdo.pgsqlgetpid.md)
-- [PDO::pgsqlLOBOpen »](pdo.pgsqllobopen.md)
+Створити новий великий об'єкт (LOB)
 
-- [PHP Manual](index.md)
-- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
-- Створити новий великий об'єкт (LOB)
+-   [« PDO::pgsqlGetPid](pdo.pgsqlgetpid.html)
+    
+-   [PDO::pgsqlLOBOpen »](pdo.pgsqllobopen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PostgreSQL (PDO)](ref.pdo-pgsql.html)
+    
+-   Створити новий великий об'єкт (LOB)
+    
 
 # PDO::pgsqlLOBCreate
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql = 1.0.2)
+(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL pdopgsql >= 1.0.2)
 
 PDO::pgsqlLOBCreate — Створити новий великий об'єкт (LOB)
 
 ### Опис
 
-public **PDO::pgsqlLOBCreate**(): string
+```methodsynopsis
+public PDO::pgsqlLOBCreate(): string
+```
 
-Функція **PDO::pgsqlLOBCreate()** створює великий об'єкт (LOB) та
-повертає його OID. Ви можете відкрити потік для читання чи зміни
-об'єкта, використовуючи функцію [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md).
-OID можна зберегти в стовпці типу OID і використовувати як посилання на LOB
-не викликаючи неконтрольованого збільшення розміру рядків. LOB житиме в
-базі даних поки не буде видалено за допомогою функції
-[PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md).
+Функція **PDO::pgsqlLOBCreate()** створює великий об'єкт (LOB) та повертає його OID. Ви можете відкрити потік для читання або зміни об'єкта за допомогою функції [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html). OID можна зберегти в стовпці типу OID і використовувати як посилання на LOB, не викликаючи неконтрольованого збільшення розміру рядків. LOB буде жити в базі даних доки не буде видалено за допомогою функції [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html)
 
-Великі об'єкти можуть бути до 2ГБ розміром, але дуже громіздкі. Ви
-повинні переконатися, що виконали
-[PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md), перш ніж видалити
-останній рядок у вашій БД, яка посилається на його OID. До того ж,
-великі об'єкти немає контролю доступу. Як альтернатива
-спробуйте використати тип даних bytea. Останні версії PostgreSQL
-дозволяють стовпці типу bytea до 1ГБ розміром і прозоро керують
-табличним простором для оптимізації довжини рядків.
+Великі об'єкти можуть бути до 2ГБ розміром, але дуже громіздкі. Ви повинні переконатися, що виконали [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html) до того, як видаліть останній рядок у вашій базі даних, яка посилається на його OID. До того ж великі об'єкти не мають контролю доступу. Як альтернативу спробуйте використовувати тип даних bytea. Останні версії PostgreSQL дозволяють стовпці типу bytea до 1ГБ розміром та прозоро керують табличним простором для оптимізації довжини рядків.
 
-> **Примітка**: Використовуйте цю функцію в транзакції.
+> **Зауваження**: Цю функцію необхідно виконувати у транзакції.
 
 ### Список параметрів
 
@@ -40,22 +35,33 @@ OID можна зберегти в стовпці типу OID і викорис
 
 ### Значення, що повертаються
 
-Повертає OID створеного об'єкта або **false**.
+Повертає OID створеного об'єкта або **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PDO::pgsqlLOBCreate()****
 
-У цьому прикладі створюється LOB і заповнюється даними з файлу. Після цього
-його OID зберігається у таблиці.
+У цьому прикладі створюється LOB і заповнюється даними з файлу. Після цього його OID зберігається у таблиці.
 
-` <?php$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$oid==$db->pgsqlLOBCreate();$stream==$db->pgsqlLOBOpen($oid, 'w');$local = fopen($filename, rb');stream_copy_to_stream($local, $ stream);$local==null;$stream==null;$stmt==$db->prepare("INSERT INTO BLOBS (ident, oid) VALUES (?, ?)");$stmt->execute(array($so , $oid));$db->commit();?> `
+```php
+<?php
+$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db->beginTransaction();
+$oid = $db->pgsqlLOBCreate();
+$stream = $db->pgsqlLOBOpen($oid, 'w');
+$local = fopen($filename, 'rb');
+stream_copy_to_stream($local, $stream);
+$local = null;
+$stream = null;
+$stmt = $db->prepare("INSERT INTO BLOBS (ident, oid) VALUES (?, ?)");
+$stmt->execute(array($some_id, $oid));
+$db->commit();
+?>
+```
 
 ### Дивіться також
 
-- [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md) - Відкриває потік для
-існуючого великого об'єкту
-- [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) - Видалити великий
-об'єкт
-- [pg_lo_create()](function.pg-lo-create.md) - Створює великий
-об'єкт
+-   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html) - Відкриває потік для існуючого великого об'єкту
+-   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html) - Видалити великий об'єкт
+-   [pg\_lo\_create()](function.pg-lo-create.html) - Створює великий об'єкт

@@ -1,25 +1,29 @@
-- [« xhprof_sample_disable](function.xhprof-sample-disable.md)
-- [Yac »](book.yac.md)
+Запуск семплюючого режиму профілювання XHProf
 
-- [PHP Manual](index.md)
-- [Функції Xhprof](ref.xhprof.md)
-- Запуск семплюючого режиму профілювання XHProf
+-   [« xhprof\_sample\_disable](function.xhprof-sample-disable.html)
+    
+-   [Yac »](book.yac.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Xhprof](ref.xhprof.html)
+    
+-   Запуск семплюючого режиму профілювання XHProf
+    
 
-#xhprof_sample_enable
+# xhprofsampleenable
 
-(PECL xhprof \>= 0.9.0)
+(PECL xhprof >= 0.9.0)
 
-xhprof_sample_enable — Запуск семплюючого режиму профілювання XHProf
+xhprofsampleenable — Запуск семплюючого режиму профілю XHProf
 
 ### Опис
 
-**xhprof_sample_enable**(): void
+```methodsynopsis
+xhprof_sample_enable(): void
+```
 
-Запуск семплюючого режиму профілювання, який є полегшеним
-версією [xhprof_enable()](function.xhprof-enable.md). Інтервал
-семплювання становить 0.1 секунди і за кожної ітерації записується
-стек викликів. Цей режим призначений для зниження накладних витрат
-під час моніторингу продуктивності.
+Запуск семплюючого режиму профілювання, що є полегшеною версією [xhprof\_enable()](function.xhprof-enable.html). Інтервал семплювання складає 0,1 секунди і при кожній ітерації записується стек викликів. Цей режим призначений для зниження накладних витрат під час моніторингу продуктивності.
 
 ### Список параметрів
 
@@ -31,11 +35,7 @@ xhprof_sample_enable — Запуск семплюючого режиму про
 
 ### Дивіться також
 
-- [xhprof_sample_disable()](function.xhprof-sample-disable.md) -
-Зупинити семплюючі профіль xhprof
-- [xhprof_enable()](function.xhprof-enable.md) - Запуск
-профілювання xhprof
-- [memory_get_usage()](function.memory-get-usage.md) - Повертає
-кількість пам'яті, виділена для PHP
-- [getrusage()](function.getrusage.md) - Отримує інформацію про
-використання поточного ресурсу
+-   [xhprof\_sample\_disable()](function.xhprof-sample-disable.html) - Зупинити семплююче профіль xhprof
+-   [xhprof\_enable()](function.xhprof-enable.html) - Запуск профілювання xhprof
+-   [memory\_get\_usage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
+-   [getrusage()](function.getrusage.html) - Отримує інформацію про використання поточного ресурсу

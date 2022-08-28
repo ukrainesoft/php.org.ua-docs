@@ -1,37 +1,38 @@
-- [« variant](class.variant.md)
-- [COMPersistHelper »](class.compersisthelper.md)
+Конструктор класу variant
 
-- [PHP Manual](index.md)
-- [Variant](class.variant.md)
-- Конструктор класу variant
+-   [« variant](class.variant.html)
+    
+-   [COMPersistHelper »](class.compersisthelper.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [variant](class.variant.html)
+    
+-   Конструктор класу variant
+    
 
-# variant::\_\_construct
+# variant:construct
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-variant::\_\_construct — Конструктор класу variant
+variant:construct - Конструктор класу variant
 
 ### Опис
 
-public
-**variant::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` = **`null`**, int `$type` = **`VT_EMPTY`**, int `$codepage` =
-**`CP_ACP`**)
+public **variant:construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$value` **`null`**, int `$type` **`VT_EMPTY`**, int `$codepage` **`CP_ACP`**
 
 Створює об'єкт класу variant.
 
 ### Список параметрів
 
 `value`
-Початкове значення. Якщо не задано або задано як **`null`**, буде
-створено об'єкт VT_EMPTY.
+
+Початкове значення. Якщо не задано або задано як **`null`**, буде створено об'єкт VTEMPTY.
 
 `type`
-Визначає тип контенту об'єкта variant. Допустимі значення - одна з
-констант **`VT_XXX`** ([Предвизначені константи](com.constants.md)). PHP може автоматично визначати
-параметри, передані за посиланням; їх навіть не потрібно передавати як об'єкти
-variant. Додаткову інформацію за типами variant читайте у бібліотеці
-MSDN.
+
+Визначає тип контенту об'єкта variant. Допустимі значення - одна з констант **`VT_XXX`** [Предопределённые константы](com.constants.html)). PHP може автоматично визначати параметри, передані за посиланням; їх навіть не потрібно передавати як об'єкти variant. Додаткову інформацію за типами variant читайте у бібліотеці MSDN.
 
 `codepage`
-Кодова сторінка Докладніше читайте на сторінці [com](class.com.md).
+
+Кодова сторінка Подробиці читайте на сторінці [com](class.com.html)

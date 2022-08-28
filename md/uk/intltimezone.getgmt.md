@@ -1,34 +1,41 @@
-- [« IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.md)
-- [IntlTimeZone::getID »](intltimezone.getid.md)
+Створити часовий пояс GMT (UTC)
 
-- [PHP Manual](index.md)
-- [IntlTimeZone](class.intltimezone.md)
-- Створити часовий пояс GMT (UTC)
+-   [« IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.html)
+    
+-   [IntlTimeZone::getID »](intltimezone.getid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlTimeZone](class.intltimezone.html)
+    
+-   Створити часовий пояс GMT (UTC)
+    
 
 # IntlTimeZone::getGMT
 
-# intltz_get_gmt
+# intltzgetgmt
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getGMT -- intltz_get_gmt — Створити часовий пояс по GMT
-(UTC)
+IntlTimeZone::getGMT -- intltzgetgmt — Створити часовий пояс GMT (UTC)
 
 ### Опис
 
 Об'єктно-орієнтований стиль (метод):
 
-public static **IntlTimeZone::getGMT**():
-[IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+public static IntlTimeZone::getGMT(): IntlTimeZone
+```
 
 Процедурний стиль:
 
-**intltz_get_gmt**(): [IntlTimeZone](class.intltimezone.md)
+```methodsynopsis
+intltz_get_gmt(): IntlTimeZone
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

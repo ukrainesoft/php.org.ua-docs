@@ -1,15 +1,21 @@
-- [«Вступ](intro.intl.md)
-- [Вимоги »](intl.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [intl](book.intl.md)
+-   [« Введение](intro.intl.html)
+    
+-   [Требования »](intl.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [intl](book.intl.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](intl.requirements.md)
-- [Установка](intl.installation.md)
-- [Налаштування під час виконання](intl.configuration.md)
-- [Типи ресурсів](intl.resources.md)
+-   [Требования](intl.requirements.html)
+-   [Установка](intl.installation.html)
+-   [Настройка во время выполнения](intl.configuration.html)
+-   [Типы ресурсов](intl.resources.html)

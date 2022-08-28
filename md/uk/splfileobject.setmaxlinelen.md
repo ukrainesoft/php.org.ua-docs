@@ -1,25 +1,34 @@
-- [« SplFileObject::setFlags](splfileobject.setflags.md)
-- [SplFileObject::\_\_toString »](splfileobject.tostring.md)
+Встановити максимальну довжину рядка
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Встановити максимальну довжину рядка
+-   [« SplFileObject::setFlags](splfileobject.setflags.html)
+    
+-   [SplFileObject::\_\_toString »](splfileobject.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Встановити максимальну довжину рядка
+    
 
 # SplFileObject::setMaxLineLen
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::setMaxLineLen — Встановити максимальну довжину рядка
 
 ### Опис
 
-public **SplFileObject::setMaxLineLen**(int `$maxLength`): void
+```methodsynopsis
+public SplFileObject::setMaxLineLen(int $maxLength): void
+```
 
 Встановлює максимальну довжину рядка читання.
 
 ### Список параметрів
 
 `maxLength`
+
 Максимальна довжина рядка.
 
 ### Значення, що повертаються
@@ -28,26 +37,29 @@ public **SplFileObject::setMaxLineLen**(int `$maxLength`): void
 
 ### Помилки
 
-Викидає [DomainException](class.domainexception.md), якщо значення
-`maxLength` менше нуля.
+Викидає [DomainException](class.domainexception.html), якщо значення `maxLength` меньше нуля.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::setMaxLineLen()****
 
-` <?php$file = new SplFileObject("lipsum.txt");$file->setMaxLineLen(20);foreach ($file as $line) {   echo $line . "
-";}?> `
+```php
+<?php
+$file = new SplFileObject("lipsum.txt");
+$file->setMaxLineLen(20);
+foreach ($file as $line) {
+    echo $line . "\n";
+}
+?>
+```
 
 Вміст lipsum.txt
 
-``` txtcode
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Duis nec sapien felis, ac sodales nisl.
-Nulla vitae magna vitae purus aliquet consequat.
-````
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec sapien felis, ac sodales nisl. Nulla vitae magna vitae purus aliquet consequat.
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Lorem ipsum dolor s
 it amet, consectetu
 r adipiscing elit.
@@ -59,8 +71,8 @@ is, ac sodales nisl
 Nulla vitae magna v
 itae purus aliquet
 consequat.
+```
 
 ### Дивіться також
 
-- [SplFileObject::getMaxLineLen()](splfileobject.getmaxlinelen.md) -
-Отримати максимальну довжину рядка
+-   [SplFileObject::getMaxLineLen()](splfileobject.getmaxlinelen.html) - Отримати максимальну довжину рядка

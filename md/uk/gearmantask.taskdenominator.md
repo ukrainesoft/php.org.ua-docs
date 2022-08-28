@@ -1,23 +1,29 @@
-- [« GearmanTask::sendWorkload](gearmantask.sendworkload.md)
-- [GearmanTask::taskNumerator »](gearmantask.tasknumerator.md)
+Отримати знаменник відсотка виконаної роботи
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- отримати знаменник відсотка виконаної роботи
+-   [« GearmanTask::sendWorkload](gearmantask.sendworkload.html)
+    
+-   [GearmanTask::taskNumerator »](gearmantask.tasknumerator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Отримати знаменник відсотка виконаної роботи
+    
 
 # GearmanTask::taskDenominator
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanTask::taskDenominator — Отримати знаменник відсотка виконаної
-роботи
+GearmanTask::taskDenominator — Отримати знаменник відсотка виконаної роботи
 
 ### Опис
 
-public **GearmanTask::taskDenominator**(): int
+```methodsynopsis
+public GearmanTask::taskDenominator(): int
+```
 
-Отримує знаменник дробу, який використовується для визначення
-відсотка виконаної роботи.
+Отримує знаменник дробу, що використовується визначення відсотка виконаної роботи.
 
 ### Список параметрів
 
@@ -25,9 +31,8 @@ public **GearmanTask::taskDenominator**(): int
 
 ### Значення, що повертаються
 
-Число від 0 до 100 або **`false`**, якщо визначити значення не вдалося.
+Число від 0 до 100 або **`false`**якщо визначити значення не вдалося.
 
 ### Дивіться також
 
-- [GearmanTask::taskNumerator()](gearmantask.tasknumerator.md) -
-Отримання чисельника відсотка виконаної роботи
+-   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.html) - отримання чисельника відсотка виконаної роботи

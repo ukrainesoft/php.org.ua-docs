@@ -1,9 +1,15 @@
-- [« Алгоритми підпису](openssl.signature-algos.md)
-- [Константи версій »](openssl.constversion.md)
+Алгоритми шифрування
 
-- [PHP Manual](index.md)
-- [Предвизначені константи](openssl.constants.md)
-- Алгоритми шифрування
+-   [« Алгоритмы подписи](openssl.signature-algos.html)
+    
+-   [Константы версий »](openssl.constversion.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые константы](openssl.constants.html)
+    
+-   Алгоритми шифрування
+    
 
 ## Алгоритми шифрування
 
@@ -16,8 +22,6 @@
 **`OPENSSL_CIPHER_DES`** (int)
 
 **`OPENSSL_CIPHER_3DES`** (int)
-
-
 
 **`OPENSSL_CIPHER_AES_128_CBC`** (int)
 

@@ -1,24 +1,29 @@
-- [«stream_wrapper_register](function.stream-wrapper-register.md)
-- [stream_wrapper_unregister »](function.stream-wrapper-unregister.md)
+Відновлює скасовану раніше вбудовану обгортку
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Відновлює скасовану раніше вбудовану обгортку
+-   [« stream\_wrapper\_register](function.stream-wrapper-register.html)
+    
+-   [stream\_wrapper\_unregister »](function.stream-wrapper-unregister.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Відновлює скасовану раніше вбудовану обгортку
+    
 
-#stream_wrapper_restore
+# streamwrapperrestore
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-stream_wrapper_restore — Відновлює скасовану вбудовану раніше
-обгортку
+streamwrapperrestore — Відновлює скасовану вбудовану обгортку.
 
 ### Опис
 
-**stream_wrapper_restore**(string `$protocol`): bool
+```methodsynopsis
+stream_wrapper_restore(string $protocol): bool
+```
 
-Відновлює вбудовану обгортку, реєстрація якої раніше була
-скасована за допомогою
-[stream_wrapper_unregister()](function.stream-wrapper-unregister.md).
+Відновлює вбудовану обгортку, реєстрацію якої раніше було скасовано за допомогою [stream\_wrapper\_unregister()](function.stream-wrapper-unregister.html)
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ stream_wrapper_restore — Відновлює скасовану вбудова�
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

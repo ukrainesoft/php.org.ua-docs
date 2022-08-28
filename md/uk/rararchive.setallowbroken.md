@@ -1,13 +1,19 @@
-- [« RarArchive::open](rararchive.open.md)
-- [RarArchive::\_\_toString »](rararchive.tostring.md)
+Чи відкривати пошкоджені архіви
 
-- [PHP Manual](index.md)
-- [RarArchive](class.rararchive.md)
-- Чи відкривати пошкоджені архіви
+-   [« RarArchive::open](rararchive.open.html)
+    
+-   [RarArchive::\_\_toString »](rararchive.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RarArchive](class.rararchive.html)
+    
+-   Чи відкривати пошкоджені архіви
+    
 
 # RarArchive::setAllowBroken
 
-(PECL rar \>= 3.0.0)
+(PECL rar >= 3.0.0)
 
 RarArchive::setAllowBroken — Чи відкривати пошкоджені архіви
 
@@ -15,52 +21,73 @@ RarArchive::setAllowBroken — Чи відкривати пошкоджені а
 
 Об'єктно-орієнтований стиль (метод):
 
-public **RarArchive::setAllowBroken**(bool `$allow_broken`): bool
+```methodsynopsis
+public RarArchive::setAllowBroken(bool $allow_broken): bool
+```
 
 Процедурний стиль:
 
-**rar_allow_broken_set**([RarArchive](class.rararchive.md) `$rarfile`,
-bool `$allow_broken`): bool
+```methodsynopsis
+rar_allow_broken_set(RarArchive $rarfile, bool $allow_broken): bool
+```
 
-Метод визначає, чи можна намагатися читати пошкоджений архів, чи все
-операції з ним мають закінчуватися помилкою. Пошкоджені архіви – це
-такі архіви, які відкриваються без помилок, але при спробі прочитати
-Записи виникають помилки.
+Метод визначає, чи можна намагатись читати пошкоджений архів, чи всі операції з ним мають закінчуватися помилкою. Пошкоджені архіви - це такі архіви, які відкриваються без помилок, але при спробі прочитати записи виникають помилки.
 
 ### Список параметрів
 
 `rarfile`
-Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою
-[rar_open()](rararchive.open.md).
+
+Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [rar\_open()](rararchive.open.html)
 
 `allow_broken`
-Чи дозволяти роботу з пошкодженими архівами (**`true`**) чи ні
-(**`false`**).
+
+Чи дозволили роботу з пошкодженими архівами (**`true`**) чи ні (**`false`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Помилка може виникнути лише якщо файл
-вже закрито.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Помилка може виникнути, якщо файл вже закритий.
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?phpfunction retnull() { return null; }$file = dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент пригнічує повідомлення "volume not found" */$a = RarArchive::open($file, null, 'retnull');$a->setAllowBroke ($a->getEntries() as $e) {   echo "$e
-";}var_dump(count($a));?> `
+```php
+<?php
+function retnull() { return null; }
+$file = dirname(__FILE__) . "/multi_broken.part1.rar";
+/* третий аргумент подавляет сообщение "volume not found" */
+$a = RarArchive::open($file, null, 'retnull');
+$a->setAllowBroken(true);
+foreach ($a->getEntries() as $e) {
+    echo "$e\n";
+}
+var_dump(count($a));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-RarEntry для файлу "file1.txt" (52b28202)
+```
+RarEntry for file "file1.txt" (52b28202)
 int(1)
+```
 
 **Приклад #2 Процедурний стиль**
 
-`<?phpfunction retnull() { return null; }$file = dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент пригнічує повідомлення "volume not found" */$a = rar_open($file, null, 'retnull');rar_allow_broken_set($a, list a) as $e) {   echo "$e
-";}var_dump(count($a));?> `
+```php
+<?php
+function retnull() { return null; }
+$file = dirname(__FILE__) . "/multi_broken.part1.rar";
+/* третий аргумент подавляет сообщение "volume not found" */
+$a = rar_open($file, null, 'retnull');
+rar_allow_broken_set($a, true);
+foreach (rar_list($a) as $e) {
+    echo "$e\n";
+}
+var_dump(count($a));
+?>
+```
 
 ### Дивіться також
 
-- [RarArchive::isBroken()](rararchive.isbroken.md) - Перевіряє, чи не
-чи зламаний архів (не завершено)
+-   [RarArchive::isBroken()](rararchive.isbroken.html) - Перевіряє, чи не зламано архів (не завершено)

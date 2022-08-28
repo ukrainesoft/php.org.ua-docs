@@ -1,19 +1,27 @@
-- [«SolrQuery::getGroupNGroups](solrquery.getgroupngroups.md)
-- [SolrQuery::getGroupQueries »](solrquery.getgroupqueries.md)
+Повертає значення group.offset
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення group.offset
+-   [« SolrQuery::getGroupNGroups](solrquery.getgroupngroups.html)
+    
+-   [SolrQuery::getGroupQueries »](solrquery.getgroupqueries.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає значення group.offset
+    
 
 # SolrQuery::getGroupOffset
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroupOffset — Повертає значення group.offset
 
 ### Опис
 
-public **SolrQuery::getGroupOffset**(): int
+```methodsynopsis
+public SolrQuery::getGroupOffset(): int
+```
 
 Повертає значення group.offset.
 
@@ -25,5 +33,4 @@ public **SolrQuery::getGroupOffset**(): int
 
 ### Дивіться також
 
-- [SolrQuery::setGroupOffset()](solrquery.setgroupoffset.md) -
-Встановлює параметр group.offset
+-   [SolrQuery::setGroupOffset()](solrquery.setgroupoffset.html) - Встановлює параметр group.offset

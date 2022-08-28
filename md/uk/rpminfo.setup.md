@@ -1,15 +1,21 @@
-- [«Вступ](intro.rpminfo.md)
-- [Вимоги »](rpminfo.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [RpmInfo](book.rpminfo.md)
+-   [« Введение](intro.rpminfo.html)
+    
+-   [Требования »](rpminfo.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RpmInfo](book.rpminfo.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](rpminfo.requirements.md)
-- [Встановлення через PECL](rpminfo.installation.md)
-- [Налаштування під час виконання](rpminfo.configuration.md)
-- [Типи ресурсів](rpminfo.resources.md)
+-   [Требования](rpminfo.requirements.html)
+-   [Установка через PECL](rpminfo.installation.html)
+-   [Настройка во время выполнения](rpminfo.configuration.html)
+-   [Типы ресурсов](rpminfo.resources.html)

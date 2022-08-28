@@ -1,23 +1,29 @@
-- [«SolrDocument::getField](solrdocument.getfield.md)
-- [SolrDocument::getFieldNames »](solrdocument.getfieldnames.md)
+Повертає кількість полів у цьому документі
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Повертає кількість полів у цьому документі
+-   [« SolrDocument::getField](solrdocument.getfield.html)
+    
+-   [SolrDocument::getFieldNames »](solrdocument.getfieldnames.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Повертає кількість полів у цьому документі
+    
 
 # SolrDocument::getFieldCount
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::getFieldCount — Повертає кількість полів у цьому
-документі
+SolrDocument::getFieldCount — Повертає кількість полів у цьому документі
 
 ### Опис
 
-public **SolrDocument::getFieldCount**(): int
+```methodsynopsis
+public SolrDocument::getFieldCount(): int
+```
 
-Повертає кількість полів у цьому документі. Багатозначні поля
-враховуються лише один раз.
+Повертає кількість полів у цьому документі. Багатозначні поля враховуються лише один раз.
 
 ### Список параметрів
 
@@ -25,5 +31,4 @@ public **SolrDocument::getFieldCount**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число у разі успішного виконання і **`false`**
-у разі виникнення помилки.
+Повертає ціле число у разі успішного виконання та **`false`** у разі виникнення помилки.

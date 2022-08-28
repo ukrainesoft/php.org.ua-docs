@@ -1,44 +1,68 @@
-- [«uopz_rename](function.uopz-rename.md)
-- [uopz_set_hook »](function.uopz-set-hook.md)
+Відновити раніше зарезервовану функцію
 
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Відновити раніше зарезервовану функцію
+-   [« uopz\_rename](function.uopz-rename.html)
+    
+-   [uopz\_set\_hook »](function.uopz-set-hook.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Uopz](ref.uopz.html)
+    
+-   Відновити раніше зарезервовану функцію
+    
 
-#uopz_restore
+# uopzrestore
 
-(PECL uopz 1 \>= 1.0.3, PECL uopz 2)
+(PECL uopz 1> = 1.0.3, PECL uopz 2)
 
-uopz_restore — Відновити раніше зарезервовану функцію
+uopzrestore — Відновити раніше зарезервовану функцію
 
 **Увага**
 
-Ця функція була *Видалена* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
 
 ### Опис
 
-**uopz_restore**(string `$function`): void
+```methodsynopsis
+uopz_restore(string $function): void
+```
 
-**uopz_restore**(string `$class`, string `$function`): void
+```methodsynopsis
+uopz_restore(string $class, string $function): void
+```
 
 Відновити раніше зарезервовану функцію
 
 ### Список параметрів
 
 `class`
+
 Ім'я класу, що містить функцію відновлення
 
 `function`
+
 Ім'я функції
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_restore()****
+**Приклад #1 Приклад використання **uopzrestore()****
 
-` <?phpuopz_backup("fgets");uopz_function("fgets", function(){    return true;});var_dump(fgets());uopz_restore('fgets');fgets();?> `
+```php
+<?php
+uopz_backup("fgets");
+uopz_function("fgets", function(){
+    return true;
+});
+var_dump(fgets());
+uopz_restore('fgets');
+fgets();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Warning: fgets() expects at least 1 parameter, 0 given in /path/to/script.php on line 8
+```

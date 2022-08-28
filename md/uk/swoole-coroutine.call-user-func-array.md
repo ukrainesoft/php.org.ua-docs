@@ -1,33 +1,38 @@
-- [« Swoole\Coroutine](class.swoole-coroutine.md)
-- [Swoole\Coroutine::call_user_func »](swoole-coroutine.call-user-func.md)
+Викликає callback-функцію з масивом параметрів
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Викликає callback-функцію з масивом параметрів
+-   [« Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   [Swoole\\Coroutine::call\_user\_func »](swoole-coroutine.call-user-func.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Викликає callback-функцію з масивом параметрів
+    
 
-# Swoole\Coroutine::call_user_func_array
+# SwooleCoroutine::calluserfuncarray
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine::call_user_func_array — Викликає callback-функцію з
-масивом параметрів
+SwooleCoroutine::calluserfuncarray - Викликає callback-функцію з масивом параметрів
 
 ### Опис
 
-public static
-**Swoole\Coroutine::call_user_func_array**([callable](language.types.callable.md)
-`$callback`, array `$param_array`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public static Swoole\Coroutine::call_user_func_array(callable $callback, array $param_array): mixed
+```
 
-Викликає callback-функцію, задану першим параметром з параметрами
-param_array.
+Викликає callback-функцію, задану першим параметром з параметрами paramarray.
 
 ### Список параметрів
 
 `callback`
-Функція [callable](language.types.callable.md) для дзвінка.
+
+Функція [callable](language.types.callable.html) для дзвінка.
 
 `param_array`
+
 Нуль або більше параметрів для передачі в callback-функцію.
 
 ### Значення, що повертаються

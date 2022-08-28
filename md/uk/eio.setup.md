@@ -1,15 +1,21 @@
-- [«Вступ](intro.eio.md)
-- [Вимоги »](eio.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Eio](book.eio.md)
+-   [« Введение](intro.eio.html)
+    
+-   [Требования »](eio.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio](book.eio.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](eio.requirements.md)
-- [Установка](eio.installation.md)
-- [Налаштування під час виконання](eio.configuration.md)
-- [Типи ресурсів](eio.resources.md)
+-   [Требования](eio.requirements.html)
+-   [Установка](eio.installation.html)
+-   [Настройка во время выполнения](eio.configuration.html)
+-   [Типы ресурсов](eio.resources.html)

@@ -1,40 +1,46 @@
-- [«trader_atr](function.trader-atr.md)
-- [trader_bbands »](function.trader-bbands.md)
+Середня ціна
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
+-   [« trader\_atr](function.trader-atr.html)
+    
+-   [trader\_bbands »](function.trader-bbands.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
 -   Середня ціна
+    
 
-#trader_avgprice
+# traderavgprice
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_avgprice — Середня ціна
+traderavgprice — Середня ціна
 
 ### Опис
 
-**trader_avgprice**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_avgprice(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

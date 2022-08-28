@@ -1,21 +1,29 @@
-- [«UI\Controls\Radio::append](ui-controls-radio.append.md)
-- [UI\Controls\Radio::onSelected »](ui-controls-radio.onselected.md)
+Отримати вибраний варіант
 
-- [PHP Manual](index.md)
-- [UI\Controls\Radio](class.ui-controls-radio.md)
-- Отримати вибраний варіант
+-   [« UI\\Controls\\Radio::append](ui-controls-radio.append.html)
+    
+-   [UI\\Controls\\Radio::onSelected »](ui-controls-radio.onselected.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Radio](class.ui-controls-radio.html)
+    
+-   Отримати вибраний варіант
+    
 
-# UI\Controls\Radio::getSelected
+# ОЙControlsRadio::getSelected
 
 (UI 0.9.9)
 
-UI\Controls\Radio::getSelected — Отримати вибраний варіант
+ОЙControlsRadio::getSelected — Отримати вибраний варіант
 
 ### Опис
 
-public **UI\Controls\Radio::getSelected**(): int
+```methodsynopsis
+public UI\Controls\Radio::getSelected(): int
+```
 
-Отримує індекс обраного в даний момент варіанта в цій радіокнопці
+Отримує індекс обраного на даний момент варіанта в цій радіокнопці
 
 ### Список параметрів
 

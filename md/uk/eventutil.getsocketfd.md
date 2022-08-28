@@ -1,34 +1,41 @@
-- [«EventUtil::getLastSocketError](eventutil.getlastsocketerror.md)
-- [EventUtil::getSocketName »](eventutil.getsocketname.md)
+Отримати цифровий файловий дескриптор сокету чи потоку
 
-- [PHP Manual](index.md)
-- [EventUtil](class.eventutil.md)
-- Отримати числовий файловий дескриптор сокету чи потоку
+-   [« EventUtil::getLastSocketError](eventutil.getlastsocketerror.html)
+    
+-   [EventUtil::getSocketName »](eventutil.getsocketname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventUtil](class.eventutil.html)
+    
+-   Отримати цифровий файловий дескриптор сокету чи потоку
+    
 
 # EventUtil::getSocketFd
 
-(PECL event \>= 1.7.0)
+(PECL event >= 1.7.0)
 
-EventUtil::getSocketFd — Отримати числовий файловий дескриптор сокету
-або потоку
+EventUtil::getSocketFd — Отримати числовий файловий дескриптор сокету або потоку
 
 ### Опис
 
-public static **EventUtil::getSocketFd**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` ): int
+```methodsynopsis
+public
+   static
+   EventUtil::getSocketFd(
+    mixed
+     $socket
+   ): int
+```
 
-Повертає числовий файловий дескриптор сокету чи потоку, заданий
-параметром `socket`, так само як це робить модуль `Event` для
-всіх методів, які приймають ресурси сокету чи потоку.
+Повертає числовий файловий дескриптор сокета чи потоку, заданий параметром `socket`, так само як це робить модуль `Event` для всіх методів, які приймають ресурси сокету чи потоку.
 
 ### Список параметрів
 
 `socket`
+
 Ресурс сокету чи потоку.
 
 ### Значення, що повертаються
 
-Повертає числовий файловий дескриптор. **EventUtil::getSocketFd()**
-повертає **`false`**, якщо не вдалося визначити тип нижчележачого
-файлу, або якщо файловий дескриптор, пов'язаний із `socket` некоректний.
+Повертає числовий файловий дескриптор . **EventUtil::getSocketFd()** повертає **`false`**, якщо не вдалося визначити тип файлу нижче, або якщо файловий дескриптор, пов'язаний з `socket` некоректний.

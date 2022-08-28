@@ -1,58 +1,57 @@
-- [« socket_addrinfo_explain](function.socket-addrinfo-explain.md)
-- [socket_bind »](function.socket-bind.md)
+Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+-   [« socket\_addrinfo\_explain](function.socket-addrinfo-explain.html)
+    
+-   [socket\_bind »](function.socket-bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+    
 
-# socket_addrinfo_lookup
+# socketaddrinfolookup
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-socket_addrinfo_lookup — Отримати масив із вмістом getaddrinfo про
-вказане ім'я хоста
+socketaddrinfolookup — Отримати масив із вмістом getaddrinfo про вказане ім'я хоста
 
 ### Опис
 
-**socket_addrinfo_lookup**(string `$host`, ?string `$service` =
-**`null`**, array `$hints` = []): array\|false
+```methodsynopsis
+socket_addrinfo_lookup(string $host, ?string $service = null, array $hints = []): array|false
+```
 
-Пошук різних способів підключення до хоста (host). Повертається
-масив містить набір екземплярів [AddressInfo](class.addressinfo.md),
-які можна прив'язати за допомогою
-[socket_addrinfo_bind()](function.socket-addrinfo-bind.md).
+Пошук різних способів підключення до хоста (`host`). Масив, що повертається, містить набір екземплярів. [AddressInfo](class.addressinfo.html), які можна прив'язати за допомогою [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html)
 
 ### Список параметрів
 
 `host`
+
 Ім'я хоста для пошуку.
 
 `service`
-Сервіс для підключення Якщо сервіс є ім'ям, він перетворюється на
-відповідний номер порту.
+
+Сервіс для підключення Якщо сервіс є ім'ям, він перетворюється на відповідний номер порту.
 
 `hints`
-Підказки надають критерії вибору адрес, що повертаються. Ви можете
-вказати підказки, як визначено getadrinfo.
+
+Підказки надають критерії вибору адрес, що повертаються. Ви можете вказати підказки, як визначено getadrinfo.
 
 ### Значення, що повертаються
 
-Повертає масив екземплярів [AddressInfo](class.addressinfo.md),
-які можна використовувати із іншими функціями socket_addrinfo. В разі
-виникнення помилки повертає **`false`**.
+Повертає масив екземплярів [AddressInfo](class.addressinfo.html), які можна використовувати з іншими функціями socketaddrinfo. У разі виникнення помилки повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                    |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання функція повертає масив екземплярів [AddressInfo](class.addressinfo.md); раніше повертався ресурс (resource). |
-| 8.0.0  | service тепер допускає значення null.                                                                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає масив екземплярів [AddressInfo](class.addressinfo.html); раніше повертався ресурс (resource). |
+|  | `service` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [socket_addrinfo_bind()](function.socket-addrinfo-bind.md) -
-Створити та прив'язати до сокету із зазначеного addrinfo
-- [socket_addrinfo_connect()](function.socket-addrinfo-connect.md) -
-Створити та підключитися до сокету із вказаного addrinfo
-- [socket_addrinfo_explain()](function.socket-addrinfo-explain.md) -
-Отримати інформацію про addrinfo
+-   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із зазначеного addrinfo
+-   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html) - Створити та підключитися до сокету із вказаного addrinfo
+-   [socket\_addrinfo\_explain()](function.socket-addrinfo-explain.html) - Отримати інформацію про addrinfo

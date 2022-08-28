@@ -1,23 +1,29 @@
-- [« SolrQuery::getHighlightSnippets](solrquery.gethighlightsnippets.md)
-- [SolrQuery::getMlt »](solrquery.getmlt.md)
+Повертає стан параметра hl.usePhraseHighlighter
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає стан параметра hl.usePhraseHighlighter
+-   [« SolrQuery::getHighlightSnippets](solrquery.gethighlightsnippets.html)
+    
+-   [SolrQuery::getMlt »](solrquery.getmlt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає стан параметра hl.usePhraseHighlighter
+    
 
 # SolrQuery::getHighlightUsePhraseHighlighter
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightUsePhraseHighlighter — Повертає стан
-параметра hl.usePhraseHighlighter
+SolrQuery::getHighlightUsePhraseHighlighter — Повертає стан параметра hl.usePhraseHighlighter
 
 ### Опис
 
-public **SolrQuery::getHighlightUsePhraseHighlighter**(): bool
+```methodsynopsis
+public SolrQuery::getHighlightUsePhraseHighlighter(): bool
+```
 
-Повертає, чи слід використовувати SpanScorer для виділення фразових
-виразів, лише коли вони з'являються у фразі запиту документі.
+Повертає, чи потрібно використовувати SpanScorer для виділення фразових виразів, лише коли вони з'являються у фразі запиту у документі.
 
 ### Список параметрів
 
@@ -25,5 +31,4 @@ public **SolrQuery::getHighlightUsePhraseHighlighter**(): bool
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає логічне значення та
-**`null`**, якщо значення не встановлено.
+У разі успішного виконання повертає логічне значення та **`null`**, якщо значення не встановлено.

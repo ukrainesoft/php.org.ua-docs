@@ -1,20 +1,25 @@
-- [« parallel\Channel::open](parallel-channel.open.md)
-- [parallel\Channel::send »](parallel-channel.send.md)
+Спільне використання
 
-- [PHP Manual](index.md)
-- [parallel\Channel](class.parallel-channel.md)
+-   [« parallel\\Channel::open](parallel-channel.open.html)
+    
+-   [parallel\\Channel::send »](parallel-channel.send.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Channel](class.parallel-channel.html)
+    
 -   Спільне використання
+    
 
-# parallel\Channel::recv
+# parallelChannel::recv
 
-(0.9.0)
-
-parallel\Channel::recv — Спільне використання
+parallelChannel::recv — Спільне використання
 
 ### Опис
 
-public **parallel\Channel::recv**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public parallel\Channel::recv(): mixed
+```
 
 Отримує значення з цього каналу
 
@@ -22,4 +27,4 @@ public **parallel\Channel::recv**():
 
 **Увага**
 
-Викидає parallel\Channel\Error\Closed, якщо канал закритий.
+Викидає parallelChannelErrorClosed, якщо канал закритий.

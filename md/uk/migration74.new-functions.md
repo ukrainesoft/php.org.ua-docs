@@ -1,36 +1,41 @@
-- [« Нові класи та інтерфейси](migration74.new-classes.md)
-- [Нові глобальні константи »](migration74.constants.md)
+Нові функції
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 7.3.x на PHP 7.4.x](migration74.md)
-- Нові функції
+-   [« Новые классы и интерфейсы](migration74.new-classes.html)
+    
+-   [Новые глобальные константы »](migration74.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 7.3.x на PHP 7.4.x](migration74.html)
+    
+-   Нові функції
+    
 
 ## Нові функції
 
 ### Ядро PHP
 
-- [get_mangled_object_vars()](function.get-mangled-object-vars.md)
-- [password_algos()](function.password-algos.md)
--
-[sapi_windows_set_ctrl_handler()](function.sapi-windows-set-ctrl-handler.md)
+-   [get\_mangled\_object\_vars()](function.get-mangled-object-vars.html)
+-   [password\_algos()](function.password-algos.html)
+-   [sapi\_windows\_set\_ctrl\_handler()](function.sapi-windows-set-ctrl-handler.html)
 
-### GD
+### ДД
 
-- [imagecreatefromtga()](function.imagecreatefromtga.md)
+-   [imagecreatefromtga()](function.imagecreatefromtga.html)
 
 ### Багатобайтові рядки
 
-- [mb_str_split()](function.mb-str-split.md)
+-   [mb\_str\_split()](function.mb-str-split.html)
 
 ### OpenSSL
 
-- [openssl_x509_verify()](function.openssl-x509-verify.md)
+-   [openssl\_x509\_verify()](function.openssl-x509-verify.html)
 
 ### Управління процесами
 
-- [pcntl_unshare()](function.pcntl-unshare.md)
+-   [pcntl\_unshare()](function.pcntl-unshare.html)
 
 ### SQLite3
 
-- [SQLite3::backup()](sqlite3.backup.md)
-- [SQLite3Stmt::getSQL()](sqlite3stmt.getsql.md)
+-   [SQLite3::backup()](sqlite3.backup.html)
+-   [SQLite3Stmt::getSQL()](sqlite3stmt.getsql.html)

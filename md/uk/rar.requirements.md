@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](rar.setup.md)
-- [Установка »](rar.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](rar.setup.md)
-- Вимоги
+-   [« Установка и настройка](rar.setup.html)
+    
+-   [Установка »](rar.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](rar.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,23 +1,36 @@
-- [« Приклади](curl.examples.md)
-- [Функції cURL »](ref.curl.md)
+Простий приклад використання curl
 
-- [PHP Manual](index.md)
-- [Приклади](curl.examples.md)
-- Простий приклад використання curl
+-   [« Примеры](curl.examples.html)
+    
+-   [Функции cURL »](ref.curl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Примеры](curl.examples.html)
+    
+-   Простий приклад використання curl
+    
 
 ## Простий приклад використання curl
 
-Як тільки ви зібрали PHP з підтримкою cURL, вже можна використовувати
-функції CURL. Робота з cURL завжди починається з виклику
-[curl_init()](function.curl-init.md), потім встановлюються
-необхідні параметри за допомогою
-[curl_setopt()](function.curl-setopt.md), і виконується потрібна
-операція викликом [curl_exec()](function.curl-exec.md), після чого
-викликом [curl_close()](function.curl-close.md) сеанс роботи
-завершується. Наведений нижче приклад використовує функції cURL для
-збереження стартової сторінки сайту example.com у файл:
+Як тільки ви зібрали PHP з підтримкою cURL, вже можна використовувати функції cURL. Робота з cURL завжди починається з виклику [curl\_init()](function.curl-init.html), потім встановлюються необхідні параметри за допомогою [curl\_setopt()](function.curl-setopt.html), і виконується потрібна операція викликом [curl\_exec()](function.curl-exec.html), після чого викликом [curl\_close()](function.curl-close.html) сеанс роботи завершується. Нижче наведений приклад використовує функції cURL для збереження стартової сторінки сайту example.com у файл:
 
-**Приклад #1 Використання модуля cURL для збереження стартової сторінки
-example.com**
+**Приклад #1 Використання модуля cURL для збереження стартової сторінки example.com**
 
-` <?php$ch =curl_init("http://www.example.com/");$fp =fopen("example_homepage.txt", "w");curl_setopt($ch, CURLOPT_FILE, $fp); curl_setopt($ch, CURLOPT_HEADER, 0); curl_exec ($ ch); if (curl_error ($ ch))  {    fwrite($fp, curl_error($ch)); ?> `
+```php
+<?php
+
+$ch = curl_init("http://www.example.com/");
+$fp = fopen("example_homepage.txt", "w");
+
+curl_setopt($ch, CURLOPT_FILE, $fp);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+
+curl_exec($ch);
+if(curl_error($ch)) {
+    fwrite($fp, curl_error($ch));
+}
+curl_close($ch);
+fclose($fp);
+?>
+```

@@ -1,64 +1,83 @@
-- [« openssl_spki_new](function.openssl-spki-new.md)
-- [openssl_verify »](function.openssl-verify.md)
+Перевіряє підписаний відкритий ключ та виклик
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Перевіряє підписаний відкритий ключ та виклик
+-   [« openssl\_spki\_new](function.openssl-spki-new.html)
+    
+-   [openssl\_verify »](function.openssl-verify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Перевіряє підписаний відкритий ключ та виклик
+    
 
-#openssl_spki_verify
+# opensslspkiverify
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-openssl_spki_verify — Перевіряє підписаний відкритий ключ та виклик
+opensslspkiverify — Перевіряє підписаний відкритий ключ та виклик
 
 ### Опис
 
-**openssl_spki_verify**(string `$spki`): bool
+```methodsynopsis
+openssl_spki_verify(string $spki): bool
+```
 
 Перевіряє підписаний відкритий ключ та виклик
 
 ### Список параметрів
 
 `spki`
+
 Коректний підписаний відкритий ключ та виклик
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо параметр `spki` передано
-некоректні дані.
+Викликає помилку рівня **`E_WARNING`**, якщо параметр `spki` передано некоректні дані.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **openssl_spki_verify()****
+**Приклад #1 Приклад використання **opensslspkiverify()****
 
-Перевірка наявного підписаного відкритого ключа із викликом
+Перевірка наявного підписаного відкритого ключа з викликом
 
-` <?php$pkey = openssl_pkey_new('secret password');$spkac = openssl_spki_new($pkey, 'challenge string');if (openssl_spki_verify(')'' {   echo$spkac;}else {   echo "Перевірка SPKAC не удалася";}?> `
+```php
+<?php
+$pkey = openssl_pkey_new('secret password');
+$spkac = openssl_spki_new($pkey, 'challenge string');
 
-**Приклад #2 Приклад використання **openssl_spki_verify()** з
-\<keygen\>**
+if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $spkac))) {
+    echo $spkac;
+} else {
+    echo "Проверка SPKAC не удалась";
+}
+?>
+```
 
-Перевірка наявного підписаного відкритого ключа та виклику,
-отриманого з елемента \<keygen\>
+**Приклад #2 Приклад використання **opensslspkiverify()** з** 
 
-`<?phpif (openssl_spki_verify(preg_replace('/SPKAC=/', '', $_POST['spkac']))) {    echo $spkac;} else {  ка| name="spkac" challenge="challenge string" keytype="RSA">`
+Перевірка наявного підписаного відкритого ключа та виклику, отриманого з елемента 
+
+```php
+<?php
+if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $_POST['spkac']))) {
+    echo $spkac;
+} else {
+    echo "Проверка SPKAC не удалась";
+}
+?>
+<keygen name="spkac" challenge="challenge string" keytype="RSA">
+```
 
 ### Дивіться також
 
-- [openssl_spki_new()](function.openssl-spki-new.md) - Створення
-нового підписаного відкритого ключа із викликом
-- [openssl_spki_export_challenge()](function.openssl-spki-export-challenge.md) -
-Експорт виклику, пов'язаного з підписаним ключем та викликом
-- [openssl_spki_export()](function.openssl-spki-export.md) - Експорт
-відкритого ключа у форматі PEM з підписаного відкритого ключа з
-викликом
-- [openssl_get_md_methods()](function.openssl-get-md-methods.md) -
-Отримати список доступних методів хешування
-- [openssl_csr_new()](function.openssl-csr-new.md) - Генерує CSR
-- [openssl_csr_sign()](function.openssl-csr-sign.md) - Підписати CSR
-за допомогою іншого сертифіката (або їм же) та створити сертифікат
+-   [openssl\_spki\_new()](function.openssl-spki-new.html) - Створення нового підписаного відкритого ключа із викликом
+-   [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.html) - Експорт виклику, пов'язаного з підписаним ключем та викликом
+-   [openssl\_spki\_export()](function.openssl-spki-export.html) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [openssl\_csr\_new()](function.openssl-csr-new.html) - Генерує CSR
+-   [openssl\_csr\_sign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

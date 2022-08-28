@@ -1,23 +1,31 @@
-- [« ZipArchive::clearError](ziparchive.clearerror.md)
-- [ZipArchive::count »](ziparchive.count.md)
+Закриває активний архів (відкритий або новостворений)
 
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- Закриває активний архів (відкритий або новостворений)
+-   [« ZipArchive::clearError](ziparchive.clearerror.html)
+    
+-   [ZipArchive::count »](ziparchive.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZipArchive](class.ziparchive.html)
+    
+-   Закриває активний архів (відкритий або новостворений)
+    
 
 # ZipArchive::close
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
 
-ZipArchive::close — Закриває активний архів (відкритий або знову
-створений)
+ZipArchive::close — Закриває активний архів (відкритий або знову створений)
 
 ### Опис
 
-public **ZipArchive::close**(): bool
+```methodsynopsis
+public ZipArchive::close(): bool
+```
 
-Закриває відкритий або створений архів та зберігає зміни. Даний
-метод автоматично викликається наприкінці сценарію.
+Закриває відкритий або створений архів та зберігає зміни. Метод автоматично викликається наприкінці виконання сценарію.
+
+Якщо архів не містить файлів, файл видаляється повністю (порожній архів не записується).
 
 ### Список параметрів
 
@@ -25,5 +33,4 @@ public **ZipArchive::close**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

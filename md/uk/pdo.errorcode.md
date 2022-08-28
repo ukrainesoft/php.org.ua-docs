@@ -1,20 +1,27 @@
-- [«PDO::\_\_construct](pdo.construct.md)
-- [PDO::errorInfo »](pdo.errorinfo.md)
+Повертає код SQLSTATE результату останньої операції з базою даних
 
-- [PHP Manual](index.md)
-- [PDO](class.pdo.md)
-- Повертає код SQLSTATE результату останньої операції з базою даних
+-   [« PDO::\_\_construct](pdo.construct.html)
+    
+-   [PDO::errorInfo »](pdo.errorinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PDO](class.pdo.html)
+    
+-   Повертає код SQLSTATE результату останньої операції з базою даних
+    
 
 # PDO::errorCode
 
-(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
+(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
 
-PDO::errorCode — Повертає код SQLSTATE результату останньої операції з
-базою даних
+PDO::errorCode — Повертає код SQLSTATE результату останньої операції з базою даних
 
 ### Опис
 
-public **PDO::errorCode**(): ?string
+```methodsynopsis
+public PDO::errorCode(): ?string
+```
 
 ### Список параметрів
 
@@ -22,47 +29,33 @@ public **PDO::errorCode**(): ?string
 
 ### Значення, що повертаються
 
-Повертає SQLSTATE - п'ятисимвольний ідентифікатор, визначений у
-стандарт ANSI SQL-92. Перші два символи SQLSTATE відповідають за клас
-помилки, а наступні три визначають її підклас. Клас помилок 01 означає
-попередження, якому супроводжує код, що повертається
-SQL_SUCCESS_WITH_INFO. Класи відмінні від 01, крім 'IM',
-означають помилки виконання запитів до бази даних. Клас 'IM'
-свідчить про помилки та попередження, які викликані самою
-реалізацією PDO (або, можливо, ODBC, якщо використовується драйвер ODBC).
-Значення підкласу '000' у будь-якому класі означає, що підклас для цього
-SQLSTATE відсутня.
+Повертає SQLSTATE – п'ятисимвольний ідентифікатор, визначений у стандарті ANSI SQL-92. Перші два символи SQLSTATE відповідають за клас помилки, а наступні три визначають її підклас. Клас помилок 01 означає попередження, якому супроводжує код SQL, що повертається.SUCCESSWITHINFO. Класи, відмінні від 01, крім 'IM', означають помилки виконання запитів до бази даних. Клас 'IM' свідчить про помилки та попередження, які викликані самореалізацією PDO (або, можливо, ODBC, якщо використовується драйвер ODBC). Значення підкласу '000' у будь-якому класі означає, що підклас для цього SQLSTATE відсутній.
 
-**PDO::errorCode()** видає код помилки тільки для операцій, що здійснюються
-з базою даних безпосередньо з PDO. Якщо створити об'єкт PDOStatement
-методами [PDO::prepare()](pdo.prepare.md) або
-[PDO::query()](pdo.query.md), і викликати помилку його методами,
-**PDO::errorCode()** цю помилку не відобразить. Вам потрібно викликати
-[PDOStatement::errorCode()](pdostatement.errorcode.md), щоб отримати
-код помилки для операції, що виконується на певному об'єкті
-PDOStatement.
+**PDO::errorCode()** видає код помилки лише операцій, здійснюваних з базою даних безпосередньо з PDO. Якщо створити об'єкт PDOStatement методами [PDO::prepare()](pdo.prepare.html) або [PDO::query()](pdo.query.html), і викликати помилку його методами, **PDO::errorCode()** цю помилку не відобразить. Вам потрібно викликати [PDOStatement::errorCode()](pdostatement.errorcode.html), щоб отримати код помилки для операції, що виконується на певному об'єкті PDOStatement.
 
-Повертає **`null`**, якщо жодних операцій над базою даних засобами
-PDO-об'єкта не вироблялося.
+Повертає **`null`**якщо жодних операцій над базою даних засобами PDO-об'єкта не проводилося.
 
 ### Приклади
 
 **Приклад #1 Отримання коду SQLSTATE**
 
-` <?php/* Спровокуємо помилки -- таблиці BONES не існує */$dbh->exec("INSERT INTO bones(skull) VALUES ('lucy')");echo ""
-PDO::errorCode(): ", $dbh->errorCode();?> `
+```php
+<?php
+/* Спровоцируем ошибку -- таблицы BONES не существует */
+$dbh->exec("INSERT INTO bones(skull) VALUES ('lucy')");
+
+echo "\nPDO::errorCode(): ", $dbh->errorCode();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 PDO::errorCode(): 42S02
+```
 
 ### Дивіться також
 
-- [PDO::errorInfo()](pdo.errorinfo.md) - Отримує розширену
-інформацію про помилку, що сталася під час останнього звернення до
-базі даних
-- [PDOStatement::errorCode()](pdostatement.errorcode.md) - Отримує
-код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
-- [PDOStatement::errorInfo()](pdostatement.errorinfo.md) - Отримання
-розширеної інформації про помилку, що сталася внаслідок роботи
-об'єкта PDOStatement
+-   [PDO::errorInfo()](pdo.errorinfo.html) - Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
+-   [PDOStatement::errorCode()](pdostatement.errorcode.html) - Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
+-   [PDOStatement::errorInfo()](pdostatement.errorinfo.html) - отримання розширеної інформації про помилку, що сталася в результаті роботи об'єкта PDOStatement

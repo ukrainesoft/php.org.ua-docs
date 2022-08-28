@@ -1,9 +1,15 @@
-- [« ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.md)
-- [ImagickDraw::pathMoveToAbsolute »](imagickdraw.pathmovetoabsolute.md)
+Малює вертикальну лінію
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Малює вертикальну лінію
+-   [« ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.html)
+    
+-   [ImagickDraw::pathMoveToAbsolute »](imagickdraw.pathmovetoabsolute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Малює вертикальну лінію
+    
 
 # ImagickDraw::pathLineToVerticalRelative
 
@@ -13,20 +19,20 @@ ImagickDraw::pathLineToVerticalRelative — Малює вертикальну л
 
 ### Опис
 
-public **ImagickDraw::pathLineToVerticalRelative**(float `$y`): bool
+```methodsynopsis
+public ImagickDraw::pathLineToVerticalRelative(float $y): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Малює вертикальну лінію від поточної точки до цільової точки з
-використанням відносних координат. Цільова точка стає новою
-поточною точкою.
+Малює вертикальну лінію від поточної точки до цільової точки з використанням відносних координат. Цільова точка стає новою поточною точкою.
 
 ### Список параметрів
 
 `y`
+
 Координата Y
 
 ### Значення, що повертаються

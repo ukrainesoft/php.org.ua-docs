@@ -1,40 +1,51 @@
-- [« EventBuffer::unlock](eventbuffer.unlock.md)
-- [EventBufferEvent »](class.eventbufferevent.md)
+Записує вміст буфера у файл або сокет
 
-- [PHP Manual](index.md)
-- [EventBuffer](class.eventbuffer.md)
-- Записує вміст буфера у файл або сокет
+-   [« EventBuffer::unlock](eventbuffer.unlock.html)
+    
+-   [EventBufferEvent »](class.eventbufferevent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBuffer](class.eventbuffer.html)
+    
+-   Записує вміст буфера у файл або сокет
+    
 
 # EventBuffer::write
 
-(PECL event \>= 1.6.0)
+(PECL event >= 1.6.0)
 
 EventBuffer::write — Записує вміст буфера у файл або сокет
 
 ### Опис
 
-public **EventBuffer::write**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` , int `$howmuch` = ?): int
+```methodsynopsis
+public
+   EventBuffer::write(
+    mixed
+     $fd
+   , 
+    int
+     $howmuch
+    = ?): int
+```
 
-Записує вміст буфера у дескриптор файлу. Буфер буде очищено
-після успішного запису байтів.
+Записує вміст буфера у дескриптор файлу. Буфер буде очищено після успішного запису байтів.
 
 ### Список параметрів
 
 `fd`
-Ресурс сокету, потоковий чи числовий дескриптор файлу, пов'язаний зазвичай
-із сокетом.
+
+Ресурс сокету, потоковий чи числовий дескриптор файлу, пов'язаний зазвичай із сокетом.
 
 `howmuch`
-Максимальна кількість байтів для запису.
+
+Максимальна кількість байт для запису.
 
 ### Значення, що повертаються
 
-Повертає кількість записаних байтів або **`false`** у разі
-виникнення помилки.
+Повертає кількість записаних байтів або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [EventBuffer::read()](eventbuffer.read.md) - Читає дані з
-evbuffer і виснажує прочитані байти
+-   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти

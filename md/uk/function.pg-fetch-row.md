@@ -1,70 +1,88 @@
-- [« pg_fetch_result](function.pg-fetch-result.md)
-- [pg_field_is_null »](function.pg-field-is-null.md)
+Вибирає рядок результату запиту та поміщає дані до масиву
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Вибирає рядок результату запиту та поміщає дані у масив
+-   [« pg\_fetch\_result](function.pg-fetch-result.html)
+    
+-   [pg\_field\_is\_null »](function.pg-field-is-null.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Вибирає рядок результату запиту та поміщає дані до масиву
+    
 
-#pg_fetch_row
+# пгfetchrow
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pg_fetch_row — Вибирає рядок результату запиту та поміщає дані в
-масив
+пгfetchrow — Вибирає рядок результату запиту та поміщає дані до масиву
 
 ### Опис
 
-**pg_fetch_row**([PgSql\Result](class.pgsql-result.md) `$result`, ?int
-`$row` = **`null`**, int `$mode` = **`PGSQL_NUM`**): array\|false
+```methodsynopsis
+pg_fetch_row(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_NUM): array|false
+```
 
-**pg_fetch_row()** вибирає один рядок із результату запиту `result`.
+**пгfetchrow()** вибирає один рядок із результату запиту `result`
 
-> **Примітка**: Ця функція встановлює NULL-поля у значення
-> **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `row`
-Номер вибирається з результату запиту рядка. Нумерація починається з
-нуля. Якщо аргумент опущений або дорівнює **`null`**, береться така
-черги рядок.
+
+Номер вибирається з результату запиту рядка. Нумерація починається із нуля. Якщо аргумент опущено або дорівнює **`null`**, береться наступний по черзі рядок.
+
+`mode`
+
+Необов'язковий параметр, керуючий тим, як індексується масив, що повертається (array). Параметр `mode` є константою і може приймати такі значення: **`PGSQL_ASSOC`** **`PGSQL_NUM`** і **`PGSQL_BOTH`**. При використанні **`PGSQL_NUM`** функція повертає масив із числовими індексами, при використанні **`PGSQL_ASSOC`** вона поверне лише асоціативні індекси, а **`PGSQL_BOTH`** поверне як числові, і асоціативні індекси.
 
 ### Значення, що повертаються
 
-Чисельно індексований масив значень рядка результату запиту.
-Індексація починається з нуля. Значення представляються як рядків.
-Значення `NULL` бази даних перетворюються на PHP **`null`**.
+Чисельно індексований масив значень рядка результату запиту. Індексація починається із нуля. Значення подаються у вигляді рядків. Значення `NULL` бази даних перетворюються на PHP **`null`**
 
-**`false`**, якщо `row` перевищує кількість рядків у результаті запиту,
-коли рядків у результаті не залишилося, та за інших помилок.
+**`false`**, якщо `row` перевищує кількість рядків у результаті запиту, коли рядків у результаті не залишилося, та за інших помилок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_fetch_row()****
+**Приклад #1 Приклад використання **пгfetchrow()****
 
-` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}$result =pg_query($conn, "SELECT author, email FROM authors");if (!$result) { echo "Відбулася помилка.
-";  exit;}while ($row = pg_fetch_row($result)) {  echo "Автор: $row[0]  E-mail: $row[1]";  echo "<br />
-";}?> `
+```php
+<?php
+
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+$result = pg_query($conn, "SELECT author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+while ($row = pg_fetch_row($result)) {
+  echo "Автор: $row[0]  E-mail: $row[1]";
+  echo "<br />\n";
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [pg_query()](function.pg-query.md) - Виконує запит
-- [pg_fetch_array()](function.pg-fetch-array.md) - Повертає рядок
-результату у вигляді масиву
-- [pg_fetch_object()](function.pg-fetch-object.md) - Вибирає рядок
-результату запиту та повертає дані у вигляді об'єкта
-- [pg_fetch_result()](function.pg-fetch-result.md) - Повертає
-запис з результату запиту
+-   [pg\_query()](function.pg-query.html) - Виконує запит
+-   [pg\_fetch\_array()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [pg\_fetch\_object()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [pg\_fetch\_result()](function.pg-fetch-result.html) - Повертає запис із результату запиту

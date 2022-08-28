@@ -1,30 +1,35 @@
-- [« Imagick::hasPreviousImage](imagick.haspreviousimage.md)
-- [Imagick::identifyImage »](imagick.identifyimage.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Опис
+-   [« Imagick::hasPreviousImage](imagick.haspreviousimage.html)
+    
+-   [Imagick::identifyImage »](imagick.identifyimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Опис
+    
 
 # Imagick::identifyFormat
 
-(PECL imagick 3 \>= 3.3.0)
+(PECL imagick 3> = 3.3.0)
 
 Imagick::identifyFormat — Опис
 
 ### Опис
 
-public **Imagick::identifyFormat**(string `$embedText`): string\|false
+```methodsynopsis
+public Imagick::identifyFormat(string $embedText): string|false
+```
 
-Замінює будь-які вбудовані символи форматування відповідним
-властивістю зображення та повертає інтерпретований текст. Подивіться
-http://www.imagemagick.org/script/escape.php, щоб дізнатися про
-послідовність екранування.
+Замінює будь-які вбудовані символи форматування відповідною властивістю зображення та повертає інтерпретований текст. Подивіться [http://www.imagemagick.org/script/escape.php](http://www.imagemagick.org/script/escape.php), щоб дізнатися про послідовність екранування.
 
 ### Список параметрів
 
 `embedText`
-Рядок, що містить послідовності форматування, наприклад, "Поле
-обрізка: %@ кількість унікальних кольорів: %k".
+
+Рядок, що містить послідовності форматування, наприклад, "Поле обрізки: %@ кількість унікальних кольорів: %k".
 
 ### Значення, що повертаються
 
@@ -34,4 +39,11 @@ http://www.imagemagick.org/script/escape.php, щоб дізнатися про
 
 **Приклад #1 Приклад використання **Imagick::identifyFormat()****
 
-` <?php        $output = "Виведення 'Поле обрізки: %@ кількість унікальних квітів: %k': <br/>"; $imagick = new \Imagick(realpath("./images/artifact/mask.png")); $output .= $imagick->identifyFormat("Поле обрізки: %@ кількість унікальних квітів: %k");?> `
+```php
+<?php
+        $output = "Вывод 'Поле обрезки: %@ количество уникальных цветов: %k': <br/>";
+        $imagick = new \Imagick(realpath("./images/artifact/mask.png"));
+        $output .= $imagick->identifyFormat("Поле обрезки: %@ количество уникальных цветов: %k");
+
+?>
+```

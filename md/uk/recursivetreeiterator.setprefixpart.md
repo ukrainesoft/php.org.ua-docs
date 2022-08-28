@@ -1,36 +1,43 @@
-- [« RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.md)
-- [RecursiveTreeIterator::valid »](recursivetreeiterator.valid.md)
+Завдання частини префіксу
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Завдання частини префіксу
+-   [« RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.html)
+    
+-   [RecursiveTreeIterator::valid »](recursivetreeiterator.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+    
+-   Завдання частини префіксу
+    
 
 # RecursiveTreeIterator::setPrefixPart
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-RecursiveTreeIterator::setPrefixPart — Завдання частини префіксу
+RecursiveTreeIterator::setPrefixPart — Завдання частини префікса
 
 ### Опис
 
-public **RecursiveTreeIterator::setPrefixPart**(int `$part`, string
-`$value`): void
+```methodsynopsis
+public RecursiveTreeIterator::setPrefixPart(int $part, string $value): void
+```
 
-Встановлює частину префіксу, що використовується для побудови графа.
+Встановлює частину префікса, що використовується для побудови графа.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `part`
-Одна з констант
-[RecursiveTreeIterator::PREFIX\_\*](class.recursivetreeiterator.md#recursivetreeiterator.constants).
+
+Одна з констант [RecursiveTreeIterator::PREFIX\_\*](class.recursivetreeiterator.html#recursivetreeiterator.constants)
 
 `value`
-Значення, яке потрібно присвоїти частині префікса `part`.
+
+Значення, яке потрібно привласнити частини префіксу `part`
 
 ### Значення, що повертаються
 

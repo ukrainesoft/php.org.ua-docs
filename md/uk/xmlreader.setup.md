@@ -1,15 +1,21 @@
-- [«Вступ](intro.xmlreader.md)
-- [Вимоги »](xmlreader.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [XMLReader](book.xmlreader.md)
+-   [« Введение](intro.xmlreader.html)
+    
+-   [Требования »](xmlreader.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLReader](book.xmlreader.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xmlreader.requirements.md)
-- [Установка](xmlreader.installation.md)
-- [Налаштування під час виконання](xmlreader.configuration.md)
-- [Типи ресурсів](xmlreader.resources.md)
+-   [Требования](xmlreader.requirements.html)
+-   [Установка](xmlreader.installation.html)
+-   [Настройка во время выполнения](xmlreader.configuration.html)
+-   [Типы ресурсов](xmlreader.resources.html)

@@ -1,43 +1,46 @@
-- [« GearmanJob::unique](gearmanjob.unique.md)
-- [GearmanJob::workload »](gearmanjob.workload.md)
+Надсилання попередження (застарілий метод)
 
-- [PHP Manual](index.md)
-- [GearmanJob](class.gearmanjob.md)
-- Надсилання попередження (застарілий метод)
+-   [« GearmanJob::unique](gearmanjob.unique.html)
+    
+-   [GearmanJob::workload »](gearmanjob.workload.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanJob](class.gearmanjob.html)
+    
+-   Надсилання попередження (застарілий метод)
+    
 
 # GearmanJob::warning
 
-(PECL gearman \<= 0.5.0)
+(PECL gearman <= 0.5.0)
 
 GearmanJob::warning — Надсилання попередження (застарілий метод)
 
 ### Опис
 
-public **GearmanJob::warning**(string `$warning`): bool
+```methodsynopsis
+public GearmanJob::warning(string $warning): bool
+```
 
 Під час виконання завдання надсилає попередження.
 
-> **Примітка**:
->
-> Цей метод було замінено на
-> [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) у версії
-> 0.6.0 Gearman модуля.
+> **Зауваження**
+> 
+> Цей метод було замінено на [GearmanJob::sendWarning()](gearmanjob.sendwarning.html) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
 `warning`
+
 Повідомлення попередження.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) -
-Надсилання результату та статусу завершення
-- [GearmanJob::sendException()](gearmanjob.sendexception.md) -
-Надсилання виключення завдання, що виконується
-- [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Надсилання
-статусу невдалої операції
+-   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.html) - Відправлення результату та статусу завершення
+-   [GearmanJob::sendException()](gearmanjob.sendexception.html) - Відправлення виключення завдання, що виконується
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.html) - Відправлення статусу невдалої операції

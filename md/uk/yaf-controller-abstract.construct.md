@@ -1,24 +1,27 @@
-- [« Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- [Yaf_Controller_Abstract::display »](yaf-controller-abstract.display.md)
+Конструктор класу YafControllerAbstract
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Конструктор класу Yaf_Controller_Abstract
+-   [« Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+    
+-   [Yaf\_Controller\_Abstract::display »](yaf-controller-abstract.display.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+    
+-   Конструктор класу YafControllerAbstract
+    
 
-# Yaf_Controller_Abstract::\_\_construct
+# YafControllerAbstract::construct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Controller_Abstract::\_\_construct - Конструктор класу
-Yaf_Controller_Abstract
+YafControllerAbstract::construct - Конструктор класу YafControllerAbstract
 
 ### Опис
 
-final private **Yaf_Controller_Abstract::\_\_construct**()
+final private **YafControllerAbstract::construct**
 
-**Yaf_Controller_Abstract::\_\_construct()** — остаточний (final)
-метод і може бути переопределен. Ви можете подивитися натомість
-[Yaf_Controller_Abstract::init()](yaf-controller-abstract.init.md).
+**YafControllerAbstract::construct()** - Остаточний (final) метод і не може бути перевизначений. Ви можете подивитися натомість [Yaf\_Controller\_Abstract::init()](yaf-controller-abstract.init.html)
 
 ### Список параметрів
 
@@ -28,5 +31,4 @@ final private **Yaf_Controller_Abstract::\_\_construct**()
 
 ### Дивіться також
 
-- [Yaf_Controller_Abstract::init()](yaf-controller-abstract.init.md) -
-Ініціалізатор контролера
+-   [Yaf\_Controller\_Abstract::init()](yaf-controller-abstract.init.html) - Ініціалізатор контролера

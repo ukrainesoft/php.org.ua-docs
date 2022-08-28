@@ -1,59 +1,75 @@
-- [« LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)
-- [LuaSandbox::getVersionInfo »](luasandbox.getversioninfo.md)
+Отримує дані профілювача
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Отримує дані профілювача
+-   [« LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.html)
+    
+-   [LuaSandbox::getVersionInfo »](luasandbox.getversioninfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Отримує дані профілювача
+    
 
 # LuaSandbox::getProfilerFunctionReport
 
-(PECL luasandbox \>= 1.1.0)
+(PECL luasandbox >= 1.1.0)
 
 LuaSandbox::getProfilerFunctionReport — Отримує дані профілювача
 
 ### Опис
 
-public **LuaSandbox::getProfilerFunctionReport**(int `$units` =
-LuaSandbox::SECONDS): array
+```methodsynopsis
+public LuaSandbox::getProfilerFunctionReport(int $units = LuaSandbox::SECONDS): array
+```
 
-Для екземпляра профілювання, раніше запущеного за допомогою
-[LuaSandbox::enableProfiler()](luasandbox.enableprofiler.md), отримаєте
-звіт про вартість кожної функції.
+Для екземпляра профілювання, раніше запущеного за допомогою [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.html), отримайте звіт про вартість кожної функції.
 
-Measurement unit used for the cost is determined by the `$units`
-parameter:
+Місячність unit, використовувана для вартості, визначається за $units parameter:
 
 **`LuaSandbox::SAMPLES`**
+
 Вимірювання кількості зразків.
 
 **`LuaSandbox::SECONDS`**
+
 Вимірювання процесорного часу за секунди.
 
 **`LuaSandbox::PERCENT`**
+
 Вимірювання відсотка процесорного часу.
 
 ### Список параметрів
 
 `units`
+
 Константа одиниці виміру.
 
 ### Значення, що повертаються
 
-Повертає вимірювання профільника, відсортовані в порядку зменшення,
-як асоціативного масиву (array). Ключі – це імена функцій Lua (з
-вихідним файлом і рядком, визначеним у кутових дужках), значення -
-це вимірювання як ціле число (int) або число з плаваючою комою
-(float).
+Повертає вимірювання профілювача, відсортовані в порядку зменшення, як асоціативний масив (array). Ключі - це імена функцій Lua (з вихідним файлом і рядком, визначеними в кутових дужках), значення - це вимірювання як ціле число (int) або число плаваючою комою (float).
 
-> **Примітка**:
->
-> Функція Windows завжди повертає порожній масив. В операційних
-> системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких
-> як FreeBSD і Mac OS X, функція повідомлятиме фактичне минуле
-> час, а чи не час процесора.
+> **Зауваження**
+> 
+> У Windows функція завжди повертає порожній масив. В операційних системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких як FreeBSD та Mac OS X, функція буде повідомляти фактичний минулий час, а не час процесора.
 
 ### Приклади
 
 **Приклад #1 Профіль коду Lua**
 
-` <?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// початок профілювання$sandbox->enableProfiler( 0.01 );// ... Виконання якого    data = $sandbox->getProfilerFunctionReport();?> `
+```php
+<?php
+
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
+
+// начало профилирования
+$sandbox->enableProfiler( 0.01 );
+
+// ... Выполнение какого-то кода Lua ...
+
+// получение данных профилирования
+$data = $sandbox->getProfilerFunctionReport();
+
+?>
+```

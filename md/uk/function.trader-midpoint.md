@@ -1,29 +1,38 @@
-- [ trader_mfi](function.trader-mfi.md)
-- [trader_midprice »](function.trader-midprice.md)
+Середина відрізка за період
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Середина відрізка за період
+-   [« trader\_mfi](function.trader-mfi.html)
+    
+-   [trader\_midprice »](function.trader-midprice.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Середина відрізка за період
+    
 
-# trader_midpoint
+# tradermidpoint
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_midpoint — Середина відрізка за період
+tradermidpoint - Середина відрізка за період
 
 ### Опис
 
-**trader_midpoint**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_midpoint(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

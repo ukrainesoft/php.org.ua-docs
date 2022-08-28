@@ -1,13 +1,19 @@
-- [« LuaSandboxFatalError](class.luasandboxfatalerror.md)
-- [LuaSandboxRuntimeError »](class.luasandboxruntimeerror.md)
+Клас LuaSandboxMemoryError
 
-- [PHP Manual](index.md)
-- [LuaSandbox](book.luasandbox.md)
-- Клас LuaSandboxMemoryError
+-   [« LuaSandboxFatalError](class.luasandboxfatalerror.html)
+    
+-   [LuaSandboxRuntimeError »](class.luasandboxruntimeerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](book.luasandbox.html)
+    
+-   Клас LuaSandboxMemoryError
+    
 
 # Клас LuaSandboxMemoryError
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
 ## Вступ
 
@@ -15,49 +21,66 @@
 
 ## Огляд класів
 
-class **LuaSandboxMemoryError** extends
-[LuaSandboxFatalError](class.luasandboxfatalerror.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class LuaSandboxMemoryError
+     
 
-protected int `$code`;
+     
+      extends
+       LuaSandboxFatalError
+     
+     {
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Наслідувані методи \*/
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
+    
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getCode](exception.getcode.md)(): int
 
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Дивіться також
 
-- [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md)
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.html)

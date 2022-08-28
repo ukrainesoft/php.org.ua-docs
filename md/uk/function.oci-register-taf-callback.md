@@ -1,63 +1,58 @@
-- [«oci_pconnect](function.oci-pconnect.md)
-- [oci_result »](function.oci-result.md)
+Реєструє функцію зворотного виклику для Oracle Database TAF
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Реєструє функцію зворотного виклику для Oracle
-Database TAF
+-   [« oci\_pconnect](function.oci-pconnect.html)
+    
+-   [oci\_result »](function.oci-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Реєструє функцію зворотного виклику для Oracle Database TAF
+    
 
-#oci_register_taf_callback
+# ociregistertafcallback
 
-(PHP 7.0 \>= 7.0.21, PHP 8, PHP 7 \>= 7.1.7, PHP 8, PECL OCI8 \>= 2.1.7)
+(PHP 7.0 >= 7.0.21, PHP 8, PHP 7 >= 7.1.7, PHP 8, PECL OCI8 >= 2.1.7)
 
-oci_register_taf_callback — Реєструє функцію користувача
-зворотного дзвінка для Oracle Database TAF
+ociregistertafcallback — Реєструє функцію зворотного дзвінка для Oracle Database TAF
 
 ### Опис
 
-**oci_register_taf_callback**(resource `$connection`,
-?[callable](language.types.callable.md) `$callback`): bool
+```methodsynopsis
+oci_register_taf_callback(resource $connection, ?callable $callback): bool
+```
 
-Реєструє функцію зворотного дзвінка для з'єднання
-`connection`. Якщо з'єднання `connection` обірвалося через проблеми з БД
-або мережею, буде здійснено кілька запусків зареєстрованої
-функції у процесі відновлення. Докладніше читайте [OCI8
-Transparent Application Failover (TAF) Support](oci8.taf.md) .
+Реєструє користувальницьку функцію зворотного дзвінка для з'єднання `connection`. Якщо з'єднання `connection` обірвалося через проблеми з БД або мережею, буде здійснено кілька запусків зареєстрованої функції у процесі відновлення. Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.html)
 
-Кожен новий виклик **oci_register_taf_callback()** затиратиме
-Попередні реєстрації.
+Кожен новий виклик **ociregistertafcallback()** затиратиме попередні реєстрації.
 
-Для явного видалення реєстрації використовуйте функцію
-[oci_unregister_taf_callback()](function.oci-unregister-taf-callback.md).
+Для явного видалення реєстрації використовуйте функцію [oci\_unregister\_taf\_callback()](function.oci-unregister-taf-callback.html)
 
-Реєстрація функції зворотного дзвінка НЕ зберігається для постійних
-з'єднань, отже при кожному новому постійному з'єднанні її
-необхідно перереєструвати.
+Реєстрація функції зворотного дзвінка НЕ ​​зберігається для постійних з'єднань, отже, при кожному новому постійному з'єднанні її необхідно перереєструвати.
 
 ### Список параметрів
 
 `connection`
+
 Ідентифікатор з'єднання Oracle.
 
 `callback`
-Функція реєстрації для Oracle TAF. Можливо як
-рядком з іменем функції, і замиканням (анонімною функцією).
+
+Функція реєстрації для Oracle TAF. Можливо як рядком з ім'ям функції, і замиканням (анонімною функцією).
 
 Інтерфейс функції наступний:
 
-**userCallbackFn**(resource `$connection`, int `$event`, int `$type`):
-int
+```methodsynopsis
+userCallbackFn(resource $connection, int $event, int $type): int
+```
 
-Опис параметрів та приклади дивіться на сторінці [OCI8 Transparent
-Application Failover (TAF) Support](oci8.taf.md).
+Опис параметрів та приклади дивіться на сторінці [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [oci_unregister_taf_callback()](function.oci-unregister-taf-callback.md) -
-Видалити реєстрацію користувача callback-функції для Oracle
-Database TAF
+-   [oci\_unregister\_taf\_callback()](function.oci-unregister-taf-callback.html) - Видалити реєстрацію користувача callback-функції для Oracle Database TAF

@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](dio.setup.md)
-- [Установка »](dio.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](dio.setup.md)
-- Вимоги
+-   [« Установка и настройка](dio.setup.html)
+    
+-   [Установка »](dio.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](dio.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

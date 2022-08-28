@@ -1,26 +1,34 @@
-- [« Swoole\Connection\Iterator::next](swoole-connection-iterator.next.md)
-- [Swoole\Connection\Iterator::offsetGet »](swoole-connection-iterator.offsetget.md)
+Перевіряє, чи існує зміщення
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- Перевіряє, чи є зміщення
+-   [« Swoole\\Connection\\Iterator::next](swoole-connection-iterator.next.html)
+    
+-   [Swoole\\Connection\\Iterator::offsetGet »](swoole-connection-iterator.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   Перевіряє, чи існує зміщення
+    
 
-# Swoole\Connection\Iterator::offsetExists
+# SwooleConnectionIterator::offsetExists
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Connection\Iterator::offsetExists — Перевіряє, чи існує
-зміщення
+SwooleConnectionIterator::offsetExists — Перевіряє, чи існує зміщення
 
 ### Опис
 
-public **Swoole\Connection\Iterator::offsetExists**(int `$index`): bool
+```methodsynopsis
+public Swoole\Connection\Iterator::offsetExists(int $index): bool
+```
 
 Перевіряє, чи є усунення.
 
 ### Список параметрів
 
 `index`
+
 Зміщення, яке потрібно перевірити.
 
 ### Значення, що повертаються

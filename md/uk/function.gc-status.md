@@ -1,19 +1,27 @@
-- [«gc_mem_caches](function.gc-mem-caches.md)
-- [get_cfg_var »](function.get-cfg-var.md)
+Повертає інформацію про поточний статус збирача сміття
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Повертає інформацію про поточний статус збирача сміття
+-   [« gc\_mem\_caches](function.gc-mem-caches.html)
+    
+-   [get\_cfg\_var »](function.get-cfg-var.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Повертає інформацію про поточний статус збирача сміття
+    
 
-# gc_status
+# гкstatus
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-gc_status — Повертає інформацію про поточний статус збирача сміття
+гкstatus — Повертає інформацію про поточний статус збирача сміття.
 
 ### Опис
 
-**gc_status**(): array
+```methodsynopsis
+gc_status(): array
+```
 
 Повертає інформацію про поточний статус збирача сміття.
 
@@ -25,30 +33,48 @@ gc_status — Повертає інформацію про поточний ст
 
 Повертає асоціативний масив із такими елементами:
 
-- ``runs'`
-- ``collected'`
-- ``threshold'`
-- ``roots'`
+-   `"runs"`
+-   `"collected"`
+-   `"threshold"`
+-   `"roots"`
 
 ### Приклади
 
-**Приклад #1 Використання **gc_status()****
+**Приклад #1 Використання **гкstatus()****
 
-`<?php// створимо дерево об'єктів, для потрібно збирати сміття$a = new stdClass();$a->b = [];for ($i = 0; $i  = new stdClass(); $b->a = $a; $a->b[] = $b;}unset($a);unset($b);gc_collect_cycles();var_dump(gc_status()); `
+```php
+<?php
+
+// создадим дерево объектов, для которых понадобится собирать мусор
+$a = new stdClass();
+$a->b = [];
+for ($i = 0; $i < 100000; $i++) {
+    $b = new stdClass();
+    $b->a = $a;
+    $a->b[] = $b;
+}
+unset($a);
+unset($b);
+gc_collect_cycles();
+
+var_dump(gc_status());
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(4) {
-["runs"]=>
-int(5)
-["collected"]=>
-int(100002)
-["threshold"]=>
-int(50001)
-["roots"]=>
-int(0)
+  ["runs"]=>
+  int(5)
+  ["collected"]=>
+  int(100002)
+  ["threshold"]=>
+  int(50001)
+  ["roots"]=>
+  int(0)
 }
+```
 
 ### Дивіться також
 
-- [Збір сміття](features.gc.md)
+-   [Сбор мусора](features.gc.html)

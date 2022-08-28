@@ -1,53 +1,60 @@
-- [« XMLWriter::openUri](xmlwriter.openuri.md)
-- [XMLWriter::setIndent »](xmlwriter.setindent.md)
+Повертає поточний буфер
 
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Повертає поточний буфер
+-   [« XMLWriter::openUri](xmlwriter.openuri.html)
+    
+-   [XMLWriter::setIndent »](xmlwriter.setindent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](class.xmlwriter.html)
+    
+-   Повертає поточний буфер
+    
 
 # XMLWriter::outputMemory
 
-#xmlwriter_output_memory
+# xmlwriteroutputmemory
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::outputMemory -- xmlwriter_output_memory — Повертає поточний
-буфер
+XMLWriter::outputMemory -- xmlwriteroutputmemory — Повертає поточний буфер
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::outputMemory**(bool `$flush` = **`true`**): string
+```methodsynopsis
+public XMLWriter::outputMemory(bool $flush = true): string
+```
 
 Процедурний стиль
 
-**xmlwriter_output_memory**([XMLWriter](class.xmlwriter.md) `$writer`,
-bool `$flush` = **`true`**): string
+```methodsynopsis
+xmlwriter_output_memory(XMLWriter $writer, bool $flush = true): string
+```
 
 Повертає поточний буфер.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
 
 `flush`
-Визначає, чи звільнити буфер чи ні. За промовчанням **`true`**.
+
+Визначає, чи звільнити буфер чи ні. За замовчуванням **`true`**
 
 ### Значення, що повертаються
 
 Повертає поточний буфер у вигляді рядка.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::flush()](xmlwriter.flush.md) - Скинути поточний буфер
+-   [XMLWriter::flush()](xmlwriter.flush.html) - Скинути поточний буфер

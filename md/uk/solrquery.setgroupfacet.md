@@ -1,24 +1,29 @@
-- [« SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.md)
-- [SolrQuery::setGroupFormat »](solrquery.setgroupformat.md)
+Встановлює параметр group.facet
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює параметр group.facet
+-   [« SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.html)
+    
+-   [SolrQuery::setGroupFormat »](solrquery.setgroupformat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює параметр group.facet
+    
 
 # SolrQuery::setGroupFacet
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::setGroupFacet — Встановлює параметр group.facet
 
 ### Опис
 
-public **SolrQuery::setGroupFacet**(bool `$value`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setGroupFacet(bool $value): SolrQuery
+```
 
-Визначає, чи потрібно обчислювати згруповані фасети для фасетів поля,
-вказаних у параметрах facet.field. Згруповані фасети обчислюються
-на основі першої зазначеної групи.
+Визначає, чи потрібно обчислювати фасети згруповані для фасетів поля, зазначених у параметрах facet.field. Згруповані фасети обчислюються з урахуванням першої зазначеної групи.
 
 ### Список параметрів
 
@@ -28,35 +33,15 @@ public **SolrQuery::setGroupFacet**(bool `$value`):
 
 ### Дивіться також
 
-- [SolrQuery::setGroup()](solrquery.setgroup.md) -
-Включає/вимикає групування результатів (параметр group)
-- [SolrQuery::addGroupField()](solrquery.addgroupfield.md) -
-Додає поле, яке використовуватиметься для групування
-результатів
-- [SolrQuery::addGroupFunction()](solrquery.addgroupfunction.md) -
-Дозволяє групувати результати на основі унікальних значень
-запиту функції (параметр group.func)
-- [SolrQuery::addGroupQuery()](solrquery.addgroupquery.md) -
-Дозволяє групувати документи, що відповідають цьому запиту
-- [SolrQuery::addGroupSortField()](solrquery.addgroupsortfield.md) -
-Додає поле сортування групи (параметр group.sort)
-- [SolrQuery::setGroupOffset()](solrquery.setgroupoffset.md) -
-Встановлює параметр group.offset
-- [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.md) - Задає
-кількість результатів, що повертаються для кожної групи. Значення
-сервера за промовчанням - 1
-- [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо
-true, результат першої команди угруповання полів використовується в
-як основний список результатів у відповіді з використанням
-group.format=simple
-- [SolrQuery::setGroupNGroups()](solrquery.setgroupngroups.md) -
-Якщо true, Solr включає в результати кількість груп, які
-відповідають запиту
-- [SolrQuery::setGroupTruncate()](solrquery.setgrouptruncate.md) -
-Якщо true, підрахунок фасетів базується на найбільш релевантному документі
-кожної групи, що відповідає запиту
-- [SolrQuery::setGroupFormat()](solrquery.setgroupformat.md) -
-Встановлює формат групи, структуру результату (параметр
-group.format)
-- [SolrQuery::setGroupCachePercent()](solrquery.setgroupcachepercent.md) -
-Включає кешування для угруповання результатів
+-   [SolrQuery::setGroup()](solrquery.setgroup.html) - Включає/вимикає групування результатів (параметр group)
+-   [SolrQuery::addGroupField()](solrquery.addgroupfield.html) - Додає поле, яке використовуватиметься для групування результатів
+-   [SolrQuery::addGroupFunction()](solrquery.addgroupfunction.html) - Дозволяє групувати результати на основі унікальних значень запиту функції (параметр group.func)
+-   [SolrQuery::addGroupQuery()](solrquery.addgroupquery.html) - Дозволяє групувати документи, що відповідають цьому запиту
+-   [SolrQuery::addGroupSortField()](solrquery.addgroupsortfield.html) - Додає поле сортування групи (параметр group.sort)
+-   [SolrQuery::setGroupOffset()](solrquery.setgroupoffset.html) - Встановлює параметр group.offset
+-   [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.html) - Вказує кількість результатів, що повертаються для кожної групи. Значення сервера за промовчанням - 1
+-   [SolrQuery::setGroupMain()](solrquery.setgroupmain.html) - Якщо true, результат першої команди угруповання полів використовується як основний список результатів у відповіді з використанням group.format=simple
+-   [SolrQuery::setGroupNGroups()](solrquery.setgroupngroups.html) - Якщо true, Solr включає до результатів кількість груп, які відповідають запиту
+-   [SolrQuery::setGroupTruncate()](solrquery.setgrouptruncate.html) - Якщо true, підрахунок фасетів ґрунтується на найбільш релевантному документі кожної групи, що відповідає запиту
+-   [SolrQuery::setGroupFormat()](solrquery.setgroupformat.html) - Встановлює формат групи, структуру результату (параметр group.format)
+-   [SolrQuery::setGroupCachePercent()](solrquery.setgroupcachepercent.html) - Включає кешування для угруповання результатів

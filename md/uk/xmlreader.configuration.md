@@ -1,10 +1,16 @@
-- [« Встановлення](xmlreader.installation.md)
-- [Типи ресурсів»](xmlreader.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](xmlreader.setup.md)
-- Налаштування під час виконання
+-   [« Установка](xmlreader.installation.html)
+    
+-   [Типы ресурсов »](xmlreader.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](xmlreader.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Цей модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

@@ -1,26 +1,35 @@
-- [«FilesystemIterator::rewind](filesystemiterator.rewind.md)
-- [FilterIterator »](class.filteriterator.md)
+Завдання прапорів обробки
 
-- [PHP Manual](index.md)
-- [FilesystemIterator](class.filesystemiterator.md)
-- Завдання прапорів обробки
+-   [« FilesystemIterator::rewind](filesystemiterator.rewind.html)
+    
+-   [FilterIterator »](class.filteriterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FilesystemIterator](class.filesystemiterator.html)
+    
+-   Завдання прапорів обробки
+    
 
 # FilesystemIterator::setFlags
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::setFlags — Завдання прапорів обробки
 
 ### Опис
 
-public **FilesystemIterator::setFlags**(int `$flags`): void
+```methodsynopsis
+public FilesystemIterator::setFlags(int $flags): void
+```
 
 Задає налаштування ітератора.
 
 ### Список параметрів
 
 `flags`
-Прапори, які потрібно встановити. Дивіться [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+
+Прапори, які потрібно встановити. Дивіться [Константы FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
 
 ### Значення, що повертаються
 
@@ -28,36 +37,41 @@ public **FilesystemIterator::setFlags**(int `$flags`): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[FilesystemIterator::key()](filesystemiterator.key.md)**
+**Приклад #1 Приклад використання [FilesystemIterator::key()](filesystemiterator.key.html)**
 
-Приклад демонструє різницю між прапорами
-[FilesystemIterator::KEY_AS_PATHNAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-pathname)
-і
-[FilesystemIterator::KEY_AS_FILENAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-filename).
+Приклад демонструє різницю між прапорами [FilesystemIterator::KEY\_AS\_PATHNAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEY\_AS\_FILENAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-filename)
 
-` <?php$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);echo "Ключом є шлях до файлу:
-";foreach ($iterator as $key => $fileinfo) {    echo $key . "
-";}$iterator->setFlags(FilesystemIterator::KEY_AS_FILENAME);echo "
-Ключем є ім'я файлу:
-";foreach ($iterator as $key => $fileinfo) {    echo $key . "
-";}?> `
+```php
+<?php
+$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);
+echo "Ключом является путь к файлу:\n";
+foreach ($iterator as $key => $fileinfo) {
+    echo $key . "\n";
+}
+
+$iterator->setFlags(FilesystemIterator::KEY_AS_FILENAME);
+echo "\nКлючом является имя файла:\n";
+foreach ($iterator as $key => $fileinfo) {
+    echo $key . "\n";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Ключем є шлях до файлу:
+```
+Ключом является путь к файлу:
 /www/examples/apple.jpg
 /www/examples/banana.jpg
 /www/examples/example.php
 
-Ключем є ім'я файлу:
+Ключом является имя файла:
 apple.jpg
 banana.jpg
 example.php
+```
 
 ### Дивіться також
 
-- [FilesystemIterator::\_\_construct()](filesystemiterator.construct.md) -
-Створює новий ітератор файлової системи
-- [FilesystemIterator::getFlags()](filesystemiterator.getflags.md) -
-Отримання прапорів налаштувань об'єкта
+-   [FilesystemIterator::\_\_construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::getFlags()](filesystemiterator.getflags.html) - Отримання прапорів налаштувань об'єкта

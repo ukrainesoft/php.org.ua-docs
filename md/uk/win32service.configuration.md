@@ -1,10 +1,16 @@
-- [« Установка](win32service.installation.md)
-- [Типи ресурсів»](win32service.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](win32service.setup.md)
-- Налаштування під час виконання
+-   [« Установка](win32service.installation.html)
+    
+-   [Типы ресурсов »](win32service.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](win32service.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Цей модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

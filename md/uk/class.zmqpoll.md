@@ -1,49 +1,52 @@
-- [«ZMQSocket::unbind](zmqsocket.unbind.md)
-- [ZMQPoll::add »](zmqpoll.add.md)
+Клас ZMQPoll
 
-- [PHP Manual](index.md)
-- [Обмін повідомленнями 0MQ](book.zmq.md)
-- Клас ZMQPoll
+-   [« ZMQSocket::unbind](zmqsocket.unbind.html)
+    
+-   [ZMQPoll::add »](zmqpoll.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обмен сообщениями 0MQ](book.zmq.html)
+    
+-   Клас ZMQPoll
+    
 
 # Клас ZMQPoll
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **ZMQPoll** {
+```classsynopsis
 
-/\* Методи \*/
 
-public
-[add](zmqpoll.add.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$entry`, int `$type`): string
+    
+    
+     
+      class ZMQPoll
+     
+     {
+    
 
-public [clear](zmqpoll.clear.md)(): [ZMQPoll](class.zmqpoll.md)
+    /* Методы */
+    
+   public add(mixed $entry, int $type): string
+public clear(): ZMQPoll
+public count(): int
+public getLastErrors(): array
+public poll(array &$readable, array &$writable, int $timeout = -1): int
+public remove(mixed $item): bool
 
-public [count](zmqpoll.count.md)(): int
-
-public [getLastErrors](zmqpoll.getlasterrors.md)(): array
-
-public [poll](zmqpoll.poll.md)(array `&$readable`, array `&$writable`,
-int `$timeout` = -1): int
-
-public
-[remove](zmqpoll.remove.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$item`): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [ZMQPoll::add](zmqpoll.add.md) — Додати елемент у пул опитування
-- [ZMQPoll::clear](zmqpoll.clear.md) — Очистити пул опитування
-- [ZMQPoll::count](zmqpoll.count.md) — Кількість елементів у пулі
-опитування
-- [ZMQPoll::getLastErrors](zmqpoll.getlasterrors.md) — Повертає
-помилки останнього опитування
-- [ZMQPoll::poll](zmqpoll.poll.md) — Опитати всі елементи пулу
-- [ZMQPoll::remove](zmqpoll.remove.md) — Видалити елемент із пулу
-опитування
+-   [ZMQPoll::add](zmqpoll.add.html) — Додати елемент у пул опитування
+-   [ZMQPoll::clear](zmqpoll.clear.html) - Очистити пул опитування
+-   [ZMQPoll::count](zmqpoll.count.html) — Кількість елементів у пулі опитування
+-   [ZMQPoll::getLastErrors](zmqpoll.getlasterrors.html) — Повертає помилки останнього опитування
+-   [ZMQPoll::poll](zmqpoll.poll.html) — Опитати всі елементи пулу
+-   [ZMQPoll::remove](zmqpoll.remove.html) — Видалити елемент із пулу опитування

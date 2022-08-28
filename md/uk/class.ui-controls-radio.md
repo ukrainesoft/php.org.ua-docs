@@ -1,9 +1,15 @@
-- [« UI\Controls\EditableCombo::setText](ui-controls-editablecombo.settext.md)
-- [UI\Controls\Radio::append »](ui-controls-radio.append.md)
+Елемент управління "Радіо"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Радіо"
+-   [« UI\\Controls\\EditableCombo::setText](ui-controls-editablecombo.settext.html)
+    
+-   [UI\\Controls\\Radio::append »](ui-controls-radio.append.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент управління "Радіо"
+    
 
 # Елемент управління "Радіо"
 
@@ -15,53 +21,49 @@
 
 ## Огляд класів
 
-class **UI\Controls\Radio** extends [UI\Control](class.ui-control.md)
-{
+```classsynopsis
 
-/\* Методи \*/
 
-public [append](ui-controls-radio.append.md)(string `$text`)
 
-public [getSelected](ui-controls-radio.getselected.md)(): int
+    
+     
+      class UI\Controls\Radio
+     
 
-protected [onSelected](ui-controls-radio.onselected.md)()
+     
+      extends
+       UI\Control
+     
+     {
 
-public [setSelected](ui-controls-radio.setselected.md)(int `$index`)
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public append(string $text)
+public getSelected(): int
+protected onSelected()
+public setSelected(int $index)
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\Radio::append](ui-controls-radio.append.md) -
-Додає варіант
-- [UI\Controls\Radio::getSelected](ui-controls-radio.getselected.md)
-— Отримати вибраний варіант
-- [UI\Controls\Radio::onSelected](ui-controls-radio.onselected.md) -
-Обробник вибору
-- [UI\Controls\Radio::setSelected](ui-controls-radio.setselected.md)
-— Встановити вибраний варіант
+-   [UI\\Controls\\Radio::append](ui-controls-radio.append.html) - Додає варіант
+-   [UI\\Controls\\Radio::getSelected](ui-controls-radio.getselected.html) — Отримати вибраний варіант
+-   [UI\\Controls\\Radio::onSelected](ui-controls-radio.onselected.html) - Обробник вибору
+-   [UI\\Controls\\Radio::setSelected](ui-controls-radio.setselected.html) — Встановити вибраний варіант

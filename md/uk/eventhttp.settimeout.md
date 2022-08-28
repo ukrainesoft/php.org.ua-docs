@@ -1,25 +1,38 @@
-- [«EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.md)
-- [EventHttpConnection »](class.eventhttpconnection.md)
+Встановлює час очікування для запиту HTTP
 
-- [PHP Manual](index.md)
-- [EventHttp](class.eventhttp.md)
-- Встановлює час очікування для HTTP-запиту
+-   [« EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.html)
+    
+-   [EventHttpConnection »](class.eventhttpconnection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttp](class.eventhttp.html)
+    
+-   Встановлює час очікування для запиту HTTP
+    
 
 # EventHttp::setTimeout
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
 EventHttp::setTimeout — Встановлює час очікування для запиту HTTP
 
 ### Опис
 
-public **EventHttp::setTimeout**( int `$value` ): void
+```methodsynopsis
+public
+   EventHttp::setTimeout(
+    int
+     $value
+   ): void
+```
 
 Встановлює час очікування для запиту HTTP
 
 ### Список параметрів
 
 `value`
+
 Час очікування за секунди.
 
 ### Значення, що повертаються

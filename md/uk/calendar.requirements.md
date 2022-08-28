@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](calendar.setup.md)
-- [Установка »](calendar.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](calendar.setup.md)
-- Вимоги
+-   [« Установка и настройка](calendar.setup.html)
+    
+-   [Установка »](calendar.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](calendar.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

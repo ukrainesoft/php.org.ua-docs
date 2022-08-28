@@ -1,29 +1,31 @@
-- [« svn_repos_create](function.svn-repos-create.md)
-- [svn_repos_fs_commit_txn »](function.svn-repos-fs-commit-txn.md)
+Створення нової транзакції
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Створення нової транзакції
+-   [« svn\_repos\_create](function.svn-repos-create.html)
+    
+-   [svn\_repos\_fs\_commit\_txn »](function.svn-repos-fs-commit-txn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SVN](ref.svn.html)
+    
+-   Створення нової транзакції
+    
 
-# svn_repos_fs_begin_txn_for_commit
+# svnreposфсbegintxnforcommit
 
-(PECL svn \>= 0.2.0)
+(PECL svn >= 0.2.0)
 
-svn_repos_fs_begin_txn_for_commit — Створення нової транзакції
+svnreposфсbegintxnforcommit — Створення нової транзакції
 
 ### Опис
 
-**svn_repos_fs_begin_txn_for_commit**(
-resource `$repos`,
-int `$rev`,
-string `$author`,
-string `$log_msg`
-): resource
+```methodsynopsis
+svn_repos_fs_begin_txn_for_commit(    resource $repos,    int $rev,    string $author,    string $log_msg): resource
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Створення нової транзакції.
 
@@ -31,6 +33,4 @@ string `$log_msg`
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

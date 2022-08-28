@@ -1,30 +1,36 @@
-- [« SolrQuery::getFacetQueries](solrquery.getfacetqueries.md)
-- [SolrQuery::getFields »](solrquery.getfields.md)
+Повертає тип сортування фасету
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає тип сортування фасету
+-   [« SolrQuery::getFacetQueries](solrquery.getfacetqueries.html)
+    
+-   [SolrQuery::getFields »](solrquery.getfields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає тип сортування фасету
+    
 
 # SolrQuery::getFacetSort
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getFacetSort — Повертає тип сортування фасету
 
 ### Опис
 
-public **SolrQuery::getFacetSort**(string `$field_override` = ?): int
+```methodsynopsis
+public SolrQuery::getFacetSort(string $field_override = ?): int
+```
 
-Повертає ціле число (SolrQuery::FACET_SORT_INDEX або
-SolrQuery::FACET_SORT_COUNT)
+Повертає ціле число (SolrQuery::FACETSORTINDEX або SolrQuery::FACETSORTCOUNT)
 
 ### Список параметрів
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає ціле число (SolrQuery::FACET_SORT_INDEX або
-SolrQuery::FACET_SORT_COUNT) у разі успішного виконання і **`null`**,
-якщо значення не задано
+Повертає ціле число (SolrQuery::FACETSORTINDEX або SolrQuery::FACETSORTCOUNT) у разі успішного виконання та **`null`**, якщо значення не встановлено

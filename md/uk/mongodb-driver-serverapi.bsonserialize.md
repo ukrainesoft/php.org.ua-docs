@@ -1,20 +1,27 @@
-- [«MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)
-- [MongoDB\Driver\ServerApi::\_\_construct »](mongodb-driver-serverapi.construct.md)
+Повертає об'єкт для серіалізації BSON
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)
-- Повертає об'єкт для серіалізації BSON
+-   [« MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+    
+-   [MongoDB\\Driver\\ServerApi::\_\_construct »](mongodb-driver-serverapi.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.html)
+    
+-   Повертає об'єкт для серіалізації BSON
+    
 
-# MongoDB\Driver\ServerApi::bsonSerialize
+# MongoDBDriverServerApi::bsonSerialize
 
-(mongodb \>=1.10.0)
+(mongodb >=1.10.0)
 
-MongoDB\Driver\ServerApi::bsonSerialize — Повертає об'єкт для
-серіалізації BSON
+MongoDBDriverServerApi::bsonSerialize — Повертає об'єкт для серіалізації BSON
 
 ### Опис
 
-final public **MongoDB\Driver\ServerApi::bsonSerialize**(): object
+```methodsynopsis
+final public MongoDB\Driver\ServerApi::bsonSerialize(): object
+```
 
 ### Список параметрів
 
@@ -26,10 +33,8 @@ final public **MongoDB\Driver\ServerApi::bsonSerialize**(): object
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) -
-Надає масив або документ для серіалізації у BSON
+-   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.html) - Надає масив або документ для серіалізації у BSON

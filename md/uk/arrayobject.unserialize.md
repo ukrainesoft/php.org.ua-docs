@@ -1,32 +1,39 @@
-- [« ArrayObject::uksort](arrayobject.uksort.md)
-- [SplObserver »](class.splobserver.md)
+Десеріалізувати ArrayObject
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Десеріалізувати ArrayObject
+-   [« ArrayObject::uksort](arrayobject.uksort.html)
+    
+-   [SplObserver »](class.splobserver.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Десеріалізувати ArrayObject
+    
 
 # ArrayObject::unserialize
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ArrayObject::unserialize — Десеріалізувати ArrayObject
 
 ### Опис
 
-public **ArrayObject::unserialize**(string `$data`): void
+```methodsynopsis
+public ArrayObject::unserialize(string $data): void
+```
 
-Десеріалізує серіалізований об'єкт
-[ArrayObject](class.arrayobject.md).
+Десеріалізує серіалізований об'єкт [ArrayObject](class.arrayobject.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `data`
-Серіалізований об'єкт [ArrayObject](class.arrayobject.md).
+
+Серіалізований об'єкт [ArrayObject](class.arrayobject.html)
 
 ### Значення, що повертаються
 
@@ -34,8 +41,6 @@ public **ArrayObject::unserialize**(string `$data`): void
 
 ### Дивіться також
 
-- [ArrayIterator::serialize()](arrayiterator.serialize.md) -
-Серіалізує масив
-- [unserialize()](function.unserialize.md) - Створює PHP-значення з
-збереженого уявлення
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [ArrayIterator::serialize()](arrayiterator.serialize.html) - Серіалізує масив
+-   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
+-   [Сериализация объектов](language.oop5.serialization.html)

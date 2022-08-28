@@ -1,20 +1,26 @@
-- [«is_object](function.is-object.md)
-- [is_resource »](function.is-resource.md)
+Псевдонім isfloat
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Псевдонім is_float
+-   [« is\_object](function.is-object.html)
+    
+-   [is\_resource »](function.is-resource.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Псевдонім isfloat
+    
 
-#is_real
+# ісreal
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_real - Псевдонім [is_float()](function.is-float.md)
+ісreal - Псевдонім [is\_float()](function.is-float.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [is_float()](function.is-float.md).
+Ця функція є псевдонімом: [is\_float()](function.is-float.html)
 
 **Увага**
 
-Псевдонім оголошений *УСТАРЕЛИМ* у PHP 7.4.0 та *Видалений* у PHP 8.0.0.
+Псевдонім оголошено *Застарілим* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0.

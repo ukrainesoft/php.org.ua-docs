@@ -1,9 +1,15 @@
-- [« Collection::getSchema](mysql-xdevapi-collection.getschema.md)
-- [Collection::modify »](mysql-xdevapi-collection.modify.md)
+Повертає об'єкт Session
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Повертає об'єкт Session
+-   [« Collection::getSchema](mysql-xdevapi-collection.getschema.html)
+    
+-   [Collection::modify »](mysql-xdevapi-collection.modify.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+    
+-   Повертає об'єкт Session
+    
 
 # Collection::getSession
 
@@ -13,7 +19,9 @@ Collection::getSession — Повертає об'єкт Session
 
 ### Опис
 
-public **mysql_xdevapi\Collection::getSession**(): Session
+```methodsynopsis
+public mysql_xdevapi\Collection::getSession(): Session
+```
 
 Повертає новий об'єкт Session із об'єкта Collection.
 
@@ -27,14 +35,31 @@ public **mysql_xdevapi\Collection::getSession**(): Session
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::getSession()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::getSession()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");// ...$news ->getSession();var_dump($session);var_dump($newsession);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+// ...
+
+$newsession = $collection->getSession();
+
+var_dump($session);
+var_dump($newsession);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(mysql_xdevapi\Session)#1 (0) {
 }
 object(mysql_xdevapi\Session)#4 (0) {
 }
+```

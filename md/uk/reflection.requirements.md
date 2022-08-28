@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](reflection.setup.md)
-- [Встановлення »](reflection.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](reflection.setup.md)
-- Вимоги
+-   [« Установка и настройка](reflection.setup.html)
+    
+-   [Установка »](reflection.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](reflection.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

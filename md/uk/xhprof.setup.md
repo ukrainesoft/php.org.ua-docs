@@ -1,15 +1,21 @@
-- [«Вступ](intro.xhprof.md)
-- [Вимоги »](xhprof.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Xhprof](book.xhprof.md)
+-   [« Введение](intro.xhprof.html)
+    
+-   [Требования »](xhprof.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Xhprof](book.xhprof.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](xhprof.requirements.md)
-- [Установка](xhprof.installation.md)
-- [Налаштування під час виконання](xhprof.configuration.md)
-- [Типи ресурсів](xhprof.resources.md)
+-   [Требования](xhprof.requirements.html)
+-   [Установка](xhprof.installation.html)
+-   [Настройка во время выполнения](xhprof.configuration.html)
+-   [Типы ресурсов](xhprof.resources.html)

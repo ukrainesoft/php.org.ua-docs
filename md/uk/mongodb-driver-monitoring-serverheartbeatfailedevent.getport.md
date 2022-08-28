@@ -1,21 +1,27 @@
-- [« MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getHost](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md)
-
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-- Повертає порт, на якому прослуховується сервер
-
-# MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort
 Повертає порт, на якому прослуховується сервер
+
+-   [« MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getHost](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.html)
+    
+-   Повертає порт, на якому прослуховується сервер
+    
+
+# MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort
+
+(mongodb >=1.13.0)
+
+MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort — Повертає порт, на якому прослуховується сервер
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort**(): int
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort(): int
+```
 
 ### Список параметрів
 
@@ -27,5 +33,4 @@ final public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

@@ -1,33 +1,32 @@
-- [« xmlrpc_server_add_introspection_data](function.xmlrpc-server-add-introspection-data.md)
-- [xmlrpc_server_create »](function.xmlrpc-server-create.md)
+Розбирає XML-запити та методи, що викликають.
 
-- [PHP Manual](index.md)
-- [Функції XML-RPC](ref.xmlrpc.md)
-- Розбирає XML-запити та методи, що викликають.
+-   [« xmlrpc\_server\_add\_introspection\_data](function.xmlrpc-server-add-introspection-data.html)
+    
+-   [xmlrpc\_server\_create »](function.xmlrpc-server-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции XML-RPC](ref.xmlrpc.html)
+    
+-   Розбирає XML-запити та методи, що викликають.
+    
 
-#xmlrpc_server_call_method
+# xmlrpcservercallметод
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
+(PHP 4> = 4.1.0, PHP 5, PHP 7)
 
-xmlrpc_server_call_method — Розбирає XML-запити та методи, що викликають
+xmlrpcservercallmethod — Розбирає XML-запити та методи, що викликають.
 
 ### Опис
 
-**xmlrpc_server_call_method**(
-resource `$server`,
-string `$xml`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$user_data`,
-array `$output_options` = ?
-): string
+```methodsynopsis
+xmlrpc_server_call_method(    resource $server,    string $xml,    mixed $user_data,    array $output_options = ?): string
+```
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

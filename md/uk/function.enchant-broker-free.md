@@ -1,47 +1,50 @@
-- [«enchant_broker_free_dict](function.enchant-broker-free-dict.md)
-- [enchant_broker_get_dict_path »](function.enchant-broker-get-dict-path.md)
+Звільняє ресурс брокера та його словники
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Звільняє ресурс брокера та його словники
+-   [« enchant\_broker\_free\_dict](function.enchant-broker-free-dict.html)
+    
+-   [enchant\_broker\_get\_dict\_path »](function.enchant-broker-get-dict-path.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Звільняє ресурс брокера та його словники
+    
 
-#enchant_broker_free
+# enchantbrokerfree
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-enchant_broker_free - Звільняє ресурс брокера та його словники
+enchantbrokerfree — Звільняє ресурс брокера та його словники
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**enchant_broker_free**([EnchantBroker](class.enchantbroker.md)
-`$broker`): bool
+```methodsynopsis
+enchant_broker_free(EnchantBroker $broker): bool
+```
 
-Визволяє брокера з усіма його словниками. Починаючи з PHP 8.0.0,
-рекомендується знищити об'єкт замість виклику цієї функції.
+Звільняє брокера з його словниками. Починаючи з PHP 8.0.0, рекомендується знищити об'єкт замість виклику цієї функції.
 
 ### Список параметрів
 
 `broker`
-Провайдер Enchant, який повертається
-[enchant_broker_init()](function.enchant-broker-init.md).
+
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [enchant_broker_init()](function.enchant-broker-init.md) - Створити
-новий об'єкт брокера
+-   [enchant\_broker\_init()](function.enchant-broker-init.html) - Створити новий об'єкт брокера

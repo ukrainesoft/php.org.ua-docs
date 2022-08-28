@@ -1,29 +1,36 @@
-- [ trader_exp](function.trader-exp.md)
-- [trader_get_compat »](function.trader-get-compat.md)
+Вектор найменшого числа
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Вектор найменшої кількості
+-   [« trader\_exp](function.trader-exp.html)
+    
+-   [trader\_get\_compat »](function.trader-get-compat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Вектор найменшого числа
+    
 
-# trader_floor
+# traderfloor
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_floor — Вектор найменшої кількості
+traderfloor — Вектор найменшого числа
 
 ### Опис
 
-**trader_floor**(array `$real`): array
+```methodsynopsis
+trader_floor(array $real): array
+```
 
-Обчислює наступне найменше ціле число для кожного значення `real`
-та повертає отриманий масив.
+Обчислює наступне найменше ціле число для кожного значення `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

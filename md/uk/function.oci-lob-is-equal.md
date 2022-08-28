@@ -1,38 +1,46 @@
-- [«oci_lob_copy](function.oci-lob-copy.md)
-- [oci_new_collection »](function.oci-new-collection.md)
+Порівнює два об'єкти LOB/FILE
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Порівнює два об'єкти LOB/FILE
+-   [« oci\_lob\_copy](function.oci-lob-copy.html)
+    
+-   [oci\_new\_collection »](function.oci-new-collection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Порівнює два об'єкти LOB/FILE
+    
 
-#oci_lob_is_equal
+# ociлобісequal
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_lob_is_equal — Порівнює два об'єкти LOB/FILE
+ociлобісequal - Порівнює два об'єкти LOB/FILE
 
 ### Опис
 
-**oci_lob_is_equal**([OCILob](class.ocilob.md) `$lob1`,
-[OCILob](class.ocilob.md) `$lob2`): bool
+```methodsynopsis
+oci_lob_is_equal(OCILob $lob1, OCILob $lob2): bool
+```
 
 Порівнює два об'єкти LOB/FILE.
 
 ### Список параметрів
 
 `lob1`
+
 Ідентифікатор LOB.
 
 `lob2`
+
 Ідентифікатор LOB.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо об'єкти ідентичні, та **`false`** у зворотному
-випадку або у разі виникнення помилки.
+Повертає **`true`**, якщо об'єкти ідентичні, та **`false`** у протилежному випадку або у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Клас OCILob називався OCI-Lob до PHP 8 та PECL OCI8 3.0.0.

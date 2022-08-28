@@ -1,178 +1,137 @@
-- [« RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md)
-- [RecursiveTreeIterator::beginChildren »](recursivetreeiterator.beginchildren.md)
+Клас RecursiveTreeIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас RecursiveTreeIterator
+-   [« RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.html)
+    
+-   [RecursiveTreeIterator::beginChildren »](recursivetreeiterator.beginchildren.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас RecursiveTreeIterator
+    
 
 # Клас RecursiveTreeIterator
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Дозволяє виробляти ітерації з
-[RecursiveIterator](class.recursiveiterator.md) для створення
-графічного дерева в ASCII.
+Дозволяє виробляти ітерації з [RecursiveIterator](class.recursiveiterator.html) для створення графічного дерева в ASCII.
 
 ## Огляд класів
 
-class **RecursiveTreeIterator** extends
-[RecursiveIteratorIterator](class.recursiveiteratoriterator.md) {
+```classsynopsis
 
-/\* Успадковані константи \*/
+     
+    
 
-const int `RecursiveIteratorIterator::LEAVES_ONLY` = 0;
+    
+     
+      class RecursiveTreeIterator
+     
 
-const int `RecursiveIteratorIterator::SELF_FIRST` = 1;
+     
+      extends
+       RecursiveIteratorIterator
+     
+     {
+    /* Наследуемые константы */
+    
+     const
+     int
+      RecursiveIteratorIterator::LEAVES_ONLY = 0;
+const
+     int
+      RecursiveIteratorIterator::SELF_FIRST = 1;
+const
+     int
+      RecursiveIteratorIterator::CHILD_FIRST = 2;
+const
+     int
+      RecursiveIteratorIterator::CATCH_GET_CHILD = 16;
 
-const int `RecursiveIteratorIterator::CHILD_FIRST` = 2;
 
-const int `RecursiveIteratorIterator::CATCH_GET_CHILD` = 16;
+    /* Константы */
+    const
+     int
+      BYPASS_CURRENT = 4;
 
-/\* Константи \*/
+    const
+     int
+      BYPASS_KEY = 8;
 
-const int `BYPASS_CURRENT` = 4;
+    const
+     int
+      PREFIX_LEFT = 0;
 
-const int `BYPASS_KEY` = 8;
+    const
+     int
+      PREFIX_MID_HAS_NEXT = 1;
 
-const int `PREFIX_LEFT` = 0;
+    const
+     int
+      PREFIX_MID_LAST = 2;
 
-const int `PREFIX_MID_HAS_NEXT` = 1;
+    const
+     int
+      PREFIX_END_HAS_NEXT = 3;
 
-const int `PREFIX_MID_LAST` = 2;
+    const
+     int
+      PREFIX_END_LAST = 4;
 
-const int `PREFIX_END_HAS_NEXT` = 3;
+    const
+     int
+      PREFIX_RIGHT = 5;
 
-const int `PREFIX_END_LAST` = 4;
 
-const int `PREFIX_RIGHT` = 5;
+    /* Методы */
+    
+   public __construct(    RecursiveIterator|IteratorAggregate $iterator,    int $flags = RecursiveTreeIterator::BYPASS_KEY,    int $cachingIteratorFlags = CachingIterator::CATCH_GET_CHILD,    int $mode = RecursiveTreeIterator::SELF_FIRST)
 
-/\* Методи \*/
+    public beginChildren(): void
+public beginIteration(): RecursiveIterator
+public callGetChildren(): RecursiveIterator
+public callHasChildren(): bool
+public current(): mixed
+public endChildren(): void
+public endIteration(): void
+public getEntry(): string
+public getPostfix(): string
+public getPrefix(): string
+public key(): mixed
+public next(): void
+public nextElement(): void
+public rewind(): void
+public setPostfix(string $postfix): void
+public setPrefixPart(int $part, string $value): void
+public valid(): bool
 
-public [\_\_construct](recursivetreeiterator.construct.md)(
-[RecursiveIterator](class.recursiveiterator.md)\|[IteratorAggregate](class.iteratoraggregate.md)
-`$iterator`,
-int `$flags` = RecursiveTreeIterator::BYPASS_KEY,
-int `$cachingIteratorFlags` = CachingIterator::CATCH_GET_CHILD,
-int `$mode` = RecursiveTreeIterator::SELF_FIRST
-)
 
-public [beginChildren](recursivetreeiterator.beginchildren.md)(): void
+    /* Наследуемые методы */
+    public RecursiveIteratorIterator::beginChildren(): void
+public RecursiveIteratorIterator::beginIteration(): void
+public RecursiveIteratorIterator::callGetChildren(): ?RecursiveIterator
+public RecursiveIteratorIterator::callHasChildren(): bool
+public RecursiveIteratorIterator::current(): mixed
+public RecursiveIteratorIterator::endChildren(): void
+public RecursiveIteratorIterator::endIteration(): void
+public RecursiveIteratorIterator::getDepth(): int
+public RecursiveIteratorIterator::getInnerIterator(): RecursiveIterator
+public RecursiveIteratorIterator::getMaxDepth(): int|false
+public RecursiveIteratorIterator::getSubIterator(?int $level = null): ?RecursiveIterator
+public RecursiveIteratorIterator::key(): mixed
+public RecursiveIteratorIterator::next(): void
+public RecursiveIteratorIterator::nextElement(): void
+public RecursiveIteratorIterator::rewind(): void
+public RecursiveIteratorIterator::setMaxDepth(int $maxDepth = -1): void
+public RecursiveIteratorIterator::valid(): bool
 
-public [beginIteration](recursivetreeiterator.beginiteration.md)():
-[RecursiveIterator](class.recursiveiterator.md)
+   }
+```
 
-public [callGetChildren](recursivetreeiterator.callgetchildren.md)():
-[RecursiveIterator](class.recursiveiterator.md)
-
-public [callHasChildren](recursivetreeiterator.callhaschildren.md)():
-bool
-
-public [current](recursivetreeiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [endChildren](recursivetreeiterator.endchildren.md)(): void
-
-public [endIteration](recursivetreeiterator.enditeration.md)(): void
-
-public [getEntry](recursivetreeiterator.getentry.md)(): string
-
-public [getPostfix](recursivetreeiterator.getpostfix.md)(): string
-
-public [getPrefix](recursivetreeiterator.getprefix.md)(): string
-
-public [key](recursivetreeiterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [next](recursivetreeiterator.next.md)(): void
-
-public [nextElement](recursivetreeiterator.nextelement.md)(): void
-
-public [rewind](recursivetreeiterator.rewind.md)(): void
-
-public [setPostfix](recursivetreeiterator.setpostfix.md)(string
-`$postfix`): void
-
-public [setPrefixPart](recursivetreeiterator.setprefixpart.md)(int
-`$part`, string `$value`): void
-
-public [valid](recursivetreeiterator.valid.md)(): bool
-
-/\* Наслідувані методи \*/
-
-public
-[RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.md)():
-void
-
-public
-[RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.md)():
-void
-
-public
-[RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.md)():
-?[RecursiveIterator](class.recursiveiterator.md)
-
-public
-[RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.md)():
-bool
-
-public
-[RecursiveIteratorIterator::current](recursiveiteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md)():
-void
-
-public
-[RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.md)():
-void
-
-public
-[RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.md)():
-int
-
-public
-[RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md)():
-[RecursiveIterator](class.recursiveiterator.md)
-
-public
-[RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.md)():
-int\|false
-
-public
-[RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md)(?int
-`$level` = **`null`**):
-?[RecursiveIterator](class.recursiveiterator.md)
-
-public
-[RecursiveIteratorIterator::key](recursiveiteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md)():
-void
-
-public
-[RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md)():
-void
-
-public
-[RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md)():
-void
-
-public
-[RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)(int
-`$maxDepth` = -1): void
-
-public
-[RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)():
-bool
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`RecursiveTreeIterator::BYPASS_CURRENT`**
 
@@ -192,39 +151,21 @@ bool
 
 ## Зміст
 
-- [RecursiveTreeIterator::beginChildren](recursivetreeiterator.beginchildren.md)
-— Початок навігації за нащадками елемента
-- [RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.md)
-- Початок навігації
-- [RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.md)
-— Отримання дочірніх елементів
-- [RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.md)
-— Перевірка, чи має поточний елемент нащадки
-- [RecursiveTreeIterator::\_\_construct](recursivetreeiterator.construct.md)
-- Конструктор класу RecursiveTreeIterator
-- [RecursiveTreeIterator::current](recursivetreeiterator.current.md)
-— Отримання поточного елемента
-- [RecursiveTreeIterator::endChildren](recursivetreeiterator.endchildren.md)
-— Завершення навігації за нащадками елемента
-- [RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md)
-- Завершення навігації
-- [RecursiveTreeIterator::getEntry](recursivetreeiterator.getentry.md)
-— Отримання піддерева, корінням якого є поточний елемент
-- [RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md)
-- Отримання суфікса
-- [RecursiveTreeIterator::getPrefix](recursivetreeiterator.getprefix.md)
-— Отримання префіксу
-- [RecursiveTreeIterator::key](recursivetreeiterator.key.md) -
-Отримання ключа поточного елемента
-- [RecursiveTreeIterator::next](recursivetreeiterator.next.md)
-Перехід до наступного елементу
-- [RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md)
-- Наступний елемент
-- [RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.md)
-Переведення ітератора на початок
-- [RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.md)
-- Встановлення постфіксу
-- [RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.md)
-- Завдання частини префіксу
-- [RecursiveTreeIterator::valid](recursivetreeiterator.valid.md) -
-Перевірка допустимості елемента
+-   [RecursiveTreeIterator::beginChildren](recursivetreeiterator.beginchildren.html) — Початок навігації до нащадків елемента
+-   [RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.html) — Початок навігації
+-   [RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.html) — Отримання дочірніх елементів
+-   [RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.html) — Перевірка, чи має поточний елемент нащадки
+-   [RecursiveTreeIterator::\_\_construct](recursivetreeiterator.construct.html) - Конструктор класу RecursiveTreeIterator
+-   [RecursiveTreeIterator::current](recursivetreeiterator.current.html) — Отримання поточного елемента
+-   [RecursiveTreeIterator::endChildren](recursivetreeiterator.endchildren.html) — Завершення навігації за нащадками елемента
+-   [RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.html) - Завершення навігації
+-   [RecursiveTreeIterator::getEntry](recursivetreeiterator.getentry.html) — Отримання піддерева, корінням якого є поточний елемент
+-   [RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.html) - Отримання суфікса
+-   [RecursiveTreeIterator::getPrefix](recursivetreeiterator.getprefix.html) — Отримання префіксу
+-   [RecursiveTreeIterator::key](recursivetreeiterator.key.html) — Отримання ключа поточного елемента
+-   [RecursiveTreeIterator::next](recursivetreeiterator.next.html) — Перехід до наступного елементу
+-   [RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.html) - Наступний елемент
+-   [RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.html) — Переведення ітератора на початок
+-   [RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.html) - Встановлення постфіксу
+-   [RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.html) - Завдання частини префікса
+-   [RecursiveTreeIterator::valid](recursivetreeiterator.valid.html) - Перевірка допустимості елемента

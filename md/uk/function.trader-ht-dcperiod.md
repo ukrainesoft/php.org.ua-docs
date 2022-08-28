@@ -1,27 +1,34 @@
-- [« trader_get_unstable_period](function.trader-get-unstable-period.md)
-- [trader_ht_dcphase »](function.trader-ht-dcphase.md)
+Перетворення Гільберта - період домінуючого циклу
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Перетворення Гільберта – період домінуючого циклу
+-   [« trader\_get\_unstable\_period](function.trader-get-unstable-period.html)
+    
+-   [trader\_ht\_dcphase »](function.trader-ht-dcphase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Перетворення Гільберта - період домінуючого циклу
+    
 
-# trader_ht_dcperiod
+# traderхтdcperiod
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_ht_dcperiod - Перетворення Гільберта - період домінуючого
-циклу
+traderхтdcperiod - Перетворення Гільберта - період домінуючого циклу
 
 ### Опис
 
-**trader_ht_dcperiod**(array `$real`): array
+```methodsynopsis
+trader_ht_dcperiod(array $real): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

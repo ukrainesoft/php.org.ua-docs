@@ -1,80 +1,90 @@
-- [« pg_send_execute](function.pg-send-execute.md)
-- [pg_send_query_params »](function.pg-send-query-params.md)
+Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Надсилає запит на створення параметризованого SQL-вираження, не
-чекаючи його завершення
+-   [« pg\_send\_execute](function.pg-send-execute.html)
+    
+-   [pg\_send\_query\_params »](function.pg-send-query-params.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
+    
 
-#pg_send_prepare
+# пгsendprepare
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-pg_send_prepare — Надсилає запит на створення параметризованого
-SQL-вирази, не чекаючи його завершення
+пгsendprepare — Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
 
 ### Опис
 
-**pg_send_prepare**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`, string `$statement_name`, string `$query`): int\|bool
+```methodsynopsis
+pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $query): int|bool
+```
 
-Надсилає запит на створення параметризованого SQL висловлювання і не чекає
-його завершення.
+Надсилає запит на створення параметризованого SQL виразу і не чекає на його завершення.
 
-Це асинхронна версія функції [pg_prepare()](function.pg-prepare.md):
-вона повертає **`true`**, якщо вдалося відправити запит, **`false`** в
-інакше. Після успішного надсилання, скористайтеся функцією
-[pg_get_result()](function.pg-get-result.md), щоб дізнатися, створилося
-чи необхідне SQL вираз. Аргументи функції обробляються так само, як
-в [pg_prepare()](function.pg-prepare.md). Функція не буде працювати з
-серверами PostgreSQL версій нижче 7.4.
+Це асинхронна версія функції [pg\_prepare()](function.pg-prepare.html): вона повертає **`true`**, якщо вдалося надіслати запит, **`false`** в іншому випадку. Після успішного надсилання, скористайтеся функцією [pg\_get\_result()](function.pg-get-result.html), щоб дізнатися, чи створився необхідний вираз SQL. Аргументи функції обробляються так само, як у [pg\_prepare()](function.pg-prepare.html). Функція не працюватиме з серверами PostgreSQL версій нижче 7.4.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 `statement_name`
-Ім'я заготовки, що створюється. Має бути унікальним у межах сесії.
-Якщо встановлено порожній рядок, буде створено безіменний SQL вираз. При
-цьому воно перезапише вже існуючий безіменний вираз, визначений
-раніше.
+
+Ім'я заготовки, що створюється. Має бути унікальним у межах сесії. Якщо встановлено порожній рядок, буде створено безіменний SQL вираз. При цьому він перезапише вже існуючий безіменний вираз, визначений раніше.
 
 `query`
-Параметризований запит SQL. Повинен містити лише один вираз
-(кілька виразів розділених крапкою з комою не підтримуються).
-Якщо на запит будуть передаватися параметри, вони замінять
-псевдозмінні $1, $2 і т.д.
+
+Параметризований запит SQL. Повинен містити лише один вираз (кілька виразів розділених крапкою з комою не підтримуються). Якщо в запит будуть передаватися параметри, вони замінять псевдозмінні $1, $2 і т.д.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`** або `0`
-у разі виникнення помилки. Для отримання результату запиту
-використовуйте функцію [pg_get_result()](function.pg-get-result.md).
+Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [pg\_get\_result()](function.pg-get-result.html)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_send_prepare()****
+**Приклад #1 Приклад використання **пгsendprepare()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Could not connect"); // Підготовка запиту if (!pg_connection_busy($dbconn)) {    pg_send_prepare($dbconn, "my_query", 'SELECT ** FROM shops WHERE name ' $res1 = pg_get_result($dbconn); }  // Запуск запиту на виконання. Варто відзначити, що немає потреби екранувати // спецспеку символи в рядку "Joe's Widgets": $res2 = pg_get_result($dbconn); }  // Запуск на виконання того ж| $res3 = pg_get_result($dbconn); }?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
+
+  // Подготовка запроса
+  if (!pg_connection_busy($dbconn)) {
+    pg_send_prepare($dbconn, "my_query", 'SELECT * FROM shops WHERE name = $1');
+    $res1 = pg_get_result($dbconn);
+  }
+
+  // Запуск запроса на выполнение. Стоит отметить, что нет необходимости экранировать
+  // спецсимволы в строке "Joe's Widgets"
+  if (!pg_connection_busy($dbconn)) {
+    pg_send_execute($dbconn, "my_query", array("Joe's Widgets"));
+    $res2 = pg_get_result($dbconn);
+  }
+
+  // Запуск на выполнение того же запроса, но с другим параметром
+  if (!pg_connection_busy($dbconn)) {
+    pg_send_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
+    $res3 = pg_get_result($dbconn);
+  }
+
+?>
+```
 
 ### Дивіться також
 
-- [pg_connect()](function.pg-connect.md) - Відкриває з'єднання з
-базою даних PostgreSQL
-- [pg_pconnect()](function.pg-pconnect.md) - Відкриває постійне
-з'єднання з сервером PostgreSQL
-- [pg_execute()](function.pg-execute.md) - Запускає виконання
-раніше підготовленого параметризованого запиту та чекає результат
-- [pg_send_execute()](function.pg-send-execute.md) - Запускає
-попередньо підготовлений SQL-запит та передає йому параметри;
-не чекає результату, що повертається
-- [pg_send_query_params()](function.pg-send-query-params.md) -
-Надсилає параметризований запит на сервер, не чекає
-результату, що повертається
+-   [pg\_connect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_pconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [pg\_execute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [pg\_send\_execute()](function.pg-send-execute.html) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
+-   [pg\_send\_query\_params()](function.pg-send-query-params.html) - Посилає параметризований запит на сервер, не чекає результату, що повертається.

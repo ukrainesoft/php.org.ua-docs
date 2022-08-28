@@ -1,9 +1,15 @@
-- [« CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.md)
-- [CollectionModify::skip »](mysql-xdevapi-collectionmodify.skip.md)
+Встановлює атрибут документа
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- Встановлює атрибут документа
+-   [« CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.html)
+    
+-   [CollectionModify::skip »](mysql-xdevapi-collectionmodify.skip.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+    
+-   Встановлює атрибут документа
+    
 
 # CollectionModify::set
 
@@ -13,19 +19,21 @@ CollectionModify::set — Встановлює атрибут документа
 
 ### Опис
 
-public **mysql_xdevapi\CollectionModify::set**(string
-`$collection_field`, string `$expression_or_literal`):
-[mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionModify::set(string $collection_field, string $expression_or_literal): mysql_xdevapi\CollectionModify
+```
 
-Встановлює або оновлює атрибути документів у колекції.
+Встановлює чи оновлює атрибути документів у колекції.
 
 ### Список параметрів
 
 `collection_field`
-Шлях до документа (ім'я) елемента для встановлення.
+
+Шлях до документа (назва) елемента для установки.
 
 `expression_or_literal`
-Значення установки.
+
+Значення для встановлення.
 
 ### Значення, що повертаються
 
@@ -33,24 +41,52 @@ public **mysql_xdevapi\CollectionModify::set**(string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionModify::set()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::set()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result =  {"name":   "Bernie",    "traits": ["Friend", "Brother", "Human"]}') ->execute();$collection  ->modify("name = :name")  bind(['name' => 'Bernie'])  ->set("name", "Bern") ->execute();$result = $collection ->find() ->execute();print_r($ result->fetchAll());?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+$result = $collection
+  ->add(
+  '{"name":   "Bernie",
+    "traits": ["Friend", "Brother", "Human"]}')
+  ->execute();
+
+$collection
+  ->modify("name = :name")
+  ->bind(['name' => 'Bernie'])
+  ->set("name", "Bern")
+  ->execute();
+
+$result = $collection
+  ->find()
+  ->execute();
+
+print_r($result->fetchAll());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[_id] => 00005b6b5361000000000000111
-[name] => Bern
-[traits] => Array
-(
-[0] => Friend
-[1] => Brother
-[2] => Human
+    [0] => Array
+        (
+            [_id] => 00005b6b53610000000000000111
+            [name] => Bern
+            [traits] => Array
+                (
+                    [0] => Friend
+                    [1] => Brother
+                    [2] => Human
+                )
+        )
 )
-)
-)
+```

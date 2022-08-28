@@ -1,19 +1,27 @@
-- [« Yaf_Registry::\_\_construct](yaf-registry.construct.md)
-- [Yaf_Registry::get »](yaf-registry.get.md)
+Видаляє елемент із реєстру
 
-- [PHP Manual](index.md)
-- [Yaf_Registry](class.yaf-registry.md)
-- Видаляє елемент із реєстру
+-   [« Yaf\_Registry::\_\_construct](yaf-registry.construct.html)
+    
+-   [Yaf\_Registry::get »](yaf-registry.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Registry](class.yaf-registry.html)
+    
+-   Видаляє елемент із реєстру
+    
 
-# Yaf_Registry::del
+# YafRegistry::del
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Registry::del — Видаляє елемент із реєстру
+YafRegistry::del — Видаляє елемент із реєстру
 
 ### Опис
 
-public static **Yaf_Registry::del**(string `$name`): void
+```methodsynopsis
+public static Yaf_Registry::del(string $name): void
+```
 
 Видаляє елемент із реєстру
 

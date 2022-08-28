@@ -1,9 +1,15 @@
-- [«get_resource_type](function.get-resource-type.md)
-- [intval »](function.intval.md)
+Повертає тип змінної
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Повертає тип змінної
+-   [« get\_resource\_type](function.get-resource-type.html)
+    
+-   [intval »](function.intval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Повертає тип змінної
+    
 
 # gettype
 
@@ -13,84 +19,80 @@ gettype — Повертає тип змінної
 
 ### Опис
 
-**gettype**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): string
+```methodsynopsis
+gettype(mixed $value): string
+```
 
-Повертає тип PHP-змінної `value`. Для перевірки типу змінної
-використовуйте функції `is_*`.
+Повертає тип PHP-змінної `value`. Для перевірки типу змінної використовуйте функції `is_*`
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
 Можливими значеннями рядка, що повертається, є:
 
-- ``boolean'`
-- ``integer''
-- ``double'' (з історичних причин у випадку типу float
-повертається ``double'`, а не просто ``float'`)
-- ``string'`
-- ``array'`
-- ``object'`
-- ``resource'`
-- ``resource (closed)`` з PHP 7.2.0
-- ``NULL'`
-- ``unknown type''
+-   `"boolean"`
+-   `"integer"`
+-   `"double"` (з історичних причин у разі типу float повертається `"double"`, а не просто `"float"`
+-   `"string"`
+-   `"array"`
+-   `"object"`
+-   `"resource"`
+-   `"resource (closed)"` з PHP 7.2.0
+-   `"NULL"`
+-   `"unknown type"`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                   |
-| ------ | ---------------------------------------------------------------------------------------------------------------------- |
-| 7.2.0  | Для закритих ресурсів тепер повертається "resource (closed)". Раніше для закритих ресурсів поверталося "unknown type". |
+| Версия | Описание |
+| --- | --- |
+|  | Для закритих ресурсів тепер повертається `'resource (closed)'`. Раніше для закритих ресурсів поверталося `'unknown type'` |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **gettype()****
 
-` <?php$data = array(1, 1., NULL, new stdClass, 'foo');foreach ($data as $value) {   echo gettype($value), "
-";}?> `
+```php
+<?php
+
+$data = array(1, 1., NULL, new stdClass, 'foo');
+
+foreach ($data as $value) {
+    echo gettype($value), "\n";
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 integer
 double
 NULL
 object
 string
+```
 
 ### Дивіться також
 
-- [get_debug_type()](function.get-debug-type.md) - Повертає ім'я
-типу змінної у вигляді, що підходить для налагодження
-- [settype()](function.settype.md) - Задає тип змінної
-- [get_class()](function.get-class.md) - Повертає ім'я класу, до
-якому належить об'єкт
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
-- [is_bool()](function.is-bool.md) - Перевіряє, чи є
-змінна булева
-- [is_callable()](function.is-callable.md) - Перевіряє, що значення
-може бути викликано як функція у поточній області видимості
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_int()](function.is-int.md) - Перевіряє, чи є змінна
-цілим числом
-- [is_null()](function.is-null.md) - Перевіряє, чи є значення
-змінною рівним null
-- [is_numeric()](function.is-numeric.md) - Перевіряє, чи є
-змінна числом або рядком, що містить число
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
-- [is_resource()](function.is-resource.md) - Перевіряє, чи є
-змінна ресурсом
-- [is_scalar()](function.is-scalar.md) - Перевіряє, чи є
-змінна скалярним значенням
-- [is_string()](function.is-string.md) - Перевіряє, чи є
-змінним рядком
-- [function_exists()](function.function-exists.md) - Повертає
-true, якщо зазначена функція визначена
-- [method_exists()](function.method-exists.md) - Перевіряє,
-чи існує метод у даному класі
+-   [get\_debug\_type()](function.get-debug-type.html) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
+-   [settype()](function.settype.html) - Задає тип змінної
+-   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [is\_callable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [is\_null()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
+-   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
+-   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [is\_resource()](function.is-resource.html) - Перевіряє, чи є змінна ресурсом
+-   [is\_scalar()](function.is-scalar.html) - Перевіряє, чи є змінна скалярним значенням
+-   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [function\_exists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
+-   [method\_exists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі

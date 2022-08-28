@@ -1,67 +1,65 @@
-- [« Типи ресурсів](lua.resources.md)
-- [Lua::assign »](lua.assign.md)
+Клас Lua
 
-- [PHP Manual](index.md)
-- [Lua](book.lua.md)
-- Клас Lua
+-   [« Типы ресурсов](lua.resources.html)
+    
+-   [Lua::assign »](lua.assign.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Lua](book.lua.html)
+    
+-   Клас Lua
+    
 
 # Клас Lua
 
-(PECL lua \>=0.9.0)
+(PECL lua> = 0.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Lua** {
+```classsynopsis
 
-/\* Константи \*/
 
-const string `LUA_VERSION` = Lua 5.1.4;
+    
+    
+     
+      class Lua
+     
+     {
+    
+    /* Константы */
+    
+     const
+     string
+      LUA_VERSION = Lua 5.1.4;
 
-/\* Методи \*/
 
-public [assign](lua.assign.md)(string `$name`, string `$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Методы */
+    
+   public assign(string $name, string $value): mixed
+public call(callable $lua_func, array $args = ?, int $use_self = 0): mixed
+public __call(callable $lua_func, array $args = ?, int $use_self = 0): mixed
+public __construct(string $lua_script_file = NULL)
+public eval(string $statements): mixed
+public getVersion(): string
+public include(string $file): mixed
+public registerCallback(string $name, callable $function): mixed
 
-public [call](lua.call.md)([callable](language.types.callable.md)
-`$lua_func`, array `$args` = ?, int `$use_self` = 0):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+   }
+```
 
-public
-[\_\_call](lua.call.md)([callable](language.types.callable.md)
-`$lua_func`, array `$args` = ?, int `$use_self` = 0):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [\_\_construct](lua.construct.md)(string `$lua_script_file` =
-NULL)
-
-public [eval](lua.eval.md)(string `$statements`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [getVersion](lua.getversion.md)(): string
-
-public [include](lua.include.md)(string `$file`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [registerCallback](lua.registercallback.md)(string `$name`,
-[callable](language.types.callable.md) `$function`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Lua::LUA_VERSION`**
 
 ## Зміст
 
-- [Lua::assign](lua.assign.md) - Присвоїти PHP-змінній Lua
-- [Lua::call](lua.call.md) — Викликати функції Lua
-- [Lua::\_\_construct](lua.construct.md) - Конструктор Lua
-- [Lua::eval](lua.eval.md) — Розбирає рядок як код Lua
-- [Lua::getVersion](lua.getversion.md) - Повертає версію
-- [Lua::include](lua.include.md) — Розбирає файл, що містить скрипт
-Lua
-- [Lua::registerCallback](lua.registercallback.md)
-Зареєструвати функцію PHP у Lua
+-   [Lua::assign](lua.assign.html) - Присвоїти PHP-змінної Lua
+-   [Lua::call](lua.call.html) — Викликати функції Lua
+-   [Lua::\_\_construct](lua.construct.html) - Конструктор Lua
+-   [Lua::eval](lua.eval.html) - Розбирає рядок як код Lua
+-   [Lua::getVersion](lua.getversion.html) — Повертає версію
+-   [Lua::include](lua.include.html) — Розбирає файл, що містить скрипт Lua
+-   [Lua::registerCallback](lua.registercallback.html) — Зареєструвати функцію PHP у Lua

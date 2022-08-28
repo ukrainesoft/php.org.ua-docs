@@ -1,24 +1,31 @@
-- [« Yaf_Config_Simple::key](yaf-config-simple.key.md)
-- [Yaf_Config_Simple::offsetExists »](yaf-config-simple.offsetexists.md)
+Призначення next
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення next
+-   [« Yaf\_Config\_Simple::key](yaf-config-simple.key.html)
+    
+-   [Yaf\_Config\_Simple::offsetExists »](yaf-config-simple.offsetexists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+    
+-   Призначення next
+    
 
-# Yaf_Config_Simple::next
+# YafConfigSimple::next
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Simple::next - Призначення next
+YafConfigSimple::next — Призначення next
 
 ### Опис
 
-public **Yaf_Config_Simple::next**(): void
+```methodsynopsis
+public Yaf_Config_Simple::next(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« Imagick::getFont](imagick.getfont.md)
-- [Imagick::getGravity »](imagick.getgravity.md)
+Повертає формат Imagick об'єкту
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає формат Imagick об'єкту
+-   [« Imagick::getFont](imagick.getfont.html)
+    
+-   [Imagick::getGravity »](imagick.getgravity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає формат Imagick об'єкту
+    
 
 # Imagick::getFormat
 
@@ -13,7 +19,9 @@ Imagick::getFormat — Повертає формат об'єкта Imagick
 
 ### Опис
 
-public **Imagick::getFormat**(): string
+```methodsynopsis
+public Imagick::getFormat(): string
+```
 
 Повертає формат Imagick об'єкта.
 

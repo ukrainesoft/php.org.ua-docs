@@ -1,19 +1,27 @@
-- [« Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- [Swoole\Connection\Iterator::current »](swoole-connection-iterator.current.md)
+Вважає з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- вважає з'єднання
+-   [« Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   [Swoole\\Connection\\Iterator::current »](swoole-connection-iterator.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   Вважає з'єднання
+    
 
-# Swoole\Connection\Iterator::count
+# SwooleConnectionIterator::count
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Connection\Iterator::count - Вважає з'єднання
+SwooleConnectionIterator::count — Вважає з'єднання
 
 ### Опис
 
-public **Swoole\Connection\Iterator::count**(): int
+```methodsynopsis
+public Swoole\Connection\Iterator::count(): int
+```
 
 Отримує кількість з'єднань.
 

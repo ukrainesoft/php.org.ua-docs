@@ -1,19 +1,27 @@
-- [« SessionHandler::close](sessionhandler.close.md)
-- [SessionHandler::destroy »](sessionhandler.destroy.md)
+Повертає новий ідентифікатор сесії
 
-- [PHP Manual](index.md)
-- [SessionHandler](class.sessionhandler.md)
-- Повертає новий ідентифікатор сесії
+-   [« SessionHandler::close](sessionhandler.close.html)
+    
+-   [SessionHandler::destroy »](sessionhandler.destroy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SessionHandler](class.sessionhandler.html)
+    
+-   Повертає новий ідентифікатор сесії
+    
 
-# SessionHandler::create_sid
+# SessionHandler::createsid
 
-(PHP 5 \>= 5.5.1, PHP 7, PHP 8)
+(PHP 5> = 5.5.1, PHP 7, PHP 8)
 
-SessionHandler::create_sid — Повертає новий ідентифікатор сесії
+SessionHandler::createsid — Повертає новий ідентифікатор сесії
 
 ### Опис
 
-public **SessionHandler::create_sid**(): string
+```methodsynopsis
+public SessionHandler::create_sid(): string
+```
 
 Генерує та повертає новий ідентифікатор сесії.
 
@@ -23,11 +31,9 @@ public **SessionHandler::create_sid**(): string
 
 ### Значення, що повертаються
 
-Ідентифікатор сесії допустимий для обробника сесії за промовчанням.
+Ідентифікатор сесії допустимий для оброблювача сесії за промовчанням.
 
 ### Дивіться також
 
-- [session_id()](function.session-id.md) - Отримує та/або
-встановлює ідентифікатор поточної сесії
-- [session_create_id()](function.session-create-id.md) - Створює
-новий ідентифікатор сесії
+-   [session\_id()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
+-   [session\_create\_id()](function.session-create-id.html) - створює новий ідентифікатор сесії

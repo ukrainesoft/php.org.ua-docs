@@ -1,39 +1,41 @@
-- [« Ds\Map::allocate](ds-map.allocate.md)
-- [Ds\Map::capacity »](ds-map.capacity.md)
+Оновлення всіх значень застосуванням до них переданої callback-функції
 
-- [PHP Manual](index.md)
-- [Колекція пар ключ-значення](class.ds-map.md)
-- Оновлення всіх значень застосуванням до них переданої
-callback-функції
+-   [« Ds\\Map::allocate](ds-map.allocate.html)
+    
+-   [Ds\\Map::capacity »](ds-map.capacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Коллекция пар ключ-значение](class.ds-map.html)
+    
+-   Оновлення всіх значень застосуванням до них переданої callback-функції
+    
 
-# Ds\Map::apply
+# ДсMap::apply
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Map::apply — Оновлення всіх значень застосуванням до них переданої
-callback-функції
+ДсMap::apply — Оновлення всіх значень застосуванням до них переданої callback-функції
 
 ### Опис
 
-public **Ds\Map::apply**([callable](language.types.callable.md)
-`$callback`): void
+```methodsynopsis
+public Ds\Map::apply(callable $callback): void
+```
 
-Оновлення всіх значень застосуванням до них переданої
-'callback'-функції.
+Оновлення всіх значень застосуванням до них переданої `callback`функції.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Об'єкт типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $key, mixed $value): mixed
+```
 
-Callback-функція має повертати нове значення, яке замінить
-поточний.
+Об'єкт типу [callable](language.types.callable.html)
+
+Callback-функція має повертати нове значення, яке замінить поточне.
 
 ### Значення, що повертаються
 
@@ -41,30 +43,39 @@ Callback-функція має повертати нове значення, я�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Map::apply()****
+**Приклад #1 Приклад використання **ДсMap::apply()****
 
-` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$map->apply(function($key, $value) ) { return $value * 2; });print_r($map);?> `
+```php
+<?php
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map->apply(function($key, $value) { return $value * 2; });
+
+print_r($map);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Map Object
 (
-[0] => Ds\Pair Object
-(
-[key] => a
-[value] => 2
-)
+    [0] => Ds\Pair Object
+        (
+            [key] => a
+            [value] => 2
+        )
 
-[1] => Ds\Pair Object
-(
-[key] => b
-[value] => 4
-)
+    [1] => Ds\Pair Object
+        (
+            [key] => b
+            [value] => 4
+        )
 
-[2] => Ds\Pair Object
-(
-[key] => c
-[value] => 6
-)
+    [2] => Ds\Pair Object
+        (
+            [key] => c
+            [value] => 6
+        )
 
 )
+```

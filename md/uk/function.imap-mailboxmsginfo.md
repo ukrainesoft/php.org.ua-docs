@@ -1,67 +1,78 @@
-- [«imap_mail](function.imap-mail.md)
-- [imap_mime_header_decode »](function.imap-mime-header-decode.md)
+Отримати інформацію про поточну поштову скриньку
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати інформацію про поточну поштову скриньку
+-   [« imap\_mail](function.imap-mail.html)
+    
+-   [imap\_mime\_header\_decode »](function.imap-mime-header-decode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Отримати інформацію про поточну поштову скриньку
+    
 
-#imap_mailboxmsginfo
+# imapmailboxmsginfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_mailboxmsginfo — Отримати інформацію про поточну поштову скриньку
+imapmailboxmsginfo — Отримати інформацію про поточну поштову скриньку
 
 ### Опис
 
-**imap_mailboxmsginfo**([IMAP\Connection](class.imap-connection.md)
-`$imap`): stdClass
+```methodsynopsis
+imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
+```
 
-Перевірка статусу поточної поштової скриньки на сервері. Аналогічно
-[imap_status()](function.imap-status.md), але додатково обчислює
-сумарний розмір усіх листів у ящику, через що працює кілька
-повільніше.
+Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imap\_status()](function.imap-status.html), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
 Повертає об'єкт із наступними полями:
 
-|         |                                            |
-|---------|--------------------------------------------|
-| Date    | дата останньої зміни (поточна дата та час) |
-| Driver  | драйвер                                    |
-| Mailbox | ім'я поштової скриньки                     |
-| Nmsgs   | кількість листів                           |
-| Recent  | кількість нових                            |
-| Unread  | кількість непрочитаних                     |
-| Deleted | кількість віддалених                       |
-| Size    | розмір ящика                               |
+< td>ім'я поштової скриньки
 
-**Властивості поштової скриньки**
+<table class="doctable table"><caption><strong>Властивості поштової скриньки</strong></caption><tbody class="tbody"><tr><td>Date</td><td>дата останньої зміни (поточна дата та час)</td></tr><tr><td>Driver</td><td>драйвер</td></tr><tr><td>Mailbox</td></tr><tr><td>Nmsgs</td><td>кількість листів</td></tr><tr><td>Recent</td><td>кількість нових</td></tr><tr><td>Unread</td><td>кількість непрочитаних</td></tr><tr><td>Deleted</td><td>кількість віддалених</td></tr><tr><td>Size</td><td>розмір скриньки</td></tr></tbody></table>
 
-У разі виникнення помилки повертає **`false`**.
+У разі виникнення помилки повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_mailboxmsginfo()****
+**Приклад #1 Приклад використання **imapmailboxmsginfo()****
 
-` <?php$mbox =imap_open("{imap.example.org}INBOX", "username", "password")      or die("не вдалося підключитися: " . imap_last_error())box );if ($check) {   echo "Date: "      . $check->Date     . "<br />
-" ;    echo "Driver: "   . $check->Driver  . "<br />
-" ;    echo "Mailbox: "  . $check->Mailbox . "<br />
-" ;    echo "Messages: " . $check->Nmsgs   . "<br />
-" ;    echo "Recent: "   . $check->Recent  . "<br />
-" ;    echo "Unread: "   . $check->Unread  . "<br />
-" ;    echo "Deleted: "  . $check->Deleted . "<br />
-" ;    echo "Size: "     . $check->Size    . "<br />
-" ;} else {    echo "Виклик imap_mailboxmsginfo() закінчився з помилкою: " . imap_last_error() . "<br />
-";}imap_close($mbox);?> `
+```php
+<?php
+
+$mbox = imap_open("{imap.example.org}INBOX", "username", "password")
+      or die("не удалось подключиться: " . imap_last_error());
+
+$check = imap_mailboxmsginfo($mbox);
+
+if ($check) {
+    echo "Date: "     . $check->Date    . "<br />\n" ;
+    echo "Driver: "   . $check->Driver  . "<br />\n" ;
+    echo "Mailbox: "  . $check->Mailbox . "<br />\n" ;
+    echo "Messages: " . $check->Nmsgs   . "<br />\n" ;
+    echo "Recent: "   . $check->Recent  . "<br />\n" ;
+    echo "Unread: "   . $check->Unread  . "<br />\n" ;
+    echo "Deleted: "  . $check->Deleted . "<br />\n" ;
+    echo "Size: "     . $check->Size    . "<br />\n" ;
+} else {
+    echo "Вызов imap_mailboxmsginfo() завершился с ошибкой: " . imap_last_error() . "<br />\n";
+}
+
+imap_close($mbox);
+
+?>
+```

@@ -1,19 +1,31 @@
-- [« EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.md)
-- [EventBufferEvent::setTimeouts »](eventbufferevent.settimeouts.md)
+Надає пріоритет bufferevent
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Надає пріоритет bufferevent
+-   [« EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.html)
+    
+-   [EventBufferEvent::setTimeouts »](eventbufferevent.settimeouts.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Надає пріоритет bufferevent
+    
 
 # EventBufferEvent::setPriority
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventBufferEvent::setPriority — Надає пріоритет bufferevent
 
 ### Опис
 
-public **EventBufferEvent::setPriority**( int `$priority` ): bool
+```methodsynopsis
+public
+   EventBufferEvent::setPriority(
+    int
+     $priority
+   ): bool
+```
 
 Надає пріоритет bufferevent
 
@@ -24,9 +36,9 @@ public **EventBufferEvent::setPriority**( int `$priority` ): bool
 ### Список параметрів
 
 `priority`
+
 Значення пріоритету.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

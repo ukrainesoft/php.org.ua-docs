@@ -1,26 +1,33 @@
-- [« SoapClient::\_\_getFunctions](soapclient.getfunctions.md)
-- [SoapClient::\_\_getLastRequestHeaders »](soapclient.getlastrequestheaders.md)
+Повертає останній SOAP-запит
 
-- [PHP Manual](index.md)
-- [SoapClient](class.soapclient.md)
-- Повертає останній SOAP-запит
+-   [« SoapClient::\_\_getFunctions](soapclient.getfunctions.html)
+    
+-   [SoapClient::\_\_getLastRequestHeaders »](soapclient.getlastrequestheaders.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SoapClient](class.soapclient.html)
+    
+-   Повертає останній SOAP-запит
+    
 
-# SoapClient::\_\_getLastRequest
+# SoapClient::getLastRequest
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::\_\_getLastRequest - Повертає останній SOAP-запит
+SoapClient::getLastRequest - Повертає останній SOAP-запит
 
 ### Опис
 
-public **SoapClient::\_\_getLastRequest**(): ?string
+```methodsynopsis
+public SoapClient::__getLastRequest(): ?string
+```
 
 Повертає XML, переданий в останньому запиті SOAP.
 
-> **Примітка**:
->
-> Метод працює тільки для об'єкта [SoapClient](class.soapclient.md),
-> створеного з налаштуванням `trace`, що дорівнює **`true`**.
+> **Зауваження**
+> 
+> Метод працює лише для об'єкта [SoapClient](class.soapclient.html), створеного з налаштуванням `trace`, рівною **`true`**
 
 ### Список параметрів
 
@@ -32,17 +39,18 @@ public **SoapClient::\_\_getLastRequest**(): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання SoapClient::\_\_getLastRequest()**
+**Приклад #1 Приклад використання SoapClient::getLastRequest()**
 
-` <?php$client = new SoapClient("some.wsdl", array('trace' => 1));$result = $client->SomeFunction();echo "ЗАПИТАННЯ:
-" . $client->__getLastRequest() . "
-";?> `
+```php
+<?php
+$client = new SoapClient("some.wsdl", array('trace' => 1));
+$result = $client->SomeFunction();
+echo "ЗАПРОС:\n" . $client->__getLastRequest() . "\n";
+?>
+```
 
 ### Дивіться також
 
-- [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.md) -
-Повертає SOAP-заголовки останнього запиту
-- [SoapClient::\_\_getLastResponse()](soapclient.getlastresponse.md) -
-Повертає останню SOAP-відповідь
-- [SoapClient::\_\_getLastResponseHeaders()](soapclient.getlastresponseheaders.md) -
-Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.html) - Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::\_\_getLastResponse()](soapclient.getlastresponse.html) - Повертає останню SOAP-відповідь
+-   [SoapClient::\_\_getLastResponseHeaders()](soapclient.getlastresponseheaders.html) - Повертає SOAP-заголовки останньої відповіді

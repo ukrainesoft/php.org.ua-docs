@@ -1,22 +1,29 @@
-- [« LuaSandbox::getCPUUsage](luasandbox.getcpuusage.md)
-- [LuaSandbox::getPeakMemoryUsage »](luasandbox.getpeakmemoryusage.md)
+Повертає поточне використання пам'яті у середовищі Lua
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Повертає поточне використання пам'яті у середовищі Lua
+-   [« LuaSandbox::getCPUUsage](luasandbox.getcpuusage.html)
+    
+-   [LuaSandbox::getPeakMemoryUsage »](luasandbox.getpeakmemoryusage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Повертає поточне використання пам'яті у середовищі Lua
+    
 
 # LuaSandbox::getMemoryUsage
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
-LuaSandbox::getMemoryUsage — Повертає поточне використання пам'яті
-середовищі Lua
+LuaSandbox::getMemoryUsage — Повертає поточне використання пам'яті в середовищі Lua
 
 ### Опис
 
-public **LuaSandbox::getMemoryUsage**(): int
+```methodsynopsis
+public LuaSandbox::getMemoryUsage(): int
+```
 
-Повертає використання пам'яті в середовищі Lua.
+Повертає поточне використання пам'яті серед Lua.
 
 ### Список параметрів
 
@@ -24,13 +31,10 @@ public **LuaSandbox::getMemoryUsage**(): int
 
 ### Значення, що повертаються
 
-Повертає використання пам'яті в байтах.
+Повертає поточне використання пам'яті у байтах.
 
 ### Дивіться також
 
-- [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) -
-Повертає пікове використання пам'яті у середовищі Lua
-- [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) -
-Повертає поточний час використання процесора у середовищі Lua
-- [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) -
-Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.html) - Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.html) - Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.html) - Встановлює межу пам'яті для середовища Lua

@@ -1,21 +1,29 @@
-- [«SolrQuery::\_\_destruct](solrquery.destruct.md)
-- [SolrQuery::getExpandFilterQueries »](solrquery.getexpandfilterqueries.md)
+Повертає true, якщо увімкнено розширення групи
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає true, якщо увімкнено розширення групи
+-   [« SolrQuery::\_\_destruct](solrquery.destruct.html)
+    
+-   [SolrQuery::getExpandFilterQueries »](solrquery.getexpandfilterqueries.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає true, якщо увімкнено розширення групи
+    
 
 # SolrQuery::getExpand
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getExpand — Повертає true, якщо активовано розширення групи
 
 ### Опис
 
-public **SolrQuery::getExpand**(): bool
+```methodsynopsis
+public SolrQuery::getExpand(): bool
+```
 
-Повертає **`true`**, якщо включено розширення групи
+Повертає **`true`**якщо включено розширення групи
 
 ### Список параметрів
 

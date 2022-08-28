@@ -1,13 +1,19 @@
-- [« DatePeriod::getDateInterval](dateperiod.getdateinterval.md)
-- [DatePeriod::getRecurrences »](dateperiod.getrecurrences.md)
+Повертає кінцеву дату періоду
 
-- [PHP Manual](index.md)
-- [DatePeriod](class.dateperiod.md)
-- Повертає кінцеву дату періоду
+-   [« DatePeriod::getDateInterval](dateperiod.getdateinterval.html)
+    
+-   [DatePeriod::getRecurrences »](dateperiod.getrecurrences.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DatePeriod](class.dateperiod.html)
+    
+-   Повертає кінцеву дату періоду
+    
 
 # DatePeriod::getEndDate
 
-(PHP 5 \>= 5.6.5, PHP 7, PHP 8)
+(PHP 5> = 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getEndDate — Повертає кінцеву дату періоду
 
@@ -15,8 +21,9 @@ DatePeriod::getEndDate — Повертає кінцеву дату період
 
 Об'єктно-орієнтований стиль
 
-public **DatePeriod::getEndDate**():
-?[DateTimeInterface](class.datetimeinterface.md)
+```methodsynopsis
+public DatePeriod::getEndDate(): ?DateTimeInterface
+```
 
 Повертає кінцеву дату періоду.
 
@@ -26,40 +33,54 @@ public **DatePeriod::getEndDate**():
 
 ### Значення, що повертаються
 
-Повертає **`null`**, якщо [DatePeriod](class.dateperiod.md) не
-містить кінцеву дату. Наприклад, при ініціалізації з параметром
-`recurrences` або `isostr` без зазначення кінцевої дати.
+Повертає **`null`**, якщо [DatePeriod](class.dateperiod.html) не містить кінцевої дати. Наприклад, при ініціалізації з параметром `recurrences` або `isostr` без зазначення кінцевої дати.
 
-Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.md),
-коли [DatePeriod](class.dateperiod.md) ініціалізований з об'єктом
-[DateTimeImmutable](class.datetimeimmutable.md) як параметр
-`end`.
+Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.html), коли [DatePeriod](class.dateperiod.html) ініціалізований з об'єктом [DateTimeImmutable](class.datetimeimmutable.html) як параметр `end`
 
-Інакше повертає клонований об'єкт (object)
-[DateTime](class.datetime.md), який представляє дату закінчення.
+В іншому випадку повертає клонований об'єкт (object) [DateTime](class.datetime.html), що представляє дату закінчення.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **DatePeriod::getEndDate()****
 
-` <?php$period = new DatePeriod(    new DateTime('2016-05-16T00:00:00Z'),    new DateInterval('P1D'),    new 0:0 ;$start = $period->getEndDate();echo $start->format(DateTime::ISO8601);?> `
+```php
+<?php
+$period = new DatePeriod(
+    new DateTime('2016-05-16T00:00:00Z'),
+    new DateInterval('P1D'),
+    new DateTime('2016-05-20T00:00:00Z')
+);
+$start = $period->getEndDate();
+echo $start->format(DateTime::ISO8601);
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 2016-05-20T00:00:00+0000
+```
 
-**Приклад #2 Приклад використання **DatePeriod::getEndDate()** без дати
-закінчення**
+**Приклад #2 Приклад використання **DatePeriod::getEndDate()** без дати закінчення**
 
-`<?php$period = new DatePeriod(    new DateTime('2016-05-16T00:00:00Z'),    new DateInterval('P1D'),     7);_var> `
+```php
+<?php
+$period = new DatePeriod(
+    new DateTime('2016-05-16T00:00:00Z'),
+    new DateInterval('P1D'),
+    7
+);
+var_dump($period->getEndDate());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 NULL
+```
 
 ### Дивіться також
 
-- [DatePeriod::getStartDate()](dateperiod.getstartdate.md) -
-Повертає початкову дату періоду
-- [DatePeriod::getDateInterval()](dateperiod.getdateinterval.md) -
-Повертає інтервал
+-   [DatePeriod::getStartDate()](dateperiod.getstartdate.html) - Повертає початкову дату періоду
+-   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.html) - Повертає інтервал

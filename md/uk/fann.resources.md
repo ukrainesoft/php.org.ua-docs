@@ -1,8 +1,14 @@
-- [« Налаштування під час виконання](fann.configuration.md)
-- [Предвизначені константи »](fann.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](fann.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](fann.configuration.html)
+    
+-   [Предопределённые константы »](fann.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](fann.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів

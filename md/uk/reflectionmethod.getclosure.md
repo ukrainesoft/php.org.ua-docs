@@ -1,39 +1,44 @@
-- [« ReflectionMethod::export](reflectionmethod.export.md)
-- [ReflectionMethod::getDeclaringClass »](reflectionmethod.getdeclaringclass.md)
+Повертає динамічно створене замикання для методу
 
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Повертає динамічно створене замикання для методу
+-   [« ReflectionMethod::export](reflectionmethod.export.html)
+    
+-   [ReflectionMethod::getDeclaringClass »](reflectionmethod.getdeclaringclass.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionMethod](class.reflectionmethod.html)
+    
+-   Повертає динамічно створене замикання для методу
+    
 
 # ReflectionMethod::getClosure
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionMethod::getClosure — Повертає динамічно створене
-замикання для методу
+ReflectionMethod::getClosure — Повертає динамічно створене замикання для методу
 
 ### Опис
 
-public **ReflectionMethod::getClosure**(?object `$object` = **`null`**):
-[Closure](class.closure.md)
+```methodsynopsis
+public ReflectionMethod::getClosure(?object $object = null): Closure
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `object`
-Заборонено для статичних методів, обов'язковий інших.
+
+Заборонений для статичних методів, є обов'язковим для інших.
 
 ### Значення, що повертаються
 
-Повертає замикання [Closure](class.closure.md). Повертає
-**`null`** у разі виникнення помилки.
+Повертає замикання [Closure](class.closure.html). Повертає **`null`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                 |
-|--------|--------------------------------------|
-| 8.0.0  | object тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `object` тепер допускає значення null. |

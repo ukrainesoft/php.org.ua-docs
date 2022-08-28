@@ -1,9 +1,15 @@
-- [« IntlChar::ispunct](intlchar.ispunct.md)
-- [IntlChar::istitle »](intlchar.istitle.md)
+Перевіряє, чи є символ пробельним
 
-- [PHP Manual](index.md)
-- [IntlChar](class.intlchar.md)
-- Перевіряє, чи є символ пробельним
+-   [« IntlChar::ispunct](intlchar.ispunct.html)
+    
+-   [IntlChar::istitle »](intlchar.istitle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlChar](class.intlchar.html)
+    
+-   Перевіряє, чи є символ пробельним
+    
 
 # IntlChar::isspace
 
@@ -13,43 +19,48 @@ IntlChar::isspace — Перевіряє, чи є символ пробельн�
 
 ### Опис
 
-public static **IntlChar::isspace**(int\|string `$codepoint`): ?bool
+```methodsynopsis
+public static IntlChar::isspace(int|string $codepoint): ?bool
+```
 
-Перевіряє, чи є символ пробіл.
+Перевіряє, чи є символ пробельним.
 
 ### Список параметрів
 
 `codepoint`
-Цілочисленне (int) завдання коду символу (наприклад, `0x2603` для *U+2603
-СНІГОВИКА*), або символ, закодований рядок UTF-8 (наприклад
-``\u{2603}"`)
+
+Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `codepoint` є пробельним символом,
-**`false`** - якщо ні. У разі виникнення помилки повертає
-**`null`**.
+Повертає **`true`**, якщо `codepoint` є пробельним символом, **`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::isspace("A"));var_dump(IntlChar::isspace(" "));var_dump(IntlChar::isspace("
-"));var_dump(IntlChar::isspace(" "));var_dump(IntlChar::isspace("\u{00A0}"));?> `
+```php
+<?php
+var_dump(IntlChar::isspace("A"));
+var_dump(IntlChar::isspace(" "));
+var_dump(IntlChar::isspace("\n"));
+var_dump(IntlChar::isspace("\t"));
+var_dump(IntlChar::isspace("\u{00A0}"));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
 bool(true)
 bool(true)
 bool(true)
+```
 
 ### Дивіться також
 
-- [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) -
-Перевірити, чи є символ пробельним з точки зору Java
-- [IntlChar::isWhitespace()](intlchar.iswhitespace.md) - Перевірити,
-чи є символ пробельним з точки зору ICU
-- [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) -
-Перевірити, чи має символ властивість White_Space (пробіл)
+-   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.html) - Перевірити, чи є символ пробельним з погляду мови Java
+-   [IntlChar::isWhitespace()](intlchar.iswhitespace.html) - Перевірити, чи є символ пробельним з точки зору ICU
+-   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.html) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)

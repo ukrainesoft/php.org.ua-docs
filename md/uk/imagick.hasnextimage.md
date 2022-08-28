@@ -1,9 +1,15 @@
-- [« Imagick::haldClutImage](imagick.haldclutimage.md)
-- [Imagick::hasPreviousImage »](imagick.haspreviousimage.md)
+Перевіряє, чи об'єкт містить більше зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Перевіряє, чи об'єкт містить більше зображень
+-   [« Imagick::haldClutImage](imagick.haldclutimage.html)
+    
+-   [Imagick::hasPreviousImage »](imagick.haspreviousimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Перевіряє, чи об'єкт містить більше зображень
+    
 
 # Imagick::hasNextImage
 
@@ -13,10 +19,11 @@ Imagick::hasNextImage — Перевіряє, чи об'єкт містить б
 
 ### Опис
 
-public **Imagick::hasNextImage**(): bool
+```methodsynopsis
+public Imagick::hasNextImage(): bool
+```
 
-Повертає **`true`**, якщо об'єкт містить більше зображень при
-переміщення вперед за списком.
+Повертає **`true`**, якщо об'єкт містить більше зображень під час переміщення вперед за списком.
 
 ### Список параметрів
 
@@ -24,6 +31,4 @@ public **Imagick::hasNextImage**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо об'єкт містить більше зображень при
-переміщення вперед за списком, повертає **`false`**, якщо зображень
-ні.
+Повертає **`true`**, якщо об'єкт містить більше зображень під час переміщення вперед за списком, повертає **`false`**, якщо немає зображень.

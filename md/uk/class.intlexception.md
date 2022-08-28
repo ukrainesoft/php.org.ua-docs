@@ -1,61 +1,78 @@
-- [« IntlChar::toupper](intlchar.toupper.md)
-- [IntlIterator »](class.intliterator.md)
+Клас винятків для помилок intl
 
-- [PHP Manual](index.md)
-- [intl](book.intl.md)
-- Клас винятків для помилок intl
+-   [« IntlChar::toupper](intlchar.toupper.html)
+    
+-   [IntlIterator »](class.intliterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [intl](book.intl.html)
+    
+-   Клас винятків для помилок intl
+    
 
 # Клас винятків для помилок intl
 
-(PHP 5\>5.5.0, PHP 7, PHP 8, PECL intl\>3.0.0a1)
+(PHP 5 > 5.5.0, PHP 7, PHP 8, PECL intl > 3.0.0a1)
 
 ## Вступ
 
-Цей клас служить для виклику винятків у разі виникнення помилки
-функціях intl. Ці винятки можуть бути викинуті лише якщо
-включена опція
-[intl.use_exceptions](intl.configuration.md#ini.intl.use-exceptions).
+Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.use\_exceptions](intl.configuration.html#ini.intl.use-exceptions)
 
 ## Огляд класів
 
-class **IntlException** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class IntlException
+     
 
-private string `$string` = "";
+     
+      extends
+       Exception
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```

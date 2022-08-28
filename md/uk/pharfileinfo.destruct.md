@@ -1,19 +1,25 @@
-- [« PharFileInfo::delMetadata](pharfileinfo.delmetadata.md)
-- [PharFileInfo::getCRC32 »](pharfileinfo.getcrc32.md)
+Знищує вхідний об'єкт Phar
 
-- [PHP Manual](index.md)
-- [PharFileInfo](class.pharfileinfo.md)
-- Знищує вхідний об'єкт Phar
+-   [« PharFileInfo::delMetadata](pharfileinfo.delmetadata.html)
+    
+-   [PharFileInfo::getCRC32 »](pharfileinfo.getcrc32.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PharFileInfo](class.pharfileinfo.html)
+    
+-   Знищує вхідний об'єкт Phar
+    
 
-# PharFileInfo::\_\_destruct
+# PharFileInfo::destruct
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-PharFileInfo::\_\_destruct — Знищує вхідний об'єкт Phar
+PharFileInfo::destruct — Знищує вхідний об'єкт Phar
 
 ### Опис
 
-public **PharFileInfo::\_\_destruct**()
+public **PharFileInfo::destruct**
 
 ### Список параметрів
 

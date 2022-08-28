@@ -1,9 +1,15 @@
-- [« RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.md)
-- [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.md)
+Отримує значення поточного елемента
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Отримує значення поточного елемента
+-   [« RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.html)
+    
+-   [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Отримує значення поточного елемента
+    
 
 # RecursiveIteratorIterator::current
 
@@ -13,13 +19,13 @@ RecursiveIteratorIterator::current — Отримує значення пото�
 
 ### Опис
 
-public **RecursiveIteratorIterator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public RecursiveIteratorIterator::current(): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

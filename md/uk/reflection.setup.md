@@ -1,15 +1,21 @@
-- [«Вступ](intro.reflection.md)
-- [Вимоги »](reflection.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
+-   [« Введение](intro.reflection.html)
+    
+-   [Требования »](reflection.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](reflection.requirements.md)
-- [Установка](reflection.installation.md)
-- [Налаштування під час виконання](reflection.configuration.md)
-- [Типи ресурсів](reflection.resources.md)
+-   [Требования](reflection.requirements.html)
+-   [Установка](reflection.installation.html)
+-   [Настройка во время выполнения](reflection.configuration.html)
+-   [Типы ресурсов](reflection.resources.html)

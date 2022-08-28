@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.md)
-- [MongoDB\BSON\Timestamp::\_\_toString »](mongodb-bson-timestamp.tostring.md)
+Серіалізує Timestamp
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
-- Серіалізує Timestamp
+-   [« MongoDB\\BSON\\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\Timestamp::\_\_toString »](mongodb-bson-timestamp.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
+    
+-   Серіалізує Timestamp
+    
 
-# MongoDB\BSON\Timestamp::serialize
+# MongoDBBSONTimestamp::serialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Timestamp::serialize — Серіалізує Timestamp
+MongoDBBSONTimestamp::serialize — Серіалізує Timestamp
 
 ### Опис
 
-final public **MongoDB\BSON\Timestamp::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Timestamp::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\Timestamp::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Timestamp::unserialize()](mongodb-bson-timestamp.unserialize.md) -
-Десеріалізує Timestamp
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\Timestamp::unserialize()](mongodb-bson-timestamp.unserialize.html) - Десеріалізує Timestamp
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

@@ -1,67 +1,84 @@
-- [« Locale::filterMatches](locale.filtermatches.md)
-- [Locale::getDefault »](locale.getdefault.md)
+Отримання варіантів із переданої локалі
 
-- [PHP Manual](index.md)
-- [Locale](class.locale.md)
-- Отримання варіантів із переданої локалі
+-   [« Locale::filterMatches](locale.filtermatches.html)
+    
+-   [Locale::getDefault »](locale.getdefault.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Locale](class.locale.html)
+    
+-   Отримання варіантів із переданої локалі
+    
 
 # Locale::getAllVariants
 
-#local_get_all_variants
+# localegetallvariants
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getAllVariants -- locale_get_all_variants — Отримання варіантів
-з переданої локалі
+Locale::getAllVariants -- localegetallvariants — Отримання варіантів із переданої локалі
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public static **Locale::getAllVariants**(string `$locale`): ?array
+```methodsynopsis
+public static Locale::getAllVariants(string $locale): ?array
+```
 
 Процедурний стиль
 
-**locale_get_all_variants**(string `$locale`): ?array
+```methodsynopsis
+locale_get_all_variants(string $locale): ?array
+```
 
 Отримання варіантів із переданої локалі
 
 ### Список параметрів
 
 `locale`
-Локаль з якої будуть вилучені варіанти
+
+Локаль з якої буде вилучено варіанти
 
 ### Значення, що повертаються
 
-Масив, що містить список варіантів заданої локалі, або **`null`**,
-якщо таких немає
+Масив, що містить список варіантів заданої локалі, або **`null`**, якщо таких немає
 
-Повертає **`null`**, якщо довжина `locale` перевищує
-**`INTL_MAX_LOCALE_LEN`**.
+Повертає **`null`**якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **locale_get_all_variants()****
+**Приклад #1 Приклад використання **localegetallvariants()****
 
-` <?php$arr = locale_get_all_variants('sl_IT_NEDIS_ROJAZ_1901');var_export( $arr );?> `
+```php
+<?php
+$arr = locale_get_all_variants('sl_IT_NEDIS_ROJAZ_1901');
+var_export( $arr );
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php $arr = Locale::getAllVariants('sl_IT_NEDIS_ROJAZ_1901'); var_export($arr);?> `
+```php
+<?php
+ $arr = Locale::getAllVariants('sl_IT_NEDIS_ROJAZ_1901');
+ var_export( $arr );
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array (
-0 => 'NEDIS',
-1 => 'ROJAZ',
-2 => '1901',
+    0 => 'NEDIS',
+    1 => 'ROJAZ',
+    2 => '1901',
 )
+```
 
 ### Дивіться також
 
-- [locale_get_primary_language()](locale.getprimarylanguage.md) -
-Отримати первинну мову для локалі
-- [locale_get_script()](locale.getscript.md) - Отримати алфавіт для
-локалі
-- [locale_get_region()](locale.getregion.md) - Отримати регіон для
-локалі
+-   [locale\_get\_primary\_language()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
+-   [locale\_get\_script()](locale.getscript.html) - Отримати алфавіт для локалі
+-   [locale\_get\_region()](locale.getregion.html) - Отримати регіон для локалі

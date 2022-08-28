@@ -1,9 +1,15 @@
-- [«EnchantBroker](class.enchantbroker.md)
-- [Gender »](book.gender.md)
+Клас EnchantDictionary
 
-- [PHP Manual](index.md)
-- [Enchant](book.enchant.md)
-- Клас EnchantDictionary
+-   [« EnchantBroker](class.enchantbroker.html)
+    
+-   [Gender »](book.gender.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Enchant](book.enchant.html)
+    
+-   Клас EnchantDictionary
+    
 
 # Клас EnchantDictionary
 
@@ -11,11 +17,20 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `enchant_dict` в PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `enchant_dict` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **EnchantDictionary** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class EnchantDictionary
+     
+     {
+   }
+```

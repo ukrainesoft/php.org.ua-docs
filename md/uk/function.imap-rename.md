@@ -1,18 +1,22 @@
-- [« imap_qprint](function.imap-qprint.md)
-- [imap_renamemailbox »](function.imap-renamemailbox.md)
+Псевдонім imaprenamemailbox
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Псевдонім imap_renamemailbox
+-   [« imap\_qprint](function.imap-qprint.html)
+    
+-   [imap\_renamemailbox »](function.imap-renamemailbox.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Псевдонім imaprenamemailbox
+    
 
-#imap_rename
+# imaprename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_rename - Псевдонім
-[imap_renamemailbox()](function.imap-renamemailbox.md)
+imaprename - Псевдонім [imap\_renamemailbox()](function.imap-renamemailbox.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[imap_renamemailbox()](function.imap-renamemailbox.md).
+Ця функція є псевдонімом: [imap\_renamemailbox()](function.imap-renamemailbox.html)

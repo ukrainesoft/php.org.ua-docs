@@ -1,9 +1,15 @@
-- [« Imagick::pingImage](imagick.pingimage.md)
-- [Imagick::pingImageFile »](imagick.pingimagefile.md)
+Швидко витягує атрибути
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Швидко витягує атрибути
+-   [« Imagick::pingImage](imagick.pingimage.html)
+    
+-   [Imagick::pingImageFile »](imagick.pingimagefile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Швидко витягує атрибути
+    
 
 # Imagick::pingImageBlob
 
@@ -13,21 +19,21 @@ Imagick::pingImageBlob — Швидко витягує атрибути
 
 ### Опис
 
-public **Imagick::pingImageBlob**(string `$image`): bool
+```methodsynopsis
+public Imagick::pingImageBlob(string $image): bool
+```
 
-Метод можна використовувати для запиту ширини, висоти, розміру та формату
-зображення без зчитування всього зображення на згадку. Цей метод
-доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або
-старше.
+Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
 `image`
+
 Рядок, що містить зображення.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
@@ -35,17 +41,26 @@ public **Imagick::pingImageBlob**(string `$image`): bool
 
 Отримання зображення з рядка
 
-` <?php/* читання вмісту зображення */$image = file_get_contents("test.jpg");/* створення нового об'єкту imagick */$im = new іmagick();/*  >pingImageBlob($image);/* виведення ширини і висоти зображення */echo $im->getImageWidth() . 'x' . $im->getImageHeight();?> `
+```php
+<?php
+/* чтение содержимого изображения */
+$image = file_get_contents("test.jpg");
+
+/* создание нового объекта imagick */
+$im = new Imagick();
+
+/* передача строки объекту imagick */
+$im->pingImageBlob($image);
+
+/* вывод ширины и высоты изображения */
+echo $im->getImageWidth() . 'x' . $im->getImageHeight();
+?>
+```
 
 ### Дивіться також
 
-- [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні
-атрибути зображення
-- [Imagick::pingImageFile()](imagick.pingimagefile.md) - Отримує
-базові атрибути зображення спрощеним способом
-- [Imagick::readImage()](imagick.readimage.md) - Читає зображення
-з файлу
-- [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує
-зображення з двійкового рядка
-- [Imagick::readImageFile()](imagick.readimagefile.md) - Читає
-зображення з відкритого дескриптора файлу
+-   [Imagick::pingImage()](imagick.pingimage.html) - Отримує основні атрибути зображення
+-   [Imagick::pingImageFile()](imagick.pingimagefile.html) - Отримує базові атрибути зображення спрощеним способом
+-   [Imagick::readImage()](imagick.readimage.html) - Читає зображення із файлу
+-   [Imagick::readImageBlob()](imagick.readimageblob.html) - Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile()](imagick.readimagefile.html) - Читає зображення із відкритого дескриптора файлу

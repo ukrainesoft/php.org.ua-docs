@@ -1,19 +1,27 @@
-- [« UI\Control::destroy](ui-control.destroy.md)
-- [UI\Control::enable »](ui-control.enable.md)
+Вимкнути керуючий елемент
 
-- [PHP Manual](index.md)
-- [UI\Control](class.ui-control.md)
-- Вимкнути керуючий елемент
+-   [« UI\\Control::destroy](ui-control.destroy.html)
+    
+-   [UI\\Control::enable »](ui-control.enable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Control](class.ui-control.html)
+    
+-   Вимкнути керуючий елемент
+    
 
-# UI\Control::disable
+# ОЙControl::disable
 
 (UI 0.9.9)
 
-UI\Control::disable — Вимкнути керуючий елемент
+ОЙControl::disable — Вимкнути керуючий елемент
 
 ### Опис
 
-public **UI\Control::disable**()
+```methodsynopsis
+public UI\Control::disable()
+```
 
 Відключить цей керуючий елемент
 

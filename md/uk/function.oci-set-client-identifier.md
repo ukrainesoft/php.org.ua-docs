@@ -1,59 +1,73 @@
-- [«oci_set_call_timeout](function.oci-set-call-timout.md)
-- [oci_set_client_info »](function.oci-set-client-info.md)
+Задає ідентифікатор клієнта
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Вказує ідентифікатор клієнта
+-   [« oci\_set\_call\_timeout](function.oci-set-call-timout.html)
+    
+-   [oci\_set\_client\_info »](function.oci-set-client-info.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Задає ідентифікатор клієнта
+    
 
-#oci_set_client_identifier
+# ocisetclientidentifier
 
-(PHP 5 = 5.3.2, PHP 7, PHP 8, PECL OCI8 = 1.4.0)
+(PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)
 
-oci_set_client_identifier — Визначає ідентифікатор клієнта
+ocisetclientidentifier — Вказує ідентифікатор клієнта
 
 ### Опис
 
-**oci_set_client_identifier**(resource `$connection`, string
-`$client_id`): bool
+```methodsynopsis
+oci_set_client_identifier(resource $connection, string $client_id): bool
+```
 
-Встановлює ідентифікатор клієнта, який використовується різними
-компонентами бази даних для ідентифікації різних користувачів
-тонких клієнтів, які авторизуються в базі даних як один
-Користувач.
+Встановлює ідентифікатор клієнта, який використовується різними компонентами бази даних для ідентифікації різних користувачів тонких клієнтів, які авторизуються у базі даних як один користувач.
 
-Ідентифікатор клієнта реєструється у базі даних під час чергового
-запиту від PHP, наприклад, коли запускається SQL вираз.
+Ідентифікатор клієнта реєструється в базі даних під час чергового запиту від PHP, наприклад коли запускається SQL вираз.
 
-Ідентифікатор може бути вилучений, наприклад, за допомогою
-`SELECT SYS_CONTEXT('USERENV','CLIENT_IDENTIFIER') FROM DUAL`.
-Адміністративне представлення бази даних, таке як `V$SESSION`, також
-містить це значення. Його можна використовувати спільно з
-`DBMS_MONITOR.CLIENT_ID_TRACE_ENABLE` для трасування та аудиту.
+Ідентифікатор може бути вилучений, наприклад, за допомогою `SELECT SYS_CONTEXT('USERENV','CLIENT_IDENTIFIER') FROM DUAL`. Адміністративне подання бази даних, таке як `V$SESSION`також містить це значення. Його можна використовувати спільно з `DBMS_MONITOR.CLIENT_ID_TRACE_ENABLE` для трасування та аудиту.
 
-Значення може зберігатись між запитами сторінок, які використовують
-те саме постійне з'єднання.
+Значення може зберігатися між запитами сторінок, які використовують те саме постійне з'єднання.
 
 ### Список параметрів
 
 `connection`
-Ідентифікатор з'єднання Oracle, що повертається
-[oci_connect()](function.oci-connect.md),
-[oci_pconnect()](function.oci-pconnect.md), або
-[oci_new_connect()](function.oci-new-connect.md).
+
+Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html), або [oci\_new\_connect()](function.oci-new-connect.html)
 
 `client_id`
+
 Заданий користувачем рядок до 64 байт.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Встановлення ідентифікатора клієнта для користувача**
 
-` <?php// Знайдемо логін користувачаsession_start();$un = my_validate_session($_SESSION['username']);$c = oci_connect('myschema', 'welcome', 'localhost/XE'); базі данихoci_set_client_identifier($c, $un);// Наступний запит к БД заодно встановить ідентифікатор$s = oci_parse($c, 'select mydata from mytable')>;
+```php
+<?php
+
+// Найдём логин пользователя
+session_start();
+$un = my_validate_session($_SESSION['username']);
+$c = oci_connect('myschema', 'welcome', 'localhost/XE');
+
+// Сообщим его базе данных
+oci_set_client_identifier($c, $un);
+
+// Следующий запрос к БД заодно установит идентификатор
+$s = oci_parse($c, 'select mydata from mytable');
+oci_execute($s);
+
+// ...
+
+?>
+```
 
 ### Примітки
 
@@ -61,17 +75,11 @@ oci_set_client_identifier — Визначає ідентифікатор клі
 
 # Порада щодо повного сканування таблиці (roundtrip)
 
-Деякі, але не всі функції OCI8 викликають повне сканування таблиці
-(Roundtrip). Повне сканування таблиць не відбувається для тих запитів,
-у яких включено кешування результатів у базі даних.
+Деякі, але не всі функції OCI8 викликають повне сканування таблиці (roundtrip). Повне сканування таблиць немає для тих запитів, у яких включено кешування результатів у базі даних.
 
 ### Дивіться також
 
-- [oci_set_module_name()](function.oci-set-module-name.md) - Задає
-ім'я модулю
-- [oci_set_action()](function.oci-set-action.md) - Задає ім'я
-дії
-- [oci_set_client_info()](function.oci-set-client-info.md) - Задає
-інформацію про клієнта
-- [oci_set_db_operation()](function.oci-set-db-operation.md) -
-Задає операцію бази даних
+-   [oci\_set\_module\_name()](function.oci-set-module-name.html) - Задає ім'я модулю
+-   [oci\_set\_action()](function.oci-set-action.html) - Вказує ім'я для дії
+-   [oci\_set\_client\_info()](function.oci-set-client-info.html) - Задає інформацію про клієнта
+-   [oci\_set\_db\_operation()](function.oci-set-db-operation.html) - Задає операцію бази даних

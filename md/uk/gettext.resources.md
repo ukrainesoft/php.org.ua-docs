@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](gettext.configuration.md)
-- [Предвизначені константи »](gettext.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gettext.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](gettext.configuration.html)
+    
+-   [Предопределённые константы »](gettext.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](gettext.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

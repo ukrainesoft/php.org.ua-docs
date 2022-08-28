@@ -1,20 +1,27 @@
-- [« ReflectionIntersectionType](class.reflectionintersectiontype.md)
-- [ReflectionReference »](class.reflectionreference.md)
+Повертає типи, включені до типу intersection
 
-- [PHP Manual](index.md)
-- [ReflectionIntersectionType](class.reflectionintersectiontype.md)
-- Повертає типи, включені до типу intersection
+-   [« ReflectionIntersectionType](class.reflectionintersectiontype.html)
+    
+-   [ReflectionReference »](class.reflectionreference.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionIntersectionType](class.reflectionintersectiontype.html)
+    
+-   Повертає типи, включені до типу intersection
+    
 
 # ReflectionIntersectionType::getTypes
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionIntersectionType::getTypes — Повертає типи, включені до типу
-intersection
+ReflectionIntersectionType::getTypes — Повертає типи, включені до типу intersection
 
 ### Опис
 
-public **ReflectionIntersectionType::getTypes**(): array
+```methodsynopsis
+public ReflectionIntersectionType::getTypes(): array
+```
 
 Повертає типи, включені у тип intersection.
 
@@ -24,29 +31,38 @@ public **ReflectionIntersectionType::getTypes**(): array
 
 ### Значення, що повертаються
 
-Масив об'єктів [ReflectionType](class.reflectiontype.md).
+Масив об'єктів [ReflectionType](class.reflectiontype.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionIntersectionType::getTypes()****
+**Приклад #1 Приклад використання **ReflectionIntersectionType::getTypes()****
 
-` <?phpfunction someFunction(Iterator&Countable $value) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParam =$reflectionFunc->getParameters()[get]>_Type ));?> `
+```php
+<?php
+
+function someFunction(Iterator&Countable $value) {}
+
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParam = $reflectionFunc->getParameters()[0];
+
+var_dump($reflectionParam->getType()->getTypes());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(2) {
-[0] =>
-class ReflectionNamedType#4(0) {
+    [0] =>
+    class ReflectionNamedType#4(0) {
+    }
+    [1] =>
+    class ReflectionNamedType#5(0) {
+    }
 }
-[1] =>
-class ReflectionNamedType#5(0) {
-}
-}
+```
 
 ### Дивіться також
 
-- [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) -
-Перевіряє, чи допустимо NULL
-- [ReflectionParameter::getType()](reflectionparameter.gettype.md) -
-Отримати тип параметра
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.html) - Перевіряє, чи допустимо NULL
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра

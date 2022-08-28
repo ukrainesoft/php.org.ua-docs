@@ -1,68 +1,77 @@
-- [« SplFileInfo::isWritable](splfileinfo.iswritable.md)
-- [SplFileInfo::setFileClass »](splfileinfo.setfileclass.md)
+Отримує об'єкт SplFileObject для файлу
 
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Отримує об'єкт SplFileObject для файлу
+-   [« SplFileInfo::isWritable](splfileinfo.iswritable.html)
+    
+-   [SplFileInfo::setFileClass »](splfileinfo.setfileclass.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileInfo](class.splfileinfo.html)
+    
+-   Отримує об'єкт SplFileObject для файлу
+    
 
 # SplFileInfo::openFile
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::openFile — Отримує об'єкт SplFileObject для файлу
 
 ### Опис
 
-public **SplFileInfo::openFile**(string `$mode` = "r", bool
-`$useIncludePath` = **`false`**, ?resource `$context` = **`null`**):
-[SplFileObject](class.splfileobject.md)
+```methodsynopsis
+public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?resource $context = null): SplFileObject
+```
 
-Створює об'єкт (object) [SplFileObject](class.splfileobject.md) файлу.
-Це корисно, тому що [SplFileObject](class.splfileobject.md)
-містить додаткові методи для роботи з файлом, у той час як
-[SplFileInfo](class.splfileinfo.md) корисний лише для отримання
-інформації, наприклад, чи файл для запису.
+Створює об'єкт (object) [SplFileObject](class.splfileobject.html) файлу. Це корисно, тому що [SplFileObject](class.splfileobject.html) містить додаткові методи для роботи з файлом, у той час як [SplFileInfo](class.splfileinfo.html) корисний тільки для отримання інформації, наприклад, чи файл для запису.
 
 ### Список параметрів
 
 `mode`
-Режим відкриття файлу. Дивіться документацію з
-[fopen()](function.fopen.md) із описом можливих режимів. за
-замовчуванням тільки для читання.
+
+Режим відкриття файлу. Дивіться документацію з [fopen()](function.fopen.html) із описом можливих режимів. За промовчанням лише для читання.
 
 `useIncludePath`
-Якщо встановлено в **`true`**, ім'я файлу також шукається в
-[include_path](ini.core.md#ini.include-path)
+
+Якщо встановлено **`true`**, ім'я файлу також шукається в [include\_path](ini.core.html#ini.include-path)
 
 `context`
-Для опису `контекстів` зверніться до наступного розділу посібника:
-[контекст](context.md).
+
+Для опису `контекстов` зверніться до наступного розділу посібника: [контекст](context.html)
 
 ### Значення, що повертаються
 
-Відкритий файл як об'єкт (object)
-[SplFileObject](class.splfileobject.md).
+Відкритий файл як об'єкт (object) [SplFileObject](class.splfileobject.html)
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.md), якщо файл
-не може бути відкрито (наприклад, недостатньо прав доступу).
+Викидає [RuntimeException](class.runtimeexception.html), якщо файл не може бути відкритий (наприклад, недостатньо прав доступу).
 
-### Список змін
+### список змін
 
-| Версія | Опис                                    |
-|--------|-----------------------------------------|
-| 8.0.0  | 'context' тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `context` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileInfo::openFile()****
 
-` <?php$fileinfo = new SplFileInfo('/tmp/foo.txt');if ($fileinfo->isWritable()) {   $fileobj = $fileinfo->openFile('a'); $fileobj->fwrite("зразок тексту");}?> `
+```php
+<?php
+$fileinfo = new SplFileInfo('/tmp/foo.txt');
+
+if ($fileinfo->isWritable()) {
+
+    $fileobj = $fileinfo->openFile('a');
+
+    $fileobj->fwrite("образец текста");
+}
+?>
+```
 
 ### Дивіться також
 
-- [SplFileObject](class.splfileobject.md)
-- [stream_context_create()](function.stream-context-create.md) -
-Створює контекст потоку
-- [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [SplFileObject](class.splfileobject.html)
+-   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку
+-   [fopen()](function.fopen.html) - Відкриває файл або URL

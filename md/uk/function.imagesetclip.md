@@ -1,60 +1,62 @@
-- [«imagesetbrush](function.imagesetbrush.md)
-- [imagesetinterpolation »](function.imagesetinterpolation.md)
+Встановіть прямокутник обмеження
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Встановіть прямокутник обмеження
+-   [« imagesetbrush](function.imagesetbrush.html)
+    
+-   [imagesetinterpolation »](function.imagesetinterpolation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Встановіть прямокутник обмеження
+    
 
-#imagesetclip
+# imagesetclip
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
 imagesetclip — Встановіть прямокутник обмеження
 
 ### Опис
 
-**imagesetclip**(
-[GdImage](class.gdimage.md) `$image`,
-int `$x1`,
-int `$y1`,
-int `$x2`,
-int `$y2`
-): bool
+```methodsynopsis
+imagesetclip(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2): bool
+```
 
-**imagesetclip()** визначає поточний прямокутник обмеження, тобто.
-область, за межами якої не будуть малюватись пікселі.
+**imagesetclip()** ставить поточний прямокутник обмеження, тобто. область, за межами якої не відображатимуться пікселі.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `x1`
+
 Координата x верхнього лівого кута.
 
 `y1`
+
 Координата по y верхнього лівого кута.
 
 `x2`
+
 Координата x нижнього лівого кута.
 
 `y2`
-Координата по нижнього правого кута.
+
+Координата з y нижнього правого кута.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-|--------|----------------------------------------------------------------------------------------------|
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [imagegetclip()](function.imagegetclip.md) - Отримати відсікаючий
-прямокутник
+-   [imagegetclip()](function.imagegetclip.html) - Отримати прямокутник, що відсікає

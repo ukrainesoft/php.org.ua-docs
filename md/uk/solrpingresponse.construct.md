@@ -1,19 +1,25 @@
-- [«SolrPingResponse](class.solrpingresponse.md)
-- [SolrPingResponse::\_\_destruct »](solrpingresponse.destruct.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [SolrPingResponse](class.solrpingresponse.md)
-- Конструктор
+-   [« SolrPingResponse](class.solrpingresponse.html)
+    
+-   [SolrPingResponse::\_\_destruct »](solrpingresponse.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrPingResponse](class.solrpingresponse.html)
+    
+-   Конструктор
+    
 
-# SolrPingResponse::\_\_construct
+# SolrPingResponse::construct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrPingResponse::\_\_construct — Конструктор
+SolrPingResponse::construct — Конструктор
 
 ### Опис
 
-public **SolrPingResponse::\_\_construct**()
+public **SolrPingResponse::construct**
 
 Конструктор
 

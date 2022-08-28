@@ -1,20 +1,27 @@
-- [« OCILob::size](ocilob.size.md)
-- [OCILob::truncate »](ocilob.truncate.md)
+Повертає поточну позицію внутрішнього покажчика об'єкта LOB
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Повертає поточну позицію внутрішнього покажчика об'єкта LOB
+-   [« OCILob::size](ocilob.size.html)
+    
+-   [OCILob::truncate »](ocilob.truncate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCILob](class.ocilob.html)
+    
+-   Повертає поточну позицію внутрішнього покажчика об'єкта LOB
+    
 
 # OCILob::tell
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-OCILob::tell — Повертає поточну позицію внутрішнього покажчика об'єкта
-LOB
+OCILob::tell — Повертає поточну позицію внутрішнього покажчика об'єкта LOB
 
 ### Опис
 
-public **OCILob::tell**(): int\|false
+```methodsynopsis
+public OCILob::tell(): int|false
+```
 
 Повертає поточну позицію внутрішнього покажчика об'єкта LOB.
 
@@ -24,17 +31,16 @@ public **OCILob::tell**(): int\|false
 
 ### Значення, що повертаються
 
-Повертає поточну позицію внутрішнього покажчика об'єкта LOB або
-**`false`** у разі виникнення помилки.
+Повертає поточну позицію внутрішнього покажчика об'єкта LOB або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCILob::rewind](ocilob.rewind.md)
-- [OCILob::size](ocilob.size.md)
-- [OCILob::eof](ocilob.eof.md)
+-   [OCILob::rewind](ocilob.rewind.html)
+-   [OCILob::size](ocilob.size.html)
+-   [OCILob::eof](ocilob.eof.html)

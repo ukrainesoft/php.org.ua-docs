@@ -1,29 +1,36 @@
-- [«radius_auth_open](function.radius-auth-open.md)
-- [radius_config »](function.radius-config.md)
+Звільняє всі ресурси
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Звільняє усі ресурси
+-   [« radius\_auth\_open](function.radius-auth-open.html)
+    
+-   [radius\_config »](function.radius-config.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Звільняє всі ресурси
+    
 
-# radius_close
+# radiusclose
 
-(PECL radius \>= 1.1.0)
+(PECL radius >= 1.1.0)
 
-radius_close - Звільняє всі ресурси
+radiusclose - Звільняє всі ресурси
 
 ### Опис
 
-**radius_close**(resource `$radius_handle`): bool
+```methodsynopsis
+radius_close(resource $radius_handle): bool
+```
 
-Не потрібно викликати цю функцію, тому що php звільняє всі ресурси
-наприкінці кожного запиту.
+Не потрібно викликати цю функцію, тому що PHP звільняє всі ресурси в кінці кожного запиту.
 
 ### Список параметрів
 
 `radius_handle`
+
 Ресурс RADIUS
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

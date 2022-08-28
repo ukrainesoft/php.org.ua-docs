@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](funchand.setup.md)
-- [Установка »](funchand.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](funchand.setup.md)
-- Вимоги
+-   [« Установка и настройка](funchand.setup.html)
+    
+-   [Установка »](funchand.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](funchand.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

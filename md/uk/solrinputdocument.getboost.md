@@ -1,20 +1,27 @@
-- [« SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md)
-- [SolrInputDocument::getChildDocuments »](solrinputdocument.getchilddocuments.md)
+Отримує поточне значення підвищення документа
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Отримує поточне значення підвищення документа
+-   [« SolrInputDocument::fieldExists](solrinputdocument.fieldexists.html)
+    
+-   [SolrInputDocument::getChildDocuments »](solrinputdocument.getchilddocuments.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Отримує поточне значення підвищення документа
+    
 
 # SolrInputDocument::getBoost
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrInputDocument::getBoost — Отримує поточне значення для підвищення
-документа
+SolrInputDocument::getBoost — Отримує поточне значення підвищення документа
 
 ### Опис
 
-public **SolrInputDocument::getBoost**(): float
+```methodsynopsis
+public SolrInputDocument::getBoost(): float
+```
 
 Отримує поточне значення для документа.
 
@@ -24,5 +31,4 @@ public **SolrInputDocument::getBoost**(): float
 
 ### Значення, що повертаються
 
-Повертає значення підвищення у разі успішного виконання та
-**`false`** у разі виникнення помилки.
+Повертає значення підвищення у разі успішного виконання та **`false`** у разі виникнення помилки.

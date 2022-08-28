@@ -1,177 +1,130 @@
-- [« Yaf_Config_Abstract::toArray](yaf-config-abstract.toarray.md)
-- [Yaf_Config_Ini::\_\_construct »](yaf-config-ini.construct.md)
+Клас YafConfigIni
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Config_Ini
+-   [« Yaf\_Config\_Abstract::toArray](yaf-config-abstract.toarray.html)
+    
+-   [Yaf\_Config\_Ini::\_\_construct »](yaf-config-ini.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafConfigIni
+    
 
-# Клас Yaf_Config_Ini
+# Клас YafConfigIni
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-Yaf_Config_Ini дозволяє розробникам зберігати конфігураційні дані в
-відомому INI форматі та читати їх у додатку з використанням
-синтаксису вкладених властивостей об'єкта INI формат спеціалізується на
-забезпечення можливості мати ієрархію ключів конфігураційних даних та
-успадкування між розділами конфігураційних даних. Ієрархія
-конфігураційних даних підтримується шляхом поділу ключів із точкою
-("."). Розділи можна розширювати або успадковувати від інших розділів шляхом
-проставлення після імені розділу двокрапки (":") та назви розділу від
-якого дані успадковані.
+YafConfigIni дозволяє розробникам зберігати конфігураційні дані у відомому форматі INI і читати їх у додатку з використанням синтаксису вкладених властивостей об'єкта. INI формат спеціалізується на забезпеченні можливості мати ієрархію ключів конфігураційних даних та успадкування між розділами конфігураційних даних. Ієрархія конфігураційних даних підтримується шляхом поділу ключів із точкою ("."). Розділи можна розширювати або успадковувати від інших розділів шляхом проставлення після імені розділу двокрапки (":") та назви розділу від якого дані успадковані.
 
-> **Примітка**:
->
-> Yaf_Config_Ini використовує функцію parse_ini_file(). Будь ласка, вивчіть
-> документацію розуміння її поведінки, яке успадковує
-> Yaf_Config_Ini, такого як обробка спеціальних значень
-> "**`true`**", "**`false`**", "yes", "no", і "**`null`**".
+> **Зауваження**
+> 
+> YafConfigIni використовує функцію parseinifile(). Будь ласка, вивчіть документацію для розуміння її поведінки, яка успадковує YafConfigIni, такого як обробка спеціальних значень "**`true`**","**`false`**", "yes", "no", і "**`null`**".
 
 ## Огляд класів
 
-class **Yaf_Config_Ini** extends
-[Yaf_Config_Abstract](class.yaf-config-abstract.md) implements
-[Iterator](class.iterator.md), [ArrayAccess](class.arrayaccess.md),
-[Countable](class.countable.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-/\* Методи \*/
 
-public [\_\_construct](yaf-config-ini.construct.md)(string
-`$config_file`, string `$section` = ?)
+    
+     
+      class Yaf_Config_Ini
+     
 
-public [count](yaf-config-ini.count.md)(): void
+     
+      extends
+       Yaf_Config_Abstract
+     
 
-public [current](yaf-config-ini.current.md)(): void
+     implements 
+       Iterator,  ArrayAccess,  Countable {
 
-public [\_\_get](yaf-config-ini.get.md)(string `$name` = ?): void
+    /* Свойства */
 
-public [\_\_isset](yaf-config-ini.isset.md)(string `$name`): void
 
-public [key](yaf-config-ini.key.md)(): void
+    /* Методы */
+    
+   public __construct(string $config_file, string $section = ?)
 
-public [next](yaf-config-ini.next.md)(): void
+    public count(): void
+public current(): void
+public __get(string $name = ?): void
+public __isset(string $name): void
+public key(): void
+public next(): void
+public offsetExists(string $name): void
+public offsetGet(string $name): void
+public offsetSet(string $name, string $value): void
+public offsetUnset(string $name): void
+public readonly(): void
+public rewind(): void
+public __set(string $name, mixed $value): void
+public toArray(): array
+public valid(): void
 
-public [offsetExists](yaf-config-ini.offsetexists.md)(string `$name`):
-void
 
-public [offsetGet](yaf-config-ini.offsetget.md)(string `$name`): void
+    /* Наследуемые методы */
+    abstract public Yaf_Config_Abstract::get(string $name, mixed $value): mixed
+abstract public Yaf_Config_Abstract::readonly(): bool
+abstract public Yaf_Config_Abstract::set(): Yaf_Config_Abstract
+abstract public Yaf_Config_Abstract::toArray(): array
 
-public [offsetSet](yaf-config-ini.offsetset.md)(string `$name`, string
-`$value`): void
 
-public [offsetUnset](yaf-config-ini.offsetunset.md)(string `$name`):
-void
-
-public [readonly](yaf-config-ini.readonly.md)(): void
-
-public [rewind](yaf-config-ini.rewind.md)(): void
-
-public [\_\_set](yaf-config-ini.set.md)(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [toArray](yaf-config-ini.toarray.md)(): array
-
-public [valid](yaf-config-ini.valid.md)(): void
-
-/\* Наслідувані методи \*/
-
-abstract public
-[Yaf_Config_Abstract::get](yaf-config-abstract.get.md)(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-abstract public
-[Yaf_Config_Abstract::readonly](yaf-config-abstract.readonly.md)():
-bool
-
-abstract public
-[Yaf_Config_Abstract::set](yaf-config-abstract.set.md)():
-[Yaf_Config_Abstract](class.yaf-config-abstract.md)
-
-abstract public
-[Yaf_Config_Abstract::toArray](yaf-config-abstract.toarray.md)():
-array
-
-}
+   }
+```
 
 ## Властивості
 
-`_config`
+config
 
-`_readonly`
+readonly
 
 ## Приклади
 
-**Приклад #1 **Yaf_Config_Ini()**example**
+\*\*Приклад #1 \*\*YafConfigIni()**example**
 
-Цей приклад розкриває основні особливості використання Yaf_Config_Ini
-під час завантаження даних із INI-файлу. У цьому прикладі задається конфігурація
-для промислового та демонстраційного середовища. Оскільки конфігурація
-демо-середовища дуже схожа на конфігурацію промислової, вона успадковує
-від неї. Але ви у своїх програмах вільні чинити як хочете. В загальному,
-ось така конфігурація задана у /path/to/config.ini:
+Цей приклад розкриває базові особливості використання YafConfigIni під час завантаження даних з INI-файлу. У цьому прикладі задається конфігурація для промислового та демонстраційного середовища. Так як конфігурація демо-середовища дуже схожа на конфігурацію промислової, то вона успадковує від неї. Але ви у своїх додатках вільні чинити як хочете. Загалом, така конфігурація задана в /path/to/config.ini:
 
-`` inicode
-; Промислове середовище
-[production]
-webhost = www.example.com
-database.adapter = pdo_mysql
-database.params.host = db.example.com
-database.params.username=dbuser
-database.params.password = secret
-database.params.dbname = dbname
+; Промислове середовищеproductionwebhost = [www.example.com](http://www.example.com)database.adapter = pdomysql database.params.host = db.example.com database.params.username = dbuser database.params.password = secret database.params.dbname = dbname
 
-; Демо-середовище. Наслідує конфігурацію промислової з деякими поправками
-[staging: production]
-database.params.host = dev.example.com
-database.params.username=devuser
-database.params.password = devsecret
-````
+; Демо-середовище. Наслідує конфігурацію промислової з деякими поправкамиstaging: productiondatabase.params.host = dev.example.com database.params.username=devuser database.params.password = devsecret
 
-` <?php$config = new Yaf_Config_Ini('/path/to/config.ini', 'staging');var_dump($config->database->params->host);var_dump($config->database-> params->dbname);var_dump($config->get("database.params.username"));?> `
+```php
+<?php
+$config = new Yaf_Config_Ini('/path/to/config.ini', 'staging');
+
+var_dump($config->database->params->host);
+var_dump($config->database->params->dbname);
+var_dump($config->get("database.params.username"));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(15) "dev.example.com"
 string(6) "dbname"
 string(7) "devuser
+```
 
 ## Зміст
 
-- [Yaf_Config_Ini::\_\_construct](yaf-config-ini.construct.md) -
-Конструктор класу Yaf_Config_Ini
-- [Yaf_Config_Ini::count](yaf-config-ini.count.md) - Підраховує
-усі елементи в Yaf_Config.ini
-- [Yaf_Config_Ini::current](yaf-config-ini.current.md) - Отримує
-поточне значення
-- [Yaf_Config_Ini::\_\_get](yaf-config-ini.get.md) - Отримує
-елемент
-- [Yaf_Config_Ini::\_\_isset](yaf-config-ini.isset.md) — Визначає,
-чи існує ключ
-- [Yaf_Config_Ini::key](yaf-config-ini.key.md) — Отримує ключ
-поточного елемента
-- [Yaf_Config_Ini::next](yaf-config-ini.next.md) - Просуває
-внутрішній покажчик
-- [Yaf_Config_Ini::offsetExists](yaf-config-ini.offsetexists.md)
-Призначення offsetExists
-- [Yaf_Config_Ini::offsetGet](yaf-config-ini.offsetget.md) -
-Призначення offsetGet
-- [Yaf_Config_Ini::offsetSet](yaf-config-ini.offsetset.md) -
-Призначення offsetSet
-- [Yaf_Config_Ini::offsetUnset](yaf-config-ini.offsetunset.md) -
-Призначення offsetUnset
-- [Yaf_Config_Ini::readonly](yaf-config-ini.readonly.md)
-Призначення readonly
-- [Yaf_Config_Ini::rewind](yaf-config-ini.rewind.md) — Призначення
-rewind
-- [Yaf_Config_Ini::\_\_set](yaf-config-ini.set.md) — Призначення
-\_\_set
-- [Yaf_Config_Ini::toArray](yaf-config-ini.toarray.md) - Повертає
-конфігурацію як масив PHP
-- [Yaf_Config_Ini::valid](yaf-config-ini.valid.md) — Призначення
-valid
+-   [Yaf\_Config\_Ini::\_\_construct](yaf-config-ini.construct.html) - Конструктор класу YafConfigIni
+-   [Yaf\_Config\_Ini::count](yaf-config-ini.count.html) — Підраховує всі елементи в YafConfig.ini
+-   [Yaf\_Config\_Ini::current](yaf-config-ini.current.html) — Отримує поточне значення
+-   [Yaf\_Config\_Ini::\_\_get](yaf-config-ini.get.html) — Отримує елемент
+-   [Yaf\_Config\_Ini::\_\_isset](yaf-config-ini.isset.html) - Визначає, чи існує ключ
+-   [Yaf\_Config\_Ini::key](yaf-config-ini.key.html) — Отримує ключ поточного елемента
+-   [Yaf\_Config\_Ini::next](yaf-config-ini.next.html) - Просуває внутрішній покажчик
+-   [Yaf\_Config\_Ini::offsetExists](yaf-config-ini.offsetexists.html) — Призначення offsetExists
+-   [Yaf\_Config\_Ini::offsetGet](yaf-config-ini.offsetget.html) - Призначення offsetGet
+-   [Yaf\_Config\_Ini::offsetSet](yaf-config-ini.offsetset.html) - Призначення offsetSet
+-   [Yaf\_Config\_Ini::offsetUnset](yaf-config-ini.offsetunset.html) - Призначення offsetUnset
+-   [Yaf\_Config\_Ini::readonly](yaf-config-ini.readonly.html) - Призначення readonly
+-   [Yaf\_Config\_Ini::rewind](yaf-config-ini.rewind.html) - Призначення rewind
+-   [Yaf\_Config\_Ini::\_\_set](yaf-config-ini.set.html) - Призначення set
+-   [Yaf\_Config\_Ini::toArray](yaf-config-ini.toarray.html) — Повертає конфігурацію як масив PHP
+-   [Yaf\_Config\_Ini::valid](yaf-config-ini.valid.html) - Призначення valid

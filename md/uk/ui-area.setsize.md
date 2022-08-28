@@ -1,23 +1,32 @@
-- [«UI\Area::scrollTo](ui-area.scrollto.md)
-- [UI\Executor »](class.ui-executor.md)
+Встановити розмір
 
-- [PHP Manual](index.md)
-- [UI\Area](class.ui-area.md)
-- Встановити розмір
+-   [« UI\\Area::scrollTo](ui-area.scrollto.html)
+    
+-   [UI\\Executor »](class.ui-executor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Area](class.ui-area.html)
+    
+-   Встановити розмір
+    
 
-# UI\Area::setSize
+# ОЙArea::setSize
 
 (UI 0.9.9)
 
-UI\Area::setSize — Встановити розмір
+ОЙArea::setSize — Встановити розмір
 
 ### Опис
 
-public **UI\Area::setSize**([UI\Size](class.ui-size.md) `$size`)
+```methodsynopsis
+public UI\Area::setSize(UI\Size $size)
+```
 
 Встановлює розмір області
 
 ### Список параметрів
 
 `size`
+
 Новий розмір

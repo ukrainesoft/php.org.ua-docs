@@ -1,26 +1,39 @@
-- [« EvEmbed::createStopped](evembed.createstopped.md)
-- [EvEmbed::sweep »](evembed.sweep.md)
+Налаштування спостерігача
 
-- [PHP Manual](index.md)
-- [EvEmbed](class.evembed.md)
-- Налаштування спостерігача
+-   [« EvEmbed::createStopped](evembed.createstopped.html)
+    
+-   [EvEmbed::sweep »](evembed.sweep.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvEmbed](class.evembed.html)
+    
+-   Налаштування спостерігача
+    
 
 # EvEmbed::set
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
 EvEmbed::set — Налаштування спостерігача
 
 ### Опис
 
-public **EvEmbed::set**( object `$other` ): void
+```methodsynopsis
+public
+   EvEmbed::set(
+    object
+     $other
+   ): void
+```
 
-Конфігурує спостерігача для використання циклу подій `other`.
+Конфігурує спостерігача для використання циклу подій `other`
 
 ### Список параметрів
 
 `other`
-Дивіться [EvEmbed::\_\_construct()](evembed.construct.md)
+
+Дивіться [EvEmbed::\_\_construct()](evembed.construct.html)
 
 ### Значення, що повертаються
 

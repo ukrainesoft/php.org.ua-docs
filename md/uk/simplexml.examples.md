@@ -1,13 +1,19 @@
-- [«Зумовлені константи](simplexml.constants.md)
-- [Базове використання SimpleXML »](simplexml.examples-basic.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [SimpleXML](book.simplexml.md)
-- Приклади
+-   [« Предопределённые константы](simplexml.constants.html)
+    
+-   [Базовое использование SimpleXML »](simplexml.examples-basic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXML](book.simplexml.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Базове використання SimpleXML](simplexml.examples-basic.md)
-- [Робота з помилками XML](simplexml.examples-errors.md)
+-   [Базовое использование SimpleXML](simplexml.examples-basic.html)
+-   [Работа с ошибками XML](simplexml.examples-errors.html)

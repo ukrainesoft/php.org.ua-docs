@@ -1,63 +1,96 @@
-- [« IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md)
-- [IntlDateFormatter::getCalendarObject »](intldateformatter.getcalendarobject.md)
+Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
 
-- [PHP Manual](index.md)
-- [IntlDateFormatter](class.intldateformatter.md)
-- Отримує ідентифікатор часового поясу, який використовується
-IntlDateFormatter
+-   [« IntlDateFormatter::getTimeType](intldateformatter.gettimetype.html)
+    
+-   [IntlDateFormatter::getCalendarObject »](intldateformatter.getcalendarobject.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlDateFormatter](class.intldateformatter.html)
+    
+-   Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
+    
 
 # IntlDateFormatter::getTimeZoneId
 
-# datefmt_get_timezone_id
+# datefmtgettimezoneід
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getTimeZoneId -- datefmt_get_timezone_id — Отримує
-ідентифікатор часового поясу, який використовується IntlDateFormatter
+IntlDateFormatter::getTimeZoneId -- datefmtgettimezoneid — Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlDateFormatter::getTimeZoneId**(): string\|false
+```methodsynopsis
+public IntlDateFormatter::getTimeZoneId(): string|false
+```
 
 Процедурний стиль
 
-**datefmt_get_timezone_id**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`): string\|false
+```methodsynopsis
+datefmt_get_timezone_id(IntlDateFormatter $formatter): string|false
+```
 
 Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter.
 
 ### Список параметрів
 
 `formatter`
+
 Ресурс засобу форматування.
 
 ### Значення, що повертаються
 
-Рядок ідентифікатора часового поясу, використовуваного цим засобом
-форматування або **`false`** у разі виникнення помилки.
+Рядок ідентифікатора часового поясу, який використовується цим засобом форматування або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmt_get_timezone_id()****
+**Приклад #1 Приклад використання **datefmtgettimezoneid()****
 
-`<?php$fmt = datefmt_create(   'en_US',   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    America/Los_Angeles', | datefmt_get_timezone_id($fmt) . "
-";datefmt_set_timezone($fmt, 'Europe/Madrid');echo 'Тепер timezone_id засоби форматування: ' . datefmt_get_timezone_id($fmt);?> `
+```php
+<?php
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
+);
+echo 'timezone_id средства форматирования: ' . datefmt_get_timezone_id($fmt) . "\n";
+datefmt_set_timezone($fmt, 'Europe/Madrid');
+echo 'Теперь timezone_id средства форматирования: ' . datefmt_get_timezone_id($fmt);
+
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'timezone_id средства форматирования: ' . $fmt->getTimezoneId() . "
-";$fmt->setTimezone('Europe/Madrid');echo 'Тепер timezone_id засоби форматування: ' . $fmt->getTimezoneId();?> `
+```php
+<?php
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
+);
+echo 'timezone_id средства форматирования: ' . $fmt->getTimezoneId() . "\n";
+$fmt->setTimezone('Europe/Madrid');
+echo 'Теперь timezone_id средства форматирования: ' . $fmt->getTimezoneId();
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-timezone_id засоби форматування: America/Los_Angeles
-Тепер timezone_id засоби форматування: Europe/Madrid
+```
+timezone_id средства форматирования: America/Los_Angeles
+Теперь timezone_id средства форматирования: Europe/Madrid
+```
 
 ### Дивіться також
 
-- [datefmt_set_timezone()](intldateformatter.settimezone.md) -
-Встановлює часовий пояс засобу форматування
-- [datefmt_create()](intldateformatter.create.md) - Створює засіб
-форматування дати
+-   [datefmt\_set\_timezone()](intldateformatter.settimezone.html) - Встановлює часовий пояс засобу форматування
+-   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати

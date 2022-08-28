@@ -1,38 +1,48 @@
-- [« MessageFormatter::formatMessage](messageformatter.formatmessage.md)
-- [MessageFormatter::getErrorCode »](messageformatter.geterrorcode.md)
+Форматує повідомлення
 
-- [PHP Manual](index.md)
-- [MessageFormatter](class.messageformatter.md)
-- Форматує повідомлення
+-   [« MessageFormatter::formatMessage](messageformatter.formatmessage.html)
+    
+-   [MessageFormatter::getErrorCode »](messageformatter.geterrorcode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MessageFormatter](class.messageformatter.html)
+    
+-   Форматує повідомлення
+    
 
 # MessageFormatter::format
 
-#msgfmt_format
+# msgfmtformat
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::format -- msgfmt_format — Форматує повідомлення
+MessageFormatter::format -- msgfmtformat — Форматує повідомлення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **MessageFormatter::format**(array `$values`): string\|false
+```methodsynopsis
+public MessageFormatter::format(array $values): string|false
+```
 
 Процедурний стиль
 
-**msgfmt_format**([MessageFormatter](class.messageformatter.md)
-`$formatter`, array `$values`): string\|false
+```methodsynopsis
+msgfmt_format(MessageFormatter $formatter, array $values): string|false
+```
 
-Форматує повідомлення, підставляючи дані у рядок формату відповідно
-із правилами локалі.
+Форматує повідомлення, підставляючи дані у рядок формату відповідно до правил локалі.
 
 ### Список параметрів
 
 `formatter`
-Об'єкт [MessageFormatter](class.messageformatter.md)
+
+Об'єкт [MessageFormatter](class.messageformatter.html)
 
 `values`
+
 Аргументи для вставки у рядок формату
 
 ### Значення, що повертаються
@@ -41,28 +51,39 @@ public **MessageFormatter::format**(array `$values`): string\|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmt_format()****
+**Приклад #1 Приклад використання **msgfmtformat()****
 
-` <?php$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");echo (4560, 123, 4560/123));$fmt==msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,num echo msgfmt_format($fmt, array(4560, 123, 4560/123));?> `
+```php
+<?php
+$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
+echo msgfmt_format($fmt, array(4560, 123, 4560/123));
+$fmt = msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
+echo msgfmt_format($fmt, array(4560, 123, 4560/123));
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree"t)t; (array(4560, 123, 4560/123));$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen s  ");echo $fmt->format(array(4560, 123, 4560/123));?> `
+```php
+<?php
+$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
+echo $fmt->format(array(4560, 123, 4560/123));
+$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
+echo $fmt->format(array(4560, 123, 4560/123));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 4,560 monkeys on 123 trees make 37.073 monkeys per tree
 4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum
+```
 
 ### Дивіться також
 
-- [msgfmt_create()](messageformatter.create.md) - Створює засіб
-форматування повідомлень
-- [msgfmt_parse()](messageformatter.parse.md) - Розбирає рядок
-згідно шаблону
-- [msgfmt_format_message()](messageformatter.formatmessage.md) -
-Швидко форматує повідомлення
-- [msgfmt_get_error_code()](messageformatter.geterrorcode.md) -
-Повертає код помилки останньої операції
-- [msgfmt_get_error_message()](messageformatter.geterrormessage.md) -
-Повертає текст помилки останньої операції
+-   [msgfmt\_create()](messageformatter.create.html) - Створює засіб форматування повідомлень
+-   [msgfmt\_parse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmt\_format\_message()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
+-   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.html) - Повертає код помилки останньої операції
+-   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.html) - Повертає текст помилки останньої операції

@@ -1,19 +1,27 @@
-- [« SplFixedArray::getSize](splfixedarray.getsize.md)
-- [SplFixedArray::next »](splfixedarray.next.md)
+Повертає індекс поточного елемента масиву
 
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- Повертає індекс поточного елемента масиву
+-   [« SplFixedArray::getSize](splfixedarray.getsize.html)
+    
+-   [SplFixedArray::next »](splfixedarray.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFixedArray](class.splfixedarray.html)
+    
+-   Повертає індекс поточного елемента масиву
+    
 
 # SplFixedArray::key
 
-(PHP 5 = 5.3.0, PHP 7)
+(PHP 5> = 5.3.0, PHP 7)
 
 SplFixedArray::key — Повертає індекс поточного елемента масиву
 
 ### Опис
 
-public **SplFixedArray::key**(): int
+```methodsynopsis
+public SplFixedArray::key(): int
+```
 
 Повертає індекс поточного масиву.
 

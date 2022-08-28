@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](spl.setup.md)
-- [Встановлення »](spl.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](spl.setup.md)
-- Вимоги
+-   [« Установка и настройка](spl.setup.html)
+    
+-   [Установка »](spl.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](spl.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,13 +1,19 @@
-- [« Vtiful\Kernel\Excel::setRow](vtiful-kernel-excel.setRow.md)
-- [Vtiful\Kernel\Format::align »](vtiful-kernel-format.align.md)
+Клас VtifulKernelФормат
 
-- [PHP Manual](index.md)
-- [XLSWriter](book.xlswriter.md)
-- Клас Vtiful\Kernel\Format
+-   [« Vtiful\\Kernel\\Excel::setRow](vtiful-kernel-excel.setRow.html)
+    
+-   [Vtiful\\Kernel\\Format::align »](vtiful-kernel-format.align.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XLSWriter](book.xlswriter.html)
+    
+-   Клас VtifulKernelФормат
+    
 
-# Клас Vtiful\Kernel\Format
+# Клас VtifulKernelФормат
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
 ## Вступ
 
@@ -15,57 +21,96 @@
 
 ## Огляд класів
 
-class **Vtiful\Kernel\Format** {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `FORMAT_ALIGN_LEFT` = 1;
 
-const int `FORMAT_ALIGN_CENTER` = 2;
+    
+     
+      class Vtiful\Kernel\Format
+     
+     {
 
-const int `FORMAT_ALIGN_RIGHT` = 3;
 
-const int `FORMAT_ALIGN_FILL` = 4;
+    /* Константы */
+    
+     const
+     int
+      FORMAT_ALIGN_LEFT = 1;
 
-const int `FORMAT_ALIGN_JUSTIFY` = 5;
+    const
+     int
+      FORMAT_ALIGN_CENTER = 2;
 
-const int `FORMAT_ALIGN_CENTER_ACROSS` = 6;
+    const
+     int
+      FORMAT_ALIGN_RIGHT = 3;
 
-const int `FORMAT_ALIGN_DISTRIBUTED` = 7;
+    const
+     int
+      FORMAT_ALIGN_FILL = 4;
 
-const int `FORMAT_ALIGN_VERTICAL_TOP` = 8;
+    const
+     int
+      FORMAT_ALIGN_JUSTIFY = 5;
 
-const int `FORMAT_ALIGN_VERTICAL_BOTTOM` = 9;
+    const
+     int
+      FORMAT_ALIGN_CENTER_ACROSS = 6;
 
-const int `FORMAT_ALIGN_VERTICAL_CENTER` = 10;
+    const
+     int
+      FORMAT_ALIGN_DISTRIBUTED = 7;
 
-const int `FORMAT_ALIGN_VERTICAL_JUSTIFY` = 11;
+    const
+     int
+      FORMAT_ALIGN_VERTICAL_TOP = 8;
 
-const int `FORMAT_ALIGN_VERTICAL_DISTRIBUTED` = 12;
+    const
+     int
+      FORMAT_ALIGN_VERTICAL_BOTTOM = 9;
 
-const int `UNDERLINE_SINGLE` = 1;
+    const
+     int
+      FORMAT_ALIGN_VERTICAL_CENTER = 10;
 
-const int `UNDERLINE_DOUBLE` = 2;
+    const
+     int
+      FORMAT_ALIGN_VERTICAL_JUSTIFY = 11;
 
-const int `UNDERLINE_SINGLE_ACCOUNTING` = 3;
+    const
+     int
+      FORMAT_ALIGN_VERTICAL_DISTRIBUTED = 12;
 
-const int `UNDERLINE_DOUBLE_ACCOUNTING` = 4;
+    const
+     int
+      UNDERLINE_SINGLE = 1;
 
-/\* Методи \*/
+    const
+     int
+      UNDERLINE_DOUBLE = 2;
 
-public [align](vtiful-kernel-format.align.md)(resource `$handle`, int
-`$style`)
+    const
+     int
+      UNDERLINE_SINGLE_ACCOUNTING = 3;
 
-public [bold](vtiful-kernel-format.bold.md)(resource `$handle`)
+    const
+     int
+      UNDERLINE_DOUBLE_ACCOUNTING = 4;
 
-public [italic](vtiful-kernel-format.italic.md)(resource `$handle`)
 
-public [underline](vtiful-kernel-format.underline.md)(resource
-`$handle`, int `$style`)
+    /* Методы */
+    
+   public align(resource $handle, int $style)
+public bold(resource $handle)
+public italic(resource $handle)
+public underline(resource $handle, int $style)
 
-}
 
-## Зумовлені константи
+   }
+```
+
+## Обумовлені константи
 
 **`Vtiful\Kernel\Format::FORMAT_ALIGN_LEFT`**
 
@@ -101,11 +146,7 @@ public [underline](vtiful-kernel-format.underline.md)(resource
 
 ## Зміст
 
-- [Vtiful\Kernel\Format::align](vtiful-kernel-format.align.md) -
-Вирівнювання
-- [Vtiful\Kernel\Format::bold](vtiful-kernel-format.bold.md) -
-Напівжирний
-- [Vtiful\Kernel\Format::italic](vtiful-kernel-format.italic.md) -
-Курсив
-- [Vtiful\Kernel\Format::underline](vtiful-kernel-format.underline.md)
-- Підкреслений
+-   [Vtiful\\Kernel\\Format::align](vtiful-kernel-format.align.html) - Вирівнювання
+-   [Vtiful\\Kernel\\Format::bold](vtiful-kernel-format.bold.html) - Напівжирний
+-   [Vtiful\\Kernel\\Format::italic](vtiful-kernel-format.italic.html) - Курсив
+-   [Vtiful\\Kernel\\Format::underline](vtiful-kernel-format.underline.html) - Підкреслений

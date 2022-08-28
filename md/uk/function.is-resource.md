@@ -1,53 +1,67 @@
-- [«is_real](function.is-real.md)
-- [is_scalar »](function.is-scalar.md)
+Перевіряє, чи є змінна ресурсом
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевіряє, чи є змінна ресурсом
+-   [« is\_real](function.is-real.html)
+    
+-   [is\_scalar »](function.is-scalar.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Перевіряє, чи є змінна ресурсом
+    
 
-#is_resource
+# ісresource
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_resource — Перевіряє, чи є змінна ресурсом
+ісresource — Перевіряє, чи є змінна ресурсом
 
 ### Опис
 
-**is_resource**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_resource(mixed $value): bool
+```
 
-Перевіряє, чи є ця змінна ресурсом (resource).
+Перевіряє, чи є змінна ресурсом (resource).
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є ресурсом (resource), або
-**`false`** інакше.
+Повертає **`true`**, якщо `value` є ресурсом (resource), або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_resource()****
+**Приклад #1 Приклад використання **ісresource()****
 
-` <?php$handle =fopen("php://stdout", "w");if (is_resource($handle)) {    echo '$handle - цересурс';}?> `
+```php
+<?php
+
+$handle = fopen("php://stdout", "w");
+if (is_resource($handle)) {
+    echo '$handle - это ресурс';
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-$handle - це ресурс
+```
+$handle - это ресурс
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція **is_resource()** не виконує суворої перевірки типу; вона
-> поверне **`false`**, якщо `value` є ресурсом, який був
-> закритий.
+> **Зауваження**
+> 
+> Функція **ісresource()** не робить суворої перевірки типу; вона поверне **`false`**, якщо `value` є ресурсом, який було закрито.
 
 ### Дивіться також
 
-- [Тип resource](language.types.resource.md)
-- [get_resource_type()](function.get-resource-type.md) - Повертає
-тип ресурсу
+-   [Тип resource](language.types.resource.html)
+-   [get\_resource\_type()](function.get-resource-type.html) - Повертає тип ресурсу

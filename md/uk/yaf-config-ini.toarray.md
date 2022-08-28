@@ -1,21 +1,29 @@
-- [« Yaf_Config_Ini::\_\_set](yaf-config-ini.set.md)
-- [Yaf_Config_Ini::valid »](yaf-config-ini.valid.md)
+Повертає конфігурацію як масив PHP
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Повертає конфігурацію як масив PHP
+-   [« Yaf\_Config\_Ini::\_\_set](yaf-config-ini.set.html)
+    
+-   [Yaf\_Config\_Ini::valid »](yaf-config-ini.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Повертає конфігурацію як масив PHP
+    
 
-# Yaf_Config_Ini::toArray
+# YafConfigIni::toArray
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::toArray — Повертає конфігурацію як масив PHP
+YafConfigIni::toArray — Повертає конфігурацію як масив PHP
 
 ### Опис
 
-public **Yaf_Config_Ini::toArray**(): array
+```methodsynopsis
+public Yaf_Config_Ini::toArray(): array
+```
 
-Повертає масив PHP з [Yaf_Config_Ini](class.yaf-config-ini.md)
+Повертає масив PHP з [Yaf\_Config\_Ini](class.yaf-config-ini.html)
 
 ### Список параметрів
 

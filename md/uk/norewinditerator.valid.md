@@ -1,26 +1,33 @@
-- [«NoRewindIterator::rewind](norewinditerator.rewind.md)
-- [ParentIterator »](class.parentiterator.md)
+Перевіряє ітератор
 
-- [PHP Manual](index.md)
-- [NoRewindIterator](class.norewinditerator.md)
-- Перевіряє ітератор
+-   [« NoRewindIterator::rewind](norewinditerator.rewind.html)
+    
+-   [ParentIterator »](class.parentiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [NoRewindIterator](class.norewinditerator.html)
+    
+-   Перевіряє ітератор
+    
 
 # NoRewindIterator::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::valid — Перевіряє ітератор
 
 ### Опис
 
-public **NoRewindIterator::valid**(): bool
+```methodsynopsis
+public NoRewindIterator::valid(): bool
+```
 
 Перевіряє, чи ітератор є допустимим.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +35,8 @@ public **NoRewindIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [NoRewindIterator::getInnerIterator()](norewinditerator.getinneriterator.md) -
-Отримує внутрішній ітератор
+-   [NoRewindIterator::getInnerIterator()](norewinditerator.getinneriterator.html) - отримує внутрішній ітератор

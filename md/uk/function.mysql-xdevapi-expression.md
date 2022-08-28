@@ -1,26 +1,31 @@
-- [« Функції Mysql_xdevapi](ref.mysql-xdevapi.md)
-- [getSession »](function.mysql-xdevapi-getsession.md)
+Зв'язує підготовлені змінні твердження як параметри
 
-- [PHP Manual](index.md)
-- [Функції Mysql_xdevapi](ref.mysql-xdevapi.md)
-- пов'язує підготовлені змінні твердження як
-параметрів
+-   [« Функции Mysql\_xdevapi](ref.mysql-xdevapi.html)
+    
+-   [getSession »](function.mysql-xdevapi-getsession.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Mysql\_xdevapi](ref.mysql-xdevapi.html)
+    
+-   Зв'язує підготовлені змінні твердження як параметри
+    
 
 # expression
 
 (No version information available, might only be in Git)
 
-expression — Зв'язує підготовлені змінні твердження як
-параметрів
+expression — Зв'язує підготовлені змінні твердження як параметри
 
 ### Опис
 
-**mysql_xdevapi xpression**(string `$expression`): object
+```methodsynopsis
+mysql_xdevapi\expression(string $expression): object
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,10 +35,21 @@ expression — Зв'язує підготовлені змінні твердж�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Expression()****
+**Приклад #1 Приклад використання **mysqlxdevapiExpression()****
 
-` <?php$expression = mysql_xdevapi\Expression("[age,job]");$res  = $coll->find("age > 30")->fields($expression)->limit(3)-> execute();$data==$res->fetchAll();print_r($data);?> `
+```php
+<?php
+$expression = mysql_xdevapi\Expression("[age,job]");
+
+$res  = $coll->find("age > 30")->fields($expression)->limit(3)->execute();
+$data = $res->fetchAll();
+
+print_r($data);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 <?php
+```

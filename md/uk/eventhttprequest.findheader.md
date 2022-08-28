@@ -1,38 +1,51 @@
-- [«EventHttpRequest::\_\_construct](eventhttprequest.construct.md)
-- [EventHttpRequest::free »](eventhttprequest.free.md)
+Отримує значення заголовка
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Отримує значення заголовка
+-   [« EventHttpRequest::\_\_construct](eventhttprequest.construct.html)
+    
+-   [EventHttpRequest::free »](eventhttprequest.free.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Отримує значення заголовка
+    
 
 # EventHttpRequest::findHeader
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
 EventHttpRequest::findHeader — Отримує значення заголовка
 
 ### Опис
 
-public **EventHttpRequest::findHeader**( string `$key` , string `$type`
-): void
+```methodsynopsis
+public
+   EventHttpRequest::findHeader(
+    string
+     $key
+   , 
+    string
+     $type
+   ): void
+```
 
 Отримує значення заголовка
 
 ### Список параметрів
 
 `key`
+
 Назва заголовка.
 
 `type`
-Одна з констант
-[`EventHttpRequest::*_HEADER`](class.eventhttprequest.md#eventhttprequest.constants)
-.
+
+Одна з констант [`EventHttpRequest::*_HEADER`](class.eventhttprequest.html#eventhttprequest.constants)
 
 ### Значення, що повертаються
 
-Повертає **`null`**, якщо заголовок не знайдено.
+Повертає **`null`**якщо заголовок не знайдено.
 
 ### Дивіться також
 
-- [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) -
-Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.html) - Додає заголовок HTTP до заголовків запиту

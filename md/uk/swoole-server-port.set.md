@@ -1,19 +1,27 @@
-- [« Swoole\Server\Port::on](swoole-server-port.on.md)
-- [Swoole\Server::exist »](swoole-server.exist.md)
+Встановлює протокол порту сервера
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Встановлює протокол порту сервера
+-   [« Swoole\\Server\\Port::on](swoole-server-port.on.html)
+    
+-   [Swoole\\Server::exist »](swoole-server.exist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Встановлює протокол порту сервера
+    
 
-# Swoole\Server\Port::set
+# SwooleServerPort::set
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server\Port::set — Встановлює протокол порту сервера
+SwooleServerPort::set — Встановлює протокол порту сервера
 
 ### Опис
 
-public **Swoole\Server\Port::set**(array `$settings`): void
+```methodsynopsis
+public Swoole\Server\Port::set(array $settings): void
+```
 
 ### Список параметрів
 

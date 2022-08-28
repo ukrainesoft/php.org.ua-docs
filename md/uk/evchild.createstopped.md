@@ -1,54 +1,73 @@
-- [«EvChild::\_\_construct](evchild.construct.md)
-- [EvChild::set »](evchild.set.md)
+Створює зупинений екземпляр спостерігача EvCheck
 
-- [PHP Manual](index.md)
-- [EvChild](class.evchild.md)
-- Створює зупинений екземпляр спостерігача EvCheck
+-   [« EvChild::\_\_construct](evchild.construct.html)
+    
+-   [EvChild::set »](evchild.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvChild](class.evchild.html)
+    
+-   Створює зупинений екземпляр спостерігача EvCheck
+    
 
 # EvChild::createStopped
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvChild::createStopped — Створює зупинений екземпляр спостерігача
-EvCheck
+EvChild::createStopped — Створює зупинений екземпляр спостерігача EvCheck
 
 ### Опис
 
-final public static **EvChild::createStopped**(
-int `$pid`,
-bool `$trace`,
-[callable](language.types.callable.md) `$callback` ,
+```methodsynopsis
+final
+   public
+   static
+   EvChild::createStopped(    
+    int
+     $pid
+   ,    
+    bool
+     $trace
+   ,    
+    callable
+     $callback
+   ,    
+    mixed
+     $data
+    = ?,    
+    int
+     $priority
+    = ?): object
+```
 
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-int `$priority` = ?
-): object
-
-Те саме, що і [EvChild::\_\_construct()](evchild.construct.md) ,
-але відбувається автоматичного запуску спостерігача.
+Те саме, що й [EvChild::\_\_construct()](evchild.construct.html) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `pid`
-Дивіться [EvChild::\_\_construct()](evchild.construct.md)
+
+Дивіться [EvChild::\_\_construct()](evchild.construct.html)
 
 `trace`
-Дивіться [EvChild::\_\_construct()](evchild.construct.md)
+
+Дивіться [EvChild::\_\_construct()](evchild.construct.html)
 
 `callback`
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md) .
+
+Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
 
 `data`
+
 Довільні дані, пов'язані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
 ### Дивіться також
 
-- [EvChild::\_\_construct()](evchild.construct.md) - Створює об'єкт
-спостерігач EvChild
-- [EvLoop::child()](evloop.child.md) - Створює об'єкт EvChild,
-пов'язаний із поточним циклом подій
+-   [EvChild::\_\_construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
+-   [EvLoop::child()](evloop.child.html) - Створює об'єкт EvChild, пов'язаний із поточним циклом подій

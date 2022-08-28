@@ -1,15 +1,21 @@
-- [«Вступ](intro.openssl.md)
-- [Вимоги »](openssl.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [OpenSSL](book.openssl.md)
+-   [« Введение](intro.openssl.html)
+    
+-   [Требования »](openssl.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OpenSSL](book.openssl.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](openssl.requirements.md)
-- [Установка](openssl.installation.md)
-- [Налаштування під час виконання](openssl.configuration.md)
-- [Типи ресурсів](openssl.resources.md)
+-   [Требования](openssl.requirements.html)
+-   [Установка](openssl.installation.html)
+-   [Настройка во время выполнения](openssl.configuration.html)
+-   [Типы ресурсов](openssl.resources.html)

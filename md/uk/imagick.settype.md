@@ -1,9 +1,15 @@
-- [« Imagick::setSizeOffset](imagick.setsizeoffset.md)
-- [Imagick::shadeImage »](imagick.shadeimage.md)
+Встановлює атрибут типу зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює атрибут типу зображення
+-   [« Imagick::setSizeOffset](imagick.setsizeoffset.html)
+    
+-   [Imagick::shadeImage »](imagick.shadeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює атрибут типу зображення
+    
 
 # Imagick::setType
 
@@ -13,7 +19,9 @@ Imagick::setType — Встановлює атрибут типу зображе
 
 ### Опис
 
-public **Imagick::setType**(int `$image_type`): bool
+```methodsynopsis
+public Imagick::setType(int $image_type): bool
+```
 
 Встановлює атрибут типу зображення.
 
@@ -23,4 +31,4 @@ public **Imagick::setType**(int `$image_type`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

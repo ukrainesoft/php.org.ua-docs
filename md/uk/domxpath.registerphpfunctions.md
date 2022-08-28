@@ -1,32 +1,37 @@
-- [« DOMXPath::registerNamespace](domxpath.registernamespace.md)
-- [Функції DOM »](ref.dom.md)
+Реєстрація PHP-функцій як функцій XPath
 
-- [PHP Manual](index.md)
-- [DOMXPath](class.domxpath.md)
-- Реєстрація PHP-функцій як функцій XPath
+-   [« DOMXPath::registerNamespace](domxpath.registernamespace.html)
+    
+-   [Функции DOM »](ref.dom.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMXPath](class.domxpath.html)
+    
+-   Реєстрація PHP-функцій як функцій XPath
+    
 
 # DOMXPath::registerPhpFunctions
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-DOMXPath::registerPhpFunctions — Реєстрація PHP-функцій як функцій
-XPath
+DOMXPath::registerPhpFunctions — Реєстрація PHP-функцій як функцій XPath
 
 ### Опис
 
-public **DOMXPath::registerPhpFunctions**(string\|array\|null
-`$restrict` = **`null`**): void
+```methodsynopsis
+public DOMXPath::registerPhpFunctions(string|array|null $restrict = null): void
+```
 
 Цей метод дозволяє використовувати PHP-функції у виразах XPath.
 
 ### Список параметрів
 
 `restrict`
-Використовуйте цей параметр, щоб дозволити використання тільки
-певних функцій у виразах XPath.
 
-Цей параметр може мати тип string (ім'я функції) або array (масив)
-імен функцій).
+Використовуйте цей параметр, щоб дозволити використання лише певних функцій у виразах XPath.
+
+Цей параметр може мати тип string (ім'я функції) або array (масив імен функцій).
 
 ### Значення, що повертаються
 
@@ -34,60 +39,87 @@ public **DOMXPath::registerPhpFunctions**(string\|array\|null
 
 ### Приклади
 
-У таких прикладах використовується файл `book.xml`, який містить
-наступне:
+У таких прикладах використовується файл book.xml, який містить таке:
 
 **Приклад #1 book.xml**
 
-`` xmlcode
-<?xml version="1.0" encoding="UTF-8"?>
-<books>
-<book>
-<title>PHP Basics</title>
-<author>Jim Smith</author>
-<author>Jane Smith</author>
-</book>
-<book>
-<title>PHP Secrets</title>
-<author>Jenny Smythe</author>
-</book>
-<book>
-<title>XML basics</title>
-<author>Joe Black</author>
-</book>
-</books>
-````
+PHP Basics Jim Smith Jane Smith PHP Secrets Jenny Smythe XML basics Joe Black
 
-**Приклад #2 **DOMXPath::registerPHPFunctions()** з
-`php:functionString`**
+**Приклад #2 **DOMXPath::registerPHPFunctions()** з `php:functionString`**
 
-` <?php$doc = new DOMDocument;$doc->load('book.xml');$xpath = new DOMXPath($doc);// Реєстрація PHP: простір імен (обов'язково)$xpath->registerName php", "http://php.net/xpath");// Реєстрація функцій PHP (без обмежень)$xpath->registerPHPFunctions();// Виклик функції substr для назви книги$ '//book[php:functionString("substr", title, 0, 3) = "PHP"]');echo "Знайдені {$nodes->length} книги, починаються с 'PHP':
-";foreach ($nodes as $node) {    $title  = $node->getElementsByTagName("title")->item(0)->nodeValue;    $author = $node-> (0)->nodeValue;   echo "$title автора $author
-";}?> `
+```php
+<?php
+$doc = new DOMDocument;
+$doc->load('book.xml');
+
+$xpath = new DOMXPath($doc);
+
+// Регистрация PHP: пространство имён (обязательно)
+$xpath->registerNamespace("php", "http://php.net/xpath");
+
+// Регистрация функций PHP (без ограничений)
+$xpath->registerPHPFunctions();
+
+// Вызов функции substr для названия книги
+$nodes = $xpath->query('//book[php:functionString("substr", title, 0, 3) = "PHP"]');
+
+echo "Найдены {$nodes->length} книги, начинающиеся с 'PHP':\n";
+foreach ($nodes as $node) {
+    $title  = $node->getElementsByTagName("title")->item(0)->nodeValue;
+    $author = $node->getElementsByTagName("author")->item(0)->nodeValue;
+    echo "$title автора $author\n";
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Знайдено 2 книги, що починаються з 'PHP':
+```
+Найдены 2 книги, начинающиеся с 'PHP':
 PHP Basics автора Jim Smith
 PHP Secrets автора Jenny Smythe
+```
 
 **Приклад #3 **DOMXPath::registerPHPFunctions()** з `php:function`**
 
-` <?php$doc = new DOMDocument;$doc->load('book.xml');$xpath = new DOMXPath($doc);// Реєстрація PHP: простір імен (обов'язково)$xpath->registerName php", "http://php.net/xpath");// Реєстрація PHP-функцій (тільки has_multiple)$xpath->registerPHPFunctions("has_multiple");function has_multiple($nodes) { більше одного автора    return count($nodes) > 1;}// Фільтр книг з двома і більше авторами$books = $xpath->query('//book[php:function'' echo "Книги з двома і більше авторами:
-";foreach ($books as $book) {    echo $book->getElementsByTagName("title")->item(0)->nodeValue . "
-";}?> `
+```php
+<?php
+$doc = new DOMDocument;
+$doc->load('book.xml');
+
+$xpath = new DOMXPath($doc);
+
+// Регистрация PHP: пространство имён (обязательно)
+$xpath->registerNamespace("php", "http://php.net/xpath");
+
+// Регистрация PHP-функций (только has_multiple)
+$xpath->registerPHPFunctions("has_multiple");
+
+function has_multiple($nodes) {
+    // Возвращает true, если более одного автора
+    return count($nodes) > 1;
+}
+// Фильтр книг с двумя и более авторами
+$books = $xpath->query('//book[php:function("has_multiple", author)]');
+
+echo "Книги с двумя и более авторами:\n";
+foreach ($books as $book) {
+    echo $book->getElementsByTagName("title")->item(0)->nodeValue . "\n";
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Книги з двома та більше авторами:
+```
+Книги с двумя и более авторами:
 PHP Basics
+```
 
 ### Дивіться також
 
-- [DOMXPath::registerNamespace()](domxpath.registernamespace.md) -
-Реєструє простір імен з об'єктом DOMXPath
-- [DOMXPath::query()](domxpath.query.md) - Виконує задане
-вираз XPath
-- [DOMXPath::evaluate()](domxpath.evaluate.md) - Обчислює
-переданий вираз XPath і повертає типізований результат,
-якщо можливо
+-   [DOMXPath::registerNamespace()](domxpath.registernamespace.html) - Реєструє простір імен з об'єктом DOMXPath
+-   [DOMXPath::query()](domxpath.query.html) - Виконує заданий вираз XPath
+-   [DOMXPath::evaluate()](domxpath.evaluate.html) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо

@@ -1,26 +1,33 @@
-- [« MongoDB\BSON\Timestamp::\_\_toString](mongodb-bson-timestamp.tostring.md)
-- [MongoDB\BSON\UTCDateTime »](class.mongodb-bson-utcdatetime.md)
+Десеріалізує Timestamp
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
-- Десеріалізує Timestamp
+-   [« MongoDB\\BSON\\Timestamp::\_\_toString](mongodb-bson-timestamp.tostring.html)
+    
+-   [MongoDB\\BSON\\UTCDateTime »](class.mongodb-bson-utcdatetime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
+    
+-   Десеріалізує Timestamp
+    
 
-# MongoDB\BSON\Timestamp::unserialize
+# MongoDBBSONTimestamp::unserialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Timestamp::unserialize - Десеріалізує Timestamp
+MongoDBBSONTimestamp::unserialize — Десеріалізує Timestamp
 
 ### Опис
 
-final public **MongoDB\BSON\Timestamp::unserialize**(string
-`$serialized`): void
+```methodsynopsis
+final public MongoDB\BSON\Timestamp::unserialize(string $serialized): void
+```
 
 ### Список параметрів
 
 `serialized`
-Серіалізований
-[MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md).
+
+Серіалізований [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.html)
 
 ### Значення, що повертаються
 
@@ -28,21 +35,12 @@ final public **MongoDB\BSON\Timestamp::unserialize**(string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Видає
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md),
-якщо властивості не можуть бути не серіалізовані (наприклад, `serialized`
-був неправильно сформований).
-- Видає
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md),
-якщо властивості неприпустимі (наприклад, відсутні поля або
-неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Видає [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути не серіалізовані (наприклад, `serialized` був неправильно сформований).
+-   Видає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
 
 ### Дивіться також
 
-- [MongoDB\BSON\Timestamp::serialize()](mongodb-bson-timestamp.serialize.md) -
-Серіалізує Timestamp
-- [unserialize()](function.unserialize.md) - Створює PHP-значення з
-збереженого уявлення
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\Timestamp::serialize()](mongodb-bson-timestamp.serialize.html) - Серіалізує Timestamp
+-   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
+-   [Сериализация объектов](language.oop5.serialization.html)

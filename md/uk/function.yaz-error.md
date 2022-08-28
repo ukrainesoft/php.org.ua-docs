@@ -1,38 +1,41 @@
-- [« yaz_errno](function.yaz-errno.md)
-- [yaz_es_result »](function.yaz-es-result.md)
+Повертає опис помилки
 
-- [PHP Manual](index.md)
-- [Функції YAZ](ref.yaz.md)
-- Повертає опис помилки
+-   [« yaz\_errno](function.yaz-errno.html)
+    
+-   [yaz\_es\_result »](function.yaz-es-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции YAZ](ref.yaz.html)
+    
+-   Повертає опис помилки
+    
 
-# yaz_error
+# yazerror
 
-(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
+(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
 
-yaz_error — Повертає опис помилки
+yazerror — Повертає опис помилки
 
 ### Опис
 
-**yaz_error**(resource `$id`): string
+```methodsynopsis
+yaz_error(resource $id): string
+```
 
-**yaz_error()** повертає текстове повідомлення англійською мовою,
-відповідне останньому номеру помилки, поверненому
-[yaz_errno()](function.yaz-errno.md).
+**yazerror()** повертає текстове повідомлення англійською мовою, що відповідає останньому номеру помилки, поверненому [yaz\_errno()](function.yaz-errno.html)
 
 ### Список параметрів
 
 `id`
-Ресурс підключення, що повертається
-[yaz_connect()](function.yaz-connect.md).
+
+Ресурс підключення, що повертається [yaz\_connect()](function.yaz-connect.html)
 
 ### Значення, що повертаються
 
-Повертає текстове повідомлення про помилку для сервера (останній запит),
-з ідентифікатором `id`. Якщо остання операція пройшла успішно,
-повертається порожній рядок.
+Повертає текстове повідомлення про помилку для сервера (останній запит) з ідентифікатором `id`. Якщо остання операція пройшла успішно, повертається порожній рядок.
 
 ### Дивіться також
 
-- [yaz_errno()](function.yaz-errno.md) - Повертає номер помилки
-- [yaz_addinfo()](function.yaz-addinfo.md) - Повертає
-додаткову інформацію у разі виникнення помилки
+-   [yaz\_errno()](function.yaz-errno.html) - Повертає номер помилки
+-   [yaz\_addinfo()](function.yaz-addinfo.html) - Повертає додаткову інформацію у разі виникнення помилки

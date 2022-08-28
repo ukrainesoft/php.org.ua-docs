@@ -1,70 +1,87 @@
-- [« ldap_free_result](function.ldap-free-result.md)
-- [ldap_get_dn »](function.ldap-get-dn.md)
+Отримує атрибути із запису у результатах пошуку
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Отримує атрибути із запису в результатах пошуку
+-   [« ldap\_free\_result](function.ldap-free-result.html)
+    
+-   [ldap\_get\_dn »](function.ldap-get-dn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Отримує атрибути із запису у результатах пошуку
+    
 
-#ldap_get_attributes
+# ldapgetattributes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldap_get_attributes — Отримує атрибути із запису в результатах пошуку
+ldapgetattributes — Отримує атрибути із запису в результатах пошуку
 
 ### Опис
 
-**ldap_get_attributes**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, LDAP\ResultEntry `$entry`): array
+```methodsynopsis
+ldap_get_attributes(LDAP\Connection $ldap, LDAP\ResultEntry $entry): array
+```
 
-Читає атрибути та значення із запису в результатах пошуку.
+Читає атрибути та значення із запису у результатах пошуку.
 
-Визначивши місцезнаходження певного запису в каталозі, ви можете
-дізнатися, яка інформація зберігається для цього запису, використовуючи цю функцію.
-Ви повинні використовувати цю функцію для програми, яка
-"переглядає" записи каталогу та/або де структура записів каталогу
-невідома. У багатьох програмах ви будете шукати певний атрибут,
-такий як адреса електронної пошти або прізвище, не торкаючись інших
-дані.
+Визначивши розташування певного запису в каталозі, ви можете дізнатися, яка інформація зберігається для цього запису, використовуючи цю функцію. Ви повинні використовувати цю функцію для програми, яка "переглядає" записи каталогу та/або де структура записів каталогу невідома. У багатьох програмах ви шукатимете певний атрибут, такий як адреса електронної пошти або прізвище, не торкаючись інших даних.
 
-return_value["count"] = число атрибутів у записі
-return_value[0] = перший атрибут
-return_value[n] = n-ий атрибут
+```
+return_value["count"] = число атрибутов в записи
+return_value[0] = первый атрибут
+return_value[n] = n-ый атрибут
 
-return_value["attribute"]["count"] = число значень атрибута
-return_value["attribute"][0] = перше значення атрибута
-return_value["attribute"][i] = (i+1) значення атрибута
+return_value["attribute"]["count"] = число значений атрибута
+return_value["attribute"][0] = первое значение атрибута
+return_value["attribute"][i] = (i+1)-ое значение атрибута
+```
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `entry`
-Примірник [LDAP\ResultEntry](class.ldap-result-entry.md).
+
+Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html)
 
 ### Значення, що повертаються
 
-Повертає повну інформацію запису в багатовимірний масив у разі
-успішного виконання та **`false`** у разі виникнення помилки.
+Повертає повну інформацію запису в багатовимірний масив у разі успішного виконання та **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)).    |
-| 8.1.0  | Параметр entry тепер чекає на екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Відображає список атрибутів, які відповідають визначеній
-записи директорії**
+**Приклад #1 Показує список атрибутів, які відповідають певному запису директорії**
 
-` <?php// $ds - ідентифікатор посилання для директорії// $sr - дійсний результат Пошуку із запиту// к директорії ldap$entry = ldap_first_ent$$ );echo $attrs["count"] . " атрибути, відповідні цього запису:<p>";for ($i=0; $i < $attrs["count"]; $i++) {    echo $attrs[$i] . "<br />";}?> `
+```php
+<?php
+// $ds допустимый экземпляр LDAP\Connection
+
+// $sr - действительный результат поиска из запроса
+// к директории ldap
+
+$entry = ldap_first_entry($ds, $sr);
+
+$attrs = ldap_get_attributes($ds, $entry);
+
+echo $attrs["count"] . " атрибуты, соответствующие этой записи:<p>";
+
+for ($i=0; $i < $attrs["count"]; $i++) {
+    echo $attrs[$i] . "<br />";
+}
+?>
+```
 
 ### Дивіться також
 
-- [ldap_first_attribute()](function.ldap-first-attribute.md) -
-Повернути перший атрибут
-- [ldap_next_attribute()](function.ldap-next-attribute.md) -
-Отримати наступний атрибут із результату
+-   [ldap\_first\_attribute()](function.ldap-first-attribute.html) - Повернути перший атрибут
+-   [ldap\_next\_attribute()](function.ldap-next-attribute.html) - Отримати наступний атрибут із результату

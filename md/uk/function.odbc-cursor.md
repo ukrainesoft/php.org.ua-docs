@@ -1,28 +1,36 @@
-- [«odbc_connect](function.odbc-connect.md)
-- [odbc_data_source »](function.odbc-data-source.md)
+Повертає ім'я курсору
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Повертає ім'я курсору
+-   [« odbc\_connect](function.odbc-connect.html)
+    
+-   [odbc\_data\_source »](function.odbc-data-source.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Повертає ім'я курсору
+    
 
-#odbc_cursor
+# odbccursor
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_cursor — Повертає ім'я курсору
+odbccursor — Повертає ім'я курсору
 
 ### Опис
 
-**odbc_cursor**(resource `$statement`): string\|false
+```methodsynopsis
+odbc_cursor(resource $statement): string|false
+```
 
-Повертає ім'я курсору для даного result_id.
+Повертає ім'я курсору для даного resultid.
 
 ### Список параметрів
 
 `statement`
+
 Ідентифікатор результату.
 
 ### Значення, що повертаються
 
-Повертає ім'я курсора у вигляді рядка або **`false`** у разі
-виникнення помилки.
+Повертає ім'я курсора у вигляді рядка або **`false`** у разі виникнення помилки.

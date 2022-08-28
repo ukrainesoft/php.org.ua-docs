@@ -1,28 +1,38 @@
-- [« Функції phpdbg](ref.phpdbg.md)
-- [phpdbg_break_function »](function.phpdbg-break-function.md)
+Додати точку переривання на конкретний рядок файлу
 
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- Додати точку переривання на конкретний рядок файлу
+-   [« Функции phpdbg](ref.phpdbg.html)
+    
+-   [phpdbg\_break\_function »](function.phpdbg-break-function.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции phpdbg](ref.phpdbg.html)
+    
+-   Додати точку переривання на конкретний рядок файлу
+    
 
-# phpdbg_break_file
+# phpdbgbreakfile
 
-(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
+(PHP 5> = 5.6.3, PHP 7, PHP 8)
 
-phpdbg_break_file — Додати точку переривання на конкретний рядок файлу
+phpdbgbreakfile — Додати точку переривання на конкретний рядок файлу
 
 ### Опис
 
-**phpdbg_break_file**(string `$file`, int `$line`): void
+```methodsynopsis
+phpdbg_break_file(string $file, int $line): void
+```
 
-Додає точку переривання на рядок `line` файлу `file`.
+Додає точку переривання на рядок `line` файлу `file`
 
 ### Список параметрів
 
 `file`
+
 Ім'я файлу.
 
 `line`
+
 Номер рядка.
 
 ### Значення, що повертаються
@@ -31,11 +41,7 @@ phpdbg_break_file — Додати точку переривання на кон
 
 ### Дивіться також
 
-- [phpdbg_break_function()](function.phpdbg-break-function.md) -
-Додати точку переривання на виклик функції
-- [phpdbg_break_method()](function.phpdbg-break-method.md) -
-Додати точку переривання на виклик методу класу
-- [phpdbg_break_next()](function.phpdbg-break-next.md) - Додати
-точку переривання на наступний опкод
-- [phpdbg_clear()](function.phpdbg-clear.md) - Забрати всі точки
-переривання
+-   [phpdbg\_break\_function()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
+-   [phpdbg\_break\_method()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
+-   [phpdbg\_break\_next()](function.phpdbg-break-next.html) - Додати точку переривання на наступний опкод
+-   [phpdbg\_clear()](function.phpdbg-clear.html) - Прибрати всі точки переривання

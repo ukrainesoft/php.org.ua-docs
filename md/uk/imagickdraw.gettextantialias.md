@@ -1,28 +1,33 @@
-- [« ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.md)
-- [ImagickDraw::getTextDecoration »](imagickdraw.gettextdecoration.md)
+Повертає поточне налаштування згладжування тексту
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає поточне настроювання згладжування тексту
+-   [« ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.html)
+    
+-   [ImagickDraw::getTextDecoration »](imagickdraw.gettextdecoration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає поточне налаштування згладжування тексту
+    
 
 # ImagickDraw::getTextAntialias
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickDraw::getTextAntialias — Повертає поточне налаштування згладжування
-тексту
+ImagickDraw::getTextAntialias — Повертає поточне налаштування згладжування тексту
 
 ### Опис
 
-public **ImagickDraw::getTextAntialias**(): bool
+```methodsynopsis
+public ImagickDraw::getTextAntialias(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Повертає поточне настроювання згладжування тексту, яке визначає,
-чи є текст згладженим. За промовчанням згладжування тексту увімкнено.
+Повертає поточне налаштування згладжування тексту, яке визначає, чи текст є згладженим. За умовчанням згладжування тексту увімкнено.
 
 ### Значення, що повертаються
 

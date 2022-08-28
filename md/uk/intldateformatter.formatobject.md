@@ -1,98 +1,109 @@
-- [« IntlDateFormatter::format](intldateformatter.format.md)
-- [IntlDateFormatter::getCalendar »](intldateformatter.getcalendar.md)
+Форматує об'єкт
 
-- [PHP Manual](index.md)
-- [IntlDateFormatter](class.intldateformatter.md)
-- Форматує об'єкт
+-   [« IntlDateFormatter::format](intldateformatter.format.html)
+    
+-   [IntlDateFormatter::getCalendar »](intldateformatter.getcalendar.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlDateFormatter](class.intldateformatter.html)
+    
+-   Форматує об'єкт
+    
 
 # IntlDateFormatter::formatObject
 
-# datefmt_format_object
+# datefmtformatobject
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL intl >= 3.0.0)
 
-IntlDateFormatter::formatObject -- datefmt_format_object — Форматує
-об'єкт
+IntlDateFormatter::formatObject -- datefmtformatobject — Форматує об'єкт
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public static
-**IntlDateFormatter::formatObject**([IntlCalendar](class.intlcalendar.md)\|[DateTime](class.datetime.md)
-`$datetime`, array\|int\|string\|null `$format` = **`null`**, ?string
-`$locale` = **`null`**): string\|false
+```methodsynopsis
+public static IntlDateFormatter::formatObject(IntlCalendar|DateTimeInterface $datetime, array|int|string|null $format = null, ?string $locale = null): string|false
+```
 
 Процедурний стиль
 
-**datefmt_format_object**([IntlCalendar](class.intlcalendar.md)\|[DateTimeInterface](class.datetimeinterface.md)
-`$datetime`, array\|int\|string\|null `$format` = **`null`**, ?string
-`$locale` = **`null`**): string\|false
+```methodsynopsis
+datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string|null $format = null, ?string $locale = null): string|false
+```
 
-Функція дозволяє форматувати об'єкт
-[IntlCalendar](class.intlcalendar.md) або
-[DateTime](class.datetime.md) без попереднього явного створення
-об'єкта [IntlDateFormatter](class.intldateformatter.md).
+Функція дозволяє форматувати об'єкт [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.html) без попереднього явного створення об'єкта [IntlDateFormatter](class.intldateformatter.html)
 
-Тимчасовий [IntlDateFormatter](class.intldateformatter.md), який
-буде створено, приймає часовий пояс із переданого об'єкта. База даних
-часових поясів, пов'язана з PHP, не використовуватиметься - замість неї
-використовуватиметься ICU. Отже, ідентифікатор часового поясу,
-використовуваний в об'єктах [DateTime](class.datetime.md), також повинен
-існувати у базі даних ICU.
+Тимчасовий [IntlDateFormatter](class.intldateformatter.html), який буде створено, приймає часовий пояс із переданого об'єкта. База даних часових поясів, пов'язана з PHP, не використовуватиметься - замість неї використовуватиметься ICU. Отже, ідентифікатор часового поясу, який використовується в об'єктах [DateTime](class.datetime.html), також має існувати у базі даних ICU.
 
 ### Список параметрів
 
 `datetime`
-Об'єкт типу [IntlCalendar](class.intlcalendar.md) або
-[DateTime](class.datetime.md). Використовуватиметься інформація про
-часовий пояс в об'єкті.
+
+Об'єкт типу [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.html). Використовуватиметься інформація про часовий пояс в об'єкті.
 
 `format`
-Як відформатувати дату/час. Можливо або масив (array) з двома
-елементами (спочатку стиль дати, потім стиль часу, може бути одна з
-констант: **`IntlDateFormatter::NONE`**, **`IntlDateFormatter::SHORT`**,
-**`IntlDateFormatter::MEDIUM`**, **`IntlDateFormatter::LONG`**,
-**`IntlDateFormatter::FULL`**), ціле число (int) зі значенням однієї з
-цих констант (у цьому випадку воно буде використовуватися як для часу,
-так і для дати) або рядок (string) у форматі, описаному в
-[» документації ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax).
-Якщо вказано значення **`null`**, буде використовуватися стиль
-замовчуванням.
+
+Як відформатувати дату/час. Можливо або масив (array) з двома елементами (спочатку стиль дати, потім стиль часу, може бути одна з констант: **`IntlDateFormatter::NONE`** **`IntlDateFormatter::SHORT`** **`IntlDateFormatter::MEDIUM`** **`IntlDateFormatter::LONG`** **`IntlDateFormatter::FULL`**), ціле число (int) зі значенням однієї з цих констант (у цьому випадку воно буде використовуватися як для часу, так і для дати) або рядок (string) у форматі, описаному в [» документации ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax). Якщо вказано значення **`null`**, використовуватиметься стиль за замовчуванням.
 
 `locale`
-Використовуваний мовний стандарт або **`null`** для використання
-[значення по замовчуванням](intl.configuration.md#ini.intl.default-locale).
+
+Використовуваний мовний стандарт або **`null`** для використання [значения по умолчанию](intl.configuration.html#ini.intl.default-locale)
 
 ### Значення, що повертаються
 
-Рядок із результатом або **`false`** у разі виникнення помилки.
+Рядок з результатом або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlDateFormatter::formatObject()****
 
-`<?php/* годинний пояс за мовчанням не має значення; годинний пояс взято з об'єкта */ini_set('date.timezone', 'UTC');/* мовний стандарт за мовчанням береться з цієї налаштування ini */ini_set('intl.' ::fromDateTime("2013-06-06 17:05:06 Europe/Dublin");echo "За замовчуванням:
-",        IntlDateFormatter::formatObject($cal),        "
-";echo "Повний запис: \$format (full):
-",         IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL),         "
-";echo "Масив: \$format (none, full):
-",|                                    
-";echo "Рядок: \$format (d 'of' MMMM y):
-",         IntlDateFormatter::formatObject($cal, "d 'of' MMMM y", 'en_US'),        "
-";echo "Об'єкт DateTime:
-",        IntlDateFormatter::formatObject(                new DateTime("2013-09-09 09:09:09 Europe/Madrid"),                IntlDateFormatter::FULL,                'es_ES'),        "
-";
+```php
+<?php
+/* часовой пояс по умолчанию не имеет значения; часовой пояс взят из объекта */
+ini_set('date.timezone', 'UTC');
+/* языковой стандарт по умолчанию берётся из этой настройки ini */
+ini_set('intl.default_locale', 'fr_FR');
+
+$cal = IntlCalendar::fromDateTime("2013-06-06 17:05:06 Europe/Dublin");
+echo "По умолчанию:\n\t",
+        IntlDateFormatter::formatObject($cal),
+        "\n";
+
+echo "Полная запись: \$format (full):\n\t",
+        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL),
+        "\n";
+
+echo "Массив: \$format (none, full):\n\t",
+        IntlDateFormatter::formatObject($cal, array(
+                IntlDateFormatter::NONE,
+                IntlDateFormatter::FULL)),
+        "\n";
+
+echo "Строка: \$format (d 'of' MMMM y):\n\t",
+        IntlDateFormatter::formatObject($cal, "d 'of' MMMM y", 'en_US'),
+        "\n";
+
+echo "Объект DateTime:\n\t",
+        IntlDateFormatter::formatObject(
+                new DateTime("2013-09-09 09:09:09 Europe/Madrid"),
+                IntlDateFormatter::FULL,
+                'es_ES'),
+        "\n";
+```
 
 Результат виконання цього прикладу:
 
-За замовчуванням:
-6 juin 2013 17:05:06
-Повний запис: $format (full):
-jeudi 6 juin 2013 17:05:06 heure d’été irlandaise
-Масив: $format (none, full):
-17:05:06 heure d’été irlandaise
-Рядок: $format (d 'of' MMMM y):
-6 of June 2013
-Об'єкт DateTime:
-lunes, 9 de septiembre de 2013 09:09:09 Hora de verano de Europa central
+```
+По умолчанию:
+    6 juin 2013 17:05:06
+Полная запись: $format (full):
+    jeudi 6 juin 2013 17:05:06 heure d’été irlandaise
+Массив: $format (none, full):
+    17:05:06 heure d’été irlandaise
+Строка: $format (d 'of' MMMM y):
+    6 of June 2013
+Объект DateTime:
+    lunes, 9 de septiembre de 2013 09:09:09 Hora de verano de Europa central
+```

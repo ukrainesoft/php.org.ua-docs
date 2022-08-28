@@ -1,53 +1,49 @@
-- [«db2_field_precision](function.db2-field-precision.md)
-- [db2_field_type »](function.db2-field-type.md)
+Повертає масштаб зазначеного стовпця у наборі результатів
 
-- [PHP Manual](index.md)
-- [Функції IBM DB2](ref.ibm-db2.md)
-- Повертає масштаб зазначеного стовпця у наборі результатів
+-   [« db2\_field\_precision](function.db2-field-precision.html)
+    
+-   [db2\_field\_type »](function.db2-field-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IBM DB2](ref.ibm-db2.html)
+    
+-   Повертає масштаб зазначеного стовпця у наборі результатів
+    
 
-#db2_field_scale
+# db2fieldscale
 
-(PECL ibm_db2 \>= 1.0.0)
+(PECL ibmdb2> = 1.0.0)
 
-db2_field_scale — Повертає масштаб вказаного стовпця у наборі
-результатів
+db2fieldscale — Повертає масштаб вказаного стовпця у наборі результатів
 
 ### Опис
 
-**db2_field_scale**(resource `$stmt`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$column`): int
+```methodsynopsis
+db2_field_scale(resource $stmt, mixed $column): int
+```
 
 Повертає масштаб вказаного стовпця у наборі результатів.
 
 ### Список параметрів
 
 `stmt`
+
 Задає ресурс оператора, що містить набір результатів.
 
 `column`
-Задає стовпець у наборі результатів. Це може бути ціле число,
-представляє індекс стовпця (починаючи з 0) або рядок, що містить ім'я
-стовпця.
+
+Задає стовпець у наборі результатів. Це може бути ціле число, що представляє індекс шпальти (починаючи з 0) або рядок, що містить ім'я шпальти.
 
 ### Значення, що повертаються
 
-Повертає ціле число, що містить масштаб вказаного стовпця. Якщо
-зазначений стовпець не існує у наборі результатів,
-**db2_field_scale()** повертає **`false`**.
+Повертає ціле число, що містить масштаб вказаного стовпця. Якщо зазначений стовпець не існує у наборі результатів, **db2fieldscale()** повертає **`false`**
 
 ### Дивіться також
 
-- [db2_field_display_size()](function.db2-field-display-size.md) -
-Повертає максимальну кількість байтів, необхідну для
-відображення стовпця
-- [db2_field_name()](function.db2-field-name.md) - Повертає ім'я
-стовпця у наборі результатів
-- [db2_field_num()](function.db2-field-num.md) - Повертає позицію
-зазначеного стовпця у наборі результатів
-- [db2_field_precision()](function.db2-field-precision.md) -
-Повертає точність зазначеного стовпця у наборі результатів
-- [db2_field_type()](function.db2-field-type.md) - Повертає тип
-даних вказаного стовпця у наборі результатів
-- [db2_field_width()](function.db2-field-width.md) - Повертає
-ширину поточного значення зазначеного стовпця у наборі результатів
+-   [db2\_field\_display\_size()](function.db2-field-display-size.html) - Повертає максимальну кількість байтів, необхідну для відображення стовпця
+-   [db2\_field\_name()](function.db2-field-name.html) - Повертає ім'я стовпця у наборі результатів
+-   [db2\_field\_num()](function.db2-field-num.html) - Повертає позицію зазначеного стовпця у наборі результатів
+-   [db2\_field\_precision()](function.db2-field-precision.html) - Повертає точність зазначеного стовпця у наборі результатів
+-   [db2\_field\_type()](function.db2-field-type.html) - Повертає тип даних зазначеного стовпця у наборі результатів
+-   [db2\_field\_width()](function.db2-field-width.html) - Повертає ширину поточного значення вказаного стовпця у наборі результатів

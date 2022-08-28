@@ -1,19 +1,27 @@
-- [« SplDoublyLinkedList::current](spldoublylinkedlist.current.md)
-- [SplDoublyLinkedList::isEmpty »](spldoublylinkedlist.isempty.md)
+Повертає режим ітерації
 
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- Повертає режим ітерації
+-   [« SplDoublyLinkedList::current](spldoublylinkedlist.current.html)
+    
+-   [SplDoublyLinkedList::isEmpty »](spldoublylinkedlist.isempty.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+    
+-   Повертає режим ітерації
+    
 
 # SplDoublyLinkedList::getIteratorMode
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::getIteratorMode — Повертає режим ітерації
 
 ### Опис
 
-public **SplDoublyLinkedList::getIteratorMode**(): int
+```methodsynopsis
+public SplDoublyLinkedList::getIteratorMode(): int
+```
 
 ### Список параметрів
 

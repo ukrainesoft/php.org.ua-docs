@@ -1,63 +1,63 @@
-- [« imap_rename](function.imap-rename.md)
-- [imap_reopen »](function.imap-reopen.md)
+Перейменувати поштову скриньку
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Перейменувати поштову скриньку
+-   [« imap\_rename](function.imap-rename.html)
+    
+-   [imap\_reopen »](function.imap-reopen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Перейменувати поштову скриньку
+    
 
-#imap_renamemailbox
+# imaprenamemailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_renamemailbox — Перейменувати поштову скриньку
+imaprenamemailbox — Перейменувати поштову скриньку
 
 ### Опис
 
-**imap_renamemailbox**([IMAP\Connection](class.imap-connection.md)
-`$imap`, string `$from`, string `$to`): bool
+```methodsynopsis
+imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
+```
 
-Ця функція перейменовує old_mbox на new_mbox (формат імені `mbox`
-дивіться в описі [imap_open()](function.imap-open.md)).
+Ця функція перейменовує oldmbox у newmbox (формат імені `mbox` дивіться в описі [imap\_open()](function.imap-open.html)
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `from`
-Старе ім'я. Докладніше читайте в описі
-[imap_open()](function.imap-open.md)
+
+Старе ім'я. Детальніше читайте в описі [imap\_open()](function.imap-open.html)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `to`
-Нове ім'я. Докладніше читайте в описі
-[imap_open()](function.imap-open.md)
+
+Нове ім'я Детальніше читайте в описі [imap\_open()](function.imap-open.html)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_createmailbox()](function.imap-createmailbox.md) - Створити
-нова поштова скринька
-- [imap_deletemailbox()](function.imap-deletemailbox.md) - Видалити
-Поштова скринька
+-   [imap\_createmailbox()](function.imap-createmailbox.html) - Створити нову поштову скриньку
+-   [imap\_deletemailbox()](function.imap-deletemailbox.html) - Видалити поштову скриньку

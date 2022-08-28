@@ -1,40 +1,55 @@
-- [« ArrayObject::natsort](arrayobject.natsort.md)
-- [ArrayObject::offsetGet »](arrayobject.offsetget.md)
+Повертає, чи існує зазначений індекс
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Повертає, чи існує зазначений індекс
+-   [« ArrayObject::natsort](arrayobject.natsort.html)
+    
+-   [ArrayObject::offsetGet »](arrayobject.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Повертає, чи існує зазначений індекс
+    
 
 # ArrayObject::offsetExists
 
 (PHP 5, PHP 7, PHP 8)
 
-ArrayObject::offsetExists — Повертає, чи вказаний індекс існує
+ArrayObject::offsetExists — Повертає, чи існує зазначений індекс
 
 ### Опис
 
-public
-**ArrayObject::offsetExists**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`): bool
+```methodsynopsis
+public ArrayObject::offsetExists(mixed $key): bool
+```
 
 ### Список параметрів
 
 `key`
-Індекс, який має бути перевірено.
+
+Індекс, який має бути перевірений.
 
 ### Значення, що повертаються
 
-**`true`**, якщо зазначений індекс існує, інакше
-**`false`**
+**`true`**якщо зазначений індекс існує, в іншому випадку **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayObject::offsetExists()****
 
-` <?php$arrayobj = new ArrayObject(array('zero', 'one', 'example'=>'e.g.'));var_dump($arrayobj->offsetExists(1));var_dump($arrayobj->offsetExists ('example'));var_dump($arrayobj->offsetExists('notfound'));?> `
+```php
+<?php
+$arrayobj = new ArrayObject(array('zero', 'one', 'example'=>'e.g.'));
+var_dump($arrayobj->offsetExists(1));
+var_dump($arrayobj->offsetExists('example'));
+var_dump($arrayobj->offsetExists('notfound'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 bool(true)
 bool(false)
+```

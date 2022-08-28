@@ -1,27 +1,33 @@
-- [« RecursiveTreeIterator::current](recursivetreeiterator.current.md)
-- [RecursiveTreeIterator::endIteration »](recursivetreeiterator.enditeration.md)
+Завершення навігації по нащадкам елемента
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Завершення навігації за нащадками елемента
+-   [« RecursiveTreeIterator::current](recursivetreeiterator.current.html)
+    
+-   [RecursiveTreeIterator::endIteration »](recursivetreeiterator.enditeration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+    
+-   Завершення навігації по нащадкам елемента
+    
 
 # RecursiveTreeIterator::endChildren
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-RecursiveTreeIterator::endChildren — Завершення навігації за нащадками
-елемента
+RecursiveTreeIterator::endChildren — Завершення навігації по нащадкам елемента
 
 ### Опис
 
-public **RecursiveTreeIterator::endChildren**(): void
+```methodsynopsis
+public RecursiveTreeIterator::endChildren(): void
+```
 
 Викликається коли дочірні елементи одного рівня закінчилися.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

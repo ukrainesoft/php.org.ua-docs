@@ -1,49 +1,49 @@
-- [«msg_receive](function.msg-receive.md)
-- [msg_send »](function.msg-send.md)
+Видалення черги повідомлень
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Видалення черги повідомлень
+-   [« msg\_receive](function.msg-receive.html)
+    
+-   [msg\_send »](function.msg-send.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Видалення черги повідомлень
+    
 
-# msg_remove_queue
+# msgremovequeue
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-msg_remove_queue — Видалення черги повідомлень
+msgremovequeue — Видалення черги повідомлень
 
 ### Опис
 
-**msg_remove_queue**([SysvMessageQueue](class.sysvmessagequeue.md)
-`$queue`): bool
+```methodsynopsis
+msg_remove_queue(SysvMessageQueue $queue): bool
+```
 
-**msg_remove_queue()** видаляє чергу повідомлень, зазначену у параметрі
-`Queue`. Використовуйте цю функцію тільки тоді, коли всі, хто використовував
-черга повідомлень процеси завершили роботу з нею і вам необхідно
-звільнити системні ресурси.
+**msgremovequeue()** видаляє чергу повідомлень, зазначену у параметрі `queue`. Використовуйте цю функцію тільки тоді, коли всі процеси, що використовували чергу повідомлень, завершили роботу з нею і вам необхідно звільнити системні ресурси.
 
 ### Список параметрів
 
 `queue`
+
 Черга повідомлень.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                        |
-| ------ | --------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр queue тепер очікує на екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [msg_get_queue()](function.msg-get-queue.md) - Створення або
-підключення до черги повідомлень
-- [msg_receive()](function.msg-receive.md) - Отримання повідомлення з
-черги повідомлень
-- [msg_stat_queue()](function.msg-stat-queue.md) - Отримання
-інформації із структури даних черги повідомлень
-- [msg_set_queue()](function.msg-set-queue.md) - Встановлення
-інформації у структурі даних черги повідомлень
+-   [msg\_get\_queue()](function.msg-get-queue.html) - Створення або підключення до черги повідомлень
+-   [msg\_receive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
+-   [msg\_stat\_queue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
+-   [msg\_set\_queue()](function.msg-set-queue.html) - Встановлення інформації у структурі даних черги повідомлень

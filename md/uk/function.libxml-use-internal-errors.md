@@ -1,57 +1,79 @@
-- [« libxml_set_streams_context](function.libxml-set-streams-context.md)
-- [SimpleXML »](book.simplexml.md)
+Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 
-- [PHP Manual](index.md)
-- [Функції libxml](ref.libxml.md)
-- Відключення помилок libxml та передача повноважень щодо вибірки та
-обробці інформації про помилки користувачеві
+-   [« libxml\_set\_streams\_context](function.libxml-set-streams-context.html)
+    
+-   [SimpleXML »](book.simplexml.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции libxml](ref.libxml.html)
+    
+-   Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+    
 
-# libxml_use_internal_errors
+# libxmluseinternalerrors
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-libxml_use_internal_errors — Вимкнення помилок libxml та надсилання
-повноважень щодо вибірки та обробки інформації про помилки користувачеві
+libxmluseinternalerrors — Вимкнення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 
 ### Опис
 
-**libxml_use_internal_errors**(?bool `$use_errors` = **`null`**): bool
+```methodsynopsis
+libxml_use_internal_errors(?bool $use_errors = null): bool
+```
 
-**libxml_use_internal_errors()** дозволяє вимкнути стандартні помилки
-libxml і включити користувальницьку обробку помилок.
+**libxmluseinternalerrors()** дозволяє вимкнути стандартні помилки libxml і включити користувальницьку обробку помилок.
 
 ### Список параметрів
 
 `use_errors`
-Включає (**`true`**) користувальницьку обробку помилок або відключає її
-(**`false`**). Вимкнення також очищає всі поточні помилки libxml.
+
+Включає (**`true`**) користувальницьку обробку помилок або відключає її (**`false`**). Вимкнення також очищає всі поточні помилки libxml.
 
 ### Значення, що повертаються
 
-Ця функція повертає попереднє значення параметра `use_errors`.
+Ця функція повертає попереднє значення параметра `use_errors`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                      |
-|--------|-------------------------------------------------------------------------------------------|
-| 8.0.0  | use_errors тепер припускає значення null. Раніше значенням за замовчуванням було "false". |
+| Версия | Описание |
+| --- | --- |
+|  | `use_errors` тепер допускає значення null. Раніше значенням за умовчанням було **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **libxml_use_internal_errors()****
+**Приклад #1 Приклад використання **libxmluseinternalerrors()****
 
-Цей приклад демонструє основне використання помилок libxml та
-значення, яке повертає ця функція.
+Цей приклад демонструє основне використання помилок libxml та значення, яке повертає ця функція.
 
-`<?php// включення обробки помилок користувачемvar_dump(libxml_use_internal_errors(true));// завантаження документа$doc = new DOMDocument;if (!$doc->load('file.xml')   $error) { {        // обробка помилок тут    }    libxml_clear_errors();}?> `
+```php
+<?php
+
+// включение обработки ошибок пользователем
+var_dump(libxml_use_internal_errors(true));
+
+// загрузка документа
+$doc = new DOMDocument;
+
+if (!$doc->load('file.xml')) {
+    foreach (libxml_get_errors() as $error) {
+        // обработка ошибок здесь
+    }
+
+    libxml_clear_errors();
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
+```
 
 ### Дивіться також
 
-- [libxml_clear_errors()](function.libxml-clear-errors.md) - Очистка
-буфер помилок libxml
-- [libxml_get_errors()](function.libxml-get-errors.md) - Отримання
-масиву помилок, що відбулися
+-   [libxml\_clear\_errors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml
+-   [libxml\_get\_errors()](function.libxml-get-errors.html) - Отримання масиву помилок, що відбулися.

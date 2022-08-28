@@ -1,34 +1,40 @@
-- [«radius_demangle_mppe_key](function.radius-demangle-mppe-key.md)
-- [radius_get_attr »](function.radius-get-attr.md)
+Розшифровує дані
 
-- [PHP Manual](index.md)
-- [Функції Radius](ref.radius.md)
-- Розшифровує дані
+-   [« radius\_demangle\_mppe\_key](function.radius-demangle-mppe-key.html)
+    
+-   [radius\_get\_attr »](function.radius-get-attr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Radius](ref.radius.html)
+    
+-   Розшифровує дані
+    
 
-# radius_demangle
+# radiusdemangle
 
-(PECL radius \>= 1.2.0)
+(PECL radius >= 1.2.0)
 
-radius_demangle - Розшифровує дані
+radiusdemangle - Розшифровує дані
 
 ### Опис
 
-**radius_demangle**(resource `$radius_handle`, string `$mangled`):
-string
+```methodsynopsis
+radius_demangle(resource $radius_handle, string $mangled): string
+```
 
-Деякі дані (паролі, MS-CHAPv1 MPPE-ключі) спотворені з міркувань
-безпеки та їх необхідно розшифрувати, перш ніж ви зможете їх
-використовувати.
+Деякі дані (паролі, MS-CHAPv1 MPPE-ключі) спотворені з міркувань безпеки та їх необхідно розшифрувати, перш ніж ви зможете їх використовувати.
 
 ### Список параметрів
 
 `radius_handle`
+
 Ресурс RADIUS
 
 `mangled`
+
 Спотворені дані, які потрібно розшифрувати.
 
 ### Значення, що повертаються
 
-Повертає розшифрований рядок або **`false`** у разі виникнення
-помилки.
+Повертає розшифрований рядок або **`false`** у разі виникнення помилки.

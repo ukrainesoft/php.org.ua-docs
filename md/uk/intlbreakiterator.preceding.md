@@ -1,25 +1,31 @@
-- [« IntlBreakIterator::next](intlbreakiterator.next.md)
-- [IntlBreakIterator::previous »](intlbreakiterator.previous.md)
+Встановлює позицію ітератора до першого кордону перед усуненням
 
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Встановлює позицію ітератора до першого кордону перед усуненням
+-   [« IntlBreakIterator::next](intlbreakiterator.next.html)
+    
+-   [IntlBreakIterator::previous »](intlbreakiterator.previous.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlBreakIterator](class.intlbreakiterator.html)
+    
+-   Встановлює позицію ітератора до першого кордону перед усуненням
+    
 
 # IntlBreakIterator::preceding
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::preceding — Встановлює позицію ітератора до першої
-кордону перед усуненням
+IntlBreakIterator::preceding — Встановлює позицію ітератора до першого кордону перед усуненням
 
 ### Опис
 
-public **IntlBreakIterator::preceding**(int `$offset`): int
+```methodsynopsis
+public IntlBreakIterator::preceding(int $offset): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

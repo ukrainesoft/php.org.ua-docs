@@ -1,20 +1,27 @@
-- [«Generator](class.generator.md)
-- [Generator::getReturn »](generator.getreturn.md)
+Отримати поточне значення генератора
 
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Отримати поточне значення генератора
+-   [« Generator](class.generator.html)
+    
+-   [Generator::getReturn »](generator.getreturn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Generator](class.generator.html)
+    
+-   Отримати поточне значення генератора
+    
 
 # Generator::current
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 Generator::current — Отримати поточне значення генератора
 
 ### Опис
 
-public **Generator::current**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Generator::current(): mixed
+```
 
 ### Список параметрів
 

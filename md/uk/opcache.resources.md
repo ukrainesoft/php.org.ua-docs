@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](opcache.configuration.md)
-- [Preloading »](opcache.preloading.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](opcache.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](opcache.configuration.html)
+    
+-   [Preloading »](opcache.preloading.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](opcache.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

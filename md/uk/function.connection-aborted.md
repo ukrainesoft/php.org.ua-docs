@@ -1,19 +1,27 @@
-- [« Різні функції](ref.misc.md)
-- [connection_status »](function.connection-status.md)
+Перевірити, чи клієнт вимкнено
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Перевірити, чи відключено клієнта
+-   [« Разные функции](ref.misc.html)
+    
+-   [connection\_status »](function.connection-status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разные функции](ref.misc.html)
+    
+-   Перевірити, чи клієнт вимкнено
+    
 
-# connection_aborted
+# connectionaborted
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-connection_aborted — Перевірити, чи клієнт вимкнено
+connectionaborted — Перевірити, чи клієнт вимкнено
 
 ### Опис
 
-**connection_aborted**(): int
+```methodsynopsis
+connection_aborted(): int
+```
 
 Перевіряє, чи клієнт вимкнено.
 
@@ -27,9 +35,6 @@ connection_aborted — Перевірити, чи клієнт вимкнено
 
 ### Дивіться також
 
-- [connection_status()](function.connection-status.md) - Повертає
-статус з'єднання в бітах
-- [ignore_user_abort()](function.ignore-user-abort.md) - Встановити,
-чи має відключення клієнта переривати виконання скрипту
-- Дивіться [Управління підключеннями](features.connection-handling.md) для отримання
-повного опису управління підключеннями PHP.
+-   [connection\_status()](function.connection-status.html) - Повертає статус з'єднання у бітах
+-   [ignore\_user\_abort()](function.ignore-user-abort.html) - Встановити, чи має відключення клієнта переривати виконання скрипту
+-   Дивіться [Управление подключениями](features.connection-handling.html) для отримання повного опису управління підключення PHP.

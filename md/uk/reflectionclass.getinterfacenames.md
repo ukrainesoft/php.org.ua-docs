@@ -1,21 +1,29 @@
-- [« ReflectionClass::getFileName](reflectionclass.getfilename.md)
-- [ReflectionClass::getInterfaces »](reflectionclass.getinterfaces.md)
+Повертає імена інтерфейсів
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Повертає імена інтерфейсів
+-   [« ReflectionClass::getFileName](reflectionclass.getfilename.html)
+    
+-   [ReflectionClass::getInterfaces »](reflectionclass.getinterfaces.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Повертає імена інтерфейсів
+    
 
 # ReflectionClass::getInterfaceNames
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
 ReflectionClass::getInterfaceNames — Повертає імена інтерфейсів
 
 ### Опис
 
-public **ReflectionClass::getInterfaceNames**(): array
+```methodsynopsis
+public ReflectionClass::getInterfaceNames(): array
+```
 
-Повертає імена.
+Повертає імена інтерфейсів.
 
 ### Список параметрів
 
@@ -27,20 +35,32 @@ public **ReflectionClass::getInterfaceNames**(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**ReflectionClass::getInterfaceNames()****
+**Приклад #1 Приклад використання **ReflectionClass::getInterfaceNames()****
 
-`<?phpinterface Foo { }interface Bar { }class Baz implements Foo, Bar { }$rc1 = new ReflectionClass("Baz");print_r($rc1->getInterfaceNames());?>
+```php
+<?php
+interface Foo { }
+
+interface Bar { }
+
+class Baz implements Foo, Bar { }
+
+$rc1 = new ReflectionClass("Baz");
+
+print_r($rc1->getInterfaceNames());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Foo
-[1] => Bar
+    [0] => Foo
+    [1] => Bar
 )
+```
 
 ### Дивіться також
 
-- [ReflectionClass::getInterfaces()](reflectionclass.getinterfaces.md) -
-Повертає інтерфейси
+-   [ReflectionClass::getInterfaces()](reflectionclass.getinterfaces.html) - Повертає інтерфейси

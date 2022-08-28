@@ -1,81 +1,57 @@
-- [« mqseries_strerror](function.mqseries-strerror.md)
-- [Вступ »](intro.network.md)
+Мережа
 
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
+-   [« mqseries\_strerror](function.mqseries-strerror.html)
+    
+-   [Введение »](intro.network.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие службы](refs.remote.other.html)
+    
 -   Мережа
+    
 
 # Мережа
 
-- [Вступ](intro.network.md)
-- [Встановлення та налаштування](network.setup.md)
-- [Вимоги](network.requirements.md)
-- [Установка](network.installation.md)
-- [Налаштування під час виконання](network.configuration.md)
-- [Типи ресурсів](network.resources.md)
-- [Предвизначені константи](network.constants.md)
-- [Мережні функції](ref.network.md)
-- [checkdnsrr](function.checkdnsrr.md) — Перевірка записів DNS,
-відповідні переданому імені вузла Інтернету або IP-адреси
-- [closelog](function.closelog.md) — Закриває з'єднання з
-системним журналом
-- [dns_check_record](function.dns-check-record.md) - Псевдонім
-checkdnsrr
-- [dns_get_mx](function.dns-get-mx.md) - Псевдонім getmxrr
-- [dns_get_record](function.dns-get-record.md) — Отримання
-ресурсних записів DNS хоста
-- [fsockopen](function.fsockopen.md) — Відкриває з'єднання з
-інтернет-сокетом або доменним сокетом Unix
-- [gethostbyaddr](function.gethostbyaddr.md) — Отримує доменне
-ім'я хоста, що відповідає переданій IP-адресі
-- [gethostbyname](function.gethostbyname.md) — Отримує
-IPv4-адреса, що відповідає переданому імені хоста
-- [gethostbynamel](function.gethostbynamel.md) — Отримує список
-IPv4-адрес, що відповідають переданому доменному імені хоста
-- [gethostname](function.gethostname.md) — Отримує ім'я хоста
-- [getmxrr](function.getmxrr.md) — Отримує записи MX,
-відповідні переданому доменному імені хоста
-- [getprotobyname](function.getprotobyname.md) — Отримує номер
-протоколу на ім'я
-- [getprotobynumber](function.getprotobynumber.md) — Отримує
-ім'я протоколу за номером
-- [getservbyname](function.getservbyname.md) — Отримує номер
-порту, пов'язаного з інтернет-службою та протоколом
-- [getservbyport](function.getservbyport.md) — Отримує
-інтернет-службу, що відповідає заданому порту та протоколу
-- [header_register_callback](function.header-register-callback.md)
-- Викликає функцію заголовка
-- [header_remove](function.header-remove.md) — Видаляє раніше
-встановлені заголовки
-- [header](function.header.md) — Надсилання заголовка HTTP
-- [headers_list](function.headers-list.md) — Повертає список
-переданих заголовків (або готових до відправлення)
-- [headers_sent](function.headers-sent.md) — Перевіряє, чи були вони
-надіслано заголовки
-- [http_response_code](function.http-response-code.md) -
-Отримує або встановлює код відповіді HTTP
-- [inet_ntop](function.inet-ntop.md) — Конвертує упакований
-інтернет-адреса в формат, що читається
-- [inet_pton](function.inet-pton.md) - Конвертує читаний
-IP-адреса в його упакованому представленні in_addr
-- [ip2long](function.ip2long.md) — Конвертує рядок,
-містить IPv4-адресу в ціле число
-- [long2ip](function.long2ip.md) - Конвертує ціле число в
-IPv4-адреса
-- [net_get_interfaces](function.net-get-interfaces.md) -
-Отримує мережеві інтерфейси
-- [openlog](function.openlog.md) — Відкриває підключення до
-системному журналу
-- [pfsockopen](function.pfsockopen.md) - Відкриває постійне
-з'єднання з інтернет-сокетом або доменним сокетом Unix
-- [setcookie](function.setcookie.md) — Надсилає cookie
-- [setrawcookie](function.setrawcookie.md) — Надсилає cookie
-без URL-кодування значення
-- [socket_get_status](function.socket-get-status.md) - Псевдонім
-stream_get_meta_data
-- [socket_set_blocking](function.socket-set-blocking.md) -
-Псевдонім stream_set_blocking
-- [socket_set_timeout](function.socket-set-timeout.md) -
-Псевдонім stream_set_timeout
-- [syslog](function.syslog.md) — Генерує повідомлення для
-системного журналу
+-   [Введение](intro.network.html)
+-   [Установка и настройка](network.setup.html)
+    -   [Требования](network.requirements.html)
+    -   [Установка](network.installation.html)
+    -   [Настройка во время выполнения](network.configuration.html)
+    -   [Типы ресурсов](network.resources.html)
+-   [Предопределённые константы](network.constants.html)
+-   [Сетевые функции](ref.network.html)
+    -   [checkdnsrr](function.checkdnsrr.html) — Перевіряє записи DNS, які відповідають переданому імені вузла Інтернету або IP-адресі
+    -   [closelog](function.closelog.html) — Закриває з'єднання із системним журналом
+    -   [dns\_check\_record](function.dns-check-record.html) - Псевдонім checkdnsrr
+    -   [dns\_get\_mx](function.dns-get-mx.html) - Псевдонім getmxrr
+    -   [dns\_get\_record](function.dns-get-record.html) — Отримання ресурсних записів DNS хоста
+    -   [fsockopen](function.fsockopen.html) — Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+    -   [gethostbyaddr](function.gethostbyaddr.html) — Отримує доменне ім'я хоста, яке відповідає переданій IP-адресі
+    -   [gethostbyname](function.gethostbyname.html) — Отримує IPv4-адресу, що відповідає переданому імені хоста
+    -   [gethostbynamel](function.gethostbynamel.html) — Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
+    -   [gethostname](function.gethostname.html) — Отримує ім'я хоста
+    -   [getmxrr](function.getmxrr.html) — Отримує записи MX, що відповідають переданому доменному імені хоста
+    -   [getprotobyname](function.getprotobyname.html) — Отримує номер протоколу на ім'я
+    -   [getprotobynumber](function.getprotobynumber.html) — Отримує ім'я протоколу за номером
+    -   [getservbyname](function.getservbyname.html) — Отримує номер порту, пов'язаного з інтернет-службою та протоколом
+    -   [getservbyport](function.getservbyport.html) — Отримує інтернет-службу, що відповідає заданому порту та протоколу
+    -   [header\_register\_callback](function.header-register-callback.html) - Викликає функцію заголовка
+    -   [header\_remove](function.header-remove.html) — Видаляє раніше встановлені заголовки
+    -   [header](function.header.html) — Надсилання HTTP-заголовка
+    -   [headers\_list](function.headers-list.html) — Повертає список переданих заголовків (або готових до відправлення)
+    -   [headers\_sent](function.headers-sent.html) — Перевіряє, чи надіслано заголовки.
+    -   [http\_response\_code](function.http-response-code.html) — Отримує або встановлює код відповіді HTTP
+    -   [inet\_ntop](function.inet-ntop.html) — Конвертує упаковану інтернет-адресу в формат, що читається.
+    -   [inet\_pton](function.inet-pton.html) — Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+    -   [ip2long](function.ip2long.html) — Конвертує рядок, що містить IPv4-адресу в ціле число
+    -   [long2ip](function.long2ip.html) — Конвертує ціле число в IPv4-адресу
+    -   [net\_get\_interfaces](function.net-get-interfaces.html) — Отримує мережні інтерфейси
+    -   [openlog](function.openlog.html) — Відкриває підключення до системного журналу
+    -   [pfsockopen](function.pfsockopen.html) — Відкриває постійне з'єднання з інтернет-сокетом або доменним сокетом Unix
+    -   [setcookie](function.setcookie.html) — Надсилає cookie
+    -   [setrawcookie](function.setrawcookie.html) — Надсилає cookie без URL-кодування значення
+    -   [socket\_get\_status](function.socket-get-status.html) - Псевдонім streamgetmetadata
+    -   [socket\_set\_blocking](function.socket-set-blocking.html) - Псевдонім streamsetblocking
+    -   [socket\_set\_timeout](function.socket-set-timeout.html) - Псевдонім streamsettimeout
+    -   [syslog](function.syslog.html) - Генерує повідомлення для системного журналу

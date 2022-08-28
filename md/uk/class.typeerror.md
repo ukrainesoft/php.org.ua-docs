@@ -1,11 +1,17 @@
-- [«ParseError](class.parseerror.md)
-- [ValueError »](class.valueerror.md)
+TypeError
 
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- TypeError
+-   [« ParseError](class.parseerror.html)
+    
+-   [ValueError »](class.valueerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые исключения](reserved.exceptions.html)
+    
+-   TypeError
+    
 
-#TypeError
+# TypeError
 
 (PHP 7, PHP 8)
 
@@ -13,58 +19,70 @@
 
 Виняток **TypeError** може бути викинуто, якщо:
 
-- Значення, яке встановлюється для якості класу, не відповідає
-відповідного оголошеного типу якості.
-- Тип аргументу, переданого функції, не відповідає типу,
-оголошеному функції для цього аргументу.
-- Тип поверненого функцією значення не відповідає типу повернення,
-оголошеному у функції.
+-   Значення, що встановлюється для якості класу, відповідає відповідному оголошеному типу властивості.
+-   Тип аргументу, переданого функції, відповідає типу, оголошеному функції для цього аргументу.
+-   Тип повернутих функцією значення не відповідає типу повернення, оголошеному у функції.
 
 ## Огляд класів
 
-class **TypeError** extends [Error](class.error.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class TypeError
+     
 
-private string `$string` = "";
+     
+      extends
+       Error
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Error::getMessage(): string
+final public Error::getPrevious(): ?Throwable
+final public Error::getCode(): int
+final public Error::getFile(): string
+final public Error::getLine(): int
+final public Error::getTrace(): array
+final public Error::getTraceAsString(): string
+public Error::__toString(): string
+private Error::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
+   }
+```
 
-/\* Наслідувані методи \*/
+## список змін
 
-final public [Error::getMessage](error.getmessage.md)(): string
-
-final public [Error::getPrevious](error.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Error::getCode](error.getcode.md)(): int
-
-final public [Error::getFile](error.getfile.md)(): string
-
-final public [Error::getLine](error.getline.md)(): int
-
-final public [Error::getTrace](error.gettrace.md)(): array
-
-final public [Error::getTraceAsString](error.gettraceasstring.md)():
-string
-
-public [Error::\_\_toString](error.tostring.md)(): string
-
-private [Error::\_\_clone](error.clone.md)(): void
-
-}
-
-## Список змін
-
-| Версія | Опис                                                                                                                                                                                                                   |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 7.1.0  | Виняток **TypeError** більше не викидається, коли у вбудовану PHP-функцію в режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Виняток **TypeError** більше не викидається, коли у вбудовану PHP-функцію у режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.html) |

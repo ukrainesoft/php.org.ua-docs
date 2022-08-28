@@ -1,44 +1,43 @@
-- [« ReflectionClass::isIterateable](reflectionclass.isiterateable.md)
-- [ReflectionClass::isTrait »](reflectionclass.istrait.md)
+Перевіряє, чи клас підкласом
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевіряє, чи є клас підкласом
+-   [« ReflectionClass::isIterateable](reflectionclass.isiterateable.html)
+    
+-   [ReflectionClass::isTrait »](reflectionclass.istrait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Перевіряє, чи клас підкласом
+    
 
 # ReflectionClass::isSubclassOf
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::isSubclassOf — Перевіряє, чи є клас підкласом
+ReflectionClass::isSubclassOf — Перевіряє, чи клас підкласом
 
 ### Опис
 
-public
-**ReflectionClass::isSubclassOf**([ReflectionClass](class.reflectionclass.md)\|string
-`$class`): bool
+```methodsynopsis
+public ReflectionClass::isSubclassOf(ReflectionClass|string $class): bool
+```
 
-Перевіряє, чи клас підкласом зазначеного класу чи реалізує
-чи вказаний інтерфейс.
+Перевіряє, чи клас підкласом зазначеного класу чи реалізує зазначений інтерфейс.
 
 ### Список параметрів
 
 `class`
-Рядок з ім'ям класу, що перевіряється, або об'єкт класу
-[ReflectionClass](class.reflectionclass.md).
+
+Рядок з ім'ям класу, що перевіряється, або об'єкт класу [ReflectionClass](class.reflectionclass.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ReflectionClass::isInterface()](reflectionclass.isinterface.md) -
-Перевіряє, чи є клас інтерфейсом
-- [ReflectionClass::implementsInterface()](reflectionclass.implementsinterface.md) -
-Перевіряє, чи реалізується інтерфейс
-- [is_subclass_of()](function.is-subclass-of.md) - Перевіряє,
-чи містить об'єкт у своєму дереві предків зазначений клас чи прямо
-реалізує його
-- [get_parent_class()](function.get-parent-class.md) - Повертає
-ім'я батьківського класу для об'єкта чи класу
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.html) - Перевіряє, чи є клас інтерфейсом
+-   [ReflectionClass::implementsInterface()](reflectionclass.implementsinterface.html) - Перевіряє, чи реалізується інтерфейс
+-   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу

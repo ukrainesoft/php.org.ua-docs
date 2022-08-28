@@ -1,9 +1,15 @@
-- [« DOMNode::C14NFile](domnode.c14nfile.md)
-- [DOMNode::getLineNo »](domnode.getlineno.md)
+Клонує вузол
 
-- [PHP Manual](index.md)
-- [DOMNode](class.domnode.md)
-- клонує вузол
+-   [« DOMNode::C14NFile](domnode.c14nfile.html)
+    
+-   [DOMNode::getLineNo »](domnode.getlineno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMNode](class.domnode.html)
+    
+-   Клонує вузол
+    
 
 # DOMNode::cloneNode
 
@@ -13,16 +19,17 @@ DOMNode::cloneNode — Клонує вузол
 
 ### Опис
 
-public **DOMNode::cloneNode**(bool `$deep` = **`false`**):
-[DOMNode](class.domnode.md)\|false
+```methodsynopsis
+public DOMNode::cloneNode(bool $deep = false): DOMNode|false
+```
 
 Створює копію вузла.
 
 ### Список параметрів
 
 `deep`
-Вказує, чи потрібно копіювати нащадків. Цей параметр за замовчуванням
-має значення **`false`**.
+
+Вказує, чи потрібно копіювати нащадків. Цей параметр за замовчуванням має значення **`false`**
 
 ### Значення, що повертаються
 

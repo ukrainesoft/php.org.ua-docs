@@ -1,28 +1,32 @@
-- [«EventBufferEvent::getInput](eventbufferevent.getinput.md)
-- [EventBufferEvent::read »](eventbufferevent.read.md)
+Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Повертає базовий вихідний буфер, пов'язаний із поточним буферним
-подією
+-   [« EventBufferEvent::getInput](eventbufferevent.getinput.html)
+    
+-   [EventBufferEvent::read »](eventbufferevent.read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
+    
 
 # EventBufferEvent::getOutput
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBufferEvent::getOutput — Повертає базовий вихідний буфер,
-пов'язаний з поточною буферною подією
+EventBufferEvent::getOutput — Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
 
 ### Опис
 
-public **EventBufferEvent::getOutput**():
-[EventBuffer](class.eventbuffer.md)
+```methodsynopsis
+public
+   EventBufferEvent::getOutput(): EventBuffer
+```
 
-Повертає базовий вихідний буфер, пов'язаний із поточним буферним
-подією. Вихідний буфер є сховищем даних для запису.
+Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією. Вихідний буфер є сховищем даних для запису.
 
-Зверніть увагу, що є також `output` властивість класу
-[EventBufferEvent](class.eventbufferevent.md).
+Зверніть увагу, що є також `[output](class.eventbufferevent.html#eventbufferevent.props.output)` властивість класу [EventBufferEvent](class.eventbufferevent.html)
 
 ### Список параметрів
 
@@ -30,24 +34,44 @@ public **EventBufferEvent::getOutput**():
 
 ### Значення, що повертаються
 
-Повертає екземпляр [EventBuffer](class.eventbuffer.md) вихідного
-буфера, пов'язаного із поточною буферною подією.
+Повертає екземпляр [EventBuffer](class.eventbuffer.html) вихідного буфера, пов'язаного з поточною буферною подією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **EventBufferEvent::getOutput()****
 
-` <?php$base = new EventBase();$dns_base = new EventDnsBase($base, TRUE); // Використовувати асинхронне дозвіл DNSif (!$dns_base) {    exit("Не удалося ініціалізувати базу DNS
-");}$bev = new EventBufferEvent($base, /* использовать внутренний сокет */ NULL,    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,    "readcb", /* writecb */ NULL, "eventcb", $base) ;if (!$bev) {   exit("Не удалося створити сокет bufferevent
-");}$bev->enable(Event::READ | Event::WRITE);$output = $bev->getOutput();if (!$output->add(    "GET {$argv[2]} HTTP/1.0
-".    "Host: {$argv[1]}
-".    "Connection: Close
+```php
+<?php
+$base = new EventBase();
 
-")) {    exit("Не удалося додати запит у вихідний буфер
-");}/* ... */?> `
+$dns_base = new EventDnsBase($base, TRUE); // Использовать асинхронное разрешение DNS
+if (!$dns_base) {
+    exit("Не удалось инициализировать базу DNS\n");
+}
+
+$bev = new EventBufferEvent($base, /* использовать внутренний сокет */ NULL,
+    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,
+    "readcb", /* writecb */ NULL, "eventcb", $base
+);
+if (!$bev) {
+    exit("Не удалось создать сокет bufferevent\n");
+}
+
+$bev->enable(Event::READ | Event::WRITE);
+
+$output = $bev->getOutput();
+if (!$output->add(
+    "GET {$argv[2]} HTTP/1.0\r\n".
+    "Host: {$argv[1]}\r\n".
+    "Connection: Close\r\n\r\n"
+)) {
+    exit("Не удалось добавить запрос в выходной буфер\n");
+}
+
+/* ... */
+?>
+```
 
 ### Дивіться також
 
-- [EventBufferEvent::getInput()](eventbufferevent.getinput.md) -
-Повертає базовий вхідний буфер, пов'язаний із поточним буферним
-подією
+-   [EventBufferEvent::getInput()](eventbufferevent.getinput.html) - Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією

@@ -1,35 +1,66 @@
-- [« Swoole\MySQL::query](swoole-mysql.query.md)
-- [Swoole\Process »](class.swoole-process.md)
+Клас SwooleMySQLException
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\MySQL\Exception
+-   [« Swoole\\MySQL::query](swoole-mysql.query.html)
+    
+-   [Swoole\\Process »](class.swoole-process.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleMySQLException
+    
 
-# Клас Swoole\MySQL\Exception
+# Клас SwooleMySQLException
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\MySQL\Exception** extends
-[Exception](class.exception.md) implements
-[Throwable](class.throwable.md) {
+```synopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
 
-private string `$string` = "";
+    
+     
+      class Swoole\MySQL\Exception
+     
 
-protected int `$code`;
+     
+      extends
+       Exception
+     
 
-protected string `$file` = "";
+     implements 
+       Throwable {
 
-protected int `$line`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-}
+
+   }
+```

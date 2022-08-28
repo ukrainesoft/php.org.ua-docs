@@ -1,9 +1,15 @@
-- [« Imagick::getColorspace](imagick.getcolorspace.md)
-- [Imagick::getCompressionQuality »](imagick.getcompressionquality.md)
+Повертає тип стиснення об'єкта
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає тип стиснення об'єкта
+-   [« Imagick::getColorspace](imagick.getcolorspace.html)
+    
+-   [Imagick::getCompressionQuality »](imagick.getcompressionquality.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає тип стиснення об'єкта
+    
 
 # Imagick::getCompression
 
@@ -13,7 +19,9 @@ Imagick::getCompression — Повертає тип стиснення об'єк
 
 ### Опис
 
-public **Imagick::getCompression**(): int
+```methodsynopsis
+public Imagick::getCompression(): int
+```
 
 Повертає тип стиснення об'єкта.
 
@@ -23,4 +31,4 @@ public **Imagick::getCompression**(): int
 
 ### Значення, що повертаються
 
-Повертає константу стиску
+Повертає константу стискування

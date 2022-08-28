@@ -1,11 +1,17 @@
-- [« Yar_Client::setOpt](yar-client.setopt.md)
-- [Yar_Concurrent_Client::call »](yar-concurrent-client.call.md)
+Клас YarConcurrentClient
 
-- [PHP Manual](index.md)
-- [Yar](book.yar.md)
-- Клас Yar_Concurrent_Client
+-   [« Yar\_Client::setOpt](yar-client.setopt.html)
+    
+-   [Yar\_Concurrent\_Client::call »](yar-concurrent-client.call.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yar](book.yar.html)
+    
+-   Клас YarConcurrentClient
+    
 
-# Клас Yar_Concurrent_Client
+# Клас YarConcurrentClient
 
 (No version information available, might only be in Git)
 
@@ -13,49 +19,48 @@
 
 ## Огляд класів
 
-class **Yar_Concurrent_Client** {
+```classsynopsis
 
-/\* Властивості \*/
 
-static `$_callstack`;
+    
+    
+     
+      class Yar_Concurrent_Client
+     
+     {
+    
+    /* Свойства */
+    
+     static
+      $_callstack;
 
-static `$_callback`;
+    static
+      $_callback;
 
-static `$_error_callback`;
+    static
+      $_error_callback;
 
-/\* Методи \*/
 
-public static [call](yar-concurrent-client.call.md)(
-string `$uri`,
-string `$method`,
-array `$parameters` = ?,
-[callable](language.types.callable.md) `$callback` = ?,
-[callable](language.types.callable.md) `$error_callback` = ?,
-array `$options` = ?
-): int
 
-public static
-[loop](yar-concurrent-client.loop.md)([callable](language.types.callable.md)
-`$callback` = ?, [callable](language.types.callable.md)
-`$error_callback` = ?): bool
+    /* Методы */
+    
+   public static call(    string $uri,    string $method,    array $parameters = ?,    callable $callback = ?,    callable $error_callback = ?,    array $options = ?): int
+public static loop(callable $callback = ?, callable $error_callback = ?): bool
+public static reset(): bool
 
-public static [reset](yar-concurrent-client.reset.md)(): bool
-
-}
+   }
+```
 
 ## Властивості
 
-`_callstack`
+callstack
 
-`_callback`
+callback
 
-`_error_callback`
+errorcallback
 
 ## Зміст
 
-- [Yar_Concurrent_Client::call](yar-concurrent-client.call.md)
-Зареєструвати конкурентний виклик
-- [Yar_Concurrent_Client::loop](yar-concurrent-client.loop.md)
-Запуск усіх зареєстрованих викликів
-- [Yar_Concurrent_Client::reset](yar-concurrent-client.reset.md)
-Очистити всі зареєстровані дзвінки
+-   [Yar\_Concurrent\_Client::call](yar-concurrent-client.call.html) — Зареєструвати конкурентний виклик
+-   [Yar\_Concurrent\_Client::loop](yar-concurrent-client.loop.html) — Запуск усіх зареєстрованих викликів
+-   [Yar\_Concurrent\_Client::reset](yar-concurrent-client.reset.html) — Очистити всі зареєстровані дзвінки

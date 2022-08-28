@@ -1,19 +1,27 @@
-- [« Swoole\Timer::clear](swoole-timer.clear.md)
-- [Swoole\Timer::tick »](swoole-timer.tick.md)
+Перевіряє, чи існує таймер
 
-- [PHP Manual](index.md)
-- [Swoole\Timer](class.swoole-timer.md)
-- Перевіряє, чи існує таймер
+-   [« Swoole\\Timer::clear](swoole-timer.clear.html)
+    
+-   [Swoole\\Timer::tick »](swoole-timer.tick.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Timer](class.swoole-timer.html)
+    
+-   Перевіряє, чи існує таймер
+    
 
-# Swoole\Timer::exists
+# SwooleTimer::exists
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Timer::exists — Перевіряє, чи існує таймер
+SwooleTimer::exists — Перевіряє, чи існує таймер
 
 ### Опис
 
-public static **Swoole\Timer::exists**(int `$timer_id`): bool
+```methodsynopsis
+public static Swoole\Timer::exists(int $timer_id): bool
+```
 
 Перевіряє, чи існує таймер.
 

@@ -1,22 +1,29 @@
-- [« Yaf_Registry::has](yaf-registry.has.md)
-- [Yaf_Request_Abstract »](class.yaf-request-abstract.md)
+Додає елемент до реєстру
 
-- [PHP Manual](index.md)
-- [Yaf_Registry](class.yaf-registry.md)
-- Додає елемент до Реєстру
+-   [« Yaf\_Registry::has](yaf-registry.has.html)
+    
+-   [Yaf\_Request\_Abstract »](class.yaf-request-abstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Registry](class.yaf-registry.html)
+    
+-   Додає елемент до реєстру
+    
 
-# Yaf_Registry::set
+# YafRegistry::set
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Registry::set — Додає елемент до реєстру
+YafRegistry::set — Додає елемент до реєстру
 
 ### Опис
 
-public static **Yaf_Registry::set**(string `$name`, string `$value`):
-bool
+```methodsynopsis
+public static Yaf_Registry::set(string $name, string $value): bool
+```
 
-Додає елемент до Реєстру
+Додає елемент до реєстру
 
 ### Список параметрів
 

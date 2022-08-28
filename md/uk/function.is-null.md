@@ -1,60 +1,69 @@
-- [«is_long](function.is-long.md)
-- [is_numeric »](function.is-numeric.md)
+Перевіряє, чи значення змінної дорівнює null
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевіряє, чи значення змінної дорівнює null
+-   [« is\_long](function.is-long.html)
+    
+-   [is\_numeric »](function.is-numeric.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Перевіряє, чи значення змінної дорівнює null
+    
 
-#is_null
+# ісnull
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-is_null — Перевіряє, чи значення змінної дорівнює **`null`**
+ісnull — Перевіряє, чи значення змінної дорівнює **`null`**
 
 ### Опис
 
-**is_null**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_null(mixed $value): bool
+```
 
-Перевіряє, чи значення даної змінної дорівнює **`null`**.
+Перевіряє, чи значення цієї змінної дорівнює **`null`**
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо значення `value` дорівнює null, або **`false`**
-в іншому випадку.
+Повертає **`true`**, якщо значення `value` одно null, або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_null()****
+**Приклад #1 Приклад використання **ісnull()****
 
-` <?phperror_reporting(E_ALL);$foo = NULL;var_dump(is_null($inexistent), is_null($foo));?> `
+```php
+<?php
 
+error_reporting(E_ALL);
+
+$foo = NULL;
+var_dump(is_null($inexistent), is_null($foo));
+
+?>
+```
+
+```
 Notice: Undefined variable: inexistent in ...
 bool(true)
 bool(true)
+```
 
 ### Дивіться також
 
-- Тип
-[**`null`**](language.types.null.md#language.types.null.syntax)
-- [isset()](function.isset.md) - Визначає, чи було встановлено
-змінна значенням, відмінним від null
-- [is_bool()](function.is-bool.md) - Перевіряє, чи є
-змінна булева
-- [is_numeric()](function.is-numeric.md) - Перевіряє, чи є
-змінна числом або рядком, що містить число
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_int()](function.is-int.md) - Перевіряє, чи є змінна
-цілим числом
-- [is_string()](function.is-string.md) - Перевіряє, чи є
-змінним рядком
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
+-   Тип [**`null`**](language.types.null.html#language.types.null.syntax)
+-   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
+-   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом

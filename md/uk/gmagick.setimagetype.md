@@ -1,32 +1,39 @@
-- [« Gmagick::setimagescene](gmagick.setimagescene.md)
-- [Gmagick::setimageunits »](gmagick.setimageunits.md)
+Встановлює тип зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює тип зображення
+-   [« Gmagick::setimagescene](gmagick.setimagescene.html)
+    
+-   [Gmagick::setimageunits »](gmagick.setimageunits.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює тип зображення
+    
 
 # Gmagick::setimagetype
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimagetype — Встановлює тип зображення
 
 ### Опис
 
-public **Gmagick::setimagetype**(int `$imgType`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagetype(int $imgType): Gmagick
+```
 
 Встановлює тип зображення.
 
 ### Список параметрів
 
 `imgType`
-Одна з констант [типу зображення](gmagick.constants.md#gmagick.constants.imagetype)
-(`Gmagick::IMGTYPE_*`).
+
+Одна з констант [типа изображения](gmagick.constants.html#gmagick.constants.imagetype) `Gmagick::IMGTYPE_*`
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

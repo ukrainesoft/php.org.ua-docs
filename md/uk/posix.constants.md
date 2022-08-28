@@ -1,19 +1,22 @@
-- [« Типи ресурсів](posix.resources.md)
-- [Константи posix_access »](posix.constants.access.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [POSIX](book.posix.md)
-- Обумовлені константи
+-   [« Типы ресурсов](posix.resources.html)
+    
+-   [Константы posix\_access »](posix.constants.access.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX](book.posix.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 ## Зміст
 
-- [Константи posix_access](posix.constants.access.md)
-- [Константи posix_mknod](posix.constants.mknod.md)
-- [Константи posix_setrlimit](posix.constants.setrlimit.md)
+-   [Константы posix\_access](posix.constants.access.html)
+-   [Константы posix\_mknod](posix.constants.mknod.html)
+-   [Константы posix\_setrlimit](posix.constants.setrlimit.html)
 
-Наведені нижче константи визначені даним модулем і можуть бути
-доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього
-модуля або в тому випадку, якщо даний модуль був динамічно завантажений
-під час виконання.
+Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.

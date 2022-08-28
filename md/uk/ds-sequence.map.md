@@ -1,64 +1,76 @@
-- [« Ds\Sequence::last](ds-sequence.last.md)
-- [Ds\Sequence::merge »](ds-sequence.merge.md)
+Повертає результат застосування callback-функції до всіх значень колекції
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Повертає результат застосування callback-функції до всіх значень
-колекції
+-   [« Ds\\Sequence::last](ds-sequence.last.html)
+    
+-   [Ds\\Sequence::merge »](ds-sequence.merge.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Последовательность](class.ds-sequence.html)
+    
+-   Повертає результат застосування callback-функції до всіх значень колекції
+    
 
-# Ds\Sequence::map
+# ДсSequence::map
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Sequence::map — Повертає результат застосування callback-функції
-всім значенням колекції
+ДсSequence::map — Повертає результат застосування callback-функції до всіх значень колекції
 
 ### Опис
 
-abstract public
-**Ds\Sequence::map**([callable](language.types.callable.md)
-`$callback`): [Ds\Sequence](class.ds-sequence.md)
+```methodsynopsis
+abstract public Ds\Sequence::map(callable $callback): Ds\Sequence
+```
 
-Повертає результат застосування callback-функції, переданої в
-`callback`, до всіх значень колекції.
+Повертає результат застосування callback-функції, переданої в `callback`до всіх значень колекції.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Аргумент типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $value): mixed
+```
 
-Ця функція повинна повертати нове значення для кожного елемента
-колекції.
+Аргумент типу [callable](language.types.callable.html)
+
+Ця функція повинна повертати нове значення для кожного елемента колекції.
 
 ### Значення, що повертаються
 
 Результат застосування `callback` до кожного значення колекції.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Значення поточної колекції залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::map()****
+**Приклад #1 Приклад використання **ДсSequence::map()****
 
-` <?php$sequence = new \Ds\Vector([1, 2, 3]);print_r($sequence->map(function($value) { return $value * 2; }));print_r($sequence );?> `
+```php
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+
+print_r($sequence->map(function($value) { return $value * 2; }));
+print_r($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 2
-[1] => 4
-[2] => 6
+    [0] => 2
+    [1] => 4
+    [2] => 6
 )
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
+```

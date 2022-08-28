@@ -1,64 +1,68 @@
-- [«socket_import_stream](function.socket-import-stream.md)
-- [socket_listen »](function.socket-listen.md)
+Повертає останню помилку на сокеті
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Повертає останню помилку на сокеті
+-   [« socket\_import\_stream](function.socket-import-stream.html)
+    
+-   [socket\_listen »](function.socket-listen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Повертає останню помилку на сокеті
+    
 
-# socket_last_error
+# socketlasterror
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socket_last_error — Повертає останню помилку на сокеті
+socketlasterror — Повертає останню помилку на сокеті
 
 ### Опис
 
-**socket_last_error**(?[Socket](class.socket.md) `$socket` =
-**`null`**): int
+```methodsynopsis
+socket_last_error(?Socket $socket = null): int
+```
 
-Якщо екземпляр [Socket](class.socket.md) передано цієї функції, то
-повертається остання помилка, що сталася на цьому конкретному
-сокет. Якщо `socket` не вказано, повертається код помилки останньої
-невдалої функції сокетів. Останнє особливо корисне для таких
-функцій, як [socket_create()](function.socket-create.md), яка не
-повертає сокет у разі невдачі та
-[socket_select()](function.socket-select.md), яка може
-закінчитися невдало з причин, не пов'язаних безпосередньо з
-будь-яким конкретним сокетом. Код помилки підходить для передачі функції
-[socket_strerror()](function.socket-strerror.md), яка повертає
-рядок, що описує вказаний код помилки.
+Якщо екземпляр [Socket](class.socket.html) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socket\_create()](function.socket-create.html), яка не повертає сокет у разі невдачі та [socket\_select()](function.socket-select.html), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socket\_strerror()](function.socket-strerror.html), яка повертає рядок, що описує вказаний код помилки.
 
-Якщо помилок немає або вони були очищені функцією
-[socket_clear_error()](function.socket-clear-error.md), функція поверне
-`0`.
+Якщо помилок немає або вони були очищені функцією [socket\_clear\_error()](function.socket-clear-error.html), функція поверне `0`
 
 ### Список параметрів
 
 `socket`
-Примірник [Socket](class.socket.md), створений за допомогою функції
-[socket_create()](function.socket-create.md).
+
+Екземпляр [Socket](class.socket.html), створений за допомогою функції [socket\_create()](function.socket-create.html)
 
 ### Значення, що повертаються
 
 Ця функція повертає код помилки сокету.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-|--------|-----------------------------------------------------------------------------------------|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
-| 8.0.0  | socket тепер припускає значення null.                                                   |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socket_last_error()****
+**Приклад #1 Приклад використання **socketlasterror()****
 
-` <?php$socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if ($socket === false) {    $errorcode = socket_last_error(); $errormsg==socket_strerror($errorcode); die("Не можу створити сокет: [$errorcode] $errormsg");}?> `
+```php
+<?php
+$socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+
+if ($socket === false) {
+    $errorcode = socket_last_error();
+    $errormsg = socket_strerror($errorcode);
+
+    die("Не могу создать сокет: [$errorcode] $errormsg");
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **socket_last_error()** не очищає код помилки, використовуйте
-> [socket_clear_error()](function.socket-clear-error.md) для цієї
-> Цілі.
+> **Зауваження**
+> 
+> **socketlasterror()** не очищає код помилки, використовуйте [socket\_clear\_error()](function.socket-clear-error.html) для цієї мети.

@@ -1,19 +1,27 @@
-- [« UI\Draw\Text\Font::getLeading](ui-draw-text-font.getleading.md)
-- [UI\Draw\Text\Font::getUnderlineThickness »](ui-draw-text-font.getunderlinethickness.md)
+Показники шрифту
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font](class.ui-draw-text-font.md)
-- Показники шрифту
+-   [« UI\\Draw\\Text\\Font::getLeading](ui-draw-text-font.getleading.html)
+    
+-   [UI\\Draw\\Text\\Font::getUnderlineThickness »](ui-draw-text-font.getunderlinethickness.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Font](class.ui-draw-text-font.html)
+    
+-   Показники шрифту
+    
 
-# UI\Draw\Text\Font::getUnderlinePosition
+# ОЙDrawTextFont::getUnderlinePosition
 
 (UI 1.0.3)
 
-UI\Draw\Text\Font::getUnderlinePosition — Показники шрифту
+ОЙDrawTextFont::getUnderlinePosition — Показники шрифту
 
 ### Опис
 
-public **UI\Draw\Text\Font::getUnderlinePosition**(): float
+```methodsynopsis
+public UI\Draw\Text\Font::getUnderlinePosition(): float
+```
 
 ### Список параметрів
 

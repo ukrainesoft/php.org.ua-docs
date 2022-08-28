@@ -1,19 +1,27 @@
-- [« VarnishAdmin::setTimeout](varnishadmin.settimeout.md)
-- [VarnishAdmin::stop »](varnishadmin.stop.md)
+Запустити робочий процес varnish
 
-- [PHP Manual](index.md)
-- [VarnishAdmin](class.varnishadmin.md)
-- Запустити робочий процес varnish
+-   [« VarnishAdmin::setTimeout](varnishadmin.settimeout.html)
+    
+-   [VarnishAdmin::stop »](varnishadmin.stop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [VarnishAdmin](class.varnishadmin.html)
+    
+-   Запустити робочий процес varnish
+    
 
 # VarnishAdmin::start
 
-(PECL varnish \>= 0.3)
+(PECL varnish >= 0.3)
 
 VarnishAdmin::start — Запустити робочий процес varnish
 
 ### Опис
 
-public **VarnishAdmin::start**(): int
+```methodsynopsis
+public VarnishAdmin::start(): int
+```
 
 ### Список параметрів
 

@@ -1,20 +1,18 @@
-- [« Налаштування під час виконання](rar.configuration.md)
-- [Предвизначені константи »](rar.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](rar.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](rar.configuration.html)
+    
+-   [Предопределённые константы »](rar.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](rar.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 
-Цей модуль використовує три внутрішні ресурси: дескриптор файлу,
-повертається функцією [rar_open()](rararchive.open.md) –
-[RarArchive](class.rararchive.md), вміст архіву, що повертається
-функціями [rar_list()](rararchive.getentries.md) та
-[rar_entry_get()](rararchive.getentry.md) –
-[RarEntry](class.rarentry.md) та тип винятків
-[RarException](class.rarexception.md).
+Цей модуль використовує три внутрішні ресурси: дескриптор файлу, що повертається функцією [rar\_open()](rararchive.open.html) [RarArchive](class.rararchive.html), вміст архіву, що повертається функціями [rar\_list()](rararchive.getentries.html) і [rar\_entry\_get()](rararchive.getentry.html) [RarEntry](class.rarentry.html) та тип винятків [RarException](class.rarexception.html)
 
-Цей модуль також реєструє потоковий ресурс, званий "rar", та
-обгортку URL, звану "rar wrapper", і відповідний їй префікс
-"rar".
+Цей модуль також реєструє потоковий ресурс, званий "rar", і обгортку URL, яка називається "rar wrapper", і відповідний їй префікс "rar".

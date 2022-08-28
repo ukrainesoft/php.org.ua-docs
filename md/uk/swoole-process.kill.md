@@ -1,32 +1,40 @@
-- [« Swoole\Process::freeQueue](swoole-process.freequeue.md)
-- [Swoole\Process::name »](swoole-process.name.md)
+Надсилає сигнал дочірньому процесу
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Надсилає сигнал дочірньому процесу
+-   [« Swoole\\Process::freeQueue](swoole-process.freequeue.html)
+    
+-   [Swoole\\Process::name »](swoole-process.name.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Надсилає сигнал дочірньому процесу
+    
 
-# Swoole\Process::kill
+# SwooleProcess::kill
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::kill — Надсилає сигнал дочірньому процесу
+SwooleProcess::kill — Надсилає сигнал дочірньому процесу
 
 ### Опис
 
-public static **Swoole\Process::kill**(int `$pid`, int `$signal_no` =
-?): bool
+```methodsynopsis
+public static Swoole\Process::kill(int $pid, int $signal_no = ?): bool
+```
 
 Надсилає сигнал дочірньому процесу.
 
 ### Список параметрів
 
 `pid`
+
 Ідентифікатор процесу
 
 `signal_no`
+
 Сигнал до відправлення
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

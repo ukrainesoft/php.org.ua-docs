@@ -1,15 +1,21 @@
-- [«Вступ](intro.wddx.md)
-- [Вимоги »](wddx.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [WDDX](book.wddx.md)
+-   [« Введение](intro.wddx.html)
+    
+-   [Требования »](wddx.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WDDX](book.wddx.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](wddx.requirements.md)
-- [Установка](wddx.installation.md)
-- [Налаштування під час виконання](wddx.configuration.md)
-- [Типи ресурсів](wddx.resources.md)
+-   [Требования](wddx.requirements.html)
+-   [Установка](wddx.installation.html)
+-   [Настройка во время выполнения](wddx.configuration.html)
+-   [Типы ресурсов](wddx.resources.html)

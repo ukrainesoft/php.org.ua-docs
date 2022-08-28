@@ -1,55 +1,91 @@
-- [« Спадкування](language.oop5.inheritance.md)
-- [Ключове слово static»](language.oop5.static.md)
+Оператор роздільної здатності видимості (::)
 
-- [PHP Manual](index.md)
-- [Класи та об'єкти](language.oop5.md)
-- Оператор дозволу області видимості (::)
+-   [« Наследование](language.oop5.inheritance.html)
+    
+-   [Ключевое слово static »](language.oop5.static.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Классы и объекты](language.oop5.html)
+    
+-   Оператор роздільної здатності видимості (::)
+    
 
-## Оператор дозволу області видимості (::)
+## Оператор роздільної здатності видимості (::)
 
-Оператор дозволу області видимості (також званий "Paamayim
-Nekudotayim") або просто "подвійна двокрапка" - це лексема, що дозволяє
-звертатися до [статичних](language.oop5.static.md) властивостей,
-[константам](language.oop5.constants.md) та перевизначеним властивостям
-чи методам класу.
+Оператор дозволу області видимості (також званий "Paamayim Nekudotayim") або просто "подвійна двокрапка" - це лексема, що дозволяє звертатися до [статическим](language.oop5.static.html) властивостям, [константам](language.oop5.constants.html) та перевизначеним властивостям або методам класу.
 
-При зверненні до цих елементів ззовні класу необхідно використовувати ім'я
-цього класу.
+При зверненні до цих елементів ззовні класу необхідно використовувати ім'я цього класу.
 
-Можна звернутися до класу за допомогою змінної. Значення змінної не
-має бути ключовим словом (наприклад, `self`, `parent` або `static`).
+Можна звернутися до класу за допомогою змінної. Значення змінної не повинно бути ключовим словом (наприклад, `self` `parent` або `static`
 
-"Paamayim Nekudotayim" на перший погляд може здатися дивним
-словосполученням для позначення подвійної двокрапки. Однак, під час
-створення Zend Engine версії 0.5 (який входив до PHP3), команда Zend
-обрала саме це позначення. Воно насправді означає "подвійне
-двокрапка" - на івриті!
+"Paamayim Nekudotayim" на перший погляд може здатися дивним словосполученням для позначення подвійної двокрапки. Однак, під час створення Zend Engine версії 0.5 (який входив до PHP3), команда Zend обрала саме це позначення. Воно насправді означає "подвійне двокрапка" - на івриті!
 
 **Приклад #1 Використання :: поза оголошенням класу**
 
-` <?phpclass MyClass {   const CONST_VALUE = 'Значення константи';}$classname = 'MyClass';echo $classname::CONST_VALUE;echo MyClass::CONST_VALUE;?> `
+```php
+<?php
+class MyClass {
+    const CONST_VALUE = 'Значение константы';
+}
 
-Для звернення до властивостей та методів усередині самого класу використовуються
-ключові слова `self`, `parent` та `static`.
+$classname = 'MyClass';
+echo $classname::CONST_VALUE;
+
+echo MyClass::CONST_VALUE;
+?>
+```
+
+Для звернення до властивостей і методів усередині класу використовуються ключові слова self, parent і static.
 
 **Приклад #2 Використання :: всередині оголошення класу**
 
-`<?phpclass OtherClass extends MyClass{    public static $my_static = 'статична змінна'; public static function doubleColon() {       echo parent::CONST_VALUE . "
-";        echo self::$my_static . "
-";    }}$classname = 'OtherClass';$classname::doubleColon();OtherClass::doubleColon();?> `
+```php
+<?php
+class OtherClass extends MyClass
+{
+    public static $my_static = 'статическая переменная';
 
-Коли дочірній клас перевизначає методи, оголошені в батьківському
-класі, PHP не буде здійснювати автоматичний виклик методів,
-що належать класу-батьку. Ця функціональність покладається на
-метод, що визначається в дочірньому класі. Це правило
-поширюється на [конструктори та деструктори](language.oop5.decon.md),
-[перевантажені](language.oop5.overloading.md) та
-["Магічні"](language.oop5.magic.md) методи.
+    public static function doubleColon() {
+        echo parent::CONST_VALUE . "\n";
+        echo self::$my_static . "\n";
+    }
+}
 
-**Приклад #3 Звернення до методу в батьківському класі**
+$classname = 'OtherClass';
+$classname::doubleColon();
 
-` <?phpclass MyClass{   protected function myFunc() {       echo "MyClass::myFunc()
-";    }}class OtherClass extends MyClass{    // Переопределить родительское определение    public function myFunc()    {        // Но всё ещё вызываем родительскую функцию        parent::myFunc();        echo "OtherClass::myFunc()
-";    }}$class = new OtherClass();$class->myFunc();?> `
+OtherClass::doubleColon();
+?>
+```
 
-Дивіться також [деякі приклади статичних викликів](language.oop5.basic.md#language.oop5.basic.class.this).
+Коли дочірній клас перевизначає методи, оголошені в батьківському класі, PHP не здійснюватиме автоматичний виклик методів, що належать класу-батькові. Ця функціональність покладається на метод, що перевизначається в дочірньому класі. Це правило поширюється на [конструкторы и деструкторы](language.oop5.decon.html) [перегруженные](language.oop5.overloading.html) і ["магические"](language.oop5.magic.html) методи.
+
+**Приклад #3 Звернення до методу батьківського класу**
+
+```php
+<?php
+class MyClass
+{
+    protected function myFunc() {
+        echo "MyClass::myFunc()\n";
+    }
+}
+
+class OtherClass extends MyClass
+{
+    // Переопределить родительское определение
+    public function myFunc()
+    {
+        // Но всё ещё вызываем родительскую функцию
+        parent::myFunc();
+        echo "OtherClass::myFunc()\n";
+    }
+}
+
+$class = new OtherClass();
+$class->myFunc();
+?>
+```
+
+Дивіться також [некоторые примеры статических вызовов](language.oop5.basic.html#language.oop5.basic.class.this)

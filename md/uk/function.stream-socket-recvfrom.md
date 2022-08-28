@@ -1,87 +1,93 @@
-- [«stream_socket_pair](function.stream-socket-pair.md)
-- [stream_socket_sendto »](function.stream-socket-sendto.md)
+Отримує дані із сокету, підключеного чи ні
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Отримує дані із сокету, підключеного чи ні
+-   [« stream\_socket\_pair](function.stream-socket-pair.html)
+    
+-   [stream\_socket\_sendto »](function.stream-socket-sendto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Отримує дані із сокету, підключеного чи ні
+    
 
-#stream_socket_recvfrom
+# streamsocketrecvfrom
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_socket_recvfrom — Отримує дані із сокету, підключеного або
-ні
+streamsocketrecvfrom — Отримує дані із сокету, підключеного чи ні
 
 ### Опис
 
-**stream_socket_recvfrom**(
-resource `$socket`,
-int `$length`,
-int `$flags` = 0,
-?string `&$address` = **`null`**
-): string\|false
+```methodsynopsis
+stream_socket_recvfrom(    resource $socket,    int $length,    int $flags = 0,    ?string &$address = null): string|false
+```
 
-**stream_socket_recvfrom()** приймає дані з віддаленого сокету
-розміром до `length` байт.
+**streamsocketrecvfrom()** приймає дані з віддаленого сокету розміром до `length` байт.
 
 ### Список параметрів
 
 `socket`
+
 Віддалений сокет.
 
 `length`
-Кількість байт для отримання параметра `socket`.
+
+Кількість байт для отримання з параметра `socket`
 
 `flags`
-Значення параметра `flags` може бути будь-якою комбінацією наступного:
 
-|                 |                                                                                                                                                                   |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **STREAM_OOB**  | Обробляти дані OOB (out-of-band).                                                                                                                                 |                                                                                                                                                                   
-| **STREAM_PEEK** | Отримувати дані із сокету, але не витрачати буфер. Наступні виклики функцій [fread()](function.fread.md) або **stream_socket_recvfrom()** отримають ті самі дані. |
+Значення параметру `flags` може бути будь-якою комбінацією з наступного:
 
-**Можливі значення для параметра `flags`**
+<table class="doctable table"><caption><strong>Можливі значення для параметра <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>STREAM_OOB</code></strong></td><td>Обробляти дані OOB (<code class="literal">out-of-band</code>).&lt; /td&gt;</td></tr><tr><td><strong><code>STREAM_PEEK</code></strong></td><td>Отримувати дані з сокету, але не витрачати буфер. Наступні виклики функцій <span class="function"><a href="function.fread.html" class="function">fread()</a></span> або <span class="function"><strong>stream_socket_recvfrom()</strong></span> отримають ті самі дані.</td></tr></tbody></table>
 
 `address`
-Якщо вказано параметр address, він буде заповнений адресою віддаленого
-сокет.
+
+Якщо вказано параметр `address`, він буде заповнений адресою віддаленого сокету.
 
 ### Значення, що повертаються
 
-Повертає прочитані дані у вигляді рядка або **`false`** у разі
-виникнення помилки.
+Повертає прочитані дані у вигляді рядка або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **stream_socket_recvfrom()****
+**Приклад #1 Приклад використання функції **streamsocketrecvfrom()****
 
-` <?php/* Відкриває серверний сокет на 1234-му порту на localhost */$server = stream_socket_server('tcp://127.0.0.1:1234')_so ;/* Отримує пакет (звичайний розмір MTU 1500) OOB-даних */echo "Отримані дані OOB (Out-Of-Band): '" . stream_socket_recvfrom($socket, 1500, STREAM_OOB) . "'
-";/* Отримати звичайні дані, але не витрачати их. */echo "Дані: '" . stream_socket_recvfrom($socket, 1500, STREAM_PEEK) . "''
-";/* Отримати| то|ж| самий пакет знову, а в цього раз видалити його з буфера даних.
-";/* Закрити сокет */fclose($socket);fclose($server);?> `
+```php
+<?php
+/* Открывает серверный сокет на 1234-м порту на localhost */
+$server = stream_socket_server('tcp://127.0.0.1:1234');
+
+/* Принимает соединение */
+$socket = stream_socket_accept($server);
+
+/* Получает пакет (обычный размер MTU 1500) OOB-данных */
+echo "Получены данные OOB (Out-Of-Band): '" . stream_socket_recvfrom($socket, 1500, STREAM_OOB) . "'\n";
+
+/* Получить обычные данные, но не расходовать их. */
+echo "Данные: '" . stream_socket_recvfrom($socket, 1500, STREAM_PEEK) . "'\n";
+
+/* Получить тот же самый пакет снова, но в этот раз удалить его из буфера данных. */
+echo "Данные: '" . stream_socket_recvfrom($socket, 1500) . "'\n";
+
+/* Закрыть сокет */
+fclose($socket);
+fclose($server);
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо отримане повідомлення довжиною більше, ніж параметр length, зайві
-> байти може бути пропущені залежно від типу сокету, з якого
-> отримано повідомлення (наприклад, UDP).
+> **Зауваження**
+> 
+> Якщо отримане повідомлення довжиною більше, ніж параметр `length`, зайві байти можуть бути пропущені в залежності від типу сокету, з якого отримано повідомлення (наприклад, UDP).
 
-> **Примітка**:
->
-> Виклики функції stream_socket_recvfrom()** на потоках, заснованих на
-> сокетах після викликів потокових функцій, заснованих на буферах (таких
-> як [fread()](function.fread.md) або
-> [stream_get_line()](function.stream-get-line.md)) читають дані
-> безпосередньо з сокету та пропускають потоковий буфер.
+> **Зауваження**
+> 
+> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.html) або [stream\_get\_line()](function.stream-get-line.html)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
 
 ### Дивіться також
 
-- [stream_socket_sendto()](function.stream-socket-sendto.md) -
-Відправляє повідомлення до сокету, незалежно від того, під'єднаний він або
-ні
-- [stream_socket_client()](function.stream-socket-client.md) -
-Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
-- [stream_socket_server()](function.stream-socket-server.md) -
-Створює інтернет-сокет або доменний сокет Unix
+-   [stream\_socket\_sendto()](function.stream-socket-sendto.html) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [stream\_socket\_client()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [stream\_socket\_server()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix

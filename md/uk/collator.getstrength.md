@@ -1,50 +1,61 @@
-- [«Collator::getSortKey](collator.getsortkey.md)
-- [Collator::setAttribute »](collator.setattribute.md)
+Отримує поточну силу зіставлення
 
-- [PHP Manual](index.md)
-- [Collator](class.collator.md)
-- Отримує поточну силу зіставлення
+-   [« Collator::getSortKey](collator.getsortkey.html)
+    
+-   [Collator::setAttribute »](collator.setattribute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Collator](class.collator.html)
+    
+-   Отримує поточну силу зіставлення
+    
 
 # Collator::getStrength
 
-#collator_get_strength
+# collatorgetstrength
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::getStrength -- collator_get_strength — Отримує поточну силу
-зіставлення
+Collator::getStrength -- collatorgetstrength — Отримує поточну силу зіставлення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **Collator::getStrength**(): int
+```methodsynopsis
+public Collator::getStrength(): int
+```
 
 Процедурний стиль
 
-**collator_get_strength**([Collator](class.collator.md) `$object`):
-int
+```methodsynopsis
+collator_get_strength(Collator $object): int
+```
 
 ### Список параметрів
 
 `object`
-Об'єкт [Collator](class.collator.md).
+
+Об'єкт [Collator](class.collator.html)
 
 ### Значення, що повертаються
 
-Повертає поточну силу зіставлення або **`false`** у разі
-виникнення помилки.
+Повертає поточну силу зіставлення або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collator_get_strength()****
+**Приклад #1 Приклад використання **collatorgetstrength()****
 
-` <?php$coll     = collator_create( 'en_US' );$strength = collator_get_strength( $coll );?> `
+```php
+<?php
+$coll     = collator_create( 'en_US' );
+$strength = collator_get_strength( $coll );
+?>
+```
 
 ### Дивіться також
 
-- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
-- [collator_set_strength()](collator.setstrength.md) - Встановлює
-силу зіставлення
-- [collator_get_attribute()](collator.getattribute.md) - Отримує
-значення атрибуту зіставлення
+-   [Константы](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
+-   [collator\_set\_strength()](collator.setstrength.html) - встановлює силу зіставлення
+-   [collator\_get\_attribute()](collator.getattribute.html) - Отримує значення атрибуту зіставлення

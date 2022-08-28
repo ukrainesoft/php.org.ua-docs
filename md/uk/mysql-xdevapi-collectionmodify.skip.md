@@ -1,9 +1,15 @@
-- [« CollectionModify::set](mysql-xdevapi-collectionmodify.set.md)
-- [CollectionModify::sort »](mysql-xdevapi-collectionmodify.sort.md)
+Пропускає елементи
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- Пропускає елементи
+-   [« CollectionModify::set](mysql-xdevapi-collectionmodify.set.html)
+    
+-   [CollectionModify::sort »](mysql-xdevapi-collectionmodify.sort.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+    
+-   Пропускає елементи
+    
 
 # CollectionModify::skip
 
@@ -13,32 +19,34 @@ CollectionModify::skip — Пропускає елементи
 
 ### Опис
 
-public **mysql_xdevapi\CollectionModify::skip**(int `$position`):
-[mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionModify::skip(int $position): mysql_xdevapi\CollectionModify
+```
 
-Пропускає перші N елементів, які інакше були б
-повернені операцією пошуку. Якщо кількість пропущених елементів
-перевищує розмір набору результатів, операція пошуку повертає порожній
-набір.
+Пропускає перші N елементів, які інакше було б повернуто операцією пошуку. Якщо кількість пропущених елементів перевищує розмір набору результатів, пошук повертає порожній набір.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `position`
+
 Кількість елементів, що пропускаються.
 
 ### Значення, що повертаються
 
-Об'єкт CollectionModify, який можна використовувати для подальшого
-обробки.
+Об'єкт CollectionModify, який можна використовувати для подальшої обробки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionModify::skip()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::skip()****
 
-` <?php$coll->modify('age > :age')->sort('age desc')->unset(['age'])->bind(['age' => 20])- >limit(4)->skip(1)->execute();?> `
+```php
+<?php
+
+$coll->modify('age > :age')->sort('age desc')->unset(['age'])->bind(['age' => 20])->limit(4)->skip(1)->execute();
+
+?>
+```

@@ -1,23 +1,29 @@
-- [« SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md)
-- [SimpleXMLIterator::key »](simplexmliterator.key.md)
+Перевіряє, чи поточний елемент має вкладені елементи
 
-- [PHP Manual](index.md)
-- [SimpleXMLIterator](class.simplexmliterator.md)
-- Перевіряє, чи поточний елемент має вкладені елементи
+-   [« SimpleXMLIterator::getChildren](simplexmliterator.getchildren.html)
+    
+-   [SimpleXMLIterator::key »](simplexmliterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXMLIterator](class.simplexmliterator.html)
+    
+-   Перевіряє, чи поточний елемент має вкладені елементи
+    
 
 # SimpleXMLIterator::hasChildren
 
 (PHP 5, PHP 7, PHP 8)
 
-SimpleXMLIterator::hasChildren — Перевіряє, чи має поточний елемент
-вкладені елементи
+SimpleXMLIterator::hasChildren — Перевіряє, чи поточний елемент має вкладені елементи
 
 ### Опис
 
-public **SimpleXMLIterator::hasChildren**(): bool
+```methodsynopsis
+public SimpleXMLIterator::hasChildren(): bool
+```
 
-Цей метод перевіряє, чи має поточний елемент
-[SimpleXMLIterator](class.simplexmliterator.md) вкладені елементи.
+Цей метод перевіряє, чи має поточний елемент [SimpleXMLIterator](class.simplexmliterator.html) вкладені елементи.
 
 ### Список параметрів
 
@@ -25,20 +31,40 @@ public **SimpleXMLIterator::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо поточний елемент має вкладені елементи; в
-в іншому випадку **`false`**
+**`true`**якщо у поточного елемента є вкладені елементи; в іншому випадку **`false`**
 
 ### Приклади
 
 **Приклад #1 Перевіряє, чи поточний елемент має вкладені елементи**
 
-`<?php$xml = <<<<XML<books>    <book>        <title>Основи PHP</title>        <author>Джим Сміт</author> >>>>> books>XML;$xmlIterator = new SimpleXMLIterator( $xml );for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) ) {    var_dump($xmlIterator->current()); }}?> `
+```php
+<?php
+$xml = <<<XML
+<books>
+    <book>
+        <title>Основы PHP</title>
+        <author>Джим Смит</author>
+    </book>
+    <book>Основы XML</book>
+</books>
+XML;
+
+$xmlIterator = new SimpleXMLIterator( $xml );
+for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
+    if($xmlIterator->hasChildren()) {
+        var_dump($xmlIterator->current());
+    }
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(SimpleXMLIterator)#2 (2) {
-["title"]=>
-string(10) "Основи PHP"
-["author"]=>
-string(9) "Джим Сміт"
+  ["title"]=>
+  string(10) "Основы PHP"
+  ["author"]=>
+  string(9) "Джим Смит"
 }
+```

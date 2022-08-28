@@ -1,336 +1,398 @@
-- [« Типи ресурсів](xmlreader.resources.md)
-- [XMLReader::close »](xmlreader.close.md)
+Клас XMLReader
 
-- [PHP Manual](index.md)
-- [XMLReader](book.xmlreader.md)
-- Клас XMLReader
+-   [« Типы ресурсов](xmlreader.resources.html)
+    
+-   [XMLReader::close »](xmlreader.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLReader](book.xmlreader.html)
+    
+-   Клас XMLReader
+    
 
 # Клас XMLReader
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Модуль XMLReader – синтаксичний аналізатор XML. Клас-читач
-виступає як курсор, слідує по потоку документа і
-зупиняється на кожному вузлі на цьому шляху.
+Модуль XMLReader – синтаксичний аналізатор XML. Клас-читач виступає як курсор, слід по потоку документа і зупиняється кожному вузлі цьому шляху.
 
 ## Огляд класів
 
-class **XMLReader** {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `NONE` = 0;
+    
+     
+      class XMLReader
+     
+     {
 
-const int `ELEMENT` = 1;
+    /* Константы */
 
-const int `ATTRIBUTE` = 2;
+     
+      const
+      int
+       NONE = 0;
 
-const int `TEXT` = 3;
+     const
+      int
+       ELEMENT = 1;
 
-const int `CDATA` = 4;
+     const
+      int
+       ATTRIBUTE = 2;
 
-const int `ENTITY_REF` = 5;
+     const
+      int
+       TEXT = 3;
 
-const int `ENTITY` = 6;
+     const
+      int
+       CDATA = 4;
 
-const int `PI` = 7;
+     const
+      int
+       ENTITY_REF = 5;
 
-const int `COMMENT` = 8;
+     const
+      int
+       ENTITY = 6;
 
-const int `DOC` = 9;
+     const
+      int
+       PI = 7;
 
-const int `DOC_TYPE` = 10;
+     const
+      int
+       COMMENT = 8;
 
-const int `DOC_FRAGMENT` = 11;
+     const
+      int
+       DOC = 9;
 
-const int `NOTATION` = 12;
+     const
+      int
+       DOC_TYPE = 10;
 
-const int `WHITESPACE` = 13;
+     const
+      int
+       DOC_FRAGMENT = 11;
 
-const int `SIGNIFICANT_WHITESPACE` = 14;
+     const
+      int
+       NOTATION = 12;
 
-const int `END_ELEMENT` = 15;
+     const
+      int
+       WHITESPACE = 13;
 
-const int `END_ENTITY` = 16;
+     const
+      int
+       SIGNIFICANT_WHITESPACE = 14;
 
-const int `XML_DECLARATION` = 17;
+     const
+      int
+       END_ELEMENT = 15;
 
-const int `LOADDTD` = 1;
+     const
+      int
+       END_ENTITY = 16;
 
-const int `DEFAULTATTRS` = 2;
+     const
+      int
+       XML_DECLARATION = 17;
 
-const int `VALIDATE` = 3;
+     const
+      int
+       LOADDTD = 1;
 
-const int `SUBST_ENTITIES` = 4;
+     const
+      int
+       DEFAULTATTRS = 2;
 
-/\* Властивості \*/
+     const
+      int
+       VALIDATE = 3;
 
-public int `$attributeCount`;
+     const
+      int
+       SUBST_ENTITIES = 4;
 
-public string `$baseURI`;
 
-public int `$ depth`;
 
-public bool `$hasAttributes`;
+    /* Свойства */
+    public
+     int
+      $attributeCount;
 
-public bool `$hasValue`;
+    public
+     string
+      $baseURI;
 
-public bool `$isDefault`;
+    public
+     int
+      $depth;
 
-public bool `$isEmptyElement`;
+    public
+     bool
+      $hasAttributes;
 
-public string `$localName`;
+    public
+     bool
+      $hasValue;
 
-public string `$name`;
+    public
+     bool
+      $isDefault;
 
-public string `$namespaceURI`;
+    public
+     bool
+      $isEmptyElement;
 
-public int `$nodeType`;
+    public
+     string
+      $localName;
 
-public string `$prefix`;
+    public
+     string
+      $name;
 
-public string `$value`;
+    public
+     string
+      $namespaceURI;
 
-public string `$xmlLang`;
+    public
+     int
+      $nodeType;
 
-/\* Методи \*/
+    public
+     string
+      $prefix;
 
-public [close](xmlreader.close.md)(): bool
+    public
+     string
+      $value;
 
-public [expand](xmlreader.expand.md)(?[DOMNode](class.domnode.md)
-`$baseNode` = **`null`**): [DOMNode](class.domnode.md)\|false
+    public
+     string
+      $xmlLang;
 
-public [getAttribute](xmlreader.getattribute.md)(string `$name`):
-?string
 
-public [getAttributeNo](xmlreader.getattributeno.md)(int `$index`):
-?string
-
-public [getAttributeNs](xmlreader.getattributens.md)(string `$name`,
-string `$namespace`): ?string
-
-public [getParserProperty](xmlreader.getparserproperty.md)(int
-`$property`): bool
-
-public [isValid](xmlreader.isvalid.md)(): bool
-
-public [lookupNamespace](xmlreader.lookupnamespace.md)(string
-`$prefix`): ?string
-
-public [moveToAttribute](xmlreader.movetoattribute.md)(string
-`$name`): bool
-
-public [moveToAttributeNo](xmlreader.movetoattributeno.md)(int
-`$index`): bool
-
-public [moveToAttributeNs](xmlreader.movetoattributens.md)(string
-`$name`, string `$namespace`): bool
-
-public [moveToElement](xmlreader.movetoelement.md)(): bool
-
-public [moveToFirstAttribute](xmlreader.movetofirstattribute.md)():
-bool
-
-public [moveToNextAttribute](xmlreader.movetonextattribute.md)(): bool
-
-public [next](xmlreader.next.md)(?string `$name` = **`null`**): bool
-
-public static [open](xmlreader.open.md)(string `$uri`, ?string
-`$encoding` = **`null`**, int `$flags` = 0):
-bool\|[XMLReader](class.xmlreader.md)
-
-public [read](xmlreader.read.md)(): bool
-
-public [readInnerXml](xmlreader.readinnerxml.md)(): string
-
-public [readOuterXml](xmlreader.readouterxml.md)(): string
-
-public [readString](xmlreader.readstring.md)(): string
-
-public [setParserProperty](xmlreader.setparserproperty.md)(int
-`$property`, bool `$value`): bool
-
-public [setRelaxNGSchema](xmlreader.setrelaxngschema.md)(?string
-`$filename`): bool
-
+    /* Методы */
+    
+   public close(): bool
+public expand(?DOMNode $baseNode = null): DOMNode|false
+public getAttribute(string $name): ?string
+public getAttributeNo(int $index): ?string
+public getAttributeNs(string $name, string $namespace): ?string
+public getParserProperty(int $property): bool
+public isValid(): bool
+public lookupNamespace(string $prefix): ?string
 public
-[setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md)(?string
-`$source`): bool
+   moveToAttribute(string $name): bool
+public
+   moveToAttributeNo(int $index): bool
+public moveToAttributeNs(string $name, string $namespace): bool
+public moveToElement(): bool
+public moveToFirstAttribute(): bool
+public moveToNextAttribute(): bool
+public next(?string $name = null): bool
+public static open(string $uri, ?string $encoding = null, int $flags = 0): bool|XMLReader
+public read(): bool
+public readInnerXml(): string
+public readOuterXml(): string
+public readString(): string
+public
+   setParserProperty(int $property, bool $value): bool
+public setRelaxNGSchema(?string $filename): bool
+public setRelaxNGSchemaSource(?string $source): bool
+public setSchema(?string $filename): bool
+public static XML(string $source, ?string $encoding = null, int $flags = 0): bool|XMLReader
 
-public [setSchema](xmlreader.setschema.md)(?string `$filename`): bool
-
-public static [XML](xmlreader.xml.md)(string `$source`, ?string
-`$encoding` = **`null`**, int `$flags` = 0):
-bool\|[XMLReader](class.xmlreader.md)
-
-}
+   }
+```
 
 ## Властивості
 
-`attributeCount`
+attributeCount
+
 Кількість атрибутів у вузлі
 
-`baseURI`
+baseURI
+
 Базовий URI вузла
 
-`depth`
+depth
+
 Глибина вузла в дереві, починаючи з 0
 
-`hasAttributes`
+haSattributes
+
 Показує, чи є у вузла атрибути
 
-`hasValue`
+hasValue
+
 Показує, чи має вузол текстове значення
 
-`isDefault`
+isDefault
+
 Показує, чи є стандартним атрибутом з DTD
 
-`isEmptyElement`
+isEmptyElement
+
 Показує, чи є вузол порожнім тегом
 
-`localName`
+localName
+
 Локальне ім'я вузла
 
-`name`
+name
+
 Повністю певне ім'я вузла
 
-`namespaceURI`
-URI простору імен пов'язаний із вузлом
+namespaceURI
 
-`nodeType`
+URI простору імен пов'язаний з вузлом
+
+nodeType
+
 Тип вузла
 
-`prefix`
+prefix
+
 Префікс простору імен пов'язаний із вузлом
 
-`value`
+value
+
 Текстове значення вузла
 
-`xmlLang`
+xmlLang
+
 Контекст xml:lang, де знаходиться вузол
 
-## Зумовлені константи
+## Обумовлені константи
 
 ## Типи вузлів XMLReader
 
 **`XMLReader::NONE`**
+
 Немає типу вузла
 
 **`XMLReader::ELEMENT`**
+
 Початковий елемент
 
 **`XMLReader::ATTRIBUTE`**
+
 Вузол атрибуту
 
 **`XMLReader::TEXT`**
+
 Текстовий вузол
 
 **`XMLReader::CDATA`**
+
 Вузол CDATA
 
 **`XMLReader::ENTITY_REF`**
+
 Вузол посилання на сутність
 
 **`XMLReader::ENTITY`**
+
 Вузол оголошення об'єкту
 
 **`XMLReader::PI`**
+
 Вузол інструкцій обробки
 
 **`XMLReader::COMMENT`**
+
 Вузол коментаря
 
 **`XMLReader::DOC`**
+
 Вузол документа
 
 **`XMLReader::DOC_TYPE`**
+
 Вузол типу документа
 
 **`XMLReader::DOC_FRAGMENT`**
+
 Вузол фрагмента документа
 
 **`XMLReader::NOTATION`**
+
 Вузол нотації
 
 **`XMLReader::WHITESPACE`**
+
 Пробільний вузол
 
 **`XMLReader::SIGNIFICANT_WHITESPACE`**
+
 Істотний пробільний вузол
 
 **`XMLReader::END_ELEMENT`**
+
 Завершення елемента
 
 **`XMLReader::END_ENTITY`**
+
 Завершення об'єкту
 
 **`XMLReader::XML_DECLARATION`**
+
 Вузол XML оголошення
 
 ## Опції аналізатора XMLReader
 
 **`XMLReader::LOADDTD`**
+
 Завантажувати DTD, але не перевіряти
 
 **`XMLReader::DEFAULTATTRS`**
+
 Завантажувати DTD та атрибути за замовчуванням, але не перевіряти
 
 **`XMLReader::VALIDATE`**
-Завантажувати DTD та перевіряти при розборі
+
+Завантажувати DTD і перевіряти під час аналізу
 
 **`XMLReader::SUBST_ENTITIES`**
+
 Замінювати об'єкти та розгортати посилання
 
 ## Зміст
 
-- [XMLReader::close](xmlreader.close.md) — Закрити введення XMLReader
-- [XMLReader::expand](xmlreader.expand.md) — Повернути копію
-поточного вузла у вигляді об'єкта DOM
-- [XMLReader::getAttribute](xmlreader.getattribute.md) — Отримати
-значення атрибуту з певним ім'ям
-- [XMLReader::getAttributeNo](xmlreader.getattributeno.md)
-Отримати значення атрибута за індексом
-- [XMLReader::getAttributeNs](xmlreader.getattributens.md) -
-Отримати значення атрибуту по localname та URI
-- [XMLReader::getParserProperty](xmlreader.getparserproperty.md) -
-Вказує, чи була певна властивість встановлена
-- [XMLReader::isValid](xmlreader.isvalid.md) — Показати, чи є
-документ, що розбирається, синтаксично правильним
-- [XMLReader::lookupNamespace](xmlreader.lookupnamespace.md) — Знайти
-простір імен для префіксу
-- [XMLReader::moveToAttribute](xmlreader.movetoattribute.md) -
-Перемістити курсор до атрибуту із заданим ім'ям
-- [XMLReader::moveToAttributeNo](xmlreader.movetoattributeno.md) -
-Перемістити курсор на атрибут за індексом
-- [XMLReader::moveToAttributeNs](xmlreader.movetoattributens.md) -
-Перемістити курсор до іменованого атрибуту
-- [XMLReader::moveToElement](xmlreader.movetoelement.md)
-Позиціонувати курсор на батьківському елементі поточного атрибуту
-- [XMLReader::moveToFirstAttribute](xmlreader.movetofirstattribute.md)
-— Перемістити позицію курсору на перший атрибут
-- [XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md)
-— Перемістити позицію курсору на наступний атрибут
-- [XMLReader::next](xmlreader.next.md) — Перемістити курсор на
-наступний вузол, пропускаючи всі піддерев'я
-- [XMLReader::open](xmlreader.open.md) — Встановити URI, що містить
-XML-документ для аналізу
-- [XMLReader::read](xmlreader.read.md) — Перейти до наступного
-вузлу у документі
-- [XMLReader::readInnerXml](xmlreader.readinnerxml.md) — Вийняти XML
-з поточного вузла
-- [XMLReader::readOuterXml](xmlreader.readouterxml.md) — Отримати
-XML із поточного вузла, включаючи сам вузол
-- [XMLReader::readString](xmlreader.readstring.md) — Прочитати
-вміст поточного вузла як рядок
-- [XMLReader::setParserProperty](xmlreader.setparserproperty.md) -
-Встановлює опцію парсера
-- [XMLReader::setRelaxNGSchema](xmlreader.setrelaxngschema.md) -
-Встановити ім'я файлу або URI для схеми RelaxNG
-- [XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md)
-- Встановлює дані, що містять схему RelaxNG
-- [XMLReader::setSchema](xmlreader.setschema.md) — Перевірити
-документ, використовуючи XSD
-- [XMLReader::XML](xmlreader.xml.md) — Встановити дані, що містять
-XML для розбору
+-   [XMLReader::close](xmlreader.close.html) — Закрити введення XMLReader
+-   [XMLReader::expand](xmlreader.expand.html) — Повернути копію поточного вузла як об'єкт DOM
+-   [XMLReader::getAttribute](xmlreader.getattribute.html) — Отримати значення атрибуту з певним ім'ям
+-   [XMLReader::getAttributeNo](xmlreader.getattributeno.html) — Отримати значення атрибуту за індексом
+-   [XMLReader::getAttributeNs](xmlreader.getattributens.html) — Отримати значення атрибуту по localname та URI
+-   [XMLReader::getParserProperty](xmlreader.getparserproperty.html) — Вказує, чи була певна властивість встановлена
+-   [XMLReader::isValid](xmlreader.isvalid.html) — Показати, чи розбирається документ синтаксично правильним
+-   [XMLReader::lookupNamespace](xmlreader.lookupnamespace.html) - Знайти простір імен для префікса
+-   [XMLReader::moveToAttribute](xmlreader.movetoattribute.html) — Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::moveToAttributeNo](xmlreader.movetoattributeno.html) — Перемістити курсор на атрибут за індексом
+-   [XMLReader::moveToAttributeNs](xmlreader.movetoattributens.html) — Перемістити курсор до іменованого атрибуту
+-   [XMLReader::moveToElement](xmlreader.movetoelement.html) — Позиціонувати курсор на батьківському елементі поточного атрибуту
+-   [XMLReader::moveToFirstAttribute](xmlreader.movetofirstattribute.html) — Перемістити позицію курсору на перший атрибут
+-   [XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.html) — Перемістити позицію курсору на наступний атрибут
+-   [XMLReader::next](xmlreader.next.html) — Перемістити курсор на наступний вузол, пропускаючи всі дерева.
+-   [XMLReader::open](xmlreader.open.html) — Встановити URI, що містить XML-документ для аналізу
+-   [XMLReader::read](xmlreader.read.html) — Переміститися до наступного сайту в документі
+-   [XMLReader::readInnerXml](xmlreader.readinnerxml.html) — Вийняти XML із поточного вузла
+-   [XMLReader::readOuterXml](xmlreader.readouterxml.html) — Отримати XML із поточного вузла, включаючи сам вузол
+-   [XMLReader::readString](xmlreader.readstring.html) — Прочитати вміст поточного вузла як рядок
+-   [XMLReader::setParserProperty](xmlreader.setparserproperty.html) - Встановлює опцію парсера
+-   [XMLReader::setRelaxNGSchema](xmlreader.setrelaxngschema.html) — Встановити ім'я файлу або URI для схеми RelaxNG
+-   [XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.html) - Встановлює дані, що містять схему RelaxNG
+-   [XMLReader::setSchema](xmlreader.setschema.html) — Перевірити документ за допомогою XSD
+-   [XMLReader::XML](xmlreader.xml.html) — Встановити дані, що містять XML для аналізу

@@ -1,38 +1,42 @@
-- [«fdf_set_ap](function.fdf-set-ap.md)
-- [fdf_set_file »](function.fdf-set-file.md)
+Встановлює кодування символів FDF
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Встановлює кодування символів FDF
+-   [« fdf\_set\_ap](function.fdf-set-ap.html)
+    
+-   [fdf\_set\_file »](function.fdf-set-file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Встановлює кодування символів FDF
+    
 
-#fdf_set_encoding
+# fdfsetencoding
 
-(PHP 4 \>= 4.0.7, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.0.7, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_set_encoding — Встановлює кодування символів FDF
+fdfsetencoding — Встановлює кодування символів FDF
 
 ### Опис
 
-**fdf_set_encoding**(resource `$fdf_document`, string `$encoding`): bool
+```methodsynopsis
+fdf_set_encoding(resource $fdf_document, string $encoding): bool
+```
 
 Встановлює кодування символів для FDF.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) or
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) ор [fdf\_open\_string()](function.fdf-open-string.html)
 
 `encoding`
-Назва кодування. Підтримуються такі значення: "Shift-JIS",
-"UHC", "GBK" і "BigFive".
 
-Порожній рядок скидає кодування за замовчуванням у схему
-`PDFDocEncoding/Unicode`.
+Назва кодування. Підтримуються такі значення: "`Shift-JIS`","`UHC`","`GBK`"і"`BigFive`".
+
+Порожній рядок скидає кодування за умовчанням у схему `PDFDocEncoding/Unicode`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

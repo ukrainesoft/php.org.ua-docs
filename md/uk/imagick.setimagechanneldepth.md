@@ -1,21 +1,27 @@
-- [« Imagick::setImageBorderColor](imagick.setimagebordercolor.md)
-- [Imagick::setImageClipMask »](imagick.setimageclipmask.md)
+Встановлює глибину певного каналу зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює глибину певного каналу зображення
+-   [« Imagick::setImageBorderColor](imagick.setimagebordercolor.html)
+    
+-   [Imagick::setImageClipMask »](imagick.setimageclipmask.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює глибину певного каналу зображення
+    
 
 # Imagick::setImageChannelDepth
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::setImageChannelDepth — Встановлює глибину певного
-каналу зображення
+Imagick::setImageChannelDepth — Встановлює глибину певного каналу зображення
 
 ### Опис
 
-public **Imagick::setImageChannelDepth**(int `$channel`, int `$depth`):
-bool
+```methodsynopsis
+public Imagick::setImageChannelDepth(int $channel, int $depth): bool
+```
 
 Встановлює глибину певного каналу зображення.
 
@@ -27,7 +33,7 @@ bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

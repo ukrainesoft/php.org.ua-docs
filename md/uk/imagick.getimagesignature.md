@@ -1,9 +1,15 @@
-- [« Imagick::getImageScene](imagick.getimagescene.md)
-- [Imagick::getImageSize »](imagick.getimagesize.md)
+Генерує хеш SHA-256
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Генерує хеш SHA-256
+-   [« Imagick::getImageScene](imagick.getimagescene.html)
+    
+-   [Imagick::getImageSize »](imagick.getimagesize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Генерує хеш SHA-256
+    
 
 # Imagick::getImageSignature
 
@@ -13,7 +19,9 @@ Imagick::getImageSignature - Генерує хеш SHA-256
 
 ### Опис
 
-public **Imagick::getImageSignature**(): string
+```methodsynopsis
+public Imagick::getImageSignature(): string
+```
 
 Генерує хеш SHA-256 для потоку пікселів зображення.
 

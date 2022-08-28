@@ -1,9 +1,15 @@
-- [« ArrayIterator::offsetUnset](arrayiterator.offsetunset.md)
-- [ArrayIterator::seek »](arrayiterator.seek.md)
+Переміщує покажчик на початок масиву
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Переміщує покажчик на початок масиву
+-   [« ArrayIterator::offsetUnset](arrayiterator.offsetunset.html)
+    
+-   [ArrayIterator::seek »](arrayiterator.seek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Переміщує покажчик на початок масиву
+    
 
 # ArrayIterator::rewind
 
@@ -13,7 +19,9 @@ ArrayIterator::rewind — Переміщує покажчик на почато�
 
 ### Опис
 
-public **ArrayIterator::rewind**(): void
+```methodsynopsis
+public ArrayIterator::rewind(): void
+```
 
 Переміщує покажчик на перший елемент у масиві
 
@@ -29,4 +37,20 @@ public **ArrayIterator::rewind**(): void
 
 **Приклад #1 Приклад використання **ArrayIterator::rewind()****
 
-` <?php$arrayobject = new ArrayObject();$arrayobject[] = 'нуль';$arrayobject[] = 'один';$arrayobject[] = 'два';$iterator = $arrayobject->getIterator(); $iterator->next();echo $iterator->key(); //1$iterator->rewind(); // переміщає покажчик в початок масиваecho $iterator->key(); //0?> `
+```php
+<?php
+$arrayobject = new ArrayObject();
+
+$arrayobject[] = 'ноль';
+$arrayobject[] = 'один';
+$arrayobject[] = 'два';
+
+$iterator = $arrayobject->getIterator();
+
+$iterator->next();
+echo $iterator->key(); //1
+
+$iterator->rewind(); // перемещает указатель в начало массива
+echo $iterator->key(); //0
+?>
+```

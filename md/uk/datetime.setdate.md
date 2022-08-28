@@ -1,67 +1,66 @@
-- [« DateTime::\_\_set_state](datetime.set-state.md)
-- [DateTime::setISODate »](datetime.setisodate.md)
+Встановлює дату
 
-- [PHP Manual](index.md)
-- [DateTime](class.datetime.md)
-- Встановлює дату
+-   [« DateTime::\_\_set\_state](datetime.set-state.html)
+    
+-   [DateTime::setISODate »](datetime.setisodate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTime](class.datetime.html)
+    
+-   Встановлює дату
+    
 
 # DateTime::setDate
 
-# date_date_set
+# datedateset
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-DateTime::setDate -- date_date_set — Встановлює дату
+DateTime::setDate -- datedateset — Встановлює дату
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **DateTime::setDate**(int `$year`, int `$month`, int `$day`):
-[DateTime](class.datetime.md)
+```methodsynopsis
+public DateTime::setDate(int $year, int $month, int $day): DateTime
+```
 
 Процедурний стиль
 
-[date_date_set](function.date-date-set.md)(
-[DateTime](class.datetime.md) `$object`,
-int `$year`,
-int `$month`,
-int `$day`
-): [DateTime](class.datetime.md)
+```methodsynopsis
+date_date_set(    DateTime $object,    int $year,    int $month,    int $day): DateTime
+```
 
-Встановлює поточне значення дати об'єкта DateTime на нове
-значення.
+Встановлює поточне значення дати об'єкта DateTime на нове значення.
 
-Подібний методу
-[DateTimeImmutable::setDate()](datetimeimmutable.setdate.md), за
-винятком роботи з об'єктом [DateTime](class.datetime.md) та
-зміною наявного об'єкта.
+Подібний до методу [DateTimeImmutable::setDate()](datetimeimmutable.setdate.html), крім роботи з об'єктом [DateTime](class.datetime.html) та зміною існуючого об'єкта.
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.md)
-як перший аргумент.
+Процедурна версія приймає об'єкт [DateTime](class.datetime.html) як перший аргумент.
 
 ### Список параметрів
 
 `object`
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md),
-повертається [date_create()](function.date-create.md). Функція
-змінює цей об'єкт.
+
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html). Функція змінює цей об'єкт.
 
 `year`
+
 Рік нової дати.
 
 `month`
+
 Місяць нової дати.
 
 `day`
+
 День нової дати.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateTime](class.datetime.md) для застосування в ланцюзі
-методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.html) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) -
-Встановлює дату
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.html) - Встановлює дату

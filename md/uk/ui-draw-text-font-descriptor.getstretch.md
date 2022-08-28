@@ -1,19 +1,27 @@
-- [« UI\Draw\Text\Font\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.md)
-- [UI\Draw\Text\Font\Descriptor::getWeight »](ui-draw-text-font-descriptor.getweight.md)
+Визначення стилю
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)
-- Визначення стилю
+-   [« UI\\Draw\\Text\\Font\\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.html)
+    
+-   [UI\\Draw\\Text\\Font\\Descriptor::getWeight »](ui-draw-text-font-descriptor.getweight.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+    
+-   Визначення стилю
+    
 
-# UI\Draw\Text\Font\Descriptor::getStretch
+# ОЙDrawTextFontDescriptor::getStretch
 
 (UI 1.0.3)
 
-UI\Draw\Text\Font\Descriptor::getStretch — Визначення стилю
+ОЙDrawTextFontDescriptor::getStretch — Визначення стилю
 
 ### Опис
 
-public **UI\Draw\Text\Font\Descriptor::getStretch**(): int
+```methodsynopsis
+public UI\Draw\Text\Font\Descriptor::getStretch(): int
+```
 
 Повертає зображення
 

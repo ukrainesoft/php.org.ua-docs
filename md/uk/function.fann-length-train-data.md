@@ -1,29 +1,36 @@
-- [« fann_init_weights](function.fann-init-weights.md)
-- [fann_merge_train_data »](function.fann-merge-train-data.md)
+Повертає кількість шаблонів у навчальних даних
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає кількість шаблонів у навчальних даних
+-   [« fann\_init\_weights](function.fann-init-weights.html)
+    
+-   [fann\_merge\_train\_data »](function.fann-merge-train-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає кількість шаблонів у навчальних даних
+    
 
-# fann_length_train_data
+# fannlengthtraindata
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_length_train_data — Повертає кількість шаблонів у навчальних закладах
-даних
+fannlengthtraindata — Повертає кількість шаблонів до навчальних даних
 
 ### Опис
 
-**fann_length_train_data**(resource `$data`): int
+```methodsynopsis
+fann_length_train_data(resource $data): int
+```
 
-Повертає кількість шаблонів ресурсу (resource) навчальних даних.
+Повертає кількість шаблонів у ресурсі (resource) навчальних даних.
 
 ### Список параметрів
 
 `data`
+
 Ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
 
-Кількість елементів у ресурсі (resource) навчальних даних або
-**`false`** у разі виникнення помилки.
+Кількість елементів у ресурсі (resource) навчальних даних або **`false`** у разі виникнення помилки.

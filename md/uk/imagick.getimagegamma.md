@@ -1,9 +1,15 @@
-- [« Imagick::getImageFormat](imagick.getimageformat.md)
-- [Imagick::getImageGeometry »](imagick.getimagegeometry.md)
+Повертає гаму зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає гаму зображення
+-   [« Imagick::getImageFormat](imagick.getimageformat.html)
+    
+-   [Imagick::getImageGeometry »](imagick.getimagegeometry.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає гаму зображення
+    
 
 # Imagick::getImageGamma
 
@@ -13,7 +19,9 @@ Imagick::getImageGamma — Повертає гаму зображення
 
 ### Опис
 
-public **Imagick::getImageGamma**(): float
+```methodsynopsis
+public Imagick::getImageGamma(): float
+```
 
 Повертає гаму зображення.
 

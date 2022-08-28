@@ -1,88 +1,113 @@
-- [«gmp_scan1](function.gmp-scan1.md)
-- [gmp_sign »](function.gmp-sign.md)
+Установка біта
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Установка біта
+-   [« gmp\_scan1](function.gmp-scan1.html)
+    
+-   [gmp\_sign »](function.gmp-sign.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Установка біта
+    
 
-#gmp_setbit
+# gmpsetbit
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmp_setbit — Встановлення біта
+gmpsetbit - Встановлення біта
 
 ### Опис
 
-**gmp_setbit**([GMP](class.gmp.md) `$num`, int `$index`, bool `$value`
-= **`true`**): void
+```methodsynopsis
+gmp_setbit(GMP $num, int $index, bool $value = true): void
+```
 
-Встановлює в 1 біт з індексом `index` у числі `num`.
+Встановлює 1 біт з індексом `index` у числі `num`
 
 ### Список параметрів
 
 `num`
+
 Значення, що змінюється.
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 `index`
+
 Індекс встановлюваного біта. Індекс 0 вказує на молодший біт.
 
 `value`
-True для установки біта (установки в 1/включено); false для його очищення
-(Установки в 0/вимкнено).
+
+True для установки біта (установки в 1/включено); false для його очищення (установки 0/вимкнено).
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.html)ю
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_setbit()** - 0 індекс**
+**Приклад #1 Приклад використання **gmpsetbit()** - 0 індекс**
 
-` <?php$a = gmp_init("2"); //echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
-";gmp_setbit($a, 0); // 0b10 now becomes 0b11echo gmp_strval($a), ->>0b', gmp_strval($a, 2), "
-";?> `
+```php
+<?php
+$a = gmp_init("2"); //
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+gmp_setbit($a, 0); // 0b10 now becomes 0b11
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2 -> 0b10
 3 -> 0b11
+```
 
-**Приклад #2 Приклад використання **gmp_setbit()** - 1 індекс**
+**Приклад #2 Приклад використання **gmpsetbit()** - 1 індекс**
 
-` <?php$a = gmp_init("0xfd");echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
-";gmp_setbit($a, 1); // index starts at 0echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
-";?> `
+```php
+<?php
+$a = gmp_init("0xfd");
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+gmp_setbit($a, 1); // index starts at 0
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 253 -> 0b11111101
 255 -> 0b11111111
+```
 
-**Приклад #3 Приклад використання **gmp_setbit()** очищення біта**
+**Приклад #3 Приклад використання **gmpsetbit()** очищення біта**
 
-` <?php$a = gmp_init("0xff");echo gmp_strval($a), - -> 0b', gmp_strval($a, 2), "
-";gmp_setbit($a, 0, false); // clear bit at index 0echo gmp_strval($a), ->>0b', gmp_strval($a, 2), "
-";?> `
+```php
+<?php
+$a = gmp_init("0xff");
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+gmp_setbit($a, 0, false); // clear bit at index 0
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 255 -> 0b11111111
 254 -> 0b11111110
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> На відміну від більшості GMP функцій, **gmp_setbit()** має
-> викликатись для вже існуючого об'єкта GMP (наприклад, створеного
-> функцією [gmp_init()](function.gmp-init.md)). Число не буде
-> Створюватися автоматично.
+> **Зауваження**
+> 
+> На відміну від більшості GMP функцій, **gmpsetbit()** має викликатися для вже існуючого об'єкта GMP (наприклад, створеного функцією [gmp\_init()](function.gmp-init.html)). Число не створюватиметься автоматично.
 
 ### Дивіться також
 
-- [gmp_clrbit()](function.gmp-clrbit.md) - Скидання біта
-- [gmp_testbit()](function.gmp-testbit.md) - Перевірка, чи встановлено
-біт в 1
+-   [gmp\_clrbit()](function.gmp-clrbit.html) - Скидання біта
+-   [gmp\_testbit()](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1

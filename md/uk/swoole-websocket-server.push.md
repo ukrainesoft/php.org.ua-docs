@@ -1,24 +1,27 @@
-- [« Swoole\WebSocket\Server::pack](swoole-websocket-server.pack.md)
-- [Swoole\WebSocket\Server::unpack »](swoole-websocket-server.unpack.md)
+Надіслати дані віддаленому клієнту
 
-- [PHP Manual](index.md)
-- [Swoole\WebSocket\Server](class.swoole-websocket-server.md)
-- Надіслати дані віддаленому клієнту
+-   [« Swoole\\WebSocket\\Server::pack](swoole-websocket-server.pack.html)
+    
+-   [Swoole\\WebSocket\\Server::unpack »](swoole-websocket-server.unpack.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.html)
+    
+-   Надіслати дані віддаленому клієнту
+    
 
-# Swoole\WebSocket\Server::push
+# SwooleWebSocketServer::push
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\WebSocket\Server::push — Надіслати дані дистанційному клієнту
+SwooleWebSocketServer::push — Надіслати дані віддаленому клієнту
 
 ### Опис
 
-public **Swoole\WebSocket\Server::push**(
-string `$fd`,
-string `$data`,
-string `$opcode` = ?,
-string `$finish` = ?
-): void
+```methodsynopsis
+public Swoole\WebSocket\Server::push(    string $fd,    string $data,    string $opcode = ?,    string $finish = ?): void
+```
 
 ### Список параметрів
 

@@ -1,31 +1,46 @@
-- [«Evio::createStopped](evio.createstopped.md)
-- [EvLoop »](class.evloop.md)
+Конфігурування спостерігача
 
-- [PHP Manual](index.md)
-- [EvIo](class.evio.md)
-- Конфігурування спостерігача
+-   [« EvIo::createStopped](evio.createstopped.html)
+    
+-   [EvLoop »](class.evloop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvIo](class.evio.html)
+    
+-   Конфігурування спостерігача
+    
 
 # EvIo::set
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvIo::set — Конфігурування спостерігача
+EvIo::set — Налаштування спостерігача
 
 ### Опис
 
-public **EvIo::set**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` , int `$events` ): void
+```methodsynopsis
+public
+   EvIo::set(
+    mixed
+     $fd
+   , 
+    int
+     $events
+   ): void
+```
 
 Конфігурування спостерігача EvIo
 
 ### Список параметрів
 
 `fd`
-Дивіться [EvIo::\_\_construct()](evio.construct.md)
+
+Дивіться [EvIo::\_\_construct()](evio.construct.html)
 
 `events`
-Дивіться [EvIo::\_\_construct()](evio.construct.md)
+
+Дивіться [EvIo::\_\_construct()](evio.construct.html)
 
 ### Значення, що повертаються
 

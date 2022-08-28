@@ -1,22 +1,29 @@
-- [« UI\Controls\EditableCombo::append](ui-controls-editablecombo.append.md)
-- [UI\Controls\EditableCombo::onChange »](ui-controls-editablecombo.onchange.md)
+Отримати текст
 
-- [PHP Manual](index.md)
-- [UI\Controls\EditableCombo](class.ui-controls-editablecombo.md)
-- Отримати текст
+-   [« UI\\Controls\\EditableCombo::append](ui-controls-editablecombo.append.html)
+    
+-   [UI\\Controls\\EditableCombo::onChange »](ui-controls-editablecombo.onchange.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+    
+-   Отримати текст
+    
 
-# UI\Controls\EditableCombo::getText
+# ОЙControlsEditableCombo::getText
 
 (UI 0.9.9)
 
-UI\Controls\EditableCombo::getText — Отримати текст
+ОЙControlsEditableCombo::getText — Отримати текст
 
 ### Опис
 
-public **UI\Controls\EditableCombo::getText**(): string
+```methodsynopsis
+public UI\Controls\EditableCombo::getText(): string
+```
 
-Отримує значення обраної в даний момент опції в даному редагованому
-елемент "Комбо"
+Отримує значення обраної в даний момент опції в даному елементі "Комбо", що редагується.
 
 ### Список параметрів
 

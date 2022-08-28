@@ -1,23 +1,29 @@
-- [« FilterIterator](class.filteriterator.md)
-- [FilterIterator::\_\_construct »](filteriterator.construct.md)
+Перевіряє, чи є поточний елемент ітератора допустимим
 
-- [PHP Manual](index.md)
-- [FilterIterator](class.filteriterator.md)
-- Перевіряє, чи є поточний елемент ітератора допустимим
+-   [« FilterIterator](class.filteriterator.html)
+    
+-   [FilterIterator::\_\_construct »](filteriterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FilterIterator](class.filteriterator.html)
+    
+-   Перевіряє, чи є поточний елемент ітератора допустимим
+    
 
 # FilterIterator::accept
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-FilterIterator::accept — Перевіряє, чи є поточний елемент
-ітератора допустимим
+FilterIterator::accept — Перевіряє, чи поточний елемент ітератора є допустимим.
 
 ### Опис
 
-public **FilterIterator::accept**(): bool
+```methodsynopsis
+public FilterIterator::accept(): bool
+```
 
-Перевіряє, чи є поточний елемент ітератора допустимим для цього
-фільтра.
+Перевіряє, чи поточний елемент ітератора є допустимим для цього фільтра.
 
 ### Список параметрів
 
@@ -25,16 +31,35 @@ public **FilterIterator::accept**(): bool
 
 ### Значення, що повертаються
 
-**`true`** якщо поточний елемент допустимо, інакше
-**`false`**.
+**`true`** якщо поточний елемент допустимо, інакше **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **FilterIterator::accept()****
 
-` <?php// Этот итератор фильтрует все значения с длиной менее 10 символовclass LengthFilterIterator extends FilterIterator {    public function accept() {        // Допускает строки с длиной 10 символов и более        return strlen(parent::current()) >= 10; }}$arrayIterator = new ArrayIterator(array('тест1', 'більше 10 символів'));$lengthFilter = new LengthFilterIterator($arrayIterator);foreach ($length   "
-";}?> `
+```php
+<?php
+// Этот итератор фильтрует все значения с длиной менее 10 символов
+class LengthFilterIterator extends FilterIterator {
+
+    public function accept() {
+        // Допускает строки с длиной 10 символов и более
+        return strlen(parent::current()) >= 10;
+    }
+
+}
+
+$arrayIterator = new ArrayIterator(array('тест1', 'больше 10 символов'));
+$lengthFilter = new LengthFilterIterator($arrayIterator);
+
+foreach ($lengthFilter as $value) {
+    echo $value . "\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-більше 10 символів
+```
+больше 10 символов
+```

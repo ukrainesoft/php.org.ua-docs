@@ -1,45 +1,51 @@
-- [«HRTime\Unit](class.hrtime-unit.md)
-- [Пряме введення/виведення (Direct IO) »](book.dio.md)
+Модулі для роботи з файловою системою
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Модулі для роботи з файловою системою
+-   [« HRTime\\Unit](class.hrtime-unit.html)
+    
+-   [Прямой ввод/вывод (Direct IO) »](book.dio.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Модулі для роботи з файловою системою
+    
 
 # Модулі для роботи з файловою системою
 
-- [Пряме введення/виведення (Direct IO)](book.dio.md)
-- [Вступ](intro.dio.md)
-- [Встановлення та налаштування](dio.setup.md)
-- [Предвизначені константи](dio.constants.md)
-- [Функції прямого введення/виводу](ref.dio.md)
-- [Каталоги](book.dir.md)
-- [Встановлення та налаштування](dir.setup.md)
-- [Предвизначені константи](dir.constants.md)
-- [Directory](class.directory.md) - Клас Directory
-- [Функції для роботи з каталогами](ref.dir.md)
-- [FileInfo](book.fileinfo.md) — Інформація про файл
-- [Вступ](intro.fileinfo.md)
-- [Встановлення та налаштування](fileinfo.setup.md)
-- [Предвизначені константи](fileinfo.constants.md)
-- [Функції модуля Fileinfo](ref.fileinfo.md)
-- [finfo](class.finfo.md) - Клас finfo
-- [Файлова система](book.filesystem.md)
-- [Вступ](intro.filesystem.md)
-- [Встановлення та налаштування](filesystem.setup.md)
-- [Предвизначені константи](filesystem.constants.md)
-- [Функції файлової системи](ref.filesystem.md)
-- [Inotify](book.inotify.md)
-- [Вступ](intro.inotify.md)
-- [Встановлення та налаштування](inotify.setup.md)
-- [Предвизначені константи](inotify.constants.md)
-- [Функції Inotify](ref.inotify.md)
-- [xattr](book.xattr.md)
-- [Вступ](intro.xattr.md)
-- [Встановлення та налаштування](xattr.setup.md)
-- [Предвизначені константи](xattr.constants.md)
-- [xattr Функції](ref.xattr.md)
-- [xdiff](book.xdiff.md)
-- [Вступ](intro.xdiff.md)
-- [Встановлення та налаштування](xdiff.setup.md)
-- [Предвизначені константи](xdiff.constants.md)
-- [Функції xdiff](ref.xdiff.md)
+-   [Прямой ввод/вывод (Direct IO)](book.dio.html)
+    -   [Введение](intro.dio.html)
+    -   [Установка и настройка](dio.setup.html)
+    -   [Предопределённые константы](dio.constants.html)
+    -   [Функции прямого ввода/вывода](ref.dio.html)
+-   [Каталоги](book.dir.html)
+    -   [Установка и настройка](dir.setup.html)
+    -   [Предопределённые константы](dir.constants.html)
+    -   [Directory](class.directory.html) - Клас Directory
+    -   [Функции для работы с каталогами](ref.dir.html)
+-   [FileInfo](book.fileinfo.html) — Інформація про файл
+    -   [Введение](intro.fileinfo.html)
+    -   [Установка и настройка](fileinfo.setup.html)
+    -   [Предопределённые константы](fileinfo.constants.html)
+    -   [Функции модуля Fileinfo](ref.fileinfo.html)
+    -   [finfo](class.finfo.html) - Клас finfo
+-   [Файловая система](book.filesystem.html)
+    -   [Введение](intro.filesystem.html)
+    -   [Установка и настройка](filesystem.setup.html)
+    -   [Предопределённые константы](filesystem.constants.html)
+    -   [Функции файловой системы](ref.filesystem.html)
+-   [Inotify](book.inotify.html)
+    -   [Введение](intro.inotify.html)
+    -   [Установка и настройка](inotify.setup.html)
+    -   [Предопределённые константы](inotify.constants.html)
+    -   [Функции Inotify](ref.inotify.html)
+-   [xattr](book.xattr.html)
+    -   [Введение](intro.xattr.html)
+    -   [Установка и настройка](xattr.setup.html)
+    -   [Предопределённые константы](xattr.constants.html)
+    -   [xattr Функции](ref.xattr.html)
+-   [xdiff](book.xdiff.html)
+    -   [Введение](intro.xdiff.html)
+    -   [Установка и настройка](xdiff.setup.html)
+    -   [Предопределённые константы](xdiff.constants.html)
+    -   [Функции xdiff](ref.xdiff.html)

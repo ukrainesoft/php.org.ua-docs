@@ -1,9 +1,15 @@
-- [« ArrayIterator::offsetExists](arrayiterator.offsetexists.md)
-- [ArrayIterator::offsetSet »](arrayiterator.offsetset.md)
+Отримує значення для усунення
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Отримує значення для зміщення
+-   [« ArrayIterator::offsetExists](arrayiterator.offsetexists.html)
+    
+-   [ArrayIterator::offsetSet »](arrayiterator.offsetset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Отримує значення для усунення
+    
 
 # ArrayIterator::offsetGet
 
@@ -13,30 +19,27 @@ ArrayIterator::offsetGet — Отримує значення для зміщен
 
 ### Опис
 
-public
-**ArrayIterator::offsetGet**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ArrayIterator::offsetGet(mixed $key): mixed
+```
 
-Отримує значення наданого зсуву.
+Отримує значення наданого зміщення.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `key`
+
 Усунення, з якого необхідно отримати значення.
 
 ### Значення, що повертаються
 
-Значення зі зміщення `key`.
+Значення зі зміщення `key`
 
 ### Дивіться також
 
-- [ArrayIterator::offsetSet()](arrayiterator.offsetset.md) -
-Встановлює значення для зміщення
-- [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.md) -
-Скидає значення зі зміщення
+-   [ArrayIterator::offsetSet()](arrayiterator.offsetset.html) - Встановлює значення для усунення
+-   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.html) - скидає значення зі зміщення

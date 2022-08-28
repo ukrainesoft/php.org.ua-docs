@@ -1,22 +1,28 @@
-- [« stream_bucket_make_writeable](function.stream-bucket-make-writeable.md)
-- [stream_bucket_prepend »](function.stream-bucket-prepend.md)
+Створити нове цебро для використання в поточному потоці
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Створити нове цебро для використання в поточному потоці
+-   [« stream\_bucket\_make\_writeable](function.stream-bucket-make-writeable.html)
+    
+-   [stream\_bucket\_prepend »](function.stream-bucket-prepend.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Створити нове цебро для використання в поточному потоці
+    
 
-#stream_bucket_new
+# streambucketnew
 
 (PHP 5, PHP 7, PHP 8)
 
-stream_bucket_new — Створити нове цебро для використання в поточному
-потоці
+streambucketnew — Створити нове відро для використання у поточному потоці
 
 ### Опис
 
-**stream_bucket_new**(resource `$stream`, string `$buffer`): object
+```methodsynopsis
+stream_bucket_new(resource $stream, string $buffer): object
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

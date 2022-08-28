@@ -1,37 +1,42 @@
-- [« Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)
-- [Вступ »](oop5.intro.md)
+Класи та об'єкти
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- Класи та об'єкти
+-   [« Callback-функции как объекты первого класса](functions.first_class_callable_syntax.html)
+    
+-   [Введение »](oop5.intro.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Класи та об'єкти
+    
 
 # Класи та об'єкти
 
 ## Зміст
 
-- [Вступ](oop5.intro.md)
-- [Основи](language.oop5.basic.md)
-- [Властивості](language.oop5.properties.md)
-- [Константи класів](language.oop5.constants.md)
-- [Автоматичне завантаження класів](language.oop5.autoload.md)
-- [Конструктори та деструктори](language.oop5.decon.md)
-- [Область видимості](language.oop5.visibility.md)
-- [Спадкування](language.oop5.inheritance.md)
-- [Оператор роздільної здатності області видимості
-(::)](language.oop5.paamayim-nekudotayim.md)
-- [Ключове слово static](language.oop5.static.md)
-- [Абстрактні класи](language.oop5.abstract.md)
-- [Інтерфейси об'єктів](language.oop5.interfaces.md)
-- [Трейти](language.oop5.traits.md)
-- [Анонімні класи](language.oop5.anonymous.md)
-- [Перевантаження](language.oop5.overloading.md)
-- [Ітератори об'єктів](language.oop5.iterations.md)
-- [Магічні методи](language.oop5.magic.md)
-- [Ключове слово final](language.oop5.final.md)
-- [Клонування об'єктів](language.oop5.cloning.md)
-- [Порівняння об'єктів](language.oop5.object-comparison.md)
-- [Пізніше статичне зв'язування](language.oop5.late-static-bindings.md)
-- [Об'єкти та посилання](language.oop5.references.md)
-- [Серіалізація об'єктів](language.oop5.serialization.md)
-- [Коваріантність та контраваріантність](language.oop5.variance.md)
-- [Журнал змін ООП](language.oop5.changelog.md)
+-   [Введение](oop5.intro.html)
+-   [Основы](language.oop5.basic.html)
+-   [Свойства](language.oop5.properties.html)
+-   [Константы классов](language.oop5.constants.html)
+-   [Автоматическая загрузка классов](language.oop5.autoload.html)
+-   [Конструкторы и деструкторы](language.oop5.decon.html)
+-   [Область видимости](language.oop5.visibility.html)
+-   [Наследование](language.oop5.inheritance.html)
+-   [Оператор разрешения области видимости (::)](language.oop5.paamayim-nekudotayim.html)
+-   [Ключевое слово static](language.oop5.static.html)
+-   [Абстрактные классы](language.oop5.abstract.html)
+-   [Интерфейсы объектов](language.oop5.interfaces.html)
+-   [Трейты](language.oop5.traits.html)
+-   [Анонимные классы](language.oop5.anonymous.html)
+-   [Перегрузка](language.oop5.overloading.html)
+-   [Итераторы объектов](language.oop5.iterations.html)
+-   [Магические методы](language.oop5.magic.html)
+-   [Ключевое слово final](language.oop5.final.html)
+-   [Клонирование объектов](language.oop5.cloning.html)
+-   [Сравнение объектов](language.oop5.object-comparison.html)
+-   [Позднее статическое связывание](language.oop5.late-static-bindings.html)
+-   [Объекты и ссылки](language.oop5.references.html)
+-   [Сериализация объектов](language.oop5.serialization.html)
+-   [Ковариантность и контравариантность](language.oop5.variance.html)
+-   [Журнал изменений ООП](language.oop5.changelog.html)

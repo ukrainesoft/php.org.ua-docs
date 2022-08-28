@@ -1,18 +1,22 @@
-- [« stream_notification_callback](function.stream-notification-callback.md)
-- [stream_resolve_include_path »](function.stream-resolve-include-path.md)
+Псевдонім streamwrapperregister
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Псевдонім stream_wrapper_register
+-   [« stream\_notification\_callback](function.stream-notification-callback.html)
+    
+-   [stream\_resolve\_include\_path »](function.stream-resolve-include-path.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Псевдонім streamwrapperregister
+    
 
-#stream_register_wrapper
+# streamregisterwrapper
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-stream_register_wrapper - Псевдонім
-[stream_wrapper_register()](function.stream-wrapper-register.md)
+streamregisterwrapper - Псевдонім [stream\_wrapper\_register()](function.stream-wrapper-register.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[stream_wrapper_register()](function.stream-wrapper-register.md).
+Ця функція є псевдонімом: [stream\_wrapper\_register()](function.stream-wrapper-register.html)

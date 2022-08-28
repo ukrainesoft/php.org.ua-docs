@@ -1,57 +1,40 @@
-- [«Зумовлені константи](openal.constants.md)
-- [openal_buffer_create »](function.openal-buffer-create.md)
+Функції OpenAL
 
-- [PHP Manual](index.md)
-- [OpenAL](book.openal.md)
-- Функції OpenAL
+-   [« Предопределённые константы](openal.constants.html)
+    
+-   [openal\_buffer\_create »](function.openal-buffer-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OpenAL](book.openal.html)
+    
+-   Функції OpenAL
+    
 
 # Функції OpenAL
 
 ## Зміст
 
-- [openal_buffer_create](function.openal-buffer-create.md) -
-Згенерувати буфер OpenAL
-- [openal_buffer_data](function.openal-buffer-data.md) - Завантаження
-буфера з даними
-- [openal_buffer_destroy](function.openal-buffer-destroy.md) -
-Знищує буфер OpenAL
-- [openal_buffer_get](function.openal-buffer-get.md) — Отримати
-властивість буфера OpenAL
-- [openal_buffer_loadwav](function.openal-buffer-loadwav.md) -
-Завантажити файл у форматі wav у буфер
-- [openal_context_create](function.openal-context-create.md) -
-Створити контекст обробки звуку
-- [openal_context_current](function.openal-context-current.md) -
-Зробити вказаний контекст поточним
-- [openal_context_destroy](function.openal-context-destroy.md) -
-Знищує контекст
-- [openal_context_process](function.openal-context-process.md) -
-Обробити вказаний контекст
-- [openal_context_suspend](function.openal-context-suspend.md) -
-Призупинити вказаний контекст
-- [openal_device_close](function.openal-device-close.md) — Закрити
-пристрій OpenAL
-- [openal_device_open](function.openal-device-open.md) -
-Ініціалізувати звуковий рівень OpenAL
-- [openal_listener_get](function.openal-listener-get.md) — Отримати
-властивість прослуховувача
-- [openal_listener_set](function.openal-listener-set.md) — Встановлення
-властивості прослуховувача
-- [openal_source_create](function.openal-source-create.md) -
-Згенерувати джерело ресурсу
-- [openal_source_destroy](function.openal-source-destroy.md) -
-Знищення ресурсу джерела
-- [openal_source_get](function.openal-source-get.md) — Отримати
-властивість джерела OpenAL
-- [openal_source_pause](function.openal-source-pause.md) — Поставити
-джерело на паузу
-- [openal_source_play](function.openal-source-play.md) — Почати
-відтворення джерела
-- [openal_source_rewind](function.openal-source-rewind.md) -
-Перемотати джерело на початок
-- [openal_source_set](function.openal-source-set.md) — Встановити
-властивість джерела
-- [openal_source_stop](function.openal-source-stop.md) — Зупинити
-відтворення джерела
-- [openal_stream](function.openal-stream.md) - Почати потокову
-передачу з джерела
+-   [openal\_buffer\_create](function.openal-buffer-create.html) - Згенерувати буфер OpenAL
+-   [openal\_buffer\_data](function.openal-buffer-data.html) - Завантаження буфера з даними
+-   [openal\_buffer\_destroy](function.openal-buffer-destroy.html) - Знищує буфер OpenAL
+-   [openal\_buffer\_get](function.openal-buffer-get.html) — Отримати властивість буфера OpenAL
+-   [openal\_buffer\_loadwav](function.openal-buffer-loadwav.html) — Завантажити файл у форматі wav у буфер
+-   [openal\_context\_create](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openal\_context\_current](function.openal-context-current.html) — Зробити вказаний контекст поточним
+-   [openal\_context\_destroy](function.openal-context-destroy.html) — Знищує контекст
+-   [openal\_context\_process](function.openal-context-process.html) — Опрацювати зазначений контекст
+-   [openal\_context\_suspend](function.openal-context-suspend.html) — Призупинити вказаний контекст
+-   [openal\_device\_close](function.openal-device-close.html) — Закрити пристрій OpenAL
+-   [openal\_device\_open](function.openal-device-open.html) - Ініціалізувати звуковий рівень OpenAL
+-   [openal\_listener\_get](function.openal-listener-get.html) — Отримати властивість прослуховувача
+-   [openal\_listener\_set](function.openal-listener-set.html) — Встановлення якості прослуховувача
+-   [openal\_source\_create](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openal\_source\_destroy](function.openal-source-destroy.html) - Знищення ресурсу джерела
+-   [openal\_source\_get](function.openal-source-get.html) — Отримати властивість джерела OpenAL
+-   [openal\_source\_pause](function.openal-source-pause.html) - Поставити джерело на паузу
+-   [openal\_source\_play](function.openal-source-play.html) — Почати відтворення джерела
+-   [openal\_source\_rewind](function.openal-source-rewind.html) - Перемотати джерело на початок
+-   [openal\_source\_set](function.openal-source-set.html) — Встановити властивість джерела
+-   [openal\_source\_stop](function.openal-source-stop.html) — Зупинити відтворення джерела
+-   [openal\_stream](function.openal-stream.html) — Почати потокову передачу із джерела

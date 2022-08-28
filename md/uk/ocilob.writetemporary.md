@@ -1,48 +1,55 @@
-- [« OCILob::write](ocilob.write.md)
-- [OCILob::writeToFile »](ocilob.writetofile.md)
+Записує великий тимчасовий об'єкт (LOB)
 
-- [PHP Manual](index.md)
-- [OCILob](class.ocilob.md)
-- Записує великий тимчасовий об'єкт (LOB)
+-   [« OCILob::write](ocilob.write.html)
+    
+-   [OCILob::writeToFile »](ocilob.writetofile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCILob](class.ocilob.html)
+    
+-   Записує великий тимчасовий об'єкт (LOB)
+    
 
-#OCILob::writeTemporary
+# OCILob::writeTemporary
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
 OCILob::writeTemporary — Записує великий тимчасовий об'єкт (LOB)
 
 ### Опис
 
-public **OCILob::writeTemporary**(string `$data`, int `$type` =
-**`OCI_TEMP_CLOB`**): bool
+```methodsynopsis
+public OCILob::writeTemporary(string $data, int $type = OCI_TEMP_CLOB): bool
+```
 
-Створює великий тимчасовий об'єкт і записує в нього дані `data`.
+Створює великий тимчасовий об'єкт і записує в нього дані `data`
 
-Після завершення роботи з цим об'єктом його бажано закрити функцією
-[OCILob::close](ocilob.close.md).
+Після завершення роботи з цим об'єктом його бажано закрити функцією [OCILob::close](ocilob.close.html)
 
 ### Список параметрів
 
 `data`
+
 Дані для запису.
 
 `type`
-Один з наступних варіантів:
 
-- **`OCI_TEMP_BLOB`** для створення тимчасових BLOB
-- **`OCI_TEMP_CLOB`** для створення тимчасових CLOB
+Один з таких варіантів:
+
+-   **`OCI_TEMP_BLOB`** для створення тимчасових BLOB
+-   **`OCI_TEMP_CLOB`** для створення тимчасових CLOB
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                                                                                  |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
-- [OCILob::close](ocilob.close.md)
+-   [OCILob::close](ocilob.close.html)

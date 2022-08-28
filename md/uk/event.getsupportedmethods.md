@@ -1,24 +1,31 @@
-- [«Event::free](event.free.md)
-- [Event::pending »](event.pending.md)
+Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
 
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- Отримати масив з іменами методів, які підтримуються в поточній версії
-Libevent
+-   [« Event::free](event.free.html)
+    
+-   [Event::pending »](event.pending.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Event](class.event.html)
+    
+-   Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
+    
 
 # Event::getSupportedMethods
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-Event::getSupportedMethods — Отримати масив з іменами методів,
-підтримуваних у поточній версії Libevent
+Event::getSupportedMethods — Отримати масив із іменами методів, що підтримуються в поточній версії Libevent
 
 ### Опис
 
-public static **Event::getSupportedMethods**(): array
+```methodsynopsis
+public
+   static
+   Event::getSupportedMethods(): array
+```
 
-Повертає масив з іменами методів (бекендів), що підтримуються в поточній
-версії Libevent.
+Повертає масив з іменами методів (бекендів), що підтримуються в поточній версії Libevent.
 
 ### Список параметрів
 
@@ -30,4 +37,4 @@ public static **Event::getSupportedMethods**(): array
 
 ### Дивіться також
 
-- [EventConfig](class.eventconfig.md)
+-   [EventConfig](class.eventconfig.html)

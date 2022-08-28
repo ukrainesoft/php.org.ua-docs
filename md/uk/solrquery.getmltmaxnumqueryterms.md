@@ -1,24 +1,29 @@
-- [«SolrQuery::getMltFields](solrquery.getmltfields.md)
-- [SolrQuery::getMltMaxNumTokens »](solrquery.getmltmaxnumtokens.md)
+Повертає максимальну кількість умов запиту, які будуть включені до будь-якого згенерованого запиту
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає максимальну кількість умов запиту, які будуть
-включені у будь-який згенерований запит
+-   [« SolrQuery::getMltFields](solrquery.getmltfields.html)
+    
+-   [SolrQuery::getMltMaxNumTokens »](solrquery.getmltmaxnumtokens.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає максимальну кількість умов запиту, які будуть включені до будь-якого згенерованого запиту
+    
 
 # SolrQuery::getMltMaxNumQueryTerms
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getMltMaxNumQueryTerms — Повертає максимальну кількість
-умов запиту, які будуть включені до будь-якого згенерованого запиту
+SolrQuery::getMltMaxNumQueryTerms — Повертає максимальну кількість умов запиту, які будуть включені до будь-якого згенерованого запиту
 
 ### Опис
 
-public **SolrQuery::getMltMaxNumQueryTerms**(): int
+```methodsynopsis
+public SolrQuery::getMltMaxNumQueryTerms(): int
+```
 
-Повертає максимальну кількість умов запиту, які будуть
-включені у будь-який згенерований запит.
+Повертає максимальну кількість умов запиту, які будуть включені до будь-якого згенерованого запиту.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ public **SolrQuery::getMltMaxNumQueryTerms**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

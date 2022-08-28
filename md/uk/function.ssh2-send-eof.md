@@ -1,39 +1,40 @@
-- [« ssh2_scp_send](function.ssh2-scp-send.md)
-- [ssh2_sftp_chmod »](function.ssh2-sftp-chmod.md)
+Відправляє EOF у потік
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Відправляє EOF у потік
+-   [« ssh2\_scp\_send](function.ssh2-scp-send.html)
+    
+-   [ssh2\_sftp\_chmod »](function.ssh2-sftp-chmod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Відправляє EOF у потік
+    
 
-# ssh2_send_eof
+# ssh2sendeof
 
-(PECL ssh2 \>= 1.3)
+(PECL ssh2> = 1.3)
 
-ssh2_send_eof — Відправляє EOF до потоку
+ssh2sendeof - Відправляє EOF в потік
 
 ### Опис
 
-**ssh2_send_eof**(resource `$channel`): bool
+```methodsynopsis
+ssh2_send_eof(resource $channel): bool
+```
 
-Відправляє EOF у потік; зазвичай використовується для закриття стандартного
-введення, зберігаючи при цьому висновок та помилку. Наприклад, можна надіслати
-віддаленому процесу деякі дані через стандартне введення, закрити
-його, щоб почати обробку, і як і раніше мати можливість зчитувати
-результати без створення додаткових файлів.
+Відправляє EOF у потік; зазвичай використовується для закриття стандартного введення, зберігаючи при цьому висновок та помилку. Наприклад, можна відправити дистанційному процесу деякі дані через стандартне введення, закрити його, щоб почати обробку, і як і раніше мати можливість зчитувати результати без створення додаткових файлів.
 
 ### Список параметрів
 
 `channel`
-Потік SSH; можна отримати за допомогою таких функцій, як
-[ssh2_fetch_stream()](function.ssh2-fetch-stream.md) або
-[ssh2_connect()](function.ssh2-connect.md).
+
+Потік SSH; можна отримати за допомогою таких функцій, як [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.html) або [ssh2\_connect()](function.ssh2-connect.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ssh2_fetch_stream()](function.ssh2-fetch-stream.md) - Отримання
-розширеного потоку даних
+-   [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних

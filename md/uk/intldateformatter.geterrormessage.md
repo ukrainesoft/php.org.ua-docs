@@ -1,35 +1,44 @@
-- [« IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md)
-- [IntlDateFormatter::getLocale »](intldateformatter.getlocale.md)
+Отримує текст помилки останньої операції
 
-- [PHP Manual](index.md)
-- [IntlDateFormatter](class.intldateformatter.md)
-- Отримує текст помилки останньої операції
+-   [« IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.html)
+    
+-   [IntlDateFormatter::getLocale »](intldateformatter.getlocale.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlDateFormatter](class.intldateformatter.html)
+    
+-   Отримує текст помилки останньої операції
+    
 
 # IntlDateFormatter::getErrorMessage
 
-# datefmt_get_error_message
+# datefmtgeterrormessage
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getErrorMessage -- datefmt_get_error_message --
-Отримує текст помилки останньої операції
+IntlDateFormatter::getErrorMessage -- datefmtgeterrormessage — Отримує текст помилки останньої операції
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlDateFormatter::getErrorMessage**(): string
+```methodsynopsis
+public IntlDateFormatter::getErrorMessage(): string
+```
 
 Процедурний стиль
 
-**datefmt_get_error_message**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`): string
+```methodsynopsis
+datefmt_get_error_message(IntlDateFormatter $formatter): string
+```
 
-Отримує текст помилки останньої операції.
+Отримує помилку останньої операції.
 
 ### Список параметрів
 
 `formatter`
+
 Ресурс засобу форматування.
 
 ### Значення, що повертаються
@@ -38,25 +47,59 @@ public **IntlDateFormatter::getErrorMessage**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmt_get_error_message()****
+**Приклад #1 Приклад використання **datefmtgeterrormessage()****
 
-` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$str = datefmt_format($fmt);if (!$str) {    printf(        ""ПОМИЛКА: %s(%d)
-",         datefmt_get_error_message($fmt),        datefmt_get_error_code($fmt)    );}?> `
+```php
+<?php
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
+);
+$str = datefmt_format($fmt);
+if (!$str) {
+    printf(
+        "ОШИБКА: %s (%d)\n",
+        datefmt_get_error_message($fmt),
+        datefmt_get_error_code($fmt)
+    );
+}
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$fmt = new IntlDateFormatter(   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,     'America/Los_Ang| $str) {   printf(         "ПОМИЛКА: %s (%d)
-",        $fmt->getErrorMessage(),        $fmt->getErrorCode()    );}?> `
+```php
+<?php
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
+);
+$str = $fmt->format();
+if(!$str) {
+    printf(
+        "ОШИБКА: %s (%d)\n",
+        $fmt->getErrorMessage(),
+        $fmt->getErrorCode()
+    );
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-ПОМИЛКА: U_ZERO_ERROR (0)
+```
+ОШИБКА: U_ZERO_ERROR (0)
+```
 
 ### Дивіться також
 
-- [datefmt_get_error_code()](intldateformatter.geterrorcode.md) -
-Отримує код помилки останньої операції
-- [intl_get_error_code()](function.intl-get-error-code.md) -
-Отримати код останньої помилки
-- [intl_is_failure()](function.intl-is-failure.md) - Перевірити,
-чи є код помилки ознакою збою
+-   [datefmt\_get\_error\_code()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
+-   [intl\_get\_error\_code()](function.intl-get-error-code.html) - Отримати код останньої помилки
+-   [intl\_is\_failure()](function.intl-is-failure.html) - Перевірити, чи є код помилки ознакою збою

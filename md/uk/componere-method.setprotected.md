@@ -1,19 +1,27 @@
-- [« Componere\Method::setPrivate](componere-method.setprivate.md)
-- [Componere\Method::setStatic »](componere-method.setstatic.md)
+Зміна доступності
 
-- [PHP Manual](index.md)
-- [Componere\Method](class.componere-method.md)
-- Зміна доступності
+-   [« Componere\\Method::setPrivate](componere-method.setprivate.html)
+    
+-   [Componere\\Method::setStatic »](componere-method.setstatic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Method](class.componere-method.html)
+    
+-   Зміна доступності
+    
 
-# Componere\Method::setProtected
+# ComponereMethod::setProtected
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Method::setProtected — Зміна доступності
+ComponereMethod::setProtected — Зміна доступності
 
 ### Опис
 
-public **Componere\Method::setProtected**(): Method
+```methodsynopsis
+public Componere\Method::setProtected(): Method
+```
 
 ### Значення, що повертаються
 
@@ -23,5 +31,4 @@ public **Componere\Method::setProtected**(): Method
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md),
-якщо рівень доступу був раніше встановлений
+Викидає виняток [RuntimeException](class.runtimeexception.html)якщо рівень доступу був раніше встановлений

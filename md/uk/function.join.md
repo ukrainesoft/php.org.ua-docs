@@ -1,16 +1,22 @@
-- [«implode](function.implode.md)
-- [lcfirst »](function.lcfirst.md)
+Псевдонім implode
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Псевдонім implode
+-   [« implode](function.implode.html)
+    
+-   [lcfirst »](function.lcfirst.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Псевдонім implode
+    
 
-#join
+# join
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-join - Псевдонім [implode()](function.implode.md)
+join - Псевдонім [implode()](function.implode.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [implode()](function.implode.md).
+Ця функція є псевдонімом: [implode()](function.implode.html)

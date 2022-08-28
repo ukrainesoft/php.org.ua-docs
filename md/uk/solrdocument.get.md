@@ -1,26 +1,34 @@
-- [«SolrDocument::fieldExists](solrdocument.fieldexists.md)
-- [SolrDocument::getChildDocuments »](solrdocument.getchilddocuments.md)
+Доступ до поля як властивості
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Доступ до поля як властивості
+-   [« SolrDocument::fieldExists](solrdocument.fieldexists.html)
+    
+-   [SolrDocument::getChildDocuments »](solrdocument.getchilddocuments.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Доступ до поля як властивості
+    
 
-# SolrDocument::\_\_get
+# SolrDocument::get
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::\_\_get — Доступ до поля як властивості
+SolrDocument::get — Доступ до поля як властивості
 
 ### Опис
 
-public **SolrDocument::\_\_get**(string `$fieldName`):
-[SolrDocumentField](class.solrdocumentfield.md)
+```methodsynopsis
+public SolrDocument::__get(string $fieldName): SolrDocumentField
+```
 
 Магічний метод доступу до поля як властивості.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля
 
 ### Значення, що повертаються

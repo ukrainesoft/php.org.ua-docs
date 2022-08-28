@@ -1,23 +1,29 @@
-- [« Функції SNMP](ref.snmp.md)
-- [snmp_get_valueretrieval »](function.snmp-get-valueretrieval.md)
+Отримує поточне значення Quickprint бібліотеки NET-SNMP
 
-- [PHP Manual](index.md)
-- [Функції SNMP](ref.snmp.md)
-- отримує поточне значення параметра quick_print бібліотеки NET-SNMP
+-   [« Функции SNMP](ref.snmp.html)
+    
+-   [snmp\_get\_valueretrieval »](function.snmp-get-valueretrieval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SNMP](ref.snmp.html)
+    
+-   Отримує поточне значення Quickprint бібліотеки NET-SNMP
+    
 
-#snmp_get_quick_print
+# snmpgetquickprint
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-snmp_get_quick_print — Отримує поточне значення параметра quick_print
-бібліотеки NET-SNMP
+snmpgetquickprint — Отримує поточне значення quickprint бібліотеки NET-SNMP
 
 ### Опис
 
-**snmp_get_quick_print**(): bool
+```methodsynopsis
+snmp_get_quick_print(): bool
+```
 
-Повертає поточне значення, що зберігається в бібліотеці NET-SNMP для
-quick_print. quick_print за замовчуванням вимкнено.
+Повертає поточне значення, що зберігається в бібліотеці NET-SNMP для quickprint. quickprint за замовчуванням вимкнено.
 
 ### Список параметрів
 
@@ -25,17 +31,18 @@ quick_print. quick_print за замовчуванням вимкнено.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо quick_print включено або **`false`** в
-інакше.
+Повертає **`true`**, якщо quickprint включений або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmp_get_quick_print()****
+**Приклад #1 Приклад використання **snmpgetquickprint()****
 
-` <?php$quickprint = snmp_get_quick_print();?> `
+```php
+<?php
+$quickprint = snmp_get_quick_print();
+?>
+```
 
 ### Дивіться також
 
-- [snmp_set_quick_print()](function.snmp-set-quick-print.md) -
-Встановлює значення enable у бібліотеці NET-SNMP для повного
-опис того, що робить quick_print.
+-   [snmp\_set\_quick\_print()](function.snmp-set-quick-print.html) - Встановлює значення enable у бібліотеці NET-SNMP для повного опису того, що робить quickprint.

@@ -1,64 +1,62 @@
-- [« openssl_csr_sign](function.openssl-csr-sign.md)
-- [openssl_dh_compute_key »](function.openssl-dh-compute-key.md)
+Розшифровує дані
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Розшифровує дані
+-   [« openssl\_csr\_sign](function.openssl-csr-sign.html)
+    
+-   [openssl\_dh\_compute\_key »](function.openssl-dh-compute-key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Розшифровує дані
+    
 
-# openssl_decrypt
+# openssldecrypt
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-openssl_decrypt - Розшифровує дані
+openssldecrypt - Розшифровує дані
 
 ### Опис
 
-**openssl_decrypt**(
-string `$data`,
-string `$cipher_algo`,
-string `$passphrase`,
-int `$options` = 0,
-string `$iv` = "",
-?string `$tag` = **`null`**,
-string `$aad` = ""
-): string\|false
+```methodsynopsis
+openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    ?string $tag = null,    string $aad = ""): string|false
+```
 
-Бере необроблений або кодований у base64 рядок і розшифровує
-її за допомогою заданого методу та ключа.
+Бере необроблений або кодований у base64 рядок і розшифровує його за допомогою заданого методу та ключа.
 
 ### Список параметрів
 
 `data`
+
 Дані для розшифрування.
 
 `cipher_algo`
-Метод шифрування. Список доступних методів можна отримати за допомогою
-функції
-[openssl_get_cipher_methods()](function.openssl-get-cipher-methods.md).
+
+Метод шифрування. Список доступних методів можна отримати за допомогою функції [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.html)
 
 `passphrase`
+
 Ключ.
 
 `options`
-`options` можна задати одній із констант: **`OPENSSL_RAW_DATA`**,
-**`OPENSSL_ZERO_PADDING`**.
+
+`options` можна задати одній з констант: **`OPENSSL_RAW_DATA`** **`OPENSSL_ZERO_PADDING`**
 
 `iv`
+
 Ненульовий вектор, що ініціалізує.
 
 `tag`
-Тег аутентифікації в режимі шифрування AEAD. Якщо він некоректний, то
-автентифікація завершиться невдачею та функція поверне **`false`**.
+
+Тег аутентифікації в режимі шифрування AEAD. Якщо він некоректний, то автентифікація завершиться невдачею та функція поверне **`false`**
 
 **Застереження**
-Довжина `tag` не перевіряється функцією. Викликаюча сторона несе
-відповідальність за те, щоб довжина тега відповідала довжині тега,
-отриманого під час виклику
-[openssl_encrypt()](function.openssl-encrypt.md). В іншому випадку
-дешифрування може бути успішним, якщо цей тег збігається тільки з
-початком правильного тегу.
+
+Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [openssl\_encrypt()](function.openssl-encrypt.html). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
 
 `aad`
+
 Додаткові автентифіковані дані.
 
 ### Значення, що повертаються
@@ -67,19 +65,17 @@ string `$aad` = ""
 
 ### Помилки
 
-Видає помилку рівня **`E_WARNING`**, якщо в параметрі `cipher_algo`
-передано невідомий алгоритм шифрування.
+Видає помилку рівня **`E_WARNING`**, якщо параметр `cipher_algo` передано невідомий алгоритм шифрування.
 
-Видає помилку рівня **`E_WARNING`**, якщо параметр "iv" передано
-пусте значення.
+Видає помилку рівня **`E_WARNING`**, якщо параметр `iv` передано порожнє значення.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                        |
-|--------|---------------------------------------------|
-| 8.1.0  | Параметр tag тепер припускає значення null. |
-| 7.1.0  | Додані параметри tag та aad.                |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `tag` тепер допускає значення null. |
+|  | Додані параметри `tag` і `aad` |
 
 ### Дивіться також
 
-- [openssl_encrypt()](function.openssl-encrypt.md) - Шифрує дані
+-   [openssl\_encrypt()](function.openssl-encrypt.html) - Шифрує дані

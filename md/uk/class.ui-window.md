@@ -1,9 +1,15 @@
-- [« UI\Size::setWidth](ui-size.setwidth.md)
-- [UI\Window::add »](ui-window.add.md)
+Вікно
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Вікно
+-   [« UI\\Size::setWidth](ui-size.setwidth.html)
+    
+-   [UI\\Window::add »](ui-window.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Вікно
+    
 
 # Вікно
 
@@ -15,109 +21,89 @@
 
 ## Огляд класів
 
-class **UI\Window** extends [UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$controls`;
 
-/\* Конструктор \*/
+    
+     
+      class UI\Window
+     
 
-public [\_\_construct](ui-window.construct.md)(string `$title`, Size
-`$size`, bool `$menu` = **`false`**)
+     
+      extends
+       UI\Control
+     
+     {
 
-/\* Методи \*/
+    /* Свойства */
+    
+     protected
+      $controls;
 
-public [add](ui-window.add.md)([UI\Control](class.ui-control.md)
-`$control`)
 
-public [error](ui-window.error.md)(string `$title`, string `$msg`)
+    /* Конструктор */
+    
+   public __construct(string $title, Size $size, bool $menu = false)
 
-public [getSize](ui-window.getsize.md)():
-[UI\Size](class.ui-size.md)
 
-public [getTitle](ui-window.gettitle.md)(): string
+    /* Методы */
+    public add(UI\Control $control)
+public error(string $title, string $msg)
+public getSize(): UI\Size
+public getTitle(): string
+public hasBorders(): bool
+public hasMargin(): bool
+public isFullScreen(): bool
+public msg(string $title, string $msg)
+protected onClosing(): int
+public open(): string
+public save(): string
+public setBorders(bool $borders)
+public setFullScreen(bool $full)
+public setMargin(bool $margin)
+public setSize(UI\Size $size)
+public setTitle(string $title)
 
-public [hasBorders](ui-window.hasborders.md)(): bool
 
-public [hasMargin](ui-window.hasmargin.md)(): bool
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [isFullScreen](ui-window.isfullscreen.md)(): bool
 
-public [msg](ui-window.msg.md)(string `$title`, string `$msg`)
-
-protected [onClosing](ui-window.onclosing.md)(): int
-
-public [open](ui-window.open.md)(): string
-
-public [save](ui-window.save.md)(): string
-
-public [setBorders](ui-window.setborders.md)(bool `$borders`)
-
-public [setFullScreen](ui-window.setfullscreen.md)(bool `$full`)
-
-public [setMargin](ui-window.setmargin.md)(bool `$margin`)
-
-public [setSize](ui-window.setsize.md)([UI\Size](class.ui-size.md)
-`$size`)
-
-public [setTitle](ui-window.settitle.md)(string `$title`)
-
-/\* Наслідувані методи \*/
-
-public [UI\Control::destroy](ui-control.destroy.md)()
-
-public [UI\Control::disable](ui-control.disable.md)()
-
-public [UI\Control::enable](ui-control.enable.md)()
-
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Властивості
 
-`controls`
+controls
+
 Містить елементи керування, не слід використовувати безпосередньо
 
 ## Зміст
 
-- [UI\Window::add](ui-window.add.md) — Додати елемент керування
-- [UI\Window::\_\_construct](ui-window.construct.md) - Створити новий
-об'єкт Window
-- [UI\Window::error](ui-window.error.md) — Показати блок помилки
-- [UI\Window::getSize](ui-window.getsize.md) — Отримати розмір вікна
-- [UI\Window::getTitle](ui-window.gettitle.md) - Отримати заголовок
-- [UI\Window::hasBorders](ui-window.hasborders.md) — Визначення
-рамки
-- [UI\Window::hasMargin](ui-window.hasmargin.md) — Визначення полів
-- [UI\Window::isFullScreen](ui-window.isfullscreen.md) - Визначення
-повного екрану
-- [UI\Window::msg](ui-window.msg.md) — Показати блок повідомлення
-- [UI\Window::onClosing](ui-window.onclosing.md) - Callback-функція
-закриття
-- [UI\Window::open](ui-window.open.md) — Відкрити діалогове вікно
-- [UI\Window::save](ui-window.save.md) — Зберегти діалогове вікно
-- [UI\Window::setBorders](ui-window.setborders.md) — Використання
-рамок
-- [UI\Window::setFullScreen](ui-window.setfullscreen.md) -
-Використання повного екрану
-- [UI\Window::setMargin](ui-window.setmargin.md) — Використання
-поля
-- [UI\Window::setSize](ui-window.setsize.md) — Встановити розмір
-- [UI\Window::setTitle](ui-window.settitle.md) — Заголовок вікна
+-   [UI\\Window::add](ui-window.add.html) — Додати елемент керування
+-   [UI\\Window::\_\_construct](ui-window.construct.html) - Створити новий об'єкт Window
+-   [UI\\Window::error](ui-window.error.html) - Показати блок помилки
+-   [UI\\Window::getSize](ui-window.getsize.html) — Отримати розмір вікна
+-   [UI\\Window::getTitle](ui-window.gettitle.html) - Отримати заголовок
+-   [UI\\Window::hasBorders](ui-window.hasborders.html) - Визначення рамки
+-   [UI\\Window::hasMargin](ui-window.hasmargin.html) - Визначення полів
+-   [UI\\Window::isFullScreen](ui-window.isfullscreen.html) — Визначення повного екрану
+-   [UI\\Window::msg](ui-window.msg.html) — Показати блок повідомлення
+-   [UI\\Window::onClosing](ui-window.onclosing.html) - Callback-функція закриття
+-   [UI\\Window::open](ui-window.open.html) — Відкрити діалогове вікно
+-   [UI\\Window::save](ui-window.save.html) — Зберегти діалогове вікно
+-   [UI\\Window::setBorders](ui-window.setborders.html) — Використання рамок
+-   [UI\\Window::setFullScreen](ui-window.setfullscreen.html) — Використання повного екрану
+-   [UI\\Window::setMargin](ui-window.setmargin.html) — Використання поля
+-   [UI\\Window::setSize](ui-window.setsize.html) - Встановити розмір
+-   [UI\\Window::setTitle](ui-window.settitle.html) - Заголовок вікна

@@ -1,34 +1,27 @@
-- [«BackedEnum::tryFrom](backedenum.tryfrom.md)
-- [Контекстні опції сокету»](context.socket.md)
+Контекстні опції та параметри
 
-- [PHP Manual](index.md)
-- [Довідник мови](langref.md)
-- Контекстні опції та параметри
+-   [« BackedEnum::tryFrom](backedenum.tryfrom.html)
+    
+-   [Контекстные опции сокета »](context.socket.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник языка](langref.html)
+    
+-   Контекстні опції та параметри
+    
 
 # Контекстні опції та параметри
 
-PHP пропонує різні контекстні опції та параметри, які можуть
-бути використані з усіма файловими системами та обгортками потоків.
-Контекст створюється з допомогою функції
-[stream_context_create()](function.stream-context-create.md). Опції
-встановлюються за допомогою
-[stream_context_set_option()](function.stream-context-set-option.md),
-а параметри за допомогою
-[stream_context_set_params()](function.stream-context-set-params.md).
+PHP пропонує різні контекстні опції та параметри, які можуть бути використані з усіма файловими системами та обгортками потоків. Контекст створюється за допомогою функції [stream\_context\_create()](function.stream-context-create.html). Опції встановлюються за допомогою [stream\_context\_set\_option()](function.stream-context-set-option.html), а параметри за допомогою [stream\_context\_set\_params()](function.stream-context-set-params.html)
 
 ## Зміст
 
-- [Контекстні опції сокету](context.socket.md) - Список контекстних
-опцій сокету
-- [Опції контексту HTTP](context.http.md) - Список опцій контексту
-HTTP
-- [Параметри контексту FTP](context.ftp.md) — Список параметрів
-контексту FTP
-- [Опції контексту SSL](context.ssl.md) - Список опцій контексту SSL
-- [Опції контексту CURL](context.curl.md) - Список опцій контексту
-CURL
-- [Контекстні опції Phar](context.phar.md) - Список контекстних
-опцій Phar
-- [Настройки контексту](context.params.md) — Список параметрів
-контексту
-- [Опції контексту Zip](context.zip.md) - Список опцій контексту Zip
+-   [Контекстные опции сокета](context.socket.html) - Список контекстних опцій сокету
+-   [Опции контекста HTTP](context.http.html) - Список опцій контексту HTTP
+-   [Параметры контекста FTP](context.ftp.html) - Список параметрів контексту FTP
+-   [Опции контекста SSL](context.ssl.html) - Список опцій контексту SSL
+-   [Опции контекста CURL](context.curl.html) - Список опцій контексту CURL
+-   [Контекстные опции Phar](context.phar.html) - Список контекстних опцій Phar
+-   [Параметры контекста](context.params.html) - Список параметрів контексту
+-   [Опции контекста Zip](context.zip.html) - Список опцій контексту Zip

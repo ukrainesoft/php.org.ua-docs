@@ -1,46 +1,45 @@
-- [« mysqli_stmt::close](mysqli-stmt.close.md)
-- [mysqli_stmt::data_seek »](mysqli-stmt.data-seek.md)
+Конструктор для об'єкту mysqlistmt
 
-- [PHP Manual](index.md)
-- [mysqli_stmt](class.mysqli-stmt.md)
-- Конструктор для об'єкту mysqli_stmt
+-   [« mysqli\_stmt::close](mysqli-stmt.close.html)
+    
+-   [mysqli\_stmt::data\_seek »](mysqli-stmt.data-seek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli\_stmt](class.mysqli-stmt.html)
+    
+-   Конструктор для об'єкту mysqlistmt
+    
 
-# mysqli_stmt::\_\_construct
+# mysqlistmt::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli_stmt::\_\_construct — Конструктор для об'єкту
-[mysqli_stmt](class.mysqli-stmt.md)
+mysqlistmt::construct — Конструктор для об'єкту [mysqli\_stmt](class.mysqli-stmt.html)
 
 ### Опис
 
-public **mysqli_stmt::\_\_construct**([mysqli](class.mysqli.md)
-`$mysql`, ?string `$query` = **`null`**)
+public **mysqlistmt::construct**[mysqli](class.mysqli.html) `$mysql`, ?string `$query` **`null`**
 
-Цей метод створює новий об'єкт класу
-[mysqli_stmt](class.mysqli-stmt.md).
+Цей метод створює новий об'єкт класу [mysqli\_stmt](class.mysqli-stmt.html)
 
 ### Список параметрів
 
 `link`
-Коректний об'єкт [mysqli](class.mysqli.md).
+
+Коректний об'єкт [mysqli](class.mysqli.html)
 
 `query`
-Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то
-результат буде аналогічний виклику
-[mysqli_stmt_init()](mysqli.stmt-init.md), інакше
-результат буде аналогічний виклику
-[mysqli_prepare()](mysqli.prepare.md).
 
-### Список змін
+Рядок, що містить SQL-запит. Якщо цей параметр **`null`**, то результат буде аналогічним виклику [mysqli\_stmt\_init()](mysqli.stmt-init.html), інакше результат буде аналогічний виклику [mysqli\_prepare()](mysqli.prepare.html)
 
-| Версія | Опис                                 |
-|--------|--------------------------------------|
-| 8.0.0  | query тепер припускає значення null. |
+### список змін
+
+| Версия | Описание |
+| --- | --- |
+|  | `query` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [mysqli_prepare()](mysqli.prepare.md) - Підготовляє SQL
-вираз до виконання
-- [mysqli_stmt_init()](mysqli.stmt-init.md) - Ініціалізує запит
-та повертає об'єкт для використання в mysqli_stmt_prepare
+-   [mysqli\_prepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqli\_stmt\_init()](mysqli.stmt-init.html) - Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare

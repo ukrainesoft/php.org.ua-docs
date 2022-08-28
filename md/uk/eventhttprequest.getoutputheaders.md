@@ -1,20 +1,28 @@
-- [« EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.md)
-- [EventHttpRequest::getResponseCode »](eventhttprequest.getresponsecode.md)
+Повертає асоціативний масив вихідних заголовків
 
-- [PHP Manual](index.md)
-- [EventHttpRequest](class.eventhttprequest.md)
-- Повертає асоціативний масив вихідних заголовків
+-   [« EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.html)
+    
+-   [EventHttpRequest::getResponseCode »](eventhttprequest.getresponsecode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpRequest](class.eventhttprequest.html)
+    
+-   Повертає асоціативний масив вихідних заголовків
+    
 
 # EventHttpRequest::getOutputHeaders
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttpRequest::getOutputHeaders — Повертає асоціативний масив
-вихідних заголовків
+EventHttpRequest::getOutputHeaders — Повертає асоціативний масив вихідних заголовків
 
 ### Опис
 
-public **EventHttpRequest::getOutputHeaders**(): void
+```methodsynopsis
+public
+   EventHttpRequest::getOutputHeaders(): void
+```
 
 Повертає асоціативний масив вихідних заголовків.
 
@@ -26,5 +34,4 @@ public **EventHttpRequest::getOutputHeaders**(): void
 
 ### Дивіться також
 
-- [EventHttpRequest::getInputHeaders()](eventhttprequest.getinputheaders.md) -
-Повертає асоціативний масив вхідних заголовків
+-   [EventHttpRequest::getInputHeaders()](eventhttprequest.getinputheaders.html) - Повертає асоціативний масив вхідних заголовків

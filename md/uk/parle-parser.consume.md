@@ -1,31 +1,39 @@
-- [« Parle\Parser::build](parle-parser.build.md)
-- [Parle\Parser::dump »](parle-parser.dump.md)
+Використовує дані для обробки
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Використовує дані для обробки
+-   [« Parle\\Parser::build](parle-parser.build.html)
+    
+-   [Parle\\Parser::dump »](parle-parser.dump.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Parser](class.parle-parser.html)
+    
+-   Використовує дані для обробки
+    
 
-# Parle\Parser::consume
+# ParleParser::consume
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Parser::consume — Використовує дані для обробки
+ParleParser::consume — Використовує дані для обробки
 
 ### Опис
 
-public **Parle\Parser::consume**(string `$data`,
-[Parle\Lexer](class.parle-lexer.md) `$lexer`): void
+```methodsynopsis
+public Parle\Parser::consume(string $data, Parle\Lexer $lexer): void
+```
 
 Використовує дані для обробки.
 
 ### Список параметрів
 
 `data`
+
 Дані, які потрібно обробити.
 
 `lexer`
-Об'єкт лексера, що містить правила лексування, підготовлені для
-конкретної граматики.
+
+Об'єкт лексера містить правила лексування, підготовлені для конкретної граматики.
 
 ### Значення, що повертаються
 

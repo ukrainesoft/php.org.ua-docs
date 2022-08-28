@@ -1,26 +1,33 @@
-- [« RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md)
-- [RecursiveIteratorIterator::rewind »](recursiveiteratoriterator.rewind.md)
+Наступний елемент
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- Наступний елемент
+-   [« RecursiveIteratorIterator::next](recursiveiteratoriterator.next.html)
+    
+-   [RecursiveIteratorIterator::rewind »](recursiveiteratoriterator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Наступний елемент
+    
 
 # RecursiveIteratorIterator::nextElement
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 RecursiveIteratorIterator::nextElement — Наступний елемент
 
 ### Опис
 
-public **RecursiveIteratorIterator::nextElement**(): void
+```methodsynopsis
+public RecursiveIteratorIterator::nextElement(): void
+```
 
 Викликається, коли наступний елемент стає доступним.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

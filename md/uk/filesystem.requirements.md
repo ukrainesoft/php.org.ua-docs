@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](filesystem.setup.md)
-- [Установка »](filesystem.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](filesystem.setup.md)
-- Вимоги
+-   [« Установка и настройка](filesystem.setup.html)
+    
+-   [Установка »](filesystem.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](filesystem.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

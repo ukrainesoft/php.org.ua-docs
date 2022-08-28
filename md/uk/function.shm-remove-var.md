@@ -1,44 +1,50 @@
-- [«shm_put_var](function.shm-put-var.md)
-- [shm_remove »](function.shm-remove.md)
+Видаляє змінну з пам'яті, що розділяється
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Видаляє змінну з пам'яті, що розділяється
+-   [« shm\_put\_var](function.shm-put-var.html)
+    
+-   [shm\_remove »](function.shm-remove.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Видаляє змінну з пам'яті, що розділяється
+    
 
-#shm_remove_var
+# shmremovevar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-shm_remove_var — Видалення змінної з пам'яті, що розділяється.
+shmremovevar — Видалення змінної з пам'яті, що розділяється.
 
 ### Опис
 
-**shm_remove_var**([SysvSharedMemory](class.sysvsharedmemory.md)
-`$shm`, int `$key`): bool
+```methodsynopsis
+shm_remove_var(SysvSharedMemory $shm, int $key): bool
+```
 
 Видаляє змінну із заданим ключем `key` та звільняє зайняту пам'ять.
 
 ### Список параметрів
 
 `shm`
-Сегмент пам'яті, що розділяється, отриманий з
-[shm_attach()](function.shm-attach.md).
+
+Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
 
 `key`
+
 Ключ змінної.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                         |
-| ------ | ------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | shm тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [shm_remove()](function.shm-remove.md) - Видаляє розділену
-пам'ять із систем Unix
+-   [shm\_remove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix

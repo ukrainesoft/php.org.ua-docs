@@ -1,19 +1,27 @@
-- [« SQLite3Result::fetchArray](sqlite3result.fetcharray.md)
-- [SQLite3Result::numColumns »](sqlite3result.numcolumns.md)
+Закриває результуючий набір
 
-- [PHP Manual](index.md)
-- [SQLite3Result](class.sqlite3result.md)
-- Закриває результуючий набір
+-   [« SQLite3Result::fetchArray](sqlite3result.fetcharray.html)
+    
+-   [SQLite3Result::numColumns »](sqlite3result.numcolumns.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SQLite3Result](class.sqlite3result.html)
+    
+-   Закриває результуючий набір
+    
 
 # SQLite3Result::finalize
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SQLite3Result::finalize — Закриває результуючий набір
 
 ### Опис
 
-public **SQLite3Result::finalize**(): bool
+```methodsynopsis
+public SQLite3Result::finalize(): bool
+```
 
 Закриває результуючий набір.
 
@@ -23,4 +31,4 @@ public **SQLite3Result::finalize**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**.
+Повертає **`true`**

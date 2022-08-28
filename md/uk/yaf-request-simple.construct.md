@@ -1,31 +1,34 @@
-- [« Yaf_Request_Simple](class.yaf-request-simple.md)
-- [Yaf_Request_Simple::get »](yaf-request-simple.get.md)
+Конструктор класу YafRequestSimple
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Simple](class.yaf-request-simple.md)
-- Конструктор класу Yaf_Request_Simple
+-   [« Yaf\_Request\_Simple](class.yaf-request-simple.html)
+    
+-   [Yaf\_Request\_Simple::get »](yaf-request-simple.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Simple](class.yaf-request-simple.html)
+    
+-   Конструктор класу YafRequestSimple
+    
 
-# Yaf_Request_Simple::\_\_construct
+# YafRequestSimple::construct
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Simple::\_\_construct - Конструктор класу
-Yaf_Request_Simple
+YafRequestSimple::construct - Конструктор класу YafRequestSimple
 
 ### Опис
 
-public **Yaf_Request_Simple::\_\_construct**(
-string `$method` = ?,
-string `$module` = ?,
-string `$controller` = ?,
-string `$action` = ?,
-array `$params` = ?
-)
+public **YafRequestSimple::construct**  
+string `$method`  
+string `$module`  
+string `$controller`  
+string `$action`  
+array `$params`  
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

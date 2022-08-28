@@ -1,35 +1,42 @@
-- [« enchant_broker_get_dict_path](function.enchant-broker-get-dict-path.md)
-- [enchant_broker_init »](function.enchant-broker-init.md)
+Повертає останню помилку брокера
 
-- [PHP Manual](index.md)
-- [Функції Enchant](ref.enchant.md)
-- Повертає останню помилку брокера
+-   [« enchant\_broker\_get\_dict\_path](function.enchant-broker-get-dict-path.html)
+    
+-   [enchant\_broker\_init »](function.enchant-broker-init.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Enchant](ref.enchant.html)
+    
+-   Повертає останню помилку брокера
+    
 
-#enchant_broker_get_error
+# enchantbrokergeterror
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
+(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
 
-enchant_broker_get_error — Повертає останню помилку брокера
+enchantbrokergeterror — Повертає останню помилку брокера
 
 ### Опис
 
-**enchant_broker_get_error**([EnchantBroker](class.enchantbroker.md)
-`$broker`): string\|false
+```methodsynopsis
+enchant_broker_get_error(EnchantBroker $broker): string|false
+```
 
-Повертає останню помилку, що виникла на брокері.
+Повертає останню помилку на брокері.
 
 ### Список параметрів
 
 `broker`
-Провайдер Enchant, який повертається
-[enchant_broker_init()](function.enchant-broker-init.md).
+
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.html)
 
 ### Значення, що повертаються
 
 Повертає рядок з помилкою, якщо такий був, або **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                               |
-|--------|------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |

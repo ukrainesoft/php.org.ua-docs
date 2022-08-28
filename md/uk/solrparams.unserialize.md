@@ -1,26 +1,35 @@
-- [«SolrParams::toString](solrparams.tostring.md)
-- [SolrModifiableParams »](class.solrmodifiableparams.md)
+Використовується для серіалізації користувача
 
-- [PHP Manual](index.md)
-- [SolrParams](class.solrparams.md)
-- Використовується для серіалізації користувача
+-   [« SolrParams::toString](solrparams.tostring.html)
+    
+-   [SolrModifiableParams »](class.solrmodifiableparams.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrParams](class.solrparams.html)
+    
+-   Використовується для серіалізації користувача
+    
 
 # SolrParams::unserialize
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrParams::unserialize — Використовується для серіалізації користувача.
 
 ### Опис
 
-final public **SolrParams::unserialize**(string `$serialized`): void
+```methodsynopsis
+final public SolrParams::unserialize(string $serialized): void
+```
 
 Використовується для серіалізації користувача
 
 ### Список параметрів
 
 `serialized`
-Серіалізоване уявлення об'єкта
+
+Серіалізоване подання об'єкта
 
 ### Значення, що повертаються
 

@@ -1,69 +1,83 @@
-- [« pg_get_pid](function.pg-get-pid.md)
-- [pg_host »](function.pg-host.md)
+Отримання результату асинхронного запиту
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Отримання результату асинхронного запиту
+-   [« pg\_get\_pid](function.pg-get-pid.html)
+    
+-   [pg\_host »](function.pg-host.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Отримання результату асинхронного запиту
+    
 
-#pg_get_result
+# пгgetresult
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_get_result — Отримання результату асинхронного запиту
+пгgetresult — Отримання результату асинхронного запиту
 
 ### Опис
 
-**pg_get_result**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`): [PgSql\Result](class.pgsql-result.md)\|false
+```methodsynopsis
+pg_get_result(PgSql\Connection $connection): PgSql\Result|false
+```
 
-**pg_get_result()** отримує екземпляр
-[PgSql\Result](class.pgsql-result.md) з асинхронного запиту,
-запущеного функціями [pg_send_query()](function.pg-send-query.md),
-[pg_send_query_params()](function.pg-send-query-params.md) або
-[pg_send_execute()](function.pg-send-execute.md).
+**пгgetresult()** отримує екземпляр [PgSql\\Result](class.pgsql-result.html) з асинхронного запиту, запущеного функціями [pg\_send\_query()](function.pg-send-query.html) [pg\_send\_query\_params()](function.pg-send-query-params.html) або [pg\_send\_execute()](function.pg-send-execute.html)
 
-[pg_send_query()](function.pg-send-query.md) та інші функції,
-посилають асинхронні запити, може посилати відразу кілька запитів
-на сервер. Функція **pg_get_result()** отримає результати всіх запитів
-по черзі.
+[pg\_send\_query()](function.pg-send-query.html) та інші функції, що посилають асинхронні запити, може надсилати відразу кілька запитів на сервер. Функція **пгgetresult()** отримає результати всіх запитів по черзі.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
-Примірник [PgSql\Result](class.pgsql-result.md), або **`false`**,
-коли доступних результатів немає.
+Екземпляр [PgSql\\Result](class.pgsql-result.html), або **`false`**коли доступних результатів більше немає.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Повертає екземпляр [PgSql\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                   |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_get_result()****
+**Приклад #1 Приклад використання **пгgetresult()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die("Неможливо з'єднатися з сервером"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from authors; select count(*) from authors;"); }  $res1 = pg_get_result($dbconn); echo "Перший виклик pg_get_result(): $res1
-";  $rows1 = pg_num_rows($res1); echo "$res1 має $rows1 записів
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с сервером");
 
-";  $res2 = pg_get_result($dbconn); echo "Другий виклик pg_get_result(): $res2
-";  $rows2 = pg_num_rows($res2);  echo "$res2 має $rows2 записів
-";?> `
+  if (!pg_connection_busy($dbconn)) {
+      pg_send_query($dbconn, "select * from authors; select count(*) from authors;");
+  }
+
+  $res1 = pg_get_result($dbconn);
+  echo "Первый вызов pg_get_result(): $res1\n";
+  $rows1 = pg_num_rows($res1);
+  echo "$res1 имеет $rows1 записей\n\n";
+
+  $res2 = pg_get_result($dbconn);
+  echo "Второй вызов pg_get_result(): $res2\n";
+  $rows2 = pg_num_rows($res2);
+  echo "$res2 имеет $rows2 записей\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Перший виклик pg_get_result(): Resource id #3
-Resource id #3 має 3 записів
+```
+Первый вызов pg_get_result(): Resource id #3
+Resource id #3 имеет 3 записей
 
-Другий виклик pg_get_result(): Resource id #4
-Resource id #4 має 1 записів
+Второй вызов pg_get_result(): Resource id #4
+Resource id #4 имеет 1 записей
+```
 
 ### Дивіться також
 
-- [pg_send_query()](function.pg-send-query.md) - Відправляє
-асинхронний запит
+-   [pg\_send\_query()](function.pg-send-query.html) - Надсилає асинхронний запит

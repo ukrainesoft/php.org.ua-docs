@@ -1,20 +1,27 @@
-- [« ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md)
-- [ReflectionParameter::isPassedByReference »](reflectionparameter.ispassedbyreference.md)
+Перевіряє, чи є аргумент необов'язковим
 
-- [PHP Manual](index.md)
-- [ReflectionParameter](class.reflectionparameter.md)
-- Перевіряє, чи є аргумент необов'язковим
+-   [« ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.html)
+    
+-   [ReflectionParameter::isPassedByReference »](reflectionparameter.ispassedbyreference.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionParameter](class.reflectionparameter.html)
+    
+-   Перевіряє, чи є аргумент необов'язковим
+    
 
 # ReflectionParameter::isOptional
 
-(PHP 5 \>= 5.0.3, PHP 7, PHP 8)
+(PHP 5> = 5.0.3, PHP 7, PHP 8)
 
-ReflectionParameter::isOptional — Перевіряє, чи є аргумент
-необов'язковим
+ReflectionParameter::isOptional — Перевіряє, чи є аргумент необов'язковим
 
 ### Опис
 
-public **ReflectionParameter::isOptional**(): bool
+```methodsynopsis
+public ReflectionParameter::isOptional(): bool
+```
 
 Перевіряє, чи аргумент є необов'язковим.
 
@@ -24,10 +31,8 @@ public **ReflectionParameter::isOptional**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо аргумент необов'язковий, **`false`** у протилежному
-випадку.
+**`true`**якщо аргумент необов'язковий, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionParameter::getName()](reflectionparameter.getname.md) -
-Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.html) - Отримання імені параметра

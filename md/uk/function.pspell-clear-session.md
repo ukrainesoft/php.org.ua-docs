@@ -1,45 +1,58 @@
-- [« pspell_check](function.pspell-check.md)
-- [pspell_config_create »](function.pspell-config-create.md)
+Очищує поточну сесію
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Очищає поточну сесію
+-   [« pspell\_check](function.pspell-check.html)
+    
+-   [pspell\_config\_create »](function.pspell-config-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Очищує поточну сесію
+    
 
-#pspell_clear_session
+# pspellclearsession
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_clear_session — Очищає поточну сесію
+pspellclearsession - Очищає поточну сесію
 
 ### Опис
 
-**pspell_clear_session**([PSpell\Dictionary](class.pspell-dictionary.md)
-`$dictionary`): bool
+```methodsynopsis
+pspell_clear_session(PSpell\Dictionary $dictionary): bool
+```
 
-**pspell_clear_session()** очищає поточну сесію. Поточний список слів
-очищається, і, наприклад, якщо спробувати зберегти його за допомогою
-[pspell_save_wordlist()](function.pspell-save-wordlist.md), нічого не
-станеться.
+**pspellclearsession()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspell\_save\_wordlist()](function.pspell-save-wordlist.html), Нічого не трапиться.
 
 ### Список параметрів
 
 `dictionary`
-Примірник [PSpell\Dictionary](class.pspell-dictionary.md).
+
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                              |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр dictionary тепер очікує на екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[pspell_add_to_personal()](function.pspell-add-to-personal.md)**
+**Приклад #1 Приклад використання [pspell\_add\_to\_personal()](function.pspell-add-to-personal.html)**
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");$pspell = pspell_new_config($pspell_config);pspell_ad pspell_clear_session($pspell);pspell_save_wordlist($pspell); //Слово "Vlad" не буде збережено?> `
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+$pspell = pspell_new_config($pspell_config);
+
+pspell_add_to_personal($pspell, "Vlad");
+pspell_clear_session($pspell);
+pspell_save_wordlist($pspell);    //Слово "Vlad" не будет сохранено
+?>
+```

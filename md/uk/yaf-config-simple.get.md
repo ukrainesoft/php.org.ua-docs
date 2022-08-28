@@ -1,24 +1,31 @@
-- [« Yaf_Config_Simple::current](yaf-config-simple.current.md)
-- [Yaf_Config_Simple::\_\_isset »](yaf-config-simple.isset.md)
+Призначення get
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Simple](class.yaf-config-simple.md)
-- Призначення \_\_get
+-   [« Yaf\_Config\_Simple::current](yaf-config-simple.current.html)
+    
+-   [Yaf\_Config\_Simple::\_\_isset »](yaf-config-simple.isset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Simple](class.yaf-config-simple.html)
+    
+-   Призначення get
+    
 
-# Yaf_Config_Simple::\_\_get
+# YafConfigSimple::get
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Simple::\_\_get - Призначення \_\_get
+YafConfigSimple::get — Призначення get
 
 ### Опис
 
-public **Yaf_Config_Simple::\_\_get**(string `$name` = ?): void
+```methodsynopsis
+public Yaf_Config_Simple::__get(string $name = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

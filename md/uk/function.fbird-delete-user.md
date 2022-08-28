@@ -1,25 +1,27 @@
-- [«fbird_db_info](function.fbird-db-info.md)
-- [fbird_drop_db »](function.fbird-drop-db.md)
+Псевдонім ibasedeleteuser
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_delete_user
+-   [« fbird\_db\_info](function.fbird-db-info.html)
+    
+-   [fbird\_drop\_db »](function.fbird-drop-db.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasedeleteuser
+    
 
-#fbird_delete_user
+# fbirddeleteuser
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_delete_user - Псевдонім
-[ibase_delete_user()](function.ibase-delete-user.md)
+fbirddeleteuser - Псевдонім [ibase\_delete\_user()](function.ibase-delete-user.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_delete_user()](function.ibase-delete-user.md).
+Ця функція є псевдонімом: [ibase\_delete\_user()](function.ibase-delete-user.html)
 
 ### Дивіться також
 
-- [fbird_add_user()](function.fbird-add-user.md) - Псевдонім
-ibase_add_user
-- [fbird_modify_user()](function.fbird-modify-user.md) - Псевдонім
-ibase_modify_user
+-   [fbird\_add\_user()](function.fbird-add-user.html) - Псевдонім ibaseadduser
+-   [fbird\_modify\_user()](function.fbird-modify-user.html) - Псевдонім ibasemodifyuser

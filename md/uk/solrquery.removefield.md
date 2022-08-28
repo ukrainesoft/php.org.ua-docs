@@ -1,29 +1,36 @@
-- [« SolrQuery::removeFacetQuery](solrquery.removefacetquery.md)
-- [SolrQuery::removeFilterQuery »](solrquery.removefilterquery.md)
+Видаляє поле зі списку полів
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Видаляє поле зі списку полів
+-   [« SolrQuery::removeFacetQuery](solrquery.removefacetquery.html)
+    
+-   [SolrQuery::removeFilterQuery »](solrquery.removefilterquery.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Видаляє поле зі списку полів
+    
 
 # SolrQuery::removeField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::removeField — Видаляє поле зі списку полів
 
 ### Опис
 
-public **SolrQuery::removeField**(string `$field`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::removeField(string $field): SolrQuery
+```
 
 Видаляє поле зі списку полів
 
 ### Список параметрів
 
 `field`
-Назва поля.
+
+Ім'я поля.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

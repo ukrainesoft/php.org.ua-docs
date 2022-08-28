@@ -1,33 +1,37 @@
-- [« openssl_x509_fingerprint](function.openssl-x509-fingerprint.md)
-- [openssl_x509_parse »](function.openssl-x509-parse.md)
+Вивільняє ресурс сертифіката
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Вивільняє ресурс сертифіката
+-   [« openssl\_x509\_fingerprint](function.openssl-x509-fingerprint.html)
+    
+-   [openssl\_x509\_parse »](function.openssl-x509-parse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Вивільняє ресурс сертифіката
+    
 
-# openssl_x509_free
+# opensslx509free
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_x509_free — Вивільняє ресурс сертифіката
+opensslx509free — Вивільняє ресурс сертифіката
 
 **Увага**
 
-Ця функція була *Видалена* в PHP 8.0.0. Використання цієї функції не
-рекомендується.
+Ця функція була *ВИДАЛЕНО* у PHP 8.0.0. Використання цієї функції не рекомендується.
 
 ### Опис
 
-**openssl_x509_free**([OpenSSLCertificate](class.opensslcertificate.md)
-`$certificate`): void
+```methodsynopsis
+openssl_x509_free(OpenSSLCertificate $certificate): void
+```
 
-> **Примітка**:
->
-> Використання функції не має сенсу. До PHP 8.0.0 вона
-> використовувалася закриття ресурсу.
+> **Зауваження**
+> 
+> Використання функції не має сенсу. До PHP 8.0.0 вона використовувалася для закриття ресурсу.
 
-**openssl_x509_free()** видаляє сертифікат з ідентифікатором
-`certificate` із пам'яті.
+**opensslx509free()** видаляє сертифікат із ідентифікатором `certificate` із пам'яті.
 
 ### Список параметрів
 
@@ -37,9 +41,9 @@ openssl_x509_free — Вивільняє ресурс сертифіката
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Функція застаріла, оскільки не має сенсу.                                                                                                                                   |
-| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | Функція застаріла, оскільки не має сенсу. |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

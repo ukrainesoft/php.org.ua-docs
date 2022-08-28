@@ -1,11 +1,16 @@
-- [« Встановлення та налаштування](rpminfo.setup.md)
-- [Встановлення через PECL »](rpminfo.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](rpminfo.setup.md)
-- Вимоги
+-   [« Установка и настройка](rpminfo.setup.html)
+    
+-   [Установка через PECL »](rpminfo.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](rpminfo.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Для роботи модуля потрібна [» librpm](https://rpm.org/) версії 4.11.3
-або вище.
+Для роботи модуля потрібно [» librpm](https://rpm.org/) версії 4.11.3 чи вище.

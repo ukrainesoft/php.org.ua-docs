@@ -1,38 +1,46 @@
-- [« Основи використання](hrtime.example.basic.md)
-- [HRTime\PerformanceCounter::getFrequency »](hrtime-performancecounter.getfrequency.md)
+Клас HRTimePerformanceCounter
 
-- [PHP Manual](index.md)
-- [HRTime](book.hrtime.md)
-- Клас HRTime\PerformanceCounter
+-   [« Основы использования](hrtime.example.basic.html)
+    
+-   [HRTime\\PerformanceCounter::getFrequency »](hrtime-performancecounter.getfrequency.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [HRTime](book.hrtime.html)
+    
+-   Клас HRTimePerformanceCounter
+    
 
-# Клас HRTime\PerformanceCounter
+# Клас HRTimePerformanceCounter
 
-(PECL hrtime \>= 0.4.3)
+(PECL hrtime >= 0.4.3)
 
 ## Вступ
 
 ## Огляд класів
 
-class **HRTime\PerformanceCounter** {
+```classsynopsis
 
-/\* Методи \*/
 
-public static
-[getFrequency](hrtime-performancecounter.getfrequency.md)(): int
+    
+    
+     
+      class HRTime\PerformanceCounter
+     
+     {
+    
 
-public static [getTicks](hrtime-performancecounter.getticks.md)(): int
+    /* Методы */
+    
+      public static getFrequency(): int
+public static getTicks(): int
+public static getTicksSince(int $start): int
 
-public static
-[getTicksSince](hrtime-performancecounter.gettickssince.md)(int
-`$start`): int
-
-}
+   }
+```
 
 ## Зміст
 
-- [HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)
-- Частота таймера в тиках за секунду
-- [HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)
-- Поточне значення тиків системи
-- [HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)
-- Кількість тиків, що пройшли із заданого значення
+-   [HRTime\\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html) - Частота таймера в тиках за секунду
+-   [HRTime\\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.html) - Поточне значення тиків системи
+-   [HRTime\\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.html) - Кількість тиків, що пройшли із заданого значення

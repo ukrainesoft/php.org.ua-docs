@@ -1,48 +1,51 @@
-- [« openssl_pkey_get_details](function.openssl-pkey-get-details.md)
-- [openssl_pkey_get_public »](function.openssl-pkey-get-public.md)
+Отримати закритий ключ
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Отримати закритий ключ
+-   [« openssl\_pkey\_get\_details](function.openssl-pkey-get-details.html)
+    
+-   [openssl\_pkey\_get\_public »](function.openssl-pkey-get-public.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Отримати закритий ключ
+    
 
-# openssl_pkey_get_private
+# opensslpkeygetprivate
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-openssl_pkey_get_private — Отримати закритий ключ
+opensslpkeygetprivate — Отримати закритий ключ
 
 ### Опис
 
-**openssl_pkey_get_private**([OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$private_key`, ?string `$passphrase` = **`null`**):
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|false
+```methodsynopsis
+openssl_pkey_get_private(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key, ?string $passphrase = null): OpenSSLAsymmetricKey|false
+```
 
-**openssl_pkey_get_private()** розбирає `private_key` та готує
-його для використання в інших функціях.
+**opensslpkeygetprivate()** розбирає `private_key` та готує його до використання в інших функціях.
 
 ### Список параметрів
 
 `private_key`
-`private_key` може бути заданий таким чином:
 
-1. рядок виду `file://path/to/file.pem`. Файл має містити
-кодований в PEM сертифікат/закритий ключ (може містити і те, і
-інше).
-2. Секретний ключ у форматі PEM.
+`private_key` може бути заданий наступним чином:
+
+1.  рядок виду file://path/to/file.pem. Файл повинен містити кодований у PEM сертифікат/закритий ключ (може містити те й інше).
+2.  Секретний ключ у форматі PEM.
 
 `passphrase`
-Якщо ключ захищений паролем, його треба вказати в параметрі `passphrase`.
+
+Якщо ключ захищений паролем, його треба вказати в параметрі `passphrase`
 
 ### Значення, що повертаються
 
-Повертає екземпляр
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або **`false`**
-у разі виникнення помилки.
+Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                  |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL key.                                                      |
-| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
-| 8.0.0  | passphrase тепер допускає значення null.                                                                                                                                                                                                              |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше повертався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `passphrase` тепер допускає значення null. |

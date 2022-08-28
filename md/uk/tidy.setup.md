@@ -1,15 +1,21 @@
-- [«Вступ](intro.tidy.md)
-- [Вимоги »](tidy.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Tidy](book.tidy.md)
+-   [« Введение](intro.tidy.html)
+    
+-   [Требования »](tidy.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Tidy](book.tidy.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](tidy.requirements.md)
-- [Установка](tidy.installation.md)
-- [Налаштування під час виконання](tidy.configuration.md)
-- [Типи ресурсів](tidy.resources.md)
+-   [Требования](tidy.requirements.html)
+-   [Установка](tidy.installation.html)
+-   [Настройка во время выполнения](tidy.configuration.html)
+-   [Типы ресурсов](tidy.resources.html)

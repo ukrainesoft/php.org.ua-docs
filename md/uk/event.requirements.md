@@ -1,14 +1,18 @@
-- [« Встановлення та налаштування](event.setup.md)
-- [Встановлення »](event.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](event.setup.md)
-- Вимоги
+-   [« Установка и настройка](event.setup.html)
+    
+-   [Установка »](event.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](event.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Модулю потрібна бібліотека [libevent](http://libevent.org/).
-Бібліотека є у більшості сучасних дистрибутивів.
+Модулі потрібна бібліотека [» libevent](http://libevent.org/). Бібліотека є у більшості сучасних дистрибутивів.
 
-Для функціоналу OpenSSL потрібна бібліотека
-[»OpenSSL](http://www.openssl.org/).
+Для функціоналу OpenSSL потрібна бібліотека [» OpenSSL](http://www.openssl.org/)

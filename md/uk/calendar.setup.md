@@ -1,15 +1,21 @@
-- [«Вступ](intro.calendar.md)
-- [Вимоги »](calendar.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Календарь](book.calendar.md)
+-   [« Введение](intro.calendar.html)
+    
+-   [Требования »](calendar.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Календарь](book.calendar.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](calendar.requirements.md)
-- [Установка](calendar.installation.md)
-- [Налаштування під час виконання](calendar.configuration.md)
-- [Типи ресурсів](calendar.resources.md)
+-   [Требования](calendar.requirements.html)
+-   [Установка](calendar.installation.html)
+-   [Настройка во время выполнения](calendar.configuration.html)
+-   [Типы ресурсов](calendar.resources.html)

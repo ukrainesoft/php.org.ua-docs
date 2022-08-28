@@ -1,19 +1,27 @@
-- [« svn_cleanup](function.svn-cleanup.md)
-- [svn_commit »](function.svn-commit.md)
+Повертає версію клієнтських бібліотек SVN
 
-- [PHP Manual](index.md)
-- [Функції SVN](ref.svn.md)
-- Повертає версію клієнтських бібліотек SVN
+-   [« svn\_cleanup](function.svn-cleanup.html)
+    
+-   [svn\_commit »](function.svn-commit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SVN](ref.svn.html)
+    
+-   Повертає версію клієнтських бібліотек SVN
+    
 
-# svn_client_version
+# svnclientversion
 
-(PECL svn \>= 0.1.0)
+(PECL svn> = 0.1.0)
 
-svn_client_version — Повертає версію клієнтських бібліотек SVN
+svnclientversion — Повертає версію клієнтських бібліотек SVN
 
 ### Опис
 
-**svn_client_version**(): string
+```methodsynopsis
+svn_client_version(): string
+```
 
 Повертає версію клієнтських бібліотек SVN
 
@@ -29,16 +37,20 @@ svn_client_version — Повертає версію клієнтських бі
 
 **Приклад #1 Простий приклад**
 
-` <?phpecho svn_client_version();?> `
+```php
+<?php
+echo svn_client_version();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 1.3.1
+```
 
 ### Примітки
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.

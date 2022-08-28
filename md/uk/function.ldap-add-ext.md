@@ -1,54 +1,51 @@
-- [« ldap_8859_to_t61](function.ldap-8859-to-t61.md)
-- [ldap_add »](function.ldap-add.md)
+Додати записи до каталогу LDAP
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Додати записи до каталогу LDAP
+-   [« ldap\_8859\_to\_t61](function.ldap-8859-to-t61.html)
+    
+-   [ldap\_add »](function.ldap-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Додати записи до каталогу LDAP
+    
 
-#ldap_add_ext
+# ldapaddext
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-ldap_add_ext — Додати записи до каталогу LDAP
+ldapaddext — Додати записи до каталогу LDAP
 
 ### Опис
 
-**ldap_add_ext**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`,
-array `$entry`,
-?array `$controls` = **`null`**
-): [LDAP\Result](class.ldap-result.md)\|false
+```methodsynopsis
+ldap_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+```
 
-Робить те саме, що й [ldap_add()](function.ldap-add.md), але
-повертає екземпляр [LDAP\Result](class.ldap-result.md) для розбору з
-за допомогою [ldap_parse_result()](function.ldap-parse-result.md).
+Робить те саме, що й [ldap\_add()](function.ldap-add.html), але повертає екземпляр [LDAP\\Result](class.ldap-result.html) для розбору за допомогою [ldap\_parse\_result()](function.ldap-parse-result.html)
 
 ### Список параметрів
 
-Дивіться [ldap_add()](function.ldap-add.md)
+Дивіться [ldap\_add()](function.ldap-add.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Result](class.ldap-result.md) або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.html) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 
 ### Примітки
 
-> **Примітка**: Ця функція безпечна для обробки даних у двійковій
-> Формі.
+> **Зауваження**: Ця функція безпечна для обробки даних у двійковій формі.
 
 ### Дивіться також
 
-- [ldap_add()](function.ldap-add.md) - Додати запис до LDAP
-директорію
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
+-   [ldap\_add()](function.ldap-add.html) - Додати запис до LDAP директорії
+-   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату

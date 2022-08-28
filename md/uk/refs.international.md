@@ -1,99 +1,90 @@
-- [«xdiff_string_rabdiff](function.xdiff-string-rabdiff.md)
-- [Enchant »](book.enchant.md)
+Підтримка мов та кодувань
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Підтримка мов та кодувань
+-   [« xdiff\_string\_rabdiff](function.xdiff-string-rabdiff.html)
+    
+-   [Enchant »](book.enchant.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Підтримка мов та кодувань
+    
 
 # Підтримка мов та кодувань
 
-- [Enchant](book.enchant.md) - Бібліотека перевірки правопису
-Enchant
-- [Вступ](intro.enchant.md)
-- [Встановлення та налаштування](enchant.setup.md)
-- [Предвизначені константи](enchant.constants.md)
-- [Приклади](enchant.examples.md)
-- [Функції Enchant](ref.enchant.md)
-- [EnchantBroker](class.enchantbroker.md) - Клас EnchantBroker
-- [EnchantDictionary](class.enchantdictionary.md) - Клас
-EnchantDictionary
-- [Gender](book.gender.md) - Визначення статі на ім'я
-- [Вступ](intro.gender.md)
-- [Встановлення та налаштування](gender.setup.md)
-- [Приклади](gender.examples.md)
-- [Gender\Gender](class.gender.md) - Клас Gender\Gender
-- [Gettext](book.gettext.md)
-- [Вступ](intro.gettext.md)
-- [Встановлення та налаштування](gettext.setup.md)
-- [Предвизначені константи](gettext.constants.md)
-- [Функції gettext](ref.gettext.md)
-- [iconv](book.iconv.md)
-- [Вступ](intro.iconv.md)
-- [Встановлення та налаштування](iconv.setup.md)
-- [Предвизначені константи](iconv.constants.md)
-- [Функції iconv](ref.iconv.md)
-- [intl](book.intl.md) - Функції інтернаціоналізації
-- [Вступ](intro.intl.md)
-- [Встановлення та налаштування](intl.setup.md)
-- [Предвизначені константи](intl.constants.md)
-- [Приклади](intl.examples.md)
-- [Collator](class.collator.md) - Клас Collator
-- [NumberFormatter](class.numberformatter.md) - The
-NumberFormatter class
-- [Locale](class.locale.md) - Клас Locale
-- [Normalizer](class.normalizer.md) - Клас Normalizer
-- [MessageFormatter](class.messageformatter.md) - Клас
-MessageFormatter
-- [IntlCalendar](class.intlcalendar.md) - Клас IntlCalendar
-- [IntlGregorianCalendar](class.intlgregoriancalendar.md) -
-Клас IntlGregorianCalendar
-- [IntlTimeZone](class.intltimezone.md) - Клас IntlTimeZone
-- [IntlDateFormatter](class.intldateformatter.md) - Клас
-IntlDateFormatter
-- [ResourceBundle](class.resourcebundle.md) - Клас
-ResourceBundle
-- [Spoofchecker](class.spoofchecker.md) - Клас Spoofchecker
-- [Transliterator](class.transliterator.md) - Клас
-Transliterator
-- [IntlBreakIterator](class.intlbreakiterator.md) - Клас
-IntlBreakIterator
-- [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)
-— Клас IntlRuleBasedBreakIterator
-- [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
-— Клас IntlCodePointBreakIterator
-- [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-- Клас IntlDatePatternGenerator
-- [IntlPartsIterator](class.intlpartsiterator.md) - Клас
-IntlPartsIterator
-- [UConverter](class.uconverter.md) - Клас UConverter
-- [Функції Grapheme](ref.intl.grapheme.md)
-- [Функції IDN](ref.intl.idn.md)
-- [IntlChar](class.intlchar.md)
-- [IntlException](class.intlexception.md) — Клас винятків для
-помилок intl
-- [IntlIterator](class.intliterator.md) - Клас IntlIterator
-- [Функції intl](ref.intl.md)
-- [Багатобайтові рядки](book.mbstring.md)
-- [Вступ](intro.mbstring.md)
-- [Встановлення та налаштування](mbstring.setup.md)
-- [Предвизначені константи](mbstring.constants.md)
-- [Короткий огляд підтримуваних кодувань](mbstring.encodings.md)
-- [Основи японських багатобайтних кодувань](mbstring.ja-basic.md)
-- [Введення та виведення HTTP](mbstring.http.md)
-- [Підтримувані кодування символів](mbstring.supported-encodings.md)
-- [Механізм навантаження функцій](mbstring.overload.md)
-- [Вимоги, що пред'являються до кодувань символів PHP](mbstring.php4.req.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- [Pspell](book.pspell.md)
-- [Вступ](intro.pspell.md)
-- [Встановлення та налаштування](pspell.setup.md)
-- [Предвизначені константи](pspell.constants.md)
-- [Функції Pspell](ref.pspell.md)
-- [PSpell\Dictionary](class.pspell-dictionary.md) - Клас
-PSpell\Dictionary
-- [PSpell\Config](class.pspell-config.md) - Клас PSpell\Config
-- [Recode](book.recode.md) - GNU Recode
-- [Вступ](intro.recode.md)
-- [Встановлення та налаштування](recode.setup.md)
-- [Предвизначені константи](recode.constants.md)
-- [Функції Recode](ref.recode.md)
+-   [Enchant](book.enchant.html) - Бібліотека перевірки правопису Enchant
+    -   [Введение](intro.enchant.html)
+    -   [Установка и настройка](enchant.setup.html)
+    -   [Предопределённые константы](enchant.constants.html)
+    -   [Примеры](enchant.examples.html)
+    -   [Функции Enchant](ref.enchant.html)
+    -   [EnchantBroker](class.enchantbroker.html) - Клас EnchantBroker
+    -   [EnchantDictionary](class.enchantdictionary.html) - Клас EnchantDictionary
+-   [Gender](book.gender.html) — Визначення статі на ім'я
+    -   [Введение](intro.gender.html)
+    -   [Установка и настройка](gender.setup.html)
+    -   [Примеры](gender.examples.html)
+    -   [Gender\\Gender](class.gender.html) - Клас GenderGender
+-   [Gettext](book.gettext.html)
+    -   [Введение](intro.gettext.html)
+    -   [Установка и настройка](gettext.setup.html)
+    -   [Предопределённые константы](gettext.constants.html)
+    -   [Функции gettext](ref.gettext.html)
+-   [iconv](book.iconv.html)
+    -   [Введение](intro.iconv.html)
+    -   [Установка и настройка](iconv.setup.html)
+    -   [Предопределённые константы](iconv.constants.html)
+    -   [Функции iconv](ref.iconv.html)
+-   [intl](book.intl.html) - Функції інтернаціоналізації
+    -   [Введение](intro.intl.html)
+    -   [Установка и настройка](intl.setup.html)
+    -   [Предопределённые константы](intl.constants.html)
+    -   [Примеры](intl.examples.html)
+    -   [Collator](class.collator.html) - Клас Collator
+    -   [NumberFormatter](class.numberformatter.html) - The NumberFormatter class
+    -   [Locale](class.locale.html) - Клас Locale
+    -   [Normalizer](class.normalizer.html) - Клас Normalizer
+    -   [MessageFormatter](class.messageformatter.html) - Клас MessageFormatter
+    -   [IntlCalendar](class.intlcalendar.html) - Клас IntlCalendar
+    -   [IntlGregorianCalendar](class.intlgregoriancalendar.html) - Клас IntlGregorianCalendar
+    -   [IntlTimeZone](class.intltimezone.html) - Клас IntlTimeZone
+    -   [IntlDateFormatter](class.intldateformatter.html) - Клас IntlDateFormatter
+    -   [ResourceBundle](class.resourcebundle.html) - Клас ResourceBundle
+    -   [Spoofchecker](class.spoofchecker.html) - Клас Spoofchecker
+    -   [Transliterator](class.transliterator.html) - Клас Transliterator
+    -   [IntlBreakIterator](class.intlbreakiterator.html) - Клас IntlBreakIterator
+    -   [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.html) — Клас IntlRuleBasedBreakIterator
+    -   [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.html) — Клас IntlCodePointBreakIterator
+    -   [IntlDatePatternGenerator](class.intldatepatterngenerator.html) - Клас IntlDatePatternGenerator
+    -   [IntlPartsIterator](class.intlpartsiterator.html) - Клас IntlPartsIterator
+    -   [UConverter](class.uconverter.html) - Клас UConverter
+    -   [Функции Grapheme](ref.intl.grapheme.html)
+    -   [Функции IDN](ref.intl.idn.html)
+    -   [IntlChar](class.intlchar.html)
+    -   [IntlException](class.intlexception.html) — Клас винятків для помилок intl
+    -   [IntlIterator](class.intliterator.html) - Клас IntlIterator
+    -   [Функции intl](ref.intl.html)
+-   [Многобайтовые строки](book.mbstring.html)
+    -   [Введение](intro.mbstring.html)
+    -   [Установка и настройка](mbstring.setup.html)
+    -   [Предопределённые константы](mbstring.constants.html)
+    -   [Краткий обзор поддерживаемых кодировок](mbstring.encodings.html)
+    -   [Основы японских многобайтных кодировок](mbstring.ja-basic.html)
+    -   [Ввод и вывод HTTP](mbstring.http.html)
+    -   [Поддерживаемые кодировки символов](mbstring.supported-encodings.html)
+    -   [Механизм перегрузки функций](mbstring.overload.html)
+    -   [Требования, предъявляемые к кодировкам символов в PHP](mbstring.php4.req.html)
+    -   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+-   [Pspell](book.pspell.html)
+    -   [Введение](intro.pspell.html)
+    -   [Установка и настройка](pspell.setup.html)
+    -   [Предопределённые константы](pspell.constants.html)
+    -   [Функции Pspell](ref.pspell.html)
+    -   [PSpell\\Dictionary](class.pspell-dictionary.html) - Клас PSpellDictionary
+    -   [PSpell\\Config](class.pspell-config.html) - Клас PSpellConfig
+-   [Recode](book.recode.html) - GNU Recode
+    -   [Введение](intro.recode.html)
+    -   [Установка и настройка](recode.setup.html)
+    -   [Предопределённые константы](recode.constants.html)
+    -   [Функции Recode](ref.recode.html)

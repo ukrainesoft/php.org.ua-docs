@@ -1,21 +1,28 @@
-- [« EventHttpConnection::\_\_construct](eventhttpconnection.construct.md)
-- [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.md)
+Повертає базу подій, пов'язану зі з'єднанням
 
-- [PHP Manual](index.md)
-- [EventHttpConnection](class.eventhttpconnection.md)
-- Повертає базу подій, пов'язану із з'єднанням
+-   [« EventHttpConnection::\_\_construct](eventhttpconnection.construct.html)
+    
+-   [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpConnection](class.eventhttpconnection.html)
+    
+-   Повертає базу подій, пов'язану зі з'єднанням
+    
 
 # EventHttpConnection::getBase
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventHttpConnection::getBase — Повертає базу подій, пов'язану з
-з'єднанням
+EventHttpConnection::getBase — Повертає базу подій, пов'язану зі з'єднанням
 
 ### Опис
 
-public **EventHttpConnection::getBase**():
-[EventBase](class.eventbase.md)
+```methodsynopsis
+public
+   EventHttpConnection::getBase(): EventBase
+```
 
 Повертає основу подій, пов'язану зі з'єднанням.
 
@@ -25,6 +32,4 @@ public **EventHttpConnection::getBase**():
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає об'єкт
-[EventBase](class.eventbase.md), пов'язаний із з'єднанням. В протилежному
-випадку – **`false`**.
+У разі успішного виконання повертає об'єкт [EventBase](class.eventbase.html), пов'язаний із з'єднанням. В іншому випадку - **`false`**

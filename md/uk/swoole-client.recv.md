@@ -1,25 +1,31 @@
-- [« Swoole\Client::pipe](swoole-client.pipe.md)
-- [Swoole\Client::resume »](swoole-client.resume.md)
+Отримує дані з віддаленого сокету
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Отримує дані з віддаленого сокету
+-   [« Swoole\\Client::pipe](swoole-client.pipe.html)
+    
+-   [Swoole\\Client::resume »](swoole-client.resume.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Client](class.swoole-client.html)
+    
+-   Отримує дані з віддаленого сокету
+    
 
-# Swoole\Client::recv
+# SwooleClient::recv
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Client::recv — Отримує дані з віддаленого сокету
+SwooleClient::recv — Отримує дані з віддаленого сокету
 
 ### Опис
 
-public **Swoole\Client::recv**(string `$size` = ?, string `$flag` = ?):
-void
+```methodsynopsis
+public Swoole\Client::recv(string $size = ?, string $flag = ?): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

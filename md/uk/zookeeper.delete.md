@@ -1,45 +1,50 @@
-- [« Zookeeper::create](zookeeper.create.md)
-- [Zookeeper::exists »](zookeeper.exists.md)
+Видаляє синхронно вузол в zookeeper
 
-- [PHP Manual](index.md)
-- [Zookeeper](class.zookeeper.md)
-- Видаляє синхронно вузол у zookeeper
+-   [« Zookeeper::create](zookeeper.create.html)
+    
+-   [Zookeeper::exists »](zookeeper.exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Zookeeper](class.zookeeper.html)
+    
+-   Видаляє синхронно вузол в zookeeper
+    
 
 # Zookeeper::delete
 
-(PECL zookeeper \>= 0.2.0)
+(PECL zookeeper >= 0.2.0)
 
 Zookeeper::delete — Видаляє синхронно вузол у zookeeper
 
 ### Опис
 
-public **Zookeeper::delete**(string `$path`, int `$version` = -1): bool
+```methodsynopsis
+public
+   Zookeeper::delete(string $path, int $version = -1): bool
+```
 
 ### Список параметрів
 
 `path`
-Назва вузла. Виражається як ім'я файлу з косою межею, що розділяє
-предків вузла.
+
+Назва вузла. Виражається як ім'я файлу з косою межею, що розділяє предків вузла.
 
 `version`
-Очікувана версія вузла. Функція завершиться помилкою, якщо фактична
-версія вузла відповідає очікуваної версії. Якщо використовується -1,
-перевірка версії не виконуватиметься.
+
+Очікувана версія вузла. Функція завершиться помилкою, якщо фактична версія вузла не відповідає очікуваній версії. Якщо використовується -1, перевірка версії не виконуватиметься.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Метод видає PHP повідомлення про помилку/попередження, коли кількість
-параметри або їх типи неправильні або не вдалося видалити вузол.
+Метод видає PHP повідомлення про помилку/попередження, коли кількість параметрів або їх типи неправильні або видалити вузол.
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає виняток
-[ZookeeperException](class.zookeeperexception.md) та його похідні.
+Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
 
 ### Приклади
 
@@ -47,16 +52,26 @@ public **Zookeeper::delete**(string `$path`, int `$version` = -1): bool
 
 Видалення існуючого вузла.
 
-` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$r = $zookeeper->delete($path);if ($r) echo ' виконання';else  echo 'Помилка';?> `
+```php
+<?php
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$r = $zookeeper->delete($path);
+if ($r)
+  echo 'Успешное выполнение';
+else
+  echo 'Ошибка';
+?>
+```
 
 Результат виконання цього прикладу:
 
-Успішне виконання
+```
+Успешное выполнение
+```
 
 ### Дивіться також
 
-- [Zookeeper::create()](zookeeper.create.md) - Створює синхронно
-вузол
-- [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить
-список нащадків вузла синхронно
-- [ZookeeperException](class.zookeeperexception.md)
+-   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
+-   [Zookeeper::getChildren()](zookeeper.getchildren.html) - Виводить список нащадків вузла синхронно
+-   [ZookeeperException](class.zookeeperexception.html)

@@ -1,25 +1,31 @@
-- [« FilterIterator::rewind](filteriterator.rewind.md)
-- [GlobIterator »](class.globiterator.md)
+Перевіряє, чи є поточний елемент допустимим
 
-- [PHP Manual](index.md)
-- [FilterIterator](class.filteriterator.md)
-- Перевіряє, чи є поточний елемент допустимим
+-   [« FilterIterator::rewind](filteriterator.rewind.html)
+    
+-   [GlobIterator »](class.globiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FilterIterator](class.filteriterator.html)
+    
+-   Перевіряє, чи є поточний елемент допустимим
+    
 
 # FilterIterator::valid
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-FilterIterator::valid — Перевіряє, чи є поточний елемент
-допустимим
+FilterIterator::valid — Перевіряє, чи поточний елемент є допустимим.
 
 ### Опис
 
-public **FilterIterator::valid**(): bool
+```methodsynopsis
+public FilterIterator::valid(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Перевіряє, чи поточний елемент є допустимим.
 
@@ -29,5 +35,4 @@ public **FilterIterator::valid**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо поточний елемент допустимо, інакше
-**`false`**
+**`true`**, якщо поточний елемент допустимо, інакше **`false`**

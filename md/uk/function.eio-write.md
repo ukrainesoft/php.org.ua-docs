@@ -1,79 +1,80 @@
-- [«eio_utime](function.eio-utime.md)
-- [Ev »](book.ev.md)
+Запис у файл
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Запис у файл
+-   [« eio\_utime](function.eio-utime.html)
+    
+-   [Ev »](book.ev.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Запис у файл
+    
 
-#eio_write
+# eiowrite
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_write — Запис до файлу
+eiowrite — Запис до файлу
 
 ### Опис
 
-**eio_write**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-string `$str`,
-int `$length` = 0,
-int `$offset` = 0,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_write(    mixed $fd,    string $str,    int $length = 0,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_write()** записує до `length` байт із `str` у файл, починаючи з
-позиції offset байт від початку файлу.
+**eiowrite()** записує до `length` байт з `str` у файл, починаючи з позиції `offset` байт з початку файла.
 
 ### Список параметрів
 
 `fd`
-Потік, ресурс сокету або числовий файловий дескриптор, наприклад,
-отриманий з [eio_open()](function.eio-open.md).
+
+Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eio\_open()](function.eio-open.html)
 
 `str`
+
 Записуваний рядок
 
 `length`
+
 Максимальна кількість байт, що записуються.
 
 `offset`
-Зміщення з початку файлу.
+
+Зміщення з початку файла.
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
 
 `data`
-Дані, які потрібно передати в функцію callback.
+
+Дані, які потрібно передати у функцію `callback`
 
 ### Значення, що повертаються
 
-**eio_write()** повертає ресурс запиту у разі успішного виконання
-або **`false`** у разі виникнення помилки.
+**eiowrite()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [eio_open()](function.eio-open.md) - Відкриває файл
+-   [eio\_open()](function.eio-open.html) - Відкриває файл

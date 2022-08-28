@@ -1,31 +1,36 @@
-- [«ZMQSocket::\_\_construct](zmqsocket.construct.md)
-- [ZMQSocket::getEndpoints »](zmqsocket.getendpoints.md)
+Вимкнути сокет
 
-- [PHP Manual](index.md)
-- [ZMQSocket](class.zmqsocket.md)
-- Вимкнути сокет
+-   [« ZMQSocket::\_\_construct](zmqsocket.construct.html)
+    
+-   [ZMQSocket::getEndpoints »](zmqsocket.getendpoints.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQSocket](class.zmqsocket.html)
+    
+-   Вимкнути сокет
+    
 
 # ZMQSocket::disconnect
 
-(PECL zmq \>= 1.0.4)
+(PECL zmq >= 1.0.4)
 
 ZMQSocket::disconnect — Вимкнути сокет
 
 ### Опис
 
-public **ZMQSocket::disconnect**(string `$dsn`):
-[ZMQSocket](class.zmqsocket.md)
+```methodsynopsis
+public ZMQSocket::disconnect(string $dsn): ZMQSocket
+```
 
-Видалити раніше створене з'єднання сокета з кінцевою точкою. Кінцева
-точка визначається у форматі `transport://address`, де transport може
-бути одним із наступних значень: inproc, ipc, tcp, pgm або epgm.
+Видалити раніше створене з'єднання сокета з кінцевою точкою. Кінцева точка визначається у форматі `transport://address`де транспорт може бути одним з наступних значень: inproc, ipc, tcp, pgm або epgm.
 
 ### Список параметрів
 
 `dsn`
-Кінцева точка, наприклад `transport://address`.
+
+Кінцева точка, наприклад `transport://address`
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт. У разі виникнення помилки викидає
-виняток ZMQSocketException.
+Повертає поточний об'єкт. У разі помилки викидає виняток ZMQSocketException.

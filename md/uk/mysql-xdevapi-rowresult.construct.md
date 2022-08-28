@@ -1,19 +1,25 @@
-- [«mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)
-- [RowResult::fetchAll »](mysql-xdevapi-rowresult.fetchall.md)
+Конструктор класу RowResult
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)
-- Конструктор класу RowResult
+-   [« mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+    
+-   [RowResult::fetchAll »](mysql-xdevapi-rowresult.fetchall.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\RowResult](class.mysql-xdevapi-rowresult.html)
+    
+-   Конструктор класу RowResult
+    
 
-# RowResult::\_\_construct
+# RowResult::construct
 
 (No version information available, might only be in Git)
 
-RowResult::\_\_construct - Конструктор класу RowResult
+RowResult::construct - Конструктор класу RowResult
 
 ### Опис
 
-private **mysql_xdevapi\RowResult::\_\_construct**()
+private **mysqlxdevapiRowResult::construct**
 
 Представляє набір результатів, отриманий під час звернення до бази даних.
 
@@ -23,23 +29,34 @@ private **mysql_xdevapi\RowResult::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\RowResult::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiRowResult::construct()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$row = $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();print_r($row); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$row = $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();
+
+print_r($row);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[name] => John
-[age] => 42
+    [0] => Array
+        (
+            [name] => John
+            [age] => 42
+        )
+    [1] => Array
+        (
+            [name] => Sam
+            [age] => 33
+        )
 )
-[1] => Array
-(
-[name] => Sam
-[age] => 33
-)
-)
+```

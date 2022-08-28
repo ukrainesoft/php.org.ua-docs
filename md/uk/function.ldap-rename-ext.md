@@ -1,51 +1,48 @@
-- [«ldap_read](function.ldap-read.md)
-- [ldap_rename »](function.ldap-rename.md)
+Модифікувати назву запису
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Модифікувати назву запису
+-   [« ldap\_read](function.ldap-read.html)
+    
+-   [ldap\_rename »](function.ldap-rename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Модифікувати назву запису
+    
 
-#ldap_rename_ext
+# ldaprenameext
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-ldap_rename_ext — Модифікувати назву запису
+ldaprenameext — Модифікувати назву запису
 
 ### Опис
 
-**ldap_rename_ext**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$dn`,
-string `$new_rdn`,
-string `$new_parent`,
-bool `$delete_old_rdn`,
-?array `$controls` = **`null`**
-): [LDAP\Result](class.ldap-result.md)\|false
+```methodsynopsis
+ldap_rename_ext(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    string $new_parent,    bool $delete_old_rdn,    ?array $controls = null): LDAP\Result|false
+```
 
-Робить те саме, що і [ldap_rename()](function.ldap-rename.md), але
-повертає екземпляр [LDAP\Result](class.ldap-result.md) для розбору з
-за допомогою [ldap_parse_result()](function.ldap-parse-result.md).
+Робить те саме, що й [ldap\_rename()](function.ldap-rename.html), але повертає екземпляр [LDAP\\Result](class.ldap-result.html) для розбору за допомогою [ldap\_parse\_result()](function.ldap-parse-result.html)
 
 ### Список параметрів
 
-Дивіться [ldap_rename()](function.ldap-rename.md)
+Дивіться [ldap\_rename()](function.ldap-rename.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAP\Result](class.ldap-result.md) або
-**`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.html) або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
-| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
-| 7.3    | Додано підтримку параметра controls                                                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+|  | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 
-- [ldap_rename()](function.ldap-rename.md) - Змінити ім'я запису
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
+-   [ldap\_rename()](function.ldap-rename.html) - Змінити ім'я запису
+-   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату

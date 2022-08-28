@@ -1,13 +1,19 @@
-- [« DirectoryIterator::valid](directoryiterator.valid.md)
-- [EmptyIterator::current »](emptyiterator.current.md)
+Клас EmptyIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас EmptyIterator
+-   [« DirectoryIterator::valid](directoryiterator.valid.html)
+    
+-   [EmptyIterator::current »](emptyiterator.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас EmptyIterator
+    
 
 # Клас EmptyIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -15,27 +21,34 @@
 
 ## Огляд класів
 
-class **EmptyIterator** implements [Iterator](class.iterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [current](emptyiterator.current.md)(): never
+    
+     
+      class EmptyIterator
+     
 
-public [key](emptyiterator.key.md)(): never
+     implements 
+       Iterator {
 
-public [next](emptyiterator.next.md)(): void
+    /* Методы */
+    
+   public current(): never
+public key(): never
+public next(): void
+public rewind(): void
+public valid(): bool
 
-public [rewind](emptyiterator.rewind.md)(): void
-
-public [valid](emptyiterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [EmptyIterator::current](emptyiterator.current.md) - Метод
-current()
-- [EmptyIterator::key](emptyiterator.key.md) - Метод key()
-- [EmptyIterator::next](emptyiterator.next.md) - Метод next()
-- [EmptyIterator::rewind](emptyiterator.rewind.md) - Метод rewind()
-- [EmptyIterator::valid](emptyiterator.valid.md) - Метод valid()
+-   [EmptyIterator::current](emptyiterator.current.html) - Метод current()
+-   [EmptyIterator::key](emptyiterator.key.html) - Метод key()
+-   [EmptyIterator::next](emptyiterator.next.html) - Метод next()
+-   [EmptyIterator::rewind](emptyiterator.rewind.html) - Метод rewind()
+-   [EmptyIterator::valid](emptyiterator.valid.html) - Метод valid()

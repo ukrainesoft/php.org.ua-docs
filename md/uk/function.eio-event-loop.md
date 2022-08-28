@@ -1,24 +1,29 @@
-- [«eio_dup2](function.eio-dup2.md)
-- [eio_fallocate »](function.eio-fallocate.md)
+Взаємодіє з libeio, поки всі запити не будуть виконані
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Взаємодіє з libeio, поки всі запити не будуть
-виконані
+-   [« eio\_dup2](function.eio-dup2.html)
+    
+-   [eio\_fallocate »](function.eio-fallocate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Взаємодіє з libeio, поки всі запити не будуть виконані
+    
 
-#eio_event_loop
+# eioeventloop
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_event_loop — Взаємодіє з libeio, поки всі запити
-не будуть виконані
+eioeventloop — Взаємодіє з libeio доти, доки всі запити не будуть виконані
 
 ### Опис
 
-**eio_event_loop**(): bool
+```methodsynopsis
+eio_event_loop(): bool
+```
 
-**eio_event_loop()** взаємодіє з libeio до тих пір, поки всі
-запити не будуть виконані.
+**eioeventloop()** взаємодіє з libeio до тих пір, поки всі запити не будуть виконані.
 
 ### Список параметрів
 
@@ -26,20 +31,39 @@ eio_event_loop — Взаємодіє з libeio, поки всі запити
 
 ### Значення, що повертаються
 
-**eio_event_loop()** повертає **`true`** у разі успішного виконання
-або **`false`** у разі виникнення помилки.
+**eioeventloop()** повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eio_event_loop()****
+**Приклад #1 Приклад використання **eioeventloop()****
 
-`<?php$temp_filename = "eio-temp-file.tmp";touch($temp_filename);/* Викликається після виконання eio_chmod() */function my_chmod_callback($data, $result) if ($result == 0 && !is_readable($temp_filename) && is_writable($temp_filename)) {        echo "eio_chmod_ok"; }   @unlink($temp_filename);}eio_chmod($temp_filename, 0200, EIO_PRI_DEFAULT, "my_chmod_callback");eio_event_loop();?> `
+```php
+<?php
+$temp_filename = "eio-temp-file.tmp";
+touch($temp_filename);
+
+/* Вызывается после выполнения eio_chmod() */
+function my_chmod_callback($data, $result) {
+    global $temp_filename;
+
+    if ($result == 0 && !is_readable($temp_filename) && is_writable($temp_filename)) {
+        echo "eio_chmod_ok";
+    }
+
+    @unlink($temp_filename);
+}
+
+eio_chmod($temp_filename, 0200, EIO_PRI_DEFAULT, "my_chmod_callback");
+eio_event_loop();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 eio_chmod_ok
+```
 
 ### Дивіться також
 
-- [eio_poll()](function.eio-poll.md) - Може бути викликана коли
-є запити, що очікують на виконання
+-   [eio\_poll()](function.eio-poll.html) - Може бути викликана коли є запити, що очікують на виконання

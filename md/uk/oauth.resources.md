@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](oauth.configuration.md)
-- [Предвизначені константи »](oauth.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](oauth.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](oauth.configuration.html)
+    
+-   [Предопределённые константы »](oauth.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](oauth.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

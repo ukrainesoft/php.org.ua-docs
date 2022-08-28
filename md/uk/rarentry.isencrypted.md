@@ -1,26 +1,33 @@
-- [« RarEntry::isDirectory](rarentry.isdirectory.md)
-- [RarEntry::\_\_toString »](rarentry.tostring.md)
+Перевіряє, чи зашифрований запис
 
-- [PHP Manual](index.md)
-- [RarEntry](class.rarentry.md)
-- Перевіряє, чи зашифрований запис
+-   [« RarEntry::isDirectory](rarentry.isdirectory.html)
+    
+-   [RarEntry::\_\_toString »](rarentry.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RarEntry](class.rarentry.html)
+    
+-   Перевіряє, чи зашифрований запис
+    
 
 # RarEntry::isEncrypted
 
-(PECL rar \>= 2.0.0)
+(PECL rar >= 2.0.0)
 
 RarEntry::isEncrypted — Перевіряє, чи зашифрований запис
 
 ### Опис
 
-public **RarEntry::isEncrypted**(): bool
+```methodsynopsis
+public RarEntry::isEncrypted(): bool
+```
 
 Перевіряє, чи зашифровано поточний запис.
 
-> **Примітка**:
->
-> В тому самому архіві для різних файлів можуть використовуватися різні
-> паролі.
+> **Зауваження**
+> 
+> В тому самому архіві для різних файлів можуть використовуватися різні паролі.
 
 ### Список параметрів
 
@@ -28,4 +35,4 @@ public **RarEntry::isEncrypted**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** залежно від результату.
+Повертає **`true`** або **`false`** Залежно від результату.

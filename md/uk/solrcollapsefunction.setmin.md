@@ -1,25 +1,29 @@
-- [«SolrCollapseFunction::setMax](solrcollapsefunction.setmax.md)
-- [SolrCollapseFunction::setNullPolicy »](solrcollapsefunction.setnullpolicy.md)
+Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
 
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Встановлює початковий розмір структур даних, що згортаються, тільки
-при згортанні по числовому полю
+-   [« SolrCollapseFunction::setMax](solrcollapsefunction.setmax.html)
+    
+-   [SolrCollapseFunction::setNullPolicy »](solrcollapsefunction.setnullpolicy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrCollapseFunction](class.solrcollapsefunction.html)
+    
+-   Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
+    
 
 # SolrCollapseFunction::setMin
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
-SolrCollapseFunction::setMin — Встановлює початковий розмір
-структур даних, що згортаються, тільки при згортанні по числовому полю
+SolrCollapseFunction::setMin — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
 
 ### Опис
 
-public **SolrCollapseFunction::setMin**(string `$min`):
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+```methodsynopsis
+public SolrCollapseFunction::setMin(string $min): SolrCollapseFunction
+```
 
-Встановлює початковий розмір структур даних, що згортаються, тільки при
-згортання по числовому полю
+Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
 
 ### Список параметрів
 
@@ -27,4 +31,4 @@ public **SolrCollapseFunction::setMin**(string `$min`):
 
 ### Значення, що повертаються
 
-[SolrCollapseFunction](class.solrcollapsefunction.md)
+[SolrCollapseFunction](class.solrcollapsefunction.html)

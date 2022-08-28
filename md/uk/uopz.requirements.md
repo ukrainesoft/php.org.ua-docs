@@ -1,10 +1,16 @@
-- [« Встановлення та налаштування](uopz.setup.md)
-- [Установка »](uopz.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](uopz.setup.md)
-- Вимоги
+-   [« Установка и настройка](uopz.setup.html)
+    
+-   [Установка »](uopz.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](uopz.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Для uopz 5.0 потрібно PHP 7.0. Починаючи з uopz 5.1 потрібно PHP 7.1+.
+Для uopz 5.0 потрібно PHP 7.0. З uopz 5.1 потрібно PHP 7.1+.

@@ -1,9 +1,15 @@
-- [« Imagick::setImageIndex](imagick.setimageindex.md)
-- [Imagick::setImageInterpolateMethod »](imagick.setimageinterpolatemethod.md)
+Встановлює стиснення зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює стиснення зображення
+-   [« Imagick::setImageIndex](imagick.setimageindex.html)
+    
+-   [Imagick::setImageInterpolateMethod »](imagick.setimageinterpolatemethod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює стиснення зображення
+    
 
 # Imagick::setImageInterlaceScheme
 
@@ -13,8 +19,9 @@ Imagick::setImageInterlaceScheme — Встановлює стиснення з�
 
 ### Опис
 
-public **Imagick::setImageInterlaceScheme**(int `$interlace_scheme`):
-bool
+```methodsynopsis
+public Imagick::setImageInterlaceScheme(int $interlace_scheme): bool
+```
 
 Встановлює стиснення зображення.
 
@@ -24,7 +31,7 @@ bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

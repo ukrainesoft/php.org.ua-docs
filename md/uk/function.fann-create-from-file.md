@@ -1,37 +1,40 @@
-- [« fann_copy](function.fann-copy.md)
-- [fann_create_shortcut_array »](function.fann-create-shortcut-array.md)
+Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Створює нейронну мережу зі зворотним розповсюдженням помилки з
-конфігураційного файлу
+-   [« fann\_copy](function.fann-copy.html)
+    
+-   [fann\_create\_shortcut\_array »](function.fann-create-shortcut-array.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Створює нейронну мережу зі зворотним поширенням помилки конфігураційного файлу
+    
 
-# fann_create_from_file
+# fanncreatefromfile
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_create_from_file — Створює нейронну мережу зі зворотним
-поширенням помилки з конфігураційного файлу
+fanncreatefromfile — Створює нейронну мережу із зворотним розповсюдженням помилки з конфігураційного файлу
 
 ### Опис
 
-**fann_create_from_file**(string `$configuration_file`): resource
+```methodsynopsis
+fann_create_from_file(string $configuration_file): resource
+```
 
-Створює нейронну мережу зі зворотним поширенням помилки з
-конфігураційного файлу, створеного раніше за допомогою
-[fann_save()](function.fann-save.md).
+Створює нейронну мережу зі зворотним поширенням помилки з конфігураційного файлу, створеного раніше за допомогою [fann\_save()](function.fann-save.html)
 
 ### Список параметрів
 
 `configuration_file`
+
 Конфігураційний файл.
 
 ### Значення, що повертаються
 
-Повертає ресурс (resource) нейронної мережі у разі успішного
-виконання, або **`false`** у разі виникнення помилки.
+Повертає ресурс (resource) нейронної мережі у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_save()](function.fann-save.md) - Зберігає всю мережу у файл
-конфігурації
+-   [fann\_save()](function.fann-save.html) - Зберігає всю мережу файл конфігурації

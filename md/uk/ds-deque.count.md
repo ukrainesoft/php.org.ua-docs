@@ -1,14 +1,20 @@
-- [« Ds\Deque::copy](ds-deque.copy.md)
-- [Ds\Deque::filter »](ds-deque.filter.md)
+Повертає кількість елементів двосторонньої черги
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Повертає кількість елементів двосторонньої черги
+-   [« Ds\\Deque::copy](ds-deque.copy.html)
+    
+-   [Ds\\Deque::filter »](ds-deque.filter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Повертає кількість елементів двосторонньої черги
+    
 
-# Ds\Deque::count
+# ДсDeque::count
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::count — Повертає кількість елементів двосторонньої черги
+ДсDeque::count — Повертає кількість елементів двосторонньої черги
 
-Дивіться [Countable::count()](countable.count.md)
+Дивіться [Countable::count()](countable.count.html)

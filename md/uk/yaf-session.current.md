@@ -1,24 +1,31 @@
-- [« Yaf_Session::count](yaf-session.count.md)
-- [Yaf_Session::del »](yaf-session.del.md)
+Призначення current
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення current
+-   [« Yaf\_Session::count](yaf-session.count.html)
+    
+-   [Yaf\_Session::del »](yaf-session.del.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення current
+    
 
-# Yaf_Session::current
+# YafSession::current
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::current - Призначення current
+YafSession::current - Призначення current
 
 ### Опис
 
-public **Yaf_Session::current**(): void
+```methodsynopsis
+public Yaf_Session::current(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

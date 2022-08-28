@@ -1,25 +1,31 @@
-- [« SqlStatementResult::getColumns](mysql-xdevapi-sqlstatementresult.getcolumns.md)
-- [SqlStatementResult::getLastInsertId »](mysql-xdevapi-sqlstatementresult.getlastinsertid.md)
+Отримує згенеровані ідентифікатори
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)
-- Отримує згенеровані ідентифікатори
+-   [« SqlStatementResult::getColumns](mysql-xdevapi-sqlstatementresult.getcolumns.html)
+    
+-   [SqlStatementResult::getLastInsertId »](mysql-xdevapi-sqlstatementresult.getlastinsertid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.html)
+    
+-   Отримує згенеровані ідентифікатори
+    
 
 # SqlStatementResult::getGeneratedIds
 
 (No version information available, might only be in Git)
 
-SqlStatementResult::getGeneratedIds — Отримує згенеровані
-ідентифікатори
+SqlStatementResult::getGeneratedIds — Отримує згенеровані ідентифікатори
 
 ### Опис
 
-public **mysql_xdevapi\SqlStatementResult::getGeneratedIds**(): array
+```methodsynopsis
+public mysql_xdevapi\SqlStatementResult::getGeneratedIds(): array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -27,12 +33,16 @@ public **mysql_xdevapi\SqlStatementResult::getGeneratedIds**(): array
 
 ### Значення, що повертаються
 
-Масив згенерованих \_id з останньої операції або порожній масив,
-якщо таких немає.
+Масив згенерованих id з останньої операції чи порожній масив, якщо таких немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\SqlStatementResult::getGeneratedIds()****
+**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getGeneratedIds()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

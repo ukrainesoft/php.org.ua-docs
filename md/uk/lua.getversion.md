@@ -1,24 +1,31 @@
-- [« Lua::eval](lua.eval.md)
-- [Lua::include »](lua.include.md)
+Повертає версію
 
-- [PHP Manual](index.md)
-- [Lua](class.lua.md)
-- Повертає версію
+-   [« Lua::eval](lua.eval.html)
+    
+-   [Lua::include »](lua.include.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Lua](class.lua.html)
+    
+-   Повертає версію
+    
 
 # Lua::getVersion
 
-(PECL lua \>=0.9.0)
+(PECL lua> = 0.9.0)
 
 Lua::getVersion — Повертає версію
 
 ### Опис
 
-public **Lua::getVersion**(): string
+```methodsynopsis
+public Lua::getVersion(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,4 +33,4 @@ public **Lua::getVersion**(): string
 
 ### Значення, що повертаються
 
-Повертає `Lua::LUA_VERSION`.
+Повертає Lua::LUAVERSION.

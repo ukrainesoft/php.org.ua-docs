@@ -1,53 +1,56 @@
-- [« Phar::setMetadata](phar.setmetadata.md)
-- [Phar::setStub »](phar.setstub.md)
+Встановити алгоритм підписання phar-архіву та застосування його
 
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Встановити алгоритм підписання phar-архіву та застосування його
+-   [« Phar::setMetadata](phar.setmetadata.html)
+    
+-   [Phar::setStub »](phar.setstub.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](class.phar.html)
+    
+-   Встановити алгоритм підписання phar-архіву та застосування його
+    
 
 # Phar::setSignatureAlgorithm
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.1.0)
 
-Phar::setSignatureAlgorithm — Встановити алгоритм підписання phar-архіву
-та застосування його
+Phar::setSignatureAlgorithm — Встановити алгоритм підписання phar-архіву та застосування його
 
 ### Опис
 
-public **Phar::setSignatureAlgorithm**(int `$algo`, ?string
-`$privateKey` = **`null`**): void
+```methodsynopsis
+public Phar::setSignatureAlgorithm(int $algo, ?string $privateKey = null): void
+```
 
-> **Примітка**:
->
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цим методом
-> необхідна установка значення `php.ini` `phar.readonly` у `0`. В
-> інакше, буде викинуто виняток
-> [PharException](class.pharexception.md).
+> **Зауваження**
+> 
+> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
 
-Встановлює алгоритм підписання phar-архіву та застосовує його. Доступні
-наступні алгоритми підписання: `Phar::MD5`, `Phar::SHA1`,
-`Phar::SHA256`, `Phar::SHA512` та `Phar::OPENSSL`.
+Встановлює алгоритм підписання phar-архіву та застосовує його. Доступні такі алгоритми підписання: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512` і `Phar::OPENSSL`
 
-Зверніть увагу, що для всіх phar-архівів, що виконуються, підпис
-створюється автоматично, з стандартним використанням `SHA1`. Архіви з
-даними на основі tar або zip (створені за допомогою класу
-[PharData](class.phardata.md)) повинні мати явно створену за допомогою
-**Phar::setSignatureAlgorithm()** підпис.
+Зверніть увагу, що для всіх phar-архівів, що виконуються, підпис створюється автоматично, з використанням за замовчуванням `SHA1`. Архіви з даними на основі tar або zip (створені за допомогою класу [PharData](class.phardata.html)) повинні мати явно створену за допомогою **Phar::setSignatureAlgorithm()** підпис.
 
 ### Список параметрів
 
 `algo`
-Одна з констант: `Phar::MD5`, `Phar::SHA1`, `Phar::SHA256`,
-`Phar::SHA512` або `Phar::OPENSSL`
+
+Одна з констант: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512` або `Phar::OPENSSL`
 
 `privateKey`
-Секретний ключ OpenSSL, витягнутий із сертифіката, або файл із ключем
-OpenSSL:
 
-` <?php$private = openssl_get_privatekey(file_get_contents('private.pem'));$pkey = '';openssl_pkey_export($private, $pkey);$p->setSignatureAlgorithm(Phar::OPENS > `
+Секретний ключ OpenSSL, витягнутий із сертифіката, або файл із ключем OpenSSL:
 
-Подробиці про іменування та розміщення файлу відкритого ключа дивіться у
-розділ [Вступ до phar](phar.using.md).
+```php
+<?php
+$private = openssl_get_privatekey(file_get_contents('private.pem'));
+$pkey = '';
+openssl_pkey_export($private, $pkey);
+$p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
+?>
+```
+
+Подробиці про іменування та розміщення файлу відкритого ключа дивіться у розділі [Введение в phar](phar.using.html)
 
 ### Значення, що повертаються
 
@@ -55,20 +58,15 @@ OpenSSL:
 
 ### Помилки
 
-Викидає виняток
-[UnexpectedValueException](class.unexpectedvalueexception.md) у
-будь-які помилки, крім помилок запису на диск. При помилках запису на диск
-викидає виняток [PharException](class.pharexception.md).
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html) за будь-яких помилок, крім помилок запису на диск. При помилках запису на диск викидає виняток [PharException](class.pharexception.html)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                     |
-|--------|------------------------------------------|
-| 8.0.0  | privateKey тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `privateKey` тепер допускає значення null. |
 
 ### Дивіться також
 
-- [Phar::getSupportedSignatures()](phar.getsupportedsignatures.md) -
-Отримати масив підтримуваних алгоритмів підпису архіву
-- [Phar::getSignature()](phar.getsignature.md) - Отримати
-MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.html) - Отримати масив підтримуваних алгоритмів підпису архіву
+-   [Phar::getSignature()](phar.getsignature.html) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву

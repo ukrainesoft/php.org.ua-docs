@@ -1,25 +1,30 @@
-- [«EventBuffer::drain](eventbuffer.drain.md)
-- [EventBuffer::expand »](eventbuffer.expand.md)
+Опис
 
-- [PHP Manual](index.md)
-- [EventBuffer](class.eventbuffer.md)
-- Опис
+-   [« EventBuffer::drain](eventbuffer.drain.html)
+    
+-   [EventBuffer::expand »](eventbuffer.expand.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBuffer](class.eventbuffer.html)
+    
+-   Опис
+    
 
 # EventBuffer::enableLocking
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBuffer::enableLocking
+EventBuffer::enableLocking -
 
 ### Опис
 
-public **EventBuffer::enableLocking**(): void
+```methodsynopsis
+public
+   EventBuffer::enableLocking(): void
+```
 
-Включає блокування [EventBuffer](class.eventbuffer.md), щоб він
-міг безпечно використовуватись декількома потоками одночасно. Коли
-блокування увімкнено, воно буде утримуватися при виклику callback-функцій.
-Це може призвести до безвиході, якщо ви не будете обережні. Плануйте
-відповідно!
+Включає блокування для [EventBuffer](class.eventbuffer.html)щоб він міг безпечно використовуватися кількома потоками одночасно. Коли блокування увімкнено, воно буде утримуватися при виклику callback-функцій. Це може призвести до глухого кута, якщо ви не будете обережні. Плануйте відповідно!
 
 ### Список параметрів
 
@@ -31,4 +36,4 @@ public **EventBuffer::enableLocking**(): void
 
 ### Дивіться також
 
-- [» Evbuffers та Thread-безпека](http://www.wangafu.net/~nickm/libevent-book/Ref7_evbuffer.md#_evbuffers_and_thread_safety)
+-   [» Evbuffers и Thread-безопасность](http://www.wangafu.net/~nickm/libevent-book/Ref7_evbuffer.html#_evbuffers_and_thread_safety)

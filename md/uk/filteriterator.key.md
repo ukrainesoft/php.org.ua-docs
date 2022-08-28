@@ -1,25 +1,31 @@
-- [« FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)
-- [FilterIterator::next »](filteriterator.next.md)
+Отримує поточний ключ
 
-- [PHP Manual](index.md)
-- [FilterIterator](class.filteriterator.md)
-- Отримує поточний ключ
+-   [« FilterIterator::getInnerIterator](filteriterator.getinneriterator.html)
+    
+-   [FilterIterator::next »](filteriterator.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FilterIterator](class.filteriterator.html)
+    
+-   Отримує поточний ключ
+    
 
 # FilterIterator::key
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::key — Отримує поточний ключ
 
 ### Опис
 
-public **FilterIterator::key**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public FilterIterator::key(): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Отримує ключ.
 
@@ -33,7 +39,5 @@ public **FilterIterator::key**():
 
 ### Дивіться також
 
-- [FilterIterator::next()](filteriterator.next.md) - Переміщує
-ітератор до наступного елементу
-- [FilterIterator::current()](filteriterator.current.md) - Отримує
-значення поточного елемента
+-   [FilterIterator::next()](filteriterator.next.html) - Переміщує ітератор до наступного елементу
+-   [FilterIterator::current()](filteriterator.current.html) - Отримує значення поточного елемента

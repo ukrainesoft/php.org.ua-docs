@@ -1,9 +1,15 @@
-- [« Imagick::getImageArtifact](imagick.getimageartifact.md)
-- [Imagick::getImageBackgroundColor »](imagick.getimagebackgroundcolor.md)
+Повертає іменований атрибут
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає іменований атрибут
+-   [« Imagick::getImageArtifact](imagick.getimageartifact.html)
+    
+-   [Imagick::getImageBackgroundColor »](imagick.getimagebackgroundcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає іменований атрибут
+    
 
 # Imagick::getImageAttribute
 
@@ -13,18 +19,20 @@ Imagick::getImageAttribute — Повертає іменований атриб�
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::getImageAttribute**(string `$key`): string
+```methodsynopsis
+public Imagick::getImageAttribute(string $key): string
+```
 
 Повертає іменований атрибут.
 
 ### Список параметрів
 
 `key`
+
 Ключ атрибута, що повертається.
 
 ### Значення, що повертаються

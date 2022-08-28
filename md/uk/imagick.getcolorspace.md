@@ -1,9 +1,15 @@
-- [« Imagick::gaussianBlurImage](imagick.gaussianblurimage.md)
-- [Imagick::getCompression »](imagick.getcompression.md)
+Повертає палітру кольорів
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає колірну палітру
+-   [« Imagick::gaussianBlurImage](imagick.gaussianblurimage.html)
+    
+-   [Imagick::getCompression »](imagick.getcompression.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає палітру кольорів
+    
 
 # Imagick::getColorspace
 
@@ -13,10 +19,11 @@ Imagick::getColorspace — Повертає палітру кольорів
 
 ### Опис
 
-public **Imagick::getColorspace**(): int
+```methodsynopsis
+public Imagick::getColorspace(): int
+```
 
-Повертає значення глобальної палітри кольорів. Цей метод доступний,
-якщо Imagick був скомпільований із версією ImageMagick 6.5.7 або старшим.
+Повертає значення глобальної палітри кольорів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.5.7 або старшим.
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ public **Imagick::getColorspace**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число, яке можна порівняти з [константами COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
+Повертає ціле число, яке можна порівняти з [константами COLORSPACE](imagick.constants.html#imagick.constants.colorspace)

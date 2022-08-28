@@ -1,48 +1,51 @@
-- [«shm_detach](function.shm-detach.md)
-- [shm_has_var »](function.shm-has-var.md)
+Повертає змінну з пам'яті, що розділяється
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Повертає змінну з пам'яті, що розділяється
+-   [« shm\_detach](function.shm-detach.html)
+    
+-   [shm\_has\_var »](function.shm-has-var.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Повертає змінну з пам'яті, що розділяється
+    
 
-#shm_get_var
+# shmgetvar
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-shm_get_var — Повертає змінну з пам'яті, що розділяється
+shmgetvar — Повертає змінну з пам'яті, що розділяється.
 
 ### Опис
 
-**shm_get_var**([SysvSharedMemory](class.sysvsharedmemory.md) `$shm`,
-int `$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+shm_get_var(SysvSharedMemory $shm, int $key): mixed
+```
 
-**shm_get_var()** повертає змінну за ключом `key` у вказаному
-сегменті пам'яті, що розділяється. Змінна все ще присутня в
-пам'яті, що розділяється.
+**shmgetvar()** повертає змінну за ключом `key` у зазначеному сегменті пам'яті, що розділяється. Змінна все ще присутня в пам'яті, що розділяється.
 
 ### Список параметрів
 
 `shm`
-Сегмент пам'яті, що розділяється, отриманий з
-[shm_attach()](function.shm-attach.md).
+
+Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
 
 `key`
+
 Ключ змінної.
 
 ### Значення, що повертаються
 
 Повертає змінну із заданим ключем.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                         |
-| ------ | ------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | shm тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [shm_has_var()](function.shm-has-var.md) - Перевіряє, чи існує
-конкретний запис
-- [shm_put_var()](function.shm-put-var.md) - Вставляє або оновлює
-змінну в пам'яті, що розділяється
+-   [shm\_has\_var()](function.shm-has-var.html) - Перевіряє, чи існує конкретний запис
+-   [shm\_put\_var()](function.shm-put-var.html) - Вставляє або оновлює змінну в пам'яті, що розділяється.

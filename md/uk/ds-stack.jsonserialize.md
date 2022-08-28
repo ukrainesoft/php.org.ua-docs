@@ -1,19 +1,24 @@
-- [« Ds\Stack::isEmpty](ds-stack.isempty.md)
-- [Ds\Stack::peek »](ds-stack.peek.md)
+Повертає колекцію в JSON-представництві
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Повертає колекцію в JSON-виставі
+-   [« Ds\\Stack::isEmpty](ds-stack.isempty.html)
+    
+-   [Ds\\Stack::peek »](ds-stack.peek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Стек](class.ds-stack.html)
+    
+-   Повертає колекцію в JSON-представництві
+    
 
-# Ds\Stack::jsonSerialize
+# ДсStack::jsonSerialize
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Stack::jsonSerialize — Повертає колекцію в JSON-представництві
+ДсStack::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивись
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Дивись [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ніколи не використовуйте цю функцію безпосередньо.

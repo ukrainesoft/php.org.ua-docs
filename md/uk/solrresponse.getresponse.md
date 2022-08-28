@@ -1,21 +1,27 @@
-- [«SolrResponse::getRequestUrl](solrresponse.getrequesturl.md)
-- [SolrResponse::setParseMode »](solrresponse.setparsemode.md)
+Повертає SolrObject, що представляє відповідь XML від сервера
 
-- [PHP Manual](index.md)
-- [SolrResponse](class.solrresponse.md)
-- Повертає SolrObject, що представляє відповідь XML від сервера
+-   [« SolrResponse::getRequestUrl](solrresponse.getrequesturl.html)
+    
+-   [SolrResponse::setParseMode »](solrresponse.setparsemode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrResponse](class.solrresponse.html)
+    
+-   Повертає SolrObject, що представляє відповідь XML від сервера
+    
 
 # SolrResponse::getResponse
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrResponse::getResponse — Повертає SolrObject, що представляє відповідь
-XML від сервера
+SolrResponse::getResponse — Повертає SolrObject, що представляє відповідь XML від сервера
 
 ### Опис
 
-public **SolrResponse::getResponse**():
-[SolrObject](class.solrobject.md)
+```methodsynopsis
+public SolrResponse::getResponse(): SolrObject
+```
 
 Повертає SolrObject, що представляє XML-відповідь від сервера.
 

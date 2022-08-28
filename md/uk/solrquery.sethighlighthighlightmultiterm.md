@@ -1,32 +1,36 @@
-- [« SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.md)
-- [SolrQuery::setHighlightMaxAlternateFieldLength »](solrquery.sethighlightmaxalternatefieldlength.md)
+Використовувати SpanScorer для виділення виразів
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Використовувати SpanScorer для виділення виразів
+-   [« SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.html)
+    
+-   [SolrQuery::setHighlightMaxAlternateFieldLength »](solrquery.sethighlightmaxalternatefieldlength.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Використовувати SpanScorer для виділення виразів
+    
 
 # SolrQuery::setHighlightHighlightMultiTerm
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightHighlightMultiTerm — Використовувати SpanScorer для
-виділення виразів
+SolrQuery::setHighlightHighlightMultiTerm — Використовувати SpanScorer для виділення виразів
 
 ### Опис
 
-public **SolrQuery::setHighlightHighlightMultiTerm**(bool `$flag`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightHighlightMultiTerm(bool $flag): SolrQuery
+```
 
-Використовувати SpanScorer для виділення фразових виразів, тільки коли
-вони з'являються у фразі запиту документі.
+Використовувати SpanScorer для виділення фразових виразів лише тоді, коли вони з'являються у фразі запиту в документі.
 
 ### Список параметрів
 
 `flag`
-Чи слід використовувати SpanScorer для виділення фразових виразів
-лише тоді, коли вони з'являються у фразі запиту документі.
+
+Чи слід використовувати SpanScorer для виділення фразових виразів лише тоді, коли вони з'являються у фразі запиту у документі.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

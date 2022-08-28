@@ -1,19 +1,27 @@
-- [«readline_info](function.readline-info.md)
-- [readline_on_new_line »](function.readline-on-new-line.md)
+Список історії команд
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Список історії команд
+-   [« readline\_info](function.readline-info.html)
+    
+-   [readline\_on\_new\_line »](function.readline-on-new-line.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Readline](ref.readline.html)
+    
+-   Список історії команд
+    
 
-#readline_list_history
+# readlinelisthistory
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readline_list_history - Список історії команд
+readlinelisthistory - Список історії команд
 
 ### Опис
 
-**readline_list_history**(): array
+```methodsynopsis
+readline_list_history(): array
+```
 
 Повертає повну історію команд.
 

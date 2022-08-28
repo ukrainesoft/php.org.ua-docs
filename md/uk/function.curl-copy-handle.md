@@ -1,43 +1,68 @@
-- [«curl_close](function.curl-close.md)
-- [curl_errno»](function.curl-errno.md)
+Копіює дескриптор cURL разом із усіма його налаштуваннями
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Копіює дескриптор cURL разом із усіма його налаштуваннями
+-   [« curl\_close](function.curl-close.html)
+    
+-   [curl\_errno »](function.curl-errno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Копіює дескриптор cURL разом із усіма його налаштуваннями
+    
 
-#curl_copy_handle
+# curlcopyhandle
 
 (PHP 5, PHP 7, PHP 8)
 
-curl_copy_handle - Копіює дескриптор cURL разом з усіма його
-налаштуваннями
+curlcopyhandle — Копіює дескриптор cURL разом із усіма його налаштуваннями
 
 ### Опис
 
-**curl_copy_handle**([CurlHandle](class.curlhandle.md) `$handle`):
-[CurlHandle](class.curlhandle.md)\|false
+```methodsynopsis
+curl_copy_handle(CurlHandle $handle): CurlHandle|false
+```
 
 Копіює дескриптор cURL, зберігаючи його налаштування.
 
 ### Список параметрів
 
 `handle`
-Дескриптор cURL, отриманий із [curl_init()](function.curl-init.md).
+
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.html)
 
 ### Значення, що повертаються
 
-Повертає новий дескриптор cURL або **`false`** у разі виникнення
-помилки.
+Повертає новий дескриптор cURL або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                  |
-|--------|-----------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource).                 |
-| 8.0.0  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.html); раніше повертався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Копіювання дескриптора cURL**
 
-` <?php// створення нового ресурсу cURL$ch = curl_init();// установка URL і інших відповідних параметрівcurl_setopt($ch, CURLOPT_URL, 'http://www.ex; CURLOPT_HEADER, 0); звільнення системних ресурсовcurl_close($ch2);curl_close($ch);?> `
+```php
+<?php
+// создание нового ресурса cURL
+$ch = curl_init();
+
+// установка URL и других соответствующих параметров
+curl_setopt($ch, CURLOPT_URL, 'http://www.example.com/');
+curl_setopt($ch, CURLOPT_HEADER, 0);
+
+// копирование дескриптора
+$ch2 = curl_copy_handle($ch);
+
+// загрузка URL (http://www.example.com/) и её передача в браузер
+curl_exec($ch2);
+
+// закрытие ресурсов cURL и освобождение системных ресурсов
+curl_close($ch2);
+curl_close($ch);
+?>
+```

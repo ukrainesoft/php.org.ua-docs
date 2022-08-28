@@ -1,9 +1,15 @@
-- [« ArrayObject::offsetExists](arrayobject.offsetexists.md)
-- [ArrayObject::offsetSet »](arrayobject.offsetset.md)
+Повертає значення за вказаним індексом
 
-- [PHP Manual](index.md)
-- [ArrayObject](class.arrayobject.md)
-- Повертає значення за вказаним індексом
+-   [« ArrayObject::offsetExists](arrayobject.offsetexists.html)
+    
+-   [ArrayObject::offsetSet »](arrayobject.offsetset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayObject](class.arrayobject.html)
+    
+-   Повертає значення за вказаним індексом
+    
 
 # ArrayObject::offsetGet
 
@@ -13,33 +19,41 @@ ArrayObject::offsetGet — Повертає значення за вказани
 
 ### Опис
 
-public
-**ArrayObject::offsetGet**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ArrayObject::offsetGet(mixed $key): mixed
+```
 
 ### Список параметрів
 
 `key`
-Індекс, який посилається на значення.
+
+Індекс, що посилається на значення.
 
 ### Значення, що повертаються
 
-Значення за вказаним індексом або **`null`**.
+Значення за вказаним індексом або **`null`**
 
 ### Помилки
 
-Викликає помилку рівня **`E_NOTICE`**, якщо зазначений індекс не
-існує.
+Викликає помилку рівня **`E_NOTICE`**якщо зазначений індекс не існує.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ArrayObject::offsetGet()****
 
-` <?php$arrayobj = new ArrayObject(array('zero', 7, 'example'=>'e.g.'));var_dump($arrayobj->offsetGet(1));var_dump($arrayobj->offsetGet(' example'));var_dump($arrayobj->offsetExists('notfound'));?> `
+```php
+<?php
+$arrayobj = new ArrayObject(array('zero', 7, 'example'=>'e.g.'));
+var_dump($arrayobj->offsetGet(1));
+var_dump($arrayobj->offsetGet('example'));
+var_dump($arrayobj->offsetExists('notfound'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(7)
 string(4) "e.g."
 bool(false)
+```

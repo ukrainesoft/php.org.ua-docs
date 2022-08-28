@@ -1,63 +1,67 @@
-- [« pspell_config_mode](function.pspell-config-mode.md)
-- [pspell_config_repl »](function.pspell-config-repl.md)
+Встановлює файл, що містить персональний список слів
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Встановлює файл, що містить персональний список слів
+-   [« pspell\_config\_mode](function.pspell-config-mode.html)
+    
+-   [pspell\_config\_repl »](function.pspell-config-repl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Встановлює файл, що містить персональний список слів
+    
 
-#pspell_config_personal
+# pspellconfigpersonal
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_config_personal — Встановлює файл, який містить персональний
-список слів
+pspellconfigpersonal — Встановлює файл, який містить персональний список слів
 
 ### Опис
 
-**pspell_config_personal**([PSpell\Config](class.pspell-config.md)
-`$config`, string `$filename`): bool
+```methodsynopsis
+pspell_config_personal(PSpell\Config $config, string $filename): bool
+```
 
-Встановлює файл, який містить список персональних слів. Персональний
-список слів буде завантажено та використано на додаток до стандартного
-після того, як ви викликаєте
-[pspell_new_config()](function.pspell-new-config.md). Це той самий
-файл, в який функція
-[pspell_save_wordlist()](function.pspell-save-wordlist.md) збереже
-персональний перелік слів.
+Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspell\_new\_config()](function.pspell-new-config.html). Це той самий файл, в який функція [pspell\_save\_wordlist()](function.pspell-save-wordlist.html) збереже персональний перелік слів.
 
-**pspell_config_personal()** має бути використана для конфігурації
-до дзвінка [pspell_new_config()](function.pspell-new-config.md).
+**pspellconfigpersonal()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html)
 
 ### Список параметрів
 
 `config`
-Примірник [PSpell\Config](class.pspell-config.md).
+
+Екземпляр [PSpell\\Config](class.pspell-config.html)
 
 `filename`
-Персональний перелік слів. Якщо файл не існує, його буде створено. Файл
-повинен бути доступний для запису будь-кому, хто запускає PHP (наприклад,
-nobody).
+
+Персональний перелік слів. Якщо файл не існує, його буде створено. Файл має бути доступним для запису будь-кому, хто запускає PHP (наприклад, nobody).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_config_personal()****
+**Приклад #1 Приклад використання **pspellconfigpersonal()****
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");$pspell = pspell_new_config($pspell_config);$pel__cat ?> `
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "thecat");
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція не працюватиме, якщо у вас немає pspell .11.2 та aspell .32.5
-> або вище.
+> **Зауваження**
+> 
+> Функція не працюватиме, якщо у вас немає pspell .11.2 і aspell .32.5 або вище.

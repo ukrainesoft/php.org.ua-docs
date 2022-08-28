@@ -1,9 +1,15 @@
-- [« Session::getServerVersion](mysql-xdevapi-session.getserverversion.md)
-- [Session::quoteName »](mysql-xdevapi-session.quotename.md)
+Отримує список клієнтів
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Отримує список клієнтів
+-   [« Session::getServerVersion](mysql-xdevapi-session.getserverversion.html)
+    
+-   [Session::quoteName »](mysql-xdevapi-session.quotename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Отримує список клієнтів
+    
 
 # Session::listClients
 
@@ -13,7 +19,9 @@ Session::listClients — Отримує список клієнтів
 
 ### Опис
 
-public **mysql_xdevapi\Session::listClients**(): array
+```methodsynopsis
+public mysql_xdevapi\Session::listClients(): array
+```
 
 Отримати список клієнтських підключень до сесії сервера MySQL.
 
@@ -23,28 +31,36 @@ public **mysql_xdevapi\Session::listClients**(): array
 
 ### Значення, що повертаються
 
-Масив, що містить поточні зареєстровані клієнти. Елементи
-масиву: "client_id", "user", "host", та "sql_session".
+Масив, що містить поточні зареєстровані клієнти. Елементи масиву: "clientid", "user", "host", та "sqlsession".
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::listClients()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::listClients()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$ids = $session->listClients();var_dump($ids);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$ids = $session->listClients();
+
+var_dump($ids);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-[0]=>
-array(4) {
-["client_id"]=>
-int(61)
-["user"]=>
-string(4) "root"
-["host"]=>
-string(9) "localhost"
-["sql_session"]=>
-int(72)
+  [0]=>
+  array(4) {
+    ["client_id"]=>
+    int(61)
+    ["user"]=>
+    string(4) "root"
+    ["host"]=>
+    string(9) "localhost"
+    ["sql_session"]=>
+    int(72)
+  }
 }
-}
+```

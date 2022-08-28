@@ -1,92 +1,155 @@
-- [«is_a](function.is-a.md)
-- [method_exists »](function.method-exists.md)
+Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас
-або прямо реалізує його
+-   [« is\_a](function.is-a.html)
+    
+-   [method\_exists »](function.method-exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
+    
 
-#is_subclass_of
+# ісsubclassоф
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-is_subclass_of — Перевіряє, чи міститься об'єкт у своєму дереві предків
-зазначений клас або прямо реалізує його
+ісsubclassof — Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
 
 ### Опис
 
-**is_subclass_of**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_or_class`, string `$class`, bool `$allow_string` = **`true`**):
-bool
+```methodsynopsis
+is_subclass_of(mixed $object_or_class, string $class, bool $allow_string = true): bool
+```
 
-Перевіряє, чи об'єкт `object_or_class` містить у своєму дереві предків
-клас `class` або прямо реалізує його.
+Перевіряє, чи містить об'єкт `object_or_class` у своєму дереві предків клас `class` або прямо реалізує його.
 
 ### Список параметрів
 
 `object_or_class`
-Назва класу або екземпляр об'єкта. У разі відсутності такого класу
-ніякої помилки згенеровано не буде.
+
+Назва класу або екземпляр об'єкта. У разі відсутності такого класу жодної помилки згенеровано не буде.
 
 `class`
+
 Ім'я класу
 
 `allow_string`
-Якщо параметр встановлено в false, то не допускається назва класу у вигляді
-рядки як параметр `object_or_class`. Це також запобігає
-виклик автозавантажувача, якщо клас не існує.
+
+Якщо параметр встановлено в false, то не допускається ім'я класу у вигляді рядка як параметр `object_or_class`. Це також запобігає виклику автозавантажувача, якщо клас не існує.
 
 ### Значення, що повертаються
 
-Ця функція повертає **`true`**, якщо об'єкт `object_or_class`
-належить до класу, що успадковує від `class`, інакше вона повертає
-**`false`**.
+Ця функція повертає **`true`**, якщо об'єкт `object_or_class` належить до класу, що успадковує від `class`, інакше вона повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_subclass_of()****
+**Приклад #1 Приклад використання **ісsubclassof()****
 
-`<?php// оголошуємо класclass WidgetFactory{ var $oink = 'moo';}// оголошуємо спадкоємцяclass WidgetFactory_Child extends WidgetFactory{ w| WFC = new WidgetFactory_Child();if (is_subclass_of($WFC, 'WidgetFactory')) {  echo "так, \$WFC успадковує WidgetFactory
-";} else {  echo "ні, \$WFC не успадковує WidgetFactory
-";}if(is_subclass_of($WF, 'WidgetFactory')) {  echo "так, \$WF успадковує WidgetFactory
-";} else {  echo "ні, \$WF не успадковує WidgetFactory
-";}if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {  echo ""так, WidgetFactory_Child успадковує WidgetFactory
-";} else {  echo "ні, WidgetFactory_Child не успадковує WidgetFactory
-";}?> `
+```php
+<?php
+// объявляем класс
+class WidgetFactory
+{
+  var $oink = 'moo';
+}
+
+// объявляем наследника
+class WidgetFactory_Child extends WidgetFactory
+{
+  var $oink = 'oink';
+}
+
+// создаём новый объект
+$WF = new WidgetFactory();
+$WFC = new WidgetFactory_Child();
+
+if (is_subclass_of($WFC, 'WidgetFactory')) {
+  echo "да, \$WFC наследует WidgetFactory\n";
+} else {
+  echo "нет, \$WFC не наследует WidgetFactory\n";
+}
+
+
+if (is_subclass_of($WF, 'WidgetFactory')) {
+  echo "да, \$WF наследует WidgetFactory\n";
+} else {
+  echo "нет, \$WF не наследует WidgetFactory\n";
+}
+
+if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
+  echo "да, WidgetFactory_Child наследует WidgetFactory\n";
+} else {
+  echo "нет, WidgetFactory_Child не наследует WidgetFactory\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-так, $WFC успадковує WidgetFactory
-ні, $WF не успадковує WidgetFactory
-так, WidgetFactory_Child успадковує WidgetFactory
+```
+да, $WFC наследует WidgetFactory
+нет, $WF не наследует WidgetFactory
+да, WidgetFactory_Child наследует WidgetFactory
+```
 
-**Приклад #2 Приклад використання **is_subclass_of()** з інтерфейсами**
+**Приклад #2 Приклад використання **ісsubclassof()** з інтерфейсами**
 
-`<?php// Визначаємо інтерфейсinterface MyInterface{  public function MyFunction();}// Визначаємо класс з реалізацією інтерфейсуclass MyClass implements MyInterface{ MyFunction }}// Створюємо об'єкт $ my_object = MyClass; MyInterface
-";} else {  echo "Ні, \$my_object не є підкласом MyInterface
-";}// Перевірка з допомогою імені класу у виді рядкиif (is_subclass_of('MyClass', 'MyInterface')) { echo "Так, MyClass є підкласом 
-";} else {  echo "Ні, MyClass не є підкласом MyInterface
-";}?> `
+```php
+<?php
+// Определяем интерфейс
+interface MyInterface
+{
+  public function MyFunction();
+}
+
+// Определяем класс с реализацией интерфейса
+class MyClass implements MyInterface
+{
+  public function MyFunction()
+  {
+    return "MyClass реализует MyInterface!";
+  }
+}
+
+// Создаём объект
+$my_object = new MyClass;
+
+// Код ниже работает с PHP 5.3.7
+
+// Проверка с помощью экземпляра объекта
+if (is_subclass_of($my_object, 'MyInterface')) {
+  echo "Да, \$my_object является подклассом MyInterface\n";
+} else {
+  echo "Нет, \$my_object не является подклассом MyInterface\n";
+}
+
+// Проверка с помощью имени класса в виде строки
+if (is_subclass_of('MyClass', 'MyInterface')) {
+  echo "Да, MyClass является подклассом MyInterface\n";
+} else {
+  echo "Нет, MyClass не является подклассом MyInterface\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Так, $my_object є підкласом MyInterface
-Так, MyClass є підкласом MyInterface
+```
+Да, $my_object является подклассом MyInterface
+Да, MyClass является подклассом MyInterface
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Виклик цієї функції використовуватиме всі зареєстровані [функції > автозавантаження](language.oop5.autoload.md), якщо клас ще не
-> відомий.
+> **Зауваження**
+> 
+> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.html)якщо клас ще не відомий.
 
 ### Дивіться також
 
-- [get_class()](function.get-class.md) - Повертає ім'я класу, до
-якому належить об'єкт
-- [get_parent_class()](function.get-parent-class.md) - Повертає
-ім'я батьківського класу для об'єкта чи класу
-- [is_a()](function.is-a.md) - Перевіряє, чи об'єкт належить до
-даному класу чи є цей клас одним з його батьків
-- [class_parents()](function.class-parents.md) - Повертає список
-батьківських класів заданого класу
+-   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [is\_a()](function.is-a.html) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
+-   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу

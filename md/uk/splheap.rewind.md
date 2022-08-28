@@ -1,23 +1,29 @@
-- [« SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.md)
-- [SplHeap::top »](splheap.top.md)
+Переклад ітератора на початок
 
-- [PHP Manual](index.md)
-- [SplHeap](class.splheap.md)
-- Переведення ітератора на початок
+-   [« SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.html)
+    
+-   [SplHeap::top »](splheap.top.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplHeap](class.splheap.html)
+    
+-   Переклад ітератора на початок
+    
 
 # SplHeap::rewind
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplHeap::rewind — Переклад ітератора на початок
 
 ### Опис
 
-public **SplHeap::rewind**(): void
+```methodsynopsis
+public SplHeap::rewind(): void
+```
 
-Метод перекладає ітератор початку купи. Насправді ітератор є
-віртуальним і нікуди не рухається з вершини купи. Так що жодних
-операцій над даними цей спосіб не робить.
+Метод перекладає ітератор початку купи. Насправді, ітератор є віртуальним і нікуди не рухається з вершини купи. Отже, жодних операцій над даними цей метод не здійснює.
 
 ### Список параметрів
 

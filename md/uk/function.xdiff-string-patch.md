@@ -1,69 +1,81 @@
-- [« xdiff_string_patch_binary](function.xdiff-string-patch-binary.md)
-- [xdiff_string_rabdiff »](function.xdiff-string-rabdiff.md)
+Застосувати звичайний патч до рядка
 
-- [PHP Manual](index.md)
-- [Функції xdiff](ref.xdiff.md)
-- Застосувати звичайний патч до рядка
+-   [« xdiff\_string\_patch\_binary](function.xdiff-string-patch-binary.html)
+    
+-   [xdiff\_string\_rabdiff »](function.xdiff-string-rabdiff.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции xdiff](ref.xdiff.html)
+    
+-   Застосувати звичайний патч до рядка
+    
 
-#xdiff_string_patch
+# xdiffstringpatch
 
-(PECL xdiff \>= 0.2.0)
+(PECL xdiff >= 0.2.0)
 
-xdiff_string_patch — Застосувати звичайний патч до рядка
+xdiffstringpatch — Застосувати звичайний патч до рядка
 
 ### Опис
 
-**xdiff_string_patch**(
-string `$str`,
-string `$patch`,
-int `$flags` = ?,
-string `&$error` = ?
-): string
+```methodsynopsis
+xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    string &$error = ?): string
+```
 
-Застосовує до рядка `str` звичайний патч `patch` та повертає результат.
-`patch` має бути звичайним патчем, створеним за допомогою функцій
-[xdiff_file_diff()](function.xdiff-file-diff.md) або
-[xdiff_string_diff()](function.xdiff-string-diff.md). Опціональний
-параметр `flags` задає режим операції Усі відкинуті частини патчу
-будуть записані в змінну `error`.
+Застосовує до рядка `str` звичайний патч `patch` та повертає результат . `patch` має бути звичайним патчем, створеним за допомогою функцій [xdiff\_file\_diff()](function.xdiff-file-diff.html) або [xdiff\_string\_diff()](function.xdiff-string-diff.html). Опціональний параметр `flags` задає режим операції. Усі відкинуті частини патчу будуть записані у змінну `error`
 
 ### Список параметрів
 
 `str`
+
 Оригінальний рядок.
 
 `patch`
-Стандартний патч. Повинен бути створений функціями
-[xdiff_string_diff()](function.xdiff-string-diff.md), або
-[xdiff_file_diff()](function.xdiff-file-diff.md), або за допомогою
-інструменти, що створюють сумісні патчі.
+
+Стандартний патч. Повинен бути створений функціями [xdiff\_string\_diff()](function.xdiff-string-diff.html), або [xdiff\_file\_diff()](function.xdiff-file-diff.html)або за допомогою інструментів, що створюють сумісні патчі.
 
 `flags`
-`flags` може бути **`XDIFF_PATCH_NORMAL`** (режим за замовчуванням,
-нормальний патч) або **`XDIFF_PATCH_REVERSE`** (реверсивний патч).
 
-Починаючи з версії 1.5.0, можна використовувати бінарне АБО для додавання
-прапора **`XDIFF_PATCH_IGNORESPACE`**.
+`flags` може бути **`XDIFF_PATCH_NORMAL`** (режим за замовчуванням, нормальний патч) або **`XDIFF_PATCH_REVERSE`** (Реверсивний патч).
+
+Починаючи з версії 1.5.0, можна використовувати бінарне АБО для додавання прапора. **`XDIFF_PATCH_IGNORESPACE`**
 
 `error`
-Якщо заданий, то цю змінну будуть записані всі відкинуті частини
-патча.
+
+Якщо заданий, то цю змінну будуть записані всі відкинуті частини патча.
 
 ### Значення, що повертаються
 
-Повертає рядок або **`false`** у разі виникнення помилки.
+Повертає рядок, або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiff_string_patch()****
+**Приклад #1 Приклад використання **xdiffstringpatch()****
 
 Наступний код застосовує патч до статті.
 
-` <?php$old_article = file_get_contents('./old_article.txt');$diff = $_SERVER['patch']; /* Допустимо хтось відправив патч через html-форму */$errors = '';$new_article = xdiff_string_patch($old_article, $diff, XDIFF_PATCH_NORMAL, $                  :
-";   echo $new_article;}if (strlen($errors)) {   echo "Відхилено:
-";   echo $errors;}?> `
+```php
+<?php
+$old_article = file_get_contents('./old_article.txt');
+$diff = $_SERVER['patch']; /* Допустим кто-то отправил патч через html-форму */
+
+$errors = '';
+
+$new_article = xdiff_string_patch($old_article, $diff, XDIFF_PATCH_NORMAL, $errors);
+if (is_string($new_article)) {
+    echo "Новая статья:\n";
+    echo $new_article;
+}
+
+if (strlen($errors)) {
+    echo "Отклонены: \n";
+    echo $errors;
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [xdiff_string_diff()](function.xdiff-string-diff.md) - Створити
-звичайний патч для двох рядків
+-   [xdiff\_string\_diff()](function.xdiff-string-diff.html) - Створити звичайний патч для двох рядків

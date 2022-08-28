@@ -1,24 +1,29 @@
-- [« MongoDB \ BSON \ Int64](class.mongodb-bson-int64.md)
-- [MongoDB\BSON\Int64::jsonSerialize »](mongodb-bson-int64.jsonserialize.md)
+Створює новий Int64 (не використовується)
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
-- Створює новий Int64 (не використовується)
+-   [« MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html)
+    
+-   [MongoDB\\BSON\\Int64::jsonSerialize »](mongodb-bson-int64.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html)
+    
+-   Створює новий Int64 (не використовується)
+    
 
-# MongoDB\BSON\Int64::\_\_construct
+# MongoDBBSONInt64::construct
 
-(mongodb \>=1.5.0)
+(mongodb >=1.5.0)
 
-MongoDB\BSON\Int64::\_\_construct - Створює новий Int64 (не
-використовується)
+MongoDBBSONInt64::construct — Створює новий Int64 (не використовується)
 
 ### Опис
 
-final private **MongoDB\BSON\Int64::\_\_construct**()
+```methodsynopsis
+final private MongoDB\BSON\Int64::__construct()
+```
 
-[MongoDB\BSON\Int64](class.mongodb-bson-int64.md) об'єкти створюються
-шляхом перетворення з 64-розрядного цілого типу BSON на
-32-розрядна платформа і не може бути створена безпосередньо.
+[MongoDB\\BSON\\Int64](class.mongodb-bson-int64.html) об'єкти створюються шляхом перетворення з 64-розрядного цілого типу BSON на 32-розрядній платформі і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 
@@ -26,4 +31,4 @@ final private **MongoDB\BSON\Int64::\_\_construct**()
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

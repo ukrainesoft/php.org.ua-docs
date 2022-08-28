@@ -1,28 +1,34 @@
-- [«acosh](function.acosh.md)
-- [asinh »](function.asinh.md)
+Арксинус
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Арксінус
+-   [« acosh](function.acosh.html)
+    
+-   [asinh »](function.asinh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Арксинус
+    
 
 # asin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-asin — Арксинус
+asin - Арксинус
 
 ### Опис
 
-**asin**(float `$num`): float
+```methodsynopsis
+asin(float $num): float
+```
 
-Повертає арксинус числа 'num' у радіанах. **asin()** - зворотна
-тригонометрична функція до [sin()](function.sin.md), тобто
-`a==sin(asin(a))` для кожного значення a, що входить в область значень
-функції **asin()**.
+Повертає арксинус числа `num` у радіанах . **asin()** - зворотна тригонометрична функція до [sin()](function.sin.html), тобто `a==sin(asin(a))` для кожного значення a, що входить у область значень функції **asin()**
 
 ### Список параметрів
 
 `num`
+
 Аргумент функції
 
 ### Значення, що повертаються
@@ -31,7 +37,7 @@ asin — Арксинус
 
 ### Дивіться також
 
-- [sin()](function.sin.md) - Сінус
-- [asinh()](function.asinh.md) - Гіперболічний арксинус
-- [acos()](function.acos.md) - Арккосінус
-- [atan()](function.atan.md) - Арктангенс
+-   [sin()](function.sin.html) - Сінус
+-   [asinh()](function.asinh.html) - гіперболічний арксинус
+-   [acos()](function.acos.html) - Арккосінус
+-   [atan()](function.atan.html) - Арктангенс

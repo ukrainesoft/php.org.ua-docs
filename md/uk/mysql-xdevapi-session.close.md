@@ -1,9 +1,15 @@
-- [«mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- [Session::commit »](mysql-xdevapi-session.commit.md)
+Закриває сесію
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Закриває сесію
+-   [« mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   [Session::commit »](mysql-xdevapi-session.commit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Закриває сесію
+    
 
 # Session::close
 
@@ -13,7 +19,9 @@ Session::close — Закриває сесію
 
 ### Опис
 
-public **mysql_xdevapi\Session::close**(): bool
+```methodsynopsis
+public mysql_xdevapi\Session::close(): bool
+```
 
 Закриває сесію із сервером.
 
@@ -23,10 +31,18 @@ public **mysql_xdevapi\Session::close**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо сесія закрита.
+**`true`**якщо сесія закрита.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysql_xdevapi\Session::close()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::close()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$session->close(); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$session->close();
+```

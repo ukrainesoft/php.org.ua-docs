@@ -1,16 +1,22 @@
-- [«Вступ](intro.win32service.md)
-- [Вимоги »](win32service.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [win32service](book.win32service.md)
+-   [« Введение](intro.win32service.html)
+    
+-   [Требования »](win32service.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [win32service](book.win32service.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](win32service.requirements.md)
-- [Установка](win32service.installation.md)
-- [Налаштування під час виконання](win32service.configuration.md)
-- [Типи ресурсів](win32service.resources.md)
-- [Питання безпеки](win32service.security.md)
+-   [Требования](win32service.requirements.html)
+-   [Установка](win32service.installation.html)
+-   [Настройка во время выполнения](win32service.configuration.html)
+-   [Типы ресурсов](win32service.resources.html)
+-   [Вопросы безопасности](win32service.security.html)

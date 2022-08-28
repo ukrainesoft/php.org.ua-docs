@@ -1,56 +1,63 @@
-- [« pspell_config_ignore](function.pspell-config-ignore.md)
-- [pspell_config_personal »](function.pspell-config-personal.md)
+Змінює режим кількості варіантів виправлення, що повертаються.
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Змінює режим кількості варіантів виправлення, що повертаються.
+-   [« pspell\_config\_ignore](function.pspell-config-ignore.html)
+    
+-   [pspell\_config\_personal »](function.pspell-config-personal.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Змінює режим кількості варіантів виправлення, що повертаються.
+    
 
-#pspell_config_mode
+# pspellconfigmode
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_config_mode — Змінює режим кількості варіантів, що повертаються.
-виправлення
+pspellconfigmode — Змінює режим кількості варіантів виправлення, що повертаються.
 
 ### Опис
 
-**pspell_config_mode**([PSpell\Config](class.pspell-config.md)
-`$config`, int `$mode`): bool
+```methodsynopsis
+pspell_config_mode(PSpell\Config $config, int $mode): bool
+```
 
-**pspell_config_mode()** має бути використана для конфігурації до
-виклику [pspell_new_config()](function.pspell-new-config.md). Ця
-функція визначає, скільки варіантів виправлення буде повертати
-функція [pspell_suggest()](function.pspell-suggest.md).
+**pspellconfigmode()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspell\_suggest()](function.pspell-suggest.html)
 
 ### Список параметрів
 
 `config`
-Примірник [PSpell\Config](class.pspell-config.md).
+
+Екземпляр [PSpell\\Config](class.pspell-config.html)
 
 `mode`
-Параметр mode - це режим, у якому працюватиме перевірка орфографії.
-Доступно кілька режимів:
 
-- **`PSPELL_FAST`** - Швидкий режим (найменше варіантів
-виправлення)
-- **`PSPELL_NORMAL`** - Нормальний режим (більше варіантів
-виправлення)
-- **`PSPELL_BAD_SPELLERS`** - Повільний режим (багато варіантів
-виправлення)
+Параметр mode - це режим, у якому працюватиме перевірка орфографії. Доступно кілька режимів:
+
+-   **`PSPELL_FAST`** - Швидкий режим (найменше варіантів виправлення)
+-   **`PSPELL_NORMAL`** - Нормальний режим (більше варіантів виправлення)
+-   **`PSPELL_BAD_SPELLERS`** - Повільний режим (багато варіантів виправлення)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_config_mode()****
+**Приклад #1 Приклад використання **pspellconfigmode()****
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_mode($pspell_config, PSPELL_FAST);$pspell = pspell_new_config($pspell_config);pspell_check($pspell, >"
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_mode($pspell_config, PSPELL_FAST);
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "thecat");
+?>
+```

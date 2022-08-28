@@ -1,30 +1,38 @@
-- [« ibase_backup](function.ibase-backup.md)
-- [ibase_blob_cancel »](function.ibase-blob-cancel.md)
+Додає дані до новоствореного BLOB-об'єкту
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Додає дані у новостворений BLOB-об'єкт
+-   [« ibase\_backup](function.ibase-backup.html)
+    
+-   [ibase\_blob\_cancel »](function.ibase-blob-cancel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Додає дані до новоствореного BLOB-об'єкту
+    
 
-# ibase_blob_add
+# ibaseblobadd
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_blob_add — Додає дані до новоствореного BLOB-об'єкту
+ibaseblobadd — Додає дані до новоствореного BLOB-об'єкта
 
 ### Опис
 
-**ibase_blob_add**(resource `$blob_handle`, string `$data`): void
+```methodsynopsis
+ibase_blob_add(resource $blob_handle, string $data): void
+```
 
-**ibase_blob_add()** додає дані в BLOB-об'єкт, створений за допомогою
-[ibase_blob_create()](function.ibase-blob-create.md).
+**ibaseblobadd()** додає дані в BLOB-об'єкт, створений за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html)
 
 ### Список параметрів
 
 `blob_handle`
-Дескриптор BLOB-об'єкта, відкритого за допомогою
-[ibase_blob_create()](function.ibase-blob-create.md).
+
+Дескриптор BLOB-об'єкта, відкритого за допомогою [ibase\_blob\_create()](function.ibase-blob-create.html)
 
 `data`
+
 Дані для додавання.
 
 ### Значення, що повертаються
@@ -33,11 +41,7 @@ ibase_blob_add — Додає дані до новоствореного BLOB-о
 
 ### Дивіться також
 
-- [ibase_blob_cancel()](function.ibase-blob-cancel.md) - Скасує
-створення BLOB-об'єкта
-- [ibase_blob_close()](function.ibase-blob-close.md) - Закриває
-BLOB-об'єкт
-- [ibase_blob_create()](function.ibase-blob-create.md) - Створює
-новий BLOB-об'єкт для заповнення даними
-- [ibase_blob_import()](function.ibase-blob-import.md) - Створює
-BLOB-об'єкт, копіює файл і закриває його
+-   [ibase\_blob\_cancel()](function.ibase-blob-cancel.html) - Скасує створення BLOB-об'єкта
+-   [ibase\_blob\_close()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
+-   [ibase\_blob\_create()](function.ibase-blob-create.html) - Створює новий BLOB-об'єкт для заповнення даними
+-   [ibase\_blob\_import()](function.ibase-blob-import.html) - Створює BLOB-об'єкт, копіює файл і закриває його.

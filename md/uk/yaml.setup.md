@@ -1,15 +1,21 @@
-- [«Вступ](intro.yaml.md)
-- [Вимоги »](yaml.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Yaml](book.yaml.md)
+-   [« Введение](intro.yaml.html)
+    
+-   [Требования »](yaml.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaml](book.yaml.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](yaml.requirements.md)
-- [Установка](yaml.installation.md)
-- [Налаштування під час виконання](yaml.configuration.md)
-- [Типи ресурсів](yaml.resources.md)
+-   [Требования](yaml.requirements.html)
+-   [Установка](yaml.installation.html)
+-   [Настройка во время выполнения](yaml.configuration.html)
+-   [Типы ресурсов](yaml.resources.html)

@@ -1,9 +1,15 @@
-- [«nl_langinfo](function.nl-langinfo.md)
-- [number_format »](function.number-format.md)
+Вставляє HTML код розриву рядка перед кожним перекладом рядка
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Вставляє HTML-код розриву рядка перед кожним перекладом рядка
+-   [« nl\_langinfo](function.nl-langinfo.html)
+    
+-   [number\_format »](function.number-format.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Вставляє HTML код розриву рядка перед кожним перекладом рядка
+    
 
 # nl2br
 
@@ -13,22 +19,20 @@ nl2br — Вставляє HTML код розриву рядка перед ко
 
 ### Опис
 
-**nl2br**(string `$string`, bool `$use_xhtml` = **`true`**): string
+```methodsynopsis
+nl2br(string $string, bool $use_xhtml = true): string
+```
 
-Повертає рядок `string`, в якому перед кожним перекладом рядка
-(``
-`,`
-
-`,`
-`і`
-`) вставлено `<br />` або `<br>`.
+Повертає рядок `string`, в якій перед кожним перекладом рядка (`\r\n` `\n\r` `\n` і `\r`) вставлений `<br />` або `<br>`
 
 ### Список параметрів
 
 `string`
+
 Вхідний рядок.
 
 `use_xhtml`
+
 Чи використовувати сумісні з XHTML переклади рядків чи ні.
 
 ### Значення, що повертаються
@@ -39,48 +43,55 @@ nl2br — Вставляє HTML код розриву рядка перед ко
 
 **Приклад #1 Приклад використання **nl2br()****
 
-` <?phpecho nl2br("foo - це вам не
-bar");?> `
+```php
+<?php
+echo nl2br("foo - это вам не\n bar");
+?>
+```
 
 Результат виконання цього прикладу:
 
-foo - це вам не<br />
-bar
+```
+foo - это вам не<br />
+ bar
+```
 
-**Приклад #2 Генерування коректної HTML-верстки за допомогою параметра
-`use_xhtml`**
+**Приклад #2 Генерування коректної HTML-верстки за допомогою параметра `use_xhtml`**
 
-` <?phpecho nl2br("Привіт!
-Цією мій HTML-документ", false);?> `
-
-Результат виконання цього прикладу:
-
-Привіт!
-Цей мій HTML-документ
-
-**Приклад #3 Рі=оздільники рядків**
-
-` <?php$string = "This
-is
-
-a
-string
-";echo nl2br($string);?> `
+```php
+<?php
+echo nl2br("Привет!\r\nЭтой мой HTML-документ", false);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
+Привет!<br>
+Этой мой HTML-документ
+```
+
+**Приклад #3 Різні роздільники рядків**
+
+```php
+<?php
+$string = "This\r\nis\n\ra\nstring\r";
+echo nl2br($string);
+?>
+```
+
+Результат виконання цього прикладу:
+
+```
 This<br />
 is<br />
 a<br />
 string<br />
+```
 
 ### Дивіться також
 
-- [htmlspecialchars()](function.mdspecialchars.md) - Перетворює
-спеціальні символи в HTML-сутності
-- [htmlentities()](function.mdentities.md) - Перетворює всі
-можливі символи у відповідні HTML-сутності
-- [wordwrap()](function.wordwrap.md) - Переносить рядок по
-вказаній кількості символів
-- [str_replace()](function.str-replace.md) - Замінює всі входження
-рядки пошуку на рядок заміни
+-   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
+-   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [wordwrap()](function.wordwrap.html) - Переносить рядок за вказаною кількістю символів
+-   [str\_replace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни

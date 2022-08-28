@@ -1,27 +1,34 @@
-- [« Ds\Stack::pop](ds-stack.pop.md)
-- [Ds\Stack::toArray »](ds-stack.toarray.md)
+Додає значення у стек
 
-- [PHP Manual](index.md)
-- [Стек](class.ds-stack.md)
-- Додає значення у стек
+-   [« Ds\\Stack::pop](ds-stack.pop.html)
+    
+-   [Ds\\Stack::toArray »](ds-stack.toarray.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Стек](class.ds-stack.html)
+    
+-   Додає значення у стек
+    
 
-# Ds\Stack::push
+# ДсStack::push
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Stack::push — Додає значення до стек
+ДсStack::push — Додає значення до стек
 
 ### Опис
 
-public
-**Ds\Stack::push**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+public Ds\Stack::push(mixed ...$values): void
+```
 
 Додає значення `values` у стек
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
 ### Значення, що повертаються
@@ -30,18 +37,31 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Stack::push()****
+**Приклад #1 Приклад використання **ДсStack::push()****
 
-` <?php$stack = new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c", "d" );$stack->push(...["e", "f"]);print_r($stack);?> `
+```php
+<?php
+$stack = new \Ds\Stack();
+
+$stack->push("a");
+$stack->push("b");
+$stack->push("c", "d");
+$stack->push(...["e", "f"]);
+
+print_r($stack);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Stack Object
 (
-[0] => a
-[1] => b
-[2] => c
-[3] => d
-[4] => e
-[5] => f
+    [0] => a
+    [1] => b
+    [2] => c
+    [3] => d
+    [4] => e
+    [5] => f
 )
+```

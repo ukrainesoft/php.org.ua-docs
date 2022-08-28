@@ -1,22 +1,29 @@
-- [« Memcache::getStats](memcache.getstats.md)
-- [Memcache::increment »](memcache.increment.md)
+Повернути версію сервера
 
-- [PHP Manual](index.md)
-- [Memcache](class.memcache.md)
-- Повернути версію сервера
+-   [« Memcache::getStats](memcache.getstats.html)
+    
+-   [Memcache::increment »](memcache.increment.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcache](class.memcache.html)
+    
+-   Повернути версію сервера
+    
 
 # Memcache::getVersion
 
-(PECL memcache \>= 0.2.0)
+(PECL memcache >= 0.2.0)
 
 Memcache::getVersion — Повернути версію сервера
 
 ### Опис
 
-**Memcache::getVersion**(): string\|false
+```methodsynopsis
+Memcache::getVersion(): string|false
+```
 
-**Memcache::getVersion()** повертає рядок із номером версії сервера.
-Також можна використовувати функцію **memcache_get_version()**.
+**Memcache::getVersion()** повертає рядок із номером версії сервера. Також можна використовувати функцію **memcachegetversion()**
 
 ### Список параметрів
 
@@ -24,18 +31,28 @@ Memcache::getVersion — Повернути версію сервера
 
 ### Значення, що повертаються
 
-Повертає рядок із номером версії сервера або **`false`** у разі
-виникнення помилки.
+Повертає рядок з номером версії сервера або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcache::getVersion()****
 
-` <?php/* об'єктно-орієнтоване API */$memcache = new Memcache;$memcache->connect('memcache_host', 11211);echo $memcache->getVersion()/em== ('memcache_host', 11211);echo memcache_get_version($memcache);?> `
+```php
+<?php
+
+/* объектно-ориентированное API */
+$memcache = new Memcache;
+$memcache->connect('memcache_host', 11211);
+echo $memcache->getVersion();
+
+/* процедурное API */
+$memcache = memcache_connect('memcache_host', 11211);
+echo memcache_get_version($memcache);
+
+?>
+```
 
 ### Дивіться також
 
-- [Memcache::getExtendedStats()](memcache.getextendedstats.md) -
-Отримати статистику з усіх серверів у пулі
-- [Memcache::getStats()](memcache.getstats.md) - Отримати статистику
-сервера
+-   [Memcache::getExtendedStats()](memcache.getextendedstats.html) - Отримати статистику з усіх серверів у пулі
+-   [Memcache::getStats()](memcache.getstats.html) - Отримати статистику сервера

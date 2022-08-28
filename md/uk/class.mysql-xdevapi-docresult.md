@@ -1,43 +1,51 @@
-- [« DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.md)
-- [DocResult::\_\_construct »](mysql-xdevapi-docresult.construct.md)
+Клас DocResult
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Клас DocResult
+-   [« DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.html)
+    
+-   [DocResult::\_\_construct »](mysql-xdevapi-docresult.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Клас DocResult
+    
 
 # Клас DocResult
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\DocResult** implements
-[mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md),
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public **fetchAll**(): array
 
-public **fetchOne**(): array
+    
+     
+      class mysql_xdevapi\DocResult
+     
 
-public **getWarnings**(): Array
+     implements 
+       mysql_xdevapi\BaseResult,  Traversable {
 
-public **getWarningsCount**(): int
 
-}
+    /* Методы */
+    
+  public fetchAll(): array
+public fetchOne(): array
+public getWarnings(): Array
+public getWarningsCount(): int
+
+   }
+```
 
 ## Зміст
 
-- [DocResult::\_\_construct](mysql-xdevapi-docresult.construct.md) -
-Конструктор DocResult
-- [DocResult::fetchAll](mysql-xdevapi-docresult.fetchall.md) -
-Отримати всі рядки
-- [DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.md) -
-Отримати один рядок
-- [DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.md) -
-Отримати попередження з останньої операції
-- [DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.md)
-— Отримати кількість попереджень із останньої операції
+-   [DocResult::\_\_construct](mysql-xdevapi-docresult.construct.html) - Конструктор DocResult
+-   [DocResult::fetchAll](mysql-xdevapi-docresult.fetchall.html) — Отримати всі рядки
+-   [DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.html) — Отримати один рядок
+-   [DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.html) — Отримати попередження з останньої операції
+-   [DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.html) — Отримати кількість попереджень із останньої операції

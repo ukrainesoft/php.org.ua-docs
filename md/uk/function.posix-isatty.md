@@ -1,41 +1,43 @@
-- [«posix_initgroups](function.posix-initgroups.md)
-- [posix_kill »](function.posix-kill.md)
+Чи визначає файловий дескриптор інтерактивним терміналом
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Визначає чи є файловий дескриптор інтерактивним терміналом
+-   [« posix\_initgroups](function.posix-initgroups.html)
+    
+-   [posix\_kill »](function.posix-kill.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Чи визначає файловий дескриптор інтерактивним терміналом
+    
 
-#posix_isatty
+# posixisatty
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_isatty — Визначає, чи є файловий дескриптор інтерактивним
-терміналом
+posixisatty — Визначає, чи є файловий дескриптор інтерактивним терміналом.
 
 ### Опис
 
-**posix_isatty**(resource\|int `$file_descriptor`): bool
+```methodsynopsis
+posix_isatty(resource|int $file_descriptor): bool
+```
 
-Визначає, чи є файловий дескриптор `file_descriptor` посиланням на
-валідний термінал
+Визначає, чи є файловий дескриптор. `file_descriptor` посиланням на валідний термінал.
 
 ### Список параметрів
 
 `fd`
-Файловий дескриптор, який очікується у вигляді ресурсу або ресурсу або
-цілого числа int. Під int мається на увазі файловий дескриптор, який
-можна передати безпосередньо до базового системного виклику.
+
+Файловий дескриптор, який очікується у вигляді ресурсу ресурсу або цілого числа int. Під int мається на увазі файловий дескриптор, який можна передати безпосередньо до базового системного виклику.
 
 У більшості випадків вам потрібно буде передавати файловий ресурс.
 
 ### Значення, що повертаються
 
-Повертає **`true`** якщо `file_descriptor` є відкритим файловим
-дескриптором, пов'язаним з терміналом та **`false`** в інших випадках.
+Повертає **`true`** якщо `file_descriptor` є відкритим файловим дескриптором, пов'язаним з терміналом та **`false`** в інших випадках.
 
 ### Дивіться також
 
-- [posix_ttyname()](function.posix-ttyname.md) - Визначає ім'я
-термінального пристрою
-- [stream_isatty()](function.stream-isatty.md) - Перевіряє, чи є
-чи потік TTY
+-   [posix\_ttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
+-   [stream\_isatty()](function.stream-isatty.html) - Перевіряє, чи є потік TTY

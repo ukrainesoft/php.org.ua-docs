@@ -1,35 +1,43 @@
-- [« Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md)
-- [Gmagick::setimagebordercolor »](gmagick.setimagebordercolor.md)
+Встановлює кольоровість зображення блакитною основною точкою
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює кольоровість зображення блакитною основною точкою
+-   [« Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.html)
+    
+-   [Gmagick::setimagebordercolor »](gmagick.setimagebordercolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює кольоровість зображення блакитною основною точкою
+    
 
 # Gmagick::setimageblueprimary
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::setimageblueprimary — Встановлює кольоровість зображення
-блакитний основний крапкою
+Gmagick::setimageblueprimary — Встановлює кольоровість зображення блакитною основною точкою
 
 ### Опис
 
-public **Gmagick::setimageblueprimary**(float `$x`, float `$y`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimageblueprimary(float $x, float $y): Gmagick
+```
 
 Встановлює кольоровість зображення блакитною основною точкою.
 
 ### Список параметрів
 
 `x`
+
 X-координата блакитної основної точки.
 
 `y`
-Y-координат блакитної основної точки.
+
+Y-координата блакитної основної точки.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,19 +1,27 @@
-- [« SplFileObject::fflush](splfileobject.fflush.md)
-- [SplFileObject::fgetcsv »](splfileobject.fgetcsv.md)
+Отримує символ із файлу
 
-- [PHP Manual](index.md)
-- [SplFileObject](class.splfileobject.md)
-- Отримує символ із файлу
+-   [« SplFileObject::fflush](splfileobject.fflush.html)
+    
+-   [SplFileObject::fgetcsv »](splfileobject.fgetcsv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileObject](class.splfileobject.html)
+    
+-   Отримує символ із файлу
+    
 
 # SplFileObject::fgetc
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgetc — Отримує символ із файлу
 
 ### Опис
 
-public **SplFileObject::fgetc**(): string\|false
+```methodsynopsis
+public SplFileObject::fgetc(): string|false
+```
 
 Отримує символ із файлу.
 
@@ -23,24 +31,25 @@ public **SplFileObject::fgetc**(): string\|false
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить один символ, прочитаний із файлу, або
-**`false`** при досягненні кінця файлу (EOF).
+Повертає рядок, що містить один символ, прочитаний із файлу, або **`false`** при досягненні кінця файлу (EOF).
 
 **Увага**
 
-Ця функція може повертати як логічне значення **`false`**, так і
-значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
-повертається цією функцією.
+Ця функція може повертати як логічне значення **`false`**так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fgetc()****
 
-` <?php$file = new SplFileObject('file.txt');while (false !== ($char = $file->fgetc())) {   echo "$char
-";}?> `
+```php
+<?php
+$file = new SplFileObject('file.txt');
+while (false !== ($char = $file->fgetc())) {
+    echo "$char\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [SplFileObject::fgets()](splfileobject.fgets.md) - Отримує рядок
-з файлу
+-   [SplFileObject::fgets()](splfileobject.fgets.html) - Отримує рядок із файлу

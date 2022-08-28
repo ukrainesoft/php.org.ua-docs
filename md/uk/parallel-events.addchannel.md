@@ -1,21 +1,25 @@
-- [« parallel\Events::setInput](parallel-events.setinput.md)
-- [parallel\Events::addFuture »](parallel-events.addfuture.md)
+Цілі
 
-- [PHP Manual](index.md)
-- [parallel\Events](class.parallel-events.md)
-- Цілі
+-   [« parallel\\Events::setInput](parallel-events.setinput.html)
+    
+-   [parallel\\Events::addFuture »](parallel-events.addfuture.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Events](class.parallel-events.html)
+    
+-   Цілі
+    
 
-# parallel\Events::addChannel
+# parallelEvents::addChannel
 
-(0.9.0)
-
-parallel\Events::addChannel — Цілі
+parallelEvents::addChannel — Цілі
 
 ### Опис
 
-public
-**parallel\Events::addChannel**([parallel\Channel](class.parallel-channel.md)
-`$channel`): void
+```methodsynopsis
+public parallel\Events::addChannel(parallel\Channel $channel): void
+```
 
 Стежить за подіями у заданому `channel`
 
@@ -23,5 +27,4 @@ public
 
 **Увага**
 
-Викидає parallel\Events\Error\Existence, якщо канал вже був
-додано.
+Викидає parallelEventsErrorExistence, якщо канал вже було додано.

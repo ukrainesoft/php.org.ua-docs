@@ -1,26 +1,31 @@
-- [«get_browser](function.get-browser.md)
-- [highlight_file »](function.highlight-file.md)
+Зупиняє роботу компілятора
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Зупиняє роботу компілятора
+-   [« get\_browser](function.get-browser.html)
+    
+-   [highlight\_file »](function.highlight-file.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разные функции](ref.misc.html)
+    
+-   Зупиняє роботу компілятора
+    
 
-#\_\_halt_compiler
+# haltcompiler
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-\_\_halt_compiler — Зупиняє роботу компілятора
+haltcompiler — Зупиняє роботу компілятора
 
 ### Опис
 
-**\_\_halt_compiler**(): void
+```methodsynopsis
+__halt_compiler(): void
+```
 
-Зупиняє роботу компілятора. Ця функція може бути корисна при
-введення даних у PHP-скрипти, наприклад, у файли установки.
+Зупиняє роботу компілятора. Ця функція може бути корисною при введенні даних у PHP-скрипти, наприклад, у файли установки.
 
-Початкова позиція даних у байтах може бути визначена константою
-**`__COMPILER_HALT_OFFSET__`**, яка може бути визначена, тільки
-якщо файл має функцію **\_\_halt_compiler()**.
+Початкова позиція даних у байтах може бути визначена константою **`__COMPILER_HALT_OFFSET__`**, яка може бути визначена, тільки якщо у файлі є функція **haltcompiler()**
 
 ### Список параметрів
 
@@ -32,12 +37,26 @@
 
 ### Приклади
 
-**Приклад #1 Приклад використання **\_\_halt_compiler()****
+**Приклад #1 Приклад використання **haltcompiler()****
 
-` <?php// відкрити вказаний файл$fp =fopen(__FILE__, 'r');// шукати в покажчику файла даніfseek($fp, __COMPILER_HALT_OFFSET__);_/ і зупиняє роботу скрипта__halt_compiler(); the installation data (eg. tar, gz, PHP, etc.) `
+```php
+<?php
+
+// открыть указанный файл
+$fp = fopen(__FILE__, 'r');
+
+// искать в указателе файла данные
+fseek($fp, __COMPILER_HALT_OFFSET__);
+
+// и вывести их
+var_dump(stream_get_contents($fp));
+
+// останавливает работу скрипта
+__halt_compiler(); the installation data (eg. tar, gz, PHP, etc.)
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція **\_\_halt_compiler()** може бути використана лише ззовні.
+> **Зауваження**
+> 
+> Функція **haltcompiler()** може бути використана лише ззовні.

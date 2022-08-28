@@ -1,39 +1,44 @@
-- [« swoole_async_set](function.swoole-async-set.md)
-- [swoole_async_writefile »](function.swoole-async-writefile.md)
+Асинхронний запис даних до потоку файлу
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Асинхронний запис даних у потік файлу
+-   [« swoole\_async\_set](function.swoole-async-set.html)
+    
+-   [swoole\_async\_writefile »](function.swoole-async-writefile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Асинхронний запис даних до потоку файлу
+    
 
-# swoole_async_write
+# swooleasyncwrite
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_async_write — Асинхронний запис даних до потоку файлу
+swooleasyncwrite — Асинхронний запис даних до потоку файлу
 
 ### Опис
 
-**swoole_async_write**(
-string `$filename`,
-string `$content`,
-int `$offset` = ?,
-[callable](language.types.callable.md) `$callback` = ?
-): bool
+```methodsynopsis
+swoole_async_write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): bool
+```
 
 ### Список параметрів
 
 `filename`
+
 Ім'я файлу, в який буде зроблено запис
 
 `content`
+
 Вміст, що записується у файл.
 
 `offset`
+
 Зміщення.
 
 `callback`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

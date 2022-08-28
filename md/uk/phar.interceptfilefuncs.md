@@ -1,33 +1,31 @@
-- [« Phar::hasMetadata](phar.hasmetadata.md)
-- [Phar::isBuffering »](phar.isbuffering.md)
+Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
 
-- [PHP Manual](index.md)
-- [Phar](class.phar.md)
-- Вказує phar перехоплювати fopen, file_get_contents, opendir і все
-stat-функції
+-   [« Phar::hasMetadata](phar.hasmetadata.html)
+    
+-   [Phar::isBuffering »](phar.isbuffering.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Phar](class.phar.html)
+    
+-   Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
+    
 
 # Phar::interceptFileFuncs
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-Phar::interceptFileFuncs — Вказує phar перехоплювати fopen,
-file_get_contents, opendir та всі stat-функції
+Phar::interceptFileFuncs — Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
 
 ### Опис
 
-final public static **Phar::interceptFileFuncs**(): void
+```methodsynopsis
+final public static Phar::interceptFileFuncs(): void
+```
 
-Вказує phar перехоплювати [fopen()](function.fopen.md),
-[readfile()](function.readfile.md),
-[file_get_contents()](function.file-get-contents.md),
-[opendir()](function.opendir.md) та всі stat-функції. Якщо якась
-з цих функцій буде викликано з phar-архіву з відносним шляхом, то
-виклик буде модифіковано для доступу до вмісту архіву. У випадку з
-абсолютними шляхами працюватимуть штатні функції доступу до файлової
-системі.
+Вказує phar перехоплювати [fopen()](function.fopen.html) [readfile()](function.readfile.html) [file\_get\_contents()](function.file-get-contents.html) [opendir()](function.opendir.html) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
 
-Ця функція дозволяє писати програми, що працюють не прив'язані до
-жорсткому диску.
+Ця функція дозволяє писати програми, які працюють не прив'язані до жорсткого диска.
 
 ### Список параметрів
 
@@ -39,18 +37,21 @@ No parameters.
 
 **Приклад #1 Приклад використання **Phar::interceptFileFuncs()****
 
-` <?phpPhar::interceptFileFuncs();include 'phar://' . __FILE__ . '/file.php';?> `
+```php
+<?php
+Phar::interceptFileFuncs();
+include 'phar://' . __FILE__ . '/file.php';
+?>
+```
 
-Припустимо, що у нас є `/path/to/myphar.phar` і в ньому містяться
-файли `file.php` та `file2.txt`. `file.php` містить такий код:
+Припустимо, що ми маємо `/path/to/myphar.phar` і в ньому містяться файли `file.php` і `file2.txt`. . `file.php` містить такий код:
 
 **Приклад #2 Приклад використання **Phar::interceptFileFuncs()****
 
-` <?phpecho file_get_contents('file2.txt');?> `
+```php
+<?php
+echo file_get_contents('file2.txt');
+?>
+```
 
-У звичайному режимі PHP шукатиме `file2.txt` у поточній директорії,
-є директорією запуску file.php, або поточною директорією в
-у разі використання командного рядка. **Phar::interceptFileFuncs()**
-вкаже PHP, що поточна директорія - це `phar:///path/to/myphar.phar/`
-і, наприклад, буде відкрито файл
-`phar:///path/to/myphar.phar/file2.txt`.
+У звичайному режимі PHP шукатиме `file2.txt` у поточній директорії, що є директорією запуску file.php, або поточною директорією у разі використання командного рядка . **Phar::interceptFileFuncs()** вкаже PHP, що поточна директорія - це `phar:///path/to/myphar.phar/` і, наприклад, буде відкритий файл `phar:///path/to/myphar.phar/file2.txt`

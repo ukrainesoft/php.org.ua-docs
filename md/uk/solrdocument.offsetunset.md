@@ -1,25 +1,34 @@
-- [«SolrDocument::offsetSet](solrdocument.offsetset.md)
-- [SolrDocument::reset »](solrdocument.reset.md)
+Видаляє поле
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Видаляє поле
+-   [« SolrDocument::offsetSet](solrdocument.offsetset.html)
+    
+-   [SolrDocument::reset »](solrdocument.reset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Видаляє поле
+    
 
 # SolrDocument::offsetUnset
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::offsetUnset — Видаляє поле
 
 ### Опис
 
-public **SolrDocument::offsetUnset**(string `$fieldName`): void
+```methodsynopsis
+public SolrDocument::offsetUnset(string $fieldName): void
+```
 
 Видаляє поле з документа.
 
 ### Список параметрів
 
 `fieldName`
+
 Назва поля.
 
 ### Значення, що повертаються

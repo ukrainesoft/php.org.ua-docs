@@ -1,47 +1,41 @@
-- [«$\_FILES](reserved.variables.files.md)
-- [$\_SESSION »](reserved.variables.session.md)
+Змінні HTTP-запиту
 
-- [PHP Manual](index.md)
-- [Предвизначені змінні](reserved.variables.md)
-- Змінні HTTP-запиту
+-   [« $\_FILES](reserved.variables.files.html)
+    
+-   [$\_SESSION »](reserved.variables.session.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые переменные](reserved.variables.html)
+    
+-   Змінні HTTP-запиту
+    
 
-# $\_REQUEST
+# REQUEST
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-$\_REQUEST - Змінні HTTP-запиту
+REQUEST — Змінні запити HTTP
 
 ### Опис
 
-Асоціативний масив (array), який за умовчанням містить дані
-змінних `$_GET`, `$_POST` та `$_COOKIE`.
+Асоціативний масив (array), який за умовчанням містить дані змінних [$\_GET](reserved.variables.get.html) [$\_POST](reserved.variables.post.html) і [$\_COOKIE](reserved.variables.cookies.html)
 
 ### Примітки
 
-> **Примітка**:
->
-> Це 'суперглобальна' або автоматична глобальна змінна. Це
-> просто означає, що вона є у всіх контекстах скрипта. Ні
-> необхідності виконувати **global $variable;** для доступу до неї всередині
-> методу чи функції.
+> **Зауваження**
+> 
+> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
-> **Примітка**:
->
-> Під час роботи в [командному рядку](features.commandline.md) змінні
-> [argv](reserved.variables.argv.md) та
-> [argc](reserved.variables.argc.md) *не* включаються до цього масиву -
-> вони є у масиві `$_SERVER`.
+> **Зауваження**
+> 
+> При роботі в [командной строке](features.commandline.html) змінні [argv](reserved.variables.argv.html) і [argc](reserved.variables.argc.html) *не* включаються до цього масиву - вони присутні в масиві [$\_SERVER](reserved.variables.server.html)
 
-> **Примітка**:
->
-> Змінні в масиві `$_REQUEST` передаються у скрипт за допомогою
-> методів GET, POST чи COOKIE, тому не можна довіряти, т.к. вони
-> можна змінити віддаленим користувачем. Їх наявність та порядок
-> додавання даних до відповідних масивів визначається директивою
-> конфігурації PHP [request_order](ini.core.md#ini.request-order) та
-> [variables_order](ini.core.md#ini.variables-order).
+> **Зауваження**
+> 
+> Змінні в масиві $REQUEST передаються в скрипт у вигляді методів GET, POST чи COOKIE, тому не можна довіряти, т.к. вони могли бути змінені віддаленим користувачем. Їх наявність та порядок додавання даних у відповідні масиви визначається директивою конфігурації PHP [request\_order](ini.core.html#ini.request-order) і [variables\_order](ini.core.html#ini.variables-order)
 
 ### Дивіться також
 
-- "[Робота із зовнішніми даними](language.variables.external.md)"
-- "[Фільтрування даних](book.filter.md)"
+-   "[Работа с внешними данными](language.variables.external.html)"
+-   "[Фильтрация данных](book.filter.html)"

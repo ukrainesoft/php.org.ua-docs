@@ -1,73 +1,98 @@
-- [«ftp_exec](function.ftp-exec.md)
-- [ftp_fput »](function.ftp-fput.md)
+Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Завантажує файл з FTP-сервера і зберігає його попередньо
-відкритому файлі
+-   [« ftp\_exec](function.ftp-exec.html)
+    
+-   [ftp\_fput »](function.ftp-fput.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Завантажує файл з FTP-сервера і зберігає його у попередньо відкритому файлі
+    
 
-#ftp_fget
+# ftpfget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftp_fget — Завантажує файл з FTP-сервера і зберігає його попередньо
-відкритому файлі
+ftpfget — Завантажує файл із FTP-сервера і зберігає його у попередньо відкритому файлі
 
 ### Опис
 
-**ftp_fget**(
-[FTP\Connection](class.ftp-connection.md) `$ftp`,
-resource `$stream`,
-string `$remote_filename`,
-int `$mode` = **`FTP_BINARY`**,
-int `$offset` = 0
-): bool
+```methodsynopsis
+ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+```
 
-**ftp_fget()** завантажує файл `remote_filename` з FTP-сервера та
-записує його у переданий файловий дескриптор.
+**ftpfget()** завантажує файл `remote_filename` з FTP-сервера та записує його в переданий файловий дескриптор.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `stream`
+
 Відкритий файловий дескриптор, у якому буде збережено дані.
 
 `remote_filename`
+
 Шлях до віддаленого файлу.
 
 `mode`
-Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**.
+
+Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**
 
 `offset`
+
 Позиція початку завантаження у віддаленому файлі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftp_fget()****
+**Приклад #1 Приклад використання **ftpfget()****
 
-`<?php//шлях до віддаленого файлу$remote_file = 'somefile.txt';$local_file = 'localfile.txt';// відкриваємо файл для запису$handle = fopen( ' з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і паролем$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass); $handle, $remote_file, FTP_ASCII, 0)) { echo "Зроблено запис в $local_file
-";} else { echo "При завантаженні $remote_file в $local_file відбулася проблема
-";}// закриття з'єднання і локального файлаftp_close($ftp);fclose($handle);?> `
+```php
+<?php
+
+// путь к удалённому файлу
+$remote_file = 'somefile.txt';
+$local_file = 'localfile.txt';
+
+// открываем файл для записи
+$handle = fopen($local_file, 'w');
+
+// установка соединения
+$ftp = ftp_connect($ftp_server);
+
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+
+// пытаемся скачать файл и сохранить его в $handle
+if (ftp_fget($ftp, $handle, $remote_file, FTP_ASCII, 0)) {
+ echo "Произведена запись в $local_file\n";
+} else {
+ echo "При скачивании $remote_file в $local_file произошла проблема\n";
+}
+
+// закрытие соединения и локального файла
+ftp_close($ftp);
+fclose($handle);
+?>
+```
 
 ### Дивіться також
 
-- [ftp_get()](function.ftp-get.md) - Завантажує файл із FTP-сервера
-- [ftp_nb_get()](function.ftp-nb-get.md) - Завантажує файл з
-FTP-сервера в асинхронному режимі та зберігає його у локальний файл
-- [ftp_nb_fget()](function.ftp-nb-fget.md) - Завантажує файл з
-FTP-сервера в асинхронному режимі і зберігає його попередньо
-відкритому файлі
+-   [ftp\_get()](function.ftp-get.html) - Завантажує файл із FTP-сервера
+-   [ftp\_nb\_get()](function.ftp-nb-get.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftp\_nb\_fget()](function.ftp-nb-fget.html) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі

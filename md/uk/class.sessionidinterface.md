@@ -1,36 +1,44 @@
-- [« SessionHandlerInterface::write](sessionhandlerinterface.write.md)
-- [SessionIdInterface::create_sid »](sessionidinterface.create-sid.md)
+Інтерфейс SessionIdInterface
 
-- [PHP Manual](index.md)
-- [Сесії](book.session.md)
-- Інтерфейс SessionIdInterface
+-   [« SessionHandlerInterface::write](sessionhandlerinterface.write.html)
+    
+-   [SessionIdInterface::create\_sid »](sessionidinterface.create-sid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сессии](book.session.html)
+    
+-   Інтерфейс SessionIdInterface
+    
 
 # Інтерфейс SessionIdInterface
 
-(PHP 5 \>= 5.5.1, PHP 7, PHP 8)
+(PHP 5> = 5.5.1, PHP 7, PHP 8)
 
 ## Вступ
 
-**SessionIdInterface** - це інтерфейс, який визначає
-необов'язкові методи для створення користувальницького обробника сесії.
-Для надання користувальницького обробника сесії функції
-[session_set_save_handler()](function.session-set-save-handler.md),
-використовуючи її ООП реалізацію, клас має реалізовувати цей інтерфейс.
+**SessionIdInterface** - це інтерфейс, який визначає необов'язкові методи для створення користувача сесії. Для надання користувальницького оброблювача сесії функції [session\_set\_save\_handler()](function.session-set-save-handler.html), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
-Зверніть увагу, що callback-методи цього класу створені для
-внутрішніх дзвінків PHP і не призначені для дзвінків з вашого коду.
+Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 
 ## Огляд інтерфейсів
 
-interface **SessionIdInterface** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [create_sid](sessionidinterface.create-sid.md)(): string
+    
+     
+      interface SessionIdInterface {
 
-}
+    /* Методы */
+    
+   public create_sid(): string
+
+   }
+```
 
 ## Зміст
 
-- [SessionIdInterface::create_sid](sessionidinterface.create-sid.md)
-- Створити ідентифікатор сесії
+-   [SessionIdInterface::create\_sid](sessionidinterface.create-sid.html) — Створити ідентифікатор сесії

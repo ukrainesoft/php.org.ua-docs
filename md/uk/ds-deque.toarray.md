@@ -1,24 +1,32 @@
-- [«Ds\Deque::sum](ds-deque.sum.md)
-- [Ds\Deque::unshift »](ds-deque.unshift.md)
+Перетворює двосторонню чергу на масив (array)
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Перетворює двосторонню чергу на масив (array)
+-   [« Ds\\Deque::sum](ds-deque.sum.html)
+    
+-   [Ds\\Deque::unshift »](ds-deque.unshift.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Перетворює двосторонню чергу на масив (array)
+    
 
-# Ds\Deque::toArray
+# ДсDeque::toArray
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::toArray — Перетворює двосторонню чергу на масив (array)
+ДсDeque::toArray — Перетворює двосторонню чергу на масив (array)
 
 ### Опис
 
-public **Ds\Deque::toArray**(): array
+```methodsynopsis
+public Ds\Deque::toArray(): array
+```
 
 Перетворює двосторонню чергу на масив (array).
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Приведення до типу array поки що не підтримується.
 
 ### Список параметрів
@@ -27,22 +35,29 @@ public **Ds\Deque::toArray**(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи двосторонньої черги з
-збереженням їхнього порядку.
+Масив (array), що містить всі елементи двосторонньої черги із збереженням їхнього порядку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::toArray()****
+**Приклад #1 Приклад використання **ДсDeque::toArray()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->toArray());?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+
+var_dump($deque->toArray());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

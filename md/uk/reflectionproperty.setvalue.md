@@ -1,9 +1,15 @@
-- [« ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md)
-- [ReflectionProperty::\_\_toString »](reflectionproperty.tostring.md)
+Встановлення значення якості
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Встановлення значення якості
+-   [« ReflectionProperty::setAccessible](reflectionproperty.setaccessible.html)
+    
+-   [ReflectionProperty::\_\_toString »](reflectionproperty.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Встановлення значення якості
+    
 
 # ReflectionProperty::setValue
 
@@ -13,24 +19,24 @@ ReflectionProperty::setValue — Встановлення значення вл�
 
 ### Опис
 
-public **ReflectionProperty::setValue**(object `$object`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public ReflectionProperty::setValue(object $object, mixed $value): void
+```
 
-public
-**ReflectionProperty::setValue**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public ReflectionProperty::setValue(mixed $value): void
+```
 
 Задає (змінює) значення якості.
 
 ### Список параметрів
 
 `object`
-Якщо властивість нестатична, необхідно передати об'єкт, властивість
-якому потрібно змінити. Якщо властивість статична, цей аргумент
-пропускається, і потрібно встановити тільки `value`.
+
+Якщо властивість нестатична, необхідно передати об'єкт, властивість якого потрібно змінити. Якщо властивість статична, цей аргумент пропускається, і потрібно задати лише `value`
 
 `value`
+
 Нове значення.
 
 ### Значення, що повертаються
@@ -39,29 +45,48 @@ public
 
 ### Помилки
 
-Викидає виняток
-[ReflectionException](class.reflectionexception.md), якщо властивість
-недоступне. Можна робити захищені та закриті властивості доступними з
-допомогою
-[ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md).
+Викидає виняток [ReflectionException](class.reflectionexception.html)якщо властивість недоступна. Можна робити захищені та закриті властивості доступними за допомогою [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionProperty::setValue()****
 
-`<?phpclass Foo {    public static $staticProperty; public $property; protected $privateProperty;}$reflectionClass = new ReflectionClass('Foo');$reflectionClass->getProperty('staticProperty')->setValue('foo');var_dump(Foo::$staticProperty);$foo $reflectionClass->getProperty('property')->setValue($foo, 'bar');var_dump($foo->property);$reflectionProperty = $reflectionClass->getProperty('privateProperty');$reflectionProperty->setAccess (true);$reflectionProperty->setValue($foo, 'foobar');var_dump($reflectionProperty->getValue($foo));?> `
+```php
+<?php
+class Foo {
+    public static $staticProperty;
+
+    public $property;
+    protected $privateProperty;
+}
+
+$reflectionClass = new ReflectionClass('Foo');
+
+$reflectionClass->getProperty('staticProperty')->setValue('foo');
+var_dump(Foo::$staticProperty);
+
+$foo = new Foo;
+
+$reflectionClass->getProperty('property')->setValue($foo, 'bar');
+var_dump($foo->property);
+
+$reflectionProperty = $reflectionClass->getProperty('privateProperty');
+$reflectionProperty->setAccessible(true);
+$reflectionProperty->setValue($foo, 'foobar');
+var_dump($reflectionProperty->getValue($foo));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "foo"
 string(3) "bar"
 string(6) "foobar"
+```
 
 ### Дивіться також
 
-- [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) -
-Отримує значення
-- [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md) -
-Робить властивість доступною
-- [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) -
-Встановлює значення статичної властивості
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення
+-   [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html) - Робить властивість доступною
+-   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості

@@ -1,35 +1,39 @@
-- [«fdf_header](function.fdf-header.md)
-- [fdf_open_string »](function.fdf-open-string.md)
+Отримує ім'я наступного поля
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Отримує ім'я наступного поля
+-   [« fdf\_header](function.fdf-header.html)
+    
+-   [fdf\_open\_string »](function.fdf-open-string.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Отримує ім'я наступного поля
+    
 
-#fdf_next_field_name
+# fdfnextfieldname
 
-(PHP 4, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdf_next_field_name — Отримує ім'я наступного поля
+fdfnextfieldname — Отримує ім'я наступного поля
 
 ### Опис
 
-**fdf_next_field_name**(resource `$fdf_document`, string `$fieldname` =
-?): string
+```methodsynopsis
+fdf_next_field_name(resource $fdf_document, string $fieldname = ?): string
+```
 
-Отримує назву поля після заданого поля. Це ім'я можна використати
-декількома функціями.
+Отримує назву поля після заданого поля. Це ім'я можна використовувати кількома функціями.
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
 
 `fieldname`
-Ім'я поля FDF у вигляді рядка. Якщо не вказано, використовуватиметься перше
-поле.
+
+Ім'я поля FDF у вигляді рядка. Якщо не вказано, використовуватиметься перше поле.
 
 ### Значення, що повертаються
 
@@ -39,10 +43,17 @@ fdf_next_field_name — Отримує ім'я наступного поля
 
 **Приклад #1 Виявлення всіх імен полів у FDF**
 
-`<?php$fdf = fdf_open($HTTP_FDF_DATA);for ($field = fdf_next_field_name($fdf);    $field != "";    $field = fdf|$|
-";}?> `
+```php
+<?php
+$fdf = fdf_open($HTTP_FDF_DATA);
+for ($field = fdf_next_field_name($fdf);
+    $field != "";
+    $field = fdf_next_field_name($fdf, $field)) {
+    echo "Поле: $field\n";
+}
+?>
+```
 
 ### Дивіться також
 
-- [fdf_get_value()](function.fdf-get-value.md) - Отримує значення
-поля
+-   [fdf\_get\_value()](function.fdf-get-value.html) - Отримує значення поля

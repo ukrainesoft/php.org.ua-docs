@@ -1,19 +1,28 @@
-- [«EventBase::free](eventbase.free.md)
-- [EventBase::getMethod »](eventbase.getmethod.md)
+Повертає бітову маску підтримуваних функцій
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Повертає бітову маску підтримуваних функцій
+-   [« EventBase::free](eventbase.free.html)
+    
+-   [EventBase::getMethod »](eventbase.getmethod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Повертає бітову маску підтримуваних функцій
+    
 
 # EventBase::getFeatures
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 EventBase::getFeatures — Повертає бітову маску підтримуваних функцій
 
 ### Опис
 
-public **EventBase::getFeatures**(): int
+```methodsynopsis
+public
+   EventBase::getFeatures(): int
+```
 
 Повертає бітову маску підтримуваних функцій
 
@@ -23,23 +32,31 @@ public **EventBase::getFeatures**(): int
 
 ### Значення, що повертаються
 
-Повертає бітову маску функцій, що підтримуються. Дивіться константи
-[EventConfig::FEATURE\_\*](class.eventconfig.md#eventconfig.constants)
-.
+Повертає бітову маску функцій, що підтримуються. Дивіться константи [EventConfig::FEATURE\_\*](class.eventconfig.html#eventconfig.constants)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **EventBase::getFeatures()****
 
-` <?php// Avoiding "select"
-";}$base = new EventBase($cfg);echo "Характеристики:
-";$features = $base->getFeatures();($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO
-");($features & EventConfig::FEATURE_O1) and print("O1 - O(1) operation for adding/deletting events
-");($features & EventConfig::FEATURE_FDS) and print("FDS - arbitrary file descriptor types, and not just sockets
-");?> `
+```php
+<?php
+// Avoiding "select" method
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
+}
+
+$base = new EventBase($cfg);
+
+echo "Характеристики:\n";
+$features = $base->getFeatures();
+($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO\n");
+($features & EventConfig::FEATURE_O1) and print("O1 - O(1) operation for adding/deletting events\n");
+($features & EventConfig::FEATURE_FDS) and print("FDS - arbitrary file descriptor types, and not just sockets\n");
+?>
+```
 
 ### Дивіться також
 
-- [EventBase::getMethod()](eventbase.getmethod.md) - Повертає
-використовуваний метод події
-- [EventConfig](class.eventconfig.md)
+-   [EventBase::getMethod()](eventbase.getmethod.html) - Повертає використовуваний метод події
+-   [EventConfig](class.eventconfig.html)

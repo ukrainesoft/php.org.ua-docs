@@ -1,94 +1,153 @@
-- [« IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md)
-- [IntlDateFormatter::setPattern »](intldateformatter.setpattern.md)
+Встановлює м'який режим аналізатора
 
-- [PHP Manual](index.md)
-- [IntlDateFormatter](class.intldateformatter.md)
-- Встановлює м'який режим аналізатора
+-   [« IntlDateFormatter::setCalendar](intldateformatter.setcalendar.html)
+    
+-   [IntlDateFormatter::setPattern »](intldateformatter.setpattern.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlDateFormatter](class.intldateformatter.html)
+    
+-   Встановлює м'який режим аналізатора
+    
 
 # IntlDateFormatter::setLenient
 
-# datefmt_set_lenient
+# datefmtsetlenient
 
-(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::setLenient -- datefmt_set_lenient — Встановлює
-м'який режим аналізатора
+IntlDateFormatter::setLenient -- datefmtsetlenient — Встановлює м'який режим аналізатора
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlDateFormatter::setLenient**(bool `$lenient`): void
+```methodsynopsis
+public IntlDateFormatter::setLenient(bool $lenient): void
+```
 
 Процедурний стиль
 
-**datefmt_set_lenient**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`, bool `$lenient`): void
+```methodsynopsis
+datefmt_set_lenient(IntlDateFormatter $formatter, bool $lenient): void
+```
 
-Визначає, чи є режим аналізатора строгим або м'яким при
-інтерпретації вхідних даних, які точно не відповідають
-шаблон. Увімкнення м'якого синтаксичного аналізу дозволяє
-синтаксичному аналізатору приймати помилкові шаблони дати або
-часу, аналізуючи якнайбільше для отримання значення. Зайвий
-пробіл, нерозпізнані токени або неприпустимі значення ("February
-30th") не приймаються.
+Визначає, чи є режим аналізатора строгим чи м'яким при інтерпретації вхідних даних, які точно не відповідають шаблону. Увімкнення м'якого синтаксичного аналізу дозволяє синтаксичному аналізатору приймати помилкові шаблони дати або часу, аналізуючи якнайбільше для отримання значення. Зайва пропуск, нерозпізнані токени або неприпустимі значення ("February 30th") не приймаються.
 
 ### Список параметрів
 
 `formatter`
+
 Ресурс засобу форматування.
 
 `lenient`
-Встановлює, чи є аналізатор vzurbv чи ні, за замовчуванням
-**`true`** (м'який).
+
+Встановлює, чи аналізатор vzurbv чи ні, за замовчуванням **`true`** (м'який).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmt_set_lenient()****
+**Приклад #1 Приклад використання **datefmtsetlenient()****
 
-` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'dd/MM/yyyy');echo 'Мягкий режим средства форматирования : ';if ($fmt->isLenient()) {   echo 'ТАК';} else {   echo 'НЕ''}datefmt_parse($fmt, '35/13/1971');echo 
-Спроба розібрати 35/13/1971.
-Результат : " . datefmt_parse($fmt, '35/13/1971');if (intl_get_error_code() != 0) {    echo "
-Повідомлення про помилка : " . intl_get_error_message();    echo "
-Код помилки : " . intl_get_error_code();}datefmt_set_lenient($fmt, false);echo "
-Тепер м'який режим засоби форматування : ";if ($fmt->isLenient()) {   echo 'ТАК';} else {   echo 'НЕТ';}datefmt_parse('3''
-Спроба розібрати 35/13/1971.
-Результат : " . datefmt_parse($fmt, '35/13/1971');if (intl_get_error_code() != 0) {    echo "
-Повідомлення про помилка : ".intl_get_error_message();    echo "
-Код помилки : ".intl_get_error_code();}?> `
+```php
+<?php
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'dd/MM/yyyy'
+);
+echo 'Мягкий режим средства форматирования : ';
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
+}
+datefmt_parse($fmt, '35/13/1971');
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . datefmt_parse($fmt, '35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : " . intl_get_error_message();
+    echo "\nКод ошибки : " . intl_get_error_code();
+}
+datefmt_set_lenient($fmt, false);
+echo "\nТеперь мягкий режим средства форматирования : ";
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
+}
+datefmt_parse($fmt, '35/13/1971');
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . datefmt_parse($fmt, '35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : ".intl_get_error_message();
+    echo "\nКод ошибки : ".intl_get_error_code();
+}
+
+?>
+```
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'dd/MM/yyyy');echo 'Мягкий режим средства форматирования : ';if ($fmt->isLenient()) {   echo 'ТАК';} else {   echo 'НЕМАЄ';}$fmt->parse('35/13/1971');echo "
-Спроба розібрати 35/13/1971.
-Результат : " . $fmt->parse('35/13/1971');if (intl_get_error_code() != 0) {    echo "
-Повідомлення про помилка : " . intl_get_error_message();    echo "
-Код помилки : " . intl_get_error_code();}$fmt->setLenient(FALSE);echo "
-Тепер м'який режим засоби форматування : ";if ($fmt->isLenient()) {   echo 'ТА''}}else {   echo 'НЕТ';}$fmt->1''
-Спроба розібрати 35/13/1971.
-Результат : " . $fmt->parse('35/13/1971');if (intl_get_error_code() != 0) {    echo "
-Повідомлення про помилка : " . intl_get_error_message();    echo "
-Код помилки : " . intl_get_error_code();}?> `
+```php
+<?php
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'dd/MM/yyyy'
+);
+echo 'Мягкий режим средства форматирования : ';
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
+}
+$fmt->parse('35/13/1971');
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . $fmt->parse('35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : " . intl_get_error_message();
+    echo "\nКод ошибки : " . intl_get_error_code();
+}
+
+$fmt->setLenient(FALSE);
+echo "\nТеперь мягкий режим средства форматирования : ";
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
+}
+$fmt->parse('35/13/1971');
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . $fmt->parse('35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : " . intl_get_error_message();
+    echo "\nКод ошибки : " . intl_get_error_code();
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-М'який режим засобу форматування: ТАК
-Спроба розібрати '35/13/1971'.
+```
+Мягкий режим средства форматирования : ДА
+Попытка разобрать '35/13/1971'.
 Результат : 66038400
-Тепер м'який режим форматування : НІ
-Спроба розібрати '35/13/1971'.
-Результат:
-Повідомлення про помилку : Date parsing failed: U_PARSE_ERROR
-Код помилки: 9
+Теперь мягкий режим средства форматирования : НЕТ
+Попытка разобрать '35/13/1971'.
+Результат :
+Сообщение об ошибке : Date parsing failed: U_PARSE_ERROR
+Код ошибки : 9
+```
 
 ### Дивіться також
 
-- [datefmt_is_lenient()](intldateformatter.islenient.md) - Отримує
-поблажливість, що використовується для IntlDateFormatter
-- [datefmt_create()](intldateformatter.create.md) - Створює засіб
-форматування дати
+-   [datefmt\_is\_lenient()](intldateformatter.islenient.html) - Отримує поблажливість, що використовується для IntlDateFormatter
+-   [datefmt\_create()](intldateformatter.create.html) - Створює засіб форматування дати

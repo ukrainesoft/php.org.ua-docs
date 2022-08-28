@@ -1,58 +1,78 @@
-- [« DivisionByZeroError](class.divisionbyzeroerror.md)
-- [ParseError »](class.parseerror.md)
+CompileError
 
-- [PHP Manual](index.md)
-- [Предвизначені винятки](reserved.exceptions.md)
-- CompileError
+-   [« DivisionByZeroError](class.divisionbyzeroerror.html)
+    
+-   [ParseError »](class.parseerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые исключения](reserved.exceptions.html)
+    
+-   CompileError
+    
 
-#CompileError
+# CompileError
 
-(PHP 7 \> 7.3.0, PHP 8)
+(PHP 7> 7.3.0, PHP 8)
 
 ## Вступ
 
-Виняток **CompileError** викидається за деяких помилок
-компіляції, які раніше видавали фатальну помилку.
+Виняток **CompileError** викидається при деяких помилках компіляції, які раніше видавали фатальну помилку.
 
 ## Огляд класів
 
-class **CompileError** extends [Error](class.error.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
+     
+    
 
-protected string `$message` = "";
+    
+     
+      class CompileError
+     
 
-private string `$string` = "";
+     
+      extends
+       Error
+     
+     {
 
-protected int `$code`;
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected string `$file` = "";
 
-protected int `$line`;
+    /* Наследуемые методы */
+    
+   final public Error::getMessage(): string
+final public Error::getPrevious(): ?Throwable
+final public Error::getCode(): int
+final public Error::getFile(): string
+final public Error::getLine(): int
+final public Error::getTrace(): array
+final public Error::getTraceAsString(): string
+public Error::__toString(): string
+private Error::__clone(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
-
-/\* Наслідувані методи \*/
-
-final public [Error::getMessage](error.getmessage.md)(): string
-
-final public [Error::getPrevious](error.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Error::getCode](error.getcode.md)(): int
-
-final public [Error::getFile](error.getfile.md)(): string
-
-final public [Error::getLine](error.getline.md)(): int
-
-final public [Error::getTrace](error.gettrace.md)(): array
-
-final public [Error::getTraceAsString](error.gettraceasstring.md)():
-string
-
-public [Error::\_\_toString](error.tostring.md)(): string
-
-private [Error::\_\_clone](error.clone.md)(): void
-
-}
+   }
+```

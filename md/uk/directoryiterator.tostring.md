@@ -1,22 +1,30 @@
-- [« DirectoryIterator::seek](directoryiterator.seek.md)
-- [DirectoryIterator::valid »](directoryiterator.valid.md)
+Повертає ім'я файлу у вигляді рядка
 
-- [PHP Manual](index.md)
-- [DirectoryIterator](class.directoryiterator.md)
-- Повертає ім'я файлу у вигляді рядка
+-   [« DirectoryIterator::seek](directoryiterator.seek.html)
+    
+-   [DirectoryIterator::valid »](directoryiterator.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DirectoryIterator](class.directoryiterator.html)
+    
+-   Повертає ім'я файлу у вигляді рядка
+    
 
-# DirectoryIterator::\_\_toString
+# DirectoryIterator::toString
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::\_\_toString — Повертає ім'я файлу у вигляді рядка
+DirectoryIterator::toString — Повертає ім'я файлу у вигляді рядка
 
 ### Опис
 
-public **DirectoryIterator::\_\_toString**(): string
+```methodsynopsis
+public
+   DirectoryIterator::__toString(): string
+```
 
-Повертає ім'я файлу поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.html)
 
 ### Список параметрів
 
@@ -24,30 +32,35 @@ public **DirectoryIterator::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу поточного елемента
-[DirectoryIterator](class.directoryiterator.md).
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::\_\_toString()****
+**Приклад #1 Приклад використання **DirectoryIterator::toString()****
 
-Приклад виведе список вмісту директорії, що містить виконуваний
-скрипт.
+Приклад виведе список вмісту директорії, що містить скрипт.
 
-` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    echo $fileinfo;}?> `
+```php
+<?php
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    echo $fileinfo;
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 .
 ..
 apple.jpg
 banana.jpg
 index.php
 pear.jpg
+```
 
 ### Дивіться також
 
-- [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) -
-Повертає ім'я файлу поточного елемента DirectoryIterator
-- магічний метод
-[\_\_toString()](language.oop5.magic.md#object.tostring)
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   Магічний метод [\_\_toString()](language.oop5.magic.html#object.tostring)

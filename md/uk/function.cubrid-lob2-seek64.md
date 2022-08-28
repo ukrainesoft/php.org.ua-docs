@@ -1,89 +1,106 @@
-- [«cubrid_lob2_read](function.cubrid-lob2-read.md)
-- [cubrid_lob2_seek »](function.cubrid-lob2-seek.md)
+Переміщує курсор LOB-об'єкта
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Переміщує курсор LOB-об'єкта
+-   [« cubrid\_lob2\_read](function.cubrid-lob2-read.html)
+    
+-   [cubrid\_lob2\_seek »](function.cubrid-lob2-seek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Переміщує курсор LOB-об'єкта
+    
 
-# cubrid_lob2_seek64
+# cubridlob2seek64
 
-(PECL CUBRID = 8.4.1)
+(PECL CUBRID >= 8.4.1)
 
-cubrid_lob2_seek64 - Переміщує курсор LOB-об'єкта
+cubridlob2seek64 - Переміщує курсор LOB-об'єкта
 
 ### Опис
 
-**cubrid_lob2_seek64**(resource `$lob_identifier`, string `$offset`, int
-`$origin` = CUBRID_CURSOR_CURRENT): bool
+```methodsynopsis
+cubrid_lob2_seek64(resource $lob_identifier, string $offset, int $origin = CUBRID_CURSOR_CURRENT): bool
+```
 
-Функція **cubrid_lob2_seek64()** використовується для переміщення позиції
-курсора LOB-об'єкта на значення, задане в параметрі `offset`,
-напрямі, заданому в параметрі `origin`. Якщо значення параметра
-`offset` більше, ніж можна зберегти цілі дані, ви можете
-використовувати цю функцію.
+Функція **cubridlob2seek64()** використовується для переміщення позиції курсора LOB-об'єкта на значення, задане у параметрі `offset`, у напрямку, заданому у параметрі `origin`. Якщо значення параметра `offset` більше, ніж можна зберегти цілі дані, ви можете використовувати цю функцію.
 
-Щоб встановити параметр `origin`, ви можете використати
-**`CUBRID_CURSOR_FIRST`**, щоб встановити позицію курсора,
-що переміщується вперед на `offset` одиниць від початку LOB-об'єкта. В цьому
-у разі параметр `offset` має бути позитивним значенням.
+Щоб встановити параметр `origin`, Ви можете використовувати **`CUBRID_CURSOR_FIRST`**, щоб встановити позицію курсора, що переміщається вперед `offset` одиниць від початку LOB-об'єкта. У цьому випадку параметр `offset` має бути позитивним значенням.
 
-Якщо ви використовуєте **`CUBRID_CURSOR_CURRENT`** для `origin`, ви можете
-рухатися вперед або назад, `offset` може бути позитивним або
-негативним.
+Якщо ви використовуєте **`CUBRID_CURSOR_CURRENT`** для `origin`, Ви можете рухатися вперед або назад, `offset` може бути позитивним чи негативним.
 
-Якщо ви використовуєте **`CUBRID_CURSOR_LAST`** для `origin`, ви можете
-переміщати назад на одиницю `offset` з кінця LOB-об'єкта. В цьому випадку
-параметр `offset` має бути позитивним значенням.
+Якщо ви використовуєте **`CUBRID_CURSOR_LAST`** для `origin`Ви можете переміщати назад на одиницю `offset` з кінця LOB-об'єкта. У цьому випадку параметр `offset` має бути позитивним значенням.
 
-> **Примітка**:
->
-> Якщо ви використовуєте цю функцію для переміщення позиції курсору
-> LOB-об'єкт, ви повинні передати `offset` як рядок.
+> **Зауваження**
+> 
+> Якщо ви використовуєте цю функцію для переміщення позиції курсора LOB-об'єкта, ви повинні передати `offset` як рядок.
 
 ### Список параметрів
 
 `lob_identifier`
-Ідентифікатор LOB внаслідок роботи функції
-[cubrid_lob2_new()](function.cubrid-lob2-new.md) або отриманий з
-набір результатів.
+
+Ідентифікатор LOB внаслідок роботи функції [cubrid\_lob2\_new()](function.cubrid-lob2-new.html) або отриманий із набору результатів.
 
 `offset`
+
 Кількість одиниць, яку потрібно перемістити курсор.
 
 `origin`
+
 Параметр може мати такі значення:
 
-CUBRID_CURSOR_FIRST: рухатись вперед від початку LOB-об'єкта.
+CUBRIDCURSORFIRST: рухатись вперед від початку LOB-об'єкта.
 
-CUBRID_CURSOR_CURRENT: рухатись вперед або назад від поточної позиції.
+CUBRIDCURSORCURRENT: рухатись вперед або назад від поточної позиції.
 
-CUBRID_CURSOR_LAST: рухатись назад з кінця LOB-об'єкта.
+CUBRIDCURSORLAST: рухатись назад з кінця LOB-об'єкта.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання: **cubrid_lob2_seek64()****
+**Приклад #1 Приклад використання: **cubridlob2seek64()****
 
-`<?php// test_lob (id INT, contents CLOB)// Довжина даних doc_1.txt повинна бути більше 20101029056306120215. ($conn,"DROP TABLE if exists test_lob");cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req = cubrid_prepare($conn, "); cubrid_bind ($ req, 1, 1); '); // або cubrid_lob2_bind($req, 2, $lob);cubrid_execute($req);cubrid_lob2_close($lob);$req = cubrid_execute($conn, "select * from t$ CUBRID_LOB);$lob==$row[1];cubrid_lob2_seek64($lob, "20101029056306120215", CUBRID_CURSOR_FIRST);$data = cubrid_lob2_read($2)
-";cubrid_disconnect($conn);?> `
+```php
+<?php
+// test_lob (id INT, contents CLOB)
+// Длина данных doc_1.txt должна быть больше 20101029056306120215.
+
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
+cubrid_bind($req, 1, 1);
+
+$lob = cubrid_lob2_new($conn, "clob");
+cubrid_lob2_import($lob, "doc_1.txt");
+cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // или cubrid_lob2_bind($req, 2, $lob);
+
+cubrid_execute($req);
+
+cubrid_lob2_close($lob);
+
+$req = cubrid_execute($conn, "select * from test_lob");
+$row = cubrid_fetch_row($req, CUBRID_LOB);
+$lob = $row[1];
+
+cubrid_lob2_seek64($lob, "20101029056306120215", CUBRID_CURSOR_FIRST);
+$data = cubrid_lob2_read($lob, 20);
+echo $data."\n";
+cubrid_disconnect($conn);
+?>
+```
 
 ### Дивіться також
 
-- [cubrid_lob2_read()](function.cubrid-lob2-read.md) - Виробляє
-читання з даних BLOB/CLOB
-- [cubrid_lob2_write()](function.cubrid-lob2-write.md) - Записує
-в LOB-об'єкт
-- [cubrid_lob2_seek()](function.cubrid-lob2-seek.md) - Переміщує
-курсор LOB-об'єкта
-- [cubrid_lob2_tell()](function.cubrid-lob2-tell.md) - Повідомляє
-положення курсору LOB-об'єкта
-- [cubrid_lob2_tell64()](function.cubrid-lob2-tell64.md) - Повідомляє
-положення курсору LOB-об'єкта
-- [cubrid_lob2_size()](function.cubrid-lob2-size.md) - Отримує
-розмір LOB-об'єкта
-- [cubrid_lob2_size64()](function.cubrid-lob2-size64.md) - Отримує
-розмір LOB-об'єкта
+-   [cubrid\_lob2\_read()](function.cubrid-lob2-read.html) - Здійснює читання з даних BLOB/CLOB
+-   [cubrid\_lob2\_write()](function.cubrid-lob2-write.html) - Записує до LOB-об'єкту
+-   [cubrid\_lob2\_seek()](function.cubrid-lob2-seek.html) - Переміщує курсор LOB-об'єкта
+-   [cubrid\_lob2\_tell()](function.cubrid-lob2-tell.html) - Повідомляє положення курсору LOB-об'єкта
+-   [cubrid\_lob2\_tell64()](function.cubrid-lob2-tell64.html) - Повідомляє положення курсору LOB-об'єкта
+-   [cubrid\_lob2\_size()](function.cubrid-lob2-size.html) - Отримує розмір LOB-об'єкта
+-   [cubrid\_lob2\_size64()](function.cubrid-lob2-size64.html) - Отримує розмір LOB-об'єкта

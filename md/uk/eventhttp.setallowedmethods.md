@@ -1,37 +1,43 @@
-- [«EventHttp::removeServerAlias](eventhttp.removeserveralias.md)
-- [EventHttp::setCallback »](eventhttp.setcallback.md)
+Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
 
-- [PHP Manual](index.md)
-- [EventHttp](class.eventhttp.md)
-- Встановлює, які методи HTTP підтримуються у запитах, прийнятих
-цим сервером і переданих callback-функції користувача
+-   [« EventHttp::removeServerAlias](eventhttp.removeserveralias.html)
+    
+-   [EventHttp::setCallback »](eventhttp.setcallback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttp](class.eventhttp.html)
+    
+-   Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
+    
 
 # EventHttp::setAllowedMethods
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttp::setAllowedMethods — Встановлює, які методи HTTP
-підтримуються у запитах, прийнятих цим сервером та переданих
-callback-функції користувача
+EventHttp::setAllowedMethods — Встановлює, які методи HTTP підтримуються в запитах, прийнятих цим сервером і переданих callback-функції користувача
 
 ### Опис
 
-public **EventHttp::setAllowedMethods**( int `$methods` ): void
+```methodsynopsis
+public
+   EventHttp::setAllowedMethods(
+    int
+     $methods
+   ): void
+```
 
-Встановлює, які методи HTTP підтримуються у запитах, прийнятих
-цим сервером і переданих callback-функції користувача.
+Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача.
 
-Якщо не підтримується, видасть у відповідь `405 Method not allowed`.
+Якщо не підтримується, видасть відповідь `"405 Method not allowed"`
 
-За замовчуванням дозволені такі методи: `GET`, `POST`, `HEAD`, `PUT`
-, `DELETE`. Дивіться константи `EventHttpRequest::CMD_*`.
+За замовчуванням дозволено такі методи: `GET` `POST` `HEAD` `PUT` `DELETE` . Дивіться константи `EventHttpRequest::CMD_*`
 
 ### Список параметрів
 
 `methods`
-Бітова маска констант
-[`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
-.
+
+Бітова маска констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.html#eventhttprequest.constants)
 
 ### Значення, що повертаються
 

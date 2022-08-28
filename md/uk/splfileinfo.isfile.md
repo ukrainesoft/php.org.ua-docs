@@ -1,22 +1,29 @@
-- [« SplFileInfo::isExecutable](splfileinfo.isexecutable.md)
-- [SplFileInfo::isLink »](splfileinfo.islink.md)
+Вказує, чи об'єкт посилається на звичайний файл
 
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Вказує, чи об'єкт посилається на звичайний файл
+-   [« SplFileInfo::isExecutable](splfileinfo.isexecutable.html)
+    
+-   [SplFileInfo::isLink »](splfileinfo.islink.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileInfo](class.splfileinfo.html)
+    
+-   Вказує, чи об'єкт посилається на звичайний файл
+    
 
 # SplFileInfo::isFile
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isFile — Вказує, чи об'єкт посилається на звичайний файл
 
 ### Опис
 
-public **SplFileInfo::isFile**(): bool
+```methodsynopsis
+public SplFileInfo::isFile(): bool
+```
 
-Перевіряє, чи існує файл, на який посилається об'єкт SplFileInfo,
-і чи є звичайним файлом.
+Перевіряє, чи існує файл, на який посилається об'єкт SplFileInfo, і чи він є звичайним файлом.
 
 ### Список параметрів
 
@@ -24,16 +31,25 @@ public **SplFileInfo::isFile**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо файл існує та є звичайним файлом (а
-не посиланням), **`false`** інакше.
+Повертає **`true`**, якщо файл існує і є звичайним файлом (а не посиланням), **`false`** в іншому випадку.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileInfo::isFile()****
 
-` <?php$info = new SplFileInfo(__FILE__);var_dump($info->isFile());$info = new SplFileInfo(dirname(__FILE__));var_dump($info->isFile());?> `
+```php
+<?php
+$info = new SplFileInfo(__FILE__);
+var_dump($info->isFile());
+
+$info = new SplFileInfo(dirname(__FILE__));
+var_dump($info->isFile());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(true)
 bool(false)
+```

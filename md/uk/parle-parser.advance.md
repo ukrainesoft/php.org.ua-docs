@@ -1,19 +1,27 @@
-- [«Parle\Parser](class.parle-parser.md)
-- [Parle\Parser::build »](parle-parser.build.md)
+Обробляє наступне правило парсера
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- Обробляє наступне правило парсера
+-   [« Parle\\Parser](class.parle-parser.html)
+    
+-   [Parle\\Parser::build »](parle-parser.build.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Parser](class.parle-parser.html)
+    
+-   Обробляє наступне правило парсера
+    
 
-# Parle\Parser::advance
+# ParleParser::advance
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Parser::advance — Обробляє наступне правило парсера
+ParleParser::advance — Обробляє наступне правило парсера
 
 ### Опис
 
-public **Parle\Parser::advance**(): void
+```methodsynopsis
+public Parle\Parser::advance(): void
+```
 
 Обробляє таке правило парсера.
 

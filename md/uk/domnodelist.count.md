@@ -1,19 +1,27 @@
-- [«DOMNodeList](class.domnodelist.md)
-- [DOMNodeList::item »](domnodelist.item.md)
+Отримати кількість вузлів у списку
 
-- [PHP Manual](index.md)
-- [DOMNodeList](class.domnodelist.md)
-- Отримати кількість вузлів у списку
+-   [« DOMNodeList](class.domnodelist.html)
+    
+-   [DOMNodeList::item »](domnodelist.item.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMNodeList](class.domnodelist.html)
+    
+-   Отримати кількість вузлів у списку
+    
 
 # DOMNodeList::count
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
 DOMNodeList::count — Отримати кількість вузлів у списку
 
 ### Опис
 
-public **DOMNodeList::count**(): int
+```methodsynopsis
+public DOMNodeList::count(): int
+```
 
 Отримує кількість вузлів у списку.
 
@@ -23,5 +31,4 @@ public **DOMNodeList::count**(): int
 
 ### Значення, що повертаються
 
-Повертає кількість вузлів у списку, який ідентичний властивості
-[length](class.domnodelist.md#domnodelist.props.length).
+Повертає кількість вузлів у списку, що ідентичний властивості [length](class.domnodelist.html#domnodelist.props.length)

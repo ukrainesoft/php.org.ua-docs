@@ -1,19 +1,27 @@
-- [«Колекція](class.ds-collection.md)
-- [Ds\Collection::copy »](ds-collection.copy.md)
+Видаляє всі значення
 
-- [PHP Manual](index.md)
-- [Колекція](class.ds-collection.md)
-- Видаляє всі значення
+-   [« Коллекция](class.ds-collection.html)
+    
+-   [Ds\\Collection::copy »](ds-collection.copy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Коллекция](class.ds-collection.html)
+    
+-   Видаляє всі значення
+    
 
-# Ds\Collection::clear
+# ДсCollection::clear
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Collection::clear — Видаляє всі значення
+ДсCollection::clear — Видаляє всі значення
 
 ### Опис
 
-abstract public **Ds\Collection::clear**(): void
+```methodsynopsis
+abstract public Ds\Collection::clear(): void
+```
 
 Видаляє всі значення колекції.
 
@@ -27,18 +35,28 @@ abstract public **Ds\Collection::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад **Ds\Collection::clear()****
+**Приклад #1 Приклад **ДсCollection::clear()****
 
-` <?php$collection = new \Ds\Vector([1, 2, 3]);print_r($collection);$collection->clear();print_r($collection);?> `
+```php
+<?php
+$collection = new \Ds\Vector([1, 2, 3]);
+print_r($collection);
+
+$collection->clear();
+print_r($collection);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Vector Object
 (
 )
+```

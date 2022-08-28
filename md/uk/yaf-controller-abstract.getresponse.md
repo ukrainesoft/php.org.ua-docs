@@ -1,20 +1,27 @@
-- [« Yaf_Controller_Abstract::getRequest](yaf-controller-abstract.getrequest.md)
-- [Yaf_Controller_Abstract::getView »](yaf-controller-abstract.getview.md)
+Отримує поточний об'єкт відповіді
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Отримує поточний об'єкт відповіді
+-   [« Yaf\_Controller\_Abstract::getRequest](yaf-controller-abstract.getrequest.html)
+    
+-   [Yaf\_Controller\_Abstract::getView »](yaf-controller-abstract.getview.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+    
+-   Отримує поточний об'єкт відповіді
+    
 
-# Yaf_Controller_Abstract::getResponse
+# YafControllerAbstract::getResponse
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Controller_Abstract::getResponse — Отримує поточний об'єкт відповіді
+YafControllerAbstract::getResponse — Отримує поточний об'єкт відповіді
 
 ### Опис
 
-public **Yaf_Controller_Abstract::getResponse**():
-[Yaf_Response_Abstract](class.yaf-response-abstract.md)
+```methodsynopsis
+public Yaf_Controller_Abstract::getResponse(): Yaf_Response_Abstract
+```
 
 Отримує поточний об'єкт відповіді
 
@@ -24,4 +31,4 @@ public **Yaf_Controller_Abstract::getResponse**():
 
 ### Значення, що повертаються
 
-Примірник [Yaf_Response_Abstract](class.yaf-response-abstract.md)
+Екземпляр [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)

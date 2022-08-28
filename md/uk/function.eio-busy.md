@@ -1,54 +1,52 @@
-- [« Eio Функції](ref.eio.md)
-- [eio_cancel »](function.eio-cancel.md)
+Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Штучно збільшує навантаження. Може бути корисно при
-тестування, вивчення продуктивності
+-   [« Eio Функции](ref.eio.html)
+    
+-   [eio\_cancel »](function.eio-cancel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
+    
 
-#eio_busy
+# eiobusy
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_busy - Штучно збільшує навантаження. Може бути корисно при
-тестування, вивчення продуктивності
+eiobusy - Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
 
 ### Опис
 
-**eio_busy**(
-int `$delay`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_busy(    int $delay,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-Функція **eio_busy()** штучно збільшує навантаження, додаючи
-`delay` секунд до часу виконання. Корисно при налагодженні та тестуванні
-продуктивність.
+Функція **eiobusy()** штучно збільшує навантаження, додаючи `delay` секунд до часу виконання. Корисно при налагодженні та тестуванні продуктивності.
 
 ### Список параметрів
 
 `delay`
+
 Затримка за секунди
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
+
 Callback-функція, що виконується, коли всі запити групи будуть виконані.
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-**eio_busy()** повертає запит типу resource у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+**eiobusy()** повертає запит типу resource у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [eio_nop()](function.eio-nop.md) - Прохід циклу запиту, не
-здійснюючи жодних операцій
+-   [eio\_nop()](function.eio-nop.html) - Прохід по циклу запиту, не здійснюючи жодних операцій

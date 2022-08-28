@@ -1,19 +1,27 @@
-- [« swoole_event_wait](function.swoole-event-wait.md)
-- [swoole_get_local_ip »](function.swoole-get-local-ip.md)
+Записати дані в сокет
 
-- [PHP Manual](index.md)
-- [Функції Swoole](ref.swoole-funcs.md)
-- Записати дані в сокет
+-   [« swoole\_event\_wait](function.swoole-event-wait.html)
+    
+-   [swoole\_get\_local\_ip »](function.swoole-get-local-ip.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Swoole](ref.swoole-funcs.html)
+    
+-   Записати дані в сокет
+    
 
-# swoole_event_write
+# swooleeventwrite
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-swoole_event_write — Записати дані в сокет
+swooleeventwrite — Записати дані в сокет
 
 ### Опис
 
-**swoole_event_write**(int `$fd`, string `$data`): bool
+```methodsynopsis
+swoole_event_write(int $fd, string $data): bool
+```
 
 ### Список параметрів
 
@@ -23,5 +31,4 @@ swoole_event_write — Записати дані в сокет
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

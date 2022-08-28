@@ -1,49 +1,63 @@
-- [« pg_get_notify](function.pg-get-notify.md)
-- [pg_get_result »](function.pg-get-result.md)
+Отримує ID процесу сервера БД
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Отримує ID процесу сервера БД
+-   [« pg\_get\_notify](function.pg-get-notify.html)
+    
+-   [pg\_get\_result »](function.pg-get-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Отримує ID процесу сервера БД
+    
 
-#pg_get_pid
+# пгgetpid
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-pg_get_pid — Отримує ID процесу сервера БД
+пгgetpid — Отримує ID процесу сервера БД
 
 ### Опис
 
-**pg_get_pid**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`): int
+```methodsynopsis
+pg_get_pid(PgSql\Connection $connection): int
+```
 
-**pg_get_pid()** отримує PID сервер бази даних. PID корисний, коли
-потрібно визначити, який процес надіслав `NOTIFY` повідомлення,
-прийняте функцією [pg_get_notify()](function.pg-get-notify.md) (точніше
-дізнатися, сервер його надіслав або якийсь інший процес).
+**пгgetpid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [pg\_get\_notify()](function.pg-get-notify.html) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 ### Значення, що повертаються
 
 ID процесу сервера бази даних.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 PID сервера PostgreSQL**
 
-` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}// PID сервера БД. Порівняйте його з PID повертаним pg_get_notify()$pid = pg_get_pid($conn);?> `
+```php
+<?php
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+// PID сервера БД. Сравните его с PID возвращаемым pg_get_notify()
+$pid = pg_get_pid($conn);
+?>
+```
 
 ### Дивіться також
 
-- [pg_get_notify()](function.pg-get-notify.md) - Отримання SQL
-NOTIFY повідомлення
+-   [pg\_get\_notify()](function.pg-get-notify.html) - Отримання SQL NOTIFY повідомлення

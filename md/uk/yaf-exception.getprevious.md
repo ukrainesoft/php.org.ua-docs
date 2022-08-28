@@ -1,24 +1,31 @@
-- [« Yaf_Exception::\_\_construct](yaf-exception.construct.md)
-- [Yaf_Exception_TypeError »](class.yaf-exception-typeerror.md)
+Отримати попередній виняток
 
-- [PHP Manual](index.md)
-- [Yaf_Exception](class.yaf-exception.md)
-- Отримати попередній виняток
+-   [« Yaf\_Exception::\_\_construct](yaf-exception.construct.html)
+    
+-   [Yaf\_Exception\_TypeError »](class.yaf-exception-typeerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Exception](class.yaf-exception.html)
+    
+-   Отримати попередній виняток
+    
 
-# Yaf_Exception::getPrevious
+# YafException::getPrevious
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Exception::getPrevious — Отримати попередній виняток
+YafException::getPrevious — Отримати попередній виняток
 
 ### Опис
 
-public **Yaf_Exception::getPrevious**(): void
+```methodsynopsis
+public Yaf_Exception::getPrevious(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,24 +1,31 @@
-- [«phpdbg_prompt](function.phpdbg-prompt.md)
-- [runkit7 »](book.runkit7.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- Опис
+-   [« phpdbg\_prompt](function.phpdbg-prompt.html)
+    
+-   [runkit7 »](book.runkit7.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции phpdbg](ref.phpdbg.html)
+    
+-   Опис
+    
 
-# phpdbg_start_oplog
+# phpdbgstartoplog
 
 (PHP 7, PHP 8)
 
-phpdbg_start_oplog
+phpdbgstartoplog -
 
 ### Опис
 
-**phpdbg_start_oplog**(): void
+```methodsynopsis
+phpdbg_start_oplog(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

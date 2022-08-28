@@ -1,25 +1,31 @@
-- [«socket_send](function.socket-send.md)
-- [socket_sendto »](function.socket-sendto.md)
+Надіслати повідомлення
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
+-   [« socket\_send](function.socket-send.html)
+    
+-   [socket\_sendto »](function.socket-sendto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
 -   Надіслати повідомлення
+    
 
-# socket_sendmsg
+# socketsendmsg
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-socket_sendmsg — Надіслати повідомлення
+socketsendmsg — Надіслати повідомлення
 
 ### Опис
 
-**socket_sendmsg**([Socket](class.socket.md) `$socket`, array
-`$message`, int `$flags` = 0): int\|false
+```methodsynopsis
+socket_sendmsg(Socket $socket, array $message, int $flags = 0): int|false
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -31,18 +37,15 @@ socket_sendmsg — Надіслати повідомлення
 
 ### Значення, що повертаються
 
-Повертає кількість відправлених байтів або **`false`** у разі
-виникнення помилки.
+Повертає кількість відправлених байтів або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                    |
-|--------|-----------------------------------------------------------------------------------------|
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_recvmsg()](function.socket-recvmsg.md) - Прочитати
-повідомлення
-- [socket_cmsg_space()](function.socket-cmsg-space.md) - Обчислити
-розмір буфера повідомлення
+-   [socket\_recvmsg()](function.socket-recvmsg.html) - Прочитати повідомлення
+-   [socket\_cmsg\_space()](function.socket-cmsg-space.html) - Обчислити розмір буфера повідомлення

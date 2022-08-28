@@ -1,85 +1,74 @@
-- [« RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md)
-- [RecursiveFilterIterator::\_\_construct »](recursivefilteriterator.construct.md)
+Клас RecursiveFilterIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас RecursiveFilterIterator
+-   [« RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.html)
+    
+-   [RecursiveFilterIterator::\_\_construct »](recursivefilteriterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас RecursiveFilterIterator
+    
 
 # Клас RecursiveFilterIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Цей абстрактний ітератор відфільтровує небажані значення для
-[RecursiveIterator](class.recursiveiterator.md). Цей клас слідує
-розширювати для реалізації користувацьких фільтрів. Метод
-**RecursiveFilterIterator::accept()** необхідно реалізовувати в
-підкласі.
+Цей абстрактний ітератор відфільтровує небажані значення для [RecursiveIterator](class.recursiveiterator.html). Цей клас слід розширювати для реалізації фільтрів користувача. Метод **RecursiveFilterIterator::accept()** необхідно реалізовувати у підкласі.
 
 ## Огляд класів
 
-abstract class **RecursiveFilterIterator** extends
-[FilterIterator](class.filteriterator.md) implements
-[RecursiveIterator](class.recursiveiterator.md) {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[\_\_construct](recursivefilteriterator.construct.md)([RecursiveIterator](class.recursiveiterator.md)
-`$iterator`)
+    
+     
+      abstract
+      class RecursiveFilterIterator
+     
 
-public [getChildren](recursivefilteriterator.getchildren.md)():
-?[RecursiveFilterIterator](class.recursivefilteriterator.md)
+     
+      extends
+       FilterIterator
+     
 
-public [hasChildren](recursivefilteriterator.haschildren.md)(): bool
+     implements 
+       RecursiveIterator {
 
-/\* Наслідувані методи \*/
+    /* Методы */
+    
+   public __construct(RecursiveIterator $iterator)
 
-public [FilterIterator::accept](filteriterator.accept.md)(): bool
+    public getChildren(): ?RecursiveFilterIterator
+public hasChildren(): bool
 
-public [FilterIterator::current](filteriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public
-[FilterIterator::getInnerIterator](filteriterator.getinneriterator.md)():
-[Iterator](class.iterator.md)
+    /* Наследуемые методы */
+    public FilterIterator::accept(): bool
+public FilterIterator::current(): mixed
+public FilterIterator::getInnerIterator(): Iterator
+public FilterIterator::key(): mixed
+public FilterIterator::next(): void
+public FilterIterator::rewind(): void
+public FilterIterator::valid(): bool
 
-public [FilterIterator::key](filteriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    public IteratorIterator::current(): mixed
+public IteratorIterator::getInnerIterator(): ?Iterator
+public IteratorIterator::key(): mixed
+public IteratorIterator::next(): void
+public IteratorIterator::rewind(): void
+public IteratorIterator::valid(): bool
 
-public [FilterIterator::next](filteriterator.next.md)(): void
-
-public [FilterIterator::rewind](filteriterator.rewind.md)(): void
-
-public [FilterIterator::valid](filteriterator.valid.md)(): bool
-
-public [IteratorIterator::current](iteratoriterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)():
-?[Iterator](class.iterator.md)
-
-public [IteratorIterator::key](iteratoriterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [IteratorIterator::next](iteratoriterator.next.md)(): void
-
-public [IteratorIterator::rewind](iteratoriterator.rewind.md)(): void
-
-public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [RecursiveFilterIterator::\_\_construct](recursivefilteriterator.construct.md)
-— Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора
-RecursiveIterator
-- [RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md)
-— Повертає дочірні елементи внутрішнього ітератора як об'єкт
-RecursiveFilterIterator
-- [RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md)
-— Перевіряє, чи має поточний елемент внутрішнього ітератора.
-дочірні елементи
+-   [RecursiveFilterIterator::\_\_construct](recursivefilteriterator.construct.html) — Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
+-   [RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.html) — Повертає дочірні елементи внутрішнього ітератора як об'єкт RecursiveFilterIterator
+-   [RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.html) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи.

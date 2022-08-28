@@ -1,26 +1,34 @@
-- [«round](function.round.md)
-- [sinh »](function.sinh.md)
+Сінус
 
-- [PHP Manual](index.md)
-- [Математичні функції](ref.math.md)
-- Сінус
+-   [« round](function.round.html)
+    
+-   [sinh »](function.sinh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Математические функции](ref.math.html)
+    
+-   Сінус
+    
 
 # sin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-sin — Сінус
+sin - Сінус
 
 ### Опис
 
-**sin**(float `$num`): float
+```methodsynopsis
+sin(float $num): float
+```
 
-**sin()** повертає синус параметра `num`. Параметр `num` задається в
-радіанах.
+**sin()** повертає синус параметра `num`. Параметр `num` задається у радіанах.
 
 ### Список параметрів
 
 `num`
+
 Значення у радіанах
 
 ### Значення, що повертаються
@@ -31,13 +39,20 @@ sin — Сінус
 
 **Приклад #1 Приклад використання **sin()****
 
-`<?php// Точність залежить від ваших налаштувань точностіecho sin(deg2rad(60)); //  0.866025403 ...echo sin(60); // -0.304810621 ...?> `
+```php
+<?php
+
+// Точность зависит от ваших настроек точности
+echo sin(deg2rad(60));  //  0.866025403 ...
+echo sin(60);           // -0.304810621 ...
+
+?>
+```
 
 ### Дивіться також
 
-- [asin()](function.asin.md) - Арксінус
-- [sinh()](function.sinh.md) - Гіперболічний синус
-- [cos()](function.cos.md) - Косінус
-- [tan()](function.tan.md) - Тангенс
-- [deg2rad()](function.deg2rad.md) - Перетворює значення з
-градусів у радіани
+-   [asin()](function.asin.html) - Арксінус
+-   [sinh()](function.sinh.html) - Гіперболічний синус
+-   [cos()](function.cos.html) - Косінус
+-   [tan()](function.tan.html) - Тангенс
+-   [deg2rad()](function.deg2rad.html) - Перетворює значення із градусів на радіани

@@ -1,30 +1,44 @@
-- [« Vtiful\Kernel\Excel::constMemory](vtiful-kernel-excel.constMemory.md)
-- [Vtiful\Kernel\Excel::data »](vtiful-kernel-excel.data.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)
-- Конструктор
+-   [« Vtiful\\Kernel\\Excel::constMemory](vtiful-kernel-excel.constMemory.html)
+    
+-   [Vtiful\\Kernel\\Excel::data »](vtiful-kernel-excel.data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)
+    
+-   Конструктор
+    
 
-# Vtiful\Kernel\Excel::\_\_construct
+# VtifulKernelExcel::construct
 
-(PECL xlswriter \>= 1.2.1)
+(PECL xlswriter >= 1.2.1)
 
-Vtiful\Kernel\Excel::\_\_construct - Конструктор
+VtifulKernelExcel::construct — Конструктор
 
 ### Опис
 
-public **Vtiful\Kernel\Excel::\_\_construct**(array `$config`)
+public **VtifulKernelExcel::construct**(array `$config`
 
-Конструктор [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md),
-створити екземпляр.
+Конструктор [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.html)створити екземпляр.
 
 ### Список параметрів
 
 `config`
+
 Конфігурація експорту файлу XLSX
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$config = [  'path' => '/home/viest'];$excelObject = new \Vtiful\Kernel\Excel($config);?> `
+```php
+<?php
+$config = [
+  'path' => '/home/viest'
+];
+
+$excelObject = new \Vtiful\Kernel\Excel($config);
+?>
+```

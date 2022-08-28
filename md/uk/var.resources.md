@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](var.configuration.md)
-- [Предвизначені константи »](var.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](var.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](var.configuration.html)
+    
+-   [Предопределённые константы »](var.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](var.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

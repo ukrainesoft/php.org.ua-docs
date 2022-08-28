@@ -1,28 +1,29 @@
-- [« Imagick::segmentImage](imagick.segmentimage.md)
-- [Imagick::separateImageChannel »](imagick.separateimagechannel.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Опис
+-   [« Imagick::segmentImage](imagick.segmentimage.html)
+    
+-   [Imagick::separateImageChannel »](imagick.separateimagechannel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Опис
+    
 
 # Imagick::selectiveBlurImage
 
-(PECL imagick 3 \>= 3.3.0)
+(PECL imagick 3> = 3.3.0)
 
 Imagick::selectiveBlurImage — Опис
 
 ### Опис
 
-public **Imagick::selectiveBlurImage**(
-float `$radius`,
-float `$sigma`,
-float `$threshold`,
-int `$channel` = Imagick::CHANNEL_DEFAULT
-): bool
+```methodsynopsis
+public Imagick::selectiveBlurImage(    float $radius,    float $sigma,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+```
 
-Вибіркове розмиття зображення в межах порогового значення
-контрастності. Це схоже на маску нерізкості, яка збільшує
-різкість, якщо контраст перевищує певний поріг.
+Вибіркове розмиття зображення у межах порогового значення контрастності. Це схоже на маску нерізкості, яка збільшує різкість всього, якщо контраст перевищує певний поріг.
 
 ### Список параметрів
 
@@ -33,17 +34,25 @@ int `$channel` = Imagick::CHANNEL_DEFAULT
 `threshold`
 
 `channel`
-Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
-побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
+
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константы каналов](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналов](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::selectiveBlurImage()****
 
-`<?phpfunction selectiveBlurImage($imagePath, $radius, $sigma, $threshold, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->selectiveBlurImage($radius, $sigma, $threshold, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function selectiveBlurImage($imagePath, $radius, $sigma, $threshold, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->selectiveBlurImage($radius, $sigma, $threshold, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

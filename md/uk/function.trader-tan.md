@@ -1,29 +1,36 @@
-- [ trader_t3](function.trader-t3.md)
-- [trader_tanh »](function.trader-tanh.md)
+Векторний тригонометричний тангенс
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Векторний тригонометричний тангенс
+-   [« trader\_t3](function.trader-t3.html)
+    
+-   [trader\_tanh »](function.trader-tanh.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Векторний тригонометричний тангенс
+    
 
-# trader_tan
+# tradertan
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_tan — векторний тригонометричний тангенс.
+tradertan — тригонометричний тангенс.
 
 ### Опис
 
-**trader_tan**(array `$real`): array
+```methodsynopsis
+trader_tan(array $real): array
+```
 
-Обчислює тангенс для кожного значення в `real` та повертає отриманий
-масив.
+Обчислює тангенс для кожного значення `real` та повертає отриманий масив.
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

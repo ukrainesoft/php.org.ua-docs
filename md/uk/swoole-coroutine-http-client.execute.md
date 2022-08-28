@@ -1,24 +1,31 @@
-- [« Swoole\Coroutine\Http\Client::\_\_destruct](swoole-coroutine-http-client.destruct.md)
-- [Swoole\Coroutine\Http\Client::get »](swoole-coroutine-http-client.get.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Swoole\Coroutine](class.swoole-coroutine.md)
-- Опис
+-   [« Swoole\\Coroutine\\Http\\Client::\_\_destruct](swoole-coroutine-http-client.destruct.html)
+    
+-   [Swoole\\Coroutine\\Http\\Client::get »](swoole-coroutine-http-client.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Coroutine](class.swoole-coroutine.html)
+    
+-   Опис
+    
 
-# Swoole\Coroutine\Http\Client::execute
+# SwooleCoroutineHttpClient::execute
 
-(PECL swoole \>= 2.0.0)
+(PECL swoole >= 2.0.0)
 
-Swoole\Coroutine\Http\Client::execute — Опис
+SwooleCoroutineHttpClient::execute — Опис
 
 ### Опис
 
-public **Swoole\Coroutine\Http\Client::execute**(): ReturnType
+```methodsynopsis
+public Swoole\Coroutine\Http\Client::execute(): ReturnType
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

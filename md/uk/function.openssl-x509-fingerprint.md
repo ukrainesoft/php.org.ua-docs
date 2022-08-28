@@ -1,49 +1,52 @@
-- [« openssl_x509_export](function.openssl-x509-export.md)
-- [openssl_x509_free »](function.openssl-x509-free.md)
+Обчислює відбиток або дайджест, заданий сертифікатом X.509
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- обчислює відбиток або дайджест, заданий сертифікатом X.509
+-   [« openssl\_x509\_export](function.openssl-x509-export.html)
+    
+-   [openssl\_x509\_free »](function.openssl-x509-free.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Обчислює відбиток або дайджест, заданий сертифікатом X.509
+    
 
-# openssl_x509_fingerprint
+# opensslx509fingerprint
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
-openssl_x509_fingerprint — Обчислює відбиток або дайджест, заданий
-сертифікатом X.509
+opensslx509fingerprint — обчислює відбиток або дайджест, заданий сертифікатом X.509
 
 ### Опис
 
-**openssl_x509_fingerprint**([OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`, string `$digest_algo` = "sha1", bool `$binary` =
-**`false`**): string\|false
+```methodsynopsis
+openssl_x509_fingerprint(OpenSSLCertificate|string $certificate, string $digest_algo = "sha1", bool $binary = false): string|false
+```
 
-**openssl_x509_fingerprint()** повертає дайджест `certificate` у вигляді
-рядки.
+**opensslx509fingerprint()** повертає дайджест `certificate` у вигляді рядка.
 
 ### Список параметрів
 
 `x509`
-Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md).
+
+Для списку коректних значень дивіться [Параметры ключей/сертификатов](openssl.certparams.html)
 
 `digest_algo`
-Метод хешування. Список доступних методів можна отримати за допомогою
-[openssl_get_md_methods()](function.openssl-get-md-methods.md).
+
+Метод хешування. Список доступних методів можна отримати за допомогою [openssl\_get\_md\_methods()](function.openssl-get-md-methods.html)
 
 `binary`
-Якщо встановлено як **`true`**, будуть повернуті необроблені
-бінарні дані. Якщо **`false`**, то виводить рядок з
-шістнадцяткових чисел у нижньому регістрі.
+
+Якщо встановлено як **`true`**, буде повернуто необроблені бінарні дані. Якщо **`false`**, то виводить рядок із шістнадцяткових чисел у нижньому регістрі.
 
 ### Значення, що повертаються
 
-Повертає відбиток сертифіката у вигляді рядка шістнадцяткових чисел.
-Якщо `binary` встановлено в **`true`**, то у вигляді бінарних даних.
+Повертає відбиток сертифіката у вигляді рядка шістнадцяткових чисел. Якщо `binary` встановлений в **`true`**то у вигляді бінарних даних.
 
-У разі виникнення помилки повертає **`false`**.
+У разі виникнення помилки повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                        |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |

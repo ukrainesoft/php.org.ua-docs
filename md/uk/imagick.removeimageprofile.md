@@ -1,20 +1,27 @@
-- [« Imagick::removeImage](imagick.removeimage.md)
-- [Imagick::render »](imagick.render.md)
+Видаляє іменований профіль зображення та повертає його
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Видаляє іменований профіль зображення та повертає його
+-   [« Imagick::removeImage](imagick.removeimage.html)
+    
+-   [Imagick::render »](imagick.render.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Видаляє іменований профіль зображення та повертає його
+    
 
 # Imagick::removeImageProfile
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::removeImageProfile — Видаляє іменований профіль зображення та
-повертає його
+Imagick::removeImageProfile — Видаляє іменований профіль зображення та повертає його
 
 ### Опис
 
-public **Imagick::removeImageProfile**(string `$name`): string
+```methodsynopsis
+public Imagick::removeImageProfile(string $name): string
+```
 
 Видаляє іменований профіль зображення та повертає його.
 

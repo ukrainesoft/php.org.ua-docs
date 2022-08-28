@@ -1,25 +1,28 @@
-- [«ps_translate](function.ps-translate.md)
-- [Вступ »](intro.rpminfo.md)
+RpmInfo
 
-- [PHP Manual](index.md)
-- [Генерація нетекстових MIME-форматів](refs.utilspec.nontext.md)
-- RpmInfo
+-   [« ps\_translate](function.ps-translate.html)
+    
+-   [Введение »](intro.rpminfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Генерация нетекстовых MIME-форматов](refs.utilspec.nontext.html)
+    
+-   RpmInfo
+    
 
 # RpmInfo
 
-- [Вступ](intro.rpminfo.md)
-- [Встановлення та налаштування](rpminfo.setup.md)
-- [Вимоги](rpminfo.requirements.md)
-- [Встановлення через PECL](rpminfo.installation.md)
-- [Налаштування під час виконання](rpminfo.configuration.md)
-- [Типи ресурсів](rpminfo.resources.md)
-- [Предвизначені константи](rpminfo.constants.md)
-- [Функції RpmInfo](ref.rpminfo.md)
-- [rpmaddtag](function.rpmaddtag.md) — Додає тег, отриманий
-у запиті
-- [rpmdbinfo](function.rpmdbinfo.md) — Отримує інформацію від
-встановленого RPM
-- [rpmdbsearch](function.rpmdbsearch.md) — Пошук пакетів RPM
-- [rpminfo](function.rpminfo.md) — Витягти інформацію з
-RPM-файлу
-- [rpmvercmp](function.rpmvercmp.md) — Порівняння версій двох RPM
+-   [Введение](intro.rpminfo.html)
+-   [Установка и настройка](rpminfo.setup.html)
+    -   [Требования](rpminfo.requirements.html)
+    -   [Установка через PECL](rpminfo.installation.html)
+    -   [Настройка во время выполнения](rpminfo.configuration.html)
+    -   [Типы ресурсов](rpminfo.resources.html)
+-   [Предопределённые константы](rpminfo.constants.html)
+-   [Функции RpmInfo](ref.rpminfo.html)
+    -   [rpmaddtag](function.rpmaddtag.html) — Додає тег, отриманий у запиті
+    -   [rpmdbinfo](function.rpmdbinfo.html) — Отримує інформацію від встановленого RPM
+    -   [rpmdbsearch](function.rpmdbsearch.html) - Пошук RPM-пакетів
+    -   [rpminfo](function.rpminfo.html) — Витягти інформацію з RPM-файлу
+    -   [rpmvercmp](function.rpmvercmp.html) - Порівняння версій двох RPM

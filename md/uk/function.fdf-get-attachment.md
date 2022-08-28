@@ -1,55 +1,62 @@
-- [«fdf_get_ap](function.fdf-get-ap.md)
-- [fdf_get_encoding »](function.fdf-get-encoding.md)
+Виймає завантажений файл, вбудований у FDF
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Виймає завантажений файл, вбудований у FDF
+-   [« fdf\_get\_ap](function.fdf-get-ap.html)
+    
+-   [fdf\_get\_encoding »](function.fdf-get-encoding.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Виймає завантажений файл, вбудований у FDF
+    
 
-#fdf_get_attachment
+# fdfgetattachment
 
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_get_attachment — Витягує завантажений файл, вбудований у FDF
+fdfgetattachment — Витягує завантажений файл, вбудований у FDF
 
 ### Опис
 
-**fdf_get_attachment**(resource `$fdf_document`, string `$fieldname`,
-string `$savepath`): array
+```methodsynopsis
+fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath): array
+```
 
-Витягує файл, завантажений за допомогою поля "вибір файлу" `fieldname`, та
-зберігає його в `savepath`.
+Виймає файл, завантажений за допомогою поля "Вибір файлу" `fieldname`, і зберігає його в `savepath`
 
 ### Список параметрів
 
 `fdf_document`
-Дескриптор документа FDF, що повертається
-[fdf_create()](function.fdf-create.md),
-[fdf_open()](function.fdf-open.md) або
-[fdf_open_string()](function.fdf-open-string.md).
+
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.html) [fdf\_open()](function.fdf-open.html) або [fdf\_open\_string()](function.fdf-open-string.html)
 
 `fieldname`
 
 `savepath`
-Можливо, це ім'я простого файлу або існуючого каталогу, в якому
-файл має бути створений під його вихідним ім'ям. Будь-який існуючий файл
-з таким самим ім'ям буде перезаписано.
 
-> **Примітка**:
->
-> Здається, немає іншого способу дізнатися вихідне ім'я файлу, крім як
-> зберегти файл, використовуючи каталог як `savepath` та перевірити базове
-> ім'я, під яким його було збережено.
+Можливо, це ім'я простого файлу або існуючого каталогу, в якому файл має бути створений під його вихідним ім'ям. Будь-який існуючий файл з таким самим ім'ям буде перезаписано.
+
+> **Зауваження**
+> 
+> Здається, немає іншого способу дізнатися вихідне ім'я файлу, крім як зберегти файл, використовуючи каталог як `savepath` та перевірити базове ім'я, під яким його було збережено.
 
 ### Значення, що повертаються
 
 Повернутий масив містить такі поля:
 
-- `path` - шлях, де зберігається файл
-- `size` - розмір файлу, що зберігається в байтах
-- `type` - mimetype, якщо він вказаний у FDF
+-   `path` - шлях, де зберігається файл
+-   `size` - розмір файлу, що зберігається в байтах
+-   `type` - mimetype, якщо він вказаний у FDF
 
 ### Приклади
 
 **Приклад #1 Збереження завантаженого файлу**
 
-`<?php $fdf = fdf_open_string($HTTP_FDF_DATA); $data==fdf_get_attachment($fdf,"filename","/tmpdir"); echo "Завантажений файл зберігається в $data[path]";?> `
+```php
+<?php
+  $fdf = fdf_open_string($HTTP_FDF_DATA);
+  $data = fdf_get_attachment($fdf, "filename", "/tmpdir");
+  echo "Загруженный файл хранится в $data[path]";
+?>
+```

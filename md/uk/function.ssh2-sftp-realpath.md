@@ -1,28 +1,35 @@
-- [« ssh2_sftp_readlink](function.ssh2-sftp-readlink.md)
-- [ssh2_sftp_rename »](function.ssh2-sftp-rename.md)
+Визначає повний шлях по даному рядку зі шляхом
 
-- [PHP Manual](index.md)
-- [Функції SSH2](ref.ssh2.md)
-- Визначає повний шлях по даному рядку шляхом
+-   [« ssh2\_sftp\_readlink](function.ssh2-sftp-readlink.html)
+    
+-   [ssh2\_sftp\_rename »](function.ssh2-sftp-rename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции SSH2](ref.ssh2.html)
+    
+-   Визначає повний шлях по даному рядку зі шляхом
+    
 
-# ssh2_sftp_realpath
+# ssh2sftprealpath
 
-(PECL ssh2 \>= 0.9.0)
+(PECL ssh2> = 0.9.0)
 
-ssh2_sftp_realpath — Визначає повний шлях по даному рядку з
-шляхом
+ssh2sftprealpath — Визначає повний шлях по даному рядку шляхом
 
 ### Опис
 
-**ssh2_sftp_realpath**(resource `$sftp`, string `$filename`): string
+```methodsynopsis
+ssh2_sftp_realpath(resource $sftp, string $filename): string
+```
 
 Перетворює `filename` на повний шлях до файлу на віддаленому сервері.
 
 ### Список параметрів
 
 `sftp`
-Ресурс SSH2 SFTP, відкритий за допомогою
-[ssh2_sftp()](function.ssh2-sftp.md).
+
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.html)
 
 `filename`
 
@@ -34,13 +41,19 @@ ssh2_sftp_realpath — Визначає повний шлях по даному 
 
 **Приклад #1 Визначення повного шляху**
 
-` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);$realpath = ssh , '/home/username/../../../..//./usr/../etc/passwd');/* $realpath тепер: '/etc/passwd' */?> `
+```php
+<?php
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
+
+$realpath = ssh2_sftp_realpath($sftp, '/home/username/../../../..//./usr/../etc/passwd');
+/* $realpath теперь: '/etc/passwd' */
+?>
+```
 
 ### Дивіться також
 
-- [realpath()](function.realpath.md) - Повертає канонізований
-абсолютний шлях до файлу
-- [ssh2_sftp_symlink()](function.ssh2-sftp-symlink.md) - Створити
-символічне посилання
-- [ssh2_sftp_readlink()](function.ssh2-sftp-readlink.md) -
-Повертає об'єкт за символічним посиланням
+-   [realpath()](function.realpath.html) - Повертає абсолютний канонізований шлях до файлу
+-   [ssh2\_sftp\_symlink()](function.ssh2-sftp-symlink.html) - Створити символічне посилання
+-   [ssh2\_sftp\_readlink()](function.ssh2-sftp-readlink.html) - Повертає об'єкт за символічним посиланням

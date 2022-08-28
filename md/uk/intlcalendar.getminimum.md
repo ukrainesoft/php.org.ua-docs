@@ -1,13 +1,19 @@
-- [« IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.md)
-- [IntlCalendar::getNow »](intlcalendar.getnow.md)
+Отримує глобальне мінімальне значення поля
 
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- Отримує глобальне мінімальне значення поля
+-   [« IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.html)
+    
+-   [IntlCalendar::getNow »](intlcalendar.getnow.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlCalendar](class.intlcalendar.html)
+    
+-   Отримує глобальне мінімальне значення поля
+    
 
 # IntlCalendar::getMinimum
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 IntlCalendar::getMinimum — Отримує глобальне мінімальне значення поля
 
@@ -15,32 +21,28 @@ IntlCalendar::getMinimum — Отримує глобальне мінімаль�
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::getMinimum**(int `$field`): int\|false
+```methodsynopsis
+public IntlCalendar::getMinimum(int $field): int|false
+```
 
 Процедурний стиль
 
-**intlcal_get_minimum**([IntlCalendar](class.intlcalendar.md)
-`$calendar`, int `$field`): int\|false
+```methodsynopsis
+intlcal_get_minimum(IntlCalendar $calendar, int $field): int|false
+```
 
-Отримує глобальне мінімальне значення поля у цьому конкретному
-календарі. Це значення менше або дорівнює значенню, що повертається
-[IntlCalendar::getActualMinimum()](intlcalendar.getactualminimum.md),
-яке, у свою чергу, менше або дорівнює значенню, що повертається
-[IntlCalendar::getGreatestMinimum()](intlcalendar.getgreatestminimum.md).
-Для григоріанського календаря ці три функції завжди повертають одне і те
-значення (для кожного поля).
+Отримує глобальне мінімальне значення поля у цьому конкретному календарі. Це значення менше або дорівнює значенню, що повертається [IntlCalendar::getActualMinimum()](intlcalendar.getactualminimum.html), яке, у свою чергу, менше або дорівнює значенню, що повертається [IntlCalendar::getGreatestMinimum()](intlcalendar.getgreatestminimum.html). Для григоріанського календаря ці три функції завжди повертають те саме значення (для кожного поля).
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.html)
 
 `field`
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md)
-[констант](class.intlcalendar.md#intlcalendar.constants) полів типу
-дата час. Ціле число від `0` до **`IntlCalendar::FIELD_COUNT`**.
+
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 
-Ціле число (int), що має значення для даного поля або
-**`false`** у разі виникнення помилки.
+Ціле число (int), що представляє значення для даного поля або **`false`** у разі виникнення помилки.

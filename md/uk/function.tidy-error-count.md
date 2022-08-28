@@ -1,28 +1,35 @@
-- [« tidy_config_count](function.tidy-config-count.md)
-- [tidy_get_output »](function.tidy-get-output.md)
+Повертає кількість помилок Tidy, що зустрілися під час розгляду документа
 
-- [PHP Manual](index.md)
-- [Tidy](ref.tidy.md)
-- Повертає кількість помилок Tidy, що зустрілися під час розгляду
-документа
+-   [« tidy\_config\_count](function.tidy-config-count.html)
+    
+-   [tidy\_get\_output »](function.tidy-get-output.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Tidy](ref.tidy.html)
+    
+-   Повертає кількість помилок Tidy, що зустрілися під час розгляду документа
+    
 
-#tidy_error_count
+# tidyerrorcount
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy_error_count — Повертає кількість помилок Tidy, що зустрілися при
-розгляді документа
+tidyerrorcount — Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
 
 ### Опис
 
-**tidy_error_count**([tidy](class.tidy.md) `$tidy`): int
+```methodsynopsis
+tidy_error_count(tidy $tidy): int
+```
 
 Повертає кількість помилок Tidy, що зустрілися під час розгляду документа.
 
 ### Список параметрів
 
 `tidy`
-Об'єкт [Tidy](class.tidy.md).
+
+Об'єкт [Tidy](class.tidy.html)
 
 ### Значення, що повертаються
 
@@ -30,13 +37,24 @@ tidy_error_count — Повертає кількість помилок Tidy, щ
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy_error_count()****
+**Приклад #1 Приклад використання **tidyerrorcount()****
 
-` <?php$html = '<p>test</i><bogustag>bogus</bogustag>';$tidy = tidy_parse_string($html);echo tidy_error_count($tidy) . "
-"; //1echo $tidy->errorBuffer;?> `
+```php
+<?php
+$html = '<p>test</i>
+<bogustag>bogus</bogustag>';
+
+$tidy = tidy_parse_string($html);
+
+echo tidy_error_count($tidy) . "\n"; //1
+
+echo $tidy->errorBuffer;
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 1
 line 1 column 1 - Warning: missing <!DOCTYPE> declaration
 line 1 column 8 - Warning: discarding unexpected </i>
@@ -44,12 +62,9 @@ line 2 column 1 - Error: <bogustag> is not recognized!
 line 2 column 1 - Warning: discarding unexpected <bogustag>
 line 2 column 16 - Warning: discarding unexpected </bogustag>
 line 1 column 1 - Warning: inserting missing 'title' element
+```
 
 ### Дивіться також
 
-- [tidy_access_count()](function.tidy-access-count.md) - Повертає
-число доступних попереджень Tidy, що зустрілися у розглянутому
-документі
-- [tidy_warning_count()](function.tidy-warning-count.md) -
-Повертає число Tidy-попереджень, зустрінених у зазначеному
-документі
+-   [tidy\_access\_count()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidy\_warning\_count()](function.tidy-warning-count.html) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі

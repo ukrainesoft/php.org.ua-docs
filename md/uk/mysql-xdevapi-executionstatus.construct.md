@@ -1,24 +1,29 @@
-- [« mysql_xdevapi\ExecutionStatus](class.mysql-xdevapi-executionstatus.md)
-- [mysql_xdevapi\Expression »](class.mysql-xdevapi-expression.md)
+Конструктор класу ExecutionStatus
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ExecutionStatus](class.mysql-xdevapi-executionstatus.md)
-- Конструктор класу ExecutionStatus
+-   [« mysql\_xdevapi\\ExecutionStatus](class.mysql-xdevapi-executionstatus.html)
+    
+-   [mysql\_xdevapi\\Expression »](class.mysql-xdevapi-expression.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\ExecutionStatus](class.mysql-xdevapi-executionstatus.html)
+    
+-   Конструктор класу ExecutionStatus
+    
 
-# ExecutionStatus::\_\_construct
+# ExecutionStatus::construct
 
 (No version information available, might only be in Git)
 
-ExecutionStatus::\_\_construct - Конструктор класу ExecutionStatus
+ExecutionStatus::construct - Конструктор класу ExecutionStatus
 
 ### Опис
 
-private **mysql_xdevapi\ExecutionStatus::\_\_construct**()
+private **mysqlxdevapiExecutionStatus::construct**
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +31,12 @@ private **mysql_xdevapi\ExecutionStatus::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ExecutionStatus::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiExecutionStatus::construct()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

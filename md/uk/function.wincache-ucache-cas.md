@@ -1,61 +1,68 @@
-- [«wincache_ucache_add](function.wincache-ucache-add.md)
-- [wincache_ucache_clear »](function.wincache-ucache-clear.md)
+Порівнює змінну зі старим значенням і надає їй нове значення
 
-- [PHP Manual](index.md)
-- [Функції WinCache](ref.wincache.md)
-- Порівнює змінну зі старим значенням та надає їй нове
-значення
+-   [« wincache\_ucache\_add](function.wincache-ucache-add.html)
+    
+-   [wincache\_ucache\_clear »](function.wincache-ucache-clear.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции WinCache](ref.wincache.html)
+    
+-   Порівнює змінну зі старим значенням і надає їй нове значення
+    
 
-#wincache_ucache_cas
+# wincacheucachecas
 
-(PECL wincache \>= 1.1.0)
+(PECL wincache >= 1.1.0)
 
-wincache_ucache_cas — Порівнює змінну зі старим значенням і
-надає їй нового значення
+wincacheucachecas — Порівнює змінну зі старим значенням і надає їй нове значення
 
 ### Опис
 
-**wincache_ucache_cas**(string `$key`, int `$old_value`, int
-`$new_value`): bool
+```methodsynopsis
+wincache_ucache_cas(string $key, int $old_value, int $new_value): bool
+```
 
-Порівнює змінну, пов'язану з `key` з `old_value` і, якщо вона
-збігається, надає їй `new_value`.
+Порівнює змінну, пов'язану з `key` з `old_value` і, якщо вона збігається, надає їй `new_value`
 
 ### Список параметрів
 
 `key`
-`key`, який використовувався для збереження змінної у кеш. `key`
-чутливий до регістру.
+
+`key`, який використовувався для збереження змінної в кеш . `key` чутливий до регістру.
 
 `old_value`
-Старе значення змінної, яку вказує `key` в
-користувальницькому кеші. Значення має бути типу `long`, інакше функція
-поверне **`false`**.
+
+Старе значення змінної, яку вказує `key` в кеші користувача. Значення має бути типу `long`, інакше функція поверне **`false`**
 
 `new_value`
-Нове значення, яке буде присвоєно покажчику змінної `key`, якщо
-буде знайдено збіг. Значення має бути типу `long`, інакше
-функція поверне **`false`**.
+
+Нове значення, яке буде надано покажчику змінної `key`якщо знайдено збіг. Значення має бути типу `long`, інакше функція поверне **`false`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **wincache_ucache_cas()****
+**Приклад #1 Приклад використання **wincacheucachecas()****
 
-`<?phpwincache_ucache_set('counter', 2922);var_dump(wincache_ucache_cas('counter', 2922, 1));var_dump(wincache_ucache_get('counter'));?> `
+```php
+<?php
+wincache_ucache_set('counter', 2922);
+var_dump(wincache_ucache_cas('counter', 2922, 1));
+var_dump(wincache_ucache_get('counter'));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
 int(1)
+```
 
 ### Дивіться також
 
-- [wincache_ucache_inc()](function.wincache-ucache-inc.md) -
-Збільшує значення, пов'язане з ключем
-- [wincache_ucache_dec()](function.wincache-ucache-dec.md) -
-Зменшує значення, пов'язане з ключем
+-   [wincache\_ucache\_inc()](function.wincache-ucache-inc.html) - Збільшує значення, пов'язане з ключем
+-   [wincache\_ucache\_dec()](function.wincache-ucache-dec.html) - Зменшує значення, пов'язане з ключем

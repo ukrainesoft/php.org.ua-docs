@@ -1,33 +1,35 @@
-- [« CommonMark\Node\OrderedList](class.commonmark-node-orderedlist.md)
-- [CommonMark\Node\Item »](class.commonmark-node-item.md)
+Конструктор класу OrderedList
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\OrderedList](class.commonmark-node-orderedlist.md)
-- Конструктор класу OrderedList
+-   [« CommonMark\\Node\\OrderedList](class.commonmark-node-orderedlist.html)
+    
+-   [CommonMark\\Node\\Item »](class.commonmark-node-item.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node\\OrderedList](class.commonmark-node-orderedlist.html)
+    
+-   Конструктор класу OrderedList
+    
 
-# CommonMark\Node\OrderedList::\_\_construct
+# CommonMarkNodeOrderedList::construct
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node\OrderedList::\_\_construct - Конструктор класу
-OrderedList
+CommonMarkNodeOrderedList::construct — Конструктор класу OrderedList
 
 ### Опис
 
-public **CommonMark\Node\OrderedList::\_\_construct**()
+public **CommonMarkNodeOrderedList::construct**
 
-public **CommonMark\Node\OrderedList::\_\_construct**(int `$tight`)
+public **CommonMarkNodeOrderedList::construct**(int `$tight`
 
-public **CommonMark\Node\OrderedList::\_\_construct**(int `$tight`, int
-`$delimiter`)
+public **CommonMarkNodeOrderedList::construct**(int `$tight`, int `$delimiter`
 
-public **CommonMark\Node\OrderedList::\_\_construct**(int `$tight`, int
-`$delimiter`, int `$start`)
+public **CommonMarkNodeOrderedList::construct**(int `$tight`, int `$delimiter`, int `$start`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

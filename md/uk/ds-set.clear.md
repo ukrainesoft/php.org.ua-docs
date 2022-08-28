@@ -1,19 +1,27 @@
-- [Ds\Set::capacity](ds-set.capacity.md)
-- [Ds\Set::\_\_construct »](ds-set.construct.md)
+Видаляє всі значення з колекції
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Видаляє всі значення з колекції
+-   [« Ds\\Set::capacity](ds-set.capacity.html)
+    
+-   [Ds\\Set::\_\_construct »](ds-set.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Набор](class.ds-set.html)
+    
+-   Видаляє всі значення з колекції
+    
 
-# Ds\Set::clear
+# ДсSet::clear
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Set::clear — Видаляє всі значення колекції.
+ДсSet::clear — Видаляє всі значення з колекції
 
 ### Опис
 
-public **Ds\Set::clear**(): void
+```methodsynopsis
+public Ds\Set::clear(): void
+```
 
 Видаляє всі значення колекції.
 
@@ -27,18 +35,28 @@ public **Ds\Set::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::clear()****
+**Приклад #1 Приклад використання **ДсSet::clear()****
 
-` <?php$set = new \Ds\Set([1, 2, 3]);print_r($set);$set->clear();print_r($set);?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2, 3]);
+print_r($set);
+
+$set->clear();
+print_r($set);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Set Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Set Object
 (
 )
+```

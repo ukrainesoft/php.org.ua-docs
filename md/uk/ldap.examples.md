@@ -1,13 +1,19 @@
-- [« Керуючі об'єкти LDAP](ldap.controls.md)
-- [Базове використання»](ldap.examples-basic.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [LDAP](book.ldap.md)
-- Приклади
+-   [« Управляющие объекты LDAP](ldap.controls.html)
+    
+-   [Базовое использование »](ldap.examples-basic.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LDAP](book.ldap.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Базове використання](ldap.examples-basic.md)
-- [LDAP Controls](ldap.examples-controls.md)
+-   [Базовое использование](ldap.examples-basic.html)
+-   [LDAP Controls](ldap.examples-controls.html)

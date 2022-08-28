@@ -1,19 +1,27 @@
-- [« apache_get_modules](function.apache-get-modules.md)
-- [apache_getenv »](function.apache-getenv.md)
+Повертає версію Apache
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Повертає версію Apache
+-   [« apache\_get\_modules](function.apache-get-modules.html)
+    
+-   [apache\_getenv »](function.apache-getenv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Apache](ref.apache.html)
+    
+-   Повертає версію Apache
+    
 
-#apache_get_version
+# apachegetversion
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-apache_get_version — Повертає версію Apache
+apachegetversion — Повертає версію Apache
 
 ### Опис
 
-**apache_get_version**(): string\|false
+```methodsynopsis
+apache_get_version(): string|false
+```
 
 Повертає версію Apache.
 
@@ -27,16 +35,21 @@ apache_get_version — Повертає версію Apache
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apache_get_version()****
+**Приклад #1 Приклад використання **apachegetversion()****
 
-` <?php$version = apache_get_version();echo "$version
-";?> `
+```php
+<?php
+$version = apache_get_version();
+echo "$version\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Apache/1.3.29 (Unix) PHP/4.3.4
+```
 
 ### Дивіться також
 
-- [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну
-конфігурації PHP
+-   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP

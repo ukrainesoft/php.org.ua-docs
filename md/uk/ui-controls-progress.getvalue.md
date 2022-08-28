@@ -1,21 +1,29 @@
-- [«UI\Controls\Progress](class.ui-controls-progress.md)
-- [UI\Controls\Progress::setValue »](ui-controls-progress.setvalue.md)
+Отримати значення
 
-- [PHP Manual](index.md)
-- [UI\Controls\Progress](class.ui-controls-progress.md)
-- Отримати значення
+-   [« UI\\Controls\\Progress](class.ui-controls-progress.html)
+    
+-   [UI\\Controls\\Progress::setValue »](ui-controls-progress.setvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Progress](class.ui-controls-progress.html)
+    
+-   Отримати значення
+    
 
-# UI\Controls\Progress::getValue
+# ОЙControlsProgress::getValue
 
 (UI 0.9.9)
 
-UI\Controls\Progress::getValue — Отримати значення
+ОЙControlsProgress::getValue — Отримати значення
 
 ### Опис
 
-public **UI\Controls\Progress::getValue**(): int
+```methodsynopsis
+public UI\Controls\Progress::getValue(): int
+```
 
-Отримати поточне значення даного індикатора виконання
+Отримати поточне значення цього індикатора виконання
 
 ### Список параметрів
 

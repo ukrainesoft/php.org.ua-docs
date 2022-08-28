@@ -1,19 +1,27 @@
-- [« Ds\Deque::capacity](ds-deque.capacity.md)
-- [Ds\Deque::\_\_construct »](ds-deque.construct.md)
+Видаляє всі значення з двосторонньої черги
 
-- [PHP Manual](index.md)
-- [Двостороння черга](class.ds-deque.md)
-- Видаляє всі значення з двосторонньої черги
+-   [« Ds\\Deque::capacity](ds-deque.capacity.html)
+    
+-   [Ds\\Deque::\_\_construct »](ds-deque.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Двухсторонняя очередь](class.ds-deque.html)
+    
+-   Видаляє всі значення з двосторонньої черги
+    
 
-# Ds\Deque::clear
+# ДсDeque::clear
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Deque::clear — Видалення всіх значень із двосторонньої черги
+ДсDeque::clear — Видаляє всі значення з двосторонньої черги
 
 ### Опис
 
-public **Ds\Deque::clear**(): void
+```methodsynopsis
+public Ds\Deque::clear(): void
+```
 
 Видаляє всі значення двосторонньої черги.
 
@@ -27,18 +35,28 @@ public **Ds\Deque::clear**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Deque::clear()****
+**Приклад #1 Приклад використання **ДсDeque::clear()****
 
-` <?php$deque = new \Ds\Deque([1, 2, 3]);print_r($deque);$deque->clear();print_r($deque);?> `
+```php
+<?php
+$deque = new \Ds\Deque([1, 2, 3]);
+print_r($deque);
+
+$deque->clear();
+print_r($deque);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Deque Object
 (
-[0] => 1
-[1] => 2
-[2] => 3
+    [0] => 1
+    [1] => 2
+    [2] => 3
 )
 Ds\Deque Object
 (
 )
+```

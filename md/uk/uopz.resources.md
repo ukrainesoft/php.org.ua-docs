@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](uopz.configuration.md)
-- [Предвизначені константи »](uopz.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](uopz.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](uopz.configuration.html)
+    
+-   [Предопределённые константы »](uopz.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](uopz.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

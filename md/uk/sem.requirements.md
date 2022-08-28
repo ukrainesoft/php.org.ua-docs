@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](sem.setup.md)
-- [Встановлення »](sem.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](sem.setup.md)
-- Вимоги
+-   [« Установка и настройка](sem.setup.html)
+    
+-   [Установка »](sem.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](sem.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

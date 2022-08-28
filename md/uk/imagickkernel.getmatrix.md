@@ -1,23 +1,29 @@
-- [« ImagickKernel::fromMatrix](imagickkernel.frommatrix.md)
-- [ImagickKernel::scale »](imagickkernel.scale.md)
+Опис
 
-- [PHP Manual](index.md)
-- [ImagickKernel](class.imagickkernel.md)
-- Опис
+-   [« ImagickKernel::fromMatrix](imagickkernel.frommatrix.html)
+    
+-   [ImagickKernel::scale »](imagickkernel.scale.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickKernel](class.imagickkernel.html)
+    
+-   Опис
+    
 
 # ImagickKernel::getMatrix
 
-(PECL imagick \>= 3.3.0)
+(PECL imagick >= 3.3.0)
 
 ImagickKernel::getMatrix — Опис
 
 ### Опис
 
-public **ImagickKernel::getMatrix**(): array
+```methodsynopsis
+public ImagickKernel::getMatrix(): array
+```
 
-Отримати 2d матрицю значень, що використовуються у цьому ядрі. Елементи
-є або числом з плаваючою точкою для використовуваних елементів, або
-'false', якщо елемент має бути пропущений.
+Отримати 2d матрицю значень, що використовуються у цьому ядрі. Елементи є або числом з плаваючою точкою для елементів, або 'false', якщо елемент повинен бути пропущений.
 
 ### Список параметрів
 
@@ -25,10 +31,48 @@ public **ImagickKernel::getMatrix**(): array
 
 ### Значення, що повертаються
 
-Матриця (2d масив) значень, що становлять ядро.
+Матриця (2d масив) значень, які представляють ядро.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ImagickKernel::getMatrix()****
 
-` <?phpfunction renderKernelTable($matrix) {   $output = "<table class='infoTable'>"; foreach ($matrix as $row) {        $output .= "<tr>"; foreach ($row as $cell) {            $output .= "<td style='text-align:left'>"; if ($cell === false) {                $output .= "false"; }|||||||||||| }             $output .= "</td>"; }        $output .= "</tr>"; }   $output .= "</table>"; return $output;}   $output = "Ім'я вбудованого ядра 'ring' з параметрами '2,3.5':<br/>"; $kernel= \ImagickKernel::fromBuiltIn(        \Imagick::KERNEL_RING,        "2,3.5"    ); $matrix==$kernel->getMatrix(); $output.==renderKernelTable($matrix); echo $output;?> `
+```php
+<?php
+
+
+function renderKernelTable($matrix) {
+    $output = "<table class='infoTable'>";
+
+    foreach ($matrix as $row) {
+        $output .= "<tr>";
+        foreach ($row as $cell) {
+            $output .= "<td style='text-align:left'>";
+            if ($cell === false) {
+                $output .= "false";
+            }
+            else {
+                $output .= round($cell, 3);
+            }
+            $output .= "</td>";
+        }
+        $output .= "</tr>";
+    }
+
+    $output .= "</table>";
+
+    return $output;
+}
+
+    $output = "Имя встроенного ядра 'ring' с параметрами '2,3.5':<br/>";
+    $kernel = \ImagickKernel::fromBuiltIn(
+        \Imagick::KERNEL_RING,
+        "2,3.5"
+    );
+    $matrix = $kernel->getMatrix();
+    $output .= renderKernelTable($matrix);
+
+    echo $output;
+
+?>
+```

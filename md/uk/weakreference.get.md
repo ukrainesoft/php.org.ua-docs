@@ -1,22 +1,29 @@
-- [« WeakReference::create](weakreference.create.md)
-- [WeakMap »](class.weakmap.md)
+Отримує об'єкт із слабким посиланням
 
-- [PHP Manual](index.md)
-- [WeakReference](class.weakreference.md)
-- Отримує об'єкт із слабким посиланням
+-   [« WeakReference::create](weakreference.create.html)
+    
+-   [WeakMap »](class.weakmap.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WeakReference](class.weakreference.html)
+    
+-   Отримує об'єкт із слабким посиланням
+    
 
 # WeakReference::get
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 WeakReference::get — Отримує об'єкт із слабким посиланням
 
 ### Опис
 
-public **WeakReference::get**(): ?object
+```methodsynopsis
+public WeakReference::get(): ?object
+```
 
-Отримує об'єкт із слабким посиланням. Якщо об'єкт вже було знищено,
-повертається **`null`**.
+Отримує об'єкт із слабким посиланням. Якщо об'єкт вже було знищено, повертається **`null`**
 
 ### Список параметрів
 

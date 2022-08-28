@@ -1,21 +1,27 @@
-- [« Swoole\Lock::lock_read](swoole-lock.lock-read.md)
-- [Swoole\Lock::trylock_read »](swoole-lock.trylock-read.md)
+Намагається отримати блокування. Заблокується, якщо блокування недоступне
 
-- [PHP Manual](index.md)
-- [Swoole\Lock](class.swoole-lock.md)
-- Намагається отримати блокування. Заблокується, якщо блокування
-недоступна
+-   [« Swoole\\Lock::lock\_read](swoole-lock.lock-read.html)
+    
+-   [Swoole\\Lock::trylock\_read »](swoole-lock.trylock-read.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Lock](class.swoole-lock.html)
+    
+-   Намагається отримати блокування. Заблокується, якщо блокування недоступне
+    
 
-# Swoole\Lock::lock
+# SwooleLock::lock
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Lock::lock — Намагається отримати блокування. Заблокується, якщо
-блокування недоступне
+SwooleLock::lock — Намагається отримати блокування. Заблокується, якщо блокування недоступне
 
 ### Опис
 
-public **Swoole\Lock::lock**(): void
+```methodsynopsis
+public Swoole\Lock::lock(): void
+```
 
 ### Список параметрів
 

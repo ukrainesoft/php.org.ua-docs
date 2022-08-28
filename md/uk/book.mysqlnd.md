@@ -1,24 +1,30 @@
-- [« mysql_unbuffered_query](function.mysql-unbuffered-query.md)
-- [Вступ »](intro.mysqlnd.md)
+Вбудований драйвер MySQL
 
-- [PHP Manual](index.md)
-- [MySQL](set.mysqlinfo.md)
-- Вбудований драйвер MySQL
+-   [« mysql\_unbuffered\_query](function.mysql-unbuffered-query.html)
+    
+-   [Введение »](intro.mysqlnd.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](set.mysqlinfo.html)
+    
+-   Вбудований драйвер MySQL
+    
 
 # Вбудований драйвер MySQL
 
-- [Вступ](intro.mysqlnd.md)
-- [Огляд](mysqlnd.overview.md)
-- [Установка](mysqlnd.install.md)
-- [Налаштування під час виконання](mysqlnd.config.md)
-- [Несумісності](mysqlnd.incompatibilities.md)
-- [Постійне з'єднання](mysqlnd.persist.md)
-- [Статистика](mysqlnd.stats.md)
-- [Примітки](mysqlnd.notes.md)
-- [Управління пам'яттю](mysqlnd.memory.md)
-- [API для плагінів до вбудованого драйвера MySQL](mysqlnd.plugin.md)
-- [Порівняння плагінів mysqlnd з MySQL Proxy](mysqlnd.plugin.mysql-proxy.md)
-- [Отримання API плагінів mysqlnd](mysqlnd.plugin.obtaining.md)
-- [Архітектура плагінів MySQL Native Driver](mysqlnd.plugin.architecture.md)
-- [API плагінів mysqlnd](mysqlnd.plugin.api.md)
-- [Починаємо розробку плагіна mysqlnd](mysqlnd.plugin.developing.md)
+-   [Введение](intro.mysqlnd.html)
+-   [Обзор](mysqlnd.overview.html)
+-   [Установка](mysqlnd.install.html)
+-   [Настройка во время выполнения](mysqlnd.config.html)
+-   [Несовместимости](mysqlnd.incompatibilities.html)
+-   [Постоянное соединение](mysqlnd.persist.html)
+-   [Статистика](mysqlnd.stats.html)
+-   [Замечания](mysqlnd.notes.html)
+-   [Управление памятью](mysqlnd.memory.html)
+-   [API для плагинов к встроенному драйверу MySQL](mysqlnd.plugin.html)
+    -   [Сравнение плагинов mysqlnd с MySQL Proxy](mysqlnd.plugin.mysql-proxy.html)
+    -   [Получение API плагинов mysqlnd](mysqlnd.plugin.obtaining.html)
+    -   [Архитектура плагинов MySQL Native Driver](mysqlnd.plugin.architecture.html)
+    -   [API плагинов mysqlnd](mysqlnd.plugin.api.html)
+    -   [Начинаем разработку плагина mysqlnd](mysqlnd.plugin.developing.html)

@@ -1,18 +1,22 @@
-- [« date_interval_create_from_date_string](function.date-interval-create-from-date-string.md)
-- [date_isodate_set »](function.date-isodate-set.md)
+Псевдонім DateInterval::format
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateInterval::format
+-   [« date\_interval\_create\_from\_date\_string](function.date-interval-create-from-date-string.html)
+    
+-   [date\_isodate\_set »](function.date-isodate-set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateInterval::format
+    
 
-# date_interval_format
+# dateintervalformat
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-date_interval_format - Псевдонім
-[DateInterval::format()](dateinterval.format.md)
+dateintervalformat — Псевдонім [DateInterval::format()](dateinterval.format.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateInterval::format()](dateinterval.format.md)
+Ця функція є псевдонімом: [DateInterval::format()](dateinterval.format.html)

@@ -1,19 +1,27 @@
-- [«SolrInputDocument::merge](solrinputdocument.merge.md)
-- [SolrInputDocument::setBoost »](solrinputdocument.setboost.md)
+Псевдонім SolrInputDocument::clear
 
-- [PHP Manual](index.md)
-- [SolrInputDocument](class.solrinputdocument.md)
-- Псевдонім SolrInputDocument::clear
+-   [« SolrInputDocument::merge](solrinputdocument.merge.html)
+    
+-   [SolrInputDocument::setBoost »](solrinputdocument.setboost.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrInputDocument](class.solrinputdocument.html)
+    
+-   Псевдонім SolrInputDocument::clear
+    
 
 # SolrInputDocument::reset
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrInputDocument::reset — Псевдонім SolrInputDocument::clear
 
 ### Опис
 
-public **SolrInputDocument::reset**(): bool
+```methodsynopsis
+public SolrInputDocument::reset(): bool
+```
 
 Псевдонім SolrInputDocument::clear
 
@@ -23,5 +31,4 @@ public **SolrInputDocument::reset**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

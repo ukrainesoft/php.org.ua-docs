@@ -1,20 +1,27 @@
-- [«SolrQuery::getGroupOffset](solrquery.getgroupoffset.md)
-- [SolrQuery::getGroupSortFields »](solrquery.getgroupsortfields.md)
+Повертає всі параметри group.query
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає всі параметри group.query
+-   [« SolrQuery::getGroupOffset](solrquery.getgroupoffset.html)
+    
+-   [SolrQuery::getGroupSortFields »](solrquery.getgroupsortfields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає всі параметри group.query
+    
 
 # SolrQuery::getGroupQueries
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
-SolrQuery::getGroupQueries — Повертає всі параметри
-group.query
+SolrQuery::getGroupQueries — Повертає всі параметри group.query
 
 ### Опис
 
-public **SolrQuery::getGroupQueries**(): array
+```methodsynopsis
+public SolrQuery::getGroupQueries(): array
+```
 
 Повертає всі параметри group.query
 
@@ -28,5 +35,4 @@ array
 
 ### Дивіться також
 
-- [SolrQuery::addGroupQuery()](solrquery.addgroupquery.md) -
-Дозволяє групувати документи, що відповідають цьому запиту
+-   [SolrQuery::addGroupQuery()](solrquery.addgroupquery.html) - Дозволяє групувати документи, що відповідають цьому запиту

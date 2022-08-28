@@ -1,71 +1,99 @@
-- [«uopz_backup](function.uopz-backup.md)
-- [uopz_copy »](function.uopz-copy.md)
+Скласти клас
 
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Скласти клас
+-   [« uopz\_backup](function.uopz-backup.html)
+    
+-   [uopz\_copy »](function.uopz-copy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Uopz](ref.uopz.html)
+    
+-   Скласти клас
+    
 
-#uopz_compose
+# uopzcompose
 
 (PECL uopz 1, PECL uopz 2)
 
-uopz_compose — Скласти клас
+uopzcompose — Скласти клас
 
 **Увага**
 
-Ця функція була *Видалена* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
 
 ### Опис
 
-**uopz_compose**(
-string `$name`,
-array `$classes`,
-array `$methods` = ?,
-array `$properties` = ?,
-int `$flags` = ?
-): void
+```methodsynopsis
+uopz_compose(    string $name,    array $classes,    array $methods = ?,    array $properties = ?,    int $flags = ?): void
+```
 
-Створює клас заданого імені, який реалізує, успадковує або
-використовує всі надані класи
+Створює клас заданого імені, який реалізує, успадковує чи використовує всі надані класи
 
 ### Список параметрів
 
 `name`
+
 Коректне ім'я класу
 
 `classes`
+
 Масив імен класів, інтерфейсів та трейтів
 
 `methods`
-Асоціативний масив методів, де значення або замикання, або
-представлені структурою [модифікатори = замикання]
+
+Асоціативний масив методів, де значення або замикання, або представлені структурою модифікатори => замикання
 
 `properties`
-Асоціативний масив властивостей, де ключі – імена, а значення –
-модифікатори
+
+Асоціативний масив властивостей, де ключі – імена, а значення – модифікатори
 
 `flags`
-Тип запису за замовчуванням ZEND_ACC_CLASS
+
+Тип запису за замовчуванням ZENDACCCLASS
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_compose()****
+**Приклад #1 Приклад використання **uopzcompose()****
 
-` <?phpclass myClass {}trait myTrait {}interface myInterface {}uopz_compose(    Composed::class, [        myClass::class,        myTrait::class,        myInterface::class    ], [    "__construct" => function() {        / * ... */    }]);var_dump( class_uses(Composed::class), class_parents(Composed::class), class_implements(Composed::class));?> `
+```php
+<?php
+class myClass {}
+trait myTrait {}
+interface myInterface {}
+
+uopz_compose(
+    Composed::class, [
+        myClass::class,
+        myTrait::class,
+        myInterface::class
+    ], [
+    "__construct" => function() {
+        /* ... */
+    }
+]);
+
+var_dump(
+ class_uses(Composed::class),
+ class_parents(Composed::class),
+ class_implements(Composed::class));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 array(1) {
-["myTrait"]=>
-string(7) "myTrait"
+  ["myTrait"]=>
+  string(7) "myTrait"
 }
 array(1) {
-["myClass"]=>
-string(7) "myClass"
+  ["myClass"]=>
+  string(7) "myClass"
 }
 array(1) {
-["myInterface"]=>
-string(11) "myInterface"
+  ["myInterface"]=>
+  string(11) "myInterface"
 }
+```

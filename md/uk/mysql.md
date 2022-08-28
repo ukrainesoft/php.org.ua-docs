@@ -1,27 +1,27 @@
-- [«MySQL](set.mysqlinfo.md)
-- [Огляд термінології »](mysqlinfo.terminology.md)
+Огляд PHP драйверів MySQL
 
-- [PHP Manual](index.md)
-- [MySQL](set.mysqlinfo.md)
-- Огляд PHP драйверів MySQL
+-   [« MySQL](set.mysqlinfo.html)
+    
+-   [Обзор терминологии »](mysqlinfo.terminology.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](set.mysqlinfo.html)
+    
+-   Огляд PHP драйверів MySQL
+    
 
 # Огляд PHP драйверів MySQL
 
 # Вступ
 
-Для доступу до бази даних MySQL існує декілька API-інтерфейсів
-PHP. Користувачі можуть вибирати між модулями
-[mysqli](book.mysqli.md) або [PDO_MySQL](ref.pdo-mysql.md).
+Для доступу до бази MySQL існує кілька API-інтерфейсів PHP. Користувачі можуть вибирати між модулями [mysqli](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html)
 
-У цьому посібнику описується
-[термінологія](mysqlinfo.terminology.md) використовується в описах
-кожного API, інформація по [вибору відповідного API](mysqlinfo.api.choosing.md), та інформація яка допоможе вам
-вибрати підходящу, для використання з цим API, MySQL
-[бібліотеку](mysqlinfo.library.choosing.md).
+У цьому посібнику описується [терминология](mysqlinfo.terminology.html) використовується в описах кожного API, інформація по [выбору подходящего API](mysqlinfo.api.choosing.html), та інформація яка допоможе вам вибрати підходящу, для використання з цим API, MySQL [библиотеку](mysqlinfo.library.choosing.html)
 
-- [Огляд термінології](mysqlinfo.terminology.md)
-- [Вибір API](mysqlinfo.api.choosing.md)
-- [Вибір бібліотеки](mysqlinfo.library.choosing.md)
-- [Основні поняття](mysqlinfo.concepts.md)
-- [Буферизовані та небуферизовані запити](mysqlinfo.concepts.buffering.md)
-- [кодування символів](mysqlinfo.concepts.charset.md)
+-   [Обзор терминологии](mysqlinfo.terminology.html)
+-   [Выбор API](mysqlinfo.api.choosing.html)
+-   [Выбор библиотеки](mysqlinfo.library.choosing.html)
+-   [Основные понятия](mysqlinfo.concepts.html)
+    -   [Буферизированные и небуферизированные запросы](mysqlinfo.concepts.buffering.html)
+    -   [Кодировки символов](mysqlinfo.concepts.charset.html)

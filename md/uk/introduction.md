@@ -1,13 +1,19 @@
-- [«Приступаючи до роботи](getting-started.md)
-- [Що таке PHP? »](intro-whatis.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [Приступаючи до роботи](getting-started.md)
+-   [« Приступая к работе](getting-started.html)
+    
+-   [Что такое PHP? »](intro-whatis.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Приступая к работе](getting-started.html)
+    
 -   Вступ
+    
 
 # Вступ
 
 ## Зміст
 
-- [Що таке PHP?](intro-whatis.md)
-- [Можливості PHP](intro-whatcando.md)
+-   [Что такое PHP?](intro-whatis.html)
+-   [Возможности PHP](intro-whatcando.html)

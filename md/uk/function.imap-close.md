@@ -1,46 +1,50 @@
-- [« imap_clearflag_full](function.imap-clearflag-full.md)
-- [imap_create »](function.imap-create.md)
+Закрити потік IMAP
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Закрити потік IMAP
+-   [« imap\_clearflag\_full](function.imap-clearflag-full.html)
+    
+-   [imap\_create »](function.imap-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Закрити потік IMAP
+    
 
-#imap_close
+# imapclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_close — Закрити потік IMAP
+imapclose — Закрити потік IMAP
 
 ### Опис
 
-**imap_close**([IMAP\Connection](class.imap-connection.md) `$imap`,
-int `$flags` = 0): bool
+```methodsynopsis
+imap_close(IMAP\Connection $imap, int $flags = 0): bool
+```
 
 Закриває IMAP-потік.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `flags`
-Якщо встановлено **`CL_EXPUNGE`**, то ця функція мовчки застосує все
-внесені зміни, зокрема видалить всі повідомлення, позначені для
-видалення. По суті зробить те саме, що і функція
-[imap_expunge()](function.imap-expunge.md)
+
+Якщо встановлено **`CL_EXPUNGE`**, то ця функція мовчки застосує всі внесені зміни, зокрема видалить всі повідомлення, позначені для видалення. По суті зробить те саме, що і функція [imap\_expunge()](function.imap-expunge.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_open()](function.imap-open.md) - Відкриває потік IMAP до
-поштовій скриньці
+-   [imap\_open()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки

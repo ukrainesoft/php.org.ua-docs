@@ -1,9 +1,15 @@
-- [« Imagick::setGravity](imagick.setgravity.md)
-- [Imagick::setImageAlphaChannel »](imagick.setimagealphachannel.md)
+Замінює зображення в об'єкті
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Замінює зображення в об'єкті
+-   [« Imagick::setGravity](imagick.setgravity.html)
+    
+-   [Imagick::setImageAlphaChannel »](imagick.setimagealphachannel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Замінює зображення в об'єкті
+    
 
 # Imagick::setImage
 
@@ -13,20 +19,21 @@ Imagick::setImage — Замінює зображення в об'єкті
 
 ### Опис
 
-public **Imagick::setImage**([Imagick](class.imagick.md) `$replace`):
-bool
+```methodsynopsis
+public Imagick::setImage(Imagick $replace): bool
+```
 
-Замінює поточну послідовність зображень зображенням з
-замінного об'єкта.
+Замінює поточну послідовність зображень зображенням об'єкта, що замінює.
 
 ### Список параметрів
 
 `replace`
+
 Замінний об'єкт Imagick.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -38,4 +45,18 @@ bool
 
 Приклад використання Imagick::setImage()
 
-` <?php/* Створення об'єктів */$image = new Imagick('source.jpg');$replace = new Imagick('replace.jpg');/* source.jpg замінюється на replace.jpg */$image ->setImage($replace);/* Виведення зображення */header('Content-type: image/jpeg');echo $image;?> `
+```php
+<?php
+/* Создание объектов */
+$image = new Imagick('source.jpg');
+$replace = new Imagick('replace.jpg');
+
+/* source.jpg заменяется на replace.jpg */
+$image->setImage($replace);
+
+/* Вывод изображения */
+header('Content-type: image/jpeg');
+echo $image;
+
+?>
+```

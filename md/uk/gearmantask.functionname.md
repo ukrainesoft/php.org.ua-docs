@@ -1,22 +1,29 @@
-- [« GearmanTask::function](gearmantask.function.md)
-- [GearmanTask::isKnown »](gearmantask.isknown.md)
+Отримати ім'я функції
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Отримати ім'я функції
+-   [« GearmanTask::function](gearmantask.function.html)
+    
+-   [GearmanTask::isKnown »](gearmantask.isknown.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Отримати ім'я функції
+    
 
 # GearmanTask::functionName
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanTask::functionName — Отримати назву функції
 
 ### Опис
 
-public **GearmanTask::functionName**(): string
+```methodsynopsis
+public GearmanTask::functionName(): string
+```
 
-Повертає ім'я функції, з якою пов'язане завдання. Цю функцію викликає
-обробник у процесі роботи з даними.
+Повертає ім'я функції, з якою пов'язане завдання. Цю функцію викликає обробник у процесі роботи з даними.
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ public **GearmanTask::functionName**(): string
 
 ### Значення, що повертаються
 
-Назва функції.
+Ім'я функції.

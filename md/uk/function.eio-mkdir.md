@@ -1,78 +1,105 @@
-- [«eio_lstat](function.eio-lstat.md)
-- [eio_mknod »](function.eio-mknod.md)
+Створення директорії
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- створення директорії
+-   [« eio\_lstat](function.eio-lstat.html)
+    
+-   [eio\_mknod »](function.eio-mknod.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Створення директорії
+    
 
-#eio_mkdir
+# eiomkdir
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_mkdir - Створення директорії
+eiomkdir - Створення директорії
 
 ### Опис
 
-**eio_mkdir**(
-string `$path`,
-int `$mode`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_mkdir()** створює директорію із заданим режимом доступу `mode`.
+**eiomkdir()** створює директорію із заданим режимом доступу `mode`
 
 ### Список параметрів
 
 `path`
-Дорога до нової директорії.
+
+Шлях до нової директорії.
 
 `mode`
+
 Режим доступу, наприклад, 0755
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
 
 `data`
-Змінна, яку необхідно передати callback-функції `callback`.
+
+Змінна, яку необхідно передати callback-функції `callback`
 
 ### Значення, що повертаються
 
-У разі успішного виконання операції **eio_mkdir()** поверне ресурс
-запиту або **`false`** у разі виникнення помилки.
+У разі успішного виконання операції **eiomkdir()** поверне ресурс запиту або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eio_mkdir()****
+**Приклад #1 Приклад використання **eiomkdir()****
 
-` <?php$temp_dirname = "eio-temp-dir";/* Викликається, коли eio_mkdir() завершить роботу */function my_mkdir_callback($data, $result) { if &$ && !is_readable($temp_dirname)  && is_writable($temp_dirname)) { echo "eio_mkdir_ok"; } // Удаляем директорию    if (file_exists($data))        rmdir($temp_dirname);}// Создаём директорию с режимом доступа 0300eio_mkdir($temp_dirname, 0300, EIO_PRI_DEFAULT, "my_mkdir_callback", $temp_dirname);eio_event_loop();?> `
+```php
+<?php
+$temp_dirname = "eio-temp-dir";
+
+/* Вызывается, когда eio_mkdir() завершит работу */
+function my_mkdir_callback($data, $result) {
+ if ($result == 0 && is_dir($temp_dirname)
+   && !is_readable($temp_dirname)
+   && is_writable($temp_dirname)) {
+  echo "eio_mkdir_ok";
+ }
+
+ // Удаляем директорию
+    if (file_exists($data))
+        rmdir($temp_dirname);
+}
+
+// Создаём директорию с режимом доступа 0300
+eio_mkdir($temp_dirname, 0300, EIO_PRI_DEFAULT, "my_mkdir_callback", $temp_dirname);
+eio_event_loop();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 eio_mkdir_ok
+```
 
 ### Дивіться також
 
-- [eio_rmdir()](function.eio-rmdir.md) - Видаляє директорію
+-   [eio\_rmdir()](function.eio-rmdir.html) - видаляє директорію

@@ -1,9 +1,15 @@
-- ["UI\Draw\Text\Font\Weight](class.ui-draw-text-font-weight.md)
-- [UI\Draw\Text\Font\Stretch »](class.ui-draw-text-font-stretch.md)
+Налаштування курсивного шрифту
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Налаштування курсивного шрифту
+-   [« UI\\Draw\\Text\\Font\\Weight](class.ui-draw-text-font-weight.html)
+    
+-   [UI\\Draw\\Text\\Font\\Stretch »](class.ui-draw-text-font-stretch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Налаштування курсивного шрифту
+    
 
 # Налаштування курсивного шрифту
 
@@ -13,14 +19,31 @@
 
 ## Огляд класів
 
-final class **UI\Draw\Text\Font\Italic** {
+```synopsis
 
-/\* Constants \*/
 
-const int `Normal` = 0;
 
-const int `Oblique` = 1;
+    
+     
+      final
+      class UI\Draw\Text\Font\Italic
+     
+     {
 
-const int `Italic` = 2;
+    /* Constants */
+    
+     const
+     int
+      Normal = 0;
 
-}
+    const
+     int
+      Oblique = 1;
+
+    const
+     int
+      Italic = 2;
+
+
+    }
+```

@@ -1,68 +1,95 @@
-- [«get_object_vars](function.get-object-vars.md)
-- [interface_exists »](function.interface-exists.md)
+Повертає ім'я батьківського класу для об'єкта чи класу
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Повертає ім'я батьківського класу для об'єкта чи класу
+-   [« get\_object\_vars](function.get-object-vars.html)
+    
+-   [interface\_exists »](function.interface-exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Повертає ім'я батьківського класу для об'єкта чи класу
+    
 
-#get_parent_class
+# getparentclass
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_parent_class — Повертає ім'я батьківського класу для об'єкта або
-класу
+getparentclass — Повертає ім'я батьківського класу для об'єкта або класу
 
 ### Опис
 
-**get_parent_class**(object\|string `$object_or_class` = ?):
-string\|false
+```methodsynopsis
+get_parent_class(object|string $object_or_class = ?): string|false
+```
 
 Повертає ім'я батьківського класу для об'єкта чи класу.
 
 ### Список параметрів
 
 `object_or_class`
-Тестований об'єкт чи ім'я класу. Якщо викликається з методу об'єкта, то
-цей параметр не є обов'язковим.
+
+Тестований об'єкт чи ім'я класу. Якщо викликається з методу об'єкта, цей параметр не обов'язковий.
 
 ### Значення, що повертаються
 
-Повертає ім'я батьківського класу, якщо `object_or_class` є
-об'єктом чи ім'ям класу.
+Повертає ім'я батьківського класу, якщо `object_or_class` є об'єктом чи ім'ям класу.
 
-> **Примітка**:
->
-> Якщо об'єкт не має батька або переданого класу з такою назвою не
-> Існує, то повертається **`false`**.
+> **Зауваження**
+> 
+> Якщо об'єкт не має батька або переданого класу з такою назвою не існує, то повертається **`false`**
 
-Якщо функція викликана без параметрів поза об'єктом, ця функція повертає
-**`false`**.
+Якщо функція викликана без параметрів поза об'єктом, ця функція повертає **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                         |
-| ------ | ---------------------------------------------------------------------------- |
-| 8.0.0  | Параметр object_or_class тепер приймає лише об'єкти чи коректні імена класів |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_parent_class()****
+**Приклад #1 Приклад використання **getparentclass()****
 
-` <?phpclass Dad {    function __construct()    {    // реализация какой-нибудь логики    }}class Child extends Dad {    function __construct()    {        echo "I'm " , get_parent_class($this) , "'s son
-";    }}class Child2 extends Dad {    function __construct()   {       echo "I'm " , get_parent_class('  
-";    }}$foo = new child();$bar = new child2();?> `
+```php
+<?php
+
+class Dad {
+    function __construct()
+    {
+    // реализация какой-нибудь логики
+    }
+}
+
+class Child extends Dad {
+    function __construct()
+    {
+        echo "I'm " , get_parent_class($this) , "'s son\n";
+    }
+}
+
+class Child2 extends Dad {
+    function __construct()
+    {
+        echo "I'm " , get_parent_class('child2') , "'s son too\n";
+    }
+}
+
+$foo = new child();
+$bar = new child2();
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 I'm Dad's son
 I'm Dad's son too
+```
 
 ### Дивіться також
 
-- [get_class()](function.get-class.md) - Повертає ім'я класу, до
-якому належить об'єкт
-- [is_subclass_of()](function.is-subclass-of.md) - Перевіряє,
-чи містить об'єкт у своєму дереві предків зазначений клас чи прямо
-реалізує його
-- [class_parents()](function.class-parents.md) - Повертає список
-батьківських класів заданого класу
+-   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [class\_parents()](function.class-parents.html) - Повертає список батьківських класів заданого класу

@@ -1,20 +1,27 @@
-- [« MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-- [MongoDB\Driver\WriteResult::getInsertedCount »](mongodb-driver-writeresult.getinsertedcount.md)
+Повертає кількість видалених документів
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
-- Повертає кількість видалених документів
+-   [« MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+    
+-   [MongoDB\\Driver\\WriteResult::getInsertedCount »](mongodb-driver-writeresult.getinsertedcount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)
+    
+-   Повертає кількість видалених документів
+    
 
-# MongoDB\Driver\WriteResult::getDeletedCount
+# MongoDBDriverWriteResult::getDeletedCount
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\WriteResult::getDeletedCount — Повертає кількість
-віддалених документів
+MongoDBDriverWriteResult::getDeletedCount — Повертає кількість видалених документів
 
 ### Опис
 
-final public **MongoDB\Driver\WriteResult::getDeletedCount**(): ?int
+```methodsynopsis
+final public MongoDB\Driver\WriteResult::getDeletedCount(): ?int
+```
 
 ### Список параметрів
 
@@ -22,26 +29,41 @@ final public **MongoDB\Driver\WriteResult::getDeletedCount**(): ?int
 
 ### Значення, що повертаються
 
-Повертає кількість видалених документів або **`null`** якщо запис не
-була підтверджена.
+Повертає кількість видалених документів або **`null`** якщо запис не було підтверджено.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteResult::getDeletedCount()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteResult::getDeletedCount()****
 
-` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$bulk->update(['x' => 1], ['$set' => ['y' => 3]]);$bulk->update(['x' => 2], ['$set' => ['y' = > 1]], ['upsert' => true]);$bulk->update(['x' => 3], ['$set' => ['y' => 2]], ['upsert ' => true]);$bulk->delete(['x' => 1]);$result = $manager->executeBulkWrite('db.collection', $bulk);var_dump($result->getDeletedCount( ));?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager;
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$bulk->update(['x' => 1], ['$set' => ['y' => 3]]);
+$bulk->update(['x' => 2], ['$set' => ['y' => 1]], ['upsert' => true]);
+$bulk->update(['x' => 3], ['$set' => ['y' => 2]], ['upsert' => true]);
+$bulk->delete(['x' => 1]);
+
+$result = $manager->executeBulkWrite('db.collection', $bulk);
+
+var_dump($result->getDeletedCount());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(1)
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) -
-Повертає, чи був запис підтверджений
+-   [MongoDB\\Driver\\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений

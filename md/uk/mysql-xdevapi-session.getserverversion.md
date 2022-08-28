@@ -1,9 +1,15 @@
-- [« Session::getSchemas](mysql-xdevapi-session.getschemas.md)
-- [Session::listClients »](mysql-xdevapi-session.listclients.md)
+Отримує версію сервера
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
-- Отримує версію сервера
+-   [« Session::getSchemas](mysql-xdevapi-session.getschemas.html)
+    
+-   [Session::listClients »](mysql-xdevapi-session.listclients.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Session](class.mysql-xdevapi-session.html)
+    
+-   Отримує версію сервера
+    
 
 # Session::getServerVersion
 
@@ -13,9 +19,11 @@ Session::getServerVersion — Отримує версію сервера
 
 ### Опис
 
-public **mysql_xdevapi\Session::getServerVersion**(): int
+```methodsynopsis
+public mysql_xdevapi\Session::getServerVersion(): int
+```
 
-Отримує версію MySQL сервера для сесії.
+Отримує версію MySQL для сесії.
 
 ### Список параметрів
 
@@ -27,11 +35,19 @@ public **mysql_xdevapi\Session::getServerVersion**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Session::getServerVersion()****
+**Приклад #1 Приклад використання **mysqlxdevapiSession::getServerVersion()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$version = $session->getServerVersion();var_dump($version); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$version = $session->getServerVersion();
+
+var_dump($version);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(80012)
+```

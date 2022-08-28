@@ -1,88 +1,111 @@
-- [« CommonMark\Node\Image::\_\_construct](commonmark-node-image.construct.md)
-- [CommonMark\Node\Link::\_\_construct »](commonmark-node-link.construct.md)
+Link успадковує CommonMarkNode
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
-- Link успадковує CommonMark\Node
+-   [« CommonMark\\Node\\Image::\_\_construct](commonmark-node-image.construct.html)
+    
+-   [CommonMark\\Node\\Link::\_\_construct »](commonmark-node-link.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark](book.cmark.html)
+    
+-   Link успадковує CommonMarkNode
+    
 
-# Link успадковує CommonMark\Node
+# Link успадковує CommonMarkNode
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
 ## Огляд класів
 
-final class **CommonMark\Node\Link** extends
-[CommonMark\Node](class.commonmark-node.md) implements
-[CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md),
-[Traversable](class.traversable.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-public readonly ?Node `$parent`;
+    
+    
+     
+      final
+      class CommonMark\Node\Link
+     
 
-public readonly ?Node `$previous`;
+     
+      extends
+       CommonMark\Node
+     
 
-public readonly ?Node `$next`;
+     implements 
+       CommonMark\Interfaces\IVisitable,  Traversable {
+    
 
-public readonly ?Node `$lastChild`;
-
-public readonly ?Node `$firstChild`;
-
-public readonly int `$startLine`;
-
-public readonly int `$endLine`;
-
-public readonly int `$startColumn`;
-
-public readonly int `$endColumn`;
-
-/\* Властивості \*/
-
-public ?string `$url`;
-
-public ?string `$title`;
-
-/\* Конструктор \*/
-
-public [\_\_construct](commonmark-node-link.construct.md)()
-
-public [\_\_construct](commonmark-node-link.construct.md)(string
-`$url`)
-
-public [\_\_construct](commonmark-node-link.construct.md)(string
-`$url`, string `$title`)
-
-/\* Наслідувані методи \*/
-
+    /* Наследуемые свойства */
+    
+     public
+     readonly
+     ?Node
+      $parent;
 public
-[CommonMark\Node::appendChild](commonmark-node.appendchild.md)([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $previous;
 public
-[CommonMark\Node::prependChild](commonmark-node.prependchild.md)([CommonMark\Node](class.commonmark-node.md)
-`$child`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $next;
 public
-[CommonMark\Node::insertAfter](commonmark-node.insertafter.md)([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $lastChild;
 public
-[CommonMark\Node::insertBefore](commonmark-node.insertbefore.md)([CommonMark\Node](class.commonmark-node.md)
-`$sibling`): [CommonMark\Node](class.commonmark-node.md)
-
+     readonly
+     ?Node
+      $firstChild;
 public
-[CommonMark\Node::replace](commonmark-node.replace.md)([CommonMark\Node](class.commonmark-node.md)
-`$target`): [CommonMark\Node](class.commonmark-node.md)
-
-public [CommonMark\Node::unlink](commonmark-node.unlink.md)(): void
-
+     readonly
+     int
+      $startLine;
 public
-[CommonMark\Node::accept](commonmark-node.accept.md)([CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-`$visitor`): void
+     readonly
+     int
+      $endLine;
+public
+     readonly
+     int
+      $startColumn;
+public
+     readonly
+     int
+      $endColumn;
 
-}
+
+    /* Свойства */
+    public
+     ?string
+      $url;
+
+    public
+     ?string
+      $title;
+
+
+    /* Конструктор */
+    
+   public __construct()
+public __construct(string $url)
+public __construct(string $url, string $title)
+
+
+    /* Наследуемые методы */
+    public CommonMark\Node::appendChild(CommonMark\Node $child): CommonMark\Node
+public CommonMark\Node::prependChild(CommonMark\Node $child): CommonMark\Node
+public CommonMark\Node::insertAfter(CommonMark\Node $sibling): CommonMark\Node
+public CommonMark\Node::insertBefore(CommonMark\Node $sibling): CommonMark\Node
+public CommonMark\Node::replace(CommonMark\Node $target): CommonMark\Node
+public CommonMark\Node::unlink(): void
+public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
+
+
+   }
+```
 
 ## Зміст
 
-- [CommonMark\Node\Link::\_\_construct](commonmark-node-link.construct.md)
-- Конструктор класу Link
+-   [CommonMark\\Node\\Link::\_\_construct](commonmark-node-link.construct.html) - Конструктор класу Link

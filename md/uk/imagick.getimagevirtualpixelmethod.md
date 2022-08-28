@@ -1,20 +1,27 @@
-- [« Imagick::getImageUnits](imagick.getimageunits.md)
-- [Imagick::getImageWhitePoint »](imagick.getimagewhitepoint.md)
+Повертає метод віртуального пікселя
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає метод віртуального пікселя
+-   [« Imagick::getImageUnits](imagick.getimageunits.html)
+    
+-   [Imagick::getImageWhitePoint »](imagick.getimagewhitepoint.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає метод віртуального пікселя
+    
 
 # Imagick::getImageVirtualPixelMethod
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageVirtualPixelMethod — Повертає метод віртуального
-пікселя
+Imagick::getImageVirtualPixelMethod — Повертає метод віртуального пікселя
 
 ### Опис
 
-public **Imagick::getImageVirtualPixelMethod**(): int
+```methodsynopsis
+public Imagick::getImageVirtualPixelMethod(): int
+```
 
 Повертає метод віртуального пікселя для вказаного зображення.
 

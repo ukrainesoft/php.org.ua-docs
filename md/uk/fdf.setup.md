@@ -1,15 +1,21 @@
-- [«Вступ](intro.fdf.md)
-- [Вимоги »](fdf.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [FDF](book.fdf.md)
+-   [« Введение](intro.fdf.html)
+    
+-   [Требования »](fdf.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](book.fdf.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](fdf.requirements.md)
-- [Установка](fdf.installation.md)
-- [Налаштування під час виконання](fdf.configuration.md)
-- [Типи ресурсів](fdf.resources.md)
+-   [Требования](fdf.requirements.html)
+-   [Установка](fdf.installation.html)
+-   [Настройка во время выполнения](fdf.configuration.html)
+-   [Типы ресурсов](fdf.resources.html)

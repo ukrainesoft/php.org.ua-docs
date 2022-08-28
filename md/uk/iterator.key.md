@@ -1,9 +1,15 @@
-- [Iterator::current](iterator.current.md)
-- [Iterator::next »](iterator.next.md)
+Повертає ключ поточного елемента
 
-- [PHP Manual](index.md)
-- [Iterator](class.iterator.md)
-- Повертає ключ поточного елемента
+-   [« Iterator::current](iterator.current.html)
+    
+-   [Iterator::next »](iterator.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Iterator](class.iterator.html)
+    
+-   Повертає ключ поточного елемента
+    
 
 # Iterator::key
 
@@ -13,8 +19,9 @@ Iterator::key — Повертає ключ поточного елемента
 
 ### Опис
 
-public **Iterator::key**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Iterator::key(): mixed
+```
 
 Повертає ключ поточного елемента.
 
@@ -24,8 +31,7 @@ public **Iterator::key**():
 
 ### Значення, що повертаються
 
-Повертає скалярне значення (scalar) у разі успішного виконання або
-**`null`** у разі виникнення помилки.
+Повертає скалярне значення (scalar) у разі успішного виконання або **`null`** у разі виникнення помилки.
 
 ### Помилки
 

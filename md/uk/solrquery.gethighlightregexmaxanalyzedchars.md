@@ -1,25 +1,29 @@
-- [« SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md)
-- [SolrQuery::getHighlightRegexPattern »](solrquery.gethighlightregexpattern.md)
+Повертає максимальну кількість символів із поля при використанні фрагментатора регулярного виразу
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає максимальну кількість символів з поля при
-використання фрагментатора регулярного вираження
+-   [« SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.html)
+    
+-   [SolrQuery::getHighlightRegexPattern »](solrquery.gethighlightregexpattern.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає максимальну кількість символів із поля при використанні фрагментатора регулярного виразу
+    
 
 # SolrQuery::getHighlightRegexMaxAnalyzedChars
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getHighlightRegexMaxAnalyzedChars — Повертає максимальне
-кількість символів з поля при використанні фрагментатора регулярного
-вирази
+SolrQuery::getHighlightRegexMaxAnalyzedChars — Повертає максимальну кількість символів з поля під час використання фрагментатора регулярного виразу
 
 ### Опис
 
-public **SolrQuery::getHighlightRegexMaxAnalyzedChars**(): int
+```methodsynopsis
+public SolrQuery::getHighlightRegexMaxAnalyzedChars(): int
+```
 
-Повертає максимальну кількість символів із поля при використанні
-фрагментатора регулярного вираження
+Повертає максимальну кількість символів із поля при використанні фрагментатора регулярного виразу
 
 ### Список параметрів
 
@@ -27,5 +31,4 @@ public **SolrQuery::getHighlightRegexMaxAnalyzedChars**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число у разі успішного виконання та **`null`**, якщо
-значення не задано
+Повертає ціле число у разі успішного виконання та **`null`**, якщо значення не встановлено

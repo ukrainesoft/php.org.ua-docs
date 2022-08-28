@@ -1,19 +1,27 @@
-- [« MongoDB\Driver\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md)
-- [MongoDB\Driver\WriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.md)
+Повертає опцію "w" WriteConcern
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- Повертає опцію "w" WriteConcern
+-   [« MongoDB\\Driver\\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.html)
+    
+-   [MongoDB\\Driver\\WriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
+    
+-   Повертає опцію "w" WriteConcern
+    
 
-# MongoDB\Driver\WriteConcern::getW
+# MongoDBDriverWriteConcern::getW
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\WriteConcern::getW — Повертає опцію "w" WriteConcern
+MongoDBDriverWriteConcern::getW — Повертає опцію "w" WriteConcern
 
 ### Опис
 
-final public **MongoDB\Driver\WriteConcern::getW**(): string\|int\|null
+```methodsynopsis
+final public MongoDB\Driver\WriteConcern::getW(): string|int|null
+```
 
 ### Список параметрів
 
@@ -25,21 +33,31 @@ final public **MongoDB\Driver\WriteConcern::getW**(): string\|int\|null
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteConcern::getW()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteConcern::getW()****
 
-` <?php$wc = new MongoDB\Driver\WriteConcern(1);var_dump($wc->getW());$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY $wc->getW());?> `
+```php
+<?php
+
+$wc = new MongoDB\Driver\WriteConcern(1);
+var_dump($wc->getW());
+
+$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);
+var_dump($wc->getW());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 int(1)
 string(8) "majority"
+```
 
 ### Дивіться також
 
-- [»Керівництво по гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

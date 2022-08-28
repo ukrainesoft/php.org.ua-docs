@@ -1,36 +1,44 @@
-- [« sodium_crypto_sign_seed_keypair](function.sodium-crypto-sign-seed-keypair.md)
-- [sodium_crypto_sign »](function.sodium-crypto-sign.md)
+Перевірити підпис для повідомлення
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Перевірити підпис для повідомлення
+-   [« sodium\_crypto\_sign\_seed\_keypair](function.sodium-crypto-sign-seed-keypair.html)
+    
+-   [sodium\_crypto\_sign »](function.sodium-crypto-sign.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Перевірити підпис для повідомлення
+    
 
-# sodium_crypto_sign_verify_detached
+# sodiumcryptosignverifydetached
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_sign_verify_detached — Перевірити підпис для повідомлення
+sodiumcryptosignverifydetached — Перевірити підпис для повідомлення
 
 ### Опис
 
-**sodium_crypto_sign_verify_detached**(string `$signature`, string
-`$message`, string `$public_key`): bool
+```methodsynopsis
+sodium_crypto_sign_verify_detached(string $signature, string $message, string $public_key): bool
+```
 
 Перевіряє підпис для повідомлення
 
 ### Список параметрів
 
 `signature`
-Криптографічний підпис, отриманий за допомогою
-[sodium_crypto_sign_detached()](function.sodium-crypto-sign-detached.md)
+
+Криптографічний підпис, отриманий за допомогою [sodium\_crypto\_sign\_detached()](function.sodium-crypto-sign-detached.html)
 
 `message`
+
 Перевірене повідомлення
 
 `public_key`
+
 Відкритий ключ ed25519
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

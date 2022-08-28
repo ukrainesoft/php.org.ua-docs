@@ -1,46 +1,50 @@
-- [«cubrid_set_add](function.cubrid-set-add.md)
-- [cubrid_set_db_parameter »](function.cubrid-set-db-parameter.md)
+Встановлює режим авто-комміту для з'єднання
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Встановлює режим авто-комміту для з'єднання
+-   [« cubrid\_set\_add](function.cubrid-set-add.html)
+    
+-   [cubrid\_set\_db\_parameter »](function.cubrid-set-db-parameter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Встановлює режим авто-комміту для з'єднання
+    
 
-#cubrid_set_autocommit
+# cubridsetautocommit
 
-(PECL CUBRID = 8.4.0)
+(PECL CUBRID >= 8.4.0)
 
-cubrid_set_autocommit — Встановлює режим автокомміту для з'єднання
+cubridsetautocommit — Встановлює режим автокомміту для з'єднання.
 
 ### Опис
 
-**cubrid_set_autocommit**(resource `$conn_identifier`, bool `$mode`):
-bool
+```methodsynopsis
+cubrid_set_autocommit(resource $conn_identifier, bool $mode): bool
+```
 
-Функція **cubrid_set_autocommit()** використовується для встановлення режиму
-авто-комміту для з'єднання.
+Функція **cubridsetautocommit()** використовується для встановлення режиму автокомміту для з'єднання.
 
-У CUBRID PHP, авто-коміт транзакцій за замовчуванням заборонено. Якщо ви його
-увімкніть, всі очікувані транзакції будуть автоматично підтверджені.
+У CUBRID PHP, авто-коміт транзакцій за замовчуванням заборонено. Якщо ви увімкнете, всі очікувані транзакції будуть автоматично підтверджені.
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор з'єднання.
 
 `mode`
+
 Режим авто-комміту. Одна з двох констант:
 
-- **`CUBRID_AUTOCOMMIT_FALSE`**
-- **`CUBRID_AUTOCOMMIT_TRUE`**
+-   **`CUBRID_AUTOCOMMIT_FALSE`**
+-   **`CUBRID_AUTOCOMMIT_TRUE`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [cubrid_get_autocommit()](function.cubrid-get-autocommit.md) -
-Повертає налаштування авто-комміту для з'єднання
-- [cubrid_commit()](function.cubrid-commit.md) - Підтвердження
-транзакції
+-   [cubrid\_get\_autocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання
+-   [cubrid\_commit()](function.cubrid-commit.html) - підтвердження транзакції

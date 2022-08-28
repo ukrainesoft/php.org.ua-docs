@@ -1,23 +1,31 @@
-- [«EventUtil::setSocketOption](eventutil.setsocketoption.md)
-- [FTP »](book.ftp.md)
+Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
 
-- [PHP Manual](index.md)
-- [EventUtil](class.eventutil.md)
-- Згенерувати ентропію за допомогою RAND_poll() із OpenSSL
+-   [« EventUtil::setSocketOption](eventutil.setsocketoption.html)
+    
+-   [FTP »](book.ftp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventUtil](class.eventutil.html)
+    
+-   Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
+    
 
 # EventUtil::sslRandPoll
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventUtil::sslRandPoll — Згенерувати ентропію за допомогою RAND_poll() з
-OpenSSL
+EventUtil::sslRandPoll — Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
 
 ### Опис
 
-public static **EventUtil::sslRandPoll**(): void
+```methodsynopsis
+public
+   static
+   EventUtil::sslRandPoll(): void
+```
 
-Генерує ентропію за допомогою `RAND_poll()` із OpenSSL. (дивіться
-відповідну документацію).
+Генерує ентропію за допомогою `RAND_poll()` із OpenSSL. (Дивіться відповідну документацію).
 
 ### Список параметрів
 

@@ -1,28 +1,36 @@
-- [« Swoole\Buffer::\_\_toString](swoole-buffer.tostring.md)
-- [Swoole\Channel »](class.swoole-channel.md)
+Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не буде змінено
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не
-буде змінено
+-   [« Swoole\\Buffer::\_\_toString](swoole-buffer.tostring.html)
+    
+-   [Swoole\\Channel »](class.swoole-channel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Buffer](class.swoole-buffer.html)
+    
+-   Записує дані у буфер пам'яті. Пам'ять, виділена для буфера, не буде змінено
+    
 
-# Swoole\Buffer::write
+# SwooleBuffer::write
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Buffer::write — Записує дані до буфера пам'яті. Пам'ять,
-виділена для буфера, не буде змінена
+SwooleBuffer::write — записує дані до буфера пам'яті. Пам'ять, виділена для буфера, не буде змінено
 
 ### Опис
 
-public **Swoole\Buffer::write**(int `$offset`, string `$data`): void
+```methodsynopsis
+public Swoole\Buffer::write(int $offset, string $data): void
+```
 
 ### Список параметрів
 
 `offset`
+
 Зміщення.
 
 `data`
+
 Дані для запису буфер пам'яті.
 
 ### Значення, що повертаються

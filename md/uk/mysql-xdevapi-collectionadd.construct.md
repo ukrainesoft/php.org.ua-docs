@@ -1,22 +1,27 @@
-- [« mysql_xdevapi\CollectionAdd](class.mysql-xdevapi-collectionadd.md)
-- [CollectionAdd::execute »](mysql-xdevapi-collectionadd.execute.md)
+Конструктор класу CollectionAdd
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionAdd](class.mysql-xdevapi-collectionadd.md)
-- Конструктор класу CollectionAdd
+-   [« mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html)
+    
+-   [CollectionAdd::execute »](mysql-xdevapi-collectionadd.execute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionAdd](class.mysql-xdevapi-collectionadd.html)
+    
+-   Конструктор класу CollectionAdd
+    
 
-# CollectionAdd::\_\_construct
+# CollectionAdd::construct
 
 (No version information available, might only be in Git)
 
-CollectionAdd::\_\_construct - Конструктор класу CollectionAdd
+CollectionAdd::construct - Конструктор класу CollectionAdd
 
 ### Опис
 
-private **mysql_xdevapi\CollectionAdd::\_\_construct**()
+private **mysqlxdevapiCollectionAdd::construct**
 
-Використовується для додавання документа до колекції; викликається з об'єкту
-Збірка.
+Використовується для додавання документа до колекції; Викликається з об'єкта Collection.
 
 ### Список параметрів
 
@@ -24,23 +29,58 @@ private **mysql_xdevapi\CollectionAdd::\_\_construct**()
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionAdd::\_\_construct()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionAdd::construct()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$collection = $schema->get people");// Добавляємо два документи$collection ->add('{"name": "Fred",  "age": 21, "job": "Construction"}')  ->execute();$collection >add('{"name": "Wilma", "age": 23, "job": "Teacher"}') ->execute();// Додаємо два документи, використовуючи один об'єкт JSON$result ->add(   '{"name": "Bernie",      "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0 }],    "hobbies": ["Sports","Making cupcakes"]}',   '{"name": "Jane",      "jobs": [{"title":"Sciry , {"title":"Mother","Salary":0}],     "hobbies": ["Walking","Making pies"]}') ->execute();// Отримуємо список згенерованих ідентифікації виконання add()$ids = $result->getGeneratedIds();print_r($ids);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
+
+$collection = $schema->getCollection("people");
+
+// Добавляем два документа
+$collection
+  ->add('{"name": "Fred",  "age": 21, "job": "Construction"}')
+  ->execute();
+
+$collection
+  ->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')
+  ->execute();
+
+// Добавляем два документа, используя один объект JSON
+$result = $collection
+  ->add(
+    '{"name": "Bernie",
+      "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0}],
+      "hobbies": ["Sports","Making cupcakes"]}',
+    '{"name": "Jane",
+      "jobs": [{"title":"Scientist","Salary":18000}, {"title":"Mother","Salary":0}],
+      "hobbies": ["Walking","Making pies"]}')
+  ->execute();
+
+// Получаем список сгенерированных идентификаторов из последнего выполнения add()
+$ids = $result->getGeneratedIds();
+print_r($ids);
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => 00005b6b5361000000000000056
-[1] => 00005b6b5361000000000000057
+    [0] => 00005b6b53610000000000000056
+    [1] => 00005b6b53610000000000000057
 )
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> MySQL Server 8.0 або вище генерує унікальний \_id, як показано в
-> приклад. Поле \_id має бути визначено вручну, якщо використовується
-> MySQL Server 5.7.
+> **Зауваження**
+> 
+> MySQL Server 8.0 або вище генерує унікальний id, як показано у прикладі. Поле id слід визначити вручну, якщо використовується MySQL Server 5.7.

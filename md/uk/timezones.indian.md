@@ -1,16 +1,18 @@
-- [« Європа](timezones.europe.md)
-- [Тихоокеанський»](timezones.pacific.md)
+Індійська
 
-- [PHP Manual](index.md)
-- [Список підтримуваних часових поясів](timezones.md)
-- Індійська
+-   [« Европа](timezones.europe.html)
+    
+-   [Тихоокеанский »](timezones.pacific.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список поддерживаемых часовых поясов](timezones.html)
+    
+-   Індійська
+    
 
-## Індійський
+## Індійська
 
-|                     |                  |                  |                 |
-| ------------------- | ---------------- | ---------------- | --------------- |
-| Indian/Antananarivo | Indian/Chagos    | Indian/Christmas | Indian/Cocos    |
-| Indian/Comoro       | Indian/Kerguelen | Indian/Mahe      | Indian/Maldives |
-| Indian/Mauritius    | Indian/Mayotte   | Indian/Reunion   |                 |
+td>< td>Indian/Reunion
 
-**Індійський**
+<table class="doctable table"><caption><strong>Індійський</strong></caption><tbody class="tbody"><tr><td>Indian/Antananarivo</td><td>Indian/ Chagos</td><td>Indian/Christmas</td><td>Indian/Cocos</td></tr><tr><td>Indian/Comoro</td><td>Indian/Kerguelen</td><td>Indian/Mahe</td><td>Indian/Maldives</td></tr><tr><td>Indian/Mauritius</td><td>Indian/Mayotte</td><td class="empty">&nbsp;</td></tr></tbody></table>

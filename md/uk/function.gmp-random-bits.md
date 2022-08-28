@@ -1,44 +1,59 @@
-- [«gmp_prob_prime](function.gmp-prob-prime.md)
-- [gmp_random_range »](function.gmp-random-range.md)
+Випадкове число
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Випадкове число
+-   [« gmp\_prob\_prime](function.gmp-prob-prime.html)
+    
+-   [gmp\_random\_range »](function.gmp-random-range.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Випадкове число
+    
 
-#gmp_random_bits
+# gmprandombits
 
-(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
+(PHP 5> = 5.6.3, PHP 7, PHP 8)
 
-gmp_random_bits — Випадкове число
+gmprandombits — Випадкове число
 
 ### Опис
 
-**gmp_random_bits**(int `$bits`): [GMP](class.gmp.md)
+```methodsynopsis
+gmp_random_bits(int $bits): GMP
+```
 
-Генерує випадкове число. Число буде в діапазоні від 0 до (2 \*\*
-`bits`) – 1.
+Генерує випадкове число. Число буде в діапазоні від 0 до (2 `bits`
 
-Параметр `bits` має бути більшим за 0, а максимальне значення обмежено
-лише доступною оперативною пам'яттю.
+Параметр `bits` має бути більше 0, а максимальне значення обмежене лише доступною оперативною пам'яттю.
 
 ### Список параметрів
 
 `bits`
+
 Кількість бітів.
 
 ### Значення, що повертаються
 
-Випадкове GMP-число.
+Випадкове число GMP.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmp_random_bits()****
+**Приклад #1 Приклад використання **gmprandombits()****
 
-`<?php$rand1 = gmp_random_bits(3); // випадкове число від 0 до 7$rand2 = gmp_random_bits(5); // випадкове число від 0 до 31echo gmp_strval($rand1) . "
-";echo gmp_strval($rand2) . "
-";?> `
+```php
+<?php
+$rand1 = gmp_random_bits(3); // случайное число от 0 до 7
+$rand2 = gmp_random_bits(5); // случайное число от 0 до 31
+
+echo gmp_strval($rand1) . "\n";
+echo gmp_strval($rand2) . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3
 15
+```

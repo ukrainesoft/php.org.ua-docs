@@ -1,58 +1,64 @@
-- [«odbc_pconnect](function.odbc-pconnect.md)
-- [odbc_primarykeys »](function.odbc-primarykeys.md)
+Підготовка запиту до виконання
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- готує запит до виконання
+-   [« odbc\_pconnect](function.odbc-pconnect.html)
+    
+-   [odbc\_primarykeys »](function.odbc-primarykeys.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Підготовка запиту до виконання
+    
 
-#odbc_prepare
+# odbcprepare
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_prepare — Підготовка запиту до виконання
+odbcprepare — Підготовка запиту до виконання
 
 ### Опис
 
-**odbc_prepare**(resource `$odbc`, string `$query`): resource\|false
+```methodsynopsis
+odbc_prepare(resource $odbc, string $query): resource|false
+```
 
-Підготовка запиту до виконання. Ідентифікатор результату може бути
-використаний пізніше для виконання запиту за допомогою
-[odbc_execute()](function.odbc-execute.md).
+Підготовка запиту до виконання. Ідентифікатор результату може бути використаний пізніше для виконання запиту за допомогою [odbc\_execute()](function.odbc-execute.html)
 
-Деякі бази даних (наприклад, IBM DB2, MS SQL Server та Oracle)
-підтримують процедури, що зберігаються, які приймають параметри типу IN,
-INOUT та OUT, як визначено у специфікації ODBC. Проте драйвер Unified
-ODBC в даний час підтримує лише параметри типу IN для
-процедур, що зберігаються.
+Деякі бази даних (наприклад, IBM DB2, MS SQL Server та Oracle) підтримують процедури, що зберігаються, які приймають параметри типу IN, INOUT і OUT, як визначено в специфікації ODBC. Однак драйвер Unified ODBC в даний час підтримує лише параметри типу IN для збережених процедур.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
 
 `query`
-Підготовка запиту у вигляді рядка.
+
+Підготовлюваний запит у вигляді рядка.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC, якщо SQL-команда була успішною
-підготовлено. У разі виникнення помилки повертає **`false`**.
+Повертає ідентифікатор результату ODBC, якщо команда SQL була успішно підготовлена. У разі виникнення помилки повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[odbc_execute()](function.odbc-execute.md) та **odbc_prepare()****
+**Приклад #1 Приклад використання [odbc\_execute()](function.odbc-execute.html) і **odbcprepare()****
 
-У даному коді значення `$success` дорівнюватиме **`true`**, тільки якщо
-всі три параметри myproc є параметрами IN:
+У даному коді значення $success дорівнюватиме **`true`**, тільки якщо всі три параметри myproc є параметрами IN:
 
-` <?php$a = 1;$b = 2;$c = 3;$stmt    = odbc_prepare($conn, 'CALL myproc(?,?,?)');$success = odbc_execute($stmt $a, $b, $c));?> `
+```php
+<?php
+$a = 1;
+$b = 2;
+$c = 3;
+$stmt    = odbc_prepare($conn, 'CALL myproc(?,?,?)');
+$success = odbc_execute($stmt, array($a, $b, $c));
+?>
+```
 
-Якщо потрібно викликати збережену процедуру з використанням параметрів INOUT
-або OUT, рекомендується використовувати власний модуль для вашої бази
-даних (наприклад, [oci8](ref.oci8.md) для Oracle).
+Якщо потрібно викликати процедуру, що зберігається з використанням параметрів INOUT або OUT, рекомендується використовувати власний модуль для вашої бази даних (наприклад, [oci8](ref.oci8.html) для Oracle).
 
 ### Дивіться також
 
-- [odbc_execute()](function.odbc-execute.md) - Виконує запит
+-   [odbc\_execute()](function.odbc-execute.html) - Виконує запит

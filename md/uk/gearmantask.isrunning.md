@@ -1,20 +1,27 @@
-- [« GearmanTask::isKnown](gearmantask.isknown.md)
-- [GearmanTask::jobHandle »](gearmantask.jobhandle.md)
+Перевіряє, чи виконується завдання на даний момент
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Перевіряє, чи виконується завдання на даний момент
+-   [« GearmanTask::isKnown](gearmantask.isknown.html)
+    
+-   [GearmanTask::jobHandle »](gearmantask.jobhandle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Перевіряє, чи виконується завдання на даний момент
+    
 
 # GearmanTask::isRunning
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanTask::isRunning — Перевіряє, чи виконується завдання в даний
-момент
+GearmanTask::isRunning — Перевіряє, чи виконується завдання на даний момент.
 
 ### Опис
 
-public **GearmanTask::isRunning**(): bool
+```methodsynopsis
+public GearmanTask::isRunning(): bool
+```
 
 Вказує, чи виконується завдання.
 
@@ -24,4 +31,4 @@ public **GearmanTask::isRunning**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо завдання виконується, **`false`** інакше.
+**`true`**, якщо завдання виконується, **`false`** в іншому випадку.

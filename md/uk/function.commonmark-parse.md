@@ -1,29 +1,38 @@
-- [« Функції CommonMark](ref.cmark.md)
-- [CommonMark\Render »](function.commonmark-render.md)
+Розбір
 
-- [PHP Manual](index.md)
-- [Функції CommonMark](ref.cmark.md)
-- Розбір
+-   [« Функции CommonMark](ref.cmark.html)
+    
+-   [CommonMark\\Render »](function.commonmark-render.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CommonMark](ref.cmark.html)
+    
+-   Розбір
+    
 
-# CommonMark \ Parse
+# CommonMarkParse
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark \ Parse - Розбір
+CommonMarkParse - Розбір
 
 ### Опис
 
-**CommonMark\Parse**(string `$content`, int `$options` = ?):
-[CommonMark\Node](class.commonmark-node.md)
+```methodsynopsis
+CommonMark\Parse(string $content, int $options = ?): CommonMark\Node
+```
 
 Розбирає `content`
 
 ### Список параметрів
 
 `content`
+
 Рядок markdown
 
 `options`
+
 Маска з:
 
 **`CommonMark\Parser\Normal`** (int)
@@ -36,4 +45,4 @@ CommonMark \ Parse - Розбір
 
 ### Значення, що повертаються
 
-Поверне кореневий (root) вузол CommonMark\Node
+Поверне кореневий (root) вузол CommonMarkNode

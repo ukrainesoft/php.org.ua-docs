@@ -1,19 +1,25 @@
-- [« parallel\Channel::make](parallel-channel.make.md)
-- [parallel\Channel::recv »](parallel-channel.recv.md)
+Доступ
 
-- [PHP Manual](index.md)
-- [parallel\Channel](class.parallel-channel.md)
-- Доступ
+-   [« parallel\\Channel::make](parallel-channel.make.html)
+    
+-   [parallel\\Channel::recv »](parallel-channel.recv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel\\Channel](class.parallel-channel.html)
+    
+-   Доступ
+    
 
-# parallel\Channel::open
+# parallelChannel::open
 
-(0.9.0)
-
-parallel\Channel::open — Доступ
+parallelChannel::open — Доступ
 
 ### Опис
 
-public **parallel\Channel::open**(string `$name`): Channel
+```methodsynopsis
+public parallel\Channel::open(string $name): Channel
+```
 
 Відкриває канал із заданим ім'ям
 
@@ -21,4 +27,4 @@ public **parallel\Channel::open**(string `$name`): Channel
 
 **Увага**
 
-Якщо канал не існує, викидає parallel\Channel\Error\Existence.
+Викидає parallelChannelErrorЯкщо канал не існує.

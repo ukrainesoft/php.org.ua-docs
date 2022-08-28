@@ -1,35 +1,39 @@
-- [« SplObserver](class.splobserver.md)
-- [SplSubject »](class.splsubject.md)
+Отримати оновлення від суб'єкта
 
-- [PHP Manual](index.md)
-- [SplObserver](class.splobserver.md)
-- отримати оновлення від суб'єкта
+-   [« SplObserver](class.splobserver.html)
+    
+-   [SplSubject »](class.splsubject.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObserver](class.splobserver.html)
+    
+-   Отримати оновлення від суб'єкта
+    
 
 # SplObserver::update
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplObserver::update — Отримати оновлення
+SplObserver::update — Отримати поновлення від суб'єкта
 
 ### Опис
 
-public **SplObserver::update**([SplSubject](class.splsubject.md)
-`$subject`): void
+```methodsynopsis
+public SplObserver::update(SplSubject $subject): void
+```
 
-Цей метод викликається, коли будь-який [SplSubject](class.splsubject.md),
-до якого приєднаний спостерігач, викликає
-[SplSubject::notify()](splsubject.notify.md).
+Цей метод викликається, коли будь-який [SplSubject](class.splsubject.html), до якого приєднано спостерігача, викликає [SplSubject::notify()](splsubject.notify.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `subject`
-[SplSubject](class.splsubject.md), що повідомляє спостерігача про
-оновлення.
+
+[SplSubject](class.splsubject.html), що повідомляє спостерігача про оновлення.
 
 ### Значення, що повертаються
 

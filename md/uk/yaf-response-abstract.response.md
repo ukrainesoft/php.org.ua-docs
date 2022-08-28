@@ -1,19 +1,27 @@
-- [« Yaf_Response_Abstract::prependBody](yaf-response-abstract.prependbody.md)
-- [Yaf_Response_Abstract::setAllHeaders »](yaf-response-abstract.setallheaders.md)
+Відправляє відповідь
 
-- [PHP Manual](index.md)
-- [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-- Надсилає відповідь
+-   [« Yaf\_Response\_Abstract::prependBody](yaf-response-abstract.prependbody.html)
+    
+-   [Yaf\_Response\_Abstract::setAllHeaders »](yaf-response-abstract.setallheaders.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Response\_Abstract](class.yaf-response-abstract.html)
+    
+-   Відправляє відповідь
+    
 
-# Yaf_Response_Abstract::response
+# YafResponseAbstract::response
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Response_Abstract::response — Надсилає відповідь
+YafResponseAbstract::response — Надсилає відповідь
 
 ### Опис
 
-public **Yaf_Response_Abstract::response**(): void
+```methodsynopsis
+public Yaf_Response_Abstract::response(): void
+```
 
 Відправляє відповідь
 
@@ -25,17 +33,25 @@ public **Yaf_Response_Abstract::response**(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Response_Abstract::response()****
+**Приклад #1 Приклад використання **YafResponseAbstract::response()****
 
-` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");$response->response();?> `
+```php
+<?php
+$response = new Yaf_Response_Http();
+
+$response->setBody("Привет")->setBody(", Мир", "footer");
+
+$response->response();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Привіт світ
+```
+Привет, Мир
+```
 
 ### Дивіться також
 
-- [Yaf_Response_Abstract::setBody()](yaf-response-abstract.setbody.md) -
-Встановлює вміст відповіді
-- [Yaf_Response_Abstract::clearBody()](yaf-response-abstract.clearbody.md) -
-Скидає все існуюче тіло відповіді
+-   [Yaf\_Response\_Abstract::setBody()](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
+-   [Yaf\_Response\_Abstract::clearBody()](yaf-response-abstract.clearbody.html) - скидає все існуюче тіло відповіді

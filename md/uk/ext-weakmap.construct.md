@@ -1,19 +1,25 @@
-- [«WeakMap](class.weakmap.md)
-- [WeakMap::count »](weakmap.count.md)
+Створює нову колекцію (map)
 
-- [PHP Manual](index.md)
-- [WeakMap](class.weakmap.md)
-- Створює нову колекцію (map)
+-   [« WeakMap](class.weakmap.html)
+    
+-   [WeakMap::count »](weakmap.count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WeakMap](class.weakmap.html)
+    
+-   Створює нову колекцію (map)
+    
 
-# WeakMap::\_\_construct
+# WeakMap::construct
 
 (PHP 8)
 
-WeakMap::\_\_construct — Створює нову колекцію (map)
+WeakMap::construct - Створює нову колекцію (map)
 
 ### Опис
 
-public **WeakMap::\_\_construct**()
+public **WeakMap::construct**
 
 Створює нову колекцію (map).
 

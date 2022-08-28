@@ -1,9 +1,15 @@
-- [« Imagick::spliceImage](imagick.spliceimage.md)
-- [Imagick::statisticImage »](imagick.statisticimage.md)
+Випадково зміщує кожен піксель у блоці
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Випадково зміщує кожен піксель у блоці
+-   [« Imagick::spliceImage](imagick.spliceimage.html)
+    
+-   [Imagick::statisticImage »](imagick.statisticimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Випадково зміщує кожен піксель у блоці
+    
 
 # Imagick::spreadImage
 
@@ -13,10 +19,11 @@ Imagick::spreadImage — Випадково зміщує кожен піксел
 
 ### Опис
 
-public **Imagick::spreadImage**(float `$radius`): bool
+```methodsynopsis
+public Imagick::spreadImage(float $radius): bool
+```
 
-Метод спеціальних ефектів, який випадково зміщує кожен
-піксель у блоці, заданому параметром radius.
+Метод спеціальних ефектів, який випадково зміщує кожен піксель у блоці, заданому параметром radius.
 
 ### Список параметрів
 
@@ -24,7 +31,7 @@ public **Imagick::spreadImage**(float `$radius`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -34,4 +41,14 @@ public **Imagick::spreadImage**(float `$radius`): bool
 
 **Приклад #1 Приклад використання **Imagick::spreadImage()****
 
-`<?phpfunction spreadImage($imagePath, $radius) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->spreadImage($radius); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function spreadImage($imagePath, $radius) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->spreadImage($radius);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

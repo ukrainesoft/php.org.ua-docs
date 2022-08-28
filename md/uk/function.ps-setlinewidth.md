@@ -1,41 +1,46 @@
-- [«ps_setlinejoin](function.ps-setlinejoin.md)
-- [ps_setmiterlimit »](function.ps-setmiterlimit.md)
+Встановлює ширину лінії
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює ширину лінії
+-   [« ps\_setlinejoin](function.ps-setlinejoin.html)
+    
+-   [ps\_setmiterlimit »](function.ps-setmiterlimit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює ширину лінії
+    
 
-#ps_setlinewidth
+# псsetlinewidth
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_setlinewidth — Встановлює ширину лінії
+псsetlinewidth - Встановлює ширину лінії
 
 ### Опис
 
-**ps_setlinewidth**(resource `$psdoc`, float `$width`): bool
+```methodsynopsis
+ps_setlinewidth(resource $psdoc, float $width): bool
+```
 
 Встановлює ширину лінії для наступних операцій малювання.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `width`
+
 Ширина ліній у точках.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_setlinecap()](function.ps-setlinecap.md) - Встановлює
-зовнішній вигляд закінчення лінії
-- [ps_setlinejoin()](function.ps-setlinejoin.md) - Встановлює
-спосіб з'єднання ліній
-- [ps_setmiterlimit()](function.ps-setmiterlimit.md) - Встановлює
-межа скосу
+-   [ps\_setlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
+-   [ps\_setlinejoin()](function.ps-setlinejoin.html) - Встановлює спосіб з'єднання ліній
+-   [ps\_setmiterlimit()](function.ps-setmiterlimit.html) - Встановлює межу скосу

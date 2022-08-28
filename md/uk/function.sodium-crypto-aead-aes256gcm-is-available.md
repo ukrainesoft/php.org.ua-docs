@@ -1,23 +1,29 @@
-- [« sodium_crypto_aead_aes256gcm_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.md)
-- [sodium_crypto_aead_aes256gcm_keygen »](function.sodium-crypto-aead-aes256gcm-keygen.md)
+Перевірити, чи підтримує обладнання AES256-GCM
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Перевірити, чи підтримує обладнання AES256-GCM
+-   [« sodium\_crypto\_aead\_aes256gcm\_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.html)
+    
+-   [sodium\_crypto\_aead\_aes256gcm\_keygen »](function.sodium-crypto-aead-aes256gcm-keygen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Перевірити, чи підтримує обладнання AES256-GCM
+    
 
-# sodium_crypto_aead_aes256gcm_is_available
+# sodiumcryptoaeadaes256gcmісavailable
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_aead_aes256gcm_is_available — Перевірити, чи підтримує
-обладнання AES256-GCM
+sodiumcryptoaeadaes256gcmісavailable — Перевірити, чи підтримує обладнання AES256-GCM
 
 ### Опис
 
-**sodium_crypto_aead_aes256gcm_is_available**(): bool
+```methodsynopsis
+sodium_crypto_aead_aes256gcm_is_available(): bool
+```
 
-Значення цієї функції залежить від того, чи підтримує
-обладнання апаратне прискорення AES.
+Значення цієї функції залежить від того, чи апаратне прискорення AES підтримує обладнання.
 
 ### Список параметрів
 
@@ -25,5 +31,4 @@ sodium_crypto_aead_aes256gcm_is_available — Перевірити, чи під�
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо шифрування за допомогою AES-256-GCM безпечне,
-інакше повертає **`false`**.
+Повертає **`true`**якщо шифрування за допомогою AES-256-GCM безпечне, інакше повертає **`false`**

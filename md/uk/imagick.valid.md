@@ -1,9 +1,15 @@
-- [« Imagick::unsharpMaskImage](imagick.unsharpmaskimage.md)
-- [Imagick::vignetteImage »](imagick.vignetteimage.md)
+Перевіряє, чи поточний елемент є коректним
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Перевіряє, чи поточний елемент є коректним
+-   [« Imagick::unsharpMaskImage](imagick.unsharpmaskimage.html)
+    
+-   [Imagick::vignetteImage »](imagick.vignetteimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Перевіряє, чи поточний елемент є коректним
+    
 
 # Imagick::valid
 
@@ -13,7 +19,9 @@ Imagick::valid — Перевіряє, чи поточний елемент є �
 
 ### Опис
 
-public **Imagick::valid**(): bool
+```methodsynopsis
+public Imagick::valid(): bool
+```
 
 Перевіряє, чи поточний елемент є коректним.
 
@@ -23,4 +31,4 @@ public **Imagick::valid**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

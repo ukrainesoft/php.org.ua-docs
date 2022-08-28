@@ -1,27 +1,34 @@
-- [« EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md)
-- [EventBufferEvent::sslRenegotiate »](eventbufferevent.sslrenegotiate.md)
+Повертає ім'я протоколу, який використовується для поточного з'єднання SSL
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Повертає ім'я протоколу, який використовується для поточного з'єднання SSL
+-   [« EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.html)
+    
+-   [EventBufferEvent::sslRenegotiate »](eventbufferevent.sslrenegotiate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Повертає ім'я протоколу, який використовується для поточного з'єднання SSL
+    
 
 # EventBufferEvent::sslGetProtocol
 
-(PECL event \>= 1.10.0)
+(PECL event >= 1.10.0)
 
-EventBufferEvent::sslGetProtocol — Повертає ім'я протоколу,
-використовуваного для поточного з'єднання SSL
+EventBufferEvent::sslGetProtocol — Повертає ім'я протоколу, який використовується для поточного з'єднання SSL
 
 ### Опис
 
-public **EventBufferEvent::sslGetProtocol**(): string
+```methodsynopsis
+public
+   EventBufferEvent::sslGetProtocol(): string
+```
 
 Повертає ім'я протоколу, який використовується для поточного з'єднання SSL.
 
-> **Примітка**:
->
-> Функція доступна, тільки якщо `Event` скомпільовано з підтримкою
-> OpenSSL.
+> **Зауваження**
+> 
+> Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
 ### Список параметрів
 

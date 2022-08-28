@@ -1,36 +1,42 @@
-- [« imap_headerinfo](function.imap-headerinfo.md)
-- [imap_last_error »](function.imap-last-error.md)
+Отримати заголовки всіх повідомлень у поштовій скриньці
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати заголовки всіх повідомлень у поштовій скриньці
+-   [« imap\_headerinfo](function.imap-headerinfo.html)
+    
+-   [imap\_last\_error »](function.imap-last-error.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Отримати заголовки всіх повідомлень у поштовій скриньці
+    
 
-#imap_headers
+# imapheaders
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_headers — Отримати заголовки всіх повідомлень у поштовій скриньці
+imapheaders — Отримати заголовки всіх повідомлень у поштовій скриньці
 
 ### Опис
 
-**imap_headers**([IMAP\Connection](class.imap-connection.md) `$imap`):
-array\|false
+```methodsynopsis
+imap_headers(IMAP\Connection $imap): array|false
+```
 
 Повертає заголовки всіх повідомлень у поштовій скриньці.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 ### Значення, що повертаються
 
-Повертає масив із рядками, що містять заголовки повідомлень. Один
-елемент – одне повідомлення. Повертає **`false`** у разі виникнення
-помилки.
+Повертає масив із рядками, що містять заголовки повідомлень. Один елемент – одне повідомлення. Повертає **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

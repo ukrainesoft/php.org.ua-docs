@@ -1,19 +1,27 @@
-- [« Fiber::isStarted](fiber.isstarted.md)
-- [Fiber::isRunning »](fiber.isrunning.md)
+Визначає, чи призупинено файбер
 
-- [PHP Manual](index.md)
-- [Fiber](class.fiber.md)
-- Визначає, чи призупинено файбер
+-   [« Fiber::isStarted](fiber.isstarted.html)
+    
+-   [Fiber::isRunning »](fiber.isrunning.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Fiber](class.fiber.html)
+    
+-   Визначає, чи призупинено файбер
+    
 
 # Fiber::isSuspended
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 Fiber::isSuspended — Визначає, чи призупинено файбер
 
 ### Опис
 
-public **Fiber::isSuspended**(): bool
+```methodsynopsis
+public Fiber::isSuspended(): bool
+```
 
 ### Список параметрів
 
@@ -21,5 +29,4 @@ public **Fiber::isSuspended**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо файбер в даний момент припинено,
-в іншому випадку повертає **`false`**.
+Повертає **`true`**, якщо файбер в даний момент припинено, інакше повертає **`false`**

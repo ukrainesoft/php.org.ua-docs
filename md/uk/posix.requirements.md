@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](posix.setup.md)
-- [Установка »](posix.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](posix.setup.md)
-- Вимоги
+-   [« Установка и настройка](posix.setup.html)
+    
+-   [Установка »](posix.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](posix.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

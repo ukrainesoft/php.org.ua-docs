@@ -1,26 +1,35 @@
-- [«UI\Controls\Box::\_\_construct](ui-controls-box.construct.md)
-- [UI\Controls\Box::getOrientation »](ui-controls-box.getorientation.md)
+Видалити елемент керування
 
-- [PHP Manual](index.md)
-- [UI\Controls\Box](class.ui-controls-box.md)
-- Видалити керуючий елемент
+-   [« UI\\Controls\\Box::\_\_construct](ui-controls-box.construct.html)
+    
+-   [UI\\Controls\\Box::getOrientation »](ui-controls-box.getorientation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Box](class.ui-controls-box.html)
+    
+-   Видалити елемент керування
+    
 
-# UI\Controls\Box::delete
+# ОЙControlsBox::delete
 
 (UI 0.9.9)
 
-UI\Controls\Box::delete — Видалити елемент керування
+ОЙControlsBox::delete — Видалити елемент керування
 
 ### Опис
 
-public **UI\Controls\Box::delete**(int `$index`): bool
+```methodsynopsis
+public UI\Controls\Box::delete(int $index): bool
+```
 
 Видалити елемент керування заданого індексу з цього блоку
 
 ### Список параметрів
 
 `index`
-Індекс елемента управління видалення
+
+Індекс елемента керування для видалення
 
 ### Значення, що повертаються
 

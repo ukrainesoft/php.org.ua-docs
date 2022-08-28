@@ -1,17 +1,18 @@
-- [« Вимоги](inotify.requirements.md)
-- [Налаштування під час виконання »](inotify.configuration.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](inotify.setup.md)
+-   [« Требования](inotify.requirements.html)
+    
+-   [Настройка во время выполнения »](inotify.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](inotify.setup.html)
+    
 -   Встановлення та налаштування
+    
 
 ## Встановлення та налаштування
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/inotify](https://pecl.php.net/package/inotify).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/inotify](https://pecl.php.net/package/inotify)

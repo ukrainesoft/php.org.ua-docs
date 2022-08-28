@@ -1,19 +1,27 @@
-- [« Gmagick::getimagedepth](gmagick.getimagedepth.md)
-- [Gmagick::getimageextrema »](gmagick.getimageextrema.md)
+Отримує метод видалення зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує метод видалення зображення
+-   [« Gmagick::getimagedepth](gmagick.getimagedepth.html)
+    
+-   [Gmagick::getimageextrema »](gmagick.getimageextrema.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Отримує метод видалення зображення
+    
 
 # Gmagick::getimagedispose
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::getimagedispose — Отримує спосіб видалення зображення
+Gmagick::getimagedispose — Отримує спосіб видалення зображення.
 
 ### Опис
 
-public **Gmagick::getimagedispose**(): int
+```methodsynopsis
+public Gmagick::getimagedispose(): int
+```
 
 Отримує метод видалення зображення
 

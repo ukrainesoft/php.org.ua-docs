@@ -1,35 +1,37 @@
-- [«ftp_alloc](function.ftp-alloc.md)
-- [ftp_cdup »](function.ftp-cdup.md)
+Додає вміст файлу до кінця іншого файлу на FTP-сервері
 
-- [PHP Manual](index.md)
-- [Функції FTP](ref.ftp.md)
-- Додає вміст файлу на кінець іншого файлу на FTP-сервері
+-   [« ftp\_alloc](function.ftp-alloc.html)
+    
+-   [ftp\_cdup »](function.ftp-cdup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции FTP](ref.ftp.html)
+    
+-   Додає вміст файлу до кінця іншого файлу на FTP-сервері
+    
 
-#ftp_append
+# ftpappend
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-ftp_append — Додає вміст файлу до кінця іншого файлу на
-FTP-сервері
+ftpappend — Додає вміст файлу до кінця іншого файлу на FTP-сервері
 
 ### Опис
 
-**ftp_append**(
-[FTP\Connection](class.ftp-connection.md) `$ftp`,
-string `$remote_filename`,
-string `$local_filename`,
-int `$mode` = **`FTP_BINARY`**
-): bool
+```methodsynopsis
+ftp_append(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `ftp`
-An [FTP\Connection](class.ftp-connection.md) instance.
+
+Ан [FTP\\Connection](class.ftp-connection.html) instance.
 
 `remote_filename`
 
@@ -39,11 +41,10 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |

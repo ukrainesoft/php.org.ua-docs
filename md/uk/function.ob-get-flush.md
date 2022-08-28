@@ -1,33 +1,33 @@
-- [«ob_get_contents](function.ob-get-contents.md)
-- [ob_get_length »](function.ob-get-length.md)
+Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- Скинути буфер виводу, повернути його у вигляді рядка та відключити
-буферизацію виведення
+-   [« ob\_get\_contents](function.ob-get-contents.html)
+    
+-   [ob\_get\_length »](function.ob-get-length.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции контроля вывода](ref.outcontrol.html)
+    
+-   Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
+    
 
-#ob_get_flush
+# проgetflush
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-ob_get_flush — Скинути буфер виводу, повернути його у вигляді рядка та
-відключити буферизацію виводу
+проgetflush — Скинути буфер виводу, повернути його у вигляді рядка та вимкнути буферизацію виводу
 
 ### Опис
 
-**ob_get_flush**(): string\|false
+```methodsynopsis
+ob_get_flush(): string|false
+```
 
-**ob_get_flush()** скидає буфер виводу, повертаючи його вміст у
-вигляді рядка та відключає буферизацію виведення.
+**проgetflush()** скидає буфер виведення, повертаючи його вміст у вигляді рядка та відключає буферизацію виведення.
 
-Буфер виводу має запускатися функцією
-[ob_start()](function.ob-start.md) з прапором
-[PHP_OUTPUT_HANDLER_FLUSHABLE](outcontrol.constants.md#constant.php-output-handler-flushable).
-Інакше не спрацює **ob_get_flush()**.
+Буфер виводу має запускатися функцією [ob\_start()](function.ob-start.html) з прапором [PHP\_OUTPUT\_HANDLER\_FLUSHABLE](outcontrol.constants.html#constant.php-output-handler-flushable). Інакше не спрацює **проgetflush()**
 
-> **Примітка**: Ця функція аналогічна
-> [ob_end_flush()](function.ob-end-flush.md) за винятком того, що
-> Ця функція також повертає буфер у вигляді рядка.
+> **Зауваження**: Ця функція аналогічна [ob\_end\_flush()](function.ob-end-flush.html) крім того, що ця функція також повертає буфер у вигляді рядка.
 
 ### Список параметрів
 
@@ -35,29 +35,39 @@ ob_get_flush — Скинути буфер виводу, повернути йо
 
 ### Значення, що повертаються
 
-Повертає буфер виводу або ** false, якщо буферизація не активна.
+Повертає буфер виводу або **`false`**якщо буферизація не активна.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ob_get_flush()****
+**Приклад #1 Приклад використання функції **проgetflush()****
 
-` <?php//Використовується output_buffering=Onprint_r(ob_list_handlers());//зберегти буфер в файл$buffer==ob_get_flush();file_put_contents('buffer.txt',_$;buf `
+```php
+<?php
+//Используется output_buffering=On
+print_r(ob_list_handlers());
+
+//сохранить буфер в файл
+$buffer = ob_get_flush();
+file_put_contents('buffer.txt', $buffer);
+
+print_r(ob_list_handlers());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[0] => default output handler
+    [0] => default output handler
 )
 Array
 (
 )
+```
 
 ### Дивіться також
 
-- [ob_end_clean()](function.ob-end-clean.md) - Очистити (стерти)
-буфер виводу та вимкнути буферизацію виводу
-- [ob_end_flush()](function.ob-end-flush.md) - Скинути (надіслати)
-буфер виведення та вимкнути буферизацію виводу
-- [ob_list_handlers()](function.ob-list-handlers.md) - Список всіх
-використовуваних обробників виводу
+-   [ob\_end\_clean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
+-   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [ob\_list\_handlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу

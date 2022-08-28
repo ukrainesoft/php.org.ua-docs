@@ -1,19 +1,27 @@
-- [« ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- [ReflectionFunctionAbstract::getAttributes »](reflectionfunctionabstract.getattributes.md)
+Клонує функцію
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- клонує функцію
+-   [« ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   [ReflectionFunctionAbstract::getAttributes »](reflectionfunctionabstract.getattributes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Клонує функцію
+    
 
-# ReflectionFunctionAbstract::\_\_clone
+# ReflectionFunctionAbstract::clone
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::\_\_clone - Клонує функцію
+ReflectionFunctionAbstract::clone - Клонує функцію
 
 ### Опис
 
-private **ReflectionFunctionAbstract::\_\_clone**(): void
+```methodsynopsis
+private ReflectionFunctionAbstract::__clone(): void
+```
 
 Копіює функцію.
 
@@ -25,12 +33,12 @@ private **ReflectionFunctionAbstract::\_\_clone**(): void
 
 Функція не повертає значення після виконання.
 
-### Список змін
+### список змін
 
-| Версія | Опис                           |
-| ------ | ------------------------------ |
-| 8.1.0  | Метод не є остаточним (final). |
+| Версия | Описание |
+| --- | --- |
+|  | Метод не є остаточним (final). |
 
 ### Дивіться також
 
-- [Копіювання об'єктів](language.oop5.cloning.md)
+-   [Копирование объектов](language.oop5.cloning.html)

@@ -1,27 +1,33 @@
-- [« UConverter::getDestinationType](uconverter.getdestinationtype.md)
-- [UConverter::getErrorMessage »](uconverter.geterrormessage.md)
+Отримати код останньої помилки об'єкта
 
-- [PHP Manual](index.md)
-- [UConverter](class.uconverter.md)
-- Отримати код останньої помилки об'єкта
+-   [« UConverter::getDestinationType](uconverter.getdestinationtype.html)
+    
+-   [UConverter::getErrorMessage »](uconverter.geterrormessage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UConverter](class.uconverter.html)
+    
+-   Отримати код останньої помилки об'єкта
+    
 
 # UConverter::getErrorCode
 
-# intl_get_error_code
+# intlgeterrorcode
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-UConverter::getErrorCode -- intl_get_error_code — Отримати код останнього
-помилки об'єкту
+UConverter::getErrorCode -- intlgeterrorcode — Отримати код останньої помилки об'єкта
 
 ### Опис
 
-public **UConverter::getErrorCode**(): int
+```methodsynopsis
+public UConverter::getErrorCode(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

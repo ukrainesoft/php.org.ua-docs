@@ -1,29 +1,33 @@
-- [«CommonMark\Node\Image](class.commonmark-node-image.md)
-- [CommonMark\Node\Link »](class.commonmark-node-link.md)
+Конструктор класу Image
 
-- [PHP Manual](index.md)
-- [CommonMark\Node\Image](class.commonmark-node-image.md)
-- Конструктор класу Image
+-   [« CommonMark\\Node\\Image](class.commonmark-node-image.html)
+    
+-   [CommonMark\\Node\\Link »](class.commonmark-node-link.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node\\Image](class.commonmark-node-image.html)
+    
+-   Конструктор класу Image
+    
 
-# CommonMark\Node\Image::\_\_construct
+# CommonMarkNodeImage::construct
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node\Image::\_\_construct - Конструктор класу Image
+CommonMarkNodeImage::construct - Конструктор класу Image
 
 ### Опис
 
-public **CommonMark\Node\Image::\_\_construct**()
+public **CommonMarkNodeImage::construct**
 
-public **CommonMark\Node\Image::\_\_construct**(string `$url`)
+public **CommonMarkNodeImage::construct**(string `$url`
 
-public **CommonMark\Node\Image::\_\_construct**(string `$url`, string
-`$title`)
+public **CommonMarkNodeImage::construct**(string `$url`, string `$title`
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

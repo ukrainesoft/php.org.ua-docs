@@ -1,9 +1,15 @@
-- [«Throwable](class.throwable.md)
-- [Throwable::getCode »](throwable.getcode.md)
+Отримує повідомлення помилки
 
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- Отримує повідомлення помилки
+-   [« Throwable](class.throwable.html)
+    
+-   [Throwable::getCode »](throwable.getcode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Throwable](class.throwable.html)
+    
+-   Отримує повідомлення помилки
+    
 
 # Throwable::getMessage
 
@@ -13,7 +19,9 @@ Throwable::getMessage — Отримує повідомлення помилки
 
 ### Опис
 
-public **Throwable::getMessage**(): string
+```methodsynopsis
+public Throwable::getMessage(): string
+```
 
 Повертає повідомлення про помилку даного викинутого об'єкта.
 
@@ -27,5 +35,4 @@ public **Throwable::getMessage**(): string
 
 ### Дивіться також
 
-- [Exception::getMessage()](exception.getmessage.md) - Отримує
-повідомлення виключення
+-   [Exception::getMessage()](exception.getmessage.html) - Отримує повідомлення виключення

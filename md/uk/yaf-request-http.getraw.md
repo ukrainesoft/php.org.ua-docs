@@ -1,20 +1,27 @@
-- [« Yaf_Request_Http::getQuery](yaf-request-http.getquery.md)
-- [Yaf_Request_Http::getRequest »](yaf-request-http.getrequest.md)
+Отримує необроблене тіло запиту
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Http](class.yaf-request-http.md)
-- отримує необроблене тіло запиту
+-   [« Yaf\_Request\_Http::getQuery](yaf-request-http.getquery.html)
+    
+-   [Yaf\_Request\_Http::getRequest »](yaf-request-http.getrequest.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Http](class.yaf-request-http.html)
+    
+-   Отримує необроблене тіло запиту
+    
 
-# Yaf_Request_Http::getRaw
+# YafRequestHttp::getRaw
 
-(Yaf \> = 3.0.7)
+(Yaf> = 3.0.7)
 
-Yaf_Request_Http::getRaw — Отримує необроблене тіло запиту
+YafRequestHttp::getRaw — Отримує необроблене тіло запиту
 
 ### Опис
 
-public **Yaf_Request_Http::getRaw**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Yaf_Request_Http::getRaw(): mixed
+```
 
 Отримує необроблене тіло запиту
 
@@ -24,20 +31,13 @@ public **Yaf_Request_Http::getRaw**():
 
 ### Значення, що повертаються
 
-Повертає рядок у разі успішного виконання, FALSE у разі
-виникнення помилки.
+Повертає рядок у разі успішного виконання, FALSE у разі виникнення помилки.
 
 ### Дивіться також
 
-- [Yaf_Request_Http::get()](yaf-request-http.get.md) - Отримує
-змінну від клієнта
-- [Yaf_Request_Http::getPost()](yaf-request-http.getpost.md) -
-Отримує змінну POST
-- [Yaf_Request_Http::getCookie()](yaf-request-http.getcookie.md) -
-Отримує змінну Cookie
-- [Yaf_Request_Http::getQuery()](yaf-request-http.getquery.md) -
-Отримує параметр запиту
-- [Yaf_Request_Abstract::getServer()](yaf-request-abstract.getserver.md) -
-Отримує змінну SERVER
-- [Yaf_Request_Abstract::getParam()](yaf-request-abstract.getparam.md) -
-Отримує параметр дзвінка
+-   [Yaf\_Request\_Http::get()](yaf-request-http.get.html) - Отримує змінну від клієнта
+-   [Yaf\_Request\_Http::getPost()](yaf-request-http.getpost.html) - Отримує змінну POST
+-   [Yaf\_Request\_Http::getCookie()](yaf-request-http.getcookie.html) - Отримує змінну Cookie
+-   [Yaf\_Request\_Http::getQuery()](yaf-request-http.getquery.html) - Отримує параметр запиту
+-   [Yaf\_Request\_Abstract::getServer()](yaf-request-abstract.getserver.html) - Отримує змінну SERVER
+-   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.html) - Отримує параметр дзвінка

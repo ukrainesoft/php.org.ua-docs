@@ -1,19 +1,27 @@
-- [« Swoole\Table::incr](swoole-table.incr.md)
-- [Swoole\Table::next »](swoole-table.next.md)
+Отримує ключ поточного рядка
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Отримує ключ поточного рядка
+-   [« Swoole\\Table::incr](swoole-table.incr.html)
+    
+-   [Swoole\\Table::next »](swoole-table.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Отримує ключ поточного рядка
+    
 
-# Swoole\Table::key
+# SwooleTable::key
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::key — Отримує ключ поточного рядка
+SwooleTable::key — Отримує ключ поточного рядка
 
 ### Опис
 
-public **Swoole\Table::key**(): string
+```methodsynopsis
+public Swoole\Table::key(): string
+```
 
 ### Список параметрів
 

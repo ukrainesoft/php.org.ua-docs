@@ -1,26 +1,34 @@
-- [«Componere\Patch::derive](componere-patch.derive.md)
-- [Componere\Patch::getClosures »](componere-patch.getclosures.md)
+Отримує замикання
 
-- [PHP Manual](index.md)
-- [Componere\Patch](class.componere-patch.md)
-- Отримує замикання
+-   [« Componere\\Patch::derive](componere-patch.derive.html)
+    
+-   [Componere\\Patch::getClosures »](componere-patch.getclosures.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Patch](class.componere-patch.html)
+    
+-   Отримує замикання
+    
 
-# Componere\Patch::getClosure
+# ComponerePatch::getClosure
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Patch::getClosure — Отримує замикання
+ComponerePatch::getClosure — Отримує замикання
 
 ### Опис
 
-public **Componere\Patch::getClosure**(string `$name`):
-[Closure](class.closure.md)
+```methodsynopsis
+public Componere\Patch::getClosure(string $name): Closure
+```
 
 Повинен повернути замикання для вказаного методу
 
 ### Список параметрів
 
 `name`
+
 Реєстронезалежне ім'я методу
 
 ### Значення, що повертаються
@@ -31,5 +39,4 @@ public **Componere\Patch::getClosure**(string `$name`):
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md)
-якщо `name` не знайдено
+Викидає виняток [RuntimeException](class.runtimeexception.html) якщо `name` НЕ знайдений

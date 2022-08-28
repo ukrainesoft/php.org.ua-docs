@@ -1,24 +1,29 @@
-- [« Threaded::notify](threaded.notify.md)
-- [Threaded::pop »](threaded.pop.md)
+Синхронізація
 
-- [PHP Manual](index.md)
-- [Threaded](class.threaded.md)
-- Синхронізація
+-   [« Threaded::notify](threaded.notify.html)
+    
+-   [Threaded::pop »](threaded.pop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Threaded](class.threaded.html)
+    
+-   Синхронізація
+    
 
 # Threaded::notifyOne
 
-(PECL pthreads \>= 3.0.0)
+(PECL pthreads >= 3.0.0)
 
 Threaded::notifyOne — Синхронізація
 
 ### Опис
 
-public **Threaded::notifyOne**(): bool
+```methodsynopsis
+public Threaded::notifyOne(): bool
+```
 
-Надсилає повідомлення вказаному об'єкту. Це розблокує принаймні
-мері один із заблокованих потоків (на відміну від
-[Threaded::notify()](threaded.notify.md) з розблокуванням всіх
-потоків).
+Надсилає повідомлення вказаному об'єкту. Це розблокує принаймні один із заблокованих потоків (на відміну від [Threaded::notify()](threaded.notify.html) з розблокуванням всіх потоків).
 
 ### Список параметрів
 
@@ -26,15 +31,36 @@ public **Threaded::notifyOne**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Сповіщення та очікування**
 
-` <?phpclass My extends Thread {    public function run() {        /** заставить этот поток ждать **/        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait ();        }, $this); }}$my = new My();$my->start();/** надіслати повідомлення очікуючого потоку **/$my->synchronized(function($thread){    $thread->done =                  <br> ->notifyOne();}, $my);var_dump($my->join());?> `
+```php
+<?php
+class My extends Thread {
+    public function run() {
+        /** заставить этот поток ждать **/
+        $this->synchronized(function($thread){
+            if (!$thread->done)
+                $thread->wait();
+        }, $this);
+    }
+}
+$my = new My();
+$my->start();
+/** отправить уведомление ожидающему потоку **/
+$my->synchronized(function($thread){
+    $thread->done = true;
+    $thread->notifyOne();
+}, $my);
+var_dump($my->join());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```

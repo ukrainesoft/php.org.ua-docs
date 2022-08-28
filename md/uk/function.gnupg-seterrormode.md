@@ -1,37 +1,41 @@
-- [«gnupg_setarmor](function.gnupg-setarmor.md)
-- [gnupg_setsignmode »](function.gnupg-setsignmode.md)
+Встановлює режим звітування про помилки (errorreporting)
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Встановлює режим звітів про помилки (error_reporting)
+-   [« gnupg\_setarmor](function.gnupg-setarmor.html)
+    
+-   [gnupg\_setsignmode »](function.gnupg-setsignmode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Встановлює режим звітування про помилки (errorreporting)
+    
 
-# gnupg_seterrormode
+# gnupgseterrormode
 
-(PECL gnupg \>= 0.6)
+(PECL gnupg >= 0.6)
 
-gnupg_seterrormode — Встановлює режим звітів про помилки
-(error_reporting)
+gnupgseterrormode — Встановлює режим звітування про помилки (errorreporting)
 
 ### Опис
 
-**gnupg_seterrormode**(resource `$identifier`, int `$errormode`): void
+```methodsynopsis
+gnupg_seterrormode(resource $identifier, int $errormode): void
+```
 
-Встановлює режим
-[error_reporting](errorfunc.configuration.md#ini.error-reporting).
+Встановлює режим [error\_reporting](errorfunc.configuration.html#ini.error-reporting)
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `errormode`
+
 Режим помилок.
 
-`errormode` містить константу, яка вказує, який тип error_reporting
-має бути використаний. Можливі значення: **`GNUPG_ERROR_WARNING`**,
-**`GNUPG_ERROR_EXCEPTION`** та **`GNUPG_ERROR_SILENT`**. За замовчуванням
-використовується **`GNUPG_ERROR_SILENT`**.
+`errormode` містить константу, що вказує, який тип errorreporting має бути використаний. Можливі значення: **`GNUPG_ERROR_WARNING`** **`GNUPG_ERROR_EXCEPTION`** і **`GNUPG_ERROR_SILENT`**. За замовчуванням використовується **`GNUPG_ERROR_SILENT`**
 
 ### Значення, що повертаються
 
@@ -39,12 +43,20 @@ gnupg_seterrormode — Встановлює режим звітів про по�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_seterrormode()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupgseterrormode()** у процедурному стилі**
 
-` <?php$res = gnupg_init();gnupg_seterrormode($res, GNUPG_ERROR_WARNING); // виводити PHP-попередження у випадку виникнення помилки?> `
+```php
+<?php
+$res = gnupg_init();
+gnupg_seterrormode($res, GNUPG_ERROR_WARNING); // выводить PHP-предупреждения в случае возникновения ошибки
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_seterrormode()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgseterrormode()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$gpg->seterrormode(gnupg::ERROR_EXCEPTION); // виключення у випадку виникнення помилки?> `
+```php
+<?php
+$gpg = new gnupg();
+$gpg->seterrormode(gnupg::ERROR_EXCEPTION); // исключение в случае возникновения ошибки
+?>
+```

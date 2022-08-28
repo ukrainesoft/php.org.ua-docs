@@ -1,56 +1,86 @@
-- [«cubrid_insert_id](function.cubrid-insert-id.md)
-- [cubrid_lob_close »](function.cubrid-lob-close.md)
+Перевіряє, чи існує екземпляр, на який вказує OID
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Перевіряє, чи існує екземпляр, на який вказує OID
+-   [« cubrid\_insert\_id](function.cubrid-insert-id.html)
+    
+-   [cubrid\_lob\_close »](function.cubrid-lob-close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Перевіряє, чи існує екземпляр, на який вказує OID
+    
 
-#cubrid_is_instance
+# cubridісinstance
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_is_instance — Перевіряє, чи існує екземпляр, на який
-вказує OID
+cubridісinstance — Перевіряє, чи існує екземпляр, на який вказує OID
 
 ### Опис
 
-**cubrid_is_instance**(resource `$conn_identifier`, string `$oid`): int
+```methodsynopsis
+cubrid_is_instance(resource $conn_identifier, string $oid): int
+```
 
-Функція **cubrid_is_instance()** використовується, щоб перевірити,
-чи існує екземпляр, який вказує даний `oid`, чи ні.
+Функція **cubridісinstance()** використовується, щоб перевірити, чи існує екземпляр, на який вказує даний `oid`, чи ні.
 
 ### Список параметрів
 
 `conn_identifier`
+
 Ідентифікатор підключення.
 
 `oid`
+
 OID екземпляра, існування якого потрібно перевірити.
 
 ### Значення, що повертаються
 
 1, якщо такий екземпляр існує;
 
-0, якщо такого примірника не існує;
+0, якщо такого екземпляра немає;
 
--1 у разі виникнення помилки.
+1 у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_is_instance()****
+**Приклад #1 Приклад використання **cubridісinstance()****
 
-`<?php$conn = cubrid_connect("localhost", 33000, "demodb");$sql = <<<EODSELECT host_year, medal, game_dateFROM gameWHERE athlete_code IN     ;$req = cubrid_execute($conn, $sql, CUBRID_INCLUDE_OID);$oid = cubrid_current_oid($req);$res = cubrid_is_instance ($conn, $oid);if | який вказує $oid, існує.
-";} else if ($res == 0){    echo "Примірник, на котрий вказує $oid, не існує.
-";} else {    echo "Помилка
-";}cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+
+$sql = <<<EOD
+SELECT host_year, medal, game_date
+FROM game
+WHERE athlete_code IN
+    (SELECT code FROM athlete WHERE name='Thorpe Ian');
+EOD;
+
+$req = cubrid_execute($conn, $sql, CUBRID_INCLUDE_OID);
+$oid = cubrid_current_oid($req);
+
+$res = cubrid_is_instance ($conn, $oid);
+if ($res == 1) {
+    echo "Экземпляр, на который указывает $oid, существует.\n";
+} else if ($res == 0){
+    echo "Экземпляр, на который указывает $oid, не существует.\n";
+} else {
+    echo "Ошибка\n";
+}
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Примірник, який вказує @0|0|0, немає.
+```
+Экземпляр, на который указывает @0|0|0, не существует.
+```
 
 ### Дивіться також
 
-- [cubrid_drop()](function.cubrid-drop.md) - Видалення екземпляра за
-OID
-- [cubrid_get_class_name()](function.cubrid-get-class-name.md) -
-Отримує ім'я класу за допомогою OID
+-   [cubrid\_drop()](function.cubrid-drop.html) - Видалення екземпляра за OID
+-   [cubrid\_get\_class\_name()](function.cubrid-get-class-name.html) - Отримує ім'я класу за допомогою OID

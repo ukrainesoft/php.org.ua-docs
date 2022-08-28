@@ -1,19 +1,27 @@
-- [« Swoole\Http\Response::sendfile](swoole-http-response.sendfile.md)
-- [Swoole\Http\Response::write »](swoole-http-response.write.md)
+Встановлює код стану HTTP-відповіді
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Response](class.swoole-http-response.md)
-- Встановлює код стану HTTP-відповіді
+-   [« Swoole\\Http\\Response::sendfile](swoole-http-response.sendfile.html)
+    
+-   [Swoole\\Http\\Response::write »](swoole-http-response.write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Response](class.swoole-http-response.html)
+    
+-   Встановлює код стану HTTP-відповіді
+    
 
-# Swoole\Http\Response::status
+# SwooleHttpResponse::status
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Response::status — Встановлює код стану HTTP-відповіді
+SwooleHttpResponse::status — Встановлює код стану HTTP-відповіді
 
 ### Опис
 
-public **Swoole\Http\Response::status**(string `$http_code`): ReturnType
+```methodsynopsis
+public Swoole\Http\Response::status(string $http_code): ReturnType
+```
 
 Встановлює код стану HTTP-відповіді.
 

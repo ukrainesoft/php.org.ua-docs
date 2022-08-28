@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.md)
-- [MongoDB\BSON\Symbol::\_\_toString »](mongodb-bson-symbol.tostring.md)
+Серіалізує Symbol
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
-- Серіалізує Symbol
+-   [« MongoDB\\BSON\\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\Symbol::\_\_toString »](mongodb-bson-symbol.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.html)
+    
+-   Серіалізує Symbol
+    
 
-# MongoDB\BSON\Symbol::serialize
+# MongoDBBSONSymbol::serialize
 
-(mongodb \>=1.4.0)
+(mongodb >=1.4.0)
 
-MongoDB\BSON\Symbol::serialize — Серіалізує Symbol
+MongoDBBSONSymbol::serialize — Серіалізує Symbol
 
 ### Опис
 
-final public **MongoDB\BSON\Symbol::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Symbol::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\Symbol::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Symbol::unserialize()](mongodb-bson-symbol.unserialize.md) -
-Десеріалізує Symbol
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\Symbol::unserialize()](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

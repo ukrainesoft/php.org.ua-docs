@@ -1,9 +1,15 @@
-- [«imagegetclip](function.imagegetclip.md)
-- [imagegif »](function.imagegif.md)
+Отримує метод інтерполяції
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Отримує метод інтерполяції
+-   [« imagegetclip](function.imagegetclip.html)
+    
+-   [imagegif »](function.imagegif.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Отримує метод інтерполяції
+    
 
 # imagegetinterpolation
 
@@ -13,28 +19,28 @@ imagegetinterpolation — Отримує метод інтерполяції
 
 ### Опис
 
-**imagegetinterpolation**([GdImage](class.gdimage.md) `$image`): int
+```methodsynopsis
+imagegetinterpolation(GdImage $image): int
+```
 
-Отримує встановлений метод інтерполяції `image`.
+Отримує встановлений метод інтерполяції. `image`
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 ### Значення, що повертаються
 
 Повертає метод інтерполяції.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [imagesetinterpolation()](function.imagesetinterpolation.md) -
-Встановлює метод інтерполяції
+-   [imagesetinterpolation()](function.imagesetinterpolation.html) - встановлює метод інтерполяції

@@ -1,20 +1,27 @@
-- [« Функції Stomp](ref.stomp.md)
-- [stomp_version »](function.stomp-version.md)
+Повертає рядок із описом останньої помилки підключення
 
-- [PHP Manual](index.md)
-- [Функції Stomp](ref.stomp.md)
-- Повертає рядок із описом останньої помилки підключення
+-   [« Функции Stomp](ref.stomp.html)
+    
+-   [stomp\_version »](function.stomp-version.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Stomp](ref.stomp.html)
+    
+-   Повертає рядок із описом останньої помилки підключення
+    
 
-#stomp_connect_error
+# stompconnecterror
 
-(PECL stomp \>= 0.3.0)
+(PECL stomp >= 0.3.0)
 
-stomp_connect_error — Повертає рядок із описом останньої помилки
-підключення
+stompconnecterror — Повертає рядок із описом останньої помилки підключення
 
 ### Опис
 
-**stomp_connect_error**(): string
+```methodsynopsis
+stomp_connect_error(): string
+```
 
 Повертає рядок із описом останньої помилки підключення.
 
@@ -24,14 +31,24 @@ stomp_connect_error — Повертає рядок із описом остан
 
 ### Значення, що повертаються
 
-Рядок з описом помилки, або **`null`**, якщо помилки не сталося.
+Рядок з описом помилки, або **`null`**якщо помилки не сталося.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stomp_connect_error()****
+**Приклад #1 Приклад використання **stompconnecterror()****
 
-` <?php$link = stomp_connect('http://localhost:61613');if(!$link) {    die('Помилка з'єднання: ' . stomp_connect_error());}?> `
+```php
+<?php
+$link = stomp_connect('http://localhost:61613');
+
+if(!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Помилка з'єднання: Invalid Broker URI scheme
+```
+Ошибка соединения: Invalid Broker URI scheme
+```

@@ -1,12 +1,18 @@
-- [« Про налагодження в PHP](debugger-about.md)
-- [Список основних параметрів конфігурації »](configure.about.md)
+Опції конфігурації
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Опції конфігурації
+-   [« Об отладке в PHP](debugger-about.html)
+    
+-   [Список основных опций конфигурации »](configure.about.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Опції конфігурації
+    
 
 # Опції конфігурації
 
 ## Зміст
 
-- [Список основних опцій конфігурації](configure.about.md)
+-   [Список основных опций конфигурации](configure.about.html)

@@ -1,55 +1,62 @@
-- [«CommonMark](book.cmark.md)
-- [Встановлення та налаштування »](cmark.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
+-   [« CommonMark](book.cmark.html)
+    
+-   [Установка и настройка »](cmark.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark](book.cmark.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Модуль надає доступ до еталонної реалізації CommonMark,
-раціоналізованої версії синтаксису Markdown із специфікацією.
+Модуль надає доступ до еталонної реалізації CommonMark, раціоналізованої версії синтаксису Markdown із специфікацією.
 
 ##### Розбір:
 
 Модуль CommonMark надає простий API синтаксичного аналізу:
 
-[CommonMark\Parse](function.commonmark-parse.md)(string `$content`,
-int `$options` = ?): [CommonMark\Node](class.commonmark-node.md)
+```methodsynopsis
+CommonMark\Parse(string $content, int $options = ?): CommonMark\Node
+```
 
 ##### Відображення:
 
-Модуль CommonMark надає простий API відображення, який
-підтримує кілька форматів:
+Модуль CommonMark надає простий API відображення, який підтримує декілька форматів:
 
-[CommonMark\Render](function.commonmark-render.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?, int `$width` = ?): string
+```methodsynopsis
+CommonMark\Render(CommonMark\Node $node, int $options = ?, int $width = ?): string
+```
 
-[CommonMark\Render\HTML](function.commonmark-render-html.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?): string
+```methodsynopsis
+CommonMark\Render\HTML(CommonMark\Node $node, int $options = ?): string
+```
 
-[CommonMark\Render\XML](function.commonmark-render-xml.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?): string
+```methodsynopsis
+CommonMark\Render\XML(CommonMark\Node $node, int $options = ?): string
+```
 
-[CommonMark\Render\Man](function.commonmark-render-man.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?, int `$width` = ?): string
+```methodsynopsis
+CommonMark\Render\Man(CommonMark\Node $node, int $options = ?, int $width = ?): string
+```
 
-[CommonMark\Render\Latex](function.commonmark-render-latex.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?, int `$width` = ?): string
+```methodsynopsis
+CommonMark\Render\Latex(CommonMark\Node $node, int $options = ?, int $width = ?): string
+```
 
 ##### AST:
 
-Модуль CommonMark реалізує рух для об'єктів CommonMark\Node:
+Модуль CommonMark реалізує переміщення для об'єктів CommonMarkNode:
 
-public
-[CommonMark\Node::accept](commonmark-node.accept.md)([CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-`$visitor`): void
+```methodsynopsis
+public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
+```
 
 ##### CQL:
 
-Модуль CommonMark надає інтерфейс для CQL, CommonMark Query
-Language:
+Модуль CommonMark надає інтерфейс для CQL, CommonMark Query Language:
 
-public
-[CommonMark\CQL::\_\_construct](commonmark-cql.construct.md)(string
-`$query`)
+public [CommonMark\\CQL::\_\_construct](commonmark-cql.construct.html)(string `$query`

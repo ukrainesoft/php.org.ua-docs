@@ -1,69 +1,70 @@
-- [«Змінені функції](migration56.changed-functions.md)
-- [Зміни OpenSSL у PHP 5.6.x »](migration56.openssl.md)
+Нові функції
 
-- [PHP Manual](index.md)
-- [Міграція з PHP 5.5.x на PHP 5.6.x](migration56.md)
-- Нові функції
+-   [« Изменённые функции](migration56.changed-functions.html)
+    
+-   [Изменения OpenSSL в PHP 5.6.x »](migration56.openssl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Миграция с PHP 5.5.x на PHP 5.6.x](migration56.html)
+    
+-   Нові функції
+    
 
 ## Нові функції
 
-### [Дата та час](book.datetime.md)
+### [Дата и время](book.datetime.html)
 
--
-[DateTimeImmutable::createFromMutable()](datetimeimmutable.createfrommutable.md)
+-   [DateTimeImmutable::createFromMutable()](datetimeimmutable.createfrommutable.html)
 
-### [GMP](book.gmp.md)
+### [GMP](book.gmp.html)
 
-- [gmp_root()](function.gmp-root.md)
-- [gmp_rootrem()](function.gmp-rootrem.md)
+-   [gmp\_root()](function.gmp-root.html)
+-   [gmp\_rootrem()](function.gmp-rootrem.html)
 
-### [Hash](book.hash.md)
+### [Hash](book.hash.html)
 
-- [hash_equals()](function.hash-equals.md)
+-   [hash\_equals()](function.hash-equals.html)
 
-### [LDAP](book.ldap.md)
+### [LDAP](book.ldap.html)
 
-- [ldap_escape()](function.ldap-escape.md)
-- [ldap_modify_batch()](function.ldap-modify-batch.md)
+-   [ldap\_escape()](function.ldap-escape.html)
+-   [ldap\_modify\_batch()](function.ldap-modify-batch.html)
 
-### [MySQLi](book.mysqli.md)
+### [MySQLi](book.mysqli.html)
 
-- [mysqli_get_links_stats()](function.mysqli-get-links-stats.md)
+-   [mysqli\_get\_links\_stats()](function.mysqli-get-links-stats.html)
 
-### [OCI8](book.oci8.md)
+### [OCI8](book.oci8.html)
 
--
-[oci_get_implicit_resultset()](function.oci-get-implicit-resultset.md)
+-   [oci\_get\_implicit\_resultset()](function.oci-get-implicit-resultset.html)
 
-### [OpenSSL](book.openssl.md)
+### [OpenSSL](book.openssl.html)
 
--
-[openssl_get_cert_locations()](function.openssl-get-cert-locations.md)
--
-[openssl_x509_fingerprint()](function.openssl-x509-fingerprint.md)
-- [openssl_spki_new()](function.openssl-spki-new.md)
-- [openssl_spki_verify()](function.openssl-spki-verify.md)
--
-[openssl_spki_export_challenge()](function.openssl-spki-export-challenge.md)
-- [openssl_spki_export()](function.openssl-spki-export.md)
+-   [openssl\_get\_cert\_locations()](function.openssl-get-cert-locations.html)
+-   [openssl\_x509\_fingerprint()](function.openssl-x509-fingerprint.html)
+-   [openssl\_spki\_new()](function.openssl-spki-new.html)
+-   [openssl\_spki\_verify()](function.openssl-spki-verify.html)
+-   [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.html)
+-   [openssl\_spki\_export()](function.openssl-spki-export.html)
 
-### [PostgreSQL](book.pgsql.md)
+### [PostgreSQL](book.pgsql.html)
 
-- [pg_connect_poll()](function.pg-connect-poll.md)
-- [pg_consume_input()](function.pg-consume-input.md)
-- [pg_flush()](function.pg-flush.md)
-- [pg_socket()](function.pg-socket.md)
+-   [pg\_connect\_poll()](function.pg-connect-poll.html)
+-   [pg\_consume\_input()](function.pg-consume-input.html)
+-   [pg\_flush()](function.pg-flush.html)
+-   [pg\_socket()](function.pg-socket.html)
 
-### [PDO_PGSQL](ref.pdo-pgsql.md)
+### [PDO\_PGSQL](ref.pdo-pgsql.html)
 
-- [PDO::pgsqlGetNotify()](pdo.pgsqlgetnotify.md)
-- [PDO::pgsqlGetPid()](pdo.pgsqlgetpid.md)
+-   [PDO::pgsqlGetNotify()](pdo.pgsqlgetnotify.html)
+-   [PDO::pgsqlGetPid()](pdo.pgsqlgetpid.html)
 
-### [Управління сесіями](book.session.md)
+### [Управление сессиями](book.session.html)
 
-- [session_abort()](function.session-abort.md)
-- [session_reset()](function.session-reset.md)
+-   [session\_abort()](function.session-abort.html)
+-   [session\_reset()](function.session-reset.html)
 
-### [Zip](book.zip.md)
+### [Zip](book.zip.html)
 
-- [ZipArchive::setPassword()](ziparchive.setpassword.md)
+-   [ZipArchive::setPassword()](ziparchive.setpassword.html)

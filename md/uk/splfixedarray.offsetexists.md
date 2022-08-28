@@ -1,29 +1,36 @@
-- [« SplFixedArray::next](splfixedarray.next.md)
-- [SplFixedArray::offsetGet »](splfixedarray.offsetget.md)
+Повертає факт наявності зазначеного індексу масиву
 
-- [PHP Manual](index.md)
-- [SplFixedArray](class.splfixedarray.md)
-- повертає факт наявності зазначеного індексу масиву
+-   [« SplFixedArray::next](splfixedarray.next.html)
+    
+-   [SplFixedArray::offsetGet »](splfixedarray.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFixedArray](class.splfixedarray.html)
+    
+-   Повертає факт наявності зазначеного індексу масиву
+    
 
 # SplFixedArray::offsetExists
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplFixedArray::offsetExists — Повертає факт наявності вказаного індексу
-масиву
+SplFixedArray::offsetExists — Повертає факт наявності зазначеного індексу масиву
 
 ### Опис
 
-public **SplFixedArray::offsetExists**(int `$index`): bool
+```methodsynopsis
+public SplFixedArray::offsetExists(int $index): bool
+```
 
 Перевіряє існування індексу `index` у масиві.
 
 ### Список параметрів
 
 `index`
+
 Індекс, який потрібно перевірити.
 
 ### Значення, що повертаються
 
-**`true`**, якщо необхідний `index` існує, інакше
-**`false`**
+**`true`**, якщо необхідний `index` існує, в іншому випадку **`false`**

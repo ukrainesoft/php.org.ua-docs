@@ -1,69 +1,87 @@
-- [« Yaf_Session::valid](yaf-session.valid.md)
-- [Yaf_Exception::\_\_construct »](yaf-exception.construct.md)
+Клас YafException
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Exception
+-   [« Yaf\_Session::valid](yaf-session.valid.html)
+    
+-   [Yaf\_Exception::\_\_construct »](yaf-exception.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafException
+    
 
-# Клас Yaf_Exception
+# Клас YafException
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Yaf_Exception** extends [Exception](class.exception.md) {
+```classsynopsis
 
-/\* Наслідувані властивості \*/
 
-protected string `$message` = "";
+    
+    
+     
+      class Yaf_Exception
+     
 
-private string `$string` = "";
+     
+      extends
+       Exception
+     
+     {
+    
+    /* Наследуемые свойства */
+    
+     protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-protected int `$code`;
 
-protected string `$file` = "";
+    /* Методы */
+    
+   public __construct()
 
-protected int `$line`;
+    public getPrevious(): void
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Методи \*/
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-public [\_\_construct](yaf-exception.construct.md)()
 
-public [getPrevious](yaf-exception.getprevious.md)(): void
-
-/\* Наслідувані методи \*/
-
-final public [Exception::getMessage](exception.getmessage.md)():
-string
-
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [Yaf_Exception::\_\_construct](yaf-exception.construct.md) -
-Конструктор класу Yaf_Exception
-- [Yaf_Exception::getPrevious](yaf-exception.getprevious.md) -
-Отримати попередній виняток
+-   [Yaf\_Exception::\_\_construct](yaf-exception.construct.html) - Конструктор класу YafException
+-   [Yaf\_Exception::getPrevious](yaf-exception.getprevious.html) — Отримати попередній виняток

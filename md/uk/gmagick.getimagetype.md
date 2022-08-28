@@ -1,19 +1,27 @@
-- [« Gmagick::getimagesignature](gmagick.getimagesignature.md)
-- [Gmagick::getimageunits »](gmagick.getimageunits.md)
+Повертає потенційний тип зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає потенційний тип зображення
+-   [« Gmagick::getimagesignature](gmagick.getimagesignature.html)
+    
+-   [Gmagick::getimageunits »](gmagick.getimageunits.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає потенційний тип зображення
+    
 
 # Gmagick::getimagetype
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimagetype — Повертає потенційний тип зображення
 
 ### Опис
 
-public **Gmagick::getimagetype**(): int
+```methodsynopsis
+public Gmagick::getimagetype(): int
+```
 
 Повертає потенційний тип зображення.
 

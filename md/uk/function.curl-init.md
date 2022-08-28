@@ -1,58 +1,73 @@
-- [«curl_getinfo](function.curl-getinfo.md)
-- [curl_multi_add_handle »](function.curl-multi-add-handle.md)
+Ініціалізує сеанс cURL
 
-- [PHP Manual](index.md)
-- [Функції cURL](ref.curl.md)
-- Ініціалізує сеанс cURL
+-   [« curl\_getinfo](function.curl-getinfo.html)
+    
+-   [curl\_multi\_add\_handle »](function.curl-multi-add-handle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции cURL](ref.curl.html)
+    
+-   Ініціалізує сеанс cURL
+    
 
-#curl_init
+# curlinit
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-curl_init – Ініціалізує сеанс cURL
+curlinit - Ініціалізує сеанс cURL
 
 ### Опис
 
-**curl_init**(?string `$url` = **`null`**):
-[CurlHandle](class.curlhandle.md)\|false
+```methodsynopsis
+curl_init(?string $url = null): CurlHandle|false
+```
 
-Ініціалізує новий сеанс cURL та повертає дескриптор, який
-використовується з функціями [curl_setopt()](function.curl-setopt.md),
-[curl_exec()](function.curl-exec.md) та
-[curl_close()](function.curl-close.md).
+Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curl\_setopt()](function.curl-setopt.html) [curl\_exec()](function.curl-exec.html) і [curl\_close()](function.curl-close.html)
 
 ### Список параметрів
 
 `url`
-Якщо вказано, опція **`CURLOPT_URL`** буде автоматично встановлена в
-значення цього аргументу. Ви можете вручну встановити цю опцію з
-за допомогою функції [curl_setopt()](function.curl-setopt.md).
 
-> **Примітка**:
->
-> Протокол `file` стає недоступним у cURL, якщо задана опція
-> [open_basedir](ini.core.md#ini.open-basedir).
+Якщо вказано, опція **`CURLOPT_URL`** буде автоматично встановлено значення цього аргументу. Ви можете вручну встановити цю опцію за допомогою функції [curl\_setopt()](function.curl-setopt.html)
+
+> **Зауваження**
+> 
+> Протокол `file` стає недоступним у cURL, якщо задана опція [open\_basedir](ini.core.html#ini.open-basedir)
 
 ### Значення, що повертаються
 
-Повертає дескриптор cURL у разі успішного виконання, і **`false`**
-у разі виникнення помилки.
+Повертає дескриптор cURL у разі успішного виконання та **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                   |
-| ------ | ---------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.md); раніше, повертався ресурс (resource). |
-| 8.0.0  | url тепер припускає значення null.                                                                                     |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.html); раніше, повертався ресурс (resource). |
+|  | `url` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Ініціалізація нового сеансу cURL та завантаження веб-сторінки**
 
-`<?php// створення нового ресурсу cURL$ch = curl_init();// установка URL і інших необхідних параметрівcurl_setopt($ch, CURLOPT_URL, "http://www.example.com CURLOPT_HEADER, 0);// завантаження сторінки і видача еї браузеруcurl_exec($ch);// завершення сеансу і звільнення ресурсовcurl_close($ch);?> `
+```php
+<?php
+// создание нового ресурса cURL
+$ch = curl_init();
+
+// установка URL и других необходимых параметров
+curl_setopt($ch, CURLOPT_URL, "http://www.example.com/");
+curl_setopt($ch, CURLOPT_HEADER, 0);
+
+// загрузка страницы и выдача её браузеру
+curl_exec($ch);
+
+// завершение сеанса и освобождение ресурсов
+curl_close($ch);
+?>
+```
 
 ### Дивіться також
 
-- [curl_close()](function.curl-close.md) - Завершує сеанс cURL
-- [curl_multi_init()](function.curl-multi-init.md) - Створює набір
-CURL-дескрипторів
+-   [curl\_close()](function.curl-close.html) - Завершує сеанс cURL
+-   [curl\_multi\_init()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів

@@ -1,25 +1,29 @@
-- [« ReflectionFiber::\_\_construct](reflectionfiber.construct.md)
-- [ReflectionFiber::getExecutingFile »](reflectionfiber.getexecutingfile.md)
+Отримує об'єкт, що використовується для створення файбера
 
-- [PHP Manual](index.md)
-- [ReflectionFiber](class.reflectionfiber.md)
-- Отримує об'єкт, що викликається, що використовується для створення файбера
+-   [« ReflectionFiber::\_\_construct](reflectionfiber.construct.html)
+    
+-   [ReflectionFiber::getExecutingFile »](reflectionfiber.getexecutingfile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFiber](class.reflectionfiber.html)
+    
+-   Отримує об'єкт, що використовується для створення файбера
+    
 
 # ReflectionFiber::getCallable
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionFiber::getCallable — Отримує об'єкт, що використовується.
-для створення файбера
+ReflectionFiber::getCallable — Отримує об'єкт, що викликається, що використовується для створення файбера
 
 ### Опис
 
-public **ReflectionFiber::getCallable**():
-[callable](language.types.callable.md)
+```methodsynopsis
+public ReflectionFiber::getCallable(): callable
+```
 
-Повертає об'єкт, що використовується для створення
-[Fiber](class.fiber.md). Якщо файбер завершено, видається помилка
-[Error](class.error.md).
+Повертає об'єкт, що використовується для створення [Fiber](class.fiber.html). Якщо файбер завершено, видається помилка [Error](class.error.html)
 
 ### Список параметрів
 
@@ -27,5 +31,4 @@ public **ReflectionFiber::getCallable**():
 
 ### Значення, що повертаються
 
-Повертає об'єкт, що використовується для створення
-[Fiber](class.fiber.md).
+Повертає об'єкт, що використовується для створення [Fiber](class.fiber.html)

@@ -1,30 +1,36 @@
-- [« ibase_free_query](function.ibase-free-query.md)
-- [ibase_gen_id »](function.ibase-gen-id.md)
+Звільняє набір результатів
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Звільняє набір результатів
+-   [« ibase\_free\_query](function.ibase-free-query.html)
+    
+-   [ibase\_gen\_id »](function.ibase-gen-id.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Звільняє набір результатів
+    
 
-# ibase_free_result
+# ibasefreeresult
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_free_result — Звільняє набір результатів
+ibasefreeresult — Звільняє набір результатів
 
 ### Опис
 
-**ibase_free_result**(resource `$result_identifier`): bool
+```methodsynopsis
+ibase_free_result(resource $result_identifier): bool
+```
 
 Звільняє набір результатів.
 
 ### Список параметрів
 
 `result_identifier`
-Набір результатів, створених за допомогою
-[ibase_query()](function.ibase-query.md) або
-[ibase_execute()](function.ibase-execute.md).
+
+Набір результатів, створених за допомогою [ibase\_query()](function.ibase-query.html) або [ibase\_execute()](function.ibase-execute.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

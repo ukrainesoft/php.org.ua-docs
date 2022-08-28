@@ -1,70 +1,80 @@
-- [«Yar_Concurrent_Client::reset](yar-concurrent-client.reset.md)
-- [Yar_Server_Exception::getType »](yar-server-exception.gettype.md)
+Клас YarServerException
 
-- [PHP Manual](index.md)
-- [Yar](book.yar.md)
-- Клас Yar_Server_Exception
+-   [« Yar\_Concurrent\_Client::reset](yar-concurrent-client.reset.html)
+    
+-   [Yar\_Server\_Exception::getType »](yar-server-exception.gettype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yar](book.yar.html)
+    
+-   Клас YarServerException
+    
 
-# Клас Yar_Server_Exception
+# Клас YarServerException
 
 (No version information available, might only be in Git)
 
 ## Вступ
 
-Якщо сервіс викидає винятки, на стороні клієнта буде викинуто
-виняток Yar_Server_Exception.
+Якщо сервіс викидає винятки, на стороні клієнта буде викинуто виняток YarServerВисновок.
 
 ## Огляд класів
 
-class **Yar_Server_Exception** extends [Exception](class.exception.md)
-{
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_type`;
+    
+    
+     
+      class Yar_Server_Exception
+     
 
-/\* Методи \*/
+     
+      extends
+       Exception
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $_type;
 
-public [getType](yar-server-exception.gettype.md)(): string
 
-/\* Наслідувані методи \*/
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
+    /* Методы */
+    
+   public getType(): string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
 
-final public [Exception::getCode](exception.getcode.md)(): int
+    /* Наследуемые методы */
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getFile](exception.getfile.md)(): string
 
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`message`
+message
 
-`code`
+code
 
-`file`
+file
 
-`line`
+line
 
-`_type`
+type
 
 ## Зміст
 
-- [Yar_Server_Exception::getType](yar-server-exception.gettype.md) -
-Отримати тип виключення
+-   [Yar\_Server\_Exception::getType](yar-server-exception.gettype.html) — Отримати тип виключення

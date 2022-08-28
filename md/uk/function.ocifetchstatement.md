@@ -1,22 +1,26 @@
-- [« ocifetchinto](function.ocifetchinto.md)
-- [ocifreecollection»](function.ocifreecollection.md)
+Псевдонім ocifetchall
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_fetch_all
+-   [« ocifetchinto](function.ocifetchinto.html)
+    
+-   [ocifreecollection »](function.ocifreecollection.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ocifetchall
+    
 
 # ocifetchstatement
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocifetchstatement - Псевдонім
-[oci_fetch_all()](function.oci-fetch-all.md)
+ocifetchstatement - Псевдонім [oci\_fetch\_all()](function.oci-fetch-all.html)
 
 ### Опис
 
-Псевдонім [oci_fetch_all()](function.oci-fetch-all.md)
+Псевдонім [oci\_fetch\_all()](function.oci-fetch-all.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

@@ -1,42 +1,60 @@
-- [«gnupg_keyinfo](function.gnupg-keyinfo.md)
-- [gnupg_setarmor »](function.gnupg-setarmor.md)
+Перераховує підписи ключа
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Перераховує підписи ключа
+-   [« gnupg\_keyinfo](function.gnupg-keyinfo.html)
+    
+-   [gnupg\_setarmor »](function.gnupg-setarmor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Перераховує підписи ключа
+    
 
-#gnupg_listsignatures
+# gnupglistsignatures
 
-(PECL gnupg \>= 0.5)
+(PECL gnupg >= 0.5)
 
-gnupg_listsignatures — Перерахунок підпису ключа
+gnupglistsignatures — Перелік підпису ключа
 
 ### Опис
 
-**gnupg_listsignatures**(resource `$identifier`, string `$keyid`): array
+```methodsynopsis
+gnupg_listsignatures(resource $identifier, string $keyid): array
+```
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `keyid`
-Ідентифікатор ключа списку підписів.
+
+Ідентифікатор ключа для списку підписів.
 
 ### Значення, що повертаються
 
-У разі успішного виконання, функція повертає масив підписів ключів.
-У разі помилки функція повертає **`null`**.
+У разі успішного виконання, функція повертає масив підписів ключів. У разі помилки функція повертає **`null`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_listsignatures()** в
-процедурному стилі**
+**Приклад #1 Приклад використання **gnupglistsignatures()** у процедурному стилі**
 
-` <?php$res = gnupg_init();$signatures = gnupg_listsignatures($res, "8660281B6051D071D94B5B230549F9DC851566DC");print_r($signatures);
+```php
+<?php
+$res = gnupg_init();
+$signatures = gnupg_listsignatures($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+print_r($signatures);
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_listsignatures()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupglistsignatures()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$signatures = $gpg->listsignatures("8660281B6051D071D94B5B230549F9DC851566DC");print_r($signatures);
+```php
+<?php
+$gpg = new gnupg();
+$signatures = $gpg->listsignatures("8660281B6051D071D94B5B230549F9DC851566DC");
+print_r($signatures);
+?>
+```

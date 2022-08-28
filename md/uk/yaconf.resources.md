@@ -1,8 +1,14 @@
-- [« Налаштування під час виконання](yaconf.configuration.md)
-- [Предвизначені константи »](yaconf.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yaconf.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](yaconf.configuration.html)
+    
+-   [Предопределённые константы »](yaconf.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](yaconf.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів

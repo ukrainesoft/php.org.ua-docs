@@ -1,26 +1,38 @@
-- [«EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.md)
-- [EventHttp::setMaxHeadersSize »](eventhttp.setmaxheaderssize.md)
+Встановлює максимальний розмір тіла запиту
 
-- [PHP Manual](index.md)
-- [EventHttp](class.eventhttp.md)
-- Встановлює максимальний розмір запиту
+-   [« EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.html)
+    
+-   [EventHttp::setMaxHeadersSize »](eventhttp.setmaxheaderssize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttp](class.eventhttp.html)
+    
+-   Встановлює максимальний розмір тіла запиту
+    
 
 # EventHttp::setMaxBodySize
 
-(PECL event \>= 1.4.0-beta)
+(PECL event >= 1.4.0-beta)
 
-EventHttp::setMaxBodySize — Встановлює максимальний розмір тіла
-запиту
+EventHttp::setMaxBodySize — Встановлює максимальний розмір тіла запиту
 
 ### Опис
 
-public **EventHttp::setMaxBodySize**( int `$value` ): void
+```methodsynopsis
+public
+   EventHttp::setMaxBodySize(
+    int
+     $value
+   ): void
+```
 
 Встановлює максимальний розмір запиту.
 
 ### Список параметрів
 
 `value`
+
 Розмір тіла у байтах.
 
 ### Значення, що повертаються
@@ -29,5 +41,4 @@ public **EventHttp::setMaxBodySize**( int `$value` ): void
 
 ### Дивіться також
 
-- [EventHttp::setMaxHeadersSize()](eventhttp.setmaxheaderssize.md) -
-Встановлює максимальний розмір заголовка HTTP
+-   [EventHttp::setMaxHeadersSize()](eventhttp.setmaxheaderssize.html) - Встановлює максимальний розмір заголовка HTTP

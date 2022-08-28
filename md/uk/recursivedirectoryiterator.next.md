@@ -1,9 +1,15 @@
-- [« RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)
-- [RecursiveDirectoryIterator::rewind »](recursivedirectoryiterator.rewind.md)
+Перехід до наступного елементу
 
-- [PHP Manual](index.md)
-- [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-- Перехід до наступного елементу
+-   [« RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.html)
+    
+-   [RecursiveDirectoryIterator::rewind »](recursivedirectoryiterator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.html)
+    
+-   Перехід до наступного елементу
+    
 
 # RecursiveDirectoryIterator::next
 
@@ -13,12 +19,13 @@ RecursiveDirectoryIterator::next — Перехід до наступного е
 
 ### Опис
 
-public **RecursiveDirectoryIterator::next**(): void
+```methodsynopsis
+public RecursiveDirectoryIterator::next(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

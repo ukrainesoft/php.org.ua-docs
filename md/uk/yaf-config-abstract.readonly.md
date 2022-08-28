@@ -1,24 +1,31 @@
-- [« Yaf_Config_Abstract::get](yaf-config-abstract.get.md)
-- [Yaf_Config_Abstract::set »](yaf-config-abstract.set.md)
+Знаходить конфігурацію лише для читання
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Abstract](class.yaf-config-abstract.md)
-- Знаходить конфігурацію лише для читання
+-   [« Yaf\_Config\_Abstract::get](yaf-config-abstract.get.html)
+    
+-   [Yaf\_Config\_Abstract::set »](yaf-config-abstract.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+    
+-   Знаходить конфігурацію лише для читання
+    
 
-# Yaf_Config_Abstract::readonly
+# YafConfigAbstract::readonly
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Abstract::readonly — Знаходить конфігурацію лише для читання
+YafConfigAbstract::readonly — Знаходить конфігурацію лише для читання
 
 ### Опис
 
-abstract public **Yaf_Config_Abstract::readonly**(): bool
+```methodsynopsis
+abstract public Yaf_Config_Abstract::readonly(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

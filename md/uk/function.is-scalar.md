@@ -1,79 +1,94 @@
-- [«is_resource](function.is-resource.md)
-- [is_string »](function.is-string.md)
+Перевіряє, чи є змінна скалярним значенням
 
-- [PHP Manual](index.md)
-- [Функції для роботи зі змінними](ref.var.md)
-- Перевіряє, чи є змінна скалярним значенням
+-   [« is\_resource](function.is-resource.html)
+    
+-   [is\_string »](function.is-string.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с переменными](ref.var.html)
+    
+-   Перевіряє, чи є змінна скалярним значенням
+    
 
-#is_scalar
+# ісscalar
 
-(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
 
-is_scalar — Перевіряє, чи є змінна скалярним значенням
+ісscalar — Перевіряє, чи є змінна скалярним значенням
 
 ### Опис
 
-**is_scalar**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): bool
+```methodsynopsis
+is_scalar(mixed $value): bool
+```
 
-Перевіряє, чи ця змінна є скалярним значенням.
+Перевіряє, чи є змінна скалярним значенням.
 
-Скалярні змінні – це змінні з типами int, float, string та
-bool. Типи array, object, resource і null є скалярними.
+Скалярні змінні – це змінні з типами int, float, string та bool. Типи array, object, resource і null є скалярними.
 
-> **Примітка**:
->
-> **is_scalar()** не вважає змінні типу resource скалярними, так
-> як ресурси є абстрактними типами даних, що в даний час
-> час засновані цілому типі. Не варто покладатися на цю деталь
-> реалізації, оскільки може змінитися.
+> **Зауваження**
+> 
+> **ісscalar()** не вважає змінні типу resource скалярними, оскільки ресурси є абстрактними типами даних, що у час засновані цілому типі. Не варто покладатися на цю деталь реалізації, оскільки вона може змінитися.
 
-> **Примітка**:
->
-> **is_scalar()** не вважає NULL скаляром.
+> **Зауваження**
+> 
+> **ісscalar()** не вважає NULL скаляром.
 
 ### Список параметрів
 
 `value`
+
 Перевірена змінна.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є скалярним значенням, або
-**`false`** інакше.
+Повертає **`true`**, якщо `value` є скалярним значенням, або **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **is_scalar()****
+**Приклад #1 Приклад використання **ісscalar()****
 
-` <?phpfunction show_var($var){    if (is_scalar($var)) {       echo $var; } else {       var_dump($var); }}$pi = 3.1416;$proteins = array("hemoglobin", "cytochrome c oxidase", "ferredoxin");show_var($pi);show_var($proteins)?> `
+```php
+<?php
+function show_var($var)
+{
+    if (is_scalar($var)) {
+        echo $var;
+    } else {
+        var_dump($var);
+    }
+}
+$pi = 3.1416;
+$proteins = array("hemoglobin", "cytochrome c oxidase", "ferredoxin");
+
+show_var($pi);
+show_var($proteins)
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 3.1416
 array(3) {
-[0]=>
-string(10) "hemoglobin"
-[1]=>
-string(20) "cytochrome c oxidase"
-[2]=>
-string(10) "ferredoxin"
+  [0]=>
+  string(10) "hemoglobin"
+  [1]=>
+  string(20) "cytochrome c oxidase"
+  [2]=>
+  string(10) "ferredoxin"
 }
+```
 
 ### Дивіться також
 
-- [is_float()](function.is-float.md) - Перевіряє, чи є
-змінна числом із плаваючою точкою
-- [is_int()](function.is-int.md) - Перевіряє, чи є змінна
-цілим числом
-- [is_numeric()](function.is-numeric.md) - Перевіряє, чи є
-змінна числом або рядком, що містить число
-- [is_real()](function.is-real.md) - Псевдонім is_float
-- [is_string()](function.is-string.md) - Перевіряє, чи є
-змінним рядком
-- [is_bool()](function.is-bool.md) - Перевіряє, чи є
-змінна булева
-- [is_object()](function.is-object.md) - Перевіряє, чи є
-змінна об'єктом
-- [is_array()](function.is-array.md) - Визначає, чи є
-змінна масивом
+-   [is\_float()](function.is-float.html) - Перевіряє, чи є змінна числом із плаваючою точкою
+-   [is\_int()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
+-   [is\_numeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [is\_real()](function.is-real.html) - Псевдонім isfloat
+-   [is\_string()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [is\_bool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
+-   [is\_object()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [is\_array()](function.is-array.html) - Визначає, чи є змінна масивом

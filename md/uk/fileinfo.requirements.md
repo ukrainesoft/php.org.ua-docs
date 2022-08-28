@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](fileinfo.setup.md)
-- [Установка »](fileinfo.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](fileinfo.setup.md)
-- Вимоги
+-   [« Установка и настройка](fileinfo.setup.html)
+    
+-   [Установка »](fileinfo.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](fileinfo.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

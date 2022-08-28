@@ -1,22 +1,29 @@
-- [« Memcached::prependByKey](memcached.prependbykey.md)
-- [Memcached::replace »](memcached.replace.md)
+Закриває всі відкриті з'єднання
 
-- [PHP Manual](index.md)
-- [Memcached](class.memcached.md)
-- Закриває всі відкриті з'єднання
+-   [« Memcached::prependByKey](memcached.prependbykey.html)
+    
+-   [Memcached::replace »](memcached.replace.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Memcached](class.memcached.html)
+    
+-   Закриває всі відкриті з'єднання
+    
 
 # Memcached::quit
 
-(PECL memcached \>= 2.0.0)
+(PECL memcached >= 2.0.0)
 
-Memcached::quit — Закриває всі відкриті з'єднання
+Memcached::quit — Закриває всі відкриті з'єднання.
 
 ### Опис
 
-public **Memcached::quit**(): bool
+```methodsynopsis
+public Memcached::quit(): bool
+```
 
-**Memcached::quit()** закриває всі відкриті з'єднання із серверами
-memcache.
+**Memcached::quit()** закриває всі відкриті з'єднання із серверами memcache.
 
 ### Список параметрів
 
@@ -24,5 +31,4 @@ memcache.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

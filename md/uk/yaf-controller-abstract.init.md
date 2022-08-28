@@ -1,25 +1,29 @@
-- [« Yaf_Controller_Abstract::getViewpath](yaf-controller-abstract.getviewpath.md)
-- [Yaf_Controller_Abstract::initView »](yaf-controller-abstract.initview.md)
+Ініціалізатор контролера
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Ініціалізатор контролера
+-   [« Yaf\_Controller\_Abstract::getViewpath](yaf-controller-abstract.getviewpath.html)
+    
+-   [Yaf\_Controller\_Abstract::initView »](yaf-controller-abstract.initview.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+    
+-   Ініціалізатор контролера
+    
 
-# Yaf_Controller_Abstract::init
+# YafControllerAbstract::init
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Controller_Abstract::init - Ініціалізатор контролера
+YafControllerAbstract::init — Ініціалізатор контролера
 
 ### Опис
 
-public **Yaf_Controller_Abstract::init**(): void
+```methodsynopsis
+public Yaf_Controller_Abstract::init(): void
+```
 
-[Yaf_Controller_Abstract::\_\_construct()](yaf-controller-abstract.construct.md)
-- Остаточний (final) метод, це означає, що користувачі не можуть
-перевизначити його. Але користувачі можуть визначити
-**Yaf_Controller_Abstract::init()**, який буде викликатися після
-створення екземпляра об'єкта контролера.
+[Yaf\_Controller\_Abstract::\_\_construct()](yaf-controller-abstract.construct.html) - Остаточний (final) метод, це означає, що користувачі не можуть перевизначити його. Але користувачі можуть визначити **YafControllerAbstract::init()**, який буде викликатись після створення екземпляра об'єкта контролера.
 
 ### Список параметрів
 
@@ -29,5 +33,4 @@ public **Yaf_Controller_Abstract::init**(): void
 
 ### Дивіться також
 
-- [Yaf_Controller_Abstract::\_\_construct()](yaf-controller-abstract.construct.md) -
-Конструктор класу Yaf_Controller_Abstract
+-   [Yaf\_Controller\_Abstract::\_\_construct()](yaf-controller-abstract.construct.html) - Конструктор класу YafControllerAbstract

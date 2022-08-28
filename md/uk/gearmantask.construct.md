@@ -1,22 +1,29 @@
-- [« GearmanTask](class.gearmantask.md)
-- [GearmanTask::create »](gearmantask.create.md)
+Створює об'єкт GearmanTask
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Створює об'єкт GearmanTask
+-   [« GearmanTask](class.gearmantask.html)
+    
+-   [GearmanTask::create »](gearmantask.create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Створює об'єкт GearmanTask
+    
 
-# GearmanTask::\_\_construct
+# GearmanTask::construct
 
-(PECL gearman = 0.5.0)
+(PECL gearman >= 0.5.0)
 
-GearmanTask::\_\_construct — Створює об'єкт GearmanTask
+GearmanTask::construct — Створює об'єкт GearmanTask
 
 ### Опис
 
-public **GearmanTask::\_\_construct**()
+```methodsynopsis
+public GearmanTask::__construct()
+```
 
-Створює об'єкт [GearmanTask](class.gearmantask.md), що представляє
-завдання на обробку, яке надалі буде відправлено на сервер.
+Створює об'єкт [GearmanTask](class.gearmantask.html), що представляє завдання на обробку, яка буде відправлена ​​на сервер.
 
 ### Список параметрів
 
@@ -24,4 +31,4 @@ public **GearmanTask::\_\_construct**()
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanTask](class.gearmantask.md).
+Об'єкт класу [GearmanTask](class.gearmantask.html)

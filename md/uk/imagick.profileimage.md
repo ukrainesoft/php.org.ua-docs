@@ -1,9 +1,15 @@
-- [« Imagick::previousImage](imagick.previousimage.md)
-- [Imagick::quantizeImage »](imagick.quantizeimage.md)
+Додає або видаляє профіль зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Додає або видаляє профіль зображення
+-   [« Imagick::previousImage](imagick.previousimage.html)
+    
+-   [Imagick::quantizeImage »](imagick.quantizeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Додає або видаляє профіль зображення
+    
 
 # Imagick::profileImage
 
@@ -13,12 +19,11 @@ Imagick::profileImage — Додає або видаляє профіль зоб
 
 ### Опис
 
-public **Imagick::profileImage**(string `$name`, string `$profile`):
-bool
+```methodsynopsis
+public Imagick::profileImage(string $name, string $profile): bool
+```
 
-Додає або видаляє ICC, IPTC або загальний профіль зображення. Якщо
-профіль NULL, він видаляється, інакше – додається. Використовуйте ім'я '\*' та
-профіль NULL, щоб видалити всі профілі зображення.
+Додає або видаляє ICC, IPTC або загальний профіль зображення. Якщо профіль NULL, він видаляється, інакше додається. Використовуйте ім'я '' і профіль NULL, щоб видалити всі профілі зображення.
 
 ### Список параметрів
 
@@ -28,7 +33,7 @@ bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

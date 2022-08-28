@@ -1,19 +1,27 @@
-- [«get_cfg_var](function.get-cfg-var.md)
-- [get_defined_constants »](function.get-defined-constants.md)
+Отримує ім'я власника поточного скрипту PHP
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- отримує ім'я власника поточного скрипта PHP
+-   [« get\_cfg\_var](function.get-cfg-var.html)
+    
+-   [get\_defined\_constants »](function.get-defined-constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Отримує ім'я власника поточного скрипту PHP
+    
 
-#get_current_user
+# getcurrentuser
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-get_current_user — Отримує ім'я власника поточного скрипта PHP
+getcurrentuser — Отримує ім'я власника поточного скрипту PHP
 
 ### Опис
 
-**get_current_user**(): string
+```methodsynopsis
+get_current_user(): string
+```
 
 Повертає ім'я власника поточного PHP-скрипту.
 
@@ -23,26 +31,28 @@ get_current_user — Отримує ім'я власника поточного 
 
 ### Значення, що повертаються
 
-Повертає ім'я користувача як рядок.
+Повертає ім'я користувача у вигляді рядка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_current_user()****
+**Приклад #1 Приклад використання **getcurrentuser()****
 
-`<?phpecho 'Поточний власник|скрипта: ' . get_current_user();?> `
+```php
+<?php
+echo 'Текущий владелец скрипта: ' . get_current_user();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Поточний власник скрипту: SYSTEM
+```
+Текущий владелец скрипта: SYSTEM
+```
 
 ### Дивіться також
 
-- [getmyuid()](function.getmyuid.md) - Отримання UID власника
-скрипта PHP
-- [getmygid()](function.getmygid.md) - Отримати GID власника
-скрипта PHP
-- [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
-- [getmyinode()](function.getmyinode.md) - Отримує значення inode
-поточного скрипту
-- [getlastmod()](function.getlastmod.md) - Отримує час останнього
-модифікації сторінки
+-   [getmyuid()](function.getmyuid.html) - Отримання UID власника скрипта PHP
+-   [getmygid()](function.getmygid.html) - Отримати GID власника скрипта PHP
+-   [getmypid()](function.getmypid.html) - Отримання ID процесу PHP
+-   [getmyinode()](function.getmyinode.html) - Отримує значення inode поточного скрипту
+-   [getlastmod()](function.getlastmod.html) - Отримує час останньої модифікації сторінки

@@ -1,42 +1,44 @@
-- [«stream_set_chunk_size](function.stream-set-chunk-size.md)
-- [stream_set_timeout »](function.stream-set-timeout.md)
+Встановити буферизацію читання файлу на вказаному потоці
 
-- [PHP Manual](index.md)
-- [Функції для роботи з потоками](ref.stream.md)
-- Встановити буферизацію читання файлу на вказаному потоці
+-   [« stream\_set\_chunk\_size](function.stream-set-chunk-size.html)
+    
+-   [stream\_set\_timeout »](function.stream-set-timeout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с потоками](ref.stream.html)
+    
+-   Встановити буферизацію читання файлу на вказаному потоці
+    
 
-#stream_set_read_buffer
+# streamsetreadbuffer
 
-(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
+(PHP 5> = 5.3.3, PHP 7, PHP 8)
 
-stream_set_read_buffer — Встановити буферизацію читання файлу на
-вказаному потоці
+streamsetreadbuffer — Встановити буферизацію читання файлу на вказаному потоці
 
 ### Опис
 
-**stream_set_read_buffer**(resource `$stream`, int `$size`): int
+```methodsynopsis
+stream_set_read_buffer(resource $stream, int $size): int
+```
 
-Встановлює буфер для читання. Це еквівалент функції
-[stream_set_write_buffer()](function.stream-set-write-buffer.md), але
-для операцій читання
+Встановлює буфер читання. Це еквівалент функції [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html), але операцій читання.
 
 ### Список параметрів
 
 `stream`
-Вказівник файлу.
+
+Файловий покажчик.
 
 `size`
-Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції
-Читання не буферизуються. Це гарантує, що всі операції читання при
-за допомогою функції [fread()](function.fread.md) будуть завершені до того,
-як іншим процесам буде дозволено читати із вхідного потоку.
+
+Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції читання не буферизуються. Це гарантує, що всі операції читання за допомогою функції [fread()](function.fread.html) будуть завершені до того, як іншим процесам буде дозволено читати із вхідного потоку.
 
 ### Значення, що повертаються
 
-Повертає 0 у разі успішного виконання, або інше значення, якщо
-запит може бути виконаний.
+Повертає 0 у разі успішного виконання або інше значення, якщо запит не може бути виконаний.
 
 ### Дивіться також
 
-- [stream_set_write_buffer()](function.stream-set-write-buffer.md) -
-Встановлює буферизацію файлу під час запису у вказаний потік
+-   [stream\_set\_write\_buffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік

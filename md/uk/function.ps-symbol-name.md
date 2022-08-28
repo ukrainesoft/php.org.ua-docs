@@ -1,36 +1,43 @@
-- [«ps_stroke](function.ps-stroke.md)
-- [ps_symbol_width »](function.ps-symbol-width.md)
+Отримує ім'я гліфа
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Отримує ім'я гліфа
+-   [« ps\_stroke](function.ps-stroke.html)
+    
+-   [ps\_symbol\_width »](function.ps-symbol-width.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Отримує ім'я гліфа
+    
 
-#ps_symbol_name
+# псsymbolname
 
-(PECL ps \>= 1.2.0)
+(PECL ps >= 1.2.0)
 
-ps_symbol_name — Отримує ім'я гліфа
+псsymbolname — Отримує ім'я гліфа
 
 ### Опис
 
-**ps_symbol_name**(resource `$psdoc`, int `$ord`, int `$fontid` = 0):
-string
+```methodsynopsis
+ps_symbol_name(resource $psdoc, int $ord, int $fontid = 0): string
+```
 
-Для функції потрібен файл метрик шрифтів Adobe, щоб знати, які
-гліфи доступні.
+Для функції необхідний файл метрик шрифтів Adobe, щоб знати, які гліфи доступні.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `ord`
-Параметр `ord` – це позиція гліфа у векторі кодування шрифту.
+
+Параметр `ord` - це позиція гліфа у векторі кодування шрифту.
 
 `fontid`
-Ідентифікатор шрифту. Якщо шрифт не вказано, буде
-використовувати поточний шрифт.
+
+Ідентифікатор шрифту. Якщо шрифт не вказано, використовуватиметься поточний шрифт.
 
 ### Значення, що повертаються
 
@@ -38,6 +45,5 @@ string
 
 ### Дивіться також
 
-- [ps_symbol()](function.ps-symbol.md) - Виводить гліф
-- [ps_symbol_width()](function.ps-symbol-width.md) - Отримує ширину
-гліфа
+-   [ps\_symbol()](function.ps-symbol.html) - Виводить гліф
+-   [ps\_symbol\_width()](function.ps-symbol-width.html) - Отримує ширину гліфа

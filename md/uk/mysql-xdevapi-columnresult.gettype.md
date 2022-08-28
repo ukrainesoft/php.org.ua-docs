@@ -1,9 +1,15 @@
-- [« ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.md)
-- [ColumnResult::isNumberSigned »](mysql-xdevapi-columnresult.isnumbersigned.md)
+Отримує тип стовпця
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує тип стовпця
+-   [« ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.html)
+    
+-   [ColumnResult::isNumberSigned »](mysql-xdevapi-columnresult.isnumbersigned.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+    
+-   Отримує тип стовпця
+    
 
 # ColumnResult::getType
 
@@ -13,12 +19,13 @@ ColumnResult::getType — Отримує тип стовпця
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getType**(): int
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getType(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,7 +35,12 @@ public **mysql_xdevapi\ColumnResult::getType**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getType()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getType()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

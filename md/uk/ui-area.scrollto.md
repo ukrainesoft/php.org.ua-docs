@@ -1,27 +1,36 @@
-- [« UI\Area::redraw](ui-area.redraw.md)
-- [UI\Area::setSize »](ui-area.setsize.md)
+Прокрутити область
 
-- [PHP Manual](index.md)
-- [UI\Area](class.ui-area.md)
-- Прокрутити область
+-   [« UI\\Area::redraw](ui-area.redraw.html)
+    
+-   [UI\\Area::setSize »](ui-area.setsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Area](class.ui-area.html)
+    
+-   Прокрутити область
+    
 
-# UI\Area::scrollTo
+# ОЙArea::scrollTo
 
 (UI 0.9.9)
 
-UI\Area::scrollTo — Прокрутити область
+ОЙArea::scrollTo — Прокрутити область
 
 ### Опис
 
-public **UI\Area::scrollTo**([UI\Point](class.ui-point.md) `$point`,
-[UI\Size](class.ui-size.md) `$size`)
+```methodsynopsis
+public UI\Area::scrollTo(UI\Point $point, UI\Size $size)
+```
 
 Прокрутити цю область
 
 ### Список параметрів
 
 `point`
-Крапка прокручування
+
+Точка прокручування
 
 `size`
+
 Розмір області прокручування

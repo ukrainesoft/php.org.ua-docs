@@ -1,15 +1,21 @@
-- [«Вступ](intro.math.md)
-- [Вимоги »](math.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Math](book.math.md)
+-   [« Введение](intro.math.html)
+    
+-   [Требования »](math.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Math](book.math.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](math.requirements.md)
-- [Установка](math.installation.md)
-- [Налаштування під час виконання](math.configuration.md)
-- [Типи ресурсів](math.resources.md)
+-   [Требования](math.requirements.html)
+-   [Установка](math.installation.html)
+-   [Настройка во время выполнения](math.configuration.html)
+-   [Типы ресурсов](math.resources.html)

@@ -1,23 +1,29 @@
-- [« Imagick::getImageGravity](imagick.getimagegravity.md)
-- [Imagick::getImageHeight »](imagick.getimageheight.md)
+Повертає первинну точку кольоровості зеленого
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає первинну точку кольоровості зеленого
+-   [« Imagick::getImageGravity](imagick.getimagegravity.html)
+    
+-   [Imagick::getImageHeight »](imagick.getimageheight.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає первинну точку кольоровості зеленого
+    
 
 # Imagick::getImageGreenPrimary
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageGreenPrimary — Повертає первинну точку кольоровості
-зеленого
+Imagick::getImageGreenPrimary — Повертає первинну точку кольоровості зеленого
 
 ### Опис
 
-public **Imagick::getImageGreenPrimary**(): array
+```methodsynopsis
+public Imagick::getImageGreenPrimary(): array
+```
 
-Повертає первинну точку кольоровості зеленого. Повертає масив з
-ключами "x" та "y".
+Повертає первинну точку кольоровості зеленого. Повертає масив із ключами "x" та "y".
 
 ### Список параметрів
 
@@ -25,8 +31,7 @@ public **Imagick::getImageGreenPrimary**(): array
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив із ключами "x" та "y",
-У разі виникнення помилки викидає виняток ImagickException.
+У разі успішного виконання повертає масив із ключами "x" та "y", у разі виникнення помилки викидає виняток ImagickException.
 
 ### Помилки
 

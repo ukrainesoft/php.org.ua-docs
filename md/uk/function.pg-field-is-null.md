@@ -1,65 +1,77 @@
-- [« pg_fetch_row](function.pg-fetch-row.md)
-- [pg_field_name »](function.pg-field-name.md)
+Перевірка поля на значення SQL NULL
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Перевірка поля на значення SQL NULL
+-   [« pg\_fetch\_row](function.pg-fetch-row.html)
+    
+-   [pg\_field\_name »](function.pg-field-name.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Перевірка поля на значення SQL NULL
+    
 
-#pg_field_is_null
+# пгfieldісnull
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_field_is_null — Перевірка поля на значення SQL `NULL`
+пгfieldісnull — Перевірка поля на значення SQL `NULL`
 
 ### Опис
 
-**pg_field_is_null**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$row`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field`): int
+```methodsynopsis
+pg_field_is_null(PgSql\Result $result, int $row, mixed $field): int
+```
 
-**pg_field_is_null**([PgSql\Result](class.pgsql-result.md) `$result`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field`): int
+```methodsynopsis
+pg_field_is_null(PgSql\Result $result, mixed $field): int
+```
 
-**pg_field_is_null()** перевіряє, чи містить осередок екземпляра
-[PgSql\Result](class.pgsql-result.md) значення SQL `NULL`.
+**пгfieldісnull()** перевіряє, чи містить осередок екземпляра [PgSql\\Result](class.pgsql-result.html) значення SQL `NULL`
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_fieldisnull()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгfieldisnull()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 `row`
-Номер рядка результату запиту з полем. Нумерація рядків
-починається з нуля. Якщо аргумент не заданий, буде вибрано поточний рядок.
+
+Номер рядка результату запиту з полем. Нумерація рядків починається із нуля. Якщо аргумент не заданий, буде вибрано поточний рядок.
 
 `field`
+
 Номер поля (з нуля) як int або ім'я поля як string.
 
 ### Значення, що повертаються
 
-Повертає `1`, якщо обране значення SQL `NULL`, `0` для інших
-значень. Функція поверне **`false`**, якщо номер рядка буде поза
-допустимого діапазону та за інших помилок.
+Повертає `1`, якщо вибране значення SQL `NULL` `0` для інших значень. Функція поверне **`false`**, якщо номер рядка буде поза допустимим діапазоном та при інших помилках.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_field_is_null()****
+**Приклад #1 Приклад використання **пгfieldісnull()****
 
-` <?php  $dbconn = pg_connect("dbname=publisher") or die ("Не удалося з'єднатися з базою"); $res = pg_query($dbconn, "select * from authors where author = 'Orwell'"); if ($res) {      if (pg_field_is_null($res, 0, "year") == 1) {         echo "Значення поля y.
-";      }      if (pg_field_is_null($res, 0, "year") == 0) {          echo "З|
-";    } }?> `
+```php
+<?php
+  $dbconn = pg_connect("dbname=publisher") or die ("Не удалось соединиться с базой");
+  $res = pg_query($dbconn, "select * from authors where author = 'Orwell'");
+  if ($res) {
+      if (pg_field_is_null($res, 0, "year") == 1) {
+          echo "Значение поля year null.\n";
+      }
+      if (pg_field_is_null($res, 0, "year") == 0) {
+          echo "Значение поля year не null.\n";
+    }
+ }
+?>
+```

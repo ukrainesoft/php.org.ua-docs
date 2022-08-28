@@ -1,25 +1,27 @@
-- [«fbird_modify_user](function.fbird-modify-user.md)
-- [fbird_num_fields »](function.fbird-num-fields.md)
+Псевдонім ibasenameresult
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_name_result
+-   [« fbird\_modify\_user](function.fbird-modify-user.html)
+    
+-   [fbird\_num\_fields »](function.fbird-num-fields.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibasenameresult
+    
 
-#fbird_name_result
+# fbirdnameresult
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_name_result - Псевдонім
-[ibase_name_result()](function.ibase-name-result.md)
+fbirdnameresult - Псевдонім [ibase\_name\_result()](function.ibase-name-result.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_name_result()](function.ibase-name-result.md).
+Ця функція є псевдонімом: [ibase\_name\_result()](function.ibase-name-result.html)
 
 ### Дивіться також
 
-- [fbird_prepare()](function.fbird-prepare.md) - Псевдонім
-ibase_prepare
-- [fbird_execute()](function.fbird-execute.md) - Псевдонім
-ibase_execute
+-   [fbird\_prepare()](function.fbird-prepare.html) - Псевдонім ibaseprepare
+-   [fbird\_execute()](function.fbird-execute.html) - Псевдонім ibaseexecute

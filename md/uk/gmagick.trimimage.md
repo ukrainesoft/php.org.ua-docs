@@ -1,35 +1,39 @@
-- [«Gmagick::thumbnailimage](gmagick.thumbnailimage.md)
-- [Gmagick::write »](gmagick.write.md)
+Видаляє краї із зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Видаляє краї із зображення
+-   [« Gmagick::thumbnailimage](gmagick.thumbnailimage.html)
+    
+-   [Gmagick::write »](gmagick.write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Видаляє краї із зображення
+    
 
 # Gmagick::trimimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::trimimage — Видаляє краї зображення
 
 ### Опис
 
-public **Gmagick::trimimage**(float `$fuzz`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::trimimage(float $fuzz): Gmagick
+```
 
 Видаляє краї, які є кольором фону із зображенням.
 
 ### Список параметрів
 
 `fuzz`
-За замовчуванням ціль повинна точно відповідати певному кольору
-пікселя. Однак у багатьох випадках два кольори можуть незначно
-відрізнятиметься. Розмитий елемент зображення визначає, наскільки допустимо
-визначати, щоб два кольори вважалися однаковими. Параметр репрезентує
-собою зміна квантового діапазону.
+
+За замовчуванням ціль повинна точно відповідати певному кольору пікселя. Однак у багатьох випадках два кольори можуть трохи відрізнятися. Розмитий елемент зображення визначає, наскільки можна визначати, щоб два кольори вважалися однаковими. Параметр є зміною квантового діапазону.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md).
+Об'єкт [Gmagick](class.gmagick.html)
 
 ### Помилки
 

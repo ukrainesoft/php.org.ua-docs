@@ -1,12 +1,18 @@
-- [«Зумовлені константи](pcntl.constants.md)
-- [Базове застосування»](pcntl.example.md)
+Приклади
 
-- [PHP Manual](index.md)
-- [PCNTL](book.pcntl.md)
-- Приклади
+-   [« Предопределённые константы](pcntl.constants.html)
+    
+-   [Базовое применение »](pcntl.example.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PCNTL](book.pcntl.html)
+    
+-   Приклади
+    
 
 # Приклади
 
 ## Зміст
 
-- [Базове застосування](pcntl.example.md)
+-   [Базовое применение](pcntl.example.html)

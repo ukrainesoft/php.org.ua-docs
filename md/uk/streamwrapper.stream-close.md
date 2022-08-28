@@ -1,25 +1,31 @@
-- [« streamWrapper::stream_cast](streamwrapper.stream-cast.md)
-- [streamWrapper::stream_eof »](streamwrapper.stream-eof.md)
+Закриває ресурс
 
-- [PHP Manual](index.md)
-- [streamWrapper](class.streamwrapper.md)
-- Закриває ресурс
+-   [« streamWrapper::stream\_cast](streamwrapper.stream-cast.html)
+    
+-   [streamWrapper::stream\_eof »](streamwrapper.stream-eof.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [streamWrapper](class.streamwrapper.html)
+    
+-   Закриває ресурс
+    
 
-# streamWrapper::stream_close
+# streamWrapper::streamclose
 
-(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::stream_close — Закриває ресурс
+streamWrapper::streamclose — Закриває ресурс
 
 ### Опис
 
-public **streamWrapper::stream_close**(): void
+```methodsynopsis
+public streamWrapper::stream_close(): void
+```
 
-Цей метод викликається у процесі виконання
-[fclose()](function.fclose.md).
+Цей метод викликається у процесі виконання [fclose()](function.fclose.html)
 
-Усі ресурси, виділені або заблоковані обгорткою, мають бути
-звільнено.
+Усі ресурси, виділені або заблоковані обгорткою, мають бути звільнені.
 
 ### Список параметрів
 
@@ -31,7 +37,5 @@ public **streamWrapper::stream_close**(): void
 
 ### Дивіться також
 
-- [fclose()](function.fclose.md) - Закриває відкритий дескриптор
-файлу
-- [streamWrapper::dir_closedir()](streamwrapper.dir-closedir.md) -
-Закрити дескриптор директорії
+-   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
+-   [streamWrapper::dir\_closedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії

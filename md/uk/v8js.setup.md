@@ -1,15 +1,21 @@
-- [«Вступ](intro.v8js.md)
-- [Вимоги »](v8js.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [V8js](book.v8js.md)
+-   [« Введение](intro.v8js.html)
+    
+-   [Требования »](v8js.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [V8js](book.v8js.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](v8js.requirements.md)
-- [Установка](v8js.installation.md)
-- [Налаштування під час виконання](v8js.configuration.md)
-- [Типи ресурсів](v8js.resources.md)
+-   [Требования](v8js.requirements.html)
+-   [Установка](v8js.installation.html)
+-   [Настройка во время выполнения](v8js.configuration.html)
+-   [Типы ресурсов](v8js.resources.html)

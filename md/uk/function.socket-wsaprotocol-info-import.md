@@ -1,43 +1,48 @@
-- [« socket_wsaprotocol_info_export](function.socket-wsaprotocol-info-export.md)
-- [socket_wsaprotocol_info_release »](function.socket-wsaprotocol-info-release.md)
+Імпортує сокет з іншого процесу
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- імпортує сокет з іншого процесу
+-   [« socket\_wsaprotocol\_info\_export](function.socket-wsaprotocol-info-export.html)
+    
+-   [socket\_wsaprotocol\_info\_release »](function.socket-wsaprotocol-info-release.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Імпортує сокет з іншого процесу
+    
 
-# socket_wsaprotocol_info_import
+# socketwsaprotocolinfoimport
 
-(PHP 7 \>= 7.3.0, PHP 8)
+(PHP 7> = 7.3.0, PHP 8)
 
-socket_wsaprotocol_info_import — Імпортує сокет з іншого процесу
+socketwsaprotocolinfoimport — імпортує сокет з іншого процесу
 
 ### Опис
 
-**socket_wsaprotocol_info_import**(string `$info_id`):
-[Socket](class.socket.md)\|false
+```methodsynopsis
+socket_wsaprotocol_info_import(string $info_id): Socket|false
+```
 
 Імпортує сокет, експортований в іншому процесі.
 
-> **Примітка**: Функція доступна лише у Windows.
+> **Зауваження**: Функція доступна лише у Windows.
 
 ### Список параметрів
 
 `info_id`
-Ідентифікатор, отриманий під час виклику
-[socket_wsaprotocol_info_export()](function.socket-wsaprotocol-info-export.md).
+
+Ідентифікатор, отриманий під час виклику [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Socket](class.socket.md) у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [Socket](class.socket.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                   |
-| ------ | ---------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У разі успішного виконання, функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.html); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 
-- [socket_wsaprotocol_info_export()](function.socket-wsaprotocol-info-export.md) -
-Експорт структури WSAPROTOCOL_INFO
+-   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO

@@ -1,17 +1,22 @@
-- [«trigger_error](function.trigger-error.md)
-- [FFI »](book.ffi.md)
+Псевдонім triggererror
 
-- [PHP Manual](index.md)
-- [Функції обробки помилок](ref.errorfunc.md)
-- Псевдонім trigger_error
+-   [« trigger\_error](function.trigger-error.html)
+    
+-   [FFI »](book.ffi.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции обработки ошибок](ref.errorfunc.html)
+    
+-   Псевдонім triggererror
+    
 
-#user_error
+# usererror
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-user_error - Псевдонім [trigger_error()](function.trigger-error.md)
+usererror - Псевдонім [trigger\_error()](function.trigger-error.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[trigger_error()](function.trigger-error.md).
+Ця функція є псевдонімом: [trigger\_error()](function.trigger-error.html)

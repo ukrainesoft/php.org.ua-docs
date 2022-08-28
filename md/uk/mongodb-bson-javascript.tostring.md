@@ -1,22 +1,29 @@
-- [« MongoDB\BSON\Javascript::serialize](mongodb-bson-javascript.serialize.md)
-- [MongoDB\BSON\Javascript::unserialize »](mongodb-bson-javascript.unserialize.md)
+Повертає код JavaScript
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
-- Повертає код JavaScript
+-   [« MongoDB\\BSON\\Javascript::serialize](mongodb-bson-javascript.serialize.html)
+    
+-   [MongoDB\\BSON\\Javascript::unserialize »](mongodb-bson-javascript.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.html)
+    
+-   Повертає код JavaScript
+    
 
-# MongoDB\BSON\Javascript::\_\_toString
+# MongoDBBSONJavascript::toString
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Javascript::\_\_toString — Повертає код JavaScript
+MongoDBBSONJavascript::toString — Повертає код JavaScript
 
 ### Опис
 
-final public **MongoDB\BSON\Javascript::\_\_toString**(): string
+```methodsynopsis
+final public MongoDB\BSON\Javascript::__toString(): string
+```
 
-Цей метод є псевдонімом:
-[MongoDB\BSON\Javascript::getCode()](mongodb-bson-javascript.getcode.md).
+Цей метод є псевдонімом: [MongoDB\\BSON\\Javascript::getCode()](mongodb-bson-javascript.getcode.html)
 
 ### Список параметрів
 
@@ -24,21 +31,27 @@ final public **MongoDB\BSON\Javascript::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Повертає код JavaScript.
+Повертає JavaScript.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\Javascript::\_\_toString()****
+**Приклад #1 Приклад використання **MongoDBBSONJavascript::toString()****
 
-` <?phpvar_dump((string) new MongoDB\BSON\Javascript('function foo(bar) { return bar; }'));?> `
+```php
+<?php
+
+var_dump((string) new MongoDB\BSON\Javascript('function foo(bar) { return bar; }'));
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(33) "function foo(bar) { return bar; }"
+```
 
 ### Дивіться також
 
-- [MongoDB\BSON\Javascript::getCode()](mongodb-bson-javascript.getcode.md) -
-Повертає код JavaScript
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDB\\BSON\\Javascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

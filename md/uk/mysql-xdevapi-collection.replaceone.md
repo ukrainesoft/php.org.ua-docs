@@ -1,9 +1,15 @@
-- [« Collection::removeOne](mysql-xdevapi-collection.removeone.md)
-- [mysql_xdevapi\CollectionAdd »](class.mysql-xdevapi-collectionadd.md)
+Замінює один документ колекції
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
-- Замінює один документ колекції
+-   [« Collection::removeOne](mysql-xdevapi-collection.removeone.html)
+    
+-   [mysql\_xdevapi\\CollectionAdd »](class.mysql-xdevapi-collectionadd.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Collection](class.mysql-xdevapi-collection.html)
+    
+-   Замінює один документ колекції
+    
 
 # Collection::replaceOne
 
@@ -13,34 +19,56 @@ Collection::replaceOne — Замінює один документ колекц
 
 ### Опис
 
-public **mysql_xdevapi\Collection::replaceOne**(string `$id`, string
-`$doc`): [mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
+```methodsynopsis
+public mysql_xdevapi\Collection::replaceOne(string $id, string $doc): mysql_xdevapi\Result
+```
 
-Оновлює (або замінює) документ за ідентифікатором, якщо він
-існує.
+Оновлює (або замінює) документ за ідентифікатором, якщо він існує.
 
 ### Список параметрів
 
 `id`
-Ідентифікатор документа для заміни чи оновлення. Зазвичай це \_id,
-який було згенеровано MySQL Server при додаванні запису.
+
+Ідентифікатор документа для заміни чи оновлення. Зазвичай це id, який було згенеровано MySQL Server при додаванні запису.
 
 `doc`
-Документ колекції для оновлення або заміни документа, відповідного
-параметру **id**.
 
-Документ може бути або об'єктом документа, або коректним рядком
-JSON, що описує новий документ.
+Документ колекції для оновлення або заміни документа, що відповідає параметру **ід**
+
+Документ може бути об'єктом документа або коректним рядком JSON, що описує новий документ.
 
 ### Значення, що повертаються
 
-Об'єкт Result, який можна використовувати для запиту кількості
-порушених елементів та кількості попереджень, згенерованих
-операцією.
+Об'єкт Result, який можна використовувати для запиту кількості порушених елементів та кількості попереджень, згенерованих операцією.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Collection::replaceOne()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollection::replaceOne()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result = $ {"name": "Alfred", "age": 18, "job": "Butler"}')->execute();// Зазвичай _id відомий іншими способами,// но для цього приклада і використовуємо його$ids       = $result->getGeneratedIds();$alfred_id = $ids[0];// ...$alfred = $collection->getOne($alfred_id);$alfred['age']; $alfred['job'] = 'Guru';$collection->replaceOne($alfred_id, $alfred);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
+
+$result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
+
+// Обычно _id известен другими способами,
+// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
+$ids       = $result->getGeneratedIds();
+$alfred_id = $ids[0];
+
+// ...
+
+$alfred = $collection->getOne($alfred_id);
+$alfred['age'] = 81;
+$alfred['job'] = 'Guru';
+
+$collection->replaceOne($alfred_id, $alfred);
+
+?>
+```

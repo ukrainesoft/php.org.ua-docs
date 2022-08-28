@@ -1,19 +1,27 @@
-- [« Yaf_View_Simple::getScriptPath](yaf-view-simple.getscriptpath.md)
-- [Yaf_View_Simple::render »](yaf-view-simple.render.md)
+Призначення isset
 
-- [PHP Manual](index.md)
-- [Yaf_View_Simple](class.yaf-view-simple.md)
-- Призначення \_\_isset
+-   [« Yaf\_View\_Simple::getScriptPath](yaf-view-simple.getscriptpath.html)
+    
+-   [Yaf\_View\_Simple::render »](yaf-view-simple.render.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_View\_Simple](class.yaf-view-simple.html)
+    
+-   Призначення isset
+    
 
-# Yaf_View_Simple::\_\_isset
+# YafViewSimple::isset
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_View_Simple::\_\_isset - Призначення \_\_isset
+YafViewSimple::isset - Призначення isset
 
 ### Опис
 
-public **Yaf_View_Simple::\_\_isset**(string `$name`): void
+```methodsynopsis
+public Yaf_View_Simple::__isset(string $name): void
+```
 
 ### Список параметрів
 

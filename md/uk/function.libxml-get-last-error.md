@@ -1,20 +1,27 @@
-- [«libxml_get_errors](function.libxml-get-errors.md)
-- [libxml_set_external_entity_loader »](function.libxml-set-external-entity-loader.md)
+Вилучення останньої помилки з libxml
 
-- [PHP Manual](index.md)
-- [Функції libxml](ref.libxml.md)
-- Вилучення останньої помилки з libxml
+-   [« libxml\_get\_errors](function.libxml-get-errors.html)
+    
+-   [libxml\_set\_external\_entity\_loader »](function.libxml-set-external-entity-loader.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции libxml](ref.libxml.html)
+    
+-   Вилучення останньої помилки з libxml
+    
 
-#libxml_get_last_error
+# libxmlgetlasterror
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-libxml_get_last_error — Вилучення останньої помилки з libxml
+libxmlgetlasterror — Вилучення останньої помилки з libxml
 
 ### Опис
 
-**libxml_get_last_error**():
-[LibXMLError](class.libxmlerror.md)\|false
+```methodsynopsis
+libxml_get_last_error(): LibXMLError|false
+```
 
 Вилучення останньої помилки з libxml.
 
@@ -24,12 +31,9 @@ libxml_get_last_error — Вилучення останньої помилки �
 
 ### Значення, що повертаються
 
-Повертає об'єкт [LibXMLError](class.libxmlerror.md), якщо у буфері
-є помилки, або **`false`** інакше.
+Повертає об'єкт [LibXMLError](class.libxmlerror.html)якщо в буфері є помилки, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [libxml_get_errors()](function.libxml-get-errors.md) - Отримання
-масиву помилок, що відбулися
-- [libxml_clear_errors()](function.libxml-clear-errors.md) - Очистка
-буфер помилок libxml
+-   [libxml\_get\_errors()](function.libxml-get-errors.html) - Отримання масиву помилок, що відбулися.
+-   [libxml\_clear\_errors()](function.libxml-clear-errors.html) - Очищення буфера помилок libxml

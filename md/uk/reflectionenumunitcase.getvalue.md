@@ -1,23 +1,29 @@
-- [« ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md)
-- [ReflectionEnumBackedCase »](class.reflectionenumbackedcase.md)
+Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
 
-- [PHP Manual](index.md)
-- [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
-- Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
+-   [« ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.html)
+    
+-   [ReflectionEnumBackedCase »](class.reflectionenumbackedcase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
+    
+-   Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
+    
 
 # ReflectionEnumUnitCase::getValue
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionEnumUnitCase::getValue — Отримує об'єкт варіанта
-перерахування, описаний Reflection-об'єктом
+ReflectionEnumUnitCase::getValue — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
 
 ### Опис
 
-public **ReflectionEnumUnitCase::getValue**():
-[UnitEnum](class.unitenum.md)
+```methodsynopsis
+public ReflectionEnumUnitCase::getValue(): UnitEnum
+```
 
-Повертає об'єкт варіанта перерахування, описаний об'єктом Reflection.
+Повертає об'єкт варіанта перерахування, описаний Reflection-об'єктом.
 
 ### Список параметрів
 
@@ -25,18 +31,36 @@ public **ReflectionEnumUnitCase::getValue**():
 
 ### Значення, що повертаються
 
-Об'єкт варіанта перерахування, описаний об'єктом Reflection.
+Об'єкт варіанта перерахування описаний Reflection-об'єктом.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionEnum::getValue()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum = new ReflectionEnum(Suit::class);$rCase = $rEnum->getCase('Diamonds');var_dump($rCase->getValue());?> `
+```php
+<?php
+enum Suit
+{
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
+}
+
+$rEnum = new ReflectionEnum(Suit::class);
+
+$rCase = $rEnum->getCase('Diamonds');
+
+var_dump($rCase->getValue());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 enum(Suit::Diamonds)
+```
 
 ### Дивіться також
 
-- [Перерахування](language.enumerations.md)
+-   [Перечисления](language.enumerations.html)

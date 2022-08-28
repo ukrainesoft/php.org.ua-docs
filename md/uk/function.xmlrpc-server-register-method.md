@@ -1,30 +1,32 @@
-- [« xmlrpc_server_register_introspection_callback](function.xmlrpc-server-register-introspection-callback.md)
-- [xmlrpc_set_type »](function.xmlrpc-set-type.md)
+Реєструє функцію PHP до методу ресурсу, що відповідає методуname
 
-- [PHP Manual](index.md)
-- [Функції XML-RPC](ref.xmlrpc.md)
-- Реєструє функцію PHP до методу ресурсу, що відповідає
-method_name
+-   [« xmlrpc\_server\_register\_introspection\_callback](function.xmlrpc-server-register-introspection-callback.html)
+    
+-   [xmlrpc\_set\_type »](function.xmlrpc-set-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции XML-RPC](ref.xmlrpc.html)
+    
+-   Реєструє функцію PHP до методу ресурсу, що відповідає методуname
+    
 
-#xmlrpc_server_register_method
+# xmlrpcserverregisterметод
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
+(PHP 4> = 4.1.0, PHP 5, PHP 7)
 
-xmlrpc_server_register_method — Реєструє функцію PHP до методу
-ресурсу, що відповідає method_name
+xmlrpcserverregistermethod — Реєструє функцію PHP до методу ресурсу, що відповідає methodname
 
 ### Опис
 
-**xmlrpc_server_register_method**(resource `$server`, string
-`$method_name`, string `$function`): bool
+```methodsynopsis
+xmlrpc_server_register_method(resource $server, string $method_name, string $function): bool
+```
 
 **Увага**
 
-Ця функція є ЕКСПЕРИМЕНТАЛЬНОЮ. Поведінка цієї функції, її ім'я
-і документація, що відноситься до неї, можуть змінитися в наступних версіях
-PHP без попередження. Використовуйте цю функцію на свій страх та ризик.
+Ця функція є *ЕКСПЕРИМЕНТАЛЬНОЇ*. Поведінка цієї функції, її ім'я та документація, що до неї належить, можуть змінитися в наступних версіях PHP без повідомлення. Використовуйте цю функцію на свій страх та ризик.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

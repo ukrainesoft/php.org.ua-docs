@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](info.setup.md)
-- [Установка »](info.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](info.setup.md)
-- Вимоги
+-   [« Установка и настройка](info.setup.html)
+    
+-   [Установка »](info.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](info.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

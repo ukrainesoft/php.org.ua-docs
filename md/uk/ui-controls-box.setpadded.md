@@ -1,19 +1,27 @@
-- [« UI\Controls\Box::isPadded](ui-controls-box.ispadded.md)
-- [UI\Draw\Pen »](class.ui-draw-pen.md)
+Встановити заповнення
 
-- [PHP Manual](index.md)
-- [UI\Controls\Box](class.ui-controls-box.md)
-- встановити заповнення
+-   [« UI\\Controls\\Box::isPadded](ui-controls-box.ispadded.html)
+    
+-   [UI\\Draw\\Pen »](class.ui-draw-pen.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Box](class.ui-controls-box.html)
+    
+-   Встановити заповнення
+    
 
-# UI\Controls\Box::setPadded
+# ОЙControlsBox::setPadded
 
 (UI 0.9.9)
 
-UI\Controls\Box::setPadded — Встановити заповнення
+ОЙControlsBox::setPadded — Встановити заповнення
 
 ### Опис
 
-public **UI\Controls\Box::setPadded**(bool `$padded`)
+```methodsynopsis
+public UI\Controls\Box::setPadded(bool $padded)
+```
 
 Визначає, увімкнено або вимкнено заповнення в цьому блоці
 

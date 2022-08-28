@@ -1,19 +1,25 @@
-- [« SolrQueryResponse::\_\_construct](solrqueryresponse.construct.md)
-- [SolrUpdateResponse »](class.solrupdateresponse.md)
+Деструктор
 
-- [PHP Manual](index.md)
-- [SolrQueryResponse](class.solrqueryresponse.md)
-- Деструктор
+-   [« SolrQueryResponse::\_\_construct](solrqueryresponse.construct.html)
+    
+-   [SolrUpdateResponse »](class.solrupdateresponse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQueryResponse](class.solrqueryresponse.html)
+    
+-   Деструктор
+    
 
-# SolrQueryResponse::\_\_destruct
+# SolrQueryResponse::destruct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQueryResponse::\_\_destruct - Деструктор
+SolrQueryResponse::destruct - Деструктор
 
 ### Опис
 
-public **SolrQueryResponse::\_\_destruct**()
+public **SolrQueryResponse::destruct**
 
 Деструктор.
 

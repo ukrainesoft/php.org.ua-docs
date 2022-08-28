@@ -1,79 +1,120 @@
-- [«eio_init](function.eio-init.md)
-- [eio_lstat »](function.eio-lstat.md)
+Створює жорстке посилання на файл
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Створює жорстке посилання на файл
+-   [« eio\_init](function.eio-init.html)
+    
+-   [eio\_lstat »](function.eio-lstat.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Створює жорстке посилання на файл
+    
 
-#eio_link
+# eiolink
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_link — Створює жорстке посилання на файл
+eiolink — Створює жорстке посилання на файл
 
 ### Опис
 
-**eio_link**(
-string `$path`,
-string `$new_path`,
-int `$pri` = EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` = NULL,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data = NULL
-): resource
+```methodsynopsis
+eio_link(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+```
 
-**eio_link()** створює жорстке посилання `new_path` на файл, вказаний у
-`path`.
+**eiolink()** створює жорстке посилання `new_path` на файл, вказаний у `path`
 
 ### Список параметрів
 
 `path`
+
 Шлях до файлу.
 
 `new_path`
+
 Ім'я жорсткого заслання.
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eio_link()****
+**Приклад #1 Приклад використання **eiolink()****
 
-` <?php$filename = dirname(__FILE__)."/symlink.dat";touch($filename);$link = dirname(__FILE__)."/symlink.link";$hardlink = dirname(__FILE__)."/ hardlink.link";function my_hardlink_cb($data, $result) {    global $link, $filename; var_dump(file_exists($data) && !is_link($data)); @unlink($data); eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);}function my_symlink_cb($data, $result) {    global $link, $filename; var_dump(file_exists($data) && is_link($data)); if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {        @unlink($link); @unlink($filename); }}function my_readlink_cb($data, $result) {    global $filename, $link; var_dump($result); @unlink($link); @unlink($filename);}eio_link($filename, $hardlink, EIO_PRI_DEFAULT, "my_hardlink_cb", $hardlink);eio_event_loop();?> `
+```php
+<?php
+$filename = dirname(__FILE__)."/symlink.dat";
+touch($filename);
+$link = dirname(__FILE__)."/symlink.link";
+$hardlink = dirname(__FILE__)."/hardlink.link";
+
+function my_hardlink_cb($data, $result) {
+    global $link, $filename;
+    var_dump(file_exists($data) && !is_link($data));
+    @unlink($data);
+
+    eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);
+}
+
+function my_symlink_cb($data, $result) {
+    global $link, $filename;
+    var_dump(file_exists($data) && is_link($data));
+
+    if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {
+        @unlink($link);
+        @unlink($filename);
+    }
+}
+
+function my_readlink_cb($data, $result) {
+    global $filename, $link;
+    var_dump($result);
+
+    @unlink($link);
+    @unlink($filename);
+}
+
+eio_link($filename, $hardlink, EIO_PRI_DEFAULT, "my_hardlink_cb", $hardlink);
+eio_event_loop();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 bool(true)
 bool(true)
 string(%d) "%ssymlink.dat"
+```
 
 ### Дивіться також
 
-- [eio_symlink()](function.eio-symlink.md) - Створює символічну
-посилання
+-   [eio\_symlink()](function.eio-symlink.html) - Створює символічне посилання

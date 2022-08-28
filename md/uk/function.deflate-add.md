@@ -1,58 +1,58 @@
-- [« Функції Zlib](ref.zlib.md)
-- [deflate_init »](function.deflate-init.md)
+Інкрементальний стиск даних
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Інкрементальне стиснення даних
+-   [« Функции Zlib](ref.zlib.html)
+    
+-   [deflate\_init »](function.deflate-init.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zlib](ref.zlib.html)
+    
+-   Інкрементальний стиск даних
+    
 
-#deflate_add
+# deflateadd
 
 (PHP 7, PHP 8)
 
-deflate_add - Інкрементальне стиснення даних
+deflateadd - Інкрементальний стиск даних
 
 ### Опис
 
-**deflate_add**([DeflateContext](class.deflatecontext.md) `$context`,
-string `$data`, int `$flush_mode` = **`ZLIB_SYNC_FLUSH`**):
-string\|false
+```methodsynopsis
+deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_FLUSH): string|false
+```
 
-Інкрементальне стискування даних у зазначеному контексті.
+Інкрементальний стиск даних у зазначеному контексті.
 
 ### Список параметрів
 
 `context`
-Контекст, створений за допомогою функції
-[deflate_init()](function.deflate-init.md).
+
+Контекст, створений за допомогою функції [deflate\_init()](function.deflate-init.html)
 
 `data`
+
 Блок даних стиснення.
 
 `flush_mode`
-Одна з констант: **`ZLIB_BLOCK`**, **`ZLIB_NO_FLUSH`**,
-**`ZLIB_PARTIAL_FLUSH`**, **`ZLIB_SYNC_FLUSH`** (за замовчуванням),
-**`ZLIB_FULL_FLUSH`**, **`ZLIB_FINISH`**. Зазвичай потрібно встановити
-**`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для максимальної компресії
-завершення на останньому блоці даних. Детальний опис констант
-дивіться в [»керівництві zlib](http://www.zlib.net/manual.md).
+
+Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для завершення на останньому блоці даних. Детальний опис констант дивіться в [» руководстве zlib](http://www.zlib.net/manual.html)
 
 ### Значення, що повертаються
 
-Повертає блок стислих даних або **`false`** у разі виникнення
-помилки.
+Повертає блок стиснутих даних або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-У разі некоректних аргументів буде викликано помилку рівня
-**`E_WARNING`**.
+У разі некоректних аргументів буде викликано помилку рівня **`E_WARNING`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                     |
-|--------|----------------------------------------------------------------------------------------------------------|
-| 8.0.0  | context чекає екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.html); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [deflate_init()](function.deflate-init.md) - Ініціалізувати
-контекст інкрементального стиснення
+-   [deflate\_init()](function.deflate-init.html) - Ініціалізувати контекст інкрементального стиску

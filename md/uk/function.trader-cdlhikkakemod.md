@@ -1,40 +1,46 @@
-- [« trader_cdlhikkake](function.trader-cdlhikkake.md)
-- [trader_cdlhomingpigeon »](function.trader-cdlhomingpigeon.md)
+Модифікована модель свічка "Крюк"
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Модифікована модель свічка "Крюк"
+-   [« trader\_cdlhikkake](function.trader-cdlhikkake.html)
+    
+-   [trader\_cdlhomingpigeon »](function.trader-cdlhomingpigeon.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Модифікована модель свічка "Крюк"
+    
 
-# trader_cdlhikkakemod
+# tradercdlhikkakemod
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlhikkakemod - Модифікована свічкова модель "Крюк"
+tradercdlhikkakemod — Модифікована модель свічка "Крюк"
 
 ### Опис
 
-**trader_cdlhikkakemod**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlhikkakemod(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

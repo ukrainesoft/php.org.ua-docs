@@ -1,158 +1,176 @@
-- [« MongoDB\Driver\WriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.md)
-- [MongoDB\Driver\ReadPreference::bsonSerialize »](mongodb-driver-readpreference.bsonserialize.md)
+Клас MongoDBDriverReadPreference
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver](book.mongodb.md)
-- Клас MongoDB\Driver\ReadPreference
+-   [« MongoDB\\Driver\\WriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.html)
+    
+-   [MongoDB\\Driver\\ReadPreference::bsonSerialize »](mongodb-driver-readpreference.bsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver](book.mongodb.html)
+    
+-   Клас MongoDBDriverReadPreference
+    
 
-# Клас MongoDB\Driver\ReadPreference
+# Клас MongoDBDriverReadPreference
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-final class **MongoDB\Driver\ReadPreference** implements
-[MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md),
-[Serializable](class.serializable.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `RP_PRIMARY` = 1;
+    
+    
+     final
+     
+      class MongoDB\Driver\ReadPreference
+     
 
-const int `RP_PRIMARY_PREFERRED` = 5;
+     implements 
+       MongoDB\BSON\Serializable,  Serializable {
+    
+    /* Константы */
+    
+     const
+     int
+      RP_PRIMARY = 1;
 
-const int `RP_SECONDARY` = 2;
+    const
+     int
+      RP_PRIMARY_PREFERRED = 5;
 
-const int `RP_SECONDARY_PREFERRED` = 6;
+    const
+     int
+      RP_SECONDARY = 2;
 
-const int `RP_NEAREST` = 10;
+    const
+     int
+      RP_SECONDARY_PREFERRED = 6;
 
-const string `PRIMARY` = primary;
+    const
+     int
+      RP_NEAREST = 10;
 
-const string `PRIMARY_PREFERRED` = primaryPreferred;
+    const
+     string
+      PRIMARY = primary;
 
-const string `SECONDARY` = secondary;
+    const
+     string
+      PRIMARY_PREFERRED = primaryPreferred;
 
-const string `SECONDARY_PREFERRED` = secondaryPreferred;
+    const
+     string
+      SECONDARY = secondary;
 
-const string `NEAREST` = nearest;
+    const
+     string
+      SECONDARY_PREFERRED = secondaryPreferred;
 
-const int `NO_MAX_STALENESS` = -1;
+    const
+     string
+      NEAREST = nearest;
 
-const int `SMALLEST_MAX_STALENESS_SECONDS` = 90;
+    const
+     int
+      NO_MAX_STALENESS = -1;
 
-/\* Методи \*/
+    const
+     int
+      SMALLEST_MAX_STALENESS_SECONDS = 90;
 
-final public
-[bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)():
-object
 
-final public
-[\_\_construct](mongodb-driver-readpreference.construct.md)(string\|int
-`$mode`, array `$tagSets` = **`null`**, array `$options` = array())
+    /* Методы */
+    
+   final public bsonSerialize(): object
+final public __construct(string|int $mode, ?array $tagSets = null, ?array $options = null)
+final public getHedge(): ?object
+final public getMaxStalenessSeconds(): int
+final public getMode(): int
+final public getModeString(): string
+final public getTagSets(): array
+final public serialize(): string
+final public unserialize(string $serialized): void
 
-final public [getHedge](mongodb-driver-readpreference.gethedge.md)():
-?object
+   }
+```
 
-final public
-[getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md)():
-int
-
-final public [getMode](mongodb-driver-readpreference.getmode.md)():
-int
-
-final public
-[getModeString](mongodb-driver-readpreference.getmodestring.md)():
-string
-
-final public
-[getTagSets](mongodb-driver-readpreference.gettagsets.md)(): array
-
-final public
-[serialize](mongodb-driver-readpreference.serialize.md)(): string
-
-final public
-[unserialize](mongodb-driver-readpreference.unserialize.md)(string
-`$serialized`): void
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`MongoDB\Driver\ReadPreference::RP_PRIMARY`**
-Усі операції зчитуються з первинного вузла набору реплік. Це
-перевага читання за промовчанням для MongoDB.
+
+Усі операції зчитуються з поточного первинного вузла реплік набору. Це перевага для читання за промовчанням для MongoDB.
 
 **`MongoDB\Driver\ReadPreference::RP_PRIMARY_PREFERRED`**
-У більшості ситуація операції зчитуються з первинного вузла, але якщо
-він недоступний, операції зчитуються із вторинних членів.
+
+У більшості ситуація операції зчитуються з первинного вузла, але якщо він недоступний, операції зчитуються з вторинних членів.
 
 **`MongoDB\Driver\ReadPreference::RP_SECONDARY`**
+
 Усі операції зчитуються із вторинних членів набору реплік.
 
 **`MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED`**
-У більшості ситуація операції зчитуються з вторинних вузлів, але якщо
-вони недоступні, операції зчитуються із первинного вузла.
+
+Здебільшого ситуація операції зчитуються з вторинних вузлів, але якщо вони недоступні, операції зчитуються з первинного вузла.
 
 **`MongoDB\Driver\ReadPreference::RP_NEAREST`**
-Операції зчитуються з члена набору реплік із найменшою затримкою мережі,
-незалежно від типу члена.
+
+Операції зчитуються з члена набору реплік із найменшою затримкою мережі, незалежно від типу члена.
 
 **`MongoDB\Driver\ReadPreference::PRIMARY`**
-Усі операції з поточної репліки встановлені первинними. Це
-перевага читання за промовчанням для MongoDB.
+
+Усі операції з поточної репліки встановлені первинними. Це перевага для читання за промовчанням для MongoDB.
 
 **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`**
-У більшості випадків операції читаються з первинного вузла, але якщо він
-недоступний, операції читаються із вторинних вузлів.
+
+Найчастіше операції читаються з первинного вузла, але якщо він недоступний, операції читаються з вторинних вузлів.
 
 **`MongoDB\Driver\ReadPreference::SECONDARY`**
+
 Усі операції читаються із вторинних вузлів набору реплік.
 
 **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`**
-Найчастіше операції читаються з вторинних вузлів, але якщо вони
-недоступні, операції читаються із первинного.
+
+Найчастіше операції читаються з вторинних вузлів, але якщо вони недоступні, операції читаються з первинного.
 
 **`MongoDB\Driver\ReadPreference::NEAREST`**
-Операції зчитуються з вузла набору реплік з найменшою затримкою в
-мережі, незалежно від типу.
+
+Операції зчитуються з вузла набору реплік із найменшою затримкою в мережі незалежно від типу.
 
 **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`**
-Значення за замовчуванням для параметра ``maxStalenessSeconds'' щоб
-вказати на обмеження на максимальне запізнення (staleness), що
-означає, що драйвер не враховуватиме затримку вторинних вузлів при
-вибір напряму для операції читання.
+
+Значення за промовчанням для параметра `"maxStalenessSeconds"` щоб вказати на обмеження на максимальне запізнення (Staleness), що означає, що драйвер не враховуватиме затримку вторинних вузлів при виборі напрямку для операції читання.
 
 **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
-Мінімальне значення для параметра ``maxStalenessSeconds'` дорівнює 90
-секунд. Драйвер оцінює запізнення (staleness) вторинних вузлів,
-періодично перевіряючи останню дату запису кожного члена набору реплік.
-Оскільки ці перевірки є нечастими, оцінка запізнення є
-грубою. Таким чином, драйвер не може забезпечити максимальну величину
-запізнення менше 90 секунд.
 
-## Список змін
+Мінімальне значення для параметра `"maxStalenessSeconds"` дорівнює 90 секунд. Драйвер оцінює запізнення вторинних вузлів, періодично перевіряючи останню дату запису кожного члена набору реплік. Оскільки ці перевірки нечасті, оцінка запізнення є грубою. Таким чином, драйвер не може забезпечити максимальну величину запізнення менше 90 секунд.
 
-[TABLE]
+## список змін
+
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.7.0 |  |
+| Додані константи **`MongoDB\Driver\ReadPreference::PRIMARY`** **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::SECONDARY`** **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::NEAREST`** |  |
+
+Реалізує [Serializable](class.serializable.html)
+
+| | PECL mongodb 1.2.0
+
+Додані константи **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`** і **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
+
+Реалізує [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.html)
 
 ## Зміст
- - [MongoDB\Driver\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)
-— Повертає об'єкт серіалізації BSON
-- [MongoDB\Driver\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md)
-— Створити новий ReadPreference
-- [MongoDB\Driver\ReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md)
-— Повертає опцію "hedge" із ReadPreference
-- [MongoDB\Driver\ReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md)
-— Повертає параметр "maxStalenessSeconds" ReadPreference
-- [MongoDB\Driver\ReadPreference::getMode](mongodb-driver-readpreference.getmode.md)
-— Повертає параметр "mode" ReadPreference
-- [MongoDB\Driver\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md)
-- Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
-- [MongoDB\Driver\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md)
-- Повертає параметр "tagSets" ReadPreference
-- [MongoDB\Driver\ReadPreference::serialize](mongodb-driver-readpreference.serialize.md)
-— Серіалізація ReadPreference
-- [MongoDB\Driver\ReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md)
-- Десеріалізація ReadPreference
+
+-   [MongoDB\\Driver\\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.html) — Повертає об'єкт серіалізації BSON
+-   [MongoDB\\Driver\\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.html) — Створити новий ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getHedge](mongodb-driver-readpreference.gethedge.html) — Повертає опцію "hedge" із ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.html) — Повертає параметр "maxStalenessSeconds" ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getMode](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.html) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+-   [MongoDB\\Driver\\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.html) - Повертає параметр "tagSets" ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::serialize](mongodb-driver-readpreference.serialize.html) — Серіалізація ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::unserialize](mongodb-driver-readpreference.unserialize.html) - Десеріалізація ReadPreference

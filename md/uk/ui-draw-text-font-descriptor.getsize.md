@@ -1,19 +1,27 @@
-- [« UI\Draw\Text\Font\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.md)
-- [UI\Draw\Text\Font\Descriptor::getStretch »](ui-draw-text-font-descriptor.getstretch.md)
+Визначення розміру
 
-- [PHP Manual](index.md)
-- [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)
-- Визначення розміру
+-   [« UI\\Draw\\Text\\Font\\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html)
+    
+-   [UI\\Draw\\Text\\Font\\Descriptor::getStretch »](ui-draw-text-font-descriptor.getstretch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Text\\Font\\Descriptor](class.ui-draw-text-font-descriptor.html)
+    
+-   Визначення розміру
+    
 
-# UI\Draw\Text\Font\Descriptor::getSize
+# ОЙDrawTextFontDescriptor::getSize
 
 (UI 1.0.3)
 
-UI\Draw\Text\Font\Descriptor::getSize — Визначення розміру
+ОЙDrawTextFontDescriptor::getSize — Визначення розміру
 
 ### Опис
 
-public **UI\Draw\Text\Font\Descriptor::getSize**(): float
+```methodsynopsis
+public UI\Draw\Text\Font\Descriptor::getSize(): float
+```
 
 Повертає розмір
 

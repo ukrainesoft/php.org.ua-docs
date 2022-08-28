@@ -1,9 +1,15 @@
-- [« ReflectionProperty::getType](reflectionproperty.gettype.md)
-- [ReflectionProperty::hasDefaultValue »](reflectionproperty.hasdefaultvalue.md)
+Отримує значення
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- набуває значення
+-   [« ReflectionProperty::getType](reflectionproperty.gettype.html)
+    
+-   [ReflectionProperty::hasDefaultValue »](reflectionproperty.hasdefaultvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Отримує значення
+    
 
 # ReflectionProperty::getValue
 
@@ -13,18 +19,17 @@ ReflectionProperty::getValue — Отримує значення
 
 ### Опис
 
-public **ReflectionProperty::getValue**(?object `$object` = **`null`**):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public ReflectionProperty::getValue(?object $object = null): mixed
+```
 
 Отримує значення якості.
 
 ### Список параметрів
 
 `object`
-Якщо властивість не статична, необхідно передати об'єкт, з якого
-потрібно цю властивість отримати. Якщо вам потрібно отримати властивість
-замовчуванням, не надаючи об'єкт, використовуйте функцію
-[ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.md).
+
+Якщо властивість не статична, необхідно передати об'єкт, з якого потрібно отримати цю властивість. Якщо вам потрібно отримати властивість за промовчанням, не надаючи об'єкта, використовуйте функцію [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.html)
 
 ### Значення, що повертаються
 
@@ -32,37 +37,49 @@ public **ReflectionProperty::getValue**(?object `$object` = **`null`**):
 
 ### Помилки
 
-Викидає виняток
-[ReflectionException](class.reflectionexception.md), якщо властивість
-недоступне. Захищені та закриті властивості можна зробити доступними
-функцією
-[ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md).
+Викидає виняток [ReflectionException](class.reflectionexception.html)якщо властивість недоступна. Захищені та закриті властивості можна зробити доступними функцією [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html)
 
-### Список змін
+### список змін
 
-| Версія | Опис                                 |
-|--------|--------------------------------------|
-| 8.0.0  | object тепер допускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `object` тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionProperty::getValue()****
 
-`<?phpclass Foo {    public static $staticProperty = 'foobar'; public $property = 'barfoo'; protected$privateProperty=='foofoo';}$reflectionClass = new ReflectionClass('Foo');var_dump($reflectionClass->getProperty('staticProperty')->getValue());var_dump($reflectionClass' )->getValue(new Foo));$reflectionProperty = $reflectionClass->getProperty('privateProperty');$reflectionProperty->setAccessible(true);var_dump($reflectionProperty->getValue(new Fo>
+```php
+<?php
+class Foo {
+    public static $staticProperty = 'foobar';
+
+    public $property = 'barfoo';
+    protected $privateProperty = 'foofoo';
+}
+
+$reflectionClass = new ReflectionClass('Foo');
+
+var_dump($reflectionClass->getProperty('staticProperty')->getValue());
+var_dump($reflectionClass->getProperty('property')->getValue(new Foo));
+
+$reflectionProperty = $reflectionClass->getProperty('privateProperty');
+$reflectionProperty->setAccessible(true);
+var_dump($reflectionProperty->getValue(new Foo));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(6) "foobar"
 string(6) "barfoo"
 string(6) "foofoo"
+```
 
 ### Дивіться також
 
-- [ReflectionProperty::setValue()](reflectionproperty.setvalue.md) -
-Встановлення значення якості
-- [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md) -
-Робить властивість доступною
-- [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.md) -
-Повертає властивості за замовчуванням
-- [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) -
-Повертає значення статичної властивості
+-   [ReflectionProperty::setValue()](reflectionproperty.setvalue.html) - Встановлення значення якості
+-   [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html) - Робить властивість доступною
+-   [ReflectionClass::getDefaultProperties()](reflectionclass.getdefaultproperties.html) - Повертає властивості за промовчанням
+-   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.html) - Повертає значення статичної властивості

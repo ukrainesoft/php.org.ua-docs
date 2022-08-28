@@ -1,9 +1,15 @@
-- [Ds\Vector::unshift](ds-vector.unshift.md)
-- [Ds\Deque::allocate »](ds-deque.allocate.md)
+Клас Deque
 
-- [PHP Manual](index.md)
-- [Структури даних](book.ds.md)
-- Клас Deque
+-   [« Ds\\Vector::unshift](ds-vector.unshift.html)
+    
+-   [Ds\\Deque::allocate »](ds-deque.allocate.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Структуры данных](book.ds.html)
+    
+-   Клас Deque
+    
 
 # Клас Deque
 
@@ -11,222 +17,125 @@
 
 ## Вступ
 
-Двостороння черга - це послідовність значень у безперервному
-буфер, який росте і зменшується автоматично. Deque (вимовляється
-як "deck") є абревіатурою від "double-ended queue" та
-використовується всередині **Ds\Queue**.
+Двостороння черга – це послідовність значень у безперервному буфері, який росте та зменшуються автоматично. Deque (вимовляється як "deck") є абревіатурою від "double-ended queue" і використовується всередині **ДсQueue**
 
-Два вказівники використовуються для відстеження початку та кінця. Вказівники
-можуть "обернути" кінець черги, що дозволяє уникнути переміщення
-значень для визволення місця. Це робить операції shift та unshift
-такими швидкими, що **Ds\Vector** не може з цим змагатися.
+Два покажчики використовуються для відстеження початку та кінця. Покажчики можуть "обернути" кінець черги, що дозволяє уникнути переміщення значень для звільнення місця. Це робить операції shift та unshift такими швидкими, що **ДсVector** не може з цим змагатися.
 
-Доступ до елемента за індексом вимагає перерахунку залежно від нього
-індексу у буфері: `((head + position) % capacity)`.
+Доступ до елемента за індексом вимагає перерахунку залежно від його індексу у буфері: `((head + position) % capacity)`
 
 ## Сильні сторони
 
-- Підтримує синтаксис масиву (квадратні дужки).
-- вимагає менше пам'яті, ніж масив (array) з тією ж кількістю
-значень.
-- Автоматично звільняє пам'ять, коли кількість елементів
-зменшується.
-- **get()**, **set()**, **push()**, **pop()**, **shift()** та
-**unshift()** мають складність O(1).
+-   Підтримує синтаксис масиву (квадратні дужки).
+-   Вимагає менше пам'яті, ніж масив (array) з тією самою кількістю значень.
+-   Автоматично звільняє пам'ять, коли кількість елементів зменшується.
+-   **get()** **set()** **push()** **pop()** **shift()** і **unshift()** мають складність O(1).
 
 ## Слабкі сторони
 
-- Місткість обмежена ступенями двійки.
-- **insert()** і **remove()** мають складність O(n).
+-   Місткість обмежена ступенями двійки.
+-   **insert()** і **remove()** мають складність O(n).
 
 ## Огляд класів
 
-class **Ds\Deque** implements **Ds\Sequence**,
-[ArrayAccess](class.arrayaccess.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `MIN_CAPACITY` = 8;
+    
+    
+     
+      class Ds\Deque
+     
 
-/\* Методи \*/
+     implements 
+       Ds\Sequence,  ArrayAccess {
+    
+    /* Константы */
+    
+     const
+     int
+      MIN_CAPACITY = 8;
 
-public [allocate](ds-deque.allocate.md)(int `$capacity`): void
 
-public
-[apply](ds-deque.apply.md)([callable](language.types.callable.md)
-`$callback`): void
+    /* Методы */
+    
+   public allocate(int $capacity): void
+public apply(callable $callback): void
+public capacity(): int
+public clear(): void
+public contains(mixed ...$values): bool
+public copy(): Ds\Deque
+public filter(callable $callback = ?): Ds\Deque
+public find(mixed $value): mixed
+public first(): mixed
+public get(int $index): mixed
+public insert(int $index, mixed ...$values): void
+public isEmpty(): bool
+public join(string $glue = ?): string
+public last(): mixed
+public map(callable $callback): Ds\Deque
+public merge(mixed $values): Ds\Deque
+public pop(): mixed
+public push(mixed ...$values): void
+public reduce(callable $callback, mixed $initial = ?): mixed
+public remove(int $index): mixed
+public reverse(): void
+public reversed(): Ds\Deque
+public rotate(int $rotations): void
+public set(int $index, mixed $value): void
+public shift(): mixed
+public slice(int $index, int $length = ?): Ds\Deque
+public sort(callable $comparator = ?): void
+public sorted(callable $comparator = ?): Ds\Deque
+public sum(): int|float
+public toArray(): array
+public unshift(mixed $values = ?): void
 
-public [capacity](ds-deque.capacity.md)(): int
+   }
+```
 
-public [clear](ds-deque.clear.md)(): void
-
-public
-[contains](ds-deque.contains.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): bool
-
-public [copy](ds-deque.copy.md)(): [Ds\Deque](class.ds-deque.md)
-
-public
-[filter](ds-deque.filter.md)([callable](language.types.callable.md)
-`$callback` = ?): [Ds\Deque](class.ds-deque.md)
-
-public
-[find](ds-deque.find.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [first](ds-deque.first.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [get](ds-deque.get.md)(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [insert](ds-deque.insert.md)(int `$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
-
-public [isEmpty](ds-deque.isempty.md)(): bool
-
-public [join](ds-deque.join.md)(string `$glue` = ?): string
-
-public [last](ds-deque.last.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [map](ds-deque.map.md)([callable](language.types.callable.md)
-`$callback`): [Ds\Deque](class.ds-deque.md)
-
-public
-[merge](ds-deque.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$values`): [Ds\Deque](class.ds-deque.md)
-
-public [pop](ds-deque.pop.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public
-[push](ds-deque.push.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
-
-public
-[reduce](ds-deque.reduce.md)([callable](language.types.callable.md)
-`$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` = ?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [remove](ds-deque.remove.md)(int `$index`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [reverse](ds-deque.reverse.md)(): void
-
-public [reversed](ds-deque.reversed.md)():
-[Ds\Deque](class.ds-deque.md)
-
-public [rotate](ds-deque.rotate.md)(int `$rotations`): void
-
-public [set](ds-deque.set.md)(int `$index`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
-
-public [shift](ds-deque.shift.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [slice](ds-deque.slice.md)(int `$index`, int `$length` = ?):
-[Ds\Deque](class.ds-deque.md)
-
-public
-[sort](ds-deque.sort.md)([callable](language.types.callable.md)
-`$comparator` = ?): void
-
-public
-[sorted](ds-deque.sorted.md)([callable](language.types.callable.md)
-`$comparator` = ?): [Ds\Deque](class.ds-deque.md)
-
-public [sum](ds-deque.sum.md)(): int\|float
-
-public [toArray](ds-deque.toarray.md)(): array
-
-public
-[unshift](ds-deque.unshift.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values = ?): void
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`Ds\Deque::MIN_CAPACITY`**
 
-## Список змін
+## список змін
 
-| Версія        | Опис                                                   |
-|---------------|--------------------------------------------------------|
-| PECL DS 1.3.0 | Тепер клас продає [ArrayAccess](class.arrayaccess.md). |
+| Версия | Описание |
+| --- | --- |
+| PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.html) |
 
 ## Зміст
 
-- [Ds\Deque::allocate](ds-deque.allocate.md) — Виділяє пам'ять під
-зазначену місткість
-- [Ds\Deque::apply](ds-deque.apply.md) — Оновлює всі значення,
-застосовуючи callback-функцію до кожного значення
-- [Ds\Deque::capacity](ds-deque.capacity.md) — Повертає поточну
-місткість
-- [Ds\Deque::clear](ds-deque.clear.md) — Видаляє всі значення з
-двосторонньої черги
-- [Ds\Deque::\_\_construct](ds-deque.construct.md) — Створює новий
-екземпляр
-- [Ds\Deque::contains](ds-deque.contains.md) — Перевіряє, чи міститься
-чи у двосторонній черзі задані значення
-- [Ds\Deque::copy](ds-deque.copy.md) — Повертає поверхневу
-копію колекції
-- [Ds\Deque::count](ds-deque.count.md) — Повертає кількість
-елементів двосторонньої черги
-- [Ds\Deque::filter](ds-deque.filter.md) — Створює нову
-двосторонню чергу з елементів, вибраних за допомогою заданої
-callback-функції
-- [Ds\Deque::find](ds-deque.find.md) — Пошук індексу за значенням
-- [Ds\Deque::first](ds-deque.first.md) — Повертає перший елемент
-двосторонньої черги
-- [Ds\Deque::get](ds-deque.get.md) — Повертає значення за індексом
-- [Ds\Deque::insert](ds-deque.insert.md) — Вставляє значення за
-зазначеному індексу
-- [Ds\Deque::isEmpty](ds-deque.isempty.md) — Перевіряє, чи пуста
-двостороння черга
-- [Ds\Deque::join](ds-deque.join.md) — Склеює всі значення в
-рядок
-- [Ds\Deque::jsonSerialize](ds-deque.jsonserialize.md) — Повертає
-колекцію в JSON-представленні
-- [Ds\Deque::last](ds-deque.last.md) — Повертає останнє значення
-двосторонньої черги
-- [Ds\Deque::map](ds-deque.map.md) — Повертає результат застосування
-callback-функції до всіх значень двосторонньої черги
-- [Ds\Deque::merge](ds-deque.merge.md) — Повертає результат
-додавання всіх заданих значень у двосторонню чергу
-- [Ds\Deque::pop](ds-deque.pop.md) — Видаляє та повертає останнє
-значення
-- [Ds\Deque::push](ds-deque.push.md) — Додає значення до кінця
-двосторонньої черги
-- [Ds\Deque::reduce](ds-deque.reduce.md) — Зменшує колекцію до
-одного значення, використовуючи callback-функцію
-- [Ds\Deque::remove](ds-deque.remove.md) — Видаляє та повертає
-значення за індексом
-- [Ds\Deque::reverse](ds-deque.reverse.md) — Перевертає поточну
-двосторонню чергу
-- [Ds\Deque::reversed](ds-deque.reversed.md) - Повертає
-перегорнуту копію двосторонньої черги
-- [Ds\Deque::rotate](ds-deque.rotate.md) — Перемотує
-двосторонню чергу на задану кількість значень
-- [Ds\Deque::set](ds-deque.set.md) — Замінює значення вказаного
-індексу
-- [Ds\Deque::shift](ds-deque.shift.md) — Видаляє та повертає перше
-значення
-- [Ds\Deque::slice](ds-deque.slice.md) — Повертає почергово з
-заданого діапазону
-- [Ds\Deque::sort](ds-deque.sort.md) — Сортує двосторонню
-черга
-- [Ds\Deque::sorted](ds-deque.sorted.md) — Повертає
-відсортовану за значенням копію двосторонньої черги
-- [Ds\Deque::sum](ds-deque.sum.md) — Повертає суму всіх значень
-двосторонньої черги
-- [Ds\Deque::toArray](ds-deque.toarray.md) - Перетворює
-двосторонню чергу в масив (array)
-- [Ds\Deque::unshift](ds-deque.unshift.md) — Додає значення до
-початок двосторонньої черги
+-   [Ds\\Deque::allocate](ds-deque.allocate.html) — Виділяє пам'ять під зазначену місткість
+-   [Ds\\Deque::apply](ds-deque.apply.html) - Оновлює всі значення, застосовуючи callback-функцію до кожного значення
+-   [Ds\\Deque::capacity](ds-deque.capacity.html) — Повертає поточну місткість
+-   [Ds\\Deque::clear](ds-deque.clear.html) — Видаляє всі значення із двосторонньої черги
+-   [Ds\\Deque::\_\_construct](ds-deque.construct.html) - Створює новий екземпляр
+-   [Ds\\Deque::contains](ds-deque.contains.html) — Перевіряє, чи є у двосторонній черзі задані значення
+-   [Ds\\Deque::copy](ds-deque.copy.html) — Повертає поверхневу копію колекції
+-   [Ds\\Deque::count](ds-deque.count.html) — Повертає кількість елементів двосторонньої черги
+-   [Ds\\Deque::filter](ds-deque.filter.html) — Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
+-   [Ds\\Deque::find](ds-deque.find.html) - Пошук індексу за значенням
+-   [Ds\\Deque::first](ds-deque.first.html) — Повертає перший елемент двосторонньої черги
+-   [Ds\\Deque::get](ds-deque.get.html) — Повертає значення за індексом
+-   [Ds\\Deque::insert](ds-deque.insert.html) — Вставляє значення за вказаним індексом
+-   [Ds\\Deque::isEmpty](ds-deque.isempty.html) — Перевіряє, чи порожня двостороння черга
+-   [Ds\\Deque::join](ds-deque.join.html) - Склеює всі значення в рядок
+-   [Ds\\Deque::jsonSerialize](ds-deque.jsonserialize.html) — Повертає колекцію в JSON-представництві
+-   [Ds\\Deque::last](ds-deque.last.html) — Повертає останнє значення двосторонньої черги
+-   [Ds\\Deque::map](ds-deque.map.html) — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
+-   [Ds\\Deque::merge](ds-deque.merge.html) — Повертає результат додавання всіх заданих значень у двосторонню чергу
+-   [Ds\\Deque::pop](ds-deque.pop.html) — Видаляє та повертає останнє значення
+-   [Ds\\Deque::push](ds-deque.push.html) — Додає значення наприкінці двосторонньої черги
+-   [Ds\\Deque::reduce](ds-deque.reduce.html) - Зменшує колекцію до одного значення, використовуючи callback-функцію
+-   [Ds\\Deque::remove](ds-deque.remove.html) — Видаляє та повертає значення за індексом
+-   [Ds\\Deque::reverse](ds-deque.reverse.html) — Перевертає поточну двосторонню чергу
+-   [Ds\\Deque::reversed](ds-deque.reversed.html) — Повертає перегорнуту копію двосторонньої черги
+-   [Ds\\Deque::rotate](ds-deque.rotate.html) — Перемотує двосторонню чергу на задану кількість значень
+-   [Ds\\Deque::set](ds-deque.set.html) — Замінює значення за вказаним індексом
+-   [Ds\\Deque::shift](ds-deque.shift.html) — Видаляє та повертає перше значення
+-   [Ds\\Deque::slice](ds-deque.slice.html) — Повертає почергово із заданого діапазону
+-   [Ds\\Deque::sort](ds-deque.sort.html) — Сортує двосторонню чергу
+-   [Ds\\Deque::sorted](ds-deque.sorted.html) — Повертає відсортовану за значенням копію двосторонньої черги
+-   [Ds\\Deque::sum](ds-deque.sum.html) — Повертає суму всіх значень двосторонньої черги
+-   [Ds\\Deque::toArray](ds-deque.toarray.html) - Перетворює двосторонню чергу на масив (array)
+-   [Ds\\Deque::unshift](ds-deque.unshift.html) — Додає значення на початок двосторонньої черги

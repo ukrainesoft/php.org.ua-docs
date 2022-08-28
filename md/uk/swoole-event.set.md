@@ -1,24 +1,27 @@
-- [« Swoole\Event::exit](swoole-event.exit.md)
-- [Swoole\Event::wait »](swoole-event.wait.md)
+Оновлює callback-функції події сокету
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Оновлює callback-функції події сокету
+-   [« Swoole\\Event::exit](swoole-event.exit.html)
+    
+-   [Swoole\\Event::wait »](swoole-event.wait.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Event](class.swoole-event.html)
+    
+-   Оновлює callback-функції події сокету
+    
 
-# Swoole\Event::set
+# SwooleEvent::set
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Event::set - Оновлює callback-функції події сокету
+SwooleEvent::set — Оновлює callback-функції події сокету
 
 ### Опис
 
-public static **Swoole\Event::set**(
-int `$fd`,
-string `$read_callback` = ?,
-string `$write_callback` = ?,
-string `$events` = ?
-): bool
+```methodsynopsis
+public static Swoole\Event::set(    int $fd,    string $read_callback = ?,    string $write_callback = ?,    string $events = ?): bool
+```
 
 ### Список параметрів
 

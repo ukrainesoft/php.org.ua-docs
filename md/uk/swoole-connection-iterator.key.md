@@ -1,19 +1,27 @@
-- [« Swoole\Connection\Iterator::current](swoole-connection-iterator.current.md)
-- [Swoole\Connection\Iterator::next »](swoole-connection-iterator.next.md)
+Повертає ключ поточного з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)
-- Повертає ключ поточного з'єднання
+-   [« Swoole\\Connection\\Iterator::current](swoole-connection-iterator.current.html)
+    
+-   [Swoole\\Connection\\Iterator::next »](swoole-connection-iterator.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.html)
+    
+-   Повертає ключ поточного з'єднання
+    
 
-# Swoole\Connection\Iterator::key
+# SwooleConnectionIterator::key
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Connection\Iterator::key — Повертає ключ поточного з'єднання
+SwooleConnectionIterator::key — Повертає ключ поточного з'єднання.
 
 ### Опис
 
-public **Swoole\Connection\Iterator::key**(): int
+```methodsynopsis
+public Swoole\Connection\Iterator::key(): int
+```
 
 Функція повертає ключ поточного з'єднання.
 

@@ -1,14 +1,20 @@
-- [«Вступ](intro.pthreads.md)
-- [Вимоги »](pthreads.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [pthreads](book.pthreads.md)
+-   [« Введение](intro.pthreads.html)
+    
+-   [Требования »](pthreads.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [pthreads](book.pthreads.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](pthreads.requirements.md)
-- [Установка](pthreads.installation.md)
-- [Налаштування під час виконання](pthreads.configuration.md)
+-   [Требования](pthreads.requirements.html)
+-   [Установка](pthreads.installation.html)
+-   [Настройка во время выполнения](pthreads.configuration.html)

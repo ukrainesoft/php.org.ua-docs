@@ -1,43 +1,47 @@
-- [«dba_delete](function.dba-delete.md)
-- [dba_fetch »](function.dba-fetch.md)
+Перевіряє, чи існує ключ
 
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Перевіряє, чи існує ключ
+-   [« dba\_delete](function.dba-delete.html)
+    
+-   [dba\_fetch »](function.dba-fetch.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции DBA](ref.dba.html)
+    
+-   Перевіряє, чи існує ключ
+    
 
-# dba_exists
+# dbaexists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_exists — Перевіряє, чи існує ключ
+dbaexists — Перевіряє, чи існує ключ
 
 ### Опис
 
-**dba_exists**(string\|array `$key`, resource `$dba`): bool
+```methodsynopsis
+dba_exists(string|array $key, resource $dba): bool
+```
 
-**dba_exists()** перевіряє, якщо у базі даних заданий ключ `key`.
+**dbaexists()** перевіряє, якщо у базі даних заданий ключ `key`
 
 ### Список параметрів
 
 `key`
+
 Ключ, що перевіряється.
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** якщо ключ існує і **`false`** у зворотному
-випадку.
+Повертає **`true`** якщо ключ існує і **`false`** в зворотньому випадку.
 
 ### Дивіться також
 
-- [dba_delete()](function.dba-delete.md) - Видаляє запис бази
-даних, визначену ключем
-- [dba_fetch()](function.dba-fetch.md) - Виймає дані з
-вказаним ключем
-- [dba_insert()](function.dba-insert.md) - Вставляє запис
-- [dba_replace()](function.dba-replace.md) - Перезаписати або
-вставити запис
+-   [dba\_delete()](function.dba-delete.html) - Видаляє запис бази даних, визначену ключем
+-   [dba\_fetch()](function.dba-fetch.html) - Витягує дані за вказаним ключем
+-   [dba\_insert()](function.dba-insert.html) - Вставляє запис
+-   [dba\_replace()](function.dba-replace.html) - Перезаписати або вставити запис

@@ -1,19 +1,27 @@
-- [« MongoDB \ BSON \ MinKey](class.mongodb-bson-minkey.md)
-- [MongoDB\BSON\MinKey::jsonSerialize »](mongodb-bson-minkey.jsonserialize.md)
+Конструктор MinKey
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
-- Конструктор MinKey
+-   [« MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+    
+-   [MongoDB\\BSON\\MinKey::jsonSerialize »](mongodb-bson-minkey.jsonserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+    
+-   Конструктор MinKey
+    
 
-# MongoDB\BSON\MinKey::\_\_construct
+# MongoDBBSONMinKey::construct
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON\MinKey::\_\_construct - Конструктор MinKey
+MongoDBBSONMinKey::construct — Конструктор MinKey
 
 ### Опис
 
-final public **MongoDB\BSON\MinKey::\_\_construct**()
+```methodsynopsis
+final public MongoDB\BSON\MinKey::__construct()
+```
 
 ### Список параметрів
 
@@ -21,21 +29,27 @@ final public **MongoDB\BSON\MinKey::\_\_construct**()
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\BSON\MinKey::\_\_construct()****
+**Приклад #1 Приклад використання **MongoDBBSONMinKey::construct()****
 
-` <?phpvar_dump(new MongoDB\BSON\MinKey());?> `
+```php
+<?php
+
+var_dump(new MongoDB\BSON\MinKey());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(MongoDB\BSON\MinKey)#1 (0) {
 }
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

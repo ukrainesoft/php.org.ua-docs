@@ -1,32 +1,42 @@
-- [«trader_tema](function.trader-tema.md)
-- [trader_trima »](function.trader-trima.md)
+Справжній діапазон
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Справжній діапазон
+-   [« trader\_tema](function.trader-tema.html)
+    
+-   [trader\_trima »](function.trader-trima.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Справжній діапазон
+    
 
-#trader_trange
+# tradertrange
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_trange — Справжній діапазон
+tradertrange — Справжній діапазон
 
 ### Опис
 
-**trader_trange**(array `$high`, array `$low`, array `$close`): array
+```methodsynopsis
+trader_trange(array $high, array $low, array $close): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

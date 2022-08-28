@@ -1,47 +1,68 @@
-- [« MongoDB\Driver\BulkWrite::insert](mongodb-driver-bulkwrite.insert.md)
-- [MongoDB\Driver\Session »](class.mongodb-driver-session.md)
+Додати операцію оновлення до порції
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md)
-- Додати операцію оновлення до порції
+-   [« MongoDB\\Driver\\BulkWrite::insert](mongodb-driver-bulkwrite.insert.html)
+    
+-   [MongoDB\\Driver\\Session »](class.mongodb-driver-session.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
+    
+-   Додати операцію оновлення до порції
+    
 
-# MongoDB\Driver\BulkWrite::update
+# MongoDBDriverBulkWrite::update
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\BulkWrite::update — Додати операцію оновлення до порції
+MongoDBDriverBulkWrite::update — Додати операцію оновлення до порції
 
 ### Опис
 
-public **MongoDB\Driver\BulkWrite::update**(array\|object `$filter`,
-array\|object `$newObj`, array `$updateOptions` = ?): void
+```methodsynopsis
+public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newObj, ?array $updateOptions = null): void
+```
 
-Додає операцію поновлення в
-[MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md).
+Додає операцію поновлення в [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.html)
 
 ### Список параметрів
 
-`filter` (array\|object)
-[» Предикат запиту](https://www.mongodb.com/docs/manual/tutorial/query-documents/).
-Порожній предикат збігатиметься з усіма елементами колекції.
+`filter` (array | об'єкт)
 
-> **Примітка**: При обчисленні критеріїв запиту MongoDB порівнює
-> типи та значення відповідно до власних [» правил порівняння
-> типів > BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/),
-> відмінних від правил [порівняння](types.comparisons.md) та [приведення > типів](language.types.type-juggling.md) PHP. Коли використовується
-> спеціальний тип BSON, критерію запиту має відповідати [класу > BSON](book.bson.md) (тобто використовувати
-> [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md) для вибірки
-> по
-> [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)).
+[» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-`newObj` (array\|object)
-Документ, що містить оператори оновлення (наприклад, $set), що замінює
-документ (наприклад, *лише* вирази `field:value`) або [» конвеєр агрегації](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline).
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами сравнения типов BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.html) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.html) (тобто використовувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.html) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+
+`newObj` (array | об'єкт)
+
+Документ, що містить оператори оновлення (наприклад, `$set`), що замінює документ (наприклад, *тільки* вирази `field:value`) або [» конвейер агрегации](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline)
 
 `updateOptions`
-[TABLE]
 
 **updateOptions**
+
+| Опция | Тип | Описание | Значение по умолчанию |
+| --- | --- | --- | --- |
+| arrayFilters | array |  |  |
+| Масив документів фільтрів, який визначає, які елементи масиву будуть змінені для операції поновлення в полі масиву. Дивіться [» Указывайте arrayFilters для операций обновления массива](https://www.mongodb.com/docs/manual/reference/command/update/#update-command-arrayfilters) у посібнику MongoDB для отримання додаткової інформації. |  |  |  |
+
+Опція доступна з MongoDB 3.6+ і призведе до виключення під час виконання, якщо вона вказана для старої версії сервера.
+
+| | collation | array | об'єкт |
+
+[» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
+
+Якщо порівняння не задано явно, але в колекції визначено зіставлення за умовчанням, буде використано воно. Якщо немає ні того, то MongoDB буде використовувати просте бінарне порівняння рядків.
+
+Ця опція доступна у MongoDB 3.4+ і, якщо буде використана для більш старих версій, викличе виняток під час виконання.
+
+| | hint | string | array | об'єкт |
+
+Індекс специфікації. Вкажіть або назву індексу у вигляді рядка, або шаблон ключа індексу. Якщо зазначено, система запитів розглядатиме плани лише з використанням індексу підказок.
+
+Опція доступна з MongoDB 4.4+ і призведе до виключення під час виконання, якщо вона вказана для старої версії сервера.
+
+| | multi | bool | Оновити лише перший знайдений документ, якщо **`false`** або всі відповідні документи при **`true`**. Ця опція не може бути **`true`**, коли `newObj` - Замінний документ. | **`false`** | | upsert | bool | Якщо `filter` не відповідає існуючому документу, буде вставлено *новий* документ. Документ буде створено з `newObj`якщо він замінює документ (тобто відсутні оператори оновлення); в іншому випадку оператори в `newObj` будуть застосовуватися до `filter` створення нового документа. | **`false`**
 
 ### Значення, що повертаються
 
@@ -49,27 +70,39 @@ array\|object `$newObj`, array `$updateOptions` = ?): void
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
-### Список змін
+### список змін
 
-| Версія                                                                                                                                                                                                  | Опис                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.7.0                                                                                                                                                                                      | Додана опція hint'.                                                                                                                 |
-| PECL mongodb 1.6.0                                                                                                                                                                                      | Параметр newObj тепер приймає конвеєр агрегації. Потрібно MongoDB 4.2+, для старої версії сервера викине виняток під час виконання. |
-| PECL mongodb 1.5.0 Використання опції arrayFilters' призведе до виключення під час виконання, якщо вона не підтримується сервером. Раніше не викидався виняток, і цей параметр, можливо, проігнорували. |                                                                                                                                     | | | | |                                                                                                                                       
-| PECL mongodb 1.4.0                                                                                                                                                                                      | Додана опція arrayFilters'.                                                                                                         |
-| PECL mongodb 1.2.0                                                                                                                                                                                      | Додана опція collation'.                                                                                                            |
+| Версия | Описание |
+| --- | --- |
+| PECL mongodb 1.7.0 | Додана опція `"hint"` |
+| PECL mongodb 1.6.0 | Параметр `newObj` тепер приймає конвеєр агрегації. Потрібно MongoDB 4.2+, для старішої версії сервера викине виняток під час виконання. |
+| PECL mongodb 1.5.0 | Використання опції `"arrayFilters"` призведе до виключення під час виконання, якщо вона не підтримується сервером. Раніше не викидався виняток, і цей параметр, можливо, проігнорували. |
+| PECL mongodb 1.4.0 | Додана опція `"arrayFilters"` |
+| PECL mongodb 1.2.0 | Додана опція `"collation"` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\BulkWrite::update()****
+**Приклад #1 Приклад використання **MongoDBDriverBulkWrite::update()****
 
-` <?php$bulk = new MongoDB\Driver\BulkWrite;$bulk->update(   ['x' => 2],    ['$set' => ['y' => 3]], [ => false, 'upsert' => false]);$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$result = $manager->executeBulkWrite('db.collection', $ bulk);?> `
+```php
+<?php
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->update(
+    ['x' => 2],
+    ['$set' => ['y' => 3]],
+    ['multi' => false, 'upsert' => false]
+);
+
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$result = $manager->executeBulkWrite('db.collection', $bulk);
+
+?>
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) -
-Виконує одну або кілька операцій запису
-- [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.html)

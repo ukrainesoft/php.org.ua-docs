@@ -1,28 +1,42 @@
-- [« ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.md)
-- [CrudOperationBindable::bind »](mysql-xdevapi-crudoperationbindable.bind.md)
+Інтерфейс CrudOperationBindable
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс CrudOperationBindable
+-   [« ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.html)
+    
+-   [CrudOperationBindable::bind »](mysql-xdevapi-crudoperationbindable.bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Інтерфейс CrudOperationBindable
+    
 
 # Інтерфейс CrudOperationBindable
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\CrudOperationBindable** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **bind**(array `$placeholder_values`):
-[mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)
 
-}
+    
+     
+      class mysql_xdevapi\CrudOperationBindable
+     
+     {
+
+
+    /* Методы */
+    
+   abstract public bind(array $placeholder_values): mysql_xdevapi\CrudOperationBindable
+
+   }
+```
 
 ## Зміст
 
-- [CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.md)
-- Прив'язує значення до заповнювача
+-   [CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.html) — Прив'язує значення до заповнювача

@@ -1,9 +1,15 @@
-- [« WeakMap::offsetSet](weakmap.offsetset.md)
-- [Stringable »](class.stringable.md)
+Видаляє запис із колекції (map)
 
-- [PHP Manual](index.md)
-- [WeakMap](class.weakmap.md)
-- Видаляє запис із колекції (map)
+-   [« WeakMap::offsetSet](weakmap.offsetset.html)
+    
+-   [Stringable »](class.stringable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WeakMap](class.weakmap.html)
+    
+-   Видаляє запис із колекції (map)
+    
 
 # WeakMap::offsetUnset
 
@@ -13,13 +19,16 @@ WeakMap::offsetUnset — Видаляє запис із колекції (map)
 
 ### Опис
 
-public **WeakMap::offsetUnset**(object `$object`): void
+```methodsynopsis
+public WeakMap::offsetUnset(object $object): void
+```
 
 Видаляє запис із колекції (map).
 
 ### Список параметрів
 
 `object`
+
 Об'єкт, який є ключем для запису, який потрібно видалити з колекції.
 
 ### Значення, що повертаються

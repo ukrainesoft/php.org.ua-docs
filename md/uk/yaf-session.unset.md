@@ -1,24 +1,31 @@
-- [« Yaf_Session::start](yaf-session.start.md)
-- [Yaf_Session::valid »](yaf-session.valid.md)
+Призначення unset
 
-- [PHP Manual](index.md)
-- [Yaf_Session](class.yaf-session.md)
-- Призначення \_\_unset
+-   [« Yaf\_Session::start](yaf-session.start.html)
+    
+-   [Yaf\_Session::valid »](yaf-session.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Session](class.yaf-session.html)
+    
+-   Призначення unset
+    
 
-# Yaf_Session::\_\_unset
+# YafSession::unset
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Session::\_\_unset - Призначення \_\_unset
+YafSession::unset — Призначення unset
 
 ### Опис
 
-public **Yaf_Session::\_\_unset**(string `$name`): void
+```methodsynopsis
+public Yaf_Session::__unset(string $name): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,59 +1,59 @@
-- [«ldap_next_reference](function.ldap-next-reference.md)
-- [ldap_parse_reference »](function.ldap-parse-reference.md)
+Розбір результуючого об'єкта виконання розширеної операції LDAP
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [« ldap\_next\_reference](function.ldap-next-reference.html)
+    
+-   [ldap\_parse\_reference »](function.ldap-parse-reference.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Розбір результуючого об'єкта виконання розширеної операції LDAP
+    
 
-#ldap_parse_exop
+# ldapparseexop
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-ldap_parse_exop — Розбір результуючого об'єкта виконання розширеної
-операції LDAP
+ldapparseexop — Розбір результуючого об'єкта виконання розширеної операції LDAP
 
 ### Опис
 
-**ldap_parse_exop**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-[LDAP\Result](class.ldap-result.md) `$result`,
-string `&$response_data` = **`null`**,
-string `&$response_oid` = **`null`**
-): bool
+```methodsynopsis
+ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,    string &$response_data = null,    string &$response_oid = null): bool
+```
 
-Розбирає `result`, отриманий після виконання розширеної операції
-LDAP
+Розбирає `result`отриманий після виконання розширеної операції LDAP
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
+
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
 `result`
-Примірник [LDAP\Result](class.ldap-result.md), що повертається
-[ldap_list()](function.ldap-list.md) або
-[ldap_search()](function.ldap-search.md).
+
+Екземпляр [LDAP\\Result](class.ldap-result.html), що повертається [ldap\_list()](function.ldap-list.html) або [ldap\_search()](function.ldap-search.html)
 
 `response_data`
+
 Буде заповнений розібраними даними.
 
 `response_oid`
+
 Буде заповнено поверненим OID.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [ldap_exop()](function.ldap-exop.md) - Виконати розширену
-операцію
+-   [ldap\_exop()](function.ldap-exop.html) - Виконує розширену операцію

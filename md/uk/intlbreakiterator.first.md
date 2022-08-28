@@ -1,25 +1,31 @@
-- [« IntlBreakIterator::current](intlbreakiterator.current.md)
-- [IntlBreakIterator::following »](intlbreakiterator.following.md)
+Встановлює позицію першого символу в тексті
 
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Встановлює позицію до першого символу у тексті
+-   [« IntlBreakIterator::current](intlbreakiterator.current.html)
+    
+-   [IntlBreakIterator::following »](intlbreakiterator.following.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlBreakIterator](class.intlbreakiterator.html)
+    
+-   Встановлює позицію першого символу в тексті
+    
 
 # IntlBreakIterator::first
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::first — Встановлює позицію до першого символу в
-тексті
+IntlBreakIterator::first — Встановлює позицію першого символу в тексті
 
 ### Опис
 
-public **IntlBreakIterator::first**(): int
+```methodsynopsis
+public IntlBreakIterator::first(): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

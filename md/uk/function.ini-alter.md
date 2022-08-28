@@ -1,16 +1,22 @@
-- [«getrusage](function.getrusage.md)
-- [ini_get_all »](function.ini-get-all.md)
+Псевдонім iniset
 
-- [PHP Manual](index.md)
-- [Опції PHP/інформаційні функції](ref.info.md)
-- Псевдонім ini_set
+-   [« getrusage](function.getrusage.html)
+    
+-   [ini\_get\_all »](function.ini-get-all.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Опции PHP/информационные функции](ref.info.html)
+    
+-   Псевдонім iniset
+    
 
-#ini_alter
+# inialter
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ini_alter - Псевдонім [ini_set()](function.ini-set.md)
+inialter - Псевдонім [ini\_set()](function.ini-set.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [ini_set()](function.ini-set.md).
+Ця функція є псевдонімом: [ini\_set()](function.ini-set.html)

@@ -1,180 +1,158 @@
-- [« Встановлення](info.installation.md)
-- [Типи ресурсів»](info.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](info.setup.md)
-- Налаштування під час виконання
+-   [« Установка](info.installation.html)
+    
+-   [Типы ресурсов »](info.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](info.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
+Поведінка цих функцій залежить від установок у php.ini.
 
-| Ім'я За замовчуванням                                                        | Місце зміни | Список змін    |
-| ---------------------------------------------------------------------------- | ----------- | -------------- |
-| [assert.active](info.configuration.md#ini.assert.active)                     | "1"         | PHP_INI_ALL    |
-| [assert.bail](info.configuration.md#ini.assert.bail)                         | "0"         | PHP_INI_ALL    |
-| [assert.warning](info.configuration.md#ini.assert.warning)                   | "1"         | PHP_INI_ALL    |
-| [assert.callback](info.configuration.md#ini.assert.callback)                 | NULL        | PHP_INI_ALL    |
-| [assert.quiet_eval](info.configuration.md#ini.assert.quiet-eval)             | "0"         | PHP_INI_ALL    |
-| [assert.exception](info.configuration.md#ini.assert.exception)               | "0"         | PHP_INI_ALL    | Доступна із версії PHP 7.0.0.
-| [enable_dl](info.configuration.md#ini.enable-dl)                             | "1"         | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому.
-| [max_execution_time](info.configuration.md#ini.max-execution-time)           | "30"        | PHP_INI_ALL    |
-| [max_input_time](info.configuration.md#ini.max-input-time)                   | "-1"        | PHP_INI_PERDIR |
-| [max_input_nesting_level](info.configuration.md#ini.max-input-nesting-level) | "64"        | PHP_INI_PERDIR | Доступна з PHP 5.2.3.
-| [max_input_vars](info.configuration.md#ini.max-input-vars)                   | 1000        | PHP_INI_PERDIR | Доступна з PHP 5.3.9.
-| [magic_quotes_gpc](info.configuration.md#ini.magic-quotes-gpc)               | "1"         | PHP_INI_PERDIR | Видалено в PHP 5.4.0.
-| [magic_quotes_runtime](info.configuration.md#ini.magic-quotes-runtime)       | "0"         | PHP_INI_ALL    | Видалено в PHP 5.4.0.
-| [zend.enable_gc](info.configuration.md#ini.zend.enable-gc)                   | "1"         | PHP_INI_ALL    | Доступна з PHP 5.3.0.
+**Установки PHP/Параметри конфігурації інформації**
 
-**Налаштування PHP/Параметри конфігурації інформації**
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [assert.active](info.configuration.html#ini.assert.active) | "1" | PHPINIALL |  |
+| [assert.bail](info.configuration.html#ini.assert.bail) | "0" | PHPINIALL |  |
+| [assert.warning](info.configuration.html#ini.assert.warning) | "1" | PHPINIALL |  |
+| [assert.callback](info.configuration.html#ini.assert.callback) | NULL | PHPINIALL |  |
+| [assert.quiet\_eval](info.configuration.html#ini.assert.quiet-eval) | "0" | PHPINIALL |  |
+| [assert.exception](info.configuration.html#ini.assert.exception) | "0" | PHPINIALL | Доступна з версії PHP 7.0.0. |
+| [enable\_dl](info.configuration.html#ini.enable-dl) | "1" | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| [max\_execution\_time](info.configuration.html#ini.max-execution-time) | "30" | PHPINIALL |  |
+| [max\_input\_time](info.configuration.html#ini.max-input-time) | "-1" | PHPINIPERDIR |  |
+| [max\_input\_nesting\_level](info.configuration.html#ini.max-input-nesting-level) | "64" | PHPINIPERDIR | Доступна з PHP 5.2.3. |
+| [max\_input\_vars](info.configuration.html#ini.max-input-vars) |  | PHPINIPERDIR | Доступна з PHP 5.3.9. |
+| [magic\_quotes\_gpc](info.configuration.html#ini.magic-quotes-gpc) | "1" | PHPINIPERDIR | Видалено в PHP 5.4.0. |
+| [magic\_quotes\_runtime](info.configuration.html#ini.magic-quotes-runtime) | "0" | PHPINIALL | Видалено в PHP 5.4.0. |
+| [zend.enable\_gc](info.configuration.html#ini.zend.enable-gc) | "1" | PHPINIALL | Доступна з PHP 5.3.0. |
 
-Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
+Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 
 Коротке пояснення конфігураційних директив.
 
 `assert.active` bool
-Увімкнення виконання [assert()](function.assert.md).
+
+Увімкнення виконання [assert()](function.assert.html)
 
 `assert.bail` bool
+
 Завершення роботи скрипта під час провалу перевірки тверджень.
 
 `assert.warning` bool
+
 Виклик попереджень PHP для кожної проваленої перевірки затвердження.
 
 `assert.callback` string
-Функція користувача, що викликається при провалі перевірки тверджень.
+
+функція користувача, що викликається при провалі перевірки тверджень.
 
 `assert.quiet_eval` bool
-Використовуйте це налаштування функції
-[error_reporting()](function.error-reporting.md) під час виконання
-перевірки тверджень. При увімкненні налаштування повідомлення про помилки
-час перевірки тверджень не показуватимуться (неявний виклик
-error_reporting(0)). Якщо налаштування вимкнено, помилки будуть видаватися в
-відповідно до налаштувань
-[error_reporting()](function.error-reporting.md)
+
+Використовуйте це налаштування функції [error\_reporting()](function.error-reporting.html) під час виконання перевірки тверджень. При увімкненні налаштування повідомлення про помилки під час перевірки тверджень не відображатимуться (неявний виклик errorreporting(0)). Якщо вимкнено налаштування, помилки будуть видаватися відповідно до налаштувань [error\_reporting()](function.error-reporting.html)
 
 `assert.exception` bool
-Генерує виняток [AssertionError](class.assertionerror.md) для
-невдалої перевірки затвердження.
+
+Генерує виняток [AssertionError](class.assertionerror.html) для невдалої перевірки затвердження.
 
 `enable_dl` bool
-Директива дозволяє включати та вимикати динамічне підвантаження модулів
-PHP за допомогою функції [dl()](function.dl.md).
 
-Головною причиною, з якої потрібне вимкнення динамічного завантаження,
-є безпека. За допомогою динамічного завантаження можна обійти все
-[open_basedir](ini.core.md#ini.open-basedir) обмеження. За замовчуванням
-динамічне завантаження дозволено.
+Директива дозволяє вмикати та вимикати динамічне підвантаження модулів PHP за допомогою функції [dl()](function.dl.html)
+
+Головною причиною, через яку потрібно вимкнення динамічного завантаження, є безпека. За допомогою динамічного завантаження можна обійти все [open\_basedir](ini.core.html#ini.open-basedir) обмеження. За замовчуванням динамічне завантаження дозволено.
 
 `max_execution_time` int
-Ця директива визначає максимальний час у секундах, протягом якого
-скрипт повинен повністю завантажитись. Якщо цього не відбувається, парсер
-завершує роботу скрипта. Цей механізм допомагає запобігти зависанню
-сервера через погано написаний скрипт. За замовчуванням на завантаження надається
-`30` секунд. Якщо PHP запущено з [командної строки](features.commandline.md), це значення за умовчанням дорівнює `0`.
 
-У системах, відмінних від Windows, на максимальний час виконання не
-впливають системні виклики, потокові операції тощо. За додатковою
-інформацією звертайтесь до документації до функції
-[set_time_limit()](function.set-time-limit.md).
+Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен повністю завантажитися. Якщо цього немає, парсер завершує роботу скрипта. Цей механізм допомагає запобігти зависанню сервера через погано написаний скрипт. За промовчанням на завантаження дається `30` секунд. Якщо PHP запущено з [командной строки](features.commandline.html), це значення за умовчанням дорівнює `0`
 
-Веб-сервери зазвичай мають свої налаштування часу очікування по перевищенню
-якого завершують виконання скрипта PHP. В Apache є директива
-`Timeout`, у IIS є функція CGI timeout. В обох випадках за замовчуванням
-встановлено 300 секунд. Точні значення можна дізнатися з документації до
-веб-сервер.
+У системах, відмінних від Windows, на максимальний час виконання не впливають системні дзвінки, потокові операції тощо. За додатковою інформацією звертайтесь до документації до функції [set\_time\_limit()](function.set-time-limit.html)
+
+Веб-сервери зазвичай мають свої налаштування часу очікування, після перевищення якого самі завершують виконання скрипта PHP. В Apache є директива `Timeout`У IIS є функція CGI timeout. В обох випадках за промовчанням встановлено 300 секунд. Точне значення можна дізнатися з документації до веб-сервера.
 
 `max_input_time` int
-Ця директива визначає максимальний час у секундах, протягом якого
-скрипт повинен розібрати всі вхідні дані, передані запитами на зразок
-POST чи GET. Цей час вимірюється від моменту, коли PHP викликаний
-сервер до моменту, коли скрипт починає виконуватися. Значення по
-замовчуванням `-1`, що означає, що буде використовуватися
-[max_execution_time](info.configuration.md#ini.max-execution-time).
-Якщо встановити рівним `0`, то обмежень у часі не буде.
+
+Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен розібрати всі вхідні дані, передані запитами на кшталт POST або GET. Цей час вимірюється з моменту, коли PHP викликаний на сервері до моменту, коли скрипт починає виконуватися. Значення за замовчуванням `-1`що означає, що буде використовуватися [max\_execution\_time](info.configuration.html#ini.max-execution-time). Якщо встановити рівним `0`, то обмежень у часі не буде.
 
 `max_input_nesting_level` int
-Задає максимальну глибину вкладення [вхідних змінних](language.variables.external.md) (тобто `$_GET`,
-`$_POST`.)
+
+Задає максимальну глибину вкладеності [входных переменных](language.variables.external.html) (тобто [$\_GET](reserved.variables.get.html) [$\_POST](reserved.variables.post.html)
 
 `max_input_vars` int
-Скільки [вхідних змінних](language.variables.external.md) може
-бути прийнято в одному запиті (обмеження накладається на кожну
-глобальних змінних $\_GET, $\_POST і $\_COOKIE окремо).
-Використання цієї директиви знижує ймовірність збоїв у разі атак з
-використанням хеш-колізій. Якщо вхідних змінних більше, ніж задано
-директивою, викидається попередження **`E_WARNING`**, а все
-наступні змінні у запиті ігноруються.
+
+Скільки [входных переменных](language.variables.external.html) може бути прийнято в одному запиті (обмеження накладається на кожну з глобальних змінних $GET, $POST та $COOKIE окремо). Використання цієї директиви знижує ймовірність збоїв у разі атак із використанням хеш-колізій. Якщо вхідних змінних більше, ніж встановлено директивою, викидається попередження **`E_WARNING`**а всі наступні змінні в запиті ігноруються.
 
 `magic_quotes_gpc` bool
+
 **Увага**
-Дана можливість була оголошена *УСТАРНІЙ*, починаючи з PHP 5.3.0 та
-була *Видалена* в PHP 5.4.0.
 
-Задає режим magic_quotes для операцій GPC (Get/Post/Cookie). Якщо
-magic_quotes включений, всі '(одинарні лапки), '(подвійні лапки), \
-(зворотний слєш) та NUL автоматично екрануються зворотним слєшем.
+Ця можливість була оголошена *застарілої*, починаючи з PHP 5.3.0 і була *ВИДАЛЕНО* у PHP 5.4.0.
 
-Дивіться також
-[get_magic_quotes_gpc()](function.get-magic-quotes-gpc.md)
+Встановлює режим magicquotes для GPC (Get/Post/Cookie) операцій. Якщо magicquotes включений, всі ' (одинарні лапки), " (подвійні лапки), (зворотний сліш) та NUL автоматично екрануються зворотним слешем.
+
+Дивіться також [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.html)
 
 `magic_quotes_runtime` bool
+
 **Увага**
-Дана можливість була оголошена *УСТАРНІЙ*, починаючи з PHP 5.3.0 та
-була *Видалена* в PHP 5.4.0.
 
-Якщо включена директива `magic_quotes_runtime`, більшість функцій
-повертають дані із зовнішніх джерел, таких як бази даних або
-текстові файли, будуть екранувати лапки зворотним слішем.
+Ця можливість була оголошена *застарілої*, починаючи з PHP 5.3.0 і була *ВИДАЛЕНО* у PHP 5.4.0.
 
-Функції, на які поширюється дія директиви
-`magic_quotes_runtime` (виключаючи функції з PECL):
+Якщо увімкнено директиву `magic_quotes_runtime`, більшість функцій, що повертають дані із зовнішніх джерел, таких як бази даних або текстові файли, будуть екранувати лапки зворотним слешем.
 
-- [get_meta_tags()](function.get-meta-tags.md)
-- [file_get_contents()](function.file-get-contents.md)
-- [file()](function.file.md)
-- [fgets()](function.fgets.md)
-- [fwrite()](function.fwrite.md)
-- [fread()](function.fread.md)
-- [fputcsv()](function.fputcsv.md)
-- [stream_socket_recvfrom()](function.stream-socket-recvfrom.md)
-- [exec()](function.exec.md)
-- [system()](function.system.md)
-- [passthru()](function.passthru.md)
-- [stream_get_contents()](function.stream-get-contents.md)
-- [bzread()](function.bzread.md)
-- [gzfile()](function.gzfile.md)
-- [gzgets()](function.gzgets.md)
-- [gzwrite()](function.gzwrite.md)
-- [gzread()](function.gzread.md)
-- [exif_read_data()](function.exif-read-data.md)
-- [dba_insert()](function.dba-insert.md)
-- [dba_replace()](function.dba-replace.md)
-- [dba_fetch()](function.dba-fetch.md)
-- [ibase_fetch_row()](function.ibase-fetch-row.md)
-- [ibase_fetch_assoc()](function.ibase-fetch-assoc.md)
-- [ibase_fetch_object()](function.ibase-fetch-object.md)
-- **mssql_fetch_row()**
-- **mssql_fetch_object()**
-- **mssql_fetch_array()**
-- **mssql_fetch_assoc()**
-- [mysqli_fetch_row()](mysqli-result.fetch-row.md)
-- [mysqli_fetch_array()](mysqli-result.fetch-array.md)
-- [mysqli_fetch_assoc()](mysqli-result.fetch-assoc.md)
-- [mysqli_fetch_object()](mysqli-result.fetch-object.md)
-- [pg_fetch_row()](function.pg-fetch-row.md)
-- [pg_fetch_assoc()](function.pg-fetch-assoc.md)
-- [pg_fetch_array()](function.pg-fetch-array.md)
-- [pg_fetch_object()](function.pg-fetch-object.md)
-- [pg_fetch_all()](function.pg-fetch-all.md)
-- [pg_select()](function.pg-select.md)
-- **sybase_fetch_object()**
-- **sybase_fetch_array()**
-- **sybase_fetch_assoc()**
-- [SplFileObject::fgets()](splfileobject.fgets.md)
-- [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md)
-- [SplFileObject::fwrite()](splfileobject.fwrite.md)
+Функції, на які поширюється дія директиви `magic_quotes_runtime` (виключаючи функції з PECL):
+
+-   [get\_meta\_tags()](function.get-meta-tags.html)
+-   [file\_get\_contents()](function.file-get-contents.html)
+-   [file()](function.file.html)
+-   [fgets()](function.fgets.html)
+-   [fwrite()](function.fwrite.html)
+-   [fread()](function.fread.html)
+-   [fputcsv()](function.fputcsv.html)
+-   [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.html)
+-   [exec()](function.exec.html)
+-   [system()](function.system.html)
+-   [passthru()](function.passthru.html)
+-   [stream\_get\_contents()](function.stream-get-contents.html)
+-   [bzread()](function.bzread.html)
+-   [gzfile()](function.gzfile.html)
+-   [gzgets()](function.gzgets.html)
+-   [gzwrite()](function.gzwrite.html)
+-   [gzread()](function.gzread.html)
+-   [exif\_read\_data()](function.exif-read-data.html)
+-   [dba\_insert()](function.dba-insert.html)
+-   [dba\_replace()](function.dba-replace.html)
+-   [dba\_fetch()](function.dba-fetch.html)
+-   [ibase\_fetch\_row()](function.ibase-fetch-row.html)
+-   [ibase\_fetch\_assoc()](function.ibase-fetch-assoc.html)
+-   [ibase\_fetch\_object()](function.ibase-fetch-object.html)
+-   **mssqlfetchrow()**
+-   **mssqlfetchobject()**
+-   **mssqlfetcharray()**
+-   **mssqlfetchassoc()**
+-   [mysqli\_fetch\_row()](mysqli-result.fetch-row.html)
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.html)
+-   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.html)
+-   [mysqli\_fetch\_object()](mysqli-result.fetch-object.html)
+-   [pg\_fetch\_row()](function.pg-fetch-row.html)
+-   [pg\_fetch\_assoc()](function.pg-fetch-assoc.html)
+-   [pg\_fetch\_array()](function.pg-fetch-array.html)
+-   [pg\_fetch\_object()](function.pg-fetch-object.html)
+-   [pg\_fetch\_all()](function.pg-fetch-all.html)
+-   [pg\_select()](function.pg-select.html)
+-   **sybasefetchobject()**
+-   **sybasefetcharray()**
+-   **sybasefetchassoc()**
+-   [SplFileObject::fgets()](splfileobject.fgets.html)
+-   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html)
+-   [SplFileObject::fwrite()](splfileobject.fwrite.html)
 
 `zend.enable_gc` bool
-Включає або відключає збирач циклічних посилань.
+
+Включає або вимикає збирач циклічних посилань.

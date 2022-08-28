@@ -1,9 +1,15 @@
-- [« Imagick::smushImages](imagick.smushimages.md)
-- [Imagick::sparseColorImage »](imagick.sparsecolorimage.md)
+Застосовує до зображення ефект соляризації
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Застосовує до зображення ефект соляризації
+-   [« Imagick::smushImages](imagick.smushimages.html)
+    
+-   [Imagick::sparseColorImage »](imagick.sparsecolorimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Застосовує до зображення ефект соляризації
+    
 
 # Imagick::solarizeImage
 
@@ -13,12 +19,11 @@ Imagick::solarizeImage — Застосовує до зображення ефе
 
 ### Опис
 
-public **Imagick::solarizeImage**(int `$threshold`): bool
+```methodsynopsis
+public Imagick::solarizeImage(int $threshold): bool
+```
 
-Застосовує до зображення спеціальний ефект, аналогічний ефекту,
-досягається у фотолабораторії шляхом вибіркового впливу світла на
-ділянки фоточутливого паперу. Поріг варіюється від 0 до
-QuantumRange і є мірою ступеня соляризації.
+Застосовує до зображення спеціальний ефект, аналогічний ефекту, що досягається у фотолабораторії шляхом вибіркового впливу світла на ділянки фоточутливого паперу. Поріг варіюється від 0 до QuantumRange і є мірою соляризації.
 
 ### Список параметрів
 
@@ -26,10 +31,20 @@ QuantumRange і є мірою ступеня соляризації.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::solarizeImage()****
 
-`<?phpfunction solarizeImage($imagePath, $solarizeThreshold) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->solarizeImage($solarizeThreshold * \Imagick::getQuantum()); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function solarizeImage($imagePath, $solarizeThreshold) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->solarizeImage($solarizeThreshold * \Imagick::getQuantum());
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

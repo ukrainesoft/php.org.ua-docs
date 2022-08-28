@@ -1,35 +1,40 @@
-- [« SolrQuery::setHighlightFormatter](solrquery.sethighlightformatter.md)
-- [SolrQuery::setHighlightFragsize »](solrquery.sethighlightfragsize.md)
+Встановлює генератор текстових фрагментів для виділеного тексту
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює генератор текстових фрагментів для виділеного тексту
+-   [« SolrQuery::setHighlightFormatter](solrquery.sethighlightformatter.html)
+    
+-   [SolrQuery::setHighlightFragsize »](solrquery.sethighlightfragsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює генератор текстових фрагментів для виділеного тексту
+    
 
 # SolrQuery::setHighlightFragmenter
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightFragmenter — Встановлює генератор текстових
-фрагментів для виділеного тексту
+SolrQuery::setHighlightFragmenter — Встановлює генератор текстових фрагментів для виділеного тексту
 
 ### Опис
 
-public **SolrQuery::setHighlightFragmenter**(string `$fragmenter`,
-string `$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightFragmenter(string $fragmenter, string $field_override = ?): SolrQuery
+```
 
 Задає генератор текстового фрагмента виділеного тексту.
 
 ### Список параметрів
 
 `fragmenter`
-Стандартний фрагментер – розрив. Інший варіант - регулярне вираження,
-яке намагається створити фрагменти, схожі на певне регулярне
-вираз.
+
+Стандартний фрагментер – розрив. Інший варіант - регулярний вираз, який намагається створити фрагменти, схожі на певний регулярний вираз.
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

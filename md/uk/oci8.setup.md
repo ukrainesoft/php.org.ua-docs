@@ -1,15 +1,21 @@
-- [«Вступ](intro.oci8.md)
-- [Вимоги »](oci8.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [OCI8](book.oci8.md)
+-   [« Введение](intro.oci8.html)
+    
+-   [Требования »](oci8.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8](book.oci8.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](oci8.requirements.md)
-- [Установка](oci8.installation.md)
-- [Тестування](oci8.test.md)
-- [Налаштування під час виконання](oci8.configuration.md)
+-   [Требования](oci8.requirements.html)
+-   [Установка](oci8.installation.html)
+-   [Тестирование](oci8.test.html)
+-   [Настройка во время выполнения](oci8.configuration.html)

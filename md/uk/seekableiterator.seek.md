@@ -1,26 +1,35 @@
-- [«SeekableIterator](class.seekableiterator.md)
-- [Винятки »](spl.exceptions.md)
+Переміщається до позиції
 
-- [PHP Manual](index.md)
-- [SeekableIterator](class.seekableiterator.md)
-- Переміщається до позиції
+-   [« SeekableIterator](class.seekableiterator.html)
+    
+-   [Исключения »](spl.exceptions.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SeekableIterator](class.seekableiterator.html)
+    
+-   Переміщається до позиції
+    
 
 # SeekableIterator::seek
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 SeekableIterator::seek — Переміщується до позиції
 
 ### Опис
 
-public **SeekableIterator::seek**(int `$offset`): void
+```methodsynopsis
+public SeekableIterator::seek(int $offset): void
+```
 
-Переміщається до заданої позиції у ітераторі.
+Переміщається до заданої позиції в ітераторі.
 
 ### Список параметрів
 
 `offset`
-Позиція, до якої необхідно переміститися.
+
+Позиція, до якої слід переміститися.
 
 ### Значення, що повертаються
 
@@ -28,25 +37,30 @@ public **SeekableIterator::seek**(int `$offset`): void
 
 ### Помилки
 
-Реалізації мають викидати виняток
-[OutOfBoundsException](class.outofboundsexception.md), якщо `offset`
-недійсна.
+Реалізації мають викидати виняток [OutOfBoundsException](class.outofboundsexception.html), якщо `offset` недійсна.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SeekableIterator::seek()****
 
-Переміщення до елемента на 3 позиції в ітераторі
-([ArrayIterator](class.arrayiterator.md) реалізує
-[SeekableIterator](class.seekableiterator.md)).
+Переміщення до елемента на 3-й позиції в ітераторі ([ArrayIterator](class.arrayiterator.html) реалізує [SeekableIterator](class.seekableiterator.html)
 
-` <?php$array = array("яблуко", "банан", "вишня", "чорнослив", "ягода бузини");$iterator = new ArrayIterator($array);$iterator->seek(3); echo $iterator->current();?> `
+```php
+<?php
+$array = array("яблоко", "банан", "вишня", "чернослив", "ягода бузины");
+$iterator = new ArrayIterator($array);
+$iterator->seek(3);
+echo $iterator->current();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-чорнослив
+```
+чернослив
+```
 
 ### Дивіться також
 
-- [SeekableIterator](class.seekableiterator.md)
-- [Iterator](class.iterator.md)
+-   [SeekableIterator](class.seekableiterator.html)
+-   [Iterator](class.iterator.html)

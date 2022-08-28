@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](solr.configuration.md)
-- [Предвизначені константи »](solr.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](solr.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](solr.configuration.html)
+    
+-   [Предопределённые константы »](solr.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](solr.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

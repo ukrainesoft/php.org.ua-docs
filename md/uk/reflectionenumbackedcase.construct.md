@@ -1,26 +1,32 @@
-- [«ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
-- [ReflectionEnumBackedCase::getBackingValue »](reflectionenumbackedcase.getbackingvalue.md)
+Створює об'єкт ReflectionEnumBackedCase
 
-- [PHP Manual](index.md)
-- [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
-- Створює об'єкт ReflectionEnumBackedCase
+-   [« ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+    
+-   [ReflectionEnumBackedCase::getBackingValue »](reflectionenumbackedcase.getbackingvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
+    
+-   Створює об'єкт ReflectionEnumBackedCase
+    
 
-# ReflectionEnumBackedCase::\_\_construct
+# ReflectionEnumBackedCase::construct
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-ReflectionEnumBackedCase::\_\_construct — Створює об'єкт
-[ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
+ReflectionEnumBackedCase::construct — Створює об'єкт [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html)
 
 ### Опис
 
-public **ReflectionEnumBackedCase::\_\_construct**(object\|string
-`$class`, string `$constant`)
+public **ReflectionEnumBackedCase::construct**(object | string `$class`, string `$constant`
 
 ### Список параметрів
 
 `class`
+
 Примірник перерахування чи ім'я.
 
 `constant`
+
 Ім'я константи перерахування.

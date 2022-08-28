@@ -1,16 +1,22 @@
-- [« Загальні міркування](security.general.md)
-- [Можливі атаки »](security.cgi-bin.attacks.md)
+Якщо PHP встановлено як CGI
 
-- [PHP Manual](index.md)
-- [Безпека](security.md)
-- Якщо PHP встановлено як CGI
+-   [« Общие рассуждения](security.general.html)
+    
+-   [Возможные атаки »](security.cgi-bin.attacks.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Безопасность](security.html)
+    
+-   Якщо PHP встановлено як CGI
+    
 
 # Якщо PHP встановлено як CGI
 
 ## Зміст
 
-- [Можливі атаки](security.cgi-bin.attacks.md)
-- [Варіант 1: обслуговуються лише загальнодоступні файли](security.cgi-bin.default.md)
-- [Варіант 2: Використання cgi.force_redirect](security.cgi-bin.force-redirect.md)
-- [Варіант 3: використання опцій doc_root або user_dir](security.cgi-bin.doc-root.md)
-- [Варіант 4: PHP поза деревом веб-документів](security.cgi-bin.shell.md)
+-   [Возможные атаки](security.cgi-bin.attacks.html)
+-   [Вариант 1: обслуживаются только общедоступные файлы](security.cgi-bin.default.html)
+-   [Вариант 2: использование cgi.force\_redirect](security.cgi-bin.force-redirect.html)
+-   [Вариант 3: использование опций doc\_root или user\_dir](security.cgi-bin.doc-root.html)
+-   [Вариант 4: PHP вне дерева веб-документов](security.cgi-bin.shell.html)

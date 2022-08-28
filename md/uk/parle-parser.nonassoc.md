@@ -1,26 +1,34 @@
-- [« Parle\Parser::left](parle-parser.left.md)
-- [Parle\Parser::precedence »](parle-parser.precedence.md)
+Оголошує токен без асоціативності
 
-- [PHP Manual](index.md)
-- [Parle\Parser](class.parle-parser.md)
-- оголошує токен без асоціативності
+-   [« Parle\\Parser::left](parle-parser.left.html)
+    
+-   [Parle\\Parser::precedence »](parle-parser.precedence.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Parser](class.parle-parser.html)
+    
+-   Оголошує токен без асоціативності
+    
 
-# Parle\Parser::nonassoc
+# ParleParser::nonassoc
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Parser::nonassoc — Оголошує токен без асоціативності
+ParleParser::nonassoc — Оголошує токен без асоціативності
 
 ### Опис
 
-public **Parle\Parser::nonassoc**(string `$tok`): void
+```methodsynopsis
+public Parle\Parser::nonassoc(string $tok): void
+```
 
-Оголошує термінал, який не може з'являтися більше одного разу в
-рядку.
+Оголошує термінал, який не може з'являтися більше одного разу на рядку.
 
 ### Список параметрів
 
 `tok`
+
 Ім'я токена.
 
 ### Значення, що повертаються

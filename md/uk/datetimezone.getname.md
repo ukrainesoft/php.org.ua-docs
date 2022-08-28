@@ -1,38 +1,46 @@
-- [« DateTimeZone::getLocation](datetimezone.getlocation.md)
-- [DateTimeZone::getOffset »](datetimezone.getoffset.md)
+Повертає ім'я часового поясу
 
-- [PHP Manual](index.md)
-- [DateTimeZone](class.datetimezone.md)
-- Повертає ім'я часового поясу
+-   [« DateTimeZone::getLocation](datetimezone.getlocation.html)
+    
+-   [DateTimeZone::getOffset »](datetimezone.getoffset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTimeZone](class.datetimezone.html)
+    
+-   Повертає ім'я часового поясу
+    
 
 # DateTimeZone::getName
 
-#timezone_name_get
+# timezonenameget
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-DateTimeZone::getName -- timezone_name_get — Повертає ім'я вартового
-пояси
+DateTimeZone::getName -- timezonenameget — Повертає ім'я часового поясу
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **DateTimeZone::getName**(): string
+```methodsynopsis
+public DateTimeZone::getName(): string
+```
 
 Процедурний стиль
 
-[timezone_name_get](function.timezone-name-get.md)([DateTimeZone](class.datetimezone.md)
-`$object`): string
+```methodsynopsis
+timezone_name_get(DateTimeZone $object): string
+```
 
 Повертає ім'я часового поясу.
 
 ### Список параметрів
 
 `object`
-Об'єкт класу [DateTimeZone](class.datetimezone.md), для якого
-потрібно отримати ім'я.
+
+Об'єкт класу [DateTimeZone](class.datetimezone.html)для якого потрібно отримати ім'я.
 
 ### Значення, що повертаються
 
-Одне з імен часового поясу в [Списку часових поясів](timezones.md).
+Залежно від типу зони, зсуву UTC (тип 1), абревіатури часового поясу (тип 2) та ідентифікаторів часових поясів, опублікованих у базі даних часових поясів IANA (тип 3), рядок дескриптора для створення нового об'єкта [DateTimeZone](class.datetimezone.html) з тим самим усуненням та/або правилами. Наприклад, `02:00` `CEST` або одне з імен часових поясів у [списке часовых поясов](timezones.html)

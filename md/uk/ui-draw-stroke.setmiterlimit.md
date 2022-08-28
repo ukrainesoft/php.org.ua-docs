@@ -1,23 +1,32 @@
-- [« UI\Draw\Stroke::setJoin](ui-draw-stroke.setjoin.md)
-- [UI\Draw\Stroke::setThickness »](ui-draw-stroke.setthickness.md)
+Встановити межу зрізу
 
-- [PHP Manual](index.md)
-- [UI\Draw\Stroke](class.ui-draw-stroke.md)
-- Встановити межу зрізу
+-   [« UI\\Draw\\Stroke::setJoin](ui-draw-stroke.setjoin.html)
+    
+-   [UI\\Draw\\Stroke::setThickness »](ui-draw-stroke.setthickness.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+    
+-   Встановити межу зрізу
+    
 
-# UI\Draw\Stroke::setMiterLimit
+# ОЙDrawStroke::setMiterLimit
 
 (UI 0.9.9)
 
-UI\Draw\Stroke::setMiterLimit — Встановити межу зрізу
+ОЙDrawStroke::setMiterLimit — Встановити межу зрізу
 
 ### Опис
 
-public **UI\Draw\Stroke::setMiterLimit**(float `$limit`)
+```methodsynopsis
+public UI\Draw\Stroke::setMiterLimit(float $limit)
+```
 
 Встановити межу зрізу для обведення
 
 ### Список параметрів
 
 `limit`
+
 Нова межа

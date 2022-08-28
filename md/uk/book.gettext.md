@@ -1,36 +1,32 @@
-- [« Gender\Gender::similarNames](gender-gender.similarnames.md)
-- [Вступ »](intro.gettext.md)
+Gettext
 
-- [PHP Manual](index.md)
-- [Підтримка мов та кодувань](refs.international.md)
-- Gettext
+-   [« Gender\\Gender::similarNames](gender-gender.similarnames.html)
+    
+-   [Введение »](intro.gettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Поддержка языков и кодировок](refs.international.html)
+    
+-   Gettext
+    
 
 # Gettext
 
-- [Вступ](intro.gettext.md)
-- [Встановлення та налаштування](gettext.setup.md)
-- [Вимоги](gettext.requirements.md)
-- [Установка](gettext.installation.md)
-- [Налаштування під час виконання](gettext.configuration.md)
-- [Типи ресурсів](gettext.resources.md)
-- [Предвизначені константи](gettext.constants.md)
-- [Функції gettext](ref.gettext.md)
-- [bind_textdomain_codeset](function.bind-textdomain-codeset.md)
-— Встановлює або отримує кодування, в якому будуть
-повертатися повідомлення з каталогу повідомлень домену
-- [bindtextdomain](function.bindtextdomain.md) — Встановлює
-або отримує шлях для домену
-- [dcgettext](function.dcgettext.md) — Перевизначення одного
-повідомлення в домені
-- [dcngettext](function.dcngettext.md) — Версія dcgettext для
-множини
-- [dgettext](function.dgettext.md) — Перевизначає поточний
-домен для одного повідомлення
-- [dngettext](function.dngettext.md) - Версія dgettext для
-множини
-- [gettext](function.gettext.md) — Шукає повідомлення у поточному
-домені
-- [ngettext](function.ngettext.md) - Версія gettext для
-повідомлень у множині
-- [textdomain](function.textdomain.md) — Встановлює домен
-замовчуванням
+-   [Введение](intro.gettext.html)
+-   [Установка и настройка](gettext.setup.html)
+    -   [Требования](gettext.requirements.html)
+    -   [Установка](gettext.installation.html)
+    -   [Настройка во время выполнения](gettext.configuration.html)
+    -   [Типы ресурсов](gettext.resources.html)
+-   [Предопределённые константы](gettext.constants.html)
+-   [Функции gettext](ref.gettext.html)
+    -   [bind\_textdomain\_codeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
+    -   [bindtextdomain](function.bindtextdomain.html) — Встановлює або отримує шлях для домену
+    -   [dcgettext](function.dcgettext.html) — Перевизначає одне повідомлення в домені
+    -   [dcngettext](function.dcngettext.html) — Версія dcgettext для множини
+    -   [dgettext](function.dgettext.html) — Перевизначення поточного домену для одного повідомлення
+    -   [dngettext](function.dngettext.html) — Версія dgettext для множини
+    -   [gettext](function.gettext.html) — Шукає повідомлення у поточному домені
+    -   [ngettext](function.ngettext.html) — Версія gettext для повідомлень у множині
+    -   [textdomain](function.textdomain.html) — Встановлює домен за замовчуванням

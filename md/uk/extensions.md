@@ -1,17 +1,22 @@
-- [« Опис вбудованих директив php.ini](ini.core.md)
-- [В алфавітному порядку»](extensions.alphabetical.md)
+Список/класифікація модулів
 
-- [PHP Manual](index.md)
-- [Appendices](appendices.md)
-- Список/класифікація модулів
+-   [« Описание встроенных директив php.ini](ini.core.html)
+    
+-   [В алфавитном порядке »](extensions.alphabetical.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Appendices](appendices.html)
+    
+-   Список/класифікація модулів
+    
 
 # Список/класифікація модулів
 
 ## Зміст
 
-- [В алфавітному порядку](extensions.alphabetical.md)
-- [За складом](extensions.membership.md)
-- [Стан](extensions.state.md)
+-   [В алфавитном порядке](extensions.alphabetical.html)
+-   [По составу](extensions.membership.html)
+-   [По состоянию](extensions.state.html)
 
-Ця програма класифікує за різними критеріями більше 150 модулів,
-документованих у посібнику з PHP.
+Ця програма класифікує за різними критеріями понад 150 модулів, документованих у посібнику з PHP.

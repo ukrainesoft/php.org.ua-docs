@@ -1,54 +1,57 @@
-- [« XMLWriter::startAttributeNs](xmlwriter.startattributens.md)
-- [XMLWriter::startComment »](xmlwriter.startcomment.md)
+Створити початковий тег CDATA
 
-- [PHP Manual](index.md)
-- [XMLWriter](class.xmlwriter.md)
-- Створити початковий тег CDATA
+-   [« XMLWriter::startAttributeNs](xmlwriter.startattributens.html)
+    
+-   [XMLWriter::startComment »](xmlwriter.startcomment.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLWriter](class.xmlwriter.html)
+    
+-   Створити початковий тег CDATA
+    
 
 # XMLWriter::startCdata
 
-#xmlwriter_start_cdata
+# xmlwriterstartcdata
 
-(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startCdata -- xmlwriter_start_cdata — Створити початковий тег
-CDATA
+XMLWriter::startCdata -- xmlwriterstartcdata — Створити початковий тег CDATA
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::startCdata**(): bool
+```methodsynopsis
+public XMLWriter::startCdata(): bool
+```
 
 Процедурний стиль
 
-**xmlwriter_start_cdata**([XMLWriter](class.xmlwriter.md) `$writer`):
-bool
+```methodsynopsis
+xmlwriter_start_cdata(XMLWriter $writer): bool
+```
 
 Починає CDATA.
 
 ### Список параметрів
 
 `writer`
-Тільки для процедурних дзвінків. Змінний екземпляр
-[XMLWriter](class.xmlwriter.md). Об'єкт повертається із виклику
-[xmlwriter_open_uri()](xmlwriter.openuri.md) або
-[xmlwriter_open_memory()](xmlwriter.openmemory.md).
+
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.html) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                               |
-|--------|--------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [XMLWriter::endCdata()](xmlwriter.endcdata.md) - Завершити поточну
-секцію CDATA
-- [XMLWriter::writeCdata()](xmlwriter.writecdata.md) - Записати
-повний тег CDATA
+-   [XMLWriter::endCdata()](xmlwriter.endcdata.html) - Завершити поточну секцію CDATA
+-   [XMLWriter::writeCdata()](xmlwriter.writecdata.html) - Записати повний тег CDATA

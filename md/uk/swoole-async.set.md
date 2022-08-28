@@ -1,19 +1,27 @@
-- [« Swoole\Async::readFile](swoole-async.readfile.md)
-- [Swoole\Async::write »](swoole-async.write.md)
+Оновлює параметри асинхронного введення-виводу
 
-- [PHP Manual](index.md)
-- [Swoole\Async](class.swoole-async.md)
-- Оновлює параметри асинхронного введення-виводу
+-   [« Swoole\\Async::readFile](swoole-async.readfile.html)
+    
+-   [Swoole\\Async::write »](swoole-async.write.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Async](class.swoole-async.html)
+    
+-   Оновлює параметри асинхронного введення-виводу
+    
 
-# Swoole\Async::set
+# SwooleAsync::set
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Async::set — Оновлення параметрів асинхронного вводу-виводу
+SwooleAsync::set — Оновлення параметрів асинхронного вводу-виводу
 
 ### Опис
 
-public static **Swoole\Async::set**(array `$settings`): void
+```methodsynopsis
+public static Swoole\Async::set(array $settings): void
+```
 
 ### Список параметрів
 

@@ -1,9 +1,15 @@
-- [« xml_set_unparsed_entity_decl_handler](function.xml-set-unparsed-entity-decl-handler.md)
-- [XMLReader »](book.xmlreader.md)
+Клас XmlParser
 
-- [PHP Manual](index.md)
-- [Розбір XML](book.xml.md)
-- Клас XmlParser
+-   [« xml\_set\_unparsed\_entity\_decl\_handler](function.xml-set-unparsed-entity-decl-handler.html)
+    
+-   [XMLReader »](book.xmlreader.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разбор XML](book.xml.html)
+    
+-   Клас XmlParser
+    
 
 # Клас XmlParser
 
@@ -11,10 +17,23 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `xml` у PHP 8.0.0.
+Повністю непрозорий клас, який замінює ресурси `xml` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **XmlParser** {
+```synopsis
 
-}
+
+
+    
+     
+      final
+      class XmlParser
+     
+     {
+
+
+    
+    
+   }
+```

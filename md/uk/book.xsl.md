@@ -1,47 +1,39 @@
-- [« XMLWriter::writeRaw](xmlwriter.writeraw.md)
-- [Вступ »](intro.xsl.md)
+XSL
 
-- [PHP Manual](index.md)
-- [Обробка XML](refs.xml.md)
-- XSL
+-   [« XMLWriter::writeRaw](xmlwriter.writeraw.html)
+    
+-   [Введение »](intro.xsl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обработка XML](refs.xml.html)
+    
+-   XSL
+    
 
-#XSL
+# XSL
 
-- [Вступ](intro.xsl.md)
-- [Встановлення та налаштування](xsl.setup.md)
-- [Вимоги](xsl.requirements.md)
-- [Установка](xsl.installation.md)
-- [Налаштування під час виконання](xsl.configuration.md)
-- [Типи ресурсів](xsl.resources.md)
-- [Предвизначені константи](xsl.constants.md)
-- [Приклади](xsl.examples.md)
-- [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.md)
-- [Обробка помилок за допомогою функцій обробки помилок libxml](xsl.examples-errors.md)
-- [XSLTProcessor](class.xsltprocessor.md) — Клас XSLTProcessor
-- [XSLTProcessor::\_\_construct](xsltprocessor.construct.md) -
-Створює новий екземпляр класу XSLTProcessor
-- [XSLTProcessor::getParameter](xsltprocessor.getparameter.md) -
-Повертає значення параметра
-- [XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.md)
-— Отримати налаштування безпеки
-- [XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md)
-— Визначає чи PHP підтримку EXSLT
-- [XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md)
-- Імпортує таблицю стилів
-- [XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.md)
-— Включає можливість використовувати PHP функції як
-функцій XSLT
-- [XSLTProcessor::removeParameter](xsltprocessor.removeparameter.md)
-— Видаляє параметр
-- [XSLTProcessor::setParameter](xsltprocessor.setparameter.md) -
-Встановлює значення параметра
-- [XSLTProcessor::setProfiling](xsltprocessor.setprofiling.md) -
-Встановлює файл для профілювання
-- [XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md)
-— Встановити налаштування безпеки
-- [XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.md)
-— Перетворює на DOMDocument
-- [XSLTProcessor::transformToUri](xsltprocessor.transformtouri.md)
-— Перетворює на URI
-- [XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.md)
-— Перетворює на XML
+-   [Введение](intro.xsl.html)
+-   [Установка и настройка](xsl.setup.html)
+    -   [Требования](xsl.requirements.html)
+    -   [Установка](xsl.installation.html)
+    -   [Настройка во время выполнения](xsl.configuration.html)
+    -   [Типы ресурсов](xsl.resources.html)
+-   [Предопределённые константы](xsl.constants.html)
+-   [Примеры](xsl.examples.html)
+    -   [Файлы collection.xml и collection.xsl для примеров](xsl.examples-collection.html)
+    -   [Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.html)
+-   [XSLTProcessor](class.xsltprocessor.html) - Клас XSLTProcessor
+    -   [XSLTProcessor::\_\_construct](xsltprocessor.construct.html) — Створює новий екземпляр класу XSLTProcessor
+    -   [XSLTProcessor::getParameter](xsltprocessor.getparameter.html) — Повертає значення параметра
+    -   [XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.html) — Отримати налаштування безпеки
+    -   [XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.html) — Чи визначає PHP підтримку EXSLT
+    -   [XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.html) - Імпортує таблицю стилів
+    -   [XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.html) — Включає можливість використовувати PHP функції як функції XSLT
+    -   [XSLTProcessor::removeParameter](xsltprocessor.removeparameter.html) — Видаляє параметр
+    -   [XSLTProcessor::setParameter](xsltprocessor.setparameter.html) — Встановлює значення параметра
+    -   [XSLTProcessor::setProfiling](xsltprocessor.setprofiling.html) — Встановлює файл для профілювання
+    -   [XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.html) — Встановити налаштування безпеки
+    -   [XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.html) — Перетворює на DOMDocument
+    -   [XSLTProcessor::transformToUri](xsltprocessor.transformtouri.html) — Перетворює на URI
+    -   [XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.html) — Перетворює на XML

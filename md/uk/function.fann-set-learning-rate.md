@@ -1,42 +1,47 @@
-- [« fann_set_learning_momentum](function.fann-set-learning-momentum.md)
-- [fann_set_output_scaling_params »](function.fann-set-output-scaling-params.md)
+Встановлює швидкість навчання
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює швидкість навчання
+-   [« fann\_set\_learning\_momentum](function.fann-set-learning-momentum.html)
+    
+-   [fann\_set\_output\_scaling\_params »](function.fann-set-output-scaling-params.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює швидкість навчання
+    
 
-# fann_set_learning_rate
+# fannsetlearningrate
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_learning_rate - Встановлює швидкість навчання
+fannsetlearningrate — Встановлює швидкість навчання
 
 ### Опис
 
-**fann_set_learning_rate**(resource `$ann`, float `$learning_rate`):
-bool
+```methodsynopsis
+fann_set_learning_rate(resource $ann, float $learning_rate): bool
+```
 
 Встановлює швидкість навчання.
 
-Докладніша інформація доступна в
-[fann_get_learning_rate()](function.fann-get-learning-rate.md).
+Докладніша інформація доступна в [fann\_get\_learning\_rate()](function.fann-get-learning-rate.html)
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `learning_rate`
+
 Швидкість навчання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_learning_rate()](function.fann-get-learning-rate.md) -
-Повертає швидкість навчання
-- [fann_set_training_algorithm()](function.fann-set-training-algorithm.md) -
-Встановлює алгоритм навчання
+-   [fann\_get\_learning\_rate()](function.fann-get-learning-rate.html) - Повертає швидкість навчання
+-   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

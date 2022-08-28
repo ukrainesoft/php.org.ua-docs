@@ -1,22 +1,29 @@
-- [« ReflectionClass::isInternal](reflectionclass.isinternal.md)
-- [ReflectionClass::isIterateable »](reflectionclass.isiterateable.md)
+Перевірити, чи клас ітерується
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Перевірити, чи клас ітерується
+-   [« ReflectionClass::isInternal](reflectionclass.isinternal.html)
+    
+-   [ReflectionClass::isIterateable »](reflectionclass.isiterateable.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Перевірити, чи клас ітерується
+    
 
 # ReflectionClass::isIterable
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
 ReflectionClass::isIterable — Перевірити, чи клас ітерується.
 
 ### Опис
 
-public **ReflectionClass::isIterable**(): bool
+```methodsynopsis
+public ReflectionClass::isIterable(): bool
+```
 
-Перевіряє, чи реалізує клас інтерфейс Iterator (тобто чи можна
-використовувати його в [foreach](control-structures.foreach.md)).
+Перевіряє, чи реалізує клас інтерфейс Iterator (тобто можна використовувати його в [foreach](control-structures.foreach.html)
 
 ### Список параметрів
 
@@ -24,23 +31,49 @@ public **ReflectionClass::isIterable**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Використання **ReflectionClass::isIterable()****
 
-` <?phpclass IteratorClass implements Iterator {    public function __construct() { }    public function key() { }    public function current() { }    function next() { }    function valid() { }    function rewind() { }}class DerivedClass extends IteratorClass { }class NonIterator { }function dump_iterable($class) {    $reflection = new ReflectionClass($class); var_dump($reflection->isIterable());}$classes = array("ArrayObject", "IteratorClass", "DerivedClass", "NonIterator");foreach ($classes as $class) { Класи| "; dump_iterable($class);}?> `
+```php
+<?php
+
+class IteratorClass implements Iterator {
+    public function __construct() { }
+    public function key() { }
+    public function current() { }
+    function next() { }
+    function valid() { }
+    function rewind() { }
+}
+class DerivedClass extends IteratorClass { }
+class NonIterator { }
+
+function dump_iterable($class) {
+    $reflection = new ReflectionClass($class);
+    var_dump($reflection->isIterable());
+}
+
+$classes = array("ArrayObject", "IteratorClass", "DerivedClass", "NonIterator");
+
+foreach ($classes as $class) {
+    echo "Класс $class итерируемый? ";
+    dump_iterable($class);
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Клас ArrayObject ітерований? bool(true)
-Клас IteratorClass ітерований? bool(true)
-Клас DerivedClass ітерований? bool(true)
-Клас NonIterator ітерований? bool(false)
+```
+Класс ArrayObject итерируемый? bool(true)
+Класс IteratorClass итерируемый? bool(true)
+Класс DerivedClass итерируемый? bool(true)
+Класс NonIterator итерируемый? bool(false)
+```
 
 ### Дивіться також
 
-- [ReflectionClass::\_\_construct()](reflectionclass.construct.md) -
-Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::\_\_construct()](reflectionclass.construct.html) - Створює об'єкт класу ReflectionClass

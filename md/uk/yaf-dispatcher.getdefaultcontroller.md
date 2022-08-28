@@ -1,22 +1,29 @@
-- [« Yaf_Dispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.md)
-- [Yaf_Dispatcher::getDefaultModule »](yaf-dispatcher.getdefaultmodule.md)
+Отримує ім'я контролера за умовчанням
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Отримує ім'я контролера за замовчуванням
+-   [« Yaf\_Dispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.html)
+    
+-   [Yaf\_Dispatcher::getDefaultModule »](yaf-dispatcher.getdefaultmodule.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Отримує ім'я контролера за умовчанням
+    
 
-# Yaf_Dispatcher::getDefaultController
+# YafDispatcher::getDefaultController
 
-(Yaf \>=3.2.0)
+(Yaf> = 3.2.0)
 
-Yaf_Dispatcher::getDefaultController — Отримує ім'я контролера за
-замовчуванням
+YafDispatcher::getDefaultController — Отримує ім'я контролера за умовчанням
 
 ### Опис
 
-public **Yaf_Dispatcher::getDefaultController**(): string
+```methodsynopsis
+public Yaf_Dispatcher::getDefaultController(): string
+```
 
-Отримує ім'я контролера за замовчуванням
+Отримує ім'я контролера за умовчанням
 
 ### Список параметрів
 

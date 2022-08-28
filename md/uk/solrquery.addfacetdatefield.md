@@ -1,29 +1,36 @@
-- [«SolrQuery::addExpandSortField](solrquery.addexpandsortfield.md)
-- [SolrQuery::addFacetDateOther »](solrquery.addfacetdateother.md)
+Карти для facet.date
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Карти для facet.date
+-   [« SolrQuery::addExpandSortField](solrquery.addexpandsortfield.html)
+    
+-   [SolrQuery::addFacetDateOther »](solrquery.addfacetdateother.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Карти для facet.date
+    
 
 # SolrQuery::addFacetDateField
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::addFacetDateField — Карти для facet.date
 
 ### Опис
 
-public **SolrQuery::addFacetDateField**(string `$dateField`):
-[SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::addFacetDateField(string $dateField): SolrQuery
+```
 
 Метод дозволяє вказати поле, яке має розглядатись як фасет.
 
-Може використовуватися кілька разів із різними іменами полів для вказівки
-кількох полів фасетів
+Може використовуватися кілька разів із різними іменами полів для вказівки кількох полів фасетів
 
 ### Список параметрів
 
 `dateField`
+
 Назва поля дати.
 
 ### Значення, що повертаються

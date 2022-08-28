@@ -1,20 +1,25 @@
-- [«ReflectionReference](class.reflectionreference.md)
-- [ReflectionReference::fromArrayElement »](reflectionreference.fromarrayelement.md)
+Закритий конструктор, який забороняє створення екземпляра безпосередньо
 
-- [PHP Manual](index.md)
-- [ReflectionReference](class.reflectionreference.md)
-- Закритий конструктор, який забороняє створення екземпляра безпосередньо
+-   [« ReflectionReference](class.reflectionreference.html)
+    
+-   [ReflectionReference::fromArrayElement »](reflectionreference.fromarrayelement.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionReference](class.reflectionreference.html)
+    
+-   Закритий конструктор, який забороняє створення екземпляра безпосередньо
+    
 
-# ReflectionReference::\_\_construct
+# ReflectionReference::construct
 
 (No version information available, might only be in Git)
 
-ReflectionReference::\_\_construct — Закритий конструктор, який забороняє
-створення екземпляра безпосередньо
+ReflectionReference::construct - Закритий конструктор, що забороняє створення екземпляра безпосередньо
 
 ### Опис
 
-private **ReflectionReference::\_\_construct**()
+private **ReflectionReference::construct**
 
 ### Список параметрів
 

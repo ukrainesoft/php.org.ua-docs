@@ -1,96 +1,88 @@
-- [« Список змін](changelog.strings.md)
-- [Массиви »](book.array.md)
+Модулі, що відносяться до змінних та типів
 
-- [PHP Manual](index.md)
-- [Довідник функцій](funcref.md)
-- Модулі, що відносяться до змінних та типів
+-   [« Список изменений](changelog.strings.html)
+    
+-   [Массивы »](book.array.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Справочник функций](funcref.html)
+    
+-   Модулі, що відносяться до змінних та типів
+    
 
 # Модулі, що відносяться до змінних та типів
 
-- [Массиви](book.array.md)
-- [Вступ](intro.array.md)
-- [Встановлення та налаштування](array.setup.md)
-- [Предвизначені константи](array.constants.md)
-- [Сортування масивів](array.sorting.md)
-- [Функції для роботи з масивами](ref.array.md)
-- [Класи та об'єкти](book.classobj.md) — Інформація про клас та
-об'єкті
-- [Вступ](intro.classobj.md)
-- [Встановлення та налаштування](classobj.setup.md)
-- [Предвизначені константи](classobj.constants.md)
-- [Приклади](classobj.examples.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- [Ctype](book.ctype.md) — Опції визначення типу символів
-- [Вступ](intro.ctype.md)
-- [Встановлення та налаштування](ctype.setup.md)
-- [Предвизначені константи](ctype.constants.md)
-- [Функції Ctype](ref.ctype.md)
-- [Filter](book.filter.md) - Фільтрування даних
-- [Вступ](intro.filter.md)
-- [Встановлення та налаштування](filter.setup.md)
-- [Типи фільтрів](filter.filters.md)
-- [Предвизначені константи](filter.constants.md)
-- [Приклади](filter.examples.md)
-- [Функції фільтрації даних](ref.filter.md)
-- [Керування функціями](book.funchand.md)
-- [Вступ](intro.funchand.md)
-- [Встановлення та налаштування](funchand.setup.md)
-- [Предвизначені константи](funchand.constants.md)
-- [Функції керування функціями](ref.funchand.md)
-- [Reflection](book.reflection.md)
-- [Вступ](intro.reflection.md)
-- [Встановлення та налаштування](reflection.setup.md)
-- [Предвизначені константи](reflection.constants.md)
-- [Приклади](reflection.examples.md)
-- [Розширення](reflection.extending.md)
-- [Reflection](class.reflection.md) - Клас Reflection
-- [ReflectionClass](class.reflectionclass.md) - Клас
-ReflectionClass
-- [ReflectionClassConstant](class.reflectionclassconstant.md) -
-Клас ReflectionClassConstant
-- [ReflectionEnum](class.reflectionenum.md) - Клас
-ReflectionEnum
-- [ReflectionEnumUnitCase](class.reflectionenumunitcase.md) -
-Клас ReflectionEnumUnitCase
-- [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
-- Клас ReflectionEnumBackedCase
-- [ReflectionZendExtension](class.reflectionzendextension.md) -
-Клас ReflectionZendExtension
-- [ReflectionExtension](class.reflectionextension.md) - Клас
-ReflectionExtension
-- [ReflectionFunction](class.reflectionfunction.md) - Клас
-ReflectionFunction
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Клас ReflectionFunctionAbstract
-- [ReflectionMethod](class.reflectionmethod.md) - Клас
-ReflectionMethod
-- [ReflectionNamedType](class.reflectionnamedtype.md) - Клас
-ReflectionNamedType
-- [ReflectionObject](class.reflectionobject.md) - Клас
-ReflectionObject
-- [ReflectionParameter](class.reflectionparameter.md) - Клас
-ReflectionParameter
-- [ReflectionProperty](class.reflectionproperty.md) - Клас
-ReflectionProperty
-- [ReflectionType](class.reflectiontype.md) - Клас
-ReflectionType
-- [ReflectionUnionType](class.reflectionuniontype.md) - Клас
-ReflectionUnionType
-- [ReflectionGenerator](class.reflectiongenerator.md) - Клас
-ReflectionGenerator
-- [ReflectionFiber](class.reflectionfiber.md) - Клас
-ReflectionFiber
-- [ReflectionIntersectionType](class.reflectionintersectiontype.md)
-- Клас ReflectionIntersectionType
-- [ReflectionReference](class.reflectionreference.md) - Клас
-ReflectionReference
-- [ReflectionAttribute](class.reflectionattribute.md) - Клас
-ReflectionAttribute
-- [Reflector](class.reflector.md) - Інтерфейс Reflector
-- [ReflectionException](class.reflectionexception.md) - Клас
-ReflectionException
-- [Обробка змінних](book.var.md)
-- [Вступ](intro.var.md)
-- [Встановлення та налаштування](var.setup.md)
-- [Предвизначені константи](var.constants.md)
-- [Функції для роботи зі змінними](ref.var.md)
+-   [Массивы](book.array.html)
+    -   [Введение](intro.array.html)
+    -   [Установка и настройка](array.setup.html)
+    -   [Предопределённые константы](array.constants.html)
+    -   [Сортировка массивов](array.sorting.html)
+    -   [Функции для работы с массивами](ref.array.html)
+-   [Классы и объекты](book.classobj.html) — Інформація про клас та об'єкт
+    -   [Введение](intro.classobj.html)
+    -   [Установка и настройка](classobj.setup.html)
+    -   [Предопределённые константы](classobj.constants.html)
+    -   [Примеры](classobj.examples.html)
+    -   [Функции работы с классами и объектами](ref.classobj.html)
+-   [Ctype](book.ctype.html) - Функції визначення типу символів
+    -   [Введение](intro.ctype.html)
+    -   [Установка и настройка](ctype.setup.html)
+    -   [Предопределённые константы](ctype.constants.html)
+    -   [Функции Ctype](ref.ctype.html)
+-   [Filter](book.filter.html) - Фільтрування даних
+    -   [Введение](intro.filter.html)
+    -   [Установка и настройка](filter.setup.html)
+    -   [Типы фильтров](filter.filters.html)
+    -   [Предопределённые константы](filter.constants.html)
+    -   [Примеры](filter.examples.html)
+    -   [Функции фильтрации данных](ref.filter.html)
+-   [Управление функциями](book.funchand.html)
+    -   [Введение](intro.funchand.html)
+    -   [Установка и настройка](funchand.setup.html)
+    -   [Предопределённые константы](funchand.constants.html)
+    -   [Функции управления функциями](ref.funchand.html)
+-   [Quickhash](book.quickhash.html)
+    -   [Введение](intro.quickhash.html)
+    -   [Установка и настройка](quickhash.setup.html)
+    -   [Предопределённые константы](quickhash.constants.html)
+    -   [Примеры](quickhash.examples.html)
+    -   [QuickHashIntSet](class.quickhashintset.html) - Клас QuickHashIntSet
+    -   [QuickHashIntHash](class.quickhashinthash.html) - Клас QuickHashIntHash
+    -   [QuickHashStringIntHash](class.quickhashstringinthash.html) - Клас QuickHashStringIntHash
+    -   [QuickHashIntStringHash](class.quickhashintstringhash.html) - Клас QuickHashIntStringHash
+-   [Reflection](book.reflection.html)
+    -   [Введение](intro.reflection.html)
+    -   [Установка и настройка](reflection.setup.html)
+    -   [Предопределённые константы](reflection.constants.html)
+    -   [Примеры](reflection.examples.html)
+    -   [Расширение](reflection.extending.html)
+    -   [Reflection](class.reflection.html) - Клас Reflection
+    -   [ReflectionClass](class.reflectionclass.html) - Клас ReflectionClass
+    -   [ReflectionClassConstant](class.reflectionclassconstant.html) - Клас ReflectionClassConstant
+    -   [ReflectionEnum](class.reflectionenum.html) - Клас ReflectionEnum
+    -   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html) - Клас ReflectionEnumUnitCase
+    -   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.html) - Клас ReflectionEnumBackedCase
+    -   [ReflectionZendExtension](class.reflectionzendextension.html) - Клас ReflectionZendExtension
+    -   [ReflectionExtension](class.reflectionextension.html) - Клас ReflectionExtension
+    -   [ReflectionFunction](class.reflectionfunction.html) - Клас ReflectionFunction
+    -   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html) - Клас ReflectionFunctionAbstract
+    -   [ReflectionMethod](class.reflectionmethod.html) - Клас ReflectionMethod
+    -   [ReflectionNamedType](class.reflectionnamedtype.html) — Клас ReflectionNamedType
+    -   [ReflectionObject](class.reflectionobject.html) - Клас ReflectionObject
+    -   [ReflectionParameter](class.reflectionparameter.html) - Клас ReflectionParameter
+    -   [ReflectionProperty](class.reflectionproperty.html) - Клас ReflectionProperty
+    -   [ReflectionType](class.reflectiontype.html) - Клас ReflectionType
+    -   [ReflectionUnionType](class.reflectionuniontype.html) - Клас ReflectionUnionType
+    -   [ReflectionGenerator](class.reflectiongenerator.html) - Клас ReflectionGenerator
+    -   [ReflectionFiber](class.reflectionfiber.html) - Клас ReflectionFiber
+    -   [ReflectionIntersectionType](class.reflectionintersectiontype.html) - Клас ReflectionIntersectionType
+    -   [ReflectionReference](class.reflectionreference.html) - Клас ReflectionReference
+    -   [ReflectionAttribute](class.reflectionattribute.html) - Клас ReflectionAttribute
+    -   [Reflector](class.reflector.html) - Інтерфейс Reflector
+    -   [ReflectionException](class.reflectionexception.html) - Клас ReflectionException
+-   [Обработка переменных](book.var.html)
+    -   [Введение](intro.var.html)
+    -   [Установка и настройка](var.setup.html)
+    -   [Предопределённые константы](var.constants.html)
+    -   [Функции для работы с переменными](ref.var.html)

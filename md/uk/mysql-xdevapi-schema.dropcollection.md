@@ -1,9 +1,15 @@
-- [« Schema::createCollection](mysql-xdevapi-schema.createcollection.md)
-- [Schema::existsInDatabase »](mysql-xdevapi-schema.existsindatabase.md)
+Видалити колекції зі схеми
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- Видалити колекції зі схеми
+-   [« Schema::createCollection](mysql-xdevapi-schema.createcollection.html)
+    
+-   [Schema::existsInDatabase »](mysql-xdevapi-schema.existsindatabase.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\Schema](class.mysql-xdevapi-schema.html)
+    
+-   Видалити колекції зі схеми
+    
 
 # Schema::dropCollection
 
@@ -13,13 +19,13 @@ Schema::dropCollection — Видалити колекції зі схеми
 
 ### Опис
 
-public **mysql_xdevapi\Schema::dropCollection**(string
-`$collection_name`): bool
+```methodsynopsis
+public mysql_xdevapi\Schema::dropCollection(string $collection_name): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -29,24 +35,41 @@ public **mysql_xdevapi\Schema::dropCollection**(string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\Schema::getCollection()****
+**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema = $session->getSchema("food ");$schema->createCollection("trees");$schema->dropCollection("trees");$schema->createCollection("buildings");print_r($schema->gettables());print_r($ schema->getcollections()); `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
+
+$schema = $session->getSchema("food");
+
+$schema->createCollection("trees");
+$schema->dropCollection("trees");
+$schema->createCollection("buildings");
+
+print_r($schema->gettables());
+print_r($schema->getcollections());
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[fruit] => mysql_xdevapi\Table Object
-(
-[name] => fruit
-)
+    [fruit] => mysql_xdevapi\Table Object
+        (
+            [name] => fruit
+        )
 )
 Array
 (
-[buildings] => mysql_xdevapi\Collection Object
-(
-[name] => buildings
+    [buildings] => mysql_xdevapi\Collection Object
+        (
+            [name] => buildings
+        )
 )
-)
+```

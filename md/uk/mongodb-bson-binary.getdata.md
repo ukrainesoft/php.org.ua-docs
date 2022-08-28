@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
-- [MongoDB\BSON\Binary::getType »](mongodb-bson-binary.gettype.md)
+Повертає дані Binary
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-- Повертає дані Binary
+-   [« MongoDB\\BSON\\Binary::\_\_construct](mongodb-bson-binary.construct.html)
+    
+-   [MongoDB\\BSON\\Binary::getType »](mongodb-bson-binary.gettype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+    
+-   Повертає дані Binary
+    
 
-# MongoDB\BSON\Binary::getData
+# MongoDBBSONBinary::getData
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON\Binary::getData — Повертає дані Binary
+MongoDBBSONBinary::getData — Повертає дані Binary
 
 ### Опис
 
-final public **MongoDB\BSON\Binary::getData**(): string
+```methodsynopsis
+final public MongoDB\BSON\Binary::getData(): string
+```
 
 ### Список параметрів
 
@@ -25,19 +33,27 @@ final public **MongoDB\BSON\Binary::getData**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\BSON\Binary::getData()****
+**Приклад #1 Приклад використання **MongoDBBSONBinary::getData()****
 
-` <?php$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary->getData());?> `
+```php
+<?php
+
+$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
+var_dump($binary->getData());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "foo"
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

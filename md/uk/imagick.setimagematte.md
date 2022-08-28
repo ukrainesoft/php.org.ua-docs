@@ -1,9 +1,15 @@
-- [« Imagick::setImageIterations](imagick.setimageiterations.md)
-- [Imagick::setImageMatteColor »](imagick.setimagemattecolor.md)
+Встановлює матовий канал зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює матовий канал зображення
+-   [« Imagick::setImageIterations](imagick.setimageiterations.html)
+    
+-   [Imagick::setImageMatteColor »](imagick.setimagemattecolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює матовий канал зображення
+    
 
 # Imagick::setImageMatte
 
@@ -13,16 +19,18 @@ Imagick::setImageMatte — Встановлює матовий канал зоб
 
 ### Опис
 
-public **Imagick::setImageMatte**(bool `$matte`): bool
+```methodsynopsis
+public Imagick::setImageMatte(bool $matte): bool
+```
 
-Встановлює матовий канал зображення. Цей метод доступний, якщо
-Imagick був скомпілюваний з версією ImageMagick 6.2.9 або старшим.
+Встановлює матовий канал зображення. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
 `matte`
+
 Значення true активує матовий канал, false – відключає.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

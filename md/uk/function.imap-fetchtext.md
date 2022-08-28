@@ -1,17 +1,22 @@
-- [« imap_fetchstructure](function.imap-fetchstructure.md)
-- [imap_gc »](function.imap-gc.md)
+Псевдонім imapbody
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Псевдонім imap_body
+-   [« imap\_fetchstructure](function.imap-fetchstructure.html)
+    
+-   [imap\_gc »](function.imap-gc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Псевдонім imapbody
+    
 
-#imap_fetchtext
+# imapfetchtext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_fetchtext - Псевдонім [imap_body()](function.imap-body.md)
+imapfetchtext - Псевдонім [imap\_body()](function.imap-body.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[imap_body()](function.imap-body.md).
+Ця функція є псевдонімом: [imap\_body()](function.imap-body.html)

@@ -1,22 +1,28 @@
-- [«fdf_open](function.fdf-open.md)
-- [fdf_save_string »](function.fdf-save-string.md)
+Встановлює цільовий кадр для форми
 
-- [PHP Manual](index.md)
-- [FDF](ref.fdf.md)
-- Встановлює цільовий кадр для форми
+-   [« fdf\_open](function.fdf-open.html)
+    
+-   [fdf\_save\_string »](function.fdf-save-string.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FDF](ref.fdf.html)
+    
+-   Встановлює цільовий кадр для форми
+    
 
-#fdf_remove_item
+# fdfremoveitem
 
-(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
 
-fdf_remove_item — Встановлює цільовий кадр для форми.
+fdfremoveitem — Встановлює цільовий кадр для форми.
 
 ### Опис
 
-**fdf_remove_item**(resource `$fdf_document`, string `$fieldname`, int
-`$item`): bool
+```methodsynopsis
+fdf_remove_item(resource $fdf_document, string $fieldname, int $item): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.

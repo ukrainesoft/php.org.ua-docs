@@ -1,9 +1,15 @@
-- [« ImagickDraw::\_\_construct](imagickdraw.construct.md)
-- [ImagickDraw::ellipse »](imagickdraw.ellipse.md)
+Звільняє всі пов'язані ресурси
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Звільняє усі пов'язані ресурси
+-   [« ImagickDraw::\_\_construct](imagickdraw.construct.html)
+    
+-   [ImagickDraw::ellipse »](imagickdraw.ellipse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Звільняє всі пов'язані ресурси
+    
 
 # ImagickDraw::destroy
 
@@ -13,15 +19,15 @@ ImagickDraw::destroy — Звільняє всі пов'язані ресурс�
 
 ### Опис
 
-public **ImagickDraw::destroy**(): bool
+```methodsynopsis
+public ImagickDraw::destroy(): bool
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Визволяє всі ресурси, пов'язані з об'єктом
-[ImagickDraw](class.imagickdraw.md).
+Звільняє всі ресурси, пов'язані з об'єктом [ImagickDraw](class.imagickdraw.html)
 
 ### Значення, що повертаються
 

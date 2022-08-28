@@ -1,14 +1,20 @@
-- [«Вступ](intro.gmp.md)
-- [Вимоги »](gmp.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [GMP](book.gmp.md)
+-   [« Введение](intro.gmp.html)
+    
+-   [Требования »](gmp.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP](book.gmp.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](gmp.requirements.md)
-- [Установка](gmp.installation.md)
-- [Налаштування під час виконання](gmp.configuration.md)
+-   [Требования](gmp.requirements.html)
+-   [Установка](gmp.installation.html)
+-   [Настройка во время выполнения](gmp.configuration.html)

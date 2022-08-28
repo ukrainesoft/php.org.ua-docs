@@ -1,20 +1,27 @@
-- [« Swoole\MySQL::close](swoole-mysql.close.md)
-- [Swoole\MySQL::\_\_construct »](swoole-mysql.construct.md)
+Підключається до віддаленого сервера MySQL
 
-- [PHP Manual](index.md)
-- [Swoole\MySQL](class.swoole-mysql.md)
-- Підключається до віддаленого сервера MySQL
+-   [« Swoole\\MySQL::close](swoole-mysql.close.html)
+    
+-   [Swoole\\MySQL::\_\_construct »](swoole-mysql.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\MySQL](class.swoole-mysql.html)
+    
+-   Підключається до віддаленого сервера MySQL
+    
 
-# Swoole\MySQL::connect
+# SwooleMySQL::connect
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\MySQL::connect — Підключається до віддаленого сервера MySQL
+SwooleMySQL::connect — Підключається до віддаленого сервера MySQL
 
 ### Опис
 
-public **Swoole\MySQL::connect**(array `$server_config`,
-[callable](language.types.callable.md) `$callback`): void
+```methodsynopsis
+public Swoole\MySQL::connect(array $server_config, callable $callback): void
+```
 
 Підключається до віддаленого сервера MySQL.
 

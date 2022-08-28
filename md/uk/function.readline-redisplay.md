@@ -1,19 +1,27 @@
-- [«readline_read_history](function.readline-read-history.md)
-- [readline_write_history »](function.readline-write-history.md)
+Перемалювати екран
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Перемалювати екран
+-   [« readline\_read\_history](function.readline-read-history.html)
+    
+-   [readline\_write\_history »](function.readline-write-history.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Readline](ref.readline.html)
+    
+-   Перемалювати екран
+    
 
-#readline_redisplay
+# readlineredisplay
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-readline_redisplay — Перемалювати екран
+readlineredisplay — Перемалювати екран
 
 ### Опис
 
-**readline_redisplay**(): void
+```methodsynopsis
+readline_redisplay(): void
+```
 
 Перемальовує екран.
 

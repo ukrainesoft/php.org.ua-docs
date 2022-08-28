@@ -1,19 +1,27 @@
-- [« SolrQuery::getGroupFunctions](solrquery.getgroupfunctions.md)
-- [SolrQuery::getGroupMain »](solrquery.getgroupmain.md)
+Повертає значення group.limit
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає значення group.limit
+-   [« SolrQuery::getGroupFunctions](solrquery.getgroupfunctions.html)
+    
+-   [SolrQuery::getGroupMain »](solrquery.getgroupmain.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає значення group.limit
+    
 
 # SolrQuery::getGroupLimit
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrQuery::getGroupLimit — Повертає значення group.limit
 
 ### Опис
 
-public **SolrQuery::getGroupLimit**(): int
+```methodsynopsis
+public SolrQuery::getGroupLimit(): int
+```
 
 Повертає значення group.limit.
 
@@ -25,6 +33,4 @@ public **SolrQuery::getGroupLimit**(): int
 
 ### Дивіться також
 
-- [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.md) - Задає
-кількість результатів, що повертаються для кожної групи. Значення
-сервера за промовчанням - 1
+-   [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.html) - Вказує кількість результатів, що повертаються для кожної групи. Значення сервера за промовчанням - 1

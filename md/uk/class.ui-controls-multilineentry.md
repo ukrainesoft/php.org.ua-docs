@@ -1,99 +1,98 @@
-- [«UI\Controls\Entry::setText](ui-controls-entry.settext.md)
-- [UI\Controls\MultilineEntry::append »](ui-controls-multilineentry.append.md)
+Елемент управління "Многорядкове введення"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Многорядкове введення"
+-   [« UI\\Controls\\Entry::setText](ui-controls-entry.settext.html)
+    
+-   [UI\\Controls\\MultilineEntry::append »](ui-controls-multilineentry.append.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент управління "Многорядкове введення"
+    
 
-# Елемент управління "Багаторядне введення"
+# Елемент управління "Многорядкове введення"
 
 (UI 0.9.9)
 
 ## Вступ
 
-Багаторядне введення - це елемент управління текстового запису, здатний
-зберігати кілька рядків тексту з перенесенням рядків або без нього.
+Багаторядкове введення - це елемент керування текстового запису, здатний зберігати кілька рядків тексту, з перенесенням рядків або без нього.
 
 ## Огляд класів
 
-class **UI\Controls\MultilineEntry** extends
-[UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Константи \*/
 
-const int `Wrap`;
 
-const int `NoWrap`;
+    
+     
+      class UI\Controls\MultilineEntry
+     
 
-/\* Конструктор \*/
+     
+      extends
+       UI\Control
+     
+     {
 
-public [\_\_construct](ui-controls-multilineentry.construct.md)(int
-`$type` = ?)
+    /* Константы */
+    
+     const
+     int
+      Wrap;
 
-/\* Методи \*/
+    const
+     int
+      NoWrap;
 
-public [append](ui-controls-multilineentry.append.md)(string `$text`)
 
-public [getText](ui-controls-multilineentry.gettext.md)(): string
+    /* Конструктор */
+    
+   public __construct(int $type = ?)
 
-public [isReadOnly](ui-controls-multilineentry.isreadonly.md)(): bool
 
-protected [onChange](ui-controls-multilineentry.onchange.md)()
+    /* Методы */
+    public append(string $text)
+public getText(): string
+public isReadOnly(): bool
+protected onChange()
+public setReadOnly(bool $readOnly)
+public setText(string $text)
 
-public [setReadOnly](ui-controls-multilineentry.setreadonly.md)(bool
-`$readOnly`)
 
-public [setText](ui-controls-multilineentry.settext.md)(string
-`$text`)
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-/\* Наслідувані методи \*/
 
-public [UI\Control::destroy](ui-control.destroy.md)()
+   }
+```
 
-public [UI\Control::disable](ui-control.disable.md)()
-
-public [UI\Control::enable](ui-control.enable.md)()
-
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
-
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
-
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`UI\Controls\MultilineEntry::Wrap`**
+
 Дозволити перенесення рядків
 
 **`UI\Controls\MultilineEntry::NoWrap`**
+
 Не дозволяти перенесення рядків
 
 ## Зміст
 
-- [UI\Controls\MultilineEntry::append](ui-controls-multilineentry.append.md)
-— Додати текст
-- [UI\Controls\MultilineEntry::\_\_construct](ui-controls-multilineentry.construct.md)
-- Створити новий об'єкт "Многорядкове введення"
-- [UI\Controls\MultilineEntry::getText](ui-controls-multilineentry.gettext.md)
-— Отримати текст
-- [UI\Controls\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md)
-- Визначення "тільки для читання"
-- [UI\Controls\MultilineEntry::onChange](ui-controls-multilineentry.onchange.md)
-- Обробник зміни
-- [UI\Controls\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md)
-- Встановити "тільки для читання"
-- [UI\Controls\MultilineEntry::setText](ui-controls-multilineentry.settext.md)
-- Встановити текст
+-   [UI\\Controls\\MultilineEntry::append](ui-controls-multilineentry.append.html) — Додати текст
+-   [UI\\Controls\\MultilineEntry::\_\_construct](ui-controls-multilineentry.construct.html) - Створити новий об'єкт "Многорядкове введення"
+-   [UI\\Controls\\MultilineEntry::getText](ui-controls-multilineentry.gettext.html) — Отримати текст
+-   [UI\\Controls\\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.html) - Визначення "тільки для читання"
+-   [UI\\Controls\\MultilineEntry::onChange](ui-controls-multilineentry.onchange.html) - Обробник зміни
+-   [UI\\Controls\\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.html) - Встановити "тільки для читання"
+-   [UI\\Controls\\MultilineEntry::setText](ui-controls-multilineentry.settext.html) — Встановити текст

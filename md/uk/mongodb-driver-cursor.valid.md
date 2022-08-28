@@ -1,20 +1,27 @@
-- [« MongoDB\Driver\Cursor::toArray](mongodb-driver-cursor.toarray.md)
-- [MongoDB\Driver\CursorId »](class.mongodb-driver-cursorid.md)
+Перевіряє, чи поточна позиція курсора коректна
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- Перевіряє, чи поточна позиція курсора коректна
+-   [« MongoDB\\Driver\\Cursor::toArray](mongodb-driver-cursor.toarray.html)
+    
+-   [MongoDB\\Driver\\CursorId »](class.mongodb-driver-cursorid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.html)
+    
+-   Перевіряє, чи поточна позиція курсора коректна
+    
 
-# MongoDB\Driver\Cursor::valid
+# MongoDBDriverCursor::valid
 
-(mongodb \>=1.9.0)
+(mongodb >=1.9.0)
 
-MongoDB\Driver\Cursor::valid — Перевіряє, чи поточна позиція правильна.
-курсору
+MongoDBDriverCursor::valid — Перевіряє, чи поточна позиція курсору коректна.
 
 ### Опис
 
-public **MongoDB\Driver\Cursor::valid**(): bool
+```methodsynopsis
+public MongoDB\Driver\Cursor::valid(): bool
+```
 
 ### Список параметрів
 
@@ -26,5 +33,4 @@ public **MongoDB\Driver\Cursor::valid**(): bool
 
 ### Дивіться також
 
-- [Iterator::valid()](iterator.valid.md) - Перевіряє правильність
-поточної позиції
+-   [Iterator::valid()](iterator.valid.html) - Перевіряє коректність поточної позиції

@@ -1,9 +1,15 @@
-- [« Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md)
-- [Imagick::getImageUnits »](imagick.getimageunits.md)
+Повертає можливий тип зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає можливий тип зображення
+-   [« Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.html)
+    
+-   [Imagick::getImageUnits »](imagick.getimageunits.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає можливий тип зображення
+    
 
 # Imagick::getImageType
 
@@ -13,7 +19,9 @@ Imagick::getImageType — Повертає можливий тип зображ�
 
 ### Опис
 
-public **Imagick::getImageType**(): int
+```methodsynopsis
+public Imagick::getImageType(): int
+```
 
 Отримання можливого типу зображення.
 
@@ -25,17 +33,17 @@ public **Imagick::getImageType**(): int
 
 Повертає тип зображення.
 
-- **`imagick::IMGTYPE_UNDEFINED`**
-- **`imagick::IMGTYPE_BILEVEL`**
-- **`imagick::IMGTYPE_GRAYSCALE`**
-- **`imagick::IMGTYPE_GRAYSCALEMATTE`**
-- **`imagick::IMGTYPE_PALETTE`**
-- **`imagick::IMGTYPE_PALETTEMATTE`**
-- **`imagick::IMGTYPE_TRUECOLOR`**
-- **`imagick::IMGTYPE_TRUECOLORMATTE`**
-- **`imagick::IMGTYPE_COLORSEPARATION`**
-- **`imagick::IMGTYPE_COLORSEPARATIONMATTE`**
-- **`imagick::IMGTYPE_OPTIMIZE`**
+-   **`imagick::IMGTYPE_UNDEFINED`**
+-   **`imagick::IMGTYPE_BILEVEL`**
+-   **`imagick::IMGTYPE_GRAYSCALE`**
+-   **`imagick::IMGTYPE_GRAYSCALEMATTE`**
+-   **`imagick::IMGTYPE_PALETTE`**
+-   **`imagick::IMGTYPE_PALETTEMATTE`**
+-   **`imagick::IMGTYPE_TRUECOLOR`**
+-   **`imagick::IMGTYPE_TRUECOLORMATTE`**
+-   **`imagick::IMGTYPE_COLORSEPARATION`**
+-   **`imagick::IMGTYPE_COLORSEPARATIONMATTE`**
+-   **`imagick::IMGTYPE_OPTIMIZE`**
 
 ### Помилки
 

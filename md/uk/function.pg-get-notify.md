@@ -1,60 +1,73 @@
-- [« pg_free_result](function.pg-free-result.md)
-- [pg_get_pid »](function.pg-get-pid.md)
+Отримання SQL NOTIFY повідомлення
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Отримання SQL NOTIFY повідомлення
+-   [« pg\_free\_result](function.pg-free-result.html)
+    
+-   [pg\_get\_pid »](function.pg-get-pid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Отримання SQL NOTIFY повідомлення
+    
 
-#pg_get_notify
+# пгgetnotify
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-pg_get_notify — Отримання SQL NOTIFY повідомлення
+пгgetnotify — Отримання SQL NOTIFY повідомлення
 
 ### Опис
 
-**pg_get_notify**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`, int `$mode` = **`PGSQL_ASSOC`**): array\|false
+```methodsynopsis
+pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|false
+```
 
-**pg_get_notify()** отримує повідомлення, згенеровані командою SQL
-`NOTIFY`. Для отримання повідомлень використовуйте команду SQL `LISTEN`.
+**пгgetnotify()** отримує повідомлення, згенеровані командою SQL `NOTIFY`. Для отримання повідомлень скористайтеся командою SQL `LISTEN`
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html)
 
 `mode`
-Необов'язковий аргумент, що вказує, яким чином повертається масив
-(array) буде проіндексований. `mode` - константа, і може приймати
-наступні значення: **`PGSQL_ASSOC`**, **`PGSQL_NUM`** або
-**`PGSQL_BOTH`**. При передачі **`PGSQL_ASSOC`** функція
-**pg_get_notify()** поверне асоціативний масив, при передачі
-**`PGSQL_NUM`** - чисельно індексований, у разі **`PGSQL_BOTH`**
-(за замовчуванням) буде повернено обидва масиви.
+
+Необов'язковий параметр, керуючий тим, як індексується масив, що повертається (array). Параметр `mode` є константою і може приймати такі значення: **`PGSQL_ASSOC`** **`PGSQL_NUM`** і **`PGSQL_BOTH`**. При використанні **`PGSQL_NUM`** функція повертає масив із числовими індексами, при використанні **`PGSQL_ASSOC`** вона поверне лише асоціативні індекси, а **`PGSQL_BOTH`** поверне як числові, і асоціативні індекси.
 
 ### Значення, що повертаються
 
-Масив (array), що містить повідомлення `NOTIFY` та PID сервера БД. Якщо
-підтримується сервером, масив також містить версію сервера та корисну
-навантаження. Якщо жодних повідомлень не очікується, функція поверне
-**`false`**.
+Масив (array), що містить повідомлення `NOTIFY` та PID сервера БД. Якщо підтримується сервером, масив також містить версію сервера та корисне навантаження. Якщо жодних повідомлень не очікується, функція поверне **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
 **Приклад #1 Повідомлення PostgreSQL NOTIFY**
 
-` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}// Слухаємо повідомлення 'author_updated' з іншого процесуpg_query($conn, 'LISTEN author_updated;');$notify = pg_get_notify($conn);     
-";} else {  print_r($notify);}?> `
+```php
+<?php
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
+}
+
+// Слушаем сообщение 'author_updated' из другого процесса
+pg_query($conn, 'LISTEN author_updated;');
+$notify = pg_get_notify($conn);
+if (!$notify) {
+  echo "Нет сообщений\n";
+} else {
+  print_r($notify);
+}
+?>
+```
 
 ### Дивіться також
 
-- [pg_get_pid()](function.pg-get-pid.md) - Отримує ID процесу
-сервера БД
+-   [pg\_get\_pid()](function.pg-get-pid.html) - Отримує ID процесу сервера БД

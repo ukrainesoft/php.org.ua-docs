@@ -1,90 +1,73 @@
-- [« Приклади](gmp.examples.md)
-- [gmp_abs »](function.gmp-abs.md)
+GMP Функції
 
-- [PHP Manual](index.md)
-- [GMP](book.gmp.md)
-- GMP Функції
+-   [« Примеры](gmp.examples.html)
+    
+-   [gmp\_abs »](function.gmp-abs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP](book.gmp.html)
+    
+-   GMP Функції
+    
 
 # GMP Функції
 
 ## Дивіться також
 
-Інші математичні функції можна знайти у розділі [Математичні модулі](refs.math.md)
+Інші математичні функції можна знайти у розділі [Математические модули](refs.math.html)
 
 ## Зміст
 
-- [gmp_abs](function.gmp-abs.md) - Абсолютна величина
-- [gmp_add](function.gmp-add.md) — Складання чисел
-- [gmp_and](function.gmp-and.md) - Побітове І
-- [gmp_binomial](function.gmp-binomial.md) — обчислює біномний
-коефіцієнт
-- [gmp_clrbit](function.gmp-clrbit.md) - Скидання біта
-- [gmp_cmp](function.gmp-cmp.md) — Порівняння чисел
-- [gmp_com](function.gmp-com.md) — Обчислює додаток до одиниці
-числа
-- [gmp_div_q](function.gmp-div-q.md) - Поділ чисел
-- [gmp_div_qr](function.gmp-div-qr.md) — Поділ чисел та отримання
-приватного та залишку
-- [gmp_div_r](function.gmp-div-r.md) - Залишок від розподілу чисел
-- [gmp_div](function.gmp-div.md) - Псевдонім gmp_div_q
-- [gmp_divexact](function.gmp-divexact.md) — розподіл чисел без
-залишку
-- [gmp_export](function.gmp-export.md) — Експортувати до бінарної
-рядок
-- [gmp_fact](function.gmp-fact.md) - Факторіал
-- [gmp_gcd](function.gmp-gcd.md) - Обчислення найбільшого загального
-дільника
-- [gmp_gcdext](function.gmp-gcdext.md) — Обчислення НОД та множників
-- [gmp_hamdist](function.gmp-hamdist.md) — Відстань Хемінга
-- [gmp_import](function.gmp-import.md) — Імпортувати з бінарної
-рядки
-- [gmp_init](function.gmp-init.md) — Створення GMP числа
-- [gmp_intval](function.gmp-intval.md) — Перетворення числа GMP на
-ціле число
-- [gmp_invert](function.gmp-invert.md) - Інверсія залишку від розподілу
-- [gmp_jacobi](function.gmp-jacobi.md) - Символ Якобі
-- [gmp_kronecker](function.gmp-kronecker.md) - Символ Кронекера -
-Якобі
-- [gmp_lcm](function.gmp-lcm.md) — обчислює найменше загальне
-кратне
-- [gmp_legendre](function.gmp-legendre.md) - Символ Лежандра
-- [gmp_mod](function.gmp-mod.md) — Обчислення залишку від
-цілісного розподілу
-- [gmp_mul](function.gmp-mul.md) — Збільшення чисел
-- [gmp_neg](function.gmp-neg.md) — Зміна знака числа
-- [gmp_nextprime](function.gmp-nextprime.md) — Пошук наступного
-простого числа
-- [gmp_or](function.gmp-or.md) - Побітове АБО
-- [gmp_perfect_power](function.gmp-perfect-power.md) — Перевірити,
-чи є число "досконалим ступенем"
-- [gmp_perfect_square](function.gmp-perfect-square.md) — Перевірка
-числа на точний квадрат
-- [gmp_popcount](function.gmp-popcount.md) — Кількість одиниць
-двійкового запису числа
-- [gmp_pow](function.gmp-pow.md) — Зводить число до ступеня
-- [gmp_powm](function.gmp-powm.md) — Зводить число до ступеня і
-виробляє розподіл за модулем
-- [gmp_prob_prime](function.gmp-prob-prime.md) — Перевіряє, чи є
-чи число "ймовірно простим"
-- [gmp_random_bits](function.gmp-random-bits.md) — Випадкове число
-- [gmp_random_range](function.gmp-random-range.md) — Випадкове число
-- [gmp_random_seed](function.gmp-random-seed.md) — Встановити
-початковий стан RNG
-- [gmp_random](function.gmp-random.md) — Випадкове число
-- [gmp_root](function.gmp-root.md) - Витягти корінь ступеня N і
-повернути його цілу частину
-- [gmp_rootrem](function.gmp-rootrem.md) - Вийняти корінь ступеня N
-і повернути його цілу частину та залишок
-- [gmp_scan0](function.gmp-scan0.md) — Пошук нуля в числі
-- [gmp_scan1](function.gmp-scan1.md) — Пошук одиниці в числі
-- [gmp_setbit](function.gmp-setbit.md) — Встановлення біта
-- [gmp_sign](function.gmp-sign.md) - Знак числа
-- [gmp_sqrt](function.gmp-sqrt.md) — Обчислення квадратного кореня
-- [gmp_sqrtrem](function.gmp-sqrtrem.md) - Квадратний корінь з
-залишком
-- [gmp_strval](function.gmp-strval.md) — Перетворення числа GMP в
-рядок
-- [gmp_sub](function.gmp-sub.md) — Віднімання чисел
-- [gmp_testbit](function.gmp-testbit.md) — Перевірка, чи встановлено
-біт в 1
-- [gmp_xor](function.gmp-xor.md) - Побітове виключне АБО
+-   [gmp\_abs](function.gmp-abs.html) - Абсолютна величина
+-   [gmp\_add](function.gmp-add.html) — Складання чисел
+-   [gmp\_and](function.gmp-and.html) - Побітове І
+-   [gmp\_binomial](function.gmp-binomial.html) - Обчислює біноміальний коефіцієнт
+-   [gmp\_clrbit](function.gmp-clrbit.html) - Скидання біта
+-   [gmp\_cmp](function.gmp-cmp.html) - Порівняння чисел
+-   [gmp\_com](function.gmp-com.html) - Обчислює доповнення до одиниці числа
+-   [gmp\_div\_q](function.gmp-div-q.html) - Розподіл чисел
+-   [gmp\_div\_qr](function.gmp-div-qr.html) — Розподіл чисел та отримання приватного та залишку
+-   [gmp\_div\_r](function.gmp-div-r.html) — Залишок від поділу чисел
+-   [gmp\_div](function.gmp-div.html) - Псевдонім gmpdivдо
+-   [gmp\_divexact](function.gmp-divexact.html) - Розподіл чисел без залишку
+-   [gmp\_export](function.gmp-export.html) — Експортувати до бінарного рядка
+-   [gmp\_fact](function.gmp-fact.html) - Факторіал
+-   [gmp\_gcd](function.gmp-gcd.html) - Обчислення найбільшого спільного дільника
+-   [gmp\_gcdext](function.gmp-gcdext.html) — Обчислення НОД та множників
+-   [gmp\_hamdist](function.gmp-hamdist.html) - Відстань Хеммінга
+-   [gmp\_import](function.gmp-import.html) — Імпортувати з бінарного рядка
+-   [gmp\_init](function.gmp-init.html) - Створення GMP числа
+-   [gmp\_intval](function.gmp-intval.html) — Перетворення числа GMP на ціле число
+-   [gmp\_invert](function.gmp-invert.html) - Інверсія залишку від поділу
+-   [gmp\_jacobi](function.gmp-jacobi.html) - Символ Якобі
+-   [gmp\_kronecker](function.gmp-kronecker.html) - Символ Кронекера - Якобі
+-   [gmp\_lcm](function.gmp-lcm.html) — Вираховує найменше загальне кратне
+-   [gmp\_legendre](function.gmp-legendre.html) - Символ Лежандра
+-   [gmp\_mod](function.gmp-mod.html) — Обчислення залишку від цілого розподілу
+-   [gmp\_mul](function.gmp-mul.html) — Збільшення чисел
+-   [gmp\_neg](function.gmp-neg.html) - Зміна знака числа
+-   [gmp\_nextprime](function.gmp-nextprime.html) - Пошук наступного простого числа
+-   [gmp\_or](function.gmp-or.html) - Побітове АБО
+-   [gmp\_perfect\_power](function.gmp-perfect-power.html) — Перевірити, чи є число "досконалим ступенем"
+-   [gmp\_perfect\_square](function.gmp-perfect-square.html) - Перевірка числа на точний квадрат
+-   [gmp\_popcount](function.gmp-popcount.html) — Кількість одиниць у двійковому записі числа
+-   [gmp\_pow](function.gmp-pow.html) — Зводить число до ступеня
+-   [gmp\_powm](function.gmp-powm.html) - Зводить число в ступінь і виробляє розподіл за модулем
+-   [gmp\_prob\_prime](function.gmp-prob-prime.html) - Перевіряє, чи є число "ймовірно простим"
+-   [gmp\_random\_bits](function.gmp-random-bits.html) - Випадкове число
+-   [gmp\_random\_range](function.gmp-random-range.html) - Випадкове число
+-   [gmp\_random\_seed](function.gmp-random-seed.html) - Встановити початковий стан RNG
+-   [gmp\_random](function.gmp-random.html) - Випадкове число
+-   [gmp\_root](function.gmp-root.html) - Витягти корінь ступеня N і повернути його цілу частину
+-   [gmp\_rootrem](function.gmp-rootrem.html) - Витягти корінь ступеня N і повернути його цілу частину і залишок
+-   [gmp\_scan0](function.gmp-scan0.html) - Пошук нуля в числі
+-   [gmp\_scan1](function.gmp-scan1.html) - Пошук одиниці в числі
+-   [gmp\_setbit](function.gmp-setbit.html) - Встановлення біта
+-   [gmp\_sign](function.gmp-sign.html) - Знак числа
+-   [gmp\_sqrt](function.gmp-sqrt.html) - Обчислення квадратного кореня
+-   [gmp\_sqrtrem](function.gmp-sqrtrem.html) - Квадратний корінь із залишком
+-   [gmp\_strval](function.gmp-strval.html) — Перетворення GMP числа в рядок
+-   [gmp\_sub](function.gmp-sub.html) — Віднімання чисел
+-   [gmp\_testbit](function.gmp-testbit.html) - Перевірка, чи встановлений біт в 1
+-   [gmp\_xor](function.gmp-xor.html) — Побітове, що виключає АБО

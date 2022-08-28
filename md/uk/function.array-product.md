@@ -1,40 +1,57 @@
-- [«array_pop](function.array-pop.md)
-- [array_push »](function.array-push.md)
+Обчислити добуток значень масиву
 
-- [PHP Manual](index.md)
-- [Функції для роботи з масивами](ref.array.md)
-- Обчислити добуток значень масиву
+-   [« array\_pop](function.array-pop.html)
+    
+-   [array\_push »](function.array-push.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с массивами](ref.array.html)
+    
+-   Обчислити добуток значень масиву
+    
 
-#array_product
+# arrayproduct
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-array_product — Обчислити добуток значень масиву
+arrayproduct — Обчислити добуток значень масиву
 
 ### Опис
 
-**array_product**(array `$array`): int\|float
+```methodsynopsis
+array_product(array $array): int|float
+```
 
-**array_product()** повертає добуток значень масиву.
+**arrayproduct()** повертає добуток значень масиву.
 
 ### Список параметрів
 
 `array`
+
 Масив.
 
 ### Значення, що повертаються
 
-Повертає твір як тип integer або float.
+Повертає твір як тип integer чи float.
 
 ### Приклади
 
-**Приклад #1 Приклади використання **array_product()****
+**Приклад #1 Приклади використання **arrayproduct()****
 
-` <?php$a = array(2, 4, 6, 8);echo "product(a) = " . array_product($a) . "
-";echo "product(array()) = " . array_product(array()) . "
-";?> `
+```php
+<?php
+
+$a = array(2, 4, 6, 8);
+echo "product(a) = " . array_product($a) . "\n";
+echo "product(array()) = " . array_product(array()) . "\n";
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 product(a) = 384
 product(array()) = 1
+```

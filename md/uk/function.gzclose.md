@@ -1,9 +1,15 @@
-- [«deflate_init](function.deflate-init.md)
-- [gzcompress »](function.gzcompress.md)
+Закрити вказівник відкритого gz-файлу
 
-- [PHP Manual](index.md)
-- [Функції Zlib](ref.zlib.md)
-- Закрити вказівник відкритого gz-файлу
+-   [« deflate\_init](function.deflate-init.html)
+    
+-   [gzcompress »](function.gzcompress.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Zlib](ref.zlib.html)
+    
+-   Закрити вказівник відкритого gz-файлу
+    
 
 # gzclose
 
@@ -13,27 +19,34 @@ gzclose — Закрити покажчик відкритого gz-файлу
 
 ### Опис
 
-**gzclose**(resource `$stream`): bool
+```methodsynopsis
+gzclose(resource $stream): bool
+```
 
-Закриває відкритий gz-файл за вказаним покажчиком.
+Закриває відкритий gz-файл за переданим покажчиком.
 
 ### Список параметрів
 
 `stream`
-Вказівник на gz-файл. Повинен вказувати на файл, успішно відкритий
-[gzopen()](function.gzopen.md).
+
+Вказівник на файл gz. Повинен вказувати на файл, успішно відкритий [gzopen()](function.gzopen.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **gzclose()****
 
-` <?php$gz = gzopen('somefile.gz','w9');gzputs ($gz, 'Додано в файл somefile.gz');gzclose($gz);?> `
+```php
+<?php
+$gz = gzopen('somefile.gz','w9');
+gzputs ($gz, 'Добавлено в файл somefile.gz');
+gzclose($gz);
+?>
+```
 
 ### Дивіться також
 
-- [gzopen()](function.gzopen.md) - Відкрити файл gz-файл
+-   [gzopen()](function.gzopen.html) - Відкрити gz-файл

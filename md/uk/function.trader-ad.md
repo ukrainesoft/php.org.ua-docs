@@ -1,40 +1,46 @@
-- [«trader_acos](function.trader-acos.md)
-- [trader_add »](function.trader-add.md)
+Індикатор Чайкіна Накопичення/Розпродаж
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Індикатор Чайкіна Накопичення/Розпродаж
+-   [« trader\_acos](function.trader-acos.html)
+    
+-   [trader\_add »](function.trader-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Індикатор Чайкіна Накопичення/Розпродаж
+    
 
-#trader_ad
+# traderпекло
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_ad — Індикатор Чайкіна Накопичення/Розпродаж
+traderad — Індикатор Чайкіна Накопичення/Розпродаж
 
 ### Опис
 
-**trader_ad**(
-array `$high`,
-array `$low`,
-array `$close`,
-array `$volume`
-): array
+```methodsynopsis
+trader_ad(    array $high,    array $low,    array $close,    array $volume): array
+```
 
 ### Список параметрів
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `volume`
+
 Обсяг торгів, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

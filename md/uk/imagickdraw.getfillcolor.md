@@ -1,9 +1,15 @@
-- [« ImagickDraw::getClipUnits](imagickdraw.getclipunits.md)
-- [ImagickDraw::getFillOpacity »](imagickdraw.getfillopacity.md)
+Повертає колір заливки
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає колір заливки
+-   [« ImagickDraw::getClipUnits](imagickdraw.getclipunits.html)
+    
+-   [ImagickDraw::getFillOpacity »](imagickdraw.getfillopacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає колір заливки
+    
 
 # ImagickDraw::getFillColor
 
@@ -13,16 +19,16 @@ ImagickDraw::getFillColor — Повертає колір заливки
 
 ### Опис
 
-public **ImagickDraw::getFillColor**():
-[ImagickPixel](class.imagickpixel.md)
+```methodsynopsis
+public ImagickDraw::getFillColor(): ImagickPixel
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 Повертає колір заливки, який використовується для малювання об'єктів із заливкою.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ImagickPixel](class.imagickpixel.md).
+Повертає об'єкт [ImagickPixel](class.imagickpixel.html)

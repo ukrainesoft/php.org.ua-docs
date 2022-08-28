@@ -1,11 +1,17 @@
-- [«dcngettext](function.dcngettext.md)
-- [dngettext »](function.dngettext.md)
+Перевизначає поточний домен для одного повідомлення
 
-- [PHP Manual](index.md)
-- [Функції gettext](ref.gettext.md)
-- Перевизначає поточний домен для одного повідомлення
+-   [« dcngettext](function.dcngettext.html)
+    
+-   [dngettext »](function.dngettext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции gettext](ref.gettext.html)
+    
+-   Перевизначає поточний домен для одного повідомлення
+    
 
-#dgettext
+# dgettext
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
@@ -13,17 +19,20 @@ dgettext — Перевизначення поточного домену для
 
 ### Опис
 
-**dgettext**(string `$domain`, string `$message`): string
+```methodsynopsis
+dgettext(string $domain, string $message): string
+```
 
-Функція **dgettext()** дозволяє перевизначити поточний домен `domain`
-для одного повідомлення.
+Функція **dgettext()** дозволяє перевизначити поточний домен `domain` для одного повідомлення.
 
 ### Список параметрів
 
 `domain`
+
 Домен.
 
 `message`
+
 Повідомлення.
 
 ### Значення, що повертаються
@@ -32,4 +41,4 @@ dgettext — Перевизначення поточного домену для
 
 ### Дивіться також
 
-- [gettext()](function.gettext.md) - Шукає повідомлення у поточному домені
+-   [gettext()](function.gettext.html) - Шукає повідомлення у поточному домені

@@ -1,20 +1,27 @@
-- [« MongoDB\BSON\JavascriptInterface](class.mongodb-bson-javascriptinterface.md)
-- [MongoDB\BSON\JavascriptInterface::getScope »](mongodb-bson-javascriptinterface.getscope.md)
+Повертає код JavascriptInterface
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\JavascriptInterface](class.mongodb-bson-javascriptinterface.md)
-- Повертає код JavascriptInterface
+-   [« MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)
+    
+-   [MongoDB\\BSON\\JavascriptInterface::getScope »](mongodb-bson-javascriptinterface.getscope.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.html)
+    
+-   Повертає код JavascriptInterface
+    
 
-# MongoDB\BSON\JavascriptInterface::getCode
+# MongoDBBSONJavascriptInterface::getCode
 
-(mongodb \>=1.3.0)
+(mongodb >=1.3.0)
 
-MongoDB\BSON\JavascriptInterface::getCode — Повертає код
-JavascriptInterface
+MongoDBBSONJavascriptInterface::getCode — Повертає код JavascriptInterface
 
 ### Опис
 
-abstract public **MongoDB\BSON\JavascriptInterface::getCode**(): string
+```methodsynopsis
+abstract public MongoDB\BSON\JavascriptInterface::getCode(): string
+```
 
 ### Список параметрів
 
@@ -26,5 +33,4 @@ abstract public **MongoDB\BSON\JavascriptInterface::getCode**(): string
 
 ### Дивіться також
 
-- [MongoDB\BSON\Javascript::getCode()](mongodb-bson-javascript.getcode.md) -
-Повертає код JavaScript
+-   [MongoDB\\BSON\\Javascript::getCode()](mongodb-bson-javascript.getcode.html) - Повертає код JavaScript

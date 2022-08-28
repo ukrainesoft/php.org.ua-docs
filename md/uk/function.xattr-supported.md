@@ -1,53 +1,62 @@
-- [«xattr_set](function.xattr-set.md)
-- [xdiff »](book.xdiff.md)
+Перевірка підтримки розширених атрибутів
 
-- [PHP Manual](index.md)
-- [xattr Функції](ref.xattr.md)
-- Перевірка підтримки розширених атрибутів
+-   [« xattr\_set](function.xattr-set.html)
+    
+-   [xdiff »](book.xdiff.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [xattr Функции](ref.xattr.html)
+    
+-   Перевірка підтримки розширених атрибутів
+    
 
-#xattr_supported
+# xattrsupported
 
-(PECL xattr \>= 1.0.0)
+(PECL xattr >= 1.0.0)
 
-xattr_supported — Перевірка підтримки розширених атрибутів
+xattrsupported — Перевірка підтримки розширених атрибутів
 
 ### Опис
 
-**xattr_supported**(string `$filename`, int `$flags` = 0): bool
+```methodsynopsis
+xattr_supported(string $filename, int $flags = 0): bool
+```
 
-Ця функція перевіряє чи підтримує файлова система, що містить файл,
-розширені атрибути. Потрібне право читати файл.
+Ця функція перевіряє чи підтримує файлова система, що містить файл, розширені атрибути. Потрібне право читати файл.
 
 ### Список параметрів
 
 `filename`
+
 Шлях до файлу, що перевіряється.
 
 `flags`
-|                      |                                                                          |
-|----------------------|--------------------------------------------------------------------------|
-| **XATTR_DONTFOLLOW** | Чи не розіменовувати символічні посилання, працювати з самим посиланням. |
 
-**Підтримувані xattr-прапори**
+<table class="doctable table"><caption><strong>Підтримувані xattr-прапори</strong></caption><tbody class="tbody"><tr><td><strong><code>XATTR_DONTFOLLOW</code></strong></td><td>Не розіменовувати символічні посилання, працювати з самим посиланням.</td></tr></tbody></table>
 
 ### Значення, що повертаються
 
-Функція повертає **`true`**, якщо файлова система підтримує
-розширені атрибути, **`false`**, якщо це не так і **`null`**, якщо
-неможливо визначити (наприклад неправильний шлях до файлу, чи ні
-дозволу на читання файлу).
+Функція повертає **`true`**, якщо файлова система підтримує розширені атрибути, **`false`**якщо це не так і **`null`**, якщо неможливо визначити (наприклад неправильний шлях до файлу, чи немає дозволу на читання файлу).
 
 ### Приклади
 
-**Приклад #1 **xattr_supported()** example**
+**Приклад #1 **xattrsupported()** example**
 
 Перевірте, чи можна використовувати розширені атрибути.
 
-` <?php$file = 'some_file';if (xattr_supported($file)) {    /* ... make use of some xattr_* functions ... */}?> `
+```php
+<?php
+$file = 'some_file';
+
+if (xattr_supported($file)) {
+    /* ... make use of some xattr_* functions ... */
+}
+
+?>
+```
 
 ### Дивіться також
 
-- [xattr_get()](function.xattr-get.md) - Отримання розширених
-атрибутів файлу
-- [xattr_list()](function.xattr-list.md) - Перегляд списку
-розширених атрибутів файлу
+-   [xattr\_get()](function.xattr-get.html) - Отримання розширених атрибутів файлу
+-   [xattr\_list()](function.xattr-list.html) - Перегляд списку розширених атрибутів файлу

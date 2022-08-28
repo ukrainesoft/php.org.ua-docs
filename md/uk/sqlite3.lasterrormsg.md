@@ -1,24 +1,29 @@
-- [« SQLite3::lastErrorCode](sqlite3.lasterrorcode.md)
-- [SQLite3::lastInsertRowID »](sqlite3.lastinsertrowid.md)
+Повертає текст англійською, що описує останній невдалий запит SQLite
 
-- [PHP Manual](index.md)
-- [SQLite3](class.sqlite3.md)
-- Повертає текст англійською, що описує останній невдалий
-запит SQLite
+-   [« SQLite3::lastErrorCode](sqlite3.lasterrorcode.html)
+    
+-   [SQLite3::lastInsertRowID »](sqlite3.lastinsertrowid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SQLite3](class.sqlite3.html)
+    
+-   Повертає текст англійською, що описує останній невдалий запит SQLite
+    
 
 # SQLite3::lastErrorMsg
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SQLite3::lastErrorMsg — Повертає текст англійською, що описує
-останній невдалий запит SQLite
+SQLite3::lastErrorMsg — Повертає текст англійською, що описує останній невдалий запит SQLite
 
 ### Опис
 
-public **SQLite3::lastErrorMsg**(): string
+```methodsynopsis
+public SQLite3::lastErrorMsg(): string
+```
 
-Повертає текст англійською, що описує останній невдалий запит
-SQLite.
+Повертає текст англійською, що описує останній невдалий запит SQLite.
 
 ### Список параметрів
 
@@ -26,5 +31,4 @@ SQLite.
 
 ### Значення, що повертаються
 
-Повертає рядок англійською, що описує останній невдалий
-SQLite запит.
+Повертає рядок англійською, що описує останній невдалий запит SQLite.

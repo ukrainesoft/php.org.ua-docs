@@ -1,70 +1,66 @@
-- [«imagesavealpha](function.imagesavealpha.md)
-- [imagesetbrush »](function.imagesetbrush.md)
+Масштабувати зображення за заданою шириною та висотою
 
-- [PHP Manual](index.md)
-- [Функції GD та функції для роботи із зображеннями](ref.image.md)
-- Масштабувати зображення за заданою шириною та висотою
+-   [« imagesavealpha](function.imagesavealpha.html)
+    
+-   [imagesetbrush »](function.imagesetbrush.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GD и функции для работы с изображениями](ref.image.html)
+    
+-   Масштабувати зображення за заданою шириною та висотою
+    
 
 # imagescale
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 imagescale — Масштабувати зображення за заданою шириною та висотою
 
 ### Опис
 
-**imagescale**(
-[GdImage](class.gdimage.md) `$image`,
-int `$width`,
-int `$height` = -1,
-int `$mode` = **`IMG_BILINEAR_FIXED`**
-): [GdImage](class.gdimage.md)\|false
+```methodsynopsis
+imagescale(    GdImage $image,    int $width,    int $height = -1,    int $mode = IMG_BILINEAR_FIXED): GdImage|false
+```
 
-**imagescale()** масштабує зображення, використовуючи заданий алгоритм
-інтерполяції.
+**imagescale()** масштабує зображення, використовуючи заданий алгоритм інтерполяції.
 
-> **Примітка**:
->
-> На відміну від багатьох функцій роботи з зображеннями,
-> **imagescale()** не змінює переданий параметр `image`; замість нього
-> Повернеться *нове* зображення.
+> **Зауваження**
+> 
+> На відміну від багатьох функцій роботи з зображеннями, **imagescale()** не змінює переданий параметр `image`; замість нього буде повернуто *нове* зображення.
 
 ### Список параметрів
 
 `image`
-Об'єкт [GdImage](class.gdimage.md), який повертається однією з функцій
-створення зображень, наприклад, такий як
-[imagecreatetruecolor()](function.imagecreatetruecolor.md).
+
+Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
 
 `width`
+
 Ширина масштабування.
 
 `height`
-Висота масштабування зображення. Якщо цей параметр опущено або
-негативний, співвідношення сторін буде збережено.
+
+Висота масштабування зображення. Якщо цей параметр опущений або негативний, співвідношення сторін буде збережено.
 
 `mode`
-Одна з констант **`IMG_NEAREST_NEIGHBOUR`**, **`IMG_BILINEAR_FIXED`**,
-**`IMG_BICUBIC`**, **`IMG_BICUBIC_FIXED`** або що-небудь ще (буде
-використано два проходи).
 
-> **Примітка**: **`IMG_WEIGHTED4`** ще не підтримується.
+Одна з констант **`IMG_NEAREST_NEIGHBOUR`** **`IMG_BILINEAR_FIXED`** **`IMG_BICUBIC`** **`IMG_BICUBIC_FIXED`** або ще щось (буде використано два проходи).
+
+> **Зауваження** **`IMG_WEIGHTED4`** поки що не підтримується.
 
 ### Значення, що повертаються
 
-Повертає об'єкт масштабованого зображення у разі успішного
-виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт масштабованого зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                   |
+| Версия | Описание |
+| --- | --- |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
-- [imagecopyresized()](function.imagecopyresized.md) - Копіювання та
-зміна розміру частини зображення
-- [imagecopyresampled()](function.imagecopyresampled.md) -
-Копіювання та зміна розміру зображення з ресемплюванням
+-   [imagecopyresized()](function.imagecopyresized.html) - Копіювання та зміна розміру частини зображення
+-   [imagecopyresampled()](function.imagecopyresampled.html) - Копіювання та зміна розміру зображення з ресемплюванням

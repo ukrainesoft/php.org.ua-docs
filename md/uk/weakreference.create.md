@@ -1,26 +1,34 @@
-- [« WeakReference::\_\_construct](weakreference.construct.md)
-- [WeakReference::get »](weakreference.get.md)
+Створює нове слабке посилання
 
-- [PHP Manual](index.md)
-- [WeakReference](class.weakreference.md)
-- Створює нове слабке посилання
+-   [« WeakReference::\_\_construct](weakreference.construct.html)
+    
+-   [WeakReference::get »](weakreference.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [WeakReference](class.weakreference.html)
+    
+-   Створює нове слабке посилання
+    
 
 # WeakReference::create
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 WeakReference::create — Створює нове слабке посилання
 
 ### Опис
 
-public static **WeakReference::create**(object `$object`):
-[WeakReference](class.weakreference.md)
+```methodsynopsis
+public static WeakReference::create(object $object): WeakReference
+```
 
-Створює новий [WeakReference](class.weakreference.md).
+Створює новий [WeakReference](class.weakreference.html)
 
 ### Список параметрів
 
 `object`
+
 Об'єкт для слабкого заслання.
 
 ### Значення, що повертаються

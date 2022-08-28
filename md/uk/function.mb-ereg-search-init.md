@@ -1,65 +1,61 @@
-- [«mb_ereg_search_getregs](function.mb-ereg-search-getregs.md)
-- [mb_ereg_search_pos »](function.mb-ereg-search-pos.md)
+Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Ініціалізація пошуку відповідностей регулярному виразу
-багатобайтовим рядком та текстом регулярного вираження
+-   [« mb\_ereg\_search\_getregs](function.mb-ereg-search-getregs.html)
+    
+-   [mb\_ereg\_search\_pos »](function.mb-ereg-search-pos.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+    
+-   Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
+    
 
-#mb_ereg_search_init
+# мбeregsearchinit
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-mb_ereg_search_init — Ініціалізація пошуку відповідностей регулярному
-виразу багатобайтовим рядком та текстом регулярного виразу
+мбeregsearchinit — Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного виразу
 
 ### Опис
 
-**mb_ereg_search_init**(string `$string`, ?string `$pattern` =
-**`null`**, ?string `$options` = **`null`**): bool
+```methodsynopsis
+mb_ereg_search_init(string $string, ?string $pattern = null, ?string $options = null): bool
+```
 
-**mb_ereg_search_init()** задає значення параметрів `string` та
-`pattern` для функцій регулярних виразів. Ці значення будуть
-використовуватись у функціях
-[mb_ereg_search()](function.mb-ereg-search.md),
-[mb_ereg_search_pos()](function.mb-ereg-search-pos.md) та
-[mb_ereg_search_regs()](function.mb-ereg-search-regs.md).
+**мбeregsearchinit()** задає значення параметрів `string` і `pattern` для функцій регулярних виразів. Ці значення будуть використовуватись у функціях [mb\_ereg\_search()](function.mb-ereg-search.html) [mb\_ereg\_search\_pos()](function.mb-ereg-search-pos.html) і [mb\_ereg\_search\_regs()](function.mb-ereg-search-regs.html)
 
 ### Список параметрів
 
 `string`
+
 Рядок, у якому здійснюватиметься пошук відповідностей.
 
 `pattern`
+
 Шаблон, регулярний вираз.
 
 `options`
-Опція пошуку. Детальніше дивіться
-[mb_regex_set_options()](function.mb-regex-set-options.md).
+
+Опція пошуку. Детальніше дивіться [mb\_regex\_set\_options()](function.mb-regex-set-options.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                               |
-|--------|----------------------------------------------------|
-| 8.0.0  | pattern та options тепер допускають значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `pattern` і `options` тепер допускають значення null. |
 
 ### Примітки
 
-> **Примітка**:
->
-> Для цієї функції буде використано внутрішнє кодування або
-> кодування, встановлене функцією
-> [mb_regex_encoding()](function.mb-regex-encoding.md).
+> **Зауваження**
+> 
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.html)
 
 ### Дивіться також
 
-- [mb_regex_encoding()](function.mb-regex-encoding.md) -
-Встановлює/отримує поточне кодування для багатобайтового
-регулярного вираження
-- [mb_ereg_search_regs()](function.mb-ereg-search-regs.md) -
-Повертає частину рядка, що збіглася з регулярним виразом.
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [mb\_ereg\_search\_regs()](function.mb-ereg-search-regs.html) - Повертає частину рядка, що збіглася з регулярним виразом.

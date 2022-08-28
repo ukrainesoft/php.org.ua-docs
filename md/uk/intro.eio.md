@@ -1,55 +1,138 @@
-- [«Eio](book.eio.md)
-- [Встановлення та налаштування »](eio.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [Eio](book.eio.md)
+-   [« Eio](book.eio.html)
+    
+-   [Установка и настройка »](eio.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio](book.eio.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Модуль реалізує підсистему введення-виводу POSIX I/O засобів
-[»libeio](http://software.schmorp.de/pkg/libeio.md) Бібліотека C
-Написана Марком Леманном (Marc Lehmann).
+Модуль реалізує підсистему введення-виведення POSIX I/O засобів [» libeio](http://software.schmorp.de/pkg/libeio.html) Бібліотека C Написана Марком Леманном (Marc Lehmann).
 
-> **Примітка**: Для Windows-платформ цей модуль недоступний.
+> **Зауваження**: Для Windows-платформ цей модуль недоступний.
 
 **Увага**
 
-Слід врахувати, що кожен запит виконується в окремому потоці,
-цьому виконання запитів безперервно, а їх порядок у черзі виконання
-непередбачуваний. Наприклад, наведений нижче приклад коду невірний.
+Слід врахувати, кожен запит виконується окремому потоці, у своїй виконання запитів безперервно, які порядок у черзі виконання непередбачуваний. Наприклад, наведений нижче приклад коду невірний.
 
 **Приклад #1 Приклад неправильних запитів**
 
-`<?php// Запрос на створення символічного посилання $link на файл $filenameeio_symlink($filename, $link);// Запрос на перейменування файлу| ;?> `
+```php
+<?php
+// Запрос на создание символической ссылки $link на файл $filename
+eio_symlink($filename, $link);
 
-У наведеному вище прикладі запит
-[eio_rename()](function.eio-rename.md) може бути виконаний перед
-[eio_symlink()](function.eio-symlink.md). Правильним рішенням буде
-виклик [eio_rename()](function.eio-rename.md) callback-функцією в
-[eio_symlink()](function.eio-symlink.md):
+// Запрос на переименование файла $filename в $new_filename
+eio_rename($filename, $new_filename);
+
+// Выполнение запросов
+eio_event_loop();
+?>
+```
+
+У наведеному вище прикладі запит [eio\_rename()](function.eio-rename.html) може бути виконаний перед [eio\_symlink()](function.eio-symlink.html). Правильним рішенням буде виклик [eio\_rename()](function.eio-rename.html) callback-функцією в [eio\_symlink()](function.eio-symlink.html)
 
 **Приклад #2 Створення запиту за допомогою callback-функції**
 
-` <?phpfunction my_symlink_done($filename, $result) { // Запрос на перемінування $filename в $new_filename eio_rename($filename, "/path/to/new-name"); // Виконання запитів eio_event_loop();}// Запит на створення символічного посилання $link на файл $filenameeio_symlink($filename, $link, e__і_дозаписів)
+```php
+<?php
+function my_symlink_done($filename, $result) {
+ // Запрос на переменование $filename в $new_filename
+ eio_rename($filename, "/path/to/new-name");
+
+ // Выполнение запросов
+ eio_event_loop();
+}
+
+// Запрос на создание символической ссылки $link на файл $filename
+eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_done", $filename);
+
+// Выполнение запросов
+eio_event_loop();
+?>
+```
 
 Альтернативним рішенням є створення групи запитів:
 
 **Приклад #3 Створення запиту за допомогою callback-функції**
 
-` <?php/* Функція викликається після виконання групи запитів */function my_grp_done($data, $result) { // ...}function my_symlink_done($filename, у result)     $req==eio_rename($filename,"/path/to/new-name"); eio_grp_add($grp, $req); // Можливо, ви захочете додати більше запитів...}// Створення групи запитів$grp = eio_grp("my_grp_done", "my_grp_data");// Створення запрошення  функцію$req = eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_done", $filename);eio_grp_add($grp, $req);// Виконання запитівeio_e
+```php
+<?php
+/* Функция вызывается после выполнения группы запросов */
+function my_grp_done($data, $result) {
+ // ...
+}
 
-Група - це спеціальний вид запиту, що дозволяє створити набір звичайних
-*eio*-запитів. Це може бути використано для створення складних
-запитів, що відкривають, читають та закривають файл.
+function my_symlink_done($filename, $result) {
+ // Создание запроса eio_rename и добавление его в группу
+ $req = eio_rename($filename, "/path/to/new-name");
+ eio_grp_add($grp, $req);
+ // Возможно, вы захотите добавить больше запросов...
+}
 
-Починаючи з версії 0.3.0 alpha, змінна, що використовується для внутрішнього
-взаємодії з libeio, може бути отримана функцією
-[eio_get_event_stream()](function.eio-get-event-stream.md). Змінна
-може бути використана для прив'язки до циклу обробки, що поставляється
-стороннім модулем. Можливо організувати простий цикл обробки, де eio
-та libevent працюють спільно.
+// Создание группы запросов
+$grp = eio_grp("my_grp_done", "my_grp_data");
+
+// Создание запроса eio_symlink request и добавление в группу
+// Передача $filename в callback-функцию
+$req = eio_symlink($filename, $link,
+  EIO_PRI_DEFAULT, "my_symlink_done", $filename);
+eio_grp_add($grp, $req);
+
+// Выполнение запросов
+eio_event_loop();
+?>
+```
+
+Група – це спеціальний вид запиту, що дозволяє створити набір звичайних. *eio*запитів. Це може бути використане для створення складних запитів, які відкривають, читають та закривають файл.
+
+Починаючи з версії 0.3.0 alpha, змінна, що використовується для внутрішньої взаємодії з libeio, може бути отримана функцією [eio\_get\_event\_stream()](function.eio-get-event-stream.html). Змінна може бути використана для прив'язки до циклу обробки, що поставляється стороннім модулем. Можливо організувати простий цикл обробки, де eio і libevent працюють спільно.
 
 **Приклад #4 Використання eio спільно з libevent**
 
-`<?phpfunction my_eio_poll($fd, $events, $arg) {    /* Деякі дії с libevent можуть бути тут */    if (eio_n   }    /* .. і тут */}function my_res_cb($d, $r) {   var_dump($r); var_dump($d);}$base==event_base_new();$event = event_new();// Цей потік потрібно для прив'язки к libevent$fd = eio_get_event_stream(" ;eio_mkdir("/tmp/abc-eio-temp", 0750, EIO_PRI_DEFAULT, "my_res_cb", "mkdir data");/* Інші eio_* запити ... f , EV_READ /*| EV_PERSIST*/, "my_eio_poll", array($event, $base));// Установка основи подіїevent_base_set($event, $base);// Включення за ($base);/* То ж най доступніше через інтерфейс буфера libevent */?> `
+```php
+<?php
+function my_eio_poll($fd, $events, $arg) {
+    /* Некоторые действия с libevent могут быть здесь */
+    if (eio_nreqs()) {
+        eio_poll();
+    }
+    /* .. и здесь */
+}
+
+function my_res_cb($d, $r) {
+    var_dump($r); var_dump($d);
+}
+
+$base = event_base_new();
+$event = event_new();
+
+// Этот поток требуется для привязки к libevent
+$fd = eio_get_event_stream();
+
+eio_nop(EIO_PRI_DEFAULT, "my_res_cb", "nop data");
+eio_mkdir("/tmp/abc-eio-temp", 0750, EIO_PRI_DEFAULT, "my_res_cb", "mkdir data");
+/* Прочие eio_* запросы  ... */
+
+
+// Установка флагов события
+event_set($event, $fd, EV_READ /*| EV_PERSIST*/, "my_eio_poll", array($event, $base));
+
+// Установка основы события
+event_base_set($event, $base);
+
+// Включение события
+event_add($event);
+
+// Запуск цикла обработки
+event_base_loop($base);
+
+/* То же самое доступно через интерфейс буфера libevent */
+?>
+```

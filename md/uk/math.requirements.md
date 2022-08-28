@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](math.setup.md)
-- [Встановлення »](math.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](math.setup.md)
-- Вимоги
+-   [« Установка и настройка](math.setup.html)
+    
+-   [Установка »](math.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](math.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

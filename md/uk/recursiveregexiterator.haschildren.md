@@ -1,25 +1,29 @@
-- [« RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)
-- [RecursiveTreeIterator »](class.recursivetreeiterator.md)
+Визначає, чи можлива навігація за вмістом поточного елемента
 
-- [PHP Manual](index.md)
-- [RecursiveRegexIterator](class.recursiveregexiterator.md)
-- Визначає, чи можлива навігація вмісту поточного елемента
+-   [« RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.html)
+    
+-   [RecursiveTreeIterator »](class.recursivetreeiterator.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveRegexIterator](class.recursiveregexiterator.html)
+    
+-   Визначає, чи можлива навігація за вмістом поточного елемента
+    
 
 # RecursiveRegexIterator::hasChildren
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-RecursiveRegexIterator::hasChildren — Визначає, чи можлива навігація
-за вмістом поточного елемента
+RecursiveRegexIterator::hasChildren — Визначає, чи можлива навігація за вмістом поточного елемента
 
 ### Опис
 
-public **RecursiveRegexIterator::hasChildren**(): bool
+```methodsynopsis
+public RecursiveRegexIterator::hasChildren(): bool
+```
 
-Визначає, чи можлива навігація вмісту поточного елемента. В
-якщо поточний елемент має дочірні елементи, ітератор для них
-можна отримати методом
-[RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.md).
+Визначає, чи можлива навігація вмісту поточного елемента. Якщо поточний елемент має дочірні елементи, ітератор для них можна отримати методом [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.html)
 
 ### Список параметрів
 
@@ -27,22 +31,31 @@ public **RecursiveRegexIterator::hasChildren**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо можлива навігація за вмістом поточного
-елемента, **`false`** інакше.
+Повертає **`true`**, якщо можлива навігація вмісту поточного елемента, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**RecursiveRegexIterator::hasChildren()****
+**Приклад #1 Приклад використання **RecursiveRegexIterator::hasChildren()****
 
-` <?php$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));$rRegexIterator = new RecursiveRegexItera   ::ALL_MATCHES);foreach ($rRegexIterator as $value) {    var_dump($rRegexIterator->hasChildren());}?> `
+```php
+<?php
+$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));
+$rRegexIterator = new RecursiveRegexIterator($rArrayIterator, '/^test/',
+    RecursiveRegexIterator::ALL_MATCHES);
+
+foreach ($rRegexIterator as $value) {
+    var_dump($rRegexIterator->hasChildren());
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(false)
 bool(true)
+```
 
 ### Дивіться також
 
-- [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.md) -
-Повертає ітератор для поточного елемента
+-   [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.html) - Повертає ітератор для поточного елемента

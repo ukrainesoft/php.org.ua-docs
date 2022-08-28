@@ -1,25 +1,33 @@
-- [« MongoDB\BSON\MaxKey::serialize](mongodb-bson-maxkey.serialize.md)
-- [MongoDB\BSON\MinKey »](class.mongodb-bson-minkey.md)
+Десеріалізує MaxKey
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)
-- Десеріалізує MaxKey
+-   [« MongoDB\\BSON\\MaxKey::serialize](mongodb-bson-maxkey.serialize.html)
+    
+-   [MongoDB\\BSON\\MinKey »](class.mongodb-bson-minkey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
+    
+-   Десеріалізує MaxKey
+    
 
-# MongoDB\BSON\MaxKey::unserialize
+# MongoDBBSONMaxKey::unserialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\MaxKey::unserialize — Десеріалізує MaxKey
+MongoDBBSONMaxKey::unserialize — Десеріалізує MaxKey
 
 ### Опис
 
-final public **MongoDB\BSON\MaxKey::unserialize**(string `$serialized`):
-void
+```methodsynopsis
+final public MongoDB\BSON\MaxKey::unserialize(string $serialized): void
+```
 
 ### Список параметрів
 
 `serialized`
-Серіалізований [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md).
+
+Серіалізований [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.html)
 
 ### Значення, що повертаються
 
@@ -27,13 +35,10 @@ void
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\MaxKey::serialize()](mongodb-bson-maxkey.serialize.md) -
-Серіалізує MaxKey
-- [unserialize()](function.unserialize.md) - Створює PHP-значення з
-збереженого уявлення
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\MaxKey::serialize()](mongodb-bson-maxkey.serialize.html) - Серіалізує MaxKey
+-   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
+-   [Сериализация объектов](language.oop5.serialization.html)

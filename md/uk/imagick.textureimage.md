@@ -1,9 +1,15 @@
-- [« Imagick::swirlImage](imagick.swirlimage.md)
-- [Imagick::thresholdImage »](imagick.thresholdimage.md)
+Багаторазово розміщує зображення текстури
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Багаторазово розміщує зображення текстури
+-   [« Imagick::swirlImage](imagick.swirlimage.html)
+    
+-   [Imagick::thresholdImage »](imagick.thresholdimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Багаторазово розміщує зображення текстури
+    
 
 # Imagick::textureImage
 
@@ -13,21 +19,21 @@ Imagick::textureImage — Багаторазово розміщує зображ
 
 ### Опис
 
-**Imagick::textureImage**([Imagick](class.imagick.md)
-`$texture_wand`): [Imagick](class.imagick.md)
+```methodsynopsis
+Imagick::textureImage(Imagick $texture_wand): Imagick
+```
 
-Багаторазово розміщує зображення текстури поперек та вниз по полотну
-зображення.
+Багаторазово розміщує зображення текстури поперек та вниз по полотну зображення.
 
 ### Список параметрів
 
 `texture_wand`
+
 Об'єкт Imagick для використання як зображення текстури.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт Imagick, до якого застосована повторювана
-текстури.
+Повертає новий об'єкт Imagick, до якого застосована текстура, що повторюється.
 
 ### Помилки
 
@@ -37,4 +43,18 @@ Imagick::textureImage — Багаторазово розміщує зображ
 
 **Приклад #1 Приклад використання **Imagick::textureImage()****
 
-` <?phpfunction textureImage($imagePath) {   $image = new \Imagick(); $image->newImage(640, 480, new \ImagickPixel('pink')); $image->setImageFormat("jpg"); $texture = new \Imagick(realpath($imagePath)); $texture->scaleimage($image->getimagewidth() / 4, $image->getimageheight() / 4); $image = $image->textureImage($texture); header("Content-Type: image/jpg"); echo $image;}?> `
+```php
+<?php
+function textureImage($imagePath) {
+    $image = new \Imagick();
+    $image->newImage(640, 480, new \ImagickPixel('pink'));
+    $image->setImageFormat("jpg");
+    $texture = new \Imagick(realpath($imagePath));
+    $texture->scaleimage($image->getimagewidth() / 4, $image->getimageheight() / 4);
+    $image = $image->textureImage($texture);
+    header("Content-Type: image/jpg");
+    echo $image;
+}
+
+?>
+```

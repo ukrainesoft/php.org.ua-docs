@@ -1,18 +1,22 @@
-- [«socket_get_status](function.socket-get-status.md)
-- [socket_set_timeout »](function.socket-set-timeout.md)
+Псевдонім streamsetblocking
 
-- [PHP Manual](index.md)
-- [Мережні функції](ref.network.md)
-- Псевдонім stream_set_blocking
+-   [« socket\_get\_status](function.socket-get-status.html)
+    
+-   [socket\_set\_timeout »](function.socket-set-timeout.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сетевые функции](ref.network.html)
+    
+-   Псевдонім streamsetblocking
+    
 
-# socket_set_blocking
+# socketsetblocking
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-socket_set_blocking - Псевдонім
-[stream_set_blocking()](function.stream-set-blocking.md)
+socketsetblocking — Псевдонім [stream\_set\_blocking()](function.stream-set-blocking.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[stream_set_blocking()](function.stream-set-blocking.md).
+Ця функція є псевдонімом: [stream\_set\_blocking()](function.stream-set-blocking.html)

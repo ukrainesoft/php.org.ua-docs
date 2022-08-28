@@ -1,35 +1,41 @@
-- [« Ds\Vector::allocate](ds-vector.allocate.md)
-- [Ds\Vector::capacity »](ds-vector.capacity.md)
+Оновлює всі значення, застосовуючи до них передану callback-функцію
 
-- [PHP Manual](index.md)
-- [Вектор](class.ds-vector.md)
-- Оновлює всі значення, застосовуючи до них передану callback-функцію
+-   [« Ds\\Vector::allocate](ds-vector.allocate.html)
+    
+-   [Ds\\Vector::capacity »](ds-vector.capacity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Вектор](class.ds-vector.html)
+    
+-   Оновлює всі значення, застосовуючи до них передану callback-функцію
+    
 
-# Ds\Vector::apply
+# ДсVector::apply
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Vector::apply — Оновлює всі значення, застосовуючи до них передану
-callback-функцію
+ДсVector::apply — Оновлює всі значення, застосовуючи до них передану callback-функцію
 
 ### Опис
 
-public **Ds\Vector::apply**([callable](language.types.callable.md)
-`$callback`): void
+```methodsynopsis
+public Ds\Vector::apply(callable $callback): void
+```
 
-Оновлює всі значення, застосовуючи до них передану callback-функцію.
+Оновлює всі значення, застосовуючи до них передану `callback`функцію.
 
 ### Список параметрів
 
 `callback`
-callback([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Об'єкт типу [callable](language.types.callable.md).
+```methodsynopsis
+callback(mixed $value): mixed
+```
 
-Callback-функція має повертати нове значення, яке замінить
-поточний.
+Об'єкт типу [callable](language.types.callable.html)
+
+Callback-функція має повертати нове значення, яке замінить поточне.
 
 ### Значення, що повертаються
 
@@ -37,15 +43,24 @@ Callback-функція має повертати нове значення, я�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Vector::apply()****
+**Приклад #1 Приклад використання **ДсVector::apply()****
 
-` <?php$vector = new \Ds\Vector([1, 2, 3]);$vector->apply(function($value) { return $value * 2; });print_r($vector);? > `
+```php
+<?php
+$vector = new \Ds\Vector([1, 2, 3]);
+$vector->apply(function($value) { return $value * 2; });
+
+print_r($vector);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => 2
-[1] => 4
-[2] => 6
+    [0] => 2
+    [1] => 4
+    [2] => 6
 )
+```

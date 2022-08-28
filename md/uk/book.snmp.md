@@ -1,80 +1,58 @@
-- [« scoutapm_list_instrumented_functions](function.scoutapm-list-instrumented-functions.md)
-- [Вступ »](intro.snmp.md)
+SNMP
 
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
-- SNMP
+-   [« scoutapm\_list\_instrumented\_functions](function.scoutapm-list-instrumented-functions.html)
+    
+-   [Введение »](intro.snmp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие службы](refs.remote.other.html)
+    
+-   SNMP
+    
 
 # SNMP
 
-- [Вступ](intro.snmp.md)
-- [Встановлення та налаштування](snmp.setup.md)
-- [Вимоги](snmp.requirements.md)
-- [Установка](snmp.installation.md)
-- [Налаштування під час виконання](snmp.configuration.md)
-- [Типи ресурсів](snmp.resources.md)
-- [Предвизначені константи](snmp.constants.md)
-- [Функції SNMP](ref.snmp.md)
-- [snmp_get_quick_print](function.snmp-get-quick-print.md) -
-Отримує поточне значення параметра бібліотеки quick_print
-NET-SNMP
-- [snmp_get_valueretrieval](function.snmp-get-valueretrieval.md)
-— Повертає метод, як буде повернено значення SNMP
-- [snmp_read_mib](function.snmp-read-mib.md) — Читає та
-аналізує файл MIB у активному дереві MIB
-- [snmp_set_enum_print](function.snmp-set-enum-print.md) -
-Повертає всі значення, які є перерахуваннями, за їх
-значенням перерахування замість необробленого цілого числа
-- [snmp_set_oid_numeric_print](function.snmp-set-oid-numeric-print.md)
-— Встановлює вихідний формат OID
-- [snmp_set_oid_output_format](function.snmp-set-oid-output-format.md)
-— Встановлює вихідний формат OID
-- [snmp_set_quick_print](function.snmp-set-quick-print.md) -
-Встановлює значення enable у бібліотеці NET-SNMP
-- [snmp_set_valueretrieval](function.snmp-set-valueretrieval.md)
-— Визначає спосіб повернення значень SNMP
-- [snmp2_get](function.snmp2-get.md) — Отримує об'єкт SNMP
-- [snmp2_getnext](function.snmp2-getnext.md) — Отримує об'єкт
-SNMP, який слідує за даним ідентифікатором об'єкта
-- [snmp2_real_walk](function.snmp2-real-walk.md) - Повертає
-всі об'єкти, включаючи їх ідентифікатор
-- [snmp2_set](function.snmp2-set.md) — Встановлює значення
-об'єкта SNMP
-- [snmp2_walk](function.snmp2-walk.md) — Отримує всі об'єкти
-SNMP з агента
-- [snmp3_get](function.snmp3-get.md) — Отримує об'єкт SNMP
-- [snmp3_getnext](function.snmp3-getnext.md) — Отримує об'єкт
-SNMP, який слідує за вказаним ідентифікатором об'єкта
-- [snmp3_real_walk](function.snmp3-real-walk.md) - Повертає
-всі об'єкти, включаючи їх ідентифікатор у вказаному об'єкті
-- [snmp3_set](function.snmp3-set.md) — Встановлює значення
-об'єкта SNMP
-- [snmp3_walk](function.snmp3-walk.md) — Отримує всі об'єкти
-SNMP з агента
-- [snmpget](function.snmpget.md) — Отримує об'єкт SNMP
-- [snmpgetnext](function.snmpgetnext.md) — Отримує об'єкт SNMP,
-який слідує за даним ідентифікатором об'єкта
-- [snmprealwalk](function.snmprealwalk.md) - Повертає все
-об'єкти, включаючи їх ідентифікатор
-- [snmpset](function.snmpset.md) — Встановлює значення
-об'єкта SNMP
-- [snmpwalk](function.snmpwalk.md) — Отримує всі об'єкти SNMP
-з агента
-- [snmpwalkoid](function.snmpwalkoid.md) — Запит дерева
-інформації про мережевий об'єкт
-- [SNMP](class.snmp.md) - Клас SNMP
-- [SNMP::close](snmp.close.md) — Закриває сесію SNMP
-- [SNMP::\_\_construct](snmp.construct.md) — Створює екземпляр
-SNMP, що представляє сесію віддаленого агента SNMP
-- [SNMP::get](snmp.get.md) — Отримує об'єкт SNMP
-- [SNMP::getErrno](snmp.geterrno.md) — Отримує код останнього
-помилки
-- [SNMP::getError](snmp.geterror.md) — Отримує останнє
-повідомлення про помилку
-- [SNMP::getnext](snmp.getnext.md) — Отримати об'єкт SNMP,
-який слідує за даним ідентифікатором об'єкта
-- [SNMP::set](snmp.set.md) — Встановлює значення об'єкта SNMP
-- [SNMP::setSecurity](snmp.setsecurity.md) — Налаштовує
-пов'язані з безпекою параметри сесії SNMPv3
-- [SNMP::walk](snmp.walk.md) — Отримує піддерево об'єкта SNMP
-- [SNMPException](class.snmpexception.md) - Клас SNMPException
+-   [Введение](intro.snmp.html)
+-   [Установка и настройка](snmp.setup.html)
+    -   [Требования](snmp.requirements.html)
+    -   [Установка](snmp.installation.html)
+    -   [Настройка во время выполнения](snmp.configuration.html)
+    -   [Типы ресурсов](snmp.resources.html)
+-   [Предопределённые константы](snmp.constants.html)
+-   [Функции SNMP](ref.snmp.html)
+    -   [snmp\_get\_quick\_print](function.snmp-get-quick-print.html) — Отримує поточне значення Quickprint бібліотеки NET-SNMP
+    -   [snmp\_get\_valueretrieval](function.snmp-get-valueretrieval.html) — Повертає метод, як буде повернено значення SNMP
+    -   [snmp\_read\_mib](function.snmp-read-mib.html) — Читає та аналізує файл MIB у активному дереві MIB
+    -   [snmp\_set\_enum\_print](function.snmp-set-enum-print.html) — Повертає всі значення, які є перерахуваннями, зі значенням їх перерахування замість необробленого цілого числа
+    -   [snmp\_set\_oid\_numeric\_print](function.snmp-set-oid-numeric-print.html) — Встановлює вихідний OID
+    -   [snmp\_set\_oid\_output\_format](function.snmp-set-oid-output-format.html) — Встановлює вихідний OID
+    -   [snmp\_set\_quick\_print](function.snmp-set-quick-print.html) — Встановлює значення enable у бібліотеці NET-SNMP
+    -   [snmp\_set\_valueretrieval](function.snmp-set-valueretrieval.html) — Визначає спосіб повернення значень SNMP
+    -   [snmp2\_get](function.snmp2-get.html) — Отримує об'єкт SNMP
+    -   [snmp2\_getnext](function.snmp2-getnext.html) — Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+    -   [snmp2\_real\_walk](function.snmp2-real-walk.html) — Повертає всі об'єкти, включаючи їхній ідентифікатор
+    -   [snmp2\_set](function.snmp2-set.html) — Встановлює значення об'єкта SNMP
+    -   [snmp2\_walk](function.snmp2-walk.html) — Отримує всі об'єкти SNMP із агента
+    -   [snmp3\_get](function.snmp3-get.html) — Отримує об'єкт SNMP
+    -   [snmp3\_getnext](function.snmp3-getnext.html) — Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
+    -   [snmp3\_real\_walk](function.snmp3-real-walk.html) — Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
+    -   [snmp3\_set](function.snmp3-set.html) — Встановлює значення об'єкта SNMP
+    -   [snmp3\_walk](function.snmp3-walk.html) — Отримує всі об'єкти SNMP із агента
+    -   [snmpget](function.snmpget.html) — Отримує об'єкт SNMP
+    -   [snmpgetnext](function.snmpgetnext.html) — Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+    -   [snmprealwalk](function.snmprealwalk.html) — Повертає всі об'єкти, включаючи їхній ідентифікатор
+    -   [snmpset](function.snmpset.html) — Встановлює значення об'єкта SNMP
+    -   [snmpwalk](function.snmpwalk.html) — Отримує всі об'єкти SNMP із агента
+    -   [snmpwalkoid](function.snmpwalkoid.html) - Запит дерева інформації про мережевий об'єкт
+-   [SNMP](class.snmp.html) - Клас SNMP
+    -   [SNMP::close](snmp.close.html) — Закриває сесію SNMP
+    -   [SNMP::\_\_construct](snmp.construct.html) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+    -   [SNMP::get](snmp.get.html) — Отримує об'єкт SNMP
+    -   [SNMP::getErrno](snmp.geterrno.html) — Отримує код останньої помилки
+    -   [SNMP::getError](snmp.geterror.html) — Отримує останнє повідомлення про помилку
+    -   [SNMP::getnext](snmp.getnext.html) — Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+    -   [SNMP::set](snmp.set.html) — Встановлює значення об'єкта SNMP
+    -   [SNMP::setSecurity](snmp.setsecurity.html) — Налаштовує пов'язані з безпекою параметри сесії SNMPv3
+    -   [SNMP::walk](snmp.walk.html) — Отримує піддерево об'єкта SNMP
+-   [SNMPException](class.snmpexception.html) - Клас SNMPException

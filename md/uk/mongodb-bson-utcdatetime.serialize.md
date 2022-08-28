@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\UTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.md)
-- [MongoDB\BSON\UTCDateTime::toDateTime »](mongodb-bson-utcdatetime.todatetime.md)
+Серіалізує UTCDateTime
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
-- Серіалізує UTCDateTime
+-   [« MongoDB\\BSON\\UTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\UTCDateTime::toDateTime »](mongodb-bson-utcdatetime.todatetime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.html)
+    
+-   Серіалізує UTCDateTime
+    
 
-# MongoDB\BSON\UTCDateTime::serialize
+# MongoDBBSONUTCDateTime::serialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\UTCDateTime::serialize — Серіалізує UTCDateTime
+MongoDBBSONUTCDateTime::serialize — Серіалізує UTCDateTime
 
 ### Опис
 
-final public **MongoDB\BSON\UTCDateTime::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\UTCDateTime::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\UTCDateTime::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\UTCDateTime::unserialize()](mongodb-bson-utcdatetime.unserialize.md) -
-Десеріалізує UTCDateTime
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\UTCDateTime::unserialize()](mongodb-bson-utcdatetime.unserialize.html) - Десеріалізує UTCDateTime
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

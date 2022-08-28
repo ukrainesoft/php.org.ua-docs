@@ -1,99 +1,102 @@
-- [« Swoole\Channel::stats](swoole-channel.stats.md)
-- [Swoole\Client::close »](swoole-client.close.md)
+Клас SwooleClient
 
-- [PHP Manual](index.md)
-- [Swoole](book.swoole.md)
-- Клас Swoole\Client
+-   [« Swoole\\Channel::stats](swoole-channel.stats.html)
+    
+-   [Swoole\\Client::close »](swoole-client.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole](book.swoole.html)
+    
+-   Клас SwooleClient
+    
 
-# Клас Swoole\Client
+# Клас SwooleClient
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
 ## Вступ
 
 ## Огляд класів
 
-class **Swoole\Client** {
+```classsynopsis
 
-/\* Constants \*/
 
-const int `MSG_OOB` = 1;
 
-const int `MSG_PEEK` = 2;
+    
+     
+      class Swoole\Client
+     
+     {
 
-const int `MSG_DONTWAIT` = 128;
+    /* Constants */
+    
+     const
+     int
+      MSG_OOB = 1;
 
-const int `MSG_WAITALL` = 64;
+    const
+     int
+      MSG_PEEK = 2;
 
-/\* Властивості \*/
+    const
+     int
+      MSG_DONTWAIT = 128;
 
-public `$errCode`;
+    const
+     int
+      MSG_WAITALL = 64;
 
-public `$sock`;
 
-public `$reuse`;
+    /* Свойства */
+    public
+      $errCode;
 
-public `$reuseCount`;
+    public
+      $sock;
 
-/\* Методи \*/
+    public
+      $reuse;
 
-public [close](swoole-client.close.md)(bool `$force` = ?): bool
+    public
+      $reuseCount;
 
-public [connect](swoole-client.connect.md)(
-string `$host`,
-int `$port` = ?,
-int `$timeout` = ?,
-int `$flag` = ?
-): bool
 
-public [\_\_destruct](swoole-client.destruct.md)(): void
 
-public [getpeername](swoole-client.getpeername.md)(): array
+    /* Методы */
+    
+   public close(bool $force = ?): bool
+public connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
+public __destruct(): void
+public getpeername(): array
+public getsockname(): array
+public isConnected(): bool
+public on(string $event, callable $callback): void
+public pause(): void
+public pipe(string $socket): void
+public recv(string $size = ?, string $flag = ?): void
+public resume(): void
+public send(string $data, string $flag = ?): int
+public sendfile(string $filename, int $offset = ?): bool
+public sendto(string $ip, int $port, string $data): bool
+public set(array $settings): void
+public sleep(): void
+public wakeup(): void
 
-public [getsockname](swoole-client.getsockname.md)(): array
-
-public [isConnected](swoole-client.isconnected.md)(): bool
-
-public [on](swoole-client.on.md)(string `$event`,
-[callable](language.types.callable.md) `$callback`): void
-
-public [pause](swoole-client.pause.md)(): void
-
-public [pipe](swoole-client.pipe.md)(string `$socket`): void
-
-public [recv](swoole-client.recv.md)(string `$size` = ?, string
-`$flag` = ?): void
-
-public [resume](swoole-client.resume.md)(): void
-
-public [send](swoole-client.send.md)(string `$data`, string `$flag` =
-?): int
-
-public [sendfile](swoole-client.sendfile.md)(string `$filename`, int
-`$offset` = ?): bool
-
-public [sendto](swoole-client.sendto.md)(string `$ip`, int `$port`,
-string `$data`): bool
-
-public [set](swoole-client.set.md)(array `$settings`): void
-
-public [sleep](swoole-client.sleep.md)(): void
-
-public [wakeup](swoole-client.wakeup.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`errCode`
+errCode
 
-`sock`
+sock
 
-`reuse`
+reuse
 
-`reuseCount`
+reuseCount
 
-## Зумовлені константи
+## Обумовлені константи
 
 **`Swoole\Client::MSG_OOB`**
 
@@ -105,40 +108,21 @@ public [wakeup](swoole-client.wakeup.md)(): void
 
 ## Зміст
 
-- [Swoole\Client::close](swoole-client.close.md) - Закриває
-встановлене з'єднання
-- [Swoole\Client::connect](swoole-client.connect.md) — Підключається
-до віддаленого порту TCP або UDP
-- [Swoole\Client::\_\_construct](swoole-client.construct.md) -
-Створює синхронний або асинхронний TCP/UDP клієнт Swoole з
-підтримкою SSL або без нього
-- [Swoole\Client::\_\_destruct](swoole-client.destruct.md) -
-Знищує клієнт Swoole
-- [Swoole\Client::getpeername](swoole-client.getpeername.md) -
-Отримує ім'я віддаленого сокету з'єднання
-- [Swoole\Client::getsockname](swoole-client.getsockname.md) -
-Отримує локальне ім'я сокета з'єднання
-- [Swoole\Client::isConnected](swoole-client.isconnected.md) -
-Перевіряє, чи з'єднання встановлено
-- [Swoole\Client::on](swoole-client.on.md) - Додає
-callback-функції, спричинені подіями
-- [Swoole\Client::pause](swoole-client.pause.md) - Припиняє
-отримання даних
-- [Swoole\Client::pipe](swoole-client.pipe.md) - Перенаправляє
-дані в інший файловий дескриптор
-- [Swoole\Client::recv](swoole-client.recv.md) — Отримує дані з
-віддаленого сокету
-- [Swoole\Client::resume](swoole-client.resume.md) - Відновлює
-отримання даних
-- [Swoole\Client::send](swoole-client.send.md) — Надсилає дані в
-віддалений TCP-сокет
-- [Swoole\Client::sendfile](swoole-client.sendfile.md) - Відправляє
-файл у віддалений TCP-сокет
-- [Swoole\Client::sendto](swoole-client.sendto.md) - Відправляє
-дані на віддалену UDP-адресу
-- [Swoole\Client::set](swoole-client.set.md) - Встановлює
-параметри клієнта Swoole до встановлення з'єднання
-- [Swoole\Client::sleep](swoole-client.sleep.md) — Видаляє
-TCP-клієнт із циклу системних подій
-- [Swoole\Client::wakeup](swoole-client.wakeup.md) - Додає
-TCP-клієнт назад у цикл системних подій
+-   [Swoole\\Client::close](swoole-client.close.html) — Закриває встановлене з'єднання
+-   [Swoole\\Client::connect](swoole-client.connect.html) — Підключається до віддаленого порту TCP або UDP
+-   [Swoole\\Client::\_\_construct](swoole-client.construct.html) — Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
+-   [Swoole\\Client::\_\_destruct](swoole-client.destruct.html) - Знищує клієнт Swoole
+-   [Swoole\\Client::getpeername](swoole-client.getpeername.html) — Отримує ім'я віддаленого сокету з'єднання
+-   [Swoole\\Client::getsockname](swoole-client.getsockname.html) — Отримує локальне ім'я сокета з'єднання
+-   [Swoole\\Client::isConnected](swoole-client.isconnected.html) — Перевіряє, чи з'єднання встановлено.
+-   [Swoole\\Client::on](swoole-client.on.html) — Додає callback-функції, спричинені подіями
+-   [Swoole\\Client::pause](swoole-client.pause.html) — Припиняє отримання даних
+-   [Swoole\\Client::pipe](swoole-client.pipe.html) — Перенаправляє дані до іншого файлового дескриптора.
+-   [Swoole\\Client::recv](swoole-client.recv.html) — Отримує дані із віддаленого сокету
+-   [Swoole\\Client::resume](swoole-client.resume.html) — Відновлює отримання даних
+-   [Swoole\\Client::send](swoole-client.send.html) — Надсилає дані у віддалений TCP-сокет
+-   [Swoole\\Client::sendfile](swoole-client.sendfile.html) — Надсилає файл у віддалений TCP-сокет
+-   [Swoole\\Client::sendto](swoole-client.sendto.html) — Надсилає дані на віддалену UDP-адресу
+-   [Swoole\\Client::set](swoole-client.set.html) — Встановлює параметри Swoole до встановлення з'єднання
+-   [Swoole\\Client::sleep](swoole-client.sleep.html) — Видаляє TCP-клієнт із циклу системних подій
+-   [Swoole\\Client::wakeup](swoole-client.wakeup.html) — Додає TCP-клієнт назад у цикл системних подій

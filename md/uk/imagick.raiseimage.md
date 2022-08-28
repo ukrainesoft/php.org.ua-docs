@@ -1,9 +1,15 @@
-- [« Imagick::radialBlurImage](imagick.radialblurimage.md)
-- [Imagick::randomThresholdImage »](imagick.randomthresholdimage.md)
+Створює імітацію ефекту 3D-кнопки
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Створює імітацію ефекту 3D-кнопки
+-   [« Imagick::radialBlurImage](imagick.radialblurimage.html)
+    
+-   [Imagick::randomThresholdImage »](imagick.randomthresholdimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Створює імітацію ефекту 3D-кнопки
+    
 
 # Imagick::raiseImage
 
@@ -13,17 +19,11 @@ Imagick::raiseImage — Створює імітацію ефекту 3D-кноп
 
 ### Опис
 
-public **Imagick::raiseImage**(
-int `$width`,
-int `$height`,
-int `$x`,
-int `$y`,
-bool `$raise`
-): bool
+```methodsynopsis
+public Imagick::raiseImage(    int $width,    int $height,    int $x,    int $y,    bool $raise): bool
+```
 
-Створює імітацію тривимірного ефекту кнопки, освітлюючи та затемнюючи краї
-зображення. Ширина та висота елементів raise_info визначають ширину
-вертикального та горизонтального краю ефекту.
+Створює імітацію тривимірного ефекту кнопки, освітлюючи та затемнюючи краї зображення. Ширина та висота елементів raiseinfo визначають ширину вертикального та горизонтального краю ефекту.
 
 ### Список параметрів
 
@@ -39,10 +39,22 @@ bool `$raise`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::raiseImage()****
 
-`<?phpfunction raiseImage($imagePath, $width, $height, $x, $y, $raise) {    $imagick = new \Imagick(realpath($imagePath)); //x і y нічого не роблять? $imagick->raiseImage($width, $height, $x, $y, $raise); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function raiseImage($imagePath, $width, $height, $x, $y, $raise) {
+    $imagick = new \Imagick(realpath($imagePath));
+
+    //x и y ничего не делают?
+    $imagick->raiseImage($width, $height, $x, $y, $raise);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

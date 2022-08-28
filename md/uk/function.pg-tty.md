@@ -1,55 +1,68 @@
-- [« pg_transaction_status](function.pg-transaction-status.md)
-- [pg_unescape_bytea »](function.pg-unescape-bytea.md)
+Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
+-   [« pg\_transaction\_status](function.pg-transaction-status.html)
+    
+-   [pg\_unescape\_bytea »](function.pg-unescape-bytea.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
+    
 
-#pg_tty
+# пгtty
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pg_tty — Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
+пгtty - Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
 
 ### Опис
 
-**pg_tty**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` = **`null`**): string
+```methodsynopsis
+pg_tty(?PgSql\Connection $connection = null): string
+```
 
-**pg_tty()** повертає ім'я терміналу, пов'язаного з екземпляром
-`connection`, на який виводиться налагоджувальна інформація.
+**пгtty()** повертає ім'я терміналу, пов'язаного з екземпляром `connection`, на який виводиться налагоджувальна інформація.
 
-> **Примітка**:
->
-> **pg_tty()** застаріла, але залишена для зворотної сумісності.
+> **Зауваження**
+> 
+> **пгtty()** застаріла, але залишена для зворотної сумісності.
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо параметр
-`connection` вказано **`null`**, використовується з'єднання за замовчуванням.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 ### Значення, що повертаються
 
-Ім'я TTY для підключення `connection` як рядка (string).
+Ім'я TTY для підключення `connection` у вигляді рядка (string).
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_tty()****
+**Приклад #1 Приклад використання **пгtty()****
 
-` <?php$pgsql_conn = pg_connect("dbname=mark host=localhost");if ($pgsql_conn) {   print "TTY налагодження сервера: " . pg_tty($pgsql_conn) . "<br/>
-";} else {   print pg_last_error($pgsql_conn);  exit;}?> `
+```php
+<?php
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
+
+if ($pgsql_conn) {
+   print "TTY отладки сервера: " . pg_tty($pgsql_conn) . "<br/>\n";
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
+}
+?>
+```

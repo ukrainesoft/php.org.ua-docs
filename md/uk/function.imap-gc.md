@@ -1,46 +1,60 @@
-- [« imap_fetchtext](function.imap-fetchtext.md)
-- [imap_get_quota »](function.imap-get-quota.md)
+Очистити кеш IMAP
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Очистити кеш IMAP
+-   [« imap\_fetchtext](function.imap-fetchtext.html)
+    
+-   [imap\_get\_quota »](function.imap-get-quota.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Очистити кеш IMAP
+    
 
-#imap_gc
+# imapгк
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-imap_gc — Очистити кеш IMAP
+imapgc — Очистити кеш IMAP
 
 ### Опис
 
-**imap_gc**([IMAP\Connection](class.imap-connection.md) `$imap`, int
-`$flags`): bool
+```methodsynopsis
+imap_gc(IMAP\Connection $imap, int $flags): bool
+```
 
-Видаляє з кеша записи заданого типу.
+Видаляє з кешу записи заданого типу.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `flags`
-Задає кеш для чищення. Може бути будь-якою комбінацією констант:
-**`IMAP_GC_ELT`** (елементи кешу повідомлень), **`IMAP_GC_ENV`** (обгортки
-та тіла), **`IMAP_GC_TEXTS`** (тексти).
+
+Задає кеш для чищення. Може бути будь-якою комбінацією констант: **`IMAP_GC_ELT`** (елементи кешу повідомлень), **`IMAP_GC_ENV`** (обгортки та тіла), **`IMAP_GC_TEXTS`** (Тексти).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imap_gc()****
+**Приклад #1 Приклад використання **imapgc()****
 
-` <?php$mbox = imap_open("{imap.example.org:143}", "username", "password");imap_gc($mbox, IMAP_GC_ELT);?> `
+```php
+<?php
+
+$mbox = imap_open("{imap.example.org:143}", "username", "password");
+
+imap_gc($mbox, IMAP_GC_ELT);
+
+?>
+```

@@ -1,25 +1,31 @@
-- [« Yaf_Loader::registerNamespace](yaf-loader.registernamespace.md)
-- [Yaf_Plugin_Abstract »](class.yaf-plugin-abstract.md)
+Змінює шлях до бібліотеки
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Змінює шлях до бібліотеки
+-   [« Yaf\_Loader::registerNamespace](yaf-loader.registernamespace.html)
+    
+-   [Yaf\_Plugin\_Abstract »](class.yaf-plugin-abstract.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Loader](class.yaf-loader.html)
+    
+-   Змінює шлях до бібліотеки
+    
 
-# Yaf_Loader::setLibraryPath
+# YafLoader::setLibraryPath
 
-(Yaf \> = 2.1.4)
+(Yaf> = 2.1.4)
 
-Yaf_Loader::setLibraryPath — Змінює шлях до бібліотеки
+YafLoader::setLibraryPath — Змінює шлях до бібліотеки
 
 ### Опис
 
-public **Yaf_Loader::setLibraryPath**(string `$directory`, bool
-`$is_global` = **`false`**): [Yaf_Loader](class.yaf-loader.md)
+```methodsynopsis
+public Yaf_Loader::setLibraryPath(string $directory, bool $is_global = false): Yaf_Loader
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

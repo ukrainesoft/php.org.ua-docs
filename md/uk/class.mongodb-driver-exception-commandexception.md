@@ -1,88 +1,111 @@
-- [« MongoDB\Driver\Exception\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md)
-- [MongoDB\Driver\Exception\CommandException::getResultDocument »](mongodb-driver-commandexception.getresultdocument.md)
+Клас MongoDBDriverExceptionCommandException
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Exception](mongodb.exceptions.md)
-- Клас MongoDB\Driver\Exception\CommandException
+-   [« MongoDB\\Driver\\Exception\\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.html)
+    
+-   [MongoDB\\Driver\\Exception\\CommandException::getResultDocument »](mongodb-driver-commandexception.getresultdocument.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Exception](mongodb.exceptions.html)
+    
+-   Клас MongoDBDriverExceptionCommandException
+    
 
-# Клас MongoDB\Driver\Exception\CommandException
+# Клас MongoDBDriverExceptionCommandException
 
-(mongodb \>= 1.5.0)
+(mongodb >= 1.5.0)
 
 ## Вступ
 
-Викидається, у разі помилки команди.
+Викидається у разі виникнення помилки команди.
 
 ## Огляд класів
 
-abstract class **MongoDB\Driver\Exception\CommandException** extends
-[MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md)
-implements
-[MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-{
+```classsynopsis
 
-/\* Властивості \*/
 
-protected object `$resultDocument`;
 
-/\* Наслідувані властивості \*/
+    
+     
+      abstract
+      class MongoDB\Driver\Exception\CommandException
+     
 
-protected ?array `$errorLabels`;
+     
+      extends
+       MongoDB\Driver\Exception\ServerException
+     
 
-protected string `$message` = "";
+     implements 
+       MongoDB\Driver\Exception\Exception {
 
-private string `$string` = "";
+    /* Свойства */
+    
+     protected
+     object
+      $resultDocument;
 
-protected int `$code`;
 
-protected string `$file` = "";
+    /* Наследуемые свойства */
+    
+    protected
+     ?array
+      $errorLabels;
 
-protected int `$line`;
+    
+    protected
+     string
+      $message = "";
+private
+     string
+      $string = "";
+protected
+     int
+      $code;
+protected
+     string
+      $file = "";
+protected
+     int
+      $line;
+private
+     array
+      $trace = [];
+private
+     ?Throwable
+      $previous = null;
 
-private array `$trace` = [];
- private ?[Throwable](class.throwable.md) `$previous` = null;
 
-/\* Методи \*/
+    /* Методы */
+    
+   final public getResultDocument(): object
 
-final public
-[getResultDocument](mongodb-driver-commandexception.getresultdocument.md)():
-object
 
-/\* Наслідувані методи \*/
+    /* Наследуемые методы */
+    
+    final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $errorLabel): bool
 
-final public
-[MongoDB\Driver\Exception\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md)(string
-`$errorLabel`): bool
+    
+    final public Exception::getMessage(): string
+final public Exception::getPrevious(): ?Throwable
+final public Exception::getCode(): int
+final public Exception::getFile(): string
+final public Exception::getLine(): int
+final public Exception::getTrace(): array
+final public Exception::getTraceAsString(): string
+public Exception::__toString(): string
+private Exception::__clone(): void
 
-final public [Exception::getMessage](exception.getmessage.md)():
-string
 
-final public [Exception::getPrevious](exception.getprevious.md)():
-?[Throwable](class.throwable.md)
-
-final public [Exception::getCode](exception.getcode.md)(): int
-
-final public [Exception::getFile](exception.getfile.md)(): string
-
-final public [Exception::getLine](exception.getline.md)(): int
-
-final public [Exception::getTrace](exception.gettrace.md)(): array
-
-final public
-[Exception::getTraceAsString](exception.gettraceasstring.md)(): string
-
-public [Exception::\_\_toString](exception.tostring.md)(): string
-
-private [Exception::\_\_clone](exception.clone.md)(): void
-
-}
+   }
+```
 
 ## Властивості
 
-`resultDocument`
+resultDocument
+
 Документ результату, пов'язаний із невдалою командою.
 
 ## Зміст
 
-- [MongoDB\Driver\Exception\CommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.md)
-— Повертає результат документа для невдалої команди
+-   [MongoDB\\Driver\\Exception\\CommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.html) — Повертає результат документа для невдалої команди

@@ -1,20 +1,27 @@
-- [«enum_exists](function.enum-exists.md)
-- [get_class_methods »](function.get-class-methods.md)
+Ім'я класу, отримане за допомогою пізнього статичного зв'язування
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Ім'я класу, отримане за допомогою пізнього статичного зв'язування
+-   [« enum\_exists](function.enum-exists.html)
+    
+-   [get\_class\_methods »](function.get-class-methods.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Ім'я класу, отримане за допомогою пізнього статичного зв'язування
+    
 
-#get_called_class
+# getcalledclass
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-get_called_class - Ім'я класу, отримане за допомогою пізнього
-статичного зв'язування
+getcalledclass - Ім'я класу, отримане за допомогою пізнього статичного зв'язування
 
 ### Опис
 
-**get_called_class**(): string
+```methodsynopsis
+get_called_class(): string
+```
 
 Повертає ім'я класу, з якого викликано статичний метод.
 
@@ -24,26 +31,39 @@ get_called_class - Ім'я класу, отримане за допомогою 
 
 ### Значення, що повертаються
 
-Повертає ім'я класу. Повертає **`false`**, якщо було викликано поза
-класу.
+Повертає ім'я класу. Повертає **`false`**якщо було викликано поза класом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **get_called_class()****
+**Приклад #1 Приклад використання **getcalledclass()****
 
-`<?phpclass foo {   static public function test() {        var_dump(get_called_class()); }}class bar extends foo {}foo::test();bar::test();?> `
+```php
+<?php
+
+class foo {
+    static public function test() {
+        var_dump(get_called_class());
+    }
+}
+
+class bar extends foo {
+}
+
+foo::test();
+bar::test();
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(3) "foo"
 string(3) "bar"
+```
 
 ### Дивіться також
 
-- [get_parent_class()](function.get-parent-class.md) - Повертає
-ім'я батьківського класу для об'єкта чи класу
-- [get_class()](function.get-class.md) - Повертає ім'я класу, до
-якому належить об'єкт
-- [is_subclass_of()](function.is-subclass-of.md) - Перевіряє,
-чи містить об'єкт у своєму дереві предків зазначений клас чи прямо
-реалізує його
+-   [get\_parent\_class()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [get\_class()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [is\_subclass\_of()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

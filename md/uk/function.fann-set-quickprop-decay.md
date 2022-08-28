@@ -1,38 +1,44 @@
-- [« fann_set_output_scaling_params](function.fann-set-output-scaling-params.md)
-- [fann_set_quickprop_mu »](function.fann-set-quickprop-mu.md)
+Встановлює коефіцієнт загасання quickprop
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Встановлює коефіцієнт загасання quickprop
+-   [« fann\_set\_output\_scaling\_params](function.fann-set-output-scaling-params.html)
+    
+-   [fann\_set\_quickprop\_mu »](function.fann-set-quickprop-mu.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Встановлює коефіцієнт загасання quickprop
+    
 
-# fann_set_quickprop_decay
+# fannsetquickpropdecay
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_set_quickprop_decay — Встановлює коефіцієнт загасання quickprop
+fannsetquickpropdecay - Встановлює коефіцієнт загасання quickprop
 
 ### Опис
 
-**fann_set_quickprop_decay**(resource `$ann`, float `$quickprop_decay`):
-bool
+```methodsynopsis
+fann_set_quickprop_decay(resource $ann, float $quickprop_decay): bool
+```
 
 Встановлює коефіцієнт загасання quickprop.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `quickprop_decay`
+
 Коефіцієнт згасання quickprop.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, або **`false`** у
-інакше.
+Повертає **`true`** у разі успішного виконання, або **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [fann_get_quickprop_decay()](function.fann-get-quickprop-decay.md) -
-Повертає зниження, яке є фактором, при якому ваги
-повинні зменшуватися на кожній ітерації під час навчання quickprop
+-   [fann\_get\_quickprop\_decay()](function.fann-get-quickprop-decay.html) - Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop

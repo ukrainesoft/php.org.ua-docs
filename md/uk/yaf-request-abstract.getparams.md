@@ -1,19 +1,27 @@
-- [« Yaf_Request_Abstract::getParam](yaf-request-abstract.getparam.md)
-- [Yaf_Request_Abstract::getRequestUri »](yaf-request-abstract.getrequesturi.md)
+Отримує всі параметри дзвінка
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Отримує всі настройки виклику
+-   [« Yaf\_Request\_Abstract::getParam](yaf-request-abstract.getparam.html)
+    
+-   [Yaf\_Request\_Abstract::getRequestUri »](yaf-request-abstract.getrequesturi.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Отримує всі параметри дзвінка
+    
 
-# Yaf_Request_Abstract::getParams
+# YafRequestAbstract::getParams
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::getParams — Отримує всі настройки виклику
+YafRequestAbstract::getParams — Отримує всі настройки виклику
 
 ### Опис
 
-public **Yaf_Request_Abstract::getParams**(): array
+```methodsynopsis
+public Yaf_Request_Abstract::getParams(): array
+```
 
 ### Список параметрів
 
@@ -23,5 +31,4 @@ public **Yaf_Request_Abstract::getParams**(): array
 
 ### Дивіться також
 
-- [Yaf_Request_Abstract::setParam()](yaf-request-abstract.setparam.md) -
-Встановлює дзвінок для запиту
+-   [Yaf\_Request\_Abstract::setParam()](yaf-request-abstract.setparam.html) - Встановлює параметр дзвінка для запиту

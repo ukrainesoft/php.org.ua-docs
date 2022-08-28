@@ -1,38 +1,48 @@
-- [«gmp_xor](function.gmp-xor.md)
-- [GMP::\_\_serialize »](gmp.serialize.md)
+Клас GMP
 
-- [PHP Manual](index.md)
-- [GMP](book.gmp.md)
-- Клас GMP
+-   [« gmp\_xor](function.gmp-xor.html)
+    
+-   [GMP::\_\_serialize »](gmp.serialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP](book.gmp.html)
+    
+-   Клас GMP
+    
 
 # Клас GMP
 
-(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
+(PHP 5> = 5.6.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Номер GMP. Підтримка наступних об'єктів перезавантажена
-[arithmetic](language.operators.arithmetic.md),
-[bitwise](language.operators.bitwise.md) та
-[comparison](language.operators.comparison.md) оператори.
+Номер GMP. Підтримка наступних об'єктів перезавантажена [arithmetic](language.operators.arithmetic.html) [bitwise](language.operators.bitwise.html) і [comparison](language.operators.comparison.html) оператори.
 
-> **Примітка**:
->
-> Об'єктно-орієнтований інтерфейс для маніпуляцій з об'єктами **GMP**
-> відсутня. Використовуйте [процедурний GMP API](book.gmp.md).
+> **Зауваження**
+> 
+> Об'єктно-орієнтований інтерфейс для маніпуляцій з об'єктами **GMP** Відсутнє. Використовуйте [процедурный GMP API](book.gmp.html)
 
-class **GMP** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [\_\_serialize](gmp.serialize.md)(): array
+    
+     
+      class GMP
+     
+     {
 
-public [\_\_unserialize](gmp.unserialize.md)(array `$data`): void
+    /* Методы */
+    
+   public __serialize(): array
+public __unserialize(array $data): void
 
-}
+   }
+```
 
 ## Зміст
 
-- [GMP::\_\_serialize](gmp.serialize.md) — Серіалізує об'єкт GMP
-- [GMP::\_\_unserialize](gmp.unserialize.md) - Десеріалізує
-параметр data в об'єкт GMP
+-   [GMP::\_\_serialize](gmp.serialize.html) - Серіалізує об'єкт GMP
+-   [GMP::\_\_unserialize](gmp.unserialize.html) — Десеріалізує параметр data в об'єкті GMP

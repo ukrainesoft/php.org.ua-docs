@@ -1,24 +1,31 @@
-- [«phpdbg_color](function.phpdbg-color.md)
-- [phpdbg_exec »](function.phpdbg-exec.md)
+Опис
 
-- [PHP Manual](index.md)
-- [Функції phpdbg](ref.phpdbg.md)
-- Опис
+-   [« phpdbg\_color](function.phpdbg-color.html)
+    
+-   [phpdbg\_exec »](function.phpdbg-exec.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции phpdbg](ref.phpdbg.html)
+    
+-   Опис
+    
 
-# phpdbg_end_oplog
+# phpdbgendoplog
 
 (PHP 7, PHP 8)
 
-phpdbg_end_oplog
+phpdbgendoplog -
 
 ### Опис
 
-**phpdbg_end_oplog**(array `$options` = []): ?array
+```methodsynopsis
+phpdbg_end_oplog(array $options = []): ?array
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

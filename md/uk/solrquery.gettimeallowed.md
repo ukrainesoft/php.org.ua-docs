@@ -1,20 +1,27 @@
-- [« SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.md)
-- [SolrQuery::removeExpandFilterQuery »](solrquery.removeexpandfilterquery.md)
+Повертає час у мілісекундах, дозволений для завершення запиту
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає час у мілісекундах, дозволений для завершення запиту
+-   [« SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.html)
+    
+-   [SolrQuery::removeExpandFilterQuery »](solrquery.removeexpandfilterquery.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає час у мілісекундах, дозволений для завершення запиту
+    
 
 # SolrQuery::getTimeAllowed
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::getTimeAllowed — Повертає час у мілісекундах,
-дозволене для завершення запиту
+SolrQuery::getTimeAllowed — Повертає час у мілісекундах, дозволений для завершення запиту
 
 ### Опис
 
-public **SolrQuery::getTimeAllowed**(): int
+```methodsynopsis
+public SolrQuery::getTimeAllowed(): int
+```
 
 Повертає час у мілісекундах, дозволений для завершення запиту.
 
@@ -24,5 +31,4 @@ public **SolrQuery::getTimeAllowed**(): int
 
 ### Значення, що повертаються
 
-Повертає і ціле число у разі успішного виконання і **`null`**,
-якщо дозволений час не встановлено.
+Повертає і ціле число у разі успішного виконання та **`null`**, якщо визначений час не встановлено.

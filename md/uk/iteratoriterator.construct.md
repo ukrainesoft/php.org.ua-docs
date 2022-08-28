@@ -1,30 +1,34 @@
-- [«IteratorIterator](class.iteratoriterator.md)
-- [IteratorIterator::current »](iteratoriterator.current.md)
+Створює ітератор із чогось, що є обхідним (traversable)
 
-- [PHP Manual](index.md)
-- [IteratorIterator](class.iteratoriterator.md)
-- Створює ітератор із чогось, що є обхідним (traversable)
+-   [« IteratorIterator](class.iteratoriterator.html)
+    
+-   [IteratorIterator::current »](iteratoriterator.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IteratorIterator](class.iteratoriterator.html)
+    
+-   Створює ітератор із чогось, що є обхідним (traversable)
+    
 
-# IteratorIterator::\_\_construct
+# IteratorIterator::construct
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-IteratorIterator::\_\_construct — Створює ітератор із чогось, що
-є обхідним (traversable)
+IteratorIterator::construct — Створює ітератор із чогось, що є обхідним (traversable)
 
 ### Опис
 
-public
-**IteratorIterator::\_\_construct**([Traversable](class.traversable.md)
-`$iterator`, ?string `$class` = **`null`**)
+public **IteratorIterator::construct**[Traversable](class.traversable.html) `$iterator`, ?string `$class` **`null`**
 
 Створює ітератор із чогось, що є обхідним (traversable).
 
 ### Список параметрів
 
 `iterator`
+
 Обхідний (traversable) ітератор.
 
 ### Дивіться також
 
-- [Traversable](class.traversable.md)
+-   [Traversable](class.traversable.html)

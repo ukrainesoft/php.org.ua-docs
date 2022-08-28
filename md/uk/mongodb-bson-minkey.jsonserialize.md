@@ -1,21 +1,27 @@
-- [« MongoDB\BSON\MinKey::\_\_construct](mongodb-bson-minkey.construct.md)
-- [MongoDB\BSON\MinKey::serialize »](mongodb-bson-minkey.serialize.md)
+Повертає уявлення, яке можна перетворити на JSON
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
-- Повертає уявлення, яке можна перетворити на JSON
+-   [« MongoDB\\BSON\\MinKey::\_\_construct](mongodb-bson-minkey.construct.html)
+    
+-   [MongoDB\\BSON\\MinKey::serialize »](mongodb-bson-minkey.serialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+    
+-   Повертає уявлення, яке можна перетворити на JSON
+    
 
-# MongoDB\BSON\MinKey::jsonSerialize
+# MongoDBBSONMinKey::jsonSerialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\MinKey::jsonSerialize — Повертає уявлення, яке
-можна перетворити на JSON
+MongoDBBSONMinKey::jsonSerialize — Повертає уявлення, яке можна перетворити на JSON
 
 ### Опис
 
-final public **MongoDB\BSON\MinKey::jsonSerialize**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+final public MongoDB\BSON\MinKey::jsonSerialize(): mixed
+```
 
 ### Список параметрів
 
@@ -23,37 +29,18 @@ final public **MongoDB\BSON\MinKey::jsonSerialize**():
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані за допомогою
-[json_encode()](function.json-encode.md) для створення розширеного
-JSON-вистави
-[MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md).
+Повертає дані, які можуть бути серіалізовані за допомогою [json\_encode()](function.json-encode.html) для створення розширеного JSON-подання [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
 
-> **Примітка**: Висновок відповідає висновку функції
-> [MongoDB\BSON oJSON()](function.mongodb.bson-tojson.md), яка
-> використовує успадкований, специфічний для драйвера, розширений
-> формат JSON. Він не обов'язково буде підходити під
-> [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example)
-> або
-> [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example)
-> уявлення розширеного JSON, що використовуються в
-> [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md)
-> і
-> [MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md),
-> відповідно.
+> **Зауваження**: Висновок відповідає висновку функції [MongoDB\\BSON\\toJSON()](function.mongodb.bson-tojson.html)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) і [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html)відповідно.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md) -
-Задає дані, які мають бути серіалізовані у JSON
-- [json_encode()](function.json-encode.md) - Повертає
-JSON-подання даних
-- [MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) -
-Повертає Canonical Extended JSON подання для значення BSON
-- [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
-Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+-   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html) - Задає дані, які мають бути серіалізовані у JSON
+-   [json\_encode()](function.json-encode.html) - Повертає JSON-подання даних
+-   [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) - Повертає Canonical Extended JSON подання для значення BSON
+-   [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) - Повертає Relaxed Extended JSON подання значення BSON
+-   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

@@ -1,23 +1,32 @@
-- [« UI\Draw\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.md)
-- [UI\Draw\Brush »](class.ui-draw-brush.md)
+Встановити товщину
 
-- [PHP Manual](index.md)
-- [UI\Draw\Stroke](class.ui-draw-stroke.md)
-- встановити товщину
+-   [« UI\\Draw\\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html)
+    
+-   [UI\\Draw\\Brush »](class.ui-draw-brush.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Stroke](class.ui-draw-stroke.html)
+    
+-   Встановити товщину
+    
 
-# UI\Draw\Stroke::setThickness
+# ОЙDrawStroke::setThickness
 
 (UI 0.9.9)
 
-UI\Draw\Stroke::setThickness — Встановити товщину
+ОЙDrawStroke::setThickness — Встановити товщину
 
 ### Опис
 
-public **UI\Draw\Stroke::setThickness**(float `$thickness`)
+```methodsynopsis
+public UI\Draw\Stroke::setThickness(float $thickness)
+```
 
-Встановить товщину для даної обведення
+Встановить товщину для даного обведення
 
 ### Список параметрів
 
 `thickness`
+
 Нова товщина

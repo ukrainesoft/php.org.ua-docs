@@ -1,29 +1,24 @@
-- [« Встановлення та налаштування](ssh2.setup.md)
-- [Установка »](ssh2.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ssh2.setup.md)
-- Вимоги
+-   [« Установка и настройка](ssh2.setup.html)
+    
+-   [Установка »](ssh2.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ssh2.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Для встановлення SSH2 потрібна наявність встановлених бібліотек
-[» OpenSSL](http://www.openssl.org/) та [» libssh2](http://libssh2.org/).
-Переконайтеся, що вказані бібліотеки є у системі. Типовим
-назвою пакета може бути `openssl-dev`.
+Для встановлення SSH2 потрібна наявність встановлених бібліотек [» OpenSSL](http://www.openssl.org/) і [» libssh2](http://libssh2.org/). Переконайтеся, що вказані бібліотеки є в системі. Типовою назвою пакета може бути `openssl-dev`
 
-Необхідна версія libssh2 1.2 або новіша. Однак можливо, що нові
-релізи pecl/ssh2 вимагатимуть новіші версії (дивіться примітки до
-релізу).
+Необхідна версія libssh2 1.2 або новіша. Однак можливо, що нові релізи pecl/ssh2 вимагатимуть нові версії (дивіться примітки до релізу).
 
-Функція [ssh2_auth_agent()](function.ssh2-auth-agent.md) доступна
-тільки з версією libssh = 1.2.3.
+Функція [ssh2\_auth\_agent()](function.ssh2-auth-agent.html) доступна лише з версією libssh >= 1.2.3.
 
-Підтримка канальних потоків у
-[stream_set_timeout()](function.stream-set-timeout.md) доступна лише
-з версією libssh = 1.2.9.
+Підтримка канальних потоків у [stream\_set\_timeout()](function.stream-set-timeout.html) доступна лише з версією libssh >= 1.2.9.
 
-Libssh2 поставляється у двох варіантах: gcrypt або openssl. Деякі
-дистрибутиви Linux збирають libssh2 з бібліотекою gcrypt, деякі з
-openssl. Libssh2 має деякі проблеми при компіляції з gcrypt,
-тому використовуйте версію з openssl.
+Libssh2 поставляється у двох варіантах: gcrypt або openssl. Деякі Linux-дистрибутиви збирають libssh2 з бібліотекою gcrypt, деякі з openssl. Libssh2 має деякі проблеми при компіляції з gcrypt, тому використовуйте версію з openssl.

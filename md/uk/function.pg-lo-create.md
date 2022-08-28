@@ -1,76 +1,80 @@
-- [« pg_lo_close](function.pg-lo-close.md)
-- [pg_lo_export »](function.pg-lo-export.md)
+Створює великий об'єкт
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Створює великий об'єкт
+-   [« pg\_lo\_close](function.pg-lo-close.html)
+    
+-   [pg\_lo\_export »](function.pg-lo-export.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Створює великий об'єкт
+    
 
-#pg_lo_create
+# пглоcreate
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_lo_create — Створює великий об'єкт
+пглоcreate — Створює великий об'єкт
 
 ### Опис
 
-**pg_lo_create**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` = ?,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_id` = ?): int
+```methodsynopsis
+pg_lo_create(PgSql\Connection $connection = ?, mixed $object_id = ?): int
+```
 
-**pg_lo_create**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_id`): int
+```methodsynopsis
+pg_lo_create(mixed $object_id): int
+```
 
-**pg_lo_create()** створює великий об'єкт і повертає його `OID`. Режими
-доступу PostgreSQL **`INV_READ`**, **`INV_WRITE`**, та **`INV_ARCHIVE`**
-не підтримуються, об'єкт завжди створюється з доступом на читання та
-запис. Режим **`INV_ARCHIVE`** прибраний із PostgreSQL версій 6.3 та вище.
+**пглоcreate()** створює великий об'єкт та повертає його OID. Режими доступу PostgreSQL **`INV_READ`** **`INV_WRITE`**, і **`INV_ARCHIVE`** не підтримуються, об'єкт завжди створюється з доступом на читання та запис. Режим **`INV_ARCHIVE`** прибраний з PostgreSQL версій 6.3 та вище.
 
-Операції з використанням інтерфейсу великих об'єктів необхідно
-укладати блок транзакції.
+Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-Замість використання інтерфейсу великих об'єктів (який не має
-контролю доступу і дуже громіздкий сам по собі) користуйтеся полями
-PostgreSQL типу `bytea` для зберігання двійкових даних та функцією
-[pg_escape_bytea()](function.pg-escape-bytea.md) для їхнього екранування.
+Замість використання інтерфейсу великих об'єктів (який не має контролю доступу і дуже громіздкий сам по собі) користуйтеся полями PostgreSQL типу bytea для зберігання бінарних даних та функцією [pg\_escape\_bytea()](function.pg-escape-bytea.html) для їхнього екранування.
 
-> **Примітка**:
->
-> Колишня назва функції: **pg_locreate()**.
+> **Зауваження**
+> 
+> Колишня назва функції: **пгlocreate()**
 
 ### Список параметрів
 
 `connection`
-Примірник [PgSql\Connection](class.pgsql-connection.md). Якщо
-`connection` не вказано, використовується стандартне з'єднання.
-З'єднання за замовчуванням - це останнє з'єднання, виконане з
-за допомогою функцій [pg_connect()](function.pg-connect.md) або
-[pg_pconnect()](function.pg-pconnect.md).
+
+Екземпляр [PgSql\\Connection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [pg\_connect()](function.pg-connect.html) або [pg\_pconnect()](function.pg-pconnect.html)
 
 **Увага**
-Починаючи з версії PHP 8.1.0, використання стандартного з'єднання
-застаріло.
+
+Починаючи з версії PHP 8.1.0, використання стандартного з'єднання застаріло.
 
 `object_id`
-Якщо заданий аргумент `object_id`, функція спробує створити об'єкт з
-цим ідентифікатором, інакше буде використаний вільний
-ідентифікатор, призначений для сервера. Цей аргумент заснований на
-функціоналі, вперше реалізованому в PostgreSQL 8.1.
+
+Якщо заданий аргумент `object_id`, функція спробує створити об'єкт із цим ідентифікатором, інакше буде використано вільний ідентифікатор, призначений сервером. Цей аргумент ґрунтується на функціоналі, вперше реалізованому в PostgreSQL 8.1.
 
 ### Значення, що повертаються
 
-`OID` великого об'єкта або **`false`** у разі виникнення помилки.
+OID великого об'єкта або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                           |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_lo_create()****
+**Приклад #1 Приклад використання **пглоcreate()****
 
-`<?php  $database =pg_connect("dbname=jacarta"); pg_query($database, "begin"); $oid==pg_lo_create($database); echo "$oid
-";   $handle = pg_lo_open($database, $oid, "w");  echo "$handle
-";  pg_lo_write($handle, "large object data");   pg_lo_close($handle);   pg_query($database, "commit");?> `
+```php
+<?php
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $oid = pg_lo_create($database);
+   echo "$oid\n";
+   $handle = pg_lo_open($database, $oid, "w");
+   echo "$handle\n";
+   pg_lo_write($handle, "large object data");
+   pg_lo_close($handle);
+   pg_query($database, "commit");
+?>
+```

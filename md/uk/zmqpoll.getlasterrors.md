@@ -1,22 +1,29 @@
-- [«ZMQPoll::count](zmqpoll.count.md)
-- [ZMQPoll::poll »](zmqpoll.poll.md)
+Повертає помилки останнього опитування
 
-- [PHP Manual](index.md)
-- [ZMQPoll](class.zmqpoll.md)
-- Повертає помилки останнього опитування
+-   [« ZMQPoll::count](zmqpoll.count.html)
+    
+-   [ZMQPoll::poll »](zmqpoll.poll.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQPoll](class.zmqpoll.html)
+    
+-   Повертає помилки останнього опитування
+    
 
 # ZMQPoll::getLastErrors
 
-(PECL zmq \>= 0.5.0)
+(PECL zmq >= 0.5.0)
 
 ZMQPoll::getLastErrors — Повертає помилки останнього опитування
 
 ### Опис
 
-public **ZMQPoll::getLastErrors**(): array
+```methodsynopsis
+public ZMQPoll::getLastErrors(): array
+```
 
-Повертає ідентифікатори елементів, для яких під час останнього опитування
-виникли помилки.
+Повертає ідентифікатори елементів, для яких під час останнього опитування виникли помилки.
 
 ### Список параметрів
 
@@ -24,6 +31,4 @@ public **ZMQPoll::getLastErrors**(): array
 
 ### Значення, що повертаються
 
-Повертає масив з ідентифікаторами елементів пулу опитування, для яких
-при останньому опитуванні виникли помилки. Порожній масив означає, що
-помилок був.
+Повертає масив з ідентифікаторами елементів пулу опитування, для яких при останньому опитуванні виникли помилки. Порожній масив означає, що помилок був.

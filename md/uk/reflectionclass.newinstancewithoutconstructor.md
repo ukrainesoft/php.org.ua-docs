@@ -1,20 +1,27 @@
-- [« ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)
-- [ReflectionClass::setStaticPropertyValue »](reflectionclass.setstaticpropertyvalue.md)
+Створює новий екземпляр класу без виклику конструктора
 
-- [PHP Manual](index.md)
-- [ReflectionClass](class.reflectionclass.md)
-- Створює новий екземпляр класу без виклику конструктора
+-   [« ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.html)
+    
+-   [ReflectionClass::setStaticPropertyValue »](reflectionclass.setstaticpropertyvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionClass](class.reflectionclass.html)
+    
+-   Створює новий екземпляр класу без виклику конструктора
+    
 
 # ReflectionClass::newInstanceWithoutConstructor
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionClass::newInstanceWithoutConstructor — Створює новий екземпляр
-класу без виклику конструктора
+ReflectionClass::newInstanceWithoutConstructor — Створює новий екземпляр класу без виклику конструктора
 
 ### Опис
 
-public **ReflectionClass::newInstanceWithoutConstructor**(): object
+```methodsynopsis
+public ReflectionClass::newInstanceWithoutConstructor(): object
+```
 
 Створює новий екземпляр класу без виклику конструктора.
 
@@ -24,15 +31,9 @@ public **ReflectionClass::newInstanceWithoutConstructor**(): object
 
 ### Помилки
 
-Якщо клас є вбудованим, його екземпляр не може бути створений без
-виклику конструктора, це призведе до генерації виключення
-[ReflectionException](class.reflectionexception.md). Це виключення
-обмежено лише класами з модифікатором
-[final](language.oop5.final.md).
+Якщо клас є вбудованим, і його екземпляр не може бути створений без виклику конструктора, це призведе до генерації виключення [ReflectionException](class.reflectionexception.html). Цей виняток обмежений лише класами з модифікатором [final](language.oop5.final.html)
 
 ### Дивіться також
 
-- [ReflectionClass::newInstance()](reflectionclass.newinstance.md) -
-Створює екземпляр класу з переданими аргументами
-- [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.md) -
-Створює екземпляр класу з переданими параметрами
+-   [ReflectionClass::newInstance()](reflectionclass.newinstance.html) - створює екземпляр класу з переданими аргументами
+-   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.html) - Створює екземпляр класу з переданими параметрами

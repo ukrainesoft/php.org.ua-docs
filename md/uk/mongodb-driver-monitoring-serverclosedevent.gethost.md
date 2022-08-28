@@ -1,21 +1,27 @@
-- [« MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getPort »](mongodb-driver-monitoring-serverclosedevent.getport.md)
+Повертає ім'я сервера хоста
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)
-- Повертає ім'я сервера хоста
+-   [« MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getPort »](mongodb-driver-monitoring-serverclosedevent.getport.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.html)
+    
+-   Повертає ім'я сервера хоста
+    
 
-# MongoDB\Driver\Monitoring\ServerClosedEvent::getHost
+# MongoDBDriverMonitoringServerClosedEvent::getHost
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Monitoring\ServerClosedEvent::getHost — Повертає ім'я
-хоста сервера
+MongoDBDriverMonitoringServerClosedEvent::getHost — Повертає ім'я сервера.
 
 ### Опис
 
-final public **MongoDB\Driver\Monitoring\ServerClosedEvent::getHost**():
-string
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\ServerClosedEvent::getHost(): string
+```
 
 ### Список параметрів
 
@@ -27,5 +33,4 @@ string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

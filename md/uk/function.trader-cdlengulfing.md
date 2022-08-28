@@ -1,40 +1,46 @@
-- [« trader_cdldragonflydoji](function.trader-cdldragonflydoji.md)
-- [trader_cdleveningdojistar »](function.trader-cdleveningdojistar.md)
+Модель поглинання
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- модель поглинання
+-   [« trader\_cdldragonflydoji](function.trader-cdldragonflydoji.html)
+    
+-   [trader\_cdleveningdojistar »](function.trader-cdleveningdojistar.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Модель поглинання
+    
 
-# trader_cdlengulfing
+# tradercdlengulfing
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlengulfing - Модель поглинання
+tradercdlengulfing - Модель поглинання
 
 ### Опис
 
-**trader_cdlengulfing**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdlengulfing(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

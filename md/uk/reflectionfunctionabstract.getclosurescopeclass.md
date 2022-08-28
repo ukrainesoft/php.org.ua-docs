@@ -1,26 +1,31 @@
-- [« ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)
-- [ReflectionFunctionAbstract::getClosureThis »](reflectionfunctionabstract.getclosurethis.md)
+Повертає клас, в рамках якого було оголошено замикання
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Повертає клас, в рамках якого було оголошено замикання
+-   [« ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.html)
+    
+-   [ReflectionFunctionAbstract::getClosureThis »](reflectionfunctionabstract.getclosurethis.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Повертає клас, в рамках якого було оголошено замикання
+    
 
 # ReflectionFunctionAbstract::getClosureScopeClass
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getClosureScopeClass — Повертає клас у
-рамках якого було оголошено замикання
+ReflectionFunctionAbstract::getClosureScopeClass — Повертає клас, в рамках якого було оголошено замикання
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getClosureScopeClass**():
-?[ReflectionClass](class.reflectionclass.md)
+```methodsynopsis
+public ReflectionFunctionAbstract::getClosureScopeClass(): ?ReflectionClass
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,5 +33,4 @@ public **ReflectionFunctionAbstract::getClosureScopeClass**():
 
 ### Значення, що повертаються
 
-Повертає клас у разі успішного виконання або **`null`** у разі
-виникнення помилки.
+Повертає клас у разі успішного виконання або **`null`** у разі виникнення помилки.

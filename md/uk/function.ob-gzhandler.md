@@ -1,31 +1,29 @@
-- [«ob_get_status](function.ob-get-status.md)
-- [ob_implicit_flush »](function.ob-implicit-flush.md)
+callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
 
-- [PHP Manual](index.md)
-- [Функції контролю виведення](ref.outcontrol.md)
-- callback-функція, що використовується для gzip-стиснення буфера виводу при
-виклик ob_start
+-   [« ob\_get\_status](function.ob-get-status.html)
+    
+-   [ob\_implicit\_flush »](function.ob-implicit-flush.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции контроля вывода](ref.outcontrol.html)
+    
+-   callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
+    
 
-#ob_gzhandler
+# проgzhandler
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-ob_gzhandler - callback-функція, що використовується для gzip-стиснення буфера
-виводу під час виклику ob_start
+проgzhandler - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
 
 ### Опис
 
-**ob_gzhandler**(string `$data`, int `$flags`): string\|false
+```methodsynopsis
+ob_gzhandler(string $data, int $flags): string|false
+```
 
-Функція **ob_gzhandler()** призначена для використання як
-callback-функції для [ob_start()](function.ob-start.md), щоб
-полегшити відправлення gz-кодованих даних браузерам, які підтримують
-Стиснення веб-сторінок. Перш ніж **ob_gzhandler()** відправить стислі
-дані, вона визначає, який тип кодування вмісту зможе прийняти
-браузер ("gzip", "deflate" або взагалі ніякий) і поверне його вміст
-відповідним чином. Підтримуються всі браузери, що надсилають
-коректні заголовки про те, що вони беруть стислі веб-сторінки. Якщо
-браузер не підтримує стиснення сторінок, ця функція поверне **`false`**.
+Функція **проgzhandler()** призначена для використання як callback-функції для [ob\_start()](function.ob-start.html), щоб полегшити надсилання gz-кодованих даних браузерам, які підтримують стиснення веб-сторінок. Перш ніж **проgzhandler()** відправить стислі дані, вона визначає, який тип кодування вмісту зможе прийняти браузер ("gzip", "deflate" або взагалі ніякий) і поверне його вміст відповідним чином. Підтримуються всі браузери, які надсилають коректні заголовки про те, що вони беруть стислі веб-сторінки. Якщо браузер не підтримує стиснення сторінок, ця функція поверне **`false`**
 
 ### Список параметрів
 
@@ -37,26 +35,32 @@ callback-функції для [ob_start()](function.ob-start.md), щоб
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ob_gzhandler()****
+**Приклад #1 Приклад використання функції **проgzhandler()****
 
-` <?phpob_start("ob_gzhandler");?><html><body><p>Це мабуть стиснутий сторінкою.</p></body></html>`
+```php
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+<html>
+<body>
+<p>Это должно быть сжатой страницей.</p>
+</body>
+</html>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **ob_gzhandler()** вимагає наявність модуля [zlib](ref.zlib.md).
+> **Зауваження**
+> 
+> **проgzhandler()** вимагає наявність модуля [zlib](ref.zlib.html)
 
-> **Примітка**:
->
-> Ви не можете використовувати одночасно **ob_gzhandler()** та
-> [zlib.output_compression](zlib.configuration.md#ini.zlib.output-compression).
-> Також зверніть увагу, що використання
-> [zlib.output_compression](zlib.configuration.md#ini.zlib.output-compression)
-> краще, ніж **ob_gzhandler()**.
+> **Зауваження**
+> 
+> Ви не можете використовувати одночасно **проgzhandler()** і [zlib.output\_compression](zlib.configuration.html#ini.zlib.output-compression). Також зверніть увагу, що використання [zlib.output\_compression](zlib.configuration.html#ini.zlib.output-compression) краще, ніж **проgzhandler()**
 
 ### Дивіться також
 
-- [ob_start()](function.ob-start.md) - Увімкнення буферизації виводу
-- [ob_end_flush()](function.ob-end-flush.md) - Скинути (надіслати)
-буфер виведення та вимкнути буферизацію виводу
+-   [ob\_start()](function.ob-start.html) - Включення буферизації виводу
+-   [ob\_end\_flush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу

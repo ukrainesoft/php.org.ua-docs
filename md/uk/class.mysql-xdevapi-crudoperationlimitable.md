@@ -1,28 +1,42 @@
-- [« CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.md)
-- [CrudOperationLimitable::limit »](mysql-xdevapi-crudoperationlimitable.limit.md)
+Інтерфейс CrudOperationLimitable
 
-- [PHP Manual](index.md)
-- [Mysql_xdevapi](book.mysql-xdevapi.md)
-- Інтерфейс CrudOperationLimitable
+-   [« CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.html)
+    
+-   [CrudOperationLimitable::limit »](mysql-xdevapi-crudoperationlimitable.limit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mysql\_xdevapi](book.mysql-xdevapi.html)
+    
+-   Інтерфейс CrudOperationLimitable
+    
 
 # Інтерфейс CrudOperationLimitable
 
-(PECL mysql-xdevapi \>= 8.0.11)
+(PECL mysql-xdevapi >= 8.0.11)
 
 ## Вступ
 
 ## Огляд класів
 
-class **mysql_xdevapi\CrudOperationLimitable** {
+```classsynopsis
 
-/\* Методи \*/
 
-abstract public **limit**(int `$rows`):
-[mysql_xdevapi\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.md)
 
-}
+    
+     
+      class mysql_xdevapi\CrudOperationLimitable
+     
+     {
+
+
+    /* Методы */
+    
+   abstract public limit(int $rows): mysql_xdevapi\CrudOperationLimitable
+
+   }
+```
 
 ## Зміст
 
-- [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.md)
-- Встановлює ліміт результату
+-   [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.html) - Встановлює ліміт результату

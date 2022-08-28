@@ -1,23 +1,29 @@
-- [« apache_request_headers](function.apache-request-headers.md)
-- [apache_setenv »](function.apache-setenv.md)
+Повертає список усіх HTTP-заголовків відповіді Apache
 
-- [PHP Manual](index.md)
-- [Функції Apache](ref.apache.md)
-- Повертає список усіх HTTP-заголовків відповіді Apache
+-   [« apache\_request\_headers](function.apache-request-headers.html)
+    
+-   [apache\_setenv »](function.apache-setenv.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Apache](ref.apache.html)
+    
+-   Повертає список усіх HTTP-заголовків відповіді Apache
+    
 
-#apache_response_headers
+# apacheresponseheaders
 
-(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
 
-apache_response_headers — Повертає список усіх заголовків HTTP відповіді
-Apache
+apacheresponseheaders — Повертає список усіх заголовків HTTP відповіді Apache
 
 ### Опис
 
-**apache_response_headers**(): array\|false
+```methodsynopsis
+apache_response_headers(): array|false
+```
 
-Повертає список усіх заголовків HTTP. Працює на веб-серверах Apache
-та FastCGI.
+Повертає список усіх заголовків HTTP. Працює на веб-серверах Apache та FastCGI.
 
 ### Список параметрів
 
@@ -25,28 +31,30 @@ Apache
 
 ### Значення, що повертаються
 
-Масив HTTP-заголовків відповіді Apache у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Масив HTTP-заголовків відповіді Apache у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apache_response_headers()****
+**Приклад #1 Приклад використання **apacheresponseheaders()****
 
-` <?phpprint_r(apache_response_headers());?> `
+```php
+<?php
+print_r(apache_response_headers());
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[Accept-Ranges] => bytes
-[X-Powered-By] => PHP/4.3.8
+    [Accept-Ranges] => bytes
+    [X-Powered-By] => PHP/4.3.8
 )
+```
 
 ### Дивіться також
 
-- [apache_request_headers()](function.apache-request-headers.md) -
-Отримує список усіх заголовків HTTP-запиту
-- [headers_sent()](function.headers-sent.md) - Перевіряє, чи були вони
-надіслано заголовки
-- [headers_list()](function.headers-list.md) - Повертає список
-переданих заголовків (або готових до відправлення)
+-   [apache\_request\_headers()](function.apache-request-headers.html) - Отримує список усіх заголовків HTTP-запиту
+-   [headers\_sent()](function.headers-sent.html) - Перевіряє, чи були надіслані заголовки
+-   [headers\_list()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)

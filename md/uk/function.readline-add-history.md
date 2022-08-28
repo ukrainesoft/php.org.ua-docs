@@ -1,28 +1,36 @@
-- [« Функції Readline](ref.readline.md)
-- [readline_callback_handler_install »](function.readline-callback-handler-install.md)
+Додає рядок до історії
 
-- [PHP Manual](index.md)
-- [Функції Readline](ref.readline.md)
-- Додає рядок до історії
+-   [« Функции Readline](ref.readline.html)
+    
+-   [readline\_callback\_handler\_install »](function.readline-callback-handler-install.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Readline](ref.readline.html)
+    
+-   Додає рядок до історії
+    
 
-#readline_add_history
+# readlineaddhistory
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readline_add_history — Додає рядок до історії
+readlineaddhistory — Додає рядок до історії
 
 ### Опис
 
-**readline_add_history**(string `$prompt`): bool
+```methodsynopsis
+readline_add_history(string $prompt): bool
+```
 
 Додає рядок до історії введення.
 
 ### Список параметрів
 
 `prompt`
+
 Рядок, який треба додати в історію команд.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

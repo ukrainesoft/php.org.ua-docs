@@ -1,19 +1,27 @@
-- [« UI\Controls\Button::\_\_construct](ui-controls-button.construct.md)
-- [UI\Controls\Button::onClick »](ui-controls-button.onclick.md)
+Отримати текст
 
-- [PHP Manual](index.md)
-- [UI\Controls\Button](class.ui-controls-button.md)
-- Отримати текст
+-   [« UI\\Controls\\Button::\_\_construct](ui-controls-button.construct.html)
+    
+-   [UI\\Controls\\Button::onClick »](ui-controls-button.onclick.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Button](class.ui-controls-button.html)
+    
+-   Отримати текст
+    
 
-# UI\Controls\Button::getText
+# ОЙControlsButton::getText
 
 (UI 0.9.9)
 
-UI\Controls\Button::getText — Отримати текст
+ОЙControlsButton::getText — Отримати текст
 
 ### Опис
 
-public **UI\Controls\Button::getText**(): string
+```methodsynopsis
+public UI\Controls\Button::getText(): string
+```
 
 Отримати текст (мітку) для цього об'єкта Button
 
@@ -23,4 +31,4 @@ public **UI\Controls\Button::getText**(): string
 
 ### Значення, що повертаються
 
-Поточний текст (позначка)
+Поточний текст (мітка)

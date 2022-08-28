@@ -1,19 +1,27 @@
-- [«SolrDocument::getFieldCount](solrdocument.getfieldcount.md)
-- [SolrDocument::getInputDocument »](solrdocument.getinputdocument.md)
+Повертає масив імен полів у документі
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Повертає масив імен полів у документі
+-   [« SolrDocument::getFieldCount](solrdocument.getfieldcount.html)
+    
+-   [SolrDocument::getInputDocument »](solrdocument.getinputdocument.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Повертає масив імен полів у документі
+    
 
 # SolrDocument::getFieldNames
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::getFieldNames — Повертає масив імен полів у документі
 
 ### Опис
 
-public **SolrDocument::getFieldNames**(): array
+```methodsynopsis
+public SolrDocument::getFieldNames(): array
+```
 
 Повертає масив імен полів у документі.
 

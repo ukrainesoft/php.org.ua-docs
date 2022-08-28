@@ -1,19 +1,27 @@
-- [«opcache_compile_file](function.opcache-compile-file.md)
-- [opcache_get_status »](function.opcache-get-status.md)
+Отримати конфігураційну інформацію кешу
 
-- [PHP Manual](index.md)
-- [Функції OPcache](ref.opcache.md)
-- Отримати конфігураційну інформацію кешу
+-   [« opcache\_compile\_file](function.opcache-compile-file.html)
+    
+-   [opcache\_get\_status »](function.opcache-get-status.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OPcache](ref.opcache.html)
+    
+-   Отримати конфігураційну інформацію кешу
+    
 
-# opcache_get_configuration
+# opcachegetconfiguration
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
+(PHP 5> = 5.5.0, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)
 
-opcache_get_configuration — Отримати конфігураційну інформацію кеша
+opcachegetconfiguration — Отримати конфігураційну інформацію кешу
 
 ### Опис
 
-**opcache_get_configuration**(): array\|false
+```methodsynopsis
+opcache_get_configuration(): array|false
+```
 
 Ця функція повертає конфігураційні установки екземпляра кеша.
 
@@ -23,16 +31,12 @@ opcache_get_configuration — Отримати конфігураційну ін
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією, включаючи INI-налаштування, чорний список та
-версію
+Повертає масив з інформацією, включаючи INI-налаштування, чорний список та версію
 
 ### Помилки
 
-Якщо використовується `opcache.restrict_api` та поточний шлях підпадає під
-заборона, то буде викликана помилка рівня E_WARNING та жодних даних
-повернуто не буде.
+Якщо використовується `opcache.restrict_api` і поточний шлях підпадає під заборону, то буде викликана помилка рівня EWARNING і жодних даних повернуто не буде.
 
 ### Дивіться також
 
-- [opcache_get_status()](function.opcache-get-status.md) - Отримати
-інформацію про стан кешу
+-   [opcache\_get\_status()](function.opcache-get-status.html) - Отримати інформацію про стан кешу

@@ -1,32 +1,39 @@
-- [«Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.md)
-- [Gmagick::setsize »](gmagick.setsize.md)
+Встановлює фактори вибірки зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює фактори вибірки зображення
+-   [« Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.html)
+    
+-   [Gmagick::setsize »](gmagick.setsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює фактори вибірки зображення
+    
 
 # Gmagick::setsamplingfactors
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setsamplingfactors — Встановлює фактори вибірки зображення
 
 ### Опис
 
-public **Gmagick::setsamplingfactors**(array `$factors`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setsamplingfactors(array $factors): Gmagick
+```
 
 Встановлює фактори вибірки зображення.
 
 ### Список параметрів
 
 `factors`
-Масив значень типу double, що представляє фактор вибірки для кожного
-компонента кольору (у порядку RGB).
+
+Масив значень типу double, що представляє фактор вибірки кожного компонента кольору (у порядку RGB).
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

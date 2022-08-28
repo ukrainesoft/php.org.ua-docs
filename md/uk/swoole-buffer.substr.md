@@ -1,36 +1,42 @@
-- [« Swoole\Buffer::recycle](swoole-buffer.recycle.md)
-- [Swoole\Buffer::\_\_toString »](swoole-buffer.tostring.md)
+Зчитує дані з буфера пам'яті на основі зміщення та довжини. Або видаляє дані з буфера пам'яті
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Зчитує дані з буфера пам'яті на основі усунення та довжини. Або
-видаляє дані з буфера пам'яті
+-   [« Swoole\\Buffer::recycle](swoole-buffer.recycle.html)
+    
+-   [Swoole\\Buffer::\_\_toString »](swoole-buffer.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Buffer](class.swoole-buffer.html)
+    
+-   Зчитує дані з буфера пам'яті на основі зміщення та довжини. Або видаляє дані з буфера пам'яті
+    
 
-# Swoole\Buffer::substr
+# SwooleBuffer::substr
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Buffer::substr — Зчитує дані з буфера пам'яті на основі
-зміщення та довжини. Або видаляє дані з буфера пам'яті
+SwooleBuffer::substr — Зчитує дані з буфера пам'яті на основі усунення та довжини. Або видаляє дані з буфера пам'яті
 
 ### Опис
 
-public **Swoole\Buffer::substr**(int `$offset`, int `$length` = ?, bool
-`$remove` = ?): string
+```methodsynopsis
+public Swoole\Buffer::substr(int $offset, int $length = ?, bool $remove = ?): string
+```
 
-Якщо для $remove встановлено значення true, а для $offset встановлено
-значення 0 дані будуть видалені з буфера. Пам'ять для зберігання даних
-буде звільнено під час знищення об'єкта буфера.
+Якщо для $remove встановлено значення true, а для $offset встановлено значення 0, дані будуть видалені з буфера. Пам'ять для зберігання даних буде звільнено під час знищення об'єкта буфера.
 
 ### Список параметрів
 
 `offset`
+
 Зміщення.
 
 `length`
+
 довжина.
 
 `remove`
+
 Визначає, чи видалити дані з буфера пам'яті.
 
 ### Значення, що повертаються

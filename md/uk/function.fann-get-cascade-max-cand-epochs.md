@@ -1,37 +1,42 @@
-- [« fann_get_cascade_candidate_stagnation_epochs](function.fann-get-cascade-candidate-stagnation-epochs.md)
-- [fann_get_cascade_max_out_epochs »](function.fann-get-cascade-max-out-epochs.md)
+Отримує найбільший період кандидата
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- отримує найбільший період кандидата
+-   [« fann\_get\_cascade\_candidate\_stagnation\_epochs](function.fann-get-cascade-candidate-stagnation-epochs.html)
+    
+-   [fann\_get\_cascade\_max\_out\_epochs »](function.fann-get-cascade-max-out-epochs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Отримує найбільший період кандидата
+    
 
-# fann_get_cascade_max_cand_epochs
+# fanngetcascademaxcandepochs
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_cascade_max_cand_epochs — Отримує найбільший період кандидата
+fanngetcascademaxcandepochs - Отримує найбільший період кандидата
 
 ### Опис
 
-**fann_get_cascade_max_cand_epochs**(resource `$ann`): int
+```methodsynopsis
+fann_get_cascade_max_cand_epochs(resource $ann): int
+```
 
-Максимальний період кандидата визначає максимальну кількість
-періодів, у яких вхідні з'єднання з кандидатами можуть бути навчені
-перед додаванням нового нейрона-кандидата.
+Максимальний період кандидата визначає максимальну кількість періодів, у яких вхідні з'єднання з кандидатами можуть бути навчені перед додаванням нового нейрона-кандидата.
 
-Максимальний період за замовчуванням - 150.
+Максимальний період кандидата за умовчанням – 150.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Максимальний період кандидата або **`false`** у разі виникнення
-помилки.
+Максимальний період кандидата чи **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_cascade_max_cand_epochs()](function.fann-set-cascade-max-cand-epochs.md) -
-Встановлює максимальний період кандидата
+-   [fann\_set\_cascade\_max\_cand\_epochs()](function.fann-set-cascade-max-cand-epochs.html) - встановлює найбільший період кандидата

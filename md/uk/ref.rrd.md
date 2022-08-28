@@ -1,35 +1,31 @@
-- [« Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.md)
-- [rrd_create »](function.rrd-create.md)
+Функції RRD
 
-- [PHP Manual](index.md)
-- [RRD](book.rrd.md)
-- Функції RRD
+-   [« Объектно-ориентированный пример PECL/rrd](rrd.examples-oop.html)
+    
+-   [rrd\_create »](function.rrd-create.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RRD](book.rrd.html)
+    
+-   Функції RRD
+    
 
 # Функції RRD
 
 ## Зміст
 
-- [rrd_create](function.rrd-create.md) — Створити файл rrd
-- [rrd_error](function.rrd-error.md) — Отримати останні повідомлення
-про помилку
-- [rrd_fetch](function.rrd-fetch.md) — Вийняти дані для графіка
-вигляді масиву
-- [rrd_first](function.rrd-first.md) — Повертає позначку часу
-першого зразка з файлу rrd
-- [rrd_graph](function.rrd-graph.md) — Створює зображення з даних
-- [rrd_info](function.rrd-info.md) — Отримує інформацію про файл rrd
-- [rrd_last](function.rrd-last.md) — Повертає позначку часу unix
-останнього зразка
-- [rrd_lastupdate](function.rrd-lastupdate.md) — Отримує інформацію
-про останні оновлені дані
-- [rrd_restore](function.rrd-restore.md) — Відновлює файл RRD
-з дампи XML
-- [rrd_tune](function.rrd-tune.md) — Налаштовує деякі опції
-заголовка файлу бази даних RRD
-- [rrd_update](function.rrd-update.md) — Оновлює базу даних RRD
-- [rrd_version](function.rrd-version.md) — Отримує інформацію про
-базовій бібліотеці rrdtool
-- [rrd_xport](function.rrd-xport.md) — Експортує інформацію про
-базі даних RRD
-- [rrdc_disconnect](function.rrdc-disconnect.md) — Закрити будь-які
-незавершені підключення до демона кешування rrd
+-   [rrd\_create](function.rrd-create.html) - Створити файл rrd
+-   [rrd\_error](function.rrd-error.html) — Отримати останнє повідомлення про помилку
+-   [rrd\_fetch](function.rrd-fetch.html) — Витягти дані для графіка у вигляді масиву
+-   [rrd\_first](function.rrd-first.html) — Повертає позначку часу першого зразка із файлу rrd
+-   [rrd\_graph](function.rrd-graph.html) — Створює зображення з даних
+-   [rrd\_info](function.rrd-info.html) — Отримує інформацію про файл rrd
+-   [rrd\_last](function.rrd-last.html) — Повертає позначку часу unix останнього зразка
+-   [rrd\_lastupdate](function.rrd-lastupdate.html) — Отримує інформацію про останні оновлені дані
+-   [rrd\_restore](function.rrd-restore.html) — Відновлює RRD із дампа XML
+-   [rrd\_tune](function.rrd-tune.html) — Налаштовує деякі опції заголовка файлу бази даних RRD
+-   [rrd\_update](function.rrd-update.html) — Оновлює базу даних RRD
+-   [rrd\_version](function.rrd-version.html) — Отримує інформацію про базову бібліотеку rrdtool
+-   [rrd\_xport](function.rrd-xport.html) — Експортує інформацію про базу даних RRD
+-   [rrdc\_disconnect](function.rrdc-disconnect.html) — Закрити будь-які незавершені підключення до демона кешування rrd

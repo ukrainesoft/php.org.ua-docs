@@ -1,19 +1,27 @@
-- [« SplFileInfo::getSize](splfileinfo.getsize.md)
-- [SplFileInfo::isDir »](splfileinfo.isdir.md)
+Отримує тип файлу
 
-- [PHP Manual](index.md)
-- [SplFileInfo](class.splfileinfo.md)
-- Отримує тип файлу
+-   [« SplFileInfo::getSize](splfileinfo.getsize.html)
+    
+-   [SplFileInfo::isDir »](splfileinfo.isdir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplFileInfo](class.splfileinfo.html)
+    
+-   Отримує тип файлу
+    
 
 # SplFileInfo::getType
 
-(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
+(PHP 5> = 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getType — Отримує тип файлу
 
 ### Опис
 
-public **SplFileInfo::getType**(): string\|false
+```methodsynopsis
+public SplFileInfo::getType(): string|false
+```
 
 Повертає тип файлу.
 
@@ -23,22 +31,31 @@ public **SplFileInfo::getType**(): string\|false
 
 ### Значення, що повертаються
 
-Рядок (string), що представляє тип елемента. Можливі наступні
-значення: `file`, `link`, `dir`, `block`, `fifo`, `char`, `socket` або
-`unknown`. У разі виникнення помилки повертає **`false`**.
+Рядок (string), що представляє тип елемента. Можливі такі значення: `file` `link` `dir` `block` `fifo` `char` `socket` або `unknown`. У разі виникнення помилки повертає **`false`**
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.md) у разі
-виникнення помилки.
+Викидає [RuntimeException](class.runtimeexception.html) у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileInfo::getType()****
 
-` <?php$info = new SplFileInfo(__FILE__);echo $info->getType().PHP_EOL;$info = new SplFileInfo(dirname(__FILE__));echo $info->getType();?> `
+```php
+<?php
+
+$info = new SplFileInfo(__FILE__);
+echo $info->getType().PHP_EOL;
+
+$info = new SplFileInfo(dirname(__FILE__));
+echo $info->getType();
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 file
 dir
+```

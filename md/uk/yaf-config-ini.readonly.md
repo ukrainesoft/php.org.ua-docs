@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::offsetUnset](yaf-config-ini.offsetunset.md)
-- [Yaf_Config_Ini::rewind »](yaf-config-ini.rewind.md)
+Призначення readonly
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Призначення readonly
+-   [« Yaf\_Config\_Ini::offsetUnset](yaf-config-ini.offsetunset.html)
+    
+-   [Yaf\_Config\_Ini::rewind »](yaf-config-ini.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Призначення readonly
+    
 
-# Yaf_Config_Ini::readonly
+# YafConfigIni::readonly
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::readonly — призначення readonly
+YafConfigIni::readonly — призначення readonly
 
 ### Опис
 
-public **Yaf_Config_Ini::readonly**(): void
+```methodsynopsis
+public Yaf_Config_Ini::readonly(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

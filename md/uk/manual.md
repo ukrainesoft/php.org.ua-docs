@@ -1,9 +1,14 @@
-- [« Авторські права](copyright.md)
-- [Предмова »](preface.md)
+Посібник з PHP
 
-- [PHP Manual](index.md)
-- Посібник з PHP
+-   [« Авторские права](copyright.html)
+    
+-   [Предисловие »](preface.html)
+    
+-   [PHP Manual](index.html)
+    
+-   Посібник з PHP
+    
 
 # Посібник з PHP
 
-- [Предмова](preface.md)
+-   [Предисловие](preface.html)

@@ -1,77 +1,67 @@
-- [« imap_listmailbox](function.imap-listmailbox.md)
-- [imap_listsubscribed »](function.imap-listsubscribed.md)
+Отримати список поштових скриньок, імена яких містять заданий рядок
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Отримати список поштових скриньок, імена яких містять задану
-рядок
+-   [« imap\_listmailbox](function.imap-listmailbox.html)
+    
+-   [imap\_listsubscribed »](function.imap-listsubscribed.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Отримати список поштових скриньок, імена яких містять заданий рядок
+    
 
-#imap_listscan
+# imaplistscan
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_listscan — Отримати список скриньок, імена яких містять
-заданий рядок
+imaplistscan — Отримати список поштових скриньок, імена яких містять заданий рядок
 
 ### Опис
 
-**imap_listscan**(
-[IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$reference`,
-string `$pattern`,
-string `$content`
-): array\|false
+```methodsynopsis
+imap_listscan(    IMAP\Connection $imap,    string $reference,    string $pattern,    string $content): array|false
+```
 
-Повертає масив, що містить імена поштових скриньок, що містять `content`
-у тексті.
+Повертає масив, що містить імена поштових скриньок, що містять `content` у тексті.
 
-Ця функція схожа на
-[imap_listmailbox()](function.imap-listmailbox.md), але також виявляє
-наявність рядка `content` всередині даних поштової скриньки.
+Ця функція схожа на [imap\_listmailbox()](function.imap-listmailbox.html), але також виявляє присутність рядка `content` всередині даних поштової скриньки.
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `reference`
-В `reference`, як правило, має бути вказана лише специфікація
-сервера, як описано в [imap_open()](function.imap-open.md)
+
+У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imap\_open()](function.imap-open.html)
 
 **Увага**
-Якщо
-[imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh)
-не вимкнено, то передача в цей параметр не перевірених даних *не
-безпечна*.
+
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
-Визначає початок пошуку у ієрархії поштових скриньок.
 
-Є два спеціальні символи, які можна використовувати під час передачі
-як частина `pattern`: '`*`` та '`%''. '`*`' повертає всі поштові скриньки.
-Якщо ви передасте `pattern` як ``*``, то отримаєте повний перелік
-ієрархії поштових скриньок. ''%'' поверне лише поточний рівень. ''%'',
-переданий як параметр `pattern`, поверне поштові скриньки лише на самому
-верхній рівень; '`~/mail/%`' на `UW_IMAPD` поверне всі ящики в директорії
-`~/mail`, крім тих, що знаходяться в її піддиректоріях.
+Визначає початок пошуку в ієрархії поштових скриньок.
+
+Є два спеціальні символи, які можна використовувати при передачі як частину `pattern``*`'і'`%``*`' повертає всі поштові скриньки. Якщо ви передасте `pattern` як '`*`', то отримайте повний список ієрархії поштових скриньок. '`%`' поверне лише поточний рівень. '`%`', переданий як параметр `pattern`, поверне поштові скриньки лише на верхньому рівні; '`~/mail/%`' на `UW_IMAPD` поверне всі ящики в директорії ~/mail, крім тих, що знаходяться в її піддиректоріях.
 
 `content`
+
 Шуканий рядок
 
 ### Значення, що повертаються
 
-Повертає масив, що містить імена поштових скриньок, що містять `content`
-у тексті або **`false`** у разі виникнення помилки.
+Повертає масив, що містить імена поштових скриньок, що містять `content` у тексті або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_listmailbox()](function.imap-listmailbox.md) - Псевдонім
-imap_list
-- [imap_search()](function.imap-search.md) - Отримати повідомлення,
-які відповідають заданим критеріям
+-   [imap\_listmailbox()](function.imap-listmailbox.html) - Псевдонім imaplist
+-   [imap\_search()](function.imap-search.html) - Отримати повідомлення, які відповідають заданим критеріям

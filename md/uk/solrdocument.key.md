@@ -1,19 +1,27 @@
-- [«SolrDocument::\_\_isset](solrdocument.isset.md)
-- [SolrDocument::merge »](solrdocument.merge.md)
+Отримує поточний ключ
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Отримує поточний ключ
+-   [« SolrDocument::\_\_isset](solrdocument.isset.html)
+    
+-   [SolrDocument::merge »](solrdocument.merge.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Отримує поточний ключ
+    
 
 # SolrDocument::key
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrDocument::key — Отримує поточний ключ
 
 ### Опис
 
-public **SolrDocument::key**(): string
+```methodsynopsis
+public SolrDocument::key(): string
+```
 
 Отримує ключ.
 

@@ -1,26 +1,31 @@
-- [« Yaf_Route_Interface](class.yaf-route-interface.md)
-- [Yaf_Route_Interface::route »](yaf-route-interface.route.md)
+Збирає запит
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Interface](class.yaf-route-interface.md)
-- Збирає запит
+-   [« Yaf\_Route\_Interface](class.yaf-route-interface.html)
+    
+-   [Yaf\_Route\_Interface::route »](yaf-route-interface.route.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Route\_Interface](class.yaf-route-interface.html)
+    
+-   Збирає запит
+    
 
-# Yaf_Route_Interface::assemble
+# YafRouteInterface::assemble
 
-(Yaf \> = 2.3.0)
+(Yaf >=2.3.0)
 
-Yaf_Route_Interface::assemble — Збирає запит
+YafRouteInterface::assemble — Збирає запит
 
 ### Опис
 
-abstract public **Yaf_Route_Interface::assemble**(array `$info`, array
-`$query` = ?): string
+```methodsynopsis
+abstract public Yaf_Route_Interface::assemble(array $info, array $query = ?): string
+```
 
-Метод повертає URL відповідно до інформації аргументу та додає
-рядки запиту до URL у відповідності до запиту аргументу.
+Метод повертає URL відповідно до інформації аргументу та додає рядки запиту до URL відповідно до запиту аргументу.
 
-Маршрут повинен реалізовувати цей метод відповідно до своїх
-правилами та виконувати зворотний процес.
+Маршрут повинен реалізовувати цей метод відповідно до своїх правил і виконувати зворотний процес.
 
 ### Список параметрів
 

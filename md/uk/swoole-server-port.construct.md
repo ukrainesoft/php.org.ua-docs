@@ -1,19 +1,25 @@
-- [« Swoole\Server::defer](swoole-server.defer.md)
-- [Swoole\Server\Port::\_\_destruct »](swoole-server-port.destruct.md)
+Створює порт сервера
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Створює порт сервера
+-   [« Swoole\\Server::defer](swoole-server.defer.html)
+    
+-   [Swoole\\Server\\Port::\_\_destruct »](swoole-server-port.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Створює порт сервера
+    
 
-# Swoole\Server\Port::\_\_construct
+# SwooleServerPort::construct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server\Port::\_\_construct — Створює порт сервера
+SwooleServerPort::construct — Створює порт сервера
 
 ### Опис
 
-private **Swoole\Server\Port::\_\_construct**()
+private **SwooleServerPort::construct**
 
 ### Список параметрів
 

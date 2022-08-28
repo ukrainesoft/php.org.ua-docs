@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Regex::\_\_construct](mongodb-bson-regex.construct.md)
-- [MongoDB\BSON\Regex::getPattern »](mongodb-bson-regex.getpattern.md)
+Повертає прапори Regex
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
-- Повертає прапори Regex
+-   [« MongoDB\\BSON\\Regex::\_\_construct](mongodb-bson-regex.construct.html)
+    
+-   [MongoDB\\BSON\\Regex::getPattern »](mongodb-bson-regex.getpattern.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+    
+-   Повертає прапори Regex
+    
 
-# MongoDB\BSON\Regex::getFlags
+# MongoDBBSONRegex::getFlags
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON\Regex::getFlags — Повертає прапори Regex
+MongoDBBSONRegex::getFlags — Повертає прапори Regex
 
 ### Опис
 
-final public **MongoDB\BSON\Regex::getFlags**(): string
+```methodsynopsis
+final public MongoDB\BSON\Regex::getFlags(): string
+```
 
 ### Список параметрів
 
@@ -25,20 +33,28 @@ final public **MongoDB\BSON\Regex::getFlags**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\BSON\Regex::getFlags()****
+**Приклад #1 Приклад використання **MongoDBBSONRegex::getFlags()****
 
-` <?php$regex = new MongoDB\BSON\Regex('regex', 'i');var_dump($regex->getFlags());?> `
+```php
+<?php
+
+$regex = new MongoDB\BSON\Regex('regex', 'i');
+var_dump($regex->getFlags());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(1) "i"
+```
 
 ### Дивіться також
 
-- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
-- [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+-   [» Типы BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Поддерживаемые флаги регулярных выражений](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

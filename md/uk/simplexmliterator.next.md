@@ -1,9 +1,15 @@
-- [« SimpleXMLIterator::key](simplexmliterator.key.md)
-- [SimpleXMLIterator::rewind »](simplexmliterator.rewind.md)
+Переміщує ітератор до наступного елемента
 
-- [PHP Manual](index.md)
-- [SimpleXMLIterator](class.simplexmliterator.md)
-- Переміщує ітератор до наступного елементу
+-   [« SimpleXMLIterator::key](simplexmliterator.key.html)
+    
+-   [SimpleXMLIterator::rewind »](simplexmliterator.rewind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SimpleXMLIterator](class.simplexmliterator.html)
+    
+-   Переміщує ітератор до наступного елемента
+    
 
 # SimpleXMLIterator::next
 
@@ -13,10 +19,11 @@ SimpleXMLIterator::next — Переміщення ітератора до на�
 
 ### Опис
 
-public **SimpleXMLIterator::next**(): void
+```methodsynopsis
+public SimpleXMLIterator::next(): void
+```
 
-Цей метод переміщує [SimpleXMLIterator](class.simplexmliterator.md)
-до наступного елемента.
+Цей метод переміщує [SimpleXMLIterator](class.simplexmliterator.html) до наступного елемента.
 
 ### Список параметрів
 
@@ -28,13 +35,23 @@ public **SimpleXMLIterator::next**(): void
 
 ### Приклади
 
-**Приклад #1 Переміщення до наступного елемента**
+**Приклад #1 Переміщення до наступного елементу**
 
-` <?php$xmlIterator = new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');$xmlIterator->rewind(); // повернення до першого елементу$xmlIterator->next();var_dump($xmlIterator->current());?> `
+```php
+<?php
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
+$xmlIterator->rewind(); // возврат к первому элементу
+$xmlIterator->next();
+
+var_dump($xmlIterator->current());
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 object(SimpleXMLIterator)#2 (1) {
-[0]=>
-string(10) "Основи XML"
+  [0]=>
+  string(10) "Основы XML"
 }
+```

@@ -1,24 +1,30 @@
-- [« Установка](mysql-xdevapi.installation.md)
-- [Складання / Компіляція з вихідного коду »](mysql-xdevapi.build.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mysql-xdevapi.setup.md)
-- Налаштування під час виконання
+-   [« Установка](mysql-xdevapi.installation.html)
+    
+-   [Сборка / Компиляция из исходного кода »](mysql-xdevapi.build.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](mysql-xdevapi.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
+Поведінка цих функцій залежить від установок у php.ini.
 
-| Ім'я За замовчуванням                                                                                       | Місце зміни | Список змін    |
-| ----------------------------------------------------------------------------------------------------------- | ----------- | -------------- |
-| [xmysqlnd.collect_memory_statistics](mysql-xdevapi.configuration.md#ini.xmysqlnd.collect-memory-statistics) | 0           | PHP_INI_SYSTEM |
-| [xmysqlnd.collect_statistics](mysql-xdevapi.configuration.md#ini.xmysqlnd.collect-statistics)               | 1           | PHP_INI_ALL    |
-| [xmysqlnd.debug](mysql-xdevapi.configuration.md#ini.xmysqlnd.debug)                                         |             | PHP_INI_SYSTEM |
-| [xmysqlnd.mempool_default_size](mysql-xdevapi.configuration.md#ini.xmysqlnd.mempool-default-size)           | 16000       | PHP_INI_ALL    |
-| [xmysqlnd.net_read_timeout](mysql-xdevapi.configuration.md#ini.xmysqlnd.net-read-timeout)                   | 31536000    | PHP_INI_SYSTEM |
-| [xmysqlnd.trace_alloc](mysql-xdevapi.configuration.md#ini.xmysqlnd.trace-alloc)                             |             | PHP_INI_SYSTEM |
+**Опції налаштування Mysqlxdevapi**
 
-**Опції налаштування Mysql_xdevapi**
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [xmysqlnd.collect\_memory\_statistics](mysql-xdevapi.configuration.html#ini.xmysqlnd.collect-memory-statistics) |  | PHPINISYSTEM |  |
+| [xmysqlnd.collect\_statistics](mysql-xdevapi.configuration.html#ini.xmysqlnd.collect-statistics) |  | PHPINIALL |  |
+| [xmysqlnd.debug](mysql-xdevapi.configuration.html#ini.xmysqlnd.debug) |  | PHPINISYSTEM |  |
+| [xmysqlnd.mempool\_default\_size](mysql-xdevapi.configuration.html#ini.xmysqlnd.mempool-default-size) |  | PHPINIALL |  |
+| [xmysqlnd.net\_read\_timeout](mysql-xdevapi.configuration.html#ini.xmysqlnd.net-read-timeout) |  | PHPINISYSTEM |  |
+| [xmysqlnd.trace\_alloc](mysql-xdevapi.configuration.html#ini.xmysqlnd.trace-alloc) |  | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

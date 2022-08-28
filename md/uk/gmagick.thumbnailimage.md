@@ -1,39 +1,43 @@
-- [«Gmagick::swirlimage](gmagick.swirlimage.md)
-- [Gmagick::trimimage »](gmagick.trimimage.md)
+Змінює розмір зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Змінює розмір зображення
+-   [« Gmagick::swirlimage](gmagick.swirlimage.html)
+    
+-   [Gmagick::trimimage »](gmagick.trimimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Змінює розмір зображення
+    
 
 # Gmagick::thumbnailimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::thumbnailimage — Змінює розмір зображення
 
 ### Опис
 
-public **Gmagick::thumbnailimage**(int `$width`, int `$height`, bool
-`$fit` = **`false`**): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::thumbnailimage(int $width, int $height, bool $fit = false): Gmagick
+```
 
-Змінює розмір зображення до заданих розмірів та видаляє всі пов'язані
-профілі. Мета полягає у створенні невеликих мініатюрних зображень,
-придатні для показу в Інтернеті. Якщо як третій параметр
-задано значення **`true`**, то параметри стовпців та рядків використовуються в
-якість максимумів для кожної сторони. Обидві сторони буде зменшено до
-збігу або менше, ніж параметр, заданий для сторони.
+Змінює розмір зображення до заданих розмірів та видаляє пов'язані профілі. Мета полягає у створенні невеликих мініатюрних зображень, які підходять для показу в Інтернеті. Якщо в якості третього параметра встановлено значення **`true`**, то параметри стовпців і рядків використовуються як максимуми для кожної сторони. Обидві сторони будуть зменшені до збігу або менше параметра, заданого для сторони.
 
 ### Список параметрів
 
 `width`
+
 Ширина зображення.
 
 `height`
+
 Висота зображення.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,53 +1,58 @@
-- [« oci_get_implicit_resultset](function.oci-get-implicit-resultset.md)
-- [oci_lob_is_equal »](function.oci-lob-is-equal.md)
+Копіює об'єкт LOB
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- Копіює об'єкт LOB
+-   [« oci\_get\_implicit\_resultset](function.oci-get-implicit-resultset.html)
+    
+-   [oci\_lob\_is\_equal »](function.oci-lob-is-equal.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Копіює об'єкт LOB
+    
 
-#oci_lob_copy
+# ociлобcopy
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_lob_copy — Копіює об'єкт LOB
+ociлобcopy — Копіює об'єкт LOB
 
 ### Опис
 
-**oci_lob_copy**([OCILob](class.ocilob.md) `$to`,
-[OCILob](class.ocilob.md) `$from`, ?int `$length` = **`null`**): bool
+```methodsynopsis
+oci_lob_copy(OCILob $to, OCILob $from, ?int $length = null): bool
+```
 
-Копіює вміст або частину вмісту об'єкта LOB в інший об'єкт
-LOB. Вміст об'єкта LOB, у якому виконується копіювання,
-перезаписується.
+Копіює вміст або частину вмісту об'єкта LOB в інший об'єкт LOB. Вміст об'єкта LOB, у який виконується копіювання, перезаписується.
 
-Якщо потрібно скопіювати певну частину об'єкта, то для цього
-можна використовувати [OCILob::seek()](ocilob.seek.md), щоб пересунути
-внутрішні покажчики об'єктів на потрібні позиції.
+Якщо потрібно скопіювати певну частину об'єкта, для цього можна використовувати [OCILob::seek()](ocilob.seek.html)щоб пересунути внутрішні покажчики об'єктів на потрібні позиції.
 
 ### Список параметрів
 
 `to`
+
 LOB призначення.
 
 `from`
+
 Копіюваний об'єкт LOB.
 
 `length`
+
 Довжина ділянки вмісту копіювання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія                 | Опис                                  |
-| ---------------------- | ------------------------------------- |
-| 8.0.0, PECL OCI8 3.0.0 | length тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `length` тепер допускає значення null. |
 
 ### Примітки
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Клас OCILob називався OCI-Lob до PHP 8 та PECL OCI8 3.0.0.

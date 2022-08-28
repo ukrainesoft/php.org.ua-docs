@@ -1,36 +1,48 @@
-- [«Зумовлені константи](hash.constants.md)
-- [HashContext::\_\_construct »](hashcontext.construct.md)
+Клас HashContext
 
-- [PHP Manual](index.md)
-- [Hash](book.hash.md)
-- Клас HashContext
+-   [« Предопределённые константы](hash.constants.html)
+    
+-   [HashContext::\_\_construct »](hashcontext.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Hash](book.hash.html)
+    
+-   Клас HashContext
+    
 
 # Клас HashContext
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
 ## Вступ
 
 ## Огляд класів
 
-final class **HashContext** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-private [\_\_construct](hashcontext.construct.md)()
+    
+     
+      final
+      class HashContext
+     
+     {
 
-public [\_\_serialize](hashcontext.serialize.md)(): array
+    /* Методы */
+    
+   private __construct()
 
-public [\_\_unserialize](hashcontext.unserialize.md)(array `$data`):
-void
+    public __serialize(): array
+public __unserialize(array $data): void
 
-}
+   }
+```
 
 ## Зміст
 
-- [HashContext::\_\_construct](hashcontext.construct.md) - Закритий
-конструктор для заборони безпосереднього створення об'єкту
-- [HashContext::\_\_serialize](hashcontext.serialize.md) -
-Серіалізує об'єкт HashContext
-- [HashContext::\_\_unserialize](hashcontext.unserialize.md) -
-Десеріалізує параметр data в об'єкті HashContext
+-   [HashContext::\_\_construct](hashcontext.construct.html) — Закритий конструктор для заборони безпосереднього створення об'єкту
+-   [HashContext::\_\_serialize](hashcontext.serialize.html) — Серіалізує об'єкт HashContext
+-   [HashContext::\_\_unserialize](hashcontext.unserialize.html) — Десеріалізує параметр data в об'єкті HashContext

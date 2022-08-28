@@ -1,52 +1,40 @@
-- [« MongoDB\BSON oCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.md)
-- [MongoDB\BSON oPHP »](function.mongodb.bson-tophp.md)
+Повертає Legacy Extended JSON подання значення BSON
 
-- [PHP Manual](index.md)
-- [Функції](ref.bson.functions.md)
-- Повертає Legacy Extended JSON подання значення BSON
+-   [« MongoDB\\BSON\\toCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.html)
+    
+-   [MongoDB\\BSON\\toPHP »](function.mongodb.bson-tophp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции](ref.bson.functions.html)
+    
+-   Повертає Legacy Extended JSON подання значення BSON
+    
 
-# MongoDB\BSON oJSON
+# MongoDBBSONtoJSON
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\BSON oJSON — Повертає Legacy Extended JSON представлення
-значення BSON
+MongoDBBSONtoJSON — Повертає Legacy Extended JSON подання значення BSON
 
 ### Опис
 
-**MongoDB\BSON oJSON**(string `$bson`): string
+```methodsynopsis
+MongoDB\BSON\toJSON(string $bson): string
+```
 
-Перетворює рядок BSON на його [» Legacy Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
-уявлення.
+Перетворює рядок BSON на його [» Legacy Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/) уявлення.
 
-> **Примітка**: Існує кілька форматів JSON для представлення
-> BSON. Ця функція реалізує "суворий режим", визначений у [» MongoDB
-> Extended > JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/),
-> який був замінений канонічними та спрощеними форматами,
-> визначеними в [» Специфікації Extended > JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
-> та реалізованими
-> [MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)
-> і
-> [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md)
-> відповідно.
+> **Зауваження**: Існує кілька форматів JSON для представлення BSON Ця функція реалізує "суворий режим", визначений у [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/), який був замінений канонічними та спрощеними форматами, визначеними в [» Спецификации Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst) та реалізованими [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) і [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) відповідно.
 
 **Увага**
 
-[»JSON](http://www.json.org/) не підтримує
-[**`NAN`**](language.types.float.md#language.types.float.nan) та
-[**`INF`**](function.is-infinite.md), а формат Legacy Extended JSON
-MongoDB не визначає альтернативне уявлення для цих значень
-([»libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
-буде виводити літерали `nan` та `inf`, які можуть не розпізнатися,
-як коректний JSON). Якщо ви працюєте з BSON, який може містити
-нескінченні числа, використовуйте
-[MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)
-або
-[MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md).
+[» JSON](http://www.json.org/) не підтримує [**`NAN`**](language.types.float.html#language.types.float.nan) і [**`INF`**](function.is-infinite.html), а формат Legacy Extended JSON MongoDB не визначає альтернативного представлення для цих значень ([» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson) виводитиме літерали `nan` і `inf`, які можуть не розпізнатися як коректний JSON). Якщо ви працюєте з BSON, який може містити нескінченні числа, використовуйте [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) або [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html)
 
 ### Список параметрів
 
 `bson` (string)
+
 Значення BSON для перетворення.
 
 ### Значення, що повертаються
@@ -55,22 +43,50 @@ MongoDB не визначає альтернативне уявлення для
 
 ### Помилки
 
-- Виняток
-[MongoDB\Driver\Exception\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)
-викидається, якщо вхідні дані не є рівно одним
-документом BSON. Можливі причини включають, але не обмежені
-некоректним BSON, зайвими даними або несподіваною помилкою
-[» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson).
+-   Виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDB\BSON oJSON()****
+**Приклад #1 Приклад використання **MongoDBBSONtoJSON()****
 
-`<?php$documents = [    [ 'null' => null ],   [ 'boolean' => true ],    [ 'string' => 'foo'   => 4294967295 ],    [ 'double' => 1.0, ],    [ 'nan' => NAN ],    [ 'pos_inf' => INF ],    [ 'neg_inf' => -INF ],    [ 'array' => [ 'foo', 'bar' ]],    [ 'document' => [ 'foo' => 'bar' ]],   [ 'oid' => new MongoDB\BSON\ObjectId('   c| ' => new MongoDB\BSON\Decimal128('1234.5678') ],   [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\'   new MongoDB\BSON\UTCDateTime(1445990400000) ],   [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ] '' ) ],    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],    [ 'code_ws' => new }', ['a' => 1]) ],   [ 'minkey' => new MongoDB\BSON\MinKey ],   [ 'maxkey' => new MongoDB\BSON$$$ do cument) {   $bson = MongoDB\BSON romPHP($document); echo MongoDB\BSON oJSON($bson), "
-";}?> `
+```php
+<?php
+
+$documents = [
+    [ 'null' => null ],
+    [ 'boolean' => true ],
+    [ 'string' => 'foo' ],
+    [ 'int32' => 123 ],
+    [ 'int64' => 4294967295 ],
+    [ 'double' => 1.0, ],
+    [ 'nan' => NAN ],
+    [ 'pos_inf' => INF ],
+    [ 'neg_inf' => -INF ],
+    [ 'array' => [ 'foo', 'bar' ]],
+    [ 'document' => [ 'foo' => 'bar' ]],
+    [ 'oid' => new MongoDB\BSON\ObjectId('56315a7c6118fd1b920270b1') ],
+    [ 'dec128' => new MongoDB\BSON\Decimal128('1234.5678') ],
+    [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC) ],
+    [ 'date' => new MongoDB\BSON\UTCDateTime(1445990400000) ],
+    [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ],
+    [ 'regex' => new MongoDB\BSON\Regex('pattern', 'i') ],
+    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],
+    [ 'code_ws' => new MongoDB\BSON\Javascript('function() { return a; }', ['a' => 1]) ],
+    [ 'minkey' => new MongoDB\BSON\MinKey ],
+    [ 'maxkey' => new MongoDB\BSON\MaxKey ],
+];
+
+foreach ($documents as $document) {
+    $bson = MongoDB\BSON\fromPHP($document);
+    echo MongoDB\BSON\toJSON($bson), "\n";
+}
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 { "null" : null }
 { "boolean" : true }
 { "string" : "foo" }
@@ -92,14 +108,12 @@ MongoDB не визначає альтернативне уявлення для
 { "code_ws" : { "$code" : "function() { return a; }", "$scope" : { "a" : 1 } } }
 { "minkey" : { "$minKey" : 1 } }
 { "maxkey" : { "$maxKey" : 1 } }
+```
 
 ### Дивіться також
 
-- [MongoDB\BSON romJSON()](function.mongodb.bson-fromjson.md) -
-Повертає уявлення BSON значення JSON
-- [MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) -
-Повертає Canonical Extended JSON подання для значення BSON
-- [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
-Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
-- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDB\\BSON\\fromJSON()](function.mongodb.bson-fromjson.html) - Повертає подання BSON значення JSON
+-   [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) - Повертає Canonical Extended JSON подання для значення BSON
+-   [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) - Повертає Relaxed Extended JSON подання значення BSON
+-   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

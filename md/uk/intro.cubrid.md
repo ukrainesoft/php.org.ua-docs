@@ -1,14 +1,18 @@
-- [«CUBRID](book.cubrid.md)
-- [Встановлення та налаштування »](cubrid.setup.md)
+Вступ
 
-- [PHP Manual](index.md)
-- [CUBRID](book.cubrid.md)
+-   [« CUBRID](book.cubrid.html)
+    
+-   [Установка и настройка »](cubrid.setup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CUBRID](book.cubrid.html)
+    
 -   Вступ
+    
 
 # Вступ
 
-Ці функції дозволяють отримати доступ до серверів баз даних CUBRID. Більше
-інформації про CUBRID можна знайти на сайті
-[»CUBRID](http://www.cubrid.org/).
+Ці функції дозволяють отримати доступ до серверів баз даних CUBRID. Більше інформації про CUBRID можна знайти на сайті [» CUBRID](http://www.cubrid.org/)
 
-Також подивіться [» Документацію CUBRID](http://www.cubrid.org/documentation/).
+Також подивіться [» Документацию CUBRID](http://www.cubrid.org/documentation/)

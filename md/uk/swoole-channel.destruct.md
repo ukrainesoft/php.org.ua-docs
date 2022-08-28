@@ -1,19 +1,27 @@
-- [« Swoole\Channel::\_\_construct](swoole-channel.construct.md)
-- [Swoole\Channel::pop »](swoole-channel.pop.md)
+Знищує канал Swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Channel](class.swoole-channel.md)
-- Знищує канал Swoole
+-   [« Swoole\\Channel::\_\_construct](swoole-channel.construct.html)
+    
+-   [Swoole\\Channel::pop »](swoole-channel.pop.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Channel](class.swoole-channel.html)
+    
+-   Знищує канал Swoole
+    
 
-# Swoole\Channel::\_\_destruct
+# SwooleChannel::destruct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Channel::\_\_destruct — Знищує канал Swoole
+SwooleChannel::destruct — Знищує канал Swoole
 
 ### Опис
 
-public **Swoole\Channel::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Channel::__destruct(): void
+```
 
 ### Список параметрів
 

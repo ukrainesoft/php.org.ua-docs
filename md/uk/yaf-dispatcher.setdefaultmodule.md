@@ -1,20 +1,27 @@
-- [« Yaf_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.md)
-- [Yaf_Dispatcher::setErrorHandler »](yaf-dispatcher.seterrorhandler.md)
+Змінює стандартне ім'я модуля
 
-- [PHP Manual](index.md)
-- [Yaf_Dispatcher](class.yaf-dispatcher.md)
-- Змінює стандартне ім'я модуля
+-   [« Yaf\_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.html)
+    
+-   [Yaf\_Dispatcher::setErrorHandler »](yaf-dispatcher.seterrorhandler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Dispatcher](class.yaf-dispatcher.html)
+    
+-   Змінює стандартне ім'я модуля
+    
 
-# Yaf_Dispatcher::setDefaultModule
+# YafDispatcher::setDefaultModule
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Dispatcher::setDefaultModule — Змінює ім'я модуля за промовчанням
+YafDispatcher::setDefaultModule — Змінює ім'я модуля за промовчанням
 
 ### Опис
 
-public **Yaf_Dispatcher::setDefaultModule**(string `$module`):
-[Yaf_Dispatcher](class.yaf-dispatcher.md)
+```methodsynopsis
+public Yaf_Dispatcher::setDefaultModule(string $module): Yaf_Dispatcher
+```
 
 ### Список параметрів
 

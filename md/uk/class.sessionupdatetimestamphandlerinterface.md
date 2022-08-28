@@ -1,9 +1,15 @@
-- [« SessionIdInterface::create_sid](sessionidinterface.create-sid.md)
-- [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
+Інтерфейс SessionUpdateTimestampHandlerInterface
 
-- [PHP Manual](index.md)
-- [Сесії](book.session.md)
-- Інтерфейс SessionUpdateTimestampHandlerInterface
+-   [« SessionIdInterface::create\_sid](sessionidinterface.create-sid.html)
+    
+-   [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сессии](book.session.html)
+    
+-   Інтерфейс SessionUpdateTimestampHandlerInterface
+    
 
 # Інтерфейс SessionUpdateTimestampHandlerInterface
 
@@ -11,35 +17,30 @@
 
 ## Вступ
 
-**SessionUpdateTimestampHandlerInterface** - це інтерфейс, який
-визначає додаткові методи для створення користувача
-обробника сесії. Для надання користувача обробника
-сесії функції
-[session_set_save_handler()](function.session-set-save-handler.md),
-використовуючи її ООП реалізацію, клас має реалізовувати цей інтерфейс.
+**SessionUpdateTimestampHandlerInterface** - це інтерфейс, який визначає додаткові методи для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [session\_set\_save\_handler()](function.session-set-save-handler.html), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
-Зверніть увагу, що callback-методи цього класу створені для
-внутрішніх дзвінків PHP і не призначені для дзвінків з вашого коду.
+Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 
 ## Огляд класів
 
-interface **SessionUpdateTimestampHandlerInterface** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md)(string
-`$id`, string `$data`): bool
+    
+     
+      interface SessionUpdateTimestampHandlerInterface {
 
-public
-[validateId](sessionupdatetimestamphandlerinterface.validateid.md)(string
-`$id`): bool
+    /* Методы */
+    
+   public updateTimestamp(string $id, string $data): bool
+public validateId(string $id): bool
 
-}
+   }
+```
 
 ## Зміст
 
-- [SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
-— Оновити позначку часу
-- [SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md)
-- Перевірити ідентифікатор
+-   [SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.html) — Оновити позначку часу
+-   [SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.html) - Перевірити ідентифікатор

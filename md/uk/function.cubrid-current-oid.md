@@ -1,50 +1,68 @@
-- [«cubrid_connect](function.cubrid-connect.md)
-- [cubrid_disconnect »](function.cubrid-disconnect.md)
+Повертає OID поточної позиції курсору
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Повертає OID поточної позиції курсору
+-   [« cubrid\_connect](function.cubrid-connect.html)
+    
+-   [cubrid\_disconnect »](function.cubrid-disconnect.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Повертає OID поточної позиції курсору
+    
 
-#cubrid_current_oid
+# cubridcurrentoid
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_current_oid — Повертає OID поточної позиції курсору
+cubridcurrentoid — Повертає OID поточної позиції курсору
 
 ### Опис
 
-**cubrid_current_oid**(resource `$req_identifier`): string
+```methodsynopsis
+cubrid_current_oid(resource $req_identifier): string
+```
 
-Функція **cubrid_current_oid()** використовується для отримання поточного oid
-положення курсору в результативному наборі. Для використання функції
-**cubrid_current_oid()**, запущений запит має бути оновлюваним, та
-при запуску запиту було встановлено опцію **`CUBRID_INCLUDE_OID`**.
+Функція **cubridcurrentoid()** використовується для одержання oid поточного положення курсору в результуючому наборі. Для використання функції **cubridcurrentoid()**, запущений запит повинен бути оновлюваним, і при запуску запиту було встановлено опцію **`CUBRID_INCLUDE_OID`**
 
 ### Список параметрів
 
 `req_identifier`
+
 Ідентифікатор запиту.
 
 ### Значення, що повертаються
 
-Oid поточного положення курсору, у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Oid поточного положення курсору, у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_current_oid()****
+**Приклад #1 Приклад використання **cubridcurrentoid()****
 
-` <?php$conn==cubrid_connect("localhost", 33000, "demodb", "dba");$req = cubrid_execute($conn, "SELECT **FROM code", CUBRID_INCLU ;$res = cubrid_get($conn, $oid);print_r($res);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+
+$req = cubrid_execute($conn, "SELECT * FROM code", CUBRID_INCLUDE_OID);
+$oid = cubrid_current_oid($req);
+$res = cubrid_get($conn, $oid);
+
+print_r($res);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 Array
 (
-[s_name] => X
-[f_name] => mixed
+    [s_name] => X
+    [f_name] => Mixed
 )
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
+-   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор

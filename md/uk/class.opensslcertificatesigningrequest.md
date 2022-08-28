@@ -1,9 +1,15 @@
-- [«OpenSSLCertificate](class.opensslcertificate.md)
-- [OpenSSLAsymmetricKey »](class.opensslasymmetrickey.md)
+Клас OpenSSLCertificateSigningRequest
 
-- [PHP Manual](index.md)
-- [OpenSSL](book.openssl.md)
-- Клас OpenSSLCertificateSigningRequest
+-   [« OpenSSLCertificate](class.opensslcertificate.html)
+    
+-   [OpenSSLAsymmetricKey »](class.opensslasymmetrickey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OpenSSL](book.openssl.html)
+    
+-   Клас OpenSSLCertificateSigningRequest
+    
 
 # Клас OpenSSLCertificateSigningRequest
 
@@ -11,11 +17,20 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `OpenSSL X.509 CSR`
-PHP 8.0.0
+Повністю непрозорий клас, який замінює ресурси `OpenSSL X.509 CSR` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **OpenSSLCertificateSigningRequest** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class OpenSSLCertificateSigningRequest
+     
+     {
+   }
+```

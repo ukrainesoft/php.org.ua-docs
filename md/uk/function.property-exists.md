@@ -1,63 +1,85 @@
-- [«method_exists](function.method-exists.md)
-- [trait_exists»](function.trait-exists.md)
+Перевіряє, чи містить об'єкт чи клас зазначений атрибут
 
-- [PHP Manual](index.md)
-- [Функції роботи з класами та об'єктами](ref.classobj.md)
-- Перевіряє, чи містить об'єкт або клас вказаний атрибут
+-   [« method\_exists](function.method-exists.html)
+    
+-   [trait\_exists »](function.trait-exists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции работы с классами и объектами](ref.classobj.html)
+    
+-   Перевіряє, чи містить об'єкт чи клас зазначений атрибут
+    
 
-# property_exists
+# propertyexists
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-property_exists — Перевіряє, чи міститься об'єкт чи клас вказаний
-атрибут
+propertyexists — Перевіряє, чи об'єкт або клас містить зазначений атрибут.
 
 ### Опис
 
-**property_exists**(object\|string `$object_or_class`, string
-`$property`): bool
+```methodsynopsis
+property_exists(object|string $object_or_class, string $property): bool
+```
 
 Функція перевіряє, чи існує атрибут `property` у вказаному класі.
 
-> **Примітка**:
->
-> На противагу [isset()](function.isset.md),
-> **property_exists()** повертає **`true`**, навіть якщо властивість має
-> значення **`null`**.
+> **Зауваження**
+> 
+> В протилежність [isset()](function.isset.html) **propertyexists()** повертає **`true`**навіть якщо властивість має значення **`null`**
 
 ### Список параметрів
 
 `object_or_class`
+
 Ім'я класу або об'єкт класу для перевірки
 
 `property`
+
 Ім'я якості
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо властивість існує, **`false`**, якщо воно
-не існує, або **`null`** у разі виникнення помилки.
+Повертає **`true`**якщо властивість існує, **`false`**якщо воно не існує, або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **property_exists()****
+**Приклад #1 Приклад використання **propertyexists()****
 
-`<?phpclass myClass {    public $mine; private $xpto; static protected $test; static function test() {         var_dump(property_exists('myClass', 'xpto')); //true   }}var_dump(property_exists('myClass', 'mine')); //truevar_dump(property_exists(new myClass, 'mine')); //truevar_dump(property_exists('myClass', 'xpto')); //truevar_dump(property_exists('myClass', 'bar')); //falsevar_dump(property_exists('myClass', 'test')); //truemyClass::test();?> `
+```php
+<?php
+
+class myClass {
+    public $mine;
+    private $xpto;
+    static protected $test;
+
+    static function test() {
+        var_dump(property_exists('myClass', 'xpto')); //true
+    }
+}
+
+var_dump(property_exists('myClass', 'mine'));   //true
+var_dump(property_exists(new myClass, 'mine')); //true
+var_dump(property_exists('myClass', 'xpto'));   //true
+var_dump(property_exists('myClass', 'bar'));    //false
+var_dump(property_exists('myClass', 'test'));   //true
+myClass::test();
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Виклик цієї функції використовуватиме всі зареєстровані [функції > автозавантаження](language.oop5.autoload.md), якщо клас ще не
-> відомий.
+> **Зауваження**
+> 
+> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.html)якщо клас ще не відомий.
 
-> **Примітка**:
->
-> Функція **property_exists()** не визначає магічно доступні
-> властивості за допомогою методу
-> [`__get`](language.oop5.overloading.md#language.oop5.overloading.members).
+> **Зауваження**
+> 
+> Функція **propertyexists()** не визначає магічно доступні властивості за допомогою методу [`__get`](language.oop5.overloading.html#language.oop5.overloading.members)
 
 ### Дивіться також
 
-- [method_exists()](function.method-exists.md) - Перевіряє,
-чи існує метод у даному класі
+-   [method\_exists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі

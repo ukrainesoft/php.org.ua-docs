@@ -1,19 +1,27 @@
-- [«SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.md)
-- [SolrQuery::getTermsMinCount »](solrquery.gettermsmincount.md)
+Повертає максимальну частоту документа
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає максимальну частоту документа
+-   [« SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.html)
+    
+-   [SolrQuery::getTermsMinCount »](solrquery.gettermsmincount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає максимальну частоту документа
+    
 
 # SolrQuery::getTermsMaxCount
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getTermsMaxCount — Повертає максимальну частоту документа
 
 ### Опис
 
-public **SolrQuery::getTermsMaxCount**(): int
+```methodsynopsis
+public SolrQuery::getTermsMaxCount(): int
+```
 
 Повертає максимальну частоту документа.
 
@@ -23,5 +31,4 @@ public **SolrQuery::getTermsMaxCount**(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ціле число і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає ціле число та **`null`**, якщо значення не встановлено.

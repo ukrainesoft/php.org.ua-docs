@@ -1,19 +1,27 @@
-- [« SolrQuery::getMltQueryFields](solrquery.getmltqueryfields.md)
-- [SolrQuery::getRows »](solrquery.getrows.md)
+Повертає основний запит
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Повертає основний запит
+-   [« SolrQuery::getMltQueryFields](solrquery.getmltqueryfields.html)
+    
+-   [SolrQuery::getRows »](solrquery.getrows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Повертає основний запит
+    
 
 # SolrQuery::getQuery
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 SolrQuery::getQuery — Повертає основний запит
 
 ### Опис
 
-public **SolrQuery::getQuery**(): string
+```methodsynopsis
+public SolrQuery::getQuery(): string
+```
 
 Повертає основний запит
 
@@ -23,5 +31,4 @@ public **SolrQuery::getQuery**(): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає рядок і **`null`**, якщо
-значення не встановлено.
+У разі успішного виконання повертає рядок та **`null`**, якщо значення не встановлено.

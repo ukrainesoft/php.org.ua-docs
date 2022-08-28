@@ -1,21 +1,28 @@
-- [«EvLoop::idle](evloop.idle.md)
-- [EvLoop::io »](evloop.io.md)
+Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
 
-- [PHP Manual](index.md)
-- [EvLoop](class.evloop.md)
-- Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного
-стану
+-   [« EvLoop::idle](evloop.idle.html)
+    
+-   [EvLoop::io »](evloop.io.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvLoop](class.evloop.html)
+    
+-   Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
+    
 
 # EvLoop::invokePending
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvLoop::invokePending — Викликає всіх спостерігачів, що очікують, при скиданні
-їх відкладеного стану
+EvLoop::invokePending — Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
 
 ### Опис
 
-public **EvLoop::invokePending**(): void
+```methodsynopsis
+public
+   EvLoop::invokePending(): void
+```
 
 Викликає всіх спостерігачів, що очікують, при скиданні їх відкладеного стану
 

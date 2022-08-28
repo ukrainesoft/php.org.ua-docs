@@ -1,132 +1,96 @@
-- [« Yaf_Controller_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md)
-- [Yaf_Action_Abstract::execute »](yaf-action-abstract.execute.md)
+Клас YafActionAbstract
 
-- [PHP Manual](index.md)
-- [Yaf](book.yaf.md)
-- Клас Yaf_Action_Abstract
+-   [« Yaf\_Controller\_Abstract::setViewpath](yaf-controller-abstract.setviewpath.html)
+    
+-   [Yaf\_Action\_Abstract::execute »](yaf-action-abstract.execute.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf](book.yaf.html)
+    
+-   Клас YafActionAbstract
+    
 
-# Клас Yaf_Action_Abstract
+# Клас YafActionAbstract
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
 ## Вступ
 
-Дія повинна визначатися в окремому файлі Yaf (дивіться
-[Yaf_Controller_Abstract](class.yaf-controller-abstract.md)). Також,
-всі класи дії повинні розширювати **Yaf_Action_Abstract**.
+Дія повинна визначатися в окремому файлі в Yaf (див. [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)). Також всі класи дії повинні розширювати **YafActionAbstract**
 
-Так як необхідна точка входу, яку зміг би використовувати Yaf, ви,
-вашому класі, повинні реалізувати метод
-[Yaf_Action_Abstract::execute()](yaf-action-abstract.execute.md).
+Так як необхідна точка входу, яку міг би використовувати Yaf, ви, у вашому класі, повинні реалізувати метод [Yaf\_Action\_Abstract::execute()](yaf-action-abstract.execute.html)
 
 ## Огляд класів
 
-class **Yaf_Action_Abstract** extends
-[Yaf_Controller_Abstract](class.yaf-controller-abstract.md) {
+```classsynopsis
 
-/\* Властивості \*/
 
-protected `$_controller`;
+    
+    
+     
+      class Yaf_Action_Abstract
+     
 
-/\* Методи \*/
+     
+      extends
+       Yaf_Controller_Abstract
+     
+     {
+    
+    /* Свойства */
+    
+     protected
+      $_controller;
 
-abstract
-public[execute](yaf-action-abstract.execute.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$args`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public[getController](yaf-action-abstract.getcontroller.md)():
-[Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
 
-public
-[getControllerName](yaf-controller-abstract.getcontrollername.md)():
-string
+    /* Методы */
+    
+   abstract publicexecute(mixed ...$args): mixed
+publicgetController(): Yaf_Controller_Abstract
+public getControllerName(): string
 
-/\* Наслідувані методи \*/
 
-protected
-[Yaf_Controller_Abstract::display](yaf-controller-abstract.display.md)(string
-`$tpl`, array `$parameters` = ?): bool
+    /* Наследуемые методы */
+    protected Yaf_Controller_Abstract::display(string $tpl, array $parameters = ?): bool
+public Yaf_Controller_Abstract::forward(string $action, array $paramters = ?): bool
+public Yaf_Controller_Abstract::getInvokeArg(string $name): void
+public Yaf_Controller_Abstract::getInvokeArgs(): void
+public Yaf_Controller_Abstract::getModuleName(): string
+public Yaf_Controller_Abstract::getName(): string
+public Yaf_Controller_Abstract::getRequest(): Yaf_Request_Abstract
+public Yaf_Controller_Abstract::getResponse(): Yaf_Response_Abstract
+public Yaf_Controller_Abstract::getView(): Yaf_View_Interface
+public Yaf_Controller_Abstract::getViewpath(): string
+public Yaf_Controller_Abstract::init(): void
+public Yaf_Controller_Abstract::initView(array $options = ?): void
+public Yaf_Controller_Abstract::redirect(string $url): bool
+protected Yaf_Controller_Abstract::render(string $tpl, array $parameters = ?): string
+public Yaf_Controller_Abstract::setViewpath(string $view_directory): void
 
-public
-[Yaf_Controller_Abstract::forward](yaf-controller-abstract.forward.md)(string
-`$action`, array `$paramters` = ?): bool
 
-public
-[Yaf_Controller_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md)(string
-`$name`): void
-
-public
-[Yaf_Controller_Abstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.md)():
-void
-
-public
-[Yaf_Controller_Abstract::getModuleName](yaf-controller-abstract.getmodulename.md)():
-string
-
-public
-[Yaf_Controller_Abstract::getName](yaf-controller-abstract.getname.md)():
-string
-
-public
-[Yaf_Controller_Abstract::getRequest](yaf-controller-abstract.getrequest.md)():
-[Yaf_Request_Abstract](class.yaf-request-abstract.md)
-
-public
-[Yaf_Controller_Abstract::getResponse](yaf-controller-abstract.getresponse.md)():
-[Yaf_Response_Abstract](class.yaf-response-abstract.md)
-
-public
-[Yaf_Controller_Abstract::getView](yaf-controller-abstract.getview.md)():
-[Yaf_View_Interface](class.yaf-view-interface.md)
-
-public
-[Yaf_Controller_Abstract::getViewpath](yaf-controller-abstract.getviewpath.md)():
-string
-
-public
-[Yaf_Controller_Abstract::init](yaf-controller-abstract.init.md)():
-void
-
-public
-[Yaf_Controller_Abstract::initView](yaf-controller-abstract.initview.md)(array
-`$options` = ?): void
-
-public
-[Yaf_Controller_Abstract::redirect](yaf-controller-abstract.redirect.md)(string
-`$url`): bool
-
-protected
-[Yaf_Controller_Abstract::render](yaf-controller-abstract.render.md)(string
-`$tpl`, array `$parameters` = ?): string
-
-public
-[Yaf_Controller_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md)(string
-`$view_directory`): void
-
-}
+   }
+```
 
 ## Властивості
 
-`_module`
+module
 
-`_name`
+name
 
-`_request`
+request
 
-`_response`
+response
 
-`_invoke_args`
+invokeargs
 
-`_view`
+view
 
-`_controller`
+controller
 
 ## Зміст
 
-- [Yaf_Action_Abstract::execute](yaf-action-abstract.execute.md)
-Точка входу для Action-класів
-- [Yaf_Action_Abstract::getController](yaf-action-abstract.getcontroller.md)
-— Отримати об'єкт контролера
-- [Yaf_Action_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md)
-— Отримує ім'я контролера
+-   [Yaf\_Action\_Abstract::execute](yaf-action-abstract.execute.html) - Точка входу для Action-класів
+-   [Yaf\_Action\_Abstract::getController](yaf-action-abstract.getcontroller.html) - Отримати об'єкт контролер
+-   [Yaf\_Action\_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.html) — Отримує ім'я контролера

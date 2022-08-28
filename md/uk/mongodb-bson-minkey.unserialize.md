@@ -1,25 +1,33 @@
-- [« MongoDB\BSON\MinKey::serialize](mongodb-bson-minkey.serialize.md)
-- [MongoDB\BSON\ObjectId »](class.mongodb-bson-objectid.md)
+Десеріалізує MinKey
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
-- Десеріалізує MinKey
+-   [« MongoDB\\BSON\\MinKey::serialize](mongodb-bson-minkey.serialize.html)
+    
+-   [MongoDB\\BSON\\ObjectId »](class.mongodb-bson-objectid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+    
+-   Десеріалізує MinKey
+    
 
-# MongoDB\BSON\MinKey::unserialize
+# MongoDBBSONMinKey::unserialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\MinKey::unserialize — Десеріалізує MinKey
+MongoDBBSONMonKey::unserialize — Десеріалізує MonKey
 
 ### Опис
 
-final public **MongoDB\BSON\MinKey::unserialize**(string `$serialized`):
-void
+```methodsynopsis
+final public MongoDB\BSON\MinKey::unserialize(string $serialized): void
+```
 
 ### Список параметрів
 
 `serialized`
-Серіалізований [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md).
+
+Серіалізований [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
 
 ### Значення, що повертаються
 
@@ -27,13 +35,10 @@ void
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\MinKey::serialize()](mongodb-bson-minkey.serialize.md) -
-Серіалізує MinKey
-- [unserialize()](function.unserialize.md) - Створює PHP-значення з
-збереженого уявлення
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\MinKey::serialize()](mongodb-bson-minkey.serialize.html) - Серіалізує MinKey
+-   [unserialize()](function.unserialize.html) - Створює PHP-значення зі збереженого уявлення
+-   [Сериализация объектов](language.oop5.serialization.html)

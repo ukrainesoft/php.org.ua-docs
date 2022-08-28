@@ -1,32 +1,41 @@
-- [«str_pad](function.str-pad.md)
-- [str_replace »](function.str-replace.md)
+Повертає рядок, що повторюється
 
-- [PHP Manual](index.md)
-- [Функції для роботи з рядками](ref.strings.md)
-- Повертає рядок, що повторюється.
+-   [« str\_pad](function.str-pad.html)
+    
+-   [str\_replace »](function.str-replace.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы со строками](ref.strings.html)
+    
+-   Повертає рядок, що повторюється
+    
 
-#str_repeat
+# strrepeat
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-str_repeat — Повертає рядок, що повторюється.
+strrepeat — Повертає рядок, що повторюється.
 
 ### Опис
 
-**str_repeat**(string `$string`, int `$times`): string
+```methodsynopsis
+str_repeat(string $string, int $times): string
+```
 
-Повертає рядок `string`, повторений `times` раз.
+Повертає рядок `string`, повторену `times` разів.
 
 ### Список параметрів
 
 `string`
+
 Повторюваний рядок.
 
 `times`
-Кількість разів, які потрібно повторити рядок `string`.
 
-`times` повинен бути більшим або дорівнює нулю. Якщо `times` дорівнює нулю,
-повертається порожній рядок.
+Кількість разів, які потрібно повторити рядок `string`
+
+`times` повинен бути більшим або дорівнює нулю. Якщо `times` дорівнює нулю, повертається порожній рядок.
 
 ### Значення, що повертаються
 
@@ -34,18 +43,22 @@ str_repeat — Повертає рядок, що повторюється.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **str_repeat()****
+**Приклад #1 Приклад використання **strrepeat()****
 
-`<?phpecho str_repeat("-=", 10);?> `
+```php
+<?php
+echo str_repeat("-=", 10);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 -=-=-=-=-=-=-=-=-=-=
+```
 
 ### Дивіться також
 
-- [for](control-structures.for.md)
-- [str_pad()](function.str-pad.md) - Доповнює рядок іншим рядком
-до заданої довжини
-- [substr_count()](function.substr-count.md) - Повертає число
-входжень підрядки
+-   [for](control-structures.for.html)
+-   [str\_pad()](function.str-pad.html) - Доповнює рядок іншим рядком до заданої довжини
+-   [substr\_count()](function.substr-count.html) - Повертає кількість входжень підрядка

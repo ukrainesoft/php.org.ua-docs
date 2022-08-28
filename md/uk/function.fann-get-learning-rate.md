@@ -1,31 +1,36 @@
-- [« fann_get_learning_momentum](function.fann-get-learning-momentum.md)
-- [fann_get_MSE »](function.fann-get-mse.md)
+Повертає швидкість навчання
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає швидкість навчання
+-   [« fann\_get\_learning\_momentum](function.fann-get-learning-momentum.html)
+    
+-   [fann\_get\_MSE »](function.fann-get-mse.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає швидкість навчання
+    
 
-# fann_get_learning_rate
+# fanngetlearningrate
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_learning_rate — Повертає швидкість навчання
+fanngetlearningrate — Повертає швидкість навчання
 
 ### Опис
 
-**fann_get_learning_rate**(resource `$ann`): float
+```methodsynopsis
+fann_get_learning_rate(resource $ann): float
+```
 
-Швидкість навчання використовується визначення того, наскільки
-агресивним має бути навчання для деяких алгоритмів навчання
-(**`FANN_TRAIN_INCREMENTAL`**, **`FANN_TRAIN_BATCH`**,
-**`FANN_TRAIN_QUICKPROP`**). Однак зверніть увагу, що вона не
-використовується в **`FANN_TRAIN_RPROP`**.
+Швидкість навчання використовується визначення того, наскільки агресивним має бути навчання деяких алгоритмів навчання (**`FANN_TRAIN_INCREMENTAL`** **`FANN_TRAIN_BATCH`** **`FANN_TRAIN_QUICKPROP`**). Однак зверніть увагу, що вона не використовується в **`FANN_TRAIN_RPROP`**
 
-Швидкість за замовчуванням дорівнює 0.7.
+Швидкість навчання за замовчуванням дорівнює 0.7.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
@@ -34,7 +39,5 @@ fann_get_learning_rate — Повертає швидкість навчання
 
 ### Дивіться також
 
-- [fann_set_learning_rate()](function.fann-set-learning-rate.md) -
-Встановлює швидкість навчання
-- [fann_set_training_algorithm()](function.fann-set-training-algorithm.md) -
-Встановлює алгоритм навчання
+-   [fann\_set\_learning\_rate()](function.fann-set-learning-rate.html) - встановлює швидкість навчання
+-   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

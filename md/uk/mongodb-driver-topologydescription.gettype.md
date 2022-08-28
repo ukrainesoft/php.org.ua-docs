@@ -1,24 +1,29 @@
-- [« MongoDB\Driver\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.md)
-- [MongoDB\Driver\TopologyDescription::hasReadableServer »](mongodb-driver-topologydescription.hasreadableserver.md)
+Повертає рядок, що позначає тип топології
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md)
-- Повертає рядок, що позначає тип топології
+-   [« MongoDB\\Driver\\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.html)
+    
+-   [MongoDB\\Driver\\TopologyDescription::hasReadableServer »](mongodb-driver-topologydescription.hasreadableserver.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.html)
+    
+-   Повертає рядок, що позначає тип топології
+    
 
-# MongoDB\Driver\TopologyDescription::getType
+# MongoDBDriverTopologyDescription::getType
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\TopologyDescription::getType — Повертає рядок,
-що позначає тип топології
+MongoDBDriverTopologyDescription::getType — Повертає рядок, що позначає тип топології
 
 ### Опис
 
-final public **MongoDB\Driver\TopologyDescription::getType**(): string
+```methodsynopsis
+final public MongoDB\Driver\TopologyDescription::getType(): string
+```
 
-Повертає рядок (string), що означає тип топології. Значення буде
-співвідноситися з константою
-[MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md).
+Повертає рядок (string), що означає тип топології. Значення співвідноситиметься з константою [MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.html)
 
 ### Список параметрів
 
@@ -30,5 +35,4 @@ final public **MongoDB\Driver\TopologyDescription::getType**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

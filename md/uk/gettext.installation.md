@@ -1,12 +1,16 @@
-- [« Вимоги](gettext.requirements.md)
-- [Налаштування під час виконання »](gettext.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](gettext.setup.md)
-- Встановлення
+-   [« Требования](gettext.requirements.html)
+    
+-   [Настройка во время выполнения »](gettext.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](gettext.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Щоб включити підтримку GNU gettext у вашу збірку PHP, додайте в
-конфігурацію ключ **--with-gettext[=DIR]**, де DIR - папка установки
-gettext, зазвичай це `/usr/local`.
+Щоб включити підтримку GNU gettext у вашу збірку PHP, додайте в конфігурацію ключ **\-with-gettext=DIR**де DIR - папка установки gettext, зазвичай це /usr/local.

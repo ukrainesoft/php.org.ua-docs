@@ -1,19 +1,27 @@
-- [« ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.md)
-- [ImagickDraw::getTextUnderColor »](imagickdraw.gettextundercolor.md)
+Повертає міжлітерний інтервал тексту
 
-- [PHP Manual](index.md)
-- [ImagickDraw](class.imagickdraw.md)
-- Повертає міжлітерний інтервал тексту
+-   [« ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.html)
+    
+-   [ImagickDraw::getTextUnderColor »](imagickdraw.gettextundercolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImagickDraw](class.imagickdraw.html)
+    
+-   Повертає міжлітерний інтервал тексту
+    
 
 # ImagickDraw::getTextKerning
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3 \>= 3.1.0)
+(PECL imagick 2> = 2.3.0, PECL imagick 3> = 3.1.0)
 
 ImagickDraw::getTextKerning — Повертає міжлітерний інтервал тексту
 
 ### Опис
 
-public **ImagickDraw::getTextKerning**(): float
+```methodsynopsis
+public ImagickDraw::getTextKerning(): float
+```
 
 Повертає міжлітерний інтервал тексту.
 

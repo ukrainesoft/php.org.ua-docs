@@ -1,9 +1,15 @@
-- [« Imagick::filter](imagick.filter.md)
-- [Imagick::flipImage »](imagick.flipimage.md)
+Поєднує послідовність зображень
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Поєднує послідовність зображень
+-   [« Imagick::filter](imagick.filter.html)
+    
+-   [Imagick::flipImage »](imagick.flipimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Поєднує послідовність зображень
+    
 
 # Imagick::flattenImages
 
@@ -13,15 +19,15 @@ Imagick::flattenImages — Об'єднує послідовність зобра
 
 **Увага**
 
-Функція оголошена *УСТАРШЕНОЮ* в Imagick 3.4.4. Покладатись на цю
-функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
-public **Imagick::flattenImages**(): [Imagick](class.imagick.md)
+```methodsynopsis
+public Imagick::flattenImages(): Imagick
+```
 
-Поєднує послідовність зображень. Корисно для об'єднання шарів
-Photoshop одно зображення.
+Поєднує послідовність зображень. Корисно для поєднання шарів Photoshop в одне зображення.
 
 ### Список параметрів
 
@@ -29,7 +35,7 @@ Photoshop одно зображення.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

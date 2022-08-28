@@ -1,15 +1,21 @@
-- [«Вступ](intro.session.md)
-- [Вимоги »](session.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Сесії](book.session.md)
+-   [« Введение](intro.session.html)
+    
+-   [Требования »](session.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сессии](book.session.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](session.requirements.md)
-- [Установка](session.installation.md)
-- [Налаштування під час виконання](session.configuration.md)
-- [Типи ресурсів](session.resources.md)
+-   [Требования](session.requirements.html)
+-   [Установка](session.installation.html)
+-   [Настройка во время выполнения](session.configuration.html)
+-   [Типы ресурсов](session.resources.html)

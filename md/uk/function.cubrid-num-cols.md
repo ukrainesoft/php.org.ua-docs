@@ -1,27 +1,34 @@
-- [«cubrid_next_result](function.cubrid-next-result.md)
-- [cubrid_num_rows »](function.cubrid-num-rows.md)
+Повертає кількість стовпців у наборі результатів
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Повертає кількість стовпців у наборі результатів
+-   [« cubrid\_next\_result](function.cubrid-next-result.html)
+    
+-   [cubrid\_num\_rows »](function.cubrid-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Повертає кількість стовпців у наборі результатів
+    
 
-#cubrid_num_cols
+# cubridnumcols
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_num_cols — Повертає кількість стовпців у наборі результатів
+cubridnumcols — Повертає кількість стовпців у наборі результатів
 
 ### Опис
 
-**cubrid_num_cols**(resource `$result`): int
+```methodsynopsis
+cubrid_num_cols(resource $result): int
+```
 
-Функція **cubrid_num_cols()** використовується для отримання кількості
-стовпців із результату запиту. Її можна використовувати лише в тому
-у випадку, якщо запит, що виконується, є оператором `SELECT`.
+Функція **cubridnumcols()** використовується для отримання кількості стовпців із результату запиту. Її можна використовувати тільки в тому випадку, якщо запит, що виконується, є оператором `SELECT`
 
 ### Список параметрів
 
 `result`
+
 Результат.
 
 ### Значення, що повертаються
@@ -32,20 +39,31 @@ cubrid_num_cols — Повертає кількість стовпців у на
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_num_cols()****
+**Приклад #1 Приклад використання **cubridnumcols()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");$req = cubrid_execute($conn, "SELECT * FROM code");$row_num $= col_num = cubrid_num_cols($req);printf("Кількість рядків: %d
-Кількість стовпців: % d
-", $row_num, $col_num);cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+
+$req = cubrid_execute($conn, "SELECT * FROM code");
+
+$row_num = cubrid_num_rows($req);
+$col_num = cubrid_num_cols($req);
+
+printf("Количество строк: %d\nКоличество столбцов: %d\n", $row_num, $col_num);
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Кількість рядків: 6
-Кількість стовпців: 2
+```
+Количество строк: 6
+Количество столбцов: 2
+```
 
 ### Дивіться також
 
-- [cubrid_execute()](function.cubrid-execute.md) - Виконує
-підготовлений SQL-оператор
-- [cubrid_num_rows()](function.cubrid-num-rows.md) - Отримати
-кількість рядків у наборі результатів
+-   [cubrid\_execute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubrid\_num\_rows()](function.cubrid-num-rows.html) - Отримати кількість рядків у наборі результатів

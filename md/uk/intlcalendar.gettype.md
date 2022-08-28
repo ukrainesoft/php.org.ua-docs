@@ -1,13 +1,19 @@
-- [« IntlCalendar::getTimeZone](intlcalendar.gettimezone.md)
-- [IntlCalendar::getWeekendTransition »](intlcalendar.getweekendtransition.md)
+Отримує тип календаря
 
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- Отримує тип календаря
+-   [« IntlCalendar::getTimeZone](intlcalendar.gettimezone.html)
+    
+-   [IntlCalendar::getWeekendTransition »](intlcalendar.getweekendtransition.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlCalendar](class.intlcalendar.html)
+    
+-   Отримує тип календаря
+    
 
 # IntlCalendar::getType
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
 IntlCalendar::getType — Отримує тип календаря
 
@@ -15,33 +21,47 @@ IntlCalendar::getType — Отримує тип календаря
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::getType**(): string
+```methodsynopsis
+public IntlCalendar::getType(): string
+```
 
 Процедурний стиль
 
-**intlcal_get_type**([IntlCalendar](class.intlcalendar.md)
-`$calendar`): string
+```methodsynopsis
+intlcal_get_type(IntlCalendar $calendar): string
+```
 
-Рядок, що описує тип календаря. Одне з [припустимих значень](intlcalendar.getkeywordvaluesforlocale.md) для значення
-ключового слова календаря ``calendar'`.
+Рядок, що описує тип календаря. Одне з [допустимых значений](intlcalendar.getkeywordvaluesforlocale.html) для значення ключового слова календаря `'calendar'`
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.html)
 
 ### Значення, що повертаються
 
-Рядок (string), що представляє тип календаря, наприклад, gregorian,
-''islamic'' і т.д.
+Рядок (string), що представляє тип календаря, наприклад, `'gregorian'` `'islamic'` і т.д.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlCalendar::getType()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal = IntlCalendar::createInstance(NULL, '@calendar=ethiopic-amete-alem ');var_dump($cal->getType());$cal = new IntlGregorianCalendar();var_dump($cal->getType()); `
+```php
+<?php
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
+
+$cal = IntlCalendar::createInstance(NULL, '@calendar=ethiopic-amete-alem');
+var_dump($cal->getType());
+
+$cal = new IntlGregorianCalendar();
+var_dump($cal->getType());
+```
 
 Результат виконання цього прикладу:
 
+```
 string(19) "ethiopic-amete-alem"
 string(9) "gregorian"
+```

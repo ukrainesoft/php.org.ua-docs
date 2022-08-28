@@ -1,31 +1,38 @@
-- [«CommonMark\Parse](function.commonmark-parse.md)
-- [CommonMark\Render\HTML »](function.commonmark-render-html.md)
+Відображення
 
-- [PHP Manual](index.md)
-- [Функції CommonMark](ref.cmark.md)
-- Відображення
+-   [« CommonMark\\Parse](function.commonmark-parse.html)
+    
+-   [CommonMark\\Render\\HTML »](function.commonmark-render-html.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CommonMark](ref.cmark.html)
+    
+-   Відображення
+    
 
-# CommonMark\Render
+# CommonMarkRender
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Render — Відображення
+CommonMarkRender — Відображення
 
 ### Опис
 
-**CommonMark\Render**([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` = ?, int `$width` = ?): string
+```methodsynopsis
+CommonMark\Render(CommonMark\Node $node, int $options = ?, int $width = ?): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `node`
 
 `options`
+
 Маска з:
 
 **`CommonMark\Render\Normal`** (int)

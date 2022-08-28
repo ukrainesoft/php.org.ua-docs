@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](session.configuration.md)
-- [Предвизначені константи »](session.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](session.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](session.configuration.html)
+    
+-   [Предопределённые константы »](session.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](session.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

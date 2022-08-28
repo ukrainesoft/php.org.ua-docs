@@ -1,49 +1,51 @@
-- [« mysqli::character_set_name](mysqli.character-set-name.md)
-- [mysqli::commit »](mysqli.commit.md)
+Закриває раніше відкрите з'єднання з базою даних
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Закриває раніше відкрите з'єднання з базою даних
+-   [« mysqli::character\_set\_name](mysqli.character-set-name.html)
+    
+-   [mysqli::commit »](mysqli.commit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Закриває раніше відкрите з'єднання з базою даних
+    
 
 # mysqli::close
 
-# mysqli_close
+# mysqliclose
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::close -- mysqli_close — Закриває раніше відкрите з'єднання з
-базою даних
+mysqli::close -- mysqliclose — Закриває раніше відкрите з'єднання з базою даних
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::close**(): bool
+```methodsynopsis
+public mysqli::close(): bool
+```
 
 Процедурний стиль
 
-**mysqli_close**([mysqli](class.mysqli.md) `$mysql`): bool
+```methodsynopsis
+mysqli_close(mysqli $mysql): bool
+```
 
 Закриває відкрите з'єднання з базою даних.
 
-Відкриті непостійні з'єднання MySQL та набори результатів
-автоматично закриваються під час знищення їх об'єктів. Явне закриття
-відкритих з'єднань та звільнення наборів результатів не обов'язково.
-Однак рекомендується закрити з'єднання, як тільки скрипт завершить
-виконання всіх своїх операцій з базою даних, якщо йому ще належить
-велика обробка після отримання результатів.
+Відкриті непостійні з'єднання MySQL та набори результатів автоматично закриваються під час знищення їх об'єктів. Явне закриття відкритих з'єднань та звільнення наборів результатів не є обов'язковим. Однак, рекомендується закрити з'єднання, як тільки скрипт завершить виконання всіх своїх операцій з базою даних, якщо йому ще належить велика обробка після отримання результатів.
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -51,26 +53,49 @@ public **mysqli::close**(): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysql BY ID LIMIT 3");/* Закрийте з'єднання, як тільки воно становиться непотрібним */$mysqli->close();foreach ($result as $row) {  данних**  
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+$result = $mysqli->query("SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+
+/* Закройте соединение, как только оно становится ненужным */
+$mysqli->close();
+
+foreach ($result as $row) {
+    /* Обработка данных, полученных из базы данных */
+}
+```
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$result = mysqli_query  LIMIT 3");
+```php
+<?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+
+$result = mysqli_query($mysqli, "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+
+/* Закройте соединение, как только оно становится ненужным */
+mysqli_close($mysqli);
+
+foreach ($result as $row) {
+    /* Обработка данных, полученных из базы данных */
+}
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> **mysqli_close()** не закриває постійні з'єднання. Для отримання
-> подробиці дивіться посібник з [persistent > connections](features.persistent-connections.md).
+> **Зауваження**
+> 
+> **mysqliclose()** не закриває постійні з'єднання. Для отримання подробиць дивіться посібник з [persistent connections](features.persistent-connections.html)
 
 ### Дивіться також
 
-- [mysqli::\_\_construct()](mysqli.construct.md) - Встановлює
-нове з'єднання з сервером MySQL
-- [mysqli_init()](mysqli.init.md) - Ініціалізує MySQLi та
-повертає об'єкт для використання у функції mysqli_real_connect()
-- [mysqli_real_connect()](mysqli.real-connect.md) - Встановлює
-з'єднання з сервером mysql
-- [mysqli_free_result()](mysqli-result.free.md) - Звільняє
-пам'ять, зайняту результатами запиту
+-   [mysqli::\_\_construct()](mysqli.construct.html) - Встановлює нове з'єднання із сервером MySQL
+-   [mysqli\_init()](mysqli.init.html) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+-   [mysqli\_real\_connect()](mysqli.real-connect.html) - Встановлює з'єднання із сервером mysql
+-   [mysqli\_free\_result()](mysqli-result.free.html) - звільняє пам'ять, зайняту результатами запиту

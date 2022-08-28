@@ -1,20 +1,27 @@
-- [« Yaf_Loader::getNamespacePath](yaf-loader.getnamespacepath.md)
-- [Yaf_Loader::import »](yaf-loader.import.md)
+Отримує всю інформацію про зареєстровані простори імен
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Отримує всю інформацію про зареєстровані простори імен
+-   [« Yaf\_Loader::getNamespacePath](yaf-loader.getnamespacepath.html)
+    
+-   [Yaf\_Loader::import »](yaf-loader.import.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Loader](class.yaf-loader.html)
+    
+-   Отримує всю інформацію про зареєстровані простори імен
+    
 
-# Yaf_Loader::getLocalNamespace
+# YafLoader::getLocalNamespace
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Loader::getLocalNamespace — Отримує всю інформацію про
-зареєстрованих просторах імен
+YafLoader::getLocalNamespace — Отримує всю інформацію про зареєстровані простори імен
 
 ### Опис
 
-public **Yaf_Loader::getNamespaces**(): array
+```methodsynopsis
+public Yaf_Loader::getNamespaces(): array
+```
 
 Отримує інформацію про зареєстровані простори імен
 

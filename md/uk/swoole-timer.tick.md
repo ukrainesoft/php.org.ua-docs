@@ -1,22 +1,27 @@
-- [« Swoole\Timer::exists](swoole-timer.exists.md)
-- [Swoole\WebSocket\Frame »](class.swoole-websocket-frame.md)
+Повторює цю функцію у кожний заданий інтервал часу
 
-- [PHP Manual](index.md)
-- [Swoole\Timer](class.swoole-timer.md)
-- Повторює цю функцію у кожний заданий інтервал часу
+-   [« Swoole\\Timer::exists](swoole-timer.exists.html)
+    
+-   [Swoole\\WebSocket\\Frame »](class.swoole-websocket-frame.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Timer](class.swoole-timer.html)
+    
+-   Повторює цю функцію у кожний заданий інтервал часу
+    
 
-# Swoole\Timer::tick
+# SwooleTimer::tick
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Timer::tick - Повторює цю функцію в кожен заданий інтервал
-часу
+SwooleTimer::tick - Повторює цю функцію в кожен заданий інтервал часу
 
 ### Опис
 
-public static **Swoole\Timer::tick**(int `$interval_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` =
-?): void
+```methodsynopsis
+public static Swoole\Timer::tick(int $interval_ms, callable $callback, string $param = ?): void
+```
 
 ### Список параметрів
 

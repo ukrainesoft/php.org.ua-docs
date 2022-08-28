@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::\_\_construct](yaf-config-ini.construct.md)
-- [Yaf_Config_Ini::current »](yaf-config-ini.current.md)
+Підраховує всі елементи в YafConfig.ini
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Підраховує всі елементи в Yaf_Config.ini
+-   [« Yaf\_Config\_Ini::\_\_construct](yaf-config-ini.construct.html)
+    
+-   [Yaf\_Config\_Ini::current »](yaf-config-ini.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Підраховує всі елементи в YafConfig.ini
+    
 
-# Yaf_Config_Ini::count
+# YafConfigIni::count
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::count — Підраховує всі елементи в Yaf_Config.ini
+YafConfigIni::count — Підраховує всі елементи в YafConfig.ini
 
 ### Опис
 
-public **Yaf_Config_Ini::count**(): void
+```methodsynopsis
+public Yaf_Config_Ini::count(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

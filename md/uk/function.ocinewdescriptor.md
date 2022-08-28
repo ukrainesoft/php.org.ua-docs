@@ -1,22 +1,26 @@
-- [«ocinewcursor](function.ocinewcursor.md)
-- [ocinlogon »](function.ocinlogon.md)
+Псевдонім ocinewdescriptor
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_new_descriptor
+-   [« ocinewcursor](function.ocinewcursor.html)
+    
+-   [ocinlogon »](function.ocinlogon.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ocinewdescriptor
+    
 
 # ocinewdescriptor
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocinewdescriptor - Псевдонім
-[oci_new_descriptor()](function.oci-new-descriptor.md)
+ocinewdescriptor - Псевдонім [oci\_new\_descriptor()](function.oci-new-descriptor.html)
 
 ### Опис
 
-Псевдонім [oci_new_descriptor()](function.oci-new-descriptor.md)
+Псевдонім [oci\_new\_descriptor()](function.oci-new-descriptor.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

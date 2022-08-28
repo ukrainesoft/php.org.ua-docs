@@ -1,26 +1,33 @@
-- [« RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md)
-- [RecursiveTreeIterator::key »](recursivetreeiterator.key.md)
+Отримання префіксу
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Отримання префіксу
+-   [« RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.html)
+    
+-   [RecursiveTreeIterator::key »](recursivetreeiterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+    
+-   Отримання префіксу
+    
 
 # RecursiveTreeIterator::getPrefix
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-RecursiveTreeIterator::getPrefix — Отримання префіксу
+RecursiveTreeIterator::getPrefix — Отримання префікса
 
 ### Опис
 
-public **RecursiveTreeIterator::getPrefix**(): string
+```methodsynopsis
+public RecursiveTreeIterator::getPrefix(): string
+```
 
 Отримує рядок приміщення перед поточним елементом.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,4 +35,4 @@ public **RecursiveTreeIterator::getPrefix**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок до приміщення перед поточним елементом.
+Повертає рядок для розміщення перед поточним елементом.

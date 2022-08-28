@@ -1,46 +1,65 @@
-- [« SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md)
-- [SolrDisMaxQuery::\_\_construct »](solrdismaxquery.construct.md)
+Додає поле до параметра поля користувача (uf)
 
-- [PHP Manual](index.md)
-- [SolrDisMaxQuery](class.solrdismaxquery.md)
-- Додає поле до параметра користувача полів (uf)
+-   [« SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.html)
+    
+-   [SolrDisMaxQuery::\_\_construct »](solrdismaxquery.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDisMaxQuery](class.solrdismaxquery.html)
+    
+-   Додає поле до параметра поля користувача (uf)
+    
 
-# SolrDisMaxQuery::addUserField
+# Solr DisMax Query::add User Field
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::addUserField — Додає поле до параметра
-користувацьких полів (uf)
+SolrDisMaxQuery::addUserField — Додає поле до параметра поля користувача (uf)
 
 ### Опис
 
-public **SolrDisMaxQuery::addUserField**(string `$field`):
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+```methodsynopsis
+public SolrDisMaxQuery::addUserField(string $field): SolrDisMaxQuery
+```
 
-Додає поле до параметра полів користувача (uf)
+Додає поле до параметра поля користувача (uf)
 
 ### Список параметрів
 
 `field`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.md)
+[SolrDisMaxQuery](class.solrdismaxquery.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::addUserField()****
+**Приклад #1 Приклад використання **Solr DisMax Query::add User Field()****
 
-` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->addUserField('cat')->addUserField('text')->addUserField('*_dt');echo $dismaxQuery.PHP_EOL > `
+```php
+<?php
+
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery
+->addUserField('cat')
+->addUserField('text')
+->addUserField('*_dt');
+
+echo $dismaxQuery.PHP_EOL;
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 q=lucene&defType=edismax&uf=cat text *_dt
+```
 
 ### Дивіться також
 
-- [SolrDisMaxQuery::removeUserField()](solrdismaxquery.removeuserfield.md) -
-Видаляє поле з параметра користувацьких полів (uf)
-- [SolrDisMaxQuery::setUserFields()](solrdismaxquery.setuserfields.md) -
-Встановлює параметр полів користувача (uf)
+-   [SolrDisMaxQuery::removeUserField()](solrdismaxquery.removeuserfield.html) - Видаляє поле з параметра користувацьких полів (uf)
+-   [SolrDisMaxQuery::setUserFields()](solrdismaxquery.setuserfields.html) - Встановлює параметр полів користувача (uf)

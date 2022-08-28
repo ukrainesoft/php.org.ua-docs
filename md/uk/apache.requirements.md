@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](apache.setup.md)
-- [Встановлення »](apache.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](apache.setup.md)
-- Вимоги
+-   [« Установка и настройка](apache.setup.html)
+    
+-   [Установка »](apache.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](apache.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

@@ -1,33 +1,42 @@
-- [« Функції OAuth](ref.oauth.md)
-- [oauth_urlencode »](function.oauth-urlencode.md)
+Створити базовий рядок підпису (Signature Base String)
 
-- [PHP Manual](index.md)
-- [Функції OAuth](ref.oauth.md)
-- Створити базовий рядок підпису (Signature Base String)
+-   [« Функции OAuth](ref.oauth.html)
+    
+-   [oauth\_urlencode »](function.oauth-urlencode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OAuth](ref.oauth.html)
+    
+-   Створити базовий рядок підпису (Signature Base String)
+    
 
-#oauth_get_sbs
+# oauthgetsbs
 
-(PECL OAuth =0.99.7)
+(PECL OAuth >=0.99.7)
 
-oauth_get_sbs — Створити базовий рядок підпису (Signature Base String)
+oauthgetsbs — Створити базовий рядок підпису (Signature Base String)
 
 ### Опис
 
-**oauth_get_sbs**(string `$http_method`, string `$uri`, array
-`$request_parameters` = ?): string
+```methodsynopsis
+oauth_get_sbs(string $http_method, string $uri, array $request_parameters = ?): string
+```
 
-Створити базовий рядок підпису (Signature Base String) відповідно до
-pecl/oauth.
+Створити базовий рядок підпису (Signature Base String) відповідно до pecl/oauth.
 
 ### Список параметрів
 
 `http_method`
+
 HTTP метод.
 
 `uri`
+
 URI для кодування.
 
 `request_parameters`
+
 Масив параметрів запиту.
 
 ### Значення, що повертаються

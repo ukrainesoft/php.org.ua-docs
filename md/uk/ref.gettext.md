@@ -1,29 +1,26 @@
-- [«Зумовлені константи](gettext.constants.md)
-- [bind_textdomain_codeset »](function.bind-textdomain-codeset.md)
+Функції gettext
 
-- [PHP Manual](index.md)
-- [Gettext](book.gettext.md)
-- Функції gettext
+-   [« Предопределённые константы](gettext.constants.html)
+    
+-   [bind\_textdomain\_codeset »](function.bind-textdomain-codeset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gettext](book.gettext.html)
+    
+-   Функції gettext
+    
 
 # Функції gettext
 
 ## Зміст
 
-- [bind_textdomain_codeset](function.bind-textdomain-codeset.md) -
-Встановлює або отримує кодування, в якому повертатимуться
-повідомлення з каталогу повідомлень домену
-- [bindtextdomain](function.bindtextdomain.md) — Встановлює або
-отримує шлях для домену
-- [dcgettext](function.dcgettext.md) — Перевизначення одного повідомлення
-у домені
-- [dcngettext](function.dcngettext.md) — Версія dcgettext для
-множини
-- [dgettext](function.dgettext.md) — Перевизначення поточного домену
-для одного повідомлення
-- [dngettext](function.dngettext.md) - Версія dgettext для
-множини
-- [gettext](function.gettext.md) — Шукає повідомлення у поточному домені
-- [ngettext](function.ngettext.md) - Версія gettext для повідомлень у
-множині
-- [textdomain](function.textdomain.md) — Встановлює домен
-замовчуванням
+-   [bind\_textdomain\_codeset](function.bind-textdomain-codeset.html) — Встановлює або отримує кодування, де повертатимуться повідомлення з каталогу повідомлень домену
+-   [bindtextdomain](function.bindtextdomain.html) — Встановлює чи отримує шлях для домену
+-   [dcgettext](function.dcgettext.html) — Перевизначає одне повідомлення в домені
+-   [dcngettext](function.dcngettext.html) — Версія dcgettext для множини
+-   [dgettext](function.dgettext.html) — Перевизначення поточного домену для одного повідомлення
+-   [dngettext](function.dngettext.html) — Версія dgettext для множини
+-   [gettext](function.gettext.html) — Шукає повідомлення у поточному домені
+-   [ngettext](function.ngettext.html) — Версія gettext для повідомлень у множині
+-   [textdomain](function.textdomain.html) — Встановлює домен за промовчанням

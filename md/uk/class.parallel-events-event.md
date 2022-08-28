@@ -1,38 +1,59 @@
-- [« parallel\Events\Input::remove](parallel-events-input.remove.md)
-- [Parallel\Events\Event\Type »](class.parallel-events-event-type.md)
+Клас parallelEventsEvent
 
-- [PHP Manual](index.md)
-- [parallel](book.parallel.md)
-- Клас parallel\Events\Event
+-   [« parallel\\Events\\Input::remove](parallel-events-input.remove.html)
+    
+-   [parallel\\Events\\Event\\Type »](class.parallel-events-event-type.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [parallel](book.parallel.html)
+    
+-   Клас parallelEventsEvent
+    
 
-# Клас parallel\Events\Event
-
-(0.9.0)
+# Клас parallelEventsEvent
 
 ## Об'єкти подій
 
-Коли повертається об'єкт Event, `Event::$object` має бути видалено з
-циклу, який його повернув, якщо подія є подією запису, клас
-**Input** екземпляра `Event::$source` також слід видалити.
+Коли повертається об'єкт Event, Event::$object має бути видалено з циклу, який його повернув, якщо подія є подією запису, клас **Input** екземпляра Event::$source також слід видалити.
 
 ## Огляд класів
 
-final class **parallel\Events\Event** {
+```synopsis
 
-/\* Одна з констант **Event\Type**. \*/
 
-public int `$type`;
 
-/\* Має бути джерелом події (ім'я мети) \*/
+    
+     
+      final
+      class parallel\Events\Event
+     
+     {
 
-public string `$source`;
 
-/\* Має бути або Future, або Channel \*/
+    /* Одна из констант Event\Type. */
+    
+     public
+     int
+      $type;
 
-public object `$object`;
 
-/\* Має бути встановлений для подій читання/помилки \*/
+    /* Должен быть источником события (имя цели) */
+    public
+     string
+      $source;
 
-public `$value`;
 
-}
+    /* Должно быть либо Future, либо Channel */
+    public
+     object
+      $object;
+
+
+    /* Должен быть установлен для событий чтения/ошибки */
+    public
+      $value;
+
+
+   }
+```

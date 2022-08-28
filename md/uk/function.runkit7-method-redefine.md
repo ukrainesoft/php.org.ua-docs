@@ -1,99 +1,117 @@
-- [«runkit7_method_copy](function.runkit7-method-copy.md)
-- [runkit7_method_remove »](function.runkit7-method-remove.md)
+Динамічно змінює код заданого методу
 
-- [PHP Manual](index.md)
-- [Функції runkit7](ref.runkit7.md)
-- Динамічно змінює код заданого методу
+-   [« runkit7\_method\_copy](function.runkit7-method-copy.html)
+    
+-   [runkit7\_method\_remove »](function.runkit7-method-remove.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции runkit7](ref.runkit7.html)
+    
+-   Динамічно змінює код заданого методу
+    
 
-# runkit7_method_redefine
+# runkit7методredefine
 
-(PECL runkit7 \>= Unknown)
+(PECL runkit7> = Unknown)
 
-runkit7_method_redefine - Динамічно змінює код заданого методу
+runkit7методredefine - Динамічно змінює код заданого методу
 
 ### Опис
 
-**runkit7_method_redefine**(
-string `$class_name`,
-string `$method_name`,
-string `$argument_list`,
-string `$code`,
-int `$flags` = RUNKIT7_ACC_PUBLIC,
-string `$doc_comment` = **`null`**,
-string `$return_type` = ?,
-bool `$is_strict` = ?
-): bool
+```methodsynopsis
+runkit7_method_redefine(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+```
 
-**runkit7_method_redefine**(
-string `$class_name`,
-string `$method_name`,
-[Closure](class.closure.md) `$closure`,
-int `$flags` = RUNKIT7_ACC_PUBLIC,
-string `$doc_comment` = **`null`**,
-string `$return_type` = ?,
-bool `$is_strict` = ?
-): bool
+```methodsynopsis
+runkit7_method_redefine(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+```
 
 ### Список параметрів
 
 `class_name`
+
 Клас, у якому необхідно перевизначити спосіб.
 
 `method_name`
+
 Ім'я методу, який необхідно перевизначити.
 
 `argument_list`
+
 Розділений комами список аргументів для перевизначеного методу.
 
 `code`
-Новий код, який буде виконуватись під час виклику `method_name`.
+
+Новий код, який буде виконуватись під час виклику `method_name`
 
 `closure`
-Замикання ([closure](class.closure.md)), що визначає метод.
+
+Замикання ([closure](class.closure.html)), Що визначає метод.
 
 `flags`
-Перевизначений метод може бути **`RUNKIT7_ACC_PUBLIC`**,
-**`RUNKIT7_ACC_PROTECTED`** або **`RUNKIT7_ACC_PRIVATE`**, і, при
-необхідності, об'єднаний за допомогою побітового АБО з
-**`RUNKIT7_ACC_STATIC`**.
+
+Перевизначений метод може бути **`RUNKIT7_ACC_PUBLIC`** **`RUNKIT7_ACC_PROTECTED`** або **`RUNKIT7_ACC_PRIVATE`**, і, при необхідності, об'єднаний за допомогою побітового АБО з **`RUNKIT7_ACC_STATIC`**
 
 `doc_comment`
+
 Документальний коментар методу.
 
 `return_type`
-Тип методу, що повертається.
+
+Тип значення методу, що повертається.
 
 `is_strict`
-Визначає, чи буде метод поводитися так, начебто він був оголошений в
-файл з `strict_types=1`.
+
+Визначає, чи буде метод поводитися так, якби він був оголошений у файлі з `strict_types=1`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **runkit7_method_redefine()****
+**Приклад #1 Приклад використання **runkit7методredefine()****
 
-` <?phpclass Example {   function foo() {        return "foo!
-";    }}// створення об'єкту Example$e = new Example();// висновок Example::foo() (до перевизначення)echo "До: " . $e->foo()о/ '| 'runkit7_method_redefine(   'Example',   'foo',    '',   'return "bar!"
-";',    RUNKIT7_ACC_PUBLIC);// виведення Example::foo() (після перевизначення)echo "Після: " . $e->foo();?> `
+```php
+<?php
+class Example {
+    function foo() {
+        return "foo!\n";
+    }
+}
+
+// создание объекта Example
+$e = new Example();
+
+// вывод Example::foo() (до переопределения)
+echo "До: " . $e->foo();
+
+// Переопределение метода 'foo'
+runkit7_method_redefine(
+    'Example',
+    'foo',
+    '',
+    'return "bar!\n";',
+    RUNKIT7_ACC_PUBLIC
+);
+
+// вывод Example::foo() (после переопределения)
+echo "После: " . $e->foo();
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 До: foo!
-Після: bar!
+После: bar!
+```
 
 ### Дивіться також
 
-- [runkit7_method_add()](function.runkit7-method-add.md) -
-Динамічно додає новий метод у заданий клас
-- [runkit7_method_copy()](function.runkit7-method-copy.md) -
-Копіює метод з одного класу до іншого
-- [runkit7_method_remove()](function.runkit7-method-remove.md) -
-Динамічно видаляє заданий метод
-- [runkit7_method_rename()](function.runkit7-method-rename.md) -
-Динамічно змінює ім'я заданого методу
-- [runkit7_function_redefine()](function.runkit7-function-redefine.md) -
-Замінює визначення функції новою реалізацією
+-   [runkit7\_method\_add()](function.runkit7-method-add.html) - Динамічно додає новий метод у заданий клас
+-   [runkit7\_method\_copy()](function.runkit7-method-copy.html) - Копіює метод з одного класу до іншого
+-   [runkit7\_method\_remove()](function.runkit7-method-remove.html) - динамічно видаляє заданий метод
+-   [runkit7\_method\_rename()](function.runkit7-method-rename.html) - динамічно змінює ім'я заданого методу
+-   [runkit7\_function\_redefine()](function.runkit7-function-redefine.html) - замінює визначення функції новою реалізацією

@@ -1,34 +1,44 @@
-- [«EventBase::loop](eventbase.loop.md)
-- [EventBase::reInit »](eventbase.reinit.md)
+Встановлює кількість пріоритетів на основі подій
 
-- [PHP Manual](index.md)
-- [EventBase](class.eventbase.md)
-- Встановлює кількість пріоритетів на базі подій
+-   [« EventBase::loop](eventbase.loop.html)
+    
+-   [EventBase::reInit »](eventbase.reinit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBase](class.eventbase.html)
+    
+-   Встановлює кількість пріоритетів на основі подій
+    
 
 # EventBase::priorityInit
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBase::priorityInit — Встановлює кількість пріоритетів на базу
-подій
+EventBase::priorityInit — Встановлює кількість пріоритетів на базі подій
 
 ### Опис
 
-public **EventBase::priorityInit**( int `$n_priorities` ): bool
+```methodsynopsis
+public
+   EventBase::priorityInit(
+    int
+     $n_priorities
+   ): bool
+```
 
 Встановлює кількість пріоритетів на основі подій
 
 ### Список параметрів
 
 `n_priorities`
+
 Кількість пріоритетів з урахуванням подій.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [Event::setPriority()](event.setpriority.md) - Задати пріоритет
-події
+-   [Event::setPriority()](event.setpriority.html) - Задати пріоритет події

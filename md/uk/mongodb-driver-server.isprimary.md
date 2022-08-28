@@ -1,23 +1,29 @@
-- [« MongoDB\Driver\Server::isPassive](mongodb-driver-server.ispassive.md)
-- [MongoDB\Driver\Server::isSecondary »](mongodb-driver-server.issecondary.md)
+Перевіряє, чи є сервер основним членом набору реплік
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Перевіряє, чи є сервер основним членом набору реплік
+-   [« MongoDB\\Driver\\Server::isPassive](mongodb-driver-server.ispassive.html)
+    
+-   [MongoDB\\Driver\\Server::isSecondary »](mongodb-driver-server.issecondary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+    
+-   Перевіряє, чи є сервер основним членом набору реплік
+    
 
-# MongoDB\Driver\Server::isPrimary
+# MongoDBDriverServer::isPrimary
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\Server::isPrimary — Перевіряє, чи є сервер
-основним членом набору реплік
+MongoDBDriverServer::isPrimary — Перевіряє, чи є сервер основним членом набору реплік
 
 ### Опис
 
-final public **MongoDB\Driver\Server::isPrimary**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Server::isPrimary(): bool
+```
 
-Повертає, чи є цей сервер [»основним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary)
-набір реплік.
+Повертає, чи є цей сервер [» основным членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary) набір реплік.
 
 ### Список параметрів
 
@@ -25,15 +31,12 @@ final public **MongoDB\Driver\Server::isPrimary**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цей сервер є основним членом набору
-реплік, і **`false`** інакше.
+Повертає **`true`**, якщо цей сервер є основним членом набору реплік, та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

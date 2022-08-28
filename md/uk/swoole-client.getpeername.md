@@ -1,19 +1,27 @@
-- [« Swoole\Client::\_\_destruct](swoole-client.destruct.md)
-- [Swoole\Client::getsockname »](swoole-client.getsockname.md)
+Отримує ім'я віддаленого сокету з'єднання
 
-- [PHP Manual](index.md)
-- [Swoole\Client](class.swoole-client.md)
-- Отримує ім'я віддаленого сокету з'єднання
+-   [« Swoole\\Client::\_\_destruct](swoole-client.destruct.html)
+    
+-   [Swoole\\Client::getsockname »](swoole-client.getsockname.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Client](class.swoole-client.html)
+    
+-   Отримує ім'я віддаленого сокету з'єднання
+    
 
-# Swoole\Client::getpeername
+# SwooleClient::getpeername
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Client::getpeername — Отримує ім'я віддаленого сокету з'єднання
+SwooleClient::getpeername — Отримує ім'я віддаленого сокету з'єднання
 
 ### Опис
 
-public **Swoole\Client::getpeername**(): array
+```methodsynopsis
+public Swoole\Client::getpeername(): array
+```
 
 ### Список параметрів
 

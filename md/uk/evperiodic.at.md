@@ -1,27 +1,30 @@
-- [«EvPeriodic::again](evperiodic.again.md)
-- [EvPeriodic::\_\_construct »](evperiodic.construct.md)
+Повертає абсолютний час, коли спостерігач запуститься наступного разу
 
-- [PHP Manual](index.md)
-- [EvPeriodic](class.evperiodic.md)
-- Повертає абсолютний час, коли спостерігач запуститься у
-Наступного разу
+-   [« EvPeriodic::again](evperiodic.again.html)
+    
+-   [EvPeriodic::\_\_construct »](evperiodic.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvPeriodic](class.evperiodic.html)
+    
+-   Повертає абсолютний час, коли спостерігач запуститься наступного разу
+    
 
 # EvPeriodic::at
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvPeriodic::at — Повертає абсолютний час, коли спостерігач
-запуститься наступного разу
+EvPeriodic::at — Повертає абсолютний час, коли спостерігач запуститься наступного разу
 
 ### Опис
 
-public **EvPeriodic::at**(): float
+```methodsynopsis
+public
+   EvPeriodic::at(): float
+```
 
-Якщо спостерігач активний, повертає абсолютний час, коли спостерігач
-запуститься наступного разу. Це не те ж саме, що аргумент offset для
-[EvPeriodic::set()](evperiodic.set.md) або
-[EvPeriodic::\_\_construct()](evperiodic.construct.md), він працює
-навіть у інтервальному режимі.
+Якщо спостерігач активний, повертає абсолютний час, коли спостерігач запуститься наступного разу. Це не те ж саме, що аргумент offset для [EvPeriodic::set()](evperiodic.set.html) або [EvPeriodic::\_\_construct()](evperiodic.construct.html)він працює навіть в інтервальному режимі.
 
 ### Список параметрів
 
@@ -29,5 +32,4 @@ public **EvPeriodic::at**(): float
 
 ### Значення, що повертаються
 
-Повертає абсолютний час, коли спостерігач запуститься наступного
-раз на секунди
+Повертає абсолютний час, коли спостерігач запуститься наступного разу на секунду

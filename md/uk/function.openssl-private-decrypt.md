@@ -1,34 +1,31 @@
-- [« openssl_pkey_new](function.openssl-pkey-new.md)
-- [openssl_private_encrypt »](function.openssl-private-encrypt.md)
+Розшифровує дані за допомогою закритого ключа
 
-- [PHP Manual](index.md)
-- [Функції OpenSSL](ref.openssl.md)
-- Розшифровує дані за допомогою закритого ключа
+-   [« openssl\_pkey\_new](function.openssl-pkey-new.html)
+    
+-   [openssl\_private\_encrypt »](function.openssl-private-encrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenSSL](ref.openssl.html)
+    
+-   Розшифровує дані за допомогою закритого ключа
+    
 
-#openssl_private_decrypt
+# opensslprivatedecrypt
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-openssl_private_decrypt — Розшифровує дані за допомогою закритого
-ключа
+opensslprivatedecrypt — Розшифровує дані за допомогою закритого ключа
 
 ### Опис
 
-**openssl_private_decrypt**(
-string `$data`,
-string `&$decrypted_data`,
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$private_key`,
-int `$padding` = **`OPENSSL_PKCS1_PADDING`**
-): bool
+```methodsynopsis
+openssl_private_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
+```
 
-**openssl_private_decrypt()** розшифровує дані `data`, які
-раніше були зашифровані за допомогою
-[openssl_public_encrypt()](function.openssl-public-encrypt.md) та
-зберігає результат у `decrypted_data`.
+**opensslprivatedecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [openssl\_public\_encrypt()](function.openssl-public-encrypt.html) і зберігає результат у `decrypted_data`
 
-Ви можете використовувати цю функцію, наприклад, для розшифровки даних,
-які мають бути доступні тільки вам та нікому більше.
+Ви можете використовувати цю функцію, наприклад, для розшифровування даних, які повинні бути доступні тільки вам і більше.
 
 ### Список параметрів
 
@@ -37,28 +34,24 @@ int `$padding` = **`OPENSSL_PKCS1_PADDING`**
 `decrypted_data`
 
 `private_key`
-`private_key` має бути секретним ключем, що відповідає тому, чим ми
-шифрували дані.
+
+`private_key` має бути секретним ключем, що відповідає тому, чим ми шифрували дані.
 
 `padding`
-`padding` може набувати одне з наступних значень:
-**`OPENSSL_PKCS1_PADDING`**, **`OPENSSL_SSLV23_PADDING`**,
-**`OPENSSL_PKCS1_OAEP_PADDING`**, **`OPENSSL_NO_PADDING`**.
+
+`padding` може приймати одне з наступних значень: **`OPENSSL_PKCS1_PADDING`** **`OPENSSL_SSLV23_PADDING`** **`OPENSSL_PKCS1_OAEP_PADDING`** **`OPENSSL_NO_PADDING`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
+| Версия | Описание |
+| --- | --- |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 
-- [openssl_public_encrypt()](function.openssl-public-encrypt.md) -
-Шифрування даних відкритим ключем
-- [openssl_public_decrypt()](function.openssl-public-decrypt.md) -
-Розшифровка даних за допомогою відкритого ключа
+-   [openssl\_public\_encrypt()](function.openssl-public-encrypt.html) - Шифрування даних відкритим ключем
+-   [openssl\_public\_decrypt()](function.openssl-public-decrypt.html) - Розшифрування даних за допомогою відкритого ключа

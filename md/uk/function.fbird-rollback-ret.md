@@ -1,18 +1,22 @@
-- [«fbird_restore](function.fbird-restore.md)
-- [fbird_rollback»](function.fbird-rollback.md)
+Псевдонім ibaserollbackret
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_rollback_ret
+-   [« fbird\_restore](function.fbird-restore.html)
+    
+-   [fbird\_rollback »](function.fbird-rollback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaserollbackret
+    
 
-#fbird_rollback_ret
+# fbirdrollbackret
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_rollback_ret - Псевдонім
-[ibase_rollback_ret()](function.ibase-rollback-ret.md)
+fbirdrollbackret - Псевдонім [ibase\_rollback\_ret()](function.ibase-rollback-ret.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_rollback_ret()](function.ibase-rollback-ret.md).
+Ця функція є псевдонімом: [ibase\_rollback\_ret()](function.ibase-rollback-ret.html)

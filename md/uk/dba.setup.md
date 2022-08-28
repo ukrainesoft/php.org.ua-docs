@@ -1,15 +1,21 @@
-- [«Вступ](intro.dba.md)
-- [Вимоги »](dba.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [DBA](book.dba.md)
+-   [« Введение](intro.dba.html)
+    
+-   [Требования »](dba.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DBA](book.dba.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](dba.requirements.md)
-- [Установка](dba.installation.md)
-- [Налаштування під час виконання](dba.configuration.md)
-- [Типи ресурсів](dba.resources.md)
+-   [Требования](dba.requirements.html)
+-   [Установка](dba.installation.html)
+-   [Настройка во время выполнения](dba.configuration.html)
+-   [Типы ресурсов](dba.resources.html)

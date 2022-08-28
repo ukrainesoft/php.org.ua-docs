@@ -1,9 +1,15 @@
-- [« ReflectionMethod::isFinal](reflectionmethod.isfinal.md)
-- [ReflectionMethod::isProtected »](reflectionmethod.isprotected.md)
+Перевіряє, чи є метод закритим
 
-- [PHP Manual](index.md)
-- [ReflectionMethod](class.reflectionmethod.md)
-- Перевіряє, чи є метод закритим
+-   [« ReflectionMethod::isFinal](reflectionmethod.isfinal.html)
+    
+-   [ReflectionMethod::isProtected »](reflectionmethod.isprotected.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionMethod](class.reflectionmethod.html)
+    
+-   Перевіряє, чи є метод закритим
+    
 
 # ReflectionMethod::isPrivate
 
@@ -13,7 +19,9 @@ ReflectionMethod::isPrivate — Перевіряє, чи є метод закр�
 
 ### Опис
 
-public **ReflectionMethod::isPrivate**(): bool
+```methodsynopsis
+public ReflectionMethod::isPrivate(): bool
+```
 
 Перевіряє, чи є метод закритим.
 
@@ -27,5 +35,4 @@ public **ReflectionMethod::isPrivate**(): bool
 
 ### Дивіться також
 
-- [ReflectionMethod::isPublic()](reflectionmethod.ispublic.md) -
-Перевіряє, чи є метод загальнодоступним
+-   [ReflectionMethod::isPublic()](reflectionmethod.ispublic.html) - Перевіряє, чи є метод загальнодоступним

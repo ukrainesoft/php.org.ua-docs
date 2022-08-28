@@ -1,45 +1,46 @@
-- [« fann_get_cascade_min_out_epochs](function.fann-get-cascade-min-out-epochs.md)
-- [fann_get_cascade_num_candidates »](function.fann-get-cascade-num-candidates.md)
+Повертає кількість груп кандидатів
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає кількість груп кандидатів
+-   [« fann\_get\_cascade\_min\_out\_epochs](function.fann-get-cascade-min-out-epochs.html)
+    
+-   [fann\_get\_cascade\_num\_candidates »](function.fann-get-cascade-num-candidates.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає кількість груп кандидатів
+    
 
-# fann_get_cascade_num_candidate_groups
+# fanngetcascadenumcandidategroups
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_cascade_num_candidate_groups — Повертає кількість груп
-кандидатів
+fanngetcascadenumcandidategroups — Повертає кількість груп кандидатів
 
 ### Опис
 
-**fann_get_cascade_num_candidate_groups**(resource `$ann`): int
+```methodsynopsis
+fann_get_cascade_num_candidate_groups(resource $ann): int
+```
 
-Кількість груп кандидатів – це кількість груп однакових
-кандидатів, які використовуватимуться під час навчання.
+Кількість груп кандидатів – це кількість груп однакових кандидатів, які використовуватимуться під час навчання.
 
-Кількість можна використовувати для збільшення кількості кандидатів без
-необхідності визначати нові параметри для кандидатів.
+Кількість можна використовувати, щоб збільшити кількість кандидатів без необхідності визначати нові параметри для кандидатів.
 
-Дивіться
-[fann_get_cascade_num_candidates()](function.fann-get-cascade-num-candidates.md)
-для опису того, які нейрони-кандидати будуть згенеровані цим
-параметром.
+Дивіться [fann\_get\_cascade\_num\_candidates()](function.fann-get-cascade-num-candidates.html) для опису того, які нейрони-кандидати будуть згенеровані цим параметром.
 
-Кількість груп за замовчуванням дорівнює 2.
+Кількість груп кандидатів за умовчанням дорівнює 2.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Кількість груп кандидатів або **`false`** у разі виникнення
-помилки.
+Кількість груп кандидатів або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_set_cascade_num_candidate_groups()](function.fann-set-cascade-num-candidate-groups.md) -
-Встановлює кількість груп кандидатів
+-   [fann\_set\_cascade\_num\_candidate\_groups()](function.fann-set-cascade-num-candidate-groups.html) - встановлює кількість груп кандидатів

@@ -1,27 +1,34 @@
-- [« SplObjectStorage::setInfo](splobjectstorage.setinfo.md)
-- [SplObjectStorage::valid »](splobjectstorage.valid.md)
+Відновлює серіалізований контейнер із рядка
 
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Відновлює серіалізований контейнер із рядка
+-   [« SplObjectStorage::setInfo](splobjectstorage.setinfo.html)
+    
+-   [SplObjectStorage::valid »](splobjectstorage.valid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObjectStorage](class.splobjectstorage.html)
+    
+-   Відновлює серіалізований контейнер із рядка
+    
 
 # SplObjectStorage::unserialize
 
-(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
+(PHP 5> = 5.2.2, PHP 7, PHP 8)
 
-SplObjectStorage::unserialize — Відновлює серіалізований контейнер
-з рядка
+SplObjectStorage::unserialize — Відновлює серіалізований контейнер із рядка
 
 ### Опис
 
-public **SplObjectStorage::unserialize**(string `$data`): void
+```methodsynopsis
+public SplObjectStorage::unserialize(string $data): void
+```
 
-Відновлює дані контейнера з рядка та додає їх у поточний
-контейнер.
+Відновлює дані контейнера з рядка та додає їх у поточний контейнер.
 
 ### Список параметрів
 
 `data`
+
 Серіалізоване представлення контейнера.
 
 ### Значення, що повертаються
@@ -32,13 +39,25 @@ public **SplObjectStorage::unserialize**(string `$data`): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::unserialize()****
 
-` <?php$s1 = new SplObjectStorage;$s2 = new SplObjectStorage;$o = new StdClass;$s1[$o] = "data";$s2->unserialize($s1->serialize(); count($s2));?> `
+```php
+<?php
+$s1 = new SplObjectStorage;
+$s2 = new SplObjectStorage;
+$o = new StdClass;
+$s1[$o] = "data";
+
+$s2->unserialize($s1->serialize());
+
+var_dump(count($s2));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1)
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::serialize()](splobjectstorage.serialize.md) -
-Серіалізує контейнер
+-   [SplObjectStorage::serialize()](splobjectstorage.serialize.html) - Серіалізує контейнер

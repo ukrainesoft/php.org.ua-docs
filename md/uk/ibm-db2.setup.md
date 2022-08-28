@@ -1,15 +1,21 @@
-- [«Вступ](intro.ibm-db2.md)
-- [Вимоги »](ibm-db2.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [IBM DB2](book.ibm-db2.md)
+-   [« Введение](intro.ibm-db2.html)
+    
+-   [Требования »](ibm-db2.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IBM DB2](book.ibm-db2.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ibm-db2.requirements.md)
-- [Установка](ibm-db2.installation.md)
-- [Налаштування під час виконання](ibm-db2.configuration.md)
-- [Типи ресурсів](ibm-db2.resources.md)
+-   [Требования](ibm-db2.requirements.html)
+-   [Установка](ibm-db2.installation.html)
+-   [Настройка во время выполнения](ibm-db2.configuration.html)
+-   [Типы ресурсов](ibm-db2.resources.html)

@@ -1,19 +1,27 @@
-- [« HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)
-- [HRTime\PerformanceCounter::getTicksSince »](hrtime-performancecounter.gettickssince.md)
+Поточне значення тиків системи
 
-- [PHP Manual](index.md)
-- [HRTime\PerformanceCounter](class.hrtime-performancecounter.md)
-- Поточне значення тиків системи
+-   [« HRTime\\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html)
+    
+-   [HRTime\\PerformanceCounter::getTicksSince »](hrtime-performancecounter.gettickssince.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [HRTime\\PerformanceCounter](class.hrtime-performancecounter.html)
+    
+-   Поточне значення тиків системи
+    
 
-# HRTime\PerformanceCounter::getTicks
+# HRTimePerformanceCounter::getTicks
 
-(PECL hrtime \>= 0.6.0)
+(PECL hrtime >= 0.6.0)
 
-HRTime\PerformanceCounter::getTicks — Поточне значення тиків системи
+HRTimePerformanceCounter::getTicks — Поточне значення тиків системи
 
 ### Опис
 
-public static **HRTime\PerformanceCounter::getTicks**(): int
+```methodsynopsis
+public static HRTime\PerformanceCounter::getTicks(): int
+```
 
 Повертає кількість тиків.
 

@@ -1,23 +1,18 @@
-- [« Індійська](timezones.indian.md)
-- [Інші »](timezones.others.md)
+Тихоокеанський
 
-- [PHP Manual](index.md)
-- [Список підтримуваних часових поясів](timezones.md)
-- Тихоокеанський
+-   [« Индийский](timezones.indian.html)
+    
+-   [Другие »](timezones.others.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Список поддерживаемых часовых поясов](timezones.html)
+    
+-   Тихоокеанський
+    
 
 ## Тихоокеанський
 
-|                     |                  |                      |                   |
-| ------------------- | ---------------- | -------------------- | ----------------- |
-| Pacific/Apia        | Pacific/Auckland | Pacific/Bougainville | Pacific/Chatham   |
-| Pacific/Chuuk       | Pacific/Easter   | Pacific/Efate        | Pacific/Fakaofo   |
-| Pacific/Fiji        | Pacific/Funafuti | Pacific/Galapagos    | Pacific/Gambier   |
-| Pacific/Guadalcanal | Pacific/Guam     | Pacific/Honolulu     | Pacific/Kanton    |
-| Pacific/Kiritimati  | Pacific/Kosrae   | Pacific/Kwajalein    | Pacific/Majuro    |
-| Pacific/Marquesas   | Pacific/Midway   | Pacific/Nauru        | Pacific/Niue      |
-| Pacific/Norfolk     | Pacific/Noumea   | Pacific/Pago_Pago    | Pacific/Palau     |
-| Pacific/Pitcairn    | Pacific/Pohnpei  | Pacific/Port_Moresby | Pacific/Rarotonga |
-| Pacific/Saipan      | Pacific/Tahiti   | Pacific/Tarawa       | Pacific/Tongatapu |
-| Pacific/Wake        | Pacific/Wallis   |                      |                   |
+< td>Pacific/Galapagos
 
-**Тихоокеанський**
+<table class="doctable table"><caption><strong>Тихоокеанський</strong></caption><tbody class="tbody"><tr><td>Pacific/Apia</td><td>Pacific/ Auckland</td><td>Pacific/Bougainville</td><td>Pacific/Chatham</td></tr><tr><td>Pacific/Chuuk</td><td>Pacific/Easter</td><td>Pacific/Efate</td><td>Pacific/Fakaofo</td></tr><tr><td>Pacific/Fiji</td><td>Pacific/Funafuti</td><td>Pacific/Gambier</td></tr><tr><td>Pacific/Guadalcanal</td><td>Pacific/Guam</td><td>Pacific /Honolulu</td><td>Pacific/Kanton</td></tr><tr><td>Pacific/Kiritimati</td><td>Pacific/Kosrae</td><td>Pacific/Kwajalein&lt; /td&gt;</td><td>Pacific/Majuro</td></tr><tr><td>Pacific/Marquesas</td><td>Pacific/Midway</td><td>Pacific/Nauru</td><td>Pacific/Niue</td></tr><tr><td>Pacific/Norfolk</td><td>Pacific/Noumea</td><td>Pacific/Pago_Pago</td><td>Pacific/Palau</td></tr><tr><td>Pacific/Pitcairn</td><td>Pacific/Pohnpei</td><td>Pacific/Port_Moresby</td><td>Pacific/Rarotonga</td></tr><tr><td>Pacific/Saipan</td><td>Pacific/Tahiti</td><td>P acific/Tarawa</td><td>Pacific/Tongatapu</td></tr><tr><td>Pacific/Wake</td><td>Pacific/Wallis</td><td class="empty ">&nbsp;</td><td class="empty">&nbsp;</td></tr></tbody></table>

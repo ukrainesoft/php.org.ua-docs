@@ -1,19 +1,27 @@
-- [« Swoole\Table::create](swoole-table.create.md)
-- [Swoole\Table::decr »](swoole-table.decr.md)
+Отримує поточний рядок
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Отримує поточний рядок
+-   [« Swoole\\Table::create](swoole-table.create.html)
+    
+-   [Swoole\\Table::decr »](swoole-table.decr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Отримує поточний рядок
+    
 
-# Swoole\Table::current
+# SwooleTable::current
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::current — Отримує поточний рядок
+SwooleTable::current — Отримує поточний рядок
 
 ### Опис
 
-public **Swoole\Table::current**(): array
+```methodsynopsis
+public Swoole\Table::current(): array
+```
 
 ### Список параметрів
 

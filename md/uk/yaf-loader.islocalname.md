@@ -1,24 +1,31 @@
-- [« Yaf_Loader::import](yaf-loader.import.md)
-- [Yaf_Loader::registerLocalNamespace »](yaf-loader.registerlocalnamespace.md)
+Призначення isLocalName
 
-- [PHP Manual](index.md)
-- [Yaf_Loader](class.yaf-loader.md)
-- Призначення isLocalName
+-   [« Yaf\_Loader::import](yaf-loader.import.html)
+    
+-   [Yaf\_Loader::registerLocalNamespace »](yaf-loader.registerlocalnamespace.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Loader](class.yaf-loader.html)
+    
+-   Призначення isLocalName
+    
 
-# Yaf_Loader::isLocalName
+# YafLoader::isLocalName
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Loader::isLocalName — Призначення isLocalName
+YafLoader::isLocalName — Призначення isLocalName
 
 ### Опис
 
-public **Yaf_Loader::isLocalName**(): void
+```methodsynopsis
+public Yaf_Loader::isLocalName(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.md)
-- [MongoDB\BSON\Regex::\_\_toString »](mongodb-bson-regex.tostring.md)
+Серіалізує Regex
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
-- Серіалізує Regex
+-   [« MongoDB\\BSON\\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\Regex::\_\_toString »](mongodb-bson-regex.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
+    
+-   Серіалізує Regex
+    
 
-# MongoDB\BSON\Regex::serialize
+# MongoDBBSONRegex::serialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Regex::serialize — Серіалізує Regex
+MongoDBBSONRegex::serialize — Серіалізує Regex
 
 ### Опис
 
-final public **MongoDB\BSON\Regex::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Regex::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\Regex::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Regex](class.mongodb-bson-regex.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Regex::unserialize()](mongodb-bson-regex.unserialize.md) -
-Десеріалізує Regex
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\Regex::unserialize()](mongodb-bson-regex.unserialize.html) - десеріалізує Regex
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

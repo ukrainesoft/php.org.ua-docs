@@ -1,32 +1,38 @@
-- [«UI\Executor](class.ui-executor.md)
-- [UI\Executor::kill »](ui-executor.kill.md)
+Створити новий об'єкт Executor
 
-- [PHP Manual](index.md)
-- [UI\Executor](class.ui-executor.md)
-- Створити новий об'єкт Executor
+-   [« UI\\Executor](class.ui-executor.html)
+    
+-   [UI\\Executor::kill »](ui-executor.kill.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Executor](class.ui-executor.html)
+    
+-   Створити новий об'єкт Executor
+    
 
-# UI\Executor::\_\_construct
+# ОЙExecutor::construct
 
 (UI 2.0.0)
 
-UI\Executor::\_\_construct — Створити новий об'єкт Executor
+ОЙExecutor::construct — Створити новий об'єкт Executor
 
 ### Опис
 
-public **UI\Executor::\_\_construct**()
+public **ОЙExecutor::construct**
 
-public **UI\Executor::\_\_construct**(int `$microseconds`)
+public **ОЙExecutor::construct**(int `$microseconds`
 
-public **UI\Executor::\_\_construct**(int `$seconds`, int
-`$microseconds`)
+public **ОЙExecutor::construct**(int `$seconds`, int `$microseconds`
 
-Створює виконавець із заданим інтервалом, не запускатиметься до тих
-доки не буде введений основний цикл
+Створює виконавець із заданим інтервалом, не запускатиметься доти, доки не буде введений основний цикл
 
 ### Список параметрів
 
 `seconds`
+
 Секунди між виконаннями
 
 `microseconds`
+
 Мікросекунди між виконаннями

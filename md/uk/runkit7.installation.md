@@ -1,20 +1,20 @@
-- [« Вимоги](runkit7.requirements.md)
-- [Налаштування під час виконання »](runkit7.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](runkit7.setup.md)
-- Встановлення
+-   [« Требования](runkit7.requirements.html)
+    
+-   [Настройка во время выполнения »](runkit7.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](runkit7.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Цей модуль [»PECL](https://pecl.php.net/) не поставляється разом з
-PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/runkit7](https://pecl.php.net/package/runkit7).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/runkit7](https://pecl.php.net/package/runkit7)
 
-Бінарні файли Windows (файли DLL) для цього модуля PECL доступні на
-сайті PECL.
+Бінарні файли Windows (DLL-файли) для цього модуля PECL доступні на сайті PECL.

@@ -1,34 +1,40 @@
-- [« mcrypt_enc_is_block_algorithm_mode](function.mcrypt-enc-is-block-algorithm-mode.md)
-- [mcrypt_enc_is_block_mode »](function.mcrypt-enc-is-block-mode.md)
+Перевіряє, чи використовує алгоритм блокові режими
 
-- [PHP Manual](index.md)
-- [Mcrypt](ref.mcrypt.md)
-- Перевіряє, чи використовує алгоритм блокові режими
+-   [« mcrypt\_enc\_is\_block\_algorithm\_mode](function.mcrypt-enc-is-block-algorithm-mode.html)
+    
+-   [mcrypt\_enc\_is\_block\_mode »](function.mcrypt-enc-is-block-mode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Mcrypt](ref.mcrypt.html)
+    
+-   Перевіряє, чи використовує алгоритм блокові режими
+    
 
-# mcrypt_enc_is_block_algorithm
+# mcryptencісblockalgorithm
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcrypt_enc_is_block_algorithm — Перевіряє, чи використовує алгоритм
-блокові режими
+mcryptencісblockalgorithm - Перевіряє, чи використовує алгоритм блокові режими
 
 **Увага**
 
-Ця функція оголошена *УСТАРНІЙ*, починаючи з PHP 7.1.0 і була *Видалена*
-у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
-**mcrypt_enc_is_block_algorithm**(resource `$td`): bool
+```methodsynopsis
+mcrypt_enc_is_block_algorithm(resource $td): bool
+```
 
-Перевіряє, чи алгоритм використовує блокові режими.
+Перевіряє, чи використовує алгоритм блокові режими.
 
 ### Список параметрів
 
 `td`
+
 Дескриптор шифрування.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо алгоритм є блоковим або **`false`**,
-якщо потоковий.
+Повертає **`true`**якщо алгоритм є блоковим або **`false`**якщо потоковий.

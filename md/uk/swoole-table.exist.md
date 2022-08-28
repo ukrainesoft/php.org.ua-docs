@@ -1,19 +1,27 @@
-- [« Swoole\Table::destroy](swoole-table.destroy.md)
-- [Swoole\Table::get »](swoole-table.get.md)
+Перевіряє, чи існує рядок $rowkey
 
-- [PHP Manual](index.md)
-- [Swoole\Table](class.swoole-table.md)
-- Перевіряє, чи існує рядок $row_key
+-   [« Swoole\\Table::destroy](swoole-table.destroy.html)
+    
+-   [Swoole\\Table::get »](swoole-table.get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Table](class.swoole-table.html)
+    
+-   Перевіряє, чи існує рядок $rowkey
+    
 
-# Swoole\Table::exist
+# SwooleTable::exist
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Table::exist — Перевіряє, чи існує рядок $row_key
+SwooleTable::exist — Перевіряє, чи існує рядок $rowkey
 
 ### Опис
 
-public **Swoole\Table::exist**(string `$key`): bool
+```methodsynopsis
+public Swoole\Table::exist(string $key): bool
+```
 
 ### Список параметрів
 

@@ -1,13 +1,19 @@
-- [«Вступ](intro.parle.md)
-- [Вимоги »](parle.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Parle](book.parle.md)
+-   [« Введение](intro.parle.html)
+    
+-   [Требования »](parle.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle](book.parle.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](parle.requirements.md)
-- [Установка](parle.installation.md)
+-   [Требования](parle.requirements.html)
+-   [Установка](parle.installation.html)

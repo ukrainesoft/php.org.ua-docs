@@ -1,45 +1,48 @@
-- [« socket_addrinfo_connect](function.socket-addrinfo-connect.md)
-- [socket_addrinfo_lookup »](function.socket-addrinfo-lookup.md)
+Отримати інформацію про addrinfo
 
-- [PHP Manual](index.md)
-- [Функції сокету](ref.sockets.md)
-- Отримати інформацію про addrinfo
+-   [« socket\_addrinfo\_connect](function.socket-addrinfo-connect.html)
+    
+-   [socket\_addrinfo\_lookup »](function.socket-addrinfo-lookup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции сокета](ref.sockets.html)
+    
+-   Отримати інформацію про addrinfo
+    
 
-# socket_addrinfo_explain
+# socketaddrinfoexplain
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-socket_addrinfo_explain — Отримати інформацію про addrinfo
+socketaddrinfoexplain — Отримати інформацію про addrinfo
 
 ### Опис
 
-**socket_addrinfo_explain**([AddressInfo](class.addressinfo.md)
-`$address`): array
+```methodsynopsis
+socket_addrinfo_explain(AddressInfo $address): array
+```
 
-Функція **socket_addrinfo_explain()** надає доступ до базової
-структурі `addrinfo`.
+Функція **socketaddrinfoexplain()** надає доступ до базової структури `addrinfo`
 
 ### Список параметрів
 
 `address`
-Примірник [AddressInfo](class.addressinfo.md), створений за допомогою
-[socket_addrinfo_lookup()](function.socket-addrinfo-lookup.md)
+
+Екземпляр [AddressInfo](class.addressinfo.html), створений за допомогою [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html)
 
 ### Значення, що повертаються
 
-Повертає масив, що містить поля у структурі `addrinfo`.
+Повертає масив, що містить поля у структурі `addrinfo`
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------- |
-| 8.0.0  | address тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
-- [socket_addrinfo_bind()](function.socket-addrinfo-bind.md) -
-Створити та прив'язати до сокету із зазначеного addrinfo
-- [socket_addrinfo_connect()](function.socket-addrinfo-connect.md) -
-Створити та підключитися до сокету із вказаного addrinfo
-- [socket_addrinfo_lookup()](function.socket-addrinfo-lookup.md) -
-Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+-   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.html) - Створити та прив'язати до сокету із вказаного addrinfo
+-   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.html) - Створити та підключитися до сокету із зазначеного addrinfo
+-   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.html) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста

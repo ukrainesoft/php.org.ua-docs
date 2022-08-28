@@ -1,23 +1,29 @@
-- [« GearmanTask::taskNumerator](gearmantask.tasknumerator.md)
-- [GearmanTask::uuid »](gearmantask.uuid.md)
+Отримання унікального ідентифікатора задачі
 
-- [PHP Manual](index.md)
-- [GearmanTask](class.gearmantask.md)
-- Отримання унікального ідентифікатора задачі
+-   [« GearmanTask::taskNumerator](gearmantask.tasknumerator.html)
+    
+-   [GearmanTask::uuid »](gearmantask.uuid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanTask](class.gearmantask.html)
+    
+-   Отримання унікального ідентифікатора задачі
+    
 
 # GearmanTask::unique
 
-(PECL gearman \>= 0.6.0)
+(PECL gearman >= 0.6.0)
 
 GearmanTask::unique — Отримання унікального ідентифікатора задачі
 
 ### Опис
 
-public **GearmanTask::unique**(): string
+```methodsynopsis
+public GearmanTask::unique(): string
+```
 
-Повертає унікальний ідентифікатор цього завдання. Цей ідентифікатор
-привласнює [GearmanClient](class.gearmanclient.md), на відміну від
-дескриптора завдання, яке встановлює сервер завдань Gearman.
+Повертає унікальний ідентифікатор цього завдання. Цей ідентифікатор надає [GearmanClient](class.gearmanclient.html), на відміну дескриптора завдання, який встановлює сервер завдань Gearman.
 
 ### Список параметрів
 
@@ -25,12 +31,9 @@ public **GearmanTask::unique**(): string
 
 ### Значення, що повертаються
 
-Унікальний ідентифікатор або **`false`**, якщо ідентифікатор не
-привласнений.
+Унікальний ідентифікатор або **`false`**якщо ідентифікатор не присвоєний.
 
 ### Дивіться також
 
-- [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання
-і повертає результат [Застарілий метод]
-- [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати
-завдання, яке буде виконано в паралельному режимі
+-   [GearmanClient::do()](gearmanclient.do.html) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanClient::addTask()](gearmanclient.addtask.html) - Додати завдання, яке буде виконано у паралельному режимі

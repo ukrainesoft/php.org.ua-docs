@@ -1,49 +1,44 @@
-- [«openal_source_destroy](function.openal-source-destroy.md)
-- [openal_source_pause »](function.openal-source-pause.md)
+Отримати властивість джерела OpenAL
 
-- [PHP Manual](index.md)
-- [Функції OpenAL](ref.openal.md)
-- Отримати властивість джерела OpenAL
+-   [« openal\_source\_destroy](function.openal-source-destroy.html)
+    
+-   [openal\_source\_pause »](function.openal-source-pause.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции OpenAL](ref.openal.html)
+    
+-   Отримати властивість джерела OpenAL
+    
 
-#openal_source_get
+# openalsourceget
 
-(PECL openal = 0.1.0)
+(PECL openal >= 0.1.0)
 
-openal_source_get — Отримати властивість джерела OpenAL
+openalsourceget — Отримати властивість джерела OpenAL
 
 ### Опис
 
-**openal_source_get**(resource `$source`, int `$property`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+openal_source_get(resource $source, int $property): mixed
+```
 
 ### Список параметрів
 
 `source`
-Ресурс [Open AL(Source)](openal.resources.md) (створений раніше з
-за допомогою [openal_source_create()](function.openal-source-create.md)).
+
+Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.html)
 
 `property`
-Отримувана властивість, представлена однією з констант:
-**`AL_SOURCE_RELATIVE`** (int), **`AL_SOURCE_STATE`** (int),
-**`AL_PITCH`** (float), **`AL_GAIN`** (float), **`AL_MIN_GAIN`**
-(float), **`AL_MAX_GAIN`** (float), **`AL_MAX_DISTANCE`** (float),
-**`AL_ROLLOFF_FACTOR`** (float), **`AL_CONE_OUTER_GAIN`** (float),
-**`AL_CONE_INNER_ANGLE`** (float), **`AL_CONE_OUTER_ANGLE`** (float),
-**`AL_REFERENCE_DISTANCE`** (float), **`AL_POSITION`**
-(array(float,float,float)), **`AL_VELOCITY`**
-(array(float,float,float)), **`AL_DIRECTION`**
-(array(float,float,float)).
+
+Отримувана властивість, представлена ​​однією з констант: **`AL_SOURCE_RELATIVE`** (int), **`AL_SOURCE_STATE`** (int), **`AL_PITCH`** (float), **`AL_GAIN`** (float), **`AL_MIN_GAIN`** (float), **`AL_MAX_GAIN`** (float), **`AL_MAX_DISTANCE`** (float), **`AL_ROLLOFF_FACTOR`** (float), **`AL_CONE_OUTER_GAIN`** (float), **`AL_CONE_INNER_ANGLE`** (float), **`AL_CONE_OUTER_ANGLE`** (float), **`AL_REFERENCE_DISTANCE`** (float), **`AL_POSITION`** (array(float,float,float)), **`AL_VELOCITY`** (array(float,float,float)), **`AL_DIRECTION`** (array(float,float,float)).
 
 ### Значення, що повертаються
 
-Повертає тип, пов'язаний з видобувною властивістю або **`false`**
-у разі виникнення помилки.
+Повертає тип, пов'язаний із витягуваною властивістю або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [openal_source_create()](function.openal-source-create.md) -
-Згенерувати джерело ресурсу
-- [openal_source_set()](function.openal-source-set.md) - Встановити
-властивість джерела
-- [openal_source_play()](function.openal-source-play.md) - Почати
-відтворення джерела
+-   [openal\_source\_create()](function.openal-source-create.html) - Згенерувати джерело ресурсу
+-   [openal\_source\_set()](function.openal-source-set.html) - Встановити властивість джерела
+-   [openal\_source\_play()](function.openal-source-play.html) - Почати відтворення джерела

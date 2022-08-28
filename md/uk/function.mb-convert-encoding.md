@@ -1,82 +1,87 @@
-- [«mb_convert_case](function.mb-convert-case.md)
-- [mb_convert_kana »](function.mb-convert-kana.md)
+Перетворює рядок з одного кодування символів на інший
 
-- [PHP Manual](index.md)
-- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- Перетворює рядок з одного кодування символів на інше
+-   [« mb\_convert\_case](function.mb-convert-case.html)
+    
+-   [mb\_convert\_kana »](function.mb-convert-kana.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции для работы с многобайтовыми строками](ref.mbstring.html)
+    
+-   Перетворює рядок з одного кодування символів на інший
+    
 
-#mb_convert_encoding
+# мбconvertencoding
 
-(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
 
-mb_convert_encoding — Перетворює рядок з одного кодування символів на
-іншу
+мбconvertencoding — Перетворює рядок з одного кодування символів на інший
 
 ### Опис
 
-**mb_convert_encoding**(array\|string `$string`, string `$to_encoding`,
-array\|string\|null `$from_encoding` = **`null`**): array\|string\|false
+```methodsynopsis
+mb_convert_encoding(array|string $string, string $to_encoding, array|string|null $from_encoding = null): array|string|false
+```
 
-Перетворює параметр `string` з кодування `to_encoding` або поточного
-внутрішнього кодування в `to_encoding`. Також можна вказати необов'язковий
-параметр `from_encoding`. Якщо `string` є масивом (array), все
-його рядкові (string) значення буде перетворено рекурсивно.
+Перетворює параметр `string` з кодування `to_encoding` або поточного внутрішнього кодування в `to_encoding`. Також можна вказати необов'язковий параметр `from_encoding`. Якщо `string` є масивом (array), всі його рядкові (string) значення будуть перетворені рекурсивно.
 
 ### Список параметрів
 
 `string`
+
 Рядок (string) або масив (array), для перетворення.
 
 `to_encoding`
+
 Необхідне кодування результату.
 
 `from_encoding`
-Поточне кодування, яке використовується для інтерпретації рядка `string`.
-Декілька кодувань можуть бути вказані у вигляді масиву (array) або у вигляді
-рядки через кому, у цьому випадку правильне кодування буде
-визначено за тим самим алгоритмом, що й у функції
-[mb_detect_encoding()](function.mb-detect-encoding.md).
 
-Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде
-використовуватись [mbstring.internal_encoding setting](mbstring.configuration.md#ini.mbstring.internal-encoding),
-якщо вона встановлена, інакше [кодування по замовчуванням](ini.core.md#ini.default-charset).
+Поточне кодування, яке використовується для інтерпретації рядка `string`. Декілька кодувань можуть бути вказані у вигляді масиву (array) або у вигляді рядка через кому, в цьому випадку правильне кодування буде визначено за тим же алгоритмом, що і функції [mb\_detect\_encoding()](function.mb-detect-encoding.html)
 
-Допустимі значення `to_encoding` та `from_encoding` вказані на сторінці
-[підтримувані кодування](mbstring.supported-encodings.md).
+Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде використовуватися [mbstring.internal\_encoding setting](mbstring.configuration.html#ini.mbstring.internal-encoding)якщо вона встановлена, інакше [кодировка по умолчанию](ini.core.html#ini.default-charset)
+
+Допустимі значення `to_encoding` і `from_encoding` вказані на сторінці [поддерживаемые кодировки](mbstring.supported-encodings.html)
 
 ### Значення, що повертаються
 
-Перетворений рядок (string) або масив (array) або **`false`**
-у разі виникнення помилки.
+Перетворений рядок (string) або масив (array) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
-Починаючи з PHP 8.0.0, якщо значення `to_encoding` або `from_encoding`
-є неприпустимим кодуванням, що викидається
-[ValueError](class.valueerror.md). До PHP 8.0.0 натомість
-видавалась помилка рівня **`E_WARNING`**.
+Починаючи з PHP 8.0.0, якщо значення `to_encoding` або `from_encoding` є неприпустимим кодуванням, викидається [ValueError](class.valueerror.html). До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
 
-### Список змін
+### список змін
 
-| 8.0.0  | **mb_convert_encoding()** тепер викидає [ValueError](class.valueerror.md), якщо передано неприпустиме кодування в to_encoding.   |
-|--------|----------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | **mb_convert_encoding()** тепер викидає [ValueError](class.valueerror.md), якщо передано неприпустиме кодування в from_encoding. |
-| 8.0.0  | Тепер from_encoding може бути **null**.                                                                                          |
-| Версія | Опис                                                                                                                             |
-| 7.2.0  | Функція тепер приймає масив (array) в string. Раніше підтримувалися лише рядки (string).                                         |
+| Версия | Описание |
+| --- | --- |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `to_encoding` |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `from_encoding` |
+|  | Тепер `from_encoding` може бути **`null`** |
+|  | Функція тепер також приймає масив (array) `string`. Раніше підтримувалися лише рядки (string). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mb_convert_encoding()****
+**Приклад #1 Приклад використання **мбconvertencoding()****
 
-` <?php/* Перетворює рядок в кодування SJIS */$str = mb_convert_encoding($str, "SJIS");/* Перетворить з EUC-JP вUTF-7 */$str = 7", "EUC-JP");/* Автоматично визначається кодування серед JIS, eucjp-win, sjis-win, потім перетворюється в UCS-2LE */$str = mb_convert_ending , eucjp-win, sjis-win");/* Якщо mbstring.language рівний "Japanese", "auto" використовується для позначення "ASCII,JIS,UTF-8,EUC-JP,SJIS" *$ $str, "EUC-JP", "auto");?> `
+```php
+<?php
+/* Преобразует строку в кодировку SJIS */
+$str = mb_convert_encoding($str, "SJIS");
+
+/* Преобразует из EUC-JP в UTF-7 */
+$str = mb_convert_encoding($str, "UTF-7", "EUC-JP");
+
+/* Автоматически определяется кодировка среди JIS, eucjp-win, sjis-win, затем преобразуется в UCS-2LE */
+$str = mb_convert_encoding($str, "UCS-2LE", "JIS, eucjp-win, sjis-win");
+
+/* Если mbstring.language равен "Japanese", "auto" используется для обозначения "ASCII,JIS,UTF-8,EUC-JP,SJIS" */
+$str = mb_convert_encoding($str, "EUC-JP", "auto");
+?>
+```
 
 ### Дивіться також
 
-- [mb_detect_order()](function.mb-detect-order.md) -
-Встановлення/отримання списку кодувань для механізмів визначення
-кодування
-- [UConverter::transcode()](uconverter.transcode.md) - Перетворює
-рядок з одного кодування символів до іншого
-- [iconv()](function.iconv.md) - Перетворює рядок з одного
-кодування символів в іншу
+-   [mb\_detect\_order()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший

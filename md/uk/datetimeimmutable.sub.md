@@ -1,43 +1,43 @@
-- [« DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md)
-- [DateTimeInterface »](class.datetimeinterface.md)
+Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
 
-- [PHP Manual](index.md)
-- [DateTimeImmutable](class.datetimeimmutable.md)
-- Віднімає передану кількість днів, місяців, років, годин, хвилин та
-секунд
+-   [« DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.html)
+    
+-   [DateTimeInterface »](class.datetimeinterface.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTimeImmutable](class.datetimeimmutable.html)
+    
+-   Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
+    
 
 # DateTimeImmutable::sub
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-DateTimeImmutable::sub — Віднімає передану кількість днів, місяців,
-років, годин, хвилин та секунд
+DateTimeImmutable::sub — Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
 
 ### Опис
 
-public
-**DateTimeImmutable::sub**([DateInterval](class.dateinterval.md)
-`$interval`): [DateTimeImmutable](class.datetimeimmutable.md)
+```methodsynopsis
+public DateTimeImmutable::sub(DateInterval $interval): DateTimeImmutable
+```
 
-Повертає новий об'єкт DateTimeImmutable, в якому зазначений об'єкт
-[DateInterval](class.dateinterval.md) віднімається із зазначеного об'єкта
-DateTimeImmutable.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html), в якому зазначений об'єкт [DateInterval](class.dateinterval.html) віднімається із зазначеного об'єкта DateTimeImmutable.
 
 ### Список параметрів
 
 `object`
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md),
-повертається [date_create()](function.date-create.md). Функція
-змінює цей об'єкт.
+
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [date\_create()](function.date-create.html). Функція змінює цей об'єкт.
 
 `interval`
-Об'єкт [DateInterval](class.dateinterval.md).
+
+Об'єкт [DateInterval](class.dateinterval.html)
 
 ### Значення, що повертаються
 
-Повертає новий модифікований об'єкт
-[DateTimeImmutable](class.datetimeimmutable.md) або **`false`**
-у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -45,41 +45,65 @@ DateTimeImmutable.
 
 Об'єктно-орієнтований стиль
 
-` <?php$date = new DateTimeImmutable('2000-01-20');$newDate = $date->sub(new DateInterval('P10D'));echo $newDate->format('Y-m-d') . "
-";?> `
+```php
+<?php
+$date = new DateTimeImmutable('2000-01-20');
+$newDate = $date->sub(new DateInterval('P10D'));
+echo $newDate->format('Y-m-d') . "\n";
+?>
+```
 
 Результат виконання даних прикладів:
 
+```
 2000-01-10
+```
 
 **Приклад #2 Додатковий приклад **DateTimeImmutable::sub()****
 
-` <?php$date = new DateTimeImmutable('2000-01-20');$newDate = $date->sub(new DateInterval('PT10H30S'));echo $newDate->format('Y-m-:: s') . "
-";$date = new DateTimeImmutable('2000-01-20');$newDate = $date->sub(new DateInterval('P7Y5M4DT4H3M2S'));echo $newDate->format('Y:': ) . "
-";?> `
+```php
+<?php
+$date = new DateTimeImmutable('2000-01-20');
+$newDate = $date->sub(new DateInterval('PT10H30S'));
+echo $newDate->format('Y-m-d H:i:s') . "\n";
+
+$date = new DateTimeImmutable('2000-01-20');
+$newDate = $date->sub(new DateInterval('P7Y5M4DT4H3M2S'));
+echo $newDate->format('Y-m-d H:i:s') . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2000-01-19 13:59:30
 1992-08-15 19:56:58
+```
 
 **Приклад #3 Будьте обережні при відніманні місяців**
 
-` <?php$date = new DateTimeImmutable('2001-04-30');$interval = new DateInterval('P1M');$newDate1 = $date->sub($interval);echo $newDate1 'Y-m-d') . "
-";$newDate2 = $newDate1->sub($interval);echo $newDate2->format('Y-m-d') . "
-";?> `
+```php
+<?php
+$date = new DateTimeImmutable('2001-04-30');
+$interval = new DateInterval('P1M');
+
+$newDate1 = $date->sub($interval);
+echo $newDate1->format('Y-m-d') . "\n";
+
+$newDate2 = $newDate1->sub($interval);
+echo $newDate2->format('Y-m-d') . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2001-03-30
 2001-03-02
+```
 
 ### Дивіться також
 
-- [DateTimeImmutable::add()](datetimeimmutable.add.md) - Повертає
-новий об'єкт з доданою кількістю днів, місяців, років, годин,
-хвилин та секунд
-- [DateTimeImmutable::diff()](datetime.diff.md) - Повертає різницю
-між двома об'єктами DateTime
-- [DateTimeImmutable::modify()](datetimeimmutable.modify.md) -
-Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTimeImmutable::add()](datetimeimmutable.add.html) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::diff()](datetime.diff.html) - Повертає різницю між двома об'єктами DateTime
+-   [DateTimeImmutable::modify()](datetimeimmutable.modify.html) - Створює новий об'єкт із зміненою тимчасовою міткою

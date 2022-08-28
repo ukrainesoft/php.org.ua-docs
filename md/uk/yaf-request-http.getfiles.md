@@ -1,24 +1,31 @@
-- [« Yaf_Request_Http::getCookie](yaf-request-http.getcookie.md)
-- [Yaf_Request_Http::getPost »](yaf-request-http.getpost.md)
+Призначення getFiles
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Http](class.yaf-request-http.md)
-- Призначення getFiles
+-   [« Yaf\_Request\_Http::getCookie](yaf-request-http.getcookie.html)
+    
+-   [Yaf\_Request\_Http::getPost »](yaf-request-http.getpost.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Http](class.yaf-request-http.html)
+    
+-   Призначення getFiles
+    
 
-# Yaf_Request_Http::getFiles
+# YafRequestHttp::getFiles
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Http::getFiles — Призначення getFiles
+YafRequestHttp::getFiles — Призначення getFiles
 
 ### Опис
 
-public **Yaf_Request_Http::getFiles**(): void
+```methodsynopsis
+public Yaf_Request_Http::getFiles(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

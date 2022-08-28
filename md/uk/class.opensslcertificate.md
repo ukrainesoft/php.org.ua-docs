@@ -1,9 +1,15 @@
-- [« openssl_x509_verify](function.openssl-x509-verify.md)
-- [OpenSSLCertificateSigningRequest »](class.opensslcertificatesigningrequest.md)
+Клас OpenSSLCertificate
 
-- [PHP Manual](index.md)
-- [OpenSSL](book.openssl.md)
-- Клас OpenSSLCertificate
+-   [« openssl\_x509\_verify](function.openssl-x509-verify.html)
+    
+-   [OpenSSLCertificateSigningRequest »](class.opensslcertificatesigningrequest.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OpenSSL](book.openssl.html)
+    
+-   Клас OpenSSLCertificate
+    
 
 # Клас OpenSSLCertificate
 
@@ -11,11 +17,20 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `OpenSSL X.509` в PHP
-8.0.0.
+Повністю непрозорий клас, який замінює ресурси `OpenSSL X.509` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **OpenSSLCertificate** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class OpenSSLCertificate
+     
+     {
+   }
+```

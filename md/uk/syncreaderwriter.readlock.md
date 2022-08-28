@@ -1,40 +1,53 @@
-- [«SyncReaderWriter::\_\_construct](syncreaderwriter.construct.md)
-- [SyncReaderWriter::readunlock »](syncreaderwriter.readunlock.md)
+Чекає на блокування читання
 
-- [PHP Manual](index.md)
-- [SyncReaderWriter](class.syncreaderwriter.md)
-- Очікує блокування читання
+-   [« SyncReaderWriter::\_\_construct](syncreaderwriter.construct.html)
+    
+-   [SyncReaderWriter::readunlock »](syncreaderwriter.readunlock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SyncReaderWriter](class.syncreaderwriter.html)
+    
+-   Чекає на блокування читання
+    
 
 # SyncReaderWriter::readlock
 
-(PECL sync \>= 1.0.0)
+(PECL sync >= 1.0.0)
 
 SyncReaderWriter::readlock — Очікує блокування читання
 
 ### Опис
 
-public **SyncReaderWriter::readlock**(int `$wait` = -1): bool
+```methodsynopsis
+public SyncReaderWriter::readlock(int $wait = -1): bool
+```
 
-Отримує блокування читання об'єкта
-[SyncReaderWriter](class.syncreaderwriter.md).
+Отримує блокування читання об'єкта [SyncReaderWriter](class.syncreaderwriter.html)
 
 ### Список параметрів
 
 `wait`
+
 Кількість мілісекунд очікування блокування. Значення -1 нескінченне.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SyncReaderWriter::readlock()****
 
-` <?php$readwrite = new SyncReaderWriter("FileCacheLock");$readwrite->readlock();/* ... */$readwrite->readunlock();?> `
+```php
+<?php
+$readwrite = new SyncReaderWriter("FileCacheLock");
+$readwrite->readlock();
+/* ... */
+$readwrite->readunlock();
+?>
+```
 
 ### Дивіться також
 
-- [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.md) -
-Знімає блокування читання
+-   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.html) - Знімає блокування читання

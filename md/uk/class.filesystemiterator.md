@@ -1,13 +1,19 @@
-- [« EmptyIterator::valid](emptyiterator.valid.md)
-- [FilesystemIterator::\_\_construct »](filesystemiterator.construct.md)
+Клас FilesystemIterator
 
-- [PHP Manual](index.md)
-- [Ітератори](spl.iterators.md)
-- Клас FilesystemIterator
+-   [« EmptyIterator::valid](emptyiterator.valid.html)
+    
+-   [FilesystemIterator::\_\_construct »](filesystemiterator.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Итераторы](spl.iterators.html)
+    
+-   Клас FilesystemIterator
+    
 
 # Клас FilesystemIterator
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -15,277 +21,196 @@
 
 ## Огляд класів
 
-class **FilesystemIterator** extends
-[DirectoryIterator](class.directoryiterator.md) {
+```classsynopsis
 
-/\* Константи \*/
+     
+    
 
-const int `CURRENT_AS_PATHNAME` = 32;
+    
+     
+      class FilesystemIterator
+     
 
-const int `CURRENT_AS_FILEINFO` = 0;
+     
+      extends
+       DirectoryIterator
+     
+     {
 
-const int `CURRENT_AS_SELF` = 16;
+    /* Константы */
+    
+     const
+     int
+      CURRENT_AS_PATHNAME = 32;
 
-const int `CURRENT_MODE_MASK` = 240;
+    const
+     int
+      CURRENT_AS_FILEINFO = 0;
 
-const int `KEY_AS_PATHNAME` = 0;
+    const
+     int
+      CURRENT_AS_SELF = 16;
 
-const int `KEY_AS_FILENAME` = 256;
+    const
+     int
+      CURRENT_MODE_MASK = 240;
 
-const int `FOLLOW_SYMLINKS` = 512;
+    const
+     int
+      KEY_AS_PATHNAME = 0;
 
-const int `KEY_MODE_MASK` = 3840;
+    const
+     int
+      KEY_AS_FILENAME = 256;
 
-const int `NEW_CURRENT_AND_KEY` = 256;
+    const
+     int
+      FOLLOW_SYMLINKS = 512;
 
-const int `SKIP_DOTS` = 4096;
+    const
+     int
+      KEY_MODE_MASK = 3840;
 
-const int `UNIX_PATHS` = 8192;
+    const
+     int
+      NEW_CURRENT_AND_KEY = 256;
 
-/\* Методи \*/
+    const
+     int
+      SKIP_DOTS = 4096;
 
-public [\_\_construct](filesystemiterator.construct.md)(string
-`$directory`, int `$flags` = FilesystemIterator::KEY_AS_PATHNAME \|
-FilesystemIterator::CURRENT_AS_FILEINFO \|
-FilesystemIterator::SKIP_DOTS)
+    const
+     int
+      UNIX_PATHS = 8192;
 
-public [current](filesystemiterator.current.md)():
-string\|[SplFileInfo](class.splfileinfo.md)\|[FilesystemIterator](class.filesystemiterator.md)
 
-public [getFlags](filesystemiterator.getflags.md)(): int
+    /* Методы */
+    
+   public __construct(string $directory, int $flags = FilesystemIterator::KEY_AS_PATHNAME | FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::SKIP_DOTS)
 
-public [key](filesystemiterator.key.md)(): string
+    public current(): string|SplFileInfo|FilesystemIterator
+public getFlags(): int
+public key(): string
+public next(): void
+public rewind(): void
+public setFlags(int $flags): void
 
-public [next](filesystemiterator.next.md)(): void
 
-public [rewind](filesystemiterator.rewind.md)(): void
-
-public [setFlags](filesystemiterator.setflags.md)(int `$flags`): void
-
-/\* Наслідувані методи \*/
-
-public [DirectoryIterator::current](directoryiterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [DirectoryIterator::getATime](directoryiterator.getatime.md)():
-int
-
+    /* Наследуемые методы */
+    public DirectoryIterator::current(): mixed
+public DirectoryIterator::getATime(): int
+public DirectoryIterator::getBasename(string $suffix = ""): string
+public DirectoryIterator::getCTime(): int
+public DirectoryIterator::getExtension(): string
+public DirectoryIterator::getFilename(): string
+public DirectoryIterator::getGroup(): int
+public DirectoryIterator::getInode(): int
+public DirectoryIterator::getMTime(): int
+public DirectoryIterator::getOwner(): int
+public DirectoryIterator::getPath(): string
+public DirectoryIterator::getPathname(): string
+public DirectoryIterator::getPerms(): int
+public DirectoryIterator::getSize(): int
+public DirectoryIterator::getType(): string
+public DirectoryIterator::isDir(): bool
+public DirectoryIterator::isDot(): bool
+public DirectoryIterator::isExecutable(): bool
+public DirectoryIterator::isFile(): bool
+public DirectoryIterator::isLink(): bool
+public DirectoryIterator::isReadable(): bool
+public DirectoryIterator::isWritable(): bool
+public DirectoryIterator::key(): mixed
+public DirectoryIterator::next(): void
+public DirectoryIterator::rewind(): void
+public DirectoryIterator::seek(int $offset): void
 public
-[DirectoryIterator::getBasename](directoryiterator.getbasename.md)(string
-`$suffix` = ""): string
+   DirectoryIterator::__toString(): string
+public DirectoryIterator::valid(): bool
 
-public [DirectoryIterator::getCTime](directoryiterator.getctime.md)():
-int
+    public SplFileInfo::getATime(): int|false
+public SplFileInfo::getBasename(string $suffix = ""): string
+public SplFileInfo::getCTime(): int|false
+public SplFileInfo::getExtension(): string
+public SplFileInfo::getFileInfo(?string $class = null): SplFileInfo
+public SplFileInfo::getFilename(): string
+public SplFileInfo::getGroup(): int|false
+public SplFileInfo::getInode(): int|false
+public SplFileInfo::getLinkTarget(): string|false
+public SplFileInfo::getMTime(): int|false
+public SplFileInfo::getOwner(): int|false
+public SplFileInfo::getPath(): string
+public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
+public SplFileInfo::getPathname(): string
+public SplFileInfo::getPerms(): int|false
+public SplFileInfo::getRealPath(): string|false
+public SplFileInfo::getSize(): int|false
+public SplFileInfo::getType(): string|false
+public SplFileInfo::isDir(): bool
+public SplFileInfo::isExecutable(): bool
+public SplFileInfo::isFile(): bool
+public SplFileInfo::isLink(): bool
+public SplFileInfo::isReadable(): bool
+public SplFileInfo::isWritable(): bool
+public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?resource $context = null): SplFileObject
+public SplFileInfo::setFileClass(string $class = SplFileObject::class): void
+public SplFileInfo::setInfoClass(string $class = SplFileInfo::class): void
+public SplFileInfo::__toString(): string
 
-public
-[DirectoryIterator::getExtension](directoryiterator.getextension.md)():
-string
+   }
+```
 
-public
-[DirectoryIterator::getFilename](directoryiterator.getfilename.md)():
-string
-
-public [DirectoryIterator::getGroup](directoryiterator.getgroup.md)():
-int
-
-public [DirectoryIterator::getInode](directoryiterator.getinode.md)():
-int
-
-public [DirectoryIterator::getMTime](directoryiterator.getmtime.md)():
-int
-
-public [DirectoryIterator::getOwner](directoryiterator.getowner.md)():
-int
-
-public [DirectoryIterator::getPath](directoryiterator.getpath.md)():
-string
-
-public
-[DirectoryIterator::getPathname](directoryiterator.getpathname.md)():
-string
-
-public [DirectoryIterator::getPerms](directoryiterator.getperms.md)():
-int
-
-public [DirectoryIterator::getSize](directoryiterator.getsize.md)():
-int
-
-public [DirectoryIterator::getType](directoryiterator.gettype.md)():
-string
-
-public [DirectoryIterator::isDir](directoryiterator.isdir.md)(): bool
-
-public [DirectoryIterator::isDot](directoryiterator.isdot.md)(): bool
-
-public
-[DirectoryIterator::isExecutable](directoryiterator.isexecutable.md)():
-bool
-
-public [DirectoryIterator::isFile](directoryiterator.isfile.md)():
-bool
-
-public [DirectoryIterator::isLink](directoryiterator.islink.md)():
-bool
-
-public
-[DirectoryIterator::isReadable](directoryiterator.isreadable.md)():
-bool
-
-public
-[DirectoryIterator::isWritable](directoryiterator.iswritable.md)():
-bool
-
-public [DirectoryIterator::key](directoryiterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [DirectoryIterator::next](directoryiterator.next.md)(): void
-
-public [DirectoryIterator::rewind](directoryiterator.rewind.md)():
-void
-
-public [DirectoryIterator::seek](directoryiterator.seek.md)(int
-`$offset`): void
-
-public
-[DirectoryIterator::\_\_toString](directoryiterator.tostring.md)():
-string
-
-public [DirectoryIterator::valid](directoryiterator.valid.md)(): bool
-
-public [SplFileInfo::getATime](splfileinfo.getatime.md)(): int\|false
-
-public [SplFileInfo::getBasename](splfileinfo.getbasename.md)(string
-`$suffix` = ""): string
-
-public [SplFileInfo::getCTime](splfileinfo.getctime.md)(): int\|false
-
-public [SplFileInfo::getExtension](splfileinfo.getextension.md)():
-string
-
-public [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)(?string
-`$class` = **`null`**): [SplFileInfo](class.splfileinfo.md)
-
-public [SplFileInfo::getFilename](splfileinfo.getfilename.md)():
-string
-
-public [SplFileInfo::getGroup](splfileinfo.getgroup.md)(): int\|false
-
-public [SplFileInfo::getInode](splfileinfo.getinode.md)(): int\|false
-
-public [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.md)():
-string\|false
-
-public [SplFileInfo::getMTime](splfileinfo.getmtime.md)(): int\|false
-
-public [SplFileInfo::getOwner](splfileinfo.getowner.md)(): int\|false
-
-public [SplFileInfo::getPath](splfileinfo.getpath.md)(): string
-
-public [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)(?string
-`$class` = **`null`**): ?[SplFileInfo](class.splfileinfo.md)
-
-public [SplFileInfo::getPathname](splfileinfo.getpathname.md)():
-string
-
-public [SplFileInfo::getPerms](splfileinfo.getperms.md)(): int\|false
-
-public [SplFileInfo::getRealPath](splfileinfo.getrealpath.md)():
-string\|false
-
-public [SplFileInfo::getSize](splfileinfo.getsize.md)(): int\|false
-
-public [SplFileInfo::getType](splfileinfo.gettype.md)(): string\|false
-
-public [SplFileInfo::isDir](splfileinfo.isdir.md)(): bool
-
-public [SplFileInfo::isExecutable](splfileinfo.isexecutable.md)():
-bool
-
-public [SplFileInfo::isFile](splfileinfo.isfile.md)(): bool
-
-public [SplFileInfo::isLink](splfileinfo.islink.md)(): bool
-
-public [SplFileInfo::isReadable](splfileinfo.isreadable.md)(): bool
-
-public [SplFileInfo::isWritable](splfileinfo.iswritable.md)(): bool
-
-public [SplFileInfo::openFile](splfileinfo.openfile.md)(string `$mode`
-= "r", bool `$useIncludePath` = **`false`**, ?resource `$context` =
-**`null`**): [SplFileObject](class.splfileobject.md)
-
-public [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)(string
-`$class` = SplFileObject::class): void
-
-public [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)(string
-`$class` = SplFileInfo::class): void
-
-public [SplFileInfo::\_\_toString](splfileinfo.tostring.md)(): string
-
-}
-
-## Зумовлені константи
+## Обумовлені константи
 
 **`FilesystemIterator::CURRENT_AS_PATHNAME`**
-Примушує метод
-[FilesystemIterator::current()](filesystemiterator.current.md) повернути
-шлях.
+
+Примушує метод [FilesystemIterator::current()](filesystemiterator.current.html) повернути шлях.
 
 **`FilesystemIterator::CURRENT_AS_FILEINFO`**
-Примушує метод
-[FilesystemIterator::current()](filesystemiterator.current.md) повернути
-екземпляр [SplFileInfo](class.splfileinfo.md).
+
+Примушує метод [FilesystemIterator::current()](filesystemiterator.current.html) повернути екземпляр [SplFileInfo](class.splfileinfo.html)
 
 **`FilesystemIterator::CURRENT_AS_SELF`**
-Примушує метод
-[FilesystemIterator::current()](filesystemiterator.current.md) повернути
-$this (FilesystemIterator).
+
+Примушує метод [FilesystemIterator::current()](filesystemiterator.current.html) повернути $this (FilesystemIterator).
 
 **`FilesystemIterator::CURRENT_MODE_MASK`**
-Маскує
-[FilesystemIterator::current()](filesystemiterator.current.md)
+
+Маскує [FilesystemIterator::current()](filesystemiterator.current.html)
 
 **`FilesystemIterator::KEY_AS_PATHNAME`**
-Примушує метод
-[FilesystemIterator::key()](filesystemiterator.key.md) повернути шлях.
+
+Примушує метод [FilesystemIterator::key()](filesystemiterator.key.html) повернути шлях.
 
 **`FilesystemIterator::KEY_AS_FILENAME`**
-Примушує метод
-[FilesystemIterator::key()](filesystemiterator.key.md) повернути ім'я
-файлу.
+
+Примушує метод [FilesystemIterator::key()](filesystemiterator.key.html) повернути ім'я файлу.
 
 **`FilesystemIterator::FOLLOW_SYMLINKS`**
-Примушує метод
-[RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.md)
-слідувати символічним посиланням.
+
+Примушує метод [RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.html) слідувати символічним посиланням.
 
 **`FilesystemIterator::KEY_MODE_MASK`**
-Маскує [FilesystemIterator::key()](filesystemiterator.key.md)
+
+Маскує [FilesystemIterator::key()](filesystemiterator.key.html)
 
 **`FilesystemIterator::NEW_CURRENT_AND_KEY`**
-Те саме, що
-`FilesystemIterator::KEY_AS_FILENAME | FilesystemIterator::CURRENT_AS_FILEINFO`.
+
+Те саме, що `FilesystemIterator::KEY_AS_FILENAME | FilesystemIterator::CURRENT_AS_FILEINFO`
 
 **`FilesystemIterator::SKIP_DOTS`**
-Пропускає точкові файли (`.` та `..`).
+
+Пропускає точкові файли (`.` і `..`
 
 **`FilesystemIterator::UNIX_PATHS`**
-Примушує всі шляхи використовувати зворотний сліш у Unix-стилі, незалежно
-від налаштувань системи за промовчанням. Зверніть увагу, що `path`,
-передано в конструктор, не змінюється.
+
+Примушує всі шляхи використовувати зворотний сліш у Unix-стилі, незалежно від налаштувань системи за промовчанням. Зверніть увагу, що `path`, переданий конструктор, не змінюється.
 
 ## Зміст
 
-- [FilesystemIterator::\_\_construct](filesystemiterator.construct.md)
-- Створює новий ітератор файлової системи
-- [FilesystemIterator::current](filesystemiterator.current.md) -
-Поточний файл
-- [FilesystemIterator::getFlags](filesystemiterator.getflags.md) -
-Отримання прапорів налаштувань об'єкта
-- [FilesystemIterator::key](filesystemiterator.key.md) — Визначення
-ключа поточного файлу
-- [FilesystemIterator::next](filesystemiterator.next.md) -
-Переміщення вказівника на наступний файл
-- [FilesystemIterator::rewind](filesystemiterator.rewind.md) -
-Переміщення вказівника на початок
-- [FilesystemIterator::setFlags](filesystemiterator.setflags.md) -
-Завдання прапорів обробки
+-   [FilesystemIterator::\_\_construct](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::current](filesystemiterator.current.html) - Поточний файл
+-   [FilesystemIterator::getFlags](filesystemiterator.getflags.html) — Отримання прапорів налаштувань об'єкта
+-   [FilesystemIterator::key](filesystemiterator.key.html) — Визначення ключа поточного файлу
+-   [FilesystemIterator::next](filesystemiterator.next.html) — Переміщення вказівника на наступний файл
+-   [FilesystemIterator::rewind](filesystemiterator.rewind.html) - Переміщення покажчика на початок
+-   [FilesystemIterator::setFlags](filesystemiterator.setflags.html) - Завдання прапорів обробки

@@ -1,18 +1,22 @@
-- [«timezone_offset_get](function.timezone-offset-get.md)
-- [timezone_transitions_get »](function.timezone-transitions-get.md)
+Псевдонім DateTimeZone::construct
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTimeZone::\_\_construct
+-   [« timezone\_offset\_get](function.timezone-offset-get.html)
+    
+-   [timezone\_transitions\_get »](function.timezone-transitions-get.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTimeZone::construct
+    
 
-#timezone_open
+# timezoneopen
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-timezone_open - Псевдонім
-[DateTimeZone::\_\_construct()](datetimezone.construct.md)
+timezoneopen - Псевдонім [DateTimeZone::\_\_construct()](datetimezone.construct.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTimeZone::\_\_construct()](datetimezone.construct.md)
+Ця функція є псевдонімом: [DateTimeZone::\_\_construct()](datetimezone.construct.html)

@@ -1,28 +1,39 @@
-- [«EvWatcher::keepalive](evwatcher.keepalive.md)
-- [EvWatcher::start »](evwatcher.start.md)
+Встановлює нову callback-функцію для спостерігача
 
-- [PHP Manual](index.md)
-- [EvWatcher](class.evwatcher.md)
-- Встановлює нову callback-функцію для спостерігача
+-   [« EvWatcher::keepalive](evwatcher.keepalive.html)
+    
+-   [EvWatcher::start »](evwatcher.start.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvWatcher](class.evwatcher.html)
+    
+-   Встановлює нову callback-функцію для спостерігача
+    
 
 # EvWatcher::setCallback
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvWatcher::setCallback — Встановлює нову callback-функцію для
-спостерігача
+EvWatcher::setCallback — Встановлює нову callback-функцію для спостерігача
 
 ### Опис
 
-public **EvWatcher::setCallback**(
-[callable](language.types.callable.md) `$callback` ): void
+```methodsynopsis
+public
+   EvWatcher::setCallback(
+    callable
+     $callback
+   ): void
+```
 
 Встановлює нову callback-функцію для спостерігача
 
 ### Список параметрів
 
 `callback`
-Дивіться [функції спостерігачів callback](ev.watcher-callbacks.md) .
+
+Дивіться [callback-функции наблюдателей](ev.watcher-callbacks.html)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,15 @@
-- [« socket_wsaprotocol_info_release](function.socket-wsaprotocol-info-release.md)
-- [AddressInfo »](class.addressinfo.md)
+Клас Socket
 
-- [PHP Manual](index.md)
-- [Сокети](book.sockets.md)
-- Клас Socket
+-   [« socket\_wsaprotocol\_info\_release](function.socket-wsaprotocol-info-release.html)
+    
+-   [AddressInfo »](class.addressinfo.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Сокеты](book.sockets.html)
+    
+-   Клас Socket
+    
 
 # Клас Socket
 
@@ -11,10 +17,20 @@
 
 ## Вступ
 
-Повністю непрозорий клас, що замінює ресурси `Socket` у PHP 8.0.0.
+Повністю непрозорий клас, який замінює ресурси `Socket` у PHP 8.0.0.
 
 ## Огляд класів
 
-final class **Socket** {
+```synopsis
 
-}
+     
+    
+
+    
+     
+      final
+      class Socket
+     
+     {
+   }
+```

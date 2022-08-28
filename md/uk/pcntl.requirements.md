@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](pcntl.setup.md)
-- [Установка »](pcntl.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](pcntl.setup.md)
-- Вимоги
+-   [« Установка и настройка](pcntl.setup.html)
+    
+-   [Установка »](pcntl.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](pcntl.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

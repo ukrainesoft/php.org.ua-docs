@@ -1,20 +1,27 @@
-- [« MongoDB\Driver\ReadPreference::getMode](mongodb-driver-readpreference.getmode.md)
-- [MongoDB\Driver\ReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.md)
+Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-- Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+-   [« MongoDB\\Driver\\ReadPreference::getMode](mongodb-driver-readpreference.getmode.html)
+    
+-   [MongoDB\\Driver\\ReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)
+    
+-   Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+    
 
-# MongoDB\Driver\ReadPreference::getModeString
+# MongoDBDriverReadPreference::getModeString
 
-(mongodb \>=1.7.0)
+(mongodb >=1.7.0)
 
-MongoDB\Driver\ReadPreference::getModeString — Повертає опцію "mode"
-об'єкта ReadPreference у вигляді рядка
+MongoDBDriverReadPreference::getModeString — Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
 
 ### Опис
 
-final public **MongoDB\Driver\ReadPreference::getModeString**(): string
+```methodsynopsis
+final public MongoDB\Driver\ReadPreference::getModeString(): string
+```
 
 ### Список параметрів
 
@@ -26,26 +33,44 @@ final public **MongoDB\Driver\ReadPreference::getModeString**(): string
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 **Приклад використання
-MongoDB\Driver\ReadPreference::getModeString()****
+**Приклад #1 **Приклад використання MongoDBDriverReadPreference::getModeString()****
 
-` <?php$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY);var_dump($rp->getModeString());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\Read ::PRIMARY_PREFERRED);var_dump($rp->getModeString());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY);var_dump($rp->getModeString());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED);var_dump($rp->getModeString());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::AR $rp->getModeString());?> `
+```php
+<?php
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY);
+var_dump($rp->getModeString());
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED);
+var_dump($rp->getModeString());
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY);
+var_dump($rp->getModeString());
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED);
+var_dump($rp->getModeString());
+
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::NEAREST);
+var_dump($rp->getModeString());
+
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 string(7) "primary"
 string(16) "primaryPreferred"
 string(9) "secondary"
 string(18) "secondaryPreferred"
 string(7) "nearest"
+```
 
 ### Дивіться також
 
-- [MongoDB\Driver\ReadPreference::getMode()](mongodb-driver-readpreference.getmode.md) -
-Повертає параметр "mode" ReadPreference
-- [» Документація з Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [MongoDB\\Driver\\ReadPreference::getMode()](mongodb-driver-readpreference.getmode.html) - Повертає параметр "mode" ReadPreference
+-   [» Документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

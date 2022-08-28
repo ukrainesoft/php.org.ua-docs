@@ -1,20 +1,27 @@
-- [« sapi_windows_cp_get](function.sapi-windows-cp-get.md)
-- [sapi_windows_cp_set »](function.sapi-windows-cp-set.md)
+Вказує, чи кодова сторінка сумісна з UTF-8
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- Вказує, чи кодова сторінка сумісна з UTF-8
+-   [« sapi\_windows\_cp\_get](function.sapi-windows-cp-get.html)
+    
+-   [sapi\_windows\_cp\_set »](function.sapi-windows-cp-set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разные функции](ref.misc.html)
+    
+-   Вказує, чи кодова сторінка сумісна з UTF-8
+    
 
-# sapi_windows_cp_is_utf8
+# sapiwindowsспісutf8
 
-(PHP 7 \>= 7.1.0, PHP 8)
+(PHP 7> = 7.1.0, PHP 8)
 
-sapi_windows_cp_is_utf8 — Вказує, чи сумісна кодова сторінка з
-UTF-8
+sapiwindowsспісutf8 — Вказує, чи кодова сторінка сумісна з UTF-8
 
 ### Опис
 
-**sapi_windows_cp_is_utf8**(): bool
+```methodsynopsis
+sapi_windows_cp_is_utf8(): bool
+```
 
 Вказує, чи кодова сторінка поточного процесу сумісна з UTF-8.
 
@@ -28,5 +35,4 @@ UTF-8
 
 ### Дивіться також
 
-- [sapi_windows_cp_get()](function.sapi-windows-cp-get.md) -
-Отримати поточну кодову сторінку
+-   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.html) - Отримати поточну кодову сторінку

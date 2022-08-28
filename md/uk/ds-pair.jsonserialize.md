@@ -1,19 +1,24 @@
-- [« Ds\Pair::isEmpty](ds-pair.isempty.md)
-- [Ds\Pair::toArray »](ds-pair.toarray.md)
+Повертає пару у виставі JSON
 
-- [PHP Manual](index.md)
-- [Пара](class.ds-pair.md)
-- Повертає пару у виставі JSON
+-   [« Ds\\Pair::isEmpty](ds-pair.isempty.html)
+    
+-   [Ds\\Pair::toArray »](ds-pair.toarray.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Пара](class.ds-pair.html)
+    
+-   Повертає пару у виставі JSON
+    
 
-# Ds\Pair::jsonSerialize
+# ДсPair::jsonSerialize
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Pair::jsonSerialize — Повертає пару у виставі JSON
+ДсPair::jsonSerialize — Повертає пару у виставі JSON
 
-Дивіться функцію
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Дивіться функцію [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ви не повинні викликати цей метод безпосередньо.

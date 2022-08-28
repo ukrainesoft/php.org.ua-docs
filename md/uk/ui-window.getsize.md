@@ -1,19 +1,27 @@
-- [«UI\Window::error](ui-window.error.md)
-- [UI\Window::getTitle »](ui-window.gettitle.md)
+Отримати розмір вікна
 
-- [PHP Manual](index.md)
-- [UI\Window](class.ui-window.md)
-- Отримати розмір вікна
+-   [« UI\\Window::error](ui-window.error.html)
+    
+-   [UI\\Window::getTitle »](ui-window.gettitle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Window](class.ui-window.html)
+    
+-   Отримати розмір вікна
+    
 
-# UI\Window::getSize
+# ОЙWindow::getSize
 
 (UI 0.9.9)
 
-UI\Window::getSize — Отримати розмір вікна
+ОЙWindow::getSize — Отримати розмір вікна
 
 ### Опис
 
-public **UI\Window::getSize**(): [UI\Size](class.ui-size.md)
+```methodsynopsis
+public UI\Window::getSize(): UI\Size
+```
 
 Поверне розмір вікна
 

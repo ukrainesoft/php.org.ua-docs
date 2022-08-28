@@ -1,19 +1,25 @@
-- [«SolrGenericResponse](class.solrgenericresponse.md)
-- [SolrGenericResponse::\_\_destruct »](solrgenericresponse.destruct.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [SolrGenericResponse](class.solrgenericresponse.md)
-- Конструктор
+-   [« SolrGenericResponse](class.solrgenericresponse.html)
+    
+-   [SolrGenericResponse::\_\_destruct »](solrgenericresponse.destruct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrGenericResponse](class.solrgenericresponse.html)
+    
+-   Конструктор
+    
 
-# SolrGenericResponse::\_\_construct
+# SolrGenericResponse::construct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrGenericResponse::\_\_construct — Конструктор
+SolrGenericResponse::construct — Конструктор
 
 ### Опис
 
-public **SolrGenericResponse::\_\_construct**()
+public **SolrGenericResponse::construct**
 
 Конструктор
 

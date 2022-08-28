@@ -1,27 +1,34 @@
-- [« EventBufferEvent::setWatermark](eventbufferevent.setwatermark.md)
-- [EventBufferEvent::sslFilter »](eventbufferevent.sslfilter.md)
+Повертає останню помилку OpenSSL, повідомлену буферною подією
 
-- [PHP Manual](index.md)
-- [EventBufferEvent](class.eventbufferevent.md)
-- Повертає останню помилку OpenSSL, повідомлену буферною подією
+-   [« EventBufferEvent::setWatermark](eventbufferevent.setwatermark.html)
+    
+-   [EventBufferEvent::sslFilter »](eventbufferevent.sslfilter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventBufferEvent](class.eventbufferevent.html)
+    
+-   Повертає останню помилку OpenSSL, повідомлену буферною подією
+    
 
 # EventBufferEvent::sslError
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventBufferEvent::sslError — Повертає останню помилку OpenSSL,
-повідомлену буферній події
+EventBufferEvent::sslError — Повертає останню помилку OpenSSL, повідомлену буферною подією
 
 ### Опис
 
-public **EventBufferEvent::sslError**(): string
+```methodsynopsis
+public
+   EventBufferEvent::sslError(): string
+```
 
 Повертає останню помилку OpenSSL, повідомлену буферною подією.
 
-> **Примітка**:
->
-> Функція доступна, тільки якщо `Event` скомпільовано з підтримкою
-> OpenSSL.
+> **Зауваження**
+> 
+> Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
 ### Список параметрів
 
@@ -29,17 +36,31 @@ public **EventBufferEvent::sslError**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок помилки OpenSSL, про яку повідомлялося у буферному
-події, або **`false`**, якщо немає помилок для повернення.
+Повертає рядок помилки OpenSSL, про яку повідомлялося в буферній події, або **`false`**якщо більше немає помилок для повернення.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **EventBufferEvent::sslError()****
 
-` <?php// Эта callbac-функция вызывается, когда какое-либо событие происходит в приёмнике событий,// например, соединение закрыто или произошла ошибкаfunction ssl_event_cb($bev, $events, $ctx) {    if ($events & EventBufferEvent: :ERROR) {         // Виймаємо помилки із стека помилок SSL                              り
-", $err); |      }   }    if ($events & (EventBufferEvent::EOF | EventBufferEvent::ERROR)} | |                      |
+```php
+<?php
+// Эта callbac-функция вызывается, когда какое-либо событие происходит в приёмнике событий,
+// например, соединение закрыто или произошла ошибка
+function ssl_event_cb($bev, $events, $ctx) {
+    if ($events & EventBufferEvent::ERROR) {
+        // Извлекаем ошибки из стека ошибок SSL
+        while ($err = $bev->sslError()) {
+            fprintf(STDERR, "Bufferevent error %s.\n", $err);
+        }
+    }
+
+    if ($events & (EventBufferEvent::EOF | EventBufferEvent::ERROR)) {
+        $bev->free();
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [EventBufferEvent::sslRenegotiate()](eventbufferevent.sslrenegotiate.md) -
-Повідомляє про буферну подію почати перегляд SSL
+-   [EventBufferEvent::sslRenegotiate()](eventbufferevent.sslrenegotiate.html) - Повідомляє буферну подію розпочати перегляд SSL

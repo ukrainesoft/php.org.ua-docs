@@ -1,54 +1,56 @@
-- [«Evio](class.evio.md)
-- [EvIo::createStopped »](evio.createstopped.md)
+Створює об'єкт спостерігач EvIo
 
-- [PHP Manual](index.md)
-- [EvIo](class.evio.md)
-- Створює об'єкт спостерігач EvIo
+-   [« EvIo](class.evio.html)
+    
+-   [EvIo::createStopped »](evio.createstopped.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvIo](class.evio.html)
+    
+-   Створює об'єкт спостерігач EvIo
+    
 
-# EvIo::\_\_construct
+# EvIo::construct
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvIo::\_\_construct — Створює об'єкт спостерігача EvIo
+EvIo::construct — Створює спостерігач об'єкт EvIo
 
 ### Опис
 
-public **EvIo::\_\_construct**(
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` ,
-int `$events` ,
-[callable](language.types.callable.md) `$callback` ,
-
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` = ?,
-int `$priority` = ?
-)
+public **EvIo::construct**  
+[mixed](language.types.declarations.html#language.types.declarations.mixed) `$fd`  
+int `$events`  
+[callable](language.types.callable.html) `$callback`  
+[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
+int `$priority`  
 
 Створює та автоматично стартує об'єкт спостерігач EvIo.
 
 ### Список параметрів
 
 `fd`
-Може бути потоком, відкритим за допомогою функції
-[fopen()](function.fopen.md) або аналогічною, числовим дескриптором
-файл або сокет.
+
+Може бути потоком, відкритим за допомогою функції [fopen()](function.fopen.html) чи аналогічною, числовим дескриптором файлу чи сокетом.
 
 `events`
-**`Ev::READ`** та/або **`Ev::WRITE`**. Дивіться [бітові маски](class.ev.md#ev.constants.watcher-revents).
+
+**`Ev::READ`** та/або **`Ev::WRITE`**. Дивіться [битовые маски](class.ev.html#ev.constants.watcher-revents)
 
 `callback`
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md) .
+
+Дивіться [Callback-функции наблюдателей](ev.watcher-callbacks.html)
 
 `data`
+
 Довільні дані, пов'язані зі спостерігачем.
 
 `priority`
-[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
+
+[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
 
 ### Дивіться також
 
-- [EvIo::createStopped()](evio.createstopped.md) - Створює
-зупинений об'єкт спостерігача EvIo
-- [EvLoop::io()](evloop.io.md) - Створює об'єкт спостерігача EvIo,
-пов'язаний з поточним екземпляром циклу подій
+-   [EvIo::createStopped()](evio.createstopped.html) - Створює зупинений об'єкт спостерігача EvIo
+-   [EvLoop::io()](evloop.io.html) - Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій

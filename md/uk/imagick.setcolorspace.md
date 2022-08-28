@@ -1,9 +1,15 @@
-- [« Imagick::setBackgroundColor](imagick.setbackgroundcolor.md)
-- [Imagick::setCompression »](imagick.setcompression.md)
+Встановлює колірний простір
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює колірний простір
+-   [« Imagick::setBackgroundColor](imagick.setbackgroundcolor.html)
+    
+-   [Imagick::setCompression »](imagick.setcompression.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює колірний простір
+    
 
 # Imagick::setColorspace
 
@@ -13,20 +19,21 @@ Imagick::setColorspace — Встановлює колірний простір
 
 ### Опис
 
-public **Imagick::setColorspace**(int `$COLORSPACE`): bool
+```methodsynopsis
+public Imagick::setColorspace(int $COLORSPACE): bool
+```
 
-Встановлює значення глобального кольору для об'єкта.
-Цей метод доступний, якщо Imagick був скомпільований з версією
-ImageMagick 6.5.7 або старше.
+Встановлює значення глобального кольору для об'єкта. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.5.7 або старшим.
 
 ### Список параметрів
 
 `COLORSPACE`
-Одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
+
+Одна з [констант COLORSPACE](imagick.constants.html#imagick.constants.colorspace)
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

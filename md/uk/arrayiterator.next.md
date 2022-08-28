@@ -1,9 +1,15 @@
-- [« ArrayIterator::natsort](arrayiterator.natsort.md)
-- [ArrayIterator::offsetExists »](arrayiterator.offsetexists.md)
+Переміщує покажчик за наступний запис
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Переміщує покажчик за наступний запис
+-   [« ArrayIterator::natsort](arrayiterator.natsort.html)
+    
+-   [ArrayIterator::offsetExists »](arrayiterator.offsetexists.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Переміщує покажчик за наступний запис
+    
 
 # ArrayIterator::next
 
@@ -13,7 +19,9 @@ ArrayIterator::next — Переміщує покажчик за наступн�
 
 ### Опис
 
-public **ArrayIterator::next**(): void
+```methodsynopsis
+public ArrayIterator::next(): void
+```
 
 Переміщує покажчик на наступний запис у масиві.
 
@@ -29,10 +37,26 @@ public **ArrayIterator::next**(): void
 
 **Приклад #1 Приклад використання **ArrayIterator::next()****
 
-` <?php$arrayobject = new ArrayObject();$arrayobject[] = 'zero';$arrayobject[] = 'one';$iterator = $arrayobject->getIterator();while($iterator->valid() ) {    echo $iterator->key() . ' => ' . $iterator->current() . "
-";   $iterator->next();}?> `
+```php
+<?php
+$arrayobject = new ArrayObject();
+
+$arrayobject[] = 'zero';
+$arrayobject[] = 'one';
+
+$iterator = $arrayobject->getIterator();
+
+while($iterator->valid()) {
+    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
+
+    $iterator->next();
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 0 => zero
-1 => один
+1 => one
+```

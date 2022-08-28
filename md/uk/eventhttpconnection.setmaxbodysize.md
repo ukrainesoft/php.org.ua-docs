@@ -1,27 +1,38 @@
-- [« EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.md)
-- [EventHttpConnection::setMaxHeadersSize »](eventhttpconnection.setmaxheaderssize.md)
+Встановлює максимальний розмір тіла для підключення
 
-- [PHP Manual](index.md)
-- [EventHttpConnection](class.eventhttpconnection.md)
-- Встановлює максимальний розмір тіла для підключення
+-   [« EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.html)
+    
+-   [EventHttpConnection::setMaxHeadersSize »](eventhttpconnection.setmaxheaderssize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EventHttpConnection](class.eventhttpconnection.html)
+    
+-   Встановлює максимальний розмір тіла для підключення
+    
 
 # EventHttpConnection::setMaxBodySize
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
-EventHttpConnection::setMaxBodySize — Встановлює максимальний розмір
-тіла для підключення
+EventHttpConnection::setMaxBodySize — Встановлює максимальний розмір тіла для підключення
 
 ### Опис
 
-public **EventHttpConnection::setMaxBodySize**( string `$max_size` ):
-void
+```methodsynopsis
+public
+   EventHttpConnection::setMaxBodySize(
+    string
+     $max_size
+   ): void
+```
 
 Встановлює максимальний розмір для підключення.
 
 ### Список параметрів
 
 `max_size`
+
 Максимальний розмір тіла у байтах.
 
 ### Значення, що повертаються
@@ -30,5 +41,4 @@ void
 
 ### Дивіться також
 
-- [EventHttpConnection::setMaxHeadersSize()](eventhttpconnection.setmaxheaderssize.md) -
-Встановлює максимальний розмір заголовка
+-   [EventHttpConnection::setMaxHeadersSize()](eventhttpconnection.setmaxheaderssize.html) - Встановлює максимальний розмір заголовка

@@ -1,80 +1,88 @@
-- [«exif_tagname](function.exif-tagname.md)
-- [read_exif_data »](function.read-exif-data.md)
+Отримує вбудоване прев'ю зображення
 
-- [PHP Manual](index.md)
-- [Exif Функції](ref.exif.md)
-- Отримує вбудоване прев'ю зображення
+-   [« exif\_tagname](function.exif-tagname.html)
+    
+-   [read\_exif\_data »](function.read-exif-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exif Функции](ref.exif.html)
+    
+-   Отримує вбудоване прев'ю зображення
+    
 
-#exif_thumbnail
+# exifthumbnail
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-exif_thumbnail — Отримує вбудоване зображення.
+exifthumbnail — Отримує вбудоване зображення.
 
 ### Опис
 
-**exif_thumbnail**(
-resource\|string `$file`,
-int `&$width` = **`null`**,
-int `&$height` = **`null`**,
-int `&$image_type` = **`null`**
-): string\|false
+```methodsynopsis
+exif_thumbnail(    resource|string $file,    int &$width = null,    int &$height = null,    int &$image_type = null): string|false
+```
 
-**exif_thumbnail()** зчитує вбудоване прев'ю зображення.
+**exifthumbnail()** зчитує вбудоване прев'ю зображення.
 
-Якщо ви хочете отримати ескіз за допомогою цієї функції, вам необхідно
-надіслати mimetype-інформацію, використавши
-[header()](function.header.md) функції.
+Якщо ви хочете отримати ескіз за допомогою цієї функції, вам необхідно надіслати mimetype-інформацію, використовуючи [header()](function.header.html) функцію.
 
-Іноді **exif_thumbnail()** не може створити зображення, але може
-визначити його розмір. У таких випадках вона повертає **`false`**, але
-ставить аргументи `width` та `height` правильні значення.
+Іноді **exifthumbnail()** не може створити зображення, але може визначити його розмір. У таких випадках вона повертає **`false`**, але ставить аргументи `width` і `height` правильні значення.
 
 ### Список параметрів
 
 `file`
-Розташування файлу із зображенням. Можливо як шляхом до файлу, і
-потоковим ресурсом.
+
+Розташування файлу із зображенням. Можливо як шляхом до файлу, і потоковим ресурсом.
 
 `width`
+
 Ширина ескізу, що повертається.
 
 `height`
+
 Висота ескізу, що повертається.
 
 `image_type`
+
 Тип ескізу, що повертається. Це або TIFF або JPEG.
 
 ### Значення, що повертаються
 
-Повертає вбудований ескіз або **`false`**, якщо зображення не
-містить ескіз.
+Повертає вбудований ескіз або **`false`**, якщо зображення не містить ескізу.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                       |
-|--------|------------------------------------------------------------------------------------------------------------|
-| 7.2.0  | Параметр file перейменований на stream і може приймати як локальний шлях до файлу, так і потоковий ресурс. |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `file` перейменований на `stream` і може приймати як локальний шлях до файлу, і потоковий ресурс. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **exif_thumbnail()****
+**Приклад #1 Приклад використання **exifthumbnail()****
 
-` <?php$image = exif_thumbnail('/path/to/image.jpg', $width, $height, $type);if ($image!==false) {    header('Content-type: ' .image_type_to_mi ($ type)); echo $image; exit;} else {    // немає доступного прев'ю, можно обробити помилку    echo 'Немає доступного ескізу';}?> `
+```php
+<?php
+$image = exif_thumbnail('/path/to/image.jpg', $width, $height, $type);
+
+if ($image!==false) {
+    header('Content-type: ' .image_type_to_mime_type($type));
+    echo $image;
+    exit;
+} else {
+    // нет доступного превью, здесь можно обработать ошибку
+    echo 'Нет доступного эскиза';
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Якщо параметр `file` використаний передачі потоку в функцію, то
-> цей потік повинен бути перемотувати. Зверніть увагу, що файловий
-> Позиційний покажчик не буде змінено після завершення цієї роботи
-> Функції.
+> **Зауваження**
+> 
+> Якщо параметр `file` використаний передачі потоку у функцію, цей потік може бути перемотується. Зверніть увагу, що файловий позиційний покажчик не буде змінено після завершення роботи цієї функції.
 
 ### Дивіться також
 
-- [exif_read_data()](function.exif-read-data.md) - Читає заголовки
-EXIF із файлів зображень
-- [image_type_to_mime_type()](function.image-type-to-mime-type.md) -
-Отримання Mime-типу для типу зображення, що повертається функціями
-getimagesize, exif_read_data, exif_thumbnail, exif_imagetype
+-   [exif\_read\_data()](function.exif-read-data.html) - Читає заголовки EXIF ​​із файлів зображень
+-   [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.html) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype

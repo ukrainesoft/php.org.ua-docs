@@ -1,21 +1,29 @@
-- [«Error::getTraceAsString](error.gettraceasstring.md)
-- [Error::\_\_clone »](error.clone.md)
+Строкове подання помилки
 
-- [PHP Manual](index.md)
-- [Error](class.error.md)
-- Строкове подання помилки
+-   [« Error::getTraceAsString](error.gettraceasstring.html)
+    
+-   [Error::\_\_clone »](error.clone.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Error](class.error.html)
+    
+-   Строкове подання помилки
+    
 
-# Error::\_\_toString
+# Error::function toString() { \[native code\] }
 
 (PHP 7, PHP 8)
 
-Error::\_\_toString — Строкове подання помилки
+Error::toString — Строкове подання помилки
 
 ### Опис
 
-public **Error::\_\_toString**(): string
+```methodsynopsis
+public Error::__toString(): string
+```
 
-Повертає строкове (string) уявлення помилки.
+Повертає рядкове (string) уявлення помилки.
 
 ### Список параметрів
 
@@ -23,21 +31,30 @@ public **Error::\_\_toString**(): string
 
 ### Значення, що повертаються
 
-Повертає строкове (string) уявлення помилки.
+Повертає рядкове (string) уявлення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Error::\_\_toString()****
+**Приклад #1 Приклад використання **Error::toString()****
 
-` <?phptry {    throw new Error("Повідомлення про помилки");} catch(Error $e) {    echo $e;}?> `
+```php
+<?php
+try {
+    throw new Error("Сообщение об ошибке");
+} catch(Error $e) {
+    echo $e;
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Error: Повідомлення про помилку in /home/bjori/tmp/ex.php:3
+```
+Error: Сообщение об ошибке in /home/bjori/tmp/ex.php:3
 Stack trace:
 #0 {main}
+```
 
 ### Дивіться також
 
-- [Throwable::\_\_toString()](throwable.tostring.md) - Отримує
-рядкове уявлення викинутого об'єкта
+-   [Throwable::\_\_toString()](throwable.tostring.html) - отримує рядкове подання викинутого об'єкта

@@ -1,22 +1,25 @@
-- [« Swoole\Process::close](swoole-process.close.md)
-- [Swoole\Process::daemon »](swoole-process.daemon.md)
+Створює процес
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- створює процес
+-   [« Swoole\\Process::close](swoole-process.close.html)
+    
+-   [Swoole\\Process::daemon »](swoole-process.daemon.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Створює процес
+    
 
-# Swoole\Process::\_\_construct
+# SwooleProcess::construct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::\_\_construct - Створює процес
+SwooleProcess::construct — Створює процес
 
 ### Опис
 
-public
-**Swoole\Process::\_\_construct**([callable](language.types.callable.md)
-`$callback`, bool `$redirect_stdin_and_stdout` = ?, int `$pipe_type` =
-?)
+public **SwooleProcess::construct**[callable](language.types.callable.html) `$callback`, bool `$redirect_stdin_and_stdout` =?, int `$pipe_type`
 
 ### Список параметрів
 

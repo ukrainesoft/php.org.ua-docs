@@ -1,76 +1,73 @@
-- [« Типи ресурсів](array.resources.md)
-- [Сортування масивів »](array.sorting.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [Массиви](book.array.md)
-- Обумовлені константи
+-   [« Типы ресурсов](array.resources.html)
+    
+-   [Сортировка массивов »](array.sorting.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Массивы](book.array.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Наведені нижче константи завжди доступні як частина ядра PHP.
 
 **`CASE_LOWER`** (int)
-**`CASE_LOWER`** використовується з
-[array_change_key_case()](function.array-change-key-case.md) для
-конвертації ключів масиву у нижній регістр. Це за замовчуванням
-для [array_change_key_case()](function.array-change-key-case.md).
+
+**`CASE_LOWER`** використовується з [array\_change\_key\_case()](function.array-change-key-case.html) для конвертації ключів масиву у нижній регістр. Це дія за умовчанням для [array\_change\_key\_case()](function.array-change-key-case.html)
 
 **`CASE_UPPER`** (int)
-**`CASE_UPPER`** використовується з
-[array_change_key_case()](function.array-change-key-case.md) для
-конвертації ключів масиву у верхній регістр.
+
+**`CASE_UPPER`** використовується c [array\_change\_key\_case()](function.array-change-key-case.html) для конвертації ключів масиву у верхній регістр.
 
 Прапори, що змінюють порядок сортування:
 
 **`SORT_ASC`** (int)
-**`SORT_ASC`** використовується з
-[array_multisort()](function.array-multisort.md) для сортування в
-порядок зростання.
+
+**`SORT_ASC`** використовується з [array\_multisort()](function.array-multisort.html) для сортування у порядку зростання.
 
 **`SORT_DESC`** (int)
-**`SORT_DESC`** використовується з
-[array_multisort()](function.array-multisort.md) для сортування в
-порядку зменшення.
+
+**`SORT_DESC`** використовується з [array\_multisort()](function.array-multisort.html) для сортування в порядку зменшення.
 
 Прапори сортування, що використовуються різними функціями:
 
 **`SORT_REGULAR`** (int)
-**`SORT_REGULAR`** використовується для звичайного порівняння елементів
-масиву.
+
+**`SORT_REGULAR`** використовується для порівняння елементів масиву.
 
 **`SORT_NUMERIC`** (int)
+
 **`SORT_NUMERIC`** використовується для порівняння елементів як цифр.
 
 **`SORT_STRING`** (int)
+
 **`SORT_STRING`** використовується для порівняння елементів як рядків.
 
 **`SORT_LOCALE_STRING`** (int)
-**`SORT_LOCALE_STRING`** використовується для порівняння елементів як рядків
-на основі поточної локалі.
+
+**`SORT_LOCALE_STRING`** використовується для порівняння елементів як рядків на основі поточної локалі.
 
 **`SORT_NATURAL`** (int)
-**`SORT_NATURAL`** використовується для порівняння елементів як рядків,
-використовуючи природне впорядкування, таке як
-[natsort()](function.natsort.md).
+
+**`SORT_NATURAL`** використовується для порівняння елементів як рядків, використовуючи природне впорядкування, таке як [natsort()](function.natsort.html)
 
 **`SORT_FLAG_CASE`** (int)
-**`SORT_FLAG_CASE`** може бути об'єднана (побітове АБО) з
-**`SORT_STRING`** або **`SORT_NATURAL`** для реєстронезалежної
-сортування рядків.
+
+**`SORT_FLAG_CASE`** може бути об'єднана (побітове АБО) з **`SORT_STRING`** або **`SORT_NATURAL`** для реєстронезалежного сортування рядків.
 
 Опції фільтрації:
 
 **`ARRAY_FILTER_USE_KEY`** (int)
-**`ARRAY_FILTER_USE_KEY`** використовується в
-[array_filter()](function.array-filter.md) для передачі кожного ключа
-як першого аргументу в задану функцію.
+
+**`ARRAY_FILTER_USE_KEY`** використовується у [array\_filter()](function.array-filter.html) передачі кожного ключа як першого аргументу в задану функцію.
 
 **`ARRAY_FILTER_USE_BOTH`** (int)
-**`ARRAY_FILTER_USE_BOTH`** використовується в
-[array_filter()](function.array-filter.md) для передачі та значення та
-ключа у задану функцію.
 
-
+**`ARRAY_FILTER_USE_BOTH`** використовується у [array\_filter()](function.array-filter.html) для передачі та значення та ключа в задану функцію.
 
 **`COUNT_NORMAL`** (int)
 

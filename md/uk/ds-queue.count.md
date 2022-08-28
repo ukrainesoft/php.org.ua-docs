@@ -1,14 +1,20 @@
-- [« Ds\Queue::copy](ds-queue.copy.md)
-- [Ds\Queue::isEmpty »](ds-queue.isempty.md)
+Повертає кількість елементів черги
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Повертає кількість елементів черги
+-   [« Ds\\Queue::copy](ds-queue.copy.html)
+    
+-   [Ds\\Queue::isEmpty »](ds-queue.isempty.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь](class.ds-queue.html)
+    
+-   Повертає кількість елементів черги
+    
 
-# Ds\Queue::count
+# ДсQueue::count
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Queue::count — Повертає кількість елементів черги
+ДсQueue::count — Повертає кількість елементів черги
 
-Дивіться [Countable::count()](countable.count.md)
+Дивіться [Countable::count()](countable.count.html)

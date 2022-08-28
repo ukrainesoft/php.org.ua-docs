@@ -1,35 +1,40 @@
-- [«SolrQuery::setFacetLimit](solrquery.setfacetlimit.md)
-- [SolrQuery::setFacetMinCount »](solrquery.setfacetmincount.md)
+Задає тип алгоритму, який слід використовувати під час фасетування поля
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Задає тип алгоритму, який слід використовувати під час фасетування
-поля
+-   [« SolrQuery::setFacetLimit](solrquery.setfacetlimit.html)
+    
+-   [SolrQuery::setFacetMinCount »](solrquery.setfacetmincount.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Задає тип алгоритму, який слід використовувати під час фасетування поля
+    
 
 # SolrQuery::setFacetMethod
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setFacetMethod — Задає тип алгоритму, який слідує
-використовувати при фасетуванні поля
+SolrQuery::setFacetMethod — Задає тип алгоритму, який слід використовувати під час фасетування поля
 
 ### Опис
 
-public **SolrQuery::setFacetMethod**(string `$method`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setFacetMethod(string $method, string $field_override = ?): SolrQuery
+```
 
-Задає тип алгоритму, який слід використовувати під час фасетування
-поля. Метод припускає перевизначення необов'язкового поля.
+Задає тип алгоритму, який слід використовувати під час фасетування поля. Метод припускає перевизначення необов'язкового поля.
 
 ### Список параметрів
 
 `method`
+
 Використовуваний метод.
 
 `field_override`
-Назва поля.
+
+Ім'я поля.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

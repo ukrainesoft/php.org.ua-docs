@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](ibase.setup.md)
-- [Встановлення »](ibase.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](ibase.setup.md)
-- Вимоги
+-   [« Установка и настройка](ibase.setup.html)
+    
+-   [Установка »](ibase.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](ibase.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

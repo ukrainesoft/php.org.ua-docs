@@ -1,31 +1,30 @@
-- [« COMPersistHelper](class.compersisthelper.md)
-- [COMPersistHelper::GetCurFileName »](compersisthelper.getcurfilename.md)
+Конструктор класу COMPersistHelper
 
-- [PHP Manual](index.md)
-- [COMPersistHelper](class.compersisthelper.md)
-- Конструктор класу COMPersistHelper
+-   [« COMPersistHelper](class.compersisthelper.html)
+    
+-   [COMPersistHelper::GetCurFileName »](compersisthelper.getcurfilename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [COMPersistHelper](class.compersisthelper.html)
+    
+-   Конструктор класу COMPersistHelper
+    
 
-# COMPersistHelper::\_\_construct
+# COMPersistHelper::construct
 
 (PHP 5, PHP 7, PHP 8)
 
-COMPersistHelper::\_\_construct — Конструктор класу COMPersistHelper
+COMPersistHelper::construct — Конструктор класу COMPersistHelper
 
 ### Опис
 
-public
-**COMPersistHelper::\_\_construct**(?[variant](class.variant.md)
-`$variant` = **`null`**)
+public **COMPersistHelper::construct**[variant](class.variant.html) `$variant` **`null`**
 
-Створює об'єкт класу COMPersistHelper, зазвичай пов'язаний з `variant`.
+Створює об'єкт класу COMPersistHelper, зазвичай пов'язаний з `variant`
 
 ### Список параметрів
 
 `variant`
-Об'єкт COM, який реалізує інтерфейс **IDispatch**. Для успішного виклику
-методів [COMPersistHelper](class.compersisthelper.md), об'єкт повинен
-реалізовувати інтерфейси **IPersistFile**, **IPersistStream** та/або
-**IPersistStreamInit**. Передача **`null`** як `variant`
-виправдана тільки в тому випадку, якщо об'єкт буде завантажений з потоку
-допомогою
-[COMPersistHelper::LoadFromStream()](compersisthelper.loadfromstream.md).
+
+Об'єкт COM, що реалізує інтерфейс **IDispatch**. Для успішного виклику методів [COMPersistHelper](class.compersisthelper.html), об'єкт повинен реалізовувати інтерфейси **IPersistFile** **IPersistStream** та/або **IPersistStreamInit**. Передача **`null`** в якості `variant` виправдана лише в тому випадку, якщо об'єкт буде завантажений із потоку за допомогою [COMPersistHelper::LoadFromStream()](compersisthelper.loadfromstream.html)

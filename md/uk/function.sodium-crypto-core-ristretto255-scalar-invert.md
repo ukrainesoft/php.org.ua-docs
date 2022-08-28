@@ -1,31 +1,38 @@
-- [« sodium_crypto_core_ristretto255_scalar_complement](function.sodium-crypto-core-ristretto255-scalar-complement.md)
-- [sodium_crypto_core_ristretto255_scalar_mul »](function.sodium-crypto-core-ristretto255-scalar-mul.md)
+Інвертує скалярне значення
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- інвертує скалярне значення
+-   [« sodium\_crypto\_core\_ristretto255\_scalar\_complement](function.sodium-crypto-core-ristretto255-scalar-complement.html)
+    
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_mul »](function.sodium-crypto-core-ristretto255-scalar-mul.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Інвертує скалярне значення
+    
 
-# sodium_crypto_core_ristretto255_scalar_invert
+# sodiumcryptocoreristretto255scalarinvert
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-sodium_crypto_core_ristretto255_scalar_invert — Інвертує скалярне
-значення
+sodiumcryptocoreristretto255scalarinvert — Інвертує скалярне значення
 
 ### Опис
 
-**sodium_crypto_core_ristretto255_scalar_invert**(string `$s`): string
+```methodsynopsis
+sodium_crypto_core_ristretto255_scalar_invert(string $s): string
+```
 
-Інвертує скалярне значення. Доступно з libsodium 1.0.18.
+Інвертує скалярне значення. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `s`
+
 Скалярне значення.
 
 ### Значення, що повертаються
@@ -34,16 +41,26 @@ sodium_crypto_core_ristretto255_scalar_invert — Інвертує скаляр�
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**sodium_crypto_core_ristretto255_scalar_invert()****
+**Приклад #1 Приклад використання **sodiumcryptocoreristretto255scalarinvert()****
 
-`<?php$foo = sodium_crypto_core_ristretto255_scalar_random();$inverted =
+```php
+<?php
+
+$foo = sodium_crypto_core_ristretto255_scalar_random();
+
+$inverted = sodium_crypto_core_ristretto255_scalar_invert($foo);
+$reInverted = sodium_crypto_core_ristretto255_scalar_invert($inverted);
+
+var_dump(hash_equals($foo, $reInverted));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
 ### Дивіться також
 
-- [sodium_crypto_core_ristretto255_scalar_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) -
-Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ

@@ -1,15 +1,19 @@
-- [«Зумовлені константи](csprng.constants.md)
-- [random_bytes »](function.random-bytes.md)
+Функції CSPRNG
 
-- [PHP Manual](index.md)
-- [CSPRNG](book.csprng.md)
-- Функції CSPRNG
+-   [« Предопределённые константы](csprng.constants.html)
+    
+-   [random\_bytes »](function.random-bytes.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CSPRNG](book.csprng.html)
+    
+-   Функції CSPRNG
+    
 
 # Функції CSPRNG
 
 ## Зміст
 
-- [random_bytes](function.random-bytes.md) - Генерує
-криптографічно безпечні псевдовипадкові байти
-- [random_int](function.random-int.md) - Генерує криптографічно
-безпечні псевдовипадкові цілі числа
+-   [random\_bytes](function.random-bytes.html) — Генерує криптографічно безпечні псевдовипадкові байти
+-   [random\_int](function.random-int.html) — Генерує криптографічно безпечні псевдовипадкові цілі числа

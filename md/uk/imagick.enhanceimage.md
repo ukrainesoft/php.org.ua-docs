@@ -1,9 +1,15 @@
-- [« Imagick::encipherImage](imagick.encipherimage.md)
-- [Imagick::equalizeImage »](imagick.equalizeimage.md)
+Покращує якість шумного зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Покращує якість шумного зображення
+-   [« Imagick::encipherImage](imagick.encipherimage.html)
+    
+-   [Imagick::equalizeImage »](imagick.equalizeimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Покращує якість шумного зображення
+    
 
 # Imagick::enhanceImage
 
@@ -13,10 +19,11 @@ Imagick::enhanceImage — Покращує якість шумного зобр�
 
 ### Опис
 
-public **Imagick::enhanceImage**(): bool
+```methodsynopsis
+public Imagick::enhanceImage(): bool
+```
 
-Застосовує цифровий фільтр, який покращує якість зображення з
-шумом.
+Застосовує цифровий фільтр, що покращує якість зображення з шумом.
 
 ### Список параметрів
 
@@ -24,7 +31,7 @@ public **Imagick::enhanceImage**(): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -34,4 +41,14 @@ public **Imagick::enhanceImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::enhanceImage()****
 
-`<?phpfunction enhanceImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->enhanceImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function enhanceImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->enhanceImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

@@ -1,10 +1,16 @@
-- [« Установка](simplexml.installation.md)
-- [Типи ресурсів»](simplexml.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](simplexml.setup.md)
-- Налаштування під час виконання
+-   [« Установка](simplexml.installation.html)
+    
+-   [Типы ресурсов »](simplexml.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](simplexml.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Даний модуль не визначає жодних директив конфігурації в `php.ini`.
+Цей модуль не визначає жодних директив конфігурації в php.ini.

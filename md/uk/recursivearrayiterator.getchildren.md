@@ -1,23 +1,27 @@
-- [«RecursiveArrayIterator](class.recursivearrayiterator.md)
-- [RecursiveArrayIterator::hasChildren »](recursivearrayiterator.haschildren.md)
+Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
 
-- [PHP Manual](index.md)
-- [RecursiveArrayIterator](class.recursivearrayiterator.md)
-- Повертає ітератор до поточного елемента, якщо цей елемент
-є масивом (array) чи об'єктом (object)
+-   [« RecursiveArrayIterator](class.recursivearrayiterator.html)
+    
+-   [RecursiveArrayIterator::hasChildren »](recursivearrayiterator.haschildren.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveArrayIterator](class.recursivearrayiterator.html)
+    
+-   Повертає ітератор для поточного елемента, якщо елемент є масивом (array) або об'єктом (object)
+    
 
 # RecursiveArrayIterator::getChildren
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-RecursiveArrayIterator::getChildren — Повертає ітератор для поточного
-елемента, якщо цей елемент є масивом (array) чи об'єктом
-(object)
+RecursiveArrayIterator::getChildren - Повертає ітератор для поточного елемента, якщо цей елемент є масивом (array) або об'єктом (object)
 
 ### Опис
 
-public **RecursiveArrayIterator::getChildren**():
-?[RecursiveArrayIterator](class.recursivearrayiterator.md)
+```methodsynopsis
+public RecursiveArrayIterator::getChildren(): ?RecursiveArrayIterator
+```
 
 Повертає ітератор до поточного елемента.
 
@@ -27,33 +31,47 @@ public **RecursiveArrayIterator::getChildren**():
 
 ### Значення, що повертаються
 
-Ітератор для поточного елемента, якщо цей елемент є масивом
-(array) чи об'єктом (object); Повертає **`null`** у разі
-виникнення помилки.
+Ітератор для поточного елемента, якщо елемент є масивом (array) чи об'єктом (object); Повертає **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Метод викидає виняток
-[InvalidArgumentException](class.invalidargumentexception.md), якщо
-поточний елемент не містить масивів (array) чи об'єктів (object).
+Метод викидає виняток [InvalidArgumentException](class.invalidargumentexception.html)якщо поточний елемент не містить масивів (array) або об'єктів (object).
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**RecursiveArrayIterator::getChildren()****
+**Приклад #1 Приклад використання **RecursiveArrayIterator::getChildren()****
 
-` <?php$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));$ iterator = new RecursiveArrayIterator($fruits);while ($iterator->valid()) {    if ($iterator->hasChildren()) {        // выводим информацию о всех дочерних элементах        foreach ($iterator->getChildren() as $ key => $value) {            echo$key. ' : ' . $value . "
-;;        }    }}else {        echo "Дочірніх елементів не виявлено.
-";    }    $iterator->next();}?> `
+```php
+<?php
+$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));
+
+$iterator = new RecursiveArrayIterator($fruits);
+
+while ($iterator->valid()) {
+
+    if ($iterator->hasChildren()) {
+        // выводим информацию о всех дочерних элементах
+        foreach ($iterator->getChildren() as $key => $value) {
+            echo $key . ' : ' . $value . "\n";
+        }
+    } else {
+        echo "Дочерних элементов не обнаружено.\n";
+    }
+
+    $iterator->next();
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Дочірніх елементів не виявлено.
-Дочірніх елементів не виявлено.
-a: apple
-p: pear
+```
+Дочерних элементов не обнаружено.
+Дочерних элементов не обнаружено.
+a : apple
+p : pear
+```
 
 ### Дивіться також
 
-- [RecursiveArrayIterator::hasChildren()](recursivearrayiterator.haschildren.md) -
-Визначає, чи є поточний елемент масивом чи об'єктом
+-   [RecursiveArrayIterator::hasChildren()](recursivearrayiterator.haschildren.html) - Визначає, чи є поточний елемент масивом чи об'єктом

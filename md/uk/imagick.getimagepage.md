@@ -1,9 +1,15 @@
-- [« Imagick::getImageOrientation](imagick.getimageorientation.md)
-- [Imagick::getImagePixelColor »](imagick.getimagepixelcolor.md)
+Повертає геометрію сторінки
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає геометрію сторінки
+-   [« Imagick::getImageOrientation](imagick.getimageorientation.html)
+    
+-   [Imagick::getImagePixelColor »](imagick.getimagepixelcolor.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає геометрію сторінки
+    
 
 # Imagick::getImagePage
 
@@ -13,10 +19,11 @@ Imagick::getImagePage — Повертає геометрію сторінки
 
 ### Опис
 
-public **Imagick::getImagePage**(): array
+```methodsynopsis
+public Imagick::getImagePage(): array
+```
 
-Повертає геометрію сторінки, пов'язану із зображенням, у масиві
-ключами "width", "height", "x" та "y".
+Повертає геометрію сторінки, пов'язану із зображенням, у масиві з ключами "width", "height", "x" та "y".
 
 ### Список параметрів
 
@@ -24,8 +31,7 @@ public **Imagick::getImagePage**(): array
 
 ### Значення, що повертаються
 
-Повертає геометрію сторінки, пов'язану із зображенням, у масиві
-ключами "width", "height", "x" та "y".
+Повертає геометрію сторінки, пов'язану із зображенням, у масиві з ключами "width", "height", "x" та "y".
 
 ### Помилки
 

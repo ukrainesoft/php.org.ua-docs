@@ -1,35 +1,39 @@
-- [« Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.md)
-- [Imagick::getImageChannelRange »](imagick.getimagechannelrange.md)
+Повертає середнє та стандартне відхилення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає середнє та стандартне відхилення
+-   [« Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.html)
+    
+-   [Imagick::getImageChannelRange »](imagick.getimagechannelrange.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає середнє та стандартне відхилення
+    
 
 # Imagick::getImageChannelMean
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageChannelMean — Повертає середнє та стандартне
-відхилення
+Imagick::getImageChannelMean — Повертає середнє та стандартне відхилення
 
 ### Опис
 
-public **Imagick::getImageChannelMean**(int `$channel`): array
+```methodsynopsis
+public Imagick::getImageChannelMean(int $channel): array
+```
 
-Повертає середнє та стандартне відхилення одного або кількох
-каналів зображення.
+Повертає середнє та стандартне відхилення одного або кількох каналів зображення.
 
 ### Список параметрів
 
 `channel`
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму
-каналу. Для застосування більш ніж одного каналу об'єднайте константи
-типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку
-[констант CHANNEL](imagick.constants.md#imagick.constants.channel).
+
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-Повертає масив з елементами "mean" і "standardDeviation".
+Повертає масив із елементами `"mean"` і `"standardDeviation"`
 
 ### Помилки
 

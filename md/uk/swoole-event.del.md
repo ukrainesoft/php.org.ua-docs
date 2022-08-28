@@ -1,19 +1,27 @@
-- [« Swoole\Event::defer](swoole-event.defer.md)
-- [Swoole\Event::exit »](swoole-event.exit.md)
+Видаляє всі callback-функції події сокету
 
-- [PHP Manual](index.md)
-- [Swoole\Event](class.swoole-event.md)
-- Видаляє всі callback-функції події сокету
+-   [« Swoole\\Event::defer](swoole-event.defer.html)
+    
+-   [Swoole\\Event::exit »](swoole-event.exit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Event](class.swoole-event.html)
+    
+-   Видаляє всі callback-функції події сокету
+    
 
-# Swoole\Event::del
+# SwooleEvent::del
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Event::del — Видаляє всі callback-функції події сокету
+SwooleEvent::del — Видаляє всі callback-функції події сокету
 
 ### Опис
 
-public static **Swoole\Event::del**(string `$fd`): bool
+```methodsynopsis
+public static Swoole\Event::del(string $fd): bool
+```
 
 ### Список параметрів
 

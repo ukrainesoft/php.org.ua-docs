@@ -1,10 +1,16 @@
-- [« Налаштування під час виконання](scoutapm.configuration.md)
-- [Функції Scoutapm »](ref.scoutapm.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [ScoutAPM](book.scoutapm.md)
-- Обумовлені константи
+-   [« Настройка во время выполнения](scoutapm.configuration.html)
+    
+-   [Функции Scoutapm »](ref.scoutapm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ScoutAPM](book.scoutapm.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

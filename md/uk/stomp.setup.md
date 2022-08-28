@@ -1,15 +1,21 @@
-- [«Вступ](intro.stomp.md)
-- [Вимоги »](stomp.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [Stomp](book.stomp.md)
+-   [« Введение](intro.stomp.html)
+    
+-   [Требования »](stomp.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Stomp](book.stomp.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](stomp.requirements.md)
-- [Установка](stomp.installation.md)
-- [Налаштування під час виконання](stomp.configuration.md)
-- [Типи ресурсів](stomp.resources.md)
+-   [Требования](stomp.requirements.html)
+-   [Установка](stomp.installation.html)
+-   [Настройка во время выполнения](stomp.configuration.html)
+-   [Типы ресурсов](stomp.resources.html)

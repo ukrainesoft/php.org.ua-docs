@@ -1,54 +1,85 @@
-- [« IntlCalendar::createInstance](intlcalendar.createinstance.md)
-- [IntlCalendar::fieldDifference »](intlcalendar.fielddifference.md)
+Порівнює час двох об'єктів IntlCalendar щодо рівності
 
-- [PHP Manual](index.md)
-- [IntlCalendar](class.intlcalendar.md)
-- Порівнює час двох об'єктів IntlCalendar щодо рівності
+-   [« IntlCalendar::createInstance](intlcalendar.createinstance.html)
+    
+-   [IntlCalendar::fieldDifference »](intlcalendar.fielddifference.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlCalendar](class.intlcalendar.html)
+    
+-   Порівнює час двох об'єктів IntlCalendar щодо рівності
+    
 
 # IntlCalendar::equals
 
-(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlCalendar::equals — Порівнює час двох об'єктів IntlCalendar на
-предмет рівності
+IntlCalendar::equals — Порівнює час двох об'єктів IntlCalendar щодо рівності
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::equals**([IntlCalendar](class.intlcalendar.md)
-`$other`): bool
+```methodsynopsis
+public IntlCalendar::equals(IntlCalendar $other): bool
+```
 
 Процедурний стиль
 
-**intlcal_equals**([IntlCalendar](class.intlcalendar.md) `$calendar`,
-[IntlCalendar](class.intlcalendar.md) `$other`): bool
+```methodsynopsis
+intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
+```
 
-Повертає true, якщо в обох календарів один і той самий час. Налаштування,
-типи календаря та стани полів не обов'язково повинні збігатися.
+Повертає true, якщо в обох календарів один і той самий час. Налаштування, типи календаря та стани полів не обов'язково повинні збігатися.
 
 ### Список параметрів
 
 `calendar`
-Примірник [IntlCalendar](class.intlcalendar.md).
+
+Екземпляр [IntlCalendar](class.intlcalendar.html)
 
 `other`
-Календар для порівняння з головним об'єктом.
+
+Календар для порівняння з основним об'єктом.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо поточний час цього та переданого у
-[IntlCalendar](class.intlcalendar.md) об'єкта однаковий або
-**`false`** інакше.
+Повертає **`true`**, якщо поточний час цього та переданого в [IntlCalendar](class.intlcalendar.html) об'єкта однакове або **`false`** в іншому випадку.
 
-У разі виникнення помилки також повертається **`false`**. Для
-виявлення умов помилки використовуйте
-[intl_get_error_code()](function.intl-get-error-code.md) або налаштуйте
-викидання
-[виключень](intl.configuration.md#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intl\_get\_error\_code()](function.intl-get-error-code.html) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **IntlCalendar::equals()****
 
-` <?phpini_set('date.timezone', 'UTC');$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');$cal2 = clone $cal1;var_dump($cal1->equals($cal2)) ; //TRUE// Мовний стандарт не включений в порівняння$cal2 = IntlCalendar::createInstance(NULL, 'pt_PT');$cal2->setTime($cal1->getTime());var_dump($cal1->equals( cal2)); //TRUE// І стан встановлених полів також не включено$cal2->clear(IntlCalendar::FIELD_YEAR);var_dump($cal1->isSet(IntlCalendar::FIELD_YEAR) =| ); //FALSEvar_dump($cal1->equals($cal2)); //TRUE// І тип календаря$cal2 = IntlCalendar::createInstance(NULL, 'es_ES@calendar=islamic');$cal2->setTime($cal1->getTime());var_dump($cal1->equals( $ cal2)); //TRUE// Тільки час$cal2 = clone $cal1;$cal2->setTime($cal1->getTime() + 1.);var_dump($cal1->equals($cal2)); // FALSE `
+```php
+<?php
+ini_set('date.timezone', 'UTC');
+
+$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');
+$cal2 = clone $cal1;
+
+var_dump($cal1->equals($cal2)); //TRUE
+
+// Языковой стандарт не включён в сравнение
+$cal2 = IntlCalendar::createInstance(NULL, 'pt_PT');
+$cal2->setTime($cal1->getTime());
+var_dump($cal1->equals($cal2)); //TRUE
+
+// И состояние установленных полей также не включено
+$cal2->clear(IntlCalendar::FIELD_YEAR);
+var_dump($cal1->isSet(IntlCalendar::FIELD_YEAR) ==
+        $cal2->isSet(IntlCalendar::FIELD_YEAR)); //FALSE
+var_dump($cal1->equals($cal2)); //TRUE
+
+// И тип календаря
+$cal2 = IntlCalendar::createInstance(NULL, 'es_ES@calendar=islamic');
+$cal2->setTime($cal1->getTime());
+var_dump($cal1->equals($cal2)); //TRUE
+
+// Только время
+$cal2 = clone $cal1;
+$cal2->setTime($cal1->getTime() + 1.);
+var_dump($cal1->equals($cal2)); //FALSE
+```

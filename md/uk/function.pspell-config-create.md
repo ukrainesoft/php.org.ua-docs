@@ -1,77 +1,71 @@
-- [« pspell_clear_session](function.pspell-clear-session.md)
-- [pspell_config_data_dir »](function.pspell-config-data-dir.md)
+Створює конфігурацію для відкриття словника
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- Створює конфігурацію для відкриття словника
+-   [« pspell\_clear\_session](function.pspell-clear-session.html)
+    
+-   [pspell\_config\_data\_dir »](function.pspell-config-data-dir.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Створює конфігурацію для відкриття словника
+    
 
-#pspell_config_create
+# pspellconfigcreate
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_config_create — Створює конфігурацію, яка використовується для відкриття
-словника
+pspellconfigcreate — Створює конфігурацію, яка використовується для відкриття словника
 
 ### Опис
 
-**pspell_config_create**(
-string `$language`,
-string `$spelling` = "",
-string `$jargon` = "",
-string `$encoding` = ""
-): [PSpell\Config](class.pspell-config.md)
+```methodsynopsis
+pspell_config_create(    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = ""): PSpell\Config
+```
 
 Створює конфігурацію для відкриття словника.
 
-**pspell_config_create()** має синтаксис, дуже схожий на
-синтаксис [pspell_new()](function.pspell-new.md). Фактично,
-використання **pspell_config_create()** відразу після
-[pspell_new_config()](function.pspell-new-config.md) дасть такий
-ж результат. Однак, після створення нової конфігурації також можна
-використовувати функції **pspell_config\_\*()** до виклику
-[pspell_new_config()](function.pspell-new-config.md) для отримання
-переваг від певної додаткової функціональності.
+**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspell\_new()](function.pspell-new.html). Фактично використання **pspellconfigcreate()** відразу після [pspell\_new\_config()](function.pspell-new-config.html) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspell\_new\_config()](function.pspell-new-config.html) для здобуття переваг від деякої додаткової функціональності.
 
-Більш детальну інформацію та приклади можна знайти у посібнику з pspell
-на сайті: [»http://aspell.net/](http://aspell.net/).
+Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
 ### Список параметрів
 
 `language`
-Параметр language - це код мови, що складається з дволітерного
-коду мови за стандартом ISO 639 та необов'язкового дволітерного коду
-країни за стандартом ISO 3166 після тире або підкреслення.
+
+Параметр language - це код мови, який складається з дволітерного коду мови за стандартом ISO 639 та необов'язкового дволітерного коду країни за стандартом ISO 3166 після тире або підкреслення.
 
 `spelling`
-Параметр spelling визначає варіант перевірки орфографії для мов з
-більш ніж одним варіантом правопису, таких як англійська. Відомі
-значення: 'american', 'british', і 'canadian'.
+
+Параметр spelling визначає варіант перевірки орфографії для мов із більш ніж одним варіантом правопису, таких як англійська. Відомі значення: 'american', 'british', і 'canadian'.
 
 `jargon`
-Параметр jargon містить додаткову інформацію для розрізнення двох
-різних списків слів, що мають однакові параметри language та
-spelling.
+
+Параметр jargon містить додаткову інформацію для розрізнення двох різних списків слів, що мають однакові параметри language та spelling.
 
 `encoding`
-Параметр encoding - це кодування, у якому, як очікується, дано слова.
-Допустимі значення: 'utf-8', 'iso8859-\*', 'koi8-r', 'viscii',
-'cp1252', 'machine unsigned 16', 'machine unsigned 32'. Це ще параметр
-не перевірений досить добре, тому будьте обережні при його
-використання.
+
+Параметр encoding - це кодування, у якому, як очікується, дано слова. Допустимі значення: 'utf-8', 'iso8859-', 'koi8-r', 'viscii', 'cp1252', 'machine unsigned 16', 'machine unsigned 32'. Цей параметр ще не перевірено досить добре, тому будьте обережні під час його використання.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PSpell\Config](class.pspell-config.md) у разі
-успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [PSpell\\Config](class.pspell-config.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                           |
-|--------|--------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Повертає екземпляр [PSpell\Config](class.pspell-config.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Повертає екземпляр [PSpell\\Config](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_config_create()****
+**Приклад #1 Приклад використання **pspellconfigcreate()****
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");pspell_config_repl($pspell_config, "/var/dictionaries/custom. = pspell_new_personal($pspell_config, "en");?> `
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+pspell_config_repl($pspell_config, "/var/dictionaries/custom.repl");
+$pspell = pspell_new_personal($pspell_config, "en");
+?>
+```

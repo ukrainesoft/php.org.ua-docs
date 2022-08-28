@@ -1,22 +1,27 @@
-- [« MongoDB\Driver\Monitoring\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)
-- [MongoDB\Driver\Monitoring\TopologyOpeningEvent »](class.mongodb-driver-monitoring-topologyopeningevent.md)
-
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)
-- Повертає ідентифікатор топології
-
-# MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId
-
-(mongodb \>=1.13.0)
-
-MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId -
 Повертає ідентифікатор топології
+
+-   [« MongoDB\\Driver\\Monitoring\\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent »](class.mongodb-driver-monitoring-topologyopeningevent.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.html)
+    
+-   Повертає ідентифікатор топології
+    
+
+# MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId
+
+(mongodb >=1.13.0)
+
+MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId — Повертає ідентифікатор топології
 
 ### Опис
 
-final public
-**MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId**():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
+```methodsynopsis
+final public MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId(): MongoDB\BSON\ObjectId
+```
 
 ### Список параметрів
 
@@ -28,5 +33,4 @@ final public
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

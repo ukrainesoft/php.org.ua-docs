@@ -1,95 +1,86 @@
-- [« Навчальні матеріали](mongodb.tutorial.md)
-- [Моніторинг продуктивності програми (Application Performance)
-Monitoring або APM) »](mongodb.tutorial.apm.md)
+Використання бібліотеки PHP для MongoDB (PHPLIB)
 
-- [PHP Manual](index.md)
-- [Навчальні матеріали](mongodb.tutorial.md)
-- Використання бібліотеки PHP для MongoDB (PHPLIB)
+-   [« Обучающие материалы](mongodb.tutorial.html)
+    
+-   [Мониторинг производительности приложения (Application Performance Monitoring или APM) »](mongodb.tutorial.apm.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Обучающие материалы](mongodb.tutorial.html)
+    
+-   Використання бібліотеки PHP для MongoDB (PHPLIB)
+    
 
 # Використання бібліотеки PHP для MongoDB (PHPLIB)
 
-Після початкового настроювання драйвера, ми продовжимо пояснювати, як
-почати роботу з драйвером MongoDB та відповідною користувальницькою
-бібліотекою для створення нашого першого проекту.
+Після початкового налаштування драйвера, ми продовжимо пояснювати, як почати роботу з драйвером MongoDB і відповідною бібліотекою користувача, для створення нашого першого проекту.
 
 ## Встановлення бібліотеки PHP за допомогою Composer
 
-Останнє, що нам необхідно встановити, перш ніж почати писати
-наша програма - встановити бібліотеку PHP.
+Останнє, що нам необхідно встановити, перш ніж почати писати нашу програму - встановити бібліотеку PHP.
 
-Бібліотеку встановлюватимемо за допомогою пакетного менеджера
-[»Composer](https://getcomposer.org/). Інструкції з встановлення Composer
-шукайте на його веб-сайті.
+Бібліотеку встановлюватимемо за допомогою пакетного менеджера [» Composer](https://getcomposer.org/). Інструкції зі встановлення Composer шукайте на його сайті.
 
 Встановлюємо бібліотеку так:
 
-`` shellcode
 $ composer require mongodb/mongodb
-````
 
 Буде виведено щось на кшталт:
 
-``` textcode
-./composer.json has been created
-Loading composer repositories with package information
-Updating dependencies (including require-dev)
-- Installing mongodb/mongodb (1.0.0)
-Downloading: 100%
+./composer.json has been created Loading composer repositories with package information Updating dependencies (including require-dev)
 
-Writing lock file
-Generating autoload files
-````
+-   Installing mongodb/mongodb (1.0.0) Downloading: 100%
 
-Composer створить кілька файлів: `composer.json`, `composer.lock` та
-директорію `vendor`, що містить саму бібліотеку та інші залежності,
-які будуть потрібні у вашому проекті.
+Writing lock file Generating autoload files
+
+Composer створить кілька файлів: `composer.json` `composer.lock` та директорію `vendor`, що містить саму бібліотеку та інші залежності, які будуть потрібні у вашому проекті.
 
 ## Використання бібліотеки PHP
 
-Крім управління залежностями, Composer також надає
-автопідвантажувач класів для цих залежностей. Переконайтеся, що ви увімкнули
-цей автозавантажувач на початок свого скрипта або код bootstrap() вашого
-програми:
+Крім управління залежностями, Composer також надає автопідвантажувач класів для цих залежностей. Переконайтеся, що ви включили цей автозавантажувач на початок свого скрипта або в код bootstrap() вашої програми:
 
-` <?php// Цей шлях повинен вказувати на автозавантажувач Composerrequire 'vendor/autoload.php'; `
+```php
+<?php
+// Этот путь должен указывать на автозагрузчик Composer
+require 'vendor/autoload.php';
+```
 
-Після цього можна використовувати будь-який функціонал, описаний у
-[» документації з бібліотеці](https://www.mongodb.com/docs/php-library/current/).
+Після цього можна використовувати будь-який функціонал, описаний у [» документации по библиотеке](https://www.mongodb.com/docs/php-library/current/)
 
-Якщо ви раніше використовували старіший драйвер (тобто модуль `mongo`),
-то API бібліотеки має бути вам знайоме. Воно містить клас
-[» Client](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBClient/)
-для з'єднання з MongoDB, клас
-[»Database](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBDatabase/)
-для операцій рівня бази даних (тобто команди, управління колекціями) та
-клас
-[» Collection](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBCollection)
-для операцій рівня колекції (тобто методи
-[»CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete),
-управління індексами). Різні методи Collection були перейменовані
-для більшої зрозумілості та відповідності мовно-незалежної
-[» спеціфікації](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst).
+Якщо ви раніше використовували старіший драйвер (тобто модуль `mongo`), то API бібліотеки має бути вам знайоме. Воно містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBClient/) для з'єднання з MongoDB, клас [» Database](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBDatabase/) для операцій рівня бази даних (тобто команди, управління колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBCollection) для операцій рівня колекції (тобто методи [» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами). Різні методи Collection були перейменовані для більшої зрозумілості та відповідності мовно-незалежній [» спецификации](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst)
 
-Приклад, як вставити документ до колекції *beers* бази даних *demo*:
+Приклад, як вставити документ у колекцію *beers* бази даних *demo*
 
-`<?phprequire 'vendor/autoload.php'; // підключаємо автопідвантажувач класів Composer$client = new MongoDB\Client("mongodb://localhost:27017");$collection = $client->demo->beers;$result = $collection->insertOne'' => 'Hinterland', 'brewery' => 'BrewDog' ] );echo "Ідентифікатор вставленого документу '{$result->getInsertedId()}'";?> `
+```php
+<?php
+require 'vendor/autoload.php'; // подключаем автоподгрузчик классов Composer
 
-Замість ін'єкції згенерованого поля `_id` у вхідний документ (як
-це робилося в старих версіях драйвера), тепер можна це робити з
-за допомогою методу `insertOne` повернутого об'єкта.
+$client = new MongoDB\Client("mongodb://localhost:27017");
+$collection = $client->demo->beers;
 
-Після вставки ви, звичайно ж, можете запросити щойно вставлені
-дані. Для цього використовуйте метод find, який повертає
-курсор, що ітерується:
+$result = $collection->insertOne( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
 
-`<?phprequire 'vendor/autoload.php'; // підключаємо автопідвантажувач класів Composer$client = new MongoDB\Client("mongodb://localhost:27017");$collection = $client->demo->beers;$result = $collection->find(' ' => 'Hinterland', 'brewery' => 'BrewDog' ] );foreach ($result as $entry) {    echo $entry['_id'], ': ', $entry['name'], '
-";}?> `
+echo "Идентификатор вставленного документа '{$result->getInsertedId()}'";
+?>
+```
 
-Хоч із прикладу це і не очевидно, але документи BSON та масиви
-замовчуванням десеріалізовані як типи класів у бібліотеці. Ці класи
-гарантують, що значення збережуть свої типи, коли будуть
-серіалізуватися назад у BSON, що дозволяє уникнути проблеми старих
-драйверів, коли масиви могли перетворитися на документи і навпаки. Крім того, класи успадковують [ArrayObject](class.arrayobject.md) для
-більшої зручності використання. Докладніше про серіалізацію та
-десеріалізації між змінними PHP та BSON можна прочитати в
-специфікації [Постійні дані](mongodb.persistence.md).
+Замість ін'єкції згенерованого поля `_id` у вхідний документ (як це робилося у старих версіях драйвера), тепер можна це робити за допомогою методу `insertOne` повернутий об'єкт.
+
+Після вставки ви, звичайно, можете запросити щойно вставлені дані. Для цього використовуйте метод `find`, який повертає курсор, що ітерується:
+
+```php
+<?php
+require 'vendor/autoload.php'; // подключаем автоподгрузчик классов Composer
+
+$client = new MongoDB\Client("mongodb://localhost:27017");
+$collection = $client->demo->beers;
+
+$result = $collection->find( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
+
+foreach ($result as $entry) {
+    echo $entry['_id'], ': ', $entry['name'], "\n";
+}
+?>
+```
+
+Хоча з прикладу це не очевидно, але документи BSON і масиви за умовчанням десеріалізовані як типи класів у бібліотеці. Ці класи гарантують, що значення збережуть свої типи коли серіалізуватимуться назад у BSON, що дозволяє уникнути проблеми старих драйверів, коли масиви могли перетворитися на документи і навпаки. Крім того, класи успадковують [ArrayObject](class.arrayobject.html) для більшої зручності використання. Більш детально про серіалізацію та десеріалізацію між змінними PHP і BSON можна прочитати у специфікації [Постоянные данные](mongodb.persistence.html)

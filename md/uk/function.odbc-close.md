@@ -1,27 +1,35 @@
-- [«odbc_close_all](function.odbc-close-all.md)
-- [odbc_columnprivileges »](function.odbc-columnprivileges.md)
+Закриває з'єднання ODBC
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Закриває з'єднання ODBC
+-   [« odbc\_close\_all](function.odbc-close-all.html)
+    
+-   [odbc\_columnprivileges »](function.odbc-columnprivileges.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Закриває з'єднання ODBC
+    
 
-#odbc_close
+# odbcclose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_close — Закриває з'єднання ODBC
+odbcclose — Закриває з'єднання ODBC
 
 ### Опис
 
-**odbc_close**(resource `$odbc`): void
+```methodsynopsis
+odbc_close(resource $odbc): void
+```
 
 Закриває з'єднання із сервером бази даних.
 
 ### Список параметрів
 
 `odbc`
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до
-[odbc_connect()](function.odbc-connect.md).
+
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.html)
 
 ### Значення, що повертаються
 
@@ -29,7 +37,6 @@ odbc_close — Закриває з'єднання ODBC
 
 ### Примітки
 
-> **Примітка**:
->
-> Ця функція не спрацює, якщо з'єднання має відкриті транзакції.
-> У цьому випадку з'єднання залишиться відкритим.
+> **Зауваження**
+> 
+> Ця функція не спрацює, якщо з'єднання є відкритими транзакціями. У цьому випадку з'єднання залишиться відкритим.

@@ -1,32 +1,39 @@
-- [«uopz_implement](function.uopz-implement.md)
-- [uopz_redefine »](function.uopz-redefine.md)
+Перевантажити опкод VM
 
-- [PHP Manual](index.md)
-- [Функції Uopz](ref.uopz.md)
-- Перевантажити опкод VM
+-   [« uopz\_implement](function.uopz-implement.html)
+    
+-   [uopz\_redefine »](function.uopz-redefine.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Uopz](ref.uopz.html)
+    
+-   Перевантажити опкод VM
+    
 
-#uopz_overload
+# uopzoverload
 
 (PECL uopz 1, PECL uopz 2)
 
-uopz_overload — Перевантажити опкод VM
+uopzoverload — Перевантажити опкод VM
 
 **Увага**
 
-Ця функція була *Видалена* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
 
 ### Опис
 
-**uopz_overload**(int `$opcode`,
-[Callable](language.types.callable.md) `$callable`): void
+```methodsynopsis
+uopz_overload(int $opcode, Callable $callable): void
+```
 
 Перевантажує певний `opcode` за допомогою функції користувача
 
 ### Список параметрів
 
 `opcode`
-Коректний опкод, дивіться константи для отримання підтримуваних
-опкодів
+
+Коректний опкод, дивіться константи для отримання опкодів, що підтримуються
 
 `callable`
 
@@ -34,10 +41,19 @@ uopz_overload — Перевантажити опкод VM
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopz_overload()****
+**Приклад #1 Приклад використання **uopzoverload()****
 
-` <?phpuopz_overload(ZEND_EXIT, function(){});exit();echo "Привіт, Світ";?> `
+```php
+<?php
+uopz_overload(ZEND_EXIT, function(){});
+
+exit();
+echo "Привет, Мир";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Привіт світ
+```
+Привет, Мир
+```

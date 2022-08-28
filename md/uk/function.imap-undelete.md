@@ -1,51 +1,53 @@
-- [« imap_uid](function.imap-uid.md)
-- [imap_unsubscribe »](function.imap-unsubscribe.md)
+Знімає з повідомлення позначку видалення
 
-- [PHP Manual](index.md)
-- [Функції IMAP](ref.imap.md)
-- Знімає з повідомлення позначку видалення
+-   [« imap\_uid](function.imap-uid.html)
+    
+-   [imap\_unsubscribe »](function.imap-unsubscribe.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции IMAP](ref.imap.html)
+    
+-   Знімає з повідомлення позначку видалення
+    
 
-# imap_undelete
+# imapundelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imap_undelete — Знімає з повідомлення позначку видалення
+imapundelete — Знімає з повідомлення позначку видалення
 
 ### Опис
 
-**imap_undelete**([IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$message_nums`, int `$flags` = 0): bool
+```methodsynopsis
+imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
+```
 
-Видаляє із заданого повідомлення мітку видалення, яка була встановлена з
-за допомогою [imap_delete()](function.imap-delete.md) або
-[imap_mail_move()](function.imap-mail-move.md).
+Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imap\_delete()](function.imap-delete.html) або [imap\_mail\_move()](function.imap-mail-move.html)
 
 ### Список параметрів
 
 `imap`
-Примірник [IMAP\Connection](class.imap-connection.md).
+
+Екземпляр [IMAP\\Connection](class.imap-connection.html)
 
 `message_nums`
-Рядок (string), що складається з одного або кількох повідомлень у форматі
-послідовності в стилі IMAP4 ('n', n:m або їх комбінація,
-розділена комами).
+
+Рядок (string), що складається з одного або декількох повідомлень у форматі послідовності у стилі IMAP4 (`"n"` `"n:m"` або їх комбінація, розділена комами).
 
 `flags`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Дивіться також
 
-- [imap_delete()](function.imap-delete.md) - Позначити повідомлення для
-видалення
-- [imap_mail_move()](function.imap-mail-move.md) - Перемістити
-вказані повідомлення до вказаної поштової скриньки
+-   [imap\_delete()](function.imap-delete.html) - Позначити повідомлення для видалення
+-   [imap\_mail\_move()](function.imap-mail-move.html) - Перемістити вказані повідомлення до вказаної поштової скриньки

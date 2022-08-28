@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](tcpwrap.configuration.md)
-- [Предвизначені константи »](tcpwrap.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](tcpwrap.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](tcpwrap.configuration.html)
+    
+-   [Предопределённые константы »](tcpwrap.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](tcpwrap.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

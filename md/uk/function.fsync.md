@@ -1,46 +1,60 @@
-- [«fstat](function.fstat.md)
-- [ftell »](function.ftell.md)
+Синхронізує зміни у файлі (включаючи метадані)
 
-- [PHP Manual](index.md)
-- [Функції файлової системи](ref.filesystem.md)
-- Синхронізує зміни у файлі (включаючи метадані)
+-   [« fstat](function.fstat.html)
+    
+-   [ftell »](function.ftell.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции файловой системы](ref.filesystem.html)
+    
+-   Синхронізує зміни у файлі (включаючи метадані)
+    
 
-#fsync
+# fsync
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
 fsync — Синхронізує зміни у файлі (включаючи метадані)
 
 ### Опис
 
-**fsync**(resource `$stream`): bool
+```methodsynopsis
+fsync(resource $stream): bool
+```
 
-Функція синхронізує зміни у файлі, включаючи його метадані. Вона
-схожа на [fflush()](function.fflush.md), але також дає
-інструкції операційної системи про запис на накопичувач.
+Функція синхронізує зміни у файлі, включаючи метадані. Вона схожа на [fflush()](function.fflush.html), але також дає інструкції операційній системі про запис на накопичувач.
 
 ### Список параметрів
 
 `stream`
-Вказівник на файл повинен бути коректним і вказувати на файл успішно
-відкритий функціями [fopen()](function.fopen.md) або
-[fsockopen()](function.fsockopen.md) (і все ще не закритий функцією
-[fclose()](function.fclose.md)).
+
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **fsync()****
 
-` <?php$file = 'test.txt';$stream =fopen($file, 'w');fwrite($stream, 'тестові дані');fwrite($stream, "
-");fwrite($stream, 'додаткові дані');fsync($stream);fclose($stream);?> `
+```php
+<?php
+
+$file = 'test.txt';
+
+$stream = fopen($file, 'w');
+fwrite($stream, 'тестовые данные');
+fwrite($stream, "\r\n");
+fwrite($stream, 'дополнительные данные');
+
+fsync($stream);
+fclose($stream);
+?>
+```
 
 ### Дивіться також
 
-- [fdatasync()](function.fdatasync.md) - Синхронізує дані (але
-не метадані) з файлом
-- [fflush()](function.fflush.md) - Скидає буфер виводу у файл
+-   [fdatasync()](function.fdatasync.html) - Синхронізує дані (але не метадані) із файлом
+-   [fflush()](function.fflush.html) - скидає буфер виведення у файл

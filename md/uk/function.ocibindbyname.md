@@ -1,22 +1,26 @@
-- [« oci_internal_debug](function.oci-internal-debug.md)
-- [ocicancel »](function.ocicancel.md)
+Псевдонім ocibindбname
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_bind_by_name
+-   [« oci\_internal\_debug](function.oci-internal-debug.html)
+    
+-   [ocicancel »](function.ocicancel.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ocibindбname
+    
 
 # ocibindbyname
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocibindbyname - Псевдонім
-[oci_bind_by_name()](function.oci-bind-by-name.md)
+ocibindbyname - Псевдонім [oci\_bind\_by\_name()](function.oci-bind-by-name.html)
 
 ### Опис
 
-Псевдонім [oci_bind_by_name()](function.oci-bind-by-name.md)
+Псевдонім [oci\_bind\_by\_name()](function.oci-bind-by-name.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

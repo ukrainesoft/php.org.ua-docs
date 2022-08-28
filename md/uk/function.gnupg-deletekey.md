@@ -1,46 +1,62 @@
-- [«gnupg_decryptverify](function.gnupg-decryptverify.md)
-- [gnupg_encrypt »](function.gnupg-encrypt.md)
+Видаляє ключ зі зв'язування ключів
 
-- [PHP Manual](index.md)
-- [GnuPG Функції](ref.gnupg.md)
-- Видаляє ключ із зв'язування ключів
+-   [« gnupg\_decryptverify](function.gnupg-decryptverify.html)
+    
+-   [gnupg\_encrypt »](function.gnupg-encrypt.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GnuPG Функции](ref.gnupg.html)
+    
+-   Видаляє ключ зі зв'язування ключів
+    
 
-#gnupg_deletekey
+# gnupgdeletekey
 
-(PECL gnupg \>= 0.5)
+(PECL gnupg >= 0.5)
 
-gnupg_deletekey — Видаляє ключ із зв'язування ключів
+gnupgdeletekey — Видаляє ключ зі зв'язування ключів
 
 ### Опис
 
-**gnupg_deletekey**(resource `$identifier`, string `$key`, bool
-`$allow_secret`): bool
+```methodsynopsis
+gnupg_deletekey(resource $identifier, string $key, bool $allow_secret): bool
+```
 
 ### Список параметрів
 
 `identifier`
-Ідентифікатор gnupg, отриманий з
-[gnupg_init()](function.gnupg-init.md) або **gnupg**.
+
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.html) або **gnupg**
 
 `key`
+
 Ключ для видалення.
 
 `allow_secret`
+
 Вказує, чи слід видаляти секретні ключі.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupg_deletekey()** у процедурному
-стилі**
+**Приклад #1 Приклад використання **gnupgdeletekey()** у процедурному стилі**
 
-` <?php$res = gnupg_init();gnupg_deletekey($res, "8660281B6051D071D94B5B230549F9DC851566DC");?> `
+```php
+<?php
+$res = gnupg_init();
+gnupg_deletekey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+?>
+```
 
-**Приклад #2 Приклад використання **gnupg_deletekey()** в
-об'єктно-орієнтованому стилі**
+**Приклад #2 Приклад використання **gnupgdeletekey()** в об'єктно-орієнтованому стилі**
 
-` <?php$gpg = new gnupg();$gpg->deletekey("8660281B6051D071D94B5B230549F9DC851566DC");?> `
+```php
+<?php
+$gpg = new gnupg();
+$gpg->deletekey("8660281B6051D071D94B5B230549F9DC851566DC");
+?>
+```

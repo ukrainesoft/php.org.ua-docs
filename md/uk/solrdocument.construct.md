@@ -1,19 +1,25 @@
-- [«SolrDocument::\_\_clone](solrdocument.clone.md)
-- [SolrDocument::current »](solrdocument.current.md)
+Конструктор
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Конструктор
+-   [« SolrDocument::\_\_clone](solrdocument.clone.html)
+    
+-   [SolrDocument::current »](solrdocument.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Конструктор
+    
 
-# SolrDocument::\_\_construct
+# SolrDocument::construct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::\_\_construct — Конструктор
+SolrDocument::construct — Конструктор
 
 ### Опис
 
-public **SolrDocument::\_\_construct**()
+public **SolrDocument::construct**
 
 Конструктор класу SolrDocument
 

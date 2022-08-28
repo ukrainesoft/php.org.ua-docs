@@ -1,9 +1,15 @@
-- [« DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md)
-- [DOMDocument::xinclude »](domdocument.xinclude.md)
+Перевіряє документ на відповідність його DTD
 
-- [PHP Manual](index.md)
-- [DOMDocument](class.domdocument.md)
-- Перевіряє документ на відповідність його DTD
+-   [« DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.html)
+    
+-   [DOMDocument::xinclude »](domdocument.xinclude.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOMDocument](class.domdocument.html)
+    
+-   Перевіряє документ на відповідність його DTD
+    
 
 # DOMDocument::validate
 
@@ -13,12 +19,13 @@ DOMDocument::validate — Перевіряє документ на відпов�
 
 ### Опис
 
-public **DOMDocument::validate**(): bool
+```methodsynopsis
+public DOMDocument::validate(): bool
+```
 
 Перевіряє документ на дійсність, виходячи з його DTD.
 
-Також можна використовувати властивість `validateOnParse` класу
-[DOMDocument](class.domdocument.md) для перевірки DTD.
+Також можна використовувати властивість `validateOnParse` класу [DOMDocument](class.domdocument.html) для перевірки DTD.
 
 ### Список параметрів
 
@@ -26,30 +33,35 @@ public **DOMDocument::validate**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки. Якщо немає DTD, приєднаних до документа,
-цей метод поверне **`false`**.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо немає DTD, приєднаних до документа, цей метод поверне **`false`**
 
 ### Приклади
 
 **Приклад #1 Приклад перевірки DTD**
 
-` <?php$dom = new DOMDocument;$dom->load('book.xml');if ($dom->validate()) {    echo "Документ є дійсним!
-";}?> `
+```php
+<?php
+$dom = new DOMDocument;
+$dom->load('book.xml');
+if ($dom->validate()) {
+    echo "Документ является действительным!\n";
+}
+?>
+```
 
 Також можна перевіряти XML-файл під час його завантаження:
 
-` <?php$dom = new DOMDocument;$dom->validateOnParse = true;$dom->load('book.xml');?> `
+```php
+<?php
+$dom = new DOMDocument;
+$dom->validateOnParse = true;
+$dom->load('book.xml');
+?>
+```
 
 ### Дивіться також
 
-- [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) -
-Перевіряє дійсність документа, ґрунтуючись на заданій схемі.
-Підтримується лише XML-схема 1.0.
-- [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) -
-Перевіряє дійсність документа, ґрунтуючись на схемі
-- [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) -
-Здійснює перевірку документа на правильність побудови за допомогою
-relaxNG
-- [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.md) -
-Перевіряє документ за допомогою relaxNG
+-   [DOMDocument::schemaValidate()](domdocument.schemavalidate.html) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+-   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.html) - Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.html) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
+-   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.html) - Перевіряє документ за допомогою relaxNG

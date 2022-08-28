@@ -1,16 +1,22 @@
-- [« SplTempFileObject::\_\_construct](spltempfileobject.construct.md)
-- [ArrayObject »](class.arrayobject.md)
+Різні класи та інтерфейси
 
-- [PHP Manual](index.md)
-- [SPL](book.spl.md)
-- Різні класи та інтерфейси
+-   [« SplTempFileObject::\_\_construct](spltempfileobject.construct.html)
+    
+-   [ArrayObject »](class.arrayobject.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SPL](book.spl.html)
+    
+-   Різні класи та інтерфейси
+    
 
 # Різні класи та інтерфейси
 
 ## Зміст
 
-- [ArrayObject](class.arrayobject.md)
-- [SplObserver](class.splobserver.md)
-- [SplSubject](class.splsubject.md)
+-   [ArrayObject](class.arrayobject.html)
+-   [SplObserver](class.splobserver.html)
+-   [SplSubject](class.splsubject.html)
 
 Класи та інтерфейси, що не входять до інших категорій SPL.

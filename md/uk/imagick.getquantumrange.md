@@ -1,9 +1,15 @@
-- [« Imagick::getQuantumDepth](imagick.getquantumdepth.md)
-- [Imagick::getRegistry »](imagick.getregistry.md)
+Повертає величину розміру спектру Imagick
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає величину розміру спектру Imagick
+-   [« Imagick::getQuantumDepth](imagick.getquantumdepth.html)
+    
+-   [Imagick::getRegistry »](imagick.getregistry.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає величину розміру спектру Imagick
+    
 
 # Imagick::getQuantumRange
 
@@ -13,7 +19,9 @@ Imagick::getQuantumRange — Повертає розмір спектру Imagic
 
 ### Опис
 
-public static **Imagick::getQuantumRange**(): array
+```methodsynopsis
+public static Imagick::getQuantumRange(): array
+```
 
 Повертає розмір розміру для об'єкта Imagick.
 
@@ -23,9 +31,7 @@ public static **Imagick::getQuantumRange**(): array
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, що містить розмір спектру як ціле
-число int (``quantumRangeLong'`) і як рядок string
-(``quantumRangeString'`).
+Повертає асоціативний масив, що містить розмір спектру як ціле число int (`"quantumRangeLong"`) і як рядок string (`"quantumRangeString"`
 
 ### Помилки
 

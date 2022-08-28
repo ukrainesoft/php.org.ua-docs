@@ -1,11 +1,16 @@
-- [« Вимоги](filter.requirements.md)
-- [Налаштування під час виконання »](filter.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](filter.setup.md)
-- Установка
+-   [« Требования](filter.requirements.html)
+    
+-   [Настройка во время выполнения »](filter.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](filter.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Модуль filter увімкнено за замовчуванням. Для вимкнення модуля filter
-використовуйте **-disable-filter**.
+Модуль filter увімкнено за замовчуванням. Для вимкнення модуля filter використовуйте **\-disable-filter**

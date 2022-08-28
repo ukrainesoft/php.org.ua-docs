@@ -1,45 +1,48 @@
-- [« fann_get_cascade_min_cand_epochs](function.fann-get-cascade-min-cand-epochs.md)
-- [fann_get_cascade_num_candidate_groups »](function.fann-get-cascade-num-candidate-groups.md)
+Повертає мінімальну кількість періодів
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Повертає мінімальну кількість періодів
+-   [« fann\_get\_cascade\_min\_cand\_epochs](function.fann-get-cascade-min-cand-epochs.html)
+    
+-   [fann\_get\_cascade\_num\_candidate\_groups »](function.fann-get-cascade-num-candidate-groups.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Повертає мінімальну кількість періодів
+    
 
-# fann_get_cascade_min_out_epochs
+# fanngetcascademinoutepochs
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_cascade_min_out_epochs — Повертає мінімальну кількість
-періодів
+fanngetcascademinoutepochs — Повертає мінімальну кількість періодів
 
 ### Опис
 
-**fann_get_cascade_min_out_epochs**(resource `$ann`): int
+```methodsynopsis
+fann_get_cascade_min_out_epochs(resource $ann): int
+```
 
-Мінімальна кількість періодів визначає кількість періодів,
-яких вихідні з'єднання повинні бути навчені після додавання нового
-нейрона-кандидата.
+Мінімальна кількість періодів визначає кількість періодів, у яких вихідні з'єднання мають бути навчені після додавання нового нейрона-кандидата.
 
 Мінімальна кількість періодів за замовчуванням – 50.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються
 
-Мінімальна кількість періодів або **`false`** у разі виникнення
-помилки.
+Мінімальна кількість періодів або **`false`** у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann = 2.2.
+> **Зауваження**
+> 
+> Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
-- [fann_set_cascade_min_out_epochs()](function.fann-set-cascade-min-out-epochs.md) -
-Встановлює мінімальні епохи вихідних даних
+-   [fann\_set\_cascade\_min\_out\_epochs()](function.fann-set-cascade-min-out-epochs.html) - Встановлює мінімальні епохи вихідних даних

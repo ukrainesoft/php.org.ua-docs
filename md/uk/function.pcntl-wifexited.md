@@ -1,40 +1,41 @@
-- [« pcntl_wexitstatus](function.pcntl-wexitstatus.md)
-- [pcntl_wifsignaled »](function.pcntl-wifsignaled.md)
+Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
 
-- [PHP Manual](index.md)
-- [Функції PCNTL](ref.pcntl.md)
-- Перевіряє, чи код завершення процесу відповідає нормальному
-завершенню
+-   [« pcntl\_wexitstatus](function.pcntl-wexitstatus.html)
+    
+-   [pcntl\_wifsignaled »](function.pcntl-wifsignaled.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PCNTL](ref.pcntl.html)
+    
+-   Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
+    
 
-#pcntl_wifexited
+# pcntlwifexited
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-pcntl_wifexited — Перевіряє, чи код завершення процесу відповідає
-нормальному завершенню
+pcntlwifexited — Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
 
 ### Опис
 
-**pcntl_wifexited**(int `$status`): bool
+```methodsynopsis
+pcntl_wifexited(int $status): bool
+```
 
-Перевіряє, чи відповідає код завершення процесу нормальному
-завершення.
+Перевіряє, чи код завершення процесу відповідає нормальному завершенню.
 
 ### Список параметрів
 
 `status`
-Параметр `status` - це параметр статусу, який передається для успішного
-виклик функції [pcntl_waitpid()](function.pcntl-waitpid.md).
+
+Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо код завершення дочірнього процесу
-відповідає нормальному завершенню. Якщо ні, то повертає
-**`false`**.
+Повертає **`true`**якщо код завершення дочірнього процесу відповідає нормальному завершенню. Якщо ні, то повертає **`false`**
 
 ### Дивіться також
 
-- [pcntl_waitpid()](function.pcntl-waitpid.md) - Очікує або
-повертає статус породженого дочірнього процесу
-- [pcntl_wexitstatus()](function.pcntl-wexitstatus.md) - Отримати
-код повернення завершеного дочірнього процесу
+-   [pcntl\_waitpid()](function.pcntl-waitpid.html) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntl\_wexitstatus()](function.pcntl-wexitstatus.html) - Отримати код повернення завершеного дочірнього процесу

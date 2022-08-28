@@ -1,15 +1,21 @@
-- [«Вступ](intro.pgsql.md)
-- [Вимоги »](pgsql.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [PostgreSQL](book.pgsql.md)
+-   [« Введение](intro.pgsql.html)
+    
+-   [Требования »](pgsql.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PostgreSQL](book.pgsql.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](pgsql.requirements.md)
-- [Установка](pgsql.installation.md)
-- [Налаштування під час виконання](pgsql.configuration.md)
-- [Типи ресурсів](pgsql.resources.md)
+-   [Требования](pgsql.requirements.html)
+-   [Установка](pgsql.installation.html)
+-   [Настройка во время выполнения](pgsql.configuration.html)
+-   [Типы ресурсов](pgsql.resources.html)

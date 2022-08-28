@@ -1,30 +1,35 @@
-- [« Imagick::setImageGamma](imagick.setimagegamma.md)
-- [Imagick::setImageGreenPrimary »](imagick.setimagegreenprimary.md)
+Встановлює гравітацію зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює гравітацію зображення
+-   [« Imagick::setImageGamma](imagick.setimagegamma.html)
+    
+-   [Imagick::setImageGreenPrimary »](imagick.setimagegreenprimary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює гравітацію зображення
+    
 
 # Imagick::setImageGravity
 
-(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
+(PECL imagick 2> = 2.3.0, PECL imagick 3)
 
 Imagick::setImageGravity — Встановлює гравітацію зображення
 
 ### Опис
 
-public **Imagick::setImageGravity**(int `$gravity`): bool
+```methodsynopsis
+public Imagick::setImageGravity(int $gravity): bool
+```
 
-Встановлює якість гравітації для поточного зображення. Метод можна
-використовувати для встановлення властивості гравітації для однієї
-послідовність зображень. Цей метод доступний, якщо Imagick був
-скомпільований з версією ImageMagick 6.4.4 або старшим.
+Встановлює якість гравітації для поточного зображення. Метод можна використовувати для встановлення якості гравітації однієї послідовності зображень. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.4 або старшим.
 
 ### Список параметрів
 
 `gravity`
-Властивість гравітації. Зверніться до списку
-констант](imagick.constants.md#imagick.constants.gravity).
+
+Властивість гравітації. Зверніться до списку [gravity констант](imagick.constants.html#imagick.constants.gravity)
 
 ### Значення, що повертаються
 

@@ -1,21 +1,27 @@
-- [« Swoole\Process](class.swoole-process.md)
-- [Swoole\Process::close »](swoole-process.close.md)
+Таймер високої точності, який запускає сигнал із фіксованим інтервалом
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Таймер високої точності, який запускає сигнал із фіксованим
-інтервалом
+-   [« Swoole\\Process](class.swoole-process.html)
+    
+-   [Swoole\\Process::close »](swoole-process.close.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Таймер високої точності, який запускає сигнал із фіксованим інтервалом
+    
 
-# Swoole\Process::alarm
+# SwooleProcess::alarm
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::alarm - Таймер високої точності, який запускає
-сигнал із фіксованим інтервалом
+SwooleProcess::alarm — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
 
 ### Опис
 
-public static **Swoole\Process::alarm**(int `$interval_usec`): void
+```methodsynopsis
+public static Swoole\Process::alarm(int $interval_usec): void
+```
 
 ### Список параметрів
 

@@ -1,24 +1,32 @@
-- [«UI\Draw\Path::lineTo](ui-draw-path.lineto.md)
-- [UI\Draw\Path::newFigureWithArc »](ui-draw-path.newfigurewitharc.md)
+Намалювати фігуру
 
-- [PHP Manual](index.md)
-- [UI\Draw\Path](class.ui-draw-path.md)
-- Намалювати фігуру
+-   [« UI\\Draw\\Path::lineTo](ui-draw-path.lineto.html)
+    
+-   [UI\\Draw\\Path::newFigureWithArc »](ui-draw-path.newfigurewitharc.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Draw\\Path](class.ui-draw-path.html)
+    
+-   Намалювати фігуру
+    
 
-# UI\Draw\Path::newFigure
+# ОЙDrawPath::newFigure
 
 (UI 0.9.9)
 
-UI\Draw\Path::newFigure — Намалювати фігуру
+ОЙDrawPath::newFigure — Намалювати фігуру
 
 ### Опис
 
-public **UI\Draw\Path::newFigure**([UI\Point](class.ui-point.md)
-`$point`)
+```methodsynopsis
+public UI\Draw\Path::newFigure(UI\Point $point)
+```
 
-Намалює нову фігуру в заданій точці
+Намалює нову фігуру у заданій точці
 
 ### Список параметрів
 
 `point`
-Крапка початку відображення
+
+Точка початку відображення

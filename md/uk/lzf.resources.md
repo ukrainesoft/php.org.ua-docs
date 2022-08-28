@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](lzf.configuration.md)
-- [Предвизначені константи »](lzf.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](lzf.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](lzf.configuration.html)
+    
+-   [Предопределённые константы »](lzf.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](lzf.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

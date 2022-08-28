@@ -1,38 +1,42 @@
-- [« fann_test](function.fann-test.md)
-- [fann_train_on_data »](function.fann-train-on-data.md)
+Навчання протягом однієї епохи
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Навчання протягом однієї епохи
+-   [« fann\_test](function.fann-test.html)
+    
+-   [fann\_train\_on\_data »](function.fann-train-on-data.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Навчання протягом однієї епохи
+    
 
-# fann_train_epoch
+# fanntrainepoch
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_train_epoch - Навчання протягом однієї епохи
+fanntrainepoch - Навчання протягом однієї епохи
 
 ### Опис
 
-**fann_train_epoch**(resource `$ann`, resource `$data`): float
+```methodsynopsis
+fann_train_epoch(resource $ann, resource $data): float
+```
 
-Навчання протягом однієї епохи. Одна епоха визначає, що всі учні
-дані будуть використані рівно один раз.
+Навчання протягом однієї доби. Одна епоха визначає, що всі навчальні дані будуть використані рівно один раз.
 
-Ця функція повертає повідомлення про помилку MSE, що розраховується або до,
-або під час фактичного навчання. Це не актуальне значення MSE,
-пораховане після навчання протягом епохи, але, оскільки для його розрахунку
-довелося б перебрати навчальний набір ще раз, то зручніше буде
-використовувати це значення.
+Ця функція повертає повідомлення про помилку MSE, що розраховується до або під час фактичного навчання. Не актуальне значення MSE, пораховане після навчання протягом епохи, але, оскільки його розрахунку довелося б перебрати навчальний набір вкотре, то зручніше використовувати це значення.
 
-Алгоритм навчання використовуваний цією функцією вибирається за допомогою
-[fann_set_training_algorithm()](function.fann-set-training-algorithm.md).
+Алгоритм навчання використовуваний цією функцією вибирається за допомогою [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html)
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 `data`
+
 Ресурс (resource) навчальних даних нейронної мережі.
 
 ### Значення, що повертаються
@@ -41,11 +45,7 @@ MSE або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [fann_train_on_data()](function.fann-train-on-data.md) - Навчання
-на всьому обсязі даних на часовому інтервалі
-- [fann_test_data()](function.fann-test-data.md) - Тестування
-набору навчальних даних та обчислення MSE для нього
-- [fann_get_MSE()](function.fann-get-mse.md) - Зчитує
-середньоквадратичну помилку мережі
-- [fann_set_training_algorithm()](function.fann-set-training-algorithm.md) -
-Встановлює алгоритм навчання
+-   [fann\_train\_on\_data()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fann\_test\_data()](function.fann-test-data.html) - Тестування набору навчальних даних та обчислення MSE для нього
+-   [fann\_get\_MSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
+-   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання

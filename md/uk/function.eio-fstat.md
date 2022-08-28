@@ -1,104 +1,144 @@
-- [«eio_fdatasync](function.eio-fdatasync.md)
-- [eio_fstatvfs »](function.eio-fstatvfs.md)
+Повертає статус файлу
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Повертає статус файлу
+-   [« eio\_fdatasync](function.eio-fdatasync.html)
+    
+-   [eio\_fstatvfs »](function.eio-fstatvfs.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Повертає статус файлу
+    
 
-#eio_fstat
+# eiofstat
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_fstat — Повертає статус файлу
+eiofstat — Повертає статус файлу
 
 ### Опис
 
-**eio_fstat**(
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd`,
-int `$pri`,
-[callable](language.types.callable.md) `$callback`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$ data` = ?
-): resource
+```methodsynopsis
+eio_fstat(    mixed $fd,    int $pri,    callable $callback,    mixed $data = ?): resource
+```
 
-**eio_fstat()** повертає інформацію про стан файлу в `result`
-аргументі `callback`
+**eiofstat()** повертає інформацію про стан файлу в `result` аргументі `callback`
 
 ### Список параметрів
 
 `fd`
+
 Потік, покажчик на сокет або числовий дескриптор файлу.
 
 `pri`
-Пріоритет запитів: **`EIO_PRI_DEFAULT`**, **`EIO_PRI_MIN`**,
-**`EIO_PRI_MAX`**, або **`null`**. Якщо переданий **`null`**, то `pri`
-встановлюється у **`EIO_PRI_DEFAULT`**.
+
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
 
 `callback`
-Функція callback викликається при завершенні запиту. Вона повинна
-задовольняти наступний прототип:
 
-` void callback(mixed $data, int $result[, resource $req]);'
+Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+
+```php
+void callback(mixed $data, int $result[, resource $req]);
+```
 
 `data`
+
 є даними користувача, переданими в запиті.
 
 `result`
-містить результуюче значення, що залежить від запиту; зазвичай це
-значення, яке повертається відповідним системним викликом.
+
+містить результуюче значення, що залежить від запиту; зазвичай це значення, яке повертається відповідним системним викликом.
 
 `req`
-є опціональним запитуваним ресурсом, який може
-використовуватися з такими функціями як
-[eio_get_last_error()](function.eio-get-last-error.md)
+
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.html)
 
 `data`
-Довільна змінна, що передається в `callback`-функцію.
+
+Довільна змінна, що передається в `callback`функцію.
 
 ### Значення, що повертаються
 
-[eio_busy()](function.eio-busy.md) повертає покажчик на запит у
-у разі успішного виконання або **`false`** у разі виникнення
-помилки.
+[eio\_busy()](function.eio-busy.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-[eio_lstat()](function.eio-lstat.md)**
+**Приклад #1 Приклад використання [eio\_lstat()](function.eio-lstat.html)**
 
-` <?php// Створення тимчасового файлу$tmp_filename = dirname(__FILE__) ."/eio-file.tmp";touch($tmp_filename);/* Викликається після завершення eio_fstat() $/$ ) { // Виводить масив з інформацією про стан файла var_dump($result); if ($data['fd']) {  // Закриває тимчасовий файл eio_close($data['fd']); eio_event_loop(); } // Видаляє тимчасовий файл @unlink($data['file']);}/* Викликається після завершення eio_open() */function my_open_cb($data, $result) { / | 'fd' =>>$result, 'file'=> $data ); // Отримання інформації про файл eio_fstat($result, EIO_PRI_DEFAULT, "my_res_cb", $d); // Виконання запитів eio_event_loop();}// Відкриття тимчасового файлуeio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,  "my_open_cb""_|
+```php
+<?php
+// Создание временного файла
+$tmp_filename = dirname(__FILE__) ."/eio-file.tmp";
+touch($tmp_filename);
+
+/* Вызывается после завершения eio_fstat() */
+function my_res_cb($data, $result) {
+ // Выводит массив с информацией о состоянии файла
+ var_dump($result);
+
+ if ($data['fd']) {
+  // Закрывает временный файл
+  eio_close($data['fd']);
+  eio_event_loop();
+ }
+ // Удаляет временный файл
+ @unlink($data['file']);
+}
+
+/* Вызывается после завершения eio_open() */
+function my_open_cb($data, $result) {
+ // Подготовка данных для callback
+ $d = array(
+  'fd'  => $result,
+  'file'=> $data
+ );
+ // Получение информации о файле
+ eio_fstat($result, EIO_PRI_DEFAULT, "my_res_cb", $d);
+ // Выполнение запросов
+ eio_event_loop();
+}
+
+// Открытие временного файла
+eio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,
+  "my_open_cb", $tmp_filename);
+eio_event_loop();
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(12) {
-["st_dev"]=>
-int(2050)
-["st_ino"]=>
-int(2489159)
-["st_mode"]=>
-int(33188)
-["st_nlink"]=>
-int(1)
-["st_uid"]=>
-int(1000)
-["st_gid"]=>
-int(100)
-["st_rdev"]=>
-int(0)
-["st_blksize"]=>
-int(4096)
-["st_blocks"]=>
-int(0)
-["st_atime"]=>
-int(1318239506)
-["st_mtime"]=>
-int(1318239506)
-["st_ctime"]=>
-int(1318239506)
+ ["st_dev"]=>
+  int(2050)
+  ["st_ino"]=>
+  int(2489159)
+  ["st_mode"]=>
+  int(33188)
+  ["st_nlink"]=>
+  int(1)
+  ["st_uid"]=>
+  int(1000)
+  ["st_gid"]=>
+  int(100)
+  ["st_rdev"]=>
+  int(0)
+  ["st_blksize"]=>
+  int(4096)
+  ["st_blocks"]=>
+  int(0)
+  ["st_atime"]=>
+  int(1318239506)
+  ["st_mtime"]=>
+  int(1318239506)
+  ["st_ctime"]=>
+  int(1318239506)
 }
+```
 
 ### Дивіться також
 
-- [eio_lstat()](function.eio-lstat.md) - Повертає статус файлу
-- [eio_stat()](function.eio-stat.md) - Повертає статус файлу
+-   [eio\_lstat()](function.eio-lstat.html) - Повертає статус файлу
+-   [eio\_stat()](function.eio-stat.html) - Повертає статус файлу

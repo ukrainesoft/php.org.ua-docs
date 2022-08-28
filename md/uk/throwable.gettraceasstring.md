@@ -1,20 +1,27 @@
-- [« Throwable::getTrace](throwable.gettrace.md)
-- [Throwable::getPrevious »](throwable.getprevious.md)
+Отримує результати трасування стека у вигляді рядка
 
-- [PHP Manual](index.md)
-- [Throwable](class.throwable.md)
-- Отримує результати трасування стека у вигляді рядка
+-   [« Throwable::getTrace](throwable.gettrace.html)
+    
+-   [Throwable::getPrevious »](throwable.getprevious.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Throwable](class.throwable.html)
+    
+-   Отримує результати трасування стека у вигляді рядка
+    
 
 # Throwable::getTraceAsString
 
 (PHP 7, PHP 8)
 
-Throwable::getTraceAsString — Отримує результати трасування стека в
-вигляді рядка
+Throwable::getTraceAsString — Отримує результати трасування стека у вигляді рядка
 
 ### Опис
 
-public **Throwable::getTraceAsString**(): string
+```methodsynopsis
+public Throwable::getTraceAsString(): string
+```
 
 ### Список параметрів
 
@@ -26,5 +33,4 @@ public **Throwable::getTraceAsString**(): string
 
 ### Дивіться також
 
-- [Exception::getTraceAsString()](exception.gettraceasstring.md) -
-Отримує трасування стека у вигляді рядка
+-   [Exception::getTraceAsString()](exception.gettraceasstring.html) - Отримує трасування стека у вигляді рядка

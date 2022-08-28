@@ -1,71 +1,53 @@
-- [«syslog](function.syslog.md)
-- [Вступ »](intro.rrd.md)
+RRDtool
 
-- [PHP Manual](index.md)
-- [Інші служби](refs.remote.other.md)
-- RRDtool
+-   [« syslog](function.syslog.html)
+    
+-   [Введение »](intro.rrd.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие службы](refs.remote.other.html)
+    
+-   RRDtool
+    
 
 # RRDtool
 
-- [Вступ](intro.rrd.md)
-- [Встановлення та налаштування](rrd.setup.md)
-- [Вимоги](rrd.requirements.md)
-- [Установка](rrd.installation.md)
-- [Налаштування під час виконання](rrd.configuration.md)
-- [Типи ресурсів](rrd.resources.md)
-- [Предвизначені константи](rrd.constants.md)
-- [Приклади](rrd.examples.md)
-- [Процедурний приклад PECL/rrd](rrd.examples-procedural.md)
-- [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.md)
-- [Функції RRD](ref.rrd.md)
-- [rrd_create](function.rrd-create.md) — Створити файл rrd
-- [rrd_error](function.rrd-error.md) — Отримати останнє
-повідомлення про помилку
-- [rrd_fetch](function.rrd-fetch.md) — Вийняти дані для
-графіка у вигляді масиву
-- [rrd_first](function.rrd-first.md) — Повертає позначку
-часу першого зразка з файлу rrd
-- [rrd_graph](function.rrd-graph.md) — Створює зображення з
-даних
-- [rrd_info](function.rrd-info.md) — Отримує інформацію про файл
-rrd
-- [rrd_last](function.rrd-last.md) — Повертає позначку часу
-unix останнього зразка
-- [rrd_lastupdate](function.rrd-lastupdate.md) - Отримує
-інформацію про останні оновлені дані
-- [rrd_restore](function.rrd-restore.md) — Відновлює файл
-RRD із дампа XML
-- [rrd_tune](function.rrd-tune.md) — Налаштовує деякі опції
-заголовка файлу бази даних RRD
-- [rrd_update](function.rrd-update.md) — Оновлення бази даних
-RRD
-- [rrd_version](function.rrd-version.md) — Отримує інформацію про
-базовій бібліотеці rrdtool
-- [rrd_xport](function.rrd-xport.md) — Експортує інформацію про
-базі даних RRD
-- [rrdc_disconnect](function.rrdc-disconnect.md) — Закрити будь-які
-незавершені підключення до демона кешування rrd
-- [RRDCreator](class.rrdcreator.md) - Клас RRDCreator
-- [RRDCreator::addArchive](rrdcreator.addarchive.md) — Додає
-RRA – архів значень даних для кожного джерела даних
-- [RRDCreator::addDataSource](rrdcreator.adddatasource.md)
-Додає визначення джерела даних для бази даних RRD
-- [RRDCreator::\_\_construct](rrdcreator.construct.md) - Створює
-новий екземпляр RRDCreator
-- [RRDCreator::save](rrdcreator.save.md) — Зберігає базу даних
-RRD у файл
-- [RRDGraph](class.rrdgraph.md) - Клас RRDGraph
-- [RRDGraph::\_\_construct](rrdgraph.construct.md) - Створює
-новий екземпляр RRDGraph
-- [RRDGraph::save](rrdgraph.save.md) — Зберігає результат
-запиту на зображення
-- [RRDGraph::saveVerbose](rrdgraph.saveverbose.md) — Зберігає
-запит до бази даних RRD у зображення та повертає докладну
-інформацію про згенерований графік
-- [RRDGraph::setOptions](rrdgraph.setoptions.md) — Встановлює
-параметри для експорту графіка rrd
-- [RRDUpdater](class.rrdupdater.md) - Клас RRDUpdater
-- [RRDUpdater::\_\_construct](rrdupdater.construct.md) - Створює
-новий об'єкт RRDUpdater
-- [RRDUpdater::update](rrdupdater.update.md) — Оновлює файл
-бази даних RRD
+-   [Введение](intro.rrd.html)
+-   [Установка и настройка](rrd.setup.html)
+    -   [Требования](rrd.requirements.html)
+    -   [Установка](rrd.installation.html)
+    -   [Настройка во время выполнения](rrd.configuration.html)
+    -   [Типы ресурсов](rrd.resources.html)
+-   [Предопределённые константы](rrd.constants.html)
+-   [Примеры](rrd.examples.html)
+    -   [Процедурный пример PECL/rrd](rrd.examples-procedural.html)
+    -   [Объектно-ориентированный пример PECL/rrd](rrd.examples-oop.html)
+-   [Функции RRD](ref.rrd.html)
+    -   [rrd\_create](function.rrd-create.html) - Створити файл rrd
+    -   [rrd\_error](function.rrd-error.html) — Отримати останнє повідомлення про помилку
+    -   [rrd\_fetch](function.rrd-fetch.html) — Витягти дані для графіка у вигляді масиву
+    -   [rrd\_first](function.rrd-first.html) — Повертає позначку часу першого зразка із файлу rrd
+    -   [rrd\_graph](function.rrd-graph.html) — Створює зображення з даних
+    -   [rrd\_info](function.rrd-info.html) — Отримує інформацію про файл rrd
+    -   [rrd\_last](function.rrd-last.html) — Повертає позначку часу unix останнього зразка
+    -   [rrd\_lastupdate](function.rrd-lastupdate.html) — Отримує інформацію про останні оновлені дані
+    -   [rrd\_restore](function.rrd-restore.html) — Відновлює файл RRD із дампи XML
+    -   [rrd\_tune](function.rrd-tune.html) — Налаштовує деякі опції заголовка файлу бази даних RRD
+    -   [rrd\_update](function.rrd-update.html) — Оновлює базу даних RRD
+    -   [rrd\_version](function.rrd-version.html) — Отримує інформацію про базову бібліотеку rrdtool
+    -   [rrd\_xport](function.rrd-xport.html) — Експортує інформацію про базу даних RRD
+    -   [rrdc\_disconnect](function.rrdc-disconnect.html) — Закрити будь-які незавершені підключення до демона кешування rrd
+-   [RRDCreator](class.rrdcreator.html) - Клас RRDCreator
+    -   [RRDCreator::addArchive](rrdcreator.addarchive.html) — Додає RRA – архів значень даних для кожного джерела даних
+    -   [RRDCreator::addDataSource](rrdcreator.adddatasource.html) — Додає визначення джерела даних для бази даних RRD
+    -   [RRDCreator::\_\_construct](rrdcreator.construct.html) — Створює новий екземпляр RRDCreator
+    -   [RRDCreator::save](rrdcreator.save.html) — Зберігає базу даних RRD у файл
+-   [RRDGraph](class.rrdgraph.html) - Клас RRDGraph
+    -   [RRDGraph::\_\_construct](rrdgraph.construct.html) — Створює новий екземпляр RRDGraph
+    -   [RRDGraph::save](rrdgraph.save.html) — Зберігає результат запиту на зображення
+    -   [RRDGraph::saveVerbose](rrdgraph.saveverbose.html) — Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
+    -   [RRDGraph::setOptions](rrdgraph.setoptions.html) — Встановлює параметри експорту графіка rrd
+-   [RRDUpdater](class.rrdupdater.html) - Клас RRDUpdater
+    -   [RRDUpdater::\_\_construct](rrdupdater.construct.html) — Створює новий об'єкт RRDUpdater
+    -   [RRDUpdater::update](rrdupdater.update.html) — Оновлює файл бази даних RRD

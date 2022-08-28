@@ -1,124 +1,113 @@
-- [« Установка](yaf.installation.md)
-- [Типи ресурсів»](yaf.resources.md)
+Налаштування під час виконання
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](yaf.setup.md)
-- Налаштування під час виконання
+-   [« Установка](yaf.installation.html)
+    
+-   [Типы ресурсов »](yaf.resources.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](yaf.setup.html)
+    
+-   Налаштування під час виконання
+    
 
 ## Налаштування під час виконання
 
-Поведінка цих функцій залежить від установок `php.ini`.
-
-| Ім'я За замовчуванням                                                 | Місце зміни | Список змін    |
-|-----------------------------------------------------------------------|-------------|----------------|
-| [yaf.library](yaf.configuration.md#ini.yaf.library)                   |             | PHP_INI_ALL    |
-| [yaf.action_prefer](yaf.configuration.md#ini.yaf.action-prefer)       | 0           | PHP_INI_ALL    |
-| [yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path)         | 0           | PHP_INI_ALL    |
-| [yaf.use_spl_autoload](yaf.configuration.md#ini.yaf.use-spl-autoload) | 0           | PHP_INI_ALL    |
-| [yaf.forward_limit](yaf.configuration.md#ini.yaf.forward-limit)       | 5           | PHP_INI_ALL    |
-| [yaf.name_suffix](yaf.configuration.md#ini.yaf.name-suffix)           | 1           | PHP_INI_ALL    |
-| [yaf.name_separator](yaf.configuration.md#ini.yaf.name-separator)     |             | PHP_INI_ALL    |
-| [yaf.cache_config](yaf.configuration.md#ini.yaf.cache-config)         | 0           | PHP_INI_SYSTEM |
-| [yaf.environ](yaf.configuration.md#ini.yaf.environ)                   | product     | PHP_INI_SYSTEM |
-| [yaf.use_namespace](yaf.configuration.md#ini.yaf.use-namespace)       | 0           | PHP_INI_SYSTEM |
+Поведінка цих функцій залежить від установок у php.ini.
 
 **Опції налаштування Yaf**
+
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [yaf.library](yaf.configuration.html#ini.yaf.library) |  | PHPINIALL |  |
+| [yaf.action\_prefer](yaf.configuration.html#ini.yaf.action-prefer) |  | PHPINIALL |  |
+| [yaf.lowcase\_path](yaf.configuration.html#ini.yaf.lowcase-path) |  | PHPINIALL |  |
+| [yaf.use\_spl\_autoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |  | PHPINIALL |  |
+| [yaf.forward\_limit](yaf.configuration.html#ini.yaf.forward-limit) |  | PHPINIALL |  |
+| [yaf.name\_suffix](yaf.configuration.html#ini.yaf.name-suffix) |  | PHPINIALL |  |
+| [yaf.name\_separator](yaf.configuration.html#ini.yaf.name-separator) |  | PHPINIALL |  |
+| [yaf.cache\_config](yaf.configuration.html#ini.yaf.cache-config) |  | PHPINISYSTEM |  |
+| [yaf.environ](yaf.configuration.html#ini.yaf.environ) | product | PHPINISYSTEM |  |
+| [yaf.use\_namespace](yaf.configuration.html#ini.yaf.use-namespace) |  | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 
 `yaf.library` string
-Шлях до глобальних бібліотек, Yaf_loader шукатиме глобальні
-бібліотеки тут.
+
+Шлях до глобальних бібліотек, Yafloader шукатиме глобальні бібліотеки тут.
 
 `yaf.action_prefer` int
-Якщо в PATH_INFO лише одна частина, її слід розглянути як
-контролера чи дії.
+
+Якщо у PATHINFO тільки одна частина, її слід розглянути як контролер або дію.
 
 Якщо задана як On, вона розглядатиметься як ім'я дії (Action).
 
 `yaf.lowcase_path` int
+
 Чи розглядати всі шляхи в нижньому регістрі під час автозавантаження класів.
 
 `yaf.use_spl_autoload` int
-Якщо задано як On, то якщо [Yaf_Loader](class.yaf-loader.md) не
-може знайти клас, він поверне **`false`**, тим самим надаючи
-можливість виклику іншої функції автозавантаження.
 
-Якщо задано як Off, то якщо [Yaf_Loader](class.yaf-loader.md) не
-знайде клас, він поверне **`true`** і перерве подальші дії з
-автозавантаження.
+Якщо поставлено як On, то якщо [Yaf\_Loader](class.yaf-loader.html) не може знайти клас, він поверне **`false`**, тим самим надаючи можливість виклику іншої функції автозавантаження.
 
-> **Примітка**:
->
-> Yaf реєструє завантажувач класів під час створення екземпляра класу
-> [Yaf_Application](class.yaf-application.md), так що будь-які
-> інші автозавантажувачі, зареєстровані до інстанціації цього
-> класу, будуть запущені до
-> [Yaf_Loader::autoload()](yaf-loader.autoload.md).
+Якщо поставлено як Off, то якщо [Yaf\_Loader](class.yaf-loader.html) не знайде клас, він поверне **`true`** і перерве подальші дії з автозавантаження.
 
-Якщо встановлено як Off(за замовчуванням),
-[Yaf_Loader::autoload()](yaf-loader.autoload.md) буде завжди
-повертати **`true`**.
+> **Зауваження**
+> 
+> Yaf реєструє завантажувач класів під час створення екземпляра класу [Yaf\_Application](class.yaf-application.html), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [Yaf\_Loader::autoload()](yaf-loader.autoload.html)
+
+Якщо встановлено як Off(за замовчуванням), [Yaf\_Loader::autoload()](yaf-loader.autoload.html) завжди повертатиме **`true`**
 
 `yaf.forward_limit` int
-Максимальна кількість перенаправлень за замовчуванням 5. Це означає,
-що стек перенаправлень не може бути глибшим 5.
 
-Це зроблено для запобігання рекурсії в
-[Yaf_Controller_Abstract::forward()](yaf-controller-abstract.forward.md).
+Максимальна кількість перенаправлень, за замовчуванням 5. Це означає, що стек перенаправлень не може бути глибшим за 5.
+
+Це зроблено для запобігання рекурсії у [Yaf\_Controller\_Abstract::forward()](yaf-controller-abstract.forward.html)
 
 `yaf.name_suffix` int
-Якщо задано як On, Yaf_Loader буде ідентифікувати за його суфіксом,
-для визначення, чи є він класом MVC.
 
-Якщо встановлено як Off, Yaf_Loader буде дивитися на префікс.
+Якщо поставлено як On, YafLoader ідентифікуватиме за його суфіксом, для визначення, чи є він класом MVC.
+
+Якщо встановлено як Off, YafLoader дивитиметься на префікс.
 
 `yaf.name_separator` string
-Якщо не порожньо, Yaf_Loader, ідентифікуючи клас, буде шукати
-суфікс з огляду на заданий символ як роздільник.
 
-Наприклад, якщо встановити рівним "\_", Yaf_Loader ідентифікує
-Index_Controller як клас контролер, а IndexController як звичайний
-клас.
+Якщо не порожньо, YafLoader, при ідентифікації класу, шукатиме суфікс з огляду на заданий символ як роздільник.
+
+Наприклад, якщо поставити рівним "", YafLoader ідентифікує IndexController як клас контролер, а IndexController як клас.
 
 `yaf.cache_config` int
-Якщо встановлено як On, і в той же час ви використовуєте конфігураційний
-ini-файл як параметр **Yaf_Application()**, результат компіляції
-цього ini-файлу буде закешировано в процесі PHP.
 
-> **Примітка**:
->
-> Yaf перевіряє mtime ini-файлу і якщо значення змінилося з моменту
-> останньої компіляції, перекомпілює його.
+Якщо встановлено як On, і в той же час ви використовуєте конфігураційний ini-файл як параметр **YafApplication()**, то результат компіляції цього файлу ini буде закеширован в процесі PHP.
+
+> **Зауваження**
+> 
+> Yaf перевіряє mtime ini-файлу і якщо значення змінилося з моменту останньої компіляції, перекомпілює його.
 
 **Увага**
-Yaf використовує шлях до ini-файлу як ключ закешованого запису, через
-цього рекомендується використовувати повні, абсолютні шляхи, щоб не
-сталося конфлікту між двома програмами, що використовують ini-файли з
-однаковими іменами, але різним вмістом.
+
+Yaf використовує шлях до ini-файлу як ключ закешованого запису, тому рекомендується використовувати повні, абсолютні шляхи, щоб не сталося конфлікту між двома додатками, що використовують ini-файли з однаковими іменами, але різним вмістом.
 
 `yaf.environ` string
-За замовчуванням одно "product" і використовується Yaf для отримання потрібної
-секції із ini-файлу.
 
-Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію
-"product" в ini-файлі (перший параметр
-[Yaf_Application](class.yaf-application.md)) як конфігурація
-[Yaf_Application](class.yaf-application.md).
+За замовчуванням одно "product" і використовується Yaf для отримання потрібної секції з ini-файлу.
+
+Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [Yaf\_Application](class.yaf-application.html)) як конфігурація [Yaf\_Application](class.yaf-application.html)
 
 `yaf.use_namespace` int
-Якщо встановлено як On, всі класи Yaf називаються з використанням
-просторів імен.
+
+Якщо встановлено як On, всі класи Yaf іменуються з використанням просторів імен.
 
 Наприклад:
 
+```
 Yaf_Route_Rewrite => \Yaf\Route\Rewrite
-Yaf_Request_Http => \Yaf\Request\Http
+Yaf_Request_Http  => \Yaf\Request\Http
+```
 
-Є винятки для класів типу
-[Yaf_Controller_Abstract](class.yaf-controller-abstract.md). Останній
-компонент імені є ключовим словом PHP і не може використовуватися в
-як ім'я класу, так що він буде виглядати так:
+Є винятки для класів типу [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html). Останній компонент імені є ключовим словом PHP і не може використовуватися як ім'я класу, так що він виглядатиме так:
 
+```
 Yaf_Controller_Abstract => \Yaf\Controller_Abstract
 Yaf_Route_Static => \Yaf\Route_Static
+```

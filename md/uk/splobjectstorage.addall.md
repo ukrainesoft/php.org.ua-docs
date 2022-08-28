@@ -1,27 +1,34 @@
-- [«SplObjectStorage](class.splobjectstorage.md)
-- [SplObjectStorage::attach »](splobjectstorage.attach.md)
+Додає всі об'єкти з іншого контейнера
 
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Додає всі об'єкти з іншого контейнера
+-   [« SplObjectStorage](class.splobjectstorage.html)
+    
+-   [SplObjectStorage::attach »](splobjectstorage.attach.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObjectStorage](class.splobjectstorage.html)
+    
+-   Додає всі об'єкти з іншого контейнера
+    
 
 # SplObjectStorage::addAll
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::addAll — Додає всі об'єкти з іншого контейнера
 
 ### Опис
 
-public
-**SplObjectStorage::addAll**([SplObjectStorage](class.splobjectstorage.md)
-`$storage`): int
+```methodsynopsis
+public SplObjectStorage::addAll(SplObjectStorage $storage): int
+```
 
-Додає всі пари об'єкт-дані з іншого контейнера до поточного.
+Додає всі пари об'єкт-дані з іншого контейнера у поточний.
 
 ### Список параметрів
 
 `storage`
+
 Контейнер об'єктів, з якого потрібно імпортувати дані.
 
 ### Значення, що повертаються
@@ -32,15 +39,24 @@ public
 
 **Приклад #1 Приклад використання **SplObjectStorage::addAll()****
 
-` <?php$o = new StdClass;$a = new SplObjectStorage();$a[$o] = "hello";$b = new SplObjectStorage();$b->addAll($a);echo $b [$o]."
-";?> `
+```php
+<?php
+$o = new StdClass;
+$a = new SplObjectStorage();
+$a[$o] = "hello";
+
+$b = new SplObjectStorage();
+$b->addAll($a);
+echo $b[$o]."\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 hello
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::removeAll()](splobjectstorage.removeall.md) -
-Видаляє з поточного контейнера об'єкти, які є в іншому
-контейнері
+-   [SplObjectStorage::removeAll()](splobjectstorage.removeall.html) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері

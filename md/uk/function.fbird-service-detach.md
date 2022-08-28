@@ -1,18 +1,22 @@
-- [«fbird_service_attach](function.fbird-service-attach.md)
-- [fbird_set_event_handler »](function.fbird-set-event-handler.md)
+Псевдонім ibaseservicedetach
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Псевдонім ibase_service_detach
+-   [« fbird\_service\_attach](function.fbird-service-attach.html)
+    
+-   [fbird\_set\_event\_handler »](function.fbird-set-event-handler.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Псевдонім ibaseservicedetach
+    
 
-#fbird_service_detach
+# fbirdservicedetach
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-fbird_service_detach - Псевдонім
-[ibase_service_detach()](function.ibase-service-detach.md)
+fbirdservicedetach - Псевдонім [ibase\_service\_detach()](function.ibase-service-detach.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[ibase_service_detach()](function.ibase-service-detach.md).
+Ця функція є псевдонімом: [ibase\_service\_detach()](function.ibase-service-detach.html)

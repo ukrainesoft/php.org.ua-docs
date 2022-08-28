@@ -1,19 +1,27 @@
-- [«MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)
-- [MongoDB\Driver\WriteError::getIndex »](mongodb-driver-writeerror.getindex.md)
+Повертає код помилки WriteError
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)
-- Повертає код помилки WriteError
+-   [« MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html)
+    
+-   [MongoDB\\Driver\\WriteError::getIndex »](mongodb-driver-writeerror.getindex.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html)
+    
+-   Повертає код помилки WriteError
+    
 
-# MongoDB\Driver\WriteError::getCode
+# MongoDBDriverWriteError::getCode
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\WriteError::getCode — Повертає код помилки WriteError
+MongoDBDriverWriteError::getCode — Повертає код помилки WriteError
 
 ### Опис
 
-final public **MongoDB\Driver\WriteError::getCode**(): int
+```methodsynopsis
+final public MongoDB\Driver\WriteError::getCode(): int
+```
 
 ### Список параметрів
 
@@ -25,16 +33,32 @@ final public **MongoDB\Driver\WriteError::getCode**(): int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**MongoDB\Driver\WriteError::getCode()****
+**Приклад #1 Приклад використання **MongoDBDriverWriteError::getCode()****
 
-` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' => 1]);$bulk->insert(['_id' => 1]);try { {   $manager->executeBulkWrite('db.collection', $bulk);} catch(MongoDB\Driver\Exception\BulkWriteException$$e) {    var_dump ()[0]->getCode());}?> `
+```php
+<?php
+
+$manager = new MongoDB\Driver\Manager;
+
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['_id' => 1]);
+$bulk->insert(['_id' => 1]);
+
+try {
+    $manager->executeBulkWrite('db.collection', $bulk);
+} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteErrors()[0]->getCode());
+}
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(11000)
+```

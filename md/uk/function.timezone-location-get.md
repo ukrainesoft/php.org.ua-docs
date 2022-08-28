@@ -1,18 +1,22 @@
-- [« timezone_identifiers_list](function.timezone-identifiers-list.md)
-- [timezone_name_from_abbr »](function.timezone-name-from-abbr.md)
+Псевдонім DateTimeZone::getLocation
 
-- [PHP Manual](index.md)
-- [Функції дати та часу](ref.datetime.md)
-- Псевдонім DateTimeZone::getLocation
+-   [« timezone\_identifiers\_list](function.timezone-identifiers-list.html)
+    
+-   [timezone\_name\_from\_abbr »](function.timezone-name-from-abbr.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции даты и времени](ref.datetime.html)
+    
+-   Псевдонім DateTimeZone::getLocation
+    
 
-#timezone_location_get
+# timezonelocationget
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-timezone_location_get - Псевдонім
-[DateTimeZone::getLocation()](datetimezone.getlocation.md)
+timezonelocationget - Псевдонім [DateTimeZone::getLocation()](datetimezone.getlocation.html)
 
 ### Опис
 
-Ця функція є псевдонімом:
-[DateTimeZone::getLocation()](datetimezone.getlocation.md)
+Ця функція є псевдонімом: [DateTimeZone::getLocation()](datetimezone.getlocation.html)

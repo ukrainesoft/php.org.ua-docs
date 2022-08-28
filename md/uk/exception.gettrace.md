@@ -1,9 +1,15 @@
-- [« Exception::getLine](exception.getline.md)
-- [Exception::getTraceAsString »](exception.gettraceasstring.md)
+Отримує трасування стека
 
-- [PHP Manual](index.md)
-- [Exception](class.exception.md)
-- Отримує трасування стека
+-   [« Exception::getLine](exception.getline.html)
+    
+-   [Exception::getTraceAsString »](exception.gettraceasstring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Exception](class.exception.html)
+    
+-   Отримує трасування стека
+    
 
 # Exception::getTrace
 
@@ -13,7 +19,9 @@ Exception::getTrace — Отримує трасування стека
 
 ### Опис
 
-final public **Exception::getTrace**(): array
+```methodsynopsis
+final public Exception::getTrace(): array
+```
 
 Повертає трасування стека виключення.
 
@@ -29,26 +37,39 @@ final public **Exception::getTrace**(): array
 
 **Приклад #1 Приклад використання **Exception::getTrace()****
 
-` <?phpfunction test() { throw new Exception;}try { test();} catch(Exception $e) { var_dump($e->getTrace());}?> `
+```php
+<?php
+function test() {
+ throw new Exception;
+}
+
+try {
+ test();
+} catch(Exception $e) {
+ var_dump($e->getTrace());
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 array(1) {
-[0]=>
-array(4) {
-["file"]=>
-string(22) "/home/bjori/tmp/ex.php"
-["line"]=>
-int(7)
-["function"]=>
-string(4) "test"
-["args"]=>
-array(0) {
+  [0]=>
+  array(4) {
+    ["file"]=>
+    string(22) "/home/bjori/tmp/ex.php"
+    ["line"]=>
+    int(7)
+    ["function"]=>
+    string(4) "test"
+    ["args"]=>
+    array(0) {
+    }
+  }
 }
-}
-}
+```
 
 ### Дивіться також
 
-- [Throwable::getTrace()](throwable.gettrace.md) - Повертає
-трасування стеку
+-   [Throwable::getTrace()](throwable.gettrace.html) - Повертає трасування стека

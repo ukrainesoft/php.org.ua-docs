@@ -1,19 +1,27 @@
-- [« Gmagick::deconstructimages](gmagick.deconstructimages.md)
-- [Gmagick::destroy »](gmagick.destroy.md)
+Призначення despeckleimage
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Призначення despeckleimage
+-   [« Gmagick::deconstructimages](gmagick.deconstructimages.html)
+    
+-   [Gmagick::destroy »](gmagick.destroy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Призначення despeckleimage
+    
 
 # Gmagick::despeckleimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::despeckleimage — Призначення despeckleimage
 
 ### Опис
 
-public **Gmagick::despeckleimage**(): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::despeckleimage(): Gmagick
+```
 
 Зменшує шум на зображенні, зберігаючи краї вихідного зображення.
 
@@ -23,8 +31,7 @@ public **Gmagick::despeckleimage**(): [Gmagick](class.gmagick.md)
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) із зменшеним спекл-шумом у випадку
-успішного виконання
+Об'єкт [Gmagick](class.gmagick.html) із зменшеним спекл-шумом у разі успішного виконання
 
 ### Помилки
 
@@ -34,8 +41,14 @@ public **Gmagick::despeckleimage**(): [Gmagick](class.gmagick.md)
 
 **Приклад #1 Приклад використання **Gmagick::despeckleimage()****
 
-` <?php/* ... */?> `
+```php
+<?php
+/* ... */
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 ...
+```

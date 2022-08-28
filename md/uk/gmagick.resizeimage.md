@@ -1,46 +1,51 @@
-- [«Gmagick::resampleimage](gmagick.resampleimage.md)
-- [Gmagick::rollimage »](gmagick.rollimage.md)
+Масштабує зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Масштабує зображення
+-   [« Gmagick::resampleimage](gmagick.resampleimage.html)
+    
+-   [Gmagick::rollimage »](gmagick.rollimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Масштабує зображення
+    
 
 # Gmagick::resizeimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::resizeimage — Масштабує зображення
+Gmagick::resizeimage — Масштабування зображення
 
 ### Опис
 
-public **Gmagick::resizeimage**(
-int `$width`,
-int `$height`,
-int `$filter`,
-float `$blur`,
-bool `$fit` = **`false`**
-): [Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
+```
 
 Масштабує зображення до бажаних розмірів за допомогою фільтра.
 
 ### Список параметрів
 
 `width`
+
 Кількість стовпців у масштабованому зображенні.
 
 `height`
+
 Кількість рядків у масштабованому зображенні.
 
 `filter`
+
 Фільтр зображень для використання.
 
 `blur`
-Коефіцієнт розмиття, де більше значення більше 1 робить зображення
-більш розмитим, значення менше 1 – менш розмитим.
+
+Коефіцієнт розмиття, де більше значення більше 1 робить зображення більш розмитим, значення менше 1 менш розмитим.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

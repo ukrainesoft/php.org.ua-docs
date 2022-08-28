@@ -1,26 +1,34 @@
-- [«FFI::cdef](ffi.cdef.md)
-- [FFI::isNull »](ffi.isnull.md)
+Вивільняє некеровану структуру даних
 
-- [PHP Manual](index.md)
-- [FFI](class.ffi.md)
-- Вивільняє некеровану структуру даних
+-   [« FFI::cdef](ffi.cdef.html)
+    
+-   [FFI::isNull »](ffi.isnull.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI](class.ffi.html)
+    
+-   Вивільняє некеровану структуру даних
+    
 
 # FFI::free
 
-(PHP 7 \>= 7.4.0, PHP 8)
+(PHP 7> = 7.4.0, PHP 8)
 
 FFI::free — Вивільняє некеровану структуру даних
 
 ### Опис
 
-public static **FFI::free**([FFI\CData](class.ffi-cdata.md) `&$ptr`):
-void
+```methodsynopsis
+public static FFI::free(FFI\CData &$ptr): void
+```
 
 Вивільняє створену раніше некеровану структуру даних.
 
 ### Список параметрів
 
 `ptr`
+
 Дескриптор некерованого покажчика структуру даних.
 
 ### Значення, що повертаються

@@ -1,30 +1,35 @@
-- [« libxml_set_external_entity_loader](function.libxml-set-external-entity-loader.md)
-- [libxml_use_internal_errors »](function.libxml-use-internal-errors.md)
+Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
 
-- [PHP Manual](index.md)
-- [Функції libxml](ref.libxml.md)
-- Встановлення контексту потоків для наступного завантаження чи запису
-документа за допомогою libxml
+-   [« libxml\_set\_external\_entity\_loader](function.libxml-set-external-entity-loader.html)
+    
+-   [libxml\_use\_internal\_errors »](function.libxml-use-internal-errors.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции libxml](ref.libxml.html)
+    
+-   Налаштування контексту потоків для наступного завантаження або запису документа за допомогою libxml
+    
 
-# libxml_set_streams_context
+# libxmlsetstreamscontext
 
 (PHP 5, PHP 7, PHP 8)
 
-libxml_set_streams_context — Встановлення контексту потоків для наступного
-завантаження або запису документа за допомогою libxml
+libxmlsetstreamscontext — Встановлення контексту потоків для наступного завантаження або запису документа за допомогою libxml
 
 ### Опис
 
-**libxml_set_streams_context**(resource `$context`): void
+```methodsynopsis
+libxml_set_streams_context(resource $context): void
+```
 
-Встановлення контексту потоку для наступного завантаження або запису документа
-за допомогою libxml.
+Встановіть контекст потоку для наступного завантаження або запису документа за допомогою libxml.
 
 ### Список параметрів
 
 `context`
-Ресурс контексту потоку (створений функцією
-[stream_context_create()](function.stream-context-create.md))
+
+Ресурс контексту потоку (створений функцією [stream\_context\_create()](function.stream-context-create.html)
 
 ### Значення, що повертаються
 
@@ -32,11 +37,26 @@ libxml_set_streams_context — Встановлення контексту по�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **libxml_set_streams_context()****
+**Приклад #1 Приклад використання **libxmlsetstreamscontext()****
 
-`<?php$opts = array(   'http' => array(       'user_agent' => 'PHP libxml agent',     ));$context|context| HTTP$doc = DOMDocument::load('http://www.example.com/file.xml');?> `
+```php
+<?php
+
+$opts = array(
+    'http' => array(
+        'user_agent' => 'PHP libxml agent',
+    )
+);
+
+$context = stream_context_create($opts);
+libxml_set_streams_context($context);
+
+// загрузить файл через HTTP
+$doc = DOMDocument::load('http://www.example.com/file.xml');
+
+?>
+```
 
 ### Дивіться також
 
-- [stream_context_create()](function.stream-context-create.md) -
-Створює контекст потоку
+-   [stream\_context\_create()](function.stream-context-create.html) - Створює контекст потоку

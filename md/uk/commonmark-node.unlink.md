@@ -1,25 +1,31 @@
-- [«CommonMark\Node::replace](commonmark-node.replace.md)
-- [CommonMark\Node::accept »](commonmark-node.accept.md)
+Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
-- [PHP Manual](index.md)
-- [CommonMark\Node](class.commonmark-node.md)
-- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [« CommonMark\\Node::replace](commonmark-node.replace.html)
+    
+-   [CommonMark\\Node::accept »](commonmark-node.accept.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark\\Node](class.commonmark-node.html)
+    
+-   Маніпуляції з AST (Абстрактне синтаксичне дерево)
+    
 
-# CommonMark\Node::unlink
+# CommonMarkNode::unlink
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
-CommonMark\Node::unlink — Маніпуляції з AST (Абстрактне синтаксичне
-дерево)
+CommonMarkNode::unlink — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
-public **CommonMark\Node::unlink**(): void
+```methodsynopsis
+public CommonMark\Node::unlink(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

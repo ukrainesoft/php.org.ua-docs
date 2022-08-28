@@ -1,82 +1,90 @@
-- [«mysql_connect](function.mysql-connect.md)
-- [mysql_data_seek »](function.mysql-data-seek.md)
+Створює базу даних MySQL
 
-- [PHP Manual](index.md)
-- [MySQL](ref.mysql.md)
-- створює базу даних MySQL
+-   [« mysql\_connect](function.mysql-connect.html)
+    
+-   [mysql\_data\_seek »](function.mysql-data-seek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MySQL](ref.mysql.html)
+    
+-   Створює базу даних MySQL
+    
 
-# mysql_create_db
+# mysqlcreateдб
 
 (PHP 4, PHP 5)
 
-mysql_create_db — Створює базу даних MySQL
+mysqlcreatedb — Створює базу даних MySQL
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0 і разом з [модулем MySQL](book.mysql.md), видалена PHP в 7.0.0. Замість неї використовуйте
-модулі, що активно розвиваються [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 4.3.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDO\_MySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: выбор API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
 
-- [mysqli_query()](mysqli.query.md)
-- [PDO::query()](pdo.query.md)
+-   [mysqli\_query()](mysqli.query.html)
+-   [PDO::query()](pdo.query.html)
 
 ### Опис
 
-**mysql_create_db**(string `$database_name`, resource `$link_identifier`
-= NULL): bool
+```methodsynopsis
+mysql_create_db(string $database_name, resource $link_identifier = NULL): bool
+```
 
-**mysql_create_db()** намагається створити базу даних на сервері, з яким
-асоційований переданий дескриптор з'єднання.
+**mysqlcreatedb()** намагається створити базу даних на сервері, з яким асоційовано переданий дескриптор з'єднання.
 
 ### Список параметрів
 
 `database_name`
+
 Ім'я бази даних, що створюється.
 
 `link_identifier`
-З'єднання MySQL. Якщо ідентифікатор з'єднання не було вказано,
-використовується останнє з'єднання, відкрите
-[mysql_connect()](function.mysql-connect.md). Якщо таке з'єднання не
-було знайдено, функція спробує створити таке, якби
-[mysql_connect()](function.mysql-connect.md) була викликана без
-параметрів. Якщо з'єднання не було знайдено і не змогло бути створено,
-генерується помилка рівня **`E_WARNING`**.
+
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад створення бази даних MySQL**
 
-Функція **mysql_create_db()** не рекомендується використовувати.
-Переважно використовувати [mysql_query()](function.mysql-query.md)
-із SQL-запитом створення бази даних `CREATE DATABASE`.
+Функція **mysqlcreatedb()** не рекомендується використовувати. Переважно використовувати [mysql\_query()](function.mysql-query.html) із SQL-запитом створення бази даних `CREATE DATABASE`
 
-` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}$sql =    ';if (mysql_query($sql, $link)) {   echo "База my_db успішно створена
-";} else {    echo 'Помилка при створенні бази даних: ' . mysql_error() . ""
-";}?> `
+```php
+<?php
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
+}
+
+$sql = 'CREATE DATABASE my_db';
+if (mysql_query($sql, $link)) {
+    echo "База my_db успешно создана\n";
+} else {
+    echo 'Ошибка при создании базы данных: ' . mysql_error() . "\n";
+}
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-База my_db успішно створена
+```
+База my_db успешно создана
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Для зворотної сумісності може бути використаний наступний застарілий
-> псевдонім: **mysql_createdb()**
+> **Зауваження**
+> 
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlcreatedb()**
 
-> **Примітка**:
->
-> Ця функція не буде доступна, якщо модуль MySQL був скомпільований
-> клієнтської бібліотеки MySQL версії 4.x.
+> **Зауваження**
+> 
+> Ця функція не буде доступна, якщо модуль MySQL був скомпільований клієнтською бібліотекою MySQL версії 4.x.
 
 ### Дивіться також
 
-- [mysql_query()](function.mysql-query.md) - Надсилає запит MySQL
-- [mysql_select_db()](function.mysql-select-db.md) - Вибирає базу
-даних MySQL
+-   [mysql\_query()](function.mysql-query.html) - Надсилає запит MySQL
+-   [mysql\_select\_db()](function.mysql-select-db.html) - Вибирає базу даних MySQL

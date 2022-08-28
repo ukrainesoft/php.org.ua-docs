@@ -1,23 +1,30 @@
-- [«EvStat::createStopped](evstat.createstopped.md)
-- [EvStat::set »](evstat.set.md)
+Повертає попередній набір значень, які повертаються EvStat::attr
 
-- [PHP Manual](index.md)
-- [EvStat](class.evstat.md)
-- Повертає попередній набір значень, які повертаються EvStat::attr
+-   [« EvStat::createStopped](evstat.createstopped.html)
+    
+-   [EvStat::set »](evstat.set.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [EvStat](class.evstat.html)
+    
+-   Повертає попередній набір значень, які повертаються EvStat::attr
+    
 
 # EvStat::prev
 
-(PECL ev \>= 0.2.0)
+(PECL ev >= 0.2.0)
 
-EvStat::prev — Повертає попередній набір значень, що повертаються
-EvStat::attr
+EvStat::prev — Повертає попередній набір значень, які повертаються EvStat::attr
 
 ### Опис
 
-public **EvStat::prev**(): void
+```methodsynopsis
+public
+   EvStat::prev(): void
+```
 
-Як і [EvStat::attr()](evstat.attr.md) , але повертає попередній
-набір значень.
+Як і [EvStat::attr()](evstat.attr.html) але повертає попередній набір значень.
 
 ### Список параметрів
 
@@ -25,12 +32,9 @@ public **EvStat::prev**(): void
 
 ### Значення, що повертаються
 
-Повертає масив з тією ж структурою, що і масив, що повертається
-[EvStat::attr()](evstat.attr.md). Масив містить попередній набір
-значень.
+Повертає масив з тією ж структурою, що і масив, що повертається [EvStat::attr()](evstat.attr.html). Масив містить попередній набір значень.
 
 ### Дивіться також
 
-- [EvStat::attr()](evstat.attr.md) - Повертає значення нещодавно
-виявлені Ev
-- [EvStat::stat()](evstat.stat.md) - Ініціює виклик статистики
+-   [EvStat::attr()](evstat.attr.html) - Повертає значення, нещодавно виявлені Ev
+-   [EvStat::stat()](evstat.stat.html) - Ініціює виклик статистики

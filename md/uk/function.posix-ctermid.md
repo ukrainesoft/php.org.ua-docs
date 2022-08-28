@@ -1,24 +1,29 @@
-- [«posix_access](function.posix-access.md)
-- [posix_errno»](function.posix-errno.md)
+Повертає шлях керуючого терміналу
 
-- [PHP Manual](index.md)
-- [POSIX Функції](ref.posix.md)
-- Повертає шлях керуючого терміналу
+-   [« posix\_access](function.posix-access.html)
+    
+-   [posix\_errno »](function.posix-errno.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [POSIX Функции](ref.posix.html)
+    
+-   Повертає шлях керуючого терміналу
+    
 
-#posix_ctermid
+# posixctermid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posix_ctermid - Повертає шлях керуючого терміналу
+posixctermid - Повертає шлях керуючого терміналу
 
 ### Опис
 
-**posix_ctermid**(): string\|false
+```methodsynopsis
+posix_ctermid(): string|false
+```
 
-Повертає змінну типу string, що містить шлях до поточного
-керуючого терміналу цього процесу. У разі виникнення помилки
-буде встановлено її номер, який можна обробити з використанням
-[posix_get_last_error()](function.posix-get-last-error.md)
+Повертає змінну типу string, що містить шлях до поточного керуючого терміналу цього процесу. У разі виникнення помилки буде встановлено її номер, який можна обробити з використанням [posix\_get\_last\_error()](function.posix-get-last-error.html)
 
 ### Список параметрів
 
@@ -26,23 +31,21 @@ posix_ctermid - Повертає шлях керуючого терміналу
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає string із шляхом до поточного
-керуючого терміналу. В іншому випадку повертає **`false`** та
-встановлює номер помилки, який може бути оброблений за допомогою
-[posix_get_last_error()](function.posix-get-last-error.md).
+У разі успішного виконання повертає string шляхом до поточного керуючого терміналу. В іншому випадку повертає **`false`** та встановлює номер помилки, який може бути оброблений за допомогою [posix\_get\_last\_error()](function.posix-get-last-error.html)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posix_ctermid()****
+**Приклад #1 Приклад використання **posixctermid()****
 
 Цей скрипт виводить шлях до поточного керуючого терміналу (TTY).
 
-`<?phpecho "I am running from ".posix_ctermid();?> `
+```php
+<?php
+echo "I am running from ".posix_ctermid();
+?>
+```
 
 ### Дивіться також
 
-- [posix_ttyname()](function.posix-ttyname.md) - Визначає ім'я
-термінального пристрою
-- [posix_get_last_error()](function.posix-get-last-error.md) -
-Повертає номер помилки, що сталася в останній
-функції, що завершилася невдачею
+-   [posix\_ttyname()](function.posix-ttyname.html) - Визначає ім'я термінального пристрою
+-   [posix\_get\_last\_error()](function.posix-get-last-error.html) - Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею

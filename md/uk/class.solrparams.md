@@ -1,81 +1,68 @@
-- [« SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md)
-- [SolrParams::add »](solrparams.add.md)
+Клас SolrParams
 
-- [PHP Manual](index.md)
-- [Solr](book.solr.md)
-- Клас SolrParams
+-   [« SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.html)
+    
+-   [SolrParams::add »](solrparams.add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Solr](book.solr.html)
+    
+-   Клас SolrParams
+    
 
 # Клас SolrParams
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
 ## Вступ
 
-Представляє колекцію пар "ім'я-значення", що надсилається на сервер Solr
-під час запиту.
+Представляє колекцію пар "ім'я-значення", що надсилається на сервер Solr під час запиту.
 
 ## Огляд класів
 
-abstract class **SolrParams** implements
-[Serializable](class.serializable.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-final public [add](solrparams.add.md)(string `$name`, string
-`$value`): [SolrParams](class.solrparams.md)
 
-public [addParam](solrparams.addparam.md)(string `$name`, string
-`$value`): [SolrParams](class.solrparams.md)
+    
+     
+      abstract
+      class SolrParams
+     
 
-final public [get](solrparams.get.md)(string `$param_name`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+     implements 
+       Serializable {
 
-final public [getParam](solrparams.getparam.md)(string `$param_name` =
-?):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-final public [getParams](solrparams.getparams.md)(): array
 
-final public [getPreparedParams](solrparams.getpreparedparams.md)():
-array
+    /* Методы */
+    
+   final public add(string $name, string $value): SolrParams
+public addParam(string $name, string $value): SolrParams
+final public get(string $param_name): mixed
+final public getParam(string $param_name = ?): mixed
+final public getParams(): array
+final public getPreparedParams(): array
+final public serialize(): string
+final public set(string $name, string $value): void
+public setParam(string $name, string $value): SolrParams
+final public toString(bool $url_encode = false): string
+final public unserialize(string $serialized): void
 
-final public [serialize](solrparams.serialize.md)(): string
-
-final public [set](solrparams.set.md)(string $name, string
-`$value`): void
-
-public [setParam](solrparams.setparam.md)(string `$name`, string
-`$value`): [SolrParams](class.solrparams.md)
-
-final public [toString](solrparams.tostring.md)(bool `$url_encode` =
-**`false`**): string
-
-final public [unserialize](solrparams.unserialize.md)(string
-`$serialized`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [SolrParams::add](solrparams.add.md) - Псевдонім
-SolrParams::addParam
-- [SolrParams::addParam](solrparams.addparam.md) — Додає
-параметр до об'єкту
-- [SolrParams::get](solrparams.get.md) - Псевдонім
-SolrParams::getParam
-- [SolrParams::getParam](solrparams.getparam.md) - Повертає
-значення параметру
-- [SolrParams::getParams](solrparams.getparams.md) - Повертає
-масив параметрів, не в URL-закодованому вигляді
-- [SolrParams::getPreparedParams](solrparams.getpreparedparams.md) -
-Повертає масив параметрів в URL-коді
-- [SolrParams::serialize](solrparams.serialize.md) — Використовується
-для користувальницької серіалізації
-- [SolrParams::set](solrparams.set.md) - Псевдонім
-SolrParams::setParam
-- [SolrParams::setParam](solrparams.setparam.md) — Встановлює
-параметр на вказане значення
-- [SolrParams::toString](solrparams.tostring.md) — Повертає все
-параметри об'єкта у вигляді пар ім'я-значення
-- [SolrParams::unserialize](solrparams.unserialize.md)
-Використовується для серіалізації користувача
+-   [SolrParams::add](solrparams.add.html) - Псевдонім SolrParams::addParam
+-   [SolrParams::addParam](solrparams.addparam.html) — Додає параметр до об'єкту
+-   [SolrParams::get](solrparams.get.html) - Псевдонім SolrParams::getParam
+-   [SolrParams::getParam](solrparams.getparam.html) — Повертає значення параметра
+-   [SolrParams::getParams](solrparams.getparams.html) — Повертає масив параметрів, не в URL-закодованому вигляді
+-   [SolrParams::getPreparedParams](solrparams.getpreparedparams.html) — Повертає масив параметрів в URL-адресі
+-   [SolrParams::serialize](solrparams.serialize.html) — Використовується для серіалізації користувача
+-   [SolrParams::set](solrparams.set.html) - Псевдонім SolrParams::setParam
+-   [SolrParams::setParam](solrparams.setparam.html) — Встановлює параметр на вказане значення
+-   [SolrParams::toString](solrparams.tostring.html) — Повертає всі параметри об'єкта у вигляді пар ім'я-значення
+-   [SolrParams::unserialize](solrparams.unserialize.html) — Використовується для серіалізації користувача

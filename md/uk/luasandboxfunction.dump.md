@@ -1,19 +1,27 @@
-- [« LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.md)
-- [LuaSandboxError »](class.luasandboxerror.md)
+Вивантажує функцію у вигляді BLOB
 
-- [PHP Manual](index.md)
-- [LuaSandboxFunction](class.luasandboxfunction.md)
-- Вивантажує функцію у вигляді BLOB
+-   [« LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.html)
+    
+-   [LuaSandboxError »](class.luasandboxerror.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandboxFunction](class.luasandboxfunction.html)
+    
+-   Вивантажує функцію у вигляді BLOB
+    
 
 # LuaSandboxFunction::dump
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
 LuaSandboxFunction::dump — Вивантажує функцію у вигляді BLOB
 
 ### Опис
 
-public **LuaSandboxFunction::dump**(): string
+```methodsynopsis
+public LuaSandboxFunction::dump(): string
+```
 
 Вивантажує функцію як BLOB.
 
@@ -23,5 +31,4 @@ public **LuaSandboxFunction::dump**(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, який може бути переданий
-[LuaSandbox::loadBinary()](luasandbox.loadbinary.md).
+Повертає рядок, який може бути переданий [LuaSandbox::loadBinary()](luasandbox.loadbinary.html)

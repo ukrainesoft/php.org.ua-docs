@@ -1,39 +1,41 @@
-- [«gmp_gcd](function.gmp-gcd.md)
-- [gmp_hamdist »](function.gmp-hamdist.md)
+Обчислення НОД та множників
 
-- [PHP Manual](index.md)
-- [GMP Функції](ref.gmp.md)
-- Обчислення НОД та множників
+-   [« gmp\_gcd](function.gmp-gcd.html)
+    
+-   [gmp\_hamdist »](function.gmp-hamdist.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GMP Функции](ref.gmp.html)
+    
+-   Обчислення НОД та множників
+    
 
-#gmp_gcdext
+# gmpgcdext
 
-(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmp_gcdext — Обчислення НОД та множників
+gmpgcdext — Обчислення НОД та множників
 
 ### Опис
 
-**gmp_gcdext**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`): array
+```methodsynopsis
+gmp_gcdext(GMP|int|string $num1, GMP|int|string $num2): array
+```
 
-Обчислює величини g, s і t, у виразі `a * s + b * t = g = gcd (a, b) `,
-де gcd – найбільший спільний дільник. Повертає масив, значення
-якого відповідають значенням величин g, s та t.
+Обчислює величини g, s та t, у вираженні `a*s + b*t = g = gcd(a,b)`, де gcd – найбільший спільний дільник. Повертає масив, значення якого відповідають значенням величин g, s та t.
 
-Ця функція може використовуватися для вирішення Диофантових рівнянь з
-двома змінними. Це такі рівняння, які мають лише
-цілі рішення і мають вигляд: `a*x + b*y = c`. За додатковою
-інформацією звертайтеся на [» сторінку "Діофантове рівняння" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.md)
+Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» страницу "Диофантово уравнение" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.html)
 
 ### Список параметрів
 
 `num1`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 `num2`
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок
-(string).
+
+Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -43,6 +45,27 @@ gmp_gcdext — Обчислення НОД та множників
 
 **Приклад #1 Рішення лінійного рівняння Діофанту**
 
-`<?php// Рішення рівняння a*s + b*t = g// де a = 12, b = 21, g = gcd(12, 21) = 3$a =   (21);$g = gmp_gcd($a, $b);$r = gmp_gcdext($a, $b);$check_gcd = (gmp_strval($g) == gmp_strval($r['g'])) ;$eq_res = gmp_add(gmp_mul($a, $r['s']), gmp_mul($b, $r['t']));$check_res = (gmp_strval($g) == gmp_strval($eq_res ));if ($check_gcd && $check_res) {    $fmt = "Solution: %d*%d + %d*%d = %d
-";    printf($fmt, gmp_strval($a), gmp_strval($r['s']), gmp_strval($b),   gmp_strval($r['t']), gmp_strval($r['g'] ));} else {   echo "Помилка під час рішення рівняння
-";}// висновок: Рішення: 12*2 + 21*-1 = 3?> `
+```php
+<?php
+// Решение уравнения a*s + b*t = g
+// где a = 12, b = 21, g = gcd(12, 21) = 3
+$a = gmp_init(12);
+$b = gmp_init(21);
+$g = gmp_gcd($a, $b);
+$r = gmp_gcdext($a, $b);
+
+$check_gcd = (gmp_strval($g) == gmp_strval($r['g']));
+$eq_res = gmp_add(gmp_mul($a, $r['s']), gmp_mul($b, $r['t']));
+$check_res = (gmp_strval($g) == gmp_strval($eq_res));
+
+if ($check_gcd && $check_res) {
+    $fmt = "Solution: %d*%d + %d*%d = %d\n";
+    printf($fmt, gmp_strval($a), gmp_strval($r['s']), gmp_strval($b),
+    gmp_strval($r['t']), gmp_strval($r['g']));
+} else {
+    echo "Ошибка во время решения уравнения\n";
+}
+
+// вывод: Решение: 12*2 + 21*-1 = 3
+?>
+```

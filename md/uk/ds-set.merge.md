@@ -1,64 +1,78 @@
-- [« Ds\Set::last](ds-set.last.md)
-- [Ds\Set::reduce »](ds-set.reduce.md)
+Повертає результат додавання всіх заданих значень до набору
 
-- [PHP Manual](index.md)
-- [Набір](class.ds-set.md)
-- Повертає результат додавання всіх заданих значень до набору
+-   [« Ds\\Set::last](ds-set.last.html)
+    
+-   [Ds\\Set::reduce »](ds-set.reduce.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Набор](class.ds-set.html)
+    
+-   Повертає результат додавання всіх заданих значень до набору
+    
 
-# Ds\Set::merge
+# ДсSet::merge
 
-(PECL ds \>= 1.0.3)
+(PECL ds >= 1.0.3)
 
-Ds\Set::merge — Повертає результат додавання всіх заданих значень
-набір
+ДсSet::merge — Повертає результат додавання всіх заданих значень до набору
 
 ### Опис
 
-public
-**Ds\Set::merge**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$values`): [Ds\Set](class.ds-set.md)
+```methodsynopsis
+public Ds\Set::merge(mixed $values): Ds\Set
+```
 
 Повертає результат додавання всіх заданих значень набір.
 
 ### Список параметрів
 
 `values`
-Об'єкт класу [traversable](class.traversable.md) чи масив (array).
+
+Об'єкт класу [traversable](class.traversable.html) чи масив (array).
 
 ### Значення, що повертаються
 
-Результат додавання всіх переданих значень до набору. Фактично
-робиться копія набору, до якої додаються значення.
+Результат додавання всіх переданих значень до набору. Фактично робиться копія набору, до якої додаються значення.
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Поточний екземпляр набору залишиться недоторканим.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Set::merge()****
+**Приклад #1 Приклад використання **ДсSet::merge()****
 
-` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->merge([3, 4, 5]));var_dump($set);?> `
+```php
+<?php
+$set = new \Ds\Set([1, 2, 3]);
+
+var_dump($set->merge([3, 4, 5]));
+var_dump($set);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Set)#2 (6) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
-[3]=>
-int(4)
-[4]=>
-int(5)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+  [3]=>
+  int(4)
+  [4]=>
+  int(5)
 }
 object(Ds\Set)#1 (3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

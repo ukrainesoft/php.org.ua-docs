@@ -1,19 +1,27 @@
-- [« Yaf_Request_Abstract::isCli](yaf-request-abstract.iscli.md)
-- [Yaf_Request_Abstract::isGet »](yaf-request-abstract.isget.md)
+Визначає, чи надіслано запит
 
-- [PHP Manual](index.md)
-- [Yaf_Request_Abstract](class.yaf-request-abstract.md)
-- Визначає, чи надіслано запит
+-   [« Yaf\_Request\_Abstract::isCli](yaf-request-abstract.iscli.html)
+    
+-   [Yaf\_Request\_Abstract::isGet »](yaf-request-abstract.isget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Request\_Abstract](class.yaf-request-abstract.html)
+    
+-   Визначає, чи надіслано запит
+    
 
-# Yaf_Request_Abstract::isDispatched
+# YafRequestAbstract::isDispatched
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Request_Abstract::isDispatched — Визначає, чи надіслано запит
+YafRequestAbstract::isDispatched — Визначає, чи надіслано запит.
 
 ### Опис
 
-public **Yaf_Request_Abstract::isDispatched**(): bool
+```methodsynopsis
+public Yaf_Request_Abstract::isDispatched(): bool
+```
 
 ### Список параметрів
 
@@ -25,5 +33,4 @@ public **Yaf_Request_Abstract::isDispatched**(): bool
 
 ### Дивіться також
 
-- [Yaf_Dispatcher::dispatch()](yaf-dispatcher.dispatch.md) -
-Надсилає запит
+-   [Yaf\_Dispatcher::dispatch()](yaf-dispatcher.dispatch.html) - Надсилає запит

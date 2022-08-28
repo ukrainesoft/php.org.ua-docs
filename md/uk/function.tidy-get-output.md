@@ -1,40 +1,59 @@
-- [« tidy_error_count](function.tidy-error-count.md)
-- [tidy_warning_count »](function.tidy-warning-count.md)
+Повертає рядок, який представляє розібрану tidy-розмітку
 
-- [PHP Manual](index.md)
-- [Tidy](ref.tidy.md)
-- Повертає рядок, який представляє розібрану tidy-розмітку
+-   [« tidy\_error\_count](function.tidy-error-count.html)
+    
+-   [tidy\_warning\_count »](function.tidy-warning-count.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Tidy](ref.tidy.html)
+    
+-   Повертає рядок, який представляє розібрану tidy-розмітку
+    
 
-# tidy_get_output
+# tidygetoutput
 
-(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
 
-tidy_get_output - Повертає рядок, що представляє розібраний
-tidy-розмітку
+tidygetoutput - Повертає рядок, що представляє розібрану tidy-розмітку
 
 ### Опис
 
-**tidy_get_output**([tidy](class.tidy.md) `$tidy`): string
+```methodsynopsis
+tidy_get_output(tidy $tidy): string
+```
 
 Отримати рядок з відновленим HTML.
 
 ### Список параметрів
 
 `tidy`
-Об'єкт [Tidy](class.tidy.md).
+
+Об'єкт [Tidy](class.tidy.html)
 
 ### Значення, що повертаються
 
-Повертає розібрану розмітку.
+Повертає розібрану tidy-розмітку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy_get_output()****
+**Приклад #1 Приклад використання **tidygetoutput()****
 
-` <?php$html = '<p>параграф</i>';$tidy = tidy_parse_string($html);$tidy->cleanRepair();echo tidy_get_output($tidy);?> `
+```php
+<?php
+
+$html = '<p>параграф</i>';
+$tidy = tidy_parse_string($html);
+
+$tidy->cleanRepair();
+
+echo tidy_get_output($tidy);
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html>
 <head>
@@ -44,3 +63,4 @@ tidy-розмітку
 <p>параграф</p>
 </body>
 </html>
+```

@@ -1,45 +1,45 @@
-- [« LuaSandbox::registerLibrary](luasandbox.registerlibrary.md)
-- [LuaSandbox::setMemoryLimit »](luasandbox.setmemorylimit.md)
+Встановлює обмеження часу процесора для середовища Lua
 
-- [PHP Manual](index.md)
-- [LuaSandbox](class.luasandbox.md)
-- Встановлює обмеження часу процесора для середовища Lua
+-   [« LuaSandbox::registerLibrary](luasandbox.registerlibrary.html)
+    
+-   [LuaSandbox::setMemoryLimit »](luasandbox.setmemorylimit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LuaSandbox](class.luasandbox.html)
+    
+-   Встановлює обмеження часу процесора для середовища Lua
+    
 
 # LuaSandbox::setCPULimit
 
-(PECL luasandbox \>= 1.0.0)
+(PECL luasandbox >= 1.0.0)
 
-LuaSandbox::setCPULimit — Встановлює обмеження часу процесора
-для середовища Lua
+LuaSandbox::setCPULimit — Встановлює обмеження часу процесора для середовища Lua
 
 ### Опис
 
-public **LuaSandbox::setCPULimit**(float\|bool `$limit`): void
+```methodsynopsis
+public LuaSandbox::setCPULimit(float|bool $limit): void
+```
 
 Встановлює обмеження часу процесора для середовища Lua.
 
-Якщо загальний користувальницький та системний час, використовуваний середовищем після
-виклику методу, що перевищує це обмеження, викидається виняток
-[LuaSandboxTimeoutError](class.luasandboxtimeouterror.md).
+Якщо загальний користувальницький та системний час, що використовується середовищем після виклику методу, перевищує це обмеження, викидається виняток [LuaSandboxTimeoutError](class.luasandboxtimeouterror.html)
 
-Час, який використовується в callback-функціях PHP, включено в ліміт.
+Час, що використовується в callback-функціях PHP, включено до ліміту.
 
-Установка обмеження часу для callback-функції під час роботи
-Lua призводить до скидання таймера або його запуску, якщо він ще не був
-запущений.
+Встановлення обмеження часу для callback-функції під час роботи Lua призводить до скидання таймера або його запуску, якщо він ще не був запущений.
 
-> **Примітка**:
->
-> У Windows обмеження процесора ігнорується. В операційних
-> системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких
-> як FreeBSD та Mac OS X, буде обмежено фактичний час, а не час
-> процесора.
+> **Зауваження**
+> 
+> У Windows обмеження процесора ігнорується. В операційних системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких як FreeBSD та Mac OS X, буде обмежено фактичний час, а не час процесора.
 
 ### Список параметрів
 
 `limit`
-Обмеження як число з плаваючою точкою (float) в секундах або `false`,
-щоб не обмежувати.
+
+Обмеження як число з плаваючою точкою (float) у секундах або `false`щоб не обмежувати.
 
 ### Значення, що повертаються
 
@@ -49,15 +49,28 @@ Lua призводить до скидання таймера або його з
 
 **Приклад #1 Виклик функції Lua**
 
-` <?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// установка ліміту$sandbox->setCPULimit( 2 );// запуск кода Lua$sandbox->load   call();?> `
+```php
+<?php
+
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
+
+// установка лимита
+$sandbox->setCPULimit( 2 );
+
+// запуск кода Lua
+$sandbox->loadString( 'while true do end' )->call();
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
-PHP Fatal error: Uncaught LuaSandboxTimeoutError: The maximum execution time for this script was exceeded
+```
+PHP Fatal error:  Uncaught LuaSandboxTimeoutError: The maximum execution time for this script was exceeded
+```
 
 ### Дивіться також
 
-- [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) -
-Повертає поточний час використання процесора у середовищі Lua
-- [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) -
-Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.html) - Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.html) - Встановлює межу пам'яті для середовища Lua

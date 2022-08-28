@@ -1,46 +1,60 @@
-- [« Ds\Queue::clear](ds-queue.clear.md)
-- [Ds\Queue::copy »](ds-queue.copy.md)
+Створює новий екземпляр
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Створює новий екземпляр
+-   [« Ds\\Queue::clear](ds-queue.clear.html)
+    
+-   [Ds\\Queue::copy »](ds-queue.copy.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь](class.ds-queue.html)
+    
+-   Створює новий екземпляр
+    
 
-# Ds\Queue::\_\_construct
+# ДсQueue::construct
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Queue::\_\_construct — Створює новий екземпляр
+ДсQueue::construct — Створює новий екземпляр
 
 ### Опис
 
-public
-**Ds\Queue::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values = ?)
+public **ДсQueue::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр, використовуючи або об'єкт, що реалізує
-[traversable](class.traversable.md), або масив, передані в
-як параметр `values`.
+Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
 
 ### Список параметрів
 
 `values`
+
 Об'єкт, що реалізує інтерфейс traversable або масив.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Queue::\_\_construct()****
+**Приклад #1 Приклад використання **ДсQueue::construct()****
 
-` <?php$queue = new \Ds\Queue();var_dump($queue);$queue = new \Ds\Queue([1, 2, 3]);var_dump($queue);?> `
+```php
+<?php
+$queue = new \Ds\Queue();
+var_dump($queue);
+
+
+$queue = new \Ds\Queue([1, 2, 3]);
+var_dump($queue);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(Ds\Queue)#2 (0) {
 }
 object(Ds\Queue)#2 (3) {
-[0]=>
-int(1)
-[1]=>
-int(2)
-[2]=>
-int(3)
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
 }
+```

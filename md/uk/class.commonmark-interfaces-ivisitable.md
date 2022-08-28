@@ -1,27 +1,42 @@
-- [« CommonMark\Interfaces\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md)
-- [CommonMark\Interfaces\IVisitable::accept »](commonmark-interfaces-ivisitable.accept.md)
+Інтерфейс CommonMarkInterfacesIVisitable
 
-- [PHP Manual](index.md)
-- [CommonMark](book.cmark.md)
-- Інтерфейс CommonMark \ Interfaces \ IVisitable
+-   [« CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.html)
+    
+-   [CommonMark\\Interfaces\\IVisitable::accept »](commonmark-interfaces-ivisitable.accept.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [CommonMark](book.cmark.html)
+    
+-   Інтерфейс CommonMarkInterfacesIVisitable
+    
 
-# Інтерфейс CommonMark \ Interfaces \ IVisitable
+# Інтерфейс CommonMarkInterfacesIVisitable
 
-(cmark \>= 1.0.0)
+(cmark >= 1.0.0)
 
 ## Вступ
 
 ## Огляд класів
 
-final class **CommonMark\Interfaces\IVisitable** {
+```classsynopsis
 
-abstract public
-[accept](commonmark-interfaces-ivisitable.accept.md)([CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-`$visitor`): void
 
-}
+
+    
+     
+      final
+      class CommonMark\Interfaces\IVisitable
+     
+     {
+
+
+    
+   abstract public accept(CommonMark\Interfaces\IVisitor $visitor): void
+
+   }
+```
 
 ## Зміст
 
-- [CommonMark\Interfaces\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md)
-- Visitation
+-   [CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.html) - Visitation

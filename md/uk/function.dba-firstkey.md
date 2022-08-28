@@ -1,40 +1,42 @@
-- [«dba_fetch](function.dba-fetch.md)
-- [dba_handlers »](function.dba-handlers.md)
+Витягує перший ключ
 
-- [PHP Manual](index.md)
-- [Функції DBA](ref.dba.md)
-- Витягує перший ключ
+-   [« dba\_fetch](function.dba-fetch.html)
+    
+-   [dba\_handlers »](function.dba-handlers.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции DBA](ref.dba.html)
+    
+-   Витягує перший ключ
+    
 
-#dba_firstkey
+# dbafirstkey
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dba_firstkey — Витягує перший ключ
+dbafirstkey — Витягує перший ключ
 
 ### Опис
 
-**dba_firstkey**(resource `$dba`): string\|false
+```methodsynopsis
+dba_firstkey(resource $dba): string|false
+```
 
-**dba_firstkey()** повертає перший ключ із бази даних та скидає
-внутрішній покажчик. Це дозволяє проводити прямий пошук по всій
-базі.
+**dbafirstkey()** повертає перший ключ із бази даних і скидає внутрішній покажчик. Це дозволяє робити прямий пошук по всій базі.
 
 ### Список параметрів
 
 `dba`
-Обробник бази даних, повернутий
-[dba_open()](function.dba-open.md) або
-[dba_popen()](function.dba-popen.md).
+
+Обробник бази даних, повернутий [dba\_open()](function.dba-open.html) або [dba\_popen()](function.dba-popen.html)
 
 ### Значення, що повертаються
 
-Повертає ключ у разі успішного виконання або **`false`** у разі
-виникнення помилки.
+Повертає ключ у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [dba_nextkey()](function.dba-nextkey.md) - Витягує наступний
-ключ
-- [dba_key_split()](function.dba-key-split.md) - розділяє ключ,
-заданий у вигляді рядка та створює масив з отриманих частин
-- Другий приклад у [прикладах DBA](dba.examples.md)
+-   [dba\_nextkey()](function.dba-nextkey.html) - Витягує наступний ключ
+-   [dba\_key\_split()](function.dba-key-split.html) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
+-   Другий приклад у [примерах DBA](dba.examples.html)

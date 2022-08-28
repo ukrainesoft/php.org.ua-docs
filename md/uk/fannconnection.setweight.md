@@ -1,30 +1,36 @@
-- [« FANNConnection::getWeight](fannconnection.getweight.md)
-- [Igbinary »](book.igbinary.md)
+Встановлює вагу зв'язку
 
-- [PHP Manual](index.md)
-- [FANNConnection](class.fannconnection.md)
-- Встановлює вагу зв'язку
+-   [« FANNConnection::getWeight](fannconnection.getweight.html)
+    
+-   [Igbinary »](book.igbinary.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FANNConnection](class.fannconnection.html)
+    
+-   Встановлює вагу зв'язку
+    
 
 # FANNConnection::setWeight
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
 FANNConnection::setWeight — Встановлює вагу зв'язку
 
 ### Опис
 
-public **FANNConnection::setWeight**(float `$weight`): void
+```methodsynopsis
+public FANNConnection::setWeight(float $weight): void
+```
 
 Встановлює вагу зв'язку.
 
-Цей метод відрізняється від
-[fann_set_weight()](function.fann-set-weight.md). Він не оновлює
-значення ваги у мережі. Значення в мережі оновиться лише після дзвінка
-[fann_set_weight_array()](function.fann-set-weight-array.md).
+Цей метод відрізняється від [fann\_set\_weight()](function.fann-set-weight.html). Він не оновлює значення ваги мережі. Значення в мережі оновиться лише після дзвінка [fann\_set\_weight\_array()](function.fann-set-weight-array.html)
 
 ### Список параметрів
 
 `weight`
+
 Вага зв'язку.
 
 ### Значення, що повертаються

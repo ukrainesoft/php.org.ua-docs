@@ -1,22 +1,29 @@
-- [« Generator::getReturn](generator.getreturn.md)
-- [Generator::next »](generator.next.md)
+Отримати ключ згенерованого елемента
 
-- [PHP Manual](index.md)
-- [Generator](class.generator.md)
-- Отримати ключ згенерованого елемента
+-   [« Generator::getReturn](generator.getreturn.html)
+    
+-   [Generator::next »](generator.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Generator](class.generator.html)
+    
+-   Отримати ключ згенерованого елемента
+    
 
 # Generator::key
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 Generator::key — Отримати ключ згенерованого елемента
 
 ### Опис
 
-public **Generator::key**():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+public Generator::key(): mixed
+```
 
-Отримує ключ генерованого елемента.
+Отримує ключ згенерованого елемента.
 
 ### Список параметрів
 
@@ -30,8 +37,21 @@ public **Generator::key**():
 
 **Приклад #1 Приклад використання **Generator::key()****
 
-` <?phpfunction Gen(){   yield 'key' => 'value';}$gen = Gen();echo "{$gen->key()} => {$gen->current()}"; `
+```php
+<?php
+
+function Gen()
+{
+    yield 'key' => 'value';
+}
+
+$gen = Gen();
+
+echo "{$gen->key()} => {$gen->current()}";
+```
 
 Результат виконання цього прикладу:
 
+```
 key => value
+```

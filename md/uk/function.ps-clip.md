@@ -1,35 +1,40 @@
-- [«ps_circle](function.ps-circle.md)
-- [ps_close_image »](function.ps-close-image.md)
+Відображення кліпів по поточному шляху
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Відображення кліпів по поточному шляху
+-   [« ps\_circle](function.ps-circle.html)
+    
+-   [ps\_close\_image »](function.ps-close-image.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Відображення кліпів по поточному шляху
+    
 
-#ps_clip
+# псclip
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_clip — Відтворення кліпів по поточному шляху
+псclip — Відтворення кліпів поточним шляхом
 
 ### Опис
 
-**ps_clip**(resource `$psdoc`): bool
+```methodsynopsis
+ps_clip(resource $psdoc): bool
+```
 
-Бере поточний шлях та використовує його для визначення межі області
-відсікання. Все, що намальовано за межами цієї області, не буде
-видно.
+Бере поточний шлях та використовує його для визначення межі області відсікання. Все, що намальовано за межами цієї галузі, не буде видно.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий функцією
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_closepath()](function.ps-closepath.md) - Замикає шлях
+-   [ps\_closepath()](function.ps-closepath.html) - Замикає шлях

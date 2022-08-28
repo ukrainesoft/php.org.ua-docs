@@ -1,9 +1,15 @@
-- [« Imagick::roundCorners](imagick.roundcorners.md)
-- [Imagick::scaleImage »](imagick.scaleimage.md)
+Масштабує зображення з піксельною вибіркою
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Масштабує зображення з піксельною вибіркою
+-   [« Imagick::roundCorners](imagick.roundcorners.html)
+    
+-   [Imagick::scaleImage »](imagick.scaleimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Масштабує зображення з піксельною вибіркою
+    
 
 # Imagick::sampleImage
 
@@ -13,11 +19,11 @@ Imagick::sampleImage — Масштабує зображення з піксел
 
 ### Опис
 
-public **Imagick::sampleImage**(int `$columns`, int `$rows`): bool
+```methodsynopsis
+public Imagick::sampleImage(int $columns, int $rows): bool
+```
 
-Масштабує зображення до бажаних розмірів за допомогою вибірки
-пікселів. На відміну від інших методів масштабування, цей метод не
-вводить додатковий колір у масштабоване зображення.
+Масштабує зображення до бажаних розмірів за допомогою вибірки пікселів. На відміну від інших методів масштабування, цей метод не вводить додатковий колір у масштабоване зображення.
 
 ### Список параметрів
 
@@ -27,4 +33,4 @@ public **Imagick::sampleImage**(int `$columns`, int `$rows`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**

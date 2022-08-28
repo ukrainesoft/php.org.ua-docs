@@ -1,21 +1,26 @@
-- [« ocinumcols](function.ocinumcols.md)
-- [Ociplogon »](function.ociplogon.md)
+Псевдонім ociparse
 
-- [PHP Manual](index.md)
-- [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
-- Псевдонім oci_parse
+-   [« ocinumcols](function.ocinumcols.html)
+    
+-   [ociplogon »](function.ociplogon.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Устаревшие наименования и функции OCI8](oldaliases.oci8.html)
+    
+-   Псевдонім ociparse
+    
 
 # ociparse
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociparse - Псевдонім [oci_parse()](function.oci-parse.md)
+ociparse - Псевдонім [oci\_parse()](function.oci-parse.html)
 
 ### Опис
 
-Псевдонім [oci_parse()](function.oci-parse.md)
+Псевдонім [oci\_parse()](function.oci-parse.html)
 
 **Увага**
 
-Цей псевдонім функції *ЗАСТАРІВ*, починаючи з PHP 5.4.0. Використання
-цього псевдоніма не рекомендується.
+Цей псевдонім функції *ЗАСТАРІВ*починаючи з PHP 5.4.0. Використання цього псевдоніма не рекомендується.

@@ -1,10 +1,16 @@
-- [« Типи ресурсів](ffi.resources.md)
-- [Приклади »](ffi.examples.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [FFI](book.ffi.md)
-- Обумовлені константи
+-   [« Типы ресурсов](ffi.resources.html)
+    
+-   [Примеры »](ffi.examples.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FFI](book.ffi.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

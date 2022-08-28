@@ -1,29 +1,38 @@
-- [« trader_ht_trendmode](function.trader-ht-trendmode.md)
-- [trader_linearreg_angle »](function.trader-linearreg-angle.md)
+Адаптивна ковзна середня Кауфмана
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Адаптивна ковзна середня Кауфмана
+-   [« trader\_ht\_trendmode](function.trader-ht-trendmode.html)
+    
+-   [trader\_linearreg\_angle »](function.trader-linearreg-angle.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Адаптивна ковзна середня Кауфмана
+    
 
-# trader_kama
+# traderkama
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_kama - Адаптивна ковзна середня Кауфмана
+traderkama - Адаптивна ковзна середня Кауфмана
 
 ### Опис
 
-**trader_kama**(array `$real`, int `$timePeriod` = ?): array
+```methodsynopsis
+trader_kama(array $real, int $timePeriod = ?): array
+```
 
 ### Список параметрів
 
 `real`
-Масив, який містить реальні значення.
+
+Масив, що містить реальні значення.
 
 `timePeriod`
+
 Номер періоду. Допустимі значення від 2 до 100000.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

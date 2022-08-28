@@ -1,13 +1,19 @@
-- [«Вступ](intro.ui.md)
-- [Вимоги »](ui.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
+-   [« Введение](intro.ui.html)
+    
+-   [Требования »](ui.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ui.requirements.md)
-- [Установка](ui.installation.md)
+-   [Требования](ui.requirements.html)
+-   [Установка](ui.installation.html)

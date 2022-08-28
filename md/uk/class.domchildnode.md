@@ -1,9 +1,15 @@
-- [« DOMCharacterData::substringData](domcharacterdata.substringdata.md)
-- [DOMChildNode::after »](domchildnode.after.md)
+Інтерфейс DOMChildNode
 
-- [PHP Manual](index.md)
-- [DOM](book.dom.md)
-- Інтерфейс DOMChildNode
+-   [« DOMCharacterData::substringData](domcharacterdata.substringdata.html)
+    
+-   [DOMChildNode::after »](domchildnode.after.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DOM](book.dom.html)
+    
+-   Інтерфейс DOMChildNode
+    
 
 # Інтерфейс DOMChildNode
 
@@ -11,32 +17,28 @@
 
 ## Огляд інтерфейсів
 
-interface **DOMChildNode** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public
-[after](domchildnode.after.md)([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
+    
+     
+      interface DOMChildNode {
 
-public
-[before](domchildnode.before.md)([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
+    /* Методы */
+    
+   public after(DOMNode|string ...$nodes): void
+public before(DOMNode|string ...$nodes): void
+public remove(): void
+public replaceWith(DOMNode|string ...$nodes): void
 
-public [remove](domchildnode.remove.md)(): void
-
-public
-[replaceWith](domchildnode.replacewith.md)([DOMNode](class.domnode.md)\|string
-`...$nodes`): void
-
-}
+   }
+```
 
 ## Зміст
 
-- [DOMChildNode::after](domchildnode.after.md) — Додає вузли
-після вузла
-- [DOMChildNode::before](domchildnode.before.md) — Додає вузли
-перед вузлом
-- [DOMChildNode::remove](domchildnode.remove.md) — Видаляє вузол
-- [DOMChildNode::replaceWith](domchildnode.replacewith.md)
-Замінює вузол новими вузлами
+-   [DOMChildNode::after](domchildnode.after.html) - Додає вузли після вузла
+-   [DOMChildNode::before](domchildnode.before.html) - Додає вузли перед вузлом
+-   [DOMChildNode::remove](domchildnode.remove.html) - Видаляє вузол
+-   [DOMChildNode::replaceWith](domchildnode.replacewith.html) - Замінює вузол новими вузлами

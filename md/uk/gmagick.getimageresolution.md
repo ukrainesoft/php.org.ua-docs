@@ -1,19 +1,27 @@
-- [« Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.md)
-- [Gmagick::getimagescene »](gmagick.getimagescene.md)
+Повертає роздільну здатність зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає роздільну здатність зображення
+-   [« Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.html)
+    
+-   [Gmagick::getimagescene »](gmagick.getimagescene.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає роздільну здатність зображення
+    
 
 # Gmagick::getimageresolution
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageresolution — Повертає роздільну здатність зображення
 
 ### Опис
 
-public **Gmagick::getimageresolution**(): array
+```methodsynopsis
+public Gmagick::getimageresolution(): array
+```
 
 Повертає роздільну здатність зображення у вигляді масиву.
 

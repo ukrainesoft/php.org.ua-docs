@@ -1,9 +1,15 @@
-- [« UI\Controls\Slider::setValue](ui-controls-slider.setvalue.md)
-- [UI\Controls\Progress::getValue »](ui-controls-progress.getvalue.md)
+Елемент управління "Хід виконання"
 
-- [PHP Manual](index.md)
-- [UI](book.ui.md)
-- Елемент управління "Хід виконання"
+-   [« UI\\Controls\\Slider::setValue](ui-controls-slider.setvalue.html)
+    
+-   [UI\\Controls\\Progress::getValue »](ui-controls-progress.getvalue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI](book.ui.html)
+    
+-   Елемент управління "Хід виконання"
+    
 
 # Елемент управління "Хід виконання"
 
@@ -11,51 +17,49 @@
 
 ## Вступ
 
-Елемент управління "Хід виконання" схожий на знайомий індикатор
-виконання: Він являє собою індикатор виконання у відсотках з
-допустимим діапазоном від 0 до 100 (включно).
+Елемент управління "Хід виконання" схожий на знайомий індикатор виконання: Він є індикатором виконання у відсотках з допустимим діапазоном від 0 до 100 (включно).
 
 ## Огляд класів
 
-class **UI\Controls\Progress** extends
-[UI\Control](class.ui-control.md) {
+```classsynopsis
 
-/\* Методи \*/
 
-public [getValue](ui-controls-progress.getvalue.md)(): int
 
-public [setValue](ui-controls-progress.setvalue.md)(int `$value`)
+    
+     
+      class UI\Controls\Progress
+     
 
-/\* Наслідувані методи \*/
+     
+      extends
+       UI\Control
+     
+     {
 
-public [UI\Control::destroy](ui-control.destroy.md)()
 
-public [UI\Control::disable](ui-control.disable.md)()
+    /* Методы */
+    
+   public getValue(): int
+public setValue(int $value)
 
-public [UI\Control::enable](ui-control.enable.md)()
 
-public [UI\Control::getParent](ui-control.getparent.md)():
-[UI\Control](class.ui-control.md)
+    /* Наследуемые методы */
+    public UI\Control::destroy()
+public UI\Control::disable()
+public UI\Control::enable()
+public UI\Control::getParent(): UI\Control
+public UI\Control::getTopLevel(): int
+public UI\Control::hide()
+public UI\Control::isEnabled(): bool
+public UI\Control::isVisible(): bool
+public UI\Control::setParent(UI\Control $parent)
+public UI\Control::show()
 
-public [UI\Control::getTopLevel](ui-control.gettoplevel.md)(): int
 
-public [UI\Control::hide](ui-control.hide.md)()
-
-public [UI\Control::isEnabled](ui-control.isenabled.md)(): bool
-
-public [UI\Control::isVisible](ui-control.isvisible.md)(): bool
-
-public
-[UI\Control::setParent](ui-control.setparent.md)([UI\Control](class.ui-control.md)
-`$parent`)
-
-public [UI\Control::show](ui-control.show.md)()
-
-}
+   }
+```
 
 ## Зміст
 
-- [UI\Controls\Progress::getValue](ui-controls-progress.getvalue.md)
-— Отримати значення
-- [UI\Controls\Progress::setValue](ui-controls-progress.setvalue.md)
-— Встановити значення
+-   [UI\\Controls\\Progress::getValue](ui-controls-progress.getvalue.html) — Отримати значення
+-   [UI\\Controls\\Progress::setValue](ui-controls-progress.setvalue.html) — Встановити значення

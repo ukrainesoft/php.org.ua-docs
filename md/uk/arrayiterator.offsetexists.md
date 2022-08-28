@@ -1,9 +1,15 @@
-- [« ArrayIterator::next](arrayiterator.next.md)
-- [ArrayIterator::offsetGet »](arrayiterator.offsetget.md)
+Перевіряє, чи існує зсув
 
-- [PHP Manual](index.md)
-- [ArrayIterator](class.arrayiterator.md)
-- Перевіряє, чи існує зсув
+-   [« ArrayIterator::next](arrayiterator.next.html)
+    
+-   [ArrayIterator::offsetGet »](arrayiterator.offsetget.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ArrayIterator](class.arrayiterator.html)
+    
+-   Перевіряє, чи існує зсув
+    
 
 # ArrayIterator::offsetExists
 
@@ -13,28 +19,26 @@ ArrayIterator::offsetExists — Перевіряє, чи існує зсув
 
 ### Опис
 
-public
-**ArrayIterator::offsetExists**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`): bool
+```methodsynopsis
+public ArrayIterator::offsetExists(mixed $key): bool
+```
 
 Перевіряє, чи існує зсув.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `key`
+
 Перевірене зміщення.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо зсув існує, інакше -
-**`false`**
+Повертає **`true`**, якщо зсув існує, інакше - **`false`**
 
 ### Дивіться також
 
-- [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє,
-містить масив ще записи
+-   [ArrayIterator::valid()](arrayiterator.valid.html) - Перевіряє, чи містить масив ще запису

@@ -1,9 +1,15 @@
-- [« ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.md)
-- [ZMQDevice::setTimerCallback »](zmqdevice.settimercallback.md)
+Встановити час очікування простою
 
-- [PHP Manual](index.md)
-- [ZMQDevice](class.zmqdevice.md)
-- Встановити час очікування простою
+-   [« ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.html)
+    
+-   [ZMQDevice::setTimerCallback »](zmqdevice.settimercallback.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZMQDevice](class.zmqdevice.html)
+    
+-   Встановити час очікування простою
+    
 
 # ZMQDevice::setIdleTimeout
 
@@ -13,15 +19,16 @@ ZMQDevice::setIdleTimeout — Встановити час очікування �
 
 ### Опис
 
-public **ZMQDevice::setIdleTimeout**(int `$timeout`):
-[ZMQDevice](class.zmqdevice.md)
+```methodsynopsis
+public ZMQDevice::setIdleTimeout(int $timeout): ZMQDevice
+```
 
-Встановлює значення час очікування запуску callback-функції у
-просте.
+Встановлює значення часу очікування запуску callback-функції при простої.
 
 ### Список параметрів
 
 `timeout`
+
 Значення у мілісекундах.
 
 ### Значення, що повертаються

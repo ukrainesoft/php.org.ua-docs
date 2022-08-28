@@ -1,24 +1,31 @@
-- [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
-- [ReflectionZendExtension::\_\_toString »](reflectionzendextension.tostring.md)
+Отримує версію
 
-- [PHP Manual](index.md)
-- [ReflectionZendExtension](class.reflectionzendextension.md)
-- Отримує версію
+-   [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.html)
+    
+-   [ReflectionZendExtension::\_\_toString »](reflectionzendextension.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionZendExtension](class.reflectionzendextension.html)
+    
+-   Отримує версію
+    
 
 # ReflectionZendExtension::getVersion
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 ReflectionZendExtension::getVersion — Отримує версію
 
 ### Опис
 
-public **ReflectionZendExtension::getVersion**(): string
+```methodsynopsis
+public ReflectionZendExtension::getVersion(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

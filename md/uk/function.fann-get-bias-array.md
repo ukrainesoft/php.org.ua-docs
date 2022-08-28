@@ -1,25 +1,34 @@
-- [« fann_get_activation_steepness](function.fann-get-activation-steepness.md)
-- [fann_get_bit_fail_limit »](function.fann-get-bit-fail-limit.md)
+Отримує кількість зсувів у кожному шарі у мережі
 
-- [PHP Manual](index.md)
-- [Функції Fann](ref.fann.md)
-- Отримує кількість зсувів у кожному шарі в мережі
+-   [« fann\_get\_activation\_steepness](function.fann-get-activation-steepness.html)
+    
+-   [fann\_get\_bit\_fail\_limit »](function.fann-get-bit-fail-limit.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Fann](ref.fann.html)
+    
+-   Отримує кількість зсувів у кожному шарі у мережі
+    
 
-# fann_get_bias_array
+# fanngetbiasarray
 
-(PECL fann = 1.0.0)
+(PECL fann> = 1.0.0)
 
-fann_get_bias_array — Отримує кількість зсувів у кожному шарі в мережі
+fanngetbiasarray — Отримує кількість зміщень у кожному шарі мережі
 
 ### Опис
 
-**fann_get_bias_array**(resource `$ann`): array
+```methodsynopsis
+fann_get_bias_array(resource $ann): array
+```
 
 Отримує кількість зсувів у кожному шарі мережі.
 
 ### Список параметрів
 
 `ann`
+
 Ресурс нейронної мережі.
 
 ### Значення, що повертаються

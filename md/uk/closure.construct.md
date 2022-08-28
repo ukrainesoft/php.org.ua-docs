@@ -1,23 +1,27 @@
-- [« Closure](class.closure.md)
-- [Closure::bind »](closure.bind.md)
+Конструктор, який забороняє створення екземпляра
 
-- [PHP Manual](index.md)
-- [Closure](class.closure.md)
-- Конструктор, який забороняє створення екземпляра
+-   [« Closure](class.closure.html)
+    
+-   [Closure::bind »](closure.bind.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Closure](class.closure.html)
+    
+-   Конструктор, який забороняє створення екземпляра
+    
 
-# Closure::\_\_construct
+# Closure::construct
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-Closure::\_\_construct — Конструктор, який забороняє створення екземпляра
+Closure::construct - Конструктор, що забороняє створення екземпляра
 
 ### Опис
 
-private **Closure::\_\_construct**()
+private **Closure::construct**
 
-Цей метод існує лише для того, щоб заборонити створення нових об'єктів
-класу [Closure](class.closure.md). Об'єкти цього класу створюються
-способом, описаним на сторінці [анонімних функцій](functions.anonymous.md).
+Цей метод існує лише для того, щоб заборонити створення нових об'єктів класу [Closure](class.closure.html). Об'єкти цього класу створюються способом, описаним на сторінці [анонимных функций](functions.anonymous.html)
 
 ### Список параметрів
 
@@ -25,4 +29,4 @@ private **Closure::\_\_construct**()
 
 ### Дивіться також
 
-- [Анонімні функції](functions.anonymous.md)
+-   [Анонимные функции](functions.anonymous.html)

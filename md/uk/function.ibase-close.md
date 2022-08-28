@@ -1,40 +1,41 @@
-- [« ibase_blob_open](function.ibase-blob-open.md)
-- [ibase_commit_ret »](function.ibase-commit-ret.md)
+Закриває з'єднання з базою даних InterBase
 
-- [PHP Manual](index.md)
-- [Функції Firebird/InterBase](ref.ibase.md)
-- Закриває з'єднання з базою даних InterBase
+-   [« ibase\_blob\_open](function.ibase-blob-open.html)
+    
+-   [ibase\_commit\_ret »](function.ibase-commit-ret.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Firebird/InterBase](ref.ibase.html)
+    
+-   Закриває з'єднання з базою даних InterBase
+    
 
-# ibase_close
+# ibaseclose
 
-(PHP 5, PHP 7 \< 7.4.0)
+(PHP 5, PHP 7 < 7.4.0)
 
-ibase_close — Закриває з'єднання з базою даних InterBase
+ibaseclose — Закриває з'єднання з базою даних InterBase
 
 ### Опис
 
-**ibase_close**(resource `$connection_id` = **`null`**): bool
+```methodsynopsis
+ibase_close(resource $connection_id = null): bool
+```
 
-Закриває посилання на базу даних InterBase, пов'язану з ідентифікатором
-з'єднання, отриманим за допомогою
-[ibase_connect()](function.ibase-connect.md). Транзакція за замовчуванням
-для посилання зафіксовано, решту транзакцій скасовано.
+Закриває посилання на базу даних InterBase, пов'язану з ідентифікатором з'єднання, отриманим за допомогою [ibase\_connect()](function.ibase-connect.html). Стандартна транзакція для посилання зафіксована, інші транзакції скасовані.
 
 ### Список параметрів
 
 `connection_id`
-Ідентифікатор посилання InterBase, отриманий за допомогою
-[ibase_connect()](function.ibase-connect.md). Якщо не вказано,
-передбачається останнє відкрите посилання.
+
+Ідентифікатор посилання InterBase, отриманий за допомогою [ibase\_connect()](function.ibase-connect.html). Якщо не вказано, передбачається останнє відкрите посилання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ibase_connect()](function.ibase-connect.md) - Відкриває
-з'єднання з базою даних
-- [ibase_pconnect()](function.ibase-pconnect.md) - Відкриває
-постійне з'єднання з базою даних InterBase
+-   [ibase\_connect()](function.ibase-connect.html) - Відкриває з'єднання з базою даних
+-   [ibase\_pconnect()](function.ibase-pconnect.html) - Відкриває постійне з'єднання з базою даних InterBase

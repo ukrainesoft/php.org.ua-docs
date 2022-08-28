@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](reflection.configuration.md)
-- [Предвизначені константи »](reflection.constants.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](reflection.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](reflection.configuration.html)
+    
+-   [Предопределённые константы »](reflection.constants.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](reflection.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

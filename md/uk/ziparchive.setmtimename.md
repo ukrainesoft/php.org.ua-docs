@@ -1,58 +1,74 @@
-- [« ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.md)
-- [ZipArchive::setPassword »](ziparchive.setpassword.md)
+Встановити час модифікації файлу на ім'я
 
-- [PHP Manual](index.md)
-- [ZipArchive](class.ziparchive.md)
-- Встановити час модифікації файлу на його ім'я
+-   [« ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.html)
+    
+-   [ZipArchive::setPassword »](ziparchive.setpassword.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ZipArchive](class.ziparchive.html)
+    
+-   Встановити час модифікації файлу на ім'я
+    
 
 # ZipArchive::setMtimeName
 
-(PHP \>= 8.0.0, PECL zip \>= 1.16.0)
+(PHP >= 8.0.0, PECL zip >= 1.16.0)
 
-ZipArchive::setMtimeName — Встановити час модифікації файлу на його
-імені
+ZipArchive::setMtimeName — Встановити час модифікації файлу на ім'я
 
 ### Опис
 
-public **ZipArchive::setMtimeName**(string `$name`, int `$timestamp`,
-int `$flags` = 0): bool
+```methodsynopsis
+public ZipArchive::setMtimeName(string $name, int $timestamp, int $flags = 0): bool
+```
 
 Встановити час модифікації файлу на ім'я.
 
 ### Список параметрів
 
 `name`
+
 Ім'я файлу.
 
 `timestamp`
+
 Час модифікації (тимчасова мітка unix) файлу.
 
 `flags`
-Необов'язкові прапори. На даний момент не використовуються.
+
+Необов'язкові прапори. В даний момент не використовуються.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-Приклад створення ZIP-архіву `test.zip`, додавання до нього файлу
-`test.txt` та встановлення часу модифікації для нього.
+Приклад створення ZIP-архіву test.zip, додавання до нього файлу test.txt та встановлення часу модифікації для нього.
 
 **Приклад #1 Архівування файлу**
 
-` <?php$zip = new ZipArchive();if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {    $zip->addFile('text.txt'); $zip->setMtimeName('text.txt', mktime(0,0,0,12,25,2019)); $zip->close(); echo "Ok
-";} else {    echo "KO
-";}?> `
+```php
+<?php
+$zip = new ZipArchive();
+if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
+    $zip->addFile('text.txt');
+    $zip->setMtimeName('text.txt', mktime(0,0,0,12,25,2019));
+    $zip->close();
+    echo "Ok\n";
+} else {
+    echo "KO\n";
+}
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Функція доступна, лише якщо збірка була з libzip ≥ 1.0.0.
+> **Зауваження**
+> 
+> Ця функція доступна лише в тому випадку, якщо збірка здійснювалася з libzip ≥ 1.0.0.
 
 ### Дивіться також
 
-- [ZipArchive::setMtimeIndex()](ziparchive.setmtimeindex.md) -
-Встановити час модифікації файлу за його індексом
+-   [ZipArchive::setMtimeIndex()](ziparchive.setmtimeindex.html) - Встановити час модифікації файлу за його індексом

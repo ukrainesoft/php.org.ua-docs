@@ -1,56 +1,61 @@
-- [« pspell_config_repl](function.pspell-config-repl.md)
-- [pspell_config_save_repl »](function.pspell-config-save-repl.md)
+Розглядає об'єднані слова як правильні складні слова
 
-- [PHP Manual](index.md)
-- [Функції Pspell](ref.pspell.md)
-- розглядає об'єднані слова як правильні складні слова
+-   [« pspell\_config\_repl](function.pspell-config-repl.html)
+    
+-   [pspell\_config\_save\_repl »](function.pspell-config-save-repl.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Pspell](ref.pspell.html)
+    
+-   Розглядає об'єднані слова як правильні складні слова
+    
 
-#pspell_config_runtogether
+# pspellconfigruntogether
 
-(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspell_config_runtogether — Розглядає об'єднані слова як
-правильні складні слова
+pspellconfigruntogether - Розглядає об'єднані слова як правильні складні слова
 
 ### Опис
 
-**pspell_config_runtogether**([PSpell\Config](class.pspell-config.md)
-`$config`, bool `$allow`): bool
+```methodsynopsis
+pspell_config_runtogether(PSpell\Config $config, bool $allow): bool
+```
 
-Функція визначає, чи будуть об'єднані слова розглядатися як
-правильні складні слова. Так, thecat буде вважатися правильним
-складним словом, хоча між артиклем і словом має бути пробіл.
-Зміна цієї установки впливає лише на результати, що повертаються
-функцією [pspell_check()](function.pspell-check.md);
-[pspell_suggest()](function.pspell-suggest.md) буде продовжувати
-видавати варіанти виправлення.
+Функція визначає, чи об'єднані слова розглядатимуться як правильні складні слова. Так, "thecat" буде вважатися правильним складним словом, хоча між артиклем і словом має бути пробіл. Зміна цієї установки впливає лише на результати, що повертаються функцією [pspell\_check()](function.pspell-check.html) [pspell\_suggest()](function.pspell-suggest.html) продовжуватиме видавати варіанти виправлення.
 
-**pspell_config_runtogether()** має бути використана для
-конфігурації до дзвінка
-[pspell_new_config()](function.pspell-new-config.md).
+**pspellconfigruntogether()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.html)
 
 ### Список параметрів
 
 `config`
-Примірник [PSpell\Config](class.pspell-config.md).
+
+Екземпляр [PSpell\\Config](class.pspell-config.html)
 
 `allow`
-**`true`**, якщо об'єднані слова повинні розглядатися як
-правильні складні слова, **`false`** інакше.
+
+**`true`**якщо об'єднані слова повинні розглядатися як правильні складні слова, **`false`** в іншому випадку.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                 |
-|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspell_config_runtogether()****
+**Приклад #1 Приклад використання **pspellconfigruntogether()****
 
-` <?php$pspell_config = pspell_config_create("en");pspell_config_runtogether($pspell_config, true);$pspell = pspell_new_config($pspell_config);pspell_check($pspell, >"
+```php
+<?php
+$pspell_config = pspell_config_create("en");
+pspell_config_runtogether($pspell_config, true);
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "thecat");
+?>
+```

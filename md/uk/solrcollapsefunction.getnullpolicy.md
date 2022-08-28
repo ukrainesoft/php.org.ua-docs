@@ -1,19 +1,27 @@
-- [«SolrCollapseFunction::getMin](solrcollapsefunction.getmin.md)
-- [SolrCollapseFunction::getSize »](solrcollapsefunction.getsize.md)
+Повертає політику NULL
 
-- [PHP Manual](index.md)
-- [SolrCollapseFunction](class.solrcollapsefunction.md)
-- Повертає NULL-політику
+-   [« SolrCollapseFunction::getMin](solrcollapsefunction.getmin.html)
+    
+-   [SolrCollapseFunction::getSize »](solrcollapsefunction.getsize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrCollapseFunction](class.solrcollapsefunction.html)
+    
+-   Повертає політику NULL
+    
 
 # SolrCollapseFunction::getNullPolicy
 
-(PECL solr \>= 2.2.0)
+(PECL solr> = 2.2.0)
 
 SolrCollapseFunction::getNullPolicy — Повертає політику NULL
 
 ### Опис
 
-public **SolrCollapseFunction::getNullPolicy**(): string
+```methodsynopsis
+public SolrCollapseFunction::getNullPolicy(): string
+```
 
 Повертає використовувану NULL-політику або null
 
@@ -25,5 +33,4 @@ public **SolrCollapseFunction::getNullPolicy**(): string
 
 ### Дивіться також
 
-- [SolrCollapseFunction::setNullPolicy()](solrcollapsefunction.setnullpolicy.md) -
-Встановлює NULL-політику
+-   [SolrCollapseFunction::setNullPolicy()](solrcollapsefunction.setnullpolicy.html) - Встановлює NULL-політику

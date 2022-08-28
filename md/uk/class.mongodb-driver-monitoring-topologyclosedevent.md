@@ -1,32 +1,45 @@
-- [« MongoDB\Driver\Monitoring\TopologyChangedEvent::getTopologyId](mongodb-driver-monitoring-topologychangedevent.gettopologyid.md)
-- [MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId »](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md)
+Клас MongoDBDriverMonitoringTopologyClosedEvent
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
-- Клас MongoDB\Driver\Monitoring\TopologyClosedEvent
+-   [« MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getTopologyId](mongodb-driver-monitoring-topologychangedevent.gettopologyid.html)
+    
+-   [MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId »](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.html)
+    
+-   Клас MongoDBDriverMonitoringTopologyClosedEvent
+    
 
-# Клас MongoDB\Driver\Monitoring\TopologyClosedEvent
+# Клас MongoDBDriverMonitoringTopologyClosedEvent
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDB\Driver\Monitoring\TopologyClosedEvent** інкапсулює
-інформацію про закриту топологію.
+Клас **MongoDBDriverMonitoringTopologyClosedEvent** інкапсулює інформацію про закриту топологію.
 
 ## Огляд класів
 
-final class **MongoDB\Driver\Monitoring\TopologyClosedEvent** {
+```classsynopsis
 
-/\* Методи \*/
 
-final public
-[getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md)():
-[MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
+    
+    
+     final
+     
+      class MongoDB\Driver\Monitoring\TopologyClosedEvent
+     
+     {
+    
 
-}
+    /* Методы */
+    
+   final public getTopologyId(): MongoDB\BSON\ObjectId
+
+   }
+```
 
 ## Зміст
 
-- [MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md)
-- Повертає ідентифікатор топології
+-   [MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html) - Повертає ідентифікатор топології

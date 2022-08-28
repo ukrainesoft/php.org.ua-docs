@@ -1,24 +1,32 @@
-- [« eio_set_max_parallel](function.eio-set-max-parallel.md)
-- [eio_set_max_poll_time »](function.eio-set-max-poll-time.md)
+Встановлює максимальну кількість запитів, що обробляються.
 
-- [PHP Manual](index.md)
-- [Eio Функції](ref.eio.md)
-- Встановлює максимальну кількість запитів, що обробляються.
+-   [« eio\_set\_max\_parallel](function.eio-set-max-parallel.html)
+    
+-   [eio\_set\_max\_poll\_time »](function.eio-set-max-poll-time.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Eio Функции](ref.eio.html)
+    
+-   Встановлює максимальну кількість запитів, що обробляються.
+    
 
-#eio_set_max_poll_reqs
+# eiosetmaxpollreqs
 
-(PECL eio \>= 0.0.1dev)
+(PECL eio >= 0.0.1dev)
 
-eio_set_max_poll_reqs — Встановлює максимальну кількість
-оброблюваних запитів
+eiosetmaxpollreqs — Встановлює максимальну кількість запитів, що обробляються.
 
 ### Опис
 
-**eio_set_max_poll_reqs**(int `$nreqs`): void
+```methodsynopsis
+eio_set_max_poll_reqs(int $nreqs): void
+```
 
 ### Список параметрів
 
 `nreqs`
+
 Кількість запитів
 
 ### Значення, що повертаються

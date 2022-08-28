@@ -1,9 +1,15 @@
-- [« Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md)
-- [Imagick::setImageScene »](imagick.setimagescene.md)
+Встановлює роздільну здатність зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює роздільну здатність зображення
+-   [« Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.html)
+    
+-   [Imagick::setImageScene »](imagick.setimagescene.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює роздільну здатність зображення
+    
 
 # Imagick::setImageResolution
 
@@ -13,8 +19,9 @@ Imagick::setImageResolution — Встановлює роздільну здат
 
 ### Опис
 
-public **Imagick::setImageResolution**(float `$x_resolution`, float
-`$y_resolution`): bool
+```methodsynopsis
+public Imagick::setImageResolution(float $x_resolution, float $y_resolution): bool
+```
 
 Встановлює роздільну здатність зображення.
 
@@ -26,7 +33,7 @@ public **Imagick::setImageResolution**(float `$x_resolution`, float
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 
@@ -36,4 +43,15 @@ public **Imagick::setImageResolution**(float `$x_resolution`, float
 
 **Приклад #1 Приклад використання **Imagick::setImageResolution()****
 
-` <?phpfunction setImageResolution($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageResolution(50, 50); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+```php
+<?php
+function setImageResolution($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageResolution(50, 50);
+
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
+}
+
+?>
+```

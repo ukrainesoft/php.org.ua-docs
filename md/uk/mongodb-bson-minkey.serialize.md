@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md)
-- [MongoDB\BSON\MinKey::unserialize »](mongodb-bson-minkey.unserialize.md)
+Серіалізує MinKey
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
-- Серіалізує MinKey
+-   [« MongoDB\\BSON\\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\MinKey::unserialize »](mongodb-bson-minkey.unserialize.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
+    
+-   Серіалізує MinKey
+    
 
-# MongoDB\BSON\MinKey::serialize
+# MongoDBBSONMinKey::serialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\MinKey::serialize — Серіалізує MinKey
+MongoDBBSONMonKey::serialize — Серіалізує MonKey
 
 ### Опис
 
-final public **MongoDB\BSON\MinKey::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\MinKey::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\MinKey::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\MinKey::unserialize()](mongodb-bson-minkey.unserialize.md) -
-Десеріалізує MinKey
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\MinKey::unserialize()](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

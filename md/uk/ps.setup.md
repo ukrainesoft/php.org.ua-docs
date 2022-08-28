@@ -1,15 +1,21 @@
-- [«Вступ](intro.ps.md)
-- [Вимоги »](ps.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [PS](book.ps.md)
+-   [« Введение](intro.ps.html)
+    
+-   [Требования »](ps.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PS](book.ps.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](ps.requirements.md)
-- [Установка](ps.installation.md)
-- [Налаштування під час виконання](ps.configuration.md)
-- [Типи ресурсів](ps.resources.md)
+-   [Требования](ps.requirements.html)
+-   [Установка](ps.installation.html)
+-   [Настройка во время выполнения](ps.configuration.html)
+-   [Типы ресурсов](ps.resources.html)

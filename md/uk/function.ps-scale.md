@@ -1,42 +1,49 @@
-- [«ps_save](function.ps-save.md)
-- [ps_set_border_color »](function.ps-set-border-color.md)
+Встановлює коефіцієнт масштабування
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Встановлює коефіцієнт масштабування
+-   [« ps\_save](function.ps-save.html)
+    
+-   [ps\_set\_border\_color »](function.ps-set-border-color.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Встановлює коефіцієнт масштабування
+    
 
-#ps_scale
+# псscale
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_scale — Встановлює коефіцієнт масштабування
+псscale — Встановлює коефіцієнт масштабування
 
 ### Опис
 
-**ps_scale**(resource `$psdoc`, float `$x`, float `$y`): bool
+```methodsynopsis
+ps_scale(resource $psdoc, float $x, float $y): bool
+```
 
 Встановлює горизонтальний та вертикальний масштаб системи координат.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `x`
-Коефіцієнт масштабування у горизонтальному напрямку.
+
+Коефіцієнт масштабування горизонтальному напрямку.
 
 `y`
+
 Коефіцієнт масштабування за вертикаллю.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
-- [ps_rotate()](function.ps-rotate.md) - Встановлює коефіцієнт
-обертання
-- [ps_translate()](function.ps-translate.md) - Змінює систему
-координат
+-   [ps\_rotate()](function.ps-rotate.html) - Встановлює коефіцієнт обертання
+-   [ps\_translate()](function.ps-translate.html) - Змінює систему координат

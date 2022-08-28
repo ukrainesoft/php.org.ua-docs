@@ -1,9 +1,15 @@
-- [« Обробка помилок за допомогою функцій обробки помилок libxml](xsl.examples-errors.md)
-- [XSLTProcessor::\_\_construct »](xsltprocessor.construct.md)
+Клас XSLTProcessor
 
-- [PHP Manual](index.md)
-- [XSL](book.xsl.md)
-- Клас XSLTProcessor
+-   [« Обработка ошибок с помощью функций обработки ошибок libxml](xsl.examples-errors.html)
+    
+-   [XSLTProcessor::\_\_construct »](xsltprocessor.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XSL](book.xsl.html)
+    
+-   Клас XSLTProcessor
+    
 
 # Клас XSLTProcessor
 
@@ -13,78 +19,49 @@
 
 ## Огляд класів
 
-class **XSLTProcessor** {
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getParameter](xsltprocessor.getparameter.md)(string
-`$namespace`, string `$name`): string\|false
+    
+     
+      class XSLTProcessor
+     
+     {
 
-public [getSecurityPrefs](xsltprocessor.getsecurityprefs.md)(): int
-
-public [hasExsltSupport](xsltprocessor.hasexsltsupport.md)(): bool
-
-public [importStylesheet](xsltprocessor.importstylesheet.md)(object
-`$stylesheet`): bool
-
+    /* Методы */
+    
+   public getParameter(string $namespace, string $name): string|false
+public getSecurityPrefs(): int
+public hasExsltSupport(): bool
 public
-[registerPHPFunctions](xsltprocessor.registerphpfunctions.md)(array\|string\|null
-`$functions` = **`null`**): void
+   importStylesheet(object $stylesheet): bool
+public registerPHPFunctions(array|string|null $functions = null): void
+public removeParameter(string $namespace, string $name): bool
+public setParameter(string $namespace, string $name, string $value): bool
+public setParameter(string $namespace, array $options): bool
+public setProfiling(?string $filename): bool
+public setSecurityPrefs(int $preferences): int
+public transformToDoc(object $document, ?string $returnClass = null): DOMDocument|false
+public transformToURI(DOMDocument $doc, string $uri): int
+public transformToXml(object $document): string|null|false
 
-public [removeParameter](xsltprocessor.removeparameter.md)(string
-`$namespace`, string `$name`): bool
-
-public [setParameter](xsltprocessor.setparameter.md)(string
-`$namespace`, string `$name`, string `$value`): bool
-
-public [setParameter](xsltprocessor.setparameter.md)(string
-`$namespace`, array `$options`): bool
-
-public [setProfiling](xsltprocessor.setprofiling.md)(?string
-`$filename`): bool
-
-public [setSecurityPrefs](xsltprocessor.setsecurityprefs.md)(int
-`$preferences`): int
-
-public [transformToDoc](xsltprocessor.transformtodoc.md)(object
-`$document`, ?string `$returnClass` = **`null`**):
-[DOMDocument](class.domdocument.md)\|false
-
-public
-[transformToURI](xsltprocessor.transformtouri.md)([DOMDocument](class.domdocument.md)
-`$doc`, string `$uri`): int
-
-public [transformToXml](xsltprocessor.transformtoxml.md)(object
-`$document`): string\|null\|false
-
-}
+   }
+```
 
 ## Зміст
 
-- [XSLTProcessor::\_\_construct](xsltprocessor.construct.md) -
-Створює новий екземпляр класу XSLTProcessor
-- [XSLTProcessor::getParameter](xsltprocessor.getparameter.md) -
-Повертає значення параметра
-- [XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.md)
-— Отримати налаштування безпеки
-- [XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md)
-— Визначає чи PHP підтримку EXSLT
-- [XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md)
-- Імпортує таблицю стилів
-- [XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.md)
-— Включає можливість використовувати PHP функції як функції
-XSLT
-- [XSLTProcessor::removeParameter](xsltprocessor.removeparameter.md)
-— Видаляє параметр
-- [XSLTProcessor::setParameter](xsltprocessor.setparameter.md) -
-Встановлює значення параметра
-- [XSLTProcessor::setProfiling](xsltprocessor.setprofiling.md) -
-Встановлює файл для профілювання
-- [XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md)
-— Встановити налаштування безпеки
-- [XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.md) -
-Перетворює на DOMDocument
-- [XSLTProcessor::transformToUri](xsltprocessor.transformtouri.md) -
-Перетворює на URI
-- [XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.md) -
-Перетворює на XML
+-   [XSLTProcessor::\_\_construct](xsltprocessor.construct.html) — Створює новий екземпляр класу XSLTProcessor
+-   [XSLTProcessor::getParameter](xsltprocessor.getparameter.html) — Повертає значення параметра
+-   [XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.html) — Отримати налаштування безпеки
+-   [XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.html) — Чи визначає PHP підтримку EXSLT
+-   [XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.html) - Імпортує таблицю стилів
+-   [XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.html) — Включає можливість використовувати PHP функції як функції XSLT
+-   [XSLTProcessor::removeParameter](xsltprocessor.removeparameter.html) — Видаляє параметр
+-   [XSLTProcessor::setParameter](xsltprocessor.setparameter.html) — Встановлює значення параметра
+-   [XSLTProcessor::setProfiling](xsltprocessor.setprofiling.html) — Встановлює файл для профілювання
+-   [XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.html) — Встановити налаштування безпеки
+-   [XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.html) — Перетворює на DOMDocument
+-   [XSLTProcessor::transformToUri](xsltprocessor.transformtouri.html) — Перетворює на URI
+-   [XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.html) — Перетворює на XML

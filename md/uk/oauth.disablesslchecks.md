@@ -1,23 +1,29 @@
-- [« OAuth::disableRedirects](oauth.disableredirects.md)
-- [OAuth::enableDebug »](oauth.enabledebug.md)
+Вимкнути SSL перевірки
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Вимкнути SSL перевірки
+-   [« OAuth::disableRedirects](oauth.disableredirects.html)
+    
+-   [OAuth::enableDebug »](oauth.enabledebug.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Вимкнути SSL перевірки
+    
 
 # OAuth::disableSSLChecks
 
-(PECL OAuth = 0.99.5)
+(PECL OAuth >= 0.99.5)
 
 OAuth::disableSSLChecks — Вимкнути SSL перевірки
 
 ### Опис
 
-public **OAuth::disableSSLChecks**(): bool
+```methodsynopsis
+public OAuth::disableSSLChecks(): bool
+```
 
-Вимикає звичайні перевірки клієнтських та хост сертифікатів. Не
-призначений для продуктивного середовища. Альтернативно можна встановити
-поля `sslChecks` значення **`false`**, щоб вимкнути SSL перевірки.
+Вимикає звичайні перевірки клієнтських та хост сертифікатів. Не призначено для продуктивного середовища. Альтернативно можна встановити полю `sslChecks` значення **`false`**, щоб вимкнути SSL перевірки.
 
 ### Список параметрів
 
@@ -27,13 +33,12 @@ public **OAuth::disableSSLChecks**(): bool
 
 **`true`**
 
-### Список змін
+### список змін
 
-| Версія            | Опис                       |
-| ----------------- | -------------------------- |
-| PECL oauth 0.99.8 | Було додано поле sslChecks |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 0.99.8 | Було додано поле `sslChecks` |
 
 ### Дивіться також
 
-- [OAuth::enableSSLChecks()](oauth.enablesslchecks.md) - Увімкнути
-перевірки SSL
+-   [OAuth::enableSSLChecks()](oauth.enablesslchecks.html) - Увімкнути перевірки SSL

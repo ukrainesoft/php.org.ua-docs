@@ -1,20 +1,27 @@
-- [« UI\Draw\Text\Font ontFamilies](function.ui-draw-text-font-fontfamilies.md)
-- [UI
-un »](function.ui-run.md)
+Вийти із циклу UI
 
-- [PHP Manual](index.md)
-- [Функції UI](ref.ui.md)
-- Вийти із циклу UI
+-   [« UI\\Draw\\Text\\Font\\fontFamilies](function.ui-draw-text-font-fontfamilies.html)
+    
+-   [UI\\run »](function.ui-run.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции UI](ref.ui.html)
+    
+-   Вийти із циклу UI
+    
 
-# UI\quit
+# ОЙquit
 
 (UI 2.0.0)
 
-UI\quit — Вийти з циклу UI
+ОЙquit — Вийти з циклу UI
 
 ### Опис
 
-**UI\quit**(): void
+```methodsynopsis
+UI\quit(): void
+```
 
 Вимушує головний цикл завершити роботу
 

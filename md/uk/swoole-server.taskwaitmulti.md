@@ -1,20 +1,27 @@
-- [« Swoole\Server::taskwait](swoole-server.taskwait.md)
-- [Swoole\Server::tick »](swoole-server.tick.md)
+Виконує кілька завдань одночасно
 
-- [PHP Manual](index.md)
-- [Swoole\Server](class.swoole-server.md)
-- Виконує кілька завдань одночасно
+-   [« Swoole\\Server::taskwait](swoole-server.taskwait.html)
+    
+-   [Swoole\\Server::tick »](swoole-server.tick.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Server](class.swoole-server.html)
+    
+-   Виконує кілька завдань одночасно
+    
 
-# Swoole\Server::taskWaitMulti
+# SwooleServer::taskWaitMulti
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Server::taskWaitMulti — Виконує кілька завдань одночасно
+SwooleServer::taskWaitMulti — Виконує кілька завдань одночасно
 
 ### Опис
 
-public **Swoole\Server::taskWaitMulti**(array `$tasks`, double
-`$timeout_ms` = ?): void
+```methodsynopsis
+public Swoole\Server::taskWaitMulti(array $tasks, double $timeout_ms = ?): void
+```
 
 ### Список параметрів
 

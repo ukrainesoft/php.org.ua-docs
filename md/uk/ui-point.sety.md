@@ -1,25 +1,34 @@
-- [« UI\Point::setX](ui-point.setx.md)
-- [UI\Size »](class.ui-size.md)
+Встановити Y
 
-- [PHP Manual](index.md)
-- [UI\Point](class.ui-point.md)
-- Встановити Y
+-   [« UI\\Point::setX](ui-point.setx.html)
+    
+-   [UI\\Size »](class.ui-size.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Point](class.ui-point.html)
+    
+-   Встановити Y
+    
 
-# UI\Point::setY
+# ОЙPoint::setY
 
 (UI 0.9.9)
 
-UI\Point::setY — Встановити Y
+ОЙPoint::setY — Встановити Y
 
 ### Опис
 
-public **UI\Point::setY**(float `$point`)
+```methodsynopsis
+public UI\Point::setY(float $point)
+```
 
 Встановити Y-координату
 
 ### Список параметрів
 
 `point`
+
 Нова Y-координата
 
 ### Значення, що повертаються

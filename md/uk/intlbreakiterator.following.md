@@ -1,25 +1,31 @@
-- [« IntlBreakIterator::first](intlbreakiterator.first.md)
-- [IntlBreakIterator::getErrorCode »](intlbreakiterator.geterrorcode.md)
+Переміщає ітератор до першого кордону після зазначеного усунення
 
-- [PHP Manual](index.md)
-- [IntlBreakIterator](class.intlbreakiterator.md)
-- Переміщує ітератор до першого кордону після вказаного усунення
+-   [« IntlBreakIterator::first](intlbreakiterator.first.html)
+    
+-   [IntlBreakIterator::getErrorCode »](intlbreakiterator.geterrorcode.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [IntlBreakIterator](class.intlbreakiterator.html)
+    
+-   Переміщає ітератор до першого кордону після зазначеного усунення
+    
 
 # IntlBreakIterator::following
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
-IntlBreakIterator::following — Переміщення ітератора до першого кордону
-після вказаного усунення
+IntlBreakIterator::following — Переміщує ітератор до першої межі після вказаного усунення
 
 ### Опис
 
-public **IntlBreakIterator::following**(int `$offset`): int
+```methodsynopsis
+public IntlBreakIterator::following(int $offset): int
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

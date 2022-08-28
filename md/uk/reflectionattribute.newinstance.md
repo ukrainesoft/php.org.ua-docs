@@ -1,24 +1,29 @@
-- [« ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md)
-- [Reflector »](class.reflector.md)
+Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
 
-- [PHP Manual](index.md)
-- [ReflectionAttribute](class.reflectionattribute.md)
-- створює екземпляр класу атрибута, представленого цим класом
-ReflectionAttribute та аргументами
+-   [« ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.html)
+    
+-   [Reflector »](class.reflector.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionAttribute](class.reflectionattribute.html)
+    
+-   Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
+    
 
 # ReflectionAttribute::newInstance
 
 (PHP 8)
 
-ReflectionAttribute::newInstance — Створює екземпляр класу атрибута,
-представленого цим класом ReflectionAttribute та аргументами
+ReflectionAttribute::newInstance — Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
 
 ### Опис
 
-public **ReflectionAttribute::newInstance**(): object
+```methodsynopsis
+public ReflectionAttribute::newInstance(): object
+```
 
-Створює екземпляр класу атрибута, представленого цим класом
-ReflectionAttribute і аргументи.
+Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами.
 
 ### Список параметрів
 
@@ -26,4 +31,4 @@ ReflectionAttribute і аргументи.
 
 ### Значення, що повертаються
 
-Новий примірник атрибута.
+Новий екземпляр атрибута.

@@ -1,50 +1,56 @@
-- [« OuterIterator::getInnerIterator](outeriterator.getinneriterator.md)
-- [RecursiveIterator::getChildren »](recursiveiterator.getchildren.md)
+Інтерфейс RecursiveIterator
 
-- [PHP Manual](index.md)
-- [Інтерфейси](spl.interfaces.md)
-- Інтерфейс RecursiveIterator
+-   [« OuterIterator::getInnerIterator](outeriterator.getinneriterator.html)
+    
+-   [RecursiveIterator::getChildren »](recursiveiterator.getchildren.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Интерфейсы](spl.interfaces.html)
+    
+-   Інтерфейс RecursiveIterator
+    
 
 # Інтерфейс RecursiveIterator
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Класи, що реалізують **RecursiveIterator**, можуть бути використані для
-рекурсивного перебору ітераторів
+Класи, що реалізують **RecursiveIterator**можуть бути використані для рекурсивного перебору ітераторів.
 
 ## Огляд інтерфейсів
 
-interface **RecursiveIterator** extends [Iterator](class.iterator.md)
-{
+```classsynopsis
 
-/\* Методи \*/
+     
+    
 
-public [getChildren](recursiveiterator.getchildren.md)():
-?[RecursiveIterator](class.recursiveiterator.md)
+    
+     
+      interface RecursiveIterator
+      extends
+       Iterator
+     
+     {
 
-public [hasChildren](recursiveiterator.haschildren.md)(): bool
+    /* Методы */
+    
+   public getChildren(): ?RecursiveIterator
+public hasChildren(): bool
 
-/\* Наслідувані методи \*/
 
-public [Iterator::current](iterator.current.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+    /* Наследуемые методы */
+    public Iterator::current(): mixed
+public Iterator::key(): mixed
+public Iterator::next(): void
+public Iterator::rewind(): void
+public Iterator::valid(): bool
 
-public [Iterator::key](iterator.key.md)():
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-
-public [Iterator::next](iterator.next.md)(): void
-
-public [Iterator::rewind](iterator.rewind.md)(): void
-
-public [Iterator::valid](iterator.valid.md)(): bool
-
-}
+   }
+```
 
 ## Зміст
 
-- [RecursiveIterator::getChildren](recursiveiterator.getchildren.md)
-— Повертає ітератор до поточного елемента
-- [RecursiveIterator::hasChildren](recursiveiterator.haschildren.md)
-— Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveIterator::getChildren](recursiveiterator.getchildren.html) — Повертає ітератор до поточного елемента
+-   [RecursiveIterator::hasChildren](recursiveiterator.haschildren.html) — Визначає, чи можна створити ітератор для поточного елемента.

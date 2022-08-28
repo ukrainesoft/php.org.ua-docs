@@ -1,9 +1,15 @@
-- [« Imagick::getImageProfiles](imagick.getimageprofiles.md)
-- [Imagick::getImageProperty »](imagick.getimageproperty.md)
+Повертає властивості зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Повертає властивості зображення
+-   [« Imagick::getImageProfiles](imagick.getimageprofiles.html)
+    
+-   [Imagick::getImageProperty »](imagick.getimageproperty.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Повертає властивості зображення
+    
 
 # Imagick::getImageProperties
 
@@ -13,32 +19,46 @@ Imagick::getImageProperties — Повертає властивості зобр
 
 ### Опис
 
-public **Imagick::getImageProperties**(string `$pattern` = "\*", bool
-`$include_values` = **`true`**): array
+```methodsynopsis
+public Imagick::getImageProperties(string $pattern = "*", bool $include_values = true): array
+```
 
-Повертає всі властивості, що задовольняють шаблон. Якщо як
-другого параметра передано **`false`**, то повертаються лише назви
-властивостей. Цей метод доступний, якщо Imagick був скомпільований з версією
-ImageMagick 6.3.6 або старше.
+Повертає всі властивості, що задовольняють шаблон. Якщо в якості другого параметра передано **`false`**, то повертаються лише назви властивостей. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.6 або старшим.
 
 ### Список параметрів
 
 `pattern`
+
 Шаблон для пошуку властивостей.
 
 `include_values`
-Повернути лише імена властивостей. Якщо передано **`false`**, то повертаються
-лише імена властивостей.
+
+Повернути лише імена властивостей. Якщо передано **`false`**, то повертаються лише імена властивостей.
 
 ### Значення, що повертаються
 
-Повертає масив, який містить властивості зображення або їх імена.
+Повертає масив, що містить властивості зображення чи їх імена.
 
 ### Приклади
 
-**Приклад #1 Використання **Imagick::getImageProperties()**:**
+**Приклад #1 Використання **Imagick::getImageProperties()****
 
 Приклад отримання EXIF-інформації.
 
-` <?php/* Створення об'єкта */$im = new imagick("/path/to/example.jpg");/* Отримання EXIF-інформації */$exifArray = $im->getImageProperties("exif:*" );/* Цикл по EXIF-властивостей */foreach ($exifArray as $name => $property){    echo "{$name} => {$property}<br />
-";}?> `
+```php
+<?php
+
+/* Создание объекта */
+$im = new imagick("/path/to/example.jpg");
+
+/* Получение EXIF-информации */
+$exifArray = $im->getImageProperties("exif:*");
+
+/* Цикл по EXIF-свойствам */
+foreach ($exifArray as $name => $property)
+{
+    echo "{$name} => {$property}<br />\n";
+}
+
+?>
+```

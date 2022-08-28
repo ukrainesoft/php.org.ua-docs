@@ -1,89 +1,108 @@
-- [«ldap_exop_whoami](function.ldap-exop-whoami.md)
-- [ldap_explode_dn »](function.ldap-explode-dn.md)
+Виконує розширену операцію
 
-- [PHP Manual](index.md)
-- [Функції LDAP](ref.ldap.md)
-- Виконати розширену операцію
+-   [« ldap\_exop\_whoami](function.ldap-exop-whoami.html)
+    
+-   [ldap\_explode\_dn »](function.ldap-explode-dn.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции LDAP](ref.ldap.html)
+    
+-   Виконує розширену операцію
+    
 
-#ldap_exop
+# ldapexop
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-ldap_exop — Виконати розширену операцію
+ldapexop — Виконує розширену операцію
 
 ### Опис
 
-**ldap_exop**(
-[LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$reqoid`,
-string `$reqdata` = **`null`**,
-array `$serverctrls` = **`null`**,
-string `&$retdata` = ?,
-string `&$retoid` = ?
-):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    string $request_data = null,    array $controls = null,    string &$response_data = ?,    string &$response_oid = ?): mixed
+```
 
-Виконує розширену операцію для заданого `link` з OID операції
-`reqoid` та даними `reqdata`.
+Виконує розширену операцію для заданого з'єднання `ldap` з OID операції `request_oid` та даними `request_data`
 
 ### Список параметрів
 
 `ldap`
-Примірник [LDAP\Connection](class.ldap-connection.md), що повертається
-функцією [ldap_connect()](function.ldap-connect.md).
 
-`reqoid`
-Ідентифікатор розширеної операції OID. Можна використовувати одну з
-констант **`LDAP_EXOP_START_TLS`**, **`LDAP_EXOP_MODIFY_PASSWD`**,
-**`LDAP_EXOP_REFRESH`**, **`LDAP_EXOP_WHO_AM_I`**, **`LDAP_EXOP_TURN`**
-або рядок з OID необхідної операції.
+Екземпляр [LDAP\\Connection](class.ldap-connection.html), що повертається функцією [ldap\_connect()](function.ldap-connect.html)
 
-`reqdata`
-Дані для запиту на розширену операцію. Може бути **`null`** для
-операцій типу **`LDAP_EXOP_WHO_AM_I`**. Може знадобитися закодувати
-BER.
+`request_oid`
 
-`serverctrls`
-Масив [керуючих констант LDAP](ldap.controls.md) для посилки в
-запит.
+Ідентифікатор розширеної операції OID. Можна використовувати одну з констант **`LDAP_EXOP_START_TLS`** **`LDAP_EXOP_MODIFY_PASSWD`** **`LDAP_EXOP_REFRESH`** **`LDAP_EXOP_WHO_AM_I`** **`LDAP_EXOP_TURN`** або рядок з OID необхідної операції.
 
-`retdata`
-Якщо встановлено, то буде заповнено даними, отриманими в результаті
-виконання операції. Якщо не встановлено, то для отримання даних можна
-використовувати ldap_parse_exop для одержаного об'єкта.
+`request_data`
+
+Дані для запиту на розширену операцію. Може бути **`null`** для операцій типу **`LDAP_EXOP_WHO_AM_I`**. Може знадобитися закодувати BER.
+
+`controls`
+
+Масив [управляющих констант LDAP](ldap.controls.html) для посилки у запиті.
+
+`response_data`
+
+Якщо встановлено, то буде заповнено даними, отриманими в результаті виконання операції. Якщо не встановлено, то для отримання даних можна використовувати ldapparseexop для одержаного об'єкта.
 
 `retoid`
-Якщо встановлено, буде заповнено OID відповіді. Зазвичай збігається з OID
-запиту.
+
+Якщо встановлено, то буде заповнено OID відповіді. Зазвичай збігається з запитом OID.
 
 ### Значення, що повертаються
 
-Якщо використовується з `retdata`, то повертає **`true`** або **`false`**.
-Якщо використовується без `retdata`, то повертає ідентифікатор ресурсу
-**`false`**.
+Якщо використовується з `response_data`, то повертає **`true`** або **`false`**. Якщо використовується без `response_data`, то повертає ідентифікатор ресурсу або **`false`**
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                    |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3    | Додана підтримка serverctrls                                                                                                                            |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Додана підтримка `controls` |
 
 ### Приклади
 
 **Приклад #1 Розширена операція Whoami**
 
-`<?php$ds = ldap_connect("localhost"); // припустимо, що сервер LDAP запущено локальноif ($ds) {     // Прив'язуємось до потрібного DN   $bind = ldap_bind($ds, cn=s; if (!$bind) {     echo "Неможливо здійснити прив'язку LDAP"; exit; }    // Викликаємо WHOAMI EXOP    $r = ldap_exop($ds, LDAP_EXOP_WHO_AM_I); // Розбираємо отриману відповідь   ldap_parse_exop($ds, $r, $retdata); // Висновок: string (31) "dn: cn = root, o = My Company, c = US" | // То же саме, а з параметром $retdata    $success = ldap_exop($ds, LDAP_EXOP_WHO_AM_I, NULL, NULL, $retdata, $retoid); if ($success) {     var_dump($retdata); }   ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
+```php
+<?php
+$ds = ldap_connect("localhost");   // предположим, что сервер LDAP запущен локально
+
+if ($ds) {
+    // Привязываемся к нужному DN
+    $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
+    if (!$bind) {
+     echo "Невозможно осуществить привязку LDAP";
+      exit;
+    }
+
+    // Вызываем WHOAMI EXOP
+    $r = ldap_exop($ds, LDAP_EXOP_WHO_AM_I);
+
+    // Разбираем полученный ответ
+    ldap_parse_exop($ds, $r, $response_data);
+    // Вывод: string(31) "dn:cn=root, o=My Company, c=US"
+    var_dump($response_data);
+
+    // То же самое, но с параметром $response_data
+    $success = ldap_exop($ds, LDAP_EXOP_WHO_AM_I, NULL, NULL, $response_data, $retoid);
+    if ($success) {
+      var_dump($response_data);
+    }
+
+    ldap_close($ds);
+} else {
+    echo "Невозможно соединиться с сервером LDAP";
+}
+?>
+```
 
 ### Дивіться також
 
-- [ldap_parse_result()](function.ldap-parse-result.md) - Вийняти
-інформацію з результату
-- [ldap_parse_exop()](function.ldap-parse-exop.md) - Розбір
-результуючого об'єкта виконання розширеної операції LDAP
-- [ldap_exop_whoami()](function.ldap-exop-whoami.md) - Обгортка для
-розширеної операції WHOAMI
-- [ldap_exop_refresh()](function.ldap-exop-refresh.md) - Обгортка для
-розширеної операції Refresh
-- [ldap_exop_passwd()](function.ldap-exop-passwd.md) - Обгортка для
-розширеної операції PASSWD
+-   [ldap\_parse\_result()](function.ldap-parse-result.html) - Витягти інформацію з результату
+-   [ldap\_parse\_exop()](function.ldap-parse-exop.html) - Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [ldap\_exop\_whoami()](function.ldap-exop-whoami.html) - Обгортка для розширеної операції WHOAMI
+-   [ldap\_exop\_refresh()](function.ldap-exop-refresh.html) - Обгортка для розширеної операції Refresh
+-   [ldap\_exop\_passwd()](function.ldap-exop-passwd.html) - Обгортка для розширеної операції PASSWD

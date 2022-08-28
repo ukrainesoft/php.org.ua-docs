@@ -1,65 +1,80 @@
-- [« Closure::\_\_construct](closure.construct.md)
-- [Closure::bindTo »](closure.bindto.md)
+Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
 
-- [PHP Manual](index.md)
-- [Closure](class.closure.md)
-- Дублює замикання із зазначенням конкретного зв'язаного об'єкту та
-області видимості класу
+-   [« Closure::\_\_construct](closure.construct.html)
+    
+-   [Closure::bindTo »](closure.bindto.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Closure](class.closure.html)
+    
+-   Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
+    
 
 # Closure::bind
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
-Closure::bind — Дублює замикання із зазначенням конкретного зв'язаного
-об'єкта та області видимості класу
+Closure::bind — Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
 
 ### Опис
 
-public static **Closure::bind**([Closure](class.closure.md)
-`$closure`, ?object `$newThis`, object\|string\|null `$newScope` =
-"static"): ?[Closure](class.closure.md)
+```methodsynopsis
+public static Closure::bind(Closure $closure, ?object $newThis, object|string|null $newScope = "static"): ?Closure
+```
 
-Цей метод є статичним варіантом
-[Closure::bindTo()](closure.bindto.md). Дивіться документацію до
-зазначеного методу для детальної інформації.
+Цей метод є статичним варіантом [Closure::bindTo()](closure.bindto.html). Дивіться документацію до цього методу для детальної інформації.
 
 ### Список параметрів
 
 `closure`
+
 Анонімна функція для прив'язування об'єкту.
 
 `newThis`
-Об'єкт, до якого буде прив'язана передана анонімна функція, або
-**`null`** для від'єднання функції від її поточного об'єкта.
+
+Об'єкт, до якого буде прив'язана передана анонімна функція, або **`null`** для від'єднання функції від поточного об'єкта.
 
 `newScope`
-Область видимості класу, з якою має бути пов'язане замикання або
-'static' для збереження поточної області видимості. Якщо передано об'єкт,
-то буде використано його клас. Цей параметр визначає видимість
-protected (захищених) та private (закритих) методів прив'язаного
-об'єкт. Заборонено як цей параметр передавати (об'єктом)
-внутрішній клас.
+
+Область видимості класу, з якою має бути пов'язане замикання чи 'static' для збереження поточної області видимості. Якщо передано об'єкт, то буде використано його клас. Цей параметр визначає видимість protected (захищених) та private (закритих) методів прив'язаного об'єкта. Заборонено як цей параметр передавати (об'єктом) внутрішній клас.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [Closure](class.closure.md) або **`null`**
-у разі виникнення помилки.
+Повертає новий об'єкт [Closure](class.closure.html) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
 **Приклад #1 Приклад **Closure::bind()****
 
-`<?phpclass A {    private static $sfoo = 1; private $ifoo = 2;}$cl1 = static function() {    return A::$sfoo;};$cl2 = function() {    return $this->ifoo: c:| , null, 'A');$bcl2 = Closure::bind($cl2, new A(), 'A');echo $bcl1(), "
-";echo $bcl2(), "
-";?> `
+```php
+<?php
+class A {
+    private static $sfoo = 1;
+    private $ifoo = 2;
+}
+$cl1 = static function() {
+    return A::$sfoo;
+};
+$cl2 = function() {
+    return $this->ifoo;
+};
+
+$bcl1 = Closure::bind($cl1, null, 'A');
+$bcl2 = Closure::bind($cl2, new A(), 'A');
+echo $bcl1(), "\n";
+echo $bcl2(), "\n";
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 1
 2
+```
 
 ### Дивіться також
 
-- [Анонімні функції](functions.anonymous.md)
-- [Closure::bindTo()](closure.bindto.md) - Дублює замикання з
-зазначенням пов'язаного об'єкта та області видимості класу
+-   [Анонимные функции](functions.anonymous.html)
+-   [Closure::bindTo()](closure.bindto.html) - Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу

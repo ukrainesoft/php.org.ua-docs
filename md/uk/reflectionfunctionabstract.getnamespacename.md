@@ -1,20 +1,27 @@
-- [« ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md)
-- [ReflectionFunctionAbstract::getNumberOfParameters »](reflectionfunctionabstract.getnumberofparameters.md)
+Отримання імені простору імен
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Отримання імені простору імен
+-   [« ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.html)
+    
+-   [ReflectionFunctionAbstract::getNumberOfParameters »](reflectionfunctionabstract.getnumberofparameters.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Отримання імені простору імен
+    
 
 # ReflectionFunctionAbstract::getNamespaceName
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::getNamespaceName — Отримання імені
-простору імен
+ReflectionFunctionAbstract::getNamespaceName — Отримання імені простору імен
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getNamespaceName**(): string
+```methodsynopsis
+public ReflectionFunctionAbstract::getNamespaceName(): string
+```
 
 Отримання імені простору імен, у якому визначено клас.
 
@@ -28,6 +35,5 @@ public **ReflectionFunctionAbstract::getNamespaceName**(): string
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getFileName()](reflectionfunctionabstract.getfilename.md) -
-Отримує ім'я файлу
-- [простір імен](language.namespaces.md)
+-   [ReflectionFunctionAbstract::getFileName()](reflectionfunctionabstract.getfilename.html) - Отримує ім'я файлу
+-   [пространства имён](language.namespaces.html)

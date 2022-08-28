@@ -1,44 +1,52 @@
-- [«$\_ENV](reserved.variables.environment.md)
-- [$php_errormsg »](reserved.variables.phperrormsg.md)
+HTTP Cookies
 
-- [PHP Manual](index.md)
-- [Предвизначені змінні](reserved.variables.md)
-- HTTP Cookies
+-   [« $\_ENV](reserved.variables.environment.html)
+    
+-   [$php\_errormsg »](reserved.variables.phperrormsg.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Предопределённые переменные](reserved.variables.html)
+    
+-   HTTP Cookies
+    
 
-# $\_COOKIE
+# COOKIE
 
-(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
 
-$\_COOKIE - HTTP Cookies
+COOKIE - HTTP Cookies
 
 ### Опис
 
-Асоціативний масив (array) значень, переданих скрипту через HTTP
-Cookies.
+Асоціативний масив (array) значень переданих скрипту через HTTP Cookies.
 
 ### Приклади
 
-**Приклад #1 Приклад використання `$_COOKIE`**
+**Приклад #1 Приклад використання $COOKIE**
 
-`<?phpecho 'Привіт, ' . htmlspecialchars($_COOKIE["name"]) . '!';?> `
+```php
+<?php
+echo 'Привет, ' . htmlspecialchars($_COOKIE["name"]) . '!';
+?>
+```
 
 Припустимо, що значення cookie з ім'ям "name" було встановлено раніше.
 
 Результатом виконання цього прикладу буде щось подібне:
 
-Привіт, Іване!
+```
+Привет, Иван!
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Це 'суперглобальна' або автоматична глобальна змінна. Це
-> просто означає, що вона є у всіх контекстах скрипта. Ні
-> необхідності виконувати **global $variable;** для доступу до неї всередині
-> методу чи функції.
+> **Зауваження**
+> 
+> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
 ### Дивіться також
 
-- [setcookie()](function.setcookie.md) - Надсилає cookie
-- [Обробка зовнішніх змінних](language.variables.external.md)
-- [Фільтрування даних](book.filter.md)
+-   [setcookie()](function.setcookie.html) - Надсилає cookie
+-   [Обработка внешних переменных](language.variables.external.html)
+-   [Фильтрация данных](book.filter.html)

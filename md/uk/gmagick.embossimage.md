@@ -1,39 +1,43 @@
-- [«Gmagick::edgeimage](gmagick.edgeimage.md)
-- [Gmagick::enhanceimage »](gmagick.enhanceimage.md)
+Повертає зображення у градаціях сірого з тривимірним ефектом
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Повертає зображення у градаціях сірого з тривимірним ефектом
+-   [« Gmagick::edgeimage](gmagick.edgeimage.html)
+    
+-   [Gmagick::enhanceimage »](gmagick.enhanceimage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Повертає зображення у градаціях сірого з тривимірним ефектом
+    
 
 # Gmagick::embossimage
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
-Gmagick::embossimage — Повертає зображення в градаціях сірого с
-тривимірним ефектом
+Gmagick::embossimage — Повертає зображення у градаціях сірого з тривимірним ефектом
 
 ### Опис
 
-public **Gmagick::embossimage**(float `$radius`, float `$sigma`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::embossimage(float $radius, float $sigma): Gmagick
+```
 
-Повертає зображення у градаціях сірого із тривимірним ефектом. Ми
-згортаємо зображення за допомогою оператора гауса, заданого
-радіуса та стандартного відхилення (сигма). Для отримання розумних
-результатів радіус повинен бути більшим за сигму. При використанні радіусу
-0, відповідний радіус вибереться автоматично.
+Повертає зображення у градаціях сірого із тривимірним ефектом. Ми згортаємо зображення за допомогою гаусівського оператора, заданого радіусу та стандартного відхилення (сигма). Для отримання розумних результатів радіус має бути більшим за сигму. При використанні радіуса 0, радіус вибереться автоматично.
 
 ### Список параметрів
 
 `radius`
+
 Радіус ефекту.
 
 `sigma`
+
 Сигма ефект.
 
 ### Значення, що повертаються
 
-Рельєфний об'єкт [Gmagick](class.gmagick.md).
+Рельєфний об'єкт [Gmagick](class.gmagick.html)
 
 ### Помилки
 

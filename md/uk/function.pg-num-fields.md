@@ -1,61 +1,71 @@
-- [« pg_meta_data](function.pg-meta-data.md)
-- [pg_num_rows »](function.pg-num-rows.md)
+Повертає кількість полів у вибірці
 
-- [PHP Manual](index.md)
-- [Функції PostgreSQL](ref.pgsql.md)
-- Повертає кількість полів у вибірці
+-   [« pg\_meta\_data](function.pg-meta-data.html)
+    
+-   [pg\_num\_rows »](function.pg-num-rows.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PostgreSQL](ref.pgsql.html)
+    
+-   Повертає кількість полів у вибірці
+    
 
-#pg_num_fields
+# пгnumfields
 
-(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pg_num_fields — Повертає кількість полів у вибірці
+пгnumfields — Повертає кількість полів у вибірці
 
 ### Опис
 
-**pg_num_fields**([PgSql\Result](class.pgsql-result.md) `$result`):
-int
+```methodsynopsis
+pg_num_fields(PgSql\Result $result): int
+```
 
-**pg_num_fields()** повертає кількість полів (стовпців) в екземплярі
-[PgSql\Result](class.pgsql-result.md).
+**пгnumfields()** повертає кількість полів (стовпців) в екземплярі [PgSql\\Result](class.pgsql-result.html)
 
-> **Примітка**:
->
-> Раніше функція називалася **pg_numfields()**.
+> **Зауваження**
+> 
+> Раніше функція називалася **пгnumfields()**
 
 ### Список параметрів
 
 `result`
-Примірник [PgSql\Result](class.pgsql-result.md), що повертається
-функціями [pg_query()](function.pg-query.md),
-[pg_query_params()](function.pg-query-params.md) або
-[pg_execute()](function.pg-execute.md) (серед іншого).
+
+Екземпляр [PgSql\\Result](class.pgsql-result.html), що повертається функціями [pg\_query()](function.pg-query.html) [pg\_query\_params()](function.pg-query-params.html) або [pg\_execute()](function.pg-execute.html) (між іншим).
 
 ### Значення, що повертаються
 
-Кількість полів (стовпців) у вибірці. У разі виникнення помилки
-повертає -1.
+Кількість полів (стовпців) у вибірці. У разі помилки повертає -1.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                               |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версия | Описание |
+| --- | --- |
+|  | Параметр `result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pg_num_fields()****
+**Приклад #1 Приклад використання **пгnumfields()****
 
-` <?php$result = pg_query($conn, "SELECT 1, 2");$num = pg_num_fields($result);echo "Повернуто полів: " . $num . ".
-";?> `
+```php
+<?php
+$result = pg_query($conn, "SELECT 1, 2");
+
+$num = pg_num_fields($result);
+
+echo "Возвращено полей: " . $num . ".\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
-Повернуто поля: 2.
+```
+Возвращено полей: 2.
+```
 
 ### Дивіться також
 
-- [pg_num_rows()](function.pg-num-rows.md) - Повертає кількість
-рядків у вибірці
-- [pg_affected_rows()](function.pg-affected-rows.md) - Повертає
-кількість порушених запитом записів (кортежів)
+-   [pg\_num\_rows()](function.pg-num-rows.html) - Повертає кількість рядків у вибірці
+-   [pg\_affected\_rows()](function.pg-affected-rows.html) - Повертає кількість порушених запитом записів (кортежів)

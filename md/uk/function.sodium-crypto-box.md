@@ -1,48 +1,46 @@
-- [« sodium_crypto_box_seed_keypair](function.sodium-crypto-box-seed-keypair.md)
-- [sodium_crypto_core_ristretto255_add »](function.sodium-crypto-core-ristretto255-add.md)
+Шифрування відкритим ключем з автентифікацією
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Шифрування відкритим ключем з автентичністю
+-   [« sodium\_crypto\_box\_seed\_keypair](function.sodium-crypto-box-seed-keypair.html)
+    
+-   [sodium\_crypto\_core\_ristretto255\_add »](function.sodium-crypto-core-ristretto255-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Шифрування відкритим ключем з автентифікацією
+    
 
-# sodium_crypto_box
+# sodiumcryptobox
 
-(PHP 7 \>= 7.2.0, PHP 8)
+(PHP 7> = 7.2.0, PHP 8)
 
-sodium_crypto_box — Шифрування відкритим ключем із автентифікацією
+sodiumcryptobox — Шифрування відкритим ключем із автентифікацією
 
 ### Опис
 
-**sodium_crypto_box**(string `$message`, string `$nonce`, string
-`$key_pair`): string
+```methodsynopsis
+sodium_crypto_box(string $message, string $nonce, string $key_pair): string
+```
 
-Шифрує повідомлення з використанням асиметричної криптографії (с
-відкритим ключем).
+Шифрує повідомлення із використанням асиметричної криптографії (з відкритим ключем).
 
-Алгоритм, який використовується функціями з префіксом **sodium_crypto_box()**:
-Еліптична крива Діффі-Хеллмана на кривій Монтгомері, Curve25519;
-зазвичай скорочено X25519.
+Алгоритм, що використовується функціями з префіксом **sodiumcryptobox()**: Еліптична крива Діффі-Хеллмана на кривій Монтгомері, Curve25519; зазвичай скорочено X25519.
 
 ### Список параметрів
 
 `message`
+
 Повідомлення, яке потрібно зашифрувати.
 
 `nonce`
-Номер, який необхідно використовувати лише один раз для кожного
-повідомлення. Довжина 24 байти. Це досить велика межа для випадкової
-генерації (наприклад, [random_bytes()](function.random-bytes.md)).
+
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.html)
 
 `key_pair`
-Дивіться
-[sodium_crypto_box_keypair_from_secretkey_and_publickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md).
-Повинен включати секретний ключ X25519 відправника та відкритий ключ X25519
-отримувача.
+
+Дивіться [sodium\_crypto\_box\_keypair\_from\_secretkey\_and\_publickey()](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html). Повинен включати секретний ключ X25519 відправника та відкритий ключ X25519 одержувача.
 
 ### Значення, що повертаються
 
-Повертає зашифроване повідомлення (зашифрований текст плюс тег
-автентифікації). Зашифрований текст буде на 16 байтів довше, ніж
-відкритий текст, та необроблений двійковий рядок. Дивіться
-[sodium_bin2base64()](function.sodium-bin2base64.md) для безпечного
-кодування для зберігання.
+Повертає зашифроване повідомлення (зашифрований текст плюс тег аутентифікації). Зашифрований текст буде на 16 байтів довше, ніж відкритий текст, та необроблений двійковий рядок. Дивіться [sodium\_bin2base64()](function.sodium-bin2base64.html) для безпечного кодування для зберігання.

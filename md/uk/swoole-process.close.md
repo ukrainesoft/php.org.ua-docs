@@ -1,19 +1,27 @@
-- [« Swoole\Process::alarm](swoole-process.alarm.md)
-- [Swoole\Process::\_\_construct »](swoole-process.construct.md)
+Закриває канал для дочірнього процесу
 
-- [PHP Manual](index.md)
-- [Swoole\Process](class.swoole-process.md)
-- Закриває канал для дочірнього процесу
+-   [« Swoole\\Process::alarm](swoole-process.alarm.html)
+    
+-   [Swoole\\Process::\_\_construct »](swoole-process.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Process](class.swoole-process.html)
+    
+-   Закриває канал для дочірнього процесу
+    
 
-# Swoole\Process::close
+# SwooleProcess::close
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Process::close — Закриває канал для дочірнього процесу
+SwooleProcess::close — Закриває канал для дочірнього процесу
 
 ### Опис
 
-public **Swoole\Process::close**(): void
+```methodsynopsis
+public Swoole\Process::close(): void
+```
 
 Закриває канал дочірнього процесу.
 

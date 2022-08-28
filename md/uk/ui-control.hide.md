@@ -1,19 +1,27 @@
-- [«UI\Control::getTopLevel](ui-control.gettoplevel.md)
-- [UI\Control::isEnabled »](ui-control.isenabled.md)
+Приховати елемент керування
 
-- [PHP Manual](index.md)
-- [UI\Control](class.ui-control.md)
-- приховати керуючий елемент
+-   [« UI\\Control::getTopLevel](ui-control.gettoplevel.html)
+    
+-   [UI\\Control::isEnabled »](ui-control.isenabled.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Control](class.ui-control.html)
+    
+-   Приховати елемент керування
+    
 
-# UI\Control::hide
+# ОЙControl::hide
 
 (UI 0.9.9)
 
-UI\Control::hide — Сховати елемент керування
+ОЙControl::hide — Приховати елемент керування
 
 ### Опис
 
-public **UI\Control::hide**()
+```methodsynopsis
+public UI\Control::hide()
+```
 
 Приховати цей керуючий елемент
 

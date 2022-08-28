@@ -1,22 +1,29 @@
-- [« Gmagick::getimagedispose](gmagick.getimagedispose.md)
-- [Gmagick::getimagefilename »](gmagick.getimagefilename.md)
+Отримує екстремуми для зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Отримує екстремуми для зображення
+-   [« Gmagick::getimagedispose](gmagick.getimagedispose.html)
+    
+-   [Gmagick::getimagefilename »](gmagick.getimagefilename.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Отримує екстремуми для зображення
+    
 
 # Gmagick::getimageextrema
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::getimageextrema — Отримує екстремуми для зображення
 
 ### Опис
 
-public **Gmagick::getimageextrema**(): array
+```methodsynopsis
+public Gmagick::getimageextrema(): array
+```
 
-Повертає асоціативний масив із ключами "min" та "max". Викликає
-**GmagickException** у разі виникнення помилки.
+Повертає асоціативний масив із ключами "min" та "max". Викликає **GmagickException** у разі виникнення помилки.
 
 ### Список параметрів
 

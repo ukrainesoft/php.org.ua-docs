@@ -1,15 +1,20 @@
-- [« Приклади](pcre.examples.md)
-- [Опис синтаксису Perl-сумісних регулярних виразів »](reference.pcre.pattern.syntax.md)
+Регулярні вирази PCRE
 
-- [PHP Manual](index.md)
-- [PCRE](book.pcre.md)
-- Регулярні вирази PCRE
+-   [« Примеры](pcre.examples.html)
+    
+-   [Описание синтаксиса Perl-совместимых регулярных выражений »](reference.pcre.pattern.syntax.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [PCRE](book.pcre.html)
+    
+-   Регулярні вирази PCRE
+    
 
 # Регулярні вирази PCRE
 
 ## Зміст
 
-- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
-- [Описує можливі модифікатори шаблонів Perl-сумісних
-регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.md)
-- [Відмінності від Perl](reference.pcre.pattern.differences.md)
+-   [Описание синтаксиса Perl-совместимых регулярных выражений](reference.pcre.pattern.syntax.html)
+-   [Описывает возможные модификаторы шаблонов Perl-совместимых регулярных выражений (PCRE)](reference.pcre.pattern.modifiers.html)
+-   [Отличия от Perl](reference.pcre.pattern.differences.html)

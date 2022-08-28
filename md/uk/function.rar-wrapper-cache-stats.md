@@ -1,24 +1,31 @@
-- [«Rar](ref.rar.md)
-- [RarArchive »](class.rararchive.md)
+Кеш доступів та відмов обгортки URL
 
-- [PHP Manual](index.md)
-- [Rar](ref.rar.md)
-- Кеш доступів та відмов обгортки URL
+-   [« Rar](ref.rar.html)
+    
+-   [RarArchive »](class.rararchive.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Rar](ref.rar.html)
+    
+-   Кеш доступів та відмов обгортки URL
+    
 
-#rar_wrapper_cache_stats
+# rarwrappercachestats
 
-(PECL rar \>= 3.0.0)
+(PECL rar >= 3.0.0)
 
-rar_wrapper_cache_stats — Кеш доступів та відмов обгортки URL
+rarwrappercachestats — Кеш доступів та відмов обгортки URL
 
 ### Опис
 
-**rar_wrapper_cache_stats**(): string
+```methodsynopsis
+rar_wrapper_cache_stats(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

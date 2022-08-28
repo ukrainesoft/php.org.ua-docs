@@ -1,44 +1,75 @@
-- [« MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
-- [MongoDB\Driver\ClientEncryption::createDataKey »](mongodb-driver-clientencryption.createdatakey.md)
+Створює новий об'єкт ClientEncryption
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
-- Створює новий об'єкт ClientEncryption
+-   [« MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html)
+    
+-   [MongoDB\\Driver\\ClientEncryption::createDataKey »](mongodb-driver-clientencryption.createdatakey.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html)
+    
+-   Створює новий об'єкт ClientEncryption
+    
 
-# MongoDB\Driver\ClientEncryption::\_\_construct
+# MongoDBDriverClientEncryption::construct
 
-(mongodb \>=1.14.0)
+(mongodb >=1.14.0)
 
-MongoDB\Driver\ClientEncryption::\_\_construct — Створює новий об'єкт
-ClientEncryption
+MongoDBDriverClientEncryption::construct — Створює новий об'єкт ClientEncryption
 
 ### Опис
 
-final public **MongoDB\Driver\ClientEncryption::\_\_construct**(array
-`$options`)
+```methodsynopsis
+final public MongoDB\Driver\ClientEncryption::__construct(array $options)
+```
 
-Створює новий об'єкт
-[MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
-із зазначеними опціями.
+Створює новий об'єкт [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.html) із зазначеними опціями.
 
 ### Список параметрів
 
 `options`
-[TABLE]
 
 **Опції**
 
+| Опция | Тип | Описание |
+| --- | --- | --- |
+| keyVaultClient | [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.html) | Менеджер, який використовується для маршрутизації запитів ключів даних. Опція є обов'язковою (на відміну функції [MongoDB\\Driver\\Manager::createClientEncryption()](mongodb-driver-manager.createclientencryption.html) |
+| keyVaultNamespace | string | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
+| kmsProviders | array |  |
+| Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |  |  |
+
+Формат для `"aws"` виглядає наступним чином:
+
+aws: { accessKeyId: , secretAccessKey:
+
+Формат для `"azure"` виглядає наступним чином:
+
+azure: { tenantId: , clientId: , clientSecret: , identityPlatformEndpoint: // За замовчуванням "login.microsoftonline.com"
+
+Формат для `"gcp"` виглядає наступним чином:
+
+gcp: { email: , privateKey: |, endpoint: // За замовчуванням "oauth2.googleapis.com"
+
+Формат для `"kmip"` виглядає наступним чином:
+
+kmip: { endpoint:
+
+Формат для `"local"` виглядає наступним чином:
+
+local: { // 96-байтовий головний ключ, який використовується для шифрування/дешифрування ключів даних key: | }
+
+| | tlsOptions | array |
+
+Документ, який містить конфігурацію TLS для одного або кількох KMS провайдерів. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"kmip"`. Усі провайдери підтримують такі опції:
+
+: { tlsCaFile: , tlsCertificateKeyFile: , tlsCertificateKeyFilePassword:
+
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
-- Викидає виняток
-[MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md),
-якщо модуль був скомпілюваний без підтримки libmongocrypt.
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   Викидає виняток [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html)якщо модуль був скомпільований без підтримки libmongocrypt.
 
 ### Дивіться також
 
-- [MongoDB\Driver\Manager::createClientEncryption()](mongodb-driver-manager.createclientencryption.md) -
-Створення нового об'єкта ClientEncryption
-- [» Явне (ручне) шифрування рівня полів на стороні
-клієнта](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/)
-у посібнику з MongoDB
+-   [MongoDB\\Driver\\Manager::createClientEncryption()](mongodb-driver-manager.createclientencryption.html) - Створення нового об'єкта ClientEncryption
+-   [» Явное (ручное) шифрование уровня полей на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/) у посібнику з MongoDB

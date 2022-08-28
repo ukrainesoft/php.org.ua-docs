@@ -1,25 +1,29 @@
-- [« Yaf_Plugin_Abstract::preResponse](yaf-plugin-abstract.preresponse.md)
-- [Yaf_Plugin_Abstract::routerStartup »](yaf-plugin-abstract.routerstartup.md)
+Призначення routerShutdown
 
-- [PHP Manual](index.md)
-- [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)
-- Призначення routerShutdown
+-   [« Yaf\_Plugin\_Abstract::preResponse](yaf-plugin-abstract.preresponse.html)
+    
+-   [Yaf\_Plugin\_Abstract::routerStartup »](yaf-plugin-abstract.routerstartup.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.html)
+    
+-   Призначення routerShutdown
+    
 
-# Yaf_Plugin_Abstract::routerShutdown
+# YafPluginAbstract::routerShutdown
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Plugin_Abstract::routerShutdown — Призначення routerShutdown
+YafPluginAbstract::routerShutdown — Призначення routerShutdown
 
 ### Опис
 
-public
-**Yaf_Plugin_Abstract::routerShutdown**([Yaf_Request_Abstract](class.yaf-request-abstract.md)
-`$request`, [Yaf_Response_Abstract](class.yaf-response-abstract.md)
-`$response`): void
+```methodsynopsis
+public Yaf_Plugin_Abstract::routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response): void
+```
 
-Цей перехоплювач буде запущений після завершення процесу маршрутизації,
-зазвичай використовується для перевірки входу до системи.
+Цей перехоплювач буде запущений після завершення процесу маршрутизації, який зазвичай використовується для перевірки входу в систему.
 
 ### Список параметрів
 
@@ -31,20 +35,40 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**Yaf_Plugin_Abstract::routerShutdown()****
+**Приклад #1 Приклад використання **YafPluginAbstract::routerShutdown()****
 
-`<?phpclass UserInitPlugin extends Yaf_Plugin_Abstract {                              ¦        /**         * Использовать контроллер доступа не нужно для API         */        if (in_array(strtolower($controller), array(            'api',        ))) {            return TRUE; }     if (Yaf_Session::getInstance()->has("login")) {            return TRUE; }        /* Помилка перевірки доступу, необхідно увійти */        $response->setRedirect("http://yourdomain.com/login/"); return FALSE; }}?> `
+```php
+<?php
+class UserInitPlugin extends Yaf_Plugin_Abstract {
+
+    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+        $controller = $request->getControllerName();
+
+        /**
+         * Использовать контроллер доступа не нужно для API
+         */
+        if (in_array(strtolower($controller), array(
+            'api',
+        ))) {
+            return TRUE;
+        }
+
+        if (Yaf_Session::getInstance()->has("login")) {
+            return TRUE;
+        }
+
+        /* Ошибка проверки доступа, необходимо войти */
+        $response->setRedirect("http://yourdomain.com/login/");
+        return FALSE;
+    }
+}
+?>
+```
 
 ### Дивіться також
 
-- [Yaf_Plugin_Abstract::routerStartup()](yaf-plugin-abstract.routerstartup.md) -
-Перехоплювач RouterStartup
-- [Yaf_Plugin_Abstract::dispatchLoopStartup()](yaf-plugin-abstract.dispatchloopstartup.md) -
-Хук перед відправкою циклу
-- [Yaf_Plugin_Abstract::preDispatch()](yaf-plugin-abstract.predispatch.md) -
-Призначення preDispatch
-- [Yaf_Plugin_Abstract::postDispatch()](yaf-plugin-abstract.postdispatch.md) -
-Призначення postDispatch
-- [Yaf_Plugin_Abstract::dispatchLoopShutdown()](yaf-plugin-abstract.dispatchloopshutdown.md) -
-Призначення dispatchLoopShutdown
+-   [Yaf\_Plugin\_Abstract::routerStartup()](yaf-plugin-abstract.routerstartup.html) - Перехоплювач RouterStartup
+-   [Yaf\_Plugin\_Abstract::dispatchLoopStartup()](yaf-plugin-abstract.dispatchloopstartup.html) - Хук перед відправкою циклу
+-   [Yaf\_Plugin\_Abstract::preDispatch()](yaf-plugin-abstract.predispatch.html) - Призначення preDispatch
+-   [Yaf\_Plugin\_Abstract::postDispatch()](yaf-plugin-abstract.postdispatch.html) - Призначення postDispatch
+-   [Yaf\_Plugin\_Abstract::dispatchLoopShutdown()](yaf-plugin-abstract.dispatchloopshutdown.html) - Призначення dispatchLoopShutdown

@@ -1,19 +1,24 @@
-- [« Ds\Queue::isEmpty](ds-queue.isempty.md)
-- [Ds\Queue::peek »](ds-queue.peek.md)
+Повертає колекцію в JSON-представництві
 
-- [PHP Manual](index.md)
-- [Черга](class.ds-queue.md)
-- Повертає колекцію в JSON-виставі
+-   [« Ds\\Queue::isEmpty](ds-queue.isempty.html)
+    
+-   [Ds\\Queue::peek »](ds-queue.peek.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Очередь](class.ds-queue.html)
+    
+-   Повертає колекцію в JSON-представництві
+    
 
-# Ds\Queue::jsonSerialize
+# ДсQueue::jsonSerialize
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Queue::jsonSerialize — Повертає колекцію в JSON-представництві
+ДсQueue::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивіться
-[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
 
-> **Примітка**:
->
+> **Зауваження**
+> 
 > Ніколи не використовуйте цю функцію безпосередньо.

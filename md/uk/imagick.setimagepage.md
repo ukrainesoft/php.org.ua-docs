@@ -1,9 +1,15 @@
-- [« Imagick::setImageOrientation](imagick.setimageorientation.md)
-- [Imagick::setImageProfile »](imagick.setimageprofile.md)
+Встановлює геометрію сторінки зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює геометрію сторінки зображення
+-   [« Imagick::setImageOrientation](imagick.setimageorientation.html)
+    
+-   [Imagick::setImageProfile »](imagick.setimageprofile.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює геометрію сторінки зображення
+    
 
 # Imagick::setImagePage
 
@@ -13,12 +19,9 @@ Imagick::setImagePage — Встановлює геометрію сторінк
 
 ### Опис
 
-public **Imagick::setImagePage**(
-int `$width`,
-int `$height`,
-int `$x`,
-int `$y`
-): bool
+```methodsynopsis
+public Imagick::setImagePage(    int $width,    int $height,    int $x,    int $y): bool
+```
 
 Встановлює геометрію сторінки зображення.
 
@@ -34,7 +37,7 @@ int `$y`
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

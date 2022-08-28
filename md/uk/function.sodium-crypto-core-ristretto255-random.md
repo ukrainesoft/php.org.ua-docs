@@ -1,26 +1,33 @@
-- [« sodium_crypto_core_ristretto255_is_valid_point](function.sodium-crypto-core-ristretto255-is-valid-point.md)
-- [sodium_crypto_core_ristretto255_scalar_add »](function.sodium-crypto-core-ristretto255-scalar-add.md)
+Генерує випадковий ключ
 
-- [PHP Manual](index.md)
-- [Функції Sodium](ref.sodium.md)
-- Генерує випадковий ключ
+-   [« sodium\_crypto\_core\_ristretto255\_is\_valid\_point](function.sodium-crypto-core-ristretto255-is-valid-point.html)
+    
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_add »](function.sodium-crypto-core-ristretto255-scalar-add.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Sodium](ref.sodium.html)
+    
+-   Генерує випадковий ключ
+    
 
-# sodium_crypto_core_ristretto255_random
+# sodiumcryptocoreristretto255random
 
-(PHP 8 \>= 8.1.0)
+(PHP 8> = 8.1.0)
 
-sodium_crypto_core_ristretto255_random — Генерує випадковий ключ
+sodiumcryptocoreristretto255random - Генерує випадковий ключ
 
 ### Опис
 
-**sodium_crypto_core_ristretto255_random**(): string
+```methodsynopsis
+sodium_crypto_core_ristretto255_random(): string
+```
 
-Генерує випадковий ключ. Доступно з libsodium 1.0.18.
+Генерує випадковий ключ. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,18 +39,28 @@ sodium_crypto_core_ristretto255_random — Генерує випадковий �
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**sodium_crypto_core_ristretto255_random()****
+**Приклад #1 Приклад використання **sodiumcryptocoreristretto255random()****
 
-` <?php$foo = sodium_crypto_core_ristretto255_random();$bar = sodium_crypto_core_ristretto255_random();$value = sodium_crypto_core_ristretto255_add($foo, $bar);$value = sodium_crypto_core_ristretto255_sub($value, $bar);var_dump(hash_equals($foo, $ value));?> `
+```php
+<?php
+
+$foo = sodium_crypto_core_ristretto255_random();
+$bar = sodium_crypto_core_ristretto255_random();
+
+$value = sodium_crypto_core_ristretto255_add($foo, $bar);
+$value = sodium_crypto_core_ristretto255_sub($value, $bar);
+
+var_dump(hash_equals($foo, $value));
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 bool(true)
+```
 
 ### Дивіться також
 
-- [sodium_crypto_core_ristretto255_add()](function.sodium-crypto-core-ristretto255-add.md) -
-Додає елемент
-- [sodium_crypto_core_ristretto255_sub()](function.sodium-crypto-core-ristretto255-sub.md) -
-Віднімає елемент
+-   [sodium\_crypto\_core\_ristretto255\_add()](function.sodium-crypto-core-ristretto255-add.html) - Додає елемент
+-   [sodium\_crypto\_core\_ristretto255\_sub()](function.sodium-crypto-core-ristretto255-sub.html) - Віднімає елемент

@@ -1,26 +1,31 @@
-- [« RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.md)
-- [RecursiveIteratorIterator::key »](recursiveiteratoriterator.key.md)
+Отримання активного вкладеного ітератора
 
-- [PHP Manual](index.md)
-- [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- отримання активного вкладеного ітератора
+-   [« RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.html)
+    
+-   [RecursiveIteratorIterator::key »](recursiveiteratoriterator.key.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+    
+-   Отримання активного вкладеного ітератора
+    
 
 # RecursiveIteratorIterator::getSubIterator
 
 (PHP 5, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::getSubIterator — Отримання активного
-вкладеного ітератора
+RecursiveIteratorIterator::getSubIterator — Отримання активного вкладеного ітератора
 
 ### Опис
 
-public **RecursiveIteratorIterator::getSubIterator**(?int `$level` =
-**`null`**): ?[RecursiveIterator](class.recursiveiterator.md)
+```methodsynopsis
+public RecursiveIteratorIterator::getSubIterator(?int $level = null): ?RecursiveIterator
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,11 +33,10 @@ public **RecursiveIteratorIterator::getSubIterator**(?int `$level` =
 
 ### Значення, що повертаються
 
-Активний вкладений ітератор у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Активний вкладений ітератор у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                 |
-|--------|--------------------------------------|
-| 8.0.0  | level тепер припускає значення null. |
+| Версия | Описание |
+| --- | --- |
+|  | `level` тепер допускає значення null. |

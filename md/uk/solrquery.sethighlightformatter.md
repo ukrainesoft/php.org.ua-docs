@@ -1,32 +1,40 @@
-- [« SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md)
-- [SolrQuery::setHighlightFragmenter »](solrquery.sethighlightfragmenter.md)
+Задає засіб форматування для виведення виділення
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Задає засіб форматування для виведення виділення
+-   [« SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.html)
+    
+-   [SolrQuery::setHighlightFragmenter »](solrquery.sethighlightfragmenter.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Задає засіб форматування для виведення виділення
+    
 
 # SolrQuery::setHighlightFormatter
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setHighlightFormatter — Задає засіб форматування для
-виведення виділення
+SolrQuery::setHighlightFormatter — Задає засіб форматування для виведення виділення
 
 ### Опис
 
-public **SolrQuery::setHighlightFormatter**(string `$formatter`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setHighlightFormatter(string $formatter, string $field_override = ?): SolrQuery
+```
 
 Задає засіб форматування для виведення виділення
 
 ### Список параметрів
 
 `formatter`
-В даний час єдине допустиме значення – "simple"
+
+В даний час єдине допустиме значення - "simple"
 
 `field_override`
+
 Ім'я поля
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SolrQuery](class.solrquery.md).
+Повертає екземпляр [SolrQuery](class.solrquery.html)

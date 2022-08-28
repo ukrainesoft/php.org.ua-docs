@@ -1,75 +1,120 @@
-- [«oci_num_rows](function.oci-num-rows.md)
-- [oci_password_change »](function.oci-password-change.md)
+Підготовка запиту до виконання
 
-- [PHP Manual](index.md)
-- [OCI8 Функції](ref.oci8.md)
-- готує запит до виконання
+-   [« oci\_num\_rows](function.oci-num-rows.html)
+    
+-   [oci\_password\_change »](function.oci-password-change.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OCI8 Функции](ref.oci8.html)
+    
+-   Підготовка запиту до виконання
+    
 
-#oci_parse
+# ociparse
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
 
-oci_parse — Підготовка запиту до виконання
+ociparse — Підготовка запиту до виконання
 
 ### Опис
 
-**oci_parse**(resource `$connection`, string `$sql`): resource\|false
+```methodsynopsis
+oci_parse(resource $connection, string $sql): resource|false
+```
 
-Підготовляє `sql` до виконання, використовуючи з'єднання `connection` і
-повертає ідентифікатор виразу, який може бути використаний далі
-функціями[oci_bind_by_name()](function.oci-bind-by-name.md),[oci_execute()](function.oci-execute.md)
-та іншими.
+Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[oci\_bind\_by\_name()](function.oci-bind-by-name.html)[oci\_execute()](function.oci-execute.html) та іншими.
 
-Ідентифікатори виразів можуть бути звільнені функцією
-[oci_free_statement()](function.oci-free-statement.md) або установкою
-змінною в **`null`**.
+Ідентифікатори виразів можуть бути звільнені функцією [oci\_free\_statement()](function.oci-free-statement.html) або встановленням змінної в **`null`**
 
 ### Список параметрів
 
 `connection`
-Ідентифікатор з'єднання Oracle, отриманий із функцій
-[oci_connect()](function.oci-connect.md),
-[oci_pconnect()](function.oci-pconnect.md) або
-[oci_new_connect()](function.oci-new-connect.md).
+
+Ідентифікатор з'єднання Oracle, отриманий із функцій [oci\_connect()](function.oci-connect.html) [oci\_pconnect()](function.oci-pconnect.html) або [oci\_new\_connect()](function.oci-new-connect.html)
 
 `sql`
+
 Запит SQL або PL/SQL.
 
-SQL-запити *не повинні* закінчуватися крапкою з комою (";").
-PL/SQL-запити *мають* закінчуватися точкою з комою (";").
+SQL-запити *не повинні* закінчуватися точкою з комою (";"). PL/SQL-запити *повинні* закінчуватися точкою з комою (";").
 
 ### Значення, що повертаються
 
-Повертає дескриптор виразу у разі успішного виконання або
-**`false`** у разі виникнення помилки.
+Повертає дескриптор виразу у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **oci_parse()** із SQL-запитами**
+**Приклад #1 Приклад використання **ociparse()** із SQL-запитами**
 
-` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');// Парсинг запиту. Зверніть увагу на відсутність точки комою в SQL-запиті $stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid);echo ''<table>
-";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
-";    }    echo "</tr>
-";}echo "</table>
-";?> `
+```php
+<?php
 
-**Приклад #2 Приклад використання **oci_parse()** з PL/SQL-запитами**
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-` <?php/*  Перед запуском PHP-скрипта, создайте хранимую процедуру в  SQL*Plus или SQL Developer:  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS  BEGIN      p2 := p1 * 2; END;*/$conn==oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$p1 = 8; myproc(:p1, :p2); end;');oci_bind_by_name($stid, ':p1', $p1);oci_bind_by_name($stid, ':p2', $p2, 40);oci_execute($stid); print "$p2
-";   // prints 16oci_free_statement($stid);oci_close($conn);?> `
+// Парсинг запроса. Обратите внимание на отсутствие точки запятой в конце SQL-запроса
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+?>
+```
+
+**Приклад #2 Приклад використання **ociparse()** з PL/SQL-запитами**
+
+```php
+<?php
+
+/*
+  Перед запуском PHP-скрипта, создайте хранимую процедуру в
+  SQL*Plus или SQL Developer:
+
+  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS
+  BEGIN
+      p2 := p1 * 2;
+  END;
+
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$p1 = 8;
+
+// При парсинге PL/SQL запросов необходимо наличие точки с запятой в конце строки
+$stid = oci_parse($conn, 'begin myproc(:p1, :p2); end;');
+oci_bind_by_name($stid, ':p1', $p1);
+oci_bind_by_name($stid, ':p2', $p2, 40);
+
+oci_execute($stid);
+
+print "$p2\n";   // prints 16
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
 
 ### Примітки
 
-> **Примітка**:
->
-> Ця функція *не перевіряє* синтаксис запиту `sql`. Єдиний
-> спосіб перевірити правильність SQL або PL/SQL-запиту `sql` - це
-> Виконати його.
+> **Зауваження**
+> 
+> Ця функція *не перевіряє* синтаксис запиту `sql`. Єдиний спосіб перевірити правильність SQL чи PL/SQL-запиту `sql` - це здійснити його.
 
 ### Дивіться також
 
-- [oci_execute()](function.oci-execute.md) - Виконує
-підготовлений вираз
-- [oci_free_statement()](function.oci-free-statement.md) -
-Звільняє ресурси, які займає курсор або SQL-вираз.
+-   [oci\_execute()](function.oci-execute.html) - Виконує підготовлений вираз
+-   [oci\_free\_statement()](function.oci-free-statement.html) - Звільняє ресурси, які займає курсор або SQL-вираз.

@@ -1,15 +1,20 @@
-- [«Зумовлені константи](lzf.constants.md)
-- [lzf_compress »](function.lzf-compress.md)
+Функції LZF
 
-- [PHP Manual](index.md)
-- [LZF](book.lzf.md)
-- Функції LZF
+-   [« Предопределённые константы](lzf.constants.html)
+    
+-   [lzf\_compress »](function.lzf-compress.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [LZF](book.lzf.html)
+    
+-   Функції LZF
+    
 
 # Функції LZF
 
 ## Зміст
 
-- [lzf_compress](function.lzf-compress.md) — Стиснення LZF
-- [lzf_decompress](function.lzf-decompress.md) - Розархівація LZF
-- [lzf_optimized_for](function.lzf-optimized-for.md) - Визначає
-режим оптимізації модуля LZF
+-   [lzf\_compress](function.lzf-compress.html) - Стиснення LZF
+-   [lzf\_decompress](function.lzf-decompress.html) - Розархівація LZF
+-   [lzf\_optimized\_for](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF

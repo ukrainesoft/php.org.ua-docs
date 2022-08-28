@@ -1,43 +1,46 @@
-- [«odbc_gettypeinfo](function.odbc-gettypeinfo.md)
-- [odbc_next_result »](function.odbc-next-result.md)
+Обробляє стовпці LONG
 
-- [PHP Manual](index.md)
-- [Функції ODBC](ref.uodbc.md)
-- Обробляє стовпці LONG
+-   [« odbc\_gettypeinfo](function.odbc-gettypeinfo.html)
+    
+-   [odbc\_next\_result »](function.odbc-next-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции ODBC](ref.uodbc.html)
+    
+-   Обробляє стовпці LONG
+    
 
-#odbc_longreadlen
+# odbclongreadlen
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbc_longreadlen — Обробляє стовпці LONG
+odbclongreadlen - Обробляє стовпці LONG
 
 ### Опис
 
-**odbc_longreadlen**(resource `$statement`, int `$length`): bool
+```methodsynopsis
+odbc_longreadlen(resource $statement, int $length): bool
+```
 
-Керує обробкою стовпців `LONG`, `LONGVARCHAR` та `LONGVARBINARY`.
-Довжина за замовчуванням може бути встановлена директивою `php.ini`
-[uodbc.defaultlrl](odbc.configuration.md#ini.uodbc.defaultlrl).
+Керує обробкою стовпців `LONG` `LONGVARCHAR` і `LONGVARBINARY`. Довжина за замовчуванням може бути встановлена ​​за допомогою директиви php.ini [uodbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl)
 
 ### Список параметрів
 
 `statement`
+
 Ідентифікатор результату.
 
 `length`
-Кількість байтів, які повертаються PHP, контролюється довжиною параметра.
-Якщо встановлено значення `0`, дані стовпця LONG передаються клієнту
-(тобто друкуються) при отриманні за допомогою
-[odbc_result()](function.odbc-result.md).
+
+Кількість байтів, які повертаються PHP, контролюється довжиною параметра. Якщо встановлено значення `0`дані стовпця LONG передаються клієнту (тобто друкуються) при отриманні за допомогою [odbc\_result()](function.odbc-result.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Примітки
 
-> **Примітка**:
->
-> На обробку стовпців `LONGVARBINARY` також впливає
-> [odbc_binmode()](function.odbc-binmode.md).
+> **Зауваження**
+> 
+> На обробку стовпців `LONGVARBINARY` також впливає [odbc\_binmode()](function.odbc-binmode.html)

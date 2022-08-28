@@ -1,61 +1,77 @@
-- [«cubrid_fetch_row](function.cubrid-fetch-row.md)
-- [cubrid_field_len »](function.cubrid-field-len.md)
+Отримати рядок, який містить прапори стовпця за вказаним індексом
 
-- [PHP Manual](index.md)
-- [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
-- Отримати рядок, який містить прапори стовпця за вказаним індексом
+-   [« cubrid\_fetch\_row](function.cubrid-fetch-row.html)
+    
+-   [cubrid\_field\_len »](function.cubrid-field-len.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции совместимости CUBRID MySQL](cubridmysql.cubrid.html)
+    
+-   Отримати рядок, який містить прапори стовпця за вказаним індексом
+    
 
-#cubrid_field_flags
+# cubridfieldflags
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_field_flags — Отримати рядок, який містить прапори стовпця за
-зазначеному індексу
+cubridfieldflags — Отримати рядок, який містить прапори стовпця за вказаним індексом
 
 ### Опис
 
-**cubrid_field_flags**(resource `$result`, int `$field_offset`): string
+```methodsynopsis
+cubrid_field_flags(resource $result, int $field_offset): string
+```
 
-Функція повертає рядок, який містить прапори стовпця за вказаним
-індексу, розділені пропуском. Ви можете розбити рядок на окремі
-частини за допомогою explode. Можливі значення прапорів: **`not_null`**,
-**`primary_key`**, **`unique_key`**, **`foreign_key`**,
-**`auto_increment`**, **`shared`**, **`reverse_index`**,
-**`reverse_unique`** та **`timestamp`**.
+Функція повертає рядок, що містить прапори стовпця за вказаним індексом, розділені пробілом. Ви можете розбити рядок на окремі частини, використовуючи explode. Можливі значення прапорів: **`not_null`** **`primary_key`** **`unique_key`** **`foreign_key`** **`auto_increment`** **`shared`** **`reverse_index`** **`reverse_unique`** і **`timestamp`**
 
 ### Список параметрів
 
 `result`
-`Result` отриманий з [cubrid_execute()](function.cubrid-execute.md)
+
+`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.html)
 
 `field_offset`
-Індекс поля у рядку результуючого набору. `field_offset` починається
-з 0. Якщо `field_offset` не заданий, буде викликана помилка рівня
-**`E_WARNING`**.
+
+Індекс поля у рядку результуючого набору . `field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Рядок із прапорами у разі успішного виконання.
+Рядок з прапорами у разі успішного виконання.
 
-**`false`** у разі некоректного значення field_offset.
+**`false`** у разі некоректного значення fieldoffset.
 
--1, якщо SQL-запит був відмінним від SELECT типу.
+1, якщо SQL-запит був відмінним від SELECT типу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_field_flags()****
+**Приклад #1 Приклад використання **cubridfieldflags()****
 
-` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND' );$col_num = cubrid_num_cols($result);printf("%-30s %s
-", "Ім'я поля", "Прапори поля");for($i = 0; $i < $col_num; $i++) {    printf("%-30s %s
-", cubrid_field_name($result, $i), cubrid_field_flags($result, $i));}cubrid_disconnect($conn);?> `
+```php
+<?php
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
+
+$col_num = cubrid_num_cols($result);
+
+printf("%-30s %s\n", "Имя поля", "Флаги поля");
+for($i = 0; $i < $col_num; $i++) {
+    printf("%-30s %s\n", cubrid_field_name($result, $i), cubrid_field_flags($result, $i));
+}
+
+cubrid_disconnect($conn);
+?>
+```
 
 Результат виконання цього прикладу:
 
-Найменування поля Прапори поля
-host_year not_null primary_key unique_key
-event_code not_null primary_key unique_key foreign_key
-athlete_code not_null primary_key unique_key foreign_key
-stadium_code not_null
+```
+Наименование поля                Флаги поля
+host_year                      not_null primary_key unique_key
+event_code                     not_null primary_key unique_key foreign_key
+athlete_code                   not_null primary_key unique_key foreign_key
+stadium_code                   not_null
 nation_code
 medal
 game_date
+```

@@ -1,20 +1,27 @@
-- [« MongoDB\Driver\ServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.md)
-- [MongoDB\Driver\ServerDescription::getRoundTripTime »](mongodb-driver-serverdescription.getroundtriptime.md)
+Повертає порт, на якому прослуховується цей сервер
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-- Повертає порт, на якому прослуховується цей сервер
+-   [« MongoDB\\Driver\\ServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.html)
+    
+-   [MongoDB\\Driver\\ServerDescription::getRoundTripTime »](mongodb-driver-serverdescription.getroundtriptime.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html)
+    
+-   Повертає порт, на якому прослуховується цей сервер
+    
 
-# MongoDB\Driver\ServerDescription::getPort
+# MongoDBDriverServerDescription::getPort
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\ServerDescription::getPort — Повертає порт, на якому
-прослуховується цей сервер
+MongoDBDriverServerDescription::getPort — Повертає порт, на якому прослуховується цей сервер
 
 ### Опис
 
-final public **MongoDB\Driver\ServerDescription::getPort**(): int
+```methodsynopsis
+final public MongoDB\Driver\ServerDescription::getPort(): int
+```
 
 Повертає порт, на якому прослуховується сервер.
 
@@ -28,10 +35,8 @@ final public **MongoDB\Driver\ServerDescription::getPort**(): int
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getPort()](mongodb-driver-server.getport.md) -
-Повертає порт, який слухає сервер
+-   [MongoDB\\Driver\\Server::getPort()](mongodb-driver-server.getport.html) - Повертає порт, який слухає сервер

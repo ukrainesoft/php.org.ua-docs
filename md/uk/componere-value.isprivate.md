@@ -1,16 +1,24 @@
-- [« Componere\Value::setStatic](componere-value.setstatic.md)
-- [Componere\Value::isProtected »](componere-value.isprotected.md)
+Визначення доступності
 
-- [PHP Manual](index.md)
-- [Componere\Value](class.componere-value.md)
-- Визначення доступності
+-   [« Componere\\Value::setStatic](componere-value.setstatic.html)
+    
+-   [Componere\\Value::isProtected »](componere-value.isprotected.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Componere\\Value](class.componere-value.html)
+    
+-   Визначення доступності
+    
 
-# Componere\Value::isPrivate
+# ComponereValue::isPrivate
 
-(Componere 2 \>= 2.1.0)
+(Componere 2 >= 2.1.0)
 
-Componere\Value::isPrivate — Визначення доступності
+ComponereValue::isPrivate — Визначення доступності
 
 ### Опис
 
-public **Componere\Value::isPrivate**(): bool
+```methodsynopsis
+public Componere\Value::isPrivate(): bool
+```

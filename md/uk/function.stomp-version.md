@@ -1,19 +1,27 @@
-- [«stomp_connect_error](function.stomp-connect-error.md)
-- [Stomp »](class.stomp.md)
+Повертає поточну версію модуля Stomp
 
-- [PHP Manual](index.md)
-- [Функції Stomp](ref.stomp.md)
-- Повертає поточну версію модуля Stomp
+-   [« stomp\_connect\_error](function.stomp-connect-error.html)
+    
+-   [Stomp »](class.stomp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Stomp](ref.stomp.html)
+    
+-   Повертає поточну версію модуля Stomp
+    
 
-#stomp_version
+# stompversion
 
-(PECL stomp \>= 0.1.0)
+(PECL stomp >= 0.1.0)
 
-stomp_version — Повертає поточну версію модуля Stomp
+stompversion — Повертає поточну версію модуля Stomp
 
 ### Опис
 
-**stomp_version**(): string
+```methodsynopsis
+stomp_version(): string
+```
 
 Повертає рядок, який містить версію поточного модуля Stomp.
 
@@ -27,10 +35,18 @@ stomp_version — Повертає поточну версію модуля Stom
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stomp_version()****
+**Приклад #1 Приклад використання **stompversion()****
 
-` <?phpvar_dump(stomp_version());?> `
+```php
+<?php
+
+var_dump(stomp_version());
+
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(5) "0.2.0"
+```

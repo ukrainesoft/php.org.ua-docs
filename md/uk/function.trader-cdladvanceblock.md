@@ -1,40 +1,46 @@
-- [« trader_cdlabandonedbaby](function.trader-cdlabandonedbaby.md)
-- [trader_cdlbelthold »](function.trader-cdlbelthold.md)
+Відбитий наступ
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Відбитий наступ
+-   [« trader\_cdlabandonedbaby](function.trader-cdlabandonedbaby.html)
+    
+-   [trader\_cdlbelthold »](function.trader-cdlbelthold.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Відбитий наступ
+    
 
-# trader_cdladvanceblock
+# tradercdladvanceblock
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdladvanceblock — Відбитий наступ
+tradercdladvanceblock - Відбитий наступ
 
 ### Опис
 
-**trader_cdladvanceblock**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`
-): array
+```methodsynopsis
+trader_cdladvanceblock(    array $open,    array $high,    array $low,    array $close): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

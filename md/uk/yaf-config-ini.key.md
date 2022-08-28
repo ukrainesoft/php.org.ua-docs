@@ -1,24 +1,31 @@
-- [« Yaf_Config_Ini::\_\_isset](yaf-config-ini.isset.md)
-- [Yaf_Config_Ini::next »](yaf-config-ini.next.md)
+Отримує ключ поточного елемента
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Отримує ключ поточного елемента
+-   [« Yaf\_Config\_Ini::\_\_isset](yaf-config-ini.isset.html)
+    
+-   [Yaf\_Config\_Ini::next »](yaf-config-ini.next.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Отримує ключ поточного елемента
+    
 
-# Yaf_Config_Ini::key
+# YafConfigIni::key
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::key — Отримує ключ поточного елемента
+YafConfigIni::key — Отримує ключ поточного елемента
 
 ### Опис
 
-public **Yaf_Config_Ini::key**(): void
+```methodsynopsis
+public Yaf_Config_Ini::key(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

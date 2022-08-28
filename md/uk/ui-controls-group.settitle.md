@@ -1,23 +1,32 @@
-- [«UI\Controls\Group::setMargin](ui-controls-group.setmargin.md)
-- [UI\Controls\Box»](class.ui-controls-box.md)
+Встановити заголовок
 
-- [PHP Manual](index.md)
-- [UI\Controls\Group](class.ui-controls-group.md)
-- Встановити заголовок
+-   [« UI\\Controls\\Group::setMargin](ui-controls-group.setmargin.html)
+    
+-   [UI\\Controls\\Box »](class.ui-controls-box.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\Group](class.ui-controls-group.html)
+    
+-   Встановити заголовок
+    
 
-# UI\Controls\Group::setTitle
+# ОЙControlsGroup::setTitle
 
 (UI 0.9.9)
 
-UI\Controls\Group::setTitle — Встановити заголовок
+ОЙControlsGroup::setTitle — Встановити заголовок
 
 ### Опис
 
-public **UI\Controls\Group::setTitle**(string `$title`)
+```methodsynopsis
+public UI\Controls\Group::setTitle(string $title)
+```
 
 Встановити заголовок для заданої групи
 
 ### Список параметрів
 
 `title`
+
 Текст для нового заголовка

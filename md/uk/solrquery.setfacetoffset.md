@@ -1,33 +1,40 @@
-- [«SolrQuery::setFacetMissing](solrquery.setfacetmissing.md)
-- [SolrQuery::setFacetPrefix »](solrquery.setfacetprefix.md)
+Встановлює зміщення до списку обмежень для розбиття на сторінки
 
-- [PHP Manual](index.md)
-- [SolrQuery](class.solrquery.md)
-- Встановлює зміщення до списку обмежень для розбиття на сторінки
+-   [« SolrQuery::setFacetMissing](solrquery.setfacetmissing.html)
+    
+-   [SolrQuery::setFacetPrefix »](solrquery.setfacetprefix.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrQuery](class.solrquery.html)
+    
+-   Встановлює зміщення до списку обмежень для розбиття на сторінки
+    
 
 # SolrQuery::setFacetOffset
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrQuery::setFacetOffset — Встановлює зміщення до списку обмежень
-для розбивки на сторінки
+SolrQuery::setFacetOffset — Встановлює зміщення до списку обмежень для розбиття на сторінки
 
 ### Опис
 
-public **SolrQuery::setFacetOffset**(int `$offset`, string
-`$field_override` = ?): [SolrQuery](class.solrquery.md)
+```methodsynopsis
+public SolrQuery::setFacetOffset(int $offset, string $field_override = ?): SolrQuery
+```
 
 Встановлює зміщення до списку обмежень розбивки на сторінки.
 
 ### Список параметрів
 
 `offset`
+
 Зміщення
 
 `field_override`
-Назва поля.
+
+Ім'я поля.
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт SolrQuery, якщо використовується повертається
-значення.
+Повертає поточний об'єкт SolrQuery, якщо використовується значення, що повертається.

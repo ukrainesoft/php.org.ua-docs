@@ -1,56 +1,68 @@
-- [« geoip_continent_code_by_name](function.geoip-continent-code-by-name.md)
-- [geoip_country_code3_by_name »](function.geoip-country-code3-by-name.md)
+Отримати двосимвольний код країни
 
-- [PHP Manual](index.md)
-- [Функції GeoIP](ref.geoip.md)
-- Отримати двосимвольний код країни
+-   [« geoip\_continent\_code\_by\_name](function.geoip-continent-code-by-name.html)
+    
+-   [geoip\_country\_code3\_by\_name »](function.geoip-country-code3-by-name.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции GeoIP](ref.geoip.html)
+    
+-   Отримати двосимвольний код країни
+    
 
-# geoip_country_code_by_name
+# geoipcountrycodeбname
 
-(PECL geoip \>= 0.2.0)
+(PECL geoip >= 0.2.0)
 
-geoip_country_code_by_name — Отримати двосимвольний код країни
+geoipcountrycodeбname — Отримати двосимвольний код країни
 
 ### Опис
 
-**geoip_country_code_by_name**(string `$hostname`): string
+```methodsynopsis
+geoip_country_code_by_name(string $hostname): string
+```
 
-Функція **geoip_country_code_by_name()** повертає двосимвольний код
-країни, що відповідає імені хоста або IP-адреси.
+Функція **geoipcountrycodeбname()** повертає двосимвольний код країни, який відповідає імені хоста або IP-адреси.
 
 ### Список параметрів
 
 `hostname`
+
 Ім'я хоста або IP-адреса, за якою вестиметься пошук.
 
 ### Значення, що повертаються
 
-Повертає два символи, що містять код країни за ISO 3166-1, при
-знаходження адреси в базі даних, інакше **`false`**.
+Повертає два символи, що містять код країни за ISO 3166-1, при знаходженні адреси в базі даних, інакше **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoip_country_code_by_name()****
+**Приклад #1 Приклад використання **geoipcountrycodeбname()****
 
 Цей приклад виведе розташування хоста example.com.
 
-` <?php$country = geoip_country_code_by_name('www.example.com');if ($country) {    echo 'Хост розташований в ' . $country;}?> `
+```php
+<?php
+$country = geoip_country_code_by_name('www.example.com');
+if ($country) {
+    echo 'Хост расположен в ' . $country;
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
-Хост розташований в US
+```
+Хост расположен в US
+```
 
 ### Примітки
 
 **Застереження**
 
-Будь ласка, ознайомтесь з повним списком допустимих повертаних
-значень, у тому числі спеціальних кодів, тут
-[»http://www.maxmind.com/en/iso3166](http://www.maxmind.com/en/iso3166).
+Будь ласка, ознайомтеся з повним списком допустимих значень, що повертаються, в тому числі і спеціальних кодів, тут [» http://www.maxmind.com/en/iso3166](http://www.maxmind.com/en/iso3166)
 
 ### Дивіться також
 
-- [geoip_country_code3_by_name()](function.geoip-country-code3-by-name.md) -
-Отримати трисимвольний код країни
-- [geoip_country_name_by_name()](function.geoip-country-name-by-name.md) -
-Отримати повну назву країни
+-   [geoip\_country\_code3\_by\_name()](function.geoip-country-code3-by-name.html) - Отримати трисимвольний код країни
+-   [geoip\_country\_name\_by\_name()](function.geoip-country-name-by-name.html) - Отримати повну назву країни

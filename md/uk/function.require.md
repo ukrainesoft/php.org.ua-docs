@@ -1,20 +1,20 @@
-- [«return](function.return.md)
-- [include »](function.include.md)
+require
 
-- [PHP Manual](index.md)
-- [Керування конструкції](language.control-structures.md)
-- require
+-   [« return](function.return.html)
+    
+-   [include »](function.include.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Управляющие конструкции](language.control-structures.html)
+    
+-   require
+    
 
 ## require
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-`require` аналогічно [include](function.include.md), крім
-того, що у разі виникнення помилки він також видасть фатальну помилку
-рівня **`E_COMPILE_ERROR`**. Іншими словами, він зупинить виконання
-скрипта, тоді як [include](function.include.md) тільки видав би
-попередження **`E_WARNING`**, яке дозволило б скрипту продовжити
-Виконання.
+`require` аналогічно [include](function.include.html), крім того, що у разі виникнення помилки він також видасть фатальну помилку рівня **`E_COMPILE_ERROR`**. Іншими словами, він зупинить виконання скрипту, тоді як [include](function.include.html) тільки видав би попередження **`E_WARNING`**що дозволило б скрипту продовжити виконання.
 
-Дивіться документацію [include](function.include.md), щоб дізнатися
-як він працює.
+Дивіться документацію з [include](function.include.html), щоб дізнатися, як він працює.

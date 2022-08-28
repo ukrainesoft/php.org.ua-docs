@@ -1,56 +1,58 @@
-- [«ps_open_file](function.ps-open-file.md)
-- [ps_open_image »](function.ps-open-image.md)
+Відкриває зображення з файлу
 
-- [PHP Manual](index.md)
-- [Функції PS](ref.ps.md)
-- Відкриває зображення із файлу
+-   [« ps\_open\_file](function.ps-open-file.html)
+    
+-   [ps\_open\_image »](function.ps-open-image.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции PS](ref.ps.html)
+    
+-   Відкриває зображення з файлу
+    
 
-#ps_open_image_file
+# псopenimagefile
 
-(PECL ps \>= 1.1.0)
+(PECL ps >= 1.1.0)
 
-ps_open_image_file — Відкриває зображення з файлу
+псopenimagefile — Відкриває зображення з файлу
 
 ### Опис
 
-**ps_open_image_file**(
-resource `$psdoc`,
-string `$type`,
-string `$filename`,
-string `$stringparam` = ?,
-int `$intparam` = 0
-): int
+```methodsynopsis
+ps_open_image_file(    resource $psdoc,    string $type,    string $filename,    string $stringparam = ?,    int $intparam = 0): int
+```
 
 Завантажує зображення для подальшого використання.
 
 ### Список параметрів
 
 `psdoc`
-Ідентифікатор ресурсу файлу postscript, повернутий
-[ps_new()](function.ps-new.md).
+
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.html)
 
 `type`
-Тип зображення. Можливі значення: `png`, `jpeg` або `eps`.
+
+Тип зображення. Можливі значення: `png` `jpeg` або `eps`
 
 `filename`
+
 Ім'я файлу, який містить дані зображення.
 
 `stringparam`
+
 Параметр не використовується.
 
 `intparam`
+
 Параметр не використовується.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор зображення або нуль у разі виникнення
-помилки. Ідентифікатор – позитивне число більше 0.
+Повертає ідентифікатор зображення або нуль у разі помилки. Ідентифікатор – позитивне число більше 0.
 
 ### Дивіться також
 
-- [ps_open_image()](function.ps-open-image.md) - Зчитує
-зображення для подальшого розміщення
-- [ps_place_image()](function.ps-place-image.md) - Розміщує
-зображення на сторінці
-- [ps_close_image()](function.ps-close-image.md) - Закриває
-зображення та звільняє пам'ять
+-   [ps\_open\_image()](function.ps-open-image.html) - Зчитує зображення для подальшого розміщення
+-   [ps\_place\_image()](function.ps-place-image.html) - Розміщує зображення на сторінці
+-   [ps\_close\_image()](function.ps-close-image.html) - Закриває зображення та звільняє пам'ять

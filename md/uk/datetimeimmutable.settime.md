@@ -1,58 +1,58 @@
-- [« DateTimeImmutable::setISODate](datetimeimmutable.setisodate.md)
-- [DateTimeImmutable::setTimestamp »](datetimeimmutable.settimestamp.md)
+Встановлює час
 
-- [PHP Manual](index.md)
-- [DateTimeImmutable](class.datetimeimmutable.md)
-- Встановлює час
+-   [« DateTimeImmutable::setISODate](datetimeimmutable.setisodate.html)
+    
+-   [DateTimeImmutable::setTimestamp »](datetimeimmutable.settimestamp.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [DateTimeImmutable](class.datetimeimmutable.html)
+    
+-   Встановлює час
+    
 
 # DateTimeImmutable::setTime
 
-(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
+(PHP 5> = 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setTime — Встановлює час
 
 ### Опис
 
-public **DateTimeImmutable::setTime**(
-int `$hour`,
-int `$minute`,
-int `$second` = 0,
-int `$microsecond` = 0
-): [DateTimeImmutable](class.datetimeimmutable.md)
+```methodsynopsis
+public DateTimeImmutable::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTimeImmutable
+```
 
-Повертає новий об'єкт DateTimeImmutable з часом, встановленим на
-заданий час.
+Повертає новий об'єкт DateTimeImmutable із часом, встановленим на заданий час.
 
 ### Список параметрів
 
-`object`
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md),
-повертається [date_create()](function.date-create.md). Функція
-змінює цей об'єкт.
-
 `hour`
+
 Час часу.
 
 `minute`
+
 Хвилина часу.
 
 `second`
+
 Час секунди.
 
 `microsecond`
+
 Мікросекунди часу.
 
 ### Значення, що повертаються
 
-Повертає новий модифікований об'єкт
-[DateTimeImmutable](class.datetimeimmutable.md) або **`false`**
-у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                          |
-|--------|-------------------------------|
-| 7.1.0  | Доданий параметр microsecond. |
+| Версия | Описание |
+| --- | --- |
+|  | Поведінка з подвоєнням існуючого годинника (під час резервного переходу на літній час) змінилася. Раніше PHP вибирав друге входження (після переходу на літній час) замість першого входження (до переходу на літній час). |
+|  | Доданий параметр `microsecond` |
 
 ### Приклади
 
@@ -60,34 +60,55 @@ int `$microsecond` = 0
 
 Об'єктно-орієнтований стиль
 
-` <?php$date = new DateTimeImmutable('2001-01-01');$newDate = $date->setTime(14, 55);echo $date->format('Y-m-d H:i:s') . "
-";$newDate = $date->setTime(14, 55, 24);echo $date->format('Y-m-d H:i:s') . "
-";?> `
+```php
+<?php
+$date = new DateTimeImmutable('2001-01-01');
+
+$newDate = $date->setTime(14, 55);
+echo $date->format('Y-m-d H:i:s') . "\n";
+
+$newDate = $date->setTime(14, 55, 24);
+echo $date->format('Y-m-d H:i:s') . "\n";
+?>
+```
 
 Результатом виконання даних прикладів буде щось подібне:
 
+```
 2001-01-01 14:55:00
 2001-01-01 14:55:24
+```
 
-**Приклад #2 Значення, що виходять за межі діапазону, додаються до
-своїм батьківським значенням**
+**Приклад #2 Значення, що виходять за межі діапазону, додаються до батьківських значень**
 
-` <?php$date = new DateTimeImmutable('2001-01-01');$newDate = $date->setTime(14, 55, 24);echo $newDate->format('Y-m-d H:i:s: ) . "
-";$newDate = $date->setTime(14, 55, 65);echo $newDate->format('Y-m-d H:i:s') . "
-";$newDate = $date->setTime(14, 65, 24);echo $newDate->format('Y-m-d H:i:s') . "
-";$newDate = $date->setTime(25, 55, 24);echo $newDate->format('Y-m-d H:i:s') . "
-";?> `
+```php
+<?php
+$date = new DateTimeImmutable('2001-01-01');
+
+$newDate = $date->setTime(14, 55, 24);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
+
+$newDate = $date->setTime(14, 55, 65);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
+
+$newDate = $date->setTime(14, 65, 24);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
+
+$newDate = $date->setTime(25, 55, 24);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 2001-01-01 14:55:24
 2001-01-01 14:56:05
 2001-01-01 15:05:24
 2001-01-02 01:55:24
+```
 
 ### Дивіться також
 
-- [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) -
-Встановлює дату
-- [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) -
-Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.html) - Встановлює дату
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.html) - Встановлює дату у форматі ISO

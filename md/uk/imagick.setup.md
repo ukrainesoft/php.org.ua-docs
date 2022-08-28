@@ -1,15 +1,21 @@
-- [«Вступ](intro.imagick.md)
-- [Вимоги »](imagick.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [ImageMagick](book.imagick.md)
+-   [« Введение](intro.imagick.html)
+    
+-   [Требования »](imagick.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ImageMagick](book.imagick.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](imagick.requirements.md)
-- [Установка](imagick.installation.md)
-- [Налаштування під час виконання](imagick.configuration.md)
-- [Типи ресурсів](imagick.resources.md)
+-   [Требования](imagick.requirements.html)
+-   [Установка](imagick.installation.html)
+-   [Настройка во время выполнения](imagick.configuration.html)
+-   [Типы ресурсов](imagick.resources.html)

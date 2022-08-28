@@ -1,24 +1,29 @@
-- [« OAuth::disableSSLChecks](oauth.disablesslchecks.md)
-- [OAuth::enableRedirects »](oauth.enableredirects.md)
+Включити докладну налагоджувальну інформацію
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Включити докладну налагоджувальну інформацію
+-   [« OAuth::disableSSLChecks](oauth.disablesslchecks.html)
+    
+-   [OAuth::enableRedirects »](oauth.enableredirects.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Включити докладну налагоджувальну інформацію
+    
 
 # OAuth::enableDebug
 
-(PECL OAuth = 0.99.3)
+(PECL OAuth >= 0.99.3)
 
-OAuth::enableDebug — Включити докладну інформацію про налагодження
+OAuth::enableDebug — Включити детальну інформацію про налагодження
 
 ### Опис
 
-public **OAuth::enableDebug**(): bool
+```methodsynopsis
+public OAuth::enableDebug(): bool
+```
 
-Включає докладну інформацію про запит, корисний для налагодження.
-Відлагоджувальна інформація зберігається в полі `debugInfo`. Альтернативно можна
-встановити поле `debug` значення non-**`false`**, щоб увімкнути режим
-налагодження.
+Включає докладну інформацію про запит, корисний для налагодження. Відлагоджувальна інформація зберігається в полі `debugInfo`. Альтернативно можна встановити полю `debug` значення non-**`false`**, щоб увімкнути режим налагодження.
 
 ### Список параметрів
 
@@ -28,13 +33,12 @@ public **OAuth::enableDebug**(): bool
 
 **`true`**
 
-### Список змін
+### список змін
 
-| Версія            | Опис                                |
-|-------------------|-------------------------------------|
-| PECL oauth 0.99.8 | Були додані поля debug та debugInfo |
+| Версия | Описание |
+| --- | --- |
+| PECL oauth 0.99.8 | Були додані поля `debug` і `debugInfo` |
 
 ### Дивіться також
 
-- [OAuth::disableDebug()](oauth.disabledebug.md) - Вимкнути
-докладну налагоджувальну інформацію
+-   [OAuth::disableDebug()](oauth.disabledebug.html) - Вимкнути докладну налагоджувальну інформацію

@@ -1,27 +1,34 @@
-- [« Ds\Sequence::pop](ds-sequence.pop.md)
-- [Ds\Sequence::reduce »](ds-sequence.reduce.md)
+Додає значення до кінця послідовності
 
-- [PHP Manual](index.md)
-- [Послідовність](class.ds-sequence.md)
-- Додає значення до кінця послідовності
+-   [« Ds\\Sequence::pop](ds-sequence.pop.html)
+    
+-   [Ds\\Sequence::reduce »](ds-sequence.reduce.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Последовательность](class.ds-sequence.html)
+    
+-   Додає значення до кінця послідовності
+    
 
-# Ds\Sequence::push
+# ДсSequence::push
 
-(PECL ds \>= 1.0.0)
+(PECL ds >= 1.0.0)
 
-Ds\Sequence::push — Додає значення до кінця послідовності
+ДсSequence::push — Додає значення до кінця послідовності
 
 ### Опис
 
-abstract public
-**Ds\Sequence::push**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$values`): void
+```methodsynopsis
+abstract public Ds\Sequence::push(mixed ...$values): void
+```
 
 Додає значення до кінця послідовності.
 
 ### Список параметрів
 
 `values`
+
 Значення, що додаються.
 
 ### Значення, що повертаються
@@ -30,18 +37,31 @@ abstract public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Ds\Sequence::push()****
+**Приклад #1 Приклад використання **ДсSequence::push()****
 
-` <?php$sequence = new \Ds\Vector();$sequence->push("a");$sequence->push("b");$sequence->push("c", "d" );$sequence->push(...["e", "f"]);print_r($sequence);?> `
+```php
+<?php
+$sequence = new \Ds\Vector();
+
+$sequence->push("a");
+$sequence->push("b");
+$sequence->push("c", "d");
+$sequence->push(...["e", "f"]);
+
+print_r($sequence);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Ds\Vector Object
 (
-[0] => a
-[1] => b
-[2] => c
-[3] => d
-[4] => e
-[5] => f
+    [0] => a
+    [1] => b
+    [2] => c
+    [3] => d
+    [4] => e
+    [5] => f
 )
+```

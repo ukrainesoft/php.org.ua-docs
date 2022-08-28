@@ -1,42 +1,46 @@
-- [«shm_remove_var](function.shm-remove-var.md)
-- [SysvMessageQueue »](class.sysvmessagequeue.md)
+Видаляє пам'ять, що розділяється, з систем Unix
 
-- [PHP Manual](index.md)
-- [Функції семафорів](ref.sem.md)
-- Видаляє пам'ять, що розділяється, з систем Unix
+-   [« shm\_remove\_var](function.shm-remove-var.html)
+    
+-   [SysvMessageQueue »](class.sysvmessagequeue.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции семафоров](ref.sem.html)
+    
+-   Видаляє пам'ять, що розділяється, з систем Unix
+    
 
-#shm_remove
+# shmremove
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-shm_remove — Видалення пам'яті, що розділяється, із систем Unix
+shmremove — Видалення пам'яті, що розділяється, з систем Unix
 
 ### Опис
 
-**shm_remove**([SysvSharedMemory](class.sysvsharedmemory.md) `$shm`):
-bool
+```methodsynopsis
+shm_remove(SysvSharedMemory $shm): bool
+```
 
-**shm_remove()** видаляє пам'ять `shm`. Всі дані будуть
-знищено.
+**shmremove()** видаляє пам'ять, що розділяється `shm`. Усі дані будуть знищені.
 
 ### Список параметрів
 
 `shm`
-Сегмент пам'яті, що розділяється, отриманий з
-[shm_attach()](function.shm-attach.md).
+
+Сегмент пам'яті, що розділяється, отриманий з [shm\_attach()](function.shm-attach.html)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                         |
-| ------ | ------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | shm тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
+| Версия | Описание |
+| --- | --- |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
-- [shm_remove_var()](function.shm-remove-var.md) - Видаляє
-змінну з пам'яті, що розділяється
+-   [shm\_remove\_var()](function.shm-remove-var.html) - Видаляє змінну з пам'яті, що розділяється

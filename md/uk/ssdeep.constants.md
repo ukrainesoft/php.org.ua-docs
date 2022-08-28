@@ -1,10 +1,16 @@
-- [« Типи ресурсів](ssdeep.resources.md)
-- [Функції ssdeep »](ref.ssdeep.md)
+Обумовлені константи
 
-- [PHP Manual](index.md)
-- [ssdeep](book.ssdeep.md)
-- Обумовлені константи
+-   [« Типы ресурсов](ssdeep.resources.html)
+    
+-   [Функции ssdeep »](ref.ssdeep.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ssdeep](book.ssdeep.html)
+    
+-   Обумовлені константи
+    
 
-# Зумовлені константи
+# Обумовлені константи
 
 Цей модуль не визначає жодних константів.

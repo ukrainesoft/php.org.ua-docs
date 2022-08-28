@@ -1,27 +1,31 @@
-- [« Yaf_Config_Abstract](class.yaf-config-abstract.md)
-- [Yaf_Config_Abstract::readonly »](yaf-config-abstract.readonly.md)
+Геттер
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Abstract](class.yaf-config-abstract.md)
-- Геттер
+-   [« Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+    
+-   [Yaf\_Config\_Abstract::readonly »](yaf-config-abstract.readonly.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Abstract](class.yaf-config-abstract.html)
+    
+-   Геттер
+    
 
-# Yaf_Config_Abstract::get
+# YafConfigAbstract::get
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Abstract::get — Геттер
+YafConfigAbstract::get — Геттер
 
 ### Опис
 
-abstract public **Yaf_Config_Abstract::get**(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+```methodsynopsis
+abstract public Yaf_Config_Abstract::get(string $name, mixed $value): mixed
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,36 +1,33 @@
-- [« tidy_warning_count](function.tidy-warning-count.md)
-- [Вступ »](intro.tokenizer.md)
+Лексер (Tokenizer)
 
-- [PHP Manual](index.md)
-- [Інші базові модулі](refs.basic.other.md)
-- Лексер (Tokenizer)
+-   [« tidy\_warning\_count](function.tidy-warning-count.html)
+    
+-   [Введение »](intro.tokenizer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Другие базовые модули](refs.basic.other.html)
+    
+-   Лексер (Tokenizer)
+    
 
 # Лексер (Tokenizer)
 
-- [Вступ](intro.tokenizer.md)
-- [Встановлення та налаштування](tokenizer.setup.md)
-- [Вимоги](tokenizer.requirements.md)
-- [Установка](tokenizer.installation.md)
-- [Налаштування під час виконання](tokenizer.configuration.md)
-- [Типи ресурсів](tokenizer.resources.md)
-- [Предвизначені константи](tokenizer.constants.md)
-- [Приклади](tokenizer.examples.md)
-- [PhpToken](class.phptoken.md) - Клас PhpToken
-- [PhpToken::\_\_construct](phptoken.construct.md) - Створює
-об'єкт PhpToken
-- [PhpToken::getTokenName](phptoken.gettokenname.md) -
-Повертає ім'я токена
-- [PhpToken::is](phptoken.is.md) — Перевіряє, чи відповідає
-токен зазначеного типу
-- [PhpToken::isIgnorable](phptoken.isignorable.md) — Повідомляє,
-чи буде токен ігноруватися парсером PHP
-- [PhpToken::\_\_toString](phptoken.tostring.md) - Повертає
-текстовий вміст токена
-- [PhpToken::tokenize](phptoken.tokenize.md) - Розбирає
-заданий рядок, що містить програму на PHP, на масив об'єктів
-PhpToken
-- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
-- [token_get_all](function.token-get-all.md) - Розбиває
-переданий вихідний код на PHP-лексеми
-- [token_name](function.token-name.md) — Отримати символьне ім'я
-для переданої PHP-лексеми
+-   [Введение](intro.tokenizer.html)
+-   [Установка и настройка](tokenizer.setup.html)
+    -   [Требования](tokenizer.requirements.html)
+    -   [Установка](tokenizer.installation.html)
+    -   [Настройка во время выполнения](tokenizer.configuration.html)
+    -   [Типы ресурсов](tokenizer.resources.html)
+-   [Предопределённые константы](tokenizer.constants.html)
+-   [Примеры](tokenizer.examples.html)
+-   [PhpToken](class.phptoken.html) - Клас PhpToken
+    -   [PhpToken::\_\_construct](phptoken.construct.html) - Створює об'єкт PhpToken
+    -   [PhpToken::getTokenName](phptoken.gettokenname.html) - Повертає ім'я токена
+    -   [PhpToken::is](phptoken.is.html) — Перевіряє, чи відповідає токен зазначеному типу
+    -   [PhpToken::isIgnorable](phptoken.isignorable.html) — Повідомляє, чи токен ігноруватиметься парсером PHP
+    -   [PhpToken::\_\_toString](phptoken.tostring.html) — Повертає текстовий вміст токена
+    -   [PhpToken::tokenize](phptoken.tokenize.html) — Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
+-   [Функции PHP-лексера (tokenizer)](ref.tokenizer.html)
+    -   [token\_get\_all](function.token-get-all.html) — Розбиває переданий вихідний код на PHP-лексеми
+    -   [token\_name](function.token-name.html) — Отримати символьне ім'я для переданої PHP-лексеми

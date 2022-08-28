@@ -1,33 +1,42 @@
-- [«UI\Point](class.ui-point.md)
-- [UI\Point::\_\_construct »](ui-point.construct.md)
+Приведення Size
 
-- [PHP Manual](index.md)
-- [UI\Point](class.ui-point.md)
-- Приведення Size
+-   [« UI\\Point](class.ui-point.html)
+    
+-   [UI\\Point::\_\_construct »](ui-point.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Point](class.ui-point.html)
+    
+-   Приведення Size
+    
 
-# UI\Point::at
+# ОЙPoint::at
 
 (UI 1.0.2)
 
-UI\Point::at - Приведення Size
+ОЙPoint::at — Приведення Size
 
 ### Опис
 
-public static **UI\Point::at**(float `$point`):
-[UI\Point](class.ui-point.md)
+```methodsynopsis
+public static UI\Point::at(float $point): UI\Point
+```
 
-public static **UI\Point::at**([UI\Size](class.ui-size.md) `$size`):
-[UI\Point](class.ui-point.md)
+```methodsynopsis
+public static UI\Point::at(UI\Size $size): UI\Point
+```
 
-Повинен повернути об'єкт UI\Point з координатами x та y, заданими у вигляді
-числа з плаваючою точкою або як об'єкта UI\Size.
+Повинен повернути об'єкт UIPoint з координатами x і y, заданими у вигляді числа з точкою, що плаває, або у вигляді об'єкта UISize.
 
 ### Список параметрів
 
 `point`
+
 Значення для x та y
 
 `size`
+
 Об'єкт класу Size для конвертації
 
 ### Значення, що повертаються

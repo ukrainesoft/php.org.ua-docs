@@ -1,24 +1,31 @@
-- [« Swoole\Buffer::\_\_construct](swoole-buffer.construct.md)
-- [Swoole\Buffer::expand »](swoole-buffer.expand.md)
+Знищує буфер пам'яті Swoole
 
-- [PHP Manual](index.md)
-- [Swoole\Buffer](class.swoole-buffer.md)
-- Знищує буфер пам'яті Swoole
+-   [« Swoole\\Buffer::\_\_construct](swoole-buffer.construct.html)
+    
+-   [Swoole\\Buffer::expand »](swoole-buffer.expand.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Buffer](class.swoole-buffer.html)
+    
+-   Знищує буфер пам'яті Swoole
+    
 
-# Swoole\Buffer::\_\_destruct
+# SwooleBuffer::destruct
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Buffer::\_\_destruct — Знищує буфер пам'яті Swoole
+SwooleBuffer::destruct — Знищує буфер пам'яті Swoole
 
 ### Опис
 
-public **Swoole\Buffer::\_\_destruct**(): void
+```methodsynopsis
+public Swoole\Buffer::__destruct(): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

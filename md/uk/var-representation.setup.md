@@ -1,13 +1,19 @@
-- [«Вступ](intro.var_representation.md)
-- [Вимоги »](var-representation.requirements.md)
+Встановлення та налаштування
 
-- [PHP Manual](index.md)
-- [var_representation](book.var_representation.md)
+-   [« Введение](intro.var_representation.html)
+    
+-   [Требования »](var-representation.requirements.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [var\_representation](book.var_representation.html)
+    
 -   Встановлення та налаштування
+    
 
 # Встановлення та налаштування
 
 ## Зміст
 
-- [Вимоги](var-representation.requirements.md)
-- [Встановлення](var-representation.installation.md)
+-   [Требования](var-representation.requirements.html)
+-   [Установка](var-representation.installation.html)

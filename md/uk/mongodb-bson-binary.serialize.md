@@ -1,19 +1,27 @@
-- [« MongoDB\BSON\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.md)
-- [MongoDB\BSON\Binary::\_\_toString »](mongodb-bson-binary.tostring.md)
+Серіалізує Binary
 
-- [PHP Manual](index.md)
-- [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
-- Серіалізує Binary
+-   [« MongoDB\\BSON\\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.html)
+    
+-   [MongoDB\\BSON\\Binary::\_\_toString »](mongodb-bson-binary.tostring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
+    
+-   Серіалізує Binary
+    
 
-# MongoDB\BSON\Binary::serialize
+# MongoDBBSONBinary::serialize
 
-(mongodb \>=1.2.0)
+(mongodb >=1.2.0)
 
-MongoDB\BSON\Binary::serialize — Серіалізує Binary
+MongoDBBSONBinary::serialize — Серіалізує Binary
 
 ### Опис
 
-final public **MongoDB\BSON\Binary::serialize**(): string
+```methodsynopsis
+final public MongoDB\BSON\Binary::serialize(): string
+```
 
 ### Список параметрів
 
@@ -21,18 +29,14 @@ final public **MongoDB\BSON\Binary::serialize**(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу
-[MongoDB\BSON\Binary](class.mongodb-bson-binary.md).
+Повертає серіалізовану виставу [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.html)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\BSON\Binary::unserialize()](mongodb-bson-binary.unserialize.md) -
-Десеріалізує Binary
-- [serialize()](function.serialize.md) - Генерує придатне для
-зберігання уявлення змінної
-- [Серіалізація об'єктів](language.oop5.serialization.md)
+-   [MongoDB\\BSON\\Binary::unserialize()](mongodb-bson-binary.unserialize.html) - Десеріалізує Binary
+-   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
+-   [Сериализация объектов](language.oop5.serialization.html)

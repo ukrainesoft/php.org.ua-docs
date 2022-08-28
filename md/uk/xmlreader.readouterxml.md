@@ -1,20 +1,27 @@
-- [« XMLReader::readInnerXml](xmlreader.readinnerxml.md)
-- [XMLReader::readString »](xmlreader.readstring.md)
+Отримати XML із поточного вузла, включаючи сам вузол
 
-- [PHP Manual](index.md)
-- [XMLReader](class.xmlreader.md)
-- Отримати XML із поточного вузла, включаючи сам вузол
+-   [« XMLReader::readInnerXml](xmlreader.readinnerxml.html)
+    
+-   [XMLReader::readString »](xmlreader.readstring.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [XMLReader](class.xmlreader.html)
+    
+-   Отримати XML із поточного вузла, включаючи сам вузол
+    
 
 # XMLReader::readOuterXml
 
-(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
+(PHP 5> = 5.2.0, PHP 7, PHP 8)
 
-XMLReader::readOuterXml — Отримати XML із поточного вузла, включаючи сам
-вузол
+XMLReader::readOuterXml — Отримати XML із поточного вузла, включаючи сам вузол
 
 ### Опис
 
-public **XMLReader::readOuterXml**(): string
+```methodsynopsis
+public XMLReader::readOuterXml(): string
+```
 
 Читає вміст поточного вузла, включаючи вузол.
 
@@ -24,21 +31,16 @@ public **XMLReader::readOuterXml**(): string
 
 ### Значення, що повертаються
 
-Повертає вміст поточного вузла, включаючи сам вузол як рядок. В
-У разі виникнення помилки рядок буде порожнім.
+Повертає вміст поточного вузла, включаючи сам вузол як рядок. У разі виникнення помилки рядок буде порожнім.
 
 ### Примітки
 
 **Застереження**
 
-Ця функція доступна лише якщо PHP скомпільовано з підтримкою libxml
-20620 чи старше.
+Ця функція доступна лише якщо PHP скомпільовано за допомогою libxml 20620 або старше.
 
 ### Дивіться також
 
-- [XMLReader::readString()](xmlreader.readstring.md) - Прочитати
-вміст поточного вузла як рядок
-- [XMLReader::readInnerXml()](xmlreader.readinnerxml.md) - Вийняти
-XML із поточного вузла
-- [XMLReader::expand()](xmlreader.expand.md) - Повернути копію
-поточного вузла у вигляді об'єкта DOM
+-   [XMLReader::readString()](xmlreader.readstring.html) - Прочитати вміст поточного вузла як рядок
+-   [XMLReader::readInnerXml()](xmlreader.readinnerxml.html) - Вийняти XML із поточного вузла
+-   [XMLReader::expand()](xmlreader.expand.html) - Повернути копію поточного вузла у вигляді об'єкта DOM

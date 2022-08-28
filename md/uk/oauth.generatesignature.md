@@ -1,9 +1,15 @@
-- [« OAuth::fetch](oauth.fetch.md)
-- [OAuth::getAccessToken »](oauth.getaccesstoken.md)
+Згенерувати підпис
 
-- [PHP Manual](index.md)
-- [OAuth](class.oauth.md)
-- Згенерувати підпис
+-   [« OAuth::fetch](oauth.fetch.html)
+    
+-   [OAuth::getAccessToken »](oauth.getaccesstoken.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [OAuth](class.oauth.html)
+    
+-   Згенерувати підпис
+    
 
 # OAuth::generateSignature
 
@@ -13,23 +19,24 @@ OAuth::generateSignature — Згенерувати підпис
 
 ### Опис
 
-public **OAuth::generateSignature**(string `$http_method`, string
-$url,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$extra_parameters` = ?): string\|false
+```methodsynopsis
+public OAuth::generateSignature(string $http_method, string $url, mixed $extra_parameters = ?): string|false
+```
 
-Генерує підпис на основі методу HTTP, URL та додаткових
-параметрів.
+Генерує підпис на основі методу HTTP, URL та додаткових параметрів.
 
 ### Список параметрів
 
 `http_method`
+
 HTTP-метод для запиту
 
 `url`
+
 URL запиту
 
 `extra_parameters`
+
 Рядок або масив додаткових параметрів.
 
 ### Значення, що повертаються

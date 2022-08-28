@@ -1,27 +1,33 @@
-- [« RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.md)
-- [RecursiveTreeIterator::setPrefixPart »](recursivetreeiterator.setprefixpart.md)
+Встановлення постфіксу
 
-- [PHP Manual](index.md)
-- [RecursiveTreeIterator](class.recursivetreeiterator.md)
-- Встановлення постфіксу
+-   [« RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.html)
+    
+-   [RecursiveTreeIterator::setPrefixPart »](recursivetreeiterator.setprefixpart.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [RecursiveTreeIterator](class.recursivetreeiterator.html)
+    
+-   Встановлення постфіксу
+    
 
 # RecursiveTreeIterator::setPostfix
 
-(PHP 5 \>= 5.5.3, PHP 7, PHP 8)
+(PHP 5> = 5.5.3, PHP 7, PHP 8)
 
 RecursiveTreeIterator::setPostfix — Встановлення постфіксу
 
 ### Опис
 
-public **RecursiveTreeIterator::setPostfix**(string `$postfix`): void
+```methodsynopsis
+public RecursiveTreeIterator::setPostfix(string $postfix): void
+```
 
-Встановлює постфікс, який використовується в
-[RecursiveTreeIterator::getPostfix()](recursivetreeiterator.getpostfix.md).
+Встановлює постфікс, який використовується в [RecursiveTreeIterator::getPostfix()](recursivetreeiterator.getpostfix.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

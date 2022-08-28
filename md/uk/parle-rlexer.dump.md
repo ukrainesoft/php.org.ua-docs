@@ -1,21 +1,29 @@
-- [« Parle\RLexer::consume](parle-rlexer.consume.md)
-- [Parle\RLexer::getToken »](parle-rlexer.gettoken.md)
+Вивантажує стан пристрою
 
-- [PHP Manual](index.md)
-- [Parle\RLexer](class.parle-rlexer.md)
-- Вивантажує стан пристрою
+-   [« Parle\\RLexer::consume](parle-rlexer.consume.html)
+    
+-   [Parle\\RLexer::getToken »](parle-rlexer.gettoken.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\RLexer](class.parle-rlexer.html)
+    
+-   Вивантажує стан пристрою
+    
 
-# Parle\RLexer::dump
+# ParleRLexer::dump
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\RLexer::dump — Вивантажує стан пристрою
+ParleRLexer::dump — Вивантажує стан пристрою
 
 ### Опис
 
-public **Parle\RLexer::dump**(): void
+```methodsynopsis
+public Parle\RLexer::dump(): void
+```
 
-Вивантажує поточний стан на стандартний висновок.
+Вивантажує поточний стан пристрою на стандартний висновок.
 
 ### Список параметрів
 

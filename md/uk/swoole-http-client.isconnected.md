@@ -1,20 +1,27 @@
-- [« Swoole\Http\Client::get](swoole-http-client.get.md)
-- [Swoole\Http\Client::on »](swoole-http-client.on.md)
+Перевіряє, чи підключено HTTP-з'єднання.
 
-- [PHP Manual](index.md)
-- [Swoole\Http\Client](class.swoole-http-client.md)
-- Перевіряє, чи підключено з'єднання HTTP
+-   [« Swoole\\Http\\Client::get](swoole-http-client.get.html)
+    
+-   [Swoole\\Http\\Client::on »](swoole-http-client.on.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Swoole\\Http\\Client](class.swoole-http-client.html)
+    
+-   Перевіряє, чи підключено HTTP-з'єднання.
+    
 
-# Swoole\Http\Client::isConnected
+# SwooleHttpClient::isConnected
 
-(PECL swoole \>= 1.9.0)
+(PECL swoole >= 1.9.0)
 
-Swoole\Http\Client::isConnected — Перевіряє, чи підключено з'єднання
-HTTP
+SwooleHttpClient::isConnected — Перевіряє, чи підключено HTTP-з'єднання.
 
 ### Опис
 
-public **Swoole\Http\Client::isConnected**(): bool
+```methodsynopsis
+public Swoole\Http\Client::isConnected(): bool
+```
 
 ### Список параметрів
 

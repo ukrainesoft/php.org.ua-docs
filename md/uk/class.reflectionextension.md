@@ -1,9 +1,15 @@
-- [« ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md)
-- [ReflectionExtension::\_\_clone »](reflectionextension.clone.md)
+Клас ReflectionExtension
 
-- [PHP Manual](index.md)
-- [Reflection](book.reflection.md)
-- Клас ReflectionExtension
+-   [« ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.html)
+    
+-   [ReflectionExtension::\_\_clone »](reflectionextension.clone.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Reflection](book.reflection.html)
+    
+-   Клас ReflectionExtension
+    
 
 # Клас ReflectionExtension
 
@@ -15,85 +21,68 @@
 
 ## Огляд класів
 
-class **ReflectionExtension** implements
-[Reflector](class.reflector.md) {
+```classsynopsis
 
-/\* Властивості \*/
+     
+    
 
-public string `$name`;
+    
+     
+      class ReflectionExtension
+     
 
-/\* Методи \*/
+     implements 
+       Reflector {
 
-public [\_\_construct](reflectionextension.construct.md)(string
-`$name`)
+    /* Свойства */
+    
+     public
+     string
+      $name;
 
-private [\_\_clone](reflectionextension.clone.md)(): void
 
-public static [export](reflectionextension.export.md)(string `$name`,
-string `$return` = **`false`**): string
+    /* Методы */
+    
+   public __construct(string $name)
 
-public [getClasses](reflectionextension.getclasses.md)(): array
+    private __clone(): void
+public static export(string $name, string $return = false): string
+public getClasses(): array
+public getClassNames(): array
+public getConstants(): array
+public getDependencies(): array
+public getFunctions(): array
+public getINIEntries(): array
+public getName(): string
+public getVersion(): ?string
+public info(): void
+public isPersistent(): bool
+public isTemporary(): bool
+public __toString(): string
 
-public [getClassNames](reflectionextension.getclassnames.md)(): array
-
-public [getConstants](reflectionextension.getconstants.md)(): array
-
-public [getDependencies](reflectionextension.getdependencies.md)():
-array
-
-public [getFunctions](reflectionextension.getfunctions.md)(): array
-
-public [getINIEntries](reflectionextension.getinientries.md)(): array
-
-public [getName](reflectionextension.getname.md)(): string
-
-public [getVersion](reflectionextension.getversion.md)(): ?string
-
-public [info](reflectionextension.info.md)(): void
-
-public [isPersistent](reflectionextension.ispersistent.md)(): bool
-
-public [isTemporary](reflectionextension.istemporary.md)(): bool
-
-public [\_\_toString](reflectionextension.tostring.md)(): string
-
-}
+   }
+```
 
 ## Властивості
 
-`name`
-Ім'я модуль. Значення якості збігається з тим, що повертає метод
-[ReflectionExtension::getName()](reflectionextension.getname.md)
+name
+
+Ім'я модуль. Значення властивості збігається з тим, що метод повертає метод [ReflectionExtension::getName()](reflectionextension.getname.html)
 
 ## Зміст
 
-- [ReflectionExtension::\_\_clone](reflectionextension.clone.md) -
-Клонує об'єкт
-- [ReflectionExtension::\_\_construct](reflectionextension.construct.md)
-— Створює об'єкт класу ReflectionExtension
-- [ReflectionExtension::export](reflectionextension.export.md) -
-Експортує модуль
-- [ReflectionExtension::getClasses](reflectionextension.getclasses.md)
-- Повертає класи
-- [ReflectionExtension::getClassNames](reflectionextension.getclassnames.md)
-- Отримання імен класів
-- [ReflectionExtension::getConstants](reflectionextension.getconstants.md)
-- Отримання констант
-- [ReflectionExtension::getDependencies](reflectionextension.getdependencies.md)
-- Отримання залежностей
-- [ReflectionExtension::getFunctions](reflectionextension.getfunctions.md)
-— Отримання функцій модуля
-- [ReflectionExtension::getINIEntries](reflectionextension.getinientries.md)
-— Отримання ini-налаштувань модуля
-- [ReflectionExtension::getName](reflectionextension.getname.md) -
-Отримання імені модуля
-- [ReflectionExtension::getVersion](reflectionextension.getversion.md)
-— Отримання версії модуля
-- [ReflectionExtension::info](reflectionextension.info.md) - Висновок
-інформації про модуль
-- [ReflectionExtension::isPersistent](reflectionextension.ispersistent.md)
-— Визначає, чи модуль постійний
-- [ReflectionExtension::isTemporary](reflectionextension.istemporary.md)
-— Визначає, чи модуль є тимчасовим
-- [ReflectionExtension::\_\_toString](reflectionextension.tostring.md)
-— Перетворення на рядок
+-   [ReflectionExtension::\_\_clone](reflectionextension.clone.html) - Клонує об'єкт
+-   [ReflectionExtension::\_\_construct](reflectionextension.construct.html) — Створює об'єкт класу ReflectionExtension
+-   [ReflectionExtension::export](reflectionextension.export.html) - Експортує модуль
+-   [ReflectionExtension::getClasses](reflectionextension.getclasses.html) - Повертає класи
+-   [ReflectionExtension::getClassNames](reflectionextension.getclassnames.html) - Отримання імен класів
+-   [ReflectionExtension::getConstants](reflectionextension.getconstants.html) - Отримання констант
+-   [ReflectionExtension::getDependencies](reflectionextension.getdependencies.html) - Отримання залежностей
+-   [ReflectionExtension::getFunctions](reflectionextension.getfunctions.html) — Отримання функцій модуля
+-   [ReflectionExtension::getINIEntries](reflectionextension.getinientries.html) — Отримання ini-налаштувань модуля
+-   [ReflectionExtension::getName](reflectionextension.getname.html) — Отримання імені модуля
+-   [ReflectionExtension::getVersion](reflectionextension.getversion.html) — Отримання версії модуля
+-   [ReflectionExtension::info](reflectionextension.info.html) — Виведення інформації про модуль
+-   [ReflectionExtension::isPersistent](reflectionextension.ispersistent.html) — Визначає, чи модуль є постійним
+-   [ReflectionExtension::isTemporary](reflectionextension.istemporary.html) — Визначає, чи модуль є тимчасовим
+-   [ReflectionExtension::\_\_toString](reflectionextension.tostring.html) — Перетворення на рядок

@@ -1,9 +1,15 @@
-- [« CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.md)
-- [mysql_xdevapi\CollectionRemove »](class.mysql-xdevapi-collectionremove.md)
+Скидає значення полів документа
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
-- скидає значення полів документа
+-   [« CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.html)
+    
+-   [mysql\_xdevapi\\CollectionRemove »](class.mysql-xdevapi-collectionremove.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\CollectionModify](class.mysql-xdevapi-collectionmodify.html)
+    
+-   Скидає значення полів документа
+    
 
 # CollectionModify::unset
 
@@ -13,29 +19,34 @@ CollectionModify::unset — Скидає значення полів докум�
 
 ### Опис
 
-public **mysql_xdevapi\CollectionModify::unset**(array `$fields`):
-[mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)
+```methodsynopsis
+public mysql_xdevapi\CollectionModify::unset(array $fields): mysql_xdevapi\CollectionModify
+```
 
 Видаляє атрибути з документів у колекції.
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `fields`
+
 Атрибути для видалення документів у колекції.
 
 ### Значення, що повертаються
 
-Об'єкт CollectionModify, який можна використовувати для подальшого
-обробки.
+Об'єкт CollectionModify, який можна використовувати для подальшої обробки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\CollectionModify::unset()****
+**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::unset()****
 
-` <?php$res = $coll->modify('job like :job_name')->unset(["age", "name"])->bind(['job_name' => 'Plumber'])- >execute();?> `
+```php
+<?php
+
+$res = $coll->modify('job like :job_name')->unset(["age", "name"])->bind(['job_name' => 'Plumber'])->execute();
+
+?>
+```

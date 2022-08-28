@@ -1,11 +1,16 @@
-- [« Встановлення та налаштування](cubrid.setup.md)
-- [Установка »](cubrid.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](cubrid.setup.md)
-- Вимоги
+-   [« Установка и настройка](cubrid.setup.html)
+    
+-   [Установка »](cubrid.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](cubrid.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 
-Щоб ці функції були доступні, необхідно встановити CUBRID
-та скомпілювати CUBRID PHP Library з його підтримкою.
+Для того, щоб ці функції були доступні, необхідно встановити CUBRID та скомпілювати CUBRID PHP Library з його підтримкою.

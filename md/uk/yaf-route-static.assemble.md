@@ -1,20 +1,27 @@
-- [« Yaf_Route_Static](class.yaf-route-static.md)
-- [Yaf_Route_Static::match »](yaf-route-static.match.md)
+Збирає URL
 
-- [PHP Manual](index.md)
-- [Yaf_Route_Static](class.yaf-route-static.md)
-- Збирає URL
+-   [« Yaf\_Route\_Static](class.yaf-route-static.html)
+    
+-   [Yaf\_Route\_Static::match »](yaf-route-static.match.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Route\_Static](class.yaf-route-static.html)
+    
+-   Збирає URL
+    
 
-# Yaf_Route_Static::assemble
+# YafRouteStatic::assemble
 
-(Yaf \> = 2.3.0)
+(Yaf >=2.3.0)
 
-Yaf_Route_Static::assemble — Збирає URL
+YafRouteStatic::assemble — Збирає URL
 
 ### Опис
 
-public **Yaf_Route_Static::assemble**(array `$info`, array `$query` =
-?): string
+```methodsynopsis
+public Yaf_Route_Static::assemble(array $info, array $query = ?): string
+```
 
 Збирає URL-адресу.
 
@@ -30,17 +37,49 @@ public **Yaf_Route_Static::assemble**(array `$info`, array `$query` =
 
 ### Помилки
 
-Викидає
-[Yaf_Exception_TypeError](class.yaf-exception-typeerror.md), якщо
-ключі параметра `info```:c'` and ``:a'` не задані.
+Викидає [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.html), якщо ключі параметра `info` `':c'` and `':a'` не задані.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Yaf_Route_Static::assemble()****
+**Приклад #1 Приклад використання **YafRouteStatic::assemble()****
 
-` <?php$router== new Yaf_Router();$route = new Yaf_Route_Static();$router->addRoute("static", $route);var_dump($router->getRoute('static')-> array(                ':a' => 'yafaction',                'tkey' => 'tval',                ':c' => 'yafcontroller',                ':m' => 'yafmodule'            ),        ));var_dump($router- >getRoute('static')->assemble(            array(                ':a' => 'yafaction',                'tkey' => 'tval',                ':c' => 'yafcontroller',                ':m' => 'yafmodule '            ),            array(                'tkey1' => 'tval1',                'tkey2' => 'tval2'            )        )); `
+```php
+<?php
+
+$router = new Yaf_Router();
+
+$route  = new Yaf_Route_Static();
+
+$router->addRoute("static", $route);
+
+var_dump($router->getRoute('static')->assemble(
+            array(
+                ':a' => 'yafaction',
+                'tkey' => 'tval',
+                ':c' => 'yafcontroller',
+                ':m' => 'yafmodule'
+            ),
+        )
+);
+
+var_dump($router->getRoute('static')->assemble(
+            array(
+                ':a' => 'yafaction',
+                'tkey' => 'tval',
+                ':c' => 'yafcontroller',
+                ':m' => 'yafmodule'
+            ),
+            array(
+                'tkey1' => 'tval1',
+                'tkey2' => 'tval2'
+            )
+        )
+);
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 string(%d) "/yafmodule/yafcontroller/yafaction"
 string(%d) "/yafmodule/yafcontroller/yafaction?tkey1=tval1&tkey2=tval2"
+```

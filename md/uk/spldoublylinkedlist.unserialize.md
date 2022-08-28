@@ -1,32 +1,38 @@
-- [« SplDoublyLinkedList::top](spldoublylinkedlist.top.md)
-- [SplDoublyLinkedList::unshift »](spldoublylinkedlist.unshift.md)
+Десеріалізує сховище
 
-- [PHP Manual](index.md)
-- [SplDoublyLinkedList](class.spldoublylinkedlist.md)
-- десеріалізує сховище
+-   [« SplDoublyLinkedList::top](spldoublylinkedlist.top.html)
+    
+-   [SplDoublyLinkedList::unshift »](spldoublylinkedlist.unshift.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplDoublyLinkedList](class.spldoublylinkedlist.html)
+    
+-   Десеріалізує сховище
+    
 
 # SplDoublyLinkedList::unserialize
 
-(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
+(PHP 5> = 5.4.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::unserialize — Десеріалізує сховище
 
 ### Опис
 
-public **SplDoublyLinkedList::unserialize**(string `$data`): void
+```methodsynopsis
+public SplDoublyLinkedList::unserialize(string $data): void
+```
 
-Десеріалізує сховище з рядкового подання, отриманого з
-допомогою
-[SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.md).
+Десеріалізує сховище з рядкового подання, отриманого за допомогою [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.html)
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `data`
+
 Серіалізований рядок.
 
 ### Значення, що повертаються
@@ -35,5 +41,4 @@ public **SplDoublyLinkedList::unserialize**(string `$data`): void
 
 ### Дивіться також
 
-- [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.md) -
-Серіалізує сховище
+-   [SplDoublyLinkedList::serialize()](spldoublylinkedlist.serialize.html) - Серіалізує сховище

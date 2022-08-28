@@ -1,22 +1,29 @@
-- [« UI\Controls\EditableCombo::getText](ui-controls-editablecombo.gettext.md)
-- [UI\Controls\EditableCombo::setText »](ui-controls-editablecombo.settext.md)
+Обробник зміни
 
-- [PHP Manual](index.md)
-- [UI\Controls\EditableCombo](class.ui-controls-editablecombo.md)
-- обробник зміни
+-   [« UI\\Controls\\EditableCombo::getText](ui-controls-editablecombo.gettext.html)
+    
+-   [UI\\Controls\\EditableCombo::setText »](ui-controls-editablecombo.settext.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [UI\\Controls\\EditableCombo](class.ui-controls-editablecombo.html)
+    
+-   Обробник зміни
+    
 
-# UI\Controls\EditableCombo::onChange
+# ОЙControlsEditableCombo::onChange
 
 (UI 0.9.9)
 
-UI\Controls\EditableCombo::onChange — Обробник зміни
+ОЙControlsEditableCombo::onChange — Обробник зміни
 
 ### Опис
 
-protected **UI\Controls\EditableCombo::onChange**()
+```methodsynopsis
+protected UI\Controls\EditableCombo::onChange()
+```
 
-Виконується, коли змінюється значення даного елемента, що редагується
-"Комбо"
+Виконується, коли змінюється значення даного редагованого елемента "Комбо"
 
 ### Список параметрів
 

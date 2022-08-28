@@ -1,26 +1,31 @@
-- [« Yaf_Config_Ini::rewind](yaf-config-ini.rewind.md)
-- [Yaf_Config_Ini::toArray »](yaf-config-ini.toarray.md)
+Призначення set
 
-- [PHP Manual](index.md)
-- [Yaf_Config_Ini](class.yaf-config-ini.md)
-- Призначення \_\_set
+-   [« Yaf\_Config\_Ini::rewind](yaf-config-ini.rewind.html)
+    
+-   [Yaf\_Config\_Ini::toArray »](yaf-config-ini.toarray.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.html)
+    
+-   Призначення set
+    
 
-# Yaf_Config_Ini::\_\_set
+# YafConfigIni::set
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Config_Ini::\_\_set - Призначення \_\_set
+YafConfigIni::set - Призначення set
 
 ### Опис
 
-public **Yaf_Config_Ini::\_\_set**(string `$name`,
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`): void
+```methodsynopsis
+public Yaf_Config_Ini::__set(string $name, mixed $value): void
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 

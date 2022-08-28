@@ -1,44 +1,50 @@
-- [« trader_cdl3whitesoldiers](function.trader-cdl3whitesoldiers.md)
-- [trader_cdladvanceblock »](function.trader-cdladvanceblock.md)
+Покинута дитина
 
-- [PHP Manual](index.md)
-- [Функції Trader](ref.trader.md)
-- Кинуте дитя
+-   [« trader\_cdl3whitesoldiers](function.trader-cdl3whitesoldiers.html)
+    
+-   [trader\_cdladvanceblock »](function.trader-cdladvanceblock.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции Trader](ref.trader.html)
+    
+-   Покинута дитина
+    
 
-# trader_cdlabandonedbaby
+# tradercdlabandonedbaby
 
-(PECL trader \>= 0.2.0)
+(PECL trader >= 0.2.0)
 
-trader_cdlabandonedbaby — Покинута дитина
+tradercdlabandonedbaby — Покинута дитина
 
 ### Опис
 
-**trader_cdlabandonedbaby**(
-array `$open`,
-array `$high`,
-array `$low`,
-array `$close`,
-float `$penetration` = ?
-): array
+```methodsynopsis
+trader_cdlabandonedbaby(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+```
 
 ### Список параметрів
 
 `open`
+
 Ціна відкриття масив реальних значень.
 
 `high`
-Висока вартість, масив реальних значень.
+
+Висока ціна, масив реальних значень.
 
 `low`
+
 Низька вартість, масив реальних значень.
 
 `close`
+
 Ціна закриття, масив реальних значень.
 
 `penetration`
+
 Відсоток проникнення однієї свічки всередині іншої свічки.
 
 ### Значення, що повертаються
 
-Повертає масив з обчисленими даними або false у разі
-виникнення помилки.
+Повертає масив з обчисленими даними або false у разі виникнення помилки.

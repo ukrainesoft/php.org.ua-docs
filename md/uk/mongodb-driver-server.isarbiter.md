@@ -1,24 +1,29 @@
-- [« MongoDB\Driver\Server::getType](mongodb-driver-server.gettype.md)
-- [MongoDB\Driver\Server::isHidden »](mongodb-driver-server.ishidden.md)
+Перевіряє, чи є сервер членом-арбітром у наборі реплік
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Перевіряє, чи є сервер членом-арбітром у наборі реплік
+-   [« MongoDB\\Driver\\Server::getType](mongodb-driver-server.gettype.html)
+    
+-   [MongoDB\\Driver\\Server::isHidden »](mongodb-driver-server.ishidden.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+    
+-   Перевіряє, чи є сервер членом-арбітром у наборі реплік
+    
 
-# MongoDB\Driver\Server::isArbiter
+# MongoDBDriverServer::isArbiter
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\Server::isArbiter — Перевіряє, чи є сервер
-членом-арбітром у наборі реплік
+MongoDBDriverServer::isArbiter — Перевіряє, чи є сервер членом-арбітром у наборі реплік
 
 ### Опис
 
-final public **MongoDB\Driver\Server::isArbiter**(): bool
+```methodsynopsis
+final public MongoDB\Driver\Server::isArbiter(): bool
+```
 
-Повертає, чи є цей сервер
-[» членом-арбітром](https://www.mongodb.com/docs/manual/reference/glossary/#term-arbiter)
-набір реплік.
+Повертає, чи є цей сервер [» членом-арбитром](https://www.mongodb.com/docs/manual/reference/glossary/#term-arbiter) набір реплік.
 
 ### Список параметрів
 
@@ -26,15 +31,12 @@ final public **MongoDB\Driver\Server::isArbiter**(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цей сервер є членом-арбітром набору
-реплік, і **`false`** інакше.
+Повертає **`true`**, якщо цей сервер є членом-арбітром набору реплік, та **`false`** в іншому випадку.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
 
 ### Дивіться також
 
-- [MongoDB\Driver\Server::getInfo()](mongodb-driver-server.getinfo.md) -
-Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер

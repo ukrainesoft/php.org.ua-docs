@@ -1,9 +1,15 @@
-- [« ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
-- [ReflectionGenerator::getTrace »](reflectiongenerator.gettrace.md)
+Отримує значення $this генератора
 
-- [PHP Manual](index.md)
-- [ReflectionGenerator](class.reflectiongenerator.md)
-- Отримує значення $this генератора
+-   [« ReflectionGenerator::getFunction](reflectiongenerator.getfunction.html)
+    
+-   [ReflectionGenerator::getTrace »](reflectiongenerator.gettrace.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionGenerator](class.reflectiongenerator.html)
+    
+-   Отримує значення $this генератора
+    
 
 # ReflectionGenerator::getThis
 
@@ -13,9 +19,11 @@ ReflectionGenerator::getThis — Отримує значення `$this` ген�
 
 ### Опис
 
-public **ReflectionGenerator::getThis**(): ?object
+```methodsynopsis
+public ReflectionGenerator::getThis(): ?object
+```
 
-Отримати значення $this, до якого має доступ генератор.
+Отримати значення `$this`, До якого має доступ генератор.
 
 ### Список параметрів
 
@@ -23,23 +31,38 @@ public **ReflectionGenerator::getThis**(): ?object
 
 ### Значення, що повертаються
 
-Повертає значення `$this` або **`null`**, якщо генератор створений поза
-контексту класу.
+Повертає значення `$this` або **`null`**якщо генератор створений поза контекстом класу.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionGenerator::getThis()****
 
-` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen = (new GenExample)->gen();$reflectionGen = new ReflectionGenerator($gen);var_dump($reflectionGen->getThis()); `
+```php
+<?php
+
+class GenExample
+{
+    public function gen()
+    {
+        yield 1;
+    }
+}
+
+$gen = (new GenExample)->gen();
+
+$reflectionGen = new ReflectionGenerator($gen);
+
+var_dump($reflectionGen->getThis());
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 object(GenExample)#3 (0) {
 }
+```
 
 ### Дивіться також
 
-- [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) -
-Отримати ім'я функції генератора
-- [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.md) -
-Отримати трасування запущеного генератора
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.html) - Отримати ім'я функції генератора
+-   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.html) - Отримати трасування запущеного генератора

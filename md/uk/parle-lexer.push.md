@@ -1,33 +1,39 @@
-- [« Parle\Lexer::insertMacro](parle-lexer.insertmacro.md)
-- [Parle\Lexer::reset »](parle-lexer.reset.md)
+Додає правило лексера
 
-- [PHP Manual](index.md)
-- [Parle\Lexer](class.parle-lexer.md)
-- Додає правило лексера
+-   [« Parle\\Lexer::insertMacro](parle-lexer.insertmacro.html)
+    
+-   [Parle\\Lexer::reset »](parle-lexer.reset.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Parle\\Lexer](class.parle-lexer.html)
+    
+-   Додає правило лексера
+    
 
-# Parle\Lexer::push
+# ParleLexer::push
 
-(PECL parle \>= 0.5.1)
+(PECL parle >= 0.5.1)
 
-Parle\Lexer::push — Додає правило лексера
+ParleLexer::push - Додає правило лексера
 
 ### Опис
 
-public **Parle\Lexer::push**(string `$regex`, int `$id`): void
+```methodsynopsis
+public Parle\Lexer::push(string $regex, int $id): void
+```
 
 Висуває шаблон для розпізнавання лексеми.
 
 ### Список параметрів
 
 `regex`
+
 Регулярне вираз, використовуване зіставлення токенів.
 
 `id`
-Ідентифікатор токена. Якщо екземпляр лексера призначений для
-автономного використання може бути довільним числом. Якщо
-екземпляр лексера буде переданий синтаксичному аналізатору, повинен бути
-ідентифікатор, який повертається
-[Parle\Parser::tokenid()](parle-parser.tokenid.md).
+
+Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, то може бути довільним числом. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, має бути ідентифікатор, який повертається [Parle\\Parser::tokenid()](parle-parser.tokenid.html)
 
 ### Значення, що повертаються
 

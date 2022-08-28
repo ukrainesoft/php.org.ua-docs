@@ -1,9 +1,15 @@
-- [«defined](function.defined.md)
-- [eval »](function.eval.md)
+Еквівалент функції exit
 
-- [PHP Manual](index.md)
-- [Різні функції](ref.misc.md)
-- еквівалент функції exit
+-   [« defined](function.defined.html)
+    
+-   [eval »](function.eval.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Разные функции](ref.misc.html)
+    
+-   Еквівалент функції exit
+    
 
 # die
 
@@ -13,4 +19,4 @@ die - Еквівалент функції `exit`
 
 ### Опис
 
-Ця функція еквівалентна функції [exit()](function.exit.md).
+Ця функція еквівалентна функції [exit()](function.exit.html)

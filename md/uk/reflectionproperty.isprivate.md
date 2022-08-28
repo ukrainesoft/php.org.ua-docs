@@ -1,9 +1,15 @@
-- [« ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md)
-- [ReflectionProperty::isPromoted »](reflectionproperty.ispromoted.md)
+Перевіряє, чи властивість закрита
 
-- [PHP Manual](index.md)
-- [ReflectionProperty](class.reflectionproperty.md)
-- Перевіряє, чи властивість закрита
+-   [« ReflectionProperty::isInitialized](reflectionproperty.isinitialized.html)
+    
+-   [ReflectionProperty::isPromoted »](reflectionproperty.ispromoted.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionProperty](class.reflectionproperty.html)
+    
+-   Перевіряє, чи властивість закрита
+    
 
 # ReflectionProperty::isPrivate
 
@@ -13,7 +19,9 @@ ReflectionProperty::isPrivate — Перевіряє, чи властивіст�
 
 ### Опис
 
-public **ReflectionProperty::isPrivate**(): bool
+```methodsynopsis
+public ReflectionProperty::isPrivate(): bool
+```
 
 Перевіряє, чи властивість закритим.
 
@@ -27,11 +35,7 @@ public **ReflectionProperty::isPrivate**(): bool
 
 ### Дивіться також
 
-- [ReflectionProperty::isPublic()](reflectionproperty.ispublic.md) -
-Перевіряє, чи є властивість загальнодоступною
-- [ReflectionProperty::isProtected()](reflectionproperty.isprotected.md) -
-Перевіряє, чи властивість захищена
-- [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.md) -
-Перевіряє, чи є властивість readonly-властивістю
-- [ReflectionProperty::isStatic()](reflectionproperty.isstatic.md) -
-Перевірка, чи є властивість статичним
+-   [ReflectionProperty::isPublic()](reflectionproperty.ispublic.html) - Перевіряє, чи є властивість загальнодоступною
+-   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.html) - Перевіряє, чи властивість захищена
+-   [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.html) - Перевіряє, чи є властивість readonly-властивістю
+-   [ReflectionProperty::isStatic()](reflectionproperty.isstatic.html) - Перевірка, чи є властивість статичним

@@ -1,31 +1,39 @@
-- [«Gmagick::setimageresolution](gmagick.setimageresolution.md)
-- [Gmagick::setimagetype »](gmagick.setimagetype.md)
+Встановлює сцену зображення
 
-- [PHP Manual](index.md)
-- [Gmagick](class.gmagick.md)
-- Встановлює сцену зображення
+-   [« Gmagick::setimageresolution](gmagick.setimageresolution.html)
+    
+-   [Gmagick::setimagetype »](gmagick.setimagetype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Gmagick](class.gmagick.html)
+    
+-   Встановлює сцену зображення
+    
 
 # Gmagick::setimagescene
 
-(PECL gmagick \>= Unknown)
+(PECL gmagick >= Unknown)
 
 Gmagick::setimagescene — Встановлює сцену зображення
 
 ### Опис
 
-public **Gmagick::setimagescene**(int `$scene`):
-[Gmagick](class.gmagick.md)
+```methodsynopsis
+public Gmagick::setimagescene(int $scene): Gmagick
+```
 
 Встановлює сцену зображення.
 
 ### Список параметрів
 
 `scene`
+
 Номер сцени зображення.
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
 
 ### Помилки
 

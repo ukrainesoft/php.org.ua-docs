@@ -1,19 +1,25 @@
-- [«SolrObject::\_\_construct](solrobject.construct.md)
-- [SolrObject::getPropertyNames »](solrobject.getpropertynames.md)
+Деструктор
 
-- [PHP Manual](index.md)
-- [SolrObject](class.solrobject.md)
-- Деструктор
+-   [« SolrObject::\_\_construct](solrobject.construct.html)
+    
+-   [SolrObject::getPropertyNames »](solrobject.getpropertynames.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrObject](class.solrobject.html)
+    
+-   Деструктор
+    
 
-# SolrObject::\_\_destruct
+# SolrObject::destruct
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrObject::\_\_destruct - Деструктор
+SolrObject::destruct - Деструктор
 
 ### Опис
 
-public **SolrObject::\_\_destruct**()
+public **SolrObject::destruct**
 
 Приклад використання
 
@@ -23,4 +29,4 @@ public **SolrObject::\_\_destruct**()
 
 ### Значення, що повертаються
 
-Нічого не вертає.
+Нічого не повертає.

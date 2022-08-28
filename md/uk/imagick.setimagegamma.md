@@ -1,9 +1,15 @@
-- [« Imagick::setImageFormat](imagick.setimageformat.md)
-- [Imagick::setImageGravity »](imagick.setimagegravity.md)
+Встановлює гаму зображення
 
-- [PHP Manual](index.md)
-- [Imagick](class.imagick.md)
-- Встановлює гаму зображення
+-   [« Imagick::setImageFormat](imagick.setimageformat.html)
+    
+-   [Imagick::setImageGravity »](imagick.setimagegravity.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Imagick](class.imagick.html)
+    
+-   Встановлює гаму зображення
+    
 
 # Imagick::setImageGamma
 
@@ -13,7 +19,9 @@ Imagick::setImageGamma — Встановлює гаму зображення
 
 ### Опис
 
-public **Imagick::setImageGamma**(float `$gamma`): bool
+```methodsynopsis
+public Imagick::setImageGamma(float $gamma): bool
+```
 
 Встановлює гаму зображення.
 
@@ -23,7 +31,7 @@ public **Imagick::setImageGamma**(float `$gamma`): bool
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**.
+У разі успішної роботи повертає **`true`**
 
 ### Помилки
 

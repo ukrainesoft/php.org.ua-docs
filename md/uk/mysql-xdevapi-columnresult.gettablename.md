@@ -1,9 +1,15 @@
-- [« ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.md)
-- [ColumnResult::getType »](mysql-xdevapi-columnresult.gettype.md)
+Отримує назву таблиці
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)
-- Отримує назву таблиці
+-   [« ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.html)
+    
+-   [ColumnResult::getType »](mysql-xdevapi-columnresult.gettype.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\ColumnResult](class.mysql-xdevapi-columnresult.html)
+    
+-   Отримує назву таблиці
+    
 
 # ColumnResult::getTableName
 
@@ -13,12 +19,13 @@ ColumnResult::getTableName — Отримує назву таблиці
 
 ### Опис
 
-public **mysql_xdevapi\ColumnResult::getTableName**(): string
+```methodsynopsis
+public mysql_xdevapi\ColumnResult::getTableName(): string
+```
 
 **Увага**
 
-На цей час ця функція ще була документована; для
-ознайомлення доступний лише список аргументів.
+На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +37,12 @@ public **mysql_xdevapi\ColumnResult::getTableName**(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\ColumnResult::getTableName()****
+**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getTableName()****
 
-` <?php/* ... */?> `
+```php
+<?php
+
+/* ... */
+
+?>
+```

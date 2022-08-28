@@ -1,28 +1,40 @@
-- [«Event::set](event.set.md)
-- [Event::setTimer »](event.settimer.md)
+Задати пріоритет події
 
-- [PHP Manual](index.md)
-- [Event](class.event.md)
-- поставити пріоритет події
+-   [« Event::set](event.set.html)
+    
+-   [Event::setTimer »](event.settimer.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Event](class.event.html)
+    
+-   Задати пріоритет події
+    
 
 # Event::setPriority
 
-(PECL event \>= 1.2.6-beta)
+(PECL event >= 1.2.6-beta)
 
 Event::setPriority — Задати пріоритет події
 
 ### Опис
 
-public **Event::setPriority**( int `$priority` ): bool
+```methodsynopsis
+public
+   Event::setPriority(
+    int
+     $priority
+   ): bool
+```
 
 Встановлює пріоритет події.
 
 ### Список параметрів
 
 `priority`
+
 Пріоритет.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у
-у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.

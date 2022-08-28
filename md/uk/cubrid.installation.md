@@ -1,20 +1,20 @@
-- [« Вимоги](cubrid.requirements.md)
-- [Налаштування під час виконання »](cubrid.configuration.md)
+Встановлення
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](cubrid.setup.md)
-- Установка
+-   [« Требования](cubrid.requirements.html)
+    
+-   [Настройка во время выполнения »](cubrid.configuration.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](cubrid.setup.html)
+    
+-   Встановлення
+    
 
-## Установка
+## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі
-керівництва [Встановлення модулів PECL](install.pecl.md). Додаткова
-інформація, така як нові версії, завантаження, вихідні файли,
-інформація про розробника та CHANGELOG, може бути знайдена тут:
-[»https://pecl.php.net/package/cubrid](https://pecl.php.net/package/cubrid).
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.html). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/cubrid](https://pecl.php.net/package/cubrid)
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md).
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)
 
-Інструкцію з ручної установки під Linux та Windows читайте у файлі
-`build-guide.md`, включеному до пакету.
+Інструкцію з ручного встановлення під Linux і Windows читайте у файлі build-guide.html, включеному в пакет.

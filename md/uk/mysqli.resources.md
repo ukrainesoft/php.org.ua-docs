@@ -1,9 +1,15 @@
-- [« Налаштування під час виконання](mysqli.configuration.md)
-- [Модуль mysqli та постійні з'єднання »](mysqli.persistconns.md)
+Типи ресурсів
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](mysqli.setup.md)
-- Типи ресурсів
+-   [« Настройка во время выполнения](mysqli.configuration.html)
+    
+-   [Модуль mysqli и постоянные соединения »](mysqli.persistconns.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](mysqli.setup.html)
+    
+-   Типи ресурсів
+    
 
 ## Типи ресурсів
 

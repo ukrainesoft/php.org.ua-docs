@@ -1,20 +1,27 @@
-- [« ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)
-- [ReflectionFunctionAbstract::isClosure »](reflectionfunctionabstract.isclosure.md)
+Перевіряє, чи функція знаходиться в просторі імен
 
-- [PHP Manual](index.md)
-- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- Перевіряє, чи є функція у просторі імен
+-   [« ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.html)
+    
+-   [ReflectionFunctionAbstract::isClosure »](reflectionfunctionabstract.isclosure.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [ReflectionFunctionAbstract](class.reflectionfunctionabstract.html)
+    
+-   Перевіряє, чи функція знаходиться в просторі імен
+    
 
 # ReflectionFunctionAbstract::inNamespace
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::inNamespace — Перевіряє, чи перебуває
-функція у просторі імен
+ReflectionFunctionAbstract::inNamespace — Перевіряє, чи функція знаходиться в просторі імен
 
 ### Опис
 
-public **ReflectionFunctionAbstract::inNamespace**(): bool
+```methodsynopsis
+public ReflectionFunctionAbstract::inNamespace(): bool
+```
 
 Перевіряє, що функція визначена у просторі імен.
 
@@ -24,11 +31,9 @@ public **ReflectionFunctionAbstract::inNamespace**(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо функція визначена у просторі імен, **`false`** в
-інакше.
+**`true`**, якщо функція визначена у просторі імен, **`false`** в іншому випадку.
 
 ### Дивіться також
 
-- [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) -
-Отримання імені простору імен
-- [простір імен](language.namespaces.md)
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.html) - Отримання імені простору імен
+-   [пространства имён](language.namespaces.html)

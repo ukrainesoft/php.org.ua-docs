@@ -1,9 +1,15 @@
-- [«TableSelect::having](mysql-xdevapi-tableselect.having.md)
-- [TableSelect::lockExclusive »](mysql-xdevapi-tableselect.lockexclusive.md)
+Обмежує вибрані рядки
 
-- [PHP Manual](index.md)
-- [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-- Обмежує вибрані рядки
+-   [« TableSelect::having](mysql-xdevapi-tableselect.having.html)
+    
+-   [TableSelect::lockExclusive »](mysql-xdevapi-tableselect.lockexclusive.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysql\_xdevapi\\TableSelect](class.mysql-xdevapi-tableselect.html)
+    
+-   Обмежує вибрані рядки
+    
 
 # TableSelect::limit
 
@@ -13,15 +19,16 @@ TableSelect::limit — Обмежує вибрані рядки
 
 ### Опис
 
-public **mysql_xdevapi\TableSelect::limit**(int `$rows`):
-[mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
+```methodsynopsis
+public mysql_xdevapi\TableSelect::limit(int $rows): mysql_xdevapi\TableSelect
+```
 
-Встановлює максимальну кількість записів або документів для
-повернення.
+Встановлює максимальну кількість записів або документів для повернення.
 
 ### Список параметрів
 
 `rows`
+
 Максимальна кількість записів чи документів.
 
 ### Значення, що повертаються
@@ -30,18 +37,33 @@ public **mysql_xdevapi\TableSelect::limit**(int `$rows`):
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**mysql_xdevapi\TableSelect::limit()****
+**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::limit()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$result = $table->select('name', 'age') ->limit(1)  ->execute();$row = $result->fetchAll();print_r($row);?> `
+```php
+<?php
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
+
+$result = $table->select('name', 'age')
+  ->limit(1)
+  ->execute();
+
+$row = $result->fetchAll();
+print_r($row);
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 Array
 (
-[0] => Array
-(
-[name] => John
-[age] => 42
+    [0] => Array
+        (
+            [name] => John
+            [age] => 42
+        )
 )
-)
+```

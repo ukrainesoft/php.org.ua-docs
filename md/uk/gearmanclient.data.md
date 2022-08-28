@@ -1,28 +1,33 @@
-- [« GearmanClient::context](gearmanclient.context.md)
-- [GearmanClient::do »](gearmanclient.do.md)
+Повертає дані програми (функція застаріла)
 
-- [PHP Manual](index.md)
-- [GearmanClient](class.gearmanclient.md)
-- Повертає дані програми (функція застаріла)
+-   [« GearmanClient::context](gearmanclient.context.html)
+    
+-   [GearmanClient::do »](gearmanclient.do.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [GearmanClient](class.gearmanclient.html)
+    
+-   Повертає дані програми (функція застаріла)
+    
 
 # GearmanClient::data
 
-(PECL gearman \<= 0.5.0)
+(PECL gearman <= 0.5.0)
 
 GearmanClient::data — Повертає дані програми (функція застаріла)
 
 ### Опис
 
-public **GearmanClient::data**(): string
+```methodsynopsis
+public GearmanClient::data(): string
+```
 
-Повертає дані програми, встановлені раніше за допомогою
-[GearmanClient::setData()](gearmanclient.setdata.md).
+Повертає дані програми, встановлені раніше за допомогою [GearmanClient::setData()](gearmanclient.setdata.html)
 
-> **Примітка**:
->
-> Цей метод було замінено на
-> [GearmanClient::setContext()](gearmanclient.setcontext.md) у версії
-> 0.6.0 Gearman модуля.
+> **Зауваження**
+> 
+> Цей метод було замінено на [GearmanClient::setContext()](gearmanclient.setcontext.html) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -30,10 +35,8 @@ public **GearmanClient::data**(): string
 
 ### Значення, що повертаються
 
-Деякі строкові дані, встановлені
-[GearmanClient::setData()](gearmanclient.setdata.md).
+Деякі строкові дані, встановлені [GearmanClient::setData()](gearmanclient.setdata.html)
 
 ### Дивіться також
 
-- [GearmanClient::setData()](gearmanclient.setdata.md) - Встановити
-дані програми (застарілий метод)
+-   [GearmanClient::setData()](gearmanclient.setdata.html) - встановити дані програми (застарілий метод)

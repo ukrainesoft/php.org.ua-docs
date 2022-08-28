@@ -1,48 +1,49 @@
-- [« mysqli::stat](mysqli.stat.md)
-- [mysqli::store_result »](mysqli.store-result.md)
+Ініціалізує запит і повертає об'єкт для використання в mysqlistmtprepare
 
-- [PHP Manual](index.md)
-- [mysqli](class.mysqli.md)
-- Ініціалізує запит та повертає об'єкт для використання у
-mysqli_stmt_prepare
+-   [« mysqli::stat](mysqli.stat.html)
+    
+-   [mysqli::store\_result »](mysqli.store-result.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [mysqli](class.mysqli.html)
+    
+-   Ініціалізує запит і повертає об'єкт для використання в mysqlistmtprepare
+    
 
-# mysqli::stmt_init
+# mysqli::stmtinit
 
-# mysqli_stmt_init
+# mysqlistmtinit
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::stmt_init -- mysqli_stmt_init — Ініціалізує запит і
-повертає об'єкт для використання в mysqli_stmt_prepare
+mysqli::stmtinit - mysqlistmtinit — Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::stmt_init**():
-[mysqli_stmt](class.mysqli-stmt.md)\|false
+```methodsynopsis
+public mysqli::stmt_init(): mysqli_stmt|false
+```
 
 Процедурний стиль
 
-**mysqli_stmt_init**([mysqli](class.mysqli.md) `$mysql`):
-[mysqli_stmt](class.mysqli-stmt.md)\|false
+```methodsynopsis
+mysqli_stmt_init(mysqli $mysql): mysqli_stmt|false
+```
 
-Виділяє пам'ять та ініціалізує об'єкт запиту, який можна
-використовувати у функції
-[mysqli_stmt_prepare()](mysqli-stmt.prepare.md).
+Виділяє пам'ять та ініціалізує об'єкт запиту, який можна використовувати у функції [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.html)
 
-> **Примітка**:
->
-> Всі наступні дзвінки mysqli_stmt функцій викликають помилку, доки
-> буде викликано функцію
-> [mysqli_stmt_prepare()](mysqli-stmt.prepare.md).
+> **Зауваження**
+> 
+> Усі наступні виклики mysqlistmt функцій викликають помилку, доки не буде викликана функція [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.html)
 
 ### Список параметрів
 
 `mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
-отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
-або [mysqli_init()](mysqli.init.md).
+
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqli\_connect()](function.mysqli-connect.html) або [mysqli\_init()](mysqli.init.html)
 
 ### Значення, що повертаються
 
@@ -50,5 +51,4 @@ public **mysqli::stmt_init**():
 
 ### Дивіться також
 
-- [mysqli_stmt_prepare()](mysqli-stmt.prepare.md) - Підготовка
-затвердження SQL до виконання
+-   [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.html) - готує затвердження SQL до виконання

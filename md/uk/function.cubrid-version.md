@@ -1,22 +1,29 @@
-- [« cubrid_set_query_timeout](function.cubrid-set-query-timeout.md)
-- [Функції сумісності CUBRID MySQL »](cubridmysql.cubrid.md)
+Отримати версію модуля CUBRID PHP
 
-- [PHP Manual](index.md)
-- [Функції CUBRID](ref.cubrid.md)
-- Отримати версію модуля CUBRID PHP
+-   [« cubrid\_set\_query\_timeout](function.cubrid-set-query-timeout.html)
+    
+-   [Функции совместимости CUBRID MySQL »](cubridmysql.cubrid.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Функции CUBRID](ref.cubrid.html)
+    
+-   Отримати версію модуля CUBRID PHP
+    
 
-#cubrid_version
+# cubridversion
 
-(PECL CUBRID = 8.3.0)
+(PECL CUBRID >= 8.3.0)
 
-cubrid_version — Отримати версію модуля CUBRID PHP
+cubridversion — Отримати версію модуля CUBRID PHP
 
 ### Опис
 
-**cubrid_version**(): string
+```methodsynopsis
+cubrid_version(): string
+```
 
-Функція **cubrid_version()** використовується для отримання версії модуля
-CUBRID PHP.
+Функція **cubridversion()** використовується для отримання версії CUBRID PHP.
 
 ### Список параметрів
 
@@ -28,35 +35,62 @@ CUBRID PHP.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubrid_version()****
+**Приклад #1 Приклад використання **cubridversion()****
 
-` <?phpprintf("%-30s %s
-", "CUBRID PHP Version:", cubrid_version());printf("
-");$conn==cubrid_connect("localhost", 33088, "demodb", "dba");if (!$conn) {    die('Connect Error ('. cubrid_error_code()_._) .')' . ;}$db_params = cubrid_get_db_parameter($conn);while (list($param_name, $param_value) = each($db_params)) {    printf("%-30s %s
-", $param_name, $param_value);}printf("
-");$server_info = cubrid_get_server_info($conn);$client_info = cubrid_get_client_info();printf("%-30s %s
-", "Server Info:", $server_info);printf("%-30s %s
-", "Client Info:", $client_info);printf("
-");$charset = cubrid_get_charset($conn);printf("%-30s %s
-", "CUBRID Charset:", $charset);cubrid_disconnect($conn);?> `
+```php
+<?php
+printf("%-30s %s\n", "CUBRID PHP Version:", cubrid_version());
+
+printf("\n");
+
+$conn = cubrid_connect("localhost", 33088, "demodb", "dba");
+
+if (!$conn) {
+    die('Connect Error ('. cubrid_error_code() .')' . cubrid_error_msg());
+}
+
+$db_params = cubrid_get_db_parameter($conn);
+
+while (list($param_name, $param_value) = each($db_params)) {
+    printf("%-30s %s\n", $param_name, $param_value);
+}
+
+printf("\n");
+
+$server_info = cubrid_get_server_info($conn);
+$client_info = cubrid_get_client_info();
+
+printf("%-30s %s\n", "Server Info:", $server_info);
+printf("%-30s %s\n", "Client Info:", $client_info);
+
+printf("\n");
+
+$charset = cubrid_get_charset($conn);
+
+printf("%-30s %s\n", "CUBRID Charset:", $charset);
+
+cubrid_disconnect($conn);
+
+?>
+```
 
 Результат виконання цього прикладу:
 
-CUBRID PHP Version: 9.1.0.0001
+```
+CUBRID PHP Version:            9.1.0.0001
 
-PARAM_ISOLATION_LEVEL 3
-LOCK_TIMEOUT -1
-MAX_STRING_LENGTH 1073741823
-PARAM_AUTO_COMMIT 1
+PARAM_ISOLATION_LEVEL          3
+LOCK_TIMEOUT                   -1
+MAX_STRING_LENGTH              1073741823
+PARAM_AUTO_COMMIT              1
 
-Server Info: 9.1.0.0212
-Client Info: 9.1.0
+Server Info:                   9.1.0.0212
+Client Info:                   9.1.0
 
-CUBRID Charset: iso8859-1
+CUBRID Charset:                iso8859-1
+```
 
 ### Дивіться також
 
-- [cubrid_error_code()](function.cubrid-error-code.md) - Отримати
-код помилки
-- [cubrid_error_code_facility()](function.cubrid-error-code-facility.md) -
-Отримати код рівня, на якому сталася помилка
+-   [cubrid\_error\_code()](function.cubrid-error-code.html) - Отримати код помилки
+-   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.html) - Отримати код рівня, на якому сталася помилка

@@ -1,75 +1,76 @@
-- [«FilesystemIterator](class.filesystemiterator.md)
-- [FilesystemIterator::current »](filesystemiterator.current.md)
+Створює новий ітератор файлової системи
 
-- [PHP Manual](index.md)
-- [FilesystemIterator](class.filesystemiterator.md)
-- Створює новий ітератор файлової системи
+-   [« FilesystemIterator](class.filesystemiterator.html)
+    
+-   [FilesystemIterator::current »](filesystemiterator.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [FilesystemIterator](class.filesystemiterator.html)
+    
+-   Створює новий ітератор файлової системи
+    
 
-# FilesystemIterator::\_\_construct
+# FilesystemIterator::construct
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-FilesystemIterator::\_\_construct — Створює новий файловий ітератор
-системи
+FilesystemIterator::construct — Створює новий ітератор файлової системи
 
 ### Опис
 
-public **FilesystemIterator::\_\_construct**(string `$directory`, int
-`$flags` = FilesystemIterator::KEY_AS_PATHNAME \|
-FilesystemIterator::CURRENT_AS_FILEINFO \|
-FilesystemIterator::SKIP_DOTS)
+public **FilesystemIterator::construct**(string `$directory`, int `$flags` = FilesystemIterator::KEYАСPATHNAME | FilesystemIterator::CURRENTАСFILEINFO | FilesystemIterator::SKIPDOTS)
 
-Створює новий об'єкт ітератора файлової системи на основі аргументу
-`directory`.
+Створює новий об'єкт ітератора файлової системи на основі аргументу `directory`
 
 ### Список параметрів
 
 `directory`
-Шлях до об'єкта файлової системи, по якому потрібна навігація.
+
+Шлях до об'єкта файлової системи яким потрібно навігація.
 
 `flags`
-Поведінку деяких методів можна встановити за допомогою прапорів. Список цих
-прапорів можна знайти на сторінці [визначених констант FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
-Також їх можна задати пізніше методом
-[FilesystemIterator::setFlags()](filesystemiterator.setflags.md).
 
-> **Примітка**:
->
-> **`FilesystemIterator::SKIP_DOTS`** завжди встановлений і не може бути
-> Видалити.
+Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [предопределённых констант FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
+
+> **Зауваження**
+> 
+> **`FilesystemIterator::SKIP_DOTS`** завжди встановлений і не може бути вилучений.
 
 ### Помилки
 
-Викидає виняток
-[UnexpectedValueException](class.unexpectedvalueexception.md), якщо
-директорія `directory` не існує.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо директорія `directory` не існує.
 
-Викидає виняток [ValueError](class.valueerror.md), якщо
-параметр `directory` містить порожній рядок.
+Викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок.
 
-### Список змін
+### список змін
 
-| Версія | Опис                                                                                                                                                                             |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр directory містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
+| Версия | Описание |
+| --- | --- |
+|  | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання
-**FilesystemIterator::\_\_construct()****
+**Приклад #1 Приклад використання **FilesystemIterator::construct()****
 
-` <?php$it = new FilesystemIterator(dirname(__FILE__));foreach ($it as $fileinfo) {    echo $fileinfo->getFilename() . "
-";}?> `
+```php
+<?php
+$it = new FilesystemIterator(dirname(__FILE__));
+foreach ($it as $fileinfo) {
+    echo $fileinfo->getFilename() . "\n";
+}
+?>
+```
 
 Результат виконання цього прикладу:
 
+```
 apples.jpg
 banana.jpg
 example.php
+```
 
 ### Дивіться також
 
-- [FilesystemIterator::setFlags()](filesystemiterator.setflags.md) -
-Завдання прапорів обробки
-- [DirectoryIterator::\_\_construct()](directoryiterator.construct.md) -
-Створює новий ітератор директорій на шляху
+-   [FilesystemIterator::setFlags()](filesystemiterator.setflags.html) - Завдання прапорів обробки
+-   [DirectoryIterator::\_\_construct()](directoryiterator.construct.html) - Створює новий ітератор директорій шляхом

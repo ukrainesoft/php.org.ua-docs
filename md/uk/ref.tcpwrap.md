@@ -1,13 +1,18 @@
-- [«Зумовлені константи](tcpwrap.constants.md)
-- [tcpwrap_check »](function.tcpwrap-check.md)
+Функції TCP
 
-- [PHP Manual](index.md)
-- [TCP](book.tcpwrap.md)
-- Функції TCP
+-   [« Предопределённые константы](tcpwrap.constants.html)
+    
+-   [tcpwrap\_check »](function.tcpwrap-check.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [TCP](book.tcpwrap.html)
+    
+-   Функції TCP
+    
 
 # Функції TCP
 
 ## Зміст
 
-- [tcpwrap_check](function.tcpwrap-check.md) — Перевіряє
-tcpwrap
+-   [tcpwrap\_check](function.tcpwrap-check.html) - Здійснює перевірку tcpwrap

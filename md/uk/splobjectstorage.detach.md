@@ -1,25 +1,34 @@
-- [« SplObjectStorage::current](splobjectstorage.current.md)
-- [SplObjectStorage::getHash »](splobjectstorage.gethash.md)
+Видаляє об'єкт з контейнера
 
-- [PHP Manual](index.md)
-- [SplObjectStorage](class.splobjectstorage.md)
-- Видаляє об'єкт з контейнера
+-   [« SplObjectStorage::current](splobjectstorage.current.html)
+    
+-   [SplObjectStorage::getHash »](splobjectstorage.gethash.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplObjectStorage](class.splobjectstorage.html)
+    
+-   Видаляє об'єкт з контейнера
+    
 
 # SplObjectStorage::detach
 
-(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
+(PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-SplObjectStorage::detach — Видаляє об'єкт з контейнера
+SplObjectStorage::detach — Видаляє об'єкт з контейнера.
 
 ### Опис
 
-public **SplObjectStorage::detach**(object `$object`): void
+```methodsynopsis
+public SplObjectStorage::detach(object $object): void
+```
 
 Видаляє об'єкт з контейнера.
 
 ### Список параметрів
 
 `object`
+
 Об'єкт об'єкта, що видаляється.
 
 ### Значення, що повертаються
@@ -30,17 +39,25 @@ public **SplObjectStorage::detach**(object `$object`): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::detach()****
 
-` <?php$o = new StdClass;$s = new SplObjectStorage();$s->attach($o);var_dump(count($s));$s->detach($o);var_dump(count ($s));?> `
+```php
+<?php
+$o = new StdClass;
+$s = new SplObjectStorage();
+$s->attach($o);
+var_dump(count($s));
+$s->detach($o);
+var_dump(count($s));
+?>
+```
 
 Результатом виконання цього прикладу буде щось подібне:
 
+```
 int(1)
 int(0)
+```
 
 ### Дивіться також
 
-- [SplObjectStorage::attach()](splobjectstorage.attach.md) -
-Додає об'єкт у контейнер
-- [SplObjectStorage::removeAll()](splobjectstorage.removeall.md) -
-Видаляє з поточного контейнера об'єкти, які є в іншому
-контейнері
+-   [SplObjectStorage::attach()](splobjectstorage.attach.html) - Додає об'єкт у контейнер
+-   [SplObjectStorage::removeAll()](splobjectstorage.removeall.html) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері

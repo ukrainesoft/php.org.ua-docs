@@ -1,9 +1,15 @@
-- [« Встановлення та налаштування](igbinary.setup.md)
-- [Встановлення »](igbinary.installation.md)
+Вимоги
 
-- [PHP Manual](index.md)
-- [Встановлення та налаштування](igbinary.setup.md)
-- Вимоги
+-   [« Установка и настройка](igbinary.setup.html)
+    
+-   [Установка »](igbinary.installation.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Установка и настройка](igbinary.setup.html)
+    
+-   Вимоги
+    
 
 ## Вимоги
 

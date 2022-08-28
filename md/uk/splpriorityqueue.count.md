@@ -1,19 +1,27 @@
-- [« SplPriorityQueue::compare](splpriorityqueue.compare.md)
-- [SplPriorityQueue::current »](splpriorityqueue.current.md)
+Здійснює підрахунок елементів у черзі
 
-- [PHP Manual](index.md)
-- [SplPriorityQueue](class.splpriorityqueue.md)
-- Виробляє підрахунок елементів у черзі
+-   [« SplPriorityQueue::compare](splpriorityqueue.compare.html)
+    
+-   [SplPriorityQueue::current »](splpriorityqueue.current.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SplPriorityQueue](class.splpriorityqueue.html)
+    
+-   Здійснює підрахунок елементів у черзі
+    
 
 # SplPriorityQueue::count
 
-(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
+(PHP 5> = 5.3.0, PHP 7, PHP 8)
 
 SplPriorityQueue::count — Здійснює підрахунок елементів у черзі
 
 ### Опис
 
-public **SplPriorityQueue::count**(): int
+```methodsynopsis
+public SplPriorityQueue::count(): int
+```
 
 ### Список параметрів
 

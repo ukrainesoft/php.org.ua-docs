@@ -1,19 +1,27 @@
-- [« Yaf_Controller_Abstract::getView](yaf-controller-abstract.getview.md)
-- [Yaf_Controller_Abstract::init »](yaf-controller-abstract.init.md)
+Призначення getViewpath
 
-- [PHP Manual](index.md)
-- [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- Призначення getViewpath
+-   [« Yaf\_Controller\_Abstract::getView](yaf-controller-abstract.getview.html)
+    
+-   [Yaf\_Controller\_Abstract::init »](yaf-controller-abstract.init.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.html)
+    
+-   Призначення getViewpath
+    
 
-# Yaf_Controller_Abstract::getViewpath
+# YafControllerAbstract::getViewpath
 
-(Yaf \>=1.0.0)
+(Yaf >=1.0.0)
 
-Yaf_Controller_Abstract::getViewpath — Призначення getViewpath
+YafControllerAbstract::getViewpath — Призначення getViewpath
 
 ### Опис
 
-public **Yaf_Controller_Abstract::getViewpath**(): string
+```methodsynopsis
+public Yaf_Controller_Abstract::getViewpath(): string
+```
 
 ### Список параметрів
 

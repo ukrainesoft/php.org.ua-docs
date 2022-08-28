@@ -1,20 +1,27 @@
-- [« MongoDB\Driver\WriteError::getIndex](mongodb-driver-writeerror.getindex.md)
-- [MongoDB\Driver\WriteError::getMessage »](mongodb-driver-writeerror.getmessage.md)
+Повертає документ метаданих для WriteError
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)
-- Повертає документ метаданих для WriteError
+-   [« MongoDB\\Driver\\WriteError::getIndex](mongodb-driver-writeerror.getindex.html)
+    
+-   [MongoDB\\Driver\\WriteError::getMessage »](mongodb-driver-writeerror.getmessage.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.html)
+    
+-   Повертає документ метаданих для WriteError
+    
 
-# MongoDB\Driver\WriteError::getInfo
+# MongoDBDriverWriteError::getInfo
 
-(mongodb \>=1.0.0)
+(mongodb >=1.0.0)
 
-MongoDB\Driver\WriteError::getInfo — Повертає документ метаданих для
-WriteError
+MongoDBDriverWriteError::getInfo — Повертає документ метаданих для WriteError
 
 ### Опис
 
-final public **MongoDB\Driver\WriteError::getInfo**(): ?object
+```methodsynopsis
+final public MongoDB\Driver\WriteError::getInfo(): ?object
+```
 
 ### Список параметрів
 
@@ -22,10 +29,8 @@ final public **MongoDB\Driver\WriteError::getInfo**(): ?object
 
 ### Значення, що повертаються
 
-Повертає документ метаданих для WriteError, або **`null`**, якщо
-метадані недоступні.
+Повертає документ метаданих для WriteError, або **`null`**, якщо метадані недоступні.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

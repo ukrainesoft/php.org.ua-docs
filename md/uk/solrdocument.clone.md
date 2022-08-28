@@ -1,19 +1,27 @@
-- [«SolrDocument::clear](solrdocument.clear.md)
-- [SolrDocument::\_\_construct »](solrdocument.construct.md)
+Створює копію об'єкта SolrDocument
 
-- [PHP Manual](index.md)
-- [SolrDocument](class.solrdocument.md)
-- Створює копію об'єкта SolrDocument
+-   [« SolrDocument::clear](solrdocument.clear.html)
+    
+-   [SolrDocument::\_\_construct »](solrdocument.construct.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [SolrDocument](class.solrdocument.html)
+    
+-   Створює копію об'єкта SolrDocument
+    
 
-# SolrDocument::\_\_clone
+# SolrDocument::clone
 
-(PECL solr \> = 0.9.2)
+(PECL solr> = 0.9.2)
 
-SolrDocument::\_\_clone — Створює копію об'єкта SolrDocument
+SolrDocument::clone — Створює копію об'єкта SolrDocument
 
 ### Опис
 
-public **SolrDocument::\_\_clone**(): void
+```methodsynopsis
+public SolrDocument::__clone(): void
+```
 
 Створює копію об'єкта SolrDocument. Не викликатись безпосередньо.
 

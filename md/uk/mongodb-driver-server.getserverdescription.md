@@ -1,26 +1,29 @@
-- [« MongoDB\Driver\Server::getPort](mongodb-driver-server.getport.md)
-- [MongoDB\Driver\Server::getTags »](mongodb-driver-server.gettags.md)
+Повертає ServerDescription сервера
 
-- [PHP Manual](index.md)
-- [MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- Повертає ServerDescription сервера
+-   [« MongoDB\\Driver\\Server::getPort](mongodb-driver-server.getport.html)
+    
+-   [MongoDB\\Driver\\Server::getTags »](mongodb-driver-server.gettags.html)
+    
+-   [PHP Manual](index.html)
+    
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.html)
+    
+-   Повертає ServerDescription сервера
+    
 
-# MongoDB\Driver\Server::getServerDescription
+# MongoDBDriverServer::getServerDescription
 
-(mongodb \>=1.13.0)
+(mongodb >=1.13.0)
 
-MongoDB\Driver\Server::getServerDescription — Повертає
-ServerDescription сервера
+MongoDBDriverServer::getServerDescription — Повертає ServerDescription сервера
 
 ### Опис
 
-final public **MongoDB\Driver\Server::getServerDescription**():
-[MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
+```methodsynopsis
+final public MongoDB\Driver\Server::getServerDescription(): MongoDB\Driver\ServerDescription
+```
 
-Повертає
-[MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-сервера. Це незмінний об'єкт значення, який описуватиме
-сервер під час виклику методу.
+Повертає [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html) сервера. Це незмінний об'єкт значення, який описуватиме сервер під час виклику методу.
 
 ### Список параметрів
 
@@ -28,11 +31,8 @@ final public **MongoDB\Driver\Server::getServerDescription**():
 
 ### Значення, що повертаються
 
-Повертає
-[MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-сервера.
+Повертає [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.html) сервера.
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+-   При помилці парсингу аргумент кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)

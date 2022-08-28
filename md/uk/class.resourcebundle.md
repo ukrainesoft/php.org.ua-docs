@@ -56,10 +56,10 @@ public static getLocales(string $bundle): array|false
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Traversable](class.traversable.html) |
-|  | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.html) |
+| Версия | Описание                                                                                                                                                                    |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Traversable](class.traversable.html) |
+|        | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.html)                                                                                          |
 
 ## Дивіться також
 

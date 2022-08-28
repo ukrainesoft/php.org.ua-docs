@@ -17,15 +17,15 @@
 
 **Опції налаштувань різних функцій**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [ignore\_user\_abort](misc.configuration.html#ini.ignore-user-abort) | "0" | PHPINIALL |  |
-| [highlight.string](misc.configuration.html#ini.syntax-highlighting) | "#DD0000" | PHPINIALL |  |
-| [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000" | PHPINIALL |  |
-| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700" | PHPINIALL |  |
-| [highlight.default](misc.configuration.html#ini.syntax-highlighting) | "#0000BB" | PHPINIALL |  |
-| [highlight.html](misc.configuration.html#ini.syntax-highlighting) | "#000000" | PHPINIALL |  |
-| [browscap](misc.configuration.html#ini.browscap) | NULL | PHPINISYSTEM |  |
+| Имя                                                                  | По умолчанию | Место изменения | Список изменений |
+|----------------------------------------------------------------------|--------------|-----------------|------------------|
+| [ignore\_user\_abort](misc.configuration.html#ini.ignore-user-abort) | "0"          | PHPINIALL       |                  |
+| [highlight.string](misc.configuration.html#ini.syntax-highlighting)  | "#DD0000"    | PHPINIALL       |                  |
+| [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000"    | PHPINIALL       |                  |
+| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700"    | PHPINIALL       |                  |
+| [highlight.default](misc.configuration.html#ini.syntax-highlighting) | "#0000BB"    | PHPINIALL       |                  |
+| [highlight.html](misc.configuration.html#ini.syntax-highlighting)    | "#000000"    | PHPINIALL       |                  |
+| [browscap](misc.configuration.html#ini.browscap)                     | NULL         | PHPINISYSTEM    |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

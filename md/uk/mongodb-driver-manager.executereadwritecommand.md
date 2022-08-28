@@ -41,10 +41,10 @@ final public MongoDB\Driver\Manager::executeReadWriteCommand(string $db, MongoDB
 
 **options**
 
-| Опция | Тип | Описание |
-| --- | --- | --- |
-| readConcern | [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html) |  |
-| Гарантія для застосування до операції. |  |  |
+| Опция                                  | Тип                                                                   | Описание |
+|----------------------------------------|-----------------------------------------------------------------------|----------|
+| readConcern                            | [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.html) |          |
+| Гарантія для застосування до операції. |                                                                       |          |
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 
@@ -75,8 +75,8 @@ final public MongoDB\Driver\Manager::executeReadWriteCommand(string $db, MongoDB
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия             | Описание                                                                                                                                                                                                           |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) буде викинуто, якщо опція `"session"` використовується у поєднанні з непідтвердженим записом. |
 
 ### Дивіться також

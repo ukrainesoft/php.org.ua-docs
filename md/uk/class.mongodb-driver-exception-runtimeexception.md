@@ -99,10 +99,10 @@ errorLabels
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.6.0 |  |
-| Доданий метод [MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.html) і властивість [MongoDB\\Driver\\Exception\\RuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.html#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
+| Версия                                                                                                                                                                                                                                                                                                                        | Описание |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.6.0                                                                                                                                                                                                                                                                                                            |          |
+| Доданий метод [MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.html) і властивість [MongoDB\\Driver\\Exception\\RuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.html#mongodb-driver-exception-runtimeexception.props.errorlabels) |          |
 
 ## Зміст
 

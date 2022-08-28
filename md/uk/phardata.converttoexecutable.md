@@ -59,9 +59,9 @@ public PharData::convertToExecutable(?int $format = null, ?int $compression = nu
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `format` `compression` і `localName` тепер допускають значення null. |
+| Версия | Описание                                                             |
+|--------|----------------------------------------------------------------------|
+|        | `format` `compression` і `localName` тепер допускають значення null. |
 
 ### Приклади
 

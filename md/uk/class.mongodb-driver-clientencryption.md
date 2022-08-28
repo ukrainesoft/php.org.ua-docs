@@ -95,8 +95,8 @@ final public encrypt(mixed $value, ?array $options = null): MongoDB\BSON\Binary
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия              | Описание                                                                                                                                                                                          |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.14.0 | Додані константи **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`** **`MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED`** і **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`** |
 
 ## Дивіться також

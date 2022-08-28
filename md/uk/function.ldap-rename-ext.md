@@ -35,12 +35,12 @@ ldap_rename_ext(    LDAP\Connection $ldap,    string $dn,    string 
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| Версия | Описание                                                                                                                                                 |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Повертає екземпляр [LDAP\\Result](class.ldap-result.html); раніше повертався ресурс ([resource](language.types.resource.html)                            |
+|        | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]`                                                                        |
+|        | Додано підтримку параметра `controls`                                                                                                                    |
 
 ### Дивіться також
 

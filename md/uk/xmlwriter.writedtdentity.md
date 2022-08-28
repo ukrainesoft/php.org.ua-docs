@@ -55,10 +55,10 @@ xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,   
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
-|  | `publicId` `systemId` і `notationData` тепер допускають значення null. |
+| Версия | Описание                                                                                                               |
+|--------|------------------------------------------------------------------------------------------------------------------------|
+|        | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|        | `publicId` `systemId` і `notationData` тепер допускають значення null.                                                 |
 
 ### Дивіться також
 

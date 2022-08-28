@@ -41,26 +41,26 @@ exif_imagetype(string $filename): int|false
 
 **Константи Imagetype**
 
-| Значение | Константа |
-| --- | --- |
-|  | **`IMAGETYPE_GIF`** |
-|  | **`IMAGETYPE_JPEG`** |
-|  | **`IMAGETYPE_PNG`** |
-|  | **`IMAGETYPE_SWF`** |
-|  | **`IMAGETYPE_PSD`** |
-|  | **`IMAGETYPE_BMP`** |
-|  | **`IMAGETYPE_TIFF_II`** (порядок байт intel) |
-|  | **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) |
-|  | **`IMAGETYPE_JPC`** |
-|  | **`IMAGETYPE_JP2`** |
-|  | **`IMAGETYPE_JPX`** |
-|  | **`IMAGETYPE_JB2`** |
-|  | **`IMAGETYPE_SWC`** |
-|  | **`IMAGETYPE_IFF`** |
-|  | **`IMAGETYPE_WBMP`** |
-|  | **`IMAGETYPE_XBM`** |
-|  | **`IMAGETYPE_ICO`** |
-|  | **`IMAGETYPE_WEBP`** |
+| Значение | Константа                                       |
+|----------|-------------------------------------------------|
+|          | **`IMAGETYPE_GIF`**                             |
+|          | **`IMAGETYPE_JPEG`**                            |
+|          | **`IMAGETYPE_PNG`**                             |
+|          | **`IMAGETYPE_SWF`**                             |
+|          | **`IMAGETYPE_PSD`**                             |
+|          | **`IMAGETYPE_BMP`**                             |
+|          | **`IMAGETYPE_TIFF_II`** (порядок байт intel)    |
+|          | **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) |
+|          | **`IMAGETYPE_JPC`**                             |
+|          | **`IMAGETYPE_JP2`**                             |
+|          | **`IMAGETYPE_JPX`**                             |
+|          | **`IMAGETYPE_JB2`**                             |
+|          | **`IMAGETYPE_SWC`**                             |
+|          | **`IMAGETYPE_IFF`**                             |
+|          | **`IMAGETYPE_WBMP`**                            |
+|          | **`IMAGETYPE_XBM`**                             |
+|          | **`IMAGETYPE_ICO`**                             |
+|          | **`IMAGETYPE_WEBP`**                            |
 
 > **Зауваження**
 > 
@@ -68,9 +68,9 @@ exif_imagetype(string $filename): int|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додано підтримку WebP. |
+| Версия | Описание               |
+|--------|------------------------|
+|        | Додано підтримку WebP. |
 
 ### Приклади
 

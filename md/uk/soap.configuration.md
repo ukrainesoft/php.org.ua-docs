@@ -17,13 +17,13 @@
 
 **Опції налаштування SOAP**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [soap.wsdl\_cache\_enabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) |  | PHPINIALL |  |
-| [soap.wsdl\_cache\_dir](soap.configuration.html#ini.soap.wsdl-cache-dir) | /tmp | PHPINIALL |  |
-| [soap.wsdl\_cache\_ttl](soap.configuration.html#ini.soap.wsdl-cache-ttl) |  | PHPINIALL |  |
-| [soap.wsdl\_cache](soap.configuration.html#ini.soap.wsdl-cache) |  | PHPINIALL |  |
-| [soap.wsdl\_cache\_limit](soap.configuration.html#ini.soap.wsdl-cache-limit) |  | PHPINIALL |  |
+| Имя                                                                              | По умолчанию | Место изменения | Список изменений |
+|----------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [soap.wsdl\_cache\_enabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) |              | PHPINIALL       |                  |
+| [soap.wsdl\_cache\_dir](soap.configuration.html#ini.soap.wsdl-cache-dir)         | /tmp         | PHPINIALL       |                  |
+| [soap.wsdl\_cache\_ttl](soap.configuration.html#ini.soap.wsdl-cache-ttl)         |              | PHPINIALL       |                  |
+| [soap.wsdl\_cache](soap.configuration.html#ini.soap.wsdl-cache)                  |              | PHPINIALL       |                  |
+| [soap.wsdl\_cache\_limit](soap.configuration.html#ini.soap.wsdl-cache-limit)     |              | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

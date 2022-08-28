@@ -43,9 +43,9 @@ openssl_dh_compute_key(string $public_key, OpenSSLAsymmetricKey $private_key): s
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+| Версия | Описание                                                                                                                                                                                   |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

@@ -30,11 +30,11 @@ stats_cdf_weibull(    float $par1,    float $par2,    float $par3, 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-| --- | --- | --- | --- | --- |
-|  | CDF | з | до | lambda |
-|  | з | CDF | до | lambda |
-|  | до | з | CDF | lambda |
-|  | lambda | з | CDF | до |
+|---------|-----------------------|--------|--------|--------|
+|         | CDF                   | з      | до     | lambda |
+|         | з                     | CDF    | до     | lambda |
+|         | до                    | з      | CDF    | lambda |
+|         | lambda                | з      | CDF    | до     |
 
 ### Список параметрів
 

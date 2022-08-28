@@ -17,20 +17,20 @@
 
 **Параметри конфігурації MySQLi**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [mysqli.allow\_local\_infile](mysqli.configuration.html#ini.mysqli.allow-local-infile) | "0" | PHPINISYSTEM | До PHP 7.2.16 та 7.3.3 значенням за умовчанням було "1". |
-| [mysqli.local\_infile\_directory](mysqli.configuration.html#ini.mysqli.local-infile-directory) |  | PHPINISYSTEM | Доступно з PHP 8.1.0. |
-| [mysqli.allow\_persistent](mysqli.configuration.html#ini.mysqli.allow-persistent) | "1" | PHPINISYSTEM |  |
-| [mysqli.max\_persistent](mysqli.configuration.html#ini.mysqli.max-persistent) | "-1" | PHPINISYSTEM |  |
-| [mysqli.max\_links](mysqli.configuration.html#ini.mysqli.max-links) | "-1" | PHPINISYSTEM |  |
-| [mysqli.default\_port](mysqli.configuration.html#ini.mysqli.default-port) | "3306" | PHPINIALL |  |
-| [mysqli.default\_socket](mysqli.configuration.html#ini.mysqli.default-socket) | NULL | PHPINIALL |  |
-| [mysqli.default\_host](mysqli.configuration.html#ini.mysqli.default-host) | NULL | PHPINIALL |  |
-| [mysqli.default\_user](mysqli.configuration.html#ini.mysqli.default-user) | NULL | PHPINIALL |  |
-| [mysqli.default\_pw](mysqli.configuration.html#ini.mysqli.default-pw) | NULL | PHPINIALL |  |
-| [mysqli.reconnect](mysqli.configuration.html#ini.mysqli.reconnect) | "0" | PHPINISYSTEM |  |
-| [mysqli.rollback\_on\_cached\_plink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink) | "0" | PHPINISYSTEM |  |
+| Имя                                                                                                 | По умолчанию | Место изменения | Список изменений                                         |
+|-----------------------------------------------------------------------------------------------------|--------------|-----------------|----------------------------------------------------------|
+| [mysqli.allow\_local\_infile](mysqli.configuration.html#ini.mysqli.allow-local-infile)              | "0"          | PHPINISYSTEM    | До PHP 7.2.16 та 7.3.3 значенням за умовчанням було "1". |
+| [mysqli.local\_infile\_directory](mysqli.configuration.html#ini.mysqli.local-infile-directory)      |              | PHPINISYSTEM    | Доступно з PHP 8.1.0.                                    |
+| [mysqli.allow\_persistent](mysqli.configuration.html#ini.mysqli.allow-persistent)                   | "1"          | PHPINISYSTEM    |                                                          |
+| [mysqli.max\_persistent](mysqli.configuration.html#ini.mysqli.max-persistent)                       | "-1"         | PHPINISYSTEM    |                                                          |
+| [mysqli.max\_links](mysqli.configuration.html#ini.mysqli.max-links)                                 | "-1"         | PHPINISYSTEM    |                                                          |
+| [mysqli.default\_port](mysqli.configuration.html#ini.mysqli.default-port)                           | "3306"       | PHPINIALL       |                                                          |
+| [mysqli.default\_socket](mysqli.configuration.html#ini.mysqli.default-socket)                       | NULL         | PHPINIALL       |                                                          |
+| [mysqli.default\_host](mysqli.configuration.html#ini.mysqli.default-host)                           | NULL         | PHPINIALL       |                                                          |
+| [mysqli.default\_user](mysqli.configuration.html#ini.mysqli.default-user)                           | NULL         | PHPINIALL       |                                                          |
+| [mysqli.default\_pw](mysqli.configuration.html#ini.mysqli.default-pw)                               | NULL         | PHPINIALL       |                                                          |
+| [mysqli.reconnect](mysqli.configuration.html#ini.mysqli.reconnect)                                  | "0"          | PHPINISYSTEM    |                                                          |
+| [mysqli.rollback\_on\_cached\_plink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink) | "0"          | PHPINISYSTEM    |                                                          |
 
 Інші деталі та визначення констант PHPINI дивіться у розділі [конфигурационные изменения](configuration.changes.html)
 

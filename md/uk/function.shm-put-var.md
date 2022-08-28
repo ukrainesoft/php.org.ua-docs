@@ -47,9 +47,9 @@ shm_put_var(SysvSharedMemory $shm, int $key, mixed $value): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
+| Версия | Описание                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------|
+|        | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

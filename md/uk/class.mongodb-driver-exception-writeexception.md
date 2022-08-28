@@ -108,10 +108,10 @@ writeResult
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.5.0 |  |
-| Тепер клас успадковується від [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |
+| Версия                                                                                                                                                                                                                                        | Описание |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.5.0                                                                                                                                                                                                                            |          |
+| Тепер клас успадковується від [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.html) |          |
 
 ## Зміст
 

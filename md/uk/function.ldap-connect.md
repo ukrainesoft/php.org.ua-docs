@@ -61,9 +61,9 @@ ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                              |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

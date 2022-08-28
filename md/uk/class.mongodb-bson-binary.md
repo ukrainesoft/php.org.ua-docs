@@ -128,10 +128,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.12.0 |  |
-| Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |  |
+| Версия                                                               | Описание |
+|----------------------------------------------------------------------|----------|
+| PECL mongodb 1.12.0                                                  |          |
+| Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |          |
 
 Доданий тип **`MongoDB\BSON\Binary::TYPE_COLUMN`**
 

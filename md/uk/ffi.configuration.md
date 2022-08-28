@@ -17,10 +17,10 @@
 
 **Опції налаштування FFI**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [ffi.enable](ffi.configuration.html#ini.ffi.enable) | "preload" | PHPINISYSTEM |  |
-| [ffi.preload](ffi.configuration.html#ini.ffi.preload) | "" | PHPINISYSTEM |  |
+| Имя                                                   | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------|--------------|-----------------|------------------|
+| [ffi.enable](ffi.configuration.html#ini.ffi.enable)   | "preload"    | PHPINISYSTEM    |                  |
+| [ffi.preload](ffi.configuration.html#ini.ffi.preload) | ""           | PHPINISYSTEM    |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

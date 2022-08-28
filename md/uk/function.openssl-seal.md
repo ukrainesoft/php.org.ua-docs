@@ -61,11 +61,11 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$e
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався масив (array) ресурсів ([resource](language.types.resource.html)) типу `OpenSSL key` |
-|  | `cipher_algo` більше не є необов'язковим параметром. |
-|  | `iv` тепер допускає значення null. |
+| Версия | Описание                                                                                                                                                                                                            |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався масив (array) ресурсів ([resource](language.types.resource.html)) типу `OpenSSL key` |
+|        | `cipher_algo` більше не є необов'язковим параметром.                                                                                                                                                                |
+|        | `iv` тепер допускає значення null.                                                                                                                                                                                  |
 
 ### Приклади
 

@@ -43,10 +43,10 @@ final public MongoDB\Driver\Manager::executeWriteCommand(string $db, MongoDB\Dri
 
 **options**
 
-| Опция | Тип | Описание |
-| --- | --- | --- |
-| session | [MongoDB\\Driver\\Session](class.mongodb-driver-session.html) |  |
-| Сесія зв'язування з операцією. |  |  |
+| Опция                          | Тип                                                           | Описание |
+|--------------------------------|---------------------------------------------------------------|----------|
+| session                        | [MongoDB\\Driver\\Session](class.mongodb-driver-session.html) |          |
+| Сесія зв'язування з операцією. |                                                               |          |
 
 | | writeConcern | [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
 
@@ -71,8 +71,8 @@ final public MongoDB\Driver\Manager::executeWriteCommand(string $db, MongoDB\Dri
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия             | Описание                                                                                                                                                                                                         |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | Буде викинуто [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо опція `"session"` використовується у поєднанні з непідтвердженим записом. |
 
 ### Дивіться також

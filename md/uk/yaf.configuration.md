@@ -17,18 +17,18 @@
 
 **Опції налаштування Yaf**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [yaf.library](yaf.configuration.html#ini.yaf.library) |  | PHPINIALL |  |
-| [yaf.action\_prefer](yaf.configuration.html#ini.yaf.action-prefer) |  | PHPINIALL |  |
-| [yaf.lowcase\_path](yaf.configuration.html#ini.yaf.lowcase-path) |  | PHPINIALL |  |
-| [yaf.use\_spl\_autoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |  | PHPINIALL |  |
-| [yaf.forward\_limit](yaf.configuration.html#ini.yaf.forward-limit) |  | PHPINIALL |  |
-| [yaf.name\_suffix](yaf.configuration.html#ini.yaf.name-suffix) |  | PHPINIALL |  |
-| [yaf.name\_separator](yaf.configuration.html#ini.yaf.name-separator) |  | PHPINIALL |  |
-| [yaf.cache\_config](yaf.configuration.html#ini.yaf.cache-config) |  | PHPINISYSTEM |  |
-| [yaf.environ](yaf.configuration.html#ini.yaf.environ) | product | PHPINISYSTEM |  |
-| [yaf.use\_namespace](yaf.configuration.html#ini.yaf.use-namespace) |  | PHPINISYSTEM |  |
+| Имя                                                                       | По умолчанию | Место изменения | Список изменений |
+|---------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [yaf.library](yaf.configuration.html#ini.yaf.library)                     |              | PHPINIALL       |                  |
+| [yaf.action\_prefer](yaf.configuration.html#ini.yaf.action-prefer)        |              | PHPINIALL       |                  |
+| [yaf.lowcase\_path](yaf.configuration.html#ini.yaf.lowcase-path)          |              | PHPINIALL       |                  |
+| [yaf.use\_spl\_autoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |              | PHPINIALL       |                  |
+| [yaf.forward\_limit](yaf.configuration.html#ini.yaf.forward-limit)        |              | PHPINIALL       |                  |
+| [yaf.name\_suffix](yaf.configuration.html#ini.yaf.name-suffix)            |              | PHPINIALL       |                  |
+| [yaf.name\_separator](yaf.configuration.html#ini.yaf.name-separator)      |              | PHPINIALL       |                  |
+| [yaf.cache\_config](yaf.configuration.html#ini.yaf.cache-config)          |              | PHPINISYSTEM    |                  |
+| [yaf.environ](yaf.configuration.html#ini.yaf.environ)                     | product      | PHPINISYSTEM    |                  |
+| [yaf.use\_namespace](yaf.configuration.html#ini.yaf.use-namespace)        |              | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 

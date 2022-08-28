@@ -41,10 +41,10 @@ final public MongoDB\Driver\Server::executeQuery(string $namespace, MongoDB\Driv
 
 **options**
 
-| Опция | Тип | Описание |
-| --- | --- | --- |
-| readPreference | [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html) |  |
-| Перевага читання, що використовується для вибору сервера для виконання операції. |  |  |
+| Опция                                                                            | Тип                                                                         | Описание |
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------|
+| readPreference                                                                   | [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html) |          |
+| Перевага читання, що використовується для вибору сервера для виконання операції. |                                                                             |          |
 
 | | session | [MongoDB\\Driver\\Session](class.mongodb-driver-session.html)
 
@@ -63,8 +63,8 @@ final public MongoDB\Driver\Server::executeQuery(string $namespace, MongoDB\Driv
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
+| Версия             | Описание                                                                                                                                                                                     |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр, як і раніше, прийматиме об'єкт [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html) |
 
 ### Дивіться також

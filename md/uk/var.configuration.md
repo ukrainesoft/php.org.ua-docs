@@ -17,9 +17,9 @@
 
 **Параметри конфігурації змінних**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [unserialize\_callback\_func](var.configuration.html#ini.unserialize-callback-func) | **`null`** | PHPINIALL |  |
+| Имя                                                                                 | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [unserialize\_callback\_func](var.configuration.html#ini.unserialize-callback-func) | **`null`**   | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

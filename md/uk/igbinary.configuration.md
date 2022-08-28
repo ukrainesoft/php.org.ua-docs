@@ -17,15 +17,15 @@
 
 **Опції налаштування Igbinary**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [igbinary.compact\_strings](igbinary.configuration.html#ini.igbinary.compact-strings) |  | PHPINIALL |  |
+| Имя                                                                                   | По умолчанию | Место изменения | Список изменений |
+|---------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [igbinary.compact\_strings](igbinary.configuration.html#ini.igbinary.compact-strings) |              | PHPINIALL       |                  |
 
 **Параметри конфігурації сесії, що впливають на поведінку Igbinary**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [session.save\_handler](igbinary.configuration.html#ini.igbinary.save-handler) | "files" | PHPINIALL |  |
+| Имя                                                                            | По умолчанию | Место изменения | Список изменений |
+|--------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [session.save\_handler](igbinary.configuration.html#ini.igbinary.save-handler) | "files"      | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

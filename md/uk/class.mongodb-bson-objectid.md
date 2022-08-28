@@ -60,11 +60,11 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
-| PECL mongodb 1.3.0 |  |
-| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |  |
+| Версия                                                             | Описание                                                             |
+|--------------------------------------------------------------------|----------------------------------------------------------------------|
+| PECL mongodb 1.12.0                                                | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| PECL mongodb 1.3.0                                                 |                                                                      |
+| Перейменований з `MongoDB\BSON\ObjectID` в `MongoDB\BSON\ObjectId` |                                                                      |
 
 Реалізує інтерфейс [MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.html)
 

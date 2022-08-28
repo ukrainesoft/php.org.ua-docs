@@ -49,10 +49,10 @@ public Phar::buildFromIterator(Traversable $iterator, ?string $baseDirectory = n
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | **Phar::buildFromIterator()** більше не повертає значення **`false`** |
-|  | `baseDirectory` тепер допускає значення null. |
+| Версия | Описание                                                              |
+|--------|-----------------------------------------------------------------------|
+|        | **Phar::buildFromIterator()** більше не повертає значення **`false`** |
+|        | `baseDirectory` тепер допускає значення null.                         |
 
 ### Приклади
 

@@ -80,10 +80,10 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Доданий параметр `"flags"` в `options` |
-|  | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
+| Версия | Описание                                                                                      |
+|--------|-----------------------------------------------------------------------------------------------|
+|        | Доданий параметр `"flags"` в `options`                                                        |
+|        | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
 
 ### Приклади
 

@@ -199,9 +199,9 @@ textContent
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
+| Версия | Описание                                                                                                                                                                                |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Нереалізовані методи **DOMNode::compareDocumentPosition()** **DOMNode::isEqualNode()** **DOMNode::getFeature()** **DOMNode::setUserData()** і **DOMNode::getUserData()** були вилучені. |
 
 ## Примітки
 

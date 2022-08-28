@@ -215,10 +215,10 @@ tagName
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додані властивості першихелементівChild, LastElementChild, ChildElementCount, попереднійElementSibling і NextElementSibling. |
-|  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.html) |
+| Версия | Описание                                                                                                                         |
+|--------|----------------------------------------------------------------------------------------------------------------------------------|
+|        | Додані властивості першихелементівChild, LastElementChild, ChildElementCount, попереднійElementSibling і NextElementSibling.     |
+|        | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.html) |
 
 ## Примітки
 

@@ -17,10 +17,10 @@
 
 **Опції налаштування Readline**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [cli.pager](readline.configuration.html#ini.cli.pager) | "" | PHPINIALL |  |
-| [cli.prompt](readline.configuration.html#ini.cli.prompt) | "в > " | PHPINIALL |  |
+| Имя                                                      | По умолчанию | Место изменения | Список изменений |
+|----------------------------------------------------------|--------------|-----------------|------------------|
+| [cli.pager](readline.configuration.html#ini.cli.pager)   | ""           | PHPINIALL       |                  |
+| [cli.prompt](readline.configuration.html#ini.cli.prompt) | "в > "       | PHPINIALL       |                  |
 
 Коротке пояснення конфігураційних директив.
 

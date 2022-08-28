@@ -54,10 +54,10 @@ length
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
-|  | Реалізовано інтерфейс [Countable](class.countable.html) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length) |
+| Версия | Описание                                                                                                                                                                           |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
+|        | Реалізовано інтерфейс [Countable](class.countable.html) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length)                                 |
 
 ## Дивіться також
 

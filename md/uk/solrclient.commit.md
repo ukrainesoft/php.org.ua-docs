@@ -53,11 +53,11 @@ public SolrClient::commit(bool $softCommit = false, bool $waitSearcher = true, b
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL solr 1.1.0, 2.0.0 | Видалено $maxSegments |
-| PECL solr 2.0.0b | Зміни API: SolrClient::commit ( int $maxSegments = 0 , bool $softCommit = false , bool $waitSearcher = true, bool $expungeDeletes = false |
-| PECL solr 0.9.2 | Сигнатура: SolrClient::commit ( int $maxSegments = 1 , bool $waitFlush = true , bool $waitSearcher = true ). $waitFlush: Блокувати, доки зміни індексу не будуть скинуті на диск. |
+| Версия                 | Описание                                                                                                                                                                          |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL solr 1.1.0, 2.0.0 | Видалено $maxSegments                                                                                                                                                             |
+| PECL solr 2.0.0b       | Зміни API: SolrClient::commit ( int $maxSegments = 0 , bool $softCommit = false , bool $waitSearcher = true, bool $expungeDeletes = false                                         |
+| PECL solr 0.9.2        | Сигнатура: SolrClient::commit ( int $maxSegments = 1 , bool $waitFlush = true , bool $waitSearcher = true ). $waitFlush: Блокувати, доки зміни індексу не будуть скинуті на диск. |
 
 ### Примітки
 

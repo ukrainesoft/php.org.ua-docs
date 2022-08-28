@@ -21,9 +21,9 @@
 
 **Константи mqseries**
 
-| Константа PHP | Константа MQ |
-| --- | --- |
-| MQSERIESMQCCОК | MQCCОК |
-| MQSERIESMQCCWARNING | MQCCWARNING |
-| MQSERIESMQCCFAILED | MQCCFAILED |
-| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN |
+| Константа PHP       | Константа MQ |
+|---------------------|--------------|
+| MQSERIESMQCCОК      | MQCCОК       |
+| MQSERIESMQCCWARNING | MQCCWARNING  |
+| MQSERIESMQCCFAILED  | MQCCFAILED   |
+| MQSERIESMQCCUNKNOWN | MQCCUNKNOWN  |

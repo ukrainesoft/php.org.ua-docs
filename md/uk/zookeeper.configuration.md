@@ -17,11 +17,11 @@
 
 **Опції налаштування Zookeeper**
 
-| Имя | По умолчанию | Место изменения | История изменений |
-| --- | --- | --- | --- |
-| [zookeeper.recv\_timeout](zookeeper.configuration.html#ini.zookeeper.recv_timeout) |  | PHPINIALL |  |
-| [zookeeper.session\_lock](zookeeper.configuration.html#ini.zookeeper.session_lock) |  | PHPINISYSTEM |  |
-| [zookeeper.sess\_lock\_wait](zookeeper.configuration.html#ini.zookeeper.sess_lock_wait) |  | PHPINIALL |  |
+| Имя                                                                                     | По умолчанию | Место изменения | История изменений |
+|-----------------------------------------------------------------------------------------|--------------|-----------------|-------------------|
+| [zookeeper.recv\_timeout](zookeeper.configuration.html#ini.zookeeper.recv_timeout)      |              | PHPINIALL       |                   |
+| [zookeeper.session\_lock](zookeeper.configuration.html#ini.zookeeper.session_lock)      |              | PHPINISYSTEM    |                   |
+| [zookeeper.sess\_lock\_wait](zookeeper.configuration.html#ini.zookeeper.sess_lock_wait) |              | PHPINIALL       |                   |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

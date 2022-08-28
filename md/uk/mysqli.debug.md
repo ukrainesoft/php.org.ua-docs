@@ -51,19 +51,19 @@ mysqli_debug(string $options): bool
 
 **Допустимі символи прапорів**
 
-| Символ `option` | Описание |
-| --- | --- |
-| Про | **`MYSQLND_DEBUG_FLUSH`** |
-| A/a | **`MYSQLND_DEBUG_APPEND`** |
-| Ф | **`MYSQLND_DEBUG_DUMP_FILE`** |
-| і | **`MYSQLND_DEBUG_DUMP_PID`** |
-| Л | **`MYSQLND_DEBUG_DUMP_LINE`** |
-| м | **`MYSQLND_DEBUG_TRACE_MEMORY_CALLS`** |
-| н | **`MYSQLND_DEBUG_DUMP_LEVEL`** |
-| про | виведення у файл |
-| Т | **`MYSQLND_DEBUG_DUMP_TIME`** |
-| т | **`MYSQLND_DEBUG_DUMP_TRACE`** |
-| з | **`MYSQLND_DEBUG_PROFILE_CALLS`** |
+| Символ `option` | Описание                               |
+|-----------------|----------------------------------------|
+| Про             | **`MYSQLND_DEBUG_FLUSH`**              |
+| A/a             | **`MYSQLND_DEBUG_APPEND`**             |
+| Ф               | **`MYSQLND_DEBUG_DUMP_FILE`**          |
+| і               | **`MYSQLND_DEBUG_DUMP_PID`**           |
+| Л               | **`MYSQLND_DEBUG_DUMP_LINE`**          |
+| м               | **`MYSQLND_DEBUG_TRACE_MEMORY_CALLS`** |
+| н               | **`MYSQLND_DEBUG_DUMP_LEVEL`**         |
+| про             | виведення у файл                       |
+| Т               | **`MYSQLND_DEBUG_DUMP_TIME`**          |
+| т               | **`MYSQLND_DEBUG_DUMP_TRACE`**         |
+| з               | **`MYSQLND_DEBUG_PROFILE_CALLS`**      |
 
 ### Значення, що повертаються
 

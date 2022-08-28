@@ -53,9 +53,9 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Повертає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                            |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------|
+|        | Повертає екземпляр [FTP\\Connection](class.ftp-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

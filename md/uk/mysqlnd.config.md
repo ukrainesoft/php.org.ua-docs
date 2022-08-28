@@ -17,19 +17,19 @@
 
 **Параметри конфігурації вбудованого драйвера MySQL**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [mysqlnd.collect\_statistics](mysqlnd.config.html#ini.mysqlnd.collect-statistics) | "1" | PHPINISYSTEM |  |
-| [mysqlnd.collect\_memory\_statistics](mysqlnd.config.html#ini.mysqlnd.collect-memory-statistics) | "0" | PHPINISYSTEM |  |
-| [mysqlnd.debug](mysqlnd.config.html#ini.mysqlnd.debug) | "" | PHPINISYSTEM |  |
-| [mysqlnd.log\_mask](mysqlnd.config.html#ini.mysqlnd.log-mask) |  | PHPINIALL |  |
-| [mysqlnd.mempool\_default\_size](mysqlnd.config.html#ini.mysqlnd.mempool-default-size) |  | PHPINIALL |  |
-| [mysqlnd.net\_read\_timeout](mysqlnd.config.html#ini.mysqlnd.net-read-timeout) | "86400" | PHPINIALL | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
-| [mysqlnd.net\_cmd\_buffer\_size](mysqlnd.config.html#ini.mysqlnd.net-cmd-buffer-size) | 5.3.0 - "2048"; 5.3.1 - "4096" | PHPINISYSTEM |  |
-| [mysqlnd.net\_read\_buffer\_size](mysqlnd.config.html#ini.mysqlnd.net-read-buffer-size) | "32768" | PHPINISYSTEM |  |
-| [mysqlnd.sha256\_server\_public\_key](mysqlnd.config.html#ini.mysqlnd.sha256-server-public-key) | "" | PHPINIPERDIR |  |
-| [mysqlnd.trace\_alloc](mysqlnd.config.html#ini.mysqlnd.trace-alloc) | "" | PHPINISYSTEM |  |
-| [mysqlnd.fetch\_data\_copy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy) |  | PHPINIALL |  |
+| Имя                                                                                              | По умолчанию                   | Место изменения | Список изменений                                                                            |
+|--------------------------------------------------------------------------------------------------|--------------------------------|-----------------|---------------------------------------------------------------------------------------------|
+| [mysqlnd.collect\_statistics](mysqlnd.config.html#ini.mysqlnd.collect-statistics)                | "1"                            | PHPINISYSTEM    |                                                                                             |
+| [mysqlnd.collect\_memory\_statistics](mysqlnd.config.html#ini.mysqlnd.collect-memory-statistics) | "0"                            | PHPINISYSTEM    |                                                                                             |
+| [mysqlnd.debug](mysqlnd.config.html#ini.mysqlnd.debug)                                           | ""                             | PHPINISYSTEM    |                                                                                             |
+| [mysqlnd.log\_mask](mysqlnd.config.html#ini.mysqlnd.log-mask)                                    |                                | PHPINIALL       |                                                                                             |
+| [mysqlnd.mempool\_default\_size](mysqlnd.config.html#ini.mysqlnd.mempool-default-size)           |                                | PHPINIALL       |                                                                                             |
+| [mysqlnd.net\_read\_timeout](mysqlnd.config.html#ini.mysqlnd.net-read-timeout)                   | "86400"                        | PHPINIALL       | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
+| [mysqlnd.net\_cmd\_buffer\_size](mysqlnd.config.html#ini.mysqlnd.net-cmd-buffer-size)            | 5.3.0 - "2048"; 5.3.1 - "4096" | PHPINISYSTEM    |                                                                                             |
+| [mysqlnd.net\_read\_buffer\_size](mysqlnd.config.html#ini.mysqlnd.net-read-buffer-size)          | "32768"                        | PHPINISYSTEM    |                                                                                             |
+| [mysqlnd.sha256\_server\_public\_key](mysqlnd.config.html#ini.mysqlnd.sha256-server-public-key)  | ""                             | PHPINIPERDIR    |                                                                                             |
+| [mysqlnd.trace\_alloc](mysqlnd.config.html#ini.mysqlnd.trace-alloc)                              | ""                             | PHPINISYSTEM    |                                                                                             |
+| [mysqlnd.fetch\_data\_copy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy)                     |                                | PHPINIALL       |                                                                                             |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

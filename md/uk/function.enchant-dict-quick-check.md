@@ -45,9 +45,9 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                              |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

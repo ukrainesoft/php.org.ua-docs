@@ -19,14 +19,14 @@ Exif підтримує автоматичне перетворення коду
 
 **Опції конфігурації Exif**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [exif.encode\_unicode](exif.configuration.html#ini.exif.encode-unicode) | "ISO-8859-15" | PHPINIALL |  |
-| [exif.decode\_unicode\_motorola](exif.configuration.html#ini.exif.decode-unicode-motorola) | "UCS-2BE" | PHPINIALL |  |
-| [exif.decode\_unicode\_intel](exif.configuration.html#ini.exif.decode-unicode-intel) | "UCS-2LE" | PHPINIALL |  |
-| [exif.encode\_jis](exif.configuration.html#ini.exif.encode-jis) | "" | PHPINIALL |  |
-| [exif.decode\_jis\_motorola](exif.configuration.html#ini.exif.decode-jis-motorola) | "JIS" | PHPINIALL |  |
-| [exif.decode\_jis\_intel](exif.configuration.html#ini.exif.decode-jis-intel) | "JIS" | PHPINIALL |  |
+| Имя                                                                                        | По умолчанию  | Место изменения | Список изменений |
+|--------------------------------------------------------------------------------------------|---------------|-----------------|------------------|
+| [exif.encode\_unicode](exif.configuration.html#ini.exif.encode-unicode)                    | "ISO-8859-15" | PHPINIALL       |                  |
+| [exif.decode\_unicode\_motorola](exif.configuration.html#ini.exif.decode-unicode-motorola) | "UCS-2BE"     | PHPINIALL       |                  |
+| [exif.decode\_unicode\_intel](exif.configuration.html#ini.exif.decode-unicode-intel)       | "UCS-2LE"     | PHPINIALL       |                  |
+| [exif.encode\_jis](exif.configuration.html#ini.exif.encode-jis)                            | ""            | PHPINIALL       |                  |
+| [exif.decode\_jis\_motorola](exif.configuration.html#ini.exif.decode-jis-motorola)         | "JIS"         | PHPINIALL       |                  |
+| [exif.decode\_jis\_intel](exif.configuration.html#ini.exif.decode-jis-intel)               | "JIS"         | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

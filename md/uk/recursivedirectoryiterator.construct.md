@@ -41,9 +41,9 @@ public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flag
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+| Версия | Описание                                                                                                                                                                              |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
 
 ### Приклади
 

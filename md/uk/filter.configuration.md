@@ -17,10 +17,10 @@
 
 **Параметри конфігурації Filter**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [filter.default](filter.configuration.html#ini.filter.default) | "unsaferaw" | PHPINIPERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
-| [filter.default\_flags](filter.configuration.html#ini.filter.default-flags) | NULL | PHPINIPERDIR |  |
+| Имя                                                                         | По умолчанию | Место изменения | Список изменений                          |
+|-----------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------|
+| [filter.default](filter.configuration.html#ini.filter.default)              | "unsaferaw"  | PHPINIPERDIR    | Параметр застарів, починаючи з PHP 8.1.0. |
+| [filter.default\_flags](filter.configuration.html#ini.filter.default-flags) | NULL         | PHPINIPERDIR    |                                           |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

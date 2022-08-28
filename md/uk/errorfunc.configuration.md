@@ -17,28 +17,28 @@
 
 **Налаштування конфігурації протоколювання подій та помилок**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [error\_reporting](errorfunc.configuration.html#ini.error-reporting) | NULL | PHPINIALL |  |
-| [display\_errors](errorfunc.configuration.html#ini.display-errors) | "1" | PHPINIALL |  |
-| [display\_startup\_errors](errorfunc.configuration.html#ini.display-startup-errors) | "1" | PHPINIALL | До PHP 8.0.0 значення за промовчанням було `"0"` |
-| [log\_errors](errorfunc.configuration.html#ini.log-errors) | "0" | PHPINIALL |  |
-| [log\_errors\_max\_len](errorfunc.configuration.html#ini.log-errors-max-len) | "1024" | PHPINIALL |  |
-| [ignore\_repeated\_errors](errorfunc.configuration.html#ini.ignore-repeated-errors) | "0" | PHPINIALL |  |
-| [ignore\_repeated\_source](errorfunc.configuration.html#ini.ignore-repeated-source) | "0" | PHPINIALL |  |
-| [report\_memleaks](errorfunc.configuration.html#ini.report-memleaks) | "1" | PHPINIALL |  |
-| [track\_errors](errorfunc.configuration.html#ini.track-errors) | "0" | PHPINIALL | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0. |
-| [html\_errors](errorfunc.configuration.html#ini.html-errors) | "1" | PHPINIALL |  |
-| [xmlrpc\_errors](errorfunc.configuration.html#ini.xmlrpc-errors) | "0" | PHPINISYSTEM |  |
-| [xmlrpc\_error\_number](errorfunc.configuration.html#ini.xmlrpc-error-number) | "0" | PHPINIALL |  |
-| [docref\_root](errorfunc.configuration.html#ini.docref-root) | "" | PHPINIALL |  |
-| [docref\_ext](errorfunc.configuration.html#ini.docref-ext) | "" | PHPINIALL |  |
-| [error\_prepend\_string](errorfunc.configuration.html#ini.error-prepend-string) | NULL | PHPINIALL |  |
-| [error\_append\_string](errorfunc.configuration.html#ini.error-append-string) | NULL | PHPINIALL |  |
-| [error\_log](errorfunc.configuration.html#ini.error-log) | NULL | PHPINIALL |  |
-| [syslog.facility](errorfunc.configuration.html#ini.syslog.facility) | "LOGUSER" | PHPINISYSTEM | Доступно з PHP 7.3.0. |
-| [syslog.filter](errorfunc.configuration.html#ini.syslog.filter) | "no-ctrl" | PHPINIALL | Доступно з PHP 7.3.0. |
-| [syslog.ident](errorfunc.configuration.html#ini.syslog.ident) | "php" | PHPINISYSTEM | Доступно з PHP 7.3.0. |
+| Имя                                                                                 | По умолчанию | Место изменения | Список изменений                                        |
+|-------------------------------------------------------------------------------------|--------------|-----------------|---------------------------------------------------------|
+| [error\_reporting](errorfunc.configuration.html#ini.error-reporting)                | NULL         | PHPINIALL       |                                                         |
+| [display\_errors](errorfunc.configuration.html#ini.display-errors)                  | "1"          | PHPINIALL       |                                                         |
+| [display\_startup\_errors](errorfunc.configuration.html#ini.display-startup-errors) | "1"          | PHPINIALL       | До PHP 8.0.0 значення за промовчанням було `"0"`        |
+| [log\_errors](errorfunc.configuration.html#ini.log-errors)                          | "0"          | PHPINIALL       |                                                         |
+| [log\_errors\_max\_len](errorfunc.configuration.html#ini.log-errors-max-len)        | "1024"       | PHPINIALL       |                                                         |
+| [ignore\_repeated\_errors](errorfunc.configuration.html#ini.ignore-repeated-errors) | "0"          | PHPINIALL       |                                                         |
+| [ignore\_repeated\_source](errorfunc.configuration.html#ini.ignore-repeated-source) | "0"          | PHPINIALL       |                                                         |
+| [report\_memleaks](errorfunc.configuration.html#ini.report-memleaks)                | "1"          | PHPINIALL       |                                                         |
+| [track\_errors](errorfunc.configuration.html#ini.track-errors)                      | "0"          | PHPINIALL       | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0. |
+| [html\_errors](errorfunc.configuration.html#ini.html-errors)                        | "1"          | PHPINIALL       |                                                         |
+| [xmlrpc\_errors](errorfunc.configuration.html#ini.xmlrpc-errors)                    | "0"          | PHPINISYSTEM    |                                                         |
+| [xmlrpc\_error\_number](errorfunc.configuration.html#ini.xmlrpc-error-number)       | "0"          | PHPINIALL       |                                                         |
+| [docref\_root](errorfunc.configuration.html#ini.docref-root)                        | ""           | PHPINIALL       |                                                         |
+| [docref\_ext](errorfunc.configuration.html#ini.docref-ext)                          | ""           | PHPINIALL       |                                                         |
+| [error\_prepend\_string](errorfunc.configuration.html#ini.error-prepend-string)     | NULL         | PHPINIALL       |                                                         |
+| [error\_append\_string](errorfunc.configuration.html#ini.error-append-string)       | NULL         | PHPINIALL       |                                                         |
+| [error\_log](errorfunc.configuration.html#ini.error-log)                            | NULL         | PHPINIALL       |                                                         |
+| [syslog.facility](errorfunc.configuration.html#ini.syslog.facility)                 | "LOGUSER"    | PHPINISYSTEM    | Доступно з PHP 7.3.0.                                   |
+| [syslog.filter](errorfunc.configuration.html#ini.syslog.filter)                     | "no-ctrl"    | PHPINIALL       | Доступно з PHP 7.3.0.                                   |
+| [syslog.ident](errorfunc.configuration.html#ini.syslog.ident)                       | "php"        | PHPINISYSTEM    | Доступно з PHP 7.3.0.                                   |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

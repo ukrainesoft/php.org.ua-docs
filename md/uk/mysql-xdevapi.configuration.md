@@ -17,14 +17,14 @@
 
 **Опції налаштування Mysqlxdevapi**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [xmysqlnd.collect\_memory\_statistics](mysql-xdevapi.configuration.html#ini.xmysqlnd.collect-memory-statistics) |  | PHPINISYSTEM |  |
-| [xmysqlnd.collect\_statistics](mysql-xdevapi.configuration.html#ini.xmysqlnd.collect-statistics) |  | PHPINIALL |  |
-| [xmysqlnd.debug](mysql-xdevapi.configuration.html#ini.xmysqlnd.debug) |  | PHPINISYSTEM |  |
-| [xmysqlnd.mempool\_default\_size](mysql-xdevapi.configuration.html#ini.xmysqlnd.mempool-default-size) |  | PHPINIALL |  |
-| [xmysqlnd.net\_read\_timeout](mysql-xdevapi.configuration.html#ini.xmysqlnd.net-read-timeout) |  | PHPINISYSTEM |  |
-| [xmysqlnd.trace\_alloc](mysql-xdevapi.configuration.html#ini.xmysqlnd.trace-alloc) |  | PHPINISYSTEM |  |
+| Имя                                                                                                             | По умолчанию | Место изменения | Список изменений |
+|-----------------------------------------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [xmysqlnd.collect\_memory\_statistics](mysql-xdevapi.configuration.html#ini.xmysqlnd.collect-memory-statistics) |              | PHPINISYSTEM    |                  |
+| [xmysqlnd.collect\_statistics](mysql-xdevapi.configuration.html#ini.xmysqlnd.collect-statistics)                |              | PHPINIALL       |                  |
+| [xmysqlnd.debug](mysql-xdevapi.configuration.html#ini.xmysqlnd.debug)                                           |              | PHPINISYSTEM    |                  |
+| [xmysqlnd.mempool\_default\_size](mysql-xdevapi.configuration.html#ini.xmysqlnd.mempool-default-size)           |              | PHPINIALL       |                  |
+| [xmysqlnd.net\_read\_timeout](mysql-xdevapi.configuration.html#ini.xmysqlnd.net-read-timeout)                   |              | PHPINISYSTEM    |                  |
+| [xmysqlnd.trace\_alloc](mysql-xdevapi.configuration.html#ini.xmysqlnd.trace-alloc)                              |              | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 

@@ -17,9 +17,9 @@
 
 **Опції налаштування Mailparse**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [mailparse.def\_charset](mailparse.configuration.html#ini.mailparse.def_charset) | "us-ascii" | PHPINISYSTEM |  |
+| Имя                                                                              | По умолчанию | Место изменения | Список изменений |
+|----------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [mailparse.def\_charset](mailparse.configuration.html#ini.mailparse.def_charset) | "us-ascii"   | PHPINISYSTEM    |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

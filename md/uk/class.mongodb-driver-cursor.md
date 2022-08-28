@@ -54,9 +54,9 @@ public valid(): bool
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.html) |
+| Версия             | Описание                                                                                                                                      |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.html)                                                                                                      |
 | PECL mongodb 1.6.0 | Реалізує [MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.html), який успадковує [Traversable](class.traversable.html) |
 
 ## Приклади

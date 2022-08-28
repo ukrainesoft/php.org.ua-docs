@@ -35,13 +35,13 @@ public RegexIterator::setMode(int $mode): void
 
 **Режими роботи [RegexIterator](class.regexiterator.html)**
 
-| значение | константа |
-| --- | --- |
-|  | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match) |
-|  | [RegexIterator::GET\_MATCH](class.regexiterator.html#regexiterator.constants.get-match) |
-|  | [RegexIterator::ALL\_MATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
-|  | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split) |
-|  | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace) |
+| значение | константа                                                                                   |
+|----------|---------------------------------------------------------------------------------------------|
+|          | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match)              |
+|          | [RegexIterator::GET\_MATCH](class.regexiterator.html#regexiterator.constants.get-match)     |
+|          | [RegexIterator::ALL\_MATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
+|          | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split)              |
+|          | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace)          |
 
 ### Значення, що повертаються
 

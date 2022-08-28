@@ -43,10 +43,10 @@ hash_update_file(HashContext $context, string $filename, ?resource $stream_conte
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `stream_context` тепер допускає значення null. |
-|  | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
+| Версия | Описание                                                       |
+|--------|----------------------------------------------------------------|
+|        | `stream_context` тепер допускає значення null.                 |
+|        | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
 
 ### Дивіться також
 

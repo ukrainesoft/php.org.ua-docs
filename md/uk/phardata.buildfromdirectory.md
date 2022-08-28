@@ -45,9 +45,9 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
+| Версия | Описание                                                                   |
+|--------|----------------------------------------------------------------------------|
+|        | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 

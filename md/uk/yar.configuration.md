@@ -17,13 +17,13 @@
 
 **Yar Опції налаштування**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [yar.packager](yar.configuration.html#ini.yar.packager) | php | PHPINISYSTEM |  |
-| [yar.debug](yar.configuration.html#ini.yar.debug) | Off | PHPINIALL |  |
-| [yar.connect\_timeout](yar.configuration.html#ini.yar.connect-timeout) |  | PHPINIALL |  |
-| [yar.timeout](yar.configuration.html#ini.yar.timeout) |  | PHPINIALL |  |
-| [yar.expose\_info](yar.configuration.html#ini.yar.expose-info) | Він | PHPINISYSTEM |  |
+| Имя                                                                    | По умолчанию | Место изменения | Список изменений |
+|------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [yar.packager](yar.configuration.html#ini.yar.packager)                | php          | PHPINISYSTEM    |                  |
+| [yar.debug](yar.configuration.html#ini.yar.debug)                      | Off          | PHPINIALL       |                  |
+| [yar.connect\_timeout](yar.configuration.html#ini.yar.connect-timeout) |              | PHPINIALL       |                  |
+| [yar.timeout](yar.configuration.html#ini.yar.timeout)                  |              | PHPINIALL       |                  |
+| [yar.expose\_info](yar.configuration.html#ini.yar.expose-info)         | Він          | PHPINISYSTEM    |                  |
 
 Коротке пояснення конфігураційних директив.
 

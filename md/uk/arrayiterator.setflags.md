@@ -35,10 +35,10 @@ public ArrayIterator::setFlags(int $flags): void
 
 **Прапори поведінки ArrayIterator**
 
-| значение | константа |
-| --- | --- |
-|  | [ArrayIterator::STD\_PROP\_LIST](class.arrayiterator.html#arrayiterator.constants.std-prop-list) |
-|  | [ArrayIterator::ARRAY\_AS\_PROPS](class.arrayiterator.html#arrayiterator.constants.array-as-props) |
+| значение | константа                                                                                          |
+|----------|----------------------------------------------------------------------------------------------------|
+|          | [ArrayIterator::STD\_PROP\_LIST](class.arrayiterator.html#arrayiterator.constants.std-prop-list)   |
+|          | [ArrayIterator::ARRAY\_AS\_PROPS](class.arrayiterator.html#arrayiterator.constants.array-as-props) |
 
 ### Значення, що повертаються
 

@@ -43,9 +43,9 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
+| Версия | Описание                                                       |
+|--------|----------------------------------------------------------------|
+|        | Приймає [HashContext](class.hashcontext.html), а чи не ресурс. |
 
 ### Приклади
 

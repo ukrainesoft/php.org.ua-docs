@@ -49,9 +49,9 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.html) |
+| Версия             | Описание                                                                                                      |
+|--------------------|---------------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.html)                  |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
 
 ## Зміст

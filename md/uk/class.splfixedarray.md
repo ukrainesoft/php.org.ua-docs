@@ -59,10 +59,10 @@ public __wakeup(): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.html) |
-|  | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Iterator](class.iterator.html) |
+| Версия | Описание                                                                                                                                                             |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.html)                                                                      |
+|        | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше було реалізовано інтерфейс [Iterator](class.iterator.html) |
 
 ## Приклади
 

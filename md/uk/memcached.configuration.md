@@ -17,37 +17,37 @@
 
 **Опції налаштування Memcached**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [memcached.sess\_locking](memcached.configuration.html#ini.memcached.sess-locking) | Він | PHPINIALL | Доступно з memcached 0.1.0. |
-| [memcached.sess\_consistent\_hash](memcached.configuration.html#ini.memcached.sess-consistent-hash) | Він | PHPINIALL | Доступно з memcached 2.1.0. Значення за промовчанням - On, починаючи з memcached 3.0.0. |
-| [memcached.sess\_binary](memcached.configuration.html#ini.memcached.sess-binary) | Off | PHPINIALL | Доступно з memcached 2.0.0. Замінено на memcached.sessbinaryprotocol в memcached 3.0.0. |
-| [memcached.sess\_lock\_wait](memcached.configuration.html#ini.memcached.sess-lock-wait) |  | PHPINIALL | Доступно з memcached 0.1.0. Видалено в memcached 3.0.0. |
-| [memcached.sess\_prefix](memcached.configuration.html#ini.memcached.sess-prefix) | memc.sess.key. | PHPINIALL | Доступно з memcached 0.1.0. |
-| [memcached.sess\_number\_of\_replicas](memcached.configuration.html#ini.memcached.sess-number-of-replicas) |  | PHPINIALL | Доступно з memcached 2.1.0. |
-| [memcached.sess\_randomize\_replica\_read](memcached.configuration.html#ini.memcached.sess-randomize-replica-read) | Off | PHPINIALL | Доступно з memcached 2.1.0. |
-| [memcached.sess\_remove\_failed](memcached.configuration.html#ini.memcached.sess-remove-failed) | Він | PHPINIALL | Доступно з memcached 2.1.0. Замінено на memcached.sessremovefailedservers в memcached 3.0.0. |
-| [memcached.compression\_type](memcached.configuration.html#ini.memcached.compression-type) | fastlz | PHPINIALL | Доступно з memcached 0.1.0. |
-| [memcached.compression\_factor](memcached.configuration.html#ini.memcached.compression-factor) |  | PHPINIALL | Доступно з memcached 0.1.0. |
-| [memcached.compression\_threshold](memcached.configuration.html#ini.memcached.compression-threshold) |  | PHPINIALL | Доступно з memcached 0.1.0. |
-| [memcached.serializer](memcached.configuration.html#ini.memcached.serializer) | igbinary | PHPINIALL | Доступно з memcached 0.1.0. |
-| [memcached.use\_sasl](memcached.configuration.html#ini.memcached.use-sasl) | Off | PHPINISYSTEM | Доступно з memcached 2.2.0. Видалено в memcached 3.0.0. |
-| [memcached.default\_binary\_protocol](memcached.configuration.html#ini.memcached.default-binary-protocol) | Off | PHPINIALL | Доступно з memcached 3.0.0. |
-| [memcached.default\_connect\_timeout](memcached.configuration.html#ini.memcached.default-connect-timeout) |  | PHPINIALL | Доступно з memcached 3.0.0. |
-| [memcached.default\_consistent\_hash](memcached.configuration.html#ini.memcached.default-consistent-hash) | Off | PHPINIALL | Доступно з memcached 3.0.0. |
-| [memcached.sess\_binary\_protocol](memcached.configuration.html#ini.memcached.sess-binary-protocol) | Він | PHPINIALL | Доступно з memcached 3.0.0. Замінено на memcached.sessbinary. |
-| [memcached.sess\_connect\_timeout](memcached.configuration.html#ini.memcached.sess-connect-timeout) |  | PHPINIALL | Доступно з memcached 2.2.0. |
-| [memcached.sess\_consistent\_hash\_type](memcached.configuration.html#ini.memcached.sess-consistent-hash-type) | ketama | PHPINIALL | Доступно з memcached 3.1.0. |
-| [memcached.sess\_lock\_expire](memcached.configuration.html#ini.memcached.sess-lock-expire) |  | PHPINIALL | Доступно з memcached 2.2.0. |
-| [memcached.sess\_lock\_retries](memcached.configuration.html#ini.memcached.sess-lock-retries) |  | PHPINIALL | Доступно з memcached 3.0.0. |
-| [memcached.sess\_lock\_wait\_max](memcached.configuration.html#ini.memcached.sess-lock-wait-max) |  | PHPINIALL | Доступно з memcached 3.0.0. Значення за замовчуванням 150 з memcached 3.1.0 (вперше 2000). |
-| [memcached.sess\_lock\_wait\_min](memcached.configuration.html#ini.memcached.sess-lock-wait-min) |  | PHPINIALL | Доступно з memcached 3.0.0. Значення за замовчуванням 150 з memcached 3.1.0 (вперше 1000). |
-| [memcached.sess\_persistent](memcached.configuration.html#ini.memcached.sess-persistent) | Off | PHPINIALL | Доступно з memcached 3.0.0. |
-| [memcached.sess\_remove\_failed\_servers](memcached.configuration.html#ini.memcached.sess-remove-failed-servers) | Off | PHPINIALL | Доступно з memcached 3.0.0. Замінено на memcached.sessremovefailed. |
-| [memcached.sess\_server\_failure\_limit](memcached.configuration.html#ini.memcached.sess-server-failure-limit) |  | PHPINIALL | Доступно з memcached 3.0.0. |
-| [memcached.sess\_sasl\_password](memcached.configuration.html#ini.memcached.sess-sasl-password) | null | PHPINIALL | Доступно з memcached 2.2.0. |
-| [memcached.sess\_sasl\_username](memcached.configuration.html#ini.memcached.sess-sasl-username) | null | PHPINIALL | Доступно з memcached 2.2.0. |
-| [memcached.store\_retry\_count](memcached.configuration.html#ini.memcached.store-retry-count) |  | PHPINIALL | Доступно з memcached 2.2.0. |
+| Имя                                                                                                                | По умолчанию   | Место изменения | Список изменений                                                                             |
+|--------------------------------------------------------------------------------------------------------------------|----------------|-----------------|----------------------------------------------------------------------------------------------|
+| [memcached.sess\_locking](memcached.configuration.html#ini.memcached.sess-locking)                                 | Він            | PHPINIALL       | Доступно з memcached 0.1.0.                                                                  |
+| [memcached.sess\_consistent\_hash](memcached.configuration.html#ini.memcached.sess-consistent-hash)                | Він            | PHPINIALL       | Доступно з memcached 2.1.0. Значення за промовчанням - On, починаючи з memcached 3.0.0.      |
+| [memcached.sess\_binary](memcached.configuration.html#ini.memcached.sess-binary)                                   | Off            | PHPINIALL       | Доступно з memcached 2.0.0. Замінено на memcached.sessbinaryprotocol в memcached 3.0.0.      |
+| [memcached.sess\_lock\_wait](memcached.configuration.html#ini.memcached.sess-lock-wait)                            |                | PHPINIALL       | Доступно з memcached 0.1.0. Видалено в memcached 3.0.0.                                      |
+| [memcached.sess\_prefix](memcached.configuration.html#ini.memcached.sess-prefix)                                   | memc.sess.key. | PHPINIALL       | Доступно з memcached 0.1.0.                                                                  |
+| [memcached.sess\_number\_of\_replicas](memcached.configuration.html#ini.memcached.sess-number-of-replicas)         |                | PHPINIALL       | Доступно з memcached 2.1.0.                                                                  |
+| [memcached.sess\_randomize\_replica\_read](memcached.configuration.html#ini.memcached.sess-randomize-replica-read) | Off            | PHPINIALL       | Доступно з memcached 2.1.0.                                                                  |
+| [memcached.sess\_remove\_failed](memcached.configuration.html#ini.memcached.sess-remove-failed)                    | Він            | PHPINIALL       | Доступно з memcached 2.1.0. Замінено на memcached.sessremovefailedservers в memcached 3.0.0. |
+| [memcached.compression\_type](memcached.configuration.html#ini.memcached.compression-type)                         | fastlz         | PHPINIALL       | Доступно з memcached 0.1.0.                                                                  |
+| [memcached.compression\_factor](memcached.configuration.html#ini.memcached.compression-factor)                     |                | PHPINIALL       | Доступно з memcached 0.1.0.                                                                  |
+| [memcached.compression\_threshold](memcached.configuration.html#ini.memcached.compression-threshold)               |                | PHPINIALL       | Доступно з memcached 0.1.0.                                                                  |
+| [memcached.serializer](memcached.configuration.html#ini.memcached.serializer)                                      | igbinary       | PHPINIALL       | Доступно з memcached 0.1.0.                                                                  |
+| [memcached.use\_sasl](memcached.configuration.html#ini.memcached.use-sasl)                                         | Off            | PHPINISYSTEM    | Доступно з memcached 2.2.0. Видалено в memcached 3.0.0.                                      |
+| [memcached.default\_binary\_protocol](memcached.configuration.html#ini.memcached.default-binary-protocol)          | Off            | PHPINIALL       | Доступно з memcached 3.0.0.                                                                  |
+| [memcached.default\_connect\_timeout](memcached.configuration.html#ini.memcached.default-connect-timeout)          |                | PHPINIALL       | Доступно з memcached 3.0.0.                                                                  |
+| [memcached.default\_consistent\_hash](memcached.configuration.html#ini.memcached.default-consistent-hash)          | Off            | PHPINIALL       | Доступно з memcached 3.0.0.                                                                  |
+| [memcached.sess\_binary\_protocol](memcached.configuration.html#ini.memcached.sess-binary-protocol)                | Він            | PHPINIALL       | Доступно з memcached 3.0.0. Замінено на memcached.sessbinary.                                |
+| [memcached.sess\_connect\_timeout](memcached.configuration.html#ini.memcached.sess-connect-timeout)                |                | PHPINIALL       | Доступно з memcached 2.2.0.                                                                  |
+| [memcached.sess\_consistent\_hash\_type](memcached.configuration.html#ini.memcached.sess-consistent-hash-type)     | ketama         | PHPINIALL       | Доступно з memcached 3.1.0.                                                                  |
+| [memcached.sess\_lock\_expire](memcached.configuration.html#ini.memcached.sess-lock-expire)                        |                | PHPINIALL       | Доступно з memcached 2.2.0.                                                                  |
+| [memcached.sess\_lock\_retries](memcached.configuration.html#ini.memcached.sess-lock-retries)                      |                | PHPINIALL       | Доступно з memcached 3.0.0.                                                                  |
+| [memcached.sess\_lock\_wait\_max](memcached.configuration.html#ini.memcached.sess-lock-wait-max)                   |                | PHPINIALL       | Доступно з memcached 3.0.0. Значення за замовчуванням 150 з memcached 3.1.0 (вперше 2000).   |
+| [memcached.sess\_lock\_wait\_min](memcached.configuration.html#ini.memcached.sess-lock-wait-min)                   |                | PHPINIALL       | Доступно з memcached 3.0.0. Значення за замовчуванням 150 з memcached 3.1.0 (вперше 1000).   |
+| [memcached.sess\_persistent](memcached.configuration.html#ini.memcached.sess-persistent)                           | Off            | PHPINIALL       | Доступно з memcached 3.0.0.                                                                  |
+| [memcached.sess\_remove\_failed\_servers](memcached.configuration.html#ini.memcached.sess-remove-failed-servers)   | Off            | PHPINIALL       | Доступно з memcached 3.0.0. Замінено на memcached.sessremovefailed.                          |
+| [memcached.sess\_server\_failure\_limit](memcached.configuration.html#ini.memcached.sess-server-failure-limit)     |                | PHPINIALL       | Доступно з memcached 3.0.0.                                                                  |
+| [memcached.sess\_sasl\_password](memcached.configuration.html#ini.memcached.sess-sasl-password)                    | null           | PHPINIALL       | Доступно з memcached 2.2.0.                                                                  |
+| [memcached.sess\_sasl\_username](memcached.configuration.html#ini.memcached.sess-sasl-username)                    | null           | PHPINIALL       | Доступно з memcached 2.2.0.                                                                  |
+| [memcached.store\_retry\_count](memcached.configuration.html#ini.memcached.store-retry-count)                      |                | PHPINIALL       | Доступно з memcached 2.2.0.                                                                  |
 
 Коротке пояснення конфігураційних директив.
 

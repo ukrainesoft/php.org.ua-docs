@@ -17,10 +17,10 @@
 
 **Параметри конфігурації Tidy**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [tidy.default\_config](tidy.configuration.html#ini.tidy.default-config) | "" | PHPINISYSTEM |  |
-| [tidy.clean\_output](tidy.configuration.html#ini.tidy.clean-output) | "0" | PHPINIUSER |  |
+| Имя                                                                     | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [tidy.default\_config](tidy.configuration.html#ini.tidy.default-config) | ""           | PHPINISYSTEM    |                  |
+| [tidy.clean\_output](tidy.configuration.html#ini.tidy.clean-output)     | "0"          | PHPINIUSER      |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

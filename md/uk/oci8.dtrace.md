@@ -38,15 +38,15 @@ extension=oci8.so
 
 **Наступні статичні зонди доступні в PHP OCI8**
 
-| Имя зонда | Описание зонда | Аргументы зонда |
-| --- | --- | --- |
-| `oci8-connect-entry` | Ініціюється ociconnect(), ocipconnect() та ocinewconnect(). Спрацьовує доти, як з'єднання було встановлено. | char username, char dbname, char charset, long sessionmode, int persistent, int exclusive |
-| `oci8-connect-return` | Спрацьовує після встановлення з'єднання. | void connection |
-| `oci8-check-connection` | Спрацьовує, якщо помилка Oracle може призвести до псування з'єднання. | void connection, char clientid, int isopen, long errcode, unsigned long serverstatus |
-| `oci8-sqltext` | Спрацьовує при запуску ociparse(). | void connection, char clientid, void statement, char sql |
-| `oci8-connection-close` | Спрацьовує, коли з'єднання остаточно знищено. | void connection |
-| `oci8-error` | Спрацьовує, якщо виникла помилка Oracle. | int status, long errcode |
-| `oci8-execute-mode` | Спрацьовує за [oci\_execute()](function.oci-execute.html) виявлення режиму запуску. | void connection, char clientid, void statement, unsigned int mode |
+| Имя зонда               | Описание зонда                                                                                              | Аргументы зонда                                                                           |
+|-------------------------|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| `oci8-connect-entry`    | Ініціюється ociconnect(), ocipconnect() та ocinewconnect(). Спрацьовує доти, як з'єднання було встановлено. | char username, char dbname, char charset, long sessionmode, int persistent, int exclusive |
+| `oci8-connect-return`   | Спрацьовує після встановлення з'єднання.                                                                    | void connection                                                                           |
+| `oci8-check-connection` | Спрацьовує, якщо помилка Oracle може призвести до псування з'єднання.                                       | void connection, char clientid, int isopen, long errcode, unsigned long serverstatus      |
+| `oci8-sqltext`          | Спрацьовує при запуску ociparse().                                                                          | void connection, char clientid, void statement, char sql                                  |
+| `oci8-connection-close` | Спрацьовує, коли з'єднання остаточно знищено.                                                               | void connection                                                                           |
+| `oci8-error`            | Спрацьовує, якщо виникла помилка Oracle.                                                                    | int status, long errcode                                                                  |
+| `oci8-execute-mode`     | Спрацьовує за [oci\_execute()](function.oci-execute.html) виявлення режиму запуску.                         | void connection, char clientid, void statement, unsigned int mode                         |
 
 Ці зонди корисні для налагодження скриптів OCI8.
 
@@ -58,16 +58,16 @@ extension=oci8.so
 
 **Внутрішні налагоджувальні зонди DTrace в OCI8**
 
-| Имя зонда |
-| --- |
-| `oci8-connect-expiry` |
-| `oci8-connect-lookup` |
-| `oci8-connect-p-dtor-close` |
+| Имя зонда                     |
+|-------------------------------|
+| `oci8-connect-expiry`         |
+| `oci8-connect-lookup`         |
+| `oci8-connect-p-dtor-close`   |
 | `oci8-connect-p-dtor-release` |
-| `oci8-connect-type` |
-| `oci8-sesspool-create` |
-| `oci8-sesspool-stats` |
-| `oci8-sesspool-type` |
+| `oci8-connect-type`           |
+| `oci8-sesspool-create`        |
+| `oci8-sesspool-stats`         |
+| `oci8-sesspool-type`          |
 
 Ці зонди є корисними для розробників модуля OCI8. Для детальнішої інформації вивчайте вихідні коди OCI8.
 

@@ -78,11 +78,11 @@ proc_open(    array|string $command,    array $descriptor_spec,    a
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додана опція `create_new_console` у параметр `options` |
-|  | **procopen()** тепер також приймає масив (array) у `command` |
-|  | Додана опція `create_process_group` у параметр `options` |
+| Версия | Описание                                                     |
+|--------|--------------------------------------------------------------|
+|        | Додана опція `create_new_console` у параметр `options`       |
+|        | **procopen()** тепер також приймає масив (array) у `command` |
+|        | Додана опція `create_process_group` у параметр `options`     |
 
 ### Приклади
 

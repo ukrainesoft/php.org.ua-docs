@@ -43,8 +43,8 @@ filter.default_flags = 0
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Вилучена **`FILTER_SANITIZE_MAGIC_QUOTES`** |
-|  | Додана **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
-|  | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошено застарілою. |
+| Версия | Описание                                                                               |
+|--------|----------------------------------------------------------------------------------------|
+|        | Вилучена **`FILTER_SANITIZE_MAGIC_QUOTES`**                                            |
+|        | Додана **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
+|        | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошено застарілою.                               |

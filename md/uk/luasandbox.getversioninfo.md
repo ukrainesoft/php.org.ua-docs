@@ -33,7 +33,7 @@ public static LuaSandbox::getVersionInfo(): array
 
 Повертає масив із двома ключами:
 
-| element | type | description |
-| --- | --- | --- |
-| LuaSandbox | string | Версія модуля LuaSandbox. |
-| Lua | string | Ім'я та версія бібліотеки, визначені макросом LUARELEASE, наприклад, "Lua 5.1.5". |
+| element    | type   | description                                                                       |
+|------------|--------|-----------------------------------------------------------------------------------|
+| LuaSandbox | string | Версія модуля LuaSandbox.                                                         |
+| Lua        | string | Ім'я та версія бібліотеки, визначені макросом LUARELEASE, наприклад, "Lua 5.1.5". |

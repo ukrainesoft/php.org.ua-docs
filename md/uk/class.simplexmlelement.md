@@ -56,9 +56,9 @@ public xpath(string $expression): array|null|false
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **SimpleXMLElement** тепер реалізує інтерфейси [Stringable](class.stringable.html) [Countable](class.countable.html), і [RecursiveIterator](class.recursiveiterator.html) |
+| Версия | Описание                                                                                                                                                                       |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Клас **SimpleXMLElement** тепер реалізує інтерфейси [Stringable](class.stringable.html) [Countable](class.countable.html), і [RecursiveIterator](class.recursiveiterator.html) |
 
 ## Зміст
 

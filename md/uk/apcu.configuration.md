@@ -25,21 +25,21 @@
 
 **Опції конфігурації APCu**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [apc.enabled](apcu.configuration.html#ini.apcu.enabled) | "1" | PHPINISYSTEM |  |
-| [apc.shm\_segments](apcu.configuration.html#ini.apcu.shm-segments) | "1" | PHPINISYSTEM |  |
-| [apc.shm\_size](apcu.configuration.html#ini.apcu.shm-size) | "32M" | PHPINISYSTEM |  |
-| [apc.entries\_hint](apcu.configuration.html#ini.apcu.entries-hint) | "4096" | PHPINISYSTEM |  |
-| [apc.ttl](apcu.configuration.html#ini.apcu.ttl) | "0" | PHPINISYSTEM |  |
-| [apc.gc\_ttl](apcu.configuration.html#ini.apcu.gc-ttl) | "3600" | PHPINISYSTEM |  |
-| [apc.mmap\_file\_mask](apcu.configuration.html#ini.apcu.mmap-file-mask) | NULL | PHPINISYSTEM |  |
-| [apc.slam\_defense](apcu.configuration.html#ini.apcu.slam-defense) | "1" | PHPINISYSTEM |  |
-| [apc.enable\_cli](apcu.configuration.html#ini.apcu.enable-cli) | "0" | PHPINISYSTEM |  |
-| [apc.use\_request\_time](apcu.configuration.html#ini.apcu.use-request-time) | "0" | PHPINIALL | До APCu 5.1.19 значення за промовчанням було "1". |
-| [apc.serializer](apcu.configuration.html#ini.apcu.serializer) | "php" | PHPINISYSTEM | До APCu 5.1.19 значення за промовчанням було "default". |
-| [apc.coredump\_unmap](apcu.configuration.html#ini.apcu.coredump-unmap) | "0" | PHPINISYSTEM |  |
-| [apc.preload\_path](apcu.configuration.html#ini.apcu.preload-path) | NULL | PHPINISYSTEM |  |
+| Имя                                                                         | По умолчанию | Место изменения | Список изменений                                        |
+|-----------------------------------------------------------------------------|--------------|-----------------|---------------------------------------------------------|
+| [apc.enabled](apcu.configuration.html#ini.apcu.enabled)                     | "1"          | PHPINISYSTEM    |                                                         |
+| [apc.shm\_segments](apcu.configuration.html#ini.apcu.shm-segments)          | "1"          | PHPINISYSTEM    |                                                         |
+| [apc.shm\_size](apcu.configuration.html#ini.apcu.shm-size)                  | "32M"        | PHPINISYSTEM    |                                                         |
+| [apc.entries\_hint](apcu.configuration.html#ini.apcu.entries-hint)          | "4096"       | PHPINISYSTEM    |                                                         |
+| [apc.ttl](apcu.configuration.html#ini.apcu.ttl)                             | "0"          | PHPINISYSTEM    |                                                         |
+| [apc.gc\_ttl](apcu.configuration.html#ini.apcu.gc-ttl)                      | "3600"       | PHPINISYSTEM    |                                                         |
+| [apc.mmap\_file\_mask](apcu.configuration.html#ini.apcu.mmap-file-mask)     | NULL         | PHPINISYSTEM    |                                                         |
+| [apc.slam\_defense](apcu.configuration.html#ini.apcu.slam-defense)          | "1"          | PHPINISYSTEM    |                                                         |
+| [apc.enable\_cli](apcu.configuration.html#ini.apcu.enable-cli)              | "0"          | PHPINISYSTEM    |                                                         |
+| [apc.use\_request\_time](apcu.configuration.html#ini.apcu.use-request-time) | "0"          | PHPINIALL       | До APCu 5.1.19 значення за промовчанням було "1".       |
+| [apc.serializer](apcu.configuration.html#ini.apcu.serializer)               | "php"        | PHPINISYSTEM    | До APCu 5.1.19 значення за промовчанням було "default". |
+| [apc.coredump\_unmap](apcu.configuration.html#ini.apcu.coredump-unmap)      | "0"          | PHPINISYSTEM    |                                                         |
+| [apc.preload\_path](apcu.configuration.html#ini.apcu.preload-path)          | NULL         | PHPINISYSTEM    |                                                         |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

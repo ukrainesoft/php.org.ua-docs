@@ -30,11 +30,11 @@ stats_cdf_noncentral_chisquare(    float $par1,    float $par2,    f
 **Значення, що повертається і параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
-| --- | --- | --- | --- | --- |
-|  | CDF | з | до | lambda |
-|  | з | CDF | до | lambda |
-|  | до | з | CDF | lambda |
-|  | lambda | з | CDF | до |
+|---------|-----------------------|--------|--------|--------|
+|         | CDF                   | з      | до     | lambda |
+|         | з                     | CDF    | до     | lambda |
+|         | до                    | з      | CDF    | lambda |
+|         | lambda                | з      | CDF    | до     |
 
 ### Список параметрів
 

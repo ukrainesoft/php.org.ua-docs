@@ -51,9 +51,9 @@ locale_get_display_variant(string $locale, ?string $displayLocale = null): strin
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `displayLocale` тепер допускає значення null. |
+| Версия | Описание                                      |
+|--------|-----------------------------------------------|
+|        | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 

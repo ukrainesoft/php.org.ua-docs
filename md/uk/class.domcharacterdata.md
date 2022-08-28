@@ -176,10 +176,10 @@ previousElementSibling
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Додані властивості nextElementSibling і previousElementSibling. |
-|  | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.html) |
+| Версия | Описание                                                                                   |
+|--------|--------------------------------------------------------------------------------------------|
+|        | Додані властивості nextElementSibling і previousElementSibling.                            |
+|        | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.html) |
 
 ## Дивіться також
 

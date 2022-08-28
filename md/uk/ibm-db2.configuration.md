@@ -17,14 +17,14 @@
 
 **ibmdb2 Опції налаштування**
 
-| Имя | По умолчанию | Место изменения | Лог изменений |
-| --- | --- | --- | --- |
-| [ibm\_db2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode) | "1" | PHPINIALL |  |
-| [ibm\_db2.i5\_all\_pconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.6.5. |
-| [ibm\_db2.i5\_allow\_commit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.4.9. |
-| [ibm\_db2.i5\_dbcs\_alloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.5.0. |
-| [ibm\_db2.instance\_name](ibm-db2.configuration.html#ini.ibm-db2.instance-name) | NULL | PHPINISYSTEM | Доступно з ibmdb2 1.0.2. |
-| [ibm\_db2.i5\_ignore\_userid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0" | PHPINISYSTEM | Доступно з ibmdb2 1.8.0. |
+| Имя                                                                                    | По умолчанию | Место изменения | Лог изменений            |
+|----------------------------------------------------------------------------------------|--------------|-----------------|--------------------------|
+| [ibm\_db2.binmode](ibm-db2.configuration.html#ini.ibm-db2.binmode)                     | "1"          | PHPINIALL       |                          |
+| [ibm\_db2.i5\_all\_pconnect](ibm-db2.configuration.html#ini.ibm-db2.i5-all-pconnect)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.6.5. |
+| [ibm\_db2.i5\_allow\_commit](ibm-db2.configuration.html#ini.ibm-db2.i5-allow-commit)   | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.4.9. |
+| [ibm\_db2.i5\_dbcs\_alloc](ibm-db2.configuration.html#ini.ibm-db2.i5-dbcs-alloc)       | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.5.0. |
+| [ibm\_db2.instance\_name](ibm-db2.configuration.html#ini.ibm-db2.instance-name)        | NULL         | PHPINISYSTEM    | Доступно з ibmdb2 1.0.2. |
+| [ibm\_db2.i5\_ignore\_userid](ibm-db2.configuration.html#ini.ibm-db2.i5-ignore-userid) | "0"          | PHPINISYSTEM    | Доступно з ibmdb2 1.8.0. |
 
 Коротке пояснення конфігураційних директив.
 

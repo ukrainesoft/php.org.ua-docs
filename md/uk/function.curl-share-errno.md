@@ -37,10 +37,10 @@ curl_share_errno(CurlShareHandle $share_handle): int
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
+| Версия | Описание                                                                                                                  |
+|--------|---------------------------------------------------------------------------------------------------------------------------|
+|        | Функція більше не повертає **`false`** у разі виникнення помилки.                                                         |
+|        | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Дивіться також
 

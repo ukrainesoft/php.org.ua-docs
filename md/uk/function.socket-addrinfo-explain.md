@@ -37,9 +37,9 @@ socket_addrinfo_explain(AddressInfo $address): array
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.html); раніше був ресурсом (resource). |
+| Версия | Описание                                                                                               |
+|--------|--------------------------------------------------------------------------------------------------------|
+|        | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.html); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

@@ -72,9 +72,9 @@ public __toString(): string
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.html) |
+| Версия | Описание                                                                |
+|--------|-------------------------------------------------------------------------|
+|        | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.html) |
 
 ## Зміст
 

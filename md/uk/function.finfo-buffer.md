@@ -57,10 +57,10 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | `context` тепер допускає значення null. |
+| Версия | Описание                                                                                                                             |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | `context` тепер допускає значення null.                                                                                              |
 
 ### Приклади
 

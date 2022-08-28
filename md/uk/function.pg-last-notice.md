@@ -47,10 +47,10 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | Доданий параметр `mode` |
+| Версия | Описание                                                                                                                                                         |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|        | Доданий параметр `mode`                                                                                                                                          |
 
 ### Приклади
 

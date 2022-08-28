@@ -35,10 +35,10 @@ public ArrayObject::setFlags(int $flags): void
 
 **Прапори поведінки ArrayObject**
 
-| Значение | Константа |
-| --- | --- |
-|  | [ArrayObject::STD\_PROP\_LIST](class.arrayobject.html#arrayobject.constants.std-prop-list) |
-|  | [ArrayObject::ARRAY\_AS\_PROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
+| Значение | Константа                                                                                    |
+|----------|----------------------------------------------------------------------------------------------|
+|          | [ArrayObject::STD\_PROP\_LIST](class.arrayobject.html#arrayobject.constants.std-prop-list)   |
+|          | [ArrayObject::ARRAY\_AS\_PROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
 
 ### Значення, що повертаються
 

@@ -49,10 +49,10 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
-|  | `foreground_color` тепер допускає значення null. |
+| Версия | Описание                                                                                          |
+|--------|---------------------------------------------------------------------------------------------------|
+|        | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|        | `foreground_color` тепер допускає значення null.                                                  |
 
 ### Приклади
 

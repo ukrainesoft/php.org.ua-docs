@@ -45,9 +45,9 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                  |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Примітки
 

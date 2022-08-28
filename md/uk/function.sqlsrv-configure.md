@@ -37,11 +37,11 @@ sqlsrv_configure(string $setting, mixed $value): bool
 
 **Параметри налаштування помилок та ведення журналу**
 
-| Настройка | Опции |
-| --- | --- |
-| WarningsReturnAsErrors | **`true`**) або 0 (**`false`** |
-| LogSubsystems | SQLSRVLOGSYSTEMALL (-1) SQLSRVLOGSYSTEMCONN (2) SQLSRVLOGSYSTEMINIT (1) SQLSRVLOGSYSTEMOFF (0) SQLSRVLOGSYSTEMSTMT (4) SQLSRVLOGSYSTEMUTIL (8) |
-| LogSeverity | SQLSRVLOGSEVERITYALL (-1) SQLSRVLOGSEVERITYERROR (1) SQLSRVLOGSEVERITYNOTICE (4) SQLSRVLOGSEVERITYWARNING (2) |
+| Настройка              | Опции                                                                                                                                          |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| WarningsReturnAsErrors | **`true`**) або 0 (**`false`**                                                                                                                 |
+| LogSubsystems          | SQLSRVLOGSYSTEMALL (-1) SQLSRVLOGSYSTEMCONN (2) SQLSRVLOGSYSTEMINIT (1) SQLSRVLOGSYSTEMOFF (0) SQLSRVLOGSYSTEMSTMT (4) SQLSRVLOGSYSTEMUTIL (8) |
+| LogSeverity            | SQLSRVLOGSEVERITYALL (-1) SQLSRVLOGSEVERITYERROR (1) SQLSRVLOGSEVERITYNOTICE (4) SQLSRVLOGSEVERITYWARNING (2)                                  |
 
 ### Значення, що повертаються
 

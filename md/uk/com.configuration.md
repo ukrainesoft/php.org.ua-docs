@@ -17,15 +17,15 @@
 
 **Опції конфігурації Com**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [com.allow\_dcom](com.configuration.html#ini.com.allow-dcom) | "0" | PHPINISYSTEM |  |
-| [com.autoregister\_typelib](com.configuration.html#ini.com.autoregister-typelib) | "0" | PHPINIALL |  |
-| [com.autoregister\_verbose](com.configuration.html#ini.com.autoregister-verbose) | "0" | PHPINIALL |  |
-| [com.autoregister\_casesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1" | PHPINIALL |  |
-| [com.code\_page](com.configuration.html#ini.com.code-page) | "" | PHPINIALL |  |
-| [com.dotnet\_version](com.configuration.html#ini.com.dotnet-version) | "" | PHPINISYSTEM | Починаючи з PHP 8.0.0 |
-| [com.typelib\_file](com.configuration.html#ini.com.typelib-file) | "" | PHPINISYSTEM |  |
+| Имя                                                                                          | По умолчанию | Место изменения | Список изменений      |
+|----------------------------------------------------------------------------------------------|--------------|-----------------|-----------------------|
+| [com.allow\_dcom](com.configuration.html#ini.com.allow-dcom)                                 | "0"          | PHPINISYSTEM    |                       |
+| [com.autoregister\_typelib](com.configuration.html#ini.com.autoregister-typelib)             | "0"          | PHPINIALL       |                       |
+| [com.autoregister\_verbose](com.configuration.html#ini.com.autoregister-verbose)             | "0"          | PHPINIALL       |                       |
+| [com.autoregister\_casesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1"          | PHPINIALL       |                       |
+| [com.code\_page](com.configuration.html#ini.com.code-page)                                   | ""           | PHPINIALL       |                       |
+| [com.dotnet\_version](com.configuration.html#ini.com.dotnet-version)                         | ""           | PHPINISYSTEM    | Починаючи з PHP 8.0.0 |
+| [com.typelib\_file](com.configuration.html#ini.com.typelib-file)                             | ""           | PHPINISYSTEM    |                       |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

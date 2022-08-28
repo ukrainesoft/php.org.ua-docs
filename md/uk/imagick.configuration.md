@@ -17,11 +17,11 @@
 
 **Конфігураційні опції Imagick**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [imagick.locale\_fix](imagick.configuration.html#ini.imagick.locale-fix) | **`false`** | PHPINIALL | Доступно з Imagick 2.1.0 |
-| [imagick.progress\_monitor](imagick.configuration.html#ini.imagick.progress-monitor) | **`false`** | PHPINISYSTEM | Доступно з Imagick 2.2.2 |
-| [imagick.skip\_version\_check](imagick.configuration.html#ini.imagick.skip-version-check) | **`false`** | PHPINISYSTEM | Доступно з Imagick 3.3.0 |
+| Имя                                                                                       | По умолчанию | Место изменения | Список изменений         |
+|-------------------------------------------------------------------------------------------|--------------|-----------------|--------------------------|
+| [imagick.locale\_fix](imagick.configuration.html#ini.imagick.locale-fix)                  | **`false`**  | PHPINIALL       | Доступно з Imagick 2.1.0 |
+| [imagick.progress\_monitor](imagick.configuration.html#ini.imagick.progress-monitor)      | **`false`**  | PHPINISYSTEM    | Доступно з Imagick 2.2.2 |
+| [imagick.skip\_version\_check](imagick.configuration.html#ini.imagick.skip-version-check) | **`false`**  | PHPINISYSTEM    | Доступно з Imagick 3.3.0 |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

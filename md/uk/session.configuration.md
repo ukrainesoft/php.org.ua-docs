@@ -17,44 +17,44 @@
 
 **Опції налаштування механізму сесій**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [session.save\_path](session.configuration.html#ini.session.save-path) | "" | PHPINIALL |  |
-| [session.name](session.configuration.html#ini.session.name) | "PHPSESSID" | PHPINIALL |  |
-| [session.save\_handler](session.configuration.html#ini.session.save-handler) | "files" | PHPINIALL |  |
-| [session.auto\_start](session.configuration.html#ini.session.auto-start) | "0" | PHPINIPERDIR |  |
-| [session.gc\_probability](session.configuration.html#ini.session.gc-probability) | "1" | PHPINIALL |  |
-| [session.gc\_divisor](session.configuration.html#ini.session.gc-divisor) | "100" | PHPINIALL |  |
-| [session.gc\_maxlifetime](session.configuration.html#ini.session.gc-maxlifetime) | "1440" | PHPINIALL |  |
-| [session.serialize\_handler](session.configuration.html#ini.session.serialize-handler) | "php" | PHPINIALL |  |
-| [session.cookie\_lifetime](session.configuration.html#ini.session.cookie-lifetime) | "0" | PHPINIALL |  |
-| [session.cookie\_path](session.configuration.html#ini.session.cookie-path) | "/" | PHPINIALL |  |
-| [session.cookie\_domain](session.configuration.html#ini.session.cookie-domain) | "" | PHPINIALL |  |
-| [session.cookie\_secure](session.configuration.html#ini.session.cookie-secure) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
-| [session.cookie\_httponly](session.configuration.html#ini.session.cookie-httponly) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
-| [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite) | "" | PHPINIALL | Доступна з PHP 7.3.0. |
-| [session.use\_strict\_mode](session.configuration.html#ini.session.use-strict-mode) | "0" | PHPINIALL |  |
-| [session.use\_cookies](session.configuration.html#ini.session.use-cookies) | "1" | PHPINIALL |  |
-| [session.use\_only\_cookies](session.configuration.html#ini.session.use-only-cookies) | "1" | PHPINIALL |  |
-| [session.referer\_check](session.configuration.html#ini.session.referer-check) | "" | PHPINIALL |  |
-| [session.cache\_limiter](session.configuration.html#ini.session.cache-limiter) | "nocache" | PHPINIALL |  |
-| [session.cache\_expire](session.configuration.html#ini.session.cache-expire) | "180" | PHPINIALL |  |
-| [session.use\_trans\_sid](session.configuration.html#ini.session.use-trans-sid) | "0" | PHPINIALL |  |
-| [session.trans\_sid\_tags](session.configuration.html#ini.session.trans-sid-tags) | "a=href,area=href,frame=src,form=" | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.trans\_sid\_hosts](session.configuration.html#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.sid\_length](session.configuration.html#ini.session.sid-length) | "32" | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.sid\_bits\_per\_character](session.configuration.html#ini.session.sid-bits-per-character) | "4" | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.upload\_progress.enabled](session.configuration.html#ini.session.upload-progress.enabled) | "1" | PHPINIPERDIR |  |
-| [session.upload\_progress.cleanup](session.configuration.html#ini.session.upload-progress.cleanup) | "1" | PHPINIPERDIR |  |
-| [session.upload\_progress.prefix](session.configuration.html#ini.session.upload-progress.prefix) | "uploadprogress" | PHPINIPERDIR |  |
-| [session.upload\_progress.name](session.configuration.html#ini.session.upload-progress.name) | "PHPSESSIONUPLOADPROGRESS" | PHPINIPERDIR |  |
-| [session.upload\_progress.freq](session.configuration.html#ini.session.upload-progress.freq) | "1%" | PHPINIPERDIR |  |
-| [session.upload\_progress.min\_freq](session.configuration.html#ini.session.upload-progress.min-freq) | "1" | PHPINIPERDIR |  |
-| [session.lazy\_write](session.configuration.html#ini.session.lazy-write) | "1" | PHPINIALL |  |
-| [session.hash\_function](session.configuration.html#ini.session.hash-function) | "0" | PHPINIALL | Видалено в PHP 7.1.0. |
-| [session.hash\_bits\_per\_character](session.configuration.html#ini.session.hash-bits-per-character) | "4" | PHPINIALL | Видалено в PHP 7.1.0. |
-| [session.entropy\_file](session.configuration.html#ini.session.entropy-file) | "" | PHPINIALL | Видалено в PHP 7.1.0. |
-| [session.entropy\_length](session.configuration.html#ini.session.entropy-length) | "0" | PHPINIALL | Видалено в PHP 7.1.0 |
+| Имя                                                                                                   | По умолчанию                       | Место изменения | Список изменений                                |
+|-------------------------------------------------------------------------------------------------------|------------------------------------|-----------------|-------------------------------------------------|
+| [session.save\_path](session.configuration.html#ini.session.save-path)                                | ""                                 | PHPINIALL       |                                                 |
+| [session.name](session.configuration.html#ini.session.name)                                           | "PHPSESSID"                        | PHPINIALL       |                                                 |
+| [session.save\_handler](session.configuration.html#ini.session.save-handler)                          | "files"                            | PHPINIALL       |                                                 |
+| [session.auto\_start](session.configuration.html#ini.session.auto-start)                              | "0"                                | PHPINIPERDIR    |                                                 |
+| [session.gc\_probability](session.configuration.html#ini.session.gc-probability)                      | "1"                                | PHPINIALL       |                                                 |
+| [session.gc\_divisor](session.configuration.html#ini.session.gc-divisor)                              | "100"                              | PHPINIALL       |                                                 |
+| [session.gc\_maxlifetime](session.configuration.html#ini.session.gc-maxlifetime)                      | "1440"                             | PHPINIALL       |                                                 |
+| [session.serialize\_handler](session.configuration.html#ini.session.serialize-handler)                | "php"                              | PHPINIALL       |                                                 |
+| [session.cookie\_lifetime](session.configuration.html#ini.session.cookie-lifetime)                    | "0"                                | PHPINIALL       |                                                 |
+| [session.cookie\_path](session.configuration.html#ini.session.cookie-path)                            | "/"                                | PHPINIALL       |                                                 |
+| [session.cookie\_domain](session.configuration.html#ini.session.cookie-domain)                        | ""                                 | PHPINIALL       |                                                 |
+| [session.cookie\_secure](session.configuration.html#ini.session.cookie-secure)                        | "0"                                | PHPINIALL       | До PHP 7.2.0 значення за промовчанням було `""` |
+| [session.cookie\_httponly](session.configuration.html#ini.session.cookie-httponly)                    | "0"                                | PHPINIALL       | До PHP 7.2.0 значення за промовчанням було `""` |
+| [session.cookie\_samesite](session.configuration.html#ini.session.cookie-samesite)                    | ""                                 | PHPINIALL       | Доступна з PHP 7.3.0.                           |
+| [session.use\_strict\_mode](session.configuration.html#ini.session.use-strict-mode)                   | "0"                                | PHPINIALL       |                                                 |
+| [session.use\_cookies](session.configuration.html#ini.session.use-cookies)                            | "1"                                | PHPINIALL       |                                                 |
+| [session.use\_only\_cookies](session.configuration.html#ini.session.use-only-cookies)                 | "1"                                | PHPINIALL       |                                                 |
+| [session.referer\_check](session.configuration.html#ini.session.referer-check)                        | ""                                 | PHPINIALL       |                                                 |
+| [session.cache\_limiter](session.configuration.html#ini.session.cache-limiter)                        | "nocache"                          | PHPINIALL       |                                                 |
+| [session.cache\_expire](session.configuration.html#ini.session.cache-expire)                          | "180"                              | PHPINIALL       |                                                 |
+| [session.use\_trans\_sid](session.configuration.html#ini.session.use-trans-sid)                       | "0"                                | PHPINIALL       |                                                 |
+| [session.trans\_sid\_tags](session.configuration.html#ini.session.trans-sid-tags)                     | "a=href,area=href,frame=src,form=" | PHPINIALL       | Доступна з PHP 7.1.0.                           |
+| [session.trans\_sid\_hosts](session.configuration.html#ini.session.trans-sid-hosts)                   | `$_SERVER['HTTP_HOST']`            | PHPINIALL       | Доступна з PHP 7.1.0.                           |
+| [session.sid\_length](session.configuration.html#ini.session.sid-length)                              | "32"                               | PHPINIALL       | Доступна з PHP 7.1.0.                           |
+| [session.sid\_bits\_per\_character](session.configuration.html#ini.session.sid-bits-per-character)    | "4"                                | PHPINIALL       | Доступна з PHP 7.1.0.                           |
+| [session.upload\_progress.enabled](session.configuration.html#ini.session.upload-progress.enabled)    | "1"                                | PHPINIPERDIR    |                                                 |
+| [session.upload\_progress.cleanup](session.configuration.html#ini.session.upload-progress.cleanup)    | "1"                                | PHPINIPERDIR    |                                                 |
+| [session.upload\_progress.prefix](session.configuration.html#ini.session.upload-progress.prefix)      | "uploadprogress"                   | PHPINIPERDIR    |                                                 |
+| [session.upload\_progress.name](session.configuration.html#ini.session.upload-progress.name)          | "PHPSESSIONUPLOADPROGRESS"         | PHPINIPERDIR    |                                                 |
+| [session.upload\_progress.freq](session.configuration.html#ini.session.upload-progress.freq)          | "1%"                               | PHPINIPERDIR    |                                                 |
+| [session.upload\_progress.min\_freq](session.configuration.html#ini.session.upload-progress.min-freq) | "1"                                | PHPINIPERDIR    |                                                 |
+| [session.lazy\_write](session.configuration.html#ini.session.lazy-write)                              | "1"                                | PHPINIALL       |                                                 |
+| [session.hash\_function](session.configuration.html#ini.session.hash-function)                        | "0"                                | PHPINIALL       | Видалено в PHP 7.1.0.                           |
+| [session.hash\_bits\_per\_character](session.configuration.html#ini.session.hash-bits-per-character)  | "4"                                | PHPINIALL       | Видалено в PHP 7.1.0.                           |
+| [session.entropy\_file](session.configuration.html#ini.session.entropy-file)                          | ""                                 | PHPINIALL       | Видалено в PHP 7.1.0.                           |
+| [session.entropy\_length](session.configuration.html#ini.session.entropy-length)                      | "0"                                | PHPINIALL       | Видалено в PHP 7.1.0                            |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

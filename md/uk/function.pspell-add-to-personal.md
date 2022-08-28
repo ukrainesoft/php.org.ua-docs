@@ -41,9 +41,9 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                           |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

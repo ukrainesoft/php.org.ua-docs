@@ -49,9 +49,9 @@ zip_entry_read(resource $zip_entry, int $len = 1024): string|false
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Функція застаріла на користь Object API, дивіться [ZipArchive::getFromIndex()](ziparchive.getfromindex.html) |
+| Версия | Описание                                                                                                     |
+|--------|--------------------------------------------------------------------------------------------------------------|
+|        | Функція застаріла на користь Object API, дивіться [ZipArchive::getFromIndex()](ziparchive.getfromindex.html) |
 
 ### Дивіться також
 

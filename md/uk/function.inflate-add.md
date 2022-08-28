@@ -51,9 +51,9 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание                                                                                                        |
+|--------|-----------------------------------------------------------------------------------------------------------------|
+|        | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 

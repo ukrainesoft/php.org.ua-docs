@@ -30,10 +30,10 @@ stats_cdf_poisson(float $par1, float $par2, int $which): float
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` |
-| --- | --- | --- | --- |
-|  | CDF | з | lambda |
-|  | з | CDF | lambda |
-|  | lambda | з | CDF |
+|---------|-----------------------|--------|--------|
+|         | CDF                   | з      | lambda |
+|         | з                     | CDF    | lambda |
+|         | lambda                | з      | CDF    |
 
 ### Список параметрів
 

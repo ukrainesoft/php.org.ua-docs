@@ -79,13 +79,13 @@ db2_get_option(resource $resource, string $option): string|false
 
 **Матриця параметрів ресурсів**
 
-| Ключ | Значение | Тип ресурса |
-| --- | --- | --- |
-|  |  | Connection |
-| userid | `SQL_ATTR_INFO_USERID` | З |
-| acctstr | `SQL_ATTR_INFO_ACCTSTR` | З |
-| applname | `SQL_ATTR_INFO_APPLNAME` | З |
-| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З |
+| Ключ       | Значение                   | Тип ресурса |
+|------------|----------------------------|-------------|
+|            |                            | Connection  |
+| userid     | `SQL_ATTR_INFO_USERID`     | З           |
+| acctstr    | `SQL_ATTR_INFO_ACCTSTR`    | З           |
+| applname   | `SQL_ATTR_INFO_APPLNAME`   | З           |
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З           |
 
 ### Значення, що повертаються
 

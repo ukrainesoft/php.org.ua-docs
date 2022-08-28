@@ -73,10 +73,10 @@ handler(string $buffer, int $phase = ?): string
 
 Кожен прапор керує доступом до набору функцій, як описано нижче:
 
-| Константа | Функции |
-| --- | --- |
-| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [ob\_clean()](function.ob-clean.html) [ob\_end\_clean()](function.ob-end-clean.html) і [ob\_get\_clean()](function.ob-get-clean.html) |
-| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [ob\_end\_flush()](function.ob-end-flush.html) [ob\_flush()](function.ob-flush.html) і [ob\_get\_flush()](function.ob-get-flush.html) |
+| Константа                          | Функции                                                                                                                                        |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [ob\_clean()](function.ob-clean.html) [ob\_end\_clean()](function.ob-end-clean.html) і [ob\_get\_clean()](function.ob-get-clean.html)          |
+| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [ob\_end\_flush()](function.ob-end-flush.html) [ob\_flush()](function.ob-flush.html) і [ob\_get\_flush()](function.ob-get-flush.html)          |
 | **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [ob\_end\_clean()](function.ob-end-clean.html) [ob\_end\_flush()](function.ob-end-flush.html) і [ob\_get\_flush()](function.ob-get-flush.html) |
 
 ### Значення, що повертаються

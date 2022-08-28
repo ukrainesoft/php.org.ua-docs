@@ -37,6 +37,6 @@ public RecursiveIteratorIterator::getSubIterator(?int $level = null): ?Recursive
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `level` тепер допускає значення null. |
+| Версия | Описание                              |
+|--------|---------------------------------------|
+|        | `level` тепер допускає значення null. |

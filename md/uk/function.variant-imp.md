@@ -46,16 +46,16 @@ variant_imp(mixed $left, mixed $right): variant
 **Таблиця імплікації варіантів**
 
 | Если `left` | Если `right` | Тогда результат |
-| --- | --- | --- |
-| **`true`** | **`true`** | **`true`** |
-| **`true`** | **`false`** | **`false`** |
-| **`true`** | **`null`** | **`true`** |
-| **`false`** | **`true`** | **`true`** |
-| **`false`** | **`false`** | **`true`** |
-| **`false`** | **`null`** | **`true`** |
-| **`null`** | **`true`** | **`true`** |
-| **`null`** | **`false`** | **`null`** |
-| **`null`** | **`null`** | **`null`** |
+|-------------|--------------|-----------------|
+| **`true`**  | **`true`**   | **`true`**      |
+| **`true`**  | **`false`**  | **`false`**     |
+| **`true`**  | **`null`**   | **`true`**      |
+| **`false`** | **`true`**   | **`true`**      |
+| **`false`** | **`false`**  | **`true`**      |
+| **`false`** | **`null`**   | **`true`**      |
+| **`null`**  | **`true`**   | **`true`**      |
+| **`null`**  | **`false`**  | **`null`**      |
+| **`null`**  | **`null`**   | **`null`**      |
 
 ### Помилки
 

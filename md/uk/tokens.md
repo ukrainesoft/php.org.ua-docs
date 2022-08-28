@@ -31,154 +31,154 @@
 
 **Мітки**
 
-| Метка | Синтаксис | Ссылка |
-| --- | --- | --- |
-| **`T_ABSTRACT`** | abstract | [Абстрактные классы](language.oop5.abstract.html) |
-| **`T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG`** | & | [Объявление типов](language.types.declarations.html) (доступно, починаючи з PHP 8.1.0) |
-| **`T_AMPERSAND_NOT_FOLLOWED_BY_VAR_OR_VARARG`** | & | [Объявление типов](language.types.declarations.html) (доступно, починаючи з PHP 8.1.0) |
-| **`T_AND_EQUAL`** | &= | [операторы присваивания](language.operators.assignment.html) |
-| **`T_ARRAY`** | array() | [array()](function.array.html) [синтаксис массива](language.types.array.html#language.types.array.syntax) |
-| **`T_ARRAY_CAST`** | (array) | [приведение типа](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_AS`** | ас | [foreach](control-structures.foreach.html) |
-| **`T_ATTRIBUTE`** |  | [attributes](language.attributes.html) (доступно з PHP 8.0.0) |
-| **`T_BAD_CHARACTER`** |  | все, що нижче ASCII 32 виключаючи t (0x09), n (0x0a) та r (0x0d) (доступно з PHP 7.4.0) |
-| **`T_BOOLEAN_AND`** | && | [логические операторы](language.operators.logical.html) |
-| **`T_BOOLEAN_OR`** |  |  |
-| **`T_BOOL_CAST`** | (bool) або (boolean) | [приведение типа](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_BREAK`** | break | [break](control-structures.break.html) |
-| **`T_CALLABLE`** | callable | [callable](language.types.callable.html) |
-| **`T_CASE`** | case | [switch](control-structures.switch.html) |
-| **`T_CATCH`** | catch | [Исключения](language.exceptions.html) |
-| **`T_CLASS`** | class | [классы и объекты](language.oop5.html) |
-| **`T_CLASS_C`** | CLASS | [магические константы](language.constants.predefined.html) |
-| **`T_CLONE`** | clone | [классы и объекты](language.oop5.html) |
-| **`T_CLOSE_TAG`** | ?> або %> | [PHP-код внутри HTML](language.basic-syntax.phpmode.html) |
-| **`T_COALESCE`** |  | [операторы сравнения](language.operators.comparison.html#language.operators.comparison.coalesce) |
-| **`T_COALESCE_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) (доступно з PHP 7.4.0) |
-| **`T_COMMENT`** | // або #, та / | [комментарии](language.basic-syntax.comments.html) |
-| **`T_CONCAT_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_CONST`** | const | [константы класса](language.constants.html) |
-| **`T_CONSTANT_ENCAPSED_STRING`** | "foo" або 'bar' | [строковой синтаксис](language.types.string.html#language.types.string.syntax) |
-| **`T_CONTINUE`** | continue | [continue](control-structures.continue.html) |
-| **`T_CURLY_OPEN`** |  | [переменные внутри строки](language.types.string.html#language.types.string.parsing.complex) |
-| **`T_DEC`** |  | [операторы инкремента\\декремента](language.operators.increment.html) |
-| **`T_DECLARE`** | declare | [declare](control-structures.declare.html) |
-| **`T_DEFAULT`** | default | [switch](control-structures.switch.html) |
-| **`T_DIR`** | DIR | [магические константы](language.constants.predefined.html) |
-| **`T_DIV_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_DNUMBER`** | 0.12 і т.д. | [числа с плавающей точкой](language.types.float.html) |
-| **`T_DO`** | до | [do..while](control-structures.do.while.html) |
-| **`T_DOC_COMMENT`** |  | [PHPDoc-комментарии](language.basic-syntax.comments.html) |
-| **`T_DOLLAR_OPEN_CURLY_BRACES`** |  | [переменная внутри строки](language.types.string.html#language.types.string.parsing.complex) |
-| **`T_DOUBLE_ARROW`** | \> | [синтаксис массивов](language.types.array.html#language.types.array.syntax) |
-| **`T_DOUBLE_CAST`** | (real), (double) або (float) | [приведение типов](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_DOUBLE_COLON`** |  | Дивіться нижче **`T_PAAMAYIM_NEKUDOTAYIM`** |
-| **`T_ECHO`** | echo | [echo](function.echo.html) |
-| **`T_ELLIPSIS`** |  | [аргументы функции](functions.arguments.html#functions.variable-arg-list) |
-| **`T_ELSE`** | else | [else](control-structures.else.html) |
-| **`T_ELSEIF`** | elseif | [elseif](control-structures.elseif.html) |
-| **`T_EMPTY`** | empty | [empty()](function.empty.html) |
-| **`T_ENCAPSED_AND_WHITESPACE`** | "$a" | [константная часть строки с переменными](language.types.string.html#language.types.string.parsing) |
-| **`T_ENDDECLARE`** | enddeclare | [declare](control-structures.declare.html) [альтернативный синтаксис](control-structures.alternative-syntax.html) |
-| **`T_ENDFOR`** | endfor | [for](control-structures.for.html) [альтернативный синтаксис](control-structures.alternative-syntax.html) |
-| **`T_ENDFOREACH`** | endforeach | [foreach](control-structures.foreach.html) [альтернативный синтаксис](control-structures.alternative-syntax.html) |
-| **`T_ENDIF`** | endif | [if](control-structures.if.html) [альтернативный синтаксис](control-structures.alternative-syntax.html) |
-| **`T_ENDSWITCH`** | endswitch | [switch](control-structures.switch.html) [альтернативный синтаксис](control-structures.alternative-syntax.html) |
-| **`T_ENDWHILE`** | endwhile | [while](control-structures.while.html) [альтернативный синтаксис](control-structures.alternative-syntax.html) |
-| **`T_ENUM`** | enum | [Перечисления](language.types.enumerations.html) (доступно, починаючи з PHP 8.1.0) |
-| **`T_END_HEREDOC`** |  | [синтаксис heredoc](language.types.string.html#language.types.string.syntax.heredoc) |
-| **`T_EVAL`** | eval() | [eval()](function.eval.html) |
-| **`T_EXIT`** | exit або die | [exit()](function.exit.html) [die()](function.die.html) |
-| **`T_EXTENDS`** | extends | [extends](language.oop5.basic.html#language.oop5.basic.extends) [классы и объекты](language.oop5.html) |
-| **`T_FILE`** | FILE | [магические константы](language.constants.predefined.html) |
-| **`T_FINAL`** | final | [Ключевое слово final](language.oop5.final.html) |
-| **`T_FINALLY`** | finally | [Исключения](language.exceptions.html) |
-| **`T_FN`** | фн | [стрелочные функции](functions.arrow.html) (доступно з PHP 7.4.0) |
-| **`T_FOR`** | for | [for](control-structures.for.html) |
-| **`T_FOREACH`** | foreach | [foreach](control-structures.foreach.html) |
-| **`T_FUNCTION`** | function | [функции](language.functions.html) |
-| **`T_FUNC_C`** | FUNCTION | [магические константы](language.constants.predefined.html) |
-| **`T_GLOBAL`** | global | [область видимости переменной](language.variables.scope.html) |
-| **`T_GOTO`** | goto | [goto](control-structures.goto.html) |
-| **`T_HALT_COMPILER`** | haltcompiler() | [\_\_halt\_compiler](function.halt-compiler.html) |
-| **`T_IF`** | іф | [if](control-structures.if.html) |
-| **`T_IMPLEMENTS`** | implements | [Интерфейсы объектов](language.oop5.interfaces.html) |
-| **`T_INC`** |  | [операторы инкремента\\декремента](language.operators.increment.html) |
-| **`T_INCLUDE`** | include() | [include](function.include.html) |
-| **`T_INCLUDE_ONCE`** | includeonce() | [include\_once](function.include-once.html) |
-| **`T_INLINE_HTML`** |  | [текст вне PHP](language.basic-syntax.phpmode.html) |
-| **`T_INSTANCEOF`** | instanceof | [операторы типа](language.operators.type.html) |
-| **`T_INSTEADOF`** | insteadof | [Трейты](language.oop5.traits.html) |
-| **`T_INTERFACE`** | interface | [Интерфейсы объектов](language.oop5.interfaces.html) |
-| **`T_INT_CAST`** | (int) або (integer) | [приведение типов](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_ISSET`** | isset() | [isset()](function.isset.html) |
-| **`T_IS_EQUAL`** |  | [операторы сравнения](language.operators.comparison.html) |
-| **`T_IS_GREATER_OR_EQUAL`** | \> | [операторы сравнения](language.operators.comparison.html) |
-| **`T_IS_IDENTICAL`** |  | [операторы сравнения](language.operators.comparison.html) |
-| **`T_IS_NOT_EQUAL`** | != або <> | [операторы сравнения](language.operators.comparison.html) |
-| **`T_IS_NOT_IDENTICAL`** |  | [операторы сравнения](language.operators.comparison.html) |
-| **`T_IS_SMALLER_OR_EQUAL`** | <= | [операторы сравнения](language.operators.comparison.html) |
-| **`T_LINE`** | LINE | [магические константы](language.constants.predefined.html) |
-| **`T_LIST`** | list() | [list()](function.list.html) |
-| **`T_LNUMBER`** | 123, 012, 0x1ac і т.д. | [целые числа](language.types.integer.html) |
-| **`T_LOGICAL_AND`** | and | [логические операторы](language.operators.logical.html) |
-| **`T_LOGICAL_OR`** | ор | [логические операторы](language.operators.logical.html) |
-| **`T_LOGICAL_XOR`** | xor | [логические операторы](language.operators.logical.html) |
-| **`T_MATCH`** | match | [match](control-structures.match.html) (доступно з PHP 8.0.0) |
-| **`T_METHOD_C`** | METHOD | [магические константы](language.constants.predefined.html) |
-| **`T_MINUS_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_MOD_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_MUL_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_NAMESPACE`** | namespace | [пространства имён](language.namespaces.html) |
-| **`T_NAME_FULLY_QUALIFIED`** | AppNamespace | [пространства имён](language.namespaces.html) (доступно, починаючи з PHP 8.0.0) |
-| **`T_NAME_QUALIFIED`** | AppNamespace | [пространства имён](language.namespaces.html) (доступно, починаючи з PHP 8.0.0) |
-| **`T_NAME_RELATIVE`** | namespaceNamespace | [пространства имён](language.namespaces.html) (доступно, починаючи з PHP 8.0.0) |
-| **`T_NEW`** | new | [классы и объекты](language.oop5.html) |
-| **`T_NS_C`** | NAMESPACE | [пространства имён](language.namespaces.html) |
-| **`T_NS_SEPARATOR`** |  | [пространства имён](language.namespaces.html) |
-| **`T_NUM_STRING`** | "$a" | [цифровой индекс массива внутри строки](language.types.string.html#language.types.string.parsing) |
-| **`T_OBJECT_CAST`** | (object) | [приведение типов](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_OBJECT_OPERATOR`** | \> | [классы и объекты](language.oop5.html) |
-| **`T_NULLSAFE_OBJECT_OPERATOR`** | ?-> | [классы и объекты](language.oop5.html) |
-| **`T_OPEN_TAG`** |  | [PHP-код внутри HTML](language.basic-syntax.phpmode.html) |
-| **`T_OPEN_TAG_WITH_ECHO`** |  | [PHP-код внутри HTML](language.basic-syntax.phpmode.html) |
-| **`T_OR_EQUAL`** |  |  |
-| **`T_PAAMAYIM_NEKUDOTAYIM`** |  | [::](language.oop5.paamayim-nekudotayim.html). Також визначається як **`T_DOUBLE_COLON`** |
-| **`T_PLUS_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_POW`** |  | [арифметические операторы](language.operators.arithmetic.html) |
-| **`T_POW_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_PRINT`** | print() | [print](function.print.html) |
-| **`T_PRIVATE`** | private | [классы и объекты](language.oop5.html) |
-| **`T_PROTECTED`** | protected | [классы и объекты](language.oop5.html) |
-| **`T_PUBLIC`** | public | [классы и объекты](language.oop5.html) |
-| **`T_READONLY`** | readonly | [классы и объекты](language.oop5.html) (доступно, починаючи з PHP 8.1.0) |
-| **`T_REQUIRE`** | require() | [require](function.require.html) |
-| **`T_REQUIRE_ONCE`** | requireonce() | [require\_once](function.require-once.html) |
-| **`T_RETURN`** | return | [возвращаемые значения](functions.returning-values.html) |
-| **`T_SL`** | << | [побитовые операторы](language.operators.bitwise.html) |
-| **`T_SL_EQUAL`** | <<= | [операторы присваивания](language.operators.assignment.html) |
-| **`T_SPACESHIP`** | <=> | [Операторы сравнения](language.operators.comparison.html) |
-| **`T_SR`** | \>> | [побитовые операторы](language.operators.bitwise.html) |
-| **`T_SR_EQUAL`** | \>>= | [операторы присваивания](language.operators.assignment.html) |
-| **`T_START_HEREDOC`** | <<< | [синтаксис heredoc](language.types.string.html#language.types.string.syntax.heredoc) |
-| **`T_STATIC`** | static | [область видимости переменной](language.variables.scope.html) |
-| **`T_STRING`** | parent, self тощо. | ідентифікатори, наприклад, ключові слова на кшталт `parent` і `self`, сюди підходять імена функцій, класів та інших. Дивіться також **`T_CONSTANT_ENCAPSED_STRING`** |
-| **`T_STRING_CAST`** | (string) | [приведение типов](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_STRING_VARNAME`** | "${a | [переменные внутри строки](language.types.string.html#language.types.string.parsing.complex) |
-| **`T_SWITCH`** | switch | [switch](control-structures.switch.html) |
-| **`T_THROW`** | throw | [Исключения](language.exceptions.html) |
-| **`T_TRAIT`** | trait | [Трейты](language.oop5.traits.html) |
-| **`T_TRAIT_C`** | TRAIT | TRAIT |
-| **`T_TRY`** | try | [Исключения](language.exceptions.html) |
-| **`T_UNSET`** | unset() | [unset()](function.unset.html) |
-| **`T_UNSET_CAST`** | (unset) | [приведение типов](language.types.type-juggling.html#language.types.typecasting) |
-| **`T_USE`** | use | [пространства имён](language.namespaces.html) |
-| **`T_VAR`** | var | [классы и объекты](language.oop5.html) |
-| **`T_VARIABLE`** | $foo | [переменные](language.variables.html) |
-| **`T_WHILE`** | while | [while](control-structures.while.html) [do..while](control-structures.do.while.html) |
-| **`T_WHITESPACE`** | т рн |  |
-| **`T_XOR_EQUAL`** |  | [операторы присваивания](language.operators.assignment.html) |
-| **`T_YIELD`** | yield | [генераторы](language.generators.syntax.html#control-structures.yield) |
-| **`T_YIELD_FROM`** | yield from | [generators](language.generators.syntax.html#control-structures.yield.from) |
+| Метка                                           | Синтаксис                    | Ссылка                                                                                                                                                               |
+|-------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`T_ABSTRACT`**                                | abstract                     | [Абстрактные классы](language.oop5.abstract.html)                                                                                                                    |
+| **`T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG`**     | &                            | [Объявление типов](language.types.declarations.html) (доступно, починаючи з PHP 8.1.0)                                                                               |
+| **`T_AMPERSAND_NOT_FOLLOWED_BY_VAR_OR_VARARG`** | &                            | [Объявление типов](language.types.declarations.html) (доступно, починаючи з PHP 8.1.0)                                                                               |
+| **`T_AND_EQUAL`**                               | &=                           | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_ARRAY`**                                   | array()                      | [array()](function.array.html) [синтаксис массива](language.types.array.html#language.types.array.syntax)                                                            |
+| **`T_ARRAY_CAST`**                              | (array)                      | [приведение типа](language.types.type-juggling.html#language.types.typecasting)                                                                                      |
+| **`T_AS`**                                      | ас                           | [foreach](control-structures.foreach.html)                                                                                                                           |
+| **`T_ATTRIBUTE`**                               |                              | [attributes](language.attributes.html) (доступно з PHP 8.0.0)                                                                                                        |
+| **`T_BAD_CHARACTER`**                           |                              | все, що нижче ASCII 32 виключаючи t (0x09), n (0x0a) та r (0x0d) (доступно з PHP 7.4.0)                                                                              |
+| **`T_BOOLEAN_AND`**                             | &&                           | [логические операторы](language.operators.logical.html)                                                                                                              |
+| **`T_BOOLEAN_OR`**                              |                              |                                                                                                                                                                      |
+| **`T_BOOL_CAST`**                               | (bool) або (boolean)         | [приведение типа](language.types.type-juggling.html#language.types.typecasting)                                                                                      |
+| **`T_BREAK`**                                   | break                        | [break](control-structures.break.html)                                                                                                                               |
+| **`T_CALLABLE`**                                | callable                     | [callable](language.types.callable.html)                                                                                                                             |
+| **`T_CASE`**                                    | case                         | [switch](control-structures.switch.html)                                                                                                                             |
+| **`T_CATCH`**                                   | catch                        | [Исключения](language.exceptions.html)                                                                                                                               |
+| **`T_CLASS`**                                   | class                        | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_CLASS_C`**                                 | CLASS                        | [магические константы](language.constants.predefined.html)                                                                                                           |
+| **`T_CLONE`**                                   | clone                        | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_CLOSE_TAG`**                               | ?> або %>                    | [PHP-код внутри HTML](language.basic-syntax.phpmode.html)                                                                                                            |
+| **`T_COALESCE`**                                |                              | [операторы сравнения](language.operators.comparison.html#language.operators.comparison.coalesce)                                                                     |
+| **`T_COALESCE_EQUAL`**                          |                              | [операторы присваивания](language.operators.assignment.html) (доступно з PHP 7.4.0)                                                                                  |
+| **`T_COMMENT`**                                 | // або #, та /               | [комментарии](language.basic-syntax.comments.html)                                                                                                                   |
+| **`T_CONCAT_EQUAL`**                            |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_CONST`**                                   | const                        | [константы класса](language.constants.html)                                                                                                                          |
+| **`T_CONSTANT_ENCAPSED_STRING`**                | "foo" або 'bar'              | [строковой синтаксис](language.types.string.html#language.types.string.syntax)                                                                                       |
+| **`T_CONTINUE`**                                | continue                     | [continue](control-structures.continue.html)                                                                                                                         |
+| **`T_CURLY_OPEN`**                              |                              | [переменные внутри строки](language.types.string.html#language.types.string.parsing.complex)                                                                         |
+| **`T_DEC`**                                     |                              | [операторы инкремента\\декремента](language.operators.increment.html)                                                                                                |
+| **`T_DECLARE`**                                 | declare                      | [declare](control-structures.declare.html)                                                                                                                           |
+| **`T_DEFAULT`**                                 | default                      | [switch](control-structures.switch.html)                                                                                                                             |
+| **`T_DIR`**                                     | DIR                          | [магические константы](language.constants.predefined.html)                                                                                                           |
+| **`T_DIV_EQUAL`**                               |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_DNUMBER`**                                 | 0.12 і т.д.                  | [числа с плавающей точкой](language.types.float.html)                                                                                                                |
+| **`T_DO`**                                      | до                           | [do..while](control-structures.do.while.html)                                                                                                                        |
+| **`T_DOC_COMMENT`**                             |                              | [PHPDoc-комментарии](language.basic-syntax.comments.html)                                                                                                            |
+| **`T_DOLLAR_OPEN_CURLY_BRACES`**                |                              | [переменная внутри строки](language.types.string.html#language.types.string.parsing.complex)                                                                         |
+| **`T_DOUBLE_ARROW`**                            | \>                           | [синтаксис массивов](language.types.array.html#language.types.array.syntax)                                                                                          |
+| **`T_DOUBLE_CAST`**                             | (real), (double) або (float) | [приведение типов](language.types.type-juggling.html#language.types.typecasting)                                                                                     |
+| **`T_DOUBLE_COLON`**                            |                              | Дивіться нижче **`T_PAAMAYIM_NEKUDOTAYIM`**                                                                                                                          |
+| **`T_ECHO`**                                    | echo                         | [echo](function.echo.html)                                                                                                                                           |
+| **`T_ELLIPSIS`**                                |                              | [аргументы функции](functions.arguments.html#functions.variable-arg-list)                                                                                            |
+| **`T_ELSE`**                                    | else                         | [else](control-structures.else.html)                                                                                                                                 |
+| **`T_ELSEIF`**                                  | elseif                       | [elseif](control-structures.elseif.html)                                                                                                                             |
+| **`T_EMPTY`**                                   | empty                        | [empty()](function.empty.html)                                                                                                                                       |
+| **`T_ENCAPSED_AND_WHITESPACE`**                 | "$a"                         | [константная часть строки с переменными](language.types.string.html#language.types.string.parsing)                                                                   |
+| **`T_ENDDECLARE`**                              | enddeclare                   | [declare](control-structures.declare.html) [альтернативный синтаксис](control-structures.alternative-syntax.html)                                                    |
+| **`T_ENDFOR`**                                  | endfor                       | [for](control-structures.for.html) [альтернативный синтаксис](control-structures.alternative-syntax.html)                                                            |
+| **`T_ENDFOREACH`**                              | endforeach                   | [foreach](control-structures.foreach.html) [альтернативный синтаксис](control-structures.alternative-syntax.html)                                                    |
+| **`T_ENDIF`**                                   | endif                        | [if](control-structures.if.html) [альтернативный синтаксис](control-structures.alternative-syntax.html)                                                              |
+| **`T_ENDSWITCH`**                               | endswitch                    | [switch](control-structures.switch.html) [альтернативный синтаксис](control-structures.alternative-syntax.html)                                                      |
+| **`T_ENDWHILE`**                                | endwhile                     | [while](control-structures.while.html) [альтернативный синтаксис](control-structures.alternative-syntax.html)                                                        |
+| **`T_ENUM`**                                    | enum                         | [Перечисления](language.types.enumerations.html) (доступно, починаючи з PHP 8.1.0)                                                                                   |
+| **`T_END_HEREDOC`**                             |                              | [синтаксис heredoc](language.types.string.html#language.types.string.syntax.heredoc)                                                                                 |
+| **`T_EVAL`**                                    | eval()                       | [eval()](function.eval.html)                                                                                                                                         |
+| **`T_EXIT`**                                    | exit або die                 | [exit()](function.exit.html) [die()](function.die.html)                                                                                                              |
+| **`T_EXTENDS`**                                 | extends                      | [extends](language.oop5.basic.html#language.oop5.basic.extends) [классы и объекты](language.oop5.html)                                                               |
+| **`T_FILE`**                                    | FILE                         | [магические константы](language.constants.predefined.html)                                                                                                           |
+| **`T_FINAL`**                                   | final                        | [Ключевое слово final](language.oop5.final.html)                                                                                                                     |
+| **`T_FINALLY`**                                 | finally                      | [Исключения](language.exceptions.html)                                                                                                                               |
+| **`T_FN`**                                      | фн                           | [стрелочные функции](functions.arrow.html) (доступно з PHP 7.4.0)                                                                                                    |
+| **`T_FOR`**                                     | for                          | [for](control-structures.for.html)                                                                                                                                   |
+| **`T_FOREACH`**                                 | foreach                      | [foreach](control-structures.foreach.html)                                                                                                                           |
+| **`T_FUNCTION`**                                | function                     | [функции](language.functions.html)                                                                                                                                   |
+| **`T_FUNC_C`**                                  | FUNCTION                     | [магические константы](language.constants.predefined.html)                                                                                                           |
+| **`T_GLOBAL`**                                  | global                       | [область видимости переменной](language.variables.scope.html)                                                                                                        |
+| **`T_GOTO`**                                    | goto                         | [goto](control-structures.goto.html)                                                                                                                                 |
+| **`T_HALT_COMPILER`**                           | haltcompiler()               | [\_\_halt\_compiler](function.halt-compiler.html)                                                                                                                    |
+| **`T_IF`**                                      | іф                           | [if](control-structures.if.html)                                                                                                                                     |
+| **`T_IMPLEMENTS`**                              | implements                   | [Интерфейсы объектов](language.oop5.interfaces.html)                                                                                                                 |
+| **`T_INC`**                                     |                              | [операторы инкремента\\декремента](language.operators.increment.html)                                                                                                |
+| **`T_INCLUDE`**                                 | include()                    | [include](function.include.html)                                                                                                                                     |
+| **`T_INCLUDE_ONCE`**                            | includeonce()                | [include\_once](function.include-once.html)                                                                                                                          |
+| **`T_INLINE_HTML`**                             |                              | [текст вне PHP](language.basic-syntax.phpmode.html)                                                                                                                  |
+| **`T_INSTANCEOF`**                              | instanceof                   | [операторы типа](language.operators.type.html)                                                                                                                       |
+| **`T_INSTEADOF`**                               | insteadof                    | [Трейты](language.oop5.traits.html)                                                                                                                                  |
+| **`T_INTERFACE`**                               | interface                    | [Интерфейсы объектов](language.oop5.interfaces.html)                                                                                                                 |
+| **`T_INT_CAST`**                                | (int) або (integer)          | [приведение типов](language.types.type-juggling.html#language.types.typecasting)                                                                                     |
+| **`T_ISSET`**                                   | isset()                      | [isset()](function.isset.html)                                                                                                                                       |
+| **`T_IS_EQUAL`**                                |                              | [операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_IS_GREATER_OR_EQUAL`**                     | \>                           | [операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_IS_IDENTICAL`**                            |                              | [операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_IS_NOT_EQUAL`**                            | != або <>                    | [операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_IS_NOT_IDENTICAL`**                        |                              | [операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_IS_SMALLER_OR_EQUAL`**                     | <=                           | [операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_LINE`**                                    | LINE                         | [магические константы](language.constants.predefined.html)                                                                                                           |
+| **`T_LIST`**                                    | list()                       | [list()](function.list.html)                                                                                                                                         |
+| **`T_LNUMBER`**                                 | 123, 012, 0x1ac і т.д.       | [целые числа](language.types.integer.html)                                                                                                                           |
+| **`T_LOGICAL_AND`**                             | and                          | [логические операторы](language.operators.logical.html)                                                                                                              |
+| **`T_LOGICAL_OR`**                              | ор                           | [логические операторы](language.operators.logical.html)                                                                                                              |
+| **`T_LOGICAL_XOR`**                             | xor                          | [логические операторы](language.operators.logical.html)                                                                                                              |
+| **`T_MATCH`**                                   | match                        | [match](control-structures.match.html) (доступно з PHP 8.0.0)                                                                                                        |
+| **`T_METHOD_C`**                                | METHOD                       | [магические константы](language.constants.predefined.html)                                                                                                           |
+| **`T_MINUS_EQUAL`**                             |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_MOD_EQUAL`**                               |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_MUL_EQUAL`**                               |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_NAMESPACE`**                               | namespace                    | [пространства имён](language.namespaces.html)                                                                                                                        |
+| **`T_NAME_FULLY_QUALIFIED`**                    | AppNamespace                 | [пространства имён](language.namespaces.html) (доступно, починаючи з PHP 8.0.0)                                                                                      |
+| **`T_NAME_QUALIFIED`**                          | AppNamespace                 | [пространства имён](language.namespaces.html) (доступно, починаючи з PHP 8.0.0)                                                                                      |
+| **`T_NAME_RELATIVE`**                           | namespaceNamespace           | [пространства имён](language.namespaces.html) (доступно, починаючи з PHP 8.0.0)                                                                                      |
+| **`T_NEW`**                                     | new                          | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_NS_C`**                                    | NAMESPACE                    | [пространства имён](language.namespaces.html)                                                                                                                        |
+| **`T_NS_SEPARATOR`**                            |                              | [пространства имён](language.namespaces.html)                                                                                                                        |
+| **`T_NUM_STRING`**                              | "$a"                         | [цифровой индекс массива внутри строки](language.types.string.html#language.types.string.parsing)                                                                    |
+| **`T_OBJECT_CAST`**                             | (object)                     | [приведение типов](language.types.type-juggling.html#language.types.typecasting)                                                                                     |
+| **`T_OBJECT_OPERATOR`**                         | \>                           | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_NULLSAFE_OBJECT_OPERATOR`**                | ?->                          | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_OPEN_TAG`**                                |                              | [PHP-код внутри HTML](language.basic-syntax.phpmode.html)                                                                                                            |
+| **`T_OPEN_TAG_WITH_ECHO`**                      |                              | [PHP-код внутри HTML](language.basic-syntax.phpmode.html)                                                                                                            |
+| **`T_OR_EQUAL`**                                |                              |                                                                                                                                                                      |
+| **`T_PAAMAYIM_NEKUDOTAYIM`**                    |                              | [::](language.oop5.paamayim-nekudotayim.html). Також визначається як **`T_DOUBLE_COLON`**                                                                            |
+| **`T_PLUS_EQUAL`**                              |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_POW`**                                     |                              | [арифметические операторы](language.operators.arithmetic.html)                                                                                                       |
+| **`T_POW_EQUAL`**                               |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_PRINT`**                                   | print()                      | [print](function.print.html)                                                                                                                                         |
+| **`T_PRIVATE`**                                 | private                      | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_PROTECTED`**                               | protected                    | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_PUBLIC`**                                  | public                       | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_READONLY`**                                | readonly                     | [классы и объекты](language.oop5.html) (доступно, починаючи з PHP 8.1.0)                                                                                             |
+| **`T_REQUIRE`**                                 | require()                    | [require](function.require.html)                                                                                                                                     |
+| **`T_REQUIRE_ONCE`**                            | requireonce()                | [require\_once](function.require-once.html)                                                                                                                          |
+| **`T_RETURN`**                                  | return                       | [возвращаемые значения](functions.returning-values.html)                                                                                                             |
+| **`T_SL`**                                      | <<                           | [побитовые операторы](language.operators.bitwise.html)                                                                                                               |
+| **`T_SL_EQUAL`**                                | <<=                          | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_SPACESHIP`**                               | <=>                          | [Операторы сравнения](language.operators.comparison.html)                                                                                                            |
+| **`T_SR`**                                      | \>>                          | [побитовые операторы](language.operators.bitwise.html)                                                                                                               |
+| **`T_SR_EQUAL`**                                | \>>=                         | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_START_HEREDOC`**                           | <<<                          | [синтаксис heredoc](language.types.string.html#language.types.string.syntax.heredoc)                                                                                 |
+| **`T_STATIC`**                                  | static                       | [область видимости переменной](language.variables.scope.html)                                                                                                        |
+| **`T_STRING`**                                  | parent, self тощо.           | ідентифікатори, наприклад, ключові слова на кшталт `parent` і `self`, сюди підходять імена функцій, класів та інших. Дивіться також **`T_CONSTANT_ENCAPSED_STRING`** |
+| **`T_STRING_CAST`**                             | (string)                     | [приведение типов](language.types.type-juggling.html#language.types.typecasting)                                                                                     |
+| **`T_STRING_VARNAME`**                          | "${a                         | [переменные внутри строки](language.types.string.html#language.types.string.parsing.complex)                                                                         |
+| **`T_SWITCH`**                                  | switch                       | [switch](control-structures.switch.html)                                                                                                                             |
+| **`T_THROW`**                                   | throw                        | [Исключения](language.exceptions.html)                                                                                                                               |
+| **`T_TRAIT`**                                   | trait                        | [Трейты](language.oop5.traits.html)                                                                                                                                  |
+| **`T_TRAIT_C`**                                 | TRAIT                        | TRAIT                                                                                                                                                                |
+| **`T_TRY`**                                     | try                          | [Исключения](language.exceptions.html)                                                                                                                               |
+| **`T_UNSET`**                                   | unset()                      | [unset()](function.unset.html)                                                                                                                                       |
+| **`T_UNSET_CAST`**                              | (unset)                      | [приведение типов](language.types.type-juggling.html#language.types.typecasting)                                                                                     |
+| **`T_USE`**                                     | use                          | [пространства имён](language.namespaces.html)                                                                                                                        |
+| **`T_VAR`**                                     | var                          | [классы и объекты](language.oop5.html)                                                                                                                               |
+| **`T_VARIABLE`**                                | $foo                         | [переменные](language.variables.html)                                                                                                                                |
+| **`T_WHILE`**                                   | while                        | [while](control-structures.while.html) [do..while](control-structures.do.while.html)                                                                                 |
+| **`T_WHITESPACE`**                              | т рн                         |                                                                                                                                                                      |
+| **`T_XOR_EQUAL`**                               |                              | [операторы присваивания](language.operators.assignment.html)                                                                                                         |
+| **`T_YIELD`**                                   | yield                        | [генераторы](language.generators.syntax.html#control-structures.yield)                                                                                               |
+| **`T_YIELD_FROM`**                              | yield from                   | [generators](language.generators.syntax.html#control-structures.yield.from)                                                                                          |
 
 Дивіться також [token\_name()](function.token-name.html)

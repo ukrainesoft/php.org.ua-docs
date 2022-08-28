@@ -45,9 +45,9 @@ public ZipArchive::setEncryptionName(string $name, int $method, ?string $passwor
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `password` тепер допускає значення null. |
+| Версия | Описание                                 |
+|--------|------------------------------------------|
+|        | `password` тепер допускає значення null. |
 
 ### Приклади
 

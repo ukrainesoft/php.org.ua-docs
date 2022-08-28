@@ -49,9 +49,9 @@ public Phar::buildFromDirectory(string $directory, string $pattern = ""): array
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
+| Версия | Описание                                                               |
+|--------|------------------------------------------------------------------------|
+|        | **Phar::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 

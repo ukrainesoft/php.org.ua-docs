@@ -35,36 +35,36 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 Опція `option` може бути однією з:
 
-| Опция | Тип | Доступна с |
-| --- | --- | --- |
-| **`LDAP_OPT_DEREF`** | int |  |
-| **`LDAP_OPT_SIZELIMIT`** | int |  |
-| **`LDAP_OPT_TIMELIMIT`** | int |  |
-| **`LDAP_OPT_NETWORK_TIMEOUT`** | int |  |
-| **`LDAP_OPT_PROTOCOL_VERSION`** | int |  |
-| **`LDAP_OPT_ERROR_NUMBER`** | int |  |
-| **`LDAP_OPT_REFERRALS`** | bool |  |
-| **`LDAP_OPT_RESTART`** | bool |  |
-| **`LDAP_OPT_HOST_NAME`** | string |  |
-| **`LDAP_OPT_ERROR_STRING`** | string |  |
-| **`LDAP_OPT_DIAGNOSTIC_MESSAGE`** | string |  |
-| **`LDAP_OPT_MATCHED_DN`** | string |  |
-| **`LDAP_OPT_SERVER_CONTROLS`** | array |  |
-| **`LDAP_OPT_CLIENT_CONTROLS`** | array |  |
-| **`LDAP_OPT_X_KEEPALIVE_IDLE`** | int | PHP 7.1.0 |
-| **`LDAP_OPT_X_KEEPALIVE_PROBES`** | int | PHP 7.1.0 |
-| **`LDAP_OPT_X_KEEPALIVE_INTERVAL`** | int | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_CACERTDIR`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_CACERTFILE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_CERTFILE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_CIPHER_SUITE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_CRLCHECK`** | int | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_CRLFILE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_DHFILE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_KEYFILE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_PROTOCOL_MIN`** | int | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_RANDOM_FILE`** | string | PHP 7.1.0 |
-| **`LDAP_OPT_X_TLS_REQUIRE_CERT`** | int | PHP 7.0.5 |
+| Опция                               | Тип    | Доступна с |
+|-------------------------------------|--------|------------|
+| **`LDAP_OPT_DEREF`**                | int    |            |
+| **`LDAP_OPT_SIZELIMIT`**            | int    |            |
+| **`LDAP_OPT_TIMELIMIT`**            | int    |            |
+| **`LDAP_OPT_NETWORK_TIMEOUT`**      | int    |            |
+| **`LDAP_OPT_PROTOCOL_VERSION`**     | int    |            |
+| **`LDAP_OPT_ERROR_NUMBER`**         | int    |            |
+| **`LDAP_OPT_REFERRALS`**            | bool   |            |
+| **`LDAP_OPT_RESTART`**              | bool   |            |
+| **`LDAP_OPT_HOST_NAME`**            | string |            |
+| **`LDAP_OPT_ERROR_STRING`**         | string |            |
+| **`LDAP_OPT_DIAGNOSTIC_MESSAGE`**   | string |            |
+| **`LDAP_OPT_MATCHED_DN`**           | string |            |
+| **`LDAP_OPT_SERVER_CONTROLS`**      | array  |            |
+| **`LDAP_OPT_CLIENT_CONTROLS`**      | array  |            |
+| **`LDAP_OPT_X_KEEPALIVE_IDLE`**     | int    | PHP 7.1.0  |
+| **`LDAP_OPT_X_KEEPALIVE_PROBES`**   | int    | PHP 7.1.0  |
+| **`LDAP_OPT_X_KEEPALIVE_INTERVAL`** | int    | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_CACERTDIR`**      | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_CACERTFILE`**     | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_CERTFILE`**       | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_CIPHER_SUITE`**   | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_CRLCHECK`**       | int    | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_CRLFILE`**        | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_DHFILE`**         | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_KEYFILE`**        | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_PROTOCOL_MIN`**   | int    | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_RANDOM_FILE`**    | string | PHP 7.1.0  |
+| **`LDAP_OPT_X_TLS_REQUIRE_CERT`**   | int    | PHP 7.0.5  |
 
 **`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`** вимагають список елементів керування. Це означає, що значення має бути масивом елементів керування. Елемент управління складається з *oid*, що визначає елемент управління, опціонального *значення*, та додаткового прапора для *критичності*. У PHP елемент керування задається масивом, що містить елемент із ключем *oid* і рядковим значенням і двома необов'язковими елементами. Необов'язкові елементи є ключем *value* з рядковим значенням та ключем *iscritical* з логічним значенням . *iscritical* за замовчуванням встановлюється в ***`false`***, якщо не вказано. Для більш детальної інформації дивіться [» draft-ietf-ldapext-ldap-c-api-xx.txt](http://www.openldap.org/devel/cvsweb.cgi/~checkout~/doc/drafts/draft-ietf-ldapext-ldap-c-api-xx.txt). Дивіться також другий приклад, наведений нижче.
 
@@ -78,9 +78,9 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+| Версия | Описание                                                                                                                                                 |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
 
 ### Приклади
 

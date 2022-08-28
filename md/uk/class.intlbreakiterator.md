@@ -187,9 +187,9 @@ public setText(string $text): ?bool
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
+| Версия | Описание                                                                                                                                                                                 |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
 
 ## Зміст
 

@@ -19,8 +19,8 @@
 
 **SQLSRV Опції налаштування**
 
-| Имя | По умолчанию | Место изменения | Изменения |
-| --- | --- | --- | --- |
-| sqlsrv.WarningsReturnAsErrors | **`true`** | PHPINIALL | Доступно з версії SQLSRV 1.0 |
-| sqlsrv.LogSubsystems |  | PHPINIALL | Доступно з версії SQLSRV 1.0 |
-| sqlsrv.LogSeverity |  | PHPINIALL | Доступно з версії SQLSRV 1.0 |
+| Имя                           | По умолчанию | Место изменения | Изменения                    |
+|-------------------------------|--------------|-----------------|------------------------------|
+| sqlsrv.WarningsReturnAsErrors | **`true`**   | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
+| sqlsrv.LogSubsystems          |              | PHPINIALL       | Доступно з версії SQLSRV 1.0 |
+| sqlsrv.LogSeverity            |              | PHPINIALL       | Доступно з версії SQLSRV 1.0 |

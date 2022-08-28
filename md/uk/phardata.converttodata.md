@@ -55,9 +55,9 @@ public PharData::convertToData(?int $format = null, ?int $compression = null, ?s
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `format` `compression` і `extension` тепер допускають значення null. |
+| Версия | Описание                                                             |
+|--------|----------------------------------------------------------------------|
+|        | `format` `compression` і `extension` тепер допускають значення null. |
 
 ### Приклади
 

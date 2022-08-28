@@ -37,6 +37,6 @@ inflate_get_read_len(InflateContext $context): int
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+| Версия | Описание                                                                                                        |
+|--------|-----------------------------------------------------------------------------------------------------------------|
+|        | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |

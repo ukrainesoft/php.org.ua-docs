@@ -35,15 +35,15 @@ file:// — Доступ до локальної файлової системи
 
 **Основна інформація**
 
-| Атрибут | Поддержка |
-| --- | --- |
-| Обмеження по [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
-| Читання | Так |
-| Запис | Так |
-| Додавання | Так |
-| Одночасне читання та запис | Так |
-| Підтримка [stat()](function.stat.html) | Так |
-| Підтримка [unlink()](function.unlink.html) | Так |
-| Підтримка [rename()](function.rename.html) | Так |
-| Підтримка [mkdir()](function.mkdir.html) | Так |
-| Підтримка [rmdir()](function.rmdir.html) | Так |
+| Атрибут                                                                             | Поддержка |
+|-------------------------------------------------------------------------------------|-----------|
+| Обмеження по [allow\_url\_fopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні        |
+| Читання                                                                             | Так       |
+| Запис                                                                               | Так       |
+| Додавання                                                                           | Так       |
+| Одночасне читання та запис                                                          | Так       |
+| Підтримка [stat()](function.stat.html)                                              | Так       |
+| Підтримка [unlink()](function.unlink.html)                                          | Так       |
+| Підтримка [rename()](function.rename.html)                                          | Так       |
+| Підтримка [mkdir()](function.mkdir.html)                                            | Так       |
+| Підтримка [rmdir()](function.rmdir.html)                                            | Так       |

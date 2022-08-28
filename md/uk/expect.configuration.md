@@ -19,12 +19,12 @@
 
 **Опції налаштування Expect**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [expect.timeout](expect.configuration.html#ini.expect.timeout) | "10" | PHPINIALL |  |
-| [expect.loguser](expect.configuration.html#ini.expect.loguser) | "1" | PHPINIALL |  |
-| [expect.logfile](expect.configuration.html#ini.expect.logfile) | "" | PHPINIALL |  |
-| [expect.match\_max](expect.configuration.html#ini.expect.match-max) | "" | PHPINIALL |  |
+| Имя                                                                 | По умолчанию | Место изменения | Список изменений |
+|---------------------------------------------------------------------|--------------|-----------------|------------------|
+| [expect.timeout](expect.configuration.html#ini.expect.timeout)      | "10"         | PHPINIALL       |                  |
+| [expect.loguser](expect.configuration.html#ini.expect.loguser)      | "1"          | PHPINIALL       |                  |
+| [expect.logfile](expect.configuration.html#ini.expect.logfile)      | ""           | PHPINIALL       |                  |
+| [expect.match\_max](expect.configuration.html#ini.expect.match-max) | ""           | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

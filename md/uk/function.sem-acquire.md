@@ -43,9 +43,9 @@ sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікувався ресурс (resource). |
+| Версия | Описание                                                                                                                   |
+|--------|----------------------------------------------------------------------------------------------------------------------------|
+|        | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 

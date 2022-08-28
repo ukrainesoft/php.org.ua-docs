@@ -49,9 +49,9 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+| Версия | Описание                                                                                                                                                                             |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
 
 ### Приклади
 

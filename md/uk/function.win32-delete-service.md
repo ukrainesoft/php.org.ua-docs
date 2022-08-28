@@ -51,11 +51,11 @@ win32_delete_service(string $servicename, string $machine = ?): void
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`** |
+| Версия                  | Описание                                                                                                                                                              |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) при невірних даних у параметрах, що раніше поверталося **`false`**                                                        |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed)                                                   |
 
 ### Приклади
 

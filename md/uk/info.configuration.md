@@ -17,22 +17,22 @@
 
 **Установки PHP/Параметри конфігурації інформації**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [assert.active](info.configuration.html#ini.assert.active) | "1" | PHPINIALL |  |
-| [assert.bail](info.configuration.html#ini.assert.bail) | "0" | PHPINIALL |  |
-| [assert.warning](info.configuration.html#ini.assert.warning) | "1" | PHPINIALL |  |
-| [assert.callback](info.configuration.html#ini.assert.callback) | NULL | PHPINIALL |  |
-| [assert.quiet\_eval](info.configuration.html#ini.assert.quiet-eval) | "0" | PHPINIALL |  |
-| [assert.exception](info.configuration.html#ini.assert.exception) | "0" | PHPINIALL | Доступна з версії PHP 7.0.0. |
-| [enable\_dl](info.configuration.html#ini.enable-dl) | "1" | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
-| [max\_execution\_time](info.configuration.html#ini.max-execution-time) | "30" | PHPINIALL |  |
-| [max\_input\_time](info.configuration.html#ini.max-input-time) | "-1" | PHPINIPERDIR |  |
-| [max\_input\_nesting\_level](info.configuration.html#ini.max-input-nesting-level) | "64" | PHPINIPERDIR | Доступна з PHP 5.2.3. |
-| [max\_input\_vars](info.configuration.html#ini.max-input-vars) |  | PHPINIPERDIR | Доступна з PHP 5.3.9. |
-| [magic\_quotes\_gpc](info.configuration.html#ini.magic-quotes-gpc) | "1" | PHPINIPERDIR | Видалено в PHP 5.4.0. |
-| [magic\_quotes\_runtime](info.configuration.html#ini.magic-quotes-runtime) | "0" | PHPINIALL | Видалено в PHP 5.4.0. |
-| [zend.enable\_gc](info.configuration.html#ini.zend.enable-gc) | "1" | PHPINIALL | Доступна з PHP 5.3.0. |
+| Имя                                                                               | По умолчанию | Место изменения | Список изменений                                                        |
+|-----------------------------------------------------------------------------------|--------------|-----------------|-------------------------------------------------------------------------|
+| [assert.active](info.configuration.html#ini.assert.active)                        | "1"          | PHPINIALL       |                                                                         |
+| [assert.bail](info.configuration.html#ini.assert.bail)                            | "0"          | PHPINIALL       |                                                                         |
+| [assert.warning](info.configuration.html#ini.assert.warning)                      | "1"          | PHPINIALL       |                                                                         |
+| [assert.callback](info.configuration.html#ini.assert.callback)                    | NULL         | PHPINIALL       |                                                                         |
+| [assert.quiet\_eval](info.configuration.html#ini.assert.quiet-eval)               | "0"          | PHPINIALL       |                                                                         |
+| [assert.exception](info.configuration.html#ini.assert.exception)                  | "0"          | PHPINIALL       | Доступна з версії PHP 7.0.0.                                            |
+| [enable\_dl](info.configuration.html#ini.enable-dl)                               | "1"          | PHPINISYSTEM    | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| [max\_execution\_time](info.configuration.html#ini.max-execution-time)            | "30"         | PHPINIALL       |                                                                         |
+| [max\_input\_time](info.configuration.html#ini.max-input-time)                    | "-1"         | PHPINIPERDIR    |                                                                         |
+| [max\_input\_nesting\_level](info.configuration.html#ini.max-input-nesting-level) | "64"         | PHPINIPERDIR    | Доступна з PHP 5.2.3.                                                   |
+| [max\_input\_vars](info.configuration.html#ini.max-input-vars)                    |              | PHPINIPERDIR    | Доступна з PHP 5.3.9.                                                   |
+| [magic\_quotes\_gpc](info.configuration.html#ini.magic-quotes-gpc)                | "1"          | PHPINIPERDIR    | Видалено в PHP 5.4.0.                                                   |
+| [magic\_quotes\_runtime](info.configuration.html#ini.magic-quotes-runtime)        | "0"          | PHPINIALL       | Видалено в PHP 5.4.0.                                                   |
+| [zend.enable\_gc](info.configuration.html#ini.zend.enable-gc)                     | "1"          | PHPINIALL       | Доступна з PHP 5.3.0.                                                   |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

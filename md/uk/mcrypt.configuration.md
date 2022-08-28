@@ -17,10 +17,10 @@
 
 **Опції налаштування Mcrypt**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [mcrypt.algorithms\_dir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir) | **`null`** | PHPINIALL |  |
-| [mcrypt.modes\_dir](mcrypt.configuration.html#ini.mcrypt.modes-dir) | **`null`** | PHPINIALL |  |
+| Имя                                                                           | По умолчанию | Место изменения | Список изменений |
+|-------------------------------------------------------------------------------|--------------|-----------------|------------------|
+| [mcrypt.algorithms\_dir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir) | **`null`**   | PHPINIALL       |                  |
+| [mcrypt.modes\_dir](mcrypt.configuration.html#ini.mcrypt.modes-dir)           | **`null`**   | PHPINIALL       |                  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

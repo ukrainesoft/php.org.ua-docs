@@ -45,10 +45,10 @@ public PharData::buildFromIterator(Traversable $iterator, ?string $baseDirectory
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
-|  | `baseDirectory` тепер допускає значення null. |
+| Версия | Описание                                                                  |
+|--------|---------------------------------------------------------------------------|
+|        | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
+|        | `baseDirectory` тепер допускає значення null.                             |
 
 ### Приклади
 

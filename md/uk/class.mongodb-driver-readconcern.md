@@ -121,10 +121,10 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.11.0 |  |
-| Додано константу **`MongoDB\Driver\ReadConcern::SNAPSHOT`** |  |
+| Версия                                                      | Описание |
+|-------------------------------------------------------------|----------|
+| PECL mongodb 1.11.0                                         |          |
+| Додано константу **`MongoDB\Driver\ReadConcern::SNAPSHOT`** |          |
 
 | | PECL mongodb 1.7.0 Реалізує [Serializable](class.serializable.html). | | PECL mongodb 1.4.0
 

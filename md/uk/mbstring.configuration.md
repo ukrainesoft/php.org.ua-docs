@@ -17,18 +17,18 @@
 
 **Опції конфігурації mbstring**
 
-| Имя | По умолчанию | Место изменения | Список изменений |
-| --- | --- | --- | --- |
-| [mbstring.language](mbstring.configuration.html#ini.mbstring.language) | "neutral" | PHPINIALL |  |
-| [mbstring.detect\_order](mbstring.configuration.html#ini.mbstring.detect-order) | NULL | PHPINIALL |  |
-| [mbstring.http\_input](mbstring.configuration.html#ini.mbstring.http-input) | "pass" | PHPINIALL | Застаріла |
-| [mbstring.http\_output](mbstring.configuration.html#ini.mbstring.http-output) | "pass" | PHPINIALL | Застаріла |
-| [mbstring.internal\_encoding](mbstring.configuration.html#ini.mbstring.internal-encoding) | NULL | PHPINIALL | Застаріла |
-| [mbstring.substitute\_character](mbstring.configuration.html#ini.mbstring.substitute-character) | NULL | PHPINIALL |  |
-| [mbstring.func\_overload](mbstring.configuration.html#ini.mbstring.func-overload) | "0" | PHPINISYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
-| [mbstring.encoding\_translation](mbstring.configuration.html#ini.mbstring.encoding-translation) | "0" | PHPINIPERDIR |  |
-| [mbstring.http\_output\_conv\_mimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/ | application/xhtml+xml)" | PHPINIALL |
-| [mbstring.strict\_detection](mbstring.configuration.html#ini.mbstring.strict-detection) | "0" | PHPINIALL |  |
+| Имя                                                                                                           | По умолчанию | Место изменения         | Список изменений                                        |
+|---------------------------------------------------------------------------------------------------------------|--------------|-------------------------|---------------------------------------------------------|
+| [mbstring.language](mbstring.configuration.html#ini.mbstring.language)                                        | "neutral"    | PHPINIALL               |                                                         |
+| [mbstring.detect\_order](mbstring.configuration.html#ini.mbstring.detect-order)                               | NULL         | PHPINIALL               |                                                         |
+| [mbstring.http\_input](mbstring.configuration.html#ini.mbstring.http-input)                                   | "pass"       | PHPINIALL               | Застаріла                                               |
+| [mbstring.http\_output](mbstring.configuration.html#ini.mbstring.http-output)                                 | "pass"       | PHPINIALL               | Застаріла                                               |
+| [mbstring.internal\_encoding](mbstring.configuration.html#ini.mbstring.internal-encoding)                     | NULL         | PHPINIALL               | Застаріла                                               |
+| [mbstring.substitute\_character](mbstring.configuration.html#ini.mbstring.substitute-character)               | NULL         | PHPINIALL               |                                                         |
+| [mbstring.func\_overload](mbstring.configuration.html#ini.mbstring.func-overload)                             | "0"          | PHPINISYSTEM            | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
+| [mbstring.encoding\_translation](mbstring.configuration.html#ini.mbstring.encoding-translation)               | "0"          | PHPINIPERDIR            |                                                         |
+| [mbstring.http\_output\_conv\_mimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/     | application/xhtml+xml)" | PHPINIALL                                               |
+| [mbstring.strict\_detection](mbstring.configuration.html#ini.mbstring.strict-detection)                       | "0"          | PHPINIALL               |                                                         |
 
 Для детального опису констант PHPINI, зверніться до розділу [Где могут быть установлены параметры конфигурации](configuration.changes.modes.html)
 

@@ -41,10 +41,10 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type)
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.3.0 |  |
-| [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |  |
+| Версия                                                                                                                                                                                                                                                                   | Описание |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| PECL mongodb 1.3.0                                                                                                                                                                                                                                                       |          |
+| [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |          |
 
 | | PECL mongodb 1.1.3 |
 

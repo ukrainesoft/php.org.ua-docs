@@ -148,10 +148,10 @@ final public isSecondary(): bool
 
 ## список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.11.0 |  |
-| Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`** |  |
+| Версия                                                           | Описание |
+|------------------------------------------------------------------|----------|
+| PECL mongodb 1.11.0                                              |          |
+| Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`** |          |
 
 ## Зміст
 

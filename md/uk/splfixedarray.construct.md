@@ -35,9 +35,9 @@ public **SplFixedArray::construct**(int `$size`
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `size` від'ємний; раніше викидався виняток [InvalidArgumentException](class.invalidargumentexception.html) |
+| Версия | Описание                                                                                                                                                                            |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `size` від'ємний; раніше викидався виняток [InvalidArgumentException](class.invalidargumentexception.html) |
 
 ### Приклади
 

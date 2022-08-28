@@ -41,10 +41,10 @@ final public MongoDB\Driver\Server::executeBulkWrite(string $namespace, MongoDB\
 
 **options**
 
-| Опция | Тип | Описание |
-| --- | --- | --- |
-| session | [MongoDB\\Driver\\Session](class.mongodb-driver-session.html) |  |
-| Сесія зв'язування з операцією. |  |  |
+| Опция                          | Тип                                                           | Описание |
+|--------------------------------|---------------------------------------------------------------|----------|
+| session                        | [MongoDB\\Driver\\Session](class.mongodb-driver-session.html) |          |
+| Сесія зв'язування з операцією. |                                                               |          |
 
 | | writeConcern | [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.html)
 
@@ -70,10 +70,10 @@ final public MongoDB\Driver\Server::executeBulkWrite(string $namespace, MongoDB\
 
 ### список змін
 
-| Версия | Описание |
-| --- | --- |
-| PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html) |
+| Версия             | Описание                                                                                                                                                                                                                                                                                             |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)                                                                     |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.html)                                                                                                                  |
 | PECL mongodb 1.3.0 | Якщо `bulk` не містить операцій запису, викидається [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Раніше викидалося [MongoDB\\Driver\\Exception\\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.html) |
 
 ### Примітки
